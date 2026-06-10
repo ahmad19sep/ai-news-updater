@@ -29,8 +29,29 @@ def connect():
         )
     """)
     conn.execute("CREATE INDEX IF NOT EXISTS idx_items_fetched ON items(fetched)")
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS meta (
+            key   TEXT PRIMARY KEY,
+            value TEXT
+        )
+    """)
     conn.commit()
     return conn
+
+
+def get_meta(conn, key, default=None):
+    row = conn.execute("SELECT value FROM meta WHERE key = ?", (key,)).fetchone()
+    return row["value"] if row else default
+
+
+def set_meta(conn, key, value):
+    conn.execute("INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)", (key, value))
+    conn.commit()
+
+
+def mark_notified(conn, item_id):
+    conn.execute("UPDATE items SET notified = 1 WHERE id = ?", (item_id,))
+    conn.commit()
 
 
 def url_exists(conn, url):

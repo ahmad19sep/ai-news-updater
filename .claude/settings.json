@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "PowerShell(python main.py --latest)",
-      "PowerShell(git add -A)"
+      "PowerShell(git add -A)",
+      "PowerShell(python -c \"import secrets; print\\('ai-radar-' + secrets.token_urlsafe\\(9\\).lower\\(\\).replace\\('_','x'\\).replace\\('-','z'\\)\\)\")",
+      "PowerShell(python main.py --test)"
     ]
   }
 }

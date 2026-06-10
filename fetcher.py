@@ -91,6 +91,11 @@ def fetch_feed(conn, feed_cfg, existing, stats):
         new_count += 1
         stats["new"] += 1
 
+        # Official lab announcement -> goes straight to the phone
+        if name in config.INSTANT_SOURCES:
+            stats["alerts"].append(
+                {"id": new_id, "title": title, "url": link, "source": name})
+
     conn.commit()
     if new_count:
         print(f"  [+] {name}: {new_count} new")
@@ -138,7 +143,8 @@ def run_fetch():
     conn = database.connect()
     existing = [dict(r) for r in
                 database.recent_items(conn, config.DUPLICATE_WINDOW_HOURS)]
-    stats = {"new": 0, "grouped": 0, "junk": 0, "not_ai": 0, "failed_feeds": []}
+    stats = {"new": 0, "grouped": 0, "junk": 0, "not_ai": 0,
+             "failed_feeds": [], "alerts": []}
 
     print(f"Fetching {len(config.FEEDS)} feeds + HF papers ...")
     for feed_cfg in config.FEEDS:

@@ -106,3 +106,28 @@ MAX_ITEM_AGE_DAYS = 3
 
 # Database file (created automatically in the project folder)
 DB_FILE = "news.db"
+
+# ---------------- Phone notifications (ntfy.sh) ----------------
+# Setup on your phone (one time):
+#   1. Install the "ntfy" app (Play Store / App Store)
+#   2. Tap + and subscribe to the topic name below
+# Keep the topic SECRET - anyone who knows it can read your alerts.
+NTFY_SERVER = "https://ntfy.sh"
+NTFY_TOPIC = "ai-radar-tj1zwzvmmtvd"
+
+# Sources whose new items trigger an INSTANT phone alert
+# (official lab announcements only - your "be first in Urdu" moments).
+INSTANT_SOURCES = [
+    "OpenAI Blog",
+    "Google DeepMind",
+    "Hugging Face Blog",
+    "Google AI Blog",
+    "NVIDIA AI Blog",
+]
+
+# Digest times (24h clock, your PC's local time). All non-instant items
+# are collected and sent as one grouped summary at these hours.
+DIGEST_HOURS = [8, 14, 21]
+
+# Max stories per pillar inside one digest (newest first).
+DIGEST_MAX_PER_PILLAR = 8
