@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python main.py --latest)",
+      "PowerShell(git add -A)"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# Database is personal data, not code
+news.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
