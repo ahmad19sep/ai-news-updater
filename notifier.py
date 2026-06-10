@@ -74,7 +74,7 @@ def send_digest(conn):
         if skipped > 0:
             lines.append(f"...and {skipped} more on the dashboard")
         ok = send(
-            title=f"Digest - {config.PILLARS[pillar_num]} ({len(items)})",
+            title=f"Digest - {config.CATEGORIES[pillar_num]} ({len(items)})",
             message="\n\n".join(lines),
             tags="newspaper",
             click=config.DASHBOARD_URL,  # tap the notification -> dashboard opens

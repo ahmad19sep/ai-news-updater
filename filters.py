@@ -17,6 +17,22 @@ _JUNK_PATTERNS = [re.compile(r"\b" + re.escape(k) + r"\b", re.IGNORECASE)
                   for k in config.JUNK_KEYWORDS]
 
 
+# Category rules compiled once: list of (category_id, [patterns])
+_CATEGORY_PATTERNS = [
+    (cat_id, [re.compile(r"\b" + re.escape(k) + r"\b", re.IGNORECASE) for k in words])
+    for cat_id, words in config.CATEGORY_RULES
+]
+
+
+def classify(title, default_category):
+    """Sort a story into a category by its title. First rule that
+    matches wins; no match -> the feed's default category."""
+    for cat_id, patterns in _CATEGORY_PATTERNS:
+        if any(p.search(title) for p in patterns):
+            return cat_id
+    return default_category
+
+
 def is_ai_related(title):
     return any(p.search(title) for p in _AI_PATTERNS)
 

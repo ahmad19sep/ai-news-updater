@@ -30,17 +30,19 @@ def _entry_published(entry):
     return None
 
 
-def _too_old(published):
+def _too_old(published, max_days=None):
     if published is None:
         return False  # no date -> keep it, better safe than missing news
-    cutoff = datetime.now(timezone.utc) - timedelta(days=config.MAX_ITEM_AGE_DAYS)
+    days = max_days or config.MAX_ITEM_AGE_DAYS
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     return published < cutoff
 
 
 def fetch_feed(conn, feed_cfg, existing, stats):
     """Download one RSS feed and save its new items."""
     name, url = feed_cfg["name"], feed_cfg["url"]
-    pillar, trusted = feed_cfg["pillar"], feed_cfg["trusted"]
+    default_cat, trusted = feed_cfg["category"], feed_cfg["trusted"]
+    lock = feed_cfg.get("lock", False)
 
     # Try the main URL, then the backup URL (e.g. Bing News when Google
     # News blocks cloud server IPs). One retry each.
@@ -73,7 +75,7 @@ def fetch_feed(conn, feed_cfg, existing, stats):
             continue
 
         published = _entry_published(entry)
-        if _too_old(published):
+        if _too_old(published, feed_cfg.get("max_age_days")):
             continue
 
         # --- Filters ---
@@ -94,7 +96,8 @@ def fetch_feed(conn, feed_cfg, existing, stats):
             continue
 
         # --- New story ---
-        new_id = database.add_item(conn, title, link, name, pillar,
+        category = default_cat if lock else filters.classify(title, default_cat)
+        new_id = database.add_item(conn, title, link, name, category,
                                    published.isoformat() if published else None)
         existing.append({"id": new_id, "title": title})  # so later feeds can group with it
         new_count += 1
@@ -137,7 +140,7 @@ def fetch_hf_papers(conn, existing, stats):
             continue
         if filters.find_duplicate(title, existing) is not None:
             continue
-        new_id = database.add_item(conn, title, link, "HF Trending Papers", 5, None)
+        new_id = database.add_item(conn, title, link, "HF Trending Papers", 9, None)
         existing.append({"id": new_id, "title": title})
         new_count += 1
         stats["new"] += 1
@@ -169,9 +172,9 @@ def run_fetch():
     if stats["failed_feeds"]:
         print(f"  Failed feeds      : {', '.join(stats['failed_feeds'])}")
     print("-" * 52)
-    by_pillar = database.count_by_pillar(conn, since_hours=24)
-    for num, pname in config.PILLARS.items():
-        print(f"  Pillar {num} ({pname}): {by_pillar.get(num, 0)} in last 24h")
+    by_cat = database.count_by_pillar(conn, since_hours=24)
+    for num, cname in config.CATEGORIES.items():
+        print(f"  {cname}: {by_cat.get(num, 0)} in last 24h")
     print(f"  Total stories in archive: {database.total_count(conn)}")
     print("=" * 52)
 

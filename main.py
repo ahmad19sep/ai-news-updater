@@ -65,8 +65,8 @@ def show_latest(limit=20):
         return
     print(f"\n--- {len(rows)} newest stories ---\n")
     for r in rows:
-        pillar = config.PILLARS.get(r["pillar"], "?")
-        print(f"[{pillar}] {r['title']}")
+        cat = config.CATEGORIES.get(r["pillar"], "?")
+        print(f"[{cat}] {r['title']}")
         print(f"    {r['source']}  |  {r['url']}\n")
     conn.close()
 

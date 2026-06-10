@@ -196,7 +196,7 @@ def index():
         })
 
     return render_template_string(
-        TEMPLATE, items=items, pillars=config.PILLARS, pillar=pillar,
+        TEMPLATE, items=items, pillars=config.CATEGORIES, pillar=pillar,
         q=q, done_filter=done_filter, page=page, has_more=has_more, total=total,
     )
 

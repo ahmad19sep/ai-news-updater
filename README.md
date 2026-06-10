@@ -36,13 +36,17 @@ Keep the topic name secret — it is your private channel.
 announcements: OpenAI, Google DeepMind, Google AI, NVIDIA, Hugging Face.
 Everything else arrives in **3 daily digests** grouped by pillar.
 
-## The 5 pillars
+## The 10 categories
 
-1. **Product & Model Updates** — OpenAI, DeepMind, Anthropic, Meta, Mistral, xAI, Microsoft, NVIDIA, Hugging Face
-2. **AI in Science** — ScienceDaily, MIT News, Nature, NASA
-3. **Leaders & Voices** — Altman, Amodei, Hassabis, Huang, Nadella, Musk + podcasts
-4. **Interesting Uses** — Reddit, Hacker News, Google News
-5. **Research Breakthroughs** — arXiv, Hugging Face trending papers
+Stories are sorted by **what the title talks about** (keyword rules in
+`config.py`), not just where they came from:
+
+1. **New Tools & Models** | 2. **AI in Coding** | 3. **Leaders & Podcasts**
+4. **AI & the Future** | 5. **AI in Defense** | 6. **AI in Space**
+7. **AI in Agriculture** | 8. **AI in Health & Science** | 9. **Research Papers**
+10. **AI General News**
+
+Changed the rules? Run `python reclassify.py` to re-sort the whole archive.
 
 ## Files
 

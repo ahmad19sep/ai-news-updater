@@ -182,7 +182,7 @@ def generate():
 
     updated = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
     html = (PAGE
-            .replace("__PILLARS__", json.dumps(config.PILLARS))
+            .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__UPDATED__", updated))
 

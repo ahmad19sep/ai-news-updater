@@ -1,17 +1,76 @@
 """
 AI News Radar - Configuration
-All news sources, organized by the 5 content pillars.
+All news sources, categories, and filter keywords.
 Every source here is FREE (RSS feeds and public APIs).
 """
 
-# Pillar names (used in database and display)
-PILLARS = {
-    1: "Product & Model Updates",
-    2: "AI in Science",
-    3: "Leaders & Voices",
-    4: "Interesting Uses",
-    5: "Research Breakthroughs",
+import os
+
+# ---------------- Categories ----------------
+# Every story is sorted into one of these by its TITLE (keyword rules
+# below), no matter which source it came from.
+CATEGORIES = {
+    1: "New Tools & Models",
+    2: "AI in Coding",
+    3: "Leaders & Podcasts",
+    4: "AI & the Future",
+    5: "AI in Defense",
+    6: "AI in Space",
+    7: "AI in Agriculture",
+    8: "AI in Health & Science",
+    9: "Research Papers",
+    10: "AI General News",
 }
+
+# Rules are checked top to bottom - the FIRST match wins, so put the
+# most specific topics first. Words match on word boundaries.
+# Tune these lists anytime; then run  python reclassify.py  to re-sort
+# the whole archive with the new rules.
+CATEGORY_RULES = [
+    (2, [  # AI in Coding
+        "coding", "code", "coder", "programmer", "programming", "developer",
+        "copilot", "cursor", "github", "software engineer", "vibe coding",
+        "ide", "debugging", "pull request", "claude code", "codex", "devin",
+    ]),
+    (6, [  # AI in Space
+        "space", "nasa", "satellite", "satellites", "astronomy", "astronaut",
+        "mars", "lunar", "moon", "rocket", "orbit", "telescope", "galaxy",
+        "spacex", "cosmos", "exoplanet",
+    ]),
+    (7, [  # AI in Agriculture
+        "farm", "farming", "farmer", "farmers", "agriculture", "agricultural",
+        "crop", "crops", "harvest", "livestock", "soil", "irrigation",
+        "pesticide", "agritech", "agtech", "greenhouse",
+    ]),
+    (5, [  # AI in Defense
+        "military", "army", "defense", "defence", "pentagon", "weapon",
+        "weapons", "warfare", "navy", "air force", "soldier", "soldiers",
+        "battlefield", "missile", "missiles", "national security", "combat",
+    ]),
+    (8, [  # AI in Health & Science
+        "health", "medical", "medicine", "cancer", "drug", "drugs", "protein",
+        "biology", "hospital", "doctor", "doctors", "disease", "vaccine",
+        "surgery", "climate", "physics", "chemistry", "dna", "brain",
+        "mental health", "diagnosis", "patient", "patients", "biotech",
+    ]),
+    (3, [  # Leaders & Podcasts
+        "altman", "amodei", "hassabis", "jensen huang", "nadella", "musk",
+        "zuckerberg", "lecun", "sutskever", "pichai", "podcast", "interview",
+        "keynote", "ceo",
+    ]),
+    (4, [  # AI & the Future
+        "agi", "superintelligence", "future", "jobs", "job", "unemployment",
+        "workforce", "workers", "singularity", "prediction", "predicts",
+        "humanity", "existential", "by 2030", "by 2035", "takeover",
+    ]),
+    (1, [  # New Tools & Models
+        "launch", "launches", "launched", "release", "releases", "released",
+        "unveils", "unveil", "introduces", "announces", "new model", "update",
+        "upgrade", "feature", "features", "tool", "tools", "app", "api",
+        "model", "models", "version",
+    ]),
+    # No match -> the feed's own default category (often 10, General News)
+]
 
 
 def google_news(query):
@@ -27,60 +86,67 @@ def bing_news(query):
     return f"https://www.bing.com/news/search?q={q}&format=rss"
 
 
-def news_search(name, query, pillar):
-    """A news-search feed: tries Google News first, falls back to Bing News."""
-    return {"name": name, "url": google_news(query), "fallback": bing_news(query),
-            "pillar": pillar, "trusted": False}
+def news_search(name, query, category, lock=False, max_age_days=None):
+    """A news-search feed: tries Google News first, falls back to Bing News.
+    lock=True -> always file under this category, skip title rules.
+    max_age_days -> accept older stories (slow topics like space/agriculture)."""
+    feed = {"name": name, "url": google_news(query), "fallback": bing_news(query),
+            "category": category, "trusted": False, "lock": lock}
+    if max_age_days:
+        feed["max_age_days"] = max_age_days
+    return feed
 
 
-def youtube_channel(channel_id):
-    """Build a YouTube RSS feed URL for a channel."""
-    return f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-
-
-# Each feed: name, url, pillar, trusted
-# trusted=True  -> official AI source, items pass WITHOUT keyword filter
+# Each feed: name, url, default category, trusted
+# trusted=True  -> official AI source, items pass WITHOUT the AI keyword filter
 # trusted=False -> general source, items must contain AI keywords to pass
+# lock=True     -> keep the feed's category, ignore title rules
 FEEDS = [
-    # ---------- Pillar 1: Product & Model Updates (official labs) ----------
-    {"name": "OpenAI Blog",        "url": "https://openai.com/news/rss.xml",                          "pillar": 1, "trusted": True},
-    {"name": "Google DeepMind",    "url": "https://deepmind.google/blog/rss.xml",                     "pillar": 1, "trusted": True},
-    {"name": "Hugging Face Blog",  "url": "https://huggingface.co/blog/feed.xml",                     "pillar": 1, "trusted": True},
+    # ---------- Official labs (default: New Tools & Models) ----------
+    {"name": "OpenAI Blog",        "url": "https://openai.com/news/rss.xml",                          "category": 1, "trusted": True},
+    {"name": "Google DeepMind",    "url": "https://deepmind.google/blog/rss.xml",                     "category": 1, "trusted": True},
+    {"name": "Hugging Face Blog",  "url": "https://huggingface.co/blog/feed.xml",                     "category": 1, "trusted": True},
+    {"name": "Google AI Blog",     "url": "https://blog.google/technology/ai/rss/",                   "category": 1, "trusted": True},
+    {"name": "NVIDIA AI Blog",     "url": "https://blogs.nvidia.com/blog/category/generative-ai/feed/", "category": 1, "trusted": True},
     news_search("Microsoft AI",    '"Microsoft" Copilot OR "Microsoft AI"', 1),
-    {"name": "Google AI Blog",     "url": "https://blog.google/technology/ai/rss/",                   "pillar": 1, "trusted": True},
-    {"name": "NVIDIA AI Blog",     "url": "https://blogs.nvidia.com/blog/category/generative-ai/feed/", "pillar": 1, "trusted": True},
-    # Labs without official RSS -> Google News queries (still free)
     news_search("Anthropic News",  '"Anthropic" OR "Claude AI" announcement', 1),
     news_search("Meta AI News",    '"Meta AI" model release', 1),
     news_search("Mistral News",    '"Mistral AI"', 1),
     news_search("xAI News",        '"xAI" OR "Grok" Elon model', 1),
 
-    # ---------- Pillar 2: AI in Science ----------
-    {"name": "ScienceDaily AI",    "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml", "pillar": 2, "trusted": True},
-    {"name": "MIT News AI",        "url": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml",              "pillar": 2, "trusted": True},
-    {"name": "Nature",             "url": "https://www.nature.com/nature.rss",                        "pillar": 2, "trusted": False},
-    {"name": "NASA News",          "url": "https://www.nasa.gov/feed/",                               "pillar": 2, "trusted": False},
+    # ---------- Science & space ----------
+    {"name": "ScienceDaily AI",    "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml", "category": 8, "trusted": True},
+    {"name": "MIT News AI",        "url": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml",              "category": 8, "trusted": True},
+    {"name": "Nature",             "url": "https://www.nature.com/nature.rss",                        "category": 8, "trusted": False},
+    {"name": "NASA News",          "url": "https://www.nasa.gov/feed/",                               "category": 6, "trusted": False},
 
-    # ---------- Pillar 3: Leaders & Voices ----------
-    news_search("Sam Altman News",     '"Sam Altman"', 3),
-    news_search("Dario Amodei News",   '"Dario Amodei"', 3),
-    news_search("Demis Hassabis News", '"Demis Hassabis"', 3),
-    news_search("Jensen Huang News",   '"Jensen Huang" AI', 3),
-    news_search("Satya Nadella News",  '"Satya Nadella" AI', 3),
-    news_search("Elon Musk AI News",   '"Elon Musk" AI', 3),
-    # Key podcast channels on YouTube
-    {"name": "Lex Fridman Podcast","url": youtube_channel("UCSHZKyawb77ixDdsGog4iWA"),                "pillar": 3, "trusted": False},
-    {"name": "Dwarkesh Podcast",   "url": youtube_channel("UCXl4i9dYBrFOabk0xGmbkRA"),                "pillar": 3, "trusted": False},
+    # ---------- Leaders & podcasts (locked to category 3) ----------
+    news_search("Sam Altman News",     '"Sam Altman"', 3, lock=True),
+    news_search("Dario Amodei News",   '"Dario Amodei"', 3, lock=True),
+    news_search("Demis Hassabis News", '"Demis Hassabis"', 3, lock=True),
+    news_search("Jensen Huang News",   '"Jensen Huang" AI', 3, lock=True),
+    news_search("Satya Nadella News",  '"Satya Nadella" AI', 3, lock=True),
+    news_search("Elon Musk AI News",   '"Elon Musk" AI', 3, lock=True),
+    {"name": "Lex Fridman Podcast","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA", "category": 3, "trusted": False, "lock": True},
+    {"name": "Dwarkesh Podcast",   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXl4i9dYBrFOabk0xGmbkRA", "category": 3, "trusted": False, "lock": True},
 
-    # ---------- Pillar 4: Interesting Uses ----------
-    {"name": "r/ChatGPT",          "url": "https://www.reddit.com/r/ChatGPT/top/.rss?t=day",          "pillar": 4, "trusted": True},
-    {"name": "r/LocalLLaMA",       "url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",       "pillar": 4, "trusted": True},
-    {"name": "r/artificial",       "url": "https://www.reddit.com/r/artificial/top/.rss?t=day",       "pillar": 4, "trusted": True},
-    {"name": "Hacker News AI",     "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=50",    "pillar": 4, "trusted": True},
-    news_search("Using AI To...",  '"using AI to"', 4),
+    # ---------- Community & general (default: General News) ----------
+    {"name": "r/ChatGPT",          "url": "https://www.reddit.com/r/ChatGPT/top/.rss?t=day",          "category": 10, "trusted": True},
+    {"name": "r/LocalLLaMA",       "url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",       "category": 10, "trusted": True},
+    {"name": "r/artificial",       "url": "https://www.reddit.com/r/artificial/top/.rss?t=day",       "category": 10, "trusted": True},
+    {"name": "Hacker News AI",     "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=50",    "category": 10, "trusted": True},
+    news_search("Using AI To...",  '"using AI to"', 10),
 
-    # ---------- Pillar 5: Research Breakthroughs ----------
-    {"name": "arXiv AI",           "url": "https://rss.arxiv.org/rss/cs.AI",                          "pillar": 5, "trusted": True},
+    # ---------- Topic hunters (fill the new categories) ----------
+    news_search("AI in Space",       'AI space exploration OR "AI" NASA satellite', 6, max_age_days=30),
+    news_search("AI in Agriculture", 'AI agriculture OR "AI" farming crops', 7, max_age_days=30),
+    news_search("AI in Defense",     'AI military OR "AI" defense weapons', 5),
+    news_search("AI in Coding",      'AI coding OR "vibe coding" OR "AI" developers', 2),
+    news_search("AI & the Future",   '"AI" jobs future OR AGI prediction', 4, max_age_days=30),
+    news_search("AI in Health",      'AI healthcare OR "AI" medicine doctors', 8),
+
+    # ---------- Research papers (locked to category 9) ----------
+    {"name": "arXiv AI",           "url": "https://rss.arxiv.org/rss/cs.AI",                          "category": 9, "trusted": True, "lock": True},
     # Hugging Face trending papers are fetched separately in fetcher.py (no RSS)
 ]
 
@@ -128,8 +194,6 @@ DB_FILE = "news.db"
 # On the cloud server the topic comes from a secret environment variable,
 # so it never appears in the public code. Locally, put it in a file named
 # ntfy_topic.txt (one line, ignored by git).
-import os
-
 NTFY_SERVER = "https://ntfy.sh"
 
 
@@ -160,7 +224,7 @@ INSTANT_SOURCES = [
 # are collected and sent as one grouped summary at these hours.
 DIGEST_HOURS = [8, 14, 21]
 
-# Max stories per pillar inside one digest (newest first).
+# Max stories per category inside one digest (newest first).
 DIGEST_MAX_PER_PILLAR = 8
 
 # Your online dashboard (opens when you tap a digest notification).
