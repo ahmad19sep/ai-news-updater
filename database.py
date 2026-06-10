@@ -35,6 +35,19 @@ def connect():
             value TEXT
         )
     """)
+    conn.commit()
+    return conn
+
+
+# Your personal studio data (video plans, done marks) lives in a SEPARATE
+# file. news.db is written by the cloud server every hour - keeping your
+# edits out of it means "Get latest" can always pull without conflicts.
+PLANS_DB = "plans.db"
+
+
+def connect_plans():
+    conn = sqlite3.connect(PLANS_DB)
+    conn.row_factory = sqlite3.Row
     conn.execute("""
         CREATE TABLE IF NOT EXISTS plans (
             id           INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -48,6 +61,7 @@ def connect():
             updated      TEXT NOT NULL
         )
     """)
+    conn.execute("CREATE TABLE IF NOT EXISTS done_urls (url TEXT PRIMARY KEY)")
     conn.commit()
     return conn
 

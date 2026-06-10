@@ -22,7 +22,22 @@ pip install -r requirements.txt
 | `python main.py --latest` | Show the 20 newest stories in the terminal |
 | `python main.py --digest` | Send the digest to your phone right now |
 | `python main.py --test` | Send a test notification to your phone |
-| `python dashboard.py` | Open the dashboard at http://localhost:5000 |
+| `python dashboard.py` | Open the **Creator Studio** at http://localhost:5000 |
+
+## Creator Studio (on your PC)
+
+Three tabs at http://localhost:5000:
+
+- **📰 News** — all stories with filters/search, a **🎬 Plan** button on every
+  story (sends it to the planner) and done marks
+- **🎬 Planner** — your video board: Idea → Script → Record → Edit → Uploaded
+  → Published. Cards hold notes, platform (long/short/both) and planned date
+- **📝 Video Prep** — paste a story link → the tool fetches the article, finds
+  related coverage from your archive, and builds a ready prompt: **copy it
+  into your Claude app** to get the full script kit (no API needed)
+
+Your plans and done marks live in `plans.db` (only on your PC, never pushed),
+so "Get latest" always pulls cloud news without conflicts.
 
 ## Phone setup (one time)
 

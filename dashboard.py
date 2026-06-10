@@ -113,7 +113,8 @@ NEWS_TMPL = """
           <input type="hidden" name="url" value="{{ it.url }}">
           <button title="Add to your video planner">🎬 Plan</button>
         </form>
-        <form method="post" action="{{ url_for('toggle_done', item_id=it.id) }}">
+        <form method="post" action="{{ url_for('toggle_done') }}">
+          <input type="hidden" name="url" value="{{ it.url }}">
           <input type="hidden" name="back" value="{{ request.full_path }}">
           <button>{{ 'undo' if it.done else 'done ✓' }}</button>
         </form>
@@ -416,22 +417,29 @@ def index():
     done_filter = request.args.get("done", "")
     page = max(1, request.args.get("page", 1, type=int))
 
+    database.connect_plans().close()  # make sure plans.db + tables exist
+
     where, params = [], []
     if pillar:
-        where.append("pillar = ?")
+        where.append("items.pillar = ?")
         params.append(pillar)
     if q:
-        where.append("title LIKE ?")
+        where.append("items.title LIKE ?")
         params.append(f"%{q}%")
     if done_filter == "hide":
-        where.append("done = 0")
+        where.append("d.url IS NULL")
     where_sql = ("WHERE " + " AND ".join(where)) if where else ""
 
+    # Done marks live in plans.db (yours) - attach it so news.db stays
+    # untouched and "Get latest" never conflicts with the cloud.
     conn = database.connect()
-    total = conn.execute(f"SELECT COUNT(*) AS n FROM items {where_sql}", params).fetchone()["n"]
+    conn.execute(f"ATTACH DATABASE '{database.PLANS_DB}' AS p")
+    join = "LEFT JOIN p.done_urls d ON d.url = items.url"
+    total = conn.execute(
+        f"SELECT COUNT(*) AS n FROM items {join} {where_sql}", params).fetchone()["n"]
     rows = conn.execute(
-        f"SELECT * FROM items {where_sql} "
-        "ORDER BY COALESCE(published, fetched) DESC LIMIT ? OFFSET ?",
+        f"SELECT items.*, d.url IS NOT NULL AS is_done FROM items {join} {where_sql} "
+        "ORDER BY COALESCE(items.published, items.fetched) DESC LIMIT ? OFFSET ?",
         params + [PAGE_SIZE + 1, (page - 1) * PAGE_SIZE],
     ).fetchall()
     conn.close()
@@ -439,7 +447,7 @@ def index():
     has_more = len(rows) > PAGE_SIZE
     items = [{
         "id": r["id"], "title": r["title"], "url": r["url"],
-        "source": r["source"], "pillar": r["pillar"], "done": r["done"],
+        "source": r["source"], "pillar": r["pillar"], "done": r["is_done"],
         "ago": time_ago(r["published"] or r["fetched"]),
         "extra_links": json.loads(r["links"] or "[]"),
     } for r in rows[:PAGE_SIZE]]
@@ -449,10 +457,14 @@ def index():
                   has_more=has_more, total=total)
 
 
-@app.route("/done/<int:item_id>", methods=["POST"])
-def toggle_done(item_id):
-    conn = database.connect()
-    conn.execute("UPDATE items SET done = 1 - done WHERE id = ?", (item_id,))
+@app.route("/done", methods=["POST"])
+def toggle_done():
+    url = request.form.get("url", "")
+    conn = database.connect_plans()
+    if conn.execute("SELECT 1 FROM done_urls WHERE url = ?", (url,)).fetchone():
+        conn.execute("DELETE FROM done_urls WHERE url = ?", (url,))
+    else:
+        conn.execute("INSERT OR IGNORE INTO done_urls (url) VALUES (?)", (url,))
     conn.commit()
     conn.close()
     return redirect(request.form.get("back") or "/")
@@ -470,7 +482,7 @@ def update():
 
 @app.route("/studio")
 def studio():
-    conn = database.connect()
+    conn = database.connect_plans()
     rows = conn.execute("SELECT * FROM plans ORDER BY updated DESC").fetchall()
     conn.close()
     plans_by_stage = {s: [] for s in STAGES}
@@ -487,7 +499,7 @@ def plan_new():
     url = request.form.get("url", "").strip()
     if title:
         now = datetime.now(timezone.utc).isoformat()
-        conn = database.connect()
+        conn = database.connect_plans()
         conn.execute(
             "INSERT INTO plans (title, url, created, updated) VALUES (?, ?, ?, ?)",
             (title, url, now, now))
@@ -499,7 +511,7 @@ def plan_new():
 @app.route("/plan/move/<int:plan_id>", methods=["POST"])
 def plan_move(plan_id):
     direction = request.form.get("dir")
-    conn = database.connect()
+    conn = database.connect_plans()
     row = conn.execute("SELECT stage FROM plans WHERE id = ?", (plan_id,)).fetchone()
     if row:
         i = STAGES.index(row["stage"]) if row["stage"] in STAGES else 0
@@ -513,7 +525,7 @@ def plan_move(plan_id):
 
 @app.route("/plan/update/<int:plan_id>", methods=["POST"])
 def plan_update(plan_id):
-    conn = database.connect()
+    conn = database.connect_plans()
     conn.execute(
         "UPDATE plans SET notes = ?, platform = ?, planned_date = ?, updated = ? WHERE id = ?",
         (request.form.get("notes", ""), request.form.get("platform", "both"),
@@ -526,7 +538,7 @@ def plan_update(plan_id):
 
 @app.route("/plan/delete/<int:plan_id>", methods=["POST"])
 def plan_delete(plan_id):
-    conn = database.connect()
+    conn = database.connect_plans()
     conn.execute("DELETE FROM plans WHERE id = ?", (plan_id,))
     conn.commit()
     conn.close()

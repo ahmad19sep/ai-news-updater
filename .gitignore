@@ -5,3 +5,6 @@ ntfy_topic.txt
 __pycache__/
 *.pyc
 .venv/
+
+# Your personal studio data (plans, done marks) - stays on your PC
+plans.db
