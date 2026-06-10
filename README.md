@@ -20,6 +20,7 @@ pip install -r requirements.txt
 | `python main.py --latest` | Show the 20 newest stories in the terminal |
 | `python main.py --digest` | Send the digest to your phone right now |
 | `python main.py --test` | Send a test notification to your phone |
+| `python dashboard.py` | Open the dashboard at http://localhost:5000 |
 
 ## Phone setup (one time)
 
@@ -54,5 +55,6 @@ Everything else arrives in **3 daily digests** grouped by pillar.
 
 - [x] Phase 1 — Fetcher + database + keyword filter
 - [x] Phase 2 — ntfy.sh phone notifications (instant alerts + digests)
-- [ ] Phase 3 — Web dashboard with filters and search
+- [x] Cloud deploy — GitHub Actions fetches hourly, PC can stay off
+- [x] Phase 3 — Web dashboard (`dashboard.py`) with filters, search, done marks
 - [ ] Phase 4 — Tune filters during real use
