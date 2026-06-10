@@ -32,11 +32,14 @@ jobs:
       - name: Fetch news + send alerts + digest check
         run: python main.py
 
-      - name: Save database back to the repo
+      - name: Rebuild the online dashboard
+        run: python generate_site.py
+
+      - name: Save database + dashboard back to the repo
         run: |
           git config user.name "ai-news-radar-bot"
           git config user.email "actions@github.com"
-          git add news.db
+          git add news.db docs/
           if ! git diff --cached --quiet; then
             git commit -m "data: hourly news update"
             git pull --rebase origin main
