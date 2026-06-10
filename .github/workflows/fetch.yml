@@ -45,3 +45,12 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+      - name: Phone alert if the cloud fetch broke
+        if: failure()
+        run: |
+          curl -s -m 15 \
+            -H "Title: AI News Radar - cloud problem" \
+            -H "Priority: high" -H "Tags: warning" \
+            -d "The hourly cloud fetch failed. Check github.com/ahmad19sep/ai-news-updater/actions" \
+            "https://ntfy.sh/$NTFY_TOPIC" || true

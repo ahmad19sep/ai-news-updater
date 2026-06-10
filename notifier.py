@@ -77,6 +77,7 @@ def send_digest(conn):
             title=f"Digest - {config.PILLARS[pillar_num]} ({len(items)})",
             message="\n\n".join(lines),
             tags="newspaper",
+            click=config.DASHBOARD_URL,  # tap the notification -> dashboard opens
         )
         if ok:
             sent += 1

@@ -162,3 +162,6 @@ DIGEST_HOURS = [8, 14, 21]
 
 # Max stories per pillar inside one digest (newest first).
 DIGEST_MAX_PER_PILLAR = 8
+
+# Your online dashboard (opens when you tap a digest notification).
+DASHBOARD_URL = "https://ahmad19sep.github.io/ai-news-updater/"

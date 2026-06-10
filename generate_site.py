@@ -51,6 +51,7 @@ PAGE = """<!doctype html>
   .meta { font-size:12.5px; color:var(--dim); display:flex; flex-wrap:wrap;
       gap:6px 14px; align-items:center; }
   .pill { background:#20283a; color:#9cc1ff; padding:2px 9px; border-radius:10px; }
+  .pill.hot { background:#3a2616; color:#ffb86b; }
   .meta .db { margin-left:auto; background:none; border:1px solid var(--border);
       color:var(--dim); border-radius:6px; padding:3px 10px; font-size:12px; cursor:pointer; }
   .meta .db:hover { border-color:var(--accent); color:var(--accent); }
@@ -76,7 +77,7 @@ PAGE = """<!doctype html>
 const PILLARS = __PILLARS__;
 const ITEMS = __ITEMS__;
 const PAGE = 60;
-let pillar = 0, hideDone = false, q = "", shown = PAGE;
+let pillar = 0, hideDone = false, hotOnly = false, q = "", shown = PAGE;
 const doneSet = new Set(JSON.parse(localStorage.getItem("done") || "[]"));
 
 function ago(iso) {
@@ -93,6 +94,7 @@ function filtered() {
   return ITEMS.filter(it =>
     (!pillar || it.p === pillar) &&
     (!hideDone || !doneSet.has(it.u)) &&
+    (!hotOnly || (it.l && it.l.length)) &&
     (!needle || it.t.toLowerCase().includes(needle)));
 }
 
@@ -106,14 +108,15 @@ function render() {
   items.slice(0, shown).forEach(it => {
     const d = document.createElement("div");
     d.className = "card" + (doneSet.has(it.u) ? " done" : "");
-    let extra = "";
+    let extra = "", hot = "";
     if (it.l && it.l.length) {
+      hot = '<span class="pill hot">&#128293; ' + (it.l.length + 1) + " sources</span>";
       extra = '<div class="extra">also covered by: ' + it.l.map(x =>
         '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.source) + "</a>").join("") + "</div>";
     }
     d.innerHTML =
       '<h2><a href="' + esc(it.u) + '" target="_blank" rel="noopener">' + esc(it.t) + "</a></h2>" +
-      '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" +
+      '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + hot +
       "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
       '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done &#10003;") + "</button></div>" + extra;
     d.querySelector(".db").onclick = () => {
@@ -137,6 +140,12 @@ function bar() {
     b.onclick = () => { pillar = num; shown = PAGE; bar(); render(); };
     el.appendChild(b);
   });
+  const hot = document.createElement("button");
+  hot.innerHTML = "&#128293; Hot";
+  hot.className = hotOnly ? "active" : "";
+  hot.title = "Stories covered by 2+ sites - usually the big ones";
+  hot.onclick = () => { hotOnly = !hotOnly; shown = PAGE; bar(); render(); };
+  el.appendChild(hot);
   const h = document.createElement("button");
   h.innerHTML = "Hide covered";
   h.className = hideDone ? "active" : "";
