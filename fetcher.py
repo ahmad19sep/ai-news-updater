@@ -42,19 +42,28 @@ def fetch_feed(conn, feed_cfg, existing, stats):
     name, url = feed_cfg["name"], feed_cfg["url"]
     pillar, trusted = feed_cfg["pillar"], feed_cfg["trusted"]
 
+    # Try the main URL, then the backup URL (e.g. Bing News when Google
+    # News blocks cloud server IPs). One retry each.
+    urls = [url]
+    if feed_cfg.get("fallback"):
+        urls.append(feed_cfg["fallback"])
+
     parsed = None
-    for attempt in (1, 2):  # one retry, some feeds time out occasionally
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-            resp.raise_for_status()
-            parsed = feedparser.parse(resp.content)
+    for try_url in urls:
+        for attempt in (1, 2):
+            try:
+                resp = requests.get(try_url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+                resp.raise_for_status()
+                parsed = feedparser.parse(resp.content)
+                break
+            except Exception:
+                time.sleep(2)
+        if parsed is not None and parsed.entries:
             break
-        except Exception as e:
-            if attempt == 2:
-                print(f"  [!] {name}: failed ({type(e).__name__})")
-                stats["failed_feeds"].append(name)
-                return
-            time.sleep(2)
+    if parsed is None or not parsed.entries:
+        print(f"  [!] {name}: failed (all sources)")
+        stats["failed_feeds"].append(name)
+        return
 
     new_count = 0
     for entry in parsed.entries[:30]:  # max 30 per feed per run

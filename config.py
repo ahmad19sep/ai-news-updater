@@ -20,6 +20,19 @@ def google_news(query):
     return f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 
 
+def bing_news(query):
+    """Bing News RSS for the same query - used as automatic backup,
+    because Google News blocks cloud server IPs (GitHub Actions)."""
+    q = query.replace(" ", "+").replace('"', "%22")
+    return f"https://www.bing.com/news/search?q={q}&format=rss"
+
+
+def news_search(name, query, pillar):
+    """A news-search feed: tries Google News first, falls back to Bing News."""
+    return {"name": name, "url": google_news(query), "fallback": bing_news(query),
+            "pillar": pillar, "trusted": False}
+
+
 def youtube_channel(channel_id):
     """Build a YouTube RSS feed URL for a channel."""
     return f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
@@ -33,14 +46,14 @@ FEEDS = [
     {"name": "OpenAI Blog",        "url": "https://openai.com/news/rss.xml",                          "pillar": 1, "trusted": True},
     {"name": "Google DeepMind",    "url": "https://deepmind.google/blog/rss.xml",                     "pillar": 1, "trusted": True},
     {"name": "Hugging Face Blog",  "url": "https://huggingface.co/blog/feed.xml",                     "pillar": 1, "trusted": True},
-    {"name": "Microsoft AI",       "url": google_news('"Microsoft" Copilot OR "Microsoft AI"'),      "pillar": 1, "trusted": False},
+    news_search("Microsoft AI",    '"Microsoft" Copilot OR "Microsoft AI"', 1),
     {"name": "Google AI Blog",     "url": "https://blog.google/technology/ai/rss/",                   "pillar": 1, "trusted": True},
     {"name": "NVIDIA AI Blog",     "url": "https://blogs.nvidia.com/blog/category/generative-ai/feed/", "pillar": 1, "trusted": True},
     # Labs without official RSS -> Google News queries (still free)
-    {"name": "Anthropic News",     "url": google_news('"Anthropic" OR "Claude AI" announcement'),     "pillar": 1, "trusted": False},
-    {"name": "Meta AI News",       "url": google_news('"Meta AI" model release'),                     "pillar": 1, "trusted": False},
-    {"name": "Mistral News",       "url": google_news('"Mistral AI"'),                                "pillar": 1, "trusted": False},
-    {"name": "xAI News",           "url": google_news('"xAI" OR "Grok" Elon model'),                  "pillar": 1, "trusted": False},
+    news_search("Anthropic News",  '"Anthropic" OR "Claude AI" announcement', 1),
+    news_search("Meta AI News",    '"Meta AI" model release', 1),
+    news_search("Mistral News",    '"Mistral AI"', 1),
+    news_search("xAI News",        '"xAI" OR "Grok" Elon model', 1),
 
     # ---------- Pillar 2: AI in Science ----------
     {"name": "ScienceDaily AI",    "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml", "pillar": 2, "trusted": True},
@@ -49,12 +62,12 @@ FEEDS = [
     {"name": "NASA News",          "url": "https://www.nasa.gov/feed/",                               "pillar": 2, "trusted": False},
 
     # ---------- Pillar 3: Leaders & Voices ----------
-    {"name": "Sam Altman News",    "url": google_news('"Sam Altman"'),                                "pillar": 3, "trusted": False},
-    {"name": "Dario Amodei News",  "url": google_news('"Dario Amodei"'),                              "pillar": 3, "trusted": False},
-    {"name": "Demis Hassabis News","url": google_news('"Demis Hassabis"'),                            "pillar": 3, "trusted": False},
-    {"name": "Jensen Huang News",  "url": google_news('"Jensen Huang" AI'),                           "pillar": 3, "trusted": False},
-    {"name": "Satya Nadella News", "url": google_news('"Satya Nadella" AI'),                          "pillar": 3, "trusted": False},
-    {"name": "Elon Musk AI News",  "url": google_news('"Elon Musk" AI'),                              "pillar": 3, "trusted": False},
+    news_search("Sam Altman News",     '"Sam Altman"', 3),
+    news_search("Dario Amodei News",   '"Dario Amodei"', 3),
+    news_search("Demis Hassabis News", '"Demis Hassabis"', 3),
+    news_search("Jensen Huang News",   '"Jensen Huang" AI', 3),
+    news_search("Satya Nadella News",  '"Satya Nadella" AI', 3),
+    news_search("Elon Musk AI News",   '"Elon Musk" AI', 3),
     # Key podcast channels on YouTube
     {"name": "Lex Fridman Podcast","url": youtube_channel("UCSHZKyawb77ixDdsGog4iWA"),                "pillar": 3, "trusted": False},
     {"name": "Dwarkesh Podcast",   "url": youtube_channel("UCXl4i9dYBrFOabk0xGmbkRA"),                "pillar": 3, "trusted": False},
@@ -64,7 +77,7 @@ FEEDS = [
     {"name": "r/LocalLLaMA",       "url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",       "pillar": 4, "trusted": True},
     {"name": "r/artificial",       "url": "https://www.reddit.com/r/artificial/top/.rss?t=day",       "pillar": 4, "trusted": True},
     {"name": "Hacker News AI",     "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=50",    "pillar": 4, "trusted": True},
-    {"name": "Using AI To...",     "url": google_news('"using AI to"'),                               "pillar": 4, "trusted": False},
+    news_search("Using AI To...",  '"using AI to"', 4),
 
     # ---------- Pillar 5: Research Breakthroughs ----------
     {"name": "arXiv AI",           "url": "https://rss.arxiv.org/rss/cs.AI",                          "pillar": 5, "trusted": True},
