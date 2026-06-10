@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 
 import config
 import database
+import scoring
 
 MAX_STORIES = 1200  # keep the page fast on phones
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
@@ -52,6 +53,11 @@ PAGE = """<!doctype html>
       gap:6px 14px; align-items:center; }
   .pill { background:#20283a; color:#9cc1ff; padding:2px 9px; border-radius:10px; }
   .pill.hot { background:#3a2616; color:#ffb86b; }
+  .trends { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+  .trends .chip { background:#1b2a1e; color:#7ee087; border:1px solid #2a4a30;
+      padding:5px 12px; border-radius:16px; font-size:12.5px; cursor:pointer; }
+  .trends .chip small { color:#5a8a62; }
+  .why { font-size:12px; color:#e0c36b; margin-top:6px; }
   .meta .db { margin-left:auto; background:none; border:1px solid var(--border);
       color:var(--dim); border-radius:6px; padding:3px 10px; font-size:12px; cursor:pointer; }
   .meta .db:hover { border-color:var(--accent); color:var(--accent); }
@@ -67,6 +73,7 @@ PAGE = """<!doctype html>
 <div class="wrap">
   <h1>AI News Radar <span class="dot">&#9679;</span></h1>
   <div class="updated">Updated: __UPDATED__ (auto-refreshes every hour)</div>
+  <div class="trends" id="trends"></div>
   <div class="bar" id="pillars"></div>
   <div class="search"><input id="q" placeholder="Search stories... (e.g. Gemini, Altman, robot)"></div>
   <div class="count" id="count"></div>
@@ -76,8 +83,9 @@ PAGE = """<!doctype html>
 <script>
 const PILLARS = __PILLARS__;
 const ITEMS = __ITEMS__;
+const TRENDS = __TRENDS__;
 const PAGE = 60;
-let pillar = 0, hideDone = false, hotOnly = false, q = "", shown = PAGE;
+let pillar = 0, hideDone = false, hotOnly = false, topMode = false, q = "", shown = PAGE;
 const doneSet = new Set(JSON.parse(localStorage.getItem("done") || "[]"));
 
 function ago(iso) {
@@ -91,11 +99,14 @@ function esc(t) { const d = document.createElement("div"); d.textContent = t; re
 
 function filtered() {
   const needle = q.toLowerCase();
-  return ITEMS.filter(it =>
+  let items = ITEMS.filter(it =>
     (!pillar || it.p === pillar) &&
     (!hideDone || !doneSet.has(it.u)) &&
     (!hotOnly || (it.l && it.l.length)) &&
+    (!topMode || it.sc >= 5) &&
     (!needle || it.t.toLowerCase().includes(needle)));
+  if (topMode) items = items.slice().sort((a, b) => b.sc - a.sc);
+  return items;
 }
 
 function render() {
@@ -114,11 +125,13 @@ function render() {
       extra = '<div class="extra">also covered by: ' + it.l.map(x =>
         '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.source) + "</a>").join("") + "</div>";
     }
+    const why = (topMode && it.r && it.r.length)
+      ? '<div class="why">&#11088; score ' + it.sc + " &mdash; " + esc(it.r.join(" · ")) + "</div>" : "";
     d.innerHTML =
       '<h2><a href="' + esc(it.u) + '" target="_blank" rel="noopener">' + esc(it.t) + "</a></h2>" +
       '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + hot +
       "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
-      '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done &#10003;") + "</button></div>" + extra;
+      '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done &#10003;") + "</button></div>" + why + extra;
     d.querySelector(".db").onclick = () => {
       doneSet.has(it.u) ? doneSet.delete(it.u) : doneSet.add(it.u);
       localStorage.setItem("done", JSON.stringify([...doneSet]));
@@ -132,6 +145,12 @@ function render() {
 function bar() {
   const el = document.getElementById("pillars");
   el.innerHTML = "";
+  const top = document.createElement("button");
+  top.innerHTML = "&#11088; Top Picks";
+  top.className = topMode ? "active" : "";
+  top.title = "Best video stories right now, ranked by score";
+  top.onclick = () => { topMode = !topMode; shown = PAGE; bar(); render(); };
+  el.appendChild(top);
   const defs = [[0, "All"]].concat(Object.entries(PILLARS).map(([k, v]) => [+k, v]));
   defs.forEach(([num, name]) => {
     const b = document.createElement("button");
@@ -153,11 +172,28 @@ function bar() {
   el.appendChild(h);
 }
 
+function trendsBar() {
+  const el = document.getElementById("trends");
+  TRENDS.forEach(t => {
+    const c = document.createElement("button");
+    c.className = "chip";
+    const arrow = t.status === "new" ? "&#127381;" : "&#128640;";
+    c.innerHTML = arrow + " " + esc(t.display) + " <small>" + t.now +
+      (t.prev ? " (was " + t.prev + ")" : "") + "</small>";
+    c.title = "Click to see all stories about " + t.display;
+    c.onclick = () => {
+      q = t.display; document.getElementById("q").value = t.display;
+      shown = PAGE; render();
+    };
+    el.appendChild(c);
+  });
+}
+
 document.getElementById("q").addEventListener("input", e => {
   q = e.target.value.trim(); shown = PAGE; render();
 });
 document.getElementById("more").onclick = () => { shown += PAGE; render(); };
-bar(); render();
+trendsBar(); bar(); render();
 </script>
 </body>
 </html>
@@ -167,23 +203,32 @@ bar(); render();
 def generate():
     conn = database.connect()
     rows = conn.execute(
-        "SELECT title, url, links, source, pillar, published, fetched FROM items "
+        "SELECT id, title, url, links, source, pillar, published, fetched FROM items "
         "ORDER BY COALESCE(published, fetched) DESC LIMIT ?", (MAX_STORIES,)
     ).fetchall()
+
+    # Trend chips (new + rising only) and video-worthiness scores
+    trends = scoring.compute_trends(conn)
+    chips = [t for t in trends if t["status"] in ("new", "rising")][:10]
+    score_map = {s["id"]: s for s in scoring.score_items(conn, trends)}
     conn.close()
 
     items = []
     for r in rows:
+        s = score_map.get(r["id"])
         items.append({
             "t": r["title"], "u": r["url"], "s": r["source"], "p": r["pillar"],
             "d": r["published"] or r["fetched"],
             "l": json.loads(r["links"] or "[]"),
+            "sc": s["score"] if s else 0,
+            "r": s["reasons"] if s else [],
         })
 
     updated = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
     html = (PAGE
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
+            .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
             .replace("__UPDATED__", updated))
 
     os.makedirs(OUT_DIR, exist_ok=True)

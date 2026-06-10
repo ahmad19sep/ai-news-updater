@@ -49,6 +49,25 @@ def send_instant_alert(item):
     )
 
 
+def send_top_picks(conn):
+    """Morning message: the 5 most video-worthy stories with reasons."""
+    import scoring
+    picks = [p for p in scoring.score_items(conn) if p["score"] >= 5][:5]
+    if not picks:
+        return False
+    lines = []
+    for i, p in enumerate(picks, 1):
+        why = ", ".join(p["reasons"]) or "solid story"
+        lines.append(f"{i}. {p['title']}\n   ({why})\n   {p['url']}")
+    return send(
+        title="Top 5 video picks today",
+        message="\n\n".join(lines),
+        priority="high",
+        tags="star",
+        click=config.DASHBOARD_URL,
+    )
+
+
 def send_digest(conn):
     """Send all unsent items as one grouped digest (one message per pillar),
     then mark everything as notified so it is never sent twice."""

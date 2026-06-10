@@ -47,6 +47,11 @@ def maybe_send_digest():
         return
     slot_key = f"{now.date()}-{max(due_slots):02d}"
     conn = database.connect()
+    # Once per day (first slot of the morning): Top 5 video picks
+    if database.get_meta(conn, "last_picks") != str(now.date()):
+        print("\nSending Top 5 video picks...")
+        notifier.send_top_picks(conn)
+        database.set_meta(conn, "last_picks", str(now.date()))
     if database.get_meta(conn, "last_digest") != slot_key:
         print(f"\nDigest time ({max(due_slots)}:00 slot)...")
         notifier.send_digest(conn)
