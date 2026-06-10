@@ -1,5 +1,7 @@
 # AI News Radar
 
+**Live dashboard:** https://ahmad19sep.github.io/ai-news-updater/ (updates every hour)
+
 Your 24/7 eyes on the AI world. Fetches every important AI story — with original
 source links — so you can make videos in Urdu, Hindi, and English before anyone else.
 
