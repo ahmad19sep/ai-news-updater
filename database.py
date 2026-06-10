@@ -35,6 +35,19 @@ def connect():
             value TEXT
         )
     """)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS plans (
+            id           INTEGER PRIMARY KEY AUTOINCREMENT,
+            title        TEXT NOT NULL,
+            url          TEXT DEFAULT '',
+            notes        TEXT DEFAULT '',
+            platform     TEXT DEFAULT 'both',      -- long / short / both
+            stage        TEXT DEFAULT 'idea',      -- idea/script/record/edit/uploaded/published
+            planned_date TEXT DEFAULT '',
+            created      TEXT NOT NULL,
+            updated      TEXT NOT NULL
+        )
+    """)
     conn.commit()
     return conn
 
