@@ -112,8 +112,26 @@ DB_FILE = "news.db"
 #   1. Install the "ntfy" app (Play Store / App Store)
 #   2. Tap + and subscribe to the topic name below
 # Keep the topic SECRET - anyone who knows it can read your alerts.
+# On the cloud server the topic comes from a secret environment variable,
+# so it never appears in the public code. Locally, put it in a file named
+# ntfy_topic.txt (one line, ignored by git).
+import os
+
 NTFY_SERVER = "https://ntfy.sh"
-NTFY_TOPIC = "ai-radar-tj1zwzvmmtvd"
+
+
+def _load_topic():
+    topic = os.environ.get("NTFY_TOPIC")
+    if topic:
+        return topic.strip()
+    try:
+        with open(os.path.join(os.path.dirname(__file__), "ntfy_topic.txt")) as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return ""
+
+
+NTFY_TOPIC = _load_topic()
 
 # Sources whose new items trigger an INSTANT phone alert
 # (official lab announcements only - your "be first in Urdu" moments).

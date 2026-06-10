@@ -105,3 +105,4 @@ if __name__ == "__main__":
         print(f"Topic: {config.NTFY_TOPIC}")
     else:
         fetch_and_alert()
+        maybe_send_digest()  # cloud server runs once per hour, so check here too

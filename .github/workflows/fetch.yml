@@ -1,0 +1,44 @@
+name: AI News Radar (hourly)
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # every hour at minute 7 (exact minute can drift a bit)
+  workflow_dispatch:        # also allows manual "Run workflow" button
+
+permissions:
+  contents: write           # needed to save news.db back to the repo
+
+concurrency:
+  group: fetch              # never run two cycles at the same time
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: Asia/Karachi                          # digest times in Pakistan time
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}     # your private topic, kept secret
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch news + send alerts + digest check
+        run: python main.py
+
+      - name: Save database back to the repo
+        run: |
+          git config user.name "ai-news-radar-bot"
+          git config user.email "actions@github.com"
+          git add news.db
+          if ! git diff --cached --quiet; then
+            git commit -m "data: hourly news update"
+            git pull --rebase origin main
+            git push
+          fi
