@@ -302,7 +302,7 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Board</button>
       <button id="tabbtn-prep" onclick="switchTab('prep')">Prep</button>
     </nav>
-    <div class="updated">AI کی دنیا، آسان اردو میں · @aixahmad</div>
+    <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
   </div>
 </header>
 <div class="wrap">
@@ -316,9 +316,9 @@ PAGE = r"""<!doctype html>
       <div class="float f5">💡</div>
       <div class="float f6">🔥</div>
       <span class="tagline"><span class="live"></span> Live radar · updated __UPDATED__</span>
-      <h1>Aaj kya <em>film</em> karein?</h1>
-      <p class="sub">Poori AI duniya ki news — aapki audience ke liye ranked,
-         scripts ready, ek hi jagah.</p>
+      <h1>What should you <em>film</em> today?</h1>
+      <p class="sub">All of AI's news — ranked for your audience,
+         scripts ready, in one place.</p>
       <div class="herostats" id="herostats"></div>
     </div>
     <div class="search"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
@@ -850,7 +850,7 @@ function heroStats() {
   const today = ITEMS.filter(it => it.p !== 9 && new Date(it.d).getTime() > day);
   const hot = today.filter(it => it.l && it.l.length).length;
   const el = document.getElementById("herostats");
-  const bits = ["🗞 " + today.length + " stories aaj"];
+  const bits = ["🗞 " + today.length + " stories today"];
   if (hot) bits.push("🔥 " + hot + " hot");
   if (TRENDS.length) bits.push("🚀 rising: " + TRENDS[0].display);
   const local = today.filter(it => it.lo).length;
