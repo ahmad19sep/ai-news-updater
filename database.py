@@ -62,8 +62,41 @@ def connect_plans():
         )
     """)
     conn.execute("CREATE TABLE IF NOT EXISTS done_urls (url TEXT PRIMARY KEY)")
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS settings (
+            key   TEXT PRIMARY KEY,
+            value TEXT
+        )
+    """)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS yt_snapshots (
+            date   TEXT PRIMARY KEY,   -- one snapshot per day
+            subs   INTEGER,
+            views  INTEGER,
+            videos INTEGER
+        )
+    """)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS social_entries (
+            id        INTEGER PRIMARY KEY AUTOINCREMENT,
+            date      TEXT,
+            platform  TEXT,      -- tiktok / instagram / facebook
+            followers INTEGER,
+            views     INTEGER
+        )
+    """)
     conn.commit()
     return conn
+
+
+def get_setting(conn, key, default=""):
+    row = conn.execute("SELECT value FROM settings WHERE key = ?", (key,)).fetchone()
+    return row["value"] if row else default
+
+
+def set_setting(conn, key, value):
+    conn.execute("INSERT OR REPLACE INTO settings (key, value) VALUES (?, ?)", (key, value))
+    conn.commit()
 
 
 def get_meta(conn, key, default=None):

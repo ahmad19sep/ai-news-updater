@@ -77,6 +77,7 @@ LAYOUT_TOP = """
     <a href="/" class="{news_active}">📰 News</a>
     <a href="/studio" class="{studio_active}">🎬 Planner</a>
     <a href="/prep" class="{prep_active}">📝 Video Prep</a>
+    <a href="/analytics" class="{analytics_active}">📊 Analytics</a>
   </div>
 """
 
@@ -255,6 +256,116 @@ PREP_TMPL = """
 """
 
 
+# ---------------------------------------------------------- Analytics tab
+
+ANALYTICS_CSS = """
+  .stats { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:16px; }
+  .stat { background:var(--card); border:1px solid var(--border); border-radius:10px;
+          padding:14px 22px; text-align:center; min-width:130px; }
+  .stat .n { font-size:24px; font-weight:700; color:var(--accent); }
+  .stat .l { font-size:12px; color:var(--dim); }
+  .stat .g { font-size:11.5px; color:#7ee087; }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); }
+  th { color:var(--dim); font-weight:600; font-size:12.5px; }
+  td a { color:var(--text); text-decoration:none; } td a:hover { color:var(--accent); }
+  .wk { display:flex; gap:5px; align-items:flex-end; height:60px; margin:8px 0 4px; }
+  .wk div { width:30px; background:var(--accent); border-radius:4px 4px 0 0; }
+  .wk-l { display:flex; gap:5px; font-size:10.5px; color:var(--dim); }
+  .wk-l span { width:30px; text-align:center; }
+  .insight { background:var(--card); border-left:3px solid var(--gold);
+      border-radius:6px; padding:10px 14px; margin-bottom:8px; font-size:13.5px; }
+  .setup { background:var(--card); border:1px solid var(--border); border-radius:10px;
+      padding:20px; max-width:560px; }
+  .setup ol { font-size:13.5px; line-height:1.9; }
+  .setup input { width:100%; margin-bottom:10px; }
+  .err { color:#ff8888; font-size:13.5px; margin-bottom:10px; }
+"""
+
+ANALYTICS_SETUP_TMPL = """
+  <div class="setup">
+    <h3 style="margin-top:0">📊 Connect your YouTube channel (one time, free)</h3>
+    {% if error %}<p class="err">{{ error }}</p>{% endif %}
+    <ol>
+      <li>Open <a style="color:var(--accent)" target="_blank"
+          href="https://console.cloud.google.com/apis/library/youtube.googleapis.com">Google Cloud Console</a>
+          and sign in with your Google account</li>
+      <li>Click <b>Enable</b> on "YouTube Data API v3" (create a project if it asks)</li>
+      <li>Go to <a style="color:var(--accent)" target="_blank"
+          href="https://console.cloud.google.com/apis/credentials">Credentials</a>
+          → <b>+ Create credentials</b> → <b>API key</b> → copy it</li>
+    </ol>
+    <form method="post" action="{{ url_for('analytics_setup') }}">
+      <input name="api_key" placeholder="Paste your API key here (AIza...)" required>
+      <input name="channel" placeholder="Your channel handle, e.g. @YourChannelName" required>
+      <button class="btn">Connect channel</button>
+    </form>
+  </div>
+</div></body></html>
+"""
+
+ANALYTICS_TMPL = """
+  <p style="color:var(--dim);font-size:13px">Channel: <b style="color:var(--text)">{{ ch.title }}</b>
+     <a style="color:var(--accent);margin-left:10px;font-size:12px"
+        href="{{ url_for('analytics_reset') }}">change</a></p>
+  {% if error %}<p class="err">{{ error }}</p>{% endif %}
+
+  <div class="stats">
+    <div class="stat"><div class="n">{{ "{:,}".format(ch.subs) }}</div><div class="l">subscribers</div>
+      {% if growth.subs %}<div class="g">+{{ growth.subs }} since {{ growth.since }}</div>{% endif %}</div>
+    <div class="stat"><div class="n">{{ "{:,}".format(ch.views) }}</div><div class="l">total views</div>
+      {% if growth.views %}<div class="g">+{{ "{:,}".format(growth.views) }}</div>{% endif %}</div>
+    <div class="stat"><div class="n">{{ ch.videos }}</div><div class="l">videos</div></div>
+    {% if cons.days_since is not none %}
+    <div class="stat"><div class="n">{{ cons.days_since }}</div><div class="l">days since upload</div></div>
+    {% endif %}
+  </div>
+
+  <h3>💡 Insights</h3>
+  {% for i in tips %}<div class="insight">{{ i }}</div>{% endfor %}
+
+  <h3>📅 Uploads per week (last 8 weeks, newest first)</h3>
+  <div class="wk">
+    {% for n in cons.per_week %}<div style="height:{{ 8 + n * 14 }}px" title="{{ n }} uploads"></div>{% endfor %}
+  </div>
+  <div class="wk-l">{% for n in cons.per_week %}<span>{{ n }}</span>{% endfor %}</div>
+
+  <h3 style="margin-top:24px">🎬 Recent videos</h3>
+  <table>
+    <tr><th>Video</th><th>Type</th><th>Views</th><th>Likes</th><th>When</th></tr>
+    {% for v in videos %}
+    <tr>
+      <td><a href="{{ v.url }}" target="_blank">{{ v.title[:65] }}</a></td>
+      <td>{{ "Short" if v.is_short else "Long" }}</td>
+      <td>{{ "{:,}".format(v.views) }}</td>
+      <td>{{ "{:,}".format(v.likes) }}</td>
+      <td>{{ v.published[:10] }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h3 style="margin-top:24px">📱 Other platforms (enter weekly, by hand)</h3>
+  <form method="post" action="{{ url_for('analytics_social') }}"
+        style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+    <select name="platform">
+      <option>TikTok</option><option>Instagram</option><option>Facebook</option>
+    </select>
+    <input name="followers" type="number" placeholder="followers" style="width:120px">
+    <input name="views" type="number" placeholder="views this week" style="width:140px">
+    <button class="btn">Save</button>
+  </form>
+  {% if social %}
+  <table>
+    <tr><th>Date</th><th>Platform</th><th>Followers</th><th>Views</th></tr>
+    {% for s in social %}
+    <tr><td>{{ s.date }}</td><td>{{ s.platform }}</td>
+        <td>{{ s.followers }}</td><td>{{ s.views }}</td></tr>
+    {% endfor %}
+  </table>
+  {% endif %}
+</div></body></html>
+"""
+
 # ---------------------------------------------------------------- helpers
 
 def layout_vars(active, extra_css=""):
@@ -263,6 +374,7 @@ def layout_vars(active, extra_css=""):
         news_active="active" if active == "news" else "",
         studio_active="active" if active == "studio" else "",
         prep_active="active" if active == "prep" else "",
+        analytics_active="active" if active == "analytics" else "",
     )
 
 
@@ -560,6 +672,84 @@ def prep():
         prompt = build_prompt(final_title, text, related, url)
     return render(PREP_TMPL, "prep", extra_css=PREP_CSS,
                   url=url, title=title, brief=brief, prompt=prompt)
+
+
+@app.route("/analytics")
+def analytics_view():
+    import analytics as yt
+    conn = database.connect_plans()
+    key = database.get_setting(conn, "yt_api_key")
+    channel_id = database.get_setting(conn, "yt_channel_id")
+    if not key or not channel_id:
+        conn.close()
+        return render(ANALYTICS_SETUP_TMPL, "analytics", extra_css=ANALYTICS_CSS,
+                      error=request.args.get("error", ""))
+    error, ch, videos, cons, tips, growth = "", None, [], {}, [], {}
+    try:
+        ch = yt.channel_stats(key, channel_id)
+        videos = yt.recent_videos(key, ch["uploads_playlist"])
+        cons = yt.consistency(videos)
+        tips = yt.insights(videos, cons)
+        # one snapshot per day -> growth tracking
+        today = datetime.now(timezone.utc).date().isoformat()
+        conn.execute("INSERT OR REPLACE INTO yt_snapshots (date, subs, views, videos) "
+                     "VALUES (?, ?, ?, ?)", (today, ch["subs"], ch["views"], ch["videos"]))
+        conn.commit()
+        first = conn.execute(
+            "SELECT * FROM yt_snapshots ORDER BY date LIMIT 1").fetchone()
+        if first and first["date"] != today:
+            growth = {"subs": ch["subs"] - first["subs"],
+                      "views": ch["views"] - first["views"], "since": first["date"]}
+    except yt.YTError as e:
+        error = str(e)
+    if ch is None:
+        conn.close()
+        return render(ANALYTICS_SETUP_TMPL, "analytics", extra_css=ANALYTICS_CSS, error=error)
+    social = conn.execute(
+        "SELECT * FROM social_entries ORDER BY date DESC LIMIT 12").fetchall()
+    conn.close()
+    return render(ANALYTICS_TMPL, "analytics", extra_css=ANALYTICS_CSS,
+                  ch=ch, videos=videos, cons=cons, tips=tips,
+                  growth=growth, social=[dict(s) for s in social], error=error)
+
+
+@app.route("/analytics/setup", methods=["POST"])
+def analytics_setup():
+    import analytics as yt
+    key = request.form.get("api_key", "").strip()
+    handle = request.form.get("channel", "").strip()
+    try:
+        channel_id, title = yt.resolve_channel(key, handle)
+    except yt.YTError as e:
+        return redirect("/analytics?error=" + str(e))
+    conn = database.connect_plans()
+    database.set_setting(conn, "yt_api_key", key)
+    database.set_setting(conn, "yt_channel_id", channel_id)
+    conn.close()
+    return redirect("/analytics")
+
+
+@app.route("/analytics/reset")
+def analytics_reset():
+    conn = database.connect_plans()
+    database.set_setting(conn, "yt_api_key", "")
+    database.set_setting(conn, "yt_channel_id", "")
+    conn.close()
+    return redirect("/analytics")
+
+
+@app.route("/analytics/social", methods=["POST"])
+def analytics_social():
+    conn = database.connect_plans()
+    conn.execute(
+        "INSERT INTO social_entries (date, platform, followers, views) VALUES (?, ?, ?, ?)",
+        (datetime.now(timezone.utc).date().isoformat(),
+         request.form.get("platform", ""),
+         request.form.get("followers", 0) or 0,
+         request.form.get("views", 0) or 0))
+    conn.commit()
+    conn.close()
+    return redirect("/analytics")
 
 
 if __name__ == "__main__":
