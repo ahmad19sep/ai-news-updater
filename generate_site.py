@@ -348,6 +348,39 @@ PAGE = r"""<!doctype html>
     .tabs { margin-left:0; width:100%; }
     .tabs button { padding:8px 9px; font-size:12px; flex:1; }
   }
+  /* ---------- dark theme ---------- */
+  .themebtn { background:var(--surface); border:1px solid var(--line); border-radius:50%;
+          width:38px; height:38px; font-size:16px; cursor:pointer; transition:.15s;
+          flex-shrink:0; }
+  .themebtn:hover { border-color:var(--line2); box-shadow:var(--shadow-sm); }
+  body.dark {
+    --bg:#0b0f17; --surface:#131a26; --surface2:#1a2230;
+    --text:#e7ecf3; --dim:#9aa3b2; --faint:#647082;
+    --line:rgba(255,255,255,.08); --line2:rgba(255,255,255,.17);
+    --indigo-soft:rgba(99,102,241,.18);
+    --gold:#fbbf24; --gold-soft:rgba(251,191,36,.13);
+    --green:#34d399; --green-soft:rgba(52,211,153,.12);
+    --red:#f87171; --red-soft:rgba(248,113,113,.15);
+    --orange:#fb923c; --orange-soft:rgba(251,146,60,.13);
+    --purple:#a78bfa; --purple-soft:rgba(167,139,250,.15);
+    --blue:#60a5fa; --blue-soft:rgba(96,165,250,.15);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4);
+    --shadow:0 4px 16px -4px rgba(0,0,0,.55);
+    --shadow-lg:0 20px 50px -12px rgba(0,0,0,.75);
+  }
+  body.dark { background:var(--bg); }
+  body.dark header { background:rgba(11,15,23,.82); }
+  body.dark .tabs button.active { background:var(--indigo); color:#fff; }
+  body.dark .bar button.active { background:var(--indigo); border-color:var(--indigo); color:#fff; }
+  body.dark .bar button.gold.active { background:var(--cta); border-color:var(--cta); color:var(--cta-dark); }
+  body.dark .toast { background:var(--indigo); }
+  body.dark .chip { background:rgba(52,211,153,.1); border-color:rgba(52,211,153,.28); }
+  body.dark .qa:hover { background:rgba(165,229,115,.08); }
+  body.dark .calcell.today,
+  body.dark .typecard.on,
+  body.dark .tplcard.on { box-shadow:0 0 0 2px rgba(165,229,115,.3); }
+  body.dark .pill { color:#b6bdfc; }
+
   /* ---------- responsive: phone-first fixes ---------- */
   html, body { max-width:100%; overflow-x:hidden; }
   @media (max-width:768px) {
@@ -434,6 +467,7 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Buffer</button>
     </nav>
+    <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
     <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
   </div>
 </header>
@@ -540,6 +574,17 @@ async function tryUnlock() {
     document.getElementById("lockerr").textContent = "Wrong code - try again.";
   }
 }
+/* ---- theme ---- */
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
+  document.getElementById("themebtn").textContent = "☀️";
+}
+function toggleTheme() {
+  const dark = document.body.classList.toggle("dark");
+  localStorage.setItem("theme", dark ? "dark" : "light");
+  document.getElementById("themebtn").textContent = dark ? "☀️" : "🌙";
+}
+
 if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) {
   document.getElementById("lock").hidden = false;
   setTimeout(() => {
