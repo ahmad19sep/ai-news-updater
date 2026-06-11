@@ -808,7 +808,8 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
       (p.chk[k] ? " checked" : "") + "> " + lab + "</label>").join("") + "</div>";
     if (p.notes) inner += '<details class="scriptbox"><summary>📜 Script / content</summary><pre>' + esc(p.notes) + "</pre></details>";
     inner += '<div class="mfoot"><button class="btn next-btn">' + nextLabel + "</button>" +
-      '<button class="ghost edit-btn">✎ Edit details</button></div>';
+      '<button class="ghost edit-btn">✎ Edit details</button>' +
+      '<button class="danger del-btn" style="margin-left:auto">🗑 Delete</button></div>';
     c.innerHTML = inner;
     const ft = c.querySelector(".ftitle");
     if (ft) ft.addEventListener("change", e => { p.ftitle = e.target.value; savePlans(); });
@@ -830,6 +831,14 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
       toast("Moved ✓");
     };
     c.querySelector(".edit-btn").onclick = () => openComposer(p.id);
+    c.querySelector(".del-btn").onclick = () => {
+      if (confirm("Delete this item?")) {
+        plans = plans.filter(x => x.id !== p.id);
+        savePlans();
+        renderBoard();
+        toast("Deleted 🗑");
+      }
+    };
     el.appendChild(c);
   });
 }
@@ -868,8 +877,16 @@ function renderPublish(el) {
       d.innerHTML = '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 55)) + "</span>" +
         '<span class="qtags">' + platTags(p) + "</span>" +
         '<input type="date" class="pd"><input type="time" class="pt" value="18:00">' +
-        '<button class="ghost sch">→ Schedule</button>';
+        '<button class="ghost sch">→ Schedule</button>' +
+        '<button class="ghost rowdel">✕</button>';
       d.querySelector(".qtext").onclick = () => openComposer(p.id);
+      d.querySelector(".rowdel").onclick = e => {
+        e.stopPropagation();
+        if (confirm("Delete this item?")) {
+          plans = plans.filter(x => x.id !== p.id);
+          savePlans(); renderBoard(); toast("Deleted 🗑");
+        }
+      };
       d.querySelector(".sch").onclick = e => {
         e.stopPropagation();
         const date = d.querySelector(".pd").value;
@@ -898,7 +915,8 @@ function renderPublish(el) {
     d.innerHTML = '<span class="qtime">' + p.when.slice(11, 16) + "</span>" +
       '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 55)) + "</span>" +
       '<span class="qtags">' + platTags(p) + "</span>" +
-      '<button class="ghost donep">✓ Posted</button>';
+      '<button class="ghost donep">✓ Posted</button>' +
+      '<button class="ghost rowdel">✕</button>';
     d.querySelector(".qtext").onclick = () => openComposer(p.id);
     d.querySelector(".donep").onclick = e => {
       e.stopPropagation();
@@ -906,6 +924,13 @@ function renderPublish(el) {
       savePlans();
       renderBoard();
       toast("Posted ✅ Done!");
+    };
+    d.querySelector(".rowdel").onclick = e => {
+      e.stopPropagation();
+      if (confirm("Delete this item?")) {
+        plans = plans.filter(x => x.id !== p.id);
+        savePlans(); renderBoard(); toast("Deleted 🗑");
+      }
     };
     el.appendChild(d);
   });
@@ -1167,8 +1192,16 @@ function postRow(p, withTime) {
     '<span class="avatar ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
     (p.assignee === "Editor" ? "E" : "A") + "</span>" +
     '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 80)) + "</span>" +
-    '<span class="qtags">' + platTags(p) + "</span>";
+    '<span class="qtags">' + platTags(p) + "</span>" +
+    '<button class="rowdel" style="background:none;border:1px solid var(--line);color:var(--dim);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer">✕</button>';
   d.onclick = () => openComposer(p.id);
+  d.querySelector(".rowdel").onclick = e => {
+    e.stopPropagation();
+    if (confirm("Delete this item?")) {
+      plans = plans.filter(x => x.id !== p.id);
+      savePlans(); renderBoard(); toast("Deleted 🗑");
+    }
+  };
   return d;
 }
 
