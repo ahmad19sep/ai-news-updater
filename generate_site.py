@@ -1386,15 +1386,13 @@ function renderIdeas(el) {
       (p.url ? '<a href="' + esc(p.url) + '" target="_blank">source</a>' : "") +
       '<div style="margin-top:10px;display:flex;gap:6px">' +
       '<button class="ghost" style="padding:5px 12px;font-size:12px">✍️ → Script</button>' +
-      '<button class="ghost" style="padding:5px 12px;font-size:12px">Open</button>' +
       '<button class="danger" style="padding:5px 10px;font-size:12px;margin-left:auto">✕</button></div>';
     const btns = c.querySelectorAll("button");
     btns[0].onclick = () => {
       p.status = "script"; savePlans();
       openCreate(p.title.split("\n")[0], p.url || "", p.ctype ? { type: p.ctype } : null, p.id);
     };
-    btns[1].onclick = () => openComposer(p.id);
-    btns[2].onclick = () => {
+    btns[1].onclick = () => {
       if (confirm("Delete idea?")) {
         plans = plans.filter(x => x.id !== p.id); savePlans(); renderBoard();
       }
