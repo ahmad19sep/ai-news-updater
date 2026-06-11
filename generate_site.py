@@ -202,6 +202,7 @@ PAGE = r"""<!doctype html>
 
   #lock { position:fixed; inset:0; z-index:200; background:var(--bg);
           display:flex; align-items:center; justify-content:center; }
+  #lock[hidden] { display:none !important; }
   .lockbox { background:var(--surface); border:1px solid var(--line);
           border-radius:18px; padding:36px 34px; width:min(360px, 90vw);
           text-align:center; box-shadow:var(--shadow); }
