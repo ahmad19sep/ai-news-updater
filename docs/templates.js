@@ -3,6 +3,60 @@
    Refine the wording here anytime - the site reloads it automatically.
    Kept separate so a future Cloudflare Worker can reuse the same file. */
 
+/* Template GALLERY (Buffer "Create > Templates" style).
+   Famous creator formats. {topic} is filled by the tool.
+   The output language (Roman Urdu / English) is chosen with the toggle. */
+window.GALLERY = [
+  { cat: "Trending", emoji: "🧪", name: "I tested it so you don't have to",
+    desc: "Try a tool/feature, share honest results. Builds trust fast.",
+    body: "Write a post/short script: 'Maine {topic} khud test kiya' — my 3 honest findings (good, bad, surprising), one practical tip, end with a question to the audience." },
+  { cat: "Trending", emoji: "⚡", name: "Myth vs Reality",
+    desc: "Break one popular myth about the topic. High share rate.",
+    body: "Write a post/short script busting ONE common myth about {topic}. Structure: the myth people believe -> the reality with a simple proof/example -> what to do instead." },
+  { cat: "Tip", emoji: "💡", name: "Hook + 3 quick tips",
+    desc: "Scroll-stopping hook, three practical tips, save-worthy.",
+    body: "Write a post/short script: strong hook about {topic}, then exactly 3 numbered practical tips a beginner can use today, end with 'save this post'." },
+  { cat: "List", emoji: "📋", name: "Top 5 list",
+    desc: "Classic listicle. Easy to film, easy to share.",
+    body: "Write a 'Top 5 {topic}' post/short script. One line per item with a concrete benefit. Rank them, tease #1 in the hook." },
+  { cat: "How-to", emoji: "🛠", name: "Mini tutorial",
+    desc: "Step-by-step in under a minute. Tutorial = trust.",
+    body: "Write a mini step-by-step tutorial about {topic}: hook (the result they will get), 3-5 numbered steps, one warning/mistake to avoid, CTA." },
+  { cat: "Question", emoji: "❓", name: "Strategic audience question",
+    desc: "Real questions invite real conversation (Buffer favorite).",
+    body: "Write a short post asking the audience ONE strategic question about {topic}. Include my own one-line answer first, then invite theirs. No empty bait." },
+  { cat: "Opinion", emoji: "🔥", name: "Niche hot take",
+    desc: "The opinions you're nervous to post build authority.",
+    body: "Write a confident hot-take post about {topic}: my contrarian-but-defensible stance, 2 reasons, invite disagreement respectfully." },
+  { cat: "Story", emoji: "📖", name: "Personal lesson story",
+    desc: "Story arc: struggle, turn, lesson. Most human format.",
+    body: "Write a first-person mini story about {topic}: the moment it clicked for me, what went wrong first, the lesson, how the viewer can skip my mistake." },
+  { cat: "Case Study", emoji: "📊", name: "Before / After case study",
+    desc: "Show a transformation with numbers — proof sells.",
+    body: "Write a before/after case-study post about {topic}: starting point, what changed (steps), the result with a number, one takeaway." },
+  { cat: "Behind the Scenes", emoji: "🎬", name: "Behind the scenes",
+    desc: "Show the messy middle. People follow people.",
+    body: "Write a behind-the-scenes post about {topic} (my process, tools, time it took, what nobody sees), casual tone, one honest struggle." },
+  { cat: "Authority", emoji: "👋", name: "Reintroduce yourself",
+    desc: "New people find you daily — tell them who you are.",
+    body: "Write a reintroduction post for AI x Ahmad: who I am, why I talk about {topic}, what followers get from me weekly, one fun personal detail." },
+  { cat: "Authority", emoji: "📚", name: "2-line takeaway from a read",
+    desc: "Your interpretation is the value.",
+    body: "Write a short post sharing my 2-line takeaway about {topic} (as if from an article I read), why it matters for Pakistan/India, link placeholder." },
+  { cat: "X engagement", emoji: "🎁", name: "X: Prompt share",
+    desc: "Useful prompt + 'show your result' — bookmarks + replies.",
+    body: "Write ONE X post (under 280 chars) sharing a genuinely useful AI prompt about {topic}, the exact prompt in quotes, end: 'apna result comment mein dikhao'." },
+  { cat: "X engagement", emoji: "⚔️", name: "X: Test & tell",
+    desc: "Claude vs ChatGPT challenge — fun comparisons.",
+    body: "Write ONE X post (under 280 chars): I made Claude vs ChatGPT do {topic}, my one-line verdict, challenge readers to try and reply with theirs." },
+  { cat: "X engagement", emoji: "🗣", name: "X: Local debate",
+    desc: "Jobs/AI question for PK/IN — your stance first.",
+    body: "Write ONE X post (under 280 chars): sharp debate question about {topic} tied to daily life in Pakistan/India, MY clear stance first, then ask theirs." },
+  { cat: "X engagement", emoji: "✏️", name: "X: Fill the blank",
+    desc: "Easy replies + feature loop to YouTube.",
+    body: "Write ONE X post (under 280 chars): fill-in-the-blank about {topic}, end with 'best answer agli video mein feature hoga'." },
+];
+
 /* Plug-and-play caption templates for the post composer (Buffer-style).
    Edit freely - {topic} stays as a placeholder you replace while writing. */
 window.POST_TEMPLATES = [

@@ -245,6 +245,18 @@ PAGE = r"""<!doctype html>
   .calplus { margin-top:auto; background:none; border:none; color:var(--faint);
           font-size:15px; cursor:pointer; border-radius:6px; padding:2px; }
   .calplus:hover { background:var(--surface2); color:var(--indigo); }
+  .tplgrid { display:grid; grid-template-columns:repeat(auto-fill, minmax(225px, 1fr));
+          gap:12px; margin-bottom:18px; }
+  .tplcard { background:var(--surface); border:1px solid var(--line); border-radius:14px;
+          padding:18px 16px 14px; cursor:pointer; transition:.15s;
+          box-shadow:var(--shadow-sm); display:flex; flex-direction:column; gap:6px;
+          align-items:flex-start; }
+  .tplcard:hover { box-shadow:var(--shadow); border-color:var(--cta);
+          transform:translateY(-2px); }
+  .tplcard .te { font-size:26px; }
+  .tplcard .tn { font-family:var(--display); font-weight:700; font-size:14.5px;
+          line-height:1.3; }
+  .tplcard .td { color:var(--dim); font-size:12px; line-height:1.5; flex:1; }
 
   /* ---------- ticket modal ---------- */
   #modal { position:fixed; inset:0; z-index:300; background:rgba(15,23,42,.35);
@@ -325,7 +337,7 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-news" onclick="switchTab('news')">News</button>
       <button id="tabbtn-trends" onclick="switchTab('trends')">Trends</button>
       <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
-      <button id="tabbtn-plan" onclick="switchTab('plan')">Board</button>
+      <button id="tabbtn-plan" onclick="switchTab('plan')">Buffer</button>
       <button id="tabbtn-prep" onclick="switchTab('prep')">Prep</button>
     </nav>
     <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
@@ -679,7 +691,7 @@ function boardNav() {
   const el = document.getElementById("boardnav");
   el.innerHTML = "";
   [["queue","🗓 Queue"],["calendar","📅 Calendar"],["drafts","📝 Drafts"],
-   ["ideas","💡 Ideas"],["posted","✅ Posted"]].forEach(([k, label]) => {
+   ["ideas","💡 Ideas"],["templates","🧩 Templates"],["posted","✅ Posted"]].forEach(([k, label]) => {
     const b = document.createElement("button");
     b.innerHTML = label;
     b.className = boardView === k ? "active" : "";
@@ -696,7 +708,138 @@ function renderBoard() {
   else if (boardView === "calendar") renderCalendar(el);
   else if (boardView === "drafts") renderList(el, ["draft"], "No drafts yet. Turn an idea into a draft, or press + New post.");
   else if (boardView === "ideas") renderIdeas(el);
+  else if (boardView === "templates") renderTemplates(el);
   else renderList(el, ["posted"], "Nothing posted yet — your history will appear here.");
+}
+
+/* ---- Templates gallery (Buffer "Create > Templates" style) ---- */
+let tplCat = "All", tplLang = localStorage.getItem("tpl_lang") || "ur";
+let tplTopic = "", tplCurrent = null, tplPlat = "all";
+const TPL_PLATS = [
+  ["all", "🌐 All platforms"], ["shorts", "🎬 Short/Reel/TikTok"], ["yt", "📺 YouTube"],
+  ["x", "𝕏 X"], ["igfb", "📸 IG + FB"], ["li", "💼 LinkedIn"], ["wa", "💬 WhatsApp"]];
+const TPL_PLAT_RULES = {
+  all: "TARGET: ALL PLATFORMS. First write ONE core version of this post. Then adapt it per platform: (a) YouTube — 2-3 title options under 60 chars + description + 10 tags, (b) TikTok/IG Reels/FB Reels — caption + hashtags (slightly different per platform), (c) X — one post under 280 chars that invites replies, (d) WhatsApp Channel — 2-line announcement, (e) LinkedIn — 4-6 line professional-tone version.",
+  shorts: "TARGET: vertical short video (YouTube Shorts / TikTok / IG Reels / FB Reels). Format as a 45-75 second script: HOOK (0-3s) -> body -> local angle -> CTA follow @aixahmad. Add [B-ROLL] notes + one caption with hashtags.",
+  yt: "TARGET: YouTube main video. Give 3 title options (under 60 chars, curiosity-driven), a 2-paragraph description, 15 SEO tags, and a pinned-comment suggestion.",
+  x: "TARGET: X (Twitter). ONE post under 280 characters that invites replies. No hashtags spam (max 1-2).",
+  igfb: "TARGET: Instagram + Facebook. One caption: scroll-stopping first line, 3-5 short lines, then 8 hashtags for IG and 4 for FB (listed separately).",
+  li: "TARGET: LinkedIn. 4-6 lines, professional but warm, one insight + one question at the end, max 3 hashtags.",
+  wa: "TARGET: WhatsApp Channel. 2-3 line announcement, friendly, one emoji max per line, with a link placeholder.",
+};
+function renderTemplates(el) {
+  const head = document.createElement("div");
+  head.className = "addrow";
+  head.innerHTML =
+    '<input id="tpltopic" style="flex:1;min-width:220px" placeholder="Your topic… e.g. ChatGPT se paise kamana, Gemini 3, AI in farming" value="' + esc(tplTopic) + '">' +
+    '<div class="bar" style="margin:0">' +
+    '<button id="lang-ur" class="' + (tplLang === "ur" ? "active" : "") + '">اردو Roman Urdu</button>' +
+    '<button id="lang-en" class="' + (tplLang === "en" ? "active" : "") + '">English</button></div>';
+  el.appendChild(head);
+  head.querySelector("#tpltopic").addEventListener("input", e => { tplTopic = e.target.value; });
+  head.querySelector("#lang-ur").onclick = () => { tplLang = "ur"; localStorage.setItem("tpl_lang", "ur"); renderBoard(); };
+  head.querySelector("#lang-en").onclick = () => { tplLang = "en"; localStorage.setItem("tpl_lang", "en"); renderBoard(); };
+
+  const platbar = document.createElement("div");
+  platbar.className = "bar";
+  platbar.style.marginTop = "0";
+  TPL_PLATS.forEach(([k, label]) => {
+    const b = document.createElement("button");
+    b.innerHTML = label;
+    b.className = tplPlat === k ? "active" : "";
+    b.onclick = () => { tplPlat = k; renderBoard(); };
+    platbar.appendChild(b);
+  });
+  el.appendChild(platbar);
+
+  const cats = ["All"].concat([...new Set((window.GALLERY || []).map(t => t.cat))]);
+  const chipbar = document.createElement("div");
+  chipbar.className = "bar";
+  cats.forEach(c => {
+    const b = document.createElement("button");
+    b.textContent = c;
+    b.className = tplCat === c ? "active" : "";
+    b.onclick = () => { tplCat = c; renderBoard(); };
+    chipbar.appendChild(b);
+  });
+  el.appendChild(chipbar);
+
+  const grid = document.createElement("div");
+  grid.className = "tplgrid";
+  (window.GALLERY || []).filter(t => tplCat === "All" || t.cat === tplCat).forEach(t => {
+    const c = document.createElement("div");
+    c.className = "tplcard";
+    c.innerHTML = '<div class="te">' + t.emoji + '</div><div class="tn">' + esc(t.name) +
+      '</div><div class="td">' + esc(t.desc) + '</div><span class="tag">' + esc(t.cat) + "</span>";
+    c.onclick = () => useTemplate(t);
+    grid.appendChild(c);
+  });
+  el.appendChild(grid);
+
+  const flow = document.createElement("div");
+  flow.className = "panel";
+  flow.id = "tplflow";
+  flow.hidden = !tplCurrent;
+  flow.innerHTML = tplCurrent ? tplFlowHtml() : "";
+  el.appendChild(flow);
+  if (tplCurrent) wireTplFlow();
+}
+function brandHeader() {
+  const lang = tplLang === "ur"
+    ? "OUTPUT LANGUAGE: simple Roman Urdu with light English (easy to read while filming)."
+    : "OUTPUT LANGUAGE: simple, friendly English (no heavy jargon).";
+  return 'You are the content writer for "AI x Ahmad" (@aixahmad) — AI explained simply for everyday people in Pakistan and India (students, freelancers, shopkeepers). No jargon, friendly tone, energy high.\n' + lang + "\n\n";
+}
+function useTemplate(t) {
+  tplCurrent = t;
+  const topic = (document.getElementById("tpltopic") || {}).value || tplTopic;
+  tplTopic = (topic || "").trim();
+  if (!tplTopic) { toast("Pehle topic likho 👆"); return; }
+  renderBoard();
+  const prompt = brandHeader() + t.body.split("{topic}").join(tplTopic) +
+    "\n\n" + TPL_PLAT_RULES[tplPlat];
+  document.getElementById("tplprompt").value = prompt;
+  navigator.clipboard.writeText(prompt).then(() => toast("Prompt copied — paste in Claude 🤖"));
+  document.getElementById("tplflow").scrollIntoView({ behavior: "smooth" });
+}
+function tplFlowHtml() {
+  return '<h3>' + tplCurrent.emoji + " " + esc(tplCurrent.name) +
+    ' <button class="ghost" style="padding:5px 14px;font-size:12px" onclick="copyTpl()">📋 Copy again</button></h3>' +
+    '<p class="sub">1) Paste in your <b>Claude app</b> → 2) edit in canvas, make your poster → 3) paste the FINAL version below and save.</p>' +
+    '<textarea id="tplprompt" readonly style="width:100%;min-height:130px;font:12px/1.6 Consolas,monospace;background:var(--surface2)"></textarea>' +
+    '<p class="sub" style="margin-top:14px"><b>Final version</b> (from Claude, after your edits):</p>' +
+    '<textarea id="tplfinal" style="width:100%;min-height:120px" placeholder="Paste your final content here…"></textarea>' +
+    '<div class="mfoot">' +
+    '<button class="btn" onclick="saveTplFinal()">💾 Save to Drafts</button>' +
+    '<button class="ghost" onclick="downloadTplFinal()">⬇ Download file</button>' +
+    '<a class="ghost" style="text-decoration:none" target="_blank" href="https://drive.google.com/drive/my-drive">Open Google Drive ↗</a></div>';
+}
+function wireTplFlow() { /* buttons use onclick attrs */ }
+function copyTpl() {
+  navigator.clipboard.writeText(document.getElementById("tplprompt").value)
+    .then(() => toast("Copied 📋"));
+}
+function saveTplFinal() {
+  const txt = document.getElementById("tplfinal").value.trim();
+  if (!txt) { toast("Paste the final version first"); return; }
+  const platMap = { all: ["yt","shorts","tiktok","ig","fb","x","wa","li"],
+    shorts: ["shorts","tiktok","ig","fb"], yt: ["yt"], x: ["x"],
+    igfb: ["ig","fb"], li: ["li"], wa: ["wa"] };
+  plans.unshift({ id: Date.now(), title: tplTopic + " — " + tplCurrent.name,
+    url: "", notes: txt, status: "draft", assignee: "Ahmad",
+    platforms: platMap[tplPlat] || ["yt","shorts"], when: "" });
+  savePlans();
+  toast("Saved to Drafts 📝 — schedule it from there");
+}
+function downloadTplFinal() {
+  const txt = document.getElementById("tplfinal").value.trim();
+  if (!txt) { toast("Paste the final version first"); return; }
+  const blob = new Blob([txt], { type: "text/plain" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = (tplTopic || "post").replace(/[^\w\s-]/g, "").slice(0, 40) + ".txt";
+  a.click();
+  toast("Downloaded — drop it into your Drive folder");
 }
 
 function platTags(p, max) {
