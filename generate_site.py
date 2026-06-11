@@ -345,6 +345,69 @@ PAGE = r"""<!doctype html>
     .tabs { margin-left:0; width:100%; }
     .tabs button { padding:8px 9px; font-size:12px; flex:1; }
   }
+  /* ---------- responsive: phone-first fixes ---------- */
+  html, body { max-width:100%; overflow-x:hidden; }
+  @media (max-width:768px) {
+    .wrap { padding:0 12px 70px; }
+    .hrow { padding:10px 12px; gap:8px; }
+    .logo { font-size:15px; }
+    .updated { display:none; }
+    .tabs { margin-left:0; width:100%; overflow-x:auto; flex-wrap:nowrap;
+            -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+    .tabs::-webkit-scrollbar { display:none; }
+    .tabs button { flex:0 0 auto; padding:10px 14px; font-size:13px; min-height:42px; }
+    .bar { overflow-x:auto; flex-wrap:nowrap; scrollbar-width:none;
+           -webkit-overflow-scrolling:touch; padding-bottom:3px; }
+    .bar::-webkit-scrollbar { display:none; }
+    .bar button, .bar select { flex:0 0 auto; padding:9px 14px; font-size:12.5px;
+           min-height:40px; white-space:nowrap; }
+    .search input { padding:12px 14px; }
+    .card { padding:13px 14px; }
+    .card h2 { font-size:14px; }
+    .meta { gap:5px 10px; }
+    .actions { margin-left:0; width:100%; margin-top:6px; }
+    .meta button { padding:8px 13px; min-height:40px; font-size:12px; }
+    .qrow { flex-wrap:wrap; row-gap:8px; padding:12px; }
+    .qtext { flex:1 1 100%; white-space:normal; overflow:visible; }
+    .qrow input[type=date], .qrow input[type=time] { padding:9px 10px; font-size:13px; }
+    .qrow button { min-height:40px; }
+    .mbox { padding:18px 14px 16px; border-radius:14px; }
+    .mrow .lbl { width:100%; }
+    .mfoot { flex-wrap:wrap; gap:8px; }
+    .mfoot .btn, .mfoot .ghost, .mfoot .danger { min-height:44px; flex:1 1 auto; }
+    .btn, .ghost { min-height:42px; }
+    .typecards { grid-template-columns:1fr; }
+    .typecard { flex-direction:row; align-items:center; gap:12px; padding:14px; }
+    .typecard .te { font-size:22px; }
+    .typecard span { flex:1; }
+    .tplgrid { grid-template-columns:1fr 1fr; gap:9px; }
+    .tplcard { padding:13px 12px 11px; }
+    .tplcard .te { font-size:20px; }
+    .panel { padding:16px 14px; }
+    .genrow input, .genrow select { flex:1 1 100%; width:100%; }
+    .genrow .bar { width:100%; }
+    .wstep { gap:10px; margin:16px 0; }
+    .wnum { width:24px; height:24px; font-size:11.5px; }
+    .homecols { grid-template-columns:1fr; }
+    .pickrow .btn { margin-left:0; width:100%; }
+    .statgrid { grid-template-columns:1fr 1fr; gap:9px; }
+    .scard { padding:13px 14px; }
+    .scard .n { font-size:21px; }
+    .toppick h2 { font-size:17px; }
+    .calgrid { grid-template-columns:1fr 1fr; }
+    .calcell { min-height:96px; }
+    .chkrow { flex-direction:column; align-items:flex-start; gap:11px; }
+    .chk { min-height:30px; }
+    .qa { min-height:48px; }
+    .pipe { padding:12px 4px; }
+    .ideagrid { grid-template-columns:1fr; }
+    #promptbox, .scriptbox pre { font-size:11px; }
+  }
+  @media (max-width:400px) {
+    .tplgrid { grid-template-columns:1fr; }
+    .statgrid { grid-template-columns:1fr 1fr; }
+    .calgrid { grid-template-columns:1fr; }
+  }
 </style>
 </head>
 <body>
