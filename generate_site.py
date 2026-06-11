@@ -84,39 +84,50 @@ PAGE = r"""<!doctype html>
   .tabs button:hover { background:var(--surface2); color:var(--text); }
   .tabs button.active { background:var(--text); color:#fff; }
 
-  /* ---------- hero (Buffer style) ---------- */
-  .hero { position:relative; text-align:center; padding:54px 0 30px; }
-  .hero .tagline { display:inline-flex; align-items:center; gap:8px;
-          background:var(--surface2); border:1px solid var(--line);
-          color:var(--dim); border-radius:999px; padding:7px 16px;
-          font:600 12px Inter; margin-bottom:22px; }
-  .hero .tagline .live { width:8px; height:8px; border-radius:50%;
+  /* ---------- home dashboard ---------- */
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+  .live { display:inline-block; width:8px; height:8px; border-radius:50%;
           background:#22c55e; box-shadow:0 0 0 3px rgba(34,197,94,.2);
           animation:pulse 2s infinite; }
-  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
-  .hero h1 { font-family:var(--display); font-size:clamp(34px, 6vw, 58px);
-          font-weight:800; letter-spacing:-.03em; line-height:1.08; margin:0 0 14px; }
-  .hero h1 em { font-style:normal; position:relative; white-space:nowrap; }
-  .hero h1 em::after { content:""; position:absolute; left:0; right:0; bottom:6px;
-          height:.32em; background:var(--cta); z-index:-1; border-radius:4px; }
-  .hero .sub { color:var(--dim); font-size:16px; margin:0 auto 26px; max-width:480px; }
-  .herostats { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
-  .herostats span { background:var(--surface); border:1px solid var(--line);
-          border-radius:999px; padding:8px 18px; font:600 12.5px Inter;
-          color:var(--text); box-shadow:var(--shadow-sm); }
-  .float { position:absolute; width:52px; height:52px; border-radius:14px;
-          display:flex; align-items:center; justify-content:center; font-size:24px;
-          box-shadow:var(--shadow-sm); border:1px solid rgba(0,0,0,.04);
-          animation:bob 5s ease-in-out infinite; }
-  @keyframes bob { 0%,100%{transform:translateY(0) rotate(var(--rot,0deg))}
-                   50%{transform:translateY(-9px) rotate(var(--rot,0deg))} }
-  .f1 { left:2%;  top:18%; background:#fde9e9; --rot:-7deg; }
-  .f2 { left:9%;  top:62%; background:#e8f4fd; --rot:5deg;  animation-delay:.6s; }
-  .f3 { right:3%; top:14%; background:#eef9e7; --rot:8deg;  animation-delay:.3s; }
-  .f4 { right:10%; top:58%; background:#fdf3e2; --rot:-5deg; animation-delay:.9s; }
-  .f5 { left:20%; top:6%;  background:#f3e8ff; --rot:4deg;  animation-delay:1.2s; }
-  .f6 { right:21%; top:74%; background:#e6fbf3; --rot:-8deg; animation-delay:1.5s; }
-  @media (max-width:860px) { .float { display:none; } .hero { padding-top:34px; } }
+  .homedate { color:var(--dim); font-size:13px; margin:22px 2px 14px;
+          display:flex; align-items:center; gap:9px; }
+  .toppick .picktag { color:var(--dim); font:600 12px Inter; display:block;
+          margin-bottom:8px; }
+  .toppick h2 { font-family:var(--display); font-size:clamp(19px, 3vw, 26px);
+          font-weight:700; letter-spacing:-.02em; line-height:1.3; margin:0 0 14px; }
+  .toppick h2 a { color:var(--text); text-decoration:none; }
+  .toppick h2 a:hover { color:var(--indigo); }
+  .pickrow { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .badge { border-radius:999px; padding:3.5px 12px; font:600 11.5px Inter; }
+  .badge.score { background:var(--gold-soft); color:var(--gold); }
+  .badge.localb { background:var(--green-soft); color:var(--green); }
+  .badge.src { background:var(--indigo-soft); color:var(--indigo); }
+  .pickrow .btn { margin-left:auto; }
+  .statgrid { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+          gap:12px; margin:14px 0; }
+  .scard { background:var(--surface); border:1px solid var(--line);
+          border-radius:14px; padding:16px 18px; box-shadow:var(--shadow-sm); }
+  .scard .l { color:var(--dim); font-size:12px; font-weight:500; margin-bottom:4px; }
+  .scard .n { font-family:var(--display); font-size:26px; font-weight:800;
+          letter-spacing:-.02em; }
+  .scard .n.orange { color:var(--orange); } .scard .n.green { color:var(--green); }
+  .scard .n.indigo { color:var(--indigo); }
+  .homecols { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  @media (max-width:720px) { .homecols { grid-template-columns:1fr; } }
+  .pipe { display:flex; align-items:center; gap:9px; padding:10px 2px;
+          border-bottom:1px solid var(--line); cursor:pointer; font-size:13px; }
+  .pipe:last-child { border-bottom:none; }
+  .pipe:hover { background:var(--surface2); border-radius:8px; }
+  .pipe .st { font-size:10.5px; font-weight:600; color:var(--dim);
+          background:var(--surface2); border:1px solid var(--line);
+          border-radius:5px; padding:1.5px 7px; flex-shrink:0; }
+  .pipe .who { margin-left:auto; font-weight:600; font-size:12px; flex-shrink:0; }
+  .pipe .who.ahmad { color:var(--indigo); } .pipe .who.editor { color:#d97706; }
+  .qa { display:block; width:100%; text-align:left; background:var(--surface);
+          border:1px solid var(--line); color:var(--text); border-radius:10px;
+          padding:13px 16px; font:500 13.5px Inter; cursor:pointer;
+          margin-bottom:10px; transition:.15s; }
+  .qa:hover { border-color:var(--cta); background:#f7fdf2; }
   .updated { width:100%; color:var(--faint); font-size:11px; }
 
   /* ---------- controls ---------- */
@@ -296,7 +307,8 @@ PAGE = r"""<!doctype html>
   <div class="hrow">
     <div class="logo"><span class="orb">A</span> AI x Ahmad <small>RADAR STUDIO</small></div>
     <nav class="tabs">
-      <button id="tabbtn-news" class="active" onclick="switchTab('news')">News</button>
+      <button id="tabbtn-home" class="active" onclick="switchTab('home')">Home</button>
+      <button id="tabbtn-news" onclick="switchTab('news')">News</button>
       <button id="tabbtn-trends" onclick="switchTab('trends')">Trends</button>
       <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Board</button>
@@ -307,21 +319,26 @@ PAGE = r"""<!doctype html>
 </header>
 <div class="wrap">
 
-  <section id="tab-news">
-    <div class="hero">
-      <div class="float f1">🤖</div>
-      <div class="float f2">📺</div>
-      <div class="float f3">⚡</div>
-      <div class="float f4">🎬</div>
-      <div class="float f5">💡</div>
-      <div class="float f6">🔥</div>
-      <span class="tagline"><span class="live"></span> Live radar · updated __UPDATED__</span>
-      <h1>What should you <em>film</em> today?</h1>
-      <p class="sub">All of AI's news — ranked for your audience,
-         scripts ready, in one place.</p>
-      <div class="herostats" id="herostats"></div>
+  <section id="tab-home">
+    <p class="homedate" id="homedate"><span class="live"></span> <span id="homedatetxt"></span></p>
+    <div class="panel toppick" id="toppick"></div>
+    <div class="statgrid" id="statgrid"></div>
+    <div class="homecols">
+      <div class="panel">
+        <h3>📋 This week's pipeline</h3>
+        <div id="pipeline"></div>
+      </div>
+      <div class="panel">
+        <h3>⚡ Quick actions</h3>
+        <button class="qa" onclick="qaShort()">🎬 Generate short script</button>
+        <button class="qa" onclick="qaX()">💬 New X engagement post</button>
+        <button class="qa" onclick="qaNews()">🎯 Open video-worthy list</button>
+      </div>
     </div>
-    <div class="search"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
+  </section>
+
+  <section id="tab-news" hidden>
+    <div class="search" style="margin-top:20px"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
     <div class="bar" id="pillars"></div>
     <div class="count" id="count"></div>
     <div id="list"></div>
@@ -480,10 +497,11 @@ function toast(msg) {
 }
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); }
 function switchTab(name) {
-  ["news","trends","research","plan","prep"].forEach(n => {
+  ["home","news","trends","research","plan","prep"].forEach(n => {
     document.getElementById("tab-" + n).hidden = n !== name;
     document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
   });
+  if (name === "home") renderHome();
   if (name === "plan") renderBoard();
   if (name === "research") renderResearch();
 }
@@ -845,24 +863,85 @@ function copyPrompt() {
     .then(() => toast("Copied again 📋"));
 }
 
-function heroStats() {
+/* ---------------- Home dashboard ---------------- */
+const UPDATED = "__UPDATED__";
+function renderHome() {
+  document.getElementById("homedatetxt").textContent =
+    new Date().toLocaleDateString("en-GB",
+      { weekday: "long", day: "numeric", month: "long" }) +
+    " · radar updated " + UPDATED;
+
+  // top pick: best video-worthy story not yet covered
+  const candidates = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u))
+    .slice().sort((a, b) => b.sc - a.sc);
+  const tp = document.getElementById("toppick");
+  if (candidates.length) {
+    const p = candidates[0];
+    tp.innerHTML =
+      '<span class="picktag">✨ Aaj ka top pick</span>' +
+      '<h2><a href="' + esc(p.u) + '" target="_blank" rel="noopener">' + esc(p.t) + "</a></h2>" +
+      '<div class="pickrow">' +
+      '<span class="badge score">Score ' + p.sc + "</span>" +
+      (p.lo ? '<span class="badge localb">PK/IN local angle</span>' : "") +
+      (p.l && p.l.length ? '<span class="badge src">' + (p.l.length + 1) + " sources</span>" : "") +
+      '<button class="btn" id="pickplan">Plan video →</button></div>';
+    document.getElementById("pickplan").onclick = () => {
+      addPlan(p.t, p.u);
+      switchTab("plan");
+    };
+  } else {
+    tp.innerHTML = '<span class="picktag">✨ Aaj ka top pick</span><p>No stories yet today.</p>';
+  }
+
+  // stat cards
   const day = Date.now() - 86400000;
   const today = ITEMS.filter(it => it.p !== 9 && new Date(it.d).getTime() > day);
   const hot = today.filter(it => it.l && it.l.length).length;
-  const el = document.getElementById("herostats");
-  const bits = ["🗞 " + today.length + " stories today"];
-  if (hot) bits.push("🔥 " + hot + " hot");
-  if (TRENDS.length) bits.push("🚀 rising: " + TRENDS[0].display);
   const local = today.filter(it => it.lo).length;
-  if (local) bits.push("🇵🇰🇮🇳 " + local + " local");
-  el.innerHTML = bits.map(b => "<span>" + b + "</span>").join("");
+  const open = plans.filter(x => x.status !== "posted").length;
+  document.getElementById("statgrid").innerHTML =
+    '<div class="scard"><div class="l">Stories today</div><div class="n">' + today.length + "</div></div>" +
+    '<div class="scard"><div class="l">Hot</div><div class="n orange">' + hot + "</div></div>" +
+    '<div class="scard"><div class="l">Local angle</div><div class="n green">' + local + "</div></div>" +
+    '<div class="scard"><div class="l">Tickets open</div><div class="n indigo">' + open + "</div></div>";
+
+  // pipeline
+  const pl = document.getElementById("pipeline");
+  const openPlans = plans.filter(x => x.status !== "posted").slice(0, 6);
+  pl.innerHTML = openPlans.length ? "" :
+    '<p style="color:var(--faint);font-size:13px">No open tickets — plan a video from News.</p>';
+  openPlans.forEach(p => {
+    const d = document.createElement("div");
+    d.className = "pipe";
+    d.innerHTML = '<span class="st">' + p.status + "</span>" +
+      "<span>" + esc(p.title.slice(0, 48)) + "</span>" +
+      '<span class="who ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
+      esc(p.assignee) + "</span>";
+    d.onclick = () => switchTab("plan");
+    pl.appendChild(d);
+  });
+}
+function qaShort() {
+  switchTab("prep");
+  document.getElementById("preptitle").focus();
+  toast("Fill the story, then press Short Script 🎬");
+}
+function qaX() {
+  switchTab("prep");
+  document.getElementById("xtopic").focus();
+  toast("Pick a topic, then choose a format 💬");
+}
+function qaNews() {
+  mode = "worthy";
+  switchTab("news");
+  bar(); render();
 }
 
 document.getElementById("q").addEventListener("input", e => {
   q = e.target.value.trim(); shown = PAGE; render();
 });
 document.getElementById("more").onclick = () => { shown += PAGE; render(); };
-trendsBar(); bar(); heroStats(); render();
+trendsBar(); bar(); renderHome(); render();
 </script>
 </body>
 </html>
