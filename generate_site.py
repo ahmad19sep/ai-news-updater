@@ -302,7 +302,7 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Board</button>
       <button id="tabbtn-prep" onclick="switchTab('prep')">Prep</button>
     </nav>
-    <div class="updated">AI Ki Duniya, Simple Urdu Mein · @aixahmad</div>
+    <div class="updated">AI کی دنیا، آسان اردو میں · @aixahmad</div>
   </div>
 </header>
 <div class="wrap">
