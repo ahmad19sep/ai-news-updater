@@ -1,6 +1,14 @@
-# AI News Radar
+# AI News Radar — Creator Studio
 
-**Live dashboard:** https://ahmad19sep.github.io/ai-news-updater/ (updates every hour)
+## 🔗 Your links (bookmark these)
+
+| What | Link |
+|------|------|
+| 🌍 **Online Studio** (News, Planner, Prep, Analytics) | https://ahmad19sep.github.io/ai-news-updater/ |
+| 💻 Local Studio (on this PC) | http://localhost:5000 — run `python dashboard.py` |
+| ☁️ Cloud server (hourly runs, logs) | https://github.com/ahmad19sep/ai-news-updater/actions |
+| 📦 Code repository | https://github.com/ahmad19sep/ai-news-updater |
+| 📱 Phone alerts | ntfy app, topic in `ntfy_topic.txt` (secret) |
 
 Your 24/7 eyes on the AI world. Fetches every important AI story — with original
 source links — so you can make videos in Urdu, Hindi, and English before anyone else.
