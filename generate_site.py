@@ -112,6 +112,9 @@ PAGE = r"""<!doctype html>
           letter-spacing:-.02em; }
   .scard .n.orange { color:var(--orange); } .scard .n.green { color:var(--green); }
   .scard .n.indigo { color:var(--indigo); }
+  .scard.click { cursor:pointer; transition:.15s; }
+  .scard.click:hover { box-shadow:var(--shadow); border-color:var(--line2);
+          transform:translateY(-2px); }
   .homecols { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
   @media (max-width:720px) { .homecols { grid-template-columns:1fr; } }
   .pipe { display:flex; align-items:center; gap:9px; padding:10px 2px;
@@ -555,7 +558,7 @@ const STATUSES = [
   ["posted", "Posted", "#059669"]];
 const PLATFORMS = [["yt","YT long"],["shorts","Shorts"],["tiktok","TikTok"],["ig","IG Reels"],
   ["fb","FB Reels"],["x","X"],["wa","WhatsApp"],["li","LinkedIn"]];
-let pillar = 0, hideDone = false, hotOnly = false, mode = "worthy", q = "", shown = PAGE;
+let pillar = 0, hideDone = false, hotOnly = false, localOnly = false, mode = "worthy", q = "", shown = PAGE;
 let assFilter = "All", editingId = null;
 const doneSet = new Set(JSON.parse(localStorage.getItem("done") || "[]"));
 let plans = JSON.parse(localStorage.getItem("plans") || "[]");
@@ -626,6 +629,7 @@ function filtered() {
     (!pillar || it.p === pillar) &&
     (!hideDone || !doneSet.has(it.u)) &&
     (!hotOnly || (it.l && it.l.length)) &&
+    (!localOnly || it.lo) &&
     (!needle || it.t.toLowerCase().includes(needle)));
   if (mode === "worthy") items = items.slice().sort((a, b) => b.sc - a.sc);
   return items;
@@ -694,6 +698,11 @@ function bar() {
   hot.className = hotOnly ? "active" : "";
   hot.onclick = () => { hotOnly = !hotOnly; shown = PAGE; bar(); render(); };
   el.appendChild(hot);
+  const loc = document.createElement("button");
+  loc.innerHTML = "🇵🇰🇮🇳 Local";
+  loc.className = localOnly ? "active" : "";
+  loc.onclick = () => { localOnly = !localOnly; shown = PAGE; bar(); render(); };
+  el.appendChild(loc);
   const h = document.createElement("button");
   h.textContent = "Hide covered";
   h.className = hideDone ? "active" : "";
@@ -1556,11 +1565,24 @@ function renderHome() {
   const hot = today.filter(it => it.l && it.l.length).length;
   const local = today.filter(it => it.lo).length;
   const open = plans.filter(x => x.status !== "posted").length;
-  document.getElementById("statgrid").innerHTML =
-    '<div class="scard"><div class="l">Stories today</div><div class="n">' + today.length + "</div></div>" +
-    '<div class="scard"><div class="l">Hot</div><div class="n orange">' + hot + "</div></div>" +
-    '<div class="scard"><div class="l">Local angle</div><div class="n green">' + local + "</div></div>" +
-    '<div class="scard"><div class="l">Tickets open</div><div class="n indigo">' + open + "</div></div>";
+  const sg = document.getElementById("statgrid");
+  sg.innerHTML =
+    '<div class="scard click" data-act="today"><div class="l">Stories today</div><div class="n">' + today.length + "</div></div>" +
+    '<div class="scard click" data-act="hot"><div class="l">Hot</div><div class="n orange">' + hot + "</div></div>" +
+    '<div class="scard click" data-act="local"><div class="l">Local angle</div><div class="n green">' + local + "</div></div>" +
+    '<div class="scard click" data-act="tickets"><div class="l">Tickets open</div><div class="n indigo">' + open + "</div></div>";
+  sg.querySelectorAll(".scard").forEach(card => {
+    card.onclick = () => {
+      const act = card.dataset.act;
+      if (act === "tickets") { boardView = "ideas"; switchTab("plan"); return; }
+      hotOnly = act === "hot";
+      localOnly = act === "local";
+      if (act === "today") mode = "latest";
+      shown = PAGE;
+      switchTab("news");
+      bar(); render();
+    };
+  });
 
   const pl = document.getElementById("pipeline");
   const openPlans = plans.filter(x => x.status !== "posted").slice(0, 6);
