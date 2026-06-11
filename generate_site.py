@@ -202,35 +202,49 @@ PAGE = r"""<!doctype html>
   .ghost:hover { color:var(--text); border-color:var(--line2); box-shadow:var(--shadow-sm); }
   .addrow { display:flex; gap:10px; margin:20px 0 10px; flex-wrap:wrap; }
 
-  /* ---------- board (Asana style) ---------- */
-  .board { display:flex; gap:14px; overflow-x:auto; padding:8px 2px 28px;
-           align-items:flex-start; }
-  .col { min-width:268px; width:268px; flex-shrink:0; background:var(--surface2);
-         border-radius:12px; padding:10px 10px 12px; }
-  .col h3 { font-size:12.5px; font-weight:700; color:var(--text); margin:4px 6px 12px;
-          display:flex; align-items:center; gap:8px; }
-  .col h3 .dot { width:9px; height:9px; border-radius:50%; }
-  .col h3 .n { color:var(--faint); font-weight:600; font-size:11.5px; margin-left:auto; }
-  .colbody { min-height:30px; border-radius:8px; transition:.15s; }
-  .colbody.dragover { background:var(--indigo-soft); outline:2px dashed var(--indigo); }
-  .tcard { background:var(--surface); border:1px solid var(--line); border-radius:10px;
-          padding:12px 13px; margin-bottom:9px; cursor:grab; transition:.15s;
-          box-shadow:var(--shadow-sm); }
-  .tcard:hover { box-shadow:var(--shadow); border-color:var(--line2); }
-  .tcard:active { cursor:grabbing; }
-  .tcard .t { font-weight:600; font-size:13px; line-height:1.4; margin-bottom:8px; }
-  .tcard .crow { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  /* ---------- publish board (Buffer style) ---------- */
   .avatar { width:22px; height:22px; border-radius:50%; font-size:10.5px; font-weight:700;
-          display:inline-flex; align-items:center; justify-content:center; color:#fff; }
+          display:inline-flex; align-items:center; justify-content:center; color:#fff;
+          flex-shrink:0; }
   .avatar.ahmad { background:var(--indigo); }
   .avatar.editor { background:#f59e0b; }
   .tag { font-size:10px; font-weight:600; color:var(--dim); background:var(--surface2);
           border:1px solid var(--line); border-radius:5px; padding:1.5px 6px; }
-  .duetag { font-size:10.5px; font-weight:600; color:var(--dim); margin-left:auto; }
-  .duetag.late { color:var(--red); }
-  .addcard { width:100%; background:none; border:none; color:var(--faint); text-align:left;
-          padding:8px 10px; border-radius:8px; font:500 12.5px Inter; cursor:pointer; }
-  .addcard:hover { background:var(--surface); color:var(--indigo); }
+  .qday { font:700 12px Inter; color:var(--faint); text-transform:uppercase;
+          letter-spacing:.07em; margin:20px 2px 8px; }
+  .qrow { display:flex; align-items:center; gap:10px; background:var(--surface);
+          border:1px solid var(--line); border-radius:12px; padding:13px 16px;
+          margin-bottom:8px; cursor:pointer; transition:.15s; box-shadow:var(--shadow-sm); }
+  .qrow:hover { box-shadow:var(--shadow); border-color:var(--line2); }
+  .qtime { font:700 12.5px Inter; color:var(--indigo); width:46px; flex-shrink:0; }
+  .qtext { font-weight:500; font-size:13.5px; flex:1; min-width:0; overflow:hidden;
+          text-overflow:ellipsis; white-space:nowrap; }
+  .qtags { display:flex; gap:4px; flex-shrink:0; }
+  .ideagrid { display:grid; grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+          gap:12px; }
+  .ideacard { background:var(--surface); border:1px solid var(--line); border-radius:12px;
+          padding:14px 16px; box-shadow:var(--shadow-sm); transition:.15s; }
+  .ideacard:hover { box-shadow:var(--shadow); }
+  .ideacard .t { font-weight:600; font-size:13px; line-height:1.4; margin-bottom:6px; }
+  .ideacard a { font-size:11.5px; }
+  .calhead { display:flex; align-items:center; gap:10px; margin:16px 0 12px; }
+  .calhead b { font-family:var(--display); font-size:16px; }
+  .calhead .ghost { padding:6px 13px; }
+  .calgrid { display:grid; grid-template-columns:repeat(7, 1fr); gap:8px; }
+  @media (max-width:860px) { .calgrid { grid-template-columns:repeat(2, 1fr); } }
+  .calcell { background:var(--surface); border:1px solid var(--line); border-radius:12px;
+          padding:10px; min-height:130px; display:flex; flex-direction:column; gap:5px; }
+  .calcell.today { border-color:var(--cta); box-shadow:0 0 0 2px #e3f7d2; }
+  .calcell .cd { font:700 11.5px Inter; color:var(--dim); margin-bottom:2px; }
+  .calcell.today .cd { color:var(--green); }
+  .calpost { font:500 10.5px Inter; border-radius:6px; padding:4px 7px; cursor:pointer;
+          overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .calpost.scheduled { background:var(--indigo-soft); color:var(--indigo); }
+  .calpost.draft { background:var(--gold-soft); color:var(--gold); }
+  .calpost.posted { background:var(--green-soft); color:var(--green); }
+  .calplus { margin-top:auto; background:none; border:none; color:var(--faint);
+          font-size:15px; cursor:pointer; border-radius:6px; padding:2px; }
+  .calplus:hover { background:var(--surface2); color:var(--indigo); }
 
   /* ---------- ticket modal ---------- */
   #modal { position:fixed; inset:0; z-index:300; background:rgba(15,23,42,.35);
@@ -357,15 +371,14 @@ PAGE = r"""<!doctype html>
   </section>
 
   <section id="tab-plan" hidden>
-    <div class="addrow">
-      <input id="newidea" style="flex:1;min-width:200px" placeholder="New ticket title…">
-      <button class="btn" onclick="addIdea()">+ New ticket</button>
-      <button class="ghost" onclick="exportPlans()">⬇ Export</button>
-      <button class="ghost" onclick="document.getElementById('importfile').click()">⬆ Import</button>
+    <div class="addrow" style="align-items:center">
+      <div class="bar" id="boardnav" style="margin:0"></div>
+      <button class="btn" style="margin-left:auto" onclick="openComposer(null)">+ New post</button>
+      <button class="ghost" onclick="exportPlans()">⬇</button>
+      <button class="ghost" onclick="document.getElementById('importfile').click()">⬆</button>
       <input type="file" id="importfile" accept=".json" hidden>
     </div>
-    <div class="bar" id="assfilter"></div>
-    <div class="board" id="board"></div>
+    <div id="boardview"></div>
   </section>
 
   <section id="tab-prep" hidden>
@@ -414,21 +427,28 @@ PAGE = r"""<!doctype html>
 
 <div id="modal" hidden>
   <div class="mbox">
-    <input type="text" id="m-title" class="mtitle" placeholder="Ticket title">
-    <div class="mrow"><span class="lbl">Source</span>
-      <input type="text" id="m-url" style="flex:1" placeholder="https://… (optional)"></div>
-    <div class="mrow"><span class="lbl">Assignee</span>
-      <select id="m-ass"><option>Ahmad</option><option>Editor</option></select>
-      <span class="lbl" style="width:auto">Due</span>
-      <input type="date" id="m-due"></div>
-    <div class="mrow"><span class="lbl">Platforms</span>
+    <div class="mrow" style="margin-top:0"><span class="lbl">Channels</span>
       <span class="mplats" id="m-plats"></span></div>
+    <textarea id="m-title" style="width:100%;min-height:120px;font-size:14px"
+      placeholder="Write your post / video title… (ya template chuno 👇)"></textarea>
+    <div class="mrow"><span class="lbl">Template</span>
+      <select id="m-tpl" style="flex:1"><option value="">— plug &amp; play template —</option></select></div>
+    <div class="mrow"><span class="lbl">Link</span>
+      <input type="text" id="m-url" style="flex:1" placeholder="https://… story or video link (optional)"></div>
+    <div class="mrow"><span class="lbl">Schedule</span>
+      <input type="date" id="m-date"><input type="time" id="m-time" value="18:00">
+      <select id="m-status">
+        <option value="idea">💡 Idea</option><option value="draft">📝 Draft</option>
+        <option value="scheduled">🗓 Scheduled</option><option value="posted">✅ Posted</option>
+      </select></div>
+    <div class="mrow"><span class="lbl">Owner</span>
+      <select id="m-ass"><option>Ahmad</option><option>Editor</option></select></div>
     <div class="mrow" style="align-items:flex-start"><span class="lbl">Notes</span>
-      <textarea id="m-notes" style="flex:1;min-height:110px"
-        placeholder="script paste, links, instructions for editor…"></textarea></div>
+      <textarea id="m-notes" style="flex:1;min-height:70px"
+        placeholder="script paste, b-roll list, instructions for editor…"></textarea></div>
     <div class="mfoot">
-      <button class="btn" onclick="closeModal()">Done</button>
-      <button class="ghost" onclick="modalPrep()">📝 Prep</button>
+      <button class="btn" onclick="closeModal()">Save</button>
+      <button class="ghost" onclick="modalPrep()">🤖 Write with Claude</button>
       <button class="danger" style="margin-left:auto" onclick="modalDelete()">Delete</button>
     </div>
   </div>
@@ -487,6 +507,17 @@ if (localStorage.getItem("plans_v") !== "2") {
     due: p.due || p.date || "",
   }));
   localStorage.setItem("plans_v", "2");
+  localStorage.setItem("plans", JSON.stringify(plans));
+}
+if (localStorage.getItem("plans_v") !== "3") {
+  plans = plans.map(p => ({
+    id: p.id, title: p.title, url: p.url || "", notes: p.notes || "",
+    status: ({script:"draft",filming:"draft",editing:"draft"})[p.status] || p.status || "idea",
+    assignee: p.assignee || "Ahmad",
+    platforms: p.platforms || ["yt","shorts"],
+    when: p.when || (p.due ? p.due + "T18:00" : ""),
+  }));
+  localStorage.setItem("plans_v", "3");
   localStorage.setItem("plans", JSON.stringify(plans));
 }
 
@@ -634,104 +665,213 @@ function renderResearch() {
   });
 }
 
-/* ---------------- Board (Asana style: drag & drop + ticket modal) ---------------- */
+/* ---------------- Publish board (Buffer style) ---------------- */
+let boardView = "queue", calOffset = 0;
+
 function addPlan(title, url) {
   plans.unshift({ id: Date.now(), title, url: url || "", notes: "",
-    status: "idea", assignee: "Ahmad", platforms: ["yt", "shorts"], due: "" });
+    status: "idea", assignee: "Ahmad", platforms: ["yt", "shorts"], when: "" });
   savePlans();
-  toast("Ticket created 🎬");
+  toast("Saved to Ideas 💡");
 }
-function addIdea() {
-  const inp = document.getElementById("newidea");
-  if (!inp.value.trim()) return;
-  addPlan(inp.value.trim(), "");
-  inp.value = "";
-  renderBoard();
-}
-function assBar() {
-  const el = document.getElementById("assfilter");
+
+function boardNav() {
+  const el = document.getElementById("boardnav");
   el.innerHTML = "";
-  ["All", "Ahmad", "Editor"].forEach(a => {
+  [["queue","🗓 Queue"],["calendar","📅 Calendar"],["drafts","📝 Drafts"],
+   ["ideas","💡 Ideas"],["posted","✅ Posted"]].forEach(([k, label]) => {
     const b = document.createElement("button");
-    b.textContent = a === "All" ? "All tickets" : (a === "Ahmad" ? "🧑 Ahmad" : "✂️ Editor");
-    b.className = assFilter === a ? "active" : "";
-    b.onclick = () => { assFilter = a; renderBoard(); };
+    b.innerHTML = label;
+    b.className = boardView === k ? "active" : "";
+    b.onclick = () => { boardView = k; renderBoard(); };
     el.appendChild(b);
   });
 }
+
 function renderBoard() {
-  assBar();
-  const board = document.getElementById("board");
-  board.innerHTML = "";
-  STATUSES.forEach(([key, label, color]) => {
-    const col = document.createElement("div");
-    col.className = "col";
-    const cards = plans.filter(p => p.status === key &&
-      (assFilter === "All" || p.assignee === assFilter));
-    col.innerHTML = '<h3><span class="dot" style="background:' + color + '"></span>' +
-      label + ' <span class="n">' + cards.length + "</span></h3>";
-    const body = document.createElement("div");
-    body.className = "colbody";
-    body.dataset.status = key;
-    body.addEventListener("dragover", e => { e.preventDefault(); body.classList.add("dragover"); });
-    body.addEventListener("dragleave", () => body.classList.remove("dragover"));
-    body.addEventListener("drop", e => {
-      e.preventDefault();
-      body.classList.remove("dragover");
-      const id = +e.dataTransfer.getData("text/plain");
-      const p = plans.find(x => x.id === id);
-      if (p && p.status !== key) { p.status = key; savePlans(); renderBoard(); }
-    });
-    cards.forEach(p => {
-      const c = document.createElement("div");
-      c.className = "tcard";
-      c.draggable = true;
-      const late = p.due && p.due < new Date().toISOString().slice(0, 10) && key !== "posted";
-      const plats = p.platforms.slice(0, 3).map(k => {
-        const f = PLATFORMS.find(x => x[0] === k);
-        return '<span class="tag">' + (f ? f[1] : k) + "</span>";
-      }).join("") + (p.platforms.length > 3 ? '<span class="tag">+' + (p.platforms.length - 3) + "</span>" : "");
-      c.innerHTML =
-        '<div class="t">' + esc(p.title) + "</div>" +
-        '<div class="crow">' +
-        '<span class="avatar ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
-        (p.assignee === "Editor" ? "E" : "A") + "</span>" + plats +
-        (p.due ? '<span class="duetag' + (late ? " late" : "") + '">📅 ' +
-          p.due.slice(5) + "</span>" : "") +
-        "</div>";
-      c.addEventListener("dragstart", e =>
-        e.dataTransfer.setData("text/plain", String(p.id)));
-      c.onclick = () => openTicket(p.id);
-      body.appendChild(c);
-    });
-    col.appendChild(body);
-    const add = document.createElement("button");
-    add.className = "addcard";
-    add.textContent = "+ Add ticket";
-    add.onclick = () => {
-      const title = prompt("Ticket title:");
-      if (title && title.trim()) {
-        plans.unshift({ id: Date.now(), title: title.trim(), url: "", notes: "",
-          status: key, assignee: "Ahmad", platforms: ["yt", "shorts"], due: "" });
-        savePlans();
-        renderBoard();
-      }
-    };
-    col.appendChild(add);
-    board.appendChild(col);
+  boardNav();
+  const el = document.getElementById("boardview");
+  el.innerHTML = "";
+  if (boardView === "queue") renderQueue(el);
+  else if (boardView === "calendar") renderCalendar(el);
+  else if (boardView === "drafts") renderList(el, ["draft"], "No drafts yet. Turn an idea into a draft, or press + New post.");
+  else if (boardView === "ideas") renderIdeas(el);
+  else renderList(el, ["posted"], "Nothing posted yet — your history will appear here.");
+}
+
+function platTags(p, max) {
+  max = max || 4;
+  return p.platforms.slice(0, max).map(k => {
+    const f = PLATFORMS.find(x => x[0] === k);
+    return '<span class="tag">' + (f ? f[1] : k) + "</span>";
+  }).join("") + (p.platforms.length > max ? '<span class="tag">+' + (p.platforms.length - max) + "</span>" : "");
+}
+
+function postRow(p, withTime) {
+  const d = document.createElement("div");
+  d.className = "qrow";
+  d.innerHTML =
+    (withTime ? '<span class="qtime">' + (p.when ? p.when.slice(11, 16) : "--:--") + "</span>" : "") +
+    '<span class="avatar ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
+    (p.assignee === "Editor" ? "E" : "A") + "</span>" +
+    '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 80)) + "</span>" +
+    '<span class="qtags">' + platTags(p) + "</span>";
+  d.onclick = () => openComposer(p.id);
+  return d;
+}
+
+function dayName(iso) {
+  const today = new Date();
+  const t = today.toISOString().slice(0, 10);
+  const tom = new Date(today.getTime() + 86400000).toISOString().slice(0, 10);
+  const label = new Date(iso + "T00:00").toLocaleDateString("en-GB",
+    { weekday: "long", day: "numeric", month: "long" });
+  if (iso === t) return "Today · " + label;
+  if (iso === tom) return "Tomorrow · " + label;
+  return label;
+}
+
+function renderQueue(el) {
+  const sched = plans.filter(p => p.status === "scheduled" && p.when)
+    .sort((a, b) => a.when.localeCompare(b.when));
+  if (!sched.length) {
+    el.innerHTML = '<div class="empty">Queue is empty — schedule a draft, or press + New post.</div>';
+    return;
+  }
+  let lastDay = "";
+  sched.forEach(p => {
+    const day = p.when.slice(0, 10);
+    if (day !== lastDay) {
+      lastDay = day;
+      const h = document.createElement("div");
+      h.className = "qday";
+      h.textContent = dayName(day);
+      el.appendChild(h);
+    }
+    el.appendChild(postRow(p, true));
   });
 }
 
-/* ---- ticket modal ---- */
-function openTicket(id) {
-  const p = plans.find(x => x.id === id);
-  if (!p) return;
-  editingId = id;
+function renderList(el, statuses, emptyMsg) {
+  const items = plans.filter(p => statuses.includes(p.status));
+  if (!items.length) { el.innerHTML = '<div class="empty">' + emptyMsg + "</div>"; return; }
+  items.forEach(p => el.appendChild(postRow(p, false)));
+}
+
+function renderIdeas(el) {
+  const top = document.createElement("div");
+  top.className = "addrow";
+  top.innerHTML = '<input id="ideainp" style="flex:1;min-width:200px" placeholder="Quick idea… (press Enter to save)">';
+  el.appendChild(top);
+  setTimeout(() => {
+    const inp = document.getElementById("ideainp");
+    if (inp) inp.addEventListener("keydown", e => {
+      if (e.key === "Enter" && e.target.value.trim()) {
+        addPlan(e.target.value.trim(), "");
+        renderBoard();
+      }
+    });
+  }, 0);
+  const grid = document.createElement("div");
+  grid.className = "ideagrid";
+  const ideas = plans.filter(p => p.status === "idea");
+  if (!ideas.length) grid.innerHTML =
+    '<div class="empty">No ideas yet — the 🎬 plan button on any news story drops it here.</div>';
+  ideas.forEach(p => {
+    const c = document.createElement("div");
+    c.className = "ideacard";
+    c.innerHTML = '<div class="t">' + esc(p.title.split("\n")[0]) + "</div>" +
+      (p.url ? '<a href="' + esc(p.url) + '" target="_blank">source</a>' : "") +
+      '<div style="margin-top:10px;display:flex;gap:6px">' +
+      '<button class="ghost" style="padding:5px 12px;font-size:12px">→ Draft</button>' +
+      '<button class="ghost" style="padding:5px 12px;font-size:12px">Open</button>' +
+      '<button class="danger" style="padding:5px 10px;font-size:12px;margin-left:auto">✕</button></div>';
+    const btns = c.querySelectorAll("button");
+    btns[0].onclick = () => { p.status = "draft"; savePlans(); renderBoard(); toast("Moved to Drafts 📝"); };
+    btns[1].onclick = () => openComposer(p.id);
+    btns[2].onclick = () => {
+      if (confirm("Delete idea?")) {
+        plans = plans.filter(x => x.id !== p.id); savePlans(); renderBoard();
+      }
+    };
+    grid.appendChild(c);
+  });
+  el.appendChild(grid);
+}
+
+function renderCalendar(el) {
+  const now = new Date();
+  const monday = new Date(now);
+  monday.setDate(now.getDate() - ((now.getDay() + 6) % 7) + calOffset * 7);
+  const head = document.createElement("div");
+  head.className = "calhead";
+  head.innerHTML = '<button class="ghost" id="calprev">←</button>' +
+    "<b>" + monday.toLocaleDateString("en-GB", { month: "long", year: "numeric" }) + "</b>" +
+    '<button class="ghost" id="calnext">→</button>' +
+    '<button class="ghost" id="caltoday">Today</button>';
+  el.appendChild(head);
+  head.querySelector("#calprev").onclick = () => { calOffset--; renderBoard(); };
+  head.querySelector("#calnext").onclick = () => { calOffset++; renderBoard(); };
+  head.querySelector("#caltoday").onclick = () => { calOffset = 0; renderBoard(); };
+  const grid = document.createElement("div");
+  grid.className = "calgrid";
+  const todayIso = new Date().toISOString().slice(0, 10);
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(monday);
+    d.setDate(monday.getDate() + i);
+    const iso = d.toISOString().slice(0, 10);
+    const cell = document.createElement("div");
+    cell.className = "calcell" + (iso === todayIso ? " today" : "");
+    cell.innerHTML = '<div class="cd">' +
+      d.toLocaleDateString("en-GB", { weekday: "short" }) + " " + d.getDate() + "</div>";
+    plans.filter(p => p.when && p.when.slice(0, 10) === iso && p.status !== "idea")
+      .sort((a, b) => a.when.localeCompare(b.when))
+      .forEach(p => {
+        const chipEl = document.createElement("div");
+        chipEl.className = "calpost " + p.status;
+        chipEl.textContent = p.when.slice(11, 16) + " " + p.title.split("\n")[0].slice(0, 22);
+        chipEl.onclick = () => openComposer(p.id);
+        cell.appendChild(chipEl);
+      });
+    const plus = document.createElement("button");
+    plus.className = "calplus";
+    plus.textContent = "+";
+    plus.onclick = () => openComposer(null, iso);
+    cell.appendChild(plus);
+    grid.appendChild(cell);
+  }
+  el.appendChild(grid);
+}
+
+/* ---- composer (Buffer-style) ---- */
+function openComposer(id, presetDate) {
+  let p = id ? plans.find(x => x.id === id) : null;
+  if (!p) {
+    p = { id: Date.now(), title: "", url: "", notes: "",
+      status: presetDate ? "scheduled" : "draft",
+      assignee: "Ahmad", platforms: ["yt", "shorts"],
+      when: presetDate ? presetDate + "T18:00" : "" };
+    plans.unshift(p);
+    savePlans();
+  }
+  editingId = p.id;
   document.getElementById("m-title").value = p.title;
   document.getElementById("m-url").value = p.url || "";
   document.getElementById("m-ass").value = p.assignee;
-  document.getElementById("m-due").value = p.due || "";
+  document.getElementById("m-status").value = p.status;
+  document.getElementById("m-date").value = p.when ? p.when.slice(0, 10) : "";
+  document.getElementById("m-time").value = p.when ? p.when.slice(11, 16) : "18:00";
   document.getElementById("m-notes").value = p.notes || "";
+  const tplSel = document.getElementById("m-tpl");
+  tplSel.innerHTML = '<option value="">— plug &amp; play template —</option>' +
+    (window.POST_TEMPLATES || []).map((t, i) =>
+      '<option value="' + i + '">' + t.name + "</option>").join("");
+  tplSel.onchange = () => {
+    if (tplSel.value !== "") {
+      document.getElementById("m-title").value = window.POST_TEMPLATES[+tplSel.value].text;
+      tplSel.value = "";
+    }
+  };
   const pl = document.getElementById("m-plats");
   pl.innerHTML = "";
   PLATFORMS.forEach(([k, name]) => {
@@ -751,10 +891,13 @@ function openTicket(id) {
 function modalSaveFields() {
   const p = plans.find(x => x.id === editingId);
   if (!p) return;
-  p.title = document.getElementById("m-title").value.trim() || p.title;
+  p.title = document.getElementById("m-title").value.trim() || p.title || "Untitled";
   p.url = document.getElementById("m-url").value.trim();
   p.assignee = document.getElementById("m-ass").value;
-  p.due = document.getElementById("m-due").value;
+  p.status = document.getElementById("m-status").value;
+  const date = document.getElementById("m-date").value;
+  p.when = date ? date + "T" + (document.getElementById("m-time").value || "18:00") : "";
+  if (p.status === "scheduled" && !p.when) p.status = "draft";
   p.notes = document.getElementById("m-notes").value;
   savePlans();
 }
@@ -765,7 +908,7 @@ function closeModal() {
   renderBoard();
 }
 function modalDelete() {
-  if (!confirm("Delete this ticket?")) return;
+  if (!confirm("Delete this post?")) return;
   plans = plans.filter(x => x.id !== editingId);
   savePlans();
   document.getElementById("modal").hidden = true;
@@ -777,10 +920,10 @@ function modalPrep() {
   const p = plans.find(x => x.id === editingId);
   document.getElementById("modal").hidden = true;
   if (p) {
-    document.getElementById("preptitle").value = p.title;
+    document.getElementById("preptitle").value = p.title.split("\n")[0].slice(0, 120);
     document.getElementById("prepurl").value = p.url || "";
     switchTab("prep");
-    toast("Ticket loaded — pick a button 📝");
+    toast("Loaded — pick a button 📝");
   }
 }
 document.getElementById("modal").addEventListener("click", e => {
@@ -791,9 +934,9 @@ function exportPlans() {
   const blob = new Blob([JSON.stringify(plans, null, 2)], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "aixahmad-board.json";
+  a.download = "aixahmad-posts.json";
   a.click();
-  toast("Board file downloaded — send it to your editor");
+  toast("Posts file downloaded — send it to your editor");
 }
 document.getElementById("importfile").addEventListener("change", e => {
   const f = e.target.files[0];
@@ -802,11 +945,12 @@ document.getElementById("importfile").addEventListener("change", e => {
   reader.onload = () => {
     try {
       const arr = JSON.parse(reader.result);
-      if (Array.isArray(arr)) { plans = arr; savePlans(); renderBoard(); toast("Board imported ✓"); }
-    } catch (err) { alert("That file is not a valid board export."); }
+      if (Array.isArray(arr)) { plans = arr; savePlans(); renderBoard(); toast("Imported ✓"); }
+    } catch (err) { alert("That file is not a valid export."); }
   };
   reader.readAsText(f);
 });
+
 
 /* ---------------- Prep ---------------- */
 const COMMONW = new Set(["the","and","for","with","that","this","from","what",

@@ -3,6 +3,23 @@
    Refine the wording here anytime - the site reloads it automatically.
    Kept separate so a future Cloudflare Worker can reuse the same file. */
 
+/* Plug-and-play caption templates for the post composer (Buffer-style).
+   Edit freely - {topic} stays as a placeholder you replace while writing. */
+window.POST_TEMPLATES = [
+  { name: "Video announcement",
+    text: "🚨 Nayi video aa gayi!\n\n{topic} — sab kuch simple Urdu mein samjhaya hai.\n\nLink bio mein 🔗\n#AI #AIxAhmad" },
+  { name: "Hook question",
+    text: "Kya aap jaante hain {topic}?\n\n90% log ye nahi jaante... maine video mein sab bataya hai 👇" },
+  { name: "Prompt share",
+    text: "Ye prompt copy karo aur khud try karo 🎁\n\n\"{topic}\"\n\nApna result comment mein dikhao 👇\n#ChatGPT #AI" },
+  { name: "Behind the scenes",
+    text: "Aaj ki video ke peeche ki kahani 🎬\n\n{topic}\n\nKal video aa rahi hai — follow karke rakho!" },
+  { name: "Debate / poll",
+    text: "Sawal: {topic}?\n\nMera jawab: [apni stance likho]\n\nAap kya sochte hain? Comment mein batao 👇" },
+  { name: "Weekly recap",
+    text: "Is hafte AI duniya mein kya hua 🌍\n\n1. {topic}\n2. ...\n3. ...\n\nPoori detail YouTube pe — link bio mein!" },
+];
+
 window.TEMPLATES = {
 
 shortScript: `You are writing a short vertical video script for "AI x Ahmad" — AI explained in simple Roman Urdu for viewers in Pakistan and India. Audience: everyday people (students, freelancers, shopkeepers, parents), NOT tech experts. No jargon, no English-heavy lines. Friendly tone, like a friend explaining.
