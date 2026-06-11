@@ -37,13 +37,14 @@ PAGE = r"""<!doctype html>
 <title>AI x Ahmad — Radar Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg:#fafbfc; --surface:#ffffff; --surface2:#f4f5f7;
-    --text:#1f2329; --dim:#6b7280; --faint:#9aa1ab;
-    --line:#e8eaed; --line2:#d7dadf;
+    --bg:#ffffff; --surface:#ffffff; --surface2:#f5f6f4;
+    --text:#1d2025; --dim:#5f6671; --faint:#979ea8;
+    --line:#e9eaec; --line2:#d8dadd;
     --indigo:#6366f1; --indigo-soft:#eef0fe; --cyan:#06b6d4;
+    --cta:#a5e573; --cta-dark:#16321a; --cta-hover:#93dd5c;
     --gold:#b45309; --gold-soft:#fef3c7;
     --green:#059669; --green-soft:#ecfdf5;
     --red:#dc2626; --red-soft:#fee2e2;
@@ -53,7 +54,8 @@ PAGE = r"""<!doctype html>
     --shadow-sm:0 1px 2px rgba(16,24,40,.06);
     --shadow:0 4px 16px -4px rgba(16,24,40,.12);
     --shadow-lg:0 20px 50px -12px rgba(16,24,40,.25);
-    --r:10px;
+    --r:12px;
+    --display:"Bricolage Grotesque", Inter, system-ui, sans-serif;
   }
   * { box-sizing:border-box; }
   [hidden] { display:none !important; }
@@ -69,17 +71,52 @@ PAGE = r"""<!doctype html>
   .hrow { max-width:1080px; margin:0 auto; padding:12px 20px;
           display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
   .logo { display:flex; align-items:center; gap:9px; font-weight:800;
-          font-size:16px; letter-spacing:-.02em; }
-  .logo .orb { width:26px; height:26px; border-radius:8px;
+          font-size:17px; letter-spacing:-.02em; font-family:var(--display); }
+  .logo .orb { width:28px; height:28px; border-radius:9px;
           background:linear-gradient(135deg,#6366f1,#06b6d4);
           display:flex; align-items:center; justify-content:center;
-          color:#fff; font-size:13px; font-weight:800; }
-  .logo small { font-weight:500; color:var(--faint); font-size:11px; }
+          color:#fff; font-size:14px; font-weight:800; }
+  .logo small { font-weight:600; color:var(--faint); font-size:10.5px;
+          font-family:Inter; letter-spacing:.06em; }
   .tabs { display:flex; gap:2px; margin-left:auto; }
-  .tabs button { background:none; border:none; color:var(--dim); padding:8px 14px;
-          border-radius:8px; font:600 13px Inter; cursor:pointer; transition:.15s; }
+  .tabs button { background:none; border:none; color:var(--dim); padding:9px 15px;
+          border-radius:999px; font:600 13.5px Inter; cursor:pointer; transition:.15s; }
   .tabs button:hover { background:var(--surface2); color:var(--text); }
-  .tabs button.active { background:var(--indigo-soft); color:var(--indigo); }
+  .tabs button.active { background:var(--text); color:#fff; }
+
+  /* ---------- hero (Buffer style) ---------- */
+  .hero { position:relative; text-align:center; padding:54px 0 30px; }
+  .hero .tagline { display:inline-flex; align-items:center; gap:8px;
+          background:var(--surface2); border:1px solid var(--line);
+          color:var(--dim); border-radius:999px; padding:7px 16px;
+          font:600 12px Inter; margin-bottom:22px; }
+  .hero .tagline .live { width:8px; height:8px; border-radius:50%;
+          background:#22c55e; box-shadow:0 0 0 3px rgba(34,197,94,.2);
+          animation:pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+  .hero h1 { font-family:var(--display); font-size:clamp(34px, 6vw, 58px);
+          font-weight:800; letter-spacing:-.03em; line-height:1.08; margin:0 0 14px; }
+  .hero h1 em { font-style:normal; position:relative; white-space:nowrap; }
+  .hero h1 em::after { content:""; position:absolute; left:0; right:0; bottom:6px;
+          height:.32em; background:var(--cta); z-index:-1; border-radius:4px; }
+  .hero .sub { color:var(--dim); font-size:16px; margin:0 auto 26px; max-width:480px; }
+  .herostats { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+  .herostats span { background:var(--surface); border:1px solid var(--line);
+          border-radius:999px; padding:8px 18px; font:600 12.5px Inter;
+          color:var(--text); box-shadow:var(--shadow-sm); }
+  .float { position:absolute; width:52px; height:52px; border-radius:14px;
+          display:flex; align-items:center; justify-content:center; font-size:24px;
+          box-shadow:var(--shadow-sm); border:1px solid rgba(0,0,0,.04);
+          animation:bob 5s ease-in-out infinite; }
+  @keyframes bob { 0%,100%{transform:translateY(0) rotate(var(--rot,0deg))}
+                   50%{transform:translateY(-9px) rotate(var(--rot,0deg))} }
+  .f1 { left:2%;  top:18%; background:#fde9e9; --rot:-7deg; }
+  .f2 { left:9%;  top:62%; background:#e8f4fd; --rot:5deg;  animation-delay:.6s; }
+  .f3 { right:3%; top:14%; background:#eef9e7; --rot:8deg;  animation-delay:.3s; }
+  .f4 { right:10%; top:58%; background:#fdf3e2; --rot:-5deg; animation-delay:.9s; }
+  .f5 { left:20%; top:6%;  background:#f3e8ff; --rot:4deg;  animation-delay:1.2s; }
+  .f6 { right:21%; top:74%; background:#e6fbf3; --rot:-8deg; animation-delay:1.5s; }
+  @media (max-width:860px) { .float { display:none; } .hero { padding-top:34px; } }
   .updated { width:100%; color:var(--faint); font-size:11px; }
 
   /* ---------- controls ---------- */
@@ -93,8 +130,8 @@ PAGE = r"""<!doctype html>
           padding:6px 13px; border-radius:999px; font:500 12.5px Inter;
           cursor:pointer; transition:.15s; box-shadow:var(--shadow-sm); }
   .bar button:hover { border-color:var(--line2); color:var(--text); }
-  .bar button.active { background:var(--indigo); border-color:var(--indigo); color:#fff; font-weight:600; }
-  .bar button.gold.active { background:#f59e0b; border-color:#f59e0b; }
+  .bar button.active { background:var(--text); border-color:var(--text); color:#fff; font-weight:600; }
+  .bar button.gold.active { background:var(--cta); border-color:var(--cta); color:var(--cta-dark); }
   .bar select { background:var(--surface); border:1px solid var(--line); color:var(--dim);
           padding:6px 12px; border-radius:999px; font:500 12.5px Inter; outline:none;
           box-shadow:var(--shadow-sm); }
@@ -145,11 +182,11 @@ PAGE = r"""<!doctype html>
           outline:none; transition:.15s; }
   input:focus, textarea:focus, select:focus { border-color:var(--indigo);
           box-shadow:0 0 0 3px var(--indigo-soft); }
-  .btn { background:var(--indigo); border:none; color:#fff; padding:9px 18px;
-          border-radius:var(--r); font:600 13px Inter; cursor:pointer; transition:.15s; }
-  .btn:hover { background:#4f52e8; box-shadow:var(--shadow); }
+  .btn { background:var(--cta); border:none; color:var(--cta-dark); padding:10px 20px;
+          border-radius:999px; font:700 13px Inter; cursor:pointer; transition:.15s; }
+  .btn:hover { background:var(--cta-hover); box-shadow:var(--shadow); }
   .ghost { background:var(--surface); color:var(--dim); border:1px solid var(--line);
-          padding:9px 16px; border-radius:var(--r); font:500 13px Inter; cursor:pointer;
+          padding:9px 16px; border-radius:999px; font:500 13px Inter; cursor:pointer;
           transition:.15s; }
   .ghost:hover { color:var(--text); border-color:var(--line2); box-shadow:var(--shadow-sm); }
   .addrow { display:flex; gap:10px; margin:20px 0 10px; flex-wrap:wrap; }
@@ -229,7 +266,7 @@ PAGE = r"""<!doctype html>
           background:linear-gradient(135deg,#6366f1,#06b6d4); color:#fff;
           font-size:20px; font-weight:800; display:flex; align-items:center;
           justify-content:center; margin:0 auto 16px; }
-  .lockbox h2 { font-size:17px; margin:0 0 4px; }
+  .lockbox h2 { font-size:18px; margin:0 0 4px; font-family:var(--display); }
   .lockbox p { color:var(--faint); font-size:12.5px; margin:0 0 18px; }
   .lockbox input { width:100%; text-align:center; letter-spacing:.08em; margin-bottom:12px; }
 
@@ -265,12 +302,25 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Board</button>
       <button id="tabbtn-prep" onclick="switchTab('prep')">Prep</button>
     </nav>
-    <div class="updated">AI Ki Duniya, Simple Urdu Mein · @aixahmad · updated __UPDATED__</div>
+    <div class="updated">AI Ki Duniya, Simple Urdu Mein · @aixahmad</div>
   </div>
 </header>
 <div class="wrap">
 
   <section id="tab-news">
+    <div class="hero">
+      <div class="float f1">🤖</div>
+      <div class="float f2">📺</div>
+      <div class="float f3">⚡</div>
+      <div class="float f4">🎬</div>
+      <div class="float f5">💡</div>
+      <div class="float f6">🔥</div>
+      <span class="tagline"><span class="live"></span> Live radar · updated __UPDATED__</span>
+      <h1>Aaj kya <em>film</em> karein?</h1>
+      <p class="sub">Poori AI duniya ki news — aapki audience ke liye ranked,
+         scripts ready, ek hi jagah.</p>
+      <div class="herostats" id="herostats"></div>
+    </div>
     <div class="search"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
     <div class="bar" id="pillars"></div>
     <div class="count" id="count"></div>
@@ -795,11 +845,24 @@ function copyPrompt() {
     .then(() => toast("Copied again 📋"));
 }
 
+function heroStats() {
+  const day = Date.now() - 86400000;
+  const today = ITEMS.filter(it => it.p !== 9 && new Date(it.d).getTime() > day);
+  const hot = today.filter(it => it.l && it.l.length).length;
+  const el = document.getElementById("herostats");
+  const bits = ["🗞 " + today.length + " stories aaj"];
+  if (hot) bits.push("🔥 " + hot + " hot");
+  if (TRENDS.length) bits.push("🚀 rising: " + TRENDS[0].display);
+  const local = today.filter(it => it.lo).length;
+  if (local) bits.push("🇵🇰🇮🇳 " + local + " local");
+  el.innerHTML = bits.map(b => "<span>" + b + "</span>").join("");
+}
+
 document.getElementById("q").addEventListener("input", e => {
   q = e.target.value.trim(); shown = PAGE; render();
 });
 document.getElementById("more").onclick = () => { shown += PAGE; render(); };
-trendsBar(); bar(); render();
+trendsBar(); bar(); heroStats(); render();
 </script>
 </body>
 </html>
