@@ -43,8 +43,19 @@ jobs:
           git add news.db docs/
           if ! git diff --cached --quiet; then
             git commit -m "data: hourly news update"
-            git pull --rebase origin main
-            git push
+            # If Ahmad pushed code while we ran, retry and auto-resolve
+            # conflicts on generated files (our fresh data wins; the next
+            # hourly run regenerates the page with his new code anyway).
+            n=0
+            until git push; do
+              n=$((n+1))
+              if [ "$n" -gt 3 ]; then echo "giving up after 3 retries"; exit 1; fi
+              git pull --rebase -X theirs origin main || {
+                git checkout --theirs -- news.db docs/ 2>/dev/null || true
+                git add news.db docs/
+                GIT_EDITOR=true git rebase --continue || git rebase --skip || true
+              }
+            done
           fi
 
       - name: Phone alert if the cloud fetch broke
