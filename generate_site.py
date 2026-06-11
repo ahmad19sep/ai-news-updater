@@ -420,7 +420,9 @@ PAGE = r"""<!doctype html>
     <textarea id="m-title" style="width:100%;min-height:120px;font-size:14px"
       placeholder="Write your post / video title… (ya template chuno 👇)"></textarea>
     <div class="mrow"><span class="lbl">Template</span>
-      <select id="m-tpl" style="flex:1"><option value="">— plug &amp; play template —</option></select></div>
+      <select id="m-tpl" style="flex:1"><option value="">— quick caption fill —</option></select>
+      <button class="ghost" style="padding:8px 13px;font-size:12px"
+        onclick="composerToWizard()">✨ Full wizard</button></div>
     <div class="mrow"><span class="lbl">Link</span>
       <input type="text" id="m-url" style="flex:1" placeholder="https://… story or video link (optional)"></div>
     <div class="mrow"><span class="lbl">Schedule</span>
@@ -649,7 +651,7 @@ function renderResearch() {
 }
 
 /* ---------------- Publish board (Buffer style) ---------------- */
-let boardView = "queue", calOffset = 0;
+let boardView = "create", calOffset = 0;
 
 function addPlan(title, url) {
   plans.unshift({ id: Date.now(), title, url: url || "", notes: "",
@@ -661,8 +663,8 @@ function addPlan(title, url) {
 function boardNav() {
   const el = document.getElementById("boardnav");
   el.innerHTML = "";
-  [["queue","🗓 Queue"],["calendar","📅 Calendar"],["drafts","📝 Drafts"],
-   ["ideas","💡 Ideas"],["create","✨ Create"],["posted","✅ Posted"]].forEach(([k, label]) => {
+  [["create","✨ Create"],["queue","🗓 Queue"],["calendar","📅 Calendar"],
+   ["drafts","📝 Drafts"],["ideas","💡 Ideas"],["posted","✅ Posted"]].forEach(([k, label]) => {
     const b = document.createElement("button");
     b.innerHTML = label;
     b.className = boardView === k ? "active" : "";
@@ -1160,6 +1162,7 @@ function modalPrep() {
   editingId = null;
   if (p) openCreate(p.title.split("\n")[0].slice(0, 120), p.url || "");
 }
+function composerToWizard() { modalPrep(); }
 document.getElementById("modal").addEventListener("click", e => {
   if (e.target.id === "modal") closeModal();
 });
