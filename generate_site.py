@@ -257,6 +257,25 @@ PAGE = r"""<!doctype html>
   .tplcard .tn { font-family:var(--display); font-weight:700; font-size:14.5px;
           line-height:1.3; }
   .tplcard .td { color:var(--dim); font-size:12px; line-height:1.5; flex:1; }
+  .tplcard.on { border-color:var(--cta); box-shadow:0 0 0 2px #e3f7d2; }
+  .wstep { display:flex; gap:14px; margin:20px 0; }
+  .wnum { width:28px; height:28px; border-radius:50%; background:var(--text); color:#fff;
+          font:700 13px Inter; display:flex; align-items:center; justify-content:center;
+          flex-shrink:0; margin-top:2px; }
+  .wbody { flex:1; min-width:0; }
+  .wbody h4 { margin:2px 0 10px; font-size:14px; font-weight:700;
+          font-family:var(--display); }
+  .typecards { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+          gap:12px; }
+  .typecard { background:var(--surface); border:1px solid var(--line); border-radius:14px;
+          padding:18px 16px; cursor:pointer; transition:.15s; display:flex;
+          flex-direction:column; gap:4px; box-shadow:var(--shadow-sm); }
+  .typecard:hover { box-shadow:var(--shadow); transform:translateY(-2px); }
+  .typecard.on { border-color:var(--cta); box-shadow:0 0 0 2px #e3f7d2; }
+  .typecard .te { font-size:26px; }
+  .typecard b { font-family:var(--display); font-size:14.5px; }
+  .typecard span { color:var(--dim); font-size:12px; line-height:1.45; }
+  .whint { color:var(--faint); font-size:12px; }
 
   /* ---------- ticket modal ---------- */
   #modal { position:fixed; inset:0; z-index:300; background:rgba(15,23,42,.35);
@@ -338,7 +357,6 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-trends" onclick="switchTab('trends')">Trends</button>
       <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Buffer</button>
-      <button id="tabbtn-prep" onclick="switchTab('prep')">Prep</button>
     </nav>
     <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
   </div>
@@ -356,8 +374,8 @@ PAGE = r"""<!doctype html>
       </div>
       <div class="panel">
         <h3>⚡ Quick actions</h3>
-        <button class="qa" onclick="qaShort()">🎬 Generate short script</button>
-        <button class="qa" onclick="qaX()">💬 New X engagement post</button>
+        <button class="qa" onclick="qaShort()">🎬 Create a short video</button>
+        <button class="qa" onclick="qaX()">💬 Create an X post</button>
         <button class="qa" onclick="qaNews()">🎯 Open video-worthy list</button>
       </div>
     </div>
@@ -393,48 +411,6 @@ PAGE = r"""<!doctype html>
     <div id="boardview"></div>
   </section>
 
-  <section id="tab-prep" hidden>
-    <div class="panel">
-      <h3>🎬 Script &amp; Post generator</h3>
-      <p class="sub">Fill the story, press a button — the complete prompt is copied. Paste it in your Claude app, paste the result back into your ticket notes.</p>
-      <div class="genrow">
-        <input id="preptitle" style="flex:1;min-width:200px" placeholder="Story / video topic">
-        <input id="prepurl" style="flex:1;min-width:200px" placeholder="https://… source link">
-      </div>
-      <div class="genrow">
-        <input id="prepsum" style="flex:1;min-width:200px" placeholder="Key point in one line (optional — Claude reads the link anyway)">
-        <select id="prepdur">
-          <option value="60">Short: 60 sec</option>
-          <option value="45">Short: 45 sec</option>
-          <option value="75">Short: 75 sec</option>
-          <option value="120">Long-short: 2 min (rare big story)</option>
-        </select>
-      </div>
-      <div class="genrow">
-        <button class="btn" onclick="genPrompt('shortScript')">🎬 Short Script</button>
-        <button class="btn" onclick="genPrompt('longScript')">📺 Long Script</button>
-        <button class="btn" onclick="genPrompt('postPack')">📦 Post Pack</button>
-        <span id="copyok" class="copied"></span>
-      </div>
-    </div>
-    <div class="panel">
-      <h3>💬 X engagement post</h3>
-      <p class="sub">Reply-driving posts with real value. 3–4 per week, mixed with news posts. Each button copies a ready prompt.</p>
-      <div class="genrow">
-        <input id="xtopic" style="flex:1;min-width:220px" placeholder="Topic (default: AI aur rozmarra zindagi)">
-      </div>
-      <div class="genrow">
-        <button class="ghost" onclick="genX('promptShare')">🎁 Prompt-share</button>
-        <button class="ghost" onclick="genX('testAndTell')">⚔️ Test &amp; tell</button>
-        <button class="ghost" onclick="genX('debateLocal')">🗣️ Local debate</button>
-        <button class="ghost" onclick="genX('fillBlank')">✏️ Fill-the-blank</button>
-      </div>
-    </div>
-    <div class="panel" id="prepout" hidden>
-      <h3>Generated prompt <button class="ghost" style="padding:5px 14px;font-size:12px" onclick="copyPrompt()">📋 Copy again</button></h3>
-      <textarea id="promptbox" readonly></textarea>
-    </div>
-  </section>
 </div>
 
 <div id="modal" hidden>
@@ -540,7 +516,7 @@ function toast(msg) {
 }
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); }
 function switchTab(name) {
-  ["home","news","trends","research","plan","prep"].forEach(n => {
+  ["home","news","trends","research","plan"].forEach(n => {
     document.getElementById("tab-" + n).hidden = n !== name;
     document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
   });
@@ -604,12 +580,7 @@ function render() {
       render();
     };
     d.querySelector(".plan-btn").onclick = () => { addPlan(it.t, it.u); };
-    d.querySelector(".prep-btn").onclick = () => {
-      document.getElementById("preptitle").value = it.t;
-      document.getElementById("prepurl").value = it.u;
-      switchTab("prep");
-      toast("Story loaded — pick a button 📝");
-    };
+    d.querySelector(".prep-btn").onclick = () => openCreate(it.t, it.u);
     list.appendChild(d);
   });
   document.getElementById("more").style.display = items.length > shown ? "block" : "none";
@@ -691,7 +662,7 @@ function boardNav() {
   const el = document.getElementById("boardnav");
   el.innerHTML = "";
   [["queue","🗓 Queue"],["calendar","📅 Calendar"],["drafts","📝 Drafts"],
-   ["ideas","💡 Ideas"],["templates","🧩 Templates"],["posted","✅ Posted"]].forEach(([k, label]) => {
+   ["ideas","💡 Ideas"],["create","✨ Create"],["posted","✅ Posted"]].forEach(([k, label]) => {
     const b = document.createElement("button");
     b.innerHTML = label;
     b.className = boardView === k ? "active" : "";
@@ -708,136 +679,260 @@ function renderBoard() {
   else if (boardView === "calendar") renderCalendar(el);
   else if (boardView === "drafts") renderList(el, ["draft"], "No drafts yet. Turn an idea into a draft, or press + New post.");
   else if (boardView === "ideas") renderIdeas(el);
-  else if (boardView === "templates") renderTemplates(el);
+  else if (boardView === "create") renderCreate(el);
   else renderList(el, ["posted"], "Nothing posted yet — your history will appear here.");
 }
 
-/* ---- Templates gallery (Buffer "Create > Templates" style) ---- */
-let tplCat = "All", tplLang = localStorage.getItem("tpl_lang") || "ur";
-let tplTopic = "", tplCurrent = null, tplPlat = "all";
-const TPL_PLATS = [
-  ["all", "🌐 All platforms"], ["shorts", "🎬 Short/Reel/TikTok"], ["yt", "📺 YouTube"],
-  ["x", "𝕏 X"], ["igfb", "📸 IG + FB"], ["li", "💼 LinkedIn"], ["wa", "💬 WhatsApp"]];
-const TPL_PLAT_RULES = {
-  all: "TARGET: ALL PLATFORMS. First write ONE core version of this post. Then adapt it per platform: (a) YouTube — 2-3 title options under 60 chars + description + 10 tags, (b) TikTok/IG Reels/FB Reels — caption + hashtags (slightly different per platform), (c) X — one post under 280 chars that invites replies, (d) WhatsApp Channel — 2-line announcement, (e) LinkedIn — 4-6 line professional-tone version.",
-  shorts: "TARGET: vertical short video (YouTube Shorts / TikTok / IG Reels / FB Reels). Format as a 45-75 second script: HOOK (0-3s) -> body -> local angle -> CTA follow @aixahmad. Add [B-ROLL] notes + one caption with hashtags.",
-  yt: "TARGET: YouTube main video. Give 3 title options (under 60 chars, curiosity-driven), a 2-paragraph description, 15 SEO tags, and a pinned-comment suggestion.",
-  x: "TARGET: X (Twitter). ONE post under 280 characters that invites replies. No hashtags spam (max 1-2).",
-  igfb: "TARGET: Instagram + Facebook. One caption: scroll-stopping first line, 3-5 short lines, then 8 hashtags for IG and 4 for FB (listed separately).",
-  li: "TARGET: LinkedIn. 4-6 lines, professional but warm, one insight + one question at the end, max 3 hashtags.",
-  wa: "TARGET: WhatsApp Channel. 2-3 line announcement, friendly, one emoji max per line, with a link placeholder.",
+/* ---- Create wizard: topic -> type -> platforms -> settings -> template -> Claude -> save ---- */
+let wiz = { topic: "", url: "", type: null, plats: [], dur: "60",
+            len: "4-6 min news explainer", tpl: null, prompt: "" };
+let tplLang = localStorage.getItem("tpl_lang") || "ur";
+const WIZ_PLATS = {
+  short: [["yt","YT Shorts"],["tiktok","TikTok"],["ig","IG Reels"],["fb","FB Reels"]],
+  long:  [["yt","YouTube"],["fb","Facebook"]],
+  post:  [["x","X"],["ig","Instagram"],["fb","Facebook"],["li","LinkedIn"],["wa","WhatsApp"]],
 };
-function renderTemplates(el) {
-  const head = document.createElement("div");
-  head.className = "addrow";
-  head.innerHTML =
-    '<input id="tpltopic" style="flex:1;min-width:220px" placeholder="Your topic… e.g. ChatGPT se paise kamana, Gemini 3, AI in farming" value="' + esc(tplTopic) + '">' +
-    '<div class="bar" style="margin:0">' +
-    '<button id="lang-ur" class="' + (tplLang === "ur" ? "active" : "") + '">اردو Roman Urdu</button>' +
-    '<button id="lang-en" class="' + (tplLang === "en" ? "active" : "") + '">English</button></div>';
-  el.appendChild(head);
-  head.querySelector("#tpltopic").addEventListener("input", e => { tplTopic = e.target.value; });
-  head.querySelector("#lang-ur").onclick = () => { tplLang = "ur"; localStorage.setItem("tpl_lang", "ur"); renderBoard(); };
-  head.querySelector("#lang-en").onclick = () => { tplLang = "en"; localStorage.setItem("tpl_lang", "en"); renderBoard(); };
+const POST_RULES = {
+  x:  "X (Twitter): under 280 characters, invites replies, max 1-2 hashtags.",
+  ig: "Instagram: scroll-stopping first line, 3-5 short lines, 8 hashtags.",
+  fb: "Facebook: very simple words, broad family audience, discussion-friendly, 3-4 hashtags.",
+  li: "LinkedIn: 4-6 lines, professional but warm, one insight + one question, max 3 hashtags.",
+  wa: "WhatsApp Channel: 2-3 lines, personal tone like messaging friends, link placeholder.",
+};
+const SHORT_STYLE = {
+  yt: "YouTube Shorts style: loop-friendly ending (last line connects to the first), clean on-screen hook text, ideal under 60s.",
+  tiktok: "TikTok native style: casual and fast, on-screen text suggestion per scene, trend-aware.",
+  ig: "Instagram Reels style: aesthetic opening frame idea, caption with 8 hashtags.",
+  fb: "Facebook Reels style: very simple words, broad audience, caption with 4 hashtags.",
+};
+const SHORT_HINT = {
+  yt: "YT Shorts: loop ending, ≤60s ideal", tiktok: "TikTok: casual + on-screen text",
+  ig: "IG Reels: aesthetic hook frame", fb: "FB Reels: simple words, broad audience",
+};
 
-  const platbar = document.createElement("div");
-  platbar.className = "bar";
-  platbar.style.marginTop = "0";
-  TPL_PLATS.forEach(([k, label]) => {
-    const b = document.createElement("button");
-    b.innerHTML = label;
-    b.className = tplPlat === k ? "active" : "";
-    b.onclick = () => { tplPlat = k; renderBoard(); };
-    platbar.appendChild(b);
+function openCreate(topic, url, preset) {
+  wiz = { topic: topic || "", url: url || "",
+          type: (preset && preset.type) || null,
+          plats: (preset && preset.plats) ? preset.plats.slice() : [],
+          dur: "60", len: "4-6 min news explainer", tpl: null, prompt: "" };
+  boardView = "create";
+  switchTab("plan");
+}
+
+function wstep(el, n, title) {
+  const d = document.createElement("div");
+  d.className = "wstep";
+  d.innerHTML = '<div class="wnum">' + n + '</div><div class="wbody"><h4>' + title + "</h4></div>";
+  el.appendChild(d);
+  return d.querySelector(".wbody");
+}
+function platName(k, type) {
+  const f = (WIZ_PLATS[type] || []).find(x => x[0] === k);
+  return f ? f[1] : k;
+}
+
+function renderCreate(el) {
+  /* step 1: topic + language */
+  const s1 = wstep(el, 1, "Topic");
+  const r1 = document.createElement("div");
+  r1.className = "genrow";
+  r1.innerHTML =
+    '<input id="wtopic" style="flex:2;min-width:200px" placeholder="Topic… e.g. Gemini 3 launch, AI for freelancers" value="' + esc(wiz.topic) + '">' +
+    '<input id="wurl" style="flex:2;min-width:180px" placeholder="source link (optional)" value="' + esc(wiz.url) + '">' +
+    '<span class="bar" style="margin:0">' +
+    '<button id="wl-ur" class="' + (tplLang === "ur" ? "active" : "") + '">Roman Urdu</button>' +
+    '<button id="wl-en" class="' + (tplLang === "en" ? "active" : "") + '">English</button></span>';
+  s1.appendChild(r1);
+  r1.querySelector("#wtopic").addEventListener("input", e => { wiz.topic = e.target.value; });
+  r1.querySelector("#wurl").addEventListener("input", e => { wiz.url = e.target.value; });
+  r1.querySelector("#wl-ur").onclick = () => { tplLang = "ur"; localStorage.setItem("tpl_lang", "ur"); renderBoard(); };
+  r1.querySelector("#wl-en").onclick = () => { tplLang = "en"; localStorage.setItem("tpl_lang", "en"); renderBoard(); };
+
+  /* step 2: content type */
+  const s2 = wstep(el, 2, "What are you creating?");
+  const tc = document.createElement("div");
+  tc.className = "typecards";
+  [["short","🎬","Short video","45-90 sec vertical — Shorts, TikTok, Reels"],
+   ["long","📺","Long video","YouTube main video with chapters"],
+   ["post","✍️","Post","Text post — X, IG, FB, LinkedIn, WhatsApp"]].forEach(([k, e2, n, d2]) => {
+    const c = document.createElement("div");
+    c.className = "typecard" + (wiz.type === k ? " on" : "");
+    c.innerHTML = '<div class="te">' + e2 + "</div><b>" + n + "</b><span>" + d2 + "</span>";
+    c.onclick = () => { wiz.type = k; wiz.plats = []; wiz.tpl = null; wiz.prompt = ""; renderBoard(); };
+    tc.appendChild(c);
   });
-  el.appendChild(platbar);
+  s2.appendChild(tc);
+  if (!wiz.type) return;
 
-  const cats = ["All"].concat([...new Set((window.GALLERY || []).map(t => t.cat))]);
-  const chipbar = document.createElement("div");
-  chipbar.className = "bar";
-  cats.forEach(c => {
+  /* step 3: platforms (multi or all) */
+  const s3 = wstep(el, 3, "Platforms — one, many, or all");
+  const pb = document.createElement("div");
+  pb.className = "bar";
+  pb.style.margin = "0";
+  const allKeys = WIZ_PLATS[wiz.type].map(x => x[0]);
+  const all = document.createElement("button");
+  all.textContent = "All";
+  all.className = wiz.plats.length === allKeys.length ? "active" : "";
+  all.onclick = () => {
+    wiz.plats = wiz.plats.length === allKeys.length ? [] : allKeys.slice();
+    wiz.tpl = null; wiz.prompt = ""; renderBoard();
+  };
+  pb.appendChild(all);
+  WIZ_PLATS[wiz.type].forEach(([k, name]) => {
     const b = document.createElement("button");
-    b.textContent = c;
-    b.className = tplCat === c ? "active" : "";
-    b.onclick = () => { tplCat = c; renderBoard(); };
-    chipbar.appendChild(b);
+    b.textContent = name;
+    b.className = wiz.plats.includes(k) ? "active" : "";
+    b.onclick = () => {
+      wiz.plats = wiz.plats.includes(k)
+        ? wiz.plats.filter(x => x !== k) : wiz.plats.concat(k);
+      wiz.tpl = null; wiz.prompt = ""; renderBoard();
+    };
+    pb.appendChild(b);
   });
-  el.appendChild(chipbar);
+  s3.appendChild(pb);
+  if (!wiz.plats.length) return;
 
+  /* step 4: settings (videos only) - general for many, tuned for one */
+  let nextStep = 4;
+  if (wiz.type === "short" || wiz.type === "long") {
+    const single = wiz.plats.length === 1;
+    const s4 = wstep(el, nextStep++, "Settings" +
+      (single ? " — tuned for " + platName(wiz.plats[0], wiz.type)
+              : " — general, works on all selected"));
+    const row = document.createElement("div");
+    row.className = "genrow";
+    row.style.alignItems = "center";
+    const sel = document.createElement("select");
+    if (wiz.type === "short") {
+      ["30","45","60","75","90"].forEach(d2 => {
+        sel.innerHTML += '<option value="' + d2 + '"' + (wiz.dur === d2 ? " selected" : "") + ">" + d2 + " seconds</option>";
+      });
+      sel.onchange = e => { wiz.dur = e.target.value; wiz.prompt = ""; };
+    } else {
+      ["4-6 min news explainer","8-12 min tutorial","12-20 min deep dive"].forEach(d2 => {
+        sel.innerHTML += "<option" + (wiz.len === d2 ? " selected" : "") + ">" + d2 + "</option>";
+      });
+      sel.onchange = e => { wiz.len = e.target.value; wiz.prompt = ""; };
+    }
+    row.appendChild(sel);
+    if (single && wiz.type === "short") {
+      const hint = document.createElement("span");
+      hint.className = "whint";
+      hint.textContent = SHORT_HINT[wiz.plats[0]] || "";
+      row.appendChild(hint);
+    }
+    s4.appendChild(row);
+  }
+
+  /* step 5: templates filtered by type + platforms */
+  const s5 = wstep(el, nextStep, "Pick a template");
   const grid = document.createElement("div");
   grid.className = "tplgrid";
-  (window.GALLERY || []).filter(t => tplCat === "All" || t.cat === tplCat).forEach(t => {
+  let list = (window.WIZ || []).filter(t => t.type === wiz.type &&
+    (t.plats[0] === "*" || t.plats.some(p => wiz.plats.includes(p))));
+  if (wiz.plats.length === 1) {
+    const k = wiz.plats[0];
+    list.sort((a, b) => (b.plats.includes(k) ? 1 : 0) - (a.plats.includes(k) ? 1 : 0));
+  }
+  list.forEach(t => {
     const c = document.createElement("div");
-    c.className = "tplcard";
+    c.className = "tplcard" + (wiz.tpl === t ? " on" : "");
     c.innerHTML = '<div class="te">' + t.emoji + '</div><div class="tn">' + esc(t.name) +
-      '</div><div class="td">' + esc(t.desc) + '</div><span class="tag">' + esc(t.cat) + "</span>";
-    c.onclick = () => useTemplate(t);
+      '</div><div class="td">' + esc(t.desc) + "</div>" +
+      (t.plats[0] !== "*"
+        ? '<span class="tag">' + t.plats.map(p => platName(p, wiz.type)).join(" · ") + "</span>"
+        : '<span class="tag">general</span>');
+    c.onclick = () => { wiz.tpl = t; buildWiz(); };
     grid.appendChild(c);
   });
-  el.appendChild(grid);
+  s5.appendChild(grid);
 
-  const flow = document.createElement("div");
-  flow.className = "panel";
-  flow.id = "tplflow";
-  flow.hidden = !tplCurrent;
-  flow.innerHTML = tplCurrent ? tplFlowHtml() : "";
-  el.appendChild(flow);
-  if (tplCurrent) wireTplFlow();
+  /* step 6: output */
+  if (wiz.prompt) {
+    const out = document.createElement("div");
+    out.className = "panel";
+    out.id = "wizout";
+    out.innerHTML =
+      "<h3>" + wiz.tpl.emoji + " " + esc(wiz.tpl.name) +
+      ' <button class="ghost" style="padding:5px 14px;font-size:12px" onclick="copyWiz()">📋 Copy again</button></h3>' +
+      '<p class="sub">1) Paste in your <b>Claude app</b> → 2) create the content, edit in canvas, make your poster → 3) paste the FINAL version below and save. (Google Drive save coming later.)</p>' +
+      '<textarea id="wizprompt" readonly style="width:100%;min-height:140px;font:12px/1.6 Consolas,monospace;background:var(--surface2)">' + esc(wiz.prompt) + "</textarea>" +
+      '<p class="sub" style="margin-top:14px"><b>Final version</b> (from Claude, after your edits):</p>' +
+      '<textarea id="wizfinal" style="width:100%;min-height:120px" placeholder="Paste your final content here…"></textarea>' +
+      '<div class="mfoot"><button class="btn" onclick="saveWiz()">💾 Save to Drafts</button>' +
+      '<button class="ghost" onclick="downloadWiz()">⬇ Download file</button></div>';
+    el.appendChild(out);
+  }
 }
+
 function brandHeader() {
   const lang = tplLang === "ur"
     ? "OUTPUT LANGUAGE: simple Roman Urdu with light English (easy to read while filming)."
     : "OUTPUT LANGUAGE: simple, friendly English (no heavy jargon).";
   return 'You are the content writer for "AI x Ahmad" (@aixahmad) — AI explained simply for everyday people in Pakistan and India (students, freelancers, shopkeepers). No jargon, friendly tone, energy high.\n' + lang + "\n\n";
 }
-function useTemplate(t) {
-  tplCurrent = t;
-  const topic = (document.getElementById("tpltopic") || {}).value || tplTopic;
-  tplTopic = (topic || "").trim();
-  if (!tplTopic) { toast("Pehle topic likho 👆"); return; }
+function typeRules() {
+  const names = wiz.plats.map(k => platName(k, wiz.type)).join(", ");
+  if (wiz.type === "short") {
+    let r = "CONTENT TYPE: vertical short-video script (9:16) for: " + names +
+      ". DURATION: " + wiz.dur + " seconds — spoken words MUST fit. " +
+      "Base structure: HOOK (0-3s) -> body -> PK/IN local angle -> CTA follow @aixahmad. Add [B-ROLL] notes.";
+    if (wiz.plats.length === 1) r += " " + SHORT_STYLE[wiz.plats[0]];
+    else r += " Make ONE script that works on all of them, then give caption + hashtags adapted per platform.";
+    return r;
+  }
+  if (wiz.type === "long") {
+    let r = "CONTENT TYPE: long YouTube video script. LENGTH: " + wiz.len +
+      ". Structure: 20-second hook, sections with [timestamps] + [B-ROLL], simple examples, PK/IN local angle, 3-point recap, outro CTA (subscribe + WhatsApp channel). Also give 3 title options + description + 15 tags.";
+    if (wiz.plats.includes("fb")) r += " Also give a 1-paragraph Facebook video description.";
+    return r;
+  }
+  if (wiz.plats.length === 1) return "CONTENT TYPE: text post. " + POST_RULES[wiz.plats[0]];
+  return "CONTENT TYPE: text post for: " + names + ". Write ONE core post first, then adapt it for each platform:\n" +
+    wiz.plats.map(k => "- " + platName(k, "post") + ": " + POST_RULES[k]).join("\n");
+}
+function buildWiz() {
+  const ti = document.getElementById("wtopic");
+  const ui = document.getElementById("wurl");
+  if (ti) wiz.topic = ti.value;
+  if (ui) wiz.url = ui.value;
+  if (!wiz.topic.trim()) { toast("Pehle topic likho 👆"); return; }
+  let p = brandHeader() + "TOPIC: " + wiz.topic.trim() + "\n";
+  if (wiz.url.trim()) p += "SOURCE LINK: " + wiz.url.trim() + " (open and read it first)\n";
+  p += "\n" + typeRules() + "\n\nTEMPLATE / FORMAT:\n" +
+    wiz.tpl.body.split("{topic}").join(wiz.topic.trim());
+  if (wiz.type !== "post") p += relatedBlock(wiz.topic, wiz.url);
+  wiz.prompt = p;
   renderBoard();
-  const prompt = brandHeader() + t.body.split("{topic}").join(tplTopic) +
-    "\n\n" + TPL_PLAT_RULES[tplPlat];
-  document.getElementById("tplprompt").value = prompt;
-  navigator.clipboard.writeText(prompt).then(() => toast("Prompt copied — paste in Claude 🤖"));
-  document.getElementById("tplflow").scrollIntoView({ behavior: "smooth" });
+  navigator.clipboard.writeText(p).then(() => toast("Prompt copied — paste in Claude 🤖"));
+  const out = document.getElementById("wizout");
+  if (out) out.scrollIntoView({ behavior: "smooth" });
 }
-function tplFlowHtml() {
-  return '<h3>' + tplCurrent.emoji + " " + esc(tplCurrent.name) +
-    ' <button class="ghost" style="padding:5px 14px;font-size:12px" onclick="copyTpl()">📋 Copy again</button></h3>' +
-    '<p class="sub">1) Paste in your <b>Claude app</b> → 2) edit in canvas, make your poster → 3) paste the FINAL version below and save.</p>' +
-    '<textarea id="tplprompt" readonly style="width:100%;min-height:130px;font:12px/1.6 Consolas,monospace;background:var(--surface2)"></textarea>' +
-    '<p class="sub" style="margin-top:14px"><b>Final version</b> (from Claude, after your edits):</p>' +
-    '<textarea id="tplfinal" style="width:100%;min-height:120px" placeholder="Paste your final content here…"></textarea>' +
-    '<div class="mfoot">' +
-    '<button class="btn" onclick="saveTplFinal()">💾 Save to Drafts</button>' +
-    '<button class="ghost" onclick="downloadTplFinal()">⬇ Download file</button>' +
-    '<a class="ghost" style="text-decoration:none" target="_blank" href="https://drive.google.com/drive/my-drive">Open Google Drive ↗</a></div>';
+function copyWiz() {
+  navigator.clipboard.writeText(wiz.prompt).then(() => toast("Copied 📋"));
 }
-function wireTplFlow() { /* buttons use onclick attrs */ }
-function copyTpl() {
-  navigator.clipboard.writeText(document.getElementById("tplprompt").value)
-    .then(() => toast("Copied 📋"));
-}
-function saveTplFinal() {
-  const txt = document.getElementById("tplfinal").value.trim();
+function saveWiz() {
+  const fin = document.getElementById("wizfinal");
+  const txt = fin ? fin.value.trim() : "";
   if (!txt) { toast("Paste the final version first"); return; }
-  const platMap = { all: ["yt","shorts","tiktok","ig","fb","x","wa","li"],
-    shorts: ["shorts","tiktok","ig","fb"], yt: ["yt"], x: ["x"],
-    igfb: ["ig","fb"], li: ["li"], wa: ["wa"] };
-  plans.unshift({ id: Date.now(), title: tplTopic + " — " + tplCurrent.name,
-    url: "", notes: txt, status: "draft", assignee: "Ahmad",
-    platforms: platMap[tplPlat] || ["yt","shorts"], when: "" });
+  const typeTag = wiz.type === "short" ? "Short" : wiz.type === "long" ? "Long video" : "Post";
+  let plats = wiz.plats.slice();
+  if (wiz.type === "short") plats = plats.map(k => k === "yt" ? "shorts" : k);
+  plans.unshift({ id: Date.now(),
+    title: wiz.topic + " — " + typeTag + " (" + wiz.tpl.name + ")",
+    url: wiz.url, notes: txt, status: "draft", assignee: "Ahmad",
+    platforms: plats, when: "" });
   savePlans();
   toast("Saved to Drafts 📝 — schedule it from there");
 }
-function downloadTplFinal() {
-  const txt = document.getElementById("tplfinal").value.trim();
+function downloadWiz() {
+  const fin = document.getElementById("wizfinal");
+  const txt = fin ? fin.value.trim() : "";
   if (!txt) { toast("Paste the final version first"); return; }
   const blob = new Blob([txt], { type: "text/plain" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = (tplTopic || "post").replace(/[^\w\s-]/g, "").slice(0, 40) + ".txt";
+  a.download = (wiz.topic || "content").replace(/[^\w\s-]/g, "").slice(0, 40) + ".txt";
   a.click();
   toast("Downloaded — drop it into your Drive folder");
 }
@@ -1062,12 +1157,8 @@ function modalPrep() {
   modalSaveFields();
   const p = plans.find(x => x.id === editingId);
   document.getElementById("modal").hidden = true;
-  if (p) {
-    document.getElementById("preptitle").value = p.title.split("\n")[0].slice(0, 120);
-    document.getElementById("prepurl").value = p.url || "";
-    switchTab("prep");
-    toast("Loaded — pick a button 📝");
-  }
+  editingId = null;
+  if (p) openCreate(p.title.split("\n")[0].slice(0, 120), p.url || "");
 }
 document.getElementById("modal").addEventListener("click", e => {
   if (e.target.id === "modal") closeModal();
@@ -1095,7 +1186,7 @@ document.getElementById("importfile").addEventListener("change", e => {
 });
 
 
-/* ---------------- Prep ---------------- */
+/* ------------- related-coverage helper (used by the Create wizard) ------------- */
 const COMMONW = new Set(["the","and","for","with","that","this","from","what",
   "how","why","new","its","has","have","are","was","will","can","you","your",
   "says","after","about","over","into","more","most"]);
@@ -1114,40 +1205,7 @@ function relatedBlock(title, url) {
   rel.sort((a, b) => b[0] - a[0]);
   if (!rel.length) return "";
   return "\n\nEXTRA SOURCES (optional, for more angles):\n" +
-    rel.slice(0, 4).map(r => "- " + r[1].t + " — " + r[1].u).join("\n");
-}
-function fillTemplate(tpl, vars) {
-  return tpl.replace(/\{(\w+)\}/g, (m, k) => (vars[k] !== undefined ? vars[k] : m));
-}
-function showAndCopy(prompt, okMsg) {
-  document.getElementById("promptbox").value = prompt;
-  document.getElementById("prepout").hidden = false;
-  navigator.clipboard.writeText(prompt)
-    .then(() => { toast(okMsg); document.getElementById("copyok").textContent = "✓ copied"; });
-}
-function genPrompt(kind) {
-  const title = document.getElementById("preptitle").value.trim();
-  const url = document.getElementById("prepurl").value.trim();
-  if (!title && !url) { toast("Add a story title or link first"); return; }
-  const vars = {
-    title: title || url,
-    url: url || "(no link — explain from the summary)",
-    summary: document.getElementById("prepsum").value.trim() || "(read the link for details)",
-    duration: document.getElementById("prepdur").value,
-  };
-  let prompt = fillTemplate(window.TEMPLATES[kind], vars);
-  if (kind !== "postPack") prompt += relatedBlock(vars.title, url);
-  showAndCopy(prompt, "Prompt copied — paste in Claude 🤖");
-}
-function genX(format) {
-  const topic = document.getElementById("xtopic").value.trim() ||
-    "AI aur rozmarra zindagi (daily life, jobs, paisa)";
-  const prompt = fillTemplate(window.TEMPLATES.xFormats[format], { topic });
-  showAndCopy(prompt, "X post prompt copied 💬");
-}
-function copyPrompt() {
-  navigator.clipboard.writeText(document.getElementById("promptbox").value)
-    .then(() => toast("Copied again 📋"));
+    rel.slice(0, 4).map(r => "- " + r[1].t + " \u2014 " + r[1].u).join("\n");
 }
 
 /* ---------------- Home dashboard ---------------- */
@@ -1158,7 +1216,6 @@ function renderHome() {
       { weekday: "long", day: "numeric", month: "long" }) +
     " · radar updated " + UPDATED;
 
-  // top pick: best video-worthy story not yet covered
   const candidates = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u))
     .slice().sort((a, b) => b.sc - a.sc);
   const tp = document.getElementById("toppick");
@@ -1180,7 +1237,6 @@ function renderHome() {
     tp.innerHTML = '<span class="picktag">✨ Aaj ka top pick</span><p>No stories yet today.</p>';
   }
 
-  // stat cards
   const day = Date.now() - 86400000;
   const today = ITEMS.filter(it => it.p !== 9 && new Date(it.d).getTime() > day);
   const hot = today.filter(it => it.l && it.l.length).length;
@@ -1192,7 +1248,6 @@ function renderHome() {
     '<div class="scard"><div class="l">Local angle</div><div class="n green">' + local + "</div></div>" +
     '<div class="scard"><div class="l">Tickets open</div><div class="n indigo">' + open + "</div></div>";
 
-  // pipeline
   const pl = document.getElementById("pipeline");
   const openPlans = plans.filter(x => x.status !== "posted").slice(0, 6);
   pl.innerHTML = openPlans.length ? "" :
@@ -1201,7 +1256,7 @@ function renderHome() {
     const d = document.createElement("div");
     d.className = "pipe";
     d.innerHTML = '<span class="st">' + p.status + "</span>" +
-      "<span>" + esc(p.title.slice(0, 48)) + "</span>" +
+      "<span>" + esc(p.title.split("\n")[0].slice(0, 48)) + "</span>" +
       '<span class="who ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
       esc(p.assignee) + "</span>";
     d.onclick = () => switchTab("plan");
@@ -1209,14 +1264,10 @@ function renderHome() {
   });
 }
 function qaShort() {
-  switchTab("prep");
-  document.getElementById("preptitle").focus();
-  toast("Fill the story, then press Short Script 🎬");
+  openCreate("", "", { type: "short" });
 }
 function qaX() {
-  switchTab("prep");
-  document.getElementById("xtopic").focus();
-  toast("Pick a topic, then choose a format 💬");
+  openCreate("", "", { type: "post", plats: ["x"] });
 }
 function qaNews() {
   mode = "worthy";

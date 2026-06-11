@@ -1,64 +1,126 @@
-/* AI x Ahmad - prompt templates.
-   Placeholders in {curly braces} are filled by the tool from story data.
-   Refine the wording here anytime - the site reloads it automatically.
-   Kept separate so a future Cloudflare Worker can reuse the same file. */
+/* AI x Ahmad - template library.
+   Edit wording freely - the site reloads it automatically.
 
-/* Template GALLERY (Buffer "Create > Templates" style).
-   Famous creator formats. {topic} is filled by the tool.
-   The output language (Roman Urdu / English) is chosen with the toggle. */
-window.GALLERY = [
-  { cat: "Trending", emoji: "🧪", name: "I tested it so you don't have to",
-    desc: "Try a tool/feature, share honest results. Builds trust fast.",
-    body: "Write a post/short script: 'Maine {topic} khud test kiya' — my 3 honest findings (good, bad, surprising), one practical tip, end with a question to the audience." },
-  { cat: "Trending", emoji: "⚡", name: "Myth vs Reality",
-    desc: "Break one popular myth about the topic. High share rate.",
-    body: "Write a post/short script busting ONE common myth about {topic}. Structure: the myth people believe -> the reality with a simple proof/example -> what to do instead." },
-  { cat: "Tip", emoji: "💡", name: "Hook + 3 quick tips",
-    desc: "Scroll-stopping hook, three practical tips, save-worthy.",
-    body: "Write a post/short script: strong hook about {topic}, then exactly 3 numbered practical tips a beginner can use today, end with 'save this post'." },
-  { cat: "List", emoji: "📋", name: "Top 5 list",
-    desc: "Classic listicle. Easy to film, easy to share.",
-    body: "Write a 'Top 5 {topic}' post/short script. One line per item with a concrete benefit. Rank them, tease #1 in the hook." },
-  { cat: "How-to", emoji: "🛠", name: "Mini tutorial",
-    desc: "Step-by-step in under a minute. Tutorial = trust.",
-    body: "Write a mini step-by-step tutorial about {topic}: hook (the result they will get), 3-5 numbered steps, one warning/mistake to avoid, CTA." },
-  { cat: "Question", emoji: "❓", name: "Strategic audience question",
-    desc: "Real questions invite real conversation (Buffer favorite).",
-    body: "Write a short post asking the audience ONE strategic question about {topic}. Include my own one-line answer first, then invite theirs. No empty bait." },
-  { cat: "Opinion", emoji: "🔥", name: "Niche hot take",
-    desc: "The opinions you're nervous to post build authority.",
-    body: "Write a confident hot-take post about {topic}: my contrarian-but-defensible stance, 2 reasons, invite disagreement respectfully." },
-  { cat: "Story", emoji: "📖", name: "Personal lesson story",
-    desc: "Story arc: struggle, turn, lesson. Most human format.",
-    body: "Write a first-person mini story about {topic}: the moment it clicked for me, what went wrong first, the lesson, how the viewer can skip my mistake." },
-  { cat: "Case Study", emoji: "📊", name: "Before / After case study",
-    desc: "Show a transformation with numbers — proof sells.",
-    body: "Write a before/after case-study post about {topic}: starting point, what changed (steps), the result with a number, one takeaway." },
-  { cat: "Behind the Scenes", emoji: "🎬", name: "Behind the scenes",
-    desc: "Show the messy middle. People follow people.",
-    body: "Write a behind-the-scenes post about {topic} (my process, tools, time it took, what nobody sees), casual tone, one honest struggle." },
-  { cat: "Authority", emoji: "👋", name: "Reintroduce yourself",
-    desc: "New people find you daily — tell them who you are.",
-    body: "Write a reintroduction post for AI x Ahmad: who I am, why I talk about {topic}, what followers get from me weekly, one fun personal detail." },
-  { cat: "Authority", emoji: "📚", name: "2-line takeaway from a read",
-    desc: "Your interpretation is the value.",
-    body: "Write a short post sharing my 2-line takeaway about {topic} (as if from an article I read), why it matters for Pakistan/India, link placeholder." },
-  { cat: "X engagement", emoji: "🎁", name: "X: Prompt share",
-    desc: "Useful prompt + 'show your result' — bookmarks + replies.",
-    body: "Write ONE X post (under 280 chars) sharing a genuinely useful AI prompt about {topic}, the exact prompt in quotes, end: 'apna result comment mein dikhao'." },
-  { cat: "X engagement", emoji: "⚔️", name: "X: Test & tell",
-    desc: "Claude vs ChatGPT challenge — fun comparisons.",
-    body: "Write ONE X post (under 280 chars): I made Claude vs ChatGPT do {topic}, my one-line verdict, challenge readers to try and reply with theirs." },
-  { cat: "X engagement", emoji: "🗣", name: "X: Local debate",
-    desc: "Jobs/AI question for PK/IN — your stance first.",
-    body: "Write ONE X post (under 280 chars): sharp debate question about {topic} tied to daily life in Pakistan/India, MY clear stance first, then ask theirs." },
-  { cat: "X engagement", emoji: "✏️", name: "X: Fill the blank",
-    desc: "Easy replies + feature loop to YouTube.",
-    body: "Write ONE X post (under 280 chars): fill-in-the-blank about {topic}, end with 'best answer agli video mein feature hoga'." },
+   WIZ = the Create wizard library. Each template:
+     type:  "short" | "long" | "post"
+     plats: ["*"] = fits all platforms, or specific keys
+            (post: x, ig, fb, li, wa | short: yt, tiktok, ig, fb | long: yt, fb)
+     body:  instructions sent to Claude (the tool adds topic, language,
+            platform format rules and duration around it). */
+
+window.WIZ = [
+
+/* ---------- SHORT VIDEO templates ---------- */
+{ type:"short", plats:["*"], emoji:"⚡", name:"Hook → 3 facts → CTA",
+  desc:"The classic. Scroll-stopping hook, three punchy facts, strong close.",
+  body:"Structure the script as: one scroll-stopping HOOK line, then exactly 3 short punchy facts/points about the topic (one line each), then a strong closing line + CTA." },
+{ type:"short", plats:["*"], emoji:"🛠", name:"Mini tutorial",
+  desc:"Teach one thing in under a minute. Tutorials build trust.",
+  body:"Make it a mini step-by-step tutorial: hook = the result the viewer will get, then 3-4 numbered steps (simple words), one mistake to avoid, CTA." },
+{ type:"short", plats:["*"], emoji:"🚫", name:"Myth bust",
+  desc:"'People think X… reality is Y.' High retention format.",
+  body:"Format: state the popular myth about the topic dramatically, then bust it with the reality + one simple proof or example, end with the correct takeaway." },
+{ type:"short", plats:["*"], emoji:"🗞", name:"News reaction",
+  desc:"'Did you hear what just happened?' — urgency + explanation.",
+  body:"Format as breaking-news reaction: urgent hook (what just happened), explain it simply in 3-4 lines, why it matters for normal people in Pakistan/India, CTA." },
+{ type:"short", plats:["*"], emoji:"📊", name:"Before / After demo",
+  desc:"Show the transformation. Demos beat descriptions.",
+  body:"Format: show the BEFORE state (the old/slow/manual way), then the AFTER with the topic (fast/easy), include a concrete demo idea I can film on screen, end with how viewers can try it today." },
+{ type:"short", plats:["tiktok","ig"], emoji:"🎭", name:"POV / Storytime",
+  desc:"TikTok-native storytelling. Personal, casual, relatable.",
+  body:"Format as POV/storytime: first-person casual story related to the topic ('POV: you...' or 'ek din maine...'), with a turn and a payoff lesson at the end. Native, unpolished tone." },
+{ type:"short", plats:["yt"], emoji:"🔁", name:"Loop hook (Shorts)",
+  desc:"Last line connects to the first — YouTube Shorts loop trick.",
+  body:"Write so the LAST line connects naturally back to the FIRST line (loop effect for replays on YouTube Shorts). Keep the hook a question that the loop re-triggers." },
+
+/* ---------- LONG VIDEO templates ---------- */
+{ type:"long", plats:["*"], emoji:"🗞", name:"News explainer",
+  desc:"What happened, why it matters, what it means for the viewer.",
+  body:"Structure: hook (the news in one dramatic line), what exactly happened, background in simple words, why it matters for everyday people in Pakistan/India, what happens next, my opinion section (placeholder), recap." },
+{ type:"long", plats:["*"], emoji:"🛠", name:"Step-by-step tutorial",
+  desc:"Full how-to with steps on screen. The subscriber machine.",
+  body:"Structure: hook = the final result, what you need, numbered steps with [SCREEN: what to show] notes, common mistakes section, pro tip, recap of steps." },
+{ type:"long", plats:["*"], emoji:"⚔️", name:"VS comparison",
+  desc:"Tool A vs Tool B — people love a verdict.",
+  body:"Structure: hook (the battle), quick intro of both sides, compare on 4-5 criteria that matter to normal users (price, ease, Urdu support, speed, results) with a winner per criterion, final verdict + who should pick which." },
+{ type:"long", plats:["*"], emoji:"🔥", name:"Opinion / analysis",
+  desc:"Your stance on a hot topic. Authority builder.",
+  body:"Structure: hook = my hot take in one line, the common view, why I see it differently (3 arguments with examples), the strongest counter-argument handled honestly, what I'd advise viewers to do." },
+{ type:"long", plats:["*"], emoji:"🧪", name:"I tried it for 7 days",
+  desc:"Experiment format — story + proof + verdict.",
+  body:"Structure: hook = the experiment promise, day-by-day highlights (3-4 key moments, wins and fails), the numbers/results, honest verdict, who should and should not try it." },
+{ type:"long", plats:["*"], emoji:"📋", name:"Top 5 countdown",
+  desc:"Countdown keeps people watching till #1.",
+  body:"Structure: hook teasing #1 without revealing, countdown 5→1 with one concrete use/benefit each, save the best for last, recap list at the end." },
+
+/* ---------- POST templates: general (work everywhere) ---------- */
+{ type:"post", plats:["*"], emoji:"❓", name:"Strategic question",
+  desc:"Real questions invite real conversation.",
+  body:"Write a post asking ONE strategic question about the topic. Include my own one-line answer/stance FIRST, then invite theirs. No empty engagement bait." },
+{ type:"post", plats:["*"], emoji:"🚨", name:"Announcement",
+  desc:"New video / news drop with curiosity gap.",
+  body:"Write an announcement post about the topic: curiosity-driven opening line, 2-3 lines of what it is and why it matters, link placeholder, CTA." },
+{ type:"post", plats:["*"], emoji:"🔥", name:"Hot take",
+  desc:"The opinions you're nervous to post build authority.",
+  body:"Write a confident hot-take post: my contrarian-but-defensible stance on the topic, 2 short reasons, invite disagreement respectfully." },
+{ type:"post", plats:["*"], emoji:"📖", name:"Mini story",
+  desc:"Struggle → turn → lesson. Most human format.",
+  body:"Write a first-person mini story about the topic: the moment it clicked, what went wrong first, the lesson, how the reader can skip my mistake." },
+{ type:"post", plats:["*"], emoji:"📋", name:"Listicle",
+  desc:"'5 things…' — easy to read, easy to save.",
+  body:"Write a listicle post: hook line, then 5 short numbered points about the topic (each with a concrete benefit), end with 'save this'." },
+{ type:"post", plats:["*"], emoji:"⚡", name:"Myth vs Reality",
+  desc:"Bust one myth. High share rate.",
+  body:"Write a post busting ONE common myth about the topic: the myth -> the reality with simple proof -> what to do instead." },
+
+/* ---------- POST templates: X specific ---------- */
+{ type:"post", plats:["x"], emoji:"🧵", name:"X thread (5-7 posts)",
+  desc:"The authority format on X. Hook tweet + value chain.",
+  body:"Write an X THREAD of 5-7 posts: post 1 = strong hook with the promise, posts 2-6 = one idea each (short lines, no fluff), last post = recap + follow CTA @aixahmad. Number them." },
+{ type:"post", plats:["x"], emoji:"🎁", name:"Prompt share",
+  desc:"Useful prompt + 'show your result' — bookmarks + replies.",
+  body:"ONE X post under 280 chars sharing a genuinely useful AI prompt about the topic, exact prompt in quotes, end: 'apna result comment mein dikhao'." },
+{ type:"post", plats:["x"], emoji:"✏️", name:"Fill the blank",
+  desc:"Easy replies + feature loop to YouTube.",
+  body:"ONE X post under 280 chars: fill-in-the-blank about the topic, end with 'best answer agli video mein feature hoga'." },
+{ type:"post", plats:["x"], emoji:"⚔️", name:"Test & tell",
+  desc:"Claude vs ChatGPT challenge — fun comparison bait.",
+  body:"ONE X post under 280 chars: I made Claude vs ChatGPT do something with the topic, my one-line verdict, challenge readers to try and reply with theirs." },
+
+/* ---------- POST templates: Instagram specific ---------- */
+{ type:"post", plats:["ig"], emoji:"🎠", name:"Carousel (8 slides)",
+  desc:"IG's best save-format. Slide-by-slide text.",
+  body:"Write an Instagram CAROUSEL: slide 1 = bold hook title, slides 2-7 = one idea per slide (max 20 words each), slide 8 = recap + follow CTA. Then the caption + 8 hashtags." },
+{ type:"post", plats:["ig"], emoji:"📱", name:"Story Q&A set",
+  desc:"3-4 story frames: poll, quiz, question sticker.",
+  body:"Write an Instagram STORY SET about the topic: frame 1 = poll question (2 options), frame 2 = quiz with 3 choices (mark correct), frame 3 = open question sticker prompt, frame 4 = result/answer + CTA. Short text per frame." },
+{ type:"post", plats:["ig"], emoji:"💬", name:"Quote card caption",
+  desc:"One strong quote image + caption that adds context.",
+  body:"Give ONE strong quotable line about the topic (for the image card, max 12 words), then a caption that adds the context/story behind it + 8 hashtags." },
+
+/* ---------- POST templates: LinkedIn specific ---------- */
+{ type:"post", plats:["li"], emoji:"💼", name:"Professional insight",
+  desc:"Industry observation + so-what. LinkedIn's native format.",
+  body:"Write a LinkedIn post: one sharp industry observation about the topic, 3-4 short lines of analysis, what it means for professionals in Pakistan/India, one question at the end. Professional but warm. Max 3 hashtags." },
+{ type:"post", plats:["li"], emoji:"📖", name:"Lesson-learned story",
+  desc:"Career/skill story with a takeaway. High reach format.",
+  body:"Write a LinkedIn story post: short personal experience related to the topic (first lines must hook), the mistake or surprise, the professional lesson, takeaway for readers. Line breaks between thoughts." },
+
+/* ---------- POST templates: Facebook specific ---------- */
+{ type:"post", plats:["fb"], emoji:"🗣", name:"Discussion starter",
+  desc:"FB loves comments — ask the family-audience question.",
+  body:"Write a Facebook post: relatable everyday angle on the topic (very simple words, family audience), short context, then a discussion question people will WANT to answer. 3-4 hashtags." },
+
+/* ---------- POST templates: WhatsApp specific ---------- */
+{ type:"post", plats:["wa"], emoji:"📢", name:"Channel announcement",
+  desc:"2-3 lines, personal tone, link. WhatsApp = your inner circle.",
+  body:"Write a WhatsApp Channel message: 2-3 lines max, personal tone (like messaging friends), one emoji per line max, the value in line 1, link placeholder at the end." },
+{ type:"post", plats:["wa"], emoji:"💡", name:"Quick tip drop",
+  desc:"One instantly-usable tip. Keeps the channel alive daily.",
+  body:"Write a WhatsApp Channel message: ONE practical tip about the topic people can use in the next 5 minutes, 2-3 lines, friendly, no links needed." },
 ];
 
-/* Plug-and-play caption templates for the post composer (Buffer-style).
-   Edit freely - {topic} stays as a placeholder you replace while writing. */
+/* Plug-and-play caption templates for the post composer quick-fill. */
 window.POST_TEMPLATES = [
   { name: "Video announcement",
     text: "🚨 Nayi video aa gayi!\n\n{topic} — sab kuch simple Urdu mein samjhaya hai.\n\nLink bio mein 🔗\n#AI #AIxAhmad" },
@@ -73,87 +135,3 @@ window.POST_TEMPLATES = [
   { name: "Weekly recap",
     text: "Is hafte AI duniya mein kya hua 🌍\n\n1. {topic}\n2. ...\n3. ...\n\nPoori detail YouTube pe — link bio mein!" },
 ];
-
-window.TEMPLATES = {
-
-shortScript: `You are writing a short vertical video script for "AI x Ahmad" — AI explained in simple Roman Urdu for viewers in Pakistan and India. Audience: everyday people (students, freelancers, shopkeepers, parents), NOT tech experts. No jargon, no English-heavy lines. Friendly tone, like a friend explaining.
-
-Story: {title}
-Summary: {summary}
-Link: {url}
-
-FIRST: open and read the link above.
-
-Write a {duration}-second script with EXACTLY this structure:
-1. HOOK (0–3 sec): one scroll-stopping line about how this affects the viewer's life.
-2. BODY: explain the story simply, one idea per sentence, with one concrete example or demo idea.
-3. LOCAL ANGLE: "Pakistan/India ke liye iska matlab kya hai" — jobs, paisa, daily life.
-4. CTA: follow @aixahmad, naya video har hafte.
-
-Output in Roman Urdu. Add [B-ROLL] suggestions in brackets. Total spoken length must fit {duration} seconds.`,
-
-longScript: `You are writing a YouTube main-video script for "AI x Ahmad" — AI explained in simple Roman Urdu for viewers in Pakistan and India. Audience: everyday people (students, freelancers, shopkeepers, parents), NOT tech experts. No jargon. Friendly tone, like a friend explaining.
-
-Story: {title}
-Key point: {summary}
-Link: {url}
-
-FIRST: open and read the link above.
-
-STEP 1 — Classify this story as ONE of: news explainer (4–6 min) / tutorial (8–15 min) / comparison / opinion. Say which one you picked and why in one line.
-
-STEP 2 — Write the full script using the matching structure:
-- INTRO HOOK (first 20 sec): why the viewer must stay — connect to their life immediately.
-- BODY in sections with [timestamp] markers and [B-ROLL] suggestions. One idea per section. Concrete examples for everyday people.
-- LOCAL ANGLE section: "Pakistan/India ke liye iska matlab" — jobs, income, daily tools.
-- RECAP: 3 key points in 3 lines.
-- OUTRO + CTA: subscribe + join WhatsApp Channel "AI x Ahmad".
-
-Output in Roman Urdu with light English where natural.`,
-
-postPack: `For the video below, generate platform posts for "AI x Ahmad" (@aixahmad), simple Roman Urdu + light English mix:
-Video topic: {title} — key point: {summary}
-
-1. YOUTUBE: 3 title options (under 60 chars, curiosity-driven, no clickbait lies) + 2-paragraph description + 15 tags.
-2. TIKTOK caption + 5 hashtags.
-3. INSTAGRAM caption + 8 hashtags (mix Urdu/English/desi-tech tags).
-4. FACEBOOK caption + 4 hashtags.
-5. X: one post under 280 chars that invites replies (question or hot take with my stance).
-6. WHATSAPP CHANNEL: 2-line announcement with the video link placeholder.
-7. LINKEDIN: 4–6 line professional-tone post.`,
-
-xFormats: {
-
-promptShare: `Write an X post for @aixahmad ("AI x Ahmad" — AI in simple Roman Urdu for Pakistan/India).
-
-Format: PROMPT-SHARE. Share ONE genuinely useful ChatGPT/Claude prompt about: {topic}.
-- The prompt must be practical — something a student, freelancer or shopkeeper would actually use today.
-- Show the exact prompt text in the post (short enough to copy).
-- End with: "apna result comment mein dikhao 👇"
-- Roman Urdu + light English. Under 280 characters. No empty hype.`,
-
-testAndTell: `Write an X post for @aixahmad ("AI x Ahmad" — AI in simple Roman Urdu for Pakistan/India).
-
-Format: TEST-AND-TELL challenge about: {topic}.
-- Structure: "Maine Claude vs ChatGPT se ___ karwaya — aap try karo, kaunsa better hai?"
-- Pick a concrete, fun, useful task related to the topic.
-- Include my one-line result/observation so the post has real value.
-- Invite people to reply with their result. Roman Urdu + light English. Under 280 characters.`,
-
-debateLocal: `Write an X post for @aixahmad ("AI x Ahmad" — AI in simple Roman Urdu for Pakistan/India).
-
-Format: LOCAL DEBATE question about: {topic}.
-- A sharp question tied to daily life / jobs / income in Pakistan and India.
-- IMPORTANT: the post must include MY OWN clear answer/stance first (one line), then ask readers theirs.
-- No empty engagement bait — the stance must carry real insight.
-- Roman Urdu + light English. Under 280 characters.`,
-
-fillBlank: `Write an X post for @aixahmad ("AI x Ahmad" — AI in simple Roman Urdu for Pakistan/India).
-
-Format: FILL-IN-THE-BLANK about: {topic}.
-- Structure like: "ChatGPT se sabse useful kaam jo maine kiya: ___"
-- Adapt the blank to the topic so answers are specific and interesting.
-- End with: "Best answer ko apni agli video mein feature karunga 🎥" (connects X to YouTube).
-- Roman Urdu + light English. Under 280 characters.`
-}
-};
