@@ -727,21 +727,21 @@ const WIZ_PLATS = {
   post:  [["x","X"],["ig","Instagram"],["fb","Facebook"],["li","LinkedIn"],["wa","WhatsApp"]],
 };
 const POST_RULES = {
-  x:  "X (Twitter): under 280 characters, invites replies, max 1-2 hashtags.",
-  ig: "Instagram: scroll-stopping first line, 3-5 short lines, 8 hashtags.",
-  fb: "Facebook: very simple words, broad family audience, discussion-friendly, 3-4 hashtags.",
-  li: "LinkedIn: 4-6 lines, professional but warm, one insight + one question, max 3 hashtags.",
-  wa: "WhatsApp Channel: 2-3 lines, personal tone like messaging friends, link placeholder.",
+  x:  "X (Twitter): under 280 characters, invites replies, max 1-2 hashtags (more kills reach on X in 2026).",
+  ig: "Instagram: scroll-stopping first line, 3-5 short lines, MAX 5 hashtags (Instagram's 2026 hard limit) - use 3-4 niche + 1 broad.",
+  fb: "Facebook: very simple words, broad family audience, discussion-friendly, 1-3 hashtags only.",
+  li: "LinkedIn: 4-6 lines, professional but warm, one insight + one question, 3-5 hashtags in PascalCase (e.g. #ArtificialIntelligence).",
+  wa: "WhatsApp Channel: 2-3 lines, personal tone like messaging friends, link placeholder, no hashtags.",
 };
 const SHORT_STYLE = {
-  yt: "YouTube Shorts style: loop-friendly ending (last line connects to the first), clean on-screen hook text, ideal under 60s.",
-  tiktok: "TikTok native style: casual and fast, on-screen text suggestion per scene, trend-aware.",
-  ig: "Instagram Reels style: aesthetic opening frame idea, caption with 8 hashtags.",
-  fb: "Facebook Reels style: very simple words, broad audience, caption with 4 hashtags.",
+  yt: "YouTube Shorts style (2026): 30-45s is the retention sweet spot (max 3 min allowed), loop-friendly ending (last line connects to the first), clean on-screen hook text.",
+  tiktok: "TikTok native style (2026): 21-34s gets highest engagement, casual and fast, on-screen text per scene, trend-aware.",
+  ig: "Instagram Reels style (2026): 30-45s value sweet spot, aesthetic opening frame idea, caption with 2-3 hashtags only (IG limit is 5).",
+  fb: "Facebook Reels style: very simple words, broad audience, caption with 1-3 hashtags.",
 };
 const SHORT_HINT = {
-  yt: "YT Shorts: loop ending, ≤60s ideal", tiktok: "TikTok: casual + on-screen text",
-  ig: "IG Reels: aesthetic hook frame", fb: "FB Reels: simple words, broad audience",
+  yt: "YT Shorts: 30-45s ideal, loop ending", tiktok: "TikTok: 21-34s sweet spot, casual",
+  ig: "IG Reels: 30-45s, max 2-3 hashtags", fb: "FB Reels: simple words, broad audience",
 };
 
 /* ---- pipeline stage views: Filming, Editing, Publish ---- */
@@ -1071,7 +1071,8 @@ function brandHeader() {
   const lang = tplLang === "ur"
     ? "OUTPUT LANGUAGE: simple Roman Urdu with light English (easy to read while filming)."
     : "OUTPUT LANGUAGE: simple, friendly English (no heavy jargon).";
-  return 'You are the content writer for "AI x Ahmad" (@aixahmad) — AI explained simply for everyday people in Pakistan and India (students, freelancers, shopkeepers). No jargon, friendly tone, energy high.\n' + lang + "\n\n";
+  return 'You are the content writer for "AI x Ahmad" (@aixahmad) — AI explained simply for everyday people in Pakistan and India (students, freelancers, shopkeepers). No jargon, friendly tone, energy high.\n' + lang +
+    "\nRULES: facts must come from the source link or be clearly true — never invent. Pacing beats length: every line must earn the next second. Hashtag limits: X 1-2, Instagram max 5, LinkedIn 3-5 PascalCase, Facebook 1-3.\n\n";
 }
 function typeRules() {
   const names = wiz.plats.map(k => platName(k, wiz.type)).join(", ");

@@ -90,18 +90,18 @@ window.WIZ = [
 /* ---------- POST templates: Instagram specific ---------- */
 { type:"post", plats:["ig"], emoji:"🎠", name:"Carousel (8 slides)",
   desc:"IG's best save-format. Slide-by-slide text.",
-  body:"Write an Instagram CAROUSEL: slide 1 = bold hook title, slides 2-7 = one idea per slide (max 20 words each), slide 8 = recap + follow CTA. Then the caption + 8 hashtags." },
+  body:"Write an Instagram CAROUSEL: slide 1 = bold hook title, slides 2-7 = one idea per slide (max 20 words each), slide 8 = recap + follow CTA. Then the caption + max 5 hashtags (Instagram 2026 limit)." },
 { type:"post", plats:["ig"], emoji:"📱", name:"Story Q&A set",
   desc:"3-4 story frames: poll, quiz, question sticker.",
   body:"Write an Instagram STORY SET about the topic: frame 1 = poll question (2 options), frame 2 = quiz with 3 choices (mark correct), frame 3 = open question sticker prompt, frame 4 = result/answer + CTA. Short text per frame." },
 { type:"post", plats:["ig"], emoji:"💬", name:"Quote card caption",
   desc:"One strong quote image + caption that adds context.",
-  body:"Give ONE strong quotable line about the topic (for the image card, max 12 words), then a caption that adds the context/story behind it + 8 hashtags." },
+  body:"Give ONE strong quotable line about the topic (for the image card, max 12 words), then a caption that adds the context/story behind it + 3-5 hashtags (IG max is 5)." },
 
 /* ---------- POST templates: LinkedIn specific ---------- */
 { type:"post", plats:["li"], emoji:"💼", name:"Professional insight",
   desc:"Industry observation + so-what. LinkedIn's native format.",
-  body:"Write a LinkedIn post: one sharp industry observation about the topic, 3-4 short lines of analysis, what it means for professionals in Pakistan/India, one question at the end. Professional but warm. Max 3 hashtags." },
+  body:"Write a LinkedIn post: one sharp industry observation about the topic, 3-4 short lines of analysis, what it means for professionals in Pakistan/India, one question at the end. Professional but warm. 3-5 hashtags in PascalCase (#ArtificialIntelligence style)." },
 { type:"post", plats:["li"], emoji:"📖", name:"Lesson-learned story",
   desc:"Career/skill story with a takeaway. High reach format.",
   body:"Write a LinkedIn story post: short personal experience related to the topic (first lines must hook), the mistake or surprise, the professional lesson, takeaway for readers. Line breaks between thoughts." },
@@ -109,7 +109,7 @@ window.WIZ = [
 /* ---------- POST templates: Facebook specific ---------- */
 { type:"post", plats:["fb"], emoji:"🗣", name:"Discussion starter",
   desc:"FB loves comments — ask the family-audience question.",
-  body:"Write a Facebook post: relatable everyday angle on the topic (very simple words, family audience), short context, then a discussion question people will WANT to answer. 3-4 hashtags." },
+  body:"Write a Facebook post: relatable everyday angle on the topic (very simple words, family audience), short context, then a discussion question people will WANT to answer. 1-3 hashtags max." },
 
 /* ---------- POST templates: WhatsApp specific ---------- */
 { type:"post", plats:["wa"], emoji:"📢", name:"Channel announcement",
