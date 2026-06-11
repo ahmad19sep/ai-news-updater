@@ -276,6 +276,16 @@ PAGE = r"""<!doctype html>
   .typecard b { font-family:var(--display); font-size:14.5px; }
   .typecard span { color:var(--dim); font-size:12px; line-height:1.45; }
   .whint { color:var(--faint); font-size:12px; }
+  .chkrow { display:flex; flex-wrap:wrap; gap:8px 18px; margin:10px 0; }
+  .chk { font-size:13px; color:var(--dim); display:flex; align-items:center; gap:7px;
+          cursor:pointer; }
+  .chk input { width:16px; height:16px; accent-color:#65a30d; }
+  .scriptbox summary { cursor:pointer; font-size:12.5px; color:var(--indigo);
+          margin:6px 0; }
+  .scriptbox pre { background:var(--surface2); border:1px solid var(--line);
+          border-radius:10px; padding:12px 14px; font:12px/1.6 Consolas, monospace;
+          white-space:pre-wrap; max-height:260px; overflow-y:auto; }
+  .calpost.publish { background:var(--gold-soft); color:var(--gold); }
 
   /* ---------- ticket modal ---------- */
   #modal { position:fixed; inset:0; z-index:300; background:rgba(15,23,42,.35);
@@ -428,8 +438,10 @@ PAGE = r"""<!doctype html>
     <div class="mrow"><span class="lbl">Schedule</span>
       <input type="date" id="m-date"><input type="time" id="m-time" value="18:00">
       <select id="m-status">
-        <option value="idea">💡 Idea</option><option value="draft">📝 Draft</option>
-        <option value="scheduled">🗓 Scheduled</option><option value="posted">✅ Posted</option>
+        <option value="idea">💡 Idea</option><option value="script">✍️ Script</option>
+        <option value="filming">🎥 Filming</option><option value="editing">✂️ Editing</option>
+        <option value="publish">🗓 Publish</option><option value="scheduled">🗓 Scheduled</option>
+        <option value="posted">✅ Posted</option>
       </select></div>
     <div class="mrow"><span class="lbl">Owner</span>
       <select id="m-ass"><option>Ahmad</option><option>Editor</option></select></div>
@@ -508,6 +520,14 @@ if (localStorage.getItem("plans_v") !== "3") {
     when: p.when || (p.due ? p.due + "T18:00" : ""),
   }));
   localStorage.setItem("plans_v", "3");
+  localStorage.setItem("plans", JSON.stringify(plans));
+}
+if (localStorage.getItem("plans_v") !== "4") {
+  plans = plans.map(p => Object.assign(p, {
+    status: p.status === "draft" ? "script" : p.status,
+    ctype: p.ctype || "", chk: p.chk || {}, ftitle: p.ftitle || "",
+  }));
+  localStorage.setItem("plans_v", "4");
   localStorage.setItem("plans", JSON.stringify(plans));
 }
 
@@ -651,7 +671,7 @@ function renderResearch() {
 }
 
 /* ---------------- Publish board (Buffer style) ---------------- */
-let boardView = "create", calOffset = 0;
+let boardView = "ideas", calOffset = 0;
 
 function addPlan(title, url) {
   plans.unshift({ id: Date.now(), title, url: url || "", notes: "",
@@ -663,13 +683,24 @@ function addPlan(title, url) {
 function boardNav() {
   const el = document.getElementById("boardnav");
   el.innerHTML = "";
-  [["create","✨ Create"],["queue","🗓 Queue"],["calendar","📅 Calendar"],
-   ["drafts","📝 Drafts"],["ideas","💡 Ideas"],["posted","✅ Posted"]].forEach(([k, label]) => {
+  const cnt = s => plans.filter(p => p.status === s).length;
+  const counts = { ideas: cnt("idea"), script: cnt("script"), filming: cnt("filming"),
+    editing: cnt("editing"), publish: cnt("publish") + cnt("scheduled"), posted: cnt("posted") };
+  const steps = [["ideas","\uD83D\uDCA1 Ideas"],["script","\u270D\uFE0F Script"],
+    ["filming","\uD83C\uDFA5 Filming"],["editing","\u2702\uFE0F Editing"],
+    ["publish","\uD83D\uDDD3 Publish"],["posted","\u2705 Posted"]];
+  steps.forEach(([k, label], i) => {
     const b = document.createElement("button");
-    b.innerHTML = label;
+    b.innerHTML = label + (counts[k] ? " \u00B7 " + counts[k] : "");
     b.className = boardView === k ? "active" : "";
     b.onclick = () => { boardView = k; renderBoard(); };
     el.appendChild(b);
+    if (i < steps.length - 1) {
+      const a = document.createElement("span");
+      a.textContent = "\u2192";
+      a.style.cssText = "color:var(--faint);font-size:12px";
+      el.appendChild(a);
+    }
   });
 }
 
@@ -677,11 +708,11 @@ function renderBoard() {
   boardNav();
   const el = document.getElementById("boardview");
   el.innerHTML = "";
-  if (boardView === "queue") renderQueue(el);
-  else if (boardView === "calendar") renderCalendar(el);
-  else if (boardView === "drafts") renderList(el, ["draft"], "No drafts yet. Turn an idea into a draft, or press + New post.");
-  else if (boardView === "ideas") renderIdeas(el);
-  else if (boardView === "create") renderCreate(el);
+  if (boardView === "ideas") renderIdeas(el);
+  else if (boardView === "script") renderScriptView(el);
+  else if (boardView === "filming") renderStageView(el, "filming", "editing", "Done → Editing", "Nothing in Filming — finish a Script first.");
+  else if (boardView === "editing") renderStageView(el, "editing", "publish", "Done → Publish", "Nothing in Editing yet.");
+  else if (boardView === "publish") renderPublish(el);
   else renderList(el, ["posted"], "Nothing posted yet — your history will appear here.");
 }
 
@@ -689,6 +720,7 @@ function renderBoard() {
 let wiz = { topic: "", url: "", type: null, plats: [], dur: "60",
             len: "4-6 min news explainer", tpl: null, prompt: "" };
 let tplLang = localStorage.getItem("tpl_lang") || "ur";
+let wizBind = null;
 const WIZ_PLATS = {
   short: [["yt","YT Shorts"],["tiktok","TikTok"],["ig","IG Reels"],["fb","FB Reels"]],
   long:  [["yt","YouTube"],["fb","Facebook"]],
@@ -712,12 +744,180 @@ const SHORT_HINT = {
   ig: "IG Reels: aesthetic hook frame", fb: "FB Reels: simple words, broad audience",
 };
 
-function openCreate(topic, url, preset) {
+/* ---- pipeline stage views: Filming, Editing, Publish ---- */
+const STAGE_CHK = {
+  filming: [["title","Final title decided"],["poster","Thumbnail / poster made"],["footage","Footage recorded"]],
+  editing: [["cut","Rough cut done"],["captions","Captions added"],["export","Final export ready"]],
+};
+let pubCal = false;
+
+function renderScriptView(el) {
+  const inProg = plans.filter(p => p.status === "script");
+  if (inProg.length) {
+    const box = document.createElement("div");
+    box.className = "bar";
+    box.style.marginTop = "0";
+    const lab = document.createElement("span");
+    lab.className = "whint";
+    lab.textContent = "Working on:";
+    box.appendChild(lab);
+    inProg.forEach(p => {
+      const b = document.createElement("button");
+      b.textContent = "✍️ " + p.title.split("\n")[0].slice(0, 32);
+      b.className = wizBind === p.id ? "active" : "";
+      b.onclick = () => {
+        wizBind = p.id;
+        wiz.topic = p.title.split("\n")[0];
+        wiz.url = p.url || "";
+        wiz.type = p.ctype || null;
+        wiz.plats = []; wiz.tpl = null; wiz.prompt = "";
+        renderBoard();
+      };
+      box.appendChild(b);
+    });
+    const custom = document.createElement("button");
+    custom.textContent = "+ Custom topic";
+    custom.className = wizBind === null ? "active" : "";
+    custom.onclick = () => {
+      wizBind = null;
+      wiz = { topic: "", url: "", type: null, plats: [], dur: "60",
+              len: "4-6 min news explainer", tpl: null, prompt: "" };
+      renderBoard();
+    };
+    box.appendChild(custom);
+    el.appendChild(box);
+  }
+  renderCreate(el);
+}
+
+function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
+  const items = plans.filter(p => p.status === stage);
+  if (!items.length) { el.innerHTML = '<div class="empty">' + emptyMsg + "</div>"; return; }
+  items.forEach(p => {
+    p.chk = p.chk || {};
+    const c = document.createElement("div");
+    c.className = "panel";
+    let inner = '<h3 style="color:var(--text)">' + esc(p.title.split("\n")[0]) +
+      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + "</h3>";
+    if (stage === "filming") {
+      inner += '<div class="genrow"><input class="ftitle" style="flex:1;min-width:200px" placeholder="Final video title…" value="' + esc(p.ftitle || "") + '">' +
+        '<button class="ghost poster-btn">🎨 Poster prompt</button></div>';
+    }
+    inner += '<div class="chkrow">' + STAGE_CHK[stage].map(([k, lab]) =>
+      '<label class="chk"><input type="checkbox" data-k="' + k + '"' +
+      (p.chk[k] ? " checked" : "") + "> " + lab + "</label>").join("") + "</div>";
+    if (p.notes) inner += '<details class="scriptbox"><summary>📜 Script / content</summary><pre>' + esc(p.notes) + "</pre></details>";
+    inner += '<div class="mfoot"><button class="btn next-btn">' + nextLabel + "</button>" +
+      '<button class="ghost edit-btn">✎ Edit details</button></div>';
+    c.innerHTML = inner;
+    const ft = c.querySelector(".ftitle");
+    if (ft) ft.addEventListener("change", e => { p.ftitle = e.target.value; savePlans(); });
+    const pb = c.querySelector(".poster-btn");
+    if (pb) pb.onclick = () => {
+      const prompt = 'Design 3 thumbnail/poster concepts for my video: "' +
+        (p.ftitle || p.title.split("\n")[0]) +
+        '" (AI x Ahmad — AI in simple Urdu, audience Pakistan/India). For each concept give: main poster text (max 4 words, Urdu/English mix), background idea, color scheme, my facial expression, one small visual element. Must be readable on a phone screen.';
+      navigator.clipboard.writeText(prompt).then(() => toast("Poster prompt copied — paste in Claude 🎨"));
+    };
+    c.querySelectorAll(".chk input").forEach(cb => {
+      cb.onchange = () => { p.chk[cb.dataset.k] = cb.checked; savePlans(); };
+    });
+    c.querySelector(".next-btn").onclick = () => {
+      p.status = nextStage;
+      savePlans();
+      boardView = nextStage;
+      renderBoard();
+      toast("Moved ✓");
+    };
+    c.querySelector(".edit-btn").onclick = () => openComposer(p.id);
+    el.appendChild(c);
+  });
+}
+
+function renderPublish(el) {
+  const top = document.createElement("div");
+  top.className = "bar";
+  top.style.marginTop = "0";
+  [["list","🗒 List"],["cal","📅 Calendar"]].forEach(([k, lab]) => {
+    const b = document.createElement("button");
+    b.textContent = lab;
+    b.className = (pubCal ? "cal" : "list") === k ? "active" : "";
+    b.onclick = () => { pubCal = k === "cal"; renderBoard(); };
+    top.appendChild(b);
+  });
+  el.appendChild(top);
+  if (pubCal) { renderCalendar(el); return; }
+  const ready = plans.filter(p => p.status === "publish");
+  const sched = plans.filter(p => p.status === "scheduled" && p.when)
+    .sort((a, b) => a.when.localeCompare(b.when));
+  if (!ready.length && !sched.length) {
+    const e2 = document.createElement("div");
+    e2.className = "empty";
+    e2.textContent = "Nothing here yet — items land here after Editing (videos) or Script (posts).";
+    el.appendChild(e2);
+    return;
+  }
+  if (ready.length) {
+    const h = document.createElement("div");
+    h.className = "qday";
+    h.textContent = "Ready to schedule";
+    el.appendChild(h);
+    ready.forEach(p => {
+      const d = document.createElement("div");
+      d.className = "qrow";
+      d.innerHTML = '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 55)) + "</span>" +
+        '<span class="qtags">' + platTags(p) + "</span>" +
+        '<input type="date" class="pd"><input type="time" class="pt" value="18:00">' +
+        '<button class="ghost sch">→ Schedule</button>';
+      d.querySelector(".qtext").onclick = () => openComposer(p.id);
+      d.querySelector(".sch").onclick = e => {
+        e.stopPropagation();
+        const date = d.querySelector(".pd").value;
+        if (!date) { toast("Pick a date first"); return; }
+        p.when = date + "T" + (d.querySelector(".pt").value || "18:00");
+        p.status = "scheduled";
+        savePlans();
+        renderBoard();
+        toast("Scheduled 🗓");
+      };
+      el.appendChild(d);
+    });
+  }
+  let lastDay = "";
+  sched.forEach(p => {
+    const day = p.when.slice(0, 10);
+    if (day !== lastDay) {
+      lastDay = day;
+      const h = document.createElement("div");
+      h.className = "qday";
+      h.textContent = dayName(day);
+      el.appendChild(h);
+    }
+    const d = document.createElement("div");
+    d.className = "qrow";
+    d.innerHTML = '<span class="qtime">' + p.when.slice(11, 16) + "</span>" +
+      '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 55)) + "</span>" +
+      '<span class="qtags">' + platTags(p) + "</span>" +
+      '<button class="ghost donep">✓ Posted</button>';
+    d.querySelector(".qtext").onclick = () => openComposer(p.id);
+    d.querySelector(".donep").onclick = e => {
+      e.stopPropagation();
+      p.status = "posted";
+      savePlans();
+      renderBoard();
+      toast("Posted ✅ Done!");
+    };
+    el.appendChild(d);
+  });
+}
+
+function openCreate(topic, url, preset, bindId) {
   wiz = { topic: topic || "", url: url || "",
           type: (preset && preset.type) || null,
           plats: (preset && preset.plats) ? preset.plats.slice() : [],
           dur: "60", len: "4-6 min news explainer", tpl: null, prompt: "" };
-  boardView = "create";
+  wizBind = bindId || null;
+  boardView = "script";
   switchTab("plan");
 }
 
@@ -861,7 +1061,7 @@ function renderCreate(el) {
       '<textarea id="wizprompt" readonly style="width:100%;min-height:140px;font:12px/1.6 Consolas,monospace;background:var(--surface2)">' + esc(wiz.prompt) + "</textarea>" +
       '<p class="sub" style="margin-top:14px"><b>Final version</b> (from Claude, after your edits):</p>' +
       '<textarea id="wizfinal" style="width:100%;min-height:120px" placeholder="Paste your final content here…"></textarea>' +
-      '<div class="mfoot"><button class="btn" onclick="saveWiz()">💾 Save to Drafts</button>' +
+      '<div class="mfoot"><button class="btn" onclick="saveWiz()">✅ Script done → next stage</button>' +
       '<button class="ghost" onclick="downloadWiz()">⬇ Download file</button></div>';
     el.appendChild(out);
   }
@@ -917,15 +1117,26 @@ function saveWiz() {
   const fin = document.getElementById("wizfinal");
   const txt = fin ? fin.value.trim() : "";
   if (!txt) { toast("Paste the final version first"); return; }
-  const typeTag = wiz.type === "short" ? "Short" : wiz.type === "long" ? "Long video" : "Post";
+  const next = wiz.type === "post" ? "publish" : "filming";
   let plats = wiz.plats.slice();
   if (wiz.type === "short") plats = plats.map(k => k === "yt" ? "shorts" : k);
-  plans.unshift({ id: Date.now(),
-    title: wiz.topic + " — " + typeTag + " (" + wiz.tpl.name + ")",
-    url: wiz.url, notes: txt, status: "draft", assignee: "Ahmad",
-    platforms: plats, when: "" });
+  let p = wizBind ? plans.find(x => x.id === wizBind) : null;
+  if (p) {
+    p.notes = txt;
+    p.platforms = plats.length ? plats : p.platforms;
+    p.ctype = wiz.type;
+    p.url = wiz.url || p.url;
+    p.status = next;
+  } else {
+    plans.unshift({ id: Date.now(), title: wiz.topic, url: wiz.url, notes: txt,
+      status: next, assignee: "Ahmad", platforms: plats, when: "",
+      ctype: wiz.type, chk: {}, ftitle: "" });
+  }
   savePlans();
-  toast("Saved to Drafts 📝 — schedule it from there");
+  wizBind = null;
+  boardView = next;
+  renderBoard();
+  toast(next === "filming" ? "Script done \u2192 Filming \uD83C\uDFA5" : "Content done \u2192 Publish \uD83D\uDDD3");
 }
 function downloadWiz() {
   const fin = document.getElementById("wizfinal");
@@ -1023,11 +1234,14 @@ function renderIdeas(el) {
     c.innerHTML = '<div class="t">' + esc(p.title.split("\n")[0]) + "</div>" +
       (p.url ? '<a href="' + esc(p.url) + '" target="_blank">source</a>' : "") +
       '<div style="margin-top:10px;display:flex;gap:6px">' +
-      '<button class="ghost" style="padding:5px 12px;font-size:12px">→ Draft</button>' +
+      '<button class="ghost" style="padding:5px 12px;font-size:12px">✍️ → Script</button>' +
       '<button class="ghost" style="padding:5px 12px;font-size:12px">Open</button>' +
       '<button class="danger" style="padding:5px 10px;font-size:12px;margin-left:auto">✕</button></div>';
     const btns = c.querySelectorAll("button");
-    btns[0].onclick = () => { p.status = "draft"; savePlans(); renderBoard(); toast("Moved to Drafts 📝"); };
+    btns[0].onclick = () => {
+      p.status = "script"; savePlans();
+      openCreate(p.title.split("\n")[0], p.url || "", p.ctype ? { type: p.ctype } : null, p.id);
+    };
     btns[1].onclick = () => openComposer(p.id);
     btns[2].onclick = () => {
       if (confirm("Delete idea?")) {
