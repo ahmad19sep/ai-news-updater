@@ -113,9 +113,51 @@ def rising_terms(trends):
     return [t["term"] for t in trends if t["status"] in ("new", "rising")]
 
 
+# --- Audience relevance: "Should Ahmad film this today?" ---
+# The audience (everyday people in Pakistan/India) cares about life, jobs,
+# money, tools they can try - NOT benchmarks or papers.
+_CONSUMER_P = [re.compile(r"\b" + re.escape(k) + r"\b", re.IGNORECASE)
+               for k in config.CONSUMER_KEYWORDS]
+_LOCAL_P = [re.compile(r"\b" + re.escape(k) + r"\b", re.IGNORECASE)
+            for k in config.LOCAL_KEYWORDS]
+_RESEARCHY_P = [re.compile(r"\b" + re.escape(k) + r"\b", re.IGNORECASE)
+                for k in config.RESEARCHY_KEYWORDS]
+
+
+def audience_score(title, pillar, n_extra_sources, age_h, hot_terms):
+    """Returns (score, reasons, is_local). Higher = film it today."""
+    score, reasons = 0, []
+    local = any(p.search(title) for p in _LOCAL_P)
+    if local:
+        score += 4
+        reasons.append("PK/IN local angle")
+    if any(p.search(title) for p in _CONSUMER_P):
+        score += 3
+        reasons.append("useful for viewers")
+    if any(p.search(title) for p in _RESEARCHY_P):
+        score -= 4  # technical talk - audience does not care
+    if n_extra_sources:
+        score += 2 * n_extra_sources
+        reasons.append(f"{n_extra_sources + 1} sources")
+    if age_h <= 24:
+        score += 3
+        reasons.append("fresh today")
+    elif age_h <= 48:
+        score += 1
+    title_low = title.lower()
+    for term in hot_terms:
+        if term in title_low:
+            score += 2
+            reasons.append(f"trending: {term}")
+            break
+    if pillar in (1, 2):  # tools & coding = things people can actually use
+        score += 1
+    return score, reasons, local
+
+
 def score_items(conn, trends=None, hours=72):
-    """Score recent stories by video-worthiness. Returns rows sorted
-    high-to-low, each with .score and .reasons (list of short strings)."""
+    """Audience-scored recent stories (research papers excluded), sorted
+    high-to-low. Used for the daily Top 5 phone picks."""
     if trends is None:
         trends = compute_trends(conn)
     hot_terms = rising_terms(trends)[:15]
@@ -129,36 +171,20 @@ def score_items(conn, trends=None, hours=72):
 
     scored = []
     for r in rows:
-        score, reasons = 0, []
+        if r["pillar"] == 9:   # research papers are never video candidates
+            continue
         extra = len(json.loads(r["links"] or "[]"))
-        if extra:
-            score += 3 * extra
-            reasons.append(f"{extra + 1} sources")
-        if r["source"] in config.INSTANT_SOURCES:
-            score += 4
-            reasons.append("official lab")
         when = r["published"] or r["fetched"]
         try:
             age_h = (now - datetime.fromisoformat(when)).total_seconds() / 3600
         except ValueError:
             age_h = 999
-        if age_h <= 24:
-            score += 3
-            reasons.append("fresh today")
-        elif age_h <= 48:
-            score += 1
-        title_low = r["title"].lower()
-        for term in hot_terms:
-            if term in title_low:
-                score += 3
-                reasons.append(f"trending: {term}")
-                break
-        if r["pillar"] == 1:  # New Tools & Models - launch news is video gold
-            score += 1
+        score, reasons, local = audience_score(
+            r["title"], r["pillar"], extra, age_h, hot_terms)
         scored.append({
             "id": r["id"], "title": r["title"], "url": r["url"],
             "source": r["source"], "category": r["pillar"],
-            "score": score, "reasons": reasons,
+            "score": score, "reasons": reasons, "local": local,
         })
 
     scored.sort(key=lambda x: -x["score"])

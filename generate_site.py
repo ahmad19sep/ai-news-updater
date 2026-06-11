@@ -1,17 +1,18 @@
 """
-AI News Radar - Static site generator (online Creator Studio)
+AI x Ahmad - Radar Studio site generator
 
 Reads news.db and writes docs/index.html - published free on GitHub Pages.
 The cloud server regenerates it every hour after fetching news.
 
-Four tabs, all working in the browser (no server needed):
-  News      - stories, filters, search, trends, top picks, done marks
-  Planner   - video board saved on your device (localStorage)
-  Prep      - pick a story -> ready prompt to copy into the Claude app
-  Analytics - YouTube channel stats fetched directly from the YouTube API
-              (your API key stays in YOUR browser only)
+Tabs (all client-side, no server, no API keys in the page):
+  News      - audience-ranked "Video-worthy" view, local-angle badges
+  Research  - papers tab for Ahmad's own learning (never video candidates)
+  Planner   - Jira-style ticket board for the 2-person team (localStorage)
+  Prep      - clipboard prompt buttons (Short/Long/Post Pack) + X generator
+  Analytics - YouTube stats via the browser (key stays in localStorage)
 
-Run manually:  python generate_site.py
+Prompt templates live in docs/templates.js (separate, reusable later by a
+Cloudflare Worker). Run manually:  python generate_site.py
 """
 
 import json
@@ -31,13 +32,13 @@ PAGE = r"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0b0f17">
-<title>AI News Radar — Creator Studio</title>
+<title>AI x Ahmad — Radar Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg:#0b0f17; --bg2:#0e1420; --surface:#131a26; --surface2:#18202e;
+    --bg:#0b0f17; --surface:#131a26; --surface2:#18202e;
     --text:#e7ecf3; --dim:#8b96a5; --faint:#5c6675;
     --line:rgba(255,255,255,.07); --line2:rgba(255,255,255,.12);
     --indigo:#6366f1; --cyan:#22d3ee; --gold:#fbbf24; --green:#34d399;
@@ -47,7 +48,6 @@ PAGE = r"""<!doctype html>
     --r:14px;
   }
   * { box-sizing:border-box; }
-  html { scrollbar-color:#2a3342 transparent; }
   body { margin:0; background:radial-gradient(1200px 500px at 70% -10%, #141c30 0%, var(--bg) 55%);
          color:var(--text); font:14.5px/1.55 Inter, system-ui, "Segoe UI", sans-serif;
          -webkit-font-smoothing:antialiased; }
@@ -55,10 +55,9 @@ PAGE = r"""<!doctype html>
   a { color:var(--cyan); }
   .wrap { max-width:1020px; margin:0 auto; padding:0 16px 80px; }
 
-  /* ---------- header ---------- */
   header { position:sticky; top:0; z-index:50; backdrop-filter:blur(14px);
            background:rgba(11,15,23,.72); border-bottom:1px solid var(--line); }
-  .hrow { max-width:1020px; margin:0 auto; padding:14px 16px;
+  .hrow { max-width:1020px; margin:0 auto; padding:13px 16px;
           display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
   .logo { display:flex; align-items:center; gap:10px; font-weight:800;
           font-size:17px; letter-spacing:-.02em; }
@@ -68,7 +67,7 @@ PAGE = r"""<!doctype html>
   .logo small { font-weight:500; color:var(--faint); font-size:11px; margin-left:2px; }
   .tabs { display:flex; gap:4px; background:var(--surface); border:1px solid var(--line);
           padding:4px; border-radius:999px; margin-left:auto; }
-  .tabs button { background:none; border:none; color:var(--dim); padding:7px 16px;
+  .tabs button { background:none; border:none; color:var(--dim); padding:7px 14px;
           border-radius:999px; font:600 13px Inter, sans-serif; cursor:pointer;
           transition:.18s; white-space:nowrap; }
   .tabs button:hover { color:var(--text); }
@@ -76,7 +75,6 @@ PAGE = r"""<!doctype html>
           box-shadow:0 4px 14px -4px rgba(99,102,241,.6); }
   .updated { width:100%; color:var(--faint); font-size:11.5px; }
 
-  /* ---------- chips & filter bar ---------- */
   .trends { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0 4px; }
   .chip { display:inline-flex; align-items:center; gap:6px;
           background:rgba(52,211,153,.08); color:var(--green);
@@ -100,7 +98,6 @@ PAGE = r"""<!doctype html>
           box-shadow:0 0 0 3px rgba(99,102,241,.18); }
   .count { color:var(--faint); font-size:12.5px; margin:10px 2px 14px; }
 
-  /* ---------- story cards ---------- */
   .card { background:var(--surface); border:1px solid var(--line); border-radius:var(--r);
           padding:16px 18px; margin-bottom:12px; transition:.18s; position:relative; }
   .card:hover { border-color:var(--line2); transform:translateY(-1px); box-shadow:var(--shadow); }
@@ -114,6 +111,7 @@ PAGE = r"""<!doctype html>
   .pill { background:rgba(99,102,241,.12); color:#a5b4fc; padding:2.5px 10px;
           border-radius:999px; font-weight:500; font-size:11.5px; }
   .pill.hot { background:rgba(251,146,60,.12); color:var(--orange); }
+  .pill.local { background:rgba(52,211,153,.14); color:var(--green); font-weight:600; }
   .actions { margin-left:auto; display:flex; gap:6px; }
   .meta button { background:none; border:1px solid var(--line); color:var(--dim);
           border-radius:8px; padding:4px 11px; font:500 11.5px Inter; cursor:pointer;
@@ -129,7 +127,6 @@ PAGE = r"""<!doctype html>
   .more:hover { border-color:var(--indigo); box-shadow:var(--shadow); }
   .empty { color:var(--faint); text-align:center; padding:60px 0; }
 
-  /* ---------- planner ---------- */
   .addrow { display:flex; gap:10px; margin:18px 0 14px; flex-wrap:wrap; }
   .addrow input, select, input[type=date], input[type=number], textarea {
           background:var(--surface); border:1px solid var(--line); color:var(--text);
@@ -143,7 +140,7 @@ PAGE = r"""<!doctype html>
           transition:.15s; }
   .ghost:hover { color:var(--text); border-color:var(--line2); }
   .board { display:flex; gap:14px; overflow-x:auto; padding:4px 2px 24px; }
-  .col { min-width:248px; width:248px; flex-shrink:0; }
+  .col { min-width:262px; width:262px; flex-shrink:0; }
   .col h3 { font-size:12px; font-weight:700; color:var(--faint); margin:0 0 10px;
           text-transform:uppercase; letter-spacing:.08em; display:flex; gap:8px; }
   .col h3 .n { color:var(--dim); background:var(--surface); border-radius:999px;
@@ -154,21 +151,30 @@ PAGE = r"""<!doctype html>
   .pcard .t { font-weight:600; margin-bottom:6px; line-height:1.35; }
   .pcard a { font-size:11.5px; text-decoration:none; }
   .pcard .row { display:flex; gap:6px; margin-top:9px; flex-wrap:wrap; align-items:center; }
-  .pcard textarea { width:100%; min-height:44px; font-size:12px; margin-top:8px;
+  .pcard textarea { width:100%; min-height:42px; font-size:12px; margin-top:8px;
           padding:7px 10px; border-radius:8px; }
   .pcard select, .pcard input[type=date] { font-size:11.5px; padding:5px 8px; border-radius:8px; }
   .pcard button { background:none; border:1px solid var(--line); color:var(--dim);
           border-radius:8px; padding:4px 10px; font:500 11.5px Inter; cursor:pointer; }
   .pcard button:hover { border-color:var(--indigo); color:var(--text); }
+  .plats { display:flex; flex-wrap:wrap; gap:4px; margin-top:8px; }
+  .plats label { font-size:10.5px; color:var(--dim); background:var(--surface2);
+          border:1px solid var(--line); border-radius:6px; padding:2px 7px;
+          cursor:pointer; user-select:none; }
+  .plats label.on { color:#fff; background:rgba(99,102,241,.45); border-color:var(--indigo); }
+  .ass { font-size:11px; padding:3px 8px; border-radius:6px; }
+  .ass.ahmad { background:rgba(99,102,241,.2); color:#a5b4fc; }
+  .ass.editor { background:rgba(251,191,36,.15); color:var(--gold); }
   .note { color:var(--faint); font-size:12px; margin:0 2px 14px; }
 
-  /* ---------- prep & analytics ---------- */
   .panel { background:var(--surface); border:1px solid var(--line);
           border-radius:var(--r); padding:20px 22px; margin-bottom:16px; }
   .panel h3 { margin:0 0 12px; font-size:14px; font-weight:700; color:var(--gold);
-          display:flex; align-items:center; gap:10px; }
-  #promptbox { width:100%; min-height:300px; font:12px/1.6 Consolas, monospace; }
+          display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .panel .sub { color:var(--faint); font-size:12px; margin:-6px 0 12px; }
+  #promptbox { width:100%; min-height:260px; font:12px/1.6 Consolas, monospace; }
   .copied { color:var(--green); font-size:12.5px; }
+  .genrow { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:6px; }
   .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
           gap:12px; margin:18px 0; }
   .stat { background:var(--surface); border:1px solid var(--line); border-radius:var(--r);
@@ -199,23 +205,24 @@ PAGE = r"""<!doctype html>
           font:600 13px Inter; opacity:0; transition:.25s; pointer-events:none;
           box-shadow:0 10px 30px -8px rgba(99,102,241,.7); z-index:99; }
   .toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
-  @media (max-width:640px) {
+  @media (max-width:720px) {
     .tabs { margin-left:0; width:100%; justify-content:space-between; }
-    .tabs button { padding:7px 10px; font-size:12px; }
+    .tabs button { padding:7px 8px; font-size:11.5px; }
   }
 </style>
 </head>
 <body>
 <header>
   <div class="hrow">
-    <div class="logo"><span class="orb"></span> AI News Radar <small>STUDIO</small></div>
+    <div class="logo"><span class="orb"></span> AI x Ahmad <small>RADAR STUDIO</small></div>
     <nav class="tabs">
       <button id="tabbtn-news" class="active" onclick="switchTab('news')">News</button>
-      <button id="tabbtn-plan" onclick="switchTab('plan')">Planner</button>
+      <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
+      <button id="tabbtn-plan" onclick="switchTab('plan')">Board</button>
       <button id="tabbtn-prep" onclick="switchTab('prep')">Prep</button>
       <button id="tabbtn-stats" onclick="switchTab('stats')">Analytics</button>
     </nav>
-    <div class="updated">Updated __UPDATED__ · refreshes every hour · 100% free</div>
+    <div class="updated">AI Ki Duniya, Simple Urdu Mein · @aixahmad · updated __UPDATED__ · refreshes hourly</div>
   </div>
 </header>
 <div class="wrap">
@@ -223,39 +230,70 @@ PAGE = r"""<!doctype html>
   <section id="tab-news">
     <div class="trends" id="trends"></div>
     <div class="bar" id="pillars"></div>
-    <div class="search"><input id="q" placeholder="Search stories… Gemini, Altman, robots"></div>
+    <div class="search"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
     <div class="count" id="count"></div>
     <div id="list"></div>
     <button class="more" id="more" style="display:none">Show more</button>
   </section>
 
+  <section id="tab-research" hidden>
+    <p class="note">📚 Research papers — for your own learning. Never ranked as video candidates.</p>
+    <div id="rlist"></div>
+  </section>
+
   <section id="tab-plan" hidden>
     <div class="addrow">
-      <input id="newidea" style="flex:1;min-width:220px" placeholder="New video idea (or tap 🎬 on any story)">
-      <button class="btn" onclick="addIdea()">+ Add</button>
-      <button class="ghost" onclick="exportPlans()">Export</button>
-      <button class="ghost" onclick="importPlans()">Import</button>
+      <input id="newidea" style="flex:1;min-width:200px" placeholder="New ticket (or tap 🎬 on any story)">
+      <button class="btn" onclick="addIdea()">+ Ticket</button>
+      <button class="ghost" onclick="exportPlans()">⬇ Export file</button>
+      <button class="ghost" onclick="document.getElementById('importfile').click()">⬆ Import</button>
+      <input type="file" id="importfile" accept=".json" hidden>
     </div>
-    <p class="note">Plans save in this browser. Export → Import moves them between phone and PC.</p>
+    <div class="bar" id="assfilter"></div>
+    <p class="note">Board saves in this browser. Export the file → send to your editor → he Imports it.</p>
     <div class="board" id="board"></div>
   </section>
 
   <section id="tab-prep" hidden>
-    <p class="note">Pick a story (📝 on news cards) or paste a link, then copy the prompt
-       into your <b style="color:var(--text)">Claude app</b> — Claude reads the link and
-       writes your full script kit.</p>
-    <div class="addrow">
-      <input id="prepurl" style="flex:1;min-width:220px" placeholder="https://… story link">
-      <input id="preptitle" style="width:240px" placeholder="title (optional)">
-      <button class="btn" onclick="buildPrep()">Build prompt</button>
-    </div>
-    <div id="prepout" hidden>
-      <div class="panel">
-        <h3>Prompt for Claude
-          <button class="ghost" style="padding:5px 14px;font-size:12px" onclick="copyPrompt()">📋 Copy</button>
-          <span id="copyok" class="copied"></span></h3>
-        <textarea id="promptbox" readonly></textarea>
+    <div class="panel">
+      <h3>🎬 Script &amp; Post generator</h3>
+      <p class="sub">Fill the story, press a button — the complete prompt is copied. Paste it in your Claude app, paste the result back into your ticket notes.</p>
+      <div class="genrow">
+        <input id="preptitle" style="flex:1;min-width:200px" placeholder="Story / video topic">
+        <input id="prepurl" style="flex:1;min-width:200px" placeholder="https://… source link">
       </div>
+      <div class="genrow">
+        <input id="prepsum" style="flex:1;min-width:200px" placeholder="Key point in one line (optional — Claude reads the link anyway)">
+        <select id="prepdur">
+          <option value="60">Short: 60 sec</option>
+          <option value="45">Short: 45 sec</option>
+          <option value="75">Short: 75 sec</option>
+          <option value="120">Long-short: 2 min (rare big story)</option>
+        </select>
+      </div>
+      <div class="genrow">
+        <button class="btn" onclick="genPrompt('shortScript')">🎬 Short Script</button>
+        <button class="btn" onclick="genPrompt('longScript')">📺 Long Script</button>
+        <button class="btn" onclick="genPrompt('postPack')">📦 Post Pack</button>
+        <span id="copyok" class="copied"></span>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>💬 X engagement post</h3>
+      <p class="sub">Reply-driving posts with real value. 3–4 per week, mixed with news posts. Each button copies a ready prompt.</p>
+      <div class="genrow">
+        <input id="xtopic" style="flex:1;min-width:220px" placeholder="Topic (default: AI aur rozmarra zindagi)">
+      </div>
+      <div class="genrow">
+        <button class="ghost" onclick="genX('promptShare')">🎁 Prompt-share</button>
+        <button class="ghost" onclick="genX('testAndTell')">⚔️ Test &amp; tell</button>
+        <button class="ghost" onclick="genX('debateLocal')">🗣️ Local debate</button>
+        <button class="ghost" onclick="genX('fillBlank')">✏️ Fill-the-blank</button>
+      </div>
+    </div>
+    <div class="panel" id="prepout" hidden>
+      <h3>Generated prompt <button class="ghost" style="padding:5px 14px;font-size:12px" onclick="copyPrompt()">📋 Copy again</button></h3>
+      <textarea id="promptbox" readonly></textarea>
     </div>
   </section>
 
@@ -270,7 +308,7 @@ PAGE = r"""<!doctype html>
         </ol>
         <div id="yt-err" class="err"></div>
         <input id="yt-key" style="width:100%;margin-bottom:10px" placeholder="API key (AIza…)">
-        <input id="yt-handle" style="width:100%;margin-bottom:12px" placeholder="Channel handle, e.g. @yourchannel">
+        <input id="yt-handle" style="width:100%;margin-bottom:12px" placeholder="Channel handle, e.g. @aixahmad">
         <button class="btn" onclick="ytConnect()">Connect channel</button>
       </div>
     </div>
@@ -288,7 +326,7 @@ PAGE = r"""<!doctype html>
       <div style="overflow-x:auto"><table id="yt-videos"></table></div>
       <h2 class="sec">📱 Other platforms <span style="color:var(--faint);font-size:11px">(enter weekly by hand)</span></h2>
       <div class="addrow">
-        <select id="soc-p"><option>TikTok</option><option>Instagram</option><option>Facebook</option></select>
+        <select id="soc-p"><option>TikTok</option><option>Instagram</option><option>Facebook</option><option>X</option><option>WhatsApp</option><option>LinkedIn</option></select>
         <input id="soc-f" type="number" placeholder="followers" style="width:120px">
         <input id="soc-v" type="number" placeholder="views this week" style="width:150px">
         <button class="btn" onclick="socSave()">Save</button>
@@ -299,16 +337,35 @@ PAGE = r"""<!doctype html>
 </div>
 <div class="toast" id="toast"></div>
 
+<script src="templates.js"></script>
 <script>
 const PILLARS = __PILLARS__;
 const ITEMS = __ITEMS__;
 const TRENDS = __TRENDS__;
 const PAGE = 60;
-const STAGES = [["idea","💡 Idea"],["script","✍️ Script"],["record","🎥 Record"],
-  ["edit","✂️ Edit"],["uploaded","⬆️ Uploaded"],["published","✅ Published"]];
-let pillar = 0, hideDone = false, hotOnly = false, topMode = false, q = "", shown = PAGE;
+const STATUSES = [["idea","💡 Idea"],["script","✍️ Script"],["filming","🎥 Filming"],
+  ["editing","✂️ Editing"],["posted","✅ Posted"]];
+const PLATFORMS = [["yt","YT long"],["shorts","Shorts"],["tiktok","TikTok"],["ig","IG Reels"],
+  ["fb","FB Reels"],["x","X"],["wa","WhatsApp"],["li","LinkedIn"]];
+let pillar = 0, hideDone = false, hotOnly = false, mode = "worthy", q = "", shown = PAGE;
+let assFilter = "All";
 const doneSet = new Set(JSON.parse(localStorage.getItem("done") || "[]"));
 let plans = JSON.parse(localStorage.getItem("plans") || "[]");
+
+/* migrate old planner cards to ticket format */
+if (localStorage.getItem("plans_v") !== "2") {
+  const map = { record: "filming", edit: "editing", uploaded: "posted", published: "posted" };
+  plans = plans.map(p => ({
+    id: p.id, title: p.title, url: p.url || "", notes: p.notes || "",
+    status: p.status || map[p.stage] || p.stage || "idea",
+    assignee: p.assignee || "Ahmad",
+    platforms: p.platforms || (p.platform === "long" ? ["yt"] :
+               p.platform === "short" ? ["shorts"] : ["yt", "shorts"]),
+    due: p.due || p.date || "",
+  }));
+  localStorage.setItem("plans_v", "2");
+  localStorage.setItem("plans", JSON.stringify(plans));
+}
 
 function toast(msg) {
   const t = document.getElementById("toast");
@@ -317,11 +374,12 @@ function toast(msg) {
 }
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); }
 function switchTab(name) {
-  ["news","plan","prep","stats"].forEach(n => {
+  ["news","research","plan","prep","stats"].forEach(n => {
     document.getElementById("tab-" + n).hidden = n !== name;
     document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
   });
   if (name === "plan") renderBoard();
+  if (name === "research") renderResearch();
   if (name === "stats") ytInit();
 }
 function ago(iso) {
@@ -334,39 +392,41 @@ function ago(iso) {
 function esc(t) { const d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
 function fmt(n) { return (+n).toLocaleString("en-US"); }
 
-/* ---------------- News ---------------- */
+/* ---------------- News (audience-ranked) ---------------- */
 function filtered() {
   const needle = q.toLowerCase();
   let items = ITEMS.filter(it =>
+    it.p !== 9 &&
     (!pillar || it.p === pillar) &&
     (!hideDone || !doneSet.has(it.u)) &&
     (!hotOnly || (it.l && it.l.length)) &&
-    (!topMode || it.sc >= 5) &&
     (!needle || it.t.toLowerCase().includes(needle)));
-  if (topMode) items = items.slice().sort((a, b) => b.sc - a.sc);
+  if (mode === "worthy") items = items.slice().sort((a, b) => b.sc - a.sc);
   return items;
 }
 function render() {
   const items = filtered();
   document.getElementById("count").textContent =
     items.length + " stories" + (q ? ' for "' + q + '"' : "") +
-    (pillar ? " in " + PILLARS[pillar] : "");
+    (pillar ? " in " + PILLARS[pillar] : "") +
+    (mode === "worthy" ? " · ranked by: should you film this today?" : " · newest first");
   const list = document.getElementById("list");
   list.innerHTML = items.length ? "" : '<div class="empty">No stories found.</div>';
   items.slice(0, shown).forEach(it => {
     const d = document.createElement("div");
     d.className = "card" + (doneSet.has(it.u) ? " done" : "");
-    let extra = "", hot = "";
+    let extra = "", hot = "", local = "";
     if (it.l && it.l.length) {
       hot = '<span class="pill hot">🔥 ' + (it.l.length + 1) + " sources</span>";
       extra = '<div class="extra">also covered by: ' + it.l.map(x =>
         '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.source) + "</a>").join("") + "</div>";
     }
-    const why = (topMode && it.r && it.r.length)
-      ? '<div class="why">⭐ score ' + it.sc + " — " + esc(it.r.join(" · ")) + "</div>" : "";
+    if (it.lo) local = '<span class="pill local">🇵🇰🇮🇳 Local angle</span>';
+    const why = (mode === "worthy" && it.sc >= 6 && it.r && it.r.length)
+      ? '<div class="why">⭐ ' + it.sc + " — " + esc(it.r.join(" · ")) + "</div>" : "";
     d.innerHTML =
       '<h2><a href="' + esc(it.u) + '" target="_blank" rel="noopener">' + esc(it.t) + "</a></h2>" +
-      '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + hot +
+      '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + local + hot +
       "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
       '<span class="actions">' +
       '<button class="plan-btn">🎬 plan</button>' +
@@ -380,9 +440,10 @@ function render() {
     };
     d.querySelector(".plan-btn").onclick = () => addPlan(it.t, it.u);
     d.querySelector(".prep-btn").onclick = () => {
-      document.getElementById("prepurl").value = it.u;
       document.getElementById("preptitle").value = it.t;
-      switchTab("prep"); buildPrep();
+      document.getElementById("prepurl").value = it.u;
+      switchTab("prep");
+      toast("Story loaded — pick a button 📝");
     };
     list.appendChild(d);
   });
@@ -391,17 +452,22 @@ function render() {
 function bar() {
   const el = document.getElementById("pillars");
   el.innerHTML = "";
-  const top = document.createElement("button");
-  top.innerHTML = "⭐ Top Picks";
-  top.className = "gold" + (topMode ? " active" : "");
-  top.onclick = () => { topMode = !topMode; shown = PAGE; bar(); render(); };
-  el.appendChild(top);
-  const defs = [[0, "All"]].concat(Object.entries(PILLARS).map(([k, v]) => [+k, v]));
-  defs.forEach(([num, name]) => {
+  const worthy = document.createElement("button");
+  worthy.innerHTML = "🎯 Video-worthy";
+  worthy.className = "gold" + (mode === "worthy" ? " active" : "");
+  worthy.onclick = () => { mode = "worthy"; shown = PAGE; bar(); render(); };
+  el.appendChild(worthy);
+  const latest = document.createElement("button");
+  latest.innerHTML = "🕒 Latest";
+  latest.className = mode === "latest" ? "active" : "";
+  latest.onclick = () => { mode = "latest"; shown = PAGE; bar(); render(); };
+  el.appendChild(latest);
+  Object.entries(PILLARS).forEach(([k, v]) => {
+    if (+k === 9) return;  // research lives in its own tab
     const b = document.createElement("button");
-    b.textContent = name;
-    b.className = num === pillar ? "active" : "";
-    b.onclick = () => { pillar = num; shown = PAGE; bar(); render(); };
+    b.textContent = v;
+    b.className = +k === pillar ? "active" : "";
+    b.onclick = () => { pillar = pillar === +k ? 0 : +k; shown = PAGE; bar(); render(); };
     el.appendChild(b);
   });
   const hot = document.createElement("button");
@@ -430,12 +496,30 @@ function trendsBar() {
   });
 }
 
-/* ---------------- Planner ---------------- */
+/* ---------------- Research tab ---------------- */
+let researchDone = false;
+function renderResearch() {
+  if (researchDone) return;
+  researchDone = true;
+  const el = document.getElementById("rlist");
+  const papers = ITEMS.filter(it => it.p === 9);
+  el.innerHTML = papers.length ? "" : '<div class="empty">No papers yet.</div>';
+  papers.forEach(it => {
+    const d = document.createElement("div");
+    d.className = "card";
+    d.innerHTML = '<h2><a href="' + esc(it.u) + '" target="_blank" rel="noopener">' +
+      esc(it.t) + '</a></h2><div class="meta"><span>' + esc(it.s) +
+      "</span><span>" + ago(it.d) + "</span></div>";
+    el.appendChild(d);
+  });
+}
+
+/* ---------------- Ticket board ---------------- */
 function addPlan(title, url) {
   plans.unshift({ id: Date.now(), title, url: url || "", notes: "",
-                  platform: "both", date: "", stage: "idea" });
+    status: "idea", assignee: "Ahmad", platforms: ["yt", "shorts"], due: "" });
   savePlans();
-  toast("Added to Planner 🎬");
+  toast("Ticket created 🎬");
 }
 function addIdea() {
   const inp = document.getElementById("newidea");
@@ -444,13 +528,26 @@ function addIdea() {
   inp.value = "";
   renderBoard();
 }
+function assBar() {
+  const el = document.getElementById("assfilter");
+  el.innerHTML = "";
+  ["All", "Ahmad", "Editor"].forEach(a => {
+    const b = document.createElement("button");
+    b.textContent = a === "All" ? "All tickets" : (a === "Ahmad" ? "🧑 Ahmad" : "✂️ Editor");
+    b.className = assFilter === a ? "active" : "";
+    b.onclick = () => { assFilter = a; renderBoard(); };
+    el.appendChild(b);
+  });
+}
 function renderBoard() {
+  assBar();
   const board = document.getElementById("board");
   board.innerHTML = "";
-  STAGES.forEach(([key, label], si) => {
+  STATUSES.forEach(([key, label], si) => {
     const col = document.createElement("div");
     col.className = "col";
-    const cards = plans.filter(p => p.stage === key);
+    const cards = plans.filter(p => p.status === key &&
+      (assFilter === "All" || p.assignee === assFilter));
     col.innerHTML = "<h3>" + label + ' <span class="n">' + cards.length + "</span></h3>";
     cards.forEach(p => {
       const c = document.createElement("div");
@@ -458,31 +555,42 @@ function renderBoard() {
       c.innerHTML =
         '<div class="t">' + esc(p.title) + "</div>" +
         (p.url ? '<a href="' + esc(p.url) + '" target="_blank">source link</a>' : "") +
-        '<div class="row"><select class="plat">' +
-        ["long","short","both"].map(v =>
-          '<option value="' + v + '"' + (p.platform === v ? " selected" : "") + ">" +
-          v[0].toUpperCase() + v.slice(1) + "</option>").join("") +
-        '</select><input type="date" class="pdate" value="' + esc(p.date || "") + '"></div>' +
-        '<textarea class="pnotes" placeholder="notes…">' + esc(p.notes || "") + "</textarea>" +
+        '<div class="row">' +
+        '<select class="ass-sel ass ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
+        ["Ahmad", "Editor"].map(a => '<option' + (p.assignee === a ? " selected" : "") + ">" + a + "</option>").join("") +
+        '</select><input type="date" class="pdate" value="' + esc(p.due || "") + '"></div>' +
+        '<div class="plats">' + PLATFORMS.map(([k, name]) =>
+          '<label class="' + (p.platforms.includes(k) ? "on" : "") + '" data-k="' + k + '">' + name + "</label>").join("") + "</div>" +
+        '<textarea class="pnotes" placeholder="notes / script paste…">' + esc(p.notes || "") + "</textarea>" +
         '<div class="row">' +
         (si > 0 ? '<button class="mv-prev">←</button>' : "") +
-        (si < STAGES.length - 1 ? '<button class="mv-next">→</button>' : "") +
+        (si < STATUSES.length - 1 ? '<button class="mv-next">→</button>' : "") +
         '<button class="do-prep" style="color:var(--gold)">📝 prep</button>' +
         '<button class="del">✕</button></div>';
-      c.querySelector(".plat").onchange = e => { p.platform = e.target.value; savePlans(); };
-      c.querySelector(".pdate").onchange = e => { p.date = e.target.value; savePlans(); };
+      c.querySelector(".ass-sel").onchange = e => { p.assignee = e.target.value; savePlans(); renderBoard(); };
+      c.querySelector(".pdate").onchange = e => { p.due = e.target.value; savePlans(); };
       c.querySelector(".pnotes").onchange = e => { p.notes = e.target.value; savePlans(); };
+      c.querySelectorAll(".plats label").forEach(lab => {
+        lab.onclick = () => {
+          const k = lab.dataset.k;
+          p.platforms = p.platforms.includes(k)
+            ? p.platforms.filter(x => x !== k) : p.platforms.concat(k);
+          savePlans();
+          lab.classList.toggle("on");
+        };
+      });
       const prev = c.querySelector(".mv-prev");
-      if (prev) prev.onclick = () => { p.stage = STAGES[si - 1][0]; savePlans(); renderBoard(); };
+      if (prev) prev.onclick = () => { p.status = STATUSES[si - 1][0]; savePlans(); renderBoard(); };
       const next = c.querySelector(".mv-next");
-      if (next) next.onclick = () => { p.stage = STAGES[si + 1][0]; savePlans(); renderBoard(); };
+      if (next) next.onclick = () => { p.status = STATUSES[si + 1][0]; savePlans(); renderBoard(); };
       c.querySelector(".do-prep").onclick = () => {
-        document.getElementById("prepurl").value = p.url;
         document.getElementById("preptitle").value = p.title;
-        switchTab("prep"); buildPrep();
+        document.getElementById("prepurl").value = p.url;
+        switchTab("prep");
+        toast("Ticket loaded — pick a button 📝");
       };
       c.querySelector(".del").onclick = () => {
-        if (confirm("Delete this card?")) {
+        if (confirm("Delete this ticket?")) {
           plans = plans.filter(x => x.id !== p.id); savePlans(); renderBoard();
         }
       };
@@ -492,81 +600,84 @@ function renderBoard() {
   });
 }
 function exportPlans() {
-  navigator.clipboard.writeText(JSON.stringify(plans))
-    .then(() => toast("Plans copied — paste in Import on the other device"));
+  const blob = new Blob([JSON.stringify(plans, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "aixahmad-board.json";
+  a.click();
+  toast("Board file downloaded — send it to your editor");
 }
-function importPlans() {
-  const txt = prompt("Paste the exported plans text here:");
-  if (!txt) return;
-  try {
-    const arr = JSON.parse(txt);
-    if (Array.isArray(arr)) { plans = arr; savePlans(); renderBoard(); toast("Plans imported"); }
-  } catch (e) { alert("That text is not valid plans data."); }
-}
+document.getElementById("importfile").addEventListener("change", e => {
+  const f = e.target.files[0];
+  if (!f) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const arr = JSON.parse(reader.result);
+      if (Array.isArray(arr)) { plans = arr; savePlans(); renderBoard(); toast("Board imported ✓"); }
+    } catch (err) { alert("That file is not a valid board export."); }
+  };
+  reader.readAsText(f);
+});
 
-/* ---------------- Prep ---------------- */
-const COMMON = new Set(["the","and","for","with","that","this","from","what",
+/* ---------------- Prep: clipboard prompts ---------------- */
+const COMMONW = new Set(["the","and","for","with","that","this","from","what",
   "how","why","new","its","has","have","are","was","will","can","you","your",
   "says","after","about","over","into","more","most"]);
-function words(t) {
-  return new Set((t.toLowerCase().match(/[a-z0-9]{3,}/g) || []).filter(w => !COMMON.has(w)));
+function wordsOf(t) {
+  return new Set((t.toLowerCase().match(/[a-z0-9]{3,}/g) || []).filter(w => !COMMONW.has(w)));
 }
-function buildPrep() {
-  const url = document.getElementById("prepurl").value.trim();
-  const title = document.getElementById("preptitle").value.trim() || url;
-  if (!url && !title) { toast("Paste a link first"); return; }
-  const tw = words(title);
-  const related = [];
+function relatedBlock(title, url) {
+  const tw = wordsOf(title);
+  const rel = [];
   for (const it of ITEMS) {
     if (it.u === url) continue;
     let common = 0;
-    for (const w of words(it.t)) if (tw.has(w)) common++;
-    if (common >= 2) related.push([common, it]);
+    for (const w of wordsOf(it.t)) if (tw.has(w)) common++;
+    if (common >= 2) rel.push([common, it]);
   }
-  related.sort((a, b) => b[0] - a[0]);
-  const rel = related.slice(0, 6).map(r => "- " + r[1].t + " (" + r[1].s + ") " + r[1].u);
-  const prompt = [
-"You are my video scriptwriter for my AI news YouTube channel. My audience is Pakistan and India - simple people who love AI news in easy Roman Urdu/Hindi.",
-"",
-"THE STORY: " + title,
-"SOURCE LINK: " + url,
-"",
-"FIRST: open and read the source link above.",
-"",
-"RELATED COVERAGE (read if useful, for extra angles):",
-rel.length ? rel.join("\n") : "(none)",
-"",
-"CREATE FOR ME:",
-"",
-"1. LONG VIDEO SCRIPT (5-8 minutes, Roman Urdu/Hindi):",
-"   - Hook in first 10 seconds (a question or shocking fact)",
-"   - Explain the story simply, like talking to a friend",
-"   - Why it matters for normal people in Pakistan/India",
-"   - My opinion section (leave a placeholder for me)",
-"   - Ending with subscribe call-to-action",
-"",
-"2. SHORT/REEL SCRIPT (45-60 seconds, Roman Urdu/Hindi):",
-"   - Hook -> 3 punchy facts -> strong ending line",
-"",
-"3. FIVE TITLE OPTIONS (mix Roman Urdu + English keywords people search)",
-"",
-"4. YOUTUBE DESCRIPTION (2-3 lines + hashtags + 15 SEO tags)",
-"",
-"5. THREE THUMBNAIL TEXT IDEAS (max 4 words each, curiosity-making)",
-"",
-"Keep all language SIMPLE. Avoid difficult English words. Energy high."].join("\n");
+  rel.sort((a, b) => b[0] - a[0]);
+  if (!rel.length) return "";
+  return "\n\nEXTRA SOURCES (optional, for more angles):\n" +
+    rel.slice(0, 4).map(r => "- " + r[1].t + " — " + r[1].u).join("\n");
+}
+function fillTemplate(tpl, vars) {
+  return tpl.replace(/\{(\w+)\}/g, (m, k) => (vars[k] !== undefined ? vars[k] : m));
+}
+function showAndCopy(prompt, okMsg) {
   document.getElementById("promptbox").value = prompt;
   document.getElementById("prepout").hidden = false;
+  navigator.clipboard.writeText(prompt)
+    .then(() => { toast(okMsg); document.getElementById("copyok").textContent = "✓ copied"; });
+}
+function genPrompt(kind) {
+  const title = document.getElementById("preptitle").value.trim();
+  const url = document.getElementById("prepurl").value.trim();
+  if (!title && !url) { toast("Add a story title or link first"); return; }
+  const vars = {
+    title: title || url,
+    url: url || "(no link — explain from the summary)",
+    summary: document.getElementById("prepsum").value.trim() || "(read the link for details)",
+    duration: document.getElementById("prepdur").value,
+  };
+  let prompt = fillTemplate(window.TEMPLATES[kind], vars);
+  if (kind !== "postPack") prompt += relatedBlock(vars.title, url);
+  showAndCopy(prompt, "Prompt copied — paste in Claude 🤖");
+}
+function genX(format) {
+  const topic = document.getElementById("xtopic").value.trim() ||
+    "AI aur rozmarra zindagi (daily life, jobs, paisa)";
+  const prompt = fillTemplate(window.TEMPLATES.xFormats[format], { topic });
+  showAndCopy(prompt, "X post prompt copied 💬");
 }
 function copyPrompt() {
   navigator.clipboard.writeText(document.getElementById("promptbox").value)
-    .then(() => document.getElementById("copyok").textContent = "copied! paste it in Claude");
+    .then(() => toast("Copied again 📋"));
 }
 
-/* ---------------- Analytics (browser -> YouTube API directly) ---------------- */
+/* ---------------- Analytics ---------------- */
 const YTAPI = "https://www.googleapis.com/youtube/v3";
 let ytLoaded = false;
-
 async function ytGet(path, params) {
   const u = new URL(YTAPI + "/" + path);
   Object.entries(params).forEach(([k, v]) => u.searchParams.set(k, v));
@@ -618,8 +729,6 @@ async function ytRefresh() {
     const st = ch.statistics;
     const subs = +st.subscriberCount || 0, views = +st.viewCount || 0, vidn = +st.videoCount || 0;
     document.getElementById("yt-title").textContent = ch.snippet.title;
-
-    // daily snapshot in localStorage -> growth since first day
     const snaps = JSON.parse(localStorage.getItem("yt_snaps") || "{}");
     const today = new Date().toISOString().slice(0, 10);
     snaps[today] = { subs, views };
@@ -628,8 +737,6 @@ async function ytRefresh() {
     const growth = firstDay !== today
       ? { subs: subs - snaps[firstDay].subs, views: views - snaps[firstDay].views, since: firstDay }
       : null;
-
-    // recent videos
     let videos = [];
     const pl = ch.contentDetails.relatedPlaylists.uploads;
     const items = (await ytGet("playlistItems",
@@ -646,8 +753,6 @@ async function ytRefresh() {
       videos.forEach(v => v.short = v.secs <= 65);
       videos.sort((a, b) => b.published.localeCompare(a.published));
     }
-
-    // consistency
     const perWeek = Array(8).fill(0), wd = {};
     const now = Date.now();
     videos.forEach(v => {
@@ -658,14 +763,11 @@ async function ytRefresh() {
       (wd[day] = wd[day] || []).push(v.views);
     });
     const daysSince = videos.length ? ((now - new Date(videos[0].published).getTime()) / 86400000) | 0 : null;
-    let bestDay = "";
-    let bestAvg = -1;
+    let bestDay = "", bestAvg = -1;
     for (const [d, arr] of Object.entries(wd)) {
       const avg = arr.reduce((a, b) => a + b, 0) / arr.length;
       if (avg > bestAvg) { bestAvg = avg; bestDay = d; }
     }
-
-    // render stats
     const sEl = document.getElementById("yt-stats");
     sEl.innerHTML = "";
     [[fmt(subs), "subscribers", growth ? "+" + fmt(growth.subs) + " since " + growth.since : ""],
@@ -675,8 +777,6 @@ async function ytRefresh() {
       sEl.innerHTML += '<div class="stat"><div class="n">' + n + '</div><div class="l">' +
         l + "</div>" + (g ? '<div class="g">' + g + "</div>" : "") + "</div>";
     });
-
-    // insights
     const tips = [];
     if (!videos.length) tips.push("No videos yet — upload your first one and stats will appear here!");
     else {
@@ -697,21 +797,16 @@ async function ytRefresh() {
     }
     document.getElementById("yt-insights").innerHTML =
       tips.map(t => '<div class="insight">' + esc(t) + "</div>").join("");
-
-    // weeks chart
     document.getElementById("yt-weeks").innerHTML =
       perWeek.map(n => '<div style="height:' + (6 + n * 14) + 'px" title="' + n + ' uploads"></div>').join("");
     document.getElementById("yt-weeks-l").innerHTML =
       perWeek.map(n => "<span>" + n + "</span>").join("");
-
-    // videos table
     document.getElementById("yt-videos").innerHTML =
       "<tr><th>Video</th><th>Type</th><th>Views</th><th>Likes</th><th>When</th></tr>" +
       videos.map(v => "<tr><td><a href='" + v.url + "' target='_blank'>" +
         esc(v.title.slice(0, 65)) + "</a></td><td>" + (v.short ? "Short" : "Long") +
         "</td><td>" + fmt(v.views) + "</td><td>" + fmt(v.likes) + "</td><td>" +
         v.published.slice(0, 10) + "</td></tr>").join("");
-
     socRender();
     ytLoaded = true;
   } catch (e) {
@@ -757,21 +852,27 @@ def generate():
 
     trends = scoring.compute_trends(conn)
     chips = [t for t in trends if t["status"] in ("new", "rising")][:10]
-    score_map = {s["id"]: s for s in scoring.score_items(conn, trends)}
+    hot_terms = scoring.rising_terms(trends)[:15]
     conn.close()
 
+    now = datetime.now(timezone.utc)
     items = []
     for r in rows:
-        s = score_map.get(r["id"])
+        links = json.loads(r["links"] or "[]")
+        when = r["published"] or r["fetched"]
+        try:
+            age_h = (now - datetime.fromisoformat(when)).total_seconds() / 3600
+        except ValueError:
+            age_h = 999
+        score, reasons, local = scoring.audience_score(
+            r["title"], r["pillar"], len(links), age_h, hot_terms)
         items.append({
             "t": r["title"], "u": r["url"], "s": r["source"], "p": r["pillar"],
-            "d": r["published"] or r["fetched"],
-            "l": json.loads(r["links"] or "[]"),
-            "sc": s["score"] if s else 0,
-            "r": s["reasons"] if s else [],
+            "d": when, "l": links,
+            "sc": score, "r": reasons, "lo": local,
         })
 
-    updated = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
+    updated = now.strftime("%d %b %Y, %H:%M UTC")
     html = (PAGE
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))

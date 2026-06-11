@@ -150,6 +150,35 @@ FEEDS = [
     # Hugging Face trending papers are fetched separately in fetcher.py (no RSS)
 ]
 
+# ---------------- Audience relevance (AI x Ahmad) ----------------
+# The audience: everyday people in Pakistan/India. They care about how AI
+# changes THEIR life, jobs, income, daily tools - NOT model internals.
+
+# Boost: consumer-facing news people can use or try today
+CONSUMER_KEYWORDS = [
+    "free", "app", "apps", "feature", "features", "chatgpt", "whatsapp",
+    "google", "android", "iphone", "launch", "launches", "release", "tool",
+    "tools", "voice", "photo", "photos", "video", "videos", "image", "images",
+    "now available", "update", "price", "cheaper", "viral", "demo", "try",
+    "students", "everyone", "your phone", "translate",
+]
+
+# Boost hard + badge: Pakistan/India local angle
+LOCAL_KEYWORDS = [
+    "pakistan", "pakistani", "india", "indian", "urdu", "hindi", "rupee",
+    "rupees", "freelance", "freelancer", "freelancers", "freelancing",
+    "fiverr", "upwork", "jobs", "job market", "karachi", "lahore", "islamabad",
+    "delhi", "mumbai", "bangalore", "south asia", "desi",
+]
+
+# Demote: technical/research talk the audience does not care about
+RESEARCHY_KEYWORDS = [
+    "paper", "papers", "arxiv", "benchmark", "benchmarks", "sota",
+    "state-of-the-art", "training run", "parameters", "weights", "dataset",
+    "datasets", "fine-tuning", "finetuning", "inference", "gpu", "tpu",
+    "rlhf", "tokenizer", "quantization",
+]
+
 # ---------------- Keyword filter ----------------
 # An item from an UNTRUSTED source must contain at least one of these
 # words/phrases in its title to be saved. (Word-boundary matching, so
