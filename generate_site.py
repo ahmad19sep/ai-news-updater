@@ -200,6 +200,18 @@ PAGE = r"""<!doctype html>
   .err { color:var(--red); font-size:13px; margin:8px 0; }
   h2.sec { font-size:15px; font-weight:700; margin:26px 0 12px; letter-spacing:-.01em; }
 
+  #lock { position:fixed; inset:0; z-index:200; background:var(--bg);
+          display:flex; align-items:center; justify-content:center; }
+  .lockbox { background:var(--surface); border:1px solid var(--line);
+          border-radius:18px; padding:36px 34px; width:min(360px, 90vw);
+          text-align:center; box-shadow:var(--shadow); }
+  .lockbox .orb { width:14px; height:14px; border-radius:50%; background:var(--grad);
+          box-shadow:0 0 18px rgba(34,211,238,.8); margin:0 auto 14px;
+          animation:pulse 2.4s infinite; }
+  .lockbox h2 { font-size:17px; margin:0 0 4px; }
+  .lockbox p { color:var(--faint); font-size:12.5px; margin:0 0 18px; }
+  .lockbox input { width:100%; text-align:center; letter-spacing:.08em;
+          margin-bottom:12px; }
   .toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%) translateY(8px);
           background:var(--grad); color:#fff; padding:11px 26px; border-radius:999px;
           font:600 13px Inter; opacity:0; transition:.25s; pointer-events:none;
@@ -212,15 +224,25 @@ PAGE = r"""<!doctype html>
 </style>
 </head>
 <body>
+<div id="lock" hidden>
+  <div class="lockbox">
+    <div class="orb"></div>
+    <h2>AI x Ahmad — Radar Studio</h2>
+    <p>Private studio. Enter your access code.</p>
+    <div class="err" id="lockerr"></div>
+    <input id="lockcode" type="password" placeholder="access code" autocomplete="off">
+    <button class="btn" style="width:100%" onclick="tryUnlock()">Enter</button>
+  </div>
+</div>
 <header>
   <div class="hrow">
     <div class="logo"><span class="orb"></span> AI x Ahmad <small>RADAR STUDIO</small></div>
     <nav class="tabs">
       <button id="tabbtn-news" class="active" onclick="switchTab('news')">News</button>
+      <button id="tabbtn-trends" onclick="switchTab('trends')">Trends</button>
       <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Board</button>
       <button id="tabbtn-prep" onclick="switchTab('prep')">Prep</button>
-      <button id="tabbtn-stats" onclick="switchTab('stats')">Analytics</button>
     </nav>
     <div class="updated">AI Ki Duniya, Simple Urdu Mein · @aixahmad · updated __UPDATED__ · refreshes hourly</div>
   </div>
@@ -228,12 +250,17 @@ PAGE = r"""<!doctype html>
 <div class="wrap">
 
   <section id="tab-news">
-    <div class="trends" id="trends"></div>
+    <div class="search" style="margin-top:18px"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
     <div class="bar" id="pillars"></div>
-    <div class="search"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
     <div class="count" id="count"></div>
     <div id="list"></div>
     <button class="more" id="more" style="display:none">Show more</button>
+  </section>
+
+  <section id="tab-trends" hidden>
+    <p class="note">🚀 Which models and tools are rising this week vs last week — your early-warning
+       radar for the next big thing. Tap any chip to see its stories.</p>
+    <div class="trends" id="trends"></div>
   </section>
 
   <section id="tab-research" hidden>
@@ -297,48 +324,34 @@ PAGE = r"""<!doctype html>
     </div>
   </section>
 
-  <section id="tab-stats" hidden>
-    <div id="yt-setup" hidden>
-      <div class="panel" style="max-width:560px">
-        <h3>Connect your YouTube channel (one time, free)</h3>
-        <ol style="font-size:13px;line-height:2;color:var(--dim)">
-          <li>Enable <a target="_blank" href="https://console.cloud.google.com/apis/library/youtube.googleapis.com">YouTube Data API v3</a></li>
-          <li>Create an <a target="_blank" href="https://console.cloud.google.com/apis/credentials">API key</a> and copy it</li>
-          <li>Paste below — the key is saved <b>only in this browser</b>, never uploaded</li>
-        </ol>
-        <div id="yt-err" class="err"></div>
-        <input id="yt-key" style="width:100%;margin-bottom:10px" placeholder="API key (AIza…)">
-        <input id="yt-handle" style="width:100%;margin-bottom:12px" placeholder="Channel handle, e.g. @aixahmad">
-        <button class="btn" onclick="ytConnect()">Connect channel</button>
-      </div>
-    </div>
-    <div id="yt-dash" hidden>
-      <p class="note">Channel: <b id="yt-title" style="color:var(--text)"></b>
-        <a href="#" onclick="ytReset();return false" style="font-size:12px;margin-left:10px">change</a>
-        <span id="yt-err2" class="err"></span></p>
-      <div class="stats" id="yt-stats"></div>
-      <h2 class="sec">💡 Insights</h2>
-      <div id="yt-insights"></div>
-      <h2 class="sec">📅 Uploads per week <span style="color:var(--faint);font-size:11px">(newest first)</span></h2>
-      <div class="wk" id="yt-weeks"></div>
-      <div class="wk-l" id="yt-weeks-l"></div>
-      <h2 class="sec">🎬 Recent videos</h2>
-      <div style="overflow-x:auto"><table id="yt-videos"></table></div>
-      <h2 class="sec">📱 Other platforms <span style="color:var(--faint);font-size:11px">(enter weekly by hand)</span></h2>
-      <div class="addrow">
-        <select id="soc-p"><option>TikTok</option><option>Instagram</option><option>Facebook</option><option>X</option><option>WhatsApp</option><option>LinkedIn</option></select>
-        <input id="soc-f" type="number" placeholder="followers" style="width:120px">
-        <input id="soc-v" type="number" placeholder="views this week" style="width:150px">
-        <button class="btn" onclick="socSave()">Save</button>
-      </div>
-      <div style="overflow-x:auto"><table id="soc-table"></table></div>
-    </div>
-  </section>
 </div>
 <div class="toast" id="toast"></div>
 
 <script src="templates.js"></script>
 <script>
+/* ---- access gate (light protection - keeps casual visitors out) ---- */
+const LOCKHASH = "__LOCKHASH__";
+async function sha256(t) {
+  const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t));
+  return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join("");
+}
+async function tryUnlock() {
+  const code = document.getElementById("lockcode").value.trim();
+  if (await sha256(code) === LOCKHASH) {
+    localStorage.setItem("unlock", LOCKHASH);
+    document.getElementById("lock").hidden = true;
+  } else {
+    document.getElementById("lockerr").textContent = "Wrong code - try again.";
+  }
+}
+if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) {
+  document.getElementById("lock").hidden = false;
+  setTimeout(() => {
+    document.getElementById("lockcode").addEventListener("keydown",
+      e => { if (e.key === "Enter") tryUnlock(); });
+  }, 0);
+}
+
 const PILLARS = __PILLARS__;
 const ITEMS = __ITEMS__;
 const TRENDS = __TRENDS__;
@@ -374,13 +387,12 @@ function toast(msg) {
 }
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); }
 function switchTab(name) {
-  ["news","research","plan","prep","stats"].forEach(n => {
+  ["news","trends","research","plan","prep"].forEach(n => {
     document.getElementById("tab-" + n).hidden = n !== name;
     document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
   });
   if (name === "plan") renderBoard();
   if (name === "research") renderResearch();
-  if (name === "stats") ytInit();
 }
 function ago(iso) {
   if (!iso) return "";
@@ -462,14 +474,14 @@ function bar() {
   latest.className = mode === "latest" ? "active" : "";
   latest.onclick = () => { mode = "latest"; shown = PAGE; bar(); render(); };
   el.appendChild(latest);
-  Object.entries(PILLARS).forEach(([k, v]) => {
-    if (+k === 9) return;  // research lives in its own tab
-    const b = document.createElement("button");
-    b.textContent = v;
-    b.className = +k === pillar ? "active" : "";
-    b.onclick = () => { pillar = pillar === +k ? 0 : +k; shown = PAGE; bar(); render(); };
-    el.appendChild(b);
-  });
+  // all 10 categories live in one compact dropdown - keeps the page clean
+  const sel = document.createElement("select");
+  sel.style.cssText = "padding:6px 12px;border-radius:999px;font-size:12.5px";
+  sel.innerHTML = '<option value="0">All categories</option>' +
+    Object.entries(PILLARS).filter(([k]) => +k !== 9).map(([k, v]) =>
+      '<option value="' + k + '"' + (+k === pillar ? " selected" : "") + ">" + v + "</option>").join("");
+  sel.onchange = e => { pillar = +e.target.value; shown = PAGE; render(); };
+  el.appendChild(sel);
   const hot = document.createElement("button");
   hot.innerHTML = "🔥 Hot";
   hot.className = hotOnly ? "active" : "";
@@ -490,7 +502,7 @@ function trendsBar() {
       " <small>" + t.now + (t.prev ? " (was " + t.prev + ")" : "") + "</small>";
     c.onclick = () => {
       q = t.display; document.getElementById("q").value = t.display;
-      shown = PAGE; render();
+      shown = PAGE; switchTab("news"); render();
     };
     el.appendChild(c);
   });
@@ -675,163 +687,6 @@ function copyPrompt() {
     .then(() => toast("Copied again 📋"));
 }
 
-/* ---------------- Analytics ---------------- */
-const YTAPI = "https://www.googleapis.com/youtube/v3";
-let ytLoaded = false;
-async function ytGet(path, params) {
-  const u = new URL(YTAPI + "/" + path);
-  Object.entries(params).forEach(([k, v]) => u.searchParams.set(k, v));
-  const r = await fetch(u);
-  const data = await r.json();
-  if (data.error) throw new Error(data.error.message || "YouTube API error");
-  return data;
-}
-function ytInit() {
-  const key = localStorage.getItem("yt_key"), cid = localStorage.getItem("yt_cid");
-  document.getElementById("yt-setup").hidden = !!(key && cid);
-  document.getElementById("yt-dash").hidden = !(key && cid);
-  if (key && cid && !ytLoaded) ytRefresh();
-}
-async function ytConnect() {
-  const key = document.getElementById("yt-key").value.trim();
-  const handle = document.getElementById("yt-handle").value.trim();
-  const err = document.getElementById("yt-err");
-  err.textContent = "";
-  try {
-    let cid = (handle.match(/UC[\w-]{22}/) || [])[0];
-    if (!cid) {
-      const name = (handle.match(/@([\w.-]+)/) || [null, handle])[1];
-      const data = await ytGet("channels", { part: "snippet", forHandle: "@" + name, key });
-      if (!data.items || !data.items.length) throw new Error('Channel "@' + name + '" not found - check the handle.');
-      cid = data.items[0].id;
-    }
-    localStorage.setItem("yt_key", key);
-    localStorage.setItem("yt_cid", cid);
-    ytLoaded = false;
-    ytInit();
-  } catch (e) { err.textContent = e.message; }
-}
-function ytReset() {
-  localStorage.removeItem("yt_key"); localStorage.removeItem("yt_cid");
-  ytLoaded = false; ytInit();
-}
-function parseDur(iso) {
-  const h = /(\d+)H/.exec(iso), m = /(\d+)M/.exec(iso), s = /(\d+)S/.exec(iso);
-  return (h ? +h[1] * 3600 : 0) + (m ? +m[1] * 60 : 0) + (s ? +s[1] : 0);
-}
-async function ytRefresh() {
-  const key = localStorage.getItem("yt_key"), cid = localStorage.getItem("yt_cid");
-  const err = document.getElementById("yt-err2");
-  err.textContent = "";
-  try {
-    const ch = (await ytGet("channels",
-      { part: "statistics,contentDetails,snippet", id: cid, key })).items[0];
-    const st = ch.statistics;
-    const subs = +st.subscriberCount || 0, views = +st.viewCount || 0, vidn = +st.videoCount || 0;
-    document.getElementById("yt-title").textContent = ch.snippet.title;
-    const snaps = JSON.parse(localStorage.getItem("yt_snaps") || "{}");
-    const today = new Date().toISOString().slice(0, 10);
-    snaps[today] = { subs, views };
-    localStorage.setItem("yt_snaps", JSON.stringify(snaps));
-    const firstDay = Object.keys(snaps).sort()[0];
-    const growth = firstDay !== today
-      ? { subs: subs - snaps[firstDay].subs, views: views - snaps[firstDay].views, since: firstDay }
-      : null;
-    let videos = [];
-    const pl = ch.contentDetails.relatedPlaylists.uploads;
-    const items = (await ytGet("playlistItems",
-      { part: "contentDetails", playlistId: pl, maxResults: 15, key })).items || [];
-    if (items.length) {
-      const ids = items.map(i => i.contentDetails.videoId).join(",");
-      videos = ((await ytGet("videos",
-        { part: "snippet,statistics,contentDetails", id: ids, key })).items || []).map(v => ({
-          title: v.snippet.title, published: v.snippet.publishedAt,
-          views: +v.statistics.viewCount || 0, likes: +v.statistics.likeCount || 0,
-          secs: parseDur(v.contentDetails.duration),
-          url: "https://youtu.be/" + v.id,
-        }));
-      videos.forEach(v => v.short = v.secs <= 65);
-      videos.sort((a, b) => b.published.localeCompare(a.published));
-    }
-    const perWeek = Array(8).fill(0), wd = {};
-    const now = Date.now();
-    videos.forEach(v => {
-      const dt = new Date(v.published);
-      const wk = ((now - dt.getTime()) / 86400000 / 7) | 0;
-      if (wk < 8) perWeek[wk]++;
-      const day = dt.toLocaleDateString("en-US", { weekday: "long" });
-      (wd[day] = wd[day] || []).push(v.views);
-    });
-    const daysSince = videos.length ? ((now - new Date(videos[0].published).getTime()) / 86400000) | 0 : null;
-    let bestDay = "", bestAvg = -1;
-    for (const [d, arr] of Object.entries(wd)) {
-      const avg = arr.reduce((a, b) => a + b, 0) / arr.length;
-      if (avg > bestAvg) { bestAvg = avg; bestDay = d; }
-    }
-    const sEl = document.getElementById("yt-stats");
-    sEl.innerHTML = "";
-    [[fmt(subs), "subscribers", growth ? "+" + fmt(growth.subs) + " since " + growth.since : ""],
-     [fmt(views), "total views", growth ? "+" + fmt(growth.views) : ""],
-     [vidn, "videos", ""],
-     [daysSince === null ? "—" : daysSince, "days since upload", ""]].forEach(([n, l, g]) => {
-      sEl.innerHTML += '<div class="stat"><div class="n">' + n + '</div><div class="l">' +
-        l + "</div>" + (g ? '<div class="g">' + g + "</div>" : "") + "</div>";
-    });
-    const tips = [];
-    if (!videos.length) tips.push("No videos yet — upload your first one and stats will appear here!");
-    else {
-      const sh = videos.filter(v => v.short), lg = videos.filter(v => !v.short);
-      if (sh.length && lg.length) {
-        const as = sh.reduce((a, v) => a + v.views, 0) / sh.length;
-        const al = lg.reduce((a, v) => a + v.views, 0) / lg.length;
-        if (as > al * 1.5) tips.push("Shorts get " + (as / Math.max(al, 1)).toFixed(1) + "x more views than long videos — Shorts pull new people in.");
-        else if (al > as * 1.5) tips.push("Long videos get " + (al / Math.max(as, 1)).toFixed(1) + "x more views than Shorts — your audience likes depth.");
-      }
-      const best = videos.slice().sort((a, b) => b.views - a.views)[0];
-      tips.push('Best recent video: "' + best.title.slice(0, 60) + '" (' + fmt(best.views) + " views) — make more on this topic.");
-      if (daysSince >= 7) tips.push("⚠ " + daysSince + " days since your last upload — consistency is the #1 growth factor.");
-      else if (daysSince <= 2) tips.push("Good consistency — last upload was very recent. Keep the rhythm!");
-      const recent4 = perWeek.slice(0, 4).reduce((a, b) => a + b, 0);
-      if (recent4 && recent4 < 4) tips.push("Only " + recent4 + " uploads in the last 4 weeks — aim for at least 2 per week (1 long + 1 short).");
-      if (bestDay) tips.push("Your " + bestDay + " videos get the most views on average — schedule big stories for that day.");
-    }
-    document.getElementById("yt-insights").innerHTML =
-      tips.map(t => '<div class="insight">' + esc(t) + "</div>").join("");
-    document.getElementById("yt-weeks").innerHTML =
-      perWeek.map(n => '<div style="height:' + (6 + n * 14) + 'px" title="' + n + ' uploads"></div>').join("");
-    document.getElementById("yt-weeks-l").innerHTML =
-      perWeek.map(n => "<span>" + n + "</span>").join("");
-    document.getElementById("yt-videos").innerHTML =
-      "<tr><th>Video</th><th>Type</th><th>Views</th><th>Likes</th><th>When</th></tr>" +
-      videos.map(v => "<tr><td><a href='" + v.url + "' target='_blank'>" +
-        esc(v.title.slice(0, 65)) + "</a></td><td>" + (v.short ? "Short" : "Long") +
-        "</td><td>" + fmt(v.views) + "</td><td>" + fmt(v.likes) + "</td><td>" +
-        v.published.slice(0, 10) + "</td></tr>").join("");
-    socRender();
-    ytLoaded = true;
-  } catch (e) {
-    err.textContent = e.message;
-  }
-}
-function socSave() {
-  const arr = JSON.parse(localStorage.getItem("social") || "[]");
-  arr.unshift({ date: new Date().toISOString().slice(0, 10),
-    platform: document.getElementById("soc-p").value,
-    followers: +document.getElementById("soc-f").value || 0,
-    views: +document.getElementById("soc-v").value || 0 });
-  localStorage.setItem("social", JSON.stringify(arr.slice(0, 60)));
-  socRender();
-  toast("Saved 📱");
-}
-function socRender() {
-  const arr = JSON.parse(localStorage.getItem("social") || "[]");
-  document.getElementById("soc-table").innerHTML = arr.length
-    ? "<tr><th>Date</th><th>Platform</th><th>Followers</th><th>Views</th></tr>" +
-      arr.slice(0, 12).map(s => "<tr><td>" + s.date + "</td><td>" + s.platform +
-        "</td><td>" + fmt(s.followers) + "</td><td>" + fmt(s.views) + "</td></tr>").join("")
-    : "";
-}
-
 document.getElementById("q").addEventListener("input", e => {
   q = e.target.value.trim(); shown = PAGE; render();
 });
@@ -841,6 +696,21 @@ trendsBar(); bar(); render();
 </body>
 </html>
 """
+
+
+def _load_passcode():
+    """Access code: env var on the cloud (GitHub secret), local file on PC.
+    Only its SHA-256 hash goes into the page - light protection so the
+    studio is not open to everyone with the link."""
+    code = os.environ.get("SITE_PASSCODE", "").strip()
+    if not code:
+        try:
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "site_passcode.txt")) as f:
+                code = f.read().strip()
+        except FileNotFoundError:
+            pass
+    return code
 
 
 def generate():
@@ -872,11 +742,16 @@ def generate():
             "sc": score, "r": reasons, "lo": local,
         })
 
+    import hashlib
+    code = _load_passcode()
+    lock_hash = hashlib.sha256(code.encode()).hexdigest() if code else ""
+
     updated = now.strftime("%d %b %Y, %H:%M UTC")
     html = (PAGE
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
+            .replace("__LOCKHASH__", lock_hash)
             .replace("__UPDATED__", updated))
 
     os.makedirs(OUT_DIR, exist_ok=True)

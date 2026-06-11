@@ -19,6 +19,7 @@ jobs:
     env:
       TZ: Asia/Karachi                          # digest times in Pakistan time
       NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}     # your private topic, kept secret
+      SITE_PASSCODE: ${{ secrets.SITE_PASSCODE }}  # studio access code (hash goes in page)
     steps:
       - uses: actions/checkout@v5
 
