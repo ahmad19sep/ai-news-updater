@@ -110,6 +110,17 @@ dom.window.addEventListener("load", () => {
       if (ev('plans.find(p => p.id === 111).revnote') !== undefined) fail("revnote not cleared on resend");
       ok("resend clears the revision note");
 
+      // a rejected POST returns to the editor's Script wizard, not Editing
+      ev('plans.unshift({ id: 555, title: "X post", url: "", notes: "text", status: "script",' +
+        'assignee: "Editor", eid: editors[0].id, platforms: ["x"], when: "", ctype: "post", chk: {}, ftitle: "" });' +
+        "savePlans(); sendToOwner(plans.find(p => p.id === 555), editors[0]);");
+      prompts.push("Hashtags ghalat hain");
+      ev('boardView = "ready"; renderBoard();');
+      [...d.querySelectorAll(".qrow")].find(r => r.textContent.includes("X post")).querySelector(".re-btn").click();
+      if (ev('plans.find(p => p.id === 555).status') !== "script") fail("rejected post not in script stage");
+      if (ev('plans.find(p => p.id === 555).assignee') !== "Editor") fail("rejected post not with editor");
+      ok("rejected post returns to editor's Script wizard with note");
+
       // publish 'Ready to schedule' must NOT show it until approved
       ev('boardView = "publish"; renderBoard();');
       if (d.getElementById("boardview").textContent.includes("Test video")) fail("eready item leaked into Publish");

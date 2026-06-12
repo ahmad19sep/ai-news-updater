@@ -997,8 +997,8 @@ function renderScriptView(el, ed) {
       el.innerHTML = '<div class="empty">No script work right now — assigned topics land here.</div>';
       return;
     }
-    if (!inProg.some(p => p.id === wizBind)) {     /* auto-open the first assigned topic */
-      const p0 = inProg[0];
+    if (!inProg.some(p => p.id === wizBind)) {     /* auto-open rejected work first */
+      const p0 = inProg.find(p => p.revnote) || inProg[0];
       wizBind = p0.id;
       wiz.topic = p0.title.split("\n")[0];
       wiz.url = p0.url || "";
@@ -1023,7 +1023,7 @@ function renderScriptView(el, ed) {
     box.appendChild(lab);
     inProg.forEach(p => {
       const b = document.createElement("button");
-      b.textContent = "✍️ " + p.title.split("\n")[0].slice(0, 32);
+      b.textContent = (p.revnote ? "🔁 " : "✍️ ") + p.title.split("\n")[0].slice(0, 32);
       b.className = wizBind === p.id ? "active" : "";
       b.onclick = () => {
         wizBind = p.id;
@@ -1351,7 +1351,11 @@ function renderCreate(el) {
       '<textarea id="wizprompt" readonly style="width:100%;min-height:140px;font:12px/1.6 Consolas,monospace;background:var(--surface2)">' + esc(wiz.prompt) + "</textarea>" +
       '<p class="sub" style="margin-top:14px"><b>Final version</b> (from Claude, after your edits):</p>' +
       '<textarea id="wizfinal" style="width:100%;min-height:120px" placeholder="Paste your final content here…"></textarea>' +
-      '<div class="mfoot"><button class="btn" onclick="saveWiz()">✅ Script done → next stage</button>' +
+      '<div class="mfoot"><button class="btn" onclick="saveWiz()">' +
+      (wiz.type === "post"
+        ? ((plans.find(x => x.id === wizBind) || {}).assignee === "Editor"
+          ? "✅ Post done → Send Back to Owner" : "✅ Post done → Publish 🗓")
+        : "✅ Script done → Filming 🎥") + "</button>" +
       '<button class="ghost" onclick="downloadWiz()">⬇ Download file</button></div>';
     el.appendChild(out);
   }
@@ -1734,10 +1738,11 @@ function renderReadyView(el) {
       if (!note) { toast("Rejection needs a note for the editor"); return; }
       p.revnote = note;
       p.eready = false;
-      p.status = "editing";
+      /* a post is text — it goes back to their Script wizard; a video to Editing */
+      p.status = p.ctype === "post" ? "script" : "editing";
       p.assignee = "Editor";
       savePlans(); renderBoard();
-      toast("Rejected — back with " + ed.name + " plus your notes ✂️");
+      toast("Rejected — back in " + ed.name + "'s " + (p.status === "script" ? "Script" : "Editing") + " with your notes ✂️");
     };
     el.appendChild(d);
   });
