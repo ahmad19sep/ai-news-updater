@@ -45,6 +45,12 @@ dom.window.addEventListener("load", () => {
       if (!d.getElementById("ed-link") || !d.getElementById("ed-pass")) fail("link/password buttons missing");
       ok("workspace has Copy link + Password buttons");
 
+      // the private link embeds id + password-key + name, so the gate is password-only
+      const link = ev("editorLink(editors[0])");
+      if (!link.includes("#editor=" + ev("editors[0].id") + "." + ev("editors[0].ph") + ".Hamza"))
+        fail("link format wrong: " + link);
+      ok("private link carries id + key + name (password-only gate)");
+
       // create a plan and send it to the editor
       ev('plans.unshift({ id: 111, title: "Test video", url: "", notes: "brief here",' +
         'status: "editing", assignee: "Ahmad", platforms: ["yt"], when: "", ctype: "short", chk: {}, ftitle: "" });' +

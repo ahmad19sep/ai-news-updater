@@ -526,6 +526,8 @@ PAGE = r"""<!doctype html>
   <section id="tab-editors" hidden>
     <div class="addrow" style="align-items:center;margin-top:20px">
       <div class="bar" id="ednav" style="margin:0"></div>
+      <button class="ghost" style="margin-left:auto" title="Download board file" onclick="exportPlans()">⬇</button>
+      <button class="ghost" title="Import board file" onclick="document.getElementById('importfile').click()">⬆</button>
     </div>
     <div id="edwork"></div>
   </section>
@@ -583,51 +585,50 @@ async function tryUnlock() {
     document.getElementById("lockerr").textContent = "Wrong code - try again.";
   }
 }
-/* ---- editor private link: site/#editor=<id> shows the editor login gate ---- */
-const EDLINK = (location.hash.match(/editor=(\w+)/) || [])[1] || "";
+/* ---- editor private link: site/#editor=<id>.<hash>.<name> shows ONLY a password box ---- */
+const _edm = location.hash.match(/editor=(\w+)(?:\.([0-9a-f]*))?(?:\.([^&]*))?/) || [];
+const EDLINK = _edm[1] || "";
+const EDKEY = _edm[2] || "";
+const EDNAME = _edm[3] ? decodeURIComponent(_edm[3]) : "";
 function edGateShow(msg) {
   const ed = edById(EDLINK);
+  const name = (ed && ed.name) || EDNAME || "Editor";
+  const canCheck = (ed && ed.ph) || EDKEY;
   const box = document.querySelector("#lock .lockbox");
   document.getElementById("lock").hidden = false;
   box.innerHTML = '<div class="orb">A</div>' +
     "<h2>✂️ Editor login</h2>" +
-    (ed ? "<p>Hi <b>" + esc(ed.name) + "</b> — enter the password the owner gave you.</p>"
-        : "<p>Pehle owner ka bheja hua board file import karo — phir password.</p>") +
-    '<div class="err" id="edlockerr">' + (msg || "") + "</div>" +
-    (ed ? '<input id="edlockpass" type="password" placeholder="your password" autocomplete="off">' +
-          '<button class="btn" style="width:100%;margin-top:8px" onclick="edTryUnlock()">Enter workspace</button>' : "") +
-    '<button class="ghost" style="width:100%;margin-top:8px" onclick="document.getElementById(\'importfile\').click()">⬆ Import board file</button>' +
-    '<button class="ghost" style="width:100%;margin-top:8px" onclick="ownerExitGate()">I am the owner</button>';
+    (canCheck
+      ? "<p>Hi <b>" + esc(name) + "</b> — enter the password the owner gave you.</p>" +
+        '<div class="err" id="edlockerr">' + (msg || "") + "</div>" +
+        '<input id="edlockpass" type="password" placeholder="your password" autocomplete="off">' +
+        '<button class="btn" style="width:100%;margin-top:8px" onclick="edTryUnlock()">Enter workspace</button>'
+      : "<p>This link is outdated — ask the owner for a fresh link.</p>");
   const inp = document.getElementById("edlockpass");
-  if (inp) inp.addEventListener("keydown", e => { if (e.key === "Enter") edTryUnlock(); });
+  if (inp) {
+    inp.focus();
+    inp.addEventListener("keydown", e => { if (e.key === "Enter") edTryUnlock(); });
+  }
 }
 async function edTryUnlock() {
-  const ed = edById(EDLINK);
-  if (!ed) return;
-  if (!ed.ph) { document.getElementById("edlockerr").textContent = "Owner has not set your password yet."; return; }
-  const pass = (document.getElementById("edlockpass").value || "").trim();
-  if (await sha256(pass) === ed.ph) {
-    localStorage.setItem("edunlock", ed.ph);
-    ROLE = ed.id;
-    localStorage.setItem("role", ROLE);
-    document.getElementById("lock").hidden = true;
-    applyRole();
-    toast("Welcome, " + ed.name + " ✂️");
-  } else {
+  let ed = edById(EDLINK);
+  const hash = await sha256((document.getElementById("edlockpass").value || "").trim());
+  const valid = (ed && ed.ph && hash === ed.ph) || (EDKEY && hash === EDKEY);
+  if (!valid) {
     document.getElementById("edlockerr").textContent = "Wrong password — try again.";
+    return;
   }
-}
-async function ownerExitGate() {
-  if (LOCKHASH) {
-    const code = prompt("Owner access code:") || "";
-    if (await sha256(code) !== LOCKHASH) { toast("Wrong code ❌"); return; }
-    localStorage.setItem("unlock", LOCKHASH);
+  if (!ed) {            /* first visit on a fresh device: workspace from the link itself */
+    ed = { id: EDLINK, name: EDNAME || "Editor", ph: EDKEY };
+    editors.push(ed);
+    saveEditors();
   }
-  ROLE = "owner";
-  localStorage.setItem("role", "owner");
-  history.replaceState(null, "", location.pathname + location.search);
+  localStorage.setItem("edunlock", hash);
+  ROLE = ed.id;
+  localStorage.setItem("role", ROLE);
   document.getElementById("lock").hidden = true;
   applyRole();
+  toast("Welcome, " + ed.name + " ✂️");
 }
 
 /* ---- theme ---- */
@@ -1512,7 +1513,9 @@ async function addEditor() {
   return true;
 }
 function editorLink(ed) {
-  return location.origin + location.pathname + "#editor=" + ed.id;
+  /* the link carries id + password-hash + name, so the gate works on any device */
+  return location.origin + location.pathname + "#editor=" + ed.id + "." +
+    (ed.ph || "") + "." + encodeURIComponent(ed.name);
 }
 function renameEditor(ed) {
   const name = (prompt("Editor's new name?", ed.name) || "").trim();
@@ -1981,7 +1984,7 @@ function renderEditorView(el, ed) {
       if (!pass) return;
       ed.ph = await sha256(pass);
       saveEditors();
-      toast("Password updated 🔑 — give " + ed.name + " the new one (and a fresh board file)");
+      toast("Password updated 🔑 — send " + ed.name + " their NEW link (the old one stopped working)");
     };
     head.querySelector("#ed-ren").onclick = () => renameEditor(ed);
     head.querySelector("#ed-del").onclick = () => removeEditor(ed);
@@ -2460,13 +2463,19 @@ document.getElementById("q").addEventListener("input", e => {
 document.getElementById("more").onclick = () => { shown += PAGE; render(); };
 trendsBar(); bar(); renderHome(); render();
 if (EDLINK) {                       /* arrived via an editor's private link */
-  const _ed = edById(EDLINK);
-  if (_ed && _ed.ph && localStorage.getItem("edunlock") === _ed.ph) {
+  let _ed = edById(EDLINK);
+  const _key = (_ed && _ed.ph) || EDKEY;
+  if (_key && localStorage.getItem("edunlock") === _key) {
+    if (!_ed) {                     /* fresh device, already unlocked before */
+      _ed = { id: EDLINK, name: EDNAME || "Editor", ph: EDKEY };
+      editors.push(_ed);
+      saveEditors();
+    }
     ROLE = _ed.id;
     localStorage.setItem("role", ROLE);
     applyRole();                    /* already logged in on this device */
   } else {
-    edGateShow();                   /* ask for their password (import board first if new device) */
+    edGateShow();                   /* just the password box — nothing else */
   }
 } else {
   applyRole(ROLE === "owner");      /* editor-mode devices jump straight to their workspace */
