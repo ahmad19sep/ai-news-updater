@@ -586,6 +586,12 @@ async function tryUnlock() {
     document.getElementById("lockerr").textContent = "Wrong code - try again.";
   }
 }
+/* ---- repair URL: site/?fix=1 resets this device (role + sync) — board data stays ---- */
+if (/[?&]fix=1/.test(location.search)) {
+  ["role", "synccfg", "syncid", "boardrev", "edunlock"].forEach(k => localStorage.removeItem(k));
+  location.replace(location.pathname);
+}
+
 /* ---- editor private link: site/#editor=<id>.<hash>.<syncid>.<name> shows ONLY a password box ---- */
 const _edm = location.hash.match(/editor=(\w+)(?:\.([0-9a-f]*))?(?:\.([A-Za-z0-9-]*))?(?:\.([^&]*))?/) || [];
 const EDLINK = _edm[1] || "";
