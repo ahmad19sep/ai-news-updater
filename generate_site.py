@@ -846,11 +846,18 @@ async function cloudClick() {
   if (!SYNCCFG) {
     if (ROLE !== "owner") { toast("Ask the owner to enable live sync"); return; }
     enableSync();
-  } else {
-    pollBoard();
-    toast(isFb() ? "Firebase live sync ON ⚡ — updates are instant" :
-      "Live sync ON ☁️ — changes appear within seconds");
+    return;
   }
+  if (ROLE === "owner" &&
+      confirm("Live sync is ON (" + (isFb() ? "Firebase ⚡" : "free bin ☁️") +
+        ").\n\nOK = reconnect / switch backend (e.g. move to Firebase)\nCancel = just check the connection")) {
+    if (syncStream) { syncStream.close(); syncStream = null; }
+    enableSync();
+    return;
+  }
+  pollBoard();
+  toast(isFb() ? "Firebase live sync ON ⚡ — updates are instant" :
+    "Live sync ON ☁️ — changes appear within seconds");
 }
 setInterval(() => {
   pollTick++;
