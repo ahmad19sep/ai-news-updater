@@ -52,12 +52,30 @@ dom.window.addEventListener("load", () => {
       if (ev('plans.find(p => p.id === 111).assignee') !== "Editor") fail("sendToEditor did not assign");
       ok("item assigned to editor");
 
-      // hand-off continues the sequence: script done by owner -> editor's Filming
+      // hand-off keeps the SAME sequence stage: script item stays in editor's Script (wizard)
       ev('plans.unshift({ id: 333, title: "Seq video", url: "", notes: "", status: "script",' +
         'assignee: "Ahmad", platforms: ["yt"], when: "", ctype: "short", chk: {}, ftitle: "" });' +
         "savePlans(); sendToEditor(plans.find(p => p.id === 333), editors[0]);");
-      if (ev('plans.find(p => p.id === 333).status') !== "filming") fail("script item did not advance to filming");
-      ok("script item lands in editor's Filming section");
+      if (ev('plans.find(p => p.id === 333).status') !== "script") fail("script item changed stage on handoff");
+      // a bare idea starts the sequence at Script
+      ev('plans.unshift({ id: 444, title: "Idea topic", url: "", notes: "", status: "idea",' +
+        'assignee: "Ahmad", platforms: ["yt"], when: "", ctype: "", chk: {}, ftitle: "" });' +
+        "savePlans(); sendToEditor(plans.find(p => p.id === 444), editors[0]);");
+      if (ev('plans.find(p => p.id === 444).status') !== "script") fail("idea did not start at script");
+      ok("handoff keeps the same workflow sequence (idea starts at Script)");
+
+      // editor's Script section shows the same wizard (topic input + type cards)
+      ev('ROLE = editors[0].id; applyRole(); edView = "script"; renderEditorsTab();');
+      if (!d.getElementById("wtopic")) fail("script wizard missing in editor workspace");
+      if (d.getElementById("edwork").textContent.includes("+ Custom topic")) fail("custom topic leaked to editor");
+      ok("editor Script section = same wizard as owner");
+      ev('ROLE = "owner"; applyRole(true); switchTab("plan");');
+
+      // Assigned Tasks tab shows task + editor + status
+      ev('boardView = "assigned"; renderBoard();');
+      const atxt = d.getElementById("boardview").textContent;
+      if (!atxt.includes("Seq video") || !atxt.includes("Hamza") || !atxt.includes("Script")) fail("Assigned view incomplete: " + atxt.slice(0, 150));
+      ok("Assigned Tasks tab shows task, editor, status");
 
       // item must disappear from owner's Buffer editing view
       ev('switchTab("plan"); boardView = "editing"; renderBoard();');
@@ -76,6 +94,22 @@ dom.window.addEventListener("load", () => {
       if (!txt.includes("Test video") || !txt.includes("Hamza") || !txt.includes("completed")) fail("Ready to Post missing info: " + txt.slice(0, 200));
       ok("Ready to Post shows item + editor name + status");
 
+      // reject with notes -> back to editor's Editing with the note attached
+      prompts.push("Audio is out of sync, fix captions");
+      ev('boardView = "ready"; renderBoard();');
+      d.querySelector(".re-btn").click();
+      const rp = ev('JSON.stringify(plans.find(p => p.id === 111))');
+      const rpo = JSON.parse(rp);
+      if (rpo.status !== "editing" || rpo.assignee !== "Editor" || !rpo.revnote) fail("reject flow broken: " + rp);
+      ok("reject sends item back to editor with notes");
+      // the editor sees the note on their Editing card; resending clears it
+      ev('ROLE = editors[0].id; applyRole(); edView = "editing"; renderEditorsTab();');
+      if (!d.getElementById("edwork").textContent.includes("Audio is out of sync")) fail("revision note not visible to editor");
+      ok("editor sees the owner's revision note");
+      ev('ROLE = "owner"; applyRole(true); sendToOwner(plans.find(p => p.id === 111), editors[0]); switchTab("plan");');
+      if (ev('plans.find(p => p.id === 111).revnote') !== undefined) fail("revnote not cleared on resend");
+      ok("resend clears the revision note");
+
       // publish 'Ready to schedule' must NOT show it until approved
       ev('boardView = "publish"; renderBoard();');
       if (d.getElementById("boardview").textContent.includes("Test video")) fail("eready item leaked into Publish");
@@ -92,7 +126,7 @@ dom.window.addEventListener("load", () => {
 
       // editor task flow with performance stats (late task)
       ev('etasks.unshift({ id: 222, title: "Make 3 banners", eid: editors[0].id, due: "2020-01-01", done: false });' +
-        "saveEtasks(); renderEditorsTab();");
+        'saveEtasks(); edView = "work"; renderEditorsTab();');
       const chk = d.querySelector(".et-chk");
       if (!chk) fail("editor task checkbox missing");
       chk.checked = true;

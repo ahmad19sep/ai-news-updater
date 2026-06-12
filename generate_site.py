@@ -920,6 +920,12 @@ function boardNav() {
   sep.textContent = "\u00b7";
   sep.style.cssText = "color:var(--faint);margin:0 2px";
   el.appendChild(sep);
+  const asg = plans.filter(p => p.assignee === "Editor").length;
+  const ab = document.createElement("button");
+  ab.innerHTML = "\ud83d\udccc Assigned" + (asg ? " \u00b7 " + asg : "");
+  ab.className = boardView === "assigned" ? "active" : "";
+  ab.onclick = () => { boardView = "assigned"; renderBoard(); };
+  el.appendChild(ab);
   const rdy = plans.filter(p => p.eready && p.status === "publish").length;
   const rb = document.createElement("button");
   rb.innerHTML = "\ud83d\udcec Ready to Post" + (rdy ? " \u00b7 " + rdy : "");
@@ -940,6 +946,7 @@ function renderBoard() {
   else if (boardView === "filming") renderStageView(el, "filming", "editing", "Done → Editing", "Nothing in Filming — finish a Script first.");
   else if (boardView === "editing") renderStageView(el, "editing", "publish", "Done → Publish", "Nothing in Editing yet.");
   else if (boardView === "publish") renderPublish(el);
+  else if (boardView === "assigned") renderAssignedView(el);
   else if (boardView === "ready") renderReadyView(el);
   else renderList(el, ["posted"], "Nothing posted yet — your history will appear here.");
 }
@@ -980,8 +987,32 @@ const STAGE_CHK = {
 };
 let pubCal = false;
 
-function renderScriptView(el) {
-  const inProg = plans.filter(p => p.status === "script" && p.assignee !== "Editor");
+function renderScriptView(el, ed) {
+  /* same script wizard for owner and editor — only the item pool differs */
+  const inProg = ed
+    ? plans.filter(p => p.status === "script" && p.assignee === "Editor" && p.eid === ed.id)
+    : plans.filter(p => p.status === "script" && p.assignee !== "Editor");
+  if (ed) {
+    if (!inProg.length) {
+      el.innerHTML = '<div class="empty">No script work right now — assigned topics land here.</div>';
+      return;
+    }
+    if (!inProg.some(p => p.id === wizBind)) {     /* auto-open the first assigned topic */
+      const p0 = inProg[0];
+      wizBind = p0.id;
+      wiz.topic = p0.title.split("\n")[0];
+      wiz.url = p0.url || "";
+      wiz.type = p0.ctype || null;
+      wiz.plats = []; wiz.tpl = null; wiz.prompt = "";
+    }
+    const bp = plans.find(x => x.id === wizBind);
+    if (bp && bp.revnote) {
+      const rv = document.createElement("div");
+      rv.style.cssText = "margin:0 0 10px;padding:10px 14px;border:1px solid var(--red);border-radius:10px;color:var(--red);font-size:13px";
+      rv.innerHTML = "<b>🔁 Owner wants fixes:</b> " + esc(bp.revnote);
+      el.appendChild(rv);
+    }
+  }
   if (inProg.length) {
     const box = document.createElement("div");
     box.className = "bar";
@@ -1004,16 +1035,18 @@ function renderScriptView(el) {
       };
       box.appendChild(b);
     });
-    const custom = document.createElement("button");
-    custom.textContent = "+ Custom topic";
-    custom.className = wizBind === null ? "active" : "";
-    custom.onclick = () => {
-      wizBind = null;
-      wiz = { topic: "", url: "", type: null, plats: [], dur: "60",
-              len: "4-6 min news explainer", tpl: null, prompt: "" };
-      renderBoard();
-    };
-    box.appendChild(custom);
+    if (!ed) {                       /* editors work on assigned topics only */
+      const custom = document.createElement("button");
+      custom.textContent = "+ Custom topic";
+      custom.className = wizBind === null ? "active" : "";
+      custom.onclick = () => {
+        wizBind = null;
+        wiz = { topic: "", url: "", type: null, plats: [], dur: "60",
+                len: "4-6 min news explainer", tpl: null, prompt: "" };
+        renderBoard();
+      };
+      box.appendChild(custom);
+    }
     el.appendChild(box);
   }
   renderCreate(el);
@@ -1384,14 +1417,29 @@ function saveWiz() {
     p.platforms = plats.length ? plats : p.platforms;
     p.ctype = wiz.type;
     p.url = wiz.url || p.url;
-    p.status = next;
   } else {
-    plans.unshift({ id: Date.now(), title: wiz.topic, url: wiz.url, notes: txt,
-      status: next, assignee: "Ahmad", platforms: plats, when: "",
-      ctype: wiz.type, chk: {}, ftitle: "" });
+    p = { id: Date.now(), title: wiz.topic, url: wiz.url, notes: txt,
+      status: "script", assignee: "Ahmad", platforms: plats, when: "",
+      ctype: wiz.type, chk: {}, ftitle: "" };
+    plans.unshift(p);
   }
-  savePlans();
   wizBind = null;
+  if (p.assignee === "Editor") {       /* editor ran the same wizard in their workspace */
+    const ed = edById(p.eid);
+    if (next === "publish" && ed) {    /* a finished post goes straight back for review */
+      savePlans();
+      sendToOwner(p, ed);
+      return;
+    }
+    p.status = next;
+    savePlans();
+    edView = next;
+    renderBoard();
+    toast("Script done \u2192 Filming \uD83C\uDFA5");
+    return;
+  }
+  p.status = next;
+  savePlans();
   boardView = next;
   renderBoard();
   toast(next === "filming" ? "Script done \u2192 Filming \uD83C\uDFA5" : "Content done \u2192 Publish \uD83D\uDDD3");
@@ -1443,11 +1491,10 @@ function sendToEditor(p, ed) {
   p.assignee = "Editor";
   p.eid = ed.id;
   p.eready = false;
-  /* hand-off continues the sequence: the owner finished their step, the
-     editor picks up at the NEXT one (script done -> editor films, etc.) */
-  const nextMap = { idea: "script", script: "filming", filming: "editing",
-    publish: "editing", scheduled: "editing" };
-  if (nextMap[p.status]) p.status = nextMap[p.status];
+  /* the editor continues the SAME sequence from the same stage; a bare topic
+     starts at Script (wizard), finished/posted work returns to Editing for fixes */
+  const stageMap = { idea: "script", publish: "editing", scheduled: "editing", posted: "editing" };
+  if (stageMap[p.status]) p.status = stageMap[p.status];
   savePlans();
   rerender();
   const lbl = { script: "Script", filming: "Filming", editing: "Editing" }[p.status] || p.status;
@@ -1600,6 +1647,54 @@ function renderList(el, statuses, emptyMsg) {
   items.forEach(p => el.appendChild(postRow(p, false)));
 }
 
+/* ---- Assigned Tasks: what each editor is working on right now ---- */
+function renderAssignedView(el) {
+  const working = plans.filter(p => p.assignee === "Editor");
+  const completed = plans.filter(p => p.eready && p.status === "publish");
+  if (!working.length && !completed.length) {
+    el.innerHTML = '<div class="empty">Nothing assigned — send any topic to an editor with the ✂️ → Editor button.</div>';
+    return;
+  }
+  const STATUS_LBL = { script: "✍️ Script", filming: "🎥 Filming", editing: "✂️ Editing" };
+  const row = (p, done) => {
+    const ed = edById(p.eid);
+    const d = document.createElement("div");
+    d.className = "qrow";
+    d.innerHTML =
+      '<span class="avatar editor" title="' + esc(ed ? ed.name : "Editor") + '">' +
+      esc((ed ? ed.name : "E").slice(0, 1).toUpperCase()) + "</span>" +
+      '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 70)) + "</span>" +
+      '<span style="font-size:11.5px;color:var(--dim);white-space:nowrap">✂️ ' + esc(ed ? ed.name : "Editor") + "</span>" +
+      (done
+        ? '<span class="tag" style="color:#059669;border-color:#059669">✅ Completed</span>'
+        : '<span class="tag">' + (STATUS_LBL[p.status] || p.status) + "</span>") +
+      (p.revnote ? '<span class="tag" style="color:var(--red);border-color:var(--red)">🔁 revision</span>' : "");
+    d.onclick = () => {
+      if (done) { boardView = "ready"; renderBoard(); return; }
+      if (ed) {                              /* jump into that editor's workspace at this stage */
+        edSel = ed.id;
+        edView = STATUS_LBL[p.status] ? p.status : "work";
+        switchTab("editors");
+      }
+    };
+    return d;
+  };
+  if (working.length) {
+    const h = document.createElement("div");
+    h.className = "qday";
+    h.textContent = "In progress (" + working.length + ")";
+    el.appendChild(h);
+    working.forEach(p => el.appendChild(row(p, false)));
+  }
+  if (completed.length) {
+    const h2 = document.createElement("div");
+    h2.className = "qday";
+    h2.textContent = "Completed — waiting for your review (" + completed.length + ")";
+    el.appendChild(h2);
+    completed.forEach(p => el.appendChild(row(p, true)));
+  }
+}
+
 /* ---- Ready to Post: work editors sent back, waiting for the owner's review ---- */
 function renderReadyView(el) {
   const items = plans.filter(p => p.eready && p.status === "publish")
@@ -1622,22 +1717,27 @@ function renderReadyView(el) {
         p.ereadyAt.slice(0, 10) + " " + p.ereadyAt.slice(11, 16) + "</span>" : "") +
       '<span class="qtags">' + platTags(p) + "</span>" +
       '<button class="ok-btn" style="background:none;border:1px solid #059669;color:#059669;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">✔ Approve → Publish</button>' +
-      '<button class="re-btn" style="background:none;border:1px solid #d97706;color:#d97706;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">↩ Back to editor</button>';
+      '<button class="re-btn" style="background:none;border:1px solid var(--red);color:var(--red);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">✕ Reject + notes</button>';
     d.onclick = () => openComposer(p.id);
     d.querySelector(".ok-btn").onclick = e => {
       e.stopPropagation();
       p.eready = false;                        /* reviewed: schedule & post from Publish */
+      delete p.revnote;
       savePlans(); renderBoard();
-      toast("Approved — it's in Publish, schedule it 🗓");
+      toast("Approved ✔ — it's in Publish, schedule it 🗓");
     };
     d.querySelector(".re-btn").onclick = e => {
       e.stopPropagation();
-      if (!edById(p.eid)) { toast("That editor no longer exists"); return; }
+      const ed = edById(p.eid);
+      if (!ed) { toast("That editor no longer exists"); return; }
+      const note = (prompt("What should " + ed.name + " fix?") || "").trim();
+      if (!note) { toast("Rejection needs a note for the editor"); return; }
+      p.revnote = note;
       p.eready = false;
       p.status = "editing";
       p.assignee = "Editor";
       savePlans(); renderBoard();
-      toast("Sent back to " + edById(p.eid).name + " for fixes ✂️");
+      toast("Rejected — back with " + ed.name + " plus your notes ✂️");
     };
     el.appendChild(d);
   });
@@ -1741,6 +1841,7 @@ function sendToOwner(p, ed) {
   p.ereadyAt = now.toISOString();
   p.assignee = "Ahmad";
   p.status = "publish";                      /* lands in the owner's Ready to Post tab */
+  delete p.revnote;                          /* revision handled */
   if (!ehist.some(h => h.ref === p.id)) {
     ehist.unshift({ eid: ed.id, ref: p.id, title: p.title.split("\n")[0].slice(0, 60),
       kind: planKind(p), due: p.when ? p.when.slice(0, 10) : "", doneAt: today,
@@ -1813,6 +1914,7 @@ function renderEdStage(el, ed, stage, nextStage, nextLabel) {
     c.className = "panel";
     let inner = '<h3 style="color:var(--text)">' + esc(p.title.split("\n")[0]) +
       (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + "</h3>";
+    if (p.revnote) inner += '<div style="margin:8px 0;padding:10px 14px;border:1px solid var(--red);border-radius:10px;color:var(--red);font-size:13px"><b>🔁 Owner wants fixes:</b> ' + esc(p.revnote) + "</div>";
     inner += '<div class="chkrow">' + (STAGE_CHK[stage] || []).map(([k, lab]) =>
       '<label class="chk"><input type="checkbox" data-k="' + k + '"' +
       (p.chk[k] ? " checked" : "") + "> " + lab + "</label>").join("") + "</div>";
@@ -1906,7 +2008,7 @@ function renderEditorView(el, ed) {
   sendChip.style.cssText = "color:var(--faint);font-size:12px";
   nav.appendChild(sendChip);
   el.appendChild(nav);
-  if (edView === "script") { renderEdStage(el, ed, "script", "filming", "Script done → Filming"); return; }
+  if (edView === "script") { renderScriptView(el, ed); return; }   /* same wizard as the owner */
   if (edView === "filming") { renderEdStage(el, ed, "filming", "editing", "Done → Editing"); return; }
   if (edView === "editing") { renderEdStage(el, ed, "editing", "", "📤 Send Back to Owner"); return; }
 
@@ -2055,6 +2157,7 @@ function renderEditorView(el, ed) {
       d.className = "qrow";
       d.innerHTML = '<span class="tag">' + p.status + "</span>" +
         (p.eready ? '<span class="tag" style="color:#059669;border-color:#059669">✅ ready</span>' : "") +
+        (p.revnote ? '<span class="tag" style="color:var(--red);border-color:var(--red)">🔁 fixes</span>' : "") +
         '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 60)) + "</span>" +
         '<span class="qtags">' + platTags(p) + "</span>" +
         (isOwner
