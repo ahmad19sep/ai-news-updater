@@ -686,6 +686,8 @@ function adoptOrphans(eid) {
 }
 if (editors.length) adoptOrphans(editors[0].id);
 if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("role", "owner"); }
+/* an item with an editor is never a bare "idea" — their sequence starts at Script */
+plans.forEach(p => { if (p.assignee === "Editor" && p.status === "idea") p.status = "script"; });
 
 /* migrate old planner cards to ticket format */
 if (localStorage.getItem("plans_v") !== "2") {
@@ -1441,9 +1443,15 @@ function sendToEditor(p, ed) {
   p.assignee = "Editor";
   p.eid = ed.id;
   p.eready = false;
+  /* hand-off continues the sequence: the owner finished their step, the
+     editor picks up at the NEXT one (script done -> editor films, etc.) */
+  const nextMap = { idea: "script", script: "filming", filming: "editing",
+    publish: "editing", scheduled: "editing" };
+  if (nextMap[p.status]) p.status = nextMap[p.status];
   savePlans();
   rerender();
-  toast("Sent to " + ed.name + " ✂️ — it's in their workspace now");
+  const lbl = { script: "Script", filming: "Filming", editing: "Editing" }[p.status] || p.status;
+  toast("Sent to " + ed.name + " ✂️ — in their " + lbl + " section");
 }
 
 /* ---- editor management (owner) ---- */

@@ -52,6 +52,13 @@ dom.window.addEventListener("load", () => {
       if (ev('plans.find(p => p.id === 111).assignee') !== "Editor") fail("sendToEditor did not assign");
       ok("item assigned to editor");
 
+      // hand-off continues the sequence: script done by owner -> editor's Filming
+      ev('plans.unshift({ id: 333, title: "Seq video", url: "", notes: "", status: "script",' +
+        'assignee: "Ahmad", platforms: ["yt"], when: "", ctype: "short", chk: {}, ftitle: "" });' +
+        "savePlans(); sendToEditor(plans.find(p => p.id === 333), editors[0]);");
+      if (ev('plans.find(p => p.id === 333).status') !== "filming") fail("script item did not advance to filming");
+      ok("script item lands in editor's Filming section");
+
       // item must disappear from owner's Buffer editing view
       ev('switchTab("plan"); boardView = "editing"; renderBoard();');
       if (d.getElementById("boardview").textContent.includes("Test video")) fail("assigned item still in owner Buffer");
