@@ -64,6 +64,19 @@ dom.window.addEventListener("load", () => {
       if (!remote2.plans.some(p => p.id === 9001)) fail("editor device would not see the task");
       console.log("ok - editor device receives the board through the link config");
 
+      // file attachment round-trip: upload a "poster" to Firebase, read it back
+      const poster = new w.File(["fake-poster-bytes"], "poster.png", { type: "image/png" });
+      await w.eval("uploadFile")(w.eval('plans.find(p => p.id === 9001)'), poster);
+      await new Promise(r => setTimeout(r, 500));
+      const meta = ev('(plans.find(p => p.id === 9001).files || [])[0]');
+      if (!meta) fail("file meta not saved on plan");
+      const fUrl = ev("fileNode('" + meta.id + "')");
+      const fr = await fetch(fUrl);
+      const fjson = await fr.json();
+      if (!fjson || fjson.name !== "poster.png" || !fjson.data.startsWith("data:image/png")) fail("file not in Firebase: " + JSON.stringify(fjson).slice(0, 100));
+      console.log("ok - poster uploaded to Firebase and readable on any device");
+      await fetch(fUrl, { method: "DELETE" });
+
       // cleanup: remove the test board node
       await fetch(url, { method: "DELETE" });
       console.log("ALL FIREBASE E2E CHECKS PASSED");

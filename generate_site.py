@@ -560,6 +560,8 @@ PAGE = r"""<!doctype html>
     <div class="mrow" style="align-items:flex-start"><span class="lbl">Notes</span>
       <textarea id="m-notes" style="flex:1;min-height:70px"
         placeholder="script paste, b-roll list, instructions for editor…"></textarea></div>
+    <div class="mrow" style="align-items:flex-start"><span class="lbl">Files</span>
+      <div id="m-files" style="flex:1"></div></div>
     <div class="mfoot">
       <button class="btn" onclick="closeModal()">Save</button>
       <button class="ghost" onclick="modalPrep()">🤖 Write with Claude</button>
@@ -1716,10 +1718,91 @@ function sendToEditor(p, ed) {
      starts at Script (wizard), finished/posted work returns to Editing for fixes */
   const stageMap = { idea: "script", publish: "editing", scheduled: "editing", posted: "editing" };
   if (stageMap[p.status]) p.status = stageMap[p.status];
+  p.estart = p.status;          /* remember where the editor starts — rejects return here */
   savePlans();
   rerender();
   const lbl = { script: "Script", filming: "Filming", editing: "Editing" }[p.status] || p.status;
   toast("Sent to " + ed.name + " ✂️ — in their " + lbl + " section");
+}
+
+/* ---- file attachments: posters/thumbnails saved in Firebase next to the board ----
+   Each file lives at /boards/<secret>-f-<id> (covered by the same database rules). */
+function fileNode(fid) {
+  const parts = SYNCCFG.slice(3).split("|");
+  return parts[0].replace(/\/+$/, "") + "/boards/" + parts[1] + "-f-" + fid + ".json";
+}
+async function uploadFile(p, file) {
+  if (!isFb()) { toast("File save needs Firebase live sync — owner enables it via ⚡"); return; }
+  if (file.size > 2500000) { toast("Max 2.5 MB — bade files (video) ka Drive link notes me daalo"); return; }
+  const data = await new Promise((res, rej) => {
+    const fr = new FileReader();
+    fr.onload = () => res(fr.result);
+    fr.onerror = rej;
+    fr.readAsDataURL(file);
+  });
+  toast("Uploading… ⏳");
+  try {
+    const fid = "f" + Date.now();
+    const r = await fetch(fileNode(fid), { method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: file.name, type: file.type, data: data,
+        at: new Date().toISOString().slice(0, 16).replace("T", " ") }) });
+    if (!r.ok) throw new Error("put failed");
+    p.files = p.files || [];
+    p.files.push({ id: fid, name: file.name, size: file.size });
+    savePlans();
+    renderBoard();
+    toast("Saved to cloud 📎 — sab devices par milegi");
+  } catch (e) { toast("Upload failed — check connection and retry"); }
+}
+async function openFile(f) {
+  toast("Loading file… ⏳");
+  try {
+    const r = await fetch(fileNode(f.id));
+    const file = await r.json();
+    if (!file || !file.data) throw new Error("missing");
+    const a = document.createElement("a");
+    a.href = file.data;
+    a.download = file.name || f.name || "file";
+    a.click();
+    toast("Downloaded ⬇");
+  } catch (e) { toast("Could not load that file"); }
+}
+function filesWidget(host, p) {
+  const box = document.createElement("div");
+  box.style.cssText = "margin-top:9px;display:flex;flex-wrap:wrap;gap:6px;align-items:center";
+  (p.files || []).forEach(f => {
+    const chip = document.createElement("span");
+    chip.className = "tag";
+    chip.style.cssText = "cursor:pointer;padding:5px 10px;display:inline-flex;gap:7px;align-items:center";
+    chip.innerHTML = "📎 " + esc((f.name || "file").slice(0, 26)) +
+      '<span class="fdel" title="Delete file" style="opacity:.55">✕</span>';
+    chip.title = "Download " + esc(f.name || "");
+    chip.onclick = e => { e.stopPropagation(); openFile(f); };
+    chip.querySelector(".fdel").onclick = async e => {
+      e.stopPropagation();
+      if (!confirm("Delete " + f.name + " from the cloud?")) return;
+      try { await fetch(fileNode(f.id), { method: "DELETE" }); } catch (err) {}
+      p.files = (p.files || []).filter(x => x.id !== f.id);
+      savePlans();
+      renderBoard();
+      toast("File deleted 🗑");
+    };
+    box.appendChild(chip);
+  });
+  const add = document.createElement("button");
+  add.className = "ghost";
+  add.style.cssText = "padding:4px 11px;font-size:11.5px";
+  add.textContent = "+ 📎 Attach file";
+  add.title = "Poster, thumbnail, PDF… (max 2.5 MB)";
+  const inp = document.createElement("input");
+  inp.type = "file";
+  inp.hidden = true;
+  add.onclick = e => { e.stopPropagation(); inp.click(); };
+  inp.onchange = () => { if (inp.files[0]) uploadFile(p, inp.files[0]); };
+  box.appendChild(add);
+  box.appendChild(inp);
+  host.appendChild(box);
 }
 
 /* ---- editor management (owner) ---- */
@@ -1896,6 +1979,7 @@ function renderAssignedView(el) {
         ? '<span class="tag" style="color:#059669;border-color:#059669">✅ Completed</span>'
         : '<span class="tag">' + (STATUS_LBL[p.status] || p.status) + "</span>") +
       (p.revnote ? '<span class="tag" style="color:var(--red);border-color:var(--red)">🔁 revision</span>' : "") +
+      (p.files && p.files.length ? '<span class="tag">📎 ' + p.files.length + "</span>" : "") +
       '<button class="rowdel" style="background:none;border:1px solid var(--line);color:var(--dim);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer">✕</button>';
     d.querySelector(".rowdel").onclick = e => {
       e.stopPropagation();
@@ -1950,6 +2034,7 @@ function renderReadyView(el) {
       '<span style="font-size:11.5px;color:var(--dim);white-space:nowrap">✂️ ' + esc(ed ? ed.name : "Editor") + "</span>" +
       (p.ereadyAt ? '<span style="font-size:11.5px;color:var(--faint);white-space:nowrap">' +
         p.ereadyAt.slice(0, 10) + " " + p.ereadyAt.slice(11, 16) + "</span>" : "") +
+      (p.files && p.files.length ? '<span class="tag">📎 ' + p.files.length + "</span>" : "") +
       '<span class="qtags">' + platTags(p) + "</span>" +
       '<button class="ok-btn" style="background:none;border:1px solid #059669;color:#059669;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">✔ Approve → Publish</button>' +
       '<button class="re-btn" style="background:none;border:1px solid var(--red);color:var(--red);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">✕ Reject + notes</button>';
@@ -1969,11 +2054,13 @@ function renderReadyView(el) {
       if (!note) { toast("Rejection needs a note for the editor"); return; }
       p.revnote = note;
       p.eready = false;
-      /* a post is text — it goes back to their Script wizard; a video to Editing */
-      p.status = p.ctype === "post" ? "script" : "editing";
+      /* the task returns to the stage where the editor STARTED their work */
+      p.status = ["script", "filming", "editing"].indexOf(p.estart) >= 0
+        ? p.estart : (p.ctype === "post" ? "script" : "editing");
       p.assignee = "Editor";
       savePlans(); renderBoard();
-      toast("Rejected — back in " + ed.name + "'s " + (p.status === "script" ? "Script" : "Editing") + " with your notes ✂️");
+      const stLbl = { script: "Script", filming: "Filming", editing: "Editing" }[p.status];
+      toast("Rejected — back in " + ed.name + "'s " + stLbl + " with your notes ✂️");
     };
     el.appendChild(d);
   });
@@ -2181,6 +2268,7 @@ function renderEdStage(el, ed, stage, nextStage, nextLabel) {
         savePlans(); renderBoard(); toast("Back with you 👤");
       };
     }
+    filesWidget(c, p);          /* posters & files live on the task itself */
     el.appendChild(c);
   });
 }
@@ -2394,6 +2482,7 @@ function renderEditorView(el, ed) {
       d.innerHTML = '<span class="tag">' + p.status + "</span>" +
         (p.eready ? '<span class="tag" style="color:#059669;border-color:#059669">✅ ready</span>' : "") +
         (p.revnote ? '<span class="tag" style="color:var(--red);border-color:var(--red)">🔁 fixes</span>' : "") +
+        (p.files && p.files.length ? '<span class="tag">📎 ' + p.files.length + "</span>" : "") +
         '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 60)) + "</span>" +
         '<span class="qtags">' + platTags(p) + "</span>" +
         (isOwner
@@ -2480,6 +2569,9 @@ function openComposer(id, presetDate) {
   document.getElementById("m-date").value = p.when ? p.when.slice(0, 10) : "";
   document.getElementById("m-time").value = p.when ? p.when.slice(11, 16) : "18:00";
   document.getElementById("m-notes").value = p.notes || "";
+  const mf = document.getElementById("m-files");
+  mf.innerHTML = "";
+  filesWidget(mf, p);
   const tplSel = document.getElementById("m-tpl");
   tplSel.innerHTML = '<option value="">— plug &amp; play template —</option>' +
     (window.POST_TEMPLATES || []).map((t, i) =>
@@ -2513,7 +2605,10 @@ function modalSaveFields() {
   p.url = document.getElementById("m-url").value.trim();
   const av = document.getElementById("m-ass").value;
   if (av === "Ahmad") { p.assignee = "Ahmad"; }
-  else { p.assignee = "Editor"; p.eid = av; }
+  else {
+    if (p.assignee !== "Editor") p.estart = document.getElementById("m-status").value;
+    p.assignee = "Editor"; p.eid = av;
+  }
   p.status = document.getElementById("m-status").value;
   const date = document.getElementById("m-date").value;
   p.when = date ? date + "T" + (document.getElementById("m-time").value || "18:00") : "";

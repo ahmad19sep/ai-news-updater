@@ -167,6 +167,23 @@ dom.window.addEventListener("load", () => {
       if (ev('plans.find(p => p.id === 555).assignee') !== "Editor") fail("rejected post not with editor");
       ok("rejected post returns to editor's Script wizard with note");
 
+      // reject returns the task to the stage where the editor STARTED
+      ev('plans.unshift({ id: 666, title: "Filming start", url: "", notes: "", status: "filming",' +
+        'assignee: "Ahmad", platforms: ["yt"], when: "", ctype: "short", chk: {}, ftitle: "" });' +
+        "savePlans(); sendToEditor(plans.find(p => p.id === 666), editors[0]);" +
+        "sendToOwner(plans.find(p => p.id === 666), editors[0]);");
+      prompts.push("Lighting kharab hai");
+      ev('switchTab("plan"); boardView = "ready"; renderBoard();');
+      [...d.querySelectorAll(".qrow")].find(r => r.textContent.includes("Filming start")).querySelector(".re-btn").click();
+      if (ev('plans.find(p => p.id === 666).status') !== "filming") fail("reject did not return to start stage: " + ev('plans.find(p => p.id === 666).status'));
+      ok("reject returns task to the editor's starting stage (filming)");
+
+      // stage cards carry the attach-file widget
+      ev('ROLE = editors[0].id; applyRole(); edView = "filming"; renderEditorsTab();');
+      if (!d.getElementById("edwork").textContent.includes("Attach file")) fail("attach widget missing on stage card");
+      ok("stage cards have the 📎 attach-file widget");
+      ev('ROLE = "owner"; applyRole(true); switchTab("plan");');
+
       // assigned work ALWAYS runs the full sequence: even a post goes Script -> Filming
       ev('var ta = document.createElement("textarea"); ta.id = "wizfinal"; ta.value = "final text";' +
         'document.body.appendChild(ta); wizBind = 555; wiz.type = "post"; wiz.plats = ["x"];' +
