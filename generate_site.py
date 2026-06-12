@@ -607,6 +607,8 @@ let pillar = 0, hideDone = false, hotOnly = false, localOnly = false, mode = "wo
 let assFilter = "All", editingId = null;
 const doneSet = new Set(JSON.parse(localStorage.getItem("done") || "[]"));
 let plans = JSON.parse(localStorage.getItem("plans") || "[]");
+let etasks = JSON.parse(localStorage.getItem("etasks") || "[]");
+function saveEtasks() { localStorage.setItem("etasks", JSON.stringify(etasks)); }
 
 /* migrate old planner cards to ticket format */
 if (localStorage.getItem("plans_v") !== "2") {
@@ -819,6 +821,16 @@ function boardNav() {
       el.appendChild(a);
     }
   });
+  const sep = document.createElement("span");
+  sep.textContent = "\u00b7";
+  sep.style.cssText = "color:var(--faint);margin:0 2px";
+  el.appendChild(sep);
+  const eb = document.createElement("button");
+  const open = etasks.filter(t => !t.done).length;
+  eb.innerHTML = "\u2702\ufe0f Editor" + (open ? " \u00b7 " + open : "");
+  eb.className = boardView === "editor" ? "active" : "";
+  eb.onclick = () => { boardView = "editor"; renderBoard(); };
+  el.appendChild(eb);
 }
 
 function renderBoard() {
@@ -830,6 +842,7 @@ function renderBoard() {
   else if (boardView === "filming") renderStageView(el, "filming", "editing", "Done → Editing", "Nothing in Filming — finish a Script first.");
   else if (boardView === "editing") renderStageView(el, "editing", "publish", "Done → Publish", "Nothing in Editing yet.");
   else if (boardView === "publish") renderPublish(el);
+  else if (boardView === "editor") renderEditorView(el);
   else renderList(el, ["posted"], "Nothing posted yet — your history will appear here.");
 }
 
@@ -1446,6 +1459,89 @@ function renderCalendar(el) {
   el.appendChild(grid);
 }
 
+/* ---- Editor tasks: assign work to the editor with due dates ---- */
+function renderEditorView(el) {
+  const form = document.createElement("div");
+  form.className = "addrow";
+  form.innerHTML =
+    '<input id="et-title" style="flex:1;min-width:200px" placeholder="Task for editor… e.g. Edit Gemini video, make 3 banners">' +
+    '<input id="et-due" type="date">' +
+    '<button class="btn" id="et-add">+ Assign</button>';
+  el.appendChild(form);
+  form.querySelector("#et-add").onclick = () => {
+    const t = form.querySelector("#et-title").value.trim();
+    if (!t) { toast("Task likho pehle"); return; }
+    etasks.unshift({ id: Date.now(), title: t,
+      due: form.querySelector("#et-due").value || "", done: false });
+    saveEtasks();
+    renderBoard();
+    toast("Assigned to Editor ✂️");
+  };
+  form.querySelector("#et-title").addEventListener("keydown", e => {
+    if (e.key === "Enter") form.querySelector("#et-add").click();
+  });
+
+  const today = new Date().toISOString().slice(0, 10);
+  const pending = etasks.filter(t => !t.done)
+    .sort((a, b) => (a.due || "9999").localeCompare(b.due || "9999"));
+  const doneTasks = etasks.filter(t => t.done);
+
+  if (pending.length) {
+    const h = document.createElement("div");
+    h.className = "qday";
+    h.textContent = "To do (" + pending.length + ")";
+    el.appendChild(h);
+  } else {
+    const e2 = document.createElement("div");
+    e2.className = "empty";
+    e2.textContent = "No tasks for the editor — assign one above.";
+    el.appendChild(e2);
+  }
+  pending.concat(doneTasks).forEach(t => {
+    const late = t.due && t.due < today && !t.done;
+    const d = document.createElement("div");
+    d.className = "qrow";
+    if (t.done) d.style.opacity = ".45";
+    d.innerHTML =
+      '<input type="checkbox" class="et-chk" style="width:18px;height:18px;accent-color:#65a30d"' + (t.done ? " checked" : "") + ">" +
+      '<span class="qtext" style="cursor:default">' + (t.done ? "<s>" + esc(t.title) + "</s>" : esc(t.title)) + "</span>" +
+      (t.due ? '<span class="duetag' + (late ? " late" : "") + '" style="font-size:11.5px;font-weight:600;color:' +
+        (late ? "var(--red)" : "var(--dim)") + '">📅 ' + t.due.slice(5) + (late ? " LATE" : "") + "</span>" : "") +
+      '<button class="rowdel" style="background:none;border:1px solid var(--line);color:var(--dim);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer">✕</button>';
+    d.querySelector(".et-chk").onchange = e => {
+      t.done = e.target.checked;
+      saveEtasks();
+      renderBoard();
+      if (t.done) toast("Task done ✓");
+    };
+    d.querySelector(".rowdel").onclick = () => {
+      if (confirm("Delete this task?")) {
+        etasks = etasks.filter(x => x.id !== t.id);
+        saveEtasks();
+        renderBoard();
+      }
+    };
+    el.appendChild(d);
+  });
+
+  const assigned = plans.filter(p => p.assignee === "Editor" && p.status !== "posted");
+  if (assigned.length) {
+    const h2 = document.createElement("div");
+    h2.className = "qday";
+    h2.textContent = "Editor's pipeline items (" + assigned.length + ")";
+    el.appendChild(h2);
+    assigned.forEach(p => {
+      const d = document.createElement("div");
+      d.className = "qrow";
+      d.innerHTML = '<span class="tag">' + p.status + "</span>" +
+        '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 60)) + "</span>" +
+        '<span class="qtags">' + platTags(p) + "</span>";
+      d.onclick = () => openComposer(p.id);
+      el.appendChild(d);
+    });
+  }
+}
+
 /* ---- composer (Buffer-style) ---- */
 function openComposer(id, presetDate) {
   let p = id ? plans.find(x => x.id === id) : null;
@@ -1531,12 +1627,13 @@ document.getElementById("modal").addEventListener("click", e => {
 });
 
 function exportPlans() {
-  const blob = new Blob([JSON.stringify(plans, null, 2)], { type: "application/json" });
+  const blob = new Blob([JSON.stringify({ plans: plans, etasks: etasks }, null, 2)],
+    { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "aixahmad-posts.json";
+  a.download = "aixahmad-board.json";
   a.click();
-  toast("Posts file downloaded — send it to your editor");
+  toast("Board file downloaded — send it to your editor");
 }
 document.getElementById("importfile").addEventListener("change", e => {
   const f = e.target.files[0];
@@ -1544,9 +1641,17 @@ document.getElementById("importfile").addEventListener("change", e => {
   const reader = new FileReader();
   reader.onload = () => {
     try {
-      const arr = JSON.parse(reader.result);
-      if (Array.isArray(arr)) { plans = arr; savePlans(); renderBoard(); toast("Imported ✓"); }
-    } catch (err) { alert("That file is not a valid export."); }
+      const data = JSON.parse(reader.result);
+      if (Array.isArray(data)) {            // old format: plans only
+        plans = data;
+      } else if (data && Array.isArray(data.plans)) {  // new format
+        plans = data.plans;
+        if (Array.isArray(data.etasks)) { etasks = data.etasks; saveEtasks(); }
+      } else { throw new Error("bad"); }
+      savePlans();
+      renderBoard();
+      toast("Board imported ✓");
+    } catch (err) { alert("That file is not a valid board export."); }
   };
   reader.readAsText(f);
 });
