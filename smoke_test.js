@@ -7,6 +7,42 @@ const html = fs.readFileSync(path.join(__dirname, "docs", "index.html"), "utf8")
 const { webcrypto } = require("crypto");
 
 const prompts = [];
+const fail = m => { console.error("FAIL:", m); process.exit(1); };
+const ok = m => console.log("ok -", m);
+
+/* regression: corrupted storage must not blank the app; reloads must not strip fields */
+const domG = new JSDOM(html, {
+  url: "https://ahmad19sep.github.io/ai-news-updater/",
+  runScripts: "dangerously", resources: "usable", pretendToBeVisual: true,
+  beforeParse(window) {
+    Object.defineProperty(window, "crypto", { value: webcrypto });
+    window.prompt = () => ""; window.confirm = () => true; window.alert = () => {};
+    window.localStorage.setItem("plans_v", "4");
+    window.localStorage.setItem("plans", JSON.stringify([
+      null,
+      { id: 1, title: 123, status: "idea" },
+      { id: 2, title: "Good plan", status: "scheduled", when: "2026-01-01T18:00",
+        platforms: ["yt"], assignee: "Editor", eid: "e99", eready: true, ctype: "short", chk: {} },
+    ]));
+    window.localStorage.setItem("etasks", "{corrupt json!!");
+    window.localStorage.setItem("editors", JSON.stringify([{ bad: true }, { id: "e99", name: "usman", ph: "ab" }]));
+    window.localStorage.setItem("enotes", "[]");
+  },
+});
+domG.window.addEventListener("load", () => setTimeout(() => {
+  try {
+    const w2 = domG.window;
+    if (!w2.document.getElementById("homedatetxt").textContent) fail("home blank with corrupted storage");
+    const p2 = w2.eval("plans.find(p => p.id === 2)");
+    if (!p2 || p2.when !== "2026-01-01T18:00" || p2.ctype !== "short" || p2.eid !== "e99" || !p2.eready)
+      fail("reload stripped plan fields: " + JSON.stringify(p2));
+    if (w2.eval("plans.length") !== 2) fail("null plan not dropped");
+    if (w2.eval("editors.length") !== 1) fail("bad editor not dropped");
+    ok("corrupted storage boots clean; reload preserves when/ctype/eid/eready");
+    domG.window.close();
+  } catch (e) { fail(e.stack || String(e)); }
+}, 250));
+
 const dom = new JSDOM(html, {
   url: "https://ahmad19sep.github.io/ai-news-updater/",
   runScripts: "dangerously",
@@ -19,9 +55,6 @@ const dom = new JSDOM(html, {
     window.alert = m => { throw new Error("alert: " + m); };
   },
 });
-
-const fail = m => { console.error("FAIL:", m); process.exit(1); };
-const ok = m => console.log("ok -", m);
 
 dom.window.addEventListener("load", () => {
   setTimeout(async () => {

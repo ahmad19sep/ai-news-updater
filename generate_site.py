@@ -571,6 +571,18 @@ PAGE = r"""<!doctype html>
 
 <script src="templates.js"></script>
 <script>
+/* ---- any crash shows on screen instead of silently blanking the app ---- */
+window.onerror = function (msg, src, line) {
+  try {
+    const el = document.createElement("div");
+    el.style.cssText = "position:fixed;bottom:10px;left:10px;right:10px;background:#7f1d1d;color:#fff;" +
+      "padding:10px 14px;border-radius:10px;font:12px/1.5 Consolas,monospace;z-index:9999;white-space:pre-wrap";
+    el.textContent = "⚠ App error (screenshot this): " + msg + " @ line " + line;
+    el.onclick = () => el.remove();
+    document.body.appendChild(el);
+  } catch (e) {}
+};
+
 /* ---- access gate (light protection - keeps casual visitors out) ---- */
 const LOCKHASH = "__LOCKHASH__";
 async function sha256(t) {
@@ -673,15 +685,44 @@ const PLATFORMS = [["yt","YT long"],["shorts","Shorts"],["tiktok","TikTok"],["ig
   ["fb","FB Reels"],["x","X"],["wa","WhatsApp"],["li","LinkedIn"]];
 let pillar = 0, hideDone = false, hotOnly = false, localOnly = false, mode = "worthy", q = "", shown = PAGE;
 let assFilter = "All", editingId = null;
-const doneSet = new Set(JSON.parse(localStorage.getItem("done") || "[]"));
-let plans = JSON.parse(localStorage.getItem("plans") || "[]");
-let etasks = JSON.parse(localStorage.getItem("etasks") || "[]");
+/* storage reads never crash the app — corrupt values fall back to defaults */
+function jload(key, fallback) {
+  try {
+    const v = JSON.parse(localStorage.getItem(key) || fallback);
+    return v == null ? JSON.parse(fallback) : v;
+  } catch (e) { return JSON.parse(fallback); }
+}
+const _done = jload("done", "[]");
+const doneSet = new Set(Array.isArray(_done) ? _done : []);
+let plans = jload("plans", "[]");
+let etasks = jload("etasks", "[]");
 function saveEtasks() { localStorage.setItem("etasks", JSON.stringify(etasks)); schedulePush(); }
 
 /* ---- multiple editors: each has own workspace, notes, history; role = owner or one editor ---- */
-let editors = JSON.parse(localStorage.getItem("editors") || "[]");
-let enotes = JSON.parse(localStorage.getItem("enotes") || "{}");
-let ehist = JSON.parse(localStorage.getItem("ehist") || "[]");
+let editors = jload("editors", "[]");
+let enotes = jload("enotes", "{}");
+let ehist = jload("ehist", "[]");
+
+/* drop broken entries so one bad item can't blank the whole app */
+function sanitizeBoard() {
+  if (!Array.isArray(plans)) plans = [];
+  plans = plans.filter(p => p && typeof p === "object");
+  plans.forEach(p => {
+    if (typeof p.title !== "string") p.title = String(p.title || "Untitled");
+    if (!Array.isArray(p.platforms)) p.platforms = ["yt", "shorts"];
+    if (!p.status) p.status = "idea";
+    p.chk = p.chk || {};
+  });
+  if (!Array.isArray(etasks)) etasks = [];
+  etasks = etasks.filter(t => t && typeof t === "object");
+  etasks.forEach(t => { if (typeof t.title !== "string") t.title = String(t.title || "Task"); });
+  if (!Array.isArray(editors)) editors = [];
+  editors = editors.filter(e => e && typeof e === "object" && e.id && e.name);
+  if (!enotes || typeof enotes !== "object" || Array.isArray(enotes)) enotes = {};
+  if (!Array.isArray(ehist)) ehist = [];
+  ehist = ehist.filter(h => h && typeof h === "object");
+}
+sanitizeBoard();
 let ROLE = localStorage.getItem("role") || "owner";
 function saveEditors() { localStorage.setItem("editors", JSON.stringify(editors)); schedulePush(); }
 function saveEnotes() { localStorage.setItem("enotes", JSON.stringify(enotes)); schedulePush(); }
@@ -696,11 +737,6 @@ function adoptOrphans(eid) {
   plans.forEach(p => { if (p.assignee === "Editor" && !p.eid) p.eid = eid; });
   saveEtasks(); savePlans();
 }
-if (editors.length) adoptOrphans(editors[0].id);
-if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("role", "owner"); }
-/* an item with an editor is never a bare "idea" — their sequence starts at Script */
-plans.forEach(p => { if (p.assignee === "Editor" && p.status === "idea") p.status = "script"; });
-
 /* ---- live cloud sync ----
    Backends: "fb:<databaseURL>|<secret>"  -> Firebase Realtime Database (recommended,
              instant updates via stream)  |  "bin:<id>" -> free public JSON bin.   */
@@ -725,6 +761,12 @@ function syncURL() {
   return "";
 }
 
+/* boot fixes — must run AFTER the sync vars above exist (their saves push to sync) */
+if (editors.length) adoptOrphans(editors[0].id);
+if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("role", "owner"); }
+/* an item with an editor is never a bare "idea" — their sequence starts at Script */
+plans.forEach(p => { if (p.assignee === "Editor" && p.status === "idea") p.status = "script"; });
+
 function boardState() {
   return { rev: Date.now(), plans: plans, etasks: etasks, editors: editors, enotes: enotes, ehist: ehist };
 }
@@ -735,6 +777,7 @@ function applyBoard(data) {
   if (Array.isArray(data.editors)) editors = data.editors;
   if (data.enotes && typeof data.enotes === "object") enotes = data.enotes;
   if (Array.isArray(data.ehist)) ehist = data.ehist;
+  sanitizeBoard();
   localStorage.setItem("plans", JSON.stringify(plans));
   localStorage.setItem("etasks", JSON.stringify(etasks));
   localStorage.setItem("editors", JSON.stringify(editors));
@@ -873,8 +916,10 @@ setInterval(() => {
 }, 10000);
 window.addEventListener("focus", () => { if (!(isFb() && syncStream)) pollBoard(); });
 
-/* migrate old planner cards to ticket format */
-if (localStorage.getItem("plans_v") !== "2") {
+/* migrate old planner cards to ticket format — each step runs ONCE, never again
+   (the old !== checks re-ran on every load and stripped newer fields) */
+const PV = +(localStorage.getItem("plans_v") || "1") || 1;
+if (PV < 2) {
   const map = { record: "filming", edit: "editing", uploaded: "posted", published: "posted" };
   plans = plans.map(p => ({
     id: p.id, title: p.title, url: p.url || "", notes: p.notes || "",
@@ -884,10 +929,8 @@ if (localStorage.getItem("plans_v") !== "2") {
                p.platform === "short" ? ["shorts"] : ["yt", "shorts"]),
     due: p.due || p.date || "",
   }));
-  localStorage.setItem("plans_v", "2");
-  localStorage.setItem("plans", JSON.stringify(plans));
 }
-if (localStorage.getItem("plans_v") !== "3") {
+if (PV < 3) {
   plans = plans.map(p => ({
     id: p.id, title: p.title, url: p.url || "", notes: p.notes || "",
     status: ({script:"draft",filming:"draft",editing:"draft"})[p.status] || p.status || "idea",
@@ -895,14 +938,14 @@ if (localStorage.getItem("plans_v") !== "3") {
     platforms: p.platforms || ["yt","shorts"],
     when: p.when || (p.due ? p.due + "T18:00" : ""),
   }));
-  localStorage.setItem("plans_v", "3");
-  localStorage.setItem("plans", JSON.stringify(plans));
 }
-if (localStorage.getItem("plans_v") !== "4") {
+if (PV < 4) {
   plans = plans.map(p => Object.assign(p, {
     status: p.status === "draft" ? "script" : p.status,
     ctype: p.ctype || "", chk: p.chk || {}, ftitle: p.ftitle || "",
   }));
+}
+if (PV < 4) {
   localStorage.setItem("plans_v", "4");
   localStorage.setItem("plans", JSON.stringify(plans));
 }
