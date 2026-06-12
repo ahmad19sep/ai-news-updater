@@ -1352,10 +1352,9 @@ function renderCreate(el) {
       '<p class="sub" style="margin-top:14px"><b>Final version</b> (from Claude, after your edits):</p>' +
       '<textarea id="wizfinal" style="width:100%;min-height:120px" placeholder="Paste your final content here…"></textarea>' +
       '<div class="mfoot"><button class="btn" onclick="saveWiz()">' +
-      (wiz.type === "post"
-        ? ((plans.find(x => x.id === wizBind) || {}).assignee === "Editor"
-          ? "✅ Post done → Send Back to Owner" : "✅ Post done → Publish 🗓")
-        : "✅ Script done → Filming 🎥") + "</button>" +
+      ((plans.find(x => x.id === wizBind) || {}).assignee === "Editor"
+        ? "✅ Script done → Filming 🎥"        /* assigned work always runs the full sequence */
+        : (wiz.type === "post" ? "✅ Post done → Publish 🗓" : "✅ Script done → Filming 🎥")) + "</button>" +
       '<button class="ghost" onclick="downloadWiz()">⬇ Download file</button></div>';
     el.appendChild(out);
   }
@@ -1428,16 +1427,11 @@ function saveWiz() {
     plans.unshift(p);
   }
   wizBind = null;
-  if (p.assignee === "Editor") {       /* editor ran the same wizard in their workspace */
-    const ed = edById(p.eid);
-    if (next === "publish" && ed) {    /* a finished post goes straight back for review */
-      savePlans();
-      sendToOwner(p, ed);
-      return;
-    }
-    p.status = next;
+  if (p.assignee === "Editor") {       /* assigned work ALWAYS runs the full sequence:
+                                          script -> filming -> editing -> ready */
+    p.status = "filming";
     savePlans();
-    edView = next;
+    edView = "filming";
     renderBoard();
     toast("Script done \u2192 Filming \uD83C\uDFA5");
     return;

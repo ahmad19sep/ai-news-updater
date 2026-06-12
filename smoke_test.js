@@ -121,6 +121,13 @@ dom.window.addEventListener("load", () => {
       if (ev('plans.find(p => p.id === 555).assignee') !== "Editor") fail("rejected post not with editor");
       ok("rejected post returns to editor's Script wizard with note");
 
+      // assigned work ALWAYS runs the full sequence: even a post goes Script -> Filming
+      ev('var ta = document.createElement("textarea"); ta.id = "wizfinal"; ta.value = "final text";' +
+        'document.body.appendChild(ta); wizBind = 555; wiz.type = "post"; wiz.plats = ["x"];' +
+        "saveWiz(); ta.remove();");
+      if (ev('plans.find(p => p.id === 555).status') !== "filming") fail("editor post skipped filming: " + ev('plans.find(p => p.id === 555).status'));
+      ok("editor's finished post script goes to Filming (full sequence)");
+
       // publish 'Ready to schedule' must NOT show it until approved
       ev('boardView = "publish"; renderBoard();');
       if (d.getElementById("boardview").textContent.includes("Test video")) fail("eready item leaked into Publish");
