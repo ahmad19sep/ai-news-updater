@@ -9,3 +9,8 @@ __pycache__/
 
 # Your personal studio data (plans, done marks) - stays on your PC
 plans.db
+
+# Node (only needed locally to run smoke_test.js)
+node_modules/
+package.json
+package-lock.json

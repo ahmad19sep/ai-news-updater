@@ -1,0 +1,109 @@
+/* Smoke test for the multi-editor workflow (not shipped; run: node smoke_test.js) */
+const fs = require("fs");
+const path = require("path");
+const { JSDOM } = require("jsdom");
+
+const html = fs.readFileSync(path.join(__dirname, "docs", "index.html"), "utf8");
+const { webcrypto } = require("crypto");
+
+const prompts = [];
+const dom = new JSDOM(html, {
+  url: "https://ahmad19sep.github.io/ai-news-updater/",
+  runScripts: "dangerously",
+  resources: "usable",
+  pretendToBeVisual: true,
+  beforeParse(window) {
+    Object.defineProperty(window, "crypto", { value: webcrypto });
+    window.prompt = () => prompts.shift() ?? "";
+    window.confirm = () => true;
+    window.alert = m => { throw new Error("alert: " + m); };
+  },
+});
+
+const fail = m => { console.error("FAIL:", m); process.exit(1); };
+const ok = m => console.log("ok -", m);
+
+dom.window.addEventListener("load", () => {
+  setTimeout(async () => {
+    const w = dom.window;
+    const d = w.document;
+    const ev = s => w.eval(s);
+    try {
+      // Editors tab exists and is empty
+      ev('switchTab("editors")');
+      if (d.getElementById("tab-editors").hidden) fail("editors tab not shown");
+      ok("Editors tab opens");
+
+      // add an editor with password
+      prompts.push("Hamza", "secret123");
+      await ev("addEditor()");
+      if (ev("editors.length") !== 1) fail("editor not created");
+      if (!ev("editors[0].ph")) fail("password hash not stored");
+      ok("editor created with password hash");
+
+      // owner workspace shows link/password buttons
+      if (!d.getElementById("ed-link") || !d.getElementById("ed-pass")) fail("link/password buttons missing");
+      ok("workspace has Copy link + Password buttons");
+
+      // create a plan and send it to the editor
+      ev('plans.unshift({ id: 111, title: "Test video", url: "", notes: "brief here",' +
+        'status: "editing", assignee: "Ahmad", platforms: ["yt"], when: "", ctype: "short", chk: {}, ftitle: "" });' +
+        "savePlans(); sendToEditor(plans.find(p => p.id === 111), editors[0]);");
+      if (ev('plans.find(p => p.id === 111).assignee') !== "Editor") fail("sendToEditor did not assign");
+      ok("item assigned to editor");
+
+      // item must disappear from owner's Buffer editing view
+      ev('switchTab("plan"); boardView = "editing"; renderBoard();');
+      if (d.getElementById("boardview").textContent.includes("Test video")) fail("assigned item still in owner Buffer");
+      ok("assigned item left the owner's Buffer");
+
+      // editor sends it back
+      ev("sendToOwner(plans.find(p => p.id === 111), editors[0])");
+      if (!ev('plans.find(p => p.id === 111).eready && plans.find(p => p.id === 111).status === "publish" && plans.find(p => p.id === 111).ereadyAt ? 1 : 0')) fail("sendToOwner state wrong");
+      if (!ev("ehist.length")) fail("history not recorded");
+      ok("Send Back to Owner works + history recorded");
+
+      // Ready to Post tab shows it with editor name
+      ev('boardView = "ready"; renderBoard();');
+      const txt = d.getElementById("boardview").textContent;
+      if (!txt.includes("Test video") || !txt.includes("Hamza") || !txt.includes("completed")) fail("Ready to Post missing info: " + txt.slice(0, 200));
+      ok("Ready to Post shows item + editor name + status");
+
+      // publish 'Ready to schedule' must NOT show it until approved
+      ev('boardView = "publish"; renderBoard();');
+      if (d.getElementById("boardview").textContent.includes("Test video")) fail("eready item leaked into Publish");
+      ev('plans.find(x => x.id === 111).eready = false; renderBoard();');
+      if (!d.getElementById("boardview").textContent.includes("Test video")) fail("approved item not in Publish");
+      ok("approve flow moves item into Publish");
+
+      // editor-mode lockdown
+      ev("ROLE = editors[0].id; applyRole();");
+      if (d.getElementById("tabbtn-plan").style.display !== "none") fail("Buffer tab visible to editor");
+      if (d.getElementById("tab-editors").hidden) fail("editor not on Editors tab");
+      if (d.getElementById("edwork").textContent.includes("Remove editor")) fail("owner controls visible to editor");
+      ok("editor mode: Buffer hidden, only own workspace");
+
+      // editor task flow with performance stats (late task)
+      ev('etasks.unshift({ id: 222, title: "Make 3 banners", eid: editors[0].id, due: "2020-01-01", done: false });' +
+        "saveEtasks(); renderEditorsTab();");
+      const chk = d.querySelector(".et-chk");
+      if (!chk) fail("editor task checkbox missing");
+      chk.checked = true;
+      chk.dispatchEvent(new w.Event("change"));
+      if (!ev('ehist.some(h => h.kind === "task" && h.late) ? 1 : 0')) fail("late task not tracked");
+      const stats = d.getElementById("edwork").textContent;
+      if (!stats.includes("Late")) fail("stats panel missing");
+      ok("task completion tracked (late detected) + stats render");
+
+      // editor password gate check (hash comparison)
+      const phOk = await ev('sha256("secret123")');
+      if (phOk !== ev("editors[0].ph")) fail("password hash mismatch");
+      ok("gate password hash verifies");
+
+      console.log("ALL SMOKE TESTS PASSED");
+      process.exit(0);
+    } catch (e) {
+      fail(e.stack || String(e));
+    }
+  }, 300);
+});

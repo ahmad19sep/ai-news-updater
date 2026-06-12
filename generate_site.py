@@ -466,8 +466,9 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-trends" onclick="switchTab('trends')">Trends</button>
       <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Buffer</button>
+      <button id="tabbtn-editors" onclick="switchTab('editors')">Editors</button>
     </nav>
-    <button class="themebtn" id="rolebtn" onclick="roleSwitch()" title="Owner / editor mode">👤</button>
+    <button class="themebtn" id="rolebtn" onclick="roleSwitch(event)" title="Owner / editor mode">👤</button>
     <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
     <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
   </div>
@@ -520,6 +521,13 @@ PAGE = r"""<!doctype html>
       <input type="file" id="importfile" accept=".json" hidden>
     </div>
     <div id="boardview"></div>
+  </section>
+
+  <section id="tab-editors" hidden>
+    <div class="addrow" style="align-items:center;margin-top:20px">
+      <div class="bar" id="ednav" style="margin:0"></div>
+    </div>
+    <div id="edwork"></div>
   </section>
 
 </div>
@@ -575,6 +583,53 @@ async function tryUnlock() {
     document.getElementById("lockerr").textContent = "Wrong code - try again.";
   }
 }
+/* ---- editor private link: site/#editor=<id> shows the editor login gate ---- */
+const EDLINK = (location.hash.match(/editor=(\w+)/) || [])[1] || "";
+function edGateShow(msg) {
+  const ed = edById(EDLINK);
+  const box = document.querySelector("#lock .lockbox");
+  document.getElementById("lock").hidden = false;
+  box.innerHTML = '<div class="orb">A</div>' +
+    "<h2>✂️ Editor login</h2>" +
+    (ed ? "<p>Hi <b>" + esc(ed.name) + "</b> — enter the password the owner gave you.</p>"
+        : "<p>Pehle owner ka bheja hua board file import karo — phir password.</p>") +
+    '<div class="err" id="edlockerr">' + (msg || "") + "</div>" +
+    (ed ? '<input id="edlockpass" type="password" placeholder="your password" autocomplete="off">' +
+          '<button class="btn" style="width:100%;margin-top:8px" onclick="edTryUnlock()">Enter workspace</button>' : "") +
+    '<button class="ghost" style="width:100%;margin-top:8px" onclick="document.getElementById(\'importfile\').click()">⬆ Import board file</button>' +
+    '<button class="ghost" style="width:100%;margin-top:8px" onclick="ownerExitGate()">I am the owner</button>';
+  const inp = document.getElementById("edlockpass");
+  if (inp) inp.addEventListener("keydown", e => { if (e.key === "Enter") edTryUnlock(); });
+}
+async function edTryUnlock() {
+  const ed = edById(EDLINK);
+  if (!ed) return;
+  if (!ed.ph) { document.getElementById("edlockerr").textContent = "Owner has not set your password yet."; return; }
+  const pass = (document.getElementById("edlockpass").value || "").trim();
+  if (await sha256(pass) === ed.ph) {
+    localStorage.setItem("edunlock", ed.ph);
+    ROLE = ed.id;
+    localStorage.setItem("role", ROLE);
+    document.getElementById("lock").hidden = true;
+    applyRole();
+    toast("Welcome, " + ed.name + " ✂️");
+  } else {
+    document.getElementById("edlockerr").textContent = "Wrong password — try again.";
+  }
+}
+async function ownerExitGate() {
+  if (LOCKHASH) {
+    const code = prompt("Owner access code:") || "";
+    if (await sha256(code) !== LOCKHASH) { toast("Wrong code ❌"); return; }
+    localStorage.setItem("unlock", LOCKHASH);
+  }
+  ROLE = "owner";
+  localStorage.setItem("role", "owner");
+  history.replaceState(null, "", location.pathname + location.search);
+  document.getElementById("lock").hidden = true;
+  applyRole();
+}
+
 /* ---- theme ---- */
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark");
@@ -586,7 +641,7 @@ function toggleTheme() {
   document.getElementById("themebtn").textContent = dark ? "☀️" : "🌙";
 }
 
-if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) {
+if (!EDLINK && LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) {
   document.getElementById("lock").hidden = false;
   setTimeout(() => {
     document.getElementById("lockcode").addEventListener("keydown",
@@ -673,14 +728,20 @@ function toast(msg) {
 }
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); }
 function switchTab(name) {
-  if (ROLE !== "owner") name = "plan";   /* editors only see their workspace */
-  ["home","news","trends","research","plan"].forEach(n => {
+  if (ROLE !== "owner") name = "editors";   /* editors only see their workspace */
+  ["home","news","trends","research","plan","editors"].forEach(n => {
     document.getElementById("tab-" + n).hidden = n !== name;
     document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
   });
   if (name === "home") renderHome();
   if (name === "plan") renderBoard();
+  if (name === "editors") renderEditorsTab();
   if (name === "research") renderResearch();
+}
+/* re-render whichever workspace is on screen */
+function rerender() {
+  if (!document.getElementById("tab-editors").hidden) renderEditorsTab();
+  else if (!document.getElementById("tab-plan").hidden) renderBoard();
 }
 function ago(iso) {
   if (!iso) return "";
@@ -813,7 +874,7 @@ function renderResearch() {
 }
 
 /* ---------------- Publish board (Buffer style) ---------------- */
-let boardView = "ideas", calOffset = 0, edView = "work";
+let boardView = "ideas", calOffset = 0, edView = "work", edSel = "";
 
 function addPlan(title, url) {
   plans.unshift({ id: Date.now(), title, url: url || "", notes: "",
@@ -830,17 +891,13 @@ function edOpenCount(ed) {
 function boardNav() {
   const el = document.getElementById("boardnav");
   el.innerHTML = "";
-  if (ROLE !== "owner") {                    /* editor mode: just their own tab */
-    const ed = edById(ROLE);
-    const b = document.createElement("button");
-    b.innerHTML = "✂️ " + esc(ed.name) + "'s workspace";
-    b.className = "active";
-    el.appendChild(b);
-    return;
-  }
-  const cnt = s => plans.filter(p => p.status === s).length;
+  /* items handed to an editor live in the Editors tab, not here */
+  const cnt = s => plans.filter(p => p.status === s && p.assignee !== "Editor").length;
   const counts = { ideas: cnt("idea"), script: cnt("script"), filming: cnt("filming"),
-    editing: cnt("editing"), publish: cnt("publish") + cnt("scheduled"), posted: cnt("posted") };
+    editing: cnt("editing"),
+    publish: plans.filter(p => p.assignee !== "Editor" &&
+      ((p.status === "publish" && !p.eready) || p.status === "scheduled")).length,
+    posted: cnt("posted") };
   const steps = [["ideas","\uD83D\uDCA1 Ideas"],["script","\u270D\uFE0F Script"],
     ["filming","\uD83C\uDFA5 Filming"],["editing","\u2702\uFE0F Editing"],
     ["publish","\uD83D\uDDD3 Publish"],["posted","\u2705 Posted"]];
@@ -861,47 +918,27 @@ function boardNav() {
   sep.textContent = "\u00b7";
   sep.style.cssText = "color:var(--faint);margin:0 2px";
   el.appendChild(sep);
-  if (!editors.length) {                     /* no editors yet: clicking asks to add one */
-    const eb = document.createElement("button");
-    eb.innerHTML = "\u2702\ufe0f Editor";
-    eb.onclick = () => addEditor();
-    el.appendChild(eb);
-  } else {
-    editors.forEach(ed => {                  /* one tab per editor, with their name */
-      const open = edOpenCount(ed);
-      const eb = document.createElement("button");
-      eb.innerHTML = "\u2702\ufe0f " + esc(ed.name) + (open ? " \u00b7 " + open : "");
-      eb.className = boardView === "ed:" + ed.id ? "active" : "";
-      eb.onclick = () => {
-        if (boardView !== "ed:" + ed.id) edView = "work";
-        boardView = "ed:" + ed.id;
-        renderBoard();
-      };
-      el.appendChild(eb);
-    });
-    const plus = document.createElement("button");
-    plus.textContent = "+";
-    plus.title = "Add another editor";
-    plus.onclick = () => addEditor();
-    el.appendChild(plus);
-  }
+  const rdy = plans.filter(p => p.eready && p.status === "publish").length;
+  const rb = document.createElement("button");
+  rb.innerHTML = "\ud83d\udcec Ready to Post" + (rdy ? " \u00b7 " + rdy : "");
+  rb.className = boardView === "ready" ? "active" : "";
+  rb.onclick = () => { boardView = "ready"; renderBoard(); };
+  el.appendChild(rb);
 }
 
 function renderBoard() {
-  if (ROLE !== "owner") boardView = "ed:" + ROLE;   /* editors are locked to their workspace */
+  /* workspace handlers call renderBoard(); route to whichever tab is on screen */
+  if (!document.getElementById("tab-editors").hidden) { renderEditorsTab(); return; }
+  if (ROLE !== "owner") return;            /* Buffer is owner-only */
   boardNav();
   const el = document.getElementById("boardview");
   el.innerHTML = "";
-  if (boardView.slice(0, 3) === "ed:") {
-    const ed = edById(boardView.slice(3));
-    if (ed) { renderEditorView(el, ed); return; }
-    boardView = "ideas";
-  }
   if (boardView === "ideas") renderIdeas(el);
   else if (boardView === "script") renderScriptView(el);
   else if (boardView === "filming") renderStageView(el, "filming", "editing", "Done → Editing", "Nothing in Filming — finish a Script first.");
   else if (boardView === "editing") renderStageView(el, "editing", "publish", "Done → Publish", "Nothing in Editing yet.");
   else if (boardView === "publish") renderPublish(el);
+  else if (boardView === "ready") renderReadyView(el);
   else renderList(el, ["posted"], "Nothing posted yet — your history will appear here.");
 }
 
@@ -942,7 +979,7 @@ const STAGE_CHK = {
 let pubCal = false;
 
 function renderScriptView(el) {
-  const inProg = plans.filter(p => p.status === "script");
+  const inProg = plans.filter(p => p.status === "script" && p.assignee !== "Editor");
   if (inProg.length) {
     const box = document.createElement("div");
     box.className = "bar";
@@ -981,15 +1018,14 @@ function renderScriptView(el) {
 }
 
 function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
-  const items = plans.filter(p => p.status === stage);
+  const items = plans.filter(p => p.status === stage && p.assignee !== "Editor");
   if (!items.length) { el.innerHTML = '<div class="empty">' + emptyMsg + "</div>"; return; }
   items.forEach(p => {
     p.chk = p.chk || {};
     const c = document.createElement("div");
     c.className = "panel";
     let inner = '<h3 style="color:var(--text)">' + esc(p.title.split("\n")[0]) +
-      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") +
-      (p.assignee === "Editor" ? ' <span class="tag" style="color:#d97706;border-color:#d97706">✂️ ' + esc(holderName(p)) + "</span>" : "") + "</h3>";
+      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + "</h3>";
     if (stage === "filming") {
       inner += '<div class="genrow"><input class="ftitle" style="flex:1;min-width:200px" placeholder="Final video title…" value="' + esc(p.ftitle || "") + '">' +
         '<button class="ghost poster-btn">🎨 Poster prompt</button></div>';
@@ -1000,9 +1036,7 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
     if (p.notes) inner += '<details class="scriptbox"><summary>📜 Script / content</summary><pre>' + esc(p.notes) + "</pre></details>";
     inner += '<div class="mfoot"><button class="btn next-btn">' + nextLabel + "</button>" +
       '<button class="ghost edit-btn">✎ Edit details</button>' +
-      '<button class="ghost hand-btn"' +
-      (p.assignee === "Editor" ? ' style="color:#d97706;border-color:#d97706"' : "") + ">" +
-      handLabel(p) + "</button>" +
+      '<button class="ghost hand-btn">✂️ → Editor</button>' +
       '<button class="danger del-btn" style="margin-left:auto">🗑 Delete</button></div>';
     c.innerHTML = inner;
     const ft = c.querySelector(".ftitle");
@@ -1025,7 +1059,7 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
       toast("Moved ✓");
     };
     c.querySelector(".edit-btn").onclick = () => openComposer(p.id);
-    c.querySelector(".hand-btn").onclick = () => handOff(p);
+    c.querySelector(".hand-btn").onclick = ev => pickEditorMenu(ev, ed => sendToEditor(p, ed));
     c.querySelector(".del-btn").onclick = () => {
       if (confirm("Delete this item?")) {
         plans = plans.filter(x => x.id !== p.id);
@@ -1051,8 +1085,9 @@ function renderPublish(el) {
   });
   el.appendChild(top);
   if (pubCal) { renderCalendar(el); return; }
-  const ready = plans.filter(p => p.status === "publish");
-  const sched = plans.filter(p => p.status === "scheduled" && p.when)
+  /* eready items wait in the Ready to Post tab until reviewed */
+  const ready = plans.filter(p => p.status === "publish" && !p.eready && p.assignee !== "Editor");
+  const sched = plans.filter(p => p.status === "scheduled" && p.when && p.assignee !== "Editor")
     .sort((a, b) => a.when.localeCompare(b.when));
   if (!ready.length && !sched.length) {
     const e2 = document.createElement("div");
@@ -1371,42 +1406,64 @@ function downloadWiz() {
   toast("Downloaded — drop it into your Drive folder");
 }
 
-/* hand off cycles: Ahmad -> editor 1 -> editor 2 -> ... -> Ahmad */
-function nextHolder(p) {
-  if (p.assignee !== "Editor") return editors.length ? editors[0].name : "Editor";
-  const i = editors.findIndex(e => e.id === p.eid);
-  return (i >= 0 && i < editors.length - 1) ? editors[i + 1].name : "Owner";
+/* ---- assign work: the owner picks which editor gets the item ---- */
+function closeEdMenu() {
+  const m = document.getElementById("edmenu");
+  if (m) m.remove();
 }
-function handLabel(p) {
-  const n = nextHolder(p);
-  return n === "Owner" ? "👤 → Owner" : "✂️ → " + esc(n);
-}
-function handOff(p) {
-  if (p.assignee !== "Editor") {
-    if (!editors.length && !addEditor()) return;
-    p.assignee = "Editor"; p.eid = editors[0].id; p.eready = false;
-  } else {
-    const i = editors.findIndex(e => e.id === p.eid);
-    if (i >= 0 && i < editors.length - 1) { p.eid = editors[i + 1].id; }
-    else { p.assignee = "Ahmad"; }
+function pickEditorMenu(ev, cb) {
+  if (!editors.length) {
+    addEditor().then(ok => { if (ok && editors.length) cb(editors[editors.length - 1]); });
+    return;
   }
+  if (editors.length === 1) { cb(editors[0]); return; }
+  closeEdMenu();
+  const m = document.createElement("div");
+  m.id = "edmenu";
+  m.style.cssText = "position:fixed;z-index:99;background:var(--surface);border:1px solid var(--line);" +
+    "border-radius:10px;box-shadow:var(--shadow-sm);padding:6px;display:flex;flex-direction:column;gap:4px;min-width:150px";
+  const x = ev && ev.clientX ? ev.clientX : innerWidth / 2;
+  const y = ev && ev.clientY ? ev.clientY : 90;
+  m.style.left = Math.min(x, innerWidth - 180) + "px";
+  m.style.top = Math.min(y, innerHeight - 40 * editors.length - 20) + "px";
+  editors.forEach(ed => {
+    const b = document.createElement("button");
+    b.className = "ghost";
+    b.style.cssText = "padding:7px 12px;font-size:12.5px;text-align:left";
+    b.textContent = "✂️ " + ed.name;
+    b.onclick = e => { e.stopPropagation(); closeEdMenu(); cb(ed); };
+    m.appendChild(b);
+  });
+  document.body.appendChild(m);
+  setTimeout(() => document.addEventListener("click", closeEdMenu, { once: true }), 0);
+}
+function sendToEditor(p, ed) {
+  p.assignee = "Editor";
+  p.eid = ed.id;
+  p.eready = false;
   savePlans();
-  renderBoard();
-  toast(p.assignee === "Editor" ? "Sent to " + edById(p.eid).name + " ✂️" : "Back with you 👤");
+  rerender();
+  toast("Sent to " + ed.name + " ✂️ — it's in their workspace now");
 }
 
 /* ---- editor management (owner) ---- */
-function addEditor() {
+async function addEditor() {
   const name = (prompt("New editor's name?") || "").trim();
   if (!name) return false;
-  const ed = { id: "e" + Date.now(), name: name };
+  const pass = (prompt("Set " + name + "'s access password (they log in with it on their private link):") || "").trim();
+  if (!pass) { toast("Password zaroori hai — editor isi se login karega 🔑"); return false; }
+  const ed = { id: "e" + Date.now(), name: name, ph: await sha256(pass) };
   editors.push(ed);
   saveEditors();
   adoptOrphans(ed.id);
-  boardView = "ed:" + ed.id;
-  renderBoard();
-  toast(name + " added ✂️");
+  edSel = ed.id;
+  edView = "work";
+  switchTab("editors");
+  toast(name + " added ✂️ — copy their private link from the workspace");
   return true;
+}
+function editorLink(ed) {
+  return location.origin + location.pathname + "#editor=" + ed.id;
 }
 function renameEditor(ed) {
   const name = (prompt("Editor's new name?", ed.name) || "").trim();
@@ -1422,35 +1479,46 @@ function removeEditor(ed) {
   delete enotes[ed.id];
   saveEditors(); saveEnotes(); saveEtasks(); savePlans();
   if (ROLE === ed.id) { ROLE = "owner"; localStorage.setItem("role", "owner"); applyRole(true); }
-  boardView = "ideas";
+  edSel = "";
   renderBoard();
   toast(ed.name + " removed");
 }
 
 /* ---- role: this device acts as owner or as one editor ---- */
-function roleSwitch() {
-  if (!editors.length) { toast("Add an editor first (✂️ button in Buffer)"); return; }
-  const ids = ["owner"].concat(editors.map(e => e.id));
-  ROLE = ids[(ids.indexOf(ROLE) + 1) % ids.length];
-  localStorage.setItem("role", ROLE);
-  applyRole();
-  toast(ROLE === "owner" ? "Owner mode 👤" : "Editor mode: " + edById(ROLE).name + " ✂️");
+async function roleSwitch(ev) {
+  if (ROLE !== "owner") {                    /* leaving editor mode needs the owner code */
+    if (LOCKHASH) {
+      const code = prompt("Owner access code:") || "";
+      if (await sha256(code) !== LOCKHASH) { toast("Wrong code ❌"); return; }
+    } else if (!confirm("Return to owner mode?")) return;
+    ROLE = "owner";
+    localStorage.setItem("role", "owner");
+    applyRole();
+    toast("Owner mode 👤");
+    return;
+  }
+  if (!editors.length) { toast("No editors yet — add one in the Editors tab"); return; }
+  pickEditorMenu(ev, ed => {
+    ROLE = ed.id;
+    localStorage.setItem("role", ROLE);
+    if (ed.ph) localStorage.setItem("edunlock", ed.ph);  /* owner device: no password prompt */
+    applyRole();
+    toast("Editor mode: " + ed.name + " ✂️");
+  });
 }
 function applyRole(noNav) {
   const owner = ROLE === "owner";
-  ["home", "news", "trends", "research"].forEach(n => {
+  ["home", "news", "trends", "research", "plan"].forEach(n => {
     const b = document.getElementById("tabbtn-" + n);
     if (b) b.style.display = owner ? "" : "none";
   });
-  const np = document.getElementById("newpostbtn");
-  if (np) np.style.display = owner ? "" : "none";
   const rb = document.getElementById("rolebtn");
   if (rb) {
     rb.textContent = owner ? "👤" : "✂️";
     rb.title = owner ? "Owner mode — click to act as an editor"
-      : "Editor mode: " + edById(ROLE).name + " — click to switch";
+      : "Editor mode: " + edById(ROLE).name + " — click to return to owner mode";
   }
-  if (!noNav) switchTab(owner ? "home" : "plan");
+  if (!noNav) switchTab(owner ? "home" : "editors");
 }
 
 function platTags(p, max) {
@@ -1466,15 +1534,16 @@ function postRow(p, withTime) {
   d.className = "qrow";
   d.innerHTML =
     (withTime ? '<span class="qtime">' + (p.when ? p.when.slice(11, 16) : "--:--") + "</span>" : "") +
-    '<span class="avatar ' + (p.assignee === "Editor" ? "editor" : "ahmad") +
-    '" style="cursor:pointer" title="With ' + esc(holderName(p)) + ' — click to hand off">' +
-    esc(holderName(p).slice(0, 1).toUpperCase()) + "</span>" +
+    '<span class="avatar ahmad" style="cursor:pointer" title="Click to send to an editor">A</span>' +
     (p.eready ? '<span class="tag" style="color:#059669;border-color:#059669">✅ ready</span>' : "") +
     '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 80)) + "</span>" +
     '<span class="qtags">' + platTags(p) + "</span>" +
     '<button class="rowdel" style="background:none;border:1px solid var(--line);color:var(--dim);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer">✕</button>';
   d.onclick = () => openComposer(p.id);
-  d.querySelector(".avatar").onclick = e => { e.stopPropagation(); handOff(p); };
+  d.querySelector(".avatar").onclick = e => {
+    e.stopPropagation();
+    pickEditorMenu(e, ed => sendToEditor(p, ed));
+  };
   d.querySelector(".rowdel").onclick = e => {
     e.stopPropagation();
     if (confirm("Delete this item?")) {
@@ -1497,7 +1566,7 @@ function dayName(iso) {
 }
 
 function renderQueue(el) {
-  const sched = plans.filter(p => p.status === "scheduled" && p.when)
+  const sched = plans.filter(p => p.status === "scheduled" && p.when && p.assignee !== "Editor")
     .sort((a, b) => a.when.localeCompare(b.when));
   if (!sched.length) {
     el.innerHTML = '<div class="empty">Queue is empty — schedule a draft, or press + New post.</div>';
@@ -1523,6 +1592,49 @@ function renderList(el, statuses, emptyMsg) {
   items.forEach(p => el.appendChild(postRow(p, false)));
 }
 
+/* ---- Ready to Post: work editors sent back, waiting for the owner's review ---- */
+function renderReadyView(el) {
+  const items = plans.filter(p => p.eready && p.status === "publish")
+    .sort((a, b) => (b.ereadyAt || "").localeCompare(a.ereadyAt || ""));
+  if (!items.length) {
+    el.innerHTML = '<div class="empty">Nothing waiting — when an editor presses "Send Back to Owner", it lands here.</div>';
+    return;
+  }
+  items.forEach(p => {
+    const ed = edById(p.eid);
+    const d = document.createElement("div");
+    d.className = "qrow";
+    d.innerHTML =
+      '<span class="avatar editor" title="' + esc(ed ? ed.name : "Editor") + '">' +
+      esc((ed ? ed.name : "E").slice(0, 1).toUpperCase()) + "</span>" +
+      '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 70)) + "</span>" +
+      '<span class="tag" style="color:#059669;border-color:#059669">✅ completed</span>' +
+      '<span style="font-size:11.5px;color:var(--dim);white-space:nowrap">✂️ ' + esc(ed ? ed.name : "Editor") + "</span>" +
+      (p.ereadyAt ? '<span style="font-size:11.5px;color:var(--faint);white-space:nowrap">' +
+        p.ereadyAt.slice(0, 10) + " " + p.ereadyAt.slice(11, 16) + "</span>" : "") +
+      '<span class="qtags">' + platTags(p) + "</span>" +
+      '<button class="ok-btn" style="background:none;border:1px solid #059669;color:#059669;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">✔ Approve → Publish</button>' +
+      '<button class="re-btn" style="background:none;border:1px solid #d97706;color:#d97706;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">↩ Back to editor</button>';
+    d.onclick = () => openComposer(p.id);
+    d.querySelector(".ok-btn").onclick = e => {
+      e.stopPropagation();
+      p.eready = false;                        /* reviewed: schedule & post from Publish */
+      savePlans(); renderBoard();
+      toast("Approved — it's in Publish, schedule it 🗓");
+    };
+    d.querySelector(".re-btn").onclick = e => {
+      e.stopPropagation();
+      if (!edById(p.eid)) { toast("That editor no longer exists"); return; }
+      p.eready = false;
+      p.status = "editing";
+      p.assignee = "Editor";
+      savePlans(); renderBoard();
+      toast("Sent back to " + edById(p.eid).name + " for fixes ✂️");
+    };
+    el.appendChild(d);
+  });
+}
+
 function renderIdeas(el) {
   const top = document.createElement("div");
   top.className = "addrow";
@@ -1539,27 +1651,24 @@ function renderIdeas(el) {
   }, 0);
   const grid = document.createElement("div");
   grid.className = "ideagrid";
-  const ideas = plans.filter(p => p.status === "idea");
+  const ideas = plans.filter(p => p.status === "idea" && p.assignee !== "Editor");
   if (!ideas.length) grid.innerHTML =
     '<div class="empty">No ideas yet — the 🎬 plan button on any news story drops it here.</div>';
   ideas.forEach(p => {
     const c = document.createElement("div");
     c.className = "ideacard";
-    const withEd = p.assignee === "Editor";
     c.innerHTML = '<div class="t">' + esc(p.title.split("\n")[0]) + "</div>" +
       (p.url ? '<a href="' + esc(p.url) + '" target="_blank">source</a>' : "") +
-      (withEd ? '<div style="margin-top:6px;font-size:11.5px;font-weight:600;color:#d97706">✂️ with ' + esc(holderName(p)) + "</div>" : "") +
       '<div style="margin-top:10px;display:flex;gap:6px">' +
       '<button class="ghost" style="padding:5px 12px;font-size:12px">✍️ → Script</button>' +
-      '<button class="ghost" style="padding:5px 10px;font-size:12px' +
-      (withEd ? ";color:#d97706;border-color:#d97706" : "") + '">' + handLabel(p) + "</button>" +
+      '<button class="ghost" style="padding:5px 10px;font-size:12px">✂️ → Editor</button>' +
       '<button class="danger" style="padding:5px 10px;font-size:12px;margin-left:auto">✕</button></div>';
     const btns = c.querySelectorAll("button");
     btns[0].onclick = () => {
       p.status = "script"; savePlans();
       openCreate(p.title.split("\n")[0], p.url || "", p.ctype ? { type: p.ctype } : null, p.id);
     };
-    btns[1].onclick = () => handOff(p);
+    btns[1].onclick = ev => pickEditorMenu(ev, ed => sendToEditor(p, ed));
     btns[2].onclick = () => {
       if (confirm("Delete idea?")) {
         plans = plans.filter(x => x.id !== p.id); savePlans(); renderBoard();
@@ -1618,10 +1727,12 @@ function renderCalendar(el) {
 function planKind(p) { return p.ctype === "post" ? "post" : "video"; }
 
 function sendToOwner(p, ed) {
-  const today = new Date().toISOString().slice(0, 10);
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
   p.eready = true;
+  p.ereadyAt = now.toISOString();
   p.assignee = "Ahmad";
-  if (["script", "filming", "editing"].indexOf(p.status) >= 0) p.status = "publish";
+  p.status = "publish";                      /* lands in the owner's Ready to Post tab */
   if (!ehist.some(h => h.ref === p.id)) {
     ehist.unshift({ eid: ed.id, ref: p.id, title: p.title.split("\n")[0].slice(0, 60),
       kind: planKind(p), due: p.when ? p.when.slice(0, 10) : "", doneAt: today,
@@ -1629,8 +1740,51 @@ function sendToOwner(p, ed) {
     saveEhist();
   }
   savePlans();
-  renderBoard();
-  toast("Sent to owner — ready to post ✅");
+  rerender();
+  toast("Sent back to owner ✅ — it's in their Ready to Post list");
+}
+
+/* ---- Editors tab: every editor's workspace lives here, away from Buffer ---- */
+function renderEditorsTab() {
+  const nav = document.getElementById("ednav");
+  const out = document.getElementById("edwork");
+  nav.innerHTML = "";
+  out.innerHTML = "";
+  if (ROLE !== "owner") {                    /* an editor sees only their own workspace */
+    const ed = edById(ROLE);
+    if (!ed) {
+      out.innerHTML = '<div class="empty">No workspace on this device — ask the owner for your link.</div>';
+      return;
+    }
+    const b = document.createElement("button");
+    b.innerHTML = "✂️ " + esc(ed.name) + "&rsquo;s workspace";
+    b.className = "active";
+    nav.appendChild(b);
+    renderEditorView(out, ed);
+    return;
+  }
+  editors.forEach(ed => {
+    const open = edOpenCount(ed);
+    const b = document.createElement("button");
+    b.innerHTML = "✂️ " + esc(ed.name) + (open ? " · " + open : "");
+    b.className = edSel === ed.id ? "active" : "";
+    b.onclick = () => {
+      if (edSel !== ed.id) edView = "work";
+      edSel = ed.id;
+      renderEditorsTab();
+    };
+    nav.appendChild(b);
+  });
+  const plus = document.createElement("button");
+  plus.textContent = editors.length ? "+ Add editor" : "+ Add your first editor";
+  plus.onclick = () => addEditor();
+  nav.appendChild(plus);
+  if (!editors.length) {
+    out.innerHTML = '<div class="empty">No editors yet — add one, set their password, and share their private link with them.</div>';
+    return;
+  }
+  if (!edById(edSel)) edSel = editors[0].id;
+  renderEditorView(out, edById(edSel));
 }
 
 /* stage cards inside an editor's workspace — like the owner's board, but
@@ -1656,7 +1810,7 @@ function renderEdStage(el, ed, stage, nextStage, nextLabel) {
       (p.chk[k] ? " checked" : "") + "> " + lab + "</label>").join("") + "</div>";
     if (p.notes) inner += '<details class="scriptbox"><summary>📜 Script / instructions</summary><pre>' + esc(p.notes) + "</pre></details>";
     inner += '<div class="mfoot"><button class="btn next-btn">' + nextLabel + "</button>" +
-      (stage !== "editing" ? '<button class="ghost send-btn">📤 Send to Owner</button>' : "") +
+      (stage !== "editing" ? '<button class="ghost send-btn">📤 Send Back to Owner</button>' : "") +
       (isOwner ? '<button class="ghost edit-btn">✎ Edit details</button>' +
         '<button class="ghost hand-btn" style="margin-left:auto">👤 → Owner</button>' : "") +
       "</div>";
@@ -1698,11 +1852,24 @@ function renderEditorView(el, ed) {
   head.style.alignItems = "center";
   head.innerHTML = '<b style="font-size:16px">✂️ ' + esc(ed.name) + "&rsquo;s workspace</b>" +
     (isOwner
-      ? '<button class="ghost" id="ed-ren" style="padding:5px 12px;font-size:12px">✎ Rename</button>' +
+      ? '<button class="ghost" id="ed-link" style="padding:5px 12px;font-size:12px">🔗 Copy their link</button>' +
+        '<button class="ghost" id="ed-pass" style="padding:5px 12px;font-size:12px">🔑 Password</button>' +
+        '<button class="ghost" id="ed-ren" style="padding:5px 12px;font-size:12px">✎ Rename</button>' +
         '<button class="danger" id="ed-del" style="padding:5px 12px;font-size:12px;margin-left:auto">🗑 Remove editor</button>'
       : '<span class="tag" style="margin-left:auto">you are signed in as the editor</span>');
   el.appendChild(head);
   if (isOwner) {
+    head.querySelector("#ed-link").onclick = () => {
+      navigator.clipboard.writeText(editorLink(ed)).then(() =>
+        toast("Private link copied — send it to " + ed.name + " 🔗"));
+    };
+    head.querySelector("#ed-pass").onclick = async () => {
+      const pass = (prompt("New password for " + ed.name + ":") || "").trim();
+      if (!pass) return;
+      ed.ph = await sha256(pass);
+      saveEditors();
+      toast("Password updated 🔑 — give " + ed.name + " the new one (and a fresh board file)");
+    };
     head.querySelector("#ed-ren").onclick = () => renameEditor(ed);
     head.querySelector("#ed-del").onclick = () => removeEditor(ed);
   }
@@ -1727,13 +1894,13 @@ function renderEditorView(el, ed) {
     }
   });
   const sendChip = document.createElement("span");
-  sendChip.innerHTML = "→ 📤 Send to Owner";
+  sendChip.innerHTML = "→ 📤 Send Back to Owner";
   sendChip.style.cssText = "color:var(--faint);font-size:12px";
   nav.appendChild(sendChip);
   el.appendChild(nav);
   if (edView === "script") { renderEdStage(el, ed, "script", "filming", "Script done → Filming"); return; }
   if (edView === "filming") { renderEdStage(el, ed, "filming", "editing", "Done → Editing"); return; }
-  if (edView === "editing") { renderEdStage(el, ed, "editing", "", "📤 Send to Owner"); return; }
+  if (edView === "editing") { renderEdStage(el, ed, "editing", "", "📤 Send Back to Owner"); return; }
 
   /* performance checklist */
   const done = hist.length;
@@ -1885,7 +2052,7 @@ function renderEditorView(el, ed) {
         (isOwner
           ? '<button class="back-btn" style="background:none;border:1px solid #d97706;color:#d97706;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">👤 → Owner</button>'
           : '<button class="ready-btn" style="background:none;border:1px solid ' + (p.eready ? "#059669;color:#059669" : "var(--line);color:var(--dim)") + ';border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">' + (p.eready ? "✅ Ready" : "Ready to Post?") + "</button>" +
-            '<button class="send-btn" style="background:none;border:1px solid #059669;color:#059669;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">📤 Send to Owner</button>');
+            '<button class="send-btn" style="background:none;border:1px solid #059669;color:#059669;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">📤 Send Back to Owner</button>');
       if (isOwner) {
         d.onclick = () => openComposer(p.id);
         d.querySelector(".back-btn").onclick = e => {
@@ -2062,6 +2229,7 @@ document.getElementById("importfile").addEventListener("change", e => {
       } else { throw new Error("bad"); }
       savePlans();
       if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("role", "owner"); applyRole(true); }
+      if (EDLINK && !document.getElementById("lock").hidden) edGateShow();  /* gate now knows the editor */
       renderBoard();
       toast("Board imported ✓");
     } catch (err) { alert("That file is not a valid board export."); }
@@ -2177,7 +2345,18 @@ document.getElementById("q").addEventListener("input", e => {
 });
 document.getElementById("more").onclick = () => { shown += PAGE; render(); };
 trendsBar(); bar(); renderHome(); render();
-applyRole(ROLE === "owner");   /* editor-mode devices jump straight to their workspace */
+if (EDLINK) {                       /* arrived via an editor's private link */
+  const _ed = edById(EDLINK);
+  if (_ed && _ed.ph && localStorage.getItem("edunlock") === _ed.ph) {
+    ROLE = _ed.id;
+    localStorage.setItem("role", ROLE);
+    applyRole();                    /* already logged in on this device */
+  } else {
+    edGateShow();                   /* ask for their password (import board first if new device) */
+  }
+} else {
+  applyRole(ROLE === "owner");      /* editor-mode devices jump straight to their workspace */
+}
 </script>
 </body>
 </html>
