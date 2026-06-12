@@ -26,6 +26,9 @@ window.WIZ = [
 { type:"short", plats:["*"], emoji:"📊", name:"Before / After demo",
   desc:"Show the transformation. Demos beat descriptions.",
   body:"Format: show the BEFORE state (the old/slow/manual way), then the AFTER with the topic (fast/easy), include a concrete demo idea I can film on screen, end with how viewers can try it today." },
+{ type:"short", plats:["*"], emoji:"🎙", name:"Storyteller (any real story)",
+  desc:"Mini documentary of any true story — success, lawsuit, shocking. Tone adapts.",
+  body:"Narrate the REAL story behind the topic like a mini documentary. FIRST detect the story type and match the tone: success/inspiring -> energetic; tragedy/lawsuit -> respectful and serious, no graphic details; shocking/funny -> playful but never mocking real pain. Skeleton: HOOK = most dramatic true moment, who the person is, the journey in short tension-building lines, the turning point, where it stands today, one closing takeaway for the viewer ('aap ke liye sabaq'). STRICT: only facts from the source — never invent details, numbers, or quotes." },
 { type:"short", plats:["tiktok","ig"], emoji:"🎭", name:"POV / Storytime",
   desc:"TikTok-native storytelling. Personal, casual, relatable.",
   body:"Format as POV/storytime: first-person casual story related to the topic ('POV: you...' or 'ek din maine...'), with a turn and a payoff lesson at the end. Native, unpolished tone." },
@@ -54,6 +57,9 @@ window.WIZ = [
   body:"Structure: hook teasing #1 without revealing, countdown 5→1 with one concrete use/benefit each, save the best for last, recap list at the end." },
 
 /* ---------- POST templates: general (work everywhere) ---------- */
+{ type:"post", plats:["*"], emoji:"🎙", name:"Storyteller (any real story)",
+  desc:"Narrate any TRUE story — success, lawsuit, shocking, funny. Tone adapts.",
+  body:"Tell the REAL story behind the topic as a gripping third-person narration. FIRST detect the story type and match the tone: success/inspiring -> energetic and motivating; tragedy/lawsuit -> respectful and serious, no graphic details; shocking/funny -> playful but never mocking real pain. SAME skeleton always: (1) HOOK = the single most dramatic or surprising true moment, (2) who this person is in one line, (3) the journey step by step in short tension-building lines, (4) the turning point, (5) where it stands today (money figure / case status / result), (6) ONE closing takeaway: 'aap ke liye sabaq' — what an ordinary person in Pakistan/India should learn or be careful about. STRICT: only facts from the source — never invent details, numbers, or quotes." },
 { type:"post", plats:["*"], emoji:"❓", name:"Strategic question",
   desc:"Real questions invite real conversation.",
   body:"Write a post asking ONE strategic question about the topic. Include my own one-line answer/stance FIRST, then invite theirs. No empty engagement bait." },
