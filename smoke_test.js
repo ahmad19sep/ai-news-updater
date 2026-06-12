@@ -181,7 +181,8 @@ dom.window.addEventListener("load", () => {
       // stage cards carry the attach-file widget
       ev('ROLE = editors[0].id; applyRole(); edView = "filming"; renderEditorsTab();');
       if (!d.getElementById("edwork").textContent.includes("Attach file")) fail("attach widget missing on stage card");
-      ok("stage cards have the 📎 attach-file widget");
+      if (!d.getElementById("edwork").textContent.includes("Drive folder")) fail("drive folder button missing on stage card");
+      ok("stage cards have the 📎 attach-file + 📁 Drive folder widgets");
       ev('ROLE = "owner"; applyRole(true); switchTab("plan");');
 
       // assigned work ALWAYS runs the full sequence: even a post goes Script -> Filming

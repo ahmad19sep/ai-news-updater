@@ -704,6 +704,8 @@ function saveEtasks() { localStorage.setItem("etasks", JSON.stringify(etasks)); 
 let editors = jload("editors", "[]");
 let enotes = jload("enotes", "{}");
 let ehist = jload("ehist", "[]");
+let settings = jload("settings", "{}");   /* shared config (e.g. Drive hook), synced to everyone */
+function saveSettings() { localStorage.setItem("settings", JSON.stringify(settings)); schedulePush(); }
 
 /* drop broken entries so one bad item can't blank the whole app */
 function sanitizeBoard() {
@@ -723,6 +725,7 @@ function sanitizeBoard() {
   if (!enotes || typeof enotes !== "object" || Array.isArray(enotes)) enotes = {};
   if (!Array.isArray(ehist)) ehist = [];
   ehist = ehist.filter(h => h && typeof h === "object");
+  if (!settings || typeof settings !== "object" || Array.isArray(settings)) settings = {};
 }
 sanitizeBoard();
 let ROLE = localStorage.getItem("role") || "owner";
@@ -770,7 +773,8 @@ if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("r
 plans.forEach(p => { if (p.assignee === "Editor" && p.status === "idea") p.status = "script"; });
 
 function boardState() {
-  return { rev: Date.now(), plans: plans, etasks: etasks, editors: editors, enotes: enotes, ehist: ehist };
+  return { rev: Date.now(), plans: plans, etasks: etasks, editors: editors,
+    enotes: enotes, ehist: ehist, settings: settings };
 }
 function applyBoard(data) {
   if (!data || typeof data !== "object") return;
@@ -779,7 +783,9 @@ function applyBoard(data) {
   if (Array.isArray(data.editors)) editors = data.editors;
   if (data.enotes && typeof data.enotes === "object") enotes = data.enotes;
   if (Array.isArray(data.ehist)) ehist = data.ehist;
+  if (data.settings && typeof data.settings === "object") settings = data.settings;
   sanitizeBoard();
+  localStorage.setItem("settings", JSON.stringify(settings));
   localStorage.setItem("plans", JSON.stringify(plans));
   localStorage.setItem("etasks", JSON.stringify(etasks));
   localStorage.setItem("editors", JSON.stringify(editors));
@@ -1332,6 +1338,7 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
         toast("Deleted 🗑");
       }
     };
+    filesWidget(c, p);
     el.appendChild(c);
   });
 }
@@ -1768,6 +1775,41 @@ async function openFile(f) {
     toast("Downloaded ⬇");
   } catch (e) { toast("Could not load that file"); }
 }
+/* ---- Google Drive: one folder per topic, inside today's date folder ----
+   Uses a tiny Apps Script web app in the owner's account (see DRIVE-SETUP.md). */
+async function driveFolder(p) {
+  if (p.driveUrl) { window.open(p.driveUrl, "_blank"); return; }
+  if (!settings.drive) {
+    if (ROLE !== "owner") { toast("Owner ne abhi Drive setup nahi kiya — unse kaho"); return; }
+    const u = (prompt(
+      "One-time setup: paste your Apps Script web app URL\n" +
+      "(banane ka tareeqa: repo me DRIVE-SETUP.md — 3 minute)") || "").trim();
+    if (!u) return;
+    if (u.indexOf("https://script.google.com/") !== 0) {
+      toast("URL https://script.google.com/ se shuru hona chahiye ❌");
+      return;
+    }
+    settings.drive = u;
+    saveSettings();
+  }
+  toast("Creating Drive folder… ⏳");
+  try {
+    const topic = p.title.split("\n")[0].slice(0, 80);
+    const date = new Date().toISOString().slice(0, 10);
+    const r = await fetch(settings.drive +
+      "?topic=" + encodeURIComponent(topic) + "&date=" + date);
+    const j = await r.json();
+    if (!j || !j.url) throw new Error("no url");
+    p.driveUrl = j.url;
+    savePlans();
+    renderBoard();
+    window.open(j.url, "_blank");
+    toast("Drive folder ready 📁 — " + date + " / " + topic.slice(0, 30));
+  } catch (e) {
+    toast("Drive folder failed — web app deploy ('Anyone' access) check karo");
+  }
+}
+
 function filesWidget(host, p) {
   const box = document.createElement("div");
   box.style.cssText = "margin-top:9px;display:flex;flex-wrap:wrap;gap:6px;align-items:center";
@@ -1802,6 +1844,13 @@ function filesWidget(host, p) {
   inp.onchange = () => { if (inp.files[0]) uploadFile(p, inp.files[0]); };
   box.appendChild(add);
   box.appendChild(inp);
+  const db = document.createElement("button");
+  db.className = "ghost";
+  db.style.cssText = "padding:4px 11px;font-size:11.5px" + (p.driveUrl ? ";color:#059669;border-color:#059669" : "");
+  db.textContent = p.driveUrl ? "📁 Open Drive folder" : "📁 + Drive folder";
+  db.title = "Google Drive: date folder ke andar topic folder";
+  db.onclick = e => { e.stopPropagation(); driveFolder(p); };
+  box.appendChild(db);
   host.appendChild(box);
 }
 
@@ -2644,7 +2693,7 @@ document.getElementById("modal").addEventListener("click", e => {
 
 function exportPlans() {
   const blob = new Blob([JSON.stringify({ plans: plans, etasks: etasks,
-    editors: editors, enotes: enotes, ehist: ehist }, null, 2)],
+    editors: editors, enotes: enotes, ehist: ehist, settings: settings }, null, 2)],
     { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
@@ -2668,6 +2717,7 @@ document.getElementById("importfile").addEventListener("change", e => {
         if (Array.isArray(data.editors)) { editors = data.editors; saveEditors(); }
         if (data.enotes && typeof data.enotes === "object") { enotes = data.enotes; saveEnotes(); }
         if (Array.isArray(data.ehist)) { ehist = data.ehist; saveEhist(); }
+        if (data.settings && typeof data.settings === "object") { settings = data.settings; saveSettings(); }
       } else { throw new Error("bad"); }
       savePlans();
       if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("role", "owner"); applyRole(true); }
