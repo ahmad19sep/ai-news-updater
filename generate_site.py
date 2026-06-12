@@ -1351,10 +1351,7 @@ function renderCreate(el) {
       '<textarea id="wizprompt" readonly style="width:100%;min-height:140px;font:12px/1.6 Consolas,monospace;background:var(--surface2)">' + esc(wiz.prompt) + "</textarea>" +
       '<p class="sub" style="margin-top:14px"><b>Final version</b> (from Claude, after your edits):</p>' +
       '<textarea id="wizfinal" style="width:100%;min-height:120px" placeholder="Paste your final content here…"></textarea>' +
-      '<div class="mfoot"><button class="btn" onclick="saveWiz()">' +
-      ((plans.find(x => x.id === wizBind) || {}).assignee === "Editor"
-        ? "✅ Script done → Filming 🎥"        /* assigned work always runs the full sequence */
-        : (wiz.type === "post" ? "✅ Post done → Publish 🗓" : "✅ Script done → Filming 🎥")) + "</button>" +
+      '<div class="mfoot"><button class="btn" onclick="saveWiz()">✅ Script done → Filming 🎥</button>' +
       '<button class="ghost" onclick="downloadWiz()">⬇ Download file</button></div>';
     el.appendChild(out);
   }
@@ -1411,7 +1408,6 @@ function saveWiz() {
   const fin = document.getElementById("wizfinal");
   const txt = fin ? fin.value.trim() : "";
   if (!txt) { toast("Paste the final version first"); return; }
-  const next = wiz.type === "post" ? "publish" : "filming";
   let plats = wiz.plats.slice();
   if (wiz.type === "short") plats = plats.map(k => k === "yt" ? "shorts" : k);
   let p = wizBind ? plans.find(x => x.id === wizBind) : null;
@@ -1436,11 +1432,11 @@ function saveWiz() {
     toast("Script done \u2192 Filming \uD83C\uDFA5");
     return;
   }
-  p.status = next;
+  p.status = "filming";                /* owner follows the same sequence too */
   savePlans();
-  boardView = next;
+  boardView = "filming";
   renderBoard();
-  toast(next === "filming" ? "Script done \u2192 Filming \uD83C\uDFA5" : "Content done \u2192 Publish \uD83D\uDDD3");
+  toast("Script done \u2192 Filming \uD83C\uDFA5");
 }
 function downloadWiz() {
   const fin = document.getElementById("wizfinal");
@@ -1666,7 +1662,15 @@ function renderAssignedView(el) {
       (done
         ? '<span class="tag" style="color:#059669;border-color:#059669">✅ Completed</span>'
         : '<span class="tag">' + (STATUS_LBL[p.status] || p.status) + "</span>") +
-      (p.revnote ? '<span class="tag" style="color:var(--red);border-color:var(--red)">🔁 revision</span>' : "");
+      (p.revnote ? '<span class="tag" style="color:var(--red);border-color:var(--red)">🔁 revision</span>' : "") +
+      '<button class="rowdel" style="background:none;border:1px solid var(--line);color:var(--dim);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer">✕</button>';
+    d.querySelector(".rowdel").onclick = e => {
+      e.stopPropagation();
+      if (confirm("Delete this assigned task? It disappears for the editor too.")) {
+        plans = plans.filter(x => x.id !== p.id);
+        savePlans(); renderBoard(); toast("Deleted 🗑");
+      }
+    };
     d.onclick = () => {
       if (done) { boardView = "ready"; renderBoard(); return; }
       if (ed) {                              /* jump into that editor's workspace at this stage */

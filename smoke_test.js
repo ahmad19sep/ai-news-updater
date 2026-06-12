@@ -128,6 +128,22 @@ dom.window.addEventListener("load", () => {
       if (ev('plans.find(p => p.id === 555).status') !== "filming") fail("editor post skipped filming: " + ev('plans.find(p => p.id === 555).status'));
       ok("editor's finished post script goes to Filming (full sequence)");
 
+      // the OWNER's own work follows the same sequence: post script -> Filming too
+      ev('var ta2 = document.createElement("textarea"); ta2.id = "wizfinal"; ta2.value = "own post";' +
+        'document.body.appendChild(ta2); wizBind = null; wiz.topic = "Own topic"; wiz.url = "";' +
+        'wiz.type = "post"; wiz.plats = ["x"]; saveWiz(); ta2.remove();');
+      if (ev('plans.find(p => p.title === "Own topic").status') !== "filming") fail("owner post skipped filming");
+      ok("owner's own script also goes to Filming (no skipping)");
+
+      // owner can delete an assigned task from the Assigned tab
+      ev('switchTab("plan"); boardView = "assigned"; renderBoard();');
+      const before = ev("plans.length");
+      const delRow = [...d.querySelectorAll("#boardview .qrow")].find(r => r.textContent.includes("Idea topic"));
+      if (!delRow) fail("assigned row for delete test missing");
+      delRow.querySelector(".rowdel").click();
+      if (ev("plans.length") !== before - 1) fail("assigned task delete failed");
+      ok("owner can delete tasks in Assigned tab");
+
       // publish 'Ready to schedule' must NOT show it until approved
       ev('boardView = "publish"; renderBoard();');
       if (d.getElementById("boardview").textContent.includes("Test video")) fail("eready item leaked into Publish");
