@@ -592,6 +592,9 @@ const EDLINK = _edm[1] || "";
 const EDKEY = _edm[2] || "";
 const EDSYNC = (_edm[3] && /^[0-9a-f]{6,40}$/.test(_edm[3])) ? _edm[3] : "";
 const EDNAME = _edm[4] ? decodeURIComponent(_edm[4]) : "";
+/* sync config travels in &s= (Firebase) or the legacy syncid segment (bin) */
+const _esm = location.hash.match(/[#&]s=([^&]+)/);
+const EDSYNCCFG = _esm ? decodeURIComponent(_esm[1]) : (EDSYNC ? "bin:" + EDSYNC : "");
 function edGateShow(msg) {
   const ed = edById(EDLINK);
   const name = (ed && ed.name) || EDNAME || "Editor";
@@ -692,12 +695,29 @@ if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("r
 /* an item with an editor is never a bare "idea" — their sequence starts at Script */
 plans.forEach(p => { if (p.assignee === "Editor" && p.status === "idea") p.status = "script"; });
 
-/* ---- live cloud sync: every device pushes changes + polls a shared JSON bin ---- */
-if (EDSYNC) localStorage.setItem("syncid", EDSYNC);   /* editor link carries the sync id */
-let SYNCID = localStorage.getItem("syncid") || "";
+/* ---- live cloud sync ----
+   Backends: "fb:<databaseURL>|<secret>"  -> Firebase Realtime Database (recommended,
+             instant updates via stream)  |  "bin:<id>" -> free public JSON bin.   */
+let SYNCCFG = localStorage.getItem("synccfg") || "";
+if (!SYNCCFG && localStorage.getItem("syncid")) {        /* migrate older bin sync */
+  SYNCCFG = "bin:" + localStorage.getItem("syncid");
+  localStorage.setItem("synccfg", SYNCCFG);
+}
+if (EDSYNCCFG && EDSYNCCFG !== SYNCCFG) {                /* editor link carries the config */
+  SYNCCFG = EDSYNCCFG;
+  localStorage.setItem("synccfg", SYNCCFG);
+}
 let boardRev = +(localStorage.getItem("boardrev") || 0);
-let pushTimer = null, syncBusy = false, syncReady = !SYNCID;
-const SYNC_URL = id => "https://extendsclass.com/api/json-storage/bin/" + id;
+let pushTimer = null, syncBusy = false, syncReady = !SYNCCFG, pollTick = 0, syncStream = null;
+function isFb() { return SYNCCFG.slice(0, 3) === "fb:"; }
+function syncURL() {
+  if (isFb()) {
+    const parts = SYNCCFG.slice(3).split("|");
+    return parts[0].replace(/\/+$/, "") + "/boards/" + (parts[1] || "") + ".json";
+  }
+  if (SYNCCFG.slice(0, 4) === "bin:") return "https://extendsclass.com/api/json-storage/bin/" + SYNCCFG.slice(4);
+  return "";
+}
 
 function boardState() {
   return { rev: Date.now(), plans: plans, etasks: etasks, editors: editors, enotes: enotes, ehist: ehist };
@@ -718,57 +738,103 @@ function applyBoard(data) {
 function setCloudIcon(ok) {
   const b = document.getElementById("cloudbtn");
   if (!b) return;
-  b.style.opacity = SYNCID ? "1" : ".35";
-  b.textContent = SYNCID && ok === false ? "⚠️" : "☁️";
-  b.title = !SYNCID ? "Live sync OFF — click to enable"
-    : ok === false ? "Live sync: connection problem" : "Live sync ON — updates flow automatically";
+  b.style.opacity = SYNCCFG ? "1" : ".35";
+  b.textContent = SYNCCFG && ok === false ? "⚠️" : isFb() ? "⚡" : "☁️";
+  b.title = !SYNCCFG ? "Live sync OFF — click to enable"
+    : ok === false ? "Live sync: connection problem"
+    : isFb() ? "Firebase live sync ON — instant updates" : "Live sync ON — updates within seconds";
+}
+function applyRemote(data) {
+  if (!(data && data.rev && data.rev > boardRev)) return;
+  applyBoard(data);
+  boardRev = data.rev;
+  localStorage.setItem("boardrev", "" + boardRev);
+  rerender();
+  if (!document.getElementById("tab-home").hidden) renderHome();
 }
 function schedulePush() {
-  if (!SYNCID || !syncReady) return;
+  if (!SYNCCFG || !syncReady) return;
   clearTimeout(pushTimer);
   pushTimer = setTimeout(pushBoard, 1200);
 }
 async function pushBoard() {
-  if (!SYNCID) return;
+  if (!SYNCCFG) return false;
   const state = boardState();
   boardRev = state.rev;
   localStorage.setItem("boardrev", "" + boardRev);
   try {
-    await fetch(SYNC_URL(SYNCID), { method: "PUT",
+    const r = await fetch(syncURL(), { method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(state) });
-    setCloudIcon(true);
-  } catch (e) { setCloudIcon(false); }
+    setCloudIcon(r.ok);
+    return r.ok;
+  } catch (e) { setCloudIcon(false); return false; }
 }
 async function pollBoard() {
-  if (!SYNCID || syncBusy) return;
+  if (!SYNCCFG || syncBusy) return;
   syncBusy = true;
   try {
-    const r = await fetch(SYNC_URL(SYNCID));
+    const r = await fetch(syncURL());
     if (r.ok) {
-      const data = await r.json();
-      if (data && data.rev && data.rev > boardRev) {
-        applyBoard(data);
-        boardRev = data.rev;
-        localStorage.setItem("boardrev", "" + boardRev);
-        rerender();
-        if (!document.getElementById("tab-home").hidden) renderHome();
-      }
+      applyRemote(await r.json());
       setCloudIcon(true);
     } else { setCloudIcon(false); }
   } catch (e) { setCloudIcon(false); }
   syncBusy = false;
 }
+/* Firebase streams changes instantly — no waiting on the poll */
+function startStream() {
+  if (!isFb() || syncStream) return;
+  try {
+    syncStream = new EventSource(syncURL());
+    syncStream.addEventListener("put", e => {
+      try {
+        const m = JSON.parse(e.data);
+        if (m && m.path === "/" && m.data) {
+          applyRemote(m.data);
+          setCloudIcon(true);
+        }
+      } catch (err) {}
+    });
+    syncStream.onerror = () => setCloudIcon(false);
+  } catch (e) { syncStream = null; }
+}
 async function enableSync() {
+  const url = (prompt(
+    "RECOMMENDED — Firebase Realtime Database URL yahan paste karo\n" +
+    "(console.firebase.google.com → Realtime Database → Data tab ka URL)\n\n" +
+    "Ya EMPTY chhod do → quick free bin use hoga:") || "").trim();
+  if (url) {
+    if (!/^https:\/\/[\w.-]+\.(firebasedatabase\.app|firebaseio\.com)\/?$/.test(url)) {
+      toast("That doesn't look like a Firebase database URL ❌");
+      return;
+    }
+    const secret = [...crypto.getRandomValues(new Uint8Array(20))]
+      .map(b => b.toString(16).padStart(2, "0")).join("");
+    SYNCCFG = "fb:" + url.replace(/\/+$/, "") + "|" + secret;
+    localStorage.setItem("synccfg", SYNCCFG);
+    syncReady = true;
+    if (!await pushBoard()) {
+      SYNCCFG = "";
+      localStorage.removeItem("synccfg");
+      setCloudIcon(true);
+      toast("Firebase ne mana kar diya — Rules me boards read/write true karo, phir retry");
+      return;
+    }
+    startStream();
+    rerender();
+    toast("Firebase live sync ON ⚡ — copy FRESH links for your editors");
+    return;
+  }
   try {
     const r = await fetch("https://extendsclass.com/api/json-storage/bin", { method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(boardState()) });
     const id = ((await r.json()) || {}).id || "";
     if (!id) throw new Error("no id");
-    SYNCID = id;
+    SYNCCFG = "bin:" + id;
     syncReady = true;
-    localStorage.setItem("syncid", id);
+    localStorage.setItem("synccfg", SYNCCFG);
     setCloudIcon(true);
     rerender();
     toast("Live sync ON ☁️ — now copy FRESH links for your editors");
@@ -777,17 +843,22 @@ async function enableSync() {
   }
 }
 async function cloudClick() {
-  if (!SYNCID) {
+  if (!SYNCCFG) {
     if (ROLE !== "owner") { toast("Ask the owner to enable live sync"); return; }
-    if (!confirm("Turn ON live sync? The board is stored in a private cloud bin so all devices update automatically.")) return;
     enableSync();
   } else {
     pollBoard();
-    toast("Live sync is ON ☁️ — changes appear on every device within seconds");
+    toast(isFb() ? "Firebase live sync ON ⚡ — updates are instant" :
+      "Live sync ON ☁️ — changes appear within seconds");
   }
 }
-setInterval(pollBoard, 10000);
-window.addEventListener("focus", () => pollBoard());
+setInterval(() => {
+  pollTick++;
+  /* the stream covers Firebase; poll it rarely as a safety net (saves quota) */
+  if (isFb() && syncStream && pollTick % 30 !== 0) return;
+  pollBoard();
+}, 10000);
+window.addEventListener("focus", () => { if (!(isFb() && syncStream)) pollBoard(); });
 
 /* migrate old planner cards to ticket format */
 if (localStorage.getItem("plans_v") !== "2") {
@@ -1612,9 +1683,10 @@ async function addEditor() {
   return true;
 }
 function editorLink(ed) {
-  /* the link carries id + password-hash + sync id + name: password-only gate, auto data */
+  /* the link carries id + password-hash + name + sync config: password-only gate, auto data */
   return location.origin + location.pathname + "#editor=" + ed.id + "." +
-    (ed.ph || "") + "." + (SYNCID || "") + "." + encodeURIComponent(ed.name);
+    (ed.ph || "") + ".." + encodeURIComponent(ed.name) +
+    (SYNCCFG ? "&s=" + encodeURIComponent(SYNCCFG) : "");
 }
 function renameEditor(ed) {
   const name = (prompt("Editor's new name?", ed.name) || "").trim();
@@ -2580,7 +2652,10 @@ if (EDLINK) {                       /* arrived via an editor's private link */
   applyRole(ROLE === "owner");      /* editor-mode devices jump straight to their workspace */
 }
 setCloudIcon(true);
-if (SYNCID) pollBoard().then(() => { syncReady = true; });   /* pull latest before pushing */
+if (SYNCCFG) {
+  pollBoard().then(() => { syncReady = true; });   /* pull latest before pushing */
+  startStream();
+}
 </script>
 </body>
 </html>
