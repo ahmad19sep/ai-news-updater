@@ -47,9 +47,16 @@ dom.window.addEventListener("load", () => {
 
       // the private link embeds id + password-key + name, so the gate is password-only
       const link = ev("editorLink(editors[0])");
-      if (!link.includes("#editor=" + ev("editors[0].id") + "." + ev("editors[0].ph") + ".Hamza"))
+      if (!link.includes("#editor=" + ev("editors[0].id") + "." + ev("editors[0].ph") + "..Hamza"))
         fail("link format wrong: " + link);
-      ok("private link carries id + key + name (password-only gate)");
+      ok("private link carries id + key + sync + name (password-only gate)");
+
+      // live sync plumbing exists and saves schedule a push
+      ["enableSync", "pushBoard", "pollBoard", "schedulePush", "applyBoard"].forEach(fn => {
+        if (ev("typeof " + fn) !== "function") fail("sync function missing: " + fn);
+      });
+      ev('applyBoard({ rev: 1, plans: plans, etasks: etasks, editors: editors, enotes: enotes, ehist: ehist })');
+      ok("live sync engine present (push/poll/apply)");
 
       // create a plan and send it to the editor
       ev('plans.unshift({ id: 111, title: "Test video", url: "", notes: "brief here",' +

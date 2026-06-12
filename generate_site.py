@@ -468,6 +468,7 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Buffer</button>
       <button id="tabbtn-editors" onclick="switchTab('editors')">Editors</button>
     </nav>
+    <button class="themebtn" id="cloudbtn" onclick="cloudClick()" title="Live sync">☁️</button>
     <button class="themebtn" id="rolebtn" onclick="roleSwitch(event)" title="Owner / editor mode">👤</button>
     <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
     <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
@@ -585,11 +586,12 @@ async function tryUnlock() {
     document.getElementById("lockerr").textContent = "Wrong code - try again.";
   }
 }
-/* ---- editor private link: site/#editor=<id>.<hash>.<name> shows ONLY a password box ---- */
-const _edm = location.hash.match(/editor=(\w+)(?:\.([0-9a-f]*))?(?:\.([^&]*))?/) || [];
+/* ---- editor private link: site/#editor=<id>.<hash>.<syncid>.<name> shows ONLY a password box ---- */
+const _edm = location.hash.match(/editor=(\w+)(?:\.([0-9a-f]*))?(?:\.([A-Za-z0-9-]*))?(?:\.([^&]*))?/) || [];
 const EDLINK = _edm[1] || "";
 const EDKEY = _edm[2] || "";
-const EDNAME = _edm[3] ? decodeURIComponent(_edm[3]) : "";
+const EDSYNC = (_edm[3] && /^[0-9a-f]{6,40}$/.test(_edm[3])) ? _edm[3] : "";
+const EDNAME = _edm[4] ? decodeURIComponent(_edm[4]) : "";
 function edGateShow(msg) {
   const ed = edById(EDLINK);
   const name = (ed && ed.name) || EDNAME || "Editor";
@@ -665,16 +667,16 @@ let assFilter = "All", editingId = null;
 const doneSet = new Set(JSON.parse(localStorage.getItem("done") || "[]"));
 let plans = JSON.parse(localStorage.getItem("plans") || "[]");
 let etasks = JSON.parse(localStorage.getItem("etasks") || "[]");
-function saveEtasks() { localStorage.setItem("etasks", JSON.stringify(etasks)); }
+function saveEtasks() { localStorage.setItem("etasks", JSON.stringify(etasks)); schedulePush(); }
 
 /* ---- multiple editors: each has own workspace, notes, history; role = owner or one editor ---- */
 let editors = JSON.parse(localStorage.getItem("editors") || "[]");
 let enotes = JSON.parse(localStorage.getItem("enotes") || "{}");
 let ehist = JSON.parse(localStorage.getItem("ehist") || "[]");
 let ROLE = localStorage.getItem("role") || "owner";
-function saveEditors() { localStorage.setItem("editors", JSON.stringify(editors)); }
-function saveEnotes() { localStorage.setItem("enotes", JSON.stringify(enotes)); }
-function saveEhist() { localStorage.setItem("ehist", JSON.stringify(ehist)); }
+function saveEditors() { localStorage.setItem("editors", JSON.stringify(editors)); schedulePush(); }
+function saveEnotes() { localStorage.setItem("enotes", JSON.stringify(enotes)); schedulePush(); }
+function saveEhist() { localStorage.setItem("ehist", JSON.stringify(ehist)); schedulePush(); }
 function edById(id) { return editors.find(e => e.id === id); }
 function holderName(p) {
   return p.assignee === "Editor" ? (edById(p.eid) || { name: "Editor" }).name : "Ahmad";
@@ -689,6 +691,103 @@ if (editors.length) adoptOrphans(editors[0].id);
 if (ROLE !== "owner" && !edById(ROLE)) { ROLE = "owner"; localStorage.setItem("role", "owner"); }
 /* an item with an editor is never a bare "idea" — their sequence starts at Script */
 plans.forEach(p => { if (p.assignee === "Editor" && p.status === "idea") p.status = "script"; });
+
+/* ---- live cloud sync: every device pushes changes + polls a shared JSON bin ---- */
+if (EDSYNC) localStorage.setItem("syncid", EDSYNC);   /* editor link carries the sync id */
+let SYNCID = localStorage.getItem("syncid") || "";
+let boardRev = +(localStorage.getItem("boardrev") || 0);
+let pushTimer = null, syncBusy = false, syncReady = !SYNCID;
+const SYNC_URL = id => "https://extendsclass.com/api/json-storage/bin/" + id;
+
+function boardState() {
+  return { rev: Date.now(), plans: plans, etasks: etasks, editors: editors, enotes: enotes, ehist: ehist };
+}
+function applyBoard(data) {
+  if (!data || typeof data !== "object") return;
+  if (Array.isArray(data.plans)) plans = data.plans;
+  if (Array.isArray(data.etasks)) etasks = data.etasks;
+  if (Array.isArray(data.editors)) editors = data.editors;
+  if (data.enotes && typeof data.enotes === "object") enotes = data.enotes;
+  if (Array.isArray(data.ehist)) ehist = data.ehist;
+  localStorage.setItem("plans", JSON.stringify(plans));
+  localStorage.setItem("etasks", JSON.stringify(etasks));
+  localStorage.setItem("editors", JSON.stringify(editors));
+  localStorage.setItem("enotes", JSON.stringify(enotes));
+  localStorage.setItem("ehist", JSON.stringify(ehist));
+}
+function setCloudIcon(ok) {
+  const b = document.getElementById("cloudbtn");
+  if (!b) return;
+  b.style.opacity = SYNCID ? "1" : ".35";
+  b.textContent = SYNCID && ok === false ? "⚠️" : "☁️";
+  b.title = !SYNCID ? "Live sync OFF — click to enable"
+    : ok === false ? "Live sync: connection problem" : "Live sync ON — updates flow automatically";
+}
+function schedulePush() {
+  if (!SYNCID || !syncReady) return;
+  clearTimeout(pushTimer);
+  pushTimer = setTimeout(pushBoard, 1200);
+}
+async function pushBoard() {
+  if (!SYNCID) return;
+  const state = boardState();
+  boardRev = state.rev;
+  localStorage.setItem("boardrev", "" + boardRev);
+  try {
+    await fetch(SYNC_URL(SYNCID), { method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(state) });
+    setCloudIcon(true);
+  } catch (e) { setCloudIcon(false); }
+}
+async function pollBoard() {
+  if (!SYNCID || syncBusy) return;
+  syncBusy = true;
+  try {
+    const r = await fetch(SYNC_URL(SYNCID));
+    if (r.ok) {
+      const data = await r.json();
+      if (data && data.rev && data.rev > boardRev) {
+        applyBoard(data);
+        boardRev = data.rev;
+        localStorage.setItem("boardrev", "" + boardRev);
+        rerender();
+        if (!document.getElementById("tab-home").hidden) renderHome();
+      }
+      setCloudIcon(true);
+    } else { setCloudIcon(false); }
+  } catch (e) { setCloudIcon(false); }
+  syncBusy = false;
+}
+async function enableSync() {
+  try {
+    const r = await fetch("https://extendsclass.com/api/json-storage/bin", { method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(boardState()) });
+    const id = ((await r.json()) || {}).id || "";
+    if (!id) throw new Error("no id");
+    SYNCID = id;
+    syncReady = true;
+    localStorage.setItem("syncid", id);
+    setCloudIcon(true);
+    rerender();
+    toast("Live sync ON ☁️ — now copy FRESH links for your editors");
+  } catch (e) {
+    toast("Sync service not reachable — try again in a minute");
+  }
+}
+async function cloudClick() {
+  if (!SYNCID) {
+    if (ROLE !== "owner") { toast("Ask the owner to enable live sync"); return; }
+    if (!confirm("Turn ON live sync? The board is stored in a private cloud bin so all devices update automatically.")) return;
+    enableSync();
+  } else {
+    pollBoard();
+    toast("Live sync is ON ☁️ — changes appear on every device within seconds");
+  }
+}
+setInterval(pollBoard, 10000);
+window.addEventListener("focus", () => pollBoard());
 
 /* migrate old planner cards to ticket format */
 if (localStorage.getItem("plans_v") !== "2") {
@@ -729,7 +828,7 @@ function toast(msg) {
   t.textContent = msg; t.classList.add("show");
   setTimeout(() => t.classList.remove("show"), 1900);
 }
-function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); }
+function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (ROLE !== "owner") name = "editors";   /* editors only see their workspace */
   ["home","news","trends","research","plan","editors"].forEach(n => {
@@ -1513,9 +1612,9 @@ async function addEditor() {
   return true;
 }
 function editorLink(ed) {
-  /* the link carries id + password-hash + name, so the gate works on any device */
+  /* the link carries id + password-hash + sync id + name: password-only gate, auto data */
   return location.origin + location.pathname + "#editor=" + ed.id + "." +
-    (ed.ph || "") + "." + encodeURIComponent(ed.name);
+    (ed.ph || "") + "." + (SYNCID || "") + "." + encodeURIComponent(ed.name);
 }
 function renameEditor(ed) {
   const name = (prompt("Editor's new name?", ed.name) || "").trim();
@@ -2480,6 +2579,8 @@ if (EDLINK) {                       /* arrived via an editor's private link */
 } else {
   applyRole(ROLE === "owner");      /* editor-mode devices jump straight to their workspace */
 }
+setCloudIcon(true);
+if (SYNCID) pollBoard().then(() => { syncReady = true; });   /* pull latest before pushing */
 </script>
 </body>
 </html>
