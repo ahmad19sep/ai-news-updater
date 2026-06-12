@@ -813,7 +813,7 @@ function renderResearch() {
 }
 
 /* ---------------- Publish board (Buffer style) ---------------- */
-let boardView = "ideas", calOffset = 0;
+let boardView = "ideas", calOffset = 0, edView = "work";
 
 function addPlan(title, url) {
   plans.unshift({ id: Date.now(), title, url: url || "", notes: "",
@@ -872,7 +872,11 @@ function boardNav() {
       const eb = document.createElement("button");
       eb.innerHTML = "\u2702\ufe0f " + esc(ed.name) + (open ? " \u00b7 " + open : "");
       eb.className = boardView === "ed:" + ed.id ? "active" : "";
-      eb.onclick = () => { boardView = "ed:" + ed.id; renderBoard(); };
+      eb.onclick = () => {
+        if (boardView !== "ed:" + ed.id) edView = "work";
+        boardView = "ed:" + ed.id;
+        renderBoard();
+      };
       el.appendChild(eb);
     });
     const plus = document.createElement("button");
@@ -931,6 +935,7 @@ const SHORT_HINT = {
 
 /* ---- pipeline stage views: Filming, Editing, Publish ---- */
 const STAGE_CHK = {
+  script: [["draft","Draft written"],["final","Final script ready"]],
   filming: [["title","Final title decided"],["poster","Thumbnail / poster made"],["footage","Footage recorded"]],
   editing: [["cut","Rough cut done"],["captions","Captions added"],["export","Final export ready"]],
 };
@@ -1628,6 +1633,58 @@ function sendToOwner(p, ed) {
   toast("Sent to owner — ready to post ✅");
 }
 
+/* stage cards inside an editor's workspace — like the owner's board, but
+   the path ends at "Send to Owner" instead of Publish */
+function renderEdStage(el, ed, stage, nextStage, nextLabel) {
+  const isOwner = ROLE === "owner";
+  const items = plans.filter(p => p.assignee === "Editor" && p.eid === ed.id && p.status === stage);
+  if (!items.length) {
+    const e2 = document.createElement("div");
+    e2.className = "empty";
+    e2.textContent = "Nothing in " + stage + (isOwner ? " for " + ed.name : "") + " right now.";
+    el.appendChild(e2);
+    return;
+  }
+  items.forEach(p => {
+    p.chk = p.chk || {};
+    const c = document.createElement("div");
+    c.className = "panel";
+    let inner = '<h3 style="color:var(--text)">' + esc(p.title.split("\n")[0]) +
+      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + "</h3>";
+    inner += '<div class="chkrow">' + (STAGE_CHK[stage] || []).map(([k, lab]) =>
+      '<label class="chk"><input type="checkbox" data-k="' + k + '"' +
+      (p.chk[k] ? " checked" : "") + "> " + lab + "</label>").join("") + "</div>";
+    if (p.notes) inner += '<details class="scriptbox"><summary>📜 Script / instructions</summary><pre>' + esc(p.notes) + "</pre></details>";
+    inner += '<div class="mfoot"><button class="btn next-btn">' + nextLabel + "</button>" +
+      (stage !== "editing" ? '<button class="ghost send-btn">📤 Send to Owner</button>' : "") +
+      (isOwner ? '<button class="ghost edit-btn">✎ Edit details</button>' +
+        '<button class="ghost hand-btn" style="margin-left:auto">👤 → Owner</button>' : "") +
+      "</div>";
+    c.innerHTML = inner;
+    c.querySelectorAll(".chk input").forEach(cb => {
+      cb.onchange = () => { p.chk[cb.dataset.k] = cb.checked; savePlans(); };
+    });
+    c.querySelector(".next-btn").onclick = () => {
+      if (!nextStage) { sendToOwner(p, ed); return; }
+      p.status = nextStage;
+      savePlans();
+      edView = nextStage;
+      renderBoard();
+      toast("Moved ✓");
+    };
+    const sb = c.querySelector(".send-btn");
+    if (sb) sb.onclick = () => sendToOwner(p, ed);
+    if (isOwner) {
+      c.querySelector(".edit-btn").onclick = () => openComposer(p.id);
+      c.querySelector(".hand-btn").onclick = () => {
+        p.assignee = "Ahmad";
+        savePlans(); renderBoard(); toast("Back with you 👤");
+      };
+    }
+    el.appendChild(c);
+  });
+}
+
 function renderEditorView(el, ed) {
   const isOwner = ROLE === "owner";
   const today = new Date().toISOString().slice(0, 10);
@@ -1650,17 +1707,51 @@ function renderEditorView(el, ed) {
     head.querySelector("#ed-del").onclick = () => removeEditor(ed);
   }
 
+  /* the editor's own staged board: Script -> Filming -> Editing -> Send to Owner */
+  const nav = document.createElement("div");
+  nav.className = "bar";
+  nav.style.marginTop = "12px";
+  const stCnt = s => plans.filter(p => p.assignee === "Editor" && p.eid === ed.id && p.status === s).length;
+  [["work", "📋 Board"], ["script", "✍️ Script"], ["filming", "🎥 Filming"], ["editing", "✂️ Editing"]].forEach(([k, lab], i) => {
+    const b = document.createElement("button");
+    const n = k === "work" ? 0 : stCnt(k);
+    b.innerHTML = lab + (n ? " · " + n : "");
+    b.className = edView === k ? "active" : "";
+    b.onclick = () => { edView = k; renderBoard(); };
+    nav.appendChild(b);
+    if (i > 0 && i < 3) {
+      const a = document.createElement("span");
+      a.textContent = "→";
+      a.style.cssText = "color:var(--faint);font-size:12px";
+      nav.appendChild(a);
+    }
+  });
+  const sendChip = document.createElement("span");
+  sendChip.innerHTML = "→ 📤 Send to Owner";
+  sendChip.style.cssText = "color:var(--faint);font-size:12px";
+  nav.appendChild(sendChip);
+  el.appendChild(nav);
+  if (edView === "script") { renderEdStage(el, ed, "script", "filming", "Script done → Filming"); return; }
+  if (edView === "filming") { renderEdStage(el, ed, "filming", "editing", "Done → Editing"); return; }
+  if (edView === "editing") { renderEdStage(el, ed, "editing", "", "📤 Send to Owner"); return; }
+
   /* performance checklist */
   const done = hist.length;
   const stats = document.createElement("div");
   stats.className = "statgrid";
   stats.style.marginTop = "14px";
   stats.innerHTML =
-    '<div class="scard"><div class="l">Posts completed</div><div class="n">' + hist.filter(h => h.kind === "post").length + "</div></div>" +
-    '<div class="scard"><div class="l">Videos completed</div><div class="n indigo">' + hist.filter(h => h.kind === "video").length + "</div></div>" +
-    '<div class="scard"><div class="l">On time</div><div class="n green">' + hist.filter(h => !h.late).length + "</div></div>" +
-    '<div class="scard"><div class="l">Late</div><div class="n orange">' + hist.filter(h => h.late).length + "</div></div>" +
-    '<div class="scard"><div class="l">Pending</div><div class="n">' + (myTasks.filter(t => !t.done).length + myPlans.length) + "</div></div>";
+    '<div class="scard click" data-go="ed-hist-h"><div class="l">Posts completed</div><div class="n">' + hist.filter(h => h.kind === "post").length + "</div></div>" +
+    '<div class="scard click" data-go="ed-hist-h"><div class="l">Videos completed</div><div class="n indigo">' + hist.filter(h => h.kind === "video").length + "</div></div>" +
+    '<div class="scard click" data-go="ed-hist-h"><div class="l">On time</div><div class="n green">' + hist.filter(h => !h.late).length + "</div></div>" +
+    '<div class="scard click" data-go="ed-hist-h"><div class="l">Late</div><div class="n orange">' + hist.filter(h => h.late).length + "</div></div>" +
+    '<div class="scard click" data-go="ed-tasks-h"><div class="l">Pending</div><div class="n">' + (myTasks.filter(t => !t.done).length + myPlans.length) + "</div></div>";
+  stats.querySelectorAll(".scard").forEach(card => {
+    card.onclick = () => {
+      const t = document.getElementById(card.dataset.go);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+  });
   el.appendChild(stats);
 
   /* notes / instructions from the owner */
@@ -1708,6 +1799,7 @@ function renderEditorView(el, ed) {
   /* tasks with due dates (owner assigns, editor ticks done) */
   const th = document.createElement("div");
   th.className = "qday";
+  th.id = "ed-tasks-h";
   th.textContent = "✅ Tasks (" + myTasks.filter(t => !t.done).length + " open)";
   el.appendChild(th);
   if (isOwner) {
@@ -1802,6 +1894,9 @@ function renderEditorView(el, ed) {
           savePlans(); renderBoard(); toast("Back with you 👤");
         };
       } else {
+        if (["script", "filming", "editing"].indexOf(p.status) >= 0) {
+          d.onclick = () => { edView = p.status; renderBoard(); };
+        }
         d.querySelector(".ready-btn").onclick = e => {
           e.stopPropagation();
           p.eready = !p.eready;
@@ -1826,6 +1921,7 @@ function renderEditorView(el, ed) {
   /* completion history */
   const hh = document.createElement("div");
   hh.className = "qday";
+  hh.id = "ed-hist-h";
   hh.textContent = "📜 Completion history (" + done + ")";
   el.appendChild(hh);
   if (!done) {
