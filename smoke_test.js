@@ -10,6 +10,34 @@ const prompts = [];
 const fail = m => { console.error("FAIL:", m); process.exit(1); };
 const ok = m => console.log("ok -", m);
 
+/* template library acceptance (Post Template Upgrade Spec) */
+{
+  const tpl = fs.readFileSync(path.join(__dirname, "docs", "templates.js"), "utf8");
+  const win = {};
+  new Function("window", tpl)(win);
+  const posts = win.WIZ.filter(t => t.type === "post");
+  const byTab = k => posts.filter(t => t.plats[0] === k).length;
+  const counts = { "*": 13, x: 5, ig: 4, fb: 3, li: 4, wa: 3 };
+  for (const k in counts) {
+    if (byTab(k) !== counts[k]) fail("template count for '" + k + "' = " + byTab(k) + ", expected " + counts[k]);
+  }
+  const lib = JSON.stringify(win.WIZ.filter(t => t.type === "post")) + JSON.stringify(win.POST_TEMPLATES);
+  if (/ChatGPT|Claude vs|Test & tell/i.test(lib)) fail("product name / old template still present");
+  if (!posts.some(t => t.name === "VS Battle")) fail("VS Battle rename missing");
+  const ftb = posts.find(t => t.name === "Fill the blank");
+  if (/YouTube|video mein feature/i.test(ftb.body + ftb.desc)) fail("Fill the blank still references YouTube");
+  const newNames = ["Mistake Warning", "Before → After", "Identity Call-out", "I Tested It",
+    "Steal My System", "Open Loop (Part 1/2)", "Build in Public", "Reel Script",
+    "This or That", "Relatable Confession", "Document Carousel (PDF)", "Case Study (with numbers)", "Poll of the Day"];
+  newNames.forEach(n => {
+    const t = posts.find(x => x.name === n);
+    if (!t) fail("missing new template: " + n);
+    if (!t.emoji || !t.desc || !t.body) fail("incomplete template: " + n);
+    if (!t.body.includes("{topic}")) fail("template lacks {topic} placeholder: " + n);
+  });
+  ok("template library: 13 new + 2 edits, counts per tab correct, no product names");
+}
+
 /* regression: corrupted storage must not blank the app; reloads must not strip fields */
 const domG = new JSDOM(html, {
   url: "https://ahmad19sep.github.io/ai-news-updater/",

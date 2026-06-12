@@ -78,6 +78,24 @@ window.WIZ = [
 { type:"post", plats:["*"], emoji:"⚡", name:"Myth vs Reality",
   desc:"Bust one myth. High share rate.",
   body:"Write a post busting ONE common myth about the topic: the myth -> the reality with simple proof -> what to do instead." },
+{ type:"post", plats:["*"], emoji:"🚫", name:"Mistake Warning",
+  desc:"'Stop doing X' / 'mistakes killing your Y.' Loss aversion — the strongest scroll-stopper in 2026 data.",
+  body:"Write a \"mistake warning\" post about: {topic} (the common mistake people make and what to do instead — ask me if unclear).\nStructure:\n1. HOOK (line 1): \"Stop [common behavior].\" OR \"[X] mistakes that are killing your [result].\" Must trigger loss aversion — the reader should feel they might be losing something RIGHT NOW.\n2. Briefly validate why everyone does it (so the reader doesn't feel stupid).\n3. Reveal the real cost of the mistake with one concrete example or number.\n4. Give the correct approach in 2-4 short, actionable lines.\n5. End with: \"Which of these are you doing?\" or similar self-audit question.\nRules: short lines, white space between thoughts, no lecture tone — write like a friend pulling someone aside. The advice MUST genuinely deliver; never clickbait without payoff." },
+{ type:"post", plats:["*"], emoji:"📊", name:"Before → After",
+  desc:"Quantified transformation. The gap between two numbers forces the click.",
+  body:"Write a before/after transformation post about: {topic} (what changed, the starting number, the ending number, and what made the difference — ask me if numbers are missing).\nStructure:\n1. HOOK: state BEFORE number and AFTER number in the first 1-2 lines with the timeframe. Example shape: \"[Bad number] in [month]. [Good number] today. Here's the ONE thing that changed.\"\n2. Briefly paint the 'before' pain (2-3 lines, specific and honest).\n3. The turning point — what was actually changed. Be concrete, not vague (\"I changed my hook structure\", not \"I worked harder\").\n4. The after state + one lesson the reader can apply today.\n5. Optional soft CTA: \"Save this if you're still in the 'before' stage.\"\nRules: the numbers must be real (ask me if I haven't provided them — never invent metrics). Short paragraphs. No humble-bragging tone — frame it as a repeatable lesson, not a flex." },
+{ type:"post", plats:["*"], emoji:"🎯", name:"Identity Call-out",
+  desc:"'If you're a [freelancer / parent / dev]...' — names the reader, filters the feed.",
+  body:"Write an identity call-out post about: {topic} (who exactly this is for, and the specific insight/advice for them).\nStructure:\n1. HOOK (line 1): \"If you're a [specific identity], [stop scrolling / this is for you / read this twice].\" The identity must be SPECIFIC (\"freelance devs sending 20 proposals a week\", not just \"freelancers\").\n2. Prove you understand their exact situation in 2-3 lines — describe a detail only an insider would know. This builds instant trust.\n3. Deliver the insight/advice: 3-5 tight lines.\n4. Close with belonging: \"If this is you, you're not behind — you're early.\" or a question to the named group.\nRules: never water down the identity to widen the audience — specificity IS the mechanism. Warm, direct, peer-to-peer tone." },
+{ type:"post", plats:["*"], emoji:"🧪", name:"I Tested It",
+  desc:"Did the work so they don't have to. Save-magnet + instant credibility.",
+  body:"Write an \"I tested it so you don't have to\" post about: {topic} (what was tested, how long / how many, and the verdict — ask me if missing).\nStructure:\n1. HOOK: \"[I tested N things / I did X for N days] so you don't have to. [Teaser of surprising verdict].\" Numbers in the first line are mandatory.\n2. One line on the method (enough to be credible, not boring): what exactly was done.\n3. The results — ranked or grouped: winners, losers, surprise finding. Each gets ONE specific reason, not generic praise.\n4. The single biggest takeaway in one bold line.\n5. CTA: \"Save this — you'll need it when [trigger moment].\"\nRules: verdicts must be opinionated (a clear winner and a clear loser). The \"surprise finding\" is what makes it shareable — always include one counterintuitive result. Honest > promotional." },
+{ type:"post", plats:["*"], emoji:"📋", name:"Steal My System",
+  desc:"Exact checklist / stack / workflow — built for saves & shares, the rising metrics.",
+  body:"Write a \"steal my system\" post about: {topic} (the system/checklist/stack/workflow being shared and what result it produces).\nStructure:\n1. HOOK: \"My exact [system] that [specific result]. Steal it.\" — the word \"exact\" and a real result are mandatory.\n2. The system itself: numbered steps or a labeled stack. Every item = WHAT + one line of WHY/HOW. No vague items like \"be consistent.\"\n3. One pro-tip or common failure point (\"Most people skip step 3 — that's why it doesn't work for them\").\n4. CTA: \"Save this. Future you will thank you.\" or \"Send this to someone who needs it.\"\nRules: the system must be COMPLETE — the reader should be able to execute it without anything else. 5-9 items max. Formatting must be scannable (numbers/short lines)." },
+{ type:"post", plats:["*"], emoji:"🔄", name:"Open Loop (Part 1/2)",
+  desc:"Cliffhanger format. Trains followers to come back.",
+  body:"Write PART 1 of a two-part open-loop story about: {topic} (the full story including the ending, so Part 1 can be cut at the right moment).\nStructure for Part 1:\n1. HOOK: start in the middle of the action or at the moment of highest tension — never at the chronological beginning.\n2. Build the story with concrete details (names changed, real stakes, real numbers).\n3. Escalate to the decisive moment... then CUT exactly before the resolution.\n4. Final line: \"Part 2 tomorrow.\" + one teaser line about what the resolution involves (\"What happened next cost me $400 — and taught me more than any course.\").\nThen also write PART 2:\n1. One-line recap hook for new readers.\n2. The resolution + the unexpected twist.\n3. The lesson, stated plainly.\n4. CTA: \"Follow so you don't miss the next story.\"\nRules: the cut point of Part 1 must land mid-tension. Part 2 must fully deliver — an open loop that under-delivers burns trust permanently." },
 
 /* ---------- POST templates: X specific ---------- */
 { type:"post", plats:["x"], emoji:"🧵", name:"X thread (5-7 posts)",
@@ -87,11 +105,14 @@ window.WIZ = [
   desc:"Useful prompt + 'show your result' — bookmarks + replies.",
   body:"ONE X post under 280 chars sharing a genuinely useful AI prompt about the topic, exact prompt in quotes, end: 'apna result comment mein dikhao'." },
 { type:"post", plats:["x"], emoji:"✏️", name:"Fill the blank",
-  desc:"Easy replies + feature loop to YouTube.",
-  body:"ONE X post under 280 chars: fill-in-the-blank about the topic, end with 'best answer agli video mein feature hoga'." },
-{ type:"post", plats:["x"], emoji:"⚔️", name:"Test & tell",
-  desc:"Claude vs ChatGPT challenge — fun comparison bait.",
-  body:"ONE X post under 280 chars: I made Claude vs ChatGPT do something with the topic, my one-line verdict, challenge readers to try and reply with theirs." },
+  desc:"One-tap replies — the lowest-friction engagement format on X. Feeds the algorithm.",
+  body:"ONE X post under 280 chars: fill-in-the-blank about the topic, end with an invitation to drop their answer in the replies." },
+{ type:"post", plats:["x"], emoji:"⚔️", name:"VS Battle",
+  desc:"Pit two tools, methods, or approaches against each other — comparison bait that fills the replies.",
+  body:"Write an X post that pits two things against each other for: {topic} (the two things being compared and for what use case — ask me if unclear).\nStructure:\n1. Line 1: name the battle directly — \"X vs Y for [use case]. I tested both.\"\n2. Give a 2-3 line verdict with ONE specific, surprising detail from real use.\n3. Declare a winner BUT concede one thing the loser does better (this fuels disagreement in replies).\n4. End with a question that forces readers to pick a side.\nRules: under 280 characters if possible, no hashtags, no emojis unless one fits naturally, conversational tone, sound like a real person who actually used both — not a review site." },
+{ type:"post", plats:["x"], emoji:"🔧", name:"Build in Public",
+  desc:"Real numbers + what you learned. X's native trust format — never goes out of style.",
+  body:"Write a build-in-public X post about: {topic} (the project, the real numbers/progress this period, and one lesson or struggle).\nStructure:\n1. HOOK: the headline number or milestone, raw and unpolished. \"Month 2 of freelancing: $0 → $340.\"\n2. 2-4 short lines: what was tried, what worked, what flopped. At least ONE honest failure — that's what makes it credible.\n3. The lesson in one line.\n4. What's next (one line) — this creates a follow-the-journey loop.\nRules: real numbers only (ask me if missing — never invent). No motivational fluff. Vulnerability + specificity = the whole format." },
 
 /* ---------- POST templates: Instagram specific ---------- */
 { type:"post", plats:["ig"], emoji:"🎠", name:"Carousel (8 slides)",
@@ -103,6 +124,9 @@ window.WIZ = [
 { type:"post", plats:["ig"], emoji:"💬", name:"Quote card caption",
   desc:"One strong quote image + caption that adds context.",
   body:"Give ONE strong quotable line about the topic (for the image card, max 12 words), then a caption that adds the context/story behind it + 3-5 hashtags (IG max is 5)." },
+{ type:"post", plats:["ig"], emoji:"🎬", name:"Reel Script",
+  desc:"3-second hook + shot beats + caption. Reels drive ~2x the reach of static posts.",
+  body:"Write a complete Instagram Reel script about: {topic}.\nOutput 3 parts:\nPART A — SPOKEN SCRIPT (30-45 seconds when read aloud):\n1. HOOK (first 3 seconds / max 12 words): pattern interrupt — bold claim, contrarian line, or curiosity gap. Write 3 hook options, mark the strongest.\n2. BODY: 3-4 beats, each one idea, each a short punchy sentence. No filler words.\n3. PAYOFF: the promised value, delivered clearly.\n4. CTA (one line): follow / save / comment trigger.\nPART B — ON-SCREEN TEXT: the text overlay for each beat (max 8 words per overlay).\nPART C — CAPTION: first line = a second hook (it shows before \"...more\"), then 2-3 value lines, then 3-5 niche hashtags.\nRules: write for spoken delivery — contractions, rhythm, no formal sentences. The hook must NOT summarize the video; it must open a gap the video closes." },
 
 /* ---------- POST templates: LinkedIn specific ---------- */
 { type:"post", plats:["li"], emoji:"💼", name:"Professional insight",
@@ -111,11 +135,23 @@ window.WIZ = [
 { type:"post", plats:["li"], emoji:"📖", name:"Lesson-learned story",
   desc:"Career/skill story with a takeaway. High reach format.",
   body:"Write a LinkedIn story post: short personal experience related to the topic (first lines must hook), the mistake or surprise, the professional lesson, takeaway for readers. Line breaks between thoughts." },
+{ type:"post", plats:["li"], emoji:"📑", name:"Document Carousel (PDF)",
+  desc:"Hook slide + 6-8 value slides + CTA. LinkedIn's #1 engagement format (~7% ER — beats video).",
+  body:"Write a LinkedIn document carousel (PDF) about: {topic}. Output slide-by-slide text I can design into a PDF.\nStructure (9-10 slides):\n- SLIDE 1 (HOOK): max 10 words + a sub-line. Must create a curiosity gap or promise a specific outcome (\"7 proposal mistakes costing you clients — #4 is the silent killer\"). Write 3 hook options, mark the strongest.\n- SLIDE 2 (STAKES): why this matters / the cost of not knowing. One stat or sharp claim.\n- SLIDES 3-8 (VALUE): one idea per slide. Format each as: bold 5-8 word headline + 2-3 supporting lines. Each slide must stand alone if screenshotted.\n- SLIDE 9 (SUMMARY): recap all points as a scannable checklist — this is the \"save trigger\" slide.\n- SLIDE 10 (CTA): one clear ask — follow for more / comment a keyword / repost to help someone.\nALSO write the post caption: first 2 lines = hook (visible before \"...see more\"), then 2-3 context lines, then \"Repost if useful\" style CTA (with recycle emoji). 3-5 hashtags max.\nRules: professional but human tone — no corporate jargon. Slide text must be SHORT; it's a billboard, not a paragraph." },
+{ type:"post", plats:["li"], emoji:"📈", name:"Case Study (with numbers)",
+  desc:"Client problem -> what you did -> measurable result. Proof beats opinion on LinkedIn.",
+  body:"Write a LinkedIn case study post about: {topic} (the client/project, the problem, what was done, and the measurable result — anonymize the client if needed).\nStructure:\n1. HOOK: lead with the RESULT, not the story. \"We took [metric] from [before] to [after] in [timeframe]. Here's exactly how.\"\n2. THE PROBLEM: 2-3 lines, specific and recognizable — the reader should think \"we have this exact problem.\"\n3. THE APPROACH: 3-4 numbered steps of what was actually done. Concrete actions, not buzzwords.\n4. THE RESULT: restate numbers + one unexpected secondary benefit.\n5. THE LESSON: one transferable principle the reader can apply.\n6. Soft CTA: \"Dealing with something similar? My DMs are open.\" (only if I say I want leads — otherwise end on the lesson).\nRules: real numbers only — ask me, never invent. No client-confidential details. Confident but not boastful: the framework is the hero, not me." },
 
 /* ---------- POST templates: Facebook specific ---------- */
 { type:"post", plats:["fb"], emoji:"🗣", name:"Discussion starter",
   desc:"FB loves comments — ask the family-audience question.",
   body:"Write a Facebook post: relatable everyday angle on the topic (very simple words, family audience), short context, then a discussion question people will WANT to answer. 1-3 hashtags max." },
+{ type:"post", plats:["fb"], emoji:"🆚", name:"This or That",
+  desc:"Zero-effort comment bait. FB's algorithm feeds on reply threads.",
+  body:"Write a Facebook \"this or that\" post about: {topic} (the two options and the audience).\nStructure:\n1. Set the scene in 1-2 warm, relatable lines (Facebook = family/friends tone).\n2. Present the two options clearly: \"Team A or Team B?\"\n3. Add one playful provocation that makes people defend their side (\"And yes, there IS a wrong answer\" + laughing emoji).\n4. Ask them to comment their pick AND tag someone who'd pick the opposite.\nRules: the two options must be something EVERYONE has an instant opinion on — no expertise required to answer. Light, fun, zero selling." },
+{ type:"post", plats:["fb"], emoji:"😅", name:"Relatable Confession",
+  desc:"'Am I the only one who...' — everyday struggle + nostalgia, FB's comment goldmine.",
+  body:"Write a Facebook \"relatable confession\" post about: {topic} (the everyday habit, struggle, or guilty pleasure to confess).\nStructure:\n1. HOOK: \"Am I the only one who [specific, slightly embarrassing but universal thing]?\" or \"Confession: [thing].\"\n2. Describe the moment with 2-3 vivid, specific details — specificity is what makes people say \"this is literally me.\"\n3. A self-aware punchline or shrug (\"No regrets. Okay, some regrets.\").\n4. CTA: \"Tell me I'm not alone\" + sweat-smile emoji or \"What's yours?\"\nRules: keep it light and universal — never an actual heavy confession. Family-friendly. The more specific the detail, the more relatable it lands." },
 
 /* ---------- POST templates: WhatsApp specific ---------- */
 { type:"post", plats:["wa"], emoji:"📢", name:"Channel announcement",
@@ -124,6 +160,9 @@ window.WIZ = [
 { type:"post", plats:["wa"], emoji:"💡", name:"Quick tip drop",
   desc:"One instantly-usable tip. Keeps the channel alive daily.",
   body:"Write a WhatsApp Channel message: ONE practical tip about the topic people can use in the next 5 minutes, 2-3 lines, friendly, no links needed." },
+{ type:"post", plats:["wa"], emoji:"📊", name:"Poll of the Day",
+  desc:"One-tap question using native channel polls — the lowest-friction engagement that exists.",
+  body:"Write a WhatsApp channel poll post about: {topic}.\nOutput:\n1. SETUP LINE (1-2 lines, personal inner-circle tone): why I'm asking, with a hint of my own opinion to provoke responses.\n2. THE POLL QUESTION: one short, clear question.\n3. POLL OPTIONS: 2-4 options, each max 5 words, mutually exclusive, at least one slightly spicy/funny option.\n4. FOLLOW-UP TEASER: \"Results + my take tomorrow\" + eyes emoji (creates a return loop).\nRules: WhatsApp = inner circle, so write like texting friends, not broadcasting. One emoji max per line. The question must be answerable in under 2 seconds of thought." },
 ];
 
 /* Plug-and-play caption templates for the post composer quick-fill. */
@@ -133,7 +172,7 @@ window.POST_TEMPLATES = [
   { name: "Hook question",
     text: "Kya aap jaante hain {topic}?\n\n90% log ye nahi jaante... maine video mein sab bataya hai 👇" },
   { name: "Prompt share",
-    text: "Ye prompt copy karo aur khud try karo 🎁\n\n\"{topic}\"\n\nApna result comment mein dikhao 👇\n#ChatGPT #AI" },
+    text: "Ye prompt copy karo aur khud try karo 🎁\n\n\"{topic}\"\n\nApna result comment mein dikhao 👇\n#AI #AIPrompts" },
   { name: "Behind the scenes",
     text: "Aaj ki video ke peeche ki kahani 🎬\n\n{topic}\n\nKal video aa rahi hai — follow karke rakho!" },
   { name: "Debate / poll",
