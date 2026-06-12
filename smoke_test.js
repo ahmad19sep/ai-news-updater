@@ -202,7 +202,8 @@ dom.window.addEventListener("load", () => {
       if (d.getElementById("tabbtn-plan").style.display !== "none") fail("Buffer tab visible to editor");
       if (d.getElementById("tab-editors").hidden) fail("editor not on Editors tab");
       if (d.getElementById("edwork").textContent.includes("Remove editor")) fail("owner controls visible to editor");
-      ok("editor mode: Buffer hidden, only own workspace");
+      if (d.getElementById("rolebtn").style.display !== "none") fail("role switch visible to editor");
+      ok("editor mode: Buffer hidden, no role switch, only own workspace");
 
       // editor task flow with performance stats (late task)
       ev('etasks.unshift({ id: 222, title: "Make 3 banners", eid: editors[0].id, due: "2020-01-01", done: false });' +

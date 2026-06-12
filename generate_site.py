@@ -1793,6 +1793,9 @@ function applyRole(noNav) {
   });
   const rb = document.getElementById("rolebtn");
   if (rb) {
+    /* editors never see a role switch — only devices that unlocked with the owner code */
+    const ownerDevice = owner || (LOCKHASH && localStorage.getItem("unlock") === LOCKHASH);
+    rb.style.display = ownerDevice ? "" : "none";
     rb.textContent = owner ? "👤" : "✂️";
     rb.title = owner ? "Owner mode — click to act as an editor"
       : "Editor mode: " + edById(ROLE).name + " — click to return to owner mode";
