@@ -37,7 +37,9 @@ function getOrMake(parent, name) {
 
 3. Click **Deploy → New deployment** → gear icon → **Web app**
    - Description: anything
-   - Execute as: **Me**
+   - Execute as: **Me**  ⚠️ MOST IMPORTANT — "Me" means folders are always created
+     in YOUR Drive, no matter who clicks. If you pick "User accessing the web app",
+     folders would land in the editor's Drive instead.
    - Who has access: **Anyone**
    - Click **Deploy**, authorize with your Google account (it will warn the app is
      unverified — click *Advanced → Go to project*; it is your own script).
@@ -47,6 +49,9 @@ function getOrMake(parent, name) {
 
 ## Notes
 
+- The folder is created **once, automatically, when you assign a task** to an editor
+  (or when you click 📁 yourself). Editors can only OPEN the existing folder — the
+  button never creates anything from their side.
 - Folders are created in **your** Drive; editors get edit access via the link.
 - If you redeploy the script, the URL changes — paste the new one when asked
   (clear the old one by rejecting the prompt and re-running setup).

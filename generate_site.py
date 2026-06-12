@@ -1728,6 +1728,7 @@ function sendToEditor(p, ed) {
   p.estart = p.status;          /* remember where the editor starts — rejects return here */
   savePlans();
   rerender();
+  driveCreate(p);               /* the task's Drive folder is made now, in the OWNER's Drive */
   const lbl = { script: "Script", filming: "Filming", editing: "Editing" }[p.status] || p.status;
   toast("Sent to " + ed.name + " ✂️ — in their " + lbl + " section");
 }
@@ -1775,24 +1776,12 @@ async function openFile(f) {
     toast("Downloaded ⬇");
   } catch (e) { toast("Could not load that file"); }
 }
-/* ---- Google Drive: one folder per topic, inside today's date folder ----
+/* ---- Google Drive: ONE folder per task, in the OWNER's Drive ----
+   Created once (when the owner assigns or clicks); editors only open the link.
    Uses a tiny Apps Script web app in the owner's account (see DRIVE-SETUP.md). */
-async function driveFolder(p) {
-  if (p.driveUrl) { window.open(p.driveUrl, "_blank"); return; }
-  if (!settings.drive) {
-    if (ROLE !== "owner") { toast("Owner ne abhi Drive setup nahi kiya — unse kaho"); return; }
-    const u = (prompt(
-      "One-time setup: paste your Apps Script web app URL\n" +
-      "(banane ka tareeqa: repo me DRIVE-SETUP.md — 3 minute)") || "").trim();
-    if (!u) return;
-    if (u.indexOf("https://script.google.com/") !== 0) {
-      toast("URL https://script.google.com/ se shuru hona chahiye ❌");
-      return;
-    }
-    settings.drive = u;
-    saveSettings();
-  }
-  toast("Creating Drive folder… ⏳");
+async function driveCreate(p, openIt) {
+  if (p.driveUrl) { if (openIt) window.open(p.driveUrl, "_blank"); return; }
+  if (!settings.drive) return;
   try {
     const topic = p.title.split("\n")[0].slice(0, 80);
     const date = new Date().toISOString().slice(0, 10);
@@ -1803,11 +1792,35 @@ async function driveFolder(p) {
     p.driveUrl = j.url;
     savePlans();
     renderBoard();
-    window.open(j.url, "_blank");
-    toast("Drive folder ready 📁 — " + date + " / " + topic.slice(0, 30));
+    if (openIt) {
+      window.open(j.url, "_blank");
+      toast("Drive folder ready 📁 — " + date + " / " + topic.slice(0, 30));
+    }
   } catch (e) {
-    toast("Drive folder failed — web app deploy ('Anyone' access) check karo");
+    if (openIt) toast("Drive folder failed — web app deploy ('Execute as: Me' + 'Anyone') check karo");
   }
+}
+async function driveFolder(p) {
+  if (p.driveUrl) { window.open(p.driveUrl, "_blank"); return; }
+  if (ROLE !== "owner") {        /* folders live in the owner's Drive only */
+    toast("Folder owner ki Drive me banta hai — owner assign karega to link yahan aa jayega");
+    return;
+  }
+  if (!settings.drive) {
+    const u = (prompt(
+      "One-time setup: paste your Apps Script web app URL\n" +
+      "(banane ka tareeqa: repo me DRIVE-SETUP.md — 3 minute,\n" +
+      "deploy me 'Execute as: Me' zaroor chuno)") || "").trim();
+    if (!u) return;
+    if (u.indexOf("https://script.google.com/") !== 0) {
+      toast("URL https://script.google.com/ se shuru hona chahiye ❌");
+      return;
+    }
+    settings.drive = u;
+    saveSettings();
+  }
+  toast("Creating Drive folder… ⏳");
+  driveCreate(p, true);
 }
 
 function filesWidget(host, p) {
@@ -1847,8 +1860,9 @@ function filesWidget(host, p) {
   const db = document.createElement("button");
   db.className = "ghost";
   db.style.cssText = "padding:4px 11px;font-size:11.5px" + (p.driveUrl ? ";color:#059669;border-color:#059669" : "");
-  db.textContent = p.driveUrl ? "📁 Open Drive folder" : "📁 + Drive folder";
-  db.title = "Google Drive: date folder ke andar topic folder";
+  db.textContent = p.driveUrl ? "📁 Open Drive folder"
+    : (ROLE === "owner" ? "📁 + Drive folder" : "📁 Drive folder");
+  db.title = "Google Drive: owner ki Drive me, date folder ke andar topic folder";
   db.onclick = e => { e.stopPropagation(); driveFolder(p); };
   box.appendChild(db);
   host.appendChild(box);
