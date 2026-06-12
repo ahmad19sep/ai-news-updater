@@ -939,6 +939,9 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
     if (p.notes) inner += '<details class="scriptbox"><summary>📜 Script / content</summary><pre>' + esc(p.notes) + "</pre></details>";
     inner += '<div class="mfoot"><button class="btn next-btn">' + nextLabel + "</button>" +
       '<button class="ghost edit-btn">✎ Edit details</button>' +
+      '<button class="ghost hand-btn"' +
+      (p.assignee === "Editor" ? ' style="color:#d97706;border-color:#d97706"' : "") + ">" +
+      (p.assignee === "Editor" ? "👤 → Owner" : "✂️ → Editor") + "</button>" +
       '<button class="danger del-btn" style="margin-left:auto">🗑 Delete</button></div>';
     c.innerHTML = inner;
     const ft = c.querySelector(".ftitle");
@@ -961,6 +964,7 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
       toast("Moved ✓");
     };
     c.querySelector(".edit-btn").onclick = () => openComposer(p.id);
+    c.querySelector(".hand-btn").onclick = () => handOff(p);
     c.querySelector(".del-btn").onclick = () => {
       if (confirm("Delete this item?")) {
         plans = plans.filter(x => x.id !== p.id);
@@ -1306,6 +1310,13 @@ function downloadWiz() {
   toast("Downloaded — drop it into your Drive folder");
 }
 
+function handOff(p) {
+  p.assignee = p.assignee === "Editor" ? "Ahmad" : "Editor";
+  savePlans();
+  renderBoard();
+  toast(p.assignee === "Editor" ? "Sent to Editor ✂️" : "Back with you 👤");
+}
+
 function platTags(p, max) {
   max = max || 4;
   return p.platforms.slice(0, max).map(k => {
@@ -1319,12 +1330,15 @@ function postRow(p, withTime) {
   d.className = "qrow";
   d.innerHTML =
     (withTime ? '<span class="qtime">' + (p.when ? p.when.slice(11, 16) : "--:--") + "</span>" : "") +
-    '<span class="avatar ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
+    '<span class="avatar ' + (p.assignee === "Editor" ? "editor" : "ahmad") +
+    '" style="cursor:pointer" title="Click to hand off to ' +
+    (p.assignee === "Editor" ? "Owner" : "Editor") + '">' +
     (p.assignee === "Editor" ? "E" : "A") + "</span>" +
     '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 80)) + "</span>" +
     '<span class="qtags">' + platTags(p) + "</span>" +
     '<button class="rowdel" style="background:none;border:1px solid var(--line);color:var(--dim);border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer">✕</button>';
   d.onclick = () => openComposer(p.id);
+  d.querySelector(".avatar").onclick = e => { e.stopPropagation(); handOff(p); };
   d.querySelector(".rowdel").onclick = e => {
     e.stopPropagation();
     if (confirm("Delete this item?")) {
@@ -1395,17 +1409,22 @@ function renderIdeas(el) {
   ideas.forEach(p => {
     const c = document.createElement("div");
     c.className = "ideacard";
+    const withEd = p.assignee === "Editor";
     c.innerHTML = '<div class="t">' + esc(p.title.split("\n")[0]) + "</div>" +
       (p.url ? '<a href="' + esc(p.url) + '" target="_blank">source</a>' : "") +
       '<div style="margin-top:10px;display:flex;gap:6px">' +
       '<button class="ghost" style="padding:5px 12px;font-size:12px">✍️ → Script</button>' +
+      '<button class="ghost" style="padding:5px 10px;font-size:12px' +
+      (withEd ? ";color:#d97706;border-color:#d97706" : "") + '">' +
+      (withEd ? "✂️ With Editor ↩" : "✂️ → Editor") + "</button>" +
       '<button class="danger" style="padding:5px 10px;font-size:12px;margin-left:auto">✕</button></div>';
     const btns = c.querySelectorAll("button");
     btns[0].onclick = () => {
       p.status = "script"; savePlans();
       openCreate(p.title.split("\n")[0], p.url || "", p.ctype ? { type: p.ctype } : null, p.id);
     };
-    btns[1].onclick = () => {
+    btns[1].onclick = () => handOff(p);
+    btns[2].onclick = () => {
       if (confirm("Delete idea?")) {
         plans = plans.filter(x => x.id !== p.id); savePlans(); renderBoard();
       }
@@ -1535,8 +1554,10 @@ function renderEditorView(el) {
       d.className = "qrow";
       d.innerHTML = '<span class="tag">' + p.status + "</span>" +
         '<span class="qtext">' + esc(p.title.split("\n")[0].slice(0, 60)) + "</span>" +
-        '<span class="qtags">' + platTags(p) + "</span>";
+        '<span class="qtags">' + platTags(p) + "</span>" +
+        '<button class="back-btn" style="background:none;border:1px solid #d97706;color:#d97706;border-radius:7px;padding:3px 9px;font-size:11.5px;cursor:pointer;white-space:nowrap">👤 → Owner</button>';
       d.onclick = () => openComposer(p.id);
+      d.querySelector(".back-btn").onclick = e => { e.stopPropagation(); handOff(p); };
       el.appendChild(d);
     });
   }
