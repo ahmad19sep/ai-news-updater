@@ -1418,9 +1418,12 @@ function renderScriptView(el, ed) {
     lab.textContent = "Working on:";
     box.appendChild(lab);
     inProg.forEach(p => {
+      const grp = document.createElement("span");
+      grp.style.cssText = "display:inline-flex;align-items:center";
       const b = document.createElement("button");
       b.textContent = (p.revnote ? "🔁 " : "✍️ ") + p.title.split("\n")[0].slice(0, 32);
       b.className = wizBind === p.id ? "active" : "";
+      b.style.borderTopRightRadius = "0"; b.style.borderBottomRightRadius = "0";
       b.onclick = () => {
         wizBind = p.id;
         wiz.topic = p.title.split("\n")[0];
@@ -1429,7 +1432,20 @@ function renderScriptView(el, ed) {
         wiz.plats = []; wiz.tpl = null; wiz.prompt = "";
         renderBoard();
       };
-      box.appendChild(b);
+      const x = document.createElement("button");
+      x.textContent = "✕";
+      x.title = "Delete this script";
+      x.style.cssText = "border-left:0;border-top-left-radius:0;border-bottom-left-radius:0;color:var(--red);padding:6px 9px";
+      x.onclick = () => {
+        if (!confirm('Delete "' + p.title.split("\n")[0].slice(0, 40) + '"?')) return;
+        plans = plans.filter(x2 => x2.id !== p.id);
+        if (wizBind === p.id) { wizBind = null; wiz.topic = ""; wiz.type = null; wiz.plats = []; wiz.tpl = null; wiz.prompt = ""; }
+        savePlans();
+        renderBoard();
+        toast("Deleted 🗑");
+      };
+      grp.appendChild(b); grp.appendChild(x);
+      box.appendChild(grp);
     });
     if (!ed) {                       /* editors work on assigned topics only */
       const custom = document.createElement("button");
