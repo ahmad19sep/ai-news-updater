@@ -402,6 +402,17 @@ PAGE = r"""<!doctype html>
   .chatdot { display:inline-flex; align-items:center; justify-content:center;
           min-width:17px; height:17px; padding:0 5px; border-radius:9px;
           background:#ef4444; color:#fff; font:700 10.5px Inter; vertical-align:middle; }
+  /* @mentions */
+  .mention { color:var(--wa-green); font-weight:700; }
+  body.dark .mention { color:#53bdeb; }
+  .cmsg.mentions-me .cbubble { background:#fff7cc; box-shadow:0 1px .5px rgba(11,20,26,.2); }
+  body.dark .cmsg.mentions-me .cbubble { background:#3a3a1f; }
+  .cmsg.mine.mentions-me .cbubble { background:#d9fdd3; }
+  .mention-box { position:fixed; z-index:600; background:var(--surface); border:1px solid var(--line);
+          border-radius:10px; box-shadow:var(--shadow-lg); overflow:hidden; max-height:170px;
+          overflow-y:auto; }
+  .mention-it { padding:9px 14px; font-size:13.5px; cursor:pointer; color:var(--text); }
+  .mention-it:hover, .mention-it.sel { background:var(--indigo-soft); color:var(--indigo); }
   body.dark {
     --bg:#0b0f17; --surface:#131a26; --surface2:#1a2230;
     --text:#e7ecf3; --dim:#9aa3b2; --faint:#647082;
@@ -620,7 +631,7 @@ PAGE = r"""<!doctype html>
       <div style="flex:1">
         <div id="m-chat" class="chatbox"></div>
         <div class="chatinput">
-          <input id="m-chat-text" placeholder="Message about this task…"
+          <input id="m-chat-text" placeholder="Message… type @ to mention"
             onkeydown="if(event.key==='Enter')composerChatSend()">
           <button class="btn" onclick="composerChatSend()" title="Send">➤</button>
         </div>
@@ -641,7 +652,7 @@ PAGE = r"""<!doctype html>
     </div>
     <div id="g-chat" class="chatbox" style="flex:1;max-height:none"></div>
     <div class="chatinput">
-      <input id="g-chat-text" placeholder="Message your team…"
+      <input id="g-chat-text" placeholder="Message… type @ to mention an editor"
         onkeydown="if(event.key==='Enter')generalChatSend()">
       <button class="btn" onclick="generalChatSend()" title="Send">➤</button>
     </div>
@@ -2772,18 +2783,75 @@ function chatTime(ts) {
     { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); }
   catch (e) { return ""; }
 }
+function myMentionTok() { return ROLE === "owner" ? "owner" : ROLE; }
+function ownerName() { return settings.ownerName || "Ahmad"; }
+function mentionPeople() {
+  return [{ tok: "owner", name: ownerName() }].concat(
+    editors.map(e => ({ tok: e.id, name: e.name })));
+}
+/* escape text, then turn @<tok> into a styled @Name */
+function escMentions(text) {
+  let s = esc(text || "");
+  mentionPeople().forEach(p => {
+    const re = new RegExp("@" + p.tok.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "g");
+    s = s.replace(re, '<span class="mention">@' + esc(p.name) + "</span>");
+  });
+  return s;
+}
+function mentionsMe(text) {
+  return new RegExp("@" + myMentionTok().replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(text || "");
+}
 function chatRender(el, msgs) {
   if (!el) return;
   el.innerHTML = msgs.length ? "" : '<div class="cmsg-empty">No messages yet — say hi 👋</div>';
   const me = chatWho();
   msgs.forEach(m => {
     const d = document.createElement("div");
-    d.className = "cmsg" + (m.who === me ? " mine" : "");
+    d.className = "cmsg" + (m.who === me ? " mine" : "") + (mentionsMe(m.text) ? " mentions-me" : "");
     d.innerHTML = '<div class="cbubble"><div class="cwho">' + esc(m.who || "?") +
-      "</div>" + esc(m.text || "") + '<div class="cts">' + chatTime(m.ts) + "</div></div>";
+      "</div>" + escMentions(m.text || "") + '<div class="cts">' + chatTime(m.ts) + "</div></div>";
     el.appendChild(d);
   });
   el.scrollTop = el.scrollHeight;
+}
+
+/* ---- @mention autocomplete on a chat input ---- */
+let mentionBox = null;
+function closeMentionBox() { if (mentionBox) { mentionBox.remove(); mentionBox = null; } }
+function attachMention(input) {
+  if (!input) return;
+  input.addEventListener("input", () => {
+    const pos = input.selectionStart;
+    const m = input.value.slice(0, pos).match(/@(\w*)$/);
+    if (!m) { closeMentionBox(); return; }
+    const q = m[1].toLowerCase();
+    const matches = mentionPeople().filter(p => p.name.toLowerCase().includes(q));
+    if (!matches.length) { closeMentionBox(); return; }
+    closeMentionBox();
+    mentionBox = document.createElement("div");
+    mentionBox.className = "mention-box";
+    matches.forEach(p => {
+      const it = document.createElement("div");
+      it.className = "mention-it";
+      it.textContent = "@" + p.name;
+      it.onmousedown = e => {   // mousedown beats the input blur
+        e.preventDefault();
+        const cur = input.selectionStart;
+        const before = input.value.slice(0, cur).replace(/@\w*$/, "@" + p.tok + " ");
+        input.value = before + input.value.slice(cur);
+        closeMentionBox();
+        input.focus();
+      };
+      mentionBox.appendChild(it);
+    });
+    const r = input.getBoundingClientRect();
+    document.body.appendChild(mentionBox);
+    const h = mentionBox.offsetHeight;
+    mentionBox.style.left = r.left + "px";
+    mentionBox.style.width = Math.max(160, r.width) + "px";
+    mentionBox.style.top = (r.top - h - 6) + "px";   // float above the input
+  });
+  input.addEventListener("blur", () => setTimeout(closeMentionBox, 120));
 }
 async function chatLoad(thread, el) {
   const base = chatBase();
@@ -3175,6 +3243,8 @@ document.getElementById("q").addEventListener("input", e => {
 });
 document.getElementById("more").onclick = () => { shown += PAGE; render(); };
 trendsBar(); bar(); renderHome(); render();
+attachMention(document.getElementById("m-chat-text"));
+attachMention(document.getElementById("g-chat-text"));
 if (EDLINK) {                       /* arrived via an editor's private link */
   let _ed = edById(EDLINK);
   const _key = (_ed && _ed.ph) || EDKEY;
