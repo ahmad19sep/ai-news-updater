@@ -66,12 +66,17 @@ LINK: ${b.url || ""}
 
 Format requested: ${b.template || "engaging thread"}.
 
+Make it genuinely ENGAGING (this is the priority):
+- Tweet 1 = a scroll-stopping hook: a surprising fact, a bold claim, or a "wait, what?" line. No "Thread 🧵" filler.
+- Short punchy lines, simple words, one idea per tweet, build curiosity so people read the next one.
+- Sound like a smart friend, not a press release. A little personality. Emojis only where natural (1 per tweet max).
+- Last tweet: a clear takeaway for everyday people in Pakistan/India + soft CTA to follow @aixahmad.
+
 Rules:
 - Base everything ONLY on the story above — do not invent facts, numbers, or quotes.
 - Each tweet MUST be <= 270 characters.
-- First tweet = a strong scroll-stopping hook.
-- If it's a thread, 3–6 tweets, each one idea; last tweet ends with a soft CTA to follow @aixahmad.
-- No more than 2 hashtags total, on the last tweet only.
+- Thread length: 3–6 tweets (or 1 for a single post).
+- Max 2 hashtags total, only on the last tweet.
 - Respectful tone, never mocking real tragedy.
 
 Return ONLY a JSON array of tweet strings, nothing else. Example: ["tweet 1","tweet 2"]`;
@@ -102,7 +107,8 @@ function parseTweets(text) {
    on the Worker (Settings -> Bindings -> add Workers AI, variable name AI). */
 async function callCloudflare(env, prompt) {
   if (!env.AI) throw new Error("Add an 'AI' binding (Worker Settings -> Bindings -> Workers AI, name it AI)");
-  const model = env.WRITER_MODEL || "@cf/meta/llama-3.1-8b-instruct";
+  // 70B = best engaging copy on the free tier; if it ever errors, set WRITER_MODEL=@cf/meta/llama-3.1-8b-instruct
+  const model = env.WRITER_MODEL || "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
   const out = await env.AI.run(model, { messages: [{ role: "user", content: prompt }] });
   return (out && (out.response || out.result || out.text)) || "";
 }
