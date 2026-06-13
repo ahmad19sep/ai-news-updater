@@ -595,6 +595,8 @@ async function tryUnlock() {
   const code = document.getElementById("lockcode").value.trim();
   if (await sha256(code) === LOCKHASH) {
     localStorage.setItem("unlock", LOCKHASH);
+    BOARDKEY = (await sha256("aixboard:" + code)).slice(0, 40);  /* permanent board address from the code */
+    localStorage.setItem("boardkey", BOARDKEY);
     document.getElementById("lock").hidden = true;
   } else {
     document.getElementById("lockerr").textContent = "Wrong code - try again.";
@@ -746,6 +748,7 @@ function adoptOrphans(eid) {
    Backends: "fb:<databaseURL>|<secret>"  -> Firebase Realtime Database (recommended,
              instant updates via stream)  |  "bin:<id>" -> free public JSON bin.   */
 let SYNCCFG = localStorage.getItem("synccfg") || "";
+let BOARDKEY = localStorage.getItem("boardkey") || "";   /* permanent board address, derived from owner access code */
 if (!SYNCCFG && localStorage.getItem("syncid")) {        /* migrate older bin sync */
   SYNCCFG = "bin:" + localStorage.getItem("syncid");
   localStorage.setItem("synccfg", SYNCCFG);
@@ -856,31 +859,80 @@ function startStream() {
     syncStream.onerror = () => setCloudIcon(false);
   } catch (e) { syncStream = null; }
 }
+/* make sure we have the permanent board address (derived from the owner access code) */
+async function ensureBoardKey() {
+  if (BOARDKEY) return BOARDKEY;
+  const code = (prompt("Apna owner access code dobara likho — board ka permanent address banane ke liye:") || "").trim();
+  if (!code) return "";
+  if (await sha256(code) !== LOCKHASH) { toast("Wrong access code ❌"); return ""; }
+  BOARDKEY = (await sha256("aixboard:" + code)).slice(0, 40);
+  localStorage.setItem("boardkey", BOARDKEY);
+  return BOARDKEY;
+}
+/* point this device at a board path: PULL first (recover), then seed/force-push */
+async function connectSync(cfg, seedIfEmpty, forcePush) {
+  if (syncStream) { syncStream.close(); syncStream = null; }
+  SYNCCFG = cfg;
+  localStorage.setItem("synccfg", SYNCCFG);
+  syncReady = true;
+  boardRev = 0; localStorage.setItem("boardrev", "0");   /* let the remote win the first pull */
+  await pollBoard();
+  const hasData = (plans && plans.length) || (editors && editors.length) || (etasks && etasks.length);
+  let ok = true;
+  if (forcePush) ok = await pushBoard();
+  else if (seedIfEmpty && !hasData) ok = await pushBoard();
+  if (isFb()) startStream();
+  setCloudIcon(true);
+  rerender();
+  if (!document.getElementById("tab-home").hidden) renderHome();
+  return ok;
+}
+/* pull a connection config out of an editor link or a raw config string */
+function recoverCfgFrom(text) {
+  text = (text || "").trim();
+  if (text.slice(0, 3) === "fb:" || text.slice(0, 4) === "bin:") return text;
+  const m = text.match(/[#&?]s=([^&\s]+)/);
+  if (m) return decodeURIComponent(m[1]);
+  const m2 = text.match(/editor=\w+\.[0-9a-f]*\.([0-9a-f]{6,40})/);
+  if (m2) return "bin:" + m2[1];
+  return "";
+}
 async function enableSync() {
-  const url = (prompt(
-    "RECOMMENDED — Firebase Realtime Database URL yahan paste karo\n" +
-    "(console.firebase.google.com → Realtime Database → Data tab ka URL)\n\n" +
-    "Ya EMPTY chhod do → quick free bin use hoga:") || "").trim();
-  if (url) {
-    if (!/^https:\/\/[\w.-]+\.(firebasedatabase\.app|firebaseio\.com)\/?$/.test(url)) {
-      toast("That doesn't look like a Firebase database URL ❌");
+  const inp = (prompt(
+    "Firebase Realtime Database URL paste karo (connect karne ke liye).\n\n" +
+    "Kal ka board WAPIS chahiye? Apna purana EDITOR LINK yahan paste karo.\n\n" +
+    "Empty chhodo = quick free bin:") || "").trim();
+  if (inp) {
+    /* --- recovery: pasted an editor link or a saved config string --- */
+    const rec = recoverCfgFrom(inp);
+    const looksUrl = /^https:\/\/[\w.-]+\.(firebasedatabase\.app|firebaseio\.com)\/?$/.test(inp);
+    if (rec && !looksUrl) {
+      await connectSync(rec, false);                 /* pull the old board onto this device */
+      const recovered = (plans && plans.length) || (editors && editors.length) || (etasks && etasks.length);
+      if (!recovered) { toast("Us link par koi board nahi mila — Firebase console check karo"); return; }
+      if (rec.slice(0, 3) === "fb:") {               /* migrate it to the permanent address */
+        const key = await ensureBoardKey();
+        const url = rec.slice(3).split("|")[0];
+        if (key) {
+          await connectSync("fb:" + url.replace(/\/+$/, "") + "|" + key, false, true);
+          toast("Board recover ho gaya ⚡ ab permanent address par hai — naye editor links bhejo");
+          return;
+        }
+      }
+      toast("Kal ka board wapis aa gaya ✓");
       return;
     }
-    const secret = [...crypto.getRandomValues(new Uint8Array(20))]
-      .map(b => b.toString(16).padStart(2, "0")).join("");
-    SYNCCFG = "fb:" + url.replace(/\/+$/, "") + "|" + secret;
-    localStorage.setItem("synccfg", SYNCCFG);
-    syncReady = true;
-    if (!await pushBoard()) {
-      SYNCCFG = "";
-      localStorage.removeItem("synccfg");
-      setCloudIcon(true);
+    /* --- normal connect via Firebase URL → permanent deterministic path --- */
+    if (!looksUrl) { toast("Ye na Firebase URL hai na editor link ❌"); return; }
+    const key = await ensureBoardKey();
+    if (!key) { toast("Board address ke liye access code chahiye"); return; }
+    const ok = await connectSync("fb:" + inp.replace(/\/+$/, "") + "|" + key, true);
+    if (!ok) {
+      SYNCCFG = ""; localStorage.removeItem("synccfg"); setCloudIcon(true);
       toast("Firebase ne mana kar diya — Rules me boards read/write true karo, phir retry");
       return;
     }
-    startStream();
-    rerender();
-    toast("Firebase live sync ON ⚡ — copy FRESH links for your editors");
+    toast("Firebase live sync ON ⚡ permanent address — naye editor links bhejo");
     return;
   }
   try {
