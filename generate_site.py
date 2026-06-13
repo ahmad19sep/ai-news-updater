@@ -34,6 +34,9 @@ PAGE = r"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#ffffff">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>AI x Ahmad — Radar Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -665,7 +668,7 @@ PAGE = r"""<!doctype html>
 </div>
 <div class="toast" id="toast"></div>
 
-<script src="templates.js"></script>
+<script src="templates.js?v=__CACHE__"></script>
 <script>
 /* ---- any crash shows on screen instead of silently blanking the app ---- */
 window.onerror = function (msg, src, line) {
@@ -3376,6 +3379,7 @@ def generate():
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
             .replace("__LOCKHASH__", lock_hash)
             .replace("__FBURL__", fb_url)
+            .replace("__CACHE__", now.strftime("%Y%m%d%H%M"))
             .replace("__UPDATED__", updated))
 
     os.makedirs(OUT_DIR, exist_ok=True)
