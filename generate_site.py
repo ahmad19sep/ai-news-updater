@@ -682,11 +682,12 @@ PAGE = r"""<!doctype html>
       <select id="x-hook" style="flex:1;min-width:130px" title="Opening hook"></select>
       <select id="x-lang"><option value="en">English (global)</option></select>
     </div>
-    <div class="genrow" style="align-items:center">
+    <div class="genrow" style="align-items:center;flex-wrap:wrap">
       <label style="font-size:12.5px;color:var(--dim);display:flex;align-items:center;gap:7px">
         <input type="checkbox" id="x-auto" style="width:16px;height:16px"> Full-auto (no preview)
       </label>
-      <button class="btn" style="margin-left:auto" id="x-write">✍️ Write</button>
+      <button class="ghost" style="margin-left:auto" id="x-copyprompt">🤖 Copy prompt for Claude</button>
+      <button class="btn" id="x-write">✍️ Write (auto)</button>
     </div>
     <div id="x-out" hidden>
       <p class="note" style="margin:12px 0 4px">Review / edit — one tweet per block, separated by a blank line:</p>
@@ -3125,7 +3126,6 @@ function xFillSelect(id, group, def) {
     .map(([k, v]) => '<option value="' + k + '"' + (k === def ? " selected" : "") + ">" + esc(v.name) + "</option>").join("");
 }
 function openXModal(story) {
-  if (!xConfigured() && !xSetup()) return;
   xStory = story;
   // recommended default combo: single post + breaking-news wire + breaking hook
   xFillSelect("x-format", "formats", "single");
@@ -3149,8 +3149,19 @@ function xPayload() {
     lang: document.getElementById("x-lang").value });
   return { prompt: prompt, title: xStory.t, url: xStory.u };
 }
+document.getElementById("x-copyprompt").onclick = () => {
+  if (!xStory) return;
+  const p = xPayload().prompt;
+  navigator.clipboard.writeText(p).then(() => {
+    document.getElementById("x-out").hidden = false;
+    document.getElementById("x-tweets").value = "";
+    document.getElementById("x-result").textContent = "Prompt copied — paste in Claude, then paste the thread back here";
+    toast("Prompt copied for Claude 🤖");
+  });
+};
 document.getElementById("x-write").onclick = async () => {
   if (!xStory) return;
+  if (!xConfigured() && !xSetup()) return;   // auto-write needs the Worker; the Claude button doesn't
   const auto = document.getElementById("x-auto").checked;
   const btn = document.getElementById("x-write");
   btn.disabled = true; btn.textContent = auto ? "Writing & posting…" : "Writing…";
