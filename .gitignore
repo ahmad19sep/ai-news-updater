@@ -1,6 +1,7 @@
 # Secrets - private ntfy topic and site access code stay out of the public repo
 ntfy_topic.txt
 site_passcode.txt
+firebase_url.txt
 
 # Python
 __pycache__/

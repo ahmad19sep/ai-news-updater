@@ -20,6 +20,7 @@ jobs:
       TZ: Asia/Karachi                          # digest times in Pakistan time
       NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}     # your private topic, kept secret
       SITE_PASSCODE: ${{ secrets.SITE_PASSCODE }}  # studio access code (hash goes in page)
+      FIREBASE_URL: ${{ secrets.FIREBASE_URL }}    # Realtime DB URL, baked in so devices auto-connect
     steps:
       - uses: actions/checkout@v5
 

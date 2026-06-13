@@ -587,6 +587,7 @@ window.onerror = function (msg, src, line) {
 
 /* ---- access gate (light protection - keeps casual visitors out) ---- */
 const LOCKHASH = "__LOCKHASH__";
+const FBURL = "__FBURL__";   /* baked-in Firebase URL: any device auto-connects after unlock */
 async function sha256(t) {
   const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t));
   return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join("");
@@ -598,6 +599,7 @@ async function tryUnlock() {
     BOARDKEY = (await sha256("aixboard:" + code)).slice(0, 40);  /* permanent board address from the code */
     localStorage.setItem("boardkey", BOARDKEY);
     document.getElementById("lock").hidden = true;
+    autoConnect();   /* baked-in Firebase URL + this code => connect automatically */
   } else {
     document.getElementById("lockerr").textContent = "Wrong code - try again.";
   }
@@ -886,6 +888,12 @@ async function connectSync(cfg, seedIfEmpty, forcePush) {
   rerender();
   if (!document.getElementById("tab-home").hidden) renderHome();
   return ok;
+}
+/* baked-in Firebase URL + permanent board key => connect with no link pasting */
+async function autoConnect() {
+  if (SYNCCFG || !FBURL || !BOARDKEY || ROLE !== "owner") return;
+  await connectSync("fb:" + FBURL.replace(/\/+$/, "") + "|" + BOARDKEY, true);
+  toast(isFb() ? "Live sync ON ⚡ (auto)" : "Live sync ON");
 }
 /* pull a connection config out of an editor link or a raw config string */
 function recoverCfgFrom(text) {
@@ -2925,6 +2933,8 @@ setCloudIcon(true);
 if (SYNCCFG) {
   pollBoard().then(() => { syncReady = true; });   /* pull latest before pushing */
   startStream();
+} else if (FBURL && BOARDKEY && ROLE === "owner") {
+  autoConnect();   /* already-unlocked owner device, fresh storage: reconnect automatically */
 }
 </script>
 </body>
@@ -2944,6 +2954,21 @@ def _load_passcode():
         except FileNotFoundError:
             pass
     return code
+
+
+def _load_fburl():
+    """Firebase Realtime Database URL: GitHub secret on the cloud, local file
+    on the PC. Baked into the page so any device auto-connects after unlock.
+    The URL is not secret on its own — the board path needs the access code."""
+    url = os.environ.get("FIREBASE_URL", "").strip()
+    if not url:
+        try:
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "firebase_url.txt")) as f:
+                url = f.read().strip()
+        except FileNotFoundError:
+            pass
+    return url
 
 
 def generate():
@@ -2977,6 +3002,7 @@ def generate():
 
     code = _load_passcode()
     lock_hash = hashlib.sha256(code.encode()).hexdigest() if code else ""
+    fb_url = _load_fburl()
 
     updated = now.strftime("%d %b %Y, %H:%M UTC")
     html = (PAGE
@@ -2984,6 +3010,7 @@ def generate():
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
             .replace("__LOCKHASH__", lock_hash)
+            .replace("__FBURL__", fb_url)
             .replace("__UPDATED__", updated))
 
     os.makedirs(OUT_DIR, exist_ok=True)
