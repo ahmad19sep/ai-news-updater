@@ -353,6 +353,22 @@ PAGE = r"""<!doctype html>
           width:38px; height:38px; font-size:16px; cursor:pointer; transition:.15s;
           flex-shrink:0; }
   .themebtn:hover { border-color:var(--line2); box-shadow:var(--shadow-sm); }
+  /* chat */
+  .chatbox { background:var(--surface2); border:1px solid var(--line); border-radius:10px;
+          padding:10px; max-height:240px; overflow-y:auto; display:flex;
+          flex-direction:column; gap:7px; }
+  .cmsg { display:flex; }
+  .cmsg.mine { justify-content:flex-end; }
+  .cbubble { max-width:78%; background:var(--surface); border:1px solid var(--line);
+          border-radius:12px; padding:7px 11px; font-size:13px; line-height:1.4; }
+  .cmsg.mine .cbubble { background:var(--indigo); color:#fff; border-color:var(--indigo); }
+  .cwho { font-size:10.5px; font-weight:700; opacity:.7; margin-bottom:2px; }
+  .cts { font-size:9.5px; opacity:.55; margin-top:3px; text-align:right; }
+  .cmsg-empty { color:var(--faint); font-size:12.5px; text-align:center; padding:18px 0; }
+  .chatinput { display:flex; gap:8px; margin-top:8px; }
+  .chatinput input { flex:1; }
+  #chatmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
+          display:flex; align-items:center; justify-content:center; padding:18px; }
   body.dark {
     --bg:#0b0f17; --surface:#131a26; --surface2:#1a2230;
     --text:#e7ecf3; --dim:#9aa3b2; --faint:#647082;
@@ -470,6 +486,7 @@ PAGE = r"""<!doctype html>
     </nav>
     <button class="themebtn" id="cloudbtn" onclick="cloudClick()" title="Live sync">☁️</button>
     <button class="themebtn" id="rolebtn" onclick="roleSwitch(event)" title="Owner / editor mode">👤</button>
+    <button class="themebtn" id="chatbtn" onclick="openGeneralChat()" title="Team chat">💬</button>
     <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
     <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
   </div>
@@ -563,10 +580,34 @@ PAGE = r"""<!doctype html>
         placeholder="script paste, b-roll list, instructions for editor…"></textarea></div>
     <div class="mrow" style="align-items:flex-start"><span class="lbl">Files</span>
       <div id="m-files" style="flex:1"></div></div>
+    <div class="mrow" style="align-items:flex-start"><span class="lbl">💬 Chat</span>
+      <div style="flex:1">
+        <div id="m-chat" class="chatbox"></div>
+        <div class="chatinput">
+          <input id="m-chat-text" placeholder="Message about this task…"
+            onkeydown="if(event.key==='Enter')composerChatSend()">
+          <button class="btn" onclick="composerChatSend()">Send</button>
+        </div>
+      </div></div>
     <div class="mfoot">
       <button class="btn" onclick="closeModal()">Save</button>
       <button class="ghost" onclick="modalPrep()">🤖 Write with Claude</button>
       <button class="danger" style="margin-left:auto" onclick="modalDelete()">Delete</button>
+    </div>
+  </div>
+</div>
+<div id="chatmodal" hidden>
+  <div class="mbox" style="display:flex;flex-direction:column;height:min(72vh,560px)">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+      <b style="font-size:15px">💬 Team chat</b>
+      <select id="chat-thread" style="margin-left:auto;font-size:12.5px" onchange="generalChatSwitch()"></select>
+      <button class="ghost" style="padding:6px 12px" onclick="closeGeneralChat()">✕</button>
+    </div>
+    <div id="g-chat" class="chatbox" style="flex:1;max-height:none"></div>
+    <div class="chatinput">
+      <input id="g-chat-text" placeholder="Message your team…"
+        onkeydown="if(event.key==='Enter')generalChatSend()">
+      <button class="btn" onclick="generalChatSend()">Send</button>
     </div>
   </div>
 </div>
@@ -2674,6 +2715,100 @@ function renderEditorView(el, ed) {
 }
 
 /* ---- composer (Buffer-style) ---- */
+/* ---- Team chat (reuses Firebase; per-task threads + a general channel) ----
+   Messages live at  <fbUrl>/chat/<boardkey>/<thread>  — a separate path from the
+   board blob, appended with POST so two people typing never overwrite each other,
+   and streamed live with EventSource. Needs Firebase sync ON (isFb()). */
+let chatES = null;
+function chatBase() {
+  if (!isFb()) return "";
+  const parts = SYNCCFG.slice(3).split("|");
+  return parts[0].replace(/\/+$/, "") + "/chat/" + (parts[1] || "x");
+}
+function chatWho() {
+  return ROLE === "owner" ? (settings.ownerName || "Ahmad")
+                          : (edById(ROLE) || { name: "Editor" }).name;
+}
+function chatTime(ts) {
+  try { return new Date(ts).toLocaleString("en-GB",
+    { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); }
+  catch (e) { return ""; }
+}
+function chatRender(el, msgs) {
+  if (!el) return;
+  el.innerHTML = msgs.length ? "" : '<div class="cmsg-empty">No messages yet — say hi 👋</div>';
+  const me = chatWho();
+  msgs.forEach(m => {
+    const d = document.createElement("div");
+    d.className = "cmsg" + (m.who === me ? " mine" : "");
+    d.innerHTML = '<div class="cbubble"><div class="cwho">' + esc(m.who || "?") +
+      "</div>" + esc(m.text || "") + '<div class="cts">' + chatTime(m.ts) + "</div></div>";
+    el.appendChild(d);
+  });
+  el.scrollTop = el.scrollHeight;
+}
+async function chatLoad(thread, el) {
+  const base = chatBase();
+  if (!base) { if (el) el.innerHTML = '<div class="cmsg-empty">Turn on Firebase sync (☁️) to chat.</div>'; return; }
+  try {
+    const r = await fetch(base + "/" + thread + ".json");
+    const data = (await r.json()) || {};
+    const msgs = Object.values(data).filter(Boolean).sort((a, b) => (a.ts || 0) - (b.ts || 0));
+    chatRender(el, msgs);
+  } catch (e) {}
+}
+function chatOpen(thread, el) {
+  chatClose();
+  chatLoad(thread, el);
+  if (isFb()) {
+    try {
+      chatES = new EventSource(chatBase() + "/" + thread + ".json");
+      const reload = () => chatLoad(thread, el);
+      chatES.addEventListener("put", reload);
+      chatES.addEventListener("patch", reload);
+    } catch (e) {}
+  }
+}
+function chatClose() { if (chatES) { chatES.close(); chatES = null; } }
+async function chatSend(thread, text) {
+  text = (text || "").trim();
+  if (!text) return;
+  const base = chatBase();
+  if (!base) { toast("Turn on Firebase sync (☁️) to chat"); return; }
+  try {
+    await fetch(base + "/" + thread + ".json", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ who: chatWho(), role: ROLE, text: text, ts: Date.now() }) });
+  } catch (e) { toast("Message failed — check Firebase rules"); }
+}
+
+/* ---- general team chat modal ---- */
+let gThread = "general";
+function openGeneralChat() {
+  const sel = document.getElementById("chat-thread");
+  let opts = '<option value="general">📣 General</option>';
+  editors.forEach(e => { opts += '<option value="ed-' + e.id + '">✂️ ' + esc(e.name) + "</option>"; });
+  sel.innerHTML = opts;
+  sel.value = gThread;
+  document.getElementById("chatmodal").hidden = false;
+  chatOpen(gThread, document.getElementById("g-chat"));
+}
+function generalChatSwitch() {
+  gThread = document.getElementById("chat-thread").value;
+  chatOpen(gThread, document.getElementById("g-chat"));
+}
+function generalChatSend() {
+  const t = document.getElementById("g-chat-text");
+  chatSend(gThread, t.value).then(() => {
+    t.value = "";
+    chatLoad(gThread, document.getElementById("g-chat"));
+  });
+}
+function closeGeneralChat() {
+  chatClose();
+  document.getElementById("chatmodal").hidden = true;
+}
+
 function openComposer(id, presetDate) {
   let p = id ? plans.find(x => x.id === id) : null;
   if (!p) {
@@ -2723,6 +2858,15 @@ function openComposer(id, presetDate) {
     pl.appendChild(lab);
   });
   document.getElementById("modal").hidden = false;
+  chatOpen("task-" + p.id, document.getElementById("m-chat"));
+}
+function composerChatSend() {
+  const t = document.getElementById("m-chat-text");
+  if (!editingId) return;
+  chatSend("task-" + editingId, t.value).then(() => {
+    t.value = "";
+    chatLoad("task-" + editingId, document.getElementById("m-chat"));
+  });
 }
 function modalSaveFields() {
   const p = plans.find(x => x.id === editingId);
@@ -2744,6 +2888,7 @@ function modalSaveFields() {
 }
 function closeModal() {
   modalSaveFields();
+  chatClose();
   document.getElementById("modal").hidden = true;
   editingId = null;
   renderBoard();
