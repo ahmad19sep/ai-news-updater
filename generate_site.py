@@ -396,7 +396,7 @@ PAGE = r"""<!doctype html>
   .wa-head select option { color:#111; }
   .wa-head .x { margin-left:auto; background:rgba(255,255,255,.15); border:none; color:#fff;
           border-radius:8px; padding:6px 11px; cursor:pointer; font-size:14px; }
-  #chatmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
+  #chatmodal, #xmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
   .chatbadge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px;
           padding:0 5px; border-radius:9px; background:#ef4444; color:#fff;
@@ -663,6 +663,41 @@ PAGE = r"""<!doctype html>
       <input id="g-chat-text" placeholder="Message… type @ to mention an editor"
         onkeydown="if(event.key==='Enter')generalChatSend()">
       <button class="btn" onclick="generalChatSend()" title="Send">➤</button>
+    </div>
+  </div>
+</div>
+<div id="xmodal" hidden>
+  <div class="mbox" style="max-width:560px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+      <b style="font-size:15px">🚀 Post to X</b>
+      <span id="x-quota" style="margin-left:auto;font-size:11.5px;color:var(--faint)"></span>
+      <button class="ghost" style="padding:6px 11px" onclick="closeXModal()">✕</button>
+    </div>
+    <div id="x-story" class="note" style="margin:0 0 10px"></div>
+    <div class="genrow">
+      <select id="x-template" style="flex:1;min-width:160px">
+        <option value="engaging thread (5-6 tweets)">Thread (5-6 tweets)</option>
+        <option value="single punchy post">Single post</option>
+        <option value="hot take with my stance">Hot take</option>
+        <option value="prompt-share: useful AI prompt + show your result">Prompt share</option>
+        <option value="question that invites replies (my answer first)">Question</option>
+      </select>
+      <select id="x-lang"><option value="ur">Roman Urdu</option><option value="en">English</option></select>
+    </div>
+    <div class="genrow" style="align-items:center">
+      <label style="font-size:12.5px;color:var(--dim);display:flex;align-items:center;gap:7px">
+        <input type="checkbox" id="x-auto" style="width:16px;height:16px"> Full-auto (no preview)
+      </label>
+      <button class="btn" style="margin-left:auto" id="x-write">✍️ Write</button>
+    </div>
+    <div id="x-out" hidden>
+      <p class="note" style="margin:12px 0 4px">Review / edit — one tweet per block, separated by a blank line:</p>
+      <textarea id="x-tweets" style="width:100%;min-height:170px;font-size:13px"></textarea>
+      <div class="mfoot">
+        <button class="btn" id="x-post">🚀 Approve &amp; Post</button>
+        <button class="ghost" id="x-rewrite">↻ Rewrite</button>
+        <span id="x-result" style="margin-left:auto;font-size:12.5px"></span>
+      </div>
     </div>
   </div>
 </div>
@@ -1188,6 +1223,7 @@ function render() {
       '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + local + hot +
       "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
       '<span class="actions">' +
+      (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
       '<button class="plan-btn">🎬 plan</button>' +
       '<button class="prep-btn">📝</button>' +
       '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done ✓") + "</button>" +
@@ -1199,6 +1235,8 @@ function render() {
     };
     d.querySelector(".plan-btn").onclick = () => { addPlan(it.t, it.u); };
     d.querySelector(".prep-btn").onclick = () => openCreate(it.t, it.u);
+    const xb = d.querySelector(".x-btn");
+    if (xb) xb.onclick = () => openXModal(it);
     list.appendChild(d);
   });
   document.getElementById("more").style.display = items.length > shown ? "block" : "none";
@@ -3036,6 +3074,108 @@ function generalChatSend() {
 function closeGeneralChat() {
   chatClose();
   document.getElementById("chatmodal").hidden = true;
+}
+
+/* ---- X auto-post (owner only; calls the Cloudflare Worker) ---- */
+let xUrl = localStorage.getItem("x_url") || "";
+let xToken = localStorage.getItem("x_token") || "";
+let xStory = null;
+function xConfigured() { return xUrl && xToken; }
+function xSetup() {
+  const u = (prompt("Cloudflare Worker URL (https://aix-x...workers.dev):", xUrl) || "").trim();
+  if (!u) return false;
+  const t = (prompt("APP_TOKEN (the password you set in the Worker):", xToken) || "").trim();
+  if (!t) return false;
+  xUrl = u.replace(/\/+$/, ""); xToken = t;
+  localStorage.setItem("x_url", xUrl); localStorage.setItem("x_token", xToken);
+  toast("X pipeline connected ✓");
+  return true;
+}
+function xQuotaGet() {
+  const month = new Date().toISOString().slice(0, 7);
+  let q = {};
+  try { q = JSON.parse(localStorage.getItem("x_quota") || "{}"); } catch (e) {}
+  if (q.month !== month) q = { month: month, count: 0 };
+  return q;
+}
+function xQuotaAdd(n) {
+  const q = xQuotaGet();
+  q.count += n;
+  localStorage.setItem("x_quota", JSON.stringify(q));
+}
+function xShowQuota() {
+  const q = xQuotaGet();
+  document.getElementById("x-quota").textContent = q.count + " posts this month";
+}
+async function xCall(payload) {
+  const r = await fetch(xUrl, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(Object.assign({ token: xToken }, payload)) });
+  const d = await r.json();
+  if (!r.ok || d.error) throw new Error(d.error || ("HTTP " + r.status));
+  return d;
+}
+function tweetsToText(tweets) { return tweets.join("\n\n"); }
+function textToTweets(t) { return t.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean); }
+
+function openXModal(story) {
+  if (!xConfigured() && !xSetup()) return;
+  xStory = story;
+  document.getElementById("x-story").textContent = "📰 " + story.t;
+  document.getElementById("x-out").hidden = true;
+  document.getElementById("x-tweets").value = "";
+  document.getElementById("x-result").textContent = "";
+  document.getElementById("x-auto").checked = false;
+  xShowQuota();
+  document.getElementById("xmodal").hidden = false;
+}
+function closeXModal() { document.getElementById("xmodal").hidden = true; xStory = null; }
+function xPayload() {
+  return { title: xStory.t, url: xStory.u, summary: "",
+    template: document.getElementById("x-template").value,
+    lang: document.getElementById("x-lang").value };
+}
+document.getElementById("x-write").onclick = async () => {
+  if (!xStory) return;
+  const auto = document.getElementById("x-auto").checked;
+  const btn = document.getElementById("x-write");
+  btn.disabled = true; btn.textContent = auto ? "Writing & posting…" : "Writing…";
+  try {
+    if (auto) {
+      const d = await xCall(Object.assign({ action: "writepost" }, xPayload()));
+      xQuotaAdd((d.tweets || []).length || 1);
+      toast("Posted to X 🚀");
+      document.getElementById("x-out").hidden = false;
+      document.getElementById("x-tweets").value = tweetsToText(d.tweets || []);
+      showXResult(d.url);
+      xShowQuota();
+    } else {
+      const d = await xCall(Object.assign({ action: "write" }, xPayload()));
+      document.getElementById("x-out").hidden = false;
+      document.getElementById("x-tweets").value = tweetsToText(d.tweets || []);
+      document.getElementById("x-result").textContent = "Review, then Approve & Post";
+    }
+  } catch (e) { toast("X error: " + e.message); }
+  btn.disabled = false; btn.textContent = "✍️ Write";
+};
+document.getElementById("x-rewrite").onclick = () => document.getElementById("x-write").click();
+document.getElementById("x-post").onclick = async () => {
+  const tweets = textToTweets(document.getElementById("x-tweets").value);
+  if (!tweets.length) { toast("Nothing to post"); return; }
+  const btn = document.getElementById("x-post");
+  btn.disabled = true; btn.textContent = "Posting…";
+  try {
+    const d = await xCall({ action: "post", tweets: tweets });
+    xQuotaAdd(tweets.length);
+    toast("Posted to X 🚀");
+    showXResult(d.url);
+    xShowQuota();
+  } catch (e) { toast("X error: " + e.message); }
+  btn.disabled = false; btn.textContent = "🚀 Approve & Post";
+};
+function showXResult(url) {
+  const el = document.getElementById("x-result");
+  el.innerHTML = url ? '✅ <a href="' + esc(url) + '" target="_blank">View on X</a>' : "Posted ✅";
 }
 
 function openComposer(id, presetDate) {
