@@ -353,20 +353,46 @@ PAGE = r"""<!doctype html>
           width:38px; height:38px; font-size:16px; cursor:pointer; transition:.15s;
           flex-shrink:0; }
   .themebtn:hover { border-color:var(--line2); box-shadow:var(--shadow-sm); }
-  /* chat */
-  .chatbox { background:var(--surface2); border:1px solid var(--line); border-radius:10px;
-          padding:10px; max-height:240px; overflow-y:auto; display:flex;
-          flex-direction:column; gap:7px; }
-  .cmsg { display:flex; }
+  /* chat — WhatsApp look */
+  :root { --wa-bg:#efeae2; --wa-in:#ffffff; --wa-out:#d9fdd3; --wa-green:#008069;
+          --wa-tx:#111b21; --wa-ts:#667781; }
+  body.dark { --wa-bg:#0b141a; --wa-in:#202c33; --wa-out:#005c4b; --wa-green:#005c4b;
+          --wa-tx:#e9edef; --wa-ts:#8696a0; }
+  .chatbox { background:var(--wa-bg);
+          background-image:radial-gradient(rgba(0,0,0,.035) 1px, transparent 1px);
+          background-size:18px 18px; border:none; border-radius:10px;
+          padding:12px 10px; max-height:260px; overflow-y:auto; display:flex;
+          flex-direction:column; gap:3px; }
+  .cmsg { display:flex; margin-bottom:2px; }
   .cmsg.mine { justify-content:flex-end; }
-  .cbubble { max-width:78%; background:var(--surface); border:1px solid var(--line);
-          border-radius:12px; padding:7px 11px; font-size:13px; line-height:1.4; }
-  .cmsg.mine .cbubble { background:var(--indigo); color:#fff; border-color:var(--indigo); }
-  .cwho { font-size:10.5px; font-weight:700; opacity:.7; margin-bottom:2px; }
-  .cts { font-size:9.5px; opacity:.55; margin-top:3px; text-align:right; }
-  .cmsg-empty { color:var(--faint); font-size:12.5px; text-align:center; padding:18px 0; }
-  .chatinput { display:flex; gap:8px; margin-top:8px; }
-  .chatinput input { flex:1; }
+  .cbubble { position:relative; max-width:80%; background:var(--wa-in); color:var(--wa-tx);
+          border-radius:8px; border-top-left-radius:0; padding:6px 9px 5px;
+          font-size:13.5px; line-height:1.4; box-shadow:0 1px .5px rgba(11,20,26,.13); }
+  .cmsg:not(.mine) .cbubble::before { content:""; position:absolute; left:-7px; top:0;
+          border:7px solid transparent; border-top-color:var(--wa-in); border-right:0; }
+  .cmsg.mine .cbubble { background:var(--wa-out); border-top-left-radius:8px;
+          border-top-right-radius:0; }
+  .cmsg.mine .cbubble::before { content:""; position:absolute; right:-7px; top:0;
+          border:7px solid transparent; border-top-color:var(--wa-out); border-left:0; }
+  .cwho { font-size:11px; font-weight:700; margin-bottom:2px; color:var(--wa-green); }
+  .cmsg.mine .cwho { display:none; }
+  .cts { font-size:10px; color:var(--wa-ts); margin-top:2px; text-align:right; }
+  .cmsg.mine .cts::after { content:" ✓✓"; color:#53bdeb; }
+  .cmsg-empty { color:var(--wa-ts); font-size:12.5px; text-align:center; padding:24px 0; }
+  .chatinput { display:flex; gap:8px; margin-top:8px; align-items:center; }
+  .chatinput input { flex:1; border-radius:22px; padding:11px 16px; background:var(--wa-in);
+          border:1px solid var(--line); color:var(--wa-tx); }
+  .chatinput .btn { border-radius:50%; width:42px; height:42px; padding:0; flex-shrink:0;
+          background:var(--wa-green); font-size:17px; }
+  .chatinput .btn:hover { background:var(--wa-green); filter:brightness(1.08); }
+  .wa-head { background:var(--wa-green); color:#fff; margin:-26px -26px 12px;
+          padding:13px 18px; border-radius:16px 16px 0 0; display:flex;
+          align-items:center; gap:10px; }
+  .wa-head select { background:rgba(255,255,255,.15); color:#fff; border:none;
+          border-radius:8px; padding:6px 10px; font-size:12.5px; }
+  .wa-head select option { color:#111; }
+  .wa-head .x { margin-left:auto; background:rgba(255,255,255,.15); border:none; color:#fff;
+          border-radius:8px; padding:6px 11px; cursor:pointer; font-size:14px; }
   #chatmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
   .chatbadge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px;
@@ -596,7 +622,7 @@ PAGE = r"""<!doctype html>
         <div class="chatinput">
           <input id="m-chat-text" placeholder="Message about this task…"
             onkeydown="if(event.key==='Enter')composerChatSend()">
-          <button class="btn" onclick="composerChatSend()">Send</button>
+          <button class="btn" onclick="composerChatSend()" title="Send">➤</button>
         </div>
       </div></div>
     <div class="mfoot">
@@ -608,16 +634,16 @@ PAGE = r"""<!doctype html>
 </div>
 <div id="chatmodal" hidden>
   <div class="mbox" style="display:flex;flex-direction:column;height:min(72vh,560px)">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+    <div class="wa-head">
       <b style="font-size:15px">💬 Team chat</b>
-      <select id="chat-thread" style="margin-left:auto;font-size:12.5px" onchange="generalChatSwitch()"></select>
-      <button class="ghost" style="padding:6px 12px" onclick="closeGeneralChat()">✕</button>
+      <select id="chat-thread" style="margin-left:auto" onchange="generalChatSwitch()"></select>
+      <button class="x" onclick="closeGeneralChat()">✕</button>
     </div>
     <div id="g-chat" class="chatbox" style="flex:1;max-height:none"></div>
     <div class="chatinput">
       <input id="g-chat-text" placeholder="Message your team…"
         onkeydown="if(event.key==='Enter')generalChatSend()">
-      <button class="btn" onclick="generalChatSend()">Send</button>
+      <button class="btn" onclick="generalChatSend()" title="Send">➤</button>
     </div>
   </div>
 </div>
