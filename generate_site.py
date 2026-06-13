@@ -411,8 +411,13 @@ PAGE = r"""<!doctype html>
   .mention-box { position:fixed; z-index:600; background:var(--surface); border:1px solid var(--line);
           border-radius:10px; box-shadow:var(--shadow-lg); overflow:hidden; max-height:170px;
           overflow-y:auto; }
-  .mention-it { padding:9px 14px; font-size:13.5px; cursor:pointer; color:var(--text); }
+  .mention-it { padding:9px 14px; font-size:13.5px; cursor:pointer; color:var(--text);
+          white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .mention-it:hover, .mention-it.sel { background:var(--indigo-soft); color:var(--indigo); }
+  .taskchip { display:inline-block; background:var(--indigo-soft); color:var(--indigo);
+          border-radius:6px; padding:1px 7px; font-weight:600; text-decoration:none;
+          font-size:12.5px; }
+  .taskchip:hover { filter:brightness(.97); text-decoration:underline; }
   body.dark {
     --bg:#0b0f17; --surface:#131a26; --surface2:#1a2230;
     --text:#e7ecf3; --dim:#9aa3b2; --faint:#647082;
@@ -2789,14 +2794,25 @@ function mentionPeople() {
   return [{ tok: "owner", name: ownerName() }].concat(
     editors.map(e => ({ tok: e.id, name: e.name })));
 }
-/* escape text, then turn @<tok> into a styled @Name */
+/* escape text, then turn @task-<id> into a clickable chip and @<tok> into @Name */
 function escMentions(text) {
   let s = esc(text || "");
+  s = s.replace(/@task-(\d+)/g, (m, id) => {
+    const p = plans.find(x => String(x.id) === id);
+    const title = p ? p.title.split("\n")[0].slice(0, 32) : "task";
+    return '<a href="#" class="taskchip" onclick="gotoTask(' + id + ');return false">📋 ' + esc(title) + "</a>";
+  });
   mentionPeople().forEach(p => {
     const re = new RegExp("@" + p.tok.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "g");
     s = s.replace(re, '<span class="mention">@' + esc(p.name) + "</span>");
   });
   return s;
+}
+/* open a task from a chat chip, closing any chat/ticket dialog first */
+function gotoTask(id) {
+  if (!document.getElementById("chatmodal").hidden) closeGeneralChat();
+  if (!document.getElementById("modal").hidden) closeModal();
+  openComposer(id);
 }
 function mentionsMe(text) {
   return new RegExp("@" + myMentionTok().replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(text || "");
@@ -2824,20 +2840,30 @@ function attachMention(input) {
     const pos = input.selectionStart;
     const m = input.value.slice(0, pos).match(/@(\w*)$/);
     if (!m) { closeMentionBox(); return; }
-    const q = m[1].toLowerCase();
-    const matches = mentionPeople().filter(p => p.name.toLowerCase().includes(q));
+    const q = m[1].toLowerCase().trim();
+    // people first, then tasks (the work you assigned) matching the query
+    const people = mentionPeople()
+      .filter(p => p.name.toLowerCase().includes(q))
+      .map(p => ({ label: "👤 @" + p.name, ins: "@" + p.tok }));
+    const tasks = plans
+      .filter(p => (p.title || "").toLowerCase().includes(q))
+      .slice(0, 6)
+      .map(p => ({ label: "📋 " + p.title.split("\n")[0].slice(0, 34) +
+                   (p.assignee === "Editor" ? " · " + holderName(p) : ""),
+                   ins: "@task-" + p.id }));
+    const matches = people.concat(tasks).slice(0, 8);
     if (!matches.length) { closeMentionBox(); return; }
     closeMentionBox();
     mentionBox = document.createElement("div");
     mentionBox.className = "mention-box";
-    matches.forEach(p => {
+    matches.forEach(opt => {
       const it = document.createElement("div");
       it.className = "mention-it";
-      it.textContent = "@" + p.name;
+      it.textContent = opt.label;
       it.onmousedown = e => {   // mousedown beats the input blur
         e.preventDefault();
         const cur = input.selectionStart;
-        const before = input.value.slice(0, cur).replace(/@\w*$/, "@" + p.tok + " ");
+        const before = input.value.slice(0, cur).replace(/@\w*$/, opt.ins + " ");
         input.value = before + input.value.slice(cur);
         closeMentionBox();
         input.focus();
