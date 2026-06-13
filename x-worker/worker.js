@@ -96,6 +96,9 @@ Return ONLY a JSON array of tweet strings, nothing else. Example: ["tweet 1","tw
 }
 
 function parseTweets(text) {
+  if (text == null) return [];
+  if (typeof text !== "string") text = (text.response || text.result || text.text || JSON.stringify(text));
+  text = String(text);
   if (!text) return [];
   const m = text.match(/\[[\s\S]*\]/);   // pull the JSON array out of any wrapper text
   if (m) { try { const a = JSON.parse(m[0]); if (Array.isArray(a)) return a.filter(Boolean); } catch (e) {} }
@@ -110,7 +113,9 @@ async function callCloudflare(env, prompt) {
   // 70B = best engaging copy on the free tier; if it ever errors, set WRITER_MODEL=@cf/meta/llama-3.1-8b-instruct
   const model = env.WRITER_MODEL || "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
   const out = await env.AI.run(model, { messages: [{ role: "user", content: prompt }] });
-  return (out && (out.response || out.result || out.text)) || "";
+  let t = (out && typeof out === "object") ? (out.response ?? out.result ?? out.text ?? "") : out;
+  if (typeof t !== "string") t = JSON.stringify(t);
+  return t;
 }
 
 /* Groq — free tier, fast. Set WRITER=groq and WRITER_KEY to a groq.com key. */
