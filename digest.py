@@ -12,12 +12,60 @@ In code:         from digest import generate_weekly_digest
                  generate_weekly_digest("news.db", "docs/digests")
 """
 
+import html as _htmlmod
 import json
 import os
 import re
 import sqlite3
 from collections import Counter
 from datetime import datetime, timedelta, timezone
+
+
+def _e(s):
+    return _htmlmod.escape(str(s or ""))
+
+
+def _alink(url, text):
+    return '<a href="%s" target="_blank" rel="noopener">%s</a>' % (
+        _htmlmod.escape(str(url or ""), quote=True), _e(text))
+
+
+def _html_doc(title, body):
+    """Wrap the digest body in a clean, print-to-PDF page (Save as PDF button)."""
+    return """<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>""" + _e(title) + """</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0f172a;--dim:#5f6671;--line:#e5e7eb;--accent:#16a34a;}
+  *{box-sizing:border-box;}
+  body{max-width:760px;margin:0 auto;padding:34px 22px 70px;color:var(--ink);
+       font:15px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
+  h1{font-size:26px;font-weight:800;letter-spacing:-.02em;margin:0 0 4px;}
+  h2{font-size:18px;font-weight:700;margin:30px 0 12px;padding-bottom:6px;
+     border-bottom:2px solid var(--line);}
+  .sub{color:var(--dim);font-size:13px;margin-bottom:18px;}
+  .big{background:#f6faf7;border:1px solid #d7ead9;border-radius:12px;padding:16px 18px;}
+  .big .t{font-size:17px;font-weight:700;margin-bottom:6px;}
+  ol,ul{padding-left:22px;} li{margin-bottom:11px;}
+  .meta{color:var(--dim);font-size:13px;}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .nums li{margin-bottom:5px;}
+  .foot{margin-top:34px;color:var(--dim);font-size:12px;border-top:1px solid var(--line);padding-top:12px;}
+  .bar{position:sticky;top:0;background:#fff;padding:12px 0;margin:-34px 0 8px;
+       display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--line);}
+  .btn{background:var(--accent);color:#fff;border:none;padding:10px 18px;border-radius:9px;
+       font:600 14px Inter;cursor:pointer;}
+  .ghost{background:#fff;color:var(--ink);border:1px solid var(--line);padding:10px 16px;
+         border-radius:9px;font:600 13px Inter;text-decoration:none;}
+  @media print{.bar{display:none;} body{padding:0;} a{color:var(--ink);}}
+</style></head><body>
+<div class="bar noprint">
+  <button class="btn" onclick="window.print()">📄 Save as PDF</button>
+  <a class="ghost" href="latest.md" download>⬇ Markdown (for Claude)</a>
+</div>
+""" + body + """
+</body></html>"""
 
 try:
     import config
@@ -309,16 +357,75 @@ def generate_weekly_digest(db_path="news.db", output_dir="docs/digests", archive
 
     md = "\n".join(out) + "\n"
 
+    # ---- build the HTML / PDF version from the same data ----
+    H = []
+    H.append(f"<h1>🗞️ AI This Week</h1><div class='sub'>{start_s} to {end_s}</div>")
+    if top10:
+        big = top10[0]
+        r = big["row"]
+        H.append("<h2>🔥 Biggest Story of the Week</h2>")
+        H.append("<div class='big'><div class='t'>" + _e(r["title"]) + "</div>")
+        H.append(f"<div class='meta'>Covered by {big['n_sources']} source(s) · Score {big['total']}</div>")
+        H.append("<div style='margin-top:8px'>" + _alink(_best_link(r, big["links"]), "Open best source →") + "</div>")
+        if big["links"]:
+            extra = " · ".join(_alink(l.get("url", ""), "link " + str(i + 1))
+                               for i, l in enumerate(big["links"]) if l.get("url"))
+            H.append(f"<div class='meta' style='margin-top:6px'>All coverage: {extra}</div>")
+        H.append("</div>")
+    H.append("<h2>🤯 Most Interesting / Real-World AI Uses</h2>")
+    if interesting:
+        H.append("<ol>")
+        for s in interesting:
+            r = s["row"]
+            note = ""
+            if _is_engagement_source(r["source"]) and (r["upvotes"] or 0):
+                note = f" <span class='meta'>— {r['upvotes']:,} upvotes</span>"
+            elif r["pillar"] == SCIENCE_CATEGORY:
+                note = " <span class='meta'>— science angle</span>"
+            H.append("<li>" + _alink(r["url"], r["title"]) + note + "</li>")
+        H.append("</ol>")
+    else:
+        H.append("<p class='meta'>Nothing matched the real-world filter this week.</p>")
+    H.append("<h2>📊 Top 10 Stories This Week</h2>")
+    if top10:
+        H.append("<ol>")
+        for s in top10:
+            r = s["row"]
+            H.append("<li>" + _alink(r["url"], r["title"]) +
+                     f" <span class='meta'>— {_e(r['source'])} · Score {s['total']}</span></li>")
+        H.append("</ol>")
+    else:
+        H.append("<p class='meta'>No stories this week.</p>")
+    H.append("<h2>🧪 AI in Science Highlights</h2>")
+    if science:
+        H.append("<ul>")
+        for s in science:
+            H.append("<li>" + _alink(s["row"]["url"], s["row"]["title"]) + "</li>")
+        H.append("</ul>")
+    else:
+        H.append("<p class='meta'>No science stories this week.</p>")
+    H.append("<h2>📈 This Week in Numbers</h2><ul class='nums'>")
+    H.append(f"<li>Total stories tracked: <b>{total_stories}</b></li>")
+    H.append(f"<li>Most active topic: <b>{_e(most_topic)}</b></li>")
+    H.append(f"<li>Busiest category: <b>{_e(busiest_cat)}</b></li></ul>")
+    H.append("<div class='foot'>Auto-generated by AI News Radar. Source links are original. "
+             "Ready for editorial polish.</div>")
+    html_doc = _html_doc(f"AI Weekly Digest {now.strftime('%Y-%m-%d')}", "\n".join(H))
+
     os.makedirs(output_dir, exist_ok=True)
-    # "latest" copy is what the dashboard button downloads — always refreshed
-    latest = os.path.join(output_dir, "latest.md")
-    with open(latest, "w", encoding="utf-8") as f:
+    # "latest" copies are what the dashboard buttons open — always refreshed
+    with open(os.path.join(output_dir, "latest.md"), "w", encoding="utf-8") as f:
         f.write(md)
-    fpath = latest
+    with open(os.path.join(output_dir, "latest.html"), "w", encoding="utf-8") as f:
+        f.write(html_doc)
+    fpath = os.path.join(output_dir, "latest.html")
     if archive:
-        fpath = os.path.join(output_dir, f"AI-Weekly-Digest-{now.strftime('%Y-%m-%d')}.md")
-        with open(fpath, "w", encoding="utf-8") as f:
+        stamp = now.strftime("%Y-%m-%d")
+        with open(os.path.join(output_dir, f"AI-Weekly-Digest-{stamp}.md"), "w", encoding="utf-8") as f:
             f.write(md)
+        fpath = os.path.join(output_dir, f"AI-Weekly-Digest-{stamp}.html")
+        with open(fpath, "w", encoding="utf-8") as f:
+            f.write(html_doc)
     print(f"Weekly digest written: {fpath} ({total_stories} stories this week)")
     return fpath
 
