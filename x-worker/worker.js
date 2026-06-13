@@ -76,9 +76,11 @@ Rules:
 
 Return ONLY a JSON array of tweet strings, nothing else. Example: ["tweet 1","tweet 2"]`;
 
-  const provider = (env.WRITER || "gemini").toLowerCase();
+  const provider = (env.WRITER || "cloudflare").toLowerCase();
   let text = "";
-  if (provider === "gemini") text = await callGemini(env, prompt);
+  if (provider === "cloudflare" || provider === "workers-ai") text = await callCloudflare(env, prompt);
+  else if (provider === "gemini") text = await callGemini(env, prompt);
+  else if (provider === "groq") text = await callGroq(env, prompt);
   else if (provider === "anthropic") text = await callAnthropic(env, prompt);
   else if (provider === "openai") text = await callOpenAI(env, prompt);
   else throw new Error("unknown WRITER: " + provider);
@@ -94,6 +96,27 @@ function parseTweets(text) {
   if (m) { try { const a = JSON.parse(m[0]); if (Array.isArray(a)) return a.filter(Boolean); } catch (e) {} }
   // fallback: split numbered lines
   return text.split(/\n+/).map(l => l.replace(/^\s*\d+[.)]\s*/, "").trim()).filter(l => l.length > 3);
+}
+
+/* Cloudflare Workers AI — free daily allowance, no API key. Needs an "AI" binding
+   on the Worker (Settings -> Bindings -> add Workers AI, variable name AI). */
+async function callCloudflare(env, prompt) {
+  if (!env.AI) throw new Error("Add an 'AI' binding (Worker Settings -> Bindings -> Workers AI, name it AI)");
+  const model = env.WRITER_MODEL || "@cf/meta/llama-3.1-8b-instruct";
+  const out = await env.AI.run(model, { messages: [{ role: "user", content: prompt }] });
+  return (out && (out.response || out.result || out.text)) || "";
+}
+
+/* Groq — free tier, fast. Set WRITER=groq and WRITER_KEY to a groq.com key. */
+async function callGroq(env, prompt) {
+  const model = env.WRITER_MODEL || "llama-3.3-70b-versatile";
+  const r = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Authorization": "Bearer " + env.WRITER_KEY },
+    body: JSON.stringify({ model, messages: [{ role: "user", content: prompt }] }) });
+  const d = await r.json();
+  if (!r.ok) throw new Error("Groq: " + (d.error && d.error.message || r.status));
+  return ((d.choices || [])[0] || {}).message?.content || "";
 }
 
 async function callGemini(env, prompt) {

@@ -29,13 +29,18 @@ Do these once. Takes ~30–60 min. The X Developer step is the slow one — star
    (Generate the Access Token + Secret with **Read and Write** permission. If you set
    permissions AFTER generating, regenerate the token so it has write access.)
 
-## 2. A writer key (pick ONE)
+## 2. The writer (pick ONE)
 
-- **Gemini (free):** https://aistudio.google.com → **Get API key**. Free tier is plenty.
-- **Claude:** https://console.anthropic.com → API keys (needs a little credit; ~cents/month).
-- **OpenAI:** https://platform.openai.com → API keys.
+- **Cloudflare Workers AI (recommended — free, NO key needed):** runs right inside your
+  Worker. Just set `WRITER=cloudflare` and add an **AI binding** (see step 3.5 below).
+  Free daily allowance, no extra account.
+- **Groq (free, fast):** https://console.groq.com → API key. Set `WRITER=groq`, `WRITER_KEY=<key>`.
+- **Gemini (free tier, has daily limits):** https://aistudio.google.com → Get API key. `WRITER=gemini`.
+- **Claude / OpenAI:** paid keys (~cents/month). `WRITER=anthropic` or `openai`.
 
-Copy the key.
+## 3.5 If using Cloudflare Workers AI (recommended)
+In your Worker → **Settings → Bindings → Add → Workers AI** → set the **Variable name** to
+exactly **`AI`** → Save → Deploy. Then set the secret **`WRITER=cloudflare`** (no WRITER_KEY needed).
 
 ## 3. Cloudflare Worker (the safe key-holder)
 
