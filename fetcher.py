@@ -38,11 +38,47 @@ def _too_old(published, max_days=None):
     return published < cutoff
 
 
+def _hn_engagement(entry):
+    """Hacker News RSS (hnrss.org) puts 'Points: N' and '# Comments: N' in the
+    item description. Returns (upvotes, comments)."""
+    text = entry.get("summary", "") or entry.get("description", "")
+    up = re.search(r"Points:\s*(\d+)", text)
+    com = re.search(r"Comments:\s*(\d+)", text)
+    return (int(up.group(1)) if up else 0, int(com.group(1)) if com else 0)
+
+
+def _reddit_id(url):
+    m = re.search(r"/comments/([a-z0-9]+)", url or "")
+    return m.group(1) if m else None
+
+
+def _reddit_scores(feed_url):
+    """One cheap call to the subreddit's public .json gives score + comments
+    for each post (no API key). Returns {comment_id: (upvotes, comments)}.
+    Any failure -> empty map (engagement just stays 0, never breaks fetch)."""
+    out = {}
+    try:
+        jurl = feed_url.replace(".rss", ".json")
+        r = requests.get(jurl, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        for ch in (r.json().get("data", {}).get("children", []) or []):
+            d = ch.get("data", {})
+            cid = _reddit_id(d.get("permalink", ""))
+            if cid:
+                out[cid] = (int(d.get("score", 0) or 0), int(d.get("num_comments", 0) or 0))
+    except Exception:
+        pass
+    return out
+
+
 def fetch_feed(conn, feed_cfg, existing, stats):
     """Download one RSS feed and save its new items."""
     name, url = feed_cfg["name"], feed_cfg["url"]
     default_cat, trusted = feed_cfg["category"], feed_cfg["trusted"]
     lock = feed_cfg.get("lock", False)
+    is_reddit = "reddit.com" in url
+    is_hn = "ycombinator" in url or "hnrss" in url
+    reddit_map = _reddit_scores(url) if is_reddit else {}
 
     # Try the main URL, then the backup URL (e.g. Bing News when Google
     # News blocks cloud server IPs). One retry each.
@@ -95,10 +131,18 @@ def fetch_feed(conn, feed_cfg, existing, stats):
             stats["grouped"] += 1
             continue
 
+        # --- Engagement (for the weekly digest) ---
+        upvotes, comments = 0, 0
+        if is_reddit:
+            upvotes, comments = reddit_map.get(_reddit_id(link), (0, 0))
+        elif is_hn:
+            upvotes, comments = _hn_engagement(entry)
+
         # --- New story ---
         category = default_cat if lock else filters.classify(title, default_cat)
         new_id = database.add_item(conn, title, link, name, category,
-                                   published.isoformat() if published else None)
+                                   published.isoformat() if published else None,
+                                   upvotes, comments)
         existing.append({"id": new_id, "title": title})  # so later feeds can group with it
         new_count += 1
         stats["new"] += 1

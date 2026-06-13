@@ -35,6 +35,13 @@ def connect():
             value TEXT
         )
     """)
+    # Engagement columns (added later for the weekly digest). Older rows that
+    # were saved before this existed simply have 0 — scoring treats that fine.
+    cols = {r["name"] for r in conn.execute("PRAGMA table_info(items)")}
+    if "upvotes" not in cols:
+        conn.execute("ALTER TABLE items ADD COLUMN upvotes INTEGER NOT NULL DEFAULT 0")
+    if "comments" not in cols:
+        conn.execute("ALTER TABLE items ADD COLUMN comments INTEGER NOT NULL DEFAULT 0")
     conn.commit()
     return conn
 
@@ -126,12 +133,12 @@ def recent_items(conn, hours):
     ).fetchall()
 
 
-def add_item(conn, title, url, source, pillar, published):
+def add_item(conn, title, url, source, pillar, published, upvotes=0, comments=0):
     cur = conn.execute(
-        "INSERT OR IGNORE INTO items (title, url, source, pillar, published, fetched) "
-        "VALUES (?, ?, ?, ?, ?, ?)",
+        "INSERT OR IGNORE INTO items (title, url, source, pillar, published, fetched, upvotes, comments) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
         (title, url, source, pillar, published,
-         datetime.now(timezone.utc).isoformat()),
+         datetime.now(timezone.utc).isoformat(), upvotes or 0, comments or 0),
     )
     return cur.lastrowid
 

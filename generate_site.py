@@ -490,6 +490,7 @@ PAGE = r"""<!doctype html>
         <button class="qa" onclick="qaShort()">🎬 Create a short video</button>
         <button class="qa" onclick="qaX()">💬 Create an X post</button>
         <button class="qa" onclick="qaNews()">🎯 Open video-worthy list</button>
+        <a class="qa" href="digests/latest.md" download style="display:block;text-decoration:none">📥 Download this week's digest (.md)</a>
       </div>
     </div>
   </section>

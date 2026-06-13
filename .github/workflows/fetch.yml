@@ -39,6 +39,15 @@ jobs:
       - name: Rebuild the online dashboard
         run: python generate_site.py
 
+      - name: Refresh weekly digest (dated archive only on Sundays)
+        run: |
+          python - <<'PY'
+          import datetime, digest
+          # TZ env is Asia/Karachi, so "Sunday" means Sunday in Pakistan time
+          is_sunday = datetime.datetime.now().weekday() == 6
+          digest.generate_weekly_digest("news.db", "docs/digests", archive=is_sunday)
+          PY
+
       - name: Save database + dashboard back to the repo
         run: |
           git config user.name "ai-news-radar-bot"
