@@ -1060,6 +1060,8 @@ function filtered() {
     (!localOnly || it.lo) &&
     (!needle || it.t.toLowerCase().includes(needle)));
   if (mode === "worthy") items = items.slice().sort((a, b) => b.sc - a.sc);
+  else items = items.slice().sort((a, b) =>   /* Latest = by discovery time, matches the phone */
+    (b.f || b.d || "").localeCompare(a.f || a.d || ""));
   return items;
 }
 function render() {
@@ -2973,9 +2975,13 @@ def _load_fburl():
 
 def generate():
     conn = database.connect()
+    # Order by DISCOVERY time (fetched) so the page matches the phone: a story
+    # found today but published days ago still shows as freshly arrived, and the
+    # MAX_STORIES cap keeps the most recently discovered (never drops what the
+    # phone just alerted). Published date is the tiebreaker within a fetch batch.
     rows = conn.execute(
         "SELECT id, title, url, links, source, pillar, published, fetched FROM items "
-        "ORDER BY COALESCE(published, fetched) DESC LIMIT ?", (MAX_STORIES,)
+        "ORDER BY fetched DESC, COALESCE(published, fetched) DESC LIMIT ?", (MAX_STORIES,)
     ).fetchall()
 
     trends = scoring.compute_trends(conn)
@@ -2996,7 +3002,7 @@ def generate():
             r["title"], r["pillar"], len(links), age_h, hot_terms)
         items.append({
             "t": r["title"], "u": r["url"], "s": r["source"], "p": r["pillar"],
-            "d": when, "l": links,
+            "d": when, "f": r["fetched"], "l": links,
             "sc": score, "r": reasons, "lo": local,
         })
 
