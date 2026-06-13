@@ -29,10 +29,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y0VDY1hNanBXVEh4cmdmcS1wYnlhWGdJNkE3d18xY0hOeFA1b25vSHlpZmoyaUFSQXhCOV9jY1oxY1R2MTEtU1RaeFhVeEx3VGo0dzJPblp4WGhpbHREMmVVeEJYNkZwWEs2SHZhVl9LenRtTmxRckhlSTVDS3pfWEhMQThsd0hORVo4d1pXNXFxeVhxd0NWUFNvaE5NaldJTm0xWG8xVGF5QjRhcXZwc2lKNFdQSTFSZFY5dGhrZ0NYejN6RVNrOWV3YQ?oc=5
 2. **Sam Altman, Demis Hassabis, Dario Amodei to attend G7 France - Yahoo** — Sam Altman News — Score 76
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlJDelRxWWpiNEIxclZhaVhVNjVpSWc1bS1IM2RfaGRySC1fdHlxdUpRYXBhR0U3emFlcFhHYURfQ1hfT2x1eTVVbkJoeHJBWldRMkpKSzNUV0liZHFnVWYtYlpWM3N3YU0zRm9Zell4OWtXanFGc1c3bmp0dlpzeTN2N2xfU0U1blF2WUV1VkFoVloySmc?oc=5
-3. **Anthropic CEO Dario Amodei Has Only One Direct Report - Bloomberg** — Dario Amodei News — Score 67
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
-4. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 63
+3. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 73
    https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhxNEhRWTVtQUxiS2ZlUk1JaUJPQnI2RXluTm8tTnNoN083RWRhZF9UMlliY00zVWM4d2ZTTFROdVV5YlliOFVfTTQweENyOXY0ZEhGY3hjM2VZcmkxRnRtZlpscU1aYmFHWlMzYUlXNEdNVTdZM0M1T2VHWC1DLXBJcld3S1V1LU5Qc3hOVEkzNWx0Sk56WGsxek5Bc29kMkN0ZUgwVGxQM3RWMm1HTmxOVVg?oc=5
+4. **Anthropic CEO Dario Amodei Has Only One Direct Report - Bloomberg** — Dario Amodei News — Score 67
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
 5. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
    https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
 6. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 53
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **Influencers and AI now guide more wellness choices than doctors - eMarketer** — https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWFCOWlhOFhOaWlKUDQ3UWRWNWlDRWtHaUdpcURuQ1E4QUJUYTBKVVU3Q2pySjFMMUhlSEdRUm9PdFNLNVRGc2YycDJuSUU3cnZNVjBqZVA0dURZSlRzUUVjZUZMOVp0WWhicF9hd0VzV0ZqMURKaTZKa3RSU3hBajVFZ0JuRlhMZEdXRk5mVS03NXJrcDdPRg?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1276
+- Total stories tracked: 1295
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
