@@ -675,13 +675,11 @@ PAGE = r"""<!doctype html>
     </div>
     <div id="x-story" class="note" style="margin:0 0 10px"></div>
     <div class="genrow">
-      <select id="x-template" style="flex:1;min-width:160px">
-        <option value="engaging thread (5-6 tweets)">Thread (5-6 tweets)</option>
-        <option value="single punchy post">Single post</option>
-        <option value="hot take with my stance">Hot take</option>
-        <option value="prompt-share: useful AI prompt + show your result">Prompt share</option>
-        <option value="question that invites replies (my answer first)">Question</option>
-      </select>
+      <select id="x-format" style="flex:1;min-width:130px" title="Format"></select>
+      <select id="x-voice" style="flex:1;min-width:130px" title="Style / voice"></select>
+    </div>
+    <div class="genrow">
+      <select id="x-hook" style="flex:1;min-width:130px" title="Opening hook"></select>
       <select id="x-lang"><option value="en">English (global)</option></select>
     </div>
     <div class="genrow" style="align-items:center">
@@ -3120,9 +3118,19 @@ async function xCall(payload) {
 function tweetsToText(tweets) { return tweets.join("\n\n"); }
 function textToTweets(t) { return t.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean); }
 
+function xFillSelect(id, group, def) {
+  const sel = document.getElementById(id);
+  if (!sel || !window.XLIB) return;
+  sel.innerHTML = Object.entries(window.XLIB[group])
+    .map(([k, v]) => '<option value="' + k + '"' + (k === def ? " selected" : "") + ">" + esc(v.name) + "</option>").join("");
+}
 function openXModal(story) {
   if (!xConfigured() && !xSetup()) return;
   xStory = story;
+  // recommended default combo: single post + breaking-news wire + breaking hook
+  xFillSelect("x-format", "formats", "single");
+  xFillSelect("x-voice", "voices", "breaking");
+  xFillSelect("x-hook", "hooks", "breaking");
   document.getElementById("x-story").textContent = "📰 " + story.t;
   document.getElementById("x-out").hidden = true;
   document.getElementById("x-tweets").value = "";
@@ -3133,9 +3141,13 @@ function openXModal(story) {
 }
 function closeXModal() { document.getElementById("xmodal").hidden = true; xStory = null; }
 function xPayload() {
-  return { title: xStory.t, url: xStory.u, summary: "",
-    template: document.getElementById("x-template").value,
-    lang: document.getElementById("x-lang").value };
+  const prompt = window.buildXPrompt({
+    title: xStory.t, url: xStory.u, summary: "",
+    format: document.getElementById("x-format").value,
+    voice: document.getElementById("x-voice").value,
+    hook: document.getElementById("x-hook").value,
+    lang: document.getElementById("x-lang").value });
+  return { prompt: prompt, title: xStory.t, url: xStory.u };
 }
 document.getElementById("x-write").onclick = async () => {
   if (!xStory) return;

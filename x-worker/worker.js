@@ -53,10 +53,13 @@ function json(obj, status) {
 
 /* ---------------- 1) write the thread with the chosen LLM ---------------- */
 async function writeThread(env, b) {
+  // The app builds the full engagement-optimized prompt and sends it as b.prompt,
+  // so prompt/template tuning lives in the app (no Worker re-paste needed).
+  // The block below is only a fallback for older app versions.
   const lang = b.lang === "ur"
     ? "Write in simple Roman Urdu with light English."
     : "Write in clear, simple English for a global audience.";
-  const prompt =
+  const prompt = b.prompt ||
 `You write X (Twitter) content for "AI x Ahmad" (@aixahmad) — smart, clear takes on AI news
 for a worldwide audience. ${lang}
 

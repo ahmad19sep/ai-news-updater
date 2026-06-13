@@ -180,3 +180,85 @@ window.POST_TEMPLATES = [
   { name: "Weekly recap",
     text: "Is hafte AI duniya mein kya hua 🌍\n\n1. {topic}\n2. ...\n3. ...\n\nPoori detail YouTube pe — link bio mein!" },
 ];
+
+/* ===================================================================
+   X (Twitter) engagement-optimized library — 2026 playbook.
+   Format (A) + Voice (B) + Hook (C) mix-and-match, plus universal rules.
+   The app builds the full prompt from these and the Worker just relays it,
+   so you can tune wording here anytime with no Worker re-paste.
+   =================================================================== */
+window.XLIB = {
+  universal: `UNIVERSAL RULES (engagement-optimized for the 2026 X algorithm):
+- Hook in the FIRST line; first 5-7 words must stop the scroll. Front-load the most specific/surprising fact (names, numbers, model versions).
+- Write for REPLIES, BOOKMARKS, REPOSTS — not likes. Always end with an engagement mechanism: a sharp question, a debate trigger, a bookmark cue, or a follow CTA.
+- NO external link in the main/hook post. If a link applies, output it as the LAST array element exactly as "REPLY: <url>" (it goes in the first reply, not the body).
+- Use 0-2 FUNCTIONAL emojis only (signposts: 🚨 breaking, 🤯 stunning, 🧵 thread, 👇 read-on). Never decorative emoji spam.
+- 0-2 hashtags, final tweet ONLY (usually zero). 3+ hurts reach.
+- Whitespace + short lines; one idea per line. No walls of text.
+- Constructive/substantive tone — sharp is fine, pure negativity gets throttled.
+- NEVER invent facts, numbers, or quotes. Use ONLY the source. Accuracy protects reach.`,
+  formats: {
+    single: { name: "Single post", body:
+`FORMAT: ONE single X post, 180-270 characters, tight and punchy. 1-2 short line breaks max.` },
+    short: { name: "Short thread (3-5)", body:
+`FORMAT: a SHORT THREAD of 3-5 tweets. Tweet 1 = standalone hook (<=25 words) + a forward cue ("Here's what you need to know:" or "👇"). Tweets 2-4 = one idea each, lead with the point. Final tweet = one-line takeaway + engagement CTA. Number tweets 1/, 2/, ...` },
+    long: { name: "Long thread (6-10)", body:
+`FORMAT: a LONG THREAD of 6-10 tweets. T1 = hook (<=25 words, promise the payoff). T2 = context/stakes (why it matters now). T3-8 = body, one point per tweet, add a mid-thread mini-cliffhanger. Penultimate = the key insight or prediction. Final = recap + "Bookmark this" / follow CTA. Number tweets 1/, 2/, ...` },
+    quote: { name: "Quote-tweet", body:
+`FORMAT: a QUOTE-TWEET commenting on the story, 150-270 chars. Add a unique angle, data point, or sharp take (never empty praise). Stake a position or ask a question to drive replies.` },
+  },
+  voices: {
+    breaking: { name: "Breaking-news wire", body:
+`VOICE: neutral, authoritative breaking-news wire. Open "BREAKING:" or "NEW:" + the single most important fact ([Company] just [did what], <=15 words). Then 2-4 ultra-scannable lines (who / what / key number / when). Report, don't editorialize. No hype adjectives.` },
+    hottake: { name: "Hot take / opinion", body:
+`VOICE: bold, defensible hot take. Open with a contrarian or pattern-interrupting claim most will instinctively debate. Back it with ONE crisp fact from the source. End "Change my mind." / "Am I wrong?". Provocative but substantive, never insulting.` },
+    educational: { name: "Educational explainer", body:
+`VOICE: clear educator. Hook = name the development + promise clarity ("Here's what it actually means:"). Explain plainly: what it is, why it matters, what changes for the reader. Short sentences, simple analogies. End with a takeaway + "Bookmark this" or a question.` },
+    casual: { name: "Casual / relatable", body:
+`VOICE: casual, like texting a smart friend. Hook with a relatable reaction ("Okay this is actually wild."). Tie it to everyday life. End with an open question ("anyone else seeing this?").` },
+    analytical: { name: "Analytical deep-dive", body:
+`VOICE: respected analyst. Hook with the non-obvious implication ("The real story isn't X — it's Y."). Bring rigor: specific models/numbers, prior context, second-order effects. End "What I'll be watching:" + a question. Separate fact from interpretation.` },
+    hype: { name: "Hype / excitement", body:
+`VOICE: genuine high-energy excitement. Hook with awe ("This changes everything."). Emphasize the most jaw-dropping capability/number from the source. 1-3 purposeful emojis (🤯🔥⚡). End "what would you build with this?". Stay truthful — no overstating.` },
+    skeptical: { name: "Skeptical / critical", body:
+`VOICE: credible skeptic cutting through hype. Hook by puncturing it with a specific, evidence-based reservation ("Everyone's hyping X. Here's what they're missing:"). Raise a concrete limitation grounded in the source. Incisive but fair. End with a debate question.` },
+    storytelling: { name: "Storytelling", body:
+`VOICE: master storyteller. Hook with a moment/tension ("In 2023 this was impossible. Last night it shipped."). Build setup -> turning point -> payoff using the source's facts. Vivid, concrete, human. End with the meaning + an invitation to reflect.` },
+  },
+  hooks: {
+    auto: { name: "Auto (let the style decide)", body: "" },
+    curiosity: { name: "Curiosity gap", body:
+`HOOK OVERRIDE: open with a curiosity gap — hint at something surprising WITHOUT revealing it (<=18 words). Don't reveal the payoff until the next line/tweet.` },
+    bold: { name: "Bold claim", body:
+`HOOK OVERRIDE: open with ONE bold declarative claim most readers will want to challenge or affirm, defensible from the source (<=15 words).` },
+    stat: { name: "Stat / number", body:
+`HOOK OVERRIDE: open with the most striking specific number from the source, stated plainly (<=15 words). Never fabricate or round misleadingly.` },
+    question: { name: "Question", body:
+`HOOK OVERRIDE: open with a sharp question the news provokes — avoid yes/no, favor opinion-inviting (<=15 words).` },
+    contrarian: { name: "Contrarian", body:
+`HOOK OVERRIDE: open by challenging the consensus ("Everyone thinks X. They're wrong — here's the data."), backed by the source, constructive (<=18 words).` },
+    breaking: { name: "Breaking", body:
+`HOOK OVERRIDE: open with "BREAKING:" (or "🚨 BREAKING:") + the single most important fact: [Company] just [did what] (<=15 words). One urgency emoji max. Use only if genuinely fresh.` },
+  },
+};
+
+window.buildXPrompt = function (o) {
+  const L = window.XLIB;
+  const fmt = (L.formats[o.format] || L.formats.single).body;
+  const voice = (L.voices[o.voice] || L.voices.breaking).body;
+  const hook = (L.hooks[o.hook] || L.hooks.auto).body;
+  const lang = o.lang === "ur"
+    ? "Write in simple Roman Urdu with light English."
+    : "Write in clear, simple English for a global worldwide audience.";
+  return [
+    "You are an expert X (Twitter) writer specializing in AI news that earns maximum impressions and engagement (replies, bookmarks, reposts — not just likes).",
+    lang, "",
+    fmt, "", voice, (hook ? hook + "\n" : ""),
+    L.universal, "",
+    "STORY TITLE: " + (o.title || ""),
+    (o.summary ? "SUMMARY: " + o.summary : ""),
+    (o.url ? "SOURCE LINK (use only as the REPLY element, never in the body): " + o.url : ""),
+    "",
+    'Return ONLY a JSON array of strings — one string per tweet (a single post = an array of length 1). If a link applies, the LAST array element must be exactly "REPLY: <url>". No text outside the JSON array.',
+  ].filter(x => x !== "").join("\n");
+};
