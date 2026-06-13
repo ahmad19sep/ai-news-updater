@@ -693,9 +693,11 @@ PAGE = r"""<!doctype html>
     <div id="x-out" hidden>
       <p class="note" style="margin:12px 0 4px">Review / edit — one tweet per block, separated by a blank line:</p>
       <textarea id="x-tweets" style="width:100%;min-height:170px;font-size:13px"></textarea>
-      <div class="mfoot">
-        <button class="btn" id="x-post">🚀 Approve &amp; Post</button>
+      <div class="mfoot" style="flex-wrap:wrap">
+        <button class="btn" id="x-copy">📋 Copy thread</button>
+        <a class="ghost" href="https://x.com/compose/post" target="_blank" style="text-decoration:none">𝕏 Open X</a>
         <button class="ghost" id="x-rewrite">↻ Rewrite</button>
+        <button class="ghost" id="x-post" title="Needs a paid X API plan">🚀 Auto-post</button>
         <span id="x-result" style="margin-left:auto;font-size:12.5px"></span>
       </div>
     </div>
@@ -3159,6 +3161,14 @@ document.getElementById("x-write").onclick = async () => {
   btn.disabled = false; btn.textContent = "✍️ Write";
 };
 document.getElementById("x-rewrite").onclick = () => document.getElementById("x-write").click();
+document.getElementById("x-copy").onclick = () => {
+  const txt = document.getElementById("x-tweets").value.trim();
+  if (!txt) { toast("Nothing to copy"); return; }
+  navigator.clipboard.writeText(txt).then(() => {
+    document.getElementById("x-result").textContent = "✓ Copied — paste into X";
+    toast("Thread copied — paste it into X 📋");
+  });
+};
 document.getElementById("x-post").onclick = async () => {
   const tweets = textToTweets(document.getElementById("x-tweets").value);
   if (!tweets.length) { toast("Nothing to post"); return; }
