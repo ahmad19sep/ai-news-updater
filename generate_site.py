@@ -2764,6 +2764,10 @@ async function chatLoad(thread, el) {
   if (!base) { if (el) el.innerHTML = '<div class="cmsg-empty">Turn on Firebase sync (☁️) to chat.</div>'; return; }
   try {
     const r = await fetch(base + "/" + thread + ".json");
+    if (!r.ok) {   /* permission denied returns 401/403 with a body, not a network error */
+      if (el) el.innerHTML = '<div class="cmsg-empty">Chat blocked by Firebase rules — publish the /chat rule (see setup).</div>';
+      return;
+    }
     const data = (await r.json()) || {};
     const msgs = Object.values(data).filter(Boolean).sort((a, b) => (a.ts || 0) - (b.ts || 0));
     chatRender(el, msgs);
@@ -2856,10 +2860,13 @@ async function chatSend(thread, text) {
   const base = chatBase();
   if (!base) { toast("Turn on Firebase sync (☁️) to chat"); return; }
   try {
-    await fetch(base + "/" + thread + ".json", {
+    const r = await fetch(base + "/" + thread + ".json", {
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ who: chatWho(), role: ROLE, text: text, ts: Date.now() }) });
-  } catch (e) { toast("Message failed — check Firebase rules"); }
+    if (!r.ok) {   /* Firebase rejects with 401/403 but fetch does NOT throw — catch it here */
+      toast("Message NOT sent ❌ — publish the /chat Firebase rule (see setup)");
+    }
+  } catch (e) { toast("Message failed — check your connection"); }
 }
 
 /* ---- general team chat modal ---- */
