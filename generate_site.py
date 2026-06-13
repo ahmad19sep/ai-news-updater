@@ -369,6 +369,13 @@ PAGE = r"""<!doctype html>
   .chatinput input { flex:1; }
   #chatmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
+  .chatbadge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px;
+          padding:0 5px; border-radius:9px; background:#ef4444; color:#fff;
+          font:700 11px Inter; display:flex; align-items:center; justify-content:center;
+          box-shadow:0 0 0 2px var(--bg); }
+  .chatdot { display:inline-flex; align-items:center; justify-content:center;
+          min-width:17px; height:17px; padding:0 5px; border-radius:9px;
+          background:#ef4444; color:#fff; font:700 10.5px Inter; vertical-align:middle; }
   body.dark {
     --bg:#0b0f17; --surface:#131a26; --surface2:#1a2230;
     --text:#e7ecf3; --dim:#9aa3b2; --faint:#647082;
@@ -486,7 +493,10 @@ PAGE = r"""<!doctype html>
     </nav>
     <button class="themebtn" id="cloudbtn" onclick="cloudClick()" title="Live sync">☁️</button>
     <button class="themebtn" id="rolebtn" onclick="roleSwitch(event)" title="Owner / editor mode">👤</button>
-    <button class="themebtn" id="chatbtn" onclick="openGeneralChat()" title="Team chat">💬</button>
+    <span style="position:relative;display:inline-flex;flex-shrink:0">
+      <button class="themebtn" id="chatbtn" onclick="openGeneralChat()" title="Team chat">💬</button>
+      <span id="chatbadge" class="chatbadge" style="display:none"></span>
+    </span>
     <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
     <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
   </div>
@@ -751,6 +761,8 @@ let editors = jload("editors", "[]");
 let enotes = jload("enotes", "{}");
 let ehist = jload("ehist", "[]");
 let settings = jload("settings", "{}");   /* shared config (e.g. Drive hook), synced to everyone */
+let chatRead = jload("chatread", "{}");   /* {thread: lastSeenTs} per device — drives unread badges */
+let chatCounts = {};                       /* {thread: {total, unread, lastTs}} from the live watcher */
 function saveSettings() { localStorage.setItem("settings", JSON.stringify(settings)); schedulePush(); }
 
 /* drop broken entries so one bad item can't blank the whole app */
@@ -925,7 +937,7 @@ async function connectSync(cfg, seedIfEmpty, forcePush) {
   let ok = true;
   if (forcePush) ok = await pushBoard();
   else if (seedIfEmpty && !hasData) ok = await pushBoard();
-  if (isFb()) startStream();
+  if (isFb()) { startStream(); if (chatWatchES) { chatWatchES.close(); chatWatchES = null; } startChatWatch(); }
   setCloudIcon(true);
   rerender();
   if (!document.getElementById("tab-home").hidden) renderHome();
@@ -1399,7 +1411,7 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
     const c = document.createElement("div");
     c.className = "panel";
     let inner = '<h3 style="color:var(--text)">' + esc(p.title.split("\n")[0]) +
-      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + "</h3>";
+      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + chatBadge("task-" + p.id) + "</h3>";
     if (stage === "filming") {
       inner += '<div class="genrow"><input class="ftitle" style="flex:1;min-width:200px" placeholder="Final video title…" value="' + esc(p.ftitle || "") + '">' +
         '<button class="ghost poster-btn">🎨 Poster prompt</button></div>';
@@ -2403,7 +2415,7 @@ function renderEdStage(el, ed, stage, nextStage, nextLabel) {
     const c = document.createElement("div");
     c.className = "panel";
     let inner = '<h3 style="color:var(--text)">' + esc(p.title.split("\n")[0]) +
-      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + "</h3>";
+      (p.ctype ? ' <span class="tag">' + p.ctype + "</span>" : "") + chatBadge("task-" + p.id) + "</h3>";
     if (p.revnote) inner += '<div style="margin:8px 0;padding:10px 14px;border:1px solid var(--red);border-radius:10px;color:var(--red);font-size:13px"><b>🔁 Owner wants fixes:</b> ' + esc(p.revnote) + "</div>";
     inner += '<div class="chkrow">' + (STAGE_CHK[stage] || []).map(([k, lab]) =>
       '<label class="chk"><input type="checkbox" data-k="' + k + '"' +
@@ -2760,16 +2772,84 @@ async function chatLoad(thread, el) {
 function chatOpen(thread, el) {
   chatClose();
   chatLoad(thread, el);
+  markRead(thread);                 /* opening a thread clears its unread count */
   if (isFb()) {
     try {
       chatES = new EventSource(chatBase() + "/" + thread + ".json");
-      const reload = () => chatLoad(thread, el);
+      const reload = () => { chatLoad(thread, el); markRead(thread); };
       chatES.addEventListener("put", reload);
       chatES.addEventListener("patch", reload);
     } catch (e) {}
   }
 }
 function chatClose() { if (chatES) { chatES.close(); chatES = null; } }
+
+/* ---- unread badges (WhatsApp-style counts), driven by a live watcher ---- */
+let chatWatchES = null;
+function chatThreadName(thread) {
+  if (thread === "general") return "📣 General";
+  if (thread.slice(0, 3) === "ed-") { const e = edById(thread.slice(3)); return e ? e.name : "Editor"; }
+  if (thread.slice(0, 5) === "task-") {
+    const p = plans.find(x => "task-" + x.id === thread);
+    return p ? p.title.split("\n")[0].slice(0, 30) : "a task";
+  }
+  return thread;
+}
+async function refreshChatCounts() {
+  const base = chatBase();
+  if (!base) return;
+  try {
+    const all = (await (await fetch(base + ".json")).json()) || {};
+    const me = chatWho();
+    chatCounts = {};
+    for (const [thread, msgs] of Object.entries(all)) {
+      const arr = Object.values(msgs || {}).filter(Boolean);
+      const lastRead = chatRead[thread] || 0;
+      chatCounts[thread] = {
+        total: arr.length,
+        unread: arr.filter(m => (m.ts || 0) > lastRead && m.who !== me).length,
+        lastTs: arr.reduce((mx, m) => Math.max(mx, m.ts || 0), 0),
+      };
+    }
+    updateChatBadges();
+  } catch (e) {}
+}
+function updateChatBadges() {
+  let total = 0;
+  for (const c of Object.values(chatCounts)) total += c.unread;
+  const b = document.getElementById("chatbadge");
+  if (b) {
+    b.textContent = total > 99 ? "99+" : total;
+    b.style.display = total > 0 ? "flex" : "none";
+  }
+  // refresh per-task badges on the board, but never while a dialog is open (don't disrupt typing)
+  const modalOpen = !document.getElementById("modal").hidden ||
+                    !document.getElementById("chatmodal").hidden;
+  if (!modalOpen) {
+    if (!document.getElementById("tab-plan").hidden ||
+        !document.getElementById("tab-editors").hidden) rerender();
+  }
+}
+function startChatWatch() {
+  if (!isFb() || chatWatchES) return;
+  refreshChatCounts();
+  try {
+    chatWatchES = new EventSource(chatBase() + ".json");
+    const h = () => refreshChatCounts();
+    chatWatchES.addEventListener("put", h);
+    chatWatchES.addEventListener("patch", h);
+  } catch (e) {}
+}
+function markRead(thread) {
+  chatRead[thread] = Date.now();
+  localStorage.setItem("chatread", JSON.stringify(chatRead));
+  if (chatCounts[thread]) chatCounts[thread].unread = 0;
+  updateChatBadges();
+}
+function chatBadge(thread) {
+  const c = chatCounts[thread];
+  return (c && c.unread) ? ' <span class="chatdot">' + c.unread + "</span>" : "";
+}
 async function chatSend(thread, text) {
   text = (text || "").trim();
   if (!text) return;
@@ -2786,8 +2866,11 @@ async function chatSend(thread, text) {
 let gThread = "general";
 function openGeneralChat() {
   const sel = document.getElementById("chat-thread");
-  let opts = '<option value="general">📣 General</option>';
-  editors.forEach(e => { opts += '<option value="ed-' + e.id + '">✂️ ' + esc(e.name) + "</option>"; });
+  const u = t => { const c = chatCounts[t]; return (c && c.unread) ? " (" + c.unread + ")" : ""; };
+  let opts = '<option value="general">📣 General' + u("general") + "</option>";
+  editors.forEach(e => {
+    opts += '<option value="ed-' + e.id + '">✂️ ' + esc(e.name) + u("ed-" + e.id) + "</option>";
+  });
   sel.innerHTML = opts;
   sel.value = gThread;
   document.getElementById("chatmodal").hidden = false;
@@ -3081,6 +3164,7 @@ setCloudIcon(true);
 if (SYNCCFG) {
   pollBoard().then(() => { syncReady = true; });   /* pull latest before pushing */
   startStream();
+  startChatWatch();                                /* live unread badges */
 } else if (FBURL && BOARDKEY && ROLE === "owner") {
   autoConnect();   /* already-unlocked owner device, fresh storage: reconnect automatically */
 }
