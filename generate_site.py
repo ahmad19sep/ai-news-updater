@@ -682,7 +682,7 @@ PAGE = r"""<!doctype html>
         <option value="prompt-share: useful AI prompt + show your result">Prompt share</option>
         <option value="question that invites replies (my answer first)">Question</option>
       </select>
-      <select id="x-lang"><option value="ur">Roman Urdu</option><option value="en">English</option></select>
+      <select id="x-lang"><option value="en">English (global)</option></select>
     </div>
     <div class="genrow" style="align-items:center">
       <label style="font-size:12.5px;color:var(--dim);display:flex;align-items:center;gap:7px">

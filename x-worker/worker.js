@@ -53,12 +53,12 @@ function json(obj, status) {
 
 /* ---------------- 1) write the thread with the chosen LLM ---------------- */
 async function writeThread(env, b) {
-  const lang = b.lang === "en"
-    ? "Write in simple, friendly English."
-    : "Write in simple Roman Urdu with light English (easy to read).";
+  const lang = b.lang === "ur"
+    ? "Write in simple Roman Urdu with light English."
+    : "Write in clear, simple English for a global audience.";
   const prompt =
-`You write X (Twitter) content for "AI x Ahmad" (@aixahmad) — AI explained simply for
-Pakistan & India. ${lang}
+`You write X (Twitter) content for "AI x Ahmad" (@aixahmad) — smart, clear takes on AI news
+for a worldwide audience. ${lang}
 
 STORY: ${b.title || ""}
 SUMMARY: ${b.summary || "(use the title)"}
@@ -70,7 +70,7 @@ Make it genuinely ENGAGING (this is the priority):
 - Tweet 1 = a scroll-stopping hook: a surprising fact, a bold claim, or a "wait, what?" line. No "Thread 🧵" filler.
 - Short punchy lines, simple words, one idea per tweet, build curiosity so people read the next one.
 - Sound like a smart friend, not a press release. A little personality. Emojis only where natural (1 per tweet max).
-- Last tweet: a clear takeaway for everyday people in Pakistan/India + soft CTA to follow @aixahmad.
+- Last tweet: a sharp takeaway any reader can use + a soft CTA to follow @aixahmad.
 
 Rules:
 - Base everything ONLY on the story above — do not invent facts, numbers, or quotes.
