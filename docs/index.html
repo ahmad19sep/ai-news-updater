@@ -106,8 +106,28 @@
           padding:11px 34px; border-radius:999px; font:700 13px Inter; cursor:pointer; }
   .more:hover { border-color:var(--accent); }
   .empty { color:var(--faint); text-align:center; padding:50px 0; }
-  footer { border-top:1px solid var(--line); margin-top:34px; padding:26px 18px; text-align:center; color:var(--faint); font-size:12.5px; }
-  footer a { color:var(--dim); margin:0 8px; }
+
+  /* footer */
+  footer { border-top:1px solid var(--line); margin-top:46px; background:rgba(7,11,24,.55); }
+  .ftop { max-width:1080px; margin:0 auto; padding:44px 18px 30px;
+          display:grid; grid-template-columns:1.7fr 1fr 1fr 1fr; gap:34px; }
+  @media (max-width:680px){ .ftop { grid-template-columns:1fr 1fr; gap:28px 18px; } }
+  .fbrand .brand { margin-bottom:14px; }
+  .fbrand p { color:var(--faint); font-size:13px; line-height:1.65; max-width:300px; margin:0 0 16px; }
+  .fsoc { display:flex; gap:9px; }
+  .fsoc a { width:38px; height:38px; border:1px solid var(--line); border-radius:11px; display:flex;
+            align-items:center; justify-content:center; color:var(--dim); font-size:15px; transition:.15s; }
+  .fsoc a:hover { border-color:var(--accent); color:var(--accent); transform:translateY(-2px); }
+  .fcol h4 { font:700 12px var(--display); text-transform:uppercase; letter-spacing:.1em;
+             color:var(--dim); margin:2px 0 14px; }
+  .fcol a, .fcol .lk { display:block; color:var(--faint); font-size:13.5px; padding:5px 0;
+             cursor:pointer; background:none; border:none; text-align:left; font-family:Inter; }
+  .fcol a:hover, .fcol .lk:hover { color:var(--accent); }
+  .fbot { border-top:1px solid var(--line); max-width:1080px; margin:0 auto;
+          padding:20px 18px 30px; color:var(--faint); font-size:12px; line-height:1.7;
+          display:flex; flex-wrap:wrap; gap:6px 16px; align-items:center; justify-content:space-between; }
+  .fbot .legal button { background:none; border:none; color:var(--dim); cursor:pointer; font:12px Inter; padding:0 2px; }
+  .fbot .legal button:hover { color:var(--accent); }
 
   /* article reader */
   #reader { position:fixed; inset:0; z-index:60; background:rgba(4,7,16,.78); overflow-y:auto; }
@@ -147,8 +167,44 @@
   <button class="more" id="more" style="display:none">Show more</button>
 </div>
 <footer>
-  <div>© <span id="yr"></span> AI Radar — AI news aggregator. Headlines link to original sources.</div>
-  <div style="margin-top:8px"><a href="https://x.com/aixahmad" target="_blank" rel="noopener">@aixahmad on X</a> · <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube</a></div>
+  <div class="ftop">
+    <div class="fbrand">
+      <a class="brand" href="/"><span class="orb">📡</span><span class="nm">AI <b>Radar</b></span></a>
+      <p>The fastest way to follow artificial intelligence. We scan hundreds of sources and surface what matters — new models, tools, research and the people behind them — refreshed every 30 minutes.</p>
+      <div class="fsoc">
+        <a href="https://x.com/aixahmad" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
+        <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener" title="YouTube">▶</a>
+        <a href="mailto:get.shahzadsaddique@gmail.com" title="Email">✉</a>
+      </div>
+    </div>
+    <div class="fcol">
+      <h4>Sections</h4>
+      <div id="fsections"></div>
+    </div>
+    <div class="fcol">
+      <h4>AI Radar</h4>
+      <button class="lk" onclick="openPage('about')">About us</button>
+      <button class="lk" onclick="openPage('how')">How it works</button>
+      <button class="lk" onclick="openPage('editorial')">Editorial standards</button>
+      <a href="/studio.html">Newsroom (staff)</a>
+    </div>
+    <div class="fcol">
+      <h4>Contact</h4>
+      <a href="mailto:get.shahzadsaddique@gmail.com">get.shahzadsaddique@gmail.com</a>
+      <a href="https://x.com/aixahmad" target="_blank" rel="noopener">DM @aixahmad on X</a>
+      <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube @aixahmad</a>
+      <button class="lk" onclick="openPage('advertise')">Advertise / partner</button>
+      <button class="lk" onclick="openPage('contact')">Send a tip</button>
+    </div>
+  </div>
+  <div class="fbot">
+    <span>© <span id="yr"></span> AI Radar · An independent AI-news aggregator. Headlines and excerpts remain © their original publishers and link back to the source.</span>
+    <span class="legal">
+      <button onclick="openPage('privacy')">Privacy</button>·
+      <button onclick="openPage('terms')">Terms</button>·
+      <button onclick="openPage('disclaimer')">Disclaimer</button>
+    </span>
+  </div>
 </footer>
 <div id="reader" hidden></div>
 <script>
@@ -157,7 +213,7 @@ const PUBURL = "https://aixahmad-studio-default-rtdb.asia-southeast1.firebasedat
 let pillar = 0, hotOnly = false, q = "", shown = PAGE;
 document.getElementById("yr").textContent = new Date().getFullYear();
 document.getElementById("date").textContent = new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-document.getElementById("updlabel").textContent = "Updated 14 Jun, 11:34 UTC · refreshes every 30 min";
+document.getElementById("updlabel").textContent = "Updated 14 Jun, 11:38 UTC · refreshes every 30 min";
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
   if(s<3600) return Math.max(1,s/60|0)+" min ago"; if(s<86400) return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
 function esc(t){ const d=document.createElement("div"); d.textContent=t; return d.innerHTML; }
@@ -233,7 +289,41 @@ function openArticle(i){
 function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow=""; }
 document.getElementById("reader").addEventListener("click",e=>{ if(e.target.id==="reader") closeArticle(); });
 
-navBar(); trendsBar(); render(); loadFeatured();
+/* footer section links -> filter the feed */
+function footerSections(){
+  const el=document.getElementById("fsections");
+  Object.entries(PILLARS).slice(0,8).forEach(([k,v])=>{ const b=document.createElement("button"); b.className="lk";
+    b.textContent=v; b.onclick=()=>{ pillar=+k; shown=PAGE; navBar(); render(); window.scrollTo({top:0,behavior:"smooth"}); };
+    el.appendChild(b); });
+}
+/* static pages (About / Privacy / Terms ...) shown in the reader overlay */
+const CONTACT="get.shahzadsaddique@gmail.com";
+const PAGES={
+  about:["About AI Radar",
+    "<p>AI Radar is an independent publication that tracks the fast-moving world of artificial intelligence. Every 30 minutes we scan hundreds of trusted sources — company blogs, research labs, news outlets and developer communities — and surface the stories that matter, with a direct link to every original source.</p><p>Our goal is simple: help you stay first. Whether you build with AI, invest in it, report on it or are just curious, AI Radar gives you a single, fast, no-noise view of what just happened.</p><p>AI Radar is created and edited by <a style='color:var(--accent)' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a>.</p>"],
+  how:["How AI Radar works",
+    "<p><b>1. We collect.</b> Our system continuously pulls headlines from a wide list of AI sources around the clock.</p><p><b>2. We organise.</b> Stories are sorted into sections (new tools &amp; models, AI in coding, research, health, defense and more) and de-duplicated, so a story covered by many outlets shows its source count.</p><p><b>3. We surface.</b> Trending topics and the most-covered stories rise to the top. Editor-picked features appear under “Latest from AI Radar”.</p><p><b>4. You read.</b> Click any headline to go straight to the original publisher. We never hide the source.</p><p>The feed refreshes every 30 minutes, automatically.</p>"],
+  editorial:["Editorial standards",
+    "<p>AI Radar aggregates and curates; it does not alter the words of the original publishers. Headlines and short excerpts are shown for identification and always link back to the source.</p><p>Featured articles written by our team are based only on the underlying reporting — we do not fabricate facts, numbers or quotes. Corrections are made promptly; if you spot an error, please contact us.</p><p>We aim for a respectful tone and never mock real tragedy.</p>"],
+  advertise:["Advertise &amp; partner",
+    "<p>Interested in reaching an audience that lives and breathes AI? AI Radar offers sponsorships, newsletter placements and content partnerships.</p><p>Reach out at <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a> or DM <a style='color:var(--accent)' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a> on X.</p>"],
+  contact:["Send a tip",
+    "<p>Got a scoop, a launch, or a story we should be covering? We’d love to hear it.</p><p>Email <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a> or message <a style='color:var(--accent)' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a> on X. Tips can be sent confidentially.</p>"],
+  privacy:["Privacy policy",
+    "<p>AI Radar is built to respect your privacy. We do not require an account, we do not sell data, and we do not run invasive advertising trackers.</p><p>The site is served as static pages. Standard web-server logs (such as your browser type and approximate region) may be collected by our hosting provider for security and analytics in aggregate. We do not use this to identify you.</p><p>External links take you to third-party sites with their own privacy policies. Questions? Email <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a>.</p>"],
+  terms:["Terms of use",
+    "<p>AI Radar is provided “as is”, for informational purposes only. While we work to keep the feed accurate and current, we make no warranty as to completeness or accuracy and accept no liability for decisions made based on its content.</p><p>Headlines, excerpts and trademarks belong to their respective owners. AI Radar links to original sources and claims no ownership over third-party content. If you are a rights holder and would like a link or excerpt amended, contact <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a>.</p><p>By using this site you agree to these terms.</p>"],
+  disclaimer:["Disclaimer",
+    "<p>AI Radar is an independent news aggregator and is not affiliated with, endorsed by, or sponsored by any of the companies or publications whose stories it links to.</p><p>All product names, logos and brands are property of their respective owners. Content is aggregated automatically; the appearance of a source does not imply endorsement either way.</p>"],
+};
+function openPage(key){
+  const p=PAGES[key]; if(!p) return;
+  document.getElementById("reader").innerHTML='<div class="rbox"><button class="rclose" onclick="closeArticle()">✕</button>'+
+    '<div class="rinner"><h1>'+p[0]+'</h1><div class="body">'+p[1]+'</div></div></div>';
+  document.getElementById("reader").hidden=false; document.body.style.overflow="hidden";
+}
+
+navBar(); trendsBar(); render(); loadFeatured(); footerSections();
 </script>
 </body>
 </html>
