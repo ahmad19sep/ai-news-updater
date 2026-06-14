@@ -3572,9 +3572,11 @@ def generate():
             .replace("__UPDATED__", updated))
 
     os.makedirs(OUT_DIR, exist_ok=True)
-    with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
+    # The private studio now lives at /studio.html; the public AI Radar news
+    # site (generate_public.py) takes the root /index.html.
+    with open(os.path.join(OUT_DIR, "studio.html"), "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"docs/index.html written with {len(items)} stories.")
+    print(f"docs/studio.html written with {len(items)} stories.")
 
 
 if __name__ == "__main__":

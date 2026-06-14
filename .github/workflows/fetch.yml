@@ -36,8 +36,10 @@ jobs:
       - name: Fetch news + send alerts + digest check
         run: python main.py
 
-      - name: Rebuild the online dashboard
-        run: python generate_site.py
+      - name: Rebuild the public news site + the studio
+        run: |
+          python generate_public.py
+          python generate_site.py
 
       - name: Refresh weekly digest (dated archive only on Saturdays)
         run: |
