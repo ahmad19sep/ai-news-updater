@@ -4,14 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#070b18">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="favicon.svg">
 <title>AI Radar — Latest AI News, updated all day</title>
 <meta name="description" content="Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.">
-<link rel="canonical" href="https://hafizahmad.com/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="keywords" content="AI news, artificial intelligence news, AI models, AI tools, machine learning news, LLM, ChatGPT, generative AI, AI research">
+<meta name="author" content="AI Radar">
+<link rel="canonical" href="https://ahmad19sep.github.io/ai-news-updater/">
+
+<meta property="og:site_name" content="AI Radar">
 <meta property="og:title" content="AI Radar — Latest AI News">
 <meta property="og:description" content="Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://hafizahmad.com/">
-<meta name="twitter:card" content="summary">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://ahmad19sep.github.io/ai-news-updater/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@aixahmad">
+<meta name="twitter:title" content="AI Radar — Latest AI News">
+<meta name="twitter:description" content="Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "AI Radar", "url": "https://ahmad19sep.github.io/ai-news-updater/", "description": "Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.", "inLanguage": "en", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://ahmad19sep.github.io/ai-news-updater/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "NewsMediaOrganization", "name": "AI Radar", "url": "https://ahmad19sep.github.io/ai-news-updater/", "logo": {"@type": "ImageObject", "url": "https://ahmad19sep.github.io/ai-news-updater/favicon.svg"}, "email": "get.shahzadsaddique@gmail.com", "sameAs": ["https://x.com/aixahmad", "https://youtube.com/@aixahmad"]}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
@@ -213,7 +225,7 @@ const PUBURL = "https://aixahmad-studio-default-rtdb.asia-southeast1.firebasedat
 let pillar = 0, hotOnly = false, q = "", shown = PAGE;
 document.getElementById("yr").textContent = new Date().getFullYear();
 document.getElementById("date").textContent = new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-document.getElementById("updlabel").textContent = "Updated 14 Jun, 11:38 UTC · refreshes every 30 min";
+document.getElementById("updlabel").textContent = "Updated 14 Jun, 11:47 UTC · refreshes every 30 min";
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
   if(s<3600) return Math.max(1,s/60|0)+" min ago"; if(s<86400) return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
 function esc(t){ const d=document.createElement("div"); d.textContent=t; return d.innerHTML; }
@@ -323,6 +335,8 @@ function openPage(key){
   document.getElementById("reader").hidden=false; document.body.style.overflow="hidden";
 }
 
+const _qp=new URLSearchParams(location.search).get("q");
+if(_qp){ q=_qp.trim(); document.getElementById("q").value=q; }
 navBar(); trendsBar(); render(); loadFeatured(); footerSections();
 </script>
 </body>

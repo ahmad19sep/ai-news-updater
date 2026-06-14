@@ -34,7 +34,13 @@ def _load_fburl():
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 MAX_STORIES = 600
 SITE_NAME = "AI Radar"
-SITE_URL = "https://hafizahmad.com/"
+# The address where the site is actually served. Canonical/OG/sitemap all use
+# this — it MUST match the live URL or Google won't index correctly. (If you
+# ever point a custom domain at GitHub Pages, change this to that domain.)
+SITE_URL = "https://ahmad19sep.github.io/ai-news-updater/"
+# Paste the content value from Google Search Console's "HTML tag" verification
+# method here (just the long code), then re-run. Leave "" to skip.
+GSC_VERIFY = ""
 SITE_DESC = ("Breaking artificial-intelligence news, every day: new models and tools, "
              "AI in science, business, and research — updated every 30 minutes, with links "
              "to the original sources.")
@@ -50,14 +56,26 @@ PAGE = r"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#070b18">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="favicon.svg">
 <title>__SITE__ — Latest AI News, updated all day</title>
 <meta name="description" content="__DESC__">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="keywords" content="AI news, artificial intelligence news, AI models, AI tools, machine learning news, LLM, ChatGPT, generative AI, AI research">
+<meta name="author" content="AI Radar">
 <link rel="canonical" href="__URL__">
+__GSC__
+<meta property="og:site_name" content="__SITE__">
 <meta property="og:title" content="__SITE__ — Latest AI News">
 <meta property="og:description" content="__DESC__">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
 <meta property="og:url" content="__URL__">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@aixahmad">
+<meta name="twitter:title" content="__SITE__ — Latest AI News">
+<meta name="twitter:description" content="__DESC__">
+<script type="application/ld+json">__JSONLD__</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
@@ -369,6 +387,8 @@ function openPage(key){
   document.getElementById("reader").hidden=false; document.body.style.overflow="hidden";
 }
 
+const _qp=new URLSearchParams(location.search).get("q");
+if(_qp){ q=_qp.trim(); document.getElementById("q").value=q; }
 navBar(); trendsBar(); render(); loadFeatured(); footerSections();
 </script>
 </body>
@@ -392,10 +412,30 @@ def generate():
     } for r in rows]
 
     updated = datetime.now(timezone.utc).strftime("%d %b, %H:%M UTC")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # --- structured data (helps Google understand the site / show rich results) ---
+    jsonld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "name": SITE_NAME, "url": SITE_URL, "description": SITE_DESC,
+         "inLanguage": "en",
+         "potentialAction": {"@type": "SearchAction",
+                             "target": {"@type": "EntryPoint",
+                                        "urlTemplate": SITE_URL + "?q={search_term_string}"},
+                             "query-input": "required name=search_term_string"}},
+        {"@type": "NewsMediaOrganization", "name": SITE_NAME, "url": SITE_URL,
+         "logo": {"@type": "ImageObject", "url": SITE_URL + "favicon.svg"},
+         "email": CONTACT_EMAIL,
+         "sameAs": ["https://x.com/aixahmad", "https://youtube.com/@aixahmad"]},
+    ]}
+    gsc = (f'<meta name="google-site-verification" content="{GSC_VERIFY}">'
+           if GSC_VERIFY else "")
+
     html = (PAGE
             .replace("__SITE__", SITE_NAME)
             .replace("__URL__", SITE_URL)
             .replace("__DESC__", _h.escape(SITE_DESC, quote=True))
+            .replace("__GSC__", gsc)
+            .replace("__JSONLD__", json.dumps(jsonld, ensure_ascii=False))
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
@@ -407,7 +447,21 @@ def generate():
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"Public site written: docs/index.html ({len(items)} stories)")
+
+    # robots.txt — let crawlers in, keep the private studio out, point to sitemap
+    with open(os.path.join(OUT_DIR, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write("User-agent: *\nAllow: /\nDisallow: /studio.html\n\n"
+                f"Sitemap: {SITE_URL}sitemap.xml\n")
+
+    # sitemap.xml — tells Google the homepage exists and changes often
+    with open(os.path.join(OUT_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                f'  <url><loc>{SITE_URL}</loc><lastmod>{today}</lastmod>'
+                '<changefreq>hourly</changefreq><priority>1.0</priority></url>\n'
+                '</urlset>\n')
+
+    print(f"Public site written: docs/index.html ({len(items)} stories) + robots.txt + sitemap.xml")
 
 
 if __name__ == "__main__":
