@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMinwFBVV95cUxPcF8zNDFuMTE0UFRxN2ZoV2tjR2xYbTRPTXNKX25LcVl0ejN3c3d6cFZOQ1pPVUNkLXZIUUplYVpSWTFDbzRBanRwUDVfaW9DWXFhSVpiOXRZeEpMRTBYU05rakpaeDNmNW5ib3Bsbl9Td3cwQ2dSUnA5U2pHbUUzRS1vcmJoSWZtbXNzRWlrZEJ5MFB0M3pSUHREdjN0S0U?oc=5
 2. **How Wisconsin doctors and patients are using AI to assist with healthcare - WPR** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxPckZraWNhZVJURWFjekRWTGZxOFV4cVVUZjBGaGxBVlVaNjB5aHg1VmRRSWR0ai1OTVIybEZYc0w2T20xaWpDaFFjLUlKREhZUGhLVjRmd0pRc213Rzh5N2M4UkdQYm5LVWlqd3pKblhVVHpTdlJBUUx5ZjVGdV9wZVhn?oc=5
-3. **Nvidia Joins the Race for Your Doctor’s Office, Teaming With AI Startup Abridge - Tech Times** — science angle
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeDdZVjhYc0R3THlzZUwydXRBdWxRcml0VVZfZHhiZE9Qb1dBLUt5UzFRd01JMHJ2TENTNGluVHhERTdPNHlxdUYxMmNDM1IyXy1vbGZQOEJGUVRRX3pfTFVMQm5ETVdXZWNMeWRDUXlqOHZsV1JWdGdsS2lsSnN1dGl5STlnSFU1VXVSX1laZ0Jzay0tSTliME5oYVNJWUYwTDEwenVnMEFWakZsQ25hbDNYal9LSDRDRTdJ?oc=5
-4. **Influencers and AI now guide more wellness choices than doctors - eMarketer** — science angle
+3. **Influencers and AI now guide more wellness choices than doctors - eMarketer** — science angle
    https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWFCOWlhOFhOaWlKUDQ3UWRWNWlDRWtHaUdpcURuQ1E4QUJUYTBKVVU3Q2pySjFMMUhlSEdRUm9PdFNLNVRGc2YycDJuSUU3cnZNVjBqZVA0dURZSlRzUUVjZUZMOVp0WWhicF9hd0VzV0ZqMURKaTZKa3RSU3hBajVFZ0JuRlhMZEdXRk5mVS03NXJrcDdPRg?oc=5
-5. **Doctors Inject Human Subjects With First Vaccine Designed by AI - Futurism** — science angle
+4. **Doctors Inject Human Subjects With First Vaccine Designed by AI - Futurism** — science angle
    https://news.google.com/rss/articles/CBMid0FVX3lxTE9tS1hNS21yV0E1WEtDLTB3emc5VE1JdjdkS29EMG5YbDN6aUppblI0MGRTUWkzSkNyakZPOVpPY0lzdUx1NHJkbmZRbDNyYTdiQmhya29SX2l0NG1Ia2ZpSjdTMWFmTVpDUHh4bTBaV1BYRDFSNjdn?oc=5
-6. **Hoffman: Doctors without AI risk 'malpractice' - moneywise.com** — science angle
+5. **Hoffman: Doctors without AI risk 'malpractice' - moneywise.com** — science angle
    https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzg4N2d4bTZfZUZMSFNPVWFMMEgyNTJuRTBrSmJ4WldER3NRbm9Sb2J1YmU1ME5pV2ItcFJpa0VHVUY5aGRlVVI3WDVEWjRhOFhjd3JIRy1Ia2pDQzR2ZUQ3RFhLRW4xZXpoYm5HbEl4empiZUhsR3U4TTBrb3dsdmplRnp6QlVDcmxBRkxR?oc=5
-7. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
+6. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
-8. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
+7. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
+8. **New AI and mixed reality-powered healthcare simulation platform strengthens medical training for future doctors - Carle Illinois College of Medicine** — science angle
+   https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX09wdjgtZDZzN0FhV0VlaVVkcXZ3VjMxSFlVNHpJaVFmREgya2diWnFIVHZRQ2VLMEo4cExoZ2VOVExCc1dYMDdfeDJUNWx1a0tTVk5TRWpGcEEyUzFpaldVbDBWMkpza09ZQ2xOM25MTGl5REtldTE3djc4cVQzS1FSTUQ3aEJ0UUE1bkg5WjVxVmdLb1piU0dQX3Z2SmZVM1lhbENIcnRnVUNheW1YLXN3NEFDcFQ5Q1FJTWlFNUNsN01JNkFvc1BNTDdycmJPMWlaVTRYeTYzUkRqeVE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS** — Sam Altman News — Score 123
@@ -41,20 +41,20 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a2d46b35f9e46f89dff7ce5b50942d8&url=https%3a%2f%2fwww.msn.com%2fen-nz%2fnews%2fother%2fpolice-officer-investigated-for-using-ai-to-create-evidential-material-in-cases%2far-AA25xSHi&c=8809494013763372756&mkt=en-us
 8. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
-9. **France's Mistral looking to raise €3B at €20B valuation - Seeking Alpha** — Mistral News — Score 53
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmR3UFFZVGZQejh4a0Q4VmNUN3lmczZLNUtzTkNEdzRldU9KSTdxNGFZbTdRakI2czNhQTdhd3RjN0syZUF2Q0x3MGRfZnJDSFpyWUdFNEZ3SXVUUHZIX3FTOGtmWGxlaEpfWWdsUENTMmRGOG9Td1l6d19xTS1LVC1pX2JPdGc1RUZRNlRTdk1KV3dF?oc=5
-10. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 50
+9. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 50
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2hfSTVtRGZXdWFoSXBkMzRDeUpHYlZvOWNuaDFzQkM0QURpbUZ0c05hQ3VTckZrc0F4OUtFeE5TbVNvTDhSZmtvZngzSUNzWmdKVzBRQy15QWpfdG9wVThDdklXdlRiMXVnME9GX0N3UGJrd244aXg1MnZoV3hmUDhUVmhxOVpqLVZHNDNyV0pJS2JOVlV1U3YyaVpENzk2ZVpjYUV6WlltaFE?oc=5
+10. **France's Mistral looking to raise €3B at €20B valuation - Seeking Alpha** — Mistral News — Score 50
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmR3UFFZVGZQejh4a0Q4VmNUN3lmczZLNUtzTkNEdzRldU9KSTdxNGFZbTdRakI2czNhQTdhd3RjN0syZUF2Q0x3MGRfZnJDSFpyWUdFNEZ3SXVUUHZIX3FTOGtmWGxlaEpfWWdsUENTMmRGOG9Td1l6d19xTS1LVC1pX2JPdGc1RUZRNlRTdk1KV3dF?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
 - **As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors - Spotlight PA** — https://news.google.com/rss/articles/CBMinwFBVV95cUxPcF8zNDFuMTE0UFRxN2ZoV2tjR2xYbTRPTXNKX25LcVl0ejN3c3d6cFZOQ1pPVUNkLXZIUUplYVpSWTFDbzRBanRwUDVfaW9DWXFhSVpiOXRZeEpMRTBYU05rakpaeDNmNW5ib3Bsbl9Td3cwQ2dSUnA5U2pHbUUzRS1vcmJoSWZtbXNzRWlrZEJ5MFB0M3pSUHREdjN0S0U?oc=5
 - **How Wisconsin doctors and patients are using AI to assist with healthcare - WPR** — https://news.google.com/rss/articles/CBMiggFBVV95cUxPckZraWNhZVJURWFjekRWTGZxOFV4cVVUZjBGaGxBVlVaNjB5aHg1VmRRSWR0ai1OTVIybEZYc0w2T20xaWpDaFFjLUlKREhZUGhLVjRmd0pRc213Rzh5N2M4UkdQYm5LVWlqd3pKblhVVHpTdlJBUUx5ZjVGdV9wZVhn?oc=5
-- **Nvidia Joins the Race for Your Doctor’s Office, Teaming With AI Startup Abridge - Tech Times** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeDdZVjhYc0R3THlzZUwydXRBdWxRcml0VVZfZHhiZE9Qb1dBLUt5UzFRd01JMHJ2TENTNGluVHhERTdPNHlxdUYxMmNDM1IyXy1vbGZQOEJGUVRRX3pfTFVMQm5ETVdXZWNMeWRDUXlqOHZsV1JWdGdsS2lsSnN1dGl5STlnSFU1VXVSX1laZ0Jzay0tSTliME5oYVNJWUYwTDEwenVnMEFWakZsQ25hbDNYal9LSDRDRTdJ?oc=5
 - **Influencers and AI now guide more wellness choices than doctors - eMarketer** — https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWFCOWlhOFhOaWlKUDQ3UWRWNWlDRWtHaUdpcURuQ1E4QUJUYTBKVVU3Q2pySjFMMUhlSEdRUm9PdFNLNVRGc2YycDJuSUU3cnZNVjBqZVA0dURZSlRzUUVjZUZMOVp0WWhicF9hd0VzV0ZqMURKaTZKa3RSU3hBajVFZ0JuRlhMZEdXRk5mVS03NXJrcDdPRg?oc=5
+- **Doctors Inject Human Subjects With First Vaccine Designed by AI - Futurism** — https://news.google.com/rss/articles/CBMid0FVX3lxTE9tS1hNS21yV0E1WEtDLTB3emc5VE1JdjdkS29EMG5YbDN6aUppblI0MGRTUWkzSkNyakZPOVpPY0lzdUx1NHJkbmZRbDNyYTdiQmhya29SX2l0NG1Ia2ZpSjdTMWFmTVpDUHh4bTBaV1BYRDFSNjdn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1343
+- Total stories tracked: 1359
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
