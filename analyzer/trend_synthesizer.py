@@ -19,8 +19,10 @@ The audience cares about PRACTICAL use and EARNING with AI, framed as "what this
 not technical specs.
 
 Below are real signals collected in the last 48 hours from Google Trends, YouTube, Reddit, and
-Hacker News. Cluster them into distinct, real trends. Use ONLY what the signals support — never
-invent a tool or trend. Attach the supporting source URLs to each item.
+Hacker News. Identify 6 to 12 distinct, real trends. STRONGLY PREFER specific named tools,
+models, or techniques (e.g. a named app/model like "Nano Banana", "Veo 3", "Sora") over broad
+generic themes — only fall back to a broad theme when the signals are genuinely generic. Use ONLY
+what the signals support — never invent a tool or trend. Attach the supporting source URLs to each item.
 
 Return ONLY a JSON object (no prose, no code fences) matching this schema:
 {
@@ -58,7 +60,11 @@ Scoring guidance: prioritize trends that are practical/earning-focused, visually
 locally relevant (PK/IN, Urdu/Hindi). A real problem people face is HIGH value because it makes
 great tutorial/explainer content. For trends with a clear work/career/productivity angle, fill
 linkedin_angle. Be honest about momentum - only mark "rising" if recent signals genuinely outweigh
-older ones. local_relevance and video_worthy are 0-10; signal_strength is 0-10.
+older ones. Use category "tool_launch" whenever a trend centers on a specific named AI tool or
+model (these feed the Rising Tools list, so don't lump tools as "use_case"). Write every
+content_idea in ROMAN URDU (Urdu written in English letters) with light English — for example
+"ChatGPT se paisay kaise kamayein" or "Ye naya AI tool sab kuch badal dega". Aim for at least
+3 content_ideas per trend. local_relevance and video_worthy are 0-10; signal_strength is 0-10.
 
 SIGNALS:
 __SIGNALS__"""
