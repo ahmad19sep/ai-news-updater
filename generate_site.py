@@ -878,7 +878,7 @@ const STATUSES = [
   ["posted", "Posted", "#059669"]];
 const PLATFORMS = [["yt","YT long"],["shorts","Shorts"],["tiktok","TikTok"],["ig","IG Reels"],
   ["fb","FB Reels"],["x","X"],["wa","WhatsApp"],["li","LinkedIn"]];
-let pillar = 0, hideDone = false, hotOnly = false, localOnly = false, mode = "worthy", q = "", shown = PAGE;
+let pillar = 0, hideDone = false, hotOnly = false, localOnly = false, mode = "latest", q = "", shown = PAGE;
 let assFilter = "All", editingId = null;
 /* storage reads never crash the app — corrupt values fall back to defaults */
 function jload(key, fallback) {
@@ -1242,6 +1242,16 @@ function ago(iso) {
 function esc(t) { const d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
 
 /* ---------------- News ---------------- */
+/* Freshness multiplier so the "video-worthy" view favours today's stories and
+   pushes anything older than ~4 days down (keeps it timely, not just popular). */
+function freshFactor(iso) {
+  const ageH = (Date.now() - new Date(iso).getTime()) / 3.6e6;
+  if (ageH < 24) return 1.35;
+  if (ageH < 48) return 1.15;
+  if (ageH < 96) return 1.0;
+  return 0.6;
+}
+function worthyRank(it) { return (it.sc || 0) * freshFactor(it.d || it.f); }
 function filtered() {
   const needle = q.toLowerCase();
   let items = ITEMS.filter(it =>
@@ -1251,9 +1261,9 @@ function filtered() {
     (!hotOnly || (it.l && it.l.length)) &&
     (!localOnly || it.lo) &&
     (!needle || it.t.toLowerCase().includes(needle)));
-  if (mode === "worthy") items = items.slice().sort((a, b) => b.sc - a.sc);
-  else items = items.slice().sort((a, b) =>   /* Latest = by discovery time, matches the phone */
-    (b.f || b.d || "").localeCompare(a.f || a.d || ""));
+  if (mode === "worthy") items = items.slice().sort((a, b) => worthyRank(b) - worthyRank(a));
+  else items = items.slice().sort((a, b) =>   /* Latest = newest PUBLISHED first */
+    (b.d || b.f || "").localeCompare(a.d || a.f || ""));
   return items;
 }
 function render() {
@@ -3685,8 +3695,12 @@ function renderHome() {
       { weekday: "long", day: "numeric", month: "long" }) +
     " · radar updated " + UPDATED;
 
-  const candidates = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u))
-    .slice().sort((a, b) => b.sc - a.sc);
+  const pool = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u));
+  // "Aaj ka top pick" should be a FRESH high-scoring story (last 2 days),
+  // falling back to the overall best only if nothing recent exists.
+  const recentCut = Date.now() - 2 * 86400000;
+  const recent = pool.filter(it => new Date(it.d || it.f).getTime() > recentCut);
+  const candidates = (recent.length ? recent : pool).slice().sort((a, b) => b.sc - a.sc);
   const tp = document.getElementById("toppick");
   if (candidates.length) {
     const p = candidates[0];
