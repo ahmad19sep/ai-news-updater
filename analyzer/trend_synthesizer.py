@@ -171,8 +171,12 @@ def synthesize(signals):
         return {}  # no key -> caller falls back to raw mode
     model = config.PULSE_LLM_MODELS.get(provider)
 
+    # Feed the LLM the SPECIFIC signals first (real posts/video titles) and push
+    # generic search-autocomplete to the back, so it forms specific named trends
+    # instead of collapsing everything into a few broad themes.
+    ordered = sorted(signals, key=lambda s: 1 if s.get("type") == "search_suggest" else 0)
     slim = [{"platform": s["platform"], "text": s["text"], "url": s["url"],
-             "metric": s.get("metric", 0)} for s in signals[:120]]
+             "metric": s.get("metric", 0)} for s in ordered[:150]]
     prompt = PROMPT.replace("__SIGNALS__", json.dumps(slim, ensure_ascii=False))
 
     for _ in range(2):  # retry once, then give up (caller falls back)
