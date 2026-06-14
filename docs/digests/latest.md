@@ -27,9 +27,9 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS** — Sam Altman News — Score 123
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y0VDY1hNanBXVEh4cmdmcS1wYnlhWGdJNkE3d18xY0hOeFA1b25vSHlpZmoyaUFSQXhCOV9jY1oxY1R2MTEtU1RaeFhVeEx3VGo0dzJPblp4WGhpbHREMmVVeEJYNkZwWEs2SHZhVl9LenRtTmxRckhlSTVDS3pfWEhMQThsd0hORVo4d1pXNXFxeVhxd0NWUFNvaE5NaldJTm0xWG8xVGF5QjRhcXZwc2lKNFdQSTFSZFY5dGhrZ0NYejN6RVNrOWV3YQ?oc=5
-2. **Sam Altman, Demis Hassabis, Dario Amodei to attend G7 France - Yahoo** — Sam Altman News — Score 76
+2. **Sam Altman, Demis Hassabis, Dario Amodei to attend G7 France - Yahoo** — Sam Altman News — Score 73
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlJDelRxWWpiNEIxclZhaVhVNjVpSWc1bS1IM2RfaGRySC1fdHlxdUpRYXBhR0U3emFlcFhHYURfQ1hfT2x1eTVVbkJoeHJBWldRMkpKSzNUV0liZHFnVWYtYlpWM3N3YU0zRm9Zell4OWtXanFGc1c3bmp0dlpzeTN2N2xfU0U1blF2WUV1VkFoVloySmc?oc=5
-3. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 73
+3. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 70
    https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhxNEhRWTVtQUxiS2ZlUk1JaUJPQnI2RXluTm8tTnNoN083RWRhZF9UMlliY00zVWM4d2ZTTFROdVV5YlliOFVfTTQweENyOXY0ZEhGY3hjM2VZcmkxRnRtZlpscU1aYmFHWlMzYUlXNEdNVTdZM0M1T2VHWC1DLXBJcld3S1V1LU5Qc3hOVEkzNWx0Sk56WGsxek5Bc29kMkN0ZUgwVGxQM3RWMm1HTmxOVVg?oc=5
 4. **Anthropic CEO Dario Amodei Has Only One Direct Report - Bloomberg** — Dario Amodei News — Score 67
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a2d46b35f9e46f89dff7ce5b50942d8&url=https%3a%2f%2fwww.msn.com%2fen-nz%2fnews%2fother%2fpolice-officer-investigated-for-using-ai-to-create-evidential-material-in-cases%2far-AA25xSHi&c=8809494013763372756&mkt=en-us
 8. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
-9. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 53
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2hfSTVtRGZXdWFoSXBkMzRDeUpHYlZvOWNuaDFzQkM0QURpbUZ0c05hQ3VTckZrc0F4OUtFeE5TbVNvTDhSZmtvZngzSUNzWmdKVzBRQy15QWpfdG9wVThDdklXdlRiMXVnME9GX0N3UGJrd244aXg1MnZoV3hmUDhUVmhxOVpqLVZHNDNyV0pJS2JOVlV1U3YyaVpENzk2ZVpjYUV6WlltaFE?oc=5
-10. **France's Mistral looking to raise €3B at €20B valuation - Seeking Alpha** — Mistral News — Score 53
+9. **France's Mistral looking to raise €3B at €20B valuation - Seeking Alpha** — Mistral News — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmR3UFFZVGZQejh4a0Q4VmNUN3lmczZLNUtzTkNEdzRldU9KSTdxNGFZbTdRakI2czNhQTdhd3RjN0syZUF2Q0x3MGRfZnJDSFpyWUdFNEZ3SXVUUHZIX3FTOGtmWGxlaEpfWWdsUENTMmRGOG9Td1l6d19xTS1LVC1pX2JPdGc1RUZRNlRTdk1KV3dF?oc=5
+10. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 50
+   https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2hfSTVtRGZXdWFoSXBkMzRDeUpHYlZvOWNuaDFzQkM0QURpbUZ0c05hQ3VTckZrc0F4OUtFeE5TbVNvTDhSZmtvZngzSUNzWmdKVzBRQy15QWpfdG9wVThDdklXdlRiMXVnME9GX0N3UGJrd244aXg1MnZoV3hmUDhUVmhxOVpqLVZHNDNyV0pJS2JOVlV1U3YyaVpENzk2ZVpjYUV6WlltaFE?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **Influencers and AI now guide more wellness choices than doctors - eMarketer** — https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWFCOWlhOFhOaWlKUDQ3UWRWNWlDRWtHaUdpcURuQ1E4QUJUYTBKVVU3Q2pySjFMMUhlSEdRUm9PdFNLNVRGc2YycDJuSUU3cnZNVjBqZVA0dURZSlRzUUVjZUZMOVp0WWhicF9hd0VzV0ZqMURKaTZKa3RSU3hBajVFZ0JuRlhMZEdXRk5mVS03NXJrcDdPRg?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1331
+- Total stories tracked: 1343
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
