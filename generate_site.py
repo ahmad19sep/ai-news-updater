@@ -423,10 +423,10 @@ PAGE = r"""<!doctype html>
           font-size:12.5px; }
   .taskchip:hover { filter:brightness(.97); text-decoration:underline; }
   body.dark {
-    --bg:#0b0f17; --surface:#131a26; --surface2:#1a2230;
-    --text:#e7ecf3; --dim:#9aa3b2; --faint:#647082;
-    --line:rgba(255,255,255,.08); --line2:rgba(255,255,255,.17);
-    --indigo-soft:rgba(99,102,241,.18);
+    --bg:#070b18; --surface:#0e1730; --surface2:#15213e;
+    --text:#e8edfb; --dim:#97a4c6; --faint:#5e6b8c;
+    --line:rgba(125,150,220,.14); --line2:rgba(125,150,220,.28);
+    --indigo:#4f7cff; --indigo-soft:rgba(79,124,255,.18); --cyan:#38bdf8;
     --gold:#fbbf24; --gold-soft:rgba(251,191,36,.13);
     --green:#34d399; --green-soft:rgba(52,211,153,.12);
     --red:#f87171; --red-soft:rgba(248,113,113,.15);
@@ -437,7 +437,7 @@ PAGE = r"""<!doctype html>
     --shadow:0 4px 16px -4px rgba(0,0,0,.55);
     --shadow-lg:0 20px 50px -12px rgba(0,0,0,.75);
   }
-  body.dark { background:var(--bg); }
+  body.dark { background:radial-gradient(1100px 520px at 75% -12%, #16275a 0%, #0a1330 40%, var(--bg) 72%) fixed; }
   body.dark header { background:rgba(11,15,23,.82); }
   body.dark .tabs button.active { background:var(--indigo); color:#fff; }
   body.dark .bar button.active { background:var(--indigo); border-color:var(--indigo); color:#fff; }
@@ -815,8 +815,8 @@ async function edTryUnlock() {
   toast("Welcome, " + ed.name + " ✂️");
 }
 
-/* ---- theme ---- */
-if (localStorage.getItem("theme") === "dark") {
+/* ---- theme (dark by default — the AI look; switch to light only if chosen) ---- */
+if (localStorage.getItem("theme") !== "light") {
   document.body.classList.add("dark");
   document.getElementById("themebtn").textContent = "☀️";
 }

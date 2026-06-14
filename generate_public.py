@@ -1,9 +1,10 @@
 """
-AI Radar - PUBLIC news website generator.
+AI Radar - PUBLIC news website generator (modern news-site layout).
 
-Reads news.db and writes docs/index.html = a clean, OPEN, SEO-friendly public
-AI-news site (no login). It's an aggregator: every card links to the original
-source. The private creator studio is generated separately to docs/studio.html.
+Reads news.db and writes docs/index.html = an open, SEO-friendly AI-news site
+styled like a modern publication (masthead, lead story, section tags, headline
+river). Editor-published articles (from Firebase /published) appear as featured
+stories. The private studio is generated separately to docs/studio.html.
 
 Run:  python generate_public.py
 """
@@ -17,6 +18,7 @@ import config
 import database
 import scoring
 
+
 def _load_fburl():
     url = os.environ.get("FIREBASE_URL", "").strip()
     if not url:
@@ -28,20 +30,25 @@ def _load_fburl():
             pass
     return url
 
+
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
-MAX_STORIES = 600          # public site stays fast
+MAX_STORIES = 600
 SITE_NAME = "AI Radar"
 SITE_URL = "https://hafizahmad.com/"
-SITE_DESC = ("The latest artificial-intelligence news in one place: new models and tools, "
-             "AI in science, leaders, and research — updated every 30 minutes, with links "
+SITE_DESC = ("Breaking artificial-intelligence news, every day: new models and tools, "
+             "AI in science, business, and research — updated every 30 minutes, with links "
              "to the original sources.")
+
+# section colours (newspaper-style tags), keyed by category id
+CATCOLORS = {1: "#4f7cff", 2: "#22c55e", 3: "#a855f7", 4: "#f59e0b", 5: "#ef4444",
+             6: "#06b6d4", 7: "#84cc16", 8: "#ec4899", 9: "#8b5cf6", 10: "#94a3b8"}
 
 PAGE = r"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b0f17">
+<meta name="theme-color" content="#070b18">
 <title>__SITE__ — Latest AI News, updated all day</title>
 <meta name="description" content="__DESC__">
 <link rel="canonical" href="__URL__">
@@ -52,211 +59,226 @@ PAGE = r"""<!doctype html>
 <meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#0b0f17; --surface:#121a26; --surface2:#18202e; --text:#e7ecf3;
-          --dim:#97a1b2; --faint:#5f6b7e; --line:rgba(255,255,255,.08);
-          --line2:rgba(255,255,255,.16); --accent:#22d3ee; --accent2:#6366f1;
-          --orange:#fb923c; --green:#34d399;
-          --grad:linear-gradient(135deg,#6366f1,#22d3ee);
-          --display:"Space Grotesk", Inter, sans-serif; }
+  :root { --bg:#070b18; --surface:#0e1730; --surface2:#15213e; --text:#e8edfb;
+          --dim:#97a4c6; --faint:#5e6b8c; --line:rgba(125,150,220,.14);
+          --line2:rgba(125,150,220,.28); --accent:#38bdf8; --accent2:#4f7cff;
+          --orange:#fb923c; --grad:linear-gradient(135deg,#4f7cff,#38bdf8);
+          --display:"Space Grotesk", Inter, sans-serif;
+          --head:"Newsreader", Georgia, serif; }
   * { box-sizing:border-box; }
-  body { margin:0; background:radial-gradient(1100px 460px at 70% -10%, #16203a 0%, var(--bg) 55%);
+  body { margin:0; background:radial-gradient(1200px 560px at 72% -14%, #16275a 0%, #0a1330 40%, var(--bg) 72%);
          color:var(--text); font:15px/1.55 Inter, system-ui, sans-serif; -webkit-font-smoothing:antialiased; }
-  a { color:var(--accent); }
-  .wrap { max-width:960px; margin:0 auto; padding:0 16px 70px; }
-  header { position:sticky; top:0; z-index:30; backdrop-filter:blur(12px);
-           background:rgba(11,15,23,.72); border-bottom:1px solid var(--line); }
-  .hrow { max-width:960px; margin:0 auto; padding:13px 16px; display:flex; align-items:center; gap:12px; }
-  .logo { display:flex; align-items:center; gap:10px; font:800 18px var(--display); letter-spacing:-.02em;
-          text-decoration:none; color:inherit; }
-  .logo .orb { width:30px; height:30px; border-radius:9px; background:var(--grad);
-          display:flex; align-items:center; justify-content:center; font-size:16px; }
-  .social { margin-left:auto; display:flex; gap:8px; }
-  .social a { color:var(--dim); text-decoration:none; font-size:13px; font-weight:600;
-          border:1px solid var(--line); border-radius:999px; padding:6px 13px; }
-  .social a:hover { color:var(--text); border-color:var(--line2); }
-  .hero { text-align:center; padding:40px 0 14px; }
-  .hero h1 { font:800 clamp(28px,5vw,44px) var(--display); letter-spacing:-.03em; margin:0 0 10px; }
-  .hero h1 .g { background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
-  .hero p { color:var(--dim); font-size:15.5px; margin:0 auto; max-width:520px; }
-  .updated { color:var(--faint); font-size:12px; margin-top:12px; }
-  .updated .live { display:inline-block; width:8px; height:8px; border-radius:50%; background:#22c55e;
-          box-shadow:0 0 0 3px rgba(34,197,94,.2); animation:pulse 2s infinite; vertical-align:middle; margin-right:5px; }
+  a { color:inherit; text-decoration:none; }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 18px 70px; }
+
+  /* masthead */
+  header { border-bottom:1px solid var(--line); background:rgba(7,11,24,.78); backdrop-filter:blur(12px);
+           position:sticky; top:0; z-index:30; }
+  .mast { max-width:1080px; margin:0 auto; padding:14px 18px; display:flex; align-items:center; gap:14px; }
+  .brand { display:flex; align-items:center; gap:11px; }
+  .brand .orb { width:34px; height:34px; border-radius:10px; background:var(--grad);
+          display:flex; align-items:center; justify-content:center; font-size:18px;
+          box-shadow:0 0 22px rgba(79,124,255,.5); }
+  .brand .nm { font:800 22px var(--display); letter-spacing:-.02em; }
+  .brand .nm b { background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .mast .date { color:var(--faint); font-size:12.5px; margin-left:4px; }
+  .mast .right { margin-left:auto; display:flex; gap:8px; }
+  .mast .right a { color:var(--dim); font-size:12.5px; font-weight:600; border:1px solid var(--line);
+          border-radius:999px; padding:6px 13px; }
+  .mast .right a:hover { color:var(--text); border-color:var(--line2); }
+  /* category nav */
+  .nav { border-bottom:1px solid var(--line); background:rgba(7,11,24,.6); }
+  .navrow { max-width:1080px; margin:0 auto; padding:0 12px; display:flex; gap:2px; overflow-x:auto; scrollbar-width:none; }
+  .navrow::-webkit-scrollbar { display:none; }
+  .navrow button { background:none; border:none; color:var(--dim); font:600 13px Inter; cursor:pointer;
+          padding:12px 13px; white-space:nowrap; border-bottom:2px solid transparent; }
+  .navrow button:hover { color:var(--text); }
+  .navrow button.active { color:#fff; border-bottom-color:var(--accent); }
+
+  .tag { font:700 10.5px Inter; letter-spacing:.05em; text-transform:uppercase; }
+  .live { display:inline-block; width:7px; height:7px; border-radius:50%; background:#22c55e;
+          box-shadow:0 0 0 3px rgba(34,197,94,.2); animation:pulse 2s infinite; vertical-align:middle; margin-right:6px; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
-  .trends { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:16px 0 4px; }
-  .chip { background:rgba(52,211,153,.1); color:var(--green); border:1px solid rgba(52,211,153,.28);
-          border-radius:999px; padding:5px 13px; font:500 12.5px Inter; cursor:pointer; }
-  .chip:hover { background:rgba(52,211,153,.18); }
-  .bar { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0 6px; align-items:center; }
-  .bar button, .bar select { background:var(--surface); color:var(--dim); border:1px solid var(--line);
-          padding:7px 14px; border-radius:999px; font:500 12.5px Inter; cursor:pointer; }
-  .bar button.active { background:var(--grad); border-color:transparent; color:#fff; font-weight:600; }
-  .search { display:flex; margin:14px 0 4px; }
-  .search input { flex:1; background:var(--surface); border:1px solid var(--line); color:var(--text);
-          padding:11px 16px; border-radius:12px; font:14px Inter; outline:none; }
-  .search input:focus { border-color:var(--accent2); box-shadow:0 0 0 3px rgba(99,102,241,.18); }
-  .count { color:var(--faint); font-size:12.5px; margin:10px 2px; }
-  .card { background:var(--surface); border:1px solid var(--line); border-radius:14px;
-          padding:15px 18px; margin-bottom:11px; transition:.15s; }
-  .card:hover { border-color:var(--line2); transform:translateY(-1px); }
-  .card h2 { font-size:16px; font-weight:600; line-height:1.4; margin:0 0 8px; letter-spacing:-.01em; }
-  .card h2 a { color:var(--text); text-decoration:none; }
-  .card h2 a:hover { color:var(--accent); }
-  .meta { font-size:12px; color:var(--dim); display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; }
-  .pill { background:rgba(99,102,241,.15); color:#a5b4fc; padding:2.5px 10px; border-radius:999px; font-size:11px; font-weight:500; }
-  .pill.hot { background:rgba(251,146,60,.14); color:var(--orange); }
-  .extra { font-size:12px; margin-top:7px; color:var(--dim); }
-  .extra a { text-decoration:none; margin-right:12px; }
-  .more { display:block; margin:22px auto; background:var(--surface); color:var(--text); border:1px solid var(--line);
-          padding:11px 32px; border-radius:999px; font:600 13px Inter; cursor:pointer; }
-  .empty { color:var(--faint); text-align:center; padding:50px 0; }
-  footer { border-top:1px solid var(--line); margin-top:30px; padding:24px 16px; text-align:center;
-           color:var(--faint); font-size:12.5px; }
-  footer a { color:var(--dim); text-decoration:none; margin:0 8px; }
-  /* editor-published articles */
-  .feat-h { font:700 14px var(--display); color:var(--dim); text-transform:uppercase;
-            letter-spacing:.08em; margin:24px 2px 12px; }
-  .fcard { background:var(--surface); border:1px solid var(--line); border-radius:16px;
-           overflow:hidden; margin-bottom:14px; cursor:pointer; transition:.15s; }
+
+  /* featured (editor-published) */
+  .feat-h, .sec-h { font:700 13px var(--display); color:var(--dim); text-transform:uppercase;
+          letter-spacing:.1em; margin:26px 2px 14px; display:flex; align-items:center; gap:8px; }
+  .lead { display:grid; grid-template-columns:1.3fr 1fr; gap:20px; align-items:stretch;
+          background:var(--surface); border:1px solid var(--line); border-radius:16px; overflow:hidden;
+          cursor:pointer; transition:.15s; margin-bottom:14px; }
+  .lead:hover { border-color:var(--line2); }
+  .lead .img { min-height:240px; background-size:cover; background-position:center; background-color:#0c1428; }
+  .lead .tx { padding:24px; display:flex; flex-direction:column; justify-content:center; }
+  .lead h2 { font:700 clamp(22px,3vw,30px) var(--head); line-height:1.2; margin:10px 0 10px; }
+  .lead .ex { color:var(--dim); font-size:14.5px; line-height:1.6; }
+  .lead .m { color:var(--faint); font-size:12px; margin-top:12px; }
+  .frow { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:14px; }
+  .fcard { background:var(--surface); border:1px solid var(--line); border-radius:14px; overflow:hidden;
+           cursor:pointer; transition:.15s; }
   .fcard:hover { border-color:var(--line2); transform:translateY(-2px); }
-  .fcard img { width:100%; max-height:230px; object-fit:cover; display:block; }
-  .fcard .fb { padding:16px 18px; }
-  .fcard h2 { font:700 19px var(--display); line-height:1.3; margin:0 0 7px; letter-spacing:-.01em; }
-  .fcard .ex { color:var(--dim); font-size:14px; line-height:1.55; }
-  .fcard .fm { color:var(--faint); font-size:12px; margin-top:9px; }
-  #reader { position:fixed; inset:0; z-index:60; background:rgba(7,10,16,.7); overflow-y:auto; }
-  .rbox { max-width:720px; margin:40px auto; background:var(--surface); border:1px solid var(--line);
-          border-radius:16px; padding:0 0 30px; }
-  .rbox img { width:100%; max-height:340px; object-fit:cover; border-radius:16px 16px 0 0; display:block; }
-  .rinner { padding:24px 26px; }
-  .rbox h1 { font:800 clamp(22px,4vw,32px) var(--display); line-height:1.25; margin:0 0 10px; }
-  .rbox .rm { color:var(--faint); font-size:13px; margin-bottom:18px; }
-  .rbox .body { font-size:16px; line-height:1.7; color:var(--text); }
-  .rbox .body p { margin:0 0 15px; }
+  .fcard .img { height:140px; background-size:cover; background-position:center; background-color:#0c1428; }
+  .fcard .fb { padding:13px 15px; }
+  .fcard h3 { font:600 16px var(--head); line-height:1.3; margin:6px 0 0; }
+
+  /* trending */
+  .trends { display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 4px; }
+  .chip { background:rgba(56,189,248,.1); color:var(--accent); border:1px solid rgba(56,189,248,.28);
+          border-radius:999px; padding:5px 13px; font:600 12.5px Inter; cursor:pointer; }
+  .chip:hover { background:rgba(56,189,248,.18); }
+
+  .toolrow { display:flex; gap:10px; align-items:center; margin:14px 0 4px; flex-wrap:wrap; }
+  .search { flex:1; min-width:200px; }
+  .search input { width:100%; background:var(--surface); border:1px solid var(--line); color:var(--text);
+          padding:11px 16px; border-radius:12px; font:14px Inter; outline:none; }
+  .search input:focus { border-color:var(--accent2); box-shadow:0 0 0 3px rgba(79,124,255,.2); }
+  .hotbtn { background:var(--surface); border:1px solid var(--line); color:var(--dim);
+          border-radius:999px; padding:9px 16px; font:600 12.5px Inter; cursor:pointer; }
+  .hotbtn.active { background:var(--orange); border-color:var(--orange); color:#15110a; }
+  .count { color:var(--faint); font-size:12.5px; margin:12px 2px; }
+
+  /* headline river */
+  .river { display:grid; grid-template-columns:1fr 1fr; gap:0 28px; }
+  @media (max-width:680px){ .river { grid-template-columns:1fr; } .lead { grid-template-columns:1fr; } .lead .img{min-height:180px;} }
+  .item { padding:15px 0; border-bottom:1px solid var(--line); }
+  .item h3 { font:600 16.5px/1.4 var(--head); margin:7px 0 0; letter-spacing:-.005em; }
+  .item:hover h3 { color:#fff; }
+  .item h3 a:hover { color:var(--accent); }
+  .item .m { color:var(--faint); font-size:12px; margin-top:7px; display:flex; flex-wrap:wrap; gap:5px 12px; align-items:center; }
+  .hotpill { color:var(--orange); font-weight:700; }
+  .more { display:block; margin:24px auto 0; background:var(--surface); color:var(--text); border:1px solid var(--line);
+          padding:11px 34px; border-radius:999px; font:700 13px Inter; cursor:pointer; }
+  .more:hover { border-color:var(--accent); }
+  .empty { color:var(--faint); text-align:center; padding:50px 0; }
+  footer { border-top:1px solid var(--line); margin-top:34px; padding:26px 18px; text-align:center; color:var(--faint); font-size:12.5px; }
+  footer a { color:var(--dim); margin:0 8px; }
+
+  /* article reader */
+  #reader { position:fixed; inset:0; z-index:60; background:rgba(4,7,16,.78); overflow-y:auto; }
+  .rbox { max-width:720px; margin:40px auto; background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:0 0 30px; }
+  .rbox .img { width:100%; height:320px; background-size:cover; background-position:center; border-radius:16px 16px 0 0; background-color:#0c1428; }
+  .rinner { padding:26px 28px; }
+  .rbox h1 { font:700 clamp(24px,4vw,36px) var(--head); line-height:1.22; margin:0 0 10px; }
+  .rbox .rm { color:var(--faint); font-size:13px; margin-bottom:20px; }
+  .rbox .body { font:17px/1.75 var(--head); color:#dfe6f7; }
+  .rbox .body p { margin:0 0 16px; }
   .rclose { position:sticky; top:12px; float:right; margin:12px 12px 0 0; background:var(--surface2);
-            border:1px solid var(--line); color:var(--text); border-radius:999px; width:36px; height:36px;
-            font-size:16px; cursor:pointer; z-index:2; }
+            border:1px solid var(--line); color:var(--text); border-radius:999px; width:38px; height:38px; font-size:16px; cursor:pointer; z-index:2; }
 </style>
 </head>
 <body>
 <header>
-  <div class="hrow">
-    <a class="logo" href="/"><span class="orb">📡</span> __SITE__</a>
-    <nav class="social">
+  <div class="mast">
+    <a class="brand" href="/"><span class="orb">📡</span><span class="nm">AI <b>Radar</b></span></a>
+    <span class="date" id="date"></span>
+    <span class="right">
       <a href="https://x.com/aixahmad" target="_blank" rel="noopener">𝕏</a>
       <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube</a>
-    </nav>
+    </span>
   </div>
 </header>
+<nav class="nav"><div class="navrow" id="nav"></div></nav>
 <div class="wrap">
-  <div class="hero">
-    <h1>The World of <span class="g">AI</span>, every day</h1>
-    <p>__DESC__</p>
-    <div class="updated"><span class="live"></span> Updated __UPDATED__ · refreshes every 30 min</div>
-  </div>
   <div id="featured"></div>
+  <div class="sec-h"><span class="live"></span> <span id="updlabel"></span></div>
   <div class="trends" id="trends"></div>
-  <div class="search"><input id="q" placeholder="Search AI news… models, tools, companies"></div>
-  <div class="bar" id="bar"></div>
+  <div class="toolrow">
+    <div class="search"><input id="q" placeholder="Search AI news… models, tools, companies"></div>
+    <button class="hotbtn" id="hot">🔥 Hot</button>
+  </div>
   <div class="count" id="count"></div>
-  <div id="list"></div>
+  <div class="river" id="list"></div>
   <button class="more" id="more" style="display:none">Show more</button>
 </div>
 <footer>
-  <div>© <span id="yr"></span> __SITE__ — AI news aggregator. Headlines link to original sources.</div>
-  <div style="margin-top:8px">
-    <a href="https://x.com/aixahmad" target="_blank" rel="noopener">@aixahmad on X</a> ·
-    <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube</a>
-  </div>
+  <div>© <span id="yr"></span> AI Radar — AI news aggregator. Headlines link to original sources.</div>
+  <div style="margin-top:8px"><a href="https://x.com/aixahmad" target="_blank" rel="noopener">@aixahmad on X</a> · <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube</a></div>
 </footer>
 <div id="reader" hidden></div>
 <script>
-const PILLARS = __PILLARS__, ITEMS = __ITEMS__, TRENDS = __TRENDS__, PAGE = 40;
-const PUBURL = "__FBURL__";   /* Firebase — editor-published articles live at /published */
+const PILLARS = __PILLARS__, ITEMS = __ITEMS__, TRENDS = __TRENDS__, COLORS = __COLORS__, PAGE = 30;
+const PUBURL = "__FBURL__";
 let pillar = 0, hotOnly = false, q = "", shown = PAGE;
 document.getElementById("yr").textContent = new Date().getFullYear();
+document.getElementById("date").textContent = new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+document.getElementById("updlabel").textContent = "Updated __UPDATED__ · refreshes every 30 min";
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
   if(s<3600) return Math.max(1,s/60|0)+" min ago"; if(s<86400) return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
 function esc(t){ const d=document.createElement("div"); d.textContent=t; return d.innerHTML; }
+function col(p){ return COLORS[p]||"#94a3b8"; }
 function filtered(){ const n=q.toLowerCase(); return ITEMS.filter(it =>
   (!pillar||it.p===pillar) && (!hotOnly||(it.l&&it.l.length)) && (!n||it.t.toLowerCase().includes(n))); }
 function render(){
   const items=filtered();
-  document.getElementById("count").textContent = items.length+" stories"+(q?' for "'+q+'"':"")+(pillar?" in "+PILLARS[pillar]:"");
+  document.getElementById("count").textContent = items.length+" stories"+(q?' for "'+q+'"':"")+(pillar?" · "+PILLARS[pillar]:"");
   const list=document.getElementById("list");
   list.innerHTML = items.length?"":'<div class="empty">No stories found.</div>';
   items.slice(0,shown).forEach(it=>{
-    const d=document.createElement("div"); d.className="card";
-    let hot="",extra="";
-    if(it.l&&it.l.length){ hot='<span class="pill hot">🔥 '+(it.l.length+1)+" sources</span>";
-      extra='<div class="extra">also: '+it.l.slice(0,4).map(x=>'<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.source)+"</a>").join("")+"</div>"; }
-    d.innerHTML='<h2><a href="'+esc(it.u)+'" target="_blank" rel="noopener">'+esc(it.t)+"</a></h2>"+
-      '<div class="meta"><span class="pill">'+PILLARS[it.p]+"</span>"+hot+"<span>"+esc(it.s)+"</span><span>"+ago(it.d)+"</span></div>"+extra;
+    const d=document.createElement("div"); d.className="item";
+    const hot=(it.l&&it.l.length)?'<span class="hotpill">🔥 '+(it.l.length+1)+" sources</span>":"";
+    d.innerHTML='<span class="tag" style="color:'+col(it.p)+'">'+esc(PILLARS[it.p])+"</span>"+
+      '<h3><a href="'+esc(it.u)+'" target="_blank" rel="noopener">'+esc(it.t)+"</a></h3>"+
+      '<div class="m"><span>'+esc(it.s)+"</span><span>"+ago(it.d)+"</span>"+hot+"</div>";
     list.appendChild(d);
   });
   document.getElementById("more").style.display = items.length>shown?"block":"none";
 }
-function bar(){
-  const el=document.getElementById("bar"); el.innerHTML="";
-  const all=document.createElement("button"); all.textContent="All"; all.className=pillar?"":"active";
-  all.onclick=()=>{pillar=0;shown=PAGE;bar();render();}; el.appendChild(all);
-  const sel=document.createElement("select");
-  sel.innerHTML='<option value="0">Categories…</option>'+Object.entries(PILLARS).map(([k,v])=>'<option value="'+k+'"'+(+k===pillar?" selected":"")+">"+v+"</option>").join("");
-  sel.onchange=e=>{pillar=+e.target.value;shown=PAGE;bar();render();}; el.appendChild(sel);
-  const hot=document.createElement("button"); hot.innerHTML="🔥 Hot"; hot.className=hotOnly?"active":"";
-  hot.onclick=()=>{hotOnly=!hotOnly;shown=PAGE;bar();render();}; el.appendChild(hot);
+function navBar(){
+  const el=document.getElementById("nav"); el.innerHTML="";
+  const mk=(id,label)=>{ const b=document.createElement("button"); b.textContent=label;
+    b.className=id===pillar?"active":""; b.onclick=()=>{pillar=id;shown=PAGE;navBar();render();}; el.appendChild(b); };
+  mk(0,"Top"); Object.entries(PILLARS).forEach(([k,v])=>mk(+k,v));
 }
 function trendsBar(){ const el=document.getElementById("trends");
   TRENDS.forEach(t=>{ const c=document.createElement("button"); c.className="chip";
     c.innerHTML=(t.status==="new"?"🆕":"🚀")+" "+esc(t.display);
     c.onclick=()=>{q=t.display;document.getElementById("q").value=t.display;shown=PAGE;render();}; el.appendChild(c); }); }
 document.getElementById("q").addEventListener("input",e=>{q=e.target.value.trim();shown=PAGE;render();});
+document.getElementById("hot").onclick=()=>{ hotOnly=!hotOnly; document.getElementById("hot").classList.toggle("active",hotOnly); shown=PAGE; render(); };
 document.getElementById("more").onclick=()=>{shown+=PAGE;render();};
 
-/* ---- editor-published articles (from Firebase /published) ---- */
-let PUBS = [];
-function fmtDate(ts){ try{ return new Date(ts).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}); }catch(e){ return ""; } }
+/* editor-published articles -> lead + featured row */
+let PUBS=[];
+function fmtDate(ts){ try{ return new Date(ts).toLocaleDateString("en-GB",{day:"numeric",month:"short"}); }catch(e){ return ""; } }
 async function loadFeatured(){
   if(!PUBURL) return;
   try{
-    const r = await fetch(PUBURL.replace(/\/+$/,"")+"/published.json");
-    if(!r.ok) return;
-    const data = await r.json() || {};
-    PUBS = Object.values(data).filter(Boolean).sort((a,b)=>(b.ts||0)-(a.ts||0));
-    const el = document.getElementById("featured");
-    if(!PUBS.length){ el.innerHTML=""; return; }
-    el.innerHTML = '<div class="feat-h">📡 Latest from AI Radar</div>';
-    PUBS.forEach((p,i)=>{
-      const c=document.createElement("div"); c.className="fcard";
-      const ex=(p.body||"").replace(/\s+/g," ").slice(0,160);
-      c.innerHTML = (p.image?'<img src="'+esc(p.image)+'" alt="" loading="lazy">':"")+
-        '<div class="fb"><h2>'+esc(p.title)+"</h2>"+
-        '<div class="ex">'+esc(ex)+(p.body&&p.body.length>160?"…":"")+"</div>"+
-        '<div class="fm">'+(p.cat?esc(p.cat)+" · ":"")+fmtDate(p.ts)+"</div></div>";
-      c.onclick=()=>openArticle(i);
-      el.appendChild(c);
-    });
-    document.getElementById("morehead") && 0;
+    const r=await fetch(PUBURL.replace(/\/+$/,"")+"/published.json"); if(!r.ok) return;
+    const data=await r.json()||{}; PUBS=Object.values(data).filter(Boolean).sort((a,b)=>(b.ts||0)-(a.ts||0));
+    const el=document.getElementById("featured"); if(!PUBS.length){ el.innerHTML=""; return; }
+    el.innerHTML='<div class="feat-h">📡 Latest from AI Radar</div>';
+    const lead=PUBS[0];
+    const ld=document.createElement("div"); ld.className="lead"; ld.onclick=()=>openArticle(0);
+    ld.innerHTML=(lead.image?'<div class="img" style="background-image:url(\''+esc(lead.image)+'\')"></div>':'<div class="img"></div>')+
+      '<div class="tx"><span class="tag" style="color:'+(lead.cat?"#38bdf8":"#94a3b8")+'">'+esc(lead.cat||"Featured")+"</span>"+
+      "<h2>"+esc(lead.title)+"</h2><div class='ex'>"+esc((lead.body||"").replace(/\s+/g," ").slice(0,180))+"…</div>"+
+      "<div class='m'>"+fmtDate(lead.ts)+" · AI Radar</div></div>";
+    el.appendChild(ld);
+    if(PUBS.length>1){
+      const row=document.createElement("div"); row.className="frow";
+      PUBS.slice(1,5).forEach((p,i)=>{ const c=document.createElement("div"); c.className="fcard"; c.onclick=()=>openArticle(i+1);
+        c.innerHTML=(p.image?'<div class="img" style="background-image:url(\''+esc(p.image)+'\')"></div>':'<div class="img"></div>')+
+          '<div class="fb"><span class="tag" style="color:#38bdf8">'+esc(p.cat||"Featured")+'</span><h3>'+esc(p.title)+"</h3></div>";
+        row.appendChild(c); });
+      el.appendChild(row);
+    }
   }catch(e){}
 }
 function openArticle(i){
   const p=PUBS[i]; if(!p) return;
   const paras=(p.body||"").split(/\n\s*\n/).map(t=>"<p>"+esc(t).replace(/\n/g,"<br>")+"</p>").join("");
-  const src=p.url?'<p style="margin-top:18px"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">Source ↗</a></p>':"";
-  document.getElementById("reader").innerHTML =
-    '<div class="rbox"><button class="rclose" onclick="closeArticle()">✕</button>'+
-    (p.image?'<img src="'+esc(p.image)+'" alt="">':"")+
-    '<div class="rinner"><h1>'+esc(p.title)+"</h1>"+
-    '<div class="rm">'+(p.cat?esc(p.cat)+" · ":"")+fmtDate(p.ts)+" · AI Radar</div>"+
-    '<div class="body">'+paras+src+"</div></div></div>";
-  document.getElementById("reader").hidden=false;
-  document.body.style.overflow="hidden";
+  const src=p.url?'<p><a style="color:var(--accent)" href="'+esc(p.url)+'" target="_blank" rel="noopener">Source ↗</a></p>':"";
+  document.getElementById("reader").innerHTML='<div class="rbox"><button class="rclose" onclick="closeArticle()">✕</button>'+
+    (p.image?'<div class="img" style="background-image:url(\''+esc(p.image)+'\')"></div>':"")+
+    '<div class="rinner"><h1>'+esc(p.title)+"</h1><div class='rm'>"+(p.cat?esc(p.cat)+" · ":"")+fmtDate(p.ts)+" · AI Radar</div>"+
+    "<div class='body'>"+paras+src+"</div></div></div>";
+  document.getElementById("reader").hidden=false; document.body.style.overflow="hidden";
 }
 function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow=""; }
 document.getElementById("reader").addEventListener("click",e=>{ if(e.target.id==="reader") closeArticle(); });
 
-trendsBar(); bar(); render(); loadFeatured();
+navBar(); trendsBar(); render(); loadFeatured();
 </script>
 </body>
 </html>
@@ -278,7 +300,7 @@ def generate():
         "d": r["published"] or r["fetched"], "l": json.loads(r["links"] or "[]"),
     } for r in rows]
 
-    updated = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
+    updated = datetime.now(timezone.utc).strftime("%d %b, %H:%M UTC")
     html = (PAGE
             .replace("__SITE__", SITE_NAME)
             .replace("__URL__", SITE_URL)
@@ -286,6 +308,7 @@ def generate():
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
+            .replace("__COLORS__", json.dumps(CATCOLORS))
             .replace("__FBURL__", _load_fburl())
             .replace("__UPDATED__", updated))
 
