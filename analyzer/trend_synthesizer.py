@@ -34,7 +34,7 @@ Return ONLY a JSON object (no prose, no code fences) matching this schema:
       "platforms": ["google","youtube","reddit","hackernews","instagram_inferred","facebook_inferred","linkedin_inferred"],
       "what_it_is": "<one plain sentence, simple language>",
       "audience_angle": "<why an Urdu/Hindi viewer should care - the 'what this means for you' hook>",
-      "linkedin_angle": "<if this trend has a professional/career/productivity framing, the LinkedIn-post angle in one line, written in ROMAN URDU (Urdu in English letters) with light English; else empty>",
+      "linkedin_angle": "<if this trend has a professional/career/productivity framing, the LinkedIn-post angle in one line (in simple English); else empty>",
       "local_relevance": 0,
       "pillar": "practical_earning | explainer | discovery | news",
       "best_format": "long_form | short | reel | carousel",
@@ -62,10 +62,10 @@ great tutorial/explainer content. For trends with a clear work/career/productivi
 linkedin_angle. Be honest about momentum - only mark "rising" if recent signals genuinely outweigh
 older ones. Use category "tool_launch" whenever a trend centers on a specific named AI tool or
 model (these feed the Rising Tools list, so don't lump tools as "use_case"). Write every
-content_idea AND the linkedin_angle in ROMAN URDU (Urdu written in English letters) with light
-English, e.g. "ChatGPT se paisay kaise kamayein". Make the content_ideas DISTINCT from each other
-and specific to the trend — do NOT repeat a generic filler line; aim for at least 3 per trend.
-(audience_angle and what_it_is stay in simple English.) local_relevance and video_worthy are
+content_idea in ROMAN URDU (Urdu written in English letters) with light English, e.g.
+"ChatGPT se paisay kaise kamayein". Make the content_ideas DISTINCT from each other and specific
+to the trend — do NOT repeat a generic filler line; aim for at least 3 per trend. (audience_angle,
+what_it_is, and linkedin_angle stay in simple English.) local_relevance and video_worthy are
 0-10; signal_strength is 0-10.
 
 SIGNALS:
