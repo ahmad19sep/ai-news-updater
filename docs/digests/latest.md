@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
 6. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 56
    https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmk2b1lrRUhKalJRMEpzSUs2TEQ0YTVSTGVvUllEV05sUk91dkd2ZFRHQ3dBb1hRVlpRTUNycld4OVdKOFppWFRDRzg1LWpWa01mYi1HQzdjZXVwRXU2UlZuOWplcWd4eXh4Z3p1TlVmVEFmOGk3ZWJLNFI5OFRncm9PWU5mTmFXUlkxaVRUTnZPMVY0TXltRm5IVkFlLVV0Z25yZXRnTWJSQjRvVzVWcDM4U1VTMnVpZFh5ZlUtMnhzcnRSUFZ1cUJ30gHPAUFVX3lxTFBVRkMzMm96VmY2SDFhR1RGUlJPNFBxZUNXMk1oc01Xa1l6M2ZGbk5oY3ljYTBmUTVCRTlETll0YmxqN3JSVFFTdlNFeUc1NDQ0dVY0Tk9rMXJRakxtY0lsaHctNE1Qby1tSXlFNHJMX1hnVFRqSGx6MjVTUWJBSTZWc19CZHRhX25EdzF6SnVycHUtNzZfcGJjMmpjUnVlNlZtcVhwRjFJSUhoaXBNcVZHTnVTZXR0ZkJxaS05Y292ZWhBa0VGdkpyZklSQ0tFVQ?oc=5
-7. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 53
+7. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 56
+   http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a2d46b35f9e46f89dff7ce5b50942d8&url=https%3a%2f%2fwww.msn.com%2fen-nz%2fnews%2fother%2fpolice-officer-investigated-for-using-ai-to-create-evidential-material-in-cases%2far-AA25xSHi&c=8809494013763372756&mkt=en-us
+8. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 56
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
+9. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 53
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2hfSTVtRGZXdWFoSXBkMzRDeUpHYlZvOWNuaDFzQkM0QURpbUZ0c05hQ3VTckZrc0F4OUtFeE5TbVNvTDhSZmtvZngzSUNzWmdKVzBRQy15QWpfdG9wVThDdklXdlRiMXVnME9GX0N3UGJrd244aXg1MnZoV3hmUDhUVmhxOVpqLVZHNDNyV0pJS2JOVlV1U3YyaVpENzk2ZVpjYUV6WlltaFE?oc=5
-8. **France's Mistral looking to raise €3B at €20B valuation - Seeking Alpha** — Mistral News — Score 53
+10. **France's Mistral looking to raise €3B at €20B valuation - Seeking Alpha** — Mistral News — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmR3UFFZVGZQejh4a0Q4VmNUN3lmczZLNUtzTkNEdzRldU9KSTdxNGFZbTdRakI2czNhQTdhd3RjN0syZUF2Q0x3MGRfZnJDSFpyWUdFNEZ3SXVUUHZIX3FTOGtmWGxlaEpfWWdsUENTMmRGOG9Td1l6d19xTS1LVC1pX2JPdGc1RUZRNlRTdk1KV3dF?oc=5
-9. **Anthropic’s Dario Amodei has just one direct report - TechCrunch** — Dario Amodei News — Score 47
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxNYmhPVnhlckZhRG00dGtDN1FQN0tScGNHaU80YU5GN21Nd0RJSVlQWGxyX2FZOFVzTmFzODktOWQ1ajZ4VENpaUtBRkRQc2FKclVxWXhFb0NXci1DdHNVQUFiV3RRSW9weDdCVThUMGpLOHBfREh3VTFmVE84RVpyWHhpaGtYc3ppazFWSE53?oc=5
-10. **Nvidia CEO Jensen Huang Calls AI ‘Insanely Profitable’ for TSMC. How to Play TSM Stock Here. - Barchart.com** — Jensen Huang News — Score 46
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxPaldISWdPQU5QLU5mRVVYbDJsdGVnbUlQdWZHcnVKRmQ0SzMtRnJSUGpILVFBTXhYRHF3RXBxaUVlcXRDaGZ6ZGplNzFnQzlZZW9WdG1vVlJlSTM2TUgwRDF0cXd1QUlqb0tyLWxEQkg1M2xYd1NYNXlYazVTWWlCVzFhV1RQeGpjMHJXeUx3QXlCNER2dnk3MU9xcWdKaHdEWkNxdU42Vnc4anNpa0FESHlIai13NUZIUmdOUlgteFNkSVpSOXg3Zmt0dl8?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **Influencers and AI now guide more wellness choices than doctors - eMarketer** — https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWFCOWlhOFhOaWlKUDQ3UWRWNWlDRWtHaUdpcURuQ1E4QUJUYTBKVVU3Q2pySjFMMUhlSEdRUm9PdFNLNVRGc2YycDJuSUU3cnZNVjBqZVA0dURZSlRzUUVjZUZMOVp0WWhicF9hd0VzV0ZqMURKaTZKa3RSU3hBajVFZ0JuRlhMZEdXRk5mVS03NXJrcDdPRg?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1313
+- Total stories tracked: 1331
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
