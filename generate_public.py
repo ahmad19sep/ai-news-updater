@@ -36,8 +36,8 @@ MAX_STORIES = 600
 SITE_NAME = "AI Radar"
 # The address where the site is actually served. Canonical/OG/sitemap all use
 # this — it MUST match the live URL or Google won't index correctly.
-# Custom domain (GitHub Pages serves the repo at the root of this domain).
-SITE_URL = "https://hafizahmad.com/"
+# Custom subdomain (portfolio stays on the apex; AI Radar lives here).
+SITE_URL = "https://radar.hafizahmad.com/"
 # Paste the content value from Google Search Console's "HTML tag" verification
 # method here (just the long code), then re-run. Leave "" to skip.
 GSC_VERIFY = ""
