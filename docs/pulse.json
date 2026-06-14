@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T16:39:56.812304+00:00",
+  "generated_at": "2026-06-14T16:42:50.433102+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -16,40 +16,77 @@
   },
   "trends": [
     {
-      "name": "AI Image Generation",
-      "category": "use_case",
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT's image generation feature allows users to create images using text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your social media or personal projects.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your professional content creation.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT image generation."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT se image kaise banayein",
+        "Ye naya AI tool sab kuch badal dega",
+        "ChatGPT image generation ke fayde"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "AI image generation is a technology that allows users to create images using artificial intelligence.",
-      "audience_angle": "You can use AI image generation to create stunning images for your social media profiles or websites.",
-      "linkedin_angle": "Learn how AI image generation can help you create visually appealing content for your business.",
-      "local_relevance": 8,
+      "what_it_is": "Claude AI is a powerful AI tool that can be used for various tasks, including content creation and automation.",
+      "audience_angle": "You can use Claude AI to automate tasks and create content for your social media or personal projects.",
+      "linkedin_angle": "Discover how Claude AI can streamline your workflow and enhance your productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI image generation tools have affiliate programs."
+        "note": "Claude AI has an affiliate program that allows users to earn commissions by promoting the tool."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
-          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
+          "url": "https://www.youtube.com/watch?v=nkf8SP71wo4",
+          "signal": "0"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5il5n/ive_noticed_chatgpt_image_generation_is/",
-          "signal": "I've noticed ChatGPT image generation is surprisingly stereotype-driven"
+          "platform": "hackernews",
+          "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
+          "signal": "36"
         }
       ],
       "content_ideas": [
-        "How to Use AI Image Generation for Your Business",
-        "The Best AI Image Generation Tools for Beginners",
-        "How to Create Stunning Images with AI Image Generation"
+        "Claude AI se paise kaise kamayein",
+        "Ye naya AI tool sab kuch badal dega",
+        "Claude AI ke fayde"
       ]
     },
     {
@@ -59,76 +96,120 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
-      "audience_angle": "You can use AI video generation to create engaging videos for your social media profiles or websites.",
-      "linkedin_angle": "Learn how AI video generation can help you create engaging content for your business.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation allows users to create videos using text prompts or other inputs.",
+      "audience_angle": "You can use AI video generation to create engaging content for your social media or personal projects.",
+      "linkedin_angle": "Explore how AI video generation can enhance your professional content creation and marketing efforts.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI video generation tools have affiliate programs."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for AI video generation."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=bbSqsAVsDxI",
-          "signal": "I Tried AI Filmmaking With Free AI Video Generators (actually good?)"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use AI Video Generation for Your Business",
-        "The Best AI Video Generation Tools for Beginners",
-        "How to Create Engaging Videos with AI Video Generation"
+        "AI video generation se video kaise banayein",
+        "Ye naya AI tool sab kuch badal dega",
+        "AI video generation ke fayde"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT's image generation feature allows users to create images using text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your social media or personal projects.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your professional content creation.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT image generation."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT se image kaise banayein",
+        "Ye naya AI tool sab kuch badal dega",
+        "ChatGPT image generation ke fayde"
       ]
     },
     {
-      "name": "AI for Earning Money",
-      "category": "use_case",
+      "name": "Claude AI",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "AI can be used to earn money through various methods such as affiliate marketing, selling products, and offering services.",
-      "audience_angle": "You can use AI to earn money and improve your financial situation.",
-      "linkedin_angle": "Learn how AI can help you earn money and improve your career prospects.",
-      "local_relevance": 9,
+      "what_it_is": "Claude AI is a powerful AI tool that can be used for various tasks, including content creation and automation.",
+      "audience_angle": "You can use Claude AI to automate tasks and create content for your social media or personal projects.",
+      "linkedin_angle": "Discover how Claude AI can streamline your workflow and enhance your productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI tools and courses have affiliate programs."
+        "note": "Claude AI has an affiliate program that allows users to earn commissions by promoting the tool."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
-          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
+          "url": "https://www.youtube.com/watch?v=nkf8SP71wo4",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
+          "signal": "36"
         }
       ],
       "content_ideas": [
-        "How to Use AI to Earn Money Online",
-        "The Best AI Tools for Earning Money",
-        "How to Create a Successful AI-Powered Business"
+        "Claude AI se paise kaise kamayein",
+        "Ye naya AI tool sab kuch badal dega",
+        "Claude AI ke fayde"
       ]
     }
   ],
-  "rising_tools": [],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5momt/has_anyone_found_a_solution_to_gpt_messing_up/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/"
         }
       ],
-      "content_opportunity": "Create a tutorial on how to overcome ChatGPT usage limits and token limits."
+      "content_opportunity": "ChatGPT usage limits: How to overcome them and maximize your productivity."
     }
   ],
-  "tool_of_week_candidate": "AI Image Generation"
+  "tool_of_week_candidate": "Claude AI"
 }
