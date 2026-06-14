@@ -1,516 +1,134 @@
 {
-  "generated_at": "2026-06-14T15:02:43.243541+00:00",
+  "generated_at": "2026-06-14T16:39:56.812304+00:00",
   "meta": {
-    "mode": "raw",
+    "mode": "llm",
     "sources_used": [
       "reddit",
       "hackernews",
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 36,
+      "reddit": 25,
       "hackernews": 16,
-      "youtube": 42
+      "youtube": 106
     },
-    "llm_provider": null
+    "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "Open source AI must win",
+      "name": "AI Image Generation",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://opensourceaimustwin.com/?share=v2",
-          "signal": "Open source AI must win"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4xime/anthropic_or_chatgpt_will_never_trust_amazon/",
-          "signal": "Anthropic or ChatGPT will never trust Amazon again. They did not go to Anthropic first, they went to Trump"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4u1d9/chatgpt_and_suicide/",
-          "signal": "ChatGPT and suicide"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/",
-          "signal": "You can't even use ChatGPT for Battlefield 6 loadouts anymore"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4ze7j/chatgpt_deactivated_my_account_because_of_lack_of/",
-          "signal": "Chatgpt deactivated my account because of lack of context"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropi",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
-          "signal": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI coding at home without going broke",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
-          "signal": "AI coding at home without going broke"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Police officer investigated for using AI to 'create evidence' in multi",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
-          "signal": "Police officer investigated for using AI to 'create evidence' in multiple cases"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/tensorzero/tensorzero",
-          "signal": "AI OSS tool repo goes archived over night after raising $7.3M Seed"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboratio",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/Paca-AI/paca",
-          "signal": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Meta’s chaotic AI strategy",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/",
-          "signal": "Meta’s chaotic AI strategy"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: I built 80 mini-games using Fable before it was shut down",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://minigames.world/en",
-          "signal": "Show HN: I built 80 mini-games using Fable before it was shut down"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
+      "what_it_is": "AI image generation is a technology that allows users to create images using artificial intelligence.",
+      "audience_angle": "You can use AI image generation to create stunning images for your social media profiles or websites.",
+      "linkedin_angle": "Learn how AI image generation can help you create visually appealing content for your business.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": ""
+        "note": "Many AI image generation tools have affiliate programs."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4vsfc/i_asked_gpt_to_make_me_a_picture_explaining_why/",
-          "signal": "I asked gpt to make me a picture explaining why Claude Fable was removed."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
+          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4wkht/what_really_happened_with_claude_mythos/",
-          "signal": "What really happened with Claude Mythos..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5il5n/ive_noticed_chatgpt_image_generation_is/",
+          "signal": "I've noticed ChatGPT image generation is surprisingly stereotype-driven"
         }
       ],
-      "content_ideas": []
+      "content_ideas": [
+        "How to Use AI Image Generation for Your Business",
+        "The Best AI Image Generation Tools for Beginners",
+        "How to Create Stunning Images with AI Image Generation"
+      ]
     },
     {
-      "name": "PwC Report: AI Making Medical Bills Higher",
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
-          "signal": "PwC Report: AI Making Medical Bills Higher"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: StackScope – I crawled over 40k indie launches to see what th",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://stackscope.dev/",
-          "signal": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create engaging videos for your social media profiles or websites.",
+      "linkedin_angle": "Learn how AI video generation can help you create engaging content for your business.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": ""
+        "note": "Many AI video generation tools have affiliate programs."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4xime/anthropic_or_chatgpt_will_never_trust_amazon/",
-          "signal": "Anthropic or ChatGPT will never trust Amazon again. They did not go to Anthropic first, they went to Trump"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4u1d9/chatgpt_and_suicide/",
-          "signal": "ChatGPT and suicide"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/",
-          "signal": "You can't even use ChatGPT for Battlefield 6 loadouts anymore"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4ze7j/chatgpt_deactivated_my_account_because_of_lack_of/",
-          "signal": "Chatgpt deactivated my account because of lack of context"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bbSqsAVsDxI",
+          "signal": "I Tried AI Filmmaking With Free AI Video Generators (actually good?)"
         }
       ],
-      "content_ideas": []
+      "content_ideas": [
+        "How to Use AI Video Generation for Your Business",
+        "The Best AI Video Generation Tools for Beginners",
+        "How to Create Engaging Videos with AI Video Generation"
+      ]
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "AI for Earning Money",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
+      "what_it_is": "AI can be used to earn money through various methods such as affiliate marketing, selling products, and offering services.",
+      "audience_angle": "You can use AI to earn money and improve your financial situation.",
+      "linkedin_angle": "Learn how AI can help you earn money and improve your career prospects.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": ""
+        "note": "Many AI tools and courses have affiliate programs."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4vsfc/i_asked_gpt_to_make_me_a_picture_explaining_why/",
-          "signal": "I asked gpt to make me a picture explaining why Claude Fable was removed."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4wkht/what_really_happened_with_claude_mythos/",
-          "signal": "What really happened with Claude Mythos..."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
+          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
         }
       ],
-      "content_ideas": []
+      "content_ideas": [
+        "How to Use AI to Earn Money Online",
+        "The Best AI Tools for Earning Money",
+        "How to Create a Successful AI-Powered Business"
+      ]
     }
   ],
+  "rising_tools": [],
   "pain_points": [
     {
-      "problem": "You can't even use ChatGPT for Battlefield 6 loadouts anymore",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "problem": "ChatGPT usage limits and token limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5momt/has_anyone_found_a_solution_to_gpt_messing_up/"
         }
       ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "AI needs to calm down with the gender swap prompt",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4nlmw/ai_needs_to_calm_down_with_the_gender_swap_prompt/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I asked gpt to make me a picture explaining why Claude Fable was removed.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4vsfc/i_asked_gpt_to_make_me_a_picture_explaining_why/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Identify what's slowing you down with these two prompts",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5mmf7/identify_whats_slowing_you_down_with_these_two/"
-        }
-      ],
-      "content_opportunity": ""
+      "content_opportunity": "Create a tutorial on how to overcome ChatGPT usage limits and token limits."
     }
   ],
-  "tool_of_week_candidate": "Open source AI must win — strongest signal this cycle"
+  "tool_of_week_candidate": "AI Image Generation"
 }
