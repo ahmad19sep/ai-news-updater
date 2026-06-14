@@ -396,8 +396,9 @@ PAGE = r"""<!doctype html>
   .wa-head select option { color:#111; }
   .wa-head .x { margin-left:auto; background:rgba(255,255,255,.15); border:none; color:#fff;
           border-radius:8px; padding:6px 11px; cursor:pointer; font-size:14px; }
-  #chatmodal, #xmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
+  #chatmodal, #xmodal, #pubmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
+  #pubmodal .mbox { max-height:92vh; overflow-y:auto; }
   .chatbadge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px;
           padding:0 5px; border-radius:9px; background:#ef4444; color:#fff;
           font:700 11px Inter; display:flex; align-items:center; justify-content:center;
@@ -700,6 +701,27 @@ PAGE = r"""<!doctype html>
         <span id="x-result" style="margin-left:auto;font-size:12.5px"></span>
       </div>
     </div>
+  </div>
+</div>
+<div id="pubmodal" hidden>
+  <div class="mbox" style="max-width:600px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+      <b style="font-size:15px">🌐 Publish to your website</b>
+      <button class="ghost" style="margin-left:auto;padding:6px 11px" onclick="closePub()">✕</button>
+    </div>
+    <input id="pub-title" type="text" style="width:100%;margin-bottom:8px" placeholder="Headline">
+    <div class="genrow">
+      <select id="pub-cat" style="flex:1;min-width:130px"></select>
+      <input id="pub-img" style="flex:2;min-width:180px" placeholder="Image URL (optional)">
+    </div>
+    <input id="pub-url" type="text" style="width:100%;margin:8px 0" placeholder="Source link (optional)">
+    <div class="genrow"><button class="ghost" id="pub-draft">🤖 Draft article with Claude</button></div>
+    <textarea id="pub-body" style="width:100%;min-height:200px" placeholder="Article body… (write it, or draft with Claude and paste here). Leave a blank line between paragraphs."></textarea>
+    <div class="mfoot">
+      <button class="btn" id="pub-go">🌐 Publish</button>
+      <span id="pub-result" style="margin-left:auto;font-size:12.5px"></span>
+    </div>
+    <div id="pub-list" style="margin-top:14px"></div>
   </div>
 </div>
 <div class="toast" id="toast"></div>
@@ -1224,6 +1246,7 @@ function render() {
       '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + local + hot +
       "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
       '<span class="actions">' +
+      (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
       (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
       '<button class="plan-btn">🎬 plan</button>' +
       '<button class="prep-btn">📝</button>' +
@@ -1238,6 +1261,8 @@ function render() {
     d.querySelector(".prep-btn").onclick = () => openCreate(it.t, it.u);
     const xb = d.querySelector(".x-btn");
     if (xb) xb.onclick = () => openXModal(it);
+    const pb2 = d.querySelector(".pub-btn");
+    if (pb2) pb2.onclick = () => openPublishModal(it);
     list.appendChild(d);
   });
   document.getElementById("more").style.display = items.length > shown ? "block" : "none";
@@ -3209,6 +3234,70 @@ document.getElementById("x-post").onclick = async () => {
 function showXResult(url) {
   const el = document.getElementById("x-result");
   el.innerHTML = url ? '✅ <a href="' + esc(url) + '" target="_blank">View on X</a>' : "Posted ✅";
+}
+
+/* ---- Publish to the public website (owner only; writes to Firebase /published) ---- */
+let pubStory = null;
+function pubBase() { return FBURL ? FBURL.replace(/\/+$/, "") + "/published" : ""; }
+function openPublishModal(story) {
+  pubStory = story;
+  document.getElementById("pub-title").value = story.t || "";
+  document.getElementById("pub-url").value = story.u || "";
+  document.getElementById("pub-img").value = "";
+  document.getElementById("pub-body").value = "";
+  document.getElementById("pub-result").textContent = "";
+  document.getElementById("pub-cat").innerHTML = Object.entries(PILLARS)
+    .map(([k, v]) => "<option" + (+k === story.p ? " selected" : "") + ">" + v + "</option>").join("");
+  document.getElementById("pubmodal").hidden = false;
+  loadPubList();
+}
+function closePub() { document.getElementById("pubmodal").hidden = true; pubStory = null; }
+document.getElementById("pubmodal").addEventListener("click", e => { if (e.target.id === "pubmodal") closePub(); });
+document.getElementById("pub-draft").onclick = () => {
+  const t = document.getElementById("pub-title").value.trim();
+  const u = document.getElementById("pub-url").value.trim();
+  const p = 'Write a clear, factual AI-news article in simple English for a general worldwide audience (250-400 words) about:\n"' + t + '"\n' +
+    (u ? "Source link: " + u + "\nFIRST open and read the link.\n" : "") +
+    "Then write: a strong opening line, then 3-5 short paragraphs separated by a blank line. Engaging but accurate — use ONLY facts from the source, never invent. Plain text only, no markdown.";
+  navigator.clipboard.writeText(p).then(() => toast("Article prompt copied — paste in Claude, then paste the article into the body 🤖"));
+};
+document.getElementById("pub-go").onclick = async () => {
+  if (!FBURL) { toast("Firebase not connected"); return; }
+  const title = document.getElementById("pub-title").value.trim();
+  const body = document.getElementById("pub-body").value.trim();
+  if (!title || !body) { toast("Need a headline and article body"); return; }
+  const id = String(Date.now());
+  const art = { id, title, body, url: document.getElementById("pub-url").value.trim(),
+    image: document.getElementById("pub-img").value.trim(),
+    cat: document.getElementById("pub-cat").value, ts: Date.now() };
+  try {
+    const r = await fetch(pubBase() + "/" + id + ".json", {
+      method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(art) });
+    if (!r.ok) { toast("Publish blocked — add a /published rule in Firebase"); return; }
+    toast("Published to your website 🌐");
+    document.getElementById("pub-result").innerHTML = '✅ Live — <a href="index.html" target="_blank">view site</a>';
+    loadPubList();
+  } catch (e) { toast("Publish failed: " + e.message); }
+};
+async function loadPubList() {
+  const el = document.getElementById("pub-list");
+  if (!FBURL) { el.innerHTML = ""; return; }
+  try {
+    const data = (await (await fetch(pubBase() + ".json")).json()) || {};
+    const arr = Object.values(data).filter(Boolean).sort((a, b) => (b.ts || 0) - (a.ts || 0));
+    el.innerHTML = arr.length ? '<div class="note" style="margin:8px 2px 6px">Published on your site (' + arr.length + "):</div>" : "";
+    arr.forEach(p => {
+      const row = document.createElement("div");
+      row.className = "qrow";
+      row.innerHTML = '<span class="qtext">' + esc(p.title.slice(0, 60)) + '</span><button class="ghost del">✕</button>';
+      row.querySelector(".del").onclick = () => { if (confirm("Remove from website?")) delPub(p.id); };
+      el.appendChild(row);
+    });
+  } catch (e) {}
+}
+async function delPub(id) {
+  try { await fetch(pubBase() + "/" + id + ".json", { method: "DELETE" }); toast("Removed from site"); loadPubList(); }
+  catch (e) {}
 }
 
 function openComposer(id, presetDate) {

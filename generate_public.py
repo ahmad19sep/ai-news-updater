@@ -17,6 +17,17 @@ import config
 import database
 import scoring
 
+def _load_fburl():
+    url = os.environ.get("FIREBASE_URL", "").strip()
+    if not url:
+        try:
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "firebase_url.txt")) as f:
+                url = f.read().strip()
+        except FileNotFoundError:
+            pass
+    return url
+
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 MAX_STORIES = 600          # public site stays fast
 SITE_NAME = "AI Radar"
@@ -103,6 +114,29 @@ PAGE = r"""<!doctype html>
   footer { border-top:1px solid var(--line); margin-top:30px; padding:24px 16px; text-align:center;
            color:var(--faint); font-size:12.5px; }
   footer a { color:var(--dim); text-decoration:none; margin:0 8px; }
+  /* editor-published articles */
+  .feat-h { font:700 14px var(--display); color:var(--dim); text-transform:uppercase;
+            letter-spacing:.08em; margin:24px 2px 12px; }
+  .fcard { background:var(--surface); border:1px solid var(--line); border-radius:16px;
+           overflow:hidden; margin-bottom:14px; cursor:pointer; transition:.15s; }
+  .fcard:hover { border-color:var(--line2); transform:translateY(-2px); }
+  .fcard img { width:100%; max-height:230px; object-fit:cover; display:block; }
+  .fcard .fb { padding:16px 18px; }
+  .fcard h2 { font:700 19px var(--display); line-height:1.3; margin:0 0 7px; letter-spacing:-.01em; }
+  .fcard .ex { color:var(--dim); font-size:14px; line-height:1.55; }
+  .fcard .fm { color:var(--faint); font-size:12px; margin-top:9px; }
+  #reader { position:fixed; inset:0; z-index:60; background:rgba(7,10,16,.7); overflow-y:auto; }
+  .rbox { max-width:720px; margin:40px auto; background:var(--surface); border:1px solid var(--line);
+          border-radius:16px; padding:0 0 30px; }
+  .rbox img { width:100%; max-height:340px; object-fit:cover; border-radius:16px 16px 0 0; display:block; }
+  .rinner { padding:24px 26px; }
+  .rbox h1 { font:800 clamp(22px,4vw,32px) var(--display); line-height:1.25; margin:0 0 10px; }
+  .rbox .rm { color:var(--faint); font-size:13px; margin-bottom:18px; }
+  .rbox .body { font-size:16px; line-height:1.7; color:var(--text); }
+  .rbox .body p { margin:0 0 15px; }
+  .rclose { position:sticky; top:12px; float:right; margin:12px 12px 0 0; background:var(--surface2);
+            border:1px solid var(--line); color:var(--text); border-radius:999px; width:36px; height:36px;
+            font-size:16px; cursor:pointer; z-index:2; }
 </style>
 </head>
 <body>
@@ -121,6 +155,7 @@ PAGE = r"""<!doctype html>
     <p>__DESC__</p>
     <div class="updated"><span class="live"></span> Updated __UPDATED__ · refreshes every 30 min</div>
   </div>
+  <div id="featured"></div>
   <div class="trends" id="trends"></div>
   <div class="search"><input id="q" placeholder="Search AI news… models, tools, companies"></div>
   <div class="bar" id="bar"></div>
@@ -135,8 +170,10 @@ PAGE = r"""<!doctype html>
     <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube</a>
   </div>
 </footer>
+<div id="reader" hidden></div>
 <script>
 const PILLARS = __PILLARS__, ITEMS = __ITEMS__, TRENDS = __TRENDS__, PAGE = 40;
+const PUBURL = "__FBURL__";   /* Firebase — editor-published articles live at /published */
 let pillar = 0, hotOnly = false, q = "", shown = PAGE;
 document.getElementById("yr").textContent = new Date().getFullYear();
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
@@ -176,7 +213,50 @@ function trendsBar(){ const el=document.getElementById("trends");
     c.onclick=()=>{q=t.display;document.getElementById("q").value=t.display;shown=PAGE;render();}; el.appendChild(c); }); }
 document.getElementById("q").addEventListener("input",e=>{q=e.target.value.trim();shown=PAGE;render();});
 document.getElementById("more").onclick=()=>{shown+=PAGE;render();};
-trendsBar(); bar(); render();
+
+/* ---- editor-published articles (from Firebase /published) ---- */
+let PUBS = [];
+function fmtDate(ts){ try{ return new Date(ts).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}); }catch(e){ return ""; } }
+async function loadFeatured(){
+  if(!PUBURL) return;
+  try{
+    const r = await fetch(PUBURL.replace(/\/+$/,"")+"/published.json");
+    if(!r.ok) return;
+    const data = await r.json() || {};
+    PUBS = Object.values(data).filter(Boolean).sort((a,b)=>(b.ts||0)-(a.ts||0));
+    const el = document.getElementById("featured");
+    if(!PUBS.length){ el.innerHTML=""; return; }
+    el.innerHTML = '<div class="feat-h">📡 Latest from AI Radar</div>';
+    PUBS.forEach((p,i)=>{
+      const c=document.createElement("div"); c.className="fcard";
+      const ex=(p.body||"").replace(/\s+/g," ").slice(0,160);
+      c.innerHTML = (p.image?'<img src="'+esc(p.image)+'" alt="" loading="lazy">':"")+
+        '<div class="fb"><h2>'+esc(p.title)+"</h2>"+
+        '<div class="ex">'+esc(ex)+(p.body&&p.body.length>160?"…":"")+"</div>"+
+        '<div class="fm">'+(p.cat?esc(p.cat)+" · ":"")+fmtDate(p.ts)+"</div></div>";
+      c.onclick=()=>openArticle(i);
+      el.appendChild(c);
+    });
+    document.getElementById("morehead") && 0;
+  }catch(e){}
+}
+function openArticle(i){
+  const p=PUBS[i]; if(!p) return;
+  const paras=(p.body||"").split(/\n\s*\n/).map(t=>"<p>"+esc(t).replace(/\n/g,"<br>")+"</p>").join("");
+  const src=p.url?'<p style="margin-top:18px"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">Source ↗</a></p>':"";
+  document.getElementById("reader").innerHTML =
+    '<div class="rbox"><button class="rclose" onclick="closeArticle()">✕</button>'+
+    (p.image?'<img src="'+esc(p.image)+'" alt="">':"")+
+    '<div class="rinner"><h1>'+esc(p.title)+"</h1>"+
+    '<div class="rm">'+(p.cat?esc(p.cat)+" · ":"")+fmtDate(p.ts)+" · AI Radar</div>"+
+    '<div class="body">'+paras+src+"</div></div></div>";
+  document.getElementById("reader").hidden=false;
+  document.body.style.overflow="hidden";
+}
+function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow=""; }
+document.getElementById("reader").addEventListener("click",e=>{ if(e.target.id==="reader") closeArticle(); });
+
+trendsBar(); bar(); render(); loadFeatured();
 </script>
 </body>
 </html>
@@ -206,6 +286,7 @@ def generate():
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
+            .replace("__FBURL__", _load_fburl())
             .replace("__UPDATED__", updated))
 
     os.makedirs(OUT_DIR, exist_ok=True)
