@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1383
+- Total stories tracked: 1391
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
