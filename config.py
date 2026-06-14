@@ -269,7 +269,7 @@ DASHBOARD_URL = "https://ahmad19sep.github.io/ai-news-updater/"
 
 # Master switch. False = free, deterministic, NO API key needed (raw mode).
 # True = LLM enriches signals (needs a Groq or Anthropic key in Secrets).
-PULSE_USE_LLM = False
+PULSE_USE_LLM = True
 
 # Used only when PULSE_USE_LLM = True. Keys come from GitHub Secrets, never here.
 PULSE_LLM_PROVIDER = "groq"               # "groq" | "anthropic"
