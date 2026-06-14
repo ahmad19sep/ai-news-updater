@@ -696,12 +696,13 @@ PAGE = r"""<!doctype html>
       <p class="note" style="margin:12px 0 4px">Review / edit — one tweet per block, separated by a blank line:</p>
       <textarea id="x-tweets" style="width:100%;min-height:170px;font-size:13px"></textarea>
       <div class="mfoot" style="flex-wrap:wrap">
-        <button class="btn" id="x-copy">📋 Copy thread</button>
-        <a class="ghost" href="https://x.com/compose/post" target="_blank" style="text-decoration:none">𝕏 Open X</a>
+        <button class="btn" id="x-tweet">🚀 Post to X</button>
+        <button class="ghost" id="x-copy">📋 Copy thread</button>
         <button class="ghost" id="x-rewrite">↻ Rewrite</button>
-        <button class="ghost" id="x-post" title="Needs a paid X API plan">🚀 Auto-post</button>
+        <button class="ghost" id="x-post" title="Needs a paid X API plan (separate from Premium)">🤖 API auto</button>
         <span id="x-result" style="margin-left:auto;font-size:12.5px"></span>
       </div>
+      <p class="note" style="margin:8px 2px 0;font-size:11.5px">🚀 opens X with tweet 1 ready — just tap <b>Post</b>. For a thread, the replies are copied so you paste them under it. Make sure <b>@aixahmad</b> is your active X login.</p>
     </div>
   </div>
 </div>
@@ -3218,6 +3219,20 @@ document.getElementById("x-copy").onclick = () => {
     document.getElementById("x-result").textContent = "✓ Copied — paste into X";
     toast("Thread copied — paste it into X 📋");
   });
+};
+// One-tap assisted post: open X with tweet 1 pre-filled (official share intent,
+// zero ban risk). For a thread, copy the remaining tweets so they're ready to
+// paste as replies. Uses whatever X account is logged in on this browser.
+document.getElementById("x-tweet").onclick = () => {
+  const tweets = textToTweets(document.getElementById("x-tweets").value);
+  if (!tweets.length) { toast("Nothing to post"); return; }
+  const rest = tweets.slice(1).join("\n\n");
+  if (rest) { navigator.clipboard.writeText(rest).catch(() => {}); }
+  window.open("https://x.com/intent/tweet?text=" + encodeURIComponent(tweets[0]), "_blank", "noopener");
+  document.getElementById("x-result").textContent = tweets.length > 1
+    ? "Tweet 1 opened in X · replies copied — paste them under it"
+    : "Opened in X — just tap Post";
+  toast("X opened with your post ready 🚀");
 };
 document.getElementById("x-post").onclick = async () => {
   const tweets = textToTweets(document.getElementById("x-tweets").value);
