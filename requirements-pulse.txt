@@ -1,0 +1,11 @@
+# OPTIONAL extras for AI Pulse.
+#
+# Core Pulse (Reddit + Hacker News + YouTube + the LLM) runs on the BASE
+# requirements.txt alone (just `requests`) — you do NOT need this file for it.
+#
+# Install this ONLY if you want the Google Trends collector, which is
+# unofficial and frequently rate-limited from GitHub Actions IPs (best-effort).
+# It also pulls in pandas, so it's left out of the scheduled job by default.
+#
+#   pip install -r requirements-pulse.txt
+pytrends>=4.9.2

@@ -1,0 +1,516 @@
+{
+  "generated_at": "2026-06-14T15:02:43.243541+00:00",
+  "meta": {
+    "mode": "raw",
+    "sources_used": [
+      "reddit",
+      "hackernews",
+      "youtube"
+    ],
+    "signal_counts": {
+      "reddit": 36,
+      "hackernews": 16,
+      "youtube": 42
+    },
+    "llm_provider": null
+  },
+  "trends": [
+    {
+      "name": "Open source AI must win",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://opensourceaimustwin.com/?share=v2",
+          "signal": "Open source AI must win"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+          "signal": "Updates for ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4xime/anthropic_or_chatgpt_will_never_trust_amazon/",
+          "signal": "Anthropic or ChatGPT will never trust Amazon again. They did not go to Anthropic first, they went to Trump"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4u1d9/chatgpt_and_suicide/",
+          "signal": "ChatGPT and suicide"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/",
+          "signal": "You can't even use ChatGPT for Battlefield 6 loadouts anymore"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4ze7j/chatgpt_deactivated_my_account_because_of_lack_of/",
+          "signal": "Chatgpt deactivated my account because of lack of context"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropi",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+          "signal": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI coding at home without going broke",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+          "signal": "AI coding at home without going broke"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Police officer investigated for using AI to 'create evidence' in multi",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+          "signal": "Police officer investigated for using AI to 'create evidence' in multiple cases"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/tensorzero/tensorzero",
+          "signal": "AI OSS tool repo goes archived over night after raising $7.3M Seed"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboratio",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/Paca-AI/paca",
+          "signal": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Meta’s chaotic AI strategy",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/",
+          "signal": "Meta’s chaotic AI strategy"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: I built 80 mini-games using Fable before it was shut down",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://minigames.world/en",
+          "signal": "Show HN: I built 80 mini-games using Fable before it was shut down"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4vsfc/i_asked_gpt_to_make_me_a_picture_explaining_why/",
+          "signal": "I asked gpt to make me a picture explaining why Claude Fable was removed."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4wkht/what_really_happened_with_claude_mythos/",
+          "signal": "What really happened with Claude Mythos..."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "PwC Report: AI Making Medical Bills Higher",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
+          "signal": "PwC Report: AI Making Medical Bills Higher"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: StackScope – I crawled over 40k indie launches to see what th",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://stackscope.dev/",
+          "signal": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+          "signal": "Updates for ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4xime/anthropic_or_chatgpt_will_never_trust_amazon/",
+          "signal": "Anthropic or ChatGPT will never trust Amazon again. They did not go to Anthropic first, they went to Trump"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4u1d9/chatgpt_and_suicide/",
+          "signal": "ChatGPT and suicide"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/",
+          "signal": "You can't even use ChatGPT for Battlefield 6 loadouts anymore"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4ze7j/chatgpt_deactivated_my_account_because_of_lack_of/",
+          "signal": "Chatgpt deactivated my account because of lack of context"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4vsfc/i_asked_gpt_to_make_me_a_picture_explaining_why/",
+          "signal": "I asked gpt to make me a picture explaining why Claude Fable was removed."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4wkht/what_really_happened_with_claude_mythos/",
+          "signal": "What really happened with Claude Mythos..."
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "pain_points": [
+    {
+      "problem": "You can't even use ChatGPT for Battlefield 6 loadouts anymore",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "AI needs to calm down with the gender swap prompt",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4nlmw/ai_needs_to_calm_down_with_the_gender_swap_prompt/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I asked gpt to make me a picture explaining why Claude Fable was removed.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4vsfc/i_asked_gpt_to_make_me_a_picture_explaining_why/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Identify what's slowing you down with these two prompts",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5mmf7/identify_whats_slowing_you_down_with_these_two/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
+  "tool_of_week_candidate": "Open source AI must win — strongest signal this cycle"
+}

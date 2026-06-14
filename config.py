@@ -258,3 +258,66 @@ DIGEST_MAX_PER_PILLAR = 8
 
 # Your online dashboard (opens when you tap a digest notification).
 DASHBOARD_URL = "https://ahmad19sep.github.io/ai-news-updater/"
+
+
+# ==================== AI PULSE ====================
+# Pulse is a SEPARATE feature from the news "Trends" tab. It surfaces what
+# people are actually USING, SEARCHING, and STRUGGLING with in AI right now
+# (Reddit/HN/YouTube/Google-Trends), and turns each signal into a content
+# suggestion for AI x Ahmad. All collection + any LLM analysis runs server-side
+# (GitHub Action) and writes docs/pulse.json; the frontend only reads that file.
+
+# Master switch. False = free, deterministic, NO API key needed (raw mode).
+# True = LLM enriches signals (needs a Groq or Anthropic key in Secrets).
+PULSE_USE_LLM = False
+
+# Used only when PULSE_USE_LLM = True. Keys come from GitHub Secrets, never here.
+PULSE_LLM_PROVIDER = "groq"               # "groq" | "anthropic"
+PULSE_LLM_MODELS = {                       # verify current model strings at build time
+    "groq": "llama-3.3-70b-versatile",
+    "anthropic": "claude-haiku-4-5",
+}
+
+# Topics we track (search/usage signals are pulled around these).
+PULSE_SEED_TERMS = [
+    "AI tool", "ChatGPT", "AI image generator", "AI video", "AI agent",
+    "free AI tool", "AI for students", "AI to make money",
+]
+
+# Global signal + local relevance.
+PULSE_GEOS = ["US", "PK", "IN"]
+
+# Subreddits = the primary source for "problems people face".
+PULSE_SUBREDDITS = [
+    "ChatGPT", "ClaudeAI", "OpenAI", "artificial",
+    "StableDiffusion", "midjourney", "LocalLLaMA", "singularity",
+]
+
+# YouTube collector (needs YOUTUBE_API_KEY; silently skipped if absent).
+PULSE_YT_MAX_RESULTS = 8
+PULSE_YT_LOOKBACK_DAYS = 7
+
+# Output caps.
+PULSE_MAX_TRENDS = 12
+PULSE_MAX_PAIN_POINTS = 8
+
+# Momentum: ratio of today's signal strength vs the trailing-days average.
+PULSE_MOMENTUM = {"rising": 1.25, "cooling": 0.80}
+
+# Known AI tools/techniques for deterministic clustering (raw mode). Editable.
+PULSE_TOOL_DICT = [
+    "nano banana", "veo", "sora", "gemini", "chatgpt", "claude", "midjourney",
+    "kling", "deepseek", "grok", "llama", "stable diffusion", "flux", "runway",
+    "perplexity", "cursor", "copilot", "suno", "elevenlabs", "qwen", "mistral",
+    "gpt-4", "gpt-5", "o1", "o3", "dall-e", "heygen", "pika", "luma", "wan",
+]
+
+# Problem-indicator keywords (raw-mode pain-point detection).
+PULSE_PROBLEM_KEYWORDS = [
+    "limit", "limits", "rate limit", "error", "not working", "down",
+    "expensive", "broken", "can't", "cannot", "issue", "problem", "slow",
+    "banned", "deprecated", "removed", "bug", "crash", "fails", "failed", "stuck",
+]
+
+# Reuse the existing local-angle keyword list for Pulse local relevance.
+PULSE_LOCAL_KEYWORDS = LOCAL_KEYWORDS

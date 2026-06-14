@@ -535,6 +535,7 @@ PAGE = r"""<!doctype html>
       <button id="tabbtn-home" class="active" onclick="switchTab('home')">Home</button>
       <button id="tabbtn-news" onclick="switchTab('news')">News</button>
       <button id="tabbtn-trends" onclick="switchTab('trends')">Trends</button>
+      <button id="tabbtn-pulse" onclick="switchTab('pulse')">Pulse</button>
       <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
       <button id="tabbtn-plan" onclick="switchTab('plan')">Buffer</button>
       <button id="tabbtn-editors" onclick="switchTab('editors')">Editors</button>
@@ -582,6 +583,36 @@ PAGE = r"""<!doctype html>
     <p class="note">🚀 Which models and tools are rising this week vs last week — your early-warning
        radar for the next big thing. Tap any chip to see its stories.</p>
     <div class="trends" id="trends"></div>
+  </section>
+
+  <section id="tab-pulse" hidden>
+    <style>
+      .pulse-meta{color:var(--faint);font-size:12.5px;margin:18px 0 4px}
+      .pulse-tow{background:var(--gold-soft);border:1px solid var(--gold);color:var(--text);
+         border-radius:12px;padding:11px 14px;margin:10px 0 4px;font-size:14px}
+      .pulse-fil{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+      .pulse-fil .chip{cursor:pointer}
+      .pulse-h{font:700 14px var(--display);margin:24px 2px 10px}
+      .pcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+         padding:14px 16px;margin-bottom:12px;box-shadow:var(--shadow-sm)}
+      .pcard h4{margin:0 0 4px;font:600 16px var(--display);line-height:1.3}
+      .pcard .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
+      .pmom{font:700 10.5px Inter;text-transform:uppercase;letter-spacing:.04em;padding:2px 9px;border-radius:999px}
+      .pmom.rising{background:var(--green-soft);color:var(--green)}
+      .pmom.hot{background:var(--orange-soft);color:var(--orange)}
+      .pmom.cooling{background:var(--blue-soft);color:var(--blue)}
+      .pbadge{font-size:11px;color:var(--dim);background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+      .pbadge.inf{font-style:italic;opacity:.85}
+      .pangle{font-size:13.5px;color:var(--text);margin:6px 0;line-height:1.5}
+      .plink{font-size:12px;color:var(--indigo);margin-right:10px;white-space:nowrap}
+      .pidea{font-size:13px;color:var(--dim);margin:3px 0 3px 14px;line-height:1.45}
+      .pact{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}
+    </style>
+    <p class="note">⚡ What people are actually <b>using, searching, and struggling with</b> in AI right now —
+       turned into content ideas. Separate from News &amp; Trends; every item links to a real source.</p>
+    <div class="pulse-meta" id="pulse-meta"></div>
+    <div class="pulse-fil" id="pulse-fil"></div>
+    <div id="pulse-body"></div>
   </section>
 
   <section id="tab-research" hidden>
@@ -1186,7 +1217,7 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (ROLE !== "owner") name = "editors";   /* editors only see their workspace */
-  ["home","news","trends","research","plan","editors"].forEach(n => {
+  ["home","news","trends","pulse","research","plan","editors"].forEach(n => {
     document.getElementById("tab-" + n).hidden = n !== name;
     document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
   });
@@ -1194,6 +1225,7 @@ function switchTab(name) {
   if (name === "plan") renderBoard();
   if (name === "editors") renderEditorsTab();
   if (name === "research") renderResearch();
+  if (name === "pulse") renderPulse();
 }
 /* re-render whichever workspace is on screen */
 function rerender() {
@@ -1336,6 +1368,169 @@ function renderResearch() {
       "</span><span>" + ago(it.d) + "</span></div>";
     el.appendChild(d);
   });
+}
+
+/* ---------------- Pulse (usage / search / problems signal) ---------------- */
+let PULSE = null, pulseSeq = 0, pulseById = {};
+let pulseFilter = { platform: "", pillar: "", format: "", local: false };
+const PLAT_LABEL = { google:"Google", youtube:"YouTube", reddit:"Reddit", hackernews:"HN",
+  instagram_inferred:"Instagram", facebook_inferred:"Facebook", linkedin_inferred:"LinkedIn" };
+
+async function renderPulse() {
+  if (!PULSE) {
+    try { const r = await fetch("pulse.json?v=" + Date.now()); PULSE = r.ok ? await r.json() : { error: 1 }; }
+    catch (e) { PULSE = { error: 1 }; }
+  }
+  drawPulse();
+}
+function pmFmt(s) { return (s || "").replace(/_/g, " "); }
+function isLLM() { return !!(PULSE && PULSE.meta && PULSE.meta.mode === "llm"); }
+
+function buildPulseFilters() {
+  const plats = new Set(), pillars = new Set(), formats = new Set();
+  (PULSE.trends || []).forEach(t => { (t.platforms || []).forEach(p => plats.add(p));
+    if (t.pillar) pillars.add(t.pillar); if (t.best_format) formats.add(t.best_format); });
+  const chip = (label, active, on) =>
+    '<span class="chip' + (active ? ' active' : '') + '" onclick="' + on + '">' + label + '</span>';
+  let h = chip("All", !pulseFilter.platform && !pulseFilter.pillar && !pulseFilter.format && !pulseFilter.local, "pulseClear()");
+  [...plats].forEach(p => { const lbl = (p.endsWith("_inferred") ? "~" : "") + (PLAT_LABEL[p] || p);
+    h += chip(lbl, pulseFilter.platform === p, "pulseSet('platform','" + p + "')"); });
+  [...pillars].forEach(p => h += chip(pmFmt(p), pulseFilter.pillar === p, "pulseSet('pillar','" + p + "')"));
+  [...formats].forEach(p => h += chip(pmFmt(p), pulseFilter.format === p, "pulseSet('format','" + p + "')"));
+  h += chip("📍 Local", pulseFilter.local, "pulseToggleLocal()");
+  document.getElementById("pulse-fil").innerHTML = h;
+}
+function pulseClear() { pulseFilter = { platform: "", pillar: "", format: "", local: false }; drawPulse(); }
+function pulseSet(k, v) { pulseFilter[k] = pulseFilter[k] === v ? "" : v; drawPulse(); }
+function pulseToggleLocal() { pulseFilter.local = !pulseFilter.local; drawPulse(); }
+function pulsePass(t) {
+  if (pulseFilter.platform && !(t.platforms || []).includes(pulseFilter.platform)) return false;
+  if (pulseFilter.pillar && t.pillar !== pulseFilter.pillar) return false;
+  if (pulseFilter.format && t.best_format !== pulseFilter.format) return false;
+  if (pulseFilter.local && (t.local_relevance || 0) < 4) return false;
+  return true;
+}
+
+function drawPulse() {
+  const wrap = document.getElementById("pulse-body");
+  const meta = document.getElementById("pulse-meta");
+  pulseSeq = 0; pulseById = {};
+  if (!PULSE || PULSE.error || (!(PULSE.trends || []).length && !(PULSE.pain_points || []).length)) {
+    meta.textContent = ""; document.getElementById("pulse-fil").innerHTML = "";
+    wrap.innerHTML = '<p class="note">No Pulse data yet — it builds every 6 hours once the Pulse action runs '
+      + '(or run <code>python generate_pulse.py</code> locally).</p>';
+    return;
+  }
+  const m = PULSE.meta || {};
+  meta.innerHTML = (m.mode === "raw"
+      ? '<span class="pbadge">⚙️ Raw signals · LLM off</span> '
+      : '<span class="pbadge" style="color:var(--gold);border-color:var(--gold)">✨ LLM enriched</span> ')
+    + "Updated " + (PULSE.generated_at ? ago(PULSE.generated_at) : "")
+    + " · sources: " + ((m.sources_used || []).join(", ") || "none");
+  buildPulseFilters();
+  const trends = (PULSE.trends || []).filter(pulsePass);
+  const tools = (PULSE.rising_tools || []).filter(pulsePass);
+  const pains = PULSE.pain_points || [];
+  let h = "";
+  if (PULSE.tool_of_week_candidate)
+    h += '<div class="pulse-tow">⭐ <b>Tool of the week:</b> ' + esc(PULSE.tool_of_week_candidate) + '</div>';
+  h += '<div class="pulse-h">🔥 Hot Right Now</div>' + (trends.map(t => pulseCard(t, false)).join("") || pulseEmpty());
+  h += '<div class="pulse-h">📈 Rising Tools</div>' + (tools.map(t => pulseCard(t, true)).join("") || pulseEmpty());
+  h += '<div class="pulse-h">🛠️ Problems People Face <span style="font-weight:400;color:var(--faint)">— content goldmine</span></div>'
+     + (pains.map(painCard).join("") || pulseEmpty());
+  wrap.innerHTML = h;
+}
+function pulseEmpty() { return '<p class="note" style="opacity:.7">Nothing here with the current filters.</p>'; }
+
+function pulseCard(t, isTool) {
+  const id = "p" + (pulseSeq++); pulseById[id] = t;
+  const mom = t.momentum || "hot";
+  let h = '<div class="pcard"><h4>' + esc(t.name) + '</h4>';
+  h += '<div class="row"><span class="pmom ' + mom + '">' + mom + '</span>';
+  if (t.category) h += '<span class="pbadge">' + pmFmt(t.category) + '</span>';
+  (t.platforms || []).forEach(p => { const inf = p.endsWith("_inferred");
+    h += '<span class="pbadge' + (inf ? ' inf' : '') + '">' + (inf ? "~ " : "") + (PLAT_LABEL[p] || p) + (inf ? " (inferred)" : "") + '</span>'; });
+  if ((t.local_relevance || 0) >= 4) h += '<span class="pbadge" style="color:var(--green)">📍 Local ' + t.local_relevance + '/10</span>';
+  h += '</div>';
+  if (isLLM() && t.what_it_is) h += '<div class="pangle">' + esc(t.what_it_is) + '</div>';
+  if (isLLM() && t.audience_angle) h += '<div class="pangle">🎯 <b>For your audience:</b> ' + esc(t.audience_angle) + '</div>';
+  if (isLLM() && t.linkedin_angle) h += '<div class="pangle">💼 <b>LinkedIn:</b> ' + esc(t.linkedin_angle) + '</div>';
+  h += '<div class="row"><span class="pbadge">' + pmFmt(t.pillar || "") + '</span><span class="pbadge">' + pmFmt(t.best_format || "") + '</span>';
+  if (t.video_worthy) h += '<span class="pbadge">🎬 ' + t.video_worthy + '/10</span>';
+  if (t.monetization && t.monetization.affiliate_likely) h += '<span class="pbadge" style="color:var(--gold)">💰 affiliate</span>';
+  h += '</div>';
+  if (isLLM() && (t.content_ideas || []).length) {
+    h += '<div style="margin:7px 0 2px;font-size:12.5px;color:var(--dim)">💡 Content ideas:</div>';
+    t.content_ideas.forEach(i => h += '<div class="pidea">• ' + esc(i) + '</div>');
+  }
+  if ((t.sources || []).length) {
+    h += '<div class="row" style="margin-top:8px">';
+    t.sources.slice(0, 4).forEach(s => h += '<a class="plink" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.platform || "source") + ' ↗</a>');
+    h += '</div>';
+  }
+  h += '<div class="pact">'
+    + '<button class="ghost" onclick="pulseToBoard(\'' + id + '\')">➕ Board</button>'
+    + '<button class="ghost" onclick="pulseCopyPrompt(\'' + id + '\')">📋 Script prompt</button>'
+    + '<button class="ghost" onclick="pulseToX(\'' + id + '\')">𝕏 X post</button>'
+    + '</div></div>';
+  return h;
+}
+function painCard(p) {
+  const id = "p" + (pulseSeq++);
+  pulseById[id] = { name: p.problem, u: (p.sources && p.sources[0] && p.sources[0].url) || "",
+    _pain: true, content_opportunity: p.content_opportunity, sources: p.sources };
+  let h = '<div class="pcard"><h4>' + esc(p.problem) + '</h4>';
+  h += '<div class="row"><span class="pbadge">' + esc(p.who_affected || "") + '</span>'
+     + '<span class="pbadge" style="color:var(--orange)">🔥 ' + (p.signal_strength || 0) + '/10</span></div>';
+  if (isLLM() && p.content_opportunity) h += '<div class="pangle">🎯 <b>Content angle:</b> ' + esc(p.content_opportunity) + '</div>';
+  if ((p.sources || []).length) {
+    h += '<div class="row" style="margin-top:6px">';
+    p.sources.slice(0, 4).forEach(s => h += '<a class="plink" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.platform || "source") + ' ↗</a>');
+    h += '</div>';
+  }
+  h += '<div class="pact">'
+    + '<button class="ghost" onclick="pulseToBoard(\'' + id + '\')">➕ Board</button>'
+    + '<button class="ghost" onclick="pulseCopyPrompt(\'' + id + '\')">📋 Script prompt</button>'
+    + '</div></div>';
+  return h;
+}
+function pulseTitle(t) { return t.name || t.problem || ""; }
+function pulseUrl(t) { return t.u || (t.sources && t.sources[0] && t.sources[0].url) || ""; }
+function pulseToBoard(id) {
+  const t = pulseById[id]; if (!t) return;
+  const angle = t.audience_angle || t.content_opportunity || "";
+  const ideas = (t.content_ideas || []).map(i => "• " + i).join("\n");
+  const notes = [t.what_it_is, angle && ("Angle: " + angle), ideas].filter(Boolean).join("\n");
+  plans.unshift({ id: Date.now(), title: pulseTitle(t), url: pulseUrl(t), notes: notes,
+    status: "idea", assignee: "Ahmad", platforms: ["yt", "shorts"], when: "",
+    pillar: t.pillar || "", format: t.best_format || "" });
+  savePlans();
+  toast("Sent to Board → Ideas 💡");
+}
+function pulseCopyPrompt(id) {
+  const t = pulseById[id]; if (!t) return;
+  const isPain = !!t._pain, ctx = pulseTitle(t), src = pulseUrl(t);
+  let p = 'You are a scriptwriter for "AI x Ahmad" (@aixahmad), an AI-education channel for Pakistan/India.\n'
+    + 'Write in simple Roman Urdu with light English (audience: everyday people, students, freelancers).\n\n';
+  if (isPain) {
+    p += 'TOPIC (a problem people are facing): ' + ctx + '\n'
+      + (t.content_opportunity ? ('ANGLE: ' + t.content_opportunity + '\n') : '')
+      + '\nMake a helpful video that explains the problem simply and gives a clear workaround/solution.\n';
+  } else {
+    p += 'TOPIC (a rising AI trend): ' + ctx + '\n'
+      + (t.audience_angle ? ('WHY IT MATTERS: ' + t.audience_angle + '\n') : '')
+      + (t.what_it_is ? ('WHAT IT IS: ' + t.what_it_is + '\n') : '')
+      + '\nFormat: ' + pmFmt(t.best_format || 'short') + '. Pillar: ' + pmFmt(t.pillar || 'discovery') + '.\n';
+  }
+  if (src) p += 'SOURCE: ' + src + '\n';
+  p += '\nWrite:\n1) A scroll-stopping hook (1 line)\n2) A tight spoken script (45-90 sec) in Roman Urdu\n'
+    + '3) A strong CTA to follow @aixahmad\n4) 5 viral title options\n'
+    + 'Base everything ONLY on the topic above — do not invent fake numbers or features.';
+  navigator.clipboard.writeText(p).then(() => toast("Script prompt copied — paste in Claude 🤖"));
+}
+function pulseToX(id) {
+  const t = pulseById[id]; if (!t) return;
+  openXModal({ t: pulseTitle(t), u: pulseUrl(t) });
 }
 
 /* ---------------- Publish board (Buffer style) ---------------- */
