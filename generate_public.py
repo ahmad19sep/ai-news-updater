@@ -35,9 +35,9 @@ OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 MAX_STORIES = 600
 SITE_NAME = "AI Radar"
 # The address where the site is actually served. Canonical/OG/sitemap all use
-# this — it MUST match the live URL or Google won't index correctly. (If you
-# ever point a custom domain at GitHub Pages, change this to that domain.)
-SITE_URL = "https://ahmad19sep.github.io/ai-news-updater/"
+# this — it MUST match the live URL or Google won't index correctly.
+# Custom domain (GitHub Pages serves the repo at the root of this domain).
+SITE_URL = "https://hafizahmad.com/"
 # Paste the content value from Google Search Console's "HTML tag" verification
 # method here (just the long code), then re-run. Leave "" to skip.
 GSC_VERIFY = ""
