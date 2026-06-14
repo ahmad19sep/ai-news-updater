@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T17:06:46.072157+00:00",
+  "generated_at": "2026-06-14T17:10:26.564239+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -10,7 +10,7 @@
     "signal_counts": {
       "reddit": 25,
       "hackernews": 15,
-      "youtube": 103
+      "youtube": 106
     },
     "llm_provider": "groq"
   },
@@ -23,33 +23,33 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or personal projects.",
-      "linkedin_angle": "ChatGPT ki image generation feature se aap apne business ke liye unique images bana sakte hain.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create stunning images for your social media or personal projects.",
+      "linkedin_angle": "Explore the creative possibilities of AI-generated images for your business or personal brand.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation feature."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40 comments"
+          "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=s-1PpUMDCjw",
-          "signal": "ChatGPT Photo Editing tutorial"
+          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
+          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
         }
       ],
       "content_ideas": [
-        "ChatGPT se image kaise banayein",
-        "ChatGPT ki image generation feature ka upyog kaise karein",
-        "ChatGPT se apne business ke liye images kaise banayein"
+        "ChatGPT se photos kaise edit karein",
+        "ChatGPT ke saath apne photos ko viral banayein",
+        "ChatGPT ki image generation feature kaise use karein"
       ]
     },
     {
@@ -61,69 +61,63 @@
         "hackernews"
       ],
       "what_it_is": "Claude Fable 5 is a powerful AI model for generating human-like text and images.",
-      "audience_angle": "You can use Claude Fable 5 to generate high-quality content for your social media or personal projects.",
-      "linkedin_angle": "Claude Fable 5 se aap apne business ke liye unique aur engaging content bana sakte hain.",
-      "local_relevance": 6,
+      "audience_angle": "You can use Claude Fable 5 to generate high-quality content for your business or personal projects.",
+      "linkedin_angle": "Discover the potential of Claude Fable 5 for automating content creation and improving productivity.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Claude Fable 5 has an affiliate program for its AI model."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l1VrD1Sx8AA",
-          "signal": "This Free AI Agent Runs on Claude Fable 5"
+          "signal": "This Free AI Agent Runs on Claude Fable 5 and Just Hit #1 in the World"
         },
         {
           "platform": "hackernews",
-          "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos",
+          "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
           "signal": "Trump admin blocks foreign access to Anthropic's most powerful AI models"
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 se content kaise banayein",
-        "Claude Fable 5 ki features aur upyog",
-        "Claude Fable 5 se apne business ke liye content kaise banayein"
+        "Claude Fable 5 se content kaise generate karein",
+        "Claude Fable 5 ke saath apne business ko badhayein",
+        "Claude Fable 5 ki limitations kaise overcome karein"
       ]
     },
     {
-      "name": "AI Agents",
-      "category": "technique",
+      "name": "AI Video Generation",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "AI agents are programs that use AI to perform tasks autonomously.",
-      "audience_angle": "You can use AI agents to automate tasks and increase productivity.",
-      "linkedin_angle": "AI agents se aap apne business ke liye productivity badha sakte hain.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation allows users to create videos based on text prompts or images.",
+      "audience_angle": "You can use AI video generation to create engaging videos for your social media or personal projects.",
+      "linkedin_angle": "Explore the potential of AI video generation for enhancing your business's video content.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "AI video generation tools often have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Zqno_vux6d8",
-          "signal": "AI agents explained: Build your first agent in 8 minutes"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models",
-          "signal": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models"
+          "url": "https://www.youtube.com/watch?v=94CBYiE5b70",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "AI agents kya hain aur unka upyog",
-        "AI agents se productivity kaise badhayein",
-        "AI agents se apne business ke liye automation kaise karein"
+        "AI se video kaise banayein",
+        "AI video generation ke fayde",
+        "AI video generation ke liye best tools"
       ]
     }
   ],
@@ -137,32 +131,32 @@
         "hackernews"
       ],
       "what_it_is": "Claude Fable 5 is a powerful AI model for generating human-like text and images.",
-      "audience_angle": "You can use Claude Fable 5 to generate high-quality content for your social media or personal projects.",
-      "linkedin_angle": "Claude Fable 5 se aap apne business ke liye unique aur engaging content bana sakte hain.",
-      "local_relevance": 6,
+      "audience_angle": "You can use Claude Fable 5 to generate high-quality content for your business or personal projects.",
+      "linkedin_angle": "Discover the potential of Claude Fable 5 for automating content creation and improving productivity.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Claude Fable 5 has an affiliate program for its AI model."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l1VrD1Sx8AA",
-          "signal": "This Free AI Agent Runs on Claude Fable 5"
+          "signal": "This Free AI Agent Runs on Claude Fable 5 and Just Hit #1 in the World"
         },
         {
           "platform": "hackernews",
-          "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos",
+          "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
           "signal": "Trump admin blocks foreign access to Anthropic's most powerful AI models"
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 se content kaise banayein",
-        "Claude Fable 5 ki features aur upyog",
-        "Claude Fable 5 se apne business ke liye content kaise banayein"
+        "Claude Fable 5 se content kaise generate karein",
+        "Claude Fable 5 ke saath apne business ko badhayein",
+        "Claude Fable 5 ki limitations kaise overcome karein"
       ]
     },
     {
@@ -173,33 +167,33 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or personal projects.",
-      "linkedin_angle": "ChatGPT ki image generation feature se aap apne business ke liye unique images bana sakte hain.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create stunning images for your social media or personal projects.",
+      "linkedin_angle": "Explore the creative possibilities of AI-generated images for your business or personal brand.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation feature."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40 comments"
+          "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=s-1PpUMDCjw",
-          "signal": "ChatGPT Photo Editing tutorial"
+          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
+          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
         }
       ],
       "content_ideas": [
-        "ChatGPT se image kaise banayein",
-        "ChatGPT ki image generation feature ka upyog kaise karein",
-        "ChatGPT se apne business ke liye images kaise banayein"
+        "ChatGPT se photos kaise edit karein",
+        "ChatGPT ke saath apne photos ko viral banayein",
+        "ChatGPT ki image generation feature kaise use karein"
       ]
     }
   ],
@@ -214,8 +208,8 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/"
         }
       ],
-      "content_opportunity": "ChatGPT usage limits ka solution kaise nikalein"
+      "content_opportunity": "How to overcome ChatGPT usage limits for your business or personal projects."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Image Generation, because it has the potential to revolutionize the way we create and edit images."
 }
