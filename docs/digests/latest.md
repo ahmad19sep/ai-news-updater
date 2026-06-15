@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors - Spotlight PA** — science angle
    https://news.google.com/rss/articles/CBMinwFBVV95cUxPcF8zNDFuMTE0UFRxN2ZoV2tjR2xYbTRPTXNKX25LcVl0ejN3c3d6cFZOQ1pPVUNkLXZIUUplYVpSWTFDbzRBanRwUDVfaW9DWXFhSVpiOXRZeEpMRTBYU05rakpaeDNmNW5ib3Bsbl9Td3cwQ2dSUnA5U2pHbUUzRS1vcmJoSWZtbXNzRWlrZEJ5MFB0M3pSUHREdjN0S0U?oc=5
-2. **Doctors Inject Human Subjects With First Vaccine Designed by AI - Futurism** — science angle
-   https://news.google.com/rss/articles/CBMid0FVX3lxTE9tS1hNS21yV0E1WEtDLTB3emc5VE1JdjdkS29EMG5YbDN6aUppblI0MGRTUWkzSkNyakZPOVpPY0lzdUx1NHJkbmZRbDNyYTdiQmhya29SX2l0NG1Ia2ZpSjdTMWFmTVpDUHh4bTBaV1BYRDFSNjdn?oc=5
-3. **Hoffman: Doctors without AI risk 'malpractice' - moneywise.com** — science angle
+2. **Hoffman: Doctors without AI risk 'malpractice' - moneywise.com** — science angle
    https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzg4N2d4bTZfZUZMSFNPVWFMMEgyNTJuRTBrSmJ4WldER3NRbm9Sb2J1YmU1ME5pV2ItcFJpa0VHVUY5aGRlVVI3WDVEWjRhOFhjd3JIRy1Ia2pDQzR2ZUQ3RFhLRW4xZXpoYm5HbEl4empiZUhsR3U4TTBrb3dsdmplRnp6QlVDcmxBRkxR?oc=5
-4. **Opinion | Turning to ChatGPT for Help Instead of Your Doctor - The New York Times** — science angle
-   https://news.google.com/rss/articles/CBMib0FVX3lxTE5MQU1GSXNHYkdKWXJaNjVRQmR5VGViUnFTMG5fNUt3T0dMYTExSEFuTzVtb2dORHFXZ2NLbldldklOVkgyN2RjU2d5TWxOcjJkMm00N2hBV0lyMjU0UDdCRmticHYwSkgybDdCc2ZpYw?oc=5
-5. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
+3. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
-6. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
+4. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
-7. **New AI and mixed reality-powered healthcare simulation platform strengthens medical training for future doctors - Carle Illinois College of Medicine** — science angle
+5. **New AI and mixed reality-powered healthcare simulation platform strengthens medical training for future doctors - Carle Illinois College of Medicine** — science angle
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX09wdjgtZDZzN0FhV0VlaVVkcXZ3VjMxSFlVNHpJaVFmREgya2diWnFIVHZRQ2VLMEo4cExoZ2VOVExCc1dYMDdfeDJUNWx1a0tTVk5TRWpGcEEyUzFpaldVbDBWMkpza09ZQ2xOM25MTGl5REtldTE3djc4cVQzS1FSTUQ3aEJ0UUE1bkg5WjVxVmdLb1piU0dQX3Z2SmZVM1lhbENIcnRnVUNheW1YLXN3NEFDcFQ5Q1FJTWlFNUNsN01JNkFvc1BNTDdycmJPMWlaVTRYeTYzUkRqeVE?oc=5
-8. **Patients Compare Using AI Versus Doctors for Medical Advice - TODAY.com** — science angle
+6. **Patients Compare Using AI Versus Doctors for Medical Advice - TODAY.com** — science angle
    https://news.google.com/rss/articles/CBMiogFBVV95cUxPXzNZQ0pGSGVCZFYwdERLeEpHT2pYVk5PbFo3VlVuWUwwYlZETkVOTTU3RWFvbkR2d1ZCOE5Ec09LMDdjNnR1cHk5ZVJQQTEwLURvaVM2aGhHQWFpcElEMjFRWlNGLUhhblZJZWVjRjhma0tYeGRnMUdIRTRFM3E0NUsya0NLbUpsNWlzdk8yUlFFZkdyb1NxbnN2YU9NWl9Rbnc?oc=5
+7. **Doctors weigh in on AI use in digital healthcare - GMA Network** — science angle
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxONlFMSlQ1bVJRVzRXaWxSU3RBVWxHYzJxb1B2TVZOUXAzYnFIbzdFT2lzWHJ3OVNCdFc2YnVxWFF5OV9HUVFLU1FwNDhWcDg2cmpWQjVfMW9HNmRRallPMzJ3ODBnMWN3Y29CMmpydVRhQXA2UVNxX2hzWGVOb1IxTlpTQjlWS2VpRzgyS2lXLW5RWkpIN2FYMk5OWFNLYzNqbGp3bUdn?oc=5
+8. **After seeing Parkinson's take his father, this Googler found a new mission: teaching AI to chase cures - Business Insider** — science angle
+   https://news.google.com/rss/articles/CBMijgFBVV95cUxOeGYxQ0hKMV9oaVJWVnpHaWZ6ei0xX3JhZVJiWGJtbk1kQUF4TDh6eFZfdW9OVXVSU254XzZkLVZPMXQwTFFVVGFSYlJELUxFY2JYTDE5TGFDR19kLVllUlJHOEZsZTcwUVJzeElwNmd0blZNU0JSWmpQUURaWVFYX0QxeWhWS3VOS3BsX0Zn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS** — Sam Altman News — Score 123
@@ -49,14 +49,14 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 ## 🧪 AI in Science Highlights
 - **As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors - Spotlight PA** — https://news.google.com/rss/articles/CBMinwFBVV95cUxPcF8zNDFuMTE0UFRxN2ZoV2tjR2xYbTRPTXNKX25LcVl0ejN3c3d6cFZOQ1pPVUNkLXZIUUplYVpSWTFDbzRBanRwUDVfaW9DWXFhSVpiOXRZeEpMRTBYU05rakpaeDNmNW5ib3Bsbl9Td3cwQ2dSUnA5U2pHbUUzRS1vcmJoSWZtbXNzRWlrZEJ5MFB0M3pSUHREdjN0S0U?oc=5
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
-- **Doctors Inject Human Subjects With First Vaccine Designed by AI - Futurism** — https://news.google.com/rss/articles/CBMid0FVX3lxTE9tS1hNS21yV0E1WEtDLTB3emc5VE1JdjdkS29EMG5YbDN6aUppblI0MGRTUWkzSkNyakZPOVpPY0lzdUx1NHJkbmZRbDNyYTdiQmhya29SX2l0NG1Ia2ZpSjdTMWFmTVpDUHh4bTBaV1BYRDFSNjdn?oc=5
 - **Hoffman: Doctors without AI risk 'malpractice' - moneywise.com** — https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzg4N2d4bTZfZUZMSFNPVWFMMEgyNTJuRTBrSmJ4WldER3NRbm9Sb2J1YmU1ME5pV2ItcFJpa0VHVUY5aGRlVVI3WDVEWjRhOFhjd3JIRy1Ia2pDQzR2ZUQ3RFhLRW4xZXpoYm5HbEl4empiZUhsR3U4TTBrb3dsdmplRnp6QlVDcmxBRkxR?oc=5
-- **Opinion | Turning to ChatGPT for Help Instead of Your Doctor - The New York Times** — https://news.google.com/rss/articles/CBMib0FVX3lxTE5MQU1GSXNHYkdKWXJaNjVRQmR5VGViUnFTMG5fNUt3T0dMYTExSEFuTzVtb2dORHFXZ2NLbldldklOVkgyN2RjU2d5TWxOcjJkMm00N2hBV0lyMjU0UDdCRmticHYwSkgybDdCc2ZpYw?oc=5
+- **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
+- **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1453
+- Total stories tracked: 1534
 - Most active topic: anthropic
-- Busiest category: AI General News
+- Busiest category: Leaders & Podcasts
 
 ---
 *Auto-generated by AI News Radar. Source links are original. Ready for editorial polish.*
