@@ -746,13 +746,20 @@ PAGE = r"""<!doctype html>
     <input id="pub-title" type="text" style="width:100%;margin-bottom:8px" placeholder="Headline">
     <div class="genrow">
       <select id="pub-cat" style="flex:1;min-width:130px"></select>
-      <input id="pub-img" style="flex:2;min-width:180px" placeholder="Image URL (optional)">
+      <input id="pub-img" style="flex:2;min-width:180px" placeholder="Image URL (or upload →)">
+    </div>
+    <div class="genrow" style="align-items:center">
+      <label class="ghost" style="cursor:pointer;padding:8px 12px;white-space:nowrap">📷 Upload picture
+        <input type="file" id="pub-file" accept="image/*" hidden></label>
+      <img id="pub-preview" alt="" style="height:44px;border-radius:8px;display:none;object-fit:cover">
+      <span id="pub-imgnote" style="font-size:12px;color:var(--faint)"></span>
     </div>
     <input id="pub-url" type="text" style="width:100%;margin:8px 0" placeholder="Source link (optional)">
-    <div class="genrow"><button class="ghost" id="pub-draft">🤖 Draft article with Claude</button></div>
-    <textarea id="pub-body" style="width:100%;min-height:200px" placeholder="Article body… (write it, or draft with Claude and paste here). Leave a blank line between paragraphs."></textarea>
-    <div class="mfoot">
+    <div class="genrow"><button class="ghost" id="pub-draft">🤖 Copy prompt (write with any AI)</button></div>
+    <textarea id="pub-body" style="width:100%;min-height:200px" placeholder="Article body… (write it here, or use the prompt button → paste into any AI → paste the article back here). Leave a blank line between paragraphs."></textarea>
+    <div class="mfoot" style="flex-wrap:wrap">
       <button class="btn" id="pub-go">🌐 Publish</button>
+      <button class="ghost" id="pub-tweet" title="Publish first, then tweet it with a link to the full story">𝕏 Post to X</button>
       <span id="pub-result" style="margin-left:auto;font-size:12.5px"></span>
     </div>
     <div id="pub-list" style="margin-top:14px"></div>
@@ -3459,8 +3466,24 @@ function showXResult(url) {
 }
 
 /* ---- Publish to the public website (owner only; writes to Firebase /published) ---- */
-let pubStory = null;
+let pubStory = null, pubImageData = "", lastPubArt = null;
+const PUBLIC_SITE = "https://radar.hafizahmad.com";
 function pubBase() { return FBURL ? FBURL.replace(/\/+$/, "") + "/published" : ""; }
+/* Resize an uploaded picture in-browser to a small JPEG data URL (no image host needed). */
+document.getElementById("pub-file").onchange = (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  const img = new Image();
+  img.onload = () => {
+    const max = 900; let w = img.width, h = img.height;
+    if (w > max) { h = Math.round(h * max / w); w = max; }
+    const c = document.createElement("canvas"); c.width = w; c.height = h;
+    c.getContext("2d").drawImage(img, 0, 0, w, h);
+    pubImageData = c.toDataURL("image/jpeg", 0.65);
+    const pv = document.getElementById("pub-preview"); pv.src = pubImageData; pv.style.display = "";
+    document.getElementById("pub-imgnote").textContent = "✓ uploaded (" + Math.round(pubImageData.length / 1365) + " KB)";
+  };
+  img.src = URL.createObjectURL(f);
+};
 function openPublishModal(story) {
   pubStory = story;
   document.getElementById("pub-title").value = story.t || "";
@@ -3468,6 +3491,10 @@ function openPublishModal(story) {
   document.getElementById("pub-img").value = "";
   document.getElementById("pub-body").value = "";
   document.getElementById("pub-result").textContent = "";
+  pubImageData = ""; lastPubArt = null;
+  document.getElementById("pub-file").value = "";
+  document.getElementById("pub-preview").style.display = "none";
+  document.getElementById("pub-imgnote").textContent = "";
   document.getElementById("pub-cat").innerHTML = Object.entries(PILLARS)
     .map(([k, v]) => "<option" + (+k === story.p ? " selected" : "") + ">" + v + "</option>").join("");
   document.getElementById("pubmodal").hidden = false;
@@ -3481,7 +3508,7 @@ document.getElementById("pub-draft").onclick = () => {
   const p = 'Write a clear, factual AI-news article in simple English for a general worldwide audience (250-400 words) about:\n"' + t + '"\n' +
     (u ? "Source link: " + u + "\nFIRST open and read the link.\n" : "") +
     "Then write: a strong opening line, then 3-5 short paragraphs separated by a blank line. Engaging but accurate — use ONLY facts from the source, never invent. Plain text only, no markdown.";
-  navigator.clipboard.writeText(p).then(() => toast("Article prompt copied — paste in Claude, then paste the article into the body 🤖"));
+  navigator.clipboard.writeText(p).then(() => toast("Prompt copied — paste into any AI (ChatGPT/Claude/Gemini), then paste the article into the body 🤖"));
 };
 document.getElementById("pub-go").onclick = async () => {
   if (!FBURL) { toast("Firebase not connected"); return; }
@@ -3490,16 +3517,28 @@ document.getElementById("pub-go").onclick = async () => {
   if (!title || !body) { toast("Need a headline and article body"); return; }
   const id = String(Date.now());
   const art = { id, title, body, url: document.getElementById("pub-url").value.trim(),
-    image: document.getElementById("pub-img").value.trim(),
+    image: pubImageData || document.getElementById("pub-img").value.trim(),
     cat: document.getElementById("pub-cat").value, ts: Date.now() };
   try {
     const r = await fetch(pubBase() + "/" + id + ".json", {
       method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(art) });
     if (!r.ok) { toast("Publish blocked — add a /published rule in Firebase"); return; }
+    lastPubArt = art;
     toast("Published to your website 🌐");
-    document.getElementById("pub-result").innerHTML = '✅ Live — <a href="index.html" target="_blank">view site</a>';
+    document.getElementById("pub-result").innerHTML = '✅ Live — <a href="index.html" target="_blank">view</a> · now tap 𝕏 to tweet it';
     loadPubList();
   } catch (e) { toast("Publish failed: " + e.message); }
+};
+/* Tweet the published article, ending with a link to the full story on your site. */
+document.getElementById("pub-tweet").onclick = () => {
+  const art = lastPubArt;
+  if (!art) { toast("Publish the article first, then tap 𝕏 Post to X"); return; }
+  const link = PUBLIC_SITE + "/#a=" + art.id;
+  const first = (art.body || "").split(/\n\s*\n/)[0].replace(/\s+/g, " ").trim().slice(0, 120);
+  let text = art.title + "\n\n" + first + "\n\n🔗 Full story: " + link;
+  if (text.length > 275) text = art.title + "\n\n🔗 Full story: " + link;
+  window.open("https://x.com/intent/tweet?text=" + encodeURIComponent(text), "_blank", "noopener");
+  toast("X opened with your article link — tap Post 🚀");
 };
 async function loadPubList() {
   const el = document.getElementById("pub-list");

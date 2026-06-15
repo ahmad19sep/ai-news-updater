@@ -338,6 +338,7 @@ async function loadFeatured(){
         row.appendChild(c); });
       el.appendChild(row);
     }
+    openArticleFromHash();
   }catch(e){}
 }
 function openArticle(i){
@@ -349,9 +350,16 @@ function openArticle(i){
     '<div class="rinner"><h1>'+esc(p.title)+"</h1><div class='rm'>"+(p.cat?esc(p.cat)+" · ":"")+fmtDate(p.ts)+" · AI Radar</div>"+
     "<div class='body'>"+paras+src+"</div></div></div>";
   document.getElementById("reader").hidden=false; document.body.style.overflow="hidden";
+  try{ history.replaceState(null,"","#a="+(p.id||"")); }catch(e){}
 }
-function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow=""; }
+function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow="";
+  try{ history.replaceState(null,"",location.pathname+location.search); }catch(e){} }
 document.getElementById("reader").addEventListener("click",e=>{ if(e.target.id==="reader") closeArticle(); });
+/* deep link: radar.hafizahmad.com/#a=<id> opens that article (used by share tweets) */
+function openArticleFromHash(){
+  const m=(location.hash||"").match(/a=([^&]+)/); if(!m) return;
+  const idx=PUBS.findIndex(p=>String(p.id)===m[1]); if(idx>=0) openArticle(idx);
+}
 
 /* footer section links -> filter the feed */
 function footerSections(){
