@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 07 Jun 2026 to 14 Jun 2026
+# 🗞️ AI THIS WEEK — 08 Jun 2026 to 15 Jun 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **Opinion | Turning to ChatGPT for Help Instead of Your Doctor - The New York Times** — https://news.google.com/rss/articles/CBMib0FVX3lxTE5MQU1GSXNHYkdKWXJaNjVRQmR5VGViUnFTMG5fNUt3T0dMYTExSEFuTzVtb2dORHFXZ2NLbldldklOVkgyN2RjU2d5TWxOcjJkMm00N2hBV0lyMjU0UDdCRmticHYwSkgybDdCc2ZpYw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1437
+- Total stories tracked: 1453
 - Most active topic: anthropic
 - Busiest category: AI General News
 
