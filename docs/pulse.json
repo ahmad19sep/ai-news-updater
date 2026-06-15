@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T05:30:06.243258+00:00",
+  "generated_at": "2026-06-15T12:44:31.095263+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,30 +9,30 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Updates",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that has received recent updates.",
-      "audience_angle": "You can now use ChatGPT to generate images and text with more ease and accuracy.",
-      "linkedin_angle": "Stay ahead of the curve with the latest ChatGPT updates and learn how to leverage them for your business.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation capabilities allow users to create images using text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT has an affiliate program for its image generation feature."
       },
       "sources": [
         {
@@ -42,65 +42,34 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=t653t_hYqsk",
-          "signal": "Laziest Way to Earn Money With AI in 2026"
+          "url": "https://www.youtube.com/watch?v=s-1PpUMDCjw",
+          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
         }
       ],
       "content_ideas": [
-        "ChatGPT se paisay kaise kamayein",
-        "ChatGPT ki updates kya hai",
-        "ChatGPT ki limits kaise remove karein"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
-      "audience_angle": "You can now create stunning videos with the help of AI, without needing extensive video editing skills.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your marketing strategy and take your business to the next level.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for AI video generation tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
-          "signal": "Google Omni AI Video Generator Tutorial (Mobile)"
-        }
-      ],
-      "content_ideas": [
-        "Ai se video kaise banaye",
-        "Ai video generation ki limits kya hai",
-        "Ai video generation ke fayde"
+        "ChatGPT se tasveerein kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation tutorial"
       ]
     },
     {
       "name": "AI Agents",
       "category": "technique",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "AI agents are programs that use AI to perform tasks autonomously.",
-      "audience_angle": "You can now use AI agents to automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how AI agents can help you streamline your workflow and boost efficiency.",
+      "what_it_is": "AI agents are programs that use artificial intelligence to perform tasks autonomously.",
+      "audience_angle": "Discover how AI agents can automate tasks and make your life easier.",
+      "linkedin_angle": "Learn how AI agents can enhance your business operations and increase productivity.",
       "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI agent tools have affiliate programs available."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for AI agents."
       },
       "sources": [
         {
@@ -115,31 +84,68 @@
         }
       ],
       "content_ideas": [
-        "Ai agents kya hai",
-        "Ai agents ki limits kya hai",
-        "Ai agents ke fayde"
+        "AI agents kya hain",
+        "AI agents ke fayde",
+        "AI agents kaise banayein"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Claude AI is a language model that can be used for various tasks such as text generation and conversation.",
+      "audience_angle": "Explore the capabilities of Claude AI and how it can help you with your tasks.",
+      "linkedin_angle": "Discover how Claude AI can enhance your business communications and operations.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its services."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HPAE3En9Gvs",
+          "signal": "Claude Code For Beginners Free Course - Make AI Websites, AI Apps, Automations Using Claude Code"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+          "signal": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models"
+        }
+      ],
+      "content_ideas": [
+        "Claude AI kya hai",
+        "Claude AI ke fayde",
+        "Claude AI kaise use karein"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Updates",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that has received recent updates.",
-      "audience_angle": "You can now use ChatGPT to generate images and text with more ease and accuracy.",
-      "linkedin_angle": "Stay ahead of the curve with the latest ChatGPT updates and learn how to leverage them for your business.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation capabilities allow users to create images using text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT has an affiliate program for its image generation feature."
       },
       "sources": [
         {
@@ -149,14 +155,51 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=t653t_hYqsk",
-          "signal": "Laziest Way to Earn Money With AI in 2026"
+          "url": "https://www.youtube.com/watch?v=s-1PpUMDCjw",
+          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
         }
       ],
       "content_ideas": [
-        "ChatGPT se paisay kaise kamayein",
-        "ChatGPT ki updates kya hai",
-        "ChatGPT ki limits kaise remove karein"
+        "ChatGPT se tasveerein kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation tutorial"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Claude AI is a language model that can be used for various tasks such as text generation and conversation.",
+      "audience_angle": "Explore the capabilities of Claude AI and how it can help you with your tasks.",
+      "linkedin_angle": "Discover how Claude AI can enhance your business communications and operations.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its services."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HPAE3En9Gvs",
+          "signal": "Claude Code For Beginners Free Course - Make AI Websites, AI Apps, Automations Using Claude Code"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+          "signal": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models"
+        }
+      ],
+      "content_ideas": [
+        "Claude AI kya hai",
+        "Claude AI ke fayde",
+        "Claude AI kaise use karein"
       ]
     }
   ],
@@ -168,11 +211,11 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u60ogc/ai_trading/"
         }
       ],
-      "content_opportunity": "ChatGPT ki limits kaise remove karein"
+      "content_opportunity": "Create a tutorial on how to optimize ChatGPT usage within the given limits."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "ChatGPT Image Generation, as it has been gaining popularity and has a wide range of applications."
 }
