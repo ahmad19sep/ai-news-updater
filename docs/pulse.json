@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T20:00:06.356283+00:00",
+  "generated_at": "2026-06-15T05:30:06.243258+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,30 +9,30 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 16,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "A feature of ChatGPT that allows users to generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create stunning images for your social media or personal projects.",
-      "linkedin_angle": "Explore how ChatGPT image generation can enhance your marketing and design efforts.",
+      "what_it_is": "ChatGPT is an AI chatbot that has received recent updates.",
+      "audience_angle": "You can now use ChatGPT to generate images and text with more ease and accuracy.",
+      "linkedin_angle": "Stay ahead of the curve with the latest ChatGPT updates and learn how to leverage them for your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -42,110 +42,71 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=s-1PpUMDCjw",
-          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
+          "url": "https://www.youtube.com/watch?v=t653t_hYqsk",
+          "signal": "Laziest Way to Earn Money With AI in 2026"
         }
       ],
       "content_ideas": [
-        "ChatGPT se photo kaise banayein",
-        "ChatGPT image generation ke fayde",
-        "ChatGPT se business ke liye photo kaise banayein"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "A powerful AI model that can generate human-like text and images.",
-      "audience_angle": "You can use Claude Fable 5 to create engaging content and automate tasks.",
-      "linkedin_angle": "Discover how Claude Fable 5 can revolutionize your content creation and workflow.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for content creators"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkf8SP71wo4",
-          "signal": "10 Claude AI Side Hustles That Can Pay A Full-Time Income"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48529190",
-          "signal": "FTX's former Anthropic stake would be worth about $75B at today's valuation"
-        }
-      ],
-      "content_ideas": [
-        "Claude Fable 5 se paise kaise kamayein",
-        "Claude Fable 5 ke fayde aur nuksan",
-        "Claude Fable 5 se business ke liye content kaise banayein"
+        "ChatGPT se paisay kaise kamayein",
+        "ChatGPT ki updates kya hai",
+        "ChatGPT ki limits kaise remove karein"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI to generate videos based on text prompts or other inputs.",
-      "audience_angle": "You can use AI video generation to create stunning videos for your social media or personal projects.",
-      "linkedin_angle": "Explore how AI video generation can enhance your marketing and design efforts.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
+      "audience_angle": "You can now create stunning videos with the help of AI, without needing extensive video editing skills.",
+      "linkedin_angle": "Discover how AI video generation can revolutionize your marketing strategy and take your business to the next level.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "No affiliate program available for AI video generation tools."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
-          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
+          "signal": "Google Omni AI Video Generator Tutorial (Mobile)"
         }
       ],
       "content_ideas": [
-        "AI video generation se paise kaise kamayein",
-        "AI video generation ke fayde",
-        "AI video generation se business ke liye videos kaise banayein"
+        "Ai se video kaise banaye",
+        "Ai video generation ki limits kya hai",
+        "Ai video generation ke fayde"
       ]
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "AI Agents",
+      "category": "technique",
+      "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "A powerful AI model that can generate human-like text and images.",
-      "audience_angle": "You can use Claude Fable 5 to create engaging content and automate tasks.",
-      "linkedin_angle": "Discover how Claude Fable 5 can revolutionize your content creation and workflow.",
-      "local_relevance": 6,
+      "what_it_is": "AI agents are programs that use AI to perform tasks autonomously.",
+      "audience_angle": "You can now use AI agents to automate tasks and increase productivity.",
+      "linkedin_angle": "Learn how AI agents can help you streamline your workflow and boost efficiency.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for content creators"
+        "note": "Some AI agent tools have affiliate programs available."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkf8SP71wo4",
-          "signal": "10 Claude AI Side Hustles That Can Pay A Full-Time Income"
+          "url": "https://www.youtube.com/watch?v=Zqno_vux6d8",
+          "signal": "AI agents explained: Build your first agent in 8 minutes"
         },
         {
           "platform": "hackernews",
@@ -154,29 +115,31 @@
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 se paise kaise kamayein",
-        "Claude Fable 5 ke fayde aur nuksan",
-        "Claude Fable 5 se business ke liye content kaise banayein"
+        "Ai agents kya hai",
+        "Ai agents ki limits kya hai",
+        "Ai agents ke fayde"
       ]
-    },
+    }
+  ],
+  "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "A feature of ChatGPT that allows users to generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create stunning images for your social media or personal projects.",
-      "linkedin_angle": "Explore how ChatGPT image generation can enhance your marketing and design efforts.",
+      "what_it_is": "ChatGPT is an AI chatbot that has received recent updates.",
+      "audience_angle": "You can now use ChatGPT to generate images and text with more ease and accuracy.",
+      "linkedin_angle": "Stay ahead of the curve with the latest ChatGPT updates and learn how to leverage them for your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -186,14 +149,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=s-1PpUMDCjw",
-          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
+          "url": "https://www.youtube.com/watch?v=t653t_hYqsk",
+          "signal": "Laziest Way to Earn Money With AI in 2026"
         }
       ],
       "content_ideas": [
-        "ChatGPT se photo kaise banayein",
-        "ChatGPT image generation ke fayde",
-        "ChatGPT se business ke liye photo kaise banayein"
+        "ChatGPT se paisay kaise kamayein",
+        "ChatGPT ki updates kya hai",
+        "ChatGPT ki limits kaise remove karein"
       ]
     }
   ],
@@ -208,8 +171,8 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1u5n7wa/you_cant_even_use_chatgpt_for_battlefield_6/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and get the most out of the tool"
+      "content_opportunity": "ChatGPT ki limits kaise remove karein"
     }
   ],
-  "tool_of_week_candidate": "Claude Fable 5"
+  "tool_of_week_candidate": "ChatGPT"
 }
