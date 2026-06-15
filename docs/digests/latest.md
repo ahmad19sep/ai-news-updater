@@ -35,12 +35,12 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
 5. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
    https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
-6. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 56
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
-7. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
+6. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
    https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmk2b1lrRUhKalJRMEpzSUs2TEQ0YTVSTGVvUllEV05sUk91dkd2ZFRHQ3dBb1hRVlpRTUNycld4OVdKOFppWFRDRzg1LWpWa01mYi1HQzdjZXVwRXU2UlZuOWplcWd4eXh4Z3p1TlVmVEFmOGk3ZWJLNFI5OFRncm9PWU5mTmFXUlkxaVRUTnZPMVY0TXltRm5IVkFlLVV0Z25yZXRnTWJSQjRvVzVWcDM4U1VTMnVpZFh5ZlUtMnhzcnRSUFZ1cUJ30gHPAUFVX3lxTFBVRkMzMm96VmY2SDFhR1RGUlJPNFBxZUNXMk1oc01Xa1l6M2ZGbk5oY3ljYTBmUTVCRTlETll0YmxqN3JSVFFTdlNFeUc1NDQ0dVY0Tk9rMXJRakxtY0lsaHctNE1Qby1tSXlFNHJMX1hnVFRqSGx6MjVTUWJBSTZWc19CZHRhX25EdzF6SnVycHUtNzZfcGJjMmpjUnVlNlZtcVhwRjFJSUhoaXBNcVZHTnVTZXR0ZkJxaS05Y292ZWhBa0VGdkpyZklSQ0tFVQ?oc=5
-8. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 53
+7. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 53
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a2d46b35f9e46f89dff7ce5b50942d8&url=https%3a%2f%2fwww.msn.com%2fen-nz%2fnews%2fother%2fpolice-officer-investigated-for-using-ai-to-create-evidential-material-in-cases%2far-AA25xSHi&c=8809494013763372756&mkt=en-us
+8. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 53
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
 9. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 50
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2hfSTVtRGZXdWFoSXBkMzRDeUpHYlZvOWNuaDFzQkM0QURpbUZ0c05hQ3VTckZrc0F4OUtFeE5TbVNvTDhSZmtvZngzSUNzWmdKVzBRQy15QWpfdG9wVThDdklXdlRiMXVnME9GX0N3UGJrd244aXg1MnZoV3hmUDhUVmhxOVpqLVZHNDNyV0pJS2JOVlV1U3YyaVpENzk2ZVpjYUV6WlltaFE?oc=5
 10. **France's Mistral looking to raise €3B at €20B valuation - Seeking Alpha** — Mistral News — Score 50
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1605
+- Total stories tracked: 1668
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
