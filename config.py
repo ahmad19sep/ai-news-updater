@@ -257,7 +257,7 @@ DIGEST_HOURS = [8, 14, 21]
 DIGEST_MAX_PER_PILLAR = 8
 
 # Your online dashboard (opens when you tap a digest notification).
-DASHBOARD_URL = "https://ahmad19sep.github.io/ai-news-updater/"
+DASHBOARD_URL = "https://radar.hafizahmad.com/studio.html"
 
 
 # ==================== AI PULSE ====================
