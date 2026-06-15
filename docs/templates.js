@@ -262,3 +262,44 @@ window.buildXPrompt = function (o) {
     'Return ONLY a JSON array of strings — one string per tweet (a single post = an array of length 1). If a link applies, the LAST array element must be exactly "REPLY: <url>". No text outside the JSON array.',
   ].filter(x => x !== "").join("\n");
 };
+
+/* ---- Social pack: engaging, platform-tailored posts (YouTube / Facebook /
+   WhatsApp / Instagram). Default language Roman Urdu (Pakistan/India audience). ---- */
+window.SOCIAL = {
+  youtube: {
+    label: "YouTube",
+    rules: "Platform: YouTube (community post / Short caption). Open with a strong curiosity or bold hook in the FIRST line. Then 2-4 short lines on why this matters to a normal person. End with a clear CTA to watch and subscribe to @aixahmad. 1-2 emojis max. Put the link at the end. 2-3 relevant hashtags.",
+  },
+  facebook: {
+    label: "Facebook",
+    rules: "Platform: Facebook page post. Start with a scroll-stopping hook line. Then 3-5 short, simple, engaging lines with a relatable angle for a Pakistani/Indian audience. Ask ONE question at the end to spark comments. Put the link on its own line at the end. 2-3 hashtags. A few natural emojis.",
+  },
+  whatsapp: {
+    label: "WhatsApp Channel",
+    rules: "Platform: WhatsApp Channel broadcast. Very punchy and skimmable. A strong 1-line hook with one emoji. Then 2-3 short lines of the key point. End with the link and a soft line like 'Follow for daily AI updates'. Avoid hashtags (they don't help on WhatsApp).",
+  },
+  instagram: {
+    label: "Instagram",
+    rules: "Platform: Instagram caption. Bold hook as the first line. Short engaging lines with line breaks and tasteful emojis. Strong CTA to follow @aixahmad. Instagram captions can't have clickable links, so write 'Full story — link in bio' instead of pasting the URL. End with 6-10 relevant hashtags.",
+  },
+};
+
+window.buildSocialPrompt = function (o) {
+  const cfg = window.SOCIAL[o.platform] || window.SOCIAL.facebook;
+  const lang = o.lang === "en"
+    ? "Write in clear, simple English."
+    : "Write in simple Roman Urdu (Urdu written in English letters) with light English — the audience is Pakistan/India.";
+  const wantLink = o.platform !== "instagram" && o.link;
+  return [
+    'You write social-media posts for "AI x Ahmad" (@aixahmad), an AI-education brand for Pakistan & India.',
+    lang, "",
+    cfg.rules, "",
+    "Make it genuinely ENGAGING — a real hook that stops the scroll, not a press release. Simple words, one idea per line.",
+    "Base everything ONLY on the story below — never invent facts, numbers, or quotes.", "",
+    "STORY: " + (o.title || ""),
+    (o.body ? "DETAILS: " + String(o.body).replace(/\s+/g, " ").slice(0, 500) : ""),
+    (wantLink ? "LINK (put at the end): " + o.link : ""),
+    "",
+    "Return ONLY the final post text, ready to copy-paste — no options, no notes, no markdown.",
+  ].filter(x => x !== "").join("\n");
+};

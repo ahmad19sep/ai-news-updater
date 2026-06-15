@@ -398,9 +398,10 @@ PAGE = r"""<!doctype html>
   .wa-head select option { color:#111; }
   .wa-head .x { margin-left:auto; background:rgba(255,255,255,.15); border:none; color:#fff;
           border-radius:8px; padding:6px 11px; cursor:pointer; font-size:14px; }
-  #chatmodal, #xmodal, #pubmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
+  #chatmodal, #xmodal, #pubmodal, #socialmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
-  #pubmodal .mbox { max-height:92vh; overflow-y:auto; }
+  #pubmodal .mbox, #socialmodal .mbox { max-height:92vh; overflow-y:auto; }
+  .soc-tab.active, .soc-lang.active { border-color:var(--indigo); color:var(--indigo); font-weight:600; }
   .chatbadge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px;
           padding:0 5px; border-radius:9px; background:#ef4444; color:#fff;
           font:700 11px Inter; display:flex; align-items:center; justify-content:center;
@@ -762,9 +763,38 @@ PAGE = r"""<!doctype html>
       <button class="ghost" id="pub-tweet" title="Publish first, then tweet it with a link">𝕏 Post to X</button>
       <button class="ghost" id="pub-wa" title="Publish first, then share to WhatsApp">📱 WhatsApp</button>
       <button class="ghost" id="pub-fb" title="Publish first, then share to Facebook">📘 Facebook</button>
+      <button class="ghost" id="pub-social" title="Make engaging Roman-Urdu posts for YouTube / Facebook / WhatsApp / Instagram">📲 Social pack</button>
       <span id="pub-result" style="margin-left:auto;font-size:12.5px"></span>
     </div>
     <div id="pub-list" style="margin-top:14px"></div>
+  </div>
+</div>
+<div id="socialmodal" hidden>
+  <div class="mbox" style="max-width:560px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+      <b style="font-size:15px">📲 Social pack</b>
+      <span style="font-size:11.5px;color:var(--faint)">engaging posts for your platforms</span>
+      <button class="ghost" style="margin-left:auto;padding:6px 11px" onclick="closeSocial()">✕</button>
+    </div>
+    <div id="soc-story" class="note" style="margin:0 0 10px"></div>
+    <div class="genrow" style="flex-wrap:wrap">
+      <button class="ghost soc-tab" data-plat="youtube">▶️ YouTube</button>
+      <button class="ghost soc-tab" data-plat="facebook">📘 Facebook</button>
+      <button class="ghost soc-tab" data-plat="whatsapp">📱 WhatsApp</button>
+      <button class="ghost soc-tab" data-plat="instagram">📸 Instagram</button>
+    </div>
+    <div class="genrow" style="align-items:center;margin-top:8px;flex-wrap:wrap">
+      <span style="font-size:12.5px;color:var(--dim)">Language:</span>
+      <button class="ghost soc-lang" data-lang="ur">Roman Urdu</button>
+      <button class="ghost soc-lang" data-lang="en">English</button>
+      <button class="btn" id="soc-copyprompt" style="margin-left:auto">🤖 Copy prompt</button>
+    </div>
+    <textarea id="soc-out" style="width:100%;min-height:150px;margin-top:10px" placeholder="Paste the AI's post here (Copy prompt → paste into any AI → paste result back), then Share/Copy below."></textarea>
+    <div class="mfoot" style="flex-wrap:wrap">
+      <button class="btn" id="soc-share">Share</button>
+      <button class="ghost" id="soc-copy">📋 Copy post</button>
+      <span id="soc-hint" style="margin-left:auto;font-size:12px;color:var(--faint)"></span>
+    </div>
   </div>
 </div>
 <div class="toast" id="toast"></div>
@@ -3559,6 +3589,61 @@ document.getElementById("pub-fb").onclick = () => {
   const art = needPub(); if (!art) return;
   window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(pubLink(art)), "_blank", "noopener");
   toast("Facebook opened — add a caption & post 📘");
+};
+
+/* ---- Social pack: per-platform engaging posts (Roman Urdu default) ---- */
+let socPlat = "facebook", socLang = "ur", socCtx = { title: "", body: "", link: "" };
+document.getElementById("pub-social").onclick = () => openSocial(lastPubArt);
+function openSocial(art) {
+  const title = (art && art.title) || document.getElementById("pub-title").value.trim();
+  const body = (art && art.body) || document.getElementById("pub-body").value.trim();
+  const link = (art && art.id) ? (PUBLIC_SITE + "/#a=" + art.id) : "";
+  socCtx = { title, body, link };
+  document.getElementById("soc-story").textContent = title ? ("📰 " + title) : "Add a headline/article in the publish box first";
+  document.getElementById("soc-out").value = "";
+  socPlat = "facebook"; socLang = "ur"; socSync();
+  document.getElementById("socialmodal").hidden = false;
+}
+function closeSocial() { document.getElementById("socialmodal").hidden = true; }
+document.getElementById("socialmodal").addEventListener("click", e => { if (e.target.id === "socialmodal") closeSocial(); });
+function socSync() {
+  document.querySelectorAll(".soc-tab").forEach(b => b.classList.toggle("active", b.dataset.plat === socPlat));
+  document.querySelectorAll(".soc-lang").forEach(b => b.classList.toggle("active", b.dataset.lang === socLang));
+  const lbl = { whatsapp: "📱 Send to WhatsApp", facebook: "📘 Open Facebook", instagram: "📸 Copy for Instagram", youtube: "▶️ Copy for YouTube" };
+  const hint = {
+    whatsapp: "Opens WhatsApp → pick your Channel/group → send.",
+    facebook: "Opens FB share + copies your caption to paste in.",
+    instagram: "Copies the caption — paste in the Instagram app (link in bio).",
+    youtube: "Copies the text — paste as a community post or video description."
+  };
+  document.getElementById("soc-share").textContent = lbl[socPlat] || "Share";
+  document.getElementById("soc-hint").textContent = hint[socPlat] || "";
+}
+document.querySelectorAll(".soc-tab").forEach(b => b.onclick = () => { socPlat = b.dataset.plat; socSync(); });
+document.querySelectorAll(".soc-lang").forEach(b => b.onclick = () => { socLang = b.dataset.lang; socSync(); });
+document.getElementById("soc-copyprompt").onclick = () => {
+  if (!socCtx.title) { toast("Add a headline/article first"); return; }
+  const p = window.buildSocialPrompt({ platform: socPlat, lang: socLang, title: socCtx.title, body: socCtx.body, link: socCtx.link });
+  navigator.clipboard.writeText(p).then(() => toast("Prompt copied — paste in any AI, then paste the post back here 🤖"));
+};
+document.getElementById("soc-copy").onclick = () => {
+  const t = document.getElementById("soc-out").value.trim();
+  if (!t) { toast("Nothing to copy"); return; }
+  navigator.clipboard.writeText(t).then(() => toast("Post copied 📋"));
+};
+document.getElementById("soc-share").onclick = () => {
+  const t = document.getElementById("soc-out").value.trim();
+  if (!t) { toast("Paste the post text first (Copy prompt → any AI → paste back)"); return; }
+  if (socPlat === "whatsapp") {
+    window.open("https://wa.me/?text=" + encodeURIComponent(t), "_blank", "noopener");
+    toast("WhatsApp opened — pick your Channel & send 📱");
+  } else if (socPlat === "facebook") {
+    navigator.clipboard.writeText(t).catch(() => {});
+    window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(socCtx.link || PUBLIC_SITE), "_blank", "noopener");
+    toast("FB opened + caption copied — paste it in 📘");
+  } else {
+    navigator.clipboard.writeText(t).then(() => toast("Copied — paste in " + (socPlat === "instagram" ? "Instagram" : "YouTube") + " ✅"));
+  }
 };
 async function loadPubList() {
   const el = document.getElementById("pub-list");
