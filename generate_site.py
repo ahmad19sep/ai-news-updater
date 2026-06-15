@@ -749,9 +749,11 @@ PAGE = r"""<!doctype html>
       <select id="pub-cat" style="flex:1;min-width:130px"></select>
       <input id="pub-img" style="flex:2;min-width:180px" placeholder="Image URL (or upload →)">
     </div>
-    <div class="genrow" style="align-items:center">
-      <label class="ghost" style="cursor:pointer;padding:8px 12px;white-space:nowrap">📷 Upload picture
+    <div class="genrow" style="align-items:center;flex-wrap:wrap">
+      <label class="ghost" style="cursor:pointer;padding:8px 12px;white-space:nowrap">📷 Upload
         <input type="file" id="pub-file" accept="image/*" hidden></label>
+      <button class="ghost" type="button" id="pub-poster" title="Make a branded poster from the headline">🖼️ Make poster</button>
+      <button class="ghost" type="button" id="pub-imgprompt" title="Copy a prompt to generate an image in any image AI">🎨 Image prompt</button>
       <img id="pub-preview" alt="" style="height:44px;border-radius:8px;display:none;object-fit:cover">
       <span id="pub-imgnote" style="font-size:12px;color:var(--faint)"></span>
     </div>
@@ -3516,6 +3518,66 @@ document.getElementById("pub-file").onchange = (e) => {
   };
   img.src = URL.createObjectURL(f);
 };
+/* 🖼️ Make poster — a branded 16:9 news poster from the headline (over the
+   uploaded photo if there is one, else a blue AI Radar gradient). $0, instant. */
+function _wrapLines(x, text, maxW) {
+  const words = text.split(/\s+/); const lines = []; let line = "";
+  for (const w of words) { const t = line ? line + " " + w : w;
+    if (x.measureText(t).width > maxW && line) { lines.push(line); line = w; } else line = t; }
+  if (line) lines.push(line); return lines;
+}
+function _gradBg(x, W, H) {
+  const g = x.createLinearGradient(0, 0, W, H);
+  g.addColorStop(0, "#0a1330"); g.addColorStop(.5, "#16275a"); g.addColorStop(1, "#1e3a8a");
+  x.fillStyle = g; x.fillRect(0, 0, W, H);
+  const rg = x.createRadialGradient(W * .82, H * .18, 0, W * .82, H * .18, 460);
+  rg.addColorStop(0, "rgba(56,189,248,.45)"); rg.addColorStop(1, "rgba(56,189,248,0)");
+  x.fillStyle = rg; x.fillRect(0, 0, W, H);
+}
+function makePoster() {
+  const title = document.getElementById("pub-title").value.trim();
+  if (!title) { toast("Add a headline first"); return; }
+  const cat = document.getElementById("pub-cat").value || "AI NEWS";
+  const W = 1200, H = 675, c = document.createElement("canvas"); c.width = W; c.height = H;
+  const x = c.getContext("2d");
+  const finish = () => {
+    x.textBaseline = "alphabetic";
+    x.font = "700 26px Inter, Arial, sans-serif"; x.fillStyle = "#38bdf8";
+    x.fillText(cat.toUpperCase(), 60, 92);
+    x.font = "800 62px Inter, Arial, sans-serif"; x.fillStyle = "#ffffff";
+    const lines = _wrapLines(x, title, W - 120).slice(0, 4);
+    const lh = 74; let y = H - 150 - (lines.length - 1) * lh;
+    lines.forEach(l => { x.fillText(l, 60, y); y += lh; });
+    x.font = "700 30px Inter, Arial, sans-serif"; x.fillStyle = "#e8edfb"; x.fillText("📡 AI Radar", 60, H - 58);
+    x.font = "500 22px Inter, Arial, sans-serif"; x.fillStyle = "#9fb0d6"; x.fillText("radar.hafizahmad.com", 60, H - 26);
+    pubImageData = c.toDataURL("image/jpeg", 0.85);
+    const pv = document.getElementById("pub-preview"); pv.src = pubImageData; pv.style.display = "";
+    document.getElementById("pub-imgnote").textContent = "🖼️ poster ready";
+    toast("Poster made — set as the article image 🖼️");
+  };
+  if (pubImageData && pubImageData.indexOf("data:image") === 0) {
+    const im = new Image();
+    im.onload = () => {
+      const r = Math.max(W / im.width, H / im.height), w = im.width * r, h = im.height * r;
+      x.drawImage(im, (W - w) / 2, (H - h) / 2, w, h);
+      const g = x.createLinearGradient(0, 0, 0, H);
+      g.addColorStop(0, "rgba(7,11,24,.30)"); g.addColorStop(.55, "rgba(7,11,24,.55)"); g.addColorStop(1, "rgba(7,11,24,.94)");
+      x.fillStyle = g; x.fillRect(0, 0, W, H); finish();
+    };
+    im.onerror = () => { _gradBg(x, W, H); finish(); };
+    im.src = pubImageData;
+  } else { _gradBg(x, W, H); finish(); }
+}
+document.getElementById("pub-poster").onclick = makePoster;
+document.getElementById("pub-imgprompt").onclick = () => {
+  const t = document.getElementById("pub-title").value.trim();
+  if (!t) { toast("Add a headline first"); return; }
+  const p = 'Create a striking, modern news POSTER image (16:9 landscape) for this AI news headline:\n"' + t + '"\n\n'
+    + 'Style: clean tech-editorial / magazine-cover look; deep navy-blue palette with electric-blue accents; '
+    + 'subtle abstract AI / circuit / neural motifs; dramatic soft lighting; high detail; professional. '
+    + 'Leave clear negative space for a headline. No text, no watermarks, no logos, no real people\'s faces.';
+  navigator.clipboard.writeText(p).then(() => toast("Image prompt copied — paste in an image AI (ChatGPT/Gemini/Bing), then 📷 Upload the result 🎨"));
+};
 function openPublishModal(story) {
   pubStory = story;
   document.getElementById("pub-title").value = story.t || "";
@@ -3537,10 +3599,17 @@ document.getElementById("pubmodal").addEventListener("click", e => { if (e.targe
 document.getElementById("pub-draft").onclick = () => {
   const t = document.getElementById("pub-title").value.trim();
   const u = document.getElementById("pub-url").value.trim();
-  const p = 'Write a clear, factual AI-news article in simple English for a general worldwide audience (250-400 words) about:\n"' + t + '"\n' +
-    (u ? "Source link: " + u + "\nFIRST open and read the link.\n" : "") +
-    "Then write: a strong opening line, then 3-5 short paragraphs separated by a blank line. Engaging but accurate — use ONLY facts from the source, never invent. Plain text only, no markdown.";
-  navigator.clipboard.writeText(p).then(() => toast("Prompt copied — paste into any AI (ChatGPT/Claude/Gemini), then paste the article into the body 🤖"));
+  const p = 'You are a senior journalist writing for a top news publication (think The New York Times, Reuters, or The Verge). Write a polished, professional news article in clear, simple English for a global audience about:\n"' + t + '"\n' +
+    (u ? "Source: " + u + "\nFIRST open and read the source carefully before writing.\n" : "") +
+    "\nWrite the ARTICLE BODY only (400-600 words) — do NOT repeat the headline:\n" +
+    "- Open with a strong lede sentence that captures the single most important point.\n" +
+    "- Use inverted-pyramid structure: key facts first, then context, background, and what it means.\n" +
+    "- Short paragraphs of 2-3 sentences, each separated by a blank line.\n" +
+    "- Authoritative, neutral, engaging tone — no hype, no clickbait.\n" +
+    "- Include concrete specifics from the source (who, what, when, numbers, quotes) and attribute them (\"according to ...\").\n" +
+    "- End with a forward-looking closing line.\n" +
+    "Rules: use ONLY facts from the source — never invent quotes, numbers, names, or events. Plain text only: no markdown, no bullet characters, no headings.";
+  navigator.clipboard.writeText(p).then(() => toast("Article prompt copied — paste into any AI (ChatGPT/Claude/Gemini), then paste the article into the body 🤖"));
 };
 document.getElementById("pub-go").onclick = async () => {
   if (!FBURL) { toast("Firebase not connected"); return; }
