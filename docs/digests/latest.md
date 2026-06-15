@@ -9,8 +9,8 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors - Spotlight PA** — science angle
    https://news.google.com/rss/articles/CBMinwFBVV95cUxPcF8zNDFuMTE0UFRxN2ZoV2tjR2xYbTRPTXNKX25LcVl0ejN3c3d6cFZOQ1pPVUNkLXZIUUplYVpSWTFDbzRBanRwUDVfaW9DWXFhSVpiOXRZeEpMRTBYU05rakpaeDNmNW5ib3Bsbl9Td3cwQ2dSUnA5U2pHbUUzRS1vcmJoSWZtbXNzRWlrZEJ5MFB0M3pSUHREdjN0S0U?oc=5
-2. **Hoffman: Doctors without AI risk 'malpractice' - moneywise.com** — science angle
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzg4N2d4bTZfZUZMSFNPVWFMMEgyNTJuRTBrSmJ4WldER3NRbm9Sb2J1YmU1ME5pV2ItcFJpa0VHVUY5aGRlVVI3WDVEWjRhOFhjd3JIRy1Ia2pDQzR2ZUQ3RFhLRW4xZXpoYm5HbEl4empiZUhsR3U4TTBrb3dsdmplRnp6QlVDcmxBRkxR?oc=5
+2. **Afu Takes the Pulse, Doctors Provide Final Safeguard: AI-Powered Medical Diagnosis' Ultimate Outcome is "Doctor in the Loop" - 36 Kr** — science angle
+   https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMVJvVE5fcE9Ndkh0SS1Ea245Y3NxcFY3WmtmQW1YZWUxMF80UjB3X1BqcXJWYUhBUEdCUGRfVE9POG9tLVZJVGI0RkdKaktHYllB?oc=5
 3. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
 4. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 ## 🧪 AI in Science Highlights
 - **As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors - Spotlight PA** — https://news.google.com/rss/articles/CBMinwFBVV95cUxPcF8zNDFuMTE0UFRxN2ZoV2tjR2xYbTRPTXNKX25LcVl0ejN3c3d6cFZOQ1pPVUNkLXZIUUplYVpSWTFDbzRBanRwUDVfaW9DWXFhSVpiOXRZeEpMRTBYU05rakpaeDNmNW5ib3Bsbl9Td3cwQ2dSUnA5U2pHbUUzRS1vcmJoSWZtbXNzRWlrZEJ5MFB0M3pSUHREdjN0S0U?oc=5
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
-- **Hoffman: Doctors without AI risk 'malpractice' - moneywise.com** — https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzg4N2d4bTZfZUZMSFNPVWFMMEgyNTJuRTBrSmJ4WldER3NRbm9Sb2J1YmU1ME5pV2ItcFJpa0VHVUY5aGRlVVI3WDVEWjRhOFhjd3JIRy1Ia2pDQzR2ZUQ3RFhLRW4xZXpoYm5HbEl4empiZUhsR3U4TTBrb3dsdmplRnp6QlVDcmxBRkxR?oc=5
+- **Afu Takes the Pulse, Doctors Provide Final Safeguard: AI-Powered Medical Diagnosis' Ultimate Outcome is "Doctor in the Loop" - 36 Kr** — https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMVJvVE5fcE9Ndkh0SS1Ea245Y3NxcFY3WmtmQW1YZWUxMF80UjB3X1BqcXJWYUhBUEdCUGRfVE9POG9tLVZJVGI0RkdKaktHYllB?oc=5
 - **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
 - **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1534
+- Total stories tracked: 1605
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
