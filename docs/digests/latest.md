@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMVJvVE5fcE9Ndkh0SS1Ea245Y3NxcFY3WmtmQW1YZWUxMF80UjB3X1BqcXJWYUhBUEdCUGRfVE9POG9tLVZJVGI0RkdKaktHYllB?oc=5
 3. **As patients rely on AI for medical advice, will bots replace care? - TechTarget** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1Z4b0JtUXFiVk9JRmUzSnlVbWFmUUVPZDFYcFA2c3E0UDZrMXZ5SGlBRXJsd2p3VFVPSVpjUG5DWmFsMTZzLWF3NklqY1pvYjAxVDdFNjNuenRtRk9PMnQyQ2NGbDcxZmdwZHE2NnBxUUFOVG1yQzhPUEhfaFBuaFdSTnBkN0I1ejUycTAtTzBJcVJuYVl5RlNqOHItVXBvQm9nQnZ2RXVoYTZFNVJXclhSeGhmblA1ZG12a08wZ3ZnZw?oc=5
-4. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
+4. **AMA demands doctor oversight of AI, rejects ‘provider’ label for physicians - Crain's Chicago Business** — science angle
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnlSNGNfVGRkeTJYRG1NWUc3ZklfR09pN2VROEFDT1Vkby0tc2NXSVg1QXY0eC1kMUZuVHpVU0dod0NQeGg0SnRZaVB0bkw3Sm4yU1F1V3BVNGEyU18tNTJTaUVEcmVWNld5ZjRWOWkyb1hnbW5ZZU5Eb3dhX0QwcXVHLW91enozVl9HZ0lNMUtUUDB5dmRQaXlZSHItWmtJSnRB?oc=5
+5. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
-5. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
+6. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
-6. **New AI and mixed reality-powered healthcare simulation platform strengthens medical training for future doctors - Carle Illinois College of Medicine** — science angle
+7. **New AI and mixed reality-powered healthcare simulation platform strengthens medical training for future doctors - Carle Illinois College of Medicine** — science angle
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX09wdjgtZDZzN0FhV0VlaVVkcXZ3VjMxSFlVNHpJaVFmREgya2diWnFIVHZRQ2VLMEo4cExoZ2VOVExCc1dYMDdfeDJUNWx1a0tTVk5TRWpGcEEyUzFpaldVbDBWMkpza09ZQ2xOM25MTGl5REtldTE3djc4cVQzS1FSTUQ3aEJ0UUE1bkg5WjVxVmdLb1piU0dQX3Z2SmZVM1lhbENIcnRnVUNheW1YLXN3NEFDcFQ5Q1FJTWlFNUNsN01JNkFvc1BNTDdycmJPMWlaVTRYeTYzUkRqeVE?oc=5
-7. **Patients Compare Using AI Versus Doctors for Medical Advice - TODAY.com** — science angle
+8. **Patients Compare Using AI Versus Doctors for Medical Advice - TODAY.com** — science angle
    https://news.google.com/rss/articles/CBMiogFBVV95cUxPXzNZQ0pGSGVCZFYwdERLeEpHT2pYVk5PbFo3VlVuWUwwYlZETkVOTTU3RWFvbkR2d1ZCOE5Ec09LMDdjNnR1cHk5ZVJQQTEwLURvaVM2aGhHQWFpcElEMjFRWlNGLUhhblZJZWVjRjhma0tYeGRnMUdIRTRFM3E0NUsya0NLbUpsNWlzdk8yUlFFZkdyb1NxbnN2YU9NWl9Rbnc?oc=5
-8. **Doctors weigh in on AI use in digital healthcare - GMA Network** — science angle
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxONlFMSlQ1bVJRVzRXaWxSU3RBVWxHYzJxb1B2TVZOUXAzYnFIbzdFT2lzWHJ3OVNCdFc2YnVxWFF5OV9HUVFLU1FwNDhWcDg2cmpWQjVfMW9HNmRRallPMzJ3ODBnMWN3Y29CMmpydVRhQXA2UVNxX2hzWGVOb1IxTlpTQjlWS2VpRzgyS2lXLW5RWkpIN2FYMk5OWFNLYzNqbGp3bUdn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS** — Sam Altman News — Score 123
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
 - **Afu Takes the Pulse, Doctors Provide Final Safeguard: AI-Powered Medical Diagnosis' Ultimate Outcome is "Doctor in the Loop" - 36 Kr** — https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMVJvVE5fcE9Ndkh0SS1Ea245Y3NxcFY3WmtmQW1YZWUxMF80UjB3X1BqcXJWYUhBUEdCUGRfVE9POG9tLVZJVGI0RkdKaktHYllB?oc=5
 - **As patients rely on AI for medical advice, will bots replace care? - TechTarget** — https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1Z4b0JtUXFiVk9JRmUzSnlVbWFmUUVPZDFYcFA2c3E0UDZrMXZ5SGlBRXJsd2p3VFVPSVpjUG5DWmFsMTZzLWF3NklqY1pvYjAxVDdFNjNuenRtRk9PMnQyQ2NGbDcxZmdwZHE2NnBxUUFOVG1yQzhPUEhfaFBuaFdSTnBkN0I1ejUycTAtTzBJcVJuYVl5RlNqOHItVXBvQm9nQnZ2RXVoYTZFNVJXclhSeGhmblA1ZG12a08wZ3ZnZw?oc=5
-- **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
+- **AMA demands doctor oversight of AI, rejects ‘provider’ label for physicians - Crain's Chicago Business** — https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnlSNGNfVGRkeTJYRG1NWUc3ZklfR09pN2VROEFDT1Vkby0tc2NXSVg1QXY0eC1kMUZuVHpVU0dod0NQeGg0SnRZaVB0bkw3Sm4yU1F1V3BVNGEyU18tNTJTaUVEcmVWNld5ZjRWOWkyb1hnbW5ZZU5Eb3dhX0QwcXVHLW91enozVl9HZ0lNMUtUUDB5dmRQaXlZSHItWmtJSnRB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1723
+- Total stories tracked: 1735
 - Most active topic: anthropic
 - Busiest category: AI General News
 
