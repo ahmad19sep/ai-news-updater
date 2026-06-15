@@ -759,7 +759,9 @@ PAGE = r"""<!doctype html>
     <textarea id="pub-body" style="width:100%;min-height:200px" placeholder="Article body… (write it here, or use the prompt button → paste into any AI → paste the article back here). Leave a blank line between paragraphs."></textarea>
     <div class="mfoot" style="flex-wrap:wrap">
       <button class="btn" id="pub-go">🌐 Publish</button>
-      <button class="ghost" id="pub-tweet" title="Publish first, then tweet it with a link to the full story">𝕏 Post to X</button>
+      <button class="ghost" id="pub-tweet" title="Publish first, then tweet it with a link">𝕏 Post to X</button>
+      <button class="ghost" id="pub-wa" title="Publish first, then share to WhatsApp">📱 WhatsApp</button>
+      <button class="ghost" id="pub-fb" title="Publish first, then share to Facebook">📘 Facebook</button>
       <span id="pub-result" style="margin-left:auto;font-size:12.5px"></span>
     </div>
     <div id="pub-list" style="margin-top:14px"></div>
@@ -3529,16 +3531,34 @@ document.getElementById("pub-go").onclick = async () => {
     loadPubList();
   } catch (e) { toast("Publish failed: " + e.message); }
 };
-/* Tweet the published article, ending with a link to the full story on your site. */
+/* Share the published article to X / WhatsApp / Facebook, ending with a link to
+   the full story on your site (each platform's own one-tap share — no ban risk). */
+function pubLink(art) { return PUBLIC_SITE + "/#a=" + art.id; }
+function pubBlurb(art, max) {
+  const first = (art.body || "").split(/\n\s*\n/)[0].replace(/\s+/g, " ").trim();
+  return first ? first.slice(0, max) : "";
+}
+function needPub() {
+  if (!lastPubArt) { toast("Publish the article first, then share it"); return null; }
+  return lastPubArt;
+}
 document.getElementById("pub-tweet").onclick = () => {
-  const art = lastPubArt;
-  if (!art) { toast("Publish the article first, then tap 𝕏 Post to X"); return; }
-  const link = PUBLIC_SITE + "/#a=" + art.id;
-  const first = (art.body || "").split(/\n\s*\n/)[0].replace(/\s+/g, " ").trim().slice(0, 120);
-  let text = art.title + "\n\n" + first + "\n\n🔗 Full story: " + link;
-  if (text.length > 275) text = art.title + "\n\n🔗 Full story: " + link;
+  const art = needPub(); if (!art) return;
+  let text = art.title + "\n\n" + pubBlurb(art, 120) + "\n\n🔗 Full story: " + pubLink(art);
+  if (text.length > 275) text = art.title + "\n\n🔗 Full story: " + pubLink(art);
   window.open("https://x.com/intent/tweet?text=" + encodeURIComponent(text), "_blank", "noopener");
   toast("X opened with your article link — tap Post 🚀");
+};
+document.getElementById("pub-wa").onclick = () => {
+  const art = needPub(); if (!art) return;
+  const text = art.title + "\n\n" + pubBlurb(art, 160) + "\n\n🔗 Full story: " + pubLink(art);
+  window.open("https://wa.me/?text=" + encodeURIComponent(text), "_blank", "noopener");
+  toast("WhatsApp opened — pick a chat/group & send 📱");
+};
+document.getElementById("pub-fb").onclick = () => {
+  const art = needPub(); if (!art) return;
+  window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(pubLink(art)), "_blank", "noopener");
+  toast("Facebook opened — add a caption & post 📘");
 };
 async function loadPubList() {
   const el = document.getElementById("pub-list");
