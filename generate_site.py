@@ -753,7 +753,6 @@ PAGE = r"""<!doctype html>
       <label class="ghost" style="cursor:pointer;padding:8px 12px;white-space:nowrap">📷 Upload
         <input type="file" id="pub-file" accept="image/*" hidden></label>
       <button class="ghost" type="button" id="pub-poster" title="Make a branded poster from the headline">🖼️ Make poster</button>
-      <button class="ghost" type="button" id="pub-imgprompt" title="Copy a prompt to generate an image in any image AI">🎨 Image prompt</button>
       <img id="pub-preview" alt="" style="height:44px;border-radius:8px;display:none;object-fit:cover">
       <span id="pub-imgnote" style="font-size:12px;color:var(--faint)"></span>
     </div>
@@ -3569,15 +3568,6 @@ function makePoster() {
   } else { _gradBg(x, W, H); finish(); }
 }
 document.getElementById("pub-poster").onclick = makePoster;
-document.getElementById("pub-imgprompt").onclick = () => {
-  const t = document.getElementById("pub-title").value.trim();
-  if (!t) { toast("Add a headline first"); return; }
-  const p = 'Create a striking, modern news POSTER image (16:9 landscape) for this AI news headline:\n"' + t + '"\n\n'
-    + 'Style: clean tech-editorial / magazine-cover look; deep navy-blue palette with electric-blue accents; '
-    + 'subtle abstract AI / circuit / neural motifs; dramatic soft lighting; high detail; professional. '
-    + 'Leave clear negative space for a headline. No text, no watermarks, no logos, no real people\'s faces.';
-  navigator.clipboard.writeText(p).then(() => toast("Image prompt copied — paste in an image AI (ChatGPT/Gemini/Bing), then 📷 Upload the result 🎨"));
-};
 function openPublishModal(story) {
   pubStory = story;
   document.getElementById("pub-title").value = story.t || "";
@@ -3608,8 +3598,12 @@ document.getElementById("pub-draft").onclick = () => {
     "- Authoritative, neutral, engaging tone — no hype, no clickbait.\n" +
     "- Include concrete specifics from the source (who, what, when, numbers, quotes) and attribute them (\"according to ...\").\n" +
     "- End with a forward-looking closing line.\n" +
-    "Rules: use ONLY facts from the source — never invent quotes, numbers, names, or events. Plain text only: no markdown, no bullet characters, no headings.";
-  navigator.clipboard.writeText(p).then(() => toast("Article prompt copied — paste into any AI (ChatGPT/Claude/Gemini), then paste the article into the body 🤖"));
+    "Rules: use ONLY facts from the source — never invent quotes, numbers, names, or events. Plain text only: no markdown, no bullet characters, no headings.\n\n" +
+    "THEN create a matching POSTER IMAGE for this story:\n" +
+    "- If you can generate images, generate an attractive 16:9 news poster — modern tech-editorial style, deep navy with electric-blue accents, abstract AI/circuit motifs, dramatic lighting, clear space for a headline, NO text, NO logos, NO real faces.\n" +
+    "- If you cannot generate images, instead end your reply with a line starting exactly \"IMAGE PROMPT:\" followed by one vivid prompt I can paste into an image generator (same style).\n" +
+    "Keep the article and the image clearly separated, so I can copy the article text on its own.";
+  navigator.clipboard.writeText(p).then(() => toast("Article + image prompt copied — paste into ChatGPT/Gemini (makes both); paste the article into the body, use/upload the image 🤖🎨"));
 };
 document.getElementById("pub-go").onclick = async () => {
   if (!FBURL) { toast("Firebase not connected"); return; }
