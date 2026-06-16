@@ -19,22 +19,22 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjNIU3hYZTMxNXBpZi1KYzQxb0wzTnlibmlWM2RrNlV1aFV3cHJVS0ZINm5USWFpZjUtU0hJSTQySFJBV3hGZ1hDUmZ5TDZfRHh1WElYZEtuSWJBMHN5S1NxSW9UcEdNT2lhT05wUGxUR2lvcU9CdkRmSUdRbEg0OC1aZmFiVVNhRV9WM254elpDOUlhMW5hMUZNV1lzTkRjM0ZWeDFhZXZqcWt0cXFuVlRUbm5SNTNKa2RDVmFtYTJnUFowbFhQVXdOelZUd3lN?oc=5
 6. **Have a thorny medical question? Your doctor may be using AI for that - thestar.com.my** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPcFp1dFBmakI3cGVnamZxamNrZzF3VFp6S281ZVVqaDlsdVZiRjZMa3FGUkRta0NRdldCWm5kMnNpZmJrb203Um91TDhXVXdYV1pLMmcwbmNKeXEwZlZ5SjZqUnZ0MG9nWDVUNFQtLV82Qk1YUWt2N0pRWmJQd0xNSUVENWMyMHlpRXUzYkQ3NXI4Qm9oaEJsNmRlcWczMnZ1TkYtU2lvX1hVbkpubnFZXy1ORnVMV1UwLVhTZQ?oc=5
-7. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
-8. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
-   https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
+7. **This startup is using AI to improve the outpatient surgery experience for everyone - Fast Company** — science angle
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxNLUJHNUhnN1RKVkdlNldCelJkajRJbUlaaDl0R21lb0R6MC1iY1JKeTF4MFY4dzJ5N09VQXNrb0xnMXE1aThSNW5xb2ZsZFgzVXJMZ2x0bWl4U2ZsdXY5REZ1aTF5Ynp4UjJxZ2hQSmI5V3hWTE5VMk1iUVcydWxQLXBB?oc=5
+8. **AMA Survey: More Doctors Are Embracing AI-Based Tools - Medscape** — science angle
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxNV2FHYW5Uck5tTzhSdEx6YW9rRG9IUExUWXRvNGFZYXhuVUtPZTdTWHZTWjN5eVBxNnNPT2NaNlpmOVVYVGRXSmt5Z2w0YXdBR05xOXZOdU9TMU00ZzNqS09rLTNqcG9oSkJjYVEySnV4ejZXbWliYUwwRHBUNGdSbWF2ZEttb3JiT0dzNnlPS2RVTFdEcFlxXy1hczFSTmhiVzRxVA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS** — Sam Altman News — Score 123
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y0VDY1hNanBXVEh4cmdmcS1wYnlhWGdJNkE3d18xY0hOeFA1b25vSHlpZmoyaUFSQXhCOV9jY1oxY1R2MTEtU1RaeFhVeEx3VGo0dzJPblp4WGhpbHREMmVVeEJYNkZwWEs2SHZhVl9LenRtTmxRckhlSTVDS3pfWEhMQThsd0hORVo4d1pXNXFxeVhxd0NWUFNvaE5NaldJTm0xWG8xVGF5QjRhcXZwc2lKNFdQSTFSZFY5dGhrZ0NYejN6RVNrOWV3YQ?oc=5
-2. **Sam Altman, Demis Hassabis, Dario Amodei to attend G7 France - Yahoo** — Sam Altman News — Score 73
-   https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlJDelRxWWpiNEIxclZhaVhVNjVpSWc1bS1IM2RfaGRySC1fdHlxdUpRYXBhR0U3emFlcFhHYURfQ1hfT2x1eTVVbkJoeHJBWldRMkpKSzNUV0liZHFnVWYtYlpWM3N3YU0zRm9Zell4OWtXanFGc1c3bmp0dlpzeTN2N2xfU0U1blF2WUV1VkFoVloySmc?oc=5
-3. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 70
-   https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhxNEhRWTVtQUxiS2ZlUk1JaUJPQnI2RXluTm8tTnNoN083RWRhZF9UMlliY00zVWM4d2ZTTFROdVV5YlliOFVfTTQweENyOXY0ZEhGY3hjM2VZcmkxRnRtZlpscU1aYmFHWlMzYUlXNEdNVTdZM0M1T2VHWC1DLXBJcld3S1V1LU5Qc3hOVEkzNWx0Sk56WGsxek5Bc29kMkN0ZUgwVGxQM3RWMm1HTmxOVVg?oc=5
-4. **Anthropic CEO Dario Amodei Has Only One Direct Report - Bloomberg** — Dario Amodei News — Score 67
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
-5. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 66
+2. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 76
    https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
+3. **Sam Altman, Demis Hassabis, Dario Amodei to attend G7 France - Yahoo** — Sam Altman News — Score 73
+   https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlJDelRxWWpiNEIxclZhaVhVNjVpSWc1bS1IM2RfaGRySC1fdHlxdUpRYXBhR0U3emFlcFhHYURfQ1hfT2x1eTVVbkJoeHJBWldRMkpKSzNUV0liZHFnVWYtYlpWM3N3YU0zRm9Zell4OWtXanFGc1c3bmp0dlpzeTN2N2xfU0U1blF2WUV1VkFoVloySmc?oc=5
+4. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 70
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhxNEhRWTVtQUxiS2ZlUk1JaUJPQnI2RXluTm8tTnNoN083RWRhZF9UMlliY00zVWM4d2ZTTFROdVV5YlliOFVfTTQweENyOXY0ZEhGY3hjM2VZcmkxRnRtZlpscU1aYmFHWlMzYUlXNEdNVTdZM0M1T2VHWC1DLXBJcld3S1V1LU5Qc3hOVEkzNWx0Sk56WGsxek5Bc29kMkN0ZUgwVGxQM3RWMm1HTmxOVVg?oc=5
+5. **Anthropic CEO Dario Amodei Has Only One Direct Report - Bloomberg** — Dario Amodei News — Score 67
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
 6. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
    https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
 7. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **AMA demands doctor oversight of AI, rejects ‘provider’ label for physicians - Crain's Chicago Business** — https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnlSNGNfVGRkeTJYRG1NWUc3ZklfR09pN2VROEFDT1Vkby0tc2NXSVg1QXY0eC1kMUZuVHpVU0dod0NQeGg0SnRZaVB0bkw3Sm4yU1F1V3BVNGEyU18tNTJTaUVEcmVWNld5ZjRWOWkyb1hnbW5ZZU5Eb3dhX0QwcXVHLW91enozVl9HZ0lNMUtUUDB5dmRQaXlZSHItWmtJSnRB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1866
+- Total stories tracked: 1936
 - Most active topic: anthropic
 - Busiest category: AI General News
 
