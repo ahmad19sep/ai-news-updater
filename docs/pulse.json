@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T17:23:06.175879+00:00",
+  "generated_at": "2026-06-16T21:21:15.506101+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 21,
+      "reddit": 50,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or website.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create visually appealing content for your business.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create amazing images with ChatGPT's new feature.",
+      "linkedin_angle": "Explore the potential of AI-generated images in your industry.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT's image generation capabilities can be used for various applications, including affiliate marketing."
       },
       "sources": [
         {
@@ -41,71 +41,170 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT Images 2.0 se aapke social media ke liye image kaise banayein",
-        "ChatGPT Images 2.0 ka istemal karke aapke website ke liye image kaise banayein",
-        "ChatGPT Images 2.0 ke fayde aur nuksaan"
+        "ChatGPT se tasveerein kaise banayein",
+        "ChatGPT Images 2.0 ka upyog kaise karein",
+        "ChatGPT ke naye feature se aapke liye kya hai?"
+      ]
+    },
+    {
+      "name": "Anthropic's Fable 5",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A powerful AI model developed by Anthropic.",
+      "audience_angle": "Discover the capabilities of Fable 5 and how it can benefit you.",
+      "linkedin_angle": "Learn about the latest advancements in AI technology and their applications.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Fable 5's capabilities can be leveraged for various applications, including affiliate marketing."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u7hoxg/policy_updates/",
+          "signal": "Policy Updates"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+          "signal": "Fable ban was never about a jailbreak?"
+        }
+      ],
+      "content_ideas": [
+        "Fable 5 se aapke liye kya hai?",
+        "Fable 5 ka upyog kaise karein",
+        "Fable 5 ke naye feature se aapke liye kya hai?"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI.",
-      "audience_angle": "You can use AI video generation to create stunning videos for your social media or website.",
-      "linkedin_angle": "Discover how AI video generation can help you create engaging content for your business.",
-      "local_relevance": 6,
+      "what_it_is": "The use of AI to generate videos.",
+      "audience_angle": "Create stunning videos with AI and take your content to the next level.",
+      "linkedin_angle": "Explore the potential of AI-generated videos in your industry.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting the tool."
+        "note": "AI-generated videos can be used for various applications, including affiliate marketing."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rIF6HG_oVbQ",
-          "signal": "Four AI tools. Countless creative possibilities."
+          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
+          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
         }
       ],
       "content_ideas": [
-        "AI video generation se aapke social media ke liye video kaise banayein",
-        "AI video generation ka istemal karke aapke website ke liye video kaise banayein",
-        "AI video generation ke fayde aur nuksaan"
+        "AI se video kaise banayein",
+        "AI video generation ka upyog kaise karein",
+        "AI se video banane ke fayde"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A new feature of ChatGPT that allows users to interact with it in a more conversational way.",
+      "audience_angle": "Discover the capabilities of ChatGPT Agent and how it can benefit you.",
+      "linkedin_angle": "Learn about the latest advancements in conversational AI and their applications.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Agent's capabilities can be leveraged for various applications, including affiliate marketing."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "chatgpt agent"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT Agent se aapke liye kya hai?",
+        "ChatGPT Agent ka upyog kaise karein",
+        "ChatGPT Agent ke naye feature se aapke liye kya hai?"
+      ]
+    },
+    {
+      "name": "AI Music Generation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "The use of AI to generate music.",
+      "audience_angle": "Create stunning music with AI and take your creativity to the next level.",
+      "linkedin_angle": "Explore the potential of AI-generated music in your industry.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI-generated music can be used for various applications, including affiliate marketing."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+music",
+          "signal": "ai music"
+        }
+      ],
+      "content_ideas": [
+        "AI se music kaise banayein",
+        "AI music generation ka upyog kaise karein",
+        "AI se music banane ke fayde"
       ]
     },
     {
       "name": "Hermes Agent",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Hermes Agent is a free AI agent that can help users with various tasks.",
-      "audience_angle": "You can use Hermes Agent to automate tasks and increase productivity.",
-      "linkedin_angle": "Discover how Hermes Agent can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 4,
+      "what_it_is": "A new AI agent that can be used for various applications.",
+      "audience_angle": "Discover the capabilities of Hermes Agent and how it can benefit you.",
+      "linkedin_angle": "Learn about the latest advancements in AI technology and their applications.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Hermes Agent has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "Hermes Agent's capabilities can be leveraged for various applications, including affiliate marketing."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l1VrD1Sx8AA",
-          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World"
+          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World (Now Runs on Claude Fable 5)"
         }
       ],
       "content_ideas": [
-        "Hermes Agent se aapke kaam ko kaise automate karein",
-        "Hermes Agent ka istemal karke aapke productivity ko kaise badhayein",
-        "Hermes Agent ke fayde aur nuksaan"
+        "Hermes Agent se aapke liye kya hai?",
+        "Hermes Agent ka upyog kaise karein",
+        "Hermes Agent ke naye feature se aapke liye kya hai?"
       ]
     }
   ],
@@ -117,16 +216,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or website.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create visually appealing content for your business.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create amazing images with ChatGPT's new feature.",
+      "linkedin_angle": "Explore the potential of AI-generated images in your industry.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT's image generation capabilities can be used for various applications, including affiliate marketing."
       },
       "sources": [
         {
@@ -136,56 +235,124 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT Images 2.0 se aapke social media ke liye image kaise banayein",
-        "ChatGPT Images 2.0 ka istemal karke aapke website ke liye image kaise banayein",
-        "ChatGPT Images 2.0 ke fayde aur nuksaan"
+        "ChatGPT se tasveerein kaise banayein",
+        "ChatGPT Images 2.0 ka upyog kaise karein",
+        "ChatGPT ke naye feature se aapke liye kya hai?"
+      ]
+    },
+    {
+      "name": "Anthropic's Fable 5",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A powerful AI model developed by Anthropic.",
+      "audience_angle": "Discover the capabilities of Fable 5 and how it can benefit you.",
+      "linkedin_angle": "Learn about the latest advancements in AI technology and their applications.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Fable 5's capabilities can be leveraged for various applications, including affiliate marketing."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u7hoxg/policy_updates/",
+          "signal": "Policy Updates"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+          "signal": "Fable ban was never about a jailbreak?"
+        }
+      ],
+      "content_ideas": [
+        "Fable 5 se aapke liye kya hai?",
+        "Fable 5 ka upyog kaise karein",
+        "Fable 5 ke naye feature se aapke liye kya hai?"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A new feature of ChatGPT that allows users to interact with it in a more conversational way.",
+      "audience_angle": "Discover the capabilities of ChatGPT Agent and how it can benefit you.",
+      "linkedin_angle": "Learn about the latest advancements in conversational AI and their applications.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Agent's capabilities can be leveraged for various applications, including affiliate marketing."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "chatgpt agent"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT Agent se aapke liye kya hai?",
+        "ChatGPT Agent ka upyog kaise karein",
+        "ChatGPT Agent ke naye feature se aapke liye kya hai?"
       ]
     },
     {
       "name": "Hermes Agent",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Hermes Agent is a free AI agent that can help users with various tasks.",
-      "audience_angle": "You can use Hermes Agent to automate tasks and increase productivity.",
-      "linkedin_angle": "Discover how Hermes Agent can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 4,
+      "what_it_is": "A new AI agent that can be used for various applications.",
+      "audience_angle": "Discover the capabilities of Hermes Agent and how it can benefit you.",
+      "linkedin_angle": "Learn about the latest advancements in AI technology and their applications.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Hermes Agent has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "Hermes Agent's capabilities can be leveraged for various applications, including affiliate marketing."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l1VrD1Sx8AA",
-          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World"
+          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World (Now Runs on Claude Fable 5)"
         }
       ],
       "content_ideas": [
-        "Hermes Agent se aapke kaam ko kaise automate karein",
-        "Hermes Agent ka istemal karke aapke productivity ko kaise badhayein",
-        "Hermes Agent ke fayde aur nuksaan"
+        "Hermes Agent se aapke liye kya hai?",
+        "Hermes Agent ka upyog kaise karein",
+        "Hermes Agent ke naye feature se aapke liye kya hai?"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits hitting users hard",
-      "who_affected": "ChatGPT users",
+      "problem": "Claude usage limits hitting users hard",
+      "who_affected": "Claude users",
       "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u7bup6/when_youre_one_fix_away_from_finishing_the/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u78tig/anthropic_just_got_sued_over_claude_usage_limits/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and continue using the tool effectively."
+      "content_opportunity": "Exploring alternatives to Claude or finding ways to optimize usage within the limits."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Images 2.0, as it offers a new and exciting way to generate images using AI, with a wide range of potential applications and uses."
 }
