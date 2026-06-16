@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T11:36:42.602913+00:00",
+  "generated_at": "2026-06-16T17:23:06.175879+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT that can generate images.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images and videos for your social media and business needs.",
-      "linkedin_angle": "Upgrade your content creation skills with ChatGPT Images 2.0 and take your business to the next level.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or website.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create visually appealing content for your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools and services."
+        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
@@ -41,102 +41,40 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT Images 2.0 se video kaise banayein",
-        "ChatGPT Images 2.0 ke fayde aur nuksan",
-        "ChatGPT Images 2.0 ka upyog karke paisay kaise kamayein"
+        "ChatGPT Images 2.0 se aapke social media ke liye image kaise banayein",
+        "ChatGPT Images 2.0 ka istemal karke aapke website ke liye image kaise banayein",
+        "ChatGPT Images 2.0 ke fayde aur nuksaan"
       ]
     },
     {
-      "name": "Claude Fable AI",
-      "category": "tool_launch",
+      "name": "AI Video Generation",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A new AI tool that can help with content creation and trading.",
-      "audience_angle": "You can use Claude Fable AI to create high-quality content and trade stocks with ease.",
-      "linkedin_angle": "Take your content creation and trading skills to the next level with Claude Fable AI.",
+      "what_it_is": "AI video generation is a technology that allows users to create videos using AI.",
+      "audience_angle": "You can use AI video generation to create stunning videos for your social media or website.",
+      "linkedin_angle": "Discover how AI video generation can help you create engaging content for your business.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable AI has an affiliate program for its tools and services."
+        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting the tool."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2WJnNhQD2go",
-          "signal": "I Let Claude Fable AI ACTUALLY Trade REAL Money For Me | INSANE Results"
+          "url": "https://www.youtube.com/watch?v=rIF6HG_oVbQ",
+          "signal": "Four AI tools. Countless creative possibilities."
         }
       ],
       "content_ideas": [
-        "Claude Fable AI se content kaise banayein",
-        "Claude Fable AI ke fayde aur nuksan",
-        "Claude Fable AI ka upyog karke paisay kaise kamayein"
-      ]
-    },
-    {
-      "name": "AI Video Creation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to create high-quality videos for social media and business needs.",
-      "audience_angle": "You can use AI to create amazing videos and grow your online presence.",
-      "linkedin_angle": "Upgrade your video creation skills with AI and take your business to the next level.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI video creation tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
-          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
-        }
-      ],
-      "content_ideas": [
-        "AI se video kaise banayein",
-        "AI video creation ke fayde aur nuksan",
-        "AI video creation ka upyog karke paisay kaise kamayein"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI agents to automate tasks and grow your online presence.",
-      "audience_angle": "You can use AI agents to automate tasks and free up time for more important things.",
-      "linkedin_angle": "Upgrade your productivity skills with AI agents and take your business to the next level.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI agent tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Zqno_vux6d8",
-          "signal": "AI agents explained: Build your first agent in 8 minutes"
-        }
-      ],
-      "content_ideas": [
-        "AI agents se kaam kaise karayein",
-        "AI agents ke fayde aur nuksan",
-        "AI agents ka upyog karke paisay kaise kamayein"
+        "AI video generation se aapke social media ke liye video kaise banayein",
+        "AI video generation ka istemal karke aapke website ke liye video kaise banayein",
+        "AI video generation ke fayde aur nuksaan"
       ]
     },
     {
@@ -146,59 +84,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A new AI agent tool that can help with content creation and automation.",
-      "audience_angle": "You can use Hermes Agent to create high-quality content and automate tasks with ease.",
-      "linkedin_angle": "Take your content creation and automation skills to the next level with Hermes Agent.",
-      "local_relevance": 5,
+      "what_it_is": "Hermes Agent is a free AI agent that can help users with various tasks.",
+      "audience_angle": "You can use Hermes Agent to automate tasks and increase productivity.",
+      "linkedin_angle": "Discover how Hermes Agent can help you streamline your workflow and increase efficiency.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Hermes Agent has an affiliate program for its tools and services."
+        "note": "Hermes Agent has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l1VrD1Sx8AA",
-          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World (Now Runs on Claude Fable 5)"
+          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World"
         }
       ],
       "content_ideas": [
-        "Hermes Agent se content kaise banayein",
-        "Hermes Agent ke fayde aur nuksan",
-        "Hermes Agent ka upyog karke paisay kaise kamayein"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to trade stocks and grow your wealth.",
-      "audience_angle": "You can use AI to trade stocks and grow your wealth with ease.",
-      "linkedin_angle": "Upgrade your trading skills with AI and take your wealth to the next level.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI trading tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2WJnNhQD2go",
-          "signal": "I Let Claude Fable AI ACTUALLY Trade REAL Money For Me | INSANE Results"
-        }
-      ],
-      "content_ideas": [
-        "AI se trading kaise karein",
-        "AI trading ke fayde aur nuksan",
-        "AI trading ka upyog karke paisay kaise kamayein"
+        "Hermes Agent se aapke kaam ko kaise automate karein",
+        "Hermes Agent ka istemal karke aapke productivity ko kaise badhayein",
+        "Hermes Agent ke fayde aur nuksaan"
       ]
     }
   ],
@@ -210,16 +117,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT that can generate images.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images and videos for your social media and business needs.",
-      "linkedin_angle": "Upgrade your content creation skills with ChatGPT Images 2.0 and take your business to the next level.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or website.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create visually appealing content for your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools and services."
+        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
@@ -229,9 +136,9 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT Images 2.0 se video kaise banayein",
-        "ChatGPT Images 2.0 ke fayde aur nuksan",
-        "ChatGPT Images 2.0 ka upyog karke paisay kaise kamayein"
+        "ChatGPT Images 2.0 se aapke social media ke liye image kaise banayein",
+        "ChatGPT Images 2.0 ka istemal karke aapke website ke liye image kaise banayein",
+        "ChatGPT Images 2.0 ke fayde aur nuksaan"
       ]
     },
     {
@@ -241,59 +148,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A new AI agent tool that can help with content creation and automation.",
-      "audience_angle": "You can use Hermes Agent to create high-quality content and automate tasks with ease.",
-      "linkedin_angle": "Take your content creation and automation skills to the next level with Hermes Agent.",
-      "local_relevance": 5,
+      "what_it_is": "Hermes Agent is a free AI agent that can help users with various tasks.",
+      "audience_angle": "You can use Hermes Agent to automate tasks and increase productivity.",
+      "linkedin_angle": "Discover how Hermes Agent can help you streamline your workflow and increase efficiency.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Hermes Agent has an affiliate program for its tools and services."
+        "note": "Hermes Agent has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l1VrD1Sx8AA",
-          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World (Now Runs on Claude Fable 5)"
+          "signal": "This Free AI Agent Called Hermes Just Hit #1 in the World"
         }
       ],
       "content_ideas": [
-        "Hermes Agent se content kaise banayein",
-        "Hermes Agent ke fayde aur nuksan",
-        "Hermes Agent ka upyog karke paisay kaise kamayein"
-      ]
-    },
-    {
-      "name": "Claude Fable AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new AI tool that can help with content creation and trading.",
-      "audience_angle": "You can use Claude Fable AI to create high-quality content and trade stocks with ease.",
-      "linkedin_angle": "Take your content creation and trading skills to the next level with Claude Fable AI.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable AI has an affiliate program for its tools and services."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2WJnNhQD2go",
-          "signal": "I Let Claude Fable AI ACTUALLY Trade REAL Money For Me | INSANE Results"
-        }
-      ],
-      "content_ideas": [
-        "Claude Fable AI se content kaise banayein",
-        "Claude Fable AI ke fayde aur nuksan",
-        "Claude Fable AI ka upyog karke paisay kaise kamayein"
+        "Hermes Agent se aapke kaam ko kaise automate karein",
+        "Hermes Agent ka istemal karke aapke productivity ko kaise badhayein",
+        "Hermes Agent ke fayde aur nuksaan"
       ]
     }
   ],
@@ -305,22 +181,10 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u69wu0/is_chatgpt_underpriced_for_what_it_can_do/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u7bup6/when_youre_one_fix_away_from_finishing_the/"
         }
       ],
       "content_opportunity": "How to overcome ChatGPT usage limits and continue using the tool effectively."
-    },
-    {
-      "problem": "AI agents not working as expected",
-      "who_affected": "AI agent users",
-      "signal_strength": 6,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Zqno_vux6d8"
-        }
-      ],
-      "content_opportunity": "How to troubleshoot and fix common issues with AI agents."
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
