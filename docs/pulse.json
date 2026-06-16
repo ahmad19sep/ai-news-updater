@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T21:24:43.735480+00:00",
+  "generated_at": "2026-06-16T05:36:18.703392+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -18,21 +18,21 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
       "audience_angle": "You can use ChatGPT to create amazing images for your social media or personal projects.",
-      "linkedin_angle": "Explore how ChatGPT image generation can enhance your professional visual content.",
-      "local_relevance": 5,
+      "linkedin_angle": "Leverage ChatGPT for creative content generation in your professional projects.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -42,40 +42,40 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rSaKHmWsI2U",
-          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
+          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
+          "signal": "Trending Photo Editing || Chatgpt Photo Edit ||Gemini photo edit"
         }
       ],
       "content_ideas": [
         "ChatGPT se images kaise banayein",
-        "ChatGPT image generation ke fayde",
-        "ChatGPT images ko edit karne ke tarike"
+        "ChatGPT ke saath photo editing kaise karein",
+        "ChatGPT ki image generation capabilities ka istemal kaise karein"
       ]
     },
     {
       "name": "AI Agents for Business",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "AI agents can automate tasks and improve business efficiency.",
-      "audience_angle": "You can use AI agents to streamline your business operations and increase productivity.",
-      "linkedin_angle": "Discover how AI agents can transform your business and improve customer experience.",
+      "what_it_is": "AI agents can be used to automate business tasks and improve productivity.",
+      "audience_angle": "You can use AI agents to streamline your business operations and increase efficiency.",
+      "linkedin_angle": "Discover how AI agents can transform your business operations and boost productivity.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI agent tools have affiliate programs for business users."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for AI agents."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jNJH6uD5LQE",
-          "signal": "Generative AI vs Agentic AI vs AI Agents"
+          "url": "https://www.youtube.com/watch?v=Zqno_vux6d8",
+          "signal": "AI agents explained: Build your first agent in 8 minutes"
         },
         {
           "platform": "hackernews",
@@ -84,93 +84,62 @@
         }
       ],
       "content_ideas": [
-        "AI agents ke business me fayde",
-        "AI agents ko kaise use karein",
-        "AI agents ke liye best tools"
+        "AI agents ke saath business kaise badhayein",
+        "AI agents ke fayde aur nuksan",
+        "AI agents ko apne business mein kaise istemal karein"
       ]
     },
     {
-      "name": "Google OMNI AI Video Generator",
+      "name": "Google Omni AI Video Generator",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google OMNI AI Video Generator can create videos based on text prompts.",
-      "audience_angle": "You can use Google OMNI AI Video Generator to create stunning videos for your social media or personal projects.",
-      "linkedin_angle": "Explore how Google OMNI AI Video Generator can enhance your professional video content.",
-      "local_relevance": 4,
+      "what_it_is": "Google Omni AI Video Generator is a tool that can generate videos based on text prompts.",
+      "audience_angle": "You can use Google Omni AI Video Generator to create stunning videos for your social media or personal projects.",
+      "linkedin_angle": "Leverage Google Omni AI Video Generator for creative video content generation in your professional projects.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "reel",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google OMNI AI Video Generator has an affiliate program for its tool."
+        "note": "Google Omni AI Video Generator has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-7BeOoLxFwc",
-          "signal": "How to use Google OMNI 🤯 VERY EASY 🔥| Free AI Video Kaise Banaye | Gemini Avatar"
+          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
+          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
         }
       ],
       "content_ideas": [
-        "Google OMNI AI Video Generator kaise use karein",
-        "Google OMNI AI Video Generator ke fayde",
-        "Google OMNI AI Video Generator ke liye best prompts"
+        "Google Omni AI Video Generator se videos kaise banayein",
+        "Google Omni AI Video Generator ke features",
+        "Google Omni AI Video Generator ke saath video editing kaise karein"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Google OMNI AI Video Generator",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Google OMNI AI Video Generator can create videos based on text prompts.",
-      "audience_angle": "You can use Google OMNI AI Video Generator to create stunning videos for your social media or personal projects.",
-      "linkedin_angle": "Explore how Google OMNI AI Video Generator can enhance your professional video content.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Google OMNI AI Video Generator has an affiliate program for its tool."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-7BeOoLxFwc",
-          "signal": "How to use Google OMNI 🤯 VERY EASY 🔥| Free AI Video Kaise Banaye | Gemini Avatar"
-        }
-      ],
-      "content_ideas": [
-        "Google OMNI AI Video Generator kaise use karein",
-        "Google OMNI AI Video Generator ke fayde",
-        "Google OMNI AI Video Generator ke liye best prompts"
-      ]
-    },
-    {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
       "audience_angle": "You can use ChatGPT to create amazing images for your social media or personal projects.",
-      "linkedin_angle": "Explore how ChatGPT image generation can enhance your professional visual content.",
-      "local_relevance": 5,
+      "linkedin_angle": "Leverage ChatGPT for creative content generation in your professional projects.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -180,14 +149,45 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rSaKHmWsI2U",
-          "signal": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai"
+          "url": "https://www.youtube.com/watch?v=HbJysTe_BkM",
+          "signal": "Trending Photo Editing || Chatgpt Photo Edit ||Gemini photo edit"
         }
       ],
       "content_ideas": [
         "ChatGPT se images kaise banayein",
-        "ChatGPT image generation ke fayde",
-        "ChatGPT images ko edit karne ke tarike"
+        "ChatGPT ke saath photo editing kaise karein",
+        "ChatGPT ki image generation capabilities ka istemal kaise karein"
+      ]
+    },
+    {
+      "name": "Google Omni AI Video Generator",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Omni AI Video Generator is a tool that can generate videos based on text prompts.",
+      "audience_angle": "You can use Google Omni AI Video Generator to create stunning videos for your social media or personal projects.",
+      "linkedin_angle": "Leverage Google Omni AI Video Generator for creative video content generation in your professional projects.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Omni AI Video Generator has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
+          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
+        }
+      ],
+      "content_ideas": [
+        "Google Omni AI Video Generator se videos kaise banayein",
+        "Google Omni AI Video Generator ke features",
+        "Google Omni AI Video Generator ke saath video editing kaise karein"
       ]
     }
   ],
@@ -195,14 +195,14 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1u69wu0/is_chatgpt_underpriced_for_what_it_can_do/"
         }
       ],
-      "content_opportunity": "ChatGPT usage limits: How to optimize your usage and get the most out of the tool."
+      "content_opportunity": "ChatGPT usage limits ka hal kaise nikalein"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
