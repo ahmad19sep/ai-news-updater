@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnlSNGNfVGRkeTJYRG1NWUc3ZklfR09pN2VROEFDT1Vkby0tc2NXSVg1QXY0eC1kMUZuVHpVU0dod0NQeGg0SnRZaVB0bkw3Sm4yU1F1V3BVNGEyU18tNTJTaUVEcmVWNld5ZjRWOWkyb1hnbW5ZZU5Eb3dhX0QwcXVHLW91enozVl9HZ0lNMUtUUDB5dmRQaXlZSHItWmtJSnRB?oc=5
 5. **Doctors caution against using AI for medical advice - FOX13 Memphis** — science angle
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjNIU3hYZTMxNXBpZi1KYzQxb0wzTnlibmlWM2RrNlV1aFV3cHJVS0ZINm5USWFpZjUtU0hJSTQySFJBV3hGZ1hDUmZ5TDZfRHh1WElYZEtuSWJBMHN5S1NxSW9UcEdNT2lhT05wUGxUR2lvcU9CdkRmSUdRbEg0OC1aZmFiVVNhRV9WM254elpDOUlhMW5hMUZNV1lzTkRjM0ZWeDFhZXZqcWt0cXFuVlRUbm5SNTNKa2RDVmFtYTJnUFowbFhQVXdOelZUd3lN?oc=5
-6. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
+6. **Have a thorny medical question? Your doctor may be using AI for that - thestar.com.my** — science angle
+   https://news.google.com/rss/articles/CBMivAFBVV95cUxPcFp1dFBmakI3cGVnamZxamNrZzF3VFp6S281ZVVqaDlsdVZiRjZMa3FGUkRta0NRdldCWm5kMnNpZmJrb203Um91TDhXVXdYV1pLMmcwbmNKeXEwZlZ5SjZqUnZ0MG9nWDVUNFQtLV82Qk1YUWt2N0pRWmJQd0xNSUVENWMyMHlpRXUzYkQ3NXI4Qm9oaEJsNmRlcWczMnZ1TkYtU2lvX1hVbkpubnFZXy1ORnVMV1UwLVhTZQ?oc=5
+7. **How to Navigate Patient Consent for AI Use in Medical Care - Physician's Weekly** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxNelBaRnF6ZmdFTEYxRXBBYlFmUTF2ZTJJbG1BdDZGYmJYZ2NFZzFRNmZIQ1JCRWtoUkNXRTVLSl9veWxtOUF3WlpYWVJWb2psODIzREEwbjEwbDR6bExxSVZncFMycHBBdVZvU3F5YzExUEJoM0NUYXZHWG9tZzd1QzI0LVFuVXlUcnppcXZ6MndaT2x1VHBoOXU3N2M?oc=5
-7. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
+8. **One Doctor’s Mission to Spread AI Literacy in Medicine - Medscape** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1vNHVjVlZmN3M1VnJLcUNSQjloeU9OMEczTXA2Z280TlowZEE3NklOeXY3U2ZEVFhpRWJ6UXQ0aHBodDdXeFJFN3FRMzJBVDBBSGtrRW5fZEtXX0FxMW5rVWpFbzVYaUxSOGJyVTY4aTVvaWs3LUdPN3Z0cEZlN2xFc2pyTWR1SDJPcXJwak9zRURTVjFRRFVYN3hxdw?oc=5
-8. **New AI and mixed reality-powered healthcare simulation platform strengthens medical training for future doctors - Carle Illinois College of Medicine** — science angle
-   https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX09wdjgtZDZzN0FhV0VlaVVkcXZ3VjMxSFlVNHpJaVFmREgya2diWnFIVHZRQ2VLMEo4cExoZ2VOVExCc1dYMDdfeDJUNWx1a0tTVk5TRWpGcEEyUzFpaldVbDBWMkpza09ZQ2xOM25MTGl5REtldTE3djc4cVQzS1FSTUQ3aEJ0UUE1bkg5WjVxVmdLb1piU0dQX3Z2SmZVM1lhbENIcnRnVUNheW1YLXN3NEFDcFQ5Q1FJTWlFNUNsN01JNkFvc1BNTDdycmJPMWlaVTRYeTYzUkRqeVE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS** — Sam Altman News — Score 123
@@ -33,18 +33,18 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
    https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhxNEhRWTVtQUxiS2ZlUk1JaUJPQnI2RXluTm8tTnNoN083RWRhZF9UMlliY00zVWM4d2ZTTFROdVV5YlliOFVfTTQweENyOXY0ZEhGY3hjM2VZcmkxRnRtZlpscU1aYmFHWlMzYUlXNEdNVTdZM0M1T2VHWC1DLXBJcld3S1V1LU5Qc3hOVEkzNWx0Sk56WGsxek5Bc29kMkN0ZUgwVGxQM3RWMm1HTmxOVVg?oc=5
 4. **Anthropic CEO Dario Amodei Has Only One Direct Report - Bloomberg** — Dario Amodei News — Score 67
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
-5. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
-   https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
-6. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 56
+5. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 66
    https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
+6. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
+   https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
 7. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
    https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmk2b1lrRUhKalJRMEpzSUs2TEQ0YTVSTGVvUllEV05sUk91dkd2ZFRHQ3dBb1hRVlpRTUNycld4OVdKOFppWFRDRzg1LWpWa01mYi1HQzdjZXVwRXU2UlZuOWplcWd4eXh4Z3p1TlVmVEFmOGk3ZWJLNFI5OFRncm9PWU5mTmFXUlkxaVRUTnZPMVY0TXltRm5IVkFlLVV0Z25yZXRnTWJSQjRvVzVWcDM4U1VTMnVpZFh5ZlUtMnhzcnRSUFZ1cUJ30gHPAUFVX3lxTFBVRkMzMm96VmY2SDFhR1RGUlJPNFBxZUNXMk1oc01Xa1l6M2ZGbk5oY3ljYTBmUTVCRTlETll0YmxqN3JSVFFTdlNFeUc1NDQ0dVY0Tk9rMXJRakxtY0lsaHctNE1Qby1tSXlFNHJMX1hnVFRqSGx6MjVTUWJBSTZWc19CZHRhX25EdzF6SnVycHUtNzZfcGJjMmpjUnVlNlZtcVhwRjFJSUhoaXBNcVZHTnVTZXR0ZkJxaS05Y292ZWhBa0VGdkpyZklSQ0tFVQ?oc=5
 8. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 53
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a2d46b35f9e46f89dff7ce5b50942d8&url=https%3a%2f%2fwww.msn.com%2fen-nz%2fnews%2fother%2fpolice-officer-investigated-for-using-ai-to-create-evidential-material-in-cases%2far-AA25xSHi&c=8809494013763372756&mkt=en-us
 9. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
-10. **Tech executives to attend G7 summit as leaders address AI, online safety - Reuters** — Mistral News — Score 50
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2hfSTVtRGZXdWFoSXBkMzRDeUpHYlZvOWNuaDFzQkM0QURpbUZ0c05hQ3VTckZrc0F4OUtFeE5TbVNvTDhSZmtvZngzSUNzWmdKVzBRQy15QWpfdG9wVThDdklXdlRiMXVnME9GX0N3UGJrd244aXg1MnZoV3hmUDhUVmhxOVpqLVZHNDNyV0pJS2JOVlV1U3YyaVpENzk2ZVpjYUV6WlltaFE?oc=5
+10. **US judge dismisses Musk’s xAI trade secret lawsuit against OpenAI - Al Jazeera** — Sam Altman News — Score 51
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxPTFhaaU5VQzRPVE80Z01ISjQtQ25RTDNncnl6MFFqTVg4UGJPUWFIbjVTbGN0cHV2SE1ZNlZzbjRqVHM0Y2h1ZG9KekxGMkVSZ1dIY0pyb1ZScEpQQWw3ZWUwVUQxUFUyNVpDanF2eTRfeTlCQzVjdjBwY0pDQThEUjY1M3dCZ2c0VXE3OG9ITjRiUnNtMkpmaG5FQ1pKRnkza2MydUl4d2lvZS0y0gGyAUFVX3lxTFBnLW8xTkFtX0N0UHRQSV8tZGhBdWE4N1RISXZKUDBjWFZPMjZneHNad0N5N3Q4OUdQVWV3Skhha3NyQS1HdTRxcUY0TUJGTHFLVHZYUFdNdDdOUnJkLW1Fd0lyX2VGbkM2N3B4cDE3bURkT2ZkREdZMktVVmUwWWhQSmRIendhd2dvYnFYVE54OFhOcXE0Q0c0cWU0NThKZ0dDUWlGQk1FMnRhZFRoSzY0M3c?oc=5
 
 ## 🧪 AI in Science Highlights
 - **As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors - Spotlight PA** — https://news.google.com/rss/articles/CBMinwFBVV95cUxPcF8zNDFuMTE0UFRxN2ZoV2tjR2xYbTRPTXNKX25LcVl0ejN3c3d6cFZOQ1pPVUNkLXZIUUplYVpSWTFDbzRBanRwUDVfaW9DWXFhSVpiOXRZeEpMRTBYU05rakpaeDNmNW5ib3Bsbl9Td3cwQ2dSUnA5U2pHbUUzRS1vcmJoSWZtbXNzRWlrZEJ5MFB0M3pSUHREdjN0S0U?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y
 - **AMA demands doctor oversight of AI, rejects ‘provider’ label for physicians - Crain's Chicago Business** — https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnlSNGNfVGRkeTJYRG1NWUc3ZklfR09pN2VROEFDT1Vkby0tc2NXSVg1QXY0eC1kMUZuVHpVU0dod0NQeGg0SnRZaVB0bkw3Sm4yU1F1V3BVNGEyU18tNTJTaUVEcmVWNld5ZjRWOWkyb1hnbW5ZZU5Eb3dhX0QwcXVHLW91enozVl9HZ0lNMUtUUDB5dmRQaXlZSHItWmtJSnRB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1781
+- Total stories tracked: 1866
 - Most active topic: anthropic
 - Busiest category: AI General News
 
