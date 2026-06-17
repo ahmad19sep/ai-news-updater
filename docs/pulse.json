@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T05:18:34.965198+00:00",
+  "generated_at": "2026-06-17T11:18:56.863038+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,29 +9,30 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images and earn money by selling them online.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business and stay ahead of the competition.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your personal or professional projects, making it easier to create visual content.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your marketing materials, presentations, and social media posts.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -41,9 +42,40 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT Images 2.0 se paisay kaise kamayein",
-        "ChatGPT Images 2.0 ki madad se online business kaise shuru karein",
-        "ChatGPT Images 2.0 ke fayde aur nuksan"
+        "ChatGPT se images kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation tutorial"
+      ]
+    },
+    {
+      "name": "GLM-5.2 Model",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "GLM-5.2 is a new open weights model on the Artificial Analysis intelligence index.",
+      "audience_angle": "You can use GLM-5.2 to improve your AI models and stay ahead in the field of artificial intelligence.",
+      "linkedin_angle": "Stay updated with the latest developments in AI with GLM-5.2, a leading open weights model.",
+      "local_relevance": 4,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "GLM-5.2 is an open-source model."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+          "signal": "GLM-5.2 is the new leading open weights model on the Artificial Analysis intelligence index"
+        }
+      ],
+      "content_ideas": [
+        "GLM-5.2 model ke bare mein jaaniye",
+        "GLM-5.2 model ke fayde",
+        "GLM-5.2 model tutorial"
       ]
     },
     {
@@ -53,80 +85,81 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI.",
-      "audience_angle": "You can use AI video generation to create stunning videos and earn money by selling them online.",
-      "linkedin_angle": "Learn how to leverage AI video generation for your business and stay ahead of the competition.",
+      "what_it_is": "AI video generation allows users to create videos based on text prompts or images.",
+      "audience_angle": "You can use AI video generation to create engaging videos for your social media, marketing, or personal projects.",
+      "linkedin_angle": "Leverage AI video generation to enhance your marketing strategy and create engaging content.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools have affiliate programs that allow users to earn money by promoting the tools."
+        "note": "Several AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rIF6HG_oVbQ",
-          "signal": "Four AI tools. Countless creative possibilities."
+          "url": "https://www.youtube.com/watch?v=xPqA6bU681A",
+          "signal": "5 Best FREE AI Video Generators (Unlimited + No Watermark)"
         }
       ],
       "content_ideas": [
-        "AI video generation se paisay kaise kamayein",
-        "AI video generation ki madad se online business kaise shuru karein",
-        "AI video generation ke fayde aur nuksan"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "technique",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI agents are software programs that use AI to perform tasks autonomously.",
-      "audience_angle": "You can use AI agents to automate tasks and earn money by selling your services online.",
-      "linkedin_angle": "Learn how to leverage AI agents for your business and stay ahead of the competition.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI agent tools have affiliate programs that allow users to earn money by promoting the tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jNJH6uD5LQE",
-          "signal": "AI agents explained: Build your first agent in 8 minutes"
-        }
-      ],
-      "content_ideas": [
-        "AI agents se paisay kaise kamayein",
-        "AI agents ki madad se online business kaise shuru karein",
-        "AI agents ke fayde aur nuksan"
+        "AI video generation ke fayde",
+        "AI video generation tutorial",
+        "AI video generation ke liye best tools"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "GLM-5.2 Model",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images and earn money by selling them online.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business and stay ahead of the competition.",
-      "local_relevance": 5,
+      "what_it_is": "GLM-5.2 is a new open weights model on the Artificial Analysis intelligence index.",
+      "audience_angle": "You can use GLM-5.2 to improve your AI models and stay ahead in the field of artificial intelligence.",
+      "linkedin_angle": "Stay updated with the latest developments in AI with GLM-5.2, a leading open weights model.",
+      "local_relevance": 4,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "GLM-5.2 is an open-source model."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+          "signal": "GLM-5.2 is the new leading open weights model on the Artificial Analysis intelligence index"
+        }
+      ],
+      "content_ideas": [
+        "GLM-5.2 model ke bare mein jaaniye",
+        "GLM-5.2 model ke fayde",
+        "GLM-5.2 model tutorial"
+      ]
+    },
+    {
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your personal or professional projects, making it easier to create visual content.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your marketing materials, presentations, and social media posts.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -136,9 +169,9 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT Images 2.0 se paisay kaise kamayein",
-        "ChatGPT Images 2.0 ki madad se online business kaise shuru karein",
-        "ChatGPT Images 2.0 ke fayde aur nuksan"
+        "ChatGPT se images kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation tutorial"
       ]
     }
   ],
@@ -146,15 +179,15 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1u7bup6/when_youre_one_fix_away_from_finishing_the/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and continue using the tool for your business."
+      "content_opportunity": "ChatGPT usage limits: how to overcome them"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Image Generation, a powerful tool for creating images based on text prompts."
 }
