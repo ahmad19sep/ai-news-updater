@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
 4. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
-5. **Doctors caution against using AI for medical advice - FOX13 Memphis** — science angle
-   https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjNIU3hYZTMxNXBpZi1KYzQxb0wzTnlibmlWM2RrNlV1aFV3cHJVS0ZINm5USWFpZjUtU0hJSTQySFJBV3hGZ1hDUmZ5TDZfRHh1WElYZEtuSWJBMHN5S1NxSW9UcEdNT2lhT05wUGxUR2lvcU9CdkRmSUdRbEg0OC1aZmFiVVNhRV9WM254elpDOUlhMW5hMUZNV1lzTkRjM0ZWeDFhZXZqcWt0cXFuVlRUbm5SNTNKa2RDVmFtYTJnUFowbFhQVXdOelZUd3lN?oc=5
-6. **Have a thorny medical question? Your doctor may be using AI for that - thestar.com.my** — science angle
+5. **Have a thorny medical question? Your doctor may be using AI for that - thestar.com.my** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPcFp1dFBmakI3cGVnamZxamNrZzF3VFp6S281ZVVqaDlsdVZiRjZMa3FGUkRta0NRdldCWm5kMnNpZmJrb203Um91TDhXVXdYV1pLMmcwbmNKeXEwZlZ5SjZqUnZ0MG9nWDVUNFQtLV82Qk1YUWt2N0pRWmJQd0xNSUVENWMyMHlpRXUzYkQ3NXI4Qm9oaEJsNmRlcWczMnZ1TkYtU2lvX1hVbkpubnFZXy1ORnVMV1UwLVhTZQ?oc=5
-7. **This startup is using AI to improve the outpatient surgery experience for everyone - Fast Company** — science angle
+6. **This startup is using AI to improve the outpatient surgery experience for everyone - Fast Company** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxNLUJHNUhnN1RKVkdlNldCelJkajRJbUlaaDl0R21lb0R6MC1iY1JKeTF4MFY4dzJ5N09VQXNrb0xnMXE1aThSNW5xb2ZsZFgzVXJMZ2x0bWl4U2ZsdXY5REZ1aTF5Ynp4UjJxZ2hQSmI5V3hWTE5VMk1iUVcydWxQLXBB?oc=5
-8. **AMA Survey: More Doctors Are Embracing AI-Based Tools - Medscape** — science angle
+7. **AMA Survey: More Doctors Are Embracing AI-Based Tools - Medscape** — science angle
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNV2FHYW5Uck5tTzhSdEx6YW9rRG9IUExUWXRvNGFZYXhuVUtPZTdTWHZTWjN5eVBxNnNPT2NaNlpmOVVYVGRXSmt5Z2w0YXdBR05xOXZOdU9TMU00ZzNqS09rLTNqcG9oSkJjYVEySnV4ejZXbWliYUwwRHBUNGdSbWF2ZEttb3JiT0dzNnlPS2RVTFdEcFlxXy1hczFSTmhiVzRxVA?oc=5
+8. **Patients are bringing AI to therapy - American Psychological Association (APA)** — science angle
+   https://news.google.com/rss/articles/CBMibEFVX3lxTE1WWnJKR2tRSjN0dk1PajZUX085VmM3aGxKZWRJWGNnTjVvSHZSZWlnd05oM2llajF6YXBDRV8zOTRFRjV6ZTF2SW5FUUh2UU5OLVNMN0tYX2k2cXZvZHFvU2c5UXF6OHNJY3lieQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE** — Jensen Huang News — Score 146
@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlJDelRxWWpiNEIxclZhaVhVNjVpSWc1bS1IM2RfaGRySC1fdHlxdUpRYXBhR0U3emFlcFhHYURfQ1hfT2x1eTVVbkJoeHJBWldRMkpKSzNUV0liZHFnVWYtYlpWM3N3YU0zRm9Zell4OWtXanFGc1c3bmp0dlpzeTN2N2xfU0U1blF2WUV1VkFoVloySmc?oc=5
 6. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 70
    https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhxNEhRWTVtQUxiS2ZlUk1JaUJPQnI2RXluTm8tTnNoN083RWRhZF9UMlliY00zVWM4d2ZTTFROdVV5YlliOFVfTTQweENyOXY0ZEhGY3hjM2VZcmkxRnRtZlpscU1aYmFHWlMzYUlXNEdNVTdZM0M1T2VHWC1DLXBJcld3S1V1LU5Qc3hOVEkzNWx0Sk56WGsxek5Bc29kMkN0ZUgwVGxQM3RWMm1HTmxOVVg?oc=5
-7. **Anthropic CEO Dario Amodei Has Only One Direct Report - Bloomberg** — Dario Amodei News — Score 67
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUhIY0RHYXd6a3ZfVF9iMk44NGxDOWZOX2tBRS1oakZVOHl1X0VTamY4akZBMk9lYXBDclBsZ245MlBUcGhoQzFrNnc0QngwNkF5U2NTY3NWOENfT1EtUk1CVW95Ym1SUmUtMUZ0elN6VjNmSV9iNkRDbU1UUG03UmxFY1JKQ2RveHhjQVJwVmZJd043Ykdsc2dCNEsyNzZlTzlPckY2RGVCTG9aSXExck5JSEVodnM?oc=5
-8. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
+7. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
    https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
-9. **US judge dismisses Musk’s xAI trade secret lawsuit against OpenAI - Al Jazeera** — Sam Altman News — Score 58
+8. **US judge dismisses Musk’s xAI trade secret lawsuit against OpenAI - Al Jazeera** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPTFhaaU5VQzRPVE80Z01ISjQtQ25RTDNncnl6MFFqTVg4UGJPUWFIbjVTbGN0cHV2SE1ZNlZzbjRqVHM0Y2h1ZG9KekxGMkVSZ1dIY0pyb1ZScEpQQWw3ZWUwVUQxUFUyNVpDanF2eTRfeTlCQzVjdjBwY0pDQThEUjY1M3dCZ2c0VXE3OG9ITjRiUnNtMkpmaG5FQ1pKRnkza2MydUl4d2lvZS0y0gGyAUFVX3lxTFBnLW8xTkFtX0N0UHRQSV8tZGhBdWE4N1RISXZKUDBjWFZPMjZneHNad0N5N3Q4OUdQVWV3Skhha3NyQS1HdTRxcUY0TUJGTHFLVHZYUFdNdDdOUnJkLW1Fd0lyX2VGbkM2N3B4cDE3bURkT2ZkREdZMktVVmUwWWhQSmRIendhd2dvYnFYVE54OFhOcXE0Q0c0cWU0NThKZ0dDUWlGQk1FMnRhZFRoSzY0M3c?oc=5
-10. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 56
+9. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 56
    https://news.google.com/rss/articles/CBMiugJBVV95cUxQOHlSVzU1OVI4QWZyYmhqcmx0VFoxNmJZNlF3aUJXY2szRS11b2NEUTN3YzNaaUZ5SkhLaUVpQThSVlExamZXT24xLWhUSVZlZWFPTmRPZ2ZGQ2hQV1FfV3h4bVkyNE5mMVZ6Mm5nUXdtc1hVTFpJUUdNYlVlT2JzT3pCaDRKRzlKdzRINjd6M2VTY2tIZ2lGb3BUcTZkb29uU21wUVRWOGZqUmYtNm1RQlhvdlJmSHZUTF9SR1ROYWV6WkxIZG5kYUVMNzdnVTJVTXFNNTRhUkpOY3pqM090Wmx5OVNScWFXWDhualVITTBHSUZIT29PS0JkZE9lbVd3WmpQTGFEVnhfY0VhdTJ0cGZUbHFEV3hPZE56NVRVUV8yVW1TdGdzeVNNZWNXaS1PNzlxODhfM3k3QQ?oc=5
+10. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
+   https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmk2b1lrRUhKalJRMEpzSUs2TEQ0YTVSTGVvUllEV05sUk91dkd2ZFRHQ3dBb1hRVlpRTUNycld4OVdKOFppWFRDRzg1LWpWa01mYi1HQzdjZXVwRXU2UlZuOWplcWd4eXh4Z3p1TlVmVEFmOGk3ZWJLNFI5OFRncm9PWU5mTmFXUlkxaVRUTnZPMVY0TXltRm5IVkFlLVV0Z25yZXRnTWJSQjRvVzVWcDM4U1VTMnVpZFh5ZlUtMnhzcnRSUFZ1cUJ30gHPAUFVX3lxTFBVRkMzMm96VmY2SDFhR1RGUlJPNFBxZUNXMk1oc01Xa1l6M2ZGbk5oY3ljYTBmUTVCRTlETll0YmxqN3JSVFFTdlNFeUc1NDQ0dVY0Tk9rMXJRakxtY0lsaHctNE1Qby1tSXlFNHJMX1hnVFRqSGx6MjVTUWJBSTZWc19CZHRhX25EdzF6SnVycHUtNzZfcGJjMmpjUnVlNlZtcVhwRjFJSUhoaXBNcVZHTnVTZXR0ZkJxaS05Y292ZWhBa0VGdkpyZklSQ0tFVQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2349
+- Total stories tracked: 2064
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
