@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T16:07:03.024128+00:00",
+  "generated_at": "2026-06-17T20:31:33.702832+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "You can now create more realistic and detailed images with ChatGPT.",
-      "linkedin_angle": "Explore the potential of AI-generated images in your marketing strategy.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or personal projects.",
+      "linkedin_angle": "Explore the potential of AI-generated images for your business or marketing campaigns.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -41,164 +41,71 @@
         }
       ],
       "content_ideas": [
-        "ChatGpt Images 2.0 se aapke liye kya naya hai",
-        "ChatGpt Images 2.0 ka upyog karke aap apne business ko kaise badha sakte hain",
-        "ChatGpt Images 2.0 ke naye features ko kaise istemal karein"
-      ]
-    },
-    {
-      "name": "GLM-5.2",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new open-source AI model for long-horizon tasks.",
-      "audience_angle": "You can now use GLM-5.2 to improve your AI-powered projects.",
-      "linkedin_angle": "Discover how GLM-5.2 can enhance your company's AI capabilities.",
-      "local_relevance": 3,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-          "signal": "GLM-5.2 is the new leading open weights model on Artificial Analysis"
-        }
-      ],
-      "content_ideas": [
-        "GLM-5.2 kya hai aur iska upyog kaise karein",
-        "GLM-5.2 ke naye features ko kaise istemal karein",
-        "GLM-5.2 ka upyog karke aap apne AI projects ko kaise improve kar sakte hain"
+        "ChatGPT Images 2.0 se apne social media ke liye images kaise banayein",
+        "ChatGPT Images 2.0 ka istemal karke apne vyavsayik pariyojnaon ke liye images kaise banayein",
+        "ChatGPT Images 2.0 ke saath apne rachnatmak kaushal ko badhayein"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI to generate videos.",
-      "audience_angle": "You can now create videos using AI, making it easier to produce content.",
-      "linkedin_angle": "Explore the potential of AI-generated videos in your marketing strategy.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create stunning videos for your social media or personal projects.",
+      "linkedin_angle": "Explore the potential of AI-generated videos for your business or marketing campaigns.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs."
+        "note": "Many AI video generation tools offer affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
-          "signal": "Google Omni AI Video Generator Tutorial (Mobile)"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "AI video generation"
         }
       ],
       "content_ideas": [
-        "AI video generation kya hai aur iska upyog kaise karein",
-        "AI video generation ke fayde aur nuksan",
-        "AI video generation ka upyog karke aap apne business ko kaise badha sakte hain"
+        "AI video generation se apne social media ke liye videos kaise banayein",
+        "AI video generation ka istemal karke apne vyavsayik pariyojnaon ke liye videos kaise banayein",
+        "AI video generation ke saath apne rachnatmak kaushal ko badhayein"
       ]
     },
     {
-      "name": "ChatGPT Agent",
+      "name": "ChatGPT Agent Mode",
       "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new feature of ChatGPT that allows users to interact with it in a more human-like way.",
-      "audience_angle": "You can now use ChatGPT as a personal assistant, making it easier to get things done.",
-      "linkedin_angle": "Discover how ChatGPT Agent can enhance your productivity.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xqGCbEDbny8",
-          "signal": "Codex: Your First Personal AI Agent Delegation Loop"
-        }
-      ],
-      "content_ideas": [
-        "ChatGpt Agent kya hai aur iska upyog kaise karein",
-        "ChatGpt Agent ke naye features ko kaise istemal karein",
-        "ChatGpt Agent ka upyog karke aap apne daily tasks ko kaise manage kar sakte hain"
-      ]
-    },
-    {
-      "name": "AI Income Mastery",
-      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI to generate income.",
-      "audience_angle": "You can now use AI to earn money, making it easier to achieve financial freedom.",
-      "linkedin_angle": "Explore the potential of AI-generated income in your career.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Agent Mode is a feature that allows users to interact with ChatGPT in a more conversational way.",
+      "audience_angle": "You can use ChatGPT Agent Mode to get more personalized and interactive responses from ChatGPT.",
+      "linkedin_angle": "Explore the potential of ChatGPT Agent Mode for your business or customer service needs.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI income generation tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=x66ulZYzPMM",
-          "signal": "Launching AI Income Mastery Course for JEE & College Students"
-        }
-      ],
-      "content_ideas": [
-        "AI income mastery kya hai aur iska upyog kaise karein",
-        "AI income mastery ke fayde aur nuksan",
-        "AI income mastery ka upyog karke aap apne financial goals ko kaise achieve kar sakte hain"
-      ]
-    },
-    {
-      "name": "Gemini AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new AI tool developed by Google.",
-      "audience_angle": "You can now use Gemini AI to improve your productivity and creativity.",
-      "linkedin_angle": "Discover how Gemini AI can enhance your company's AI capabilities.",
-      "local_relevance": 4,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7JHUbC8sW2M",
-          "signal": "Gemini Spark Is Google’s Most Powerful AI Tool Yet"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "ChatGPT Agent Mode"
         }
       ],
       "content_ideas": [
-        "Gemini AI kya hai aur iska upyog kaise karein",
-        "Gemini AI ke naye features ko kaise istemal karein",
-        "Gemini AI ka upyog karke aap apne projects ko kaise improve kar sakte hain"
+        "ChatGPT Agent Mode se apne sawalon ke jawab kaise payein",
+        "ChatGPT Agent Mode ka istemal karke apne vyavsayik pariyojnaon ke liye samasyaon ka samadhan kaise payein",
+        "ChatGPT Agent Mode ke saath apne rachnatmak kaushal ko badhayein"
       ]
     }
   ],
@@ -210,16 +117,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "You can now create more realistic and detailed images with ChatGPT.",
-      "linkedin_angle": "Explore the potential of AI-generated images in your marketing strategy.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or personal projects.",
+      "linkedin_angle": "Explore the potential of AI-generated images for your business or marketing campaigns.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -229,129 +136,55 @@
         }
       ],
       "content_ideas": [
-        "ChatGpt Images 2.0 se aapke liye kya naya hai",
-        "ChatGpt Images 2.0 ka upyog karke aap apne business ko kaise badha sakte hain",
-        "ChatGpt Images 2.0 ke naye features ko kaise istemal karein"
+        "ChatGPT Images 2.0 se apne social media ke liye images kaise banayein",
+        "ChatGPT Images 2.0 ka istemal karke apne vyavsayik pariyojnaon ke liye images kaise banayein",
+        "ChatGPT Images 2.0 ke saath apne rachnatmak kaushal ko badhayein"
       ]
     },
     {
-      "name": "ChatGPT Agent",
+      "name": "ChatGPT Agent Mode",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A new feature of ChatGPT that allows users to interact with it in a more human-like way.",
-      "audience_angle": "You can now use ChatGPT as a personal assistant, making it easier to get things done.",
-      "linkedin_angle": "Discover how ChatGPT Agent can enhance your productivity.",
+      "what_it_is": "ChatGPT Agent Mode is a feature that allows users to interact with ChatGPT in a more conversational way.",
+      "audience_angle": "You can use ChatGPT Agent Mode to get more personalized and interactive responses from ChatGPT.",
+      "linkedin_angle": "Explore the potential of ChatGPT Agent Mode for your business or customer service needs.",
       "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xqGCbEDbny8",
-          "signal": "Codex: Your First Personal AI Agent Delegation Loop"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "ChatGPT Agent Mode"
         }
       ],
       "content_ideas": [
-        "ChatGpt Agent kya hai aur iska upyog kaise karein",
-        "ChatGpt Agent ke naye features ko kaise istemal karein",
-        "ChatGpt Agent ka upyog karke aap apne daily tasks ko kaise manage kar sakte hain"
-      ]
-    },
-    {
-      "name": "GLM-5.2",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new open-source AI model for long-horizon tasks.",
-      "audience_angle": "You can now use GLM-5.2 to improve your AI-powered projects.",
-      "linkedin_angle": "Discover how GLM-5.2 can enhance your company's AI capabilities.",
-      "local_relevance": 3,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-          "signal": "GLM-5.2 is the new leading open weights model on Artificial Analysis"
-        }
-      ],
-      "content_ideas": [
-        "GLM-5.2 kya hai aur iska upyog kaise karein",
-        "GLM-5.2 ke naye features ko kaise istemal karein",
-        "GLM-5.2 ka upyog karke aap apne AI projects ko kaise improve kar sakte hain"
-      ]
-    },
-    {
-      "name": "Gemini AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new AI tool developed by Google.",
-      "audience_angle": "You can now use Gemini AI to improve your productivity and creativity.",
-      "linkedin_angle": "Discover how Gemini AI can enhance your company's AI capabilities.",
-      "local_relevance": 4,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7JHUbC8sW2M",
-          "signal": "Gemini Spark Is Google’s Most Powerful AI Tool Yet"
-        }
-      ],
-      "content_ideas": [
-        "Gemini AI kya hai aur iska upyog kaise karein",
-        "Gemini AI ke naye features ko kaise istemal karein",
-        "Gemini AI ka upyog karke aap apne projects ko kaise improve kar sakte hain"
+        "ChatGPT Agent Mode se apne sawalon ke jawab kaise payein",
+        "ChatGPT Agent Mode ka istemal karke apne vyavsayik pariyojnaon ke liye samasyaon ka samadhan kaise payein",
+        "ChatGPT Agent Mode ke saath apne rachnatmak kaushal ko badhayein"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits hitting users hard",
-      "who_affected": "ChatGPT users",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "Users who rely heavily on ChatGPT for their work or personal projects",
       "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u7bup6/when_youre_one_fix_away_from_finishing_the/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u86png/claudeplanfail/"
         }
       ],
-      "content_opportunity": "ChatGpt ki usage limits ko kaise bypass karein"
-    },
-    {
-      "problem": "AI-generated content detection",
-      "who_affected": "Students and content creators",
-      "signal_strength": 6,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u8993n/one_of_my_chemistry_professors_uploads_pdfs_to/"
-        }
-      ],
-      "content_opportunity": "AI-generated content ko kaise detect karein"
+      "content_opportunity": "Exploring alternative AI tools or strategies for managing ChatGPT usage limits"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
