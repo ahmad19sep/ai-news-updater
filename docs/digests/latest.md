@@ -29,10 +29,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pidzdURXJOTm9wRFhyandxaFk5YmlheEp4WmJGWk8wQjMydU9BQUNReGJacW52eFBna0pvaWk2Rm5GUHM2cjJJb0g0U0VteldLMEVFNzJVTURjVHdwdnczS09SeEEtdVRwVHU4M0xYZ2FLZ3pGMnUyNzJ5SnhKTC1DSEIwRWZwaUJ1Y2U3VjQ1NmlHRThZUmR6S3JoQkJaanc?oc=5
 2. **Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions - WSLS** — Sam Altman News — Score 123
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFZxYXMwdXJ3Y0VDY1hNanBXVEh4cmdmcS1wYnlhWGdJNkE3d18xY0hOeFA1b25vSHlpZmoyaUFSQXhCOV9jY1oxY1R2MTEtU1RaeFhVeEx3VGo0dzJPblp4WGhpbHREMmVVeEJYNkZwWEs2SHZhVl9LenRtTmxRckhlSTVDS3pfWEhMQThsd0hORVo4d1pXNXFxeVhxd0NWUFNvaE5NaldJTm0xWG8xVGF5QjRhcXZwc2lKNFdQSTFSZFY5dGhrZ0NYejN6RVNrOWV3YQ?oc=5
-3. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 86
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
-4. **Nvidia's Huang pledges AI will boost manufacturing jobs. A test will come in Texas - WRAL** — Jensen Huang News — Score 86
+3. **Nvidia's Huang pledges AI will boost manufacturing jobs. A test will come in Texas - WRAL** — Jensen Huang News — Score 96
    https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlpXZEw1VGF2ZWdoQld4RWdpRm1aNjhraU4yTzU4enNldWFSUUdaSjNFMXVYb2VjRENlWXIxV2xXQXdFQ2JDUlVsNUpaWEJ1dnlHSUVNZzN3YUZGOTZrTW4waTJWY3BhNWxYR05tbmZoaGJGQWE3Q2hmR0ttdGpXdUlSWGdyaW9yR0ktamNNaE9KMDMtVEo4b1Q3ZDdUSGVHRGhXc0dRRVVqdXRXb1o5UEZ4UTY0M1E?oc=5
+4. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 86
+   https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
 5. **Sam Altman, Demis Hassabis, Dario Amodei to attend G7 France - Yahoo** — Sam Altman News — Score 73
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlJDelRxWWpiNEIxclZhaVhVNjVpSWc1bS1IM2RfaGRySC1fdHlxdUpRYXBhR0U3emFlcFhHYURfQ1hfT2x1eTVVbkJoeHJBWldRMkpKSzNUV0liZHFnVWYtYlpWM3N3YU0zRm9Zell4OWtXanFGc1c3bmp0dlpzeTN2N2xfU0U1blF2WUV1VkFoVloySmc?oc=5
 6. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 70
@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPTFhaaU5VQzRPVE80Z01ISjQtQ25RTDNncnl6MFFqTVg4UGJPUWFIbjVTbGN0cHV2SE1ZNlZzbjRqVHM0Y2h1ZG9KekxGMkVSZ1dIY0pyb1ZScEpQQWw3ZWUwVUQxUFUyNVpDanF2eTRfeTlCQzVjdjBwY0pDQThEUjY1M3dCZ2c0VXE3OG9ITjRiUnNtMkpmaG5FQ1pKRnkza2MydUl4d2lvZS0y0gGyAUFVX3lxTFBnLW8xTkFtX0N0UHRQSV8tZGhBdWE4N1RISXZKUDBjWFZPMjZneHNad0N5N3Q4OUdQVWV3Skhha3NyQS1HdTRxcUY0TUJGTHFLVHZYUFdNdDdOUnJkLW1Fd0lyX2VGbkM2N3B4cDE3bURkT2ZkREdZMktVVmUwWWhQSmRIendhd2dvYnFYVE54OFhOcXE0Q0c0cWU0NThKZ0dDUWlGQk1FMnRhZFRoSzY0M3c?oc=5
 9. **Smartsheet Adds ChatGPT, Microsoft Copilot and Google Cloud Gemini Enterprise Connections for its MCP Server - FinancialContent** — Microsoft AI — Score 60
    https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjhRNS1lSUEwTWdLWnBwenE5OFBNMDhGaTZKVDlka19PY080S05wLU50dzZ5em42cDhxellBYnBmTUhrZ0lhVlF4NktfTFM1NU9hRkNwcFF2enpQREhWNnZvbC1SNzhicXJwZWtKTXd3QXY2LUFocm1MX0gxTjAxcm1CMTd1NmZIZWhlWTdOc1dZTVFTQWN4YWhHb2ZKLW8tM2hwbk1vWnVvM1hnbVVhS0t1bVJ3TDBVN2d1V3FmTXI5bThvV0tEZUY1c1FVWHd1Y2s5UGhOT3NrSDl1bjhENGZUV2I5WHpmWEpBT2ctb3dFcW85QzQ3dUNn?oc=5
-10. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
-   https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmk2b1lrRUhKalJRMEpzSUs2TEQ0YTVSTGVvUllEV05sUk91dkd2ZFRHQ3dBb1hRVlpRTUNycld4OVdKOFppWFRDRzg1LWpWa01mYi1HQzdjZXVwRXU2UlZuOWplcWd4eXh4Z3p1TlVmVEFmOGk3ZWJLNFI5OFRncm9PWU5mTmFXUlkxaVRUTnZPMVY0TXltRm5IVkFlLVV0Z25yZXRnTWJSQjRvVzVWcDM4U1VTMnVpZFh5ZlUtMnhzcnRSUFZ1cUJ30gHPAUFVX3lxTFBVRkMzMm96VmY2SDFhR1RGUlJPNFBxZUNXMk1oc01Xa1l6M2ZGbk5oY3ljYTBmUTVCRTlETll0YmxqN3JSVFFTdlNFeUc1NDQ0dVY0Tk9rMXJRakxtY0lsaHctNE1Qby1tSXlFNHJMX1hnVFRqSGx6MjVTUWJBSTZWc19CZHRhX25EdzF6SnVycHUtNzZfcGJjMmpjUnVlNlZtcVhwRjFJSUhoaXBNcVZHTnVTZXR0ZkJxaS05Y292ZWhBa0VGdkpyZklSQ0tFVQ?oc=5
+10. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 56
+   https://news.google.com/rss/articles/CBMiugJBVV95cUxQOHlSVzU1OVI4QWZyYmhqcmx0VFoxNmJZNlF3aUJXY2szRS11b2NEUTN3YzNaaUZ5SkhLaUVpQThSVlExamZXT24xLWhUSVZlZWFPTmRPZ2ZGQ2hQV1FfV3h4bVkyNE5mMVZ6Mm5nUXdtc1hVTFpJUUdNYlVlT2JzT3pCaDRKRzlKdzRINjd6M2VTY2tIZ2lGb3BUcTZkb29uU21wUVRWOGZqUmYtNm1RQlhvdlJmSHZUTF9SR1ROYWV6WkxIZG5kYUVMNzdnVTJVTXFNNTRhUkpOY3pqM090Wmx5OVNScWFXWDhualVITTBHSUZIT29PS0JkZE9lbVd3WmpQTGFEVnhfY0VhdTJ0cGZUbHFEV3hPZE56NVRVUV8yVW1TdGdzeVNNZWNXaS1PNzlxODhfM3k3QQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **Doctors caution against using AI for medical advice - FOX13 Memphis** — https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjNIU3hYZTMxNXBpZi1KYzQxb0wzTnlibmlWM2RrNlV1aFV3cHJVS0ZINm5USWFpZjUtU0hJSTQySFJBV3hGZ1hDUmZ5TDZfRHh1WElYZEtuSWJBMHN5S1NxSW9UcEdNT2lhT05wUGxUR2lvcU9CdkRmSUdRbEg0OC1aZmFiVVNhRV9WM254elpDOUlhMW5hMUZNV1lzTkRjM0ZWeDFhZXZqcWt0cXFuVlRUbm5SNTNKa2RDVmFtYTJnUFowbFhQVXdOelZUd3lN?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2164
+- Total stories tracked: 2204
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
