@@ -9,25 +9,25 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — science angle
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
-2. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
+2. **AI beats doctors in major medical tests, but there is a catch - India Today** — science angle
+   https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
+3. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
-3. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
+4. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
-4. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
+5. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWZEUGNEUkJJOGx3a0E0QkFXdlY1TlltMVAzMnhyd05HTk9LMkhrYTNwSml5SjhtXzZQWTB2dURmSlcwbk94UXBnTVJXTXJ4WEswc2c0N2pMR1M4MVVCVnVLZVVhUjVSb3d6MFYtNkFaN1pDOFNLcFJldmhBeHlRSzM1UzI?oc=5
-5. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
+6. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
-6. **This startup is using AI to improve the outpatient surgery experience for everyone - Fast Company** — science angle
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxNLUJHNUhnN1RKVkdlNldCelJkajRJbUlaaDl0R21lb0R6MC1iY1JKeTF4MFY4dzJ5N09VQXNrb0xnMXE1aThSNW5xb2ZsZFgzVXJMZ2x0bWl4U2ZsdXY5REZ1aTF5Ynp4UjJxZ2hQSmI5V3hWTE5VMk1iUVcydWxQLXBB?oc=5
-7. **AMA Survey: More Doctors Are Embracing AI-Based Tools - Medscape** — science angle
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxNV2FHYW5Uck5tTzhSdEx6YW9rRG9IUExUWXRvNGFZYXhuVUtPZTdTWHZTWjN5eVBxNnNPT2NaNlpmOVVYVGRXSmt5Z2w0YXdBR05xOXZOdU9TMU00ZzNqS09rLTNqcG9oSkJjYVEySnV4ejZXbWliYUwwRHBUNGdSbWF2ZEttb3JiT0dzNnlPS2RVTFdEcFlxXy1hczFSTmhiVzRxVA?oc=5
-8. **Patients are bringing AI to therapy - American Psychological Association (APA)** — science angle
-   https://news.google.com/rss/articles/CBMibEFVX3lxTE1WWnJKR2tRSjN0dk1PajZUX085VmM3aGxKZWRJWGNnTjVvSHZSZWlnd05oM2llajF6YXBDRV8zOTRFRjV6ZTF2SW5FUUh2UU5OLVNMN0tYX2k2cXZvZHFvU2c5UXF6OHNJY3lieQ?oc=5
+7. **Ping An Good Doctor Upgrades AI Doctor Service "Ping An AI Doctor", Expanding Access to Ping An Ecosystem's 90 Million MAUs - TradingView** — science angle
+   https://news.google.com/rss/articles/CBMijgJBVV95cUxNUUJ3cVpxX3RsdkxwZjRHTW5ObDY4NnlZUHo1ejhPekpNTXNtU1BfV2hBRkFtVEtjLVcwMGNOR1dCd04xczJSTXRzZEwxUFlCSUl3ektCRmgtVGNkb21VN3ZCejV4X21vaHpzQ2lDeXczcXlMci1RejhOdjl1ZmRzWTNRSzA1QzNFaktOckdxQ2R5TnNSYWN4YUpEelZLUEptRGs5eW1qbkEtOFpqdTBQSUNrRW82WHoxSXZGYXM1QUNJaE9DT3NrOGxBZS1McFBJSDNsZ1lfcjFGcGZYUnV6VEJ6V1FOeDFkS1dnMl9PRzlPWEpteGdlcWpVSUwtSHB2U05ZU3laT2xYSnNZaXc?oc=5
+8. **'A doctor who doesn't judge': Why patients are turning to AI for treatment - The Times of India** — science angle
+   https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQVphVEQ2NV8zcmY1VEFjNEFqdlQzZ3dna1FKbDVrT29aUllUMmtlTE4xNEFkdks5SUJRYWVacXRkYjJNaUc5OVBSQnFSYjh1M0k5SXVRZ0tFcFFEUE4yZkNOcUppdldUNXNvdlMzb213QVpGdlcxaGRtcnB0WUxVTFdNY3FJLUZfSGJYZUJ3QzdqSVdJdjNKMWRJaVc1Mk1la01EdHV5UG5ra2JQTFQ2LXZzWG5zbVZxT1hXdlR2WGJGWDROVWNHdzBPZ2NhWlNYQmh3Qw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE** — Jensen Huang News — Score 166
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pidzdURXJOTm9wRFhyandxaFk5YmlheEp4WmJGWk8wQjMydU9BQUNReGJacW52eFBna0pvaWk2Rm5GUHM2cjJJb0g0U0VteldLMEVFNzJVTURjVHdwdnczS09SeEEtdVRwVHU4M0xYZ2FLZ3pGMnUyNzJ5SnhKTC1DSEIwRWZwaUJ1Y2U3VjQ1NmlHRThZUmR6S3JoQkJaanc?oc=5
-2. **Nvidia's Huang pledges AI will boost manufacturing jobs. A test will come in Texas - WRAL** — Jensen Huang News — Score 96
+2. **Nvidia's Huang pledges AI will boost manufacturing jobs. A test will come in Texas - WRAL** — Jensen Huang News — Score 93
    https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlpXZEw1VGF2ZWdoQld4RWdpRm1aNjhraU4yTzU4enNldWFSUUdaSjNFMXVYb2VjRENlWXIxV2xXQXdFQ2JDUlVsNUpaWEJ1dnlHSUVNZzN3YUZGOTZrTW4waTJWY3BhNWxYR05tbmZoaGJGQWE3Q2hmR0ttdGpXdUlSWGdyaW9yR0ktamNNaE9KMDMtVEo4b1Q3ZDdUSGVHRGhXc0dRRVVqdXRXb1o5UEZ4UTY0M1E?oc=5
 3. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 83
    https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
@@ -48,13 +48,13 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 
 ## 🧪 AI in Science Highlights
 - **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
+- **AI beats doctors in major medical tests, but there is a catch - India Today** — https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
 - **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
 - **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
-- **AI medical tools match or surpass doctors for advice - Financial Times** — https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWZEUGNEUkJJOGx3a0E0QkFXdlY1TlltMVAzMnhyd05HTk9LMkhrYTNwSml5SjhtXzZQWTB2dURmSlcwbk94UXBnTVJXTXJ4WEswc2c0N2pMR1M4MVVCVnVLZVVhUjVSb3d6MFYtNkFaN1pDOFNLcFJldmhBeHlRSzM1UzI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1895
+- Total stories tracked: 1875
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
