@@ -317,7 +317,7 @@ window.buildNewsroomPrompt = function (o) {
 '[[LINKEDIN]]',
 '(English. Professional LinkedIn post: strong hook, key insight + implications, encourage discussion. End with "Read the full story:\\n[ARTICLE LINK]")',
 '[[X]]',
-'(English. Under 280 characters, attention-grabbing hook, 1-2 hashtags. End with [ARTICLE LINK])',
+'(English. A SUBSTANTIAL single X post — do NOT cap at 280 chars. Open with a scroll-stopping hook (front-load the key fact/number), then 3-5 short lines giving the key points AND why it matters (one idea per line, lots of whitespace), then one engagement line (a sharp question or "Bookmark this"). ~6-9 lines, skimmable, zero fluff, 0-1 hashtag. End with the link on its own final line: [ARTICLE LINK])',
 '[[REDDIT]]',
 '(English. First line = a Reddit-style title, then a neutral summary + one discussion question. End with [ARTICLE LINK])',
 '[[FACEBOOK]]',
