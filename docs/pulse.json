@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T15:55:05.155972+00:00",
+  "generated_at": "2026-06-18T20:40:02.298933+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -24,15 +24,15 @@
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media, blogs, or other creative projects.",
-      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and presentations.",
+      "audience_angle": "You can use ChatGPT to generate images for your social media posts or blogs, making your content more engaging and visually appealing.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and make your brand stand out.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -47,9 +47,9 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT se images kaise banayein",
-        "How to use ChatGPT for image generation",
-        "ChatGPT image generation for social media"
+        "ChatGPT se image kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation tutorial"
       ]
     },
     {
@@ -57,66 +57,73 @@
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
       "what_it_is": "AI-powered video creation tools allow users to create videos using AI-generated content.",
-      "audience_angle": "You can use AI to create engaging videos for your social media, blogs, or YouTube channels.",
-      "linkedin_angle": "Utilize AI-powered video creation to enhance your professional video content and marketing strategies.",
+      "audience_angle": "You can use AI-powered video creation tools to create engaging videos for your social media or blog without requiring extensive video editing skills.",
+      "linkedin_angle": "Utilize AI-powered video creation tools to enhance your professional video content and streamline your workflow.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI-powered video creation tools offer affiliate programs"
+        "note": "Several AI-powered video creation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=fC0oASucSZ8",
-          "signal": "Turn Any Image Into Animated Videos With This AI Tool and Earn Money"
+          "url": "https://www.youtube.com/watch?v=9-iSl83dF34",
+          "signal": "I Tried AI Video Editing for 8 Days - Here’s what DOES work"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
-          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
+          "platform": "hackernews",
+          "url": "https://www.greptile.com/blog/trex-code-execution",
+          "signal": "TREX: An AI code reviewer that runs your code"
         }
       ],
       "content_ideas": [
-        "Ai video kaise banayein",
-        "How to create viral AI videos",
-        "AI-powered video creation for YouTube"
+        "AI se video kaise banayein",
+        "AI-powered video creation tools ke fayde",
+        "AI video creation tutorial"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT's agent mode allows users to interact with the AI model in a more conversational way.",
-      "audience_angle": "You can use ChatGPT's agent mode to get more personalized and interactive responses.",
-      "linkedin_angle": "Leverage ChatGPT's agent mode to enhance your professional conversations and presentations.",
-      "local_relevance": 4,
-      "pillar": "explainer",
+      "what_it_is": "Claude AI is a conversational AI tool that allows users to interact with AI in a more human-like way.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate content, or even build your own AI-powered chatbots.",
+      "linkedin_angle": "Leverage Claude AI to streamline your workflow, automate tasks, and enhance your professional productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tool."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "chatgpt agent mode"
+          "url": "https://www.youtube.com/watch?v=B6wbbz8UOvA",
+          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich!"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.claude.com/blog/the-founders-playbook",
+          "signal": "The founder's playbook: Building an AI-native startup"
         }
       ],
       "content_ideas": [
-        "ChatGPT agent mode kya hai",
-        "How to use ChatGPT's agent mode",
-        "ChatGPT agent mode for professional conversations"
+        "Claude AI kya hai",
+        "Claude AI ke fayde",
+        "Claude AI tutorial"
       ]
     }
   ],
@@ -130,15 +137,15 @@
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media, blogs, or other creative projects.",
-      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and presentations.",
+      "audience_angle": "You can use ChatGPT to generate images for your social media posts or blogs, making your content more engaging and visually appealing.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and make your brand stand out.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -153,40 +160,46 @@
         }
       ],
       "content_ideas": [
-        "ChatGPT se images kaise banayein",
-        "How to use ChatGPT for image generation",
-        "ChatGPT image generation for social media"
+        "ChatGPT se image kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation tutorial"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT's agent mode allows users to interact with the AI model in a more conversational way.",
-      "audience_angle": "You can use ChatGPT's agent mode to get more personalized and interactive responses.",
-      "linkedin_angle": "Leverage ChatGPT's agent mode to enhance your professional conversations and presentations.",
-      "local_relevance": 4,
-      "pillar": "explainer",
+      "what_it_is": "Claude AI is a conversational AI tool that allows users to interact with AI in a more human-like way.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate content, or even build your own AI-powered chatbots.",
+      "linkedin_angle": "Leverage Claude AI to streamline your workflow, automate tasks, and enhance your professional productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tool."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "chatgpt agent mode"
+          "url": "https://www.youtube.com/watch?v=B6wbbz8UOvA",
+          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich!"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.claude.com/blog/the-founders-playbook",
+          "signal": "The founder's playbook: Building an AI-native startup"
         }
       ],
       "content_ideas": [
-        "ChatGPT agent mode kya hai",
-        "How to use ChatGPT's agent mode",
-        "ChatGPT agent mode for professional conversations"
+        "Claude AI kya hai",
+        "Claude AI ke fayde",
+        "Claude AI tutorial"
       ]
     }
   ],
@@ -194,14 +207,14 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u96yp5/whats_is_going_on_with_glitchy_dotlike_textures/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u96zae/yes/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
+      "content_opportunity": "ChatGPT usage limits: How to overcome them and make the most out of the tool."
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
