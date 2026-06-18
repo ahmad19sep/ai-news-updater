@@ -191,7 +191,7 @@ window.XLIB = {
   universal: `UNIVERSAL RULES (engagement-optimized for the 2026 X algorithm):
 - Hook in the FIRST line; first 5-7 words must stop the scroll. Front-load the most specific/surprising fact (names, numbers, model versions).
 - Write for REPLIES, BOOKMARKS, REPOSTS — not likes. Always end with an engagement mechanism: a sharp question, a debate trigger, a bookmark cue, or a follow CTA.
-- NO external link in the main/hook post. If a link applies, output it as the LAST array element exactly as "REPLY: <url>" (it goes in the first reply, not the body).
+- LINK PLACEMENT: put the link at the very END — on its own line, as the final line of the LAST tweet/post, formatted as "🔗 <url>". Never put a link anywhere else in the text.
 - Use 0-2 FUNCTIONAL emojis only (signposts: 🚨 breaking, 🤯 stunning, 🧵 thread, 👇 read-on). Never decorative emoji spam.
 - 0-2 hashtags, final tweet ONLY (usually zero). 3+ hurts reach.
 - Whitespace + short lines; one idea per line. No walls of text.
@@ -199,7 +199,12 @@ window.XLIB = {
 - NEVER invent facts, numbers, or quotes. Use ONLY the source. Accuracy protects reach.`,
   formats: {
     single: { name: "Single post", body:
-`FORMAT: ONE single X post, 180-270 characters, tight and punchy. 1-2 short line breaks max.` },
+`FORMAT: ONE substantial single X post (NOT a thread). Structure it as:
+- Line 1: a scroll-stopping HOOK (front-load the most specific/surprising fact — names, numbers, model versions).
+- Then 3-5 SHORT lines: the concrete facts/points AND why it matters to a normal reader. One idea per line, lots of whitespace, zero fluff.
+- Then ONE engagement line: a sharp question or a "Bookmark this" cue.
+- Then the link on its OWN final line.
+Make it meaty and skimmable — roughly 6-9 lines (~500-900 characters). Substantial, never padded.` },
     short: { name: "Short thread (3-5)", body:
 `FORMAT: a SHORT THREAD of 3-5 tweets. Tweet 1 = standalone hook (<=25 words) + a forward cue ("Here's what you need to know:" or "👇"). Tweets 2-4 = one idea each, lead with the point. Final tweet = one-line takeaway + engagement CTA. Number tweets 1/, 2/, ...` },
     long: { name: "Long thread (6-10)", body:
@@ -257,9 +262,9 @@ window.buildXPrompt = function (o) {
     L.universal, "",
     "STORY TITLE: " + (o.title || ""),
     (o.summary ? "SUMMARY: " + o.summary : ""),
-    (o.url ? "SOURCE LINK (use only as the REPLY element, never in the body): " + o.url : ""),
+    (o.url ? "LINK TO PLACE AT THE END: " + o.url : ""),
     "",
-    'Return ONLY a JSON array of strings — one string per tweet (a single post = an array of length 1). If a link applies, the LAST array element must be exactly "REPLY: <url>". No text outside the JSON array.',
+    'Return ONLY a JSON array of strings — one string per tweet (a single post = an array of length 1). End the LAST tweet with the link on its own final line, prefixed with 🔗. No text outside the JSON array.',
   ].filter(x => x !== "").join("\n");
 };
 
