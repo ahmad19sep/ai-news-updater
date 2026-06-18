@@ -42,7 +42,7 @@ PAGE = r"""<!doctype html>
 <title>AI x Ahmad — Radar Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg:#ffffff; --surface:#ffffff; --surface2:#f5f6f4;
@@ -60,12 +60,13 @@ PAGE = r"""<!doctype html>
     --shadow:0 4px 16px -4px rgba(16,24,40,.12);
     --shadow-lg:0 20px 50px -12px rgba(16,24,40,.25);
     --r:12px;
-    --display:"Bricolage Grotesque", Inter, system-ui, sans-serif;
+    --display:"Newsreader", Georgia, serif;
+    --mono:"JetBrains Mono", ui-monospace, monospace;
   }
   * { box-sizing:border-box; }
   [hidden] { display:none !important; }
   body { margin:0; background:var(--bg); color:var(--text);
-         font:14px/1.55 Inter, system-ui, "Segoe UI", sans-serif;
+         font:14px/1.55 "Space Grotesk", Inter, system-ui, "Segoe UI", sans-serif;
          -webkit-font-smoothing:antialiased; }
   a { color:var(--indigo); }
   .wrap { max-width:1080px; margin:0 auto; padding:0 20px 80px; }
@@ -428,21 +429,22 @@ PAGE = r"""<!doctype html>
           font-size:12.5px; }
   .taskchip:hover { filter:brightness(.97); text-decoration:underline; }
   body.dark {
-    --bg:#070b18; --surface:#0e1730; --surface2:#15213e;
-    --text:#e8edfb; --dim:#97a4c6; --faint:#5e6b8c;
-    --line:rgba(125,150,220,.14); --line2:rgba(125,150,220,.28);
-    --indigo:#4f7cff; --indigo-soft:rgba(79,124,255,.18); --cyan:#38bdf8;
-    --gold:#fbbf24; --gold-soft:rgba(251,191,36,.13);
-    --green:#34d399; --green-soft:rgba(52,211,153,.12);
-    --red:#f87171; --red-soft:rgba(248,113,113,.15);
-    --orange:#fb923c; --orange-soft:rgba(251,146,60,.13);
-    --purple:#a78bfa; --purple-soft:rgba(167,139,250,.15);
-    --blue:#60a5fa; --blue-soft:rgba(96,165,250,.15);
+    --bg:#070A11; --surface:#0E1420; --surface2:#141C2B; --surface3:#1A2335;
+    --text:#EEF2F8; --dim:#9AA7BE; --faint:#62708A;
+    --line:#222C3F; --line2:#2C3850;
+    --indigo:#4D8BFF; --indigo-soft:rgba(77,139,255,.16); --cyan:#38BDF8;
+    --gold:#F8A93B; --gold-soft:rgba(248,169,59,.14);
+    --green:#34D399; --green-soft:rgba(52,211,153,.13);
+    --red:#FF5436; --red-soft:rgba(255,84,54,.14);
+    --orange:#F8A93B; --orange-soft:rgba(248,169,59,.14);
+    --purple:#A78BFA; --purple-soft:rgba(167,139,250,.16);
+    --blue:#38BDF8; --blue-soft:rgba(56,189,248,.16);
+    --cta:#34D399; --cta-dark:#06210F; --cta-hover:#2cc088;
     --shadow-sm:0 1px 2px rgba(0,0,0,.4);
-    --shadow:0 4px 16px -4px rgba(0,0,0,.55);
-    --shadow-lg:0 20px 50px -12px rgba(0,0,0,.75);
+    --shadow:0 4px 16px -4px rgba(0,0,0,.6);
+    --shadow-lg:0 20px 50px -12px rgba(0,0,0,.8);
   }
-  body.dark { background:radial-gradient(1100px 520px at 75% -12%, #16275a 0%, #0a1330 40%, var(--bg) 72%) fixed; }
+  body.dark { background:var(--bg); }
   body.dark header { background:rgba(11,15,23,.82); }
   body.dark .tabs button.active { background:var(--indigo); color:#fff; }
   body.dark .bar button.active { background:var(--indigo); border-color:var(--indigo); color:#fff; }
@@ -518,9 +520,70 @@ PAGE = r"""<!doctype html>
     .statgrid { grid-template-columns:1fr 1fr; }
     .calgrid { grid-template-columns:1fr; }
   }
+
+  /* ---------- RadarStudio shell (sidebar + topbar) ---------- */
+  @keyframes radarPulse { 0%{transform:scale(.6);opacity:.8} 100%{transform:scale(2.2);opacity:0} }
+  .app { display:flex; min-height:100vh; align-items:stretch; }
+  .sidebar { width:228px; flex:none; border-right:1px solid var(--line); background:#0A0E16;
+          display:flex; flex-direction:column; padding:16px 13px; position:sticky; top:0;
+          height:100vh; overflow-y:auto; }
+  .brand { display:flex; align-items:center; gap:11px; padding:6px 8px 4px; text-decoration:none; color:var(--text); }
+  .brand .orb { position:relative; width:34px; height:34px; border-radius:10px; flex:none;
+          background:radial-gradient(120% 120% at 30% 25%,#5B9DFF,#2D5Cff);
+          display:flex; align-items:center; justify-content:center; overflow:hidden; }
+  .brand .orb .ring { position:absolute; width:30px; height:30px; border-radius:50%;
+          border:1.5px solid rgba(255,255,255,.5); animation:radarPulse 2.6s ease-out infinite; }
+  .brand .bt { line-height:1.15; min-width:0; }
+  .brand .bt b { font:700 15px var(--display); letter-spacing:-.01em; display:block; }
+  .brand .bt small { font:9.5px var(--mono); letter-spacing:.14em; color:var(--faint); display:block; }
+  .brand-sub { font-size:11px; color:var(--faint); padding:8px 8px 14px;
+          border-bottom:1px solid var(--line); margin-bottom:12px; }
+  .sidebar nav { display:flex; flex-direction:column; }
+  .navgrp { font-size:10.5px; font-weight:700; letter-spacing:.08em; color:var(--faint);
+          text-transform:uppercase; padding:16px 8px 7px; }
+  .navitem { display:flex; align-items:center; gap:11px; width:100%; border:none; background:none;
+          color:var(--dim); font:500 13.5px "Space Grotesk", sans-serif; padding:9px 10px;
+          border-radius:9px; cursor:pointer; text-align:left; margin-bottom:1px; }
+  .navitem:hover { background:var(--surface2); color:var(--text); }
+  .navitem.active { background:rgba(77,139,255,.14); color:var(--text); font-weight:600;
+          box-shadow:inset 2px 0 0 var(--indigo); }
+  .navitem .navcount { margin-left:auto; font:11px var(--mono); color:var(--faint); }
+  .sidefoot { margin-top:auto; display:flex; align-items:center; gap:10px;
+          padding:11px 8px 2px; border-top:1px solid var(--line); }
+  .sidefoot .av { width:33px; height:33px; border-radius:50%; flex:none; color:#fff;
+          background:linear-gradient(135deg,#4D8BFF,#38BDF8); display:flex;
+          align-items:center; justify-content:center; font-weight:700; font-size:13px; }
+  .sidefoot .who { line-height:1.2; min-width:0; }
+  .sidefoot .who b { font-size:13px; font-weight:600; display:block; }
+  .sidefoot .who small { font-size:11px; color:var(--faint); }
+  .main { flex:1; min-width:0; display:flex; flex-direction:column; background:var(--bg); }
+  .topbar { position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:14px;
+          padding:14px 26px; border-bottom:1px solid var(--line);
+          background:rgba(10,14,22,.72); backdrop-filter:blur(12px); }
+  .ttitle { min-width:0; flex:1; }
+  .ttitle .pt { font:600 21px var(--display); letter-spacing:-.01em; }
+  .ttitle .ps { font-size:12.5px; color:var(--dim); margin-top:1px; }
+  .tutil { flex:none; display:flex; align-items:center; gap:8px; }
+  .main > .wrap { max-width:1180px; width:100%; padding:24px 26px 60px; }
+  .scard .n, .qtime { font-family:var(--mono); }
+  @media (max-width:900px) {
+    .app { flex-direction:column; }
+    .sidebar { width:100%; height:auto; position:sticky; top:0; flex-direction:row;
+            align-items:center; overflow-x:auto; padding:8px 10px; gap:4px;
+            border-right:none; border-bottom:1px solid var(--line); }
+    .sidebar::-webkit-scrollbar { display:none; }
+    .brand-sub, .navgrp, .sidefoot { display:none; }
+    .brand { padding:0 6px 0 2px; flex:none; }
+    .brand .bt small { display:none; }
+    .navitem { width:auto; flex:none; white-space:nowrap; margin:0; }
+    .navitem .navcount { display:none; }
+    .topbar { padding:12px 16px; }
+    .ttitle .pt { font-size:18px; }
+    .main > .wrap { padding:16px 14px 60px; }
+  }
 </style>
 </head>
-<body>
+<body class="dark">
 <div id="lock" hidden>
   <div class="lockbox">
     <div class="orb">A</div>
@@ -531,28 +594,43 @@ PAGE = r"""<!doctype html>
     <button class="btn" style="width:100%" onclick="tryUnlock()">Enter</button>
   </div>
 </div>
-<header>
-  <div class="hrow">
-    <div class="logo"><span class="orb">A</span> AI x Ahmad <small>RADAR STUDIO</small></div>
-    <nav class="tabs">
-      <button id="tabbtn-home" class="active" onclick="switchTab('home')">Home</button>
-      <button id="tabbtn-news" onclick="switchTab('news')">News</button>
-      <button id="tabbtn-trends" onclick="switchTab('trends')">Trends</button>
-      <button id="tabbtn-pulse" onclick="switchTab('pulse')">Pulse</button>
-      <button id="tabbtn-research" onclick="switchTab('research')">Research</button>
-      <button id="tabbtn-plan" onclick="switchTab('plan')">Buffer</button>
-      <button id="tabbtn-editors" onclick="switchTab('editors')">Editors</button>
+<div class="app">
+  <aside class="sidebar">
+    <a class="brand" href="#" onclick="switchTab('home');return false">
+      <span class="orb"><span class="ring"></span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg>
+      </span>
+      <span class="bt"><b>AI x Ahmad</b><small>RADAR STUDIO</small></span>
+    </a>
+    <div class="brand-sub">The World of AI, in Simple Urdu</div>
+    <nav>
+      <button class="navitem active" id="tabbtn-home" onclick="switchTab('home')">🏠 <span>Home</span></button>
+      <button class="navitem" id="tabbtn-news" onclick="switchTab('news')">📰 <span>News</span><span class="navcount" id="nc-news"></span></button>
+      <button class="navitem" id="tabbtn-trends" onclick="switchTab('trends')">📈 <span>Trends</span></button>
+      <button class="navitem" id="tabbtn-pulse" onclick="switchTab('pulse')">⚡ <span>Pulse</span></button>
+      <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
+      <div class="navgrp">Production</div>
+      <button class="navitem" id="tabbtn-plan" onclick="switchTab('plan')">📊 <span>Buffer</span><span class="navcount" id="nc-plan"></span></button>
+      <button class="navitem" id="tabbtn-editors" onclick="switchTab('editors')">👥 <span>Editors</span></button>
     </nav>
-    <button class="themebtn" id="cloudbtn" onclick="cloudClick()" title="Live sync">☁️</button>
-    <button class="themebtn" id="rolebtn" onclick="roleSwitch(event)" title="Owner / editor mode">👤</button>
-    <span style="position:relative;display:inline-flex;flex-shrink:0">
-      <button class="themebtn" id="chatbtn" onclick="openGeneralChat()" title="Team chat">💬</button>
-      <span id="chatbadge" class="chatbadge" style="display:none"></span>
-    </span>
-    <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
-    <div class="updated">The World of AI, in Simple Urdu · @aixahmad</div>
-  </div>
-</header>
+    <div class="sidefoot">
+      <span class="av">A</span>
+      <span class="who"><b>@aixahmad</b><small id="rolelabel">Owner</small></span>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <div class="ttitle"><div class="pt" id="pageTitle">Home</div><div class="ps" id="pageSub">Your radar at a glance</div></div>
+      <div class="tutil">
+        <button class="themebtn" id="cloudbtn" onclick="cloudClick()" title="Live sync">☁️</button>
+        <button class="themebtn" id="rolebtn" onclick="roleSwitch(event)" title="Owner / editor mode">👤</button>
+        <span style="position:relative;display:inline-flex;flex-shrink:0">
+          <button class="themebtn" id="chatbtn" onclick="openGeneralChat()" title="Team chat">💬</button>
+          <span id="chatbadge" class="chatbadge" style="display:none"></span>
+        </span>
+        <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
+      </div>
+    </header>
 <div class="wrap">
 
   <section id="tab-home">
@@ -643,6 +721,8 @@ PAGE = r"""<!doctype html>
     <div id="edwork"></div>
   </section>
 
+</div>
+  </main>
 </div>
 
 <div id="modal" hidden>
@@ -1302,6 +1382,13 @@ function switchTab(name) {
     document.getElementById("tab-" + n).hidden = n !== name;
     document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
   });
+  const TT = { home:["Home","Your radar at a glance"], news:["News","Triage stories into the pipeline"],
+    trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
+    research:["Research","Papers for your own learning"], plan:["Buffer","Production pipeline"],
+    editors:["Editors","Manage your team's workspaces"] };
+  const tt = TT[name] || ["",""];
+  const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
+  if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
   if (name === "home") renderHome();
   if (name === "plan") renderBoard();
   if (name === "editors") renderEditorsTab();
@@ -4153,7 +4240,15 @@ document.getElementById("q").addEventListener("input", e => {
   q = e.target.value.trim(); shown = PAGE; render();
 });
 document.getElementById("more").onclick = () => { shown += PAGE; render(); };
-trendsBar(); bar(); renderHome(); render();
+function navCounts() {
+  try {
+    const a = document.getElementById("nc-news");
+    if (a) a.textContent = ITEMS.filter(it => it.p !== 9).length;
+    const b = document.getElementById("nc-plan");
+    if (b) b.textContent = (typeof plans !== "undefined" && plans ? plans.length : 0);
+  } catch (e) {}
+}
+trendsBar(); bar(); renderHome(); render(); navCounts();
 attachMention(document.getElementById("m-chat-text"));
 attachMention(document.getElementById("g-chat-text"));
 if (EDLINK) {                       /* arrived via an editor's private link */
