@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T05:04:38.026608+00:00",
+  "generated_at": "2026-06-18T10:49:56.709746+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 32,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation tool allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or blog posts, making your content more engaging and visually appealing.",
-      "linkedin_angle": "Leverage AI-powered image generation to enhance your marketing materials and stand out from the competition.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your personal or professional projects, such as creating artwork or designing graphics.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your marketing materials or presentations.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation tool has an affiliate program, allowing users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its image generation tool"
       },
       "sources": [
         {
@@ -42,14 +42,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rIF6HG_oVbQ",
-          "signal": "Four AI tools. Countless creative possibilities."
+          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
+          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
         }
       ],
       "content_ideas": [
-        "ChatGPT se images kaise banayein",
-        "AI image generation ke fayde",
-        "ChatGPT image generation tutorial"
+        "ChatGPT se image kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation for business"
       ]
     },
     {
@@ -60,27 +60,27 @@
         "youtube"
       ],
       "what_it_is": "AI video generation tools allow users to create videos based on text prompts or images.",
-      "audience_angle": "You can use AI video generation tools to create engaging videos for your social media or blog posts, without needing extensive video production experience.",
-      "linkedin_angle": "Utilize AI-powered video generation to streamline your content creation process and increase your online presence.",
-      "local_relevance": 6,
+      "audience_angle": "You can use AI video generation tools to create engaging videos for your social media or marketing campaigns.",
+      "linkedin_angle": "Utilize AI video generation to create professional-looking videos for your business or personal brand.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs, allowing users to earn money by promoting the tools."
+        "note": "Some AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
-          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
+          "url": "https://www.youtube.com/watch?v=fC0oASucSZ8",
+          "signal": "Turn Any Image Into Animated Videos With This AI Tool and Earn Money"
         }
       ],
       "content_ideas": [
         "AI video kaise banayein",
         "AI video generation ke fayde",
-        "AI video tutorial"
+        "AI video generation for business"
       ]
     },
     {
@@ -90,28 +90,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude Fable 5 is an AI-powered tool that allows users to generate content and automate tasks.",
-      "audience_angle": "You can use Claude Fable 5 to streamline your content creation process and increase your productivity.",
-      "linkedin_angle": "Leverage Claude Fable 5 to automate repetitive tasks and focus on high-leverage activities.",
+      "what_it_is": "Claude Fable 5 is a language model developed by Anthropic that can generate human-like text.",
+      "audience_angle": "You can use Claude Fable 5 to generate content, such as articles or social media posts, or to assist with writing tasks.",
+      "linkedin_angle": "Leverage Claude Fable 5 to enhance your content creation and writing productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program, allowing users to earn money by promoting the tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Claude Fable 5"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ACjwmGeDHFc",
-          "signal": "Why Anthropic's Claude Fable 5 & Mythos 5 Are Now Illegal (+15 AI Updates)"
+          "url": "https://www.youtube.com/watch?v=B6wbbz8UOvA",
+          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich!"
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 kya hai",
+        "Claude Fable 5 se content kaise banayein",
         "Claude Fable 5 ke fayde",
-        "Claude Fable 5 tutorial"
+        "Claude Fable 5 for business"
       ]
     }
   ],
@@ -124,27 +124,27 @@
         "youtube"
       ],
       "what_it_is": "AI video generation tools allow users to create videos based on text prompts or images.",
-      "audience_angle": "You can use AI video generation tools to create engaging videos for your social media or blog posts, without needing extensive video production experience.",
-      "linkedin_angle": "Utilize AI-powered video generation to streamline your content creation process and increase your online presence.",
-      "local_relevance": 6,
+      "audience_angle": "You can use AI video generation tools to create engaging videos for your social media or marketing campaigns.",
+      "linkedin_angle": "Utilize AI video generation to create professional-looking videos for your business or personal brand.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs, allowing users to earn money by promoting the tools."
+        "note": "Some AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=00QY29PvHvc",
-          "signal": "Google Omni AI Video Generator Tutorial (Mobile) | Create Viral AI Videos FREE in 2026"
+          "url": "https://www.youtube.com/watch?v=fC0oASucSZ8",
+          "signal": "Turn Any Image Into Animated Videos With This AI Tool and Earn Money"
         }
       ],
       "content_ideas": [
         "AI video kaise banayein",
         "AI video generation ke fayde",
-        "AI video tutorial"
+        "AI video generation for business"
       ]
     },
     {
@@ -155,16 +155,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation tool allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or blog posts, making your content more engaging and visually appealing.",
-      "linkedin_angle": "Leverage AI-powered image generation to enhance your marketing materials and stand out from the competition.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your personal or professional projects, such as creating artwork or designing graphics.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your marketing materials or presentations.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation tool has an affiliate program, allowing users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its image generation tool"
       },
       "sources": [
         {
@@ -174,14 +174,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rIF6HG_oVbQ",
-          "signal": "Four AI tools. Countless creative possibilities."
+          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
+          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
         }
       ],
       "content_ideas": [
-        "ChatGPT se images kaise banayein",
-        "AI image generation ke fayde",
-        "ChatGPT image generation tutorial"
+        "ChatGPT se image kaise banayein",
+        "ChatGPT image generation ke fayde",
+        "ChatGPT image generation for business"
       ]
     },
     {
@@ -191,35 +191,35 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude Fable 5 is an AI-powered tool that allows users to generate content and automate tasks.",
-      "audience_angle": "You can use Claude Fable 5 to streamline your content creation process and increase your productivity.",
-      "linkedin_angle": "Leverage Claude Fable 5 to automate repetitive tasks and focus on high-leverage activities.",
+      "what_it_is": "Claude Fable 5 is a language model developed by Anthropic that can generate human-like text.",
+      "audience_angle": "You can use Claude Fable 5 to generate content, such as articles or social media posts, or to assist with writing tasks.",
+      "linkedin_angle": "Leverage Claude Fable 5 to enhance your content creation and writing productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program, allowing users to earn money by promoting the tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Claude Fable 5"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ACjwmGeDHFc",
-          "signal": "Why Anthropic's Claude Fable 5 & Mythos 5 Are Now Illegal (+15 AI Updates)"
+          "url": "https://www.youtube.com/watch?v=B6wbbz8UOvA",
+          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich!"
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 kya hai",
+        "Claude Fable 5 se content kaise banayein",
         "Claude Fable 5 ke fayde",
-        "Claude Fable 5 tutorial"
+        "Claude Fable 5 for business"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
+      "who_affected": "Users who rely heavily on ChatGPT for their work or personal projects",
       "signal_strength": 6,
       "sources": [
         {
@@ -227,8 +227,8 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1u8hgej/chatgpt_voice_just_submitted_a_message_i_never/"
         }
       ],
-      "content_opportunity": "ChatGPT usage limits: How to overcome them and maximize your productivity"
+      "content_opportunity": "Create a tutorial on how to optimize ChatGPT usage and avoid hitting the limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Image Generation, because it has been gaining popularity and has a wide range of applications for both personal and professional use"
 }
