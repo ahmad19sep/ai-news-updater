@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWZEUGNEUkJJOGx3a0E0QkFXdlY1TlltMVAzMnhyd05HTk9LMkhrYTNwSml5SjhtXzZQWTB2dURmSlcwbk94UXBnTVJXTXJ4WEswc2c0N2pMR1M4MVVCVnVLZVVhUjVSb3d6MFYtNkFaN1pDOFNLcFJldmhBeHlRSzM1UzI?oc=5
 6. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
-7. **Ping An Good Doctor Upgrades AI Doctor Service "Ping An AI Doctor", Expanding Access to Ping An Ecosystem's 90 Million MAUs - TradingView** — science angle
-   https://news.google.com/rss/articles/CBMijgJBVV95cUxNUUJ3cVpxX3RsdkxwZjRHTW5ObDY4NnlZUHo1ejhPekpNTXNtU1BfV2hBRkFtVEtjLVcwMGNOR1dCd04xczJSTXRzZEwxUFlCSUl3ektCRmgtVGNkb21VN3ZCejV4X21vaHpzQ2lDeXczcXlMci1RejhOdjl1ZmRzWTNRSzA1QzNFaktOckdxQ2R5TnNSYWN4YUpEelZLUEptRGs5eW1qbkEtOFpqdTBQSUNrRW82WHoxSXZGYXM1QUNJaE9DT3NrOGxBZS1McFBJSDNsZ1lfcjFGcGZYUnV6VEJ6V1FOeDFkS1dnMl9PRzlPWEpteGdlcWpVSUwtSHB2U05ZU3laT2xYSnNZaXc?oc=5
-8. **'A doctor who doesn't judge': Why patients are turning to AI for treatment - The Times of India** — science angle
-   https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQVphVEQ2NV8zcmY1VEFjNEFqdlQzZ3dna1FKbDVrT29aUllUMmtlTE4xNEFkdks5SUJRYWVacXRkYjJNaUc5OVBSQnFSYjh1M0k5SXVRZ0tFcFFEUE4yZkNOcUppdldUNXNvdlMzb213QVpGdlcxaGRtcnB0WUxVTFdNY3FJLUZfSGJYZUJ3QzdqSVdJdjNKMWRJaVc1Mk1la01EdHV5UG5ra2JQTFQ2LXZzWG5zbVZxT1hXdlR2WGJGWDROVWNHdzBPZ2NhWlNYQmh3Qw?oc=5
+7. **One of my chemistry professors uploads PDFs to ChatGPT and asks it for percentage of AI authorship and uses that to accuse students of using AI in their assignment reports. How accurate is this method to detect AI generated text?** — science angle
+   https://www.reddit.com/r/ChatGPT/comments/1u8993n/one_of_my_chemistry_professors_uploads_pdfs_to/
+8. **A new AI framework that can help doctors build better tools - Medical Xpress** — science angle
+   https://news.google.com/rss/articles/CBMiekFVX3lxTE1BZy1oLVQ3LWpBelNIbE5lU0dwMW9KNHdKblVNNzc5YlVNV3A0RWM3aGphRUYxNm5iZnpCdnBPYWY5OER1UVMybDRSWUtzcnJqQnJwWWgtUGJpaTlXYkNiSGN4eURJbXJjQVBrSGpvejRtNlZlTDBZQ3l3?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE** — Jensen Huang News — Score 166
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1875
+- Total stories tracked: 1921
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
