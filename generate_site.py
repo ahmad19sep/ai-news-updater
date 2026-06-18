@@ -398,10 +398,12 @@ PAGE = r"""<!doctype html>
   .wa-head select option { color:#111; }
   .wa-head .x { margin-left:auto; background:rgba(255,255,255,.15); border:none; color:#fff;
           border-radius:8px; padding:6px 11px; cursor:pointer; font-size:14px; }
-  #chatmodal, #xmodal, #pubmodal, #socialmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
+  #chatmodal, #xmodal, #pubmodal, #socialmodal, #nrmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
-  #pubmodal .mbox, #socialmodal .mbox { max-height:92vh; overflow-y:auto; }
+  #pubmodal .mbox, #socialmodal .mbox, #nrmodal .mbox { max-height:92vh; overflow-y:auto; }
   .soc-tab.active, .soc-lang.active { border-color:var(--indigo); color:var(--indigo); font-weight:600; }
+  .nr-plat { display:flex; flex-wrap:wrap; gap:7px; margin-top:8px; }
+  .nr-plat button[disabled] { opacity:.45; cursor:not-allowed; }
   .chatbadge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px;
           padding:0 5px; border-radius:9px; background:#ef4444; color:#fff;
           font:700 11px Inter; display:flex; align-items:center; justify-content:center;
@@ -795,6 +797,45 @@ PAGE = r"""<!doctype html>
       <button class="btn" id="soc-share">Share</button>
       <button class="ghost" id="soc-copy">📋 Copy post</button>
       <span id="soc-hint" style="margin-left:auto;font-size:12px;color:var(--faint)"></span>
+    </div>
+  </div>
+</div>
+<div id="nrmodal" hidden>
+  <div class="mbox" style="max-width:660px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+      <b style="font-size:15px">📰 Newsroom</b>
+      <span style="font-size:11.5px;color:var(--faint)">one prompt → article + images + every platform</span>
+      <button class="ghost" style="margin-left:auto;padding:6px 11px" onclick="closeNewsroom()">✕</button>
+    </div>
+    <div id="nr-story" class="note" style="margin:0 0 10px"></div>
+    <div class="genrow" style="align-items:center;flex-wrap:wrap">
+      <b style="font-size:12.5px;color:var(--dim)">1.</b>
+      <button class="btn" id="nr-copy">🤖 Copy master prompt</button>
+      <span style="font-size:12px;color:var(--faint)">paste into ChatGPT / Gemini / Claude</span>
+    </div>
+    <div class="genrow" style="align-items:flex-start;flex-wrap:wrap;margin-top:8px">
+      <b style="font-size:12.5px;color:var(--dim);margin-top:8px">2.</b>
+      <textarea id="nr-in" style="flex:1;min-width:240px;min-height:90px" placeholder="Paste the FULL AI output here (with the [[MARKERS]]), then Parse."></textarea>
+      <button class="btn" id="nr-parse" style="margin-top:0">Parse →</button>
+    </div>
+    <div id="nr-parsed" hidden style="margin-top:12px;border-top:1px solid var(--line);padding-top:12px">
+      <input id="nr-head" type="text" style="width:100%;margin-bottom:8px" placeholder="Headline">
+      <select id="nr-cat" style="width:100%;margin-bottom:8px"></select>
+      <textarea id="nr-body" style="width:100%;min-height:150px" placeholder="Article body"></textarea>
+      <div class="genrow" style="align-items:center;flex-wrap:wrap;margin-top:8px">
+        <label class="ghost" style="cursor:pointer;padding:8px 12px;white-space:nowrap">📷 Upload
+          <input type="file" id="nr-file" accept="image/*" hidden></label>
+        <button class="ghost" type="button" id="nr-poster">🖼️ Make poster</button>
+        <button class="ghost" type="button" id="nr-img1">🎨 Image prompt 1</button>
+        <button class="ghost" type="button" id="nr-img2">🎨 Image prompt 2</button>
+        <img id="nr-preview" alt="" style="height:44px;border-radius:8px;display:none;object-fit:cover">
+      </div>
+      <div class="mfoot" style="flex-wrap:wrap;margin-top:10px">
+        <button class="btn" id="nr-pub">🌐 Publish to website</button>
+        <span id="nr-link" style="margin-left:auto;font-size:12px"></span>
+      </div>
+      <div class="note" style="margin:10px 2px 4px">3. Publish first, then share — each opens with its post + your article link:</div>
+      <div class="nr-plat" id="nr-plats"></div>
     </div>
   </div>
 </div>
@@ -1331,6 +1372,7 @@ function render() {
       '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + local + hot +
       "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
       '<span class="actions">' +
+      (ROLE === "owner" ? '<button class="nr-btn" title="Newsroom: article + images + all posts">📰</button>' : "") +
       (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
       (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
       '<button class="plan-btn">🎬 plan</button>' +
@@ -1348,6 +1390,8 @@ function render() {
     if (xb) xb.onclick = () => openXModal(it);
     const pb2 = d.querySelector(".pub-btn");
     if (pb2) pb2.onclick = () => openPublishModal(it);
+    const nb = d.querySelector(".nr-btn");
+    if (nb) nb.onclick = () => openNewsroom(it);
     list.appendChild(d);
   });
   document.getElementById("more").style.display = items.length > shown ? "block" : "none";
@@ -1519,6 +1563,7 @@ function pulseCard(t, isTool) {
     h += '</div>';
   }
   h += '<div class="pact">'
+    + '<button class="ghost" onclick="pulseNewsroom(\'' + id + '\')">📰 Newsroom</button>'
     + '<button class="ghost" onclick="pulseToBoard(\'' + id + '\')">➕ Board</button>'
     + '<button class="ghost" onclick="pulseCopyPrompt(\'' + id + '\')">📋 Script prompt</button>'
     + '<button class="ghost" onclick="pulseToX(\'' + id + '\')">𝕏 X post</button>'
@@ -1581,6 +1626,10 @@ function pulseCopyPrompt(id) {
 function pulseToX(id) {
   const t = pulseById[id]; if (!t) return;
   openXModal({ t: pulseTitle(t), u: pulseUrl(t) });
+}
+function pulseNewsroom(id) {
+  const t = pulseById[id]; if (!t) return;
+  openNewsroom({ t: pulseTitle(t), u: pulseUrl(t), p: 0 });
 }
 
 /* ---------------- Publish board (Buffer style) ---------------- */
@@ -3707,6 +3756,128 @@ document.getElementById("soc-share").onclick = () => {
   } else {
     navigator.clipboard.writeText(t).then(() => toast("Copied — paste in " + (socPlat === "instagram" ? "Instagram" : "YouTube") + " ✅"));
   }
+};
+
+/* ---- Newsroom: one master prompt -> article + 2 image prompts + every platform post ---- */
+let nrStory = { title: "", source: "", p: 0 }, nrParsed = {}, nrLink = "", nrImg = "";
+function nrCopy(t) { navigator.clipboard.writeText(t).catch(() => {}); }
+function nrOpen(u) { window.open(u, "_blank", "noopener"); }
+const NR_PLATFORMS = [
+  { k: "x", label: "𝕏 X", act: t => { nrOpen("https://x.com/intent/tweet?text=" + encodeURIComponent(t)); toast("X opened — tap Post 🚀"); } },
+  { k: "linkedin", label: "in LinkedIn", act: t => { nrCopy(t); nrOpen("https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(nrLink)); toast("LinkedIn opened + post copied — paste it"); } },
+  { k: "reddit", label: "🟠 Reddit", act: t => { nrCopy(t); nrOpen("https://www.reddit.com/submit?title=" + encodeURIComponent(nrParsed.headline || nrStory.title || "") + "&url=" + encodeURIComponent(nrLink)); toast("Reddit opened + text copied"); } },
+  { k: "facebook", label: "📘 Facebook", act: t => { nrCopy(t); nrOpen("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(nrLink)); toast("Facebook opened + caption copied — paste it"); } },
+  { k: "whatsapp", label: "📱 WhatsApp", act: t => { nrOpen("https://wa.me/?text=" + encodeURIComponent(t)); toast("WhatsApp opened — pick your Channel & send"); } },
+  { k: "instagram", label: "📸 Instagram", act: t => { nrCopy(t); toast("Instagram caption copied — paste in the app"); } },
+  { k: "youtube", label: "▶️ YouTube", act: t => { nrCopy(t); toast("YouTube post copied — paste as a community post"); } },
+];
+function openNewsroom(story) {
+  nrStory = { title: story.t || story.name || "", source: story.u || story.source || "", p: story.p || 0 };
+  nrParsed = {}; nrLink = ""; nrImg = "";
+  document.getElementById("nr-story").textContent = "📰 " + (nrStory.title || "(no title)");
+  document.getElementById("nr-in").value = "";
+  document.getElementById("nr-head").value = ""; document.getElementById("nr-body").value = "";
+  document.getElementById("nr-preview").style.display = "none"; document.getElementById("nr-file").value = "";
+  document.getElementById("nr-link").textContent = "";
+  document.getElementById("nr-parsed").hidden = true;
+  document.getElementById("nr-cat").innerHTML = Object.entries(PILLARS)
+    .map(([k, v]) => "<option" + (+k === nrStory.p ? " selected" : "") + ">" + v + "</option>").join("");
+  document.getElementById("nrmodal").hidden = false;
+}
+function closeNewsroom() { document.getElementById("nrmodal").hidden = true; }
+document.getElementById("nrmodal").addEventListener("click", e => { if (e.target.id === "nrmodal") closeNewsroom(); });
+document.getElementById("nr-copy").onclick = () => {
+  const p = window.buildNewsroomPrompt({ title: nrStory.title, source: nrStory.source });
+  navigator.clipboard.writeText(p).then(() => toast("Master prompt copied — paste in any AI, then paste the full output back & Parse 🤖"));
+};
+function nrParse(text) {
+  const out = {}, re = /\[\[(\w+)\]\]/g, parts = []; let m;
+  while ((m = re.exec(text))) parts.push({ key: m[1].toLowerCase(), start: m.index, end: re.lastIndex });
+  for (let i = 0; i < parts.length; i++) {
+    if (parts[i].key === "end") continue;
+    const s = parts[i].end, e = (i + 1 < parts.length) ? parts[i + 1].start : text.length;
+    out[parts[i].key] = text.slice(s, e).replace(/^\s*\([^)]*\)\s*$/, "").trim();
+  }
+  return out;
+}
+document.getElementById("nr-parse").onclick = () => {
+  const raw = document.getElementById("nr-in").value;
+  if (!raw.trim()) { toast("Paste the AI output first"); return; }
+  nrParsed = nrParse(raw);
+  if (!nrParsed.article && !nrParsed.headline) { toast("Couldn't find the [[MARKERS]] — paste the full output"); return; }
+  document.getElementById("nr-head").value = nrParsed.headline || nrStory.title || "";
+  document.getElementById("nr-body").value = nrParsed.article || "";
+  document.getElementById("nr-parsed").hidden = false;
+  nrRenderPlats();
+  toast("Parsed ✓ — add an image, Publish, then share");
+};
+function nrRenderPlats() {
+  const el = document.getElementById("nr-plats"); el.innerHTML = "";
+  NR_PLATFORMS.forEach(p => {
+    const b = document.createElement("button"); b.className = "ghost"; b.textContent = p.label;
+    b.disabled = !nrLink || !nrParsed[p.k];
+    b.title = !nrParsed[p.k] ? "Not in the AI output" : (!nrLink ? "Publish the article first" : "");
+    b.onclick = () => { const t = (nrParsed[p.k] || "").replace(/\[ARTICLE LINK\]/g, nrLink); p.act(t); };
+    el.appendChild(b);
+  });
+}
+document.getElementById("nr-file").onchange = (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  const img = new Image();
+  img.onload = () => {
+    const max = 900; let w = img.width, h = img.height; if (w > max) { h = Math.round(h * max / w); w = max; }
+    const c = document.createElement("canvas"); c.width = w; c.height = h; c.getContext("2d").drawImage(img, 0, 0, w, h);
+    nrImg = c.toDataURL("image/jpeg", 0.65);
+    const pv = document.getElementById("nr-preview"); pv.src = nrImg; pv.style.display = "";
+  };
+  img.src = URL.createObjectURL(f);
+};
+function nrMakePoster() {
+  const title = document.getElementById("nr-head").value.trim();
+  if (!title) { toast("Parse the article first (need a headline)"); return; }
+  const cat = document.getElementById("nr-cat").value || "AI NEWS";
+  const W = 1200, H = 675, c = document.createElement("canvas"); c.width = W; c.height = H; const x = c.getContext("2d");
+  const finish = () => {
+    x.textBaseline = "alphabetic";
+    x.font = "700 26px Inter, Arial, sans-serif"; x.fillStyle = "#38bdf8"; x.fillText(cat.toUpperCase(), 60, 92);
+    x.font = "800 62px Inter, Arial, sans-serif"; x.fillStyle = "#fff";
+    const lines = _wrapLines(x, title, W - 120).slice(0, 4); const lh = 74; let y = H - 150 - (lines.length - 1) * lh;
+    lines.forEach(l => { x.fillText(l, 60, y); y += lh; });
+    x.font = "700 30px Inter, Arial, sans-serif"; x.fillStyle = "#e8edfb"; x.fillText("📡 AI Radar", 60, H - 58);
+    x.font = "500 22px Inter, Arial, sans-serif"; x.fillStyle = "#9fb0d6"; x.fillText("radar.hafizahmad.com", 60, H - 26);
+    nrImg = c.toDataURL("image/jpeg", 0.85);
+    const pv = document.getElementById("nr-preview"); pv.src = nrImg; pv.style.display = ""; toast("Poster made 🖼️");
+  };
+  if (nrImg && nrImg.indexOf("data:image") === 0) {
+    const im = new Image();
+    im.onload = () => {
+      const r = Math.max(W / im.width, H / im.height), w = im.width * r, h = im.height * r;
+      x.drawImage(im, (W - w) / 2, (H - h) / 2, w, h);
+      const g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, "rgba(7,11,24,.30)"); g.addColorStop(.55, "rgba(7,11,24,.55)"); g.addColorStop(1, "rgba(7,11,24,.94)");
+      x.fillStyle = g; x.fillRect(0, 0, W, H); finish();
+    };
+    im.onerror = () => { _gradBg(x, W, H); finish(); }; im.src = nrImg;
+  } else { _gradBg(x, W, H); finish(); }
+}
+document.getElementById("nr-poster").onclick = nrMakePoster;
+document.getElementById("nr-img1").onclick = () => { if (!nrParsed.image1) { toast("No image prompt 1 found"); return; } nrCopy(nrParsed.image1); toast("Image prompt 1 copied — make it in any image AI, then 📷 Upload 🎨"); };
+document.getElementById("nr-img2").onclick = () => { if (!nrParsed.image2) { toast("No image prompt 2 found"); return; } nrCopy(nrParsed.image2); toast("Image prompt 2 copied 🎨"); };
+document.getElementById("nr-pub").onclick = async () => {
+  if (!FBURL) { toast("Firebase not connected"); return; }
+  const title = document.getElementById("nr-head").value.trim();
+  const body = document.getElementById("nr-body").value.trim();
+  if (!title || !body) { toast("Need a headline and article body"); return; }
+  const id = String(Date.now());
+  const art = { id, title, body, url: nrStory.source || "", image: nrImg || "",
+    cat: document.getElementById("nr-cat").value, ts: Date.now() };
+  try {
+    const r = await fetch(pubBase() + "/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(art) });
+    if (!r.ok) { toast("Publish blocked — add a /published rule in Firebase"); return; }
+    nrLink = PUBLIC_SITE + "/#a=" + id; lastPubArt = art;
+    document.getElementById("nr-link").innerHTML = '✅ Live — <a href="index.html" target="_blank">view</a> · share below ↓';
+    nrRenderPlats();
+    toast("Published 🌐 — now share to any platform");
+  } catch (e) { toast("Publish failed: " + e.message); }
 };
 async function loadPubList() {
   const el = document.getElementById("pub-list");

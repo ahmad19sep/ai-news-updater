@@ -284,6 +284,49 @@ window.SOCIAL = {
   },
 };
 
+/* ---- Global Newsroom: ONE prompt -> article + 2 image prompts + all platform
+   posts. Output uses [[MARKERS]] so the studio can split it into sections. ---- */
+window.buildNewsroomPrompt = function (o) {
+  return [
+'You are a world-class senior journalist (Reuters, BBC, The New York Times, AP, FT, The Washington Post). Analyze the source news and produce professional journalism for a global audience, then platform-ready social posts.',
+'',
+'SOURCE STORY: ' + (o.title || ''),
+(o.source ? 'SOURCE LINK: ' + o.source + '\nFIRST open and read the source carefully.' : ''),
+'',
+'Rules: accuracy, neutrality, credibility. Use ONLY facts from the source — never invent quotes, numbers, names, or events. Attribute facts. No sensationalism. Plain text (no markdown).',
+'',
+'Output EXACTLY in the format below. Keep every [[MARKER]] on its own line, in this order, with nothing before [[HEADLINE]] or after [[END]]. In every social post, wherever the article link belongs, write the literal token [ARTICLE LINK] (I will replace it).',
+'',
+'[[HEADLINE]]',
+'(compelling, professional headline)',
+'[[SUBHEAD]]',
+'(one-sentence summary)',
+'[[ARTICLE]]',
+'(500-700 word article: strong lede, short paragraphs, context, significance, attribution)',
+'[[SOURCES]]',
+'(the original source(s))',
+'[[IMAGE1]]',
+'(a photorealistic, editorial, cinematic 16:9 AI image-generation prompt for the MAIN feature image — realistic people/place/atmosphere, ultra-detailed, no text/logos/watermarks)',
+'[[IMAGE2]]',
+'(a DIFFERENT 16:9 image prompt — another angle/consequence/wider context, editorial photography, no text/logos)',
+'[[LINKEDIN]]',
+'(English. Professional LinkedIn post: strong hook, key insight + implications, encourage discussion. End with "Read the full story:\\n[ARTICLE LINK]")',
+'[[X]]',
+'(English. Under 280 characters, attention-grabbing hook, 1-2 hashtags. End with [ARTICLE LINK])',
+'[[REDDIT]]',
+'(English. First line = a Reddit-style title, then a neutral summary + one discussion question. End with [ARTICLE LINK])',
+'[[FACEBOOK]]',
+'(Roman Urdu. Engaging hook, easy paragraphs, emojis, encourage comments. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'[[INSTAGRAM]]',
+'(Roman Urdu. Caption style: hook, key facts, emojis, hashtags. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'[[WHATSAPP]]',
+'(Roman Urdu. Very concise, most important facts first, mobile-friendly, few emojis. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'[[YOUTUBE]]',
+'(Roman Urdu. Community post: create curiosity, highlight the key development, ask a question. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'[[END]]',
+  ].filter(x => x !== null && x !== undefined).join('\n');
+};
+
 window.buildSocialPrompt = function (o) {
   const cfg = window.SOCIAL[o.platform] || window.SOCIAL.facebook;
   const lang = o.lang === "en"
