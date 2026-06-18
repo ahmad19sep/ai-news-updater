@@ -68,6 +68,19 @@ def send_top_picks(conn):
     )
 
 
+def send_post_nudge(item):
+    """A 'go post this' nudge for one strong story. Opens the Studio on tap.
+    item = a scoring.score_items() dict ({'title','url','reasons',...})."""
+    why = ", ".join(item.get("reasons") or []) or "strong story"
+    return send(
+        title="Post this - top story",
+        message=f"📲 {item['title']}\n\n({why})\n\nTap to open Radar Studio →",
+        priority="high",
+        tags="megaphone",
+        click=config.DASHBOARD_URL,
+    )
+
+
 def send_digest(conn):
     """Send all unsent items as one grouped digest (one message per pillar),
     then mark everything as notified so it is never sent twice."""

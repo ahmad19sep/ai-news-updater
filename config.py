@@ -259,6 +259,18 @@ DIGEST_MAX_PER_PILLAR = 8
 # Your online dashboard (opens when you tap a digest notification).
 DASHBOARD_URL = "https://radar.hafizahmad.com/studio.html"
 
+# ---- "Post this" nudges -------------------------------------------------
+# A gentle, action-oriented alert: every couple of hours (and instantly for a
+# big story) your phone gets "📲 Post this — <headline>". Tap it -> Studio opens.
+# It never nudges the same story twice, and stays quiet overnight (PK time).
+NUDGE_ENABLED = True
+NUDGE_EVERY_HOURS = 2        # minimum gap between routine nudges
+NUDGE_MIN_SCORE = 6          # only stories worth filming get a nudge
+NUDGE_URGENT_SCORE = 12      # a really big story nudges immediately (ignores the gap)
+NUDGE_TZ_OFFSET = 5          # your timezone vs the server (PK = UTC+5; GitHub runs in UTC)
+NUDGE_QUIET_START = 1        # no routine nudges between these local hours (1am–7am)
+NUDGE_QUIET_END = 7
+
 
 # ==================== AI PULSE ====================
 # Pulse is a SEPARATE feature from the news "Trends" tab. It surfaces what
