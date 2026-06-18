@@ -1,10 +1,11 @@
 """
-AI Radar - PUBLIC news website generator (modern news-site layout).
+AI Radar - PUBLIC news website generator (modern publication design).
 
 Reads news.db and writes docs/index.html = an open, SEO-friendly AI-news site
-styled like a modern publication (masthead, lead story, section tags, headline
-river). Editor-published articles (from Firebase /published) appear as featured
-stories. The private studio is generated separately to docs/studio.html.
+styled like a modern publication (breaking ticker, radar masthead, hero lead +
+side stack, two-column feed + sidebar, research grid, full footer, article
+reader). Editor-published articles (from Firebase /published) become the hero +
+related stories. The private studio is generated separately to docs/studio.html.
 
 Run:  python generate_public.py
 """
@@ -36,26 +37,24 @@ MAX_STORIES = 600
 SITE_NAME = "AI Radar"
 # The address where the site is actually served. Canonical/OG/sitemap all use
 # this — it MUST match the live URL or Google won't index correctly.
-# Custom subdomain (portfolio stays on the apex; AI Radar lives here).
 SITE_URL = "https://radar.hafizahmad.com/"
-# Paste the content value from Google Search Console's "HTML tag" verification
-# method here (just the long code), then re-run. Leave "" to skip.
+# Paste the Google Search Console "HTML tag" verification code here, then re-run.
 GSC_VERIFY = ""
 SITE_DESC = ("Breaking artificial-intelligence news, every day: new models and tools, "
              "AI in science, business, and research — updated every 30 minutes, with links "
              "to the original sources.")
-CONTACT_EMAIL = "get.shahzadsaddique@gmail.com"   # shown in footer/contact; change anytime
+CONTACT_EMAIL = "get.shahzadsaddique@gmail.com"
 
-# section colours (newspaper-style tags), keyed by category id
-CATCOLORS = {1: "#4f7cff", 2: "#22c55e", 3: "#a855f7", 4: "#f59e0b", 5: "#ef4444",
-             6: "#06b6d4", 7: "#84cc16", 8: "#ec4899", 9: "#8b5cf6", 10: "#94a3b8"}
+# section colours, keyed by category id (match the publication design palette)
+CATCOLORS = {1: "#22D3EE", 2: "#8B7CFF", 3: "#5B9DFF", 4: "#38BDF8", 5: "#F8A93B",
+             6: "#7C8BFF", 7: "#34D399", 8: "#FF5A8A", 9: "#A78BFA", 10: "#9AA7BE"}
 
 PAGE = r"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#070b18">
+<meta name="theme-color" content="#070A11">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="favicon.svg">
 <title>__SITE__ — Latest AI News, updated all day</title>
@@ -78,326 +77,524 @@ __GSC__
 <script type="application/ld+json">__JSONLD__</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#070b18; --surface:#0e1730; --surface2:#15213e; --text:#e8edfb;
-          --dim:#97a4c6; --faint:#5e6b8c; --line:rgba(125,150,220,.14);
-          --line2:rgba(125,150,220,.28); --accent:#38bdf8; --accent2:#4f7cff;
-          --orange:#fb923c; --grad:linear-gradient(135deg,#4f7cff,#38bdf8);
-          --display:"Space Grotesk", Inter, sans-serif;
-          --head:"Newsreader", Georgia, serif; }
-  * { box-sizing:border-box; }
-  body { margin:0; background:radial-gradient(1200px 560px at 72% -14%, #16275a 0%, #0a1330 40%, var(--bg) 72%);
-         color:var(--text); font:15px/1.55 Inter, system-ui, sans-serif; -webkit-font-smoothing:antialiased; }
-  a { color:inherit; text-decoration:none; }
-  .wrap { max-width:1080px; margin:0 auto; padding:0 18px 70px; }
+  :root{
+    --bg:#070A11;--surface:#0E1420;--surface2:#141C2B;--surface3:#1A2335;
+    --line:#222C3F;--line2:#2C3850;
+    --hi:#EEF2F8;--mid:#9AA7BE;--dim:#62708A;
+    --accent:#4D8BFF;--accent2:#38BDF8;--hot:#FF5436;--amber:#F8A93B;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--bg);color:var(--hi);font-family:'Space Grotesk',system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  button{font-family:inherit;color:inherit;}
+  input{font-family:inherit;}
+  .serif{font-family:'Newsreader',Georgia,serif;}
+  .mono{font-family:'JetBrains Mono',monospace;}
+  ::-webkit-scrollbar{width:12px;height:12px;}
+  ::-webkit-scrollbar-thumb{background:#1E2738;border-radius:9px;border:3px solid transparent;background-clip:content-box;}
+  @keyframes radarPulse{0%{transform:scale(.6);opacity:.85}100%{transform:scale(2.4);opacity:0}}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+  .wrap{max-width:1240px;margin:0 auto;padding:26px 22px 20px;width:100%;}
+
+  /* breaking ticker */
+  .ticker{display:flex;align-items:center;gap:14px;background:#0A0E16;border-bottom:1px solid var(--line);padding:7px 22px;overflow:hidden;}
+  .ticker .bk{display:inline-flex;align-items:center;gap:7px;flex:none;background:var(--hot);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.08em;padding:3px 9px;border-radius:5px;}
+  .ticker .bk .d{width:6px;height:6px;border-radius:50%;background:#fff;animation:blink 1.1s infinite;}
+  .tkrow{display:flex;align-items:center;gap:26px;overflow:hidden;flex:1;min-width:0;}
+  .tk{display:inline-flex;align-items:center;gap:9px;font-size:12.5px;color:var(--mid);white-space:nowrap;}
+  .tk .dot{width:3px;height:3px;border-radius:50%;background:var(--hot);}
+  .tklive{flex:none;font-size:11px;color:var(--dim);}
+  @media(max-width:760px){.ticker .tklive{display:none}}
 
   /* masthead */
-  header { border-bottom:1px solid var(--line); background:rgba(7,11,24,.78); backdrop-filter:blur(12px);
-           position:sticky; top:0; z-index:30; }
-  .mast { max-width:1080px; margin:0 auto; padding:14px 18px; display:flex; align-items:center; gap:14px; }
-  .brand { display:flex; align-items:center; gap:11px; }
-  .brand .orb { width:34px; height:34px; border-radius:10px; background:var(--grad);
-          display:flex; align-items:center; justify-content:center; font-size:18px;
-          box-shadow:0 0 22px rgba(79,124,255,.5); }
-  .brand .nm { font:800 22px var(--display); letter-spacing:-.02em; }
-  .brand .nm b { background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
-  .mast .date { color:var(--faint); font-size:12.5px; margin-left:4px; }
-  .mast .right { margin-left:auto; display:flex; gap:8px; }
-  .mast .right a { color:var(--dim); font-size:12.5px; font-weight:600; border:1px solid var(--line);
-          border-radius:999px; padding:6px 13px; }
-  .mast .right a:hover { color:var(--text); border-color:var(--line2); }
-  /* category nav */
-  .nav { border-bottom:1px solid var(--line); background:rgba(7,11,24,.6); }
-  .navrow { max-width:1080px; margin:0 auto; padding:0 12px; display:flex; gap:2px; overflow-x:auto; scrollbar-width:none; }
-  .navrow::-webkit-scrollbar { display:none; }
-  .navrow button { background:none; border:none; color:var(--dim); font:600 13px Inter; cursor:pointer;
-          padding:12px 13px; white-space:nowrap; border-bottom:2px solid transparent; }
-  .navrow button:hover { color:var(--text); }
-  .navrow button.active { color:#fff; border-bottom-color:var(--accent); }
+  header.mast{position:sticky;top:0;z-index:50;background:rgba(7,10,17,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);}
+  .mastrow{display:flex;align-items:center;gap:18px;padding:13px 22px;max-width:1240px;margin:0 auto;}
+  .brand{display:inline-flex;align-items:center;gap:10px;flex:none;}
+  .orb{position:relative;width:32px;height:32px;border-radius:9px;background:radial-gradient(120% 120% at 30% 25%,#5B9DFF,#2D5Cff);display:flex;align-items:center;justify-content:center;overflow:hidden;}
+  .orb .ring{position:absolute;width:30px;height:30px;border-radius:50%;border:1.5px solid rgba(255,255,255,.55);animation:radarPulse 2.6s ease-out infinite;}
+  .brand .nm{font-size:18px;font-weight:700;letter-spacing:-.02em;}
+  .brand .nm b{color:var(--accent);font-weight:700;}
+  nav.cats{flex:1;min-width:0;display:flex;align-items:center;gap:3px;overflow-x:auto;padding:0 4px;scrollbar-width:none;}
+  nav.cats::-webkit-scrollbar{display:none;}
+  nav.cats button{flex:none;border:none;background:transparent;color:var(--mid);font-size:13px;font-weight:500;padding:8px 13px;border-radius:8px;cursor:pointer;white-space:nowrap;}
+  nav.cats button:hover{color:var(--hi);background:var(--surface2);}
+  nav.cats button.active{color:var(--hi);font-weight:600;background:var(--surface2);box-shadow:inset 0 -2px 0 var(--accent);}
+  .mright{flex:none;display:flex;align-items:center;gap:9px;}
+  .mright a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid var(--line);border-radius:9px;color:var(--mid);font-size:14px;}
+  .mright a:hover{border-color:var(--accent);color:var(--hi);}
+  @media(max-width:900px){nav.cats{order:3;flex-basis:100%;}}
 
-  .tag { font:700 10.5px Inter; letter-spacing:.05em; text-transform:uppercase; }
-  .live { display:inline-block; width:7px; height:7px; border-radius:50%; background:#22c55e;
-          box-shadow:0 0 0 3px rgba(34,197,94,.2); animation:pulse 2s infinite; vertical-align:middle; margin-right:6px; }
-  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+  /* hero */
+  .herogrid{display:grid;grid-template-columns:1.7fr 1fr;gap:16px;}
+  @media(max-width:900px){.herogrid{grid-template-columns:1fr;}}
+  .lead{position:relative;border:1px solid var(--line);border-radius:18px;overflow:hidden;cursor:pointer;text-align:left;padding:0;background:var(--surface);min-height:420px;display:flex;flex-direction:column;justify-content:flex-end;color:var(--hi);}
+  .lead:hover{border-color:var(--accent);}
+  .limg{position:absolute;inset:0;background-size:cover;background-position:center;}
+  .lover{position:absolute;inset:0;background:linear-gradient(to top,rgba(5,8,14,.96) 12%,rgba(5,8,14,.55) 48%,rgba(5,8,14,.12) 100%);}
+  .lbody{position:relative;padding:26px 28px 28px;}
+  .lbadges{display:flex;align-items:center;gap:10px;margin-bottom:13px;flex-wrap:wrap;}
+  .leadbadge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,84,54,.16);border:1px solid rgba(255,84,54,.4);color:#FF8A73;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:3px 9px;border-radius:6px;}
+  .leadbadge .dot{width:5px;height:5px;border-radius:50%;background:var(--hot);animation:blink 1.1s infinite;}
+  .lead h1{font-size:clamp(24px,3vw,36px);line-height:1.1;font-weight:600;letter-spacing:-.015em;margin:0 0 12px;max-width:660px;}
+  .ldek{font-size:14.5px;line-height:1.55;color:var(--mid);margin:0 0 14px;max-width:600px;}
+  .lmeta{display:flex;align-items:center;gap:11px;font-size:12px;color:var(--dim);}
+  .src{color:var(--mid);font-weight:600;}
+  .sidestack{display:flex;flex-direction:column;gap:14px;}
+  .scardx{display:flex;gap:13px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface);cursor:pointer;text-align:left;padding:11px;flex:1;color:var(--hi);}
+  .scardx:hover{border-color:var(--accent);background:var(--surface2);}
+  .sthumb{width:92px;flex:none;border-radius:9px;align-self:stretch;min-height:84px;background-size:cover;background-position:center;}
+  .sbody{min-width:0;display:flex;flex-direction:column;justify-content:center;}
+  .stitle{font-size:16px;line-height:1.22;font-weight:600;letter-spacing:-.01em;margin-top:7px;}
+  .smeta{font-size:11.5px;color:var(--dim);margin-top:7px;}
 
-  /* featured (editor-published) */
-  .feat-h, .sec-h { font:700 13px var(--display); color:var(--dim); text-transform:uppercase;
-          letter-spacing:.1em; margin:26px 2px 14px; display:flex; align-items:center; gap:8px; }
-  .lead { display:grid; grid-template-columns:1.3fr 1fr; gap:20px; align-items:stretch;
-          background:var(--surface); border:1px solid var(--line); border-radius:16px; overflow:hidden;
-          cursor:pointer; transition:.15s; margin-bottom:14px; }
-  .lead:hover { border-color:var(--line2); }
-  .lead .img { min-height:240px; background-size:cover; background-position:center; background-color:#0c1428; }
-  .lead .tx { padding:24px; display:flex; flex-direction:column; justify-content:center; }
-  .lead h2 { font:700 clamp(22px,3vw,30px) var(--head); line-height:1.2; margin:10px 0 10px; }
-  .lead .ex { color:var(--dim); font-size:14.5px; line-height:1.6; }
-  .lead .m { color:var(--faint); font-size:12px; margin-top:12px; }
-  .frow { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:14px; }
-  .fcard { background:var(--surface); border:1px solid var(--line); border-radius:14px; overflow:hidden;
-           cursor:pointer; transition:.15s; }
-  .fcard:hover { border-color:var(--line2); transform:translateY(-2px); }
-  .fcard .img { height:140px; background-size:cover; background-position:center; background-color:#0c1428; }
-  .fcard .fb { padding:13px 15px; }
-  .fcard h3 { font:600 16px var(--head); line-height:1.3; margin:6px 0 0; }
+  .cat{display:inline-flex;align-items:center;width:fit-content;white-space:nowrap;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border:1px solid;padding:3px 9px;border-radius:6px;}
 
-  /* trending */
-  .trends { display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 4px; }
-  .chip { background:rgba(56,189,248,.1); color:var(--accent); border:1px solid rgba(56,189,248,.28);
-          border-radius:999px; padding:5px 13px; font:600 12.5px Inter; cursor:pointer; }
-  .chip:hover { background:rgba(56,189,248,.18); }
+  /* status + chips */
+  .statusrow{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:22px 0 6px;padding-bottom:18px;border-bottom:1px solid var(--line);}
+  .statusrow .live{display:inline-flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.03em;color:var(--mid);}
+  .statusrow .live .d{width:7px;height:7px;border-radius:50%;background:#34D399;box-shadow:0 0 0 3px rgba(52,211,153,.18);}
+  .chips{margin-left:auto;display:flex;gap:7px;flex-wrap:wrap;}
+  .chip{border:1px solid var(--line);background:var(--surface);color:var(--mid);font-size:11.5px;font-weight:500;padding:5px 11px;border-radius:20px;cursor:pointer;}
+  .chip:hover{border-color:var(--accent);color:var(--hi);}
 
-  .toolrow { display:flex; gap:10px; align-items:center; margin:14px 0 4px; flex-wrap:wrap; }
-  .search { flex:1; min-width:200px; }
-  .search input { width:100%; background:var(--surface); border:1px solid var(--line); color:var(--text);
-          padding:11px 16px; border-radius:12px; font:14px Inter; outline:none; }
-  .search input:focus { border-color:var(--accent2); box-shadow:0 0 0 3px rgba(79,124,255,.2); }
-  .hotbtn { background:var(--surface); border:1px solid var(--line); color:var(--dim);
-          border-radius:999px; padding:9px 16px; font:600 12.5px Inter; cursor:pointer; }
-  .hotbtn.active { background:var(--orange); border-color:var(--orange); color:#15110a; }
-  .count { color:var(--faint); font-size:12.5px; margin:12px 2px; }
+  /* search */
+  .searchrow{display:flex;gap:10px;margin:18px 0 26px;}
+  .searchbox{flex:1;display:flex;align-items:center;gap:11px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:0 15px;}
+  .searchbox:focus-within{border-color:var(--accent);}
+  .searchbox svg{flex:none;}
+  .searchbox input{flex:1;border:none;background:transparent;outline:none;color:var(--hi);font-size:14px;padding:14px 0;}
+  .searchbtn{border:none;background:linear-gradient(135deg,#4D8BFF,#38BDF8);color:#fff;font-size:13px;font-weight:600;padding:0 18px;border-radius:12px;cursor:pointer;flex:none;}
+  .hotbtn{border:1px solid var(--line);background:var(--surface);color:var(--mid);font-size:13px;font-weight:600;padding:0 16px;border-radius:12px;cursor:pointer;flex:none;}
+  .hotbtn.on{border-color:var(--hot);color:var(--hot);background:rgba(255,84,54,.1);}
 
-  /* headline river */
-  .river { display:grid; grid-template-columns:1fr 1fr; gap:0 28px; }
-  @media (max-width:680px){ .river { grid-template-columns:1fr; } .lead { grid-template-columns:1fr; } .lead .img{min-height:180px;} }
-  .item { padding:15px 0; border-bottom:1px solid var(--line); }
-  .item h3 { font:600 16.5px/1.4 var(--head); margin:7px 0 0; letter-spacing:-.005em; }
-  .item:hover h3 { color:#fff; }
-  .item h3 a:hover { color:var(--accent); }
-  .item .m { color:var(--faint); font-size:12px; margin-top:7px; display:flex; flex-wrap:wrap; gap:5px 12px; align-items:center; }
-  .hotpill { color:var(--orange); font-weight:700; }
-  .more { display:block; margin:24px auto 0; background:var(--surface); color:var(--text); border:1px solid var(--line);
-          padding:11px 34px; border-radius:999px; font:700 13px Inter; cursor:pointer; }
-  .more:hover { border-color:var(--accent); }
-  .empty { color:var(--faint); text-align:center; padding:50px 0; }
+  /* two columns */
+  .cols{display:grid;grid-template-columns:minmax(0,1fr) 332px;gap:30px;align-items:start;}
+  @media(max-width:980px){.cols{grid-template-columns:1fr;}}
+  .sec-h{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--hi);margin:0 0 16px;}
+  .sec-h .bar{width:14px;height:2px;background:var(--accent);}
+  .feedtop{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
+  .feedtop .fb{display:flex;gap:6px;}
+  .feedtop .fb button{border:1px solid var(--line);background:transparent;color:var(--mid);font-size:11.5px;font-weight:600;padding:5px 12px;border-radius:8px;cursor:pointer;}
+  .feedtop .fb button.on{border-color:var(--accent);background:rgba(77,139,255,.12);color:var(--accent);}
+  .count{font-size:12px;color:var(--dim);margin:0 2px 6px;}
+
+  .feed{display:flex;flex-direction:column;}
+  .vrow{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);}
+  .vthumb{width:148px;height:104px;flex:none;border-radius:11px;border:none;cursor:pointer;padding:0;background-size:cover;background-position:center;}
+  .vthumb:hover{opacity:.92;}
+  .vmain{min-width:0;flex:1;}
+  .vtop{display:flex;align-items:center;gap:9px;margin-bottom:8px;}
+  .hotsrc{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:600;color:var(--amber);}
+  .vtitle{display:block;font-size:19px;line-height:1.24;font-weight:600;letter-spacing:-.01em;color:var(--hi);}
+  .vtitle:hover{color:var(--accent);}
+  .vmeta{display:flex;align-items:center;gap:11px;margin-top:11px;font-size:11.5px;color:var(--dim);}
+  .savebtn{display:inline-flex;align-items:center;gap:5px;margin-left:auto;border:none;background:transparent;color:var(--dim);font-size:11.5px;font-weight:500;cursor:pointer;}
+  .savebtn:hover{color:var(--accent);}
+  .savebtn.on{color:var(--accent);}
+  @media(max-width:560px){.vthumb{width:104px;height:78px;}.vtitle{font-size:16px;}}
+  .more{display:block;margin:28px auto 0;border:1px solid var(--line);background:var(--surface2);color:var(--hi);font-size:13px;font-weight:600;padding:11px 26px;border-radius:11px;cursor:pointer;}
+  .more:hover{border-color:var(--accent);}
+  .empty{color:var(--dim);text-align:center;padding:48px 0;}
+
+  /* research grid */
+  .rgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media(max-width:560px){.rgrid{grid-template-columns:1fr;}}
+  .rcard{text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:15px 16px;cursor:pointer;color:var(--hi);}
+  .rcard:hover{border-color:#A78BFA;background:var(--surface2);}
+  .rlabel{font-size:10.5px;font-weight:700;letter-spacing:.06em;color:#A78BFA;}
+  .rtitle{font-size:15.5px;line-height:1.25;font-weight:600;margin:8px 0 10px;}
+  .rmeta{font-size:11px;color:var(--dim);}
+
+  /* sidebar */
+  .aside{display:flex;flex-direction:column;gap:16px;position:sticky;top:78px;}
+  @media(max-width:980px){.aside{position:static;}}
+  .sblock{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:17px 18px;}
+  .shead{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--hi);margin-bottom:8px;}
+  .trow{display:flex;gap:12px;width:100%;border:none;background:transparent;text-align:left;cursor:pointer;padding:10px 0;border-top:1px solid var(--line);color:var(--hi);}
+  .trow:hover{opacity:.78;}
+  .trank{font-size:18px;font-weight:500;flex:none;width:22px;line-height:1.1;}
+  .ttitle{font-size:14px;line-height:1.26;font-weight:600;}
+  .tmeta{font-size:10.5px;color:var(--dim);margin-top:5px;}
+  .toolrow2{display:flex;align-items:center;gap:12px;width:100%;border:none;background:transparent;text-align:left;cursor:pointer;padding:11px 0;border-top:1px solid var(--line);color:var(--hi);}
+  .toolrow2:hover{opacity:.8;}
+  .ticon{width:38px;height:38px;border-radius:10px;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;color:#fff;}
+  .tname{font-size:13.5px;font-weight:600;line-height:1.25;}
+  .ttag{font-size:11.5px;color:var(--mid);margin-top:3px;}
+  .briefcard{border:1px solid rgba(77,139,255,.45);background:linear-gradient(160deg,rgba(77,139,255,.16),rgba(56,189,248,.05));border-radius:14px;padding:20px 18px;}
+  .briefh{font-size:19px;font-weight:600;line-height:1.2;margin-bottom:7px;}
+  .briefcard p{font-size:12.5px;line-height:1.5;color:var(--mid);margin:0 0 14px;}
+  .bbtn,.bbtn2{display:block;text-align:center;font-size:13px;font-weight:600;padding:10px;border-radius:9px;margin-bottom:8px;}
+  .bbtn{background:linear-gradient(135deg,#4D8BFF,#38BDF8);color:#fff;}
+  .bbtn2{border:1px solid var(--line2);color:var(--hi);}
+  .bbtn:hover,.bbtn2:hover{opacity:.92;}
+  .bfoot{font-size:10.5px;color:var(--dim);margin-top:4px;}
 
   /* footer */
-  footer { border-top:1px solid var(--line); margin-top:46px; background:rgba(7,11,24,.55); }
-  .ftop { max-width:1080px; margin:0 auto; padding:44px 18px 30px;
-          display:grid; grid-template-columns:1.7fr 1fr 1fr 1fr; gap:34px; }
-  @media (max-width:680px){ .ftop { grid-template-columns:1fr 1fr; gap:28px 18px; } }
-  .fbrand .brand { margin-bottom:14px; }
-  .fbrand p { color:var(--faint); font-size:13px; line-height:1.65; max-width:300px; margin:0 0 16px; }
-  .fsoc { display:flex; gap:9px; }
-  .fsoc a { width:38px; height:38px; border:1px solid var(--line); border-radius:11px; display:flex;
-            align-items:center; justify-content:center; color:var(--dim); font-size:15px; transition:.15s; }
-  .fsoc a:hover { border-color:var(--accent); color:var(--accent); transform:translateY(-2px); }
-  .fcol h4 { font:700 12px var(--display); text-transform:uppercase; letter-spacing:.1em;
-             color:var(--dim); margin:2px 0 14px; }
-  .fcol a, .fcol .lk { display:block; color:var(--faint); font-size:13.5px; padding:5px 0;
-             cursor:pointer; background:none; border:none; text-align:left; font-family:Inter; }
-  .fcol a:hover, .fcol .lk:hover { color:var(--accent); }
-  .fbot { border-top:1px solid var(--line); max-width:1080px; margin:0 auto;
-          padding:20px 18px 30px; color:var(--faint); font-size:12px; line-height:1.7;
-          display:flex; flex-wrap:wrap; gap:6px 16px; align-items:center; justify-content:space-between; }
-  .fbot .legal button { background:none; border:none; color:var(--dim); cursor:pointer; font:12px Inter; padding:0 2px; }
-  .fbot .legal button:hover { color:var(--accent); }
+  footer{border-top:1px solid var(--line);background:#0A0E16;margin-top:42px;}
+  .ftop{display:flex;flex-wrap:wrap;gap:32px;max-width:1240px;margin:0 auto;padding:40px 22px 20px;}
+  .fbrand{flex:1 1 280px;min-width:240px;}
+  .fbrand .brand{margin-bottom:13px;}
+  .fbrand p{font-size:12.5px;line-height:1.6;color:var(--mid);max-width:300px;margin:0 0 14px;}
+  .fsoc{display:flex;gap:8px;}
+  .fsoc a{width:34px;height:34px;border:1px solid var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--mid);font-size:14px;}
+  .fsoc a:hover{border-color:var(--accent);color:var(--accent);}
+  .fcol{flex:1 1 150px;}
+  .fcol h4{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--dim);margin:0 0 13px;}
+  .fcol a,.fcol .lk{display:block;font-size:13px;color:var(--mid);padding:5px 0;cursor:pointer;background:none;border:none;text-align:left;font-family:inherit;}
+  .fcol a:hover,.fcol .lk:hover{color:var(--accent);}
+  .fbot{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;border-top:1px solid var(--line);max-width:1240px;margin:0 auto;padding:18px 22px 30px;font-size:11.5px;color:var(--dim);}
+  .fbot .legal{display:flex;gap:14px;}
+  .fbot .legal button{background:none;border:none;color:var(--dim);cursor:pointer;font:inherit;}
+  .fbot .legal button:hover{color:var(--accent);}
 
-  /* article reader */
-  #reader { position:fixed; inset:0; z-index:60; background:rgba(4,7,16,.78); overflow-y:auto; }
-  .rbox { max-width:720px; margin:40px auto; background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:0 0 30px; }
-  .rbox .img { width:100%; height:320px; background-size:cover; background-position:center; border-radius:16px 16px 0 0; background-color:#0c1428; }
-  .rinner { padding:26px 28px; }
-  .rbox h1 { font:700 clamp(24px,4vw,36px) var(--head); line-height:1.22; margin:0 0 10px; }
-  .rbox .rm { color:var(--faint); font-size:13px; margin-bottom:20px; }
-  .rbox .body { font:17px/1.75 var(--head); color:#dfe6f7; }
-  .rbox .body p { margin:0 0 16px; }
-  .rclose { position:sticky; top:12px; float:right; margin:12px 12px 0 0; background:var(--surface2);
-            border:1px solid var(--line); color:var(--text); border-radius:999px; width:38px; height:38px; font-size:16px; cursor:pointer; z-index:2; }
+  /* reader */
+  #reader{position:fixed;inset:0;z-index:80;background:rgba(4,7,14,.82);overflow-y:auto;}
+  .rbox{max-width:760px;margin:36px auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:0 0 32px;}
+  .rclose{position:sticky;top:14px;float:right;margin:14px 14px 0 0;background:var(--surface3);border:1px solid var(--line);color:var(--hi);border-radius:50%;width:38px;height:38px;font-size:15px;cursor:pointer;z-index:2;}
+  .rinner{padding:10px 30px 0;}
+  .rbox h1{font-size:clamp(26px,4vw,40px);line-height:1.1;font-weight:600;letter-spacing:-.02em;margin:14px 0 18px;}
+  .rmeta{display:flex;align-items:center;gap:10px;padding-bottom:20px;border-bottom:1px solid var(--line);}
+  .ravatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#4D8BFF,#38BDF8);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:#fff;flex:none;}
+  .rauthor{font-size:13.5px;font-weight:600;}
+  .rsub{font-size:11.5px;color:var(--dim);}
+  .rimg{height:330px;border-radius:16px;margin:22px 0;border:1px solid var(--line);background-size:cover;background-position:center;}
+  .rbody{font-size:18.5px;line-height:1.72;color:#D4DBE8;}
+  .rbody p{margin:0 0 22px;}
+  .srclink{color:var(--accent);font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;}
+  .relgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;}
+  .relcard{text-align:left;border:1px solid var(--line);background:var(--surface2);border-radius:13px;overflow:hidden;cursor:pointer;padding:0;color:var(--hi);}
+  .relcard:hover{border-color:var(--accent);}
+  .relimg{height:104px;background-size:cover;background-position:center;}
+  .relb{padding:13px 14px;}
+  .reltitle{font-size:15px;line-height:1.25;font-weight:600;margin-top:8px;}
 </style>
 </head>
 <body>
-<header>
-  <div class="mast">
-    <a class="brand" href="/"><span class="orb">📡</span><span class="nm">AI <b>Radar</b></span></a>
-    <span class="date" id="date"></span>
-    <span class="right">
-      <a href="https://x.com/aixahmad" target="_blank" rel="noopener">𝕏</a>
-      <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube</a>
-    </span>
+
+<div class="ticker">
+  <span class="bk"><span class="d"></span>BREAKING</span>
+  <div class="tkrow" id="ticker"></div>
+  <span class="tklive mono">LIVE · __UPDATED__</span>
+</div>
+
+<header class="mast">
+  <div class="mastrow">
+    <a class="brand" href="/"><span class="orb"><span class="ring"></span>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path><circle cx="12" cy="12" r="2" fill="#fff" stroke="none"></circle></svg>
+    </span><span class="nm">AI<b>Radar</b></span></a>
+    <nav class="cats" id="nav"></nav>
+    <div class="mright">
+      <a href="https://x.com/aixahmad" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
+      <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener" title="YouTube">▶</a>
+    </div>
   </div>
 </header>
-<nav class="nav"><div class="navrow" id="nav"></div></nav>
-<div class="wrap">
-  <div id="featured"></div>
-  <div class="sec-h"><span class="live"></span> <span id="updlabel"></span></div>
-  <div class="trends" id="trends"></div>
-  <div class="toolrow">
-    <div class="search"><input id="q" placeholder="Search AI news… models, tools, companies"></div>
-    <button class="hotbtn" id="hot">🔥 Hot</button>
+
+<main class="wrap">
+  <section id="hero"></section>
+
+  <div class="statusrow">
+    <span class="live"><span class="d"></span><span id="updlabel"></span></span>
+    <div class="chips" id="trends"></div>
   </div>
-  <div class="count" id="count"></div>
-  <div class="river" id="list"></div>
-  <button class="more" id="more" style="display:none">Show more</button>
-</div>
+
+  <div class="searchrow">
+    <div class="searchbox">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#62708A" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4-4"></path></svg>
+      <input id="q" placeholder="Search AI news — models, tools, companies, people…">
+    </div>
+    <button class="searchbtn" id="searchgo">Search</button>
+  </div>
+
+  <div class="cols">
+    <div class="main">
+      <div class="feedtop">
+        <h2 class="sec-h" style="margin:0"><span class="bar"></span>Latest from AI Radar</h2>
+        <div class="fb">
+          <button id="fLatest" class="on">Latest</button>
+          <button id="fHot">🔥 Hot</button>
+        </div>
+      </div>
+      <div class="count" id="count"></div>
+      <div class="feed" id="list"></div>
+      <button class="more" id="more" style="display:none">Show more stories</button>
+      <div id="researchwrap"></div>
+    </div>
+
+    <aside class="aside">
+      <section class="sblock" id="trending"></section>
+      <section class="sblock" id="tools"></section>
+      <section class="briefcard">
+        <div class="briefh serif">The AI Radar Brief</div>
+        <p>The AI stories that matter — in simple Urdu, every day. Follow AI x Ahmad.</p>
+        <a class="bbtn" href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
+        <a class="bbtn2" href="https://x.com/aixahmad" target="_blank" rel="noopener">𝕏 Follow on X</a>
+        <div class="bfoot">Join the AI x Ahmad community · No spam.</div>
+      </section>
+    </aside>
+  </div>
+</main>
+
 <footer>
   <div class="ftop">
     <div class="fbrand">
-      <a class="brand" href="/"><span class="orb">📡</span><span class="nm">AI <b>Radar</b></span></a>
-      <p>The fastest way to follow artificial intelligence. We scan hundreds of sources and surface what matters — new models, tools, research and the people behind them — refreshed every 30 minutes.</p>
+      <a class="brand" href="/"><span class="orb"><span class="ring"></span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg>
+      </span><span class="nm">AI<b>Radar</b></span></a>
+      <p>The fastest way to follow artificial intelligence. We scan hundreds of sources and surface what matters — refreshed every 30 minutes.</p>
       <div class="fsoc">
         <a href="https://x.com/aixahmad" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
         <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener" title="YouTube">▶</a>
         <a href="mailto:__EMAIL__" title="Email">✉</a>
       </div>
     </div>
-    <div class="fcol">
-      <h4>Sections</h4>
-      <div id="fsections"></div>
-    </div>
-    <div class="fcol">
-      <h4>AI Radar</h4>
+    <div class="fcol"><h4>SECTIONS</h4><div id="fsections"></div></div>
+    <div class="fcol"><h4>AI RADAR</h4>
       <button class="lk" onclick="openPage('about')">About us</button>
       <button class="lk" onclick="openPage('how')">How it works</button>
       <button class="lk" onclick="openPage('editorial')">Editorial standards</button>
       <a href="/studio.html">Newsroom (staff)</a>
     </div>
-    <div class="fcol">
-      <h4>Contact</h4>
+    <div class="fcol"><h4>CONTACT</h4>
       <a href="mailto:__EMAIL__">__EMAIL__</a>
       <a href="https://x.com/aixahmad" target="_blank" rel="noopener">DM @aixahmad on X</a>
-      <a href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">YouTube @aixahmad</a>
       <button class="lk" onclick="openPage('advertise')">Advertise / partner</button>
       <button class="lk" onclick="openPage('contact')">Send a tip</button>
     </div>
   </div>
   <div class="fbot">
-    <span>© <span id="yr"></span> AI Radar · An independent AI-news aggregator. Headlines and excerpts remain © their original publishers and link back to the source.</span>
+    <span>© <span id="yr"></span> AI Radar · An independent AI-news aggregator. Headlines link back to the source.</span>
     <span class="legal">
-      <button onclick="openPage('privacy')">Privacy</button>·
-      <button onclick="openPage('terms')">Terms</button>·
+      <button onclick="openPage('privacy')">Privacy</button>
+      <button onclick="openPage('terms')">Terms</button>
       <button onclick="openPage('disclaimer')">Disclaimer</button>
     </span>
   </div>
 </footer>
+
 <div id="reader" hidden></div>
+
 <script>
-const PILLARS = __PILLARS__, ITEMS = __ITEMS__, TRENDS = __TRENDS__, COLORS = __COLORS__, PAGE = 30;
-const PUBURL = "__FBURL__";
-let pillar = 0, hotOnly = false, q = "", shown = PAGE;
+const PILLARS = __PILLARS__, ITEMS = __ITEMS__, TRENDS = __TRENDS__, COLORS = __COLORS__, PAGE = 18;
+const PUBURL = "__FBURL__", CONTACT = "__EMAIL__";
+let pillar = 0, hotOnly = false, q = "", shown = PAGE, PUBS = [];
+let SAVED = new Set(JSON.parse(localStorage.getItem("air_saved") || "[]"));
+
 document.getElementById("yr").textContent = new Date().getFullYear();
-document.getElementById("date").textContent = new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-document.getElementById("updlabel").textContent = "Updated __UPDATED__ · refreshes every 30 min";
+document.getElementById("updlabel").textContent = "UPDATED __UPDATED__ · REFRESHES EVERY 30 MIN · " + ITEMS.length + " STORIES";
+
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
   if(s<3600) return Math.max(1,s/60|0)+" min ago"; if(s<86400) return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
-function esc(t){ const d=document.createElement("div"); d.textContent=t; return d.innerHTML; }
-function col(p){ return COLORS[p]||"#94a3b8"; }
+function esc(t){ const d=document.createElement("div"); d.textContent=t==null?"":t; return d.innerHTML; }
+function fmtDate(ts){ try{ return new Date(ts).toLocaleDateString("en-GB",{day:"numeric",month:"short"}); }catch(e){ return ""; } }
+function col(p){ return COLORS[p] || (p===0?"#4D8BFF":"#9AA7BE"); }
+function colByName(nm){ for(const k in PILLARS){ if(PILLARS[k]===nm) return col(+k); } return "#4D8BFF"; }
+function catTag(t,c){ return '<span class="cat" style="color:'+c+';background:'+c+'1F;border-color:'+c+'3D">'+esc(t)+'</span>'; }
+function thumbCSS(seed,hex){ const pos=['85% 12%','15% 18%','78% 82%','22% 78%','50% 0%','90% 50%','10% 50%'][((seed%7)+7)%7];
+  return "background:radial-gradient(120% 110% at "+pos+","+hex+"5C,rgba(8,11,18,0) 58%),linear-gradient(155deg,#15203A 0%,#0B1322 100%);"; }
+function bmIcon(on){ return '<svg width="13" height="13" viewBox="0 0 24 24" fill="'+(on?"currentColor":"none")+'" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>'; }
+
 function filtered(){ const n=q.toLowerCase(); return ITEMS.filter(it =>
   (!pillar||it.p===pillar) && (!hotOnly||(it.l&&it.l.length)) && (!n||it.t.toLowerCase().includes(n))); }
-function render(){
-  const items=filtered();
-  document.getElementById("count").textContent = items.length+" stories"+(q?' for "'+q+'"':"")+(pillar?" · "+PILLARS[pillar]:"");
-  const list=document.getElementById("list");
-  list.innerHTML = items.length?"":'<div class="empty">No stories found.</div>';
-  items.slice(0,shown).forEach(it=>{
-    const d=document.createElement("div"); d.className="item";
-    const hot=(it.l&&it.l.length)?'<span class="hotpill">🔥 '+(it.l.length+1)+" sources</span>":"";
-    d.innerHTML='<span class="tag" style="color:'+col(it.p)+'">'+esc(PILLARS[it.p])+"</span>"+
-      '<h3><a href="'+esc(it.u)+'" target="_blank" rel="noopener">'+esc(it.t)+"</a></h3>"+
-      '<div class="m"><span>'+esc(it.s)+"</span><span>"+ago(it.d)+"</span>"+hot+"</div>";
-    list.appendChild(d);
-  });
-  document.getElementById("more").style.display = items.length>shown?"block":"none";
+
+/* ---- breaking ticker ---- */
+function renderTicker(){
+  document.getElementById("ticker").innerHTML = ITEMS.slice(0,4)
+    .map(it=>'<span class="tk"><span class="dot"></span>'+esc(it.t.slice(0,82))+'</span>').join("");
 }
+
+/* ---- category nav ---- */
 function navBar(){
   const el=document.getElementById("nav"); el.innerHTML="";
-  const mk=(id,label)=>{ const b=document.createElement("button"); b.textContent=label;
-    b.className=id===pillar?"active":""; b.onclick=()=>{pillar=id;shown=PAGE;navBar();render();}; el.appendChild(b); };
+  const mk=(id,label)=>{ const b=document.createElement("button"); b.textContent=label; b.className=id===pillar?"active":"";
+    b.onclick=()=>{ pillar=id; shown=PAGE; navBar(); render(); window.scrollTo({top:0,behavior:"smooth"}); }; el.appendChild(b); };
   mk(0,"Top"); Object.entries(PILLARS).forEach(([k,v])=>mk(+k,v));
 }
-function trendsBar(){ const el=document.getElementById("trends");
-  TRENDS.forEach(t=>{ const c=document.createElement("button"); c.className="chip";
-    c.innerHTML=(t.status==="new"?"🆕":"🚀")+" "+esc(t.display);
-    c.onclick=()=>{q=t.display;document.getElementById("q").value=t.display;shown=PAGE;render();}; el.appendChild(c); }); }
-document.getElementById("q").addEventListener("input",e=>{q=e.target.value.trim();shown=PAGE;render();});
-document.getElementById("hot").onclick=()=>{ hotOnly=!hotOnly; document.getElementById("hot").classList.toggle("active",hotOnly); shown=PAGE; render(); };
-document.getElementById("more").onclick=()=>{shown+=PAGE;render();};
 
-/* editor-published articles -> lead + featured row */
-let PUBS=[];
-function fmtDate(ts){ try{ return new Date(ts).toLocaleDateString("en-GB",{day:"numeric",month:"short"}); }catch(e){ return ""; } }
+/* ---- trend chips ---- */
+function trendsBar(){ const el=document.getElementById("trends"); el.innerHTML="";
+  TRENDS.forEach(t=>{ const c=document.createElement("button"); c.className="chip";
+    c.textContent="# "+t.display;
+    c.onclick=()=>{ q=t.display; document.getElementById("q").value=t.display; shown=PAGE; render(); window.scrollTo({top:document.querySelector(".cols").offsetTop-70,behavior:"smooth"}); };
+    el.appendChild(c); }); }
+
+/* ---- hero (editor articles, else top news) ---- */
+function heroEntries(){
+  const out=[];
+  PUBS.slice(0,4).forEach((p,i)=>out.push({ title:p.title, catName:(p.cat||"Featured"), color:colByName(p.cat),
+    source:"AI Radar", time:fmtDate(p.ts), dek:(p.body||"").replace(/\s+/g," ").trim().slice(0,170),
+    img:p.image||"", seed:i, open:()=>openArticle(i) }));
+  let i=0;
+  while(out.length<4 && i<ITEMS.length){ const it=ITEMS[i];
+    out.push({ title:it.t, catName:PILLARS[it.p], color:col(it.p), source:it.s, time:ago(it.d), dek:"",
+      img:"", seed:i+3, open:()=>window.open(it.u,"_blank","noopener") }); i++; }
+  return out;
+}
+function renderHero(){
+  const e=heroEntries(); const el=document.getElementById("hero");
+  if(!e.length){ el.innerHTML=""; return; }
+  const lead=e[0], side=e.slice(1,4);
+  el.innerHTML="";
+  const L=document.createElement("button"); L.className="lead"; L.onclick=lead.open;
+  L.innerHTML='<div class="limg" style="'+(lead.img?("background-image:url('"+esc(lead.img)+"')"):thumbCSS(lead.seed,lead.color))+'"></div><div class="lover"></div>'+
+    '<div class="lbody"><div class="lbadges">'+catTag(lead.catName,lead.color)+'<span class="leadbadge"><span class="dot"></span>LEAD STORY</span></div>'+
+    '<h1 class="serif">'+esc(lead.title)+'</h1>'+(lead.dek?'<p class="ldek">'+esc(lead.dek)+'…</p>':'')+
+    '<div class="lmeta"><span class="src">'+esc(lead.source)+'</span><span>·</span><span>'+esc(lead.time)+'</span></div></div>';
+  const S=document.createElement("div"); S.className="sidestack";
+  side.forEach(s=>{ const b=document.createElement("button"); b.className="scardx"; b.onclick=s.open;
+    b.innerHTML='<div class="sthumb" style="'+(s.img?("background-image:url('"+esc(s.img)+"')"):thumbCSS(s.seed,s.color))+'"></div>'+
+      '<div class="sbody">'+catTag(s.catName,s.color)+'<div class="stitle serif">'+esc(s.title)+'</div>'+
+      '<div class="smeta"><span class="src">'+esc(s.source)+'</span> · '+esc(s.time)+'</div></div>';
+    S.appendChild(b); });
+  const grid=document.createElement("div"); grid.className="herogrid"; grid.appendChild(L); grid.appendChild(S);
+  el.appendChild(grid);
+}
+
+/* ---- feed ---- */
+function render(){
+  const items=filtered();
+  document.getElementById("count").textContent=items.length+" stories"+(q?' for "'+q+'"':"")+(pillar?" · "+PILLARS[pillar]:"")+(hotOnly?" · hot":" · newest first");
+  const list=document.getElementById("list");
+  list.innerHTML=items.length?"":'<div class="empty">No stories found.</div>';
+  items.slice(0,shown).forEach((it,idx)=>{
+    const a=document.createElement("article"); a.className="vrow";
+    const hot=(it.l&&it.l.length)?'<span class="hotsrc">🔥 '+(it.l.length+1)+' sources</span>':'';
+    const on=SAVED.has(it.u);
+    a.innerHTML='<button class="vthumb" style="'+thumbCSS(idx,col(it.p))+'"></button>'+
+      '<div class="vmain"><div class="vtop">'+catTag(PILLARS[it.p],col(it.p))+hot+'</div>'+
+      '<a class="vtitle serif" href="'+esc(it.u)+'" target="_blank" rel="noopener">'+esc(it.t)+'</a>'+
+      '<div class="vmeta"><span class="src">'+esc(it.s)+'</span><span>·</span><span>'+ago(it.d)+'</span>'+
+      '<button class="savebtn'+(on?" on":"")+'">'+bmIcon(on)+(on?"Saved":"Save")+'</button></div></div>';
+    a.querySelector(".vthumb").onclick=()=>window.open(it.u,"_blank","noopener");
+    a.querySelector(".savebtn").onclick=(e)=>{ e.stopPropagation(); toggleSave(it.u); };
+    list.appendChild(a);
+  });
+  document.getElementById("more").style.display=items.length>shown?"block":"none";
+}
+function toggleSave(u){ if(SAVED.has(u)) SAVED.delete(u); else SAVED.add(u);
+  localStorage.setItem("air_saved", JSON.stringify([...SAVED])); render(); }
+
+/* ---- research grid ---- */
+function renderResearch(){
+  const rs=ITEMS.filter(it=>it.p===9).slice(0,4);
+  const w=document.getElementById("researchwrap");
+  if(!rs.length){ w.innerHTML=""; return; }
+  let h='<div class="sec-h" style="margin-top:30px"><span class="bar" style="background:#A78BFA"></span>Research Papers</div><div class="rgrid">';
+  rs.forEach(it=>{ h+='<button class="rcard" data-u="'+esc(it.u)+'"><span class="rlabel">RESEARCH PAPERS</span>'+
+    '<div class="rtitle serif">'+esc(it.t)+'</div><div class="rmeta"><span class="src">'+esc(it.s)+'</span> · '+ago(it.d)+'</div></button>'; });
+  w.innerHTML=h+"</div>";
+  w.querySelectorAll(".rcard").forEach(b=>b.onclick=()=>window.open(b.dataset.u,"_blank","noopener"));
+}
+
+/* ---- sidebar: trending ---- */
+function renderTrending(){
+  const top=ITEMS.slice().sort((a,b)=>((b.l?b.l.length:0)-(a.l?a.l.length:0))).slice(0,5);
+  let h='<div class="shead"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#FF5436" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 12.5h6L9 22l9-12h-6z"></path></svg>Trending Now</div>';
+  top.forEach((it,i)=>{ const rc=['#FF5436','#F8A93B','#4D8BFF','#9AA7BE','#9AA7BE'][i];
+    h+='<button class="trow" data-u="'+esc(it.u)+'"><span class="trank mono" style="color:'+rc+'">'+String(i+1).padStart(2,"0")+'</span>'+
+      '<div class="tbody"><div class="ttitle serif">'+esc(it.t)+'</div><div class="tmeta">'+esc(it.s)+' · '+ago(it.d)+'</div></div></button>'; });
+  const el=document.getElementById("trending"); el.innerHTML=h;
+  el.querySelectorAll(".trow").forEach(b=>b.onclick=()=>window.open(b.dataset.u,"_blank","noopener"));
+}
+
+/* ---- sidebar: new tools & models (category 1) ---- */
+function renderTools(){
+  const ts=ITEMS.filter(it=>it.p===1).slice(0,4);
+  const el=document.getElementById("tools");
+  if(!ts.length){ el.innerHTML=""; return; }
+  const c=col(1);
+  let h='<div class="shead"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l-1.5 5 5-1.5L18 8a3 3 0 0 0-4-4z"></path><path d="M14 5l4 4"></path></svg>New Tools & Models</div>';
+  ts.forEach(it=>{ const ini=((it.t||"A").trim()[0]||"A").toUpperCase();
+    h+='<button class="toolrow2" data-u="'+esc(it.u)+'"><div class="ticon" style="background:linear-gradient(135deg,'+c+','+c+'99)">'+esc(ini)+'</div>'+
+      '<div style="min-width:0;flex:1"><div class="tname">'+esc(it.t.slice(0,64))+'</div><div class="ttag">'+esc(it.s)+' · '+ago(it.d)+'</div></div></button>'; });
+  el.innerHTML=h;
+  el.querySelectorAll(".toolrow2").forEach(b=>b.onclick=()=>window.open(b.dataset.u,"_blank","noopener"));
+}
+
+/* ---- editor-published articles from Firebase ---- */
 async function loadFeatured(){
   if(!PUBURL) return;
   try{
     const r=await fetch(PUBURL.replace(/\/+$/,"")+"/published.json"); if(!r.ok) return;
     const data=await r.json()||{}; PUBS=Object.values(data).filter(Boolean).sort((a,b)=>(b.ts||0)-(a.ts||0));
-    const el=document.getElementById("featured"); if(!PUBS.length){ el.innerHTML=""; return; }
-    el.innerHTML='<div class="feat-h">📡 Latest from AI Radar</div>';
-    const lead=PUBS[0];
-    const ld=document.createElement("div"); ld.className="lead"; ld.onclick=()=>openArticle(0);
-    ld.innerHTML=(lead.image?'<div class="img" style="background-image:url(\''+esc(lead.image)+'\')"></div>':'<div class="img"></div>')+
-      '<div class="tx"><span class="tag" style="color:'+(lead.cat?"#38bdf8":"#94a3b8")+'">'+esc(lead.cat||"Featured")+"</span>"+
-      "<h2>"+esc(lead.title)+"</h2><div class='ex'>"+esc((lead.body||"").replace(/\s+/g," ").slice(0,180))+"…</div>"+
-      "<div class='m'>"+fmtDate(lead.ts)+" · AI Radar</div></div>";
-    el.appendChild(ld);
-    if(PUBS.length>1){
-      const row=document.createElement("div"); row.className="frow";
-      PUBS.slice(1,5).forEach((p,i)=>{ const c=document.createElement("div"); c.className="fcard"; c.onclick=()=>openArticle(i+1);
-        c.innerHTML=(p.image?'<div class="img" style="background-image:url(\''+esc(p.image)+'\')"></div>':'<div class="img"></div>')+
-          '<div class="fb"><span class="tag" style="color:#38bdf8">'+esc(p.cat||"Featured")+'</span><h3>'+esc(p.title)+"</h3></div>";
-        row.appendChild(c); });
-      el.appendChild(row);
-    }
-    openArticleFromHash();
+    if(PUBS.length){ renderHero(); openArticleFromHash(); }
   }catch(e){}
 }
 function openArticle(i){
   const p=PUBS[i]; if(!p) return;
+  const color=colByName(p.cat);
   const paras=(p.body||"").split(/\n\s*\n/).map(t=>"<p>"+esc(t).replace(/\n/g,"<br>")+"</p>").join("");
-  const src=p.url?'<p><a style="color:var(--accent)" href="'+esc(p.url)+'" target="_blank" rel="noopener">Source ↗</a></p>':"";
-  document.getElementById("reader").innerHTML='<div class="rbox"><button class="rclose" onclick="closeArticle()">✕</button>'+
-    (p.image?'<div class="img" style="background-image:url(\''+esc(p.image)+'\')"></div>':"")+
-    '<div class="rinner"><h1>'+esc(p.title)+"</h1><div class='rm'>"+(p.cat?esc(p.cat)+" · ":"")+fmtDate(p.ts)+" · AI Radar</div>"+
-    "<div class='body'>"+paras+src+"</div></div></div>";
-  document.getElementById("reader").hidden=false; document.body.style.overflow="hidden";
+  const src=p.url?'<p style="margin-top:8px"><a class="srclink" href="'+esc(p.url)+'" target="_blank" rel="noopener">Read the original source ↗</a></p>':"";
+  const rel=PUBS.map((x,j)=>({x,j})).filter(o=>o.j!==i).slice(0,3).map(o=>
+    '<button class="relcard" onclick="openArticle('+o.j+')"><div class="relimg" style="'+(o.x.image?("background-image:url('"+esc(o.x.image)+"')"):thumbCSS(o.j,colByName(o.x.cat)))+'"></div>'+
+    '<div class="relb">'+catTag(o.x.cat||"Featured",colByName(o.x.cat))+'<div class="reltitle serif">'+esc(o.x.title)+'</div></div></button>').join("");
+  document.getElementById("reader").innerHTML='<div class="rbox"><button class="rclose" onclick="closeArticle()">✕</button><div class="rinner">'+
+    catTag(p.cat||"Featured",color)+'<h1 class="serif">'+esc(p.title)+'</h1>'+
+    '<div class="rmeta"><span class="ravatar">A</span><div><div class="rauthor">AI Radar Desk</div><div class="rsub">AI Radar · '+fmtDate(p.ts)+'</div></div></div>'+
+    '<div class="rimg" style="'+(p.image?("background-image:url('"+esc(p.image)+"')"):thumbCSS(i,color))+'"></div>'+
+    '<div class="rbody serif">'+paras+src+'</div>'+
+    (rel?'<div class="sec-h" style="margin-top:30px">Related Stories</div><div class="relgrid">'+rel+'</div>':'')+
+    '</div></div>';
+  const rd=document.getElementById("reader"); rd.hidden=false; rd.scrollTop=0; document.body.style.overflow="hidden";
   try{ history.replaceState(null,"","#a="+(p.id||"")); }catch(e){}
 }
 function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow="";
   try{ history.replaceState(null,"",location.pathname+location.search); }catch(e){} }
 document.getElementById("reader").addEventListener("click",e=>{ if(e.target.id==="reader") closeArticle(); });
-/* deep link: radar.hafizahmad.com/#a=<id> opens that article (used by share tweets) */
+/* deep link: radar.hafizahmad.com/#a=<id> opens that article (used by shares) */
 function openArticleFromHash(){
   const m=(location.hash||"").match(/a=([^&]+)/); if(!m) return;
   const idx=PUBS.findIndex(p=>String(p.id)===m[1]); if(idx>=0) openArticle(idx);
 }
 
-/* footer section links -> filter the feed */
+/* ---- footer section links ---- */
 function footerSections(){
   const el=document.getElementById("fsections");
-  Object.entries(PILLARS).slice(0,8).forEach(([k,v])=>{ const b=document.createElement("button"); b.className="lk";
-    b.textContent=v; b.onclick=()=>{ pillar=+k; shown=PAGE; navBar(); render(); window.scrollTo({top:0,behavior:"smooth"}); };
-    el.appendChild(b); });
+  Object.entries(PILLARS).slice(0,8).forEach(([k,v])=>{ const b=document.createElement("button"); b.className="lk"; b.textContent=v;
+    b.onclick=()=>{ pillar=+k; shown=PAGE; navBar(); render(); window.scrollTo({top:0,behavior:"smooth"}); }; el.appendChild(b); });
 }
-/* static pages (About / Privacy / Terms ...) shown in the reader overlay */
-const CONTACT="__EMAIL__";
+
+/* ---- static pages (About / Privacy / ...) in the reader ---- */
 const PAGES={
   about:["About AI Radar",
-    "<p>AI Radar is an independent publication that tracks the fast-moving world of artificial intelligence. Every 30 minutes we scan hundreds of trusted sources — company blogs, research labs, news outlets and developer communities — and surface the stories that matter, with a direct link to every original source.</p><p>Our goal is simple: help you stay first. Whether you build with AI, invest in it, report on it or are just curious, AI Radar gives you a single, fast, no-noise view of what just happened.</p><p>AI Radar is created and edited by <a style='color:var(--accent)' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a>.</p>"],
+    "<p>AI Radar is an independent publication that tracks the fast-moving world of artificial intelligence. Every 30 minutes we scan hundreds of trusted sources — company blogs, research labs, news outlets and developer communities — and surface the stories that matter, with a direct link to every original source.</p><p>Our goal is simple: help you stay first. AI Radar is created and edited by <a class='srclink' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a>.</p>"],
   how:["How AI Radar works",
-    "<p><b>1. We collect.</b> Our system continuously pulls headlines from a wide list of AI sources around the clock.</p><p><b>2. We organise.</b> Stories are sorted into sections (new tools &amp; models, AI in coding, research, health, defense and more) and de-duplicated, so a story covered by many outlets shows its source count.</p><p><b>3. We surface.</b> Trending topics and the most-covered stories rise to the top. Editor-picked features appear under “Latest from AI Radar”.</p><p><b>4. You read.</b> Click any headline to go straight to the original publisher. We never hide the source.</p><p>The feed refreshes every 30 minutes, automatically.</p>"],
+    "<p><b>1. We collect.</b> Our system continuously pulls headlines from a wide list of AI sources around the clock.</p><p><b>2. We organise.</b> Stories are sorted into sections and de-duplicated, so a story covered by many outlets shows its source count.</p><p><b>3. We surface.</b> Trending topics and the most-covered stories rise to the top. Editor-picked features appear under the lead story.</p><p><b>4. You read.</b> Click any headline to go straight to the original publisher. The feed refreshes every 30 minutes, automatically.</p>"],
   editorial:["Editorial standards",
-    "<p>AI Radar aggregates and curates; it does not alter the words of the original publishers. Headlines and short excerpts are shown for identification and always link back to the source.</p><p>Featured articles written by our team are based only on the underlying reporting — we do not fabricate facts, numbers or quotes. Corrections are made promptly; if you spot an error, please contact us.</p><p>We aim for a respectful tone and never mock real tragedy.</p>"],
-  advertise:["Advertise &amp; partner",
-    "<p>Interested in reaching an audience that lives and breathes AI? AI Radar offers sponsorships, newsletter placements and content partnerships.</p><p>Reach out at <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a> or DM <a style='color:var(--accent)' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a> on X.</p>"],
+    "<p>AI Radar aggregates and curates; it does not alter the words of the original publishers. Headlines and short excerpts are shown for identification and always link back to the source.</p><p>Featured articles written by our team are based only on the underlying reporting — we do not fabricate facts, numbers or quotes. Corrections are made promptly; if you spot an error, please contact us.</p>"],
+  advertise:["Advertise & partner",
+    "<p>Interested in reaching an audience that lives and breathes AI? AI Radar offers sponsorships, newsletter placements and content partnerships.</p><p>Reach out at <a class='srclink' href='mailto:"+CONTACT+"'>"+CONTACT+"</a> or DM <a class='srclink' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a> on X.</p>"],
   contact:["Send a tip",
-    "<p>Got a scoop, a launch, or a story we should be covering? We’d love to hear it.</p><p>Email <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a> or message <a style='color:var(--accent)' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a> on X. Tips can be sent confidentially.</p>"],
+    "<p>Got a scoop, a launch, or a story we should be covering? We'd love to hear it.</p><p>Email <a class='srclink' href='mailto:"+CONTACT+"'>"+CONTACT+"</a> or message <a class='srclink' href='https://x.com/aixahmad' target='_blank' rel='noopener'>@aixahmad</a> on X. Tips can be sent confidentially.</p>"],
   privacy:["Privacy policy",
-    "<p>AI Radar is built to respect your privacy. We do not require an account, we do not sell data, and we do not run invasive advertising trackers.</p><p>The site is served as static pages. Standard web-server logs (such as your browser type and approximate region) may be collected by our hosting provider for security and analytics in aggregate. We do not use this to identify you.</p><p>External links take you to third-party sites with their own privacy policies. Questions? Email <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a>.</p>"],
+    "<p>AI Radar is built to respect your privacy. We do not require an account, we do not sell data, and we do not run invasive advertising trackers.</p><p>The site is served as static pages. Standard web-server logs may be collected by our hosting provider for security and aggregate analytics. External links take you to third-party sites with their own privacy policies. Questions? Email <a class='srclink' href='mailto:"+CONTACT+"'>"+CONTACT+"</a>.</p>"],
   terms:["Terms of use",
-    "<p>AI Radar is provided “as is”, for informational purposes only. While we work to keep the feed accurate and current, we make no warranty as to completeness or accuracy and accept no liability for decisions made based on its content.</p><p>Headlines, excerpts and trademarks belong to their respective owners. AI Radar links to original sources and claims no ownership over third-party content. If you are a rights holder and would like a link or excerpt amended, contact <a style='color:var(--accent)' href='mailto:"+CONTACT+"'>"+CONTACT+"</a>.</p><p>By using this site you agree to these terms.</p>"],
+    "<p>AI Radar is provided \"as is\", for informational purposes only. While we work to keep the feed accurate and current, we make no warranty as to completeness or accuracy and accept no liability for decisions made based on its content.</p><p>Headlines, excerpts and trademarks belong to their respective owners. If you are a rights holder and would like a link or excerpt amended, contact <a class='srclink' href='mailto:"+CONTACT+"'>"+CONTACT+"</a>.</p>"],
   disclaimer:["Disclaimer",
     "<p>AI Radar is an independent news aggregator and is not affiliated with, endorsed by, or sponsored by any of the companies or publications whose stories it links to.</p><p>All product names, logos and brands are property of their respective owners. Content is aggregated automatically; the appearance of a source does not imply endorsement either way.</p>"],
 };
 function openPage(key){
   const p=PAGES[key]; if(!p) return;
   document.getElementById("reader").innerHTML='<div class="rbox"><button class="rclose" onclick="closeArticle()">✕</button>'+
-    '<div class="rinner"><h1>'+p[0]+'</h1><div class="body">'+p[1]+'</div></div></div>';
-  document.getElementById("reader").hidden=false; document.body.style.overflow="hidden";
+    '<div class="rinner"><h1 class="serif">'+p[0]+'</h1><div class="rbody serif">'+p[1]+'</div></div></div>';
+  const rd=document.getElementById("reader"); rd.hidden=false; rd.scrollTop=0; document.body.style.overflow="hidden";
 }
+
+/* ---- events + init ---- */
+document.getElementById("q").addEventListener("input",e=>{ q=e.target.value.trim(); shown=PAGE; render(); });
+document.getElementById("searchgo").onclick=()=>window.scrollTo({top:document.querySelector(".cols").offsetTop-70,behavior:"smooth"});
+document.getElementById("more").onclick=()=>{ shown+=PAGE; render(); };
+document.getElementById("fHot").onclick=()=>{ hotOnly=true; shown=PAGE;
+  document.getElementById("fHot").classList.add("on"); document.getElementById("fLatest").classList.remove("on"); render(); };
+document.getElementById("fLatest").onclick=()=>{ hotOnly=false; shown=PAGE;
+  document.getElementById("fLatest").classList.add("on"); document.getElementById("fHot").classList.remove("on"); render(); };
 
 const _qp=new URLSearchParams(location.search).get("q");
 if(_qp){ q=_qp.trim(); document.getElementById("q").value=q; }
-navBar(); trendsBar(); render(); loadFeatured(); footerSections();
+renderTicker(); navBar(); trendsBar(); renderHero(); render(); renderResearch(); renderTrending(); renderTools(); footerSections(); loadFeatured();
 </script>
 </body>
 </html>
@@ -422,7 +619,7 @@ def generate():
     updated = datetime.now(timezone.utc).strftime("%d %b, %H:%M UTC")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    # --- structured data (helps Google understand the site / show rich results) ---
+    # --- structured data (helps Google understand the site) ---
     jsonld = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "name": SITE_NAME, "url": SITE_URL, "description": SITE_DESC,
          "inLanguage": "en",
