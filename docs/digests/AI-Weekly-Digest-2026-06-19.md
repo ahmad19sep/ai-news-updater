@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1838
+- Total stories tracked: 1872
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
