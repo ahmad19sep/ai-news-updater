@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
 3. **AI beats doctors in major medical tests, but there is a catch - India Today** — science angle
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
-4. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
-5. **This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It - WSJ** — science angle
+4. **This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It - WSJ** — science angle
    https://news.google.com/rss/articles/CBMib0FVX3lxTE8wS1R2Z1NNeHFLWkNHUG9raVpYdXdNUjlHa3VCaEhmdVpRMEtrVFU4RktoZ2h1SVNleVZFVVpUSXFBQTVYYklHRHlyejF4ZHEzRHRWVHFRYk9mLWNEc3o1NUV2b2lXeHh4aW1XckFmRQ?oc=5
-6. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
+5. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
-7. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
+6. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
-8. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
+7. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWZEUGNEUkJJOGx3a0E0QkFXdlY1TlltMVAzMnhyd05HTk9LMkhrYTNwSml5SjhtXzZQWTB2dURmSlcwbk94UXBnTVJXTXJ4WEswc2c0N2pMR1M4MVVCVnVLZVVhUjVSb3d6MFYtNkFaN1pDOFNLcFJldmhBeHlRSzM1UzI?oc=5
+8. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE** — Jensen Huang News — Score 163
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
 - **AI beats doctors in major medical tests, but there is a catch - India Today** — https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
 - **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
-- **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
+- **This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It - WSJ** — https://news.google.com/rss/articles/CBMib0FVX3lxTE8wS1R2Z1NNeHFLWkNHUG9raVpYdXdNUjlHa3VCaEhmdVpRMEtrVFU4RktoZ2h1SVNleVZFVVpUSXFBQTVYYklHRHlyejF4ZHEzRHRWVHFRYk9mLWNEc3o1NUV2b2lXeHh4aW1XckFmRQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1872
+- Total stories tracked: 1869
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
