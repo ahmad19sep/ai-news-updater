@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T05:27:20.169662+00:00",
+  "generated_at": "2026-06-19T10:58:48.586236+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 27,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -18,52 +18,57 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore the potential of AI-generated images in marketing and design.",
-      "local_relevance": 6,
+      "audience_angle": "You can use ChatGPT to generate images for your social media or website, making it a great tool for content creators.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional online presence and create engaging visual content.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT's image generation has an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
+          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
         }
       ],
       "content_ideas": [
-        "ChatGPT se tasveerein kaise banayein",
-        "ChatGPT image generation ka upyog kaise karein",
-        "ChatGPT se paisay kaise kamayein image generation ke madhyam se"
+        "ChatGPT se image kaise banayein",
+        "AI image generation ke fayde",
+        "ChatGPT image generation tutorial"
       ]
     },
     {
       "name": "AI Video Creation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video creation involves using AI tools to generate videos based on text prompts or other inputs.",
-      "audience_angle": "Create engaging videos with minimal effort using AI video creation tools.",
-      "linkedin_angle": "Discover how AI video creation can streamline your content creation process.",
-      "local_relevance": 8,
+      "what_it_is": "AI video creation involves using artificial intelligence to generate videos based on text prompts or other inputs.",
+      "audience_angle": "You can use AI to create videos for your social media, website, or YouTube channel, saving time and effort.",
+      "linkedin_angle": "Utilize AI video creation to produce high-quality, engaging video content for your professional online presence.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video creation tools often have affiliate programs for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -73,41 +78,46 @@
         }
       ],
       "content_ideas": [
-        "AI video creation kaise karein",
+        "AI video kaise banayein",
         "AI se video banane ke fayde",
-        "AI video creation ke liye best tools"
+        "Best AI video creation tools"
       ]
     },
     {
-      "name": "Claude AI Agent",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "ChatGPT vs Claude",
+      "category": "debate",
+      "momentum": "hot",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "Claude is an AI agent that can perform various tasks, including text generation and conversation.",
-      "audience_angle": "Get assistance with various tasks using Claude, the AI agent.",
-      "linkedin_angle": "Explore the potential of AI agents like Claude in streamlining workflows.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
+      "what_it_is": "ChatGPT and Claude are two popular AI models, and users often compare and contrast their features and capabilities.",
+      "audience_angle": "You can use this comparison to decide which AI model is best for your needs, whether it's for content creation or other purposes.",
+      "linkedin_angle": "Stay up-to-date on the latest AI models and their applications to enhance your professional skills and knowledge.",
+      "local_relevance": 6,
+      "pillar": "explainer",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program for developers and users."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u9xepp/bro_what_is_claude_doing/",
+          "signal": "Bro what is Claude doing"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=B6wbbz8UOvA",
-          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich!"
+          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich"
         }
       ],
       "content_ideas": [
-        "Claude AI agent kaise use karein",
-        "Claude ke fayde aur nuksan",
-        "Claude AI agent ke liye best use cases"
+        "ChatGPT vs Claude comparison",
+        "Which AI model is best for you",
+        "AI model debate"
       ]
     }
   ],
@@ -115,65 +125,38 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore the potential of AI-generated images in marketing and design.",
-      "local_relevance": 6,
+      "audience_angle": "You can use ChatGPT to generate images for your social media or website, making it a great tool for content creators.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional online presence and create engaging visual content.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT's image generation has an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT se tasveerein kaise banayein",
-        "ChatGPT image generation ka upyog kaise karein",
-        "ChatGPT se paisay kaise kamayein image generation ke madhyam se"
-      ]
-    },
-    {
-      "name": "Claude AI Agent",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Claude is an AI agent that can perform various tasks, including text generation and conversation.",
-      "audience_angle": "Get assistance with various tasks using Claude, the AI agent.",
-      "linkedin_angle": "Explore the potential of AI agents like Claude in streamlining workflows.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program for developers and users."
-      },
-      "sources": [
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=B6wbbz8UOvA",
-          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich!"
+          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
+          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
         }
       ],
       "content_ideas": [
-        "Claude AI agent kaise use karein",
-        "Claude ke fayde aur nuksan",
-        "Claude AI agent ke liye best use cases"
+        "ChatGPT se image kaise banayein",
+        "AI image generation ke fayde",
+        "ChatGPT image generation tutorial"
       ]
     }
   ],
@@ -181,15 +164,15 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 5,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u9oea9/chatgpt_down_users_report_strange_redirects/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u9xepp/bro_what_is_claude_doing/"
         }
       ],
-      "content_opportunity": "Workaround for ChatGPT usage limits"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation, due to its rising momentum and potential for practical earning."
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
