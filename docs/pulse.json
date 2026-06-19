@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T10:58:48.586236+00:00",
+  "generated_at": "2026-06-19T15:44:15.997417+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 25,
+      "reddit": 50,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -18,21 +18,21 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or website, making it a great tool for content creators.",
-      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional online presence and create engaging visual content.",
-      "local_relevance": 8,
+      "audience_angle": "You can use ChatGPT to generate images for your social media, blogs, or other creative projects.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional online presence and marketing materials.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT's image generation can be used to create affiliate marketing materials."
       },
       "sources": [
         {
@@ -42,82 +42,82 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
-          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
+          "url": "https://www.youtube.com/watch?v=NBh1Q8TnY5Y",
+          "signal": "ChatGPT, Show Me Ramen Ice Cream"
         }
       ],
       "content_ideas": [
         "ChatGPT se image kaise banayein",
-        "AI image generation ke fayde",
+        "ChatGPT image generation ke fayde",
         "ChatGPT image generation tutorial"
       ]
     },
     {
-      "name": "AI Video Creation",
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "Claude AI is a conversational AI model that can be used for various tasks such as text generation and conversation.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate content, and improve your productivity.",
+      "linkedin_angle": "Claude AI can be used to enhance your professional workflow and automate repetitive tasks.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI offers an affiliate program for its users."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
+          "signal": "r/ClaudeAI List of Ongoing Megathreads"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
+          "signal": "The hacker sent by Anthropic to calm the government's nerves about AI safety"
+        }
+      ],
+      "content_ideas": [
+        "Claude AI se paisay kaise kamayein",
+        "Claude AI ke fayde",
+        "Claude AI tutorial"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video creation involves using artificial intelligence to generate videos based on text prompts or other inputs.",
-      "audience_angle": "You can use AI to create videos for your social media, website, or YouTube channel, saving time and effort.",
-      "linkedin_angle": "Utilize AI video creation to produce high-quality, engaging video content for your professional online presence.",
+      "what_it_is": "AI video generation allows users to create videos based on text prompts or other inputs.",
+      "audience_angle": "You can use AI video generation to create engaging videos for your social media, blogs, or other creative projects.",
+      "linkedin_angle": "Leverage AI video generation to enhance your professional online presence and marketing materials.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "AI video generation can be used to create affiliate marketing materials."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TGsWpZM2Nrs",
-          "signal": "ai se video kaise banaye"
+          "url": "https://www.youtube.com/watch?v=fC0oASucSZ8",
+          "signal": "Turn Any Image Into Animated Videos With This AI Tool and Earn Money"
         }
       ],
       "content_ideas": [
-        "AI video kaise banayein",
-        "AI se video banane ke fayde",
-        "Best AI video creation tools"
-      ]
-    },
-    {
-      "name": "ChatGPT vs Claude",
-      "category": "debate",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT and Claude are two popular AI models, and users often compare and contrast their features and capabilities.",
-      "audience_angle": "You can use this comparison to decide which AI model is best for your needs, whether it's for content creation or other purposes.",
-      "linkedin_angle": "Stay up-to-date on the latest AI models and their applications to enhance your professional skills and knowledge.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u9xepp/bro_what_is_claude_doing/",
-          "signal": "Bro what is Claude doing"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=B6wbbz8UOvA",
-          "signal": "Claude Fable 5 + Higgsfield MCP Will Make You Rich"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT vs Claude comparison",
-        "Which AI model is best for you",
-        "AI model debate"
+        "AI video generation se paisay kaise kamayein",
+        "AI video generation ke fayde",
+        "AI video generation tutorial"
       ]
     }
   ],
@@ -125,21 +125,21 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or website, making it a great tool for content creators.",
-      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional online presence and create engaging visual content.",
-      "local_relevance": 8,
+      "audience_angle": "You can use ChatGPT to generate images for your social media, blogs, or other creative projects.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional online presence and marketing materials.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT's image generation can be used to create affiliate marketing materials."
       },
       "sources": [
         {
@@ -149,30 +149,67 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ws8xI63flc4",
-          "signal": "Hidden AI SKILL to Earn Money Online in 2026"
+          "url": "https://www.youtube.com/watch?v=NBh1Q8TnY5Y",
+          "signal": "ChatGPT, Show Me Ramen Ice Cream"
         }
       ],
       "content_ideas": [
         "ChatGPT se image kaise banayein",
-        "AI image generation ke fayde",
+        "ChatGPT image generation ke fayde",
         "ChatGPT image generation tutorial"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "Claude AI is a conversational AI model that can be used for various tasks such as text generation and conversation.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate content, and improve your productivity.",
+      "linkedin_angle": "Claude AI can be used to enhance your professional workflow and automate repetitive tasks.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI offers an affiliate program for its users."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
+          "signal": "r/ClaudeAI List of Ongoing Megathreads"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
+          "signal": "The hacker sent by Anthropic to calm the government's nerves about AI safety"
+        }
+      ],
+      "content_ideas": [
+        "Claude AI se paisay kaise kamayein",
+        "Claude AI ke fayde",
+        "Claude AI tutorial"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 5,
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u9xepp/bro_what_is_claude_doing/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9dp00/like_612_months_ago_chat_gpt_started_randomly/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
+      "content_opportunity": "Claude usage limits: how to optimize your workflow and reduce costs."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Image Generation, because it allows users to generate images based on text prompts, which can be useful for various creative projects."
 }
