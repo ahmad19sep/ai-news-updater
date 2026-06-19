@@ -31,20 +31,20 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlpXZEw1VGF2ZWdoQld4RWdpRm1aNjhraU4yTzU4enNldWFSUUdaSjNFMXVYb2VjRENlWXIxV2xXQXdFQ2JDUlVsNUpaWEJ1dnlHSUVNZzN3YUZGOTZrTW4waTJWY3BhNWxYR05tbmZoaGJGQWE3Q2hmR0ttdGpXdUlSWGdyaW9yR0ktamNNaE9KMDMtVEo4b1Q3ZDdUSGVHRGhXc0dRRVVqdXRXb1o5UEZ4UTY0M1E?oc=5
 3. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 83
    https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
-4. **Mistral AI in talks to raise €3 billion at €20 billion value - Investing.com India** — Mistral News — Score 70
-   https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhxNEhRWTVtQUxiS2ZlUk1JaUJPQnI2RXluTm8tTnNoN083RWRhZF9UMlliY00zVWM4d2ZTTFROdVV5YlliOFVfTTQweENyOXY0ZEhGY3hjM2VZcmkxRnRtZlpscU1aYmFHWlMzYUlXNEdNVTdZM0M1T2VHWC1DLXBJcld3S1V1LU5Qc3hOVEkzNWx0Sk56WGsxek5Bc29kMkN0ZUgwVGxQM3RWMm1HTmxOVVg?oc=5
-5. **US judge dismisses Musk’s xAI trade secret lawsuit against OpenAI - Al Jazeera** — Sam Altman News — Score 58
+4. **US judge dismisses Musk’s xAI trade secret lawsuit against OpenAI - Al Jazeera** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPTFhaaU5VQzRPVE80Z01ISjQtQ25RTDNncnl6MFFqTVg4UGJPUWFIbjVTbGN0cHV2SE1ZNlZzbjRqVHM0Y2h1ZG9KekxGMkVSZ1dIY0pyb1ZScEpQQWw3ZWUwVUQxUFUyNVpDanF2eTRfeTlCQzVjdjBwY0pDQThEUjY1M3dCZ2c0VXE3OG9ITjRiUnNtMkpmaG5FQ1pKRnkza2MydUl4d2lvZS0y0gGyAUFVX3lxTFBnLW8xTkFtX0N0UHRQSV8tZGhBdWE4N1RISXZKUDBjWFZPMjZneHNad0N5N3Q4OUdQVWV3Skhha3NyQS1HdTRxcUY0TUJGTHFLVHZYUFdNdDdOUnJkLW1Fd0lyX2VGbkM2N3B4cDE3bURkT2ZkREdZMktVVmUwWWhQSmRIendhd2dvYnFYVE54OFhOcXE0Q0c0cWU0NThKZ0dDUWlGQk1FMnRhZFRoSzY0M3c?oc=5
-6. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
+5. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
    https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmk2b1lrRUhKalJRMEpzSUs2TEQ0YTVSTGVvUllEV05sUk91dkd2ZFRHQ3dBb1hRVlpRTUNycld4OVdKOFppWFRDRzg1LWpWa01mYi1HQzdjZXVwRXU2UlZuOWplcWd4eXh4Z3p1TlVmVEFmOGk3ZWJLNFI5OFRncm9PWU5mTmFXUlkxaVRUTnZPMVY0TXltRm5IVkFlLVV0Z25yZXRnTWJSQjRvVzVWcDM4U1VTMnVpZFh5ZlUtMnhzcnRSUFZ1cUJ30gHPAUFVX3lxTFBVRkMzMm96VmY2SDFhR1RGUlJPNFBxZUNXMk1oc01Xa1l6M2ZGbk5oY3ljYTBmUTVCRTlETll0YmxqN3JSVFFTdlNFeUc1NDQ0dVY0Tk9rMXJRakxtY0lsaHctNE1Qby1tSXlFNHJMX1hnVFRqSGx6MjVTUWJBSTZWc19CZHRhX25EdzF6SnVycHUtNzZfcGJjMmpjUnVlNlZtcVhwRjFJSUhoaXBNcVZHTnVTZXR0ZkJxaS05Y292ZWhBa0VGdkpyZklSQ0tFVQ?oc=5
-7. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 53
+6. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 53
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a2d46b35f9e46f89dff7ce5b50942d8&url=https%3a%2f%2fwww.msn.com%2fen-nz%2fnews%2fother%2fpolice-officer-investigated-for-using-ai-to-create-evidential-material-in-cases%2far-AA25xSHi&c=8809494013763372756&mkt=en-us
-8. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 53
+7. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
-9. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 53
+8. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMiugJBVV95cUxQOHlSVzU1OVI4QWZyYmhqcmx0VFoxNmJZNlF3aUJXY2szRS11b2NEUTN3YzNaaUZ5SkhLaUVpQThSVlExamZXT24xLWhUSVZlZWFPTmRPZ2ZGQ2hQV1FfV3h4bVkyNE5mMVZ6Mm5nUXdtc1hVTFpJUUdNYlVlT2JzT3pCaDRKRzlKdzRINjd6M2VTY2tIZ2lGb3BUcTZkb29uU21wUVRWOGZqUmYtNm1RQlhvdlJmSHZUTF9SR1ROYWV6WkxIZG5kYUVMNzdnVTJVTXFNNTRhUkpOY3pqM090Wmx5OVNScWFXWDhualVITTBHSUZIT29PS0JkZE9lbVd3WmpQTGFEVnhfY0VhdTJ0cGZUbHFEV3hPZE56NVRVUV8yVW1TdGdzeVNNZWNXaS1PNzlxODhfM3k3QQ?oc=5
-10. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
+9. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOTHJEWURVbXBpUTM4S28zR3NTNEVpRndlM3hSdUMzRURzb004bEVrcHlUTC1aMWVhUmxPT3hUVEFhR1B4NUY3VEJqT29wMzdOSUZRQUQyRXgtZUxTSEoteXAyR0Y3S2sxa2FFOWphMjRFbzBqUHZnbEZvNXFOMEkya2RzZGo3dmtWaVc1eDFrSkN2MGpNWXJZUFlOa3I?oc=5
+10. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
+   https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uMFlMQU5FdGo1YXpqclg0dWlqR0R5cjRtQmZxLTkzYi1fV2lnRlBpekV2NjRVdFY3OFRjQlljM2s5VVhsTHE5aFZlSmszWXc?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI beats doctors in major medical tests, but there is a catch - India Today** — https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1874
+- Total stories tracked: 1852
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
