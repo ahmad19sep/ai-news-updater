@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — science angle
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
-2. **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — science angle
+2. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — science angle
+   https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
+3. **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — science angle
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
-3. **AI beats doctors in major medical tests, but there is a catch - India Today** — science angle
+4. **AI beats doctors in major medical tests, but there is a catch - India Today** — science angle
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
-4. **This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It - WSJ** — science angle
+5. **This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It - WSJ** — science angle
    https://news.google.com/rss/articles/CBMib0FVX3lxTE8wS1R2Z1NNeHFLWkNHUG9raVpYdXdNUjlHa3VCaEhmdVpRMEtrVFU4RktoZ2h1SVNleVZFVVpUSXFBQTVYYklHRHlyejF4ZHEzRHRWVHFRYk9mLWNEc3o1NUV2b2lXeHh4aW1XckFmRQ?oc=5
-5. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
+6. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
-6. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
+7. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
-7. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
+8. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWZEUGNEUkJJOGx3a0E0QkFXdlY1TlltMVAzMnhyd05HTk9LMkhrYTNwSml5SjhtXzZQWTB2dURmSlcwbk94UXBnTVJXTXJ4WEswc2c0N2pMR1M4MVVCVnVLZVVhUjVSb3d6MFYtNkFaN1pDOFNLcFJldmhBeHlRSzM1UzI?oc=5
-8. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE** — Jensen Huang News — Score 163
@@ -33,28 +33,28 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
 4. **US judge dismisses Musk’s xAI trade secret lawsuit against OpenAI - Al Jazeera** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPTFhaaU5VQzRPVE80Z01ISjQtQ25RTDNncnl6MFFqTVg4UGJPUWFIbjVTbGN0cHV2SE1ZNlZzbjRqVHM0Y2h1ZG9KekxGMkVSZ1dIY0pyb1ZScEpQQWw3ZWUwVUQxUFUyNVpDanF2eTRfeTlCQzVjdjBwY0pDQThEUjY1M3dCZ2c0VXE3OG9ITjRiUnNtMkpmaG5FQ1pKRnkza2MydUl4d2lvZS0y0gGyAUFVX3lxTFBnLW8xTkFtX0N0UHRQSV8tZGhBdWE4N1RISXZKUDBjWFZPMjZneHNad0N5N3Q4OUdQVWV3Skhha3NyQS1HdTRxcUY0TUJGTHFLVHZYUFdNdDdOUnJkLW1Fd0lyX2VGbkM2N3B4cDE3bURkT2ZkREdZMktVVmUwWWhQSmRIendhd2dvYnFYVE54OFhOcXE0Q0c0cWU0NThKZ0dDUWlGQk1FMnRhZFRoSzY0M3c?oc=5
-5. **Anthropic says it has taken its latest AI models offline to comply with new export controls - WOWK 13 News** — Dario Amodei News — Score 53
-   https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmk2b1lrRUhKalJRMEpzSUs2TEQ0YTVSTGVvUllEV05sUk91dkd2ZFRHQ3dBb1hRVlpRTUNycld4OVdKOFppWFRDRzg1LWpWa01mYi1HQzdjZXVwRXU2UlZuOWplcWd4eXh4Z3p1TlVmVEFmOGk3ZWJLNFI5OFRncm9PWU5mTmFXUlkxaVRUTnZPMVY0TXltRm5IVkFlLVV0Z25yZXRnTWJSQjRvVzVWcDM4U1VTMnVpZFh5ZlUtMnhzcnRSUFZ1cUJ30gHPAUFVX3lxTFBVRkMzMm96VmY2SDFhR1RGUlJPNFBxZUNXMk1oc01Xa1l6M2ZGbk5oY3ljYTBmUTVCRTlETll0YmxqN3JSVFFTdlNFeUc1NDQ0dVY0Tk9rMXJRakxtY0lsaHctNE1Qby1tSXlFNHJMX1hnVFRqSGx6MjVTUWJBSTZWc19CZHRhX25EdzF6SnVycHUtNzZfcGJjMmpjUnVlNlZtcVhwRjFJSUhoaXBNcVZHTnVTZXR0ZkJxaS05Y292ZWhBa0VGdkpyZklSQ0tFVQ?oc=5
-6. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 53
+5. **Police officer investigated for using AI to create evidential material in cases** — Using AI To... — Score 53
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a2d46b35f9e46f89dff7ce5b50942d8&url=https%3a%2f%2fwww.msn.com%2fen-nz%2fnews%2fother%2fpolice-officer-investigated-for-using-ai-to-create-evidential-material-in-cases%2far-AA25xSHi&c=8809494013763372756&mkt=en-us
-7. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 53
+6. **OpenAI hit with multistate probe into possible user harm as its IPO looms - WRAL** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmNsZG82SWhpR0lpb0x3WjZHR2dxWjhhT3QySDdJTkJNcTJnNVExNTBSdlVvZ0VrUWRqUll0aGVGUER2RGtSWG5CNTR4eWFGSXlYemFxYXhMTXEwWVhadlBFTkdyTnRqU2VCc0NOVEt4VXNHcm5kWjlMZlZ5dHRkQzVDNDBWQmVyc05ySUhBS0M4cGhUTXhlelpHd0FBNXJxSVBEcUlXYUhxb3J2RkE?oc=5
-8. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 53
+7. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMiugJBVV95cUxQOHlSVzU1OVI4QWZyYmhqcmx0VFoxNmJZNlF3aUJXY2szRS11b2NEUTN3YzNaaUZ5SkhLaUVpQThSVlExamZXT24xLWhUSVZlZWFPTmRPZ2ZGQ2hQV1FfV3h4bVkyNE5mMVZ6Mm5nUXdtc1hVTFpJUUdNYlVlT2JzT3pCaDRKRzlKdzRINjd6M2VTY2tIZ2lGb3BUcTZkb29uU21wUVRWOGZqUmYtNm1RQlhvdlJmSHZUTF9SR1ROYWV6WkxIZG5kYUVMNzdnVTJVTXFNNTRhUkpOY3pqM090Wmx5OVNScWFXWDhualVITTBHSUZIT29PS0JkZE9lbVd3WmpQTGFEVnhfY0VhdTJ0cGZUbHFEV3hPZE56NVRVUV8yVW1TdGdzeVNNZWNXaS1PNzlxODhfM3k3QQ?oc=5
-9. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
+8. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOTHJEWURVbXBpUTM4S28zR3NTNEVpRndlM3hSdUMzRURzb004bEVrcHlUTC1aMWVhUmxPT3hUVEFhR1B4NUY3VEJqT29wMzdOSUZRQUQyRXgtZUxTSEoteXAyR0Y3S2sxa2FFOWphMjRFbzBqUHZnbEZvNXFOMEkya2RzZGo3dmtWaVc1eDFrSkN2MGpNWXJZUFlOa3I?oc=5
-10. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
+9. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uMFlMQU5FdGo1YXpqclg0dWlqR0R5cjRtQmZxLTkzYi1fV2lnRlBpekV2NjRVdFY3OFRjQlljM2s5VVhsTHE5aFZlSmszWXc?oc=5
+10. **Jensen Huang makes an optimistic case for the future of AI - Fox News** — Jensen Huang News — Score 46
+   https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2TmZ4ZGdTbndLUGF4Vl9abVNNd05PLUFPVUJ0eFRSX2RyZm1wbUg5bnJ5UEVVUkllQ2dvRS1MZmYyczBtdFdBM21JX1RoZ3Y2RHU2MVJB?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
+- **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
 - **How IU medicine is using AI to help find a cure for Alzheimer's patients - WTHR** — https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX0FGcjhOTTVVTk5QWkRlR0RybWZTR2hIUkFycjNtM0dEZHFGUnJNcVRnWENwUFBxNDdfVndSV0VTejNDQ0xUaEhtbk1qNW4wNDVXakVQazVaazlUd0F1bW83Yl8xVC15ejcwQzRPaGJHZjZ3ZVlZNW83SVRyUXliUUhtMWNla3NCNjZ1aHlYTG5pZ3VVQzVtTlJOOHR0YkJKT3I5eUN3NTFYQkRpRjZCMWhrRVJkT3dsQ05OQko0aXhXR1dSemZRLXBraW1mODhMcG15azdTZF84YlBuZHBrYTRjaDh6Zw?oc=5
 - **AI beats doctors in major medical tests, but there is a catch - India Today** — https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
-- **Mistral reportedly seeking $3.5B funding round amid physics AI push - SiliconANGLE** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEhESjZxZW41c3BjcjNRY1Axd09waTJRM1phMThWamRnaWd4WGk2ZkpEM3BEOVRoY3VaZEZpZWxmcnVGMVJPZjBLaDNNRTNoVVhJVlNvcThZNjZSX08tQVRIdy1YcE1feWN3OHlPaWNGYXRCYWQ5WjBkckZhV19pQ3BBYkVkS2FBbDVWcElBM0ViMjRKSFBsUTNYNlkyZ1hWN211aEJn?oc=5
 - **This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It - WSJ** — https://news.google.com/rss/articles/CBMib0FVX3lxTE8wS1R2Z1NNeHFLWkNHUG9raVpYdXdNUjlHa3VCaEhmdVpRMEtrVFU4RktoZ2h1SVNleVZFVVpUSXFBQTVYYklHRHlyejF4ZHEzRHRWVHFRYk9mLWNEc3o1NUV2b2lXeHh4aW1XckFmRQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1874
+- Total stories tracked: 1865
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
