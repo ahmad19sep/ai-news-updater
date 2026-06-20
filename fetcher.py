@@ -157,6 +157,89 @@ def fetch_feed(conn, feed_cfg, existing, stats):
         print(f"  [+] {name}: {new_count} new")
 
 
+def _newsdata_key():
+    """API key from the NEWSDATA_KEY env var (cloud) or a gitignored
+    newsdata_key.txt (local). Empty string if not configured."""
+    import os
+    k = os.environ.get("NEWSDATA_KEY", "").strip()
+    if not k:
+        try:
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "newsdata_key.txt")) as f:
+                k = f.read().strip()
+        except FileNotFoundError:
+            pass
+    return k
+
+
+def fetch_newsdata(conn, existing, stats):
+    """Pull the latest AI news from NewsData.io (free API). Adds a broad
+    breaking-news stream on top of the RSS feeds. Skips silently if no key."""
+    key = _newsdata_key()
+    if not key:
+        return
+    try:
+        resp = requests.get("https://newsdata.io/api/1/latest", params={
+            "apikey": key,
+            "q": "artificial intelligence OR generative AI OR LLM",
+            "language": "en",
+            "category": "technology",
+        }, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as e:
+        print(f"  [!] NewsData.io: failed ({type(e).__name__})")
+        stats["failed_feeds"].append("NewsData.io")
+        return
+
+    if data.get("status") != "success":
+        print(f"  [!] NewsData.io: {data.get('message') or 'no results'}")
+        return
+
+    new_count = 0
+    for art in (data.get("results") or [])[:30]:
+        title = (art.get("title") or "").strip()
+        link = (art.get("link") or "").strip()
+        if not title or not link:
+            continue
+
+        published = None
+        pd = art.get("pubDate")
+        if pd:
+            try:
+                published = datetime.strptime(pd, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+            except ValueError:
+                published = None
+        if _too_old(published):
+            continue
+
+        if filters.is_junk(title):
+            stats["junk"] += 1
+            continue
+        if not filters.is_ai_related(title):
+            stats["not_ai"] += 1
+            continue
+        if database.url_exists(conn, link):
+            continue
+
+        dup_id = filters.find_duplicate(title, existing)
+        if dup_id is not None:
+            database.add_link_to_item(conn, dup_id, link, art.get("source_id") or "NewsData")
+            stats["grouped"] += 1
+            continue
+
+        category = filters.classify(title, 10)
+        new_id = database.add_item(conn, title, link, art.get("source_id") or "NewsData",
+                                   category, published.isoformat() if published else None)
+        existing.append({"id": new_id, "title": title})
+        new_count += 1
+        stats["new"] += 1
+
+    conn.commit()
+    if new_count:
+        print(f"  [+] NewsData.io: {new_count} new")
+
+
 def fetch_hf_papers(conn, existing, stats):
     """Hugging Face trending papers page has no RSS, so we read the HTML
     and pull out the paper links and titles with a simple pattern."""
@@ -206,6 +289,7 @@ def run_fetch():
     for feed_cfg in config.FEEDS:
         fetch_feed(conn, feed_cfg, existing, stats)
     fetch_hf_papers(conn, existing, stats)
+    fetch_newsdata(conn, existing, stats)
 
     # --- Summary ---
     print()

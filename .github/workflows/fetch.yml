@@ -1,10 +1,10 @@
-name: AI News Radar (every 30 min)
+name: AI News Radar (every 15 min)
 
 on:
   schedule:
-    # Twice an hour so fresh news lands within ~30-60 min (GitHub cron can drift
-    # under load, so two slots keep us comfortably inside the 1-2 hour target).
-    - cron: "5,35 * * * *"
+    # Four times an hour so fresh news lands within ~15-30 min (GitHub cron can
+    # drift under load, so several slots keep us comfortably fast).
+    - cron: "2,17,32,47 * * * *"
   workflow_dispatch:        # also allows manual "Run workflow" button
 
 permissions:
@@ -17,12 +17,13 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       TZ: Asia/Karachi                          # digest times in Pakistan time
       NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}     # your private topic, kept secret
       SITE_PASSCODE: ${{ secrets.SITE_PASSCODE }}  # studio access code (hash goes in page)
       FIREBASE_URL: ${{ secrets.FIREBASE_URL }}    # Realtime DB URL, baked in so devices auto-connect
+      NEWSDATA_KEY: ${{ secrets.NEWSDATA_KEY }}    # NewsData.io API key (breaking-news firehose)
     steps:
       - uses: actions/checkout@v5
 

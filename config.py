@@ -106,13 +106,23 @@ FEEDS = [
     {"name": "OpenAI Blog",        "url": "https://openai.com/news/rss.xml",                          "category": 1, "trusted": True},
     {"name": "Google DeepMind",    "url": "https://deepmind.google/blog/rss.xml",                     "category": 1, "trusted": True},
     {"name": "Hugging Face Blog",  "url": "https://huggingface.co/blog/feed.xml",                     "category": 1, "trusted": True},
-    {"name": "Google AI Blog",     "url": "https://blog.google/technology/ai/rss/",                   "category": 1, "trusted": True},
+    {"name": "Google AI Blog",     "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",  "category": 1, "trusted": True},
     {"name": "NVIDIA AI Blog",     "url": "https://blogs.nvidia.com/blog/category/generative-ai/feed/", "category": 1, "trusted": True},
+    {"name": "Google Research",    "url": "https://research.google/blog/rss/",                        "category": 1, "trusted": True},
+    {"name": "AWS ML Blog",        "url": "https://aws.amazon.com/blogs/machine-learning/feed/",      "category": 1, "trusted": True},
+    {"name": "Apple ML Research",  "url": "https://machinelearning.apple.com/rss.xml",                "category": 1, "trusted": True},
+    {"name": "Together AI",        "url": "https://www.together.ai/blog/rss.xml",                     "category": 1, "trusted": True},
     news_search("Microsoft AI",    '"Microsoft" Copilot OR "Microsoft AI"', 1),
     news_search("Anthropic News",  '"Anthropic" OR "Claude AI" announcement', 1),
     news_search("Meta AI News",    '"Meta AI" model release', 1),
     news_search("Mistral News",    '"Mistral AI"', 1),
     news_search("xAI News",        '"xAI" OR "Grok" Elon model', 1),
+    news_search("DeepSeek News",   '"DeepSeek" model OR release', 1),
+    news_search("Perplexity News", '"Perplexity AI"', 1),
+    news_search("ElevenLabs News", '"ElevenLabs" voice AI', 1),
+    news_search("Cohere News",     '"Cohere" AI model', 1),
+    news_search("Runway News",     '"Runway" AI video', 1),
+    news_search("Stability AI",    '"Stability AI" OR "Stable Diffusion"', 1),
 
     # ---------- Science & space ----------
     {"name": "ScienceDaily AI",    "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml", "category": 8, "trusted": True},
@@ -137,6 +147,43 @@ FEEDS = [
     {"name": "Hacker News AI",     "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=50",    "category": 10, "trusted": True},
     news_search("Using AI To...",  '"using AI to"', 10),
 
+    # ---------- AI media (AI-dedicated sections; verified live) ----------
+    {"name": "The Verge AI",       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "category": 10, "trusted": True},
+    {"name": "Ars Technica AI",    "url": "https://arstechnica.com/ai/feed/",                         "category": 10, "trusted": True},
+    {"name": "Wired AI",           "url": "https://www.wired.com/feed/tag/ai/latest/rss",             "category": 10, "trusted": True},
+    {"name": "MIT Tech Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/", "category": 10, "trusted": True},
+    {"name": "The Decoder",        "url": "https://the-decoder.com/feed/",                            "category": 10, "trusted": True},
+    {"name": "The Register AI",    "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "category": 10, "trusted": True},
+    {"name": "Engadget",           "url": "https://www.engadget.com/feed/",                           "category": 10, "trusted": False},
+    {"name": "Semafor Tech",       "url": "https://www.semafor.com/rss.xml",                          "category": 10, "trusted": False},
+
+    # ---------- High-signal AI newsletters/blogs (verified live) ----------
+    {"name": "TLDR AI",            "url": "https://tldr.tech/api/rss/ai",                             "category": 10, "trusted": True},
+    {"name": "Ben's Bites",        "url": "https://www.bensbites.com/feed",                           "category": 10, "trusted": True},
+    {"name": "Import AI",          "url": "https://jack-clark.net/feed/",                             "category": 10, "trusted": True},
+    {"name": "Latent Space",       "url": "https://www.latent.space/feed",                            "category": 10, "trusted": True},
+    {"name": "Interconnects",      "url": "https://www.interconnects.ai/feed",                        "category": 10, "trusted": True},
+    {"name": "Simon Willison",     "url": "https://simonwillison.net/atom/everything/",               "category": 2, "trusted": False},
+
+    # ---------- AI-news YouTube channels (verified live) ----------
+    {"name": "Matt Wolfe",         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g", "category": 10, "trusted": True, "lock": True},
+    {"name": "AI Explained",       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw", "category": 10, "trusted": True, "lock": True},
+    {"name": "TheAIGRID",          "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbY9xX3_jW5c2fjlZVBI4cg", "category": 10, "trusted": True, "lock": True},
+
+    # ---------- Breaking model/product hunters (catch the newest names fast) ----------
+    news_search("Breaking GPT-5",   '"GPT-5" OR "GPT-5.5" OR "GPT-6"', 1),
+    news_search("Breaking Gemini 3",'"Gemini 3" OR "Gemini 3.0"', 1),
+    news_search("Breaking Claude",  '"Claude Opus" OR "Claude 4" OR "Claude 5"', 1),
+    news_search("Breaking Llama 4", '"Llama 4" OR "Llama 5" Meta', 1),
+    news_search("Breaking Sora/Veo",'Sora OR "Veo 3" AI video generator', 1),
+    news_search("AI Agents",        '"AI agent" OR "agentic AI" launch', 1),
+    news_search("New AI App",       '"AI app" OR "AI feature" WhatsApp OR Android OR iPhone', 1),
+
+    # ---------- South Asia angle (audience: Pakistan / India) ----------
+    news_search("AI Pakistan",     'AI Pakistan OR Pakistani startup OR freelancer', 10),
+    news_search("AI India",        'AI India startup OR "Indian AI" launch', 10),
+    news_search("AI Jobs S Asia",  'AI jobs Pakistan OR India OR Fiverr OR Upwork', 10),
+
     # ---------- Topic hunters (fill the new categories) ----------
     news_search("AI in Space",       'AI space exploration OR "AI" NASA satellite', 6, max_age_days=30),
     news_search("AI in Agriculture", 'AI agriculture OR "AI" farming crops', 7, max_age_days=30),
@@ -147,6 +194,8 @@ FEEDS = [
 
     # ---------- Research papers (locked to category 9) ----------
     {"name": "arXiv AI",           "url": "https://rss.arxiv.org/rss/cs.AI",                          "category": 9, "trusted": True, "lock": True},
+    {"name": "arXiv NLP (cs.CL)",  "url": "https://rss.arxiv.org/rss/cs.CL",                          "category": 9, "trusted": True, "lock": True},
+    {"name": "arXiv ML (cs.LG)",   "url": "https://rss.arxiv.org/rss/cs.LG",                          "category": 9, "trusted": True, "lock": True},
     # Hugging Face trending papers are fetched separately in fetcher.py (no RSS)
 ]
 
@@ -192,6 +241,16 @@ AI_KEYWORDS = [
     "sora", "agi", "superintelligence", "agent", "robot", "autonomous",
     "nvidia", "altman", "amodei", "hassabis", "self-driving", "deepfake",
     "text-to-video", "text-to-image", "voice clone", "rag",
+    # latest model / product / company names (2025-2026)
+    "gpt-5", "gpt-4o", "gpt-4.1", "o3", "o4-mini", "claude opus", "claude sonnet",
+    "claude code", "gemini 2.5", "gemini 3", "nano banana", "veo 3", "veo", "grok 4",
+    "deepseek", "qwen", "kimi", "minimax", "mistral large", "llama 4", "phi-4",
+    "command r", "sora 2", "gpt-image", "flux", "operator", "perplexity",
+    "midjourney", "stargate", "agentforce", "devin", "cursor", "windsurf",
+    "github copilot", "v0.dev", "bolt.new", "lovable", "replit agent",
+    "model context protocol", "mcp server", "vibe coding", "agentic ai",
+    "reasoning model", "world model", "safe superintelligence", "thinking machines",
+    "elevenlabs", "runway", "suno", "notebooklm", "mixture of experts", "cohere",
 ]
 
 # If a title contains any of these, it is junk -> always rejected,

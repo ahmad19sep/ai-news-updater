@@ -15,3 +15,6 @@ plans.db
 node_modules/
 package.json
 package-lock.json
+
+# NewsData.io API key (local only; cloud uses the GitHub Secret)
+newsdata_key.txt
