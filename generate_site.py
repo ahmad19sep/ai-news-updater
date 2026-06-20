@@ -605,7 +605,7 @@ PAGE = r"""<!doctype html>
       </span>
       <span class="bt"><b>AI x Ahmad</b><small>RADAR STUDIO</small></span>
     </a>
-    <div class="brand-sub">The World of AI, in Simple Urdu</div>
+    <div class="brand-sub">The World of AI, made simple</div>
     <nav>
       <button class="navitem active" id="tabbtn-home" onclick="switchTab('home')">🏠 <span>Home</span></button>
       <button class="navitem" id="tabbtn-news" onclick="switchTab('news')">📰 <span>News</span><span class="navcount" id="nc-news"></span></button>
@@ -809,7 +809,7 @@ PAGE = r"""<!doctype html>
       <button class="ghost" id="pub-tweet" title="Publish first, then tweet it with a link">𝕏 Post to X</button>
       <button class="ghost" id="pub-wa" title="Publish first, then share to WhatsApp">📱 WhatsApp</button>
       <button class="ghost" id="pub-fb" title="Publish first, then share to Facebook">📘 Facebook</button>
-      <button class="ghost" id="pub-social" title="Make engaging Roman-Urdu posts for YouTube / Facebook / WhatsApp / Instagram">📲 Social pack</button>
+      <button class="ghost" id="pub-social" title="Make engaging posts for YouTube / Facebook / WhatsApp / Instagram">📲 Social pack</button>
       <span id="pub-result" style="margin-left:auto;font-size:12.5px"></span>
     </div>
     <div id="pub-list" style="margin-top:14px"></div>
@@ -1716,8 +1716,8 @@ function pulseToBoard(id) {
 function pulseCopyPrompt(id) {
   const t = pulseById[id]; if (!t) return;
   const isPain = !!t._pain, ctx = pulseTitle(t), src = pulseUrl(t);
-  let p = 'You are a scriptwriter for "AI x Ahmad" (@aixahmad), an AI-education channel for Pakistan/India.\n'
-    + 'Write in simple Roman Urdu with light English (audience: everyday people, students, freelancers).\n\n';
+  let p = 'You are a scriptwriter for "AI x Ahmad" (@aixahmad), a global AI-news channel.\n'
+    + 'Write in clear, simple English for a worldwide audience.\n\n';
   if (isPain) {
     p += 'TOPIC (a problem people are facing): ' + ctx + '\n'
       + (t.content_opportunity ? ('ANGLE: ' + t.content_opportunity + '\n') : '')
@@ -1729,7 +1729,7 @@ function pulseCopyPrompt(id) {
       + '\nFormat: ' + pmFmt(t.best_format || 'short') + '. Pillar: ' + pmFmt(t.pillar || 'discovery') + '.\n';
   }
   if (src) p += 'SOURCE: ' + src + '\n';
-  p += '\nWrite:\n1) A scroll-stopping hook (1 line)\n2) A tight spoken script (45-90 sec) in Roman Urdu\n'
+  p += '\nWrite:\n1) A scroll-stopping hook (1 line)\n2) A tight spoken script (45-90 sec) in clear English\n'
     + '3) A strong CTA to follow @aixahmad\n4) 5 viral title options\n'
     + 'Base everything ONLY on the topic above — do not invent fake numbers or features.';
   navigator.clipboard.writeText(p).then(() => toast("Script prompt copied — paste in Claude 🤖"));
@@ -1965,7 +1965,7 @@ function renderStageView(el, stage, nextStage, nextLabel, emptyMsg) {
     if (pb) pb.onclick = () => {
       const prompt = 'Design 3 thumbnail/poster concepts for my video: "' +
         (p.ftitle || p.title.split("\n")[0]) +
-        '" (AI x Ahmad — AI in simple Urdu, audience Pakistan/India). For each concept give: main poster text (max 4 words, Urdu/English mix), background idea, color scheme, my facial expression, one small visual element. Must be readable on a phone screen.';
+        '" (AI x Ahmad — global AI news, made simple). For each concept give: main poster text (max 4 words, English), background idea, color scheme, my facial expression, one small visual element. Must be readable on a phone screen.';
       navigator.clipboard.writeText(prompt).then(() => toast("Poster prompt copied — paste in Claude 🎨"));
     };
     c.querySelectorAll(".chk input").forEach(cb => {
@@ -3844,7 +3844,7 @@ document.getElementById("pub-fb").onclick = () => {
 };
 
 /* ---- Social pack: per-platform engaging posts (Roman Urdu default) ---- */
-let socPlat = "facebook", socLang = "ur", socCtx = { title: "", body: "", link: "" };
+let socPlat = "facebook", socLang = "en", socCtx = { title: "", body: "", link: "" };
 document.getElementById("pub-social").onclick = () => openSocial(lastPubArt);
 function openSocial(art) {
   const title = (art && art.title) || document.getElementById("pub-title").value.trim();
@@ -3853,7 +3853,7 @@ function openSocial(art) {
   socCtx = { title, body, link };
   document.getElementById("soc-story").textContent = title ? ("📰 " + title) : "Add a headline/article in the publish box first";
   document.getElementById("soc-out").value = "";
-  socPlat = "facebook"; socLang = "ur"; socSync();
+  socPlat = "facebook"; socLang = "en"; socSync();
   document.getElementById("socialmodal").hidden = false;
 }
 function closeSocial() { document.getElementById("socialmodal").hidden = true; }

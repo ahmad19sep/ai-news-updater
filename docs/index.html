@@ -231,7 +231,7 @@
 <div class="ticker">
   <span class="bk"><span class="d"></span>BREAKING</span>
   <div class="tkrow" id="ticker"></div>
-  <span class="tklive mono">LIVE · 20 Jun, 19:48 UTC</span>
+  <span class="tklive mono">LIVE · 20 Jun, 20:36 UTC</span>
 </div>
 
 <header class="mast">
@@ -283,7 +283,7 @@
       <section class="sblock" id="tools"></section>
       <section class="briefcard">
         <div class="briefh">The AI Radar Brief</div>
-        <p>The AI stories that matter — in simple Urdu, every day. Follow AI x Ahmad.</p>
+        <p>The AI stories that matter, made simple — every day. Follow AI x Ahmad.</p>
         <a class="bbtn" href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
         <a class="bbtn2" href="https://x.com/aixahmad" target="_blank" rel="noopener">𝕏 Follow on X</a>
         <div class="bfoot">Join the AI x Ahmad community · No spam.</div>
@@ -338,7 +338,7 @@ let pillar = 0, hotOnly = false, q = "", shown = PAGE, PUBS = [];
 let SAVED = new Set(JSON.parse(localStorage.getItem("air_saved") || "[]"));
 
 document.getElementById("yr").textContent = new Date().getFullYear();
-document.getElementById("updlabel").textContent = "UPDATED 20 Jun, 19:48 UTC · REFRESHES EVERY 30 MIN · " + ITEMS.length + " STORIES";
+document.getElementById("updlabel").textContent = "UPDATED 20 Jun, 20:36 UTC · REFRESHES EVERY 30 MIN · " + ITEMS.length + " STORIES";
 
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
   if(s<3600) return Math.max(1,s/60|0)+" min ago"; if(s<86400) return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }

@@ -337,7 +337,7 @@ __GSC__
       <section class="sblock" id="tools"></section>
       <section class="briefcard">
         <div class="briefh">The AI Radar Brief</div>
-        <p>The AI stories that matter — in simple Urdu, every day. Follow AI x Ahmad.</p>
+        <p>The AI stories that matter, made simple — every day. Follow AI x Ahmad.</p>
         <a class="bbtn" href="https://youtube.com/@aixahmad" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
         <a class="bbtn2" href="https://x.com/aixahmad" target="_blank" rel="noopener">𝕏 Follow on X</a>
         <div class="bfoot">Join the AI x Ahmad community · No spam.</div>

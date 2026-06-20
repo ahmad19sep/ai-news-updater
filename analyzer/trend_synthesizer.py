@@ -13,10 +13,9 @@ import requests
 
 import config
 
-PROMPT = r"""You are a trend analyst for "AI x Ahmad", an AI-education content brand for
-Urdu/Hindi-speaking audiences in Pakistan and India (tagline: "AI Ki Duniya, Simple Urdu Mein").
-The audience cares about PRACTICAL use and EARNING with AI, framed as "what this means for YOU" —
-not technical specs.
+PROMPT = r"""You are a trend analyst for "AI x Ahmad", a global AI-news content brand for a
+worldwide audience. The audience cares about PRACTICAL use and EARNING with AI, framed as
+"what this means for YOU" — not technical specs.
 
 Below are real signals collected in the last 48 hours from Google Trends, YouTube, Reddit, and
 Hacker News. Identify 6 to 12 distinct, real trends. STRONGLY PREFER specific named tools,
@@ -33,7 +32,7 @@ Return ONLY a JSON object (no prose, no code fences) matching this schema:
       "momentum": "rising | hot | cooling",
       "platforms": ["google","youtube","reddit","hackernews","instagram_inferred","facebook_inferred","linkedin_inferred"],
       "what_it_is": "<one plain sentence, simple language>",
-      "audience_angle": "<why an Urdu/Hindi viewer should care - the 'what this means for you' hook>",
+      "audience_angle": "<why a viewer should care - the 'what this means for you' hook>",
       "linkedin_angle": "<if this trend has a professional/career/productivity framing, the LinkedIn-post angle in one line (in simple English); else empty>",
       "local_relevance": 0,
       "pillar": "practical_earning | explainer | discovery | news",
@@ -41,7 +40,7 @@ Return ONLY a JSON object (no prose, no code fences) matching this schema:
       "video_worthy": 0,
       "monetization": { "affiliate_likely": true, "note": "<e.g. tool has an affiliate program>" },
       "sources": [ { "platform": "...", "url": "...", "signal": "<the raw text/metric>" } ],
-      "content_ideas": [ "<concrete Urdu video/Reel title idea 1>", "<idea 2>", "<idea 3>" ]
+      "content_ideas": [ "<concrete English video/Reel title idea 1>", "<idea 2>", "<idea 3>" ]
     }
   ],
   "pain_points": [
@@ -57,16 +56,14 @@ Return ONLY a JSON object (no prose, no code fences) matching this schema:
 }
 
 Scoring guidance: prioritize trends that are practical/earning-focused, visually demonstrable, and
-locally relevant (PK/IN, Urdu/Hindi). A real problem people face is HIGH value because it makes
+broadly relevant to a global audience. A real problem people face is HIGH value because it makes
 great tutorial/explainer content. For trends with a clear work/career/productivity angle, fill
 linkedin_angle. Be honest about momentum - only mark "rising" if recent signals genuinely outweigh
 older ones. Use category "tool_launch" whenever a trend centers on a specific named AI tool or
 model (these feed the Rising Tools list, so don't lump tools as "use_case"). Write every
-content_idea in ROMAN URDU (Urdu written in English letters) with light English, e.g.
-"ChatGPT se paisay kaise kamayein". Make the content_ideas DISTINCT from each other and specific
-to the trend — do NOT repeat a generic filler line; aim for at least 3 per trend. (audience_angle,
-what_it_is, and linkedin_angle stay in simple English.) local_relevance and video_worthy are
-0-10; signal_strength is 0-10.
+content_idea in clear, simple English, e.g. "How to make money with ChatGPT". Make the
+content_ideas DISTINCT from each other and specific to the trend — do NOT repeat a generic filler
+line; aim for at least 3 per trend. local_relevance and video_worthy are 0-10; signal_strength is 0-10.
 
 SIGNALS:
 __SIGNALS__"""

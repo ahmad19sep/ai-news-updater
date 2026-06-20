@@ -269,7 +269,7 @@ window.buildXPrompt = function (o) {
 };
 
 /* ---- Social pack: engaging, platform-tailored posts (YouTube / Facebook /
-   WhatsApp / Instagram). Default language Roman Urdu (Pakistan/India audience). ---- */
+   WhatsApp / Instagram). Default language English (global audience). ---- */
 window.SOCIAL = {
   youtube: {
     label: "YouTube",
@@ -277,7 +277,7 @@ window.SOCIAL = {
   },
   facebook: {
     label: "Facebook",
-    rules: "Platform: Facebook page post. Start with a scroll-stopping hook line. Then 3-5 short, simple, engaging lines with a relatable angle for a Pakistani/Indian audience. Ask ONE question at the end to spark comments. Put the link on its own line at the end. 2-3 hashtags. A few natural emojis.",
+    rules: "Platform: Facebook page post. Start with a scroll-stopping hook line. Then 3-5 short, simple, engaging lines with a relatable angle for a global audience. Ask ONE question at the end to spark comments. Put the link on its own line at the end. 2-3 hashtags. A few natural emojis.",
   },
   whatsapp: {
     label: "WhatsApp Channel",
@@ -321,25 +321,25 @@ window.buildNewsroomPrompt = function (o) {
 '[[REDDIT]]',
 '(English. First line = a Reddit-style title, then a neutral summary + one discussion question. End with [ARTICLE LINK])',
 '[[FACEBOOK]]',
-'(Roman Urdu. Engaging hook, easy paragraphs, emojis, encourage comments. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'(English. Engaging hook, easy paragraphs, emojis, encourage comments. End with "Read the full story:\\n[ARTICLE LINK]")',
 '[[INSTAGRAM]]',
-'(Roman Urdu. Caption style: hook, key facts, emojis, hashtags. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'(English. Caption style: hook, key facts, emojis, hashtags. End with "Read the full story:\\n[ARTICLE LINK]")',
 '[[WHATSAPP]]',
-'(Roman Urdu. Very concise, most important facts first, mobile-friendly, few emojis. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'(English. Very concise, most important facts first, mobile-friendly, few emojis. End with "Read the full story:\\n[ARTICLE LINK]")',
 '[[YOUTUBE]]',
-'(Roman Urdu. Community post: create curiosity, highlight the key development, ask a question. End with "Puri khabar parhein:\\n[ARTICLE LINK]")',
+'(English. Community post: create curiosity, highlight the key development, ask a question. End with "Read the full story:\\n[ARTICLE LINK]")',
 '[[END]]',
   ].filter(x => x !== null && x !== undefined).join('\n');
 };
 
 window.buildSocialPrompt = function (o) {
   const cfg = window.SOCIAL[o.platform] || window.SOCIAL.facebook;
-  const lang = o.lang === "en"
-    ? "Write in clear, simple English."
-    : "Write in simple Roman Urdu (Urdu written in English letters) with light English — the audience is Pakistan/India.";
+  const lang = o.lang === "ur"
+    ? "Write in simple Roman Urdu (Urdu written in English letters) with light English."
+    : "Write in clear, simple English for a global worldwide audience.";
   const wantLink = o.platform !== "instagram" && o.link;
   return [
-    'You write social-media posts for "AI x Ahmad" (@aixahmad), an AI-education brand for Pakistan & India.',
+    'You write social-media posts for "AI x Ahmad" (@aixahmad), a global AI-news brand.',
     lang, "",
     cfg.rules, "",
     "Make it genuinely ENGAGING — a real hook that stops the scroll, not a press release. Simple words, one idea per line.",
