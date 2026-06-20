@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
 9. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uMFlMQU5FdGo1YXpqclg0dWlqR0R5cjRtQmZxLTkzYi1fV2lnRlBpekV2NjRVdFY3OFRjQlljM2s5VVhsTHE5aFZlSmszWXc?oc=5
-10. **Jensen Huang makes an optimistic case for the future of AI - Fox News** — Jensen Huang News — Score 46
-   https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2TmZ4ZGdTbndLUGF4Vl9abVNNd05PLUFPVUJ0eFRSX2RyZm1wbUg5bnJ5UEVVUkllQ2dvRS1MZmYyczBtdFdBM21JX1RoZ3Y2RHU2MVJB?oc=5
+10. **John Jumper to leave Google DeepMind for Anthropic - CNBC** — Demis Hassabis News — Score 46
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxQRm5xaUJxLTQ0TVFiU2laQkg3TUhROUwtYTE2cUhGOVdMUWJpb1puZDNKV19BNy1tX0NVQUhTWWtkQTBhZ3BMZ1lvYXlWSUtMX2VWWkNiMW95bGhuVTMzMVBzVGVkVXJUYzdDaHY0WVdfZWJ2RmdsU0dBMVlGM1JPT3o3YTBfVjZyMTFqWkFEQ1PSAZYBQVVfeXFMUDBFeW5oTHl6ZlBreTcybmRRNXlQQzRBdTVQbndELXRMWHlpVHZHZ2dId3JNWUJaNktHeGZZRF9HUzRrb01KNVBTdWZIY1czQVd3TC1uOXVyelhsOUY0b0tmaGV5SGxRd1l4THlIWjdNYWZVZnhhdXc3NHRUcldVZDlSWng4d3FVamJiaEIwVHR5WWxsbGxR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 1828
+- Total stories tracked: 1831
 - Most active topic: anthropic
 - Busiest category: Leaders & Podcasts
 
