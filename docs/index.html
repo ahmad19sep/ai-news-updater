@@ -231,14 +231,14 @@
 <div class="ticker">
   <span class="bk"><span class="d"></span>BREAKING</span>
   <div class="tkrow" id="ticker"></div>
-  <span class="tklive mono">LIVE · 20 Jun, 10:11 UTC</span>
+  <span class="tklive mono">LIVE · 20 Jun, 10:34 UTC</span>
 </div>
 
 <header class="mast">
   <div class="mastrow">
     <a class="brand" href="/"><span class="orb">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path><circle cx="12" cy="12" r="2" fill="#fff" stroke="none"></circle></svg>
-    </span><span class="nm">AI<b>Radar</b></span></a>
+    </span><span class="nm">AI <b>Radar</b></span></a>
     <nav class="cats" id="nav"></nav>
     <div class="mright">
       <a href="https://x.com/aixahmad" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
@@ -297,7 +297,7 @@
     <div class="fbrand">
       <a class="brand" href="/"><span class="orb">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg>
-      </span><span class="nm">AI<b>Radar</b></span></a>
+      </span><span class="nm">AI <b>Radar</b></span></a>
       <p>The fastest way to follow artificial intelligence. We scan hundreds of sources and surface what matters — refreshed every 30 minutes.</p>
       <div class="fsoc">
         <a href="https://x.com/aixahmad" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
@@ -338,7 +338,7 @@ let pillar = 0, hotOnly = false, q = "", shown = PAGE, PUBS = [];
 let SAVED = new Set(JSON.parse(localStorage.getItem("air_saved") || "[]"));
 
 document.getElementById("yr").textContent = new Date().getFullYear();
-document.getElementById("updlabel").textContent = "UPDATED 20 Jun, 10:11 UTC · REFRESHES EVERY 30 MIN · " + ITEMS.length + " STORIES";
+document.getElementById("updlabel").textContent = "UPDATED 20 Jun, 10:34 UTC · REFRESHES EVERY 30 MIN · " + ITEMS.length + " STORIES";
 
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
   if(s<3600) return Math.max(1,s/60|0)+" min ago"; if(s<86400) return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
@@ -474,7 +474,7 @@ async function loadFeatured(){
   }catch(e){}
 }
 const RTOP = '<div class="rtopbar"><button class="rback" onclick="closeArticle()">← Back</button>'+
-  '<a class="brand" href="/"><span class="orb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg></span><span class="nm">AI<b>Radar</b></span></a>'+
+  '<a class="brand" href="/"><span class="orb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg></span><span class="nm">AI <b>Radar</b></span></a>'+
   '<span class="spacer"></span></div>';
 function openArticle(i){
   const p=PUBS[i]; if(!p) return;

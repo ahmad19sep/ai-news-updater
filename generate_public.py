@@ -292,7 +292,7 @@ __GSC__
   <div class="mastrow">
     <a class="brand" href="/"><span class="orb">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path><circle cx="12" cy="12" r="2" fill="#fff" stroke="none"></circle></svg>
-    </span><span class="nm">AI<b>Radar</b></span></a>
+    </span><span class="nm">AI <b>Radar</b></span></a>
     <nav class="cats" id="nav"></nav>
     <div class="mright">
       <a href="https://x.com/aixahmad" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
@@ -351,7 +351,7 @@ __GSC__
     <div class="fbrand">
       <a class="brand" href="/"><span class="orb">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg>
-      </span><span class="nm">AI<b>Radar</b></span></a>
+      </span><span class="nm">AI <b>Radar</b></span></a>
       <p>The fastest way to follow artificial intelligence. We scan hundreds of sources and surface what matters — refreshed every 30 minutes.</p>
       <div class="fsoc">
         <a href="https://x.com/aixahmad" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
@@ -528,7 +528,7 @@ async function loadFeatured(){
   }catch(e){}
 }
 const RTOP = '<div class="rtopbar"><button class="rback" onclick="closeArticle()">← Back</button>'+
-  '<a class="brand" href="/"><span class="orb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg></span><span class="nm">AI<b>Radar</b></span></a>'+
+  '<a class="brand" href="/"><span class="orb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12L19 8"></path></svg></span><span class="nm">AI <b>Radar</b></span></a>'+
   '<span class="spacer"></span></div>';
 function openArticle(i){
   const p=PUBS[i]; if(!p) return;

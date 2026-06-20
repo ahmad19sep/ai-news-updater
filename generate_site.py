@@ -3741,6 +3741,25 @@ document.getElementById("pub-draft").onclick = () => {
     "Keep the article and the image clearly separated, so I can copy the article text on its own.";
   navigator.clipboard.writeText(p).then(() => toast("Article + image prompt copied — paste into ChatGPT/Gemini (makes both); paste the article into the body, use/upload the image 🤖🎨"));
 };
+/* When a story is published, tick it AND every related/duplicate copy as done,
+   so the same news (from other sources) can't be confused with a fresh story.
+   Matches on shared URL, shared related-link, or identical normalised headline. */
+function markStoryDone(story) {
+  if (!story) return 0;
+  const norm = s => (s || "").toLowerCase().replace(/[^a-z0-9 ]+/g, "").replace(/\s+/g, " ").trim();
+  const keys = new Set([story.u, ...(story.l || [])].filter(Boolean));
+  const t0 = norm(story.t || story.title);
+  const hit = it => keys.has(it.u) || (it.l || []).some(u => keys.has(u)) || (t0 && norm(it.t) === t0);
+  // pass 1: pull every matching item's links into the key set (transitive)
+  ITEMS.forEach(it => { if (hit(it)) { if (it.u) keys.add(it.u); (it.l || []).forEach(u => keys.add(u)); } });
+  // pass 2: tick every item that now overlaps the expanded key set
+  let n = 0;
+  ITEMS.forEach(it => { if (hit(it) && it.u && !doneSet.has(it.u)) { doneSet.add(it.u); n++; } });
+  localStorage.setItem("done", JSON.stringify([...doneSet]));
+  try { render(); } catch (e) {}
+  try { renderHome(); } catch (e) {}
+  return n;
+}
 document.getElementById("pub-go").onclick = async () => {
   if (!FBURL) { toast("Firebase not connected"); return; }
   const title = document.getElementById("pub-title").value.trim();
@@ -3758,6 +3777,8 @@ document.getElementById("pub-go").onclick = async () => {
     toast("Published to your website 🌐");
     document.getElementById("pub-result").innerHTML = '✅ Live — <a href="index.html" target="_blank">view</a> · now tap 𝕏 to tweet it';
     loadPubList();
+    const nd = markStoryDone(pubStory);
+    if (nd > 1) toast("✓ Ticked this + " + (nd - 1) + " related stor" + (nd - 1 === 1 ? "y" : "ies"));
   } catch (e) { toast("Publish failed: " + e.message); }
 };
 /* Share the published article to X / WhatsApp / Facebook, ending with a link to
@@ -3963,7 +3984,8 @@ document.getElementById("nr-pub").onclick = async () => {
     nrLink = PUBLIC_SITE + "/#a=" + id; lastPubArt = art;
     document.getElementById("nr-link").innerHTML = '✅ Live — <a href="index.html" target="_blank">view</a> · share below ↓';
     nrRenderPlats();
-    toast("Published 🌐 — now share to any platform");
+    const nd = markStoryDone({ u: nrStory.source, t: nrStory.title });
+    toast("Published 🌐" + (nd > 1 ? " · ✓ ticked " + nd + " related" : ""));
   } catch (e) { toast("Publish failed: " + e.message); }
 };
 async function loadPubList() {
