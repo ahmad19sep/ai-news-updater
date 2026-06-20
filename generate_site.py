@@ -623,11 +623,6 @@ PAGE = r"""<!doctype html>
       <div class="ttitle"><div class="pt" id="pageTitle">Home</div><div class="ps" id="pageSub">Your radar at a glance</div></div>
       <div class="tutil">
         <button class="themebtn" id="cloudbtn" onclick="cloudClick()" title="Live sync">☁️</button>
-        <button class="themebtn" id="rolebtn" onclick="roleSwitch(event)" title="Owner / editor mode">👤</button>
-        <span style="position:relative;display:inline-flex;flex-shrink:0">
-          <button class="themebtn" id="chatbtn" onclick="openGeneralChat()" title="Team chat">💬</button>
-          <span id="chatbadge" class="chatbadge" style="display:none"></span>
-        </span>
         <button class="themebtn" id="themebtn" onclick="toggleTheme()" title="Light / dark theme">🌙</button>
       </div>
     </header>
@@ -741,21 +736,6 @@ PAGE = r"""<!doctype html>
       <button class="btn" onclick="closeModal()">Save</button>
       <button class="ghost" onclick="modalPrep()">🤖 Write with Claude</button>
       <button class="danger" style="margin-left:auto" onclick="modalDelete()">Delete</button>
-    </div>
-  </div>
-</div>
-<div id="chatmodal" hidden>
-  <div class="mbox" style="display:flex;flex-direction:column;height:min(72vh,560px)">
-    <div class="wa-head">
-      <b style="font-size:15px">💬 Team chat</b>
-      <select id="chat-thread" style="margin-left:auto" onchange="generalChatSwitch()"></select>
-      <button class="x" onclick="closeGeneralChat()">✕</button>
-    </div>
-    <div id="g-chat" class="chatbox" style="flex:1;max-height:none"></div>
-    <div class="chatinput">
-      <input id="g-chat-text" placeholder="Message… type @ to mention an editor"
-        onkeydown="if(event.key==='Enter')generalChatSend()">
-      <button class="btn" onclick="generalChatSend()" title="Send">➤</button>
     </div>
   </div>
 </div>
@@ -3449,6 +3429,7 @@ function updateChatBadges() {
   }
 }
 function startChatWatch() {
+  return;   /* team chat removed */
   if (!isFb() || chatWatchES) return;
   refreshChatCounts();
   try {
@@ -4280,30 +4261,12 @@ function navCounts() {
 trendsBar(); bar(); renderHome(); render(); navCounts();
 syncPull();   /* pull cross-device done + published, then auto-tick matches */
 attachMention(document.getElementById("m-chat-text"));
-attachMention(document.getElementById("g-chat-text"));
-if (EDLINK) {                       /* arrived via an editor's private link */
-  let _ed = edById(EDLINK);
-  const _key = (_ed && _ed.ph) || EDKEY;
-  if (_key && localStorage.getItem("edunlock") === _key) {
-    if (!_ed) {                     /* fresh device, already unlocked before */
-      _ed = { id: EDLINK, name: EDNAME || "Editor", ph: EDKEY };
-      editors.push(_ed);
-      saveEditors();
-    }
-    ROLE = _ed.id;
-    localStorage.setItem("role", ROLE);
-    applyRole();                    /* already logged in on this device */
-  } else {
-    edGateShow();                   /* just the password box — nothing else */
-  }
-} else {
-  applyRole(ROLE === "owner");      /* editor-mode devices jump straight to their workspace */
-}
+ROLE = "owner"; localStorage.setItem("role", "owner");   /* owner-only studio (editors/chat removed) */
+applyRole(true);
 setCloudIcon(true);
 if (SYNCCFG) {
   pollBoard().then(() => { syncReady = true; });   /* pull latest before pushing */
   startStream();
-  startChatWatch();                                /* live unread badges */
 } else if (FBURL && BOARDKEY && ROLE === "owner") {
   autoConnect();   /* already-unlocked owner device, fresh storage: reconnect automatically */
 }
