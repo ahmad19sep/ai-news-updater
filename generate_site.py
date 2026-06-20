@@ -609,6 +609,7 @@ PAGE = r"""<!doctype html>
     <nav>
       <button class="navitem active" id="tabbtn-home" onclick="switchTab('home')">🏠 <span>Home</span></button>
       <button class="navitem" id="tabbtn-news" onclick="switchTab('news')">📰 <span>News</span><span class="navcount" id="nc-news"></span></button>
+      <button class="navitem" id="tabbtn-popular" onclick="switchTab('popular')">🔥 <span>Popular</span></button>
       <button class="navitem" id="tabbtn-trends" onclick="switchTab('trends')">📈 <span>Trends</span></button>
       <button class="navitem" id="tabbtn-pulse" onclick="switchTab('pulse')">⚡ <span>Pulse</span></button>
       <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
@@ -647,6 +648,12 @@ PAGE = r"""<!doctype html>
     <div class="count" id="count"></div>
     <div id="list"></div>
     <button class="more" id="more" style="display:none">Show more</button>
+  </section>
+
+  <section id="tab-popular" hidden>
+    <p class="note">🔥 The AI stories the world is paying attention to right now — most-covered first.
+       Great for picking what to post. Publishing one ticks all its copies, on every device.</p>
+    <div id="poplist"></div>
   </section>
 
   <section id="tab-trends" hidden>
@@ -1043,6 +1050,7 @@ async function syncPull() {
     applyPosted();
     localStorage.setItem("done", JSON.stringify([...doneSet]));
     try { render(); } catch (e) {}
+    try { renderPopular(); } catch (e) {}
     try { navCounts(); } catch (e) {}
   } catch (e) {}
 }
@@ -1393,17 +1401,19 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","trends","pulse","research"].forEach(n => {
+  ["home","news","popular","trends","pulse","research"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
-  const TT = { home:["Home","Your radar at a glance"], news:["News","Triage stories into the pipeline"],
+  const TT = { home:["Home","Your radar at a glance"], news:["News","The latest AI news, newest first"],
+    popular:["Popular","What the world is reading right now"],
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
     research:["Research","Papers for your own learning"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
   if (name === "home") renderHome();
+  if (name === "popular") renderPopular();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -1443,50 +1453,64 @@ function filtered() {
     (b.d || b.f || "").localeCompare(a.d || a.f || ""));
   return items;
 }
+/* one news card (shared by the News feed and the Popular tab) */
+function makeCard(it) {
+  const d = document.createElement("div");
+  d.className = "card" + (doneSet.has(it.u) ? " done" : "");
+  let extra = "", hot = "";
+  if (it.l && it.l.length) {
+    hot = '<span class="pill hot">🔥 ' + (it.l.length + 1) + " sources</span>";
+    extra = '<div class="extra">also covered by: ' + it.l.map(x =>
+      '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.source) + "</a>").join("") + "</div>";
+  }
+  const why = (mode === "worthy" && it.sc >= 6 && it.r && it.r.length)
+    ? '<div class="why">⭐ ' + it.sc + " — " + esc(it.r.join(" · ")) + "</div>" : "";
+  d.innerHTML =
+    '<h2><a href="' + esc(it.u) + '" target="_blank" rel="noopener">' + esc(it.t) + "</a></h2>" +
+    '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + hot +
+    "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
+    '<span class="actions">' +
+    (ROLE === "owner" ? '<button class="nr-btn" title="Newsroom: article + images + all posts">📰</button>' : "") +
+    (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
+    (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
+    '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done ✓") + "</button>" +
+    "</span></div>" + why + extra;
+  d.querySelector(".db").onclick = () => {
+    doneSet.has(it.u) ? doneSet.delete(it.u) : doneSet.add(it.u);
+    localStorage.setItem("done", JSON.stringify([...doneSet]));
+    pushDone(); render(); try { renderPopular(); } catch (e) {}
+  };
+  const xb = d.querySelector(".x-btn");
+  if (xb) xb.onclick = () => openXModal(it);
+  const pb2 = d.querySelector(".pub-btn");
+  if (pb2) pb2.onclick = () => openPublishModal(it);
+  const nb = d.querySelector(".nr-btn");
+  if (nb) nb.onclick = () => openNewsroom(it);
+  return d;
+}
 function render() {
   const items = filtered();
   document.getElementById("count").textContent =
     items.length + " stories" + (q ? ' for "' + q + '"' : "") +
     (pillar ? " in " + PILLARS[pillar] : "") +
-    (mode === "worthy" ? " · ranked by: should you film this today?" : " · newest first");
+    (mode === "worthy" ? " · ranked by interest" : " · newest first");
   const list = document.getElementById("list");
   list.innerHTML = items.length ? "" : '<div class="empty">No stories found.</div>';
-  items.slice(0, shown).forEach(it => {
-    const d = document.createElement("div");
-    d.className = "card" + (doneSet.has(it.u) ? " done" : "");
-    let extra = "", hot = "", local = "";
-    if (it.l && it.l.length) {
-      hot = '<span class="pill hot">🔥 ' + (it.l.length + 1) + " sources</span>";
-      extra = '<div class="extra">also covered by: ' + it.l.map(x =>
-        '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.source) + "</a>").join("") + "</div>";
-    }
-    if (it.lo) local = '<span class="pill local">🇵🇰🇮🇳 Local angle</span>';
-    const why = (mode === "worthy" && it.sc >= 6 && it.r && it.r.length)
-      ? '<div class="why">⭐ ' + it.sc + " — " + esc(it.r.join(" · ")) + "</div>" : "";
-    d.innerHTML =
-      '<h2><a href="' + esc(it.u) + '" target="_blank" rel="noopener">' + esc(it.t) + "</a></h2>" +
-      '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + local + hot +
-      "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
-      '<span class="actions">' +
-      (ROLE === "owner" ? '<button class="nr-btn" title="Newsroom: article + images + all posts">📰</button>' : "") +
-      (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
-      (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
-      '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done ✓") + "</button>" +
-      "</span></div>" + why + extra;
-    d.querySelector(".db").onclick = () => {
-      doneSet.has(it.u) ? doneSet.delete(it.u) : doneSet.add(it.u);
-      localStorage.setItem("done", JSON.stringify([...doneSet]));
-      pushDone(); render();
-    };
-    const xb = d.querySelector(".x-btn");
-    if (xb) xb.onclick = () => openXModal(it);
-    const pb2 = d.querySelector(".pub-btn");
-    if (pb2) pb2.onclick = () => openPublishModal(it);
-    const nb = d.querySelector(".nr-btn");
-    if (nb) nb.onclick = () => openNewsroom(it);
-    list.appendChild(d);
-  });
+  items.slice(0, shown).forEach(it => list.appendChild(makeCard(it)));
   document.getElementById("more").style.display = items.length > shown ? "block" : "none";
+}
+/* Popular = what the world is paying attention to: most-covered first, then
+   interest score, then recency. Skips done + research. */
+function renderPopular() {
+  const el = document.getElementById("poplist");
+  if (!el) return;
+  const pop = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u))
+    .map(it => ({ it, n: (it.l ? it.l.length : 0) }))
+    .sort((a, b) => (b.n - a.n) || (worthyRank(b.it) - worthyRank(a.it)) ||
+      ((b.it.d || b.it.f || "").localeCompare(a.it.d || a.it.f || "")))
+    .slice(0, 40).map(x => x.it);
+  el.innerHTML = pop.length ? "" : '<div class="empty">No popular stories yet — check back as coverage builds.</div>';
+  pop.forEach(it => el.appendChild(makeCard(it)));
 }
 function bar() {
   const el = document.getElementById("pillars");
@@ -1512,11 +1536,6 @@ function bar() {
   hot.className = hotOnly ? "active" : "";
   hot.onclick = () => { hotOnly = !hotOnly; shown = PAGE; bar(); render(); };
   el.appendChild(hot);
-  const loc = document.createElement("button");
-  loc.innerHTML = "🇵🇰🇮🇳 Local";
-  loc.className = localOnly ? "active" : "";
-  loc.onclick = () => { localOnly = !localOnly; shown = PAGE; bar(); render(); };
-  el.appendChild(loc);
   const h = document.createElement("button");
   h.textContent = "Hide covered";
   h.className = hideDone ? "active" : "";
@@ -3769,6 +3788,7 @@ function markStoryDone(story) {
   POSTED.push(sig);
   pushPosted(sig); pushDone();
   try { render(); } catch (e) {}
+  try { renderPopular(); } catch (e) {}
   try { renderHome(); } catch (e) {}
   return n;
 }
@@ -4218,17 +4238,17 @@ function renderHome() {
   const day = Date.now() - 86400000;
   const today = ITEMS.filter(it => it.p !== 9 && new Date(it.d).getTime() > day);
   const hot = today.filter(it => it.l && it.l.length).length;
-  const local = today.filter(it => it.lo).length;
+  const covered = today.filter(it => it.l && it.l.length >= 2).length;
   const sg = document.getElementById("statgrid");
   sg.innerHTML =
     '<div class="scard click" data-act="today"><div class="l">Stories today</div><div class="n">' + today.length + "</div></div>" +
     '<div class="scard click" data-act="hot"><div class="l">Hot</div><div class="n orange">' + hot + "</div></div>" +
-    '<div class="scard click" data-act="local"><div class="l">Local angle</div><div class="n green">' + local + "</div></div>";
+    '<div class="scard click" data-act="popular"><div class="l">Most covered</div><div class="n green">' + covered + "</div></div>";
   sg.querySelectorAll(".scard").forEach(card => {
     card.onclick = () => {
       const act = card.dataset.act;
+      if (act === "popular") { switchTab("popular"); return; }
       hotOnly = act === "hot";
-      localOnly = act === "local";
       if (act === "today") mode = "latest";
       shown = PAGE;
       switchTab("news");

@@ -125,12 +125,11 @@ _RESEARCHY_P = [re.compile(r"\b" + re.escape(k) + r"\b", re.IGNORECASE)
 
 
 def audience_score(title, pillar, n_extra_sources, age_h, hot_terms):
-    """Returns (score, reasons, is_local). Higher = film it today."""
+    """Returns (score, reasons, is_local). Higher = more worth posting.
+    Global news hub: no South-Asia ranking boost — popularity (source count),
+    usefulness, freshness and trending decide the score for everyone."""
     score, reasons = 0, []
-    local = any(p.search(title) for p in _LOCAL_P)
-    if local:
-        score += 4
-        reasons.append("PK/IN local angle")
+    local = any(p.search(title) for p in _LOCAL_P)  # kept as a flag only; not boosted
     if any(p.search(title) for p in _CONSUMER_P):
         score += 3
         reasons.append("useful for viewers")
