@@ -1023,6 +1023,63 @@ function jload(key, fallback) {
 }
 const _done = jload("done", "[]");
 const doneSet = new Set(Array.isArray(_done) ? _done : []);
+/* ---- cross-device "done" + "published" sync via Firebase (every device agrees) ---- */
+let POSTED = [];   /* signatures {u,t,l} of everything published, synced everywhere */
+function normT(s) { return (s || "").toLowerCase().replace(/[^a-z0-9 ]+/g, "").replace(/\s+/g, " ").trim(); }
+function sigHit(it, sig) {
+  const keys = new Set([sig.u, ...(sig.l || [])].filter(Boolean));
+  const t0 = normT(sig.t);
+  return keys.has(it.u) || (it.l || []).some(u => keys.has(u)) || (t0 && normT(it.t) === t0);
+}
+/* tick every item — current OR newly-arrived later — that matches something published */
+function applyPosted() {
+  let n = 0;
+  ITEMS.forEach(it => {
+    if (!it.u || doneSet.has(it.u)) return;
+    if (POSTED.some(sig => sigHit(it, sig))) { doneSet.add(it.u); n++; }
+  });
+  if (n) localStorage.setItem("done", JSON.stringify([...doneSet]));
+  return n;
+}
+function fbRoot() { return FBURL ? FBURL.replace(/\/+$/, "") : ""; }
+async function syncPull() {
+  if (!FBURL) return;
+  const base = fbRoot();
+  try {
+    const [d, p, pub] = await Promise.all([
+      fetch(base + "/news_done.json").then(r => r.json()).catch(() => null),
+      fetch(base + "/news_posted.json").then(r => r.json()).catch(() => null),
+      fetch(base + "/published.json").then(r => r.json()).catch(() => null),
+    ]);
+    if (Array.isArray(d)) d.forEach(u => u && doneSet.add(u));
+    const sigs = Array.isArray(p) ? p.filter(Boolean) : Object.values(p || {}).filter(Boolean);
+    const pubSigs = Object.values(pub || {}).filter(Boolean).map(a => ({ u: a.url || "", t: a.title || "", l: [] }));
+    POSTED = sigs.concat(pubSigs);
+    applyPosted();
+    localStorage.setItem("done", JSON.stringify([...doneSet]));
+    try { render(); } catch (e) {}
+    try { navCounts(); } catch (e) {}
+  } catch (e) {}
+}
+async function pushDone() {           /* last-write-wins; safe after syncPull unioned remote */
+  if (!FBURL) return;
+  try {
+    await fetch(fbRoot() + "/news_done.json", { method: "PUT",
+      headers: { "Content-Type": "application/json" }, body: JSON.stringify([...doneSet]) });
+  } catch (e) {}
+}
+async function pushPosted(sig) {
+  if (!FBURL || !sig) return;
+  try {
+    let remote = await fetch(fbRoot() + "/news_posted.json").then(r => r.json()).catch(() => null);
+    remote = Array.isArray(remote) ? remote.filter(Boolean) : Object.values(remote || {}).filter(Boolean);
+    remote.push(sig);
+    if (remote.length > 500) remote = remote.slice(-500);   /* keep it small */
+    POSTED = remote;
+    await fetch(fbRoot() + "/news_posted.json", { method: "PUT",
+      headers: { "Content-Type": "application/json" }, body: JSON.stringify(remote) });
+  } catch (e) {}
+}
 let plans = jload("plans", "[]");
 let etasks = jload("etasks", "[]");
 function saveEtasks() { localStorage.setItem("etasks", JSON.stringify(etasks)); schedulePush(); }
@@ -1434,7 +1491,7 @@ function render() {
     d.querySelector(".db").onclick = () => {
       doneSet.has(it.u) ? doneSet.delete(it.u) : doneSet.add(it.u);
       localStorage.setItem("done", JSON.stringify([...doneSet]));
-      render();
+      pushDone(); render();
     };
     const xb = d.querySelector(".x-btn");
     if (xb) xb.onclick = () => openXModal(it);
@@ -3721,6 +3778,10 @@ function markStoryDone(story) {
   let n = 0;
   ITEMS.forEach(it => { if (hit(it) && it.u && !doneSet.has(it.u)) { doneSet.add(it.u); n++; } });
   localStorage.setItem("done", JSON.stringify([...doneSet]));
+  // remember this story so future duplicates (any device) auto-tick too
+  const sig = { u: story.u || "", t: story.t || story.title || "", l: (story.l || []) };
+  POSTED.push(sig);
+  pushPosted(sig); pushDone();
   try { render(); } catch (e) {}
   try { renderHome(); } catch (e) {}
   return n;
@@ -4212,6 +4273,7 @@ function navCounts() {
   } catch (e) {}
 }
 trendsBar(); bar(); renderHome(); render(); navCounts();
+syncPull();   /* pull cross-device done + published, then auto-tick matches */
 attachMention(document.getElementById("m-chat-text"));
 attachMention(document.getElementById("g-chat-text"));
 if (EDLINK) {                       /* arrived via an editor's private link */
