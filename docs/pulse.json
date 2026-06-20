@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T14:33:26.855242+00:00",
+  "generated_at": "2026-06-20T19:58:41.005941+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,96 +9,37 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an AI tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or personal projects.",
-      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your visual content and boost engagement.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create amazing images for your social media or personal projects.",
+      "linkedin_angle": "Explore the creative potential of AI-generated images for your business or personal brand.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT Images 2.0 Se Apne Social Media Ke Liye Khoobsurat Tasveerein Banayein",
-        "ChatGPT Images 2.0 Ka Upyog Karke Apne Vyapar Ke Liye Visually Attractive Content Banayein",
-        "ChatGPT Images 2.0 Ke Saath Apne Shahar Ke Naye Pehluon Ko Dikhayein"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Claude Fable 5 is an AI model that generates human-like text based on prompts.",
-      "audience_angle": "You can use Claude Fable 5 to generate high-quality content for your blog or social media.",
-      "linkedin_angle": "Utilize Claude Fable 5 to streamline your content creation process and increase productivity.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for content creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ACjwmGeDHFc",
-          "signal": "Why Anthropic's Claude Fable 5 & Mythos 5 Are Now Illegal (+15 AI Updates)"
-        }
-      ],
-      "content_ideas": [
-        "Claude Fable 5 Se Apne Blog Ke Liye High-Quality Content Banayein",
-        "Claude Fable 5 Ka Upyog Karke Apne Social Media Ke Liye Visually Attractive Content Banayein",
-        "Claude Fable 5 Ke Saath Apne Shahar Ke Naye Pehluon Ko Dikhayein"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI video generation is the process of creating videos using artificial intelligence.",
-      "audience_angle": "You can use AI video generation to create stunning videos for your social media or personal projects.",
-      "linkedin_angle": "Leverage AI video generation to enhance your visual content and boost engagement.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools have affiliate programs for content creators."
-      },
-      "sources": [
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=TGsWpZM2Nrs",
@@ -106,91 +47,169 @@
         }
       ],
       "content_ideas": [
-        "AI Video Generation Se Apne Social Media Ke Liye Khoobsurat Videos Banayein",
-        "AI Video Generation Ka Upyog Karke Apne Vyapar Ke Liye Visually Attractive Content Banayein",
-        "AI Video Generation Ke Saath Apne Shahar Ke Naye Pehluon Ko Dikhayein"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Images 2.0 is an AI tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your social media or personal projects.",
-      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your visual content and boost engagement.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT Images 2.0 Se Apne Social Media Ke Liye Khoobsurat Tasveerein Banayein",
-        "ChatGPT Images 2.0 Ka Upyog Karke Apne Vyapar Ke Liye Visually Attractive Content Banayein",
-        "ChatGPT Images 2.0 Ke Saath Apne Shahar Ke Naye Pehluon Ko Dikhayein"
+        "ChatGPT se images kaise banayein",
+        "Ai se video kaise banayein",
+        "ChatGPT ki image generation capability ko kaise use karein"
       ]
     },
     {
-      "name": "Claude Fable 5",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "Claude Fable 5 is an AI model that generates human-like text based on prompts.",
-      "audience_angle": "You can use Claude Fable 5 to generate high-quality content for your blog or social media.",
-      "linkedin_angle": "Utilize Claude Fable 5 to streamline your content creation process and increase productivity.",
-      "local_relevance": 7,
+      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate content, and more.",
+      "linkedin_angle": "Discover how Claude AI can help you streamline your workflow and boost productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for content creators."
+        "note": "Claude AI has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=ACjwmGeDHFc",
           "signal": "Why Anthropic's Claude Fable 5 & Mythos 5 Are Now Illegal (+15 AI Updates)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.argusred.com/cli",
+          "signal": "Show HN: We post-trained a model that pen tests instead of refusing"
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 Se Apne Blog Ke Liye High-Quality Content Banayein",
-        "Claude Fable 5 Ka Upyog Karke Apne Social Media Ke Liye Visually Attractive Content Banayein",
-        "Claude Fable 5 Ke Saath Apne Shahar Ke Naye Pehluon Ko Dikhayein"
+        "Claude AI se paisay kaise kamayein",
+        "Claude AI ki capability ko kaise use karein",
+        "Claude AI vs ChatGPT: which one is better for you"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used to generate videos based on text prompts or images.",
+      "audience_angle": "You can use AI to create stunning videos for your social media or personal projects.",
+      "linkedin_angle": "Explore the potential of AI-generated videos for your business or personal brand.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a-QnSHpiL5E",
+          "signal": "CapCut AI Video Generator: Bulk Create Brand Ads on PC"
+        }
+      ],
+      "content_ideas": [
+        "Ai se video kaise banayein",
+        "Ai video generation ki capability ko kaise use karein",
+        "Ai video generation ke fayde aur nuksan"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create amazing images for your social media or personal projects.",
+      "linkedin_angle": "Explore the creative potential of AI-generated images for your business or personal brand.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TGsWpZM2Nrs",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT se images kaise banayein",
+        "Ai se video kaise banayein",
+        "ChatGPT ki image generation capability ko kaise use karein"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate content, and more.",
+      "linkedin_angle": "Discover how Claude AI can help you streamline your workflow and boost productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ACjwmGeDHFc",
+          "signal": "Why Anthropic's Claude Fable 5 & Mythos 5 Are Now Illegal (+15 AI Updates)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.argusred.com/cli",
+          "signal": "Show HN: We post-trained a model that pen tests instead of refusing"
+        }
+      ],
+      "content_ideas": [
+        "Claude AI se paisay kaise kamayein",
+        "Claude AI ki capability ko kaise use karein",
+        "Claude AI vs ChatGPT: which one is better for you"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits hitting users hard",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uahkmr/psa_openai_can_ban_your_account_without_providing/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/"
         }
       ],
-      "content_opportunity": "Create a tutorial on how to optimize ChatGPT usage and avoid hitting the limits."
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0, as it has been gaining popularity and has a wide range of applications for content creators."
+  "tool_of_week_candidate": "Claude AI"
 }
