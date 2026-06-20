@@ -609,9 +609,6 @@ PAGE = r"""<!doctype html>
       <button class="navitem" id="tabbtn-trends" onclick="switchTab('trends')">📈 <span>Trends</span></button>
       <button class="navitem" id="tabbtn-pulse" onclick="switchTab('pulse')">⚡ <span>Pulse</span></button>
       <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
-      <div class="navgrp">Production</div>
-      <button class="navitem" id="tabbtn-plan" onclick="switchTab('plan')">📊 <span>Buffer</span><span class="navcount" id="nc-plan"></span></button>
-      <button class="navitem" id="tabbtn-editors" onclick="switchTab('editors')">👥 <span>Editors</span></button>
     </nav>
     <div class="sidefoot">
       <span class="av">A</span>
@@ -639,13 +636,7 @@ PAGE = r"""<!doctype html>
     <div class="statgrid" id="statgrid"></div>
     <div class="homecols">
       <div class="panel">
-        <h3>📋 This week's pipeline</h3>
-        <div id="pipeline"></div>
-      </div>
-      <div class="panel">
         <h3>⚡ Quick actions</h3>
-        <button class="qa" onclick="qaShort()">🎬 Create a short video</button>
-        <button class="qa" onclick="qaX()">💬 Create an X post</button>
         <button class="qa" onclick="qaNews()">🎯 Open video-worthy list</button>
         <a class="qa" href="digests/latest.html" target="_blank" style="display:block;text-decoration:none">📄 Weekly digest — open &amp; Save as PDF</a>
       </div>
@@ -701,25 +692,7 @@ PAGE = r"""<!doctype html>
     <div id="rlist"></div>
   </section>
 
-  <section id="tab-plan" hidden>
-    <div class="addrow" style="align-items:center">
-      <div class="bar" id="boardnav" style="margin:0"></div>
-      <button class="btn" id="newpostbtn" style="margin-left:auto" onclick="openComposer(null)">+ New post</button>
-      <button class="ghost" onclick="exportPlans()">⬇</button>
-      <button class="ghost" onclick="document.getElementById('importfile').click()">⬆</button>
-      <input type="file" id="importfile" accept=".json" hidden>
-    </div>
-    <div id="boardview"></div>
-  </section>
-
-  <section id="tab-editors" hidden>
-    <div class="addrow" style="align-items:center;margin-top:20px">
-      <div class="bar" id="ednav" style="margin:0"></div>
-      <button class="ghost" style="margin-left:auto" title="Download board file" onclick="exportPlans()">⬇</button>
-      <button class="ghost" title="Import board file" onclick="document.getElementById('importfile').click()">⬆</button>
-    </div>
-    <div id="edwork"></div>
-  </section>
+  <input type="file" id="importfile" accept=".json" hidden>
 
 </div>
   </main>
@@ -1377,29 +1350,23 @@ function toast(msg) {
 }
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
-  if (ROLE !== "owner") name = "editors";   /* editors only see their workspace */
-  ["home","news","trends","pulse","research","plan","editors"].forEach(n => {
-    document.getElementById("tab-" + n).hidden = n !== name;
-    document.getElementById("tabbtn-" + n).classList.toggle("active", n === name);
+  if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
+  ["home","news","trends","pulse","research"].forEach(n => {
+    const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
+    const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
   const TT = { home:["Home","Your radar at a glance"], news:["News","Triage stories into the pipeline"],
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
-    research:["Research","Papers for your own learning"], plan:["Buffer","Production pipeline"],
-    editors:["Editors","Manage your team's workspaces"] };
+    research:["Research","Papers for your own learning"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
   if (name === "home") renderHome();
-  if (name === "plan") renderBoard();
-  if (name === "editors") renderEditorsTab();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
-/* re-render whichever workspace is on screen */
-function rerender() {
-  if (!document.getElementById("tab-editors").hidden) renderEditorsTab();
-  else if (!document.getElementById("tab-plan").hidden) renderBoard();
-}
+/* Buffer/Editors workspaces removed — kept as a no-op so sync callers are safe */
+function rerender() {}
 function ago(iso) {
   if (!iso) return "";
   const s = (Date.now() - new Date(iso).getTime()) / 1000;
@@ -1462,8 +1429,6 @@ function render() {
       (ROLE === "owner" ? '<button class="nr-btn" title="Newsroom: article + images + all posts">📰</button>' : "") +
       (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
       (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
-      '<button class="plan-btn">🎬 plan</button>' +
-      '<button class="prep-btn">📝</button>' +
       '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done ✓") + "</button>" +
       "</span></div>" + why + extra;
     d.querySelector(".db").onclick = () => {
@@ -1471,8 +1436,6 @@ function render() {
       localStorage.setItem("done", JSON.stringify([...doneSet]));
       render();
     };
-    d.querySelector(".plan-btn").onclick = () => { addPlan(it.t, it.u); };
-    d.querySelector(".prep-btn").onclick = () => openCreate(it.t, it.u);
     const xb = d.querySelector(".x-btn");
     if (xb) xb.onclick = () => openXModal(it);
     const pb2 = d.querySelector(".pub-btn");
@@ -1779,7 +1742,8 @@ function boardNav() {
 }
 
 function renderBoard() {
-  /* workspace handlers call renderBoard(); route to whichever tab is on screen */
+  /* Buffer/Editors removed — guard so any dormant caller can't touch missing DOM */
+  if (!document.getElementById("boardview")) return;
   if (!document.getElementById("tab-editors").hidden) { renderEditorsTab(); return; }
   if (ROLE !== "owner") return;            /* Buffer is owner-only */
   boardNav();
@@ -2571,7 +2535,7 @@ function applyRole(noNav) {
     rb.title = owner ? "Owner mode — click to act as an editor"
       : "Editor mode: " + edById(ROLE).name + " — click to return to owner mode";
   }
-  if (!noNav) switchTab(owner ? "home" : "editors");
+  if (!noNav) switchTab("home");
 }
 
 function platTags(p, max) {
@@ -2868,6 +2832,7 @@ function sendToOwner(p, ed) {
 function renderEditorsTab() {
   const nav = document.getElementById("ednav");
   const out = document.getElementById("edwork");
+  if (!nav || !out) return;   /* Editors tab removed */
   nav.innerHTML = "";
   out.innerHTML = "";
   if (ROLE !== "owner") {                    /* an editor sees only their own workspace */
@@ -3417,8 +3382,8 @@ function updateChatBadges() {
   const modalOpen = !document.getElementById("modal").hidden ||
                     !document.getElementById("chatmodal").hidden;
   if (!modalOpen) {
-    if (!document.getElementById("tab-plan").hidden ||
-        !document.getElementById("tab-editors").hidden) rerender();
+    const tp = document.getElementById("tab-plan"), te = document.getElementById("tab-editors");
+    if ((tp && !tp.hidden) || (te && !te.hidden)) rerender();
   }
 }
 function startChatWatch() {
@@ -4198,11 +4163,7 @@ function renderHome() {
       '<span class="badge score">Score ' + p.sc + "</span>" +
       (p.lo ? '<span class="badge localb">PK/IN local angle</span>' : "") +
       (p.l && p.l.length ? '<span class="badge src">' + (p.l.length + 1) + " sources</span>" : "") +
-      '<button class="btn" id="pickplan">Plan video →</button></div>';
-    document.getElementById("pickplan").onclick = () => {
-      addPlan(p.t, p.u);
-      switchTab("plan");
-    };
+      '</div>';
   } else {
     tp.innerHTML = '<span class="picktag">✨ Aaj ka top pick</span><p>No stories yet today.</p>';
   }
@@ -4211,17 +4172,14 @@ function renderHome() {
   const today = ITEMS.filter(it => it.p !== 9 && new Date(it.d).getTime() > day);
   const hot = today.filter(it => it.l && it.l.length).length;
   const local = today.filter(it => it.lo).length;
-  const open = plans.filter(x => x.status !== "posted").length;
   const sg = document.getElementById("statgrid");
   sg.innerHTML =
     '<div class="scard click" data-act="today"><div class="l">Stories today</div><div class="n">' + today.length + "</div></div>" +
     '<div class="scard click" data-act="hot"><div class="l">Hot</div><div class="n orange">' + hot + "</div></div>" +
-    '<div class="scard click" data-act="local"><div class="l">Local angle</div><div class="n green">' + local + "</div></div>" +
-    '<div class="scard click" data-act="tickets"><div class="l">Tickets open</div><div class="n indigo">' + open + "</div></div>";
+    '<div class="scard click" data-act="local"><div class="l">Local angle</div><div class="n green">' + local + "</div></div>";
   sg.querySelectorAll(".scard").forEach(card => {
     card.onclick = () => {
       const act = card.dataset.act;
-      if (act === "tickets") { boardView = "ideas"; switchTab("plan"); return; }
       hotOnly = act === "hot";
       localOnly = act === "local";
       if (act === "today") mode = "latest";
@@ -4229,21 +4187,6 @@ function renderHome() {
       switchTab("news");
       bar(); render();
     };
-  });
-
-  const pl = document.getElementById("pipeline");
-  const openPlans = plans.filter(x => x.status !== "posted").slice(0, 6);
-  pl.innerHTML = openPlans.length ? "" :
-    '<p style="color:var(--faint);font-size:13px">No open tickets — plan a video from News.</p>';
-  openPlans.forEach(p => {
-    const d = document.createElement("div");
-    d.className = "pipe";
-    d.innerHTML = '<span class="st">' + p.status + "</span>" +
-      "<span>" + esc(p.title.split("\n")[0].slice(0, 48)) + "</span>" +
-      '<span class="who ' + (p.assignee === "Editor" ? "editor" : "ahmad") + '">' +
-      esc(holderName(p)) + "</span>";
-    d.onclick = () => switchTab("plan");
-    pl.appendChild(d);
   });
 }
 function qaShort() {
@@ -4266,8 +4209,6 @@ function navCounts() {
   try {
     const a = document.getElementById("nc-news");
     if (a) a.textContent = ITEMS.filter(it => it.p !== 9).length;
-    const b = document.getElementById("nc-plan");
-    if (b) b.textContent = (typeof plans !== "undefined" && plans ? plans.length : 0);
   } catch (e) {}
 }
 trendsBar(); bar(); renderHome(); render(); navCounts();
