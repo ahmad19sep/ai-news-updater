@@ -6,6 +6,7 @@ to the database. Also fetches Hugging Face trending papers (no RSS).
 
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
 import feedparser
@@ -18,7 +19,8 @@ import filters
 # Some sites (especially Reddit) block requests without a real User-Agent.
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AINewsRadar/1.0"}
 
-REQUEST_TIMEOUT = 20  # seconds per feed
+REQUEST_TIMEOUT = 15   # seconds per feed (parallel, so this caps total wall time)
+MAX_WORKERS = 16       # feeds downloaded concurrently
 
 
 def _entry_published(entry):
@@ -71,37 +73,37 @@ def _reddit_scores(feed_url):
     return out
 
 
-def fetch_feed(conn, feed_cfg, existing, stats):
-    """Download one RSS feed and save its new items."""
-    name, url = feed_cfg["name"], feed_cfg["url"]
-    default_cat, trusted = feed_cfg["category"], feed_cfg["trusted"]
-    lock = feed_cfg.get("lock", False)
-    is_reddit = "reddit.com" in url
-    is_hn = "ycombinator" in url or "hnrss" in url
-    reddit_map = _reddit_scores(url) if is_reddit else {}
-
-    # Try the main URL, then the backup URL (e.g. Bing News when Google
-    # News blocks cloud server IPs). One retry each.
-    urls = [url]
-    if feed_cfg.get("fallback"):
-        urls.append(feed_cfg["fallback"])
-
+def _download_feed(feed_cfg):
+    """NETWORK ONLY (thread-safe, no DB): download + parse a feed, trying the
+    main URL then the fallback (Bing News when Google News blocks cloud IPs),
+    one retry each. Returns (feed_cfg, parsed_or_None, reddit_map)."""
+    url = feed_cfg["url"]
+    reddit_map = _reddit_scores(url) if "reddit.com" in url else {}
+    urls = [url] + ([feed_cfg["fallback"]] if feed_cfg.get("fallback") else [])
     parsed = None
     for try_url in urls:
-        for attempt in (1, 2):
+        for _ in (1, 2):
             try:
                 resp = requests.get(try_url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
                 resp.raise_for_status()
                 parsed = feedparser.parse(resp.content)
-                break
+                if parsed.entries:
+                    break
             except Exception:
-                time.sleep(2)
+                parsed = None
+                time.sleep(1)
         if parsed is not None and parsed.entries:
             break
-    if parsed is None or not parsed.entries:
-        print(f"  [!] {name}: failed (all sources)")
-        stats["failed_feeds"].append(name)
-        return
+    return feed_cfg, parsed, reddit_map
+
+
+def _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats):
+    """DB phase (main thread): filter, de-dupe and save a downloaded feed's items."""
+    name = feed_cfg["name"]
+    default_cat, trusted = feed_cfg["category"], feed_cfg["trusted"]
+    lock = feed_cfg.get("lock", False)
+    is_reddit = "reddit.com" in feed_cfg["url"]
+    is_hn = "ycombinator" in feed_cfg["url"] or "hnrss" in feed_cfg["url"]
 
     new_count = 0
     for entry in parsed.entries[:30]:  # max 30 per feed per run
@@ -285,9 +287,18 @@ def run_fetch():
     stats = {"new": 0, "grouped": 0, "junk": 0, "not_ai": 0,
              "failed_feeds": [], "alerts": []}
 
-    print(f"Fetching {len(config.FEEDS)} feeds + HF papers ...")
-    for feed_cfg in config.FEEDS:
-        fetch_feed(conn, feed_cfg, existing, stats)
+    print(f"Fetching {len(config.FEEDS)} feeds in parallel (x{MAX_WORKERS}) + HF papers + NewsData ...")
+    t0 = time.time()
+    # 1) download + parse every feed concurrently (network-bound, no DB here)
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        downloaded = list(ex.map(_download_feed, config.FEEDS))
+    # 2) save serially on the main thread (SQLite + de-dup ordering)
+    for feed_cfg, parsed, reddit_map in downloaded:
+        if parsed is None or not parsed.entries:
+            stats["failed_feeds"].append(feed_cfg["name"])
+            continue
+        _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats)
+    print(f"  Feeds fetched in {time.time() - t0:.0f}s")
     fetch_hf_papers(conn, existing, stats)
     fetch_newsdata(conn, existing, stats)
 

@@ -141,10 +141,10 @@ FEEDS = [
     {"name": "Dwarkesh Podcast",   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXl4i9dYBrFOabk0xGmbkRA", "category": 3, "trusted": False, "lock": True},
 
     # ---------- Community & general (default: General News) ----------
-    {"name": "r/ChatGPT",          "url": "https://www.reddit.com/r/ChatGPT/top/.rss?t=day",          "category": 10, "trusted": True},
-    {"name": "r/LocalLLaMA",       "url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",       "category": 10, "trusted": True},
-    {"name": "r/artificial",       "url": "https://www.reddit.com/r/artificial/top/.rss?t=day",       "category": 10, "trusted": True},
+    # (Reddit .rss removed — Reddit 403-blocks server/cloud IPs, so it always
+    #  failed; Hacker News + Google News cover community signal instead.)
     {"name": "Hacker News AI",     "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=50",    "category": 10, "trusted": True},
+    {"name": "Hacker News new",    "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&count=30",     "category": 10, "trusted": False},
     news_search("Using AI To...",  '"using AI to"', 10),
 
     # ---------- AI media (AI-dedicated sections; verified live) ----------
