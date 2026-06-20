@@ -133,6 +133,17 @@ def recent_items(conn, hours):
     ).fetchall()
 
 
+def purge_old(conn, days):
+    """Delete news older than `days` (by when we saved it). Keeps the archive
+    lean. Returns how many rows were removed."""
+    if not days or days <= 0:
+        return 0
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    cur = conn.execute("DELETE FROM items WHERE fetched < ?", (cutoff,))
+    conn.commit()
+    return cur.rowcount
+
+
 def add_item(conn, title, url, source, pillar, published, upvotes=0, comments=0):
     cur = conn.execute(
         "INSERT OR IGNORE INTO items (title, url, source, pillar, published, fetched, upvotes, comments) "

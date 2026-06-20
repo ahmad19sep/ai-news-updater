@@ -219,6 +219,13 @@ def run_fetch():
     by_cat = database.count_by_pillar(conn, since_hours=24)
     for num, cname in config.CATEGORIES.items():
         print(f"  {cname}: {by_cat.get(num, 0)} in last 24h")
+    # --- Auto-delete old news (retention) ---
+    purged = database.purge_old(conn, getattr(config, "NEWS_RETENTION_DAYS", 7))
+    if purged:
+        print(f"  Purged {purged} story(ies) older than "
+              f"{getattr(config, 'NEWS_RETENTION_DAYS', 7)} days")
+    stats["purged"] = purged
+
     print(f"  Total stories in archive: {database.total_count(conn)}")
     print("=" * 52)
 

@@ -259,6 +259,11 @@ DIGEST_MAX_PER_PILLAR = 8
 # Your online dashboard (opens when you tap a digest notification).
 DASHBOARD_URL = "https://radar.hafizahmad.com/studio.html"
 
+# Auto-delete news older than this many days (keeps the archive lean). Runs on
+# every fetch cycle. Note: the Trends tab compares this week vs last week, so a
+# value below 14 limits its "last week" baseline.
+NEWS_RETENTION_DAYS = 7
+
 # ---- "Post this" nudges -------------------------------------------------
 # A gentle, action-oriented alert: every couple of hours (and instantly for a
 # big story) your phone gets "📲 Post this — <headline>". Tap it -> Studio opens.
