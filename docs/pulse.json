@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T05:20:09.933101+00:00",
+  "generated_at": "2026-06-21T10:06:53.694771+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,210 +8,153 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 41,
-      "hackernews": 14,
+      "reddit": 25,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore the potential of AI-generated images in your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT's image generation has an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3-BeCqEMLKw",
-          "signal": "World Cup Fever World Cup TropheyMakeover"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Designers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Claude Fable 5 is a powerful AI tool for generating human-like text and images.",
-      "audience_angle": "Unlock the potential of Claude Fable 5 to create engaging content and automate tasks.",
-      "linkedin_angle": "Discover how Claude Fable 5 can revolutionize your content creation and marketing strategies.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for users."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ub28f8/chatgpt_adult_mode_new_setting/",
-          "signal": "ChatGPT Adult Mode? - New Setting"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ACjwmGeDHFc",
-          "signal": "Why Anthropic's Claude Fable 5 & Mythos 5 Are Now Illegal (+15 AI Updates)"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude Fable 5: A Beginner's Guide",
-        "Claude Fable 5: The Ultimate Tool for Content Creators",
-        "Unlocking the Full Potential of Claude Fable 5"
+        "How to use ChatGPT Images 2.0 for marketing",
+        "Creating art with ChatGPT Images 2.0",
+        "The future of image generation with ChatGPT Images 2.0"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation allows users to create videos using AI-powered tools and models.",
-      "audience_angle": "Create stunning videos with just a few clicks using AI video generation tools.",
-      "linkedin_angle": "Explore how AI video generation can enhance your marketing and branding efforts.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=4CflbA7rYk8",
-          "signal": "Make Long AI Videos FREE One Click, Own Face, Lip Sync AI Video kase banaye"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning AI-Generated Videos",
-        "AI Video Generation: A Game-Changer for Marketers",
-        "Using AI Video Generation for Social Media Content"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT's image generation has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3-BeCqEMLKw",
-          "signal": "World Cup Fever World Cup TropheyMakeover"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Designers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Claude Fable 5 is a powerful AI tool for generating human-like text and images.",
-      "audience_angle": "Unlock the potential of Claude Fable 5 to create engaging content and automate tasks.",
-      "linkedin_angle": "Discover how Claude Fable 5 can revolutionize your content creation and marketing strategies.",
-      "local_relevance": 8,
+      "what_it_is": "Using AI to generate videos.",
+      "audience_angle": "Create your own videos with AI and take your content to the next level.",
+      "linkedin_angle": "Discover how AI video generation can enhance your business's visual content.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for users."
+        "note": "Affiliate programs available for AI video generation tools."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to make money with AI-generated videos",
+        "The best AI video generation tools for beginners",
+        "AI video generation for social media"
+      ]
+    },
+    {
+      "name": "ChatGPT for Trading",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using ChatGPT for trading and investment decisions.",
+      "audience_angle": "Use ChatGPT to make informed trading decisions and increase your profits.",
+      "linkedin_angle": "Explore the potential of AI in trading and investment strategies.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT for trading stocks",
+        "The benefits of using AI in trading",
+        "ChatGPT for investment decisions"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore the potential of AI-generated images in your marketing strategy.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ub28f8/chatgpt_adult_mode_new_setting/",
-          "signal": "ChatGPT Adult Mode? - New Setting"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ACjwmGeDHFc",
-          "signal": "Why Anthropic's Claude Fable 5 & Mythos 5 Are Now Illegal (+15 AI Updates)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude Fable 5: A Beginner's Guide",
-        "Claude Fable 5: The Ultimate Tool for Content Creators",
-        "Unlocking the Full Potential of Claude Fable 5"
+        "How to use ChatGPT Images 2.0 for marketing",
+        "Creating art with ChatGPT Images 2.0",
+        "The future of image generation with ChatGPT Images 2.0"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude Fable 5 users",
-      "signal_strength": 6,
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 5,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubgk6u/the_passport_gate_how_us_export_controls_shut/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ub28f8/chatgpt_adult_mode_new_setting/"
         }
       ],
-      "content_opportunity": "Workarounds for Claude Fable 5 usage limits: A tutorial"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Images 2.0, a new version of ChatGPT's image generation tool that allows users to create stunning images."
 }
