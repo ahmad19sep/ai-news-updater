@@ -29,22 +29,22 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pidzdURXJOTm9wRFhyandxaFk5YmlheEp4WmJGWk8wQjMydU9BQUNReGJacW52eFBna0pvaWk2Rm5GUHM2cjJJb0g0U0VteldLMEVFNzJVTURjVHdwdnczS09SeEEtdVRwVHU4M0xYZ2FLZ3pGMnUyNzJ5SnhKTC1DSEIwRWZwaUJ1Y2U3VjQ1NmlHRThZUmR6S3JoQkJaanc?oc=5
 2. **Nvidia's Huang pledges AI will boost manufacturing jobs. A test will come in Texas - WRAL** — Jensen Huang News — Score 93
    https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlpXZEw1VGF2ZWdoQld4RWdpRm1aNjhraU4yTzU4enNldWFSUUdaSjNFMXVYb2VjRENlWXIxV2xXQXdFQ2JDUlVsNUpaWEJ1dnlHSUVNZzN3YUZGOTZrTW4waTJWY3BhNWxYR05tbmZoaGJGQWE3Q2hmR0ttdGpXdUlSWGdyaW9yR0ktamNNaE9KMDMtVEo4b1Q3ZDdUSGVHRGhXc0dRRVVqdXRXb1o5UEZ4UTY0M1E?oc=5
-3. **Cybersecurity executives urge the Trump administration to ease restrictions on Anthropic AI models - Midland Reporter-Telegram** — Dario Amodei News — Score 83
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXZPQnJFVWRhalR5OE56eVZKSWtxcUIwck1maVFLSzNEQ05DMDk2VmRXdkl1MUdlb0pvSjR6dWdpNk9wc3gwbkZqY1FhbzhhRDJNZ0xhYjZmMThQS3M5ZGtDSmZlWGpuMDdNSVB1VWRQa0JZWER5NWZqZXMwa0pFeVFzV3NXcmQwblhqaVdGSEpDLWhkdkZ6akFn?oc=5
-4. **US judge dismisses Musk’s xAI trade secret lawsuit against OpenAI - Al Jazeera** — Sam Altman News — Score 58
-   https://news.google.com/rss/articles/CBMirAFBVV95cUxPTFhaaU5VQzRPVE80Z01ISjQtQ25RTDNncnl6MFFqTVg4UGJPUWFIbjVTbGN0cHV2SE1ZNlZzbjRqVHM0Y2h1ZG9KekxGMkVSZ1dIY0pyb1ZScEpQQWw3ZWUwVUQxUFUyNVpDanF2eTRfeTlCQzVjdjBwY0pDQThEUjY1M3dCZ2c0VXE3OG9ITjRiUnNtMkpmaG5FQ1pKRnkza2MydUl4d2lvZS0y0gGyAUFVX3lxTFBnLW8xTkFtX0N0UHRQSV8tZGhBdWE4N1RISXZKUDBjWFZPMjZneHNad0N5N3Q4OUdQVWV3Skhha3NyQS1HdTRxcUY0TUJGTHFLVHZYUFdNdDdOUnJkLW1Fd0lyX2VGbkM2N3B4cDE3bURkT2ZkREdZMktVVmUwWWhQSmRIendhd2dvYnFYVE54OFhOcXE0Q0c0cWU0NThKZ0dDUWlGQk1FMnRhZFRoSzY0M3c?oc=5
-5. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 53
+3. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMiugJBVV95cUxQOHlSVzU1OVI4QWZyYmhqcmx0VFoxNmJZNlF3aUJXY2szRS11b2NEUTN3YzNaaUZ5SkhLaUVpQThSVlExamZXT24xLWhUSVZlZWFPTmRPZ2ZGQ2hQV1FfV3h4bVkyNE5mMVZ6Mm5nUXdtc1hVTFpJUUdNYlVlT2JzT3pCaDRKRzlKdzRINjd6M2VTY2tIZ2lGb3BUcTZkb29uU21wUVRWOGZqUmYtNm1RQlhvdlJmSHZUTF9SR1ROYWV6WkxIZG5kYUVMNzdnVTJVTXFNNTRhUkpOY3pqM090Wmx5OVNScWFXWDhualVITTBHSUZIT29PS0JkZE9lbVd3WmpQTGFEVnhfY0VhdTJ0cGZUbHFEV3hPZE56NVRVUV8yVW1TdGdzeVNNZWNXaS1PNzlxODhfM3k3QQ?oc=5
-6. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
+4. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOTHJEWURVbXBpUTM4S28zR3NTNEVpRndlM3hSdUMzRURzb004bEVrcHlUTC1aMWVhUmxPT3hUVEFhR1B4NUY3VEJqT29wMzdOSUZRQUQyRXgtZUxTSEoteXAyR0Y3S2sxa2FFOWphMjRFbzBqUHZnbEZvNXFOMEkya2RzZGo3dmtWaVc1eDFrSkN2MGpNWXJZUFlOa3I?oc=5
-7. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
+5. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uMFlMQU5FdGo1YXpqclg0dWlqR0R5cjRtQmZxLTkzYi1fV2lnRlBpekV2NjRVdFY3OFRjQlljM2s5VVhsTHE5aFZlSmszWXc?oc=5
-8. **Exclusive | Microsoft’s Satya Nadella: We Can’t Let AI Giants Eat the Economy - WSJ** — Satya Nadella News — Score 50
+6. **Exclusive | Microsoft’s Satya Nadella: We Can’t Let AI Giants Eat the Economy - WSJ** — Satya Nadella News — Score 50
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW1mUi1WMDBVS2RxVVp1bEpLSmcwWnZoWU9qS1FqY3lGRXBmQjhwZElGNlk2T3lEVEREbFdUNWpBYkdvTDlyaXIwdnhCVXVyaFplVlFzMFZqQVRtVTFlMmo5V0V2VFlSQVBpSnpqdmlnQy1qUG5KY1J0RjZ3ODdDQ05wVnFDQnZtb1F6Y3pzS0dxcGhQZzBuamVGa1F6cGps?oc=5
-9. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
+7. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
-10. **SpaceX buys AI coding start-up Cursor for $60bn days after IPO - BBC** — Elon Musk AI News — Score 43
+8. **SpaceX buys AI coding start-up Cursor for $60bn days after IPO - BBC** — Elon Musk AI News — Score 43
    https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxMXR6QXdrd3J1QTd0UUUzM1FvVEZVM2p1eGpFYkFOWE9HRFkzaEJHcWU2d05SVjBCXzNVZ3gwdklvbllnZ0RXRXJ5UGtFR2lRMnU3eWFXTlZSUQ?oc=5
+9. **AI executives gather at G7 as Europeans seek checks on American dominance - WKMG** — Sam Altman News — Score 43
+   https://news.google.com/rss/articles/CBMiwAFBVV95cUxPanNiOHN1ci14RGFSUTRmdlluNm5lZjZHcTdPbkRrbVFubURXcmlrRzZNREZYNVV1eUZ4ZTY0NmpjV3dRdlZiRmxXb3V5TTd4Qzhkd3hRTlNEUmExZTNKQUx4RVdQc3pLclNIcllEVEE0Mnl0VzQ0MmJjaXVDdjExWXBRM2YxYkJyLW1uejgwSGxMbDVkbzV6cVRnLUlIOE0xVldIV0FGS0tZdkxJc09LcmQ5SV9oQjNDLTN6ZkpyZC0?oc=5
+10. **Dario Amodei on why he left Sam Altman and OpenAI: 'Why argue with someone' when you 'don't trust them' - Business Insider** — Sam Altman News — Score 43
+   https://news.google.com/rss/articles/CBMimgFBVV95cUxOd0RTdFV4c0NSQmU2S1FLM054aEhQYVI0SlpOZEJXVEowR0pnamF2R0FRdkpLaWJkZXo3aGFILWdfdGJnSFVsMUFubzZsV2xDS0VTRmEwN1RSeFdQSUY5T1MyYzVFTVRwN29EdG5HcVVqUDhvT0VUbnh6bERJaG5vTC15SHp0eXNxUnhBdjZRdTgxX0trTGROU3ln?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2238
+- Total stories tracked: 2237
 - Most active topic: anthropic
 - Busiest category: AI General News
 
