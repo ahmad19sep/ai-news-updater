@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 14 Jun 2026 to 21 Jun 2026
+# 🗞️ AI THIS WEEK — 15 Jun 2026 to 22 Jun 2026
 
 ## 🔥 Biggest Story of the Week
 **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2117
+- Total stories tracked: 2135
 - Most active topic: anthropic
 - Busiest category: AI General News
 
