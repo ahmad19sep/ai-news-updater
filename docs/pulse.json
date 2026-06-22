@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T12:27:55.074999+00:00",
+  "generated_at": "2026-06-22T21:15:28.522650+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,350 +9,176 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 13,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create stunning images with the power of AI.",
-      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
+      "what_it_is": "ChatGPT is a conversational AI model that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even create art.",
+      "linkedin_angle": "Learn how to leverage ChatGPT to boost your productivity and creativity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for developers and content creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
           "signal": "40"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
-      ]
-    },
-    {
-      "name": "Apertus",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "An open foundation model for sovereign AI.",
-      "audience_angle": "Take control of your AI solutions with Apertus.",
-      "linkedin_angle": "Discover how Apertus can help you achieve AI sovereignty.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://apertvs.ai/",
-          "signal": "585"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Introduction to Apertus: The Open Foundation Model for Sovereign AI",
-        "How Apertus Can Help You Achieve AI Sovereignty",
-        "Apertus vs. Other AI Models: A Comparison"
+        "10 Ways to Use ChatGPT to Automate Your Workflow",
+        "How to Create Art with ChatGPT",
+        "ChatGPT Tutorial for Beginners"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to generate videos.",
-      "audience_angle": "Create stunning videos with the power of AI.",
-      "linkedin_angle": "Leverage AI-generated videos to enhance your professional content.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI to Generate Videos for Your Business",
-        "The Best AI Video Generation Tools for Beginners",
-        "Creating Stunning Videos with AI: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent",
-      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "A tool that uses ChatGPT to generate content.",
-      "audience_angle": "Create content with the power of ChatGPT.",
-      "linkedin_angle": "Leverage ChatGPT to enhance your content creation.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to ChatGPT Agent: The Ultimate Content Creation Tool",
-        "How to Use ChatGPT Agent for Your Business",
-        "ChatGPT Agent vs. Other Content Creation Tools: A Comparison"
-      ]
-    },
-    {
-      "name": "AI Music Generation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to generate music.",
-      "audience_angle": "Create stunning music with the power of AI.",
-      "linkedin_angle": "Leverage AI-generated music to enhance your professional content.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI music generation tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+music+generation",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI to Generate Music for Your Business",
-        "The Best AI Music Generation Tools for Beginners",
-        "Creating Stunning Music with AI: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A tool that uses AI to generate content.",
-      "audience_angle": "Create content with the power of Claude AI.",
-      "linkedin_angle": "Leverage Claude AI to enhance your content creation.",
+      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create stunning videos for your business or personal projects.",
+      "linkedin_angle": "Discover how AI video generation can help you create engaging content for your audience.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools offer affiliate programs for content creators."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=claude+ai",
+          "url": "https://www.youtube.com/watch?v=Zt1nVY2m65U",
           "signal": "0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uc0kuu/lego_ai_data_center/",
+          "signal": "22"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude AI: The Ultimate Content Creation Tool",
-        "How to Use Claude AI for Your Business",
-        "Claude AI vs. Other Content Creation Tools: A Comparison"
+        "How to Create a Viral Video with AI",
+        "AI Video Generation Tutorial for Beginners",
+        "5 AI Video Generation Tools to Try"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "technique",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "AI agents are programs that use artificial intelligence to perform tasks on behalf of users.",
+      "audience_angle": "You can use AI agents to automate repetitive tasks and boost your productivity.",
+      "linkedin_angle": "Learn how to leverage AI agents to streamline your workflow and increase efficiency.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI agent platforms offer affiliate programs for developers and content creators."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=D6Cfjy83MQA",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.hackernews.com/",
+          "signal": "111"
+        }
+      ],
+      "content_ideas": [
+        "10 Ways to Use AI Agents to Automate Your Workflow",
+        "How to Create an AI Agent with Python",
+        "AI Agent Tutorial for Beginners"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create stunning images with the power of AI.",
-      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
+      "what_it_is": "ChatGPT is a conversational AI model that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even create art.",
+      "linkedin_angle": "Learn how to leverage ChatGPT to boost your productivity and creativity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for developers and content creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
           "signal": "40"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
-      ]
-    },
-    {
-      "name": "Apertus",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "An open foundation model for sovereign AI.",
-      "audience_angle": "Take control of your AI solutions with Apertus.",
-      "linkedin_angle": "Discover how Apertus can help you achieve AI sovereignty.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://apertvs.ai/",
-          "signal": "585"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Apertus: The Open Foundation Model for Sovereign AI",
-        "How Apertus Can Help You Achieve AI Sovereignty",
-        "Apertus vs. Other AI Models: A Comparison"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A tool that uses AI to generate content.",
-      "audience_angle": "Create content with the power of Claude AI.",
-      "linkedin_angle": "Leverage Claude AI to enhance your content creation.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=claude+ai",
+          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
           "signal": "0"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude AI: The Ultimate Content Creation Tool",
-        "How to Use Claude AI for Your Business",
-        "Claude AI vs. Other Content Creation Tools: A Comparison"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A tool that uses ChatGPT to generate content.",
-      "audience_angle": "Create content with the power of ChatGPT.",
-      "linkedin_angle": "Leverage ChatGPT to enhance your content creation.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to ChatGPT Agent: The Ultimate Content Creation Tool",
-        "How to Use ChatGPT Agent for Your Business",
-        "ChatGPT Agent vs. Other Content Creation Tools: A Comparison"
+        "10 Ways to Use ChatGPT to Automate Your Workflow",
+        "How to Create Art with ChatGPT",
+        "ChatGPT Tutorial for Beginners"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "who_affected": "Developers and content creators",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubuibq/is_this_14000_chatgpt_pro_thing_actually_real_and/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uc77uq/yesterday_chatgpt_deleted_elevene_images_from_my/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: A Step-by-Step Guide"
-    },
-    {
-      "problem": "AI-generated content detection",
-      "who_affected": "Content creators",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xtvGxR-z5HA"
-        }
-      ],
-      "content_opportunity": "How to Detect AI-Generated Content: A Guide for Content Creators"
+      "content_opportunity": "How to overcome ChatGPT usage limits and create content efficiently."
     }
   ],
-  "tool_of_week_candidate": "Apertus"
+  "tool_of_week_candidate": "ChatGPT"
 }
