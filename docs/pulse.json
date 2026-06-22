@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:33:12.696009+00:00",
+  "generated_at": "2026-06-22T12:27:55.074999+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 15,
+      "reddit": 25,
+      "hackernews": 13,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,65 +22,59 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business's visual content needs.",
+      "what_it_is": "A tool that generates images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
         "How to Use ChatGPT Images 2.0 for Your Business",
-        "Creating Stunning Images with ChatGPT Images 2.0",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
         "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Apertus",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a powerful AI tool for content creation and automation.",
-      "audience_angle": "You can use Claude AI to automate your content creation and save time.",
-      "linkedin_angle": "Discover how Claude AI can help you streamline your content creation process.",
+      "what_it_is": "An open foundation model for sovereign AI.",
+      "audience_angle": "Take control of your AI solutions with Apertus.",
+      "linkedin_angle": "Discover how Apertus can help you achieve AI sovereignty.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5tgHMa2Z3jc",
-          "signal": "From Zero to Claude Code in 19 Minutes (no code)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1ubvt62/claude_sonnet_5_spotted_release_expected_next_week/",
-          "signal": "Claude Sonnet 5 Spotted, Release Expected Next Week"
+          "platform": "hackernews",
+          "url": "https://apertvs.ai/",
+          "signal": "585"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "How to Use Claude AI for Content Creation and Automation",
-        "Claude AI Review: Is it the Best AI Tool for Your Business?"
+        "Introduction to Apertus: The Open Foundation Model for Sovereign AI",
+        "How Apertus Can Help You Achieve AI Sovereignty",
+        "Apertus vs. Other AI Models: A Comparison"
       ]
     },
     {
@@ -90,127 +84,121 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows you to create videos using AI.",
-      "audience_angle": "You can use AI video generation to create stunning videos for your projects.",
-      "linkedin_angle": "Learn how to leverage AI video generation for your business's video content needs.",
+      "what_it_is": "Using AI to generate videos.",
+      "audience_angle": "Create stunning videos with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated videos to enhance your professional content.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools have affiliate programs"
+        "note": "Some AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7xPD8cQciKg",
-          "signal": "Daily Ai Videos ➡️ Part - 2 🤖 | এ আই ভিডিও #ai #shorts #naimaiworld #aivideo  @naimtheonlyone"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation",
-        "The Future of Video Creation: AI Video Generation Review",
-        "Using AI Video Generation for Your Business: A Step-by-Step Guide"
+        "How to Use AI to Generate Videos for Your Business",
+        "The Best AI Video Generation Tools for Beginners",
+        "Creating Stunning Videos with AI: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI Agents",
-      "category": "use_case",
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI agents are AI-powered tools that can perform tasks on your behalf.",
-      "audience_angle": "You can use AI agents to automate your tasks and save time.",
-      "linkedin_angle": "Discover how AI agents can help you streamline your workflow and increase productivity.",
+      "what_it_is": "A tool that uses ChatGPT to generate content.",
+      "audience_angle": "Create content with the power of ChatGPT.",
+      "linkedin_angle": "Leverage ChatGPT to enhance your content creation.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "AI agent tools have affiliate programs"
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=BOXK2XFLA-E",
-          "signal": "Don't build more AI agents until you watch this"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1uc2gd0/its_always_funny_to_see_people_on_chinese_social/",
-          "signal": "it's always funny to see people on Chinese social media genuinely don't understand the AI hate on western social media."
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI Agents: A Beginner's Guide",
-        "How to Use AI Agents for Task Automation and Productivity",
-        "AI Agents Review: Are They the Future of Task Automation?"
+        "Introduction to ChatGPT Agent: The Ultimate Content Creation Tool",
+        "How to Use ChatGPT Agent for Your Business",
+        "ChatGPT Agent vs. Other Content Creation Tools: A Comparison"
       ]
     },
     {
-      "name": "Higgsfield AI",
-      "category": "tool_launch",
+      "name": "AI Music Generation",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Higgsfield AI is a powerful AI tool for content creation and automation.",
-      "audience_angle": "You can use Higgsfield AI to automate your content creation and save time.",
-      "linkedin_angle": "Discover how Higgsfield AI can help you streamline your content creation process.",
+      "what_it_is": "Using AI to generate music.",
+      "audience_angle": "Create stunning music with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated music to enhance your professional content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Higgsfield AI has an affiliate program"
+        "note": "Some AI music generation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=wU_bmWb6bhg",
-          "signal": "I Used Higgsfield AI + Claude to Build a $39,500/Month Faceless Channel"
+          "url": "https://www.youtube.com/results?search_query=ai+music+generation",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Getting Started with Higgsfield AI: A Beginner's Guide",
-        "How to Use Higgsfield AI for Content Creation and Automation",
-        "Higgsfield AI Review: Is it the Best AI Tool for Your Business?"
+        "How to Use AI to Generate Music for Your Business",
+        "The Best AI Music Generation Tools for Beginners",
+        "Creating Stunning Music with AI: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI for Business",
-      "category": "use_case",
+      "name": "Claude AI",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI for business refers to the use of AI technologies to improve business operations and decision-making.",
-      "audience_angle": "You can use AI to improve your business operations and increase revenue.",
-      "linkedin_angle": "Discover how AI can help you streamline your business operations and increase productivity.",
+      "what_it_is": "A tool that uses AI to generate content.",
+      "audience_angle": "Create content with the power of Claude AI.",
+      "linkedin_angle": "Leverage Claude AI to enhance your content creation.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "AI business tools have affiliate programs"
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KKWS0bSiCT4",
-          "signal": "How I Build Apps SOLO That ACTUALLY Make Money in 2026"
+          "url": "https://www.youtube.com/results?search_query=claude+ai",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Business: A Beginner's Guide",
-        "The Future of Business: AI for Business Review",
-        "Using AI for Business: A Step-by-Step Guide"
+        "Introduction to Claude AI: The Ultimate Content Creation Tool",
+        "How to Use Claude AI for Your Business",
+        "Claude AI vs. Other Content Creation Tools: A Comparison"
       ]
     }
   ],
@@ -222,59 +210,59 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create stunning images for your projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business's visual content needs.",
+      "what_it_is": "A tool that generates images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
         "How to Use ChatGPT Images 2.0 for Your Business",
-        "Creating Stunning Images with ChatGPT Images 2.0",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
         "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Higgsfield AI",
+      "name": "Apertus",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Higgsfield AI is a powerful AI tool for content creation and automation.",
-      "audience_angle": "You can use Higgsfield AI to automate your content creation and save time.",
-      "linkedin_angle": "Discover how Higgsfield AI can help you streamline your content creation process.",
-      "local_relevance": 5,
+      "what_it_is": "An open foundation model for sovereign AI.",
+      "audience_angle": "Take control of your AI solutions with Apertus.",
+      "linkedin_angle": "Discover how Apertus can help you achieve AI sovereignty.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Higgsfield AI has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=wU_bmWb6bhg",
-          "signal": "I Used Higgsfield AI + Claude to Build a $39,500/Month Faceless Channel"
+          "platform": "hackernews",
+          "url": "https://apertvs.ai/",
+          "signal": "585"
         }
       ],
       "content_ideas": [
-        "Getting Started with Higgsfield AI: A Beginner's Guide",
-        "How to Use Higgsfield AI for Content Creation and Automation",
-        "Higgsfield AI Review: Is it the Best AI Tool for Your Business?"
+        "Introduction to Apertus: The Open Foundation Model for Sovereign AI",
+        "How Apertus Can Help You Achieve AI Sovereignty",
+        "Apertus vs. Other AI Models: A Comparison"
       ]
     },
     {
@@ -282,52 +270,89 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "Claude AI is a powerful AI tool for content creation and automation.",
-      "audience_angle": "You can use Claude AI to automate your content creation and save time.",
-      "linkedin_angle": "Discover how Claude AI can help you streamline your content creation process.",
+      "what_it_is": "A tool that uses AI to generate content.",
+      "audience_angle": "Create content with the power of Claude AI.",
+      "linkedin_angle": "Leverage Claude AI to enhance your content creation.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5tgHMa2Z3jc",
-          "signal": "From Zero to Claude Code in 19 Minutes (no code)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1ubvt62/claude_sonnet_5_spotted_release_expected_next_week/",
-          "signal": "Claude Sonnet 5 Spotted, Release Expected Next Week"
+          "url": "https://www.youtube.com/results?search_query=claude+ai",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "How to Use Claude AI for Content Creation and Automation",
-        "Claude AI Review: Is it the Best AI Tool for Your Business?"
+        "Introduction to Claude AI: The Ultimate Content Creation Tool",
+        "How to Use Claude AI for Your Business",
+        "Claude AI vs. Other Content Creation Tools: A Comparison"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A tool that uses ChatGPT to generate content.",
+      "audience_angle": "Create content with the power of ChatGPT.",
+      "linkedin_angle": "Leverage ChatGPT to enhance your content creation.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to ChatGPT Agent: The Ultimate Content Creation Tool",
+        "How to Use ChatGPT Agent for Your Business",
+        "ChatGPT Agent vs. Other Content Creation Tools: A Comparison"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage/token limits hitting users hard",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubtpfj/why_is_chatgpt_rejecting_almost_every_image/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubuibq/is_this_14000_chatgpt_pro_thing_actually_real_and/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits: A workaround guide"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits: A Step-by-Step Guide"
+    },
+    {
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xtvGxR-z5HA"
+        }
+      ],
+      "content_opportunity": "How to Detect AI-Generated Content: A Guide for Content Creators"
     }
   ],
-  "tool_of_week_candidate": "Claude AI"
+  "tool_of_week_candidate": "Apertus"
 }
