@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
 4. **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
-5. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
+5. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2hyMlFMRnk0YVZocDNRdWY4TTd5cTBESzREQXZ1U25rNzNVVlJZWGFTaU55dmZzWjliMUFBUUVzWWlZT3I1T0o5eHY1ajM3RmxPTWVIaE40aDgwLXFXcjFCNnlWRUNyV3NRWnZ2WE5qcElWX0hfSkRYLUFpLXFxYmV0SVg?oc=5
+6. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
-6. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
+7. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
-7. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
+8. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWZEUGNEUkJJOGx3a0E0QkFXdlY1TlltMVAzMnhyd05HTk9LMkhrYTNwSml5SjhtXzZQWTB2dURmSlcwbk94UXBnTVJXTXJ4WEswc2c0N2pMR1M4MVVCVnVLZVVhUjVSb3d6MFYtNkFaN1pDOFNLcFJldmhBeHlRSzM1UzI?oc=5
-8. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE** — Jensen Huang News — Score 163
@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
    https://news.google.com/rss/articles/CBMiugJBVV95cUxQOHlSVzU1OVI4QWZyYmhqcmx0VFoxNmJZNlF3aUJXY2szRS11b2NEUTN3YzNaaUZ5SkhLaUVpQThSVlExamZXT24xLWhUSVZlZWFPTmRPZ2ZGQ2hQV1FfV3h4bVkyNE5mMVZ6Mm5nUXdtc1hVTFpJUUdNYlVlT2JzT3pCaDRKRzlKdzRINjd6M2VTY2tIZ2lGb3BUcTZkb29uU21wUVRWOGZqUmYtNm1RQlhvdlJmSHZUTF9SR1ROYWV6WkxIZG5kYUVMNzdnVTJVTXFNNTRhUkpOY3pqM090Wmx5OVNScWFXWDhualVITTBHSUZIT29PS0JkZE9lbVd3WmpQTGFEVnhfY0VhdTJ0cGZUbHFEV3hPZE56NVRVUV8yVW1TdGdzeVNNZWNXaS1PNzlxODhfM3k3QQ?oc=5
 5. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOTHJEWURVbXBpUTM4S28zR3NTNEVpRndlM3hSdUMzRURzb004bEVrcHlUTC1aMWVhUmxPT3hUVEFhR1B4NUY3VEJqT29wMzdOSUZRQUQyRXgtZUxTSEoteXAyR0Y3S2sxa2FFOWphMjRFbzBqUHZnbEZvNXFOMEkya2RzZGo3dmtWaVc1eDFrSkN2MGpNWXJZUFlOa3I?oc=5
-6. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
+6. **Canon Business Services launches AI security advisory** — itbrief_com_au — Score 51
+   https://itbrief.com.au/story/canon-business-services-launches-ai-security-advisory
+7. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uMFlMQU5FdGo1YXpqclg0dWlqR0R5cjRtQmZxLTkzYi1fV2lnRlBpekV2NjRVdFY3OFRjQlljM2s5VVhsTHE5aFZlSmszWXc?oc=5
-7. **Exclusive | Microsoft’s Satya Nadella: We Can’t Let AI Giants Eat the Economy - WSJ** — Satya Nadella News — Score 50
+8. **Exclusive | Microsoft’s Satya Nadella: We Can’t Let AI Giants Eat the Economy - WSJ** — Satya Nadella News — Score 50
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW1mUi1WMDBVS2RxVVp1bEpLSmcwWnZoWU9qS1FqY3lGRXBmQjhwZElGNlk2T3lEVEREbFdUNWpBYkdvTDlyaXIwdnhCVXVyaFplVlFzMFZqQVRtVTFlMmo5V0V2VFlSQVBpSnpqdmlnQy1qUG5KY1J0RjZ3ODdDQ05wVnFDQnZtb1F6Y3pzS0dxcGhQZzBuamVGa1F6cGps?oc=5
-8. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
+9. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
-9. **SpaceX signs computing power deal with open-source AI startup Reflection worth up to $6.3 billion - CNBC** — Elon Musk AI News — Score 46
+10. **SpaceX signs computing power deal with open-source AI startup Reflection worth up to $6.3 billion - CNBC** — Elon Musk AI News — Score 46
    https://news.google.com/rss/articles/CBMihAFBVV95cUxPSVg2LUhMRlRXMWJGbkUxTXY4VzRCbEJocGxrSVVaNV8yUFhtUC1oTjdNMGgtRU9vVldzbWY5WHBrdGhtXzJidkNsMlVFeDhTa1Bodkl6SHAzeXpZckRVdElpejRzajQyWjBWQzllZ0JNU2FCQlZtY0I3bVczbkxxS2lSemg?oc=5
-10. **SpaceX buys AI coding start-up Cursor for $60bn days after IPO - BBC** — Elon Musk AI News — Score 43
-   https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxMXR6QXdrd3J1QTd0UUUzM1FvVEZVM2p1eGpFYkFOWE9HRFkzaEJHcWU2d05SVjBCXzNVZ3gwdklvbllnZ0RXRXJ5UGtFR2lRMnU3eWFXTlZSUQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2343
+- Total stories tracked: 2424
 - Most active topic: anthropic
 - Busiest category: AI General News
 
