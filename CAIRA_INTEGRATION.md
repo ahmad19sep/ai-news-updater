@@ -71,8 +71,14 @@ Caira: verify the bearer token; if `external_id` already imported return `200
 `news_score=score`, `radar_external_id=external_id`, notes = `source • category •
 score` + summary. Return any `2xx`.
 
-> `assignee` is normally already chosen by AI Radar (load-balanced). If it's empty,
-> Caira may assign it itself; either way honor a non-empty `assignee`.
+> **Fully automatic assignment (important).** AI Radar usually sends `assignee = ""`
+> (blank). When it's blank, **Caira must auto-assign the task to whichever current
+> workspace member has the FEWEST open tasks** — and just honor a non-empty `assignee`
+> when one is given. This way it scales to **any number of workers** with zero config
+> on AI Radar's side: add or remove workers in the workspace and balancing keeps
+> working automatically. (If `/api/pending-counts` returns every member with a count,
+> AI Radar will balance too — but Caira owning the assignment is what makes "however
+> many I add" just work.)
 
 ## 3. Endpoint B — pending counts   `GET /api/pending-counts`
 
@@ -199,9 +205,19 @@ export default async function handler(req: Request) {
   const b = await req.json()
   const { data: dup } = await admin.from('videos').select('id').eq('radar_external_id', b.external_id).maybeSingle()
   if (dup) return Response.json({ status: 'duplicate' })
+  // FULLY AUTO: if no assignee given, give it to the member with the fewest open tasks.
+  let assignee = b.assignee || null
+  if (!assignee) {
+    const { data: members } = await admin.from('workspace_members').select('user_id,email').eq('workspace_id', WS)
+    const { data: open } = await admin.from('videos').select('assignee').eq('workspace_id', WS).neq('stage', 'Publishing')
+    const load: Record<string, number> = {}
+    for (const m of members || []) load[m.email || m.user_id] = 0
+    for (const o of open || []) if (o.assignee) load[o.assignee] = (load[o.assignee] || 0) + 1
+    assignee = Object.keys(load).sort((a, c) => load[a] - load[c])[0] || null   // freest member
+  }
   const { error } = await admin.from('videos').insert({
     workspace_id: WS, kind: 'post', title: b.title, stage: 'Idea',
-    assignee: b.assignee || null, platform: 'All',
+    assignee, platform: 'All',
     priority: b.score >= 14 ? 'High' : 'Medium',
     notes: `${b.source} • ${b.category} • score ${b.score}\n${b.summary || ''}`,
     master_prompt: b.prompt, source_url: b.url, news_score: b.score,

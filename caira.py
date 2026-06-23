@@ -184,11 +184,13 @@ def _drain_manual_queue(conn):
         if not it or not it.get("url"):
             continue
         item = _normalize_pick(it)
-        ed = it.get("assignee") or pick_editor(counts)
-        if ed and create_task(item, build_master_prompt(item), ed):
-            counts[ed] = counts.get(ed, 0) + 1   # keep balancing within this run
+        # blank assignee -> Caira load-balances across ALL its workers itself
+        ed = it.get("assignee") or pick_editor(counts) or ""
+        if create_task(item, build_master_prompt(item), ed):
+            if ed:
+                counts[ed] = counts.get(ed, 0) + 1   # keep balancing within this run
             n += 1
-            print(f"  [>] Caira (manual) -> {ed}: {item['title'][:55]}")
+            print(f"  [>] Caira (manual) -> {ed or 'auto'}: {item['title'][:55]}")
         try:
             requests.delete(base + "/caira_queue/" + key + ".json", timeout=TIMEOUT)
         except Exception:
@@ -215,15 +217,16 @@ def dispatch(conn):
              if p["score"] >= target and p["url"] not in sent]
     made = 0
     for p in picks[:cap]:
-        ed = pick_editor(counts)
-        if not ed:
-            break
+        # If Caira tells us who's free, balance here; otherwise send blank and
+        # let Caira distribute across all its workers (scales to any number).
+        ed = pick_editor(counts) or ""
         item = _normalize_pick(p)
         if create_task(item, build_master_prompt(item), ed):
-            counts[ed] = counts.get(ed, 0) + 1
+            if ed:
+                counts[ed] = counts.get(ed, 0) + 1
             sent.add(p["url"])
             made += 1
-            print(f"  [>] Caira -> {ed} (score {p['score']}): {p['title'][:55]}")
+            print(f"  [>] Caira -> {ed or 'auto'} (score {p['score']}): {p['title'][:55]}")
 
     if made:
         database.set_meta(conn, "caira_sent", json.dumps(list(sent)[-400:]))
