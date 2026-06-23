@@ -27,8 +27,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AP Exclusive: Nvidia's Jensen Huang says society needs 'new social norms' in the age of AI - SFGATE** — Jensen Huang News — Score 163
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pidzdURXJOTm9wRFhyandxaFk5YmlheEp4WmJGWk8wQjMydU9BQUNReGJacW52eFBna0pvaWk2Rm5GUHM2cjJJb0g0U0VteldLMEVFNzJVTURjVHdwdnczS09SeEEtdVRwVHU4M0xYZ2FLZ3pGMnUyNzJ5SnhKTC1DSEIwRWZwaUJ1Y2U3VjQ1NmlHRThZUmR6S3JoQkJaanc?oc=5
-2. **Nvidia's Huang pledges AI will boost manufacturing jobs. A test will come in Texas - WRAL** — Jensen Huang News — Score 93
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlpXZEw1VGF2ZWdoQld4RWdpRm1aNjhraU4yTzU4enNldWFSUUdaSjNFMXVYb2VjRENlWXIxV2xXQXdFQ2JDUlVsNUpaWEJ1dnlHSUVNZzN3YUZGOTZrTW4waTJWY3BhNWxYR05tbmZoaGJGQWE3Q2hmR0ttdGpXdUlSWGdyaW9yR0ktamNNaE9KMDMtVEo4b1Q3ZDdUSGVHRGhXc0dRRVVqdXRXb1o5UEZ4UTY0M1E?oc=5
+2. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 86
+   https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
 3. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 66
    https://newschannel9.com/news/spotlight-on-america/as-ai-fuels-a-data-center-boom-communities-across-america-are-pushing-back
 4. **Nvidia's Jensen Huang tells AP coming AI revolution will require 'new social norms,' defending the disruptive technology - KVUE** — Jensen Huang News — Score 53
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTnoxNUJFQ0pid
 - **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2424
+- Total stories tracked: 2465
 - Most active topic: anthropic
 - Busiest category: AI General News
 
