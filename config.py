@@ -323,6 +323,21 @@ DASHBOARD_URL = "https://radar.hafizahmad.com/studio.html"
 # value below 14 limits its "last week" baseline.
 NEWS_RETENTION_DAYS = 7
 
+# ---- Caira (worker task app) auto-dispatch ----------------------------------
+# When a fresh story scores >= CAIRA_SCORE_TARGET it is automatically created as
+# a task in Caira, assigned to whichever editor has the FEWEST pending tasks
+# (load balancing). Runs every fetch cycle (server-side). It needs Caira's API:
+#   CAIRA_API_URL  -> base url (here or via the CAIRA_API_URL env/secret)
+#   CAIRA_API_KEY  -> via GitHub secret / local caira_key.txt (never in code)
+# Caira must expose two endpoints (see caira.py docstring for the exact shapes):
+#   GET  {url}/pending-counts   -> {"<editorId>": <openTaskCount>, ...}
+#   POST {url}/tasks            -> create one task (returns 2xx)
+CAIRA_ENABLED = True
+CAIRA_SCORE_TARGET = 10            # only genuinely big stories auto-dispatch
+CAIRA_EDITORS = ["boy1", "boy2"]   # your editor ids in Caira (load-balanced)
+CAIRA_MAX_PER_RUN = 6              # safety cap: tasks created per fetch cycle
+CAIRA_API_URL = ""                # e.g. "https://your-caira.app/api"
+
 # ---- "Post this" nudges -------------------------------------------------
 # A gentle, action-oriented alert: every couple of hours (and instantly for a
 # big story) your phone gets "📲 Post this — <headline>". Tap it -> Studio opens.

@@ -314,6 +314,15 @@ def run_fetch():
     by_cat = database.count_by_pillar(conn, since_hours=24)
     for num, cname in config.CATEGORIES.items():
         print(f"  {cname}: {by_cat.get(num, 0)} in last 24h")
+    # --- Auto-dispatch high-scoring stories to Caira (load-balanced) ---
+    try:
+        import caira
+        n_caira = caira.dispatch(conn)
+        if n_caira:
+            print(f"  Caira: {n_caira} task(s) created")
+    except Exception as e:
+        print(f"  [!] Caira dispatch skipped: {type(e).__name__}")
+
     # --- Auto-delete old news (retention) ---
     purged = database.purge_old(conn, getattr(config, "NEWS_RETENTION_DAYS", 7))
     if purged:

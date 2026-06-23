@@ -26,6 +26,8 @@ jobs:
       SITE_PASSCODE: ${{ secrets.SITE_PASSCODE }}  # studio access code (hash goes in page)
       FIREBASE_URL: ${{ secrets.FIREBASE_URL }}    # Realtime DB URL, baked in so devices auto-connect
       NEWSDATA_KEY: ${{ secrets.NEWSDATA_KEY }}    # NewsData.io API key (breaking-news firehose)
+      CAIRA_API_URL: ${{ secrets.CAIRA_API_URL }}  # Caira base API url (auto-dispatch high-score tasks)
+      CAIRA_API_KEY: ${{ secrets.CAIRA_API_KEY }}  # Caira API token (kept secret)
     steps:
       - uses: actions/checkout@v5
 

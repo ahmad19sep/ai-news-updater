@@ -1073,6 +1073,23 @@ async function pushPosted(sig) {
       headers: { "Content-Type": "application/json" }, body: JSON.stringify(remote) });
   } catch (e) {}
 }
+/* Manual "Send to Caira": queue the story in Firebase; the hourly server job
+   picks the least-busy editor and creates the Caira task. Then tick it (and its
+   duplicates) done so it leaves the feed. */
+function cairaSend(it) {
+  if (!FBURL) { toast("Firebase not connected"); return; }
+  const id = String(Date.now()) + Math.floor(performance.now());
+  const body = { title: it.t, url: it.u, source: it.s,
+    category: PILLARS[it.p] || "", score: it.sc || 0 };
+  fetch(fbRoot() + "/caira_queue/" + id + ".json", { method: "PUT",
+    headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
+    .then(r => {
+      if (!r.ok) { toast("Caira queue blocked — add a /caira_queue Firebase rule"); return; }
+      toast("📤 Sent to Caira — auto-assigned to the free editor next cycle");
+      try { markStoryDone(it); } catch (e) {}
+    })
+    .catch(() => toast("Caira queue failed — check connection"));
+}
 let plans = jload("plans", "[]");
 let etasks = jload("etasks", "[]");
 function saveEtasks() { localStorage.setItem("etasks", JSON.stringify(etasks)); schedulePush(); }
@@ -1471,6 +1488,7 @@ function makeCard(it) {
     (ROLE === "owner" ? '<button class="nr-btn" title="Newsroom: article + images + all posts">📰</button>' : "") +
     (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
     (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
+    (ROLE === "owner" ? '<button class="caira-btn" title="Send to Caira (assign as a worker task)">📤</button>' : "") +
     '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done ✓") + "</button>" +
     "</span></div>" + why + extra;
   d.querySelector(".db").onclick = () => {
@@ -1484,6 +1502,8 @@ function makeCard(it) {
   if (pb2) pb2.onclick = () => openPublishModal(it);
   const nb = d.querySelector(".nr-btn");
   if (nb) nb.onclick = () => openNewsroom(it);
+  const cb = d.querySelector(".caira-btn");
+  if (cb) cb.onclick = () => cairaSend(it);
   return d;
 }
 function render() {
