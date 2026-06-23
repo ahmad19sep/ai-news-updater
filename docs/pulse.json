@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T04:31:24.600346+00:00",
+  "generated_at": "2026-06-23T10:04:33.914248+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -16,315 +16,153 @@
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "You can now create more realistic images with ChatGPT.",
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "Create stunning images with just text prompts.",
       "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
-      "local_relevance": 5,
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT 2.0",
-        "The Future of Art: ChatGPT Images 2.0 Review",
-        "Using ChatGPT Images 2.0 for Business"
-      ]
-    },
-    {
-      "name": "GLM-5.2",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new language model for local use.",
-      "audience_angle": "Run your own AI model locally with GLM-5.2.",
-      "linkedin_angle": "Discover the benefits of local AI model deployment for your business.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
+          "signal": "Made with ChatGPT Images 2.0"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://unsloth.ai/docs/models/glm-5.2",
-          "signal": "365"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
+          "signal": "Best AI Tools Every Student Should Use in 2026"
         }
       ],
       "content_ideas": [
-        "Getting Started with GLM-5.2: A Beginner's Guide",
-        "The Power of Local AI: GLM-5.2 Review",
-        "Deploying GLM-5.2 for Business: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "Apertus",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "An open foundation model for sovereign AI.",
-      "audience_angle": "Take control of your AI with Apertus.",
-      "linkedin_angle": "Learn how Apertus can help your business achieve AI sovereignty.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://apertvs.ai/",
-          "signal": "701"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Apertus: The Open Foundation Model",
-        "Achieving AI Sovereignty with Apertus",
-        "Apertus Use Cases: Real-World Applications"
+        "How to Create Art with ChatGPT",
+        "ChatGPT Image Generation Tutorial",
+        "Making Money with ChatGPT Images"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "use_case",
+      "category": "technique",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Using AI to generate videos.",
-      "audience_angle": "Create stunning videos with AI.",
-      "linkedin_angle": "Explore the potential of AI video generation for your business.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Affiliate programs available for AI video generation tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "How to Make Money with AI-Generated Videos",
-        "The Future of Video Creation: AI Generation",
-        "AI Video Generation for Business: A Guide"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new agent mode for ChatGPT.",
-      "audience_angle": "Unlock the full potential of ChatGPT with the new agent mode.",
-      "linkedin_angle": "Discover how ChatGPT Agent can enhance your business operations.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with ChatGPT Agent: A Beginner's Guide",
-        "The Power of ChatGPT Agent: A Review",
-        "Using ChatGPT Agent for Business: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI for trading and investing.",
-      "audience_angle": "Make informed investment decisions with AI.",
-      "linkedin_angle": "Explore the potential of AI for trading and investing.",
+      "what_it_is": "AI can generate videos based on user input.",
+      "audience_angle": "Create engaging videos with just text prompts.",
+      "linkedin_angle": "Discover how AI video generation can boost your business.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Affiliate programs available for AI trading tools."
+        "note": "Several AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=I625jtc_YH0",
+          "signal": "Best Free & Unlimited AI Video Generator (No Limits)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ud0dih/diffusion_model_that_can_turn_any_image_into_a/",
+          "signal": "Diffusion Model that can turn any Image into a Playable Hallucination!"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Trading: A Beginner's Guide",
-        "The Future of Trading: AI and Machine Learning",
-        "AI for Trading: A Step-by-Step Guide"
+        "AI Video Generation for Beginners",
+        "How to Make Money with AI-Generated Videos",
+        "Top AI Video Generation Tools"
+      ]
+    },
+    {
+      "name": "Vibe Coding with ChatGPT",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "Vibe coding is a technique used with ChatGPT for coding.",
+      "audience_angle": "Improve your coding skills with ChatGPT's vibe coding.",
+      "linkedin_angle": "Enhance your coding productivity with AI-powered vibe coding.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No direct affiliate program for vibe coding."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uda835/day_1_of_vibe_coding/",
+          "signal": "Day 1 of Vibe Coding"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7iic3Zj427M",
+          "signal": "DAY 1 Livestream - 5-Day AI Agents: Intensive Vibe Coding Course With Google"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Vibe Coding and ChatGPT",
+        "Vibe Coding Tutorial for Beginners",
+        "How Vibe Coding Can Improve Your Productivity"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "You can now create more realistic images with ChatGPT.",
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "Create stunning images with just text prompts.",
       "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
-      "local_relevance": 5,
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT 2.0",
-        "The Future of Art: ChatGPT Images 2.0 Review",
-        "Using ChatGPT Images 2.0 for Business"
-      ]
-    },
-    {
-      "name": "GLM-5.2",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new language model for local use.",
-      "audience_angle": "Run your own AI model locally with GLM-5.2.",
-      "linkedin_angle": "Discover the benefits of local AI model deployment for your business.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://unsloth.ai/docs/models/glm-5.2",
-          "signal": "365"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with GLM-5.2: A Beginner's Guide",
-        "The Power of Local AI: GLM-5.2 Review",
-        "Deploying GLM-5.2 for Business: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "Apertus",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "An open foundation model for sovereign AI.",
-      "audience_angle": "Take control of your AI with Apertus.",
-      "linkedin_angle": "Learn how Apertus can help your business achieve AI sovereignty.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://apertvs.ai/",
-          "signal": "701"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Apertus: The Open Foundation Model",
-        "Achieving AI Sovereignty with Apertus",
-        "Apertus Use Cases: Real-World Applications"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new agent mode for ChatGPT.",
-      "audience_angle": "Unlock the full potential of ChatGPT with the new agent mode.",
-      "linkedin_angle": "Discover how ChatGPT Agent can enhance your business operations.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
+          "signal": "Made with ChatGPT Images 2.0"
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
+          "signal": "Best AI Tools Every Student Should Use in 2026"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Agent: A Beginner's Guide",
-        "The Power of ChatGPT Agent: A Review",
-        "Using ChatGPT Agent for Business: A Step-by-Step Guide"
+        "How to Create Art with ChatGPT",
+        "ChatGPT Image Generation Tutorial",
+        "Making Money with ChatGPT Images"
       ]
     }
   ],
@@ -332,7 +170,7 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
@@ -340,19 +178,7 @@
         }
       ],
       "content_opportunity": "Workarounds for ChatGPT usage limits"
-    },
-    {
-      "problem": "AI-generated content detection",
-      "who_affected": "Content creators",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+make+money"
-        }
-      ],
-      "content_opportunity": "Tips for avoiding AI-generated content detection"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
