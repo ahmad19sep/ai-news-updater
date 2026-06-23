@@ -636,7 +636,7 @@ PAGE = r"""<!doctype html>
     <div class="homecols">
       <div class="panel">
         <h3>⚡ Quick actions</h3>
-        <button class="qa" onclick="qaNews()">🎯 Open video-worthy list</button>
+        <button class="qa" onclick="qaNews()">🎯 Open latest news</button>
         <a class="qa" href="digests/latest.html" target="_blank" style="display:block;text-decoration:none">📄 Weekly digest — open &amp; Save as PDF</a>
       </div>
     </div>
@@ -1448,8 +1448,7 @@ function filtered() {
     (!hotOnly || (it.l && it.l.length)) &&
     (!localOnly || it.lo) &&
     (!needle || it.t.toLowerCase().includes(needle)));
-  if (mode === "worthy") items = items.slice().sort((a, b) => worthyRank(b) - worthyRank(a));
-  else items = items.slice().sort((a, b) =>   /* Latest = newest PUBLISHED first */
+  items = items.slice().sort((a, b) =>   /* always newest PUBLISHED first */
     (b.d || b.f || "").localeCompare(a.d || a.f || ""));
   return items;
 }
@@ -1463,8 +1462,7 @@ function makeCard(it) {
     extra = '<div class="extra">also covered by: ' + it.l.map(x =>
       '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.source) + "</a>").join("") + "</div>";
   }
-  const why = (mode === "worthy" && it.sc >= 6 && it.r && it.r.length)
-    ? '<div class="why">⭐ ' + it.sc + " — " + esc(it.r.join(" · ")) + "</div>" : "";
+  const why = "";
   d.innerHTML =
     '<h2><a href="' + esc(it.u) + '" target="_blank" rel="noopener">' + esc(it.t) + "</a></h2>" +
     '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + hot +
@@ -1492,8 +1490,7 @@ function render() {
   const items = filtered();
   document.getElementById("count").textContent =
     items.length + " stories" + (q ? ' for "' + q + '"' : "") +
-    (pillar ? " in " + PILLARS[pillar] : "") +
-    (mode === "worthy" ? " · ranked by interest" : " · newest first");
+    (pillar ? " in " + PILLARS[pillar] : "") + " · newest first";
   const list = document.getElementById("list");
   list.innerHTML = items.length ? "" : '<div class="empty">No stories found.</div>';
   items.slice(0, shown).forEach(it => list.appendChild(makeCard(it)));
@@ -1515,16 +1512,6 @@ function renderPopular() {
 function bar() {
   const el = document.getElementById("pillars");
   el.innerHTML = "";
-  const worthy = document.createElement("button");
-  worthy.innerHTML = "🎯 Video-worthy";
-  worthy.className = "gold" + (mode === "worthy" ? " active" : "");
-  worthy.onclick = () => { mode = "worthy"; shown = PAGE; bar(); render(); };
-  el.appendChild(worthy);
-  const latest = document.createElement("button");
-  latest.innerHTML = "🕒 Latest";
-  latest.className = mode === "latest" ? "active" : "";
-  latest.onclick = () => { mode = "latest"; shown = PAGE; bar(); render(); };
-  el.appendChild(latest);
   const sel = document.createElement("select");
   sel.innerHTML = '<option value="0">All categories</option>' +
     Object.entries(PILLARS).filter(([k]) => +k !== 9).map(([k, v]) =>
@@ -1661,7 +1648,6 @@ function pulseCard(t, isTool) {
   if (isLLM() && t.audience_angle) h += '<div class="pangle">🎯 <b>For your audience:</b> ' + esc(t.audience_angle) + '</div>';
   if (isLLM() && t.linkedin_angle) h += '<div class="pangle">💼 <b>LinkedIn:</b> ' + esc(t.linkedin_angle) + '</div>';
   h += '<div class="row"><span class="pbadge">' + pmFmt(t.pillar || "") + '</span><span class="pbadge">' + pmFmt(t.best_format || "") + '</span>';
-  if (t.video_worthy) h += '<span class="pbadge">🎬 ' + t.video_worthy + '/10</span>';
   if (t.monetization && t.monetization.affiliate_likely) h += '<span class="pbadge" style="color:var(--gold)">💰 affiliate</span>';
   h += '</div>';
   if (isLLM() && (t.content_ideas || []).length) {
@@ -4263,7 +4249,6 @@ function qaX() {
   openCreate("", "", { type: "post", plats: ["x"] });
 }
 function qaNews() {
-  mode = "worthy";
   switchTab("news");
   bar(); render();
 }
