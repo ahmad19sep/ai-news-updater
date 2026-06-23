@@ -334,9 +334,12 @@ NEWS_RETENTION_DAYS = 7
 #   POST {url}/tasks            -> create one task (returns 2xx)
 CAIRA_ENABLED = True
 CAIRA_SCORE_TARGET = 10            # only genuinely big stories auto-dispatch
-CAIRA_EDITORS = ["boy1", "boy2"]   # your editor ids in Caira (load-balanced)
+# Worker assignees are the two workers' EMAILS (what /api/pending-counts returns
+# and /api/tasks accepts). Empty = auto-discover from pending-counts (manual
+# "Send to <editor>" buttons appear once these are filled with the real emails).
+CAIRA_EDITORS = []
 CAIRA_MAX_PER_RUN = 6              # safety cap: tasks created per fetch cycle
-CAIRA_API_URL = ""                # e.g. "https://your-caira.app/api"
+CAIRA_API_URL = "https://videoflow-sigma.vercel.app/api"
 
 # ---- "Post this" nudges -------------------------------------------------
 # A gentle, action-oriented alert: every couple of hours (and instantly for a
