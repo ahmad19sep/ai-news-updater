@@ -180,6 +180,16 @@ PAGE = r"""<!doctype html>
           transition:.15s; }
   .meta button:hover { border-color:var(--indigo); color:var(--indigo);
           background:var(--indigo-soft); }
+  .cairamenu { position:absolute; z-index:400; background:var(--surface); border:1px solid var(--line2);
+          border-radius:11px; box-shadow:var(--shadow-lg); padding:6px; display:flex; flex-direction:column;
+          gap:2px; min-width:210px; }
+  .cairamenu button { background:none; border:none; text-align:left; padding:9px 12px; border-radius:8px;
+          font:500 13px Inter; color:var(--text); cursor:pointer; white-space:nowrap; }
+  .cairamenu button:hover { background:var(--surface2); }
+  .cp { display:inline-flex; align-items:center; gap:5px; background:none; border:1px solid var(--line);
+          color:var(--text); border-radius:8px; padding:7px 12px; font:600 12px Inter; cursor:pointer; text-decoration:none; }
+  .cp:hover { border-color:var(--indigo); color:var(--indigo); background:var(--indigo-soft); }
+  .cp.posted { border-color:var(--cta); color:var(--cta); }
   .extra { font-size:12px; margin-top:7px; color:var(--dim); }
   .extra a { text-decoration:none; margin-right:12px; }
   .why { font-size:11.5px; color:var(--gold); margin-top:7px; }
@@ -610,6 +620,7 @@ PAGE = r"""<!doctype html>
       <button class="navitem active" id="tabbtn-home" onclick="switchTab('home')">🏠 <span>Home</span></button>
       <button class="navitem" id="tabbtn-news" onclick="switchTab('news')">📰 <span>News</span><span class="navcount" id="nc-news"></span></button>
       <button class="navitem" id="tabbtn-popular" onclick="switchTab('popular')">🔥 <span>Popular</span></button>
+      <button class="navitem" id="tabbtn-ready" onclick="switchTab('ready')">✅ <span>Ready to Post</span><span class="navcount" id="nc-ready"></span></button>
       <button class="navitem" id="tabbtn-trends" onclick="switchTab('trends')">📈 <span>Trends</span></button>
       <button class="navitem" id="tabbtn-pulse" onclick="switchTab('pulse')">⚡ <span>Pulse</span></button>
       <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
@@ -654,6 +665,12 @@ PAGE = r"""<!doctype html>
     <p class="note">🔥 The AI stories the world is paying attention to right now — most-covered first.
        Great for picking what to post. Publishing one ticks all its copies, on every device.</p>
     <div id="poplist"></div>
+  </section>
+
+  <section id="tab-ready" hidden>
+    <p class="note">✅ Finished work approved in Caira lands here — copy each platform's post and
+       publish from your own accounts. Tap ✓ Posted when done.</p>
+    <div id="readylist"></div>
   </section>
 
   <section id="tab-trends" hidden>
@@ -997,6 +1014,7 @@ if (!EDLINK && LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) {
 const PILLARS = __PILLARS__;
 const ITEMS = __ITEMS__;
 const TRENDS = __TRENDS__;
+const CAIRA_EDITORS = __CAIRA_EDITORS__;   /* your Caira worker ids (manual assign menu) */
 const PAGE = 60;
 const STATUSES = [
   ["idea", "Idea", "#94a3b8"], ["script", "Script", "#2563eb"],
@@ -1073,19 +1091,46 @@ async function pushPosted(sig) {
       headers: { "Content-Type": "application/json" }, body: JSON.stringify(remote) });
   } catch (e) {}
 }
-/* Manual "Send to Caira": queue the story in Firebase; the hourly server job
-   picks the least-busy editor and creates the Caira task. Then tick it (and its
-   duplicates) done so it leaves the feed. */
-function cairaSend(it) {
+/* Manual "Send to Caira" menu: choose an editor, auto-divide, or keep it yourself.
+   The choice is queued in Firebase; the hourly server job creates the Caira task
+   (picking the free editor when assignee is blank). Then the story is ticked done
+   (with its duplicates) so it leaves the feed. */
+let cairaMenuEl = null;
+function closeCairaMenu() {
+  if (cairaMenuEl) { cairaMenuEl.remove(); cairaMenuEl = null; }
+  document.removeEventListener("click", closeCairaMenu);
+}
+function cairaMenu(it, btn) {
+  closeCairaMenu();
+  const m = document.createElement("div"); m.className = "cairamenu";
+  const opt = (label, fn) => {
+    const b = document.createElement("button"); b.textContent = label;
+    b.onclick = (e) => { e.stopPropagation(); closeCairaMenu(); fn(); };
+    m.appendChild(b);
+  };
+  (CAIRA_EDITORS || []).forEach((ed, i) => {
+    const id = (ed && ed.id) || ed, name = (ed && ed.name) || ("Editor " + (i + 1)) + " (" + id + ")";
+    opt("📤 Send to " + name, () => cairaQueue(it, id));
+  });
+  opt("⚖️ Auto — give to the free editor", () => cairaQueue(it, ""));
+  opt("🙋 Keep for me (do it myself)", () => { try { markStoryDone(it); } catch (e) {} toast("Kept for you ✓"); });
+  document.body.appendChild(m);
+  const r = btn.getBoundingClientRect();
+  m.style.top = (r.bottom + window.scrollY + 4) + "px";
+  m.style.left = (Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - 230))) + "px";
+  cairaMenuEl = m;
+  setTimeout(() => document.addEventListener("click", closeCairaMenu), 0);
+}
+function cairaQueue(it, assignee) {
   if (!FBURL) { toast("Firebase not connected"); return; }
-  const id = String(Date.now()) + Math.floor(performance.now());
+  const id = String(Date.now()) + Math.floor(performance.now ? performance.now() : 0);
   const body = { title: it.t, url: it.u, source: it.s,
-    category: PILLARS[it.p] || "", score: it.sc || 0 };
+    category: PILLARS[it.p] || "", score: it.sc || 0, assignee: assignee || "" };
   fetch(fbRoot() + "/caira_queue/" + id + ".json", { method: "PUT",
     headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
     .then(r => {
       if (!r.ok) { toast("Caira queue blocked — add a /caira_queue Firebase rule"); return; }
-      toast("📤 Sent to Caira — auto-assigned to the free editor next cycle");
+      toast(assignee ? ("📤 Sent to " + assignee) : "📤 Sent to Caira (auto-assign to free editor)");
       try { markStoryDone(it); } catch (e) {}
     })
     .catch(() => toast("Caira queue failed — check connection"));
@@ -1418,12 +1463,13 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","trends","pulse","research"].forEach(n => {
+  ["home","news","popular","ready","trends","pulse","research"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
   const TT = { home:["Home","Your radar at a glance"], news:["News","The latest AI news, newest first"],
     popular:["Popular","What the world is reading right now"],
+    ready:["Ready to Post","Approved work from Caira — copy & publish"],
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
     research:["Research","Papers for your own learning"] };
   const tt = TT[name] || ["",""];
@@ -1431,6 +1477,7 @@ function switchTab(name) {
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
   if (name === "home") renderHome();
   if (name === "popular") renderPopular();
+  if (name === "ready") renderReady();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -1503,7 +1550,7 @@ function makeCard(it) {
   const nb = d.querySelector(".nr-btn");
   if (nb) nb.onclick = () => openNewsroom(it);
   const cb = d.querySelector(".caira-btn");
-  if (cb) cb.onclick = () => cairaSend(it);
+  if (cb) cb.onclick = (e) => { e.stopPropagation(); cairaMenu(it, cb); };
   return d;
 }
 function render() {
@@ -1528,6 +1575,48 @@ function renderPopular() {
     .slice(0, 40).map(x => x.it);
   el.innerHTML = pop.length ? "" : '<div class="empty">No popular stories yet — check back as coverage builds.</div>';
   pop.forEach(it => el.appendChild(makeCard(it)));
+}
+/* Ready to Post: finished, approved work Caira staged in Firebase /ready_to_post.
+   One copy button per platform (add more later — just extend READY_PLATS). */
+const READY_PLATS = [["x_post","𝕏 X post"], ["linkedin_post","in LinkedIn"],
+  ["facebook_post","f Facebook"], ["instagram_caption","IG caption"],
+  ["whatsapp_post","WhatsApp"], ["youtube_short_script","▶ YouTube"],
+  ["article","📄 Article"], ["image_prompt","🎨 Image prompt"]];
+async function renderReady() {
+  const el = document.getElementById("readylist"); if (!el) return;
+  const nc = document.getElementById("nc-ready");
+  if (!FBURL) { el.innerHTML = '<div class="empty">Connect cloud sync to receive finished work from Caira.</div>'; return; }
+  el.innerHTML = '<div class="note">Loading…</div>';
+  let data = {};
+  try { data = (await (await fetch(fbRoot() + "/ready_to_post.json")).json()) || {}; } catch (e) {}
+  const items = Object.entries(data || {}).filter(e => e[1]).sort((a, b) => (b[1].ts || 0) - (a[1].ts || 0));
+  if (nc) nc.textContent = items.length || "";
+  if (!items.length) { el.innerHTML = '<div class="empty">Nothing ready yet. Approved work from Caira appears here, ready to copy &amp; post.</div>'; return; }
+  el.innerHTML = "";
+  const RC = { low: "var(--green)", medium: "var(--gold)", high: "var(--red)" };
+  items.forEach(([key, r]) => {
+    const d = document.createElement("div"); d.className = "card";
+    const risk = r.risk_level ? '<span class="pill" style="color:' + (RC[String(r.risk_level).toLowerCase()] || "var(--dim)") + '">⚠ ' + esc(r.risk_level) + '</span>' : "";
+    const btns = READY_PLATS.filter(p => r[p[0]]).map(p =>
+      '<button class="cp" data-f="' + p[0] + '">Copy ' + p[1] + '</button>').join("");
+    d.innerHTML =
+      '<h2>' + esc(r.headline || r.title || "(untitled)") + "</h2>" +
+      '<div class="meta">' + (r.source ? '<span>' + esc(r.source) + "</span>" : "") + risk +
+      (r.assignee ? '<span>by ' + esc(r.assignee) + "</span>" : "") + "</div>" +
+      '<div class="actions" style="flex-wrap:wrap;gap:6px;margin-top:9px;margin-left:0">' + btns +
+      (r.source_url ? '<a class="cp" href="' + esc(r.source_url) + '" target="_blank" rel="noopener">↗ Source</a>' : "") +
+      (r.drive_url ? '<a class="cp" href="' + esc(r.drive_url) + '" target="_blank" rel="noopener">📁 Drive</a>' : "") +
+      '<button class="cp posted">✓ Posted</button></div>';
+    d.querySelectorAll(".cp[data-f]").forEach(b => b.onclick = () => {
+      navigator.clipboard.writeText(r[b.dataset.f] || "").then(() => toast("Copied — paste & post ✓"));
+    });
+    d.querySelector(".posted").onclick = () => {
+      try { fetch(fbRoot() + "/ready_to_post/" + key + ".json", { method: "DELETE" }); } catch (e) {}
+      d.remove(); toast("Marked posted ✓");
+      if (nc) nc.textContent = (Math.max(0, (+nc.textContent || 1) - 1)) || "";
+    };
+    el.appendChild(d);
+  });
 }
 function bar() {
   const el = document.getElementById("pillars");
@@ -4285,6 +4374,14 @@ function navCounts() {
 }
 trendsBar(); bar(); renderHome(); render(); navCounts();
 syncPull();   /* pull cross-device done + published, then auto-tick matches */
+function readyCount() {
+  if (!FBURL) return;
+  fetch(fbRoot() + "/ready_to_post.json").then(r => r.json()).then(d => {
+    const n = Object.values(d || {}).filter(Boolean).length;
+    const el = document.getElementById("nc-ready"); if (el) el.textContent = n || "";
+  }).catch(() => {});
+}
+readyCount();
 attachMention(document.getElementById("m-chat-text"));
 ROLE = "owner"; localStorage.setItem("role", "owner");   /* owner-only studio (editors/chat removed) */
 applyRole(true);
@@ -4370,6 +4467,7 @@ def generate():
     updated = now.strftime("%d %b %Y, %H:%M UTC")
     html = (PAGE
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
+            .replace("__CAIRA_EDITORS__", json.dumps(getattr(config, "CAIRA_EDITORS", [])))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
             .replace("__LOCKHASH__", lock_hash)

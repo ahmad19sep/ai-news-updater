@@ -143,7 +143,9 @@ def build_master_prompt(item):
         '[[X_POST]]\n(substantial single X post: scroll-stopping hook, 3-5 short point lines with why it '
         'matters, one engagement line, then the link on its own final line)\n'
         '[[LINKEDIN_POST]]\n(professional: hook, key insight + implications, a discussion prompt; end "Read more:\\n[ARTICLE LINK]")\n'
+        '[[FACEBOOK_POST]]\n(engaging hook, easy short paragraphs, a question to spark comments, 2-3 hashtags; end "Read the full story:\\n[ARTICLE LINK]")\n'
         '[[INSTAGRAM_CAPTION]]\n(hook first line, short engaging lines, tasteful emojis, then "Full story — link in bio", 6-10 hashtags)\n'
+        '[[WHATSAPP_POST]]\n(very concise, key facts first, mobile-friendly, few emojis; end "Read more:\\n[ARTICLE LINK]")\n'
         '[[YOUTUBE_SHORT_SCRIPT]]\n(45-60 sec spoken script: hook, the key development, a CTA to follow)\n'
         '[[IMAGE_PROMPT]]\n(a vertical 4:5 news-poster image-generation prompt: photorealistic cinematic scene '
         'relevant to the story, with the headline beautifully rendered ON the image in bold modern type; spell it exactly; no logos/watermarks)\n'
@@ -226,3 +228,56 @@ def dispatch(conn):
     if made:
         database.set_meta(conn, "caira_sent", json.dumps(list(sent)[-400:]))
     return total + made
+
+
+# fields Caira returns for an approved task -> staged for the studio Ready tab
+_READY_FIELDS = ("title", "headline", "article", "x_post", "linkedin_post",
+                 "facebook_post", "instagram_caption", "whatsapp_post",
+                 "youtube_short_script", "image_prompt", "fact_check_notes",
+                 "risk_level", "source", "source_url", "drive_url", "assignee")
+
+
+def fetch_ready(conn):
+    """Pull APPROVED tasks from Caira and stage them in Firebase /ready_to_post
+    for the studio's Ready-to-Post tab. De-dupes by task id. Returns how many
+    new ready items were staged.
+
+    Needs a third Caira endpoint:
+      GET {CAIRA_API_URL}/ready  (Bearer auth) -> JSON list of approved tasks,
+      each with: id + the parsed sections in _READY_FIELDS.
+    """
+    if not enabled():
+        return 0
+    fb = _firebase()
+    if not fb:
+        return 0
+    try:
+        r = requests.get(_base() + "/ready", headers=_headers(), timeout=TIMEOUT)
+        r.raise_for_status()
+        items = r.json() or []
+    except Exception:
+        return 0
+    if not isinstance(items, list):
+        items = list(items.values()) if isinstance(items, dict) else []
+
+    import time as _t
+    import database
+    seen = set(json.loads(database.get_meta(conn, "caira_ready_seen", "[]") or "[]"))
+    n = 0
+    for it in items:
+        tid = str(it.get("id") or it.get("external_id") or "")
+        if not tid or tid in seen:
+            continue
+        body = {k: it.get(k) for k in _READY_FIELDS if it.get(k) is not None}
+        body["ts"] = int(_t.time() * 1000)
+        try:
+            requests.put(fb + "/ready_to_post/" + tid + ".json",
+                         data=json.dumps(body), timeout=TIMEOUT)
+            seen.add(tid)
+            n += 1
+        except Exception:
+            pass
+    if n:
+        database.set_meta(conn, "caira_ready_seen", json.dumps(list(seen)[-400:]))
+        print(f"  [<] Caira: {n} approved task(s) -> Ready to Post")
+    return n

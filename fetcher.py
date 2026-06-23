@@ -320,6 +320,7 @@ def run_fetch():
         n_caira = caira.dispatch(conn)
         if n_caira:
             print(f"  Caira: {n_caira} task(s) created")
+        caira.fetch_ready(conn)   # pull approved work back into Ready to Post
     except Exception as e:
         print(f"  [!] Caira dispatch skipped: {type(e).__name__}")
 
