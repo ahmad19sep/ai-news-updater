@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T10:04:33.914248+00:00",
+  "generated_at": "2026-06-23T15:26:29.829226+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,30 +9,30 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT image generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create stunning images with just text prompts.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT is a tool that can generate images based on user input.",
+      "audience_angle": "You can use ChatGPT to create amazing images without needing to be a professional artist.",
+      "linkedin_angle": "Leverage ChatGPT for creative projects and presentations to enhance your professional portfolio.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has a referral program for its premium features."
       },
       "sources": [
         {
@@ -42,110 +42,160 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
-          "signal": "Best AI Tools Every Student Should Use in 2026"
+          "url": "https://www.youtube.com/watch?v=B5K4KOzgsO0",
+          "signal": "Chatgpt photo editing | AI Photo editing | Prompt gemini ai"
         }
       ],
       "content_ideas": [
-        "How to Create Art with ChatGPT",
-        "ChatGPT Image Generation Tutorial",
-        "Making Money with ChatGPT Images"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation Tutorial for Beginners",
+        "Using ChatGPT for Professional Graphic Design"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "technique",
+      "name": "GLM-5.2",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "AI can generate videos based on user input.",
-      "audience_angle": "Create engaging videos with just text prompts.",
-      "linkedin_angle": "Discover how AI video generation can boost your business.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
+      "what_it_is": "GLM-5.2 is an open-source foundation model for sovereign AI.",
+      "audience_angle": "GLM-5.2 allows you to run AI models locally, giving you full control over your data.",
+      "linkedin_angle": "GLM-5.2 is a game-changer for businesses looking to deploy AI solutions while maintaining data sovereignty.",
+      "local_relevance": 3,
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI video generation tools offer affiliate programs."
+        "affiliate_likely": false,
+        "note": "GLM-5.2 is open-source and free to use."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I625jtc_YH0",
-          "signal": "Best Free & Unlimited AI Video Generator (No Limits)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ud0dih/diffusion_model_that_can_turn_any_image_into_a/",
-          "signal": "Diffusion Model that can turn any Image into a Playable Hallucination!"
+          "platform": "hackernews",
+          "url": "https://unsloth.ai/docs/models/glm-5.2",
+          "signal": "GLM-5.2 – How to Run Locally"
         }
       ],
       "content_ideas": [
-        "AI Video Generation for Beginners",
-        "How to Make Money with AI-Generated Videos",
-        "Top AI Video Generation Tools"
+        "Introduction to GLM-5.2: The Open-Source AI Model",
+        "How to Run GLM-5.2 Locally for Sovereign AI",
+        "GLM-5.2 vs Other AI Models: A Comparison"
       ]
     },
     {
-      "name": "Vibe Coding with ChatGPT",
-      "category": "technique",
+      "name": "Sakana Fugu",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Vibe coding is a technique used with ChatGPT for coding.",
-      "audience_angle": "Improve your coding skills with ChatGPT's vibe coding.",
-      "linkedin_angle": "Enhance your coding productivity with AI-powered vibe coding.",
-      "local_relevance": 6,
+      "what_it_is": "Sakana Fugu is an AI tool for creative work.",
+      "audience_angle": "Sakana Fugu helps you generate new ideas and content with the power of AI.",
+      "linkedin_angle": "Enhance your creative workflow with Sakana Fugu and stay ahead of the competition.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "best_format": "reel",
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No direct affiliate program for vibe coding."
+        "affiliate_likely": true,
+        "note": "Sakana Fugu offers a premium subscription with additional features."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uda835/day_1_of_vibe_coding/",
-          "signal": "Day 1 of Vibe Coding"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7iic3Zj427M",
-          "signal": "DAY 1 Livestream - 5-Day AI Agents: Intensive Vibe Coding Course With Google"
+          "platform": "hackernews",
+          "url": "https://sakana.ai/fugu/",
+          "signal": "Sakana Fugu"
         }
       ],
       "content_ideas": [
-        "Getting Started with Vibe Coding and ChatGPT",
-        "Vibe Coding Tutorial for Beginners",
-        "How Vibe Coding Can Improve Your Productivity"
+        "Unlocking Creativity with Sakana Fugu: An Introduction",
+        "Sakana Fugu Tutorial: Generating Ideas with AI",
+        "How Sakana Fugu Can Boost Your Creative Business"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "GLM-5.2",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "GLM-5.2 is an open-source foundation model for sovereign AI.",
+      "audience_angle": "GLM-5.2 allows you to run AI models locally, giving you full control over your data.",
+      "linkedin_angle": "GLM-5.2 is a game-changer for businesses looking to deploy AI solutions while maintaining data sovereignty.",
+      "local_relevance": 3,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "GLM-5.2 is open-source and free to use."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://unsloth.ai/docs/models/glm-5.2",
+          "signal": "GLM-5.2 – How to Run Locally"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to GLM-5.2: The Open-Source AI Model",
+        "How to Run GLM-5.2 Locally for Sovereign AI",
+        "GLM-5.2 vs Other AI Models: A Comparison"
+      ]
+    },
+    {
+      "name": "Sakana Fugu",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Sakana Fugu is an AI tool for creative work.",
+      "audience_angle": "Sakana Fugu helps you generate new ideas and content with the power of AI.",
+      "linkedin_angle": "Enhance your creative workflow with Sakana Fugu and stay ahead of the competition.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Sakana Fugu offers a premium subscription with additional features."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://sakana.ai/fugu/",
+          "signal": "Sakana Fugu"
+        }
+      ],
+      "content_ideas": [
+        "Unlocking Creativity with Sakana Fugu: An Introduction",
+        "Sakana Fugu Tutorial: Generating Ideas with AI",
+        "How Sakana Fugu Can Boost Your Creative Business"
+      ]
+    },
+    {
+      "name": "ChatGPT image generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create stunning images with just text prompts.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT is a tool that can generate images based on user input.",
+      "audience_angle": "You can use ChatGPT to create amazing images without needing to be a professional artist.",
+      "linkedin_angle": "Leverage ChatGPT for creative projects and presentations to enhance your professional portfolio.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has a referral program for its premium features."
       },
       "sources": [
         {
@@ -155,14 +205,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
-          "signal": "Best AI Tools Every Student Should Use in 2026"
+          "url": "https://www.youtube.com/watch?v=B5K4KOzgsO0",
+          "signal": "Chatgpt photo editing | AI Photo editing | Prompt gemini ai"
         }
       ],
       "content_ideas": [
-        "How to Create Art with ChatGPT",
-        "ChatGPT Image Generation Tutorial",
-        "Making Money with ChatGPT Images"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation Tutorial for Beginners",
+        "Using ChatGPT for Professional Graphic Design"
       ]
     }
   ],
@@ -170,15 +220,15 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ud51ey/chatgpt_cant_believe_ram_prices/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits"
+      "content_opportunity": "Workarounds for ChatGPT Usage Limits: A Step-by-Step Guide"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT image generation"
 }
