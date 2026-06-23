@@ -29,9 +29,11 @@ If your real Caira API differs, only `pending_counts()` and `create_task()`
 below need editing — everything else stays the same.
 """
 
+import difflib
 import hashlib
 import json
 import os
+import re
 
 import requests
 
@@ -167,6 +169,77 @@ def _normalize_pick(p):
     }
 
 
+def _norm_title(s):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", (s or "").lower())).strip()
+
+
+def _fb_get(path):
+    base = _firebase()
+    if not base:
+        return None
+    try:
+        return requests.get(base + path, timeout=TIMEOUT).json()
+    except Exception:
+        return None
+
+
+def _handled(conn):
+    """Everything already handled ANYWHERE -> (set of urls, list of normalized
+    titles). Sources: tasks already sent to Caira (caira_sent), stories marked
+    done in the studio (Firebase news_done), published articles + their
+    duplicate signatures (news_posted / published). Used so a done story — and
+    any similar-topic story — is never auto-picked again."""
+    import database
+    urls, titles = set(), []
+
+    def add_sig(u=None, t=None, links=None):
+        if u:
+            urls.add(u)
+        for l in (links or []):
+            if l:
+                urls.add(l)
+        if t:
+            titles.append(_norm_title(t))
+
+    for s in json.loads(database.get_meta(conn, "caira_sent", "[]") or "[]"):
+        if isinstance(s, dict):
+            add_sig(s.get("u"), s.get("t"))
+        elif isinstance(s, str):
+            urls.add(s)
+
+    d = _fb_get("/news_done.json")
+    for u in (d if isinstance(d, list) else []):
+        if u:
+            urls.add(u)
+
+    p = _fb_get("/news_posted.json")
+    for s in (p if isinstance(p, list) else (list(p.values()) if isinstance(p, dict) else [])):
+        if s:
+            add_sig(s.get("u"), s.get("t"), s.get("l"))
+
+    pub = _fb_get("/published.json")
+    for a in (pub.values() if isinstance(pub, dict) else []):
+        if a:
+            add_sig(a.get("url"), a.get("title"))
+
+    return urls, titles
+
+
+def _blocked(pick, urls, titles, threshold=0.72):
+    """True if this story is already handled or is the same topic as one."""
+    if pick.get("url") in urls:
+        return True
+    nt = _norm_title(pick.get("title"))
+    if not nt:
+        return False
+    if nt in titles:
+        return True
+    for t in titles:                       # similar-topic (reworded headline)
+        if t and difflib.SequenceMatcher(None, nt, t).ratio() >= threshold:
+            return True
+    return False
+
+
 def _drain_manual_queue(conn):
     """Send anything the studio's 'Send to Caira' button queued to Firebase."""
     base = _firebase()
@@ -178,7 +251,9 @@ def _drain_manual_queue(conn):
         return 0
     if not isinstance(data, dict):
         return 0
+    import database
     counts = pending_counts()
+    sigs = json.loads(database.get_meta(conn, "caira_sent", "[]") or "[]")
     n = 0
     for key, it in data.items():
         if not it or not it.get("url"):
@@ -189,12 +264,15 @@ def _drain_manual_queue(conn):
         if create_task(item, build_master_prompt(item), ed):
             if ed:
                 counts[ed] = counts.get(ed, 0) + 1   # keep balancing within this run
+            sigs.append({"u": it.get("url"), "t": it.get("title", "")})
             n += 1
             print(f"  [>] Caira (manual) -> {ed or 'auto'}: {item['title'][:55]}")
         try:
             requests.delete(base + "/caira_queue/" + key + ".json", timeout=TIMEOUT)
         except Exception:
             pass
+    if n:
+        database.set_meta(conn, "caira_sent", json.dumps(sigs[-500:]))
     return n
 
 
@@ -210,11 +288,17 @@ def dispatch(conn):
 
     target = getattr(config, "CAIRA_SCORE_TARGET", 10)
     cap = getattr(config, "CAIRA_MAX_PER_RUN", 6)
-    sent = set(json.loads(database.get_meta(conn, "caira_sent", "[]") or "[]"))
     counts = pending_counts()
+    urls, htitles = _handled(conn)   # everything already handled, anywhere
 
+    # stored signatures of what we've sent (kept so similar-topic dedup persists)
+    sigs = []
+    for s in json.loads(database.get_meta(conn, "caira_sent", "[]") or "[]"):
+        sigs.append(s if isinstance(s, dict) else {"u": s, "t": ""})
+
+    # skip anything already handled OR a similar-topic story to one
     picks = [p for p in scoring.score_items(conn)
-             if p["score"] >= target and p["url"] not in sent]
+             if p["score"] >= target and not _blocked(p, urls, htitles)]
     made = 0
     for p in picks[:cap]:
         # If Caira tells us who's free, balance here; otherwise send blank and
@@ -224,12 +308,14 @@ def dispatch(conn):
         if create_task(item, build_master_prompt(item), ed):
             if ed:
                 counts[ed] = counts.get(ed, 0) + 1
-            sent.add(p["url"])
+            sigs.append({"u": p["url"], "t": p["title"]})
+            urls.add(p["url"])
+            htitles.append(_norm_title(p["title"]))   # block similar ones this run too
             made += 1
             print(f"  [>] Caira -> {ed or 'auto'} (score {p['score']}): {p['title'][:55]}")
 
     if made:
-        database.set_meta(conn, "caira_sent", json.dumps(list(sent)[-400:]))
+        database.set_meta(conn, "caira_sent", json.dumps(sigs[-500:]))
     return total + made
 
 
