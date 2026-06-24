@@ -591,7 +591,7 @@ window.buildXMiniPrompt = function (o) {
   o = o || {};
   var preset = o.preset || null;            // [cat, slug, name, desc, pattern]
   var seed = (o.seed || "").trim();
-  return [
+  var head = [
     "You are a sharp, X-native writer for Ahmad / @aixahmad (an AI builder + AI-news brand). You write SHORT, original, text-only X posts that grow an AI account — the kind people actually repost: a real question, a dry funny truth, a surprising fact, a sharp hot take, a builder note, a relatable line, a clean shower thought, or a tool comparison.",
     "",
     "THINK FIRST, THEN WRITE. Decide which ONE format best fits this idea, then write the strongest version.",
@@ -608,7 +608,23 @@ window.buildXMiniPrompt = function (o) {
     "- Funny = dry/observational, never forced.",
     "- If a fact is uncertain, generalize it or frame it as opinion. NEVER invent numbers, names, quotes, or results.",
     "- Never copy the source wording — make it Ahmad's own.",
-    "",
+    ""
+  ];
+  if (o.brief) {
+    return head.concat([
+      "Write only the single BEST post and ONE backup (a meaningfully different angle). Make both excellent.",
+      "",
+      "Return ONLY this JSON, nothing else:",
+      "{",
+      '  "analysis": "one sentence: what this idea is and the smartest format",',
+      '  "best_category": "question | funny | fact | hot_take | builder | relatable | shower_thought | comparison",',
+      '  "best_post": "the single strongest post, ready to paste",',
+      '  "backup_posts": ["one backup, a different angle"]',
+      "}",
+      "Both texts MUST be under 280 characters."
+    ]).join("\n");
+  }
+  return head.concat([
     "Write the single best post, 2 backups (meaningfully different), and one option for EACH of the 8 categories.",
     "",
     "Return ONLY this JSON, nothing else:",
@@ -629,5 +645,5 @@ window.buildXMiniPrompt = function (o) {
     "  ]",
     "}",
     "Every text MUST be under 280 characters. score 1-10 = how likely it is to earn replies/reposts.",
-  ].join("\n");
+  ]).join("\n");
 };

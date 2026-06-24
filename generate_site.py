@@ -2530,9 +2530,9 @@ async function xmApiGenerate() {
   if (!url) { toast("First set your free API endpoint (one-time) — opening setup"); const b = document.getElementById("xm-apibox"); if (b) b.hidden = false; xmApiStatus(); return; }
   const btn = document.getElementById("xm-apigen"); if (btn) { btn.disabled = true; btn.textContent = "⚡ Generating…"; }
   const seed = (document.getElementById("xm-seed").value || "").trim();
-  const prompt = window.buildXMiniPrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null });
+  const prompt = window.buildXMiniPrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null, brief: true });
   try {
-    const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: prompt, max_tokens: 1200, temperature: 0.65 }) });
+    const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: prompt, model: "claude-sonnet-4-6", max_tokens: 600, temperature: 0.7 }) });
     const data = await r.json();
     const text = data.text || (data.content && data.content[0] && data.content[0].text) || "";
     if (!text) throw new Error(data.error || "empty response");

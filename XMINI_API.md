@@ -11,6 +11,10 @@ and calls Anthropic for you.
 
 You pay Anthropic only for tokens used — roughly **$0.003–$0.02 per generation** (Haiku/Sonnet).
 
+> The Studio's **⚡ Generate (API)** button already requests **Sonnet** and asks for just
+> **Best + 1 backup** (focused, fast, ~$0.01). You don't need to change the Worker's default
+> model — the request overrides it. The free Claude/ChatGPT buttons still give all 8 styles.
+
 ## 1. Create the Worker (free)
 1. Sign up at <https://workers.cloudflare.com> → **Create Worker**.
 2. Paste this code and deploy:
