@@ -1766,7 +1766,8 @@ async function renderXReplies() {
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>';
     } else {
       body = '<div class="actions" style="margin-left:0;margin-top:9px">' +
-        '<button class="cp" data-act="genprompt">🤖 Copy reply prompt</button>' +
+        '<button class="cp" data-act="gen" data-ai="claude">🤖 Open in Claude</button>' +
+        '<button class="cp" data-act="gen" data-ai="gpt">⚡ Open in ChatGPT</button>' +
         '<button class="cp" data-act="pasteopen">📥 Paste replies</button>' +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
         '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude\'s JSON array of 7 replies here, then Save"></textarea>' +
@@ -1783,9 +1784,13 @@ async function renderXReplies() {
   });
 }
 async function xrAction(act, key, c, d, b) {
-  if (act === "genprompt") {
-    navigator.clipboard.writeText(window.buildXReplyPrompt(c)).then(() => toast("Reply prompt copied — paste in Claude 🤖"));
+  if (act === "gen") {
+    const ai = b.dataset.ai === "gpt" ? "ChatGPT" : "Claude";
+    const url = b.dataset.ai === "gpt" ? "https://chatgpt.com/" : "https://claude.ai/new";
+    navigator.clipboard.writeText(window.buildXReplyPrompt(c)).catch(() => {});
+    window.open(url, "_blank", "noopener");
     const p = d.querySelector(".xrpaste"); if (p) p.hidden = false;
+    toast("Prompt copied — paste it in " + ai + " ✓");
     return;
   }
   if (act === "pasteopen") { const p = d.querySelector(".xrpaste"); if (p) p.hidden = !p.hidden; return; }
