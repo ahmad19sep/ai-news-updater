@@ -190,6 +190,7 @@ PAGE = r"""<!doctype html>
           color:var(--text); border-radius:8px; padding:7px 12px; font:600 12px Inter; cursor:pointer; text-decoration:none; }
   .cp:hover { border-color:var(--indigo); color:var(--indigo); background:var(--indigo-soft); }
   .cp.posted { border-color:var(--cta); color:var(--cta); }
+  .cp.done { border-color:var(--cta); color:var(--cta); opacity:.75; }
   .extra { font-size:12px; margin-top:7px; color:var(--dim); }
   .extra a { text-decoration:none; margin-right:12px; }
   .why { font-size:11.5px; color:var(--gold); margin-top:7px; }
@@ -1659,6 +1660,13 @@ async function renderReady() {
       (r.source_url ? '<a class="cp" href="' + esc(r.source_url) + '" target="_blank" rel="noopener">↗ Source</a>' : "") +
       (r.drive_url ? '<a class="cp" href="' + esc(r.drive_url) + '" target="_blank" rel="noopener">📁 Drive</a>' : "") +
       '<button class="cp posted">✓ Posted</button></div>';
+    const removeFromQueue = () => {
+      try { fetch(fbRoot() + "/ready_to_post/" + key + ".json", { method: "DELETE" }); } catch (e) {}
+      d.remove();
+      if (nc) nc.textContent = (Math.max(0, (+nc.textContent || 1) - 1)) || "";
+    };
+    const totalPlats = d.querySelectorAll('.cp[data-act="post"]').length;
+    let donePlats = 0;
     d.querySelectorAll(".cp[data-act]").forEach(b => b.onclick = () => {
       const act = b.dataset.act, f = b.dataset.f;
       if (act === "pubweb") { publishReady(r, b); return; }
@@ -1669,14 +1677,16 @@ async function renderReady() {
         navigator.clipboard.writeText(txt).catch(() => {});
         const u = POSTURL[f] ? POSTURL[f](txt) : null;
         if (u) window.open(u, "_blank", "noopener");
-        toast(r._link ? "Post copied (links to your site) — paste it ✓" : "Post copied — paste it on the page that opened ✓");
+        if (!b.classList.contains("done")) { b.classList.add("done"); b.textContent = "✓ " + b.textContent; donePlats++; }
+        if (totalPlats && donePlats >= totalPlats) {   // posted to every platform -> auto-clear
+          toast("All platforms posted — cleared from queue ✓");
+          setTimeout(removeFromQueue, 600);
+        } else {
+          toast(r._link ? "Post copied (links to your site) — paste it ✓" : "Post copied — paste it ✓");
+        }
       }
     });
-    d.querySelector(".posted").onclick = () => {
-      try { fetch(fbRoot() + "/ready_to_post/" + key + ".json", { method: "DELETE" }); } catch (e) {}
-      d.remove(); toast("Marked posted ✓");
-      if (nc) nc.textContent = (Math.max(0, (+nc.textContent || 1) - 1)) || "";
-    };
+    d.querySelector(".posted").onclick = () => { removeFromQueue(); toast("Done — removed from queue ✓"); };
     el.appendChild(d);
   });
 }
