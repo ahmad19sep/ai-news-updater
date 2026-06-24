@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T04:38:38.463499+00:00",
+  "generated_at": "2026-06-24T09:52:01.774823+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "You can use ChatGPT to create amazing images without needing extensive art skills.",
-      "linkedin_angle": "Leverage AI for creative tasks and boost productivity.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can create stunning images with just a few words.",
+      "linkedin_angle": "Leverage AI image generation for marketing and design purposes.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation capabilities."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -42,14 +42,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
-          "signal": "Best AI Tools Every Student Should Use in 2026"
+          "url": "https://www.youtube.com/watch?v=EHalwOIbM54",
+          "signal": "Can you prove this is AI?"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT for Artistic Projects",
-        "Unlocking the Potential of ChatGPT Image Generation"
+        "The Future of Art: ChatGPT Image Generation",
+        "Using ChatGPT for Graphic Design"
       ]
     },
     {
@@ -60,16 +60,16 @@
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "GLM-5.2 is an open-source AI model for various applications.",
-      "audience_angle": "You can utilize GLM-5.2 for tasks like text generation and more.",
-      "linkedin_angle": "Explore the capabilities of open-source AI models for business and personal use.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
+      "what_it_is": "GLM-5.2 is an open-source AI model for natural language processing.",
+      "audience_angle": "You can use GLM-5.2 to build your own AI-powered chatbots.",
+      "linkedin_angle": "Stay ahead of the curve with the latest advancements in NLP.",
+      "local_relevance": 3,
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
-        "note": "GLM-5.2 is open-source and does not have an affiliate program."
+        "note": "GLM-5.2 is an open-source model."
       },
       "sources": [
         {
@@ -84,35 +84,72 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with GLM-5.2 for Beginners",
-        "How GLM-5.2 Compares to Other AI Models",
-        "Unlocking the Full Potential of GLM-5.2"
+        "Introduction to GLM-5.2: The Open-Source NLP Model",
+        "Building Chatbots with GLM-5.2",
+        "The Future of NLP: GLM-5.2 and Beyond"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Vibe Coding",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "Vibe coding is a technique for coding with AI assistance.",
+      "audience_angle": "You can use vibe coding to improve your coding skills and productivity.",
+      "linkedin_angle": "Take your coding skills to the next level with vibe coding.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some vibe coding tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://maref.cc/en/blog/vibe-coding-crisis/",
+          "signal": "GitHub Is Becoming a Giant AI Code Dump"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uda835/day_1_of_vibe_coding/",
+          "signal": "Day 1 of Vibe Coding"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Vibe Coding: The Future of Coding",
+        "How to Use Vibe Coding for Improved Productivity",
+        "The Benefits and Challenges of Vibe Coding"
+      ]
+    },
+    {
+      "name": "Claude Code",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
-      "audience_angle": "You can use Claude AI to create engaging content without extensive writing experience.",
-      "linkedin_angle": "Leverage Claude AI for content creation and enhance your professional online presence.",
-      "local_relevance": 9,
+      "what_it_is": "Claude Code is a tool for coding with AI assistance.",
+      "audience_angle": "You can use Claude Code to improve your coding skills and build projects faster.",
+      "linkedin_angle": "Stay ahead of the curve with the latest advancements in AI-powered coding tools.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its capabilities."
+        "note": "Claude Code has an affiliate program."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P3BlPnxmCYQ",
-          "signal": "Claude Code FREE UNLIMITED 2026"
+          "url": "https://www.youtube.com/watch?v=Qj4eiuj7d90",
+          "signal": "Claude Code Just Became 100x More Powerful!"
         },
         {
           "platform": "hackernews",
@@ -121,9 +158,9 @@
         }
       ],
       "content_ideas": [
-        "Mastering Claude AI for Content Creation",
-        "5 Ways to Use Claude AI for Business",
-        "Claude AI vs. Other Content Generation Tools"
+        "Introduction to Claude Code: The AI-Powered Coding Tool",
+        "How to Use Claude Code for Improved Productivity",
+        "The Benefits and Challenges of Using Claude Code"
       ]
     }
   ],
@@ -136,16 +173,16 @@
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "GLM-5.2 is an open-source AI model for various applications.",
-      "audience_angle": "You can utilize GLM-5.2 for tasks like text generation and more.",
-      "linkedin_angle": "Explore the capabilities of open-source AI models for business and personal use.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
+      "what_it_is": "GLM-5.2 is an open-source AI model for natural language processing.",
+      "audience_angle": "You can use GLM-5.2 to build your own AI-powered chatbots.",
+      "linkedin_angle": "Stay ahead of the curve with the latest advancements in NLP.",
+      "local_relevance": 3,
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
-        "note": "GLM-5.2 is open-source and does not have an affiliate program."
+        "note": "GLM-5.2 is an open-source model."
       },
       "sources": [
         {
@@ -160,9 +197,9 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with GLM-5.2 for Beginners",
-        "How GLM-5.2 Compares to Other AI Models",
-        "Unlocking the Full Potential of GLM-5.2"
+        "Introduction to GLM-5.2: The Open-Source NLP Model",
+        "Building Chatbots with GLM-5.2",
+        "The Future of NLP: GLM-5.2 and Beyond"
       ]
     },
     {
@@ -173,16 +210,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "You can use ChatGPT to create amazing images without needing extensive art skills.",
-      "linkedin_angle": "Leverage AI for creative tasks and boost productivity.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can create stunning images with just a few words.",
+      "linkedin_angle": "Leverage AI image generation for marketing and design purposes.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation capabilities."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -192,40 +229,40 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
-          "signal": "Best AI Tools Every Student Should Use in 2026"
+          "url": "https://www.youtube.com/watch?v=EHalwOIbM54",
+          "signal": "Can you prove this is AI?"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT for Artistic Projects",
-        "Unlocking the Potential of ChatGPT Image Generation"
+        "The Future of Art: ChatGPT Image Generation",
+        "Using ChatGPT for Graphic Design"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Claude Code",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
-      "audience_angle": "You can use Claude AI to create engaging content without extensive writing experience.",
-      "linkedin_angle": "Leverage Claude AI for content creation and enhance your professional online presence.",
-      "local_relevance": 9,
+      "what_it_is": "Claude Code is a tool for coding with AI assistance.",
+      "audience_angle": "You can use Claude Code to improve your coding skills and build projects faster.",
+      "linkedin_angle": "Stay ahead of the curve with the latest advancements in AI-powered coding tools.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its capabilities."
+        "note": "Claude Code has an affiliate program."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P3BlPnxmCYQ",
-          "signal": "Claude Code FREE UNLIMITED 2026"
+          "url": "https://www.youtube.com/watch?v=Qj4eiuj7d90",
+          "signal": "Claude Code Just Became 100x More Powerful!"
         },
         {
           "platform": "hackernews",
@@ -234,24 +271,24 @@
         }
       ],
       "content_ideas": [
-        "Mastering Claude AI for Content Creation",
-        "5 Ways to Use Claude AI for Business",
-        "Claude AI vs. Other Content Generation Tools"
+        "Introduction to Claude Code: The AI-Powered Coding Tool",
+        "How to Use Claude Code for Improved Productivity",
+        "The Benefits and Challenges of Using Claude Code"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "Individuals and businesses relying on ChatGPT for content creation",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ud51ey/chatgpt_cant_believe_ram_prices/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ue7hg2/the_pain_of_using_chatgpt_lately/"
         }
       ],
-      "content_opportunity": "Exploring affordable alternatives to ChatGPT for content creation."
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
