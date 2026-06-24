@@ -31,7 +31,18 @@ function grabTweet() {
   if (link) { const m = link.getAttribute("href").match(/status\/(\d+)/); if (m) { post_id = post_id || m[1]; if (!idM) source_url = "https://x.com" + link.getAttribute("href").split("?")[0]; } }
   let image_url = "";
   const pic = art.querySelector('[data-testid="tweetPhoto"] img, img[src*="twimg.com/media"]');
-  if (pic) image_url = (pic.src || "").replace(/&name=\w+/, "&name=large");
+  if (pic) image_url = pic.currentSrc || pic.src || "";
+  if (!image_url) {                      // fallback: largest non-avatar image in the tweet
+    let best = null, ba = 0;
+    Array.from(art.querySelectorAll("img")).forEach(im => {
+      const s = im.currentSrc || im.src || "";
+      if (!/^https?:/.test(s) || /profile_images|profile_banners|emoji/i.test(s)) return;
+      const w = im.naturalWidth || im.clientWidth || 0, h = im.naturalHeight || im.clientHeight || 0;
+      if (w * h > ba && Math.min(w, h) >= 100) { best = im; ba = w * h; }
+    });
+    if (best) image_url = best.currentSrc || best.src || "";
+  }
+  if (image_url) image_url = image_url.replace(/&name=\w+/, "&name=large");
   return { platform: "x", post_text: text, author_name, author_handle, source_url, post_id, image_url };
 }
 
@@ -58,8 +69,23 @@ function grabLinkedIn() {
     const prof = card.querySelector('a[href*="/in/"], a[href*="/company/"]');
     if (prof) { author_handle = prof.getAttribute("href").split("?")[0]; if (author_handle.startsWith("/")) author_handle = "https://www.linkedin.com" + author_handle; }
   }
+  // grab the post's media image: pick the LARGEST image in the post container
+  // (class-agnostic — survives LinkedIn renames; skips the small author avatar)
   let image_url = "";
-  if (card) { const im = card.querySelector('.update-components-image img, .feed-shared-image img, img[src*="media.licdn.com"]'); if (im) image_url = im.src || ""; }
+  const scope = (card && card.closest('.feed-shared-update-v2, .update-components-update-v2, div[data-urn*="urn:li:activity"], article')) || card;
+  if (scope) {
+    let best = null, bestArea = 0;
+    Array.from(scope.querySelectorAll("img")).forEach(im => {
+      const src = im.currentSrc || im.src || "";
+      if (!/^https?:/.test(src)) return;
+      if (/profile-displaybackground|profile-framedphoto|ghost|EntityPhoto|company-logo|reaction|emoji/i.test(src)) return;
+      const w = im.naturalWidth || im.clientWidth || im.width || 0;
+      const h = im.naturalHeight || im.clientHeight || im.height || 0;
+      const area = w * h;
+      if (area > bestArea && Math.min(w, h) >= 100) { best = im; bestArea = area; }
+    });
+    if (best) image_url = best.currentSrc || best.src || "";
+  }
   return { platform: "linkedin", post_text, author_name, author_handle, source_url, post_id: "", image_url };
 }
 
