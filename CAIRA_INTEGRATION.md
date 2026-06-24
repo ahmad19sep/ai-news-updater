@@ -39,8 +39,8 @@ calls the three HTTPS endpoints below. Caira already runs on **Vercel functions
 7. **Implement `GET /api/ready`** — return APPROVED, not-yet-delivered post cards with
    their parsed fields; mark them delivered. Section 4.
 8. **Worker view for post cards:** show title + source link, a **Copy master prompt**
-   button (`master_prompt`), a **Paste AI output** box, the Drive folder link, a
-   checklist, and **Submit**. Section 8.
+   button (`master_prompt`), a **Paste AI output** box, an **Image upload** (store it
+   and expose `image_url`), the Drive folder link, a checklist, and **Submit**. Section 8.
 9. **Parse on submit:** split the worker's pasted output by the `[[MARKER]]` blocks
    (section 5) into `headline / article / x_post / linkedin_post / facebook_post /
    instagram_caption / whatsapp_post / youtube_short_script / image_prompt /
@@ -62,9 +62,13 @@ Caira today is video-centric (Idea → … → Publishing). These AI Radar tasks
 - Add a **content type / kind** field to cards: `"video"` (existing) and **`"post"`** (new).
 - Tasks coming from AI Radar are `kind = "post"`.
 - A **post** card's worker view shows: the headline + source link, a **Copy master
-  prompt** button, a **Paste AI output** box, the auto-created **Drive folder** link,
-  a checklist, and **Submit**. (Same board/stages/assignees/Drive you already have —
-  just a card type that's a writing task instead of a video shoot.)
+  prompt** button, a **Paste AI output** box, an **Image upload** (the worker
+  generates the poster from `[[IMAGE_PROMPT]]` and uploads it — store it, e.g. in the
+  card's Drive folder or Supabase Storage, and expose a public **`image_url`**), the
+  Drive folder link, a checklist, and **Submit**.
+- **Approval gate:** a task must be **owner-approved** before it leaves Caira. Only
+  owner-approved tasks are returned by `GET /api/ready` (an editor submitting is NOT
+  enough). See sections 4 and 10.
 
 ---
 
@@ -150,6 +154,7 @@ Header: Authorization: Bearer <RADAR_INGEST_TOKEN>
     "source": "TechCrunch", "source_url": "https://...",
     "assignee": "boy1", "risk_level": "low",
     "drive_url": "https://drive.google.com/...",
+    "image_url": "https://.../poster.png",
     "article": "...full article...",
     "x_post": "...", "linkedin_post": "...", "facebook_post": "...",
     "instagram_caption": "...", "whatsapp_post": "...",
@@ -157,10 +162,21 @@ Header: Authorization: Bearer <RADAR_INGEST_TOKEN>
   }
 ]
 ```
-These fields come straight from **parsing the worker's pasted AI output** (the
-`[[MARKER]]` blocks in section 5) — Caira already plans to parse on submit. Include
-the `drive_url` (the card's Drive folder) and `risk_level` so Ahmad can see caution
-notes before posting. Any field you can't fill, just omit.
+**Return owner-approved tasks ONLY.** A task must be approved by the owner in Caira
+before it appears here — a worker submitting is not enough.
+
+The text fields come from **parsing the worker's pasted AI output** (the `[[MARKER]]`
+blocks in section 5). Also include **`image_url`** — the public URL of the poster the
+worker uploaded — plus `drive_url` and `risk_level`. Any field you can't fill, omit.
+
+> **Want it INSTANT (optional, recommended).** AI Radar pulls `/api/ready` once an
+> hour, so an approved task can take up to ~1h to appear. To make it show **the moment
+> you approve**, also have Caira write the same object to AI Radar's public Firebase on
+> approve:
+> `PUT https://aixahmad-studio-default-rtdb.asia-southeast1.firebasedatabase.app/ready_to_post/<task-id>.json`
+> with the JSON body `{ ...the fields above..., "ts": <epoch-ms> }` (that node is
+> world-writable). Then it appears in Studio's Ready-to-Post immediately, and the
+> hourly `/api/ready` pull is just a backup.
 
 **What AI Radar does with it:** every approved task shows up in Studio's **"Ready to
 Post"** tab as a card with a **Copy** button for each platform that has content
@@ -280,8 +296,8 @@ export default async function handler(req: Request) {
 // api/ready.ts  -> approved tasks back to Radar
 import { admin, WS, authed } from './_radar'
 const FIELDS = ['id','title','headline','article','x_post','linkedin_post','facebook_post',
-  'instagram_caption','whatsapp_post','youtube_short_script','image_prompt','fact_check_notes',
-  'risk_level','assignee','source','source_url','drive_url']
+  'instagram_caption','whatsapp_post','youtube_short_script','image_prompt','image_url',
+  'fact_check_notes','risk_level','assignee','source','source_url','drive_url']
 export default async function handler(req: Request) {
   if (!authed(req)) return new Response('Unauthorized', { status: 401 })
   // "approved" = however Caira marks owner-approved (e.g. stage 'Review'/'Approved' or an approved flag)

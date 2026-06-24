@@ -1599,11 +1599,14 @@ async function renderReady() {
     const risk = r.risk_level ? '<span class="pill" style="color:' + (RC[String(r.risk_level).toLowerCase()] || "var(--dim)") + '">⚠ ' + esc(r.risk_level) + '</span>' : "";
     const btns = READY_PLATS.filter(p => r[p[0]]).map(p =>
       '<button class="cp" data-f="' + p[0] + '">Copy ' + p[1] + '</button>').join("");
-    d.innerHTML =
+    const img = r.image_url ? '<a href="' + esc(r.image_url) + '" target="_blank" rel="noopener">' +
+      '<img src="' + esc(r.image_url) + '" alt="poster" style="width:140px;height:auto;border-radius:8px;border:1px solid var(--line);float:right;margin:0 0 8px 12px"></a>' : "";
+    d.innerHTML = img +
       '<h2>' + esc(r.headline || r.title || "(untitled)") + "</h2>" +
       '<div class="meta">' + (r.source ? '<span>' + esc(r.source) + "</span>" : "") + risk +
       (r.assignee ? '<span>by ' + esc(r.assignee) + "</span>" : "") + "</div>" +
       '<div class="actions" style="flex-wrap:wrap;gap:6px;margin-top:9px;margin-left:0">' + btns +
+      (r.image_url ? '<a class="cp" href="' + esc(r.image_url) + '" target="_blank" rel="noopener" download>🖼️ Image</a>' : "") +
       (r.source_url ? '<a class="cp" href="' + esc(r.source_url) + '" target="_blank" rel="noopener">↗ Source</a>' : "") +
       (r.drive_url ? '<a class="cp" href="' + esc(r.drive_url) + '" target="_blank" rel="noopener">📁 Drive</a>' : "") +
       '<button class="cp posted">✓ Posted</button></div>';

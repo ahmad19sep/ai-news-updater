@@ -322,8 +322,9 @@ def dispatch(conn):
 # fields Caira returns for an approved task -> staged for the studio Ready tab
 _READY_FIELDS = ("title", "headline", "article", "x_post", "linkedin_post",
                  "facebook_post", "instagram_caption", "whatsapp_post",
-                 "youtube_short_script", "image_prompt", "fact_check_notes",
-                 "risk_level", "source", "source_url", "drive_url", "assignee")
+                 "youtube_short_script", "image_prompt", "image_url",
+                 "fact_check_notes", "risk_level", "source", "source_url",
+                 "drive_url", "assignee")
 
 
 def fetch_ready(conn):
