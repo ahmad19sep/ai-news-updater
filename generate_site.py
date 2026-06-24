@@ -208,6 +208,10 @@ PAGE = r"""<!doctype html>
   .xreason { font-size:11.5px; color:var(--dim); font-style:italic; margin-top:5px; }
   .rpimg { display:block; margin:8px 0; }
   .rpimg img { max-width:280px; max-height:200px; border-radius:10px; border:1px solid var(--line); object-fit:cover; }
+  .rppanel { margin:8px 0; padding:10px; border:1px solid var(--line); border-radius:10px; background:var(--surface2); }
+  .rphead { width:100%; box-sizing:border-box; resize:vertical; font:inherit; padding:8px 10px;
+            border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink); }
+  .rpcanvas { max-width:240px; height:auto; border-radius:10px; border:1px solid var(--line); margin-top:8px; }
   .xrall { margin-top:6px; }
   .xgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:14px; }
   .xprow { display:flex; align-items:center; gap:9px; padding:7px 0; border-top:1px solid var(--line); }
@@ -2079,7 +2083,8 @@ async function renderRepurpose() {
       body = ana + '<div class="xreps">' + def + '</div>' +
         '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="showall">👁 Show all outputs</button>' +
         '<button class="cp" data-act="regen">🔁 New</button>' +
-        (c.image_url ? '<button class="cp" data-act="dlimg">⬇ Image</button>' : "") +
+        '<button class="cp" data-act="poster">🎨 Make image</button>' +
+        (c.image_url ? '<button class="cp" data-act="dlimg">⬇ Original</button>' : "") +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
         '<div class="xrall" hidden><div class="sec-h" style="margin-top:8px">All outputs</div><div class="xreps">' + (rest || '<div class="note">no extra outputs</div>') + '</div></div>';
     } else {
@@ -2087,7 +2092,8 @@ async function renderRepurpose() {
         '<button class="cp" data-act="gen" data-ai="claude">🤖 Open in Claude</button>' +
         '<button class="cp" data-act="gen" data-ai="gpt">⚡ Open in ChatGPT</button>' +
         '<button class="cp" data-act="pasteopen">📥 Paste outputs</button>' +
-        (c.image_url ? '<button class="cp" data-act="dlimg">⬇ Image</button>' : "") +
+        '<button class="cp" data-act="poster">🎨 Make image</button>' +
+        (c.image_url ? '<button class="cp" data-act="dlimg">⬇ Original</button>' : "") +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
         '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude/ChatGPT\'s JSON object here, then Save"></textarea>' +
         '<div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" data-act="saveouts">💾 Save outputs</button></div></div>';
@@ -2134,6 +2140,7 @@ async function rpAction(act, key, c, d, b) {
     navigator.clipboard.writeText(txt).then(() => toast("Copied — paste & post ✓")); return;
   }
   if (act === "dlimg") { if (c.image_url) downloadImage(c.image_url); return; }
+  if (act === "poster") { rpPosterPanel(d, c); return; }
   if (act === "postout") {
     const t = b.dataset.t;
     let outType, text;
@@ -2247,6 +2254,79 @@ async function renderRpPerf() {
     hist.map(rpPerfCard).join("");
   el.querySelectorAll("[data-rpx]").forEach(b => b.onclick = () => rpPerfSave(b));
   el.querySelectorAll("[data-rpxdel]").forEach(b => b.onclick = () => rpPerfDel(b));
+}
+
+/* ---- Make your own branded image for a repurposed post ($0, on-canvas) ---- */
+function rpPosterHeadline(c) {
+  let s = (c.best_output && c.best_output.length <= 120 ? c.best_output : "") || c.post_text || "";
+  s = s.replace(/https?:\/\/\S+/g, "").split(/\n|(?<=[.!?])\s/)[0].trim();
+  return s.slice(0, 120);
+}
+function rpImagePrompt(c, headline) {
+  return 'Create a vertical 4:5 social-media poster image for the brand "AI x Ahmad" (@aixahmad).\n' +
+    'Render this HEADLINE exactly on the image, in bold modern high-contrast typography in the lower third, perfectly legible (you may accent one key word in warm orange): "' + headline + '"\n' +
+    'Background: a photorealistic, cinematic subject relevant to this post: "' + (c.post_text || "").slice(0, 220) + '". Dramatic lighting, dark moody tone fading darker toward the bottom to leave room for the text.\n' +
+    'Small footer text "AI x Ahmad  ·  @aixahmad" in a corner. Spell all text EXACTLY, no gibberish, no other logos or watermarks.';
+}
+function rpDrawPoster(canvas, opts) {
+  const W = 1080, H = 1350, x = canvas.getContext("2d");
+  canvas.width = W; canvas.height = H;
+  if (opts.img) {
+    const im = opts.img, r = Math.max(W / im.width, H / im.height), w = im.width * r, h = im.height * r;
+    x.drawImage(im, (W - w) / 2, (H - h) / 2, w, h);
+    const g = x.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, "rgba(12,9,6,.25)"); g.addColorStop(.5, "rgba(12,9,6,.55)"); g.addColorStop(1, "rgba(12,9,6,.93)");
+    x.fillStyle = g; x.fillRect(0, 0, W, H);
+  } else {
+    const g = x.createLinearGradient(0, 0, W, H);
+    g.addColorStop(0, "#1a1410"); g.addColorStop(.55, "#3a2418"); g.addColorStop(1, "#b85735");
+    x.fillStyle = g; x.fillRect(0, 0, W, H);
+    const rg = x.createRadialGradient(W * .8, H * .2, 0, W * .8, H * .2, 640);
+    rg.addColorStop(0, "rgba(240,168,104,.38)"); rg.addColorStop(1, "rgba(0,0,0,0)");
+    x.fillStyle = rg; x.fillRect(0, 0, W, H);
+  }
+  x.textBaseline = "alphabetic";
+  x.font = "800 34px Inter, Arial, sans-serif"; x.fillStyle = "#f0a868";
+  x.fillText((opts.category || "AI").toUpperCase().slice(0, 28), 72, 132);
+  const txt = opts.headline || "";
+  const fs = txt.length > 120 ? 60 : txt.length > 80 ? 72 : txt.length > 46 ? 86 : 98;
+  x.font = "900 " + fs + "px Inter, Arial, sans-serif"; x.fillStyle = "#ffffff";
+  const lines = _wrapLines(x, txt, W - 144).slice(0, 6), lh = Math.round(fs * 1.16);
+  let y = H - 230 - (lines.length - 1) * lh;
+  lines.forEach(l => { x.fillText(l, 72, y); y += lh; });
+  x.font = "800 42px Inter, Arial, sans-serif"; x.fillStyle = "#ffffff"; x.fillText("AI x Ahmad", 72, H - 116);
+  x.font = "600 30px Inter, Arial, sans-serif"; x.fillStyle = "rgba(255,255,255,.82)"; x.fillText("@aixahmad", 72, H - 70);
+}
+function rpPosterPanel(d, c) {
+  let panel = d.querySelector(".rppanel");
+  if (panel) { panel.hidden = !panel.hidden; return; }
+  panel = document.createElement("div"); panel.className = "rppanel";
+  const suggest = rpPosterHeadline(c);
+  panel.innerHTML =
+    '<div class="sec-h" style="margin-top:4px">🎨 Make your own branded image</div>' +
+    '<textarea class="rphead" rows="2" placeholder="Headline to put on the image (short & punchy)">' + esc(suggest) + '</textarea>' +
+    '<div class="actions" style="margin-left:0;margin-top:6px">' +
+    '<button class="cp" data-rp="gen">🖼 Branded poster</button>' +
+    (c.image_url ? '<button class="cp" data-rp="genphoto">🖼 Over the photo</button>' : "") +
+    '<button class="cp" data-rp="prompt">🤖 AI image prompt</button></div>' +
+    '<canvas class="rpcanvas" style="display:none"></canvas>' +
+    '<div class="actions" style="margin-left:0;margin-top:6px"><button class="cp rpdl" data-rp="dl" style="display:none">⬇ Download image</button></div>';
+  d.querySelector(".xrpost").after(panel);
+  const canvas = panel.querySelector(".rpcanvas");
+  const head = () => ((panel.querySelector(".rphead").value || suggest).trim()) || suggest;
+  const show = () => { canvas.style.display = "block"; panel.querySelector(".rpdl").style.display = ""; };
+  panel.querySelectorAll("[data-rp]").forEach(b => b.onclick = () => {
+    const a = b.dataset.rp;
+    if (a === "gen") { rpDrawPoster(canvas, { headline: head(), category: c.post_type || "AI" }); show(); toast("Poster ready — ⬇ Download"); }
+    else if (a === "genphoto") {
+      const im = new Image(); im.crossOrigin = "anonymous";
+      im.onload = () => { try { rpDrawPoster(canvas, { headline: head(), img: im, category: c.post_type || "AI" }); canvas.toDataURL(); show(); toast("Poster ready — ⬇ Download"); } catch (e) { rpDrawPoster(canvas, { headline: head(), category: c.post_type || "AI" }); show(); toast("Site blocked the photo — made a branded poster instead"); } };
+      im.onerror = () => { rpDrawPoster(canvas, { headline: head(), category: c.post_type || "AI" }); show(); toast("Site blocked the photo — branded poster made instead"); };
+      im.src = c.image_url;
+    }
+    else if (a === "prompt") { navigator.clipboard.writeText(rpImagePrompt(c, head())).catch(() => {}); window.open("https://chatgpt.com/", "_blank", "noopener"); toast("Image prompt copied — paste in ChatGPT/Gemini 🎨"); }
+    else if (a === "dl") { const link = document.createElement("a"); link.href = canvas.toDataURL("image/jpeg", 0.9); link.download = "aixahmad-poster.jpg"; document.body.appendChild(link); link.click(); link.remove(); toast("Downloaded ✓ — attach it to your post"); }
+  });
 }
 function bar() {
   const el = document.getElementById("pillars");
