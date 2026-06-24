@@ -205,6 +205,7 @@ PAGE = r"""<!doctype html>
   .xrrec { margin-top:5px; }
   .xrbadge { background:var(--indigo); color:#fff; border-radius:999px; padding:1px 8px; font:700 10px Inter; }
   .xrtag { background:var(--surface3); border:1px solid var(--line); border-radius:999px; padding:1px 8px; font:700 10px var(--mono); color:var(--dim); }
+  .xreason { font-size:11.5px; color:var(--dim); font-style:italic; margin-top:5px; }
   .xrall { margin-top:6px; }
   .xgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:14px; }
   .xprow { display:flex; align-items:center; gap:9px; padding:7px 0; border-top:1px solid var(--line); }
@@ -659,6 +660,7 @@ PAGE = r"""<!doctype html>
       <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
       <div class="navgrp">Engagement</div>
       <button class="navitem" id="tabbtn-xreplies" onclick="switchTab('xreplies')">↩️ <span>X Replies</span><span class="navcount" id="nc-xr"></span></button>
+      <button class="navitem" id="tabbtn-repurpose" onclick="switchTab('repurpose')">♻️ <span>Repurpose</span><span class="navcount" id="nc-rp"></span></button>
     </nav>
     <div class="sidefoot">
       <span class="av">A</span>
@@ -717,6 +719,12 @@ PAGE = r"""<!doctype html>
        Hit “✓ Use this” and it's logged in Performance so you can learn what grows the account.</p>
     <div id="xreplist"></div>
     <div id="xperf" hidden></div>
+  </section>
+
+  <section id="tab-repurpose" hidden>
+    <p class="note">♻️ Capture an X or LinkedIn post with the extension → the AI decides the smartest move and
+       writes original X / LinkedIn / comment versions for your brand. No copying, no auto-posting — you choose and post.</p>
+    <div id="rplist"></div>
   </section>
 
   <section id="tab-trends" hidden>
@@ -1509,7 +1517,7 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","ready","trends","pulse","research","xreplies"].forEach(n => {
+  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
@@ -1518,7 +1526,8 @@ function switchTab(name) {
     ready:["Ready to Post","Approved work from Caira — copy & publish"],
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
     research:["Research","Papers for your own learning"],
-    xreplies:["X Replies","Capture a post, generate replies, pick one"] };
+    xreplies:["X Replies","Capture a post, generate replies, pick one"],
+    repurpose:["Repurpose","Turn posts you see into your own content"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
@@ -1526,6 +1535,7 @@ function switchTab(name) {
   if (name === "popular") renderPopular();
   if (name === "ready") renderReady();
   if (name === "xreplies") renderXTab();
+  if (name === "repurpose") renderRepurpose();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -1982,6 +1992,125 @@ async function xpDel(btn) {
   const key = card.getAttribute("data-pk");
   try { fetch(fbRoot() + "/x_performance/" + key + ".json", { method: "DELETE" }); } catch (e) {}
   card.remove(); toast("Removed");
+}
+
+/* ---------------- Post Repurpose Engine ---------------- */
+function rpTypeLabel(t) {
+  const m = { x_post: "𝕏 X post", linkedin_post: "in LinkedIn post", comment_reply: "💬 Comment / reply",
+    question_post: "❓ Question post", hot_take: "🔥 Hot take", builder_angle: "🛠 Builder angle", skip: "⏭ Skip" };
+  return m[t] || (t || "output").replace(/_/g, " ");
+}
+function rpPatch(key, obj) {
+  return fetch(fbRoot() + "/social_captures/" + key + ".json", { method: "PATCH",
+    headers: { "Content-Type": "application/json" }, body: JSON.stringify(obj) });
+}
+function rpCount() {
+  if (!FBURL) return;
+  fetch(fbRoot() + "/social_captures.json").then(r => r.json()).then(d => {
+    const n = Object.values(d || {}).filter(v => v && v.status !== "skipped" && v.status !== "posted").length;
+    const el = document.getElementById("nc-rp"); if (el) el.textContent = n || "";
+  }).catch(() => {});
+}
+async function renderRepurpose() {
+  const el = document.getElementById("rplist"); if (!el) return;
+  const nc = document.getElementById("nc-rp");
+  if (!FBURL) { el.innerHTML = '<div class="empty">Connect cloud sync to use the Repurpose Engine.</div>'; return; }
+  el.innerHTML = '<div class="note">Loading…</div>';
+  let data = {};
+  try { data = (await (await fetch(fbRoot() + "/social_captures.json")).json()) || {}; } catch (e) {}
+  const items = Object.entries(data || {}).filter(e => e[1] && e[1].status !== "skipped" && e[1].status !== "posted")
+    .sort((a, b) => String(b[1].created_at || "").localeCompare(String(a[1].created_at || "")));
+  if (nc) nc.textContent = items.length || "";
+  if (!items.length) {
+    el.innerHTML = '<div class="empty">No captured posts yet. Use the “Send to Radar Studio” extension on an X or LinkedIn post (on LinkedIn, select the post text first), then choose ♻️ Repurpose.</div>';
+    return;
+  }
+  el.innerHTML = "";
+  items.forEach(([key, c]) => {
+    const d = document.createElement("div"); d.className = "card";
+    const outs = c.outputs || [];
+    const byType = t => outs.find(o => o.type === t);
+    const block = (label, o, badge, copyT) => {
+      if (!o || !o.text) return "";
+      return '<div class="xrep' + (badge ? " rec" : "") + '">' +
+        '<div class="xrstyle">' + (badge ? '<span class="xrbadge">' + badge + '</span> ' : "") + esc(label) +
+        (o.score ? ' · <span class="xrscore">' + o.score + '/10</span>' : "") + '</div>' +
+        '<div class="xrtext">' + esc(o.text) + '</div>' +
+        (o.reason ? '<div class="xreason">' + esc(o.reason) + '</div>' : "") +
+        '<div class="xractions"><button class="cp" data-act="copyo" data-t="' + esc(copyT) + '">📋 Copy</button></div></div>';
+    };
+    let body;
+    if (outs.length) {
+      const ana = '<div class="xranalysis">🤖 <b>AI read:</b> ' + esc(c.analysis || "") +
+        (c.post_type ? ' <span class="xrtag">' + esc(c.post_type) + (c.best_action ? " → " + esc(c.best_action) : "") + '</span>' : "") +
+        (c.recommend_why ? '<div class="xrrec">⭐ Best move: <b>' + esc(rpTypeLabel(c.best_output_type || c.best_action || "")) + '</b> — ' + esc(c.recommend_why) + '</div>' : "") + '</div>';
+      const best = c.best_output ? { type: c.best_output_type || "best", text: c.best_output, score: "", reason: "" } : (byType(c.best_output_type) || outs[0]);
+      const def =
+        block("⭐ Best — " + rpTypeLabel((best && best.type) || ""), best, "Best", "__best__") +
+        block("𝕏 X version", byType("x_post"), "", "x_post") +
+        block("in LinkedIn version", byType("linkedin_post"), "", "linkedin_post") +
+        block("💬 Comment / reply", byType("comment_reply"), "", "comment_reply");
+      const shown = { x_post: 1, linkedin_post: 1, comment_reply: 1 };
+      const rest = outs.filter(o => !shown[o.type]).map(o => block(rpTypeLabel(o.type), o, "", o.type)).join("");
+      body = ana + '<div class="xreps">' + def + '</div>' +
+        '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="showall">👁 Show all outputs</button>' +
+        '<button class="cp" data-act="regen">🔁 New</button><button class="cp" data-act="posted">✓ Mark posted</button>' +
+        '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
+        '<div class="xrall" hidden><div class="sec-h" style="margin-top:8px">All outputs</div><div class="xreps">' + (rest || '<div class="note">no extra outputs</div>') + '</div></div>';
+    } else {
+      body = '<div class="actions" style="margin-left:0;margin-top:9px">' +
+        '<button class="cp" data-act="gen" data-ai="claude">🤖 Open in Claude</button>' +
+        '<button class="cp" data-act="gen" data-ai="gpt">⚡ Open in ChatGPT</button>' +
+        '<button class="cp" data-act="pasteopen">📥 Paste outputs</button>' +
+        '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
+        '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude/ChatGPT\'s JSON object here, then Save"></textarea>' +
+        '<div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" data-act="saveouts">💾 Save outputs</button></div></div>';
+    }
+    d.innerHTML =
+      '<div class="meta"><span class="pill">' + (c.platform === "linkedin" ? "in LinkedIn" : "𝕏 X") + '</span>' +
+      '<span class="src">' + esc(c.author_name || "author") + '</span>' +
+      (c.author_handle ? '<span>' + esc(c.author_handle.replace(/^https?:\/\/(www\.)?linkedin\.com/, "")) + '</span>' : "") +
+      '<span class="pill">' + esc(c.status || "captured") + '</span>' +
+      (c.source_url ? '<a class="cp" href="' + esc(c.source_url) + '" target="_blank" rel="noopener">↗ Open post</a>' : "") + '</div>' +
+      '<div class="xrpost">' + esc(c.post_text || "") + '</div>' + body;
+    d.querySelectorAll("[data-act]").forEach(b => b.onclick = () => rpAction(b.dataset.act, key, c, d, b));
+    el.appendChild(d);
+  });
+}
+async function rpAction(act, key, c, d, b) {
+  if (act === "gen") {
+    const ai = b.dataset.ai === "gpt" ? "ChatGPT" : "Claude";
+    const url = b.dataset.ai === "gpt" ? "https://chatgpt.com/" : "https://claude.ai/new";
+    navigator.clipboard.writeText(window.buildPostRepurposePrompt(c)).catch(() => {});
+    window.open(url, "_blank", "noopener");
+    const p = d.querySelector(".xrpaste"); if (p) p.hidden = false;
+    toast("Prompt copied — paste it in " + ai + " ✓");
+    return;
+  }
+  if (act === "showall") { const a = d.querySelector(".xrall"); if (a) { a.hidden = !a.hidden; b.textContent = a.hidden ? "👁 Show all outputs" : "🙈 Hide"; } return; }
+  if (act === "pasteopen") { const p = d.querySelector(".xrpaste"); if (p) p.hidden = !p.hidden; return; }
+  if (act === "saveouts") {
+    const ta = d.querySelector(".xrjson"); let o;
+    try { o = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste exactly what the AI returned"); return; }
+    const outs = (o.outputs || []).map(x => ({ type: x.type || "x_post", text: String(x.text || "").trim(), score: (+x.score || 0), reason: String(x.reason || "") })).filter(x => x.text);
+    if (!outs.length && !o.best_output) { toast("No outputs found in that JSON"); return; }
+    await rpPatch(key, {
+      outputs: outs, analysis: o.analysis || "", recommend_why: o.recommend_why || "",
+      post_type: o.post_type || "", best_action: o.best_action || "",
+      best_output_type: o.best_output_type || "", best_output: String(o.best_output || "").trim(),
+      should_repurpose: o.should_repurpose !== false, status: "analyzed", updated_at: new Date().toISOString()
+    });
+    toast("Outputs saved ✓"); renderRepurpose(); return;
+  }
+  if (act === "copyo") {
+    const t = b.dataset.t;
+    const txt = t === "__best__" ? (c.best_output || "") : ((c.outputs || []).find(o => o.type === t) || {}).text || "";
+    navigator.clipboard.writeText(txt).then(() => toast("Copied — paste & post ✓")); return;
+  }
+  if (act === "regen") { await rpPatch(key, { outputs: [], status: "captured", updated_at: new Date().toISOString() }); renderRepurpose(); return; }
+  if (act === "posted") { await rpPatch(key, { status: "posted", updated_at: new Date().toISOString() }); toast("Marked posted ✓"); renderRepurpose(); return; }
+  if (act === "skip") { await rpPatch(key, { status: "skipped", updated_at: new Date().toISOString() }); toast("Skipped"); renderRepurpose(); return; }
+  if (act === "del") { try { fetch(fbRoot() + "/social_captures/" + key + ".json", { method: "DELETE" }); } catch (e) {} d.remove(); toast("Removed"); return; }
 }
 function bar() {
   const el = document.getElementById("pillars");
@@ -4748,6 +4877,7 @@ function readyCount() {
 }
 readyCount();
 xrCount();
+rpCount();
 attachMention(document.getElementById("m-chat-text"));
 ROLE = "owner"; localStorage.setItem("role", "owner");   /* owner-only studio (editors/chat removed) */
 applyRole(true);

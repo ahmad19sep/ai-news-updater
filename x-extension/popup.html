@@ -3,30 +3,35 @@
 <head>
 <meta charset="utf-8">
 <style>
-  body { width: 300px; margin: 0; font: 14px/1.45 -apple-system, "Segoe UI", Roboto, sans-serif;
+  body { width: 320px; margin: 0; font: 14px/1.45 -apple-system, "Segoe UI", Roboto, sans-serif;
          background: #faf9f5; color: #28261f; }
   .hd { display: flex; align-items: center; gap: 8px; padding: 13px 14px; border-bottom: 1px solid #e6e1d4; }
   .orb { width: 24px; height: 24px; border-radius: 6px; background: #c4633f; display: flex;
          align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 13px; }
   .hd b { font-size: 14px; }
+  .hd .plat { margin-left: auto; font-size: 11px; color: #6b6660; background: #efece3;
+              border: 1px solid #e6e1d4; border-radius: 999px; padding: 2px 9px; }
   .body { padding: 14px; }
   .prev { font-size: 12.5px; color: #56606b; background: #fff; border: 1px solid #e6e1d4;
-          border-radius: 8px; padding: 9px 11px; max-height: 96px; overflow: auto; white-space: pre-wrap;
+          border-radius: 8px; padding: 9px 11px; max-height: 110px; overflow: auto; white-space: pre-wrap;
           margin-bottom: 12px; min-height: 20px; }
-  button { width: 100%; border: none; background: #c4633f; color: #fff; font-weight: 600; font-size: 14px;
-           padding: 11px; border-radius: 9px; cursor: pointer; }
-  button:hover { background: #af522f; }
-  button:disabled { opacity: .6; cursor: default; }
-  .st { font-size: 12.5px; color: #56606b; margin-top: 10px; text-align: center; min-height: 16px; }
-  .st.ok { color: #1a7f37; font-weight: 600; }
-  .st.err { color: #bf3d2c; }
+  button { width: 100%; border: none; color: #fff; font-weight: 600; font-size: 14px;
+           padding: 11px; border-radius: 9px; cursor: pointer; margin-bottom: 8px; }
+  #rep { background: #c4633f; } #rep:hover { background: #af522f; }
+  #reply { background: #1f1e1c; } #reply:hover { background: #000; }
+  button:disabled { opacity: .5; cursor: default; }
+  .hint { font-size: 11px; color: #9b958a; margin: 2px 0 10px; }
+  .st { font-size: 12.5px; color: #56606b; margin-top: 8px; text-align: center; min-height: 16px; }
+  .st.ok { color: #1a7f37; font-weight: 600; } .st.err { color: #bf3d2c; }
 </style>
 </head>
 <body>
-  <div class="hd"><span class="orb">◐</span><b>Send to AI Radar Studio</b></div>
+  <div class="hd"><span class="orb">◐</span><b>Send to AI Radar Studio</b><span class="plat" id="plat">—</span></div>
   <div class="body">
-    <div class="prev" id="prev">Open a tweet, then click below.</div>
-    <button id="send">📤 Send this post to Radar</button>
+    <div class="prev" id="prev">Open a post (or select its text), then choose below.</div>
+    <button id="rep">♻️ Repurpose this post</button>
+    <button id="reply">↩️ Reply to this post (X)</button>
+    <div class="hint">Tip: on LinkedIn, select the post text first for best results.</div>
     <div class="st" id="st"></div>
   </div>
   <script src="popup.js"></script>
