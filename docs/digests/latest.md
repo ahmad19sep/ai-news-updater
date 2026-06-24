@@ -19,10 +19,10 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 6. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
-7. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2hyMlFMRnk0YVZocDNRdWY4TTd5cTBESzREQXZ1U25rNzNVVlJZWGFTaU55dmZzWjliMUFBUUVzWWlZT3I1T0o5eHY1ajM3RmxPTWVIaE40aDgwLXFXcjFCNnlWRUNyV3NRWnZ2WE5qcElWX0hfSkRYLUFpLXFxYmV0SVg?oc=5
-8. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
+7. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
    https://www.nature.com/articles/s41586-026-10674-6
+8. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 126
@@ -54,8 +54,8 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2705
-- Most active topic: anthropic
+- Total stories tracked: 2718
+- Most active topic: openai
 - Busiest category: AI General News
 
 ---
