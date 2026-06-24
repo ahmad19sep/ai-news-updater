@@ -355,6 +355,8 @@ def fetch_ready(conn):
     seen = set(json.loads(database.get_meta(conn, "caira_ready_seen", "[]") or "[]"))
     n = 0
     for it in items:
+        if not isinstance(it, dict):   # e.g. Caira returned an {"error": ...} object
+            continue
         tid = str(it.get("id") or it.get("external_id") or "")
         if not tid or tid in seen:
             continue

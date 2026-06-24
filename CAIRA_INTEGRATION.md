@@ -162,8 +162,17 @@ Header: Authorization: Bearer <RADAR_INGEST_TOKEN>
   }
 ]
 ```
+**⚠ Run the `stage7.sql` migration FIRST.** If `/api/ready` (or `/api/tasks`) selects
+or inserts a column that doesn't exist yet (e.g. `image_url`), Supabase returns a
+`500 column ... does not exist` and nothing flows. Add the columns, then wire the query.
+
 **Return owner-approved tasks ONLY.** A task must be approved by the owner in Caira
 before it appears here — a worker submitting is not enough.
+
+**Don't "consume on read."** Prefer to just return every owner-approved task each
+call — AI Radar already de-dupes by `id`, so repeats are harmless. (If you instead
+mark `radar_delivered=true` on read, a single stray GET — e.g. a test — permanently
+hides that task from AI Radar. Letting Radar de-dupe is safer.)
 
 The text fields come from **parsing the worker's pasted AI output** (the `[[MARKER]]`
 blocks in section 5). Also include **`image_url`** — the public URL of the poster the
