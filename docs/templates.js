@@ -376,8 +376,15 @@ window.buildXReplyPrompt = function (o) {
     "",
     "Rules: each reply must stand alone and sound human; be specific to THIS post (reference its actual point); <=280 characters; no @mention needed (it's a reply); 0-1 hashtag only if natural; no emojis unless they truly help; never insult anyone.",
     "",
-    'Return ONLY a JSON array of 7 objects, no text outside it:',
-    '[{"style":"smart","text":"...","score":8}, {"style":"short","text":"...","score":7}, ...]',
-    'where "style" is one of: smart, short, question, founder, builder, opinion, supportive; and "score" is 1-10 = your honest estimate of how much engagement it will earn.',
+    "First ANALYZE the post: what kind of post it is (news / hot take / question / joke / personal / announcement…), its tone, and which kind of reply will land best here. Then pick the single BEST style for THIS post.",
+    "",
+    "Return ONLY a JSON object, no text outside it, in EXACTLY this shape:",
+    "{",
+    '  "analysis": "1-2 sentences: what this post is and what kind of reply wins here",',
+    '  "recommend": "<one of: smart, short, question, founder, builder, opinion, supportive>",',
+    '  "recommend_why": "one short line on why that style is best for THIS post",',
+    '  "replies": [ {"style":"smart","text":"...","score":8}, ... all 7 styles ]',
+    "}",
+    'where "score" is 1-10 = your honest estimate of how much engagement that reply earns. "recommend" must be the single best style for this specific post.',
   ].join("\n");
 };

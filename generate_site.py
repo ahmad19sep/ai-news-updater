@@ -199,6 +199,11 @@ PAGE = r"""<!doctype html>
   .xreps { display:flex; flex-direction:column; gap:9px; margin-top:8px; }
   .xrep { border:1px solid var(--line); border-radius:11px; padding:11px 13px; background:var(--surface); }
   .xrep.sel { border-color:var(--cta); box-shadow:0 0 0 2px #f0ddd0; }
+  .xrep.rec { border-color:var(--indigo); box-shadow:0 0 0 2px #f4e7df; }
+  .xranalysis { font-size:13px; line-height:1.5; background:var(--indigo-soft); border:1px solid var(--line);
+          border-radius:10px; padding:10px 13px; margin:8px 0; }
+  .xrrec { margin-top:5px; }
+  .xrbadge { background:var(--indigo); color:#fff; border-radius:999px; padding:1px 8px; font:700 10px Inter; }
   .xrstyle { font:700 11.5px Inter; color:var(--dim); letter-spacing:.02em; }
   .xrscore { color:var(--gold); }
   .xrtext { font-size:14px; line-height:1.5; margin:6px 0 9px; white-space:pre-wrap; }
@@ -1742,12 +1747,21 @@ async function renderXReplies() {
     const reps = c.replies || [];
     let body;
     if (reps.length) {
-      body = '<div class="xreps">' + reps.map((r, i) =>
-        '<div class="xrep' + (c.selected_reply === r.text ? " sel" : "") + '">' +
-        '<div class="xrstyle">' + esc(xrStyleLabel(r.style)) + ' · <span class="xrscore">' + (r.score || "?") + '/10</span></div>' +
+      const ana = (c.analysis || c.recommend) ?
+        '<div class="xranalysis">🤖 <b>AI read:</b> ' + esc(c.analysis || "") +
+        (c.recommend ? '<div class="xrrec">⭐ Best for this post: <b>' + esc(xrStyleLabel(c.recommend)) + '</b>' +
+          (c.recommend_why ? ' — ' + esc(c.recommend_why) : "") + '</div>' : "") + '</div>' : "";
+      const ordered = reps.map((r, i) => ({ r, i })).sort((a, bb) =>
+        ((bb.r.style === c.recommend) - (a.r.style === c.recommend)) || ((bb.r.score || 0) - (a.r.score || 0)));
+      body = ana + '<div class="xreps">' + ordered.map(o => {
+        const r = o.r, i = o.i, rec = c.recommend && r.style === c.recommend;
+        return '<div class="xrep' + (c.selected_reply === r.text ? " sel" : "") + (rec ? " rec" : "") + '">' +
+        '<div class="xrstyle">' + esc(xrStyleLabel(r.style)) + ' · <span class="xrscore">' + (r.score || "?") + '/10</span>' +
+        (rec ? ' <span class="xrbadge">⭐ Recommended</span>' : "") + '</div>' +
         '<div class="xrtext">' + esc(r.text) + '</div>' +
         '<div class="xractions"><button class="cp" data-act="copyr" data-i="' + i + '">📋 Copy</button>' +
-        '<button class="cp" data-act="selr" data-i="' + i + '">✓ Use this</button></div></div>').join("") + '</div>' +
+        '<button class="cp" data-act="selr" data-i="' + i + '">✓ Use this</button></div></div>';
+      }).join("") + '</div>' +
         '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="regen">🔁 New replies</button>' +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>';
     } else {
@@ -1776,12 +1790,16 @@ async function xrAction(act, key, c, d, b) {
   }
   if (act === "pasteopen") { const p = d.querySelector(".xrpaste"); if (p) p.hidden = !p.hidden; return; }
   if (act === "savereplies") {
-    const ta = d.querySelector(".xrjson"); let arr;
-    try { arr = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste the array Claude returned"); return; }
-    if (!Array.isArray(arr) || !arr.length) { toast("Expected a JSON array of replies"); return; }
-    const reps = arr.map(r => ({ style: (r.style || "smart"), text: String(r.text || r.reply || "").trim(), score: (+r.score || 0) })).filter(r => r.text).slice(0, 7);
+    const ta = d.querySelector(".xrjson"); let parsed;
+    try { parsed = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste exactly what Claude returned"); return; }
+    let arr = [], analysis = "", recommend = "", recommend_why = "";
+    if (Array.isArray(parsed)) { arr = parsed; }
+    else if (parsed && typeof parsed === "object") {
+      arr = parsed.replies || []; analysis = parsed.analysis || ""; recommend = parsed.recommend || ""; recommend_why = parsed.recommend_why || "";
+    }
+    const reps = (arr || []).map(r => ({ style: (r.style || "smart"), text: String(r.text || r.reply || "").trim(), score: (+r.score || 0) })).filter(r => r.text).slice(0, 7);
     if (!reps.length) { toast("No reply text found in that JSON"); return; }
-    await xrPatch(key, { replies: reps, status: "generated", updated_at: new Date().toISOString() });
+    await xrPatch(key, { replies: reps, analysis, recommend, recommend_why, status: "generated", updated_at: new Date().toISOString() });
     toast(reps.length + " replies saved ✓"); renderXReplies(); return;
   }
   if (act === "copyr") { const r = (c.replies || [])[+b.dataset.i]; if (r) navigator.clipboard.writeText(r.text).then(() => toast("Reply copied — paste it on X ✓")); return; }
