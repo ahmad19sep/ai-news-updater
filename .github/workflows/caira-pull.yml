@@ -1,0 +1,32 @@
+name: Caira Ready pull (every 5 min)
+
+# Lightweight, frequent puller: just fetches Caira's APPROVED work and stages it
+# in Firebase /ready_to_post so it shows in the studio Ready-to-Post tab within a
+# few minutes (vs the hourly main fetch). No database, no commit, no site rebuild.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: caira-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
+      CAIRA_API_URL: ${{ secrets.CAIRA_API_URL }}
+      CAIRA_API_KEY: ${{ secrets.CAIRA_API_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Pull approved Caira work -> Ready to Post
+        run: python -c "import caira; print('staged:', caira.fetch_ready())"

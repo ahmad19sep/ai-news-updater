@@ -327,15 +327,17 @@ _READY_FIELDS = ("title", "headline", "article", "x_post", "linkedin_post",
                  "drive_url", "assignee")
 
 
-def fetch_ready(conn):
+def fetch_ready(conn=None):
     """Pull APPROVED tasks from Caira and stage them in Firebase /ready_to_post
-    for the studio's Ready-to-Post tab. De-dupes by task id. Returns how many
-    new ready items were staged.
+    for the studio's Ready-to-Post tab. De-dupes by task id via Firebase
+    (/ready_seen), so this needs NO database/commit — a tiny job can run it every
+    few minutes for near-instant delivery. Returns how many new items were staged.
 
-    Needs a third Caira endpoint:
+    Needs the Caira endpoint:
       GET {CAIRA_API_URL}/ready  (Bearer auth) -> JSON list of approved tasks,
       each with: id + the parsed sections in _READY_FIELDS.
     """
+    import time as _t
     if not enabled():
         return 0
     fb = _firebase()
@@ -350,9 +352,11 @@ def fetch_ready(conn):
     if not isinstance(items, list):
         items = list(items.values()) if isinstance(items, dict) else []
 
-    import time as _t
-    import database
-    seen = set(json.loads(database.get_meta(conn, "caira_ready_seen", "[]") or "[]"))
+    try:
+        seen = set(requests.get(fb + "/ready_seen.json", timeout=TIMEOUT).json() or [])
+    except Exception:
+        seen = set()
+
     n = 0
     for it in items:
         if not isinstance(it, dict):   # e.g. Caira returned an {"error": ...} object
@@ -370,6 +374,10 @@ def fetch_ready(conn):
         except Exception:
             pass
     if n:
-        database.set_meta(conn, "caira_ready_seen", json.dumps(list(seen)[-400:]))
+        try:
+            requests.put(fb + "/ready_seen.json",
+                         data=json.dumps(list(seen)[-600:]), timeout=TIMEOUT)
+        except Exception:
+            pass
         print(f"  [<] Caira: {n} approved task(s) -> Ready to Post")
     return n
