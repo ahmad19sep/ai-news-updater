@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2686
+- Total stories tracked: 2705
 - Most active topic: anthropic
 - Busiest category: AI General News
 
