@@ -59,17 +59,23 @@ function grabLinkedIn() {
 }
 
 function grab() {
-  const p = platformOf();
-  if (p === "x") {
-    const t = grabTweet();
+  try {
     const sel = selectedText();
-    if (t && sel) t.post_text = sel;        // honor a manual selection on X too
-    return t;
+    if (platformOf() === "x") {
+      const t = grabTweet();
+      if (t && sel) t.post_text = sel;        // honor a manual selection on X too
+      // last resort: if no tweet detected but text is selected, use the selection
+      if ((!t || !t.post_text) && sel) return { platform: "x", post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: (location.pathname.match(/status\/(\d+)/) || [])[1] || "" };
+      return t;
+    }
+    return grabLinkedIn();
+  } catch (e) {
+    const sel = selectedText();
+    return sel ? { platform: platformOf(), post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: "" } : null;
   }
-  return grabLinkedIn();
 }
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
-  if (msg === "grab") { sendResponse(grab()); }
+  if (msg === "grab") { try { sendResponse(grab()); } catch (e) { sendResponse(null); } }
   return true;
 });
