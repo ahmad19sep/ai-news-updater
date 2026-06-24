@@ -363,6 +363,43 @@ window.XREPLY_STYLES = [
   ["supportive", "🤝 Supportive",      "a warm, encouraging, genuinely supportive reply"],
 ];
 window.buildXReplyPrompt = function (o) {
+  o = o || {};
+  if (o.brief) {
+    return [
+      "You are writing an X/Twitter reply for @aixahmad — a smart, human voice (never a brand or an AI assistant).",
+      "",
+      "Reply to THIS X post:",
+      "AUTHOR: " + (o.author_name || "") + " " + (o.author_handle || ""),
+      'POST: "' + (o.post_text || "") + '"',
+      "",
+      "THINK FIRST, then write — decide what THIS post actually needs, then write the 2 strongest replies:",
+      "- If it asks a question, ANSWER it directly (do not ask another question back).",
+      "- News -> add a smart angle or implication. Hot take -> agree or disagree with a clear reason.",
+      "- Joke/meme -> witty or relatable. Personal win -> genuinely supportive. Technical -> a practical builder angle.",
+      "- Only ask a question when that is genuinely the smartest reply.",
+      "",
+      "VOICE: sound like a sharp friend replying under the post — casual, specific, human. No corporate/LinkedIn words (transformative, leveraging, game-changer, robust, seamless). No fake praise ('Great insight!', 'This is huge'). Never invent facts, numbers, or names. No hashtags. Text only. Under 280 characters.",
+      "EMOJIS: use where they feel natural (0-1 per reply), never forced.",
+      "",
+      "Give the BEST reply and ONE BACKUP (a meaningfully different angle or style).",
+      "",
+      "Return ONLY this JSON, nothing else:",
+      "{",
+      '  "post_type": "question | news | hot_take | joke_or_meme | personal_update | launch_or_announcement | technical | debate | advice | unclear",',
+      '  "best_action": "answer_directly | add_insight | ask_followup | agree_and_expand | respectfully_challenge | make_it_relatable | add_builder_angle | be_supportive | be_witty | clarify",',
+      '  "analysis": "1 casual sentence: what this post is and what reply will work",',
+      '  "recommend": "smart | short | question | relatable | builder | opinion | supportive",',
+      '  "recommend_why": "one short line on why the best reply fits",',
+      '  "best_reply": "the single strongest reply, ready to paste",',
+      '  "backup_reply": "the second reply, a different angle",',
+      '  "replies": [',
+      '    {"style":"<style of best>","text":"<best_reply, word for word>","score":9},',
+      '    {"style":"<style of backup>","text":"<backup_reply, word for word>","score":8}',
+      "  ]",
+      "}",
+      "Both replies MUST be under 280 characters and copied word-for-word into the replies list.",
+    ].join("\n");
+  }
   const styles = window.XREPLY_STYLES
     .map((s, i) => (i + 1) + ") " + s[0] + " — " + s[2])
     .join("\n");

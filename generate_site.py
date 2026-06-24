@@ -1897,14 +1897,16 @@ async function renderXReplies() {
       };
       const top = card(bestI, "⭐ Best reply") + (backI >= 0 ? card(backI, "🔁 Backup") : "");
       const all = reps.map((r, i) => card(i, (i === bestI ? "⭐ Best" : i === backI ? "🔁 Backup" : ""))).join("");
+      const showAll = reps.length > 2 ? '<button class="cp" data-act="showall">👁 Show all ' + reps.length + '</button>' : "";
       body = ana + '<div class="xreps">' + top + '</div>' +
-        '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="showall">👁 Show all 7</button>' +
+        '<div class="actions" style="margin-left:0;margin-top:9px">' + showAll +
         '<button class="cp" data-act="regen">🔁 New</button><button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
-        '<div class="xrall" hidden><div class="sec-h" style="margin-top:8px">All 7 replies</div><div class="xreps">' + all + '</div></div>';
+        (reps.length > 2 ? '<div class="xrall" hidden><div class="sec-h" style="margin-top:8px">All ' + reps.length + ' replies</div><div class="xreps">' + all + '</div></div>' : "");
     } else {
       body = '<div class="actions" style="margin-left:0;margin-top:9px">' +
-        '<button class="cp" data-act="gen" data-ai="claude">🤖 Open in Claude</button>' +
-        '<button class="cp" data-act="gen" data-ai="gpt">⚡ Open in ChatGPT</button>' +
+        '<button class="cp" data-act="apigen">⚡ Reply (API)</button>' +
+        '<button class="cp" data-act="gen" data-ai="claude">🤖 Claude</button>' +
+        '<button class="cp" data-act="gen" data-ai="gpt">💬 ChatGPT</button>' +
         '<button class="cp" data-act="pasteopen">📥 Paste replies</button>' +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
         '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude/ChatGPT\'s JSON object here, then Save"></textarea>' +
@@ -1949,7 +1951,32 @@ async function xrAction(act, key, c, d, b) {
     toast("Prompt copied — paste it in " + ai + " ✓");
     return;
   }
-  if (act === "showall") { const a = d.querySelector(".xrall"); if (a) { a.hidden = !a.hidden; b.textContent = a.hidden ? "👁 Show all 7" : "🙈 Hide"; } return; }
+  if (act === "apigen") {
+    const url = xmApiUrl();
+    if (!url) { toast("Set your API endpoint first (X Mini → ⚙️ API setup)"); switchTab("xmini"); return; }
+    b.disabled = true; const old = b.textContent; b.textContent = "⚡ …";
+    try {
+      const prompt = window.buildXReplyPrompt(Object.assign({}, c, { brief: true }));
+      const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: prompt, model: "claude-sonnet-4-6", max_tokens: 600, temperature: 0.7 }) });
+      const data = await r.json();
+      const text = data.text || (data.content && data.content[0] && data.content[0].text) || "";
+      if (!text) throw new Error(data.error || "empty response");
+      const o = xmExtractJson(text);
+      let reps = (o.replies || []).map(x => ({ style: x.style || "smart", text: String(x.text || "").trim(), score: +x.score || 0 })).filter(x => x.text).slice(0, 2);
+      if (!reps.length && o.best_reply) reps = [{ style: o.recommend || "smart", text: String(o.best_reply).trim(), score: 9 }];
+      if (!reps.length) throw new Error("no replies in response");
+      await xrPatch(key, {
+        replies: reps, analysis: o.analysis || "", recommend: o.recommend || (reps[0] && reps[0].style) || "",
+        recommend_why: o.recommend_why || "", post_type: o.post_type || "", best_action: o.best_action || "",
+        best_reply: String(o.best_reply || (reps[0] && reps[0].text) || "").trim(),
+        backup_reply: String(o.backup_reply || (reps[1] && reps[1].text) || "").trim(),
+        status: "generated", updated_at: new Date().toISOString()
+      });
+      toast("⚡ 2 replies ready — pick one"); renderXReplies();
+    } catch (e) { toast("API failed: " + (e.message || e) + " — check your Worker / key"); b.disabled = false; b.textContent = old; }
+    return;
+  }
+  if (act === "showall") { const a = d.querySelector(".xrall"); if (a) { a.hidden = !a.hidden; b.textContent = a.hidden ? "👁 Show all" : "🙈 Hide"; } return; }
   if (act === "pasteopen") { const p = d.querySelector(".xrpaste"); if (p) p.hidden = !p.hidden; return; }
   if (act === "savereplies") {
     const ta = d.querySelector(".xrjson"); let parsed;
