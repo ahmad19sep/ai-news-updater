@@ -1600,6 +1600,33 @@ function downloadImage(url) {
     setTimeout(() => URL.revokeObjectURL(u), 5000);
   }).catch(() => { window.open(url, "_blank", "noopener"); toast("Opened image — long-press / right-click to save"); });
 }
+/* Step 1 of posting: publish the article to your AI Radar website, so the social
+   posts can link to it. Mirrors the News-card 🌐 Publish (writes Firebase /published). */
+function publishReady(r, btn) {
+  if (!FBURL) { toast("Cloud not connected"); return; }
+  const title = r.headline || r.title || "", body = r.article || "";
+  if (!title || !body) { toast("This task has no article body to publish"); return; }
+  const id = String(Date.now());
+  const art = { id, title, body, url: r.source_url || "", image: r.image_url || "",
+    cat: r.category || "", ts: Date.now() };
+  btn.disabled = true; btn.textContent = "Publishing…";
+  fetch(pubBase() + "/" + id + ".json", { method: "PUT",
+    headers: { "Content-Type": "application/json" }, body: JSON.stringify(art) })
+    .then(rr => {
+      if (!rr.ok) { btn.disabled = false; btn.textContent = "🌐 Publish to website"; toast("Publish blocked — check Firebase /published rule"); return; }
+      r._link = PUBLIC_SITE + "/#a=" + id;
+      btn.outerHTML = '<a class="cp" style="border-color:var(--cta);color:var(--cta)" href="' + r._link + '" target="_blank" rel="noopener">✅ On website ↗</a>';
+      toast("🌐 Live on your website — posts now link to it");
+    })
+    .catch(() => { btn.disabled = false; btn.textContent = "🌐 Publish to website"; toast("Publish failed"); });
+}
+/* swap the [ARTICLE LINK] token for the live website link (or the source as fallback) */
+function readyText(r, f) {
+  let t = r[f] || "";
+  const link = r._link || r.source_url || "";
+  if (link) t = t.replace(/\[ARTICLE LINK\]/g, link);
+  return t;
+}
 async function renderReady() {
   const el = document.getElementById("readylist"); if (!el) return;
   const nc = document.getElementById("nc-ready");
@@ -1626,20 +1653,23 @@ async function renderReady() {
       '<h2>' + esc(r.headline || r.title || "(untitled)") + "</h2>" +
       '<div class="meta">' + (r.source ? '<span>' + esc(r.source) + "</span>" : "") + risk +
       (r.assignee ? '<span>by ' + esc(r.assignee) + "</span>" : "") + "</div>" +
-      '<div class="actions" style="flex-wrap:wrap;gap:6px;margin-top:9px;margin-left:0">' + postBtns + copyBtns + dl +
+      '<div class="actions" style="flex-wrap:wrap;gap:6px;margin-top:9px;margin-left:0">' +
+      (r.article ? '<button class="cp" data-act="pubweb" style="border-color:var(--indigo);color:var(--indigo)">🌐 Publish to website</button>' : "") +
+      postBtns + copyBtns + dl +
       (r.source_url ? '<a class="cp" href="' + esc(r.source_url) + '" target="_blank" rel="noopener">↗ Source</a>' : "") +
       (r.drive_url ? '<a class="cp" href="' + esc(r.drive_url) + '" target="_blank" rel="noopener">📁 Drive</a>' : "") +
       '<button class="cp posted">✓ Posted</button></div>';
     d.querySelectorAll(".cp[data-act]").forEach(b => b.onclick = () => {
       const act = b.dataset.act, f = b.dataset.f;
+      if (act === "pubweb") { publishReady(r, b); return; }
       if (act === "dlimg") { downloadImage(r.image_url); return; }
-      const txt = r[f] || "";
+      const txt = readyText(r, f);                 // [ARTICLE LINK] -> website/source link
       if (act === "copy") { navigator.clipboard.writeText(txt).then(() => toast("Copied ✓")); return; }
-      if (act === "post") {                       // copy text, then open the platform
+      if (act === "post") {                        // copy text, then open the platform
         navigator.clipboard.writeText(txt).catch(() => {});
         const u = POSTURL[f] ? POSTURL[f](txt) : null;
         if (u) window.open(u, "_blank", "noopener");
-        toast("Post copied — paste it on the page that opened ✓");
+        toast(r._link ? "Post copied (links to your site) — paste it ✓" : "Post copied — paste it on the page that opened ✓");
       }
     });
     d.querySelector(".posted").onclick = () => {
