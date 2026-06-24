@@ -602,7 +602,7 @@ window.buildXMiniPrompt = function (o) {
     "STYLE RULES (X-native):",
     "- Casual, sharp, simple, human. ONE strong idea only.",
     "- No corporate buzzwords, no LinkedIn tone, no hashtag stuffing, no links.",
-    "- Emojis optional and rare (0-1).",
+    "- Use emojis where they fit and add energy, emotion, or clarity (often 1-3) — natural and tasteful, never forced or spammy.",
     "- Under 280 characters. Prefer 1-3 short lines.",
     "- A question must be a REAL question about how people actually work — not engagement bait.",
     "- Funny = dry/observational, never forced.",
