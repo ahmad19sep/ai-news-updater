@@ -12,6 +12,26 @@ function selectedText() {
   catch (e) { return ""; }
 }
 
+/* the largest real image inside a post container (skips avatars/logos/reactions) */
+function pickBigImage(scope) {
+  if (!scope) return "";
+  let best = null, ba = 0;
+  Array.from(scope.querySelectorAll("img")).forEach(im => {
+    const s = im.currentSrc || im.src || "";
+    if (!/^https?:/.test(s)) return;
+    if (/profile-displaybackground|profile-framedphoto|ghost|entityphoto|company-logo|reaction|emoji|profile_images|profile_banners|spinner/i.test(s)) return;
+    const w = im.naturalWidth || im.clientWidth || im.width || 0;
+    const h = im.naturalHeight || im.clientHeight || im.height || 0;
+    if (w * h > ba && Math.min(w, h) >= 90) { best = im; ba = w * h; }
+  });
+  if (best) return best.currentSrc || best.src || "";
+  // some LinkedIn images are CSS background-images on a div
+  const bg = Array.from(scope.querySelectorAll('[style*="background-image"]'))
+    .map(d => (d.getAttribute("style").match(/url\(["']?(https?:[^"')]+)/) || [])[1])
+    .find(u => u && !/profile|ghost|company-logo|emoji/i.test(u));
+  return bg || "";
+}
+
 function grabTweet() {
   const idM = location.pathname.match(/status\/(\d+)/);
   const arts = Array.from(document.querySelectorAll('article[data-testid="tweet"]'));
@@ -32,34 +52,31 @@ function grabTweet() {
   let image_url = "";
   const pic = art.querySelector('[data-testid="tweetPhoto"] img, img[src*="twimg.com/media"]');
   if (pic) image_url = pic.currentSrc || pic.src || "";
-  if (!image_url) {                      // fallback: largest non-avatar image in the tweet
-    let best = null, ba = 0;
-    Array.from(art.querySelectorAll("img")).forEach(im => {
-      const s = im.currentSrc || im.src || "";
-      if (!/^https?:/.test(s) || /profile_images|profile_banners|emoji/i.test(s)) return;
-      const w = im.naturalWidth || im.clientWidth || 0, h = im.naturalHeight || im.clientHeight || 0;
-      if (w * h > ba && Math.min(w, h) >= 100) { best = im; ba = w * h; }
-    });
-    if (best) image_url = best.currentSrc || best.src || "";
-  }
+  if (!image_url) image_url = pickBigImage(art);
   if (image_url) image_url = image_url.replace(/&name=\w+/, "&name=large");
   return { platform: "x", post_text: text, author_name, author_handle, source_url, post_id, image_url };
 }
 
+/* find the exact LinkedIn post the user is reading: anchor to the selection's
+   node, else the topmost visible post */
+function liContainer() {
+  const SELS = '.feed-shared-update-v2, .update-components-update-v2, div[data-urn*="urn:li:activity"], div[data-id*="urn:li:activity"], article';
+  try {
+    const sel = window.getSelection && window.getSelection();
+    let node = sel && sel.rangeCount ? sel.anchorNode : null;
+    if (node && node.nodeType === 3) node = node.parentElement;
+    if (node && node.closest) { const c = node.closest(SELS); if (c) return c; }
+  } catch (e) {}
+  const cards = Array.from(document.querySelectorAll(SELS));
+  return cards.find(c => { const r = c.getBoundingClientRect(); return r.top > -180 && r.top < 420 && r.height > 80; }) || cards[0] || null;
+}
+
 function grabLinkedIn() {
   const sel = selectedText();
-  // Find the post container that's most in view (or the one holding the selection).
-  const cards = Array.from(document.querySelectorAll(
-    '.feed-shared-update-v2, .update-components-update-v2, div[data-urn*="activity"], article'));
-  let card = null;
-  if (sel) card = cards.find(c => (c.innerText || "").includes(sel.slice(0, 40)));
-  if (!card) {
-    // topmost reasonably-visible card
-    card = cards.find(c => { const r = c.getBoundingClientRect(); return r.top > -120 && r.top < 360 && r.height > 80; }) || cards[0];
-  }
+  const card = liContainer();
   let post_text = sel;
   if (!post_text && card) {
-    const t = card.querySelector('.update-components-text, .feed-shared-update-v2__description, .feed-shared-text, [data-test-id="main-feed-activity-card"]');
+    const t = card.querySelector('.update-components-text, .feed-shared-update-v2__description, .feed-shared-text, .update-components-update-v2__commentary');
     post_text = (t ? t.innerText : card.innerText || "").trim().slice(0, 1500);
   }
   let author_name = "", author_handle = "", source_url = location.href.split("?")[0];
@@ -69,23 +86,7 @@ function grabLinkedIn() {
     const prof = card.querySelector('a[href*="/in/"], a[href*="/company/"]');
     if (prof) { author_handle = prof.getAttribute("href").split("?")[0]; if (author_handle.startsWith("/")) author_handle = "https://www.linkedin.com" + author_handle; }
   }
-  // grab the post's media image: pick the LARGEST image in the post container
-  // (class-agnostic — survives LinkedIn renames; skips the small author avatar)
-  let image_url = "";
-  const scope = (card && card.closest('.feed-shared-update-v2, .update-components-update-v2, div[data-urn*="urn:li:activity"], article')) || card;
-  if (scope) {
-    let best = null, bestArea = 0;
-    Array.from(scope.querySelectorAll("img")).forEach(im => {
-      const src = im.currentSrc || im.src || "";
-      if (!/^https?:/.test(src)) return;
-      if (/profile-displaybackground|profile-framedphoto|ghost|EntityPhoto|company-logo|reaction|emoji/i.test(src)) return;
-      const w = im.naturalWidth || im.clientWidth || im.width || 0;
-      const h = im.naturalHeight || im.clientHeight || im.height || 0;
-      const area = w * h;
-      if (area > bestArea && Math.min(w, h) >= 100) { best = im; bestArea = area; }
-    });
-    if (best) image_url = best.currentSrc || best.src || "";
-  }
+  const image_url = pickBigImage(card);
   return { platform: "linkedin", post_text, author_name, author_handle, source_url, post_id: "", image_url };
 }
 
@@ -95,14 +96,13 @@ function grab() {
     if (platformOf() === "x") {
       const t = grabTweet();
       if (t && sel) t.post_text = sel;        // honor a manual selection on X too
-      // last resort: if no tweet detected but text is selected, use the selection
-      if ((!t || !t.post_text) && sel) return { platform: "x", post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: (location.pathname.match(/status\/(\d+)/) || [])[1] || "" };
+      if ((!t || !t.post_text) && sel) return { platform: "x", post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: (location.pathname.match(/status\/(\d+)/) || [])[1] || "", image_url: "" };
       return t;
     }
     return grabLinkedIn();
   } catch (e) {
     const sel = selectedText();
-    return sel ? { platform: platformOf(), post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: "" } : null;
+    return sel ? { platform: platformOf(), post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: "", image_url: "" } : null;
   }
 }
 
