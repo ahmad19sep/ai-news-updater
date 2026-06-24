@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AI Radar — Send to Studio",
+  "version": "1.0.0",
+  "description": "Capture the X post you're viewing and send it to AI Radar Studio's X Reply Engine. Manual only — never scrapes in the background, never posts for you.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://twitter.com/*",
+    "https://*.firebasedatabase.app/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Send this X post to Radar Studio"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {}
+}

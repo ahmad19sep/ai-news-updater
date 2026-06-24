@@ -191,6 +191,18 @@ PAGE = r"""<!doctype html>
   .cp:hover { border-color:var(--indigo); color:var(--indigo); background:var(--indigo-soft); }
   .cp.posted { border-color:var(--cta); color:var(--cta); }
   .cp.done { border-color:var(--cta); color:var(--cta); opacity:.75; }
+  .xrpost { font-size:14.5px; line-height:1.5; white-space:pre-wrap; background:var(--surface2);
+          border:1px solid var(--line); border-radius:10px; padding:11px 13px; margin:8px 0; }
+  .xrpaste { margin-top:8px; }
+  .xrpaste textarea { width:100%; min-height:90px; border:1px solid var(--line2); border-radius:9px;
+          padding:10px; font:12.5px ui-monospace, monospace; resize:vertical; }
+  .xreps { display:flex; flex-direction:column; gap:9px; margin-top:8px; }
+  .xrep { border:1px solid var(--line); border-radius:11px; padding:11px 13px; background:var(--surface); }
+  .xrep.sel { border-color:var(--cta); box-shadow:0 0 0 2px #f0ddd0; }
+  .xrstyle { font:700 11.5px Inter; color:var(--dim); letter-spacing:.02em; }
+  .xrscore { color:var(--gold); }
+  .xrtext { font-size:14px; line-height:1.5; margin:6px 0 9px; white-space:pre-wrap; }
+  .xractions { display:flex; gap:6px; }
   .extra { font-size:12px; margin-top:7px; color:var(--dim); }
   .extra a { text-decoration:none; margin-right:12px; }
   .why { font-size:11.5px; color:var(--gold); margin-top:7px; }
@@ -625,6 +637,8 @@ PAGE = r"""<!doctype html>
       <button class="navitem" id="tabbtn-trends" onclick="switchTab('trends')">📈 <span>Trends</span></button>
       <button class="navitem" id="tabbtn-pulse" onclick="switchTab('pulse')">⚡ <span>Pulse</span></button>
       <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
+      <div class="navgrp">Engagement</div>
+      <button class="navitem" id="tabbtn-xreplies" onclick="switchTab('xreplies')">↩️ <span>X Replies</span><span class="navcount" id="nc-xr"></span></button>
     </nav>
     <div class="sidefoot">
       <span class="av">A</span>
@@ -672,6 +686,12 @@ PAGE = r"""<!doctype html>
     <p class="note">✅ Finished work approved in Caira lands here — copy each platform's post and
        publish from your own accounts. Tap ✓ Posted when done.</p>
     <div id="readylist"></div>
+  </section>
+
+  <section id="tab-xreplies" hidden>
+    <p class="note">↩️ Capture any X post with the “Send to Radar Studio” browser extension, generate
+       7 reply styles, score them, pick one and copy it. No auto-posting — you reply yourself.</p>
+    <div id="xreplist"></div>
   </section>
 
   <section id="tab-trends" hidden>
@@ -1464,7 +1484,7 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","ready","trends","pulse","research"].forEach(n => {
+  ["home","news","popular","ready","trends","pulse","research","xreplies"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
@@ -1472,13 +1492,15 @@ function switchTab(name) {
     popular:["Popular","What the world is reading right now"],
     ready:["Ready to Post","Approved work from Caira — copy & publish"],
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
-    research:["Research","Papers for your own learning"] };
+    research:["Research","Papers for your own learning"],
+    xreplies:["X Replies","Capture a post, generate replies, pick one"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
   if (name === "home") renderHome();
   if (name === "popular") renderPopular();
   if (name === "ready") renderReady();
+  if (name === "xreplies") renderXReplies();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -1689,6 +1711,97 @@ async function renderReady() {
     d.querySelector(".posted").onclick = () => { removeFromQueue(); toast("Done — removed from queue ✓"); };
     el.appendChild(d);
   });
+}
+
+/* ---------------- X Reply Engine ---------------- */
+function xrStyleLabel(s) {
+  const L = (window.XREPLY_STYLES || []).find(x => x[0] === s);
+  return L ? L[1] : (s || "reply");
+}
+function xrPatch(key, obj) {
+  return fetch(fbRoot() + "/x_captures/" + key + ".json", { method: "PATCH",
+    headers: { "Content-Type": "application/json" }, body: JSON.stringify(obj) });
+}
+async function renderXReplies() {
+  const el = document.getElementById("xreplist"); if (!el) return;
+  const nc = document.getElementById("nc-xr");
+  if (!FBURL) { el.innerHTML = '<div class="empty">Connect cloud sync to use the X Reply Engine.</div>'; return; }
+  el.innerHTML = '<div class="note">Loading…</div>';
+  let data = {};
+  try { data = (await (await fetch(fbRoot() + "/x_captures.json")).json()) || {}; } catch (e) {}
+  const items = Object.entries(data || {}).filter(e => e[1] && e[1].status !== "skipped")
+    .sort((a, b) => String(b[1].created_at || "").localeCompare(String(a[1].created_at || "")));
+  if (nc) nc.textContent = items.length || "";
+  if (!items.length) {
+    el.innerHTML = '<div class="empty">No captured posts yet. Install the “Send to Radar Studio” browser extension (in the repo\'s <b>x-extension</b> folder), open a post on X, and click it.</div>';
+    return;
+  }
+  el.innerHTML = "";
+  items.forEach(([key, c]) => {
+    const d = document.createElement("div"); d.className = "card";
+    const reps = c.replies || [];
+    let body;
+    if (reps.length) {
+      body = '<div class="xreps">' + reps.map((r, i) =>
+        '<div class="xrep' + (c.selected_reply === r.text ? " sel" : "") + '">' +
+        '<div class="xrstyle">' + esc(xrStyleLabel(r.style)) + ' · <span class="xrscore">' + (r.score || "?") + '/10</span></div>' +
+        '<div class="xrtext">' + esc(r.text) + '</div>' +
+        '<div class="xractions"><button class="cp" data-act="copyr" data-i="' + i + '">📋 Copy</button>' +
+        '<button class="cp" data-act="selr" data-i="' + i + '">✓ Use this</button></div></div>').join("") + '</div>' +
+        '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="regen">🔁 New replies</button>' +
+        '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>';
+    } else {
+      body = '<div class="actions" style="margin-left:0;margin-top:9px">' +
+        '<button class="cp" data-act="genprompt">🤖 Copy reply prompt</button>' +
+        '<button class="cp" data-act="pasteopen">📥 Paste replies</button>' +
+        '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
+        '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude\'s JSON array of 7 replies here, then Save"></textarea>' +
+        '<div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" data-act="savereplies">💾 Save replies</button></div></div>';
+    }
+    d.innerHTML =
+      '<div class="meta"><span class="src">' + esc(c.author_name || "X user") + '</span>' +
+      (c.author_handle ? '<span>' + esc(c.author_handle) + '</span>' : "") +
+      '<span class="pill">' + esc(c.status || "captured") + '</span>' +
+      (c.source_url ? '<a class="cp" href="' + esc(c.source_url) + '" target="_blank" rel="noopener">↗ Open post</a>' : "") + '</div>' +
+      '<div class="xrpost">' + esc(c.post_text || "") + '</div>' + body;
+    d.querySelectorAll("[data-act]").forEach(b => b.onclick = () => xrAction(b.dataset.act, key, c, d, b));
+    el.appendChild(d);
+  });
+}
+async function xrAction(act, key, c, d, b) {
+  if (act === "genprompt") {
+    navigator.clipboard.writeText(window.buildXReplyPrompt(c)).then(() => toast("Reply prompt copied — paste in Claude 🤖"));
+    const p = d.querySelector(".xrpaste"); if (p) p.hidden = false;
+    return;
+  }
+  if (act === "pasteopen") { const p = d.querySelector(".xrpaste"); if (p) p.hidden = !p.hidden; return; }
+  if (act === "savereplies") {
+    const ta = d.querySelector(".xrjson"); let arr;
+    try { arr = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste the array Claude returned"); return; }
+    if (!Array.isArray(arr) || !arr.length) { toast("Expected a JSON array of replies"); return; }
+    const reps = arr.map(r => ({ style: (r.style || "smart"), text: String(r.text || r.reply || "").trim(), score: (+r.score || 0) })).filter(r => r.text).slice(0, 7);
+    if (!reps.length) { toast("No reply text found in that JSON"); return; }
+    await xrPatch(key, { replies: reps, status: "generated", updated_at: new Date().toISOString() });
+    toast(reps.length + " replies saved ✓"); renderXReplies(); return;
+  }
+  if (act === "copyr") { const r = (c.replies || [])[+b.dataset.i]; if (r) navigator.clipboard.writeText(r.text).then(() => toast("Reply copied — paste it on X ✓")); return; }
+  if (act === "selr") {
+    const r = (c.replies || [])[+b.dataset.i]; if (!r) return;
+    navigator.clipboard.writeText(r.text).catch(() => {});
+    await xrPatch(key, { selected_reply: r.text, status: "copied", updated_at: new Date().toISOString() });
+    if (c.source_url) window.open(c.source_url, "_blank", "noopener");
+    toast("Copied + post opened — paste your reply ✓"); renderXReplies(); return;
+  }
+  if (act === "regen") { await xrPatch(key, { replies: [], status: "captured", selected_reply: "", updated_at: new Date().toISOString() }); renderXReplies(); return; }
+  if (act === "skip") { await xrPatch(key, { status: "skipped", updated_at: new Date().toISOString() }); toast("Skipped"); renderXReplies(); return; }
+  if (act === "del") { try { fetch(fbRoot() + "/x_captures/" + key + ".json", { method: "DELETE" }); } catch (e) {} d.remove(); toast("Removed"); return; }
+}
+function xrCount() {
+  if (!FBURL) return;
+  fetch(fbRoot() + "/x_captures.json").then(r => r.json()).then(d => {
+    const n = Object.values(d || {}).filter(v => v && v.status !== "skipped").length;
+    const el = document.getElementById("nc-xr"); if (el) el.textContent = n || "";
+  }).catch(() => {});
 }
 function bar() {
   const el = document.getElementById("pillars");
@@ -4454,6 +4567,7 @@ function readyCount() {
   }).catch(() => {});
 }
 readyCount();
+xrCount();
 attachMention(document.getElementById("m-chat-text"));
 ROLE = "owner"; localStorage.setItem("role", "owner");   /* owner-only studio (editors/chat removed) */
 applyRole(true);

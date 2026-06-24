@@ -351,3 +351,33 @@ window.buildSocialPrompt = function (o) {
     "Return ONLY the final post text, ready to copy-paste — no options, no notes, no markdown.",
   ].filter(x => x !== "").join("\n");
 };
+
+/* ---- X Reply Engine: 7 reply styles for a captured post ---- */
+window.XREPLY_STYLES = [
+  ["smart",      "💡 Smart",          "an insightful reply that adds real value / a non-obvious angle and shows expertise"],
+  ["short",      "⚡ Short viral",     "a punchy one-liner with viral energy, under ~120 characters"],
+  ["question",   "❓ Question",        "a sharp, genuine question that invites the author + others to reply"],
+  ["founder",    "🚀 Founder",         "a founder/operator perspective grounded in lived experience"],
+  ["builder",    "🛠 Builder",         "a builder/technical angle — concrete, practical, what you'd actually do"],
+  ["opinion",    "🔥 Strong opinion",  "a bold, slightly contrarian but defensible take (respectful, never insulting)"],
+  ["supportive", "🤝 Supportive",      "a warm, encouraging, genuinely supportive reply"],
+];
+window.buildXReplyPrompt = function (o) {
+  const styles = window.XREPLY_STYLES.map((s, i) => (i + 1) + ") " + s[0] + " — " + s[2]).join("\n");
+  return [
+    'You are an expert X (Twitter) reply writer for @aixahmad (an AI-news brand). Write replies that earn engagement (replies, likes, follows) and add genuine value — never generic, never spammy, never sycophantic.',
+    "",
+    "Reply to THIS post:",
+    "AUTHOR: " + (o.author_name || "") + " " + (o.author_handle || ""),
+    'POST: "' + (o.post_text || "") + '"',
+    "",
+    "Write EXACTLY 7 replies — one in each style:",
+    styles,
+    "",
+    "Rules: each reply must stand alone and sound human; be specific to THIS post (reference its actual point); <=280 characters; no @mention needed (it's a reply); 0-1 hashtag only if natural; no emojis unless they truly help; never insult anyone.",
+    "",
+    'Return ONLY a JSON array of 7 objects, no text outside it:',
+    '[{"style":"smart","text":"...","score":8}, {"style":"short","text":"...","score":7}, ...]',
+    'where "style" is one of: smart, short, question, founder, builder, opinion, supportive; and "score" is 1-10 = your honest estimate of how much engagement it will earn.',
+  ].join("\n");
+};
