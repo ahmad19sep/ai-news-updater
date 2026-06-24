@@ -71,14 +71,19 @@ function liContainer() {
   return cards.find(c => { const r = c.getBoundingClientRect(); return r.top > -180 && r.top < 420 && r.height > 80; }) || cards[0] || null;
 }
 
+function cleanLi(s) { return (s || "").replace(/\s*…?\s*(see more|…more|more)\s*$/i, "").trim(); }
+
 function grabLinkedIn() {
   const sel = selectedText();
   const card = liContainer();
-  let post_text = sel;
-  if (!post_text && card) {
-    const t = card.querySelector('.update-components-text, .feed-shared-update-v2__description, .feed-shared-text, .update-components-update-v2__commentary');
-    post_text = (t ? t.innerText : card.innerText || "").trim().slice(0, 1500);
+  // selecting a small part only ANCHORS the post — capture the WHOLE post body
+  let post_text = "";
+  if (card) {
+    const t = card.querySelector('.update-components-update-v2__commentary, .feed-shared-update-v2__description, .feed-shared-inline-show-more-text, .update-components-text, .feed-shared-text');
+    if (t) post_text = cleanLi(t.innerText || "");
   }
+  if (!post_text) post_text = sel;                                  // fallback: the selection
+  if (!post_text && card) post_text = cleanLi(card.innerText || "").slice(0, 1500);
   let author_name = "", author_handle = "", source_url = location.href.split("?")[0];
   if (card) {
     const a = card.querySelector('.update-components-actor__name, .update-components-actor__title, .feed-shared-actor__name');
@@ -95,8 +100,8 @@ function grab() {
     const sel = selectedText();
     if (platformOf() === "x") {
       const t = grabTweet();
-      if (t && sel) t.post_text = sel;        // honor a manual selection on X too
-      if ((!t || !t.post_text) && sel) return { platform: "x", post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: (location.pathname.match(/status\/(\d+)/) || [])[1] || "", image_url: "" };
+      if (t && t.post_text) return t;         // always the full tweet, not a partial selection
+      if (sel) return { platform: "x", post_text: sel, author_name: "", author_handle: "", source_url: location.href.split("?")[0], post_id: (location.pathname.match(/status\/(\d+)/) || [])[1] || "", image_url: t ? t.image_url : "" };
       return t;
     }
     return grabLinkedIn();
