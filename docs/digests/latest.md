@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 16 Jun 2026 to 23 Jun 2026
+# 🗞️ AI THIS WEEK — 17 Jun 2026 to 24 Jun 2026
 
 ## 🔥 Biggest Story of the Week
 **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries**
@@ -15,14 +15,14 @@ All coverage: https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
 4. **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
-5. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
+5. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
+   https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
+6. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2hyMlFMRnk0YVZocDNRdWY4TTd5cTBESzREQXZ1U25rNzNVVlJZWGFTaU55dmZzWjliMUFBUUVzWWlZT3I1T0o5eHY1ajM3RmxPTWVIaE40aDgwLXFXcjFCNnlWRUNyV3NRWnZ2WE5qcElWX0hfSkRYLUFpLXFxYmV0SVg?oc=5
-6. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
+7. **AI Outperforms Doctors in Hospital Diagnostics - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnZLR1lCMFFVUnVTUmlyM2FZYkU2bHVWMVo1Q1loaGFNUC12d09tU1pCTkE4LWR4bUxjRkl5bjBaTGlvZDY5X2dHNDYwRmhwNXd4UHgwckUzdDkxMFlpTGpuUVBZaXQ0N0RpcVJUSnZMdjJ1NUx4UDNXcmhCX0MwU3VldGpObmJZU1ZCcmNxcWFoUQ?oc=5
-7. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
+8. **AI Health Startup Wants to Assist Half of Latin American Doctors - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
-8. **AI medical tools match or surpass doctors for advice - Financial Times** — science angle
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWZEUGNEUkJJOGx3a0E0QkFXdlY1TlltMVAzMnhyd05HTk9LMkhrYTNwSml5SjhtXzZQWTB2dURmSlcwbk94UXBnTVJXTXJ4WEswc2c0N2pMR1M4MVVCVnVLZVVhUjVSb3d6MFYtNkFaN1pDOFNLcFJldmhBeHlRSzM1UzI?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 86
@@ -54,7 +54,7 @@ All coverage: https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026
 - **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2502
+- Total stories tracked: 2513
 - Most active topic: anthropic
 - Busiest category: AI General News
 
