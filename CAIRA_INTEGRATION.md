@@ -16,6 +16,44 @@ calls the three HTTPS endpoints below. Caira already runs on **Vercel functions
 
 ---
 
+## ✅ Caira build checklist (do these)
+
+> Current status: the three routes respond but return `501 {"error":"not_configured"}`
+> — so they're stubbed but not finished. Work through this list.
+
+1. **Add a `"post"` card type** (alongside `"video"`). AI Radar tasks are writing
+   tasks, not video shoots. See section 0.
+2. **Run the `stage7.sql` migration** — adds `kind`, `master_prompt`, `source_url`,
+   `news_score`, `radar_external_id`, the parsed-output columns, `radar_delivered`,
+   and a unique index on `radar_external_id`. See section 6.
+3. **Set Vercel env vars** (Production): `RADAR_INGEST_TOKEN` = the API token Ahmad
+   shared, `RADAR_WORKSPACE_ID` = the "AI Radar" workspace id, plus the existing
+   `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`.
+4. **Make a workspace** (e.g. "AI Radar") and invite the workers to it (your normal
+   email invite). Members' emails are the `assignee` values.
+5. **Implement `POST /api/tasks`** — check the bearer token; dedup by `external_id`;
+   if `assignee` is blank **auto-assign to the workspace member with the fewest open
+   tasks**; insert a `kind="post"` card. Section 2 + sample in section 7.
+6. **Implement `GET /api/pending-counts`** — return `{ "<email>": openCount }` for the
+   workspace (so balancing also works from AI Radar's side). Section 3.
+7. **Implement `GET /api/ready`** — return APPROVED, not-yet-delivered post cards with
+   their parsed fields; mark them delivered. Section 4.
+8. **Worker view for post cards:** show title + source link, a **Copy master prompt**
+   button (`master_prompt`), a **Paste AI output** box, the Drive folder link, a
+   checklist, and **Submit**. Section 8.
+9. **Parse on submit:** split the worker's pasted output by the `[[MARKER]]` blocks
+   (section 5) into `headline / article / x_post / linkedin_post / facebook_post /
+   instagram_caption / whatsapp_post / youtube_short_script / image_prompt /
+   fact_check_notes / risk_level`.
+10. **Owner approval:** an Approve action that flags the card approved → it then flows
+    out via `GET /api/ready` to AI Radar's "Ready to Post".
+11. **Keep posting manual** — no social-media auto-posting anywhere; Ahmad posts from
+    his own accounts.
+12. **Send Ahmad back:** confirm it's live (so `/api/pending-counts` returns real data,
+    not `not_configured`). The API URL + token + worker emails are already shared.
+
+---
+
 ## 0. Important: add a "post" content type in Caira
 
 Caira today is video-centric (Idea → … → Publishing). These AI Radar tasks are
