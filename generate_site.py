@@ -2510,9 +2510,12 @@ async function xmSave() {
 /* ---- one-click generation via a user-configured proxy (key stays server-side) ---- */
 function xmApiUrl() { return (localStorage.getItem("xm_api_url") || "").trim(); }
 function xmApiSave() {
-  const v = (document.getElementById("xm-apiurl").value || "").trim();
-  localStorage.setItem("xm_api_url", v); xmApiStatus();
-  toast(v ? "API endpoint saved ⚡" : "API endpoint cleared");
+  let v = (document.getElementById("xm-apiurl").value || "").trim().replace(/\/+$/, "");
+  if (v && !/^https?:\/\//i.test(v)) v = "https://" + v;   // accept a bare domain
+  localStorage.setItem("xm_api_url", v);
+  const i = document.getElementById("xm-apiurl"); if (i) i.value = v;
+  xmApiStatus();
+  toast(v ? "API endpoint saved ⚡ — press Generate (API)" : "API endpoint cleared");
 }
 function xmApiStatus() {
   const el = document.getElementById("xm-apistat"); if (!el) return;
