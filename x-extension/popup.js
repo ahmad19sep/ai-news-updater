@@ -19,10 +19,20 @@ function grab() {
       const onX = /https:\/\/(x|twitter)\.com\//.test(tab && tab.url || "");
       const onLi = /https:\/\/(www\.)?linkedin\.com\//.test(tab && tab.url || "");
       if (!tab || (!onX && !onLi)) { resolve({ _bad: true }); return; }
-      chrome.tabs.sendMessage(tab.id, "grab", data => {
-        if (chrome.runtime.lastError) { resolve(null); return; }
+      const ask = retry => chrome.tabs.sendMessage(tab.id, "grab", data => {
+        if (chrome.runtime.lastError || !data) {
+          // content script not loaded (tab not refreshed after install/reload) -> inject it, retry once
+          if (retry && chrome.scripting) {
+            chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ["content.js"] }, () => {
+              if (chrome.runtime.lastError) { resolve(null); return; }
+              ask(false);
+            });
+          } else { resolve(data || null); }
+          return;
+        }
         resolve(data);
       });
+      ask(true);
     });
   });
 }
@@ -34,15 +44,20 @@ grab().then(d => {
   if (d && d.post_text) {
     platEl.textContent = d.platform === "linkedin" ? "LinkedIn" : "X";
     replyBtn.disabled = d.platform !== "x";   // reply engine is X-only
+    replyBtn.title = d.platform === "x" ? "" : "Reply engine is X-only — use Repurpose on LinkedIn";
     prevEl.textContent = (d.author_name ? d.author_name + " " + (d.author_handle || "") + "\n" : "") + d.post_text.slice(0, 280);
-  } else { prevEl.textContent = "Couldn't find a post — select the post text and reopen this."; }
+  } else { prevEl.textContent = "Couldn't read this post. On LinkedIn, select the post text first; on X, open the tweet — then reopen this."; }
 });
 
 async function send(node, build, label) {
   setStatus("Reading post…");
   repBtn.disabled = replyBtn.disabled = true;
   const d = current || await grab();
-  if (!d || d._bad || !d.post_text) { setStatus("Couldn't read a post — select its text and retry.", "err"); repBtn.disabled = false; return; }
+  current = d;
+  if (!d || d._bad || !d.post_text) {
+    setStatus("Couldn't read a post — open the tweet (or select the text), then retry.", "err");
+    repBtn.disabled = false; replyBtn.disabled = !(d && d.platform === "x"); return;
+  }
   const id = String(Date.now());
   const body = build(d, id);
   setStatus("Sending to Radar…");
