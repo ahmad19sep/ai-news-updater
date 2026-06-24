@@ -1770,7 +1770,7 @@ async function renderXReplies() {
   el.innerHTML = '<div class="note">Loading…</div>';
   let data = {};
   try { data = (await (await fetch(fbRoot() + "/x_captures.json")).json()) || {}; } catch (e) {}
-  const items = Object.entries(data || {}).filter(e => e[1] && e[1].status !== "skipped")
+  const items = Object.entries(data || {}).filter(e => e[1] && e[1].status !== "skipped" && e[1].status !== "posted")
     .sort((a, b) => String(b[1].created_at || "").localeCompare(String(a[1].created_at || "")));
   if (nc) nc.textContent = items.length || "";
   if (!items.length) {
@@ -1897,7 +1897,7 @@ async function xrAction(act, key, c, d, b) {
 function xrCount() {
   if (!FBURL) return;
   fetch(fbRoot() + "/x_captures.json").then(r => r.json()).then(d => {
-    const n = Object.values(d || {}).filter(v => v && v.status !== "skipped").length;
+    const n = Object.values(d || {}).filter(v => v && v.status !== "skipped" && v.status !== "posted").length;
     const el = document.getElementById("nc-xr"); if (el) el.textContent = n || "";
   }).catch(() => {});
 }
