@@ -593,25 +593,34 @@ window.buildPostRepurposePrompt = function (o) {
   ].join("\n");
 };
 
-/* ---- X Mini Post Engine: short text-only X posts that grow an AI account ---- */
-/* [category, slug, display, what it's for, example pattern] */
+/* ---- Anthropic Write Engine: short text-only X posts that grow an AI account ---- */
+/* [category, slug, display, short desc, prompt behavior, example] */
 window.XMINI_PRESETS = [
-  ["question", "tool-check", "❓ Tool Check", "Ask what people actually use", "What AI tool do you actually open every day?"],
-  ["question", "decision-split", "❓ Decision Split", "Make them choose between options", "For coding: Claude, ChatGPT, or Cursor?"],
-  ["funny", "dry-builder", "😅 Dry Builder Joke", "Low-key funny builder truth", "AI agents are interns with APIs."],
-  ["funny", "workflow-pain", "😅 Workflow Pain", "Funny truth about tool overload", "Opening 6 AI tools for one task…"],
-  ["fact", "quiet-truth", "📌 Quiet Truth", "A simple behavioral truth", "Most people use AI like search."],
-  ["fact", "second-order", "📌 Second-Order Fact", "What really matters underneath", "The model isn't the moat."],
-  ["hot_take", "mild-contrarian", "🔥 Mild Contrarian", "Sharp but fair disagreement", "Most people don't need more AI tools."],
-  ["hot_take", "hype-cutter", "🔥 Hype Cutter", "Deflate shallow hype with logic", "The feature isn't the story."],
-  ["builder", "workflow-lens", "🛠 Workflow Lens", "Reframe around the system", "The workflow layer is the product."],
-  ["builder", "what-ships", "🛠 What Ships Next", "Predict how builders use it", "This gets interesting when…"],
-  ["relatable", "actually-using", "🤝 Actually Using AI", "Everyday creator pain", "Nobody wants 10 AI tabs open."],
-  ["relatable", "messy-reality", "🤝 Messy Reality", "Promise vs real use", "The demo was magic; the workflow wasn't."],
-  ["shower_thought", "quiet-future", "🚿 Quiet Future", "Small future-of-work insight", "The future of work might be…"],
-  ["shower_thought", "human-instruction", "🚿 Human Instruction", "Human-machine coordination", "Work is becoming explanation."],
-  ["comparison", "tool-personality", "⚔️ Tool Personality", "Compare tools by feel", "ChatGPT = generalist, Claude = thinker."],
-  ["comparison", "winner-caveat", "⚔️ Winner With Caveat", "Pick a winner, leave room to reply", "X wins for Y, but Z still does…"]
+  ["question", "ask-real-question", "❓ Ask a Real Question", "Get genuine replies", "Turn the idea into a simple question people actually want to answer. Avoid fake engagement bait. The question should reveal how people work, think, or choose tools.", "What AI tool do you actually use every day — not the one you hype?"],
+  ["question", "vibe-coder-question", "👾 Vibe Coder Question", "Casual questions for builders", "Write casual, community-style questions for people who code/build. Feel like Ahmad talking to builders, not marketing.", "Vibe coders, what's one AI tool you paid for and instantly knew was worth it?"],
+  ["community", "community-callout", "👋 Community Callout", "Invite people to say hi", "Write a warm, casual, easy-to-reply post inviting AI/startup/coding/design/automation people to introduce themselves.", "X gets 100x better when your timeline is full of people building cool things. Into AI, startups, coding, design or automation? Say hi 👋"],
+  ["funny", "funny-ai-thought", "😅 Funny AI Thought", "Dry, relatable AI joke", "Write a dry, relatable AI joke. No forced punchlines, no meme-speak overload.", "AI agents are amazing until you realize you're basically managing a very confident intern 😅"],
+  ["fact", "interesting-ai-fact", "📌 Interesting AI Fact", "A simple AI truth", "Write a short fact-style post. If the claim isn't verified, make it a general observation, not a hard fact.", "Most people still use AI like a search box. The real shift starts when they use it like a worker."],
+  ["hot_take", "hot-take", "🔥 Hot Take", "Bold but defensible", "Write a bold but defensible take. Not toxic, not insulting. Should invite disagreement.", "Hot take: most people don't need more AI tools. They need one workflow they'll actually repeat."],
+  ["builder", "builder-thought", "🛠 Builder Thought", "Practical builder note", "Write a practical builder observation. Focus on workflow, systems, loops, tools, shipping.", "The model isn't the product. The workflow around the model is where the real value starts."],
+  ["relatable", "relatable-ai-pain", "🤝 Relatable AI Pain", "Everyday AI struggle", "Write something people instantly recognize from their own workflow.", "Opening 6 AI tools for one task is the new version of having 47 browser tabs open."],
+  ["shower_thought", "ai-shower-thought", "🚿 AI Shower Thought", "Thoughtful simple post", "Write a short, slightly philosophical AI/work/future thought.", "The future of work might just be humans learning how to explain things better to machines."],
+  ["comparison", "tool-comparison", "⚔️ Tool Comparison", "Compare by real use", "Compare tools by real use case, not generic ranking. Make people pick a side.", "ChatGPT feels like a generalist. Claude feels like a thinking partner. Cursor feels like a teammate inside the repo."],
+  ["truth", "one-line-truth", "✨ One-Line Truth", "Punchy standalone line", "Write one strong sentence that feels obvious after reading.", "Good prompting is just clear thinking with less hiding."],
+  ["debate", "debate-starter", "⚖️ Debate Starter", "Force a choice, get comments", "Ask a question with two or three sides. Force a real choice.", "For coding in 2026, what matters more: the smartest model or the best workflow?"],
+  ["personal", "beginner-confession", "🌱 Beginner Confession", "Honest learning journey", "Write an honest post about learning AI/agents/coding/automation. Do NOT invent fake wins or numbers.", "I'm realizing agentic AI is less about fancy prompts and more about designing clean loops."],
+  ["build_in_public", "build-in-public", "🚧 Build In Public Mini", "Short project update", "Write a short update about what Ahmad is building or learning. Ask for feedback only when natural.", "Today I added one small feature to Radar Studio: selected text → Anthropic → instant X post ideas. Tiny, but it saves a lot of thinking time."],
+  ["skeptical", "anti-hype-check", "🧊 Anti-Hype Check", "Grounded, smart skepticism", "Challenge hype without being negative.", "Everyone's talking about AI agents replacing work. The real question: can they handle boring edge cases without babysitting?"]
+];
+/* style profiles: [name, description] */
+window.XMINI_STYLES = [
+  ["Ahmad Natural", "Simple, casual, curious, AI-builder energy"],
+  ["Builder Twitter", "Direct, practical, workflow-focused"],
+  ["Funny Dev", "Dry, witty, slightly chaotic, not cringe"],
+  ["AI News Analyst", "Simple insight about what a news event means"],
+  ["Indie Hacker", "Shipping, building, learning, small wins, real struggles"],
+  ["Community Growth", "Warm, inviting, asks people to say hi or share"],
+  ["Sharp Hot Take", "Opinionated but respectful"]
 ];
 /* starter ideas you can tap to seed a post (paraphrased X-native patterns) */
 window.XMINI_IDEAS = {
@@ -682,5 +691,67 @@ window.buildXMiniPrompt = function (o) {
     "  ]",
     "}",
     "Every text MUST be under 280 characters. score 1-10 = how likely it is to earn replies/reposts.",
+  ]).join("\n");
+};
+
+/* ---- Anthropic Write Engine: the intelligent creator brain ---- */
+window.buildAnthropicWritePrompt = function (o) {
+  o = o || {};
+  var preset = o.preset || null;   // [cat, slug, name, desc, behavior, example]
+  var style = o.style || null;     // [name, desc]
+  var seed = (o.seed || "").trim();
+  var refine = (o.refine || "").trim();
+  var head = [
+    "You are an intelligent CREATOR BRAIN for Ahmad / @aixahmad — an AI / startup / builder voice on X. You write SHORT, original, text-only posts that grow the account. You are NOT a plain rewriter: think first, understand the input, decide the smartest content move, then write.",
+    ""
+  ];
+  if (refine) {
+    head.push('REFINE MODE — take the post below and: ' + refine + '. Keep it original, true, and X-native. Do not invent facts.');
+    head.push('POST TO REFINE:\n"' + seed + '"');
+  } else {
+    head.push(seed ? ('INPUT (selected text or idea to work from):\n"' + seed + '"') : "No input given — invent ONE fresh, specific, non-obvious AI/startup/builder observation worth posting.");
+  }
+  if (preset) head.push("PRESET: " + preset[2] + " — " + preset[4] + ' (example feel: "' + preset[5] + '")');
+  if (style) head.push("STYLE PROFILE: " + style[0] + " — " + style[1] + ". Write in this voice.");
+  head.push("");
+  head.push("DECIDE THE BEST MOVE: is this best as a question, funny line, fact, hot take, builder thought, community callout, comparison, relatable line, shower thought, debate, personal note, or skeptical check? Is it too weak (improve it)? Does it risk copying someone too closely (rewrite the idea, not the wording)? Is it someone else's personal story (do NOT retell it as Ahmad's experience — generalize the lesson)?");
+  head.push("");
+  head.push("VOICE RULES:");
+  head.push("- Sound like a real person on X. Simple English. Casual, sharp, curious.");
+  head.push("- No corporate tone, no LinkedIn cringe, no fake hype.");
+  head.push("- Usually no hashtags. Emojis allowed only when natural, MAX 1 per post.");
+  head.push("- Avoid: transformative, landscape, leveraging, unlock value, game-changer, paradigm shift, robust, seamless.");
+  head.push("");
+  head.push("OUTPUT RULES:");
+  head.push("- Text only. Under 280 characters. 1-3 short lines preferred.");
+  head.push("- No copied phrasing or structure from another creator. Never invent facts, numbers, quotes, or personal experience.");
+  head.push("- If a factual claim is uncertain, rewrite it as opinion or a general observation.");
+  head.push("- If the input is weak, IMPROVE the idea instead of copying it.");
+  head.push("- copy_risk = how close it is to copying a source; factuality_risk = how likely it states an unverified claim as fact. Keep both low.");
+  head.push("");
+  head.push("Produce the single BEST post, 2 backups (meaningfully different), and up to 5 all_options across different categories.");
+  head.push("");
+  head.push("Return ONLY valid JSON, nothing outside it:");
+  return head.concat([
+    "{",
+    '  "analysis": "1-2 short sentences explaining the content move",',
+    '  "input_type": "question | fact | opinion | joke | personal | news | generic | unclear",',
+    '  "best_category": "question | funny | fact | hot_take | builder | relatable | shower_thought | comparison | community | personal | debate | skeptical | truth | build_in_public",',
+    '  "style_profile": "Ahmad Natural | Builder Twitter | Funny Dev | AI News Analyst | Indie Hacker | Community Growth | Sharp Hot Take",',
+    '  "copy_risk": "low | medium | high",',
+    '  "factuality_risk": "low | medium | high",',
+    '  "best_output": "single best ready-to-post text",',
+    '  "backup_outputs": ["backup option 1", "backup option 2"],',
+    '  "all_options": [',
+    '    {"category":"question","text":"...","score":8,"why":"..."},',
+    '    {"category":"funny","text":"...","score":8,"why":"..."},',
+    '    {"category":"hot_take","text":"...","score":8,"why":"..."},',
+    '    {"category":"builder","text":"...","score":8,"why":"..."},',
+    '    {"category":"community","text":"...","score":8,"why":"..."}',
+    "  ],",
+    '  "post_quality_score": 8,',
+    '  "improvement_tip": "one short suggestion"',
+    "}",
+    "Every text MUST be under 280 characters. score / post_quality_score = 1-10.",
   ]).join("\n");
 };

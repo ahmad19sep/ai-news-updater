@@ -213,6 +213,11 @@ PAGE = r"""<!doctype html>
             border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink); }
   .rpcanvas { max-width:240px; height:auto; border-radius:10px; border:1px solid var(--line); margin-top:8px; }
   .xmchips { display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 10px; }
+  .xmsub { font:700 11px var(--mono); color:var(--dim); letter-spacing:.04em; text-transform:uppercase; margin-top:4px; }
+  .xbadges { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; }
+  .xpill { font:700 11px var(--mono); color:var(--dim); background:var(--surface3); border:1px solid var(--line); border-radius:999px; padding:2px 9px; }
+  .xpill.r-low { color:#1a7f37; } .xpill.r-med { color:#b8860b; } .xpill.r-high { color:#bf3d2c; border-color:#e7b6ad; }
+  .xsugg ul { margin:6px 0 0; padding-left:18px; } .xsugg li { margin:3px 0; font-size:13px; }
   .xmig { margin-bottom:10px; }
   .xmidea { display:block; width:100%; text-align:left; margin:4px 0; padding:7px 10px; font:inherit; font-size:12.5px;
             color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:8px; cursor:pointer; }
@@ -673,7 +678,7 @@ PAGE = r"""<!doctype html>
       <div class="navgrp">Engagement</div>
       <button class="navitem" id="tabbtn-xreplies" onclick="switchTab('xreplies')">↩️ <span>X Replies</span><span class="navcount" id="nc-xr"></span></button>
       <button class="navitem" id="tabbtn-repurpose" onclick="switchTab('repurpose')">♻️ <span>Repurpose</span><span class="navcount" id="nc-rp"></span></button>
-      <button class="navitem" id="tabbtn-xmini" onclick="switchTab('xmini')">✍️ <span>X Mini</span><span class="navcount" id="nc-xm"></span></button>
+      <button class="navitem" id="tabbtn-xmini" onclick="switchTab('xmini')">✍️ <span>Write</span><span class="navcount" id="nc-xm"></span></button>
     </nav>
     <div class="sidefoot">
       <span class="av">A</span>
@@ -744,8 +749,11 @@ PAGE = r"""<!doctype html>
       <button id="xm-make" class="active" onclick="xmSwitch('make')">✍️ Make</button>
       <button id="xm-perf-btn" onclick="xmSwitch('perf')">📊 Performance</button>
     </div>
-    <p class="note" id="xm-note">✍️ Short text-only X posts that grow the account — questions, funny lines, facts, hot takes, builder notes, comparisons. Pick a style + an idea (or type your own), generate, post. No links, under 280 chars.</p>
+    <p class="note" id="xm-note">✍️ The Anthropic Write Engine thinks first, then writes short, original, text-only posts that grow the account. Pick a preset + style, type an idea (or tap one), generate, post. No links, no scraping, no auto-post — you copy &amp; post.</p>
     <div id="xmmake">
+      <div class="xmsub">🎭 Style profile</div>
+      <div class="xmchips" id="xm-styles"></div>
+      <div class="xmsub">🧩 Preset</div>
       <div class="xmchips" id="xm-presets"></div>
       <textarea id="xm-seed" class="rphead" rows="2" placeholder="Type your idea, or paste text to rewrite — or tap an idea from the Idea bank below (optional)"></textarea>
       <div class="actions" style="margin-left:0;margin-top:6px">
@@ -1602,7 +1610,7 @@ function switchTab(name) {
     research:["Research","Papers for your own learning"],
     xreplies:["X Replies","Capture a post, generate replies, pick one"],
     repurpose:["Repurpose","Turn posts you see into your own content"],
-    xmini:["X Mini","Short text-only posts that grow the account"] };
+    xmini:["Write","Anthropic Write Engine — short posts that grow the account"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
@@ -2430,15 +2438,25 @@ function rpPosterPanel(d, c) {
 }
 
 /* ===================== X Mini Post Engine ===================== */
-let xmView = "make", xmPreset = "";
+let xmView = "make", xmPreset = "", xmStyle = null;
 const XM_CATL = { question: "❓ Question", funny: "😅 Funny", fact: "📌 Fact", hot_take: "🔥 Hot take",
-  builder: "🛠 Builder", relatable: "🤝 Relatable", shower_thought: "🚿 Shower thought", comparison: "⚔️ Comparison" };
+  builder: "🛠 Builder", relatable: "🤝 Relatable", shower_thought: "🚿 Shower thought", comparison: "⚔️ Comparison",
+  community: "👋 Community", truth: "✨ Truth", debate: "⚖️ Debate", personal: "🌱 Personal",
+  build_in_public: "🚧 Build in public", skeptical: "🧊 Skeptical" };
 function xmCatLabel(c) { return XM_CATL[c] || (c || "post").replace(/_/g, " "); }
 function xmFindPreset(slug) { return (window.XMINI_PRESETS || []).find(p => p[1] === slug) || null; }
-function xmScore(m) {
-  return (+m.likes || 0) + (+m.replies || 0) * 3 + (+m.reposts || 0) * 4 + (+m.quotes || 0) * 4 +
-    (+m.profile_visits || 0) * 2 + (+m.follows || 0) * 8;
+function xmStyleChips() {
+  const el = document.getElementById("xm-styles"); if (!el || !window.XMINI_STYLES) return;
+  const cur = xmStyle ? xmStyle[0] : "";
+  el.innerHTML = '<button class="chip' + (cur === "" ? " active" : "") + '" data-st="">✨ Auto</button>' +
+    window.XMINI_STYLES.map(s => '<button class="chip' + (cur === s[0] ? " active" : "") + '" data-st="' + esc(s[0]) + '" title="' + esc(s[1]) + '">' + esc(s[0]) + '</button>').join("");
+  el.querySelectorAll("[data-st]").forEach(b => b.onclick = () => { xmStyle = b.dataset.st ? (window.XMINI_STYLES.find(s => s[0] === b.dataset.st) || null) : null; xmStyleChips(); });
 }
+function xmScore(m) {
+  return (+m.likes || 0) + (+m.replies || 0) * 3 + (+m.reposts || 0) * 4 + (+m.bookmarks || 0) * 5 +
+    (+m.profile_clicks || 0) * 6 + (+m.follows || 0) * 10;
+}
+function xmPresetName(slug) { const p = (window.XMINI_PRESETS || []).find(x => x[1] === slug); return p ? p[2] : (slug || "—"); }
 function xmSwitch(v) {
   xmView = v;
   const mk = document.getElementById("xm-make"), pf = document.getElementById("xm-perf-btn");
@@ -2455,7 +2473,7 @@ function xmPresetChips() {
 }
 function xmGen(ai) {
   const seed = (document.getElementById("xm-seed").value || "").trim();
-  const prompt = window.buildXMiniPrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null });
+  const prompt = window.buildAnthropicWritePrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null, style: xmStyle });
   navigator.clipboard.writeText(prompt).catch(() => {});
   window.open(ai === "gpt" ? "https://chatgpt.com/" : "https://claude.ai/new", "_blank", "noopener");
   const p = document.getElementById("xm-paste"); if (p) p.hidden = false;
@@ -2485,41 +2503,63 @@ function xmPostBlock(text, category, badge) {
     '<button class="cp" data-xm="postx">𝕏 Post on X</button>' +
     '<button class="cp" data-xm="posted">✓ Posted</button></div></div>';
 }
-function xmWireBlocks(scope, draftId) {
+function xmWireBlocks(scope, draft) {
+  const extra = draft ? { preset: draft.preset, style: draft.style_profile } : {};
+  const did = draft ? (draft.id || draft._k) : "";
   scope.querySelectorAll(".xrep").forEach(rep => {
     rep.querySelectorAll("[data-xm]").forEach(b => b.onclick = () => {
       const text = rep.querySelector(".xrtext").textContent, cat = rep.getAttribute("data-cat") || "", act = b.dataset.xm;
       if (act === "copy") navigator.clipboard.writeText(text).then(() => toast("Copied — paste & post ✓"));
       else if (act === "postx") { navigator.clipboard.writeText(text).catch(() => {}); window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank", "noopener"); toast("Opening X (prefilled & copied) — review, then post"); }
-      else if (act === "posted") xmPosted(draftId, text, cat);
+      else if (act === "posted") xmPosted(did, text, cat, extra);
     });
   });
 }
+function xmRiskPill(lbl, v) { return v ? '<span class="xpill ' + (v === "high" ? "r-high" : v === "medium" ? "r-med" : "r-low") + '">' + lbl + ': ' + esc(v) + '</span>' : ""; }
 function xmRenderResult(draft) {
   const el = document.getElementById("xm-result"); if (!el) return;
   if (!draft || (!draft.best_post && !(draft.all_options || []).length)) { el.innerHTML = ""; return; }
   const opts = draft.all_options || [];
   const rest = opts.filter(o => o.text && o.text !== draft.best_post).map(o => xmPostBlock(o.text, o.category)).join("");
-  el.innerHTML = '<div class="card">' +
+  const badges = '<div class="xbadges">' +
+    '<span class="xpill">' + xmCatLabel(draft.best_category) + '</span>' +
+    (draft.style_profile ? '<span class="xpill">🎭 ' + esc(draft.style_profile) + '</span>' : "") +
+    xmRiskPill("copy", draft.copy_risk) + xmRiskPill("facts", draft.factuality_risk) +
+    (draft.post_quality_score ? '<span class="xpill">⭐ ' + draft.post_quality_score + '/10</span>' : "") + '</div>';
+  const refine = '<div class="actions" style="margin-left:0;margin-top:8px">' +
+    '<button class="cp" data-rf="__regen">🔁 Regenerate</button>' +
+    '<button class="cp" data-rf="make it funnier while keeping it true">😅 Funnier</button>' +
+    '<button class="cp" data-rf="make it sharper and more punchy">🔪 Sharper</button>' +
+    '<button class="cp" data-rf="make it simpler and shorter">🧹 Simpler</button>' +
+    '<button class="cp" data-rf="turn it into a real question that invites replies">❓ To question</button>' +
+    '<button class="cp" data-rf="turn it into a bold but defensible hot take">🔥 To hot take</button></div>';
+  el.innerHTML = '<div class="card">' + badges +
     (draft.analysis ? '<div class="xranalysis">🤖 ' + esc(draft.analysis) + '</div>' : "") +
     (draft.best_post ? xmPostBlock(draft.best_post, draft.best_category, "Best") : "") +
     (draft.backup_posts || []).map(t => xmPostBlock(t, draft.best_category)).join("") +
-    (rest ? '<div class="actions" style="margin-left:0;margin-top:8px"><button class="cp" id="xm-showall">👁 Show all 8 styles</button></div>' +
+    (draft.improvement_tip ? '<div class="xreason">💡 ' + esc(draft.improvement_tip) + '</div>' : "") +
+    refine +
+    (rest ? '<div class="actions" style="margin-left:0;margin-top:8px"><button class="cp" id="xm-showall">👁 Show all options</button></div>' +
       '<div class="xrall" hidden><div class="xreps">' + rest + '</div></div>' : "") + '</div>';
   const sa = el.querySelector("#xm-showall"), all = el.querySelector(".xrall");
-  if (sa && all) sa.onclick = () => { all.hidden = !all.hidden; sa.textContent = all.hidden ? "👁 Show all 8 styles" : "🙈 Hide"; if (!all.hidden) xmWireBlocks(all, draft.id || draft._k); };
-  xmWireBlocks(el, draft.id || draft._k);
+  if (sa && all) sa.onclick = () => { all.hidden = !all.hidden; sa.textContent = all.hidden ? "👁 Show all options" : "🙈 Hide"; if (!all.hidden) xmWireBlocks(all, draft); };
+  el.querySelectorAll("[data-rf]").forEach(b => b.onclick = () => { const v = b.dataset.rf; v === "__regen" ? xmApiGenerate() : xmRefine(v, draft); });
+  xmWireBlocks(el, draft);
 }
 async function xmStoreDraft(o, source) {
   const opts = (o.all_options || []).map(x => ({ category: x.category || "", text: String(x.text || "").trim(), score: +x.score || 0, why: String(x.why || "") })).filter(x => x.text);
-  const best = String(o.best_post || "").trim();
+  const best = String(o.best_output || o.best_post || "").trim();
+  const backups = (o.backup_outputs || o.backup_posts || []).map(s => String(s || "").trim()).filter(Boolean);
   if (!best && !opts.length) return null;
   const id = String(Date.now());
   const draft = {
     id: id, seed: (document.getElementById("xm-seed").value || "").trim(), preset: xmPreset || "",
-    analysis: o.analysis || "", best_category: o.best_category || (opts[0] && opts[0].category) || "",
-    best_post: best || (opts[0] && opts[0].text) || "",
-    backup_posts: (o.backup_posts || []).map(s => String(s || "").trim()).filter(Boolean),
+    style_profile: o.style_profile || (xmStyle ? xmStyle[0] : ""),
+    analysis: o.analysis || "", input_type: o.input_type || "",
+    best_category: o.best_category || (opts[0] && opts[0].category) || "",
+    copy_risk: o.copy_risk || "", factuality_risk: o.factuality_risk || "",
+    post_quality_score: +o.post_quality_score || 0, improvement_tip: o.improvement_tip || "",
+    best_post: best || (opts[0] && opts[0].text) || "", backup_posts: backups,
     all_options: opts, status: "generated", source: source || "paste",
     created_at: new Date().toISOString(), updated_at: new Date().toISOString()
   };
@@ -2552,23 +2592,37 @@ function xmApiStatus() {
 }
 function xmApiToggle() { const b = document.getElementById("xm-apibox"); if (b) { b.hidden = !b.hidden; if (!b.hidden) { const i = document.getElementById("xm-apiurl"); if (i) i.value = xmApiUrl(); xmApiStatus(); } } }
 function xmExtractJson(t) { t = String(t || "").trim(); const a = t.indexOf("{"), b = t.lastIndexOf("}"); if (a >= 0 && b > a) t = t.slice(a, b + 1); return JSON.parse(t); }
+async function xmApiCall(prompt) {
+  const url = xmApiUrl(); if (!url) throw new Error("no endpoint");
+  const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: prompt, model: "claude-sonnet-4-6", max_tokens: 1000, temperature: 0.7 }) });
+  const data = await r.json();
+  const text = data.text || (data.content && data.content[0] && data.content[0].text) || "";
+  if (!text) throw new Error(data.error || "empty response");
+  return xmExtractJson(text);
+}
 async function xmApiGenerate() {
   const url = xmApiUrl();
   if (!url) { toast("First set your free API endpoint (one-time) — opening setup"); const b = document.getElementById("xm-apibox"); if (b) b.hidden = false; xmApiStatus(); return; }
   const btn = document.getElementById("xm-apigen"); if (btn) { btn.disabled = true; btn.textContent = "⚡ Generating…"; }
   const seed = (document.getElementById("xm-seed").value || "").trim();
-  const prompt = window.buildXMiniPrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null, brief: true });
   try {
-    const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: prompt, model: "claude-sonnet-4-6", max_tokens: 600, temperature: 0.7 }) });
-    const data = await r.json();
-    const text = data.text || (data.content && data.content[0] && data.content[0].text) || "";
-    if (!text) throw new Error(data.error || "empty response");
-    const o = xmExtractJson(text);
+    const o = await xmApiCall(window.buildAnthropicWritePrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null, style: xmStyle }));
     const draft = await xmStoreDraft(o, "api");
     if (!draft) throw new Error("no posts in response");
     xmRenderResult(draft); renderXMini(); toast("⚡ Generated ✓ — review & post");
   } catch (e) { toast("API failed: " + (e.message || e) + " — check your Worker URL / key"); }
   if (btn) { btn.disabled = false; btn.textContent = "⚡ Generate (API)"; }
+}
+async function xmRefine(instr, draft) {
+  if (!xmApiUrl()) { toast("Refine uses the API — set it in ⚙️ API setup"); return; }
+  if (!draft || !draft.best_post) { toast("Nothing to refine"); return; }
+  toast("⚡ " + instr + "…");
+  try {
+    const o = await xmApiCall(window.buildAnthropicWritePrompt({ seed: draft.best_post, refine: instr, style: xmStyle }));
+    const nd = await xmStoreDraft(o, "api");
+    if (!nd) throw new Error("no output");
+    xmRenderResult(nd); renderXMini(); toast("Done ✓ — review & post");
+  } catch (e) { toast("Refine failed: " + (e.message || e)); }
 }
 /* ---- "Post on X today": 3 ready X-native lines, rotated daily ---- */
 let dailyShuffle = 0;
@@ -2601,12 +2655,14 @@ function renderDailyX() {
     else if (act === "improve") { switchTab("xmini"); setTimeout(() => { const s = document.getElementById("xm-seed"); if (s) s.value = text; window.scrollTo({ top: 0, behavior: "smooth" }); toast("Loaded into X Mini — pick a style & generate"); }, 60); }
   }));
 }
-async function xmPosted(draftId, text, cat) {
+async function xmPosted(draftId, text, cat, extra) {
+  extra = extra || {};
   if (FBURL) {
     const id = String(Date.now()) + Math.floor((window.performance && performance.now ? performance.now() : 0));
     const now = new Date().toISOString();
-    const rec = { id: id, output_text: text, category: cat || "", char_count: (text || "").length, emoji_used: xrHasEmoji(text),
-      posted_at: now, likes: 0, replies: 0, reposts: 0, quotes: 0, profile_visits: 0, follows: 0, impressions: 0,
+    const rec = { id: id, output_text: text, category: cat || "", preset_slug: extra.preset || "", style_profile: extra.style || "",
+      char_count: (text || "").length, emoji_used: xrHasEmoji(text), posted_at: now,
+      likes: 0, replies: 0, reposts: 0, bookmarks: 0, impressions: 0, profile_clicks: 0, follows: 0,
       performance_score: 0, notes: "", created_at: now, updated_at: now };
     try { await fetch(fbRoot() + "/x_mini_performance/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }); } catch (e) {}
     if (draftId) { try { fetch(fbRoot() + "/x_mini_drafts/" + draftId + ".json", { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ status: "posted", updated_at: now }) }); } catch (e) {} }
@@ -2616,7 +2672,7 @@ async function xmPosted(draftId, text, cat) {
 function xmCount(n) { const el = document.getElementById("nc-xm"); if (el) el.textContent = n || ""; }
 async function renderXMini() {
   if (!document.getElementById("tab-xmini")) return;
-  xmPresetChips(); xmApiStatus();
+  xmPresetChips(); xmStyleChips(); xmApiStatus();
   const draftsEl = document.getElementById("xm-drafts"), capEl = document.getElementById("xm-captured");
   if (!FBURL) { if (draftsEl) draftsEl.innerHTML = '<div class="empty">Connect cloud sync to save drafts across devices.</div>'; xmCount(); return; }
   let data = {};
@@ -2656,19 +2712,21 @@ function xmDraftAction(act, d, card) {
   if (!d) return;
   if (act === "open") { xmRenderResult(d); document.getElementById("xm-seed").value = d.seed || ""; window.scrollTo({ top: 0, behavior: "smooth" }); return; }
   if (act === "postx") { navigator.clipboard.writeText(d.best_post || "").catch(() => {}); window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(d.best_post || ""), "_blank", "noopener"); toast("Opening X (prefilled & copied)"); return; }
-  if (act === "posted") { xmPosted(d._k, d.best_post || "", d.best_category || ""); return; }
+  if (act === "posted") { xmPosted(d._k, d.best_post || "", d.best_category || "", { preset: d.preset, style: d.style_profile }); return; }
   if (act === "del") { try { fetch(fbRoot() + "/x_mini_drafts/" + d._k + ".json", { method: "DELETE" }); } catch (e) {} card.remove(); toast("Removed"); return; }
 }
 function xmPerfCard(r) {
   return '<div class="card" data-xk="' + esc(r._k) + '">' +
     '<div class="xrtext">' + esc(r.output_text || "") + '</div>' +
     '<div class="meta"><span class="pill">' + xmCatLabel(r.category || "") + '</span>' +
+    (r.preset_slug ? '<span>' + esc(xmPresetName(r.preset_slug)) + '</span>' : "") +
+    (r.style_profile ? '<span>🎭 ' + esc(r.style_profile) + '</span>' : "") +
     '<span>' + (r.char_count || 0) + ' chars' + (r.emoji_used ? " · emoji" : "") + '</span>' +
     '<span class="src">⭐ score ' + (+r.performance_score || 0) + '</span></div>' +
     '<div class="xpmetrics">' +
     xpNum("👍 Likes", "likes", r.likes) + xpNum("💬 Replies", "replies", r.replies) +
-    xpNum("🔁 Reposts", "reposts", r.reposts) + xpNum("❝ Quotes", "quotes", r.quotes) +
-    xpNum("👤 Profile visits", "profile_visits", r.profile_visits) + xpNum("➕ Follows", "follows", r.follows) +
+    xpNum("🔁 Reposts", "reposts", r.reposts) + xpNum("🔖 Bookmarks", "bookmarks", r.bookmarks) +
+    xpNum("👤 Profile clicks", "profile_clicks", r.profile_clicks) + xpNum("➕ Follows", "follows", r.follows) +
     xpNum("📈 Impressions", "impressions", r.impressions) +
     '<label class="xpf xpnotes">Notes<input type="text" class="xpi" data-f="notes" value="' + esc(r.notes || "") + '"></label>' +
     '<button class="cp" data-xmx>💾 Save metrics</button><button class="cp" data-xmxdel>🗑</button>' +
@@ -2702,14 +2760,35 @@ async function renderXmPerf() {
   };
   const blk = (title, pairs, fmt) => '<div class="xpk"><div class="sec-h">' + title + '</div>' +
     (pairs.length ? pairs.map(([k, avg, n]) => '<div class="xprow"><span>' + esc(fmt ? fmt(k) : k) + '</span><b>' + avg.toFixed(1) + '</b><small>' + n + '</small></div>').join("") : '<div class="note">no data yet</div>') + '</div>';
-  const top = rows.slice().sort((a, b) => (+b.performance_score || 0) - (+a.performance_score || 0)).slice(0, 10);
+  const scored = rows.filter(r => (+r.performance_score || 0) > 0);
+  const cats = avgBy(r => r.category), styles = avgBy(r => r.style_profile), presets = avgBy(r => r.preset_slug);
+  const emoji = avgBy(r => r.emoji_used ? "with emoji" : "no emoji");
+  const hourLabel = h => { h = +h; const ap = h < 12 ? "am" : "pm"; let hh = h % 12; if (!hh) hh = 12; return hh + ap; };
+  const times = avgBy(r => { try { return String(new Date(r.posted_at).getHours()); } catch (e) { return ""; } });
+  const top = rows.slice().sort((a, b) => (+b.performance_score || 0) - (+a.performance_score || 0)).slice(0, 20);
   const hist = rows.slice().sort((a, b) => String(b.posted_at || "").localeCompare(String(a.posted_at || "")));
-  el.innerHTML = '<div class="xgrid">' +
-    blk("Best style", avgBy(r => r.category), xmCatLabel) +
-    blk("Emoji vs none", avgBy(r => r.emoji_used ? "with emoji" : "no emoji")) +
+  // suggestions (only once we have a few scored posts)
+  const sugg = [];
+  if (scored.length >= 3) {
+    if (cats[0]) sugg.push("Post more <b>" + xmCatLabel(cats[0][0]) + "</b> — your strongest category (avg " + cats[0][1].toFixed(1) + ").");
+    if (styles[0] && styles[0][0]) sugg.push("Best style this week: <b>🎭 " + esc(styles[0][0]) + "</b>.");
+    if (presets[0] && presets[0][0]) sugg.push("Best preset: <b>" + esc(xmPresetName(presets[0][0])) + "</b>. " + (presets.length > 1 && presets[presets.length - 1][0] ? "Ease off <b>" + esc(xmPresetName(presets[presets.length - 1][0])) + "</b>." : ""));
+    if (emoji.length === 2) sugg.push(emoji[0][0] === "with emoji" ? "Emojis are <b>helping</b> — keep using 1 where natural." : "Emojis aren't helping much — keep them rare.");
+    const q = cats.find(c => c[0] === "question"), h = cats.find(c => c[0] === "hot_take");
+    if (q && h) sugg.push(q[1] >= h[1] ? "<b>Questions</b> beat hot takes for you — lean into replies." : "<b>Hot takes</b> beat questions for you — be a bit bolder.");
+    if (times[0]) sugg.push("Posts around <b>" + hourLabel(times[0][0]) + "</b> do best so far.");
+  }
+  el.innerHTML =
+    (sugg.length ? '<div class="card xsugg"><div class="sec-h">🧭 What to post next</div><ul>' + sugg.map(s => '<li>' + s + '</li>').join("") + '</ul></div>' : '<div class="note">Tip: post a few, hit “✓ Posted”, add the numbers ~24h later — suggestions appear once you have 3+ scored posts.</div>') +
+    '<div class="xgrid">' +
+    blk("Best category", cats, xmCatLabel) +
+    blk("Best style profile", styles) +
+    blk("Best preset", presets, xmPresetName) +
+    blk("Emoji vs none", emoji) +
     blk("Short vs long", avgBy(r => (+r.char_count || 0) <= 120 ? "short (≤120)" : "long (>120)")) +
+    blk("Best posting time", times, hourLabel) +
     '</div>' +
-    '<div class="sec-h xptop">🏆 Top performers</div>' +
+    '<div class="sec-h xptop">🏆 Top ' + Math.min(20, top.length) + ' posts</div>' +
     top.map(r => '<div class="xprow xptopr"><span>' + esc((r.output_text || "").slice(0, 90)) + '</span><b>' + (+r.performance_score || 0) + '</b><small>' + xmCatLabel(r.category || "") + '</small></div>').join("") +
     '<div class="sec-h xptop">📊 All posts — add the numbers</div>' +
     hist.map(xmPerfCard).join("");

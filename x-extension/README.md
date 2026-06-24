@@ -8,8 +8,9 @@ Two destinations from one popup:
   Works on **X and LinkedIn**.
 - **↩️ Reply to this post** → Studio **X Replies** tab (X only): 7 reply styles, best 2
   shown, performance tracking.
-- **✍️ Rewrite as an X post** → Studio **X Mini** tab: sends the selected/visible text
-  as a seed idea for a short, original text-only X post. Works on X, LinkedIn, anywhere.
+- **✍️ Write with Anthropic** → Studio **Write** tab (Anthropic Write Engine): sends the
+  selected/visible text as a seed for a short, original text-only post (best + 2 backups,
+  style profiles, refine buttons, performance learning). Works on X, LinkedIn, anywhere.
 
 It only acts when you click — it never scrapes in the background and never posts.
 
