@@ -693,6 +693,11 @@ PAGE = r"""<!doctype html>
   <section id="tab-home">
     <p class="homedate" id="homedate"><span class="live"></span> <span id="homedatetxt"></span></p>
     <div class="panel toppick" id="toppick"></div>
+    <div class="panel" id="dailyx-panel">
+      <h3 style="display:flex;align-items:center;gap:8px">✍️ Post on X today
+        <button class="cp" id="dailyx-shuffle" style="margin-left:auto">🎲 Shuffle</button></h3>
+      <div id="dailyx"></div>
+    </div>
     <div class="statgrid" id="statgrid"></div>
     <div class="homecols">
       <div class="panel">
@@ -744,10 +749,18 @@ PAGE = r"""<!doctype html>
       <div class="xmchips" id="xm-presets"></div>
       <textarea id="xm-seed" class="rphead" rows="2" placeholder="Type your idea, or paste text to rewrite — or tap an idea from the Idea bank below (optional)"></textarea>
       <div class="actions" style="margin-left:0;margin-top:6px">
-        <button class="cp" onclick="xmGen('claude')">🤖 Open in Claude</button>
-        <button class="cp" onclick="xmGen('gpt')">⚡ Open in ChatGPT</button>
+        <button class="cp" id="xm-apigen" onclick="xmApiGenerate()">⚡ Generate (API)</button>
+        <button class="cp" onclick="xmGen('claude')">🤖 Claude</button>
+        <button class="cp" onclick="xmGen('gpt')">💬 ChatGPT</button>
         <button class="cp" onclick="xmPasteToggle()">📥 Paste result</button>
         <button class="cp" onclick="xmIdeasToggle()">💡 Idea bank</button>
+        <button class="cp" onclick="xmApiToggle()">⚙️ API setup</button>
+      </div>
+      <div id="xm-apibox" hidden>
+        <div class="note">⚡ One-click generation. One-time setup: paste your free Cloudflare Worker URL (it holds your Anthropic key — see <b>XMINI_API.md</b>). Your key never touches this site.</div>
+        <input id="xm-apiurl" class="rphead" placeholder="https://x-writer.you.workers.dev">
+        <div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" onclick="xmApiSave()">💾 Save endpoint</button></div>
+        <div class="note" id="xm-apistat"></div>
       </div>
       <div id="xm-paste" hidden>
         <textarea id="xm-savejson" class="rphead" rows="3" placeholder="Paste Claude/ChatGPT's JSON here, then Save"></textarea>
@@ -2470,23 +2483,93 @@ function xmRenderResult(draft) {
   if (sa && all) sa.onclick = () => { all.hidden = !all.hidden; sa.textContent = all.hidden ? "👁 Show all 8 styles" : "🙈 Hide"; if (!all.hidden) xmWireBlocks(all, draft.id || draft._k); };
   xmWireBlocks(el, draft.id || draft._k);
 }
-async function xmSave() {
-  const ta = document.getElementById("xm-savejson"); let o;
-  try { o = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste exactly what the AI returned"); return; }
+async function xmStoreDraft(o, source) {
   const opts = (o.all_options || []).map(x => ({ category: x.category || "", text: String(x.text || "").trim(), score: +x.score || 0, why: String(x.why || "") })).filter(x => x.text);
   const best = String(o.best_post || "").trim();
-  if (!best && !opts.length) { toast("No posts found in that JSON"); return; }
+  if (!best && !opts.length) return null;
   const id = String(Date.now());
   const draft = {
     id: id, seed: (document.getElementById("xm-seed").value || "").trim(), preset: xmPreset || "",
     analysis: o.analysis || "", best_category: o.best_category || (opts[0] && opts[0].category) || "",
     best_post: best || (opts[0] && opts[0].text) || "",
     backup_posts: (o.backup_posts || []).map(s => String(s || "").trim()).filter(Boolean),
-    all_options: opts, status: "generated", created_at: new Date().toISOString(), updated_at: new Date().toISOString()
+    all_options: opts, status: "generated", source: source || "paste",
+    created_at: new Date().toISOString(), updated_at: new Date().toISOString()
   };
   if (FBURL) { try { await fetch(fbRoot() + "/x_mini_drafts/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(draft) }); } catch (e) {} }
+  return draft;
+}
+async function xmSave() {
+  const ta = document.getElementById("xm-savejson"); let o;
+  try { o = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste exactly what the AI returned"); return; }
+  const draft = await xmStoreDraft(o, "paste");
+  if (!draft) { toast("No posts found in that JSON"); return; }
   ta.value = ""; const p = document.getElementById("xm-paste"); if (p) p.hidden = true;
   xmRenderResult(draft); renderXMini(); toast("Saved ✓ — review & post below");
+}
+/* ---- one-click generation via a user-configured proxy (key stays server-side) ---- */
+function xmApiUrl() { return (localStorage.getItem("xm_api_url") || "").trim(); }
+function xmApiSave() {
+  const v = (document.getElementById("xm-apiurl").value || "").trim();
+  localStorage.setItem("xm_api_url", v); xmApiStatus();
+  toast(v ? "API endpoint saved ⚡" : "API endpoint cleared");
+}
+function xmApiStatus() {
+  const el = document.getElementById("xm-apistat"); if (!el) return;
+  const u = xmApiUrl();
+  el.textContent = u ? "⚡ Connected: " + u.replace(/^https?:\/\//, "").slice(0, 44) : "Not connected — buttons use free copy-paste";
+  el.className = "note" + (u ? " ok" : "");
+}
+function xmApiToggle() { const b = document.getElementById("xm-apibox"); if (b) { b.hidden = !b.hidden; if (!b.hidden) { const i = document.getElementById("xm-apiurl"); if (i) i.value = xmApiUrl(); xmApiStatus(); } } }
+function xmExtractJson(t) { t = String(t || "").trim(); const a = t.indexOf("{"), b = t.lastIndexOf("}"); if (a >= 0 && b > a) t = t.slice(a, b + 1); return JSON.parse(t); }
+async function xmApiGenerate() {
+  const url = xmApiUrl();
+  if (!url) { toast("First set your free API endpoint (one-time) — opening setup"); const b = document.getElementById("xm-apibox"); if (b) b.hidden = false; xmApiStatus(); return; }
+  const btn = document.getElementById("xm-apigen"); if (btn) { btn.disabled = true; btn.textContent = "⚡ Generating…"; }
+  const seed = (document.getElementById("xm-seed").value || "").trim();
+  const prompt = window.buildXMiniPrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null });
+  try {
+    const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: prompt, max_tokens: 1200, temperature: 0.65 }) });
+    const data = await r.json();
+    const text = data.text || (data.content && data.content[0] && data.content[0].text) || "";
+    if (!text) throw new Error(data.error || "empty response");
+    const o = xmExtractJson(text);
+    const draft = await xmStoreDraft(o, "api");
+    if (!draft) throw new Error("no posts in response");
+    xmRenderResult(draft); renderXMini(); toast("⚡ Generated ✓ — review & post");
+  } catch (e) { toast("API failed: " + (e.message || e) + " — check your Worker URL / key"); }
+  if (btn) { btn.disabled = false; btn.textContent = "⚡ Generate (API)"; }
+}
+/* ---- "Post on X today": 3 ready X-native lines, rotated daily ---- */
+let dailyShuffle = 0;
+function dayKey() { try { return Math.floor(new Date().getTime() / 86400000); } catch (e) { return 0; } }
+function pickDaily() {
+  const I = window.XMINI_IDEAS || {}, cats = Object.keys(I).sort();
+  if (!cats.length) return [];
+  const base = dayKey() + dailyShuffle * 5;
+  const mod = (n, m) => ((n % m) + m) % m;
+  return [0, 3, 6].map(o => { const cat = cats[mod(base + o, cats.length)], arr = I[cat] || []; return arr.length ? { cat: cat, text: arr[mod(base + o, arr.length)] } : null; }).filter(Boolean);
+}
+function renderDailyX() {
+  const el = document.getElementById("dailyx"); if (!el) return;
+  const picks = pickDaily();
+  el.innerHTML = picks.length ? picks.map(p => {
+    const len = p.text.length;
+    return '<div class="xrep" data-cat="' + esc(p.cat) + '"><div class="xrstyle">' + xmCatLabel(p.cat) +
+      ' · <span class="xrscore' + (len > 280 ? " over" : "") + '">' + len + '/280</span></div>' +
+      '<div class="xrtext">' + esc(p.text) + '</div>' +
+      '<div class="xractions"><button class="cp" data-dx="copy">📋 Copy</button>' +
+      '<button class="cp" data-dx="postx">𝕏 Post on X</button>' +
+      '<button class="cp" data-dx="posted">✓ Posted</button>' +
+      '<button class="cp" data-dx="improve">✍️ Improve</button></div></div>';
+  }).join("") : '<div class="note">Idea bank not loaded.</div>';
+  el.querySelectorAll(".xrep").forEach(rep => rep.querySelectorAll("[data-dx]").forEach(b => b.onclick = () => {
+    const text = rep.querySelector(".xrtext").textContent, cat = rep.getAttribute("data-cat") || "", act = b.dataset.dx;
+    if (act === "copy") navigator.clipboard.writeText(text).then(() => toast("Copied — paste & post ✓"));
+    else if (act === "postx") { navigator.clipboard.writeText(text).catch(() => {}); window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank", "noopener"); toast("Opening X (prefilled & copied)"); }
+    else if (act === "posted") xmPosted("", text, cat);
+    else if (act === "improve") { switchTab("xmini"); setTimeout(() => { const s = document.getElementById("xm-seed"); if (s) s.value = text; window.scrollTo({ top: 0, behavior: "smooth" }); toast("Loaded into X Mini — pick a style & generate"); }, 60); }
+  }));
 }
 async function xmPosted(draftId, text, cat) {
   if (FBURL) {
@@ -2503,7 +2586,7 @@ async function xmPosted(draftId, text, cat) {
 function xmCount(n) { const el = document.getElementById("nc-xm"); if (el) el.textContent = n || ""; }
 async function renderXMini() {
   if (!document.getElementById("tab-xmini")) return;
-  xmPresetChips();
+  xmPresetChips(); xmApiStatus();
   const draftsEl = document.getElementById("xm-drafts"), capEl = document.getElementById("xm-captured");
   if (!FBURL) { if (draftsEl) draftsEl.innerHTML = '<div class="empty">Connect cloud sync to save drafts across devices.</div>'; xmCount(); return; }
   let data = {};
@@ -5293,6 +5376,9 @@ function renderHome() {
     new Date().toLocaleDateString("en-GB",
       { weekday: "long", day: "numeric", month: "long" }) +
     " · radar updated " + UPDATED;
+  renderDailyX();
+  const sh = document.getElementById("dailyx-shuffle");
+  if (sh) sh.onclick = () => { dailyShuffle++; renderDailyX(); };
 
   const pool = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u));
   // "Aaj ka top pick" should be a FRESH high-scoring story (last 2 days),

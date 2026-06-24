@@ -54,11 +54,15 @@ export default {
    `ANTHROPIC_API_KEY` = your key from <https://console.anthropic.com>. (Never commit it.)
 4. Copy your Worker URL, e.g. `https://x-writer.<you>.workers.dev`.
 
-## 2. Turn it on in the Studio
-This is the only step that needs me — tell me your Worker URL and I'll wire a
-**⚡ Generate (API)** button into X Mini / Repurpose / X Replies that POSTs
-`{prompt}` to your Worker and fills the results automatically (no copy-paste).
-The Studio stores only the **URL** (public, harmless) — never the key.
+## 2. Turn it on in the Studio (self-serve)
+1. Studio → **✍️ X Mini** tab → **⚙️ API setup**.
+2. Paste your Worker URL (e.g. `https://x-writer.you.workers.dev`) → **💾 Save endpoint**.
+3. Now the **⚡ Generate (API)** button writes the posts for you — no copy-paste.
+
+The Studio stores only the **URL** (public, harmless) in your browser — never the key.
+The free **🤖 Claude / 💬 ChatGPT** copy-paste buttons keep working with no setup, so
+you can use either path any time. (Want the same ⚡ button in Repurpose / X Replies too?
+Just ask.)
 
 ## Why this is the right shape
 - Key lives in the Worker's encrypted env, not in any public file — matches the security
