@@ -310,13 +310,13 @@ const FIELDS = ['id','title','headline','article','x_post','linkedin_post','face
 export default async function handler(req: Request) {
   if (!authed(req)) return new Response('Unauthorized', { status: 401 })
   // "approved" = however Caira marks owner-approved (e.g. stage 'Review'/'Approved' or an approved flag)
+  // DO NOT mark delivered / filter on radar_delivered — just return ALL approved post
+  // cards every call. AI Radar de-dupes by id, so repeats are harmless, and a stray
+  // read (a test, a retry) can never make a task vanish.
   const { data, error } = await admin.from('videos')
     .select(FIELDS.join(',')).eq('workspace_id', WS).eq('kind', 'post')
-    .eq('approved', true).eq('radar_delivered', false)
+    .eq('approved', true)
   if (error) return new Response(error.message, { status: 500 })
-  // optional: mark delivered so they aren't returned again (Radar also de-dupes by id)
-  const ids = (data || []).map((r: any) => r.id)
-  if (ids.length) await admin.from('videos').update({ radar_delivered: true }).in('id', ids)
   return Response.json(data || [])
 }
 ```
