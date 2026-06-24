@@ -2059,12 +2059,21 @@ async function renderRepurpose() {
     const imgHtml = c.image_url ? '<a class="rpimg" href="' + esc(c.image_url) + '" target="_blank" rel="noopener"><img src="' + esc(c.image_url) + '" loading="lazy" alt="post image"></a>' : "";
     const block = (label, o, badge, copyT) => {
       if (!o || !o.text) return "";
+      const ptype = copyT === "__best__" ? (c.best_output_type || "x_post") : copyT;
+      let postBtn = "";
+      if (ptype === "x_post" || ptype === "hot_take" || ptype === "question_post")
+        postBtn = '<button class="cp" data-act="postx" data-t="' + esc(copyT) + '">𝕏 Post on X</button>';
+      else if (ptype === "linkedin_post")
+        postBtn = '<button class="cp" data-act="postli" data-t="' + esc(copyT) + '">🔗 Post on LinkedIn</button>';
+      else if (ptype === "comment_reply" && c.source_url)
+        postBtn = '<button class="cp" data-act="opensrc">↗ Open post to comment</button>';
       return '<div class="xrep' + (badge ? " rec" : "") + '">' +
         '<div class="xrstyle">' + (badge ? '<span class="xrbadge">' + badge + '</span> ' : "") + esc(label) +
         (o.score ? ' · <span class="xrscore">' + o.score + '/10</span>' : "") + '</div>' +
         '<div class="xrtext">' + esc(o.text) + '</div>' +
         (o.reason ? '<div class="xreason">' + esc(o.reason) + '</div>' : "") +
         '<div class="xractions"><button class="cp" data-act="copyo" data-t="' + esc(copyT) + '">📋 Copy</button>' +
+        postBtn +
         '<button class="cp" data-act="postout" data-t="' + esc(copyT) + '">✓ Posted</button></div></div>';
     };
     let body;
@@ -2139,6 +2148,20 @@ async function rpAction(act, key, c, d, b) {
     const txt = t === "__best__" ? (c.best_output || "") : ((c.outputs || []).find(o => o.type === t) || {}).text || "";
     navigator.clipboard.writeText(txt).then(() => toast("Copied — paste & post ✓")); return;
   }
+  if (act === "postx") {
+    const t = b.dataset.t;
+    const txt = t === "__best__" ? (c.best_output || "") : ((c.outputs || []).find(o => o.type === t) || {}).text || "";
+    navigator.clipboard.writeText(txt).catch(() => {});
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(txt), "_blank", "noopener");
+    toast("Opening X (text prefilled & copied) — review, then post"); return;
+  }
+  if (act === "postli") {
+    const t = b.dataset.t;
+    const txt = t === "__best__" ? (c.best_output || "") : ((c.outputs || []).find(o => o.type === t) || {}).text || "";
+    navigator.clipboard.writeText(txt).then(() => toast("Copied — paste (Ctrl+V) in the LinkedIn box ✓")).catch(() => toast("Opening LinkedIn — paste your post"));
+    window.open("https://www.linkedin.com/feed/?shareActive=true", "_blank", "noopener"); return;
+  }
+  if (act === "opensrc") { if (c.source_url) window.open(c.source_url, "_blank", "noopener"); return; }
   if (act === "dlimg") { if (c.image_url) downloadImage(c.image_url); return; }
   if (act === "poster") { rpPosterPanel(d, c); return; }
   if (act === "postout") {
