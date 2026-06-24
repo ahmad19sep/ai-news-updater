@@ -2,9 +2,9 @@
 
 ## 🔥 Biggest Story of the Week
 **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano**
-Covered by 11 source(s) · Score: 116
+Covered by 12 source(s) · Score: 126
 Best source link: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/
-All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/ · https://www.ctinsider.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.beaumontenterprise.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.houstonchronicle.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.bostonherald.com/2026/06/23/ai-chatbots-dating/ · https://www.fortmorgantimes.com/2026/06/23/ai-chatbots-dating/ · https://www.troyrecord.com/2026/06/23/ai-chatbots-dating/ · https://www.dailycamera.com/2026/06/23/ai-chatbots-dating/ · https://www.canoncitydailyrecord.com/2026/06/23/ai-chatbots-dating/ · https://www.timescall.com/2026/06/23/ai-chatbots-dating/ · https://japantoday.com/category/tech/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorn's-modern-day-cyrano
+All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/ · https://www.ctinsider.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.beaumontenterprise.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.houstonchronicle.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.bostonherald.com/2026/06/23/ai-chatbots-dating/ · https://www.fortmorgantimes.com/2026/06/23/ai-chatbots-dating/ · https://www.troyrecord.com/2026/06/23/ai-chatbots-dating/ · https://www.dailycamera.com/2026/06/23/ai-chatbots-dating/ · https://www.canoncitydailyrecord.com/2026/06/23/ai-chatbots-dating/ · https://www.timescall.com/2026/06/23/ai-chatbots-dating/ · https://japantoday.com/category/tech/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorn's-modern-day-cyrano · https://timesofindia.indiatimes.com/world/us/ai-chatbots-hit-dating-scene-becoming-the-lovelorns-modern-day-cyrano/articleshow/131953382.cms
 
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — science angle
@@ -25,7 +25,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMitgFBVV95cUxNTi1iQ2d5dTExVkt2cWJEUWRoT3NMeUp2YnJBT3pnS25pT3FsOU5GbWRlTHZoYUgtM0tHZmQ5RmNUaFZMb3lGbTB2SlhwbUstVHVJMVdKRm9uSzg3Ykg3X3NoRzR6UGJVdjM0MjBsdmNxNWhNb2FyX3lzSFI4QTZlcnFKOU9pNDFMM3JnZTVzZjl2YXFrT3ZWTE1CaGFTQUJ6VWMtVjdRYnZBNzJYc1FxSUl3VXFMUQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 116
+1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 126
    https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/
 2. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 86
    https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2656
+- Total stories tracked: 2697
 - Most active topic: anthropic
 - Busiest category: AI General News
 
