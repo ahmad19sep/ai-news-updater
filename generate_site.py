@@ -204,6 +204,21 @@ PAGE = r"""<!doctype html>
           border-radius:10px; padding:10px 13px; margin:8px 0; }
   .xrrec { margin-top:5px; }
   .xrbadge { background:var(--indigo); color:#fff; border-radius:999px; padding:1px 8px; font:700 10px Inter; }
+  .xrtag { background:var(--surface3); border:1px solid var(--line); border-radius:999px; padding:1px 8px; font:700 10px var(--mono); color:var(--dim); }
+  .xrall { margin-top:6px; }
+  .xgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:14px; }
+  .xprow { display:flex; align-items:center; gap:9px; padding:7px 0; border-top:1px solid var(--line); }
+  .xprow:first-of-type { border-top:none; }
+  .xpk { flex:1; min-width:0; font-size:13px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .xrn { font:11px var(--mono); color:var(--faint); flex:none; }
+  .xptop .xrtext { font-size:13.5px; }
+  .xpmetrics { display:flex; flex-wrap:wrap; gap:8px 12px; align-items:flex-end; margin-top:10px;
+          padding-top:10px; border-top:1px solid var(--line); }
+  .xpf { display:flex; flex-direction:column; font:600 10.5px Inter; color:var(--dim); gap:3px; }
+  .xpf input.xpi { width:74px; border:1px solid var(--line2); border-radius:7px; padding:6px 8px; font:13px Inter; }
+  .xpchk { flex-direction:row; align-items:center; gap:6px; font-size:12px; color:var(--text); }
+  .xpnotes { flex:1; min-width:160px; }
+  .xpnotes input.xpi { width:100%; }
   .xrstyle { font:700 11.5px Inter; color:var(--dim); letter-spacing:.02em; }
   .xrscore { color:var(--gold); }
   .xrtext { font-size:14px; line-height:1.5; margin:6px 0 9px; white-space:pre-wrap; }
@@ -694,9 +709,14 @@ PAGE = r"""<!doctype html>
   </section>
 
   <section id="tab-xreplies" hidden>
-    <p class="note">↩️ Capture any X post with the “Send to Radar Studio” browser extension, generate
-       7 reply styles, score them, pick one and copy it. No auto-posting — you reply yourself.</p>
+    <div class="bar" style="margin-top:18px">
+      <button id="xv-inbox" class="active" onclick="xrSwitch('inbox')">↩️ Inbox</button>
+      <button id="xv-perf" onclick="xrSwitch('perf')">📊 Performance</button>
+    </div>
+    <p class="note" id="xr-note">↩️ Capture an X post with the extension → generate 7 replies → the best 2 show here.
+       Hit “✓ Use this” and it's logged in Performance so you can learn what grows the account.</p>
     <div id="xreplist"></div>
+    <div id="xperf" hidden></div>
   </section>
 
   <section id="tab-trends" hidden>
@@ -1505,7 +1525,7 @@ function switchTab(name) {
   if (name === "home") renderHome();
   if (name === "popular") renderPopular();
   if (name === "ready") renderReady();
-  if (name === "xreplies") renderXReplies();
+  if (name === "xreplies") renderXTab();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -1727,6 +1747,22 @@ function xrPatch(key, obj) {
   return fetch(fbRoot() + "/x_captures/" + key + ".json", { method: "PATCH",
     headers: { "Content-Type": "application/json" }, body: JSON.stringify(obj) });
 }
+let xrView = "inbox";
+function renderXTab() { if (xrView === "perf") renderXPerf(); else renderXReplies(); }
+function xrSwitch(v) {
+  xrView = v;
+  const ib = document.getElementById("xv-inbox"), pb = document.getElementById("xv-perf");
+  if (ib) ib.classList.toggle("active", v === "inbox");
+  if (pb) pb.classList.toggle("active", v === "perf");
+  const lst = document.getElementById("xreplist"), pf = document.getElementById("xperf");
+  if (lst) lst.hidden = v !== "inbox";
+  if (pf) pf.hidden = v !== "perf";
+  const note = document.getElementById("xr-note");
+  if (note) note.textContent = v === "perf"
+    ? "📊 Posted replies + what's working. Add each reply's metrics ~24h after posting to learn which styles, post-types and accounts actually grow the account."
+    : "↩️ Capture an X post → generate 7 replies → the best 2 show here. “✓ Use this” logs it in Performance.";
+  renderXTab();
+}
 async function renderXReplies() {
   const el = document.getElementById("xreplist"); if (!el) return;
   const nc = document.getElementById("nc-xr");
@@ -1749,28 +1785,43 @@ async function renderXReplies() {
     if (reps.length) {
       const ana = (c.analysis || c.recommend) ?
         '<div class="xranalysis">🤖 <b>AI read:</b> ' + esc(c.analysis || "") +
-        (c.recommend ? '<div class="xrrec">⭐ Best for this post: <b>' + esc(xrStyleLabel(c.recommend)) + '</b>' +
+        (c.post_type ? ' <span class="xrtag">' + esc(c.post_type) + (c.best_action ? " → " + esc(c.best_action) : "") + '</span>' : "") +
+        (c.recommend ? '<div class="xrrec">⭐ Best style: <b>' + esc(xrStyleLabel(c.recommend)) + '</b>' +
           (c.recommend_why ? ' — ' + esc(c.recommend_why) : "") + '</div>' : "") + '</div>' : "";
-      const ordered = reps.map((r, i) => ({ r, i })).sort((a, bb) =>
-        ((bb.r.style === c.recommend) - (a.r.style === c.recommend)) || ((bb.r.score || 0) - (a.r.score || 0)));
-      body = ana + '<div class="xreps">' + ordered.map(o => {
-        const r = o.r, i = o.i, rec = c.recommend && r.style === c.recommend;
-        return '<div class="xrep' + (c.selected_reply === r.text ? " sel" : "") + (rec ? " rec" : "") + '">' +
-        '<div class="xrstyle">' + esc(xrStyleLabel(r.style)) + ' · <span class="xrscore">' + (r.score || "?") + '/10</span>' +
-        (rec ? ' <span class="xrbadge">⭐ Recommended</span>' : "") + '</div>' +
-        '<div class="xrtext">' + esc(r.text) + '</div>' +
-        '<div class="xractions"><button class="cp" data-act="copyr" data-i="' + i + '">📋 Copy</button>' +
-        '<button class="cp" data-act="selr" data-i="' + i + '">✓ Use this</button></div></div>';
-      }).join("") + '</div>' +
-        '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="regen">🔁 New replies</button>' +
-        '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>';
+      const findI = t => reps.findIndex(r => r.text === t);
+      let bestI = c.best_reply ? findI(c.best_reply) : -1;
+      let backI = c.backup_reply ? findI(c.backup_reply) : -1;
+      if (bestI < 0) {
+        const ord = reps.map((r, i) => ({ r, i })).sort((a, bb) =>
+          ((bb.r.style === c.recommend) - (a.r.style === c.recommend)) || ((bb.r.score || 0) - (a.r.score || 0)));
+        bestI = ord[0] ? ord[0].i : 0;
+      }
+      if (backI < 0 || backI === bestI) {
+        const alt = reps.map((r, i) => ({ r, i })).filter(o => o.i !== bestI).sort((a, bb) => (bb.r.score || 0) - (a.r.score || 0));
+        backI = alt[0] ? alt[0].i : -1;
+      }
+      const card = (i, label) => {
+        const r = reps[i]; if (!r) return "";
+        return '<div class="xrep' + (c.selected_reply === r.text ? " sel" : "") + (label.indexOf("Best") >= 0 ? " rec" : "") + '">' +
+          '<div class="xrstyle">' + (label ? '<span class="xrbadge">' + label + '</span> ' : "") + esc(xrStyleLabel(r.style)) +
+          ' · <span class="xrscore">' + (r.score || "?") + '/10</span></div>' +
+          '<div class="xrtext">' + esc(r.text) + '</div>' +
+          '<div class="xractions"><button class="cp" data-act="copyr" data-i="' + i + '">📋 Copy</button>' +
+          '<button class="cp" data-act="selr" data-i="' + i + '">✓ Use this</button></div></div>';
+      };
+      const top = card(bestI, "⭐ Best reply") + (backI >= 0 ? card(backI, "🔁 Backup") : "");
+      const all = reps.map((r, i) => card(i, (i === bestI ? "⭐ Best" : i === backI ? "🔁 Backup" : ""))).join("");
+      body = ana + '<div class="xreps">' + top + '</div>' +
+        '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="showall">👁 Show all 7</button>' +
+        '<button class="cp" data-act="regen">🔁 New</button><button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
+        '<div class="xrall" hidden><div class="sec-h" style="margin-top:8px">All 7 replies</div><div class="xreps">' + all + '</div></div>';
     } else {
       body = '<div class="actions" style="margin-left:0;margin-top:9px">' +
         '<button class="cp" data-act="gen" data-ai="claude">🤖 Open in Claude</button>' +
         '<button class="cp" data-act="gen" data-ai="gpt">⚡ Open in ChatGPT</button>' +
         '<button class="cp" data-act="pasteopen">📥 Paste replies</button>' +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
-        '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude\'s JSON array of 7 replies here, then Save"></textarea>' +
+        '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude/ChatGPT\'s JSON object here, then Save"></textarea>' +
         '<div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" data-act="savereplies">💾 Save replies</button></div></div>';
     }
     d.innerHTML =
@@ -1783,6 +1834,25 @@ async function renderXReplies() {
     el.appendChild(d);
   });
 }
+function xrHasEmoji(t) {
+  try { return /\p{Extended_Pictographic}/u.test(t || ""); }
+  catch (e) { return /[←-⯿\u{1F000}-\u{1FAFF}]/u.test(t || ""); }
+}
+async function xpLog(captureKey, c, r) {                 // log a posted reply for performance tracking
+  if (!FBURL) return;
+  const id = String(Date.now()) + Math.floor(performance.now ? performance.now() : 0);
+  const now = new Date().toISOString();
+  const rec = {
+    id, captured_post_id: captureKey, selected_reply_id: r.style, selected_reply_text: r.text,
+    post_type: c.post_type || "", best_action: c.best_action || "", reply_style: r.style,
+    target_author_handle: c.author_handle || "", topic: c.topic || "",
+    emoji_used: xrHasEmoji(r.text), character_count: (r.text || "").length, posted_at: now,
+    likes_count: 0, replies_count: 0, reposts_count: 0, bookmarks_count: 0, impressions_count: 0,
+    profile_clicks_count: 0, author_replied: false, performance_score: 0, notes: "",
+    created_at: now, updated_at: now
+  };
+  try { await fetch(fbRoot() + "/x_performance/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }); } catch (e) {}
+}
 async function xrAction(act, key, c, d, b) {
   if (act === "gen") {
     const ai = b.dataset.ai === "gpt" ? "ChatGPT" : "Claude";
@@ -1793,27 +1863,32 @@ async function xrAction(act, key, c, d, b) {
     toast("Prompt copied — paste it in " + ai + " ✓");
     return;
   }
+  if (act === "showall") { const a = d.querySelector(".xrall"); if (a) { a.hidden = !a.hidden; b.textContent = a.hidden ? "👁 Show all 7" : "🙈 Hide"; } return; }
   if (act === "pasteopen") { const p = d.querySelector(".xrpaste"); if (p) p.hidden = !p.hidden; return; }
   if (act === "savereplies") {
     const ta = d.querySelector(".xrjson"); let parsed;
     try { parsed = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste exactly what Claude returned"); return; }
-    let arr = [], analysis = "", recommend = "", recommend_why = "";
+    let arr = [], o = {};
     if (Array.isArray(parsed)) { arr = parsed; }
-    else if (parsed && typeof parsed === "object") {
-      arr = parsed.replies || []; analysis = parsed.analysis || ""; recommend = parsed.recommend || ""; recommend_why = parsed.recommend_why || "";
-    }
+    else if (parsed && typeof parsed === "object") { arr = parsed.replies || []; o = parsed; }
     const reps = (arr || []).map(r => ({ style: (r.style || "smart"), text: String(r.text || r.reply || "").trim(), score: (+r.score || 0) })).filter(r => r.text).slice(0, 7);
     if (!reps.length) { toast("No reply text found in that JSON"); return; }
-    await xrPatch(key, { replies: reps, analysis, recommend, recommend_why, status: "generated", updated_at: new Date().toISOString() });
+    await xrPatch(key, {
+      replies: reps, analysis: o.analysis || "", recommend: o.recommend || "",
+      recommend_why: o.recommend_why || "", post_type: o.post_type || "", best_action: o.best_action || "",
+      best_reply: String(o.best_reply || "").trim(), backup_reply: String(o.backup_reply || "").trim(),
+      status: "generated", updated_at: new Date().toISOString()
+    });
     toast(reps.length + " replies saved ✓"); renderXReplies(); return;
   }
   if (act === "copyr") { const r = (c.replies || [])[+b.dataset.i]; if (r) navigator.clipboard.writeText(r.text).then(() => toast("Reply copied — paste it on X ✓")); return; }
   if (act === "selr") {
     const r = (c.replies || [])[+b.dataset.i]; if (!r) return;
     navigator.clipboard.writeText(r.text).catch(() => {});
-    await xrPatch(key, { selected_reply: r.text, status: "copied", updated_at: new Date().toISOString() });
+    await xrPatch(key, { selected_reply: r.text, status: "posted", updated_at: new Date().toISOString() });
+    await xpLog(key, c, r);                       // track it for performance learning
     if (c.source_url) window.open(c.source_url, "_blank", "noopener");
-    toast("Copied + post opened — paste your reply ✓"); renderXReplies(); return;
+    toast("Copied + logged — paste your reply, then add metrics in Performance ✓"); renderXReplies(); return;
   }
   if (act === "regen") { await xrPatch(key, { replies: [], status: "captured", selected_reply: "", updated_at: new Date().toISOString() }); renderXReplies(); return; }
   if (act === "skip") { await xrPatch(key, { status: "skipped", updated_at: new Date().toISOString() }); toast("Skipped"); renderXReplies(); return; }
@@ -1825,6 +1900,88 @@ function xrCount() {
     const n = Object.values(d || {}).filter(v => v && v.status !== "skipped").length;
     const el = document.getElementById("nc-xr"); if (el) el.textContent = n || "";
   }).catch(() => {});
+}
+/* ---- X Reply Performance (learn what grows the account) ---- */
+function xpScore(m) {
+  return (+m.likes_count || 0) + (+m.replies_count || 0) * 3 + (+m.reposts_count || 0) * 4 +
+    (+m.bookmarks_count || 0) * 5 + (+m.profile_clicks_count || 0) * 6 + (m.author_replied ? 10 : 0);
+}
+function xpNum(label, name, val) {
+  return '<label class="xpf">' + label + '<input type="number" min="0" class="xpi" data-f="' + name + '" value="' + (+val || 0) + '"></label>';
+}
+function xpCard(r) {
+  return '<div class="card" data-pk="' + esc(r._k) + '">' +
+    '<div class="xrtext">' + esc(r.selected_reply_text || "") + '</div>' +
+    '<div class="meta"><span class="pill">' + esc(xrStyleLabel(r.reply_style)) + '</span>' +
+    (r.post_type ? '<span>' + esc(r.post_type) + '</span>' : "") +
+    (r.target_author_handle ? '<span>' + esc(r.target_author_handle) + '</span>' : "") +
+    '<span>' + (r.character_count || 0) + ' chars' + (r.emoji_used ? " · emoji" : "") + '</span>' +
+    '<span class="src">⭐ score ' + (+r.performance_score || 0) + '</span></div>' +
+    '<div class="xpmetrics">' +
+    xpNum("👍 Likes", "likes_count", r.likes_count) + xpNum("💬 Replies", "replies_count", r.replies_count) +
+    xpNum("🔁 Reposts", "reposts_count", r.reposts_count) + xpNum("🔖 Bookmarks", "bookmarks_count", r.bookmarks_count) +
+    xpNum("📈 Impressions", "impressions_count", r.impressions_count) + xpNum("👤 Profile clicks", "profile_clicks_count", r.profile_clicks_count) +
+    '<label class="xpf xpchk"><input type="checkbox" class="xpi" data-f="author_replied"' + (r.author_replied ? " checked" : "") + '> author replied</label>' +
+    '<label class="xpf xpnotes">Notes<input type="text" class="xpi" data-f="notes" value="' + esc(r.notes || "") + '"></label>' +
+    '<button class="cp" data-xp>💾 Save metrics</button><button class="cp" data-xpdel>🗑</button>' +
+    '</div></div>';
+}
+async function renderXPerf() {
+  const el = document.getElementById("xperf"); if (!el) return;
+  if (!FBURL) { el.innerHTML = '<div class="empty">Connect cloud sync to track reply performance.</div>'; return; }
+  el.innerHTML = '<div class="note">Loading…</div>';
+  let data = {};
+  try { data = (await (await fetch(fbRoot() + "/x_performance.json")).json()) || {}; } catch (e) {}
+  const rows = Object.entries(data || {}).filter(e => e[1]).map(e => { const o = e[1]; o._k = e[0]; return o; });
+  if (!rows.length) {
+    el.innerHTML = '<div class="empty">Nothing tracked yet. In the Inbox, hit “✓ Use this” on a reply you actually post — it logs here. Come back ~24h later and add its metrics to learn what works.</div>';
+    return;
+  }
+  const avgBy = fn => {
+    const m = {};
+    rows.forEach(r => { const k = fn(r); if (k === "" || k == null) return; (m[k] = m[k] || { n: 0, s: 0 }); m[k].n++; m[k].s += (+r.performance_score || 0); });
+    return Object.entries(m).map(e => ({ k: e[0], avg: e[1].s / e[1].n, n: e[1].n })).sort((a, b) => b.avg - a.avg);
+  };
+  const blk = (title, agg) => '<section class="sblock"><div class="shead">' + title + '</div>' +
+    (agg.length ? agg.slice(0, 6).map(a => '<div class="xprow"><span class="xpk">' + esc(a.k) + '</span><b class="xrscore">' + a.avg.toFixed(1) + '</b><span class="xrn">' + a.n + '×</span></div>').join("") : '<div class="note" style="margin:4px 2px">no data yet</div>') + '</section>';
+  const top10 = rows.slice().sort((a, b) => (+b.performance_score || 0) - (+a.performance_score || 0)).slice(0, 10);
+  const hist = rows.slice().sort((a, b) => String(b.posted_at || "").localeCompare(String(a.posted_at || "")));
+  el.innerHTML =
+    '<div class="xgrid">' +
+    blk("🏆 Best reply styles", avgBy(r => xrStyleLabel(r.reply_style))) +
+    blk("🧩 Best post types", avgBy(r => r.post_type)) +
+    blk("👤 Best target accounts", avgBy(r => r.target_author_handle)) +
+    blk("😀 Emoji vs none", avgBy(r => r.emoji_used ? "With emoji" : "No emoji")) +
+    blk("📏 Short vs long", avgBy(r => (+r.character_count || 0) <= 120 ? "Short (≤120)" : "Long (>120)")) +
+    '</div>' +
+    '<div class="sec-h" style="margin-top:22px"><span class="bar"></span>⭐ Top 10 replies</div>' +
+    (top10.map(r => '<div class="card xptop"><div class="xrtext">' + esc(r.selected_reply_text || "") + '</div>' +
+      '<div class="meta"><span class="pill">' + esc(xrStyleLabel(r.reply_style)) + '</span>' +
+      (r.target_author_handle ? '<span>' + esc(r.target_author_handle) + '</span>' : "") +
+      '<span class="src">⭐ score ' + (+r.performance_score || 0) + '</span></div></div>').join("")) +
+    '<div class="sec-h" style="margin-top:22px"><span class="bar"></span>🗂 All posted replies — add metrics ~24h after posting</div>' +
+    hist.map(r => xpCard(r)).join("");
+  el.querySelectorAll("[data-xp]").forEach(b => b.onclick = () => xpSave(b));
+  el.querySelectorAll("[data-xpdel]").forEach(b => b.onclick = () => xpDel(b));
+}
+async function xpSave(btn) {
+  const card = btn.closest("[data-pk]"); if (!card) return;
+  const key = card.getAttribute("data-pk");
+  const m = {};
+  card.querySelectorAll(".xpi").forEach(inp => {
+    const f = inp.dataset.f;
+    m[f] = inp.type === "checkbox" ? inp.checked : (inp.type === "number" ? (+inp.value || 0) : inp.value);
+  });
+  m.performance_score = xpScore(m);
+  m.updated_at = new Date().toISOString();
+  try { await fetch(fbRoot() + "/x_performance/" + key + ".json", { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(m) }); } catch (e) {}
+  toast("Metrics saved · score " + m.performance_score + " ⭐"); renderXPerf();
+}
+async function xpDel(btn) {
+  const card = btn.closest("[data-pk]"); if (!card) return;
+  const key = card.getAttribute("data-pk");
+  try { fetch(fbRoot() + "/x_performance/" + key + ".json", { method: "DELETE" }); } catch (e) {}
+  card.remove(); toast("Removed");
 }
 function bar() {
   const el = document.getElementById("pillars");
