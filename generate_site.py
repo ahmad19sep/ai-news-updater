@@ -218,6 +218,8 @@ PAGE = r"""<!doctype html>
   .xpill { font:700 11px var(--mono); color:var(--dim); background:var(--surface3); border:1px solid var(--line); border-radius:999px; padding:2px 9px; }
   .xpill.r-low { color:#1a7f37; } .xpill.r-med { color:#b8860b; } .xpill.r-high { color:#bf3d2c; border-color:#e7b6ad; }
   .xsugg ul { margin:6px 0 0; padding-left:18px; } .xsugg li { margin:3px 0; font-size:13px; }
+  .pastebox { margin:8px 0 12px; padding:10px; border:1px dashed var(--line); border-radius:10px; background:var(--surface2); }
+  .pastebox .rphead { margin-bottom:6px; }
   .xmig { margin-bottom:10px; }
   .xmidea { display:block; width:100%; text-align:left; margin:4px 0; padding:7px 10px; font:inherit; font-size:12.5px;
             color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:8px; cursor:pointer; }
@@ -740,6 +742,11 @@ PAGE = r"""<!doctype html>
     </div>
     <p class="note" id="xr-note">↩️ Capture an X post with the extension → generate 7 replies → the best 2 show here.
        Hit “✓ Use this” and it's logged in Performance so you can learn what grows the account.</p>
+    <div class="pastebox" id="xr-add">
+      <textarea id="xr-addtext" class="rphead" rows="2" placeholder="📋 On mobile? Paste an X post here to reply to it — no extension needed"></textarea>
+      <input id="xr-addauthor" class="rphead" placeholder="@author (optional)">
+      <div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" onclick="xrAddManual()">➕ Add to inbox</button></div>
+    </div>
     <div id="xreplist"></div>
     <div id="xperf" hidden></div>
   </section>
@@ -790,6 +797,13 @@ PAGE = r"""<!doctype html>
     </div>
     <p class="note" id="rp-note">♻️ Capture an X or LinkedIn post → the AI writes original X / LinkedIn / comment versions for
        your brand. No copying, no auto-posting. Hit “✓ Posted” on the one you publish to track its performance.</p>
+    <div class="pastebox" id="rp-add">
+      <textarea id="rp-addtext" class="rphead" rows="2" placeholder="📋 On mobile? Paste a post here to repurpose it — no extension needed"></textarea>
+      <div class="actions" style="margin-left:0;margin-top:6px">
+        <button class="cp" id="rp-addx" onclick="rpAddManual('x')">➕ Add as 𝕏 post</button>
+        <button class="cp" onclick="rpAddManual('linkedin')">➕ Add as LinkedIn post</button>
+      </div>
+    </div>
     <div id="rplist"></div>
     <div id="rpperf" hidden></div>
   </section>
@@ -1851,11 +1865,24 @@ function xrSwitch(v) {
   const lst = document.getElementById("xreplist"), pf = document.getElementById("xperf");
   if (lst) lst.hidden = v !== "inbox";
   if (pf) pf.hidden = v !== "perf";
+  const add = document.getElementById("xr-add"); if (add) add.hidden = v !== "inbox";
   const note = document.getElementById("xr-note");
   if (note) note.textContent = v === "perf"
     ? "📊 Posted replies + what's working. Add each reply's metrics ~24h after posting to learn which styles, post-types and accounts actually grow the account."
     : "↩️ Capture an X post → generate 7 replies → the best 2 show here. “✓ Use this” logs it in Performance.";
   renderXTab();
+}
+async function xrAddManual() {
+  if (!FBURL) { toast("Connect cloud sync first"); return; }
+  const ta = document.getElementById("xr-addtext"), t = (ta.value || "").trim();
+  if (!t) { toast("Paste the post text first"); return; }
+  const au = document.getElementById("xr-addauthor"), author = (au.value || "").trim();
+  const id = String(Date.now()), now = new Date().toISOString();
+  const rec = { id: id, source_url: "", post_id: "", author_name: "", author_handle: author, post_text: t,
+    screenshot_url: "", topic: "", status: "captured", selected_reply: "", replies: [], created_at: now, updated_at: now };
+  try { await fetch(fbRoot() + "/x_captures/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }); } catch (e) {}
+  ta.value = ""; au.value = "";
+  toast("Added to inbox ✓ — now generate a reply"); if (xrView !== "inbox") xrSwitch("inbox"); else renderXReplies();
 }
 async function renderXReplies() {
   const el = document.getElementById("xreplist"); if (!el) return;
@@ -2274,11 +2301,24 @@ function rpSwitch(v) {
   if (i) i.classList.toggle("active", v === "inbox"); if (p) p.classList.toggle("active", v === "perf");
   const list = document.getElementById("rplist"), perf = document.getElementById("rpperf");
   if (list) list.hidden = v !== "inbox"; if (perf) perf.hidden = v !== "perf";
+  const add = document.getElementById("rp-add"); if (add) add.hidden = v !== "inbox";
   const note = document.getElementById("rp-note");
   if (note) note.textContent = v === "perf"
     ? "📊 Each repurposed post you publish. Add likes / replies / reposts ~24h later to learn which moves grow @aixahmad."
     : "♻️ Capture an X or LinkedIn post → the AI writes original versions for your brand. Hit “✓ Posted” on the one you publish to track it.";
   renderRpTab();
+}
+async function rpAddManual(platform) {
+  if (!FBURL) { toast("Connect cloud sync first"); return; }
+  const ta = document.getElementById("rp-addtext"), t = (ta.value || "").trim();
+  if (!t) { toast("Paste the post text first"); return; }
+  const id = String(Date.now()), now = new Date().toISOString();
+  const rec = { id: id, platform: platform || "x", source_url: "", author_name: "", author_handle: "",
+    post_text: t, screenshot_url: "", image_url: "", post_type: "", best_action: "", status: "captured",
+    ai_analysis: "", recommended_output: "", outputs: [], created_at: now, updated_at: now };
+  try { await fetch(fbRoot() + "/social_captures/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }); } catch (e) {}
+  ta.value = "";
+  toast("Added ✓ — now generate versions"); if (rpView !== "inbox") rpSwitch("inbox"); else renderRepurpose();
 }
 async function rpPerfLog(c, outType, text) {
   if (!FBURL) return;
