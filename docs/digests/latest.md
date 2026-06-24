@@ -31,20 +31,20 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
 3. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 66
    https://newschannel9.com/news/spotlight-on-america/as-ai-fuels-a-data-center-boom-communities-across-america-are-pushing-back
-4. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
+4. **Meta is now designing its own, cheaper AI smart glasses** — scrippsnews — Score 56
+   https://www.scrippsnews.com/us-news/meta-is-now-designing-its-own-cheaper-ai-smart-glasses
+5. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOTHJEWURVbXBpUTM4S28zR3NTNEVpRndlM3hSdUMzRURzb004bEVrcHlUTC1aMWVhUmxPT3hUVEFhR1B4NUY3VEJqT29wMzdOSUZRQUQyRXgtZUxTSEoteXAyR0Y3S2sxa2FFOWphMjRFbzBqUHZnbEZvNXFOMEkya2RzZGo3dmtWaVc1eDFrSkN2MGpNWXJZUFlOa3I?oc=5
-5. **Canon Business Services launches AI security advisory** — itbrief_com_au — Score 51
+6. **Canon Business Services launches AI security advisory** — itbrief_com_au — Score 51
    https://itbrief.com.au/story/canon-business-services-launches-ai-security-advisory
-6. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
+7. **Elon Musk’s Grok AI helped Pentagon launch attacks on 2,000 targets in Iran within four days - thecradle.co** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uMFlMQU5FdGo1YXpqclg0dWlqR0R5cjRtQmZxLTkzYi1fV2lnRlBpekV2NjRVdFY3OFRjQlljM2s5VVhsTHE5aFZlSmszWXc?oc=5
-7. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
+8. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
-8. **Exclusive | Microsoft’s Satya Nadella: We Can’t Let AI Giants Eat the Economy - WSJ** — Satya Nadella News — Score 47
+9. **Exclusive | Microsoft’s Satya Nadella: We Can’t Let AI Giants Eat the Economy - WSJ** — Satya Nadella News — Score 47
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW1mUi1WMDBVS2RxVVp1bEpLSmcwWnZoWU9qS1FqY3lGRXBmQjhwZElGNlk2T3lEVEREbFdUNWpBYkdvTDlyaXIwdnhCVXVyaFplVlFzMFZqQVRtVTFlMmo5V0V2VFlSQVBpSnpqdmlnQy1qUG5KY1J0RjZ3ODdDQ05wVnFDQnZtb1F6Y3pzS0dxcGhQZzBuamVGa1F6cGps?oc=5
-9. **SpaceX signs computing power deal with open-source AI startup Reflection worth up to $6.3 billion - CNBC** — Elon Musk AI News — Score 46
+10. **SpaceX signs computing power deal with open-source AI startup Reflection worth up to $6.3 billion - CNBC** — Elon Musk AI News — Score 46
    https://news.google.com/rss/articles/CBMihAFBVV95cUxPSVg2LUhMRlRXMWJGbkUxTXY4VzRCbEJocGxrSVVaNV8yUFhtUC1oTjdNMGgtRU9vVldzbWY5WHBrdGhtXzJidkNsMlVFeDhTa1Bodkl6SHAzeXpZckRVdElpejRzajQyWjBWQzllZ0JNU2FCQlZtY0I3bVczbkxxS2lSemg?oc=5
-10. **SoftBank CEO questions Elon Musk's vision of AI data centers in space: 'What's the point?' - Business Insider** — Elon Musk AI News — Score 46
-   https://news.google.com/rss/articles/CBMingFBVV95cUxNYWI5ZDQ5WjAwbXFlWjRXWkFDTmlaOS1CTVhhVzZzM1hSTWxMZ0xwT2k0eEY5czg2dlBaQk5Lb0NnYnpKWWZkS1FsbHF6Rzc1ZjhBVlpHU0pvNGZITzBybnpjOUdJYTVDYWhuN2J6OXRMMnhtNGJ4ZVlndlpMTjExeExFYmlTMVdVRkZSQzBvYXNaOHVFTWZBc2Z2Nkcydw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2621
+- Total stories tracked: 2584
 - Most active topic: anthropic
 - Busiest category: AI General News
 
