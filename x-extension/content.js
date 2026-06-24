@@ -29,7 +29,10 @@ function grabTweet() {
   let post_id = idM ? idM[1] : "", source_url = location.href.split("?")[0];
   const link = art.querySelector('a[href*="/status/"]');
   if (link) { const m = link.getAttribute("href").match(/status\/(\d+)/); if (m) { post_id = post_id || m[1]; if (!idM) source_url = "https://x.com" + link.getAttribute("href").split("?")[0]; } }
-  return { platform: "x", post_text: text, author_name, author_handle, source_url, post_id };
+  let image_url = "";
+  const pic = art.querySelector('[data-testid="tweetPhoto"] img, img[src*="twimg.com/media"]');
+  if (pic) image_url = (pic.src || "").replace(/&name=\w+/, "&name=large");
+  return { platform: "x", post_text: text, author_name, author_handle, source_url, post_id, image_url };
 }
 
 function grabLinkedIn() {
@@ -55,7 +58,9 @@ function grabLinkedIn() {
     const prof = card.querySelector('a[href*="/in/"], a[href*="/company/"]');
     if (prof) { author_handle = prof.getAttribute("href").split("?")[0]; if (author_handle.startsWith("/")) author_handle = "https://www.linkedin.com" + author_handle; }
   }
-  return { platform: "linkedin", post_text, author_name, author_handle, source_url, post_id: "" };
+  let image_url = "";
+  if (card) { const im = card.querySelector('.update-components-image img, .feed-shared-image img, img[src*="media.licdn.com"]'); if (im) image_url = im.src || ""; }
+  return { platform: "linkedin", post_text, author_name, author_handle, source_url, post_id: "", image_url };
 }
 
 function grab() {

@@ -27,9 +27,10 @@ It only acts when you click — it never scrapes in the background and never pos
 Add these to your Realtime Database rules (alongside the others) and Publish:
 
 ```json
-"x_captures":      { ".read": true, ".write": true },
-"x_performance":   { ".read": true, ".write": true },
-"social_captures": { ".read": true, ".write": true }
+"x_captures":            { ".read": true, ".write": true },
+"x_performance":         { ".read": true, ".write": true },
+"social_captures":       { ".read": true, ".write": true },
+"repurpose_performance": { ".read": true, ".write": true }
 ```
 
 ## Notes

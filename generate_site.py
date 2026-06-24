@@ -206,6 +206,8 @@ PAGE = r"""<!doctype html>
   .xrbadge { background:var(--indigo); color:#fff; border-radius:999px; padding:1px 8px; font:700 10px Inter; }
   .xrtag { background:var(--surface3); border:1px solid var(--line); border-radius:999px; padding:1px 8px; font:700 10px var(--mono); color:var(--dim); }
   .xreason { font-size:11.5px; color:var(--dim); font-style:italic; margin-top:5px; }
+  .rpimg { display:block; margin:8px 0; }
+  .rpimg img { max-width:280px; max-height:200px; border-radius:10px; border:1px solid var(--line); object-fit:cover; }
   .xrall { margin-top:6px; }
   .xgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:14px; }
   .xprow { display:flex; align-items:center; gap:9px; padding:7px 0; border-top:1px solid var(--line); }
@@ -722,9 +724,14 @@ PAGE = r"""<!doctype html>
   </section>
 
   <section id="tab-repurpose" hidden>
-    <p class="note">♻️ Capture an X or LinkedIn post with the extension → the AI decides the smartest move and
-       writes original X / LinkedIn / comment versions for your brand. No copying, no auto-posting — you choose and post.</p>
+    <div class="bar" style="margin-top:18px">
+      <button id="rv-inbox" class="active" onclick="rpSwitch('inbox')">♻️ Inbox</button>
+      <button id="rv-perf" onclick="rpSwitch('perf')">📊 Performance</button>
+    </div>
+    <p class="note" id="rp-note">♻️ Capture an X or LinkedIn post → the AI writes original X / LinkedIn / comment versions for
+       your brand. No copying, no auto-posting. Hit “✓ Posted” on the one you publish to track its performance.</p>
     <div id="rplist"></div>
+    <div id="rpperf" hidden></div>
   </section>
 
   <section id="tab-trends" hidden>
@@ -1535,7 +1542,7 @@ function switchTab(name) {
   if (name === "popular") renderPopular();
   if (name === "ready") renderReady();
   if (name === "xreplies") renderXTab();
-  if (name === "repurpose") renderRepurpose();
+  if (name === "repurpose") renderRpTab();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -2030,6 +2037,7 @@ async function renderRepurpose() {
     const d = document.createElement("div"); d.className = "card";
     const outs = c.outputs || [];
     const byType = t => outs.find(o => o.type === t);
+    const imgHtml = c.image_url ? '<a class="rpimg" href="' + esc(c.image_url) + '" target="_blank" rel="noopener"><img src="' + esc(c.image_url) + '" loading="lazy" alt="post image"></a>' : "";
     const block = (label, o, badge, copyT) => {
       if (!o || !o.text) return "";
       return '<div class="xrep' + (badge ? " rec" : "") + '">' +
@@ -2037,7 +2045,8 @@ async function renderRepurpose() {
         (o.score ? ' · <span class="xrscore">' + o.score + '/10</span>' : "") + '</div>' +
         '<div class="xrtext">' + esc(o.text) + '</div>' +
         (o.reason ? '<div class="xreason">' + esc(o.reason) + '</div>' : "") +
-        '<div class="xractions"><button class="cp" data-act="copyo" data-t="' + esc(copyT) + '">📋 Copy</button></div></div>';
+        '<div class="xractions"><button class="cp" data-act="copyo" data-t="' + esc(copyT) + '">📋 Copy</button>' +
+        '<button class="cp" data-act="postout" data-t="' + esc(copyT) + '">✓ Posted</button></div></div>';
     };
     let body;
     if (outs.length) {
@@ -2054,7 +2063,8 @@ async function renderRepurpose() {
       const rest = outs.filter(o => !shown[o.type]).map(o => block(rpTypeLabel(o.type), o, "", o.type)).join("");
       body = ana + '<div class="xreps">' + def + '</div>' +
         '<div class="actions" style="margin-left:0;margin-top:9px"><button class="cp" data-act="showall">👁 Show all outputs</button>' +
-        '<button class="cp" data-act="regen">🔁 New</button><button class="cp" data-act="posted">✓ Mark posted</button>' +
+        '<button class="cp" data-act="regen">🔁 New</button>' +
+        (c.image_url ? '<button class="cp" data-act="dlimg">⬇ Image</button>' : "") +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
         '<div class="xrall" hidden><div class="sec-h" style="margin-top:8px">All outputs</div><div class="xreps">' + (rest || '<div class="note">no extra outputs</div>') + '</div></div>';
     } else {
@@ -2062,6 +2072,7 @@ async function renderRepurpose() {
         '<button class="cp" data-act="gen" data-ai="claude">🤖 Open in Claude</button>' +
         '<button class="cp" data-act="gen" data-ai="gpt">⚡ Open in ChatGPT</button>' +
         '<button class="cp" data-act="pasteopen">📥 Paste outputs</button>' +
+        (c.image_url ? '<button class="cp" data-act="dlimg">⬇ Image</button>' : "") +
         '<button class="cp" data-act="skip">Skip</button><button class="cp" data-act="del">🗑</button></div>' +
         '<div class="xrpaste" hidden><textarea class="xrjson" placeholder="Paste Claude/ChatGPT\'s JSON object here, then Save"></textarea>' +
         '<div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" data-act="saveouts">💾 Save outputs</button></div></div>';
@@ -2072,7 +2083,7 @@ async function renderRepurpose() {
       (c.author_handle ? '<span>' + esc(c.author_handle.replace(/^https?:\/\/(www\.)?linkedin\.com/, "")) + '</span>' : "") +
       '<span class="pill">' + esc(c.status || "captured") + '</span>' +
       (c.source_url ? '<a class="cp" href="' + esc(c.source_url) + '" target="_blank" rel="noopener">↗ Open post</a>' : "") + '</div>' +
-      '<div class="xrpost">' + esc(c.post_text || "") + '</div>' + body;
+      '<div class="xrpost">' + esc(c.post_text || "") + '</div>' + imgHtml + body;
     d.querySelectorAll("[data-act]").forEach(b => b.onclick = () => rpAction(b.dataset.act, key, c, d, b));
     el.appendChild(d);
   });
@@ -2107,10 +2118,120 @@ async function rpAction(act, key, c, d, b) {
     const txt = t === "__best__" ? (c.best_output || "") : ((c.outputs || []).find(o => o.type === t) || {}).text || "";
     navigator.clipboard.writeText(txt).then(() => toast("Copied — paste & post ✓")); return;
   }
+  if (act === "dlimg") { if (c.image_url) downloadImage(c.image_url); return; }
+  if (act === "postout") {
+    const t = b.dataset.t;
+    let outType, text;
+    if (t === "__best__") { outType = c.best_output_type || "x_post"; text = c.best_output || ""; }
+    else { outType = t; text = ((c.outputs || []).find(o => o.type === t) || {}).text || ""; }
+    if (!text) { toast("Nothing to log"); return; }
+    await rpPerfLog(c, outType, text);
+    await rpPatch(key, { status: "posted", updated_at: new Date().toISOString() });
+    toast("Logged to Performance — add metrics later ✓"); renderRepurpose(); return;
+  }
   if (act === "regen") { await rpPatch(key, { outputs: [], status: "captured", updated_at: new Date().toISOString() }); renderRepurpose(); return; }
   if (act === "posted") { await rpPatch(key, { status: "posted", updated_at: new Date().toISOString() }); toast("Marked posted ✓"); renderRepurpose(); return; }
   if (act === "skip") { await rpPatch(key, { status: "skipped", updated_at: new Date().toISOString() }); toast("Skipped"); renderRepurpose(); return; }
   if (act === "del") { try { fetch(fbRoot() + "/social_captures/" + key + ".json", { method: "DELETE" }); } catch (e) {} d.remove(); toast("Removed"); return; }
+}
+
+/* ---- Repurpose performance: which of YOUR repurposed posts actually grow ---- */
+let rpView = "inbox";
+function renderRpTab() { return rpView === "perf" ? renderRpPerf() : renderRepurpose(); }
+function rpSwitch(v) {
+  rpView = v;
+  const i = document.getElementById("rv-inbox"), p = document.getElementById("rv-perf");
+  if (i) i.classList.toggle("active", v === "inbox"); if (p) p.classList.toggle("active", v === "perf");
+  const list = document.getElementById("rplist"), perf = document.getElementById("rpperf");
+  if (list) list.hidden = v !== "inbox"; if (perf) perf.hidden = v !== "perf";
+  const note = document.getElementById("rp-note");
+  if (note) note.textContent = v === "perf"
+    ? "📊 Each repurposed post you publish. Add likes / replies / reposts ~24h later to learn which moves grow @aixahmad."
+    : "♻️ Capture an X or LinkedIn post → the AI writes original versions for your brand. Hit “✓ Posted” on the one you publish to track it.";
+  renderRpTab();
+}
+async function rpPerfLog(c, outType, text) {
+  if (!FBURL) return;
+  const id = String(Date.now()) + Math.floor((window.performance && performance.now ? performance.now() : 0));
+  const now = new Date().toISOString();
+  const platform = outType === "linkedin_post" ? "linkedin" : (outType === "comment_reply" ? (c.platform || "x") : "x");
+  const rec = {
+    id, output_type: outType, output_text: text, platform,
+    post_type: c.post_type || "", best_action: c.best_action || "",
+    source_author: c.author_handle || c.author_name || "", source_url: c.source_url || "",
+    emoji_used: xrHasEmoji(text), character_count: (text || "").length, posted_at: now,
+    likes_count: 0, replies_count: 0, reposts_count: 0, bookmarks_count: 0,
+    impressions_count: 0, profile_clicks_count: 0, performance_score: 0, notes: "",
+    created_at: now, updated_at: now
+  };
+  try { await fetch(fbRoot() + "/repurpose_performance/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }); } catch (e) {}
+}
+function rpPerfCard(r) {
+  return '<div class="card" data-pk="' + esc(r._k) + '">' +
+    '<div class="xrtext">' + esc(r.output_text || "") + '</div>' +
+    '<div class="meta"><span class="pill">' + esc(rpTypeLabel(r.output_type)) + '</span>' +
+    '<span class="pill">' + (r.platform === "linkedin" ? "in LinkedIn" : "𝕏 X") + '</span>' +
+    (r.post_type ? '<span>' + esc(r.post_type) + '</span>' : "") +
+    '<span>' + (r.character_count || 0) + ' chars' + (r.emoji_used ? " · emoji" : "") + '</span>' +
+    '<span class="src">⭐ score ' + (+r.performance_score || 0) + '</span></div>' +
+    '<div class="xpmetrics">' +
+    xpNum("👍 Likes", "likes_count", r.likes_count) + xpNum("💬 Replies", "replies_count", r.replies_count) +
+    xpNum("🔁 Reposts", "reposts_count", r.reposts_count) + xpNum("🔖 Bookmarks", "bookmarks_count", r.bookmarks_count) +
+    xpNum("📈 Impressions", "impressions_count", r.impressions_count) + xpNum("👤 Profile clicks", "profile_clicks_count", r.profile_clicks_count) +
+    '<label class="xpf xpnotes">Notes<input type="text" class="xpi" data-f="notes" value="' + esc(r.notes || "") + '"></label>' +
+    '<button class="cp" data-rpx>💾 Save metrics</button><button class="cp" data-rpxdel>🗑</button>' +
+    '</div></div>';
+}
+async function rpPerfSave(btn) {
+  const card = btn.closest("[data-pk]"); if (!card) return;
+  const key = card.getAttribute("data-pk");
+  const m = {};
+  card.querySelectorAll(".xpi").forEach(inp => { m[inp.dataset.f] = inp.type === "number" ? (+inp.value || 0) : inp.value; });
+  m.performance_score = xpScore(m); m.updated_at = new Date().toISOString();
+  try { await fetch(fbRoot() + "/repurpose_performance/" + key + ".json", { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(m) }); } catch (e) {}
+  toast("Saved · score " + m.performance_score + " ⭐"); renderRpPerf();
+}
+async function rpPerfDel(btn) {
+  const card = btn.closest("[data-pk]"); if (!card) return;
+  const key = card.getAttribute("data-pk");
+  try { fetch(fbRoot() + "/repurpose_performance/" + key + ".json", { method: "DELETE" }); } catch (e) {}
+  card.remove(); toast("Removed");
+}
+async function renderRpPerf() {
+  const el = document.getElementById("rpperf"); if (!el) return;
+  if (!FBURL) { el.innerHTML = '<div class="empty">Connect cloud sync to track performance.</div>'; return; }
+  el.innerHTML = '<div class="note">Loading…</div>';
+  let data = {};
+  try { data = (await (await fetch(fbRoot() + "/repurpose_performance.json")).json()) || {}; } catch (e) {}
+  const rows = Object.entries(data || {}).filter(e => e[1]).map(e => { const o = e[1]; o._k = e[0]; return o; });
+  if (!rows.length) {
+    el.innerHTML = '<div class="empty">Nothing tracked yet. Publish a repurposed version, hit “✓ Posted” on it, then come back ~24h later and add likes / replies / reposts.</div>';
+    return;
+  }
+  const avgBy = (fn) => {
+    const g = {};
+    rows.forEach(r => { const k = fn(r); if (k == null || k === "") return; (g[k] = g[k] || []).push(+r.performance_score || 0); });
+    return Object.entries(g).map(([k, a]) => [k, a.reduce((s, x) => s + x, 0) / a.length, a.length])
+      .sort((x, y) => y[1] - x[1]);
+  };
+  const blk = (title, pairs, fmt) => '<div class="xpk"><div class="sec-h">' + title + '</div>' +
+    (pairs.length ? pairs.map(([k, avg, n]) => '<div class="xprow"><span>' + esc(fmt ? fmt(k) : k) + '</span><b>' + avg.toFixed(1) + '</b><small>' + n + '</small></div>').join("") : '<div class="note">no data yet</div>') + '</div>';
+  const top = rows.slice().sort((a, b) => (+b.performance_score || 0) - (+a.performance_score || 0)).slice(0, 10);
+  const hist = rows.slice().sort((a, b) => String(b.posted_at || "").localeCompare(String(a.posted_at || "")));
+  el.innerHTML =
+    '<div class="xgrid">' +
+    blk("Best output type", avgBy(r => r.output_type), rpTypeLabel) +
+    blk("Best platform", avgBy(r => r.platform), k => k === "linkedin" ? "in LinkedIn" : "𝕏 X") +
+    blk("From post type", avgBy(r => r.post_type)) +
+    blk("Emoji vs none", avgBy(r => r.emoji_used ? "with emoji" : "no emoji")) +
+    blk("Short vs long", avgBy(r => (+r.character_count || 0) <= 150 ? "short (≤150)" : "long (>150)")) +
+    '</div>' +
+    '<div class="sec-h xptop">🏆 Top performers</div>' +
+    top.map(r => '<div class="xprow xptopr"><span>' + esc((r.output_text || "").slice(0, 90)) + '</span><b>' + (+r.performance_score || 0) + '</b><small>' + esc(rpTypeLabel(r.output_type)) + '</small></div>').join("") +
+    '<div class="sec-h xptop">📊 All posts — add the numbers</div>' +
+    hist.map(rpPerfCard).join("");
+  el.querySelectorAll("[data-rpx]").forEach(b => b.onclick = () => rpPerfSave(b));
+  el.querySelectorAll("[data-rpxdel]").forEach(b => b.onclick = () => rpPerfDel(b));
 }
 function bar() {
   const el = document.getElementById("pillars");

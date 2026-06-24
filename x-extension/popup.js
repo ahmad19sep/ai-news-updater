@@ -76,6 +76,7 @@ repBtn.onclick = () => send("social_captures", (d, id) => {
   return {
     id, platform: d.platform || "x", source_url: d.source_url || "", author_name: d.author_name || "",
     author_handle: d.author_handle || "", post_text: d.post_text || "", screenshot_url: "",
+    image_url: d.image_url || "",
     post_type: "", best_action: "", status: "captured", ai_analysis: "", recommended_output: "",
     outputs: [], created_at: now, updated_at: now
   };
