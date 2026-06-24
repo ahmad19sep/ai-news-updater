@@ -1578,10 +1578,28 @@ function renderPopular() {
 }
 /* Ready to Post: finished, approved work Caira staged in Firebase /ready_to_post.
    One copy button per platform (add more later — just extend READY_PLATS). */
-const READY_PLATS = [["x_post","𝕏 X post"], ["linkedin_post","in LinkedIn"],
-  ["facebook_post","f Facebook"], ["instagram_caption","IG caption"],
-  ["whatsapp_post","WhatsApp"], ["youtube_short_script","▶ YouTube"],
-  ["article","📄 Article"], ["image_prompt","🎨 Image prompt"]];
+/* [field, label, opener(text)->url]. Clicking copies the post text, then opens
+   that platform (pre-filled where the platform supports it; pasted otherwise). */
+const READY_PLATS = [
+  ["x_post",              "𝕏 Post on X",        t => "https://x.com/intent/tweet?text=" + encodeURIComponent(t)],
+  ["linkedin_post",       "in Post on LinkedIn", () => "https://www.linkedin.com/feed/?shareActive=true"],
+  ["facebook_post",       "f Post on Facebook",  () => "https://www.facebook.com/"],
+  ["instagram_caption",   "IG Open Instagram",   () => "https://www.instagram.com/"],
+  ["whatsapp_post",       "✅ Share to WhatsApp", t => "https://wa.me/?text=" + encodeURIComponent(t)],
+  ["youtube_short_script","▶ Open YouTube",      () => "https://studio.youtube.com/"],
+];
+const READY_COPY = [["article", "📄 Copy article"], ["image_prompt", "🎨 Copy image prompt"]];
+const POSTURL = {}; READY_PLATS.forEach(p => POSTURL[p[0]] = p[2]);
+/* download the poster image (works cross-origin via blob; falls back to opening it) */
+function downloadImage(url) {
+  toast("Downloading image…");
+  fetch(url).then(r => r.blob()).then(b => {
+    const a = document.createElement("a"), u = URL.createObjectURL(b);
+    a.href = u; a.download = "ai-radar-poster" + (b.type.includes("jpeg") ? ".jpg" : ".png");
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(u), 5000);
+  }).catch(() => { window.open(url, "_blank", "noopener"); toast("Opened image — long-press / right-click to save"); });
+}
 async function renderReady() {
   const el = document.getElementById("readylist"); if (!el) return;
   const nc = document.getElementById("nc-ready");
@@ -1597,21 +1615,32 @@ async function renderReady() {
   items.forEach(([key, r]) => {
     const d = document.createElement("div"); d.className = "card";
     const risk = r.risk_level ? '<span class="pill" style="color:' + (RC[String(r.risk_level).toLowerCase()] || "var(--dim)") + '">⚠ ' + esc(r.risk_level) + '</span>' : "";
-    const btns = READY_PLATS.filter(p => r[p[0]]).map(p =>
-      '<button class="cp" data-f="' + p[0] + '">Copy ' + p[1] + '</button>').join("");
+    const postBtns = READY_PLATS.filter(p => r[p[0]]).map(p =>
+      '<button class="cp" data-act="post" data-f="' + p[0] + '">' + p[1] + '</button>').join("");
+    const copyBtns = READY_COPY.filter(p => r[p[0]]).map(p =>
+      '<button class="cp" data-act="copy" data-f="' + p[0] + '">' + p[1] + '</button>').join("");
+    const dl = r.image_url ? '<button class="cp" data-act="dlimg">⬇ Download image</button>' : "";
     const img = r.image_url ? '<a href="' + esc(r.image_url) + '" target="_blank" rel="noopener">' +
       '<img src="' + esc(r.image_url) + '" alt="poster" style="width:140px;height:auto;border-radius:8px;border:1px solid var(--line);float:right;margin:0 0 8px 12px"></a>' : "";
     d.innerHTML = img +
       '<h2>' + esc(r.headline || r.title || "(untitled)") + "</h2>" +
       '<div class="meta">' + (r.source ? '<span>' + esc(r.source) + "</span>" : "") + risk +
       (r.assignee ? '<span>by ' + esc(r.assignee) + "</span>" : "") + "</div>" +
-      '<div class="actions" style="flex-wrap:wrap;gap:6px;margin-top:9px;margin-left:0">' + btns +
-      (r.image_url ? '<a class="cp" href="' + esc(r.image_url) + '" target="_blank" rel="noopener" download>🖼️ Image</a>' : "") +
+      '<div class="actions" style="flex-wrap:wrap;gap:6px;margin-top:9px;margin-left:0">' + postBtns + copyBtns + dl +
       (r.source_url ? '<a class="cp" href="' + esc(r.source_url) + '" target="_blank" rel="noopener">↗ Source</a>' : "") +
       (r.drive_url ? '<a class="cp" href="' + esc(r.drive_url) + '" target="_blank" rel="noopener">📁 Drive</a>' : "") +
       '<button class="cp posted">✓ Posted</button></div>';
-    d.querySelectorAll(".cp[data-f]").forEach(b => b.onclick = () => {
-      navigator.clipboard.writeText(r[b.dataset.f] || "").then(() => toast("Copied — paste & post ✓"));
+    d.querySelectorAll(".cp[data-act]").forEach(b => b.onclick = () => {
+      const act = b.dataset.act, f = b.dataset.f;
+      if (act === "dlimg") { downloadImage(r.image_url); return; }
+      const txt = r[f] || "";
+      if (act === "copy") { navigator.clipboard.writeText(txt).then(() => toast("Copied ✓")); return; }
+      if (act === "post") {                       // copy text, then open the platform
+        navigator.clipboard.writeText(txt).catch(() => {});
+        const u = POSTURL[f] ? POSTURL[f](txt) : null;
+        if (u) window.open(u, "_blank", "noopener");
+        toast("Post copied — paste it on the page that opened ✓");
+      }
     });
     d.querySelector(".posted").onclick = () => {
       try { fetch(fbRoot() + "/ready_to_post/" + key + ".json", { method: "DELETE" }); } catch (e) {}
