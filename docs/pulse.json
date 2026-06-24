@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T20:24:22.282501+00:00",
+  "generated_at": "2026-06-24T04:38:38.463499+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -18,21 +18,21 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words.",
-      "linkedin_angle": "Leverage AI-generated images for marketing and branding.",
+      "what_it_is": "ChatGPT can generate images based on user prompts.",
+      "audience_angle": "You can use ChatGPT to create amazing images without needing extensive art skills.",
+      "linkedin_angle": "Leverage AI for creative tasks and boost productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its image generation capabilities."
       },
       "sources": [
         {
@@ -48,215 +48,141 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "The Future of Art: ChatGPT Image Generation",
-        "Using ChatGPT for Marketing and Branding"
+        "5 Ways to Use ChatGPT for Artistic Projects",
+        "Unlocking the Potential of ChatGPT Image Generation"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "technique",
-      "momentum": "hot",
+      "name": "GLM-5.2",
+      "category": "tool_launch",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "AI can generate videos based on text prompts or other inputs.",
-      "audience_angle": "Create engaging videos with minimal effort.",
-      "linkedin_angle": "Leverage AI-generated videos for business and marketing.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I625jtc_YH0",
-          "signal": "Best Free & Unlimited AI Video Generator (No Limits)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1udncrp/using_chat_to_build_a_spider_simulator_game/",
-          "signal": "Using Chat to build a spider simulator game."
-        }
-      ],
-      "content_ideas": [
-        "How to Create Engaging Videos with AI",
-        "The Future of Video Content: AI Generation",
-        "Using AI-Generated Videos for Business and Marketing"
-      ]
-    },
-    {
-      "name": "ChatGPT vs Gemini",
-      "category": "debate",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "A comparison between ChatGPT and Gemini AI models.",
-      "audience_angle": "Which AI model is better for your needs?",
-      "linkedin_angle": "Understanding the differences between ChatGPT and Gemini for business applications.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No direct affiliate programs for comparing AI models."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1udds0n/chatgpt_vs_gemini_vs_qwen_which_one_understands/",
-          "signal": "ChatGPT vs Gemini vs Qwen: which one understands mirrors the best?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+vs+gemini",
-          "signal": "ChatGPT vs Gemini"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT vs Gemini: Which AI Model is Better?",
-        "Understanding the Differences Between ChatGPT and Gemini",
-        "Choosing the Right AI Model for Your Business Needs"
-      ]
-    },
-    {
-      "name": "AI for Learning and Education",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "Using AI for learning and educational purposes.",
-      "audience_angle": "Enhance your learning experience with AI.",
-      "linkedin_angle": "Leveraging AI for educational and training purposes in the workplace.",
-      "local_relevance": 8,
+      "what_it_is": "GLM-5.2 is an open-source AI model for various applications.",
+      "audience_angle": "You can utilize GLM-5.2 for tasks like text generation and more.",
+      "linkedin_angle": "Explore the capabilities of open-source AI models for business and personal use.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Several educational platforms and tools utilize AI and have affiliate programs."
+        "affiliate_likely": false,
+        "note": "GLM-5.2 is open-source and does not have an affiliate program."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=d-Eypo6SVXM",
-          "signal": "Best AI Tools Every Student Should Use in 2026"
+          "platform": "hackernews",
+          "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+          "signal": "GLM-5.2 is the step change for open agents"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1udkmor/which_ai_is_best_for_learning_a_topic_in_depth/",
-          "signal": "Which AI is best for learning a topic in depth?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O2HgyToWu9Q",
+          "signal": "China Just Dropped A Free AI GLM 5.2 That Beats Claude"
         }
       ],
       "content_ideas": [
-        "How AI Can Enhance Your Learning Experience",
-        "The Future of Education: Leveraging AI for Learning",
-        "Using AI for Educational and Training Purposes in the Workplace"
+        "Getting Started with GLM-5.2 for Beginners",
+        "How GLM-5.2 Compares to Other AI Models",
+        "Unlocking the Full Potential of GLM-5.2"
       ]
     },
     {
-      "name": "AI Agents and Vibe Coding",
-      "category": "technique",
+      "name": "Claude AI",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "Using AI agents for various tasks and vibe coding for development.",
-      "audience_angle": "Automate tasks and improve development with AI agents and vibe coding.",
-      "linkedin_angle": "Leveraging AI agents and vibe coding for business process automation and development.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several platforms and tools for AI agents and vibe coding have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7iic3Zj427M",
-          "signal": "DAY 1 Livestream - 5-Day AI Agents: Intensive Vibe Coding Course With Google"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uda835/day_1_of_vibe_coding/",
-          "signal": "Day 1 of Vibe Coding"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI Agents for Automation",
-        "The Future of Development: Vibe Coding with AI",
-        "Leveraging AI Agents and Vibe Coding for Business Process Automation"
-      ]
-    },
-    {
-      "name": "AI for Earning and Making Money",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "Using AI for earning and making money through various means.",
-      "audience_angle": "Make money with AI through different strategies and tools.",
-      "linkedin_angle": "Leveraging AI for business and revenue generation.",
+      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
+      "audience_angle": "You can use Claude AI to create engaging content without extensive writing experience.",
+      "linkedin_angle": "Leverage Claude AI for content creation and enhance your professional online presence.",
       "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI tools and platforms for earning and making money have affiliate programs."
+        "note": "Claude AI has an affiliate program for its capabilities."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=wU_bmWb6bhg",
-          "signal": "I Used Higgsfield AI + Claude to Build a $39,500/Month Faceless Channel"
+          "url": "https://www.youtube.com/watch?v=P3BlPnxmCYQ",
+          "signal": "Claude Code FREE UNLIMITED 2026"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1udjw2m/chatgpt_has_done_80_of_my_job_for_2_years/",
-          "signal": "ChatGPT has done 80% of my job for 2 years"
+          "platform": "hackernews",
+          "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+          "signal": "GLM-5.2 is the step change for open agents"
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI",
-        "The Future of Earning: Leveraging AI for Revenue Generation",
-        "Using AI for Business and Revenue Growth"
+        "Mastering Claude AI for Content Creation",
+        "5 Ways to Use Claude AI for Business",
+        "Claude AI vs. Other Content Generation Tools"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "GLM-5.2",
       "category": "tool_launch",
       "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "GLM-5.2 is an open-source AI model for various applications.",
+      "audience_angle": "You can utilize GLM-5.2 for tasks like text generation and more.",
+      "linkedin_angle": "Explore the capabilities of open-source AI models for business and personal use.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "GLM-5.2 is open-source and does not have an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+          "signal": "GLM-5.2 is the step change for open agents"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O2HgyToWu9Q",
+          "signal": "China Just Dropped A Free AI GLM 5.2 That Beats Claude"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with GLM-5.2 for Beginners",
+        "How GLM-5.2 Compares to Other AI Models",
+        "Unlocking the Full Potential of GLM-5.2"
+      ]
+    },
+    {
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words.",
-      "linkedin_angle": "Leverage AI-generated images for marketing and branding.",
+      "what_it_is": "ChatGPT can generate images based on user prompts.",
+      "audience_angle": "You can use ChatGPT to create amazing images without needing extensive art skills.",
+      "linkedin_angle": "Leverage AI for creative tasks and boost productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its image generation capabilities."
       },
       "sources": [
         {
@@ -272,36 +198,61 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "The Future of Art: ChatGPT Image Generation",
-        "Using ChatGPT for Marketing and Branding"
+        "5 Ways to Use ChatGPT for Artistic Projects",
+        "Unlocking the Potential of ChatGPT Image Generation"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
+      "audience_angle": "You can use Claude AI to create engaging content without extensive writing experience.",
+      "linkedin_angle": "Leverage Claude AI for content creation and enhance your professional online presence.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its capabilities."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P3BlPnxmCYQ",
+          "signal": "Claude Code FREE UNLIMITED 2026"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+          "signal": "GLM-5.2 is the step change for open agents"
+        }
+      ],
+      "content_ideas": [
+        "Mastering Claude AI for Content Creation",
+        "5 Ways to Use Claude AI for Business",
+        "Claude AI vs. Other Content Generation Tools"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
-      "who_affected": "Users of ChatGPT",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits and costs",
+      "who_affected": "Individuals and businesses relying on ChatGPT for content creation",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1udhcut/unable_to_upload_documents/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ud51ey/chatgpt_cant_believe_ram_prices/"
         }
       ],
-      "content_opportunity": "Workarounds and solutions for ChatGPT usage and token limits."
-    },
-    {
-      "problem": "Difficulty in using AI for earning and making money",
-      "who_affected": "Individuals trying to make money with AI",
-      "signal_strength": 7,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=JkjlIz-X7K0"
-        }
-      ],
-      "content_opportunity": "Guides and tutorials on using AI for earning and making money."
+      "content_opportunity": "Exploring affordable alternatives to ChatGPT for content creation."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation, due to its rising popularity and practical applications."
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
