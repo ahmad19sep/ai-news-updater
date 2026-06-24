@@ -91,7 +91,10 @@ function grabLinkedIn() {
     const prof = card.querySelector('a[href*="/in/"], a[href*="/company/"]');
     if (prof) { author_handle = prof.getAttribute("href").split("?")[0]; if (author_handle.startsWith("/")) author_handle = "https://www.linkedin.com" + author_handle; }
   }
-  const image_url = pickBigImage(card);
+  // image: try the post container first, then widen, then the whole page
+  let image_url = pickBigImage(card);
+  if (!image_url && card) image_url = pickBigImage(card.parentElement);
+  if (!image_url) image_url = pickBigImage(document.body);
   return { platform: "linkedin", post_text, author_name, author_handle, source_url, post_id: "", image_url };
 }
 
