@@ -555,3 +555,79 @@ window.buildPostRepurposePrompt = function (o) {
     "Score = 1-10. If best_action is skip_post, set should_repurpose=false, best_output_type=\"skip\", and keep outputs brief.",
   ].join("\n");
 };
+
+/* ---- X Mini Post Engine: short text-only X posts that grow an AI account ---- */
+/* [category, slug, display, what it's for, example pattern] */
+window.XMINI_PRESETS = [
+  ["question", "tool-check", "❓ Tool Check", "Ask what people actually use", "What AI tool do you actually open every day?"],
+  ["question", "decision-split", "❓ Decision Split", "Make them choose between options", "For coding: Claude, ChatGPT, or Cursor?"],
+  ["funny", "dry-builder", "😅 Dry Builder Joke", "Low-key funny builder truth", "AI agents are interns with APIs."],
+  ["funny", "workflow-pain", "😅 Workflow Pain", "Funny truth about tool overload", "Opening 6 AI tools for one task…"],
+  ["fact", "quiet-truth", "📌 Quiet Truth", "A simple behavioral truth", "Most people use AI like search."],
+  ["fact", "second-order", "📌 Second-Order Fact", "What really matters underneath", "The model isn't the moat."],
+  ["hot_take", "mild-contrarian", "🔥 Mild Contrarian", "Sharp but fair disagreement", "Most people don't need more AI tools."],
+  ["hot_take", "hype-cutter", "🔥 Hype Cutter", "Deflate shallow hype with logic", "The feature isn't the story."],
+  ["builder", "workflow-lens", "🛠 Workflow Lens", "Reframe around the system", "The workflow layer is the product."],
+  ["builder", "what-ships", "🛠 What Ships Next", "Predict how builders use it", "This gets interesting when…"],
+  ["relatable", "actually-using", "🤝 Actually Using AI", "Everyday creator pain", "Nobody wants 10 AI tabs open."],
+  ["relatable", "messy-reality", "🤝 Messy Reality", "Promise vs real use", "The demo was magic; the workflow wasn't."],
+  ["shower_thought", "quiet-future", "🚿 Quiet Future", "Small future-of-work insight", "The future of work might be…"],
+  ["shower_thought", "human-instruction", "🚿 Human Instruction", "Human-machine coordination", "Work is becoming explanation."],
+  ["comparison", "tool-personality", "⚔️ Tool Personality", "Compare tools by feel", "ChatGPT = generalist, Claude = thinker."],
+  ["comparison", "winner-caveat", "⚔️ Winner With Caveat", "Pick a winner, leave room to reply", "X wins for Y, but Z still does…"]
+];
+/* starter ideas you can tap to seed a post (paraphrased X-native patterns) */
+window.XMINI_IDEAS = {
+  question: ["What AI tool do you actually use every day — not the one you talk about most?", "If you could keep only one AI product for work, which survives?", "For coding right now: Claude, ChatGPT, or Cursor?", "Are you using AI more like Google or more like an employee?", "What AI workflow saved you the most time this week?", "What's one thing AI still does annoyingly badly in your workflow?"],
+  funny: ["AI agents are amazing until the job becomes managing them like very confident interns.", "Opening six AI tools for one task is the new version of 47 browser tabs.", "A lot of 'AI automation' is just manual work with better branding.", "The AI demo was magic. The actual workflow needed adult supervision.", "AI is making us all more productive and somehow worse at naming files."],
+  fact: ["Most people still use AI like a smarter search box. The jump starts when it becomes part of a workflow.", "The model by itself usually isn't the product. The usable system around it is.", "Better prompts matter, but better routines matter more for most people.", "A workflow that saves 30 seconds every day beats one that saves 10 minutes once."],
+  hot_take: ["Most people don't need more AI tools. They need one workflow they'll actually repeat.", "The workflow layer is becoming more important than the chat layer.", "'Agent' is doing a lot of PR work for products that still need babysitting.", "The most useful AI software will feel boring before it feels revolutionary."],
+  builder: ["The model isn't the moat. The workflow around it is where the product starts.", "The difference between demo AI and product AI is state, guardrails, and retries.", "Good AI features disappear into the task instead of demanding a new habit.", "The better question for builders is 'what happens after the answer?'"],
+  relatable: ["Nobody wants 10 AI tabs open just to finish one thing.", "The worst part of AI workflows is forgetting which prompt actually worked.", "The real flex is one AI workflow that still works when you're tired.", "The hard part isn't generating outputs anymore. It's deciding which one is worth using."],
+  shower_thought: ["Work might slowly become the skill of explaining things clearly to machines.", "Good prompting is often just structured thinking with less hiding.", "AI is turning clarity into a real economic advantage.", "AI might not replace thinking. It might punish lazy thinking faster."],
+  comparison: ["ChatGPT feels like a generalist. Claude feels like a thinking partner.", "Some AI tools are better at retrieval. Others are better at judgment. People mix those up.", "The better comparison isn't model vs model. It's workflow vs workflow.", "The best AI tool is usually the one that asks the least from your memory."]
+};
+window.buildXMiniPrompt = function (o) {
+  o = o || {};
+  var preset = o.preset || null;            // [cat, slug, name, desc, pattern]
+  var seed = (o.seed || "").trim();
+  return [
+    "You are a sharp, X-native writer for Ahmad / @aixahmad (an AI builder + AI-news brand). You write SHORT, original, text-only X posts that grow an AI account — the kind people actually repost: a real question, a dry funny truth, a surprising fact, a sharp hot take, a builder note, a relatable line, a clean shower thought, or a tool comparison.",
+    "",
+    "THINK FIRST, THEN WRITE. Decide which ONE format best fits this idea, then write the strongest version.",
+    "",
+    seed ? ('IDEA / TEXT TO WORK FROM:\n"' + seed + '"') : "No seed given — invent ONE fresh, specific, non-obvious AI observation worth posting.",
+    preset ? ("REQUESTED STYLE: " + preset[2] + " — " + preset[3] + ' (e.g. "' + preset[4] + '")') : "STYLE: choose whichever of the 8 categories fits best.",
+    "",
+    "STYLE RULES (X-native):",
+    "- Casual, sharp, simple, human. ONE strong idea only.",
+    "- No corporate buzzwords, no LinkedIn tone, no hashtag stuffing, no links.",
+    "- Emojis optional and rare (0-1).",
+    "- Under 280 characters. Prefer 1-3 short lines.",
+    "- A question must be a REAL question about how people actually work — not engagement bait.",
+    "- Funny = dry/observational, never forced.",
+    "- If a fact is uncertain, generalize it or frame it as opinion. NEVER invent numbers, names, quotes, or results.",
+    "- Never copy the source wording — make it Ahmad's own.",
+    "",
+    "Write the single best post, 2 backups (meaningfully different), and one option for EACH of the 8 categories.",
+    "",
+    "Return ONLY this JSON, nothing else:",
+    "{",
+    '  "analysis": "one sentence: what this idea is and the smartest format",',
+    '  "best_category": "question | funny | fact | hot_take | builder | relatable | shower_thought | comparison",',
+    '  "best_post": "the single strongest post, ready to paste",',
+    '  "backup_posts": ["second option", "third option"],',
+    '  "all_options": [',
+    '    {"category":"question","text":"...","score":8,"why":"..."},',
+    '    {"category":"funny","text":"...","score":8,"why":"..."},',
+    '    {"category":"fact","text":"...","score":8,"why":"..."},',
+    '    {"category":"hot_take","text":"...","score":8,"why":"..."},',
+    '    {"category":"builder","text":"...","score":8,"why":"..."},',
+    '    {"category":"relatable","text":"...","score":8,"why":"..."},',
+    '    {"category":"shower_thought","text":"...","score":8,"why":"..."},',
+    '    {"category":"comparison","text":"...","score":8,"why":"..."}',
+    "  ]",
+    "}",
+    "Every text MUST be under 280 characters. score 1-10 = how likely it is to earn replies/reposts.",
+  ].join("\n");
+};

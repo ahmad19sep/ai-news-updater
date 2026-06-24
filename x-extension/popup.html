@@ -19,6 +19,7 @@
            padding: 11px; border-radius: 9px; cursor: pointer; margin-bottom: 8px; }
   #rep { background: #c4633f; } #rep:hover { background: #af522f; }
   #reply { background: #1f1e1c; } #reply:hover { background: #000; }
+  #xmini { background: #2b6a55; } #xmini:hover { background: #1f5040; }
   button:disabled { opacity: .5; cursor: default; }
   .hint { font-size: 11px; color: #9b958a; margin: 2px 0 10px; }
   .st { font-size: 12.5px; color: #56606b; margin-top: 8px; text-align: center; min-height: 16px; }
@@ -31,7 +32,8 @@
     <div class="prev" id="prev">Open a post (or select its text), then choose below.</div>
     <button id="rep">♻️ Repurpose this post</button>
     <button id="reply">↩️ Reply to this post (X)</button>
-    <div class="hint">Tip: on LinkedIn, select the post text first for best results.</div>
+    <button id="xmini">✍️ Rewrite as an X post</button>
+    <div class="hint">Select text first to rewrite just that bit. On LinkedIn, selecting the text helps.</div>
     <div class="st" id="st"></div>
   </div>
   <script src="popup.js"></script>

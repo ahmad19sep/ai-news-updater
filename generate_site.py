@@ -212,6 +212,12 @@ PAGE = r"""<!doctype html>
   .rphead { width:100%; box-sizing:border-box; resize:vertical; font:inherit; padding:8px 10px;
             border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink); }
   .rpcanvas { max-width:240px; height:auto; border-radius:10px; border:1px solid var(--line); margin-top:8px; }
+  .xmchips { display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 10px; }
+  .xmig { margin-bottom:10px; }
+  .xmidea { display:block; width:100%; text-align:left; margin:4px 0; padding:7px 10px; font:inherit; font-size:12.5px;
+            color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:8px; cursor:pointer; }
+  .xmidea:hover { border-color:var(--cta); background:var(--surface2); }
+  .xrscore.over { color:#bf3d2c; font-weight:800; }
   .xrall { margin-top:6px; }
   .xgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:14px; }
   .xprow { display:flex; align-items:center; gap:9px; padding:7px 0; border-top:1px solid var(--line); }
@@ -667,6 +673,7 @@ PAGE = r"""<!doctype html>
       <div class="navgrp">Engagement</div>
       <button class="navitem" id="tabbtn-xreplies" onclick="switchTab('xreplies')">↩️ <span>X Replies</span><span class="navcount" id="nc-xr"></span></button>
       <button class="navitem" id="tabbtn-repurpose" onclick="switchTab('repurpose')">♻️ <span>Repurpose</span><span class="navcount" id="nc-rp"></span></button>
+      <button class="navitem" id="tabbtn-xmini" onclick="switchTab('xmini')">✍️ <span>X Mini</span><span class="navcount" id="nc-xm"></span></button>
     </nav>
     <div class="sidefoot">
       <span class="av">A</span>
@@ -725,6 +732,34 @@ PAGE = r"""<!doctype html>
        Hit “✓ Use this” and it's logged in Performance so you can learn what grows the account.</p>
     <div id="xreplist"></div>
     <div id="xperf" hidden></div>
+  </section>
+
+  <section id="tab-xmini" hidden>
+    <div class="bar" style="margin-top:18px">
+      <button id="xm-make" class="active" onclick="xmSwitch('make')">✍️ Make</button>
+      <button id="xm-perf-btn" onclick="xmSwitch('perf')">📊 Performance</button>
+    </div>
+    <p class="note" id="xm-note">✍️ Short text-only X posts that grow the account — questions, funny lines, facts, hot takes, builder notes, comparisons. Pick a style + an idea (or type your own), generate, post. No links, under 280 chars.</p>
+    <div id="xmmake">
+      <div class="xmchips" id="xm-presets"></div>
+      <textarea id="xm-seed" class="rphead" rows="2" placeholder="Type your idea, or paste text to rewrite — or tap an idea from the Idea bank below (optional)"></textarea>
+      <div class="actions" style="margin-left:0;margin-top:6px">
+        <button class="cp" onclick="xmGen('claude')">🤖 Open in Claude</button>
+        <button class="cp" onclick="xmGen('gpt')">⚡ Open in ChatGPT</button>
+        <button class="cp" onclick="xmPasteToggle()">📥 Paste result</button>
+        <button class="cp" onclick="xmIdeasToggle()">💡 Idea bank</button>
+      </div>
+      <div id="xm-paste" hidden>
+        <textarea id="xm-savejson" class="rphead" rows="3" placeholder="Paste Claude/ChatGPT's JSON here, then Save"></textarea>
+        <div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" onclick="xmSave()">💾 Save & show posts</button></div>
+      </div>
+      <div id="xm-ideas" hidden></div>
+      <div id="xm-result"></div>
+      <div id="xm-captured"></div>
+      <div class="sec-h" style="margin-top:10px">📝 Drafts</div>
+      <div id="xm-drafts"></div>
+    </div>
+    <div id="xmperf" hidden></div>
   </section>
 
   <section id="tab-repurpose" hidden>
@@ -1543,7 +1578,7 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose"].forEach(n => {
+  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose","xmini"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
@@ -1553,7 +1588,8 @@ function switchTab(name) {
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
     research:["Research","Papers for your own learning"],
     xreplies:["X Replies","Capture a post, generate replies, pick one"],
-    repurpose:["Repurpose","Turn posts you see into your own content"] };
+    repurpose:["Repurpose","Turn posts you see into your own content"],
+    xmini:["X Mini","Short text-only posts that grow the account"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
@@ -1562,6 +1598,7 @@ function switchTab(name) {
   if (name === "ready") renderReady();
   if (name === "xreplies") renderXTab();
   if (name === "repurpose") renderRpTab();
+  if (name === "xmini") renderXMini();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -2350,6 +2387,221 @@ function rpPosterPanel(d, c) {
     else if (a === "prompt") { navigator.clipboard.writeText(rpImagePrompt(c, head())).catch(() => {}); window.open("https://chatgpt.com/", "_blank", "noopener"); toast("Image prompt copied — paste in ChatGPT/Gemini 🎨"); }
     else if (a === "dl") { const link = document.createElement("a"); link.href = canvas.toDataURL("image/jpeg", 0.9); link.download = "aixahmad-poster.jpg"; document.body.appendChild(link); link.click(); link.remove(); toast("Downloaded ✓ — attach it to your post"); }
   });
+}
+
+/* ===================== X Mini Post Engine ===================== */
+let xmView = "make", xmPreset = "";
+const XM_CATL = { question: "❓ Question", funny: "😅 Funny", fact: "📌 Fact", hot_take: "🔥 Hot take",
+  builder: "🛠 Builder", relatable: "🤝 Relatable", shower_thought: "🚿 Shower thought", comparison: "⚔️ Comparison" };
+function xmCatLabel(c) { return XM_CATL[c] || (c || "post").replace(/_/g, " "); }
+function xmFindPreset(slug) { return (window.XMINI_PRESETS || []).find(p => p[1] === slug) || null; }
+function xmScore(m) {
+  return (+m.likes || 0) + (+m.replies || 0) * 3 + (+m.reposts || 0) * 4 + (+m.quotes || 0) * 4 +
+    (+m.profile_visits || 0) * 2 + (+m.follows || 0) * 8;
+}
+function xmSwitch(v) {
+  xmView = v;
+  const mk = document.getElementById("xm-make"), pf = document.getElementById("xm-perf-btn");
+  if (mk) mk.classList.toggle("active", v === "make"); if (pf) pf.classList.toggle("active", v === "perf");
+  const mm = document.getElementById("xmmake"), pp = document.getElementById("xmperf");
+  if (mm) mm.hidden = v !== "make"; if (pp) pp.hidden = v !== "perf";
+  v === "perf" ? renderXmPerf() : renderXMini();
+}
+function xmPresetChips() {
+  const el = document.getElementById("xm-presets"); if (!el || !window.XMINI_PRESETS) return;
+  el.innerHTML = '<button class="chip' + (xmPreset === "" ? " active" : "") + '" data-ps="">✨ Auto</button>' +
+    window.XMINI_PRESETS.map(p => '<button class="chip' + (xmPreset === p[1] ? " active" : "") + '" data-ps="' + p[1] + '" title="' + esc(p[3]) + '">' + esc(p[2]) + '</button>').join("");
+  el.querySelectorAll("[data-ps]").forEach(b => b.onclick = () => { xmPreset = b.dataset.ps; xmPresetChips(); });
+}
+function xmGen(ai) {
+  const seed = (document.getElementById("xm-seed").value || "").trim();
+  const prompt = window.buildXMiniPrompt({ seed: seed, preset: xmPreset ? xmFindPreset(xmPreset) : null });
+  navigator.clipboard.writeText(prompt).catch(() => {});
+  window.open(ai === "gpt" ? "https://chatgpt.com/" : "https://claude.ai/new", "_blank", "noopener");
+  const p = document.getElementById("xm-paste"); if (p) p.hidden = false;
+  toast("Prompt copied — paste in " + (ai === "gpt" ? "ChatGPT" : "Claude") + ", then paste its JSON back ✓");
+}
+function xmPasteToggle() { const p = document.getElementById("xm-paste"); if (p) p.hidden = !p.hidden; }
+function xmIdeasToggle() {
+  const el = document.getElementById("xm-ideas"); if (!el) return;
+  el.hidden = !el.hidden;
+  if (!el.hidden && !el.innerHTML) {
+    const I = window.XMINI_IDEAS || {};
+    el.innerHTML = Object.keys(I).map(cat => '<div class="xmig"><div class="sec-h">' + xmCatLabel(cat) + '</div>' +
+      I[cat].map(t => '<button class="xmidea" data-seed="' + esc(t) + '">' + esc(t) + '</button>').join("") + '</div>').join("");
+    el.querySelectorAll("[data-seed]").forEach(b => b.onclick = () => {
+      document.getElementById("xm-seed").value = b.getAttribute("data-seed");
+      toast("Idea loaded — pick a style & generate"); window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+}
+function xmPostBlock(text, category, badge) {
+  const len = (text || "").length;
+  return '<div class="xrep' + (badge ? " rec" : "") + '" data-cat="' + esc(category || "") + '">' +
+    '<div class="xrstyle">' + (badge ? '<span class="xrbadge">' + badge + '</span> ' : "") + xmCatLabel(category || "") +
+    ' · <span class="xrscore' + (len > 280 ? " over" : "") + '">' + len + '/280</span></div>' +
+    '<div class="xrtext">' + esc(text) + '</div>' +
+    '<div class="xractions"><button class="cp" data-xm="copy">📋 Copy</button>' +
+    '<button class="cp" data-xm="postx">𝕏 Post on X</button>' +
+    '<button class="cp" data-xm="posted">✓ Posted</button></div></div>';
+}
+function xmWireBlocks(scope, draftId) {
+  scope.querySelectorAll(".xrep").forEach(rep => {
+    rep.querySelectorAll("[data-xm]").forEach(b => b.onclick = () => {
+      const text = rep.querySelector(".xrtext").textContent, cat = rep.getAttribute("data-cat") || "", act = b.dataset.xm;
+      if (act === "copy") navigator.clipboard.writeText(text).then(() => toast("Copied — paste & post ✓"));
+      else if (act === "postx") { navigator.clipboard.writeText(text).catch(() => {}); window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank", "noopener"); toast("Opening X (prefilled & copied) — review, then post"); }
+      else if (act === "posted") xmPosted(draftId, text, cat);
+    });
+  });
+}
+function xmRenderResult(draft) {
+  const el = document.getElementById("xm-result"); if (!el) return;
+  if (!draft || (!draft.best_post && !(draft.all_options || []).length)) { el.innerHTML = ""; return; }
+  const opts = draft.all_options || [];
+  const rest = opts.filter(o => o.text && o.text !== draft.best_post).map(o => xmPostBlock(o.text, o.category)).join("");
+  el.innerHTML = '<div class="card">' +
+    (draft.analysis ? '<div class="xranalysis">🤖 ' + esc(draft.analysis) + '</div>' : "") +
+    (draft.best_post ? xmPostBlock(draft.best_post, draft.best_category, "Best") : "") +
+    (draft.backup_posts || []).map(t => xmPostBlock(t, draft.best_category)).join("") +
+    (rest ? '<div class="actions" style="margin-left:0;margin-top:8px"><button class="cp" id="xm-showall">👁 Show all 8 styles</button></div>' +
+      '<div class="xrall" hidden><div class="xreps">' + rest + '</div></div>' : "") + '</div>';
+  const sa = el.querySelector("#xm-showall"), all = el.querySelector(".xrall");
+  if (sa && all) sa.onclick = () => { all.hidden = !all.hidden; sa.textContent = all.hidden ? "👁 Show all 8 styles" : "🙈 Hide"; if (!all.hidden) xmWireBlocks(all, draft.id || draft._k); };
+  xmWireBlocks(el, draft.id || draft._k);
+}
+async function xmSave() {
+  const ta = document.getElementById("xm-savejson"); let o;
+  try { o = JSON.parse((ta.value || "").trim()); } catch (e) { toast("That isn't valid JSON — paste exactly what the AI returned"); return; }
+  const opts = (o.all_options || []).map(x => ({ category: x.category || "", text: String(x.text || "").trim(), score: +x.score || 0, why: String(x.why || "") })).filter(x => x.text);
+  const best = String(o.best_post || "").trim();
+  if (!best && !opts.length) { toast("No posts found in that JSON"); return; }
+  const id = String(Date.now());
+  const draft = {
+    id: id, seed: (document.getElementById("xm-seed").value || "").trim(), preset: xmPreset || "",
+    analysis: o.analysis || "", best_category: o.best_category || (opts[0] && opts[0].category) || "",
+    best_post: best || (opts[0] && opts[0].text) || "",
+    backup_posts: (o.backup_posts || []).map(s => String(s || "").trim()).filter(Boolean),
+    all_options: opts, status: "generated", created_at: new Date().toISOString(), updated_at: new Date().toISOString()
+  };
+  if (FBURL) { try { await fetch(fbRoot() + "/x_mini_drafts/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(draft) }); } catch (e) {} }
+  ta.value = ""; const p = document.getElementById("xm-paste"); if (p) p.hidden = true;
+  xmRenderResult(draft); renderXMini(); toast("Saved ✓ — review & post below");
+}
+async function xmPosted(draftId, text, cat) {
+  if (FBURL) {
+    const id = String(Date.now()) + Math.floor((window.performance && performance.now ? performance.now() : 0));
+    const now = new Date().toISOString();
+    const rec = { id: id, output_text: text, category: cat || "", char_count: (text || "").length, emoji_used: xrHasEmoji(text),
+      posted_at: now, likes: 0, replies: 0, reposts: 0, quotes: 0, profile_visits: 0, follows: 0, impressions: 0,
+      performance_score: 0, notes: "", created_at: now, updated_at: now };
+    try { await fetch(fbRoot() + "/x_mini_performance/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }); } catch (e) {}
+    if (draftId) { try { fetch(fbRoot() + "/x_mini_drafts/" + draftId + ".json", { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ status: "posted", updated_at: now }) }); } catch (e) {} }
+  }
+  toast("Logged to Performance — add metrics later ✓"); renderXMini();
+}
+function xmCount(n) { const el = document.getElementById("nc-xm"); if (el) el.textContent = n || ""; }
+async function renderXMini() {
+  if (!document.getElementById("tab-xmini")) return;
+  xmPresetChips();
+  const draftsEl = document.getElementById("xm-drafts"), capEl = document.getElementById("xm-captured");
+  if (!FBURL) { if (draftsEl) draftsEl.innerHTML = '<div class="empty">Connect cloud sync to save drafts across devices.</div>'; xmCount(); return; }
+  let data = {};
+  try { data = (await (await fetch(fbRoot() + "/x_mini_drafts.json")).json()) || {}; } catch (e) {}
+  const all = Object.entries(data || {}).filter(e => e[1]).map(e => { const o = e[1]; o._k = e[0]; return o; });
+  const byNew = (a, b) => String(b.created_at || "").localeCompare(String(a.created_at || ""));
+  const captured = all.filter(d => d.status === "captured").sort(byNew);
+  const drafts = all.filter(d => d.status === "generated" || d.status === "saved").sort(byNew);
+  if (capEl) {
+    capEl.innerHTML = captured.length ? '<div class="sec-h" style="margin-top:10px">📥 From the extension — tap to use as your idea</div>' +
+      captured.map(d => '<button class="xmidea" data-cap="' + esc(d._k) + '">' + esc((d.seed || "").slice(0, 100)) + '</button>').join("") +
+      '<div class="actions" style="margin-left:0"><button class="cp" data-capclr>Clear captured</button></div>' : "";
+    capEl.querySelectorAll("[data-cap]").forEach(b => b.onclick = () => {
+      const d = captured.find(x => x._k === b.dataset.cap); if (!d) return;
+      document.getElementById("xm-seed").value = d.seed || "";
+      try { fetch(fbRoot() + "/x_mini_drafts/" + d._k + ".json", { method: "DELETE" }); } catch (e) {}
+      toast("Loaded — pick a style & generate"); window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    const clr = capEl.querySelector("[data-capclr]");
+    if (clr) clr.onclick = () => { captured.forEach(d => { try { fetch(fbRoot() + "/x_mini_drafts/" + d._k + ".json", { method: "DELETE" }); } catch (e) {} }); renderXMini(); };
+  }
+  if (draftsEl) {
+    draftsEl.innerHTML = drafts.length ? drafts.map(d => '<div class="card" data-dk="' + esc(d._k) + '">' +
+      '<div class="xrtext">' + esc(d.best_post || "") + '</div>' +
+      '<div class="meta"><span class="pill">' + xmCatLabel(d.best_category || "") + '</span><span>' + (d.best_post || "").length + '/280</span></div>' +
+      '<div class="actions" style="margin-left:0;margin-top:6px"><button class="cp" data-dr="open">↩ Re-open</button>' +
+      '<button class="cp" data-dr="postx">𝕏 Post on X</button><button class="cp" data-dr="posted">✓ Posted</button><button class="cp" data-dr="del">🗑</button></div></div>').join("")
+      : '<div class="empty">No drafts yet — generate above.</div>';
+    draftsEl.querySelectorAll("[data-dk]").forEach(card => {
+      const d = drafts.find(x => x._k === card.dataset.dk);
+      card.querySelectorAll("[data-dr]").forEach(b => b.onclick = () => xmDraftAction(b.dataset.dr, d, card));
+    });
+  }
+  xmCount(captured.length + drafts.length);
+}
+function xmDraftAction(act, d, card) {
+  if (!d) return;
+  if (act === "open") { xmRenderResult(d); document.getElementById("xm-seed").value = d.seed || ""; window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+  if (act === "postx") { navigator.clipboard.writeText(d.best_post || "").catch(() => {}); window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(d.best_post || ""), "_blank", "noopener"); toast("Opening X (prefilled & copied)"); return; }
+  if (act === "posted") { xmPosted(d._k, d.best_post || "", d.best_category || ""); return; }
+  if (act === "del") { try { fetch(fbRoot() + "/x_mini_drafts/" + d._k + ".json", { method: "DELETE" }); } catch (e) {} card.remove(); toast("Removed"); return; }
+}
+function xmPerfCard(r) {
+  return '<div class="card" data-xk="' + esc(r._k) + '">' +
+    '<div class="xrtext">' + esc(r.output_text || "") + '</div>' +
+    '<div class="meta"><span class="pill">' + xmCatLabel(r.category || "") + '</span>' +
+    '<span>' + (r.char_count || 0) + ' chars' + (r.emoji_used ? " · emoji" : "") + '</span>' +
+    '<span class="src">⭐ score ' + (+r.performance_score || 0) + '</span></div>' +
+    '<div class="xpmetrics">' +
+    xpNum("👍 Likes", "likes", r.likes) + xpNum("💬 Replies", "replies", r.replies) +
+    xpNum("🔁 Reposts", "reposts", r.reposts) + xpNum("❝ Quotes", "quotes", r.quotes) +
+    xpNum("👤 Profile visits", "profile_visits", r.profile_visits) + xpNum("➕ Follows", "follows", r.follows) +
+    xpNum("📈 Impressions", "impressions", r.impressions) +
+    '<label class="xpf xpnotes">Notes<input type="text" class="xpi" data-f="notes" value="' + esc(r.notes || "") + '"></label>' +
+    '<button class="cp" data-xmx>💾 Save metrics</button><button class="cp" data-xmxdel>🗑</button>' +
+    '</div></div>';
+}
+async function xmPerfSave(btn) {
+  const card = btn.closest("[data-xk]"); if (!card) return;
+  const key = card.getAttribute("data-xk"), m = {};
+  card.querySelectorAll(".xpi").forEach(inp => { m[inp.dataset.f] = inp.type === "number" ? (+inp.value || 0) : inp.value; });
+  m.performance_score = xmScore(m); m.updated_at = new Date().toISOString();
+  try { await fetch(fbRoot() + "/x_mini_performance/" + key + ".json", { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(m) }); } catch (e) {}
+  toast("Saved · score " + m.performance_score + " ⭐"); renderXmPerf();
+}
+async function xmPerfDel(btn) {
+  const card = btn.closest("[data-xk]"); if (!card) return;
+  try { fetch(fbRoot() + "/x_mini_performance/" + card.getAttribute("data-xk") + ".json", { method: "DELETE" }); } catch (e) {}
+  card.remove(); toast("Removed");
+}
+async function renderXmPerf() {
+  const el = document.getElementById("xmperf"); if (!el) return;
+  if (!FBURL) { el.innerHTML = '<div class="empty">Connect cloud sync to track performance.</div>'; return; }
+  el.innerHTML = '<div class="note">Loading…</div>';
+  let data = {};
+  try { data = (await (await fetch(fbRoot() + "/x_mini_performance.json")).json()) || {}; } catch (e) {}
+  const rows = Object.entries(data || {}).filter(e => e[1]).map(e => { const o = e[1]; o._k = e[0]; return o; });
+  if (!rows.length) { el.innerHTML = '<div class="empty">Nothing tracked yet. Post a mini, hit “✓ Posted”, then add likes / replies / reposts ~24h later to learn which styles grow @aixahmad.</div>'; return; }
+  const avgBy = fn => {
+    const g = {};
+    rows.forEach(r => { const k = fn(r); if (k == null || k === "") return; (g[k] = g[k] || []).push(+r.performance_score || 0); });
+    return Object.entries(g).map(([k, a]) => [k, a.reduce((s, x) => s + x, 0) / a.length, a.length]).sort((x, y) => y[1] - x[1]);
+  };
+  const blk = (title, pairs, fmt) => '<div class="xpk"><div class="sec-h">' + title + '</div>' +
+    (pairs.length ? pairs.map(([k, avg, n]) => '<div class="xprow"><span>' + esc(fmt ? fmt(k) : k) + '</span><b>' + avg.toFixed(1) + '</b><small>' + n + '</small></div>').join("") : '<div class="note">no data yet</div>') + '</div>';
+  const top = rows.slice().sort((a, b) => (+b.performance_score || 0) - (+a.performance_score || 0)).slice(0, 10);
+  const hist = rows.slice().sort((a, b) => String(b.posted_at || "").localeCompare(String(a.posted_at || "")));
+  el.innerHTML = '<div class="xgrid">' +
+    blk("Best style", avgBy(r => r.category), xmCatLabel) +
+    blk("Emoji vs none", avgBy(r => r.emoji_used ? "with emoji" : "no emoji")) +
+    blk("Short vs long", avgBy(r => (+r.char_count || 0) <= 120 ? "short (≤120)" : "long (>120)")) +
+    '</div>' +
+    '<div class="sec-h xptop">🏆 Top performers</div>' +
+    top.map(r => '<div class="xprow xptopr"><span>' + esc((r.output_text || "").slice(0, 90)) + '</span><b>' + (+r.performance_score || 0) + '</b><small>' + xmCatLabel(r.category || "") + '</small></div>').join("") +
+    '<div class="sec-h xptop">📊 All posts — add the numbers</div>' +
+    hist.map(xmPerfCard).join("");
+  el.querySelectorAll("[data-xmx]").forEach(b => b.onclick = () => xmPerfSave(b));
+  el.querySelectorAll("[data-xmxdel]").forEach(b => b.onclick = () => xmPerfDel(b));
 }
 function bar() {
   const el = document.getElementById("pillars");
@@ -5117,6 +5369,7 @@ function readyCount() {
 readyCount();
 xrCount();
 rpCount();
+renderXMini();
 attachMention(document.getElementById("m-chat-text"));
 ROLE = "owner"; localStorage.setItem("role", "owner");   /* owner-only studio (editors/chat removed) */
 applyRole(true);

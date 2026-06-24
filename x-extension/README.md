@@ -8,6 +8,8 @@ Two destinations from one popup:
   Works on **X and LinkedIn**.
 - **↩️ Reply to this post** → Studio **X Replies** tab (X only): 7 reply styles, best 2
   shown, performance tracking.
+- **✍️ Rewrite as an X post** → Studio **X Mini** tab: sends the selected/visible text
+  as a seed idea for a short, original text-only X post. Works on X, LinkedIn, anywhere.
 
 It only acts when you click — it never scrapes in the background and never posts.
 
@@ -30,7 +32,9 @@ Add these to your Realtime Database rules (alongside the others) and Publish:
 "x_captures":            { ".read": true, ".write": true },
 "x_performance":         { ".read": true, ".write": true },
 "social_captures":       { ".read": true, ".write": true },
-"repurpose_performance": { ".read": true, ".write": true }
+"repurpose_performance": { ".read": true, ".write": true },
+"x_mini_drafts":         { ".read": true, ".write": true },
+"x_mini_performance":    { ".read": true, ".write": true }
 ```
 
 ## Notes
