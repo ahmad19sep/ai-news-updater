@@ -1482,6 +1482,21 @@ setInterval(() => {
 }, 10000);
 window.addEventListener("focus", () => { if (!(isFb() && syncStream)) pollBoard(); });
 
+/* keep the live-data tabs (Ready / X Replies / Repurpose) fresh on their own —
+   they read the cloud on demand, so without this you'd have to refresh to see a
+   newly-approved post or capture. Skip while you're typing so it never wipes
+   an input you're editing. */
+function autoRefreshLive() {
+  const a = document.activeElement;
+  if (a && (a.tagName === "TEXTAREA" || a.tagName === "INPUT" || a.isContentEditable)) return;
+  const vis = id => { const s = document.getElementById(id); return s && !s.hidden; };
+  if (vis("tab-ready")) { try { renderReady(); } catch (e) {} }
+  else if (vis("tab-xreplies")) { try { renderXTab(); } catch (e) {} }
+  else if (vis("tab-repurpose")) { try { renderRpTab(); } catch (e) {} }
+}
+setInterval(autoRefreshLive, 20000);
+window.addEventListener("focus", autoRefreshLive);
+
 /* migrate old planner cards to ticket format — each step runs ONCE, never again
    (the old !== checks re-ran on every load and stripped newer fields) */
 const PV = +(localStorage.getItem("plans_v") || "1") || 1;
