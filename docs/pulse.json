@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T15:18:02.195275+00:00",
+  "generated_at": "2026-06-25T20:23:48.328886+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 28,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,15 +23,15 @@
         "reddit"
       ],
       "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or other projects.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create engaging visual content for your professional online presence.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative and marketing purposes in your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
@@ -42,163 +42,163 @@
       ],
       "content_ideas": [
         "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "GPT-5.5 Instant",
+      "name": "Anthropic Claude AI Model",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "GPT-5.5 Instant is a new version of the GPT language model that provides faster and more accurate responses.",
-      "audience_angle": "You can use GPT-5.5 Instant to get quick and accurate answers to your questions and improve your productivity.",
-      "linkedin_angle": "Learn how GPT-5.5 Instant can help you streamline your workflow and make more informed decisions.",
-      "local_relevance": 6,
+      "what_it_is": "The Anthropic Claude AI model is a powerful language model developed by Anthropic.",
+      "audience_angle": "You can use the Anthropic Claude AI model to improve your writing, coding, and other tasks.",
+      "linkedin_angle": "Discover how the Anthropic Claude AI model can enhance your business operations and productivity.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uen0th/gpt55_instant_is_rolling_out/",
-          "signal": "GPT-5.5 Instant is rolling out"
-        }
-      ],
-      "content_ideas": [
-        "What's New in GPT-5.5 Instant?",
-        "How to Get the Most Out of GPT-5.5 Instant",
-        "GPT-5.5 Instant: The Future of Language Models"
-      ]
-    },
-    {
-      "name": "Krea 2",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Krea 2 is an open-source image model that provides high-quality image generation capabilities.",
-      "audience_angle": "You can use Krea 2 to create stunning images for your personal or professional projects.",
-      "linkedin_angle": "Discover how Krea 2 can help you create engaging visual content for your business or brand.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "The Anthropic Claude AI model has an affiliate program that allows users to earn money by promoting the model."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.krea.ai/blog/krea-2-technical-report",
-          "signal": "Krea 2: SOTA open-weights 12B image model"
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+          "signal": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities"
         }
       ],
       "content_ideas": [
-        "Getting Started with Krea 2",
-        "Krea 2: The Future of Image Generation",
-        "How to Use Krea 2 for Your Business"
+        "Getting Started with the Anthropic Claude AI Model",
+        "Using the Anthropic Claude AI Model for Content Creation",
+        "The Benefits of the Anthropic Claude AI Model for Business"
       ]
     },
     {
-      "name": "Claude Fable",
+      "name": "KimiWork AI Tool",
       "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude Fable is a language model that provides a unique and engaging way to interact with AI.",
-      "audience_angle": "You can use Claude Fable to create interactive stories and experiences for yourself or others.",
-      "linkedin_angle": "Learn how Claude Fable can help you create engaging content for your business or brand.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=mK92KuE8n9E",
-          "signal": "Claude Fable Vs. The US Government"
-        }
-      ],
-      "content_ideas": [
-        "What is Claude Fable?",
-        "How to Use Claude Fable for Storytelling",
-        "Claude Fable: The Future of Interactive Content"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows you to create videos using artificial intelligence.",
-      "audience_angle": "You can use AI video generation to create unique and engaging videos for your social media or other projects.",
-      "linkedin_angle": "Discover how AI video generation can help you create professional-looking videos for your business or brand.",
-      "local_relevance": 5,
+      "what_it_is": "The KimiWork AI tool is a new AI tool that offers a 200K token limit and 300 #kimiwork #aibreakthrough #evmarket.",
+      "audience_angle": "You can use the KimiWork AI tool to automate tasks and improve your productivity.",
+      "linkedin_angle": "Learn how to leverage the KimiWork AI tool for business automation and growth.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "The KimiWork AI tool has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=aXzcPIpHJ3w",
-          "signal": "ai se video kaise banaye"
+          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
+          "signal": "KimiWork launches AI tool with 200K token limit and 300 #kimiwork #aibreakthrough #evmarket"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Video Generation",
-        "AI Video Generation: The Future of Content Creation",
-        "Creating Engaging Videos with AI"
+        "Introduction to the KimiWork AI Tool",
+        "Using the KimiWork AI Tool for Business Automation",
+        "The Future of AI: KimiWork AI Tool Review"
+      ]
+    },
+    {
+      "name": "AI for Earning Money",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used to earn money through various methods such as affiliate marketing, trading, and content creation.",
+      "audience_angle": "You can use AI to earn money and improve your financial situation.",
+      "linkedin_angle": "Discover how AI can be used to earn money and grow your business.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI can be used to earn money through affiliate marketing and other methods."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HNrJ_tohFMU",
+          "signal": "The ONLY 7 Ways to Make Money with AI in 2026"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI to Earn Money Online",
+        "The Best AI Tools for Earning Money",
+        "AI for Financial Freedom: A Guide"
       ]
     },
     {
       "name": "AI for Trading",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI for trading is a technology that uses artificial intelligence to analyze and make trading decisions.",
-      "audience_angle": "You can use AI for trading to make more informed investment decisions and potentially increase your returns.",
-      "linkedin_angle": "Learn how AI for trading can help you stay ahead of the market and make more informed investment decisions.",
-      "local_relevance": 6,
+      "what_it_is": "AI can be used for trading to improve investment decisions and maximize returns.",
+      "audience_angle": "You can use AI to improve your trading skills and earn more money.",
+      "linkedin_angle": "Learn how to leverage AI for trading and grow your investment portfolio.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "AI can be used for trading to earn money through affiliate marketing and other methods."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "how to use ai for trading"
+          "signal": "How to use AI for trading"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI for Trading",
-        "How to Use AI for Trading Decisions",
-        "AI for Trading: The Future of Investment"
+        "Introduction to AI for Trading",
+        "Using AI for Trading: A Beginner's Guide",
+        "The Benefits of AI for Trading"
+      ]
+    },
+    {
+      "name": "AI for Business",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used for business to improve operations, marketing, and customer service.",
+      "audience_angle": "You can use AI to grow your business and improve your operations.",
+      "linkedin_angle": "Discover how AI can be used to improve business operations and grow your company.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI can be used for business to earn money through affiliate marketing and other methods."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+business",
+          "signal": "How to use AI for business"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to AI for Business",
+        "Using AI for Business: A Beginner's Guide",
+        "The Benefits of AI for Business"
       ]
     }
   ],
@@ -211,15 +211,15 @@
         "reddit"
       ],
       "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or other projects.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create engaging visual content for your professional online presence.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative and marketing purposes in your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
@@ -230,116 +230,85 @@
       ],
       "content_ideas": [
         "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Krea 2",
+      "name": "KimiWork AI Tool",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Krea 2 is an open-source image model that provides high-quality image generation capabilities.",
-      "audience_angle": "You can use Krea 2 to create stunning images for your personal or professional projects.",
-      "linkedin_angle": "Discover how Krea 2 can help you create engaging visual content for your business or brand.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.krea.ai/blog/krea-2-technical-report",
-          "signal": "Krea 2: SOTA open-weights 12B image model"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Krea 2",
-        "Krea 2: The Future of Image Generation",
-        "How to Use Krea 2 for Your Business"
-      ]
-    },
-    {
-      "name": "GPT-5.5 Instant",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "GPT-5.5 Instant is a new version of the GPT language model that provides faster and more accurate responses.",
-      "audience_angle": "You can use GPT-5.5 Instant to get quick and accurate answers to your questions and improve your productivity.",
-      "linkedin_angle": "Learn how GPT-5.5 Instant can help you streamline your workflow and make more informed decisions.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uen0th/gpt55_instant_is_rolling_out/",
-          "signal": "GPT-5.5 Instant is rolling out"
-        }
-      ],
-      "content_ideas": [
-        "What's New in GPT-5.5 Instant?",
-        "How to Get the Most Out of GPT-5.5 Instant",
-        "GPT-5.5 Instant: The Future of Language Models"
-      ]
-    },
-    {
-      "name": "Claude Fable",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude Fable is a language model that provides a unique and engaging way to interact with AI.",
-      "audience_angle": "You can use Claude Fable to create interactive stories and experiences for yourself or others.",
-      "linkedin_angle": "Learn how Claude Fable can help you create engaging content for your business or brand.",
+      "what_it_is": "The KimiWork AI tool is a new AI tool that offers a 200K token limit and 300 #kimiwork #aibreakthrough #evmarket.",
+      "audience_angle": "You can use the KimiWork AI tool to automate tasks and improve your productivity.",
+      "linkedin_angle": "Learn how to leverage the KimiWork AI tool for business automation and growth.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "The KimiWork AI tool has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=mK92KuE8n9E",
-          "signal": "Claude Fable Vs. The US Government"
+          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
+          "signal": "KimiWork launches AI tool with 200K token limit and 300 #kimiwork #aibreakthrough #evmarket"
         }
       ],
       "content_ideas": [
-        "What is Claude Fable?",
-        "How to Use Claude Fable for Storytelling",
-        "Claude Fable: The Future of Interactive Content"
+        "Introduction to the KimiWork AI Tool",
+        "Using the KimiWork AI Tool for Business Automation",
+        "The Future of AI: KimiWork AI Tool Review"
+      ]
+    },
+    {
+      "name": "Anthropic Claude AI Model",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "The Anthropic Claude AI model is a powerful language model developed by Anthropic.",
+      "audience_angle": "You can use the Anthropic Claude AI model to improve your writing, coding, and other tasks.",
+      "linkedin_angle": "Discover how the Anthropic Claude AI model can enhance your business operations and productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "The Anthropic Claude AI model has an affiliate program that allows users to earn money by promoting the model."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+          "signal": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with the Anthropic Claude AI Model",
+        "Using the Anthropic Claude AI Model for Content Creation",
+        "The Benefits of the Anthropic Claude AI Model for Business"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "who_affected": "Users of the Claude AI model",
       "signal_strength": 8,
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ufbqk1/half_of_groks_traffic_is_nsfw/"
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
         }
       ],
-      "content_opportunity": "How to Overcome Claude Usage/Token Limits"
+      "content_opportunity": "How to overcome Claude usage/token limits and continue using the AI model."
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
