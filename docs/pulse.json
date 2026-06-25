@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T04:35:49.856711+00:00",
+  "generated_at": "2026-06-25T09:46:20.135443+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "You can create amazing images with just text prompts.",
-      "linkedin_angle": "Leverage AI image generation for marketing and branding.",
+      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create unique and personalized images for your social media or other projects.",
+      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional online presence.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -42,40 +42,151 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1U8dJ94QFNc",
-          "signal": "New top local AI image generator is here! Already uncensored"
+          "url": "https://www.youtube.com/watch?v=RIPxwxqZhVI",
+          "signal": "Google's SECRET 8 AI Tools Just REPLACED Every Paid AI Tool"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Artists",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
+        "How to Use ChatGPT for Image Generation",
+        "10 Creative Ways to Utilize ChatGPT's Image Generation",
+        "ChatGPT Image Generation: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI Agent Development",
-      "category": "technique",
+      "name": "AI Video Creation",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Developing AI agents for various tasks and applications.",
-      "audience_angle": "You can build your own AI agent to automate tasks.",
-      "linkedin_angle": "Developing AI agents can enhance business productivity and efficiency.",
+      "what_it_is": "AI video creation involves using artificial intelligence to generate videos based on text prompts or other inputs.",
+      "audience_angle": "You can use AI to create high-quality videos for your business, education, or personal projects without extensive video production experience.",
+      "linkedin_angle": "Discover how AI video creation can streamline your content marketing strategy and enhance your professional brand.",
       "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI video creation tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5MT3AVsJMYo",
+          "signal": "How to Create Viral Finance Videos Using AI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uez9eq/prompt_generate_an_image_of_your_favorite/",
+          "signal": "Prompt: Generate an image of your favorite celebrity but as a pool floatie"
+        }
+      ],
+      "content_ideas": [
+        "AI Video Creation for Beginners",
+        "5 AI Tools for Creating Stunning Videos",
+        "How to Monetize Your AI-Generated Videos"
+      ]
+    },
+    {
+      "name": "Claude AI Model",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "Claude is an AI model developed by Anthropic, designed for various applications including text generation and conversation.",
+      "audience_angle": "You can use Claude for tasks like content creation, research, and even learning new skills.",
+      "linkedin_angle": "Explore how Claude can be integrated into your professional workflow to enhance productivity and efficiency.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Claude."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+          "signal": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uf0vy8/humanity_overthrown_by_chatgpt_confirmed/",
+          "signal": "Humanity overthrown by ChatGPT - Confirmed!"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Claude AI",
+        "Claude AI for Content Creation: Tips and Tricks",
+        "How Claude AI Can Revolutionize Your Workflow"
+      ]
+    },
+    {
+      "name": "AI for Earning Money",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "reddit"
+      ],
+      "what_it_is": "Using AI for earning money involves leveraging artificial intelligence tools and models to generate income through various means such as content creation, affiliate marketing, and more.",
+      "audience_angle": "You can utilize AI to create and sell digital products, offer services, or monetize your online presence.",
+      "linkedin_angle": "Learn how AI can be a game-changer for your career and business, providing new opportunities for growth and revenue.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI agent development courses and tools have affiliate programs."
+        "note": "Many AI tools for earning money have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HNrJ_tohFMU",
+          "signal": "The ONLY 7 Ways to Make Money with AI in 2026"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uew34n/chatgpt_helps_me_avoid_suicidal_thoughts/",
+          "signal": "Chatgpt helps me avoid suicidal thoughts"
+        }
+      ],
+      "content_ideas": [
+        "Top AI Tools for Making Money Online",
+        "How to Use AI for Affiliate Marketing",
+        "AI-Powered Business Ideas for Entrepreneurs"
+      ]
+    },
+    {
+      "name": "Gemini AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "Gemini AI is a model developed by Google, designed for conversational applications and text generation.",
+      "audience_angle": "You can use Gemini AI for tasks such as writing assistance, content creation, and more.",
+      "linkedin_angle": "Discover how Gemini AI can enhance your professional writing and communication skills.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Gemini AI."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48662310",
-          "signal": "Ask HN: How much coding should beginners learn in the AI era?"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+          "signal": "Computer use in Gemini 3.5 Flash"
         },
         {
           "platform": "youtube",
@@ -84,40 +195,40 @@
         }
       ],
       "content_ideas": [
-        "Building Your First AI Agent: A Step-by-Step Guide",
-        "AI Agent Development: The Future of Automation",
-        "How to Use AI Agents for Business Process Automation"
+        "Introduction to Gemini AI",
+        "Gemini AI for Content Writers",
+        "How Gemini AI Can Improve Your Communication Skills"
       ]
     },
     {
-      "name": "AI for Making Money",
-      "category": "use_case",
-      "momentum": "hot",
+      "name": "Krea 2 AI Model",
+      "category": "tool_launch",
+      "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Using AI to generate income through various methods.",
-      "audience_angle": "You can use AI to earn money and achieve financial freedom.",
-      "linkedin_angle": "Leverage AI for business growth and revenue generation.",
-      "local_relevance": 7,
+      "what_it_is": "Krea 2 is an open-source AI model for image generation and other applications.",
+      "audience_angle": "You can use Krea 2 for creating unique images, art, and designs.",
+      "linkedin_angle": "Explore how Krea 2 can be utilized in professional settings for creative projects and presentations.",
+      "local_relevance": 3,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "AI courses and tools for making money have affiliate programs."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Krea 2."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HNrJ_tohFMU",
-          "signal": "The ONLY 7 Ways to Make Money with AI in 2026"
+          "platform": "hackernews",
+          "url": "https://www.krea.ai/blog/krea-2-technical-report",
+          "signal": "Krea 2: SOTA open-weights 12B image model"
         }
       ],
       "content_ideas": [
-        "7 Ways to Make Money with AI in 2026",
-        "How to Use AI for Affiliate Marketing",
-        "AI for Dropshipping: A Beginner's Guide"
+        "Getting Started with Krea 2 AI",
+        "Krea 2 for Professional Designers",
+        "How Krea 2 Can Enhance Your Creative Projects"
       ]
     }
   ],
@@ -130,16 +241,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "You can create amazing images with just text prompts.",
-      "linkedin_angle": "Leverage AI image generation for marketing and branding.",
+      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create unique and personalized images for your social media or other projects.",
+      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional online presence.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -149,29 +260,146 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1U8dJ94QFNc",
-          "signal": "New top local AI image generator is here! Already uncensored"
+          "url": "https://www.youtube.com/watch?v=RIPxwxqZhVI",
+          "signal": "Google's SECRET 8 AI Tools Just REPLACED Every Paid AI Tool"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Artists",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
+        "How to Use ChatGPT for Image Generation",
+        "10 Creative Ways to Utilize ChatGPT's Image Generation",
+        "ChatGPT Image Generation: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Gemini AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "Gemini AI is a model developed by Google, designed for conversational applications and text generation.",
+      "audience_angle": "You can use Gemini AI for tasks such as writing assistance, content creation, and more.",
+      "linkedin_angle": "Discover how Gemini AI can enhance your professional writing and communication skills.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Gemini AI."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+          "signal": "Computer use in Gemini 3.5 Flash"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7iic3Zj427M",
+          "signal": "DAY 1 Livestream - 5-Day AI Agents: Intensive Vibe Coding Course With Google"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Gemini AI",
+        "Gemini AI for Content Writers",
+        "How Gemini AI Can Improve Your Communication Skills"
+      ]
+    },
+    {
+      "name": "Claude AI Model",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "Claude is an AI model developed by Anthropic, designed for various applications including text generation and conversation.",
+      "audience_angle": "You can use Claude for tasks like content creation, research, and even learning new skills.",
+      "linkedin_angle": "Explore how Claude can be integrated into your professional workflow to enhance productivity and efficiency.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Claude."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+          "signal": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uf0vy8/humanity_overthrown_by_chatgpt_confirmed/",
+          "signal": "Humanity overthrown by ChatGPT - Confirmed!"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Claude AI",
+        "Claude AI for Content Creation: Tips and Tricks",
+        "How Claude AI Can Revolutionize Your Workflow"
+      ]
+    },
+    {
+      "name": "Krea 2 AI Model",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Krea 2 is an open-source AI model for image generation and other applications.",
+      "audience_angle": "You can use Krea 2 for creating unique images, art, and designs.",
+      "linkedin_angle": "Explore how Krea 2 can be utilized in professional settings for creative projects and presentations.",
+      "local_relevance": 3,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Krea 2."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.krea.ai/blog/krea-2-technical-report",
+          "signal": "Krea 2: SOTA open-weights 12B image model"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Krea 2 AI",
+        "Krea 2 for Professional Designers",
+        "How Krea 2 Can Enhance Your Creative Projects"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits and costs",
+      "who_affected": "Individual users and small businesses",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uenx0m/proof/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uf4qbj/worth_sharing_sensitive_data_for_finances_feature/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits and token limits"
+      "content_opportunity": "Exploring Affordable Alternatives to ChatGPT for Individuals and Small Businesses"
+    },
+    {
+      "problem": "Difficulty in using AI for earning money",
+      "who_affected": "Entrepreneurs and freelancers",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HNrJ_tohFMU"
+        }
+      ],
+      "content_opportunity": "Simplifying AI for Earning Money: A Beginner's Guide"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
