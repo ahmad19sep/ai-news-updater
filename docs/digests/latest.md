@@ -15,14 +15,14 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
 4. **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
-5. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
-   https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
-6. **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — science angle
+5. **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiywFBVV95cUxQdjhMYzFSb2xQSUdNSEF5ZlpfOFpRMUNtazRycEhld05WcFNQSTBFWUZsdHFEV0dScTlWMTdadThCeVdyTlktZjNVdmVSZU5MS2t2bHlIaDNnMHNqQTJxbDZCUGNzU0NwWVlBaV9iQWxzbld1djhuamZ2bG9MZFlKd1hhdklzRG1uYU9lbzBsTFpWUWhBWHNrWFBQeWxsTUw3dHllQ1pYS3pSUDNuZHJmYkNaRnUxMFAxX3N1cExFLUJLT2hQSmRsVVBYYw?oc=5
-7. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
+6. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
    https://www.nature.com/articles/s41586-026-10674-6
-8. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
+7. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPWF9CbTZ3NS1NWVYxNDZNaXlVSGlCbGkzTkRNV1dXa0ZJcy1ERS1Qb0l4eXcwVVFYNGptZ2JDSmpzN19XMFY4ZmxGUjBXV1BVd2Y0a19POWtzVGpRRndkN3hhSzFmOUFZeGNvbGVTaGJ6RkN5Smt5OExqSkxzMzZHWXF1ZTVzOUVoNHRsU2NickZYczZwdDVjY3o5UnFpLWxBblpkX0VtWFBtOVhIakt0SFJtVQ?oc=5
+8. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFdsc3NfM3BHX29LTkNsbE41NTY3WFBXSUZhZzB1Y2ZDOGFraUdFVkdFelVtMmxfM1FCLXN1SmtHSUVzZTI5bkY3NEJIOVpXTXVzSTg3eVZSTU8tbXJOYWFnbDRDempMeGRIU0dPV3QyRGdWdlRoUFZ5Q19QRzZneHNqWFhTci1DQjBIVHJzdzdUTzRkY2ZvNHpHclYwaW1VTXFmX0x1UDM3NmhlakgxZGtLZw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 123
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2902
+- Total stories tracked: 2931
 - Most active topic: openai
 - Busiest category: AI General News
 
