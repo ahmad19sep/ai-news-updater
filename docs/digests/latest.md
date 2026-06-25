@@ -9,20 +9,20 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — science angle
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjNvOEhZc3NJWThkbGowSkxTempUOUFqeDhobXJxYjUzRFFYWkh6Y0hHbG5EakpDbDNUWkJ0V1RYSFBWMFJSRzJ4UnphdDlHRmdKb0E3VnBoSzdlTXVvWndrYjNZb3J0Smx2WnNKLXpaemVpWUhTWlZsalRaQkxlRmxQM2tTUmFVZFRUdWttZ18zVjBZWFJ3cWRuYTNHXzM5RGU4YklXd1BadVpu?oc=5
-2. **AI beats doctors in major medical tests, but there is a catch - India Today** — science angle
-   https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
-3. **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — science angle
+2. **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — science angle
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
-4. **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — science angle
+3. **18 children had illnesses so rare doctors were stumped. AI gave them answers - The Independent** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxQREJoaVNXcTY0MG5EeExwM25iQ3pFQzFPRTVWTG9oTTh4QjFuRWExZmpoRWtKSks3LV9ORm1jU2tEenV5dTNZV3dBaEFrTlEybjhRSnMyUEhOdzN0NnBRQ2pid1REcVNhb2V0ZWJfQTNTRUQ1OE9heWFjcmFLR2dXRzNQY0NjZjZ2QVg0c0Fac0l2eHdHZTR3OHp5ejJGekU5U19V?oc=5
-5. **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — science angle
+4. **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
-6. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
+5. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
-7. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
+6. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
    https://www.nature.com/articles/s41586-026-10674-6
-8. **AI diagnostic errors increase hospital blame unless doctors intervene - Let's Data Science** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWN6bkl1cG9oSm9DY0xrLV9RREh6dzhoczdHd0xHT2hWQV9jazBQTVJMUE5SVVdZaUpWSUo2T093QVdjZ3RRNWVfdkg1TU40eW5CZV83dV85d3duYlhLZlNUWDU0ZXctNnZYUVhMMnE3WDRSdXY0ZjUtM2JpeW95bHViUTRfaGN2cUdjWWx5Mk5DVmZFeGRIQ2ZhbVJhV1lHbHVj?oc=5
+7. **This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It - WSJ** — science angle
+   https://news.google.com/rss/articles/CBMib0FVX3lxTE8wS1R2Z1NNeHFLWkNHUG9raVpYdXdNUjlHa3VCaEhmdVpRMEtrVFU4RktoZ2h1SVNleVZFVVpUSXFBQTVYYklHRHlyejF4ZHEzRHRWVHFRYk9mLWNEc3o1NUV2b2lXeHh4aW1XckFmRQ?oc=5
+8. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2hyMlFMRnk0YVZocDNRdWY4TTd5cTBESzREQXZ1U25rNzNVVlJZWGFTaU55dmZzWjliMUFBUUVzWWlZT3I1T0o5eHY1ajM3RmxPTWVIaE40aDgwLXFXcjFCNnlWRUNyV3NRWnZ2WE5qcElWX0hfSkRYLUFpLXFxYmV0SVg?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 126
@@ -33,28 +33,28 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://www.scrippsnews.com/us-news/meta-is-now-designing-its-own-cheaper-ai-smart-glasses
 4. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 63
    https://newschannel9.com/news/spotlight-on-america/as-ai-fuels-a-data-center-boom-communities-across-america-are-pushing-back
-5. **Top developers are pivoting from chatbots to physical AI - Northeast Mississippi Daily Journal** — AI in Coding — Score 56
+5. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 56
+   https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGhNVXRvX1B5M1RZM1E2YTR5OF9rb3lTT2dQRGp4bmx0MXBXSzhtRnhXTGdoQTY0QTU5a0p1bkRaOF9uQWZEbHgweEs2VUpzbXZsbExDdF9aN3VKTlR6WDdZWVEyUTI3OFMwTXp6SlQtb0l4ZmVIZEpBV0xxTFVjWUcxQ3owV1UybmU3SjJqNXVxQlHSAZgBQVVfeXFMUFZnOFpHeDc3cVl3SmFERS0wN2oxR21JREl2LWo5VUtJdFRqRFVQZWNzczFrZC12d0JMVE9kVGcwMldsdDRJQmt1aGRrbHg2T3RybGdCQmpyMVNUT2Vqc1dleXRuX1VpUmVWMHdJOEJNNUkwQjVxOHJjMHRYUy1lMGdXUkk1d0tsLWFTVmZaLVNmTlRMRkU5VHc?oc=5
+6. **Top developers are pivoting from chatbots to physical AI - Northeast Mississippi Daily Journal** — AI in Coding — Score 56
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
-6. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
+7. **AP Exclusive: Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - AP News** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOTHJEWURVbXBpUTM4S28zR3NTNEVpRndlM3hSdUMzRURzb004bEVrcHlUTC1aMWVhUmxPT3hUVEFhR1B4NUY3VEJqT29wMzdOSUZRQUQyRXgtZUxTSEoteXAyR0Y3S2sxa2FFOWphMjRFbzBqUHZnbEZvNXFOMEkya2RzZGo3dmtWaVc1eDFrSkN2MGpNWXJZUFlOa3I?oc=5
-7. **AI could breach government and business defenses in months, not years** — kbzk — Score 53
+8. **AI could breach government and business defenses in months, not years** — kbzk — Score 53
    https://www.kbzk.com/science-and-tech/artificial-intelligence/ai-could-breach-government-and-business-defenses-in-months-not-years
-8. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
+9. **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
-9. **Canon Business Services launches AI security advisory** — itbrief_com_au — Score 48
+10. **Canon Business Services launches AI security advisory** — itbrief_com_au — Score 48
    https://itbrief.com.au/story/canon-business-services-launches-ai-security-advisory
-10. **Exclusive | Microsoft’s Satya Nadella: We Can’t Let AI Giants Eat the Economy - WSJ** — Satya Nadella News — Score 47
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW1mUi1WMDBVS2RxVVp1bEpLSmcwWnZoWU9qS1FqY3lGRXBmQjhwZElGNlk2T3lEVEREbFdUNWpBYkdvTDlyaXIwdnhCVXVyaFplVlFzMFZqQVRtVTFlMmo5V0V2VFlSQVBpSnpqdmlnQy1qUG5KY1J0RjZ3ODdDQ05wVnFDQnZtb1F6Y3pzS0dxcGhQZzBuamVGa1F6cGps?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UnitedHealth’s $3B AI push has bots calling doctors - Modern Healthcare** — https://news.google.com/rss/articles/CBMijAFBVV95cUxOeUZiRVNyeUx4S1Z6dnlKS3BPYlR5cGp3Y0pSdTJkcVNEYlRoMFJfN1ZocWRfUGk2TVFrV05qaUNkY0RUVXpUeFBxMDYtbnp4YzNEMy1lQnd6M1JyYmJZemJNS0dsNVAySExfanF5bFhOWFhRbnFyLWYtd0hFczZ6NkJnV2dHcXZWQ0ZSNg?oc=5
+- **AI medical conference returns to Miami July 10-12 - Rutland Herald** — https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcUtSdHBPQ043c3FwTjNpNGRUVkZVeUt5MTVVZXI3cVV2cVo4azRiUXFxOFVRcGdmM1BLNWcxSUVTakRaUFhzTURWMzNKMnpZY2FPTVJ1V1JyN0hfSjFCeEhLN1hsOGttZXRlUHR5MEdOUDhMTUhZNkhJYWJTMkc3bC1JS0lYR2dJeTFrVklSTEhGUno3WFBpLXY2aUhzVExPOWNEd0tNcFhfU3hyOGRlXzRMYm9SNmNWZnQwR2diRmlaVHNCLS1uRFZHR19Mc2dFUU5jWg?oc=5
 - **AI Search Engineers Announces Expansion Into the Medical Industry, Launching AI Search Visibility Services for Healthcare Providers , Physicians, and Medical Practices Across the United States - Newswire.com** — https://news.google.com/rss/articles/CBMirAFBVV95cUxOdU1ubERyeGVuamc4NmQzYl9JMkVONFEtdjczRklRWVlTS2d1QloxeF92ak1wWU1FczNaTDJXS0gyUmtwUnczOExzTnBYTDhNMlB0VVh3NHp0Tkk4Y21XTjA5NjVaYk9lNFp2dGNvYXhQTWpYZWRYOWRTTTRvZ2FXUF9DNGpBaW1MbDl5TGN4cThIaFgtTkhxMkFROFFkS2lJQmxwMWpXLWlpa0lW?oc=5
 - **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjNvOEhZc3NJWThkbGowSkxTempUOUFqeDhobXJxYjUzRFFYWkh6Y0hHbG5EakpDbDNUWkJ0V1RYSFBWMFJSRzJ4UnphdDlHRmdKb0E3VnBoSzdlTXVvWndrYjNZb3J0Smx2WnNKLXpaemVpWUhTWlZsalRaQkxlRmxQM2tTUmFVZFRUdWttZ18zVjBZWFJ3cWRuYTNHXzM5RGU4YklXd1BadVpu?oc=5
-- **AI beats doctors in major medical tests, but there is a catch - India Today** — https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY21wWF9TcktucDdmMUltS2txZGFjWmplWjhPbFRVTVBMcjdNVEI1bjI4SktjcTRvOGdXWTRRb3ZOcnVqRGhic0VTNlYtTWw5OTIycFFVWlZkZFFPRWhwYWt6ekNsU0JKRDJYTnhDdTlWSlAyZHlNTjF4QU1HcnlVY2xHVndDTXU2b3BiSERVem1fcHNvdGk1SEh0WWlBbnlacHc0MVlmUGJsUklvX2dRXzZBWVZEQ0dDYnJvdWVZa0lDWnExbjFabkNNNEVoT0dB0gHWAUFVX3lxTFBXVHFOM3JwcmYxQ2cwQUNvZWJLeGd5aWg2SXVMbzV3Q1MwVlZ0NkY5cGNnaDhEcExrOTRQSDVwZlZlbHNfTDZlR0JfZlVwUTlteXFFT25vOEpfTG5hS1VKNG9xX0lTUXNXaXhBNTUya3NlY2pqdUwyZlV6XzJ3aFBUOWh0Z05XcURsQlNWTkRvYXJRb3JpXzZYVVJoVUFlejFMWC1FWGhKaFktLXN4ZnlmdUdZeUNwSTVUbVRqemltOGI1UTlYSzlrU0xGcm1aM29hWmV3bEE?oc=5
 - **Doctors Used AI To Diagnose 18 Kids With Rare Diseases That Puzzled Them - NewsRadio 570 WKBN** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUoxNm92LXRiZy1HN3FOb2JIbGRBWkF1Y2piaHlzYTF6WlpQbTh0RlQtWWhLSUM5dHJLSzJHeDl4cERkeWQtWTE0Y001NDByNUlnLWVHS1NETzZuUTFuWHRkaVhKNnRPTnNiOE1SLW1zcmlSN3cyaXNidlBYTEt4VDJxRTFEcENGOVJqZlNCeEtFeG1xQ1MtZU9ad0NHNEFKM2I3MG9pVGptQWplaEY0dkIwOHZiUWhNTUtn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2875
+- Total stories tracked: 2857
 - Most active topic: openai
 - Busiest category: AI General News
 
