@@ -21,8 +21,8 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPWF9CbTZ3NS1NWVYxNDZNaXlVSGlCbGkzTkRNV1dXa0ZJcy1ERS1Qb0l4eXcwVVFYNGptZ2JDSmpzN19XMFY4ZmxGUjBXV1BVd2Y0a19POWtzVGpRRndkN3hhSzFmOUFZeGNvbGVTaGJ6RkN5Smt5OExqSkxzMzZHWXF1ZTVzOUVoNHRsU2NickZYczZwdDVjY3o5UnFpLWxBblpkX0VtWFBtOVhIakt0SFJtVQ?oc=5
 7. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFdsc3NfM3BHX29LTkNsbE41NTY3WFBXSUZhZzB1Y2ZDOGFraUdFVkdFelVtMmxfM1FCLXN1SmtHSUVzZTI5bkY3NEJIOVpXTXVzSTg3eVZSTU8tbXJOYWFnbDRDempMeGRIU0dPV3QyRGdWdlRoUFZ5Q19QRzZneHNqWFhTci1DQjBIVHJzdzdUTzRkY2ZvNHpHclYwaW1VTXFmX0x1UDM3NmhlakgxZGtLZw?oc=5
-8. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
-   https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
+8. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
+   https://news.google.com/rss/articles/CBMikwFBVV95cUxPajQ4eGZOTFFXc2pTcWc2Mk5UallGWTJ0TUZKZ19YcGNOQmlfMmlIZzdxamxTbkh3WXNBa05vRzQ4bnZfV3g1UjlXR1lXSW9RWGVSQXZFZlFDeWpuR0VLYzVUeFphX21RRTNhSVlXMmdZVG9jOXFDdTN4YjFDamNKRUJKNFRVVjA0SHVNZWI4XzRzTjQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 133
@@ -31,15 +31,15 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
 3. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 83
    https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
-4. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 66
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGhNVXRvX1B5M1RZM1E2YTR5OF9rb3lTT2dQRGp4bmx0MXBXSzhtRnhXTGdoQTY0QTU5a0p1bkRaOF9uQWZEbHgweEs2VUpzbXZsbExDdF9aN3VKTlR6WDdZWVEyUTI3OFMwTXp6SlQtb0l4ZmVIZEpBV0xxTFVjWUcxQ3owV1UybmU3SjJqNXVxQlHSAZgBQVVfeXFMUFZnOFpHeDc3cVl3SmFERS0wN2oxR21JREl2LWo5VUtJdFRqRFVQZWNzczFrZC12d0JMVE9kVGcwMldsdDRJQmt1aGRrbHg2T3RybGdCQmpyMVNUT2Vqc1dleXRuX1VpUmVWMHdJOEJNNUkwQjVxOHJjMHRYUy1lMGdXUkk1d0tsLWFTVmZaLVNmTlRMRkU5VHc?oc=5
-5. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 63
+4. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 63
    https://newschannel9.com/news/spotlight-on-america/as-ai-fuels-a-data-center-boom-communities-across-america-are-pushing-back
-6. **Meta is now designing its own, cheaper AI smart glasses** — scrippsnews — Score 63
+5. **Meta is now designing its own, cheaper AI smart glasses** — scrippsnews — Score 63
    https://www.scrippsnews.com/us-news/meta-is-now-designing-its-own-cheaper-ai-smart-glasses
+6. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
+   https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGhNVXRvX1B5M1RZM1E2YTR5OF9rb3lTT2dQRGp4bmx0MXBXSzhtRnhXTGdoQTY0QTU5a0p1bkRaOF9uQWZEbHgweEs2VUpzbXZsbExDdF9aN3VKTlR6WDdZWVEyUTI3OFMwTXp6SlQtb0l4ZmVIZEpBV0xxTFVjWUcxQ3owV1UybmU3SjJqNXVxQlHSAZgBQVVfeXFMUFZnOFpHeDc3cVl3SmFERS0wN2oxR21JREl2LWo5VUtJdFRqRFVQZWNzczFrZC12d0JMVE9kVGcwMldsdDRJQmt1aGRrbHg2T3RybGdCQmpyMVNUT2Vqc1dleXRuX1VpUmVWMHdJOEJNNUkwQjVxOHJjMHRYUy1lMGdXUkk1d0tsLWFTVmZaLVNmTlRMRkU5VHc?oc=5
 7. **Quantum AI Microcities Project Launch First Global AGI Communities Clinical Trial Network (Veterans First for America)** — financialpost — Score 61
    https://financialpost.com/globe-newswire/quantum-ai-microcities-project-launch-first-global-agi-communities-clinical-trial-network-veterans-first-for-america
-8. **Anthropic Accuses Alibaba of ‘Illicitly’ Accessing Its AI Models - Bloomberg** — AI in Coding — Score 60
+8. **Anthropic Accuses Alibaba of ‘Illicitly’ Accessing Its AI Models - Bloomberg** — AI in Coding — Score 57
    https://news.google.com/rss/articles/CBMiswFBVV95cUxNY1p0MDZhY19QcWdERmJDZzlJbWctaXlFbFVZcjRseEI3N0UwNDVyOGZubGpBcmlqN2lLNzZjajA0N1pReXViLWdNbzB2N3VqRFB0dGRjYXRiaGhwT25seXkxNF9RNWMtOHBoQWZHMW9FZGtwMnVZekdRdVBJMG5fcEkxNWNQcDlSSFRFMEdUM1lUX1RLQmE5a0N1SVNCSC1HVGtmb2NwQmVCT2dJMjhZazJvQQ?oc=5
 9. **Trump Administration Asks OpenAI to Stagger Release of New Model Over Security Concerns - The Information** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPSmFRRDNqUHdqamVDUnVYSFNpZWZ1aVYxWjBhaG9DX1ZBTHRSTGhqUzFiMDY1N0VTTTFLaG5OWGFoRmU2WHNaekVGUjRkeEFLcHBISzhvZldmcUx6MjhRNEZFWGNFU1dOdW1vcEVmS0RYamhQYWNLQ1R2TGNRSHpidFEweWV6azNpRnI1QXN0bjJnYTU0czh6Q1J6dTJVRzBvOU9LWFlhbTlSWHd2aWlNLU9yaFJ4d1k?oc=5
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3136
+- Total stories tracked: 3179
 - Most active topic: openai
 - Busiest category: AI General News
 
