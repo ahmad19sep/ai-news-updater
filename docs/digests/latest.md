@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3091
+- Total stories tracked: 3136
 - Most active topic: openai
 - Busiest category: AI General News
 
