@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:48:54.345710+00:00",
+  "generated_at": "2026-06-26T20:12:12.718662+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 23,
+      "reddit": 40,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,183 +22,201 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "A new version of ChatGPT that can generate images.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "note": "ChatGPT has an affiliate program for its images feature."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Create Art with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Visual Content Creation",
+        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide"
       ]
     },
     {
-      "name": "KimiWork AI Tool",
+      "name": "GPT-5.6",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "reddit",
+        "hackernews"
       ],
-      "what_it_is": "KimiWork is an AI tool that offers a 200K token limit and 300 #kimiwork.",
-      "audience_angle": "You can use KimiWork to automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how KimiWork can help you streamline your workflow and boost efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "KimiWork has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "KimiWork Review: Is it the Best AI Tool for Your Business?",
-        "How to Use KimiWork to Automate Tasks and Save Time",
-        "KimiWork Tutorial: A Beginner's Guide to Getting Started"
-      ]
-    },
-    {
-      "name": "Free AI Courses",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Free AI courses are available online to help you learn AI skills.",
-      "audience_angle": "You can take free AI courses to improve your career prospects and increase your earning potential.",
-      "linkedin_angle": "Invest in your career by taking free AI courses and stay ahead of the competition.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Free AI courses are often offered by universities and online platforms"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=PSKYYiLfeLg",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "Top 5 Free AI Courses to Take in 2026",
-        "How to Learn AI Skills with Free Online Courses",
-        "Free AI Courses: A Guide to Getting Started"
-      ]
-    },
-    {
-      "name": "AI Video Generators",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generators are tools that use AI to create videos.",
-      "audience_angle": "You can use AI video generators to create stunning videos without any video editing experience.",
-      "linkedin_angle": "Discover how AI video generators can help you create engaging content for your business.",
+      "what_it_is": "The latest version of the GPT model, offering improved performance and capabilities.",
+      "audience_angle": "Discover how GPT-5.6 can revolutionize your work and daily life.",
+      "linkedin_angle": "Learn how GPT-5.6 can enhance your productivity and career prospects.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generators often have affiliate programs"
+        "note": "GPT-5.6 has an affiliate program for its users."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VK-mgoD_4Uw",
-          "signal": "0"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uge8y9/gpt56_officially_previewed_beats_mythos_5/",
+          "signal": "GPT-5.6 Officially Previewed: Beats Mythos 5"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+          "signal": "U.S. government will decide who gets to use GPT-5.6"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generators",
-        "Top 3 AI Video Generators for Your Business",
-        "AI Video Generators: A Beginner's Guide"
+        "What's New in GPT-5.6: Features and Capabilities",
+        "GPT-5.6: The Future of AI-Powered Productivity",
+        "How to Get Started with GPT-5.6: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
+      "name": "MidJourney",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT Agent Mode is a feature that allows you to use ChatGPT as an agent.",
-      "audience_angle": "You can use ChatGPT Agent Mode to automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how ChatGPT Agent Mode can help you streamline your workflow and boost efficiency.",
+      "what_it_is": "An AI-powered tool for generating images and art.",
+      "audience_angle": "Unleash your creativity with MidJourney's AI-powered image generation.",
+      "linkedin_angle": "Explore how MidJourney can enhance your visual content creation and design skills.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Agent Mode has an affiliate program"
+        "note": "MidJourney has an affiliate program for its users."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "0"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1ufq09t/once_a_civilization_153/",
+          "signal": "Once a Civilization #153"
         }
       ],
       "content_ideas": [
-        "ChatGPT Agent Mode: A Step-by-Step Guide",
-        "How to Use ChatGPT Agent Mode to Automate Tasks",
-        "ChatGPT Agent Mode Review: Is it Worth Using?"
+        "Getting Started with MidJourney: A Beginner's Guide",
+        "MidJourney: The Ultimate Tool for AI-Powered Art and Design",
+        "How to Create Stunning Images with MidJourney"
       ]
     },
     {
-      "name": "AI for Trading",
-      "category": "use_case",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "AI can be used for trading to predict market trends and make informed decisions.",
-      "audience_angle": "You can use AI to improve your trading skills and increase your profits.",
-      "linkedin_angle": "Discover how AI can help you make data-driven trading decisions and stay ahead of the competition.",
+      "what_it_is": "An AI-powered tool for generating text and content.",
+      "audience_angle": "Discover how Claude can help you create high-quality content and text.",
+      "linkedin_angle": "Learn how Claude can enhance your writing and content creation skills.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI trading tools often have affiliate programs"
+        "note": "Claude has an affiliate program for its users."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=2xuFcmUAQUc",
+          "signal": "This Claude Code Plugin Writes 94% Less Code (ponytail)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/workweave/router",
+          "signal": "Show HN: Smart model routing directly in Claude, Codex and Cursor"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Trading: A Beginner's Guide",
-        "Top 3 AI Trading Tools for Your Business",
-        "AI for Trading: A Review of the Best Tools"
+        "Getting Started with Claude: A Beginner's Guide",
+        "Claude: The Ultimate Tool for AI-Powered Content Creation",
+        "How to Use Claude to Generate High-Quality Text and Content"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "The use of AI to generate videos and video content.",
+      "audience_angle": "Discover how AI video generation can help you create stunning videos and content.",
+      "linkedin_angle": "Explore how AI video generation can enhance your video marketing and content creation skills.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI video generation tools often have affiliate programs for their users."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5MT3AVsJMYo",
+          "signal": "How to Create Viral Finance Videos Using AI | Free AI Tools + Complete YouTube Tutorial (2026)"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with AI Video Generation: A Beginner's Guide",
+        "AI Video Generation: The Future of Video Content Creation",
+        "How to Use AI to Generate Stunning Videos and Content"
+      ]
+    },
+    {
+      "name": "AI Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "The use of AI to trade stocks and other financial instruments.",
+      "audience_angle": "Discover how AI trading can help you make informed investment decisions and maximize your returns.",
+      "linkedin_angle": "Explore how AI trading can enhance your investment skills and career prospects.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI trading tools often have affiliate programs for their users."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UgWQtQ3MEVE",
+          "signal": "Claude + IBKR API: Complete AI Trading Bot Guide"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+          "signal": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with AI Trading: A Beginner's Guide",
+        "AI Trading: The Future of Investment and Finance",
+        "How to Use AI to Make Informed Investment Decisions and Maximize Your Returns"
       ]
     }
   ],
@@ -210,117 +228,160 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "A new version of ChatGPT that can generate images.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "note": "ChatGPT has an affiliate program for its images feature."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Create Art with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Visual Content Creation",
+        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
+      "name": "MidJourney",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT Agent Mode is a feature that allows you to use ChatGPT as an agent.",
-      "audience_angle": "You can use ChatGPT Agent Mode to automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how ChatGPT Agent Mode can help you streamline your workflow and boost efficiency.",
+      "what_it_is": "An AI-powered tool for generating images and art.",
+      "audience_angle": "Unleash your creativity with MidJourney's AI-powered image generation.",
+      "linkedin_angle": "Explore how MidJourney can enhance your visual content creation and design skills.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Agent Mode has an affiliate program"
+        "note": "MidJourney has an affiliate program for its users."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "0"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1ufq09t/once_a_civilization_153/",
+          "signal": "Once a Civilization #153"
         }
       ],
       "content_ideas": [
-        "ChatGPT Agent Mode: A Step-by-Step Guide",
-        "How to Use ChatGPT Agent Mode to Automate Tasks",
-        "ChatGPT Agent Mode Review: Is it Worth Using?"
+        "Getting Started with MidJourney: A Beginner's Guide",
+        "MidJourney: The Ultimate Tool for AI-Powered Art and Design",
+        "How to Create Stunning Images with MidJourney"
       ]
     },
     {
-      "name": "KimiWork AI Tool",
+      "name": "GPT-5.6",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "reddit",
+        "hackernews"
       ],
-      "what_it_is": "KimiWork is an AI tool that offers a 200K token limit and 300 #kimiwork.",
-      "audience_angle": "You can use KimiWork to automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how KimiWork can help you streamline your workflow and boost efficiency.",
-      "local_relevance": 6,
+      "what_it_is": "The latest version of the GPT model, offering improved performance and capabilities.",
+      "audience_angle": "Discover how GPT-5.6 can revolutionize your work and daily life.",
+      "linkedin_angle": "Learn how GPT-5.6 can enhance your productivity and career prospects.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "KimiWork has an affiliate program"
+        "note": "GPT-5.6 has an affiliate program for its users."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uge8y9/gpt56_officially_previewed_beats_mythos_5/",
+          "signal": "GPT-5.6 Officially Previewed: Beats Mythos 5"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+          "signal": "U.S. government will decide who gets to use GPT-5.6"
+        }
+      ],
+      "content_ideas": [
+        "What's New in GPT-5.6: Features and Capabilities",
+        "GPT-5.6: The Future of AI-Powered Productivity",
+        "How to Get Started with GPT-5.6: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "An AI-powered tool for generating text and content.",
+      "audience_angle": "Discover how Claude can help you create high-quality content and text.",
+      "linkedin_angle": "Learn how Claude can enhance your writing and content creation skills.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude has an affiliate program for its users."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=2xuFcmUAQUc",
+          "signal": "This Claude Code Plugin Writes 94% Less Code (ponytail)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/workweave/router",
+          "signal": "Show HN: Smart model routing directly in Claude, Codex and Cursor"
         }
       ],
       "content_ideas": [
-        "KimiWork Review: Is it the Best AI Tool for Your Business?",
-        "How to Use KimiWork to Automate Tasks and Save Time",
-        "KimiWork Tutorial: A Beginner's Guide to Getting Started"
+        "Getting Started with Claude: A Beginner's Guide",
+        "Claude: The Ultimate Tool for AI-Powered Content Creation",
+        "How to Use Claude to Generate High-Quality Text and Content"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ug1pim/motivation/"
         }
       ],
-      "content_opportunity": "How to bypass ChatGPT usage limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits: Tips and Workarounds"
     },
     {
-      "problem": "AI model costs",
-      "who_affected": "Businesses using AI models",
-      "signal_strength": 9,
+      "problem": "AI model bias and lack of transparency",
+      "who_affected": "AI users and developers",
+      "signal_strength": 7,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://aditya.patadia.org/p/ai-and-cloud-costs"
+          "url": "https://trakkr.ai/bias"
         }
       ],
-      "content_opportunity": "How to reduce AI model costs"
+      "content_opportunity": "Understanding and Addressing AI Model Bias: A Guide for Developers and Users"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
