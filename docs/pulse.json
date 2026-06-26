@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T04:41:45.377610+00:00",
+  "generated_at": "2026-06-26T09:53:05.170607+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,153 +9,99 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on user input.",
-      "audience_angle": "Create stunning images with just a few clicks using ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate text, and even create art.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "ChatGPT has an affiliate program for developers and businesses."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+          "signal": "OpenAI will delay GPT-5.6 after Trump administration request"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide",
-        "Using ChatGPT Images 2.0 for Social Media Content Creation"
+        "How to Use ChatGPT for Business Automation",
+        "ChatGPT Tutorial: Generating Text and Art",
+        "The Future of ChatGPT: What to Expect"
       ]
     },
     {
-      "name": "KimiWork AI Tool",
-      "category": "tool_launch",
+      "name": "AI Video Generation",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "KimiWork is an AI tool that offers a 200K token limit and 300+ features.",
-      "audience_angle": "Unlock the full potential of AI with KimiWork's extensive features and token limit.",
-      "linkedin_angle": "Explore how KimiWork can streamline your workflow and boost productivity.",
+      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create stunning videos for social media and marketing.",
+      "linkedin_angle": "Learn how to leverage AI video generation for business marketing and advertising.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "KimiWork has an affiliate program for users who promote their tool."
+        "note": "AI video generation tools often have affiliate programs for creators and marketers."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
-          "signal": "KimiWork launches AI tool with 200K token limit and 300+ features"
+          "url": "https://www.youtube.com/watch?v=1U8dJ94QFNc",
+          "signal": "New top local AI image generator is here! Already uncensored"
         }
       ],
       "content_ideas": [
-        "KimiWork AI Tool Review: Is it Worth the Hype?",
-        "How to Get the Most Out of KimiWork's 200K Token Limit",
-        "Using KimiWork for Content Creation: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "Google's Secret AI Tools",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Google has released a set of secret AI tools that can replace paid AI tools.",
-      "audience_angle": "Discover the power of Google's secret AI tools and how they can benefit your workflow.",
-      "linkedin_angle": "Learn how Google's secret AI tools can help you stay ahead of the competition.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Google's secret AI tools are free to use and do not have an affiliate program."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=RIPxwxqZhVI",
-          "signal": "Google's SECRET 8 AI Tools Just REPLACED Every Paid AI Tool"
-        }
-      ],
-      "content_ideas": [
-        "Google's Secret AI Tools: A Comprehensive Review",
-        "How to Use Google's Secret AI Tools for Content Creation",
-        "The Benefits of Using Google's Secret AI Tools for Business"
-      ]
-    },
-    {
-      "name": "AI Video Creation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video creation involves using AI tools to generate videos.",
-      "audience_angle": "Create stunning videos with ease using AI video creation tools.",
-      "linkedin_angle": "Explore the potential of AI video creation for your business or personal brand.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI video creation tools have affiliate programs for users who promote their tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5MT3AVsJMYo",
-          "signal": "How to Create Viral Finance Videos Using AI"
-        }
-      ],
-      "content_ideas": [
-        "AI Video Creation: A Step-by-Step Guide",
-        "The Best AI Video Creation Tools for Beginners",
-        "Using AI Video Creation for Social Media Marketing"
+        "How to Create Stunning AI-Generated Videos",
+        "AI Video Generation for Business Marketing",
+        "The Best AI Video Generation Tools for Creators"
       ]
     },
     {
       "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Claude AI is a conversational AI tool that offers a range of features.",
-      "audience_angle": "Discover the capabilities of Claude AI and how it can benefit your workflow.",
-      "linkedin_angle": "Explore the potential of Claude AI for your business or personal brand.",
+      "what_it_is": "Claude AI is a conversational AI model that can understand and respond to human input.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate text, and even create art.",
+      "linkedin_angle": "Learn how to leverage Claude AI for business automation and productivity.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for users who promote their tool."
+        "note": "Claude AI has an affiliate program for developers and businesses."
       },
       "sources": [
         {
@@ -165,154 +111,69 @@
         }
       ],
       "content_ideas": [
-        "Claude AI Review: Is it Worth the Investment?",
-        "How to Use Claude AI for Content Creation",
-        "The Benefits of Using Claude AI for Business"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI for trading involves using AI tools to generate trading signals and automate trading decisions.",
-      "audience_angle": "Use AI to take your trading to the next level and maximize your profits.",
-      "linkedin_angle": "Explore the potential of AI for trading and how it can benefit your investment strategy.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI trading tools have affiliate programs for users who promote their tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=fdGCGXcDByk",
-          "signal": "Finally FULL Portfolio Trade Automation with AI - Claude MCP Routines"
-        }
-      ],
-      "content_ideas": [
-        "AI for Trading: A Beginner's Guide",
-        "The Best AI Trading Tools for Beginners",
-        "Using AI for Trading: Tips and Tricks"
+        "How to Use Claude AI for Business Automation",
+        "Claude AI Tutorial: Generating Text and Art",
+        "The Future of Claude AI: What to Expect"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on user input.",
-      "audience_angle": "Create stunning images with just a few clicks using ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate text, and even create art.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "ChatGPT has an affiliate program for developers and businesses."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide",
-        "Using ChatGPT Images 2.0 for Social Media Content Creation"
-      ]
-    },
-    {
-      "name": "Google's Secret AI Tools",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Google has released a set of secret AI tools that can replace paid AI tools.",
-      "audience_angle": "Discover the power of Google's secret AI tools and how they can benefit your workflow.",
-      "linkedin_angle": "Learn how Google's secret AI tools can help you stay ahead of the competition.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Google's secret AI tools are free to use and do not have an affiliate program."
-      },
-      "sources": [
+        },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=RIPxwxqZhVI",
-          "signal": "Google's SECRET 8 AI Tools Just REPLACED Every Paid AI Tool"
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+          "signal": "OpenAI will delay GPT-5.6 after Trump administration request"
         }
       ],
       "content_ideas": [
-        "Google's Secret AI Tools: A Comprehensive Review",
-        "How to Use Google's Secret AI Tools for Content Creation",
-        "The Benefits of Using Google's Secret AI Tools for Business"
-      ]
-    },
-    {
-      "name": "KimiWork AI Tool",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "KimiWork is an AI tool that offers a 200K token limit and 300+ features.",
-      "audience_angle": "Unlock the full potential of AI with KimiWork's extensive features and token limit.",
-      "linkedin_angle": "Explore how KimiWork can streamline your workflow and boost productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "KimiWork has an affiliate program for users who promote their tool."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
-          "signal": "KimiWork launches AI tool with 200K token limit and 300+ features"
-        }
-      ],
-      "content_ideas": [
-        "KimiWork AI Tool Review: Is it Worth the Hype?",
-        "How to Get the Most Out of KimiWork's 200K Token Limit",
-        "Using KimiWork for Content Creation: Tips and Tricks"
+        "How to Use ChatGPT for Business Automation",
+        "ChatGPT Tutorial: Generating Text and Art",
+        "The Future of ChatGPT: What to Expect"
       ]
     },
     {
       "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Claude AI is a conversational AI tool that offers a range of features.",
-      "audience_angle": "Discover the capabilities of Claude AI and how it can benefit your workflow.",
-      "linkedin_angle": "Explore the potential of Claude AI for your business or personal brand.",
+      "what_it_is": "Claude AI is a conversational AI model that can understand and respond to human input.",
+      "audience_angle": "You can use Claude AI to automate tasks, generate text, and even create art.",
+      "linkedin_angle": "Learn how to leverage Claude AI for business automation and productivity.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for users who promote their tool."
+        "note": "Claude AI has an affiliate program for developers and businesses."
       },
       "sources": [
         {
@@ -322,25 +183,25 @@
         }
       ],
       "content_ideas": [
-        "Claude AI Review: Is it Worth the Investment?",
-        "How to Use Claude AI for Content Creation",
-        "The Benefits of Using Claude AI for Business"
+        "How to Use Claude AI for Business Automation",
+        "Claude AI Tutorial: Generating Text and Art",
+        "The Future of Claude AI: What to Expect"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "Claude AI usage limits",
-      "who_affected": "Claude AI users",
-      "signal_strength": 6,
+      "who_affected": "Developers and businesses",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
         }
       ],
-      "content_opportunity": "Claude AI usage limits: How to get the most out of your subscription"
+      "content_opportunity": "How to Overcome Claude AI Usage Limits for Business Automation"
     }
   ],
-  "tool_of_week_candidate": "KimiWork AI Tool"
+  "tool_of_week_candidate": "ChatGPT"
 }
