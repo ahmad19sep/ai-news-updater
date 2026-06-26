@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T09:53:05.170607+00:00",
+  "generated_at": "2026-06-26T14:48:54.345710+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,199 +9,319 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Updates",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate text, and even create art.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-          "signal": "OpenAI will delay GPT-5.6 after Trump administration request"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Business Automation",
-        "ChatGPT Tutorial: Generating Text and Art",
-        "The Future of ChatGPT: What to Expect"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "KimiWork AI Tool",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "KimiWork is an AI tool that offers a 200K token limit and 300 #kimiwork.",
+      "audience_angle": "You can use KimiWork to automate tasks and increase productivity.",
+      "linkedin_angle": "Learn how KimiWork can help you streamline your workflow and boost efficiency.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "KimiWork has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "KimiWork Review: Is it the Best AI Tool for Your Business?",
+        "How to Use KimiWork to Automate Tasks and Save Time",
+        "KimiWork Tutorial: A Beginner's Guide to Getting Started"
+      ]
+    },
+    {
+      "name": "Free AI Courses",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Free AI courses are available online to help you learn AI skills.",
+      "audience_angle": "You can take free AI courses to improve your career prospects and increase your earning potential.",
+      "linkedin_angle": "Invest in your career by taking free AI courses and stay ahead of the competition.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Free AI courses are often offered by universities and online platforms"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PSKYYiLfeLg",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "Top 5 Free AI Courses to Take in 2026",
+        "How to Learn AI Skills with Free Online Courses",
+        "Free AI Courses: A Guide to Getting Started"
+      ]
+    },
+    {
+      "name": "AI Video Generators",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create stunning videos for social media and marketing.",
-      "linkedin_angle": "Learn how to leverage AI video generation for business marketing and advertising.",
+      "what_it_is": "AI video generators are tools that use AI to create videos.",
+      "audience_angle": "You can use AI video generators to create stunning videos without any video editing experience.",
+      "linkedin_angle": "Discover how AI video generators can help you create engaging content for your business.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for creators and marketers."
+        "note": "AI video generators often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1U8dJ94QFNc",
-          "signal": "New top local AI image generator is here! Already uncensored"
+          "url": "https://www.youtube.com/watch?v=VK-mgoD_4Uw",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning AI-Generated Videos",
-        "AI Video Generation for Business Marketing",
-        "The Best AI Video Generation Tools for Creators"
+        "How to Create Stunning Videos with AI Video Generators",
+        "Top 3 AI Video Generators for Your Business",
+        "AI Video Generators: A Beginner's Guide"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "ChatGPT Agent Mode",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "Claude AI is a conversational AI model that can understand and respond to human input.",
-      "audience_angle": "You can use Claude AI to automate tasks, generate text, and even create art.",
-      "linkedin_angle": "Learn how to leverage Claude AI for business automation and productivity.",
+      "what_it_is": "ChatGPT Agent Mode is a feature that allows you to use ChatGPT as an agent.",
+      "audience_angle": "You can use ChatGPT Agent Mode to automate tasks and increase productivity.",
+      "linkedin_angle": "Learn how ChatGPT Agent Mode can help you streamline your workflow and boost efficiency.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for developers and businesses."
+        "note": "ChatGPT Agent Mode has an affiliate program"
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
-          "signal": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Business Automation",
-        "Claude AI Tutorial: Generating Text and Art",
-        "The Future of Claude AI: What to Expect"
+        "ChatGPT Agent Mode: A Step-by-Step Guide",
+        "How to Use ChatGPT Agent Mode to Automate Tasks",
+        "ChatGPT Agent Mode Review: Is it Worth Using?"
+      ]
+    },
+    {
+      "name": "AI for Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used for trading to predict market trends and make informed decisions.",
+      "audience_angle": "You can use AI to improve your trading skills and increase your profits.",
+      "linkedin_angle": "Discover how AI can help you make data-driven trading decisions and stay ahead of the competition.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI trading tools often have affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI for Trading: A Beginner's Guide",
+        "Top 3 AI Trading Tools for Your Business",
+        "AI for Trading: A Review of the Best Tools"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Updates",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate text, and even create art.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-          "signal": "OpenAI will delay GPT-5.6 after Trump administration request"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Business Automation",
-        "ChatGPT Tutorial: Generating Text and Art",
-        "The Future of ChatGPT: What to Expect"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "ChatGPT Agent Mode",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "Claude AI is a conversational AI model that can understand and respond to human input.",
-      "audience_angle": "You can use Claude AI to automate tasks, generate text, and even create art.",
-      "linkedin_angle": "Learn how to leverage Claude AI for business automation and productivity.",
+      "what_it_is": "ChatGPT Agent Mode is a feature that allows you to use ChatGPT as an agent.",
+      "audience_angle": "You can use ChatGPT Agent Mode to automate tasks and increase productivity.",
+      "linkedin_angle": "Learn how ChatGPT Agent Mode can help you streamline your workflow and boost efficiency.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for developers and businesses."
+        "note": "ChatGPT Agent Mode has an affiliate program"
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
-          "signal": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Business Automation",
-        "Claude AI Tutorial: Generating Text and Art",
-        "The Future of Claude AI: What to Expect"
+        "ChatGPT Agent Mode: A Step-by-Step Guide",
+        "How to Use ChatGPT Agent Mode to Automate Tasks",
+        "ChatGPT Agent Mode Review: Is it Worth Using?"
+      ]
+    },
+    {
+      "name": "KimiWork AI Tool",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "KimiWork is an AI tool that offers a 200K token limit and 300 #kimiwork.",
+      "audience_angle": "You can use KimiWork to automate tasks and increase productivity.",
+      "linkedin_angle": "Learn how KimiWork can help you streamline your workflow and boost efficiency.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "KimiWork has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S2sWaVWjO2E",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "KimiWork Review: Is it the Best AI Tool for Your Business?",
+        "How to Use KimiWork to Automate Tasks and Save Time",
+        "KimiWork Tutorial: A Beginner's Guide to Getting Started"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude AI usage limits",
-      "who_affected": "Developers and businesses",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/"
         }
       ],
-      "content_opportunity": "How to Overcome Claude AI Usage Limits for Business Automation"
+      "content_opportunity": "How to bypass ChatGPT usage limits"
+    },
+    {
+      "problem": "AI model costs",
+      "who_affected": "Businesses using AI models",
+      "signal_strength": 9,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://aditya.patadia.org/p/ai-and-cloud-costs"
+        }
+      ],
+      "content_opportunity": "How to reduce AI model costs"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
