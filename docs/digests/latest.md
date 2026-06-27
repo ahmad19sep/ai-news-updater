@@ -29,7 +29,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/
 2. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 126
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR0ZVZjZaYnh4NS1FVnFMd0wxZFQ1Wk13ZUdYXzlRZ2NiTmxvNUx1NURsV2kyTlJQTWVCVTJiZkVyZzJtSEc2ZXNLX3daUzBLUmdDZ1Q2X1ZCQjVreU5MaTFKTEo0SHMyMS1XMmVSOHRqSFJfM2d0U0JyYWJHaWVKbHNCTWdNSWhESk9mY1c5N0NzenFhSEVvb0tiMnJFRHNGZjFHMG95dHFIcTZYMVY3cS1IZ2M0WmhhLVlNd2w5M3o5WVhhWFhZWEdB?oc=5
-3. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 106
+3. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 116
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZLZS1vZGp0VkpOUWJpYWtFUTJldjFtVkpKT19nbUpGS2FaWEJxY0Q0ZU9vWC1SQm9vOUJaM210a09JU1FYekNiamdFOG5Kd3pWU1YxdS1JQ0Y5elBweWNkaWZKTUhneG9tUG03WHpWc1dtT0pkRk10LTg0T19tZThqQ2R3cVhlNE1wWHdMTFQyRjdWV0pKcWFISG81WnRKNFdVRkpoRnQtVVF2X1YxU0dzNnNJZTNNQnVFcFplRlN5OGdTNjFDazdGLTlrQm5CeUZCWTFsMHI?oc=5
 4. **Top developers are pivoting from chatbots to physical AI - Northeast Mississippi Daily Journal** — AI in Coding — Score 93
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **MedServe CEO warns against AI replacing doctors - Let's Data Science** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPajQ4eGZOTFFXc2pTcWc2Mk5UallGWTJ0TUZKZ19YcGNOQmlfMmlIZzdxamxTbkh3WXNBa05vRzQ4bnZfV3g1UjlXR1lXSW9RWGVSQXZFZlFDeWpuR0VLYzVUeFphX21RRTNhSVlXMmdZVG9jOXFDdTN4YjFDamNKRUJKNFRVVjA0SHVNZWI4XzRzTjQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3243
+- Total stories tracked: 3270
 - Most active topic: openai
 - Busiest category: AI General News
 
