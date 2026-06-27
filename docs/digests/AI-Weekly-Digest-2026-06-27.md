@@ -27,14 +27,14 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 133
    https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/
-2. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 106
+2. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 116
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR0ZVZjZaYnh4NS1FVnFMd0wxZFQ1Wk13ZUdYXzlRZ2NiTmxvNUx1NURsV2kyTlJQTWVCVTJiZkVyZzJtSEc2ZXNLX3daUzBLUmdDZ1Q2X1ZCQjVreU5MaTFKTEo0SHMyMS1XMmVSOHRqSFJfM2d0U0JyYWJHaWVKbHNCTWdNSWhESk9mY1c5N0NzenFhSEVvb0tiMnJFRHNGZjFHMG95dHFIcTZYMVY3cS1IZ2M0WmhhLVlNd2w5M3o5WVhhWFhZWEdB?oc=5
 3. **Top developers are pivoting from chatbots to physical AI - Northeast Mississippi Daily Journal** — AI in Coding — Score 93
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
-4. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 83
-   https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
-5. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 76
+4. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 86
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZLZS1vZGp0VkpOUWJpYWtFUTJldjFtVkpKT19nbUpGS2FaWEJxY0Q0ZU9vWC1SQm9vOUJaM210a09JU1FYekNiamdFOG5Kd3pWU1YxdS1JQ0Y5elBweWNkaWZKTUhneG9tUG03WHpWc1dtT0pkRk10LTg0T19tZThqQ2R3cVhlNE1wWHdMTFQyRjdWV0pKcWFISG81WnRKNFdVRkpoRnQtVVF2X1YxU0dzNnNJZTNNQnVFcFplRlN5OGdTNjFDazdGLTlrQm5CeUZCWTFsMHI?oc=5
+5. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 83
+   https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
 6. **The AI build-out is driving prices higher for consumers** — kutv — Score 66
    https://kutv.com/news/nation-world/ai-spending-surge-adds-new-inflation-pressure-computing-chips-electronics-data-center-construction-electricity
 7. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 63
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjNvOEhZc3NJWThkbGowSkxTempUOUFqeDhobXJxYjUzRFFYWkh6Y0hHbG5EakpDbDNUWkJ0V1RYSFBWMFJSRzJ4UnphdDlHRmdKb0E3VnBoSzdlTXVvWndrYjNZb3J0Smx2WnNKLXpaemVpWUhTWlZsalRaQkxlRmxQM2tTUmFVZFRUdWttZ18zVjBZWFJ3cWRuYTNHXzM5RGU4YklXd1BadVpu?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3212
+- Total stories tracked: 3221
 - Most active topic: openai
 - Busiest category: AI General News
 
