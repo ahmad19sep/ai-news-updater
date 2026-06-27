@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T09:06:25.775604+00:00",
+  "generated_at": "2026-06-27T14:08:03.166180+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 23,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,27 +23,27 @@
         "reddit"
       ],
       "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
-      "linkedin_angle": "Stay ahead of the curve with the latest AI image generation tools.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for your business",
-        "The future of image generation with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 vs other image generation tools"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Unlocking the Potential of ChatGPT Images 2.0 for Visual Content",
+        "A Beginner's Guide to Using ChatGPT Images 2.0"
       ]
     },
     {
@@ -54,173 +54,163 @@
         "reddit",
         "hackernews"
       ],
-      "what_it_is": "GPT-5.6 is the latest version of the GPT AI model.",
-      "audience_angle": "GPT-5.6 can help you with tasks such as writing and coding.",
-      "linkedin_angle": "GPT-5.6 is a game-changer for professionals who want to automate tasks.",
+      "what_it_is": "GPT-5.6 is a new AI model released by OpenAI.",
+      "audience_angle": "Discover the capabilities of the latest GPT-5.6 model and how it can benefit you.",
+      "linkedin_angle": "Learn how GPT-5.6 can revolutionize your workflow and increase productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-5.6 has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uge8y9/gpt56_officially_previewed_beats_mythos_5/",
-          "signal": "GPT-5.6 Officially Previewed: Beats Mythos 5"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugw2cz/sam_altman_unsure_about_gpt_56_release_outside_of/",
+          "signal": "37"
         },
         {
           "platform": "hackernews",
           "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
-          "signal": "U.S. government will decide who gets to use GPT-5.6"
+          "signal": "2244"
         }
       ],
       "content_ideas": [
-        "What's new in GPT-5.6",
-        "How to use GPT-5.6 for writing and coding",
-        "GPT-5.6 vs other AI models"
-      ]
-    },
-    {
-      "name": "MiniMax Code",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "MiniMax Code is a tool that uses AI to analyze legal documents.",
-      "audience_angle": "You can use MiniMax Code to analyze large documents quickly and accurately.",
-      "linkedin_angle": "MiniMax Code is a must-have tool for professionals who work with legal documents.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "MiniMax Code has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugo3yy/threw_800k_tokens_of_legal_docs_into_minimax_code/",
-          "signal": "threw 800k tokens of legal docs into MiniMax Code and it found a clause buried in page 312 that i missed twice manually"
-        }
-      ],
-      "content_ideas": [
-        "How to use MiniMax Code for legal document analysis",
-        "The benefits of using MiniMax Code for professionals",
-        "MiniMax Code vs other document analysis tools"
-      ]
-    },
-    {
-      "name": "Codex",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "Codex is a tool that uses AI to generate code.",
-      "audience_angle": "You can use Codex to generate code quickly and accurately.",
-      "linkedin_angle": "Codex is a game-changer for developers who want to automate coding tasks.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Codex has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugjumg/i_scraped_71_million_jobs_with_codex/",
-          "signal": "I scraped 7.1 million jobs with Codex"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/workweave/router",
-          "signal": "Show HN: Smart model routing directly in Claude, Codex and Cursor"
-        }
-      ],
-      "content_ideas": [
-        "How to use Codex for coding tasks",
-        "The benefits of using Codex for developers",
-        "Codex vs other code generation tools"
+        "What You Need to Know About GPT-5.6 and Its Capabilities",
+        "How GPT-5.6 Can Enhance Your Workflow and Increase Productivity",
+        "A Deep Dive into the Features and Benefits of GPT-5.6"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is the use of AI to generate videos.",
-      "audience_angle": "You can use AI video generation to create videos quickly and easily.",
-      "linkedin_angle": "AI video generation is a game-changer for marketers and creators.",
+      "what_it_is": "AI video generation is a technology that creates videos using artificial intelligence.",
+      "audience_angle": "Create stunning videos with the power of AI and take your content to the next level.",
+      "linkedin_angle": "Explore how AI video generation can enhance your marketing strategy and increase engagement.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Affiliate programs available for AI video generation tools"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=21VUT6zZsP0",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with AI Video Generation",
+        "The Future of Video Content: AI Video Generation and Its Applications",
+        "A Beginner's Guide to AI Video Generation and Its Tools"
+      ]
+    },
+    {
+      "name": "Mythos AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Mythos AI is a new AI model released by Anthropic.",
+      "audience_angle": "Discover the capabilities of Mythos AI and how it can benefit you.",
+      "linkedin_angle": "Learn how Mythos AI can revolutionize your workflow and increase productivity.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+          "signal": "1137"
+        }
+      ],
+      "content_ideas": [
+        "What You Need to Know About Mythos AI and Its Capabilities",
+        "How Mythos AI Can Enhance Your Workflow and Increase Productivity",
+        "A Deep Dive into the Features and Benefits of Mythos AI"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "AI agents are programs that use artificial intelligence to perform tasks.",
+      "audience_angle": "Discover how AI agents can automate tasks and increase productivity.",
+      "linkedin_angle": "Explore how AI agents can enhance your workflow and business operations.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools have affiliate programs"
+        "note": "Affiliate programs available for AI agent tools"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=PSKYYiLfeLg",
-          "signal": "Learn These 5 FREE AI Courses Before It's Too Late!"
+          "url": "https://www.youtube.com/watch?v=o8UbMLCEgbE",
+          "signal": "0"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5MT3AVsJMYo",
-          "signal": "How to Create Viral Finance Videos Using AI | Free AI Tools + Complete YouTube Tutorial (2026)"
+          "platform": "hackernews",
+          "url": "https://github.com/workweave/router",
+          "signal": "281"
         }
       ],
       "content_ideas": [
-        "How to use AI video generation for marketing",
-        "The benefits of using AI video generation for creators",
-        "AI video generation vs traditional video creation methods"
+        "How to Use AI Agents to Automate Tasks and Increase Productivity",
+        "The Future of Work: AI Agents and Their Applications",
+        "A Beginner's Guide to AI Agents and Their Tools"
       ]
     },
     {
-      "name": "AI for Trading",
-      "category": "use_case",
+      "name": "Claude Code",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI for trading is the use of AI to analyze and predict market trends.",
-      "audience_angle": "You can use AI for trading to make informed investment decisions.",
-      "linkedin_angle": "AI for trading is a game-changer for investors and traders.",
-      "local_relevance": 7,
+      "what_it_is": "Claude Code is a tool that generates code using AI.",
+      "audience_angle": "Create stunning code with the power of AI and take your development to the next level.",
+      "linkedin_angle": "Explore how Claude Code can enhance your development workflow and increase productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI for trading tools have affiliate programs"
+        "note": "Affiliate programs available for Claude Code"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HNrJ_tohFMU",
-          "signal": "The ONLY 7 Ways to Make Money with AI in 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nfVjFFsLLnA",
-          "signal": "How to Earn Money Using AI? Explained by Vyan Gandhi "
+          "url": "https://www.youtube.com/watch?v=iTY8Q449YNQ",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to use AI for trading",
-        "The benefits of using AI for trading",
-        "AI for trading vs traditional trading methods"
+        "How to Create Stunning Code with Claude Code",
+        "The Future of Development: Claude Code and Its Applications",
+        "A Beginner's Guide to Claude Code and Its Tools"
       ]
     }
   ],
@@ -233,58 +223,58 @@
         "reddit"
       ],
       "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
-      "linkedin_angle": "Stay ahead of the curve with the latest AI image generation tools.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for your business",
-        "The future of image generation with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 vs other image generation tools"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Unlocking the Potential of ChatGPT Images 2.0 for Visual Content",
+        "A Beginner's Guide to Using ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "MiniMax Code",
+      "name": "Claude Code",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "MiniMax Code is a tool that uses AI to analyze legal documents.",
-      "audience_angle": "You can use MiniMax Code to analyze large documents quickly and accurately.",
-      "linkedin_angle": "MiniMax Code is a must-have tool for professionals who work with legal documents.",
+      "what_it_is": "Claude Code is a tool that generates code using AI.",
+      "audience_angle": "Create stunning code with the power of AI and take your development to the next level.",
+      "linkedin_angle": "Explore how Claude Code can enhance your development workflow and increase productivity.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "MiniMax Code has an affiliate program"
+        "note": "Affiliate programs available for Claude Code"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugo3yy/threw_800k_tokens_of_legal_docs_into_minimax_code/",
-          "signal": "threw 800k tokens of legal docs into MiniMax Code and it found a clause buried in page 312 that i missed twice manually"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iTY8Q449YNQ",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to use MiniMax Code for legal document analysis",
-        "The benefits of using MiniMax Code for professionals",
-        "MiniMax Code vs other document analysis tools"
+        "How to Create Stunning Code with Claude Code",
+        "The Future of Development: Claude Code and Its Applications",
+        "A Beginner's Guide to Claude Code and Its Tools"
       ]
     },
     {
@@ -295,97 +285,91 @@
         "reddit",
         "hackernews"
       ],
-      "what_it_is": "GPT-5.6 is the latest version of the GPT AI model.",
-      "audience_angle": "GPT-5.6 can help you with tasks such as writing and coding.",
-      "linkedin_angle": "GPT-5.6 is a game-changer for professionals who want to automate tasks.",
+      "what_it_is": "GPT-5.6 is a new AI model released by OpenAI.",
+      "audience_angle": "Discover the capabilities of the latest GPT-5.6 model and how it can benefit you.",
+      "linkedin_angle": "Learn how GPT-5.6 can revolutionize your workflow and increase productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-5.6 has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uge8y9/gpt56_officially_previewed_beats_mythos_5/",
-          "signal": "GPT-5.6 Officially Previewed: Beats Mythos 5"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugw2cz/sam_altman_unsure_about_gpt_56_release_outside_of/",
+          "signal": "37"
         },
         {
           "platform": "hackernews",
           "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
-          "signal": "U.S. government will decide who gets to use GPT-5.6"
+          "signal": "2244"
         }
       ],
       "content_ideas": [
-        "What's new in GPT-5.6",
-        "How to use GPT-5.6 for writing and coding",
-        "GPT-5.6 vs other AI models"
+        "What You Need to Know About GPT-5.6 and Its Capabilities",
+        "How GPT-5.6 Can Enhance Your Workflow and Increase Productivity",
+        "A Deep Dive into the Features and Benefits of GPT-5.6"
       ]
     },
     {
-      "name": "Codex",
+      "name": "Mythos AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
         "hackernews"
       ],
-      "what_it_is": "Codex is a tool that uses AI to generate code.",
-      "audience_angle": "You can use Codex to generate code quickly and accurately.",
-      "linkedin_angle": "Codex is a game-changer for developers who want to automate coding tasks.",
-      "local_relevance": 8,
+      "what_it_is": "Mythos AI is a new AI model released by Anthropic.",
+      "audience_angle": "Discover the capabilities of Mythos AI and how it can benefit you.",
+      "linkedin_angle": "Learn how Mythos AI can revolutionize your workflow and increase productivity.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Codex has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugjumg/i_scraped_71_million_jobs_with_codex/",
-          "signal": "I scraped 7.1 million jobs with Codex"
-        },
-        {
           "platform": "hackernews",
-          "url": "https://github.com/workweave/router",
-          "signal": "Show HN: Smart model routing directly in Claude, Codex and Cursor"
+          "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+          "signal": "1137"
         }
       ],
       "content_ideas": [
-        "How to use Codex for coding tasks",
-        "The benefits of using Codex for developers",
-        "Codex vs other code generation tools"
+        "What You Need to Know About Mythos AI and Its Capabilities",
+        "How Mythos AI Can Enhance Your Workflow and Increase Productivity",
+        "A Deep Dive into the Features and Benefits of Mythos AI"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage/token limits hitting users hard",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugtt6m/chatgpt_windows_app_broken/"
-        }
-      ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
-    },
-    {
-      "problem": "AI model bias",
-      "who_affected": "AI users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://trakkr.ai/bias"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugw4wx/chatgpt_desktop_app_not_responding_on_windows_11/"
         }
       ],
-      "content_opportunity": "How to detect and overcome AI model bias"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Increase Productivity"
+    },
+    {
+      "problem": "AI video generation costs",
+      "who_affected": "AI video generation users",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8Q8Km4pvdE8"
+        }
+      ],
+      "content_opportunity": "How to Reduce AI Video Generation Costs and Increase ROI"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
