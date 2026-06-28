@@ -35,14 +35,14 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
 5. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 83
    https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
-6. **The AI build-out is driving prices higher for consumers** — kutv — Score 66
-   https://kutv.com/news/nation-world/ai-spending-surge-adds-new-inflation-pressure-computing-chips-electronics-data-center-construction-electricity
-7. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 63
+6. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 63
    https://newschannel9.com/news/spotlight-on-america/as-ai-fuels-a-data-center-boom-communities-across-america-are-pushing-back
-8. **Meta is now designing its own, cheaper AI smart glasses** — scrippsnews — Score 63
+7. **Meta is now designing its own, cheaper AI smart glasses** — scrippsnews — Score 63
    https://www.scrippsnews.com/us-news/meta-is-now-designing-its-own-cheaper-ai-smart-glasses
-9. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
+8. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGhNVXRvX1B5M1RZM1E2YTR5OF9rb3lTT2dQRGp4bmx0MXBXSzhtRnhXTGdoQTY0QTU5a0p1bkRaOF9uQWZEbHgweEs2VUpzbXZsbExDdF9aN3VKTlR6WDdZWVEyUTI3OFMwTXp6SlQtb0l4ZmVIZEpBV0xxTFVjWUcxQ3owV1UybmU3SjJqNXVxQlHSAZgBQVVfeXFMUFZnOFpHeDc3cVl3SmFERS0wN2oxR21JREl2LWo5VUtJdFRqRFVQZWNzczFrZC12d0JMVE9kVGcwMldsdDRJQmt1aGRrbHg2T3RybGdCQmpyMVNUT2Vqc1dleXRuX1VpUmVWMHdJOEJNNUkwQjVxOHJjMHRYUy1lMGdXUkk1d0tsLWFTVmZaLVNmTlRMRkU5VHc?oc=5
+9. **The AI build-out is driving prices higher for consumers** — kutv — Score 63
+   https://kutv.com/news/nation-world/ai-spending-surge-adds-new-inflation-pressure-computing-chips-electronics-data-center-construction-electricity
 10. **Oracle cuts 21,000 jobs as AI reshapes workforce - MSN** — AI Jobs S Asia — Score 63
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSVVTdVdIbnR0QjFaY3R1WmtDazMwSU9mZ1JUTUhDT0VtdkNYZVZnakhUVDNaM2VvcG1KOXJpZElRZGtmLW9HanY1WFQ5cENKVnJ0bzZCUUFnMGlqRzVrRHY2TTYwVlBaYUtNekN2RVFlb3RiclFLUGRUd2lXNzc0X28zU1FzUFlHV29ORjRDbWd1NUZ5WDA0cWdGQ1FuOWxEVU44Zmdvai1kR2ZwZ1hsQUZLQTRmS29IREo3am5IdXBERk5yRXVXQnhYa2NkNTBqVGNxV3JRR2dWYkJSMGk3ZUd1ZGtGUQ?oc=5
 
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3133
+- Total stories tracked: 3153
 - Most active topic: openai
 - Busiest category: AI General News
 
