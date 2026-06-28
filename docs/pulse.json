@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:46:37.879615+00:00",
+  "generated_at": "2026-06-28T04:53:32.741258+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,203 +9,325 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 17,
+      "hackernews": 19,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Updates",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT is a conversational AI model that can understand and respond to human input.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Improve your productivity and efficiency with ChatGPT.",
+      "what_it_is": "A new image generation feature in ChatGPT",
+      "audience_angle": "Create stunning images with just a few prompts",
+      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5zm7LIDXtvE",
-          "signal": "ChatGPT 5.6 has been announced."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Beginners",
-        "ChatGPT Tutorial: Automating Tasks and Answering Questions",
-        "Making Money with ChatGPT: A Step-by-Step Guide"
+        "How to use ChatGPT Images 2.0 for marketing",
+        "Creating stunning images with ChatGPT Images 2.0",
+        "The future of image generation with ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "Mythos-like models",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Asian AI startups launching models similar to Mythos",
+      "audience_angle": "Discover the latest advancements in AI models",
+      "linkedin_angle": "Stay ahead of the competition with the latest AI model developments",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+          "signal": "329"
+        }
+      ],
+      "content_ideas": [
+        "What are Mythos-like models and how do they work",
+        "The impact of Mythos-like models on the AI industry",
+        "How to use Mythos-like models for business applications"
+      ]
+    },
+    {
+      "name": "GPT-5.6",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "The latest version of the GPT model",
+      "audience_angle": "Explore the latest capabilities of GPT-5.6",
+      "linkedin_angle": "Discover how GPT-5.6 can enhance your business operations",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+          "signal": "2361"
+        }
+      ],
+      "content_ideas": [
+        "What's new in GPT-5.6 and how to use it",
+        "GPT-5.6 vs previous versions: what's changed",
+        "How to integrate GPT-5.6 into your business workflow"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "technique",
       "momentum": "hot",
       "platforms": [
         "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create engaging content, such as explainer videos, tutorials, and social media clips.",
-      "linkedin_angle": "Enhance your marketing strategy with AI-generated videos.",
-      "local_relevance": 6,
+      "what_it_is": "Using AI to automate tasks and processes",
+      "audience_angle": "Discover how AI agents can simplify your life",
+      "linkedin_angle": "Explore the potential of AI agents for business automation",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools offer affiliate programs."
+        "note": "AI agent tools often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=21VUT6zZsP0",
-          "signal": "ai se video kaise banaye"
+          "url": "https://www.youtube.com/watch?v=0PjDlI21es4",
+          "signal": "0"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uh6cd4/extending_and_creating_new_wallpapers/",
-          "signal": "Extending and creating new wallpapers"
+          "platform": "hackernews",
+          "url": "https://www.agent-kits.com",
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Create AI-Generated Videos for Social Media",
-        "AI Video Generation: A Step-by-Step Tutorial",
-        "Making Money with AI-Generated Videos: A Guide"
+        "How to use AI agents for task automation",
+        "The benefits of using AI agents for business",
+        "Creating custom AI agents for specific tasks"
       ]
     },
     {
-      "name": "Mythos AI Model",
-      "category": "tool_launch",
+      "name": "AI Video Generation",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Mythos is a powerful AI model developed by Anthropic.",
-      "audience_angle": "You can use Mythos to improve your business operations, such as customer service, marketing, and sales.",
-      "linkedin_angle": "Stay ahead of the competition with the Mythos AI model.",
-      "local_relevance": 4,
+      "what_it_is": "Using AI to generate videos",
+      "audience_angle": "Create stunning videos with just a few clicks",
+      "linkedin_angle": "Explore the potential of AI-generated videos for marketing",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "Mythos is a closed-source model, and its usage is restricted to trusted organizations."
+        "affiliate_likely": true,
+        "note": "AI video generation tools often have affiliate programs"
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
-          "signal": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tsDubocT5Gg",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "What is Mythos AI Model and How Can You Use it?",
-        "Mythos AI Model: A Game-Changer for Businesses",
-        "How to Get Access to the Mythos AI Model"
+        "How to use AI for video generation",
+        "The future of video creation with AI",
+        "Using AI-generated videos for social media marketing"
+      ]
+    },
+    {
+      "name": "AI for Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using AI for trading and investment decisions",
+      "audience_angle": "Discover how AI can help you make better investment decisions",
+      "linkedin_angle": "Explore the potential of AI for trading and investment",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI trading tools often have affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use AI for trading and investment",
+        "The benefits of using AI for trading",
+        "Creating custom AI trading strategies"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Updates",
+      "name": "GPT-5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube",
         "hackernews"
       ],
-      "what_it_is": "ChatGPT is a conversational AI model that can understand and respond to human input.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Improve your productivity and efficiency with ChatGPT.",
+      "what_it_is": "The latest version of the GPT model",
+      "audience_angle": "Explore the latest capabilities of GPT-5.6",
+      "linkedin_angle": "Discover how GPT-5.6 can enhance your business operations",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+          "signal": "2361"
+        }
+      ],
+      "content_ideas": [
+        "What's new in GPT-5.6 and how to use it",
+        "GPT-5.6 vs previous versions: what's changed",
+        "How to integrate GPT-5.6 into your business workflow"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new image generation feature in ChatGPT",
+      "audience_angle": "Create stunning images with just a few prompts",
+      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5zm7LIDXtvE",
-          "signal": "ChatGPT 5.6 has been announced."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Beginners",
-        "ChatGPT Tutorial: Automating Tasks and Answering Questions",
-        "Making Money with ChatGPT: A Step-by-Step Guide"
+        "How to use ChatGPT Images 2.0 for marketing",
+        "Creating stunning images with ChatGPT Images 2.0",
+        "The future of image generation with ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "Mythos AI Model",
+      "name": "Mythos-like models",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Mythos is a powerful AI model developed by Anthropic.",
-      "audience_angle": "You can use Mythos to improve your business operations, such as customer service, marketing, and sales.",
-      "linkedin_angle": "Stay ahead of the competition with the Mythos AI model.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "what_it_is": "Asian AI startups launching models similar to Mythos",
+      "audience_angle": "Discover the latest advancements in AI models",
+      "linkedin_angle": "Stay ahead of the competition with the latest AI model developments",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Mythos is a closed-source model, and its usage is restricted to trusted organizations."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
-          "signal": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations"
+          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+          "signal": "329"
         }
       ],
       "content_ideas": [
-        "What is Mythos AI Model and How Can You Use it?",
-        "Mythos AI Model: A Game-Changer for Businesses",
-        "How to Get Access to the Mythos AI Model"
+        "What are Mythos-like models and how do they work",
+        "The impact of Mythos-like models on the AI industry",
+        "How to use Mythos-like models for business applications"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "ChatGPT usage limits",
-      "who_affected": "Individual users and businesses",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uh1a7g/after_a_year_of_using_chatgpt_for_actual_work/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uhltez/whats_with_the_usage_limits_today_6_prompts_on_55/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Tricks"
+      "content_opportunity": "How to optimize ChatGPT usage and avoid limits"
+    },
+    {
+      "problem": "AI model costs",
+      "who_affected": "AI developers and users",
+      "signal_strength": 7,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://aditya.patadia.org/p/ai-and-cloud-costs"
+        }
+      ],
+      "content_opportunity": "How to reduce AI model costs and improve efficiency"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Updates - A new version of ChatGPT has been announced, offering improved performance and features."
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
