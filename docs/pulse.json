@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:17:41.074619+00:00",
+  "generated_at": "2026-06-28T19:47:26.338708+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -16,84 +16,59 @@
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or personal projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 to enhance your professional brand and marketing materials.",
+      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks and generate content.",
+      "linkedin_angle": "Use ChatGPT to boost your productivity and streamline your workflow.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
           "signal": "40"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media Marketing",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
-      ]
-    },
-    {
-      "name": "Mythos AI Model",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Mythos AI Model is a powerful AI model that can be used for various applications such as natural language processing and computer vision.",
-      "audience_angle": "You can use the Mythos AI Model to improve your business operations and gain a competitive edge.",
-      "linkedin_angle": "Discover how the Mythos AI Model can help you streamline your workflow and increase productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "The Mythos AI Model is a proprietary technology and does not have an affiliate program."
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-          "signal": "441"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=frtyERiYaqs",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Introduction to the Mythos AI Model",
-        "Mythos AI Model: A Revolutionary Technology for Business",
-        "How to Integrate the Mythos AI Model into Your Workflow"
+        "How to use ChatGPT for content generation",
+        "ChatGPT vs other AI chatbots",
+        "How to make money with ChatGPT"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI algorithms.",
-      "audience_angle": "You can use AI video generation to create engaging and personalized videos for your social media or marketing campaigns.",
-      "linkedin_angle": "Learn how to leverage AI video generation to enhance your professional brand and marketing materials.",
-      "local_relevance": 6,
+      "what_it_is": "AI video generation is the process of creating videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create engaging content for your audience.",
+      "linkedin_angle": "Use AI video generation to enhance your marketing strategy and increase engagement.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs that allow users to earn money by promoting the tools."
+        "note": "There are several AI video generation tools with affiliate programs."
       },
       "sources": [
         {
@@ -103,40 +78,46 @@
         }
       ],
       "content_ideas": [
-        "How to Create Engaging Videos with AI Video Generation",
-        "AI Video Generation: A Game-Changer for Marketers",
-        "Introduction to AI Video Generation for Beginners"
+        "How to create AI-generated videos",
+        "The best AI video generation tools",
+        "How to use AI-generated videos for marketing"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
-      "category": "technique",
+      "name": "Gemini AI",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Agent Mode is a feature that allows users to interact with ChatGPT in a more conversational and interactive way.",
-      "audience_angle": "You can use ChatGPT Agent Mode to improve your productivity and get more out of your conversations with ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT Agent Mode can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 7,
+      "what_it_is": "Gemini is an AI model developed by Google.",
+      "audience_angle": "You can use Gemini AI for various tasks, including content generation and data analysis.",
+      "linkedin_angle": "Use Gemini AI to streamline your workflow and increase productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "ChatGPT Agent Mode is a feature of the ChatGPT platform and does not have an affiliate program."
+        "affiliate_likely": true,
+        "note": "Gemini AI has an affiliate program for its premium features."
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+          "signal": "186"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "url": "https://www.youtube.com/watch?v=VLfAf8eiclw",
           "signal": "0"
         }
       ],
       "content_ideas": [
-        "Introduction to ChatGPT Agent Mode",
-        "How to Use ChatGPT Agent Mode for Productivity",
-        "ChatGPT Agent Mode: A Revolutionary Feature for Business"
+        "How to use Gemini AI for content generation",
+        "Gemini AI vs other AI models",
+        "How to make money with Gemini AI"
       ]
     },
     {
@@ -144,153 +125,196 @@
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "AI in education refers to the use of AI technologies in educational settings to improve learning outcomes and enhance the educational experience.",
-      "audience_angle": "You can use AI in education to improve your learning outcomes and get a competitive edge in the job market.",
-      "linkedin_angle": "Discover how AI in education can help you upskill and reskill for the future of work.",
-      "local_relevance": 9,
+      "what_it_is": "AI is being used in education to enhance the learning experience.",
+      "audience_angle": "You can use AI to improve your learning outcomes and increase productivity.",
+      "linkedin_angle": "Use AI to enhance your teaching methods and improve student outcomes.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "AI in education is a broad topic and does not have a specific affiliate program."
+        "affiliate_likely": true,
+        "note": "There are several AI-powered education tools with affiliate programs."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/ai-in-mathematics",
-          "signal": "376"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to AI in Education",
-        "How to Use AI in Education for Better Learning Outcomes",
-        "AI in Education: A Game-Changer for the Future of Work"
-      ]
-    },
-    {
-      "name": "AI for Business",
-      "category": "use_case",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI for business refers to the use of AI technologies in business settings to improve operations, enhance customer experience, and gain a competitive edge.",
-      "audience_angle": "You can use AI for business to improve your business operations and increase revenue.",
-      "linkedin_angle": "Discover how AI for business can help you streamline your workflow and increase productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI for business tools have affiliate programs that allow users to earn money by promoting the tools."
-      },
-      "sources": [
+          "url": "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093",
+          "signal": "137"
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+business",
+          "url": "https://www.youtube.com/watch?v=7XXZQNFE6V8",
           "signal": "0"
         }
       ],
       "content_ideas": [
-        "Introduction to AI for Business",
-        "How to Use AI for Business for Better Operations",
-        "AI for Business: A Game-Changer for Entrepreneurs"
+        "How to use AI in education",
+        "The benefits of AI in education",
+        "How to create AI-powered educational content"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "AI agents are programs that can perform tasks autonomously.",
+      "audience_angle": "You can use AI agents to automate tasks and increase productivity.",
+      "linkedin_angle": "Use AI agents to streamline your workflow and enhance your business operations.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "There are several AI agent platforms with affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.agent-kits.com",
+          "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0PjDlI21es4",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use AI agents for automation",
+        "The benefits of AI agents in business",
+        "How to create AI agents for your business"
+      ]
+    },
+    {
+      "name": "AI for Making Money",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used to make money through various methods, including content generation and affiliate marketing.",
+      "audience_angle": "You can use AI to generate passive income and increase your earnings.",
+      "linkedin_angle": "Use AI to enhance your marketing strategy and increase your revenue.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "There are several AI-powered money-making tools with affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HNrJ_tohFMU",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use AI to make money",
+        "The best AI-powered money-making tools",
+        "How to create AI-generated content for affiliate marketing"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or personal projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 to enhance your professional brand and marketing materials.",
+      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks and generate content.",
+      "linkedin_angle": "Use ChatGPT to boost your productivity and streamline your workflow.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
           "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=frtyERiYaqs",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media Marketing",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+        "How to use ChatGPT for content generation",
+        "ChatGPT vs other AI chatbots",
+        "How to make money with ChatGPT"
       ]
     },
     {
-      "name": "Mythos AI Model",
+      "name": "Gemini AI",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Mythos AI Model is a powerful AI model that can be used for various applications such as natural language processing and computer vision.",
-      "audience_angle": "You can use the Mythos AI Model to improve your business operations and gain a competitive edge.",
-      "linkedin_angle": "Discover how the Mythos AI Model can help you streamline your workflow and increase productivity.",
-      "local_relevance": 8,
+      "what_it_is": "Gemini is an AI model developed by Google.",
+      "audience_angle": "You can use Gemini AI for various tasks, including content generation and data analysis.",
+      "linkedin_angle": "Use Gemini AI to streamline your workflow and increase productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "The Mythos AI Model is a proprietary technology and does not have an affiliate program."
+        "affiliate_likely": true,
+        "note": "Gemini AI has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-          "signal": "441"
+          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+          "signal": "186"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VLfAf8eiclw",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Introduction to the Mythos AI Model",
-        "Mythos AI Model: A Revolutionary Technology for Business",
-        "How to Integrate the Mythos AI Model into Your Workflow"
+        "How to use Gemini AI for content generation",
+        "Gemini AI vs other AI models",
+        "How to make money with Gemini AI"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uhwtax/hitting_message_limit_after_only_10_messages/"
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and get the most out of the platform"
-    },
-    {
-      "problem": "AI video generation quality issues",
-      "who_affected": "AI video generation users",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8Q8Km4pvdE8"
-        }
-      ],
-      "content_opportunity": "Tips and tricks for improving AI video generation quality"
+      "content_opportunity": "How to overcome Claude usage limits and make the most of the platform"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT"
 }
