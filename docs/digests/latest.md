@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 20 Jun 2026 to 27 Jun 2026
+# 🗞️ AI THIS WEEK — 21 Jun 2026 to 28 Jun 2026
 
 ## 🔥 Biggest Story of the Week
 **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano**
@@ -43,8 +43,8 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://www.scrippsnews.com/us-news/meta-is-now-designing-its-own-cheaper-ai-smart-glasses
 9. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGhNVXRvX1B5M1RZM1E2YTR5OF9rb3lTT2dQRGp4bmx0MXBXSzhtRnhXTGdoQTY0QTU5a0p1bkRaOF9uQWZEbHgweEs2VUpzbXZsbExDdF9aN3VKTlR6WDdZWVEyUTI3OFMwTXp6SlQtb0l4ZmVIZEpBV0xxTFVjWUcxQ3owV1UybmU3SjJqNXVxQlHSAZgBQVVfeXFMUFZnOFpHeDc3cVl3SmFERS0wN2oxR21JREl2LWo5VUtJdFRqRFVQZWNzczFrZC12d0JMVE9kVGcwMldsdDRJQmt1aGRrbHg2T3RybGdCQmpyMVNUT2Vqc1dleXRuX1VpUmVWMHdJOEJNNUkwQjVxOHJjMHRYUy1lMGdXUkk1d0tsLWFTVmZaLVNmTlRMRkU5VHc?oc=5
-10. **Quantum AI Microcities Project Launch First Global AGI Communities Clinical Trial Network (Veterans First for America)** — financialpost — Score 61
-   https://financialpost.com/globe-newswire/quantum-ai-microcities-project-launch-first-global-agi-communities-clinical-trial-network-veterans-first-for-america
+10. **OpenAI to limit latest model launch at Trump administration's request: report - WSET** — Sam Altman News — Score 61
+   https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQlUtSWoteFBrV3JvamRZMVM4ellZWHVabGFHY1N6WVpzSjdxSXFwWHdrVW9qdm83azFZazMxYVc1cHhNTFdmZHc5ajhyX0VIVEJ5TkozVEI0UFVpSkFEOHItQjFmOWRqYjBNV21aZ1A0YURwdXlkZVpKQzA5cURva2ZXMzVfdm0tZW9yRXhOcnhaeTBiUHRqYzh2WkdKNmJZclRBd1FSbkdGT2VESHJHV2xZNkZZZlBHQjhVV3RKQUJKMVUxTHgwZ1o0SzVkZnVETk11b1BVR01wNEVEMEs0aEdweTBOWFJURjhGOVpIYTJvajBqMmc?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI medical conference returns to Miami July 10-12 - Rutland Herald** — https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcUtSdHBPQ043c3FwTjNpNGRUVkZVeUt5MTVVZXI3cVV2cVo4azRiUXFxOFVRcGdmM1BLNWcxSUVTakRaUFhzTURWMzNKMnpZY2FPTVJ1V1JyN0hfSjFCeEhLN1hsOGttZXRlUHR5MEdOUDhMTUhZNkhJYWJTMkc3bC1JS0lYR2dJeTFrVklSTEhGUno3WFBpLXY2aUhzVExPOWNEd0tNcFhfU3hyOGRlXzRMYm9SNmNWZnQwR2diRmlaVHNCLS1uRFZHR19Mc2dFUU5jWg?oc=5
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **MedServe CEO warns against AI replacing doctors - Let's Data Science** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPajQ4eGZOTFFXc2pTcWc2Mk5UallGWTJ0TUZKZ19YcGNOQmlfMmlIZzdxamxTbkh3WXNBa05vRzQ4bnZfV3g1UjlXR1lXSW9RWGVSQXZFZlFDeWpuR0VLYzVUeFphX21RRTNhSVlXMmdZVG9jOXFDdTN4YjFDamNKRUJKNFRVVjA0SHVNZWI4XzRzTjQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3271
+- Total stories tracked: 3103
 - Most active topic: openai
 - Busiest category: AI General News
 
