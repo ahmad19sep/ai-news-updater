@@ -2411,10 +2411,10 @@ function rpPosterHeadline(c) {
   return s.slice(0, 120);
 }
 function rpImagePrompt(c, headline) {
-  return 'Create a vertical 4:5 social-media poster image for the brand "AI x Ahmad" (@aixahmad).\n' +
-    'Render this HEADLINE exactly on the image, in bold modern high-contrast typography in the lower third, perfectly legible (you may accent one key word in warm orange): "' + headline + '"\n' +
-    'Background: a photorealistic, cinematic subject relevant to this post: "' + (c.post_text || "").slice(0, 220) + '". Dramatic lighting, dark moody tone fading darker toward the bottom to leave room for the text.\n' +
-    'Small footer text "AI x Ahmad  ·  @aixahmad" in a corner. Spell all text EXACTLY, no gibberish, no other logos or watermarks.';
+  const hi = (window.HUMAN_IMAGE || "Realistic photo-based editorial social graphic, vertical 4:5, top 70% photo / bottom 30% headline band, natural lighting, no AI/sci-fi look, no logos or watermark.");
+  return hi + '\n' +
+    'Scene relevant to this post: "' + (c.post_text || "").slice(0, 220) + '"\n' +
+    'Headline to render in the bottom band, word for word: "' + headline + '"';
 }
 function rpDrawPoster(canvas, opts) {
   const W = 1080, H = 1350, x = canvas.getContext("2d");

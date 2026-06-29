@@ -1,7 +1,29 @@
 /* AI x Ahmad - template library.
-   Edit wording freely - the site reloads it automatically.
+   Edit wording freely - the site reloads it automatically. */
 
-   WIZ = the Create wizard library. Each template:
+/* ===== Shared HUMAN VOICE rules — injected into every content prompt so output
+   reads like a real creator, not an AI bot (X suppresses AI-smelling content). ===== */
+window.HUMAN_VOICE = [
+  "WRITE LIKE A REAL HUMAN — NOT LIKE AI. This matters most: posts that smell AI-generated get suppressed.",
+  "- Simple, clear English a beginner / creator / freelancer / builder gets instantly.",
+  "- A real person on X/LinkedIn, never a press release or brand voice. Smart, curious, a little opinionated, conversational.",
+  "- Vary sentence length: mix short punchy lines with one longer line. Fragments are fine. Starting with 'and'/'but'/'so' is fine.",
+  "- ONE clear idea per post. Don't explain everything — land one strong point.",
+  "- Add a personal angle when it fits: 'my take…', 'i think…', 'the part people ignore is…', 'for builders this means…', 'for beginners, the simple lesson is…'.",
+  "- Strong HUMAN hook, e.g.: 'Most people are missing the real point here…' / 'This looks small, but it matters…' / 'I don't think this is just another AI update…' / 'The interesting part isn't the announcement — it's what comes next.' / 'Here's the simple version…'.",
+  "- Don't make it too perfect — it should feel edited by a human, not generated.",
+  "- Emojis: 0-2 max, only when they add meaning. Hashtags: X none or 1; LinkedIn 2-3 max.",
+  "- No forced 'Follow me for more' — only a soft CTA sometimes. End with a natural question or a sharp takeaway, never a forced engagement line.",
+  "- NEVER invent facts, names, numbers, dates, or company claims. If the source is unclear, say so carefully.",
+  "- For a technical topic, cover: what happened, why it matters, who should care, my take.",
+  "- BANNED phrases: game changer, game-changer, revolutionising/revolutionize the future, unlock the power, unlock value, next big thing, cutting-edge, seamless, transformative, in today's world, the future is here, AI is changing everything, this will disrupt every industry, leverage, harness, robust, paradigm shift, landscape, delve, dive in, deep dive, supercharge, elevate, testament, underscore.",
+  "- BANNED AI sentence patterns: \"It's not just X, it's Y\"; \"The real X isn't Y, it's Z\"; \"Here's the thing\"; rule-of-three lists; a neat \"X. But Y.\" as the whole post; throat-clearing openers; summary closers ('At the end of the day', 'Ultimately')."
+].join("\n");
+
+/* ===== Shared REALISTIC IMAGE rules — designer-made editorial graphic, not an AI poster. ===== */
+window.HUMAN_IMAGE = "Make it look like a real designer edited it in Photoshop/Figma — a premium social-news graphic, NOT an AI poster. Use a realistic PHOTO-BASED scene relevant to the story (founder working late, AI lab, startup office, laptop showing a dashboard, newsroom desk, data centre, investor meeting, developer workspace). Natural lighting, realistic shadows, real textures, believable human detail. NO glossy sci-fi look, NO random glowing symbols, NO fake-futuristic nonsense, NO logos, NO watermark, NO random text. Vertical 4:5. Top ~70% is the photo; bottom ~30% is a clean darker band for the headline. Clean editorial typography — large, readable, modern, well-spaced. Render ONLY the exact headline provided, word for word; highlight ONE key word or phrase with a subtle blue or white contrast.";
+
+/* WIZ = the Create wizard library. Each template:
      type:  "short" | "long" | "post"
      plats: ["*"] = fits all platforms, or specific keys
             (post: x, ig, fb, li, wa | short: yt, tiktok, ig, fb | long: yt, fb)
@@ -329,8 +351,10 @@ window.buildNewsroomPrompt = function (o) {
 'Front-load the most interesting fact or consequence.',
 'Use short paragraphs and whitespace.',
 'Make the copy skimmable on mobile.',
-'Write like a smart human, not a corporate brand.',
+'Write like a smart human, not a corporate brand. Vary sentence length (mix short punchy lines with one longer line) so it does not read as AI-generated.',
 'Avoid boring openings like: "In a major development", "According to reports", "The article discusses", "This is a game-changer", "In today’s fast-paced world".',
+'BANNED phrases (sound like AI): game changer, revolutionising the future, unlock the power, next big thing, cutting-edge, seamless, transformative, "the future is here", "AI is changing everything", "this will disrupt every industry", leverage, harness, robust, paradigm shift, delve, dive in. Also avoid "It\'s not just X, it\'s Y" and rule-of-three lists.',
+'Where natural, add a light human angle/opinion (my take / the part people ignore / for builders this means).',
 'Use natural CTAs, not engagement bait.',
 'Wherever the article link belongs, write the literal token [ARTICLE LINK].',
 '',
@@ -351,10 +375,10 @@ window.buildNewsroomPrompt = function (o) {
 '(List the original source title and source link provided.)',
 '',
 '[[IMAGE1]]',
-'(Write a ready-to-paste AI image-generation prompt for a vertical 4:5 social news poster. The image must be photorealistic, cinematic, editorial, premium, and relevant to the story. Show the main subject, product, company, scene, technology, consequence, or symbolic visual from the story. Use dramatic lighting, sharp focus, realistic textures, and a dark moody lower area for text. In the lower area, beautifully render the EXACT headline from [[HEADLINE]] in large bold modern typography with excellent legibility. Emphasize one key word, number, company, or phrase with a tasteful electric-blue accent if appropriate. Spell the headline exactly, word for word. Only the headline words should appear. No logos, no watermarks, no social icons, no gibberish, no extra text.)',
+'(Write a ready-to-paste image-generation prompt for the headline graphic. ' + window.HUMAN_IMAGE + ' Render the EXACT headline from [[HEADLINE]] in the bottom band, word for word, nothing else.)',
 '',
 '[[IMAGE2]]',
-'(Write a DIFFERENT 16:9 image-generation prompt with NO text. It should be a clean hero image showing another angle, wider context, consequence, or human/business impact of the story. Photorealistic editorial photography, dramatic lighting, ultra-detailed, sharp focus. No text, no logos, no watermarks, no social icons.)',
+'(Write a DIFFERENT image-generation prompt with NO text — a clean realistic hero photo showing another angle, wider context, or the human/business impact of the story. Real photo-based scene (startup office, AI lab, data centre, developer desk, investor meeting, newsroom), natural lighting, realistic shadows and textures, believable human detail. NO sci-fi glow, NO glossy AI look, NO logos, NO watermark, NO text. 16:9.)',
 '',
 '[[LINKEDIN]]',
 '(English. Write a professional but engaging LinkedIn post for smart professionals. Do not make it boring. Structure: 1) Strong first line based on the biggest implication, tension, or business impact. 2) Short context explaining what happened. 3) Explain why it matters for business, AI, tech, policy, creators, startups, workers, or consumers depending on the story. 4) Add one thoughtful discussion question. Use short paragraphs and whitespace. Tone: credible, human, sharp, not corporate. Length: 120-220 words. End exactly with: Read the full story:\n[ARTICLE LINK])',
@@ -391,6 +415,7 @@ window.buildSocialPrompt = function (o) {
     'You write social-media posts for "AI x Ahmad" (@aixahmad), a global AI-news brand.',
     lang, "",
     cfg.rules, "",
+    window.HUMAN_VOICE, "",
     "Make it genuinely ENGAGING — a real hook that stops the scroll, not a press release. Simple words, one idea per line.",
     "Base everything ONLY on the story below — never invent facts, numbers, or quotes.", "",
     "STORY: " + (o.title || ""),
@@ -427,8 +452,8 @@ window.buildXReplyPrompt = function (o) {
       "- Joke/meme -> witty or relatable. Personal win -> genuinely supportive. Technical -> a practical builder angle.",
       "- Only ask a question when that is genuinely the smartest reply.",
       "",
-      "VOICE: sound like a sharp friend replying under the post — casual, specific, human. No corporate/LinkedIn words (transformative, leveraging, game-changer, robust, seamless). No fake praise ('Great insight!', 'This is huge'). Never invent facts, numbers, or names. No hashtags. Text only. Under 280 characters.",
-      "EMOJIS: use where they feel natural (0-1 per reply), never forced.",
+      window.HUMAN_VOICE,
+      "REPLY SPECIFICS: sound like a sharp friend replying under the post. No fake praise ('Great insight!', 'This is huge'). No @mention needed. Text only. Under 280 characters.",
       "",
       "Give the BEST reply and ONE BACKUP (a meaningfully different angle or style).",
       "",
@@ -469,20 +494,9 @@ window.buildXReplyPrompt = function (o) {
     "- If the post is unclear, ask a simple clarifying question.",
     "- Only ask a question when a question is the smartest reply.",
     "",
-    "IMPORTANT VOICE:",
-    "- Sound like a real person on X, not a brand or AI assistant.",
-    "- Write like a smart friend replying under a post.",
-    "- Casual, sharp, simple, natural.",
-    "- Use personality, but don't overdo it.",
-    "- Avoid corporate/LinkedIn words like: transformative, landscape, leveraging, unlock value, game-changer, paradigm shift, robust, seamless.",
-    "- Avoid fake praise like: Great insight, Amazing update, This is huge, unless it truly fits.",
-    "",
-    "EMOJI RULES:",
-    "- Emojis are allowed only when they feel natural.",
-    "- Use emojis in only 2-4 of the 7 replies, not every reply.",
-    "- Max 1 emoji per reply.",
-    "- Good emojis when relevant: 👀 🤯 😅 🔥 🧠 🛠️ 🚀",
-    "- Never use emoji spam.",
+    window.HUMAN_VOICE,
+    "- Write like a smart friend replying under a post. No fake praise (Great insight, Amazing update, This is huge) unless it truly fits.",
+    "- Across the 7 replies, only 2-4 should use an emoji (max 1 each) — not every reply.",
     "",
     "Reply to THIS X post:",
     "AUTHOR: " + (o.author_name || "") + " " + (o.author_handle || ""),
@@ -612,7 +626,7 @@ window.buildPostRepurposePrompt = function (o) {
     "- Only ask a question when asking is the smartest action.",
     "- NEVER plagiarize, never copy the structure too closely, never pretend Ahmad experienced something he didn't, never invent facts, numbers, quotes, results, or personal stories.",
     "",
-    "VOICE: write like Ahmad — simple, direct, curious, human. No corporate tone, no LinkedIn cringe, no fake hype. Avoid: transformative, landscape, leveraging, unlock value, game-changer, paradigm shift, robust, seamless. Emojis only when natural.",
+    window.HUMAN_VOICE,
     "",
     "X RULES: short, sharp, social-native; one strong hook; 2-5 short lines; a question if useful; usually no hashtags; max 1 emoji.",
     "LINKEDIN RULES: strong first 2 lines; clear insight; short paragraphs; professional but human; end with a thoughtful question; 2-4 hashtags max; no fake authority.",
@@ -765,11 +779,7 @@ window.buildAnthropicWritePrompt = function (o) {
   head.push("");
   head.push("DECIDE THE BEST MOVE: is this best as a question, funny line, fact, hot take, builder thought, community callout, comparison, relatable line, shower thought, debate, personal note, or skeptical check? Is it too weak (improve it)? Does it risk copying someone too closely (rewrite the idea, not the wording)? Is it someone else's personal story (do NOT retell it as Ahmad's experience — generalize the lesson)?");
   head.push("");
-  head.push("VOICE RULES:");
-  head.push("- Sound like a real person on X. Simple English. Casual, sharp, curious.");
-  head.push("- No corporate tone, no LinkedIn cringe, no fake hype.");
-  head.push("- Usually no hashtags. Emojis allowed only when natural, MAX 1 per post.");
-  head.push("- Avoid: transformative, landscape, leveraging, unlock value, game-changer, paradigm shift, robust, seamless.");
+  head.push(window.HUMAN_VOICE);
   head.push("");
   head.push("OUTPUT RULES:");
   head.push("- Text only. Under 280 characters. 1-3 short lines preferred.");
