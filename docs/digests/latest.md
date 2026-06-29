@@ -11,18 +11,18 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
 2. **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — science angle
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjNvOEhZc3NJWThkbGowSkxTempUOUFqeDhobXJxYjUzRFFYWkh6Y0hHbG5EakpDbDNUWkJ0V1RYSFBWMFJSRzJ4UnphdDlHRmdKb0E3VnBoSzdlTXVvWndrYjNZb3J0Smx2WnNKLXpaemVpWUhTWlZsalRaQkxlRmxQM2tTUmFVZFRUdWttZ18zVjBZWFJ3cWRuYTNHXzM5RGU4YklXd1BadVpu?oc=5
-3. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
+3. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
+   https://www.nature.com/articles/d41586-026-01672-9
+4. **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
-4. **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — science angle
+5. **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiywFBVV95cUxQdjhMYzFSb2xQSUdNSEF5ZlpfOFpRMUNtazRycEhld05WcFNQSTBFWUZsdHFEV0dScTlWMTdadThCeVdyTlktZjNVdmVSZU5MS2t2bHlIaDNnMHNqQTJxbDZCUGNzU0NwWVlBaV9iQWxzbld1djhuamZ2bG9MZFlKd1hhdklzRG1uYU9lbzBsTFpWUWhBWHNrWFBQeWxsTUw3dHllQ1pYS3pSUDNuZHJmYkNaRnUxMFAxX3N1cExFLUJLT2hQSmRsVVBYYw?oc=5
-5. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
+6. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2hyMlFMRnk0YVZocDNRdWY4TTd5cTBESzREQXZ1U25rNzNVVlJZWGFTaU55dmZzWjliMUFBUUVzWWlZT3I1T0o5eHY1ajM3RmxPTWVIaE40aDgwLXFXcjFCNnlWRUNyV3NRWnZ2WE5qcElWX0hfSkRYLUFpLXFxYmV0SVg?oc=5
-6. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
+7. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
    https://www.nature.com/articles/s41586-026-10674-6
-7. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
+8. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPWF9CbTZ3NS1NWVYxNDZNaXlVSGlCbGkzTkRNV1dXa0ZJcy1ERS1Qb0l4eXcwVVFYNGptZ2JDSmpzN19XMFY4ZmxGUjBXV1BVd2Y0a19POWtzVGpRRndkN3hhSzFmOUFZeGNvbGVTaGJ6RkN5Smt5OExqSkxzMzZHWXF1ZTVzOUVoNHRsU2NickZYczZwdDVjY3o5UnFpLWxBblpkX0VtWFBtOVhIakt0SFJtVQ?oc=5
-8. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFdsc3NfM3BHX29LTkNsbE41NTY3WFBXSUZhZzB1Y2ZDOGFraUdFVkdFelVtMmxfM1FCLXN1SmtHSUVzZTI5bkY3NEJIOVpXTXVzSTg3eVZSTU8tbXJOYWFnbDRDempMeGRIU0dPV3QyRGdWdlRoUFZ5Q19QRzZneHNqWFhTci1DQjBIVHJzdzdUTzRkY2ZvNHpHclYwaW1VTXFmX0x1UDM3NmhlakgxZGtLZw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 133
@@ -51,10 +51,10 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **AI Search Engineers Announces Expansion Into the Medical Industry, Launching AI Search Visibility Services for Healthcare Providers , Physicians, and Medical Practices Across the United States - Newswire.com** — https://news.google.com/rss/articles/CBMirAFBVV95cUxOdU1ubERyeGVuamc4NmQzYl9JMkVONFEtdjczRklRWVlTS2d1QloxeF92ak1wWU1FczNaTDJXS0gyUmtwUnczOExzTnBYTDhNMlB0VVh3NHp0Tkk4Y21XTjA5NjVaYk9lNFp2dGNvYXhQTWpYZWRYOWRTTTRvZ2FXUF9DNGpBaW1MbDl5TGN4cThIaFgtTkhxMkFROFFkS2lJQmxwMWpXLWlpa0lW?oc=5
 - **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
 - **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjNvOEhZc3NJWThkbGowSkxTempUOUFqeDhobXJxYjUzRFFYWkh6Y0hHbG5EakpDbDNUWkJ0V1RYSFBWMFJSRzJ4UnphdDlHRmdKb0E3VnBoSzdlTXVvWndrYjNZb3J0Smx2WnNKLXpaemVpWUhTWlZsalRaQkxlRmxQM2tTUmFVZFRUdWttZ18zVjBZWFJ3cWRuYTNHXzM5RGU4YklXd1BadVpu?oc=5
-- **Dallas-Based Matic Launches New AI-Driven Clinical Workflow Tool to Support Physicians and Optimize Patient Care - Dallas Innovates** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
+- **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — https://www.nature.com/articles/d41586-026-01672-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3227
+- Total stories tracked: 3314
 - Most active topic: openai
 - Busiest category: AI General News
 
