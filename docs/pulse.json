@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T05:01:03.391625+00:00",
+  "generated_at": "2026-06-29T11:24:59.196020+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,41 +9,47 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or other projects.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create engaging visual content for your professional online presence.",
+      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "Learn how to leverage ChatGPT to boost your productivity and career.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+          "signal": "39"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lQQu5_uE5uU",
+          "signal": "How to Use ChatGPT 5.5 Better Than 99% of People"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "Exploring the Capabilities of ChatGPT Images 2.0"
+        "How to Use ChatGPT to Automate Your Work",
+        "The Ultimate Guide to ChatGPT: Tips and Tricks",
+        "ChatGPT vs. Other AI Chatbots: Which One is the Best?"
       ]
     },
     {
@@ -53,121 +59,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
-      "audience_angle": "You can use AI video generation to create engaging and personalized videos for your social media or other projects.",
-      "linkedin_angle": "Discover how AI video generation can help you create professional-looking videos for your business or personal brand.",
+      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create stunning videos without any video editing experience.",
+      "linkedin_angle": "Learn how to use AI video generation to create engaging content for your business or personal brand.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs"
+        "note": "There are several AI video generation tools that offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "ai video generation"
+          "url": "https://www.youtube.com/watch?v=8Q8Km4pvdE8",
+          "signal": "STOP Paying! The ONLY 3 FREE & UNLIMITED AI Video Generators You Need"
         }
       ],
       "content_ideas": [
-        "How to Create a Viral AI-Generated Video",
-        "Using AI Video Generation for Business",
-        "The Future of Video Creation: AI-Generated Videos"
-      ]
-    },
-    {
-      "name": "ChatGPT vs Gemini",
-      "category": "debate",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT and Gemini are two popular AI models, and users are comparing their features and capabilities.",
-      "audience_angle": "Which AI model is better for your needs: ChatGPT or Gemini?",
-      "linkedin_angle": "Explore the differences between ChatGPT and Gemini and how they can be used in a professional setting.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+vs+gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT vs Gemini: Which AI Model is Better?",
-        "The Differences Between ChatGPT and Gemini",
-        "How to Choose Between ChatGPT and Gemini for Your Needs"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used for trading by analyzing market trends and making predictions.",
-      "audience_angle": "You can use AI to make informed trading decisions and potentially increase your profits.",
-      "linkedin_angle": "Discover how AI can be used in trading and how it can help you make better investment decisions.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI trading tools offer affiliate programs"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+for+trading",
-          "signal": "ai for trading"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI for Trading",
-        "The Benefits of Using AI in Trading",
-        "The Future of Trading: AI-Powered Investment Decisions"
-      ]
-    },
-    {
-      "name": "AI for Studying",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used for studying by providing personalized learning experiences and helping with homework.",
-      "audience_angle": "You can use AI to improve your learning outcomes and make studying more efficient.",
-      "linkedin_angle": "Explore how AI can be used in education and how it can help you improve your skills.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI learning tools offer affiliate programs"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+for+studying",
-          "signal": "ai for studying"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI for Studying",
-        "The Benefits of Using AI in Education",
-        "The Future of Learning: AI-Powered Education"
+        "How to Create Stunning AI-Generated Videos",
+        "The Best AI Video Generation Tools for Beginners",
+        "AI Video Generation: The Future of Content Creation"
       ]
     },
     {
@@ -175,125 +88,75 @@
       "category": "technique",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "AI agents are programs that can perform tasks on behalf of a user.",
-      "audience_angle": "You can use AI agents to automate tasks and make your life easier.",
-      "linkedin_angle": "Discover how AI agents can be used in a professional setting to increase productivity.",
-      "local_relevance": 7,
-      "pillar": "explainer",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+agents",
-          "signal": "ai agents"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI Agents",
-        "The Benefits of Using AI Agents",
-        "The Future of Automation: AI Agents"
-      ]
-    },
-    {
-      "name": "Claude Code",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude Code is a tool that allows users to create code using AI.",
-      "audience_angle": "You can use Claude Code to create code for your projects and make development easier.",
-      "linkedin_angle": "Explore how Claude Code can be used in a professional setting to increase productivity.",
-      "local_relevance": 8,
+      "what_it_is": "AI agents are artificial intelligence systems that can perform tasks autonomously.",
+      "audience_angle": "You can use AI agents to automate repetitive tasks and boost your productivity.",
+      "linkedin_angle": "Learn how to use AI agents to streamline your workflow and improve your career prospects.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Code offers an affiliate program"
+        "note": "There are several AI agent platforms that offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=claude+code",
-          "signal": "claude code"
+          "url": "https://www.youtube.com/watch?v=0PjDlI21es4",
+          "signal": "The Man Who Mastered Claude: The FASTEST Way To Use AI Agents In Your Business, Content & Life"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48701615",
+          "signal": "Everyone feared AI taking over; the real danger is AI serving just the few"
         }
       ],
       "content_ideas": [
-        "How to Use Claude Code",
-        "The Benefits of Using Claude Code",
-        "The Future of Coding: AI-Powered Development"
+        "How to Use AI Agents to Automate Your Workflow",
+        "The Ultimate Guide to AI Agents: Tips and Tricks",
+        "AI Agents: The Future of Automation"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or other projects.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create engaging visual content for your professional online presence.",
+      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
+      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "Learn how to leverage ChatGPT to boost your productivity and career.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "Exploring the Capabilities of ChatGPT Images 2.0"
-      ]
-    },
-    {
-      "name": "Claude Code",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude Code is a tool that allows users to create code using AI.",
-      "audience_angle": "You can use Claude Code to create code for your projects and make development easier.",
-      "linkedin_angle": "Explore how Claude Code can be used in a professional setting to increase productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Code offers an affiliate program"
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+          "signal": "39"
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=claude+code",
-          "signal": "claude code"
+          "url": "https://www.youtube.com/watch?v=lQQu5_uE5uU",
+          "signal": "How to Use ChatGPT 5.5 Better Than 99% of People"
         }
       ],
       "content_ideas": [
-        "How to Use Claude Code",
-        "The Benefits of Using Claude Code",
-        "The Future of Coding: AI-Powered Development"
+        "How to Use ChatGPT to Automate Your Work",
+        "The Ultimate Guide to ChatGPT: Tips and Tricks",
+        "ChatGPT vs. Other AI Chatbots: Which One is the Best?"
       ]
     }
   ],
@@ -305,23 +168,11 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ui8uml/for_the_love_of_god_teach_the_ai_to_say_i_dont/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
-    },
-    {
-      "problem": "AI-generated content quality",
-      "who_affected": "Content creators",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+generated+content+quality"
-        }
-      ],
-      "content_opportunity": "Tips for Improving AI-Generated Content Quality"
+      "content_opportunity": "How to overcome ChatGPT usage limits and get the most out of the platform."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT"
 }
