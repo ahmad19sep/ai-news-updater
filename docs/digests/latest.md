@@ -35,16 +35,16 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
 5. **Mamdani and AI industry flex political power in New York, plus more to watch in Tuesday’s primaries** — winnipegfreepress — Score 83
    https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/06/22/mamdani-and-ai-industry-flex-political-power-in-new-york-plus-more-to-watch-in-tuesdays-primaries
-6. **As AI fuels a data center boom, communities across America are pushing back** — newschannel9 — Score 63
-   https://newschannel9.com/news/spotlight-on-america/as-ai-fuels-a-data-center-boom-communities-across-america-are-pushing-back
-7. **Meta is now designing its own, cheaper AI smart glasses** — scrippsnews — Score 63
+6. **Meta is now designing its own, cheaper AI smart glasses** — scrippsnews — Score 63
    https://www.scrippsnews.com/us-news/meta-is-now-designing-its-own-cheaper-ai-smart-glasses
-8. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
+7. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGhNVXRvX1B5M1RZM1E2YTR5OF9rb3lTT2dQRGp4bmx0MXBXSzhtRnhXTGdoQTY0QTU5a0p1bkRaOF9uQWZEbHgweEs2VUpzbXZsbExDdF9aN3VKTlR6WDdZWVEyUTI3OFMwTXp6SlQtb0l4ZmVIZEpBV0xxTFVjWUcxQ3owV1UybmU3SjJqNXVxQlHSAZgBQVVfeXFMUFZnOFpHeDc3cVl3SmFERS0wN2oxR21JREl2LWo5VUtJdFRqRFVQZWNzczFrZC12d0JMVE9kVGcwMldsdDRJQmt1aGRrbHg2T3RybGdCQmpyMVNUT2Vqc1dleXRuX1VpUmVWMHdJOEJNNUkwQjVxOHJjMHRYUy1lMGdXUkk1d0tsLWFTVmZaLVNmTlRMRkU5VHc?oc=5
-9. **The AI build-out is driving prices higher for consumers** — kutv — Score 63
+8. **The AI build-out is driving prices higher for consumers** — kutv — Score 63
    https://kutv.com/news/nation-world/ai-spending-surge-adds-new-inflation-pressure-computing-chips-electronics-data-center-construction-electricity
-10. **Oracle cuts 21,000 jobs as AI reshapes workforce - MSN** — AI Jobs S Asia — Score 63
+9. **Oracle cuts 21,000 jobs as AI reshapes workforce - MSN** — AI Jobs S Asia — Score 63
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSVVTdVdIbnR0QjFaY3R1WmtDazMwSU9mZ1JUTUhDT0VtdkNYZVZnakhUVDNaM2VvcG1KOXJpZElRZGtmLW9HanY1WFQ5cENKVnJ0bzZCUUFnMGlqRzVrRHY2TTYwVlBaYUtNekN2RVFlb3RiclFLUGRUd2lXNzc0X28zU1FzUFlHV29ORjRDbWd1NUZ5WDA0cWdGQ1FuOWxEVU44Zmdvai1kR2ZwZ1hsQUZLQTRmS29IREo3am5IdXBERk5yRXVXQnhYa2NkNTBqVGNxV3JRR2dWYkJSMGk3ZUd1ZGtGUQ?oc=5
+10. **Oracle cuts 21,000 jobs as California debuts AI job-loss tracker - MSN** — AI Jobs S Asia — Score 63
+   https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTExDMlhRSHZaTHZDNXNLQkpaNmQxN2pmTkZrdXh4SXRVYV9VQ3EzQ0RldTh6LWkwYVVzaUgxbXJ6VDFETnFXMVh5TEZQQzlTT210MnhnNkRLZGhVUFZpZnkweTVYYklxRGx6anpOU0VuajVXNkNRS3ZkMnBxRHFxRTVyem1ZeDdyVk9YaTdnTk5IcWdLV1pqOGtydDFqLXkyX0JFX0l2UThNRXZrU3pObTJ2NGxQR0R3eGlNbGZoRVNacExpWkkyYXVnQjlxMC0tdGFyS09UajRxT3ZqYUp4QWJDa1RMSHZERGFyYzFYa2pBb3NXNGVuY1ppR0w?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI medical conference returns to Miami July 10-12 - Rutland Herald** — https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcUtSdHBPQ043c3FwTjNpNGRUVkZVeUt5MTVVZXI3cVV2cVo4azRiUXFxOFVRcGdmM1BLNWcxSUVTakRaUFhzTURWMzNKMnpZY2FPTVJ1V1JyN0hfSjFCeEhLN1hsOGttZXRlUHR5MEdOUDhMTUhZNkhJYWJTMkc3bC1JS0lYR2dJeTFrVklSTEhGUno3WFBpLXY2aUhzVExPOWNEd0tNcFhfU3hyOGRlXzRMYm9SNmNWZnQwR2diRmlaVHNCLS1uRFZHR19Mc2dFUU5jWg?oc=5
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — https://www.nature.com/articles/d41586-026-01672-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3194
+- Total stories tracked: 3159
 - Most active topic: openai
 - Busiest category: AI General News
 
