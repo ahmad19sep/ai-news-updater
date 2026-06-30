@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — https://www.nature.com/articles/d41586-026-01672-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3159
+- Total stories tracked: 3138
 - Most active topic: openai
 - Busiest category: AI General News
 
