@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 22 Jun 2026 to 29 Jun 2026
+# 🗞️ AI THIS WEEK — 23 Jun 2026 to 30 Jun 2026
 
 ## 🔥 Biggest Story of the Week
 **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano**
@@ -54,7 +54,7 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 - **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — https://www.nature.com/articles/d41586-026-01672-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3235
+- Total stories tracked: 3194
 - Most active topic: openai
 - Busiest category: AI General News
 
