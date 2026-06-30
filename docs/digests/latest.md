@@ -7,10 +7,10 @@ Best source link: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-
 All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/ · https://www.ctinsider.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.beaumontenterprise.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.houstonchronicle.com/living/article/ai-chatbots-hit-the-dating-scene-becoming-the-22316384.php · https://www.bostonherald.com/2026/06/23/ai-chatbots-dating/ · https://www.fortmorgantimes.com/2026/06/23/ai-chatbots-dating/ · https://www.troyrecord.com/2026/06/23/ai-chatbots-dating/ · https://www.dailycamera.com/2026/06/23/ai-chatbots-dating/ · https://www.canoncitydailyrecord.com/2026/06/23/ai-chatbots-dating/ · https://www.timescall.com/2026/06/23/ai-chatbots-dating/ · https://japantoday.com/category/tech/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorn's-modern-day-cyrano · https://timesofindia.indiatimes.com/world/us/ai-chatbots-hit-dating-scene-becoming-the-lovelorns-modern-day-cyrano/articleshow/131953382.cms · https://www.yoursun.com/ai-chatbots-hit-the-dating-scene-becoming-the-lovelorns-modern-day-cyrano/article_4658c226-ef98-5d6d-9e22-3090b5caac92.html
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — science angle
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
-2. **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — science angle
+1. **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — science angle
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjNvOEhZc3NJWThkbGowSkxTempUOUFqeDhobXJxYjUzRFFYWkh6Y0hHbG5EakpDbDNUWkJ0V1RYSFBWMFJSRzJ4UnphdDlHRmdKb0E3VnBoSzdlTXVvWndrYjNZb3J0Smx2WnNKLXpaemVpWUhTWlZsalRaQkxlRmxQM2tTUmFVZFRUdWttZ18zVjBZWFJ3cWRuYTNHXzM5RGU4YklXd1BadVpu?oc=5
+2. **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — science angle
+   https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
 3. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
    https://www.nature.com/articles/d41586-026-01672-9
 4. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
@@ -19,10 +19,10 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3J5VHFrYnNPcGhYUWJ3T1dfbWk3TllfY2cxMkw3dFBkc0h4cnVaaGFTcXVpLV9CYkM2a3N6cVN1X2FGZ1JaUnl2NEs5YjZtekt1ZXBPdzhZMzN0V01IOXoyNm9hN3lXRFphVVEyUndnZVVhLTlnUm80NmV3R0dHeGNrc0tXS192WGZDWGRSRE1SdzNZei0waFcxSzN3dE9CY0c2Nm82TDEyNTBlV0YtRnV6Wmhvbk81Y0JGVnZJUkQxX0lRcWU4ZDBieVZhclAxcUpodTNYRy0?oc=5
 6. **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiywFBVV95cUxQdjhMYzFSb2xQSUdNSEF5ZlpfOFpRMUNtazRycEhld05WcFNQSTBFWUZsdHFEV0dScTlWMTdadThCeVdyTlktZjNVdmVSZU5MS2t2bHlIaDNnMHNqQTJxbDZCUGNzU0NwWVlBaV9iQWxzbld1djhuamZ2bG9MZFlKd1hhdklzRG1uYU9lbzBsTFpWUWhBWHNrWFBQeWxsTUw3dHllQ1pYS3pSUDNuZHJmYkNaRnUxMFAxX3N1cExFLUJLT2hQSmRsVVBYYw?oc=5
-7. **Nvidia’s Kimberly Powell: We are reinventing the doctor experience - Financial Times** — science angle
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2hyMlFMRnk0YVZocDNRdWY4TTd5cTBESzREQXZ1U25rNzNVVlJZWGFTaU55dmZzWjliMUFBUUVzWWlZT3I1T0o5eHY1ajM3RmxPTWVIaE40aDgwLXFXcjFCNnlWRUNyV3NRWnZ2WE5qcElWX0hfSkRYLUFpLXFxYmV0SVg?oc=5
-8. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
+7. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
    https://www.nature.com/articles/s41586-026-10674-6
+8. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxPWF9CbTZ3NS1NWVYxNDZNaXlVSGlCbGkzTkRNV1dXa0ZJcy1ERS1Qb0l4eXcwVVFYNGptZ2JDSmpzN19XMFY4ZmxGUjBXV1BVd2Y0a19POWtzVGpRRndkN3hhSzFmOUFZeGNvbGVTaGJ6RkN5Smt5OExqSkxzMzZHWXF1ZTVzOUVoNHRsU2NickZYczZwdDVjY3o5UnFpLWxBblpkX0VtWFBtOVhIakt0SFJtVQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI chatbots hit the dating scene, becoming the lovelorn’s modern-day Cyrano** — wtop — Score 133
@@ -49,12 +49,12 @@ All coverage: https://wtop.com/lifestyle/2026/06/ai-chatbots-hit-the-dating-scen
 ## 🧪 AI in Science Highlights
 - **AI medical conference returns to Miami July 10-12 - Rutland Herald** — https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcUtSdHBPQ043c3FwTjNpNGRUVkZVeUt5MTVVZXI3cVV2cVo4azRiUXFxOFVRcGdmM1BLNWcxSUVTakRaUFhzTURWMzNKMnpZY2FPTVJ1V1JyN0hfSjFCeEhLN1hsOGttZXRlUHR5MEdOUDhMTUhZNkhJYWJTMkc3bC1JS0lYR2dJeTFrVklSTEhGUno3WFBpLXY2aUhzVExPOWNEd0tNcFhfU3hyOGRlXzRMYm9SNmNWZnQwR2diRmlaVHNCLS1uRFZHR19Mc2dFUU5jWg?oc=5
 - **AI Search Engineers Announces Expansion Into the Medical Industry, Launching AI Search Visibility Services for Healthcare Providers , Physicians, and Medical Practices Across the United States - Newswire.com** — https://news.google.com/rss/articles/CBMirAFBVV95cUxOdU1ubERyeGVuamc4NmQzYl9JMkVONFEtdjczRklRWVlTS2d1QloxeF92ak1wWU1FczNaTDJXS0gyUmtwUnczOExzTnBYTDhNMlB0VVh3NHp0Tkk4Y21XTjA5NjVaYk9lNFp2dGNvYXhQTWpYZWRYOWRTTTRvZ2FXUF9DNGpBaW1MbDl5TGN4cThIaFgtTkhxMkFROFFkS2lJQmxwMWpXLWlpa0lW?oc=5
-- **Medicare's AI push snarls patients and doctors in errors and delays - CBS News** — https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWYxNFlsNlR5azdLRkhOUkNMZlFZUzVQclNhODVoV1ItU2Nua2psYm1LV0FPSkoxZFFmaUQ1SUdYd1FCRXo4MjZKWmlqSXczV1lZelBYUlhicGYwTnBveGUzaHZ3THNYR2ptSjhSV0xYSzJvQk13WlRTaGU3MEEtWW9nOUpDanBOV1MwNGtFTm9uc00?oc=5
 - **Illinois hospitals deploy AI tools to free doctors from paperwork - Shaw Local** — https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjNvOEhZc3NJWThkbGowSkxTempUOUFqeDhobXJxYjUzRFFYWkh6Y0hHbG5EakpDbDNUWkJ0V1RYSFBWMFJSRzJ4UnphdDlHRmdKb0E3VnBoSzdlTXVvWndrYjNZb3J0Smx2WnNKLXpaemVpWUhTWlZsalRaQkxlRmxQM2tTUmFVZFRUdWttZ18zVjBZWFJ3cWRuYTNHXzM5RGU4YklXd1BadVpu?oc=5
+- **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
 - **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — https://www.nature.com/articles/d41586-026-01672-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3138
+- Total stories tracked: 3099
 - Most active topic: openai
 - Busiest category: AI General News
 
