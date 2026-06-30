@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T20:17:38.103694+00:00",
+  "generated_at": "2026-06-30T04:35:29.084458+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A tool that uses ChatGPT to generate images.",
-      "audience_angle": "Create amazing images with the power of AI.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the AI image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT Images 2.0 has an affiliate program for creators."
       },
       "sources": [
         {
@@ -41,194 +41,182 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Graphic Design",
-        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
-        "The Future of Visual Content: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 for Professional Visual Content",
+        "Top 5 Features of ChatGPT Images 2.0 You Need to Know",
+        "Creating Stunning Images with ChatGPT Images 2.0: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "Google Veo 3.1",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "Using AI to generate videos for various purposes.",
-      "audience_angle": "Make engaging videos without extensive video production knowledge.",
-      "linkedin_angle": "Leverage AI video generation to enhance your marketing strategy.",
+      "what_it_is": "Google Veo 3.1 is a free and unlimited AI video generator.",
+      "audience_angle": "Create high-quality videos with Google Veo 3.1 without spending a dime.",
+      "linkedin_angle": "Utilize Google Veo 3.1 to produce engaging video content for your business.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI video generation tools offer affiliate programs."
+        "affiliate_likely": false,
+        "note": "Google Veo 3.1 is a free tool with no affiliate program."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video",
-          "signal": "AI video generation tutorials and reviews."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uiqjwn/found_an_easter_egg_in_the_android_chatgpt_app/",
-          "signal": "Discussions on AI video generation capabilities."
+          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
+          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
         }
       ],
       "content_ideas": [
-        "Top 5 AI Video Generation Tools for Beginners",
-        "How to Make Money with AI-Generated Videos",
-        "The Impact of AI on the Video Production Industry"
+        "Getting Started with Google Veo 3.1: A Beginner's Guide",
+        "5 Creative Ways to Use Google Veo 3.1 for Your Business",
+        "Google Veo 3.1 vs. Other AI Video Generators: Which One Reigns Supreme?"
       ]
     },
     {
-      "name": "ChatGPT vs. Gemini",
-      "category": "debate",
+      "name": "AI Video Creation",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube",
         "reddit"
       ],
-      "what_it_is": "Comparing the capabilities and features of ChatGPT and Gemini AI models.",
-      "audience_angle": "Which AI model is better for your needs?",
-      "linkedin_angle": "Understanding the differences between ChatGPT and Gemini for professional applications.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No direct affiliate programs for these comparisons."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+vs+gemini",
-          "signal": "Comparison videos and discussions."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uj0utp/how_many_people_actually_have_chatgpt_premium_if/",
-          "signal": "User discussions and preferences."
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT vs. Gemini: Which AI Model is More Accurate?",
-        "A Comprehensive Comparison of ChatGPT and Gemini for Business Use",
-        "The Future of AI: ChatGPT and Gemini Advancements"
-      ]
-    },
-    {
-      "name": "AI Agents for Automation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Using AI agents to automate tasks and processes.",
-      "audience_angle": "Automate your workflow with AI agents.",
-      "linkedin_angle": "Enhance productivity with AI-powered automation.",
-      "local_relevance": 9,
+      "what_it_is": "AI video creation involves using artificial intelligence to generate high-quality videos.",
+      "audience_angle": "Discover the power of AI video creation and take your content to the next level.",
+      "linkedin_angle": "Explore the potential of AI video creation for your business and professional growth.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI agent platforms offer affiliate programs."
+        "note": "Several AI video creation tools have affiliate programs for creators."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+agents",
-          "signal": "Tutorials and explanations on using AI agents."
+          "url": "https://www.youtube.com/watch?v=mI9ekLzBXF8",
+          "signal": "Make FREE AI Videos (Dialogues + Lip Sync) FULL WORKFLOW"
         },
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48701615",
-          "signal": "Discussions on AI agent applications and development."
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uj0j1m/i_asked_chatgpt_for_the_funniest_comic_ever_and/",
+          "signal": "I asked ChatGPT for the Funniest Comic Ever and Got this Masterpiece :D"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI Agents for Automation",
-        "How AI Agents Can Revolutionize Your Business",
-        "The Ethics of Using AI Agents for Task Automation"
+        "The Ultimate Guide to AI Video Creation: Tips, Tricks, and Tools",
+        "How to Use AI Video Creation for Your Business: A Step-by-Step Guide",
+        "The Future of Video Content: How AI Video Creation is Revolutionizing the Industry"
       ]
     },
     {
-      "name": "AI in Education",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "The application of AI in educational settings.",
-      "audience_angle": "How AI can enhance learning experiences.",
-      "linkedin_angle": "The potential of AI to transform education.",
-      "local_relevance": 7,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No direct affiliate programs for educational content."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+in+education",
-          "signal": "Educational videos and discussions on AI in education."
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093",
-          "signal": "Articles and discussions on the integration of AI in education."
-        }
-      ],
-      "content_ideas": [
-        "The Role of AI in Personalized Learning",
-        "AI-Powered Tools for Teachers: A Review",
-        "The Future of Education: How AI Will Change Learning"
-      ]
-    },
-    {
-      "name": "Making Money with AI",
-      "category": "use_case",
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
         "reddit"
       ],
-      "what_it_is": "Using AI to generate income through various methods.",
-      "audience_angle": "Earn money by leveraging AI capabilities.",
-      "linkedin_angle": "Exploring AI-driven opportunities for professional growth.",
+      "what_it_is": "ChatGPT Agent is a tool that allows users to interact with ChatGPT in a more human-like way.",
+      "audience_angle": "Experience the power of ChatGPT Agent and take your conversations to the next level.",
+      "linkedin_angle": "Leverage ChatGPT Agent to enhance your professional interactions and productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Agent has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=frtyERiYaqs",
+          "signal": "Chat GPT Chat Pati"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uj3x7y/bafta_games_awards_but_the_categories_are_cursed/",
+          "signal": "BAFTA Games Awards, but the categories are cursed"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Agent: A Beginner's Guide",
+        "5 Creative Ways to Use ChatGPT Agent for Your Business",
+        "ChatGPT Agent vs. Other Chatbots: Which One Reigns Supreme?"
+      ]
+    },
+    {
+      "name": "AI for Earning",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI for earning involves using artificial intelligence to generate income and revenue.",
+      "audience_angle": "Discover the potential of AI for earning and take your finances to the next level.",
+      "linkedin_angle": "Explore the possibilities of AI for earning and professional growth.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI tools and courses offer affiliate programs."
+        "note": "Several AI for earning tools have affiliate programs for creators."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+make+money",
-          "signal": "Tutorials and success stories on making money with AI."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uj1tie/opus_48_or_gpt55_for_someone_who_uses_ai_for/",
-          "signal": "Discussions on using AI for financial gain."
+          "url": "https://www.youtube.com/watch?v=HNrJ_tohFMU",
+          "signal": "The ONLY 7 Ways to Make Money with AI in 2026"
         }
       ],
       "content_ideas": [
-        "Top AI Tools for Making Money Online",
-        "How to Create and Sell AI-Generated Products",
-        "The Potential of AI in Investing and Trading"
+        "The Ultimate Guide to AI for Earning: Tips, Tricks, and Tools",
+        "How to Use AI for Earning: A Step-by-Step Guide",
+        "The Future of Earning: How AI is Revolutionizing the Way We Make Money"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "AI agents are programs that use artificial intelligence to perform tasks and make decisions.",
+      "audience_angle": "Discover the power of AI agents and take your productivity to the next level.",
+      "linkedin_angle": "Leverage AI agents to enhance your professional productivity and growth.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI agent tools have affiliate programs for creators."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k5jYwyhDMxA",
+          "signal": "5 AI Agent Terms You Need to Know"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://outyet.ai",
+          "signal": "Is It Out Yet?"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with AI Agents: A Beginner's Guide",
+        "5 Creative Ways to Use AI Agents for Your Business",
+        "AI Agents vs. Other Automation Tools: Which One Reigns Supreme?"
       ]
     }
   ],
@@ -240,16 +228,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A tool that uses ChatGPT to generate images.",
-      "audience_angle": "Create amazing images with the power of AI.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the AI image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT Images 2.0 has an affiliate program for creators."
       },
       "sources": [
         {
@@ -259,36 +247,104 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Graphic Design",
-        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
-        "The Future of Visual Content: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 for Professional Visual Content",
+        "Top 5 Features of ChatGPT Images 2.0 You Need to Know",
+        "Creating Stunning Images with ChatGPT Images 2.0: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Google Veo 3.1",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Veo 3.1 is a free and unlimited AI video generator.",
+      "audience_angle": "Create high-quality videos with Google Veo 3.1 without spending a dime.",
+      "linkedin_angle": "Utilize Google Veo 3.1 to produce engaging video content for your business.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Google Veo 3.1 is a free tool with no affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
+          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Google Veo 3.1: A Beginner's Guide",
+        "5 Creative Ways to Use Google Veo 3.1 for Your Business",
+        "Google Veo 3.1 vs. Other AI Video Generators: Which One Reigns Supreme?"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Agent is a tool that allows users to interact with ChatGPT in a more human-like way.",
+      "audience_angle": "Experience the power of ChatGPT Agent and take your conversations to the next level.",
+      "linkedin_angle": "Leverage ChatGPT Agent to enhance your professional interactions and productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Agent has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=frtyERiYaqs",
+          "signal": "Chat GPT Chat Pati"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uj3x7y/bafta_games_awards_but_the_categories_are_cursed/",
+          "signal": "BAFTA Games Awards, but the categories are cursed"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Agent: A Beginner's Guide",
+        "5 Creative Ways to Use ChatGPT Agent for Your Business",
+        "ChatGPT Agent vs. Other Chatbots: Which One Reigns Supreme?"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage limits and costs",
-      "who_affected": "Small business owners and individuals",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=stop+wasting+money+on+claude"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uj1ffc/the_chatgpt_app_accesses_your_photos_in_the/"
         }
       ],
-      "content_opportunity": "Alternatives to Claude for cost-effective AI solutions."
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Tricks"
     },
     {
-      "problem": "AI model accuracy and reliability",
-      "who_affected": "Developers and users of AI models",
-      "signal_strength": 8,
+      "problem": "AI-generated content quality",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48701615"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q6y4JFUa7sk"
         }
       ],
-      "content_opportunity": "Best practices for improving AI model accuracy and reliability."
+      "content_opportunity": "The Ultimate Guide to Improving AI-Generated Content Quality"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
