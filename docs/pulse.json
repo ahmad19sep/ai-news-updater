@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T10:02:51.867874+00:00",
+  "generated_at": "2026-06-30T14:45:08.381459+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,156 +9,247 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 23,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Updates and Applications",
+      "name": "ChatGPT Updates",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT is an AI model that can understand and respond to human input in a conversational manner.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even make money.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for business and career growth.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT is an AI chatbot that can have conversations and answer questions.",
+      "audience_angle": "Stay up-to-date with the latest updates and improvements to ChatGPT.",
+      "linkedin_angle": "Learn how ChatGPT can be used in a professional setting to improve productivity.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT has an affiliate program for developers."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2b3IzVTncSs",
-          "signal": "Meta Pauses AI-Traning Tool That Tracks Employees After Internal Leaks"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Make Money with ChatGPT",
-        "10 Ways to Use ChatGPT for Business",
-        "ChatGPT vs. Claude: Which AI Model is Better for You?"
+        "How to use ChatGPT for customer service",
+        "ChatGPT updates: what's new and what's next",
+        "Using ChatGPT for language translation"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "Google Veo 3.1",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Veo 3.1 is a free and unlimited AI video tool.",
+      "audience_angle": "Create high-quality videos with Google Veo 3.1.",
+      "linkedin_angle": "Use Google Veo 3.1 to create engaging video content for your business.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Google Veo 3.1 is a free tool."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use Google Veo 3.1 for video creation",
+        "Google Veo 3.1 tutorial: getting started",
+        "Using Google Veo 3.1 for social media videos"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "technique",
       "momentum": "rising",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "AI video generation refers to the use of artificial intelligence to create videos automatically.",
-      "audience_angle": "You can use AI video generation to create engaging content without extensive video production experience.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
+      "what_it_is": "AI agents are programs that can perform tasks autonomously.",
+      "audience_angle": "Learn how to use AI agents to automate tasks and improve productivity.",
+      "linkedin_angle": "Discover how AI agents can be used in a business setting to improve efficiency.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI agent tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=b0ymN8OgiMM",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.phantafield.com/whitepaper",
+          "signal": "65"
+        }
+      ],
+      "content_ideas": [
+        "How to build an AI agent from scratch",
+        "Using AI agents for customer service",
+        "AI agents for marketing automation"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude is an AI tool that can be used for various tasks.",
+      "audience_angle": "Learn how to use Claude to improve productivity and earn money.",
+      "linkedin_angle": "Discover how Claude can be used in a professional setting.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs."
+        "note": "Claude has an affiliate program."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=21VUT6zZsP0",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.phantafield.com/whitepaper",
-          "signal": "Sophon PFG-1: a monolithic-3D AI ASIC with 330 GB of on-die DRAM and no HBM"
+          "url": "https://www.youtube.com/watch?v=iTY8Q449YNQ",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning AI-Generated Videos",
-        "The Future of Video Content: AI Generation and Beyond",
-        "AI Video Generation for Beginners: A Step-by-Step Guide"
+        "How to use Claude for affiliate marketing",
+        "Claude tutorial: getting started",
+        "Using Claude for content creation"
       ]
     },
     {
-      "name": "Google Veo 3.1",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "AI Video Generation",
+      "category": "technique",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Veo 3.1 is an AI-powered tool for generating content.",
-      "audience_angle": "You can use Google Veo 3.1 to create high-quality content quickly and efficiently.",
-      "linkedin_angle": "Learn how to leverage Google Veo 3.1 for your business content needs.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Google Veo 3.1 may offer an affiliate program for its premium features."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
-          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially (Hidden Working Methods) | No Credits Needed"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Google Veo 3.1: A Beginner's Guide",
-        "Google Veo 3.1 for Content Creation: Tips and Tricks",
-        "How to Use Google Veo 3.1 for Your Business Content Needs"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Updates and Applications",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "ChatGPT is an AI model that can understand and respond to human input in a conversational manner.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even make money.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for business and career growth.",
+      "what_it_is": "AI video generation is the process of creating videos using AI tools.",
+      "audience_angle": "Learn how to create high-quality videos using AI tools.",
+      "linkedin_angle": "Discover how AI video generation can be used in a business setting.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "Some AI video generation tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mI9ekLzBXF8",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to create AI-generated videos for social media",
+        "AI video generation tutorial: getting started",
+        "Using AI video generation for marketing"
+      ]
+    },
+    {
+      "name": "NanoEuler",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "NanoEuler is a GPT-2 scale model in pure C/CUDA from scratch.",
+      "audience_angle": "Learn how to use NanoEuler for AI tasks.",
+      "linkedin_angle": "Discover how NanoEuler can be used in a professional setting.",
+      "local_relevance": 5,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "NanoEuler is an open-source tool."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/JustVugg/nanoeuler",
+          "signal": "77"
+        }
+      ],
+      "content_ideas": [
+        "How to use NanoEuler for natural language processing",
+        "NanoEuler tutorial: getting started",
+        "Using NanoEuler for text generation"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Updates",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT is an AI chatbot that can have conversations and answer questions.",
+      "audience_angle": "Stay up-to-date with the latest updates and improvements to ChatGPT.",
+      "linkedin_angle": "Learn how ChatGPT can be used in a professional setting to improve productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for developers."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2b3IzVTncSs",
-          "signal": "Meta Pauses AI-Traning Tool That Tracks Employees After Internal Leaks"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Make Money with ChatGPT",
-        "10 Ways to Use ChatGPT for Business",
-        "ChatGPT vs. Claude: Which AI Model is Better for You?"
+        "How to use ChatGPT for customer service",
+        "ChatGPT updates: what's new and what's next",
+        "Using ChatGPT for language translation"
       ]
     },
     {
@@ -168,44 +259,118 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Veo 3.1 is an AI-powered tool for generating content.",
-      "audience_angle": "You can use Google Veo 3.1 to create high-quality content quickly and efficiently.",
-      "linkedin_angle": "Learn how to leverage Google Veo 3.1 for your business content needs.",
-      "local_relevance": 6,
+      "what_it_is": "Google Veo 3.1 is a free and unlimited AI video tool.",
+      "audience_angle": "Create high-quality videos with Google Veo 3.1.",
+      "linkedin_angle": "Use Google Veo 3.1 to create engaging video content for your business.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Google Veo 3.1 may offer an affiliate program for its premium features."
+        "affiliate_likely": false,
+        "note": "Google Veo 3.1 is a free tool."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
-          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially (Hidden Working Methods) | No Credits Needed"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Getting Started with Google Veo 3.1: A Beginner's Guide",
-        "Google Veo 3.1 for Content Creation: Tips and Tricks",
-        "How to Use Google Veo 3.1 for Your Business Content Needs"
+        "How to use Google Veo 3.1 for video creation",
+        "Google Veo 3.1 tutorial: getting started",
+        "Using Google Veo 3.1 for social media videos"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude is an AI tool that can be used for various tasks.",
+      "audience_angle": "Learn how to use Claude to improve productivity and earn money.",
+      "linkedin_angle": "Discover how Claude can be used in a professional setting.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude has an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iTY8Q449YNQ",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use Claude for affiliate marketing",
+        "Claude tutorial: getting started",
+        "Using Claude for content creation"
+      ]
+    },
+    {
+      "name": "NanoEuler",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "NanoEuler is a GPT-2 scale model in pure C/CUDA from scratch.",
+      "audience_angle": "Learn how to use NanoEuler for AI tasks.",
+      "linkedin_angle": "Discover how NanoEuler can be used in a professional setting.",
+      "local_relevance": 5,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "NanoEuler is an open-source tool."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/JustVugg/nanoeuler",
+          "signal": "77"
+        }
+      ],
+      "content_ideas": [
+        "How to use NanoEuler for natural language processing",
+        "NanoEuler tutorial: getting started",
+        "Using NanoEuler for text generation"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "Individuals and businesses using ChatGPT for content generation and automation",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits",
+      "who_affected": "Free users",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ujjkti/please_tell_me_im_not_the_only_one/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ujpywh/did_chatgpt_recently_get_rid_of_limits_for_free/"
         }
       ],
-      "content_opportunity": "Exploring affordable alternatives to ChatGPT and optimizing usage to minimize costs."
+      "content_opportunity": "Workaround for ChatGPT usage limits"
+    },
+    {
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators",
+      "signal_strength": 8,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48713041"
+        }
+      ],
+      "content_opportunity": "How to detect AI-generated content"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "Google Veo 3.1"
 }
