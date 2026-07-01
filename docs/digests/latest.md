@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
 5. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 76
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
-6. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGhNVXRvX1B5M1RZM1E2YTR5OF9rb3lTT2dQRGp4bmx0MXBXSzhtRnhXTGdoQTY0QTU5a0p1bkRaOF9uQWZEbHgweEs2VUpzbXZsbExDdF9aN3VKTlR6WDdZWVEyUTI3OFMwTXp6SlQtb0l4ZmVIZEpBV0xxTFVjWUcxQ3owV1UybmU3SjJqNXVxQlHSAZgBQVVfeXFMUFZnOFpHeDc3cVl3SmFERS0wN2oxR21JREl2LWo5VUtJdFRqRFVQZWNzczFrZC12d0JMVE9kVGcwMldsdDRJQmt1aGRrbHg2T3RybGdCQmpyMVNUT2Vqc1dleXRuX1VpUmVWMHdJOEJNNUkwQjVxOHJjMHRYUy1lMGdXUkk1d0tsLWFTVmZaLVNmTlRMRkU5VHc?oc=5
-7. **The AI build-out is driving prices higher for consumers** — kutv — Score 63
+6. **The AI build-out is driving prices higher for consumers** — kutv — Score 63
    https://kutv.com/news/nation-world/ai-spending-surge-adds-new-inflation-pressure-computing-chips-electronics-data-center-construction-electricity
-8. **Oracle cuts 21,000 jobs as AI reshapes workforce - MSN** — AI Jobs S Asia — Score 63
+7. **Oracle cuts 21,000 jobs as AI reshapes workforce - MSN** — AI Jobs S Asia — Score 63
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSVVTdVdIbnR0QjFaY3R1WmtDazMwSU9mZ1JUTUhDT0VtdkNYZVZnakhUVDNaM2VvcG1KOXJpZElRZGtmLW9HanY1WFQ5cENKVnJ0bzZCUUFnMGlqRzVrRHY2TTYwVlBaYUtNekN2RVFlb3RiclFLUGRUd2lXNzc0X28zU1FzUFlHV29ORjRDbWd1NUZ5WDA0cWdGQ1FuOWxEVU44Zmdvai1kR2ZwZ1hsQUZLQTRmS29IREo3am5IdXBERk5yRXVXQnhYa2NkNTBqVGNxV3JRR2dWYkJSMGk3ZUd1ZGtGUQ?oc=5
-9. **Oracle cuts 21,000 jobs as California debuts AI job-loss tracker - MSN** — AI Jobs S Asia — Score 63
+8. **Oracle cuts 21,000 jobs as California debuts AI job-loss tracker - MSN** — AI Jobs S Asia — Score 63
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTExDMlhRSHZaTHZDNXNLQkpaNmQxN2pmTkZrdXh4SXRVYV9VQ3EzQ0RldTh6LWkwYVVzaUgxbXJ6VDFETnFXMVh5TEZQQzlTT210MnhnNkRLZGhVUFZpZnkweTVYYklxRGx6anpOU0VuajVXNkNRS3ZkMnBxRHFxRTVyem1ZeDdyVk9YaTdnTk5IcWdLV1pqOGtydDFqLXkyX0JFX0l2UThNRXZrU3pObTJ2NGxQR0R3eGlNbGZoRVNacExpWkkyYXVnQjlxMC0tdGFyS09UajRxT3ZqYUp4QWJDa1RMSHZERGFyYzFYa2pBb3NXNGVuY1ppR0w?oc=5
-10. **Previewing GPT‑5.6 Sol: a next-generation model** — Hacker News AI — Score 61.0
+9. **Previewing GPT‑5.6 Sol: a next-generation model** — Hacker News AI — Score 61.0
    https://openai.com/index/previewing-gpt-5-6-sol/
+10. **Quantum AI Microcities Project Launch First Global AGI Communities Clinical Trial Network (Veterans First for America)** — financialpost — Score 58
+   https://financialpost.com/globe-newswire/quantum-ai-microcities-project-launch-first-global-agi-communities-clinical-trial-network-veterans-first-for-america
 
 ## 🧪 AI in Science Highlights
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **Medical Care Technologies Inc.: Medical Care Technologies, Inc. Showcases Diversified Technology Portfolio with Newly Launched Platforms Across AI Health, Enterprise Vision Solutions, and Collectibles Markets** — https://www.finanznachrichten.de/nachrichten-2026-06/68864633-medical-care-technologies-inc-medical-care-technologies-inc-showcases-diversified-technology-portfolio-with-newly-launched-platforms-across-ai-hea-200.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3159
-- Most active topic: anthropic
+- Total stories tracked: 3139
+- Most active topic: models
 - Busiest category: AI General News
 
 ---
