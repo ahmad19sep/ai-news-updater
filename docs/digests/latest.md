@@ -13,26 +13,26 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
 3. **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiywFBVV95cUxQdjhMYzFSb2xQSUdNSEF5ZlpfOFpRMUNtazRycEhld05WcFNQSTBFWUZsdHFEV0dScTlWMTdadThCeVdyTlktZjNVdmVSZU5MS2t2bHlIaDNnMHNqQTJxbDZCUGNzU0NwWVlBaV9iQWxzbld1djhuamZ2bG9MZFlKd1hhdklzRG1uYU9lbzBsTFpWUWhBWHNrWFBQeWxsTUw3dHllQ1pYS3pSUDNuZHJmYkNaRnUxMFAxX3N1cExFLUJLT2hQSmRsVVBYYw?oc=5
-4. **An ECG biomarker for sudden cardiac death discovered with deep learning** — science angle
-   https://www.nature.com/articles/s41586-026-10674-6
-5. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
+4. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPWF9CbTZ3NS1NWVYxNDZNaXlVSGlCbGkzTkRNV1dXa0ZJcy1ERS1Qb0l4eXcwVVFYNGptZ2JDSmpzN19XMFY4ZmxGUjBXV1BVd2Y0a19POWtzVGpRRndkN3hhSzFmOUFZeGNvbGVTaGJ6RkN5Smt5OExqSkxzMzZHWXF1ZTVzOUVoNHRsU2NickZYczZwdDVjY3o5UnFpLWxBblpkX0VtWFBtOVhIakt0SFJtVQ?oc=5
-6. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
+5. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFdsc3NfM3BHX29LTkNsbE41NTY3WFBXSUZhZzB1Y2ZDOGFraUdFVkdFelVtMmxfM1FCLXN1SmtHSUVzZTI5bkY3NEJIOVpXTXVzSTg3eVZSTU8tbXJOYWFnbDRDempMeGRIU0dPV3QyRGdWdlRoUFZ5Q19QRzZneHNqWFhTci1DQjBIVHJzdzdUTzRkY2ZvNHpHclYwaW1VTXFmX0x1UDM3NmhlakgxZGtLZw?oc=5
-7. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
+6. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxPajQ4eGZOTFFXc2pTcWc2Mk5UallGWTJ0TUZKZ19YcGNOQmlfMmlIZzdxamxTbkh3WXNBa05vRzQ4bnZfV3g1UjlXR1lXSW9RWGVSQXZFZlFDeWpuR0VLYzVUeFphX21RRTNhSVlXMmdZVG9jOXFDdTN4YjFDamNKRUJKNFRVVjA0SHVNZWI4XzRzTjQ?oc=5
-8. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
+7. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
    https://www.nature.com/articles/d41586-026-01672-9
+8. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
+   https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR0ZVZjZaYnh4NS1FVnFMd0wxZFQ1Wk13ZUdYXzlRZ2NiTmxvNUx1NURsV2kyTlJQTWVCVTJiZkVyZzJtSEc2ZXNLX3daUzBLUmdDZ1Q2X1ZCQjVreU5MaTFKTEo0SHMyMS1XMmVSOHRqSFJfM2d0U0JyYWJHaWVKbHNCTWdNSWhESk9mY1c5N0NzenFhSEVvb0tiMnJFRHNGZjFHMG95dHFIcTZYMVY3cS1IZ2M0WmhhLVlNd2w5M3o5WVhhWFhZWEdB?oc=5
 2. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 113
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZLZS1vZGp0VkpOUWJpYWtFUTJldjFtVkpKT19nbUpGS2FaWEJxY0Q0ZU9vWC1SQm9vOUJaM210a09JU1FYekNiamdFOG5Kd3pWU1YxdS1JQ0Y5elBweWNkaWZKTUhneG9tUG03WHpWc1dtT0pkRk10LTg0T19tZThqQ2R3cVhlNE1wWHdMTFQyRjdWV0pKcWFISG81WnRKNFdVRkpoRnQtVVF2X1YxU0dzNnNJZTNNQnVFcFplRlN5OGdTNjFDazdGLTlrQm5CeUZCWTFsMHI?oc=5
-3. **Top developers are pivoting from chatbots to physical AI - Northeast Mississippi Daily Journal** — AI in Coding — Score 93
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
-4. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 86
+3. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 106
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZW5DOTdyVk5SQnVVelVrOGx3QmJaaFBqZ3g3YkJpYXE5TGNvWTJHVTRHNVNUdHNqMml5Q3VhaGRpV1gtTWNqbkh4M2ZON1FuUG05eVNVRGsxRHRtRlVpald2NXktMXBqX1JQNUVOY055UVpRc3doSU4xZmpJb3lQd0hKemJFaVVydTRvdGpXeERvWDJqRXB1clBLeDBmTDBJUdIBrwFBVV95cUxOcVVBWUZHVXVyV05VV2w3WC13NFdKNXZZUDZqcThlYWlTN1g5T1FWa3ZfaTlHMHotejh6SV9YWmV0SjhSWUJRbEMwY2JsNlp3TE03OUZnMExLck9PNURUN3lYTElQcUY5ZzgxZ0o4elM1YW9sdnU0TDNDVWZ3TWIxdmphWV80Sml3NVBZaFZ5MkVDR29KektPbUttLVJIdXpzZkZNUU5Sdjh3akF6ZDdr?oc=5
+4. **Top developers are pivoting from chatbots to physical AI - Northeast Mississippi Daily Journal** — AI in Coding — Score 93
+   https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
 5. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 76
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
 6. **California gas stations accused of using AI to inflate prices - FOX 56 News** — Using AI To... — Score 63
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **Medical Care Technologies Inc.: Medical Care Technologies, Inc. Showcases Diversified Technology Portfolio with Newly Launched Platforms Across AI Health, Enterprise Vision Solutions, and Collectibles Markets** — https://www.finanznachrichten.de/nachrichten-2026-06/68864633-medical-care-technologies-inc-medical-care-technologies-inc-showcases-diversified-technology-portfolio-with-newly-launched-platforms-across-ai-hea-200.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3163
+- Total stories tracked: 3159
 - Most active topic: anthropic
 - Busiest category: AI General News
 
