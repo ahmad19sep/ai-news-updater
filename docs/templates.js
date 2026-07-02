@@ -311,19 +311,19 @@ window.buildXPrompt = function (o) {
 window.SOCIAL = {
   youtube: {
     label: "YouTube",
-    rules: "Platform: YouTube (community post / Short caption). Open with a strong curiosity or bold hook in the FIRST line. Then 2-4 short lines on why this matters to a normal person. End with a clear CTA to watch and subscribe to @aixahmad. 1-2 emojis max. Put the link at the end. 2-3 relevant hashtags.",
+    rules: "Platform: YouTube community post. AUDIENCE: people who follow AI casually and like watching, not reading. Write like a creator talking to his own community — first person, warm, very simple English. One clear point + why you find it interesting ('I keep thinking about…'). End with one easy question. 1-2 emojis max. Link at the end. 1-2 hashtags.",
   },
   facebook: {
     label: "Facebook",
-    rules: "Platform: Facebook page post. Start with a scroll-stopping hook line. Then 3-5 short, simple, engaging lines with a relatable angle for a global audience. Ask ONE question at the end to spark comments. Put the link on its own line at the end. 2-3 hashtags. A few natural emojis.",
+    rules: "Platform: Facebook page post. AUDIENCE: normal everyday people — NOT techies. Explain it like you're telling a friend at the table, in the simplest words possible: what happened and what it changes for regular people (jobs, money, phones, kids, daily life). First person, give your own small opinion. 3-5 short lines. ONE easy question at the end that anyone can answer. A couple of natural emojis. Link on its own line. 1-2 hashtags max.",
   },
   whatsapp: {
     label: "WhatsApp Channel",
-    rules: "Platform: WhatsApp Channel broadcast. Very punchy and skimmable. A strong 1-line hook with one emoji. Then 2-3 short lines of the key point. End with the link and a soft line like 'Follow for daily AI updates'. Avoid hashtags (they don't help on WhatsApp).",
+    rules: "Platform: WhatsApp Channel. AUDIENCE: people who want quick useful updates. Write it like a short message you'd send to a friends group — direct, simple, zero formality. 1-line hook with one emoji, 2-3 short lines of the key point + one line of your take, then the link. No hashtags.",
   },
   instagram: {
     label: "Instagram",
-    rules: "Platform: Instagram caption. Bold hook as the first line. Short engaging lines with line breaks and tasteful emojis. Strong CTA to follow @aixahmad. Instagram captions can't have clickable links, so write 'Full story — link in bio' instead of pasting the URL. End with 6-10 relevant hashtags.",
+    rules: "Platform: Instagram caption. AUDIENCE: younger creators, students, freelancers — they feel first, read second. Very short simple lines with breaks. Start with the most relatable line, add your honest take in plain words, keep it light. Tasteful emojis. Instagram links aren't clickable, so write 'Full story — link in bio'. End with 3-6 relevant hashtags (no stuffing).",
   },
 };
 
@@ -397,10 +397,10 @@ window.buildNewsroomPrompt = function (o) {
 '(Write a DIFFERENT image-generation prompt with NO text — a clean realistic hero photo showing another angle, wider context, or the human/business impact of the story. Real photo-based scene (startup office, AI lab, data centre, developer desk, investor meeting, newsroom), natural lighting, realistic shadows and textures, believable human detail. NO sci-fi glow, NO glossy AI look, NO logos, NO watermark, NO text. 16:9.)',
 '',
 '[[LINKEDIN]]',
-'(English. Write a professional but engaging LinkedIn post for smart professionals. Do not make it boring. Structure: 1) Strong first line based on the biggest implication, tension, or business impact. 2) Short context explaining what happened. 3) Explain why it matters for business, AI, tech, policy, creators, startups, workers, or consumers depending on the story. 4) Add one thoughtful discussion question. Use short paragraphs and whitespace. Tone: credible, human, sharp, not corporate. Length: 120-220 words. End exactly with: Read the full story:\n[ARTICLE LINK])',
+'(English. AUDIENCE: professionals, freelancers, founders. Write it as AHMAD GIVING HIS OWN OPINION in simple English — first person, like a person who follows AI daily sharing what he actually thinks, NOT a company update and NOT a news bulletin. Structure: 1) one strong human first line (his reaction or the thing people are missing). 2) 2-3 very short paragraphs: what happened, in plain words. 3) "My take:" — what this really means for professionals/freelancers/builders. 4) one easy, genuine question. Simple everyday words, zero corporate vocabulary, short paragraphs, whitespace. Length: 90-160 words. End exactly with: Read the full story:\n[ARTICLE LINK])',
 '',
 '[[X]]',
-'(English. Write a TEXT-ONLY X post — X downranks posts that contain links, so do NOT put any link or the [ARTICLE LINK] token anywhere in this post; the link will be posted as the FIRST REPLY instead. Do NOT write a press-release broadcast — write it like a person who follows AI daily reacting to the story. Structure: Line 1 = scroll-stopping hook from the strongest verified fact, number, surprise, conflict, or consequence. Lines 2-5 = short punchy lines: what happened + why it matters and for WHOM (builders, creators, jobs, money). Use whitespace. Then ONE line of Ahmad-style opinion ("my take:", "the part people ignore:"). FINAL line = a genuine, easy-to-answer question that invites the reader to pick a side or share their experience — a question a stranger can answer in 5 seconds. Tone: smart, human, a little opinionated, zero corporate. 0-1 hashtag max. Target length: 400-900 characters.)',
+'(English. AUDIENCE: builders, AI-curious people, creators scrolling fast. Write a TEXT-ONLY X post — X downranks posts with links, so NO link and NO [ARTICLE LINK] token anywhere in this post; the link goes in the FIRST REPLY. Write it like Ahmad typing his honest reaction on his phone — the SIMPLEST possible English, short lines, lowercase energy is fine, zero press-release feel. Structure: Line 1 = his reaction to the strongest fact/number ("ok this is actually big" energy, but specific). Lines 2-4 = what happened + who it affects, in plain words. One line of real opinion ("my take:" / "the part nobody mentions:"). FINAL line = one easy question a stranger can answer in 5 seconds (pick a side / share their experience). 0-1 hashtag. Length: 300-700 characters.)',
 '',
 '[[XREPLY]]',
 '(English. The first reply Ahmad posts under his own X post above, carrying the link. One casual line of extra context or "full breakdown here", then the link. End with: [ARTICLE LINK])',
@@ -409,16 +409,16 @@ window.buildNewsroomPrompt = function (o) {
 '(English. First line must be a Reddit-style title: descriptive, neutral, specific, not clickbait. Then write a neutral summary of the story in 2-4 short paragraphs. Add one genuine discussion question at the end. Do not ask for upvotes, shares, or engagement. End with [ARTICLE LINK])',
 '',
 '[[FACEBOOK]]',
-'(English. Write an engaging Facebook post for a general audience. Start with a relatable or surprising hook. Explain the story in simple language with 2-4 short paragraphs. Use light emojis only if natural. Make it easy to understand and easy to comment on. Avoid engagement bait like "comment YES" or "tag someone". End exactly with: Read the full story:\n[ARTICLE LINK])',
+'(English. AUDIENCE: normal everyday people, NOT techies. Write it like Ahmad telling a friend at the table what just happened — simplest words possible, first person, a small honest opinion. Focus on what it changes for regular people: jobs, money, phones, kids, daily life. 3-5 short lines, a couple of natural emojis. End with ONE easy question anyone can answer (no "comment YES" / "tag someone" bait). End exactly with: Read the full story:\n[ARTICLE LINK])',
 '',
 '[[INSTAGRAM]]',
-'(English. Write an Instagram caption. Start with a scroll-stopping first sentence. Then explain the key facts in a concise, visual, caption-friendly way. Use natural keywords people might search for. Use light emojis only if they fit the story. Add 3-6 relevant hashtags max. Avoid hashtag stuffing. End exactly with: Read the full story:\n[ARTICLE LINK])',
+'(English. AUDIENCE: younger creators, students, freelancers — they feel first, read second. Very short simple lines with line breaks. Start with the most relatable line, explain the key fact in plain words, add one honest "my take" line. Light emojis where they fit. 3-6 hashtags max, no stuffing. End exactly with: Read the full story:\n[ARTICLE LINK])',
 '',
 '[[WHATSAPP]]',
-'(English. Write a very concise WhatsApp/Channel update. Biggest fact first. Mobile-friendly. Short lines. Clear and useful. Minimal emojis only if natural. End exactly with: Read the full story:\n[ARTICLE LINK])',
+'(English. Write it like a short message to a friends group — direct, simple, zero formality. Biggest fact first, 2-3 short lines, one quick line of your take. Minimal emojis. End exactly with: Read the full story:\n[ARTICLE LINK])',
 '',
 '[[YOUTUBE]]',
-'(English. Write a YouTube Community post. Create curiosity in the first line. Explain the key development and why viewers should care. Ask one clear question to encourage discussion. Keep it short, direct, and community-friendly. End exactly with: Read the full story:\n[ARTICLE LINK])',
+'(English. AUDIENCE: Ahmad\'s own community — people who like AI but prefer watching to reading. Write like a creator talking to his people: first person, warm, curious, simple English. One clear point + why he finds it interesting, then one easy question. Short. End exactly with: Read the full story:\n[ARTICLE LINK])',
 '',
 '[[END]]',
   ].filter(x => x !== null && x !== undefined).join('\n');
