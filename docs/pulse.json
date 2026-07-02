@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T14:30:53.029391+00:00",
+  "generated_at": "2026-07-02T19:54:11.751377+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 28,
+      "reddit": 50,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,47 +22,78 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how the latest advancements in AI image generation can enhance your professional projects.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for various purposes.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation and marketing efforts.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT Images 2.0 may have an affiliate program for creators and marketers."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Professional Projects",
-        "Unlocking the Potential of AI-Generated Images with ChatGPT 2.0",
-        "A Step-by-Step Guide to Creating Stunning Images with ChatGPT Images 2.0"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "10 Unique Ways to Use ChatGPT Images 2.0 for Marketing",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Google Veo 3.1",
+      "name": "Gemma 4 31B",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "A new version of Google's Veo AI tool.",
-      "audience_angle": "Discover how Google Veo 3.1 can revolutionize your content creation.",
-      "linkedin_angle": "Learn how to leverage Google Veo 3.1 for professional content creation and marketing strategies.",
-      "local_relevance": 8,
+      "what_it_is": "Gemma 4 31B is a fine-tuned AI model for copywriting and creative writing tasks.",
+      "audience_angle": "You can use Gemma 4 31B to generate high-quality content for your writing needs.",
+      "linkedin_angle": "Discover how Gemma 4 31B can help you streamline your content creation process and improve your writing skills.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google offers affiliate programs for its tools and services."
+        "note": "Gemma 4 31B may have an affiliate program for writers and content creators."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqg4i/finetuned_gemma431b_specifically_for_copywriting/",
+          "signal": "Fine-tuned Gemma-4-31B specifically for Copywriting & Creative Writing Tasks"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Gemma 4 31B for Copywriting and Creative Writing",
+        "Gemma 4 31B Tutorial: A Step-by-Step Guide to Content Creation",
+        "5 Ways to Improve Your Writing with Gemma 4 31B"
+      ]
+    },
+    {
+      "name": "Google Veo 3.1",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Veo 3.1 is a tool that allows users to create and edit videos using AI.",
+      "audience_angle": "You can use Google Veo 3.1 to create stunning videos for various purposes, including marketing and social media.",
+      "linkedin_angle": "Explore how Google Veo 3.1 can enhance your video content creation and marketing efforts.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Veo 3.1 may have an affiliate program for creators and marketers."
       },
       "sources": [
         {
@@ -72,149 +103,168 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with Google Veo 3.1: A Beginner's Guide",
-        "5 Ways Google Veo 3.1 Can Enhance Your Content Creation",
-        "Google Veo 3.1 vs. Other AI Tools: Which One Reigns Supreme?"
+        "How to Create Stunning Videos with Google Veo 3.1",
+        "10 Unique Ways to Use Google Veo 3.1 for Marketing",
+        "Google Veo 3.1 Tutorial: A Step-by-Step Guide to Video Creation"
       ]
     },
     {
-      "name": "Claude Code",
+      "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "A coding tool powered by AI.",
-      "audience_angle": "Learn how Claude Code can help you build and deploy applications faster.",
-      "linkedin_angle": "Discover the potential of Claude Code for professional software development and coding tasks.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Code may offer affiliate programs or partnerships for its services."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QSK4vf_ZTRA",
-          "signal": "I Was The Only Thing Connecting Claude, ChatGPT, and Codex."
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://zcode.z.ai/cn",
-          "signal": "ZCode: Claude Code from the Makers of GLM"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Claude Code: The AI-Powered Coding Tool",
-        "How Claude Code Can Streamline Your Development Workflow",
-        "Claude Code Tutorial: Building a Simple Application"
-      ]
-    },
-    {
-      "name": "AI Video Creation",
-      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using AI to create videos.",
-      "audience_angle": "Create stunning videos with the power of AI.",
-      "linkedin_angle": "Explore how AI video creation can enhance your professional marketing and content strategies.",
-      "local_relevance": 9,
+      "what_it_is": "Claude AI is a tool that allows users to generate content and automate tasks using AI.",
+      "audience_angle": "You can use Claude AI to streamline your content creation process and improve your productivity.",
+      "linkedin_angle": "Discover how Claude AI can help you automate tasks and enhance your workflow.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video creation tools often offer affiliate programs or partnerships."
+        "note": "Claude AI may have an affiliate program for creators and marketers."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tsDubocT5Gg",
-          "signal": "Every FREE & UNLIMITED AI Video Tool in ONE Place"
+          "url": "https://www.youtube.com/watch?v=V_t51u1tBJc",
+          "signal": "How I Make $24,937/mo Posting YouTube Shorts (Using Claude AI)"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI Video Creation: A Beginner's Guide",
-        "5 AI Video Creation Tools You Need to Know",
-        "How to Use AI to Create Stunning Videos for Your Business"
+        "How to Use Claude AI for Content Creation and Automation",
+        "Claude AI Tutorial: A Step-by-Step Guide to Streamlining Your Workflow",
+        "5 Ways to Improve Your Productivity with Claude AI"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
-      "category": "technique",
+      "name": "ZCode",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "A feature of ChatGPT that allows for more advanced interactions.",
-      "audience_angle": "Unlock the full potential of ChatGPT with its Agent Mode.",
-      "linkedin_angle": "Discover how ChatGPT Agent Mode can enhance your professional productivity and workflow.",
-      "local_relevance": 7,
+      "what_it_is": "ZCode is a tool that allows users to generate code and automate tasks using AI.",
+      "audience_angle": "You can use ZCode to streamline your coding process and improve your productivity.",
+      "linkedin_angle": "Discover how ZCode can help you automate tasks and enhance your workflow.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT offers premium features and potentially affiliate programs."
+        "note": "ZCode may have an affiliate program for developers and coders."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "chatgpt agent mode"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulhlfl/how_good_is_agent_mode_at_applying_for_jobs/",
-          "signal": "How good is Agent mode at applying for jobs?"
+          "platform": "hackernews",
+          "url": "https://zcode.z.ai/en",
+          "signal": "ZCode – Harness for GLM-5.2"
         }
       ],
       "content_ideas": [
-        "Introduction to ChatGPT Agent Mode: What You Need to Know",
-        "How to Use ChatGPT Agent Mode for Job Applications",
-        "ChatGPT Agent Mode Tutorial: Advanced Interactions and Productivity"
+        "How to Use ZCode for Code Generation and Automation",
+        "ZCode Tutorial: A Step-by-Step Guide to Streamlining Your Coding Process",
+        "5 Ways to Improve Your Productivity with ZCode"
       ]
     },
     {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "hot",
+      "name": "Google Gemini OMNI",
+      "category": "tool_launch",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using AI for trading and investment decisions.",
-      "audience_angle": "Discover how AI can help you make better trading decisions.",
-      "linkedin_angle": "Explore the potential of AI in trading and investment strategies for professionals.",
-      "local_relevance": 8,
+      "what_it_is": "Google Gemini OMNI is a tool that allows users to create 2D cartoon movies using AI.",
+      "audience_angle": "You can use Google Gemini OMNI to create stunning cartoon movies for various purposes, including entertainment and education.",
+      "linkedin_angle": "Explore how Google Gemini OMNI can enhance your content creation and marketing efforts.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI trading tools and platforms often offer affiliate programs."
+        "note": "Google Gemini OMNI may have an affiliate program for creators and marketers."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "how to use ai for trading"
+          "url": "https://www.youtube.com/watch?v=WiwRJq55Yj8",
+          "signal": "Create 2D Cartoon Movies with Google Gemini OMNI (Full Tutorial)"
         }
       ],
       "content_ideas": [
-        "Introduction to AI Trading: Getting Started",
-        "5 Ways AI Can Enhance Your Trading Strategy",
-        "How to Use AI for Predictive Trading and Investment"
+        "How to Create Stunning Cartoon Movies with Google Gemini OMNI",
+        "10 Unique Ways to Use Google Gemini OMNI for Entertainment and Education",
+        "Google Gemini OMNI Tutorial: A Step-by-Step Guide to Cartoon Movie Creation"
       ]
     }
   ],
   "rising_tools": [
+    {
+      "name": "Google Veo 3.1",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Veo 3.1 is a tool that allows users to create and edit videos using AI.",
+      "audience_angle": "You can use Google Veo 3.1 to create stunning videos for various purposes, including marketing and social media.",
+      "linkedin_angle": "Explore how Google Veo 3.1 can enhance your video content creation and marketing efforts.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Veo 3.1 may have an affiliate program for creators and marketers."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
+          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with Google Veo 3.1",
+        "10 Unique Ways to Use Google Veo 3.1 for Marketing",
+        "Google Veo 3.1 Tutorial: A Step-by-Step Guide to Video Creation"
+      ]
+    },
+    {
+      "name": "Google Gemini OMNI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Gemini OMNI is a tool that allows users to create 2D cartoon movies using AI.",
+      "audience_angle": "You can use Google Gemini OMNI to create stunning cartoon movies for various purposes, including entertainment and education.",
+      "linkedin_angle": "Explore how Google Gemini OMNI can enhance your content creation and marketing efforts.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Gemini OMNI may have an affiliate program for creators and marketers."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WiwRJq55Yj8",
+          "signal": "Create 2D Cartoon Movies with Google Gemini OMNI (Full Tutorial)"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Cartoon Movies with Google Gemini OMNI",
+        "10 Unique Ways to Use Google Gemini OMNI for Entertainment and Education",
+        "Google Gemini OMNI Tutorial: A Step-by-Step Guide to Cartoon Movie Creation"
+      ]
+    },
     {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
@@ -222,124 +272,149 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how the latest advancements in AI image generation can enhance your professional projects.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for various purposes.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation and marketing efforts.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT Images 2.0 may have an affiliate program for creators and marketers."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "40"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Professional Projects",
-        "Unlocking the Potential of AI-Generated Images with ChatGPT 2.0",
-        "A Step-by-Step Guide to Creating Stunning Images with ChatGPT Images 2.0"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "10 Unique Ways to Use ChatGPT Images 2.0 for Marketing",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Claude Code",
+      "name": "ZCode",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube",
         "hackernews"
       ],
-      "what_it_is": "A coding tool powered by AI.",
-      "audience_angle": "Learn how Claude Code can help you build and deploy applications faster.",
-      "linkedin_angle": "Discover the potential of Claude Code for professional software development and coding tasks.",
+      "what_it_is": "ZCode is a tool that allows users to generate code and automate tasks using AI.",
+      "audience_angle": "You can use ZCode to streamline your coding process and improve your productivity.",
+      "linkedin_angle": "Discover how ZCode can help you automate tasks and enhance your workflow.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Code may offer affiliate programs or partnerships for its services."
+        "note": "ZCode may have an affiliate program for developers and coders."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QSK4vf_ZTRA",
-          "signal": "I Was The Only Thing Connecting Claude, ChatGPT, and Codex."
-        },
-        {
           "platform": "hackernews",
-          "url": "https://zcode.z.ai/cn",
-          "signal": "ZCode: Claude Code from the Makers of GLM"
+          "url": "https://zcode.z.ai/en",
+          "signal": "ZCode – Harness for GLM-5.2"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude Code: The AI-Powered Coding Tool",
-        "How Claude Code Can Streamline Your Development Workflow",
-        "Claude Code Tutorial: Building a Simple Application"
+        "How to Use ZCode for Code Generation and Automation",
+        "ZCode Tutorial: A Step-by-Step Guide to Streamlining Your Coding Process",
+        "5 Ways to Improve Your Productivity with ZCode"
       ]
     },
     {
-      "name": "Google Veo 3.1",
+      "name": "Gemma 4 31B",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "Gemma 4 31B is a fine-tuned AI model for copywriting and creative writing tasks.",
+      "audience_angle": "You can use Gemma 4 31B to generate high-quality content for your writing needs.",
+      "linkedin_angle": "Discover how Gemma 4 31B can help you streamline your content creation process and improve your writing skills.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Gemma 4 31B may have an affiliate program for writers and content creators."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqg4i/finetuned_gemma431b_specifically_for_copywriting/",
+          "signal": "Fine-tuned Gemma-4-31B specifically for Copywriting & Creative Writing Tasks"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Gemma 4 31B for Copywriting and Creative Writing",
+        "Gemma 4 31B Tutorial: A Step-by-Step Guide to Content Creation",
+        "5 Ways to Improve Your Writing with Gemma 4 31B"
+      ]
+    },
+    {
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A new version of Google's Veo AI tool.",
-      "audience_angle": "Discover how Google Veo 3.1 can revolutionize your content creation.",
-      "linkedin_angle": "Learn how to leverage Google Veo 3.1 for professional content creation and marketing strategies.",
+      "what_it_is": "Claude AI is a tool that allows users to generate content and automate tasks using AI.",
+      "audience_angle": "You can use Claude AI to streamline your content creation process and improve your productivity.",
+      "linkedin_angle": "Discover how Claude AI can help you automate tasks and enhance your workflow.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google offers affiliate programs for its tools and services."
+        "note": "Claude AI may have an affiliate program for creators and marketers."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
-          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
+          "url": "https://www.youtube.com/watch?v=V_t51u1tBJc",
+          "signal": "How I Make $24,937/mo Posting YouTube Shorts (Using Claude AI)"
         }
       ],
       "content_ideas": [
-        "Getting Started with Google Veo 3.1: A Beginner's Guide",
-        "5 Ways Google Veo 3.1 Can Enhance Your Content Creation",
-        "Google Veo 3.1 vs. Other AI Tools: Which One Reigns Supreme?"
+        "How to Use Claude AI for Content Creation and Automation",
+        "Claude AI Tutorial: A Step-by-Step Guide to Streamlining Your Workflow",
+        "5 Ways to Improve Your Productivity with Claude AI"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "Users of ChatGPT, especially those relying on it for business or heavy usage.",
-      "signal_strength": 6,
+      "problem": "ChatGPT usage limits and token costs",
+      "who_affected": "ChatGPT users and developers",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulaj71/the_free_version_of_chatgpt_is_no_longer_good_or/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulfc0t/this_is_what_i_tell_to_my_friend_when_he_stole_my/"
         }
       ],
-      "content_opportunity": "Exploring Alternatives to ChatGPT: Free and Paid Options for Heavy Users"
+      "content_opportunity": "Exploring affordable alternatives to ChatGPT and optimizing token usage."
     },
     {
-      "problem": "Difficulty in using AI tools for non-technical tasks",
-      "who_affected": "Non-technical individuals looking to leverage AI for various tasks.",
-      "signal_strength": 5,
+      "problem": "AI model training and deployment costs",
+      "who_affected": "AI developers and businesses",
+      "signal_strength": 6,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+beginners"
+          "platform": "hackernews",
+          "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/"
         }
       ],
-      "content_opportunity": "A Beginner's Guide to Using AI Tools for Non-Technical Tasks"
+      "content_opportunity": "Discussing cost-effective strategies for AI model training and deployment."
     }
   ],
-  "tool_of_week_candidate": "Google Veo 3.1"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
