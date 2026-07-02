@@ -27,10 +27,10 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR0ZVZjZaYnh4NS1FVnFMd0wxZFQ1Wk13ZUdYXzlRZ2NiTmxvNUx1NURsV2kyTlJQTWVCVTJiZkVyZzJtSEc2ZXNLX3daUzBLUmdDZ1Q2X1ZCQjVreU5MaTFKTEo0SHMyMS1XMmVSOHRqSFJfM2d0U0JyYWJHaWVKbHNCTWdNSWhESk9mY1c5N0NzenFhSEVvb0tiMnJFRHNGZjFHMG95dHFIcTZYMVY3cS1IZ2M0WmhhLVlNd2w5M3o5WVhhWFhZWEdB?oc=5
-2. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 116
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZW5DOTdyVk5SQnVVelVrOGx3QmJaaFBqZ3g3YkJpYXE5TGNvWTJHVTRHNVNUdHNqMml5Q3VhaGRpV1gtTWNqbkh4M2ZON1FuUG05eVNVRGsxRHRtRlVpald2NXktMXBqX1JQNUVOY055UVpRc3doSU4xZmpJb3lQd0hKemJFaVVydTRvdGpXeERvWDJqRXB1clBLeDBmTDBJUdIBrwFBVV95cUxOcVVBWUZHVXVyV05VV2w3WC13NFdKNXZZUDZqcThlYWlTN1g5T1FWa3ZfaTlHMHotejh6SV9YWmV0SjhSWUJRbEMwY2JsNlp3TE03OUZnMExLck9PNURUN3lYTElQcUY5ZzgxZ0o4elM1YW9sdnU0TDNDVWZ3TWIxdmphWV80Sml3NVBZaFZ5MkVDR29KektPbUttLVJIdXpzZkZNUU5Sdjh3akF6ZDdr?oc=5
-3. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 113
+2. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 113
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZLZS1vZGp0VkpOUWJpYWtFUTJldjFtVkpKT19nbUpGS2FaWEJxY0Q0ZU9vWC1SQm9vOUJaM210a09JU1FYekNiamdFOG5Kd3pWU1YxdS1JQ0Y5elBweWNkaWZKTUhneG9tUG03WHpWc1dtT0pkRk10LTg0T19tZThqQ2R3cVhlNE1wWHdMTFQyRjdWV0pKcWFISG81WnRKNFdVRkpoRnQtVVF2X1YxU0dzNnNJZTNNQnVFcFplRlN5OGdTNjFDazdGLTlrQm5CeUZCWTFsMHI?oc=5
+3. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZW5DOTdyVk5SQnVVelVrOGx3QmJaaFBqZ3g3YkJpYXE5TGNvWTJHVTRHNVNUdHNqMml5Q3VhaGRpV1gtTWNqbkh4M2ZON1FuUG05eVNVRGsxRHRtRlVpald2NXktMXBqX1JQNUVOY055UVpRc3doSU4xZmpJb3lQd0hKemJFaVVydTRvdGpXeERvWDJqRXB1clBLeDBmTDBJUdIBrwFBVV95cUxOcVVBWUZHVXVyV05VV2w3WC13NFdKNXZZUDZqcThlYWlTN1g5T1FWa3ZfaTlHMHotejh6SV9YWmV0SjhSWUJRbEMwY2JsNlp3TE03OUZnMExLck9PNURUN3lYTElQcUY5ZzgxZ0o4elM1YW9sdnU0TDNDVWZ3TWIxdmphWV80Sml3NVBZaFZ5MkVDR29KektPbUttLVJIdXpzZkZNUU5Sdjh3akF6ZDdr?oc=5
 4. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 76
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
 5. **The AI build-out is driving prices higher for consumers** — kutv — Score 63
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3187
+- Total stories tracked: 3152
 - Most active topic: openai
 - Busiest category: AI General News
 
