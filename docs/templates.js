@@ -22,8 +22,22 @@ window.HUMAN_VOICE = [
   "- BANNED AI sentence patterns: \"It's not just X, it's Y\"; \"The real X isn't Y, it's Z\"; \"Here's the thing\"; rule-of-three lists; a neat \"X. But Y.\" as the whole post; throat-clearing openers; summary closers ('At the end of the day', 'Ultimately')."
 ].join("\n");
 
-/* ===== Shared REALISTIC IMAGE rules — designer-made editorial graphic, not an AI poster. ===== */
-window.HUMAN_IMAGE = "Make it look like a real designer edited it in Photoshop/Figma — a premium social-news graphic, NOT an AI poster. Use a realistic PHOTO-BASED scene relevant to the story (founder working late, AI lab, startup office, laptop showing a dashboard, newsroom desk, data centre, investor meeting, developer workspace). Natural lighting, realistic shadows, real textures, believable human detail. NO glossy sci-fi look, NO random glowing symbols, NO fake-futuristic nonsense, NO logos, NO watermark, NO random text. Vertical 4:5. Top ~70% is the photo; bottom ~30% is a clean darker band for the headline. Clean editorial typography — large, readable, modern, well-spaced. Render ONLY the exact headline provided, word for word; highlight ONE key word or phrase with a subtle blue or white contrast.";
+/* ===== Shared REALISTIC IMAGE rules — an ART DIRECTOR, not one fixed template.
+   Analyze the story first, pick a fitting poster format, vary formats between posts. ===== */
+window.HUMAN_IMAGE = [
+"ACT LIKE A NEWS ART DIRECTOR. Do NOT use one fixed layout for every story — analyze first, then design.",
+"STEP 1 — classify the story: funding/numbers, partnership/MoU, product launch, policy/government, people (hire/founder/quote), research/report, controversy/drama, or how-to/list.",
+"STEP 2 — pick the ONE poster format that fits THIS story best (and vary formats across posts so the feed never looks repetitive):",
+"1. MARKER-HIGHLIGHT PHOTO — real photo of the actual event/subject (signing ceremony, stage, office); big bold headline across the lower half; the 1-2 KEY phrases sit on solid highlight bars (yellow or one brand color) behind the words. Best for partnerships, launches, announcements.",
+"2. LOWER-THIRD BAND — real photo top ~70% (podium, flags, office, market); solid dark band bottom ~30% with a clean bold headline, key words in ONE accent color (green or blue), thin accent line on the left. Best for policy, government, economy, business.",
+"3. TOP-HEADLINE CARD — the headline sits at the TOP with a solid colored highlight bar behind the opening words, and the photo/scene fills the area below. Best for tech/platform news and reports.",
+"4. PEOPLE / QUOTE CARD — flat vivid single-color background; cut-out photo of the person with a white sticker outline; large quote marks with a short quote or announcement; their name + role in bold; a small badge tag on top (FUNDING / NEW HIRE / BIG MOVE). Best for hires, founder quotes, people stories.",
+"5. PHOTO CAPTION CARD — natural candid photo of the person or scene; simple bold left-aligned caption text in the lower third over a soft dark gradient; understated, editorial. Best for funding rounds and profiles.",
+"6. CATEGORY-TAG BOLD CAPS — dark moody photo; a small centered category chip (AI / STARTUPS / FUNDING) with a thin line; ALL-CAPS condensed white headline below it. Best for dramatic or viral stories.",
+"7. BIG-NUMBER POSTER — one huge number dominates the design ($28M, 20,000, 15 YEARS) with a short supporting headline under it. Best when the number IS the story.",
+"STEP 3 — write ONE detailed image prompt for the chosen format: the exact realistic scene (real people, real office/lab/podium/product, natural lighting, realistic shadows and textures — like a designer composed it in Photoshop/Figma, NOT an AI poster: no sci-fi glow, no glowing circuits, no floating holograms, no random symbols), the exact layout placement, ONE accent color, and clean modern editorial typography with proper spacing.",
+"ALWAYS: vertical 4:5. Render ONLY the exact headline provided, word for word, spelled perfectly — no other text, no logos, no watermarks. Headline large and perfectly legible on a phone."
+].join("\n");
 
 /* WIZ = the Create wizard library. Each template:
      type:  "short" | "long" | "post"
