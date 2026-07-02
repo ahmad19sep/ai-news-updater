@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjbzF1T0FZemQ4bHROWFlIQnlSTExxNXhPdng1Zi11a0JtVEdXRFc1a0cxUWtha29jYnJVNGpJTVA4OFpNNTBzSmlWRnQ2Z1FvaU1zN0l2NE4wTWgxM25CSHhlWlZKQQ?oc=5
 2. **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — science angle
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
-3. **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — science angle
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxQdjhMYzFSb2xQSUdNSEF5ZlpfOFpRMUNtazRycEhld05WcFNQSTBFWUZsdHFEV0dScTlWMTdadThCeVdyTlktZjNVdmVSZU5MS2t2bHlIaDNnMHNqQTJxbDZCUGNzU0NwWVlBaV9iQWxzbld1djhuamZ2bG9MZFlKd1hhdklzRG1uYU9lbzBsTFpWUWhBWHNrWFBQeWxsTUw3dHllQ1pYS3pSUDNuZHJmYkNaRnUxMFAxX3N1cExFLUJLT2hQSmRsVVBYYw?oc=5
-4. **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — science angle
+3. **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — science angle
    https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
-5. **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — science angle
+4. **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
-6. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFdsc3NfM3BHX29LTkNsbE41NTY3WFBXSUZhZzB1Y2ZDOGFraUdFVkdFelVtMmxfM1FCLXN1SmtHSUVzZTI5bkY3NEJIOVpXTXVzSTg3eVZSTU8tbXJOYWFnbDRDempMeGRIU0dPV3QyRGdWdlRoUFZ5Q19QRzZneHNqWFhTci1DQjBIVHJzdzdUTzRkY2ZvNHpHclYwaW1VTXFmX0x1UDM3NmhlakgxZGtLZw?oc=5
-7. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
+5. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxPajQ4eGZOTFFXc2pTcWc2Mk5UallGWTJ0TUZKZ19YcGNOQmlfMmlIZzdxamxTbkh3WXNBa05vRzQ4bnZfV3g1UjlXR1lXSW9RWGVSQXZFZlFDeWpuR0VLYzVUeFphX21RRTNhSVlXMmdZVG9jOXFDdTN4YjFDamNKRUJKNFRVVjA0SHVNZWI4XzRzTjQ?oc=5
-8. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
+6. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
    https://www.nature.com/articles/d41586-026-01672-9
+7. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
+   https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
+8. **National Doctors' Day 2026: Doctors explain why self-diagnosis with AI can be risky - Firstpost** — science angle
+   https://news.google.com/rss/articles/CBMiywFBVV95cUxQTWJsVVRTWUdhaFRWMEZiZzlraVVtbDAtMjAyQmxra3JnaGs1WFhPd2ZiZEF1RjN1NkFxMGVMOG5VOWw2NVU5LTlzeWpuVS1YbVB1NVRyaUJ0VmtCWlF4cXI0RmNPTHJ0cXRoVXpJQWsxVFFDRklKdHRRNTVsNmJvMndkVTg4UV9xQVE4QWJXc2NkQTZYQmJpS1dpREVzMk9id3NPYWpFTU84cDlFRGN2aGxxVGFUQnZ5VWVXSkY5UVMxTDk3cVp1U0FXc9IB0AFBVV95cUxQbVV0VGI2RlBqREl6bDA3VzY3Zk41dmFCQm9nYVBmWi14RGZQTEx6eFZhbWRUd1p6aUQ0Uy1URUtjVWNOQjNkcHpacnBjQ0lNemJVRGJzOHBYRlNleDNZNjNSR0dFR3VNdV94bG9DUzFCVHY0cnpwdUluZ3dSWWRPdDVuTG54VWpsQ1JNR1VVbzBjTTZZclE0UVkzQTNIbmxPSUJ0cjZrZUpMRGVZRHhDMkNqbldISzNfN3hRQm0tNGNZQ1RUeFZFYjg0R3V2T1hJ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
@@ -50,12 +50,12 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
 - **AI is reshaping how doctors train - University of Cincinnati** — https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjbzF1T0FZemQ4bHROWFlIQnlSTExxNXhPdng1Zi11a0JtVEdXRFc1a0cxUWtha29jYnJVNGpJTVA4OFpNNTBzSmlWRnQ2Z1FvaU1zN0l2NE4wTWgxM25CSHhlWlZKQQ?oc=5
 - **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
-- **Infinitus launches risk detection system to ensure appropriate patient triage from AI agents - Fierce Healthcare** — https://news.google.com/rss/articles/CBMiywFBVV95cUxQdjhMYzFSb2xQSUdNSEF5ZlpfOFpRMUNtazRycEhld05WcFNQSTBFWUZsdHFEV0dScTlWMTdadThCeVdyTlktZjNVdmVSZU5MS2t2bHlIaDNnMHNqQTJxbDZCUGNzU0NwWVlBaV9iQWxzbld1djhuamZ2bG9MZFlKd1hhdklzRG1uYU9lbzBsTFpWUWhBWHNrWFBQeWxsTUw3dHllQ1pYS3pSUDNuZHJmYkNaRnUxMFAxX3N1cExFLUJLT2hQSmRsVVBYYw?oc=5
 - **Medical Care Technologies Inc.: Medical Care Technologies, Inc. Showcases Diversified Technology Portfolio with Newly Launched Platforms Across AI Health, Enterprise Vision Solutions, and Collectibles Markets** — https://www.finanznachrichten.de/nachrichten-2026-06/68864633-medical-care-technologies-inc-medical-care-technologies-inc-showcases-diversified-technology-portfolio-with-newly-launched-platforms-across-ai-hea-200.htm
+- **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3170
-- Most active topic: anthropic
+- Total stories tracked: 3187
+- Most active topic: openai
 - Busiest category: AI General News
 
 ---
