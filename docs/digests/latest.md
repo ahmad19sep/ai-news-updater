@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 24 Jun 2026 to 01 Jul 2026
+# 🗞️ AI THIS WEEK — 25 Jun 2026 to 02 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10**
@@ -27,10 +27,10 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR0ZVZjZaYnh4NS1FVnFMd0wxZFQ1Wk13ZUdYXzlRZ2NiTmxvNUx1NURsV2kyTlJQTWVCVTJiZkVyZzJtSEc2ZXNLX3daUzBLUmdDZ1Q2X1ZCQjVreU5MaTFKTEo0SHMyMS1XMmVSOHRqSFJfM2d0U0JyYWJHaWVKbHNCTWdNSWhESk9mY1c5N0NzenFhSEVvb0tiMnJFRHNGZjFHMG95dHFIcTZYMVY3cS1IZ2M0WmhhLVlNd2w5M3o5WVhhWFhZWEdB?oc=5
-2. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 113
-   https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZLZS1vZGp0VkpOUWJpYWtFUTJldjFtVkpKT19nbUpGS2FaWEJxY0Q0ZU9vWC1SQm9vOUJaM210a09JU1FYekNiamdFOG5Kd3pWU1YxdS1JQ0Y5elBweWNkaWZKTUhneG9tUG03WHpWc1dtT0pkRk10LTg0T19tZThqQ2R3cVhlNE1wWHdMTFQyRjdWV0pKcWFISG81WnRKNFdVRkpoRnQtVVF2X1YxU0dzNnNJZTNNQnVFcFplRlN5OGdTNjFDazdGLTlrQm5CeUZCWTFsMHI?oc=5
-3. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 106
+2. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 116
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZW5DOTdyVk5SQnVVelVrOGx3QmJaaFBqZ3g3YkJpYXE5TGNvWTJHVTRHNVNUdHNqMml5Q3VhaGRpV1gtTWNqbkh4M2ZON1FuUG05eVNVRGsxRHRtRlVpald2NXktMXBqX1JQNUVOY055UVpRc3doSU4xZmpJb3lQd0hKemJFaVVydTRvdGpXeERvWDJqRXB1clBLeDBmTDBJUdIBrwFBVV95cUxOcVVBWUZHVXVyV05VV2w3WC13NFdKNXZZUDZqcThlYWlTN1g5T1FWa3ZfaTlHMHotejh6SV9YWmV0SjhSWUJRbEMwY2JsNlp3TE03OUZnMExLck9PNURUN3lYTElQcUY5ZzgxZ0o4elM1YW9sdnU0TDNDVWZ3TWIxdmphWV80Sml3NVBZaFZ5MkVDR29KektPbUttLVJIdXpzZkZNUU5Sdjh3akF6ZDdr?oc=5
+3. **OpenAI and Anthropic limit new AI models to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 113
+   https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZLZS1vZGp0VkpOUWJpYWtFUTJldjFtVkpKT19nbUpGS2FaWEJxY0Q0ZU9vWC1SQm9vOUJaM210a09JU1FYekNiamdFOG5Kd3pWU1YxdS1JQ0Y5elBweWNkaWZKTUhneG9tUG03WHpWc1dtT0pkRk10LTg0T19tZThqQ2R3cVhlNE1wWHdMTFQyRjdWV0pKcWFISG81WnRKNFdVRkpoRnQtVVF2X1YxU0dzNnNJZTNNQnVFcFplRlN5OGdTNjFDazdGLTlrQm5CeUZCWTFsMHI?oc=5
 4. **Top developers are pivoting from chatbots to physical AI - Northeast Mississippi Daily Journal** — AI in Coding — Score 93
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOFlWclV0ZkNUV2FpNDVlSGR0ZzZqZTlzVFdteVM4OFVaaGxlTUoycXlDUnV0ZURnVkpzanJUUnkySGFFRVhGLTBnYmtEYlN1MDlBMXFhYV9KSnZTWGpnUEItVHpzbnlGZEZEbG5vLTFySHF6LU9wQTVlaFMwaXhIM3I4TU5nbTlickhwX0FELVhvckF1MmM2b1MzbHpycW1uUzljYW56dmVYRmxaT0xkdmY0MkFrVW9nZHJlbV9TR19rT2RfYl9oRnNCYjh2TERmcEJia0s0dVVyVWtMbVJHLUpsdw?oc=5
 5. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 76
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **Medical Care Technologies Inc.: Medical Care Technologies, Inc. Showcases Diversified Technology Portfolio with Newly Launched Platforms Across AI Health, Enterprise Vision Solutions, and Collectibles Markets** — https://www.finanznachrichten.de/nachrichten-2026-06/68864633-medical-care-technologies-inc-medical-care-technologies-inc-showcases-diversified-technology-portfolio-with-newly-launched-platforms-across-ai-hea-200.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3106
+- Total stories tracked: 3115
 - Most active topic: models
 - Busiest category: AI General News
 
