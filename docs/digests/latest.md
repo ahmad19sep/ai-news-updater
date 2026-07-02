@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://www.nature.com/articles/d41586-026-01672-9
 7. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
-8. **National Doctors' Day 2026: Doctors explain why self-diagnosis with AI can be risky - Firstpost** — science angle
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxQTWJsVVRTWUdhaFRWMEZiZzlraVVtbDAtMjAyQmxra3JnaGs1WFhPd2ZiZEF1RjN1NkFxMGVMOG5VOWw2NVU5LTlzeWpuVS1YbVB1NVRyaUJ0VmtCWlF4cXI0RmNPTHJ0cXRoVXpJQWsxVFFDRklKdHRRNTVsNmJvMndkVTg4UV9xQVE4QWJXc2NkQTZYQmJpS1dpREVzMk9id3NPYWpFTU84cDlFRGN2aGxxVGFUQnZ5VWVXSkY5UVMxTDk3cVp1U0FXc9IB0AFBVV95cUxQbVV0VGI2RlBqREl6bDA3VzY3Zk41dmFCQm9nYVBmWi14RGZQTEx6eFZhbWRUd1p6aUQ0Uy1URUtjVWNOQjNkcHpacnBjQ0lNemJVRGJzOHBYRlNleDNZNjNSR0dFR3VNdV94bG9DUzFCVHY0cnpwdUluZ3dSWWRPdDVuTG54VWpsQ1JNR1VVbzBjTTZZclE0UVkzQTNIbmxPSUJ0cjZrZUpMRGVZRHhDMkNqbldISzNfN3hRQm0tNGNZQ1RUeFZFYjg0R3V2T1hJ?oc=5
+8. **Can AI Replace Doctors? Experts Say The Future Of Medicine Is Human Plus Machine - NDTV** — science angle
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxNY0RoaVZDQXZCWkRpMXBXelc3Rmw4M3AyUHFKYVVmSVZ0M2YzLWYzS3lKckFGOG40OHVlT29wRHAwSkdacXZRbEEwQzV1Z2toV1VhOHdGSE1oZ21GME15QzRYOWM5WXJ2MXFvZHVQTkFPbW01RFJLQWdyM2l6OFpKbm1jODlCaldISVRkdEFXNG5Fb2VuRWUwVFZrODZnMU9VZFJQWVN2WE9hblUyT1pOREhuX2pBRGfSAb8BQVVfeXFMT3U2d3NFd3lRNTE2d0RyLXF4ZnRwakY2VWFHQU9sVWZlempsVWJEVlV4VXRlLXJOdHZoQkdwRXc0N19MQUxZUWU5cUNjeDM3RVBQaDdjcGxRQnBsMHJ0cXI2Wm5hQnhuaFllZWU5a1RFcjVlOS0xX0RzdVJpeDhyNXV3U1lIMjRYaG5ZZHBFRzY0X05id3BmX2ZTSGtmRFdpbWhiRk9RWU5FaVlZd3VKVktXdVBVcjlYSVpTemtFVU0?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZLZS1vZGp0VkpOUWJpYWtFUTJldjFtVkpKT19nbUpGS2FaWEJxY0Q0ZU9vWC1SQm9vOUJaM210a09JU1FYekNiamdFOG5Kd3pWU1YxdS1JQ0Y5elBweWNkaWZKTUhneG9tUG03WHpWc1dtT0pkRk10LTg0T19tZThqQ2R3cVhlNE1wWHdMTFQyRjdWV0pKcWFISG81WnRKNFdVRkpoRnQtVVF2X1YxU0dzNnNJZTNNQnVFcFplRlN5OGdTNjFDazdGLTlrQm5CeUZCWTFsMHI?oc=5
 3. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZW5DOTdyVk5SQnVVelVrOGx3QmJaaFBqZ3g3YkJpYXE5TGNvWTJHVTRHNVNUdHNqMml5Q3VhaGRpV1gtTWNqbkh4M2ZON1FuUG05eVNVRGsxRHRtRlVpald2NXktMXBqX1JQNUVOY055UVpRc3doSU4xZmpJb3lQd0hKemJFaVVydTRvdGpXeERvWDJqRXB1clBLeDBmTDBJUdIBrwFBVV95cUxOcVVBWUZHVXVyV05VV2w3WC13NFdKNXZZUDZqcThlYWlTN1g5T1FWa3ZfaTlHMHotejh6SV9YWmV0SjhSWUJRbEMwY2JsNlp3TE03OUZnMExLck9PNURUN3lYTElQcUY5ZzgxZ0o4elM1YW9sdnU0TDNDVWZ3TWIxdmphWV80Sml3NVBZaFZ5MkVDR29KektPbUttLVJIdXpzZkZNUU5Sdjh3akF6ZDdr?oc=5
-4. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 76
+4. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 73
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
 5. **The AI build-out is driving prices higher for consumers** — kutv — Score 63
    https://kutv.com/news/nation-world/ai-spending-surge-adds-new-inflation-pressure-computing-chips-electronics-data-center-construction-electricity
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3196
-- Most active topic: openai
+- Total stories tracked: 3168
+- Most active topic: anthropic
 - Busiest category: AI General News
 
 ---
