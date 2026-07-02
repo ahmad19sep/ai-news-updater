@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
 5. **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
-6. **Exclusive | UpDoc’s AI Gets FDA Nod to Act as ‘Concierge Doctor’ Between Visits - WSJ** — science angle
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxPWF9CbTZ3NS1NWVYxNDZNaXlVSGlCbGkzTkRNV1dXa0ZJcy1ERS1Qb0l4eXcwVVFYNGptZ2JDSmpzN19XMFY4ZmxGUjBXV1BVd2Y0a19POWtzVGpRRndkN3hhSzFmOUFZeGNvbGVTaGJ6RkN5Smt5OExqSkxzMzZHWXF1ZTVzOUVoNHRsU2NickZYczZwdDVjY3o5UnFpLWxBblpkX0VtWFBtOVhIakt0SFJtVQ?oc=5
-7. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
+6. **Utah’s ‘AI Doctor’ Prescription Pilot Spurs Oversight Concerns - Bloomberg Law News** — science angle
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFdsc3NfM3BHX29LTkNsbE41NTY3WFBXSUZhZzB1Y2ZDOGFraUdFVkdFelVtMmxfM1FCLXN1SmtHSUVzZTI5bkY3NEJIOVpXTXVzSTg3eVZSTU8tbXJOYWFnbDRDempMeGRIU0dPV3QyRGdWdlRoUFZ5Q19QRzZneHNqWFhTci1DQjBIVHJzdzdUTzRkY2ZvNHpHclYwaW1VTXFmX0x1UDM3NmhlakgxZGtLZw?oc=5
-8. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
+7. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxPajQ4eGZOTFFXc2pTcWc2Mk5UallGWTJ0TUZKZ19YcGNOQmlfMmlIZzdxamxTbkh3WXNBa05vRzQ4bnZfV3g1UjlXR1lXSW9RWGVSQXZFZlFDeWpuR0VLYzVUeFphX21RRTNhSVlXMmdZVG9jOXFDdTN4YjFDamNKRUJKNFRVVjA0SHVNZWI4XzRzTjQ?oc=5
+8. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
+   https://www.nature.com/articles/d41586-026-01672-9
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
