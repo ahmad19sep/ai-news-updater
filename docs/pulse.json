@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T20:16:37.213591+00:00",
+  "generated_at": "2026-07-02T04:32:21.969712+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool for generating images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation",
+      "what_it_is": "A tool for generating images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Unlock new creative possibilities with ChatGPT Images 2.0.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools and services."
       },
       "sources": [
         {
@@ -41,9 +41,9 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "5 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
@@ -53,16 +53,16 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Veo 3.1 is a tool for creating AI-powered videos.",
-      "audience_angle": "You can use Google Veo 3.1 to create engaging videos with minimal effort.",
-      "linkedin_angle": "Discover how Google Veo 3.1 can revolutionize your video content strategy",
+      "what_it_is": "A free and unlimited AI video tool.",
+      "audience_angle": "Create professional-looking videos without spending a dime.",
+      "linkedin_angle": "Revolutionize your video content creation with Google Veo 3.1.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "Google Veo 3.1 is a free tool with no affiliate program."
       },
       "sources": [
         {
@@ -73,45 +73,45 @@
       ],
       "content_ideas": [
         "Getting Started with Google Veo 3.1: A Beginner's Guide",
-        "5 Creative Ways to Use Google Veo 3.1 for Your Business",
-        "Google Veo 3.1 vs. Other Video Creation Tools: A Comparison"
+        "Google Veo 3.1 vs. Other Video Tools: Which One Reigns Supreme?",
+        "Maximizing Your Video Content with Google Veo 3.1"
       ]
     },
     {
-      "name": "Claude Code",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "Claude Code is a tool for generating code using AI.",
-      "audience_angle": "You can use Claude Code to automate your coding tasks and increase productivity.",
-      "linkedin_angle": "Explore how Claude Code can streamline your development workflow",
-      "local_relevance": 7,
+      "what_it_is": "An AI tool for various tasks, including content creation and coding.",
+      "audience_angle": "Unlock the full potential of AI with Claude.",
+      "linkedin_angle": "Streamline your workflow with Claude AI's versatile tools.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tools and services."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZtORZlBSbKY",
-          "signal": "Claude Code Model Is Now FREE?! Use ALL Claude Models for FREE"
+          "url": "https://www.youtube.com/watch?v=iTY8Q449YNQ",
+          "signal": "I asked Claude Code to make me as much money as possible"
         },
         {
-          "platform": "hackernews",
-          "url": "https://zcode.z.ai/cn",
-          "signal": "ZCode: Claude Code from the Makers of GLM"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ukxp9q/anthropic_fable_5_defaulting_to_opus_48_for/",
+          "signal": "Anthropic Fable 5 defaulting to Opus 4.8 for coding tasks"
         }
       ],
       "content_ideas": [
-        "How to Use Claude Code to Automate Your Coding Tasks",
-        "Claude Code Tutorial: A Step-by-Step Guide",
-        "5 Ways to Use Claude Code to Improve Your Development Workflow"
+        "How to Make Money with Claude AI",
+        "Claude AI for Coding: A Beginner's Guide",
+        "The Potential of Claude AI in Content Creation"
       ]
     }
   ],
@@ -123,16 +123,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool for generating images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with just a few clicks.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation",
+      "what_it_is": "A tool for generating images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Unlock new creative possibilities with ChatGPT Images 2.0.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools and services."
       },
       "sources": [
         {
@@ -142,46 +142,46 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "5 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Claude Code",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "Claude Code is a tool for generating code using AI.",
-      "audience_angle": "You can use Claude Code to automate your coding tasks and increase productivity.",
-      "linkedin_angle": "Explore how Claude Code can streamline your development workflow",
-      "local_relevance": 7,
+      "what_it_is": "An AI tool for various tasks, including content creation and coding.",
+      "audience_angle": "Unlock the full potential of AI with Claude.",
+      "linkedin_angle": "Streamline your workflow with Claude AI's versatile tools.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tools and services."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZtORZlBSbKY",
-          "signal": "Claude Code Model Is Now FREE?! Use ALL Claude Models for FREE"
+          "url": "https://www.youtube.com/watch?v=iTY8Q449YNQ",
+          "signal": "I asked Claude Code to make me as much money as possible"
         },
         {
-          "platform": "hackernews",
-          "url": "https://zcode.z.ai/cn",
-          "signal": "ZCode: Claude Code from the Makers of GLM"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ukxp9q/anthropic_fable_5_defaulting_to_opus_48_for/",
+          "signal": "Anthropic Fable 5 defaulting to Opus 4.8 for coding tasks"
         }
       ],
       "content_ideas": [
-        "How to Use Claude Code to Automate Your Coding Tasks",
-        "Claude Code Tutorial: A Step-by-Step Guide",
-        "5 Ways to Use Claude Code to Improve Your Development Workflow"
+        "How to Make Money with Claude AI",
+        "Claude AI for Coding: A Beginner's Guide",
+        "The Potential of Claude AI in Content Creation"
       ]
     },
     {
@@ -191,16 +191,16 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Veo 3.1 is a tool for creating AI-powered videos.",
-      "audience_angle": "You can use Google Veo 3.1 to create engaging videos with minimal effort.",
-      "linkedin_angle": "Discover how Google Veo 3.1 can revolutionize your video content strategy",
+      "what_it_is": "A free and unlimited AI video tool.",
+      "audience_angle": "Create professional-looking videos without spending a dime.",
+      "linkedin_angle": "Revolutionize your video content creation with Google Veo 3.1.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "Google Veo 3.1 is a free tool with no affiliate program."
       },
       "sources": [
         {
@@ -211,8 +211,8 @@
       ],
       "content_ideas": [
         "Getting Started with Google Veo 3.1: A Beginner's Guide",
-        "5 Creative Ways to Use Google Veo 3.1 for Your Business",
-        "Google Veo 3.1 vs. Other Video Creation Tools: A Comparison"
+        "Google Veo 3.1 vs. Other Video Tools: Which One Reigns Supreme?",
+        "Maximizing Your Video Content with Google Veo 3.1"
       ]
     }
   ],
@@ -224,11 +224,11 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ukmd4q/openai_stop_defaulting_me_to_medium_intelligence/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ul56fx/just_threaten_to_cancel_your_subscription_i_guess/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: A Workaround Guide"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "Google Veo 3.1"
+  "tool_of_week_candidate": "Google Veo 3.1, due to its free and unlimited nature, making it an attractive option for content creators."
 }
