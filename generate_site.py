@@ -1780,7 +1780,10 @@ function publishReady(r, btn) {
 function readyText(r, f) {
   let t = r[f] || "";
   const link = r._link || r.source_url || "";
-  if (link) t = t.replace(/\[ARTICLE LINK\]/g, link);
+  if (f === "x_post") {
+    /* X downranks link posts — keep the post text-only; the link goes in the first reply */
+    t = t.replace(/^.*\[ARTICLE LINK\].*$/gm, "").replace(/\n{3,}/g, "\n\n").trim();
+  } else if (link) t = t.replace(/\[ARTICLE LINK\]/g, link);
   return t;
 }
 async function renderReady() {
@@ -1799,7 +1802,8 @@ async function renderReady() {
     const d = document.createElement("div"); d.className = "card";
     const risk = r.risk_level ? '<span class="pill" style="color:' + (RC[String(r.risk_level).toLowerCase()] || "var(--dim)") + '">⚠ ' + esc(r.risk_level) + '</span>' : "";
     const postBtns = READY_PLATS.filter(p => r[p[0]]).map(p =>
-      '<button class="cp" data-act="post" data-f="' + p[0] + '">' + p[1] + '</button>').join("");
+      '<button class="cp" data-act="post" data-f="' + p[0] + '">' + p[1] + '</button>').join("") +
+      (r.x_post ? '<button class="cp" data-act="xlink">🧵 X link reply</button>' : "");
     const copyBtns = READY_COPY.filter(p => r[p[0]]).map(p =>
       '<button class="cp" data-act="copy" data-f="' + p[0] + '">' + p[1] + '</button>').join("");
     const dl = r.image_url ? '<button class="cp" data-act="dlimg">⬇ Download image</button>' : "";
@@ -1826,6 +1830,12 @@ async function renderReady() {
       const act = b.dataset.act, f = b.dataset.f;
       if (act === "pubweb") { publishReady(r, b); return; }
       if (act === "dlimg") { downloadImage(r.image_url); return; }
+      if (act === "xlink") {
+        const link = r._link || r.source_url || "";
+        navigator.clipboard.writeText("Full breakdown here:\n" + link).then(() =>
+          toast("Link reply copied — paste it as the FIRST reply under your X post"));
+        return;
+      }
       const txt = readyText(r, f);                 // [ARTICLE LINK] -> website/source link
       if (act === "copy") { navigator.clipboard.writeText(txt).then(() => toast("Copied ✓")); return; }
       if (act === "post") {                        // copy text, then open the platform
@@ -1837,7 +1847,8 @@ async function renderReady() {
           toast("All platforms posted — cleared from queue ✓");
           setTimeout(removeFromQueue, 600);
         } else {
-          toast(r._link ? "Post copied (links to your site) — paste it ✓" : "Post copied — paste it ✓");
+          toast(f === "x_post" ? "Text-only post copied — after posting, use 🧵 X link reply for the link" :
+            (r._link ? "Post copied (links to your site) — paste it ✓" : "Post copied — paste it ✓"));
         }
       }
     });
@@ -5215,7 +5226,8 @@ let nrStory = { title: "", source: "", p: 0 }, nrParsed = {}, nrLink = "", nrImg
 function nrCopy(t) { navigator.clipboard.writeText(t).catch(() => {}); }
 function nrOpen(u) { window.open(u, "_blank", "noopener"); }
 const NR_PLATFORMS = [
-  { k: "x", label: "𝕏 X", act: t => { nrOpen("https://x.com/intent/tweet?text=" + encodeURIComponent(t)); toast("X opened — tap Post 🚀"); } },
+  { k: "x", label: "𝕏 X", act: t => { nrOpen("https://x.com/intent/tweet?text=" + encodeURIComponent(t)); toast("X opened — post it, then add the 🧵 link reply under it"); } },
+  { k: "xreply", label: "🧵 X link reply", act: t => { nrCopy(t || ("Full breakdown here:\n" + nrLink)); toast("Link reply copied — paste it as the FIRST reply under your post"); } },
   { k: "linkedin", label: "in LinkedIn", act: t => { nrCopy(t); nrOpen("https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(nrLink)); toast("LinkedIn opened + post copied — paste it"); } },
   { k: "reddit", label: "🟠 Reddit", act: t => { nrCopy(t); nrOpen("https://www.reddit.com/submit?title=" + encodeURIComponent(nrParsed.headline || nrStory.title || "") + "&url=" + encodeURIComponent(nrLink)); toast("Reddit opened + text copied"); } },
   { k: "facebook", label: "📘 Facebook", act: t => { nrCopy(t); nrOpen("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(nrLink)); toast("Facebook opened + caption copied — paste it"); } },
