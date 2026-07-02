@@ -5085,9 +5085,11 @@ document.getElementById("pub-draft").onclick = () => {
     "- Include concrete specifics from the source (who, what, when, numbers, quotes) and attribute them (\"according to ...\").\n" +
     "- End with a forward-looking closing line.\n" +
     "Rules: use ONLY facts from the source — never invent quotes, numbers, names, or events. Plain text only: no markdown, no bullet characters, no headings.\n\n" +
-    "THEN create a matching POSTER IMAGE for this story:\n" +
-    "- If you can generate images, generate an attractive 16:9 news poster — modern tech-editorial style, deep navy with electric-blue accents, abstract AI/circuit motifs, dramatic lighting, clear space for a headline, NO text, NO logos, NO real faces.\n" +
-    "- If you cannot generate images, instead end your reply with a line starting exactly \"IMAGE PROMPT:\" followed by one vivid prompt I can paste into an image generator (same style).\n" +
+    "THEN create a matching POSTER IMAGE for this story. Follow these art-director rules exactly:\n" +
+    (window.HUMAN_IMAGE || "") + "\n" +
+    'HEADLINE TO RENDER on the poster, word for word: "' + t + '"\n' +
+    "- If you can generate images, generate the poster now following the chosen format.\n" +
+    "- If you cannot generate images, instead end your reply with a line starting exactly \"IMAGE PROMPT:\" followed by the full detailed prompt for the chosen format.\n" +
     "Keep the article and the image clearly separated, so I can copy the article text on its own.";
   navigator.clipboard.writeText(p).then(() => toast("Article + image prompt copied — paste into ChatGPT/Gemini (makes both); paste the article into the body, use/upload the image 🤖🎨"));
 };
