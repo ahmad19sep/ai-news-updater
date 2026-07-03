@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://www.nature.com/articles/d41586-026-01672-9
 7. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
-8. **Can AI Replace Doctors? Experts Say The Future Of Medicine Is Human Plus Machine - NDTV** — science angle
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxNY0RoaVZDQXZCWkRpMXBXelc3Rmw4M3AyUHFKYVVmSVZ0M2YzLWYzS3lKckFGOG40OHVlT29wRHAwSkdacXZRbEEwQzV1Z2toV1VhOHdGSE1oZ21GME15QzRYOWM5WXJ2MXFvZHVQTkFPbW01RFJLQWdyM2l6OFpKbm1jODlCaldISVRkdEFXNG5Fb2VuRWUwVFZrODZnMU9VZFJQWVN2WE9hblUyT1pOREhuX2pBRGfSAb8BQVVfeXFMT3U2d3NFd3lRNTE2d0RyLXF4ZnRwakY2VWFHQU9sVWZlempsVWJEVlV4VXRlLXJOdHZoQkdwRXc0N19MQUxZUWU5cUNjeDM3RVBQaDdjcGxRQnBsMHJ0cXI2Wm5hQnhuaFllZWU5a1RFcjVlOS0xX0RzdVJpeDhyNXV3U1lIMjRYaG5ZZHBFRzY0X05id3BmX2ZTSGtmRFdpbWhiRk9RWU5FaVlZd3VKVktXdVBVcjlYSVpTemtFVU0?oc=5
+8. **AI can ease doctor burnout, but human judgement remains central to healthcare: Experts - Firstpost** — science angle
+   https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTnc0UndadkFkUzV4c2hrS3E2MElUWTNmWkVnby14XzV4bHBLRm9YUDFFaEhNVUQtNzNYUmtaN3dGd01NUm9WajBaVzlmVDhLR29FU1BZendmZENHLVpDeDcwWUIzTnlKMTUzT1BjNlRmaEY2OE9lTUE1Yk5RQzFNVlJ6MGk2OEVlQS1HczkyX2ozeTNIc0I1dzhuejVYa01sU2owNHNJeGhDSkxURWpkTV8zVWhpaXJ6emFpSlpXQ19wVG5PMTBuMHZlcU1LUHg4YzZEcnBXZDRMVW9kQ2NZVkdPRVBDZnF1TzlBVnRB0gHzAUFVX3lxTFBreVZuM0RaMzF0aUQ5djgxcG5JLUNiX2ZPMnRvNjhBNkdQS0ZVN2hNSUg3bTJfLXEwdEtRRW4xQTY2MTNXMzUwaGxKcEU3Nk5qTkFrcVRJREplbFJpQVI1MlBHWTc0QWpyZ0VWNnluWWRWT2JEWnFYYk9tV2ZMNUktMnh5cE1xeGo2MjhweUFKOUJLT0k1emRxcHlfUmNfZDNQSmtRbnNYZHBqNmtjSXpLQ0pfSmY1eV9iSW1CNnVoTFlPUU9jeTRpT21CZXBUZkdBZEZxWUZ5a0xXRWZTa3oteXBsZ2loeWt1Y1JfOWdrVGU5SQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
@@ -50,12 +50,12 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
 - **AI is reshaping how doctors train - University of Cincinnati** — https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjbzF1T0FZemQ4bHROWFlIQnlSTExxNXhPdng1Zi11a0JtVEdXRFc1a0cxUWtha29jYnJVNGpJTVA4OFpNNTBzSmlWRnQ2Z1FvaU1zN0l2NE4wTWgxM25CSHhlWlZKQQ?oc=5
 - **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
-- **Medical Care Technologies Inc.: Medical Care Technologies, Inc. Showcases Diversified Technology Portfolio with Newly Launched Platforms Across AI Health, Enterprise Vision Solutions, and Collectibles Markets** — https://www.finanznachrichten.de/nachrichten-2026-06/68864633-medical-care-technologies-inc-medical-care-technologies-inc-showcases-diversified-technology-portfolio-with-newly-launched-platforms-across-ai-hea-200.htm
 - **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
+- **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3170
-- Most active topic: anthropic
+- Total stories tracked: 3288
+- Most active topic: models
 - Busiest category: AI General News
 
 ---
