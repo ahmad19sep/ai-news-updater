@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T09:36:29.649662+00:00",
+  "generated_at": "2026-07-03T14:33:31.569469+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,183 +22,195 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation and marketing strategy.",
+      "what_it_is": "ChatGPT Images 2.0 is an AI tool for generating images.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for content creators."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Unique Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Visual Content Creation"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Images 2.0 for Your Business"
       ]
     },
     {
-      "name": "ChatGPT Updates",
+      "name": "Claude Code Model",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT updates refer to the latest features and improvements added to the ChatGPT platform.",
-      "audience_angle": "Stay up-to-date with the latest ChatGPT updates to enhance your user experience and content creation.",
-      "linkedin_angle": "Discover how ChatGPT updates can impact your business and marketing strategy.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT updates may include new features that can be monetized by content creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
-        }
-      ],
-      "content_ideas": [
-        "What's New in ChatGPT: Latest Updates and Features",
-        "How to Make the Most of ChatGPT Updates",
-        "ChatGPT Updates: What You Need to Know"
-      ]
-    },
-    {
-      "name": "ChatGPT vs Claude",
-      "category": "debate",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT vs Claude refers to the comparison and debate between the two AI models.",
-      "audience_angle": "Learn about the differences and similarities between ChatGPT and Claude to choose the best AI model for your needs.",
-      "linkedin_angle": "Explore the pros and cons of using ChatGPT and Claude for business and marketing purposes.",
-      "local_relevance": 7,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT vs Claude debate may include affiliate links to the respective AI models."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulyll7/i_switched_from_claude_to_chatgpt_theres_a_stark/",
-          "signal": "I switched from Claude to ChatGPT. There's a stark difference."
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT vs Claude: Which AI Model is Best for You",
-        "The Ultimate Showdown: ChatGPT vs Claude",
-        "ChatGPT vs Claude: A Comprehensive Comparison"
-      ]
-    },
-    {
-      "name": "Google Veo 3.1",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Google Veo 3.1 is a tool that offers free and unlimited access to AI-powered features.",
-      "audience_angle": "You can use Google Veo 3.1 to create high-quality content and automate tasks without spending a fortune.",
-      "linkedin_angle": "Discover how Google Veo 3.1 can enhance your productivity and content creation workflow.",
+      "what_it_is": "Claude Code Model is an AI-powered coding tool.",
+      "audience_angle": "Revolutionize your coding with the Claude Code Model.",
+      "linkedin_angle": "Discover how the Claude Code Model can boost your coding productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Veo 3.1 may have an affiliate program for content creators."
+        "note": "Claude Code Model has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
-          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
+          "url": "https://www.youtube.com/watch?v=ZtORZlBSbKY",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/valmishq/valmis",
+          "signal": "41"
         }
       ],
       "content_ideas": [
-        "How to Use Google Veo 3.1 for Free and Unlimited AI-Powered Features",
-        "Google Veo 3.1: A Game-Changer for Content Creators",
-        "Unlocking the Full Potential of Google Veo 3.1"
+        "Getting Started with Claude Code Model",
+        "Claude Code Model vs ChatGPT: Which is Better?",
+        "How to Use Claude Code Model for Your Next Project"
       ]
     },
     {
-      "name": "ZCode",
-      "category": "tool_launch",
+      "name": "AI Video Creation",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI video creation involves using AI tools to generate videos.",
+      "audience_angle": "Create stunning videos with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI video creation for your business.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI video creation tools often have affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mI9ekLzBXF8",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Viral Videos with AI",
+        "AI Video Creation Tutorial for Beginners",
+        "5 Ways to Use AI Video Creation for Your Business"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
         "hackernews"
       ],
-      "what_it_is": "ZCode is a tool that offers a harness for GLM-5.2 and Claude Code.",
-      "audience_angle": "You can use ZCode to enhance your coding experience and automate tasks with AI-powered features.",
-      "linkedin_angle": "Explore how ZCode can improve your productivity and coding workflow.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT Agent is a tool that allows users to interact with ChatGPT in a more human-like way.",
+      "audience_angle": "Take your ChatGPT experience to the next level with ChatGPT Agent.",
+      "linkedin_angle": "Discover how ChatGPT Agent can enhance your productivity.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ZCode may have an affiliate program for developers and coders."
+        "note": "ChatGPT Agent has an affiliate program"
       },
       "sources": [
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "0"
+        },
+        {
           "platform": "hackernews",
-          "url": "https://zcode.z.ai/en",
-          "signal": "ZCode – Harness for GLM-5.2"
+          "url": "https://news.ycombinator.com/item?id=48765450",
+          "signal": "79"
         }
       ],
       "content_ideas": [
-        "How to Use ZCode for Enhanced Coding Experience",
-        "ZCode: A Revolutionary Tool for Coders and Developers",
-        "Unlocking the Full Potential of ZCode"
+        "Getting Started with ChatGPT Agent",
+        "ChatGPT Agent Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Agent for Your Business"
       ]
     },
     {
-      "name": "AI for Trading",
+      "name": "AI for Business",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI for business involves using AI tools to enhance business operations.",
+      "audience_angle": "Take your business to the next level with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI for your business.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI tools for business often have affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5fAMczyArWk",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI for Your Business",
+        "AI for Business Tutorial for Beginners",
+        "5 Ways to Use AI to Enhance Your Business Operations"
+      ]
+    },
+    {
+      "name": "Claude AI Passive Income",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI for trading refers to the use of artificial intelligence and machine learning algorithms to predict stock prices and make trading decisions.",
-      "audience_angle": "You can use AI for trading to make informed investment decisions and potentially increase your returns.",
-      "linkedin_angle": "Explore how AI for trading can enhance your investment strategy and portfolio management.",
+      "what_it_is": "Claude AI passive income involves using Claude AI to generate passive income.",
+      "audience_angle": "Create passive income streams with Claude AI.",
+      "linkedin_angle": "Explore the potential of Claude AI for generating passive income.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI for trading may include affiliate links to trading platforms and software."
+        "note": "Claude AI has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+trade+stocks",
-          "signal": "How to Use AI to Trade Stocks"
+          "url": "https://www.youtube.com/watch?v=XRL9Pl9x2xk",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Trading: A Beginner's Guide",
-        "AI for Trading: A Comprehensive Review",
-        "The Future of Trading: How AI is Revolutionizing the Industry"
+        "How to Create Passive Income with Claude AI",
+        "Claude AI Passive Income Tutorial for Beginners",
+        "5 Ways to Use Claude AI for Generating Passive Income"
       ]
     }
   ],
@@ -210,136 +222,129 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation and marketing strategy.",
+      "what_it_is": "ChatGPT Images 2.0 is an AI tool for generating images.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for content creators."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Unique Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Visual Content Creation"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Images 2.0 for Your Business"
       ]
     },
     {
-      "name": "ZCode",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "ZCode is a tool that offers a harness for GLM-5.2 and Claude Code.",
-      "audience_angle": "You can use ZCode to enhance your coding experience and automate tasks with AI-powered features.",
-      "linkedin_angle": "Explore how ZCode can improve your productivity and coding workflow.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ZCode may have an affiliate program for developers and coders."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://zcode.z.ai/en",
-          "signal": "ZCode – Harness for GLM-5.2"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ZCode for Enhanced Coding Experience",
-        "ZCode: A Revolutionary Tool for Coders and Developers",
-        "Unlocking the Full Potential of ZCode"
-      ]
-    },
-    {
-      "name": "Google Veo 3.1",
+      "name": "Claude Code Model",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Google Veo 3.1 is a tool that offers free and unlimited access to AI-powered features.",
-      "audience_angle": "You can use Google Veo 3.1 to create high-quality content and automate tasks without spending a fortune.",
-      "linkedin_angle": "Discover how Google Veo 3.1 can enhance your productivity and content creation workflow.",
+      "what_it_is": "Claude Code Model is an AI-powered coding tool.",
+      "audience_angle": "Revolutionize your coding with the Claude Code Model.",
+      "linkedin_angle": "Discover how the Claude Code Model can boost your coding productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Veo 3.1 may have an affiliate program for content creators."
+        "note": "Claude Code Model has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
-          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
+          "url": "https://www.youtube.com/watch?v=ZtORZlBSbKY",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/valmishq/valmis",
+          "signal": "41"
         }
       ],
       "content_ideas": [
-        "How to Use Google Veo 3.1 for Free and Unlimited AI-Powered Features",
-        "Google Veo 3.1: A Game-Changer for Content Creators",
-        "Unlocking the Full Potential of Google Veo 3.1"
+        "Getting Started with Claude Code Model",
+        "Claude Code Model vs ChatGPT: Which is Better?",
+        "How to Use Claude Code Model for Your Next Project"
       ]
     },
     {
-      "name": "ChatGPT Updates",
+      "name": "ChatGPT Agent",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT updates refer to the latest features and improvements added to the ChatGPT platform.",
-      "audience_angle": "Stay up-to-date with the latest ChatGPT updates to enhance your user experience and content creation.",
-      "linkedin_angle": "Discover how ChatGPT updates can impact your business and marketing strategy.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT Agent is a tool that allows users to interact with ChatGPT in a more human-like way.",
+      "audience_angle": "Take your ChatGPT experience to the next level with ChatGPT Agent.",
+      "linkedin_angle": "Discover how ChatGPT Agent can enhance your productivity.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT updates may include new features that can be monetized by content creators."
+        "note": "ChatGPT Agent has an affiliate program"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48765450",
+          "signal": "79"
         }
       ],
       "content_ideas": [
-        "What's New in ChatGPT: Latest Updates and Features",
-        "How to Make the Most of ChatGPT Updates",
-        "ChatGPT Updates: What You Need to Know"
+        "Getting Started with ChatGPT Agent",
+        "ChatGPT Agent Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Agent for Your Business"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1um7hii/thinking_of_moving_from_my_claude_pro_to_chatgpt/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulyzcp/chatgbt_has_gotten_unusable_at_this_point_due_to/"
         }
       ],
-      "content_opportunity": "Exploring alternatives to Claude and providing workarounds for token limits."
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
+    },
+    {
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/"
+        }
+      ],
+      "content_opportunity": "How to Detect AI-Generated Content"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
