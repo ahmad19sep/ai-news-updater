@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://www.nature.com/articles/d41586-026-01672-9
 7. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
-8. **AI can ease doctor burnout, but human judgement remains central to healthcare: Experts - Firstpost** — science angle
-   https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTnc0UndadkFkUzV4c2hrS3E2MElUWTNmWkVnby14XzV4bHBLRm9YUDFFaEhNVUQtNzNYUmtaN3dGd01NUm9WajBaVzlmVDhLR29FU1BZendmZENHLVpDeDcwWUIzTnlKMTUzT1BjNlRmaEY2OE9lTUE1Yk5RQzFNVlJ6MGk2OEVlQS1HczkyX2ozeTNIc0I1dzhuejVYa01sU2owNHNJeGhDSkxURWpkTV8zVWhpaXJ6emFpSlpXQ19wVG5PMTBuMHZlcU1LUHg4YzZEcnBXZDRMVW9kQ2NZVkdPRVBDZnF1TzlBVnRB0gHzAUFVX3lxTFBreVZuM0RaMzF0aUQ5djgxcG5JLUNiX2ZPMnRvNjhBNkdQS0ZVN2hNSUg3bTJfLXEwdEtRRW4xQTY2MTNXMzUwaGxKcEU3Nk5qTkFrcVRJREplbFJpQVI1MlBHWTc0QWpyZ0VWNnluWWRWT2JEWnFYYk9tV2ZMNUktMnh5cE1xeGo2MjhweUFKOUJLT0k1emRxcHlfUmNfZDNQSmtRbnNYZHBqNmtjSXpLQ0pfSmY1eV9iSW1CNnVoTFlPUU9jeTRpT21CZXBUZkdBZEZxWUZ5a0xXRWZTa3oteXBsZ2loeWt1Y1JfOWdrVGU5SQ?oc=5
+8. **Tampa doctor urges caution as more patients turn to AI for medical advice - Tampa Bay 28** — science angle
+   https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnJmaXdZazBfcjdoRE4yX0tpZkNkbVdMNlhhOE1OTU9WbTNTOXBKTGZLQXFnbzllRU91Y19UZXA0bXU2NDZMMm9OVV85VERlcm53OEw1WE9EaTNqR0hzTTNQT3FGQkkwbTJrN1poTDRDRnlGQm96T3dCbnlhd0lPZ1ZKWVBEcE5uc3NiWk1lT0lXSHhFR1E?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTExDMlhRSHZaTHZDNXNLQkpaNmQxN2pmTkZrdXh4SXRVYV9VQ3EzQ0RldTh6LWkwYVVzaUgxbXJ6VDFETnFXMVh5TEZQQzlTT210MnhnNkRLZGhVUFZpZnkweTVYYklxRGx6anpOU0VuajVXNkNRS3ZkMnBxRHFxRTVyem1ZeDdyVk9YaTdnTk5IcWdLV1pqOGtydDFqLXkyX0JFX0l2UThNRXZrU3pObTJ2NGxQR0R3eGlNbGZoRVNacExpWkkyYXVnQjlxMC0tdGFyS09UajRxT3ZqYUp4QWJDa1RMSHZERGFyYzFYa2pBb3NXNGVuY1ppR0w?oc=5
 8. **Previewing GPT‑5.6 Sol: a next-generation model** — Hacker News AI — Score 61.0
    https://openai.com/index/previewing-gpt-5-6-sol/
-9. **Quantum AI Microcities Project Launch First Global AGI Communities Clinical Trial Network (Veterans First for America)** — financialpost — Score 58
-   https://financialpost.com/globe-newswire/quantum-ai-microcities-project-launch-first-global-agi-communities-clinical-trial-network-veterans-first-for-america
-10. **OpenAI to limit latest model launch at Trump administration's request: report - WSET** — Sam Altman News — Score 58
+9. **OpenAI to limit latest model launch at Trump administration's request: report - WSET** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQlUtSWoteFBrV3JvamRZMVM4ellZWHVabGFHY1N6WVpzSjdxSXFwWHdrVW9qdm83azFZazMxYVc1cHhNTFdmZHc5ajhyX0VIVEJ5TkozVEI0UFVpSkFEOHItQjFmOWRqYjBNV21aZ1A0YURwdXlkZVpKQzA5cURva2ZXMzVfdm0tZW9yRXhOcnhaeTBiUHRqYzh2WkdKNmJZclRBd1FSbkdGT2VESHJHV2xZNkZZZlBHQjhVV3RKQUJKMVUxTHgwZ1o0SzVkZnVETk11b1BVR01wNEVEMEs0aEdweTBOWFJURjhGOVpIYTJvajBqMmc?oc=5
+10. **OpenAI to delay IPO after Sam Altman spooked by SpaceX tumble, report says - The Independent** — Sam Altman News — Score 53
+   https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMzFoRzczbVh3WHNXd19kN2xTWFJobi1LamI5ckYxWkR4ekplUzBCZ2VqdjFJT0FaajJmOXhuWXZFSDFKUHRZM3dCOHlCTk1ZU2JaaGZpN2RMeG9IaDdpNjhRN21nWDlnMF9Qa2VWQXRYbEJ2Nk01bUszNzZUdWJlRl9CdF9OU1Jn?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3166
+- Total stories tracked: 3135
 - Most active topic: anthropic
 - Busiest category: AI General News
 
