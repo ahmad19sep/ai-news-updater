@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T19:54:11.751377+00:00",
+  "generated_at": "2026-07-03T04:11:04.741462+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 30,
+      "reddit": 25,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,59 +22,59 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for various purposes.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation and marketing efforts.",
+      "what_it_is": "A tool that generates images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators and marketers."
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Unique Ways to Use ChatGPT Images 2.0 for Marketing",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Use ChatGPT Images 2.0 for Marketing",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Gemma 4 31B",
+      "name": "Seedance 2.0 on OpenArt AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "Gemma 4 31B is a fine-tuned AI model for copywriting and creative writing tasks.",
-      "audience_angle": "You can use Gemma 4 31B to generate high-quality content for your writing needs.",
-      "linkedin_angle": "Discover how Gemma 4 31B can help you streamline your content creation process and improve your writing skills.",
+      "what_it_is": "A tool that utilizes Seedance 2.0 for AI-generated content on OpenArt AI.",
+      "audience_angle": "Unlock the potential of AI-generated content with Seedance 2.0.",
+      "linkedin_angle": "Discover how Seedance 2.0 can revolutionize your content creation process.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemma 4 31B may have an affiliate program for writers and content creators."
+        "note": "OpenArt AI offers affiliate programs for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqg4i/finetuned_gemma431b_specifically_for_copywriting/",
-          "signal": "Fine-tuned Gemma-4-31B specifically for Copywriting & Creative Writing Tasks"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ul5dsv/seedance_20_on_openart_ai/",
+          "signal": "34"
         }
       ],
       "content_ideas": [
-        "How to Use Gemma 4 31B for Copywriting and Creative Writing",
-        "Gemma 4 31B Tutorial: A Step-by-Step Guide to Content Creation",
-        "5 Ways to Improve Your Writing with Gemma 4 31B"
+        "Getting Started with Seedance 2.0 on OpenArt AI",
+        "Seedance 2.0: The Future of AI-Generated Content",
+        "Tips and Tricks for Using Seedance 2.0"
       ]
     },
     {
@@ -84,28 +84,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Veo 3.1 is a tool that allows users to create and edit videos using AI.",
-      "audience_angle": "You can use Google Veo 3.1 to create stunning videos for various purposes, including marketing and social media.",
-      "linkedin_angle": "Explore how Google Veo 3.1 can enhance your video content creation and marketing efforts.",
+      "what_it_is": "A tool that offers free and unlimited access to AI-generated content.",
+      "audience_angle": "Create stunning AI-generated content with Google Veo 3.1.",
+      "linkedin_angle": "Explore the possibilities of AI-generated content for your business.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "reel",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Veo 3.1 may have an affiliate program for creators and marketers."
+        "note": "Google Veo 3.1 has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
-          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with Google Veo 3.1",
-        "10 Unique Ways to Use Google Veo 3.1 for Marketing",
-        "Google Veo 3.1 Tutorial: A Step-by-Step Guide to Video Creation"
+        "How to Use Google Veo 3.1 for Free and Unlimited AI-Generated Content",
+        "Google Veo 3.1 Review: The Ultimate Tool for AI-Generated Content",
+        "Tips and Tricks for Getting the Most Out of Google Veo 3.1"
       ]
     },
     {
@@ -113,92 +113,98 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Claude AI is a tool that allows users to generate content and automate tasks using AI.",
-      "audience_angle": "You can use Claude AI to streamline your content creation process and improve your productivity.",
-      "linkedin_angle": "Discover how Claude AI can help you automate tasks and enhance your workflow.",
+      "what_it_is": "A tool that utilizes AI for various tasks, including content creation and more.",
+      "audience_angle": "Unlock the potential of AI with Claude AI.",
+      "linkedin_angle": "Discover how Claude AI can enhance your productivity and workflow.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI may have an affiliate program for creators and marketers."
+        "note": "Claude AI has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=V_t51u1tBJc",
-          "signal": "How I Make $24,937/mo Posting YouTube Shorts (Using Claude AI)"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude AI for Content Creation and Automation",
-        "Claude AI Tutorial: A Step-by-Step Guide to Streamlining Your Workflow",
-        "5 Ways to Improve Your Productivity with Claude AI"
-      ]
-    },
-    {
-      "name": "ZCode",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "ZCode is a tool that allows users to generate code and automate tasks using AI.",
-      "audience_angle": "You can use ZCode to streamline your coding process and improve your productivity.",
-      "linkedin_angle": "Discover how ZCode can help you automate tasks and enhance your workflow.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ZCode may have an affiliate program for developers and coders."
-      },
-      "sources": [
+          "signal": "0"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://zcode.z.ai/en",
-          "signal": "ZCode – Harness for GLM-5.2"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulfc0t/this_is_what_i_tell_to_my_friend_when_he_stole_my/",
+          "signal": "33"
         }
       ],
       "content_ideas": [
-        "How to Use ZCode for Code Generation and Automation",
-        "ZCode Tutorial: A Step-by-Step Guide to Streamlining Your Coding Process",
-        "5 Ways to Improve Your Productivity with ZCode"
+        "How to Use Claude AI for Content Creation",
+        "Claude AI Review: The Ultimate Tool for AI-Generated Content",
+        "Tips and Tricks for Getting the Most Out of Claude AI"
       ]
     },
     {
-      "name": "Google Gemini OMNI",
-      "category": "tool_launch",
+      "name": "ChatGPT Agent Mode",
+      "category": "technique",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Gemini OMNI is a tool that allows users to create 2D cartoon movies using AI.",
-      "audience_angle": "You can use Google Gemini OMNI to create stunning cartoon movies for various purposes, including entertainment and education.",
-      "linkedin_angle": "Explore how Google Gemini OMNI can enhance your content creation and marketing efforts.",
-      "local_relevance": 7,
+      "what_it_is": "A feature that allows users to interact with ChatGPT in a more personalized way.",
+      "audience_angle": "Take your ChatGPT experience to the next level with Agent Mode.",
+      "linkedin_angle": "Discover how ChatGPT Agent Mode can enhance your productivity and workflow.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Gemini OMNI may have an affiliate program for creators and marketers."
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WiwRJq55Yj8",
-          "signal": "Create 2D Cartoon Movies with Google Gemini OMNI (Full Tutorial)"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Cartoon Movies with Google Gemini OMNI",
-        "10 Unique Ways to Use Google Gemini OMNI for Entertainment and Education",
-        "Google Gemini OMNI Tutorial: A Step-by-Step Guide to Cartoon Movie Creation"
+        "How to Use ChatGPT Agent Mode",
+        "ChatGPT Agent Mode Review: The Future of AI Interaction",
+        "Tips and Tricks for Getting the Most Out of ChatGPT Agent Mode"
+      ]
+    },
+    {
+      "name": "AI-Generated Videos",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "The use of AI for generating videos, including tutorials, reviews, and more.",
+      "audience_angle": "Create stunning videos with the power of AI.",
+      "linkedin_angle": "Explore the possibilities of AI-generated videos for your business.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI-generated video tools often have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mI9ekLzBXF8",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to Create AI-Generated Videos",
+        "AI-Generated Videos: The Future of Content Creation",
+        "Tips and Tricks for Getting the Most Out of AI-Generated Videos"
       ]
     }
   ],
@@ -210,59 +216,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Veo 3.1 is a tool that allows users to create and edit videos using AI.",
-      "audience_angle": "You can use Google Veo 3.1 to create stunning videos for various purposes, including marketing and social media.",
-      "linkedin_angle": "Explore how Google Veo 3.1 can enhance your video content creation and marketing efforts.",
+      "what_it_is": "A tool that offers free and unlimited access to AI-generated content.",
+      "audience_angle": "Create stunning AI-generated content with Google Veo 3.1.",
+      "linkedin_angle": "Explore the possibilities of AI-generated content for your business.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "reel",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Veo 3.1 may have an affiliate program for creators and marketers."
+        "note": "Google Veo 3.1 has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=uxIFXBrnOzg",
-          "signal": "How to Use Google Veo 3.1 Free & Unlimited Officially"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with Google Veo 3.1",
-        "10 Unique Ways to Use Google Veo 3.1 for Marketing",
-        "Google Veo 3.1 Tutorial: A Step-by-Step Guide to Video Creation"
-      ]
-    },
-    {
-      "name": "Google Gemini OMNI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Google Gemini OMNI is a tool that allows users to create 2D cartoon movies using AI.",
-      "audience_angle": "You can use Google Gemini OMNI to create stunning cartoon movies for various purposes, including entertainment and education.",
-      "linkedin_angle": "Explore how Google Gemini OMNI can enhance your content creation and marketing efforts.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Google Gemini OMNI may have an affiliate program for creators and marketers."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WiwRJq55Yj8",
-          "signal": "Create 2D Cartoon Movies with Google Gemini OMNI (Full Tutorial)"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Cartoon Movies with Google Gemini OMNI",
-        "10 Unique Ways to Use Google Gemini OMNI for Entertainment and Education",
-        "Google Gemini OMNI Tutorial: A Step-by-Step Guide to Cartoon Movie Creation"
+        "How to Use Google Veo 3.1 for Free and Unlimited AI-Generated Content",
+        "Google Veo 3.1 Review: The Ultimate Tool for AI-Generated Content",
+        "Tips and Tricks for Getting the Most Out of Google Veo 3.1"
       ]
     },
     {
@@ -272,90 +247,59 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for various purposes.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation and marketing efforts.",
+      "what_it_is": "A tool that generates images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators and marketers."
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Unique Ways to Use ChatGPT Images 2.0 for Marketing",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Use ChatGPT Images 2.0 for Marketing",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "ZCode",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "ZCode is a tool that allows users to generate code and automate tasks using AI.",
-      "audience_angle": "You can use ZCode to streamline your coding process and improve your productivity.",
-      "linkedin_angle": "Discover how ZCode can help you automate tasks and enhance your workflow.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ZCode may have an affiliate program for developers and coders."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://zcode.z.ai/en",
-          "signal": "ZCode – Harness for GLM-5.2"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ZCode for Code Generation and Automation",
-        "ZCode Tutorial: A Step-by-Step Guide to Streamlining Your Coding Process",
-        "5 Ways to Improve Your Productivity with ZCode"
-      ]
-    },
-    {
-      "name": "Gemma 4 31B",
+      "name": "Seedance 2.0 on OpenArt AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "Gemma 4 31B is a fine-tuned AI model for copywriting and creative writing tasks.",
-      "audience_angle": "You can use Gemma 4 31B to generate high-quality content for your writing needs.",
-      "linkedin_angle": "Discover how Gemma 4 31B can help you streamline your content creation process and improve your writing skills.",
+      "what_it_is": "A tool that utilizes Seedance 2.0 for AI-generated content on OpenArt AI.",
+      "audience_angle": "Unlock the potential of AI-generated content with Seedance 2.0.",
+      "linkedin_angle": "Discover how Seedance 2.0 can revolutionize your content creation process.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemma 4 31B may have an affiliate program for writers and content creators."
+        "note": "OpenArt AI offers affiliate programs for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqg4i/finetuned_gemma431b_specifically_for_copywriting/",
-          "signal": "Fine-tuned Gemma-4-31B specifically for Copywriting & Creative Writing Tasks"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ul5dsv/seedance_20_on_openart_ai/",
+          "signal": "34"
         }
       ],
       "content_ideas": [
-        "How to Use Gemma 4 31B for Copywriting and Creative Writing",
-        "Gemma 4 31B Tutorial: A Step-by-Step Guide to Content Creation",
-        "5 Ways to Improve Your Writing with Gemma 4 31B"
+        "Getting Started with Seedance 2.0 on OpenArt AI",
+        "Seedance 2.0: The Future of AI-Generated Content",
+        "Tips and Tricks for Using Seedance 2.0"
       ]
     },
     {
@@ -363,57 +307,63 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Claude AI is a tool that allows users to generate content and automate tasks using AI.",
-      "audience_angle": "You can use Claude AI to streamline your content creation process and improve your productivity.",
-      "linkedin_angle": "Discover how Claude AI can help you automate tasks and enhance your workflow.",
+      "what_it_is": "A tool that utilizes AI for various tasks, including content creation and more.",
+      "audience_angle": "Unlock the potential of AI with Claude AI.",
+      "linkedin_angle": "Discover how Claude AI can enhance your productivity and workflow.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI may have an affiliate program for creators and marketers."
+        "note": "Claude AI has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=V_t51u1tBJc",
-          "signal": "How I Make $24,937/mo Posting YouTube Shorts (Using Claude AI)"
+          "signal": "0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulfc0t/this_is_what_i_tell_to_my_friend_when_he_stole_my/",
+          "signal": "33"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Content Creation and Automation",
-        "Claude AI Tutorial: A Step-by-Step Guide to Streamlining Your Workflow",
-        "5 Ways to Improve Your Productivity with Claude AI"
+        "How to Use Claude AI for Content Creation",
+        "Claude AI Review: The Ultimate Tool for AI-Generated Content",
+        "Tips and Tricks for Getting the Most Out of Claude AI"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token costs",
-      "who_affected": "ChatGPT users and developers",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 8,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ulyzcp/chatgbt_has_gotten_unusable_at_this_point_due_to/"
+        }
+      ],
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
+    },
+    {
+      "problem": "Claude AI token limits",
+      "who_affected": "Claude AI users",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1ulfc0t/this_is_what_i_tell_to_my_friend_when_he_stole_my/"
         }
       ],
-      "content_opportunity": "Exploring affordable alternatives to ChatGPT and optimizing token usage."
-    },
-    {
-      "problem": "AI model training and deployment costs",
-      "who_affected": "AI developers and businesses",
-      "signal_strength": 6,
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/"
-        }
-      ],
-      "content_opportunity": "Discussing cost-effective strategies for AI model training and deployment."
+      "content_opportunity": "How to Manage Claude AI Token Limits"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
