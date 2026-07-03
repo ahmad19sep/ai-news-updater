@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
 4. **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
-5. **MedServe CEO warns against AI replacing doctors - Let's Data Science** — science angle
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxPajQ4eGZOTFFXc2pTcWc2Mk5UallGWTJ0TUZKZ19YcGNOQmlfMmlIZzdxamxTbkh3WXNBa05vRzQ4bnZfV3g1UjlXR1lXSW9RWGVSQXZFZlFDeWpuR0VLYzVUeFphX21RRTNhSVlXMmdZVG9jOXFDdTN4YjFDamNKRUJKNFRVVjA0SHVNZWI4XzRzTjQ?oc=5
-6. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
+5. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
    https://www.nature.com/articles/d41586-026-01672-9
-7. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
+6. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
-8. **Tampa doctor urges caution as more patients turn to AI for medical advice - Tampa Bay 28** — science angle
-   https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnJmaXdZazBfcjdoRE4yX0tpZkNkbVdMNlhhOE1OTU9WbTNTOXBKTGZLQXFnbzllRU91Y19UZXA0bXU2NDZMMm9OVV85VERlcm53OEw1WE9EaTNqR0hzTTNQT3FGQkkwbTJrN1poTDRDRnlGQm96T3dCbnlhd0lPZ1ZKWVBEcE5uc3NiWk1lT0lXSHhFR1E?oc=5
+7. **The doctor in your phone: Why experts are cautious about the growing dependence on AI for medical decisio - The Times of India** — science angle
+   https://news.google.com/rss/articles/CBMihgJBVV95cUxNbjI0ekRTVjBoend3bDhDb3k1UnBVSzYxbWlYR0hjLVdTc3FHemNTZF9mQTlvUFRYN0xDMlh4OVNhLWM5NjExUmRtLUNid3lTQk9PczRzWm5tdmZlUTRBTUhwVUNUQ2xmWjBKRTdRVjhaUnVPOGktTnI3UDJucThvUkxIeDgtdUpMOXR3OHJRamF1SHNjZk5Xek5faVVlaUgtLXI4bUlSV3E2c0FnNW5hc0U0YjdBM2ZWZ3A2ai1JempZZzg0TW5NZFBKdXBMbDc5b2NjN0NPWERUbDY4Y2U0LS1TU29yalViR1o4Z01qdDhxNDNfNXpmWEk4NS1vQ1NaRUtGWE5R0gGLAkFVX3lxTFBHTFhia3JXNUdvYzF6ZnBVaTNEdHkxd0NSWTZRUklWbmd2Q2FZdU9YY0FySXpsUEdBYlBQb0h5ZjgtZGd6T29xUnJ6ZmV1UlcxTzA4VmU2Mm11YnF2eVBiUW1ZNGxVVV9LcGJJMzVSM3g0QlRaSVR3YzRFQnFId2NvNDhjRExuTDdPdV9taF9IVmJWZnBMbXNuY1pwMEFFX05GZWtvaVpTY2YzZ3FVa3JxdDRlMk1kSGY2anVNdFAxR2Z0aU5xVjhEUlZ6VG1xajc3RldmVnNIcFpsOWN2SkJyY1hxdF9TX01yUHZseU1PMG8tc0FWQjdBOG0wQlc1b3htMEhWQzZxMmZkbw?oc=5
+8. **At one rural New Mexico hospital, doctors turn to AI tools - American Hospital Association** — science angle
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxOSnR6Qmh3NU5oS1YteldHR2FiWW5iOTRLMS1KakJGTWtaWjBGSjNPSE1jVGxfWGRnemdKQ3N4RnEtVXhDU3BxOEQzVEFtZnpxeVozTGhMakp1ZkxfenlUQnowbklTRzE0aXAyTGdVZEpxcEZRa1Q3NUhBUnNkUExfajk3NG1xczltSGpJa1BzeUs0SWRHcm83OW43QWlXOVZhbHFmN0Vn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review - WPLG Local 10** — Sam Altman News — Score 133
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3123
+- Total stories tracked: 3094
 - Most active topic: anthropic
 - Busiest category: AI General News
 
