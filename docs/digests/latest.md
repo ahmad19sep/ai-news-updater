@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3288
-- Most active topic: models
+- Total stories tracked: 3166
+- Most active topic: anthropic
 - Busiest category: AI General News
 
 ---
