@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
    https://openai.com/index/previewing-gpt-5-6-sol/
 9. **OpenAI to limit latest model launch at Trump administration's request: report - WSET** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQlUtSWoteFBrV3JvamRZMVM4ellZWHVabGFHY1N6WVpzSjdxSXFwWHdrVW9qdm83azFZazMxYVc1cHhNTFdmZHc5ajhyX0VIVEJ5TkozVEI0UFVpSkFEOHItQjFmOWRqYjBNV21aZ1A0YURwdXlkZVpKQzA5cURva2ZXMzVfdm0tZW9yRXhOcnhaeTBiUHRqYzh2WkdKNmJZclRBd1FSbkdGT2VESHJHV2xZNkZZZlBHQjhVV3RKQUJKMVUxTHgwZ1o0SzVkZnVETk11b1BVR01wNEVEMEs0aEdweTBOWFJURjhGOVpIYTJvajBqMmc?oc=5
-10. **OpenAI to delay IPO after Sam Altman spooked by SpaceX tumble, report says - The Independent** — Sam Altman News — Score 53
-   https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMzFoRzczbVh3WHNXd19kN2xTWFJobi1LamI5ckYxWkR4ekplUzBCZ2VqdjFJT0FaajJmOXhuWXZFSDFKUHRZM3dCOHlCTk1ZU2JaaGZpN2RMeG9IaDdpNjhRN21nWDlnMF9Qa2VWQXRYbEJ2Nk01bUszNzZUdWJlRl9CdF9OU1Jn?oc=5
+10. **US allows Anthropic to release Mythos AI to 'trusted' US organizations** — Hacker News new — Score 53.0
+   https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/
 
 ## 🧪 AI in Science Highlights
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0hmMWNTal9HR
 - **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3135
+- Total stories tracked: 3123
 - Most active topic: anthropic
 - Busiest category: AI General News
 
