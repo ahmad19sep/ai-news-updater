@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T09:02:15.836574+00:00",
+  "generated_at": "2026-07-04T14:00:34.898310+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 38,
+      "reddit": 25,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,92 +23,107 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT's image generation capabilities can enhance your professional projects.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT image generation."
+        "affiliate_likely": true,
+        "note": "ChatGPT's image generation feature has an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=poM2n8fBcag",
+          "signal": "0"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Professional Image Creation"
+        "10 Creative Ways to Use ChatGPT's Image Generation",
+        "ChatGPT Image Generation Tutorial for Beginners"
       ]
     },
     {
-      "name": "Claude AI for Business",
+      "name": "AI Video Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a tool for businesses to automate tasks and improve productivity.",
-      "audience_angle": "Boost your business productivity with Claude AI.",
-      "linkedin_angle": "Discover how Claude AI can help you streamline your business operations.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation tools allow users to create videos based on text or image prompts.",
+      "audience_angle": "Create engaging videos with just a few words using AI video generation tools.",
+      "linkedin_angle": "Discover how AI video generation can revolutionize your marketing and sales efforts.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for businesses."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1um9j1u/fable_5_max_hit_limit_i_topped_up_250_then_one/",
-          "signal": "Fable 5 Max hit limit, I topped up $250, then one “hey” cost me ~$20?"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude AI for Business Automation",
-        "Claude AI: A Game-Changer for Business Productivity",
-        "Streamlining Business Operations with Claude AI"
-      ]
-    },
-    {
-      "name": "AI Video Creation",
-      "category": "technique",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video creation involves using artificial intelligence to generate videos.",
-      "audience_angle": "Create stunning videos with just a few clicks using AI.",
-      "linkedin_angle": "Explore how AI video creation can enhance your professional video content.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for AI video creation."
+        "affiliate_likely": true,
+        "note": "AI video generation tools have affiliate programs for creators."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=mI9ekLzBXF8",
-          "signal": "Make FREE AI Videos (Dialogues + Lip Sync) FULL WORKFLOW"
+          "url": "https://www.youtube.com/watch?v=UNhBGqgnUlY",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.hyperstitionai.com/unslop-results",
+          "signal": "114"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning AI Videos",
-        "AI Video Creation: A Step-by-Step Guide",
-        "Using AI for Professional Video Creation"
+        "How to Create Viral Videos with AI Video Generation",
+        "AI Video Generation Tutorial for Beginners",
+        "10 Creative Ways to Use AI Video Generation"
+      ]
+    },
+    {
+      "name": "ChatGPT vs Claude",
+      "category": "debate",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "A comparison between ChatGPT and Claude, two popular AI chatbots.",
+      "audience_angle": "Which AI chatbot is better for you: ChatGPT or Claude?",
+      "linkedin_angle": "Explore the differences between ChatGPT and Claude for business use.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for this topic."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1un98mp/whats_the_reason_you_still_use_chatgpt_instead_of/",
+          "signal": "27"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+vs+claude",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT vs Claude: Which AI Chatbot is Better?",
+        "ChatGPT vs Claude: A Comparison of Features",
+        "Why I Switched from ChatGPT to Claude"
       ]
     }
   ],
@@ -121,76 +136,85 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT's image generation capabilities can enhance your professional projects.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT image generation."
+        "affiliate_likely": true,
+        "note": "ChatGPT's image generation feature has an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=poM2n8fBcag",
+          "signal": "0"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Professional Image Creation"
+        "10 Creative Ways to Use ChatGPT's Image Generation",
+        "ChatGPT Image Generation Tutorial for Beginners"
       ]
     },
     {
-      "name": "Claude AI for Business",
+      "name": "AI Video Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a tool for businesses to automate tasks and improve productivity.",
-      "audience_angle": "Boost your business productivity with Claude AI.",
-      "linkedin_angle": "Discover how Claude AI can help you streamline your business operations.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation tools allow users to create videos based on text or image prompts.",
+      "audience_angle": "Create engaging videos with just a few words using AI video generation tools.",
+      "linkedin_angle": "Discover how AI video generation can revolutionize your marketing and sales efforts.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for businesses."
+        "note": "AI video generation tools have affiliate programs for creators."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1um9j1u/fable_5_max_hit_limit_i_topped_up_250_then_one/",
-          "signal": "Fable 5 Max hit limit, I topped up $250, then one “hey” cost me ~$20?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UNhBGqgnUlY",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.hyperstitionai.com/unslop-results",
+          "signal": "114"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Business Automation",
-        "Claude AI: A Game-Changer for Business Productivity",
-        "Streamlining Business Operations with Claude AI"
+        "How to Create Viral Videos with AI Video Generation",
+        "AI Video Generation Tutorial for Beginners",
+        "10 Creative Ways to Use AI Video Generation"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude token limits hitting users hard",
-      "who_affected": "Businesses and individuals using Claude AI",
+      "problem": "ChatGPT token limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1um9j1u/fable_5_max_hit_limit_i_topped_up_250_then_one/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1un1t0h/and_my_expertise_depends_on_my_token_limits/"
         }
       ],
-      "content_opportunity": "Workarounds for Claude token limits: A tutorial"
+      "content_opportunity": "How to Work Around ChatGPT Token Limits"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
