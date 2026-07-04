@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
 7. **AI just discovered what doctors missed — or never knew - The American Bazaar** — science angle
    https://news.google.com/rss/articles/CBMipwFBVV95cUxOazFYdUxLTnBCMU5BYWtQc21qNE9hUERxYlV4eDJRM2F4ekE1QzFNaGRycjRZbUZGLWt5d0hmRzZoeFhpS0tOV0VTOWo0UlNvRkRBc1h1YjFKeEV5a3IxN0Z6YVFFMElnUm1XbzBvdkROeGVla01nZUhuREtFeVpEQUw1ZlJKYkR1Qnk4WHhBUTgycllHbFNOYlBka0lmYzlmaFBHRjZnUQ?oc=5
-8. **AI platform developed to support doctors, frontline workers with verified health intelligence** — science angle
-   https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-platform-developed-to-support-doctors-frontline-workers-with-verified-health-intelligence/articleshow/132029565.cms
+8. **Frederick Health using AI to detect seizures in critically ill patients - The Frederick News-Post** — science angle
+   https://news.google.com/rss/articles/CBMimAJBVV95cUxPN2ZpRVdYaTBXUERtUlhWcFVHS0IxRk5FWDJLRjFNWF9peVFFR2pSYXpIa3ZpTHZMTWtsRlNnTGZEMkRqZmY1bmUtX1UwWTRCSEs5c3BidmlmUHdoVlRQcG5FbUltaVNyRG1rNGN6Y0poMS00NldlMHdDUEs5ekR5UzkzeGVKSXVDSnFHV3R6dE9CSm5mMmtpSjRzaEtKN0J5OEJjODdiSHRKSndDRDZydTd2NFFBU2p5QUVyMGpiQVJ4My0yTENBLTJlNUlOX2ZGbXhua3VvQkNxOVV2U1VnVW1sQUk1amtEZnVET0NmSDRwSVF1ZWtTdXpGWG1RVkpjdk1xZzFSU3ZYSnlKVDQ0OUdxUXgxRFdZ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
@@ -33,18 +33,18 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://openai.com/index/previewing-gpt-5-6-sol/
 4. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 56
    https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
-5. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
+5. **AI is already reshaping US politics at every level** — arcamax — Score 56
+   https://www.arcamax.com/newsheadlines/s-4244522
+6. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnVqaVlXZjJIVXQ5RVhqN0ZOVjljX1R4MjFld01sQTNqYlNQM0V3bVRjVXhNSXZYeXhxay13NW1XUHA5dlJBLXNNeWM1eWkyR0lzc3V5TGJaa09oRndfenVrTTNXam1ndHUzeEw1cHhhSHlvZkE4alZBdFE1amN2cUJuUUlidld5YTNhNllyNFVNdDM3?oc=5
-6. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 50
+7. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 50
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
-7. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
+8. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
-8. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
+9. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUndEa05DNEhQT052aFJwVjBFMjhXM2xBbzZIckcwd2xtTFlLX3pkNTliT0hPUlV2RDFCak91aVlnSlVoWEVEbHR6T2VoNmxIcndTMW1KcUlBVFNXaEIwcS1aWnNrbEtKcFFja1YyYmlXVkJNLVgwdjZNVjZwbkI5NFJoeURId0RXTlFrbVc5QjV1c09k?oc=5
-9. **Claude Science, an AI workbench for scientists, is now available - Anthropic** — Anthropic News — Score 45
+10. **Claude Science, an AI workbench for scientists, is now available - Anthropic** — Anthropic News — Score 45
    https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0J0dXluYzJGcmxVb3dDY0Z2UjVYT2I5ZkYwSVRrWTBSUm5HZXpWRkFsQ2k5bm1jbVU5cENOY0xkX0tybV9FbnhRcFVac1dncWtqTF85OTZyd3o1dlRXenJkd1h3T1pTSGc?oc=5
-10. **Tech Mahindra To Deploy Perplexity AI Across Sales, Customer-Facing Teams - NDTV Profit** — Perplexity News — Score 43
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdHhHbkJuTXlFd2FHTTYyZ2xmMnU1ZTdFZ2VoTVctSkE1aWJXQU5lQnZqWi1Tc2s3NHh2UjRXWVl3UWQwZk00Y05aT1ZBWGdvZHRrNFpTT0hNM2JHalFXWDdFVTBZUmZQNHRDbGlOTXBjaFpYQ2pjSWxydlpLalJmOG8yc1NwUVhVbHdnQ3RHUXRvOHZjeEZPOGFyVzFEWUVTQkx1M09xWUlta1dLbDFTd0VVc0tDTk1fcjRz0gHDAUFVX3lxTFBxS2ZfUEJMLWRxWHZvX2hwQ2RONUt5WGVJbHdkaGE0WGlzU1dWaHhuVUFtbXM1cHpaLVAxVEI0QVdPcFdaR3dEd2pwMkxReG1LQ3NXLWg5Q0N3MUN0NktYU1ZTdnh0MkR3aGZ0WXowamlGRTF3VzI2MHNVWnpzQ2tieHliYmphVXFZcGVPaElyNHZ1dWw5VDY3R19ya0hlVVdoc3JHemVQOFBlcGYxeDRxekhFNGpOU3M5eFl0eW5NeFdFYw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3030
+- Total stories tracked: 3026
 - Most active topic: show
 - Busiest category: AI General News
 
