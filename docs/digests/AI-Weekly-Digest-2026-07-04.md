@@ -19,32 +19,32 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://www.nature.com/articles/d41586-026-01672-9
 6. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
-7. **Legal Risks Of Using AI To Screen Psychedelic Trial Patients - Law360** — science angle
-   https://news.google.com/rss/articles/CBMiogFBVV95cUxQZlphVzRtRG9JQzFzNG5jVFlPUEEyaVFTZWpWRnE5clhSRlFJWmNMZGFyNzJVbmN3R3dXeTctcktUNlUwUEJDYlhhM005VVNBMzdHdGxqM0ZFRTdPQmxrVDNaN2RoNzhCMU8xRTVGczVxbjZ4QmJabUxqd01ZVlFjdjZEVzdueXk0bExzWmdLOVVHOUwtWEpPOF81WnlyZnZsX1HSAVZBVV95cUxQVHh3dHdUaTREdHByRUdTRnR2NWI4TjVUSGpVby1WNHNVWS1YdFZHQjZ1OFZHX1hLSW9sUE9XZFRjajNzdDB0d2x4b25zTG5MVGRiMk00dw?oc=5
-8. **AI just discovered what doctors missed — or never knew - The American Bazaar** — science angle
+7. **AI just discovered what doctors missed — or never knew - The American Bazaar** — science angle
    https://news.google.com/rss/articles/CBMipwFBVV95cUxOazFYdUxLTnBCMU5BYWtQc21qNE9hUERxYlV4eDJRM2F4ekE1QzFNaGRycjRZbUZGLWt5d0hmRzZoeFhpS0tOV0VTOWo0UlNvRkRBc1h1YjFKeEV5a3IxN0Z6YVFFMElnUm1XbzBvdkROeGVla01nZUhuREtFeVpEQUw1ZlJKYkR1Qnk4WHhBUTgycllHbFNOYlBka0lmYzlmaFBHRjZnUQ?oc=5
+8. **AI platform developed to support doctors, frontline workers with verified health intelligence** — science angle
+   https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-platform-developed-to-support-doctors-frontline-workers-with-verified-health-intelligence/articleshow/132029565.cms
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZW5DOTdyVk5SQnVVelVrOGx3QmJaaFBqZ3g3YkJpYXE5TGNvWTJHVTRHNVNUdHNqMml5Q3VhaGRpV1gtTWNqbkh4M2ZON1FuUG05eVNVRGsxRHRtRlVpald2NXktMXBqX1JQNUVOY055UVpRc3doSU4xZmpJb3lQd0hKemJFaVVydTRvdGpXeERvWDJqRXB1clBLeDBmTDBJUdIBrwFBVV95cUxOcVVBWUZHVXVyV05VV2w3WC13NFdKNXZZUDZqcThlYWlTN1g5T1FWa3ZfaTlHMHotejh6SV9YWmV0SjhSWUJRbEMwY2JsNlp3TE03OUZnMExLck9PNURUN3lYTElQcUY5ZzgxZ0o4elM1YW9sdnU0TDNDVWZ3TWIxdmphWV80Sml3NVBZaFZ5MkVDR29KektPbUttLVJIdXpzZkZNUU5Sdjh3akF6ZDdr?oc=5
 2. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 73
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
-3. **Oracle cuts 21,000 jobs as California debuts AI job-loss tracker - MSN** — AI Jobs S Asia — Score 63
-   https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTExDMlhRSHZaTHZDNXNLQkpaNmQxN2pmTkZrdXh4SXRVYV9VQ3EzQ0RldTh6LWkwYVVzaUgxbXJ6VDFETnFXMVh5TEZQQzlTT210MnhnNkRLZGhVUFZpZnkweTVYYklxRGx6anpOU0VuajVXNkNRS3ZkMnBxRHFxRTVyem1ZeDdyVk9YaTdnTk5IcWdLV1pqOGtydDFqLXkyX0JFX0l2UThNRXZrU3pObTJ2NGxQR0R3eGlNbGZoRVNacExpWkkyYXVnQjlxMC0tdGFyS09UajRxT3ZqYUp4QWJDa1RMSHZERGFyYzFYa2pBb3NXNGVuY1ppR0w?oc=5
-4. **Previewing GPT‑5.6 Sol: a next-generation model** — Hacker News AI — Score 61.0
+3. **Previewing GPT‑5.6 Sol: a next-generation model** — Hacker News AI — Score 61.0
    https://openai.com/index/previewing-gpt-5-6-sol/
-5. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 56
+4. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 56
    https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
-6. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
+5. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnVqaVlXZjJIVXQ5RVhqN0ZOVjljX1R4MjFld01sQTNqYlNQM0V3bVRjVXhNSXZYeXhxay13NW1XUHA5dlJBLXNNeWM1eWkyR0lzc3V5TGJaa09oRndfenVrTTNXam1ndHUzeEw1cHhhSHlvZkE4alZBdFE1amN2cUJuUUlidld5YTNhNllyNFVNdDM3?oc=5
-7. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 50
+6. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 50
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
-8. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
+7. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
-9. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
+8. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUndEa05DNEhQT052aFJwVjBFMjhXM2xBbzZIckcwd2xtTFlLX3pkNTliT0hPUlV2RDFCak91aVlnSlVoWEVEbHR6T2VoNmxIcndTMW1KcUlBVFNXaEIwcS1aWnNrbEtKcFFja1YyYmlXVkJNLVgwdjZNVjZwbkI5NFJoeURId0RXTlFrbVc5QjV1c09k?oc=5
-10. **Claude Science, an AI workbench for scientists, is now available - Anthropic** — Anthropic News — Score 45
+9. **Claude Science, an AI workbench for scientists, is now available - Anthropic** — Anthropic News — Score 45
    https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0J0dXluYzJGcmxVb3dDY0Z2UjVYT2I5ZkYwSVRrWTBSUm5HZXpWRkFsQ2k5bm1jbVU5cENOY0xkX0tybV9FbnhRcFVac1dncWtqTF85OTZyd3o1dlRXenJkd1h3T1pTSGc?oc=5
+10. **Tech Mahindra To Deploy Perplexity AI Across Sales, Customer-Facing Teams - NDTV Profit** — Perplexity News — Score 43
+   https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdHhHbkJuTXlFd2FHTTYyZ2xmMnU1ZTdFZ2VoTVctSkE1aWJXQU5lQnZqWi1Tc2s3NHh2UjRXWVl3UWQwZk00Y05aT1ZBWGdvZHRrNFpTT0hNM2JHalFXWDdFVTBZUmZQNHRDbGlOTXBjaFpYQ2pjSWxydlpLalJmOG8yc1NwUVhVbHdnQ3RHUXRvOHZjeEZPOGFyVzFEWUVTQkx1M09xWUlta1dLbDFTd0VVc0tDTk1fcjRz0gHDAUFVX3lxTFBxS2ZfUEJMLWRxWHZvX2hwQ2RONUt5WGVJbHdkaGE0WGlzU1dWaHhuVUFtbXM1cHpaLVAxVEI0QVdPcFdaR3dEd2pwMkxReG1LQ3NXLWg5Q0N3MUN0NktYU1ZTdnh0MkR3aGZ0WXowamlGRTF3VzI2MHNVWnpzQ2tieHliYmphVXFZcGVPaElyNHZ1dWw5VDY3R19ya0hlVVdoc3JHemVQOFBlcGYxeDRxekhFNGpOU3M5eFl0eW5NeFdFYw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3077
+- Total stories tracked: 3039
 - Most active topic: show
 - Busiest category: AI General News
 
