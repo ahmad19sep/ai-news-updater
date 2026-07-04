@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://www.nature.com/articles/d41586-026-01672-9
 6. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
-7. **At one rural New Mexico hospital, doctors turn to AI tools - American Hospital Association** — science angle
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxOSnR6Qmh3NU5oS1YteldHR2FiWW5iOTRLMS1KakJGTWtaWjBGSjNPSE1jVGxfWGRnemdKQ3N4RnEtVXhDU3BxOEQzVEFtZnpxeVozTGhMakp1ZkxfenlUQnowbklTRzE0aXAyTGdVZEpxcEZRa1Q3NUhBUnNkUExfajk3NG1xczltSGpJa1BzeUs0SWRHcm83OW43QWlXOVZhbHFmN0Vn?oc=5
-8. **Trump shares AI video of himself as a doctor who treats celebrities with 'Trump Derangement Syndrome' - Yahoo** — science angle
+7. **Trump shares AI video of himself as a doctor who treats celebrities with 'Trump Derangement Syndrome' - Yahoo** — science angle
    https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTWVjQ01UV0ZabmF6OVZhZEJmZmJJdkxJOUQwVTZfb1dNdDV3TEotUU0xM2stclRpU0VWbjViWDU1djV5Y1BVZmlBSnlhSVkyV3lSR0lqa1BQTXZhSXdIVnNra1FYZ1dVWFhmRTJVd3VlQ083UkVMLXhWU29kYndOQnZrdkpBX2Uyc3RlbVVzb1NfVDVhZjNQSWh2Q2swWDRoc1ZQOW5MWGx3X2RMOGdhOG9GajAweExaYzQ2MU9td0t1QWV5VXFuWDFGeGdwTzVPeV9tSTdvNDI2YlhJUWl1elB6SFdPYl9FVkFvd25waw?oc=5
+8. **Legal Risks Of Using AI To Screen Psychedelic Trial Patients - Law360** — science angle
+   https://news.google.com/rss/articles/CBMiogFBVV95cUxQZlphVzRtRG9JQzFzNG5jVFlPUEEyaVFTZWpWRnE5clhSRlFJWmNMZGFyNzJVbmN3R3dXeTctcktUNlUwUEJDYlhhM005VVNBMzdHdGxqM0ZFRTdPQmxrVDNaN2RoNzhCMU8xRTVGczVxbjZ4QmJabUxqd01ZVlFjdjZEVzdueXk0bExzWmdLOVVHOUwtWEpPOF81WnlyZnZsX1HSAVZBVV95cUxQVHh3dHdUaTREdHByRUdTRnR2NWI4TjVUSGpVby1WNHNVWS1YdFZHQjZ1OFZHX1hLSW9sUE9XZFRjajNzdDB0d2x4b25zTG5MVGRiMk00dw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3038
+- Total stories tracked: 3061
 - Most active topic: show
 - Busiest category: AI General News
 
