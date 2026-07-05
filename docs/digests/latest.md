@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 27 Jun 2026 to 04 Jul 2026
+# 🗞️ AI THIS WEEK — 28 Jun 2026 to 05 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4**
@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
 7. **AI just discovered what doctors missed — or never knew - The American Bazaar** — science angle
    https://news.google.com/rss/articles/CBMipwFBVV95cUxOazFYdUxLTnBCMU5BYWtQc21qNE9hUERxYlV4eDJRM2F4ekE1QzFNaGRycjRZbUZGLWt5d0hmRzZoeFhpS0tOV0VTOWo0UlNvRkRBc1h1YjFKeEV5a3IxN0Z6YVFFMElnUm1XbzBvdkROeGVla01nZUhuREtFeVpEQUw1ZlJKYkR1Qnk4WHhBUTgycllHbFNOYlBka0lmYzlmaFBHRjZnUQ?oc=5
-8. **Frederick Health using AI to detect seizures in critically ill patients - The Frederick News-Post** — science angle
-   https://news.google.com/rss/articles/CBMimAJBVV95cUxPN2ZpRVdYaTBXUERtUlhWcFVHS0IxRk5FWDJLRjFNWF9peVFFR2pSYXpIa3ZpTHZMTWtsRlNnTGZEMkRqZmY1bmUtX1UwWTRCSEs5c3BidmlmUHdoVlRQcG5FbUltaVNyRG1rNGN6Y0poMS00NldlMHdDUEs5ekR5UzkzeGVKSXVDSnFHV3R6dE9CSm5mMmtpSjRzaEtKN0J5OEJjODdiSHRKSndDRDZydTd2NFFBU2p5QUVyMGpiQVJ4My0yTENBLTJlNUlOX2ZGbXhua3VvQkNxOVV2U1VnVW1sQUk1amtEZnVET0NmSDRwSVF1ZWtTdXpGWG1RVkpjdk1xZzFSU3ZYSnlKVDQ0OUdxUXgxRFdZ?oc=5
+8. **Doctors’ soaring use of AI scribes prompts Australian government warning over privacy - The Guardian** — science angle
+   https://news.google.com/rss/articles/CBMirwFBVV95cUxQcU80UU9YM1BOZnZBeHY1UHBNZklxM0NlNG90Ui1BV1FDd3ZVdU56QnVjSEFTWV9GdzY1MW9vOFB2dmR5Vkd4S3h1OFAyUFlzUEZPNHVSdDNWRmdBc0c5QUdiVjJVaGhqMFRGNDhrY3lkZ2lzSUY1eFRmSmxYV3duby1ieTBaNkJjVXNkYkNfcXFqT2hLTlZYczhfYmxsa3ZVZkZoOE1maVdzNkcxNmJN?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
@@ -31,12 +31,12 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
 3. **Previewing GPT‑5.6 Sol: a next-generation model** — Hacker News AI — Score 61.0
    https://openai.com/index/previewing-gpt-5-6-sol/
-4. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 56
-   https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
-5. **AI is already reshaping US politics at every level** — arcamax — Score 56
+4. **AI is already reshaping US politics at every level** — arcamax — Score 56
    https://www.arcamax.com/newsheadlines/s-4244522
-6. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
+5. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnVqaVlXZjJIVXQ5RVhqN0ZOVjljX1R4MjFld01sQTNqYlNQM0V3bVRjVXhNSXZYeXhxay13NW1XUHA5dlJBLXNNeWM1eWkyR0lzc3V5TGJaa09oRndfenVrTTNXam1ndHUzeEw1cHhhSHlvZkE4alZBdFE1amN2cUJuUUlidld5YTNhNllyNFVNdDM3?oc=5
+6. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
+   https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
 7. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 50
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
 8. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3057
+- Total stories tracked: 3062
 - Most active topic: show
 - Busiest category: AI General News
 
