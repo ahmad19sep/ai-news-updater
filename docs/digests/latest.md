@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **Quantum mechanics once baffled scientists. Now it's changing the world** — https://www.sciencedaily.com/releases/2026/06/260624025516.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3004
+- Total stories tracked: 3000
 - Most active topic: show
 - Busiest category: AI General News
 
