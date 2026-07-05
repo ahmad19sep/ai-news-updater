@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T14:11:13.345376+00:00",
+  "generated_at": "2026-07-05T19:43:33.752591+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
+      "reddit": 25,
       "hackernews": 23,
       "youtube": 106
     },
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is a tool that can generate images based on user input.",
-      "audience_angle": "You can use ChatGPT to create unique and personalized images for various purposes.",
-      "linkedin_angle": "Leverage ChatGPT for creative and professional image generation.",
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "Create stunning images with just text prompts.",
+      "linkedin_angle": "Explore the potential of AI-generated images in marketing and design.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation capabilities."
+        "note": "ChatGPT has an affiliate program for its image generation tool"
       },
       "sources": [
         {
@@ -48,227 +48,269 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Professional Image Creation"
-      ]
-    },
-    {
-      "name": "Midjourney V8 Alpha",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "Midjourney V8 Alpha is a new version of the Midjourney AI tool.",
-      "audience_angle": "You can use Midjourney V8 Alpha to create unique and personalized images and videos.",
-      "linkedin_angle": "Explore the creative possibilities of Midjourney V8 Alpha for professional projects.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Midjourney V8 Alpha."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1slml6j/v81_alpha_is_out/",
-          "signal": "V8.1 Alpha is out!"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Midjourney V8 Alpha",
-        "Midjourney V8 Alpha: A Game-Changer for Creative Projects",
-        "Getting Started with Midjourney V8 Alpha"
+        "ChatGPT Image Generation Tutorial for Beginners",
+        "Using ChatGPT for Graphic Design: Tips and Tricks"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
-      "audience_angle": "You can use AI video generation to create unique and personalized videos for various purposes.",
-      "linkedin_angle": "Leverage AI video generation for creative and professional video creation.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NnvRMs_0UQ8",
-          "signal": "How to Build a Kids Animation Channel with AI (Full Workflow)"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "AI Video Generation: A Step-by-Step Guide",
-        "Using AI for Professional Video Creation"
-      ]
-    },
-    {
-      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Claude AI is a tool that allows users to create and edit videos using AI.",
-      "audience_angle": "You can use Claude AI to create unique and personalized videos for various purposes.",
-      "linkedin_angle": "Explore the creative possibilities of Claude AI for professional projects.",
-      "local_relevance": 6,
+      "what_it_is": "AI can generate videos based on user input.",
+      "audience_angle": "Create engaging videos with just text prompts.",
+      "linkedin_angle": "Explore the potential of AI-generated videos in marketing and advertising.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Claude AI."
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HnBNMeCl6MY",
-          "signal": "Create 3D Cartoon Animation with Dialogues"
+          "url": "https://www.youtube.com/watch?v=1Cj44iznJEU",
+          "signal": "Top 5 FREE AI Video Generators 2026"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo5hew/beautiful_manga_panel_prompt/",
+          "signal": "Beautiful manga panel prompt!"
         }
       ],
       "content_ideas": [
-        "What's New in Claude AI",
-        "Claude AI: A Game-Changer for Creative Projects",
-        "Getting Started with Claude AI"
+        "How to Create Engaging Videos with AI",
+        "AI Video Generation Tutorial for Beginners",
+        "Using AI for Video Production: Tips and Tricks"
       ]
     },
     {
-      "name": "Gemini AI",
+      "name": "Claude AI Trading Bot",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Gemini AI is a tool that allows users to create and edit videos using AI.",
-      "audience_angle": "You can use Gemini AI to create unique and personalized videos for various purposes.",
-      "linkedin_angle": "Explore the creative possibilities of Gemini AI for professional projects.",
-      "local_relevance": 8,
+      "what_it_is": "Claude AI is a trading bot that uses AI to make investment decisions.",
+      "audience_angle": "Make money with AI-powered trading bot.",
+      "linkedin_angle": "Explore the potential of AI in trading and investing.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemini AI has an affiliate program."
+        "note": "Claude AI has an affiliate program for its trading bot"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
+          "signal": "Claude Fable 5 Use Cases You Must Do NOW"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo0f6e/when_fable_goes_apionly_in_2_days_and_tibo/",
+          "signal": "When Fable goes API-only in 2 days and Tibo announces ChatGPT 5.6 via subscription"
+        }
+      ],
+      "content_ideas": [
+        "How to Make Money with Claude AI Trading Bot",
+        "Claude AI Trading Bot Tutorial for Beginners",
+        "Using Claude AI for Investment: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "Gemini AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Gemini AI is a new AI model developed by Google.",
+      "audience_angle": "Explore the capabilities of Gemini AI.",
+      "linkedin_angle": "Learn about the potential applications of Gemini AI in business.",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Gemini AI"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=7GkIWPPC9i0",
           "signal": "Learn 90% of Google's Gemini Spark in 15 Minutes!"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.hyperstitionai.com/unslop-results",
+          "signal": "2026 Unslop AI-Written Fiction Contest Results"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini AI",
-        "Gemini AI: A Game-Changer for Creative Projects",
-        "Getting Started with Gemini AI"
+        "Introduction to Gemini AI: Capabilities and Applications",
+        "Gemini AI Tutorial for Beginners",
+        "Using Gemini AI for Natural Language Processing: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "AI in Education",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "AI is being used in education to improve learning outcomes.",
+      "audience_angle": "Learn how AI can improve your learning experience.",
+      "linkedin_angle": "Explore the potential of AI in education and its applications.",
+      "local_relevance": 9,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for AI in education"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arxiv.org/abs/2602.09239",
+          "signal": "A sociotechnical threat model for AI-driven smart home devices"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J4X298Ir1r8",
+          "signal": "Crazy Note-Taking App | Professor Of AI"
+        }
+      ],
+      "content_ideas": [
+        "How AI is Revolutionizing Education",
+        "AI in Education: Benefits and Challenges",
+        "Using AI for Personalized Learning: Tips and Tricks"
       ]
     },
     {
       "name": "AI Side Hustles",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "AI side hustles refer to the various ways individuals can use AI to earn extra income.",
-      "audience_angle": "You can use AI to create a side hustle and earn extra income.",
-      "linkedin_angle": "Explore the possibilities of AI side hustles for professional development.",
-      "local_relevance": 9,
+      "what_it_is": "AI can be used to create side hustles and earn extra income.",
+      "audience_angle": "Learn how to create a side hustle with AI.",
+      "linkedin_angle": "Explore the potential of AI in creating new business opportunities.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 10,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI tools have affiliate programs for side hustles."
+        "note": "Several AI side hustle tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=ccs0g0Dz0XE",
           "signal": "The Best AI Side Hustle Ideas NO ONE Is Talking About"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo5f94/how_to_unlobotomize_my_chatgpt/",
+          "signal": "How to unlobotomize my chatgpt?"
         }
       ],
       "content_ideas": [
-        "How to Create a Successful AI Side Hustle",
-        "AI Side Hustles: A Step-by-Step Guide",
-        "Using AI for Professional Side Hustles"
+        "How to Create a Side Hustle with AI",
+        "AI Side Hustle Ideas for Beginners",
+        "Using AI for Freelancing: Tips and Tricks"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Midjourney V8 Alpha",
+      "name": "AI Video Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "Midjourney V8 Alpha is a new version of the Midjourney AI tool.",
-      "audience_angle": "You can use Midjourney V8 Alpha to create unique and personalized images and videos.",
-      "linkedin_angle": "Explore the creative possibilities of Midjourney V8 Alpha for professional projects.",
+      "what_it_is": "AI can generate videos based on user input.",
+      "audience_angle": "Create engaging videos with just text prompts.",
+      "linkedin_angle": "Explore the potential of AI-generated videos in marketing and advertising.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Midjourney V8 Alpha."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1slml6j/v81_alpha_is_out/",
-          "signal": "V8.1 Alpha is out!"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Midjourney V8 Alpha",
-        "Midjourney V8 Alpha: A Game-Changer for Creative Projects",
-        "Getting Started with Midjourney V8 Alpha"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude AI is a tool that allows users to create and edit videos using AI.",
-      "audience_angle": "You can use Claude AI to create unique and personalized videos for various purposes.",
-      "linkedin_angle": "Explore the creative possibilities of Claude AI for professional projects.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Claude AI."
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HnBNMeCl6MY",
-          "signal": "Create 3D Cartoon Animation with Dialogues"
+          "url": "https://www.youtube.com/watch?v=1Cj44iznJEU",
+          "signal": "Top 5 FREE AI Video Generators 2026"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo5hew/beautiful_manga_panel_prompt/",
+          "signal": "Beautiful manga panel prompt!"
         }
       ],
       "content_ideas": [
-        "What's New in Claude AI",
-        "Claude AI: A Game-Changer for Creative Projects",
-        "Getting Started with Claude AI"
+        "How to Create Engaging Videos with AI",
+        "AI Video Generation Tutorial for Beginners",
+        "Using AI for Video Production: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "Gemini AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Gemini AI is a new AI model developed by Google.",
+      "audience_angle": "Explore the capabilities of Gemini AI.",
+      "linkedin_angle": "Learn about the potential applications of Gemini AI in business.",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Gemini AI"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7GkIWPPC9i0",
+          "signal": "Learn 90% of Google's Gemini Spark in 15 Minutes!"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.hyperstitionai.com/unslop-results",
+          "signal": "2026 Unslop AI-Written Fiction Contest Results"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Gemini AI: Capabilities and Applications",
+        "Gemini AI Tutorial for Beginners",
+        "Using Gemini AI for Natural Language Processing: Tips and Tricks"
       ]
     },
     {
@@ -279,16 +321,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is a tool that can generate images based on user input.",
-      "audience_angle": "You can use ChatGPT to create unique and personalized images for various purposes.",
-      "linkedin_angle": "Leverage ChatGPT for creative and professional image generation.",
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "Create stunning images with just text prompts.",
+      "linkedin_angle": "Explore the potential of AI-generated images in marketing and design.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation capabilities."
+        "note": "ChatGPT has an affiliate program for its image generation tool"
       },
       "sources": [
         {
@@ -304,39 +346,45 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Professional Image Creation"
+        "ChatGPT Image Generation Tutorial for Beginners",
+        "Using ChatGPT for Graphic Design: Tips and Tricks"
       ]
     },
     {
-      "name": "Gemini AI",
+      "name": "Claude AI Trading Bot",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Gemini AI is a tool that allows users to create and edit videos using AI.",
-      "audience_angle": "You can use Gemini AI to create unique and personalized videos for various purposes.",
-      "linkedin_angle": "Explore the creative possibilities of Gemini AI for professional projects.",
-      "local_relevance": 8,
+      "what_it_is": "Claude AI is a trading bot that uses AI to make investment decisions.",
+      "audience_angle": "Make money with AI-powered trading bot.",
+      "linkedin_angle": "Explore the potential of AI in trading and investing.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemini AI has an affiliate program."
+        "note": "Claude AI has an affiliate program for its trading bot"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7GkIWPPC9i0",
-          "signal": "Learn 90% of Google's Gemini Spark in 15 Minutes!"
+          "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
+          "signal": "Claude Fable 5 Use Cases You Must Do NOW"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo0f6e/when_fable_goes_apionly_in_2_days_and_tibo/",
+          "signal": "When Fable goes API-only in 2 days and Tibo announces ChatGPT 5.6 via subscription"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini AI",
-        "Gemini AI: A Game-Changer for Creative Projects",
-        "Getting Started with Gemini AI"
+        "How to Make Money with Claude AI Trading Bot",
+        "Claude AI Trading Bot Tutorial for Beginners",
+        "Using Claude AI for Investment: Tips and Tricks"
       ]
     }
   ],
@@ -344,27 +392,27 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1unzfs2/chatgpt_helped_me_get_my_life_together/"
-        }
-      ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and maximize its potential."
-    },
-    {
-      "problem": "AI video generation quality issues",
-      "who_affected": "AI video generation users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NnvRMs_0UQ8"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo3lk0/chatgpt_doenst_follow_instructions/"
         }
       ],
-      "content_opportunity": "Tips and tricks for improving AI video generation quality."
+      "content_opportunity": "ChatGPT usage limits: How to optimize your usage"
+    },
+    {
+      "problem": "AI-generated content quality",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Oix4kIV5iLc"
+        }
+      ],
+      "content_opportunity": "Improving AI-generated content quality: Tips and tricks"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation, because it has the potential to revolutionize the way we create and edit images."
+  "tool_of_week_candidate": "ChatGPT Image Generation: Create stunning images with just text prompts."
 }
