@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://www.nature.com/articles/d41586-026-01672-9
 6. **Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students** — science angle
    https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629
-7. **AI just discovered what doctors missed — or never knew - The American Bazaar** — science angle
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxOazFYdUxLTnBCMU5BYWtQc21qNE9hUERxYlV4eDJRM2F4ekE1QzFNaGRycjRZbUZGLWt5d0hmRzZoeFhpS0tOV0VTOWo0UlNvRkRBc1h1YjFKeEV5a3IxN0Z6YVFFMElnUm1XbzBvdkROeGVla01nZUhuREtFeVpEQUw1ZlJKYkR1Qnk4WHhBUTgycllHbFNOYlBka0lmYzlmaFBHRjZnUQ?oc=5
-8. **Doctors’ soaring use of AI scribes prompts Australian government warning over privacy - The Guardian** — science angle
+7. **Doctors’ soaring use of AI scribes prompts Australian government warning over privacy - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQcU80UU9YM1BOZnZBeHY1UHBNZklxM0NlNG90Ui1BV1FDd3ZVdU56QnVjSEFTWV9GdzY1MW9vOFB2dmR5Vkd4S3h1OFAyUFlzUEZPNHVSdDNWRmdBc0c5QUdiVjJVaGhqMFRGNDhrY3lkZ2lzSUY1eFRmSmxYV3duby1ieTBaNkJjVXNkYkNfcXFqT2hLTlZYczhfYmxsa3ZVZkZoOE1maVdzNkcxNmJN?oc=5
+8. **NHS app to use AI to determine which service best for patients - BBC** — science angle
+   https://news.google.com/rss/articles/CBMiXEFVX3lxTFAteFJ4eUtLYnJ5NnJIdm1sNTNNeHhwTElIWWlJVkk0VTlDZTJfVGpLWGZKRzVNenVfc3gwSnFzYWlSUU53d0lRRUlRbU04Wklrd1NRRWhUWEZvaVZi?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
@@ -37,12 +37,12 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnVqaVlXZjJIVXQ5RVhqN0ZOVjljX1R4MjFld01sQTNqYlNQM0V3bVRjVXhNSXZYeXhxay13NW1XUHA5dlJBLXNNeWM1eWkyR0lzc3V5TGJaa09oRndfenVrTTNXam1ndHUzeEw1cHhhSHlvZkE4alZBdFE1amN2cUJuUUlidld5YTNhNllyNFVNdDM3?oc=5
 6. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
    https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
-7. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 50
-   https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
-8. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
+7. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
-9. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
+8. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUndEa05DNEhQT052aFJwVjBFMjhXM2xBbzZIckcwd2xtTFlLX3pkNTliT0hPUlV2RDFCak91aVlnSlVoWEVEbHR6T2VoNmxIcndTMW1KcUlBVFNXaEIwcS1aWnNrbEtKcFFja1YyYmlXVkJNLVgwdjZNVjZwbkI5NFJoeURId0RXTlFrbVc5QjV1c09k?oc=5
+9. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 47
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
 10. **Claude Science, an AI workbench for scientists, is now available - Anthropic** — Anthropic News — Score 45
    https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0J0dXluYzJGcmxVb3dDY0Z2UjVYT2I5ZkYwSVRrWTBSUm5HZXpWRkFsQ2k5bm1jbVU5cENOY0xkX0tybV9FbnhRcFVac1dncWtqTF85OTZyd3o1dlRXenJkd1h3T1pTSGc?oc=5
 
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3062
+- Total stories tracked: 3044
 - Most active topic: show
 - Busiest category: AI General News
 
