@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **AI is reshaping how doctors train - University of Cincinnati** — https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjbzF1T0FZemQ4bHROWFlIQnlSTExxNXhPdng1Zi11a0JtVEdXRFc1a0cxUWtha29jYnJVNGpJTVA4OFpNNTBzSmlWRnQ2Z1FvaU1zN0l2NE4wTWgxM25CSHhlWlZKQQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2937
+- Total stories tracked: 2956
 - Most active topic: show
 - Busiest category: AI General News
 
