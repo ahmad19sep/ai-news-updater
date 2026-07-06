@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 28 Jun 2026 to 05 Jul 2026
+# 🗞️ AI THIS WEEK — 29 Jun 2026 to 06 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4**
@@ -11,30 +11,30 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://news.google.com/rss/articles/CBMiXEFVX3lxTFAteFJ4eUtLYnJ5NnJIdm1sNTNNeHhwTElIWWlJVkk0VTlDZTJfVGpLWGZKRzVNenVfc3gwSnFzYWlSUU53d0lRRUlRbU04Wklrd1NRRWhUWEZvaVZi?oc=5
 2. **NHS to use AI on its app to direct patients to appropriate services** — 1 upvotes on Reddit/HN
    https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
-3. **AI is reshaping how doctors train - University of Cincinnati** — science angle
+3. **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — science angle
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
+4. **AI is reshaping how doctors train - University of Cincinnati** — science angle
    https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjbzF1T0FZemQ4bHROWFlIQnlSTExxNXhPdng1Zi11a0JtVEdXRFc1a0cxUWtha29jYnJVNGpJTVA4OFpNNTBzSmlWRnQ2Z1FvaU1zN0l2NE4wTWgxM25CSHhlWlZKQQ?oc=5
-4. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
+5. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
-5. **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — science angle
+6. **With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals - StreetInsider** — science angle
    https://news.google.com/rss/articles/CBMikgJBVV95cUxNbmZpZ2pxWmxIeWFWTEZ5ME9fQTlsUHgxT3JBajd0SEVUWVMwZC1HNTZuMHo1dUYtckY5M0t5b2NJUTJkRVhxUW43bG9XWmt2NGU1NTJJa2xydERXQW9yc2Q4ZjB1VzJUZFoxUlJQSnhVTHVKcUNPaGtGOWFDZ0JKMWxYbTkwQ0c0Z0FnSy1pRGtWeXR3RllPdmkzRTM1RjJmV3BKNl9CU3Z2V0RhM083eWUxUl9JamlfcXVmTU5iWmpDbXI2eVhqREVBM21BSE5FNE13SUszMFpxSFhyQ3RCZ3hIeHhGaWxuZWtsUF9obzlDbllSNVZnam1ZQk1obWVmQloydHd1bHJpLXl1YTVUSTl3?oc=5
-6. **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — science angle
+7. **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
-7. **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — science angle
+8. **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — science angle
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
-8. **How AI can crack open the ‘hidden curriculum’ for neurodivergent students** — science angle
-   https://www.nature.com/articles/d41586-026-01672-9
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZW5DOTdyVk5SQnVVelVrOGx3QmJaaFBqZ3g3YkJpYXE5TGNvWTJHVTRHNVNUdHNqMml5Q3VhaGRpV1gtTWNqbkh4M2ZON1FuUG05eVNVRGsxRHRtRlVpald2NXktMXBqX1JQNUVOY055UVpRc3doSU4xZmpJb3lQd0hKemJFaVVydTRvdGpXeERvWDJqRXB1clBLeDBmTDBJUdIBrwFBVV95cUxOcVVBWUZHVXVyV05VV2w3WC13NFdKNXZZUDZqcThlYWlTN1g5T1FWa3ZfaTlHMHotejh6SV9YWmV0SjhSWUJRbEMwY2JsNlp3TE03OUZnMExLck9PNURUN3lYTElQcUY5ZzgxZ0o4elM1YW9sdnU0TDNDVWZ3TWIxdmphWV80Sml3NVBZaFZ5MkVDR29KektPbUttLVJIdXpzZkZNUU5Sdjh3akF6ZDdr?oc=5
 2. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 73
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
-3. **AI is already reshaping US politics at every level** — arcamax — Score 56
-   https://www.arcamax.com/newsheadlines/s-4244522
-4. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
+3. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnVqaVlXZjJIVXQ5RVhqN0ZOVjljX1R4MjFld01sQTNqYlNQM0V3bVRjVXhNSXZYeXhxay13NW1XUHA5dlJBLXNNeWM1eWkyR0lzc3V5TGJaa09oRndfenVrTTNXam1ndHUzeEw1cHhhSHlvZkE4alZBdFE1amN2cUJuUUlidld5YTNhNllyNFVNdDM3?oc=5
-5. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
+4. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
    https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
+5. **AI is already reshaping US politics at every level** — arcamax — Score 53
+   https://www.arcamax.com/newsheadlines/s-4244522
 6. **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
 7. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **AIPOCH Launches MedSkillAudit, an AI Audit Framework to Evaluate Medical AI Agent Skills Before Deployment - The Manila Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOG5iQnNIUzFzalUxVW5DTWRFZnE2MjlISXBRdUFpaEVLNUotSno2aEVqWnN1TVNCdTlrYVdVOGRPX2tLQTE1UHRtU2E0VC1ja2VnbndfYTJ4VURQSllXbVVlTTBZb2U2UE1XdVIwazluUWRXQjNXOU1UeWpWR0JCMmI4MWFrcTFYT3JUVVBtRjcxSDZCdHFIQ0FpaVpxRTdyM3Y2TklHTUFJNmpNQWdiVHFleXRxeVlwNkJqZHpnYVhCUUpZQnoxQW9ta1YzZ3c3WVJEMC01UDVZUjdjbzRabmx6czdPNjJGM0dSUFp5WVJMXzFzS2FBZGV4eWpzeEdLb29BRWNBYkd1ODDSAZACQVVfeXFMUG9uMzFCZ1BBQmhacjRQZU1WbFg4alhSanB6SVhET2twVUdwMEhoR2pGcUJPVVN4NFJJbFhDQ2doN0J1SnRkN1h4MlhKRU42cWtYaTNSWjQwcERxLWQ3eTZGQ3hZZWUtNDhLWGtEV0hjRGxWcmFMNW9NczFxYWJ6YUU1d1Z0dlVRd3VFck5SUEhIUC1xU05UdENYV3I3R0RQUXA5Sml4enlPWVBpQVoyak5JNllqQU5ER0tqQ1RpUTd5Si16bndhZmhDOFJVWkxKTkdwZzU5WFJCUUd6WFdtOUs4N2llcWN5VTY0Njk4VWRsSUlsRkdUUlVoVjdOYlBIZFBISmY5c2ZIRUhteWhSdWc?oc=5
 - **NHS app to use AI to determine which service best for patients - BBC** — https://news.google.com/rss/articles/CBMiXEFVX3lxTFAteFJ4eUtLYnJ5NnJIdm1sNTNNeHhwTElIWWlJVkk0VTlDZTJfVGpLWGZKRzVNenVfc3gwSnFzYWlSUU53d0lRRUlRbU04Wklrd1NRRWhUWEZvaVZi?oc=5
 - **NHS to use AI on its app to direct patients to appropriate services** — https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
+- **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 - **AI is reshaping how doctors train - University of Cincinnati** — https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjbzF1T0FZemQ4bHROWFlIQnlSTExxNXhPdng1Zi11a0JtVEdXRFc1a0cxUWtha29jYnJVNGpJTVA4OFpNNTBzSmlWRnQ2Z1FvaU1zN0l2NE4wTWgxM25CSHhlWlZKQQ?oc=5
-- **Quantum mechanics once baffled scientists. Now it's changing the world** — https://www.sciencedaily.com/releases/2026/06/260624025516.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3000
+- Total stories tracked: 3040
 - Most active topic: show
 - Busiest category: AI General News
 
