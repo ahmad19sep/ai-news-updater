@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T11:05:30.934765+00:00",
+  "generated_at": "2026-07-06T15:55:46.845208+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,213 +9,294 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Updates",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new image generation feature in ChatGPT.",
+      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "40 comments"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Images 2.0 for Business",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Visual Content: ChatGPT Images 2.0 Review"
+      ]
+    },
+    {
+      "name": "Gemini Omni Flash",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new AI tool for generating content.",
+      "audience_angle": "Discover how Gemini Omni Flash can streamline your content creation.",
+      "linkedin_angle": "Learn how Gemini Omni Flash can boost your productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Gemini Omni Flash offers affiliate opportunities."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uog4i8/gemini_omni_flash/",
+          "signal": "37 comments"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Gemini Omni Flash",
+        "Gemini Omni Flash vs. ChatGPT: Which is Better?",
+        "Maximizing Productivity with Gemini Omni Flash"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using AI to generate videos.",
+      "audience_angle": "Create stunning videos with AI video generation tools.",
+      "linkedin_angle": "Explore how AI video generation can enhance your marketing strategy.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI video generation tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "Multiple videos and tutorials"
+        }
+      ],
+      "content_ideas": [
+        "AI Video Generation for Beginners",
+        "The Best AI Video Generation Tools",
+        "Creating Engaging Videos with AI"
+      ]
+    },
+    {
+      "name": "ChatGPT for Business",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
+      "what_it_is": "Using ChatGPT for business purposes.",
+      "audience_angle": "Discover how ChatGPT can enhance your business operations.",
+      "linkedin_angle": "Learn how ChatGPT can streamline your workflow and increase productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "note": "ChatGPT offers affiliate opportunities for its business features."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uokxpk/has_anyone_tried_using_chatgpt_to_record_dreams/",
+          "signal": "30 comments"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=poM2n8fBcag",
-          "signal": "ChatGPT Tutorial for Beginners: How to Actually Get Work Done with AI"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+for+business",
+          "signal": "Multiple videos and tutorials"
         }
       ],
       "content_ideas": [
-        "10 Ways to Use ChatGPT for Business Automation",
-        "How to Create a ChatGPT Chatbot for Customer Support",
-        "ChatGPT Tutorial: How to Use ChatGPT for Content Creation"
+        "Getting Started with ChatGPT for Business",
+        "ChatGPT for Customer Service: A Game-Changer",
+        "How ChatGPT Can Enhance Your Marketing Strategy"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "technique",
+      "name": "AI Side Hustles",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI video generation is a technique that uses artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create high-quality videos without extensive video production experience.",
-      "linkedin_angle": "Learn how to leverage AI video generation for business marketing and advertising.",
-      "local_relevance": 7,
+      "what_it_is": "Using AI for side hustles and making money.",
+      "audience_angle": "Discover how AI can help you earn extra income.",
+      "linkedin_angle": "Explore how AI can enhance your entrepreneurial ventures.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for creators and businesses."
+        "note": "Many AI tools and courses offer affiliate opportunities."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2y_6PsQTuag",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uog4i8/gemini_omni_flash/",
-          "signal": "Gemini Omni Flash"
+          "url": "https://www.youtube.com/results?search_query=ai+side+hustles",
+          "signal": "Multiple videos and tutorials"
         }
       ],
       "content_ideas": [
-        "How to Create a Viral AI Video",
-        "5 AI Video Generation Tools for Beginners",
-        "AI Video Generation Tutorial: How to Create a High-Quality Video in Minutes"
+        "AI Side Hustles for Beginners",
+        "The Best AI Tools for Making Money Online",
+        "How to Use AI for Freelancing"
       ]
     },
     {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
+      "name": "AI for Trading",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "Claude Fable 5 is a new AI tool that allows users to create and manage AI agents.",
-      "audience_angle": "You can use Claude Fable 5 to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Learn how to leverage Claude Fable 5 for business automation and productivity.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for developers and businesses."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
-          "signal": "Claude Fable 5 Use Cases You Must Do NOW (Or Lose Thousands in 1 Week)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo0f6e/when_fable_goes_apionly_in_2_days_and_tibo/",
-          "signal": "When Fable goes API-only in 2 days and Tibo announces ChatGPT 5.6 via subscription"
-        }
-      ],
-      "content_ideas": [
-        "10 Ways to Use Claude Fable 5 for Business Automation",
-        "How to Create a Claude Fable 5 Agent for Customer Support",
-        "Claude Fable 5 Tutorial: How to Use Claude Fable 5 for Content Creation"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Updates",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that can understand and respond to human input.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
-      "local_relevance": 8,
+      "what_it_is": "Using AI for trading and investing.",
+      "audience_angle": "Discover how AI can enhance your trading strategy.",
+      "linkedin_angle": "Explore how AI can help you make data-driven investment decisions.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "note": "Many AI trading tools and courses offer affiliate opportunities."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+for+trading",
+          "signal": "Multiple videos and tutorials"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with AI for Trading",
+        "The Best AI Trading Tools",
+        "How to Use AI for Investment Analysis"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new image generation feature in ChatGPT.",
+      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "signal": "Updates for ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=poM2n8fBcag",
-          "signal": "ChatGPT Tutorial for Beginners: How to Actually Get Work Done with AI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "40 comments"
         }
       ],
       "content_ideas": [
-        "10 Ways to Use ChatGPT for Business Automation",
-        "How to Create a ChatGPT Chatbot for Customer Support",
-        "ChatGPT Tutorial: How to Use ChatGPT for Content Creation"
+        "How to Use ChatGPT Images 2.0 for Business",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Visual Content: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Claude Fable 5",
+      "name": "Gemini Omni Flash",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
         "reddit"
       ],
-      "what_it_is": "Claude Fable 5 is a new AI tool that allows users to create and manage AI agents.",
-      "audience_angle": "You can use Claude Fable 5 to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Learn how to leverage Claude Fable 5 for business automation and productivity.",
+      "what_it_is": "A new AI tool for generating content.",
+      "audience_angle": "Discover how Gemini Omni Flash can streamline your content creation.",
+      "linkedin_angle": "Learn how Gemini Omni Flash can boost your productivity.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for developers and businesses."
+        "note": "Gemini Omni Flash offers affiliate opportunities."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
-          "signal": "Claude Fable 5 Use Cases You Must Do NOW (Or Lose Thousands in 1 Week)"
-        },
-        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uo0f6e/when_fable_goes_apionly_in_2_days_and_tibo/",
-          "signal": "When Fable goes API-only in 2 days and Tibo announces ChatGPT 5.6 via subscription"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uog4i8/gemini_omni_flash/",
+          "signal": "37 comments"
         }
       ],
       "content_ideas": [
-        "10 Ways to Use Claude Fable 5 for Business Automation",
-        "How to Create a Claude Fable 5 Agent for Customer Support",
-        "Claude Fable 5 Tutorial: How to Use Claude Fable 5 for Content Creation"
+        "Getting Started with Gemini Omni Flash",
+        "Gemini Omni Flash vs. ChatGPT: Which is Better?",
+        "Maximizing Productivity with Gemini Omni Flash"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "Developers and businesses using ChatGPT",
+      "problem": "ChatGPT usage limits and token limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uoi6zn/was_venting_about_the_scary_image_that_popped_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1up01n0/how_does_plus_plan_work_when_it_comes_to_to_image/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and optimize your AI workflow."
+      "content_opportunity": "Workarounds and tutorials for maximizing ChatGPT usage"
+    },
+    {
+      "problem": "AI-generated content quality and authenticity",
+      "who_affected": "Content creators and consumers",
+      "signal_strength": 9,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai-generated+content"
+        }
+      ],
+      "content_opportunity": "Guides on identifying and creating high-quality AI-generated content"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Updates - because it's a highly popular and versatile AI tool with a wide range of applications and use cases."
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
