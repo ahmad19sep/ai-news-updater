@@ -2903,15 +2903,17 @@ function renderInspire() {
     const top = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u) && new Date(it.d || it.f).getTime() > cut)
       .sort((a, b) => b.sc - a.sc).slice(0, 6);
     newsEl.innerHTML = top.length ? '<div class="sec-h" style="margin-top:10px">🗞 From today\'s news — turned into useful angles</div>' +
-      top.map(it => {
+      top.map((it, i) => {
         const [tag, angle] = inspNewsAngle(it.t);
         return '<div class="card"><div class="meta"><span class="pill">' + tag + '</span><span class="src">score ' + it.sc + '</span></div>' +
           '<div class="xrtext">' + esc(angle) + '</div>' +
           '<div class="actions" style="margin-left:0;margin-top:6px">' +
           '<button class="cp" data-iw="' + esc(angle) + '">✍️ Write</button>' +
           '<button class="cp" data-iv="' + esc(it.t) + '" data-iu="' + esc(it.u) + '">💎 Value pack</button>' +
+          '<button class="cp" data-inr="' + i + '">📰 Newsroom</button>' +
           '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a></div></div>';
       }).join("") : "";
+    newsEl.querySelectorAll("[data-inr]").forEach(b => b.onclick = () => openNewsroom(top[+b.dataset.inr]));
   } catch (e) { newsEl.innerHTML = ""; }
   /* --- curated idea bank --- */
   const listEl = document.getElementById("insp-list");
@@ -2926,8 +2928,10 @@ function renderInspire() {
       '<div class="xrtext" style="margin-top:5px">' + esc(i[3]) + '</div>' +
       '<div class="actions" style="margin-left:0;margin-top:6px">' +
       '<button class="cp" data-iw="' + esc(i[3]) + '">✍️ Write</button>' +
-      '<button class="cp" data-iv="' + esc(i[1] + " — " + i[3]) + '" data-iu="">💎 Value pack</button></div></div>').join("")
+      '<button class="cp" data-iv="' + esc(i[1] + " — " + i[3]) + '" data-iu="">💎 Value pack</button>' +
+      '<button class="cp" data-inrt="' + esc(i[1] + " — " + i[3]) + '">📰 Newsroom</button></div></div>').join("")
   ).join("") || '<div class="empty">No ideas match that search.</div>';
+  listEl.querySelectorAll("[data-inrt]").forEach(b => b.onclick = () => openNewsroom({ t: b.getAttribute("data-inrt"), u: "" }));
   document.querySelectorAll("#tab-inspire [data-iw]").forEach(b => b.onclick = () => inspUse(b.getAttribute("data-iw")));
   document.querySelectorAll("#tab-inspire [data-iv]").forEach(b => b.onclick = () => inspValue(b.getAttribute("data-iv"), b.getAttribute("data-iu")));
 }
