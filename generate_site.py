@@ -1006,6 +1006,7 @@ PAGE = r"""<!doctype html>
     <div class="genrow" style="align-items:center;flex-wrap:wrap">
       <b style="font-size:12.5px;color:var(--dim)">1.</b>
       <button class="btn" id="nr-copy">🤖 Copy master prompt</button>
+      <button class="btn" id="nr-value" title="Turn this news into useful, save-worthy content: how-to steps, tips, infographic + captions for IG/TikTok/FB/LinkedIn/X">💎 Value post prompt</button>
       <span style="font-size:12px;color:var(--faint)">paste into ChatGPT / Gemini / Claude</span>
     </div>
     <div class="genrow" style="align-items:flex-start;flex-wrap:wrap;margin-top:8px">
@@ -5255,6 +5256,10 @@ document.getElementById("nrmodal").addEventListener("click", e => { if (e.target
 document.getElementById("nr-copy").onclick = () => {
   const p = window.buildNewsroomPrompt({ title: nrStory.title, source: nrStory.source });
   navigator.clipboard.writeText(p).then(() => toast("Master prompt copied — paste in any AI, then paste the full output back & Parse 🤖"));
+};
+document.getElementById("nr-value").onclick = () => {
+  const p = window.buildValuePostPrompt({ title: nrStory.title, source: nrStory.source });
+  navigator.clipboard.writeText(p).then(() => toast("💎 Value-post prompt copied — paste in any AI: slides + infographic + IG/TikTok/FB/LinkedIn/X captions"));
 };
 function nrParse(text) {
   const out = {}, re = /\[\[(\w+)\]\]/g, parts = []; let m;

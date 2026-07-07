@@ -424,6 +424,53 @@ window.buildNewsroomPrompt = function (o) {
   ].filter(x => x !== null && x !== undefined).join('\n');
 };
 
+/* ---- Value Post Engine: turn a news story/topic into USEFUL, save-worthy content
+   (how-tos, infographics, carousels) — the kind that actually gets reach. ---- */
+window.buildValuePostPrompt = function (o) {
+  o = o || {};
+  return [
+'You are a content strategist for "AI x Ahmad" (@aixahmad). Plain news posters get scrolled past. Your job: turn this story/topic into USEFUL content people SAVE and SHARE — a how-to, a guide, an explainer, a checklist. The reader must walk away with something they can USE.',
+'',
+'STORY / TOPIC: ' + (o.title || ''),
+(o.source ? 'SOURCE: ' + o.source + '\nFIRST open and read the source carefully. Use ONLY facts from it — never invent steps, numbers, features, or claims. If a detail is not in the source, leave it out.' : 'Use only well-known, safe-to-state facts. Never invent specifics.'),
+'',
+'STEP 1 — find the VALUE ANGLE. Ask: what can a normal person DO with this news? Pick the best one:',
+'- how_to_steps: news says something launched/is free -> "here is how to get/use it in 3-5 easy steps" (e.g. "Google is giving students Gemini Pro free. How to activate it in 3 steps").',
+'- tips_list: turn the topic into 6-10 short practical tips ("How to use Claude without burning your limit").',
+'- explainer_map: break a confusing topic into a simple visual map ("Types of AI — which one solves your problem?").',
+'- analogy: explain it through something everyone knows ("LLM = brain. RAG = brain + books. Agent = brain + hands.").',
+'- comparison: two approaches side by side, with a clear verdict ("vibe coding vs agentic engineering").',
+'- what_it_means_for_you: 3-4 concrete ways this changes things for students / freelancers / builders, and what to do about it.',
+'- mistakes: "X mistakes people make with ___ (and what to do instead)".',
+'- opportunity_alert: a deadline/free thing/job angle -> who should act, how, before when.',
+'',
+'STEP 2 — write the content in Ahmad\'s voice:',
+window.HUMAN_VOICE,
+'',
+'OUTPUT EXACTLY this format, every [[MARKER]] on its own line, nothing before [[VALUE_FORMAT]] or after [[END]]:',
+'',
+'[[VALUE_FORMAT]]',
+'(the angle you chose + one line on why it fits this story)',
+'[[GRAPHIC_TITLE]]',
+'(the big title that goes ON the graphic — max 10 words, benefit-first, e.g. "Get Gemini Pro Free in 3 Steps")',
+'[[SLIDES]]',
+'(a carousel of 5-8 slides for Instagram/TikTok photo-mode. Slide 1 = the hook cover (one bold line + one support line). Middle slides = ONE step/tip/idea each, max 20 words, numbered. Last slide = a soft close like "save this for later" + follow @aixahmad. Write as "Slide 1:", "Slide 2:" etc.)',
+'[[INFOGRAPHIC_PROMPT]]',
+'(ONE image-generation prompt for a single 4:5 infographic that carries the WHOLE value on one image. Pick the layout that fits: numbered tip cards in a clean grid (white/cream background, small flat icons, 1-2 accent colors) / a mind-map with a dark title box left and colored branch boxes with example bullets / analogy rows pairing concept vs everyday thing / a left-vs-right comparison split / a big before-after with huge numbers. Style: clean flat editorial design like a human made it in Canva or Figma — generous spacing, short legible text, NO AI-gloss, NO sci-fi, NO logos/watermarks. Spell every word on the image EXACTLY. Include the [[GRAPHIC_TITLE]] as the heading.)',
+'[[INSTAGRAM]]',
+'(caption for the carousel/infographic: relatable hook line, 2-4 short simple lines on why this matters, "Save this so you don\'t lose it 🔖", 3-6 hashtags. Audience: students, young creators, freelancers.)',
+'[[TIKTOK]]',
+'(caption for TikTok photo-mode/video: 1-2 casual hook lines in the simplest English ("nobody talks about this and it\'s free"), then 3-5 hashtags mixing niche + broad (#ai #aitools + topic tags). ALSO give: "On-screen text:" — the one line to overlay on the first frame.)',
+'[[FACEBOOK]]',
+'(post for normal non-techy people: tell them like a friend — what this is, why it helps them or their kids/work, the 2-3 key steps or takeaways written out simply, then ONE easy question. "Share this with someone who needs it" is allowed here.)',
+'[[LINKEDIN]]',
+'(first person, simple English: hook on the practical benefit, the value condensed into 3-5 short lines people can act on, "My take:" line, one genuine question. 80-140 words. No corporate words.)',
+'[[X]]',
+'(TEXT-ONLY, no links: the single most useful insight from this, compressed — hook line, 2-4 value lines, end with an easy question or "bookmark this". Under 600 characters.)',
+'[[END]]',
+  ].filter(x => x !== null && x !== undefined).join('\n');
+};
+
 window.buildSocialPrompt = function (o) {
   const cfg = window.SOCIAL[o.platform] || window.SOCIAL.facebook;
   const lang = o.lang === "ur"
