@@ -33,18 +33,18 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
 4. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 56
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZW1sX2lWU1Rlc3RGZW8tUi1YZFlNMVdSS3dvcUxKc0JscDVGYXREMjFHOXd2eDRTQm9WaHNmLVNORlhkNDVPUU8tRjlPdHdIZmtuaGlzeEoxT2NjcFliNmcxMEF6bG9nMU5qcVNYZ08xc0RGV3FxbW1CMzlRYmlqRTM1WFV4UEQ2TGlVY2RQYnVnTm54a0dxeDFkUUNORDFjYS1p?oc=5
-5. **CIA boss compares cutting-edge AI to nuclear weapons - Yahoo** — AI in Defense — Score 53
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnVqaVlXZjJIVXQ5RVhqN0ZOVjljX1R4MjFld01sQTNqYlNQM0V3bVRjVXhNSXZYeXhxay13NW1XUHA5dlJBLXNNeWM1eWkyR0lzc3V5TGJaa09oRndfenVrTTNXam1ndHUzeEw1cHhhSHlvZkE4alZBdFE1amN2cUJuUUlidld5YTNhNllyNFVNdDM3?oc=5
-6. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
+5. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
    https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
-7. **AI is already reshaping US politics at every level** — arcamax — Score 53
+6. **AI is already reshaping US politics at every level** — arcamax — Score 53
    https://www.arcamax.com/newsheadlines/s-4244522
-8. **MemeToro Launches BNB AI Agent for Fair-Launch Memecoin Creation and On-Chain Prediction Markets - Carroll County Mirror-Democrat** — AI Agents — Score 51
+7. **MemeToro Launches BNB AI Agent for Fair-Launch Memecoin Creation and On-Chain Prediction Markets - Carroll County Mirror-Democrat** — AI Agents — Score 51
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0g4el9WeGF3WVhhdEh2Rk92RmJUYWJhWnV3ZFk2YjllZ1I1WjNUc2hiX2pEdXl2UDU0SERBM1pOUE9GNFRKcHJoRERhaFZHV051NExDV1B5WVNDbmJnNXZZU1ZzMlRIS3lyR01QYUVGZUdTTXd4M21hVFpLdXpuREtySjhldFBlS2w2TGxBQ2h1YVZBQTFDUmhra0RsWFdkdnZkYTdDN1BIZTZkYV9CdktzYXlSOEk?oc=5
-9. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
+8. **Intellabridge Launches Intella OS, an Agentic AI Operating System - Yahoo! Finance Canada** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUndEa05DNEhQT052aFJwVjBFMjhXM2xBbzZIckcwd2xtTFlLX3pkNTliT0hPUlV2RDFCak91aVlnSlVoWEVEbHR6T2VoNmxIcndTMW1KcUlBVFNXaEIwcS1aWnNrbEtKcFFja1YyYmlXVkJNLVgwdjZNVjZwbkI5NFJoeURId0RXTlFrbVc5QjV1c09k?oc=5
-10. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 47
+9. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 47
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
+10. **200-year-old pub slammed over using AI for sign - wyomingnewsnow.tv** — Using AI To... — Score 46
+   https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFVrODVyX2lzQjF1YnNEaGRnVkgxRW5HcUNZc0JJWFhpT3IwZ20yM20tY0Nsc203OXVjRkp2MHNvLVlNYlNFNHRqZnhGZldWcE5aZXhXa1dqQlNrMHJOTVBXRkF6RzJKcGRRaWMtN2hFMjhnTkZaUGJ2NUpYdGhycFJtMjJnZmhkdnVUU2U4bnNxMlBwUkpkS2JzRXNtNVRfRUxRbHNHbTg0UjB0SXhvaVpMMHljendQRjFnQ1lvUkhYMjFyVTB5MkRHQjQ1WnI2cjBIMUlxWjk?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **NHS to use AI on its app to direct patients to appropriate services** — https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2983
-- Most active topic: anthropic
+- Total stories tracked: 2919
+- Most active topic: models
 - Busiest category: AI General News
 
 ---
