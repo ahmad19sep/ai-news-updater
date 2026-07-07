@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T15:17:22.037208+00:00",
+  "generated_at": "2026-07-07T20:16:52.601974+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -18,38 +18,168 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your projects or social media.",
-      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and presentations.",
+      "what_it_is": "A feature of ChatGPT that allows users to generate images.",
+      "audience_angle": "Learn how to create stunning images with ChatGPT.",
+      "linkedin_angle": "Discover how ChatGPT image generation can enhance your marketing materials.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "40"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2y_6PsQTuag",
-          "signal": "0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upnn2u/image_generations_are_failing_no_matter_what/",
+          "signal": "Image generations are failing no matter what?"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Image Generation",
-        "10 Creative Ways to Use ChatGPT's Image Generation",
-        "ChatGPT Image Generation Tutorial for Beginners"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: Tips and Tricks",
+        "Using ChatGPT for Graphic Design: A Beginner's Guide"
+      ]
+    },
+    {
+      "name": "ChatGPT for Business",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Using ChatGPT for business purposes, such as marketing and customer service.",
+      "audience_angle": "Discover how ChatGPT can help you grow your business.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for business success.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for businesses."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+business",
+          "signal": "How to use AI for business"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48816813",
+          "signal": "Tell HN: Who wants to be hired\" posts outpace \"Who's hiring\" 2 to 1"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Customer Service",
+        "ChatGPT for Marketing: A Beginner's Guide",
+        "Using ChatGPT to Automate Business Tasks"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A feature that allows users to generate videos using AI.",
+      "audience_angle": "Create stunning videos with AI video generation.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI video generation tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "AI video generation"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with AI",
+        "AI Video Generation: Tips and Tricks",
+        "Using AI for Video Marketing: A Beginner's Guide"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "A new AI tool that offers various features, including text generation and conversation.",
+      "audience_angle": "Discover the capabilities of Claude AI.",
+      "linkedin_angle": "Learn how Claude AI can enhance your productivity.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=claude+ai",
+          "signal": "Claude AI"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48816813",
+          "signal": "Tell HN: Who wants to be hired\" posts outpace \"Who's hiring\" 2 to 1"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Text Generation",
+        "Claude AI: A Beginner's Guide",
+        "Using Claude AI for Conversation and Customer Service"
+      ]
+    },
+    {
+      "name": "AI for Stock Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using AI to trade stocks and make investment decisions.",
+      "audience_angle": "Discover how AI can help you make informed investment decisions.",
+      "linkedin_angle": "Learn how to leverage AI for stock trading success.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI stock trading tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+trade+stocks",
+          "signal": "How to use AI to trade stocks"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI for Stock Trading",
+        "AI for Investment: A Beginner's Guide",
+        "Using AI to Make Informed Investment Decisions"
       ]
     },
     {
@@ -57,73 +187,30 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "Gemini Omni is an AI-powered video editing tool.",
-      "audience_angle": "You can use Gemini Omni to edit videos with the help of AI.",
-      "linkedin_angle": "Enhance your video editing skills with Gemini Omni and take your professional content to the next level.",
-      "local_relevance": 4,
+      "what_it_is": "A new AI tool that offers various features, including video editing and generation.",
+      "audience_angle": "Discover the capabilities of Gemini Omni.",
+      "linkedin_angle": "Learn how Gemini Omni can enhance your video marketing strategy.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "reel",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemini Omni has an affiliate program for its video editing tool."
+        "note": "Gemini Omni has an affiliate program."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uowvhu/i_tested_gemini_omni_on_my_phone_footage/",
-          "signal": "23"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
-          "signal": "0"
+          "url": "https://www.youtube.com/results?search_query=gemini+omni",
+          "signal": "Gemini Omni"
         }
       ],
       "content_ideas": [
-        "Getting Started with Gemini Omni: A Beginner's Guide",
-        "How to Use Gemini Omni for Professional Video Editing",
-        "Gemini Omni Tutorial: Advanced Video Editing Techniques"
-      ]
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "Claude is an AI-powered tool for various tasks, including content creation and research.",
-      "audience_angle": "You can use Claude to automate tasks and enhance your productivity.",
-      "linkedin_angle": "Leverage Claude to streamline your workflow and increase efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its AI-powered tools."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1up33hy/i_asked_8_ai_models_who_wins_the_world_cup_only/",
-          "signal": "29"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=fUoG63VqCAA",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude for Content Creation",
-        "10 Ways to Use Claude for Research and Productivity",
-        "Claude Tutorial: Getting Started with AI-Powered Tools"
+        "How to Use Gemini Omni for Video Editing",
+        "Gemini Omni: A Beginner's Guide",
+        "Using Gemini Omni for Video Generation and Marketing"
       ]
     }
   ],
@@ -133,126 +220,157 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "Gemini Omni is an AI-powered video editing tool.",
-      "audience_angle": "You can use Gemini Omni to edit videos with the help of AI.",
-      "linkedin_angle": "Enhance your video editing skills with Gemini Omni and take your professional content to the next level.",
-      "local_relevance": 4,
+      "what_it_is": "A new AI tool that offers various features, including video editing and generation.",
+      "audience_angle": "Discover the capabilities of Gemini Omni.",
+      "linkedin_angle": "Learn how Gemini Omni can enhance your video marketing strategy.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "reel",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemini Omni has an affiliate program for its video editing tool."
+        "note": "Gemini Omni has an affiliate program."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uowvhu/i_tested_gemini_omni_on_my_phone_footage/",
-          "signal": "23"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
-          "signal": "0"
+          "url": "https://www.youtube.com/results?search_query=gemini+omni",
+          "signal": "Gemini Omni"
         }
       ],
       "content_ideas": [
-        "Getting Started with Gemini Omni: A Beginner's Guide",
-        "How to Use Gemini Omni for Professional Video Editing",
-        "Gemini Omni Tutorial: Advanced Video Editing Techniques"
+        "How to Use Gemini Omni for Video Editing",
+        "Gemini Omni: A Beginner's Guide",
+        "Using Gemini Omni for Video Generation and Marketing"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "A new AI tool that offers various features, including text generation and conversation.",
+      "audience_angle": "Discover the capabilities of Claude AI.",
+      "linkedin_angle": "Learn how Claude AI can enhance your productivity.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=claude+ai",
+          "signal": "Claude AI"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48816813",
+          "signal": "Tell HN: Who wants to be hired\" posts outpace \"Who's hiring\" 2 to 1"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Text Generation",
+        "Claude AI: A Beginner's Guide",
+        "Using Claude AI for Conversation and Customer Service"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A feature that allows users to generate videos using AI.",
+      "audience_angle": "Create stunning videos with AI video generation.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI video generation tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "AI video generation"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with AI",
+        "AI Video Generation: Tips and Tricks",
+        "Using AI for Video Marketing: A Beginner's Guide"
       ]
     },
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your projects or social media.",
-      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and presentations.",
+      "what_it_is": "A feature of ChatGPT that allows users to generate images.",
+      "audience_angle": "Learn how to create stunning images with ChatGPT.",
+      "linkedin_angle": "Discover how ChatGPT image generation can enhance your marketing materials.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "40"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2y_6PsQTuag",
-          "signal": "0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upnn2u/image_generations_are_failing_no_matter_what/",
+          "signal": "Image generations are failing no matter what?"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Image Generation",
-        "10 Creative Ways to Use ChatGPT's Image Generation",
-        "ChatGPT Image Generation Tutorial for Beginners"
-      ]
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "Claude is an AI-powered tool for various tasks, including content creation and research.",
-      "audience_angle": "You can use Claude to automate tasks and enhance your productivity.",
-      "linkedin_angle": "Leverage Claude to streamline your workflow and increase efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its AI-powered tools."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1up33hy/i_asked_8_ai_models_who_wins_the_world_cup_only/",
-          "signal": "29"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=fUoG63VqCAA",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude for Content Creation",
-        "10 Ways to Use Claude for Research and Productivity",
-        "Claude Tutorial: Getting Started with AI-Powered Tools"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: Tips and Tricks",
+        "Using ChatGPT for Graphic Design: A Beginner's Guide"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT Image Generation Errors",
+      "problem": "ChatGPT Image Generation Failing",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1upnn2u/image_generations_are_failing_no_matter_what/"
         }
       ],
-      "content_opportunity": "Troubleshooting ChatGPT Image Generation Errors: A Step-by-Step Guide"
+      "content_opportunity": "How to Fix ChatGPT Image Generation Issues"
+    },
+    {
+      "problem": "AI Token Costs",
+      "who_affected": "AI users and developers",
+      "signal_strength": 6,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-0HRzXk8vlk"
+        }
+      ],
+      "content_opportunity": "Understanding AI Token Costs and How to Reduce Them"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT"
 }
