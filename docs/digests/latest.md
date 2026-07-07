@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
 4. **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
-5. **Odisha’s BPUT Student Launches AI Startup to Expand Menstrual Healthcare Access in Rural India - Digital Health News** — science angle
-   https://news.google.com/rss/articles/CBMixwFBVV95cUxNVW95Q0RzVUV0QzVHQk9rdTF6c3VnWk5VRVAyVm1SZy1BdEE1QkwzdWxiRTdLOTByeFJXSUVtQUJKT1ZzS083YU0yeGU0d0NMdU5GZ2lxV1BwVmhLUVJKWTJISWpkLXl2enYzVzNYYy1fU2lvdGtEYkNvS3RWT3dFZXJrUktpTHE2Z3diU3owNGdCb0ZfNlhkWFVtYXVtTFhKbTlJdTNKUEVMa1AwZHBOZDJKX0lySzNiaERoUjgtT1lyYzZ1VDEw?oc=5
-6. **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — science angle
+5. **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — science angle
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
-7. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
+6. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
-8. **Montego Bay doctor leads Jamaica into AI medicine era - Jamaica Gleaner** — science angle
+7. **Montego Bay doctor leads Jamaica into AI medicine era - Jamaica Gleaner** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxPc094U2M4bWd3dEJpdFJjYXVyT3JxcjliZkUtbHhMdUozZ0Q5STI5anV2UmJ2ZFIwcXIyMS1SdlNHLWlGVFNUbFNzWm05cjY3TmZ6XzdzalRvbGpJblgwNTBaSU9heU4zaVBqZmNCRmNrN2IwT3Q3RmJxczZUREZrYWQxaC1jeEpLdW1jVUVBTDhobmFxdXZ0cEFKVVBZUQ?oc=5
+8. **AI has taken over prescription refills in Utah. Some doctors are wary - AOL.com** — science angle
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxNclhLVlcwa1FBMEhPLWJ5T0x2Rk94Sy0yWkl5SFZmcHVjRU42V0FQLUV3V0dBeVJXMHp6cExqcTFnVnBRVGJwY3pHdkFTTVdiNGVuQ1NSeExwS2tLbGJNWHFtNktSRWVzSnA3T19ra3dpWHczNGxwcjhUS1dIa3NOM1VoTHA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI film ‘Artificial,’ dropped by Amazon, finds a new home with Neon - WIVB News 4** — Sam Altman News — Score 113
@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUndEa05DNEhQT052aFJwVjBFMjhXM2xBbzZIckcwd2xtTFlLX3pkNTliT0hPUlV2RDFCak91aVlnSlVoWEVEbHR6T2VoNmxIcndTMW1KcUlBVFNXaEIwcS1aWnNrbEtKcFFja1YyYmlXVkJNLVgwdjZNVjZwbkI5NFJoeURId0RXTlFrbVc5QjV1c09k?oc=5
 9. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 47
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
-10. **Claude Science, an AI workbench for scientists, is now available - Anthropic** — Anthropic News — Score 45
-   https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0J0dXluYzJGcmxVb3dDY0Z2UjVYT2I5ZkYwSVRrWTBSUm5HZXpWRkFsQ2k5bm1jbVU5cENOY0xkX0tybV9FbnhRcFVac1dncWtqTF85OTZyd3o1dlRXenJkd1h3T1pTSGc?oc=5
+10. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 46
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZW1sX2lWU1Rlc3RGZW8tUi1YZFlNMVdSS3dvcUxKc0JscDVGYXREMjFHOXd2eDRTQm9WaHNmLVNORlhkNDVPUU8tRjlPdHdIZmtuaGlzeEoxT2NjcFliNmcxMEF6bG9nMU5qcVNYZ08xc0RGV3FxbW1CMzlRYmlqRTM1WFV4UEQ2TGlVY2RQYnVnTm54a0dxeDFkUUNORDFjYS1p?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFVGZmVELWJfZ
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2997
-- Most active topic: agents
+- Total stories tracked: 2917
+- Most active topic: anthropic
 - Busiest category: AI General News
 
 ---
