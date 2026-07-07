@@ -1033,6 +1033,16 @@ PAGE = r"""<!doctype html>
       <div class="note" style="margin:10px 2px 4px">3. Publish first, then share — each opens with its post + your article link:</div>
       <div class="nr-plat" id="nr-plats"></div>
     </div>
+    <div id="nr-vparsed" hidden style="margin-top:12px;border-top:1px solid var(--line);padding-top:12px">
+      <div class="note" id="nr-vformat" style="margin-bottom:8px"></div>
+      <input id="nr-vtitle" type="text" style="width:100%;margin-bottom:8px" placeholder="Graphic title">
+      <div class="genrow" style="align-items:center;flex-wrap:wrap">
+        <button class="ghost" type="button" id="nr-vinfo">🎨 Copy infographic prompt</button>
+        <button class="ghost" type="button" id="nr-vslides">📑 Copy slides</button>
+      </div>
+      <div class="note" style="margin:10px 2px 4px">Make the image with the 🎨 prompt (ChatGPT/Gemini), download it, then each button copies the caption — upload the image in the app and paste:</div>
+      <div class="nr-plat" id="nr-vplats"></div>
+    </div>
   </div>
 </div>
 <div class="toast" id="toast"></div>
@@ -5247,6 +5257,7 @@ function openNewsroom(story) {
   document.getElementById("nr-preview").style.display = "none"; document.getElementById("nr-file").value = "";
   document.getElementById("nr-link").textContent = "";
   document.getElementById("nr-parsed").hidden = true;
+  document.getElementById("nr-vparsed").hidden = true;
   document.getElementById("nr-cat").innerHTML = Object.entries(PILLARS)
     .map(([k, v]) => "<option" + (+k === nrStory.p ? " selected" : "") + ">" + v + "</option>").join("");
   document.getElementById("nrmodal").hidden = false;
@@ -5275,12 +5286,51 @@ document.getElementById("nr-parse").onclick = () => {
   const raw = document.getElementById("nr-in").value;
   if (!raw.trim()) { toast("Paste the AI output first"); return; }
   nrParsed = nrParse(raw);
+  /* 💎 value-post output has its own markers — auto-detect and show the value UI */
+  if (nrParsed.value_format || nrParsed.infographic_prompt || nrParsed.slides) {
+    renderValueParsed();
+    toast("💎 Parsed ✓ — make the image with 🎨, then post per platform");
+    return;
+  }
   if (!nrParsed.article && !nrParsed.headline) { toast("Couldn't find the [[MARKERS]] — paste the full output"); return; }
+  document.getElementById("nr-vparsed").hidden = true;
   document.getElementById("nr-head").value = nrParsed.headline || nrStory.title || "";
   document.getElementById("nr-body").value = nrParsed.article || "";
   document.getElementById("nr-parsed").hidden = false;
   nrRenderPlats();
   toast("Parsed ✓ — add an image, Publish, then share");
+};
+/* ---- 💎 Value post: auto-extracted UI (slides / infographic / per-platform captions) ---- */
+function renderValueParsed() {
+  document.getElementById("nr-parsed").hidden = true;
+  document.getElementById("nr-vparsed").hidden = false;
+  document.getElementById("nr-vformat").textContent = "💎 " + (nrParsed.value_format || "value post");
+  document.getElementById("nr-vtitle").value = nrParsed.graphic_title || "";
+  const plats = [
+    ["instagram", "📸 Instagram", t => { nrCopy(t); toast("IG caption copied — upload your carousel/infographic, paste it"); }],
+    ["tiktok", "🎵 TikTok", t => { nrCopy(t); toast("TikTok caption copied — photo-mode: upload slides, paste caption"); }],
+    ["facebook", "📘 Facebook", t => { nrCopy(t); nrOpen("https://www.facebook.com/"); toast("Facebook post copied — attach the image & paste"); }],
+    ["linkedin", "in LinkedIn", t => { nrCopy(t); nrOpen("https://www.linkedin.com/feed/?shareActive=true"); toast("LinkedIn post copied — attach the image & paste"); }],
+    ["x", "𝕏 X", t => { nrCopy(t); nrOpen("https://x.com/intent/tweet?text=" + encodeURIComponent(t)); toast("X opened (text-only) — attach the infographic if you like"); }],
+  ];
+  const el = document.getElementById("nr-vplats"); el.innerHTML = "";
+  plats.forEach(([k, label, act]) => {
+    if (!nrParsed[k]) return;
+    const b = document.createElement("button"); b.className = "ghost"; b.textContent = label;
+    b.onclick = () => act(nrParsed[k]);
+    el.appendChild(b);
+  });
+}
+document.getElementById("nr-vinfo").onclick = () => {
+  if (!nrParsed.infographic_prompt) { toast("No infographic prompt in the output"); return; }
+  nrCopy(nrParsed.infographic_prompt);
+  window.open("https://chatgpt.com/", "_blank", "noopener");
+  toast("Infographic prompt copied — say 'generate this image' 🎨");
+};
+document.getElementById("nr-vslides").onclick = () => {
+  if (!nrParsed.slides) { toast("No slides in the output"); return; }
+  nrCopy(nrParsed.slides);
+  toast("Slides copied — ask the AI to turn each into a 4:5 image, or build them in Canva 📑");
 };
 function nrRenderPlats() {
   const el = document.getElementById("nr-plats"); el.innerHTML = "";
