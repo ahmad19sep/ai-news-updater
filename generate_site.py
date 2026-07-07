@@ -682,6 +682,7 @@ PAGE = r"""<!doctype html>
       <button class="navitem" id="tabbtn-repurpose" onclick="switchTab('repurpose')">♻️ <span>Repurpose</span><span class="navcount" id="nc-rp"></span></button>
       <button class="navitem" id="tabbtn-xmini" onclick="switchTab('xmini')">✍️ <span>Write</span><span class="navcount" id="nc-xm"></span></button>
       <button class="navitem" id="tabbtn-inspire" onclick="switchTab('inspire')">💡 <span>Inspire</span></button>
+      <button class="navitem" id="tabbtn-me" onclick="switchTab('me')">⭐ <span>Me</span></button>
     </nav>
     <div class="sidefoot">
       <span class="av">A</span>
@@ -797,6 +798,19 @@ PAGE = r"""<!doctype html>
     <div class="search" style="margin-top:6px"><input id="insp-q" placeholder="Search ideas… prompt, tools, free, beginner"></div>
     <div id="insp-news"></div>
     <div id="insp-list"></div>
+  </section>
+
+  <section id="tab-me" hidden>
+    <p class="note">⭐ YOU present the news — posters with your face announcing each story (news-anchor style, like the big IG news pages).
+       Keep your photos saved in one ChatGPT chat; every prompt here starts with "use the attached photo of Ahmad".</p>
+    <div class="pastebox">
+      <textarea id="me-own" class="rphead" rows="2" placeholder="Or type your own announcement… e.g. 'I just crossed 1,000 followers' or 'New: my studio now writes posts with one click'"></textarea>
+      <div class="actions" style="margin-left:0;margin-top:6px">
+        <button class="cp" onclick="mePosterOwn()">🎨 Poster with me</button>
+        <button class="cp" onclick="meCaptionOwn()">✍️ Write caption</button>
+      </div>
+    </div>
+    <div id="me-news"></div>
   </section>
 
   <section id="tab-repurpose" hidden>
@@ -1633,7 +1647,7 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose","xmini","inspire"].forEach(n => {
+  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose","xmini","inspire","me"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
@@ -1645,7 +1659,8 @@ function switchTab(name) {
     xreplies:["X Replies","Capture a post, generate replies, pick one"],
     repurpose:["Repurpose","Turn posts you see into your own content"],
     xmini:["Write","Anthropic Write Engine — short posts that grow the account"],
-    inspire:["Inspire","Useful content ideas that actually get reach"] };
+    inspire:["Inspire","Useful content ideas that actually get reach"],
+    me:["Me","You present the news — posters with your face"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
@@ -1656,6 +1671,7 @@ function switchTab(name) {
   if (name === "repurpose") renderRpTab();
   if (name === "xmini") renderXMini();
   if (name === "inspire") renderInspire();
+  if (name === "me") renderMeTab();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -2936,6 +2952,44 @@ function renderInspire() {
   document.querySelectorAll("#tab-inspire [data-iv]").forEach(b => b.onclick = () => inspValue(b.getAttribute("data-iv"), b.getAttribute("data-iu")));
 }
 document.getElementById("insp-q").addEventListener("input", () => renderInspire());
+
+/* ===================== ⭐ Me: Ahmad presents the news ===================== */
+function meCopyPoster(headline, story) {
+  navigator.clipboard.writeText(window.buildMePosterPrompt({ headline: headline, story: story }))
+    .catch(() => {});
+  window.open("https://chatgpt.com/", "_blank", "noopener");
+  toast("🎨 Me-poster prompt copied — paste in your photo chat & attach your pic");
+}
+function mePosterOwn() {
+  const t = (document.getElementById("me-own").value || "").trim();
+  if (!t) { toast("Type your announcement first"); return; }
+  meCopyPoster(t, "Ahmad's own announcement: " + t);
+}
+function meCaptionOwn() {
+  const t = (document.getElementById("me-own").value || "").trim();
+  if (!t) { toast("Type your announcement first"); return; }
+  inspUse("Announce this in my own voice (build-in-public, human, simple): " + t);
+}
+function renderMeTab() {
+  const el = document.getElementById("me-news"); if (!el) return;
+  try {
+    const cut = Date.now() - 2 * 86400000;
+    const top = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u) && new Date(it.d || it.f).getTime() > cut)
+      .sort((a, b) => b.sc - a.sc).slice(0, 10);
+    el.innerHTML = top.length ? '<div class="sec-h" style="margin-top:10px">🗞 Today\'s news — with YOU presenting</div>' +
+      top.map((it, i) => '<div class="card"><div class="meta"><span class="src">score ' + it.sc + '</span></div>' +
+        '<div class="xrtext">' + esc(it.t) + '</div>' +
+        '<div class="actions" style="margin-left:0;margin-top:6px">' +
+        '<button class="cp" data-mp="' + i + '">🎨 Poster with me</button>' +
+        '<button class="cp" data-mc="' + i + '">✍️ Caption</button>' +
+        '<button class="cp" data-mn="' + i + '">📰 Newsroom</button>' +
+        '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a></div></div>').join("")
+      : '<div class="empty">No fresh stories right now — check back after the next fetch.</div>';
+    el.querySelectorAll("[data-mp]").forEach(b => b.onclick = () => { const it = top[+b.dataset.mp]; meCopyPoster(it.t, it.t); });
+    el.querySelectorAll("[data-mc]").forEach(b => b.onclick = () => { const it = top[+b.dataset.mc]; inspUse('Announce this news in my own voice, like I\'m telling my followers (simple, human, my take included): "' + it.t + '"'); });
+    el.querySelectorAll("[data-mn]").forEach(b => b.onclick = () => openNewsroom(top[+b.dataset.mn]));
+  } catch (e) { el.innerHTML = ""; }
+}
 
 function bar() {
   const el = document.getElementById("pillars");

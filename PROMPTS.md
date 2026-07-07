@@ -1,7 +1,8 @@
-# AI Radar Studio — all generation prompts (human voice + value posts + art-director images)
+# AI Radar Studio — all generation prompts (human voice + value posts + 20-designer studio)
 
 Edit these, then share back and I'll port changes into templates.js. Keep the <<...>> tokens
-and the JSON/[[MARKER]] shapes — the app parses those.
+and the JSON/[[MARKER]] shapes — the app parses those. Note: the image prompts re-roll the
+assigned designer on every use, so what you see below is one example assignment.
 
 
 ---
@@ -440,7 +441,33 @@ Write nothing before [[HEADLINE]] and nothing after [[END]].
 (List the original source title and source link provided.)
 
 [[IMAGE1]]
-(Write a ready-to-paste image-generation prompt for the headline graphic. ACT LIKE A NEWS ART DIRECTOR. Do NOT use one fixed layout for every story — analyze first, then design.
+(Write a ready-to-paste image-generation prompt for the headline graphic. YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
+THE STUDIO HAS ASSIGNED THIS POST TO: OWEN — schematic: blueprint lines, labels, annotation arrows, precise engineer aesthetic (no sci-fi glow).
+Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
+THE FULL ROSTER (context for who they are):
+1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
+2. DIEGO — tabloid maximalist: loud condensed caps, dramatic crops, red/yellow highlight bars.
+3. YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.
+4. TOMMY — social-native: sticker-style cutouts with white outlines, playful tilted elements, bold energy (still clean).
+5. INGRID — brutalist: raw black/white, harsh contrast, mono-spaced type, one neon accent.
+6. SAM — data-first: the number IS the design; huge stats, clean chart elements, sharp annotations.
+7. LENA — cinematic: film-still lighting, moody depth of field, subtle grain, headline like movie titles.
+8. KOFI — flat-vector infographic: friendly icons, rounded cards, soft palette + one strong accent.
+9. PRIYA — newspaper heritage: column rules, serif headlines, ink-on-paper texture, modernized.
+10. MARCO — collage punk: torn paper edges, tape, highlighter scribbles — controlled chaos.
+11. AISHA — luxury tech: deep charcoal, gold or white type, premium product-shot lighting.
+12. NOAH — photojournalist: the photo carries everything; minimal caption-style type at the bottom.
+13. ELIF — geometric modernist: diagonal splits, big circles, bold shapes framing the photo.
+14. JUN — retro print: 70s-90s print palettes, halftone dots, vintage type pairings.
+15. CARLA — corporate clean: airy blue/white, rounded cards, trustworthy business look.
+16. DEV — internet-fluent: split reaction panels, bold white captions, meme structure without cringe.
+17. SOFIA — soft editorial: warm cream tones, gentle shadows, friendly rounded type.
+18. RUSLAN — kinetic: tilted frames, motion-blur edges, speed lines, urgency in everything.
+19. AMARA — human-first: candid people moments, warm natural light, headline that reads like a caption.
+20. OWEN — schematic: blueprint lines, labels, annotation arrows, precise engineer aesthetic (no sci-fi glow).
+Whoever designs it, the studio's base rules below still apply (realism, exact headline, legibility, footer).
+
+ACT LIKE A NEWS ART DIRECTOR. Do NOT use one fixed layout for every story — analyze first, then design.
 STEP 1 — classify the story: funding/numbers, partnership/MoU, product launch, policy/government, people (hire/founder/quote), research/report, controversy/drama, how-to/list, or AHMAD'S OWN announcement/opinion/tip (then use format 9).
 STEP 2 — pick the ONE poster format that fits THIS story best. HARD RULE: never use the same format two posts in a row — rotate through ALL 13 formats over time so the feed never looks repetitive. If a format was likely used recently for a similar story, pick the next-best fit instead:
 1. MARKER-HIGHLIGHT PHOTO — real photo of the actual event/subject (signing ceremony, stage, office); big bold headline across the lower half; the 1-2 KEY phrases sit on solid highlight bars (yellow or one brand color) behind the words. Best for partnerships, launches, announcements.
@@ -565,9 +592,87 @@ OUTPUT EXACTLY this format, every [[MARKER]] on its own line, nothing before [[V
 
 ---
 
-## 8) Image art-director rules (shared, 13 formats)  (`window.HUMAN_IMAGE`)
+## 8) Me poster — Ahmad presents the news  (`buildMePosterPrompt`)
 
 ```text
+YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
+THE STUDIO HAS ASSIGNED THIS POST TO: SOFIA — soft editorial: warm cream tones, gentle shadows, friendly rounded type.
+Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
+THE FULL ROSTER (context for who they are):
+1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
+2. DIEGO — tabloid maximalist: loud condensed caps, dramatic crops, red/yellow highlight bars.
+3. YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.
+4. TOMMY — social-native: sticker-style cutouts with white outlines, playful tilted elements, bold energy (still clean).
+5. INGRID — brutalist: raw black/white, harsh contrast, mono-spaced type, one neon accent.
+6. SAM — data-first: the number IS the design; huge stats, clean chart elements, sharp annotations.
+7. LENA — cinematic: film-still lighting, moody depth of field, subtle grain, headline like movie titles.
+8. KOFI — flat-vector infographic: friendly icons, rounded cards, soft palette + one strong accent.
+9. PRIYA — newspaper heritage: column rules, serif headlines, ink-on-paper texture, modernized.
+10. MARCO — collage punk: torn paper edges, tape, highlighter scribbles — controlled chaos.
+11. AISHA — luxury tech: deep charcoal, gold or white type, premium product-shot lighting.
+12. NOAH — photojournalist: the photo carries everything; minimal caption-style type at the bottom.
+13. ELIF — geometric modernist: diagonal splits, big circles, bold shapes framing the photo.
+14. JUN — retro print: 70s-90s print palettes, halftone dots, vintage type pairings.
+15. CARLA — corporate clean: airy blue/white, rounded cards, trustworthy business look.
+16. DEV — internet-fluent: split reaction panels, bold white captions, meme structure without cringe.
+17. SOFIA — soft editorial: warm cream tones, gentle shadows, friendly rounded type.
+18. RUSLAN — kinetic: tilted frames, motion-blur edges, speed lines, urgency in everything.
+19. AMARA — human-first: candid people moments, warm natural light, headline that reads like a caption.
+20. OWEN — schematic: blueprint lines, labels, annotation arrows, precise engineer aesthetic (no sci-fi glow).
+Whoever designs it, the studio's base rules below still apply (realism, exact headline, legibility, footer).
+
+Create ONE vertical 4:5 news-announcement poster where AHMAD (creator of @aixahmad) personally PRESENTS this news — like the face of a top Instagram news page. Design it through your assigned designer's eyes.
+
+USE THE ATTACHED PHOTO OF AHMAD. Keep his face EXACTLY as provided — never regenerate or alter it. You may adapt only his pose, expression angle, outfit and the scene around him.
+
+THE NEWS: <<THE NEWS / YOUR ANNOUNCEMENT>>
+HEADLINE TO RENDER on the poster, word for word: "<<HEADLINE>>"
+
+PICK AHMAD'S REACTION POSE to match the story's mood (vary it between posters — never the same pose twice in a row):
+- shocked, hands to head (drama / leak / unbelievable update)
+- excited, pointing at the headline (launch / new model / big update)
+- confident, arms crossed (analysis / my-take)
+- thumbs up, smiling (free stuff / good news / opportunity)
+- hand on chin, thinking (question / debate)
+- mind-blown gesture (crazy stats / records)
+
+LAYOUT: Ahmad cut out chest-up on one side (~35% of the width) with a clean cutout edge, over a dark, softly blurred scene relevant to the story; 1-2 CIRCLE inset images of the subject (the product / company / person in the news) on the other side; big ALL-CAPS condensed headline across the lower half — white with the 2-3 key words in ONE accent color (red = drama, yellow = money/free, blue = tech, green = growth); a small name tag 'AHMAD · @aixahmad' near him; small footer line 'Follow @aixahmad for more'.
+
+STYLE: like a real designer composed it in Photoshop — realistic photography, natural light, crisp modern editorial typography, generous contrast, phone-legible. NO sci-fi glow, NO logos, NO watermarks, NO extra text. Spell every word EXACTLY.
+```
+
+
+---
+
+## 9) Image art-director rules (shared, 13 formats + 20-designer studio)  (`window.HUMAN_IMAGE (getter)`)
+
+```text
+YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
+THE STUDIO HAS ASSIGNED THIS POST TO: JUN — retro print: 70s-90s print palettes, halftone dots, vintage type pairings.
+Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
+THE FULL ROSTER (context for who they are):
+1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
+2. DIEGO — tabloid maximalist: loud condensed caps, dramatic crops, red/yellow highlight bars.
+3. YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.
+4. TOMMY — social-native: sticker-style cutouts with white outlines, playful tilted elements, bold energy (still clean).
+5. INGRID — brutalist: raw black/white, harsh contrast, mono-spaced type, one neon accent.
+6. SAM — data-first: the number IS the design; huge stats, clean chart elements, sharp annotations.
+7. LENA — cinematic: film-still lighting, moody depth of field, subtle grain, headline like movie titles.
+8. KOFI — flat-vector infographic: friendly icons, rounded cards, soft palette + one strong accent.
+9. PRIYA — newspaper heritage: column rules, serif headlines, ink-on-paper texture, modernized.
+10. MARCO — collage punk: torn paper edges, tape, highlighter scribbles — controlled chaos.
+11. AISHA — luxury tech: deep charcoal, gold or white type, premium product-shot lighting.
+12. NOAH — photojournalist: the photo carries everything; minimal caption-style type at the bottom.
+13. ELIF — geometric modernist: diagonal splits, big circles, bold shapes framing the photo.
+14. JUN — retro print: 70s-90s print palettes, halftone dots, vintage type pairings.
+15. CARLA — corporate clean: airy blue/white, rounded cards, trustworthy business look.
+16. DEV — internet-fluent: split reaction panels, bold white captions, meme structure without cringe.
+17. SOFIA — soft editorial: warm cream tones, gentle shadows, friendly rounded type.
+18. RUSLAN — kinetic: tilted frames, motion-blur edges, speed lines, urgency in everything.
+19. AMARA — human-first: candid people moments, warm natural light, headline that reads like a caption.
+20. OWEN — schematic: blueprint lines, labels, annotation arrows, precise engineer aesthetic (no sci-fi glow).
+Whoever designs it, the studio's base rules below still apply (realism, exact headline, legibility, footer).
+
 ACT LIKE A NEWS ART DIRECTOR. Do NOT use one fixed layout for every story — analyze first, then design.
 STEP 1 — classify the story: funding/numbers, partnership/MoU, product launch, policy/government, people (hire/founder/quote), research/report, controversy/drama, how-to/list, or AHMAD'S OWN announcement/opinion/tip (then use format 9).
 STEP 2 — pick the ONE poster format that fits THIS story best. HARD RULE: never use the same format two posts in a row — rotate through ALL 13 formats over time so the feed never looks repetitive. If a format was likely used recently for a similar story, pick the next-best fit instead:

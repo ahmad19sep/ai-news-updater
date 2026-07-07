@@ -22,9 +22,46 @@ window.HUMAN_VOICE = [
   "- BANNED AI sentence patterns: \"It's not just X, it's Y\"; \"The real X isn't Y, it's Z\"; \"Here's the thing\"; rule-of-three lists; a neat \"X. But Y.\" as the whole post; throat-clearing openers; summary closers ('At the end of the day', 'Ultimately')."
 ].join("\n");
 
+/* ===== The Design Studio: 20 designers, each with their own creative mind.
+   The studio (this code) randomly assigns a DIFFERENT designer per prompt, so no
+   two posters look alike — the AI can't just keep picking its favorite. ===== */
+window.DESIGN_ROSTER = [
+"MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.",
+"DIEGO — tabloid maximalist: loud condensed caps, dramatic crops, red/yellow highlight bars.",
+"YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.",
+"TOMMY — social-native: sticker-style cutouts with white outlines, playful tilted elements, bold energy (still clean).",
+"INGRID — brutalist: raw black/white, harsh contrast, mono-spaced type, one neon accent.",
+"SAM — data-first: the number IS the design; huge stats, clean chart elements, sharp annotations.",
+"LENA — cinematic: film-still lighting, moody depth of field, subtle grain, headline like movie titles.",
+"KOFI — flat-vector infographic: friendly icons, rounded cards, soft palette + one strong accent.",
+"PRIYA — newspaper heritage: column rules, serif headlines, ink-on-paper texture, modernized.",
+"MARCO — collage punk: torn paper edges, tape, highlighter scribbles — controlled chaos.",
+"AISHA — luxury tech: deep charcoal, gold or white type, premium product-shot lighting.",
+"NOAH — photojournalist: the photo carries everything; minimal caption-style type at the bottom.",
+"ELIF — geometric modernist: diagonal splits, big circles, bold shapes framing the photo.",
+"JUN — retro print: 70s-90s print palettes, halftone dots, vintage type pairings.",
+"CARLA — corporate clean: airy blue/white, rounded cards, trustworthy business look.",
+"DEV — internet-fluent: split reaction panels, bold white captions, meme structure without cringe.",
+"SOFIA — soft editorial: warm cream tones, gentle shadows, friendly rounded type.",
+"RUSLAN — kinetic: tilted frames, motion-blur edges, speed lines, urgency in everything.",
+"AMARA — human-first: candid people moments, warm natural light, headline that reads like a caption.",
+"OWEN — schematic: blueprint lines, labels, annotation arrows, precise engineer aesthetic (no sci-fi glow)."
+];
+window.designStudio = function () {
+  var pick = window.DESIGN_ROSTER[Math.floor(Math.random() * window.DESIGN_ROSTER.length)];
+  return [
+"YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.",
+"THE STUDIO HAS ASSIGNED THIS POST TO: " + pick,
+"Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).",
+"THE FULL ROSTER (context for who they are):",
+window.DESIGN_ROSTER.map(function (d, i) { return (i + 1) + ". " + d; }).join("\n"),
+"Whoever designs it, the studio's base rules below still apply (realism, exact headline, legibility, footer)."
+].join("\n");
+};
+
 /* ===== Shared REALISTIC IMAGE rules — an ART DIRECTOR, not one fixed template.
-   Analyze the story first, pick a fitting poster format, vary formats between posts. ===== */
-window.HUMAN_IMAGE = [
+   window.HUMAN_IMAGE is a GETTER: every read re-rolls the assigned designer. ===== */
+window.HUMAN_IMAGE_BODY = [
 "ACT LIKE A NEWS ART DIRECTOR. Do NOT use one fixed layout for every story — analyze first, then design.",
 "STEP 1 — classify the story: funding/numbers, partnership/MoU, product launch, policy/government, people (hire/founder/quote), research/report, controversy/drama, how-to/list, or AHMAD'S OWN announcement/opinion/tip (then use format 9).",
 "STEP 2 — pick the ONE poster format that fits THIS story best. HARD RULE: never use the same format two posts in a row — rotate through ALL 13 formats over time so the feed never looks repetitive. If a format was likely used recently for a similar story, pick the next-best fit instead:",
@@ -45,6 +82,11 @@ window.HUMAN_IMAGE = [
 "ACCENT COLOR: pick ONE per poster and VARY it between posts — electric blue, red, yellow, or green; match the story's mood (red = drama/warning/leak, yellow = money/opportunity, blue = tech/product, green = growth/policy). Never more than one accent color on a poster.",
 "ALWAYS: vertical 4:5. Render the exact headline provided, word for word, spelled perfectly. Add ONE small, subtle footer line at the very bottom: 'Follow @aixahmad for more' — small, clean, never competing with the headline. No other text, no logos, no watermarks. Headline large and perfectly legible on a phone."
 ].join("\n");
+/* every read of HUMAN_IMAGE re-rolls the assigned designer, so each prompt differs */
+Object.defineProperty(window, "HUMAN_IMAGE", {
+  get: function () { return window.designStudio() + "\n\n" + window.HUMAN_IMAGE_BODY; },
+  configurable: true
+});
 
 /* WIZ = the Create wizard library. Each template:
      type:  "short" | "long" | "post"
@@ -762,6 +804,33 @@ window.XMINI_STYLES = [
   ["Community Growth", "Warm, inviting, asks people to say hi or share"],
   ["Sharp Hot Take", "Opinionated but respectful"]
 ];
+/* ---- "Me" posters: Ahmad personally presents a news announcement (anchor style) ---- */
+window.buildMePosterPrompt = function (o) {
+  o = o || {};
+  return [
+window.designStudio(),
+"",
+"Create ONE vertical 4:5 news-announcement poster where AHMAD (creator of @aixahmad) personally PRESENTS this news — like the face of a top Instagram news page. Design it through your assigned designer's eyes.",
+"",
+"USE THE ATTACHED PHOTO OF AHMAD. Keep his face EXACTLY as provided — never regenerate or alter it. You may adapt only his pose, expression angle, outfit and the scene around him.",
+"",
+"THE NEWS: " + (o.story || o.headline || ""),
+'HEADLINE TO RENDER on the poster, word for word: "' + (o.headline || "") + '"',
+"",
+"PICK AHMAD'S REACTION POSE to match the story's mood (vary it between posters — never the same pose twice in a row):",
+"- shocked, hands to head (drama / leak / unbelievable update)",
+"- excited, pointing at the headline (launch / new model / big update)",
+"- confident, arms crossed (analysis / my-take)",
+"- thumbs up, smiling (free stuff / good news / opportunity)",
+"- hand on chin, thinking (question / debate)",
+"- mind-blown gesture (crazy stats / records)",
+"",
+"LAYOUT: Ahmad cut out chest-up on one side (~35% of the width) with a clean cutout edge, over a dark, softly blurred scene relevant to the story; 1-2 CIRCLE inset images of the subject (the product / company / person in the news) on the other side; big ALL-CAPS condensed headline across the lower half — white with the 2-3 key words in ONE accent color (red = drama, yellow = money/free, blue = tech, green = growth); a small name tag 'AHMAD · @aixahmad' near him; small footer line 'Follow @aixahmad for more'.",
+"",
+"STYLE: like a real designer composed it in Photoshop — realistic photography, natural light, crisp modern editorial typography, generous contrast, phone-legible. NO sci-fi glow, NO logos, NO watermarks, NO extra text. Spell every word EXACTLY.",
+  ].join("\n");
+};
+
 /* ---- Inspire tab: proven, USEFUL content-idea bank. [category, title, why it works, ready seed] ---- */
 window.INSPIRE_IDEAS = [
   ["interactive", "Write the prompt for this pic", "People love guessing — huge comment driver", "Post a striking AI image and ask: 'Write the prompt you think made this. Closest one wins a follow.' Then reveal the real prompt in comments."],
