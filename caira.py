@@ -164,7 +164,7 @@ def build_master_prompt(item):
         'realistic photo scene of the actual subject, natural light, real textures, like a designer composed it '
         'in Photoshop - NO sci-fi glow or AI-poster look; EXACT headline rendered word for word in clean '
         'editorial type; ONE accent color, varied between tasks (red=drama, yellow=money, blue=tech, '
-        'green=growth); no logos/watermarks/extra text)\n'
+        'green=growth); one small subtle footer "Follow @aixahmad for more"; no logos/watermarks/other text)\n'
         '[[FACT_CHECK_NOTES]]\n(the key source facts + any caution/uncertainty)\n'
         '[[RISK_LEVEL]]\nlow / medium / high\n'
     )

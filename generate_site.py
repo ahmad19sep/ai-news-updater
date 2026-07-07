@@ -5391,6 +5391,8 @@ function renderValueParsed() {
     ["tiktok", "🎵 TikTok", t => { nrCopy(t); toast("TikTok caption copied — photo-mode: upload slides, paste caption"); }],
     ["facebook", "📘 Facebook", t => { nrCopy(t); nrOpen("https://www.facebook.com/"); toast("Facebook post copied — attach the image & paste"); }],
     ["linkedin", "in LinkedIn", t => { nrCopy(t); nrOpen("https://www.linkedin.com/feed/?shareActive=true"); toast("LinkedIn post copied — attach the image & paste"); }],
+    ["whatsapp", "📱 WhatsApp", t => { nrCopy(t); nrOpen("https://wa.me/?text=" + encodeURIComponent(t)); toast("WhatsApp opened — pick your Channel & send"); }],
+    ["youtube", "▶️ YouTube", t => { nrCopy(t); toast("YouTube post copied — paste as a community post"); }],
     ["x", "𝕏 X", t => { nrCopy(t); nrOpen("https://x.com/intent/tweet?text=" + encodeURIComponent(t)); toast("X opened (text-only) — attach the infographic if you like"); }],
   ];
   const el = document.getElementById("nr-vplats"); el.innerHTML = "";
