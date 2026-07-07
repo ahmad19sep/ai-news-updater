@@ -2927,9 +2927,11 @@ function renderInspire() {
           '<button class="cp" data-iw="' + esc(angle) + '">✍️ Write</button>' +
           '<button class="cp" data-iv="' + esc(it.t) + '" data-iu="' + esc(it.u) + '">💎 Value pack</button>' +
           '<button class="cp" data-inr="' + i + '">📰 Newsroom</button>' +
-          '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a></div></div>';
+          '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a>' +
+          '<button class="cp" data-imd="' + i + '">✓ Done</button></div></div>';
       }).join("") : "";
     newsEl.querySelectorAll("[data-inr]").forEach(b => b.onclick = () => openNewsroom(top[+b.dataset.inr]));
+    newsEl.querySelectorAll("[data-imd]").forEach(b => b.onclick = () => { markStoryDone(top[+b.dataset.imd]); toast("Done ✓ — removed (synced everywhere)"); renderInspire(); });
   } catch (e) { newsEl.innerHTML = ""; }
   /* --- curated idea bank --- */
   const listEl = document.getElementById("insp-list");
@@ -2983,11 +2985,13 @@ function renderMeTab() {
         '<button class="cp" data-mp="' + i + '">🎨 Poster with me</button>' +
         '<button class="cp" data-mc="' + i + '">✍️ Caption</button>' +
         '<button class="cp" data-mn="' + i + '">📰 Newsroom</button>' +
-        '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a></div></div>').join("")
+        '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a>' +
+        '<button class="cp" data-md="' + i + '">✓ Done</button></div></div>').join("")
       : '<div class="empty">No fresh stories right now — check back after the next fetch.</div>';
     el.querySelectorAll("[data-mp]").forEach(b => b.onclick = () => { const it = top[+b.dataset.mp]; meCopyPoster(it.t, it.t); });
     el.querySelectorAll("[data-mc]").forEach(b => b.onclick = () => { const it = top[+b.dataset.mc]; inspUse('Announce this news in my own voice, like I\'m telling my followers (simple, human, my take included): "' + it.t + '"'); });
     el.querySelectorAll("[data-mn]").forEach(b => b.onclick = () => openNewsroom(top[+b.dataset.mn]));
+    el.querySelectorAll("[data-md]").forEach(b => b.onclick = () => { markStoryDone(top[+b.dataset.md]); toast("Done ✓ — removed (synced everywhere)"); renderMeTab(); });
   } catch (e) { el.innerHTML = ""; }
 }
 
@@ -5260,6 +5264,8 @@ function markStoryDone(story) {
   try { render(); } catch (e) {}
   try { renderPopular(); } catch (e) {}
   try { renderHome(); } catch (e) {}
+  try { if (!document.getElementById("tab-me").hidden) renderMeTab(); } catch (e) {}
+  try { if (!document.getElementById("tab-inspire").hidden) renderInspire(); } catch (e) {}
   return n;
 }
 document.getElementById("pub-go").onclick = async () => {
@@ -5423,6 +5429,7 @@ document.getElementById("nr-parse").onclick = () => {
   /* 💎 value-post output has its own markers — auto-detect and show the value UI */
   if (nrParsed.value_format || nrParsed.infographic_prompt || nrParsed.slides) {
     renderValueParsed();
+    if (nrStory.source) markStoryDone({ u: nrStory.source, t: nrStory.title });  // used -> leaves the lists
     toast("💎 Parsed ✓ — make the image with 🎨, then post per platform");
     return;
   }
@@ -5432,6 +5439,7 @@ document.getElementById("nr-parse").onclick = () => {
   document.getElementById("nr-body").value = nrParsed.article || "";
   document.getElementById("nr-parsed").hidden = false;
   nrRenderPlats();
+  if (nrStory.source) markStoryDone({ u: nrStory.source, t: nrStory.title });    // used -> leaves the lists
   toast("Parsed ✓ — add an image, Publish, then share");
 };
 /* ---- 💎 Value post: auto-extracted UI (slides / infographic / per-platform captions) ---- */
