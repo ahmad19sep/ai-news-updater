@@ -753,6 +753,36 @@ window.XMINI_STYLES = [
   ["Community Growth", "Warm, inviting, asks people to say hi or share"],
   ["Sharp Hot Take", "Opinionated but respectful"]
 ];
+/* ---- Inspire tab: proven, USEFUL content-idea bank. [category, title, why it works, ready seed] ---- */
+window.INSPIRE_IDEAS = [
+  ["interactive", "Write the prompt for this pic", "People love guessing — huge comment driver", "Post a striking AI image and ask: 'Write the prompt you think made this. Closest one wins a follow.' Then reveal the real prompt in comments."],
+  ["interactive", "AI or real photo?", "Everyone wants to test themselves", "Post 2 images side by side: 'One is AI, one is real. Which is which?' Reveal the answer after 24h in comments."],
+  ["interactive", "Guess the tool", "Curiosity + tool discovery in one", "Show a result (image/video/site) and ask 'Which AI tool made this in under 2 minutes?' Reveal + mini how-to in comments."],
+  ["interactive", "What should I automate next?", "Gets ideas AND engagement", "Tell people one thing you automated with AI this week (real), then ask: 'What's one boring task in your day I should try to automate next?'"],
+  ["list", "20 things you didn't know AI can do", "Save-magnet carousel — shock + usefulness", "Carousel: 20 surprising, REAL things AI can do today (translate a call live, restore old photos, read handwriting, plan meals from a fridge photo...). One per slide, no hype, each must be actually doable."],
+  ["list", "5 free AI tools that replace paid ones", "Money saved = instant share", "List 5 genuinely free AI tools that do what people pay for (writing, design, transcription, coding, research). One line each: tool + what it replaces."],
+  ["list", "AI tool tier list", "Rankings force disagreement = comments", "S/A/B/C tier list of the AI tools everyone uses (Claude, ChatGPT, Gemini, Cursor, Midjourney...). Your honest ranking + one-line reasons. Ask 'what did I get wrong?'"],
+  ["list", "Learn AI in this order", "Beginners are the biggest audience", "'If you only have 10 minutes a day, learn AI in this order:' 5-step path from zero (use a chatbot daily -> prompts -> one image tool -> one automation -> build something tiny)."],
+  ["update", "Unbelievable AI update of the week", "Shock value with receipts", "Pick THE most jaw-dropping real AI development this week. One post: what it is, proof it's real, and the one-line 'this means...' takeaway. No exaggeration — the real thing is wild enough."],
+  ["update", "New model dropped — what you can DO with it", "Everyone posts the news; nobody posts the uses", "When a model launches: skip the specs. '5 things you can actually do with <model> today' — each a real, tryable use case with the simplest instructions."],
+  ["update", "This week in AI in 60 seconds", "Busy people share summaries", "5 bullets max: the only AI news that actually matters this week, each with a 'why you care' half-line. Same day/time every week so people expect it."],
+  ["update", "AI news explained for your parents", "Simplicity is a superpower", "Take today's biggest AI story and explain it so a 60-year-old gets it in 3 sentences. No jargon at all. End: 'Did I explain it simply enough?'"],
+  ["prompts", "Prompt of the day", "Copy-paste value, daily habit", "One killer prompt people can copy today, with a before/after showing the difference it makes. Keep the prompt short enough to retype."],
+  ["prompts", "3 prompts that make ChatGPT/Claude 10x better", "Directly actionable, huge saves", "3 short prompts (or prompt patterns) with what each fixes: better answers, honest criticism, step-by-step teaching. Show one example output."],
+  ["prompts", "The prompt behind this image", "Transparency builds followers", "Post your best AI-generated poster/image and share the EXACT prompt that made it. Creators save these instantly."],
+  ["tools", "I tested it so you don't have to", "Honest reviews beat hype", "Pick one hyped AI tool. Use it for a real task for 30 minutes. One-line verdict + who should actually use it + who shouldn't. Honesty is the hook."],
+  ["tools", "Underrated feature nobody uses", "Insider knowledge feel", "One feature inside a popular AI tool that most users never touch (projects, memory, custom instructions, voice...). Show a real use in 3 steps."],
+  ["tools", "My AI stack in one screenshot", "Stack posts always travel", "Share the 4-6 AI tools you ACTUALLY use daily and the one job each does. Ask people to share theirs. (Works as a clean infographic.)"],
+  ["money", "AI side-hustle of the week", "Money angle = widest audience", "One realistic way people are earning with AI right now (no get-rich hype): what it is, what you need, honest earnings range, first step today."],
+  ["money", "Free this week — grab it before it's gone", "Deadlines drive action", "Round up genuinely free AI offers right now (student offers, credits, trials). Who qualifies + how to claim in 2 steps + the deadline."],
+  ["education", "One-minute explainer with an analogy", "Confusion is your content goldmine", "Pick one confusing AI term (RAG, agent, MCP, tokens) and explain it with a household analogy: 'LLM = brain. RAG = brain + books. Agent = brain + hands.'"],
+  ["education", "Myth vs fact", "Correcting wrong beliefs earns trust", "One common AI belief that's wrong ('AI will take all jobs', 'AI can't be creative') vs what's actually true, in plain words with one concrete example."],
+  ["education", "Before/after: with AI vs without", "Time saved is the universal hook", "Show one real task done the old way vs with AI: time taken, steps, result. Real numbers from your own attempt only."],
+  ["education", "Beginner mistakes (I made all of them)", "Vulnerability + usefulness", "5 mistakes beginners make with AI (vague prompts, trusting outputs blindly, tool-hopping...) — admit which ones you made, and the fix for each."],
+  ["personal", "Build in public: what I shipped this week", "Journey content compounds", "Share one small real thing you built/learned/automated this week with AI — with a screenshot. End with what you're trying next."],
+  ["personal", "What I'd learn first if starting today", "Beginner magnet from experience", "'If I was starting with AI from zero in 2026, here's exactly what I'd do in week 1' — 4-5 concrete steps, no fluff, from your real path."]
+];
+
 /* starter ideas you can tap to seed a post (paraphrased X-native patterns) */
 window.XMINI_IDEAS = {
   question: ["What AI tool do you actually use every day — not the one you talk about most?", "If you could keep only one AI product for work, which survives?", "For coding right now: Claude, ChatGPT, or Cursor?", "Are you using AI more like Google or more like an employee?", "What AI workflow saved you the most time this week?", "What's one thing AI still does annoyingly badly in your workflow?"],

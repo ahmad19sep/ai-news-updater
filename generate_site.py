@@ -681,6 +681,7 @@ PAGE = r"""<!doctype html>
       <button class="navitem" id="tabbtn-xreplies" onclick="switchTab('xreplies')">↩️ <span>X Replies</span><span class="navcount" id="nc-xr"></span></button>
       <button class="navitem" id="tabbtn-repurpose" onclick="switchTab('repurpose')">♻️ <span>Repurpose</span><span class="navcount" id="nc-rp"></span></button>
       <button class="navitem" id="tabbtn-xmini" onclick="switchTab('xmini')">✍️ <span>Write</span><span class="navcount" id="nc-xm"></span></button>
+      <button class="navitem" id="tabbtn-inspire" onclick="switchTab('inspire')">💡 <span>Inspire</span></button>
     </nav>
     <div class="sidefoot">
       <span class="av">A</span>
@@ -788,6 +789,14 @@ PAGE = r"""<!doctype html>
       <div id="xm-drafts"></div>
     </div>
     <div id="xmperf" hidden></div>
+  </section>
+
+  <section id="tab-inspire" hidden>
+    <p class="note">💡 Proven, useful content ideas — interactive posts, save-worthy lists, "what to do with it" news angles.
+       Tap ✍️ to write it now or 💎 to get the full value-post pack (slides + infographic + captions).</p>
+    <div class="search" style="margin-top:6px"><input id="insp-q" placeholder="Search ideas… prompt, tools, free, beginner"></div>
+    <div id="insp-news"></div>
+    <div id="insp-list"></div>
   </section>
 
   <section id="tab-repurpose" hidden>
@@ -1624,7 +1633,7 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose","xmini"].forEach(n => {
+  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose","xmini","inspire"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
@@ -1635,7 +1644,8 @@ function switchTab(name) {
     research:["Research","Papers for your own learning"],
     xreplies:["X Replies","Capture a post, generate replies, pick one"],
     repurpose:["Repurpose","Turn posts you see into your own content"],
-    xmini:["Write","Anthropic Write Engine — short posts that grow the account"] };
+    xmini:["Write","Anthropic Write Engine — short posts that grow the account"],
+    inspire:["Inspire","Useful content ideas that actually get reach"] };
   const tt = TT[name] || ["",""];
   const pt = document.getElementById("pageTitle"), ps = document.getElementById("pageSub");
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
@@ -1645,6 +1655,7 @@ function switchTab(name) {
   if (name === "xreplies") renderXTab();
   if (name === "repurpose") renderRpTab();
   if (name === "xmini") renderXMini();
+  if (name === "inspire") renderInspire();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
 }
@@ -2857,6 +2868,71 @@ async function renderXmPerf() {
   el.querySelectorAll("[data-xmx]").forEach(b => b.onclick = () => xmPerfSave(b));
   el.querySelectorAll("[data-xmxdel]").forEach(b => b.onclick = () => xmPerfDel(b));
 }
+/* ===================== 💡 Inspire: useful content-idea bank ===================== */
+const INSP_CATL = { interactive: "🎯 Interactive", list: "📑 Lists & carousels", update: "🗞 News angles",
+  prompts: "⌨️ Prompts", tools: "🧰 Tools", money: "💰 Money", education: "🎓 Explainers", personal: "🌱 Personal" };
+function inspUse(seed) {
+  switchTab("xmini");
+  setTimeout(() => { const s = document.getElementById("xm-seed"); if (s) { s.value = seed; }
+    window.scrollTo({ top: 0, behavior: "smooth" }); toast("Loaded into Write — pick a style & generate ✍️"); }, 60);
+}
+function inspValue(title, source) {
+  navigator.clipboard.writeText(window.buildValuePostPrompt({ title: title, source: source || "" }))
+    .then(() => toast("💎 Value prompt copied — paste in Claude/ChatGPT, then Parse in Newsroom"));
+}
+function inspNewsAngle(t) {
+  const s = t.toLowerCase();
+  if (/(launch|release|announc|unveil|introduc|drops|new model|gpt-|gemini|claude|llama|grok)/.test(s))
+    return ["🚀 New release", '"' + t + '" — skip the specs: 5 things you can ACTUALLY do with it today, with the simplest steps'];
+  if (/(free|scholarship|student|credit|offer|giveaway|discount)/.test(s))
+    return ["🎁 Free alert", '"' + t + '" — who can get it and how, step by step, before the deadline'];
+  if (/(raise|funding|million|billion|valuation|acqui|invest)/.test(s))
+    return ["💰 Money move", '"' + t + '" — what this money move means for normal people and builders (jobs, tools, prices)'];
+  if (/(ban|law|rule|regulat|policy|court|sue|lawsuit)/.test(s))
+    return ["⚖️ New rule", '"' + t + '" — the new AI rule explained simply: who is affected and what changes'];
+  if (/(leak|hack|breach|scandal|fired|drama|accus)/.test(s))
+    return ["🔥 Big story", '"' + t + '" — what actually happened, in plain words, and the part everyone is missing'];
+  return ["🗞 Explain it", '"' + t + '" — explained so simply your parents would get it, plus what it means for you'];
+}
+function renderInspire() {
+  const q = (document.getElementById("insp-q").value || "").toLowerCase().trim();
+  /* --- ideas made from YOUR live news feed (fresh, high-score, not covered) --- */
+  const newsEl = document.getElementById("insp-news");
+  try {
+    const cut = Date.now() - 2 * 86400000;
+    const top = ITEMS.filter(it => it.p !== 9 && !doneSet.has(it.u) && new Date(it.d || it.f).getTime() > cut)
+      .sort((a, b) => b.sc - a.sc).slice(0, 6);
+    newsEl.innerHTML = top.length ? '<div class="sec-h" style="margin-top:10px">🗞 From today\'s news — turned into useful angles</div>' +
+      top.map(it => {
+        const [tag, angle] = inspNewsAngle(it.t);
+        return '<div class="card"><div class="meta"><span class="pill">' + tag + '</span><span class="src">score ' + it.sc + '</span></div>' +
+          '<div class="xrtext">' + esc(angle) + '</div>' +
+          '<div class="actions" style="margin-left:0;margin-top:6px">' +
+          '<button class="cp" data-iw="' + esc(angle) + '">✍️ Write</button>' +
+          '<button class="cp" data-iv="' + esc(it.t) + '" data-iu="' + esc(it.u) + '">💎 Value pack</button>' +
+          '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a></div></div>';
+      }).join("") : "";
+  } catch (e) { newsEl.innerHTML = ""; }
+  /* --- curated idea bank --- */
+  const listEl = document.getElementById("insp-list");
+  const ideas = (window.INSPIRE_IDEAS || []).filter(i => !q || (i[0] + " " + i[1] + " " + i[2] + " " + i[3]).toLowerCase().includes(q));
+  const byCat = {};
+  ideas.forEach(i => (byCat[i[0]] = byCat[i[0]] || []).push(i));
+  listEl.innerHTML = Object.keys(INSP_CATL).filter(c => byCat[c]).map(c =>
+    '<div class="sec-h" style="margin-top:12px">' + INSP_CATL[c] + '</div>' +
+    byCat[c].map(i =>
+      '<div class="card"><b>' + esc(i[1]) + '</b>' +
+      '<div class="xreason">' + esc(i[2]) + '</div>' +
+      '<div class="xrtext" style="margin-top:5px">' + esc(i[3]) + '</div>' +
+      '<div class="actions" style="margin-left:0;margin-top:6px">' +
+      '<button class="cp" data-iw="' + esc(i[3]) + '">✍️ Write</button>' +
+      '<button class="cp" data-iv="' + esc(i[1] + " — " + i[3]) + '" data-iu="">💎 Value pack</button></div></div>').join("")
+  ).join("") || '<div class="empty">No ideas match that search.</div>';
+  document.querySelectorAll("#tab-inspire [data-iw]").forEach(b => b.onclick = () => inspUse(b.getAttribute("data-iw")));
+  document.querySelectorAll("#tab-inspire [data-iv]").forEach(b => b.onclick = () => inspValue(b.getAttribute("data-iv"), b.getAttribute("data-iu")));
+}
+document.getElementById("insp-q").addEventListener("input", () => renderInspire());
+
 function bar() {
   const el = document.getElementById("pillars");
   el.innerHTML = "";
