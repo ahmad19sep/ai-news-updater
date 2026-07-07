@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T10:01:48.786678+00:00",
+  "generated_at": "2026-07-07T15:17:22.037208+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,9 +23,9 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images using text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or personal projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT's image generation for your business marketing needs.",
+      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your projects or social media.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and presentations.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "short",
@@ -37,19 +37,19 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2-SxbgsVn8s",
-          "signal": "AI Video Generator: One Screenshot to Drama with CapCut PC | Seedance 2.5"
+          "url": "https://www.youtube.com/watch?v=2y_6PsQTuag",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Social Media",
-        "Using ChatGPT for Personalized Image Creation"
+        "How to Use ChatGPT for Image Generation",
+        "10 Creative Ways to Use ChatGPT's Image Generation",
+        "ChatGPT Image Generation Tutorial for Beginners"
       ]
     },
     {
@@ -60,10 +60,10 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "Gemini Omni is a video editing tool that uses AI to help users create professional-looking videos.",
-      "audience_angle": "You can use Gemini Omni to create stunning videos for your business or personal projects.",
-      "linkedin_angle": "Discover how Gemini Omni can help you create engaging video content for your business.",
-      "local_relevance": 6,
+      "what_it_is": "Gemini Omni is an AI-powered video editing tool.",
+      "audience_angle": "You can use Gemini Omni to edit videos with the help of AI.",
+      "linkedin_angle": "Enhance your video editing skills with Gemini Omni and take your professional content to the next level.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
@@ -75,18 +75,18 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uowvhu/i_tested_gemini_omni_on_my_phone_footage/",
-          "signal": "I tested Gemini Omni on my phone footage"
+          "signal": "23"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
-          "signal": "AI Video Editing with Gemini Omni in FREE"
+          "signal": "0"
         }
       ],
       "content_ideas": [
         "Getting Started with Gemini Omni: A Beginner's Guide",
-        "How to Create Professional-Looking Videos with Gemini Omni",
-        "Gemini Omni: The Future of Video Editing"
+        "How to Use Gemini Omni for Professional Video Editing",
+        "Gemini Omni Tutorial: Advanced Video Editing Techniques"
       ]
     },
     {
@@ -97,33 +97,33 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "Claude is an AI-powered tool that helps users create content, including text and images.",
-      "audience_angle": "You can use Claude to generate high-quality content for your business or personal projects.",
-      "linkedin_angle": "Learn how to leverage Claude for your business content creation needs.",
-      "local_relevance": 7,
+      "what_it_is": "Claude is an AI-powered tool for various tasks, including content creation and research.",
+      "audience_angle": "You can use Claude to automate tasks and enhance your productivity.",
+      "linkedin_angle": "Leverage Claude to streamline your workflow and increase efficiency.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its content creation tool."
+        "note": "Claude has an affiliate program for its AI-powered tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1up33hy/i_asked_8_ai_models_who_wins_the_world_cup_only/",
-          "signal": "I asked 8 AI models who wins the World Cup. Only Claude refused to follow the crowd."
+          "signal": "29"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=fUoG63VqCAA",
-          "signal": "Claude's New Update Is Insane, And Here's How To Use It Completely FREE"
+          "signal": "0"
         }
       ],
       "content_ideas": [
         "How to Use Claude for Content Creation",
-        "Claude: The AI-Powered Content Creation Tool",
-        "Maximizing Your Content Creation with Claude"
+        "10 Ways to Use Claude for Research and Productivity",
+        "Claude Tutorial: Getting Started with AI-Powered Tools"
       ]
     }
   ],
@@ -136,10 +136,10 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "Gemini Omni is a video editing tool that uses AI to help users create professional-looking videos.",
-      "audience_angle": "You can use Gemini Omni to create stunning videos for your business or personal projects.",
-      "linkedin_angle": "Discover how Gemini Omni can help you create engaging video content for your business.",
-      "local_relevance": 6,
+      "what_it_is": "Gemini Omni is an AI-powered video editing tool.",
+      "audience_angle": "You can use Gemini Omni to edit videos with the help of AI.",
+      "linkedin_angle": "Enhance your video editing skills with Gemini Omni and take your professional content to the next level.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
@@ -151,18 +151,18 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uowvhu/i_tested_gemini_omni_on_my_phone_footage/",
-          "signal": "I tested Gemini Omni on my phone footage"
+          "signal": "23"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
-          "signal": "AI Video Editing with Gemini Omni in FREE"
+          "signal": "0"
         }
       ],
       "content_ideas": [
         "Getting Started with Gemini Omni: A Beginner's Guide",
-        "How to Create Professional-Looking Videos with Gemini Omni",
-        "Gemini Omni: The Future of Video Editing"
+        "How to Use Gemini Omni for Professional Video Editing",
+        "Gemini Omni Tutorial: Advanced Video Editing Techniques"
       ]
     },
     {
@@ -173,9 +173,9 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images using text prompts.",
-      "audience_angle": "You can use ChatGPT to generate images for your social media or personal projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT's image generation for your business marketing needs.",
+      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate images for your projects or social media.",
+      "linkedin_angle": "Leverage ChatGPT's image generation to enhance your professional content and presentations.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "short",
@@ -187,19 +187,19 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2-SxbgsVn8s",
-          "signal": "AI Video Generator: One Screenshot to Drama with CapCut PC | Seedance 2.5"
+          "url": "https://www.youtube.com/watch?v=2y_6PsQTuag",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Social Media",
-        "Using ChatGPT for Personalized Image Creation"
+        "How to Use ChatGPT for Image Generation",
+        "10 Creative Ways to Use ChatGPT's Image Generation",
+        "ChatGPT Image Generation Tutorial for Beginners"
       ]
     },
     {
@@ -210,39 +210,39 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "Claude is an AI-powered tool that helps users create content, including text and images.",
-      "audience_angle": "You can use Claude to generate high-quality content for your business or personal projects.",
-      "linkedin_angle": "Learn how to leverage Claude for your business content creation needs.",
-      "local_relevance": 7,
+      "what_it_is": "Claude is an AI-powered tool for various tasks, including content creation and research.",
+      "audience_angle": "You can use Claude to automate tasks and enhance your productivity.",
+      "linkedin_angle": "Leverage Claude to streamline your workflow and increase efficiency.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its content creation tool."
+        "note": "Claude has an affiliate program for its AI-powered tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1up33hy/i_asked_8_ai_models_who_wins_the_world_cup_only/",
-          "signal": "I asked 8 AI models who wins the World Cup. Only Claude refused to follow the crowd."
+          "signal": "29"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=fUoG63VqCAA",
-          "signal": "Claude's New Update Is Insane, And Here's How To Use It Completely FREE"
+          "signal": "0"
         }
       ],
       "content_ideas": [
         "How to Use Claude for Content Creation",
-        "Claude: The AI-Powered Content Creation Tool",
-        "Maximizing Your Content Creation with Claude"
+        "10 Ways to Use Claude for Research and Productivity",
+        "Claude Tutorial: Getting Started with AI-Powered Tools"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT image generation errors",
+      "problem": "ChatGPT Image Generation Errors",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
@@ -252,18 +252,6 @@
         }
       ],
       "content_opportunity": "Troubleshooting ChatGPT Image Generation Errors: A Step-by-Step Guide"
-    },
-    {
-      "problem": "Claude usage limits",
-      "who_affected": "Claude users",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1up3zkv/blocked_after_only_making_9_images_in_the_last_24/"
-        }
-      ],
-      "content_opportunity": "Understanding Claude Usage Limits: How to Optimize Your Content Creation"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
