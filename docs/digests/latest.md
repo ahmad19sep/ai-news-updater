@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
 6. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
-7. **Is AI ready to take over your prescriptions? Some doctors are wary - KTVQ** — science angle
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxPVUhIdVJoTkV0ZW5tSFBPa2p0eTFNWTRHWkt0NmgtZjhfc01QYVZGbnJmTVJpbzRMU3ktX0NHTFVUdFdKdGMtbTRkYWhCbHF5RC1CS09GOEpDanVwdnRVM1dPbWM5MmlBejVSRFZIODZiRXhPZ1haQTVOLTRKOGh0dkhWQ0xNWlZ2ZGFCVGtOOFQ2RnJ2UEhVSWxGeWVIRk5qQmdpV1MzNlNKTlE5eWY2OHk3OXJqR29LN0JxVENIbHF5YUF1Unc?oc=5
-8. **Utah lets AI refill prescriptions. Doctors are wary** — 4 upvotes on Reddit/HN
+7. **Utah lets AI refill prescriptions. Doctors are wary** — 4 upvotes on Reddit/HN
    https://apnews.com/article/ai-prescription-refill-utah-doctronic-fda-technology-cf94ce370c05f686e8792be8671a2ef0
+8. **Doctors are embracing AI, with reservations - Association of Health Care Journalists** — science angle
+   https://news.google.com/rss/articles/CBMijgFBVV95cUxPZTZ2NDBsaWZqUUJDazNEMllPUUF4bFMxcl9ORW91TWlaYVZFdHNCeUs0VjRYN2dGbzNHNU04ZExmcC1iZkJWOWR2MnlobENmVzZLMnJKNXllNHNDRDFBeXpmdUVrRk1VRTlnckhDcTFYcldGMnNmcjF6UWxPTjhvWU1mcGxmdEJidDAtdVdB?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 66
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2923
-- Most active topic: models
+- Total stories tracked: 2951
+- Most active topic: show
 - Busiest category: AI General News
 
 ---
