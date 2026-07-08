@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T20:16:52.601974+00:00",
+  "generated_at": "2026-07-08T03:47:00.363555+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,367 +9,366 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 40,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "A feature of ChatGPT that allows users to generate images.",
-      "audience_angle": "Learn how to create stunning images with ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT image generation can enhance your marketing materials.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upnn2u/image_generations_are_failing_no_matter_what/",
-          "signal": "Image generations are failing no matter what?"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: Tips and Tricks",
-        "Using ChatGPT for Graphic Design: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "ChatGPT for Business",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Using ChatGPT for business purposes, such as marketing and customer service.",
-      "audience_angle": "Discover how ChatGPT can help you grow your business.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for business success.",
+      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
+      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for businesses."
+        "note": "ChatGPT has an affiliate program for developers"
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+business",
-          "signal": "How to use AI for business"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
         },
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48816813",
-          "signal": "Tell HN: Who wants to be hired\" posts outpace \"Who's hiring\" 2 to 1"
+          "url": "https://www.bona-books.com/news/we-bought-an-ai-story",
+          "signal": "37"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Customer Service",
-        "ChatGPT for Marketing: A Beginner's Guide",
-        "Using ChatGPT to Automate Business Tasks"
+        "How to Use ChatGPT for Business Automation",
+        "ChatGPT Tutorial for Beginners",
+        "10 ChatGPT Secrets You Need to Know"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A feature that allows users to generate videos using AI.",
-      "audience_angle": "Create stunning videos with AI video generation.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
-      "local_relevance": 9,
+      "what_it_is": "AI video generation is a technology that allows you to create videos using AI.",
+      "audience_angle": "You can use AI video generation to create engaging videos for social media or marketing.",
+      "linkedin_angle": "Learn how to use AI video generation for business marketing and branding.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs."
+        "note": "Some AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "AI video generation"
+          "url": "https://www.youtube.com/watch?v=1Cj44iznJEU",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "AI Video Generation: Tips and Tricks",
-        "Using AI for Video Marketing: A Beginner's Guide"
+        "How to Create AI-Generated Videos for Social Media",
+        "AI Video Generation Tutorial for Beginners",
+        "5 AI Video Generation Tools You Need to Try"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "A new AI tool that offers various features, including text generation and conversation.",
-      "audience_angle": "Discover the capabilities of Claude AI.",
-      "linkedin_angle": "Learn how Claude AI can enhance your productivity.",
+      "what_it_is": "Claude is an AI assistant developed by Anthropic.",
+      "audience_angle": "You can use Claude to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "Learn how to leverage Claude for business automation and productivity.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program."
+        "note": "Claude has an affiliate program for developers"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=claude+ai",
-          "signal": "Claude AI"
+          "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
+          "signal": "0"
         },
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48816813",
-          "signal": "Tell HN: Who wants to be hired\" posts outpace \"Who's hiring\" 2 to 1"
+          "url": "https://github.com/rowboatlabs/rowboat",
+          "signal": "141"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Text Generation",
-        "Claude AI: A Beginner's Guide",
-        "Using Claude AI for Conversation and Customer Service"
+        "How to Use Claude for Business Automation",
+        "Claude Tutorial for Beginners",
+        "10 Claude Secrets You Need to Know"
       ]
     },
     {
-      "name": "AI for Stock Trading",
+      "name": "AI Agents",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "Using AI to trade stocks and make investment decisions.",
-      "audience_angle": "Discover how AI can help you make informed investment decisions.",
-      "linkedin_angle": "Learn how to leverage AI for stock trading success.",
-      "local_relevance": 6,
+      "what_it_is": "AI agents are software programs that use AI to perform tasks.",
+      "audience_angle": "You can use AI agents to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "Learn how to leverage AI agents for business automation and productivity.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI stock trading tools have affiliate programs."
+        "note": "Some AI agent tools have affiliate programs"
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
+          "signal": "114"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+trade+stocks",
-          "signal": "How to use AI to trade stocks"
+          "url": "https://www.youtube.com/watch?v=83fWzQSWB10",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Stock Trading",
-        "AI for Investment: A Beginner's Guide",
-        "Using AI to Make Informed Investment Decisions"
+        "How to Use AI Agents for Business Automation",
+        "AI Agents Tutorial for Beginners",
+        "10 AI Agent Secrets You Need to Know"
       ]
     },
     {
-      "name": "Gemini Omni",
+      "name": "Fable 5",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A new AI tool that offers various features, including video editing and generation.",
-      "audience_angle": "Discover the capabilities of Gemini Omni.",
-      "linkedin_angle": "Learn how Gemini Omni can enhance your video marketing strategy.",
-      "local_relevance": 8,
+      "what_it_is": "Fable 5 is an AI-powered platform for creating and managing AI agents.",
+      "audience_angle": "You can use Fable 5 to create and manage AI agents for business automation and productivity.",
+      "linkedin_angle": "Learn how to leverage Fable 5 for business automation and productivity.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemini Omni has an affiliate program."
+        "note": "Fable 5 has an affiliate program for developers"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=gemini+omni",
-          "signal": "Gemini Omni"
+          "url": "https://www.youtube.com/watch?v=538h9xOZhOE",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use Gemini Omni for Video Editing",
-        "Gemini Omni: A Beginner's Guide",
-        "Using Gemini Omni for Video Generation and Marketing"
+        "How to Use Fable 5 for Business Automation",
+        "Fable 5 Tutorial for Beginners",
+        "10 Fable 5 Secrets You Need to Know"
+      ]
+    },
+    {
+      "name": "AI Bubble",
+      "category": "debate",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "The AI bubble refers to the rapid growth and potential collapse of the AI industry.",
+      "audience_angle": "You need to be aware of the potential risks and benefits of the AI bubble.",
+      "linkedin_angle": "Learn how to navigate the AI bubble for business and investment.",
+      "local_relevance": 8,
+      "pillar": "news",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate programs available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+          "signal": "36"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+bubble",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "What is the AI Bubble and How Will it Affect You",
+        "Navigating the AI Bubble for Business and Investment",
+        "The Potential Risks and Benefits of the AI Bubble"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Gemini Omni",
+      "name": "ChatGPT",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
+        "reddit",
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "A new AI tool that offers various features, including video editing and generation.",
-      "audience_angle": "Discover the capabilities of Gemini Omni.",
-      "linkedin_angle": "Learn how Gemini Omni can enhance your video marketing strategy.",
+      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
+      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for business automation and productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "reel",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemini Omni has an affiliate program."
+        "note": "ChatGPT has an affiliate program for developers"
       },
       "sources": [
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.bona-books.com/news/we-bought-an-ai-story",
+          "signal": "37"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=gemini+omni",
-          "signal": "Gemini Omni"
+          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use Gemini Omni for Video Editing",
-        "Gemini Omni: A Beginner's Guide",
-        "Using Gemini Omni for Video Generation and Marketing"
+        "How to Use ChatGPT for Business Automation",
+        "ChatGPT Tutorial for Beginners",
+        "10 ChatGPT Secrets You Need to Know"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "A new AI tool that offers various features, including text generation and conversation.",
-      "audience_angle": "Discover the capabilities of Claude AI.",
-      "linkedin_angle": "Learn how Claude AI can enhance your productivity.",
+      "what_it_is": "Claude is an AI assistant developed by Anthropic.",
+      "audience_angle": "You can use Claude to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "Learn how to leverage Claude for business automation and productivity.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program."
+        "note": "Claude has an affiliate program for developers"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=claude+ai",
-          "signal": "Claude AI"
+          "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
+          "signal": "0"
         },
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48816813",
-          "signal": "Tell HN: Who wants to be hired\" posts outpace \"Who's hiring\" 2 to 1"
+          "url": "https://github.com/rowboatlabs/rowboat",
+          "signal": "141"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Text Generation",
-        "Claude AI: A Beginner's Guide",
-        "Using Claude AI for Conversation and Customer Service"
+        "How to Use Claude for Business Automation",
+        "Claude Tutorial for Beginners",
+        "10 Claude Secrets You Need to Know"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "Fable 5",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A feature that allows users to generate videos using AI.",
-      "audience_angle": "Create stunning videos with AI video generation.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
-      "local_relevance": 9,
+      "what_it_is": "Fable 5 is an AI-powered platform for creating and managing AI agents.",
+      "audience_angle": "You can use Fable 5 to create and manage AI agents for business automation and productivity.",
+      "linkedin_angle": "Learn how to leverage Fable 5 for business automation and productivity.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs."
+        "note": "Fable 5 has an affiliate program for developers"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "AI video generation"
+          "url": "https://www.youtube.com/watch?v=538h9xOZhOE",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "AI Video Generation: Tips and Tricks",
-        "Using AI for Video Marketing: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A feature of ChatGPT that allows users to generate images.",
-      "audience_angle": "Learn how to create stunning images with ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT image generation can enhance your marketing materials.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upnn2u/image_generations_are_failing_no_matter_what/",
-          "signal": "Image generations are failing no matter what?"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: Tips and Tricks",
-        "Using ChatGPT for Graphic Design: A Beginner's Guide"
+        "How to Use Fable 5 for Business Automation",
+        "Fable 5 Tutorial for Beginners",
+        "10 Fable 5 Secrets You Need to Know"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT Image Generation Failing",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upnn2u/image_generations_are_failing_no_matter_what/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uqex81/chatgpt_deleted/"
         }
       ],
-      "content_opportunity": "How to Fix ChatGPT Image Generation Issues"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
     },
     {
-      "problem": "AI Token Costs",
-      "who_affected": "AI users and developers",
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators and marketers",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-0HRzXk8vlk"
+          "platform": "hackernews",
+          "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat"
         }
       ],
-      "content_opportunity": "Understanding AI Token Costs and How to Reduce Them"
+      "content_opportunity": "How to Detect and Avoid AI-Generated Content"
     }
   ],
   "tool_of_week_candidate": "ChatGPT"
