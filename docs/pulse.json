@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T08:45:27.744782+00:00",
+  "generated_at": "2026-07-08T14:42:13.511338+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,375 +8,412 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 38,
+      "reddit": 50,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "Krea 2",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can revolutionize your content creation workflow.",
+      "what_it_is": "Krea 2 is an AI model for generating high-resolution images.",
+      "audience_angle": "You can use Krea 2 to create stunning images with ease.",
+      "linkedin_angle": "Boost your productivity with Krea 2's advanced image generation capabilities.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "Krea 2 has an affiliate program for promoters."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1uq1hz0/krea_2_identity_edit_lora/",
+          "signal": "40"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
-          "signal": "How to Use Veo 3.1 FREE Unlimited! Free Image to Video Generator"
+          "platform": "hackernews",
+          "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+          "signal": "493"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Content Creators",
-        "Unlocking the Power of ChatGPT's Image Generation Feature"
+        "How to use Krea 2 for generating high-resolution images",
+        "Krea 2 vs other AI image generation tools",
+        "Making money with Krea 2: a beginner's guide"
       ]
     },
     {
-      "name": "Veo 3.1 Free Unlimited",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Veo 3.1 is a free, unlimited image and video generation tool.",
-      "audience_angle": "Get unlimited image and video generation with Veo 3.1, absolutely free.",
-      "linkedin_angle": "Discover how Veo 3.1 can streamline your content creation process without breaking the bank.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Veo 3.1 has an affiliate program for its free, unlimited plan."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
-          "signal": "How to Use Veo 3.1 FREE Unlimited! Free Image to Video Generator"
-        }
-      ],
-      "content_ideas": [
-        "Veo 3.1 Review: Is the Free, Unlimited Plan Too Good to Be True?",
-        "How to Get the Most Out of Veo 3.1's Free, Unlimited Image and Video Generation",
-        "Veo 3.1 vs ChatGPT: Which Free, Unlimited Image and Video Generation Tool Reigns Supreme?"
-      ]
-    },
-    {
-      "name": "ChatGPT 5.5",
+      "name": "ChatGPT",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT 5.5 is the latest version of the popular AI chatbot.",
-      "audience_angle": "Experience the latest and greatest in AI chatbot technology with ChatGPT 5.5.",
-      "linkedin_angle": "Discover how ChatGPT 5.5 can revolutionize your business's customer service and support.",
+      "what_it_is": "ChatGPT is a conversational AI model for generating human-like text.",
+      "audience_angle": "You can use ChatGPT to automate tasks and generate content.",
+      "linkedin_angle": "Improve your productivity with ChatGPT's advanced text generation capabilities.",
       "local_relevance": 9,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its chatbot services."
+        "note": "ChatGPT has an affiliate program for promoters."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uq3kux/chatgpt_55_is_playing_the_devil_on_my_shoulder/",
-          "signal": "ChatGPT 5.5 is playing the devil on my shoulder."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MKze-KxEt5g",
-          "signal": "10 ChatGPT Secrets I Wish I Knew Sooner"
+          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "ChatGPT 5.5 Review: What's New and What's Improved?",
-        "How to Get the Most Out of ChatGPT 5.5 for Your Business",
-        "ChatGPT 5.5 vs Previous Versions: Is the Latest Version Worth the Upgrade?"
+        "How to use ChatGPT for generating content",
+        "ChatGPT vs other conversational AI models",
+        "Making money with ChatGPT: a beginner's guide"
       ]
     },
     {
-      "name": "Claude Fable 5",
+      "name": "Veo 3.1",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude Fable 5 is a powerful AI tool for content creation and automation.",
-      "audience_angle": "Take your content creation to the next level with Claude Fable 5.",
-      "linkedin_angle": "Discover how Claude Fable 5 can streamline your content creation workflow and boost productivity.",
+      "what_it_is": "Veo 3.1 is a free unlimited image to video generator.",
+      "audience_angle": "You can use Veo 3.1 to generate stunning videos with ease.",
+      "linkedin_angle": "Boost your productivity with Veo 3.1's advanced video generation capabilities.",
       "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Veo 3.1 has an affiliate program for promoters."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use Veo 3.1 for generating videos",
+        "Veo 3.1 vs other video generation tools",
+        "Making money with Veo 3.1: a beginner's guide"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "AI agents are programs that use AI to perform tasks.",
+      "audience_angle": "You can use AI agents to automate tasks and improve productivity.",
+      "linkedin_angle": "Improve your productivity with AI agents.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for its content creation and automation tools."
+        "note": "AI agents have affiliate programs for promoters."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+          "signal": "493"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=83fWzQSWB10",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use AI agents for automating tasks",
+        "AI agents vs other automation tools",
+        "Making money with AI agents: a beginner's guide"
+      ]
+    },
+    {
+      "name": "Fable 5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Fable 5 is an AI model for generating content.",
+      "audience_angle": "You can use Fable 5 to generate stunning content with ease.",
+      "linkedin_angle": "Boost your productivity with Fable 5's advanced content generation capabilities.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Fable 5 has an affiliate program for promoters."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
-          "signal": "Claude Fable 5 Use Cases You Must Do NOW (Or Lose Thousands in 1 Week)"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 Review: Is This AI Tool Worth the Investment?",
-        "How to Get Started with Claude Fable 5 for Content Creation and Automation",
-        "Claude Fable 5 vs ChatGPT: Which AI Tool Reigns Supreme for Content Creation?"
+        "How to use Fable 5 for generating content",
+        "Fable 5 vs other content generation tools",
+        "Making money with Fable 5: a beginner's guide"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "technique",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technique for creating videos using artificial intelligence.",
-      "audience_angle": "Create stunning videos with just a few clicks using AI video generation techniques.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your video marketing strategy.",
+      "what_it_is": "Claude is an AI model for generating content.",
+      "audience_angle": "You can use Claude to generate stunning content with ease.",
+      "linkedin_angle": "Boost your productivity with Claude's advanced content generation capabilities.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for their services."
+        "note": "Claude has an affiliate program for promoters."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2-SxbgsVn8s",
-          "signal": "AI Video Generator: One Screenshot to Drama with CapCut PC | Seedance 2.5"
+          "url": "https://www.youtube.com/watch?v=REr6ZHLwhpI",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation Techniques",
-        "AI Video Generation: The Future of Video Marketing?",
-        "The Best AI Video Generation Tools for Beginners and Professionals Alike"
-      ]
-    },
-    {
-      "name": "AI for Business",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI for business refers to the use of artificial intelligence in business applications.",
-      "audience_angle": "Discover how AI can revolutionize your business and boost productivity.",
-      "linkedin_angle": "Learn how to leverage AI for business to stay ahead of the competition.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI for business tools and services often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ws0fI-X1xjg",
-          "signal": "Don’t waste 2026 on the Wrong Career (AI Engineer vs ML Engineer vs Data Scientist)"
-        }
-      ],
-      "content_ideas": [
-        "How to Get Started with AI for Business: A Beginner's Guide",
-        "The Top AI for Business Tools and Services for 2026",
-        "AI for Business: The Future of Entrepreneurship and Innovation"
+        "How to use Claude for generating content",
+        "Claude vs other content generation tools",
+        "Making money with Claude: a beginner's guide"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Veo 3.1 Free Unlimited",
+      "name": "Krea 2",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "reddit",
+        "hackernews"
       ],
-      "what_it_is": "Veo 3.1 is a free, unlimited image and video generation tool.",
-      "audience_angle": "Get unlimited image and video generation with Veo 3.1, absolutely free.",
-      "linkedin_angle": "Discover how Veo 3.1 can streamline your content creation process without breaking the bank.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Veo 3.1 has an affiliate program for its free, unlimited plan."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
-          "signal": "How to Use Veo 3.1 FREE Unlimited! Free Image to Video Generator"
-        }
-      ],
-      "content_ideas": [
-        "Veo 3.1 Review: Is the Free, Unlimited Plan Too Good to Be True?",
-        "How to Get the Most Out of Veo 3.1's Free, Unlimited Image and Video Generation",
-        "Veo 3.1 vs ChatGPT: Which Free, Unlimited Image and Video Generation Tool Reigns Supreme?"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude Fable 5 is a powerful AI tool for content creation and automation.",
-      "audience_angle": "Take your content creation to the next level with Claude Fable 5.",
-      "linkedin_angle": "Discover how Claude Fable 5 can streamline your content creation workflow and boost productivity.",
-      "local_relevance": 7,
+      "what_it_is": "Krea 2 is an AI model for generating high-resolution images.",
+      "audience_angle": "You can use Krea 2 to create stunning images with ease.",
+      "linkedin_angle": "Boost your productivity with Krea 2's advanced image generation capabilities.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable 5 has an affiliate program for its content creation and automation tools."
+        "note": "Krea 2 has an affiliate program for promoters."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1uq1hz0/krea_2_identity_edit_lora/",
+          "signal": "40"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+          "signal": "493"
+        }
+      ],
+      "content_ideas": [
+        "How to use Krea 2 for generating high-resolution images",
+        "Krea 2 vs other AI image generation tools",
+        "Making money with Krea 2: a beginner's guide"
+      ]
+    },
+    {
+      "name": "Veo 3.1",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Veo 3.1 is a free unlimited image to video generator.",
+      "audience_angle": "You can use Veo 3.1 to generate stunning videos with ease.",
+      "linkedin_angle": "Boost your productivity with Veo 3.1's advanced video generation capabilities.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Veo 3.1 has an affiliate program for promoters."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use Veo 3.1 for generating videos",
+        "Veo 3.1 vs other video generation tools",
+        "Making money with Veo 3.1: a beginner's guide"
+      ]
+    },
+    {
+      "name": "Fable 5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Fable 5 is an AI model for generating content.",
+      "audience_angle": "You can use Fable 5 to generate stunning content with ease.",
+      "linkedin_angle": "Boost your productivity with Fable 5's advanced content generation capabilities.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Fable 5 has an affiliate program for promoters."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lplVBFr0Ndc",
-          "signal": "Claude Fable 5 Use Cases You Must Do NOW (Or Lose Thousands in 1 Week)"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Claude Fable 5 Review: Is This AI Tool Worth the Investment?",
-        "How to Get Started with Claude Fable 5 for Content Creation and Automation",
-        "Claude Fable 5 vs ChatGPT: Which AI Tool Reigns Supreme for Content Creation?"
+        "How to use Fable 5 for generating content",
+        "Fable 5 vs other content generation tools",
+        "Making money with Fable 5: a beginner's guide"
       ]
     },
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can revolutionize your content creation workflow.",
+      "what_it_is": "ChatGPT is a conversational AI model for generating human-like text.",
+      "audience_angle": "You can use ChatGPT to automate tasks and generate content.",
+      "linkedin_angle": "Improve your productivity with ChatGPT's advanced text generation capabilities.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for promoters."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT for generating content",
+        "ChatGPT vs other conversational AI models",
+        "Making money with ChatGPT: a beginner's guide"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude is an AI model for generating content.",
+      "audience_angle": "You can use Claude to generate stunning content with ease.",
+      "linkedin_angle": "Boost your productivity with Claude's advanced content generation capabilities.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "Claude has an affiliate program for promoters."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
-          "signal": "How to Use Veo 3.1 FREE Unlimited! Free Image to Video Generator"
+          "url": "https://www.youtube.com/watch?v=REr6ZHLwhpI",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Content Creators",
-        "Unlocking the Power of ChatGPT's Image Generation Feature"
-      ]
-    },
-    {
-      "name": "ChatGPT 5.5",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT 5.5 is the latest version of the popular AI chatbot.",
-      "audience_angle": "Experience the latest and greatest in AI chatbot technology with ChatGPT 5.5.",
-      "linkedin_angle": "Discover how ChatGPT 5.5 can revolutionize your business's customer service and support.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its chatbot services."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uq3kux/chatgpt_55_is_playing_the_devil_on_my_shoulder/",
-          "signal": "ChatGPT 5.5 is playing the devil on my shoulder."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MKze-KxEt5g",
-          "signal": "10 ChatGPT Secrets I Wish I Knew Sooner"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT 5.5 Review: What's New and What's Improved?",
-        "How to Get the Most Out of ChatGPT 5.5 for Your Business",
-        "ChatGPT 5.5 vs Previous Versions: Is the Latest Version Worth the Upgrade?"
+        "How to use Claude for generating content",
+        "Claude vs other content generation tools",
+        "Making money with Claude: a beginner's guide"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
+      "problem": "ChatGPT usage limits hitting users hard",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uqgi2p/cant_generate_copyright_images_then_explain_this/"
         }
       ],
-      "content_opportunity": "How to Work Around ChatGPT Usage Limits and Token Limits"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     },
     {
-      "problem": "AI-generated content quality issues",
-      "who_affected": "Content creators and businesses",
-      "signal_strength": 5,
+      "problem": "Difficulty in using AI models for generating high-resolution images",
+      "who_affected": "AI enthusiasts",
+      "signal_strength": 7,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MKze-KxEt5g"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1uq9v2d/krea2_is_the_very_first_ai_which_i_see_capable_of/"
         }
       ],
-      "content_opportunity": "How to Improve AI-Generated Content Quality for Your Business"
+      "content_opportunity": "How to use AI models for generating high-resolution images"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT 5.5"
+  "tool_of_week_candidate": "Krea 2"
 }
