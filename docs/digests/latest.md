@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
 6. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
-7. **When Patients Arrive With AI Diagnoses - Medscape** — science angle
+7. **Most nurses say AI isn't good enough to trust with patient care, survey finds** — 8 upvotes on Reddit/HN
+   https://www.washingtonpost.com/technology/2026/07/07/most-nurses-say-ai-isnt-good-enough-trust-with-patient-care-survey/
+8. **When Patients Arrive With AI Diagnoses - Medscape** — science angle
    https://news.google.com/rss/articles/CBMiiwFBVV95cUxORFFNU3J4QjJpYjl0Y3o4MVpweVRqYjFDeUFfSzc0MEl4MjJ5NVR3dDd0U1hvTWJrRXZvc0psWUpXdDNzd2NQaENSZlZVN01Bc0dXOFRJakFXdlNGenU0U2xjS1lwdk5zVTBwTy10T0xhcGlOeHk0WVBsR1J6Wm01aUY5N3pKZEZXcVpN?oc=5
-8. **CNY doctors say AI helps save time to focus on patients - WSYR** — science angle
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxNYmpUUUtUeWhvZzJtUGJRTjJDRmMycS12d3pOVlN3SHFCQ0xNMks1c0xMRm1fQ0V5SURJaTUxQnZSU2NoVVRTVTJBdjJnQmc3bE41Y0c0Zm4zSFhjY0hPOHRXX3gyV2hDUTgzc0hSVkNSdzlyVGRhX0F3anBpa2dKbTh1X2pITllqb3ZaaXhwbExKU2M5Uk1Rd2NfNkR6alo3THp0b1l30gGrAUFVX3lxTE5XVllMUG1YU0ZkUncwSXdrcGdXaWx1ZXA3Szl2XzFYRFF5RE1JR2VQVHNPc18yNXlPVXNxUTQzb0tlcTNzQVYwdlBObHB2RmlCQVh3N0pHd20xWGpud3l3VnhJdFZidVdSajJYWDZNLW9oaEdkLUpoN2d3RnYyS1kxMlRsZXg3Qng5UkRULVhNMWVKRHU4dlpCZV9pRE5icnRDM0txTGRLT0Nxcw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 63
@@ -31,14 +31,14 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
    https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
 3. **Meta unveils Muse Image as Zuckerberg escalates AI race against OpenAI, Google - Business News Nigeria** — Meta AI News — Score 58
    https://news.google.com/rss/articles/CBMi8wFBVV95cUxQU3ZMVlJzTWszNUtmSGR4enhtWDRIc3FJSjU3OWJXU3NNQWR2ZGg1MjNVNzRWRUxuSVFDeFBSNEhuaE9YWkh1c2lEVDZBdHBlVlJUcFJreFgzRnNpNmRWaWFxSnE4Sko3OHBzeFhCUnBKV29KcjRCeXBhRDRiMzlZakJjVVhMMlRTM0R4MF9jR1JsemtuOXhOZEZkdXk3SGRpMjVyZjJtLUI2RzJWUzd3ZWZUMk9wZk56TWMzYkZVZk5VSnVnUXdmdkJ0b3RLNW1oY3RvMnRVMUU1b2JYYjYyd2tPcHJBQ2Z1VDluNmlxTmRwejA?oc=5
-4. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
-   https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
-5. **AI is already reshaping US politics at every level** — arcamax — Score 53
-   https://www.arcamax.com/newsheadlines/s-4244522
-6. **MemeToro Launches BNB AI Agent for Fair-Launch Memecoin Creation and On-Chain Prediction Markets - Carroll County Mirror-Democrat** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0g4el9WeGF3WVhhdEh2Rk92RmJUYWJhWnV3ZFk2YjllZ1I1WjNUc2hiX2pEdXl2UDU0SERBM1pOUE9GNFRKcHJoRERhaFZHV051NExDV1B5WVNDbmJnNXZZU1ZzMlRIS3lyR01QYUVGZUdTTXd4M21hVFpLdXpuREtySjhldFBlS2w2TGxBQ2h1YVZBQTFDUmhra0RsWFdkdnZkYTdDN1BIZTZkYV9CdktzYXlSOEk?oc=5
-7. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 48
+4. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 58
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5
+5. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
+   https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
+6. **AI is already reshaping US politics at every level** — arcamax — Score 53
+   https://www.arcamax.com/newsheadlines/s-4244522
+7. **MemeToro Launches BNB AI Agent for Fair-Launch Memecoin Creation and On-Chain Prediction Markets - Carroll County Mirror-Democrat** — AI Agents — Score 48
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0g4el9WeGF3WVhhdEh2Rk92RmJUYWJhWnV3ZFk2YjllZ1I1WjNUc2hiX2pEdXl2UDU0SERBM1pOUE9GNFRKcHJoRERhaFZHV051NExDV1B5WVNDbmJnNXZZU1ZzMlRIS3lyR01QYUVGZUdTTXd4M21hVFpLdXpuREtySjhldFBlS2w2TGxBQ2h1YVZBQTFDUmhra0RsWFdkdnZkYTdDN1BIZTZkYV9CdktzYXlSOEk?oc=5
 8. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 47
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
 9. **Deputy fired after receiving cyber tip accused of using AI to generate nude images - KOTA Territory News** — Using AI To... — Score 46
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2970
+- Total stories tracked: 2982
 - Most active topic: show
 - Busiest category: AI General News
 
