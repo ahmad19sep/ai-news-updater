@@ -21,15 +21,15 @@ All coverage: https://www.emporiagazette.com/online_features/press_releases/arti
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
 7. **AI has taken over prescription refills in Utah. Some doctors are wary - AOL.com** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNclhLVlcwa1FBMEhPLWJ5T0x2Rk94Sy0yWkl5SFZmcHVjRU42V0FQLUV3V0dBeVJXMHp6cExqcTFnVnBRVGJwY3pHdkFTTVdiNGVuQ1NSeExwS2tLbGJNWHFtNktSRWVzSnA3T19ra3dpWHczNGxwcjhUS1dIa3NOM1VoTHA?oc=5
-8. **AI taking over prescription refills? Utah's new program sparks concern among doctors - Firstpost** — science angle
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxOa0ZCYUlWb0NWNmdrRFd1ak1Zd2tZdklLdnJ6clk4V0RnUDluWEdlR3IyeVV3ejNhU3dIcEhjbjIxa0dhcDNoR2syMXJjbGYydU1iNW1temw2MmJISGlrTWFVWXBRUlN2eklQZUQ2bzNSUWhFX21rYlBBUHRjT0ZTaUdPbGZlRy1QMmhoQUNqVjcyRU9XcjJOYkpDRHhPWUxGZFFTVlgwTmxINElQV1BKb0FBVUhnU1JwRE9Ma184c2pOWTJ3dHfSAcsBQVVfeXFMT3FRN1N1emg0bmNRbU5sYkVNY3FNb1VVNm9nc1pnSC04OGV4VWg2X3hFenVsRE9fRkw3dXFXSDlIQU15N0diWjJLQVFESUYxOWZDdHBoYVRDc1JpcEk3UUF5LThKUjQzTFpnd2YtdWVOM19oZjhEV2xnZ3IzOHhOTjNhTF9wY2tsOVkybXZQVkJvbWtTdWp6R2JyRTZGamxid3RVdTFTR1ZOTW9NSGthb3h5ck1HUVk0N1QxRlBoeW80NWpfZkM3cm9zRVU?oc=5
+8. **Is AI ready to take over your prescriptions? Some doctors are wary - KTVQ** — science angle
+   https://news.google.com/rss/articles/CBMixgFBVV95cUxPVUhIdVJoTkV0ZW5tSFBPa2p0eTFNWTRHWkt0NmgtZjhfc01QYVZGbnJmTVJpbzRMU3ktX0NHTFVUdFdKdGMtbTRkYWhCbHF5RC1CS09GOEpDanVwdnRVM1dPbWM5MmlBejVSRFZIODZiRXhPZ1haQTVOLTRKOGh0dkhWQ0xNWlZ2ZGFCVGtOOFQ2RnJ2UEhVSWxGeWVIRk5qQmdpV1MzNlNKTlE5eWY2OHk3OXJqR29LN0JxVENIbHF5YUF1Unc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI in Healthcare Market to Reach $194.79 Billion by 2031, Fueled by Rapid Digital Transformation and Global Policy Support** — emporiagazette — Score 73
    https://www.emporiagazette.com/online_features/press_releases/article_ca570727-3c76-54d1-9fc5-a8659467c2de.html
 2. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 66
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZW1sX2lWU1Rlc3RGZW8tUi1YZFlNMVdSS3dvcUxKc0JscDVGYXREMjFHOXd2eDRTQm9WaHNmLVNORlhkNDVPUU8tRjlPdHdIZmtuaGlzeEoxT2NjcFliNmcxMEF6bG9nMU5qcVNYZ08xc0RGV3FxbW1CMzlRYmlqRTM1WFV4UEQ2TGlVY2RQYnVnTm54a0dxeDFkUUNORDFjYS1p?oc=5
-3. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — AI in Health — Score 61
+3. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — AI in Health — Score 58
    https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
 4. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
    https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
@@ -54,7 +54,7 @@ All coverage: https://www.emporiagazette.com/online_features/press_releases/arti
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2902
+- Total stories tracked: 2969
 - Most active topic: models
 - Busiest category: AI General News
 
