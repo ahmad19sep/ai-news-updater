@@ -29,22 +29,22 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZW1sX2lWU1Rlc3RGZW8tUi1YZFlNMVdSS3dvcUxKc0JscDVGYXREMjFHOXd2eDRTQm9WaHNmLVNORlhkNDVPUU8tRjlPdHdIZmtuaGlzeEoxT2NjcFliNmcxMEF6bG9nMU5qcVNYZ08xc0RGV3FxbW1CMzlRYmlqRTM1WFV4UEQ2TGlVY2RQYnVnTm54a0dxeDFkUUNORDFjYS1p?oc=5
 2. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — AI in Health — Score 58
    https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
-3. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
-   https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
-4. **AI is already reshaping US politics at every level** — arcamax — Score 53
-   https://www.arcamax.com/newsheadlines/s-4244522
-5. **MemeToro Launches BNB AI Agent for Fair-Launch Memecoin Creation and On-Chain Prediction Markets - Carroll County Mirror-Democrat** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0g4el9WeGF3WVhhdEh2Rk92RmJUYWJhWnV3ZFk2YjllZ1I1WjNUc2hiX2pEdXl2UDU0SERBM1pOUE9GNFRKcHJoRERhaFZHV051NExDV1B5WVNDbmJnNXZZU1ZzMlRIS3lyR01QYUVGZUdTTXd4M21hVFpLdXpuREtySjhldFBlS2w2TGxBQ2h1YVZBQTFDUmhra0RsWFdkdnZkYTdDN1BIZTZkYV9CdktzYXlSOEk?oc=5
-6. **Meta unveils Muse Image as Zuckerberg escalates AI race against OpenAI, Google - Business News Nigeria** — Meta AI News — Score 48
+3. **Meta unveils Muse Image as Zuckerberg escalates AI race against OpenAI, Google - Business News Nigeria** — Meta AI News — Score 58
    https://news.google.com/rss/articles/CBMi8wFBVV95cUxQU3ZMVlJzTWszNUtmSGR4enhtWDRIc3FJSjU3OWJXU3NNQWR2ZGg1MjNVNzRWRUxuSVFDeFBSNEhuaE9YWkh1c2lEVDZBdHBlVlJUcFJreFgzRnNpNmRWaWFxSnE4Sko3OHBzeFhCUnBKV29KcjRCeXBhRDRiMzlZakJjVVhMMlRTM0R4MF9jR1JsemtuOXhOZEZkdXk3SGRpMjVyZjJtLUI2RzJWUzd3ZWZUMk9wZk56TWMzYkZVZk5VSnVnUXdmdkJ0b3RLNW1oY3RvMnRVMUU1b2JYYjYyd2tPcHJBQ2Z1VDluNmlxTmRwejA?oc=5
-7. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 47
+4. **Southeast Asia’s First AIGC Creation Ecosystem Platform – Omirol Launched, Partnering with China’s V Valley Industrial Chain to Build a New China–Malaysia AI Landscape** — forevernews_in — Score 53
+   https://www.forevernews.in/media-outreach/southeast-asias-first-aigc-creation-ecosystem-platform-omirol-launched-partnering-with-chinas-v-valley-industrial-chain-to-build-a-new-china-malaysia-ai-landscape-898694
+5. **AI is already reshaping US politics at every level** — arcamax — Score 53
+   https://www.arcamax.com/newsheadlines/s-4244522
+6. **MemeToro Launches BNB AI Agent for Fair-Launch Memecoin Creation and On-Chain Prediction Markets - Carroll County Mirror-Democrat** — AI Agents — Score 48
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0g4el9WeGF3WVhhdEh2Rk92RmJUYWJhWnV3ZFk2YjllZ1I1WjNUc2hiX2pEdXl2UDU0SERBM1pOUE9GNFRKcHJoRERhaFZHV051NExDV1B5WVNDbmJnNXZZU1ZzMlRIS3lyR01QYUVGZUdTTXd4M21hVFpLdXpuREtySjhldFBlS2w2TGxBQ2h1YVZBQTFDUmhra0RsWFdkdnZkYTdDN1BIZTZkYV9CdktzYXlSOEk?oc=5
+7. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 48
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5
+8. **AI hiring outpaces overall IT recruitment in India, report shows - Reuters** — AI Jobs S Asia — Score 47
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
-8. **Deputy fired after receiving cyber tip accused of using AI to generate nude images - KOTA Territory News** — Using AI To... — Score 46
+9. **Deputy fired after receiving cyber tip accused of using AI to generate nude images - KOTA Territory News** — Using AI To... — Score 46
    https://news.google.com/rss/articles/CBMisAFBVV95cUxPNGFtZS15el9Mbi04WUdkU2x1UEJ3YVMtXzFFcFFYcEdubmJMeWVVLU9TdGxIT2xNb3BEMEg1aHpKb2U3UVhOam0yMVc4NHZsbzdUTWVTREdzV0NtMXM1QkVzRWZVVTVUbHlzN1FGSHMxUmVGa2xJLXV4UUYwVEcyMkFGb19fNXVkZWdHVUlWM181MEZGOC1EZEZxUHVJbjBUZTU5WW4xUTJobUdtbFc4S9IBxAFBVV95cUxPLW5TNnFacUJlUHV1SE1UTE1veHhVdzgycmdjQVdpS3RxTVJpM2RocGtobkktNzFBeGdJbHlEM013MHV1VW0zZGxSRnVzUTJXWlpoNDJwbHFESmFpV29lcFRvOWlCMmpXUFdxczJ3U19qYlZ2cnZIc1RNRVBxeUMtT2Zpc2hEN1N3ZWNtUjc3aG5ua2g5c2h6Nml0Y0dSUUN1eTNFMVpCdDFwNG15RzRXM24yOHRPakVjdW14OGs5UHhMeHpP?oc=5
-9. **New Studio Picks Up Sam Altman Movie After Amazon MGM Dumped It - PCMag UK** — Sam Altman News — Score 43
+10. **New Studio Picks Up Sam Altman Movie After Amazon MGM Dumped It - PCMag UK** — Sam Altman News — Score 43
    https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjVNcXVPTjZ1TjRtdl9HVmJKYXdGVEVTNll6Tm5OVnlHZ3pLRGJWTzB1ZXQ4dGQ5UC1HdzlqMzRqR0QyOG4yeFU5MEJVaDJaajZDWVdZbHZpbFBINVQwbDN6N1ZBTlk1cEthcHlJUU1PNXp0OE4wZTBlVExiOVgyTWxVTGxWVGpKZEFXVkZxYk5nTEkzejVWTDIyVjh0Nm9V?oc=5
-10. **Second Front and Cohere Successfully Deploy Sovereign AI Infrastructure in UAE - FinancialContent** — Cohere News — Score 43
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY3hoNFlDUjg3YkRqd09LakUxM05Pd0k1Z3ZKcWtlZk9rYU14dzZwRmRqVlpqWWx6R0pSRkRXVWVJVWRzbnpDNU45UVB5YkdvaXJXTmxWV2ZQTFlsQ2VPbmdRYmc3VFdDTDVpMlNlcUpwWjdzVmI1T3NSc251OGVvLXY3YmNLbFU5V0hWczdaYWtvUWN3d0pFN01yS3dxaFN3eUhnVmxBT3Q3SEh5ZG1YbmtJeXNHN2J1clF6UjlpV1p4YkotNVdES2p4V09HbjRLOHJWOW9nNk1vcENWV0VuNQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2964
+- Total stories tracked: 3010
 - Most active topic: show
 - Busiest category: AI General News
 
