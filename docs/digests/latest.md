@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzN3S05KWUZNTnRhZDdUcERXbjBQT09sUXd1MzVWTk5mdFRwU2VXMzFwWE80SHRFZzFmSTVKbkhqS3UxZXp4ckZ2UFdiOUtnUi1lbTl2QUc2Y2ZxelUxMWkzTUswTGlGUnFiWG15TC1kcnV1dm5qSU5xWnA3N2Qwb0RWZk1RZ19fU0huNGxneUYzaHB4bkd3X2ZjT2JJTEJacG0xbHllRmVncDBr?oc=5
 9. **Deputy fired after receiving cyber tip accused of using AI to generate nude images - KOTA Territory News** — Using AI To... — Score 46
    https://news.google.com/rss/articles/CBMisAFBVV95cUxPNGFtZS15el9Mbi04WUdkU2x1UEJ3YVMtXzFFcFFYcEdubmJMeWVVLU9TdGxIT2xNb3BEMEg1aHpKb2U3UVhOam0yMVc4NHZsbzdUTWVTREdzV0NtMXM1QkVzRWZVVTVUbHlzN1FGSHMxUmVGa2xJLXV4UUYwVEcyMkFGb19fNXVkZWdHVUlWM181MEZGOC1EZEZxUHVJbjBUZTU5WW4xUTJobUdtbFc4S9IBxAFBVV95cUxPLW5TNnFacUJlUHV1SE1UTE1veHhVdzgycmdjQVdpS3RxTVJpM2RocGtobkktNzFBeGdJbHlEM013MHV1VW0zZGxSRnVzUTJXWlpoNDJwbHFESmFpV29lcFRvOWlCMmpXUFdxczJ3U19qYlZ2cnZIc1RNRVBxeUMtT2Zpc2hEN1N3ZWNtUjc3aG5ua2g5c2h6Nml0Y0dSUUN1eTNFMVpCdDFwNG15RzRXM24yOHRPakVjdW14OGs5UHhMeHpP?oc=5
-10. **New Studio Picks Up Sam Altman Movie After Amazon MGM Dumped It - PCMag UK** — Sam Altman News — Score 43
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjVNcXVPTjZ1TjRtdl9HVmJKYXdGVEVTNll6Tm5OVnlHZ3pLRGJWTzB1ZXQ4dGQ5UC1HdzlqMzRqR0QyOG4yeFU5MEJVaDJaajZDWVdZbHZpbFBINVQwbDN6N1ZBTlk1cEthcHlJUU1PNXp0OE4wZTBlVExiOVgyTWxVTGxWVGpKZEFXVkZxYk5nTEkzejVWTDIyVjh0Nm9V?oc=5
+10. **Second Front and Cohere Successfully Deploy Sovereign AI Infrastructure in UAE - FinancialContent** — Cohere News — Score 43
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY3hoNFlDUjg3YkRqd09LakUxM05Pd0k1Z3ZKcWtlZk9rYU14dzZwRmRqVlpqWWx6R0pSRkRXVWVJVWRzbnpDNU45UVB5YkdvaXJXTmxWV2ZQTFlsQ2VPbmdRYmc3VFdDTDVpMlNlcUpwWjdzVmI1T3NSc251OGVvLXY3YmNLbFU5V0hWczdaYWtvUWN3d0pFN01yS3dxaFN3eUhnVmxBT3Q3SEh5ZG1YbmtJeXNHN2J1clF6UjlpV1p4YkotNVdES2p4V09HbjRLOHJWOW9nNk1vcENWV0VuNQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZ
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3010
+- Total stories tracked: 2970
 - Most active topic: show
 - Busiest category: AI General News
 
