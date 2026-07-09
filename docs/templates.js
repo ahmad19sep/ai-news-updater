@@ -80,7 +80,7 @@ window.HUMAN_IMAGE_BODY = [
 "13. SOCIAL-POST QUOTE CARD — the key line presented as a clean rounded social-post card floating on a flat bold background: small round avatar circle, name + handle, the quote/fact in large text inside the card, light drop shadow. Use Ahmad's avatar/name ONLY for Ahmad's own takes — never fabricate a post screenshot from a real person. Best for hot takes, one-line truths, striking stats.",
 "STEP 3 — write ONE detailed image prompt for the chosen format: the exact realistic scene (real people, real office/lab/podium/product, natural lighting, realistic shadows and textures — like a designer composed it in Photoshop/Figma, NOT an AI poster: no sci-fi glow, no glowing circuits, no floating holograms, no random symbols), the exact layout placement, ONE accent color, and clean modern editorial typography with proper spacing.",
 "ACCENT COLOR: pick ONE per poster and VARY it between posts — electric blue, red, yellow, or green; match the story's mood (red = drama/warning/leak, yellow = money/opportunity, blue = tech/product, green = growth/policy). Never more than one accent color on a poster.",
-"ALWAYS: vertical 4:5. Render the exact headline provided, word for word, spelled perfectly. Add ONE small, subtle footer line at the very bottom: 'Follow @aixahmad for more' — small, clean, never competing with the headline. No other text, no logos, no watermarks. Headline large and perfectly legible on a phone."
+"ALWAYS: vertical 4:5. Render the exact headline provided, word for word, spelled perfectly. Add ONE small, subtle footer line at the very bottom: 'Follow @aixahmad for more — like ❤️ & share' — small, clean, never competing with the headline. No other text, no logos, no watermarks. Headline large and perfectly legible on a phone."
 ].join("\n");
 /* every read of HUMAN_IMAGE re-rolls the assigned designer, so each prompt differs */
 Object.defineProperty(window, "HUMAN_IMAGE", {
@@ -421,6 +421,7 @@ window.buildNewsroomPrompt = function (o) {
 'BANNED phrases (sound like AI): game changer, revolutionising the future, unlock the power, next big thing, cutting-edge, seamless, transformative, "the future is here", "AI is changing everything", "this will disrupt every industry", leverage, harness, robust, paradigm shift, delve, dive in. Also avoid "It\'s not just X, it\'s Y" and rule-of-three lists.',
 'Where natural, add a light human angle/opinion (my take / the part people ignore / for builders this means).',
 'Use natural CTAs, not engagement bait.',
+'CTA RULE: every platform post EXCEPT Reddit must include, just before its final link/ending, one short natural line inviting people to follow @aixahmad plus a like/share nudge (vary the wording per platform — e.g. LinkedIn "follow + repost ♻️", Facebook "follow + like 👍 & share", X "follow @aixahmad — RT to help someone"). Never on Reddit — Reddit punishes engagement asks.',
 'Wherever the article link belongs, write the literal token [ARTICLE LINK].',
 '',
 'OUTPUT EXACTLY in the format below.',
@@ -503,23 +504,37 @@ window.HUMAN_VOICE,
 '[[GRAPHIC_TITLE]]',
 '(the big title that goes ON the graphic — max 10 words, benefit-first, e.g. "Get Gemini Pro Free in 3 Steps")',
 '[[SLIDES]]',
-'(a carousel of 5-8 slides for Instagram/TikTok photo-mode. Slide 1 = the hook cover (one bold line + one support line). Middle slides = ONE step/tip/idea each, max 20 words, numbered. Last slide = a soft close like "save this for later" + follow @aixahmad. Write as "Slide 1:", "Slide 2:" etc.)',
+'(a carousel of 5-8 slides for Instagram/TikTok photo-mode. Slide 1 = the hook cover (one bold line + one support line). Middle slides = ONE step/tip/idea each, max 20 words, numbered. Last slide = a soft close: "save this for later" + "follow @aixahmad" + "like ❤️ & share 🔁 if this helped". Write as "Slide 1:", "Slide 2:" etc.)',
 '[[INFOGRAPHIC_PROMPT]]',
-'(ONE image-generation prompt for a single 4:5 infographic that carries the WHOLE value on one image. Pick the layout that fits: numbered tip cards in a clean grid (white/cream background, small flat icons, 1-2 accent colors) / a mind-map with a dark title box left and colored branch boxes with example bullets / analogy rows pairing concept vs everyday thing / a left-vs-right comparison split / a big before-after with huge numbers. Style: clean flat editorial design like a human made it in Canva or Figma — generous spacing, short legible text, NO AI-gloss, NO sci-fi, NO logos/watermarks. Spell every word on the image EXACTLY. Include the [[GRAPHIC_TITLE]] as the heading, and one small footer strip at the bottom: "Follow @aixahmad for more AI tips".)',
+'(ONE detailed image-generation prompt for a single 4:5 infographic that carries the WHOLE value on one image.',
+'STEP A — pick ONE format from this library, the one whose SHAPE fits the content best. HARD RULE: never the format you would pick by default, and never the same format twice in a row — rotate through the whole library over time so no two graphics look alike:',
+'1. HUB & SPOKE — one central circle (topic icon) with arrows out to 4-6 bordered cards; each card = bold name + "Purpose:" one line + "Key features:" 2-3 ticked bullets + "Top uses:" 2-3 bullets + a bordered "Pro Tip:" strip at the card bottom with one quoted example. White background, thin black arrows, cards outlined in ONE accent color. Best for: tools/apps/modes overview.',
+'2. JOURNEY MAP — a numbered winding dotted path (1 → N) of rounded step cards on cream paper, light hand-drawn doodle style with one small illustrated character walking the path; each card = STEP NAME in caps + a short "DO THIS:" paragraph + a tiny highlighted "WHY IT WORKS:" footnote. Best for: multi-step systems, habit guides, 8-14 tips.',
+'3. COMPARISON TABLE — a real table: 3-4 columns with header cells (name + small colored icon, each column a different accent), left criteria column in caps (PURPOSE / STRENGTHS / HOW IT WORKS / BEST FOR / LIMITATIONS), alternating dark row shading, dark charcoal background. Best for: X vs Y vs Z verdicts.',
+'4. VS ROWS — bold statement poster: huge condensed title at top with ONE word in accent color, then 4-6 stacked pill rows each "[myth/bad thing] VS [truth/good thing]" with small icons both sides, dark editorial background. Best for: myth-busting, mindset shifts, contrarian takes.',
+'5. THEN → TODAY LADDER — two labeled columns ("Yesterday" / "Today" or "Old way" / "New way") with an arrow between each word pair, 8-10 rows, big playful title, one bold quote line at the bottom, paper-texture background. Best for: vocabulary shifts, behavior changes, evolution of a workflow.',
+'6. NUMBERED TIP GRID — 2-3 column grid of clean numbered cards, each card = number badge + 5-8 word tip + one support line, small flat icon per card, white/cream background, 1 accent color. Best for: 6-10 independent tips.',
+'7. MIND MAP — dark rounded title box on the left, colored branch lines to 4-6 topic boxes on the right, each branch box with 2-3 short example bullets, flat design. Best for: "types of X" and topic breakdowns.',
+'8. PROMPT CARD — one huge quoted prompt block center-stage in a bordered card (typewriter-style font), numbered heading above it ("1/ [what it does]"), minimal cream background, a "swipe →" or "save this ⤵" hint in the footer corners. Best for: sharing 1-3 copyable prompts.',
+'9. CHECKLIST SHEET — clipboard/checklist style: title band at top, 6-9 rows each with a big ✓ box + short item + one-line why, one row highlighted as "most people skip this", subtle grid paper background. Best for: steal-my-system checklists.',
+'10. DECISION TREE — "START HERE:" question box at top, yes/no arrows branching down to 4-6 outcome boxes each naming the answer + one line of reason, clean flat flowchart, white background. Best for: "which X should you pick" content.',
+'STEP B — vary the LOOK between posts: rotate background theme (white / cream paper / dark charcoal) and rotate the single accent color (electric blue / red / amber / green) to match the mood. Never reuse the previous post\'s theme+accent combo.',
+'STEP C — write the final prompt in full detail: the chosen format and layout placement, every text element word for word (spell EXACTLY, the graphic dies if a word is misspelled), the [[GRAPHIC_TITLE]] as the heading, background theme, accent color, and typography (clean modern editorial, generous spacing, short legible text). Style guard: must look like a human designer made it in Canva/Figma — NO AI-gloss, NO sci-fi glow, NO glowing circuits, NO robots, NO logos/watermarks. ALWAYS end the image with a footer strip: "Follow @aixahmad for more AI tips — like ❤️ & share 🔁".)',
+'CTA RULE — EVERY platform post below must END with a short, natural follow + like/share line (vary the wording per platform, never robotic, never skipped).',
 '[[INSTAGRAM]]',
-'(caption for the carousel/infographic: relatable hook line, 2-4 short simple lines on why this matters, "Save this so you don\'t lose it 🔖", 3-6 hashtags. Audience: students, young creators, freelancers.)',
+'(caption for the carousel/infographic: relatable hook line, 2-4 short simple lines on why this matters, "Save this so you don\'t lose it 🔖", then the closing line "Follow @aixahmad for daily AI tips — like ❤️ & share with a friend", then 3-6 hashtags. Audience: students, young creators, freelancers.)',
 '[[TIKTOK]]',
-'(caption for TikTok photo-mode/video: 1-2 casual hook lines in the simplest English ("nobody talks about this and it\'s free"), then 3-5 hashtags mixing niche + broad (#ai #aitools + topic tags). ALSO give: "On-screen text:" — the one line to overlay on the first frame.)',
+'(caption for TikTok photo-mode/video: 1-2 casual hook lines in the simplest English ("nobody talks about this and it\'s free"), end with "follow @aixahmad for more — like & share if this helped", then 3-5 hashtags mixing niche + broad (#ai #aitools + topic tags). ALSO give: "On-screen text:" — the one line to overlay on the first frame.)',
 '[[FACEBOOK]]',
-'(post for normal non-techy people: tell them like a friend — what this is, why it helps them or their kids/work, the 2-3 key steps or takeaways written out simply, then ONE easy question. "Share this with someone who needs it" is allowed here.)',
+'(post for normal non-techy people: tell them like a friend — what this is, why it helps them or their kids/work, the 2-3 key steps or takeaways written out simply, then ONE easy question. End with: "Follow AI x Ahmad for more — like 👍 and share this with someone who needs it".)',
 '[[LINKEDIN]]',
-'(first person, simple English: hook on the practical benefit, the value condensed into 3-5 short lines people can act on, "My take:" line, one genuine question. 80-140 words. No corporate words.)',
+'(first person, simple English: hook on the practical benefit, the value condensed into 3-5 short lines people can act on, "My take:" line, one genuine question. 80-140 words. No corporate words. End with: "Follow @aixahmad for practical AI — repost ♻️ if this was useful".)',
 '[[WHATSAPP]]',
-'(a short WhatsApp Channel message like you\'d send to a friends group: hook line with one emoji, the value in 3-5 ultra-short lines (the steps/tips themselves, not a teaser), then "Forward this to someone who needs it 📤" and one line "Follow the channel for daily AI tips". No hashtags.)',
+'(a short WhatsApp Channel message like you\'d send to a friends group: hook line with one emoji, the value in 3-5 ultra-short lines (the steps/tips themselves, not a teaser), then "Forward this to someone who needs it 📤" and one line "Follow the channel for daily AI tips 🔔". No hashtags.)',
 '[[YOUTUBE]]',
-'(a YouTube community post: curiosity first line, the key value in 2-4 simple lines, one easy question to answer in comments, and a soft "subscribe for more AI tips like this".)',
+'(a YouTube community post: curiosity first line, the key value in 2-4 simple lines, one easy question to answer in comments. End with: "Like 👍 & share this post — and subscribe for more AI tips like this".)',
 '[[X]]',
-'(TEXT-ONLY, no links: the single most useful insight from this, compressed — hook line, 2-4 value lines, end with an easy question or "bookmark this". Under 600 characters.)',
+'(TEXT-ONLY, no links: the single most useful insight from this, compressed — hook line, 2-4 value lines, an easy question or "bookmark this". Final line: "follow @aixahmad for more — RT to help someone". Under 600 characters.)',
 '[[END]]',
   ].filter(x => x !== null && x !== undefined).join('\n');
 };
@@ -536,6 +551,7 @@ window.buildSocialPrompt = function (o) {
     cfg.rules, "",
     window.HUMAN_VOICE, "",
     "Make it genuinely ENGAGING — a real hook that stops the scroll, not a press release. Simple words, one idea per line.",
+    "End the post with one short natural line: follow @aixahmad + a like/share nudge that fits the platform.",
     "Base everything ONLY on the story below — never invent facts, numbers, or quotes.", "",
     "STORY: " + (o.title || ""),
     (o.body ? "DETAILS: " + String(o.body).replace(/\s+/g, " ").slice(0, 500) : ""),
@@ -962,6 +978,7 @@ window.buildAnthropicWritePrompt = function (o) {
   head.push("- No copied phrasing or structure from another creator. Never invent facts, numbers, quotes, or personal experience.");
   head.push("- If a factual claim is uncertain, rewrite it as opinion or a general observation.");
   head.push("- If the input is weak, IMPROVE the idea instead of copying it.");
+  head.push('- When it fits within the 280 limit, end with a short follow CTA ("follow @aixahmad for more"); drop it only if it would push the post over the limit or kill a one-liner\'s punch.');
   head.push("- copy_risk = how close it is to copying a source; factuality_risk = how likely it states an unverified claim as fact. Keep both low.");
   head.push("");
   head.push("Produce the single BEST post, 2 backups (meaningfully different), and up to 5 all_options across different categories.");
