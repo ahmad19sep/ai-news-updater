@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJR
    https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
 5. **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
-6. **Myrtle Beach doctor launches AI-powered medical guidance website - WMBF** — science angle
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVViOWFkODV4ZVBnalJBZ2dRRGxSTEtiUFRJa0FtYnBDNlNtN0pieTFzZmJBSGpKYVloSURjMXRHbWlTelV0M2ZsWTNuNnplMXZWTWZuVW1xN25XV0xOMEVHRzB3d2FKQXF2TFhoZ2RYeVptQl9YRkF3UVBvSXRKdTQ2V1AxNTlwbnp4OVNDdGE0OXBCMDk4ci12VXB2YWs5UDhvRVVrRGEyU0E?oc=5
-7. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
+6. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
-8. **Most nurses say AI isn't good enough to trust with patient care, survey finds** — 8 upvotes on Reddit/HN
+7. **Most nurses say AI isn't good enough to trust with patient care, survey finds** — 8 upvotes on Reddit/HN
    https://www.washingtonpost.com/technology/2026/07/07/most-nurses-say-ai-isnt-good-enough-trust-with-patient-care-survey/
+8. **AI Mistakes Can Cost Doctors Time When Writing to Patients - Dartmouth** — science angle
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGpkSF9vNDluRjliSV9PLTdPWnNsUUp5d2JuSEdvb0VkT0xXT3FmRWdWamlzSWVqTzlUZUMyMTFNTkZGNlZ4TVEzUm0wN1lOOGt2UWlQaEY3TU5JaXUtU3JGMkJpZkxtZzJQSC1JeHZ2dDBsU0FFRV8yQzJHQkV1WUZvSGZiLVQtb1N5RmZHQUhXcW92YzRwZ092QQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 68
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJR
 - **NHS to use AI on its app to direct patients to appropriate services** — https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3116
+- Total stories tracked: 2996
 - Most active topic: show
 - Busiest category: AI General News
 
