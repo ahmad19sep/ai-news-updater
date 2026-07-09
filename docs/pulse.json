@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:03:48.612562+00:00",
+  "generated_at": "2026-07-09T15:35:20.611800+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -14,200 +14,188 @@
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "GPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a new version of the ChatGPT image generation tool.",
-      "audience_angle": "Create amazing images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your content creation and marketing strategy.",
+      "what_it_is": "GPT 5.6 is a new version of the GPT AI model.",
+      "audience_angle": "Learn how to use GPT 5.6 to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how GPT 5.6 can help you automate tasks and increase efficiency in your work.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "GPT 5.6 has an affiliate program for developers and users."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urfd4p/today_is_the_day_of_gpt56/",
+          "signal": "Today is the day of GPT-5.6!!!"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
+          "signal": "chatgpt 5.6"
+        }
+      ],
+      "content_ideas": [
+        "How to Use GPT 5.6 for Content Creation",
+        "GPT 5.6: The Future of AI-Powered Productivity",
+        "Maximizing Earnings with GPT 5.6: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0 and take your content to the next level.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for professional branding and marketing.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 offers affiliate opportunities for creators and marketers."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
-          "signal": "2025 Vs 2026 AI Tools"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for content creation",
-        "Top 5 features of ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 vs other image generation tools"
-      ]
-    },
-    {
-      "name": "GPT-Live",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "GPT-Live is a new generation of voice models for ChatGPT.",
-      "audience_angle": "Experience the latest advancements in voice technology with GPT-Live.",
-      "linkedin_angle": "Learn how GPT-Live can revolutionize your business communication and customer service.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-Live has an affiliate program for businesses and developers."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uqztym/introducing_gptlive_a_new_generation_of_voice/",
-          "signal": "Introducing GPT-Live, a new generation of voice models"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EAN5Cj347PY",
-          "signal": "This is the new ChatGPT Voice, powered by GPT-Live"
-        }
-      ],
-      "content_ideas": [
-        "How to use GPT-Live for business communication",
-        "GPT-Live vs other voice models",
-        "Top 5 benefits of using GPT-Live"
+        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide",
+        "ChatGPT Images 2.0: The Ultimate Tool for Social Media Content Creation",
+        "Monetizing ChatGPT Images 2.0: Turning Your Creations into Cash"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
-      "audience_angle": "Create stunning videos with the power of AI video generation.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing and branding strategy.",
-      "local_relevance": 9,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
+      "audience_angle": "Discover how to create stunning videos with AI and take your content to the next level.",
+      "linkedin_angle": "Learn how to leverage AI video generation for professional branding and marketing.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for content creators."
+        "note": "AI video generation tools often offer affiliate programs for creators and marketers."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1Cj44iznJEU",
-          "signal": "Top 5 FREE AI Video Generators 2026"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "ai video generation"
         }
       ],
       "content_ideas": [
-        "How to use AI video generation for marketing",
-        "Top 5 AI video generation tools",
-        "AI video generation vs traditional video creation"
+        "Getting Started with AI Video Generation: A Beginner's Guide",
+        "AI Video Generation: The Future of Content Creation",
+        "Monetizing AI Video Generation: Turning Your Creations into Cash"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "GPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a new version of the ChatGPT image generation tool.",
-      "audience_angle": "Create amazing images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your content creation and marketing strategy.",
+      "what_it_is": "GPT 5.6 is a new version of the GPT AI model.",
+      "audience_angle": "Learn how to use GPT 5.6 to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how GPT 5.6 can help you automate tasks and increase efficiency in your work.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "GPT 5.6 has an affiliate program for developers and users."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urfd4p/today_is_the_day_of_gpt56/",
+          "signal": "Today is the day of GPT-5.6!!!"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
+          "signal": "chatgpt 5.6"
+        }
+      ],
+      "content_ideas": [
+        "How to Use GPT 5.6 for Content Creation",
+        "GPT 5.6: The Future of AI-Powered Productivity",
+        "Maximizing Earnings with GPT 5.6: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0 and take your content to the next level.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for professional branding and marketing.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 offers affiliate opportunities for creators and marketers."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
-          "signal": "2025 Vs 2026 AI Tools"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for content creation",
-        "Top 5 features of ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 vs other image generation tools"
-      ]
-    },
-    {
-      "name": "GPT-Live",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "GPT-Live is a new generation of voice models for ChatGPT.",
-      "audience_angle": "Experience the latest advancements in voice technology with GPT-Live.",
-      "linkedin_angle": "Learn how GPT-Live can revolutionize your business communication and customer service.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-Live has an affiliate program for businesses and developers."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uqztym/introducing_gptlive_a_new_generation_of_voice/",
-          "signal": "Introducing GPT-Live, a new generation of voice models"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EAN5Cj347PY",
-          "signal": "This is the new ChatGPT Voice, powered by GPT-Live"
-        }
-      ],
-      "content_ideas": [
-        "How to use GPT-Live for business communication",
-        "GPT-Live vs other voice models",
-        "Top 5 benefits of using GPT-Live"
+        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide",
+        "ChatGPT Images 2.0: The Ultimate Tool for Social Media Content Creation",
+        "Monetizing ChatGPT Images 2.0: Turning Your Creations into Cash"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ur83mz/gpt_voice_limit/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and optimize your experience."
+      "content_opportunity": "Claude Token Limits: How to Work Around Them and Maximize Your Productivity"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "GPT 5.6"
 }
