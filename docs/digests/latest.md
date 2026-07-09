@@ -7,16 +7,16 @@ Best source link: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small
 All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://cfotech.co.nz/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://cfotech.com.au/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.in/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.com.au/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.co.nz/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://cfotech.in/story/xero-adds-ai-tools-to-jax-for-small-business-finance
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **States Move to License AI Doctors as the FDA Steps Back - PYMNTS.com** — science angle
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFlJMDhWcDJxNmJ6cmlnRUR6b1llTjJvUk5JUVRoQ3dsVmNMU0pxb3N5NkZ0TnNuMW5uVE1FU2dQMTREQlduMm41TlRRY0J4SnhaSFFycU1mcFFnQWtjR1I4OEFIR3Mwa212WF9lTkJnSFlCaVo0Sm5xdTNrTk1ZdExBUlhlejAzVk16Y1FYeEt4dzZhdVRjR3FIMA?oc=5
-2. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — science angle
+1. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — science angle
    https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
-3. **NHS app to use AI to determine which service best for patients - BBC** — science angle
+2. **NHS app to use AI to determine which service best for patients - BBC** — science angle
    https://news.google.com/rss/articles/CBMiXEFVX3lxTFAteFJ4eUtLYnJ5NnJIdm1sNTNNeHhwTElIWWlJVkk0VTlDZTJfVGpLWGZKRzVNenVfc3gwSnFzYWlSUU53d0lRRUlRbU04Wklrd1NRRWhUWEZvaVZi?oc=5
-4. **NHS to use AI on its app to direct patients to appropriate services** — 1 upvotes on Reddit/HN
+3. **NHS to use AI on its app to direct patients to appropriate services** — 1 upvotes on Reddit/HN
    https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
-5. **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — science angle
+4. **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
+5. **States Move to License AI Doctors as the FDA Steps Back - PYMNTS.com** — science angle
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFlJMDhWcDJxNmJ6cmlnRUR6b1llTjJvUk5JUVRoQ3dsVmNMU0pxb3N5NkZ0TnNuMW5uVE1FU2dQMTREQlduMm41TlRRY0J4SnhaSFFycU1mcFFnQWtjR1I4OEFIR3Mwa212WF9lTkJnSFlCaVo0Sm5xdTNrTk1ZdExBUlhlejAzVk16Y1FYeEt4dzZhdVRjR3FIMA?oc=5
 6. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
 7. **Most nurses say AI isn't good enough to trust with patient care, survey finds** — 8 upvotes on Reddit/HN
@@ -48,13 +48,13 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 
 ## 🧪 AI in Science Highlights
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
-- **States Move to License AI Doctors as the FDA Steps Back - PYMNTS.com** — https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFlJMDhWcDJxNmJ6cmlnRUR6b1llTjJvUk5JUVRoQ3dsVmNMU0pxb3N5NkZ0TnNuMW5uVE1FU2dQMTREQlduMm41TlRRY0J4SnhaSFFycU1mcFFnQWtjR1I4OEFIR3Mwa212WF9lTkJnSFlCaVo0Sm5xdTNrTk1ZdExBUlhlejAzVk16Y1FYeEt4dzZhdVRjR3FIMA?oc=5
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
 - **NHS app to use AI to determine which service best for patients - BBC** — https://news.google.com/rss/articles/CBMiXEFVX3lxTFAteFJ4eUtLYnJ5NnJIdm1sNTNNeHhwTElIWWlJVkk0VTlDZTJfVGpLWGZKRzVNenVfc3gwSnFzYWlSUU53d0lRRUlRbU04Wklrd1NRRWhUWEZvaVZi?oc=5
 - **NHS to use AI on its app to direct patients to appropriate services** — https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
+- **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3017
+- Total stories tracked: 3044
 - Most active topic: show
 - Busiest category: AI General News
 
