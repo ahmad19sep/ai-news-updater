@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T04:15:16.681248+00:00",
+  "generated_at": "2026-07-09T10:03:48.612562+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
+      "reddit": 25,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -18,30 +18,36 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a new version of the image generation tool.",
-      "audience_angle": "Create amazing images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT Images 2.0 is a new version of the ChatGPT image generation tool.",
+      "audience_angle": "Create amazing images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your content creation and marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
+          "signal": "2025 Vs 2026 AI Tools"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for business",
-        "Creating stunning visuals with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 tutorial for beginners"
+        "How to use ChatGPT Images 2.0 for content creation",
+        "Top 5 features of ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 vs other image generation tools"
       ]
     },
     {
@@ -49,154 +55,67 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "GPT-Live is a new generation of voice models.",
-      "audience_angle": "Experience the future of voice models with GPT-Live.",
-      "linkedin_angle": "Explore how GPT-Live can revolutionize your business communications.",
-      "local_relevance": 6,
+      "what_it_is": "GPT-Live is a new generation of voice models for ChatGPT.",
+      "audience_angle": "Experience the latest advancements in voice technology with GPT-Live.",
+      "linkedin_angle": "Learn how GPT-Live can revolutionize your business communication and customer service.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-Live may have an affiliate program for its voice models."
+        "note": "GPT-Live has an affiliate program for businesses and developers."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uqztym/introducing_gptlive_a_new_generation_of_voice/",
           "signal": "Introducing GPT-Live, a new generation of voice models"
-        }
-      ],
-      "content_ideas": [
-        "Getting started with GPT-Live for voice assistance",
-        "GPT-Live vs traditional voice models: which is better?",
-        "Using GPT-Live for business voice applications"
-      ]
-    },
-    {
-      "name": "Veo 3.1",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Veo 3.1 is a free unlimited image to video generator.",
-      "audience_angle": "Create stunning videos with Veo 3.1 for free.",
-      "linkedin_angle": "Discover how Veo 3.1 can enhance your video content creation.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Veo 3.1 may have an affiliate program for its video generator."
-      },
-      "sources": [
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
-          "signal": "How to Use Veo 3.1 FREE Unlimited! Free Image to Video Generator"
+          "url": "https://www.youtube.com/watch?v=EAN5Cj347PY",
+          "signal": "This is the new ChatGPT Voice, powered by GPT-Live"
         }
       ],
       "content_ideas": [
-        "Veo 3.1 tutorial for beginners",
-        "Using Veo 3.1 for business video creation",
-        "Veo 3.1 vs other video generators: which is best?"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "Claude Fable 5 is a powerful AI tool for various applications.",
-      "audience_angle": "Unlock the potential of Claude Fable 5 for your business.",
-      "linkedin_angle": "Explore how Claude Fable 5 can enhance your productivity and workflow.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 may have an affiliate program for its AI tools."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqoaqv/built_my_entire_portfolio_with_claude_fable_5_you/",
-          "signal": "Built my entire portfolio with Claude Fable 5"
-        }
-      ],
-      "content_ideas": [
-        "Getting started with Claude Fable 5 for business",
-        "Claude Fable 5 tutorial for beginners",
-        "Using Claude Fable 5 for workflow automation"
+        "How to use GPT-Live for business communication",
+        "GPT-Live vs other voice models",
+        "Top 5 benefits of using GPT-Live"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that creates videos using AI.",
-      "audience_angle": "Create stunning videos with AI video generation.",
-      "linkedin_angle": "Discover how AI video generation can enhance your video content creation.",
-      "local_relevance": 5,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
+      "audience_angle": "Create stunning videos with the power of AI video generation.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing and branding strategy.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools may have affiliate programs."
+        "note": "AI video generation tools often have affiliate programs for content creators."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=1Cj44iznJEU",
-          "signal": "Top 5 FREE AI Video Generators 2026 | Text to Video & Image to Video | No Limits"
+          "signal": "Top 5 FREE AI Video Generators 2026"
         }
       ],
       "content_ideas": [
-        "AI video generation tutorial for beginners",
-        "Using AI video generation for business video creation",
-        "AI video generation vs traditional video creation: which is better?"
-      ]
-    },
-    {
-      "name": "ChatGPT 5.6",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
-      "audience_angle": "Experience the latest version of ChatGPT with ChatGPT 5.6.",
-      "linkedin_angle": "Explore how ChatGPT 5.6 can enhance your business communications.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT 5.6 may have an affiliate program for its AI model."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uqqpnz/chatgpt_56_officially_launching_july_9th/",
-          "signal": "ChatGPT 5.6 Officially Launching July 9th."
-        }
-      ],
-      "content_ideas": [
-        "Getting started with ChatGPT 5.6 for business",
-        "ChatGPT 5.6 tutorial for beginners",
-        "Using ChatGPT 5.6 for customer service automation"
+        "How to use AI video generation for marketing",
+        "Top 5 AI video generation tools",
+        "AI video generation vs traditional video creation"
       ]
     }
   ],
@@ -206,61 +125,36 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a new version of the image generation tool.",
-      "audience_angle": "Create amazing images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT Images 2.0 is a new version of the ChatGPT image generation tool.",
+      "audience_angle": "Create amazing images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your content creation and marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT Images 2.0 for business",
-        "Creating stunning visuals with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 tutorial for beginners"
-      ]
-    },
-    {
-      "name": "Veo 3.1",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Veo 3.1 is a free unlimited image to video generator.",
-      "audience_angle": "Create stunning videos with Veo 3.1 for free.",
-      "linkedin_angle": "Discover how Veo 3.1 can enhance your video content creation.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Veo 3.1 may have an affiliate program for its video generator."
-      },
-      "sources": [
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U5luuhfy_mA",
-          "signal": "How to Use Veo 3.1 FREE Unlimited! Free Image to Video Generator"
+          "url": "https://www.youtube.com/watch?v=tzo1Cu7cpng",
+          "signal": "2025 Vs 2026 AI Tools"
         }
       ],
       "content_ideas": [
-        "Veo 3.1 tutorial for beginners",
-        "Using Veo 3.1 for business video creation",
-        "Veo 3.1 vs other video generators: which is best?"
+        "How to use ChatGPT Images 2.0 for content creation",
+        "Top 5 features of ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 vs other image generation tools"
       ]
     },
     {
@@ -268,107 +162,51 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "GPT-Live is a new generation of voice models.",
-      "audience_angle": "Experience the future of voice models with GPT-Live.",
-      "linkedin_angle": "Explore how GPT-Live can revolutionize your business communications.",
-      "local_relevance": 6,
+      "what_it_is": "GPT-Live is a new generation of voice models for ChatGPT.",
+      "audience_angle": "Experience the latest advancements in voice technology with GPT-Live.",
+      "linkedin_angle": "Learn how GPT-Live can revolutionize your business communication and customer service.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-Live may have an affiliate program for its voice models."
+        "note": "GPT-Live has an affiliate program for businesses and developers."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uqztym/introducing_gptlive_a_new_generation_of_voice/",
           "signal": "Introducing GPT-Live, a new generation of voice models"
-        }
-      ],
-      "content_ideas": [
-        "Getting started with GPT-Live for voice assistance",
-        "GPT-Live vs traditional voice models: which is better?",
-        "Using GPT-Live for business voice applications"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "Claude Fable 5 is a powerful AI tool for various applications.",
-      "audience_angle": "Unlock the potential of Claude Fable 5 for your business.",
-      "linkedin_angle": "Explore how Claude Fable 5 can enhance your productivity and workflow.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable 5 may have an affiliate program for its AI tools."
-      },
-      "sources": [
+        },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqoaqv/built_my_entire_portfolio_with_claude_fable_5_you/",
-          "signal": "Built my entire portfolio with Claude Fable 5"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EAN5Cj347PY",
+          "signal": "This is the new ChatGPT Voice, powered by GPT-Live"
         }
       ],
       "content_ideas": [
-        "Getting started with Claude Fable 5 for business",
-        "Claude Fable 5 tutorial for beginners",
-        "Using Claude Fable 5 for workflow automation"
-      ]
-    },
-    {
-      "name": "ChatGPT 5.6",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
-      "audience_angle": "Experience the latest version of ChatGPT with ChatGPT 5.6.",
-      "linkedin_angle": "Explore how ChatGPT 5.6 can enhance your business communications.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT 5.6 may have an affiliate program for its AI model."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uqqpnz/chatgpt_56_officially_launching_july_9th/",
-          "signal": "ChatGPT 5.6 Officially Launching July 9th."
-        }
-      ],
-      "content_ideas": [
-        "Getting started with ChatGPT 5.6 for business",
-        "ChatGPT 5.6 tutorial for beginners",
-        "Using ChatGPT 5.6 for customer service automation"
+        "How to use GPT-Live for business communication",
+        "GPT-Live vs other voice models",
+        "Top 5 benefits of using GPT-Live"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqrms6/if_your_subscription_ends_and_you_dont_renews_but/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ur83mz/gpt_voice_limit/"
         }
       ],
-      "content_opportunity": "Claude usage limits: how to optimize your usage and avoid hitting the limits."
+      "content_opportunity": "How to overcome ChatGPT usage limits and optimize your experience."
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
