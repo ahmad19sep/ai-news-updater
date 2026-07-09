@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:35:20.611800+00:00",
+  "generated_at": "2026-07-09T20:05:45.015174+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -14,40 +14,40 @@
   },
   "trends": [
     {
-      "name": "GPT 5.6",
+      "name": "GPT 5.6 Sol",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "GPT 5.6 is a new version of the GPT AI model.",
-      "audience_angle": "Learn how to use GPT 5.6 to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how GPT 5.6 can help you automate tasks and increase efficiency in your work.",
+      "what_it_is": "GPT 5.6 Sol is a new AI model from OpenAI.",
+      "audience_angle": "Learn how to use GPT 5.6 Sol to improve your productivity and automate tasks.",
+      "linkedin_angle": "Discover how GPT 5.6 Sol can help you streamline your workflow and enhance your professional skills.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT 5.6 has an affiliate program for developers and users."
+        "note": "OpenAI has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urfd4p/today_is_the_day_of_gpt56/",
-          "signal": "Today is the day of GPT-5.6!!!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urshb1/openals_newest_al_model_gpt_56_is_54_more_token/",
+          "signal": "OpenAl's newest Al model, GPT 5.6, is 54% more token efficient on agentic coding"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
-          "signal": "chatgpt 5.6"
+          "url": "https://www.youtube.com/watch?v=iT_yv_nEdIo",
+          "signal": "China's Free AI Just Came For ChatGPT And Claude (+18 Updates)"
         }
       ],
       "content_ideas": [
-        "How to Use GPT 5.6 for Content Creation",
-        "GPT 5.6: The Future of AI-Powered Productivity",
-        "Maximizing Earnings with GPT 5.6: Tips and Tricks"
+        "How to Use GPT 5.6 Sol for Automated Content Creation",
+        "GPT 5.6 Sol vs Claude: Which AI Model is Best for Your Business?",
+        "5 Ways to Increase Your Earnings with GPT 5.6 Sol"
       ]
     },
     {
@@ -55,100 +55,149 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
       "audience_angle": "Create stunning images with ChatGPT Images 2.0 and take your content to the next level.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for professional branding and marketing.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 to enhance your visual content and professional brand.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 offers affiliate opportunities for creators and marketers."
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y71UruYZJZ0",
+          "signal": "AI Se Motu Patlu Vlog Video Kaise Banaye? Full Tutorial (Hindi) | Free AI Tools"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide",
-        "ChatGPT Images 2.0: The Ultimate Tool for Social Media Content Creation",
-        "Monetizing ChatGPT Images 2.0: Turning Your Creations into Cash"
+        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
+        "How to Make Money with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "Claude Fable 5",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
-      "audience_angle": "Discover how to create stunning videos with AI and take your content to the next level.",
-      "linkedin_angle": "Learn how to leverage AI video generation for professional branding and marketing.",
-      "local_relevance": 7,
+      "what_it_is": "Claude Fable 5 is a new AI model from Claude.",
+      "audience_angle": "Discover how Claude Fable 5 can help you automate tasks and improve your productivity.",
+      "linkedin_angle": "Learn how to use Claude Fable 5 to enhance your professional skills and streamline your workflow.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often offer affiliate programs for creators and marketers."
+        "note": "Claude has an affiliate program for its models."
       },
       "sources": [
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/",
+          "signal": "claude's plan"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "ai video generation"
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI Video Generation: A Beginner's Guide",
-        "AI Video Generation: The Future of Content Creation",
-        "Monetizing AI Video Generation: Turning Your Creations into Cash"
+        "How to Use Claude Fable 5 for Automated Content Creation",
+        "Claude Fable 5 vs GPT 5.6 Sol: Which AI Model is Best for Your Business?",
+        "5 Ways to Increase Your Earnings with Claude Fable 5"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "GPT 5.6",
+      "name": "GPT 5.6 Sol",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "GPT 5.6 is a new version of the GPT AI model.",
-      "audience_angle": "Learn how to use GPT 5.6 to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how GPT 5.6 can help you automate tasks and increase efficiency in your work.",
+      "what_it_is": "GPT 5.6 Sol is a new AI model from OpenAI.",
+      "audience_angle": "Learn how to use GPT 5.6 Sol to improve your productivity and automate tasks.",
+      "linkedin_angle": "Discover how GPT 5.6 Sol can help you streamline your workflow and enhance your professional skills.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT 5.6 has an affiliate program for developers and users."
+        "note": "OpenAI has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urfd4p/today_is_the_day_of_gpt56/",
-          "signal": "Today is the day of GPT-5.6!!!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urshb1/openals_newest_al_model_gpt_56_is_54_more_token/",
+          "signal": "OpenAl's newest Al model, GPT 5.6, is 54% more token efficient on agentic coding"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
-          "signal": "chatgpt 5.6"
+          "url": "https://www.youtube.com/watch?v=iT_yv_nEdIo",
+          "signal": "China's Free AI Just Came For ChatGPT And Claude (+18 Updates)"
         }
       ],
       "content_ideas": [
-        "How to Use GPT 5.6 for Content Creation",
-        "GPT 5.6: The Future of AI-Powered Productivity",
-        "Maximizing Earnings with GPT 5.6: Tips and Tricks"
+        "How to Use GPT 5.6 Sol for Automated Content Creation",
+        "GPT 5.6 Sol vs Claude: Which AI Model is Best for Your Business?",
+        "5 Ways to Increase Your Earnings with GPT 5.6 Sol"
+      ]
+    },
+    {
+      "name": "Claude Fable 5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "Claude Fable 5 is a new AI model from Claude.",
+      "audience_angle": "Discover how Claude Fable 5 can help you automate tasks and improve your productivity.",
+      "linkedin_angle": "Learn how to use Claude Fable 5 to enhance your professional skills and streamline your workflow.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude has an affiliate program for its models."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/",
+          "signal": "claude's plan"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude Fable 5 for Automated Content Creation",
+        "Claude Fable 5 vs GPT 5.6 Sol: Which AI Model is Best for Your Business?",
+        "5 Ways to Increase Your Earnings with Claude Fable 5"
       ]
     },
     {
@@ -156,46 +205,52 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
       "audience_angle": "Create stunning images with ChatGPT Images 2.0 and take your content to the next level.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for professional branding and marketing.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 to enhance your visual content and professional brand.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 offers affiliate opportunities for creators and marketers."
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y71UruYZJZ0",
+          "signal": "AI Se Motu Patlu Vlog Video Kaise Banaye? Full Tutorial (Hindi) | Free AI Tools"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide",
-        "ChatGPT Images 2.0: The Ultimate Tool for Social Media Content Creation",
-        "Monetizing ChatGPT Images 2.0: Turning Your Creations into Cash"
+        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
+        "How to Make Money with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "problem": "ChatGPT usage/token limits hitting users hard",
+      "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urovnd/execs_confused_and_horrified_by_the_huge_ai_bills/"
         }
       ],
-      "content_opportunity": "Claude Token Limits: How to Work Around Them and Maximize Your Productivity"
+      "content_opportunity": "How to Optimize Your ChatGPT Usage and Avoid Token Limits"
     }
   ],
-  "tool_of_week_candidate": "GPT 5.6"
+  "tool_of_week_candidate": "GPT 5.6 Sol"
 }
