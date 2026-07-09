@@ -54,7 +54,7 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 - **NHS to use AI on its app to direct patients to appropriate services** — https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3080
+- Total stories tracked: 3095
 - Most active topic: show
 - Busiest category: AI General News
 
