@@ -27,12 +27,12 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Xero adds AI tools to JAX for small business finance** — cfotech_asia — Score 86
    https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance
-2. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 68
+2. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 65
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5
-3. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 66
-   https://news.google.com/rss/articles/CBMigAFBVV95cUxQckxxM0xOb3RKYUV6WUYxREprR0wwWHFpY2lLMjJnR0xmMWZ6OVFWdTU1bW9BbGViSGgwc1FTbmtWZ2VqT0k0dWNINHVXSVQwYmRUMDhIY3NocXprVG5FcFM2dWpTNDZCNU5RMVNCdVJEMU9aR2tWV2ZUNFRybVo4dg?oc=5
-4. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 63
+3. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 63
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZW1sX2lWU1Rlc3RGZW8tUi1YZFlNMVdSS3dvcUxKc0JscDVGYXREMjFHOXd2eDRTQm9WaHNmLVNORlhkNDVPUU8tRjlPdHdIZmtuaGlzeEoxT2NjcFliNmcxMEF6bG9nMU5qcVNYZ08xc0RGV3FxbW1CMzlRYmlqRTM1WFV4UEQ2TGlVY2RQYnVnTm54a0dxeDFkUUNORDFjYS1p?oc=5
+4. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 63
+   https://news.google.com/rss/articles/CBMigAFBVV95cUxQckxxM0xOb3RKYUV6WUYxREprR0wwWHFpY2lLMjJnR0xmMWZ6OVFWdTU1bW9BbGViSGgwc1FTbmtWZ2VqT0k0dWNINHVXSVQwYmRUMDhIY3NocXprVG5FcFM2dWpTNDZCNU5RMVNCdVJEMU9aR2tWV2ZUNFRybVo4dg?oc=5
 5. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — AI in Health — Score 58
    https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
 6. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 56
@@ -54,8 +54,8 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3053
-- Most active topic: show
+- Total stories tracked: 3077
+- Most active topic: model
 - Busiest category: AI General News
 
 ---
