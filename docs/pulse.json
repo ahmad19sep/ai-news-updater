@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T15:03:17.464033+00:00",
+  "generated_at": "2026-07-10T19:53:58.853181+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 32,
-      "hackernews": 25,
+      "reddit": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -21,35 +21,41 @@
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
       "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
-      "audience_angle": "You can use ChatGPT 5.6 to generate more accurate and helpful responses.",
-      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
+      "audience_angle": "You can use ChatGPT 5.6 to generate human-like text and have more realistic conversations.",
+      "linkedin_angle": "Upgrade your content creation skills with ChatGPT 5.6 and take your business to the next level.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program"
+        "note": "ChatGPT 5.6 has an affiliate program for content creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uscohi/gpt56_sol_ultra_is_impressive_for_the_12_minutes/",
-          "signal": "GPT-5.6 Sol Ultra is impressive — for the 12 minutes you’re allowed to use it as a Plus subscriber"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1usv6ei/using_3_voice_bots_to_count_to_100/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
-          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48857085",
+          "signal": "66"
         }
       ],
       "content_ideas": [
         "How to use ChatGPT 5.6 for content creation",
         "ChatGPT 5.6 vs previous versions: what's new and improved",
-        "Maximizing productivity with ChatGPT 5.6"
+        "Making money with ChatGPT 5.6: affiliate marketing and more"
       ]
     },
     {
@@ -60,64 +66,70 @@
         "youtube",
         "reddit"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
-      "audience_angle": "You can use AI video generation to create engaging and professional-looking videos without extensive video production experience.",
-      "linkedin_angle": "Leverage AI video generation to enhance your marketing and communication strategies.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
+      "audience_angle": "You can create stunning videos without extensive video editing experience using AI video generation.",
+      "linkedin_angle": "Use AI video generation to create engaging content for your business and boost your marketing efforts.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI video generation tools have affiliate programs"
+        "note": "Many AI video generation tools offer affiliate programs for creators."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0z8Pp4TaAl8",
-          "signal": "How to Generate AI Videos for FREE with ComfyUI (Step-by-Step Tutorial)"
+          "url": "https://www.youtube.com/watch?v=XR_HJxrULI0",
+          "signal": "0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uslham/chatgpt_made_better_world_cup_logo_than_the/",
-          "signal": "ChatGPT made better World Cup logo than the actual World Cup 2026 logo we have."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1usv2dd/prompt_can_you_visualize_an_exquisite_masterpiece/",
+          "signal": "31"
         }
       ],
       "content_ideas": [
-        "How to create stunning AI-generated videos for social media",
-        "AI video generation for business: tips and best practices",
-        "The future of video content creation: AI-generated videos"
+        "How to create stunning AI videos for your business",
+        "AI video generation tools: which one is right for you",
+        "Making money with AI video generation: monetization strategies"
       ]
     },
     {
-      "name": "Gemini Omni",
+      "name": "Gemini AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Gemini Omni is a Google AI tool for video editing and generation.",
-      "audience_angle": "You can use Gemini Omni to create professional-looking videos without extensive video editing experience.",
-      "linkedin_angle": "Enhance your video content creation with Gemini Omni.",
-      "local_relevance": 6,
+      "what_it_is": "Gemini AI is a new AI tool for content creation and video editing.",
+      "audience_angle": "You can use Gemini AI to create professional-looking videos and content without extensive experience.",
+      "linkedin_angle": "Upgrade your content creation skills with Gemini AI and take your business to the next level.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google has an affiliate program for its AI tools"
+        "note": "Gemini AI has an affiliate program for content creators."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
-          "signal": "AI Video Editing with Gemini Omni in FREE"
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48847834",
+          "signal": "83"
         }
       ],
       "content_ideas": [
-        "Getting started with Gemini Omni: a beginner's guide",
-        "Gemini Omni vs other video editing tools: which one is best for you",
-        "Maximizing your video content creation with Gemini Omni"
+        "How to use Gemini AI for content creation",
+        "Gemini AI vs other AI tools: what's new and improved",
+        "Making money with Gemini AI: affiliate marketing and more"
       ]
     }
   ],
@@ -128,81 +140,93 @@
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
       "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
-      "audience_angle": "You can use ChatGPT 5.6 to generate more accurate and helpful responses.",
-      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
+      "audience_angle": "You can use ChatGPT 5.6 to generate human-like text and have more realistic conversations.",
+      "linkedin_angle": "Upgrade your content creation skills with ChatGPT 5.6 and take your business to the next level.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program"
+        "note": "ChatGPT 5.6 has an affiliate program for content creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uscohi/gpt56_sol_ultra_is_impressive_for_the_12_minutes/",
-          "signal": "GPT-5.6 Sol Ultra is impressive — for the 12 minutes you’re allowed to use it as a Plus subscriber"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1usv6ei/using_3_voice_bots_to_count_to_100/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
-          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48857085",
+          "signal": "66"
         }
       ],
       "content_ideas": [
         "How to use ChatGPT 5.6 for content creation",
         "ChatGPT 5.6 vs previous versions: what's new and improved",
-        "Maximizing productivity with ChatGPT 5.6"
+        "Making money with ChatGPT 5.6: affiliate marketing and more"
       ]
     },
     {
-      "name": "Gemini Omni",
+      "name": "Gemini AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Gemini Omni is a Google AI tool for video editing and generation.",
-      "audience_angle": "You can use Gemini Omni to create professional-looking videos without extensive video editing experience.",
-      "linkedin_angle": "Enhance your video content creation with Gemini Omni.",
-      "local_relevance": 6,
+      "what_it_is": "Gemini AI is a new AI tool for content creation and video editing.",
+      "audience_angle": "You can use Gemini AI to create professional-looking videos and content without extensive experience.",
+      "linkedin_angle": "Upgrade your content creation skills with Gemini AI and take your business to the next level.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google has an affiliate program for its AI tools"
+        "note": "Gemini AI has an affiliate program for content creators."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
-          "signal": "AI Video Editing with Gemini Omni in FREE"
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48847834",
+          "signal": "83"
         }
       ],
       "content_ideas": [
-        "Getting started with Gemini Omni: a beginner's guide",
-        "Gemini Omni vs other video editing tools: which one is best for you",
-        "Maximizing your video content creation with Gemini Omni"
+        "How to use Gemini AI for content creation",
+        "Gemini AI vs other AI tools: what's new and improved",
+        "Making money with Gemini AI: affiliate marketing and more"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 7,
+      "problem": "ChatGPT usage limits and token limits",
+      "who_affected": "ChatGPT users and content creators",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uscohi/gpt56_sol_ultra_is_impressive_for_the_12_minutes/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1usljcv/openais_chatgpt_atlas_browser_is_shutting_down/"
         }
       ],
-      "content_opportunity": "How to optimize your ChatGPT usage and minimize costs"
+      "content_opportunity": "How to overcome ChatGPT usage limits and token limits: tips and tricks"
     }
   ],
   "tool_of_week_candidate": "ChatGPT 5.6"
