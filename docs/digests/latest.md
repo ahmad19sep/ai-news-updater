@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 02 Jul 2026 to 09 Jul 2026
+# 🗞️ AI THIS WEEK — 03 Jul 2026 to 10 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Xero adds AI tools to JAX for small business finance**
@@ -54,8 +54,8 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 - **NHS to use AI on its app to direct patients to appropriate services** — https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3095
-- Most active topic: show
+- Total stories tracked: 3176
+- Most active topic: models
 - Busiest category: AI General News
 
 ---
