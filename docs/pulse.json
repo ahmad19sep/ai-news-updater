@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T04:16:59.742433+00:00",
+  "generated_at": "2026-07-10T09:54:23.549883+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,53 +9,47 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT 5.6 Sol",
+      "name": "GPT-5.6 Sol",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT 5.6 Sol is a new version of the ChatGPT AI model with improved performance and efficiency.",
-      "audience_angle": "You can use ChatGPT 5.6 Sol to generate more accurate and efficient text responses.",
-      "linkedin_angle": "Improve your productivity with the latest AI tools like ChatGPT 5.6 Sol.",
+      "what_it_is": "GPT-5.6 Sol is a new AI model from OpenAI.",
+      "audience_angle": "Learn how to use GPT-5.6 Sol to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your professional workflow and career prospects.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "OpenAI has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1us6xi2/does_anyone_else_have_gpt_56_too/",
-          "signal": "40 upvotes"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uscohi/gpt56_sol_ultra_is_impressive_for_the_12_minutes/",
+          "signal": "GPT-5.6 Sol Ultra is impressive — for the 12 minutes you’re allowed to use it as a Plus subscriber"
         },
         {
           "platform": "hackernews",
-          "url": "https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html",
-          "signal": "52 points"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
-          "signal": "1000 views"
+          "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
+          "signal": "China may restrict foreign access to Chinese open-source AI models"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT 5.6 Sol for Content Generation",
-        "ChatGPT 5.6 Sol vs Claude: Which AI Model is Better?",
-        "5 Ways to Make Money with ChatGPT 5.6 Sol"
+        "How to Use GPT-5.6 Sol for Content Creation",
+        "GPT-5.6 Sol vs Claude: Which AI Model is Better for You?",
+        "Maximizing Productivity with GPT-5.6 Sol: Tips and Tricks"
       ]
     },
     {
@@ -63,42 +57,36 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Claude Fable 5 is a new AI model that allows users to create and manage their own AI agents.",
-      "audience_angle": "You can use Claude Fable 5 to automate tasks and generate content.",
-      "linkedin_angle": "Take your business to the next level with Claude Fable 5 and its AI agent capabilities.",
-      "local_relevance": 8,
+      "what_it_is": "Claude Fable 5 is a new AI model from Claude.",
+      "audience_angle": "Learn how to use Claude Fable 5 to generate high-quality content and earn money.",
+      "linkedin_angle": "Discover how Claude Fable 5 can enhance your content creation and career prospects.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its premium features."
+        "note": "Claude has an affiliate program for its models."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/",
-          "signal": "30 upvotes"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.github.com/ronak-create/FableCut",
-          "signal": "144 points"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=suY66oTDn0s",
-          "signal": "1000 views"
+          "signal": "Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urwl06/finally_we_can_test_gpt_56_sol_vs_claude_fable_5/",
+          "signal": "Finally we can test GPT 5.6 Sol Vs Claude Fable 5"
         }
       ],
       "content_ideas": [
-        "How to Create Your Own AI Agent with Claude Fable 5",
-        "Claude Fable 5 Review: Is it Worth the Hype?",
-        "5 Ways to Use Claude Fable 5 for Business Automation"
+        "How to Use Claude Fable 5 for Affiliate Marketing",
+        "Claude Fable 5 vs GPT-5.6 Sol: Which AI Model is Better for Content Creation?",
+        "Making Money with Claude Fable 5: A Step-by-Step Guide"
       ]
     },
     {
@@ -109,72 +97,66 @@
         "youtube"
       ],
       "what_it_is": "AI video generation is a technology that allows users to create videos using AI models.",
-      "audience_angle": "You can use AI video generation to create engaging videos for social media or marketing campaigns.",
-      "linkedin_angle": "Improve your video marketing strategy with AI video generation.",
-      "local_relevance": 6,
+      "audience_angle": "Learn how to use AI video generation to create high-quality videos and earn money.",
+      "linkedin_angle": "Discover how AI video generation can enhance your video creation and career prospects.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "reel",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs."
+        "note": "Many AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0z8Pp4TaAl8",
-          "signal": "1000 views"
+          "url": "https://www.youtube.com/watch?v=FW_bzWIaJfs",
+          "signal": "I Tried Every AI Video Generator So You Don't Have To"
         }
       ],
       "content_ideas": [
-        "How to Create AI-Generated Videos for Social Media",
-        "5 AI Video Generation Tools for Marketing",
-        "The Future of Video Marketing: AI-Generated Videos"
+        "How to Use AI Video Generation for YouTube",
+        "AI Video Generation vs Traditional Video Creation: Which is Better?",
+        "Making Money with AI Video Generation: A Step-by-Step Guide"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT 5.6 Sol",
+      "name": "GPT-5.6 Sol",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT 5.6 Sol is a new version of the ChatGPT AI model with improved performance and efficiency.",
-      "audience_angle": "You can use ChatGPT 5.6 Sol to generate more accurate and efficient text responses.",
-      "linkedin_angle": "Improve your productivity with the latest AI tools like ChatGPT 5.6 Sol.",
+      "what_it_is": "GPT-5.6 Sol is a new AI model from OpenAI.",
+      "audience_angle": "Learn how to use GPT-5.6 Sol to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your professional workflow and career prospects.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "OpenAI has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1us6xi2/does_anyone_else_have_gpt_56_too/",
-          "signal": "40 upvotes"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uscohi/gpt56_sol_ultra_is_impressive_for_the_12_minutes/",
+          "signal": "GPT-5.6 Sol Ultra is impressive — for the 12 minutes you’re allowed to use it as a Plus subscriber"
         },
         {
           "platform": "hackernews",
-          "url": "https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html",
-          "signal": "52 points"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
-          "signal": "1000 views"
+          "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
+          "signal": "China may restrict foreign access to Chinese open-source AI models"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT 5.6 Sol for Content Generation",
-        "ChatGPT 5.6 Sol vs Claude: Which AI Model is Better?",
-        "5 Ways to Make Money with ChatGPT 5.6 Sol"
+        "How to Use GPT-5.6 Sol for Content Creation",
+        "GPT-5.6 Sol vs Claude: Which AI Model is Better for You?",
+        "Maximizing Productivity with GPT-5.6 Sol: Tips and Tricks"
       ]
     },
     {
@@ -182,58 +164,52 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Claude Fable 5 is a new AI model that allows users to create and manage their own AI agents.",
-      "audience_angle": "You can use Claude Fable 5 to automate tasks and generate content.",
-      "linkedin_angle": "Take your business to the next level with Claude Fable 5 and its AI agent capabilities.",
-      "local_relevance": 8,
+      "what_it_is": "Claude Fable 5 is a new AI model from Claude.",
+      "audience_angle": "Learn how to use Claude Fable 5 to generate high-quality content and earn money.",
+      "linkedin_angle": "Discover how Claude Fable 5 can enhance your content creation and career prospects.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its premium features."
+        "note": "Claude has an affiliate program for its models."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/",
-          "signal": "30 upvotes"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.github.com/ronak-create/FableCut",
-          "signal": "144 points"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=suY66oTDn0s",
-          "signal": "1000 views"
+          "signal": "Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urwl06/finally_we_can_test_gpt_56_sol_vs_claude_fable_5/",
+          "signal": "Finally we can test GPT 5.6 Sol Vs Claude Fable 5"
         }
       ],
       "content_ideas": [
-        "How to Create Your Own AI Agent with Claude Fable 5",
-        "Claude Fable 5 Review: Is it Worth the Hype?",
-        "5 Ways to Use Claude Fable 5 for Business Automation"
+        "How to Use Claude Fable 5 for Affiliate Marketing",
+        "Claude Fable 5 vs GPT-5.6 Sol: Which AI Model is Better for Content Creation?",
+        "Making Money with Claude Fable 5: A Step-by-Step Guide"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "Small business owners and individuals",
-      "signal_strength": 6,
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urovnd/execs_confused_and_horrified_by_the_huge_ai_bills/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/"
         }
       ],
-      "content_opportunity": "How to Optimize ChatGPT Usage and Reduce Costs"
+      "content_opportunity": "How to Overcome Claude Usage/Token Limits: Tips and Tricks"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT 5.6 Sol"
+  "tool_of_week_candidate": "GPT-5.6 Sol"
 }
