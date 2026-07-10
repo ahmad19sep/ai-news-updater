@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:54:23.549883+00:00",
+  "generated_at": "2026-07-10T15:03:17.464033+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,31 +8,31 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 26,
+      "reddit": 32,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "GPT-5.6 Sol",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "GPT-5.6 Sol is a new AI model from OpenAI.",
-      "audience_angle": "Learn how to use GPT-5.6 Sol to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your professional workflow and career prospects.",
+      "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
+      "audience_angle": "You can use ChatGPT 5.6 to generate more accurate and helpful responses.",
+      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "OpenAI has an affiliate program for its models."
+        "note": "ChatGPT has an affiliate program"
       },
       "sources": [
         {
@@ -41,105 +41,105 @@
           "signal": "GPT-5.6 Sol Ultra is impressive — for the 12 minutes you’re allowed to use it as a Plus subscriber"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
-          "signal": "China may restrict foreign access to Chinese open-source AI models"
-        }
-      ],
-      "content_ideas": [
-        "How to Use GPT-5.6 Sol for Content Creation",
-        "GPT-5.6 Sol vs Claude: Which AI Model is Better for You?",
-        "Maximizing Productivity with GPT-5.6 Sol: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "Claude Fable 5",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "Claude Fable 5 is a new AI model from Claude.",
-      "audience_angle": "Learn how to use Claude Fable 5 to generate high-quality content and earn money.",
-      "linkedin_angle": "Discover how Claude Fable 5 can enhance your content creation and career prospects.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its models."
-      },
-      "sources": [
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=suY66oTDn0s",
-          "signal": "Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urwl06/finally_we_can_test_gpt_56_sol_vs_claude_fable_5/",
-          "signal": "Finally we can test GPT 5.6 Sol Vs Claude Fable 5"
+          "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
+          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
         }
       ],
       "content_ideas": [
-        "How to Use Claude Fable 5 for Affiliate Marketing",
-        "Claude Fable 5 vs GPT-5.6 Sol: Which AI Model is Better for Content Creation?",
-        "Making Money with Claude Fable 5: A Step-by-Step Guide"
+        "How to use ChatGPT 5.6 for content creation",
+        "ChatGPT 5.6 vs previous versions: what's new and improved",
+        "Maximizing productivity with ChatGPT 5.6"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI models.",
-      "audience_angle": "Learn how to use AI video generation to create high-quality videos and earn money.",
-      "linkedin_angle": "Discover how AI video generation can enhance your video creation and career prospects.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create engaging and professional-looking videos without extensive video production experience.",
+      "linkedin_angle": "Leverage AI video generation to enhance your marketing and communication strategies.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI video generation tools have affiliate programs."
+        "note": "Many AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FW_bzWIaJfs",
-          "signal": "I Tried Every AI Video Generator So You Don't Have To"
+          "url": "https://www.youtube.com/watch?v=0z8Pp4TaAl8",
+          "signal": "How to Generate AI Videos for FREE with ComfyUI (Step-by-Step Tutorial)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uslham/chatgpt_made_better_world_cup_logo_than_the/",
+          "signal": "ChatGPT made better World Cup logo than the actual World Cup 2026 logo we have."
         }
       ],
       "content_ideas": [
-        "How to Use AI Video Generation for YouTube",
-        "AI Video Generation vs Traditional Video Creation: Which is Better?",
-        "Making Money with AI Video Generation: A Step-by-Step Guide"
+        "How to create stunning AI-generated videos for social media",
+        "AI video generation for business: tips and best practices",
+        "The future of video content creation: AI-generated videos"
+      ]
+    },
+    {
+      "name": "Gemini Omni",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Gemini Omni is a Google AI tool for video editing and generation.",
+      "audience_angle": "You can use Gemini Omni to create professional-looking videos without extensive video editing experience.",
+      "linkedin_angle": "Enhance your video content creation with Gemini Omni.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google has an affiliate program for its AI tools"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
+          "signal": "AI Video Editing with Gemini Omni in FREE"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Gemini Omni: a beginner's guide",
+        "Gemini Omni vs other video editing tools: which one is best for you",
+        "Maximizing your video content creation with Gemini Omni"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "GPT-5.6 Sol",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "GPT-5.6 Sol is a new AI model from OpenAI.",
-      "audience_angle": "Learn how to use GPT-5.6 Sol to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your professional workflow and career prospects.",
+      "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
+      "audience_angle": "You can use ChatGPT 5.6 to generate more accurate and helpful responses.",
+      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "OpenAI has an affiliate program for its models."
+        "note": "ChatGPT has an affiliate program"
       },
       "sources": [
         {
@@ -148,68 +148,62 @@
           "signal": "GPT-5.6 Sol Ultra is impressive — for the 12 minutes you’re allowed to use it as a Plus subscriber"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
-          "signal": "China may restrict foreign access to Chinese open-source AI models"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
+          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
         }
       ],
       "content_ideas": [
-        "How to Use GPT-5.6 Sol for Content Creation",
-        "GPT-5.6 Sol vs Claude: Which AI Model is Better for You?",
-        "Maximizing Productivity with GPT-5.6 Sol: Tips and Tricks"
+        "How to use ChatGPT 5.6 for content creation",
+        "ChatGPT 5.6 vs previous versions: what's new and improved",
+        "Maximizing productivity with ChatGPT 5.6"
       ]
     },
     {
-      "name": "Claude Fable 5",
+      "name": "Gemini Omni",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "Claude Fable 5 is a new AI model from Claude.",
-      "audience_angle": "Learn how to use Claude Fable 5 to generate high-quality content and earn money.",
-      "linkedin_angle": "Discover how Claude Fable 5 can enhance your content creation and career prospects.",
+      "what_it_is": "Gemini Omni is a Google AI tool for video editing and generation.",
+      "audience_angle": "You can use Gemini Omni to create professional-looking videos without extensive video editing experience.",
+      "linkedin_angle": "Enhance your video content creation with Gemini Omni.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude has an affiliate program for its models."
+        "note": "Google has an affiliate program for its AI tools"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=suY66oTDn0s",
-          "signal": "Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urwl06/finally_we_can_test_gpt_56_sol_vs_claude_fable_5/",
-          "signal": "Finally we can test GPT 5.6 Sol Vs Claude Fable 5"
+          "url": "https://www.youtube.com/watch?v=OhRHDjHMuJU",
+          "signal": "AI Video Editing with Gemini Omni in FREE"
         }
       ],
       "content_ideas": [
-        "How to Use Claude Fable 5 for Affiliate Marketing",
-        "Claude Fable 5 vs GPT-5.6 Sol: Which AI Model is Better for Content Creation?",
-        "Making Money with Claude Fable 5: A Step-by-Step Guide"
+        "Getting started with Gemini Omni: a beginner's guide",
+        "Gemini Omni vs other video editing tools: which one is best for you",
+        "Maximizing your video content creation with Gemini Omni"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits and costs",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 7,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uscohi/gpt56_sol_ultra_is_impressive_for_the_12_minutes/"
         }
       ],
-      "content_opportunity": "How to Overcome Claude Usage/Token Limits: Tips and Tricks"
+      "content_opportunity": "How to optimize your ChatGPT usage and minimize costs"
     }
   ],
-  "tool_of_week_candidate": "GPT-5.6 Sol"
+  "tool_of_week_candidate": "ChatGPT 5.6"
 }
