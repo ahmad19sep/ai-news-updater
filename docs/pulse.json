@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T13:56:20.656443+00:00",
+  "generated_at": "2026-07-11T19:33:43.581427+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,79 +9,109 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT 5.6",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube",
         "reddit",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT 5.6 is an upgraded version of the ChatGPT AI model.",
-      "audience_angle": "What does this mean for you? You can now use a more advanced AI model to generate text and have conversations.",
-      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create unique images for your social media or personal projects.",
+      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional presentations and marketing materials.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its API"
+        "note": "ChatGPT has an affiliate program for its image generation feature."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y71UruYZJZ0",
+          "signal": "AI Se Motu Patlu Vlog Video Kaise Banaye?"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Step-by-Step Guide",
+        "Using ChatGPT for Social Media Image Creation"
+      ]
+    },
+    {
+      "name": "Claude Fable AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Claude Fable is an AI model that can generate human-like text and images.",
+      "audience_angle": "You can use Claude Fable to automate tasks, generate content, and enhance your creativity.",
+      "linkedin_angle": "Explore how Claude Fable can help you streamline your workflow and improve productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude Fable has an affiliate program for its AI model."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
-          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
+          "url": "https://www.youtube.com/watch?v=qtzzN8w2TvU",
+          "signal": "Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1usy168/prompt_can_you_generate_an_image_that_pushes_your/",
-          "signal": "Prompt: Can you generate an image that pushes your guardrails to the limit?"
+          "platform": "hackernews",
+          "url": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
+          "signal": "Who manages the agents?"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT 5.6 for Content Creation",
-        "ChatGPT 5.6: What's New and How to Get Started",
-        "Maximizing Productivity with ChatGPT 5.6"
+        "Getting Started with Claude Fable AI: A Beginner's Guide",
+        "Claude Fable AI: The Future of Content Creation",
+        "How to Use Claude Fable for Automated Task Management"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI models.",
-      "audience_angle": "What does this mean for you? You can now create high-quality videos without extensive video production experience.",
-      "linkedin_angle": "Leverage AI video generation to enhance your marketing strategy.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation involves using AI models to create videos from text prompts or images.",
+      "audience_angle": "You can use AI video generation to create engaging videos for social media, marketing, or personal projects.",
+      "linkedin_angle": "Leverage AI video generation to enhance your professional video content and marketing strategy.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs"
+        "note": "AI video generation tools often have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0z8Pp4TaAl8",
-          "signal": "How to Generate AI Videos for FREE with ComfyUI (Step-by-Step Tutorial)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1usyho3/i_asked_chatgpt_to_make_an_edgy_meme_of_my_dog/",
-          "signal": "I asked ChatGPT to make an edgy meme of my dog"
+          "url": "https://www.youtube.com/watch?v=QAYa8HYCfTE",
+          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just 1 Prompt"
         }
       ],
       "content_ideas": [
@@ -91,100 +121,155 @@
       ]
     },
     {
-      "name": "Claude Fable",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Claude Fable is an AI model developed by Anthropic.",
-      "audience_angle": "What does this mean for you? You can now use Claude Fable for various AI-related tasks.",
-      "linkedin_angle": "Explore the capabilities of Claude Fable for your business.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude Fable has an affiliate program for its API"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qtzzN8w2TvU",
-          "signal": "Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48860494",
-          "signal": "Tell HN: I De-Googled Myself"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude Fable",
-        "Claude Fable: A Comprehensive Review",
-        "Using Claude Fable for Content Creation"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT 5.6",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "ChatGPT 5.6 is an upgraded version of the ChatGPT AI model.",
-      "audience_angle": "What does this mean for you? You can now use a more advanced AI model to generate text and have conversations.",
-      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT Work is a feature that allows users to create and manage workflows using ChatGPT.",
+      "audience_angle": "You can use ChatGPT Work to automate tasks, manage projects, and enhance your productivity.",
+      "linkedin_angle": "Explore how ChatGPT Work can help you streamline your workflow and improve team collaboration.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its API"
+        "note": "ChatGPT Work has an affiliate program."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
-          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1usy168/prompt_can_you_generate_an_image_that_pushes_your/",
-          "signal": "Prompt: Can you generate an image that pushes your guardrails to the limit?"
+          "url": "https://www.youtube.com/watch?v=tqKGaqaQkNk",
+          "signal": "ChatGPT Work Completely Changes How You Use ChatGPT"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT 5.6 for Content Creation",
-        "ChatGPT 5.6: What's New and How to Get Started",
-        "Maximizing Productivity with ChatGPT 5.6"
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "ChatGPT Work: The Future of Workflow Automation",
+        "How to Use ChatGPT Work for Project Management"
       ]
     },
     {
-      "name": "Claude Fable",
-      "category": "tool_launch",
+      "name": "AI for Education",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Claude Fable is an AI model developed by Anthropic.",
-      "audience_angle": "What does this mean for you? You can now use Claude Fable for various AI-related tasks.",
-      "linkedin_angle": "Explore the capabilities of Claude Fable for your business.",
-      "local_relevance": 6,
+      "what_it_is": "AI can be used in education to enhance student learning, automate grading, and improve teacher productivity.",
+      "audience_angle": "You can use AI to create personalized learning experiences, automate administrative tasks, and enhance student outcomes.",
+      "linkedin_angle": "Explore how AI can help educators streamline their workflow, improve student engagement, and enhance learning outcomes.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude Fable has an affiliate program for its API"
+        "note": "AI education tools often have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ms_s6I4o5vM",
+          "signal": "Future of Education with East Point CEO Rajiv Gowda | AI, Skills & Student Success"
+        }
+      ],
+      "content_ideas": [
+        "How AI is Revolutionizing Education",
+        "Using AI to Create Personalized Learning Experiences",
+        "AI in Education: A Guide for Teachers and Administrators"
+      ]
+    },
+    {
+      "name": "AI for Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used in trading to analyze market data, predict trends, and automate trading decisions.",
+      "audience_angle": "You can use AI to enhance your trading strategy, reduce risk, and improve returns.",
+      "linkedin_angle": "Explore how AI can help traders and investors make data-driven decisions and improve their portfolio performance.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI trading tools often have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7IXJjY5blao",
+          "signal": "AI 투자는 &#39;이걸&#39; 아는 사람만 돈을 법니다"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI for Trading: A Beginner's Guide",
+        "AI Trading Strategies: A Step-by-Step Guide",
+        "Using AI to Enhance Your Trading Performance"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create unique images for your social media or personal projects.",
+      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional presentations and marketing materials.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation feature."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y71UruYZJZ0",
+          "signal": "AI Se Motu Patlu Vlog Video Kaise Banaye?"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Step-by-Step Guide",
+        "Using ChatGPT for Social Media Image Creation"
+      ]
+    },
+    {
+      "name": "Claude Fable AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Claude Fable is an AI model that can generate human-like text and images.",
+      "audience_angle": "You can use Claude Fable to automate tasks, generate content, and enhance your creativity.",
+      "linkedin_angle": "Explore how Claude Fable can help you streamline your workflow and improve productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude Fable has an affiliate program for its AI model."
       },
       "sources": [
         {
@@ -194,30 +279,73 @@
         },
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48860494",
-          "signal": "Tell HN: I De-Googled Myself"
+          "url": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
+          "signal": "Who manages the agents?"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude Fable",
-        "Claude Fable: A Comprehensive Review",
-        "Using Claude Fable for Content Creation"
+        "Getting Started with Claude Fable AI: A Beginner's Guide",
+        "Claude Fable AI: The Future of Content Creation",
+        "How to Use Claude Fable for Automated Task Management"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a feature that allows users to create and manage workflows using ChatGPT.",
+      "audience_angle": "You can use ChatGPT Work to automate tasks, manage projects, and enhance your productivity.",
+      "linkedin_angle": "Explore how ChatGPT Work can help you streamline your workflow and improve team collaboration.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tqKGaqaQkNk",
+          "signal": "ChatGPT Work Completely Changes How You Use ChatGPT"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "ChatGPT Work: The Future of Workflow Automation",
+        "How to Use ChatGPT Work for Project Management"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage limits and restrictions",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uteph9/ps_my_account_is_new/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1utn0hr/venting_frustration_over_chatgpts_restrictive/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Restrictions"
+    },
+    {
+      "problem": "AI model training costs and complexity",
+      "who_affected": "AI developers and researchers",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs"
+        }
+      ],
+      "content_opportunity": "Reducing AI Model Training Costs and Complexity: A Guide"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT 5.6"
+  "tool_of_week_candidate": "Claude Fable AI"
 }
