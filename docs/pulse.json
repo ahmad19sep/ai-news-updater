@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T08:15:38.888579+00:00",
+  "generated_at": "2026-07-11T13:56:20.656443+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,42 +9,48 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "You can create unique images using just text prompts with ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT image generation can enhance your professional content creation.",
+      "what_it_is": "ChatGPT 5.6 is an upgraded version of the ChatGPT AI model.",
+      "audience_angle": "What does this mean for you? You can now use a more advanced AI model to generate text and have conversations.",
+      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT image generation."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its API"
       },
       "sources": [
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
+          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
+        },
+        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1usy168/prompt_can_you_generate_an_image_that_pushes_your/",
+          "signal": "Prompt: Can you generate an image that pushes your guardrails to the limit?"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "Using ChatGPT for Professional Image Generation",
-        "ChatGPT Image Generation: Tips and Tricks"
+        "How to Use ChatGPT 5.6 for Content Creation",
+        "ChatGPT 5.6: What's New and How to Get Started",
+        "Maximizing Productivity with ChatGPT 5.6"
       ]
     },
     {
@@ -55,254 +61,147 @@
         "youtube",
         "reddit"
       ],
-      "what_it_is": "AI can generate videos based on text prompts or other inputs.",
-      "audience_angle": "You can create videos using AI, making content creation easier and faster.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your content strategy.",
+      "what_it_is": "AI video generation is a technology that allows users to create videos using AI models.",
+      "audience_angle": "What does this mean for you? You can now create high-quality videos without extensive video production experience.",
+      "linkedin_angle": "Leverage AI video generation to enhance your marketing strategy.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs."
+        "note": "Some AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XR_HJxrULI0",
-          "signal": "FREE Unlimited AI Video Generator Without Watermark"
+          "url": "https://www.youtube.com/watch?v=0z8Pp4TaAl8",
+          "signal": "How to Generate AI Videos for FREE with ComfyUI (Step-by-Step Tutorial)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1usyho3/i_asked_chatgpt_to_make_an_edgy_meme_of_my_dog/",
+          "signal": "I asked ChatGPT to make an edgy meme of my dog"
         }
       ],
       "content_ideas": [
-        "Making Money with AI-Generated Videos",
-        "AI Video Generation for Beginners",
-        "How to Use AI for Video Content Creation"
+        "How to Create Stunning AI-Generated Videos",
+        "AI Video Generation: A Step-by-Step Guide",
+        "Using AI Video Generation for Social Media Marketing"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Claude Fable",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a tool that can be used for various tasks, including content generation and automation.",
-      "audience_angle": "You can use Claude AI to automate tasks and generate content, saving you time and effort.",
-      "linkedin_angle": "Explore how Claude AI can enhance your productivity and workflow.",
+      "what_it_is": "Claude Fable is an AI model developed by Anthropic.",
+      "audience_angle": "What does this mean for you? You can now use Claude Fable for various AI-related tasks.",
+      "linkedin_angle": "Explore the capabilities of Claude Fable for your business.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program for its services."
+        "note": "Claude Fable has an affiliate program for its API"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VzhY_-IYwoU",
-          "signal": "8 Claude AI Side Hustles That Replace a Full-Time Job"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude AI",
-        "Claude AI for Content Generation",
-        "How to Use Claude AI for Automation"
-      ]
-    },
-    {
-      "name": "Gemini AI",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Gemini AI is a tool developed by Google, offering various AI-powered features.",
-      "audience_angle": "You can use Gemini AI for tasks like video editing and content generation, making your workflow more efficient.",
-      "linkedin_angle": "Discover how Gemini AI can enhance your professional workflow and productivity.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Gemini AI."
-      },
-      "sources": [
+          "url": "https://www.youtube.com/watch?v=qtzzN8w2TvU",
+          "signal": "Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS"
+        },
         {
           "platform": "hackernews",
-          "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
-          "signal": "Please don't discontinue Gemini 2.5 Flash"
+          "url": "https://news.ycombinator.com/item?id=48860494",
+          "signal": "Tell HN: I De-Googled Myself"
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini AI",
-        "Gemini AI for Video Editing",
-        "How to Use Gemini AI for Content Generation"
-      ]
-    },
-    {
-      "name": "AI for Education",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI can be used in education to enhance learning experiences and improve outcomes.",
-      "audience_angle": "You can use AI to make learning more engaging and effective, whether you're a student or an educator.",
-      "linkedin_angle": "Explore how AI can revolutionize education and enhance your professional development.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some educational platforms offer affiliate programs for AI-powered tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nJV7wDUKoRs",
-          "signal": "How this AI technology changing lives of Students"
-        }
-      ],
-      "content_ideas": [
-        "Using AI for Personalized Learning",
-        "AI in Education: Trends and Innovations",
-        "How to Integrate AI into Your Teaching Practice"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI can be used for trading, helping with predictions and decision-making.",
-      "audience_angle": "You can use AI to improve your trading outcomes and make more informed decisions.",
-      "linkedin_angle": "Discover how AI can enhance your trading strategy and performance.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some trading platforms offer affiliate programs for AI-powered tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+trade+stocks",
-          "signal": "How to use AI to trade stocks"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with AI Trading",
-        "AI Trading Strategies",
-        "How to Use AI for Stock Market Predictions"
+        "Getting Started with Claude Fable",
+        "Claude Fable: A Comprehensive Review",
+        "Using Claude Fable for Content Creation"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "You can create unique images using just text prompts with ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT image generation can enhance your professional content creation.",
+      "what_it_is": "ChatGPT 5.6 is an upgraded version of the ChatGPT AI model.",
+      "audience_angle": "What does this mean for you? You can now use a more advanced AI model to generate text and have conversations.",
+      "linkedin_angle": "Upgrade your productivity with the latest ChatGPT 5.6 model.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT image generation."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its API"
       },
       "sources": [
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NLg8LomwLC8",
+          "signal": "ChatGPT’s New Updates Are MIND BLOWING! (ChatGPT Work, Plugins & GPT 5.6 Upgrade)"
+        },
+        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1usy168/prompt_can_you_generate_an_image_that_pushes_your/",
+          "signal": "Prompt: Can you generate an image that pushes your guardrails to the limit?"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "Using ChatGPT for Professional Image Generation",
-        "ChatGPT Image Generation: Tips and Tricks"
+        "How to Use ChatGPT 5.6 for Content Creation",
+        "ChatGPT 5.6: What's New and How to Get Started",
+        "Maximizing Productivity with ChatGPT 5.6"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Claude Fable",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube",
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a tool that can be used for various tasks, including content generation and automation.",
-      "audience_angle": "You can use Claude AI to automate tasks and generate content, saving you time and effort.",
-      "linkedin_angle": "Explore how Claude AI can enhance your productivity and workflow.",
+      "what_it_is": "Claude Fable is an AI model developed by Anthropic.",
+      "audience_angle": "What does this mean for you? You can now use Claude Fable for various AI-related tasks.",
+      "linkedin_angle": "Explore the capabilities of Claude Fable for your business.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program for its services."
+        "note": "Claude Fable has an affiliate program for its API"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VzhY_-IYwoU",
-          "signal": "8 Claude AI Side Hustles That Replace a Full-Time Job"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude AI",
-        "Claude AI for Content Generation",
-        "How to Use Claude AI for Automation"
-      ]
-    },
-    {
-      "name": "Gemini AI",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Gemini AI is a tool developed by Google, offering various AI-powered features.",
-      "audience_angle": "You can use Gemini AI for tasks like video editing and content generation, making your workflow more efficient.",
-      "linkedin_angle": "Discover how Gemini AI can enhance your professional workflow and productivity.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Gemini AI."
-      },
-      "sources": [
+          "url": "https://www.youtube.com/watch?v=qtzzN8w2TvU",
+          "signal": "Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS"
+        },
         {
           "platform": "hackernews",
-          "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
-          "signal": "Please don't discontinue Gemini 2.5 Flash"
+          "url": "https://news.ycombinator.com/item?id=48860494",
+          "signal": "Tell HN: I De-Googled Myself"
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini AI",
-        "Gemini AI for Video Editing",
-        "How to Use Gemini AI for Content Generation"
+        "Getting Started with Claude Fable",
+        "Claude Fable: A Comprehensive Review",
+        "Using Claude Fable for Content Creation"
       ]
     }
   ],
@@ -314,23 +213,11 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1utdmdj/whatever_happened_to_chatgpt_for_adult_content/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uteph9/ps_my_account_is_new/"
         }
       ],
       "content_opportunity": "Workarounds for ChatGPT usage limits"
-    },
-    {
-      "problem": "AI model complexity",
-      "who_affected": "AI developers and users",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power"
-        }
-      ],
-      "content_opportunity": "Simplifying AI model complexity for beginners"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT 5.6"
 }
