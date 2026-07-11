@@ -39,12 +39,12 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVpOSjRjSTh3NlN3S1pyMWNSOC14ODVHNVVjNUFZNWlPWnhOcGZmUlMyV0pvUHVjYjNudjV3TGo2Y2t5WjVpMDBHQzE2bUFCVkt6VFpEZjB5bWdaZDhSZ3JoYjZNVzdDVmhBanpvSUpNWl9ad0djNUJxZWJKMFlqdi1RMjBVdGxzODZieW1qMkZxaUdmc1lkYS1EanNYV3ZG?oc=5
 7. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — AI in Health — Score 58
    https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
-8. **Meta unveils Muse Image as Zuckerberg escalates AI race against OpenAI, Google - Business News Nigeria** — Meta AI News — Score 55
-   https://news.google.com/rss/articles/CBMi8wFBVV95cUxQU3ZMVlJzTWszNUtmSGR4enhtWDRIc3FJSjU3OWJXU3NNQWR2ZGg1MjNVNzRWRUxuSVFDeFBSNEhuaE9YWkh1c2lEVDZBdHBlVlJUcFJreFgzRnNpNmRWaWFxSnE4Sko3OHBzeFhCUnBKV29KcjRCeXBhRDRiMzlZakJjVVhMMlRTM0R4MF9jR1JsemtuOXhOZEZkdXk3SGRpMjVyZjJtLUI2RzJWUzd3ZWZUMk9wZk56TWMzYkZVZk5VSnVnUXdmdkJ0b3RLNW1oY3RvMnRVMUU1b2JYYjYyd2tPcHJBQ2Z1VDluNmlxTmRwejA?oc=5
-9. **AI is already reshaping US politics at every level** — arcamax — Score 53
-   https://www.arcamax.com/newsheadlines/s-4244522
-10. **Reservoir Farms Launches Pilot in Arizona for Physical AI Innovation in Specialty Crops - Yahoo Finance** — AI in Agriculture — Score 51
+8. **Reservoir Farms Launches Pilot in Arizona for Physical AI Innovation in Specialty Crops - Yahoo Finance** — AI in Agriculture — Score 58
    https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDBSM1NtRTd6bTdTaUhNSlBCS1hid1htZFk4UWNoQXY2NHBEYVMzUHpjb3RpaXI3SzVZLXJremh2ZmpaTXlnNWJsTlV0eHlMd0x0NTFQQlNSYzctZ1M2NDFSUVNjcWhvd2JLc1FFTVQ4MFA2bC05M0doQkxzT0ZVUE05QlVqY0VRMUtLdnlfZmhWTnBWMDI0eUs2UGY4SWJTOTNiUw?oc=5
+9. **Meta unveils Muse Image as Zuckerberg escalates AI race against OpenAI, Google - Business News Nigeria** — Meta AI News — Score 55
+   https://news.google.com/rss/articles/CBMi8wFBVV95cUxQU3ZMVlJzTWszNUtmSGR4enhtWDRIc3FJSjU3OWJXU3NNQWR2ZGg1MjNVNzRWRUxuSVFDeFBSNEhuaE9YWkh1c2lEVDZBdHBlVlJUcFJreFgzRnNpNmRWaWFxSnE4Sko3OHBzeFhCUnBKV29KcjRCeXBhRDRiMzlZakJjVVhMMlRTM0R4MF9jR1JsemtuOXhOZEZkdXk3SGRpMjVyZjJtLUI2RzJWUzd3ZWZUMk9wZk56TWMzYkZVZk5VSnVnUXdmdkJ0b3RLNW1oY3RvMnRVMUU1b2JYYjYyd2tPcHJBQ2Z1VDluNmlxTmRwejA?oc=5
+10. **AI is already reshaping US politics at every level** — arcamax — Score 53
+   https://www.arcamax.com/newsheadlines/s-4244522
 
 ## 🧪 AI in Science Highlights
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3214
+- Total stories tracked: 3225
 - Most active topic: openai
 - Busiest category: AI General News
 
