@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3BpNHVBNnQ1e
 - **States Move to License AI Doctors as the FDA Steps Back - PYMNTS.com** — https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFlJMDhWcDJxNmJ6cmlnRUR6b1llTjJvUk5JUVRoQ3dsVmNMU0pxb3N5NkZ0TnNuMW5uVE1FU2dQMTREQlduMm41TlRRY0J4SnhaSFFycU1mcFFnQWtjR1I4OEFIR3Mwa212WF9lTkJnSFlCaVo0Sm5xdTNrTk1ZdExBUlhlejAzVk16Y1FYeEt4dzZhdVRjR3FIMA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3248
+- Total stories tracked: 3257
 - Most active topic: openai
 - Busiest category: AI General News
 
