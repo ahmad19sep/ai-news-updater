@@ -43,8 +43,8 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
    https://www.arcamax.com/newsheadlines/s-4244522
 9. **Reservoir Farms Launches Pilot in Arizona for Physical AI Innovation in Specialty Crops - Yahoo Finance** — AI in Agriculture — Score 51
    https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDBSM1NtRTd6bTdTaUhNSlBCS1hid1htZFk4UWNoQXY2NHBEYVMzUHpjb3RpaXI3SzVZLXJremh2ZmpaTXlnNWJsTlV0eHlMd0x0NTFQQlNSYzctZ1M2NDFSUVNjcWhvd2JLc1FFTVQ4MFA2bC05M0doQkxzT0ZVUE05QlVqY0VRMUtLdnlfZmhWTnBWMDI0eUs2UGY4SWJTOTNiUw?oc=5
-10. **MemeToro Launches BNB AI Agent for Fair-Launch Memecoin Creation and On-Chain Prediction Markets - Carroll County Mirror-Democrat** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0g4el9WeGF3WVhhdEh2Rk92RmJUYWJhWnV3ZFk2YjllZ1I1WjNUc2hiX2pEdXl2UDU0SERBM1pOUE9GNFRKcHJoRERhaFZHV051NExDV1B5WVNDbmJnNXZZU1ZzMlRIS3lyR01QYUVGZUdTTXd4M21hVFpLdXpuREtySjhldFBlS2w2TGxBQ2h1YVZBQTFDUmhra0RsWFdkdnZkYTdDN1BIZTZkYV9CdktzYXlSOEk?oc=5
+10. **Apple lawsuit accuses OpenAI of stealing trade secrets - The Times** — Sam Altman News — Score 51
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVpOSjRjSTh3NlN3S1pyMWNSOC14ODVHNVVjNUFZNWlPWnhOcGZmUlMyV0pvUHVjYjNudjV3TGo2Y2t5WjVpMDBHQzE2bUFCVkt6VFpEZjB5bWdaZDhSZ3JoYjZNVzdDVmhBanpvSUpNWl9ad0djNUJxZWJKMFlqdi1RMjBVdGxzODZieW1qMkZxaUdmc1lkYS1EanNYV3ZG?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - SRN News** — https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE1pVGxnVkZ6bDBDemVab2Y3YnlhMzlMUVF6WmVac3BuRXFuQUVtZUNpcVFVOGhId3VNZndFUVZySmFZWFU3SW1QTi1zZFFscHJwQU9GbVNNWUNFRnp2LVNQQUNrYmR0ZkpocDhveHRRM1RjOE1vR0I5bHEwckRVM3h5LUdNSXlKVmlFbWV5RkVydEdGZXcwUXZ0SV9vWG5sMTNYQVpUbjFDdXlRaU1GVjVZdDJ5dw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3218
+- Total stories tracked: 3233
 - Most active topic: openai
 - Busiest category: AI General News
 
