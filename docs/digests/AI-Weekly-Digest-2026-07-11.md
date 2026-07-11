@@ -2,7 +2,7 @@
 
 ## 🔥 Biggest Story of the Week
 **Xero adds AI tools to JAX for small business finance**
-Covered by 8 source(s) · Score: 86
+Covered by 8 source(s) · Score: 83
 Best source link: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance
 All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://cfotech.co.nz/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://cfotech.com.au/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.in/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.com.au/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://itbrief.co.nz/story/xero-adds-ai-tools-to-jax-for-small-business-finance · https://cfotech.in/story/xero-adds-ai-tools-to-jax-for-small-business-finance
 
@@ -25,7 +25,7 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
    https://www.theregister.com/ai-and-ml/2026/07/09/brown-says-ai-make-class-dumb-teacher-must-help-use-better/5269291
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **Xero adds AI tools to JAX for small business finance** — cfotech_asia — Score 86
+1. **Xero adds AI tools to JAX for small business finance** — cfotech_asia — Score 83
    https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance
 2. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 66
    https://news.google.com/rss/articles/CBMikgFBVV95cUxPczRKaVhpQnlDYnBRbVFGakc5bF9FODI2OWFZenZLeHR6Wkg3S1JtMEFYWDM4SngwNUpXMUlROFdtTmc4QUhLSEhxRFo1ckdXNkp1TDRkLUZ1VHNhNXVaTGVPdFdqSmhNendIQkRVaExkZm1uU214QmR4NlBod21URE5RTkxrTldHRUxNbktFN1ozZw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-bus
 - **AI to augment, not replace doctors, says AIG Hospitals chairman - MorungExpress** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmdxdzJrYVNzZEMwS3gzWGhHSXhzd0YyQjNRRURVY1VFX3M2LUd0TF9BOEFMUzNGQzhzNmFnUldBUFRFdUhhZlNzS3o3RENjV0pSYUM0am8tOVpoNDFLZ0lGLW80ZTZ2YWl2cW5ZdHFmcGRhbUdJSGlUNzhwRDFpc0FlZDBNYVRlYzNJb19DUXI?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3182
+- Total stories tracked: 3196
 - Most active topic: openai
 - Busiest category: AI General News
 
