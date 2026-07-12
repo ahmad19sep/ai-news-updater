@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3269
+- Total stories tracked: 3259
 - Most active topic: openai
 - Busiest category: AI General News
 
