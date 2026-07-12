@@ -5135,7 +5135,7 @@ function showXResult(url) {
 
 /* ---- Publish to the public website (owner only; writes to Firebase /published) ---- */
 let pubStory = null, pubImageData = "", lastPubArt = null;
-const PUBLIC_SITE = "https://radar.hafizahmad.com";
+const PUBLIC_SITE = "https://ahmad19sep.github.io/ai-news-updater";
 function pubBase() { return FBURL ? FBURL.replace(/\/+$/, "") + "/published" : ""; }
 /* Resize an uploaded picture in-browser to a small JPEG data URL (no image host needed). */
 document.getElementById("pub-file").onchange = (e) => {
@@ -5183,7 +5183,7 @@ function makePoster() {
     const lh = 74; let y = H - 150 - (lines.length - 1) * lh;
     lines.forEach(l => { x.fillText(l, 60, y); y += lh; });
     x.font = "700 30px Inter, Arial, sans-serif"; x.fillStyle = "#e8edfb"; x.fillText("📡 AI Radar", 60, H - 58);
-    x.font = "500 22px Inter, Arial, sans-serif"; x.fillStyle = "#9fb0d6"; x.fillText("radar.hafizahmad.com", 60, H - 26);
+    x.font = "500 22px Inter, Arial, sans-serif"; x.fillStyle = "#9fb0d6"; x.fillText("@aixahmad", 60, H - 26);
     pubImageData = c.toDataURL("image/jpeg", 0.85);
     const pv = document.getElementById("pub-preview"); pv.src = pubImageData; pv.style.display = "";
     document.getElementById("pub-imgnote").textContent = "🖼️ poster ready";
@@ -5509,7 +5509,7 @@ function nrMakePoster() {
     const lines = _wrapLines(x, title, W - 120).slice(0, 4); const lh = 74; let y = H - 150 - (lines.length - 1) * lh;
     lines.forEach(l => { x.fillText(l, 60, y); y += lh; });
     x.font = "700 30px Inter, Arial, sans-serif"; x.fillStyle = "#e8edfb"; x.fillText("📡 AI Radar", 60, H - 58);
-    x.font = "500 22px Inter, Arial, sans-serif"; x.fillStyle = "#9fb0d6"; x.fillText("radar.hafizahmad.com", 60, H - 26);
+    x.font = "500 22px Inter, Arial, sans-serif"; x.fillStyle = "#9fb0d6"; x.fillText("@aixahmad", 60, H - 26);
     nrImg = c.toDataURL("image/jpeg", 0.85);
     const pv = document.getElementById("nr-preview"); pv.src = nrImg; pv.style.display = ""; toast("Poster made 🖼️");
   };

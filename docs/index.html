@@ -11,19 +11,19 @@
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="keywords" content="AI news, artificial intelligence news, AI models, AI tools, machine learning news, LLM, ChatGPT, generative AI, AI research">
 <meta name="author" content="AI Radar">
-<link rel="canonical" href="https://radar.hafizahmad.com/">
+<link rel="canonical" href="https://ahmad19sep.github.io/ai-news-updater/">
 
 <meta property="og:site_name" content="AI Radar">
 <meta property="og:title" content="AI Radar — Latest AI News">
 <meta property="og:description" content="Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://radar.hafizahmad.com/">
+<meta property="og:url" content="https://ahmad19sep.github.io/ai-news-updater/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@aixahmad">
 <meta name="twitter:title" content="AI Radar — Latest AI News">
 <meta name="twitter:description" content="Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "AI Radar", "url": "https://radar.hafizahmad.com/", "description": "Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.", "inLanguage": "en", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://radar.hafizahmad.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "NewsMediaOrganization", "name": "AI Radar", "url": "https://radar.hafizahmad.com/", "logo": {"@type": "ImageObject", "url": "https://radar.hafizahmad.com/favicon.svg"}, "email": "get.shahzadsaddique@gmail.com", "sameAs": ["https://x.com/aixahmad", "https://youtube.com/@aixahmad"]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "AI Radar", "url": "https://ahmad19sep.github.io/ai-news-updater/", "description": "Breaking artificial-intelligence news, every day: new models and tools, AI in science, business, and research — updated every 30 minutes, with links to the original sources.", "inLanguage": "en", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://ahmad19sep.github.io/ai-news-updater/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "NewsMediaOrganization", "name": "AI Radar", "url": "https://ahmad19sep.github.io/ai-news-updater/", "logo": {"@type": "ImageObject", "url": "https://ahmad19sep.github.io/ai-news-updater/favicon.svg"}, "email": "get.shahzadsaddique@gmail.com", "sameAs": ["https://x.com/aixahmad", "https://youtube.com/@aixahmad"]}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&display=swap" rel="stylesheet">
@@ -231,7 +231,7 @@
 <div class="ticker">
   <span class="bk"><span class="d"></span>BREAKING</span>
   <div class="tkrow" id="ticker"></div>
-  <span class="tklive mono">LIVE · 12 Jul, 10:01 UTC</span>
+  <span class="tklive mono">LIVE · 12 Jul, 10:21 UTC</span>
 </div>
 
 <header class="mast">
@@ -338,7 +338,7 @@ let pillar = 0, hotOnly = false, q = "", shown = PAGE, PUBS = [];
 let SAVED = new Set(JSON.parse(localStorage.getItem("air_saved") || "[]"));
 
 document.getElementById("yr").textContent = new Date().getFullYear();
-document.getElementById("updlabel").textContent = "UPDATED 12 Jul, 10:01 UTC · REFRESHES EVERY 30 MIN · " + ITEMS.length + " STORIES";
+document.getElementById("updlabel").textContent = "UPDATED 12 Jul, 10:21 UTC · REFRESHES EVERY 30 MIN · " + ITEMS.length + " STORIES";
 
 function ago(iso){ if(!iso) return ""; const s=(Date.now()-new Date(iso).getTime())/1000;
   if(s<3600) return Math.max(1,s/60|0)+" min ago"; if(s<86400) return (s/3600|0)+"h ago"; return (s/86400|0)+"d ago"; }
@@ -499,7 +499,7 @@ function openArticle(i){
 function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow="";
   try{ history.replaceState(null,"",location.pathname+location.search); }catch(e){} }
 document.getElementById("reader").addEventListener("click",e=>{ if(e.target.id==="reader") closeArticle(); });
-/* deep link: radar.hafizahmad.com/#a=<id> opens that article (used by shares) */
+/* deep link: #a=<id> opens that article (used by shares) */
 function openArticleFromHash(){
   const m=(location.hash||"").match(/a=([^&]+)/); if(!m) return;
   const idx=PUBS.findIndex(p=>String(p.id)===m[1]); if(idx>=0) openArticle(idx);
