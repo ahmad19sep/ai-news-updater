@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 04 Jul 2026 to 11 Jul 2026
+# 🗞️ AI THIS WEEK — 05 Jul 2026 to 12 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Trump administration targets state AI laws over ideology - Stateline**
@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3BpNHVBNnQ1e
    https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
 6. **One in four Americans turn to AI chatbots for medical advice because they can’t afford to see a doctor - Yahoo News Canada** — science angle
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
-7. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
+7. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
+   https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
+8. **Quantum mechanics once baffled scientists. Now it's changing the world** — science angle
    https://www.sciencedaily.com/releases/2026/06/260624025516.htm
-8. **Brown says AI make student brain no work good, teacher should help use it better** — 1 upvotes on Reddit/HN
-   https://www.theregister.com/ai-and-ml/2026/07/09/brown-says-ai-make-class-dumb-teacher-must-help-use-better/5269291
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Trump administration targets state AI laws over ideology - Stateline** — Elon Musk AI News — Score 86
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3BpNHVBNnQ1e
 - **States Move to License AI Doctors as the FDA Steps Back - PYMNTS.com** — https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFlJMDhWcDJxNmJ6cmlnRUR6b1llTjJvUk5JUVRoQ3dsVmNMU0pxb3N5NkZ0TnNuMW5uVE1FU2dQMTREQlduMm41TlRRY0J4SnhaSFFycU1mcFFnQWtjR1I4OEFIR3Mwa212WF9lTkJnSFlCaVo0Sm5xdTNrTk1ZdExBUlhlejAzVk16Y1FYeEt4dzZhdVRjR3FIMA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3222
+- Total stories tracked: 3238
 - Most active topic: openai
 - Busiest category: AI General News
 
