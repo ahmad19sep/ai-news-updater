@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T13:57:53.307452+00:00",
+  "generated_at": "2026-07-12T19:33:31.819944+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,79 +8,85 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 25,
+      "reddit": 38,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with just a text prompt.",
-      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy.",
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate unique images for your projects or social media.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TUu5SuFcf44",
+          "signal": "ChatGPT Work Just Changed Everything (5 Prompts to Try First)"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for marketing",
-        "Creating art with ChatGPT Images 2.0",
-        "The future of image generation with ChatGPT"
+        "How to Generate Images with ChatGPT",
+        "5 Creative Ways to Use ChatGPT Image Generation",
+        "ChatGPT Image Generation: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "Midjourney AI Art",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new feature of ChatGPT that enables users to complete tasks more efficiently.",
-      "audience_angle": "Get more done with ChatGPT Work.",
-      "linkedin_angle": "Boost your productivity with ChatGPT Work.",
-      "local_relevance": 8,
+      "what_it_is": "Midjourney is an AI-powered art tool that generates images based on text prompts.",
+      "audience_angle": "You can use Midjourney to create stunning AI-generated art for your personal or professional projects.",
+      "linkedin_angle": "Discover how Midjourney's AI art can elevate your brand's visual identity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Midjourney has a referral program for its AI art tool."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TUu5SuFcf44",
-          "signal": "ChatGPT Work Just Changed Everything"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1uu2o62/the_trolls/",
+          "signal": "The Trolls"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2j4kXOi_bbE",
+          "signal": "Motu Patlu AI Video Kaise Banaye | Motu Patlu AI Video Editing | Motu Patlu AI Video Prompt"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for task automation",
-        "ChatGPT Work vs other productivity tools",
-        "The benefits of using ChatGPT Work for business"
+        "Getting Started with Midjourney AI Art",
+        "10 Tips for Creating Stunning AI Art with Midjourney",
+        "Midjourney AI Art: A Game-Changer for Creative Professionals"
       ]
     },
     {
@@ -90,12 +96,12 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI to generate videos from text prompts or other inputs.",
-      "audience_angle": "Create stunning videos with just a text prompt.",
-      "linkedin_angle": "Explore how AI-generated videos can enhance your marketing strategy.",
-      "local_relevance": 6,
+      "what_it_is": "AI video generation tools allow users to create videos based on text prompts or images.",
+      "audience_angle": "You can use AI video generation to create engaging videos for your social media or marketing campaigns.",
+      "linkedin_angle": "Explore how AI video generation can streamline your video content creation process.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "reel",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
@@ -104,226 +110,204 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YneTs02FcuQ",
-          "signal": "ai video kaise banaye"
+          "url": "https://www.youtube.com/watch?v=0z8Pp4TaAl8",
+          "signal": "How to Generate AI Videos for FREE with ComfyUI (Step-by-Step Tutorial)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QAYa8HYCfTE",
+          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just 1 Prompt"
         }
       ],
       "content_ideas": [
-        "How to use AI for video generation",
-        "The best AI video generation tools",
-        "The future of video creation with AI"
+        "How to Create AI-Generated Videos for Your Business",
+        "5 AI Video Generation Tools You Need to Try",
+        "The Future of Video Content: AI-Generated Videos"
       ]
     },
     {
-      "name": "Motu Patlu AI Video",
+      "name": "ChatGPT for Business",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "linkedin"
+      ],
+      "what_it_is": "ChatGPT can be used for various business purposes, such as content generation, customer support, and more.",
+      "audience_angle": "You can leverage ChatGPT to streamline your business operations and improve productivity.",
+      "linkedin_angle": "Discover how ChatGPT can transform your business and stay ahead of the competition.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has a business plan with additional features and support."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TUu5SuFcf44",
+          "signal": "ChatGPT Work Just Changed Everything (5 Prompts to Try First)"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7036441555314240000/",
+          "signal": "How to Use ChatGPT for Business"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Customer Support",
+        "5 Ways to Leverage ChatGPT for Your Business",
+        "ChatGPT for Business: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "AI for Education",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used in education to create personalized learning experiences, automate grading, and more.",
+      "audience_angle": "You can use AI to enhance your learning experience and improve your academic performance.",
+      "linkedin_angle": "Explore how AI can revolutionize the education sector and create new opportunities.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No direct affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJV7wDUKoRs",
+          "signal": "How this AI technology changing lives of Students"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ms_s6I4o5vM",
+          "signal": "Future of Education with East Point CEO Rajiv Gowda | AI, Skills & Student Success"
+        }
+      ],
+      "content_ideas": [
+        "How AI is Revolutionizing Education",
+        "5 Ways AI Can Enhance Your Learning Experience",
+        "The Future of Education: AI-Powered Learning"
+      ]
+    },
+    {
+      "name": "AI for Making Money",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI to generate videos featuring the popular cartoon characters Motu Patlu.",
-      "audience_angle": "Create fun videos with Motu Patlu using AI.",
-      "linkedin_angle": "Explore how AI-generated videos can enhance your marketing strategy.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=GEstUKBeHKA",
-          "signal": "Instagram Viral Motu Patlu AI Video Kaise Banaye"
-        }
-      ],
-      "content_ideas": [
-        "How to create Motu Patlu AI videos",
-        "The best AI tools for Motu Patlu video generation",
-        "The future of cartoon video creation with AI"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "The use of AI to automate tasks and processes.",
-      "audience_angle": "Get more done with AI agents.",
-      "linkedin_angle": "Boost your productivity with AI agents.",
+      "what_it_is": "AI can be used to generate income through various means, such as affiliate marketing, content creation, and more.",
+      "audience_angle": "You can leverage AI to create new income streams and increase your earnings.",
+      "linkedin_angle": "Discover how AI can help you generate passive income and achieve financial freedom.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI agent tools offer affiliate programs."
+        "note": "Some AI tools and courses offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OKw8N3V8Axo",
-          "signal": "Moms Are Making $250k/Year: How To Build An Audience That Buys Using The NEW AI Agent"
+          "url": "https://www.youtube.com/watch?v=DZoeGR_tatA",
+          "signal": "5 Proven Ways To Make Money With AI (No Experience)"
         },
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48860494",
-          "signal": "Tell HN: I De-Googled Myself"
-        }
-      ],
-      "content_ideas": [
-        "How to use AI agents for task automation",
-        "The best AI agent tools for business",
-        "The future of work with AI agents"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "A new AI tool for task automation and content generation.",
-      "audience_angle": "Get more done with Claude AI.",
-      "linkedin_angle": "Boost your productivity with Claude AI.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program."
-      },
-      "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
-          "signal": "7 Claude AI Side Hustles That Pay More Than a 9-5"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
-          "signal": "Who manages the agents?"
+          "url": "https://www.youtube.com/watch?v=qEG-VV948qs",
+          "signal": "Earning money with AI"
         }
       ],
       "content_ideas": [
-        "How to use Claude AI for task automation",
-        "The best Claude AI tools for business",
-        "The future of work with Claude AI"
+        "How to Make Money with AI: A Beginner's Guide",
+        "5 AI-Powered Ways to Generate Passive Income",
+        "AI for Making Money: A Step-by-Step Guide"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with just a text prompt.",
-      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy.",
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to generate unique images for your projects or social media.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT Images 2.0 for marketing",
-        "Creating art with ChatGPT Images 2.0",
-        "The future of image generation with ChatGPT"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "A new feature of ChatGPT that enables users to complete tasks more efficiently.",
-      "audience_angle": "Get more done with ChatGPT Work.",
-      "linkedin_angle": "Boost your productivity with ChatGPT Work.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=TUu5SuFcf44",
-          "signal": "ChatGPT Work Just Changed Everything"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+          "signal": "ChatGPT Work Just Changed Everything (5 Prompts to Try First)"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for task automation",
-        "ChatGPT Work vs other productivity tools",
-        "The benefits of using ChatGPT Work for business"
+        "How to Generate Images with ChatGPT",
+        "5 Creative Ways to Use ChatGPT Image Generation",
+        "ChatGPT Image Generation: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Midjourney AI Art",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new AI tool for task automation and content generation.",
-      "audience_angle": "Get more done with Claude AI.",
-      "linkedin_angle": "Boost your productivity with Claude AI.",
-      "local_relevance": 8,
+      "what_it_is": "Midjourney is an AI-powered art tool that generates images based on text prompts.",
+      "audience_angle": "You can use Midjourney to create stunning AI-generated art for your personal or professional projects.",
+      "linkedin_angle": "Discover how Midjourney's AI art can elevate your brand's visual identity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program."
+        "note": "Midjourney has a referral program for its AI art tool."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
-          "signal": "7 Claude AI Side Hustles That Pay More Than a 9-5"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1uu2o62/the_trolls/",
+          "signal": "The Trolls"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
-          "signal": "Who manages the agents?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2j4kXOi_bbE",
+          "signal": "Motu Patlu AI Video Kaise Banaye | Motu Patlu AI Video Editing | Motu Patlu AI Video Prompt"
         }
       ],
       "content_ideas": [
-        "How to use Claude AI for task automation",
-        "The best Claude AI tools for business",
-        "The future of work with Claude AI"
+        "Getting Started with Midjourney AI Art",
+        "10 Tips for Creating Stunning AI Art with Midjourney",
+        "Midjourney AI Art: A Game-Changer for Creative Professionals"
       ]
     }
   ],
@@ -338,20 +322,20 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uuflmm/with_how_ram_are_getting_expensive_they_left_us/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
+      "content_opportunity": "How to Optimize ChatGPT Usage and Avoid Limits"
     },
     {
-      "problem": "AI video generation costs",
-      "who_affected": "AI video creators",
+      "problem": "AI video generation quality issues",
+      "who_affected": "AI video generation tool users",
       "signal_strength": 5,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YneTs02FcuQ"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1uu9dya/same_prompt_only_sref_digit_changed_79_how_much/"
         }
       ],
-      "content_opportunity": "How to reduce AI video generation costs"
+      "content_opportunity": "Tips for Improving AI Video Generation Quality"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Work"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
