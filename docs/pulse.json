@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T03:59:58.624993+00:00",
+  "generated_at": "2026-07-12T08:32:28.660074+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 27,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,9 +23,9 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "You can create amazing images with just a few words.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design efforts.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can create amazing images with just text prompts.",
+      "linkedin_angle": "Automate your content creation with AI image generation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -42,14 +42,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XR_HJxrULI0",
-          "signal": "FREE Unlimited AI Video Generator Without Watermark | Image to Video AI Free | Ai Video Kaise Banaye"
+          "url": "https://www.youtube.com/watch?v=QAYa8HYCfTE",
+          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just 1 Prompt"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT Image Generation for Your Business",
-        "The Future of Art: How ChatGPT is Revolutionizing Image Creation"
+        "10 Amazing ChatGPT Image Generation Examples",
+        "ChatGPT Image Generation Tutorial for Beginners"
       ]
     },
     {
@@ -59,132 +59,80 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation tools can create videos based on user prompts or text.",
-      "audience_angle": "You can create professional-looking videos without extensive video production experience.",
-      "linkedin_angle": "Discover how AI video generation can streamline your video content creation and enhance your marketing strategy.",
+      "what_it_is": "AI can generate videos based on text prompts or images.",
+      "audience_angle": "You can create videos with just text prompts or images.",
+      "linkedin_angle": "Automate your video content creation with AI.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI video generation tools offer affiliate programs."
+        "note": "AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FW_bzWIaJfs",
-          "signal": "I Tried Every AI Video Generator So You Don't Have To"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5sRtGJB0kDw",
-          "signal": "STOP Paying for AI Video: Seedance 2.0 Is FREE & UNLIMITED"
+          "url": "https://www.youtube.com/watch?v=XR_HJxrULI0",
+          "signal": "FREE Unlimited AI Video Generator Without Watermark"
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI-Generated Videos",
-        "The Best AI Video Generation Tools for Beginners",
-        "Using AI Video Generation for Social Media Marketing"
+        "How to Create Videos with AI",
+        "10 Amazing AI Video Generation Examples",
+        "AI Video Generation Tutorial for Beginners"
       ]
     },
     {
-      "name": "ChatGPT for Content Creation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT can be used for content creation, such as writing articles or generating ideas.",
-      "audience_angle": "You can use ChatGPT to streamline your content creation process and produce high-quality content.",
-      "linkedin_angle": "Explore how ChatGPT can enhance your content marketing strategy and improve your writing productivity.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its content creation tools."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1utvtr7/i_asked_chatgpt_to_imagine_the_daily_life_of_the/",
-          "signal": "I asked ChatGPT to imagine the daily life of the Amazons"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
-          "signal": "7 Claude AI Side Hustles That Pay More Than a 9-5"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT for Content Creation",
-        "5 Ways ChatGPT Can Enhance Your Writing Productivity",
-        "The Future of Content Creation: How ChatGPT is Changing the Game"
-      ]
-    },
-    {
-      "name": "AI Agents for Business",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI agents can be used to automate business tasks and improve productivity.",
-      "audience_angle": "You can use AI agents to streamline your business operations and increase efficiency.",
-      "linkedin_angle": "Discover how AI agents can enhance your business strategy and improve your bottom line.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI agent tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OKw8N3V8Axo",
-          "signal": "Moms Are Making $250k/Year: How To Build An Audience That Buys Using The NEW AI Agent (Step By Step)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=goU9VIXA8II",
-          "signal": "MCP vs Skills: Which Is Right for Your AI Agent and LLMs?"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI Agents for Business Automation",
-        "The Benefits of Using AI Agents for Customer Service",
-        "Using AI Agents for Marketing and Sales"
-      ]
-    },
-    {
-      "name": "Claude AI",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude AI is a powerful AI tool for content creation and automation.",
-      "audience_angle": "You can use Claude AI to streamline your content creation process and produce high-quality content.",
-      "linkedin_angle": "Explore how Claude AI can enhance your content marketing strategy and improve your writing productivity.",
+      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage AI-powered workflows.",
+      "audience_angle": "You can automate your work with ChatGPT Work.",
+      "linkedin_angle": "Streamline your workflows with ChatGPT Work.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its tools."
+        "note": "ChatGPT Work has an affiliate program."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=iT_yv_nEdIo",
-          "signal": "China's Free AI Just Came For ChatGPT And Claude (+18 Updates)"
-        },
+          "url": "https://www.youtube.com/watch?v=TUu5SuFcf44",
+          "signal": "ChatGPT Work Just Changed Everything (5 Prompts to Try First)"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Work for Automation",
+        "10 Amazing ChatGPT Work Examples",
+        "ChatGPT Work Tutorial for Beginners"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude AI is a tool that allows users to create and manage AI-powered workflows.",
+      "audience_angle": "You can automate your work with Claude AI.",
+      "linkedin_angle": "Streamline your workflows with Claude AI.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program."
+      },
+      "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
@@ -192,45 +140,71 @@
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Content Creation",
-        "5 Ways Claude AI Can Enhance Your Writing Productivity",
-        "The Future of Content Creation: How Claude AI is Changing the Game"
+        "How to Use Claude AI for Automation",
+        "10 Amazing Claude AI Examples",
+        "Claude AI Tutorial for Beginners"
       ]
     },
     {
-      "name": "AI for Education",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "AI Agents",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI can be used to enhance education and improve student outcomes.",
-      "audience_angle": "You can use AI to create personalized learning experiences and improve student engagement.",
-      "linkedin_angle": "Discover how AI can enhance your education strategy and improve student outcomes.",
-      "local_relevance": 6,
+      "what_it_is": "AI agents are tools that allow users to automate tasks and workflows.",
+      "audience_angle": "You can automate your tasks with AI agents.",
+      "linkedin_angle": "Streamline your workflows with AI agents.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
+      "best_format": "long_form",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI education tools offer affiliate programs."
+        "note": "AI agent tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nJV7wDUKoRs",
-          "signal": "How this AI technology changing lives of Students #shortsfeed #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ms_s6I4o5vM",
-          "signal": "Future of Education with East Point CEO Rajiv Gowda | AI, Skills & Student Success"
+          "url": "https://www.youtube.com/watch?v=OKw8N3V8Axo",
+          "signal": "Moms Are Making $250k/Year: How To Build An Audience That Buys Using The NEW AI Agent"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Education",
-        "The Benefits of Using AI for Personalized Learning",
-        "Using AI for Education: Success Stories and Case Studies"
+        "How to Use AI Agents for Automation",
+        "10 Amazing AI Agent Examples",
+        "AI Agent Tutorial for Beginners"
+      ]
+    },
+    {
+      "name": "Mesh LLM",
+      "category": "technique",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Mesh LLM is a distributed AI computing technique.",
+      "audience_angle": "You can use Mesh LLM for distributed AI computing.",
+      "linkedin_angle": "Scale your AI computing with Mesh LLM.",
+      "local_relevance": 5,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Mesh LLM is an open-source technique."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.iroh.computer/blog/mesh-llm",
+          "signal": "Mesh LLM: distributed AI computing on iroh"
+        }
+      ],
+      "content_ideas": [
+        "What is Mesh LLM?",
+        "How to Use Mesh LLM for Distributed AI Computing",
+        "Mesh LLM Tutorial for Beginners"
       ]
     }
   ],
@@ -242,59 +216,49 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation tools can create videos based on user prompts or text.",
-      "audience_angle": "You can create professional-looking videos without extensive video production experience.",
-      "linkedin_angle": "Discover how AI video generation can streamline your video content creation and enhance your marketing strategy.",
+      "what_it_is": "AI can generate videos based on text prompts or images.",
+      "audience_angle": "You can create videos with just text prompts or images.",
+      "linkedin_angle": "Automate your video content creation with AI.",
       "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI video generation tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FW_bzWIaJfs",
-          "signal": "I Tried Every AI Video Generator So You Don't Have To"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5sRtGJB0kDw",
-          "signal": "STOP Paying for AI Video: Seedance 2.0 Is FREE & UNLIMITED"
-        }
-      ],
-      "content_ideas": [
-        "How to Make Money with AI-Generated Videos",
-        "The Best AI Video Generation Tools for Beginners",
-        "Using AI Video Generation for Social Media Marketing"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude AI is a powerful AI tool for content creation and automation.",
-      "audience_angle": "You can use Claude AI to streamline your content creation process and produce high-quality content.",
-      "linkedin_angle": "Explore how Claude AI can enhance your content marketing strategy and improve your writing productivity.",
-      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its tools."
+        "note": "AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=iT_yv_nEdIo",
-          "signal": "China's Free AI Just Came For ChatGPT And Claude (+18 Updates)"
-        },
+          "url": "https://www.youtube.com/watch?v=XR_HJxrULI0",
+          "signal": "FREE Unlimited AI Video Generator Without Watermark"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Videos with AI",
+        "10 Amazing AI Video Generation Examples",
+        "AI Video Generation Tutorial for Beginners"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude AI is a tool that allows users to create and manage AI-powered workflows.",
+      "audience_angle": "You can automate your work with Claude AI.",
+      "linkedin_angle": "Streamline your workflows with Claude AI.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program."
+      },
+      "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
@@ -302,9 +266,40 @@
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Content Creation",
-        "5 Ways Claude AI Can Enhance Your Writing Productivity",
-        "The Future of Content Creation: How Claude AI is Changing the Game"
+        "How to Use Claude AI for Automation",
+        "10 Amazing Claude AI Examples",
+        "Claude AI Tutorial for Beginners"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI agents are tools that allow users to automate tasks and workflows.",
+      "audience_angle": "You can automate your tasks with AI agents.",
+      "linkedin_angle": "Streamline your workflows with AI agents.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI agent tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OKw8N3V8Axo",
+          "signal": "Moms Are Making $250k/Year: How To Build An Audience That Buys Using The NEW AI Agent"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Automation",
+        "10 Amazing AI Agent Examples",
+        "AI Agent Tutorial for Beginners"
       ]
     },
     {
@@ -315,9 +310,9 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "You can create amazing images with just a few words.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design efforts.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can create amazing images with just text prompts.",
+      "linkedin_angle": "Automate your content creation with AI image generation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -334,14 +329,45 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XR_HJxrULI0",
-          "signal": "FREE Unlimited AI Video Generator Without Watermark | Image to Video AI Free | Ai Video Kaise Banaye"
+          "url": "https://www.youtube.com/watch?v=QAYa8HYCfTE",
+          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just 1 Prompt"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT Image Generation for Your Business",
-        "The Future of Art: How ChatGPT is Revolutionizing Image Creation"
+        "10 Amazing ChatGPT Image Generation Examples",
+        "ChatGPT Image Generation Tutorial for Beginners"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage AI-powered workflows.",
+      "audience_angle": "You can automate your work with ChatGPT Work.",
+      "linkedin_angle": "Streamline your workflows with ChatGPT Work.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TUu5SuFcf44",
+          "signal": "ChatGPT Work Just Changed Everything (5 Prompts to Try First)"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Work for Automation",
+        "10 Amazing ChatGPT Work Examples",
+        "ChatGPT Work Tutorial for Beginners"
       ]
     }
   ],
@@ -356,19 +382,7 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utn0hr/venting_frustration_over_chatgpts_restrictive/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Workarounds"
-    },
-    {
-      "problem": "AI video generation costs",
-      "who_affected": "AI video generation users",
-      "signal_strength": 6,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5sRtGJB0kDw"
-        }
-      ],
-      "content_opportunity": "Free AI Video Generation: How to Create High-Quality Videos Without Breaking the Bank"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
