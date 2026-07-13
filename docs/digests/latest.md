@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
 4. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
    https://www.sciencedaily.com/releases/2026/07/260712011757.htm
-5. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
+5. **How MIT students are helping to prevent cyberattacks** — science angle
+   https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
+6. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
-6. **Marc Andreessen Says AI Is 'Already a Better Doctor Than 99.99% of Human Doctors' - Benzinga** — science angle
+7. **Marc Andreessen Says AI Is 'Already a Better Doctor Than 99.99% of Human Doctors' - Benzinga** — science angle
    https://news.google.com/rss/articles/CBMiywFBVV95cUxPeS1mNVg3dFhfSnVfbDFPaGtydEpKa2ktU0t0SldCRDNFS1RIbndUUDhYV0I0dFItbnNDTzhDeXlrT2poQkFhZzZmMzBJZng2dUI2U0kxRms4c1FYd3hqdHdtcGk2alNiMEQwSHVqZEFydTJZeUdBTzNNTHNyMEo5OGNnOXNQbGFsRXpENGM4WnZFTWFoSTJDNlBZOHdESXVpTzliXzg3ZXdEWEZqcVZPODBwOTR3elFlZzU1TWNnbnJid1ZnQlNTc1hCZw?oc=5
-7. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
+8. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
-8. **What Took Doctors 30 Minutes Now Takes Just 3... AI Transforming the Emergency Room Golden Hour [The Future of Medical AX]① - 아시아경제** — science angle
-   https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pUGtfTkxMcFdfUGk2XzJwalZIVkFVY2sya2RXQWYweUdHaEVIcHptTXlzUWpJSl9idGtORFc0Zzg5dFRUc0FxUUF6Ul9IaTZmUzhhcE1BZnIwVEY2cTYyRlpQMUU?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
@@ -33,28 +33,28 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3BpNHVBNnQ1eGxFNGwtcmt0MzJkXzkyTnNob3NBYnZSLThaOVdwMEs2M0E2VldycWxrTWtLMWNRbG52ekU3RzVSS29zZ1ZKakJPYjV2OXVoZS1lZEY2eVJGTHdoOWVCSERmYWxOTXM3a2ZxS1FwTktQNE9INU5zalNMYjQzeF9JTDluQmZHMm5MRkR6?oc=5
 4. **Apple lawsuit accuses OpenAI of stealing trade secrets - The Times** — Sam Altman News — Score 68
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVpOSjRjSTh3NlN3S1pyMWNSOC14ODVHNVVjNUFZNWlPWnhOcGZmUlMyV0pvUHVjYjNudjV3TGo2Y2t5WjVpMDBHQzE2bUFCVkt6VFpEZjB5bWdaZDhSZ3JoYjZNVzdDVmhBanpvSUpNWl9ad0djNUJxZWJKMFlqdi1RMjBVdGxzODZieW1qMkZxaUdmc1lkYS1EanNYV3ZG?oc=5
-5. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 65
+5. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 66
+   https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5hQkQxenVfMEhpUVJ2b3liU0lvTzM5MlJheWxXY19LUjdNd29qVjQtbkhkdjhnbk5XekI5Y3U1b3h2c2hhSDNEWUtWdEZUNHJfNG1veUdvcnJZdkI3RmxMN3dIeFFDM2YtTDhGTHYxZTBaUVZYTDdHdmZDY3JuWE9nSXk0MGlKOXZINUF5ejhKOFFZSUtXaFEzY0pja1hRc0NaejBwc1VCOGsyUzJJU0RnWmdlSU1rOFlUdzJ2cm1tSXdvWWl3WE03cVg2U0tEOVZ1Tg?oc=5
+6. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 65
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5
-6. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 63
+7. **Pritzker signs landmark AI regulation bill that aims to mitigate risks - Capitol News Illinois** — AI in Coding — Score 63
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQNm92TVVqUHEyZW1sX2lWU1Rlc3RGZW8tUi1YZFlNMVdSS3dvcUxKc0JscDVGYXREMjFHOXd2eDRTQm9WaHNmLVNORlhkNDVPUU8tRjlPdHdIZmtuaGlzeEoxT2NjcFliNmcxMEF6bG9nMU5qcVNYZ08xc0RGV3FxbW1CMzlRYmlqRTM1WFV4UEQ2TGlVY2RQYnVnTm54a0dxeDFkUUNORDFjYS1p?oc=5
-7. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 63
+8. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 63
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQckxxM0xOb3RKYUV6WUYxREprR0wwWHFpY2lLMjJnR0xmMWZ6OVFWdTU1bW9BbGViSGgwc1FTbmtWZ2VqT0k0dWNINHVXSVQwYmRUMDhIY3NocXprVG5FcFM2dWpTNDZCNU5RMVNCdVJEMU9aR2tWV2ZUNFRybVo4dg?oc=5
-8. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
+9. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
    https://news.google.com/rss/articles/CBMikgFBVV95cUxPczRKaVhpQnlDYnBRbVFGakc5bF9FODI2OWFZenZLeHR6Wkg3S1JtMEFYWDM4SngwNUpXMUlROFdtTmc4QUhLSEhxRFo1ckdXNkp1TDRkLUZ1VHNhNXVaTGVPdFdqSmhNendIQkRVaExkZm1uU214QmR4NlBod21URE5RTkxrTldHRUxNbktFN1ozZw?oc=5
-9. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
+10. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
    https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
-10. **Reservoir Farms Launches Pilot in Arizona for Physical AI Innovation in Specialty Crops - Yahoo Finance** — AI in Agriculture — Score 58
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDBSM1NtRTd6bTdTaUhNSlBCS1hid1htZFk4UWNoQXY2NHBEYVMzUHpjb3RpaXI3SzVZLXJremh2ZmpaTXlnNWJsTlV0eHlMd0x0NTFQQlNSYzctZ1M2NDFSUVNjcWhvd2JLc1FFTVQ4MFA2bC05M0doQkxzT0ZVUE05QlVqY0VRMUtLdnlfZmhWTnBWMDI0eUs2UGY4SWJTOTNiUw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **States Move to License AI Doctors as the FDA Steps Back - PYMNTS.com** — https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFlJMDhWcDJxNmJ6cmlnRUR6b1llTjJvUk5JUVRoQ3dsVmNMU0pxb3N5NkZ0TnNuMW5uVE1FU2dQMTREQlduMm41TlRRY0J4SnhaSFFycU1mcFFnQWtjR1I4OEFIR3Mwa212WF9lTkJnSFlCaVo0Sm5xdTNrTk1ZdExBUlhlejAzVk16Y1FYeEt4dzZhdVRjR3FIMA?oc=5
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
 - **One in four Americans turn to AI chatbots for medical advice because they can’t afford to see a doctor - Yahoo News Canada** — https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
-- **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
+- **How MIT students are helping to prevent cyberattacks** — https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3421
+- Total stories tracked: 3396
 - Most active topic: openai
 - Busiest category: AI General News
 
