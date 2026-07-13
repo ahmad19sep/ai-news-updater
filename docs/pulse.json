@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T15:13:11.440773+00:00",
+  "generated_at": "2026-07-13T19:51:22.828130+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 39,
-      "hackernews": 17,
+      "reddit": 25,
+      "hackernews": 14,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -21,25 +21,24 @@
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
+      "what_it_is": "ChatGPT 5.6 is an updated version of the ChatGPT AI model.",
       "audience_angle": "You can use ChatGPT 5.6 to generate human-like text and have more productive conversations.",
-      "linkedin_angle": "Upgrade your productivity with ChatGPT 5.6 and automate tasks",
-      "local_relevance": 5,
+      "linkedin_angle": "Upgrade your productivity with ChatGPT 5.6 and automate tasks.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT 5.6 has an affiliate program"
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uuskk6/gpt56_is_the_holy_grail_i_said_what_i_said/",
-          "signal": "GPT-5.6 IS THE HOLY GRAIL"
+          "signal": "GPT-5.6 IS THE HOLY GRAIL."
         },
         {
           "platform": "youtube",
@@ -48,72 +47,72 @@
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT 5.6 for content creation",
-        "ChatGPT 5.6 vs other AI models: which one is best for you",
-        "How to make money with ChatGPT 5.6"
+        "How to Use ChatGPT 5.6 for Productive Conversations",
+        "ChatGPT 5.6: The Future of AI-Powered Productivity",
+        "Maximizing ChatGPT 5.6 for Business and Personal Use"
       ]
     },
     {
-      "name": "Midjourney",
-      "category": "tool_launch",
+      "name": "AI Video Generation",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Midjourney is an AI model that generates images from text prompts.",
-      "audience_angle": "You can use Midjourney to create stunning images and art",
-      "linkedin_angle": "Use Midjourney to create visually appealing content for your business",
-      "local_relevance": 6,
+      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create engaging videos for social media and marketing.",
+      "linkedin_angle": "Leverage AI video generation to enhance your marketing strategy and boost engagement.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Midjourney has an affiliate program"
+        "note": "Many AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1uv0h39/alien_specimens/",
-          "signal": "Alien specimens"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jqvmORIAQjg",
+          "signal": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
         },
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48886741",
-          "signal": "Ask HN: Add flag for AI-generated articles"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvhyxq/this_is_what_chatgpt_gave_me_when_i_asked_it_to/",
+          "signal": "This is what ChatGPT gave me when I asked it to generate an image of what an average person who uses Reddit looks like."
         }
       ],
       "content_ideas": [
-        "How to use Midjourney for graphic design",
-        "Midjourney vs other AI image generators: which one is best",
-        "How to make money with Midjourney"
+        "How to Create Engaging Videos with AI Video Generation",
+        "AI Video Generation: The Future of Marketing and Social Media",
+        "Top AI Video Generation Tools for Business and Personal Use"
       ]
     },
     {
-      "name": "Claude",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "Claude is an AI model that can be used for various tasks such as content creation and trading.",
-      "audience_angle": "You can use Claude to automate tasks and increase productivity",
-      "linkedin_angle": "Use Claude to streamline your workflow and increase efficiency",
+      "what_it_is": "Claude AI is a conversational AI model that can be used for various tasks.",
+      "audience_angle": "You can use Claude AI to automate tasks and have more productive conversations.",
+      "linkedin_angle": "Use Claude AI to streamline your workflow and enhance productivity.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude has an affiliate program"
+        "note": "Claude AI has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
-          "signal": "7 Claude AI Side Hustles That Pay More Than a 9-5"
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         },
         {
           "platform": "hackernews",
@@ -122,9 +121,114 @@
         }
       ],
       "content_ideas": [
-        "How to use Claude for content creation",
-        "Claude vs other AI models: which one is best for you",
-        "How to make money with Claude"
+        "How to Use Claude AI for Productive Conversations",
+        "Claude AI: The Future of Conversational AI",
+        "Maximizing Claude AI for Business and Personal Use"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "AI agents are software programs that use artificial intelligence to perform tasks.",
+      "audience_angle": "You can use AI agents to automate tasks and enhance productivity.",
+      "linkedin_angle": "Leverage AI agents to streamline your workflow and boost efficiency.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI agent tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XWWbIDQuHJc",
+          "signal": "I Made $20K In 7 Days: The Fastest Way To Use AI Agents To Make Money & Be More Productive (No Code)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/mrhustlex/TradingSpy-TradingAgentService",
+          "signal": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Productive Tasks",
+        "AI Agents: The Future of Automation and Productivity",
+        "Top AI Agent Tools for Business and Personal Use"
+      ]
+    },
+    {
+      "name": "Motu Patlu AI Videos",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Motu Patlu AI videos are animated videos created using artificial intelligence.",
+      "audience_angle": "You can use Motu Patlu AI videos to create engaging content for social media and marketing.",
+      "linkedin_angle": "Leverage Motu Patlu AI videos to enhance your marketing strategy and boost engagement.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many Motu Patlu AI video creation tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jl_iSWBlzoY",
+          "signal": "MOTU PATLU AI VIDEO 🤩 Shop Promotion | VERY EASY 😍 Trending Viral Motu Patlu AI"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Engaging Motu Patlu AI Videos",
+        "Motu Patlu AI Videos: The Future of Animated Content",
+        "Top Motu Patlu AI Video Creation Tools for Business and Personal Use"
+      ]
+    },
+    {
+      "name": "GPT-5.6",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "GPT-5.6 is an updated version of the GPT AI model.",
+      "audience_angle": "You can use GPT-5.6 to generate human-like text and have more productive conversations.",
+      "linkedin_angle": "Upgrade your productivity with GPT-5.6 and automate tasks.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "GPT-5.6 has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uuskk6/gpt56_is_the_holy_grail_i_said_what_i_said/",
+          "signal": "GPT-5.6 IS THE HOLY GRAIL."
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+          "signal": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper"
+        }
+      ],
+      "content_ideas": [
+        "How to Use GPT-5.6 for Productive Conversations",
+        "GPT-5.6: The Future of AI-Powered Productivity",
+        "Maximizing GPT-5.6 for Business and Personal Use"
       ]
     }
   ],
@@ -135,25 +239,24 @@
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT 5.6 is a new version of the ChatGPT AI model.",
+      "what_it_is": "ChatGPT 5.6 is an updated version of the ChatGPT AI model.",
       "audience_angle": "You can use ChatGPT 5.6 to generate human-like text and have more productive conversations.",
-      "linkedin_angle": "Upgrade your productivity with ChatGPT 5.6 and automate tasks",
-      "local_relevance": 5,
+      "linkedin_angle": "Upgrade your productivity with ChatGPT 5.6 and automate tasks.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT 5.6 has an affiliate program"
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uuskk6/gpt56_is_the_holy_grail_i_said_what_i_said/",
-          "signal": "GPT-5.6 IS THE HOLY GRAIL"
+          "signal": "GPT-5.6 IS THE HOLY GRAIL."
         },
         {
           "platform": "youtube",
@@ -162,35 +265,72 @@
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT 5.6 for content creation",
-        "ChatGPT 5.6 vs other AI models: which one is best for you",
-        "How to make money with ChatGPT 5.6"
+        "How to Use ChatGPT 5.6 for Productive Conversations",
+        "ChatGPT 5.6: The Future of AI-Powered Productivity",
+        "Maximizing ChatGPT 5.6 for Business and Personal Use"
       ]
     },
     {
-      "name": "Claude",
+      "name": "GPT-5.6",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "GPT-5.6 is an updated version of the GPT AI model.",
+      "audience_angle": "You can use GPT-5.6 to generate human-like text and have more productive conversations.",
+      "linkedin_angle": "Upgrade your productivity with GPT-5.6 and automate tasks.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "GPT-5.6 has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uuskk6/gpt56_is_the_holy_grail_i_said_what_i_said/",
+          "signal": "GPT-5.6 IS THE HOLY GRAIL."
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+          "signal": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper"
+        }
+      ],
+      "content_ideas": [
+        "How to Use GPT-5.6 for Productive Conversations",
+        "GPT-5.6: The Future of AI-Powered Productivity",
+        "Maximizing GPT-5.6 for Business and Personal Use"
+      ]
+    },
+    {
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "Claude is an AI model that can be used for various tasks such as content creation and trading.",
-      "audience_angle": "You can use Claude to automate tasks and increase productivity",
-      "linkedin_angle": "Use Claude to streamline your workflow and increase efficiency",
+      "what_it_is": "Claude AI is a conversational AI model that can be used for various tasks.",
+      "audience_angle": "You can use Claude AI to automate tasks and have more productive conversations.",
+      "linkedin_angle": "Use Claude AI to streamline your workflow and enhance productivity.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude has an affiliate program"
+        "note": "Claude AI has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
-          "signal": "7 Claude AI Side Hustles That Pay More Than a 9-5"
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         },
         {
           "platform": "hackernews",
@@ -199,61 +339,36 @@
         }
       ],
       "content_ideas": [
-        "How to use Claude for content creation",
-        "Claude vs other AI models: which one is best for you",
-        "How to make money with Claude"
-      ]
-    },
-    {
-      "name": "Midjourney",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "Midjourney is an AI model that generates images from text prompts.",
-      "audience_angle": "You can use Midjourney to create stunning images and art",
-      "linkedin_angle": "Use Midjourney to create visually appealing content for your business",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Midjourney has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1uv0h39/alien_specimens/",
-          "signal": "Alien specimens"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=48886741",
-          "signal": "Ask HN: Add flag for AI-generated articles"
-        }
-      ],
-      "content_ideas": [
-        "How to use Midjourney for graphic design",
-        "Midjourney vs other AI image generators: which one is best",
-        "How to make money with Midjourney"
+        "How to Use Claude AI for Productive Conversations",
+        "Claude AI: The Future of Conversational AI",
+        "Maximizing Claude AI for Business and Personal Use"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
-      "who_affected": "ChatGPT users",
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
       "signal_strength": 8,
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uv3w8q/warning_avoid_using_56_sol_it_can_get_you_banned/"
+          "platform": "hackernews",
+          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead"
         }
       ],
-      "content_opportunity": "How to avoid getting banned on ChatGPT and work around usage limits"
+      "content_opportunity": "How to overcome Claude usage/token limits and maximize productivity."
+    },
+    {
+      "problem": "ChatGPT constantly breaking fictional roleplays",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 7,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvcwna/how_do_you_stop_chatgpt_from_constantly_breaking/"
+        }
+      ],
+      "content_opportunity": "How to prevent ChatGPT from breaking fictional roleplays and enhance conversational experience."
     }
   ],
   "tool_of_week_candidate": "ChatGPT 5.6"
