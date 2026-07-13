@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T04:02:26.694303+00:00",
+  "generated_at": "2026-07-13T09:48:43.571568+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,74 +9,37 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images using text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can enhance your marketing and design workflow.",
+      "what_it_is": "ChatGPT 5.6 is an updated version of the ChatGPT AI model.",
+      "audience_angle": "Learn how to use ChatGPT 5.6 to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how ChatGPT 5.6 can enhance your professional workflow and career prospects.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YneTs02FcuQ",
-          "signal": "ai video kaise banaye"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "10 Creative Ways to Use ChatGPT's Image Generation",
-        "ChatGPT Image Generation Tutorial for Beginners"
-      ]
-    },
-    {
-      "name": "GPT-5.6",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "GPT-5.6 is a new AI model that offers improved performance and capabilities.",
-      "audience_angle": "Unlock the power of GPT-5.6 and discover its potential for your projects and business.",
-      "linkedin_angle": "Learn how GPT-5.6 can enhance your workflow and productivity.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-5.6 has an affiliate program for developers and businesses."
+        "note": "ChatGPT 5.6 has an affiliate program for developers and users."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uuskk6/gpt56_is_the_holy_grail_i_said_what_i_said/",
-          "signal": "GPT-5.6 IS THE HOLY GRAIL."
+          "signal": "GPT-5.6 IS THE HOLY GRAIL. I SAID WHAT I SAID!!!"
         },
         {
           "platform": "hackernews",
@@ -85,100 +48,112 @@
         }
       ],
       "content_ideas": [
-        "What is GPT-5.6 and How Does it Work?",
-        "GPT-5.6 vs Previous Models: What's New and Improved",
-        "How to Get Started with GPT-5.6 for Your Business"
+        "How to Use ChatGPT 5.6 for Content Creation",
+        "ChatGPT 5.6: A Game-Changer for Freelancers and Entrepreneurs",
+        "Maximizing Earnings with ChatGPT 5.6: Tips and Tricks"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "AI video generation allows users to create videos using text prompts or other inputs.",
-      "audience_angle": "Create stunning videos with just a few words using AI video generation.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing and social media strategy.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation refers to the use of artificial intelligence to create videos.",
+      "audience_angle": "Learn how to create stunning videos using AI and increase your online presence.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy and career prospects.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation has an affiliate program for creators."
+        "note": "AI video generation tools often have affiliate programs for creators and marketers."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=YneTs02FcuQ",
-          "signal": "ai video kaise banaye"
+          "signal": "ai video kaise banaye | ai se video kaise banaye | ai se cartoon video kaise banaye | ai video"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uv1vqg/prompt_create_a_realistic_landscaping_crew_for/",
+          "signal": "Prompt: create a realistic landscaping crew for the Eyre Highway in Western Australia"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation",
-        "10 Creative Ways to Use AI Video Generation for Your Business",
-        "AI Video Generation Tutorial for Beginners"
+        "How to Create Stunning AI-Generated Videos",
+        "AI Video Generation: A New Era for Content Creators",
+        "Monetizing AI-Generated Videos: Tips and Strategies"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a new feature that allows users to create and manage projects using ChatGPT.",
-      "audience_angle": "Unlock the power of ChatGPT Work and discover its potential for your projects and business.",
-      "linkedin_angle": "Learn how ChatGPT Work can enhance your workflow and productivity.",
+      "what_it_is": "Claude AI is a powerful AI tool for various applications.",
+      "audience_angle": "Learn how to use Claude AI to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how Claude AI can enhance your professional workflow and career prospects.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for developers and businesses."
+        "note": "Claude AI has an affiliate program for developers and users."
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "signal": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
-          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         }
       ],
       "content_ideas": [
-        "What is ChatGPT Work and How Does it Work?",
-        "ChatGPT Work Tutorial for Beginners",
-        "How to Get Started with ChatGPT Work for Your Business"
+        "How to Use Claude AI for Content Creation",
+        "Claude AI: A Game-Changer for Freelancers and Entrepreneurs",
+        "Maximizing Earnings with Claude AI: Tips and Tricks"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "GPT-5.6",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "GPT-5.6 is a new AI model that offers improved performance and capabilities.",
-      "audience_angle": "Unlock the power of GPT-5.6 and discover its potential for your projects and business.",
-      "linkedin_angle": "Learn how GPT-5.6 can enhance your workflow and productivity.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT 5.6 is an updated version of the ChatGPT AI model.",
+      "audience_angle": "Learn how to use ChatGPT 5.6 to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how ChatGPT 5.6 can enhance your professional workflow and career prospects.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-5.6 has an affiliate program for developers and businesses."
+        "note": "ChatGPT 5.6 has an affiliate program for developers and users."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uuskk6/gpt56_is_the_holy_grail_i_said_what_i_said/",
-          "signal": "GPT-5.6 IS THE HOLY GRAIL."
+          "signal": "GPT-5.6 IS THE HOLY GRAIL. I SAID WHAT I SAID!!!"
         },
         {
           "platform": "hackernews",
@@ -187,93 +162,62 @@
         }
       ],
       "content_ideas": [
-        "What is GPT-5.6 and How Does it Work?",
-        "GPT-5.6 vs Previous Models: What's New and Improved",
-        "How to Get Started with GPT-5.6 for Your Business"
+        "How to Use ChatGPT 5.6 for Content Creation",
+        "ChatGPT 5.6: A Game-Changer for Freelancers and Entrepreneurs",
+        "Maximizing Earnings with ChatGPT 5.6: Tips and Tricks"
       ]
     },
     {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a new feature that allows users to create and manage projects using ChatGPT.",
-      "audience_angle": "Unlock the power of ChatGPT Work and discover its potential for your projects and business.",
-      "linkedin_angle": "Learn how ChatGPT Work can enhance your workflow and productivity.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for developers and businesses."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
-          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
-        }
-      ],
-      "content_ideas": [
-        "What is ChatGPT Work and How Does it Work?",
-        "ChatGPT Work Tutorial for Beginners",
-        "How to Get Started with ChatGPT Work for Your Business"
-      ]
-    },
-    {
-      "name": "ChatGPT Image Generation",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images using text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can enhance your marketing and design workflow.",
+      "what_it_is": "Claude AI is a powerful AI tool for various applications.",
+      "audience_angle": "Learn how to use Claude AI to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how Claude AI can enhance your professional workflow and career prospects.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation has an affiliate program for creators."
+        "note": "Claude AI has an affiliate program for developers and users."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "platform": "hackernews",
+          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "signal": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YneTs02FcuQ",
-          "signal": "ai video kaise banaye"
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "10 Creative Ways to Use ChatGPT's Image Generation",
-        "ChatGPT Image Generation Tutorial for Beginners"
+        "How to Use Claude AI for Content Creation",
+        "Claude AI: A Game-Changer for Freelancers and Entrepreneurs",
+        "Maximizing Earnings with Claude AI: Tips and Tricks"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits and token restrictions",
+      "who_affected": "Freelancers and entrepreneurs using ChatGPT for content creation",
+      "signal_strength": 7,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uuflmm/with_how_ram_are_getting_expensive_they_left_us/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uv3w8q/warning_avoid_using_56_sol_it_can_get_you_banned/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and token limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Restrictions: Tips and Workarounds"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation, because it offers a unique and creative way for users to generate images using text prompts."
+  "tool_of_week_candidate": "ChatGPT 5.6"
 }
