@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T08:29:07.775790+00:00",
+  "generated_at": "2026-07-14T14:15:20.272013+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,68 +9,31 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create amazing images with just a few clicks using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can enhance your marketing and design projects.",
+      "what_it_is": "ChatGPT 5.6 is an updated version of the ChatGPT AI model.",
+      "audience_angle": "You can use ChatGPT 5.6 to generate more accurate and human-like text.",
+      "linkedin_angle": "Upgrade your content creation with ChatGPT 5.6",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jl_iSWBlzoY",
-          "signal": "MOTU PATLU AI VIDEO"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "GPT-5.6 Sol",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "GPT-5.6 Sol is an AI model that offers improved performance and efficiency.",
-      "audience_angle": "Experience the power of GPT-5.6 Sol and take your AI projects to the next level.",
-      "linkedin_angle": "Learn how GPT-5.6 Sol can enhance your business operations and increase productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program for its users."
+        "note": "ChatGPT 5.6 has an affiliate program"
       },
       "sources": [
         {
@@ -79,259 +42,106 @@
           "signal": "GPT-5.6 feels noticeably better than GPT-5.5"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-          "signal": "What will be left for us to work on?"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MMx4k3emXHk",
-          "signal": "Grok 4.5"
+          "url": "https://www.youtube.com/watch?v=mFysqIcP7So",
+          "signal": "How To Master The New ChatGPT Work (Free Course)"
         }
       ],
       "content_ideas": [
-        "Getting Started with GPT-5.6 Sol: A Beginner's Guide",
-        "GPT-5.6 Sol: The Future of AI-Powered Productivity",
-        "Unlocking the Potential of GPT-5.6 Sol: Advanced Tips and Tricks"
+        "How to use ChatGPT 5.6 for content creation",
+        "ChatGPT 5.6 vs GPT-5.5: What's the difference?",
+        "Making money with ChatGPT 5.6: Tips and tricks"
       ]
     },
     {
       "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a conversational AI model that offers a range of features and capabilities.",
-      "audience_angle": "Discover the power of Claude AI and experience the future of conversational AI.",
-      "linkedin_angle": "Learn how Claude AI can enhance your business operations and improve customer engagement.",
-      "local_relevance": 7,
+      "what_it_is": "Claude AI is a new AI model that can be used for various tasks.",
+      "audience_angle": "You can use Claude AI to automate tasks and increase productivity.",
+      "linkedin_angle": "Boost your productivity with Claude AI",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its users."
+        "note": "Claude AI has an affiliate program"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvz3pb/i_kept_pasting_the_same_question_into_chatgpt/",
-          "signal": "I kept pasting the same question into ChatGPT, Claude, and Gemini"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
+          "signal": "7 Claude AI Side Hustles That Pay More Than a 9-5"
         },
         {
           "platform": "hackernews",
           "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
           "signal": "Claude Code sends 33k tokens before reading the prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
-          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "Claude AI: The Future of Conversational AI",
-        "Unlocking the Potential of Claude AI: Advanced Tips and Tricks"
+        "How to use Claude AI for side hustles",
+        "Claude AI vs ChatGPT: Which one is better?",
+        "Making money with Claude AI: Success stories"
       ]
     },
     {
-      "name": "AI Agents for Beginners",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI agents can be used by beginners to automate tasks and improve productivity.",
-      "audience_angle": "Learn how to use AI agents as a beginner and take your productivity to the next level.",
-      "linkedin_angle": "Discover how AI agents can enhance your business operations and improve efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI agent courses and tutorials often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=AZDSpS5v57w",
-          "signal": "AI Agents For Beginners – OpenClaw Case Study"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with AI Agents: A Beginner's Guide",
-        "AI Agents for Beginners: Tips and Tricks",
-        "Using AI Agents to Automate Tasks: A Beginner's Tutorial"
-      ]
-    },
-    {
-      "name": "Making Money with AI",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used to make money through various methods such as affiliate marketing and trading.",
-      "audience_angle": "Learn how to use AI to make money and take your finances to the next level.",
-      "linkedin_angle": "Discover how AI can enhance your business operations and improve revenue.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI-based money-making methods often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XWWbIDQuHJc",
-          "signal": "I Made $20K In 7 Days: The Fastest Way To Use AI Agents To Make Money"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with AI-Based Money-Making: A Beginner's Guide",
-        "AI-Based Money-Making: Tips and Tricks",
-        "Using AI to Make Money: A Comprehensive Tutorial"
-      ]
-    },
-    {
-      "name": "AI in Education",
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI can be used in education to improve learning outcomes and enhance the educational experience.",
-      "audience_angle": "Learn how AI can enhance education and improve student outcomes.",
-      "linkedin_angle": "Discover how AI can enhance educational institutions and improve student engagement.",
+      "what_it_is": "AI video generation is a technology that allows you to create videos using AI.",
+      "audience_angle": "You can use AI video generation to create engaging videos without much effort.",
+      "linkedin_angle": "Create stunning videos with AI video generation",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "AI-based educational tools often have affiliate programs."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ms_s6I4o5vM",
-          "signal": "Future of Education with East Point CEO Rajiv Gowda"
+          "url": "https://www.youtube.com/watch?v=jqvmORIAQjg",
+          "signal": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI in Education: A Beginner's Guide",
-        "AI in Education: Tips and Tricks",
-        "Using AI to Enhance Education: A Comprehensive Tutorial"
+        "How to use AI video generation for marketing",
+        "AI video generation vs traditional video creation: Which one is better?",
+        "Making money with AI video generation: Tips and tricks"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT 5.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create amazing images with just a few clicks using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can enhance your marketing and design projects.",
+      "what_it_is": "ChatGPT 5.6 is an updated version of the ChatGPT AI model.",
+      "audience_angle": "You can use ChatGPT 5.6 to generate more accurate and human-like text.",
+      "linkedin_angle": "Upgrade your content creation with ChatGPT 5.6",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jl_iSWBlzoY",
-          "signal": "MOTU PATLU AI VIDEO"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Claude AI is a conversational AI model that offers a range of features and capabilities.",
-      "audience_angle": "Discover the power of Claude AI and experience the future of conversational AI.",
-      "linkedin_angle": "Learn how Claude AI can enhance your business operations and improve customer engagement.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its users."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvz3pb/i_kept_pasting_the_same_question_into_chatgpt/",
-          "signal": "I kept pasting the same question into ChatGPT, Claude, and Gemini"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-          "signal": "Claude Code sends 33k tokens before reading the prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
-          "signal": "Claude vs AI Agent Make Shaders From Scratch"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "Claude AI: The Future of Conversational AI",
-        "Unlocking the Potential of Claude AI: Advanced Tips and Tricks"
-      ]
-    },
-    {
-      "name": "GPT-5.6 Sol",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "GPT-5.6 Sol is an AI model that offers improved performance and efficiency.",
-      "audience_angle": "Experience the power of GPT-5.6 Sol and take your AI projects to the next level.",
-      "linkedin_angle": "Learn how GPT-5.6 Sol can enhance your business operations and increase productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program for its users."
+        "note": "ChatGPT 5.6 has an affiliate program"
       },
       "sources": [
         {
@@ -340,48 +150,68 @@
           "signal": "GPT-5.6 feels noticeably better than GPT-5.5"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-          "signal": "What will be left for us to work on?"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MMx4k3emXHk",
-          "signal": "Grok 4.5"
+          "url": "https://www.youtube.com/watch?v=mFysqIcP7So",
+          "signal": "How To Master The New ChatGPT Work (Free Course)"
         }
       ],
       "content_ideas": [
-        "Getting Started with GPT-5.6 Sol: A Beginner's Guide",
-        "GPT-5.6 Sol: The Future of AI-Powered Productivity",
-        "Unlocking the Potential of GPT-5.6 Sol: Advanced Tips and Tricks"
+        "How to use ChatGPT 5.6 for content creation",
+        "ChatGPT 5.6 vs GPT-5.5: What's the difference?",
+        "Making money with ChatGPT 5.6: Tips and tricks"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Claude AI is a new AI model that can be used for various tasks.",
+      "audience_angle": "You can use Claude AI to automate tasks and increase productivity.",
+      "linkedin_angle": "Boost your productivity with Claude AI",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UN_iGIj9bRw",
+          "signal": "7 Claude AI Side Hustles That Pay More Than a 9-5"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "signal": "Claude Code sends 33k tokens before reading the prompt"
+        }
+      ],
+      "content_ideas": [
+        "How to use Claude AI for side hustles",
+        "Claude AI vs ChatGPT: Which one is better?",
+        "Making money with Claude AI: Success stories"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead"
-        }
-      ],
-      "content_opportunity": "Claude Token Limits: How to Overcome Them and Optimize Your Usage"
-    },
-    {
-      "problem": "ChatGPT image generation not working",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 6,
-      "sources": [
-        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvz24y/image_generation_isnt_working/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvpq5b/warning_new_chatgpt_mac_desktop_update_bypasses/"
         }
       ],
-      "content_opportunity": "ChatGPT Image Generation Not Working: Troubleshooting Tips and Solutions"
+      "content_opportunity": "How to bypass ChatGPT usage limits: Tips and tricks"
     }
   ],
-  "tool_of_week_candidate": "GPT-5.6 Sol"
+  "tool_of_week_candidate": "ChatGPT 5.6"
 }
