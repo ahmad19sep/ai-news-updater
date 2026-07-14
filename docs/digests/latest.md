@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3574
+- Total stories tracked: 3519
 - Most active topic: openai
 - Busiest category: AI General News
 
