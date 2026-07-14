@@ -27,24 +27,24 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzWlcxWjVqVnNKcWR4dVpFMWEyREp3SjRQbUg2TlFyNmQ4NFNkbDNQeEVhc1FDWVM3LTZQUmhGR3VvMFF2Q21WYkh4eVZFeU54WlphUEYwaDZfQkIzNWNSQWExdGdnbFpkQUU4MEZkQ0MwRXZzWUZUQnNVYzlHQWNTMm1xQ0VpRFFYdzNpdy0ta29NQjZ0NnlFVEY0SVo3aGFsdDNkRWp5QTBlUHZtX2Nib2g5X2FaOGx4NkV1VUUtRUwxZzU5cVdFSDEwa9IB2gFBVV95cUxNSkY3ODBNdkNpZU5ldDY2MlhDNFVIOUZRQjZlU3dBN2xWR25DcTFpbXRfTXBwTlFuQnFDVm1JOEJuY3NKZm55TGVWVTlwQVhqbHRjNzg0RXlrYVhBakNqaldkYTAxUE83amNjRUxkMHdRMF91Z3hJcEw3elhobkQtd25xb3VlZmNJa0M0V1dCX28wMVUwaUpYSERUcEVfcVZjVXV6SEpvY1JrN3F4dGlUZVY1dVd2U2RLTUNGc2hBZWxqVm9RZHpBYTkzcVRHS0xmcWJ6QkUwaE95UQ?oc=5
-2. **Xero adds AI tools to JAX for small business finance** — cfotech_asia — Score 83
+2. **AI control: Victoria councillors put data centres on the agenda** — northislandgazette — Score 96
+   https://northislandgazette.com/2026/07/13/ai-control-victoria-councillors-put-data-centres-on-the-agenda/
+3. **Xero adds AI tools to JAX for small business finance** — cfotech_asia — Score 83
    https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance
-3. **Trump administration targets state AI laws over ideology - Stateline** — Elon Musk AI News — Score 83
+4. **Trump administration targets state AI laws over ideology - Stateline** — Elon Musk AI News — Score 83
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3BpNHVBNnQ1eGxFNGwtcmt0MzJkXzkyTnNob3NBYnZSLThaOVdwMEs2M0E2VldycWxrTWtLMWNRbG52ekU3RzVSS29zZ1ZKakJPYjV2OXVoZS1lZEY2eVJGTHdoOWVCSERmYWxOTXM3a2ZxS1FwTktQNE9INU5zalNMYjQzeF9JTDluQmZHMm5MRkR6?oc=5
-4. **Apple lawsuit accuses OpenAI of stealing trade secrets - The Times** — Sam Altman News — Score 68
+5. **Apple lawsuit accuses OpenAI of stealing trade secrets - The Times** — Sam Altman News — Score 68
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVpOSjRjSTh3NlN3S1pyMWNSOC14ODVHNVVjNUFZNWlPWnhOcGZmUlMyV0pvUHVjYjNudjV3TGo2Y2t5WjVpMDBHQzE2bUFCVkt6VFpEZjB5bWdaZDhSZ3JoYjZNVzdDVmhBanpvSUpNWl9ad0djNUJxZWJKMFlqdi1RMjBVdGxzODZieW1qMkZxaUdmc1lkYS1EanNYV3ZG?oc=5
-5. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 66
+6. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 66
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5hQkQxenVfMEhpUVJ2b3liU0lvTzM5MlJheWxXY19LUjdNd29qVjQtbkhkdjhnbk5XekI5Y3U1b3h2c2hhSDNEWUtWdEZUNHJfNG1veUdvcnJZdkI3RmxMN3dIeFFDM2YtTDhGTHYxZTBaUVZYTDdHdmZDY3JuWE9nSXk0MGlKOXZINUF5ejhKOFFZSUtXaFEzY0pja1hRc0NaejBwc1VCOGsyUzJJU0RnWmdlSU1rOFlUdzJ2cm1tSXdvWWl3WE03cVg2U0tEOVZ1Tg?oc=5
-6. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 65
+7. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 65
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5
-7. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 63
+8. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 63
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQckxxM0xOb3RKYUV6WUYxREprR0wwWHFpY2lLMjJnR0xmMWZ6OVFWdTU1bW9BbGViSGgwc1FTbmtWZ2VqT0k0dWNINHVXSVQwYmRUMDhIY3NocXprVG5FcFM2dWpTNDZCNU5RMVNCdVJEMU9aR2tWV2ZUNFRybVo4dg?oc=5
-8. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
+9. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
    https://news.google.com/rss/articles/CBMikgFBVV95cUxPczRKaVhpQnlDYnBRbVFGakc5bF9FODI2OWFZenZLeHR6Wkg3S1JtMEFYWDM4SngwNUpXMUlROFdtTmc4QUhLSEhxRFo1ckdXNkp1TDRkLUZ1VHNhNXVaTGVPdFdqSmhNendIQkRVaExkZm1uU214QmR4NlBod21URE5RTkxrTldHRUxNbktFN1ozZw?oc=5
-9. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
+10. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
    https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
-10. **Reservoir Farms Launches Pilot in Arizona for Physical AI Innovation in Specialty Crops - Yahoo Finance** — AI in Agriculture — Score 58
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDBSM1NtRTd6bTdTaUhNSlBCS1hid1htZFk4UWNoQXY2NHBEYVMzUHpjb3RpaXI3SzVZLXJremh2ZmpaTXlnNWJsTlV0eHlMd0x0NTFQQlNSYzctZ1M2NDFSUVNjcWhvd2JLc1FFTVQ4MFA2bC05M0doQkxzT0ZVUE05QlVqY0VRMUtLdnlfZmhWTnBWMDI0eUs2UGY4SWJTOTNiUw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3432
+- Total stories tracked: 3489
 - Most active topic: openai
 - Busiest category: AI General News
 
