@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 06 Jul 2026 to 13 Jul 2026
+# 🗞️ AI THIS WEEK — 07 Jul 2026 to 14 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com**
@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 6. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
-7. **Marc Andreessen Says AI Is 'Already a Better Doctor Than 99.99% of Human Doctors' - Benzinga** — science angle
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxPeS1mNVg3dFhfSnVfbDFPaGtydEpKa2ktU0t0SldCRDNFS1RIbndUUDhYV0I0dFItbnNDTzhDeXlrT2poQkFhZzZmMzBJZng2dUI2U0kxRms4c1FYd3hqdHdtcGk2alNiMEQwSHVqZEFydTJZeUdBTzNNTHNyMEo5OGNnOXNQbGFsRXpENGM4WnZFTWFoSTJDNlBZOHdESXVpTzliXzg3ZXdEWEZqcVZPODBwOTR3elFlZzU1TWNnbnJid1ZnQlNTc1hCZw?oc=5
-8. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
+7. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
+8. **What Took Doctors 30 Minutes Now Takes Just 3... AI Transforming the Emergency Room Golden Hour [The Future of Medical AX]① - 아시아경제** — science angle
+   https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pUGtfTkxMcFdfUGk2XzJwalZIVkFVY2sya2RXQWYweUdHaEVIcHptTXlzUWpJSl9idGtORFc0Zzg5dFRUc0FxUUF6Ul9IaTZmUzhhcE1BZnIwVEY2cTYyRlpQMUU?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **How MIT students are helping to prevent cyberattacks** — https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3402
+- Total stories tracked: 3412
 - Most active topic: openai
 - Busiest category: AI General News
 
