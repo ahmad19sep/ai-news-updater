@@ -35,10 +35,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3BpNHVBNnQ1eGxFNGwtcmt0MzJkXzkyTnNob3NBYnZSLThaOVdwMEs2M0E2VldycWxrTWtLMWNRbG52ekU3RzVSS29zZ1ZKakJPYjV2OXVoZS1lZEY2eVJGTHdoOWVCSERmYWxOTXM3a2ZxS1FwTktQNE9INU5zalNMYjQzeF9JTDluQmZHMm5MRkR6?oc=5
 5. **Apple lawsuit accuses OpenAI of stealing trade secrets - The Times** — Sam Altman News — Score 68
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVpOSjRjSTh3NlN3S1pyMWNSOC14ODVHNVVjNUFZNWlPWnhOcGZmUlMyV0pvUHVjYjNudjV3TGo2Y2t5WjVpMDBHQzE2bUFCVkt6VFpEZjB5bWdaZDhSZ3JoYjZNVzdDVmhBanpvSUpNWl9ad0djNUJxZWJKMFlqdi1RMjBVdGxzODZieW1qMkZxaUdmc1lkYS1EanNYV3ZG?oc=5
-6. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 66.3
-   https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee
-7. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 65
+6. **Mistral launches first robotics model in physical AI push - Reuters** — Mistral News — Score 65
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5
+7. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
+   https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee
 8. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 63
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQckxxM0xOb3RKYUV6WUYxREprR0wwWHFpY2lLMjJnR0xmMWZ6OVFWdTU1bW9BbGViSGgwc1FTbmtWZ2VqT0k0dWNINHVXSVQwYmRUMDhIY3NocXprVG5FcFM2dWpTNDZCNU5RMVNCdVJEMU9aR2tWV2ZUNFRybVo4dg?oc=5
 9. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **How MIT students are helping to prevent cyberattacks** — https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3437
+- Total stories tracked: 3492
 - Most active topic: openai
 - Busiest category: AI General News
 
