@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 6. **How MIT students are helping to prevent cyberattacks** — science angle
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
-7. **AI errors shaped doctors’ judgments despite contradictory evidence - News-Medical** — science angle
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV1VlOU5OLU11d0p3WWxaaVRzeFJfWXlkSVI4NDB4R1lpMm9DRzZUNFlvcDhDV3RySWlLQWFRNEstN25ibWNGcmVVd0x2STFKWWZ2dkJMTjJGeUlCN1dhanZISzd3RFhOZmVJcGxWc1U3NkJtVi1SRmhKNkVETjNfUXZ2TGVOcnNkMWN5M3lzNElwcVQzTVk2Vk5oQXRVMU11QS13V29OWGJHSnJQZTFpcmhrN2Rhb0NCQXR3?oc=5
-8. **Can AI predict sudden cardiac death before it happens? Doctor says it may spot hidden warning signs earli - The Times of India** — science angle
+7. **Can AI predict sudden cardiac death before it happens? Doctor says it may spot hidden warning signs earli - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMihgJBVV95cUxPajgtWEtPOFFISzZZcWdRWllLbkNXWGhlOVl4a3g0S3VUT2ctSm00S3hLRVBRaHNLSF9rLVdUcng4dGpkYmk2Q2RPNXpYU3l5Vll6UWpkZ0ZNVkZBRGwzMl96aXl5WUxHaWZZTEN2N3hTdzBodFFLU19jakhYUlI4a09pOVFlYnY5Z1AzOGNMY2d1V3VPNl9yYktTc0xhMG5QYkNBMVBSams5YUNKQXRVb2FhdGZXdlY5OWxzMC0wczk4ZUczT0t6eFVQVlBNbkVVdmdudEs2VzZUY0ZwalNxcXNkeDFmWklWaC1aOUhFTWp0UnRieUJZZGxxMWM5bU1heFlwMENB0gGLAkFVX3lxTE9vWnM5X2k4bTJOQ3hLQTBlYnl0UWNhLVAwS2g2bU5oaHY1QTRWWDhXdUYxREhMVE1BTTJMTGRXS2hkeWZwdnFISlNMbVdHZ2lZWGFDRWF3TVA0UFpmejRNYUJYbmxXQ3pkeUVCakNBSU1idVpiekVNb3lhZUtCTjR5TUE3ejZRYVp1Y2JiRVVrWkM1TTlxVkhpWHlqVjdPUENCZFkweUdtSEk5ZWRuSW1Gd1JieWV6WjNGOGFtSWNtX2V6a3U2MTJGSWVvaUFjcmlheXVBd1cyclZVVlI1R0c3UXp6UVpnaUw5ZmdSbTdodksweGxYa2Nsek5nRzRTZUpYX09lWXFNVTlNYw?oc=5
+8. **WBAMC using AI to help with doctor burnout - KVIA** — science angle
+   https://news.google.com/rss/articles/CBMiigFBVV95cUxOREFGNzBJZkY4THJlOGhfUVNMLTlhTDNsRnJYYWc5bG9vSVk0ZklPWmN1WFM0WFRfQV9fOGNRTzN3bFlsYzlGX1JDTU1Jbk5jcTVOQVpMc3pVaGFFSktfN2RTcnNHTk95MFcyM2tqYy1URlV3bklBWGJBb2VWcmNhVUhwQ0ZlN2d4U0E?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3467
+- Total stories tracked: 3460
 - Most active topic: openai
 - Busiest category: AI General News
 
