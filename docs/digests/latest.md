@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Meta used AI to target workers with medical conditions for layoffs** — 13 upvotes on Reddit/HN
    https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/
-2. **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — science angle
-   https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
-3. **One in four Americans turn to AI chatbots for medical advice because they can’t afford to see a doctor - Yahoo News Canada** — science angle
+2. **One in four Americans turn to AI chatbots for medical advice because they can’t afford to see a doctor - Yahoo News Canada** — science angle
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
-4. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
+3. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
-5. **How MIT students are helping to prevent cyberattacks** — science angle
-   https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
-6. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
+4. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
-7. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
+5. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
    https://www.sciencedaily.com/releases/2026/07/260712011757.htm
-8. **AI patient portal message may increase clinicians' cognitive burden - TechTarget** — science angle
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUZKNktiTkNKbDlRRDBheHZ6Rkx2ZlkzMC00c0JvV3R6NW03TGVNNHhmWjdncC1JVXF3SFV3bVRSekVQdEo0bEY0ak9temkwamRKbDN4RkpRRGRyVmE2MUhnMVhxQkFjbVp0d2lfQ3k1R2wtRkJfdEZzdTd3ZGJqWDVEa0NPRnk4X1U0b1FpYlIxZ2Y0Ums0Rk9jUGxuRW5ENzI4VzNFRWJzS0VBcWhwSVhRcHc0OGpDZVpNakJOWWs?oc=5
+6. **How MIT students are helping to prevent cyberattacks** — science angle
+   https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
+7. **AI errors shaped doctors’ judgments despite contradictory evidence - News-Medical** — science angle
+   https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV1VlOU5OLU11d0p3WWxaaVRzeFJfWXlkSVI4NDB4R1lpMm9DRzZUNFlvcDhDV3RySWlLQWFRNEstN25ibWNGcmVVd0x2STFKWWZ2dkJMTjJGeUlCN1dhanZISzd3RFhOZmVJcGxWc1U3NkJtVi1SRmhKNkVETjNfUXZ2TGVOcnNkMWN5M3lzNElwcVQzTVk2Vk5oQXRVMU11QS13V29OWGJHSnJQZTFpcmhrN2Rhb0NCQXR3?oc=5
+8. **Can AI predict sudden cardiac death before it happens? Doctor says it may spot hidden warning signs earli - The Times of India** — science angle
+   https://news.google.com/rss/articles/CBMihgJBVV95cUxPajgtWEtPOFFISzZZcWdRWllLbkNXWGhlOVl4a3g0S3VUT2ctSm00S3hLRVBRaHNLSF9rLVdUcng4dGpkYmk2Q2RPNXpYU3l5Vll6UWpkZ0ZNVkZBRGwzMl96aXl5WUxHaWZZTEN2N3hTdzBodFFLU19jakhYUlI4a09pOVFlYnY5Z1AzOGNMY2d1V3VPNl9yYktTc0xhMG5QYkNBMVBSams5YUNKQXRVb2FhdGZXdlY5OWxzMC0wczk4ZUczT0t6eFVQVlBNbkVVdmdudEs2VzZUY0ZwalNxcXNkeDFmWklWaC1aOUhFTWp0UnRieUJZZGxxMWM5bU1heFlwMENB0gGLAkFVX3lxTE9vWnM5X2k4bTJOQ3hLQTBlYnl0UWNhLVAwS2g2bU5oaHY1QTRWWDhXdUYxREhMVE1BTTJMTGRXS2hkeWZwdnFISlNMbVdHZ2lZWGFDRWF3TVA0UFpmejRNYUJYbmxXQ3pkeUVCakNBSU1idVpiekVNb3lhZUtCTjR5TUE3ejZRYVp1Y2JiRVVrWkM1TTlxVkhpWHlqVjdPUENCZFkweUdtSEk5ZWRuSW1Gd1JieWV6WjNGOGFtSWNtX2V6a3U2MTJGSWVvaUFjcmlheXVBd1cyclZVVlI1R0c3UXp6UVpnaUw5ZmdSbTdodksweGxYa2Nsek5nRzRTZUpYX09lWXFNVTlNYw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
@@ -39,22 +39,22 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5
 7. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
    https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee
-8. **Factbox-Major AI models at a glance - 93.3 The Drive** — Breaking GPT-5 — Score 63
-   https://news.google.com/rss/articles/CBMigAFBVV95cUxQckxxM0xOb3RKYUV6WUYxREprR0wwWHFpY2lLMjJnR0xmMWZ6OVFWdTU1bW9BbGViSGgwc1FTbmtWZ2VqT0k0dWNINHVXSVQwYmRUMDhIY3NocXprVG5FcFM2dWpTNDZCNU5RMVNCdVJEMU9aR2tWV2ZUNFRybVo4dg?oc=5
-9. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
+8. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
    https://news.google.com/rss/articles/CBMikgFBVV95cUxPczRKaVhpQnlDYnBRbVFGakc5bF9FODI2OWFZenZLeHR6Wkg3S1JtMEFYWDM4SngwNUpXMUlROFdtTmc4QUhLSEhxRFo1ckdXNkp1TDRkLUZ1VHNhNXVaTGVPdFdqSmhNendIQkRVaExkZm1uU214QmR4NlBod21URE5RTkxrTldHRUxNbktFN1ozZw?oc=5
-10. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
+9. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5hQkQxenVfMEhpUVJ2b3liU0lvTzM5MlJheWxXY19LUjdNd29qVjQtbkhkdjhnbk5XekI5Y3U1b3h2c2hhSDNEWUtWdEZUNHJfNG1veUdvcnJZdkI3RmxMN3dIeFFDM2YtTDhGTHYxZTBaUVZYTDdHdmZDY3JuWE9nSXk0MGlKOXZINUF5ejhKOFFZSUtXaFEzY0pja1hRc0NaejBwc1VCOGsyUzJJU0RnWmdlSU1rOFlUdzJ2cm1tSXdvWWl3WE03cVg2U0tEOVZ1Tg?oc=5
+10. **German media regulator says Google’s AI Overviews subject to German media law - The Mighty 790 KFGO** — Perplexity News — Score 63
+   https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWRJMHpaSWxTbnQ5N3BGUGV2OFd6b1ZRR0ZleWhWZjNXazgtT3UxMklYSF95ME5aQktSTXRyN1VEVTlWQVpEMmlPMndBRkNYc3JyR0hpQ1JuYXJIMHkwcmduVk5HWG1qXzhLMGR2RHpycVFCaVgxYnNQSTkwLXFvOHB1TnpubE81SFNHRG1hcWc0dzltaWxybFdkdDFHVWFqUUZFY2pMMUw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Meta used AI to target workers with medical conditions for layoffs** — https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/
-- **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
 - **One in four Americans turn to AI chatbots for medical advice because they can’t afford to see a doctor - Yahoo News Canada** — https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
 - **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
-- **How MIT students are helping to prevent cyberattacks** — https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
+- **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
+- **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3492
+- Total stories tracked: 3477
 - Most active topic: openai
 - Busiest category: AI General News
 
