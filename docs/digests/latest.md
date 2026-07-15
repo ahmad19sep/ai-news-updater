@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
 4. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
-5. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
-   https://www.sciencedaily.com/releases/2026/07/260712011757.htm
-6. **How MIT students are helping to prevent cyberattacks** — science angle
+5. **How MIT students are helping to prevent cyberattacks** — science angle
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
-7. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
+6. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
-8. **The New York nurses replaced by AI: 'It should concern every patient who cares'** — 3 upvotes on Reddit/HN
-   https://www.theguardian.com/technology/2026/jul/13/nurses-new-york-ai
+7. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
+   https://www.sciencedaily.com/releases/2026/07/260712011757.htm
+8. **AI patient portal message may increase clinicians' cognitive burden - TechTarget** — science angle
+   https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUZKNktiTkNKbDlRRDBheHZ6Rkx2ZlkzMC00c0JvV3R6NW03TGVNNHhmWjdncC1JVXF3SFV3bVRSekVQdEo0bEY0ak9temkwamRKbDN4RkpRRGRyVmE2MUhnMVhxQkFjbVp0d2lfQ3k1R2wtRkJfdEZzdTd3ZGJqWDVEa0NPRnk4X1U0b1FpYlIxZ2Y0Ums0Rk9jUGxuRW5ENzI4VzNFRWJzS0VBcWhwSVhRcHc0OGpDZVpNakJOWWs?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program - The Keystone Newsroom** — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXhGYmFZLXNEV0p5ZzBzQm5RNTdvbWZZb2NHR2ZlVDBOYlJCRDJLQlpPRzFYdTJ6bTNxejBkYnBqSXpLSkNlNTFhNjBhU2RtVUlEd1pTd3RvcllTTkRfSDNvWnBCc2VOV0RyWXV6UXF1VEtjMHlkYWU5RWsxSDF0RXpjTThHRzVFaHdGSTNFNm01TUNrc2xyLUEwZGFmRDRvcFlVM1JHeFlnQ20wbkVab3NVVFlNZzgzZW1fS3Z3R3JnWEplQzQybVhNQTRkdzRtbW5MVXNjOA?oc=5
 - **One in four Americans turn to AI chatbots for medical advice because they can’t afford to see a doctor - Yahoo News Canada** — https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
 - **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
-- **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
+- **How MIT students are helping to prevent cyberattacks** — https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3528
+- Total stories tracked: 3467
 - Most active topic: openai
 - Busiest category: AI General News
 
