@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T14:12:22.179319+00:00",
+  "generated_at": "2026-07-15T19:38:00.623546+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,74 +9,67 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "A feature that allows users to generate images using ChatGPT.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Explore the potential of AI-generated images in marketing and design.",
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QAYa8HYCfTE",
-          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just 1 Prompt"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "10 Amazing ChatGPT Image Generation Examples",
-        "Using ChatGPT for Graphic Design: A Beginner's Guide"
+        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
+        "ChatGPT Images 2.0: A Game-Changer for Content Creators",
+        "Unlocking the Potential of ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "GPT-5.6 Sol",
+      "name": "GPT 5.6 Sol",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "A new version of the GPT model with improved capabilities.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your business operations.",
+      "what_it_is": "A new version of the GPT model with enhanced capabilities.",
+      "audience_angle": "Discover the latest advancements in AI technology with GPT 5.6 Sol.",
+      "linkedin_angle": "Stay ahead of the curve with GPT 5.6 Sol and its potential applications in your industry.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program for its users."
+        "note": "GPT 5.6 Sol may have an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux2c58/gpt56_sol_solved_a_103_word_pok%C3%A9mon_crossword_in/",
-          "signal": "GPT-5.6 Sol Solved A 103 Word Pokémon Crossword in About 4 Minutes With Zero Clues"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxbr01/gpt_56_sol_can_not_be_trusted_i_gave_it_total/",
+          "signal": "GPT 5.6 SOL CAN NOT BE TRUSTED"
         },
         {
           "platform": "youtube",
@@ -85,165 +78,61 @@
         }
       ],
       "content_ideas": [
-        "What's New in GPT-5.6 Sol: Features and Updates",
-        "GPT-5.6 Sol vs. Previous Models: A Comparison",
-        "How to Get Started with GPT-5.6 Sol: A Beginner's Guide"
+        "Getting Started with GPT 5.6 Sol: A Beginner's Guide",
+        "GPT 5.6 Sol: The Future of AI-Powered Content Creation",
+        "Unlocking the Secrets of GPT 5.6 Sol"
+      ]
+    },
+    {
+      "name": "Inkling",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "An open-weights 975B parameter LLM model.",
+      "audience_angle": "Explore the capabilities of Inkling, a cutting-edge LLM model.",
+      "linkedin_angle": "Discover how Inkling can revolutionize your industry with its advanced LLM capabilities.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Inkling."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thinkingmachines.ai/inkling/",
+          "signal": "Inkling – Open-Weights 975B Parameter LLM"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Inkling: The Open-Weights LLM Model",
+        "Inkling: A New Era in LLM Technology",
+        "Exploring the Capabilities of Inkling"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "The use of AI to generate videos.",
-      "audience_angle": "Create stunning videos with minimal effort.",
-      "linkedin_angle": "Explore the potential of AI-generated videos in marketing and advertising.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jqvmORIAQjg",
-          "signal": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Amazing Videos with AI",
-        "The Best AI Video Generation Tools: A Review",
-        "Using AI-Generated Videos in Your Marketing Strategy"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "A new AI model with advanced capabilities.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Discover how Claude AI can enhance your business operations.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its users."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux140w/6_ai_models_picked_france_to_win_the_world_cup/",
-          "signal": "6 AI models picked France to win the World Cup. Claude alone said Spain. Spain just knocked France out 2-0."
-        }
-      ],
-      "content_ideas": [
-        "What's New in Claude AI: Features and Updates",
-        "Claude AI vs. Other Models: A Comparison",
-        "How to Get Started with Claude AI: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "AI for Business",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "The use of AI in business operations.",
-      "audience_angle": "Discover how AI can enhance your business.",
-      "linkedin_angle": "Explore the potential of AI in business and how it can improve operations.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI business tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XWWbIDQuHJc",
-          "signal": "I Made $20K In 7 Days: The Fastest Way To Use AI Agents To Make Money & Be More Productive (No Code)"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI to Enhance Your Business",
-        "The Best AI Tools for Business: A Review",
-        "Using AI in Business: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "Grok AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "A new AI model with advanced capabilities.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Discover how Grok AI can enhance your business operations.",
-      "local_relevance": 7,
+      "what_it_is": "Using AI to generate videos for various purposes.",
+      "audience_angle": "Create stunning videos with the power of AI.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Grok AI has an affiliate program for its users."
+        "note": "AI video generation tools may have affiliate programs."
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.captchainbox.com",
-          "signal": "Show HN: Make senders work to get into your inbox"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Grok AI: Features and Updates",
-        "Grok AI vs. Other Models: A Comparison",
-        "How to Get Started with Grok AI: A Beginner's Guide"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "A feature that allows users to generate images using ChatGPT.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Explore the potential of AI-generated images in marketing and design.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=QAYa8HYCfTE",
@@ -251,36 +140,161 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "10 Amazing ChatGPT Image Generation Examples",
-        "Using ChatGPT for Graphic Design: A Beginner's Guide"
+        "How to Create Stunning AI-Generated Videos",
+        "AI Video Generation: A Game-Changer for Content Creators",
+        "Unlocking the Potential of AI Video Generation"
       ]
     },
     {
-      "name": "GPT-5.6 Sol",
-      "category": "tool_launch",
+      "name": "ChatGPT Agent Mode",
+      "category": "technique",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A mode in ChatGPT that allows for more advanced interactions.",
+      "audience_angle": "Take your ChatGPT experience to the next level with Agent Mode.",
+      "linkedin_angle": "Explore the potential of ChatGPT Agent Mode for your business.",
+      "local_relevance": 7,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "chatgpt agent mode"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Agent Mode",
+        "ChatGPT Agent Mode: A New Era in AI-Powered Interactions",
+        "Unlocking the Secrets of ChatGPT Agent Mode"
+      ]
+    },
+    {
+      "name": "AI Trading Bots",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "A new version of the GPT model with improved capabilities.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your business operations.",
+      "what_it_is": "Using AI to create trading bots for financial markets.",
+      "audience_angle": "Create your own AI-powered trading bot and start earning.",
+      "linkedin_angle": "Discover how AI trading bots can enhance your investment strategy.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program for its users."
+        "note": "AI trading bot tools may have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PBBSMSyU674",
+          "signal": "how to actually build an ai trading bot (full guide)"
+        }
+      ],
+      "content_ideas": [
+        "How to Build an AI Trading Bot",
+        "AI Trading Bots: A Game-Changer for Investors",
+        "Unlocking the Potential of AI Trading Bots"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux2c58/gpt56_sol_solved_a_103_word_pok%C3%A9mon_crossword_in/",
-          "signal": "GPT-5.6 Sol Solved A 103 Word Pokémon Crossword in About 4 Minutes With Zero Clues"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
+        "ChatGPT Images 2.0: A Game-Changer for Content Creators",
+        "Unlocking the Potential of ChatGPT Images 2.0"
+      ]
+    },
+    {
+      "name": "Inkling",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "An open-weights 975B parameter LLM model.",
+      "audience_angle": "Explore the capabilities of Inkling, a cutting-edge LLM model.",
+      "linkedin_angle": "Discover how Inkling can revolutionize your industry with its advanced LLM capabilities.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Inkling."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thinkingmachines.ai/inkling/",
+          "signal": "Inkling – Open-Weights 975B Parameter LLM"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Inkling: The Open-Weights LLM Model",
+        "Inkling: A New Era in LLM Technology",
+        "Exploring the Capabilities of Inkling"
+      ]
+    },
+    {
+      "name": "GPT 5.6 Sol",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "A new version of the GPT model with enhanced capabilities.",
+      "audience_angle": "Discover the latest advancements in AI technology with GPT 5.6 Sol.",
+      "linkedin_angle": "Stay ahead of the curve with GPT 5.6 Sol and its potential applications in your industry.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "GPT 5.6 Sol may have an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxbr01/gpt_56_sol_can_not_be_trusted_i_gave_it_total/",
+          "signal": "GPT 5.6 SOL CAN NOT BE TRUSTED"
         },
         {
           "platform": "youtube",
@@ -289,89 +303,37 @@
         }
       ],
       "content_ideas": [
-        "What's New in GPT-5.6 Sol: Features and Updates",
-        "GPT-5.6 Sol vs. Previous Models: A Comparison",
-        "How to Get Started with GPT-5.6 Sol: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "A new AI model with advanced capabilities.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Discover how Claude AI can enhance your business operations.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its users."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux140w/6_ai_models_picked_france_to_win_the_world_cup/",
-          "signal": "6 AI models picked France to win the World Cup. Claude alone said Spain. Spain just knocked France out 2-0."
-        }
-      ],
-      "content_ideas": [
-        "What's New in Claude AI: Features and Updates",
-        "Claude AI vs. Other Models: A Comparison",
-        "How to Get Started with Claude AI: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "Grok AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "A new AI model with advanced capabilities.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Discover how Grok AI can enhance your business operations.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Grok AI has an affiliate program for its users."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.captchainbox.com",
-          "signal": "Show HN: Make senders work to get into your inbox"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Grok AI: Features and Updates",
-        "Grok AI vs. Other Models: A Comparison",
-        "How to Get Started with Grok AI: A Beginner's Guide"
+        "Getting Started with GPT 5.6 Sol: A Beginner's Guide",
+        "GPT 5.6 Sol: The Future of AI-Powered Content Creation",
+        "Unlocking the Secrets of GPT 5.6 Sol"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux140w/6_ai_models_picked_france_to_win_the_world_cup/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux7ab8/projects_disappeared_after_chat_gpt_upgrade/"
         }
       ],
-      "content_opportunity": "How to Overcome Claude Usage Limits: Tips and Tricks"
+      "content_opportunity": "Workaround for Claude usage limits: Exploring alternative AI tools."
+    },
+    {
+      "problem": "GPT 5.6 Sol trust issues",
+      "who_affected": "GPT 5.6 Sol users",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxbr01/gpt_56_sol_can_not_be_trusted_i_gave_it_total/"
+        }
+      ],
+      "content_opportunity": "Addressing GPT 5.6 Sol trust concerns: Best practices for secure usage."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
