@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:37:57.121795+00:00",
+  "generated_at": "2026-07-15T08:36:50.716232+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,41 +9,47 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 26,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with ChatGPT's latest update.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation.",
+      "what_it_is": "A new tool from ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Create and manage your work more efficiently with ChatGPT Work.",
+      "linkedin_angle": "Boost your productivity with ChatGPT Work.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program"
       },
       "sources": [
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
+          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
+        },
+        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwmg3x/a_tale_of_two_rollouts/",
+          "signal": "A Tale of Two Rollouts"
         }
       ],
       "content_ideas": [
-        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+        "How to use ChatGPT Work to boost your productivity",
+        "ChatGPT Work tutorial for beginners",
+        "How to create and manage your work with ChatGPT Work"
       ]
     },
     {
@@ -51,15 +57,15 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
+        "youtube",
         "hackernews"
       ],
-      "what_it_is": "A new AI model that can be used for various tasks.",
-      "audience_angle": "Unlock the power of Claude AI for your business or personal projects.",
-      "linkedin_angle": "Learn how Claude AI can automate tasks and increase productivity.",
+      "what_it_is": "A new AI tool that allows users to create and manage their own AI agents.",
+      "audience_angle": "Create and manage your own AI agents with Claude AI.",
+      "linkedin_angle": "Take your business to the next level with Claude AI.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
@@ -67,201 +73,90 @@
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwavzo/anthropic_just_told_the_us_senate_that_alibaba/",
-          "signal": "Anthropic just told the US Senate that Alibaba ran 25,000 fake accounts and had 28.8 million conversations with Claude"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         },
         {
           "platform": "hackernews",
-          "url": "https://www.hackernews.com/",
-          "signal": "Claude AI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwavzo/anthropic_just_told_the_us_senate_that_alibaba/",
+          "signal": "Anthropic just told the US Senate that Alibaba ran 25,000 fake accounts and had 28.8 million conversations with Claude"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "10 Ways to Use Claude AI for Your Business",
-        "Claude AI vs ChatGPT: Which One is Better for You?"
+        "How to create and manage your own AI agents with Claude AI",
+        "Claude AI tutorial for beginners",
+        "How to use Claude AI to boost your business"
       ]
     },
     {
-      "name": "AI Agents",
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI-powered agents that can perform various tasks.",
-      "audience_angle": "Discover how AI agents can automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how AI agents can revolutionize your business operations.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI agent platforms have affiliate programs"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+agents",
-          "signal": "How to use AI agents"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.hackernews.com/",
-          "signal": "AI agents"
-        }
-      ],
-      "content_ideas": [
-        "10 Ways to Use AI Agents for Your Business",
-        "Getting Started with AI Agents: A Beginner's Guide",
-        "AI Agents: The Future of Automation"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT with additional features.",
-      "audience_angle": "Unlock the power of ChatGPT Work for your business or personal projects.",
-      "linkedin_angle": "Learn how ChatGPT Work can increase productivity and automate tasks.",
-      "local_relevance": 6,
+      "what_it_is": "A use case for AI that allows users to generate videos using AI tools.",
+      "audience_angle": "Create stunning videos using AI video generation tools.",
+      "linkedin_angle": "Take your video creation to the next level with AI video generation.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwmg3x/a_tale_of_two_rollouts/",
-          "signal": "A Tale of Two Rollouts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=mFysqIcP7So",
-          "signal": "How To Master The New ChatGPT Work (Free Course)"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "10 Ways to Use ChatGPT Work for Your Business",
-        "ChatGPT Work vs ChatGPT: What's the Difference?"
-      ]
-    },
-    {
-      "name": "Grok AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "A new AI model that can be used for various tasks.",
-      "audience_angle": "Discover how Grok AI can automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how Grok AI can revolutionize your business operations.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Grok AI has an affiliate program"
+        "note": "Some AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MMx4k3emXHk",
-          "signal": "Grok 4.5 正式发布！马斯克最强 AI：Agent 能力震撼实测，免费使用教程来了！"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.hackernews.com/",
-          "signal": "Grok AI"
+          "url": "https://www.youtube.com/watch?v=jqvmORIAQjg",
+          "signal": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
         }
       ],
       "content_ideas": [
-        "Getting Started with Grok AI: A Beginner's Guide",
-        "10 Ways to Use Grok AI for Your Business",
-        "Grok AI vs ChatGPT: Which One is Better for You?"
+        "How to create stunning videos using AI video generation tools",
+        "AI video generation tutorial for beginners",
+        "How to use AI video generation to boost your business"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with ChatGPT's latest update.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
-      ]
-    },
-    {
-      "name": "Grok AI",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "A new AI model that can be used for various tasks.",
-      "audience_angle": "Discover how Grok AI can automate tasks and increase productivity.",
-      "linkedin_angle": "Learn how Grok AI can revolutionize your business operations.",
+      "what_it_is": "A new tool from ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Create and manage your work more efficiently with ChatGPT Work.",
+      "linkedin_angle": "Boost your productivity with ChatGPT Work.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Grok AI has an affiliate program"
+        "note": "ChatGPT has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MMx4k3emXHk",
-          "signal": "Grok 4.5 正式发布！马斯克最强 AI：Agent 能力震撼实测，免费使用教程来了！"
+          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
+          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.hackernews.com/",
-          "signal": "Grok AI"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwmg3x/a_tale_of_two_rollouts/",
+          "signal": "A Tale of Two Rollouts"
         }
       ],
       "content_ideas": [
-        "Getting Started with Grok AI: A Beginner's Guide",
-        "10 Ways to Use Grok AI for Your Business",
-        "Grok AI vs ChatGPT: Which One is Better for You?"
+        "How to use ChatGPT Work to boost your productivity",
+        "ChatGPT Work tutorial for beginners",
+        "How to create and manage your work with ChatGPT Work"
       ]
     },
     {
@@ -269,15 +164,15 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
+        "youtube",
         "hackernews"
       ],
-      "what_it_is": "A new AI model that can be used for various tasks.",
-      "audience_angle": "Unlock the power of Claude AI for your business or personal projects.",
-      "linkedin_angle": "Learn how Claude AI can automate tasks and increase productivity.",
+      "what_it_is": "A new AI tool that allows users to create and manage their own AI agents.",
+      "audience_angle": "Create and manage your own AI agents with Claude AI.",
+      "linkedin_angle": "Take your business to the next level with Claude AI.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
@@ -285,57 +180,20 @@
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwavzo/anthropic_just_told_the_us_senate_that_alibaba/",
-          "signal": "Anthropic just told the US Senate that Alibaba ran 25,000 fake accounts and had 28.8 million conversations with Claude"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ue0h67gEkxY",
+          "signal": "Claude vs AI Agent Make Shaders From Scratch"
         },
         {
           "platform": "hackernews",
-          "url": "https://www.hackernews.com/",
-          "signal": "Claude AI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwavzo/anthropic_just_told_the_us_senate_that_alibaba/",
+          "signal": "Anthropic just told the US Senate that Alibaba ran 25,000 fake accounts and had 28.8 million conversations with Claude"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "10 Ways to Use Claude AI for Your Business",
-        "Claude AI vs ChatGPT: Which One is Better for You?"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "A new version of ChatGPT with additional features.",
-      "audience_angle": "Unlock the power of ChatGPT Work for your business or personal projects.",
-      "linkedin_angle": "Learn how ChatGPT Work can increase productivity and automate tasks.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwmg3x/a_tale_of_two_rollouts/",
-          "signal": "A Tale of Two Rollouts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=mFysqIcP7So",
-          "signal": "How To Master The New ChatGPT Work (Free Course)"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "10 Ways to Use ChatGPT Work for Your Business",
-        "ChatGPT Work vs ChatGPT: What's the Difference?"
+        "How to create and manage your own AI agents with Claude AI",
+        "Claude AI tutorial for beginners",
+        "How to use Claude AI to boost your business"
       ]
     }
   ],
@@ -347,22 +205,10 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwpfbr/upstream_connect_error_or_disconnectreset_before/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwpmew/this_prompt_seems_to_break_chatgpt_chats/"
         }
       ],
       "content_opportunity": "How to overcome ChatGPT usage limits"
-    },
-    {
-      "problem": "Claude AI token limits",
-      "who_affected": "Claude AI users",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwavzo/anthropic_just_told_the_us_senate_that_alibaba/"
-        }
-      ],
-      "content_opportunity": "How to overcome Claude AI token limits"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Work"
