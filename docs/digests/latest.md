@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
 3. **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
-4. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
+4. **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — science angle
+   https://www.nature.com/articles/d41586-026-02214-z
+5. **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
-5. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
+6. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
    https://www.sciencedaily.com/releases/2026/07/260712011757.htm
-6. **How MIT students are helping to prevent cyberattacks** — science angle
+7. **How MIT students are helping to prevent cyberattacks** — science angle
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
-7. **Doctors must drive the alignment of medical AI solutions - LSE Blogs** — science angle
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVWktbG9Tam5qdU9JZ2x6dXg0NkczQ1RQbkc4OEQySVM5WmhTMS1BVzVUY2tWVEdPelZTOS1STXdEdmlUZ1dEeG9ST25CUXRuMFQ0OHJJeE1QOC1SVUlFa2V5RC1ZSFRsMEFfdnhueUd4ZHR0S0NGblh1Uk9LRThmWFQ1MkduZVVyRTZDM1o5eVZBYW56SXBpa3Vhem9fckdPeXlZODhTdnREY1U?oc=5
-8. **Hospitals without doctors: How AI is meant to close the urban-rural gap in medicine - Table.Briefings** — science angle
-   https://news.google.com/rss/articles/CBMixwFBVV95cUxQNC03ZEc5TEs0WlVsamR0dDEtc3hOcUFsR2ZzTlh2SmhGbnhTZ19XWWJ2d3NobGFkeTJYazJSNDFxQ0sxZzJpZVdhczFhSEdRZFFKemsydnVLbkZzOE5nUDU2eFlOTS1qd2diWk4ySVctVEdjTGc3ZUk4SWhjT2I5QXNKNDVJM294X2ZYWEprcGxIQVYtN05FcGlidGxzc25hanhIdlBVOExKM2hBZUxqZE5BUkFNN1UyaGE2QnFHVkxvWkFzYXk0?oc=5
+8. **Does using AI change how doctors think? - Medical Republic** — science angle
+   https://news.google.com/rss/articles/CBMihwFBVV95cUxPdVU3cVpRcHRTSXVBT0ljNjByck95aVNsMmltOFRac3ZYUDNNT0ozR0RsbHNPTzh3dVVQSHNkTGtja1ZQU0JBYUZtN2hGd3VFdGxVUEI5V2ZjRFpsb045cFFDNjFGeFU2dUpQRERYcUZ6SmpsbzVQYldYQUg0dk1ZWHhfNnFkSjA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
@@ -35,26 +35,26 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVpOSjRjSTh3NlN3S1pyMWNSOC14ODVHNVVjNUFZNWlPWnhOcGZmUlMyV0pvUHVjYjNudjV3TGo2Y2t5WjVpMDBHQzE2bUFCVkt6VFpEZjB5bWdaZDhSZ3JoYjZNVzdDVmhBanpvSUpNWl9ad0djNUJxZWJKMFlqdi1RMjBVdGxzODZieW1qMkZxaUdmc1lkYS1EanNYV3ZG?oc=5
 5. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
    https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee
-6. **News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - MySA** — Sam Altman News — Score 63
-   https://news.google.com/rss/articles/CBMikgFBVV95cUxPczRKaVhpQnlDYnBRbVFGakc5bF9FODI2OWFZenZLeHR6Wkg3S1JtMEFYWDM4SngwNUpXMUlROFdtTmc4QUhLSEhxRFo1ckdXNkp1TDRkLUZ1VHNhNXVaTGVPdFdqSmhNendIQkRVaExkZm1uU214QmR4NlBod21URE5RTkxrTldHRUxNbktFN1ozZw?oc=5
-7. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
+6. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5hQkQxenVfMEhpUVJ2b3liU0lvTzM5MlJheWxXY19LUjdNd29qVjQtbkhkdjhnbk5XekI5Y3U1b3h2c2hhSDNEWUtWdEZUNHJfNG1veUdvcnJZdkI3RmxMN3dIeFFDM2YtTDhGTHYxZTBaUVZYTDdHdmZDY3JuWE9nSXk0MGlKOXZINUF5ejhKOFFZSUtXaFEzY0pja1hRc0NaejBwc1VCOGsyUzJJU0RnWmdlSU1rOFlUdzJ2cm1tSXdvWWl3WE03cVg2U0tEOVZ1Tg?oc=5
-8. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
+7. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
    https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
-9. **Meta Platforms Stock Rises as Muse Spark 1.1 AI Model Debuts - MarketBeat** — Meta AI News — Score 60
+8. **Meta Platforms Stock Rises as Muse Spark 1.1 AI Model Debuts - MarketBeat** — Meta AI News — Score 60
    https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkpsZC1DeFpNUGVhV0dhX0VIaUh3NllmN2NaeHNKX3RhSG5rbWxjandnN25DYjgweF9ISWdxVmRtV1R0ZE83bjFHTU1ZNkJMT1pJczVjM19EQWdxeV9UN0RZQ1VSbXEtdzc5N25sdEdNVnNERXVCX1lWd1FWZElBelIwTEpWMXREV0RTU3RRUExPUU93XzgxNlYwX28?oc=5
-10. **German media regulator says Google’s AI Overviews subject to German media law - The Mighty 790 KFGO** — Perplexity News — Score 60
+9. **German media regulator says Google’s AI Overviews subject to German media law - The Mighty 790 KFGO** — Perplexity News — Score 60
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWRJMHpaSWxTbnQ5N3BGUGV2OFd6b1ZRR0ZleWhWZjNXazgtT3UxMklYSF95ME5aQktSTXRyN1VEVTlWQVpEMmlPMndBRkNYc3JyR0hpQ1JuYXJIMHkwcmduVk5HWG1qXzhLMGR2RHpycVFCaVgxYnNQSTkwLXFvOHB1TnpubE81SFNHRG1hcWc0dzltaWxybFdkdDFHVWFqUUZFY2pMMUw?oc=5
+10. **Cropin, Google Cloud launch OrbitAI; an agentic AI platform for food and agriculture - BusinessLine** — AI Agents — Score 58
+   https://news.google.com/rss/articles/CBMi8wFBVV95cUxQamJDdFJwZ0tPZmxqXzFlUkIwOFZod3lzZVBBVmQwLUVyLXBnUzdjRUFKRzBtWGdNeVVrWlJjSHNjU1VXdmZyUno0VW5CNFJ5MXp5Y2h4M21GbmMzWnp5bmZhalFrVllld1ltMFBtY29oV0V3dDNpYl9VY090aDdGSTFKdDlXZkNETEJkX0Z1aVByd3dfMnlqU1Y1bzhWZjVJNWpITHdWeVVGajdGblJXU0puXzNrM0s4LWlRWWJzVURHRWh6M1BuMW54eDBFcWxKRE5IdkJoamxTcTlIS3h6c2t4SXJNX1NyT19mazZzb01INFnSAfoBQVVfeXFMT1pBNF81VlFQWDB2VDREZ3o2bG44TkR2TURNVkpnQURYd2ZYeHlHUFpxWXNUYWZ1eWdJYnRWdC1UclhYNE9GMW1TcVh3dGFfNlBWVWsxUzRpYmpuOWdaam9fWWtlVHQ2djl4MFAwOU9DTFVmY25uS3FvZmJCWm40dmJ2a2oyejJsX3hVUlRxRGVZWEFScnpPd1ppS2Z3TGZqUHpQcnNvT3NSZWxiQm9PMWlEVDlBWTdkYUVDdjAtczdRcm9PZkw1MUdlREQtQ015LXFTU29BRWJjaDNHSXc2Rkd2cWJjX1Nla0s3aE95a0dlMkVVak45Q0QxQQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Meta used AI to target workers with medical conditions for layoffs** — https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/
 - **One in four Americans turn to AI chatbots for medical advice because they can’t afford to see a doctor - Yahoo News Canada** — https://news.google.com/rss/articles/CBMidkFVX3lxTE1Rano5cEd2QXl2bkFrUWY1M1RqeVdoQ20zVVdPbk56SXEzcE1wY3VSMDdzSkk5c2llZFBLMVJOeHRBNWdLckpNeU0tNlVRcV9GLW90V0RtWnN3YkVLekl0N2dGNjdGck5sNzRWUV9VVWQtb1VQelE?oc=5
 - **AI can assist physicians, but it can’t become ‘robot doctor’: Experts - The Times of India** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbEpFZmxETk0xRkhNZkdLazA0ODZpV0Q4NFQyRExQQVF4UVpKdV9KR2lzS0tCUjdWQnZqSnpqR1NyaGQ0cTJOR25jLU9adkRobTE5d1dsaGF2RF9EQ25JSTItajdIT3VMbG5xaXkzWmQwdHFsc2ZaVDNpNHh1NEdES29UZm5UT2VjT2diemlaMFdPa0dIbjVFaVdSTUtra0EwaS10TndOQ1NwQVhaS1VXN2pkRTdNVjNFYUpkb2NLOXRyMDY3c0JVVk50bFJTd3o1aGdwRHpaVVjSAd4BQVVfeXFMUDJNMGY4V3VMRW1rdndfZXNNbFN0RUw0NUNCOExDUlJKMTllYTZwaWQ3X29kS3RNUVN2SUUtdlA1cExGWndBZmdjRF9aWHFYcWZqdWZIMmppYVE2QUpDNkpsOGVuWkF1NE9FUHhMNlpoaGZxZ2FGcjVrYTBFbTEzaEFNeWNPNy03andNUWRsRkMxdnI5eXg4eGhQbWxJalV3YXc0Y2Qxd3ZxWTZURlVQYnQ3cEVENWZaNHBVMl8xLWVhdFVhWmFEV0FCelpMclZxbFNKazQxVnNPTEpwTDh3?oc=5
+- **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — https://www.nature.com/articles/d41586-026-02214-z
 - **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
-- **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3548
+- Total stories tracked: 3500
 - Most active topic: openai
 - Busiest category: AI General News
 
