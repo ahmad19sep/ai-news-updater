@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T08:35:48.064740+00:00",
+  "generated_at": "2026-07-16T14:25:28.409743+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,68 +8,31 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 31,
+      "reddit": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "GPT-5.6 Sol",
+      "name": "ChatGPT Image 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "GPT-5.6 Sol is an AI model that can be used for various tasks.",
-      "audience_angle": "You can use GPT-5.6 Sol to automate tasks and increase productivity.",
-      "linkedin_angle": "GPT-5.6 Sol can help professionals automate tasks and focus on high-priority work.",
+      "what_it_is": "ChatGPT Image 2.0 is a tool for generating images using AI.",
+      "audience_angle": "You can use ChatGPT Image 2.0 to create amazing images with just a few clicks.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT Image 2.0 and take your marketing to the next level.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxqbrv/chatgptsol_can_run_blender_really_well/",
-          "signal": "ChatGPT-SOL can run Blender really well"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
-          "signal": "OpenAI is so back... GPT 5.6 Sol first look"
-        }
-      ],
-      "content_ideas": [
-        "How to use GPT-5.6 Sol for task automation",
-        "GPT-5.6 Sol vs other AI models: which one is best for you",
-        "5 ways to increase productivity with GPT-5.6 Sol"
-      ]
-    },
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "technique",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Image Generation is a technique used to generate images using AI.",
-      "audience_angle": "You can use ChatGPT Image Generation to create unique and personalized images.",
-      "linkedin_angle": "ChatGPT Image Generation can help professionals create engaging visual content.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "ChatGPT Image Generation is a free tool"
+        "note": "ChatGPT Image 2.0 has an affiliate program for creators."
       },
       "sources": [
         {
@@ -79,73 +42,40 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=k6uQ3QMalV0",
-          "signal": "Try This Prompt ChatGPT Photo Editing | Trending Instagram Ai Photo Editing"
+          "url": "https://www.youtube.com/watch?v=VWGc5Gie6n8",
+          "signal": "Meta AI is BACK! FREE Unlimited AI Video Generator Without Watermark (Vibes.AI)"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Image Generation for social media",
-        "ChatGPT Image Generation vs other image generation tools",
-        "5 tips for creating stunning images with ChatGPT Image Generation"
+        "How to Use ChatGPT Image 2.0 for Stunning Visuals",
+        "5 Ways to Make Money with ChatGPT Image 2.0",
+        "ChatGPT Image 2.0 Tutorial for Beginners"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "technique",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI Video Generation is a technique used to generate videos using AI.",
-      "audience_angle": "You can use AI Video Generation to create engaging and personalized videos.",
-      "linkedin_angle": "AI Video Generation can help professionals create high-quality video content.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI Video Generation tools often have affiliate programs"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EQGVGwudWHE",
-          "signal": "The Best AI Tool for Fast Work | See What Superhuman Can Do for You"
-        }
-      ],
-      "content_ideas": [
-        "How to use AI Video Generation for marketing",
-        "AI Video Generation vs other video creation tools",
-        "5 tips for creating stunning videos with AI Video Generation"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
       "name": "GPT-5.6 Sol",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "GPT-5.6 Sol is an AI model that can be used for various tasks.",
-      "audience_angle": "You can use GPT-5.6 Sol to automate tasks and increase productivity.",
-      "linkedin_angle": "GPT-5.6 Sol can help professionals automate tasks and focus on high-priority work.",
-      "local_relevance": 5,
+      "what_it_is": "GPT-5.6 Sol is a new version of the GPT AI model with improved capabilities.",
+      "audience_angle": "GPT-5.6 Sol can help you automate tasks and generate high-quality content.",
+      "linkedin_angle": "Upgrade your workflow with GPT-5.6 Sol and increase your productivity.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program"
+        "note": "GPT-5.6 Sol has an affiliate program for developers."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxqbrv/chatgptsol_can_run_blender_really_well/",
-          "signal": "ChatGPT-SOL can run Blender really well"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxu10z/unexpected_file_deletions_in_gpt56/",
+          "signal": "Unexpected file deletions in GPT-5.6"
         },
         {
           "platform": "youtube",
@@ -154,25 +84,299 @@
         }
       ],
       "content_ideas": [
-        "How to use GPT-5.6 Sol for task automation",
-        "GPT-5.6 Sol vs other AI models: which one is best for you",
-        "5 ways to increase productivity with GPT-5.6 Sol"
+        "GPT-5.6 Sol Review: What's New and What's Improved",
+        "How to Use GPT-5.6 Sol for Content Generation",
+        "GPT-5.6 Sol vs Previous Versions: A Comparison"
+      ]
+    },
+    {
+      "name": "Inkling",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Inkling is an open-source AI model for generating human-like text.",
+      "audience_angle": "Inkling can help you create high-quality content without the need for extensive writing experience.",
+      "linkedin_angle": "Use Inkling to generate engaging content and improve your marketing strategy.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Inkling is open-source and free to use."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thinkingmachines.ai/inkling/",
+          "signal": "Inkling – Open-Weights 975B Parameter LLM"
+        }
+      ],
+      "content_ideas": [
+        "Inkling Tutorial: How to Generate High-Quality Content",
+        "Inkling vs GPT-5.6 Sol: A Comparison of AI Models",
+        "Using Inkling for Content Generation: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI video generation is the process of creating videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create stunning videos without extensive video production experience.",
+      "linkedin_angle": "Enhance your marketing strategy with AI-generated videos and increase your engagement.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI video generation tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hrwO990F2ew",
+          "signal": "How To Make Free AI Videos In 2026 (complete guide)"
+        }
+      ],
+      "content_ideas": [
+        "How to Make Money with AI-Generated Videos",
+        "AI Video Generation Tutorial for Beginners",
+        "5 Ways to Use AI-Generated Videos for Marketing"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a tool for automating tasks and generating content using AI.",
+      "audience_angle": "ChatGPT Work can help you increase your productivity and efficiency.",
+      "linkedin_angle": "Use ChatGPT Work to streamline your workflow and improve your career prospects.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
+          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT Work Tutorial: How to Automate Tasks and Generate Content",
+        "ChatGPT Work Review: What's New and What's Improved",
+        "Using ChatGPT Work for Career Development: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "AI Trading Bots",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI trading bots are software programs that use artificial intelligence to trade stocks and other financial instruments.",
+      "audience_angle": "You can use AI trading bots to automate your trading and increase your profits.",
+      "linkedin_angle": "Use AI trading bots to enhance your investment strategy and improve your financial performance.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI trading bot platforms have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PBBSMSyU674",
+          "signal": "how to actually build an ai trading bot (full guide)"
+        }
+      ],
+      "content_ideas": [
+        "How to Make Money with AI Trading Bots",
+        "AI Trading Bot Tutorial for Beginners",
+        "5 Ways to Use AI Trading Bots for Investment"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Image 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Image 2.0 is a tool for generating images using AI.",
+      "audience_angle": "You can use ChatGPT Image 2.0 to create amazing images with just a few clicks.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT Image 2.0 and take your marketing to the next level.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Image 2.0 has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VWGc5Gie6n8",
+          "signal": "Meta AI is BACK! FREE Unlimited AI Video Generator Without Watermark (Vibes.AI)"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Image 2.0 for Stunning Visuals",
+        "5 Ways to Make Money with ChatGPT Image 2.0",
+        "ChatGPT Image 2.0 Tutorial for Beginners"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a tool for automating tasks and generating content using AI.",
+      "audience_angle": "ChatGPT Work can help you increase your productivity and efficiency.",
+      "linkedin_angle": "Use ChatGPT Work to streamline your workflow and improve your career prospects.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
+          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
+        }
+      ],
+      "content_ideas": [
+        "ChatGPT Work Tutorial: How to Automate Tasks and Generate Content",
+        "ChatGPT Work Review: What's New and What's Improved",
+        "Using ChatGPT Work for Career Development: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "Inkling",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Inkling is an open-source AI model for generating human-like text.",
+      "audience_angle": "Inkling can help you create high-quality content without the need for extensive writing experience.",
+      "linkedin_angle": "Use Inkling to generate engaging content and improve your marketing strategy.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Inkling is open-source and free to use."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thinkingmachines.ai/inkling/",
+          "signal": "Inkling – Open-Weights 975B Parameter LLM"
+        }
+      ],
+      "content_ideas": [
+        "Inkling Tutorial: How to Generate High-Quality Content",
+        "Inkling vs GPT-5.6 Sol: A Comparison of AI Models",
+        "Using Inkling for Content Generation: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "GPT-5.6 Sol is a new version of the GPT AI model with improved capabilities.",
+      "audience_angle": "GPT-5.6 Sol can help you automate tasks and generate high-quality content.",
+      "linkedin_angle": "Upgrade your workflow with GPT-5.6 Sol and increase your productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "GPT-5.6 Sol has an affiliate program for developers."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxu10z/unexpected_file_deletions_in_gpt56/",
+          "signal": "Unexpected file deletions in GPT-5.6"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
+          "signal": "OpenAI is so back... GPT 5.6 Sol first look"
+        }
+      ],
+      "content_ideas": [
+        "GPT-5.6 Sol Review: What's New and What's Improved",
+        "How to Use GPT-5.6 Sol for Content Generation",
+        "GPT-5.6 Sol vs Previous Versions: A Comparison"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "GPT-5.6 Sol usage limits",
-      "who_affected": "GPT-5.6 Sol users",
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxb4oq/asked_chatgpt_to_make_the_cover_of_a_bargain_bin/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxbr01/gpt_56_sol_can_not_be_trusted_i_gave_it_total/"
         }
       ],
-      "content_opportunity": "How to overcome GPT-5.6 Sol usage limits"
+      "content_opportunity": "Claude Usage Limits: How to Work Around Them and Maximize Your Productivity"
+    },
+    {
+      "problem": "GPT-5.6 Sol file deletions",
+      "who_affected": "GPT-5.6 Sol users",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxu10z/unexpected_file_deletions_in_gpt56/"
+        }
+      ],
+      "content_opportunity": "GPT-5.6 Sol File Deletions: What You Need to Know and How to Prevent Them"
     }
   ],
-  "tool_of_week_candidate": "GPT-5.6 Sol, a powerful AI model that can be used for various tasks and has a wide range of applications."
+  "tool_of_week_candidate": "ChatGPT Image 2.0, because it offers a unique and powerful way to generate images using AI, with a wide range of applications and potential for creative and practical use."
 }
