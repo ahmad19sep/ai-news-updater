@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 6. **How MIT students are helping to prevent cyberattacks** — science angle
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
-7. **WBAMC using AI to help with doctor burnout - KVIA** — science angle
-   https://news.google.com/rss/articles/CBMiigFBVV95cUxOREFGNzBJZkY4THJlOGhfUVNMLTlhTDNsRnJYYWc5bG9vSVk0ZklPWmN1WFM0WFRfQV9fOGNRTzN3bFlsYzlGX1JDTU1Jbk5jcTVOQVpMc3pVaGFFSktfN2RTcnNHTk95MFcyM2tqYy1URlV3bklBWGJBb2VWcmNhVUhwQ0ZlN2d4U0E?oc=5
-8. **He's trolling doctors and therapists. They're actually AI - AOL.com** — science angle
-   https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkRtUU1kU2dQODZJZmJkdzRXd1JPcmlfeEZoOXBjb1o5RExXU0UzZ2Fkejl3SDRaR2RhdVZHYTJuYkRsakJFcVYxOXhDOFhsR0o5dXVZcWgwRUw2cU9Lc2lXVjR2bWFpTnhPRFQxMDdiZDhFWmdid1ZLVW85WmZNaWl4ZnZmTFRhQVE?oc=5
+7. **Doctors must drive the alignment of medical AI solutions - LSE Blogs** — science angle
+   https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVWktbG9Tam5qdU9JZ2x6dXg0NkczQ1RQbkc4OEQySVM5WmhTMS1BVzVUY2tWVEdPelZTOS1STXdEdmlUZ1dEeG9ST25CUXRuMFQ0OHJJeE1QOC1SVUlFa2V5RC1ZSFRsMEFfdnhueUd4ZHR0S0NGblh1Uk9LRThmWFQ1MkduZVVyRTZDM1o5eVZBYW56SXBpa3Vhem9fckdPeXlZODhTdnREY1U?oc=5
+8. **Hospitals without doctors: How AI is meant to close the urban-rural gap in medicine - Table.Briefings** — science angle
+   https://news.google.com/rss/articles/CBMixwFBVV95cUxQNC03ZEc5TEs0WlVsamR0dDEtc3hOcUFsR2ZzTlh2SmhGbnhTZ19XWWJ2d3NobGFkeTJYazJSNDFxQ0sxZzJpZVdhczFhSEdRZFFKemsydnVLbkZzOE5nUDU2eFlOTS1qd2diWk4ySVctVEdjTGc3ZUk4SWhjT2I5QXNKNDVJM294X2ZYWEprcGxIQVYtN05FcGlidGxzc25hanhIdlBVOExKM2hBZUxqZE5BUkFNN1UyaGE2QnFHVkxvWkFzYXk0?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMikgFBVV95cUxPczRKaVhpQnlDYnBRbVFGakc5bF9FODI2OWFZenZLeHR6Wkg3S1JtMEFYWDM4SngwNUpXMUlROFdtTmc4QUhLSEhxRFo1ckdXNkp1TDRkLUZ1VHNhNXVaTGVPdFdqSmhNendIQkRVaExkZm1uU214QmR4NlBod21URE5RTkxrTldHRUxNbktFN1ozZw?oc=5
 8. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5hQkQxenVfMEhpUVJ2b3liU0lvTzM5MlJheWxXY19LUjdNd29qVjQtbkhkdjhnbk5XekI5Y3U1b3h2c2hhSDNEWUtWdEZUNHJfNG1veUdvcnJZdkI3RmxMN3dIeFFDM2YtTDhGTHYxZTBaUVZYTDdHdmZDY3JuWE9nSXk0MGlKOXZINUF5ejhKOFFZSUtXaFEzY0pja1hRc0NaejBwc1VCOGsyUzJJU0RnWmdlSU1rOFlUdzJ2cm1tSXdvWWl3WE03cVg2U0tEOVZ1Tg?oc=5
-9. **German media regulator says Google’s AI Overviews subject to German media law - The Mighty 790 KFGO** — Perplexity News — Score 63
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWRJMHpaSWxTbnQ5N3BGUGV2OFd6b1ZRR0ZleWhWZjNXazgtT3UxMklYSF95ME5aQktSTXRyN1VEVTlWQVpEMmlPMndBRkNYc3JyR0hpQ1JuYXJIMHkwcmduVk5HWG1qXzhLMGR2RHpycVFCaVgxYnNQSTkwLXFvOHB1TnpubE81SFNHRG1hcWc0dzltaWxybFdkdDFHVWFqUUZFY2pMMUw?oc=5
-10. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
+9. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
    https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
+10. **Meta Platforms Stock Rises as Muse Spark 1.1 AI Model Debuts - MarketBeat** — Meta AI News — Score 60
+   https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkpsZC1DeFpNUGVhV0dhX0VIaUh3NllmN2NaeHNKX3RhSG5rbWxjandnN25DYjgweF9ISWdxVmRtV1R0ZE83bjFHTU1ZNkJMT1pJczVjM19EQWdxeV9UN0RZQ1VSbXEtdzc5N25sdEdNVnNERXVCX1lWd1FWZElBelIwTEpWMXREV0RTU3RRUExPUU93XzgxNlYwX28?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Meta used AI to target workers with medical conditions for layoffs** — https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3504
+- Total stories tracked: 3502
 - Most active topic: openai
 - Busiest category: AI General News
 
