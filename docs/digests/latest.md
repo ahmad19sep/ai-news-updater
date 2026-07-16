@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 08 Jul 2026 to 15 Jul 2026
+# 🗞️ AI THIS WEEK — 09 Jul 2026 to 16 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com**
@@ -19,15 +19,15 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 6. **How MIT students are helping to prevent cyberattacks** — science angle
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
-7. **Can AI predict sudden cardiac death before it happens? Doctor says it may spot hidden warning signs earli - The Times of India** — science angle
-   https://news.google.com/rss/articles/CBMihgJBVV95cUxPajgtWEtPOFFISzZZcWdRWllLbkNXWGhlOVl4a3g0S3VUT2ctSm00S3hLRVBRaHNLSF9rLVdUcng4dGpkYmk2Q2RPNXpYU3l5Vll6UWpkZ0ZNVkZBRGwzMl96aXl5WUxHaWZZTEN2N3hTdzBodFFLU19jakhYUlI4a09pOVFlYnY5Z1AzOGNMY2d1V3VPNl9yYktTc0xhMG5QYkNBMVBSams5YUNKQXRVb2FhdGZXdlY5OWxzMC0wczk4ZUczT0t6eFVQVlBNbkVVdmdudEs2VzZUY0ZwalNxcXNkeDFmWklWaC1aOUhFTWp0UnRieUJZZGxxMWM5bU1heFlwMENB0gGLAkFVX3lxTE9vWnM5X2k4bTJOQ3hLQTBlYnl0UWNhLVAwS2g2bU5oaHY1QTRWWDhXdUYxREhMVE1BTTJMTGRXS2hkeWZwdnFISlNMbVdHZ2lZWGFDRWF3TVA0UFpmejRNYUJYbmxXQ3pkeUVCakNBSU1idVpiekVNb3lhZUtCTjR5TUE3ejZRYVp1Y2JiRVVrWkM1TTlxVkhpWHlqVjdPUENCZFkweUdtSEk5ZWRuSW1Gd1JieWV6WjNGOGFtSWNtX2V6a3U2MTJGSWVvaUFjcmlheXVBd1cyclZVVlI1R0c3UXp6UVpnaUw5ZmdSbTdodksweGxYa2Nsek5nRzRTZUpYX09lWXFNVTlNYw?oc=5
-8. **WBAMC using AI to help with doctor burnout - KVIA** — science angle
+7. **WBAMC using AI to help with doctor burnout - KVIA** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxOREFGNzBJZkY4THJlOGhfUVNMLTlhTDNsRnJYYWc5bG9vSVk0ZklPWmN1WFM0WFRfQV9fOGNRTzN3bFlsYzlGX1JDTU1Jbk5jcTVOQVpMc3pVaGFFSktfN2RTcnNHTk95MFcyM2tqYy1URlV3bklBWGJBb2VWcmNhVUhwQ0ZlN2d4U0E?oc=5
+8. **He's trolling doctors and therapists. They're actually AI - AOL.com** — science angle
+   https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkRtUU1kU2dQODZJZmJkdzRXd1JPcmlfeEZoOXBjb1o5RExXU0UzZ2Fkejl3SDRaR2RhdVZHYTJuYkRsakJFcVYxOXhDOFhsR0o5dXVZcWgwRUw2cU9Lc2lXVjR2bWFpTnhPRFQxMDdiZDhFWmdid1ZLVW85WmZNaWl4ZnZmTFRhQVE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images - WHNT.com** — AI in Coding — Score 103
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzWlcxWjVqVnNKcWR4dVpFMWEyREp3SjRQbUg2TlFyNmQ4NFNkbDNQeEVhc1FDWVM3LTZQUmhGR3VvMFF2Q21WYkh4eVZFeU54WlphUEYwaDZfQkIzNWNSQWExdGdnbFpkQUU4MEZkQ0MwRXZzWUZUQnNVYzlHQWNTMm1xQ0VpRFFYdzNpdy0ta29NQjZ0NnlFVEY0SVo3aGFsdDNkRWp5QTBlUHZtX2Nib2g5X2FaOGx4NkV1VUUtRUwxZzU5cVdFSDEwa9IB2gFBVV95cUxNSkY3ODBNdkNpZU5ldDY2MlhDNFVIOUZRQjZlU3dBN2xWR25DcTFpbXRfTXBwTlFuQnFDVm1JOEJuY3NKZm55TGVWVTlwQVhqbHRjNzg0RXlrYVhBakNqaldkYTAxUE83amNjRUxkMHdRMF91Z3hJcEw3elhobkQtd25xb3VlZmNJa0M0V1dCX28wMVUwaUpYSERUcEVfcVZjVXV6SEpvY1JrN3F4dGlUZVY1dVd2U2RLTUNGc2hBZWxqVm9RZHpBYTkzcVRHS0xmcWJ6QkUwaE95UQ?oc=5
-2. **AI control: Victoria councillors put data centres on the agenda** — northislandgazette — Score 96
+2. **AI control: Victoria councillors put data centres on the agenda** — northislandgazette — Score 93
    https://northislandgazette.com/2026/07/13/ai-control-victoria-councillors-put-data-centres-on-the-agenda/
 3. **Xero adds AI tools to JAX for small business finance** — cfotech_asia — Score 83
    https://cfotech.asia/story/xero-adds-ai-tools-to-jax-for-small-business-finance
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3466
+- Total stories tracked: 3519
 - Most active topic: openai
 - Busiest category: AI General News
 
