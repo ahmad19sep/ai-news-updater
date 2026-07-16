@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3BpNHVBNnQ1eGxFNGwtcmt0MzJkXzkyTnNob3NBYnZSLThaOVdwMEs2M0E2VldycWxrTWtLMWNRbG52ekU3RzVSS29zZ1ZKakJPYjV2OXVoZS1lZEY2eVJGTHdoOWVCSERmYWxOTXM3a2ZxS1FwTktQNE9INU5zalNMYjQzeF9JTDluQmZHMm5MRkR6?oc=5
 5. **Apple lawsuit accuses OpenAI of stealing trade secrets - The Times** — Sam Altman News — Score 68
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVpOSjRjSTh3NlN3S1pyMWNSOC14ODVHNVVjNUFZNWlPWnhOcGZmUlMyV0pvUHVjYjNudjV3TGo2Y2t5WjVpMDBHQzE2bUFCVkt6VFpEZjB5bWdaZDhSZ3JoYjZNVzdDVmhBanpvSUpNWl9ad0djNUJxZWJKMFlqdi1RMjBVdGxzODZieW1qMkZxaUdmc1lkYS1EanNYV3ZG?oc=5
-6. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
+6. **AI chatbots are at risk of spreading government restrictions on online speech** — Hacker News new — Score 66.0
+   https://www.msn.com/en-us/news/world/ai-chatbots-are-at-risk-of-spreading-government-restrictions-on-online-speech-a-new-study-says/ar-AA281O6G
+7. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
    https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee
-7. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
+8. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5hQkQxenVfMEhpUVJ2b3liU0lvTzM5MlJheWxXY19LUjdNd29qVjQtbkhkdjhnbk5XekI5Y3U1b3h2c2hhSDNEWUtWdEZUNHJfNG1veUdvcnJZdkI3RmxMN3dIeFFDM2YtTDhGTHYxZTBaUVZYTDdHdmZDY3JuWE9nSXk0MGlKOXZINUF5ejhKOFFZSUtXaFEzY0pja1hRc0NaejBwc1VCOGsyUzJJU0RnWmdlSU1rOFlUdzJ2cm1tSXdvWWl3WE03cVg2U0tEOVZ1Tg?oc=5
-8. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
+9. **Apple sues OpenAI for allegedly stealing hardware secrets** — The Verge AI — Score 62
    https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
-9. **Meta Platforms Stock Rises as Muse Spark 1.1 AI Model Debuts - MarketBeat** — Meta AI News — Score 60
+10. **Meta Platforms Stock Rises as Muse Spark 1.1 AI Model Debuts - MarketBeat** — Meta AI News — Score 60
    https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkpsZC1DeFpNUGVhV0dhX0VIaUh3NllmN2NaeHNKX3RhSG5rbWxjandnN25DYjgweF9ISWdxVmRtV1R0ZE83bjFHTU1ZNkJMT1pJczVjM19EQWdxeV9UN0RZQ1VSbXEtdzc5N25sdEdNVnNERXVCX1lWd1FWZElBelIwTEpWMXREV0RTU3RRUExPUU93XzgxNlYwX28?oc=5
-10. **German media regulator says Google’s AI Overviews subject to German media law - The Mighty 790 KFGO** — Perplexity News — Score 60
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWRJMHpaSWxTbnQ5N3BGUGV2OFd6b1ZRR0ZleWhWZjNXazgtT3UxMklYSF95ME5aQktSTXRyN1VEVTlWQVpEMmlPMndBRkNYc3JyR0hpQ1JuYXJIMHkwcmduVk5HWG1qXzhLMGR2RHpycVFCaVgxYnNQSTkwLXFvOHB1TnpubE81SFNHRG1hcWc0dzltaWxybFdkdDFHVWFqUUZFY2pMMUw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGtMWU9JQUlzW
 - **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3492
+- Total stories tracked: 3479
 - Most active topic: openai
 - Busiest category: AI General News
 
