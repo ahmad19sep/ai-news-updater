@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T19:35:12.687596+00:00",
+  "generated_at": "2026-07-17T03:40:17.073636+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,140 +9,171 @@
     ],
     "signal_counts": {
       "reddit": 50,
-      "hackernews": 27,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "Kimi K3",
+      "name": "GPT 5.6 Sol Ultra",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "hackernews"
       ],
-      "what_it_is": "Kimi K3 is an AI model released by Kimi.ai.",
-      "audience_angle": "You can use Kimi K3 to generate high-quality text and images.",
-      "linkedin_angle": "Kimi K3 can be used for content creation and automation in various industries.",
+      "what_it_is": "A new AI model from OpenAI that solves open problems in convex optimization.",
+      "audience_angle": "Learn how to use GPT 5.6 Sol Ultra to solve complex problems and improve your productivity.",
+      "linkedin_angle": "Discover how GPT 5.6 Sol Ultra can help you automate tasks and enhance your career.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Kimi K3 has an affiliate program for content creators."
+        "note": "OpenAI has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy3a0q/kimi_k3_released_on_web_and_app/",
-          "signal": "Kimi K3 released on web and app"
+          "url": "https://www.reddit.com/r/OpenAI/comments/1uyd77a/kimik3_arrived_the_era_of_the_chinese_labs_being/",
+          "signal": "Kimi K3 arrived: The era of the Chinese labs being far behind is over"
         },
         {
           "platform": "hackernews",
-          "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-          "signal": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks"
+          "url": "https://medium.com/@kerger.p/an-ai-assisted-breakthrough-in-convex-optimization-an-optimization-problem-dating-back-30-years-a-db5c631119de",
+          "signal": "GPT-5.6 Sol Pro solves open problem in convex optimization"
         }
       ],
       "content_ideas": [
-        "How to use Kimi K3 for content creation",
-        "Kimi K3 vs other AI models: a comparison",
-        "Using Kimi K3 for automation in your industry"
+        "How to use GPT 5.6 Sol Ultra for problem-solving",
+        "GPT 5.6 Sol Ultra: A game-changer for productivity",
+        "Unlocking the potential of GPT 5.6 Sol Ultra for business"
       ]
     },
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "Kimi K3",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to generate high-quality images with ease.",
-      "linkedin_angle": "ChatGPT Images 2.0 can be used for marketing and advertising purposes.",
+      "what_it_is": "A new AI model that tops benchmarks and is considered a significant development in the field.",
+      "audience_angle": "Learn how Kimi K3 can help you with your projects and improve your workflow.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your career and help you stay ahead in the industry.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "Kimi K3 has an affiliate program for its model."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1uyd77a/kimik3_arrived_the_era_of_the_chinese_labs_being/",
+          "signal": "Kimi K3 arrived: The era of the Chinese labs being far behind is over"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/kimi-k3",
+          "signal": "Kimi K3: Open Frontier Intelligence"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Kimi K3: A beginner's guide",
+        "Kimi K3 vs GPT 5.6 Sol Ultra: Which one is right for you?",
+        "How to use Kimi K3 for business and productivity"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "An updated version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Learn how to use ChatGPT Images 2.0 to create stunning visuals and enhance your content.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create professional-looking images for your business.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EQGVGwudWHE",
-          "signal": "The Best AI Tool for Fast Work | See What Superhuman Can Do for You"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for marketing",
-        "ChatGPT Images 2.0 tutorial: generating high-quality images",
-        "Using ChatGPT Images 2.0 for advertising purposes"
+        "How to use ChatGPT Images 2.0 for social media marketing",
+        "ChatGPT Images 2.0: A game-changer for content creation",
+        "Creating stunning visuals with ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "Grok Build",
+      "name": "Codex Micro",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "hackernews"
       ],
-      "what_it_is": "Grok Build is an open-source AI model.",
-      "audience_angle": "You can use Grok Build to build your own AI models.",
-      "linkedin_angle": "Grok Build can be used for research and development purposes.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Grok Build is open-source and free to use."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxi5mf/grok_build_open_sourced_under_apache_20_license/",
-          "signal": "Grok Build open sourced under Apache 2.0 license"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://x.ai/open-source",
-          "signal": "Grok Build is open source"
-        }
-      ],
-      "content_ideas": [
-        "How to use Grok Build for research and development",
-        "Grok Build tutorial: building your own AI model",
-        "Using Grok Build for automation purposes"
-      ]
-    },
-    {
-      "name": "Inkling",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Inkling is an open-weights 975B parameter LLM.",
-      "audience_angle": "You can use Inkling for natural language processing tasks.",
-      "linkedin_angle": "Inkling can be used for content creation and automation purposes.",
+      "what_it_is": "A new AI model from OpenAI that is designed for coding and development.",
+      "audience_angle": "Learn how to use Codex Micro to improve your coding skills and productivity.",
+      "linkedin_angle": "Discover how Codex Micro can help you automate tasks and enhance your career as a developer.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
+        "affiliate_likely": true,
+        "note": "OpenAI has an affiliate program for its models."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1uybm8e/codex_micro_the_future_is_here_yay_oc/",
+          "signal": "Codex Micro! The future is here! Yay! [OC]"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+          "signal": "LM Studio Bionic: the AI agent for open models"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Codex Micro: A beginner's guide",
+        "Codex Micro vs other AI coding models: Which one is right for you?",
+        "How to use Codex Micro for automated coding and development"
+      ]
+    },
+    {
+      "name": "Inkling",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "An open-source AI model with 975B parameters.",
+      "audience_angle": "Learn how to use Inkling for your projects and improve your workflow.",
+      "linkedin_angle": "Discover how Inkling can enhance your career and help you stay ahead in the industry.",
+      "local_relevance": 3,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
         "affiliate_likely": false,
-        "note": "Inkling is open-source and free to use."
+        "note": "Inkling is an open-source model."
       },
       "sources": [
         {
@@ -152,234 +183,129 @@
         }
       ],
       "content_ideas": [
-        "How to use Inkling for natural language processing tasks",
-        "Inkling tutorial: getting started with the open-weights LLM",
-        "Using Inkling for content creation purposes"
+        "Getting started with Inkling: A beginner's guide",
+        "Inkling vs other open-source AI models: Which one is right for you?",
+        "How to use Inkling for business and productivity"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "Grok",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "AI video generation is the process of using AI to generate videos.",
-      "audience_angle": "You can use AI video generation to create high-quality videos with ease.",
-      "linkedin_angle": "AI video generation can be used for marketing and advertising purposes.",
-      "local_relevance": 6,
+      "what_it_is": "A new AI model that can be used for various tasks, including coding and development.",
+      "audience_angle": "Learn how to use Grok to improve your productivity and workflow.",
+      "linkedin_angle": "Discover how Grok can enhance your career and help you stay ahead in the industry.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for content creators."
+        "note": "Grok has an affiliate program for its model."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jqvmORIAQjg",
-          "signal": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uyavjl/someone_pointed_groks_live_camera_at_their_gta_v/",
+          "signal": "Someone pointed Grok's live camera at their GTA V screen, and the AI fully believed it was watching"
         }
       ],
       "content_ideas": [
-        "How to use AI video generation for marketing",
-        "AI video generation tutorial: getting started with video creation",
-        "Using AI video generation for advertising purposes"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a tool that allows you to use ChatGPT for work purposes.",
-      "audience_angle": "You can use ChatGPT Work to automate tasks and increase productivity.",
-      "linkedin_angle": "ChatGPT Work can be used for business and professional purposes.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for content creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
-          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT Work for business purposes",
-        "ChatGPT Work tutorial: getting started with automation",
-        "Using ChatGPT Work for professional purposes"
+        "Getting started with Grok: A beginner's guide",
+        "Grok vs other AI models: Which one is right for you?",
+        "How to use Grok for automated tasks and development"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Kimi K3",
+      "name": "GPT 5.6 Sol Ultra",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "hackernews"
       ],
-      "what_it_is": "Kimi K3 is an AI model released by Kimi.ai.",
-      "audience_angle": "You can use Kimi K3 to generate high-quality text and images.",
-      "linkedin_angle": "Kimi K3 can be used for content creation and automation in various industries.",
+      "what_it_is": "A new AI model from OpenAI that solves open problems in convex optimization.",
+      "audience_angle": "Learn how to use GPT 5.6 Sol Ultra to solve complex problems and improve your productivity.",
+      "linkedin_angle": "Discover how GPT 5.6 Sol Ultra can help you automate tasks and enhance your career.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Kimi K3 has an affiliate program for content creators."
+        "note": "OpenAI has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy3a0q/kimi_k3_released_on_web_and_app/",
-          "signal": "Kimi K3 released on web and app"
+          "url": "https://www.reddit.com/r/OpenAI/comments/1uyd77a/kimik3_arrived_the_era_of_the_chinese_labs_being/",
+          "signal": "Kimi K3 arrived: The era of the Chinese labs being far behind is over"
         },
         {
           "platform": "hackernews",
-          "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-          "signal": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks"
+          "url": "https://medium.com/@kerger.p/an-ai-assisted-breakthrough-in-convex-optimization-an-optimization-problem-dating-back-30-years-a-db5c631119de",
+          "signal": "GPT-5.6 Sol Pro solves open problem in convex optimization"
         }
       ],
       "content_ideas": [
-        "How to use Kimi K3 for content creation",
-        "Kimi K3 vs other AI models: a comparison",
-        "Using Kimi K3 for automation in your industry"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a tool that allows you to use ChatGPT for work purposes.",
-      "audience_angle": "You can use ChatGPT Work to automate tasks and increase productivity.",
-      "linkedin_angle": "ChatGPT Work can be used for business and professional purposes.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for content creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
-          "signal": "Introducing ChatGPT Work, powered by Codex and GPT-5.6"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT Work for business purposes",
-        "ChatGPT Work tutorial: getting started with automation",
-        "Using ChatGPT Work for professional purposes"
-      ]
-    },
-    {
-      "name": "Grok Build",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "Grok Build is an open-source AI model.",
-      "audience_angle": "You can use Grok Build to build your own AI models.",
-      "linkedin_angle": "Grok Build can be used for research and development purposes.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Grok Build is open-source and free to use."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxi5mf/grok_build_open_sourced_under_apache_20_license/",
-          "signal": "Grok Build open sourced under Apache 2.0 license"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://x.ai/open-source",
-          "signal": "Grok Build is open source"
-        }
-      ],
-      "content_ideas": [
-        "How to use Grok Build for research and development",
-        "Grok Build tutorial: building your own AI model",
-        "Using Grok Build for automation purposes"
+        "How to use GPT 5.6 Sol Ultra for problem-solving",
+        "GPT 5.6 Sol Ultra: A game-changer for productivity",
+        "Unlocking the potential of GPT 5.6 Sol Ultra for business"
       ]
     },
     {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to generate high-quality images with ease.",
-      "linkedin_angle": "ChatGPT Images 2.0 can be used for marketing and advertising purposes.",
-      "local_relevance": 6,
+      "what_it_is": "An updated version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Learn how to use ChatGPT Images 2.0 to create stunning visuals and enhance your content.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create professional-looking images for your business.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "ChatGPT has an affiliate program for its models."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EQGVGwudWHE",
-          "signal": "The Best AI Tool for Fast Work | See What Superhuman Can Do for You"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for marketing",
-        "ChatGPT Images 2.0 tutorial: generating high-quality images",
-        "Using ChatGPT Images 2.0 for advertising purposes"
+        "How to use ChatGPT Images 2.0 for social media marketing",
+        "ChatGPT Images 2.0: A game-changer for content creation",
+        "Creating stunning visuals with ChatGPT Images 2.0"
       ]
     },
     {
       "name": "Inkling",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Inkling is an open-weights 975B parameter LLM.",
-      "audience_angle": "You can use Inkling for natural language processing tasks.",
-      "linkedin_angle": "Inkling can be used for content creation and automation purposes.",
-      "local_relevance": 5,
+      "what_it_is": "An open-source AI model with 975B parameters.",
+      "audience_angle": "Learn how to use Inkling for your projects and improve your workflow.",
+      "linkedin_angle": "Discover how Inkling can enhance your career and help you stay ahead in the industry.",
+      "local_relevance": 3,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Inkling is open-source and free to use."
+        "note": "Inkling is an open-source model."
       },
       "sources": [
         {
@@ -389,37 +315,142 @@
         }
       ],
       "content_ideas": [
-        "How to use Inkling for natural language processing tasks",
-        "Inkling tutorial: getting started with the open-weights LLM",
-        "Using Inkling for content creation purposes"
+        "Getting started with Inkling: A beginner's guide",
+        "Inkling vs other open-source AI models: Which one is right for you?",
+        "How to use Inkling for business and productivity"
+      ]
+    },
+    {
+      "name": "Kimi K3",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A new AI model that tops benchmarks and is considered a significant development in the field.",
+      "audience_angle": "Learn how Kimi K3 can help you with your projects and improve your workflow.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your career and help you stay ahead in the industry.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Kimi K3 has an affiliate program for its model."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1uyd77a/kimik3_arrived_the_era_of_the_chinese_labs_being/",
+          "signal": "Kimi K3 arrived: The era of the Chinese labs being far behind is over"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/kimi-k3",
+          "signal": "Kimi K3: Open Frontier Intelligence"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Kimi K3: A beginner's guide",
+        "Kimi K3 vs GPT 5.6 Sol Ultra: Which one is right for you?",
+        "How to use Kimi K3 for business and productivity"
+      ]
+    },
+    {
+      "name": "Codex Micro",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A new AI model from OpenAI that is designed for coding and development.",
+      "audience_angle": "Learn how to use Codex Micro to improve your coding skills and productivity.",
+      "linkedin_angle": "Discover how Codex Micro can help you automate tasks and enhance your career as a developer.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "OpenAI has an affiliate program for its models."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1uybm8e/codex_micro_the_future_is_here_yay_oc/",
+          "signal": "Codex Micro! The future is here! Yay! [OC]"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+          "signal": "LM Studio Bionic: the AI agent for open models"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Codex Micro: A beginner's guide",
+        "Codex Micro vs other AI coding models: Which one is right for you?",
+        "How to use Codex Micro for automated coding and development"
+      ]
+    },
+    {
+      "name": "Grok",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new AI model that can be used for various tasks, including coding and development.",
+      "audience_angle": "Learn how to use Grok to improve your productivity and workflow.",
+      "linkedin_angle": "Discover how Grok can enhance your career and help you stay ahead in the industry.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Grok has an affiliate program for its model."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uyavjl/someone_pointed_groks_live_camera_at_their_gta_v/",
+          "signal": "Someone pointed Grok's live camera at their GTA V screen, and the AI fully believed it was watching"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Grok: A beginner's guide",
+        "Grok vs other AI models: Which one is right for you?",
+        "How to use Grok for automated tasks and development"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uxv0ne/26_meta_employees_accuse_mark_zuckerberg_of_using/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uyle0g/i_just_resubscribed_had_to_cancel_claude/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
+      "content_opportunity": "How to work around Claude's usage limits and stay productive"
     },
     {
-      "problem": "AI model safety concerns",
-      "who_affected": "AI model users",
+      "problem": "Prompt injection works in production",
+      "who_affected": "ChatGPT users",
       "signal_strength": 5,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uyee2d/prompt_injection_works_in_production/"
         }
       ],
-      "content_opportunity": "How to ensure AI model safety"
+      "content_opportunity": "How to use prompt injection to improve your ChatGPT experience"
     }
   ],
-  "tool_of_week_candidate": "Kimi K3"
+  "tool_of_week_candidate": "GPT 5.6 Sol Ultra"
 }
