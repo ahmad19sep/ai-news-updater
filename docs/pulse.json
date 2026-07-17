@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:05:00.736337+00:00",
+  "generated_at": "2026-07-17T19:34:25.815154+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,37 +9,67 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 36,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "GPT-5.6 Sol",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "GPT-5.6 Sol is an advanced AI model developed by OpenAI.",
-      "audience_angle": "Learn how GPT-5.6 Sol can help you with tasks like text generation and conversation.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your productivity and workflow.",
+      "what_it_is": "A tool for generating images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program for developers and businesses."
+        "note": "ChatGPT has an affiliate program for its tools and services."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Art with ChatGPT Images 2.0",
+        "The Future of Graphic Design: ChatGPT Images 2.0 Review",
+        "Using ChatGPT Images 2.0 for Social Media Marketing"
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A version of the GPT model with enhanced capabilities.",
+      "audience_angle": "Unlock the full potential of AI with GPT-5.6 Sol.",
+      "linkedin_angle": "Discover how GPT-5.6 Sol can revolutionize your workflow.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "GPT-5.6 Sol may have an affiliate program for its services."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uyerah/gpt_56_solved_all_6_problems_from_imo_2026/",
-          "signal": "GPT-5.6 Sol solved all 6 problems from IMO 2026"
+          "signal": "GPT 5.6 solved all 6 problems from IMO 2026"
         },
         {
           "platform": "hackernews",
@@ -48,112 +78,223 @@
         }
       ],
       "content_ideas": [
-        "How to use GPT-5.6 Sol for text generation",
-        "GPT-5.6 Sol vs other AI models: a comparison",
-        "Practical applications of GPT-5.6 Sol in business and productivity"
+        "Solving Complex Problems with GPT-5.6 Sol",
+        "GPT-5.6 Sol: The Future of AI-Assisted Optimization",
+        "Unlocking the Potential of GPT-5.6 Sol for Business"
       ]
     },
     {
-      "name": "ChatGPT",
+      "name": "AI Music Video Creation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using AI to create music videos.",
+      "audience_angle": "Create your own music videos with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated music videos to enhance your brand's content.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI music video creation tools may have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8mshTnSPGeM",
+          "signal": "Vibe Trading launches free AI hedge fund platform"
+        }
+      ],
+      "content_ideas": [
+        "How to Create a Music Video with AI",
+        "The Future of Music Video Production: AI-Generated Content",
+        "Using AI to Create Custom Music Videos for Your Business"
+      ]
+    },
+    {
+      "name": "AI Agent Phone",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is a conversational AI model developed by OpenAI.",
-      "audience_angle": "Learn how ChatGPT can help you with tasks like conversation and text generation.",
-      "linkedin_angle": "Discover how ChatGPT can enhance your customer service and support workflow.",
+      "what_it_is": "A phone that utilizes AI agents for various tasks.",
+      "audience_angle": "Experience the power of AI with the AI Agent Phone.",
+      "linkedin_angle": "Discover how the AI Agent Phone can revolutionize your workflow.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "The AI Agent Phone may have an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DxNiQBDN13U",
+          "signal": "Apple, Google, Samsung देखते रह गए, चीनी कंपनी ने पहला Agentic AI Phone लॉन्च भी कर दिया | StepX Neo"
+        }
+      ],
+      "content_ideas": [
+        "Unboxing the AI Agent Phone: Features and Review",
+        "How to Use the AI Agent Phone for Business",
+        "The Future of Smartphones: AI Agent Phone Review"
+      ]
+    },
+    {
+      "name": "Manus AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A general AI agent for research, slides, websites, and creative workflows.",
+      "audience_angle": "Unlock your creativity with Manus AI.",
+      "linkedin_angle": "Leverage Manus AI to enhance your professional workflow.",
       "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Manus AI may have an affiliate program for its services."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
+          "signal": "Manus AI – General AI Agent for Research, Slides, Websites & Creative Workflows"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Manus AI: A Beginner's Guide",
+        "How to Use Manus AI for Creative Projects",
+        "Manus AI for Business: Enhancing Productivity and Workflow"
+      ]
+    },
+    {
+      "name": "Kimi K3",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "An open-source AI model for various applications.",
+      "audience_angle": "Unlock the potential of Kimi K3 for your projects.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your professional workflow.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "ChatGPT is trying something new on Tuesdays"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
-          "signal": "OpenAI is back with ChatGPT"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT for customer support",
-        "ChatGPT vs other conversational AI models: a comparison",
-        "Practical applications of ChatGPT in business and productivity"
-      ]
-    },
-    {
-      "name": "AI-generated music",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "AI-generated music is a type of music created using artificial intelligence algorithms.",
-      "audience_angle": "Learn how AI-generated music can enhance your creative workflow.",
-      "linkedin_angle": "Discover how AI-generated music can be used in marketing and advertising.",
-      "local_relevance": 4,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "AI-generated music is a growing field with many potential applications."
+        "note": "Kimi K3 may have an affiliate program for its services."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-          "signal": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VWGc5Gie6n8",
-          "signal": "Meta AI is back with free unlimited AI video generator"
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "signal": "Kimi K3: Open Frontier Intelligence"
         }
       ],
       "content_ideas": [
-        "How to create AI-generated music",
-        "The future of music: AI-generated music and its potential applications",
-        "AI-generated music vs human-created music: a comparison"
+        "Getting Started with Kimi K3: A Beginner's Guide",
+        "How to Use Kimi K3 for Business Applications",
+        "Kimi K3: The Future of Open-Source AI Models"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "GPT-5.6 Sol",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "hackernews",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "GPT-5.6 Sol is an advanced AI model developed by OpenAI.",
-      "audience_angle": "Learn how GPT-5.6 Sol can help you with tasks like text generation and conversation.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol can enhance your productivity and workflow.",
+      "what_it_is": "A tool for generating images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT-5.6 Sol has an affiliate program for developers and businesses."
+        "note": "ChatGPT has an affiliate program for its tools and services."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Art with ChatGPT Images 2.0",
+        "The Future of Graphic Design: ChatGPT Images 2.0 Review",
+        "Using ChatGPT Images 2.0 for Social Media Marketing"
+      ]
+    },
+    {
+      "name": "Manus AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A general AI agent for research, slides, websites, and creative workflows.",
+      "audience_angle": "Unlock your creativity with Manus AI.",
+      "linkedin_angle": "Leverage Manus AI to enhance your professional workflow.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Manus AI may have an affiliate program for its services."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
+          "signal": "Manus AI – General AI Agent for Research, Slides, Websites & Creative Workflows"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Manus AI: A Beginner's Guide",
+        "How to Use Manus AI for Creative Projects",
+        "Manus AI for Business: Enhancing Productivity and Workflow"
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A version of the GPT model with enhanced capabilities.",
+      "audience_angle": "Unlock the full potential of AI with GPT-5.6 Sol.",
+      "linkedin_angle": "Discover how GPT-5.6 Sol can revolutionize your workflow.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "GPT-5.6 Sol may have an affiliate program for its services."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uyerah/gpt_56_solved_all_6_problems_from_imo_2026/",
-          "signal": "GPT-5.6 Sol solved all 6 problems from IMO 2026"
+          "signal": "GPT 5.6 solved all 6 problems from IMO 2026"
         },
         {
           "platform": "hackernews",
@@ -162,62 +303,99 @@
         }
       ],
       "content_ideas": [
-        "How to use GPT-5.6 Sol for text generation",
-        "GPT-5.6 Sol vs other AI models: a comparison",
-        "Practical applications of GPT-5.6 Sol in business and productivity"
+        "Solving Complex Problems with GPT-5.6 Sol",
+        "GPT-5.6 Sol: The Future of AI-Assisted Optimization",
+        "Unlocking the Potential of GPT-5.6 Sol for Business"
       ]
     },
     {
-      "name": "ChatGPT",
+      "name": "Kimi K3",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT is a conversational AI model developed by OpenAI.",
-      "audience_angle": "Learn how ChatGPT can help you with tasks like conversation and text generation.",
-      "linkedin_angle": "Discover how ChatGPT can enhance your customer service and support workflow.",
-      "local_relevance": 5,
+      "what_it_is": "An open-source AI model for various applications.",
+      "audience_angle": "Unlock the potential of Kimi K3 for your projects.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your professional workflow.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "note": "Kimi K3 may have an affiliate program for its services."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "ChatGPT is trying something new on Tuesdays"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
-          "signal": "OpenAI is back with ChatGPT"
+          "platform": "hackernews",
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "signal": "Kimi K3: Open Frontier Intelligence"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT for customer support",
-        "ChatGPT vs other conversational AI models: a comparison",
-        "Practical applications of ChatGPT in business and productivity"
+        "Getting Started with Kimi K3: A Beginner's Guide",
+        "How to Use Kimi K3 for Business Applications",
+        "Kimi K3: The Future of Open-Source AI Models"
+      ]
+    },
+    {
+      "name": "AI Agent Phone",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A phone that utilizes AI agents for various tasks.",
+      "audience_angle": "Experience the power of AI with the AI Agent Phone.",
+      "linkedin_angle": "Discover how the AI Agent Phone can revolutionize your workflow.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "The AI Agent Phone may have an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DxNiQBDN13U",
+          "signal": "Apple, Google, Samsung देखते रह गए, चीनी कंपनी ने पहला Agentic AI Phone लॉन्च भी कर दिया | StepX Neo"
+        }
+      ],
+      "content_ideas": [
+        "Unboxing the AI Agent Phone: Features and Review",
+        "How to Use the AI Agent Phone for Business",
+        "The Future of Smartphones: AI Agent Phone Review"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "problem": "Limited understanding of AI tools and their applications.",
+      "who_affected": "Individuals and businesses looking to leverage AI.",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uyle0g/i_just_resubscribed_had_to_cancel_claude/"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=afNPPNuuzR0"
         }
       ],
-      "content_opportunity": "How to overcome Claude usage/token limits"
+      "content_opportunity": "Creating educational content on AI tools and their applications."
+    },
+    {
+      "problem": "Difficulty in creating engaging content with AI.",
+      "who_affected": "Content creators and marketers.",
+      "signal_strength": 7,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jY3myPk8U9w"
+        }
+      ],
+      "content_opportunity": "Providing tips and tutorials on creating engaging AI-generated content."
     }
   ],
-  "tool_of_week_candidate": "GPT-5.6 Sol"
+  "tool_of_week_candidate": "ChatGPT Images 2.0, due to its rising momentum and potential for practical applications."
 }
