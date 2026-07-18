@@ -33,12 +33,12 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://northislandgazette.com/2026/07/13/ai-control-victoria-councillors-put-data-centres-on-the-agenda/
 4. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 86
    https://www.newstimes.com/sports/article/mlb-restricts-dugout-ipad-use-to-prevent-use-of-22349680.php
-5. **AI chatbots are at risk of spreading government restrictions on online speech** — Hacker News new — Score 66.0
-   https://www.msn.com/en-us/news/world/ai-chatbots-are-at-risk-of-spreading-government-restrictions-on-online-speech-a-new-study-says/ar-AA281O6G
-6. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
+5. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
    https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee
-7. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
+6. **Microsoft CEO Satya Nadella warns of 'Reverse Information Paradox' facing businesses in AI Age - Big News Network.com** — Satya Nadella News — Score 63
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5hQkQxenVfMEhpUVJ2b3liU0lvTzM5MlJheWxXY19LUjdNd29qVjQtbkhkdjhnbk5XekI5Y3U1b3h2c2hhSDNEWUtWdEZUNHJfNG1veUdvcnJZdkI3RmxMN3dIeFFDM2YtTDhGTHYxZTBaUVZYTDdHdmZDY3JuWE9nSXk0MGlKOXZINUF5ejhKOFFZSUtXaFEzY0pja1hRc0NaejBwc1VCOGsyUzJJU0RnWmdlSU1rOFlUdzJ2cm1tSXdvWWl3WE03cVg2U0tEOVZ1Tg?oc=5
+7. **AI chatbots are at risk of spreading government restrictions on online speech** — Hacker News new — Score 63.0
+   https://www.msn.com/en-us/news/world/ai-chatbots-are-at-risk-of-spreading-government-restrictions-on-online-speech-a-new-study-says/ar-AA281O6G
 8. **Meta Platforms Stock Rises as Muse Spark 1.1 AI Model Debuts - MarketBeat** — Meta AI News — Score 60
    https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkpsZC1DeFpNUGVhV0dhX0VIaUh3NllmN2NaeHNKX3RhSG5rbWxjandnN25DYjgweF9ISWdxVmRtV1R0ZE83bjFHTU1ZNkJMT1pJczVjM19EQWdxeV9UN0RZQ1VSbXEtdzc5N25sdEdNVnNERXVCX1lWd1FWZElBelIwTEpWMXREV0RTU3RRUExPUU93XzgxNlYwX28?oc=5
 9. **German media regulator says Google’s AI Overviews subject to German media law - The Mighty 790 KFGO** — Perplexity News — Score 60
