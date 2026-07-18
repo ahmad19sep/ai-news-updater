@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWRJMHpaSWxTbnQ5N3BGUGV2OFd6b1ZRR0ZleWhWZjNXazgtT3UxMklYSF95ME5aQktSTXRyN1VEVTlWQVpEMmlPMndBRkNYc3JyR0hpQ1JuYXJIMHkwcmduVk5HWG1qXzhLMGR2RHpycVFCaVgxYnNQSTkwLXFvOHB1TnpubE81SFNHRG1hcWc0dzltaWxybFdkdDFHVWFqUUZFY2pMMUw?oc=5
 9. **Cropin, Google Cloud launch OrbitAI; an agentic AI platform for food and agriculture - BusinessLine** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMi8wFBVV95cUxQamJDdFJwZ0tPZmxqXzFlUkIwOFZod3lzZVBBVmQwLUVyLXBnUzdjRUFKRzBtWGdNeVVrWlJjSHNjU1VXdmZyUno0VW5CNFJ5MXp5Y2h4M21GbmMzWnp5bmZhalFrVllld1ltMFBtY29oV0V3dDNpYl9VY090aDdGSTFKdDlXZkNETEJkX0Z1aVByd3dfMnlqU1Y1bzhWZjVJNWpITHdWeVVGajdGblJXU0puXzNrM0s4LWlRWWJzVURHRWh6M1BuMW54eDBFcWxKRE5IdkJoamxTcTlIS3h6c2t4SXJNX1NyT19mazZzb01INFnSAfoBQVVfeXFMT1pBNF81VlFQWDB2VDREZ3o2bG44TkR2TURNVkpnQURYd2ZYeHlHUFpxWXNUYWZ1eWdJYnRWdC1UclhYNE9GMW1TcVh3dGFfNlBWVWsxUzRpYmpuOWdaam9fWWtlVHQ2djl4MFAwOU9DTFVmY25uS3FvZmJCWm40dmJ2a2oyejJsX3hVUlRxRGVZWEFScnpPd1ppS2Z3TGZqUHpQcnNvT3NSZWxiQm9PMWlEVDlBWTdkYUVDdjAtczdRcm9PZkw1MUdlREQtQ015LXFTU29BRWJjaDNHSXc2Rkd2cWJjX1Nla0s3aE95a0dlMkVVak45Q0QxQQ?oc=5
-10. **Satya Nadella says Anthropic’s Claude Fable restrictions ‘don’t make sense’ - The Indian Express** — Satya Nadella News — Score 56
-   https://news.google.com/rss/articles/CBMixwFBVV95cUxNY2w2QTN2c09Rcngwc1NueVRaNC1DaWNHMl9abTd6Uk9rdDNTVnctcnFOTlI4RF9hdHVEN2hISzR3SkZRNnJaZ2t3VXBhYmQtcm9fMFZNWUdCUzAtZ3BvcEtOVzVLdlhmRzJZNGp1Sl9YeG9sT0FqS1NmS0NiX29xWFBnMUZYTC1yeE5oeUktOVk4M2RKUUU4ZWdxQVZseGlmUEhMYWZkQ255WmtMZnZXcnBEMUIwVUx6Z3BiNnJlamRYVm1OZFJv0gHOAUFVX3lxTE5tNXNvcUh0RHdhY2p3V19ZRjB6cVU3YTNmRmcwRHh3a2JVZmpxRHY4cUFSejZpcTlEb3B2anpGWThadTY5cllhRVZ6bXhMSEJpRkxmck5yc1RJc0RPLUFtSTBaMFFUdm5RM3czY3ZTRFJhQkw1M01iRnpUTGFKaWZuUHRLYjV0S042Vl90SjBUMEkyTjdESmFoU3FMVHJTSTZvMTF1TlRLcWp2MGtJOHpwVzE0RHZ4XzNTREQ5NTROSDVjZDROTTB4M3BKc2d3?oc=5
+10. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 56.4
+   https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
 
 ## 🧪 AI in Science Highlights
 - **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3463
+- Total stories tracked: 3447
 - Most active topic: agents
 - Busiest category: AI General News
 
