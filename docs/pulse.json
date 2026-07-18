@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T03:34:30.253864+00:00",
+  "generated_at": "2026-07-18T08:10:43.414777+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -24,218 +24,107 @@
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "A new version of the ChatGPT AI model with improved capabilities.",
-      "audience_angle": "Learn how to use ChatGPT 5.6 Sol Pro to improve your productivity and automate tasks.",
-      "linkedin_angle": "Discover how ChatGPT 5.6 Sol Pro can help you streamline your work and stay ahead in your industry.",
-      "local_relevance": 8,
+      "what_it_is": "A new version of the ChatGPT model with improved capabilities.",
+      "audience_angle": "Learn how to use the latest ChatGPT model to improve your productivity and creativity.",
+      "linkedin_angle": "Discover how the latest ChatGPT model can help you automate tasks and enhance your professional workflow.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its Pro version."
+        "note": "ChatGPT has an affiliate program for developers and content creators."
       },
       "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uz28hx/a_graph_of_how_ai_water_consumption_in_america/",
+          "signal": "ChatGPT 5.6 Sol Pro solves open problem in convex optimization"
+        },
         {
           "platform": "hackernews",
           "url": "https://medium.com/@kerger.p/an-ai-assisted-breakthrough-in-convex-optimization-an-optimization-problem-dating-back-30-years-a-db5c631119de",
           "signal": "GPT-5.6 Sol Pro solves open problem in convex optimization"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uz4qpp/has_anyone_else_noticed_56_sol_20260709_in_the/",
-          "signal": "Has anyone else noticed “5.6 Sol 2026-07-09” in the model picker?"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT 5.6 Sol Pro for Task Automation",
+        "How to Use ChatGPT 5.6 Sol Pro for Creative Writing",
         "ChatGPT 5.6 Sol Pro: A Game-Changer for Content Creation",
-        "Maximizing Productivity with ChatGPT 5.6 Sol Pro"
+        "Unlocking the Potential of ChatGPT 5.6 Sol Pro for Business"
       ]
     },
     {
-      "name": "AI Video Creation",
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube",
         "reddit"
       ],
-      "what_it_is": "Using AI to create videos, including animation and live-action content.",
-      "audience_angle": "Learn how to create stunning videos using AI, without extensive video production experience.",
-      "linkedin_angle": "Discover how AI video creation can help you create engaging content for your business or personal brand.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video creation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UrJqJOtuNXQ",
-          "signal": "Viral Motu Patlu AI Video Kaise Banaye"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uzi6le/i_asked_chatgpt_to_parody_the_europeans_discover/",
-          "signal": "I asked ChatGPT to parody the “Europeans discover America” World Cup thumbnails"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Viral AI Videos for Social Media",
-        "AI Video Creation: A Beginner's Guide",
-        "Using AI to Create Animated Explainer Videos"
-      ]
-    },
-    {
-      "name": "AI Music Generation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Using AI to generate music, including compositions and audio tracks.",
-      "audience_angle": "Learn how to create music using AI, without extensive musical experience.",
-      "linkedin_angle": "Discover how AI music generation can help you create unique soundtracks for your business or personal projects.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI music generation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-          "signal": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8mshTnSPGeM",
-          "signal": "Vibe Trading launches free AI hedge fund platform"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Music with AI: A Beginner's Guide",
-        "AI Music Generation: The Future of Soundtracks",
-        "Using AI to Create Unique Audio Tracks for Your Business"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent Mode",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "A new mode in ChatGPT that allows for more advanced and interactive conversations.",
-      "audience_angle": "Learn how to use ChatGPT Agent Mode to improve your productivity and automate tasks.",
-      "linkedin_angle": "Discover how ChatGPT Agent Mode can help you streamline your work and stay ahead in your industry.",
+      "what_it_is": "Using AI to generate videos for various purposes such as entertainment, education, and marketing.",
+      "audience_angle": "Learn how to create stunning videos using AI and take your content to the next level.",
+      "linkedin_angle": "Discover how AI video generation can help you create engaging content for your business or personal brand.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its Pro version."
+        "note": "AI video generation tools often have affiliate programs for creators and marketers."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uz1cn3/we_finally_made_ai_understand_instructions/",
-          "signal": "We finally made AI understand instructions perfectly… and reinvented programming"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aP3QjAMKs58",
+          "signal": "Create 3D Cartoon Animation Story With Dialogues"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "ChatGPT Agent Mode tutorials and reviews"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uzp8xa/i_got_tired_of_ai_generating_flat_boring_ui_so_i/",
+          "signal": "I got tired of AI generating flat, boring UI, so I built VibeCurb to fix it"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Agent Mode for Task Automation",
-        "ChatGPT Agent Mode: A Game-Changer for Content Creation",
-        "Maximizing Productivity with ChatGPT Agent Mode"
+        "How to Create Stunning AI-Generated Videos for Social Media",
+        "AI Video Generation: A New Era for Content Creators",
+        "Using AI to Generate Videos for Business: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI Hedge Funds",
-      "category": "use_case",
+      "name": "AI Agents",
+      "category": "technique",
       "momentum": "rising",
       "platforms": [
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "Using AI to manage and optimize hedge fund investments.",
-      "audience_angle": "Learn how to use AI to create and manage your own hedge fund.",
-      "linkedin_angle": "Discover how AI hedge funds can help you create a diversified investment portfolio.",
+      "what_it_is": "Using AI agents to automate tasks and enhance productivity.",
+      "audience_angle": "Learn how to leverage AI agents to streamline your workflow and achieve more in less time.",
+      "linkedin_angle": "Discover how AI agents can help you automate repetitive tasks and focus on high-leverage activities.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI hedge fund platforms often have affiliate programs."
+        "note": "AI agent tools often have affiliate programs for developers and entrepreneurs."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-          "signal": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6"
+          "url": "https://news.ycombinator.com/item?id=48937020",
+          "signal": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8mshTnSPGeM",
-          "signal": "Vibe Trading launches free AI hedge fund platform"
+          "url": "https://www.youtube.com/watch?v=Bm84BAtOfQw",
+          "signal": "You’re Not Behind (Yet): How to Build Your First AI Agent (Full Guide)"
         }
       ],
       "content_ideas": [
-        "How to Create an AI Hedge Fund: A Beginner's Guide",
-        "AI Hedge Funds: The Future of Investment Management",
-        "Using AI to Optimize Your Hedge Fund Portfolio"
-      ]
-    },
-    {
-      "name": "AI Trading Bots",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Using AI to create and manage automated trading bots.",
-      "audience_angle": "Learn how to use AI to create your own trading bot and start trading like a pro.",
-      "linkedin_angle": "Discover how AI trading bots can help you create a diversified investment portfolio.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI trading bot platforms often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-          "signal": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8mshTnSPGeM",
-          "signal": "Vibe Trading launches free AI hedge fund platform"
-        }
-      ],
-      "content_ideas": [
-        "How to Create an AI Trading Bot: A Beginner's Guide",
-        "AI Trading Bots: The Future of Trading",
-        "Using AI to Optimize Your Trading Strategy"
+        "How to Build Your First AI Agent: A Step-by-Step Guide",
+        "AI Agents: The Future of Automation and Productivity",
+        "Using AI Agents to Enhance Customer Service and Support"
       ]
     }
   ],
@@ -249,97 +138,48 @@
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "A new version of the ChatGPT AI model with improved capabilities.",
-      "audience_angle": "Learn how to use ChatGPT 5.6 Sol Pro to improve your productivity and automate tasks.",
-      "linkedin_angle": "Discover how ChatGPT 5.6 Sol Pro can help you streamline your work and stay ahead in your industry.",
-      "local_relevance": 8,
+      "what_it_is": "A new version of the ChatGPT model with improved capabilities.",
+      "audience_angle": "Learn how to use the latest ChatGPT model to improve your productivity and creativity.",
+      "linkedin_angle": "Discover how the latest ChatGPT model can help you automate tasks and enhance your professional workflow.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its Pro version."
+        "note": "ChatGPT has an affiliate program for developers and content creators."
       },
       "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uz28hx/a_graph_of_how_ai_water_consumption_in_america/",
+          "signal": "ChatGPT 5.6 Sol Pro solves open problem in convex optimization"
+        },
         {
           "platform": "hackernews",
           "url": "https://medium.com/@kerger.p/an-ai-assisted-breakthrough-in-convex-optimization-an-optimization-problem-dating-back-30-years-a-db5c631119de",
           "signal": "GPT-5.6 Sol Pro solves open problem in convex optimization"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uz4qpp/has_anyone_else_noticed_56_sol_20260709_in_the/",
-          "signal": "Has anyone else noticed “5.6 Sol 2026-07-09” in the model picker?"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT 5.6 Sol Pro for Task Automation",
+        "How to Use ChatGPT 5.6 Sol Pro for Creative Writing",
         "ChatGPT 5.6 Sol Pro: A Game-Changer for Content Creation",
-        "Maximizing Productivity with ChatGPT 5.6 Sol Pro"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent Mode",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "A new mode in ChatGPT that allows for more advanced and interactive conversations.",
-      "audience_angle": "Learn how to use ChatGPT Agent Mode to improve your productivity and automate tasks.",
-      "linkedin_angle": "Discover how ChatGPT Agent Mode can help you streamline your work and stay ahead in your industry.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its Pro version."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uz1cn3/we_finally_made_ai_understand_instructions/",
-          "signal": "We finally made AI understand instructions perfectly… and reinvented programming"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "ChatGPT Agent Mode tutorials and reviews"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Agent Mode for Task Automation",
-        "ChatGPT Agent Mode: A Game-Changer for Content Creation",
-        "Maximizing Productivity with ChatGPT Agent Mode"
+        "Unlocking the Potential of ChatGPT 5.6 Sol Pro for Business"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "ChatGPT usage limits and token limits",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uzck20/potentially_the_hardest_notification_chatgpt_has/"
-        }
-      ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and token limits"
-    },
-    {
-      "problem": "AI model training and deployment costs",
-      "who_affected": "AI developers and businesses",
+      "who_affected": "ChatGPT users and developers",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uzkcag/if_it_just_me_or_is_chatgpt_now_refusing_to_do/"
         }
       ],
-      "content_opportunity": "How to reduce AI model training and deployment costs"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits: A Workaround Guide"
     }
   ],
   "tool_of_week_candidate": "ChatGPT 5.6 Sol Pro"
