@@ -27,10 +27,10 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX** — Jensen Huang News — Score 113
    https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM0laM3hIYy1sTXlrcy1ENXhJY1VLc3hpS1VfUG1vVEdvVGc0SkJGVHVHdXBCZUtSUGdkNnBfRVFKeGt3c1puX2tpSXpVb0lwOUY4ZmR5bUU4Wlk4a2l1aXUwUkVVUmZPTTZiOXAtdU5EdG9fUmNqRkp4VmVvTWpYSTBDZ3pUMHYzZ0pRak5ZYVNpRVBBZHNxb3FYVEVkVFFGU1BISGdqODRMSkI1c3pDNTFYVXNYLUJNdHBQR1k2SkZ6U1VQdw?oc=5
-2. **AI control: Victoria councillors put data centres on the agenda** — northislandgazette — Score 93
-   https://northislandgazette.com/2026/07/13/ai-control-victoria-councillors-put-data-centres-on-the-agenda/
-3. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 86
+2. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 96
    https://www.newstimes.com/sports/article/mlb-restricts-dugout-ipad-use-to-prevent-use-of-22349680.php
+3. **AI control: Victoria councillors put data centres on the agenda** — northislandgazette — Score 93
+   https://northislandgazette.com/2026/07/13/ai-control-victoria-councillors-put-data-centres-on-the-agenda/
 4. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 63.4
    https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
 5. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3455
+- Total stories tracked: 3428
 - Most active topic: show
 - Busiest category: AI General News
 
