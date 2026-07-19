@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 11 Jul 2026 to 18 Jul 2026
+# 🗞️ AI THIS WEEK — 12 Jul 2026 to 19 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX**
@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://northislandgazette.com/2026/07/13/ai-control-victoria-councillors-put-data-centres-on-the-agenda/
 3. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 86
    https://www.newstimes.com/sports/article/mlb-restricts-dugout-ipad-use-to-prevent-use-of-22349680.php
-4. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 66.4
+4. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 63.4
    https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
 5. **Economists say 'we must act now' on AI's economic impact and job displacement** — Hacker News new — Score 63.3
    https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **6 in 10 Americans worry about high blood pressure; Pennsylvania sues Character.AI for impersonating a doctor; Ohio physician famous for vaccine magnetism claim ordered to pay $699,000 in back taxes – Morning Medical Update - Medical Economics** — https://news.google.com/rss/articles/CBMi8AJBVV95cUxNUTFVSWFaWHVWX29LRkEzTjBPazRMV3NnaXc4MC1FQ3FPelNNbmhkLXNFeVRuSTdvX0kxYl9reS1ZU0lKSWxsTjN2VG5MeXVLMjAycHlRcTlOVWVaSzBOUlNZbDNOQTRyOWNwOEhGcG9xaHpqYXd6UU1ETXctNWVBendmQmlJYkhlUHJHaGFmQkFhRGlqOXpza3VPX0hibHA5RUU2RjFDY1IyNEUxcXEzeDZUMVdFVFhYMUtqSlNkbWhDcTAtclAzczNINUtLV1FoVEJuVmZteGhldWhSUXlfNVlQQmVjTVFlMUJ6aUZyYWc2SjF1dF9TejJiZ3ZQVXJyMVktZ2h4ekEwN2xJak1QYVFtVWFkUnpSaWpmSkV6OVNyNnFfSWk5UkxvZ2kxcGlxUi02LTRUTV9odVhwYms4OTBRU2pQeTBCY1ZsdnY5MXFzQTlGOUIybktHaDBZWWNxZVhRZWlZcG4wY3F2ZS1TMQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3429
+- Total stories tracked: 3438
 - Most active topic: show
 - Busiest category: AI General News
 
