@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T03:56:54.697855+00:00",
+  "generated_at": "2026-07-19T08:34:38.472041+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -23,15 +23,15 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "audience_angle": "Create amazing images with the latest ChatGPT update.",
       "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
@@ -41,28 +41,28 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Professional Visuals",
-        "Creating Stunning Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+        "How to Use ChatGPT Images 2.0 for Business",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
       "name": "VibeCurb",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A tool that helps generate more engaging and less boring UI using AI.",
-      "audience_angle": "Say goodbye to boring UI with VibeCurb, the AI-powered solution.",
-      "linkedin_angle": "Discover how VibeCurb can elevate your professional UI design.",
+      "what_it_is": "A tool that generates unique UI designs using AI.",
+      "audience_angle": "Create stunning UI designs with VibeCurb.",
+      "linkedin_angle": "Discover how VibeCurb can streamline your UI design process.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "VibeCurb may offer affiliate opportunities for its tool."
+        "note": "VibeCurb has an affiliate program for designers and developers."
       },
       "sources": [
         {
@@ -72,137 +72,186 @@
         }
       ],
       "content_ideas": [
-        "Introducing VibeCurb: The AI Tool for Better UI",
-        "How VibeCurb Can Improve Your UI Design",
-        "VibeCurb: The Secret to Creating Engaging UI with AI"
+        "Getting Started with VibeCurb: A Beginner's Guide",
+        "VibeCurb vs Traditional UI Design Tools: Which is Better?",
+        "How VibeCurb Can Revolutionize Your Design Workflow"
       ]
     },
     {
-      "name": "AI Agents for Trading",
+      "name": "AI-generated Content",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "reddit"
+      ],
+      "what_it_is": "Using AI to generate content, such as videos, images, and text.",
+      "audience_angle": "Learn how to create engaging content with AI.",
+      "linkedin_angle": "Explore the potential of AI-generated content for your business.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI content generation tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+generated+content",
+          "signal": "AI-generated content"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v0ip7x/mad_eye_moody_from_harry_potter_canon_accurate/",
+          "signal": "Mad eye moody from Harry Potter: canon accurate without reference from the movies"
+        }
+      ],
+      "content_ideas": [
+        "The Future of Content Creation: AI-generated Content",
+        "How to Use AI to Generate Engaging Social Media Content",
+        "The Pros and Cons of AI-generated Content: A Balanced View"
+      ]
+    },
+    {
+      "name": "AI in Education",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Using AI agents for trading and investing.",
-      "audience_angle": "Learn how to leverage AI agents for successful trading and investing.",
-      "linkedin_angle": "Explore the potential of AI agents in enhancing trading strategies.",
+      "what_it_is": "Using AI to enhance education, such as AI-powered learning tools and adaptive assessments.",
+      "audience_angle": "Discover how AI can improve your learning experience.",
+      "linkedin_angle": "Explore the potential of AI in education for your career.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some trading platforms offer affiliate programs for AI trading tools."
+        "note": "Many educational platforms offer affiliate programs for AI-powered tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "How to use AI for trading"
+          "url": "https://www.youtube.com/watch?v=627RP9r9M-g",
+          "signal": "Ayushman Pandita at KRMU LAUNCHPAD 2026 | AI Tools Every Student Should Learn in 2026"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://calculus.academa.ai/",
+          "signal": "LLM-Integrated Multivariable Calculus Course"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI Agents for Trading",
-        "The Future of Trading: How AI Agents Are Changing the Game",
-        "Maximizing Profits with AI-Powered Trading Strategies"
+        "How AI is Revolutionizing Education: A Comprehensive Guide",
+        "The Future of Learning: AI-powered Adaptive Assessments",
+        "Using AI to Enhance Student Engagement: A Teacher's Perspective"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
+      "name": "AI Agents",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "A feature of ChatGPT that allows for more interactive and personalized conversations.",
-      "audience_angle": "Discover the capabilities of ChatGPT's Agent Mode for more engaging interactions.",
-      "linkedin_angle": "Explore how ChatGPT Agent Mode can enhance professional communication.",
-      "local_relevance": 6,
+      "what_it_is": "AI-powered agents that can perform tasks, such as virtual assistants and chatbots.",
+      "audience_angle": "Learn how to use AI agents to automate tasks.",
+      "linkedin_angle": "Explore the potential of AI agents for your business.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's Agent Mode may offer affiliate opportunities."
+        "note": "Many AI agent platforms offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "ChatGPT Agent Mode"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to ChatGPT Agent Mode",
-        "How to Use ChatGPT Agent Mode for Better Conversations",
-        "Unlocking the Potential of ChatGPT Agent Mode"
-      ]
-    },
-    {
-      "name": "AI Water Consumption",
-      "category": "debate",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "The discussion around AI's impact on water consumption.",
-      "audience_angle": "Understand the implications of AI on water usage and conservation.",
-      "linkedin_angle": "Explore the professional perspectives on AI and water consumption.",
-      "local_relevance": 5,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No direct affiliate opportunities for this topic."
-      },
-      "sources": [
+          "url": "https://www.youtube.com/watch?v=Bm84BAtOfQw",
+          "signal": "You’re Not Behind (Yet): How to Build Your First AI Agent (Full Guide)"
+        },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uz28hx/a_graph_of_how_ai_water_consumption_in_america/",
-          "signal": "A graph of how AI water consumption in America compares to laundry, flushing toilets, etc."
+          "platform": "hackernews",
+          "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
+          "signal": "VulnHunter: Capital One's agentic AI code security tool"
         }
       ],
       "content_ideas": [
-        "The Impact of AI on Water Consumption: A Deep Dive",
-        "Conserving Water in the Age of AI",
-        "Understanding AI's Role in Water Usage and Conservation"
+        "Getting Started with AI Agents: A Beginner's Guide",
+        "The Future of Work: How AI Agents Can Automate Tasks",
+        "Using AI Agents to Enhance Customer Service: A Case Study"
       ]
     },
     {
-      "name": "AI in Software Engineering",
+      "name": "AI-generated Videos",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "The application of AI in software engineering for improved development and efficiency.",
-      "audience_angle": "Learn how AI is revolutionizing software engineering for better outcomes.",
-      "linkedin_angle": "Discover the professional applications of AI in software engineering.",
+      "what_it_is": "Using AI to generate videos, such as explainer videos and social media clips.",
+      "audience_angle": "Learn how to create engaging videos with AI.",
+      "linkedin_angle": "Explore the potential of AI-generated videos for your business.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI tools for software engineering offer affiliate programs."
+        "note": "Many AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://sam.sutch.net/posts/a-grumpy-ai-screed",
-          "signal": "A grumpy screed about AI in software engineering"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hrwO990F2ew",
+          "signal": "How To Make Free AI Videos In 2026 (complete guide)"
         }
       ],
       "content_ideas": [
-        "Introduction to AI in Software Engineering",
-        "How AI is Changing the Face of Software Development",
-        "Leveraging AI for More Efficient Software Engineering"
+        "The Future of Video Creation: AI-generated Videos",
+        "How to Use AI to Generate Engaging Social Media Videos",
+        "The Pros and Cons of AI-generated Videos: A Balanced View"
       ]
     }
   ],
   "rising_tools": [
+    {
+      "name": "VibeCurb",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A tool that generates unique UI designs using AI.",
+      "audience_angle": "Create stunning UI designs with VibeCurb.",
+      "linkedin_angle": "Discover how VibeCurb can streamline your UI design process.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "VibeCurb has an affiliate program for designers and developers."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uzp8xa/i_got_tired_of_ai_generating_flat_boring_ui_so_i/",
+          "signal": "I got tired of AI generating flat, boring UI, so I built VibeCurb to fix it"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with VibeCurb: A Beginner's Guide",
+        "VibeCurb vs Traditional UI Design Tools: Which is Better?",
+        "How VibeCurb Can Revolutionize Your Design Workflow"
+      ]
+    },
     {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
@@ -211,15 +260,15 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "audience_angle": "Create amazing images with the latest ChatGPT update.",
       "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
@@ -229,98 +278,73 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Professional Visuals",
-        "Creating Stunning Images with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+        "How to Use ChatGPT Images 2.0 for Business",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "VibeCurb",
+      "name": "AI Agents",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "A tool that helps generate more engaging and less boring UI using AI.",
-      "audience_angle": "Say goodbye to boring UI with VibeCurb, the AI-powered solution.",
-      "linkedin_angle": "Discover how VibeCurb can elevate your professional UI design.",
-      "local_relevance": 6,
+      "what_it_is": "AI-powered agents that can perform tasks, such as virtual assistants and chatbots.",
+      "audience_angle": "Learn how to use AI agents to automate tasks.",
+      "linkedin_angle": "Explore the potential of AI agents for your business.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "VibeCurb may offer affiliate opportunities for its tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uzp8xa/i_got_tired_of_ai_generating_flat_boring_ui_so_i/",
-          "signal": "I got tired of AI generating flat, boring UI, so I built VibeCurb to fix it"
-        }
-      ],
-      "content_ideas": [
-        "Introducing VibeCurb: The AI Tool for Better UI",
-        "How VibeCurb Can Improve Your UI Design",
-        "VibeCurb: The Secret to Creating Engaging UI with AI"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent Mode",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A feature of ChatGPT that allows for more interactive and personalized conversations.",
-      "audience_angle": "Discover the capabilities of ChatGPT's Agent Mode for more engaging interactions.",
-      "linkedin_angle": "Explore how ChatGPT Agent Mode can enhance professional communication.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT's Agent Mode may offer affiliate opportunities."
+        "note": "Many AI agent platforms offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "ChatGPT Agent Mode"
+          "url": "https://www.youtube.com/watch?v=Bm84BAtOfQw",
+          "signal": "You’re Not Behind (Yet): How to Build Your First AI Agent (Full Guide)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
+          "signal": "VulnHunter: Capital One's agentic AI code security tool"
         }
       ],
       "content_ideas": [
-        "Introduction to ChatGPT Agent Mode",
-        "How to Use ChatGPT Agent Mode for Better Conversations",
-        "Unlocking the Potential of ChatGPT Agent Mode"
+        "Getting Started with AI Agents: A Beginner's Guide",
+        "The Future of Work: How AI Agents Can Automate Tasks",
+        "Using AI Agents to Enhance Customer Service: A Case Study"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "Users of ChatGPT, especially those relying on it for work or business.",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v044n7/56_sol_pro_i_feel_like_i_got_robbed_buying_credits/"
         }
       ],
-      "content_opportunity": "Finding affordable and efficient ways to use ChatGPT without hitting usage limits."
+      "content_opportunity": "How to Optimize ChatGPT Usage and Avoid Limits"
     },
     {
-      "problem": "Difficulty in understanding and using AI tools for non-technical users",
-      "who_affected": "Individuals without a strong technical background trying to leverage AI for personal or professional gain.",
-      "signal_strength": 7,
+      "problem": "AI-generated content quality issues",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+beginners"
+          "url": "https://www.youtube.com/watch?v=ot8Dguodrqw"
         }
       ],
-      "content_opportunity": "Creating beginner-friendly guides and tutorials for using AI tools."
+      "content_opportunity": "Tips for Improving AI-generated Content Quality"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
