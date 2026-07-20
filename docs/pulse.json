@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T14:34:25.158314+00:00",
+  "generated_at": "2026-07-20T19:58:17.378370+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,79 +8,136 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 18,
+      "reddit": 50,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "Krea 2",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create amazing images with just a few words.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
+      "what_it_is": "Krea 2 is an open-source AI model for text-to-image generation.",
+      "audience_angle": "You can use Krea 2 to create realistic images from text prompts.",
+      "linkedin_angle": "Krea 2 is a powerful tool for professionals in the creative industry.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "Krea 2 is open-source and free to use."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/",
+          "signal": "40"
+        }
+      ],
+      "content_ideas": [
+        "How to use Krea 2 for text-to-image generation",
+        "Krea 2 vs other AI image generation tools",
+        "Tips and tricks for getting the most out of Krea 2"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create realistic images from text prompts.",
+      "linkedin_angle": "ChatGPT Images 2.0 is a powerful tool for professionals in the creative industry.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "ChatGPT Images 2.0 is a free tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+          "signal": "39"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT for Image Generation",
-        "ChatGPT Image Generation: A Step-by-Step Guide"
+        "How to use ChatGPT Images 2.0 for text-to-image generation",
+        "ChatGPT Images 2.0 vs other AI image generation tools",
+        "Tips and tricks for getting the most out of ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "AI Video Creation",
-      "category": "technique",
+      "name": "LTX Director 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "LTX Director 2.0 is a free and open-source tool for creating AI videos.",
+      "audience_angle": "You can use LTX Director 2.0 to create professional-looking videos from text prompts.",
+      "linkedin_angle": "LTX Director 2.0 is a powerful tool for professionals in the video production industry.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "LTX Director 2.0 is free and open-source."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1ub4jpk/ltx_director_20_update_a_free_open_source/",
+          "signal": "39"
+        }
+      ],
+      "content_ideas": [
+        "How to use LTX Director 2.0 for creating AI videos",
+        "LTX Director 2.0 vs other AI video creation tools",
+        "Tips and tricks for getting the most out of LTX Director 2.0"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI can be used to create videos from scratch.",
-      "audience_angle": "Create your own videos with AI.",
-      "linkedin_angle": "Discover how AI video creation can revolutionize your content marketing strategy.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation is the use of artificial intelligence to create videos from text prompts.",
+      "audience_angle": "You can use AI video generation to create professional-looking videos without extensive video production experience.",
+      "linkedin_angle": "AI video generation is a powerful tool for professionals in the video production industry.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video creation tools offer affiliate programs."
+        "note": "There are many AI video generation tools available, some of which offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UrJqJOtuNXQ",
-          "signal": "Viral Motu Patlu AI Video Kaise Banaye? | FREE AI Tool 2026 (Step-by-Step Hindi)"
+          "url": "https://www.youtube.com/watch?v=627RP9r9M-g",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create a Viral AI Video",
-        "AI Video Creation: A Beginner's Guide",
-        "5 AI Video Creation Tools You Need to Know"
+        "How to use AI video generation for creating professional-looking videos",
+        "The benefits and drawbacks of using AI video generation",
+        "Tips and tricks for getting the most out of AI video generation tools"
       ]
     },
     {
@@ -88,168 +145,126 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT has launched a new work feature.",
-      "audience_angle": "Get the most out of ChatGPT with its new work feature.",
-      "linkedin_angle": "Explore how ChatGPT Work can enhance your productivity.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage their own AI-powered chatbots.",
+      "audience_angle": "You can use ChatGPT Work to create custom chatbots for your business or personal projects.",
+      "linkedin_angle": "ChatGPT Work is a powerful tool for professionals in the tech industry.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "ChatGPT Work is a free tool."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1izcn/i_made_300k_within_3_weeks_found_3_jobs_married_2/",
-          "signal": "I made $300k within 3 weeks, found 3 jobs, married 2 husbands and 3 wives using ChatGPT."
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Work for Maximum Productivity",
-        "ChatGPT Work: A Game-Changer for Remote Workers",
-        "5 Ways to Get the Most Out of ChatGPT Work"
+        "How to use ChatGPT Work for creating custom chatbots",
+        "ChatGPT Work vs other chatbot creation tools",
+        "Tips and tricks for getting the most out of ChatGPT Work"
       ]
     },
     {
-      "name": "AI Agent",
-      "category": "technique",
+      "name": "AI Agents",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI agents can be used for various tasks.",
-      "audience_angle": "Discover the power of AI agents.",
-      "linkedin_angle": "Explore how AI agents can automate tasks and enhance productivity.",
-      "local_relevance": 7,
+      "what_it_is": "AI agents are artificial intelligence systems that can perform tasks on behalf of humans.",
+      "audience_angle": "You can use AI agents to automate tasks and improve productivity.",
+      "linkedin_angle": "AI agents are a powerful tool for professionals in the tech industry.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
+      "best_format": "long_form",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI agent tools offer affiliate programs."
+        "note": "There are many AI agent tools available, some of which offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
-          "signal": "Manus AI – General AI Agent for Research, Slides, Websites & Creative Workflows"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use AI Agents for Task Automation",
-        "AI Agents: A Beginner's Guide",
-        "5 AI Agent Tools You Need to Know"
-      ]
-    },
-    {
-      "name": "Forecaster AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Forecaster AI is a tool for market analysis.",
-      "audience_angle": "Get ahead in the market with Forecaster AI.",
-      "linkedin_angle": "Explore how Forecaster AI can enhance your investment strategy.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=yd3tvP2zEwY",
-          "signal": "A First Look at Forecaster | The ULTIMATE AI Agent for Market Analysis"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Forecaster AI for Market Analysis",
-        "Forecaster AI: A Game-Changer for Investors",
-        "5 Ways to Get the Most Out of Forecaster AI"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "technique",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used for trading and investment.",
-      "audience_angle": "Discover how AI can enhance your trading strategy.",
-      "linkedin_angle": "Explore how AI can automate trading tasks and improve investment decisions.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI trading tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=b6B_AtHz60g",
-          "signal": "Win $20,000 + Job Interviews at Next Week's AI Hackathon!"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI for Trading and Investment",
-        "AI Trading: A Beginner's Guide",
-        "5 AI Trading Tools You Need to Know"
+        "How to use AI agents for automating tasks",
+        "The benefits and drawbacks of using AI agents",
+        "Tips and tricks for getting the most out of AI agents"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "LTX Director 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "LTX Director 2.0 is a free and open-source tool for creating AI videos.",
+      "audience_angle": "You can use LTX Director 2.0 to create professional-looking videos from text prompts.",
+      "linkedin_angle": "LTX Director 2.0 is a powerful tool for professionals in the video production industry.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "LTX Director 2.0 is free and open-source."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1ub4jpk/ltx_director_20_update_a_free_open_source/",
+          "signal": "39"
+        }
+      ],
+      "content_ideas": [
+        "How to use LTX Director 2.0 for creating AI videos",
+        "LTX Director 2.0 vs other AI video creation tools",
+        "Tips and tricks for getting the most out of LTX Director 2.0"
+      ]
+    },
+    {
+      "name": "Krea 2",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create amazing images with just a few words.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
+      "what_it_is": "Krea 2 is an open-source AI model for text-to-image generation.",
+      "audience_angle": "You can use Krea 2 to create realistic images from text prompts.",
+      "linkedin_angle": "Krea 2 is a powerful tool for professionals in the creative industry.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "Krea 2 is open-source and free to use."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/",
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT for Image Generation",
-        "ChatGPT Image Generation: A Step-by-Step Guide"
+        "How to use Krea 2 for text-to-image generation",
+        "Krea 2 vs other AI image generation tools",
+        "Tips and tricks for getting the most out of Krea 2"
       ]
     },
     {
@@ -257,67 +272,61 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT has launched a new work feature.",
-      "audience_angle": "Get the most out of ChatGPT with its new work feature.",
-      "linkedin_angle": "Explore how ChatGPT Work can enhance your productivity.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage their own AI-powered chatbots.",
+      "audience_angle": "You can use ChatGPT Work to create custom chatbots for your business or personal projects.",
+      "linkedin_angle": "ChatGPT Work is a powerful tool for professionals in the tech industry.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "ChatGPT Work is a free tool."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT Work for creating custom chatbots",
+        "ChatGPT Work vs other chatbot creation tools",
+        "Tips and tricks for getting the most out of ChatGPT Work"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create realistic images from text prompts.",
+      "linkedin_angle": "ChatGPT Images 2.0 is a powerful tool for professionals in the creative industry.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "ChatGPT Images 2.0 is a free tool."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1izcn/i_made_300k_within_3_weeks_found_3_jobs_married_2/",
-          "signal": "I made $300k within 3 weeks, found 3 jobs, married 2 husbands and 3 wives using ChatGPT."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "39"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Work for Maximum Productivity",
-        "ChatGPT Work: A Game-Changer for Remote Workers",
-        "5 Ways to Get the Most Out of ChatGPT Work"
-      ]
-    },
-    {
-      "name": "Forecaster AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Forecaster AI is a tool for market analysis.",
-      "audience_angle": "Get ahead in the market with Forecaster AI.",
-      "linkedin_angle": "Explore how Forecaster AI can enhance your investment strategy.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=yd3tvP2zEwY",
-          "signal": "A First Look at Forecaster | The ULTIMATE AI Agent for Market Analysis"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Forecaster AI for Market Analysis",
-        "Forecaster AI: A Game-Changer for Investors",
-        "5 Ways to Get the Most Out of Forecaster AI"
+        "How to use ChatGPT Images 2.0 for text-to-image generation",
+        "ChatGPT Images 2.0 vs other AI image generation tools",
+        "Tips and tricks for getting the most out of ChatGPT Images 2.0"
       ]
     }
   ],
@@ -325,7 +334,7 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 5,
       "sources": [
         {
           "platform": "reddit",
@@ -333,19 +342,7 @@
         }
       ],
       "content_opportunity": "How to overcome ChatGPT usage limits"
-    },
-    {
-      "problem": "AI-generated content quality",
-      "who_affected": "Content creators",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UrJqJOtuNXQ"
-        }
-      ],
-      "content_opportunity": "Tips for improving AI-generated content quality"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "Krea 2"
 }
