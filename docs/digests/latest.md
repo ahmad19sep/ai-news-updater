@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://www.nature.com/articles/d41586-026-02214-z
 7. **Show HN: Medows – an AI clinical workspace for doctors on ward rounds** — 1 upvotes on Reddit/HN
    https://www.medows.ai/demo
-8. **At one rural New Mexico hospital, doctors turn to AI tools - American Hospital Association** — science angle
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxOSnR6Qmh3NU5oS1YteldHR2FiWW5iOTRLMS1KakJGTWtaWjBGSjNPSE1jVGxfWGRnemdKQ3N4RnEtVXhDU3BxOEQzVEFtZnpxeVozTGhMakp1ZkxfenlUQnowbklTRzE0aXAyTGdVZEpxcEZRa1Q3NUhBUnNkUExfajk3NG1xczltSGpJa1BzeUs0SWRHcm83OW43QWlXOVZhbHFmN0Vn?oc=5
+8. **Doctor charged with using AI to remove bikinis from social media photos of young girls - Alachua Chronicle** — science angle
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxNeG4yc1dxX1RfalhydzNBVmVWZnR4VTMwWFI2ZHZiSGNRWXVRdG4tTzgyNF9lTHJ0VnMzcmNxTE9RaVU1UE9Tc0NqWEFuSmRjd2R3Z25SZDJQbVhaY1FyMGlHS3hqNVdkTlBjdFVrVUpUQVdtM3BHOHQwWE9NbDJmQ2dDRmRlVHVHNHVuSTRiZnBQRDRaRjlHTk5EYndoSjk1YUJDR3Nzb3F6VDR3MnFKSVpDNUJwb0E?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX** — Jensen Huang News — Score 113
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 ## 🧪 AI in Science Highlights
 - **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
 - **Meta used AI to target workers with medical conditions for layoffs** — https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/
+- **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 - **AI Disagreements Could Undermine Patient Trust in Doctors - Bioengineer.org** — https://news.google.com/rss/articles/CBMiigFBVV95cUxNT1VNOEpfU0ZJNnotRzV5QlBkMnVhSFlzZWFyZmZMZmhjZXBSczZhVVhvcXRfN2NlX2FNVGh3cTBuaW12STBPcUx5ZUFVWm8wcnM3ZUxLLWd3VVR3MFRCNEtYMHd1NnZqRzlwWkdlNGk2aHAzNGxyU0VRbmhWWUZyZ3BqMUNRS2d2a0E?oc=5
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
-- **How MIT students are helping to prevent cyberattacks** — https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3434
+- Total stories tracked: 3453
 - Most active topic: show
 - Busiest category: AI General News
 
