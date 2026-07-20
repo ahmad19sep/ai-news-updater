@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T19:34:07.372326+00:00",
+  "generated_at": "2026-07-20T04:06:24.823657+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,74 +23,43 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
+      "audience_angle": "Create amazing images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "39"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Professional Visuals",
-        "Top 5 Features of ChatGPT Images 2.0 You Need to Know",
-        "Creating Stunning Images with ChatGPT Images 2.0: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "ForecasterAI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "An AI agent for market analysis and forecasting.",
-      "audience_angle": "Predict market trends with the power of AI using ForecasterAI.",
-      "linkedin_angle": "Discover how ForecasterAI can elevate your market analysis and forecasting skills.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ForecasterAI offers an affiliate program for promoters."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8SyFoOwQx9o",
-          "signal": "The AI Agent That Completely Changed My Market Outlook"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with ForecasterAI: A Beginner's Guide",
-        "How ForecasterAI Can Revolutionize Your Market Analysis",
-        "Success Stories: How ForecasterAI Helped Businesses Predict Market Trends"
+        "How to Use ChatGPT Images 2.0 for Business",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
       "what_it_is": "Using AI to generate videos for various purposes.",
-      "audience_angle": "Create engaging videos with minimal effort using AI video generation tools.",
-      "linkedin_angle": "Explore the potential of AI video generation for professional content creation.",
-      "local_relevance": 7,
+      "audience_angle": "Learn how to create stunning videos with AI.",
+      "linkedin_angle": "Explore the potential of AI video generation for your business.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": "Several AI video generation tools offer affiliate programs."
@@ -98,108 +67,138 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jY3myPk8U9w",
-          "signal": "How to Make VIRAL Paper Animation Videos with AI"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "AI video generation tutorials and reviews"
         }
       ],
       "content_ideas": [
-        "Top 5 AI Video Generation Tools for Beginners",
-        "How to Create Viral Videos Using AI: Tips and Tricks",
-        "The Future of Video Content: How AI Generation is Changing the Game"
+        "AI Video Generation for Beginners",
+        "How to Make Money with AI-Generated Videos",
+        "The Best AI Video Generation Tools for You"
       ]
     },
     {
       "name": "ChatGPT Work",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "A professional version of ChatGPT with advanced features.",
-      "audience_angle": "Unlock the full potential of ChatGPT with its professional version, ChatGPT Work.",
-      "linkedin_angle": "Discover how ChatGPT Work can enhance your productivity and workflow.",
-      "local_relevance": 8,
+      "what_it_is": "A new feature of ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Get the most out of ChatGPT Work for your productivity.",
+      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT Work."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6eO2zwni1TU",
-          "signal": "How to Use ChatGPT Work - Complete Beginner Guide"
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work tutorials and reviews"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "How ChatGPT Work Can Revolutionize Your Professional Workflow",
-        "Success Stories: How ChatGPT Work Helped Businesses Increase Productivity"
+        "Getting Started with ChatGPT Work",
+        "How to Use ChatGPT Work for Your Business",
+        "ChatGPT Work vs. Other Productivity Tools"
       ]
     },
     {
-      "name": "Moonshot AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "An AI tool that has suspended new subscriptions due to high demand.",
-      "audience_angle": "Stay ahead of the curve with Moonshot AI, despite its current subscription pause.",
-      "linkedin_angle": "Explore the potential of Moonshot AI for professional applications, once subscriptions resume.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available due to subscription pause."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-          "signal": "Moonshot AI suspends new subscriptions due to Kimi K3 demand"
-        }
-      ],
-      "content_ideas": [
-        "What to Expect from Moonshot AI Once Subscriptions Resume",
-        "How Moonshot AI Can Impact Your Business: A Preview",
-        "The Future of AI Tools: Lessons from Moonshot AI's Subscription Pause"
-      ]
-    },
-    {
-      "name": "Qwen 3.8 Max",
+      "name": "AI Agent Phone",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "An advanced version of the Qwen AI tool.",
-      "audience_angle": "Experience the latest advancements in AI technology with Qwen 3.8 Max.",
-      "linkedin_angle": "Discover how Qwen 3.8 Max can elevate your professional workflow and productivity.",
+      "what_it_is": "A new phone that utilizes AI agents for various tasks.",
+      "audience_angle": "Experience the future of smartphones with AI Agent Phone.",
+      "linkedin_angle": "Explore the potential of AI Agent Phone for your business.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "The manufacturer of AI Agent Phone may offer an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DxNiQBDN13U",
+          "signal": "AI Agent Phone reviews and unboxing"
+        }
+      ],
+      "content_ideas": [
+        "AI Agent Phone Review: Is It Worth the Hype?",
+        "How to Use AI Agent Phone for Your Business",
+        "The Future of Smartphones: AI Agent Phone and Beyond"
+      ]
+    },
+    {
+      "name": "Forecaster AI Agent",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "An AI agent designed for market analysis and forecasting.",
+      "audience_angle": "Take your investments to the next level with Forecaster AI Agent.",
+      "linkedin_angle": "Discover how Forecaster AI Agent can enhance your investment strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Qwen 3.8 Max offers an affiliate program for promoters."
+        "note": "The developer of Forecaster AI Agent may offer an affiliate program."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/home",
-          "signal": "Qwen 3.8 Max"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yd3tvP2zEwY",
+          "signal": "Forecaster AI Agent tutorials and reviews"
         }
       ],
       "content_ideas": [
-        "Getting Started with Qwen 3.8 Max: A Beginner's Guide",
-        "How Qwen 3.8 Max Can Revolutionize Your Professional Workflow",
-        "Success Stories: How Qwen 3.8 Max Helped Businesses Increase Efficiency"
+        "Getting Started with Forecaster AI Agent",
+        "How to Use Forecaster AI Agent for Your Investments",
+        "Forecaster AI Agent vs. Other Market Analysis Tools"
+      ]
+    },
+    {
+      "name": "Manus AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A general AI agent for research, slides, websites, and creative workflows.",
+      "audience_angle": "Unlock your creative potential with Manus AI.",
+      "linkedin_angle": "Explore the potential of Manus AI for your business.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "The developer of Manus AI may offer an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
+          "signal": "Manus AI tutorials and reviews"
+        }
+      ],
+      "content_ideas": [
+        "Manus AI Review: Is It the Ultimate Creative Tool?",
+        "How to Use Manus AI for Your Business",
+        "The Future of Creative Work: Manus AI and Beyond"
       ]
     }
   ],
@@ -212,158 +211,157 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
+      "audience_angle": "Create amazing images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "39"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Professional Visuals",
-        "Top 5 Features of ChatGPT Images 2.0 You Need to Know",
-        "Creating Stunning Images with ChatGPT Images 2.0: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "Moonshot AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "An AI tool that has suspended new subscriptions due to high demand.",
-      "audience_angle": "Stay ahead of the curve with Moonshot AI, despite its current subscription pause.",
-      "linkedin_angle": "Explore the potential of Moonshot AI for professional applications, once subscriptions resume.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available due to subscription pause."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-          "signal": "Moonshot AI suspends new subscriptions due to Kimi K3 demand"
-        }
-      ],
-      "content_ideas": [
-        "What to Expect from Moonshot AI Once Subscriptions Resume",
-        "How Moonshot AI Can Impact Your Business: A Preview",
-        "The Future of AI Tools: Lessons from Moonshot AI's Subscription Pause"
-      ]
-    },
-    {
-      "name": "ForecasterAI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "An AI agent for market analysis and forecasting.",
-      "audience_angle": "Predict market trends with the power of AI using ForecasterAI.",
-      "linkedin_angle": "Discover how ForecasterAI can elevate your market analysis and forecasting skills.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ForecasterAI offers an affiliate program for promoters."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8SyFoOwQx9o",
-          "signal": "The AI Agent That Completely Changed My Market Outlook"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with ForecasterAI: A Beginner's Guide",
-        "How ForecasterAI Can Revolutionize Your Market Analysis",
-        "Success Stories: How ForecasterAI Helped Businesses Predict Market Trends"
+        "How to Use ChatGPT Images 2.0 for Business",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
       "name": "ChatGPT Work",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "A professional version of ChatGPT with advanced features.",
-      "audience_angle": "Unlock the full potential of ChatGPT with its professional version, ChatGPT Work.",
-      "linkedin_angle": "Discover how ChatGPT Work can enhance your productivity and workflow.",
-      "local_relevance": 8,
+      "what_it_is": "A new feature of ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Get the most out of ChatGPT Work for your productivity.",
+      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT Work."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6eO2zwni1TU",
-          "signal": "How to Use ChatGPT Work - Complete Beginner Guide"
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work tutorials and reviews"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "How ChatGPT Work Can Revolutionize Your Professional Workflow",
-        "Success Stories: How ChatGPT Work Helped Businesses Increase Productivity"
+        "Getting Started with ChatGPT Work",
+        "How to Use ChatGPT Work for Your Business",
+        "ChatGPT Work vs. Other Productivity Tools"
       ]
     },
     {
-      "name": "Qwen 3.8 Max",
+      "name": "Forecaster AI Agent",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "An advanced version of the Qwen AI tool.",
-      "audience_angle": "Experience the latest advancements in AI technology with Qwen 3.8 Max.",
-      "linkedin_angle": "Discover how Qwen 3.8 Max can elevate your professional workflow and productivity.",
+      "what_it_is": "An AI agent designed for market analysis and forecasting.",
+      "audience_angle": "Take your investments to the next level with Forecaster AI Agent.",
+      "linkedin_angle": "Discover how Forecaster AI Agent can enhance your investment strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Qwen 3.8 Max offers an affiliate program for promoters."
+        "note": "The developer of Forecaster AI Agent may offer an affiliate program."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/home",
-          "signal": "Qwen 3.8 Max"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yd3tvP2zEwY",
+          "signal": "Forecaster AI Agent tutorials and reviews"
         }
       ],
       "content_ideas": [
-        "Getting Started with Qwen 3.8 Max: A Beginner's Guide",
-        "How Qwen 3.8 Max Can Revolutionize Your Professional Workflow",
-        "Success Stories: How Qwen 3.8 Max Helped Businesses Increase Efficiency"
+        "Getting Started with Forecaster AI Agent",
+        "How to Use Forecaster AI Agent for Your Investments",
+        "Forecaster AI Agent vs. Other Market Analysis Tools"
+      ]
+    },
+    {
+      "name": "AI Agent Phone",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A new phone that utilizes AI agents for various tasks.",
+      "audience_angle": "Experience the future of smartphones with AI Agent Phone.",
+      "linkedin_angle": "Explore the potential of AI Agent Phone for your business.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "The manufacturer of AI Agent Phone may offer an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DxNiQBDN13U",
+          "signal": "AI Agent Phone reviews and unboxing"
+        }
+      ],
+      "content_ideas": [
+        "AI Agent Phone Review: Is It Worth the Hype?",
+        "How to Use AI Agent Phone for Your Business",
+        "The Future of Smartphones: AI Agent Phone and Beyond"
+      ]
+    },
+    {
+      "name": "Manus AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A general AI agent for research, slides, websites, and creative workflows.",
+      "audience_angle": "Unlock your creative potential with Manus AI.",
+      "linkedin_angle": "Explore the potential of Manus AI for your business.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "The developer of Manus AI may offer an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
+          "signal": "Manus AI tutorials and reviews"
+        }
+      ],
+      "content_ideas": [
+        "Manus AI Review: Is It the Ultimate Creative Tool?",
+        "How to Use Manus AI for Your Business",
+        "The Future of Creative Work: Manus AI and Beyond"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and downtime",
+      "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
@@ -372,8 +370,20 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v0slnw/chat_down/"
         }
       ],
-      "content_opportunity": "Solving ChatGPT Downtime: Alternative Tools and Workarounds"
+      "content_opportunity": "Workarounds and tutorials for optimizing ChatGPT usage."
+    },
+    {
+      "problem": "Difficulty in keeping up with AI advancements",
+      "who_affected": "AI enthusiasts and professionals",
+      "signal_strength": 6,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v0p8ou/does_anyone_else_feel_like_keeping_up_with_ai_is/"
+        }
+      ],
+      "content_opportunity": "Guides and resources for staying up-to-date with AI developments."
     }
   ],
-  "tool_of_week_candidate": "ForecasterAI"
+  "tool_of_week_candidate": "ChatGPT Images 2.0, as it offers a unique and practical application of AI for image generation, making it a great topic for a weekly signature video."
 }
