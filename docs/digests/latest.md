@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 6. **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — science angle
    https://www.nature.com/articles/d41586-026-02214-z
-7. **Show HN: Medows – an AI clinical workspace for doctors on ward rounds** — 1 upvotes on Reddit/HN
-   https://www.medows.ai/demo
-8. **Doctor charged with using AI to remove bikinis from social media photos of young girls - Alachua Chronicle** — science angle
+7. **Doctor charged with using AI to remove bikinis from social media photos of young girls - Alachua Chronicle** — science angle
    https://news.google.com/rss/articles/CBMitwFBVV95cUxNeG4yc1dxX1RfalhydzNBVmVWZnR4VTMwWFI2ZHZiSGNRWXVRdG4tTzgyNF9lTHJ0VnMzcmNxTE9RaVU1UE9Tc0NqWEFuSmRjd2R3Z25SZDJQbVhaY1FyMGlHS3hqNVdkTlBjdFVrVUpUQVdtM3BHOHQwWE9NbDJmQ2dDRmRlVHVHNHVuSTRiZnBQRDRaRjlHTk5EYndoSjk1YUJDR3Nzb3F6VDR3MnFKSVpDNUJwb0E?oc=5
+8. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
+   https://news.google.com/rss/articles/CBMidkFVX3lxTE1zRFQ3UjBnT1lDTHhveFNoQ0FmQ0NMODZBVklXcmxIVnYxQWdKSS1SSnI5M0NGTTJrTUNSQnN2MTJDVkxWRUVLZU9Oa3VYTmNKQXdTRk9FaUhDQjh5MUdDZVk2YVFtS1F0eC1hX1d6QzhYcEdRUGc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX** — Jensen Huang News — Score 113
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3453
+- Total stories tracked: 3430
 - Most active topic: show
 - Busiest category: AI General News
 
