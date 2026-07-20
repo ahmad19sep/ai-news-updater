@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T09:35:10.660723+00:00",
+  "generated_at": "2026-07-20T14:34:25.158314+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 19,
+      "reddit": 25,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create unique and personalized images for your social media profiles or marketing campaigns.",
-      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your brand's visual identity and create engaging content.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "Create amazing images with just a few words.",
+      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting its services."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
@@ -42,82 +42,175 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UrJqJOtuNXQ",
-          "signal": "Viral Motu Patlu AI Video Kaise Banaye?"
+          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT for Social Media Marketing",
+        "5 Ways to Use ChatGPT for Image Generation",
         "ChatGPT Image Generation: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Qwen 3.8 Model",
-      "category": "tool_launch",
+      "name": "AI Video Creation",
+      "category": "technique",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Qwen 3.8 is a new AI model that offers advanced features and capabilities.",
-      "audience_angle": "You can use Qwen 3.8 to improve your productivity and automate tasks.",
-      "linkedin_angle": "Stay ahead of the curve with Qwen 3.8, the latest AI model that can help you streamline your workflow and increase efficiency.",
+      "what_it_is": "AI can be used to create videos from scratch.",
+      "audience_angle": "Create your own videos with AI.",
+      "linkedin_angle": "Discover how AI video creation can revolutionize your content marketing strategy.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Qwen 3.8 has an affiliate program that allows users to earn money by promoting its services."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0t1g2/please_qwen_can_we_have_more_3x35ba3b_please/",
-          "signal": "Please Qwen, can we have more 3.x-35B-a3B please"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/home",
-          "signal": "Qwen 3.8 Max"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Qwen 3.8: A Beginner's Guide",
-        "Qwen 3.8 vs Other AI Models: Which One is Right for You?",
-        "5 Ways to Use Qwen 3.8 for Business Automation"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
-      "audience_angle": "You can use AI video generation to create engaging and personalized videos for your social media profiles or marketing campaigns.",
-      "linkedin_angle": "Leverage AI video generation to enhance your brand's visual identity and create engaging content.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting their services."
+        "note": "Some AI video creation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=yH98tbWMDLg",
-          "signal": "Dreamina Seedance 2.0 Video Generator"
+          "url": "https://www.youtube.com/watch?v=UrJqJOtuNXQ",
+          "signal": "Viral Motu Patlu AI Video Kaise Banaye? | FREE AI Tool 2026 (Step-by-Step Hindi)"
         }
       ],
       "content_ideas": [
-        "How to Create Viral Videos with AI",
-        "AI Video Generation: A Step-by-Step Guide",
-        "5 Ways to Use AI Video Generation for Marketing"
+        "How to Create a Viral AI Video",
+        "AI Video Creation: A Beginner's Guide",
+        "5 AI Video Creation Tools You Need to Know"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT has launched a new work feature.",
+      "audience_angle": "Get the most out of ChatGPT with its new work feature.",
+      "linkedin_angle": "Explore how ChatGPT Work can enhance your productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1izcn/i_made_300k_within_3_weeks_found_3_jobs_married_2/",
+          "signal": "I made $300k within 3 weeks, found 3 jobs, married 2 husbands and 3 wives using ChatGPT."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Work for Maximum Productivity",
+        "ChatGPT Work: A Game-Changer for Remote Workers",
+        "5 Ways to Get the Most Out of ChatGPT Work"
+      ]
+    },
+    {
+      "name": "AI Agent",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI agents can be used for various tasks.",
+      "audience_angle": "Discover the power of AI agents.",
+      "linkedin_angle": "Explore how AI agents can automate tasks and enhance productivity.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI agent tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
+          "signal": "Manus AI – General AI Agent for Research, Slides, Websites & Creative Workflows"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Task Automation",
+        "AI Agents: A Beginner's Guide",
+        "5 AI Agent Tools You Need to Know"
+      ]
+    },
+    {
+      "name": "Forecaster AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Forecaster AI is a tool for market analysis.",
+      "audience_angle": "Get ahead in the market with Forecaster AI.",
+      "linkedin_angle": "Explore how Forecaster AI can enhance your investment strategy.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yd3tvP2zEwY",
+          "signal": "A First Look at Forecaster | The ULTIMATE AI Agent for Market Analysis"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Forecaster AI for Market Analysis",
+        "Forecaster AI: A Game-Changer for Investors",
+        "5 Ways to Get the Most Out of Forecaster AI"
+      ]
+    },
+    {
+      "name": "AI for Trading",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used for trading and investment.",
+      "audience_angle": "Discover how AI can enhance your trading strategy.",
+      "linkedin_angle": "Explore how AI can automate trading tasks and improve investment decisions.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI trading tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=b6B_AtHz60g",
+          "signal": "Win $20,000 + Job Interviews at Next Week's AI Hackathon!"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI for Trading and Investment",
+        "AI Trading: A Beginner's Guide",
+        "5 AI Trading Tools You Need to Know"
       ]
     }
   ],
@@ -130,16 +223,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create unique and personalized images for your social media profiles or marketing campaigns.",
-      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your brand's visual identity and create engaging content.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "Create amazing images with just a few words.",
+      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting its services."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
@@ -149,51 +242,82 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UrJqJOtuNXQ",
-          "signal": "Viral Motu Patlu AI Video Kaise Banaye?"
+          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT for Social Media Marketing",
+        "5 Ways to Use ChatGPT for Image Generation",
         "ChatGPT Image Generation: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Qwen 3.8 Model",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Qwen 3.8 is a new AI model that offers advanced features and capabilities.",
-      "audience_angle": "You can use Qwen 3.8 to improve your productivity and automate tasks.",
-      "linkedin_angle": "Stay ahead of the curve with Qwen 3.8, the latest AI model that can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT has launched a new work feature.",
+      "audience_angle": "Get the most out of ChatGPT with its new work feature.",
+      "linkedin_angle": "Explore how ChatGPT Work can enhance your productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Qwen 3.8 has an affiliate program that allows users to earn money by promoting its services."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0t1g2/please_qwen_can_we_have_more_3x35ba3b_please/",
-          "signal": "Please Qwen, can we have more 3.x-35B-a3B please"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1izcn/i_made_300k_within_3_weeks_found_3_jobs_married_2/",
+          "signal": "I made $300k within 3 weeks, found 3 jobs, married 2 husbands and 3 wives using ChatGPT."
         },
         {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/home",
-          "signal": "Qwen 3.8 Max"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
         }
       ],
       "content_ideas": [
-        "Getting Started with Qwen 3.8: A Beginner's Guide",
-        "Qwen 3.8 vs Other AI Models: Which One is Right for You?",
-        "5 Ways to Use Qwen 3.8 for Business Automation"
+        "How to Use ChatGPT Work for Maximum Productivity",
+        "ChatGPT Work: A Game-Changer for Remote Workers",
+        "5 Ways to Get the Most Out of ChatGPT Work"
+      ]
+    },
+    {
+      "name": "Forecaster AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Forecaster AI is a tool for market analysis.",
+      "audience_angle": "Get ahead in the market with Forecaster AI.",
+      "linkedin_angle": "Explore how Forecaster AI can enhance your investment strategy.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yd3tvP2zEwY",
+          "signal": "A First Look at Forecaster | The ULTIMATE AI Agent for Market Analysis"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Forecaster AI for Market Analysis",
+        "Forecaster AI: A Game-Changer for Investors",
+        "5 Ways to Get the Most Out of Forecaster AI"
       ]
     }
   ],
@@ -205,10 +329,22 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v0slnw/chat_down/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1n3xp/does_anyone_feel_like_chatgpt_purposely_gives_you/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: A Workaround Guide"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
+    },
+    {
+      "problem": "AI-generated content quality",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UrJqJOtuNXQ"
+        }
+      ],
+      "content_opportunity": "Tips for improving AI-generated content quality"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
