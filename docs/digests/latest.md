@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/
 3. **AI Disagreements Could Undermine Patient Trust in Doctors - Bioengineer.org** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxNT1VNOEpfU0ZJNnotRzV5QlBkMnVhSFlzZWFyZmZMZmhjZXBSczZhVVhvcXRfN2NlX2FNVGh3cTBuaW12STBPcUx5ZUFVWm8wcnM3ZUxLLWd3VVR3MFRCNEtYMHd1NnZqRzlwWkdlNGk2aHAzNGxyU0VRbmhWWUZyZ3BqMUNRS2d2a0E?oc=5
-4. **Scientists discovered the brain doesn't make decisions the way we thought** — science angle
-   https://www.sciencedaily.com/releases/2026/07/260712011757.htm
-5. **How MIT students are helping to prevent cyberattacks** — science angle
+4. **How MIT students are helping to prevent cyberattacks** — science angle
    https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
-6. **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — science angle
+5. **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — science angle
    https://www.nature.com/articles/d41586-026-02214-z
-7. **Doctor charged with using AI to remove bikinis from social media photos of young girls - Alachua Chronicle** — science angle
+6. **Doctor charged with using AI to remove bikinis from social media photos of young girls - Alachua Chronicle** — science angle
    https://news.google.com/rss/articles/CBMitwFBVV95cUxNeG4yc1dxX1RfalhydzNBVmVWZnR4VTMwWFI2ZHZiSGNRWXVRdG4tTzgyNF9lTHJ0VnMzcmNxTE9RaVU1UE9Tc0NqWEFuSmRjd2R3Z25SZDJQbVhaY1FyMGlHS3hqNVdkTlBjdFVrVUpUQVdtM3BHOHQwWE9NbDJmQ2dDRmRlVHVHNHVuSTRiZnBQRDRaRjlHTk5EYndoSjk1YUJDR3Nzb3F6VDR3MnFKSVpDNUJwb0E?oc=5
-8. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
+7. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1zRFQ3UjBnT1lDTHhveFNoQ0FmQ0NMODZBVklXcmxIVnYxQWdKSS1SSnI5M0NGTTJrTUNSQnN2MTJDVkxWRUVLZU9Oa3VYTmNKQXdTRk9FaUhDQjh5MUdDZVk2YVFtS1F0eC1hX1d6QzhYcEdRUGc?oc=5
+8. **AI Outperformed Doctors on a Medical Exam. Africa Should Be Paying Attention - Dawan Africa** — science angle
+   https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLWctdlVVQU1BMXF5Vi1lbC1YQUdCTkVodWotSFhYdHpHYzFvU1pfSUtlU2lrVmJtZ1F2RmJLaUxTZXo0ckxVb0RWeDlRdFQ0bGhiUm51WjJ4TkFzdW43WkVVZHBPYl9waWVqN0YyVGduOWZ3WGlaalhjUi1CQVBkR3ZvMmxHY0k5dGdvc3lRdWhjcDFDMEo5UHlHdmhQeDJ0dy1CVEtkRi0?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX** — Jensen Huang News — Score 113
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **Meta used AI to target workers with medical conditions for layoffs** — https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/
 - **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 - **AI Disagreements Could Undermine Patient Trust in Doctors - Bioengineer.org** — https://news.google.com/rss/articles/CBMiigFBVV95cUxNT1VNOEpfU0ZJNnotRzV5QlBkMnVhSFlzZWFyZmZMZmhjZXBSczZhVVhvcXRfN2NlX2FNVGh3cTBuaW12STBPcUx5ZUFVWm8wcnM3ZUxLLWd3VVR3MFRCNEtYMHd1NnZqRzlwWkdlNGk2aHAzNGxyU0VRbmhWWUZyZ3BqMUNRS2d2a0E?oc=5
-- **Scientists discovered the brain doesn't make decisions the way we thought** — https://www.sciencedaily.com/releases/2026/07/260712011757.htm
+- **How MIT students are helping to prevent cyberattacks** — https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3430
+- Total stories tracked: 3411
 - Most active topic: show
 - Busiest category: AI General News
 
