@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 13 Jul 2026 to 20 Jul 2026
+# 🗞️ AI THIS WEEK — 14 Jul 2026 to 21 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX**
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — https://www.nature.com/articles/d41586-026-02214-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3347
-- Most active topic: models
+- Total stories tracked: 3334
+- Most active topic: show
 - Busiest category: AI General News
 
 ---
