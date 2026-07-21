@@ -41,20 +41,20 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQdzgtcXVVVnJIOVZFcUhiTW1HaHVCNWNRNWM1R1llS09wQlE0bDJGNFp1RWcxMWFqdkVKMVUtdk1wMEptTWhRSWV6em5LR2UtOGxMMVVjSHNOYndoNUR6WnpZcWpvT0pidjlQNHRyUll3bWExYVgzVWR4X0FPbXBxeUtOckplMVloNjlJR0NOMGQ1TXRNRC1iaHNGcWRrdGNPbExxOFBWcFl4M3gxWWI0MGRwR2lCcjhhSE9OSVR3?oc=5
 8. **Musk's xAI sues Grok user over sexualized 'deepfakes' - Reuters** — Elon Musk AI News — Score 52
    https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0huVDEzQnBsMXdtRjJnbk04WkhGdTdBdVZSWDNLVDhxLWs0U05hT042MUlfNFUzbkJtVG5naE1RNVVQdndPZ1RQNkVUUzMyZXRhRWJFYTJvVVlnNjJGSUJFc2E3VzdBNmhnU2tROVpacGNpNjNLVjA2TXpLTy1DZnJyUld2Smxxek0tNGJvZ09qVUZQanQzNWQ1VE9YRWwwek1tWlpn?oc=5
-9. **Connect Network launches Agentic AI platform IMMERSIVE to power hyperlocal media planning - Exchange4Media** — AI Agents — Score 51
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSXpyMTFvQUcwbjFBTG5VX242VHNsQWlCcGJJMS02cVQwOTZneWdWeDZHcHljOGpVSkRGSWwwU1NUaDFCWEFJb3pHemZzbGVESU5sX3RjXzJOYWhIeE5Ib0pSQ1ZNZnZycHpXVzdLOXNUNDFmNE1sV1plVk9YeTVWeWJNX3gzdHlvZVZ4S3RuUWlZQk13WC1XSG01V3Z2UTdkaEFpRDNpUzdTUklZaEJ1OTlQYTdENzc1dEFCSmlwWGJtbDl4TVJ6RXROZ3RpWE5yY2U3Sno0d2U2ZDJhZ2U4UG55bw?oc=5
-10. **Squirro Launches AI Agent Catalog to End the "Start From Zero" Problem Stalling Enterprise AI - The AI Journal** — AI Agents — Score 51
+9. **Squirro Launches AI Agent Catalog to End the "Start From Zero" Problem Stalling Enterprise AI - The AI Journal** — AI Agents — Score 51
    https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVloV1M5UW50R0lKX1AxWkh0ZnptUXRaS3FIaHh6ZFRTQ1RiVW13c1Q5QmtLbjE2clJjR3VuMjVHaTBpc29iRzh0alhBalNQNnBhd0pjVGhuY2dzY3BlVEktVTBPOVFCbkJJQjRDR2Z3aE5nVkhLdGlZdUxKSXF5a3JSUm8yUmVCb1NROWN1NFZrc25nd2ZIbHdHZXRqc05IM1lUdk8ycjBXalpWMlF4eFRn?oc=5
+10. **Unboxed Delivers AI Powered Skill Development Integrating Microsoft AI Solutions - Yahoo Finance** — Microsoft AI — Score 50
+   https://news.google.com/rss/articles/CBMingFBVV95cUxOWTczVzV2S1Y2QjdRcGsxTzZBaWp6MExEV3d5MjRjakhHYTN4MFg2WmJVZWZCelMydDhtSTFYbG9aSnhVUDFKVFBKTXUwVWVabWF0Z2tSa1NQVndqMHhKUEdzX1l4WnlGVlh1WEI0MVpwNmhvLS1Zemx2WndINFVNTmh2UFdtZ2RiQjRrZ2FNMUVtNng4NkJWZU9Xam56dw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
 - **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
-- **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 - **AI Disagreements Could Undermine Patient Trust in Doctors - Bioengineer.org** — https://news.google.com/rss/articles/CBMiigFBVV95cUxNT1VNOEpfU0ZJNnotRzV5QlBkMnVhSFlzZWFyZmZMZmhjZXBSczZhVVhvcXRfN2NlX2FNVGh3cTBuaW12STBPcUx5ZUFVWm8wcnM3ZUxLLWd3VVR3MFRCNEtYMHd1NnZqRzlwWkdlNGk2aHAzNGxyU0VRbmhWWUZyZ3BqMUNRS2d2a0E?oc=5
 - **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — https://www.nature.com/articles/d41586-026-02213-0
+- **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3411
+- Total stories tracked: 3381
 - Most active topic: show
 - Busiest category: AI General News
 
