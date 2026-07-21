@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — https://www.nature.com/articles/d41586-026-02213-0
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3386
+- Total stories tracked: 3384
 - Most active topic: show
 - Busiest category: AI General News
 
