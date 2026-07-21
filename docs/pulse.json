@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T03:47:52.149653+00:00",
+  "generated_at": "2026-07-21T08:46:57.044798+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -16,23 +16,22 @@
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create unique images for your social media or personal projects.",
-      "linkedin_angle": "Leverage ChatGPT image generation to enhance your professional presentations and marketing materials.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on user input.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -42,73 +41,77 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "10 Creative Ways to Use ChatGPT Image Generation",
-        "ChatGPT Image Generation Tutorial for Beginners"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: Tips and Tricks",
+        "The Future of Visual Content: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Kimi K3 AI Model",
+      "name": "Kimi K3",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "reddit"
       ],
-      "what_it_is": "Kimi K3 is a new AI model that has gained attention for its capabilities.",
-      "audience_angle": "You can explore the potential of Kimi K3 for your AI-related projects and interests.",
-      "linkedin_angle": "Discover how Kimi K3 can be applied in professional settings to enhance productivity and innovation.",
-      "local_relevance": 6,
+      "what_it_is": "Kimi K3 is an AI model that has gained attention for its capabilities.",
+      "audience_angle": "Discover the potential of Kimi K3 and its applications.",
+      "linkedin_angle": "Stay ahead of the curve with the latest developments in AI, including Kimi K3.",
+      "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Kimi K3 does not have a publicly known affiliate program."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
           "signal": "Kimi K3: The open-weights escalation"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1z8vx/kimi_k3_found_gpt56_sols_weak_spot/",
+          "signal": "Kimi K3 found GPT-5.6 Sol's weak spot"
         }
       ],
       "content_ideas": [
-        "Introduction to Kimi K3: What You Need to Know",
-        "Kimi K3 vs. Other AI Models: A Comparison",
-        "Exploring the Potential of Kimi K3 in Professional Settings"
+        "What is Kimi K3 and How Does it Work?",
+        "The Impact of Kimi K3 on the AI Landscape",
+        "Kimi K3 vs Other AI Models: A Comparison"
       ]
     },
     {
       "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI can be used to generate videos based on text prompts or other inputs.",
-      "audience_angle": "You can use AI video generation to create engaging content for your social media or personal projects.",
-      "linkedin_angle": "Leverage AI video generation to enhance your professional marketing and presentation materials.",
-      "local_relevance": 9,
+      "what_it_is": "AI video generation refers to the use of AI to create videos.",
+      "audience_angle": "Create stunning videos with the help of AI.",
+      "linkedin_angle": "Leverage AI video generation to enhance your marketing strategy.",
+      "local_relevance": 0,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs."
+        "note": "Affiliate programs available for AI video generation tools"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=627RP9r9M-g",
-          "signal": "Ayushman Pandita at KRMU LAUNCHPAD 2026 | AI Tools Every Student Should Learn in 2026"
+          "url": "https://www.youtube.com/watch?v=ruzSopZIFKc",
+          "signal": "The BEST Free & Unlimited AI Video Generator Is BACK!"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "10 Creative Ways to Use AI Video Generation",
-        "AI Video Generation Tutorial for Beginners"
+        "How to Make Viral AI Videos",
+        "AI Video Generation for Business: Tips and Tricks",
+        "The Future of Video Content: AI Generation"
       ]
     },
     {
@@ -119,28 +122,33 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a feature that allows users to utilize ChatGPT for professional tasks.",
-      "audience_angle": "You can use ChatGPT Work to enhance your productivity and efficiency in your professional life.",
-      "linkedin_angle": "Discover how ChatGPT Work can be applied in professional settings to streamline tasks and improve outcomes.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Work is a tool that allows users to work with ChatGPT.",
+      "audience_angle": "Get the most out of ChatGPT with ChatGPT Work.",
+      "linkedin_angle": "Enhance your productivity with ChatGPT Work.",
+      "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for its features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1sgh0/technology_of_future_btw/",
-          "signal": "😭😭 technology of future btw..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v27y1b/with_chatgpt_work_existing_why_does_copilot_exist/",
+          "signal": "With ChatGPT Work existing, why does CoPilot exist?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bOKKRcyc-yk",
+          "signal": "How I Would Build A One Person Claude AI Business In 2026"
         }
       ],
       "content_ideas": [
-        "How to Get Started with ChatGPT Work",
-        "10 Ways to Use ChatGPT Work to Boost Productivity",
-        "ChatGPT Work Tutorial for Professionals"
+        "Getting Started with ChatGPT Work",
+        "ChatGPT Work vs Other Productivity Tools",
+        "The Benefits of Using ChatGPT Work"
       ]
     },
     {
@@ -148,21 +156,26 @@
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "AI agents are programs that can perform tasks autonomously using AI.",
-      "audience_angle": "You can explore the potential of AI agents for your personal or professional projects.",
-      "linkedin_angle": "Discover how AI agents can be applied in professional settings to enhance productivity and innovation.",
-      "local_relevance": 7,
+      "what_it_is": "An AI agent is a program that uses AI to perform tasks.",
+      "audience_angle": "Discover the potential of AI agents and their applications.",
+      "linkedin_angle": "Stay ahead of the curve with the latest developments in AI agents.",
+      "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "AI agents do not have a publicly known affiliate program."
+        "note": "No affiliate program available"
       },
       "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48981136",
+          "signal": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12"
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
@@ -170,95 +183,61 @@
         }
       ],
       "content_ideas": [
-        "Introduction to AI Agents: What You Need to Know",
-        "AI Agents in Professional Settings: Potential and Limitations",
-        "Exploring the Potential of AI Agents for Personal Projects"
+        "What is an AI Agent and How Does it Work?",
+        "The Impact of AI Agents on Business",
+        "AI Agents vs Human Agents: A Comparison"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Qwen 3.8 Max",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a tool that offers AI-powered features for various tasks.",
-      "audience_angle": "You can use Claude AI to enhance your productivity and efficiency in your personal or professional life.",
-      "linkedin_angle": "Discover how Claude AI can be applied in professional settings to streamline tasks and improve outcomes.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "what_it_is": "Qwen 3.8 Max is a tool that has gained attention for its capabilities.",
+      "audience_angle": "Discover the potential of Qwen 3.8 Max and its applications.",
+      "linkedin_angle": "Stay ahead of the curve with the latest developments in Qwen 3.8 Max.",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://claude.com/blog/ai-code-migration",
-          "signal": "Anthropic runs large-scale code migrations with Claude Code"
+          "url": "https://qwen.ai/home",
+          "signal": "Qwen 3.8 Max"
         }
       ],
       "content_ideas": [
-        "How to Get Started with Claude AI",
-        "10 Ways to Use Claude AI to Boost Productivity",
-        "Claude AI Tutorial for Professionals"
+        "What is Qwen 3.8 Max and How Does it Work?",
+        "The Impact of Qwen 3.8 Max on the Industry",
+        "Qwen 3.8 Max vs Other Tools: A Comparison"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Kimi K3 AI Model",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
         "reddit"
       ],
-      "what_it_is": "Kimi K3 is a new AI model that has gained attention for its capabilities.",
-      "audience_angle": "You can explore the potential of Kimi K3 for your AI-related projects and interests.",
-      "linkedin_angle": "Discover how Kimi K3 can be applied in professional settings to enhance productivity and innovation.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Kimi K3 does not have a publicly known affiliate program."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-          "signal": "Kimi K3: The open-weights escalation"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Kimi K3: What You Need to Know",
-        "Kimi K3 vs. Other AI Models: A Comparison",
-        "Exploring the Potential of Kimi K3 in Professional Settings"
-      ]
-    },
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create unique images for your social media or personal projects.",
-      "linkedin_angle": "Leverage ChatGPT image generation to enhance your professional presentations and marketing materials.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on user input.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -268,9 +247,46 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "10 Creative Ways to Use ChatGPT Image Generation",
-        "ChatGPT Image Generation Tutorial for Beginners"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: Tips and Tricks",
+        "The Future of Visual Content: ChatGPT Images 2.0 Review"
+      ]
+    },
+    {
+      "name": "Kimi K3",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "Kimi K3 is an AI model that has gained attention for its capabilities.",
+      "audience_angle": "Discover the potential of Kimi K3 and its applications.",
+      "linkedin_angle": "Stay ahead of the curve with the latest developments in AI, including Kimi K3.",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+          "signal": "Kimi K3: The open-weights escalation"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1z8vx/kimi_k3_found_gpt56_sols_weak_spot/",
+          "signal": "Kimi K3 found GPT-5.6 Sol's weak spot"
+        }
+      ],
+      "content_ideas": [
+        "What is Kimi K3 and How Does it Work?",
+        "The Impact of Kimi K3 on the AI Landscape",
+        "Kimi K3 vs Other AI Models: A Comparison"
       ]
     },
     {
@@ -281,66 +297,70 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a feature that allows users to utilize ChatGPT for professional tasks.",
-      "audience_angle": "You can use ChatGPT Work to enhance your productivity and efficiency in your professional life.",
-      "linkedin_angle": "Discover how ChatGPT Work can be applied in professional settings to streamline tasks and improve outcomes.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Work is a tool that allows users to work with ChatGPT.",
+      "audience_angle": "Get the most out of ChatGPT with ChatGPT Work.",
+      "linkedin_angle": "Enhance your productivity with ChatGPT Work.",
+      "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for its features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1sgh0/technology_of_future_btw/",
-          "signal": "😭😭 technology of future btw..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v27y1b/with_chatgpt_work_existing_why_does_copilot_exist/",
+          "signal": "With ChatGPT Work existing, why does CoPilot exist?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bOKKRcyc-yk",
+          "signal": "How I Would Build A One Person Claude AI Business In 2026"
         }
       ],
       "content_ideas": [
-        "How to Get Started with ChatGPT Work",
-        "10 Ways to Use ChatGPT Work to Boost Productivity",
-        "ChatGPT Work Tutorial for Professionals"
+        "Getting Started with ChatGPT Work",
+        "ChatGPT Work vs Other Productivity Tools",
+        "The Benefits of Using ChatGPT Work"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Qwen 3.8 Max",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Claude AI is a tool that offers AI-powered features for various tasks.",
-      "audience_angle": "You can use Claude AI to enhance your productivity and efficiency in your personal or professional life.",
-      "linkedin_angle": "Discover how Claude AI can be applied in professional settings to streamline tasks and improve outcomes.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "what_it_is": "Qwen 3.8 Max is a tool that has gained attention for its capabilities.",
+      "audience_angle": "Discover the potential of Qwen 3.8 Max and its applications.",
+      "linkedin_angle": "Stay ahead of the curve with the latest developments in Qwen 3.8 Max.",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://claude.com/blog/ai-code-migration",
-          "signal": "Anthropic runs large-scale code migrations with Claude Code"
+          "url": "https://qwen.ai/home",
+          "signal": "Qwen 3.8 Max"
         }
       ],
       "content_ideas": [
-        "How to Get Started with Claude AI",
-        "10 Ways to Use Claude AI to Boost Productivity",
-        "Claude AI Tutorial for Professionals"
+        "What is Qwen 3.8 Max and How Does it Work?",
+        "The Impact of Qwen 3.8 Max on the Industry",
+        "Qwen 3.8 Max vs Other Tools: A Comparison"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage/token limits hitting users hard",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
@@ -349,20 +369,20 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v1v8ze/does_anyone_trust_chatgpt_enough_to_connect_their/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Workarounds"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     },
     {
-      "problem": "AI model complexity",
-      "who_affected": "AI developers and users",
-      "signal_strength": 5,
+      "problem": "Difficulty in learning new AI features",
+      "who_affected": "AI users",
+      "signal_strength": 4,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v2bu9p/how_do_you_learn_how_to_use_new_features/"
         }
       ],
-      "content_opportunity": "Simplifying AI Models: A Guide for Developers and Users"
+      "content_opportunity": "Tutorials on learning new AI features"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Work"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
