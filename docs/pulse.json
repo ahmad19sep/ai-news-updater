@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T03:49:19.117074+00:00",
+  "generated_at": "2026-07-22T08:46:03.564087+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,250 +9,369 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore how AI-powered image generation can revolutionize your marketing and design workflows.",
+      "what_it_is": "A tool that uses ChatGPT to generate images.",
+      "audience_angle": "Create amazing images with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation feature has an affiliate program for creators."
+        "note": "ChatGPT has an affiliate program for its tools and services."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XPzTWw4h6qU",
-          "signal": "How to use ChatGPT Image Generation"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Designers",
-        "Using ChatGPT Image Generation for Marketing and Advertising"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Kimi K3 AI Model",
+      "name": "Kimi K3",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Kimi K3 is a state-of-the-art AI model that outperforms other models in various tasks.",
-      "audience_angle": "Discover how Kimi K3 can revolutionize your workflow with its exceptional performance.",
-      "linkedin_angle": "Explore the potential of Kimi K3 in transforming your business operations and decision-making.",
-      "local_relevance": 8,
+      "what_it_is": "An AI model that competes with Fable.",
+      "audience_angle": "Discover the capabilities of Kimi K3 and how it can benefit your work.",
+      "linkedin_angle": "Stay ahead of the curve with Kimi K3, a cutting-edge AI model.",
+      "local_relevance": 6,
       "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Kimi K3 is an open-source model, and its developers do not have an affiliate program."
+        "note": "No affiliate program available for Kimi K3."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-          "signal": "Kimi K3: The open-weights escalation"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OPuD-UeQGY8",
-          "signal": "INSANE AI News: GPT-RED, Kimi K3, Gemini 3.5 Pro and Anthropic's END GAME"
+          "url": "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark",
+          "signal": "Kimi K3: second only to Fable 5 on AA-Briefcase"
         }
       ],
       "content_ideas": [
-        "What is Kimi K3 and How Does it Work?",
-        "Kimi K3 vs Other AI Models: A Comparison",
-        "Using Kimi K3 for Business and Personal Projects"
+        "Kimi K3 vs Fable: Which AI Model Reigns Supreme?",
+        "Unlocking the Potential of Kimi K3: A Beginner's Guide",
+        "The Impact of Kimi K3 on the AI Landscape: Expert Insights"
       ]
     },
     {
-      "name": "Gemini 3.6 Flash AI Model",
+      "name": "Gemini 3.6 Flash",
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Gemini 3.6 Flash is a powerful AI model developed by Google.",
-      "audience_angle": "Learn about the features and capabilities of Gemini 3.6 Flash and how it can benefit your work.",
-      "linkedin_angle": "Explore the applications of Gemini 3.6 Flash in various industries and its potential for business growth.",
-      "local_relevance": 6,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "what_it_is": "A model from Google with improved performance.",
+      "audience_angle": "Explore the features and capabilities of Gemini 3.6 Flash.",
+      "linkedin_angle": "Enhance your workflow with Gemini 3.6 Flash, a powerful AI model.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "Gemini 3.6 Flash is a proprietary model, and its developers do not have an affiliate program."
+        "affiliate_likely": true,
+        "note": "Google offers an affiliate program for its AI models and services."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
           "signal": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OPuD-UeQGY8",
-          "signal": "INSANE AI News: GPT-RED, Kimi K3, Gemini 3.5 Pro and Anthropic's END GAME"
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini 3.6 Flash: Features and Capabilities",
-        "Gemini 3.6 Flash vs Other AI Models: A Comparison",
-        "Using Gemini 3.6 Flash for Business and Personal Projects"
+        "Gemini 3.6 Flash: A Comprehensive Review and Tutorial",
+        "How to Integrate Gemini 3.6 Flash into Your Workflow",
+        "The Benefits and Limitations of Gemini 3.6 Flash: An Expert Analysis"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "The use of AI to generate videos.",
+      "audience_angle": "Create stunning videos with AI and take your content to the next level.",
+      "linkedin_angle": "Leverage AI video generation to enhance your professional content and marketing strategy.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HXN1z2DobVk",
+          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just 1 Prompt || Ai Automation 2026"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning AI-Generated Videos for Your Business",
+        "The Future of Video Content: AI Generation and Its Applications",
+        "AI Video Generation: A Step-by-Step Guide for Beginners"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A tool that helps users get started with ChatGPT.",
+      "audience_angle": "Unlock the full potential of ChatGPT with ChatGPT Work.",
+      "linkedin_angle": "Take your productivity to the next level with ChatGPT Work.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT offers an affiliate program for its tools and services."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "ChatGPT Work: How to Unlock Its Full Potential",
+        "The Benefits of Using ChatGPT Work for Your Business"
+      ]
+    },
+    {
+      "name": "Manus AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A general AI agent for research, slides, websites, and creative workflows.",
+      "audience_angle": "Discover the capabilities of Manus AI and how it can benefit your work.",
+      "linkedin_angle": "Stay ahead of the curve with Manus AI, a cutting-edge AI agent.",
+      "local_relevance": 5,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Manus AI."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
+          "signal": "Manus AI – General AI Agent for Research, Slides, Websites & Creative Workflows"
+        }
+      ],
+      "content_ideas": [
+        "Manus AI: A Comprehensive Review and Tutorial",
+        "How to Integrate Manus AI into Your Workflow",
+        "The Benefits and Limitations of Manus AI: An Expert Analysis"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore how AI-powered image generation can revolutionize your marketing and design workflows.",
+      "what_it_is": "A tool that uses ChatGPT to generate images.",
+      "audience_angle": "Create amazing images with the power of AI.",
+      "linkedin_angle": "Leverage AI-generated images to enhance your professional content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation feature has an affiliate program for creators."
+        "note": "ChatGPT has an affiliate program for its tools and services."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XPzTWw4h6qU",
-          "signal": "How to use ChatGPT Image Generation"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Designers",
-        "Using ChatGPT Image Generation for Marketing and Advertising"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "Kimi K3 AI Model",
+      "name": "Manus AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A general AI agent for research, slides, websites, and creative workflows.",
+      "audience_angle": "Discover the capabilities of Manus AI and how it can benefit your work.",
+      "linkedin_angle": "Stay ahead of the curve with Manus AI, a cutting-edge AI agent.",
+      "local_relevance": 5,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Manus AI."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e0vrCSGYo5c",
+          "signal": "Manus AI – General AI Agent for Research, Slides, Websites & Creative Workflows"
+        }
+      ],
+      "content_ideas": [
+        "Manus AI: A Comprehensive Review and Tutorial",
+        "How to Integrate Manus AI into Your Workflow",
+        "The Benefits and Limitations of Manus AI: An Expert Analysis"
+      ]
+    },
+    {
+      "name": "Kimi K3",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Kimi K3 is a state-of-the-art AI model that outperforms other models in various tasks.",
-      "audience_angle": "Discover how Kimi K3 can revolutionize your workflow with its exceptional performance.",
-      "linkedin_angle": "Explore the potential of Kimi K3 in transforming your business operations and decision-making.",
-      "local_relevance": 8,
+      "what_it_is": "An AI model that competes with Fable.",
+      "audience_angle": "Discover the capabilities of Kimi K3 and how it can benefit your work.",
+      "linkedin_angle": "Stay ahead of the curve with Kimi K3, a cutting-edge AI model.",
+      "local_relevance": 6,
       "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Kimi K3 is an open-source model, and its developers do not have an affiliate program."
+        "note": "No affiliate program available for Kimi K3."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-          "signal": "Kimi K3: The open-weights escalation"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OPuD-UeQGY8",
-          "signal": "INSANE AI News: GPT-RED, Kimi K3, Gemini 3.5 Pro and Anthropic's END GAME"
+          "url": "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark",
+          "signal": "Kimi K3: second only to Fable 5 on AA-Briefcase"
         }
       ],
       "content_ideas": [
-        "What is Kimi K3 and How Does it Work?",
-        "Kimi K3 vs Other AI Models: A Comparison",
-        "Using Kimi K3 for Business and Personal Projects"
+        "Kimi K3 vs Fable: Which AI Model Reigns Supreme?",
+        "Unlocking the Potential of Kimi K3: A Beginner's Guide",
+        "The Impact of Kimi K3 on the AI Landscape: Expert Insights"
       ]
     },
     {
-      "name": "Gemini 3.6 Flash AI Model",
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A tool that helps users get started with ChatGPT.",
+      "audience_angle": "Unlock the full potential of ChatGPT with ChatGPT Work.",
+      "linkedin_angle": "Take your productivity to the next level with ChatGPT Work.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT offers an affiliate program for its tools and services."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "ChatGPT Work: How to Unlock Its Full Potential",
+        "The Benefits of Using ChatGPT Work for Your Business"
+      ]
+    },
+    {
+      "name": "Gemini 3.6 Flash",
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Gemini 3.6 Flash is a powerful AI model developed by Google.",
-      "audience_angle": "Learn about the features and capabilities of Gemini 3.6 Flash and how it can benefit your work.",
-      "linkedin_angle": "Explore the applications of Gemini 3.6 Flash in various industries and its potential for business growth.",
-      "local_relevance": 6,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "what_it_is": "A model from Google with improved performance.",
+      "audience_angle": "Explore the features and capabilities of Gemini 3.6 Flash.",
+      "linkedin_angle": "Enhance your workflow with Gemini 3.6 Flash, a powerful AI model.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "Gemini 3.6 Flash is a proprietary model, and its developers do not have an affiliate program."
+        "affiliate_likely": true,
+        "note": "Google offers an affiliate program for its AI models and services."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
           "signal": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OPuD-UeQGY8",
-          "signal": "INSANE AI News: GPT-RED, Kimi K3, Gemini 3.5 Pro and Anthropic's END GAME"
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini 3.6 Flash: Features and Capabilities",
-        "Gemini 3.6 Flash vs Other AI Models: A Comparison",
-        "Using Gemini 3.6 Flash for Business and Personal Projects"
+        "Gemini 3.6 Flash: A Comprehensive Review and Tutorial",
+        "How to Integrate Gemini 3.6 Flash into Your Workflow",
+        "The Benefits and Limitations of Gemini 3.6 Flash: An Expert Analysis"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
+      "problem": "ChatGPT usage limits hitting users hard",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v2op15/usage_limits_has_been_refreshed_for_the_8th_time/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Workarounds"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
