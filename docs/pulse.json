@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:24:28.996474+00:00",
+  "generated_at": "2026-07-22T19:47:20.887701+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool for generating images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative and professional applications.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business or creative projects.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
+        "note": "ChatGPT Images 2.0 may offer affiliate programs for creators."
       },
       "sources": [
         {
@@ -41,71 +41,46 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Creative Projects",
-        "10 Unique Image Generation Ideas with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Graphic Designers"
-      ]
-    },
-    {
-      "name": "Kimi K3",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Kimi K3 is a new AI model that has been making waves in the tech community.",
-      "audience_angle": "Kimi K3 has the potential to revolutionize the way we approach AI tasks.",
-      "linkedin_angle": "Discover how Kimi K3 can be applied to real-world problems and industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Kimi K3 is an open-source model, and its usage is not directly monetizable."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-          "signal": "Kimi K3: The open-weights escalation"
-        }
-      ],
-      "content_ideas": [
-        "What is Kimi K3 and How Does it Work?",
-        "Kimi K3 vs Other AI Models: A Comparison",
-        "The Future of AI: How Kimi K3 is Changing the Game"
+        "How to use ChatGPT Images 2.0 for graphic design",
+        "ChatGPT Images 2.0: A game-changer for social media marketing",
+        "Creating art with ChatGPT Images 2.0: Tips and tricks"
       ]
     },
     {
       "name": "Gemini 3.6 Flash",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Gemini 3.6 Flash is a recent update to the Gemini AI model.",
-      "audience_angle": "Gemini 3.6 Flash offers improved performance and capabilities for users.",
-      "linkedin_angle": "Explore the applications and implications of Gemini 3.6 Flash in the industry.",
+      "what_it_is": "Gemini 3.6 Flash is a new AI model from Google.",
+      "audience_angle": "You can use Gemini 3.6 Flash to improve your content creation and productivity.",
+      "linkedin_angle": "Discover how Gemini 3.6 Flash can enhance your business operations and decision-making.",
       "local_relevance": 6,
-      "pillar": "news",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "Gemini 3.6 Flash is a model update, and its usage is not directly monetizable."
+        "affiliate_likely": true,
+        "note": "Gemini 3.6 Flash may offer affiliate programs for developers and creators."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
           "signal": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=gemini+3.6+flash",
+          "signal": "Gemini 3.6 Flash"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini 3.6 Flash?",
-        "Gemini 3.6 Flash: A Deep Dive into its Capabilities",
-        "How Gemini 3.6 Flash Can Enhance Your Workflow"
+        "Getting started with Gemini 3.6 Flash: A beginner's guide",
+        "Gemini 3.6 Flash vs. other AI models: Which one is right for you?",
+        "Unlocking the potential of Gemini 3.6 Flash for business applications"
       ]
     },
     {
@@ -115,90 +90,121 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
-      "audience_angle": "You can use AI video generation to create engaging and high-quality videos for your audience.",
-      "linkedin_angle": "Learn how to leverage AI video generation for marketing, education, and other applications.",
-      "local_relevance": 9,
+      "what_it_is": "AI video generation is a technology that creates videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create engaging and professional-looking videos.",
+      "linkedin_angle": "Learn how to leverage AI video generation for your marketing and branding efforts.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools may have affiliate programs for creators."
+        "note": "AI video generation tools may offer affiliate programs for creators and marketers."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=19Fupw7xlN0",
-          "signal": "How to Make Your First AI Video Today For FREE"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "AI video generation"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning AI-Generated Videos",
-        "10 AI Video Generation Tools You Need to Know",
-        "The Future of Video Content: How AI is Changing the Game"
+        "How to create stunning AI-generated videos for social media",
+        "AI video generation for business: Tips and best practices",
+        "The future of video content: How AI generation is changing the game"
       ]
     },
     {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
+      "name": "ChatGPT Agent Mode",
+      "category": "technique",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to leverage ChatGPT for work-related tasks.",
-      "audience_angle": "ChatGPT Work can help you streamline your workflow and increase productivity.",
-      "linkedin_angle": "Discover how ChatGPT Work can be applied to real-world problems and industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "ChatGPT Agent Mode is a feature that allows users to interact with ChatGPT in a more human-like way.",
+      "audience_angle": "You can use ChatGPT Agent Mode to automate tasks and improve your productivity.",
+      "linkedin_angle": "Discover how ChatGPT Agent Mode can enhance your workflow and decision-making.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Work may have an affiliate program for creators."
+        "note": "ChatGPT Agent Mode may offer affiliate programs for developers and creators."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "ChatGPT Agent Mode"
         }
       ],
       "content_ideas": [
-        "What is ChatGPT Work and How Does it Work?",
-        "ChatGPT Work: A Game-Changer for Productivity",
-        "How to Use ChatGPT Work for Your Business"
+        "Getting started with ChatGPT Agent Mode: A step-by-step guide",
+        "ChatGPT Agent Mode: Tips and tricks for maximizing productivity",
+        "The future of work: How ChatGPT Agent Mode is changing the landscape"
       ]
     },
     {
-      "name": "AI Agents",
-      "category": "use_case",
+      "name": "Kimi K3",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "AI agents are tools that use AI to perform tasks on behalf of users.",
-      "audience_angle": "You can use AI agents to automate tasks and increase efficiency.",
-      "linkedin_angle": "Learn how to leverage AI agents for business and professional applications.",
-      "local_relevance": 8,
+      "what_it_is": "Kimi K3 is a new AI model that has shown impressive performance in various benchmarks.",
+      "audience_angle": "You can use Kimi K3 to improve your AI-powered applications and services.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your business operations and decision-making.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "best_format": "short",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI agent tools may have affiliate programs for creators."
+        "note": "Kimi K3 may offer affiliate programs for developers and creators."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZvDkJsKE80k",
-          "signal": "AI Agents Explained - What Is an AI Agent and how to build one?"
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark",
+          "signal": "Kimi K3: second only to Fable 5 on AA-Briefcase"
         }
       ],
       "content_ideas": [
-        "How to Build Your Own AI Agent",
-        "10 AI Agent Tools You Need to Know",
-        "The Future of Automation: How AI Agents are Changing the Game"
+        "Introduction to Kimi K3: What you need to know",
+        "Kimi K3 vs. other AI models: A comparison of performance and features",
+        "The potential of Kimi K3 for business applications: A deep dive"
+      ]
+    },
+    {
+      "name": "Laguna S 2.1",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Laguna S 2.1 is a new AI model that has shown impressive performance in various benchmarks.",
+      "audience_angle": "You can use Laguna S 2.1 to improve your AI-powered applications and services.",
+      "linkedin_angle": "Discover how Laguna S 2.1 can enhance your business operations and decision-making.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Laguna S 2.1 may offer affiliate programs for developers and creators."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+          "signal": "Laguna S 2.1"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Laguna S 2.1: What you need to know",
+        "Laguna S 2.1 vs. other AI models: A comparison of performance and features",
+        "The potential of Laguna S 2.1 for business applications: A deep dive"
       ]
     }
   ],
@@ -210,16 +216,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool for generating images using AI.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative and professional applications.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business or creative projects.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
+        "note": "ChatGPT Images 2.0 may offer affiliate programs for creators."
       },
       "sources": [
         {
@@ -229,130 +235,124 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Creative Projects",
-        "10 Unique Image Generation Ideas with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Graphic Designers"
+        "How to use ChatGPT Images 2.0 for graphic design",
+        "ChatGPT Images 2.0: A game-changer for social media marketing",
+        "Creating art with ChatGPT Images 2.0: Tips and tricks"
       ]
     },
     {
       "name": "Kimi K3",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Kimi K3 is a new AI model that has been making waves in the tech community.",
-      "audience_angle": "Kimi K3 has the potential to revolutionize the way we approach AI tasks.",
-      "linkedin_angle": "Discover how Kimi K3 can be applied to real-world problems and industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
+      "what_it_is": "Kimi K3 is a new AI model that has shown impressive performance in various benchmarks.",
+      "audience_angle": "You can use Kimi K3 to improve your AI-powered applications and services.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your business operations and decision-making.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "Kimi K3 is an open-source model, and its usage is not directly monetizable."
+        "affiliate_likely": true,
+        "note": "Kimi K3 may offer affiliate programs for developers and creators."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-          "signal": "Kimi K3: The open-weights escalation"
+          "url": "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark",
+          "signal": "Kimi K3: second only to Fable 5 on AA-Briefcase"
         }
       ],
       "content_ideas": [
-        "What is Kimi K3 and How Does it Work?",
-        "Kimi K3 vs Other AI Models: A Comparison",
-        "The Future of AI: How Kimi K3 is Changing the Game"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to leverage ChatGPT for work-related tasks.",
-      "audience_angle": "ChatGPT Work can help you streamline your workflow and increase productivity.",
-      "linkedin_angle": "Discover how ChatGPT Work can be applied to real-world problems and industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work may have an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
-        }
-      ],
-      "content_ideas": [
-        "What is ChatGPT Work and How Does it Work?",
-        "ChatGPT Work: A Game-Changer for Productivity",
-        "How to Use ChatGPT Work for Your Business"
+        "Introduction to Kimi K3: What you need to know",
+        "Kimi K3 vs. other AI models: A comparison of performance and features",
+        "The potential of Kimi K3 for business applications: A deep dive"
       ]
     },
     {
       "name": "Gemini 3.6 Flash",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Gemini 3.6 Flash is a recent update to the Gemini AI model.",
-      "audience_angle": "Gemini 3.6 Flash offers improved performance and capabilities for users.",
-      "linkedin_angle": "Explore the applications and implications of Gemini 3.6 Flash in the industry.",
+      "what_it_is": "Gemini 3.6 Flash is a new AI model from Google.",
+      "audience_angle": "You can use Gemini 3.6 Flash to improve your content creation and productivity.",
+      "linkedin_angle": "Discover how Gemini 3.6 Flash can enhance your business operations and decision-making.",
       "local_relevance": 6,
-      "pillar": "news",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "Gemini 3.6 Flash is a model update, and its usage is not directly monetizable."
+        "affiliate_likely": true,
+        "note": "Gemini 3.6 Flash may offer affiliate programs for developers and creators."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
           "signal": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=gemini+3.6+flash",
+          "signal": "Gemini 3.6 Flash"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini 3.6 Flash?",
-        "Gemini 3.6 Flash: A Deep Dive into its Capabilities",
-        "How Gemini 3.6 Flash Can Enhance Your Workflow"
+        "Getting started with Gemini 3.6 Flash: A beginner's guide",
+        "Gemini 3.6 Flash vs. other AI models: Which one is right for you?",
+        "Unlocking the potential of Gemini 3.6 Flash for business applications"
+      ]
+    },
+    {
+      "name": "Laguna S 2.1",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Laguna S 2.1 is a new AI model that has shown impressive performance in various benchmarks.",
+      "audience_angle": "You can use Laguna S 2.1 to improve your AI-powered applications and services.",
+      "linkedin_angle": "Discover how Laguna S 2.1 can enhance your business operations and decision-making.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Laguna S 2.1 may offer affiliate programs for developers and creators."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+          "signal": "Laguna S 2.1"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Laguna S 2.1: What you need to know",
+        "Laguna S 2.1 vs. other AI models: A comparison of performance and features",
+        "The potential of Laguna S 2.1 for business applications: A deep dive"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Developers and creators using Claude",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v3f6qu/what_the_hell_has_gotten_into_chat_gpt/"
-        }
-      ],
-      "content_opportunity": "How to Work Around ChatGPT Usage Limits"
-    },
-    {
-      "problem": "AI model training costs",
-      "who_affected": "AI developers and researchers",
-      "signal_strength": 5,
-      "sources": [
-        {
           "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/c3ek3gvdnj3o"
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63"
         }
       ],
-      "content_opportunity": "Reducing AI Model Training Costs: Tips and Strategies"
+      "content_opportunity": "How to optimize Claude usage and avoid token limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Agent Mode, a feature that allows users to interact with ChatGPT in a more human-like way, making it a great tool for automating tasks and improving productivity."
 }
