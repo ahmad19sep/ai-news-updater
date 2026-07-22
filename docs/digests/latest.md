@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 14 Jul 2026 to 21 Jul 2026
+# 🗞️ AI THIS WEEK — 15 Jul 2026 to 22 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX**
@@ -7,22 +7,22 @@ Best source link: https://www.actionnewsjax.com/news/business/fujitsu-leading/5A
 All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM0laM3hIYy1sTXlrcy1ENXhJY1VLc3hpS1VfUG1vVEdvVGc0SkJGVHVHdXBCZUtSUGdkNnBfRVFKeGt3c1puX2tpSXpVb0lwOUY4ZmR5bUU4Wlk4a2l1aXUwUkVVUmZPTTZiOXAtdU5EdG9fUmNqRkp4VmVvTWpYSTBDZ3pUMHYzZ0pRak5ZYVNpRVBBZHNxb3FYVEVkVFFGU1BISGdqODRMSkI1c3pDNTFYVXNYLUJNdHBQR1k2SkZ6U1VQdw?oc=5 · https://news.google.com/rss/articles/CBMi0wFBVV95cUxPalFSUzVBVVEtMjJGd0kwOWlRUENmVENqRTA0UDJLS1l5X1NCRWo3eGZYX3Z5cVJBbzF4MENZdk1XZDhuRTFsaDRRM002eXFmaDZuWG1QNDRuV1RIQnZldEpiTW5zMHZKSVd6THJ1LXg2S2ptRWRvcjVyY3ZQVHNydTBXWDNLbF9xNERuajVhWmIzaGVaRFNLeGxSTXN3aml0TGZuVE1DWjNPN0oxcW9hWVpQMzkyMTFYOGFnRDR4QnVpc1paNUpMb3JHcFJyMmpPeUhF?oc=5 · https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdDJJM2ZqU2FJWmswelo5eE15TURZaHozdHBEQkFGQ21XNFVnM0pCLXJTQVJpUmtSV0lnZUV5RGt3UEMzX1g2b0luQnZjREFjcVFrZjdiQkhTaGlvcGpEaXBCdkt0Q1d2VzBZblRsR1gwX3Q0dVY3REFsWUltWGQxSjVGM0JHRzVYNlJGZUZDV1F6UVhFbEJfZkxNS0VGckd3bEJpYWV6aHl2VlE?oc=5 · https://www.actionnewsjax.com/news/business/fujitsu-leading/5AKB6OZFOYZUFN47P2CTIOUDBU/ · https://www.ctinsider.com/news/world/article/fujitsu-and-leading-japanese-robotics-companies-22347385.php · https://www.greenwichtime.com/news/world/article/fujitsu-and-leading-japanese-robotics-companies-22347385.php · https://www.beaumontenterprise.com/news/world/article/fujitsu-and-leading-japanese-robotics-companies-22347385.php · https://www.newstimes.com/news/world/article/fujitsu-and-leading-japanese-robotics-companies-22347385.php · https://www.wsls.com/business/2026/07/16/fujitsu-and-leading-japanese-robotics-companies-to-use-nvidia-technology-in-physical-ai/ · https://japantoday.com/category/tech/fujitsu-and-leading-japanese-robotics-companies-to-use-nvidia-tech-in-physical-ai · https://biztoc.com/x/8eaff41f94d20270
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — science angle
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
-2. **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — science angle
+1. **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
-3. **AI Disagreements Could Undermine Patient Trust in Doctors - Bioengineer.org** — science angle
+2. **AI Disagreements Could Undermine Patient Trust in Doctors - Bioengineer.org** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxNT1VNOEpfU0ZJNnotRzV5QlBkMnVhSFlzZWFyZmZMZmhjZXBSczZhVVhvcXRfN2NlX2FNVGh3cTBuaW12STBPcUx5ZUFVWm8wcnM3ZUxLLWd3VVR3MFRCNEtYMHd1NnZqRzlwWkdlNGk2aHAzNGxyU0VRbmhWWUZyZ3BqMUNRS2d2a0E?oc=5
-4. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
+3. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-5. **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — science angle
+4. **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — science angle
    https://www.nature.com/articles/d41586-026-02214-z
-6. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
+5. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1zRFQ3UjBnT1lDTHhveFNoQ0FmQ0NMODZBVklXcmxIVnYxQWdKSS1SSnI5M0NGTTJrTUNSQnN2MTJDVkxWRUVLZU9Oa3VYTmNKQXdTRk9FaUhDQjh5MUdDZVk2YVFtS1F0eC1hX1d6QzhYcEdRUGc?oc=5
-7. **AI Outperformed Doctors on a Medical Exam. Africa Should Be Paying Attention - Dawan Africa** — science angle
+6. **AI Outperformed Doctors on a Medical Exam. Africa Should Be Paying Attention - Dawan Africa** — science angle
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLWctdlVVQU1BMXF5Vi1lbC1YQUdCTkVodWotSFhYdHpHYzFvU1pfSUtlU2lrVmJtZ1F2RmJLaUxTZXo0ckxVb0RWeDlRdFQ0bGhiUm51WjJ4TkFzdW43WkVVZHBPYl9waWVqN0YyVGduOWZ3WGlaalhjUi1CQVBkR3ZvMmxHY0k5dGdvc3lRdWhjcDFDMEo5UHlHdmhQeDJ0dy1CVEtkRi0?oc=5
-8. **NCH utilizes AI-enhanced stethoscope to detect heart conditions doctors may miss - Gulf Coast News and Weather** — science angle
+7. **NCH utilizes AI-enhanced stethoscope to detect heart conditions doctors may miss - Gulf Coast News and Weather** — science angle
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQZkhwRjlUUGhGNDZSa3BPYzRQUTdBMU5kWTgydi04X2o0Y1FzRHhlaGhEckRhMWc4OXFwSTZhc1N2TzhSaDFONUJCbHMza2R1VXljR2JnVkM0ZS1BYnFTRjl1dzdlRWpjeFc3NGM4WUJLekZJbzNiOFFEdTNFUk9zVkstOGNKcEJGVEgyWlVPUmZub2EwUU13VA?oc=5
+8. **The Same AI That Helps Patients Is Being Used to Attack Them, Hospital Exec Says - MedCity News** — science angle
+   https://news.google.com/rss/articles/CBMiakFVX3lxTE1mU3JDbHh0RG81elIySDFrRXZYZVhBbE4xaTc4OHRkUUhvaEIzSENaSjdkRFY0azVjb2dFNUNLMW5YdDVhVWFfR3ZHT0prOHBfek1FNUtOVU5XZ2lfc1ZoNHZNZGs3dElobUE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX** — Jensen Huang News — Score 113
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQdzgtcXVVVnJIOVZFcUhiTW1HaHVCNWNRNWM1R1llS09wQlE0bDJGNFp1RWcxMWFqdkVKMVUtdk1wMEptTWhRSWV6em5LR2UtOGxMMVVjSHNOYndoNUR6WnpZcWpvT0pidjlQNHRyUll3bWExYVgzVWR4X0FPbXBxeUtOckplMVloNjlJR0NOMGQ1TXRNRC1iaHNGcWRrdGNPbExxOFBWcFl4M3gxWWI0MGRwR2lCcjhhSE9OSVR3?oc=5
 8. **Musk's xAI sues Grok user over sexualized 'deepfakes' - Reuters** — Elon Musk AI News — Score 52
    https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0huVDEzQnBsMXdtRjJnbk04WkhGdTdBdVZSWDNLVDhxLWs0U05hT042MUlfNFUzbkJtVG5naE1RNVVQdndPZ1RQNkVUUzMyZXRhRWJFYTJvVVlnNjJGSUJFc2E3VzdBNmhnU2tROVpacGNpNjNLVjA2TXpLTy1DZnJyUld2Smxxek0tNGJvZ09qVUZQanQzNWQ1VE9YRWwwek1tWlpn?oc=5
-9. **Squirro Launches AI Agent Catalog to End the "Start From Zero" Problem Stalling Enterprise AI - The AI Journal** — AI Agents — Score 51
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVloV1M5UW50R0lKX1AxWkh0ZnptUXRaS3FIaHh6ZFRTQ1RiVW13c1Q5QmtLbjE2clJjR3VuMjVHaTBpc29iRzh0alhBalNQNnBhd0pjVGhuY2dzY3BlVEktVTBPOVFCbkJJQjRDR2Z3aE5nVkhLdGlZdUxKSXF5a3JSUm8yUmVCb1NROWN1NFZrc25nd2ZIbHdHZXRqc05IM1lUdk8ycjBXalpWMlF4eFRn?oc=5
-10. **Unboxed Delivers AI Powered Skill Development Integrating Microsoft AI Solutions - Yahoo Finance** — Microsoft AI — Score 50
+9. **Unboxed Delivers AI Powered Skill Development Integrating Microsoft AI Solutions - Yahoo Finance** — Microsoft AI — Score 50
    https://news.google.com/rss/articles/CBMingFBVV95cUxOWTczVzV2S1Y2QjdRcGsxTzZBaWp6MExEV3d5MjRjakhHYTN4MFg2WmJVZWZCelMydDhtSTFYbG9aSnhVUDFKVFBKTXUwVWVabWF0Z2tSa1NQVndqMHhKUEdzX1l4WnlGVlh1WEI0MVpwNmhvLS1Zemx2WndINFVNTmh2UFdtZ2RiQjRrZ2FNMUVtNng4NkJWZU9Xam56dw?oc=5
+10. **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — AI in Health — Score 48
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3381
+- Total stories tracked: 3409
 - Most active topic: show
 - Busiest category: AI General News
 
