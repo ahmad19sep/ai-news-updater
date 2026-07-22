@@ -17,19 +17,19 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
    https://www.nature.com/articles/d41586-026-02213-0
 5. **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — science angle
    https://www.nature.com/articles/d41586-026-02214-z
-6. **AI Outperformed Doctors on a Medical Exam. Africa Should Be Paying Attention - Dawan Africa** — science angle
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLWctdlVVQU1BMXF5Vi1lbC1YQUdCTkVodWotSFhYdHpHYzFvU1pfSUtlU2lrVmJtZ1F2RmJLaUxTZXo0ckxVb0RWeDlRdFQ0bGhiUm51WjJ4TkFzdW43WkVVZHBPYl9waWVqN0YyVGduOWZ3WGlaalhjUi1CQVBkR3ZvMmxHY0k5dGdvc3lRdWhjcDFDMEo5UHlHdmhQeDJ0dy1CVEtkRi0?oc=5
-7. **NCH utilizes AI-enhanced stethoscope to detect heart conditions doctors may miss - Gulf Coast News and Weather** — science angle
+6. **NCH utilizes AI-enhanced stethoscope to detect heart conditions doctors may miss - Gulf Coast News and Weather** — science angle
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQZkhwRjlUUGhGNDZSa3BPYzRQUTdBMU5kWTgydi04X2o0Y1FzRHhlaGhEckRhMWc4OXFwSTZhc1N2TzhSaDFONUJCbHMza2R1VXljR2JnVkM0ZS1BYnFTRjl1dzdlRWpjeFc3NGM4WUJLekZJbzNiOFFEdTNFUk9zVkstOGNKcEJGVEgyWlVPUmZub2EwUU13VA?oc=5
-8. **The Same AI That Helps Patients Is Being Used to Attack Them, Hospital Exec Says - MedCity News** — science angle
+7. **The Same AI That Helps Patients Is Being Used to Attack Them, Hospital Exec Says - MedCity News** — science angle
    https://news.google.com/rss/articles/CBMiakFVX3lxTE1mU3JDbHh0RG81elIySDFrRXZYZVhBbE4xaTc4OHRkUUhvaEIzSENaSjdkRFY0azVjb2dFNUNLMW5YdDVhVWFfR3ZHT0prOHBfek1FNUtOVU5XZ2lfc1ZoNHZNZGs3dElobUE?oc=5
+8. **Mayo Clinic tests AI Record Time to speed chart review and boost patient care - Межа. Новини України.** — science angle
+   https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sUUdGbDgyTmdTaWttVVRyS2l1MnZZaVFtWW9fTVU2T2p2b1JncHk4R0V2QjVIM0JZTGRiY1dDZmUyOVVjYVVjUWpKb2hNUHNEdUxrTzQ2NDl4ajR6ZVpYX0E1UTBwdw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI' - News4JAX** — Jensen Huang News — Score 113
    https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM0laM3hIYy1sTXlrcy1ENXhJY1VLc3hpS1VfUG1vVEdvVGc0SkJGVHVHdXBCZUtSUGdkNnBfRVFKeGt3c1puX2tpSXpVb0lwOUY4ZmR5bUU4Wlk4a2l1aXUwUkVVUmZPTTZiOXAtdU5EdG9fUmNqRkp4VmVvTWpYSTBDZ3pUMHYzZ0pRak5ZYVNpRVBBZHNxb3FYVEVkVFFGU1BISGdqODRMSkI1c3pDNTFYVXNYLUJNdHBQR1k2SkZ6U1VQdw?oc=5
 2. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 93
    https://www.newstimes.com/sports/article/mlb-restricts-dugout-ipad-use-to-prevent-use-of-22349680.php
-3. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 66
+3. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 86
    https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1WFphbElRSmNvSHhIWHM1WXladEFSbXdpbzdHQXpOdGx5bERBaHJYc3BBcld1bEpfR18tUFZabkJlc3N4eVMwTUxqSE1WTEtWeGVsTkJxQzE0ckk3bHZlVFBHR0hmaTBfSnFC?oc=5
 4. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 63.4
    https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM
 - **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3448
+- Total stories tracked: 3460
 - Most active topic: models
 - Busiest category: AI General News
 
