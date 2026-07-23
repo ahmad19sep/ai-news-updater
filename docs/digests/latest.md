@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 15 Jul 2026 to 22 Jul 2026
+# 🗞️ AI THIS WEEK — 16 Jul 2026 to 23 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald**
@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNY2w2QTN2c09Rcngwc1NueVRaNC1DaWNHMl9abTd6Uk9rdDNTVnctcnFOTlI4RF9hdHVEN2hISzR3SkZRNnJaZ2t3VXBhYmQtcm9fMFZNWUdCUzAtZ3BvcEtOVzVLdlhmRzJZNGp1Sl9YeG9sT0FqS1NmS0NiX29xWFBnMUZYTC1yeE5oeUktOVk4M2RKUUU4ZWdxQVZseGlmUEhMYWZkQ255WmtMZnZXcnBEMUIwVUx6Z3BiNnJlamRYVm1OZFJv0gHOAUFVX3lxTE5tNXNvcUh0RHdhY2p3V19ZRjB6cVU3YTNmRmcwRHh3a2JVZmpxRHY4cUFSejZpcTlEb3B2anpGWThadTY5cllhRVZ6bXhMSEJpRkxmck5yc1RJc0RPLUFtSTBaMFFUdm5RM3czY3ZTRFJhQkw1M01iRnpUTGFKaWZuUHRLYjV0S042Vl90SjBUMEkyTjdESmFoU3FMVHJTSTZvMTF1TlRLcWp2MGtJOHpwVzE0RHZ4XzNTREQ5NTROSDVjZDROTTB4M3BKc2d3?oc=5
 9. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
    https://news.google.com/rss/articles/CBMijwFBVV95cUxQTnJQS0ZMSWJyUmtaSFNycndKdzRBdEdlY1NyWllsYWtFa1RpeWZoWlFSSUxidVp4NDRKRE4zbUp5TUpyWHlMWmdTSnFOVWxfX0lPT0hXcWpLMVU2TXlQQUhEQXh6dUphS29keDdRV0FxZjZBTlJtZ3g5dHVwc0xQOW5YN1d4RkhNZXFJU2x4UQ?oc=5
-10. **AXA rolls out Microsoft 365 Copilot to employees worldwide - Insurance Business** — Microsoft AI — Score 53
-   https://news.google.com/rss/articles/CBMivgFBVV95cUxQdzgtcXVVVnJIOVZFcUhiTW1HaHVCNWNRNWM1R1llS09wQlE0bDJGNFp1RWcxMWFqdkVKMVUtdk1wMEptTWhRSWV6em5LR2UtOGxMMVVjSHNOYndoNUR6WnpZcWpvT0pidjlQNHRyUll3bWExYVgzVWR4X0FPbXBxeUtOckplMVloNjlJR0NOMGQ1TXRNRC1iaHNGcWRrdGNPbExxOFBWcFl4M3gxWWI0MGRwR2lCcjhhSE9OSVR3?oc=5
+10. **Microsoft strikes deal for Mistral's AI computing power - RTL Today** — Mistral News — Score 53
+   https://news.google.com/rss/articles/CBMingFBVV95cUxQdDUzZHNsRXppWllUbGFvSm5pU3lZWFc1OUp2bFJOY3pXanNDNGhLdjhUbk93ZHpONUVpa0I4UEI0N2ZvYy1jUlFmT3BjNDN2Q0E0VXF2eGVCejJIVC1ETE5IeFpBMFZjaWFaeWRVd3U4cW9XcGVJLUVIdmw0WTB4UzktOF8zU0VUa1FhTG5TYVNlZjVkVFdBb0RGbG9IZw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI Disagreement May Shake Patient Trust In Doctors - Mirage News** — https://news.google.com/rss/articles/CBMihAFBVV95cUxPTUs2UU9FeVpjOVpJeTlsYWwyb1hqSFQ4MHBvb2Y5a3BLMndOZWc1WFdIc2lCa0ZxaFExcmhlckliaWpMeDNHb2MxZW44SDRPbDlVNkxRTGE1R0lKdmR4RThib1FFeHBLaXlLakNmZDBUWWNQUm5JdmhnSVR1MnpFbHBRVWM?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — https://www.nature.com/articles/d41586-026-02214-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3497
+- Total stories tracked: 3488
 - Most active topic: models
 - Busiest category: AI General News
 
