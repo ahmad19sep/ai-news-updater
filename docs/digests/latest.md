@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
 2. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-3. **AI helps Michigan doctors diagnose medical conditions, but worries linger - The Detroit News** — science angle
-   https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVXNFLWllRU13ODRSWjEybnlpV0RYUXlhcnBhak51WXB3MUx6SkpaZkJtX1NRWEdIaGFvazdBeVFRLTVMSEYycW9tbEV6RXhZVUQ1cUlwWXBEdE1YWlVrb1U5YXRRcjR4c1dlVnJjRkIxcHp2U0xyQk5XcktiRW9CaFR5NnlualBKMUpaTWhWQjBMNDJiLThrdGZTLXdwdDNqdERiMDl1eVM3MDhoeXB1UTlpV29xcTJrbGdDMXB6RWNIQ0FLQnVSQXZ1TmExVnBrMkpORU13QWtOZw?oc=5
-4. **How McLaren is using AI to identify patients' risk for cardiovascular disease - The Detroit News** — science angle
-   https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMzIwYmdJQjd0NThWQU9uT2lSb1UtTlEyQXN6UElWRUZUZkI0SF9hVXRYSE9YU3ZFRVRmdHdhdFFOUGJxbVBocmpDOWR3LTN0NUMtb2g2VGQ0ZnNIOGFLZ3NtZjdDNzNUYkFvTGFfUnBETGVIWTFtcUJwT2lXZ1pWcGNUMmFQaTdYZ1JhRWd2UWZzUFFnQjQ0Q2dZTUpKVDhPUlFJOE51QTNfR1N5bjNIbkNza2FIVmxPUjh0SnZIQXZaZHBvdjUzaEFMSDFVcVBrLUUyVTZORjl6SXFU?oc=5
-5. **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — science angle
+3. **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0Foc3luZXc4MVpDNWR4Y25GVXVTLTlLdWtVQ3JDc21feTVmYlQ1Q3JuYzd2bG1BU1ZLbUZRbE5Da1l0bTg1Vy0zQlBPTmlKVlZqU3E2OXgwTXNCY0hxd3pZd2QyWktQN0pzR1hCM1BnRXZJak1lNmJPYjhZOVVMVTRXcjktNHFKSVRWZG8zWFo0QmM?oc=5
-6. **Chinese Doctors Outpace Global Peers in AI Adoption Amid Trust Concerns - Caixin Global** — science angle
+4. **Chinese Doctors Outpace Global Peers in AI Adoption Amid Trust Concerns - Caixin Global** — science angle
    https://news.google.com/rss/articles/CBMixAFBVV95cUxNN2ZRWS1hLXRlbDExcUVNSzB6SHEtUDZxaENDZ0p4WUFoRTFFSUlPOFctS3FQNDNzZml0WHN0aGNvRGFIQ0NDcXJ5N2lERW93VHVnOFMwOFRVSzJEYlMyTkNTS2VJbXJuc0dGeFZfN2F2bnVnNjYyZmxWMHMtMV81R0NQZ0xRdFNNcjR1MFB3ak4wVFh0N2RBcFhWb2dZa3hGRVhhaktCQ2RDR0lQQVNlMXFJQWQ4akMydXlLS0xwY3VST3dp?oc=5
-7. **New AI-based Method to Help Doctors Asses The Severity of Blood Cancer - Weill Cornell Medicine - Oncodaily** — science angle
+5. **New AI-based Method to Help Doctors Asses The Severity of Blood Cancer - Weill Cornell Medicine - Oncodaily** — science angle
    https://news.google.com/rss/articles/CBMia0FVX3lxTE85bF9TRkpCVWZnOUp5NlhhaXppSE9LV2R4YlNtMzJkZ1RicFpOWDRYajFSTC12MjRNVVBaTWktenlfdHpyLTlqcERmcmFFWjdZTzNXamgzblJsNjgtRE9SY19MYmZaNXpkdXpN?oc=5
-8. **AI errors shaped doctors’ decisions despite evidence – Spanish study - Juta MedicalBrief** — science angle
+6. **AI errors shaped doctors’ decisions despite evidence – Spanish study - Juta MedicalBrief** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxQUWhkZTVWTmUwSUcwMzlFZ1NYa015dEZBNHdWWjlPZFBDcUcwbjB0WEgtcjZCRU1pajc5dkgxWS02MDNiVnl0bW12b0E1RkFRU29JVmlURXVSR1llUnNGVEVadGFnUlQ2S3lfSnNRRWs5azJxc2JtdUJsbm1pOGZtcDY0aUFjbGJhckthTXBOQ1d0N2FyeUxzcmYzVS1adw?oc=5
+7. **I'm a doctor, I use AI every day, but it will never replace my clinical judgment - India Today** — science angle
+   https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd2hhUXpIem81akNfWnpFLU1ENmR0cE82dnY4NjhaVnpZNzFzT2hveWZrZ3ZYRVM0YVJwZ0NZWm1ySVZOX0t2UGd3eDZvQ3c3VWdiUjRabDBIbnV0dkFlYXdiOV9Nb3U4cEJ0V1NrczNmdVVjbkNZVG1qNkt2UG55QnlkME5sUjJmRmJIV0Y3eG5YSEJELS03MDA4WnV5SWFXYjM2aEFtRWlrRzdYejhNOHZFOEFMUFNtM1M1OEpqZTVqMUswVGlvX1U0STg2Rkpx?oc=5
+8. **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — science angle
+   https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -39,22 +39,22 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
 7. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 63.4
    https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
-8. **Satya Nadella says Anthropic’s Claude Fable restrictions ‘don’t make sense’ - The Indian Express** — Satya Nadella News — Score 53
+8. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 56
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
+9. **Satya Nadella says Anthropic’s Claude Fable restrictions ‘don’t make sense’ - The Indian Express** — Satya Nadella News — Score 53
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNY2w2QTN2c09Rcngwc1NueVRaNC1DaWNHMl9abTd6Uk9rdDNTVnctcnFOTlI4RF9hdHVEN2hISzR3SkZRNnJaZ2t3VXBhYmQtcm9fMFZNWUdCUzAtZ3BvcEtOVzVLdlhmRzJZNGp1Sl9YeG9sT0FqS1NmS0NiX29xWFBnMUZYTC1yeE5oeUktOVk4M2RKUUU4ZWdxQVZseGlmUEhMYWZkQ255WmtMZnZXcnBEMUIwVUx6Z3BiNnJlamRYVm1OZFJv0gHOAUFVX3lxTE5tNXNvcUh0RHdhY2p3V19ZRjB6cVU3YTNmRmcwRHh3a2JVZmpxRHY4cUFSejZpcTlEb3B2anpGWThadTY5cllhRVZ6bXhMSEJpRkxmck5yc1RJc0RPLUFtSTBaMFFUdm5RM3czY3ZTRFJhQkw1M01iRnpUTGFKaWZuUHRLYjV0S042Vl90SjBUMEkyTjdESmFoU3FMVHJTSTZvMTF1TlRLcWp2MGtJOHpwVzE0RHZ4XzNTREQ5NTROSDVjZDROTTB4M3BKc2d3?oc=5
-9. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
+10. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
    https://news.google.com/rss/articles/CBMijwFBVV95cUxQTnJQS0ZMSWJyUmtaSFNycndKdzRBdEdlY1NyWllsYWtFa1RpeWZoWlFSSUxidVp4NDRKRE4zbUp5TUpyWHlMWmdTSnFOVWxfX0lPT0hXcWpLMVU2TXlQQUhEQXh6dUphS29keDdRV0FxZjZBTlJtZ3g5dHVwc0xQOW5YN1d4RkhNZXFJU2x4UQ?oc=5
-10. **Samsung in talks to invest in Mistral at €20bn valuation - Financial Times** — Mistral News — Score 53
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxNSHZBMHVqSjJtbmRuZmNla19IekFEUUpLT0xkWkNGdV9MbV9KUWxJUUdCNlpvSkx3MUdLWHkwckxrVUQ2YTVCRldybU80OGFWalM4emlieTFLRm5nUUFJZzgteHRXQVEzVTV5SXc3NUVlR05nUFRYNGh4bVVIb25Lamt6NjI?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
 - **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 - **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — https://www.nature.com/articles/d41586-026-02213-0
-- **AI helps Michigan doctors diagnose medical conditions, but worries linger - The Detroit News** — https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVXNFLWllRU13ODRSWjEybnlpV0RYUXlhcnBhak51WXB3MUx6SkpaZkJtX1NRWEdIaGFvazdBeVFRLTVMSEYycW9tbEV6RXhZVUQ1cUlwWXBEdE1YWlVrb1U5YXRRcjR4c1dlVnJjRkIxcHp2U0xyQk5XcktiRW9CaFR5NnlualBKMUpaTWhWQjBMNDJiLThrdGZTLXdwdDNqdERiMDl1eVM3MDhoeXB1UTlpV29xcTJrbGdDMXB6RWNIQ0FLQnVSQXZ1TmExVnBrMkpORU13QWtOZw?oc=5
-- **How McLaren is using AI to identify patients' risk for cardiovascular disease - The Detroit News** — https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMzIwYmdJQjd0NThWQU9uT2lSb1UtTlEyQXN6UElWRUZUZkI0SF9hVXRYSE9YU3ZFRVRmdHdhdFFOUGJxbVBocmpDOWR3LTN0NUMtb2g2VGQ0ZnNIOGFLZ3NtZjdDNzNUYkFvTGFfUnBETGVIWTFtcUJwT2lXZ1pWcGNUMmFQaTdYZ1JhRWd2UWZzUFFnQjQ0Q2dZTUpKVDhPUlFJOE51QTNfR1N5bjNIbkNza2FIVmxPUjh0SnZIQXZaZHBvdjUzaEFMSDFVcVBrLUUyVTZORjl6SXFU?oc=5
+- **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0Foc3luZXc4MVpDNWR4Y25GVXVTLTlLdWtVQ3JDc21feTVmYlQ1Q3JuYzd2bG1BU1ZLbUZRbE5Da1l0bTg1Vy0zQlBPTmlKVlZqU3E2OXgwTXNCY0hxd3pZd2QyWktQN0pzR1hCM1BnRXZJak1lNmJPYjhZOVVMVTRXcjktNHFKSVRWZG8zWFo0QmM?oc=5
+- **Chinese Doctors Outpace Global Peers in AI Adoption Amid Trust Concerns - Caixin Global** — https://news.google.com/rss/articles/CBMixAFBVV95cUxNN2ZRWS1hLXRlbDExcUVNSzB6SHEtUDZxaENDZ0p4WUFoRTFFSUlPOFctS3FQNDNzZml0WHN0aGNvRGFIQ0NDcXJ5N2lERW93VHVnOFMwOFRVSzJEYlMyTkNTS2VJbXJuc0dGeFZfN2F2bnVnNjYyZmxWMHMtMV81R0NQZ0xRdFNNcjR1MFB3ak4wVFh0N2RBcFhWb2dZa3hGRVhhaktCQ2RDR0lQQVNlMXFJQWQ4akMydXlLS0xwY3VST3dp?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3416
+- Total stories tracked: 3429
 - Most active topic: models
 - Busiest category: AI General News
 
