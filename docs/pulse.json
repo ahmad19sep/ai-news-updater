@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:34:37.865002+00:00",
+  "generated_at": "2026-07-23T19:47:27.008569+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,136 +9,37 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 42,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new image generation feature from ChatGPT.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy.",
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "You can use ChatGPT to create unique images for your projects.",
+      "linkedin_angle": "Learn how to leverage ChatGPT's image generation capabilities for your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation feature."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Marketing",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "A new feature from ChatGPT for work-related tasks.",
-      "audience_angle": "Get help with work tasks using ChatGPT Work.",
-      "linkedin_angle": "Discover how ChatGPT Work can boost your productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
         },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v3jq7l/started_letting_my_ai_handle_work_messages_my/",
-          "signal": "Started letting my AI handle work messages, my boss is catching on"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with ChatGPT Work",
-        "ChatGPT Work Tutorial: Boosting Productivity",
-        "How ChatGPT Work Can Change Your Professional Life"
-      ]
-    },
-    {
-      "name": "Gemini AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "A new AI model from Google.",
-      "audience_angle": "Explore the capabilities of Gemini AI.",
-      "linkedin_angle": "Discover how Gemini AI can enhance your business operations.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-          "signal": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nSkKVwwv0iM",
-          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just Gemini AI Full Tutorial (FREE 2026)"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Gemini AI: Features and Capabilities",
-        "Gemini AI vs ChatGPT: Which is Better?",
-        "The Future of AI: Gemini AI and Its Implications"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to generate videos.",
-      "audience_angle": "Create stunning videos with AI.",
-      "linkedin_angle": "Explore how AI video generation can enhance your marketing strategy.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Affiliate programs available for AI video generation tools."
-      },
-      "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
@@ -146,190 +47,159 @@
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI-Generated Videos",
-        "AI Video Generation Tutorial: Creating Stunning Videos",
-        "The Future of Video Creation: AI-Generated Videos"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Content Creators",
+        "Using ChatGPT to Generate Images for Your Business"
       ]
     },
     {
-      "name": "AI for Business",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Using AI for business operations.",
-      "audience_angle": "Discover how AI can enhance your business.",
-      "linkedin_angle": "Explore how AI can boost your business productivity.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Affiliate programs available for AI business tools."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-          "signal": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
-          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI for Business: A Beginner's Guide",
-        "AI for Business: Boosting Productivity and Efficiency",
-        "The Future of Business: AI and Its Implications"
-      ]
-    },
-    {
-      "name": "ChatGPT vs Gemini",
-      "category": "debate",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Comparing ChatGPT and Gemini AI models.",
-      "audience_angle": "Which AI model is better: ChatGPT or Gemini?",
-      "linkedin_angle": "Explore the differences between ChatGPT and Gemini AI models.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://fireworks.ai/blog/kimik3-fable",
-          "signal": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
-          "signal": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok"
-        }
-      ],
-      "content_ideas": [
-        "ChatGPT vs Gemini: Which AI Model is Better?",
-        "Comparing ChatGPT and Gemini: Features and Capabilities",
-        "The Future of AI: ChatGPT vs Gemini"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new image generation feature from ChatGPT.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Marketing",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
-      ]
-    },
-    {
-      "name": "Gemini AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "A new AI model from Google.",
-      "audience_angle": "Explore the capabilities of Gemini AI.",
-      "linkedin_angle": "Discover how Gemini AI can enhance your business operations.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-          "signal": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nSkKVwwv0iM",
-          "signal": "Long AI Video Kaise Banaye (15 Min) Using Just Gemini AI Full Tutorial (FREE 2026)"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Gemini AI: Features and Capabilities",
-        "Gemini AI vs ChatGPT: Which is Better?",
-        "The Future of AI: Gemini AI and Its Implications"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
+      "name": "AI Video Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
         "reddit"
       ],
-      "what_it_is": "A new feature from ChatGPT for work-related tasks.",
-      "audience_angle": "Get help with work tasks using ChatGPT Work.",
-      "linkedin_angle": "Discover how ChatGPT Work can boost your productivity.",
-      "local_relevance": 8,
+      "what_it_is": "AI can generate videos based on user input.",
+      "audience_angle": "You can use AI to create engaging videos for your audience.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+          "url": "https://www.youtube.com/watch?v=saSgD2_25C8",
+          "signal": "Free Long Ai Video Generator ai video kaise banaye | text to video ai free | image to video"
         },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4lxhm/i_asked_gpt_to_create_an_uncanny_image_from/",
+          "signal": "I asked ChatGPT to create an uncanny image from the deepest corner of its mind"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Viral AI Videos",
+        "AI Video Generation: The Future of Content Creation",
+        "Using AI to Generate Videos for Your Business"
+      ]
+    },
+    {
+      "name": "ChatGPT for Business",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "ChatGPT can be used for various business purposes, such as customer support and content generation.",
+      "audience_angle": "You can use ChatGPT to streamline your business operations and improve customer engagement.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for your business and stay ahead of the competition.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its business features."
+      },
+      "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v3jq7l/started_letting_my_ai_handle_work_messages_my/",
           "signal": "Started letting my AI handle work messages, my boss is catching on"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49024620",
+          "signal": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Work",
-        "ChatGPT Work Tutorial: Boosting Productivity",
-        "How ChatGPT Work Can Change Your Professional Life"
+        "How to Use ChatGPT for Your Business",
+        "ChatGPT for Business: A Guide to Getting Started",
+        "Using ChatGPT to Automate Business Tasks"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "You can use ChatGPT to create unique images for your projects.",
+      "linkedin_angle": "Learn how to leverage ChatGPT's image generation capabilities for your business.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation feature."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video 2026"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Content Creators",
+        "Using ChatGPT to Generate Images for Your Business"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "reddit"
+      ],
+      "what_it_is": "AI can generate videos based on user input.",
+      "audience_angle": "You can use AI to create engaging videos for your audience.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=saSgD2_25C8",
+          "signal": "Free Long Ai Video Generator ai video kaise banaye | text to video ai free | image to video"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4lxhm/i_asked_gpt_to_create_an_uncanny_image_from/",
+          "signal": "I asked ChatGPT to create an uncanny image from the deepest corner of its mind"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Viral AI Videos",
+        "AI Video Generation: The Future of Content Creation",
+        "Using AI to Generate Videos for Your Business"
       ]
     }
   ],
@@ -341,14 +211,14 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4dsbi/you_have_been_reported_to_the_fbi/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4jejs/cant_upload_files_in_chatgpt_plus/"
         }
       ],
       "content_opportunity": "How to Overcome ChatGPT Usage Limits"
     },
     {
-      "problem": "AI-generated content quality",
-      "who_affected": "Content creators",
+      "problem": "AI video generation quality issues",
+      "who_affected": "AI video generation users",
       "signal_strength": 5,
       "sources": [
         {
@@ -356,8 +226,8 @@
           "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs"
         }
       ],
-      "content_opportunity": "Tips for Improving AI-Generated Content Quality"
+      "content_opportunity": "Tips for Improving AI Video Generation Quality"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Work"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
