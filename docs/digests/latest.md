@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.nature.com/articles/d41586-026-02214-z
 5. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-6. **Mayo Clinic tests AI Record Time to speed chart review and boost patient care - Межа. Новини України.** — science angle
-   https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sUUdGbDgyTmdTaWttVVRyS2l1MnZZaVFtWW9fTVU2T2p2b1JncHk4R0V2QjVIM0JZTGRiY1dDZmUyOVVjYVVjUWpKb2hNUHNEdUxrTzQ2NDl4ajR6ZVpYX0E1UTBwdw?oc=5
-7. **Americans can’t afford to see a doctor - and are turning to AI chatbots to fill the void - The Independent** — science angle
+6. **Americans can’t afford to see a doctor - and are turning to AI chatbots to fill the void - The Independent** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxQNHZqRkF3dFhMVUI1RWZQZi1tYld3Q09DUEYyYldmYXFRTENlaW5LWElpSzNDZnNtUFhOdVVRRFBKVTlNTDRidHBpRWRRUmxVVTZuMUh1ZUdTV1NzVkd2NmRPZ3JtelA4ejFCd3NpbWl1c2NNUHZ5SDlPbExPTWItQVFUSUhpTC1hLWhxNG9mRENtVl9qWlFOTDF0elE?oc=5
-8. **London doctor’s AI app helps patients remember medical visits - London Free Press** — science angle
+7. **London doctor’s AI app helps patients remember medical visits - London Free Press** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOeEZFWVBza2FTRDllY1FYX055NGlWV2ZpaTFYb19aRV93UGRXU3FXZEZna2ZtdjZKVGFSU1ZBQ1U5bkx5WWdJZmJrakRsTGxvakpoOWplOV9za0prMkgyMV85bHNvR25abGtDcFphTkVLa2Z5TG8wV0FvQUZmSkhFNXMtV0E1eHVoZktmZGE4bkI3UWY0c2RGVzVaZ2o?oc=5
+8. **Can AI help doctors have difficult conversations with dying patients? - Northeastern Global News** — science angle
+   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSXFZbGJ6bzNHVnVPNi1sRnlUNzgyLXl0TmJ3SmJlM0RRaUNxLTZISVh5dmxkVVM1TnZLNDVKZS1FUFpQTHFrY0RzTXpLQkR6TlE3Q05lMEV6eUR5QzAzTV9NbDVxUWhiM2xmdWhkai11aTRsd190S3g0bC1rQ2ZyV2FtR3RfTlhnS1dR?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 246
@@ -31,16 +31,16 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMizgFBVV95cUxPdkZCUUFZUElSM0laM3hIYy1sTXlrcy1ENXhJY1VLc3hpS1VfUG1vVEdvVGc0SkJGVHVHdXBCZUtSUGdkNnBfRVFKeGt3c1puX2tpSXpVb0lwOUY4ZmR5bUU4Wlk4a2l1aXUwUkVVUmZPTTZiOXAtdU5EdG9fUmNqRkp4VmVvTWpYSTBDZ3pUMHYzZ0pRak5ZYVNpRVBBZHNxb3FYVEVkVFFGU1BISGdqODRMSkI1c3pDNTFYVXNYLUJNdHBQR1k2SkZ6U1VQdw?oc=5
 3. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 93
    https://www.newstimes.com/sports/article/mlb-restricts-dugout-ipad-use-to-prevent-use-of-22349680.php
-4. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 66
+4. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 76
    https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
-5. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 66
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
-6. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 63.4
-   https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
-7. **AI chatbots are at risk of spreading government restrictions on online speech** — Hacker News new — Score 63.0
-   https://www.msn.com/en-us/news/world/ai-chatbots-are-at-risk-of-spreading-government-restrictions-on-online-speech-a-new-study-says/ar-AA281O6G
-8. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 61
+5. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 71
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
+6. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 66
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
+7. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 63.4
+   https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
+8. **AI chatbots are at risk of spreading government restrictions on online speech** — Hacker News new — Score 63.0
+   https://www.msn.com/en-us/news/world/ai-chatbots-are-at-risk-of-spreading-government-restrictions-on-online-speech-a-new-study-says/ar-AA281O6G
 9. **Satya Nadella says Anthropic’s Claude Fable restrictions ‘don’t make sense’ - The Indian Express** — Satya Nadella News — Score 53
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNY2w2QTN2c09Rcngwc1NueVRaNC1DaWNHMl9abTd6Uk9rdDNTVnctcnFOTlI4RF9hdHVEN2hISzR3SkZRNnJaZ2t3VXBhYmQtcm9fMFZNWUdCUzAtZ3BvcEtOVzVLdlhmRzJZNGp1Sl9YeG9sT0FqS1NmS0NiX29xWFBnMUZYTC1yeE5oeUktOVk4M2RKUUU4ZWdxQVZseGlmUEhMYWZkQ255WmtMZnZXcnBEMUIwVUx6Z3BiNnJlamRYVm1OZFJv0gHOAUFVX3lxTE5tNXNvcUh0RHdhY2p3V19ZRjB6cVU3YTNmRmcwRHh3a2JVZmpxRHY4cUFSejZpcTlEb3B2anpGWThadTY5cllhRVZ6bXhMSEJpRkxmck5yc1RJc0RPLUFtSTBaMFFUdm5RM3czY3ZTRFJhQkw1M01iRnpUTGFKaWZuUHRLYjV0S042Vl90SjBUMEkyTjdESmFoU3FMVHJTSTZvMTF1TlRLcWp2MGtJOHpwVzE0RHZ4XzNTREQ5NTROSDVjZDROTTB4M3BKc2d3?oc=5
 10. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — https://www.nature.com/articles/d41586-026-02214-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3524
+- Total stories tracked: 3439
 - Most active topic: models
 - Busiest category: AI General News
 
