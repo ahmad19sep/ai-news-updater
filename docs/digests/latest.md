@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.nature.com/articles/d41586-026-02214-z
 5. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-6. **London doctor’s AI app helps patients remember medical visits - London Free Press** — science angle
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxOeEZFWVBza2FTRDllY1FYX055NGlWV2ZpaTFYb19aRV93UGRXU3FXZEZna2ZtdjZKVGFSU1ZBQ1U5bkx5WWdJZmJrakRsTGxvakpoOWplOV9za0prMkgyMV85bHNvR25abGtDcFphTkVLa2Z5TG8wV0FvQUZmSkhFNXMtV0E1eHVoZktmZGE4bkI3UWY0c2RGVzVaZ2o?oc=5
-7. **Can AI help doctors have difficult conversations with dying patients? - Northeastern Global News** — science angle
-   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSXFZbGJ6bzNHVnVPNi1sRnlUNzgyLXl0TmJ3SmJlM0RRaUNxLTZISVh5dmxkVVM1TnZLNDVKZS1FUFpQTHFrY0RzTXpLQkR6TlE3Q05lMEV6eUR5QzAzTV9NbDVxUWhiM2xmdWhkai11aTRsd190S3g0bC1rQ2ZyV2FtR3RfTlhnS1dR?oc=5
-8. **AI helps Michigan doctors diagnose medical conditions, but worries linger - The Detroit News** — science angle
+6. **AI helps Michigan doctors diagnose medical conditions, but worries linger - The Detroit News** — science angle
    https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVXNFLWllRU13ODRSWjEybnlpV0RYUXlhcnBhak51WXB3MUx6SkpaZkJtX1NRWEdIaGFvazdBeVFRLTVMSEYycW9tbEV6RXhZVUQ1cUlwWXBEdE1YWlVrb1U5YXRRcjR4c1dlVnJjRkIxcHp2U0xyQk5XcktiRW9CaFR5NnlualBKMUpaTWhWQjBMNDJiLThrdGZTLXdwdDNqdERiMDl1eVM3MDhoeXB1UTlpV29xcTJrbGdDMXB6RWNIQ0FLQnVSQXZ1TmExVnBrMkpORU13QWtOZw?oc=5
+7. **How McLaren is using AI to identify patients' risk for cardiovascular disease - The Detroit News** — science angle
+   https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMzIwYmdJQjd0NThWQU9uT2lSb1UtTlEyQXN6UElWRUZUZkI0SF9hVXRYSE9YU3ZFRVRmdHdhdFFOUGJxbVBocmpDOWR3LTN0NUMtb2g2VGQ0ZnNIOGFLZ3NtZjdDNzNUYkFvTGFfUnBETGVIWTFtcUJwT2lXZ1pWcGNUMmFQaTdYZ1JhRWd2UWZzUFFnQjQ0Q2dZTUpKVDhPUlFJOE51QTNfR1N5bjNIbkNza2FIVmxPUjh0SnZIQXZaZHBvdjUzaEFMSDFVcVBrLUUyVTZORjl6SXFU?oc=5
+8. **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — science angle
+   https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0Foc3luZXc4MVpDNWR4Y25GVXVTLTlLdWtVQ3JDc21feTVmYlQ1Q3JuYzd2bG1BU1ZLbUZRbE5Da1l0bTg1Vy0zQlBPTmlKVlZqU3E2OXgwTXNCY0hxd3pZd2QyWktQN0pzR1hCM1BnRXZJak1lNmJPYjhZOVVMVTRXcjktNHFKSVRWZG8zWFo0QmM?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 256
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI is set to completely transform cybersecurity — here’s how researchers must prepare** — https://www.nature.com/articles/d41586-026-02214-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3429
+- Total stories tracked: 3442
 - Most active topic: models
 - Busiest category: AI General News
 
