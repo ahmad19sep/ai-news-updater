@@ -13,8 +13,8 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
 3. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-4. **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — science angle
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0Foc3luZXc4MVpDNWR4Y25GVXVTLTlLdWtVQ3JDc21feTVmYlQ1Q3JuYzd2bG1BU1ZLbUZRbE5Da1l0bTg1Vy0zQlBPTmlKVlZqU3E2OXgwTXNCY0hxd3pZd2QyWktQN0pzR1hCM1BnRXZJak1lNmJPYjhZOVVMVTRXcjktNHFKSVRWZG8zWFo0QmM?oc=5
+4. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
+   https://text.npr.org/g-s1-134929
 5. **New AI-based Method to Help Doctors Asses The Severity of Blood Cancer - Weill Cornell Medicine - Oncodaily** — science angle
    https://news.google.com/rss/articles/CBMia0FVX3lxTE85bF9TRkpCVWZnOUp5NlhhaXppSE9LV2R4YlNtMzJkZ1RicFpOWDRYajFSTC12MjRNVVBaTWktenlfdHpyLTlqcERmcmFFWjdZTzNXamgzblJsNjgtRE9SY19MYmZaNXpkdXpN?oc=5
 6. **AI errors shaped doctors’ decisions despite evidence – Spanish study - Juta MedicalBrief** — science angle
@@ -37,24 +37,24 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
 6. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 66
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
-7. **Xi pitches China as leader of new global AI order, challenging US dominance** — Hacker News new — Score 63.4
-   https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
-8. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 56
+7. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 56
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
-9. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
+8. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
    https://news.google.com/rss/articles/CBMijwFBVV95cUxQTnJQS0ZMSWJyUmtaSFNycndKdzRBdEdlY1NyWllsYWtFa1RpeWZoWlFSSUxidVp4NDRKRE4zbUp5TUpyWHlMWmdTSnFOVWxfX0lPT0hXcWpLMVU2TXlQQUhEQXh6dUphS29keDdRV0FxZjZBTlJtZ3g5dHVwc0xQOW5YN1d4RkhNZXFJU2x4UQ?oc=5
-10. **PathFinder Raises Multi-Million Dollar Angel Round to Launch BirdieSense, a Next-Generation Sports AI Agent - Morningstar** — AI Agents — Score 51
+9. **PathFinder Raises Multi-Million Dollar Angel Round to Launch BirdieSense, a Next-Generation Sports AI Agent - Morningstar** — AI Agents — Score 51
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWlk0X0FPMHpLTWZJRjNXZTZZM3lSd1U5bzhyc21iZndld3k5bzZ2dTRJV3RrWUl6SHQwVnE0OFc4SEJiSUd6YlR1OVhpS05YQzQta2E5dHlkcFVCUmYxbVgxdmxobXNiTlVsTGhJcGJRMTBQWUNqRndZSjljOEY2d3kycE9NRXhtZEtldjc5Qlhucl9PY2xLaldjR18za3hJT0JoUzBHa1Z4azY4Mndmb0dkSG9LaXpjWnV3TVdIRXNSTTQ3c0dQNzNkdU5OTG4tUUZtMlVOUW04Sm5uU29OQ1NUQ1liekMzMnFibE85a3drT2pOakJDejRFMzA?oc=5
+10. **AXA rolls out Microsoft 365 Copilot to employees worldwide - Insurance Business** — Microsoft AI — Score 50
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxQdzgtcXVVVnJIOVZFcUhiTW1HaHVCNWNRNWM1R1llS09wQlE0bDJGNFp1RWcxMWFqdkVKMVUtdk1wMEptTWhRSWV6em5LR2UtOGxMMVVjSHNOYndoNUR6WnpZcWpvT0pidjlQNHRyUll3bWExYVgzVWR4X0FPbXBxeUtOckplMVloNjlJR0NOMGQ1TXRNRC1iaHNGcWRrdGNPbExxOFBWcFl4M3gxWWI0MGRwR2lCcjhhSE9OSVR3?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 - **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
 - **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 - **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — https://www.nature.com/articles/d41586-026-02213-0
-- **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0Foc3luZXc4MVpDNWR4Y25GVXVTLTlLdWtVQ3JDc21feTVmYlQ1Q3JuYzd2bG1BU1ZLbUZRbE5Da1l0bTg1Vy0zQlBPTmlKVlZqU3E2OXgwTXNCY0hxd3pZd2QyWktQN0pzR1hCM1BnRXZJak1lNmJPYjhZOVVMVTRXcjktNHFKSVRWZG8zWFo0QmM?oc=5
+- **AI tool may help doctors, but sample size too small** — https://text.npr.org/g-s1-134929
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3440
+- Total stories tracked: 3447
 - Most active topic: models
 - Busiest category: AI General News
 
