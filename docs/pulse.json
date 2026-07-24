@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T19:47:27.008569+00:00",
+  "generated_at": "2026-07-24T03:46:13.322958+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 38,
+      "reddit": 50,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -18,21 +18,21 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "You can use ChatGPT to create unique images for your projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT's image generation capabilities for your business.",
+      "audience_angle": "You can use ChatGPT to create unique images for your social media or personal projects.",
+      "linkedin_angle": "Explore how ChatGPT image generation can enhance your professional branding and marketing efforts.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -48,82 +48,76 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Content Creators",
-        "Using ChatGPT to Generate Images for Your Business"
+        "ChatGPT Image Generation: A Game-Changer for Social Media",
+        "Using ChatGPT for Personalized Image Creation"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "AI Video Creation",
+      "category": "technique",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI can generate videos based on user input.",
-      "audience_angle": "You can use AI to create engaging videos for your audience.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
+      "what_it_is": "AI can be used to create videos based on text prompts or other inputs.",
+      "audience_angle": "You can leverage AI to produce high-quality videos for your business or personal projects without extensive video production experience.",
+      "linkedin_angle": "Discover how AI video creation can streamline your content marketing strategy and enhance your professional online presence.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
+        "note": "Several AI video creation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=saSgD2_25C8",
-          "signal": "Free Long Ai Video Generator ai video kaise banaye | text to video ai free | image to video"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4lxhm/i_asked_gpt_to_create_an_uncanny_image_from/",
-          "signal": "I asked ChatGPT to create an uncanny image from the deepest corner of its mind"
+          "url": "https://www.youtube.com/watch?v=xpHmIfpaqlA",
+          "signal": "Make Long AI Videos FREE One Click, Voice + Lip Sync AI Video kaise banaye FREE AI Video Generator"
         }
       ],
       "content_ideas": [
-        "How to Create Viral AI Videos",
-        "AI Video Generation: The Future of Content Creation",
-        "Using AI to Generate Videos for Your Business"
+        "AI Video Creation for Beginners: A Step-by-Step Guide",
+        "How AI is Revolutionizing Video Production",
+        "Monetizing AI-Generated Videos: Opportunities and Challenges"
       ]
     },
     {
-      "name": "ChatGPT for Business",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
         "reddit",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT can be used for various business purposes, such as customer support and content generation.",
-      "audience_angle": "You can use ChatGPT to streamline your business operations and improve customer engagement.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for your business and stay ahead of the competition.",
+      "what_it_is": "ChatGPT Work is a tool designed to help users automate tasks and workflows.",
+      "audience_angle": "You can use ChatGPT Work to streamline your workflow, increase productivity, and focus on high-priority tasks.",
+      "linkedin_angle": "Explore how ChatGPT Work can enhance your professional productivity and efficiency.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its business features."
+        "note": "ChatGPT Work has an affiliate program for its automation tools."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v3jq7l/started_letting_my_ai_handle_work_messages_my/",
-          "signal": "Started letting my AI handle work messages, my boss is catching on"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4q2rl/anyone_still_using_voice_chat/",
+          "signal": "Anyone still using voice chat?"
         },
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49024620",
-          "signal": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xuOfIxvbOBY",
+          "signal": "ChatGPT Work Just Changed Everything.. Try These New Automations First!"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Your Business",
-        "ChatGPT for Business: A Guide to Getting Started",
-        "Using ChatGPT to Automate Business Tasks"
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "How ChatGPT Work Can Revolutionize Your Workflow",
+        "Advanced Automation Techniques with ChatGPT Work"
       ]
     }
   ],
@@ -131,21 +125,21 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "You can use ChatGPT to create unique images for your projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT's image generation capabilities for your business.",
+      "audience_angle": "You can use ChatGPT to create unique images for your social media or personal projects.",
+      "linkedin_angle": "Explore how ChatGPT image generation can enhance your professional branding and marketing efforts.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -161,72 +155,60 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Content Creators",
-        "Using ChatGPT to Generate Images for Your Business"
+        "ChatGPT Image Generation: A Game-Changer for Social Media",
+        "Using ChatGPT for Personalized Image Creation"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "AI can generate videos based on user input.",
-      "audience_angle": "You can use AI to create engaging videos for your audience.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT Work is a tool designed to help users automate tasks and workflows.",
+      "audience_angle": "You can use ChatGPT Work to streamline your workflow, increase productivity, and focus on high-priority tasks.",
+      "linkedin_angle": "Explore how ChatGPT Work can enhance your professional productivity and efficiency.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
+        "note": "ChatGPT Work has an affiliate program for its automation tools."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=saSgD2_25C8",
-          "signal": "Free Long Ai Video Generator ai video kaise banaye | text to video ai free | image to video"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4q2rl/anyone_still_using_voice_chat/",
+          "signal": "Anyone still using voice chat?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4lxhm/i_asked_gpt_to_create_an_uncanny_image_from/",
-          "signal": "I asked ChatGPT to create an uncanny image from the deepest corner of its mind"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xuOfIxvbOBY",
+          "signal": "ChatGPT Work Just Changed Everything.. Try These New Automations First!"
         }
       ],
       "content_ideas": [
-        "How to Create Viral AI Videos",
-        "AI Video Generation: The Future of Content Creation",
-        "Using AI to Generate Videos for Your Business"
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "How ChatGPT Work Can Revolutionize Your Workflow",
+        "Advanced Automation Techniques with ChatGPT Work"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "problem": "ChatGPT usage limits and costs",
+      "who_affected": "Individual users and small businesses",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4jejs/cant_upload_files_in_chatgpt_plus/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v4dr5l/ive_been_measuring_my_100_pro_lite_weekly_limit/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
-    },
-    {
-      "problem": "AI video generation quality issues",
-      "who_affected": "AI video generation users",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs"
-        }
-      ],
-      "content_opportunity": "Tips for Improving AI Video Generation Quality"
+      "content_opportunity": "Exploring Affordable Alternatives to ChatGPT for Individuals and Small Businesses"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
