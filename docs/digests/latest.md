@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMijwFBVV95cUxQTnJQS0ZMSWJyUmtaSFNycndKdzRBdEdlY1NyWllsYWtFa1RpeWZoWlFSSUxidVp4NDRKRE4zbUp5TUpyWHlMWmdTSnFOVWxfX0lPT0hXcWpLMVU2TXlQQUhEQXh6dUphS29keDdRV0FxZjZBTlJtZ3g5dHVwc0xQOW5YN1d4RkhNZXFJU2x4UQ?oc=5
 9. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
-10. **AXA rolls out Microsoft 365 Copilot to employees worldwide - Insurance Business** — Microsoft AI — Score 50
-   https://news.google.com/rss/articles/CBMivgFBVV95cUxQdzgtcXVVVnJIOVZFcUhiTW1HaHVCNWNRNWM1R1llS09wQlE0bDJGNFp1RWcxMWFqdkVKMVUtdk1wMEptTWhRSWV6em5LR2UtOGxMMVVjSHNOYndoNUR6WnpZcWpvT0pidjlQNHRyUll3bWExYVgzVWR4X0FPbXBxeUtOckplMVloNjlJR0NOMGQ1TXRNRC1iaHNGcWRrdGNPbExxOFBWcFl4M3gxWWI0MGRwR2lCcjhhSE9OSVR3?oc=5
+10. **Open Weights and American AI Leadership - Microsoft** — Microsoft AI — Score 53
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxQczZlRzdBN2sxLXp1U2Z6NnZ2elpFak1wSTUxOW5wbkNWdE5hWGp5WHJaSWJxR29rYnBXZ2hSWUNfMExHMi1Xc00zRXZJM0k3OTdhOGdDREhjYmdRR25SUUNTcGN3bXJBOVdadWtyXzRpdE9zWHlES3VNakFpbWpGb2x3?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI tool may help doctors, but sample size too small** — https://text.npr.org/g-s1-134929
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3467
+- Total stories tracked: 3485
 - Most active topic: models
 - Busiest category: AI General News
 
