@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.nature.com/articles/d41586-026-02213-0
 4. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
    https://text.npr.org/g-s1-134929
-5. **I'm a doctor, I use AI every day, but it will never replace my clinical judgment - India Today** — science angle
-   https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd2hhUXpIem81akNfWnpFLU1ENmR0cE82dnY4NjhaVnpZNzFzT2hveWZrZ3ZYRVM0YVJwZ0NZWm1ySVZOX0t2UGd3eDZvQ3c3VWdiUjRabDBIbnV0dkFlYXdiOV9Nb3U4cEJ0V1NrczNmdVVjbkNZVG1qNkt2UG55QnlkME5sUjJmRmJIV0Y3eG5YSEJELS03MDA4WnV5SWFXYjM2aEFtRWlrRzdYejhNOHZFOEFMUFNtM1M1OEpqZTVqMUswVGlvX1U0STg2Rkpx?oc=5
-6. **Medical AI Privacy Study Finds Uneven Patient Risks - Telehealth.org** — science angle
+5. **Medical AI Privacy Study Finds Uneven Patient Risks - Telehealth.org** — science angle
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPbUFJRHI0U0ZpNmdZdEZ5THVxSUZtTHRBNm1UaXFrcXdOclY3cDhzeXdRd3J1UUVSaExhLUVrTHlDM3UzNjNPTGZpcEdiM0t2alAzYk0wSjhhMHI2VkZYcW4yWUYyZTdaSmluVUZNTXBpVDhVUVJSZFBleDlWWHktVV80RVF3TmNkc19HV0p6UWxEQy1lMXo4YVkycjVSaWJkcWMxazZUREwxRm14?oc=5
-7. **Patients trust AI almost as much as their doctors — and the system isn't built for that - Medical Economics** — science angle
+6. **Patients trust AI almost as much as their doctors — and the system isn't built for that - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWUJpQWtjcXVVUjBNV1FYOHRicVFqVnRBZUFwZFZzTmVWNXZweS1zNElQVnA5Q2k3YmVCS19INzcxV1laMVVHTTFnN05qUXpKME5sT2VQTnNlb2NZSk9oRC1WdGtYVTNQNzAwcUctMF9IM29tUzg3b25fSlYyNGliUGp4U2tMU1k2YTQxTy1KcTRVVnlQNGFKb3ljR3RaeGNDd21SWnNMU0Jwcmw4TVpjNm9YVVN2VFdhOXAtb3Y1YmU?oc=5
-8. **Google AI Outdiagnoses Doctors in Study of Nearly 14,000 Real Patients - Tech Times** — science angle
+7. **Google AI Outdiagnoses Doctors in Study of Nearly 14,000 Real Patients - Tech Times** — science angle
    https://news.google.com/rss/articles/CBMiugFBVV95cUxOckc4dzZQQlUtNGk0X1hDRHQ1c1l6Z1FWcGxCclVwT3FNYmZsNWZqNlVjQXB0dVNhR2ZEazkxcEJORThVbHZtYUJNVHFmd19DX3pOWmFMZk5oanZtOFJxZVlxVUFjSnd1bFFCRklKVEQ1TzdSYklNazJMTVFxaWwyNld6cG40TEZFUFdycG9kdUVsQjlnV1NKSzgydHhab2dZVjVOdzVHcU83Und6Rko1NzFXcHFfS0UwNFE?oc=5
+8. **ChatGPT wants access to your health records so it can be a better not-doctor - The Register** — science angle
+   https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3RQQjdQVWpubF84RUpnMjB2UGh1OUxIUWFwRjdvNElPajhET05FU3JQbjFEY2phU0c4SUE2RkVPalVnRFFocEZlN2loRTczV2szcXZmeU9YMGtUX3JCeW1kVDVUekRXSTRCQWNlRHI0aExVdjA5ZmtWM2ktOWdLSFBiVl9JZHRHcUd3QWc5YV84QW53X3RzUWRVQU5RUEVNdU0zaDRGMkp3ZFNqcDNtYS14RHBRckdPRkpLZnpSdWtwM0tka0JpUGg0Unc2QQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI tool may help doctors, but sample size too small** — https://text.npr.org/g-s1-134929
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3494
+- Total stories tracked: 3486
 - Most active topic: models
 - Busiest category: AI General News
 
