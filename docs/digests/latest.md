@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.nature.com/articles/d41586-026-02213-0
 4. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
    https://text.npr.org/g-s1-134929
-5. **New AI-based Method to Help Doctors Asses The Severity of Blood Cancer - Weill Cornell Medicine - Oncodaily** — science angle
-   https://news.google.com/rss/articles/CBMia0FVX3lxTE85bF9TRkpCVWZnOUp5NlhhaXppSE9LV2R4YlNtMzJkZ1RicFpOWDRYajFSTC12MjRNVVBaTWktenlfdHpyLTlqcERmcmFFWjdZTzNXamgzblJsNjgtRE9SY19MYmZaNXpkdXpN?oc=5
-6. **I'm a doctor, I use AI every day, but it will never replace my clinical judgment - India Today** — science angle
+5. **I'm a doctor, I use AI every day, but it will never replace my clinical judgment - India Today** — science angle
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd2hhUXpIem81akNfWnpFLU1ENmR0cE82dnY4NjhaVnpZNzFzT2hveWZrZ3ZYRVM0YVJwZ0NZWm1ySVZOX0t2UGd3eDZvQ3c3VWdiUjRabDBIbnV0dkFlYXdiOV9Nb3U4cEJ0V1NrczNmdVVjbkNZVG1qNkt2UG55QnlkME5sUjJmRmJIV0Y3eG5YSEJELS03MDA4WnV5SWFXYjM2aEFtRWlrRzdYejhNOHZFOEFMUFNtM1M1OEpqZTVqMUswVGlvX1U0STg2Rkpx?oc=5
-7. **Medical AI Privacy Study Finds Uneven Patient Risks - Telehealth.org** — science angle
+6. **Medical AI Privacy Study Finds Uneven Patient Risks - Telehealth.org** — science angle
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPbUFJRHI0U0ZpNmdZdEZ5THVxSUZtTHRBNm1UaXFrcXdOclY3cDhzeXdRd3J1UUVSaExhLUVrTHlDM3UzNjNPTGZpcEdiM0t2alAzYk0wSjhhMHI2VkZYcW4yWUYyZTdaSmluVUZNTXBpVDhVUVJSZFBleDlWWHktVV80RVF3TmNkc19HV0p6UWxEQy1lMXo4YVkycjVSaWJkcWMxazZUREwxRm14?oc=5
-8. **Patients trust AI almost as much as their doctors — and the system isn't built for that - Medical Economics** — science angle
+7. **Patients trust AI almost as much as their doctors — and the system isn't built for that - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWUJpQWtjcXVVUjBNV1FYOHRicVFqVnRBZUFwZFZzTmVWNXZweS1zNElQVnA5Q2k3YmVCS19INzcxV1laMVVHTTFnN05qUXpKME5sT2VQTnNlb2NZSk9oRC1WdGtYVTNQNzAwcUctMF9IM29tUzg3b25fSlYyNGliUGp4U2tMU1k2YTQxTy1KcTRVVnlQNGFKb3ljR3RaeGNDd21SWnNMU0Jwcmw4TVpjNm9YVVN2VFdhOXAtb3Y1YmU?oc=5
+8. **Google AI Outdiagnoses Doctors in Study of Nearly 14,000 Real Patients - Tech Times** — science angle
+   https://news.google.com/rss/articles/CBMiugFBVV95cUxOckc4dzZQQlUtNGk0X1hDRHQ1c1l6Z1FWcGxCclVwT3FNYmZsNWZqNlVjQXB0dVNhR2ZEazkxcEJORThVbHZtYUJNVHFmd19DX3pOWmFMZk5oanZtOFJxZVlxVUFjSnd1bFFCRklKVEQ1TzdSYklNazJMTVFxaWwyNld6cG40TEZFUFdycG9kdUVsQjlnV1NKSzgydHhab2dZVjVOdzVHcU83Und6Rko1NzFXcHFfS0UwNFE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
 6. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 63
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
-7. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 56
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
+7. **ChatGPTDeutsch.info expands German-language AI platform with no-registration browser access** — openpr — Score 56
+   https://www.openpr.com/news/4585492/chatgptdeutsch-info-expands-german-language-ai-platform-with
 8. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
    https://news.google.com/rss/articles/CBMijwFBVV95cUxQTnJQS0ZMSWJyUmtaSFNycndKdzRBdEdlY1NyWllsYWtFa1RpeWZoWlFSSUxidVp4NDRKRE4zbUp5TUpyWHlMWmdTSnFOVWxfX0lPT0hXcWpLMVU2TXlQQUhEQXh6dUphS29keDdRV0FxZjZBTlJtZ3g5dHVwc0xQOW5YN1d4RkhNZXFJU2x4UQ?oc=5
-9. **AXA rolls out Microsoft 365 Copilot to employees worldwide - Insurance Business** — Microsoft AI — Score 50
+9. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
+10. **AXA rolls out Microsoft 365 Copilot to employees worldwide - Insurance Business** — Microsoft AI — Score 50
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQdzgtcXVVVnJIOVZFcUhiTW1HaHVCNWNRNWM1R1llS09wQlE0bDJGNFp1RWcxMWFqdkVKMVUtdk1wMEptTWhRSWV6em5LR2UtOGxMMVVjSHNOYndoNUR6WnpZcWpvT0pidjlQNHRyUll3bWExYVgzVWR4X0FPbXBxeUtOckplMVloNjlJR0NOMGQ1TXRNRC1iaHNGcWRrdGNPbExxOFBWcFl4M3gxWWI0MGRwR2lCcjhhSE9OSVR3?oc=5
-10. **Microsoft strikes deal for Mistral's AI computing power - RTL Today** — Mistral News — Score 50
-   https://news.google.com/rss/articles/CBMingFBVV95cUxQdDUzZHNsRXppWllUbGFvSm5pU3lZWFc1OUp2bFJOY3pXanNDNGhLdjhUbk93ZHpONUVpa0I4UEI0N2ZvYy1jUlFmT3BjNDN2Q0E0VXF2eGVCejJIVC1ETE5IeFpBMFZjaWFaeWRVd3U4cW9XcGVJLUVIdmw0WTB4UzktOF8zU0VUa1FhTG5TYVNlZjVkVFdBb0RGbG9IZw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI tool may help doctors, but sample size too small** — https://text.npr.org/g-s1-134929
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3457
+- Total stories tracked: 3484
 - Most active topic: models
 - Busiest category: AI General News
 
