@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T08:44:11.701227+00:00",
+  "generated_at": "2026-07-24T14:14:44.472149+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 39,
+      "reddit": 25,
       "hackernews": 36,
       "youtube": 106
     },
@@ -16,284 +16,53 @@
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Automate graphic design tasks with AI.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
+      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your visual content and stand out in a crowded online space.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers."
+        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video 2026"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Graphic Design: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "Midjourney AI Art",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "Midjourney is an AI model that generates art based on text prompts.",
-      "audience_angle": "Create unique art pieces with AI.",
-      "linkedin_angle": "Explore the potential of AI in art and design.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1v4o3u6/pomegranate_scifi_film_30_min/",
-          "signal": "Pomegranate - Sci-Fi Film (30 min)"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Midjourney AI Art",
-        "How to Use Midjourney for Art Generation",
-        "The Future of Art: Midjourney and AI"
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
       "name": "Flux 3",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Flux 3 is a new AI model for various applications.",
-      "audience_angle": "Discover the capabilities of Flux 3.",
-      "linkedin_angle": "Explore the potential of Flux 3 in business and industry.",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://bfl.ai/blog/flux-3",
-          "signal": "Flux 3"
-        }
-      ],
-      "content_ideas": [
-        "What is Flux 3 and How Does it Work?",
-        "The Potential of Flux 3 in Various Industries",
-        "Getting Started with Flux 3: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can generate videos based on text prompts or other inputs.",
-      "audience_angle": "Create stunning videos with just text prompts.",
-      "linkedin_angle": "Automate video production with AI.",
+      "what_it_is": "Flux 3 is a next-generation video-action model.",
+      "audience_angle": "Flux 3 can help you create more engaging and interactive videos for your audience.",
+      "linkedin_angle": "Stay ahead of the curve with Flux 3, the latest innovation in video-action models.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
-          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "AI Video Generation: A Step-by-Step Guide",
-        "Using AI for Video Production: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a tool for automating work tasks with AI.",
-      "audience_angle": "Automate your work tasks with ChatGPT.",
-      "linkedin_angle": "Increase productivity with ChatGPT Work.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xuOfIxvbOBY",
-          "signal": "ChatGPT Work Just Changed Everything.. Try These New Automations First!"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to ChatGPT Work",
-        "How to Automate Work Tasks with ChatGPT",
-        "Increasing Productivity with ChatGPT Work"
-      ]
-    },
-    {
-      "name": "AI for Earning",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used for various earning opportunities.",
-      "audience_angle": "Make money with AI.",
-      "linkedin_angle": "Explore the potential of AI in business and finance.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI tools and courses have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=axLMgM5NEQg",
-          "signal": "The ONLY 7 Ways to Make REAL Money with AI (anyone can do)"
-        }
-      ],
-      "content_ideas": [
-        "How to Make Money with AI",
-        "AI for Earning: A Step-by-Step Guide",
-        "Using AI for Financial Gain: Tips and Tricks"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Automate graphic design tasks with AI.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video 2026"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Graphic Design: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a tool for automating work tasks with AI.",
-      "audience_angle": "Automate your work tasks with ChatGPT.",
-      "linkedin_angle": "Increase productivity with ChatGPT Work.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xuOfIxvbOBY",
-          "signal": "ChatGPT Work Just Changed Everything.. Try These New Automations First!"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to ChatGPT Work",
-        "How to Automate Work Tasks with ChatGPT",
-        "Increasing Productivity with ChatGPT Work"
-      ]
-    },
-    {
-      "name": "Flux 3",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Flux 3 is a new AI model for various applications.",
-      "audience_angle": "Discover the capabilities of Flux 3.",
-      "linkedin_angle": "Explore the potential of Flux 3 in business and industry.",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program information available for Flux 3."
       },
       "sources": [
         {
@@ -303,40 +72,104 @@
         }
       ],
       "content_ideas": [
-        "What is Flux 3 and How Does it Work?",
-        "The Potential of Flux 3 in Various Industries",
-        "Getting Started with Flux 3: A Beginner's Guide"
+        "Getting Started with Flux 3: A Beginner's Guide",
+        "Unlocking the Potential of Flux 3 for Video Creators",
+        "Flux 3 vs. Other Video-Action Models: A Comparison"
       ]
     },
     {
-      "name": "Midjourney AI Art",
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI video generation refers to the use of artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create high-quality videos without extensive video production experience.",
+      "linkedin_angle": "Explore the potential of AI video generation for your business or personal projects.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI video generation tools may have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "AI video generation"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with AI",
+        "The Future of Video Production: AI Generation",
+        "AI Video Generation for Social Media: Tips and Tricks"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "Midjourney is an AI model that generates art based on text prompts.",
-      "audience_angle": "Create unique art pieces with AI.",
-      "linkedin_angle": "Explore the potential of AI in art and design.",
-      "local_relevance": 6,
-      "pillar": "explainer",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
+      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your visual content and stand out in a crowded online space.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1v4o3u6/pomegranate_scifi_film_30_min/",
-          "signal": "Pomegranate - Sci-Fi Film (30 min)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "Introduction to Midjourney AI Art",
-        "How to Use Midjourney for Art Generation",
-        "The Future of Art: Midjourney and AI"
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
+      ]
+    },
+    {
+      "name": "Flux 3",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Flux 3 is a next-generation video-action model.",
+      "audience_angle": "Flux 3 can help you create more engaging and interactive videos for your audience.",
+      "linkedin_angle": "Stay ahead of the curve with Flux 3, the latest innovation in video-action models.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program information available for Flux 3."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bfl.ai/blog/flux-3",
+          "signal": "Flux 3"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Flux 3: A Beginner's Guide",
+        "Unlocking the Potential of Flux 3 for Video Creators",
+        "Flux 3 vs. Other Video-Action Models: A Comparison"
       ]
     }
   ],
@@ -347,12 +180,12 @@
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v59k7s/normal_technology/"
         }
       ],
       "content_opportunity": "Workarounds for ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
