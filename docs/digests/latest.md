@@ -33,7 +33,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
 4. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 81
    https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
-5. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 71
+5. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 68
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
 6. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 63
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI tool may help doctors, but sample size too small** — https://text.npr.org/g-s1-134929
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3444
+- Total stories tracked: 3457
 - Most active topic: models
 - Busiest category: AI General News
 
