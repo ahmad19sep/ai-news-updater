@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:14:44.472149+00:00",
+  "generated_at": "2026-07-24T19:48:41.976553+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 36,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
-      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your visual content and stand out in a crowded online space.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT Images 2.0."
       },
       "sources": [
         {
@@ -41,40 +41,40 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 for Creative Projects",
+        "Unlocking the Potential of ChatGPT Images 2.0",
+        "A Beginner's Guide to ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "Flux 3",
+      "name": "Flux 3 X Mimic",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Flux 3 is a next-generation video-action model.",
-      "audience_angle": "Flux 3 can help you create more engaging and interactive videos for your audience.",
-      "linkedin_angle": "Stay ahead of the curve with Flux 3, the latest innovation in video-action models.",
-      "local_relevance": 8,
+      "what_it_is": "A next-generation video-action model.",
+      "audience_angle": "Discover the capabilities of Flux 3 X Mimic for video creation.",
+      "linkedin_angle": "Learn how Flux 3 X Mimic can revolutionize your video content strategy.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program information available for Flux 3."
+        "note": "No affiliate program available for Flux 3 X Mimic."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://bfl.ai/blog/flux-3",
-          "signal": "Flux 3"
+          "url": "https://bfl.ai/blog/flux-3-mimic",
+          "signal": "Flux 3 X Mimic: The Next Generation of Video-Action Models"
         }
       ],
       "content_ideas": [
-        "Getting Started with Flux 3: A Beginner's Guide",
-        "Unlocking the Potential of Flux 3 for Video Creators",
-        "Flux 3 vs. Other Video-Action Models: A Comparison"
+        "Getting Started with Flux 3 X Mimic for Video Creation",
+        "Flux 3 X Mimic: A Game-Changer for Video Content",
+        "Exploring the Capabilities of Flux 3 X Mimic"
       ]
     },
     {
@@ -84,28 +84,121 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation refers to the use of artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create high-quality videos without extensive video production experience.",
-      "linkedin_angle": "Explore the potential of AI video generation for your business or personal projects.",
-      "local_relevance": 6,
+      "what_it_is": "Using AI to generate videos.",
+      "audience_angle": "Create engaging videos with AI video generation tools.",
+      "linkedin_angle": "Discover how AI video generation can enhance your content marketing strategy.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
+      "best_format": "reel",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools may have affiliate programs."
+        "note": "Affiliate programs available for AI video generation tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "AI video generation"
+          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
+          "signal": "ai se video kaise banaye | ai video kaise banaye"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "The Future of Video Production: AI Generation",
-        "AI Video Generation for Social Media: Tips and Tricks"
+        "How to Make Money with AI-Generated Videos",
+        "The Future of Video Content: AI Generation",
+        "A Beginner's Guide to AI Video Generation"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A new feature of ChatGPT for work-related tasks.",
+      "audience_angle": "Boost your productivity with ChatGPT Work.",
+      "linkedin_angle": "Discover how ChatGPT Work can enhance your professional workflow.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT Work."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Work for Productivity",
+        "ChatGPT Work: A Game-Changer for Professionals",
+        "Exploring the Capabilities of ChatGPT Work"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Using AI agents for various tasks.",
+      "audience_angle": "Discover the potential of AI agents for automation.",
+      "linkedin_angle": "Learn how AI agents can enhance your business operations.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Affiliate programs available for AI agent tools."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49024620",
+          "signal": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Business Automation",
+        "The Future of Work: AI Agents",
+        "A Beginner's Guide to AI Agents"
+      ]
+    },
+    {
+      "name": "Open-Weight AI Models",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A type of AI model that is open and transparent.",
+      "audience_angle": "Discover the benefits of open-weight AI models.",
+      "linkedin_angle": "Learn how open-weight AI models can enhance your business operations.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for open-weight AI models."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+          "signal": "Open Weights and American AI Leadership [pdf]"
+        }
+      ],
+      "content_ideas": [
+        "The Benefits of Open-Weight AI Models",
+        "Open-Weight AI Models: A New Era for AI",
+        "A Beginner's Guide to Open-Weight AI Models"
       ]
     }
   ],
@@ -117,16 +210,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
-      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your visual content and stand out in a crowded online space.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT Images 2.0."
       },
       "sources": [
         {
@@ -136,40 +229,71 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 for Creative Projects",
+        "Unlocking the Potential of ChatGPT Images 2.0",
+        "A Beginner's Guide to ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "Flux 3",
+      "name": "Flux 3 X Mimic",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Flux 3 is a next-generation video-action model.",
-      "audience_angle": "Flux 3 can help you create more engaging and interactive videos for your audience.",
-      "linkedin_angle": "Stay ahead of the curve with Flux 3, the latest innovation in video-action models.",
-      "local_relevance": 8,
+      "what_it_is": "A next-generation video-action model.",
+      "audience_angle": "Discover the capabilities of Flux 3 X Mimic for video creation.",
+      "linkedin_angle": "Learn how Flux 3 X Mimic can revolutionize your video content strategy.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program information available for Flux 3."
+        "note": "No affiliate program available for Flux 3 X Mimic."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://bfl.ai/blog/flux-3",
-          "signal": "Flux 3"
+          "url": "https://bfl.ai/blog/flux-3-mimic",
+          "signal": "Flux 3 X Mimic: The Next Generation of Video-Action Models"
         }
       ],
       "content_ideas": [
-        "Getting Started with Flux 3: A Beginner's Guide",
-        "Unlocking the Potential of Flux 3 for Video Creators",
-        "Flux 3 vs. Other Video-Action Models: A Comparison"
+        "Getting Started with Flux 3 X Mimic for Video Creation",
+        "Flux 3 X Mimic: A Game-Changer for Video Content",
+        "Exploring the Capabilities of Flux 3 X Mimic"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A new feature of ChatGPT for work-related tasks.",
+      "audience_angle": "Boost your productivity with ChatGPT Work.",
+      "linkedin_angle": "Discover how ChatGPT Work can enhance your professional workflow.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT Work."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Work for Productivity",
+        "ChatGPT Work: A Game-Changer for Professionals",
+        "Exploring the Capabilities of ChatGPT Work"
       ]
     }
   ],
@@ -181,10 +305,10 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v59k7s/normal_technology/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v5b0la/people_are_using_minecraft_farms_as_ai_agent/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
