@@ -15,22 +15,22 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.nature.com/articles/d41586-026-02213-0
 4. **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0Foc3luZXc4MVpDNWR4Y25GVXVTLTlLdWtVQ3JDc21feTVmYlQ1Q3JuYzd2bG1BU1ZLbUZRbE5Da1l0bTg1Vy0zQlBPTmlKVlZqU3E2OXgwTXNCY0hxd3pZd2QyWktQN0pzR1hCM1BnRXZJak1lNmJPYjhZOVVMVTRXcjktNHFKSVRWZG8zWFo0QmM?oc=5
-5. **Chinese Doctors Outpace Global Peers in AI Adoption Amid Trust Concerns - Caixin Global** — science angle
-   https://news.google.com/rss/articles/CBMixAFBVV95cUxNN2ZRWS1hLXRlbDExcUVNSzB6SHEtUDZxaENDZ0p4WUFoRTFFSUlPOFctS3FQNDNzZml0WHN0aGNvRGFIQ0NDcXJ5N2lERW93VHVnOFMwOFRVSzJEYlMyTkNTS2VJbXJuc0dGeFZfN2F2bnVnNjYyZmxWMHMtMV81R0NQZ0xRdFNNcjR1MFB3ak4wVFh0N2RBcFhWb2dZa3hGRVhhaktCQ2RDR0lQQVNlMXFJQWQ4akMydXlLS0xwY3VST3dp?oc=5
-6. **New AI-based Method to Help Doctors Asses The Severity of Blood Cancer - Weill Cornell Medicine - Oncodaily** — science angle
+5. **New AI-based Method to Help Doctors Asses The Severity of Blood Cancer - Weill Cornell Medicine - Oncodaily** — science angle
    https://news.google.com/rss/articles/CBMia0FVX3lxTE85bF9TRkpCVWZnOUp5NlhhaXppSE9LV2R4YlNtMzJkZ1RicFpOWDRYajFSTC12MjRNVVBaTWktenlfdHpyLTlqcERmcmFFWjdZTzNXamgzblJsNjgtRE9SY19MYmZaNXpkdXpN?oc=5
-7. **AI errors shaped doctors’ decisions despite evidence – Spanish study - Juta MedicalBrief** — science angle
+6. **AI errors shaped doctors’ decisions despite evidence – Spanish study - Juta MedicalBrief** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxQUWhkZTVWTmUwSUcwMzlFZ1NYa015dEZBNHdWWjlPZFBDcUcwbjB0WEgtcjZCRU1pajc5dkgxWS02MDNiVnl0bW12b0E1RkFRU29JVmlURXVSR1llUnNGVEVadGFnUlQ2S3lfSnNRRWs5azJxc2JtdUJsbm1pOGZtcDY0aUFjbGJhckthTXBOQ1d0N2FyeUxzcmYzVS1adw?oc=5
-8. **I'm a doctor, I use AI every day, but it will never replace my clinical judgment - India Today** — science angle
+7. **I'm a doctor, I use AI every day, but it will never replace my clinical judgment - India Today** — science angle
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd2hhUXpIem81akNfWnpFLU1ENmR0cE82dnY4NjhaVnpZNzFzT2hveWZrZ3ZYRVM0YVJwZ0NZWm1ySVZOX0t2UGd3eDZvQ3c3VWdiUjRabDBIbnV0dkFlYXdiOV9Nb3U4cEJ0V1NrczNmdVVjbkNZVG1qNkt2UG55QnlkME5sUjJmRmJIV0Y3eG5YSEJELS03MDA4WnV5SWFXYjM2aEFtRWlrRzdYejhNOHZFOEFMUFNtM1M1OEpqZTVqMUswVGlvX1U0STg2Rkpx?oc=5
+8. **Medical AI Privacy Study Finds Uneven Patient Risks - Telehealth.org** — science angle
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxPbUFJRHI0U0ZpNmdZdEZ5THVxSUZtTHRBNm1UaXFrcXdOclY3cDhzeXdRd3J1UUVSaExhLUVrTHlDM3UzNjNPTGZpcEdiM0t2alAzYk0wSjhhMHI2VkZYcW4yWUYyZTdaSmluVUZNTXBpVDhVUVJSZFBleDlWWHktVV80RVF3TmNkc19HV0p6UWxEQy1lMXo4YVkycjVSaWJkcWMxazZUREwxRm14?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
    https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1WFphbElRSmNvSHhIWHM1WXladEFSbXdpbzdHQXpOdGx5bERBaHJYc3BBcld1bEpfR18tUFZabkJlc3N4eVMwTUxqSE1WTEtWeGVsTkJxQzE0ckk3bHZlVFBHR0hmaTBfSnFC?oc=5
-2. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 96
-   https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
-3. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 93
+2. **MLB restricts dugout iPad use to prevent AI help with strategy. Ottavino says Mets were involved** — newstimes — Score 93
    https://www.newstimes.com/sports/article/mlb-restricts-dugout-ipad-use-to-prevent-use-of-22349680.php
+3. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 93
+   https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
 4. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 81
    https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
 5. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 71
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/
 8. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 56
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
-9. **Satya Nadella says Anthropic’s Claude Fable restrictions ‘don’t make sense’ - The Indian Express** — Satya Nadella News — Score 53
-   https://news.google.com/rss/articles/CBMixwFBVV95cUxNY2w2QTN2c09Rcngwc1NueVRaNC1DaWNHMl9abTd6Uk9rdDNTVnctcnFOTlI4RF9hdHVEN2hISzR3SkZRNnJaZ2t3VXBhYmQtcm9fMFZNWUdCUzAtZ3BvcEtOVzVLdlhmRzJZNGp1Sl9YeG9sT0FqS1NmS0NiX29xWFBnMUZYTC1yeE5oeUktOVk4M2RKUUU4ZWdxQVZseGlmUEhMYWZkQ255WmtMZnZXcnBEMUIwVUx6Z3BiNnJlamRYVm1OZFJv0gHOAUFVX3lxTE5tNXNvcUh0RHdhY2p3V19ZRjB6cVU3YTNmRmcwRHh3a2JVZmpxRHY4cUFSejZpcTlEb3B2anpGWThadTY5cllhRVZ6bXhMSEJpRkxmck5yc1RJc0RPLUFtSTBaMFFUdm5RM3czY3ZTRFJhQkw1M01iRnpUTGFKaWZuUHRLYjV0S042Vl90SjBUMEkyTjdESmFoU3FMVHJTSTZvMTF1TlRLcWp2MGtJOHpwVzE0RHZ4XzNTREQ5NTROSDVjZDROTTB4M3BKc2d3?oc=5
-10. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
+9. **FG Seals AI Crop Monitoring Deal With Morocco, Targets 15 States - LEADERSHIP Newspapers** — AI in Agriculture — Score 53
    https://news.google.com/rss/articles/CBMijwFBVV95cUxQTnJQS0ZMSWJyUmtaSFNycndKdzRBdEdlY1NyWllsYWtFa1RpeWZoWlFSSUxidVp4NDRKRE4zbUp5TUpyWHlMWmdTSnFOVWxfX0lPT0hXcWpLMVU2TXlQQUhEQXh6dUphS29keDdRV0FxZjZBTlJtZ3g5dHVwc0xQOW5YN1d4RkhNZXFJU2x4UQ?oc=5
+10. **PathFinder Raises Multi-Million Dollar Angel Round to Launch BirdieSense, a Next-Generation Sports AI Agent - Morningstar** — AI Agents — Score 51
+   https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWlk0X0FPMHpLTWZJRjNXZTZZM3lSd1U5bzhyc21iZndld3k5bzZ2dTRJV3RrWUl6SHQwVnE0OFc4SEJiSUd6YlR1OVhpS05YQzQta2E5dHlkcFVCUmYxbVgxdmxobXNiTlVsTGhJcGJRMTBQWUNqRndZSjljOEY2d3kycE9NRXhtZEtldjc5Qlhucl9PY2xLaldjR18za3hJT0JoUzBHa1Z4azY4Mndmb0dkSG9LaXpjWnV3TVdIRXNSTTQ3c0dQNzNkdU5OTG4tUUZtMlVOUW04Sm5uU29OQ1NUQ1liekMzMnFibE85a3drT2pOakJDejRFMzA?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Can AI help doctors have difficult conversations with critically ill patients in end-of-life care? - Medical Xpress** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0Foc3luZXc4MVpDNWR4Y25GVXVTLTlLdWtVQ3JDc21feTVmYlQ1Q3JuYzd2bG1BU1ZLbUZRbE5Da1l0bTg1Vy0zQlBPTmlKVlZqU3E2OXgwTXNCY0hxd3pZd2QyWktQN0pzR1hCM1BnRXZJak1lNmJPYjhZOVVMVTRXcjktNHFKSVRWZG8zWFo0QmM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3446
+- Total stories tracked: 3440
 - Most active topic: models
 - Busiest category: AI General News
 
