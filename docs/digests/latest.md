@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Google AI Outdiagnoses Doctors in Study of Nearly 14,000 Real Patients - Tech Times** — https://news.google.com/rss/articles/CBMiugFBVV95cUxOckc4dzZQQlUtNGk0X1hDRHQ1c1l6Z1FWcGxCclVwT3FNYmZsNWZqNlVjQXB0dVNhR2ZEazkxcEJORThVbHZtYUJNVHFmd19DX3pOWmFMZk5oanZtOFJxZVlxVUFjSnd1bFFCRklKVEQ1TzdSYklNazJMTVFxaWwyNld6cG40TEZFUFdycG9kdUVsQjlnV1NKSzgydHhab2dZVjVOdzVHcU83Und6Rko1NzFXcHFfS0UwNFE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3515
+- Total stories tracked: 3521
 - Most active topic: models
 - Busiest category: AI General News
 
