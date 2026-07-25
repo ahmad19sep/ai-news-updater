@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.newstimes.com/sports/article/mlb-restricts-dugout-ipad-use-to-prevent-use-of-22349680.php
 3. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 93
    https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
-4. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 81
+4. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 78
    https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
 5. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 68
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI tool may help doctors, but sample size too small** — https://text.npr.org/g-s1-134929
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3467
+- Total stories tracked: 3480
 - Most active topic: models
 - Busiest category: AI General News
 
