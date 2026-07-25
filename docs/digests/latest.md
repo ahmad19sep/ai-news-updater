@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3RQQjdQVWpubF84RUpnMjB2UGh1OUxIUWFwRjdvNElPajhET05FU3JQbjFEY2phU0c4SUE2RkVPalVnRFFocEZlN2loRTczV2szcXZmeU9YMGtUX3JCeW1kVDVUekRXSTRCQWNlRHI0aExVdjA5ZmtWM2ktOWdLSFBiVl9JZHRHcUd3QWc5YV84QW53X3RzUWRVQU5RUEVNdU0zaDRGMkp3ZFNqcDNtYS14RHBRckdPRkpLZnpSdWtwM0tka0JpUGg0Unc2QQ?oc=5
 7. **Doctors urge caution when using AI for medical advice - 13newsnow.com** — science angle
    https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRlp1V0tQSnRXQjFRRVQ5b01ZMjZxdTh2UHhrd2VxWElVNmxSWVVoT0ctajJwYnhQY290bDJoRFZJMXhzQWQ2TlZwendkOFc5NllzZU16RE1HYkpoaC1JVjhWNHhsYnUtemdkbzgySnhGZGhybG9RZXRBWGNnVjdyVGtJLVRrTXVCSWhsQ2VFZGI1aDNCUDJ3N3ZfUVhSWklMVC1nNkZpcjFmSHJpTjh3TmRuOXhwckwwM3UwbjZ6eHhYalNvd2lvMEJ6ZDJrQzVndjZjczVFNA?oc=5
-8. **How researchers are using AI to speed up drug discovery and development: Q&A - Phys.org** — science angle
-   https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QTHVQUFRxRGctU0hQMDFaWnFXbjVpa1B2aXdaWklwYXBybHRsRGdQZUotQjdiYjlSeWlIX0puZ3ZJb1RwMHgwRlM1ejM4TjUwbmN3c05BUjZGdTBMUEVjcVZQUjdhdw?oc=5
+8. **The AI Tool Changing How Doctors Practice Medicine - Forbes** — science angle
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3l6MVZ5WW9UbE1KN2N0WV9HS3FrTWRicm1jUkY3b2hzQmNYTVFVcFNrd1RYeUUtM0FXVkNOcTFRd1ZmeFZsYmpGY1o5REtrejVZakhENGlTYUNtT1FhYjZfbG0tcV9VbVhNZUJZQ3Q0b0lDbk1wNUpjOWx3UzQzclI5cWtUVV9OZWlzaUI1QkIwWTlBWFl0QjcwU2FBNklXcWNqd3ZRSQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI tool may help doctors, but sample size too small** — https://text.npr.org/g-s1-134929
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3493
+- Total stories tracked: 3510
 - Most active topic: models
 - Busiest category: AI General News
 
