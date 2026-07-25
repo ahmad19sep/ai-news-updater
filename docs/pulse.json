@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T14:03:35.888400+00:00",
+  "generated_at": "2026-07-25T19:36:18.865315+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,135 +8,73 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 29,
+      "reddit": 32,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "Krea 2",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "Krea 2 is an open-source AI tool for generating images and videos.",
-      "audience_angle": "You can use Krea 2 to create stunning visuals for your projects and social media.",
-      "linkedin_angle": "Upgrade your content creation skills with Krea 2 and take your professional projects to the next level.",
+      "what_it_is": "A new image generation tool from ChatGPT.",
+      "audience_angle": "Create amazing images with just text prompts.",
+      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Krea 2 is open-source and free to use."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/",
-          "signal": "Krea 2 open-source release"
-        }
-      ],
-      "content_ideas": [
-        "How to get started with Krea 2 for beginners",
-        "5 creative ways to use Krea 2 for social media content",
-        "Krea 2 vs other AI image generation tools: which one is best?"
-      ]
-    },
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the AI image generation tool.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images and art with ease.",
-      "linkedin_angle": "Stay ahead of the curve with the latest advancements in AI image generation with ChatGPT Images 2.0.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "ChatGPT Images 2.0 is a free tool."
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "ChatGPT Images 2.0 update"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for graphic design",
-        "ChatGPT Images 2.0: what's new and what's improved?",
-        "10 amazing examples of art created with ChatGPT Images 2.0"
+        "How to Create Stunning Images with ChatGPT 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "Using ChatGPT Images 2.0 for Business Marketing"
       ]
     },
     {
       "name": "Opus 5",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Opus 5 is a new AI model that has taken the top spot on the Artificial Analysis Intelligence Leaderboard.",
-      "audience_angle": "You can use Opus 5 to improve your AI projects and stay competitive in the field.",
-      "linkedin_angle": "Upgrade your AI skills with Opus 5 and take your career to the next level.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "what_it_is": "A new AI model that has taken the top spot on the Artificial Analysis Intelligence Leaderboard.",
+      "audience_angle": "Discover the capabilities of Opus 5 and how it can benefit you.",
+      "linkedin_angle": "Learn how Opus 5 can enhance your business operations and stay competitive.",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Opus 5 is a free AI model."
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models",
-          "signal": "Opus 5 takes top spot on leaderboard"
+          "signal": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard"
         }
       ],
       "content_ideas": [
-        "How to use Opus 5 for natural language processing tasks",
-        "Opus 5 vs other AI models: which one is best for your project?",
-        "The future of AI: what Opus 5 means for the industry"
-      ]
-    },
-    {
-      "name": "LTX Director 2.0",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "LTX Director 2.0 is an updated version of the AI video editing tool.",
-      "audience_angle": "You can use LTX Director 2.0 to create stunning videos with ease and speed.",
-      "linkedin_angle": "Take your video editing skills to the next level with LTX Director 2.0 and stay competitive in the industry.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "LTX Director 2.0 is a free tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1ub4jpk/ltx_director_20_update_a_free_open_source/",
-          "signal": "LTX Director 2.0 update"
-        }
-      ],
-      "content_ideas": [
-        "How to use LTX Director 2.0 for video editing",
-        "LTX Director 2.0: what's new and what's improved?",
-        "10 amazing examples of videos created with LTX Director 2.0"
+        "What is Opus 5 and How Does it Work?",
+        "Opus 5 vs Other AI Models: A Comparison",
+        "The Future of AI: Insights from Opus 5"
       ]
     },
     {
@@ -146,28 +84,28 @@
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Flux 3 is a new AI model for video-action tasks.",
-      "audience_angle": "You can use Flux 3 to create stunning videos and animations with ease.",
-      "linkedin_angle": "Upgrade your video creation skills with Flux 3 and take your career to the next level.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "what_it_is": "A next-generation video-action model.",
+      "audience_angle": "Explore the capabilities of Flux 3 and its potential applications.",
+      "linkedin_angle": "Discover how Flux 3 can enhance your business operations and improve efficiency.",
+      "local_relevance": 7,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Flux 3 is a free AI model."
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://bfl.ai/blog/flux-3-mimic",
-          "signal": "Flux 3 launch"
+          "signal": "Flux 3 X Mimic: The Next Generation of Video-Action Models"
         }
       ],
       "content_ideas": [
-        "How to use Flux 3 for video-action tasks",
-        "Flux 3 vs other AI models: which one is best for your project?",
-        "The future of video creation: what Flux 3 means for the industry"
+        "Introduction to Flux 3: A Revolutionary Video-Action Model",
+        "Flux 3 Tutorial: Getting Started with Video-Action Modeling",
+        "The Potential of Flux 3: Real-World Applications and Use Cases"
       ]
     },
     {
@@ -177,154 +115,185 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows you to use ChatGPT for work-related tasks.",
-      "audience_angle": "You can use ChatGPT Work to increase your productivity and efficiency at work.",
-      "linkedin_angle": "Take your work to the next level with ChatGPT Work and stay competitive in the industry.",
-      "local_relevance": 6,
+      "what_it_is": "A new feature from ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Discover how ChatGPT Work can enhance your productivity and workflow.",
+      "linkedin_angle": "Learn how ChatGPT Work can benefit your business operations and improve efficiency.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "ChatGPT Work is a free tool."
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work tutorial"
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for work-related tasks",
-        "ChatGPT Work: what's new and what's improved?",
-        "10 ways to increase your productivity with ChatGPT Work"
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "ChatGPT Work Tutorial: Managing Your Workflow and Tasks",
+        "The Benefits of ChatGPT Work: How it Can Enhance Your Productivity"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "The use of AI to generate videos.",
+      "audience_angle": "Discover how AI video generation can benefit your business or personal projects.",
+      "linkedin_angle": "Learn how AI video generation can enhance your marketing strategy and improve engagement.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI video generation tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
+          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with AI",
+        "AI Video Generation Tutorial for Beginners",
+        "The Future of Video Creation: Insights from AI Video Generation"
+      ]
+    },
+    {
+      "name": "AI for Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "The use of AI for trading and investing.",
+      "audience_angle": "Discover how AI can enhance your trading strategy and improve returns.",
+      "linkedin_angle": "Learn how AI can benefit your investment portfolio and reduce risk.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI trading tools offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
+          "signal": "How to Use AI for Trading"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with AI Trading: A Beginner's Guide",
+        "AI Trading Tutorial: How to Use AI for Investing",
+        "The Benefits of AI Trading: How it Can Enhance Your Investment Strategy"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Krea 2",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "Krea 2 is an open-source AI tool for generating images and videos.",
-      "audience_angle": "You can use Krea 2 to create stunning visuals for your projects and social media.",
-      "linkedin_angle": "Upgrade your content creation skills with Krea 2 and take your professional projects to the next level.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Krea 2 is open-source and free to use."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/",
-          "signal": "Krea 2 open-source release"
-        }
-      ],
-      "content_ideas": [
-        "How to get started with Krea 2 for beginners",
-        "5 creative ways to use Krea 2 for social media content",
-        "Krea 2 vs other AI image generation tools: which one is best?"
-      ]
-    },
-    {
-      "name": "Opus 5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Opus 5 is a new AI model that has taken the top spot on the Artificial Analysis Intelligence Leaderboard.",
-      "audience_angle": "You can use Opus 5 to improve your AI projects and stay competitive in the field.",
-      "linkedin_angle": "Upgrade your AI skills with Opus 5 and take your career to the next level.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Opus 5 is a free AI model."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models",
-          "signal": "Opus 5 takes top spot on leaderboard"
-        }
-      ],
-      "content_ideas": [
-        "How to use Opus 5 for natural language processing tasks",
-        "Opus 5 vs other AI models: which one is best for your project?",
-        "The future of AI: what Opus 5 means for the industry"
-      ]
-    },
-    {
       "name": "Flux 3",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Flux 3 is a new AI model for video-action tasks.",
-      "audience_angle": "You can use Flux 3 to create stunning videos and animations with ease.",
-      "linkedin_angle": "Upgrade your video creation skills with Flux 3 and take your career to the next level.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "what_it_is": "A next-generation video-action model.",
+      "audience_angle": "Explore the capabilities of Flux 3 and its potential applications.",
+      "linkedin_angle": "Discover how Flux 3 can enhance your business operations and improve efficiency.",
+      "local_relevance": 7,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Flux 3 is a free AI model."
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://bfl.ai/blog/flux-3-mimic",
-          "signal": "Flux 3 launch"
+          "signal": "Flux 3 X Mimic: The Next Generation of Video-Action Models"
         }
       ],
       "content_ideas": [
-        "How to use Flux 3 for video-action tasks",
-        "Flux 3 vs other AI models: which one is best for your project?",
-        "The future of video creation: what Flux 3 means for the industry"
+        "Introduction to Flux 3: A Revolutionary Video-Action Model",
+        "Flux 3 Tutorial: Getting Started with Video-Action Modeling",
+        "The Potential of Flux 3: Real-World Applications and Use Cases"
       ]
     },
     {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the AI image generation tool.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images and art with ease.",
-      "linkedin_angle": "Stay ahead of the curve with the latest advancements in AI image generation with ChatGPT Images 2.0.",
-      "local_relevance": 6,
+      "what_it_is": "A new image generation tool from ChatGPT.",
+      "audience_angle": "Create amazing images with just text prompts.",
+      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "ChatGPT Images 2.0 is a free tool."
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "ChatGPT Images 2.0 update"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for graphic design",
-        "ChatGPT Images 2.0: what's new and what's improved?",
-        "10 amazing examples of art created with ChatGPT Images 2.0"
+        "How to Create Stunning Images with ChatGPT 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "Using ChatGPT Images 2.0 for Business Marketing"
+      ]
+    },
+    {
+      "name": "Opus 5",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A new AI model that has taken the top spot on the Artificial Analysis Intelligence Leaderboard.",
+      "audience_angle": "Discover the capabilities of Opus 5 and how it can benefit you.",
+      "linkedin_angle": "Learn how Opus 5 can enhance your business operations and stay competitive.",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models",
+          "signal": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard"
+        }
+      ],
+      "content_ideas": [
+        "What is Opus 5 and How Does it Work?",
+        "Opus 5 vs Other AI Models: A Comparison",
+        "The Future of AI: Insights from Opus 5"
       ]
     },
     {
@@ -334,59 +303,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows you to use ChatGPT for work-related tasks.",
-      "audience_angle": "You can use ChatGPT Work to increase your productivity and efficiency at work.",
-      "linkedin_angle": "Take your work to the next level with ChatGPT Work and stay competitive in the industry.",
-      "local_relevance": 6,
+      "what_it_is": "A new feature from ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Discover how ChatGPT Work can enhance your productivity and workflow.",
+      "linkedin_angle": "Learn how ChatGPT Work can benefit your business operations and improve efficiency.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "ChatGPT Work is a free tool."
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work tutorial"
+          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for work-related tasks",
-        "ChatGPT Work: what's new and what's improved?",
-        "10 ways to increase your productivity with ChatGPT Work"
-      ]
-    },
-    {
-      "name": "LTX Director 2.0",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "LTX Director 2.0 is an updated version of the AI video editing tool.",
-      "audience_angle": "You can use LTX Director 2.0 to create stunning videos with ease and speed.",
-      "linkedin_angle": "Take your video editing skills to the next level with LTX Director 2.0 and stay competitive in the industry.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "LTX Director 2.0 is a free tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1ub4jpk/ltx_director_20_update_a_free_open_source/",
-          "signal": "LTX Director 2.0 update"
-        }
-      ],
-      "content_ideas": [
-        "How to use LTX Director 2.0 for video editing",
-        "LTX Director 2.0: what's new and what's improved?",
-        "10 amazing examples of videos created with LTX Director 2.0"
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "ChatGPT Work Tutorial: Managing Your Workflow and Tasks",
+        "The Benefits of ChatGPT Work: How it Can Enhance Your Productivity"
       ]
     }
   ],
@@ -394,27 +332,27 @@
     {
       "problem": "ChatGPT usage limits and errors",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v63er9/chats_completely_gone_what_happened/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v63i48/anyone_else_having_this_problem_right_now/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and errors"
+      "content_opportunity": "Solving ChatGPT Usage Limits and Errors: Tips and Workarounds"
     },
     {
       "problem": "AI model training and deployment challenges",
       "who_affected": "AI developers and researchers",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+          "url": "https://www.hackernews.com/"
         }
       ],
-      "content_opportunity": "Solving AI model training and deployment challenges"
+      "content_opportunity": "Overcoming AI Model Training and Deployment Challenges: Best Practices and Solutions"
     }
   ],
-  "tool_of_week_candidate": "Krea 2"
+  "tool_of_week_candidate": "ChatGPT Work"
 }
