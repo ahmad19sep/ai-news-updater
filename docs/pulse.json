@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T03:40:49.597148+00:00",
+  "generated_at": "2026-07-25T08:25:17.933243+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,68 +8,31 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 31,
+      "reddit": 32,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few clicks.",
-      "linkedin_angle": "Leverage AI image generation for marketing and branding purposes.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video 2026"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation Tutorial for Beginners",
-        "Using ChatGPT for Marketing and Branding"
-      ]
-    },
-    {
-      "name": "Opus 5 AI Model",
+      "name": "Opus 5",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews",
         "reddit"
       ],
-      "what_it_is": "Opus 5 is a new AI model that has gained popularity on Hacker News and Reddit.",
-      "audience_angle": "Explore the capabilities of Opus 5 and how it can benefit your work.",
-      "linkedin_angle": "Discover how Opus 5 can enhance your professional projects and workflows.",
-      "local_relevance": 3,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
+      "what_it_is": "Opus 5 is a new AI model that has been released and is currently ranked #1 on the Artificial Analysis Intelligence Leaderboard.",
+      "audience_angle": "Opus 5 is a powerful AI tool that can help you with various tasks, and its recent launch has sparked interest in the AI community.",
+      "linkedin_angle": "Stay ahead of the curve with the latest AI tools like Opus 5, which can help you streamline your work and increase productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Opus 5."
+        "affiliate_likely": true,
+        "note": "Opus 5 has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
@@ -84,9 +47,40 @@
         }
       ],
       "content_ideas": [
-        "Introduction to Opus 5 AI Model",
-        "Opus 5 vs ChatGPT: Which AI Model is Better?",
-        "Using Opus 5 for Professional Projects"
+        "How to use Opus 5 for content creation",
+        "Opus 5 vs ChatGPT: Which AI tool is better for you?",
+        "How to make money with Opus 5"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "ChatGPT Images 2.0 allows you to generate high-quality images using AI, which can be useful for various creative projects.",
+      "linkedin_angle": "Upgrade your visual content with ChatGPT Images 2.0, a powerful tool for generating professional-looking images.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "ChatGPT Images 2.0 is a free tool, but users can earn money by selling their generated images."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT Images 2.0 for graphic design",
+        "ChatGPT Images 2.0 tutorial: Generate stunning images with AI",
+        "Making money with ChatGPT Images 2.0: Tips and tricks"
       ]
     },
     {
@@ -96,16 +90,16 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation allows users to create videos using AI tools.",
-      "audience_angle": "Create engaging videos with minimal effort using AI.",
-      "linkedin_angle": "Leverage AI video generation for business and marketing purposes.",
-      "local_relevance": 4,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
+      "audience_angle": "AI video generation can help you create high-quality videos quickly and easily, which can be useful for various purposes such as marketing, education, and entertainment.",
+      "linkedin_angle": "Stay ahead of the curve with AI video generation, a powerful tool for creating engaging and professional-looking videos.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs."
+        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting the tools."
       },
       "sources": [
         {
@@ -115,155 +109,124 @@
         }
       ],
       "content_ideas": [
-        "How to Create Engaging Videos with AI",
-        "AI Video Generation Tutorial for Beginners",
-        "Using AI for Video Marketing and Advertising"
+        "How to use AI video generation for marketing",
+        "AI video generation tutorial: Create stunning videos with AI",
+        "Making money with AI video generation: Tips and tricks"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude is a new AI tool that allows users to generate text and images.",
+      "audience_angle": "Claude is a powerful AI tool that can help you with various tasks such as content creation, graphic design, and more.",
+      "linkedin_angle": "Stay ahead of the curve with Claude, a powerful AI tool that can help you streamline your work and increase productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yIHf-PAXk0g",
+          "signal": "Claude Built this AI Tool and Monetize with Google Adsense"
+        }
+      ],
+      "content_ideas": [
+        "How to use Claude for content creation",
+        "Claude tutorial: Generate stunning text and images with AI",
+        "Making money with Claude: Tips and tricks"
+      ]
+    },
+    {
+      "name": "Flux 3",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Flux 3 is a new AI model that has been released and is designed for video-action models.",
+      "audience_angle": "Flux 3 is a powerful AI tool that can help you with various tasks such as video creation and editing.",
+      "linkedin_angle": "Stay ahead of the curve with Flux 3, a powerful AI tool that can help you streamline your work and increase productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Flux 3 has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bfl.ai/blog/flux-3",
+          "signal": "Flux 3"
+        }
+      ],
+      "content_ideas": [
+        "How to use Flux 3 for video creation",
+        "Flux 3 tutorial: Create stunning videos with AI",
+        "Making money with Flux 3: Tips and tricks"
+      ]
+    },
+    {
+      "name": "AI in Minecraft",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage work projects using ChatGPT.",
-      "audience_angle": "Streamline your work projects with ChatGPT Work.",
-      "linkedin_angle": "Discover how ChatGPT Work can enhance your productivity and workflow.",
-      "local_relevance": 3,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
+      "what_it_is": "AI in Minecraft refers to the use of artificial intelligence in the popular video game Minecraft.",
+      "audience_angle": "AI in Minecraft can help you create custom game modes, automate tasks, and more.",
+      "linkedin_angle": "Stay ahead of the curve with AI in Minecraft, a powerful tool for creating custom game experiences.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT Work."
+        "note": "AI in Minecraft is a community-driven project, and users can earn money by creating and selling custom game modes and plugins."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+in+minecraft",
+          "signal": "chatgpt in minecraft"
         }
       ],
       "content_ideas": [
-        "Introduction to ChatGPT Work",
-        "How to Use ChatGPT Work for Project Management",
-        "ChatGPT Work Tutorial for Beginners"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used for trading and investing in the stock market.",
-      "audience_angle": "Use AI to make informed investment decisions.",
-      "linkedin_angle": "Leverage AI for trading and investing in the stock market.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI trading tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+trade+stocks",
-          "signal": "how to use ai to trade stocks"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI for Trading and Investing",
-        "AI Trading Tutorial for Beginners",
-        "Using AI for Stock Market Analysis"
-      ]
-    },
-    {
-      "name": "AI for Business",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used to enhance business operations and decision-making.",
-      "audience_angle": "Use AI to streamline your business operations.",
-      "linkedin_angle": "Leverage AI for business growth and development.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI business tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+business",
-          "signal": "how to use ai for business"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI for Business Growth",
-        "AI Business Tutorial for Beginners",
-        "Using AI for Business Decision-Making"
+        "How to use AI in Minecraft for custom game modes",
+        "AI in Minecraft tutorial: Create custom game experiences with AI",
+        "Making money with AI in Minecraft: Tips and tricks"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage work projects using ChatGPT.",
-      "audience_angle": "Streamline your work projects with ChatGPT Work.",
-      "linkedin_angle": "Discover how ChatGPT Work can enhance your productivity and workflow.",
-      "local_relevance": 3,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT Work."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to ChatGPT Work",
-        "How to Use ChatGPT Work for Project Management",
-        "ChatGPT Work Tutorial for Beginners"
-      ]
-    },
-    {
-      "name": "Opus 5 AI Model",
+      "name": "Opus 5",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews",
         "reddit"
       ],
-      "what_it_is": "Opus 5 is a new AI model that has gained popularity on Hacker News and Reddit.",
-      "audience_angle": "Explore the capabilities of Opus 5 and how it can benefit your work.",
-      "linkedin_angle": "Discover how Opus 5 can enhance your professional projects and workflows.",
-      "local_relevance": 3,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
+      "what_it_is": "Opus 5 is a new AI model that has been released and is currently ranked #1 on the Artificial Analysis Intelligence Leaderboard.",
+      "audience_angle": "Opus 5 is a powerful AI tool that can help you with various tasks, and its recent launch has sparked interest in the AI community.",
+      "linkedin_angle": "Stay ahead of the curve with the latest AI tools like Opus 5, which can help you streamline your work and increase productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Opus 5."
+        "affiliate_likely": true,
+        "note": "Opus 5 has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
@@ -278,46 +241,102 @@
         }
       ],
       "content_ideas": [
-        "Introduction to Opus 5 AI Model",
-        "Opus 5 vs ChatGPT: Which AI Model is Better?",
-        "Using Opus 5 for Professional Projects"
+        "How to use Opus 5 for content creation",
+        "Opus 5 vs ChatGPT: Which AI tool is better for you?",
+        "How to make money with Opus 5"
       ]
     },
     {
-      "name": "ChatGPT Image Generation",
+      "name": "Flux 3",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few clicks.",
-      "linkedin_angle": "Leverage AI image generation for marketing and branding purposes.",
+      "what_it_is": "Flux 3 is a new AI model that has been released and is designed for video-action models.",
+      "audience_angle": "Flux 3 is a powerful AI tool that can help you with various tasks such as video creation and editing.",
+      "linkedin_angle": "Stay ahead of the curve with Flux 3, a powerful AI tool that can help you streamline your work and increase productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "Flux 3 has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bfl.ai/blog/flux-3",
+          "signal": "Flux 3"
+        }
+      ],
+      "content_ideas": [
+        "How to use Flux 3 for video creation",
+        "Flux 3 tutorial: Create stunning videos with AI",
+        "Making money with Flux 3: Tips and tricks"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "ChatGPT Images 2.0 allows you to generate high-quality images using AI, which can be useful for various creative projects.",
+      "linkedin_angle": "Upgrade your visual content with ChatGPT Images 2.0, a powerful tool for generating professional-looking images.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "ChatGPT Images 2.0 is a free tool, but users can earn money by selling their generated images."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video 2026"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation Tutorial for Beginners",
-        "Using ChatGPT for Marketing and Branding"
+        "How to use ChatGPT Images 2.0 for graphic design",
+        "ChatGPT Images 2.0 tutorial: Generate stunning images with AI",
+        "Making money with ChatGPT Images 2.0: Tips and tricks"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude is a new AI tool that allows users to generate text and images.",
+      "audience_angle": "Claude is a powerful AI tool that can help you with various tasks such as content creation, graphic design, and more.",
+      "linkedin_angle": "Stay ahead of the curve with Claude, a powerful AI tool that can help you streamline your work and increase productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yIHf-PAXk0g",
+          "signal": "Claude Built this AI Tool and Monetize with Google Adsense"
+        }
+      ],
+      "content_ideas": [
+        "How to use Claude for content creation",
+        "Claude tutorial: Generate stunning text and images with AI",
+        "Making money with Claude: Tips and tricks"
       ]
     }
   ],
@@ -329,11 +348,23 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v5vpaj/the_recent_update_feels_like_a_significant_downgrade/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v5hf6g/i_think_chatgpt_has_quietly_changed_the_way_i/"
         }
       ],
-      "content_opportunity": "Workaround for ChatGPT usage limits"
+      "content_opportunity": "How to overcome ChatGPT usage limits: Tips and tricks"
+    },
+    {
+      "problem": "AI-generated content quality",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sWrwsI9vaPs"
+        }
+      ],
+      "content_opportunity": "How to improve AI-generated content quality: Tips and tricks"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "Opus 5"
 }
