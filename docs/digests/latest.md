@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 3. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-4. **Google AI Outdiagnoses Doctors in Study of Nearly 14,000 Real Patients - Tech Times** — science angle
-   https://news.google.com/rss/articles/CBMiugFBVV95cUxOckc4dzZQQlUtNGk0X1hDRHQ1c1l6Z1FWcGxCclVwT3FNYmZsNWZqNlVjQXB0dVNhR2ZEazkxcEJORThVbHZtYUJNVHFmd19DX3pOWmFMZk5oanZtOFJxZVlxVUFjSnd1bFFCRklKVEQ1TzdSYklNazJMTVFxaWwyNld6cG40TEZFUFdycG9kdUVsQjlnV1NKSzgydHhab2dZVjVOdzVHcU83Und6Rko1NzFXcHFfS0UwNFE?oc=5
-5. **ChatGPT wants access to your health records so it can be a better not-doctor - The Register** — science angle
+4. **ChatGPT wants access to your health records so it can be a better not-doctor - The Register** — science angle
    https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3RQQjdQVWpubF84RUpnMjB2UGh1OUxIUWFwRjdvNElPajhET05FU3JQbjFEY2phU0c4SUE2RkVPalVnRFFocEZlN2loRTczV2szcXZmeU9YMGtUX3JCeW1kVDVUekRXSTRCQWNlRHI0aExVdjA5ZmtWM2ktOWdLSFBiVl9JZHRHcUd3QWc5YV84QW53X3RzUWRVQU5RUEVNdU0zaDRGMkp3ZFNqcDNtYS14RHBRckdPRkpLZnpSdWtwM0tka0JpUGg0Unc2QQ?oc=5
-6. **Doctors urge caution when using AI for medical advice - 13newsnow.com** — science angle
+5. **Doctors urge caution when using AI for medical advice - 13newsnow.com** — science angle
    https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRlp1V0tQSnRXQjFRRVQ5b01ZMjZxdTh2UHhrd2VxWElVNmxSWVVoT0ctajJwYnhQY290bDJoRFZJMXhzQWQ2TlZwendkOFc5NllzZU16RE1HYkpoaC1JVjhWNHhsYnUtemdkbzgySnhGZGhybG9RZXRBWGNnVjdyVGtJLVRrTXVCSWhsQ2VFZGI1aDNCUDJ3N3ZfUVhSWklMVC1nNkZpcjFmSHJpTjh3TmRuOXhwckwwM3UwbjZ6eHhYalNvd2lvMEJ6ZDJrQzVndjZjczVFNA?oc=5
-7. **The AI Tool Changing How Doctors Practice Medicine - Forbes** — science angle
+6. **The AI Tool Changing How Doctors Practice Medicine - Forbes** — science angle
    https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3l6MVZ5WW9UbE1KN2N0WV9HS3FrTWRicm1jUkY3b2hzQmNYTVFVcFNrd1RYeUUtM0FXVkNOcTFRd1ZmeFZsYmpGY1o5REtrejVZakhENGlTYUNtT1FhYjZfbG0tcV9VbVhNZUJZQ3Q0b0lDbk1wNUpjOWx3UzQzclI5cWtUVV9OZWlzaUI1QkIwWTlBWFl0QjcwU2FBNklXcWNqd3ZRSQ?oc=5
-8. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
+7. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
    https://text.npr.org/g-s1-134929
+8. **At one rural New Mexico hospital, doctors turn to AI tools - American Hospital Association** — science angle
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxOSnR6Qmh3NU5oS1YteldHR2FiWW5iOTRLMS1KakJGTWtaWjBGSjNPSE1jVGxfWGRnemdKQ3N4RnEtVXhDU3BxOEQzVEFtZnpxeVozTGhMakp1ZkxfenlUQnowbklTRzE0aXAyTGdVZEpxcEZRa1Q3NUhBUnNkUExfajk3NG1xczltSGpJa1BzeUs0SWRHcm83OW43QWlXOVZhbHFmN0Vn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -43,18 +43,18 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMiWkFVX3lxTE42cFZNQV9pc0pSVjh0WWhsMW8wQlZnaTlaM3Fnd291amFmWV9oVm1icFVMSGJ2ZFBKT1ZudndCVkY0ZHMwZ0xBOVlucWtTRG9fdWZ2emRrYkc1dw?oc=5
 9. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
-10. **Open Weights and American AI Leadership - Microsoft** — Microsoft AI — Score 53
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxQczZlRzdBN2sxLXp1U2Z6NnZ2elpFak1wSTUxOW5wbkNWdE5hWGp5WHJaSWJxR29rYnBXZ2hSWUNfMExHMi1Xc00zRXZJM0k3OTdhOGdDREhjYmdRR25SUUNTcGN3bXJBOVdadWtyXzRpdE9zWHlES3VNakFpbWpGb2x3?oc=5
+10. **ChatGPTDeutsch.info expands German-language AI platform with no-registration browser access** — openpr — Score 53
+   https://www.openpr.com/news/4585492/chatgptdeutsch-info-expands-german-language-ai-platform-with
 
 ## 🧪 AI in Science Highlights
 - **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 - **Cuban-Andreessen AI spat puts health insurers' use of AI in the spotlight - Insurance Business** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWN3Qm5FTzVzYTdGS3pueUVYTTZfQUN6ZUpIa194c1pZSmwzVmh4cmlIMzl1VXdaTU9yZEh2SGNGaWdxUFp3Y0hzR1NzZUtTZTRENkFreW1Jdk84MGdpZkVjbS1hdU5Bd3NaVi1CaFhES2Z6bFBuX2Y5Y0F2anZMLUhpb3BxYjlGbXNsdEJaU0pEc0pVUXRUclEtMlJCVm5rSndUSWNVeE9GY0ZUTmZXSzdyMVRFWUJXd2FRcmZ4YUxrck42RkJHNkZIU1VtbzQ?oc=5
 - **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — https://www.nature.com/articles/d41586-026-02213-0
-- **Google AI Outdiagnoses Doctors in Study of Nearly 14,000 Real Patients - Tech Times** — https://news.google.com/rss/articles/CBMiugFBVV95cUxOckc4dzZQQlUtNGk0X1hDRHQ1c1l6Z1FWcGxCclVwT3FNYmZsNWZqNlVjQXB0dVNhR2ZEazkxcEJORThVbHZtYUJNVHFmd19DX3pOWmFMZk5oanZtOFJxZVlxVUFjSnd1bFFCRklKVEQ1TzdSYklNazJMTVFxaWwyNld6cG40TEZFUFdycG9kdUVsQjlnV1NKSzgydHhab2dZVjVOdzVHcU83Und6Rko1NzFXcHFfS0UwNFE?oc=5
+- **ChatGPT wants access to your health records so it can be a better not-doctor - The Register** — https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3RQQjdQVWpubF84RUpnMjB2UGh1OUxIUWFwRjdvNElPajhET05FU3JQbjFEY2phU0c4SUE2RkVPalVnRFFocEZlN2loRTczV2szcXZmeU9YMGtUX3JCeW1kVDVUekRXSTRCQWNlRHI0aExVdjA5ZmtWM2ktOWdLSFBiVl9JZHRHcUd3QWc5YV84QW53X3RzUWRVQU5RUEVNdU0zaDRGMkp3ZFNqcDNtYS14RHBRckdPRkpLZnpSdWtwM0tka0JpUGg0Unc2QQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3539
+- Total stories tracked: 3529
 - Most active topic: models
 - Busiest category: AI General News
 
