@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3l6MVZ5WW9UbE1KN2N0WV9HS3FrTWRicm1jUkY3b2hzQmNYTVFVcFNrd1RYeUUtM0FXVkNOcTFRd1ZmeFZsYmpGY1o5REtrejVZakhENGlTYUNtT1FhYjZfbG0tcV9VbVhNZUJZQ3Q0b0lDbk1wNUpjOWx3UzQzclI5cWtUVV9OZWlzaUI1QkIwWTlBWFl0QjcwU2FBNklXcWNqd3ZRSQ?oc=5
 6. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
    https://text.npr.org/g-s1-134929
-7. **At one rural New Mexico hospital, doctors turn to AI tools - American Hospital Association** — science angle
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxOSnR6Qmh3NU5oS1YteldHR2FiWW5iOTRLMS1KakJGTWtaWjBGSjNPSE1jVGxfWGRnemdKQ3N4RnEtVXhDU3BxOEQzVEFtZnpxeVozTGhMakp1ZkxfenlUQnowbklTRzE0aXAyTGdVZEpxcEZRa1Q3NUhBUnNkUExfajk3NG1xczltSGpJa1BzeUs0SWRHcm83OW43QWlXOVZhbHFmN0Vn?oc=5
-8. **Doctor charged with using AI to remove bikinis from social media photos of young girls - Alachua Chronicle** — science angle
+7. **Doctor charged with using AI to remove bikinis from social media photos of young girls - Alachua Chronicle** — science angle
    https://news.google.com/rss/articles/CBMitwFBVV95cUxNeG4yc1dxX1RfalhydzNBVmVWZnR4VTMwWFI2ZHZiSGNRWXVRdG4tTzgyNF9lTHJ0VnMzcmNxTE9RaVU1UE9Tc0NqWEFuSmRjd2R3Z25SZDJQbVhaY1FyMGlHS3hqNVdkTlBjdFVrVUpUQVdtM3BHOHQwWE9NbDJmQ2dDRmRlVHVHNHVuSTRiZnBQRDRaRjlHTk5EYndoSjk1YUJDR3Nzb3F6VDR3MnFKSVpDNUJwb0E?oc=5
+8. **‘ChatGPT for Doctors’ Mulls New Financing at $20 Billion Valuation - The Information** — science angle
+   https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ2RUMVp2T3MyTWNPWjZId1U2NGlEUTQ2TUJtaGVibFVSNy11anJuX1preFhCVElDM3lBMktSRFFibTc4cHdhOHhzQ1lJWG9tUzRFNkhacXMxMlRtNHVGYk03YldBaDdjQl9ZeDJ3MTNaVWU5RTZNQXBBZ2ZKWWhSWTl3ZDRXNWVCU2VYdlpTcVdXX0VjUS1MREtBQjQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Doctors urge caution when using AI for medical advice - 13newsnow.com** — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRlp1V0tQSnRXQjFRRVQ5b01ZMjZxdTh2UHhrd2VxWElVNmxSWVVoT0ctajJwYnhQY290bDJoRFZJMXhzQWQ2TlZwendkOFc5NllzZU16RE1HYkpoaC1JVjhWNHhsYnUtemdkbzgySnhGZGhybG9RZXRBWGNnVjdyVGtJLVRrTXVCSWhsQ2VFZGI1aDNCUDJ3N3ZfUVhSWklMVC1nNkZpcjFmSHJpTjh3TmRuOXhwckwwM3UwbjZ6eHhYalNvd2lvMEJ6ZDJrQzVndjZjczVFNA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3528
+- Total stories tracked: 3541
 - Most active topic: models
 - Busiest category: AI General News
 
