@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T08:40:05.249344+00:00",
+  "generated_at": "2026-07-26T13:59:05.810864+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,8 +9,8 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 27,
-      "youtube": 98
+      "hackernews": 22,
+      "youtube": 106
     },
     "llm_provider": "groq"
   },
@@ -23,8 +23,8 @@
         "reddit"
       ],
       "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or marketing campaigns.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create visually appealing content for your business.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create engaging visual content for your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -41,40 +41,77 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media Marketing",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
+        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Opus 5",
+      "name": "GPT-5.6 Sol Ultra",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "Opus 5 is a state-of-the-art AI model that can solve complex problems.",
-      "audience_angle": "Opus 5 can help you automate tasks and improve your productivity.",
-      "linkedin_angle": "Discover how Opus 5 can help you streamline your business operations and gain a competitive edge.",
-      "local_relevance": 8,
+      "what_it_is": "GPT-5.6 Sol Ultra is a language model that can be used for a variety of tasks, including text generation and conversation.",
+      "audience_angle": "You can use GPT-5.6 Sol Ultra to automate tasks, generate content, and improve your productivity.",
+      "linkedin_angle": "Discover how GPT-5.6 Sol Ultra can help you streamline your workflow and increase efficiency.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "Opus 5 is an open-source model and does not have an affiliate program."
+        "affiliate_likely": true,
+        "note": "GPT-5.6 Sol Ultra has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models",
-          "signal": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v703m3/cant_switch_to_gpt56_sol_on_ios_only_seeing_55/",
+          "signal": "Can't switch to GPT-5.6 Sol on iOS, only seeing 5.5 High"
         }
       ],
       "content_ideas": [
-        "Introduction to Opus 5: The Future of AI",
-        "How to Use Opus 5 for Business Automation",
-        "Opus 5 vs Other AI Models: A Comparison"
+        "How to Get Started with GPT-5.6 Sol Ultra",
+        "5 Ways to Use GPT-5.6 Sol Ultra to Boost Your Productivity",
+        "GPT-5.6 Sol Ultra vs. Other Language Models: Which One is Best?"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "Claude is a language model that can be used for a variety of tasks, including text generation and conversation.",
+      "audience_angle": "You can use Claude to automate tasks, generate content, and improve your productivity.",
+      "linkedin_angle": "Explore how Claude can help you streamline your workflow and increase efficiency.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v6w630/claaude_security_flaw_leaks_its_customers/",
+          "signal": "Claaude security flaw leaks its customer's conversations on Google"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yIHf-PAXk0g",
+          "signal": "Claude Built this AI Tool and Monetize with Google Adsense"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude to Generate High-Quality Content",
+        "5 Ways to Use Claude to Automate Your Workflow",
+        "Claude vs. Other Language Models: Which One is Best?"
       ]
     },
     {
@@ -84,121 +121,90 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI models.",
-      "audience_angle": "You can use AI video generation to create engaging and personalized videos for your social media or marketing campaigns.",
-      "linkedin_angle": "Explore how AI video generation can help you create high-quality video content for your business.",
-      "local_relevance": 6,
+      "what_it_is": "AI video generation is the process of using artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create high-quality videos for your social media or website.",
+      "linkedin_angle": "Explore how AI video generation can help you create engaging visual content for your business.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "reel",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs that allow users to earn money by promoting the tools."
+        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting the tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "AI video generation tutorials and reviews"
+          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
+          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
         }
       ],
       "content_ideas": [
-        "How to Create Engaging Videos with AI",
-        "The Future of Video Content: AI Generation",
-        "AI Video Generation for Social Media Marketing"
+        "How to Use AI to Generate High-Quality Videos",
+        "10 Creative Ways to Use AI Video Generation for Your Business",
+        "AI Video Generation Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
+      "name": "AI for Trading",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage chatbots for their businesses.",
-      "audience_angle": "You can use ChatGPT Work to automate customer support and improve your customer experience.",
-      "linkedin_angle": "Discover how ChatGPT Work can help you streamline your customer support and gain a competitive edge.",
+      "what_it_is": "AI for trading is the use of artificial intelligence to make predictions and decisions in the financial markets.",
+      "audience_angle": "You can use AI for trading to make more informed investment decisions and potentially increase your returns.",
+      "linkedin_angle": "Explore how AI for trading can help you stay ahead of the curve and make more informed investment decisions.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "AI for trading tools often have affiliate programs that allow users to earn money by promoting the tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
-          "signal": "ChatGPT Work tutorials and reviews"
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
+          "signal": "how to use ai for trading"
         }
       ],
       "content_ideas": [
-        "Introduction to ChatGPT Work: The Future of Customer Support",
-        "How to Use ChatGPT Work for Business Automation",
-        "ChatGPT Work vs Other Chatbot Tools: A Comparison"
+        "How to Get Started with AI for Trading",
+        "5 Ways to Use AI for Trading to Improve Your Investment Decisions",
+        "AI for Trading vs. Traditional Trading Methods: Which One is Best?"
       ]
     },
     {
-      "name": "GPT-5.6 Sol Ultra",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "AI for Business",
+      "category": "use_case",
+      "momentum": "cooling",
       "platforms": [
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "GPT-5.6 Sol Ultra is a state-of-the-art AI model that can solve complex problems.",
-      "audience_angle": "GPT-5.6 Sol Ultra can help you automate tasks and improve your productivity.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol Ultra can help you streamline your business operations and gain a competitive edge.",
-      "local_relevance": 5,
+      "what_it_is": "AI for business is the use of artificial intelligence to improve business operations and decision-making.",
+      "audience_angle": "You can use AI for business to streamline your workflow, improve customer service, and increase efficiency.",
+      "linkedin_angle": "Explore how AI for business can help you stay ahead of the curve and improve your bottom line.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "GPT-5.6 Sol Ultra is an open-source model and does not have an affiliate program."
+        "affiliate_likely": true,
+        "note": "AI for business tools often have affiliate programs that allow users to earn money by promoting the tools."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v6cu85/pov_using_gpt56_sol_ultra_to_rename_a_variable/",
-          "signal": "POV: Using GPT-5.6 Sol Ultra to rename a variable"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+business",
+          "signal": "how to use ai for business"
         }
       ],
       "content_ideas": [
-        "Introduction to GPT-5.6 Sol Ultra: The Future of AI",
-        "How to Use GPT-5.6 Sol Ultra for Business Automation",
-        "GPT-5.6 Sol Ultra vs Other AI Models: A Comparison"
-      ]
-    },
-    {
-      "name": "Kimi K3",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Kimi K3 is a state-of-the-art AI model that can solve complex problems.",
-      "audience_angle": "Kimi K3 can help you automate tasks and improve your productivity.",
-      "linkedin_angle": "Discover how Kimi K3 can help you streamline your business operations and gain a competitive edge.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Kimi K3 is an open-source model and does not have an affiliate program."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
-          "signal": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Kimi K3: The Future of AI",
-        "How to Use Kimi K3 for Business Automation",
-        "Kimi K3 vs Other AI Models: A Comparison"
+        "How to Use AI to Improve Your Business Operations",
+        "5 Ways to Use AI to Enhance Customer Service",
+        "AI for Business vs. Traditional Business Methods: Which One is Best?"
       ]
     }
   ],
@@ -211,8 +217,8 @@
         "reddit"
       ],
       "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or marketing campaigns.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create visually appealing content for your business.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create engaging visual content for your business.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -229,140 +235,84 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media Marketing",
-        "Creating Personalized Images with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
+        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
       ]
     },
     {
       "name": "GPT-5.6 Sol Ultra",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "GPT-5.6 Sol Ultra is a state-of-the-art AI model that can solve complex problems.",
-      "audience_angle": "GPT-5.6 Sol Ultra can help you automate tasks and improve your productivity.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol Ultra can help you streamline your business operations and gain a competitive edge.",
-      "local_relevance": 5,
+      "what_it_is": "GPT-5.6 Sol Ultra is a language model that can be used for a variety of tasks, including text generation and conversation.",
+      "audience_angle": "You can use GPT-5.6 Sol Ultra to automate tasks, generate content, and improve your productivity.",
+      "linkedin_angle": "Discover how GPT-5.6 Sol Ultra can help you streamline your workflow and increase efficiency.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "GPT-5.6 Sol Ultra is an open-source model and does not have an affiliate program."
+        "affiliate_likely": true,
+        "note": "GPT-5.6 Sol Ultra has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v6cu85/pov_using_gpt56_sol_ultra_to_rename_a_variable/",
-          "signal": "POV: Using GPT-5.6 Sol Ultra to rename a variable"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v703m3/cant_switch_to_gpt56_sol_on_ios_only_seeing_55/",
+          "signal": "Can't switch to GPT-5.6 Sol on iOS, only seeing 5.5 High"
         }
       ],
       "content_ideas": [
-        "Introduction to GPT-5.6 Sol Ultra: The Future of AI",
-        "How to Use GPT-5.6 Sol Ultra for Business Automation",
-        "GPT-5.6 Sol Ultra vs Other AI Models: A Comparison"
+        "How to Get Started with GPT-5.6 Sol Ultra",
+        "5 Ways to Use GPT-5.6 Sol Ultra to Boost Your Productivity",
+        "GPT-5.6 Sol Ultra vs. Other Language Models: Which One is Best?"
       ]
     },
     {
-      "name": "Opus 5",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Opus 5 is a state-of-the-art AI model that can solve complex problems.",
-      "audience_angle": "Opus 5 can help you automate tasks and improve your productivity.",
-      "linkedin_angle": "Discover how Opus 5 can help you streamline your business operations and gain a competitive edge.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Opus 5 is an open-source model and does not have an affiliate program."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models",
-          "signal": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Opus 5: The Future of AI",
-        "How to Use Opus 5 for Business Automation",
-        "Opus 5 vs Other AI Models: A Comparison"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to create and manage chatbots for their businesses.",
-      "audience_angle": "You can use ChatGPT Work to automate customer support and improve your customer experience.",
-      "linkedin_angle": "Discover how ChatGPT Work can help you streamline your customer support and gain a competitive edge.",
-      "local_relevance": 7,
+      "what_it_is": "Claude is a language model that can be used for a variety of tasks, including text generation and conversation.",
+      "audience_angle": "You can use Claude to automate tasks, generate content, and improve your productivity.",
+      "linkedin_angle": "Explore how Claude can help you streamline your workflow and increase efficiency.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "Claude has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v6w630/claaude_security_flaw_leaks_its_customers/",
+          "signal": "Claaude security flaw leaks its customer's conversations on Google"
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
-          "signal": "ChatGPT Work tutorials and reviews"
+          "url": "https://www.youtube.com/watch?v=yIHf-PAXk0g",
+          "signal": "Claude Built this AI Tool and Monetize with Google Adsense"
         }
       ],
       "content_ideas": [
-        "Introduction to ChatGPT Work: The Future of Customer Support",
-        "How to Use ChatGPT Work for Business Automation",
-        "ChatGPT Work vs Other Chatbot Tools: A Comparison"
-      ]
-    },
-    {
-      "name": "Kimi K3",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Kimi K3 is a state-of-the-art AI model that can solve complex problems.",
-      "audience_angle": "Kimi K3 can help you automate tasks and improve your productivity.",
-      "linkedin_angle": "Discover how Kimi K3 can help you streamline your business operations and gain a competitive edge.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Kimi K3 is an open-source model and does not have an affiliate program."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
-          "signal": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Kimi K3: The Future of AI",
-        "How to Use Kimi K3 for Business Automation",
-        "Kimi K3 vs Other AI Models: A Comparison"
+        "How to Use Claude to Generate High-Quality Content",
+        "5 Ways to Use Claude to Automate Your Workflow",
+        "Claude vs. Other Language Models: Which One is Best?"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Users of Claude AI model",
+      "who_affected": "Claude users",
       "signal_strength": 6,
       "sources": [
         {
@@ -373,17 +323,17 @@
       "content_opportunity": "How to Overcome Claude Usage/Token Limits: A Step-by-Step Guide"
     },
     {
-      "problem": "AI-powered license plate readers raising privacy concerns",
-      "who_affected": "Students and individuals concerned about privacy",
+      "problem": "AI model not following instructions",
+      "who_affected": "AI users",
       "signal_strength": 5,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HuOKqt2Gq4c"
+          "platform": "hackernews",
+          "url": "https://rewardhacking.org"
         }
       ],
-      "content_opportunity": "The Dark Side of AI: How License Plate Readers Are Invading Your Privacy"
+      "content_opportunity": "How to Get Your AI Model to Follow Instructions: Tips and Tricks"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Work"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
