@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **ChatGPT wants access to your health records so it can be a better not-doctor - The Register** — https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3RQQjdQVWpubF84RUpnMjB2UGh1OUxIUWFwRjdvNElPajhET05FU3JQbjFEY2phU0c4SUE2RkVPalVnRFFocEZlN2loRTczV2szcXZmeU9YMGtUX3JCeW1kVDVUekRXSTRCQWNlRHI0aExVdjA5ZmtWM2ktOWdLSFBiVl9JZHRHcUd3QWc5YV84QW53X3RzUWRVQU5RUEVNdU0zaDRGMkp3ZFNqcDNtYS14RHBRckdPRkpLZnpSdWtwM0tka0JpUGg0Unc2QQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3529
+- Total stories tracked: 3518
 - Most active topic: models
 - Busiest category: AI General News
 
