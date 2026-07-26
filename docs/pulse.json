@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:59:05.810864+00:00",
+  "generated_at": "2026-07-26T19:36:05.867774+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,130 +9,37 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create engaging visual content for your business.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "Create amazing images with just a few words.",
+      "linkedin_angle": "Explore the potential of AI-generated images for marketing and branding.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
-        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "GPT-5.6 Sol Ultra",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "GPT-5.6 Sol Ultra is a language model that can be used for a variety of tasks, including text generation and conversation.",
-      "audience_angle": "You can use GPT-5.6 Sol Ultra to automate tasks, generate content, and improve your productivity.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol Ultra can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-5.6 Sol Ultra has an affiliate program that allows users to earn money by promoting the tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v703m3/cant_switch_to_gpt56_sol_on_ios_only_seeing_55/",
-          "signal": "Can't switch to GPT-5.6 Sol on iOS, only seeing 5.5 High"
-        }
-      ],
-      "content_ideas": [
-        "How to Get Started with GPT-5.6 Sol Ultra",
-        "5 Ways to Use GPT-5.6 Sol Ultra to Boost Your Productivity",
-        "GPT-5.6 Sol Ultra vs. Other Language Models: Which One is Best?"
-      ]
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "Claude is a language model that can be used for a variety of tasks, including text generation and conversation.",
-      "audience_angle": "You can use Claude to automate tasks, generate content, and improve your productivity.",
-      "linkedin_angle": "Explore how Claude can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program that allows users to earn money by promoting the tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v6w630/claaude_security_flaw_leaks_its_customers/",
-          "signal": "Claaude security flaw leaks its customer's conversations on Google"
         },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=yIHf-PAXk0g",
-          "signal": "Claude Built this AI Tool and Monetize with Google Adsense"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude to Generate High-Quality Content",
-        "5 Ways to Use Claude to Automate Your Workflow",
-        "Claude vs. Other Language Models: Which One is Best?"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation is the process of using artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create high-quality videos for your social media or website.",
-      "linkedin_angle": "Explore how AI video generation can help you create engaging visual content for your business.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting the tools."
-      },
-      "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
@@ -140,155 +47,60 @@
         }
       ],
       "content_ideas": [
-        "How to Use AI to Generate High-Quality Videos",
-        "10 Creative Ways to Use AI Video Generation for Your Business",
-        "AI Video Generation Tutorial: A Step-by-Step Guide"
+        "How to Create Stunning Images with ChatGPT",
+        "The Future of Art: ChatGPT Image Generation",
+        "Using ChatGPT for Graphic Design: A Beginner's Guide"
       ]
     },
     {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "hot",
+      "name": "AI Video Generation",
+      "category": "technique",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI for trading is the use of artificial intelligence to make predictions and decisions in the financial markets.",
-      "audience_angle": "You can use AI for trading to make more informed investment decisions and potentially increase your returns.",
-      "linkedin_angle": "Explore how AI for trading can help you stay ahead of the curve and make more informed investment decisions.",
-      "local_relevance": 7,
+      "what_it_is": "AI can generate videos based on text prompts or images.",
+      "audience_angle": "Create professional-looking videos without extensive video production experience.",
+      "linkedin_angle": "Leverage AI video generation for business marketing and storytelling.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI for trading tools often have affiliate programs that allow users to earn money by promoting the tools."
+        "note": "Several AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "how to use ai for trading"
+          "url": "https://www.youtube.com/watch?v=xpHmIfpaqlA",
+          "signal": "Make Long AI Videos FREE One Click, Voice + Lip Sync AI Video kaise banaye FREE AI Video Generator"
         }
       ],
       "content_ideas": [
-        "How to Get Started with AI for Trading",
-        "5 Ways to Use AI for Trading to Improve Your Investment Decisions",
-        "AI for Trading vs. Traditional Trading Methods: Which One is Best?"
+        "How to Make Money with AI-Generated Videos",
+        "The Best AI Video Generation Tools for Beginners",
+        "Using AI for Video Production: Tips and Tricks"
       ]
     },
     {
-      "name": "AI for Business",
-      "category": "use_case",
-      "momentum": "cooling",
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "AI for business is the use of artificial intelligence to improve business operations and decision-making.",
-      "audience_angle": "You can use AI for business to streamline your workflow, improve customer service, and increase efficiency.",
-      "linkedin_angle": "Explore how AI for business can help you stay ahead of the curve and improve your bottom line.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI for business tools often have affiliate programs that allow users to earn money by promoting the tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+business",
-          "signal": "how to use ai for business"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI to Improve Your Business Operations",
-        "5 Ways to Use AI to Enhance Customer Service",
-        "AI for Business vs. Traditional Business Methods: Which One is Best?"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can help you create engaging visual content for your business.",
-      "local_relevance": 5,
+      "what_it_is": "Claude is an AI tool that can be used for various tasks, including content creation and research.",
+      "audience_angle": "Unlock the potential of Claude AI for your personal and professional projects.",
+      "linkedin_angle": "Discover how Claude AI can boost your productivity and efficiency.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
-        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "GPT-5.6 Sol Ultra",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "GPT-5.6 Sol Ultra is a language model that can be used for a variety of tasks, including text generation and conversation.",
-      "audience_angle": "You can use GPT-5.6 Sol Ultra to automate tasks, generate content, and improve your productivity.",
-      "linkedin_angle": "Discover how GPT-5.6 Sol Ultra can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT-5.6 Sol Ultra has an affiliate program that allows users to earn money by promoting the tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v703m3/cant_switch_to_gpt56_sol_on_ios_only_seeing_55/",
-          "signal": "Can't switch to GPT-5.6 Sol on iOS, only seeing 5.5 High"
-        }
-      ],
-      "content_ideas": [
-        "How to Get Started with GPT-5.6 Sol Ultra",
-        "5 Ways to Use GPT-5.6 Sol Ultra to Boost Your Productivity",
-        "GPT-5.6 Sol Ultra vs. Other Language Models: Which One is Best?"
-      ]
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "Claude is a language model that can be used for a variety of tasks, including text generation and conversation.",
-      "audience_angle": "You can use Claude to automate tasks, generate content, and improve your productivity.",
-      "linkedin_angle": "Explore how Claude can help you streamline your workflow and increase efficiency.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "Claude AI has an affiliate program for its users."
       },
       "sources": [
         {
@@ -303,16 +115,92 @@
         }
       ],
       "content_ideas": [
-        "How to Use Claude to Generate High-Quality Content",
-        "5 Ways to Use Claude to Automate Your Workflow",
-        "Claude vs. Other Language Models: Which One is Best?"
+        "How to Use Claude AI for Content Creation",
+        "The Benefits of Using Claude AI for Research",
+        "Claude AI vs. ChatGPT: Which is Better for Your Needs?"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Image Generation",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "Create amazing images with just a few words.",
+      "linkedin_angle": "Explore the potential of AI-generated images for marketing and branding.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
+          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Images with ChatGPT",
+        "The Future of Art: ChatGPT Image Generation",
+        "Using ChatGPT for Graphic Design: A Beginner's Guide"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "Claude is an AI tool that can be used for various tasks, including content creation and research.",
+      "audience_angle": "Unlock the potential of Claude AI for your personal and professional projects.",
+      "linkedin_angle": "Discover how Claude AI can boost your productivity and efficiency.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its users."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v6w630/claaude_security_flaw_leaks_its_customers/",
+          "signal": "Claaude security flaw leaks its customer's conversations on Google"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yIHf-PAXk0g",
+          "signal": "Claude Built this AI Tool and Monetize with Google Adsense"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Content Creation",
+        "The Benefits of Using Claude AI for Research",
+        "Claude AI vs. ChatGPT: Which is Better for Your Needs?"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "who_affected": "Claude AI users",
       "signal_strength": 6,
       "sources": [
         {
@@ -320,20 +208,8 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v6w630/claaude_security_flaw_leaks_its_customers/"
         }
       ],
-      "content_opportunity": "How to Overcome Claude Usage/Token Limits: A Step-by-Step Guide"
-    },
-    {
-      "problem": "AI model not following instructions",
-      "who_affected": "AI users",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://rewardhacking.org"
-        }
-      ],
-      "content_opportunity": "How to Get Your AI Model to Follow Instructions: Tips and Tricks"
+      "content_opportunity": "Workarounds for Claude AI usage limits and security concerns."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
