@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 18 Jul 2026 to 25 Jul 2026
+# 🗞️ AI THIS WEEK — 19 Jul 2026 to 26 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald**
@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
 7. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 61
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-8. **ChatGPTDeutsch.info expands German-language AI platform with no-registration browser access** — openpr — Score 56
-   https://www.openpr.com/news/4585492/chatgptdeutsch-info-expands-german-language-ai-platform-with
-9. **Lee meets Anthropic CEO Amodei, seeks support for S. Korea's AI sector - Yonhap News Agency** — Dario Amodei News — Score 56
+8. **Lee meets Anthropic CEO Amodei, seeks support for S. Korea's AI sector - Yonhap News Agency** — Dario Amodei News — Score 56
    https://news.google.com/rss/articles/CBMiWkFVX3lxTE42cFZNQV9pc0pSVjh0WWhsMW8wQlZnaTlaM3Fnd291amFmWV9oVm1icFVMSGJ2ZFBKT1ZudndCVkY0ZHMwZ0xBOVlucWtTRG9fdWZ2emRrYkc1dw?oc=5
-10. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
+9. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
+10. **Open Weights and American AI Leadership - Microsoft** — Microsoft AI — Score 53
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxQczZlRzdBN2sxLXp1U2Z6NnZ2elpFak1wSTUxOW5wbkNWdE5hWGp5WHJaSWJxR29rYnBXZ2hSWUNfMExHMi1Xc00zRXZJM0k3OTdhOGdDREhjYmdRR25SUUNTcGN3bXJBOVdadWtyXzRpdE9zWHlES3VNakFpbWpGb2x3?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Google AI Outdiagnoses Doctors in Study of Nearly 14,000 Real Patients - Tech Times** — https://news.google.com/rss/articles/CBMiugFBVV95cUxOckc4dzZQQlUtNGk0X1hDRHQ1c1l6Z1FWcGxCclVwT3FNYmZsNWZqNlVjQXB0dVNhR2ZEazkxcEJORThVbHZtYUJNVHFmd19DX3pOWmFMZk5oanZtOFJxZVlxVUFjSnd1bFFCRklKVEQ1TzdSYklNazJMTVFxaWwyNld6cG40TEZFUFdycG9kdUVsQjlnV1NKSzgydHhab2dZVjVOdzVHcU83Und6Rko1NzFXcHFfS0UwNFE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3521
+- Total stories tracked: 3539
 - Most active topic: models
 - Busiest category: AI General News
 
