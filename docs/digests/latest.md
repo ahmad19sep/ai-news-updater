@@ -37,7 +37,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
 6. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
-7. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 61
+7. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
 8. **Lee meets Anthropic CEO Amodei, seeks support for S. Korea's AI sector - Yonhap News Agency** — Dario Amodei News — Score 56
    https://news.google.com/rss/articles/CBMiWkFVX3lxTE42cFZNQV9pc0pSVjh0WWhsMW8wQlZnaTlaM3Fnd291amFmWV9oVm1icFVMSGJ2ZFBKT1ZudndCVkY0ZHMwZ0xBOVlucWtTRG9fdWZ2emRrYkc1dw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Doctors urge caution when using AI for medical advice - 13newsnow.com** — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRlp1V0tQSnRXQjFRRVQ5b01ZMjZxdTh2UHhrd2VxWElVNmxSWVVoT0ctajJwYnhQY290bDJoRFZJMXhzQWQ2TlZwendkOFc5NllzZU16RE1HYkpoaC1JVjhWNHhsYnUtemdkbzgySnhGZGhybG9RZXRBWGNnVjdyVGtJLVRrTXVCSWhsQ2VFZGI1aDNCUDJ3N3ZfUVhSWklMVC1nNkZpcjFmSHJpTjh3TmRuOXhwckwwM3UwbjZ6eHhYalNvd2lvMEJ6ZDJrQzVndjZjczVFNA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3517
+- Total stories tracked: 3528
 - Most active topic: models
 - Busiest category: AI General News
 
