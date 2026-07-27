@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3580
+- Total stories tracked: 3573
 - Most active topic: models
 - Busiest category: AI General News
 
