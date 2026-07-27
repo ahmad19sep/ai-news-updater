@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
 5. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
-6. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
+6. **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — science angle
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
+7. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
    https://text.npr.org/g-s1-134929
-7. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
-   https://news.google.com/rss/articles/CBMidkFVX3lxTE1zRFQ3UjBnT1lDTHhveFNoQ0FmQ0NMODZBVklXcmxIVnYxQWdKSS1SSnI5M0NGTTJrTUNSQnN2MTJDVkxWRUVLZU9Oa3VYTmNKQXdTRk9FaUhDQjh5MUdDZVk2YVFtS1F0eC1hX1d6QzhYcEdRUGc?oc=5
-8. **AI Outperformed Doctors on a Medical Exam. Africa Should Be Paying Attention - Dawan Africa** — science angle
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLWctdlVVQU1BMXF5Vi1lbC1YQUdCTkVodWotSFhYdHpHYzFvU1pfSUtlU2lrVmJtZ1F2RmJLaUxTZXo0ckxVb0RWeDlRdFQ0bGhiUm51WjJ4TkFzdW43WkVVZHBPYl9waWVqN0YyVGduOWZ3WGlaalhjUi1CQVBkR3ZvMmxHY0k5dGdvc3lRdWhjcDFDMEo5UHlHdmhQeDJ0dy1CVEtkRi0?oc=5
+8. **NCH utilizes AI-enhanced stethoscope to detect heart conditions doctors may miss - Gulf Coast News and Weather** — science angle
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxQZkhwRjlUUGhGNDZSa3BPYzRQUTdBMU5kWTgydi04X2o0Y1FzRHhlaGhEckRhMWc4OXFwSTZhc1N2TzhSaDFONUJCbHMza2R1VXljR2JnVkM0ZS1BYnFTRjl1dzdlRWpjeFc3NGM4WUJLekZJbzNiOFFEdTNFUk9zVkstOGNKcEJGVEgyWlVPUmZub2EwUU13VA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
 7. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-8. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 56
+8. **For some, so-called 'Skynet Day' came too close to sci-fi after a rogue agent hacked into a startup - Bangor Daily News** — Sam Altman News — Score 56
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ2FhM3hfZUIxU3Y5WXMxQ1ctUDNJc2ZhZFJIa0tKWGNFR2xNTWJsMlkxcURsbWR0RHV1RWpjOXVNVVpFZlRQWDR0N2V2b2s5VUpFS3JkNTl1bV9QWGtadGNqc0ZsUUlJUVdfdGtNUl9oMWRBUzFpdl9udVB2VGVpazRWYWRlMVlkM3lkNF9PbWpycEJ5RDV1SmN1WVY5RXB4N0hGZVFOb3VIdzlHY1FBRDJZUEg4bTlDQThBY29wbHlWcmo2Q0kyVkRfcnZoRVFHWDdGczY5MVVtNkt3cjh0bQ?oc=5
+9. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 56
    https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
-9. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
-10. **ChatGPTDeutsch.info expands German-language AI platform with no-registration browser access** — openpr — Score 53
-   https://www.openpr.com/news/4585492/chatgptdeutsch-info-expands-german-language-ai-platform-with
+10. **China’s Moonshot to release breakthrough AI model for download - Free Malaysia Today** — DeepSeek News — Score 56
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaU9HenU1NnFSMDNOSV9GS0lKZmhmaWczd3VxTjdpNnFraDJWWG5FdTZzdktTQlc5M250ZzFWZXkzSFhjVTlKZG03YWpaelMwamlpMVlTWURVT1RZOGFXajJhWXVYNDBCWFpyNEtPZ3J3ckN0bjZ0MzZPX0NtTHlGc0hscngwZDZkZGVHbjFWaEZRaF9tVXB6aFJkaE9UYVB3VlVyMnFkODV0S2RwTnVwUzBSd1A4MmpYQ3dkOVZDVGQyWFE?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3544
+- Total stories tracked: 3580
 - Most active topic: models
 - Busiest category: AI General News
 
