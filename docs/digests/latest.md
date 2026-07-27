@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 3. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-4. **The AI Tool Changing How Doctors Practice Medicine - Forbes** — science angle
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3l6MVZ5WW9UbE1KN2N0WV9HS3FrTWRicm1jUkY3b2hzQmNYTVFVcFNrd1RYeUUtM0FXVkNOcTFRd1ZmeFZsYmpGY1o5REtrejVZakhENGlTYUNtT1FhYjZfbG0tcV9VbVhNZUJZQ3Q0b0lDbk1wNUpjOWx3UzQzclI5cWtUVV9OZWlzaUI1QkIwWTlBWFl0QjcwU2FBNklXcWNqd3ZRSQ?oc=5
-5. **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — science angle
+4. **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — science angle
    https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
-6. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
+5. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
-7. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
+6. **AI tool may help doctors, but sample size too small** — 1 upvotes on Reddit/HN
    https://text.npr.org/g-s1-134929
-8. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
+7. **Ping An Good Doctor Showcases "AI + Human" Dual Engine at WAIC, Consultation Costs Plunge 45% - finance.biggo.com** — science angle
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1zRFQ3UjBnT1lDTHhveFNoQ0FmQ0NMODZBVklXcmxIVnYxQWdKSS1SSnI5M0NGTTJrTUNSQnN2MTJDVkxWRUVLZU9Oa3VYTmNKQXdTRk9FaUhDQjh5MUdDZVk2YVFtS1F0eC1hX1d6QzhYcEdRUGc?oc=5
+8. **AI Outperformed Doctors on a Medical Exam. Africa Should Be Paying Attention - Dawan Africa** — science angle
+   https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLWctdlVVQU1BMXF5Vi1lbC1YQUdCTkVodWotSFhYdHpHYzFvU1pfSUtlU2lrVmJtZ1F2RmJLaUxTZXo0ckxVb0RWeDlRdFQ0bGhiUm51WjJ4TkFzdW43WkVVZHBPYl9waWVqN0YyVGduOWZ3WGlaalhjUi1CQVBkR3ZvMmxHY0k5dGdvc3lRdWhjcDFDMEo5UHlHdmhQeDJ0dy1CVEtkRi0?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Doctors Develop Guiding Principles for Future of AI in Healthcare - UVA Health** — https://news.google.com/rss/articles/CBMingFBVV95cUxOSEZwdVotdWxaLTFfenN1RDliV29fOW9YOW5MWDZlbGNjRjV1Sl9rSGt6dkJ5OTRTMnhISjFlaVJQQVl3WjlLM2EzcXltblJaYnRUUUs5ZGgxS0U3T1ZaSDNVNEV1RTNUYm9GTENEZ3FoWkM2SEthWFRXZTlRelFwZER1ODYwVnZHTmNEc1ZSZFJqUHhHZlcyUG5lNFZpQQ?oc=5
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 - **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — https://www.nature.com/articles/d41586-026-02213-0
-- **The AI Tool Changing How Doctors Practice Medicine - Forbes** — https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3l6MVZ5WW9UbE1KN2N0WV9HS3FrTWRicm1jUkY3b2hzQmNYTVFVcFNrd1RYeUUtM0FXVkNOcTFRd1ZmeFZsYmpGY1o5REtrejVZakhENGlTYUNtT1FhYjZfbG0tcV9VbVhNZUJZQ3Q0b0lDbk1wNUpjOWx3UzQzclI5cWtUVV9OZWlzaUI1QkIwWTlBWFl0QjcwU2FBNklXcWNqd3ZRSQ?oc=5
 - **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
+- **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3541
+- Total stories tracked: 3544
 - Most active topic: models
 - Busiest category: AI General News
 
