@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T14:40:13.514678+00:00",
+  "generated_at": "2026-07-28T19:54:39.650272+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,92 +8,67 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 27,
+      "reddit": 25,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "Krea2 image generation",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "ChatGPT usage and applications",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "Krea2 is an AI image generation tool.",
-      "audience_angle": "Create stunning images with Krea2, a powerful AI tool.",
-      "linkedin_angle": "Learn how Krea2 can enhance your professional visual content.",
+      "what_it_is": "ChatGPT is a conversational AI model that can be used for various tasks and applications.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and more.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for business and career growth.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Krea2 has an affiliate program for creators."
+        "note": "ChatGPT has an affiliate program for developers and businesses."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1v8dag3/i_love_how_krea2_makes_slight_out_of_the_focus/",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
           "signal": "40"
-        }
-      ],
-      "content_ideas": [
-        "How to create realistic images with Krea2",
-        "Krea2 vs other AI image generation tools",
-        "Making money with Krea2: a beginner's guide"
-      ]
-    },
-    {
-      "name": "ChatGPT for everyday tasks",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT is an AI chatbot that can help with various tasks.",
-      "audience_angle": "Use ChatGPT to simplify your daily tasks and increase productivity.",
-      "linkedin_angle": "Discover how ChatGPT can streamline your workflow and improve efficiency.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT."
-      },
-      "sources": [
+        },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v8t6r2/chatgpt_literally_saved_me_money_this_weekend/",
-          "signal": "38"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "10 ways to use ChatGPT for everyday tasks",
-        "ChatGPT for beginners: getting started",
-        "How ChatGPT can help you save time and money"
+        "10 Ways to Use ChatGPT for Business",
+        "How to Make Money with ChatGPT",
+        "ChatGPT Tutorial for Beginners"
       ]
     },
     {
       "name": "AI video generation",
-      "category": "technique",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technique for creating videos using AI tools.",
-      "audience_angle": "Create stunning videos with AI video generation techniques.",
-      "linkedin_angle": "Learn how AI video generation can enhance your professional video content.",
-      "local_relevance": 6,
+      "what_it_is": "AI video generation tools allow users to create videos using artificial intelligence.",
+      "audience_angle": "You can create stunning videos without extensive video production experience.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing and branding efforts.",
+      "local_relevance": 3,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs."
+        "note": "Some AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
@@ -103,225 +78,95 @@
         }
       ],
       "content_ideas": [
-        "How to create AI-generated videos for social media",
-        "AI video generation for beginners",
-        "Making money with AI-generated videos"
+        "How to Create AI Videos for Social Media",
+        "AI Video Generation Tutorial",
+        "Top 5 AI Video Generation Tools"
       ]
     },
     {
-      "name": "Claude AI for content creation",
-      "category": "tool_launch",
+      "name": "AI for earning and productivity",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Claude AI is a tool for creating content using AI.",
-      "audience_angle": "Use Claude AI to create high-quality content quickly and easily.",
-      "linkedin_angle": "Discover how Claude AI can enhance your content creation workflow.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "How to use Claude AI for content creation",
-        "Claude AI vs other AI content creation tools",
-        "Making money with Claude AI"
-      ]
-    },
-    {
-      "name": "AI for earning money",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI can be used to earn money through various methods.",
-      "audience_angle": "Learn how to use AI to earn money and increase your income.",
-      "linkedin_angle": "Discover how AI can help you earn money and achieve financial freedom.",
-      "local_relevance": 9,
+      "what_it_is": "AI can be used to increase productivity and earning potential.",
+      "audience_angle": "You can leverage AI to streamline tasks and generate income.",
+      "linkedin_angle": "Learn how to use AI to boost your career and business productivity.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI tools and courses have affiliate programs."
+        "note": "Some AI tools and courses offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
           "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "10 ways to use AI to earn money",
-        "AI for freelancers: how to increase your earnings",
-        "Making money with AI: a beginner's guide"
-      ]
-    },
-    {
-      "name": "Kimi K3 AI model",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Kimi K3 is a powerful AI model for various tasks.",
-      "audience_angle": "Learn how to use Kimi K3 for your projects and tasks.",
-      "linkedin_angle": "Discover how Kimi K3 can enhance your workflow and productivity.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Kimi K3."
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
-          "signal": "186"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v8t6r2/chatgpt_literally_saved_me_money_this_weekend/",
+          "signal": "36"
         }
       ],
       "content_ideas": [
-        "How to use Kimi K3 for your projects",
-        "Kimi K3 vs other AI models",
-        "Making the most of Kimi K3"
+        "How to Use AI for Freelancing",
+        "AI Productivity Tools for Entrepreneurs",
+        "5 Ways to Earn Money with AI"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Krea2 image generation",
+      "name": "AI video generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "Krea2 is an AI image generation tool.",
-      "audience_angle": "Create stunning images with Krea2, a powerful AI tool.",
-      "linkedin_angle": "Learn how Krea2 can enhance your professional visual content.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Krea2 has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1v8dag3/i_love_how_krea2_makes_slight_out_of_the_focus/",
-          "signal": "40"
-        }
-      ],
-      "content_ideas": [
-        "How to create realistic images with Krea2",
-        "Krea2 vs other AI image generation tools",
-        "Making money with Krea2: a beginner's guide"
-      ]
-    },
-    {
-      "name": "Claude AI for content creation",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude AI is a tool for creating content using AI.",
-      "audience_angle": "Use Claude AI to create high-quality content quickly and easily.",
-      "linkedin_angle": "Discover how Claude AI can enhance your content creation workflow.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation tools allow users to create videos using artificial intelligence.",
+      "audience_angle": "You can create stunning videos without extensive video production experience.",
+      "linkedin_angle": "Discover how AI video generation can enhance your marketing and branding efforts.",
+      "local_relevance": 3,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for creators."
+        "note": "Some AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
+          "url": "https://www.youtube.com/watch?v=O0jS3pXAJww",
           "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to use Claude AI for content creation",
-        "Claude AI vs other AI content creation tools",
-        "Making money with Claude AI"
-      ]
-    },
-    {
-      "name": "Kimi K3 AI model",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Kimi K3 is a powerful AI model for various tasks.",
-      "audience_angle": "Learn how to use Kimi K3 for your projects and tasks.",
-      "linkedin_angle": "Discover how Kimi K3 can enhance your workflow and productivity.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Kimi K3."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
-          "signal": "186"
-        }
-      ],
-      "content_ideas": [
-        "How to use Kimi K3 for your projects",
-        "Kimi K3 vs other AI models",
-        "Making the most of Kimi K3"
+        "How to Create AI Videos for Social Media",
+        "AI Video Generation Tutorial",
+        "Top 5 AI Video Generation Tools"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage limits and costs",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v8p0j7/we_got_another_usage_reset/"
-        }
-      ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
-    },
-    {
-      "problem": "AI-generated content quality",
-      "who_affected": "Content creators",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=t13MM2XKn1I"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v975nh/is_it_just_me_or_everyone_facing_serious_issues/"
         }
       ],
-      "content_opportunity": "Tips for improving AI-generated content quality"
+      "content_opportunity": "ChatGPT Cost Optimization Tips and Tricks"
     }
   ],
-  "tool_of_week_candidate": "Krea2"
+  "tool_of_week_candidate": "ChatGPT"
 }
