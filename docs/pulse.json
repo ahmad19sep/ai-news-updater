@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T09:06:29.108399+00:00",
+  "generated_at": "2026-07-28T14:40:13.514678+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,326 +8,182 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 24,
+      "reddit": 50,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "Krea2 image generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore how AI-powered image generation can revolutionize your marketing and design workflows.",
+      "what_it_is": "Krea2 is an AI image generation tool.",
+      "audience_angle": "Create stunning images with Krea2, a powerful AI tool.",
+      "linkedin_angle": "Learn how Krea2 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation feature has an affiliate program for creators."
+        "note": "Krea2 has an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
-          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1v8dag3/i_love_how_krea2_makes_slight_out_of_the_focus/",
+          "signal": "40"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT's Image Generation Feature",
-        "10 Creative Ways to Use ChatGPT's Image Generation for Your Business",
-        "ChatGPT Image Generation Tutorial: A Step-by-Step Guide"
+        "How to create realistic images with Krea2",
+        "Krea2 vs other AI image generation tools",
+        "Making money with Krea2: a beginner's guide"
       ]
     },
     {
-      "name": "Kimi K3",
-      "category": "tool_launch",
+      "name": "ChatGPT for everyday tasks",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "Kimi K3 is a new AI model available via Telnyx Inference API.",
-      "audience_angle": "Discover the capabilities of Kimi K3, the latest AI model available via Telnyx Inference API.",
-      "linkedin_angle": "Explore how Kimi K3 can enhance your business operations with its advanced AI capabilities.",
-      "local_relevance": 3,
-      "pillar": "explainer",
+      "what_it_is": "ChatGPT is an AI chatbot that can help with various tasks.",
+      "audience_angle": "Use ChatGPT to simplify your daily tasks and increase productivity.",
+      "linkedin_angle": "Discover how ChatGPT can streamline your workflow and improve efficiency.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available for Kimi K3."
+        "note": "No affiliate program available for ChatGPT."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
-          "signal": "Kimi K3 Now Available via Telnyx Inference API"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v8t6r2/chatgpt_literally_saved_me_money_this_weekend/",
+          "signal": "38"
         }
       ],
       "content_ideas": [
-        "What is Kimi K3 and How Can It Enhance Your Business?",
-        "Kimi K3 vs Other AI Models: A Comparison",
-        "Getting Started with Kimi K3: A Beginner's Guide"
+        "10 ways to use ChatGPT for everyday tasks",
+        "ChatGPT for beginners: getting started",
+        "How ChatGPT can help you save time and money"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "AI video generation",
+      "category": "technique",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation allows users to create videos based on text prompts or other inputs.",
-      "audience_angle": "Create stunning videos with just a few words using AI video generation.",
-      "linkedin_angle": "Explore how AI-powered video generation can revolutionize your marketing and content creation workflows.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation is a technique for creating videos using AI tools.",
+      "audience_angle": "Create stunning videos with AI video generation techniques.",
+      "linkedin_angle": "Learn how AI video generation can enhance your professional video content.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for creators."
+        "note": "Some AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=O0jS3pXAJww",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation",
-        "10 Creative Ways to Use AI Video Generation for Your Business",
-        "AI Video Generation Tutorial: A Step-by-Step Guide"
+        "How to create AI-generated videos for social media",
+        "AI video generation for beginners",
+        "Making money with AI-generated videos"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "Claude AI for content creation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a feature that allows users to automate tasks and workflows using ChatGPT.",
-      "audience_angle": "Automate your tasks and workflows with ChatGPT Work.",
-      "linkedin_angle": "Explore how ChatGPT Work can enhance your productivity and streamline your business operations.",
-      "local_relevance": 6,
+      "what_it_is": "Claude AI is a tool for creating content using AI.",
+      "audience_angle": "Use Claude AI to create high-quality content quickly and easily.",
+      "linkedin_angle": "Discover how Claude AI can enhance your content creation workflow.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for creators."
+        "note": "Claude AI has an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Get Started with ChatGPT Work",
-        "10 Ways to Automate Your Tasks with ChatGPT Work",
-        "ChatGPT Work Tutorial: A Step-by-Step Guide"
+        "How to use Claude AI for content creation",
+        "Claude AI vs other AI content creation tools",
+        "Making money with Claude AI"
       ]
     },
     {
-      "name": "FeyNoBg",
-      "category": "tool_launch",
+      "name": "AI for earning money",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "FeyNoBg is an automatic background removal model and training library.",
-      "audience_angle": "Remove backgrounds from images automatically with FeyNoBg.",
-      "linkedin_angle": "Explore how FeyNoBg can enhance your image editing workflows and improve productivity.",
-      "local_relevance": 4,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for FeyNoBg."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://usefeyn.com/blog/feynobg/",
-          "signal": "Show HN: FeyNoBg – Automatic background removal model and training library"
-        }
-      ],
-      "content_ideas": [
-        "What is FeyNoBg and How Can It Enhance Your Image Editing Workflows?",
-        "FeyNoBg Tutorial: A Step-by-Step Guide",
-        "Using FeyNoBg for Background Removal: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "AI Cybersecurity",
-      "category": "debate",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "The use of AI in cybersecurity is a topic of debate, with some arguing it can improve security and others arguing it can create new vulnerabilities.",
-      "audience_angle": "Explore the debate around AI in cybersecurity and its potential impact on your business.",
-      "linkedin_angle": "Join the discussion on the role of AI in cybersecurity and its implications for your organization.",
-      "local_relevance": 8,
-      "pillar": "news",
+      "what_it_is": "AI can be used to earn money through various methods.",
+      "audience_angle": "Learn how to use AI to earn money and increase your income.",
+      "linkedin_angle": "Discover how AI can help you earn money and achieve financial freedom.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for AI cybersecurity debate."
+        "affiliate_likely": true,
+        "note": "Some AI tools and courses have affiliate programs."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
-          "signal": "Nvidia's $750B in Deals Reignite Circular AI Fears"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VL00OlXvqi8",
-          "signal": "OpenAI says cybersecurity bot went rogue and hacked a company"
+          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "The Pros and Cons of AI in Cybersecurity",
-        "The Future of Cybersecurity: How AI Will Change the Game",
-        "AI in Cybersecurity: Separating Fact from Fiction"
+        "10 ways to use AI to earn money",
+        "AI for freelancers: how to increase your earnings",
+        "Making money with AI: a beginner's guide"
       ]
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "ChatGPT Image Generation",
+      "name": "Kimi K3 AI model",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Explore how AI-powered image generation can revolutionize your marketing and design workflows.",
+      "what_it_is": "Kimi K3 is a powerful AI model for various tasks.",
+      "audience_angle": "Learn how to use Kimi K3 for your projects and tasks.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your workflow and productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT's image generation feature has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
-          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT's Image Generation Feature",
-        "10 Creative Ways to Use ChatGPT's Image Generation for Your Business",
-        "ChatGPT Image Generation Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "FeyNoBg",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "FeyNoBg is an automatic background removal model and training library.",
-      "audience_angle": "Remove backgrounds from images automatically with FeyNoBg.",
-      "linkedin_angle": "Explore how FeyNoBg can enhance your image editing workflows and improve productivity.",
-      "local_relevance": 4,
-      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for FeyNoBg."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://usefeyn.com/blog/feynobg/",
-          "signal": "Show HN: FeyNoBg – Automatic background removal model and training library"
-        }
-      ],
-      "content_ideas": [
-        "What is FeyNoBg and How Can It Enhance Your Image Editing Workflows?",
-        "FeyNoBg Tutorial: A Step-by-Step Guide",
-        "Using FeyNoBg for Background Removal: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a feature that allows users to automate tasks and workflows using ChatGPT.",
-      "audience_angle": "Automate your tasks and workflows with ChatGPT Work.",
-      "linkedin_angle": "Explore how ChatGPT Work can enhance your productivity and streamline your business operations.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
       "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
-        }
-      ],
-      "content_ideas": [
-        "How to Get Started with ChatGPT Work",
-        "10 Ways to Automate Your Tasks with ChatGPT Work",
-        "ChatGPT Work Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "Kimi K3",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Kimi K3 is a new AI model available via Telnyx Inference API.",
-      "audience_angle": "Discover the capabilities of Kimi K3, the latest AI model available via Telnyx Inference API.",
-      "linkedin_angle": "Explore how Kimi K3 can enhance your business operations with its advanced AI capabilities.",
-      "local_relevance": 3,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": "No affiliate program available for Kimi K3."
@@ -336,41 +192,136 @@
         {
           "platform": "hackernews",
           "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
-          "signal": "Kimi K3 Now Available via Telnyx Inference API"
+          "signal": "186"
         }
       ],
       "content_ideas": [
-        "What is Kimi K3 and How Can It Enhance Your Business?",
-        "Kimi K3 vs Other AI Models: A Comparison",
-        "Getting Started with Kimi K3: A Beginner's Guide"
+        "How to use Kimi K3 for your projects",
+        "Kimi K3 vs other AI models",
+        "Making the most of Kimi K3"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Krea2 image generation",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "Krea2 is an AI image generation tool.",
+      "audience_angle": "Create stunning images with Krea2, a powerful AI tool.",
+      "linkedin_angle": "Learn how Krea2 can enhance your professional visual content.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Krea2 has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1v8dag3/i_love_how_krea2_makes_slight_out_of_the_focus/",
+          "signal": "40"
+        }
+      ],
+      "content_ideas": [
+        "How to create realistic images with Krea2",
+        "Krea2 vs other AI image generation tools",
+        "Making money with Krea2: a beginner's guide"
+      ]
+    },
+    {
+      "name": "Claude AI for content creation",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude AI is a tool for creating content using AI.",
+      "audience_angle": "Use Claude AI to create high-quality content quickly and easily.",
+      "linkedin_angle": "Discover how Claude AI can enhance your content creation workflow.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to use Claude AI for content creation",
+        "Claude AI vs other AI content creation tools",
+        "Making money with Claude AI"
+      ]
+    },
+    {
+      "name": "Kimi K3 AI model",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Kimi K3 is a powerful AI model for various tasks.",
+      "audience_angle": "Learn how to use Kimi K3 for your projects and tasks.",
+      "linkedin_angle": "Discover how Kimi K3 can enhance your workflow and productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Kimi K3."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
+          "signal": "186"
+        }
+      ],
+      "content_ideas": [
+        "How to use Kimi K3 for your projects",
+        "Kimi K3 vs other AI models",
+        "Making the most of Kimi K3"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v8p0j7/we_got_another_usage_reset/"
         }
       ],
-      "content_opportunity": "How to Work Around ChatGPT Usage Limits and Token Limits"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     },
     {
-      "problem": "AI-generated content quality issues",
-      "who_affected": "Content creators and businesses",
-      "signal_strength": 5,
+      "problem": "AI-generated content quality",
+      "who_affected": "Content creators",
+      "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=t13MM2XKn1I"
         }
       ],
-      "content_opportunity": "Tips for Improving the Quality of AI-Generated Content"
+      "content_opportunity": "Tips for improving AI-generated content quality"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation, because it allows users to create stunning images with just a few words and has a wide range of applications for businesses and individuals."
+  "tool_of_week_candidate": "Krea2"
 }
