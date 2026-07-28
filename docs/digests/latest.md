@@ -13,48 +13,48 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
 3. **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — science angle
    https://www.nature.com/articles/d41586-026-02213-0
-4. **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — science angle
-   https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
-5. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
+4. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
-6. **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — science angle
+5. **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — science angle
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
-7. **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — science angle
+6. **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
-8. **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — science angle
+7. **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzdoSGxKY2IweS1USEpRVEVOZ1JqRkU0bTM4NTZnRjJGU2pwMDNnMDJ1NWo2QUZoSVpqZlpfcjFCc2VRMHVyRUoySjFaLWZEc1g2ZmJMWWF6U0l0LWVHc0hQeTNiby10S0VkeW82Yi1qSnJXVEVrX093RE9LdjJ6WTFkajVpdzJhOUowdVhHNngtYXNkRDQyNmdONlE2RFpXV2ctS0xYU0ZsS2xKSW9actIBxAFBVV95cUxOWXg5TXUyZVFqVC1lNkhTZ1djZ1QtRHRCTUJGMEVaY2dfcDc5OGtEX2tuZ3hmbmV0WTI0Rmctek5TUW5ia0VSV0RGN1B4bnY2WE9UbFpXVHp6V0tVWURFQmgtSi1feVpaZFhkRi05bDE4SXRMaHBNSmFYMVUtS2pMZWJNX3p3OG95dG5pVllkSF8tUUFmbjlXUHpUSFlwUElVYlVHT3JfRGxha0lMd05OZkY1Uk5CNGFtQ1ZIclBpd0xtWW5W?oc=5
+8. **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — science angle
+   https://news.google.com/rss/articles/CBMiigFBVV95cUxQUk9wazdTMTdyQVRZamQ3ZE5US25HTi1WTTBCSEw1cnhWUVRVNmxpODdhOHBPTmNXcUFKMG1laTJOXzhydDE5R3FsczJzZlRxLUJYbktNR29NSlRRNEdaLU1USGRNeXliQTFyTThMVjhtLVR5NFNFdmFnT3dMYUVfZUp5dzhvT2QzQmc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
    https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1WFphbElRSmNvSHhIWHM1WXladEFSbXdpbzdHQXpOdGx5bERBaHJYc3BBcld1bEpfR18tUFZabkJlc3N4eVMwTUxqSE1WTEtWeGVsTkJxQzE0ckk3bHZlVFBHR0hmaTBfSnFC?oc=5
-2. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 93
-   https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
-3. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 78
-   https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
-4. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 68
-   https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
-5. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 63
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
-6. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
-   https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
-7. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 63
+2. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
    https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
+3. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 93
+   https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
+4. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 78
+   https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
+5. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 68
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
+6. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 63
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
+7. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
+   https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
 8. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-9. **For some, so-called 'Skynet Day' came too close to sci-fi after a rogue agent hacked into a startup - Bangor Daily News** — Sam Altman News — Score 56
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ2FhM3hfZUIxU3Y5WXMxQ1ctUDNJc2ZhZFJIa0tKWGNFR2xNTWJsMlkxcURsbWR0RHV1RWpjOXVNVVpFZlRQWDR0N2V2b2s5VUpFS3JkNTl1bV9QWGtadGNqc0ZsUUlJUVdfdGtNUl9oMWRBUzFpdl9udVB2VGVpazRWYWRlMVlkM3lkNF9PbWpycEJ5RDV1SmN1WVY5RXB4N0hGZVFOb3VIdzlHY1FBRDJZUEg4bTlDQThBY29wbHlWcmo2Q0kyVkRfcnZoRVFHWDdGczY5MVVtNkt3cjh0bQ?oc=5
-10. **China’s Moonshot to release breakthrough AI model for download - Free Malaysia Today** — DeepSeek News — Score 56
+9. **China’s Moonshot to release breakthrough AI model for download - Free Malaysia Today** — DeepSeek News — Score 56
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaU9HenU1NnFSMDNOSV9GS0lKZmhmaWczd3VxTjdpNnFraDJWWG5FdTZzdktTQlc5M250ZzFWZXkzSFhjVTlKZG03YWpaelMwamlpMVlTWURVT1RZOGFXajJhWXVYNDBCWFpyNEtPZ3J3ckN0bjZ0MzZPX0NtTHlGc0hscngwZDZkZGVHbjFWaEZRaF9tVXB6aFJkaE9UYVB3VlVyMnFkODV0S2RwTnVwUzBSd1A4MmpYQ3dkOVZDVGQyWFE?oc=5
+10. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 - **Don’t let AI steal all the joy: what scientists won’t give up to chatbots** — https://www.nature.com/articles/d41586-026-02213-0
-- **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
 - **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
 - **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
+- **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3553
+- Total stories tracked: 3571
 - Most active topic: models
 - Busiest category: AI General News
 
