@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 20 Jul 2026 to 27 Jul 2026
+# 🗞️ AI THIS WEEK — 21 Jul 2026 to 28 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3582
+- Total stories tracked: 3598
 - Most active topic: models
 - Busiest category: AI General News
 
