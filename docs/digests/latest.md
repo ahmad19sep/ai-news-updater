@@ -37,12 +37,12 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
 6. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
-7. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
-   https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-8. **For some, so-called 'Skynet Day' came too close to sci-fi after a rogue agent hacked into a startup - Bangor Daily News** — Sam Altman News — Score 56
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ2FhM3hfZUIxU3Y5WXMxQ1ctUDNJc2ZhZFJIa0tKWGNFR2xNTWJsMlkxcURsbWR0RHV1RWpjOXVNVVpFZlRQWDR0N2V2b2s5VUpFS3JkNTl1bV9QWGtadGNqc0ZsUUlJUVdfdGtNUl9oMWRBUzFpdl9udVB2VGVpazRWYWRlMVlkM3lkNF9PbWpycEJ5RDV1SmN1WVY5RXB4N0hGZVFOb3VIdzlHY1FBRDJZUEg4bTlDQThBY29wbHlWcmo2Q0kyVkRfcnZoRVFHWDdGczY5MVVtNkt3cjh0bQ?oc=5
-9. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 56
+7. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 63
    https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
+8. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
+   https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
+9. **For some, so-called 'Skynet Day' came too close to sci-fi after a rogue agent hacked into a startup - Bangor Daily News** — Sam Altman News — Score 56
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ2FhM3hfZUIxU3Y5WXMxQ1ctUDNJc2ZhZFJIa0tKWGNFR2xNTWJsMlkxcURsbWR0RHV1RWpjOXVNVVpFZlRQWDR0N2V2b2s5VUpFS3JkNTl1bV9QWGtadGNqc0ZsUUlJUVdfdGtNUl9oMWRBUzFpdl9udVB2VGVpazRWYWRlMVlkM3lkNF9PbWpycEJ5RDV1SmN1WVY5RXB4N0hGZVFOb3VIdzlHY1FBRDJZUEg4bTlDQThBY29wbHlWcmo2Q0kyVkRfcnZoRVFHWDdGczY5MVVtNkt3cjh0bQ?oc=5
 10. **China’s Moonshot to release breakthrough AI model for download - Free Malaysia Today** — DeepSeek News — Score 56
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaU9HenU1NnFSMDNOSV9GS0lKZmhmaWczd3VxTjdpNnFraDJWWG5FdTZzdktTQlc5M250ZzFWZXkzSFhjVTlKZG03YWpaelMwamlpMVlTWURVT1RZOGFXajJhWXVYNDBCWFpyNEtPZ3J3ckN0bjZ0MzZPX0NtTHlGc0hscngwZDZkZGVHbjFWaEZRaF9tVXB6aFJkaE9UYVB3VlVyMnFkODV0S2RwTnVwUzBSd1A4MmpYQ3dkOVZDVGQyWFE?oc=5
 
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3598
+- Total stories tracked: 3684
 - Most active topic: models
 - Busiest category: AI General News
 
