@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3684
+- Total stories tracked: 3553
 - Most active topic: models
 - Busiest category: AI General News
 
