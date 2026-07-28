@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzdoSGxKY2IweS1USEpRVEVOZ1JqRkU0bTM4NTZnRjJGU2pwMDNnMDJ1NWo2QUZoSVpqZlpfcjFCc2VRMHVyRUoySjFaLWZEc1g2ZmJMWWF6U0l0LWVHc0hQeTNiby10S0VkeW82Yi1qSnJXVEVrX093RE9LdjJ6WTFkajVpdzJhOUowdVhHNngtYXNkRDQyNmdONlE2RFpXV2ctS0xYU0ZsS2xKSW9actIBxAFBVV95cUxOWXg5TXUyZVFqVC1lNkhTZ1djZ1QtRHRCTUJGMEVaY2dfcDc5OGtEX2tuZ3hmbmV0WTI0Rmctek5TUW5ia0VSV0RGN1B4bnY2WE9UbFpXVHp6V0tVWURFQmgtSi1feVpaZFhkRi05bDE4SXRMaHBNSmFYMVUtS2pMZWJNX3p3OG95dG5pVllkSF8tUUFmbjlXUHpUSFlwUElVYlVHT3JfRGxha0lMd05OZkY1Uk5CNGFtQ1ZIclBpd0xtWW5W?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3567
+- Total stories tracked: 3553
 - Most active topic: models
 - Busiest category: AI General News
 
