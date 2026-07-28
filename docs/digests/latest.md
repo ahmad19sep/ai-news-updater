@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
 8. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-9. **China’s Moonshot to release breakthrough AI model for download - Free Malaysia Today** — DeepSeek News — Score 56
-   https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaU9HenU1NnFSMDNOSV9GS0lKZmhmaWczd3VxTjdpNnFraDJWWG5FdTZzdktTQlc5M250ZzFWZXkzSFhjVTlKZG03YWpaelMwamlpMVlTWURVT1RZOGFXajJhWXVYNDBCWFpyNEtPZ3J3ckN0bjZ0MzZPX0NtTHlGc0hscngwZDZkZGVHbjFWaEZRaF9tVXB6aFJkaE9UYVB3VlVyMnFkODV0S2RwTnVwUzBSd1A4MmpYQ3dkOVZDVGQyWFE?oc=5
-10. **Sam Altman Declares AI Singularity Has Arrived - Dallas Express** — Sam Altman News — Score 56
+9. **Sam Altman Declares AI Singularity Has Arrived - Dallas Express** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNR3ZNWUlhNUVKcHR5NEpCVWlIa19rUExnNDhadmxzSlRCSmlJeGdwbUxiX3pKYXJDelVibFFkc2MwZ2JjWldJQ1VPQ05CUVh0UHI5U2ZwcUljSnJlZUJDOFoyNkxMZXl6djJhSkx6amxNeHF6M3Y1ZUNZREszQVh0MVVVZ0VZdFZSb24xWHpjejFHTFVi?oc=5
+10. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 56
+   https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX1ItNE4tZzd5eGJyYmFQM2h2eGhnYlZRNUplUjY2QkxxcTRFS1NZSFMwVGczMFFWTkdJU2ZjVzlXQ2ZzYzBndGZHMGlmTTVldEJ1THprbWRKZDFyZHowbTJtTVQ3QnNEdE9IZVd5YTFTWUw1dk5wajktUHNITGVlQmVhQW9OYW1Dc3ZSbkt5M0NjSWJDLTJ1SHoyWG5jQkRTREJDalZqN2ZfUDJKQ0pTTGh4ZTJkUW8zdjJxeUk4X2NLdjl6eUttODRaVVI3YTNVSzZRbkVtTEdaSzFaZG5WcG9TTkVsVER3WXc?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
 - **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzdoSGxKY2IweS1USEpRVEVOZ1JqRkU0bTM4NTZnRjJGU2pwMDNnMDJ1NWo2QUZoSVpqZlpfcjFCc2VRMHVyRUoySjFaLWZEc1g2ZmJMWWF6U0l0LWVHc0hQeTNiby10S0VkeW82Yi1qSnJXVEVrX093RE9LdjJ6WTFkajVpdzJhOUowdVhHNngtYXNkRDQyNmdONlE2RFpXV2ctS0xYU0ZsS2xKSW9actIBxAFBVV95cUxOWXg5TXUyZVFqVC1lNkhTZ1djZ1QtRHRCTUJGMEVaY2dfcDc5OGtEX2tuZ3hmbmV0WTI0Rmctek5TUW5ia0VSV0RGN1B4bnY2WE9UbFpXVHp6V0tVWURFQmgtSi1feVpaZFhkRi05bDE4SXRMaHBNSmFYMVUtS2pMZWJNX3p3OG95dG5pVllkSF8tUUFmbjlXUHpUSFlwUElVYlVHT3JfRGxha0lMd05OZkY1Uk5CNGFtQ1ZIclBpd0xtWW5W?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3556
+- Total stories tracked: 3539
 - Most active topic: models
 - Busiest category: AI General News
 
