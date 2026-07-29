@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T09:10:56.525715+00:00",
+  "generated_at": "2026-07-29T14:32:45.422625+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,295 +9,360 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 37,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT image generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create amazing images with just text prompts.",
+      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design work.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
-          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
+          "signal": "39"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT Image Generation for Your Business",
-        "ChatGPT Image Generation: A Game-Changer for Content Creators"
+        "How to Use ChatGPT Images 2.0 for Your Business",
+        "5 Creative Ways to Utilize ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 vs. Other AI Image Generation Tools"
       ]
     },
     {
-      "name": "AI video generation",
-      "category": "technique",
+      "name": "Vimgolf.ai",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "AI can generate videos based on text prompts or other inputs.",
-      "audience_angle": "Create engaging videos with minimal effort.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your marketing strategy.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI video generation tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=O0jS3pXAJww",
-          "signal": "ai se video kaise banaye | ai video kaise banaye"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tKTz-gG83bM",
-          "signal": "How to Create Ghibli Style AI Videos | AI Video Kaise Banaye"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Viral AI Videos",
-        "AI Video Generation: A Step-by-Step Guide",
-        "5 AI Video Generation Tools You Need to Try"
-      ]
-    },
-    {
-      "name": "ChatGPT work",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT can be used for various work-related tasks.",
-      "audience_angle": "Boost your productivity with ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT can enhance your work workflow.",
-      "local_relevance": 6,
+      "what_it_is": "A platform to learn Vim by playing through a map of levels.",
+      "audience_angle": "Improve your coding skills with interactive Vim lessons.",
+      "linkedin_angle": "Enhance your developer skills with Vimgolf.ai's unique learning approach.",
+      "local_relevance": 3,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its work-related tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v9p09u/rip_but_heres_the_correct_answer/",
-          "signal": "RIP, but here's the correct answer."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "ChatGPT Work: Everything You Need to Know to Get Started!"
+          "platform": "hackernews",
+          "url": "https://vimgolf.ai",
+          "signal": "48"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Work",
-        "5 Ways ChatGPT Can Boost Your Productivity",
-        "ChatGPT for Work: A Beginner's Guide"
+        "Getting Started with Vimgolf.ai: A Beginner's Guide",
+        "How Vimgolf.ai Can Help You Become a More Efficient Coder",
+        "Vimgolf.ai Review: Is it Worth the Investment?"
       ]
     },
     {
-      "name": "AI for making money",
+      "name": "LearnVector",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Andrew Ng's AI company building one-to-one learning experiences.",
+      "audience_angle": "Personalized AI-powered learning for a better education.",
+      "linkedin_angle": "Discover how LearnVector can revolutionize your company's training programs.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://learnvector.ai/",
+          "signal": "390"
+        }
+      ],
+      "content_ideas": [
+        "The Future of Learning: How LearnVector is Changing the Game",
+        "How LearnVector Can Help You Upskill in AI and Machine Learning",
+        "LearnVector Review: Is it the Best AI-Powered Learning Platform?"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI can be used to generate income through various methods.",
-      "audience_angle": "Earn money with AI.",
-      "linkedin_angle": "Discover how AI can help you generate passive income.",
-      "local_relevance": 8,
+      "what_it_is": "Using AI to generate videos for various purposes.",
+      "audience_angle": "Create stunning videos without extensive video production knowledge.",
+      "linkedin_angle": "Leverage AI video generation to enhance your marketing and social media presence.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI tools offer affiliate programs for making money."
+        "note": "Some AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
-          "signal": "Laziest Ways to Make Money with AI (For Beginners)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
-          "signal": "Claude Ai + YouTube = $9,987/Month (FREE Plan)"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI",
-        "5 AI Tools for Generating Passive Income",
-        "AI for Making Money: A Beginner's Guide"
+        "How to Make Money with AI-Generated Videos",
+        "5 Creative Ways to Use AI Video Generation for Your Business",
+        "AI Video Generation Tools: Which One is the Best?"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude AI is a tool for generating content and making money.",
-      "audience_angle": "Create content and earn money with Claude AI.",
-      "linkedin_angle": "Explore how Claude AI can enhance your content creation and earning potential.",
-      "local_relevance": 7,
+      "what_it_is": "A platform to help users get started with ChatGPT for work purposes.",
+      "audience_angle": "Unlock the full potential of ChatGPT for your professional needs.",
+      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow and increase productivity.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
-          "signal": "Claude Ai + YouTube = $9,987/Month (FREE Plan)"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Content Creation",
-        "5 Ways to Earn Money with Claude AI",
-        "Claude AI: A Beginner's Guide"
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "How ChatGPT Work Can Help You Automate Tedious Tasks",
+        "ChatGPT Work Review: Is it Worth the Investment?"
       ]
     },
     {
-      "name": "AI for business",
-      "category": "use_case",
+      "name": "Claude AI",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "AI can be used to enhance business operations and generate income.",
-      "audience_angle": "Boost your business with AI.",
-      "linkedin_angle": "Discover how AI can help you grow your business.",
-      "local_relevance": 8,
+      "what_it_is": "A platform offering AI-powered tools and services.",
+      "audience_angle": "Explore the capabilities of Claude AI for your personal and professional needs.",
+      "linkedin_angle": "Discover how Claude AI can help you streamline your workflow and increase productivity.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI tools offer affiliate programs for business."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5CFi4DkT7LU",
-          "signal": "This AI App Building SaaS Every Hair Salon Will Pay For (Built with Enter Pro)"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49080775",
+          "signal": "66"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Business",
-        "5 AI Tools for Growing Your Business",
-        "AI for Business: A Beginner's Guide"
+        "Getting Started with Claude AI: A Beginner's Guide",
+        "How Claude AI Can Help You Automate Tedious Tasks",
+        "Claude AI Review: Is it Worth the Investment?"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT image generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing strategy.",
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create amazing images with just text prompts.",
+      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design work.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QucgvbO5gsM",
-          "signal": "Free AI Tools So Good They're Making Paid Versions Obsolete"
+          "signal": "39"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "5 Ways to Use ChatGPT Image Generation for Your Business",
-        "ChatGPT Image Generation: A Game-Changer for Content Creators"
+        "How to Use ChatGPT Images 2.0 for Your Business",
+        "5 Creative Ways to Utilize ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 vs. Other AI Image Generation Tools"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "LearnVector",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Andrew Ng's AI company building one-to-one learning experiences.",
+      "audience_angle": "Personalized AI-powered learning for a better education.",
+      "linkedin_angle": "Discover how LearnVector can revolutionize your company's training programs.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://learnvector.ai/",
+          "signal": "390"
+        }
+      ],
+      "content_ideas": [
+        "The Future of Learning: How LearnVector is Changing the Game",
+        "How LearnVector Can Help You Upskill in AI and Machine Learning",
+        "LearnVector Review: Is it the Best AI-Powered Learning Platform?"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude AI is a tool for generating content and making money.",
-      "audience_angle": "Create content and earn money with Claude AI.",
-      "linkedin_angle": "Explore how Claude AI can enhance your content creation and earning potential.",
-      "local_relevance": 7,
+      "what_it_is": "A platform to help users get started with ChatGPT for work purposes.",
+      "audience_angle": "Unlock the full potential of ChatGPT for your professional needs.",
+      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow and increase productivity.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
-          "signal": "Claude Ai + YouTube = $9,987/Month (FREE Plan)"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Content Creation",
-        "5 Ways to Earn Money with Claude AI",
-        "Claude AI: A Beginner's Guide"
+        "Getting Started with ChatGPT Work: A Beginner's Guide",
+        "How ChatGPT Work Can Help You Automate Tedious Tasks",
+        "ChatGPT Work Review: Is it Worth the Investment?"
+      ]
+    },
+    {
+      "name": "Vimgolf.ai",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A platform to learn Vim by playing through a map of levels.",
+      "audience_angle": "Improve your coding skills with interactive Vim lessons.",
+      "linkedin_angle": "Enhance your developer skills with Vimgolf.ai's unique learning approach.",
+      "local_relevance": 3,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://vimgolf.ai",
+          "signal": "48"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Vimgolf.ai: A Beginner's Guide",
+        "How Vimgolf.ai Can Help You Become a More Efficient Coder",
+        "Vimgolf.ai Review: Is it Worth the Investment?"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A platform offering AI-powered tools and services.",
+      "audience_angle": "Explore the capabilities of Claude AI for your personal and professional needs.",
+      "linkedin_angle": "Discover how Claude AI can help you streamline your workflow and increase productivity.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49080775",
+          "signal": "66"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Claude AI: A Beginner's Guide",
+        "How Claude AI Can Help You Automate Tedious Tasks",
+        "Claude AI Review: Is it Worth the Investment?"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude AI usage limits",
-      "who_affected": "Users of Claude AI",
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude AI users",
       "signal_strength": 6,
       "sources": [
         {
@@ -305,8 +370,20 @@
           "url": "https://news.ycombinator.com/item?id=49080775"
         }
       ],
-      "content_opportunity": "Workaround for Claude AI usage limits"
+      "content_opportunity": "Workarounds for Claude AI usage limits and token management."
+    },
+    {
+      "problem": "AI-generated content detection and prevention",
+      "who_affected": "Students, educators, and content creators",
+      "signal_strength": 7,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I3pewEOFo3A"
+        }
+      ],
+      "content_opportunity": "Explainers on AI-generated content detection tools and strategies."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT image generation"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
