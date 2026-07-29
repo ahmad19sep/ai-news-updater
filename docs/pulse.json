@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:32:45.422625+00:00",
+  "generated_at": "2026-07-29T19:46:07.361059+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 36,
+      "hackernews": 43,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,182 +23,182 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design work.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "39"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "5 Creative Ways to Utilize ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 vs. Other AI Image Generation Tools"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Top 5 Features of ChatGPT Images 2.0 You Need to Know",
+        "Using ChatGPT Images 2.0 for Professional Visual Content"
       ]
     },
     {
-      "name": "Vimgolf.ai",
+      "name": "Tokenless",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "A platform to learn Vim by playing through a map of levels.",
-      "audience_angle": "Improve your coding skills with interactive Vim lessons.",
-      "linkedin_angle": "Enhance your developer skills with Vimgolf.ai's unique learning approach.",
-      "local_relevance": 3,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://vimgolf.ai",
-          "signal": "48"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Vimgolf.ai: A Beginner's Guide",
-        "How Vimgolf.ai Can Help You Become a More Efficient Coder",
-        "Vimgolf.ai Review: Is it Worth the Investment?"
-      ]
-    },
-    {
-      "name": "LearnVector",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Andrew Ng's AI company building one-to-one learning experiences.",
-      "audience_angle": "Personalized AI-powered learning for a better education.",
-      "linkedin_angle": "Discover how LearnVector can revolutionize your company's training programs.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://learnvector.ai/",
-          "signal": "390"
-        }
-      ],
-      "content_ideas": [
-        "The Future of Learning: How LearnVector is Changing the Game",
-        "How LearnVector Can Help You Upskill in AI and Machine Learning",
-        "LearnVector Review: Is it the Best AI-Powered Learning Platform?"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to generate videos for various purposes.",
-      "audience_angle": "Create stunning videos without extensive video production knowledge.",
-      "linkedin_angle": "Leverage AI video generation to enhance your marketing and social media presence.",
-      "local_relevance": 6,
+      "what_it_is": "A tool for automatic model switching to save money.",
+      "audience_angle": "Save money with Tokenless, the AI model switching tool.",
+      "linkedin_angle": "Optimize your AI costs with Tokenless, the innovative model switching solution.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs."
+        "note": "Tokenless may offer affiliate programs for its services."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://usetokenless.com/",
+          "signal": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money"
+        }
+      ],
+      "content_ideas": [
+        "How Tokenless Can Help You Save Money on AI Model Costs",
+        "Tokenless: The AI Model Switching Tool You Need to Know",
+        "Maximizing Your AI Budget with Tokenless"
+      ]
+    },
+    {
+      "name": "Kimi K3",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A self-hosting solution for Kimi K3, a linear attention variant.",
+      "audience_angle": "Experience the power of Kimi K3 with self-hosting solutions.",
+      "linkedin_angle": "Discover how Kimi K3 self-hosting can enhance your AI workflow.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Kimi K3 self-hosting solutions may offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://aistack.imec-int.com/blog/gpu-self-hosting",
+          "signal": "Self-hosting Kimi K3: 20% more hardware cost, 20% better task resolution"
+        }
+      ],
+      "content_ideas": [
+        "The Benefits of Self-Hosting Kimi K3 for Your AI Projects",
+        "How to Get Started with Kimi K3 Self-Hosting",
+        "Optimizing Your AI Workflow with Kimi K3 Self-Hosting"
+      ]
+    },
+    {
+      "name": "ChatGPT Voice 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "An updated version of ChatGPT's voice feature.",
+      "audience_angle": "Experience the latest in voice technology with ChatGPT Voice 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Voice 2.0 can enhance your professional voice interactions.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Voice 2.0 may offer affiliate programs for its services."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=_wtCHLUUzlQ",
+          "signal": "ChatGPT Voice 2.0 Just Dropped, and…"
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI-Generated Videos",
-        "5 Creative Ways to Use AI Video Generation for Your Business",
-        "AI Video Generation Tools: Which One is the Best?"
+        "What's New in ChatGPT Voice 2.0: Features and Updates",
+        "Using ChatGPT Voice 2.0 for Professional Voice Interactions",
+        "How ChatGPT Voice 2.0 Can Enhance Your Customer Service"
       ]
     },
     {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
+      "name": "AI Video Generation",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A platform to help users get started with ChatGPT for work purposes.",
-      "audience_angle": "Unlock the full potential of ChatGPT for your professional needs.",
-      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow and increase productivity.",
-      "local_relevance": 5,
+      "what_it_is": "The use of AI for generating videos.",
+      "audience_angle": "Create stunning videos with AI video generation tools.",
+      "linkedin_angle": "Explore how AI video generation can enhance your professional video content.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "AI video generation tools may offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=O0jS3pXAJww",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "How ChatGPT Work Can Help You Automate Tedious Tasks",
-        "ChatGPT Work Review: Is it Worth the Investment?"
+        "How to Create Stunning Videos with AI Video Generation Tools",
+        "Top 5 AI Video Generation Tools You Need to Know",
+        "Using AI Video Generation for Professional Video Content"
       ]
     },
     {
       "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "A platform offering AI-powered tools and services.",
-      "audience_angle": "Explore the capabilities of Claude AI for your personal and professional needs.",
-      "linkedin_angle": "Discover how Claude AI can help you streamline your workflow and increase productivity.",
+      "what_it_is": "A language model developed by Anthropic.",
+      "audience_angle": "Experience the capabilities of Claude AI.",
+      "linkedin_angle": "Explore how Claude AI can enhance your professional workflow.",
       "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Claude AI may offer affiliate programs for its services."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49080775",
-          "signal": "66"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v9rukh/anyone_feel_like_claude_used_to_be_superior_then/",
+          "signal": "Anyone feel like Claude used to be superior then ChatGPT got better lately and now Claude sucks ass?"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "How Claude AI Can Help You Automate Tedious Tasks",
-        "Claude AI Review: Is it Worth the Investment?"
+        "What's New in Claude AI: Features and Updates",
+        "Using Claude AI for Professional Tasks",
+        "How Claude AI Can Enhance Your Productivity"
       ]
     }
   ],
@@ -211,179 +211,179 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design work.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "39"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "5 Creative Ways to Utilize ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 vs. Other AI Image Generation Tools"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Top 5 Features of ChatGPT Images 2.0 You Need to Know",
+        "Using ChatGPT Images 2.0 for Professional Visual Content"
       ]
     },
     {
-      "name": "LearnVector",
+      "name": "Kimi K3",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Andrew Ng's AI company building one-to-one learning experiences.",
-      "audience_angle": "Personalized AI-powered learning for a better education.",
-      "linkedin_angle": "Discover how LearnVector can revolutionize your company's training programs.",
-      "local_relevance": 4,
+      "what_it_is": "A self-hosting solution for Kimi K3, a linear attention variant.",
+      "audience_angle": "Experience the power of Kimi K3 with self-hosting solutions.",
+      "linkedin_angle": "Discover how Kimi K3 self-hosting can enhance your AI workflow.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Kimi K3 self-hosting solutions may offer affiliate programs."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://learnvector.ai/",
-          "signal": "390"
+          "url": "https://aistack.imec-int.com/blog/gpu-self-hosting",
+          "signal": "Self-hosting Kimi K3: 20% more hardware cost, 20% better task resolution"
         }
       ],
       "content_ideas": [
-        "The Future of Learning: How LearnVector is Changing the Game",
-        "How LearnVector Can Help You Upskill in AI and Machine Learning",
-        "LearnVector Review: Is it the Best AI-Powered Learning Platform?"
+        "The Benefits of Self-Hosting Kimi K3 for Your AI Projects",
+        "How to Get Started with Kimi K3 Self-Hosting",
+        "Optimizing Your AI Workflow with Kimi K3 Self-Hosting"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "ChatGPT Voice 2.0",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A platform to help users get started with ChatGPT for work purposes.",
-      "audience_angle": "Unlock the full potential of ChatGPT for your professional needs.",
-      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow and increase productivity.",
-      "local_relevance": 5,
+      "what_it_is": "An updated version of ChatGPT's voice feature.",
+      "audience_angle": "Experience the latest in voice technology with ChatGPT Voice 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Voice 2.0 can enhance your professional voice interactions.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT Voice 2.0 may offer affiliate programs for its services."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=_wtCHLUUzlQ",
+          "signal": "ChatGPT Voice 2.0 Just Dropped, and…"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "How ChatGPT Work Can Help You Automate Tedious Tasks",
-        "ChatGPT Work Review: Is it Worth the Investment?"
+        "What's New in ChatGPT Voice 2.0: Features and Updates",
+        "Using ChatGPT Voice 2.0 for Professional Voice Interactions",
+        "How ChatGPT Voice 2.0 Can Enhance Your Customer Service"
       ]
     },
     {
-      "name": "Vimgolf.ai",
+      "name": "Tokenless",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "A platform to learn Vim by playing through a map of levels.",
-      "audience_angle": "Improve your coding skills with interactive Vim lessons.",
-      "linkedin_angle": "Enhance your developer skills with Vimgolf.ai's unique learning approach.",
-      "local_relevance": 3,
+      "what_it_is": "A tool for automatic model switching to save money.",
+      "audience_angle": "Save money with Tokenless, the AI model switching tool.",
+      "linkedin_angle": "Optimize your AI costs with Tokenless, the innovative model switching solution.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Tokenless may offer affiliate programs for its services."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://vimgolf.ai",
-          "signal": "48"
+          "url": "https://usetokenless.com/",
+          "signal": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money"
         }
       ],
       "content_ideas": [
-        "Getting Started with Vimgolf.ai: A Beginner's Guide",
-        "How Vimgolf.ai Can Help You Become a More Efficient Coder",
-        "Vimgolf.ai Review: Is it Worth the Investment?"
+        "How Tokenless Can Help You Save Money on AI Model Costs",
+        "Tokenless: The AI Model Switching Tool You Need to Know",
+        "Maximizing Your AI Budget with Tokenless"
       ]
     },
     {
       "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "A platform offering AI-powered tools and services.",
-      "audience_angle": "Explore the capabilities of Claude AI for your personal and professional needs.",
-      "linkedin_angle": "Discover how Claude AI can help you streamline your workflow and increase productivity.",
+      "what_it_is": "A language model developed by Anthropic.",
+      "audience_angle": "Experience the capabilities of Claude AI.",
+      "linkedin_angle": "Explore how Claude AI can enhance your professional workflow.",
       "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Claude AI may offer affiliate programs for its services."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49080775",
-          "signal": "66"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v9rukh/anyone_feel_like_claude_used_to_be_superior_then/",
+          "signal": "Anyone feel like Claude used to be superior then ChatGPT got better lately and now Claude sucks ass?"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "How Claude AI Can Help You Automate Tedious Tasks",
-        "Claude AI Review: Is it Worth the Investment?"
+        "What's New in Claude AI: Features and Updates",
+        "Using Claude AI for Professional Tasks",
+        "How Claude AI Can Enhance Your Productivity"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
+      "problem": "Claude AI usage limits and support issues",
       "who_affected": "Claude AI users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49080775"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v9rukh/anyone_feel_like_claude_used_to_be_superior_then/"
         }
       ],
-      "content_opportunity": "Workarounds for Claude AI usage limits and token management."
+      "content_opportunity": "Solving Claude AI Usage Limits and Support Issues: A Step-by-Step Guide"
     },
     {
-      "problem": "AI-generated content detection and prevention",
-      "who_affected": "Students, educators, and content creators",
-      "signal_strength": 7,
+      "problem": "AI model switching costs and complexity",
+      "who_affected": "AI model users",
+      "signal_strength": 8,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I3pewEOFo3A"
+          "platform": "hackernews",
+          "url": "https://usetokenless.com/"
         }
       ],
-      "content_opportunity": "Explainers on AI-generated content detection tools and strategies."
+      "content_opportunity": "Mastering AI Model Switching: A Comprehensive Guide to Saving Costs and Time"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Voice 2.0"
 }
