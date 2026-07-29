@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 21 Jul 2026 to 28 Jul 2026
+# 🗞️ AI THIS WEEK — 22 Jul 2026 to 29 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald**
@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 2. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
-3. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
-   https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
-4. **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — science angle
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
-5. **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — science angle
+3. **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
-6. **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — science angle
+4. **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzdoSGxKY2IweS1USEpRVEVOZ1JqRkU0bTM4NTZnRjJGU2pwMDNnMDJ1NWo2QUZoSVpqZlpfcjFCc2VRMHVyRUoySjFaLWZEc1g2ZmJMWWF6U0l0LWVHc0hQeTNiby10S0VkeW82Yi1qSnJXVEVrX093RE9LdjJ6WTFkajVpdzJhOUowdVhHNngtYXNkRDQyNmdONlE2RFpXV2ctS0xYU0ZsS2xKSW9actIBxAFBVV95cUxOWXg5TXUyZVFqVC1lNkhTZ1djZ1QtRHRCTUJGMEVaY2dfcDc5OGtEX2tuZ3hmbmV0WTI0Rmctek5TUW5ia0VSV0RGN1B4bnY2WE9UbFpXVHp6V0tVWURFQmgtSi1feVpaZFhkRi05bDE4SXRMaHBNSmFYMVUtS2pMZWJNX3p3OG95dG5pVllkSF8tUUFmbjlXUHpUSFlwUElVYlVHT3JfRGxha0lMd05OZkY1Uk5CNGFtQ1ZIclBpd0xtWW5W?oc=5
-7. **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — science angle
+5. **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxQUk9wazdTMTdyQVRZamQ3ZE5US25HTi1WTTBCSEw1cnhWUVRVNmxpODdhOHBPTmNXcUFKMG1laTJOXzhydDE5R3FsczJzZlRxLUJYbktNR29NSlRRNEdaLU1USGRNeXliQTFyTThMVjhtLVR5NFNFdmFnT3dMYUVfZUp5dzhvT2QzQmc?oc=5
-8. **The future doctor will have an AI assistant, and so will every patient - TheCable** — science angle
+6. **The future doctor will have an AI assistant, and so will every patient - TheCable** — science angle
    https://news.google.com/rss/articles/CBMimgFBVV95cUxQZmp5WGdMaUJvajRySlhKNkIzX3ZwczFRdC1ZemotWGdHVFBBWTk0YjIwTlMwaVl6b05NRjREQnlab2VVbkNUc01lcUdOMFhiTm1VbWp0ZGlCUnRiS3gyR3BQMDdHNEVldndWSl91N0duSW1DazZ4NXdKaXBJMUgySERLUVN1aDA0eTc3UTRheDZxRk1OQlc3MWp3?oc=5
+7. **An AI Got The Diagnosis Wrong. Doctors Trusted It Anyway - StudyFinds** — science angle
+   https://news.google.com/rss/articles/CBMiakFVX3lxTFAtdEM2a05VT1Y3UG83eGtjcGFvek5zX29FQk5Mb0VIeTE4VTBaVGpUSk5fbjF6REtVTFBsNmxCRjJSY1V6dnpZNl9xOVh3dDZGM2NoaWRpQUJnYmJQSVF3akdKSHQxWmpJbmc?oc=5
+8. **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — science angle
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI says its AI technology acted on its own in an ‘unprecedented’ hack of another company - Boston Herald** — Sam Altman News — Score 263
@@ -39,22 +39,22 @@ All coverage: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcmNCM0hVQUs1W
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
 7. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
-8. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
+8. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 60
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTVnc1A0RXVTS01BaHM2ajhVRFpCcWF2a1A0WC0yRWhFcWFwRno0T0NZNUEtM2doVHRmZ2NFM3RFZHk1VHFxQ3paT3NaeHhTd0JhbkZlTVlUX3V0NzJ5N21saFJUam5Tc3haUmYwVHlGZkU3UGpaMTBKUjNOMHVJeFMxanByWG1JV1ZlWDdiYUFpUnhXdWZpMlZPU1AtTXo0Y002NWRfNFBlV2UzWmpmVkpnNmo?oc=5
+9. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-9. **Sam Altman Declares AI Singularity Has Arrived - Dallas Express** — Sam Altman News — Score 56
+10. **Sam Altman Declares AI Singularity Has Arrived - Dallas Express** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNR3ZNWUlhNUVKcHR5NEpCVWlIa19rUExnNDhadmxzSlRCSmlJeGdwbUxiX3pKYXJDelVibFFkc2MwZ2JjWldJQ1VPQ05CUVh0UHI5U2ZwcUljSnJlZUJDOFoyNkxMZXl6djJhSkx6amxNeHF6M3Y1ZUNZREszQVh0MVVVZ0VZdFZSb24xWHpjejFHTFVi?oc=5
-10. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 56
-   https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX1ItNE4tZzd5eGJyYmFQM2h2eGhnYlZRNUplUjY2QkxxcTRFS1NZSFMwVGczMFFWTkdJU2ZjVzlXQ2ZzYzBndGZHMGlmTTVldEJ1THprbWRKZDFyZHowbTJtTVQ3QnNEdE9IZVd5YTFTWUw1dk5wajktUHNITGVlQmVhQW9OYW1Dc3ZSbkt5M0NjSWJDLTJ1SHoyWG5jQkRTREJDalZqN2ZfUDJKQ0pTTGh4ZTJkUW8zdjJxeUk4X2NLdjl6eUttODRaVVI3YTNVSzZRbkVtTEdaSzFaZG5WcG9TTkVsVER3WXc?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
-- **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
-- **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
 - **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzdoSGxKY2IweS1USEpRVEVOZ1JqRkU0bTM4NTZnRjJGU2pwMDNnMDJ1NWo2QUZoSVpqZlpfcjFCc2VRMHVyRUoySjFaLWZEc1g2ZmJMWWF6U0l0LWVHc0hQeTNiby10S0VkeW82Yi1qSnJXVEVrX093RE9LdjJ6WTFkajVpdzJhOUowdVhHNngtYXNkRDQyNmdONlE2RFpXV2ctS0xYU0ZsS2xKSW9actIBxAFBVV95cUxOWXg5TXUyZVFqVC1lNkhTZ1djZ1QtRHRCTUJGMEVaY2dfcDc5OGtEX2tuZ3hmbmV0WTI0Rmctek5TUW5ia0VSV0RGN1B4bnY2WE9UbFpXVHp6V0tVWURFQmgtSi1feVpaZFhkRi05bDE4SXRMaHBNSmFYMVUtS2pMZWJNX3p3OG95dG5pVllkSF8tUUFmbjlXUHpUSFlwUElVYlVHT3JfRGxha0lMd05OZkY1Uk5CNGFtQ1ZIclBpd0xtWW5W?oc=5
+- **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — https://news.google.com/rss/articles/CBMiigFBVV95cUxQUk9wazdTMTdyQVRZamQ3ZE5US25HTi1WTTBCSEw1cnhWUVRVNmxpODdhOHBPTmNXcUFKMG1laTJOXzhydDE5R3FsczJzZlRxLUJYbktNR29NSlRRNEdaLU1USGRNeXliQTFyTThMVjhtLVR5NFNFdmFnT3dMYUVfZUp5dzhvT2QzQmc?oc=5
+- **The future doctor will have an AI assistant, and so will every patient - TheCable** — https://news.google.com/rss/articles/CBMimgFBVV95cUxQZmp5WGdMaUJvajRySlhKNkIzX3ZwczFRdC1ZemotWGdHVFBBWTk0YjIwTlMwaVl6b05NRjREQnlab2VVbkNUc01lcUdOMFhiTm1VbWp0ZGlCUnRiS3gyR3BQMDdHNEVldndWSl91N0duSW1DazZ4NXdKaXBJMUgySERLUVN1aDA0eTc3UTRheDZxRk1OQlc3MWp3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3539
+- Total stories tracked: 3646
 - Most active topic: models
 - Busiest category: AI General News
 
