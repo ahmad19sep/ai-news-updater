@@ -54,7 +54,7 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
 - **The future doctor will have an AI assistant, and so will every patient - TheCable** — https://news.google.com/rss/articles/CBMimgFBVV95cUxQZmp5WGdMaUJvajRySlhKNkIzX3ZwczFRdC1ZemotWGdHVFBBWTk0YjIwTlMwaVl6b05NRjREQnlab2VVbkNUc01lcUdOMFhiTm1VbWp0ZGlCUnRiS3gyR3BQMDdHNEVldndWSl91N0duSW1DazZ4NXdKaXBJMUgySERLUVN1aDA0eTc3UTRheDZxRk1OQlc3MWp3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3568
+- Total stories tracked: 3554
 - Most active topic: models
 - Busiest category: AI General News
 
