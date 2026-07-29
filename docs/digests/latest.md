@@ -27,24 +27,24 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
    https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
-2. **Elon Musk Claims Grok Imagine Will Create “Historically Accurate” AI Version Of ‘The Odyssey’ - Deadline** — Elon Musk AI News — Score 93
-   https://news.google.com/rss/articles/CBMihgFBVV95cUxObnhDRF93aDRBbk5OejZWb3JYZmM2bFpWenNzUXNpQllyWXZmQUwwb0JNY3cwVGdCYjFlQnJNZ0VncTVKel9hN1FITnhkMkdqNUFiOHd3SzMwYzJYUkwtUm1ZSVQ1bXc4ZkVOaXNaTDhRNTZQYTNmaWZvdnhpbF90S0FSMFJEQQ?oc=5
+2. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 101
+   https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5
 3. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 78
    https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
-4. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 68
-   https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
-5. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 66
+4. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 76
    https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX1ItNE4tZzd5eGJyYmFQM2h2eGhnYlZRNUplUjY2QkxxcTRFS1NZSFMwVGczMFFWTkdJU2ZjVzlXQ2ZzYzBndGZHMGlmTTVldEJ1THprbWRKZDFyZHowbTJtTVQ3QnNEdE9IZVd5YTFTWUw1dk5wajktUHNITGVlQmVhQW9OYW1Dc3ZSbkt5M0NjSWJDLTJ1SHoyWG5jQkRTREJDalZqN2ZfUDJKQ0pTTGh4ZTJkUW8zdjJxeUk4X2NLdjl6eUttODRaVVI3YTNVSzZRbkVtTEdaSzFaZG5WcG9TTkVsVER3WXc?oc=5
-6. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 63
+5. **A busy parent's guide to students using AI - Caledonian Record** — Using AI To... — Score 68
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU19UQW14ZVotbnNRYTZzMzhpSkJKMDBFMjc4M3hNSEk1MjVLbGxoMUVEZEFZLWYycHAtTGdFeS15VUpCUFhMSXN5dFBHdnB2MGFaMnRnTk5oUUtIZlZuZ0RMRy1UWU5NR1dscmpQdEprODBITnRoRS1keW5HOHp3NkVKa1ZjSmthdEhWMEk3T0gwSk83ZWkwenlTeWpIdU9TcDNuT21fRGNZRlpiQWFyWERuY2sxdjZ0a3JkVkxLbHRyQQ?oc=5
+6. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 66
+   https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
+7. **Elon Musk wants to make 'historically accurate' AI 'The Odyssey' - Yahoo News Canada** — Elon Musk AI News — Score 63
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEYwRWJJT25mdUZGNGtJQlZRclVaV05RdS03U2JLVjF6THVCcHFFV1ZYVnl2Qk1qUTNHb0NRWlpjWlk1TzI0TEhwRVBxYlByRlJDbFJOdDBRcG1JVGRLNXYzMndpbUV2WHEtOG5xZlE4ekloMUNkWFdLdGVxLTZ1ajNwbHY?oc=5
-7. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
+8. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
-8. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 60
+9. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 60
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTVnc1A0RXVTS01BaHM2ajhVRFpCcWF2a1A0WC0yRWhFcWFwRno0T0NZNUEtM2doVHRmZ2NFM3RFZHk1VHFxQ3paT3NaeHhTd0JhbkZlTVlUX3V0NzJ5N21saFJUam5Tc3haUmYwVHlGZkU3UGpaMTBKUjNOMHVJeFMxanByWG1JV1ZlWDdiYUFpUnhXdWZpMlZPU1AtTXo0Y002NWRfNFBlV2UzWmpmVkpnNmo?oc=5
-9. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
+10. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-10. **Sam Altman Declares AI Singularity Has Arrived - Dallas Express** — Sam Altman News — Score 56
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxNR3ZNWUlhNUVKcHR5NEpCVWlIa19rUExnNDhadmxzSlRCSmlJeGdwbUxiX3pKYXJDelVibFFkc2MwZ2JjWldJQ1VPQ05CUVh0UHI5U2ZwcUljSnJlZUJDOFoyNkxMZXl6djJhSkx6amxNeHF6M3Y1ZUNZREszQVh0MVVVZ0VZdFZSb24xWHpjejFHTFVi?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
 - **Counsel Health Launches Counsel Studio, Bringing AI-Enabled, Physician-Supervised Care Directly Into Healthcare Organizations' Digital Experiences - Business Wire** — https://news.google.com/rss/articles/CBMipwJBVV95cUxOT2RfclRObkdCQWFRbnFDUDFZNzZNaHBfN2JGNFBLdzJnaDNXQmRCR1pTVG9hdGxLa1pWLVlkR1dHNVVpcHg4XzhXcFBYTjVad2d6dnZHY2UzZC10UUdwZG96RW1Ed3dKR3JzYnVMQXJHNjFSZEJqZ2dSd0FyNzNqLVNzWUZ5cUpwUkRXcHBrSHNJZEVVcHpjZ3k5clpFdlV2QU94Q1V1a1BpTEdNcUQ3Qm1LZzlscUJsRmRkQ21BWXRrdXdlTWFqekRqYWhoV2pDSF90d0pXM1I3MXR2cnlJVmNzQ3RoREdLc2hlaEFMcUstQTE1SXlqYlN5SS1PWTRkemdYNjZmT2NlUjRidDRXMTlPNUNjUExCZXprUVF0N1pVOGh6ajFB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3588
+- Total stories tracked: 3566
 - Most active topic: models
 - Busiest category: AI General News
 
