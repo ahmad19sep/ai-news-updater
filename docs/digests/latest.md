@@ -21,8 +21,8 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
    https://news.google.com/rss/articles/CBMiakFVX3lxTFAtdEM2a05VT1Y3UG83eGtjcGFvek5zX29FQk5Mb0VIeTE4VTBaVGpUSk5fbjF6REtVTFBsNmxCRjJSY1V6dnpZNl9xOVh3dDZGM2NoaWRpQUJnYmJQSVF3akdKSHQxWmpJbmc?oc=5
 7. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
-8. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
-   https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
+8. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
+   https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
@@ -37,14 +37,14 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
 6. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
    https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
-7. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 60
-   https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTVnc1A0RXVTS01BaHM2ajhVRFpCcWF2a1A0WC0yRWhFcWFwRno0T0NZNUEtM2doVHRmZ2NFM3RFZHk1VHFxQ3paT3NaeHhTd0JhbkZlTVlUX3V0NzJ5N21saFJUam5Tc3haUmYwVHlGZkU3UGpaMTBKUjNOMHVJeFMxanByWG1JV1ZlWDdiYUFpUnhXdWZpMlZPU1AtTXo0Y002NWRfNFBlV2UzWmpmVkpnNmo?oc=5
-8. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
+7. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
    https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-9. **OpenAI blamed a hacking event on its AI models going rogue. Here are some things to know - Boston Herald** — AI in Coding — Score 53
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTN6LUxxaWpYZmdCX1dzYnk3cEJFTmZIT3kzSk15VlgwT0dXY2tuMVE3NmFjOXRBU1B3LWZMdjBqWjNMMEFNZkdLWmRlTWtQN0xTeVRWWFJCUGcyY3g5ZTlaSkwzaENwaHZzcHlzOXMxZW10QXNSaGUwRFZXbUFmV0FtVzVXUVBBV29JejlKY1hfOWdB?oc=5
-10. **ChatGPTDeutsch.info expands German-language AI platform with no-registration browser access** — openpr — Score 53
+8. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 57
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTVnc1A0RXVTS01BaHM2ajhVRFpCcWF2a1A0WC0yRWhFcWFwRno0T0NZNUEtM2doVHRmZ2NFM3RFZHk1VHFxQ3paT3NaeHhTd0JhbkZlTVlUX3V0NzJ5N21saFJUam5Tc3haUmYwVHlGZkU3UGpaMTBKUjNOMHVJeFMxanByWG1JV1ZlWDdiYUFpUnhXdWZpMlZPU1AtTXo0Y002NWRfNFBlV2UzWmpmVkpnNmo?oc=5
+9. **ChatGPTDeutsch.info expands German-language AI platform with no-registration browser access** — openpr — Score 53
    https://www.openpr.com/news/4585492/chatgptdeutsch-info-expands-german-language-ai-platform-with
+10. **Lee meets Anthropic CEO Amodei, seeks support for S. Korea's AI sector - Yonhap News Agency** — Dario Amodei News — Score 53
+   https://news.google.com/rss/articles/CBMiWkFVX3lxTE42cFZNQV9pc0pSVjh0WWhsMW8wQlZnaTlaM3Fnd291amFmWV9oVm1icFVMSGJ2ZFBKT1ZudndCVkY0ZHMwZ0xBOVlucWtTRG9fdWZ2emRrYkc1dw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
 - **The future doctor will have an AI assistant, and so will every patient - TheCable** — https://news.google.com/rss/articles/CBMimgFBVV95cUxQZmp5WGdMaUJvajRySlhKNkIzX3ZwczFRdC1ZemotWGdHVFBBWTk0YjIwTlMwaVl6b05NRjREQnlab2VVbkNUc01lcUdOMFhiTm1VbWp0ZGlCUnRiS3gyR3BQMDdHNEVldndWSl91N0duSW1DazZ4NXdKaXBJMUgySERLUVN1aDA0eTc3UTRheDZxRk1OQlc3MWp3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3553
+- Total stories tracked: 3568
 - Most active topic: models
 - Busiest category: AI General News
 
