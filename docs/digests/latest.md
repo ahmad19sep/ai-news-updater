@@ -1,10 +1,10 @@
-# 🗞️ AI THIS WEEK — 22 Jul 2026 to 29 Jul 2026
+# 🗞️ AI THIS WEEK — 23 Jul 2026 to 30 Jul 2026
 
 ## 🔥 Biggest Story of the Week
-**Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US**
-Covered by 11 source(s) · Score: 113
-Best source link: https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
-All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php · https://www.greenwichtime.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php · https://www.myplainview.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php · https://www.mysanantonio.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php · https://www.ctinsider.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php · https://news.google.com/rss/articles/CBMilgFBVV95cUxQdm5uUXhNOEcyUXB6LWVpNDJ3UkJZclpja1ctcFdYclhjenJISmRRZGZTT2hoTDFXa2NuQlVzdGRRYmJWTWRCelg1M3hzWnR4WjBRZThDNjRmckw5c2paZU9pZ282ZVJXeTR6SWxhSG9qdkFUdlkyWUdZRDNPVUVBZGthbExxWThEdW5DWEk1NmJCQUJzT0E?oc=5 · https://www.fortmorgantimes.com/2026/07/27/china-us-ai-models/ · https://www.dailycamera.com/2026/07/27/china-us-ai-models/ · https://www.bostonherald.com/2026/07/27/china-us-ai-models/ · https://www.reporterherald.com/2026/07/27/china-us-ai-models/ · https://www.canoncitydailyrecord.com/2026/07/27/china-us-ai-models/
+**Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum**
+Covered by 13 source(s) · Score: 141
+Best source link: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5
+All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5 · https://news.google.com/rss/articles/CBMiugFBVV95cUxPNWVndXlGTnY4NWFMZGdGNDFNWnlkT2ZGZnF6aTI0eld2TnFVVTJNZUlZUjdkd2JHSXBWbUkxdWxkR2NsLVhNWEpIUjNHdF90UWZYU1Q2VDRuaWRWRC16akZMUl9fRzdJQm44eXl6YWRCVXl4aGNPM04zV194dWF1eTlITHhPYTBwNlB1TXlES3NOdlFNcHpoY2lCSEU5Y1M0MUZCaThYUFYxM3RUbGZmcFAyUi1jaGo4aWc?oc=5 · https://news.google.com/rss/articles/CBMivgFBVV95cUxOSVloUmpZb2o1MWsxMGI0LUh2RnkwWEdjWUNJOU1RczdaWHA0V3hYd3dPdXZ2ZFNrY2NPUGFyLWRkb0pjcFZqemdBLUZkd2t2NDQ4LWJUVW5LT1RDSXN1eERxang3c1dsZUZURVVUYmdUUklJXzl2aFNyR3BHVktYWG5LWFJGbUFGbGNuOVlzMFQ0Z3NjcXRJRTA1WThxbXdRUENHSVpkeUp6cXdZRWxqZDJEQmhuVTVkYWNIUFdR?oc=5 · https://www.dailyitem.com/wire/elon-musk-s-ai-company-seeks-to-block-minnesota-ban-on-ai-nudification-technology/article_6ca3a861-d85b-5f24-8fa6-804ac7eea68c.html · https://www.union-bulletin.com/news/national/elon-musk-s-ai-company-seeks-to-block-minnesota-ban-on-ai-nudification-technology/article_e55e1858-8dbc-5f15-9910-122a80dac6a9.html · https://www.swoknews.com/ap/national/elon-musk-s-ai-company-seeks-to-block-minnesota-ban-on-ai-nudification-technology/article_01fa4cd2-561f-5af2-a8c8-2a2104e62efb.html · https://thebrunswicknews.com/news/business/elon-musk-s-ai-company-seeks-to-block-minnesota-ban-on-ai-nudification-technology/article_013b3b92-c15c-5519-9ad5-dfb9ec4eb0c5.html · https://hanfordsentinel.com/news/national/elon-musk-s-ai-company-seeks-to-block-minnesota-ban-on-ai-nudification-technology/article_160d520c-5ab5-5620-9eda-865ea920243a.html · https://www.dailygazette.com/tribune/elon-musk-s-ai-company-seeks-to-block-minnesota-ban-on-ai-nudification-technology/article_2c354308-5c9c-5b6e-a66d-6c40797ba5b6.html · https://news.google.com/rss/articles/CBMinAFBVV95cUxNVzFFYWluRWl3UXAtOXdhcy1EYUwtZjFTcWw0S0xKdGJPRmxxSDJObmpYQmE2OFVpMzJab21PQWEwa3dUUEJmSkpPamZONEhXdWVfNjZXWDd3Tl9CRFVKb3ZZYW4zWVpQanJoRFVrd0dlOENuclNwNnpIUWJiaFZxYkhYYmpIWnRjdF9STHhkZUNLVjFhdUI5YnBpNTA?oc=5 · http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a6ac456338d44328266c4562f2accc8&url=https%3a%2f%2fwww.aol.com%2farticles%2felon-musk-xai-sues-minnesota-221544000.html&c=12902961449259787767&mkt=en-us · http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a6ac456338d44328266c4562f2accc8&url=https%3a%2f%2fwww.twincities.com%2f2026%2f07%2f29%2felon-musk-sues-minnesota-ai-nudification%2f&c=16650983508097615835&mkt=en-us · http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a6ac456338d44328266c4562f2accc8&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fus%2felon-musk-s-ai-company-seeks-to-block-minnesota-ban-on-ai-nudification-technology%2far-AA28TCDm&c=3563351086233220722&mkt=en-us
 
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — science angle
@@ -25,26 +25,26 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
    https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
-   https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
-2. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 111
+1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 141
    https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5
-3. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 78
-   https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
-4. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 76
+2. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
+   https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
+3. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 86
    https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX1ItNE4tZzd5eGJyYmFQM2h2eGhnYlZRNUplUjY2QkxxcTRFS1NZSFMwVGczMFFWTkdJU2ZjVzlXQ2ZzYzBndGZHMGlmTTVldEJ1THprbWRKZDFyZHowbTJtTVQ3QnNEdE9IZVd5YTFTWUw1dk5wajktUHNITGVlQmVhQW9OYW1Dc3ZSbkt5M0NjSWJDLTJ1SHoyWG5jQkRTREJDalZqN2ZfUDJKQ0pTTGh4ZTJkUW8zdjJxeUk4X2NLdjl6eUttODRaVVI3YTNVSzZRbkVtTEdaSzFaZG5WcG9TTkVsVER3WXc?oc=5
-5. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 66
-   https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
-6. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
-   https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
-7. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
-   https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
-8. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 57
+4. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 78
+   https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
+5. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 77
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTVnc1A0RXVTS01BaHM2ajhVRFpCcWF2a1A0WC0yRWhFcWFwRno0T0NZNUEtM2doVHRmZ2NFM3RFZHk1VHFxQ3paT3NaeHhTd0JhbkZlTVlUX3V0NzJ5N21saFJUam5Tc3haUmYwVHlGZkU3UGpaMTBKUjNOMHVJeFMxanByWG1JV1ZlWDdiYUFpUnhXdWZpMlZPU1AtTXo0Y002NWRfNFBlV2UzWmpmVkpnNmo?oc=5
-9. **ChatGPTDeutsch.info expands German-language AI platform with no-registration browser access** — openpr — Score 53
-   https://www.openpr.com/news/4585492/chatgptdeutsch-info-expands-german-language-ai-platform-with
-10. **Lee meets Anthropic CEO Amodei, seeks support for S. Korea's AI sector - Yonhap News Agency** — Dario Amodei News — Score 53
-   https://news.google.com/rss/articles/CBMiWkFVX3lxTE42cFZNQV9pc0pSVjh0WWhsMW8wQlZnaTlaM3Fnd291amFmWV9oVm1icFVMSGJ2ZFBKT1ZudndCVkY0ZHMwZ0xBOVlucWtTRG9fdWZ2emRrYkc1dw?oc=5
+6. **Nvidia CEO Jensen Huang Urges Support for Open-Weight AI Models - Bloomberg.com** — Jensen Huang News — Score 70
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkNwY3QtTDJERXN5MUpRTGN4aVc4eXdrUVJrZFFyRmt6dDBpR293YUxua2U2S2FhM0Rpc3g4bmU3MkQ2dUlHRzVDTXdNOXFmeHVQYVVwc1YtYlB1bW9HR3VHYzZIYWs3b1J0REVPWUdBRmp5aHF0dmFiZnhzd3l4UWY4M0xBYW5pQ2hWWU16M2NTM29ZeFVTQ192a3ZaUE15bWNfZDRxakpkNU13a3VPTnUxeDU?oc=5
+7. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 66
+   https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
+8. **Startup founders urge U.S. government not to shut off Chinese open weight AI** — Hacker News AI — Score 63
+   https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992
+9. **Elon Musk's X.AI sues to block Minnesota's AI nudification ban, calling it a 'ban on free speech' - kare11.com** — Elon Musk AI News — Score 61
+   https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX3dWYkZmakFoNHhJSks4cVIxZTNyQ1B0d25idWt4X1lTeWU1aU9wT2pHZ25DMTRLNnpWUEN5OThwRTRLeFI0bmM3M2cxRWt2ZDk4cjFWLUFCQk9IYndOeG1RWUN6dGhPWkJNN0phSVhWczh4bVNvcHVfeTQ4Q1dDLXl6cnJVaUQzVGN6X0hCd21PSExHejNrb21QTnVGUVhpdkVGOF9FZndwYzM4QS1oV2hHX2I5LTUtcElqZUtKWlBweUVXUXc4SzNiRnA2N09lZFF0YUhqdnI5WWM?oc=5
+10. **Anthropic launches Claude Opus 5 at half the price of Fable 5 - qz.com** — Breaking Claude — Score 58
+   https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTktncXZXM0d4X20ybTYxNElVeUx6bTMzNkN4OEhrRTZSZ005Z1dCWjUxb21mQnJpZmRsU0pycXZqWUl1QVNfRHFLNUlCLTZoa3BQejBxVEtWdEZELWJNQ2tCd09ZMVlrdDNz?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.houstonchronicle.com/news/world/article/cheaper-open-a
 - **The future doctor will have an AI assistant, and so will every patient - TheCable** — https://news.google.com/rss/articles/CBMimgFBVV95cUxQZmp5WGdMaUJvajRySlhKNkIzX3ZwczFRdC1ZemotWGdHVFBBWTk0YjIwTlMwaVl6b05NRjREQnlab2VVbkNUc01lcUdOMFhiTm1VbWp0ZGlCUnRiS3gyR3BQMDdHNEVldndWSl91N0duSW1DazZ4NXdKaXBJMUgySERLUVN1aDA0eTc3UTRheDZxRk1OQlc3MWp3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3554
+- Total stories tracked: 3550
 - Most active topic: models
 - Busiest category: AI General News
 
