@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **Doctors need an AI model they can understand, says researcher - Medical Xpress** — https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3568
+- Total stories tracked: 3529
 - Most active topic: models
 - Busiest category: AI General News
 
