@@ -11,31 +11,31 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 2. **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-3. **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — science angle
-   https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
-4. **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — science angle
+3. **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
-5. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
+4. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
-6. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
+5. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
-7. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
+6. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHc0aUNOZEJoOEY0WmtzNWZPUm5CRHBkUXEzcjk0bkFCbzJPcWppb3A4eGFCRHdvdjNMUWlBUmgyc2k1MklZLTdtWmtjUGdHc0wwclJDRGdrT2VsU0dTY29JNGhIcGw0MElKNnVsRF9DRVRXd2FSWDBwaFpaZlFQNHdOTkpObkpwZzZpS3dKVC1rZGt4bVFN?oc=5
-8. **Will AI take your job? From cashiers to doctors, which professions face the biggest risk - The Times of India** — science angle
+7. **Will AI take your job? From cashiers to doctors, which professions face the biggest risk - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOTjdpS216UVFKaXBJVXBlWUY3clNGWUFtYnZBRHo2TTJDLU5YeXlXVTJRQ3RqdmREUmxMek9QaWM4eWY2VGdCeFFGVXVTMFpKbVF1WXhlbHJGNWgybjg5VnRfVGFXU2QxNFRtdmIybmRVeW5UaG1iVWJxeU5xNEM3RXFLaGNoQlJOVTRIZENkLVVkQ3AtRkF6NU9mTzVlLTFXRU9fcUZfR3lfNk9JT1B3ZUdNM0VTb0YzM19qSXgwQnJyMjFacUNHOS1IQVpQYnpRbnotV2l1UDBnMmpJUGFpbmlIbzNsVjFDMVhSSTdoSm93aDNXNFFPYzJtTE9NSnpWcFHSAYcCQVVfeXFMTVJ2V0UwNXRLRkZERjVGRmpPcXpRMkVUNmpfUlQxeXdiTUc0a0k1RXVGVnRVcFEtckV5ejFsMFlKXzl2bEtQZUdLdjh6LTJoclZTa0czZGtQMVU1LTkwU2dyQkRLNW1nSlZBOUFUbWxudEd2cnppenhKbDZ0Sk94OW9PdDAwUkYwZnNHQmdXZ0xSUVVHOE85ZEJqbnNDZm5UWnEzSExhbUdqa3lXbExfLXR0cU4tcFMwSWp1NXRad0pYRjlGc0l1ZE5qQlE5dUIxWDBpUEJDVFBRZXlwRUdmQ3h6R1l0Si0yR29lTXdFMzZubzFSRGdNVmt5emRfZ3REaGJ6UEhiY00?oc=5
+8. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
+   https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 171
    https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5
 2. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
    https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
-3. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 83
+3. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 106
+   https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiWGZLYVBjcno3dk1wdkZEOEJCMm02SWdkUktwVTJpa3BYdi1iV1BLSEpnS3pNZDhoZl8xeXc0Z2piemxzTHg5amctVDlaQWVkeU1LY3JLYVQwUWMtVkg4N2ZaNDRObnRkdHdtckk5STVzY3lEMEREemUta3g4VUp5cHRZd1NGMWxWVHpGU1dvR2NTX1A0bHlzOUVPdEtKeXd1bjZTblJISGhZeEFnd2NPN0pXdmdhS0lLMGR5RlFJckxhLUoyZXE3R2I2Rm1SQlBMbzF6OGdVRHpVOXp3OW9BRk5hU2l1VVZTQVFl?oc=5
+4. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 83
    https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX1ItNE4tZzd5eGJyYmFQM2h2eGhnYlZRNUplUjY2QkxxcTRFS1NZSFMwVGczMFFWTkdJU2ZjVzlXQ2ZzYzBndGZHMGlmTTVldEJ1THprbWRKZDFyZHowbTJtTVQ3QnNEdE9IZVd5YTFTWUw1dk5wajktUHNITGVlQmVhQW9OYW1Dc3ZSbkt5M0NjSWJDLTJ1SHoyWG5jQkRTREJDalZqN2ZfUDJKQ0pTTGh4ZTJkUW8zdjJxeUk4X2NLdjl6eUttODRaVVI3YTNVSzZRbkVtTEdaSzFaZG5WcG9TTkVsVER3WXc?oc=5
-4. **Workday launches AI-powered learning tool with Sana** — itbrief_com_au — Score 78
-   https://itbrief.com.au/story/workday-launches-ai-powered-learning-tool-with-sana
 5. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 77
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTVnc1A0RXVTS01BaHM2ajhVRFpCcWF2a1A0WC0yRWhFcWFwRno0T0NZNUEtM2doVHRmZ2NFM3RFZHk1VHFxQ3paT3NaeHhTd0JhbkZlTVlUX3V0NzJ5N21saFJUam5Tc3haUmYwVHlGZkU3UGpaMTBKUjNOMHVJeFMxanByWG1JV1ZlWDdiYUFpUnhXdWZpMlZPU1AtTXo0Y002NWRfNFBlV2UzWmpmVkpnNmo?oc=5
-6. **Nvidia CEO Jensen Huang Urges Support for Open-Weight AI Models - Bloomberg.com** — Jensen Huang News — Score 70
+6. **Nvidia CEO Jensen Huang Urges Support for Open-Weight AI Models - Bloomberg.com** — Jensen Huang News — Score 67
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkNwY3QtTDJERXN5MUpRTGN4aVc4eXdrUVJrZFFyRmt6dDBpR293YUxua2U2S2FhM0Rpc3g4bmU3MkQ2dUlHRzVDTXdNOXFmeHVQYVVwc1YtYlB1bW9HR3VHYzZIYWs3b1J0REVPWUdBRmp5aHF0dmFiZnhzd3l4UWY4M0xBYW5pQ2hWWU16M2NTM29ZeFVTQ192a3ZaUE15bWNfZDRxakpkNU13a3VPTnUxeDU?oc=5
 7. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 66
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 ## 🧪 AI in Science Highlights
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-- **Q&A: How UW researchers are using AI to speed up drug discovery and development - EurekAlert!** — https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pa1lDU3JpYjVLcE5OcC1tOVVyQWxhaGJmdDJHMlo1dUlGekdVODZXU2JjdXB0OExhZFVla2ZrQ3FmMW1rb3p5MkxXT1BtLTFhNVFvUWV6Z1ZCVm04?oc=5
 - **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **AI health scam ads on social media fool vulnerable patients - eMarketer** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
+- **Doctors need an AI model they can understand, says researcher - Medical Xpress** — https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3587
+- Total stories tracked: 3594
 - Most active topic: models
 - Busiest category: AI General News
 
