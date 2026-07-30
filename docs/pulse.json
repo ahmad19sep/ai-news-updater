@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T03:31:43.795854+00:00",
+  "generated_at": "2026-07-30T09:04:06.348789+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -20,63 +20,61 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create stunning images with the power of AI.",
-      "linkedin_angle": "Explore the potential of AI-generated images in your marketing strategy.",
+      "what_it_is": "A new version of ChatGPT that can generate images.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "ChatGPT has an affiliate program for its images"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "39"
         }
       ],
       "content_ideas": [
         "How to Create Art with ChatGPT Images 2.0",
-        "The Future of Graphic Design: ChatGPT Images 2.0 Review",
-        "Using ChatGPT Images 2.0 for Social Media Marketing"
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "Making Money with ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "Claude and ChatGPT usage meter",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "A new feature of ChatGPT that allows for more advanced tasks.",
-      "audience_angle": "Unlock the full potential of ChatGPT with its new Work feature.",
-      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow and increase productivity.",
-      "local_relevance": 8,
+      "what_it_is": "A tool to track and manage Claude and ChatGPT usage.",
+      "audience_angle": "Optimize your AI usage with this innovative meter.",
+      "linkedin_angle": "Discover how to streamline your AI workflow with the Claude and ChatGPT usage meter.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vamn2x/i_built_a_claude_and_chatgpt_usage_meter_for/",
+          "signal": "17"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "ChatGPT Work: The Ultimate Productivity Tool for Professionals",
-        "How to Use ChatGPT Work for Content Creation"
+        "How to Use the Claude and ChatGPT Usage Meter",
+        "Maximizing Productivity with the Claude and ChatGPT Usage Meter",
+        "Claude and ChatGPT Usage Meter Review"
       ]
     },
     {
@@ -86,122 +84,121 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI to generate videos.",
-      "audience_angle": "Create stunning videos with the power of AI.",
-      "linkedin_angle": "Explore the potential of AI-generated videos in your marketing strategy.",
-      "local_relevance": 6,
+      "what_it_is": "Using AI to generate videos.",
+      "audience_angle": "Create stunning videos with AI.",
+      "linkedin_angle": "Explore the potential of AI video generation for your business.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
+        "note": "AI video generation tools often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=O0jS3pXAJww",
-          "signal": "ai se video kaise banaye"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create AI-Generated Videos for Social Media",
-        "The Future of Video Production: AI-Generated Videos",
-        "Using AI-Generated Videos for Marketing and Advertising"
+        "How to Make Money with AI Video Generation",
+        "AI Video Generation Tutorial for Beginners",
+        "The Future of Video Creation: AI Video Generation"
       ]
     },
     {
-      "name": "Gemini AI",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "A new AI tool for generating videos and images.",
-      "audience_angle": "Create stunning content with the power of Gemini AI.",
-      "linkedin_angle": "Explore the potential of Gemini AI in your marketing strategy.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Gemini AI has an affiliate program for its tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3GQvpjsbMWE",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Gemini AI: A Beginner's Guide",
-        "Gemini AI: The Ultimate Tool for Content Creators",
-        "How to Use Gemini AI for Social Media Marketing"
-      ]
-    },
-    {
-      "name": "ChatGPT vs Claude",
-      "category": "debate",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "A comparison between ChatGPT and Claude AI tools.",
-      "audience_angle": "Which AI tool is best for you: ChatGPT or Claude?",
-      "linkedin_angle": "Discover the differences between ChatGPT and Claude and how they can impact your business.",
+      "what_it_is": "A new feature of ChatGPT that allows for more advanced tasks.",
+      "audience_angle": "Unlock the full potential of ChatGPT with ChatGPT Work.",
+      "linkedin_angle": "Discover how ChatGPT Work can enhance your productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Both ChatGPT and Claude have affiliate programs for their tools."
+        "note": "ChatGPT has an affiliate program for its features"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v9rukh/anyone_feel_like_claude_used_to_be_superior_then/",
-          "signal": "Anyone feel like Claude used to be superior then ChatGPT got better lately and now Claude sucks ass?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "ChatGPT vs Claude: Which AI Tool is Best for You?",
-        "The Ultimate Showdown: ChatGPT vs Claude",
-        "How to Choose Between ChatGPT and Claude for Your Business"
+        "How to Use ChatGPT Work for Maximum Productivity",
+        "ChatGPT Work Tutorial for Beginners",
+        "Making Money with ChatGPT Work"
       ]
     },
     {
-      "name": "AI Trading",
+      "name": "AI Agents",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI in trading and investing.",
-      "audience_angle": "Use AI to make informed investment decisions and maximize your returns.",
-      "linkedin_angle": "Explore the potential of AI in trading and investing for your business.",
+      "what_it_is": "Using AI agents to automate tasks.",
+      "audience_angle": "Streamline your workflow with AI agents.",
+      "linkedin_angle": "Explore the potential of AI agents for your business.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI trading tools have affiliate programs."
+        "note": "AI agent tools often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+trading",
-          "signal": "ai trading"
+          "url": "https://www.youtube.com/results?search_query=ai+agents",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Trading and Investing",
-        "The Future of Trading: AI-Powered Investment Strategies",
-        "Using AI to Make Informed Investment Decisions"
+        "How to Make Money with AI Agents",
+        "AI Agents Tutorial for Beginners",
+        "The Future of Automation: AI Agents"
+      ]
+    },
+    {
+      "name": "Generative AI",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A type of AI that can generate new content.",
+      "audience_angle": "Create new and innovative content with generative AI.",
+      "linkedin_angle": "Discover how generative AI can enhance your content creation.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Generative AI tools often have affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=34343433",
+          "signal": "1059"
+        }
+      ],
+      "content_ideas": [
+        "How to Make Money with Generative AI",
+        "Generative AI Tutorial for Beginners",
+        "The Future of Content Creation: Generative AI"
       ]
     }
   ],
@@ -211,31 +208,61 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create stunning images with the power of AI.",
-      "linkedin_angle": "Explore the potential of AI-generated images in your marketing strategy.",
+      "what_it_is": "A new version of ChatGPT that can generate images.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "ChatGPT has an affiliate program for its images"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "39"
         }
       ],
       "content_ideas": [
         "How to Create Art with ChatGPT Images 2.0",
-        "The Future of Graphic Design: ChatGPT Images 2.0 Review",
-        "Using ChatGPT Images 2.0 for Social Media Marketing"
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "Making Money with ChatGPT Images 2.0"
+      ]
+    },
+    {
+      "name": "Claude and ChatGPT usage meter",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A tool to track and manage Claude and ChatGPT usage.",
+      "audience_angle": "Optimize your AI usage with this innovative meter.",
+      "linkedin_angle": "Discover how to streamline your AI workflow with the Claude and ChatGPT usage meter.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vamn2x/i_built_a_claude_and_chatgpt_usage_meter_for/",
+          "signal": "17"
+        }
+      ],
+      "content_ideas": [
+        "How to Use the Claude and ChatGPT Usage Meter",
+        "Maximizing Productivity with the Claude and ChatGPT Usage Meter",
+        "Claude and ChatGPT Usage Meter Review"
       ]
     },
     {
@@ -243,89 +270,57 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
         "youtube"
       ],
       "what_it_is": "A new feature of ChatGPT that allows for more advanced tasks.",
-      "audience_angle": "Unlock the full potential of ChatGPT with its new Work feature.",
-      "linkedin_angle": "Discover how ChatGPT Work can streamline your workflow and increase productivity.",
+      "audience_angle": "Unlock the full potential of ChatGPT with ChatGPT Work.",
+      "linkedin_angle": "Discover how ChatGPT Work can enhance your productivity.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "ChatGPT has an affiliate program for its features"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+work",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Work: A Beginner's Guide",
-        "ChatGPT Work: The Ultimate Productivity Tool for Professionals",
-        "How to Use ChatGPT Work for Content Creation"
-      ]
-    },
-    {
-      "name": "Gemini AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new AI tool for generating videos and images.",
-      "audience_angle": "Create stunning content with the power of Gemini AI.",
-      "linkedin_angle": "Explore the potential of Gemini AI in your marketing strategy.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Gemini AI has an affiliate program for its tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3GQvpjsbMWE",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Gemini AI: A Beginner's Guide",
-        "Gemini AI: The Ultimate Tool for Content Creators",
-        "How to Use Gemini AI for Social Media Marketing"
+        "How to Use ChatGPT Work for Maximum Productivity",
+        "ChatGPT Work Tutorial for Beginners",
+        "Making Money with ChatGPT Work"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v9x6b1/my_therapist_is_free_until_the_daily_limit_kicks/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vafwa4/asked_chatgpt_to_design_an_architectural_marvels/"
         }
       ],
-      "content_opportunity": "How to Optimize ChatGPT Usage and Minimize Costs"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     },
     {
-      "problem": "Claude AI subscription issues",
-      "who_affected": "Claude AI users",
-      "signal_strength": 5,
+      "problem": "AI video generation costs",
+      "who_affected": "AI video creators",
+      "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49080775"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation"
         }
       ],
-      "content_opportunity": "Troubleshooting Claude AI Subscription Issues: A Step-by-Step Guide"
+      "content_opportunity": "How to reduce AI video generation costs"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Work"
