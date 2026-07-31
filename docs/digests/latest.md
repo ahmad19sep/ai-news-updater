@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 23 Jul 2026 to 30 Jul 2026
+# 🗞️ AI THIS WEEK — 24 Jul 2026 to 31 Jul 2026
 
 ## 🔥 Biggest Story of the Week
 **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum**
@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 3. **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-4. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
-5. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
+4. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
-6. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
+5. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHc0aUNOZEJoOEY0WmtzNWZPUm5CRHBkUXEzcjk0bkFCbzJPcWppb3A4eGFCRHdvdjNMUWlBUmgyc2k1MklZLTdtWmtjUGdHc0wwclJDRGdrT2VsU0dTY29JNGhIcGw0MElKNnVsRF9DRVRXd2FSWDBwaFpaZlFQNHdOTkpObkpwZzZpS3dKVC1rZGt4bVFN?oc=5
-7. **Will AI take your job? From cashiers to doctors, which professions face the biggest risk - The Times of India** — science angle
+6. **Will AI take your job? From cashiers to doctors, which professions face the biggest risk - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOTjdpS216UVFKaXBJVXBlWUY3clNGWUFtYnZBRHo2TTJDLU5YeXlXVTJRQ3RqdmREUmxMek9QaWM4eWY2VGdCeFFGVXVTMFpKbVF1WXhlbHJGNWgybjg5VnRfVGFXU2QxNFRtdmIybmRVeW5UaG1iVWJxeU5xNEM3RXFLaGNoQlJOVTRIZENkLVVkQ3AtRkF6NU9mTzVlLTFXRU9fcUZfR3lfNk9JT1B3ZUdNM0VTb0YzM19qSXgwQnJyMjFacUNHOS1IQVpQYnpRbnotV2l1UDBnMmpJUGFpbmlIbzNsVjFDMVhSSTdoSm93aDNXNFFPYzJtTE9NSnpWcFHSAYcCQVVfeXFMTVJ2V0UwNXRLRkZERjVGRmpPcXpRMkVUNmpfUlQxeXdiTUc0a0k1RXVGVnRVcFEtckV5ejFsMFlKXzl2bEtQZUdLdjh6LTJoclZTa0czZGtQMVU1LTkwU2dyQkRLNW1nSlZBOUFUbWxudEd2cnppenhKbDZ0Sk94OW9PdDAwUkYwZnNHQmdXZ0xSUVVHOE85ZEJqbnNDZm5UWnEzSExhbUdqa3lXbExfLXR0cU4tcFMwSWp1NXRad0pYRjlGc0l1ZE5qQlE5dUIxWDBpUEJDVFBRZXlwRUdmQ3h6R1l0Si0yR29lTXdFMzZubzFSRGdNVmt5emRfZ3REaGJ6UEhiY00?oc=5
-8. **Researchers develop AI system to accelerate tuberculosis drug discovery - Drug Target Review** — science angle
+7. **Researchers develop AI system to accelerate tuberculosis drug discovery - Drug Target Review** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmNnZnZQZGtGYzF2dDRmakFnVzhBeExDZG05MzJncXJxd2xGV2RuQ0lscngyY2FPUm5BeXdZc0VrUGxIcnJGcEdyeXZjWHk4MGxBS3pHQ3VRV2R2U3VzS3dIcmd0eWRaQlg4ZUpueWhLT1FhMjFBUjUzZ3pGV25EX2ppVjJDM0FpMmFGRTluOUFmeXl4RUdGdm92Z0hDalV0UllFNEJrMXVLYlZBVVRfVTZvR1NfMmtPOVlKZw?oc=5
+8. **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — science angle
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 - **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-- **AI health scam ads on social media fool vulnerable patients - eMarketer** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
 - **Doctors need an AI model they can understand, says researcher - Medical Xpress** — https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
+- **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHc0aUNOZEJoOEY0WmtzNWZPUm5CRHBkUXEzcjk0bkFCbzJPcWppb3A4eGFCRHdvdjNMUWlBUmgyc2k1MklZLTdtWmtjUGdHc0wwclJDRGdrT2VsU0dTY29JNGhIcGw0MElKNnVsRF9DRVRXd2FSWDBwaFpaZlFQNHdOTkpObkpwZzZpS3dKVC1rZGt4bVFN?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3556
+- Total stories tracked: 3514
 - Most active topic: models
 - Busiest category: AI General News
 
