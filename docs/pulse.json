@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T03:52:30.541575+00:00",
+  "generated_at": "2026-07-31T09:17:51.902492+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 40,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,8 +22,8 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "what_it_is": "A new image generation feature for ChatGPT.",
+      "audience_angle": "Create stunning images with ChatGPT's latest update.",
       "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
@@ -31,7 +31,7 @@
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
+        "note": "ChatGPT has an affiliate program for its features."
       },
       "sources": [
         {
@@ -41,9 +41,9 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators",
-        "Unlocking the Potential of ChatGPT Images 2.0"
+        "How to Create Art with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Visual Content",
+        "Getting Started with ChatGPT Images 2.0"
       ]
     },
     {
@@ -53,12 +53,12 @@
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "A new robotics platform from DeepMind that brings whole-body intelligence to robots.",
-      "audience_angle": "Discover how Gemini Robotics 2 is revolutionizing robotics with whole-body intelligence.",
-      "linkedin_angle": "Explore the potential of Gemini Robotics 2 for industrial automation and robotics.",
+      "what_it_is": "An AI-powered robotics system with whole-body intelligence.",
+      "audience_angle": "Discover how Gemini Robotics 2 is revolutionizing robotics.",
+      "linkedin_angle": "Learn about the potential applications of Gemini Robotics 2 in various industries.",
       "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
@@ -72,9 +72,9 @@
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini Robotics 2: Whole-Body Intelligence for Robots",
-        "Gemini Robotics 2: The Future of Industrial Automation",
-        "Getting Started with Gemini Robotics 2: A Beginner's Guide"
+        "Introduction to Gemini Robotics 2",
+        "Gemini Robotics 2: The Future of Robotics",
+        "Applications of Gemini Robotics 2 in Various Industries"
       ]
     },
     {
@@ -84,16 +84,16 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using AI to generate videos for various purposes such as marketing, education, and entertainment.",
-      "audience_angle": "Create engaging videos with AI and take your content to the next level.",
-      "linkedin_angle": "Leverage AI video generation for professional video content creation.",
+      "what_it_is": "The use of AI to generate videos.",
+      "audience_angle": "Create stunning videos with AI video generation.",
+      "linkedin_angle": "Explore the potential of AI video generation for business and marketing.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools may have affiliate programs for creators."
+        "note": "AI video generation tools often have affiliate programs."
       },
       "sources": [
         {
@@ -103,195 +103,114 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning AI-Generated Videos",
-        "AI Video Generation: A Beginner's Guide",
-        "Using AI for Video Content Creation: Tips and Tricks"
+        "How to Create Videos with AI",
+        "AI Video Generation: A Game-Changer for Content Creators",
+        "Getting Started with AI Video Generation"
       ]
     },
     {
-      "name": "ChatGPT for Earning",
-      "category": "use_case",
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "Using ChatGPT for various earning opportunities such as content creation, affiliate marketing, and more.",
-      "audience_angle": "Maximize your earnings with ChatGPT and discover new opportunities.",
-      "linkedin_angle": "Explore how ChatGPT can enhance your professional earning potential.",
+      "what_it_is": "A new feature of ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Discover how ChatGPT Work can enhance your productivity.",
+      "linkedin_angle": "Learn about the potential applications of ChatGPT Work in various industries.",
       "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT may have an affiliate program for creators."
+        "note": "ChatGPT has an affiliate program for its features."
       },
       "sources": [
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbecrr/chatgpt_may_have_saved_my_life/",
+          "signal": "ChatGPT Work"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
-          "signal": "Laziest Ways to Make Money with AI (For Beginners)"
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Earning: A Beginner's Guide",
-        "ChatGPT for Earning: Tips and Tricks for Success",
-        "Maximizing Your Earnings with ChatGPT: Advanced Strategies"
+        "Introduction to ChatGPT Work",
+        "ChatGPT Work: The Future of Productivity",
+        "Applications of ChatGPT Work in Various Industries"
       ]
     },
     {
-      "name": "Kimi K3",
-      "category": "tool_launch",
+      "name": "AI Trading Agents",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "A new AI model for various applications such as content creation and more.",
-      "audience_angle": "Discover the capabilities of Kimi K3 and how it can enhance your workflow.",
-      "linkedin_angle": "Explore the potential of Kimi K3 for professional applications.",
+      "what_it_is": "The use of AI to trade stocks and other financial instruments.",
+      "audience_angle": "Discover how AI trading agents can enhance your trading experience.",
+      "linkedin_angle": "Learn about the potential applications of AI trading agents in finance.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Kimi K3."
+        "affiliate_likely": true,
+        "note": "AI trading agent tools often have affiliate programs."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://notes.designarena.ai/kimi-k3s-design-secret-may-be-in-its-thinking-traces/",
-          "signal": "Kimi K3's Design Secret May Be in Its Thinking Traces"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
+          "signal": "The Rise Of AI-Powered Trading Agents"
         }
       ],
       "content_ideas": [
-        "Introduction to Kimi K3: A New AI Model for Content Creation",
-        "Kimi K3: The Future of AI-Powered Content Creation",
-        "Getting Started with Kimi K3: A Beginner's Guide"
+        "How to Use AI Trading Agents",
+        "AI Trading Agents: A Game-Changer for Finance",
+        "Getting Started with AI Trading Agents"
       ]
     },
     {
-      "name": "AI Agents",
-      "category": "use_case",
+      "name": "Claude AI",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "hackernews",
+        "reddit"
       ],
-      "what_it_is": "Using AI agents for various applications such as automation, customer service, and more.",
-      "audience_angle": "Discover how AI agents can automate tasks and enhance your workflow.",
-      "linkedin_angle": "Explore the potential of AI agents for professional applications.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
+      "what_it_is": "An AI model developed by Anthropic.",
+      "audience_angle": "Discover how Claude AI can enhance your productivity.",
+      "linkedin_angle": "Learn about the potential applications of Claude AI in various industries.",
+      "local_relevance": 8,
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "AI agent tools may have affiliate programs for creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+agents",
-          "signal": "AI agents"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI Agents for Automation",
-        "AI Agents: A Beginner's Guide",
-        "Using AI Agents for Customer Service: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "GPT-5.6",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new version of the GPT model for various applications such as content creation and more.",
-      "audience_angle": "Discover the capabilities of GPT-5.6 and how it can enhance your workflow.",
-      "linkedin_angle": "Explore the potential of GPT-5.6 for professional applications.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available for GPT-5.6."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-          "signal": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to GPT-5.6: A New Version of the GPT Model",
-        "GPT-5.6: The Future of AI-Powered Content Creation",
-        "Getting Started with GPT-5.6: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new AI model for various applications such as content creation and more.",
-      "audience_angle": "Discover the capabilities of Claude and how it can enhance your workflow.",
-      "linkedin_angle": "Explore the potential of Claude for professional applications.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Claude."
+        "note": "No affiliate program available for Claude AI."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://claude.ai/share/98073770-0ad9-431f-a1e7-e0243db18758",
           "signal": "I obtained Claude Opus 5 system prompt"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Claude: A New AI Model for Content Creation",
-        "Claude: The Future of AI-Powered Content Creation",
-        "Getting Started with Claude: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI for trading and investment purposes.",
-      "audience_angle": "Discover how AI can enhance your trading and investment decisions.",
-      "linkedin_angle": "Explore the potential of AI for professional trading and investment applications.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI trading tools may have affiliate programs for creators."
-      },
-      "sources": [
+        },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+for+trading",
-          "signal": "AI for trading"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbbr3r/i_really_appreciate_the_different_base/",
+          "signal": "I really appreciate the different base personalities between Claude, Gemini and ChatGPT"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Trading: A Beginner's Guide",
-        "AI for Trading: Tips and Tricks for Success",
-        "Using AI for Investment Decisions: A Professional's Perspective"
+        "Introduction to Claude AI",
+        "Claude AI: The Future of AI Models",
+        "Applications of Claude AI in Various Industries"
       ]
     }
   ],
@@ -303,8 +222,8 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
+      "what_it_is": "A new image generation feature for ChatGPT.",
+      "audience_angle": "Create stunning images with ChatGPT's latest update.",
       "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
@@ -312,7 +231,7 @@
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 may have an affiliate program for creators."
+        "note": "ChatGPT has an affiliate program for its features."
       },
       "sources": [
         {
@@ -322,71 +241,9 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators",
-        "Unlocking the Potential of ChatGPT Images 2.0"
-      ]
-    },
-    {
-      "name": "Kimi K3",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new AI model for various applications such as content creation and more.",
-      "audience_angle": "Discover the capabilities of Kimi K3 and how it can enhance your workflow.",
-      "linkedin_angle": "Explore the potential of Kimi K3 for professional applications.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Kimi K3."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://notes.designarena.ai/kimi-k3s-design-secret-may-be-in-its-thinking-traces/",
-          "signal": "Kimi K3's Design Secret May Be in Its Thinking Traces"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Kimi K3: A New AI Model for Content Creation",
-        "Kimi K3: The Future of AI-Powered Content Creation",
-        "Getting Started with Kimi K3: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "GPT-5.6",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new version of the GPT model for various applications such as content creation and more.",
-      "audience_angle": "Discover the capabilities of GPT-5.6 and how it can enhance your workflow.",
-      "linkedin_angle": "Explore the potential of GPT-5.6 for professional applications.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for GPT-5.6."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-          "signal": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to GPT-5.6: A New Version of the GPT Model",
-        "GPT-5.6: The Future of AI-Powered Content Creation",
-        "Getting Started with GPT-5.6: A Beginner's Guide"
+        "How to Create Art with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Visual Content",
+        "Getting Started with ChatGPT Images 2.0"
       ]
     },
     {
@@ -396,12 +253,12 @@
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "A new robotics platform from DeepMind that brings whole-body intelligence to robots.",
-      "audience_angle": "Discover how Gemini Robotics 2 is revolutionizing robotics with whole-body intelligence.",
-      "linkedin_angle": "Explore the potential of Gemini Robotics 2 for industrial automation and robotics.",
+      "what_it_is": "An AI-powered robotics system with whole-body intelligence.",
+      "audience_angle": "Discover how Gemini Robotics 2 is revolutionizing robotics.",
+      "linkedin_angle": "Learn about the potential applications of Gemini Robotics 2 in various industries.",
       "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
@@ -415,58 +272,101 @@
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini Robotics 2: Whole-Body Intelligence for Robots",
-        "Gemini Robotics 2: The Future of Industrial Automation",
-        "Getting Started with Gemini Robotics 2: A Beginner's Guide"
+        "Introduction to Gemini Robotics 2",
+        "Gemini Robotics 2: The Future of Robotics",
+        "Applications of Gemini Robotics 2 in Various Industries"
       ]
     },
     {
-      "name": "Claude",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
-      "what_it_is": "A new AI model for various applications such as content creation and more.",
-      "audience_angle": "Discover the capabilities of Claude and how it can enhance your workflow.",
-      "linkedin_angle": "Explore the potential of Claude for professional applications.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "what_it_is": "An AI model developed by Anthropic.",
+      "audience_angle": "Discover how Claude AI can enhance your productivity.",
+      "linkedin_angle": "Learn about the potential applications of Claude AI in various industries.",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available for Claude."
+        "note": "No affiliate program available for Claude AI."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://claude.ai/share/98073770-0ad9-431f-a1e7-e0243db18758",
           "signal": "I obtained Claude Opus 5 system prompt"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbbr3r/i_really_appreciate_the_different_base/",
+          "signal": "I really appreciate the different base personalities between Claude, Gemini and ChatGPT"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude: A New AI Model for Content Creation",
-        "Claude: The Future of AI-Powered Content Creation",
-        "Getting Started with Claude: A Beginner's Guide"
+        "Introduction to Claude AI",
+        "Claude AI: The Future of AI Models",
+        "Applications of Claude AI in Various Industries"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "A new feature of ChatGPT that allows users to create and manage their work.",
+      "audience_angle": "Discover how ChatGPT Work can enhance your productivity.",
+      "linkedin_angle": "Learn about the potential applications of ChatGPT Work in various industries.",
+      "local_relevance": 7,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its features."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbecrr/chatgpt_may_have_saved_my_life/",
+          "signal": "ChatGPT Work"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to ChatGPT Work",
+        "ChatGPT Work: The Future of Productivity",
+        "Applications of ChatGPT Work in Various Industries"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vb8f64/need_help_any_and_all_responses_getting_cancelled/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vb4r4i/ads_are_here_what_other_changes_should_we_brace/"
         }
       ],
-      "content_opportunity": "Claude Token Limits: How to Optimize Your Usage and Avoid Running Out"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     },
     {
-      "problem": "AI model escaping and hacking other companies",
+      "problem": "AI model hacking",
       "who_affected": "AI model developers and users",
       "signal_strength": 8,
       "sources": [
@@ -475,8 +375,8 @@
           "url": "https://www.wsj.com/tech/ai/anthropic-ai-models-hacked-three-companies-during-tests-bd752c86"
         }
       ],
-      "content_opportunity": "The Risks of AI Model Escapes: How to Prevent and Mitigate Hacking Attempts"
+      "content_opportunity": "How to secure AI models from hacking"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Work, a new feature that allows users to create and manage their work with ChatGPT."
 }
