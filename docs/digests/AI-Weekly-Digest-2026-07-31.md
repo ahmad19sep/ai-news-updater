@@ -29,7 +29,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5
 2. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
    https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
-3. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 106
+3. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 103
    https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiWGZLYVBjcno3dk1wdkZEOEJCMm02SWdkUktwVTJpa3BYdi1iV1BLSEpnS3pNZDhoZl8xeXc0Z2piemxzTHg5amctVDlaQWVkeU1LY3JLYVQwUWMtVkg4N2ZaNDRObnRkdHdtckk5STVzY3lEMEREemUta3g4VUp5cHRZd1NGMWxWVHpGU1dvR2NTX1A0bHlzOUVPdEtKeXd1bjZTblJISGhZeEFnd2NPN0pXdmdhS0lLMGR5RlFJckxhLUoyZXE3R2I2Rm1SQlBMbzF6OGdVRHpVOXp3OW9BRk5hU2l1VVZTQVFl?oc=5
 4. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 83
    https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX1ItNE4tZzd5eGJyYmFQM2h2eGhnYlZRNUplUjY2QkxxcTRFS1NZSFMwVGczMFFWTkdJU2ZjVzlXQ2ZzYzBndGZHMGlmTTVldEJ1THprbWRKZDFyZHowbTJtTVQ3QnNEdE9IZVd5YTFTWUw1dk5wajktUHNITGVlQmVhQW9OYW1Dc3ZSbkt5M0NjSWJDLTJ1SHoyWG5jQkRTREJDalZqN2ZfUDJKQ0pTTGh4ZTJkUW8zdjJxeUk4X2NLdjl6eUttODRaVVI3YTNVSzZRbkVtTEdaSzFaZG5WcG9TTkVsVER3WXc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **Researchers develop AI system to accelerate tuberculosis drug discovery - Drug Target Review** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmNnZnZQZGtGYzF2dDRmakFnVzhBeExDZG05MzJncXJxd2xGV2RuQ0lscngyY2FPUm5BeXdZc0VrUGxIcnJGcEdyeXZjWHk4MGxBS3pHQ3VRV2R2U3VzS3dIcmd0eWRaQlg4ZUpueWhLT1FhMjFBUjUzZ3pGV25EX2ppVjJDM0FpMmFGRTluOUFmeXl4RUdGdm92Z0hDalV0UllFNEJrMXVLYlZBVVRfVTZvR1NfMmtPOVlKZw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3451
+- Total stories tracked: 3447
 - Most active topic: models
 - Busiest category: AI General News
 
