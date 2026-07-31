@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHc0aUNOZEJoOEY0WmtzNWZPUm5CRHBkUXEzcjk0bkFCbzJPcWppb3A4eGFCRHdvdjNMUWlBUmgyc2k1MklZLTdtWmtjUGdHc0wwclJDRGdrT2VsU0dTY29JNGhIcGw0MElKNnVsRF9DRVRXd2FSWDBwaFpaZlFQNHdOTkpObkpwZzZpS3dKVC1rZGt4bVFN?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3479
+- Total stories tracked: 3492
 - Most active topic: models
 - Busiest category: AI General News
 
