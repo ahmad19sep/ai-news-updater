@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:17:51.902492+00:00",
+  "generated_at": "2026-07-31T14:37:43.282109+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,191 +9,166 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 40,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT for Earning",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "A new image generation feature for ChatGPT.",
-      "audience_angle": "Create stunning images with ChatGPT's latest update.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT is an AI tool that can be used for various tasks, including earning money.",
+      "audience_angle": "You can use ChatGPT to make money by leveraging its capabilities.",
+      "linkedin_angle": "Maximize your productivity with ChatGPT and take your career to the next level.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its features."
+        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting it."
       },
       "sources": [
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
+          "signal": "Laziest Ways to Make Money with AI (For Beginners)"
+        },
+        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbecrr/chatgpt_may_have_saved_my_life/",
+          "signal": "Chatgpt may have saved my life"
         }
       ],
       "content_ideas": [
-        "How to Create Art with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Visual Content",
-        "Getting Started with ChatGPT Images 2.0"
+        "How to Make Money with ChatGPT",
+        "ChatGPT for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Earnings with ChatGPT"
       ]
     },
     {
-      "name": "Gemini Robotics 2",
+      "name": "Gemini AI for Video Creation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "An AI-powered robotics system with whole-body intelligence.",
-      "audience_angle": "Discover how Gemini Robotics 2 is revolutionizing robotics.",
-      "linkedin_angle": "Learn about the potential applications of Gemini Robotics 2 in various industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
+      "what_it_is": "Gemini AI is a tool that allows users to create videos using AI.",
+      "audience_angle": "You can create stunning videos with Gemini AI and take your content to the next level.",
+      "linkedin_angle": "Enhance your video creation skills with Gemini AI and boost your professional brand.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Gemini Robotics 2."
+        "affiliate_likely": true,
+        "note": "Gemini AI has an affiliate program that allows users to earn money by promoting it."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3GQvpjsbMWE",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini"
+        }
+      ],
+      "content_ideas": [
+        "Creating Stunning Videos with Gemini AI",
+        "Gemini AI for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Video Creation with Gemini AI"
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "DeepSeek V4 Flash is a powerful AI tool for various tasks.",
+      "audience_angle": "You can leverage DeepSeek V4 Flash to enhance your productivity and earnings.",
+      "linkedin_angle": "Take your career to the next level with DeepSeek V4 Flash and its advanced capabilities.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek V4 Flash has an affiliate program that allows users to earn money by promoting it."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-          "signal": "Gemini Robotics 2 brings whole body intelligence to robots"
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+          "signal": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis"
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini Robotics 2",
-        "Gemini Robotics 2: The Future of Robotics",
-        "Applications of Gemini Robotics 2 in Various Industries"
+        "Unlocking the Power of DeepSeek V4 Flash",
+        "DeepSeek V4 Flash for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Productivity with DeepSeek V4 Flash"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "AI for Trading",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "The use of AI to generate videos.",
-      "audience_angle": "Create stunning videos with AI video generation.",
-      "linkedin_angle": "Explore the potential of AI video generation for business and marketing.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "AI video generation"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Videos with AI",
-        "AI Video Generation: A Game-Changer for Content Creators",
-        "Getting Started with AI Video Generation"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "A new feature of ChatGPT that allows users to create and manage their work.",
-      "audience_angle": "Discover how ChatGPT Work can enhance your productivity.",
-      "linkedin_angle": "Learn about the potential applications of ChatGPT Work in various industries.",
+      "what_it_is": "AI can be used for trading and investing in the stock market.",
+      "audience_angle": "You can use AI to make informed investment decisions and maximize your returns.",
+      "linkedin_angle": "Enhance your investment strategy with AI and take your career to the next level.",
       "local_relevance": 7,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its features."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbecrr/chatgpt_may_have_saved_my_life/",
-          "signal": "ChatGPT Work"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "How to Use New ChatGPT Work in 12 Minutes"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to ChatGPT Work",
-        "ChatGPT Work: The Future of Productivity",
-        "Applications of ChatGPT Work in Various Industries"
-      ]
-    },
-    {
-      "name": "AI Trading Agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "The use of AI to trade stocks and other financial instruments.",
-      "audience_angle": "Discover how AI trading agents can enhance your trading experience.",
-      "linkedin_angle": "Learn about the potential applications of AI trading agents in finance.",
-      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI trading agent tools often have affiliate programs."
+        "note": "AI trading tools often have affiliate programs that allow users to earn money by promoting them."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
           "signal": "The Rise Of AI-Powered Trading Agents"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+          "signal": "Situational Awareness Down 67% in July in AI Stock Rout"
         }
       ],
       "content_ideas": [
-        "How to Use AI Trading Agents",
-        "AI Trading Agents: A Game-Changer for Finance",
-        "Getting Started with AI Trading Agents"
+        "Using AI for Trading: A Beginner's Guide",
+        "Maximizing Your Returns with AI-Powered Trading",
+        "The Future of Trading: How AI is Revolutionizing the Industry"
       ]
     },
     {
       "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
         "reddit"
       ],
-      "what_it_is": "An AI model developed by Anthropic.",
-      "audience_angle": "Discover how Claude AI can enhance your productivity.",
-      "linkedin_angle": "Learn about the potential applications of Claude AI in various industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "Claude AI is a powerful AI tool for various tasks.",
+      "audience_angle": "You can leverage Claude AI to enhance your productivity and earnings.",
+      "linkedin_angle": "Take your career to the next level with Claude AI and its advanced capabilities.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Claude AI."
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program that allows users to earn money by promoting it."
       },
       "sources": [
         {
@@ -203,98 +178,135 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbbr3r/i_really_appreciate_the_different_base/",
-          "signal": "I really appreciate the different base personalities between Claude, Gemini and ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbqux8/claude_user_impressed_by_chatgpt/",
+          "signal": "Claude user impressed by Chatgpt"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude AI",
-        "Claude AI: The Future of AI Models",
-        "Applications of Claude AI in Various Industries"
+        "Unlocking the Power of Claude AI",
+        "Claude AI for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Productivity with Claude AI"
+      ]
+    },
+    {
+      "name": "AI-Powered Video Creation",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can be used to create stunning videos.",
+      "audience_angle": "You can create professional-looking videos with AI and take your content to the next level.",
+      "linkedin_angle": "Enhance your video creation skills with AI and boost your professional brand.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI video creation tools often have affiliate programs that allow users to earn money by promoting them."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N35mkMZgk0Y",
+          "signal": "How to Make FREE AI Videos Long (15 Mins) Voice + Lip Sync AI video kaise banaye AI Video Generator"
+        }
+      ],
+      "content_ideas": [
+        "Creating Stunning Videos with AI",
+        "AI-Powered Video Creation for Beginners",
+        "Maximizing Your Video Creation with AI"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT for Earning",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "A new image generation feature for ChatGPT.",
-      "audience_angle": "Create stunning images with ChatGPT's latest update.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT is an AI tool that can be used for various tasks, including earning money.",
+      "audience_angle": "You can use ChatGPT to make money by leveraging its capabilities.",
+      "linkedin_angle": "Maximize your productivity with ChatGPT and take your career to the next level.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its features."
+        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting it."
       },
       "sources": [
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
+          "signal": "Laziest Ways to Make Money with AI (For Beginners)"
+        },
+        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbecrr/chatgpt_may_have_saved_my_life/",
+          "signal": "Chatgpt may have saved my life"
         }
       ],
       "content_ideas": [
-        "How to Create Art with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: A Game-Changer for Visual Content",
-        "Getting Started with ChatGPT Images 2.0"
+        "How to Make Money with ChatGPT",
+        "ChatGPT for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Earnings with ChatGPT"
       ]
     },
     {
-      "name": "Gemini Robotics 2",
+      "name": "DeepSeek V4 Flash",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "An AI-powered robotics system with whole-body intelligence.",
-      "audience_angle": "Discover how Gemini Robotics 2 is revolutionizing robotics.",
-      "linkedin_angle": "Learn about the potential applications of Gemini Robotics 2 in various industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "DeepSeek V4 Flash is a powerful AI tool for various tasks.",
+      "audience_angle": "You can leverage DeepSeek V4 Flash to enhance your productivity and earnings.",
+      "linkedin_angle": "Take your career to the next level with DeepSeek V4 Flash and its advanced capabilities.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Gemini Robotics 2."
+        "affiliate_likely": true,
+        "note": "DeepSeek V4 Flash has an affiliate program that allows users to earn money by promoting it."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-          "signal": "Gemini Robotics 2 brings whole body intelligence to robots"
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+          "signal": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis"
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini Robotics 2",
-        "Gemini Robotics 2: The Future of Robotics",
-        "Applications of Gemini Robotics 2 in Various Industries"
+        "Unlocking the Power of DeepSeek V4 Flash",
+        "DeepSeek V4 Flash for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Productivity with DeepSeek V4 Flash"
       ]
     },
     {
       "name": "Claude AI",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
         "reddit"
       ],
-      "what_it_is": "An AI model developed by Anthropic.",
-      "audience_angle": "Discover how Claude AI can enhance your productivity.",
-      "linkedin_angle": "Learn about the potential applications of Claude AI in various industries.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "Claude AI is a powerful AI tool for various tasks.",
+      "audience_angle": "You can leverage Claude AI to enhance your productivity and earnings.",
+      "linkedin_angle": "Take your career to the next level with Claude AI and its advanced capabilities.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Claude AI."
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program that allows users to earn money by promoting it."
       },
       "sources": [
         {
@@ -304,51 +316,45 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbbr3r/i_really_appreciate_the_different_base/",
-          "signal": "I really appreciate the different base personalities between Claude, Gemini and ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbqux8/claude_user_impressed_by_chatgpt/",
+          "signal": "Claude user impressed by Chatgpt"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude AI",
-        "Claude AI: The Future of AI Models",
-        "Applications of Claude AI in Various Industries"
+        "Unlocking the Power of Claude AI",
+        "Claude AI for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Productivity with Claude AI"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "Gemini AI for Video Creation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "A new feature of ChatGPT that allows users to create and manage their work.",
-      "audience_angle": "Discover how ChatGPT Work can enhance your productivity.",
-      "linkedin_angle": "Learn about the potential applications of ChatGPT Work in various industries.",
-      "local_relevance": 7,
-      "pillar": "explainer",
+      "what_it_is": "Gemini AI is a tool that allows users to create videos using AI.",
+      "audience_angle": "You can create stunning videos with Gemini AI and take your content to the next level.",
+      "linkedin_angle": "Enhance your video creation skills with Gemini AI and boost your professional brand.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its features."
+        "note": "Gemini AI has an affiliate program that allows users to earn money by promoting it."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbecrr/chatgpt_may_have_saved_my_life/",
-          "signal": "ChatGPT Work"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+          "url": "https://www.youtube.com/watch?v=3GQvpjsbMWE",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini"
         }
       ],
       "content_ideas": [
-        "Introduction to ChatGPT Work",
-        "ChatGPT Work: The Future of Productivity",
-        "Applications of ChatGPT Work in Various Industries"
+        "Creating Stunning Videos with Gemini AI",
+        "Gemini AI for Beginners: A Step-by-Step Guide",
+        "Maximizing Your Video Creation with Gemini AI"
       ]
     }
   ],
@@ -363,11 +369,11 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vb4r4i/ads_are_here_what_other_changes_should_we_brace/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
     },
     {
       "problem": "AI model hacking",
-      "who_affected": "AI model developers and users",
+      "who_affected": "AI model developers",
       "signal_strength": 8,
       "sources": [
         {
@@ -375,8 +381,8 @@
           "url": "https://www.wsj.com/tech/ai/anthropic-ai-models-hacked-three-companies-during-tests-bd752c86"
         }
       ],
-      "content_opportunity": "How to secure AI models from hacking"
+      "content_opportunity": "How to Secure Your AI Models from Hacking"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Work, a new feature that allows users to create and manage their work with ChatGPT."
+  "tool_of_week_candidate": "ChatGPT"
 }
