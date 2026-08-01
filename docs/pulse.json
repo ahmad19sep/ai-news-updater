@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T03:52:33.188567+00:00",
+  "generated_at": "2026-08-01T08:34:45.761802+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,79 +9,78 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "DeepSeek V4 Flash",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create stunning images with the power of AI.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation.",
+      "what_it_is": "DeepSeek V4 Flash is a new AI model release.",
+      "audience_angle": "Learn how to use DeepSeek V4 Flash for improved performance and price.",
+      "linkedin_angle": "Upgrade your skills with the latest DeepSeek V4 Flash AI model.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Art with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 Tutorial for Beginners",
-        "Unlocking the Power of ChatGPT Images 2.0 for Content Creation"
-      ]
-    },
-    {
-      "name": "DeepSeek V4 Flash",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "A flash release of the DeepSeek V4 model.",
-      "audience_angle": "Experience the latest advancements in AI with DeepSeek V4 Flash.",
-      "linkedin_angle": "Stay ahead of the curve with the latest DeepSeek V4 Flash updates.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "DeepSeek has an affiliate program for its models."
+        "note": "DeepSeek V4 Flash has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-          "signal": "DeepSeek V4 flash final release"
+          "signal": "40"
         },
         {
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "signal": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis"
+          "signal": "850"
         }
       ],
       "content_ideas": [
-        "What's New in DeepSeek V4 Flash?",
-        "DeepSeek V4 Flash: A Game-Changer for AI Enthusiasts",
-        "Getting Started with DeepSeek V4 Flash"
+        "How to Get Started with DeepSeek V4 Flash",
+        "DeepSeek V4 Flash vs Other AI Models: A Comparison",
+        "Maximizing Performance with DeepSeek V4 Flash"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated image generation tool.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT Images 2.0.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "39"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: Tips and Tricks",
+        "Creating Art with ChatGPT Images 2.0"
       ]
     },
     {
@@ -90,35 +89,35 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "An AI model developed by Anthropic.",
+      "what_it_is": "Claude AI is a new AI model for various tasks.",
       "audience_angle": "Discover the capabilities of Claude AI.",
-      "linkedin_angle": "Explore how Claude AI can enhance your productivity.",
+      "linkedin_angle": "Explore the potential of Claude AI for your business.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Anthropic has an affiliate program for Claude AI."
+        "note": "Claude AI has an affiliate program"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/anthropic-ai-models-hacked-three-companies-during-tests-bd752c86",
-          "signal": "Anthropic AI Models Hacked Three Companies During Tests"
+          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
+          "signal": "34"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
-          "signal": "Claude Ai + YouTube = $9,987/Month (FREE Plan)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbxc76/anthropic_employee_using_openai_to_post_on/",
+          "signal": "29"
         }
       ],
       "content_ideas": [
         "Introduction to Claude AI",
-        "Claude AI: A Powerful Tool for Content Creation",
-        "Unlocking the Potential of Claude AI"
+        "Claude AI: A Game-Changer for Businesses",
+        "Claude AI vs Other AI Models: A Comparison"
       ]
     },
     {
@@ -128,130 +127,129 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using AI to generate videos.",
-      "audience_angle": "Create stunning videos with the power of AI.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your content strategy.",
+      "what_it_is": "AI video generation is a process of creating videos using AI tools.",
+      "audience_angle": "Create stunning videos with AI video generation tools.",
+      "linkedin_angle": "Enhance your video content with AI video generation.",
       "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
-          "signal": "Laziest Ways to Make Money with AI (For Beginners)"
-        }
-      ],
-      "content_ideas": [
-        "How to Generate Videos with AI",
-        "AI Video Generation: A Step-by-Step Guide",
-        "The Future of Video Content: AI Generation"
-      ]
-    },
-    {
-      "name": "Gemini Robotics 2",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A robotics platform that brings whole-body intelligence to robots.",
-      "audience_angle": "Experience the latest advancements in robotics with Gemini Robotics 2.",
-      "linkedin_angle": "Stay ahead of the curve with the latest Gemini Robotics 2 updates.",
-      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Gemini Robotics 2 has an affiliate program."
+        "note": "AI video generation tools have affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with AI Video Generation",
+        "AI Video Generation: Tips and Tricks",
+        "Creating Stunning Videos with AI Video Generation"
+      ]
+    },
+    {
+      "name": "Gemini Robotics 2",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Gemini Robotics 2 is a new robotics platform.",
+      "audience_angle": "Discover the capabilities of Gemini Robotics 2.",
+      "linkedin_angle": "Explore the potential of Gemini Robotics 2 for your business.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-          "signal": "Gemini Robotics 2 brings whole body intelligence to robots"
+          "signal": "1125"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini Robotics 2?",
-        "Gemini Robotics 2: A Game-Changer for Robotics Enthusiasts",
-        "Getting Started with Gemini Robotics 2"
+        "Introduction to Gemini Robotics 2",
+        "Gemini Robotics 2: A Game-Changer for Robotics",
+        "Gemini Robotics 2 vs Other Robotics Platforms: A Comparison"
       ]
     },
     {
       "name": "AI Trading Agents",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Using AI to trade stocks and assets.",
-      "audience_angle": "Discover how AI trading agents can enhance your investment strategy.",
-      "linkedin_angle": "Explore the potential of AI trading agents for your business.",
+      "what_it_is": "AI trading agents are tools that use AI for trading.",
+      "audience_angle": "Create stunning trading strategies with AI trading agents.",
+      "linkedin_angle": "Enhance your trading skills with AI trading agents.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI trading agents often have affiliate programs."
+        "note": "AI trading agents have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
-          "signal": "The Rise Of AI-Powered Trading Agents"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-          "signal": "Situational Awareness down 67% in July in AI stock rout"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "Introduction to AI Trading Agents",
-        "AI Trading Agents: A Step-by-Step Guide",
-        "The Future of Trading: AI Agents"
+        "Getting Started with AI Trading Agents",
+        "AI Trading Agents: Tips and Tricks",
+        "Creating Stunning Trading Strategies with AI Trading Agents"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "DeepSeek V4 Flash",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create stunning images with the power of AI.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation.",
+      "what_it_is": "DeepSeek V4 Flash is a new AI model release.",
+      "audience_angle": "Learn how to use DeepSeek V4 Flash for improved performance and price.",
+      "linkedin_angle": "Upgrade your skills with the latest DeepSeek V4 Flash AI model.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "DeepSeek V4 Flash has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
+          "signal": "40"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
+          "signal": "850"
         }
       ],
       "content_ideas": [
-        "How to Create Art with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0 Tutorial for Beginners",
-        "Unlocking the Power of ChatGPT Images 2.0 for Content Creation"
+        "How to Get Started with DeepSeek V4 Flash",
+        "DeepSeek V4 Flash vs Other AI Models: A Comparison",
+        "Maximizing Performance with DeepSeek V4 Flash"
       ]
     },
     {
@@ -260,131 +258,125 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "An AI model developed by Anthropic.",
+      "what_it_is": "Claude AI is a new AI model for various tasks.",
       "audience_angle": "Discover the capabilities of Claude AI.",
-      "linkedin_angle": "Explore how Claude AI can enhance your productivity.",
+      "linkedin_angle": "Explore the potential of Claude AI for your business.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Anthropic has an affiliate program for Claude AI."
+        "note": "Claude AI has an affiliate program"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/anthropic-ai-models-hacked-three-companies-during-tests-bd752c86",
-          "signal": "Anthropic AI Models Hacked Three Companies During Tests"
+          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
+          "signal": "34"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qJkC05DjVlA",
-          "signal": "Claude Ai + YouTube = $9,987/Month (FREE Plan)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbxc76/anthropic_employee_using_openai_to_post_on/",
+          "signal": "29"
         }
       ],
       "content_ideas": [
         "Introduction to Claude AI",
-        "Claude AI: A Powerful Tool for Content Creation",
-        "Unlocking the Potential of Claude AI"
-      ]
-    },
-    {
-      "name": "DeepSeek V4 Flash",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "A flash release of the DeepSeek V4 model.",
-      "audience_angle": "Experience the latest advancements in AI with DeepSeek V4 Flash.",
-      "linkedin_angle": "Stay ahead of the curve with the latest DeepSeek V4 Flash updates.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "DeepSeek has an affiliate program for its models."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-          "signal": "DeepSeek V4 flash final release"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "signal": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis"
-        }
-      ],
-      "content_ideas": [
-        "What's New in DeepSeek V4 Flash?",
-        "DeepSeek V4 Flash: A Game-Changer for AI Enthusiasts",
-        "Getting Started with DeepSeek V4 Flash"
+        "Claude AI: A Game-Changer for Businesses",
+        "Claude AI vs Other AI Models: A Comparison"
       ]
     },
     {
       "name": "Gemini Robotics 2",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "A robotics platform that brings whole-body intelligence to robots.",
-      "audience_angle": "Experience the latest advancements in robotics with Gemini Robotics 2.",
-      "linkedin_angle": "Stay ahead of the curve with the latest Gemini Robotics 2 updates.",
-      "local_relevance": 6,
+      "what_it_is": "Gemini Robotics 2 is a new robotics platform.",
+      "audience_angle": "Discover the capabilities of Gemini Robotics 2.",
+      "linkedin_angle": "Explore the potential of Gemini Robotics 2 for your business.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Gemini Robotics 2 has an affiliate program."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-          "signal": "Gemini Robotics 2 brings whole body intelligence to robots"
+          "signal": "1125"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini Robotics 2?",
-        "Gemini Robotics 2: A Game-Changer for Robotics Enthusiasts",
-        "Getting Started with Gemini Robotics 2"
+        "Introduction to Gemini Robotics 2",
+        "Gemini Robotics 2: A Game-Changer for Robotics",
+        "Gemini Robotics 2 vs Other Robotics Platforms: A Comparison"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated image generation tool.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT Images 2.0.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "39"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: Tips and Tricks",
+        "Creating Art with ChatGPT Images 2.0"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude AI users",
-      "signal_strength": 8,
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/anthropic-ai-models-hacked-three-companies-during-tests-bd752c86"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vcfd85/chatgpt_is_like_a_frightened_lawyer_these_days/"
         }
       ],
-      "content_opportunity": "Claude AI Usage Limits: What You Need to Know"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     },
     {
-      "problem": "AI companies destroying rare books",
-      "who_affected": "Book collectors and researchers",
-      "signal_strength": 9,
+      "problem": "AI model costs",
+      "who_affected": "AI model users",
+      "signal_strength": 5,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.heraldscotland.com/opinion/26422014.library-alexandria-burns-ai-companies-destroying-books-bulk/"
+          "url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/"
         }
       ],
-      "content_opportunity": "The Dark Side of AI: Book Destruction and Preservation"
+      "content_opportunity": "Cost-effective AI model solutions"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "DeepSeek V4 Flash"
 }
