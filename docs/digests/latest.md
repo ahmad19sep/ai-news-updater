@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
 4. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
    https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
-5. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
-   https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
-6. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
+5. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
-7. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
+6. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
-8. **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — science angle
+7. **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — science angle
    https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
+8. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
+   https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
 - **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
-- **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
+- **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3452
+- Total stories tracked: 3426
 - Most active topic: models
 - Busiest category: AI General News
 
