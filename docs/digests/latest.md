@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 3. **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-4. **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — science angle
-   https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
-5. **Artificial Intelligence is Making It’s Way Into Your Doctors Office - Milwaukee Magazine** — science angle
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVZKSXQ3ZFlBYzNjcDE2RVpDUk1MQkN3cDRVU0RQdWh6eXl3c2plZTJmOTlodElRcTBfMG11dUZsLVVVNktIUGp5ZktCcGdpcXNlUXNrTjlfdWwzbTBSZC1HelFmZVh2Ni1kLW8xVHZZS09hSFhxVGlDRHhDM1k2YVBvQzhUaVFpZFMxMTlIUXJiMHpDTTBjcmMzZlM?oc=5
-6. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
+4. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
    https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
-7. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
+5. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
    https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
-8. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
+6. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
+7. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
+   https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
+8. **How researchers are using AI to speed up drug discovery and development: Q&A - Phys.org** — science angle
+   https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QTHVQUFRxRGctU0hQMDFaWnFXbjVpa1B2aXdaWklwYXBybHRsRGdQZUotQjdiYjlSeWlIX0puZ3ZJb1RwMHgwRlM1ejM4TjUwbmN3c05BUjZGdTBMUEVjcVZQUjdhdw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 - **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-- **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
-- **Artificial Intelligence is Making It’s Way Into Your Doctors Office - Milwaukee Magazine** — https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVZKSXQ3ZFlBYzNjcDE2RVpDUk1MQkN3cDRVU0RQdWh6eXl3c2plZTJmOTlodElRcTBfMG11dUZsLVVVNktIUGp5ZktCcGdpcXNlUXNrTjlfdWwzbTBSZC1HelFmZVh2Ni1kLW8xVHZZS09hSFhxVGlDRHhDM1k2YVBvQzhUaVFpZFMxMTlIUXJiMHpDTTBjcmMzZlM?oc=5
+- **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
+- **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3401
+- Total stories tracked: 3445
 - Most active topic: models
 - Busiest category: AI General News
 
