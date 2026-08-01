@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
 9. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
    https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
-10. **Elon Musk's X.AI sues to block Minnesota's AI nudification ban, calling it a 'ban on free speech' - kare11.com** — Elon Musk AI News — Score 58
-   https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX3dWYkZmakFoNHhJSks4cVIxZTNyQ1B0d25idWt4X1lTeWU1aU9wT2pHZ25DMTRLNnpWUEN5OThwRTRLeFI0bmM3M2cxRWt2ZDk4cjFWLUFCQk9IYndOeG1RWUN6dGhPWkJNN0phSVhWczh4bVNvcHVfeTQ4Q1dDLXl6cnJVaUQzVGN6X0hCd21PSExHejNrb21QTnVGUVhpdkVGOF9FZndwYzM4QS1oV2hHX2I5LTUtcElqZUtKWlBweUVXUXc4SzNiRnA2N09lZFF0YUhqdnI5WWM?oc=5
+10. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 61.0
+   https://www.reuters.com/world/asia-pacific/chinese-military-researchers-tap-us-ai-models-train-defence-systems-2026-07-31/
 
 ## 🧪 AI in Science Highlights
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3426
+- Total stories tracked: 3415
 - Most active topic: models
 - Busiest category: AI General News
 
