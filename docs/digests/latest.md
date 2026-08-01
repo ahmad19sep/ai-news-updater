@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 3. **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-4. **Researchers develop AI system to accelerate tuberculosis drug discovery - Drug Target Review** — science angle
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmNnZnZQZGtGYzF2dDRmakFnVzhBeExDZG05MzJncXJxd2xGV2RuQ0lscngyY2FPUm5BeXdZc0VrUGxIcnJGcEdyeXZjWHk4MGxBS3pHQ3VRV2R2U3VzS3dIcmd0eWRaQlg4ZUpueWhLT1FhMjFBUjUzZ3pGV25EX2ppVjJDM0FpMmFGRTluOUFmeXl4RUdGdm92Z0hDalV0UllFNEJrMXVLYlZBVVRfVTZvR1NfMmtPOVlKZw?oc=5
-5. **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — science angle
+4. **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
-6. **Artificial Intelligence is Making It’s Way Into Your Doctors Office - Milwaukee Magazine** — science angle
+5. **Artificial Intelligence is Making It’s Way Into Your Doctors Office - Milwaukee Magazine** — science angle
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVZKSXQ3ZFlBYzNjcDE2RVpDUk1MQkN3cDRVU0RQdWh6eXl3c2plZTJmOTlodElRcTBfMG11dUZsLVVVNktIUGp5ZktCcGdpcXNlUXNrTjlfdWwzbTBSZC1HelFmZVh2Ni1kLW8xVHZZS09hSFhxVGlDRHhDM1k2YVBvQzhUaVFpZFMxMTlIUXJiMHpDTTBjcmMzZlM?oc=5
-7. **How an Australian AI scribe won over Canada’s doctors - BetaKit** — science angle
-   https://news.google.com/rss/articles/CBMifkFVX3lxTE5xN0VJQ0REckhLRUdrR3FoOFhzQzQ5UU1PaF9kSHNVYzBvUm5Ud25oSXhxT2pid2hpQktYMzBDSFhHZmx0ZGd3M2puZURmQS1IaENuNUQ5UXBDRHp6MnZoOG8zRnkzVHNmcnBwQndxSGFSRjBiTW9nZDBJLWpVdw?oc=5
-8. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
+6. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
    https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
+7. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
+   https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
+8. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -39,10 +39,10 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjc4cldNX0dkZFhjMXhRTWpYekd0N1hjbkF2NXVaQzFsWnBTYzF6MXFHOW1nVm15OGQ0VjJjeGp1SG94ZDRKRC1xY08wRjlLRlZzdV9MR2FabHZBSkNkc05FbWNiWXhEVEtzMTNHYzlwNWdZdGV2R1VsZ1lpdXhiUXcyeWpHejF6UU9PR2FYdUVpSEJDaE95VmxWNDBPOEY2bURFRU9TTEdiNENCR2Q5Z2dVTEFxZTVFMjJjWnhCSHRKd1NtWUE?oc=5
 7. **Nvidia CEO Jensen Huang Urges Support for Open-Weight AI Models - Bloomberg.com** — Jensen Huang News — Score 67
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkNwY3QtTDJERXN5MUpRTGN4aVc4eXdrUVJrZFFyRmt6dDBpR293YUxua2U2S2FhM0Rpc3g4bmU3MkQ2dUlHRzVDTXdNOXFmeHVQYVVwc1YtYlB1bW9HR3VHYzZIYWs3b1J0REVPWUdBRmp5aHF0dmFiZnhzd3l4UWY4M0xBYW5pQ2hWWU16M2NTM29ZeFVTQ192a3ZaUE15bWNfZDRxakpkNU13a3VPTnUxeDU?oc=5
-8. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 66
-   https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
-9. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 63
+8. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
+9. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
+   https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
 10. **Elon Musk's X.AI sues to block Minnesota's AI nudification ban, calling it a 'ban on free speech' - kare11.com** — Elon Musk AI News — Score 58
    https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX3dWYkZmakFoNHhJSks4cVIxZTNyQ1B0d25idWt4X1lTeWU1aU9wT2pHZ25DMTRLNnpWUEN5OThwRTRLeFI0bmM3M2cxRWt2ZDk4cjFWLUFCQk9IYndOeG1RWUN6dGhPWkJNN0phSVhWczh4bVNvcHVfeTQ4Q1dDLXl6cnJVaUQzVGN6X0hCd21PSExHejNrb21QTnVGUVhpdkVGOF9FZndwYzM4QS1oV2hHX2I5LTUtcElqZUtKWlBweUVXUXc4SzNiRnA2N09lZFF0YUhqdnI5WWM?oc=5
 
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 - **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-- **Researchers develop AI system to accelerate tuberculosis drug discovery - Drug Target Review** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmNnZnZQZGtGYzF2dDRmakFnVzhBeExDZG05MzJncXJxd2xGV2RuQ0lscngyY2FPUm5BeXdZc0VrUGxIcnJGcEdyeXZjWHk4MGxBS3pHQ3VRV2R2U3VzS3dIcmd0eWRaQlg4ZUpueWhLT1FhMjFBUjUzZ3pGV25EX2ppVjJDM0FpMmFGRTluOUFmeXl4RUdGdm92Z0hDalV0UllFNEJrMXVLYlZBVVRfVTZvR1NfMmtPOVlKZw?oc=5
 - **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
+- **Artificial Intelligence is Making It’s Way Into Your Doctors Office - Milwaukee Magazine** — https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVZKSXQ3ZFlBYzNjcDE2RVpDUk1MQkN3cDRVU0RQdWh6eXl3c2plZTJmOTlodElRcTBfMG11dUZsLVVVNktIUGp5ZktCcGdpcXNlUXNrTjlfdWwzbTBSZC1HelFmZVh2Ni1kLW8xVHZZS09hSFhxVGlDRHhDM1k2YVBvQzhUaVFpZFMxMTlIUXJiMHpDTTBjcmMzZlM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3435
+- Total stories tracked: 3401
 - Most active topic: models
 - Busiest category: AI General News
 
