@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T08:34:45.761802+00:00",
+  "generated_at": "2026-08-01T13:57:25.464025+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,115 +9,115 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "DeepSeek V4 Flash",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "DeepSeek V4 Flash is a new AI model release.",
-      "audience_angle": "Learn how to use DeepSeek V4 Flash for improved performance and price.",
-      "linkedin_angle": "Upgrade your skills with the latest DeepSeek V4 Flash AI model.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with ease using ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "DeepSeek V4 Flash has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-          "signal": "40"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "signal": "850"
-        }
-      ],
-      "content_ideas": [
-        "How to Get Started with DeepSeek V4 Flash",
-        "DeepSeek V4 Flash vs Other AI Models: A Comparison",
-        "Maximizing Performance with DeepSeek V4 Flash"
-      ]
-    },
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated image generation tool.",
-      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
-      "linkedin_angle": "Enhance your visual content with ChatGPT Images 2.0.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "39"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: Tips and Tricks",
-        "Creating Art with ChatGPT Images 2.0"
+        "How to Use ChatGPT Images 2.0 for Professional Visuals",
+        "Top 5 Tips for Creating Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 vs. Traditional Image Editing Software: Which is Better?"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "DeepSeek V4 Flash",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A new version of the DeepSeek AI model with improved performance and price analysis.",
+      "audience_angle": "Stay ahead of the competition with DeepSeek V4 Flash's advanced AI capabilities.",
+      "linkedin_angle": "Learn how DeepSeek V4 Flash can optimize your business operations and improve productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
+          "signal": "DeepSeek V4 Flash final release"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
+          "signal": "DeepSeek V4 Flash Intelligence, Performance and Price Analysis"
+        }
+      ],
+      "content_ideas": [
+        "How to Get Started with DeepSeek V4 Flash for Business Optimization",
+        "DeepSeek V4 Flash Review: Is it Worth the Investment?",
+        "5 Ways DeepSeek V4 Flash Can Improve Your Productivity"
+      ]
+    },
+    {
+      "name": "Gemini Robotics 2",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "Claude AI is a new AI model for various tasks.",
-      "audience_angle": "Discover the capabilities of Claude AI.",
-      "linkedin_angle": "Explore the potential of Claude AI for your business.",
+      "what_it_is": "A new version of the Gemini Robotics platform with whole-body intelligence for robots.",
+      "audience_angle": "Discover the future of robotics with Gemini Robotics 2's advanced AI capabilities.",
+      "linkedin_angle": "Learn how Gemini Robotics 2 can revolutionize your industry with its cutting-edge technology.",
       "local_relevance": 7,
-      "pillar": "practical_earning",
+      "pillar": "explainer",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Gemini Robotics 2."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
-          "signal": "34"
+          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+          "signal": "Gemini Robotics 2 brings whole body intelligence to robots"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbxc76/anthropic_employee_using_openai_to_post_on/",
-          "signal": "29"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ai video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude AI",
-        "Claude AI: A Game-Changer for Businesses",
-        "Claude AI vs Other AI Models: A Comparison"
+        "Introduction to Gemini Robotics 2: The Future of Robotics",
+        "How Gemini Robotics 2 Can Revolutionize Your Industry",
+        "Gemini Robotics 2 vs. Traditional Robotics: What's the Difference?"
       ]
     },
     {
@@ -127,129 +127,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a process of creating videos using AI tools.",
-      "audience_angle": "Create stunning videos with AI video generation tools.",
-      "linkedin_angle": "Enhance your video content with AI video generation.",
-      "local_relevance": 8,
+      "what_it_is": "Using AI to generate videos for various purposes such as entertainment, education, or marketing.",
+      "audience_angle": "Create stunning videos with ease using AI video generation tools.",
+      "linkedin_angle": "Discover how AI video generation can enhance your professional video content.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools have affiliate programs"
+        "note": "Many AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video Generator"
         }
       ],
       "content_ideas": [
-        "Getting Started with AI Video Generation",
-        "AI Video Generation: Tips and Tricks",
-        "Creating Stunning Videos with AI Video Generation"
-      ]
-    },
-    {
-      "name": "Gemini Robotics 2",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Gemini Robotics 2 is a new robotics platform.",
-      "audience_angle": "Discover the capabilities of Gemini Robotics 2.",
-      "linkedin_angle": "Explore the potential of Gemini Robotics 2 for your business.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-          "signal": "1125"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Gemini Robotics 2",
-        "Gemini Robotics 2: A Game-Changer for Robotics",
-        "Gemini Robotics 2 vs Other Robotics Platforms: A Comparison"
-      ]
-    },
-    {
-      "name": "AI Trading Agents",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI trading agents are tools that use AI for trading.",
-      "audience_angle": "Create stunning trading strategies with AI trading agents.",
-      "linkedin_angle": "Enhance your trading skills with AI trading agents.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI trading agents have affiliate programs"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with AI Trading Agents",
-        "AI Trading Agents: Tips and Tricks",
-        "Creating Stunning Trading Strategies with AI Trading Agents"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "DeepSeek V4 Flash",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "DeepSeek V4 Flash is a new AI model release.",
-      "audience_angle": "Learn how to use DeepSeek V4 Flash for improved performance and price.",
-      "linkedin_angle": "Upgrade your skills with the latest DeepSeek V4 Flash AI model.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "DeepSeek V4 Flash has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-          "signal": "40"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "signal": "850"
-        }
-      ],
-      "content_ideas": [
-        "How to Get Started with DeepSeek V4 Flash",
-        "DeepSeek V4 Flash vs Other AI Models: A Comparison",
-        "Maximizing Performance with DeepSeek V4 Flash"
+        "How to Create Stunning Videos with AI Video Generation Tools",
+        "Top 5 AI Video Generation Tools for Beginners",
+        "AI Video Generation vs. Traditional Video Production: Which is Better?"
       ]
     },
     {
@@ -260,122 +159,241 @@
         "hackernews",
         "reddit"
       ],
-      "what_it_is": "Claude AI is a new AI model for various tasks.",
-      "audience_angle": "Discover the capabilities of Claude AI.",
-      "linkedin_angle": "Explore the potential of Claude AI for your business.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
+      "what_it_is": "A new AI model developed by Anthropic with advanced language capabilities.",
+      "audience_angle": "Discover the power of Claude AI for your business or personal needs.",
+      "linkedin_angle": "Learn how Claude AI can enhance your professional communication and productivity.",
+      "local_relevance": 6,
+      "pillar": "explainer",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program"
+        "note": "Anthropic has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
-          "signal": "34"
+          "signal": "Anthropic says Claude AI hacked three organisations during cyber tests"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vbxc76/anthropic_employee_using_openai_to_post_on/",
-          "signal": "29"
+          "signal": "Anthropic employee using OpenAI to post on LinkedIn"
         }
       ],
       "content_ideas": [
-        "Introduction to Claude AI",
-        "Claude AI: A Game-Changer for Businesses",
-        "Claude AI vs Other AI Models: A Comparison"
+        "Introduction to Claude AI: The Future of Language Models",
+        "How Claude AI Can Enhance Your Business Communication",
+        "Claude AI vs. Traditional Language Models: What's the Difference?"
       ]
     },
+    {
+      "name": "AI Trading Agents",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Using AI to automate trading decisions and optimize investment strategies.",
+      "audience_angle": "Discover how AI trading agents can help you make informed investment decisions.",
+      "linkedin_angle": "Learn how AI trading agents can enhance your professional investment strategies.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI trading platforms have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
+          "signal": "The Rise Of AI-Powered Trading Agents"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+          "signal": "Situational Awareness down 67% in July in AI stock rout"
+        }
+      ],
+      "content_ideas": [
+        "How to Get Started with AI Trading Agents for Beginners",
+        "Top 5 AI Trading Agents for Professional Investors",
+        "AI Trading Agents vs. Traditional Investment Strategies: Which is Better?"
+      ]
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Gemini Robotics 2",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Gemini Robotics 2 is a new robotics platform.",
-      "audience_angle": "Discover the capabilities of Gemini Robotics 2.",
-      "linkedin_angle": "Explore the potential of Gemini Robotics 2 for your business.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
+      "what_it_is": "A new version of the Gemini Robotics platform with whole-body intelligence for robots.",
+      "audience_angle": "Discover the future of robotics with Gemini Robotics 2's advanced AI capabilities.",
+      "linkedin_angle": "Learn how Gemini Robotics 2 can revolutionize your industry with its cutting-edge technology.",
+      "local_relevance": 7,
+      "pillar": "explainer",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "No affiliate program available for Gemini Robotics 2."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-          "signal": "1125"
+          "signal": "Gemini Robotics 2 brings whole body intelligence to robots"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ai video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini"
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini Robotics 2",
-        "Gemini Robotics 2: A Game-Changer for Robotics",
-        "Gemini Robotics 2 vs Other Robotics Platforms: A Comparison"
+        "Introduction to Gemini Robotics 2: The Future of Robotics",
+        "How Gemini Robotics 2 Can Revolutionize Your Industry",
+        "Gemini Robotics 2 vs. Traditional Robotics: What's the Difference?"
       ]
     },
     {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated image generation tool.",
-      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
-      "linkedin_angle": "Enhance your visual content with ChatGPT Images 2.0.",
-      "local_relevance": 6,
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with ease using ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your professional visual content.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "39"
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Images 2.0",
-        "ChatGPT Images 2.0: Tips and Tricks",
-        "Creating Art with ChatGPT Images 2.0"
+        "How to Use ChatGPT Images 2.0 for Professional Visuals",
+        "Top 5 Tips for Creating Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 vs. Traditional Image Editing Software: Which is Better?"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "A new AI model developed by Anthropic with advanced language capabilities.",
+      "audience_angle": "Discover the power of Claude AI for your business or personal needs.",
+      "linkedin_angle": "Learn how Claude AI can enhance your professional communication and productivity.",
+      "local_relevance": 6,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Anthropic has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
+          "signal": "Anthropic says Claude AI hacked three organisations during cyber tests"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vbxc76/anthropic_employee_using_openai_to_post_on/",
+          "signal": "Anthropic employee using OpenAI to post on LinkedIn"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Claude AI: The Future of Language Models",
+        "How Claude AI Can Enhance Your Business Communication",
+        "Claude AI vs. Traditional Language Models: What's the Difference?"
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "hackernews"
+      ],
+      "what_it_is": "A new version of the DeepSeek AI model with improved performance and price analysis.",
+      "audience_angle": "Stay ahead of the competition with DeepSeek V4 Flash's advanced AI capabilities.",
+      "linkedin_angle": "Learn how DeepSeek V4 Flash can optimize your business operations and improve productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
+          "signal": "DeepSeek V4 Flash final release"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
+          "signal": "DeepSeek V4 Flash Intelligence, Performance and Price Analysis"
+        }
+      ],
+      "content_ideas": [
+        "How to Get Started with DeepSeek V4 Flash for Business Optimization",
+        "DeepSeek V4 Flash Review: Is it Worth the Investment?",
+        "5 Ways DeepSeek V4 Flash Can Improve Your Productivity"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vcfd85/chatgpt_is_like_a_frightened_lawyer_these_days/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits"
+      "content_opportunity": "How to overcome ChatGPT usage limits and token limits for efficient use."
     },
     {
-      "problem": "AI model costs",
-      "who_affected": "AI model users",
-      "signal_strength": 5,
+      "problem": "AI-generated content detection and labeling",
+      "who_affected": "Content creators and consumers",
+      "signal_strength": 9,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/"
+          "url": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content/"
         }
       ],
-      "content_opportunity": "Cost-effective AI model solutions"
+      "content_opportunity": "The importance of detecting and labeling AI-generated content for transparency and accountability."
     }
   ],
   "tool_of_week_candidate": "DeepSeek V4 Flash"
