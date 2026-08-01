@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
 7. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
-8. **The AI Tool Changing How Doctors Practice Medicine - Forbes** — science angle
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3l6MVZ5WW9UbE1KN2N0WV9HS3FrTWRicm1jUkY3b2hzQmNYTVFVcFNrd1RYeUUtM0FXVkNOcTFRd1ZmeFZsYmpGY1o5REtrejVZakhENGlTYUNtT1FhYjZfbG0tcV9VbVhNZUJZQ3Q0b0lDbk1wNUpjOWx3UzQzclI5cWtUVV9OZWlzaUI1QkIwWTlBWFl0QjcwU2FBNklXcWNqd3ZRSQ?oc=5
+8. **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — science angle
+   https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3441
+- Total stories tracked: 3452
 - Most active topic: models
 - Busiest category: AI General News
 
