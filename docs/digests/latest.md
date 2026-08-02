@@ -21,30 +21,30 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
 7. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
-8. **Meta Is Letting Fake AI-Generated Doctors Sell Quack Cures on Its Platforms - Futurism** — science angle
-   https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFJKdTZGSWhqU3hHVGl2UjZUNTVCTWxJTVFoU1RRMkNHOS1kV3NUX2xHc1FJSEIyX2JFcjN2U0NnSFo5ZlV0ZERwNVlnaFoyY19TdjEyS0hZX0loY3g4V0g0dnpaM0hhN0p0NkhhbjZGQ2EtQi1hamtrVTI?oc=5
+8. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
+   https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
    https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5
-2. **Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US** — houstonchronicle — Score 113
-   https://www.houstonchronicle.com/news/world/article/cheaper-open-and-intelligent-chinese-ai-models-22360577.php
-3. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 103
+2. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 103
    https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiWGZLYVBjcno3dk1wdkZEOEJCMm02SWdkUktwVTJpa3BYdi1iV1BLSEpnS3pNZDhoZl8xeXc0Z2piemxzTHg5amctVDlaQWVkeU1LY3JLYVQwUWMtVkg4N2ZaNDRObnRkdHdtckk5STVzY3lEMEREemUta3g4VUp5cHRZd1NGMWxWVHpGU1dvR2NTX1A0bHlzOUVPdEtKeXd1bjZTblJISGhZeEFnd2NPN0pXdmdhS0lLMGR5RlFJckxhLUoyZXE3R2I2Rm1SQlBMbzF6OGdVRHpVOXp3OW9BRk5hU2l1VVZTQVFl?oc=5
-4. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 83
+3. **DXC and ElevenLabs Announce Strategic Partnership to Scale Enterprise AI and Voice Innovation - TradingView** — ElevenLabs News — Score 83
    https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX1ItNE4tZzd5eGJyYmFQM2h2eGhnYlZRNUplUjY2QkxxcTRFS1NZSFMwVGczMFFWTkdJU2ZjVzlXQ2ZzYzBndGZHMGlmTTVldEJ1THprbWRKZDFyZHowbTJtTVQ3QnNEdE9IZVd5YTFTWUw1dk5wajktUHNITGVlQmVhQW9OYW1Dc3ZSbkt5M0NjSWJDLTJ1SHoyWG5jQkRTREJDalZqN2ZfUDJKQ0pTTGh4ZTJkUW8zdjJxeUk4X2NLdjl6eUttODRaVVI3YTNVSzZRbkVtTEdaSzFaZG5WcG9TTkVsVER3WXc?oc=5
-5. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 77
+4. **Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing - Bloomberg.com** — Dario Amodei News — Score 77
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTVnc1A0RXVTS01BaHM2ajhVRFpCcWF2a1A0WC0yRWhFcWFwRno0T0NZNUEtM2doVHRmZ2NFM3RFZHk1VHFxQ3paT3NaeHhTd0JhbkZlTVlUX3V0NzJ5N21saFJUam5Tc3haUmYwVHlGZkU3UGpaMTBKUjNOMHVJeFMxanByWG1JV1ZlWDdiYUFpUnhXdWZpMlZPU1AtTXo0Y002NWRfNFBlV2UzWmpmVkpnNmo?oc=5
-6. **Elon Musk's xAI sues Minnesota over its first-in-the-nation law banning 'nudification' technology - AP News** — Elon Musk AI News — Score 68
+5. **Elon Musk's xAI sues Minnesota over its first-in-the-nation law banning 'nudification' technology - AP News** — Elon Musk AI News — Score 68
    https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjc4cldNX0dkZFhjMXhRTWpYekd0N1hjbkF2NXVaQzFsWnBTYzF6MXFHOW1nVm15OGQ0VjJjeGp1SG94ZDRKRC1xY08wRjlLRlZzdV9MR2FabHZBSkNkc05FbWNiWXhEVEtzMTNHYzlwNWdZdGV2R1VsZ1lpdXhiUXcyeWpHejF6UU9PR2FYdUVpSEJDaE95VmxWNDBPOEY2bURFRU9TTEdiNENCR2Q5Z2dVTEFxZTVFMjJjWnhCSHRKd1NtWUE?oc=5
-7. **Nvidia CEO Jensen Huang Urges Support for Open-Weight AI Models - Bloomberg.com** — Jensen Huang News — Score 67
+6. **Nvidia CEO Jensen Huang Urges Support for Open-Weight AI Models - Bloomberg.com** — Jensen Huang News — Score 67
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkNwY3QtTDJERXN5MUpRTGN4aVc4eXdrUVJrZFFyRmt6dDBpR293YUxua2U2S2FhM0Rpc3g4bmU3MkQ2dUlHRzVDTXdNOXFmeHVQYVVwc1YtYlB1bW9HR3VHYzZIYWs3b1J0REVPWUdBRmp5aHF0dmFiZnhzd3l4UWY4M0xBYW5pQ2hWWU16M2NTM29ZeFVTQ192a3ZaUE15bWNfZDRxakpkNU13a3VPTnUxeDU?oc=5
-8. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 63
+7. **Why are kids are turning to AI chatbots instead of adults? What new research says - KOCO** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQUkdtdUIyVWlxZzQ3b0gwRWdOMmR4WVdFd2JKbnVrc3BPUXJrRXpPaE53X2VrWkVDcWtIcVZaZGtDN053bDdGcnNPSE1PclJ4cWVyb3BSS0lVMWM1cmk0dWFSSkRVWlBFT1JkMXlEdjZOeVNsaFN4eE9vVldOdUp3S1pfVG1VMUkwVUlWdnhyeEdTVy1Qc29zdHJSZ3VJbmlQbGtNeklGSlZBQkVBYjdPVTJ2ZzBVSlMzQlFXTVowanpwV3FP?oc=5
-9. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
+8. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
    https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
-10. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 61
+9. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 61
    https://www.japantimes.co.jp/business/2026/08/02/tech/ai-cyberattack-legally-responsible/
+10. **Elon Musk's X.AI sues to block Minnesota's AI nudification ban, calling it a 'ban on free speech' - kare11.com** — Elon Musk AI News — Score 58
+   https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX3dWYkZmakFoNHhJSks4cVIxZTNyQ1B0d25idWt4X1lTeWU1aU9wT2pHZ25DMTRLNnpWUEN5OThwRTRLeFI0bmM3M2cxRWt2ZDk4cjFWLUFCQk9IYndOeG1RWUN6dGhPWkJNN0phSVhWczh4bVNvcHVfeTQ4Q1dDLXl6cnJVaUQzVGN6X0hCd21PSExHejNrb21QTnVGUVhpdkVGOF9FZndwYzM4QS1oV2hHX2I5LTUtcElqZUtKWlBweUVXUXc4SzNiRnA2N09lZFF0YUhqdnI5WWM?oc=5
 
 ## 🧪 AI in Science Highlights
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3384
+- Total stories tracked: 3413
 - Most active topic: models
 - Busiest category: AI General News
 
