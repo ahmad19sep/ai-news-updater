@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T13:58:13.960376+00:00",
+  "generated_at": "2026-08-02T19:36:09.454427+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,190 +8,282 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 25,
+      "reddit": 25,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business or professional projects.",
+      "what_it_is": "ChatGPT's new image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y8WjHIJfB4Q",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for social media marketing",
-        "Creating art with ChatGPT Images 2.0: A step-by-step guide",
-        "The future of image generation: ChatGPT Images 2.0 review"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Marketers",
+        "Using ChatGPT to Enhance Your Social Media Visuals"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "AI Video Creation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using artificial intelligence.",
-      "audience_angle": "You can use AI video generation to create engaging and high-quality videos for your business or personal projects.",
-      "linkedin_angle": "Discover how AI video generation can help you streamline your video production process and improve your marketing efforts.",
-      "local_relevance": 8,
+      "what_it_is": "Using AI to create videos, such as explainer videos or social media clips.",
+      "audience_angle": "Create engaging videos with minimal effort using AI video creation tools.",
+      "linkedin_angle": "Discover how AI video creation can streamline your content marketing strategy.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs that allow users to earn money by promoting the tools."
+        "note": "Several AI video creation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=y8WjHIJfB4Q",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc85st/please_give_me_a_popular_meme_but_in_the_form_of/",
-          "signal": "Please give me a popular meme but in the form of a 1990s cartoon."
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
         }
       ],
       "content_ideas": [
-        "How to create a viral AI-generated video",
-        "The best AI video generation tools for beginners",
-        "Using AI video generation for business: A case study"
+        "How to Make a Viral AI Video",
+        "AI Video Creation: A Step-by-Step Guide",
+        "Using AI to Create Engaging Social Media Clips"
       ]
     },
     {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "AI Agents for Automation",
+      "category": "technique",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to automate tasks and workflows using ChatGPT.",
-      "audience_angle": "You can use ChatGPT Work to streamline your workflow and increase productivity.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Work for your business or professional projects.",
-      "local_relevance": 6,
+      "what_it_is": "Using AI agents to automate tasks, such as data entry or customer support.",
+      "audience_angle": "Streamline your workflow with AI agents and free up more time for creative tasks.",
+      "linkedin_angle": "Explore how AI agents can enhance your business's productivity and efficiency.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "Several AI agent platforms offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://sprocket-demo.spikonado.com",
+          "signal": "Show HN: Sprocket The Best AI Agent for Hardware and Software Development"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TL8V41Ea6oM",
+          "signal": "4 AI Agents To Automate 99% Of Your Life"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Business Automation",
+        "AI Agents: The Future of Productivity",
+        "Streamlining Your Workflow with AI Agents"
+      ]
+    },
+    {
+      "name": "ChatGPT for Content Creation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "Using ChatGPT to generate content, such as blog posts or social media updates.",
+      "audience_angle": "Create high-quality content with minimal effort using ChatGPT.",
+      "linkedin_angle": "Discover how ChatGPT can enhance your content marketing strategy.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vcpyag/chatgpt_work_is_much_more_useful_if_i_let_it_log/",
-          "signal": "ChatGPT Work is much more useful, if I let it log into my accounts (like my Mail) to read and write mails for instance."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vdmt51/hypocrisy_of_chatgpt/",
+          "signal": "Hypocrisy of chatgpt"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4Cr0_6clMuw",
+          "signal": "ChatGPT Work ist unglaublich so funktioniert der neue KI-Agent von OpenAI"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for task automation",
-        "The benefits of using ChatGPT Work for workflow optimization",
-        "ChatGPT Work review: Is it worth the investment?"
+        "How to Use ChatGPT for Content Creation",
+        "ChatGPT: A Game-Changer for Content Marketers",
+        "Using ChatGPT to Generate High-Quality Content"
+      ]
+    },
+    {
+      "name": "AI Financial Advice",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Using AI to provide personalized financial advice and investment recommendations.",
+      "audience_angle": "Get expert financial advice with AI-powered tools and make informed investment decisions.",
+      "linkedin_angle": "Explore how AI financial advice can enhance your investment strategy.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI financial advice platforms offer affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+          "signal": "AI financial advice is surprisingly good, especially if you ask right questions"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI for Financial Advice",
+        "AI Financial Advice: A New Era of Investment",
+        "Using AI to Make Informed Investment Decisions"
+      ]
+    },
+    {
+      "name": "AI Job Market Impact",
+      "category": "debate",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "The impact of AI on the job market, including job displacement and new job creation.",
+      "audience_angle": "Understand the potential impact of AI on your career and the job market.",
+      "linkedin_angle": "Explore the implications of AI on the job market and the future of work.",
+      "local_relevance": 9,
+      "pillar": "news",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate programs available for this topic."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7",
+          "signal": "AI's real threat to jobs isn't job loss, it's lower paychecks, new research says"
+        }
+      ],
+      "content_ideas": [
+        "The Impact of AI on the Job Market",
+        "AI and the Future of Work",
+        "How to Prepare for an AI-Driven Job Market"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business or professional projects.",
+      "what_it_is": "ChatGPT's new image generation feature allows users to create images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design efforts.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT Images 2.0 for social media marketing",
-        "Creating art with ChatGPT Images 2.0: A step-by-step guide",
-        "The future of image generation: ChatGPT Images 2.0 review"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to automate tasks and workflows using ChatGPT.",
-      "audience_angle": "You can use ChatGPT Work to streamline your workflow and increase productivity.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Work for your business or professional projects.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program that allows users to earn money by promoting the tool."
-      },
-      "sources": [
+        },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vcpyag/chatgpt_work_is_much_more_useful_if_i_let_it_log/",
-          "signal": "ChatGPT Work is much more useful, if I let it log into my accounts (like my Mail) to read and write mails for instance."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y8WjHIJfB4Q",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for task automation",
-        "The benefits of using ChatGPT Work for workflow optimization",
-        "ChatGPT Work review: Is it worth the investment?"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Marketers",
+        "Using ChatGPT to Enhance Your Social Media Visuals"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vdmt51/hypocrisy_of_chatgpt/"
         }
       ],
-      "content_opportunity": "How to bypass ChatGPT usage limits: A workaround guide"
+      "content_opportunity": "How to Optimize ChatGPT Usage and Avoid Token Limits"
+    },
+    {
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators and marketers",
+      "signal_strength": 7,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing"
+        }
+      ],
+      "content_opportunity": "How to Detect and Avoid AI-Generated Content"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0, because it has the potential to revolutionize the way we create and edit images."
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
