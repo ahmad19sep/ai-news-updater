@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T19:35:59.609803+00:00",
+  "generated_at": "2026-08-02T03:55:08.712588+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,335 +9,331 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 27,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Discover how AI-generated images can enhance your professional content.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create unique images for your social media or website.",
+      "linkedin_angle": "Automate your content creation with ChatGPT image generation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Tips for Getting the Most Out of ChatGPT Images 2.0",
-        "The Future of Art: How ChatGPT Images 2.0 is Changing the Game"
-      ]
-    },
-    {
-      "name": "DeepSeek V4 Flash",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "A new version of the DeepSeek AI model.",
-      "audience_angle": "Stay ahead of the curve with the latest AI technology.",
-      "linkedin_angle": "Learn how DeepSeek V4 Flash can improve your business operations.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "signal": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-          "signal": "DeepSeek V4 flash final release"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FAW6AuzT1Uw",
+          "signal": "AI Video Workflow - Faceless Channel From Zero"
         }
       ],
       "content_ideas": [
-        "What's New in DeepSeek V4 Flash: A Comprehensive Review",
-        "How to Use DeepSeek V4 Flash for Business Intelligence",
-        "The Impact of DeepSeek V4 Flash on the AI Industry"
+        "How to Use ChatGPT for Image Generation",
+        "5 Creative Ways to Use ChatGPT Images",
+        "ChatGPT Image Generation: A Step-by-Step Guide"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "use_case",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can generate videos based on text prompts or scripts.",
+      "audience_angle": "You can use AI to create videos for your business or personal brand.",
+      "linkedin_angle": "Use AI video generation to enhance your marketing strategy.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
+        }
+      ],
+      "content_ideas": [
+        "How to Make AI Videos for Free",
+        "AI Video Generation: A Beginner's Guide",
+        "5 AI Video Generation Tools for Business"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "The use of AI to generate videos.",
-      "audience_angle": "Create stunning videos with just a few clicks.",
-      "linkedin_angle": "Discover how AI video generation can enhance your marketing strategy.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Affiliate programs available for AI video generation tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3GQvpjsbMWE",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | gemini"
-        }
-      ],
-      "content_ideas": [
-        "How to Make Money with AI-Generated Videos",
-        "The Best AI Video Generation Tools for Beginners",
-        "The Future of Video Content: How AI is Changing the Game"
-      ]
-    },
-    {
-      "name": "ChatGPT Agent Mode",
-      "category": "technique",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "A mode in ChatGPT that allows for more advanced interactions.",
-      "audience_angle": "Take your ChatGPT experience to the next level.",
-      "linkedin_angle": "Learn how to use ChatGPT Agent Mode for business automation.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Work is a new feature that allows users to create and manage workflows.",
+      "audience_angle": "You can use ChatGPT Work to automate tasks and increase productivity.",
+      "linkedin_angle": "Streamline your workflow with ChatGPT Work.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its Work feature."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "chatgpt agent mode"
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Agent Mode for Business Automation",
-        "The Benefits of ChatGPT Agent Mode for Advanced Users",
-        "ChatGPT Agent Mode: A Game-Changer for Customer Service"
+        "Getting Started with ChatGPT Work",
+        "5 Ways to Use ChatGPT Work for Business",
+        "ChatGPT Work: A Step-by-Step Guide"
       ]
     },
     {
       "name": "AI Trading Agents",
-      "category": "use_case",
-      "momentum": "rising",
+      "category": "technique",
+      "momentum": "hot",
       "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "The use of AI to automate trading decisions.",
-      "audience_angle": "Make money with AI-powered trading agents.",
-      "linkedin_angle": "Discover how AI trading agents can improve your investment strategy.",
-      "local_relevance": 6,
+      "what_it_is": "AI trading agents can automate trading decisions and execute trades.",
+      "audience_angle": "You can use AI trading agents to invest in the stock market.",
+      "linkedin_angle": "Use AI trading agents to enhance your investment strategy.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Affiliate programs available for AI trading tools."
+        "note": "Several AI trading agent tools have affiliate programs."
       },
       "sources": [
         {
-          "platform": "hackernews",
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
           "signal": "The Rise Of AI-Powered Trading Agents"
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI Trading Agents",
-        "The Best AI Trading Agents for Beginners",
-        "The Future of Trading: How AI is Changing the Game"
+        "How to Use AI Trading Agents for Investing",
+        "5 AI Trading Agent Tools for Beginners",
+        "AI Trading Agents: A Beginner's Guide"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "ChatGPT Voice",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "A new AI model from Anthropic.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Learn how Claude AI can improve your business operations.",
-      "local_relevance": 7,
+      "what_it_is": "ChatGPT Voice is a new feature that allows users to interact with ChatGPT using voice commands.",
+      "audience_angle": "You can use ChatGPT Voice to create voice-activated content.",
+      "linkedin_angle": "Use ChatGPT Voice to enhance your content creation workflow.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its Voice feature."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
+          "signal": "ChatGPT Voice 2.0 + Codex is INSANE (endless possibilities)"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Voice",
+        "5 Ways to Use ChatGPT Voice for Content Creation",
+        "ChatGPT Voice: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "AI Financial Advice",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "AI can provide personalized financial advice and investment recommendations.",
+      "audience_angle": "You can use AI to get personalized financial advice and investment recommendations.",
+      "linkedin_angle": "Use AI to enhance your financial planning and investment strategy.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI financial advice tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
-          "signal": "Anthropic says Claude AI hacked three organisations during cyber tests"
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+          "signal": "AI financial advice is surprisingly good, especially if you ask right questions"
         }
       ],
       "content_ideas": [
-        "What's New in Claude AI: A Comprehensive Review",
-        "How to Use Claude AI for Business Intelligence",
-        "The Impact of Claude AI on the AI Industry"
+        "How to Use AI for Financial Advice",
+        "5 AI Financial Advice Tools for Beginners",
+        "AI Financial Advice: A Beginner's Guide"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A tool that generates images using ChatGPT.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Discover how AI-generated images can enhance your professional content.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "You can use ChatGPT to create unique images for your social media or website.",
+      "linkedin_angle": "Automate your content creation with ChatGPT image generation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Tips for Getting the Most Out of ChatGPT Images 2.0",
-        "The Future of Art: How ChatGPT Images 2.0 is Changing the Game"
-      ]
-    },
-    {
-      "name": "DeepSeek V4 Flash",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "A new version of the DeepSeek AI model.",
-      "audience_angle": "Stay ahead of the curve with the latest AI technology.",
-      "linkedin_angle": "Learn how DeepSeek V4 Flash can improve your business operations.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "signal": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-          "signal": "DeepSeek V4 flash final release"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FAW6AuzT1Uw",
+          "signal": "AI Video Workflow - Faceless Channel From Zero"
         }
       ],
       "content_ideas": [
-        "What's New in DeepSeek V4 Flash: A Comprehensive Review",
-        "How to Use DeepSeek V4 Flash for Business Intelligence",
-        "The Impact of DeepSeek V4 Flash on the AI Industry"
+        "How to Use ChatGPT for Image Generation",
+        "5 Creative Ways to Use ChatGPT Images",
+        "ChatGPT Image Generation: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "ChatGPT Work",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "A new AI model from Anthropic.",
-      "audience_angle": "Experience the latest advancements in AI technology.",
-      "linkedin_angle": "Learn how Claude AI can improve your business operations.",
-      "local_relevance": 7,
+      "what_it_is": "ChatGPT Work is a new feature that allows users to create and manage workflows.",
+      "audience_angle": "You can use ChatGPT Work to automate tasks and increase productivity.",
+      "linkedin_angle": "Streamline your workflow with ChatGPT Work.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its Work feature."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
-          "signal": "Anthropic says Claude AI hacked three organisations during cyber tests"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
         }
       ],
       "content_ideas": [
-        "What's New in Claude AI: A Comprehensive Review",
-        "How to Use Claude AI for Business Intelligence",
-        "The Impact of Claude AI on the AI Industry"
+        "Getting Started with ChatGPT Work",
+        "5 Ways to Use ChatGPT Work for Business",
+        "ChatGPT Work: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "ChatGPT Voice",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Voice is a new feature that allows users to interact with ChatGPT using voice commands.",
+      "audience_angle": "You can use ChatGPT Voice to create voice-activated content.",
+      "linkedin_angle": "Use ChatGPT Voice to enhance your content creation workflow.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its Voice feature."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
+          "signal": "ChatGPT Voice 2.0 + Codex is INSANE (endless possibilities)"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Voice",
+        "5 Ways to Use ChatGPT Voice for Content Creation",
+        "ChatGPT Voice: A Step-by-Step Guide"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits hitting users hard",
+      "problem": "Claude usage/token limits hitting users hard",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vco09d/has_anyone_actually_hit_the_gpt56_sol_limit_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vd7bit/claude_breaking_the_sandbox/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Tricks"
+      "content_opportunity": "How to Optimize Claude Usage and Avoid Token Limits"
     },
     {
-      "problem": "AI-generated content being flagged as fake",
-      "who_affected": "Content creators",
+      "problem": "AI trading agent risks and limitations",
+      "who_affected": "Investors and traders",
       "signal_strength": 5,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing"
+          "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f"
         }
       ],
-      "content_opportunity": "How to Avoid AI-Generated Content Being Flagged as Fake"
+      "content_opportunity": "Understanding the Risks and Limitations of AI Trading Agents"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
