@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 26 Jul 2026 to 02 Aug 2026
+# 🗞️ AI THIS WEEK — 27 Jul 2026 to 03 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum**
@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 3. **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-4. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
-5. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
+4. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
    https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
-6. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
+5. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
-7. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
+6. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
-8. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
+7. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
+8. **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — science angle
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 - **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-- **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
 - **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
+- **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3384
+- Total stories tracked: 3406
 - Most active topic: models
 - Busiest category: AI General News
 
