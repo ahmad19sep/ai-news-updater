@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — https://news.google.com/rss/articles/CBMiigFBVV95cUxQUk9wazdTMTdyQVRZamQ3ZE5US25HTi1WTTBCSEw1cnhWUVRVNmxpODdhOHBPTmNXcUFKMG1laTJOXzhydDE5R3FsczJzZlRxLUJYbktNR29NSlRRNEdaLU1USGRNeXliQTFyTThMVjhtLVR5NFNFdmFnT3dMYUVfZUp5dzhvT2QzQmc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3351
+- Total stories tracked: 3371
 - Most active topic: models
 - Busiest category: AI General News
 
