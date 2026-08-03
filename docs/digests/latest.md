@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
 6. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
-7. **Misleading AI-generated doctors pose ‘huge danger to public safety’ - The Guardian** — science angle
-   https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTNvUEdJY1ZzVmlTR1NNOXhGcHRyLTVMc3VhY1lfRzRQLUp6Rnc4RFBCdU10UnhLVDlnY2VXbGh3dFM2UHJMNUtfUmgxSkpIVGpxaERTZFBsb25IUC10SEx3QTd1c29xcHpReHhmcjNqYlZpSFRCM2hRcURLcElYdVN1SmNKV1cxV29EMjJidmwzcjBrQVVNY044cS12UGxCYVN6R0xxbDRyaWhBNng0?oc=5
-8. **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — science angle
+7. **AI threatens to remove the humanity from healthcare, according to doctor - North Penn Now** — science angle
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkNlMkxaM0htSkxfUGM1d0Fudi1PejdGdkxKeVRpdERFZmZKaVIwd1VhWDJNUkx2RUF3WkpIMDFVMGdrYkVfQnBVWjJJX3RNaERPR2x2d0tCektmNmFHYlVTUHhxT19wcHlQSlF1WVRDRm5IZkN4THhubGduTVg2VTFIcWNDT2dtUVB6d1FtME9RRFNnRUtUUWxYdFVibWR5emtpeA?oc=5
+8. **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — science angle
+   https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzdoSGxKY2IweS1USEpRVEVOZ1JqRkU0bTM4NTZnRjJGU2pwMDNnMDJ1NWo2QUZoSVpqZlpfcjFCc2VRMHVyRUoySjFaLWZEc1g2ZmJMWWF6U0l0LWVHc0hQeTNiby10S0VkeW82Yi1qSnJXVEVrX093RE9LdjJ6WTFkajVpdzJhOUowdVhHNngtYXNkRDQyNmdONlE2RFpXV2ctS0xYU0ZsS2xKSW9actIBxAFBVV95cUxOWXg5TXUyZVFqVC1lNkhTZ1djZ1QtRHRCTUJGMEVaY2dfcDc5OGtEX2tuZ3hmbmV0WTI0Rmctek5TUW5ia0VSV0RGN1B4bnY2WE9UbFpXVHp6V0tVWURFQmgtSi1feVpaZFhkRi05bDE4SXRMaHBNSmFYMVUtS2pMZWJNX3p3OG95dG5pVllkSF8tUUFmbjlXUHpUSFlwUElVYlVHT3JfRGxha0lMd05OZkY1Uk5CNGFtQ1ZIclBpd0xtWW5W?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3409
+- Total stories tracked: 3373
 - Most active topic: models
 - Busiest category: AI General News
 
