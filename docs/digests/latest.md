@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
-2. **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — science angle
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
-3. **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — science angle
+2. **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — science angle
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
-4. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
+3. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
    https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
-5. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
+4. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
-6. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
+5. **Professor's invisible prompt trap catches 32/35 students cheating with AI** — 55 upvotes on Reddit/HN
    https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html
-7. **Fake AI doctors are taking over social media. Here’s how to spot them - Cleveland.com** — science angle
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzdoSGxKY2IweS1USEpRVEVOZ1JqRkU0bTM4NTZnRjJGU2pwMDNnMDJ1NWo2QUZoSVpqZlpfcjFCc2VRMHVyRUoySjFaLWZEc1g2ZmJMWWF6U0l0LWVHc0hQeTNiby10S0VkeW82Yi1qSnJXVEVrX093RE9LdjJ6WTFkajVpdzJhOUowdVhHNngtYXNkRDQyNmdONlE2RFpXV2ctS0xYU0ZsS2xKSW9actIBxAFBVV95cUxOWXg5TXUyZVFqVC1lNkhTZ1djZ1QtRHRCTUJGMEVaY2dfcDc5OGtEX2tuZ3hmbmV0WTI0Rmctek5TUW5ia0VSV0RGN1B4bnY2WE9UbFpXVHp6V0tVWURFQmgtSi1feVpaZFhkRi05bDE4SXRMaHBNSmFYMVUtS2pMZWJNX3p3OG95dG5pVllkSF8tUUFmbjlXUHpUSFlwUElVYlVHT3JfRGxha0lMd05OZkY1Uk5CNGFtQ1ZIclBpd0xtWW5W?oc=5
-8. **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — science angle
+6. **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxQUk9wazdTMTdyQVRZamQ3ZE5US25HTi1WTTBCSEw1cnhWUVRVNmxpODdhOHBPTmNXcUFKMG1laTJOXzhydDE5R3FsczJzZlRxLUJYbktNR29NSlRRNEdaLU1USGRNeXliQTFyTThMVjhtLVR5NFNFdmFnT3dMYUVfZUp5dzhvT2QzQmc?oc=5
+7. **The future doctor will have an AI assistant, and so will every patient - TheCable** — science angle
+   https://news.google.com/rss/articles/CBMimgFBVV95cUxQZmp5WGdMaUJvajRySlhKNkIzX3ZwczFRdC1ZemotWGdHVFBBWTk0YjIwTlMwaVl6b05NRjREQnlab2VVbkNUc01lcUdOMFhiTm1VbWp0ZGlCUnRiS3gyR3BQMDdHNEVldndWSl91N0duSW1DazZ4NXdKaXBJMUgySERLUVN1aDA0eTc3UTRheDZxRk1OQlc3MWp3?oc=5
+8. **An AI Got The Diagnosis Wrong. Doctors Trusted It Anyway - StudyFinds** — science angle
+   https://news.google.com/rss/articles/CBMiakFVX3lxTFAtdEM2a05VT1Y3UG83eGtjcGFvek5zX29FQk5Mb0VIeTE4VTBaVGpUSk5fbjF6REtVTFBsNmxCRjJSY1V6dnpZNl9xOVh3dDZGM2NoaWRpQUJnYmJQSVF3akdKSHQxWmpJbmc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -48,13 +48,13 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 
 ## 🧪 AI in Science Highlights
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
-- **Stanford Researchers Use AI and Protein Data to Discover “Natural Ozempic” - HPCwire** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWJBWFkyQXpuWjEzNnNZYkRXZE9Sal9jN0E3Ujk0ZnE4NEwtbDhCeXB5ckZ4bUNTT3cwMXo0a0pmbmlBNG5Gb05xcVJidjNGQXRia0xTZFJ0dGZXMndiSnFaQXNHdDZ0aDVuSmhSOFhHMGVsRUVYTVU5b3FNU2xiUzJkaHhZV1lCWFVhVWhVVjFGVXE0Q3NhLWxCN2xfWV9tY3JJUFdHcHJYdlk0aWlqNWdRbWdOYmtSRWFHaw?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
 - **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
 - **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
+- **AI-Generated Doctors Spread Medical Myths on TikTok: Report - ForkLog** — https://news.google.com/rss/articles/CBMiigFBVV95cUxQUk9wazdTMTdyQVRZamQ3ZE5US25HTi1WTTBCSEw1cnhWUVRVNmxpODdhOHBPTmNXcUFKMG1laTJOXzhydDE5R3FsczJzZlRxLUJYbktNR29NSlRRNEdaLU1USGRNeXliQTFyTThMVjhtLVR5NFNFdmFnT3dMYUVfZUp5dzhvT2QzQmc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3369
+- Total stories tracked: 3351
 - Most active topic: models
 - Busiest category: AI General News
 
