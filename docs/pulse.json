@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:56:39.336968+00:00",
+  "generated_at": "2026-08-03T10:07:18.308365+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,170 +9,288 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create unique and interesting images for your social media or other projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for creative and professional image generation.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media profiles or websites.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business's visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=y8WjHIJfB4Q",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation Tutorial for Beginners",
-        "Using ChatGPT for Professional Image Creation"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Using ChatGPT Images 2.0 for Social Media Marketing",
+        "A Beginner's Guide to ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "AI Video Creation",
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video creation involves using artificial intelligence to generate videos based on text prompts or other inputs.",
-      "audience_angle": "You can use AI to create videos for your social media, marketing, or other projects without extensive video production experience.",
-      "linkedin_angle": "Discover how AI video creation can streamline your content production and enhance your professional brand.",
-      "local_relevance": 6,
+      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos based on text prompts or other inputs.",
+      "audience_angle": "You can use AI video generation to create high-quality videos for your business or personal projects without needing extensive video production experience.",
+      "linkedin_angle": "Discover how AI video generation can revolutionize your company's video content creation and marketing strategy.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video creation tools offer affiliate programs."
+        "note": "Some AI video generation tools offer affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
-          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
+          "url": "https://www.youtube.com/watch?v=FAW6AuzT1Uw",
+          "signal": "AI Video Workflow - Faceless Channel From Zero"
         }
       ],
       "content_ideas": [
-        "How to Make Engaging AI Videos for Social Media",
-        "AI Video Creation for Beginners: A Step-by-Step Guide",
-        "Using AI for Professional Video Production: Tips and Tricks"
+        "How to Make Money with AI-Generated Videos",
+        "The Future of Video Content Creation: AI Video Generation",
+        "A Step-by-Step Guide to Creating AI-Generated Videos"
       ]
     },
     {
-      "name": "AI Agents for Automation",
-      "category": "technique",
+      "name": "AI Trading Agents",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "AI agents are programs that use artificial intelligence to automate tasks and processes.",
-      "audience_angle": "You can use AI agents to automate repetitive tasks, freeing up time for more creative and strategic work.",
-      "linkedin_angle": "Learn how AI agents can enhance your productivity and career by automating routine tasks.",
+      "what_it_is": "AI trading agents are artificial intelligence systems that can automatically execute trades based on predefined criteria.",
+      "audience_angle": "You can use AI trading agents to automate your trading activities and potentially increase your profits.",
+      "linkedin_angle": "Learn how AI trading agents can help you make data-driven investment decisions and improve your trading strategy.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI trading agent platforms offer affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
+          "signal": "The Rise Of AI-Powered Trading Agents"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Trading Agents for Profitable Trading",
+        "The Benefits and Risks of Using AI Trading Agents",
+        "A Beginner's Guide to AI Trading Agents"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Agent is a tool that allows users to interact with ChatGPT in a more conversational and interactive way.",
+      "audience_angle": "You can use ChatGPT Agent to automate tasks, answer questions, and generate content.",
+      "linkedin_angle": "Discover how ChatGPT Agent can help you streamline your workflow and increase productivity.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI agent platforms offer affiliate programs for their tools and services."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TL8V41Ea6oM",
-          "signal": "4 AI Agents To Automate 99% Of Your Life"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://sprocket-demo.spikonado.com",
-          "signal": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "ChatGPT Agent"
         }
       ],
       "content_ideas": [
-        "How to Use AI Agents for Personal Productivity",
-        "AI Agents for Business Automation: A Comprehensive Guide",
-        "Creating Custom AI Agents for Specific Tasks"
+        "How to Use ChatGPT Agent for Task Automation",
+        "The Benefits of Using ChatGPT Agent for Content Generation",
+        "A Step-by-Step Guide to Setting Up ChatGPT Agent"
+      ]
+    },
+    {
+      "name": "AI Financial Advice",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "AI financial advice refers to the use of artificial intelligence to provide personalized financial guidance and investment recommendations.",
+      "audience_angle": "You can use AI financial advice to make informed investment decisions and improve your financial well-being.",
+      "linkedin_angle": "Learn how AI financial advice can help you optimize your investment portfolio and achieve your financial goals.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI financial advice platforms offer affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+          "signal": "AI financial advice is surprisingly good, especially if you ask right questions"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Financial Advice for Investment Decisions",
+        "The Benefits and Risks of Using AI Financial Advice",
+        "A Beginner's Guide to AI Financial Advice"
+      ]
+    },
+    {
+      "name": "AI Video Editing",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI video editing refers to the use of artificial intelligence to automate the video editing process.",
+      "audience_angle": "You can use AI video editing to create high-quality videos without needing extensive video editing experience.",
+      "linkedin_angle": "Discover how AI video editing can help you streamline your video content creation and improve your marketing strategy.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI video editing tools offer affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TOnJkYIx5iU",
+          "signal": "This is editor ai agent. Automatically edits your videos."
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Video Editing for Your Business",
+        "The Benefits of Using AI Video Editing for Content Creation",
+        "A Step-by-Step Guide to AI Video Editing"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT is a tool that can generate images based on text prompts.",
-      "audience_angle": "You can use ChatGPT to create unique and interesting images for your social media or other projects.",
-      "linkedin_angle": "Learn how to leverage ChatGPT for creative and professional image generation.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media profiles or websites.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for your business's visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=y8WjHIJfB4Q",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation Tutorial for Beginners",
-        "Using ChatGPT for Professional Image Creation"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Using ChatGPT Images 2.0 for Social Media Marketing",
+        "A Beginner's Guide to ChatGPT Images 2.0"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Agent is a tool that allows users to interact with ChatGPT in a more conversational and interactive way.",
+      "audience_angle": "You can use ChatGPT Agent to automate tasks, answer questions, and generate content.",
+      "linkedin_angle": "Discover how ChatGPT Agent can help you streamline your workflow and increase productivity.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent",
+          "signal": "ChatGPT Agent"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Agent for Task Automation",
+        "The Benefits of Using ChatGPT Agent for Content Generation",
+        "A Step-by-Step Guide to Setting Up ChatGPT Agent"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "Individual users and small businesses",
-      "signal_strength": 6,
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vdmt51/hypocrisy_of_chatgpt/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ve7jch/i_think_its_time_we_consider_turning_off_memory/"
         }
       ],
-      "content_opportunity": "Workarounds and budget-friendly alternatives to ChatGPT for users facing usage limits and costs."
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Optimize Your Experience"
+    },
+    {
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators and marketers",
+      "signal_strength": 6,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing"
+        }
+      ],
+      "content_opportunity": "The Ultimate Guide to Detecting AI-Generated Content and Avoiding Plagiarism"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
