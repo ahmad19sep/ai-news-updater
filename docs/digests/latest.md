@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3406
+- Total stories tracked: 3409
 - Most active topic: models
 - Busiest category: AI General News
 
