@@ -19,17 +19,17 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMEZLVUJYbEdSeDdWOF90V2xrN0p2SXBlbHJnSEt3NlJkR1V2UVpkV1hlVHhYeG13VF9qVnF0aHZSNVVxNFh3TzJvSGVyanJJN1luV3pScmJXa0RXaDJBeUdndVpJenhtRW5YdnpEMmNpMXVUSGtHcjgyR1M4eHpPNS13dlBqT0pKQmFPM0M1TGpOMDlMQ2JnTzZ0Wk0tbl9HajVEZHBPblItRFZNYWVoZ3QtcUlpT1Zt?oc=5
 6. **AI is now very good at diagnosing health problems, but doctors are still better at weighing treatment options - themercury.com** — science angle
    https://news.google.com/rss/articles/CBMiggJBVV95cUxPandUckVQVUFKVTlWLVVNWGJCQXpYOVdtNXVpOFRyV0RSbWUwS3ZxbzlZTTE0cUJxckU4VnZia2h0MkZYempxY0RGX2Q3N3p0UUtYUl9Bam9lUkVGZlhTUENZT3dzOUl4Vjd6bWZQbnczSnVnQi1PZm1INl94ZFE5ZlRmM204NTRNaTIxZ05XbGwxb3pEOURIaFlLN3p4dmZBb1RxeU1LcTNrajNSVFdfTU1UZ29uU1pjSUsxbkM3ZjdrVmVNV09RUzhrT3AxRWhoX28wX1l6SzR4WmlBdFBBR28xV3ZyY3otTUZCZ2JMSFBhZXdDOWNRbWEtbkkzakdBaEE?oc=5
-7. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
+7. **Medday: Ai helping doctors improve medical tests - WKMG** — science angle
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlhZMU5rUTFsZWxHWkdIVVhudFF6S1otRU9BNEF6N2xLcGtWcTNaX2JpQkJZM0Z6MUZTZUJfQ0pRbkRDRExiOEFidU9GN05BSkxFR01LX0NSY3JsNGZQUTNWZlFpN21UOWJZSUpSa1B2VXBaQnQ1UjdFejhqOGRIMFR2V1I0RFI4WW03M2RvUHZwV2VQQ2RVdkt6N1hlWEZ1?oc=5
+8. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
-8. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
-   https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
    https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aRGtiZWcxMEpORkNuR0NTMXRrZ0JNMkpJanJ2dkxwZUR6WVFnOW9Xb21IMnk3REJGZjhhRlRnS3FzNEI1UWN6S1NsbEZGb0Jwa1VvcUxUYVZmNF80Y1R2N3RMWHRjRWxuSG5Rbl8zVV9LYk9Zek9TMHRjTENHWFJuajF1cjVUSDRaNnV2OFc0bDB0cEFuLUtLSjJlY0d3QzZnQWlibW9HSw?oc=5
 2. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 103
    https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiWGZLYVBjcno3dk1wdkZEOEJCMm02SWdkUktwVTJpa3BYdi1iV1BLSEpnS3pNZDhoZl8xeXc0Z2piemxzTHg5amctVDlaQWVkeU1LY3JLYVQwUWMtVkg4N2ZaNDRObnRkdHdtckk5STVzY3lEMEREemUta3g4VUp5cHRZd1NGMWxWVHpGU1dvR2NTX1A0bHlzOUVPdEtKeXd1bjZTblJISGhZeEFnd2NPN0pXdmdhS0lLMGR5RlFJckxhLUoyZXE3R2I2Rm1SQlBMbzF6OGdVRHpVOXp3OW9BRk5hU2l1VVZTQVFl?oc=5
-3. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 76
+3. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 73
    https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
 4. **Elon Musk's xAI sues Minnesota over its first-in-the-nation law banning 'nudification' technology - AP News** — Elon Musk AI News — Score 68
    https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjc4cldNX0dkZFhjMXhRTWpYekd0N1hjbkF2NXVaQzFsWnBTYzF6MXFHOW1nVm15OGQ0VjJjeGp1SG94ZDRKRC1xY08wRjlLRlZzdV9MR2FabHZBSkNkc05FbWNiWXhEVEtzMTNHYzlwNWdZdGV2R1VsZ1lpdXhiUXcyeWpHejF6UU9PR2FYdUVpSEJDaE95VmxWNDBPOEY2bURFRU9TTEdiNENCR2Q5Z2dVTEFxZTVFMjJjWnhCSHRKd1NtWUE?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **When minutes matter, AI is helping diagnose stroke patients - Spectrum News** — https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMEZLVUJYbEdSeDdWOF90V2xrN0p2SXBlbHJnSEt3NlJkR1V2UVpkV1hlVHhYeG13VF9qVnF0aHZSNVVxNFh3TzJvSGVyanJJN1luV3pScmJXa0RXaDJBeUdndVpJenhtRW5YdnpEMmNpMXVUSGtHcjgyR1M4eHpPNS13dlBqT0pKQmFPM0M1TGpOMDlMQ2JnTzZ0Wk0tbl9HajVEZHBPblItRFZNYWVoZ3QtcUlpT1Zt?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3286
+- Total stories tracked: 3266
 - Most active topic: models
 - Busiest category: AI General News
 
