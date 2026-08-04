@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T03:40:05.655698+00:00",
+  "generated_at": "2026-08-04T09:10:27.198542+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
+      "reddit": 50,
       "hackernews": 28,
       "youtube": 106
     },
@@ -16,86 +16,103 @@
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest ChatGPT update.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
+      "what_it_is": "ChatGPT's image generation tool allows users to create images using text prompts.",
+      "audience_angle": "You can use ChatGPT to create stunning images for your social media or personal projects.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT's image generation capabilities.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Business",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Visual Content: ChatGPT Images 2.0 Review"
+        "How to Create Stunning Images with ChatGPT",
+        "10 Creative Ways to Use ChatGPT Image Generation",
+        "ChatGPT Image Generation Tutorial for Beginners"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "use_case",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using AI to generate videos for various purposes.",
-      "audience_angle": "Make engaging videos without extensive video production knowledge.",
-      "linkedin_angle": "Leverage AI video generation for professional video content.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation tools allow users to create videos using text prompts or other inputs.",
+      "audience_angle": "You can use AI video generation tools to create engaging videos for your social media or business.",
+      "linkedin_angle": "Enhance your video content with AI video generation capabilities.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools offer affiliate programs."
+        "note": "Some AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
-          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues"
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
+          "signal": "How to Create Long Ghibli Style AI Videos FREE"
         }
       ],
       "content_ideas": [
-        "AI Video Generation for Beginners",
-        "Monetizing AI-Generated Videos on YouTube",
-        "The Impact of AI on Video Production"
+        "How to Create Engaging AI Videos for Social Media",
+        "10 Creative Ways to Use AI Video Generation",
+        "AI Video Generation Tutorial for Beginners"
       ]
     },
     {
-      "name": "ChatGPT Voice 2.0",
+      "name": "ChatGPT Voice",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "An updated version of ChatGPT's voice capabilities.",
-      "audience_angle": "Experience the enhanced voice features of ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT Voice 2.0 can improve your professional voice interactions.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT's voice feature allows users to interact with the AI using voice commands.",
+      "audience_angle": "You can use ChatGPT Voice to create voice-activated content or interact with the AI in a more natural way.",
+      "linkedin_angle": "Enhance your productivity with ChatGPT Voice.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's voice features can be monetized through affiliate marketing."
+        "note": "ChatGPT has an affiliate program for its voice feature."
       },
       "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
+          "signal": "Have you tried ChatGPT's new Live Voice? It's crazy realistic."
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
@@ -103,29 +120,66 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Voice 2.0",
-        "Using ChatGPT Voice 2.0 for Podcasting",
-        "The Future of Voice Assistants: ChatGPT Voice 2.0 Review"
+        "How to Use ChatGPT Voice for Content Creation",
+        "10 Creative Ways to Use ChatGPT Voice",
+        "ChatGPT Voice Tutorial for Beginners"
       ]
     },
     {
-      "name": "AI Trading Agents",
-      "category": "use_case",
+      "name": "AI Agents for Automation",
+      "category": "technique",
       "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
-      "what_it_is": "Using AI to automate trading decisions.",
-      "audience_angle": "Automate your trading with AI for potentially higher returns.",
-      "linkedin_angle": "Explore how AI trading agents can enhance your investment strategy.",
-      "local_relevance": 9,
+      "what_it_is": "AI agents can be used to automate various tasks, such as data entry or customer service.",
+      "audience_angle": "You can use AI agents to automate repetitive tasks and increase productivity.",
+      "linkedin_angle": "Enhance your productivity with AI agents for automation.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI agent tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TL8V41Ea6oM",
+          "signal": "4 AI Agents To Automate 99% Of Your Life"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://hoplite.sh",
+          "signal": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Automation",
+        "10 Creative Ways to Use AI Agents",
+        "AI Agents Tutorial for Beginners"
+      ]
+    },
+    {
+      "name": "AI Trading Agents",
+      "category": "technique",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "AI trading agents can be used to automate trading decisions and optimize investment portfolios.",
+      "audience_angle": "You can use AI trading agents to optimize your investment strategy and increase returns.",
+      "linkedin_angle": "Enhance your investment strategy with AI trading agents.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI trading platforms offer affiliate programs."
+        "note": "Some AI trading agent tools have affiliate programs."
       },
       "sources": [
         {
@@ -140,125 +194,112 @@
         }
       ],
       "content_ideas": [
-        "Introduction to AI Trading Agents",
-        "Building Your Own AI Trading Agent",
-        "The Benefits and Risks of AI-Powered Trading"
+        "How to Use AI Trading Agents for Investment",
+        "10 Creative Ways to Use AI Trading Agents",
+        "AI Trading Agents Tutorial for Beginners"
       ]
     },
     {
-      "name": "Hoplite",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "ChatGPT for Education",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "A platform for effortlessly deploying cloud coding agents.",
-      "audience_angle": "Simplify your coding workflow with Hoplite.",
-      "linkedin_angle": "Streamline your development process with Hoplite's cloud coding agents.",
+      "what_it_is": "ChatGPT can be used for educational purposes, such as creating personalized learning plans or assisting with homework.",
+      "audience_angle": "You can use ChatGPT to enhance your learning experience and improve academic performance.",
+      "linkedin_angle": "Enhance your educational experience with ChatGPT.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Hoplite may offer affiliate programs for its services."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://hoplite.sh",
-          "signal": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Hoplite",
-        "Optimizing Your Workflow with Hoplite",
-        "The Future of Cloud Coding: Hoplite Review"
-      ]
-    },
-    {
-      "name": "Qwen3.8-Max",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A new model for coding and coworking.",
-      "audience_angle": "Experience the latest in coding and collaboration with Qwen3.8-Max.",
-      "linkedin_angle": "Discover how Qwen3.8-Max can enhance your professional coding experience.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Qwen3.8-Max may offer affiliate programs for its services."
+        "note": "ChatGPT has an affiliate program for educational institutions."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8",
-          "signal": "Qwen3.8-Max: A New Bar for Coding and Cowork"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GJlJ7eRYIEk",
+          "signal": "Students తప్పక తెలుసుకోవాల్సిన 6 ChatGPT Tricks!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1veys55/i_turned_a_history_lesson_into_a_playable_game/",
+          "signal": "I turned a history lesson into a playable game with AI"
         }
       ],
       "content_ideas": [
-        "Introduction to Qwen3.8-Max",
-        "Unlocking the Potential of Qwen3.8-Max",
-        "The Future of Coding and Collaboration: Qwen3.8-Max Review"
+        "How to Use ChatGPT for Educational Purposes",
+        "10 Creative Ways to Use ChatGPT for Education",
+        "ChatGPT Tutorial for Students"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest ChatGPT update.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
+      "what_it_is": "ChatGPT's image generation tool allows users to create images using text prompts.",
+      "audience_angle": "You can use ChatGPT to create stunning images for your social media or personal projects.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT's image generation capabilities.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Business",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Visual Content: ChatGPT Images 2.0 Review"
+        "How to Create Stunning Images with ChatGPT",
+        "10 Creative Ways to Use ChatGPT Image Generation",
+        "ChatGPT Image Generation Tutorial for Beginners"
       ]
     },
     {
-      "name": "ChatGPT Voice 2.0",
+      "name": "ChatGPT Voice",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "An updated version of ChatGPT's voice capabilities.",
-      "audience_angle": "Experience the enhanced voice features of ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT Voice 2.0 can improve your professional voice interactions.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT's voice feature allows users to interact with the AI using voice commands.",
+      "audience_angle": "You can use ChatGPT Voice to create voice-activated content or interact with the AI in a more natural way.",
+      "linkedin_angle": "Enhance your productivity with ChatGPT Voice.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's voice features can be monetized through affiliate marketing."
+        "note": "ChatGPT has an affiliate program for its voice feature."
       },
       "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
+          "signal": "Have you tried ChatGPT's new Live Voice? It's crazy realistic."
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
@@ -266,99 +307,73 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Voice 2.0",
-        "Using ChatGPT Voice 2.0 for Podcasting",
-        "The Future of Voice Assistants: ChatGPT Voice 2.0 Review"
+        "How to Use ChatGPT Voice for Content Creation",
+        "10 Creative Ways to Use ChatGPT Voice",
+        "ChatGPT Voice Tutorial for Beginners"
       ]
     },
     {
-      "name": "Hoplite",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A platform for effortlessly deploying cloud coding agents.",
-      "audience_angle": "Simplify your coding workflow with Hoplite.",
-      "linkedin_angle": "Streamline your development process with Hoplite's cloud coding agents.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Hoplite may offer affiliate programs for its services."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://hoplite.sh",
-          "signal": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Hoplite",
-        "Optimizing Your Workflow with Hoplite",
-        "The Future of Cloud Coding: Hoplite Review"
-      ]
-    },
-    {
-      "name": "Qwen3.8-Max",
+      "name": "AI Video Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "A new model for coding and coworking.",
-      "audience_angle": "Experience the latest in coding and collaboration with Qwen3.8-Max.",
-      "linkedin_angle": "Discover how Qwen3.8-Max can enhance your professional coding experience.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation tools allow users to create videos using text prompts or other inputs.",
+      "audience_angle": "You can use AI video generation tools to create engaging videos for your social media or business.",
+      "linkedin_angle": "Enhance your video content with AI video generation capabilities.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Qwen3.8-Max may offer affiliate programs for its services."
+        "note": "Some AI video generation tools have affiliate programs."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8",
-          "signal": "Qwen3.8-Max: A New Bar for Coding and Cowork"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
+          "signal": "How to Create Long Ghibli Style AI Videos FREE"
         }
       ],
       "content_ideas": [
-        "Introduction to Qwen3.8-Max",
-        "Unlocking the Potential of Qwen3.8-Max",
-        "The Future of Coding and Collaboration: Qwen3.8-Max Review"
+        "How to Create Engaging AI Videos for Social Media",
+        "10 Creative Ways to Use AI Video Generation",
+        "AI Video Generation Tutorial for Beginners"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage limits hitting users hard",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vepzq4/after_1_month_we_removed_gpt_ai_assistant/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT Usage Limits"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     },
     {
-      "problem": "AI-generated content labeling",
-      "who_affected": "Content creators and consumers",
-      "signal_strength": 8,
+      "problem": "Inconsistent image generation quality",
+      "who_affected": "ChatGPT image generation users",
+      "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.euronews.com/my-europe/2026/08/02/ai-generated-label-becomes-mandatory-in-the-eu-for-companies"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf4xg8/why_is_the_image_generation_so_inconsistent/"
         }
       ],
-      "content_opportunity": "Understanding the EU's AI-Generated Content Labeling Regulations"
+      "content_opportunity": "Tips for improving ChatGPT image generation quality"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
