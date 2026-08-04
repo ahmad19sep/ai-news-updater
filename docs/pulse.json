@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:41:07.330383+00:00",
+  "generated_at": "2026-08-04T19:58:17.124152+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,9 +22,9 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new image generation tool from ChatGPT.",
-      "audience_angle": "Create stunning images with just text prompts.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design work.",
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -41,9 +41,9 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Business",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Design: ChatGPT Images 2.0 Review"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
       ]
     },
     {
@@ -53,10 +53,10 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new live voice feature from ChatGPT.",
-      "audience_angle": "Experience real-time voice interactions with ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT Live Voice can revolutionize customer service and more.",
-      "local_relevance": 8,
+      "what_it_is": "A new live voice feature for ChatGPT.",
+      "audience_angle": "Experience the power of live voice with ChatGPT's latest feature.",
+      "linkedin_angle": "Discover how ChatGPT Live Voice can revolutionize your professional communication.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
@@ -72,9 +72,9 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Live Voice",
-        "ChatGPT Live Voice: The Future of Voice Assistants",
-        "How to Use ChatGPT Live Voice for Customer Support"
+        "How to Use ChatGPT Live Voice for Your Business",
+        "ChatGPT Live Voice: A New Era in Communication",
+        "5 Ways to Leverage ChatGPT Live Voice for Better Customer Service"
       ]
     },
     {
@@ -85,95 +85,27 @@
         "youtube"
       ],
       "what_it_is": "Using AI to generate videos.",
-      "audience_angle": "Create professional-looking videos without extensive video production knowledge.",
-      "linkedin_angle": "Explore how AI video generation can enhance your content marketing strategy.",
-      "local_relevance": 6,
+      "audience_angle": "Create stunning videos with AI video generation tools.",
+      "linkedin_angle": "Explore how AI video generation can enhance your professional video content.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools offer affiliate programs."
+        "note": "Several AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
-          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues AI Video kaise banaye AI Video Generator"
+          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
+          "signal": "AI video generation"
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI-Generated Videos",
-        "The Best AI Video Generation Tools for Beginners",
-        "AI Video Generation: The Future of Content Creation"
-      ]
-    },
-    {
-      "name": "AI Trading Agents",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "Using AI to automate trading decisions.",
-      "audience_angle": "Automate your trading with AI and potentially increase your earnings.",
-      "linkedin_angle": "Discover how AI trading agents can optimize your investment strategy.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI trading platforms offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1zW6Uu21Q40",
-          "signal": "The Rise Of AI-Powered Trading Agents"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.youtube.com/watch?v=4CTtlpi7Lic",
-          "signal": "AI Goes Rogue: OpenAI Agent Hacks Other Firms as Growing Coalition Demands Safeguards"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with AI Trading Agents",
-        "The Best AI Trading Agents for Beginners",
-        "How to Use AI to Automate Your Trading Decisions"
-      ]
-    },
-    {
-      "name": "ChatGPT Work Tutorial",
-      "category": "technique",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A tutorial on how to use ChatGPT for work.",
-      "audience_angle": "Learn how to use ChatGPT to enhance your productivity at work.",
-      "linkedin_angle": "Discover how ChatGPT can help you with tasks such as writing and research.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "How to Use New ChatGPT Work in 12 Minutes"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT for Writing and Editing",
-        "ChatGPT for Research: A Step-by-Step Guide",
-        "Using ChatGPT to Automate Tasks at Work"
+        "How to Create Stunning Videos with AI Video Generation",
+        "10 Ways to Use AI Video Generation for Your Business",
+        "AI Video Generation: A Game-Changer for Content Creators"
       ]
     },
     {
@@ -184,27 +116,89 @@
         "youtube"
       ],
       "what_it_is": "Using AI to create side hustles.",
-      "audience_angle": "Create additional income streams using AI.",
-      "linkedin_angle": "Explore how AI can help you start and grow a side business.",
+      "audience_angle": "Create a profitable side hustle with AI.",
+      "linkedin_angle": "Discover how AI can help you create a successful side hustle.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI tools and courses offer affiliate programs."
+        "note": "Several AI tools have affiliate programs for side hustles."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
-          "signal": "10 Claude AI Side Hustles That Can Pay A Full-Time Income (Ranked List)"
+          "url": "https://www.youtube.com/results?search_query=ai+side+hustles",
+          "signal": "AI side hustles"
         }
       ],
       "content_ideas": [
-        "How to Make Money with AI-Powered Side Hustles",
-        "The Best AI Tools for Creating Side Hustles",
-        "AI Side Hustles: The Future of Entrepreneurship"
+        "How to Create a Profitable Side Hustle with AI",
+        "10 AI Side Hustles You Can Start Today",
+        "AI Side Hustles: A New Era in Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new AI tool called Claude.",
+      "audience_angle": "Explore the capabilities of Claude AI.",
+      "linkedin_angle": "Discover how Claude AI can enhance your professional workflow.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
+          "signal": "I tried Claude but I just can't"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Your Business",
+        "Claude AI: A New Tool for Content Creators",
+        "5 Ways to Leverage Claude AI for Better Productivity"
+      ]
+    },
+    {
+      "name": "AI Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using AI for trading.",
+      "audience_angle": "Create a profitable trading strategy with AI.",
+      "linkedin_angle": "Discover how AI can help you create a successful trading strategy.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI trading tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+trading",
+          "signal": "AI trading"
+        }
+      ],
+      "content_ideas": [
+        "How to Create a Profitable Trading Strategy with AI",
+        "10 AI Trading Tools You Can Use Today",
+        "AI Trading: A New Era in Finance"
       ]
     }
   ],
@@ -216,9 +210,9 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new image generation tool from ChatGPT.",
-      "audience_angle": "Create stunning images with just text prompts.",
-      "linkedin_angle": "Explore how AI image generation can enhance your marketing and design work.",
+      "what_it_is": "A new version of ChatGPT's image generation tool.",
+      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -235,9 +229,40 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Business",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Design: ChatGPT Images 2.0 Review"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new AI tool called Claude.",
+      "audience_angle": "Explore the capabilities of Claude AI.",
+      "linkedin_angle": "Discover how Claude AI can enhance your professional workflow.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
+          "signal": "I tried Claude but I just can't"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Your Business",
+        "Claude AI: A New Tool for Content Creators",
+        "5 Ways to Leverage Claude AI for Better Productivity"
       ]
     },
     {
@@ -247,10 +272,10 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new live voice feature from ChatGPT.",
-      "audience_angle": "Experience real-time voice interactions with ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT Live Voice can revolutionize customer service and more.",
-      "local_relevance": 8,
+      "what_it_is": "A new live voice feature for ChatGPT.",
+      "audience_angle": "Experience the power of live voice with ChatGPT's latest feature.",
+      "linkedin_angle": "Discover how ChatGPT Live Voice can revolutionize your professional communication.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
@@ -266,24 +291,36 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT Live Voice",
-        "ChatGPT Live Voice: The Future of Voice Assistants",
-        "How to Use ChatGPT Live Voice for Customer Support"
+        "How to Use ChatGPT Live Voice for Your Business",
+        "ChatGPT Live Voice: A New Era in Communication",
+        "5 Ways to Leverage ChatGPT Live Voice for Better Customer Service"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
-      "who_affected": "ChatGPT users",
+      "problem": "Claude usage/token limits hitting users hard",
+      "who_affected": "Claude users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1veu5jc/15_attorneys_general_send_letter_to_openai/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
+      "content_opportunity": "How to Overcome Claude Usage/Token Limits"
+    },
+    {
+      "problem": "ChatGPT writing style issues",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfdp53/is_anyones_chatgpt_writing_style_lately_piss_them/"
+        }
+      ],
+      "content_opportunity": "How to Fix ChatGPT Writing Style Issues"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
