@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
 3. **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxQRWxTbUFyM0VuMlIwOEU0dFFybDctdGUwOTdDUURTNHNTOWRXdDFHSVdMRkZfbjRuTXJWSHNGbVJHVUExMEp1emItUTAtWDdkTjVzWjRDVjRPRHFzMUZDVnhMQl9xb0prbmNYcW1SeHc4N1NRMUdxUFZfV0c4ZVJ5VldhTjRqV1RRRnp6QS04WXBRNk9QeGlUVjNROWt5SWZQWGh4c25NTTFHVUVnemRWYQ?oc=5
-4. **An AI Got The Diagnosis Wrong. Doctors Trusted It Anyway - StudyFinds** — science angle
+4. **Akido is expanding AI for patient intake and diagnoses across 100 clinics - Endpoints News** — science angle
+   https://news.google.com/rss/articles/CBMingFBVV95cUxQbzhSRW5pYjFyZFVLX0lqOFE0VzdRMXUzUmJ2LXBmTDRRNGEzWWk4bTBadWhlZ2E4X0pvVGNranBKVnd5Ry1aeThBY1BTYnIwOXFodjk1STJCSHc3a3FHNVF1SnpIcHQxVFVRdHlINjRVcHRHb3VtSVUtSGZhdE80RXV5amlleW41c0xESXI2X0NVdzkwX0ZQMnkzTC0wZw?oc=5
+5. **An AI Got The Diagnosis Wrong. Doctors Trusted It Anyway - StudyFinds** — science angle
    https://news.google.com/rss/articles/CBMiakFVX3lxTFAtdEM2a05VT1Y3UG83eGtjcGFvek5zX29FQk5Mb0VIeTE4VTBaVGpUSk5fbjF6REtVTFBsNmxCRjJSY1V6dnpZNl9xOVh3dDZGM2NoaWRpQUJnYmJQSVF3akdKSHQxWmpJbmc?oc=5
-5. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
+6. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
-6. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
+7. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
-7. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
+8. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHc0aUNOZEJoOEY0WmtzNWZPUm5CRHBkUXEzcjk0bkFCbzJPcWppb3A4eGFCRHdvdjNMUWlBUmgyc2k1MklZLTdtWmtjUGdHc0wwclJDRGdrT2VsU0dTY29JNGhIcGw0MElKNnVsRF9DRVRXd2FSWDBwaFpaZlFQNHdOTkpObkpwZzZpS3dKVC1rZGt4bVFN?oc=5
-8. **Will AI take your job? From cashiers to doctors, which professions face the biggest risk - The Times of India** — science angle
-   https://news.google.com/rss/articles/CBMiggJBVV95cUxOTjdpS216UVFKaXBJVXBlWUY3clNGWUFtYnZBRHo2TTJDLU5YeXlXVTJRQ3RqdmREUmxMek9QaWM4eWY2VGdCeFFGVXVTMFpKbVF1WXhlbHJGNWgybjg5VnRfVGFXU2QxNFRtdmIybmRVeW5UaG1iVWJxeU5xNEM3RXFLaGNoQlJOVTRIZENkLVVkQ3AtRkF6NU9mTzVlLTFXRU9fcUZfR3lfNk9JT1B3ZUdNM0VTb0YzM19qSXgwQnJyMjFacUNHOS1IQVpQYnpRbnotV2l1UDBnMmpJUGFpbmlIbzNsVjFDMVhSSTdoSm93aDNXNFFPYzJtTE9NSnpWcFHSAYcCQVVfeXFMTVJ2V0UwNXRLRkZERjVGRmpPcXpRMkVUNmpfUlQxeXdiTUc0a0k1RXVGVnRVcFEtckV5ejFsMFlKXzl2bEtQZUdLdjh6LTJoclZTa0czZGtQMVU1LTkwU2dyQkRLNW1nSlZBOUFUbWxudEd2cnppenhKbDZ0Sk94OW9PdDAwUkYwZnNHQmdXZ0xSUVVHOE85ZEJqbnNDZm5UWnEzSExhbUdqa3lXbExfLXR0cU4tcFMwSWp1NXRad0pYRjlGc0l1ZE5qQlE5dUIxWDBpUEJDVFBRZXlwRUdmQ3h6R1l0Si0yR29lTXdFMzZubzFSRGdNVmt5emRfZ3REaGJ6UEhiY00?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon Musk's company sues Minnesota over ban on AI nudification technology - InForum** — Elon Musk AI News — Score 168
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmh1S2oxM09aR
 - **UCF Students, VA Doctor Develop AI Tool to Help Doctors Identify Chronic Pelvic Pain - University of Central Florida** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVR2TzhPbmVaMHYzb0JiV2N2OWRjalgyQ0tEbnh5MHJFRUdWRVNqSlZDdWhVYXpHajZBQXNZT3FIak83YzhneklRRERPT19TRDloSTJnT185OG8tOUlLd080cHFPRElEY0tsbnlnVjlHRzdtRWJFcWdrclNOblViRFNjblFrZVZNRjVwNXcyR1ktcGY3Q2l1OUk0YXB0MEszeEdDUGtBMWNHMG0ydnc?oc=5
 - **Researchers Find New Jerseyans Want Regulations Around AI and Mental Health | Newswise - Newswise** — https://news.google.com/rss/articles/CBMixwFBVV95cUxPd1pjYlNGV0hzekk2a2Zacm15RGZIZTNYSkt5akFsQS03ci01THNKT3dteFkyQzRGSWk3LXhZb3ZlR0Y0NmpyRnJpTUZzOV9NLVNSZldKWkc3MmZCNzY0Q2ZIbWw0X0NwRjRHRlc5X3JwbUgxYnZPbTZBTTFieHhwMGd3STFXZ1p4OTBsN0pxY2ZsRklxM1RmNzUzTFZCWU1jYWJFbXFOeVNXWkJudV9qTVVWb1J2ZlBJdS1XQ1IyYXY0dFRacFdJ0gHHAUFVX3lxTE93WmNiU0ZXSHN6STZrZlpybXlEZkhlM1hKS3lqQWxBLTdyLTVMc0pPd214WTJDNEZJaTcteFlvdmVHRjQ2anJGcmlNRnM5X00tU1JmV0paRzcyZkI3NjRDZkhtbDRfQ3BGNEdGVzlfcnBtSDFidk9tNkFNMWJ4eHAwZ3dJMVdnWng5MGw3SnFjZmxGSXEzVGY3NTNMVkJZTWNhYkVtcU55U1daQm51X2pNVVZvUnZmUEl1LVdDUjJhdjR0VFpwV0k?oc=5
 - **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQRWxTbUFyM0VuMlIwOEU0dFFybDctdGUwOTdDUURTNHNTOWRXdDFHSVdMRkZfbjRuTXJWSHNGbVJHVUExMEp1emItUTAtWDdkTjVzWjRDVjRPRHFzMUZDVnhMQl9xb0prbmNYcW1SeHc4N1NRMUdxUFZfV0c4ZVJ5VldhTjRqV1RRRnp6QS04WXBRNk9QeGlUVjNROWt5SWZQWGh4c25NTTFHVUVnemRWYQ?oc=5
+- **Akido is expanding AI for patient intake and diagnoses across 100 clinics - Endpoints News** — https://news.google.com/rss/articles/CBMingFBVV95cUxQbzhSRW5pYjFyZFVLX0lqOFE0VzdRMXUzUmJ2LXBmTDRRNGEzWWk4bTBadWhlZ2E4X0pvVGNranBKVnd5Ry1aeThBY1BTYnIwOXFodjk1STJCSHc3a3FHNVF1SnpIcHQxVFVRdHlINjRVcHRHb3VtSVUtSGZhdE80RXV5amlleW41c0xESXI2X0NVdzkwX0ZQMnkzTC0wZw?oc=5
 - **Counsel Health Launches Counsel Studio, Bringing AI-Enabled, Physician-Supervised Care Directly Into Healthcare Organizations' Digital Experiences - Business Wire** — https://news.google.com/rss/articles/CBMipwJBVV95cUxOT2RfclRObkdCQWFRbnFDUDFZNzZNaHBfN2JGNFBLdzJnaDNXQmRCR1pTVG9hdGxLa1pWLVlkR1dHNVVpcHg4XzhXcFBYTjVad2d6dnZHY2UzZC10UUdwZG96RW1Ed3dKR3JzYnVMQXJHNjFSZEJqZ2dSd0FyNzNqLVNzWUZ5cUpwUkRXcHBrSHNJZEVVcHpjZ3k5clpFdlV2QU94Q1V1a1BpTEdNcUQ3Qm1LZzlscUJsRmRkQ21BWXRrdXdlTWFqekRqYWhoV2pDSF90d0pXM1I3MXR2cnlJVmNzQ3RoREdLc2hlaEFMcUstQTE1SXlqYlN5SS1PWTRkemdYNjZmT2NlUjRidDRXMTlPNUNjUExCZXprUVF0N1pVOGh6ajFB?oc=5
-- **An AI Got The Diagnosis Wrong. Doctors Trusted It Anyway - StudyFinds** — https://news.google.com/rss/articles/CBMiakFVX3lxTFAtdEM2a05VT1Y3UG83eGtjcGFvek5zX29FQk5Mb0VIeTE4VTBaVGpUSk5fbjF6REtVTFBsNmxCRjJSY1V6dnpZNl9xOVh3dDZGM2NoaWRpQUJnYmJQSVF3akdKSHQxWmpJbmc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3331
+- Total stories tracked: 3324
 - Most active topic: models
 - Busiest category: AI General News
 
