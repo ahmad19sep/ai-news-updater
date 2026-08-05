@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
    https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlhZMU5rUTFsZWxHWkdIVVhudFF6S1otRU9BNEF6N2xLcGtWcTNaX2JpQkJZM0Z6MUZTZUJfQ0pRbkRDRExiOEFidU9GN05BSkxFR01LX0NSY3JsNGZQUTNWZlFpN21UOWJZSUpSa1B2VXBaQnQ1UjdFejhqOGRIMFR2V1I0RFI4WW03M2RvUHZwV2VQQ2RVdkt6N1hlWEZ1?oc=5
 6. **AI medical scribe consent raises patient rights concerns - New Atlas** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVlrOTJhRHRmOFI1V2xvRjV4bXZ1SC1yQWtLeTljV2VMR1BEcmtHZzcyWHFSdk5FUXUzUFZHSHZvSHNPYURYeUxoVkJUalFBbHZwZWxoSFBXeFo3SFBXLUdBM1BzSnNWd3NfUl9LMndSWFV2WUtrV3BmaXQzaHF1UHZXMEtTV0l5TlBTUEFzakNqc1k?oc=5
-7. **AI health scam ads on social media fool vulnerable patients - eMarketer** — science angle
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG53LTNhTkRabHIwZ24tQVh4YXhELWYzbHhNY3ZZbXR3cGs5TjB0Y2lwMG9wY1hkcnFZYWYyNzZYWHpneTI4N19odGpFOEFCVU83Q0daLW0tVVNKTVY5em53bTdNXzlyalpHaWswQ3JOOGJWSEtQZksxVTZPcHRTbThoWHRWanJzZTJ1bjlHOXhtTFZuckJ0ZUFPWUkxeUZ0TnpFTU8yMjkxclE?oc=5
-8. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
+7. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
+8. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
+   https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHc0aUNOZEJoOEY0WmtzNWZPUm5CRHBkUXEzcjk0bkFCbzJPcWppb3A4eGFCRHdvdjNMUWlBUmgyc2k1MklZLTdtWmtjUGdHc0wwclJDRGdrT2VsU0dTY29JNGhIcGw0MElKNnVsRF9DRVRXd2FSWDBwaFpaZlFQNHdOTkpObkpwZzZpS3dKVC1rZGt4bVFN?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 103
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
 - **Medday: Ai helping doctors improve medical tests - WKMG** — https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlhZMU5rUTFsZWxHWkdIVVhudFF6S1otRU9BNEF6N2xLcGtWcTNaX2JpQkJZM0Z6MUZTZUJfQ0pRbkRDRExiOEFidU9GN05BSkxFR01LX0NSY3JsNGZQUTNWZlFpN21UOWJZSUpSa1B2VXBaQnQ1UjdFejhqOGRIMFR2V1I0RFI4WW03M2RvUHZwV2VQQ2RVdkt6N1hlWEZ1?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3304
+- Total stories tracked: 3193
 - Most active topic: models
 - Busiest category: AI General News
 
