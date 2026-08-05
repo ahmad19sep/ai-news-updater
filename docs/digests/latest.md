@@ -29,22 +29,22 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
    https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiWGZLYVBjcno3dk1wdkZEOEJCMm02SWdkUktwVTJpa3BYdi1iV1BLSEpnS3pNZDhoZl8xeXc0Z2piemxzTHg5amctVDlaQWVkeU1LY3JLYVQwUWMtVkg4N2ZaNDRObnRkdHdtckk5STVzY3lEMEREemUta3g4VUp5cHRZd1NGMWxWVHpGU1dvR2NTX1A0bHlzOUVPdEtKeXd1bjZTblJISGhZeEFnd2NPN0pXdmdhS0lLMGR5RlFJckxhLUoyZXE3R2I2Rm1SQlBMbzF6OGdVRHpVOXp3OW9BRk5hU2l1VVZTQVFl?oc=5
 2. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 73
    https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
-3. **Elon Musk's xAI sues Minnesota over its first-in-the-nation law banning 'nudification' technology - AP News** — Elon Musk AI News — Score 68
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjc4cldNX0dkZFhjMXhRTWpYekd0N1hjbkF2NXVaQzFsWnBTYzF6MXFHOW1nVm15OGQ0VjJjeGp1SG94ZDRKRC1xY08wRjlLRlZzdV9MR2FabHZBSkNkc05FbWNiWXhEVEtzMTNHYzlwNWdZdGV2R1VsZ1lpdXhiUXcyeWpHejF6UU9PR2FYdUVpSEJDaE95VmxWNDBPOEY2bURFRU9TTEdiNENCR2Q5Z2dVTEFxZTVFMjJjWnhCSHRKd1NtWUE?oc=5
-4. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 68
+3. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 68
    https://www.japantimes.co.jp/business/2026/08/02/tech/ai-cyberattack-legally-responsible/
-5. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 66
+4. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 66
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
-6. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
+5. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
    https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
-7. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
+6. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
    https://www.reuters.com/world/asia-pacific/chinese-military-researchers-tap-us-ai-models-train-defence-systems-2026-07-31/
-8. **Anthropic says its AI models also hacked three organizations on their own** — Engadget — Score 53
+7. **Anthropic says its AI models also hacked three organizations on their own** — Engadget — Score 53
    https://www.engadget.com/2227630/anthropic-ai-models-hacked-three-organizations-on-their-own/
-9. **What the FCC's latest rule could mean for new robot vacuums** — kcra — Score 53
+8. **What the FCC's latest rule could mean for new robot vacuums** — kcra — Score 53
    https://www.kcra.com/article/fcc-bans-new-robot-vacuums/73337299
-10. **Quisitive launches Spyglass® Guardrail to secure Microsoft 365 and govern Copilot with AI - The AI Journal** — Microsoft AI — Score 53
+9. **Quisitive launches Spyglass® Guardrail to secure Microsoft 365 and govern Copilot with AI - The AI Journal** — Microsoft AI — Score 53
    https://news.google.com/rss/articles/CBMirgFBVV95cUxNUHV0aWRQNkxWdWIwcmNHOHRhUFVfYVl2X3NMOVFGVnIzY1hwREVkRk1idmZLbWxEUDE0VENPVWp0b0hFcnVzc0FVNHd6dTBPZGhsRUtNM1ZRb1ltNWZNUGtTSTMxYVhiQzE1WHhrYndaYm5BVktpbGVtM2wxcFN5UlJ4UWxVRzNDZFJMVGVzanV3MTktd1U0M3E5NHZza3BjUFpWZzFhVl9GaFlIV1E?oc=5
+10. **Perplexity AI loses bid to toss Reddit lawsuit over data scraping - Reuters** — Perplexity News — Score 52
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxObVhrM1VrbW1hT2x1Q0NrXy1jZkFWazdFNWtGN2VNV19lYnh4bXdjMnE1Ym90V3VQMDFSbTdDLTRIenM3RFFoa0psNmljMFdxODJ4U1hzcUpmZWhLUnVJcktPZ3FXamNnVTc4dFRhZ08tdjVyYlE4NVY0LXhPYU9nUUsxRWs5R3BUbE5BMllTbTE3MjdFWUp3ZVdKWmR0ZDgxYVdqYklmX2R5Z2lZTTlmN0hTdmtVdw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Akido is expanding AI for patient intake and diagnoses across 100 clinics - Endpoints News** — https://news.google.com/rss/articles/CBMingFBVV95cUxQbzhSRW5pYjFyZFVLX0lqOFE0VzdRMXUzUmJ2LXBmTDRRNGEzWWk4bTBadWhlZ2E4X0pvVGNranBKVnd5Ry1aeThBY1BTYnIwOXFodjk1STJCSHc3a3FHNVF1SnpIcHQxVFVRdHlINjRVcHRHb3VtSVUtSGZhdE80RXV5amlleW41c0xESXI2X0NVdzkwX0ZQMnkzTC0wZw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
 - **AI medical scribe consent raises patient rights concerns - New Atlas** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVlrOTJhRHRmOFI1V2xvRjV4bXZ1SC1yQWtLeTljV2VMR1BEcmtHZzcyWHFSdk5FUXUzUFZHSHZvSHNPYURYeUxoVkJUalFBbHZwZWxoSFBXeFo3SFBXLUdBM1BzSnNWd3NfUl9LMndSWFV2WUtrV3BmaXQzaHF1UHZXMEtTV0l5TlBTUEFzakNqc1k?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3201
+- Total stories tracked: 3236
 - Most active topic: models
 - Busiest category: AI General News
 
