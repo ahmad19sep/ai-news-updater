@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T19:58:17.124152+00:00",
+  "generated_at": "2026-08-05T03:34:54.372266+00:00",
   "meta": {
-    "mode": "llm",
+    "mode": "raw",
     "sources_used": [
       "reddit",
       "hackernews",
@@ -12,316 +12,479 @@
       "hackernews": 36,
       "youtube": 106
     },
-    "llm_provider": "groq"
+    "llm_provider": null
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": ""
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
-      ]
-    },
-    {
-      "name": "ChatGPT Live Voice",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new live voice feature for ChatGPT.",
-      "audience_angle": "Experience the power of live voice with ChatGPT's latest feature.",
-      "linkedin_angle": "Discover how ChatGPT Live Voice can revolutionize your professional communication.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
-      },
-      "sources": [
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfrbi5/israel_pays_trumps_excampaign_chief_465m_to_shape/",
+          "signal": "Israel Pays Trump's Ex-Campaign Chief $46.5M to Shape What ChatGPT Says About Gaza"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkooo/meet_my_human_let_your_chatgpt_introduce_you/",
+          "signal": "Meet My Human: Let Your ChatGPT Introduce You"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfbtla/my_best_finding_with_chatgpt_was/",
+          "signal": "My best finding with chatGPT was..."
+        },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
           "signal": "Have you tried ChatGPT's new Live Voice? It's crazy realistic."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfic6l/permanently_lost_my_chatgpt_account_and_years_of/",
+          "signal": "Permanently lost my ChatGPT account and years of work , still waiting on Privacy Team for my data"
         }
       ],
-      "content_ideas": [
-        "How to Use ChatGPT Live Voice for Your Business",
-        "ChatGPT Live Voice: A New Era in Communication",
-        "5 Ways to Leverage ChatGPT Live Voice for Better Customer Service"
-      ]
+      "content_ideas": []
     },
     {
-      "name": "AI Video Generation",
+      "name": "AI-Generated Images Discourage Me from Reading Your Blog",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
-      "what_it_is": "Using AI to generate videos.",
-      "audience_angle": "Create stunning videos with AI video generation tools.",
-      "linkedin_angle": "Explore how AI video generation can enhance your professional video content.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
+        "affiliate_likely": false,
+        "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "AI video generation"
+          "platform": "hackernews",
+          "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
+          "signal": "AI-Generated Images Discourage Me from Reading Your Blog"
         }
       ],
-      "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation",
-        "10 Ways to Use AI Video Generation for Your Business",
-        "AI Video Generation: A Game-Changer for Content Creators"
-      ]
+      "content_ideas": []
     },
     {
-      "name": "AI Side Hustles",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to create side hustles.",
-      "audience_angle": "Create a profitable side hustle with AI.",
-      "linkedin_angle": "Discover how AI can help you create a successful side hustle.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI tools have affiliate programs for side hustles."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+side+hustles",
-          "signal": "AI side hustles"
-        }
-      ],
-      "content_ideas": [
-        "How to Create a Profitable Side Hustle with AI",
-        "10 AI Side Hustles You Can Start Today",
-        "AI Side Hustles: A New Era in Entrepreneurship"
-      ]
-    },
-    {
-      "name": "Claude AI",
+      "name": "Wan",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "hackernews"
       ],
-      "what_it_is": "A new AI tool called Claude.",
-      "audience_angle": "Explore the capabilities of Claude AI.",
-      "linkedin_angle": "Discover how Claude AI can enhance your professional workflow.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its tools."
+        "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
-          "signal": "I tried Claude but I just can't"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49156682",
+          "signal": "Ask HN: Who wants to be hired? (August 2026)"
         }
       ],
-      "content_ideas": [
-        "How to Use Claude AI for Your Business",
-        "Claude AI: A New Tool for Content Creators",
-        "5 Ways to Leverage Claude AI for Better Productivity"
-      ]
+      "content_ideas": []
     },
     {
-      "name": "AI Trading",
+      "name": "Ask HN: Who is hiring? (August 2026)",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews",
+        "linkedin_inferred"
       ],
-      "what_it_is": "Using AI for trading.",
-      "audience_angle": "Create a profitable trading strategy with AI.",
-      "linkedin_angle": "Discover how AI can help you create a successful trading strategy.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49156683",
+          "signal": "Ask HN: Who is hiring? (August 2026)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI trading tools have affiliate programs."
+        "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+trading",
-          "signal": "AI trading"
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/shieldstral/",
+          "signal": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation"
         }
       ],
-      "content_ideas": [
-        "How to Create a Profitable Trading Strategy with AI",
-        "10 AI Trading Tools You Can Use Today",
-        "AI Trading: A New Era in Finance"
-      ]
+      "content_ideas": []
+    },
+    {
+      "name": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+          "signal": "Keyv and friends compromised in active Shai-Hulud supply chain attack"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
+          "signal": "AI's debt binge can't last, hidden borrowing reaches $1.65T"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AirLLM 70B inference with single 4GB GPU",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/lyogavin/airllm",
+          "signal": "AirLLM 70B inference with single 4GB GPU"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI fuels more than half of cybercrime in Africa as scams surge – Inter",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+          "signal": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The AI Productivity Gap",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
+          "signal": "The AI Productivity Gap"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The AI bubble is popping; we just don't know it yet",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
+          "signal": "The AI bubble is popping; we just don't know it yet"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The AI Demand Bubble",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wheresyoured.at/the-ai-demand-bubble/",
+          "signal": "The AI Demand Bubble"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": ""
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "10 Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new AI tool called Claude.",
-      "audience_angle": "Explore the capabilities of Claude AI.",
-      "linkedin_angle": "Discover how Claude AI can enhance your professional workflow.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its tools."
-      },
-      "sources": [
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
-          "signal": "I tried Claude but I just can't"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude AI for Your Business",
-        "Claude AI: A New Tool for Content Creators",
-        "5 Ways to Leverage Claude AI for Better Productivity"
-      ]
-    },
-    {
-      "name": "ChatGPT Live Voice",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new live voice feature for ChatGPT.",
-      "audience_angle": "Experience the power of live voice with ChatGPT's latest feature.",
-      "linkedin_angle": "Discover how ChatGPT Live Voice can revolutionize your professional communication.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfrbi5/israel_pays_trumps_excampaign_chief_465m_to_shape/",
+          "signal": "Israel Pays Trump's Ex-Campaign Chief $46.5M to Shape What ChatGPT Says About Gaza"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkooo/meet_my_human_let_your_chatgpt_introduce_you/",
+          "signal": "Meet My Human: Let Your ChatGPT Introduce You"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfbtla/my_best_finding_with_chatgpt_was/",
+          "signal": "My best finding with chatGPT was..."
+        },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
           "signal": "Have you tried ChatGPT's new Live Voice? It's crazy realistic."
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Live Voice for Your Business",
-        "ChatGPT Live Voice: A New Era in Communication",
-        "5 Ways to Leverage ChatGPT Live Voice for Better Customer Service"
-      ]
-    }
-  ],
-  "pain_points": [
-    {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
-      "signal_strength": 6,
-      "sources": [
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfic6l/permanently_lost_my_chatgpt_account_and_years_of/",
+          "signal": "Permanently lost my ChatGPT account and years of work , still waiting on Privacy Team for my data"
         }
       ],
-      "content_opportunity": "How to Overcome Claude Usage/Token Limits"
+      "content_ideas": []
     },
     {
-      "problem": "ChatGPT writing style issues",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 5,
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfdp53/is_anyones_chatgpt_writing_style_lately_piss_them/"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49156682",
+          "signal": "Ask HN: Who wants to be hired? (August 2026)"
         }
       ],
-      "content_opportunity": "How to Fix ChatGPT Writing Style Issues"
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/shieldstral/",
+          "signal": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation"
+        }
+      ],
+      "content_ideas": []
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "pain_points": [],
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
