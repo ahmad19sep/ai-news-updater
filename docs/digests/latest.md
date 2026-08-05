@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
    https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVlrOTJhRHRmOFI1V2xvRjV4bXZ1SC1yQWtLeTljV2VMR1BEcmtHZzcyWHFSdk5FUXUzUFZHSHZvSHNPYURYeUxoVkJUalFBbHZwZWxoSFBXeFo3SFBXLUdBM1BzSnNWd3NfUl9LMndSWFV2WUtrV3BmaXQzaHF1UHZXMEtTV0l5TlBTUEFzakNqc1k?oc=5
 6. **Assuta, Microsoft develop AI medical assistant to reduce relieve doctors' documentation tasks - The Jerusalem Post** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zTWtuVm9IVGhwTDhkLVhRck13OHpnbmpRYU95UlNpZVZuLTcyNXBjYTdJYkxnUDRUVkNDWkJaZXk5cnVnM1luUWYyQU5wOEJSS2dZZUtrcDNCNjRVSUV5LXc0alprTXc?oc=5
-7. **Doctors need an AI model they can understand, says researcher - Medical Xpress** — science angle
-   https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HWkllVzZQYjNrbG5ScVFEaFlhT2FFLVU3NFdIWTdiQk5wM2lyUWdVcDhzMUM1UmFTX1VYTUtrWGduX2cwM2hKY2ZESFQzZUdvb3lKa2d2cXM1QnZySV9GQlhMNU4?oc=5
-8. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
+7. **AI-powered tool Claimable helps patients fight insurance claim denials - WABE** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHc0aUNOZEJoOEY0WmtzNWZPUm5CRHBkUXEzcjk0bkFCbzJPcWppb3A4eGFCRHdvdjNMUWlBUmgyc2k1MklZLTdtWmtjUGdHc0wwclJDRGdrT2VsU0dTY29JNGhIcGw0MElKNnVsRF9DRVRXd2FSWDBwaFpaZlFQNHdOTkpObkpwZzZpS3dKVC1rZGt4bVFN?oc=5
+8. **Will AI take your job? From cashiers to doctors, which professions face the biggest risk - The Times of India** — science angle
+   https://news.google.com/rss/articles/CBMiggJBVV95cUxOTjdpS216UVFKaXBJVXBlWUY3clNGWUFtYnZBRHo2TTJDLU5YeXlXVTJRQ3RqdmREUmxMek9QaWM4eWY2VGdCeFFGVXVTMFpKbVF1WXhlbHJGNWgybjg5VnRfVGFXU2QxNFRtdmIybmRVeW5UaG1iVWJxeU5xNEM3RXFLaGNoQlJOVTRIZENkLVVkQ3AtRkF6NU9mTzVlLTFXRU9fcUZfR3lfNk9JT1B3ZUdNM0VTb0YzM19qSXgwQnJyMjFacUNHOS1IQVpQYnpRbnotV2l1UDBnMmpJUGFpbmlIbzNsVjFDMVhSSTdoSm93aDNXNFFPYzJtTE9NSnpWcFHSAYcCQVVfeXFMTVJ2V0UwNXRLRkZERjVGRmpPcXpRMkVUNmpfUlQxeXdiTUc0a0k1RXVGVnRVcFEtckV5ejFsMFlKXzl2bEtQZUdLdjh6LTJoclZTa0czZGtQMVU1LTkwU2dyQkRLNW1nSlZBOUFUbWxudEd2cnppenhKbDZ0Sk94OW9PdDAwUkYwZnNHQmdXZ0xSUVVHOE85ZEJqbnNDZm5UWnEzSExhbUdqa3lXbExfLXR0cU4tcFMwSWp1NXRad0pYRjlGc0l1ZE5qQlE5dUIxWDBpUEJDVFBRZXlwRUdmQ3h6R1l0Si0yR29lTXdFMzZubzFSRGdNVmt5emRfZ3REaGJ6UEhiY00?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk** — Sam Altman News — Score 103
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
 - **AI medical scribe consent raises patient rights concerns - New Atlas** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVlrOTJhRHRmOFI1V2xvRjV4bXZ1SC1yQWtLeTljV2VMR1BEcmtHZzcyWHFSdk5FUXUzUFZHSHZvSHNPYURYeUxoVkJUalFBbHZwZWxoSFBXeFo3SFBXLUdBM1BzSnNWd3NfUl9LMndSWFV2WUtrV3BmaXQzaHF1UHZXMEtTV0l5TlBTUEFzakNqc1k?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3236
+- Total stories tracked: 3214
 - Most active topic: models
 - Busiest category: AI General News
 
