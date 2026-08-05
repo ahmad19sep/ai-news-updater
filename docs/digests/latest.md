@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
    https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
 7. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
    https://www.reuters.com/world/asia-pacific/chinese-military-researchers-tap-us-ai-models-train-defence-systems-2026-07-31/
-8. **AI companies are shredding rare books** — Hacker News AI — Score 56.4
-   https://twitter.com/HedgieMarkets/status/2081534588485296565
-9. **Anthropic says its AI models also hacked three organizations on their own** — Engadget — Score 53
+8. **Anthropic says its AI models also hacked three organizations on their own** — Engadget — Score 53
    https://www.engadget.com/2227630/anthropic-ai-models-hacked-three-organizations-on-their-own/
-10. **What the FCC's latest rule could mean for new robot vacuums** — kcra — Score 53
+9. **What the FCC's latest rule could mean for new robot vacuums** — kcra — Score 53
    https://www.kcra.com/article/fcc-bans-new-robot-vacuums/73337299
+10. **Quisitive launches Spyglass® Guardrail to secure Microsoft 365 and govern Copilot with AI - The AI Journal** — Microsoft AI — Score 53
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxNUHV0aWRQNkxWdWIwcmNHOHRhUFVfYVl2X3NMOVFGVnIzY1hwREVkRk1idmZLbWxEUDE0VENPVWp0b0hFcnVzc0FVNHd6dTBPZGhsRUtNM1ZRb1ltNWZNUGtTSTMxYVhiQzE1WHhrYndaYm5BVktpbGVtM2wxcFN5UlJ4UWxVRzNDZFJMVGVzanV3MTktd1U0M3E5NHZza3BjUFpWZzFhVl9GaFlIV1E?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQRWxTbUFyM0VuMlIwOEU0dFFybDctdGUwOTdDUURTNHNTOWRXdDFHSVdMRkZfbjRuTXJWSHNGbVJHVUExMEp1emItUTAtWDdkTjVzWjRDVjRPRHFzMUZDVnhMQl9xb0prbmNYcW1SeHc4N1NRMUdxUFZfV0c4ZVJ5VldhTjRqV1RRRnp6QS04WXBRNk9QeGlUVjNROWt5SWZQWGh4c25NTTFHVUVnemRWYQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
 - **Medday: Ai helping doctors improve medical tests - WKMG** — https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlhZMU5rUTFsZWxHWkdIVVhudFF6S1otRU9BNEF6N2xLcGtWcTNaX2JpQkJZM0Z6MUZTZUJfQ0pRbkRDRExiOEFidU9GN05BSkxFR01LX0NSY3JsNGZQUTNWZlFpN21UOWJZSUpSa1B2VXBaQnQ1UjdFejhqOGRIMFR2V1I0RFI4WW03M2RvUHZwV2VQQ2RVdkt6N1hlWEZ1?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3233
+- Total stories tracked: 3172
 - Most active topic: models
 - Busiest category: AI General News
 
