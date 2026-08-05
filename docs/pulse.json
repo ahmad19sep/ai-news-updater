@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:34:40.910978+00:00",
+  "generated_at": "2026-08-05T19:56:47.671027+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 41,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,15 +23,15 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "audience_angle": "Create stunning images with the latest update to ChatGPT.",
       "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT Images 2.0"
       },
       "sources": [
         {
@@ -41,40 +41,145 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide",
-        "Unlocking the Potential of ChatGPT Images 2.0 for Business"
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "AI Video Generators",
+      "name": "Google Earth AI Tool",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Tools that use AI to generate videos.",
-      "audience_angle": "Create professional-looking videos with AI video generators.",
-      "linkedin_angle": "Discover how AI video generators can streamline your video content creation.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "A new AI-powered tool for Google Earth that was recently launched and then rolled back.",
+      "audience_angle": "Discover what happened to Google Earth's AI tool and what it means for you.",
+      "linkedin_angle": "Learn about the implications of Google Earth's AI tool launch and rollback on the industry.",
+      "local_relevance": 3,
+      "pillar": "news",
+      "best_format": "long_form",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI video generators offer affiliate programs."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Google Earth AI Tool"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
-          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues"
+          "url": "https://www.youtube.com/watch?v=HI4WrNoz8u4",
+          "signal": "Google rolls back satellite image AI tool in less than 24 hours after launch"
         }
       ],
       "content_ideas": [
-        "Top 5 AI Video Generators for Beginners",
-        "How to Create a Viral AI Video in Minutes",
-        "AI Video Generator Tutorial: From Script to Final Product"
+        "The Rise and Fall of Google Earth's AI Tool",
+        "What Google Earth's AI Tool Launch Means for the Future of Mapping",
+        "The Implications of Google Earth's AI Tool Rollback"
+      ]
+    },
+    {
+      "name": "AI Agents for Automation",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Using AI agents to automate tasks and increase productivity.",
+      "audience_angle": "Learn how AI agents can automate tasks and change your life.",
+      "linkedin_angle": "Discover how AI agents can streamline your workflow and boost productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Affiliate programs available for AI agent automation tools"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TL8V41Ea6oM",
+          "signal": "4 AI Agents To Automate 99% Of Your Life"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.hyperprobe.co",
+          "signal": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Task Automation",
+        "The Benefits of AI Agents for Business Productivity",
+        "AI Agents for Personal Productivity: A Guide"
+      ]
+    },
+    {
+      "name": "ChatGPT in Education",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "reddit"
+      ],
+      "what_it_is": "Using ChatGPT as a tool for learning and education.",
+      "audience_angle": "Discover how ChatGPT can enhance your learning experience.",
+      "linkedin_angle": "Explore the potential of ChatGPT in education and its implications for the industry.",
+      "local_relevance": 7,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT in education"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GJlJ7eRYIEk",
+          "signal": "Students తప్పక తెలుసుకోవాల్సిన 6 ChatGPT Tricks!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vg603o/what_is_the_most_useful_way_chatgpt_has_actually/",
+          "signal": "What is the most useful way ChatGPT has actually improved your daily life?"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Homework Help",
+        "The Benefits of ChatGPT in Education",
+        "ChatGPT for Learning: A Guide for Students"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using AI to generate videos for various purposes.",
+      "audience_angle": "Learn how to create stunning videos with AI.",
+      "linkedin_angle": "Discover the potential of AI video generation for business and marketing.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Affiliate programs available for AI video generation tools"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
+          "signal": "How To Create Long Ghibli Style AI Videos FREE"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning AI-Generated Videos",
+        "The Future of Video Creation: AI Generation",
+        "AI Video Generation for Business: A Guide"
       ]
     },
     {
@@ -84,16 +189,16 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using AI to earn money through side hustles.",
-      "audience_angle": "Make money with AI-powered side hustles.",
-      "linkedin_angle": "Explore AI-driven side hustles to boost your income.",
-      "local_relevance": 7,
+      "what_it_is": "Using AI to create and manage side hustles.",
+      "audience_angle": "Learn how to use AI to create a successful side hustle.",
+      "linkedin_angle": "Discover the potential of AI for entrepreneurship and side hustles.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI side hustles involve affiliate marketing."
+        "note": "Affiliate programs available for AI side hustle tools"
       },
       "sources": [
         {
@@ -103,9 +208,9 @@
         }
       ],
       "content_ideas": [
-        "How to Start an AI-Powered Side Hustle Today",
-        "Top AI Side Hustles for Beginners",
-        "AI Side Hustle Success Stories: Real People, Real Results"
+        "How to Use AI for Side Hustle Ideas",
+        "The Benefits of AI for Side Hustles",
+        "AI Side Hustles for Beginners: A Guide"
       ]
     }
   ],
@@ -118,15 +223,15 @@
         "reddit"
       ],
       "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "audience_angle": "Create stunning images with the latest update to ChatGPT.",
       "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT Images 2.0"
       },
       "sources": [
         {
@@ -136,46 +241,46 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide",
-        "Unlocking the Potential of ChatGPT Images 2.0 for Business"
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Art with ChatGPT Images 2.0",
+        "The Future of Image Generation: ChatGPT Images 2.0 Review"
       ]
     },
     {
-      "name": "AI Video Generators",
+      "name": "Google Earth AI Tool",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Tools that use AI to generate videos.",
-      "audience_angle": "Create professional-looking videos with AI video generators.",
-      "linkedin_angle": "Discover how AI video generators can streamline your video content creation.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "A new AI-powered tool for Google Earth that was recently launched and then rolled back.",
+      "audience_angle": "Discover what happened to Google Earth's AI tool and what it means for you.",
+      "linkedin_angle": "Learn about the implications of Google Earth's AI tool launch and rollback on the industry.",
+      "local_relevance": 3,
+      "pillar": "news",
+      "best_format": "long_form",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI video generators offer affiliate programs."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Google Earth AI Tool"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
-          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues"
+          "url": "https://www.youtube.com/watch?v=HI4WrNoz8u4",
+          "signal": "Google rolls back satellite image AI tool in less than 24 hours after launch"
         }
       ],
       "content_ideas": [
-        "Top 5 AI Video Generators for Beginners",
-        "How to Create a Viral AI Video in Minutes",
-        "AI Video Generator Tutorial: From Script to Final Product"
+        "The Rise and Fall of Google Earth's AI Tool",
+        "What Google Earth's AI Tool Launch Means for the Future of Mapping",
+        "The Implications of Google Earth's AI Tool Rollback"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits",
+      "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
@@ -184,8 +289,20 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vg2eek/chatgpt_keeps_sending_me_email_reminders_about/"
         }
       ],
-      "content_opportunity": "Workaround for ChatGPT usage limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits"
+    },
+    {
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators and marketers",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack"
+        }
+      ],
+      "content_opportunity": "How to Detect and Prevent AI-Generated Content"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0, a powerful tool for creating stunning images with AI."
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
