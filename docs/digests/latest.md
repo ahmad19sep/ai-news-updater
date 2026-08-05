@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 28 Jul 2026 to 04 Aug 2026
+# 🗞️ AI THIS WEEK — 29 Jul 2026 to 05 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
 - **AI is now very good at diagnosing health problems, but doctors are still better at weighing treatment options - themercury.com** — https://news.google.com/rss/articles/CBMiggJBVV95cUxPandUckVQVUFKVTlWLVVNWGJCQXpYOVdtNXVpOFRyV0RSbWUwS3ZxbzlZTTE0cUJxckU4VnZia2h0MkZYempxY0RGX2Q3N3p0UUtYUl9Bam9lUkVGZlhTUENZT3dzOUl4Vjd6bWZQbnczSnVnQi1PZm1INl94ZFE5ZlRmM204NTRNaTIxZ05XbGwxb3pEOURIaFlLN3p4dmZBb1RxeU1LcTNrajNSVFdfTU1UZ29uU1pjSUsxbkM3ZjdrVmVNV09RUzhrT3AxRWhoX28wX1l6SzR4WmlBdFBBR28xV3ZyY3otTUZCZ2JMSFBhZXdDOWNRbWEtbkkzakdBaEE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3263
+- Total stories tracked: 3323
 - Most active topic: models
 - Busiest category: AI General News
 
