@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T09:07:33.822500+00:00",
+  "generated_at": "2026-08-05T14:34:40.910978+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -41,104 +41,71 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Content Creation",
-        "ChatGPT Images 2.0 Tutorial: Generate Stunning Images with Ease",
-        "5 Ways to Monetize Your ChatGPT Images 2.0 Creations"
+        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide",
+        "Unlocking the Potential of ChatGPT Images 2.0 for Business"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "AI Video Generators",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that creates videos based on text prompts or other inputs.",
-      "audience_angle": "Create engaging videos with minimal effort using AI video generation.",
-      "linkedin_angle": "Learn how AI video generation can streamline your video content creation process.",
-      "local_relevance": 8,
+      "what_it_is": "Tools that use AI to generate videos.",
+      "audience_angle": "Create professional-looking videos with AI video generators.",
+      "linkedin_angle": "Discover how AI video generators can streamline your video content creation.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for creators."
+        "note": "Many AI video generators offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
-          "signal": "Make AI Videos FREE"
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues"
         }
       ],
       "content_ideas": [
-        "How to Create Viral AI Videos on YouTube",
-        "AI Video Generation: A Step-by-Step Guide",
-        "Monetizing Your AI-Generated Videos on YouTube"
+        "Top 5 AI Video Generators for Beginners",
+        "How to Create a Viral AI Video in Minutes",
+        "AI Video Generator Tutorial: From Script to Final Product"
       ]
     },
     {
-      "name": "Claude AI",
-      "category": "tool_launch",
+      "name": "AI Side Hustles",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "Claude AI is a conversational AI tool that can be used for various tasks.",
-      "audience_angle": "Explore the capabilities of Claude AI and how it can benefit your work or daily life.",
-      "linkedin_angle": "Discover how Claude AI can enhance your productivity and workflow.",
-      "local_relevance": 6,
+      "what_it_is": "Using AI to earn money through side hustles.",
+      "audience_angle": "Make money with AI-powered side hustles.",
+      "linkedin_angle": "Explore AI-driven side hustles to boost your income.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program for its users."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
-          "signal": "I tried Claude but I just can't"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "Claude AI vs. ChatGPT: Which is Better for You?",
-        "10 Creative Ways to Use Claude AI for Your Business"
-      ]
-    },
-    {
-      "name": "AI Agents for Automation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI agents are programs that can automate tasks and processes using artificial intelligence.",
-      "audience_angle": "Learn how AI agents can automate repetitive tasks and free up your time.",
-      "linkedin_angle": "Discover the potential of AI agents in streamlining business operations and increasing productivity.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI agent tools often have affiliate programs for developers and users."
+        "note": "Many AI side hustles involve affiliate marketing."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TL8V41Ea6oM",
-          "signal": "4 AI Agents To Automate 99% Of Your Life"
+          "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
+          "signal": "10 Claude AI Side Hustles That Can Pay A Full-Time Income (Ranked List)"
         }
       ],
       "content_ideas": [
-        "Introduction to AI Agents: What You Need to Know",
-        "Building Your First AI Agent: A Step-by-Step Guide",
-        "How AI Agents Can Revolutionize Your Workflow"
+        "How to Start an AI-Powered Side Hustle Today",
+        "Top AI Side Hustles for Beginners",
+        "AI Side Hustle Success Stories: Real People, Real Results"
       ]
     }
   ],
@@ -150,16 +117,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program for content creators."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -169,57 +136,56 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Content Creation",
-        "ChatGPT Images 2.0 Tutorial: Generate Stunning Images with Ease",
-        "5 Ways to Monetize Your ChatGPT Images 2.0 Creations"
+        "How to Use ChatGPT Images 2.0 for Stunning Visuals",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide",
+        "Unlocking the Potential of ChatGPT Images 2.0 for Business"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "AI Video Generators",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit",
         "youtube"
       ],
-      "what_it_is": "Claude AI is a conversational AI tool that can be used for various tasks.",
-      "audience_angle": "Explore the capabilities of Claude AI and how it can benefit your work or daily life.",
-      "linkedin_angle": "Discover how Claude AI can enhance your productivity and workflow.",
+      "what_it_is": "Tools that use AI to generate videos.",
+      "audience_angle": "Create professional-looking videos with AI video generators.",
+      "linkedin_angle": "Discover how AI video generators can streamline your video content creation.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program for its users."
+        "note": "Many AI video generators offer affiliate programs."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
-          "signal": "I tried Claude but I just can't"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues"
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "Claude AI vs. ChatGPT: Which is Better for You?",
-        "10 Creative Ways to Use Claude AI for Your Business"
+        "Top 5 AI Video Generators for Beginners",
+        "How to Create a Viral AI Video in Minutes",
+        "AI Video Generator Tutorial: From Script to Final Product"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude AI users",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vg2eek/chatgpt_keeps_sending_me_email_reminders_about/"
         }
       ],
-      "content_opportunity": "Workarounds for Claude AI token limits and how to optimize usage."
+      "content_opportunity": "Workaround for ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0, due to its rising momentum and potential for practical application in content creation."
+  "tool_of_week_candidate": "ChatGPT Images 2.0, a powerful tool for creating stunning images with AI."
 }
