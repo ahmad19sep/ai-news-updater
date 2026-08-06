@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:56:47.671027+00:00",
+  "generated_at": "2026-08-06T03:41:23.607380+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,129 +9,104 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 41,
+      "hackernews": 43,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Voice 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest update to ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT Voice 2.0 is an updated version of the ChatGPT voice model.",
+      "audience_angle": "You can use ChatGPT Voice 2.0 to create realistic voiceovers and audio content.",
+      "linkedin_angle": "Upgrade your content creation skills with ChatGPT Voice 2.0 and take your business to the next level.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT Images 2.0"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
-      ]
-    },
-    {
-      "name": "Google Earth AI Tool",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new AI-powered tool for Google Earth that was recently launched and then rolled back.",
-      "audience_angle": "Discover what happened to Google Earth's AI tool and what it means for you.",
-      "linkedin_angle": "Learn about the implications of Google Earth's AI tool launch and rollback on the industry.",
-      "local_relevance": 3,
-      "pillar": "news",
-      "best_format": "long_form",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Google Earth AI Tool"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its Pro version."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HI4WrNoz8u4",
-          "signal": "Google rolls back satellite image AI tool in less than 24 hours after launch"
+          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
+          "signal": "ChatGPT Voice 2.0 + Codex is INSANE (endless possibilities)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vgroos/chatgpt_voice_can_hear_and_do_things_i_genuinely/",
+          "signal": "ChatGPT Voice can hear and do things I genuinely didn’t think it could."
         }
       ],
       "content_ideas": [
-        "The Rise and Fall of Google Earth's AI Tool",
-        "What Google Earth's AI Tool Launch Means for the Future of Mapping",
-        "The Implications of Google Earth's AI Tool Rollback"
+        "How to Use ChatGPT Voice 2.0 for Content Creation",
+        "ChatGPT Voice 2.0: A Game-Changer for Podcasters and YouTubers",
+        "Maximizing ChatGPT Voice 2.0 for Business and Marketing"
       ]
     },
     {
-      "name": "AI Agents for Automation",
+      "name": "AI Video Generation",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "Using AI agents to automate tasks and increase productivity.",
-      "audience_angle": "Learn how AI agents can automate tasks and change your life.",
-      "linkedin_angle": "Discover how AI agents can streamline your workflow and boost productivity.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create stunning videos without extensive video production experience.",
+      "linkedin_angle": "Stay ahead of the competition by leveraging AI video generation for your business marketing needs.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Affiliate programs available for AI agent automation tools"
+        "note": "Several AI video generation tools offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TL8V41Ea6oM",
-          "signal": "4 AI Agents To Automate 99% Of Your Life"
+          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
+          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.hyperprobe.co",
-          "signal": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vg9y80/eu_icons_for_ai_generated_content/",
+          "signal": "EU icons for AI generated content"
         }
       ],
       "content_ideas": [
-        "How to Use AI Agents for Task Automation",
-        "The Benefits of AI Agents for Business Productivity",
-        "AI Agents for Personal Productivity: A Guide"
+        "How to Create Stunning AI-Generated Videos",
+        "The Future of Video Production: AI Video Generation",
+        "AI Video Generation for Business: A Beginner's Guide"
       ]
     },
     {
-      "name": "ChatGPT in Education",
+      "name": "ChatGPT for Education",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube",
         "reddit"
       ],
-      "what_it_is": "Using ChatGPT as a tool for learning and education.",
-      "audience_angle": "Discover how ChatGPT can enhance your learning experience.",
-      "linkedin_angle": "Explore the potential of ChatGPT in education and its implications for the industry.",
+      "what_it_is": "ChatGPT can be used in educational settings to assist with learning and teaching.",
+      "audience_angle": "You can use ChatGPT to enhance your learning experience and improve your academic performance.",
+      "linkedin_angle": "Discover how ChatGPT can revolutionize education and improve student outcomes.",
       "local_relevance": 7,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT in education"
+        "note": "No direct affiliate programs are available for ChatGPT in education."
       },
       "sources": [
         {
@@ -141,140 +116,214 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vg603o/what_is_the_most_useful_way_chatgpt_has_actually/",
-          "signal": "What is the most useful way ChatGPT has actually improved your daily life?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vg7fui/ai_danger_explained_for_5yearolds/",
+          "signal": "AI danger explained for 5-year-olds"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Homework Help",
-        "The Benefits of ChatGPT in Education",
-        "ChatGPT for Learning: A Guide for Students"
+        "How to Use ChatGPT for Learning and Teaching",
+        "The Benefits and Challenges of Using ChatGPT in Education",
+        "ChatGPT for Students: A Guide to Improving Academic Performance"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "AI Trading and Investing",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Using AI to generate videos for various purposes.",
-      "audience_angle": "Learn how to create stunning videos with AI.",
-      "linkedin_angle": "Discover the potential of AI video generation for business and marketing.",
-      "local_relevance": 6,
+      "what_it_is": "AI trading and investing involve using artificial intelligence to make investment decisions.",
+      "audience_angle": "You can use AI trading and investing to potentially increase your investment returns and minimize risk.",
+      "linkedin_angle": "Stay ahead of the market by leveraging AI trading and investing strategies.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Affiliate programs available for AI video generation tools"
+        "note": "Several AI trading and investing platforms offer affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
-          "signal": "How To Create Long Ghibli Style AI Videos FREE"
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+to+trade+stocks",
+          "signal": "how to use ai to trade stocks"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vggqrj/the_google_bug_hunters_team_admitted_to_me_that/",
+          "signal": "The Google Bug Hunters Team admitted to me that they cannot fundamentally patch prompt engineering bypasses in Gemini"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning AI-Generated Videos",
-        "The Future of Video Creation: AI Generation",
-        "AI Video Generation for Business: A Guide"
+        "How to Use AI for Trading and Investing",
+        "The Benefits and Risks of AI Trading and Investing",
+        "AI Trading and Investing Strategies for Beginners"
       ]
     },
     {
-      "name": "AI Side Hustles",
-      "category": "use_case",
+      "name": "Mistral's Shieldstral",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Using AI to create and manage side hustles.",
-      "audience_angle": "Learn how to use AI to create a successful side hustle.",
-      "linkedin_angle": "Discover the potential of AI for entrepreneurship and side hustles.",
-      "local_relevance": 8,
+      "what_it_is": "Mistral's Shieldstral is a 3B open-weights model for multimodal moderation.",
+      "audience_angle": "You can use Mistral's Shieldstral to improve content moderation and safety in your online communities.",
+      "linkedin_angle": "Stay ahead of the curve with Mistral's Shieldstral and enhance your content moderation capabilities.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Affiliate programs available for AI side hustle tools"
+        "affiliate_likely": false,
+        "note": "No direct affiliate programs are available for Mistral's Shieldstral."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
-          "signal": "10 Claude AI Side Hustles That Can Pay A Full-Time Income (Ranked List)"
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/shieldstral/",
+          "signal": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Side Hustle Ideas",
-        "The Benefits of AI for Side Hustles",
-        "AI Side Hustles for Beginners: A Guide"
+        "Introduction to Mistral's Shieldstral",
+        "How to Use Mistral's Shieldstral for Content Moderation",
+        "The Benefits of Using Mistral's Shieldstral"
+      ]
+    },
+    {
+      "name": "Prime Agent",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Prime Agent is a self-improving RLM agent.",
+      "audience_angle": "You can use Prime Agent to improve your decision-making and problem-solving skills.",
+      "linkedin_angle": "Discover how Prime Agent can enhance your productivity and efficiency.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No direct affiliate programs are available for Prime Agent."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.primeintellect.ai/blog/prime-agent",
+          "signal": "Prime Agent: A self-improving RLM agent"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Prime Agent",
+        "How to Use Prime Agent for Decision-Making and Problem-Solving",
+        "The Benefits of Using Prime Agent"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Voice 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest update to ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT Voice 2.0 is an updated version of the ChatGPT voice model.",
+      "audience_angle": "You can use ChatGPT Voice 2.0 to create realistic voiceovers and audio content.",
+      "linkedin_angle": "Upgrade your content creation skills with ChatGPT Voice 2.0 and take your business to the next level.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for ChatGPT Images 2.0"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Social Media",
-        "Creating Art with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
-      ]
-    },
-    {
-      "name": "Google Earth AI Tool",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "A new AI-powered tool for Google Earth that was recently launched and then rolled back.",
-      "audience_angle": "Discover what happened to Google Earth's AI tool and what it means for you.",
-      "linkedin_angle": "Learn about the implications of Google Earth's AI tool launch and rollback on the industry.",
-      "local_relevance": 3,
-      "pillar": "news",
-      "best_format": "long_form",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Google Earth AI Tool"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its Pro version."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HI4WrNoz8u4",
-          "signal": "Google rolls back satellite image AI tool in less than 24 hours after launch"
+          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
+          "signal": "ChatGPT Voice 2.0 + Codex is INSANE (endless possibilities)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vgroos/chatgpt_voice_can_hear_and_do_things_i_genuinely/",
+          "signal": "ChatGPT Voice can hear and do things I genuinely didn’t think it could."
         }
       ],
       "content_ideas": [
-        "The Rise and Fall of Google Earth's AI Tool",
-        "What Google Earth's AI Tool Launch Means for the Future of Mapping",
-        "The Implications of Google Earth's AI Tool Rollback"
+        "How to Use ChatGPT Voice 2.0 for Content Creation",
+        "ChatGPT Voice 2.0: A Game-Changer for Podcasters and YouTubers",
+        "Maximizing ChatGPT Voice 2.0 for Business and Marketing"
+      ]
+    },
+    {
+      "name": "Prime Agent",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Prime Agent is a self-improving RLM agent.",
+      "audience_angle": "You can use Prime Agent to improve your decision-making and problem-solving skills.",
+      "linkedin_angle": "Discover how Prime Agent can enhance your productivity and efficiency.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No direct affiliate programs are available for Prime Agent."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.primeintellect.ai/blog/prime-agent",
+          "signal": "Prime Agent: A self-improving RLM agent"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Prime Agent",
+        "How to Use Prime Agent for Decision-Making and Problem-Solving",
+        "The Benefits of Using Prime Agent"
+      ]
+    },
+    {
+      "name": "Mistral's Shieldstral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Mistral's Shieldstral is a 3B open-weights model for multimodal moderation.",
+      "audience_angle": "You can use Mistral's Shieldstral to improve content moderation and safety in your online communities.",
+      "linkedin_angle": "Stay ahead of the curve with Mistral's Shieldstral and enhance your content moderation capabilities.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No direct affiliate programs are available for Mistral's Shieldstral."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/shieldstral/",
+          "signal": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Mistral's Shieldstral",
+        "How to Use Mistral's Shieldstral for Content Moderation",
+        "The Benefits of Using Mistral's Shieldstral"
       ]
     }
   ],
@@ -286,23 +335,23 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vg2eek/chatgpt_keeps_sending_me_email_reminders_about/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vgkb04/i_upgraded_to_pro_last_week_reached_my_limit_and/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits"
+      "content_opportunity": "How to Work Around ChatGPT Usage Limits and Token Limits"
     },
     {
-      "problem": "AI-generated content detection",
-      "who_affected": "Content creators and marketers",
+      "problem": "Difficulty in using AI for content creation",
+      "who_affected": "Content creators",
       "signal_strength": 5,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+content+creation"
         }
       ],
-      "content_opportunity": "How to Detect and Prevent AI-Generated Content"
+      "content_opportunity": "A Beginner's Guide to Using AI for Content Creation"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Voice 2.0"
 }
