@@ -35,16 +35,16 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
 5. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
-6. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 60
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
-7. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
-   https://www.reuters.com/world/asia-pacific/chinese-military-researchers-tap-us-ai-models-train-defence-systems-2026-07-31/
-8. **Google DeepMind Reshuffles Leadership as Demis Hassabis Steps Down, Jeff Dean Exits - Techeconomy** — Demis Hassabis News — Score 56
-   https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3EyQ1ZHbHUyd1N4R015M3FpNGpJVXRwa05UNVMzTHVxYnZ4TTFRNzZYUUw0Z0JHOGFMWkplY3BPSnpMLTlHaGRVRGdwWXFGS3hrQldfSWlTdE9pUkEzdFNUTmZRR1VQZUlkTURuWE1heDhmVjZFdnl3Rk8xcG5WVV9fcS1ZMHl2Ui00Rw?oc=5
-9. **Anthropic says its AI models also hacked three organizations on their own** — Engadget — Score 53
-   https://www.engadget.com/2227630/anthropic-ai-models-hacked-three-organizations-on-their-own/
-10. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 53
+6. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 63
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
+7. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 61
+   https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
+8. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
+   https://www.reuters.com/world/asia-pacific/chinese-military-researchers-tap-us-ai-models-train-defence-systems-2026-07-31/
+9. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 57
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
+10. **Google DeepMind CEO Demis Hassabis is stepping down - Axios** — Demis Hassabis News — Score 56
+   https://news.google.com/rss/articles/CBMidEFVX3lxTE1OaExwUzJFX0xDWmVYTWJ0ZlBxcHB0Nm96cUZfcTY2dFNqZi13aF84QXh3c3VFLTdvRTNwLW1RVU9jZ0Y0ZjdWSlRXZnRoaUJiLU9udl9fQTBkX2JMemN4ZURpbEo3RXJndW10X3hsWWtydFB0?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3196
+- Total stories tracked: 3189
 - Most active topic: models
 - Busiest category: AI General News
 
