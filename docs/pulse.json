@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T09:07:53.608846+00:00",
+  "generated_at": "2026-08-06T14:36:26.602086+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,136 +9,30 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 44,
+      "hackernews": 42,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Voice",
+      "name": "ChatGPT Voice 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Voice is a feature that allows users to interact with ChatGPT using voice commands.",
-      "audience_angle": "You can now use ChatGPT with just your voice, making it easier to get answers and complete tasks.",
-      "linkedin_angle": "Improve your productivity with ChatGPT Voice, a game-changer for professionals and individuals alike.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its Pro version."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vgroos/chatgpt_voice_can_hear_and_do_things_i_genuinely/",
-          "signal": "ChatGPT Voice can hear and do things I genuinely didn’t think it could."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
-          "signal": "ChatGPT Voice 2.0 + Codex is INSANE (endless possibilities)"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT Voice for Daily Tasks",
-        "ChatGPT Voice: A Game-Changer for Productivity",
-        "Unlocking the Potential of ChatGPT Voice"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "technique",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation is a technique used to create videos using artificial intelligence.",
-      "audience_angle": "You can now create stunning videos using AI, without needing extensive video editing skills.",
-      "linkedin_angle": "Leverage AI video generation to enhance your marketing and branding efforts.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT Voice 2.0 is an advanced version of the ChatGPT voice model.",
+      "audience_angle": "You can use ChatGPT Voice 2.0 to create voice-activated applications and automate tasks.",
+      "linkedin_angle": "Improve your productivity with ChatGPT Voice 2.0",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
-          "signal": "How To Create Long Ghibli Style AI Videos FREE"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1b1CVpf5hCQ",
-          "signal": "Make AI Videos FREE Long (15 Mins) + Realistic + Dialogues"
-        }
-      ],
-      "content_ideas": [
-        "Creating Engaging Videos with AI: A Step-by-Step Guide",
-        "The Future of Video Content: AI Generation and Beyond",
-        "AI Video Generation: A New Era for Content Creators"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude AI is an artificial intelligence tool designed to assist with various tasks.",
-      "audience_angle": "You can now use Claude AI to streamline your workflow and increase productivity.",
-      "linkedin_angle": "Discover how Claude AI can help you automate tasks and improve efficiency.",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program for its users."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
-          "signal": "10 Claude AI Side Hustles That Can Pay A Full-Time Income (Ranked List)"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "Claude AI: A Powerful Tool for Entrepreneurs and Professionals",
-        "Unlocking the Potential of Claude AI for Your Business"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Voice",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Voice is a feature that allows users to interact with ChatGPT using voice commands.",
-      "audience_angle": "You can now use ChatGPT with just your voice, making it easier to get answers and complete tasks.",
-      "linkedin_angle": "Improve your productivity with ChatGPT Voice, a game-changer for professionals and individuals alike.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its Pro version."
+        "note": "ChatGPT has an affiliate program"
       },
       "sources": [
         {
@@ -153,30 +47,73 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Voice for Daily Tasks",
-        "ChatGPT Voice: A Game-Changer for Productivity",
-        "Unlocking the Potential of ChatGPT Voice"
+        "How to use ChatGPT Voice 2.0 for automation",
+        "ChatGPT Voice 2.0 vs other voice models",
+        "Creating voice-activated applications with ChatGPT Voice 2.0"
       ]
     },
     {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "AI Video Creation",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "Claude AI is an artificial intelligence tool designed to assist with various tasks.",
-      "audience_angle": "You can now use Claude AI to streamline your workflow and increase productivity.",
-      "linkedin_angle": "Discover how Claude AI can help you automate tasks and improve efficiency.",
-      "local_relevance": 4,
+      "what_it_is": "AI video creation is the process of using artificial intelligence to generate videos.",
+      "audience_angle": "You can use AI to create high-quality videos without extensive video production experience.",
+      "linkedin_angle": "Enhance your video content with AI video creation",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program for its users."
+        "note": "AI video creation tools often have affiliate programs"
       },
       "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ns1Zvj7SxX4",
+          "signal": "Long AI Video Kaise Banaye? | ChatGPT + Gemini FREE Full Course 2026"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vgjyb0/a_normal_bathroom_except_it_is_more_triggering/",
+          "signal": "A normal bathroom, except it is more triggering the longer you look"
+        }
+      ],
+      "content_ideas": [
+        "How to create AI videos for social media",
+        "AI video creation for business",
+        "Tips for using AI video creation tools"
+      ]
+    },
+    {
+      "name": "ChatGPT for Business",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT can be used for various business purposes, such as customer support and content generation.",
+      "audience_angle": "You can use ChatGPT to automate business tasks and improve productivity.",
+      "linkedin_angle": "Boost your business with ChatGPT",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vh23xl/chatgpt_plus_as_a_personal_assistant_top_tier/",
+          "signal": "ChatGPT Plus as a personal assistant/ top tier consultancy firm for my Business using Projects."
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
@@ -184,25 +121,64 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with Claude AI: A Beginner's Guide",
-        "Claude AI: A Powerful Tool for Entrepreneurs and Professionals",
-        "Unlocking the Potential of Claude AI for Your Business"
+        "How to use ChatGPT for customer support",
+        "ChatGPT for content generation",
+        "Using ChatGPT for business automation"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Voice 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Voice 2.0 is an advanced version of the ChatGPT voice model.",
+      "audience_angle": "You can use ChatGPT Voice 2.0 to create voice-activated applications and automate tasks.",
+      "linkedin_angle": "Improve your productivity with ChatGPT Voice 2.0",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vgroos/chatgpt_voice_can_hear_and_do_things_i_genuinely/",
+          "signal": "ChatGPT Voice can hear and do things I genuinely didn’t think it could."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
+          "signal": "ChatGPT Voice 2.0 + Codex is INSANE (endless possibilities)"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT Voice 2.0 for automation",
+        "ChatGPT Voice 2.0 vs other voice models",
+        "Creating voice-activated applications with ChatGPT Voice 2.0"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vgkb04/i_upgraded_to_pro_last_week_reached_my_limit_and/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits: A tutorial"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Voice"
+  "tool_of_week_candidate": "ChatGPT Voice 2.0, due to its rising momentum and potential for automation and productivity enhancement"
 }
