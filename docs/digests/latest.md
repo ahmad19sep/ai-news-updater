@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 29 Jul 2026 to 05 Aug 2026
+# 🗞️ AI THIS WEEK — 30 Jul 2026 to 06 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI CEO Sam Altman meets with lawmakers as Trump weighs AI controls - National Desk**
@@ -31,20 +31,20 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
    https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
 3. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 68
    https://www.japantimes.co.jp/business/2026/08/02/tech/ai-cyberattack-legally-responsible/
-4. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 66
-   https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
-5. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
+4. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
    https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
-6. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
+5. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
+   https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
+6. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 60
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
+7. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
    https://www.reuters.com/world/asia-pacific/chinese-military-researchers-tap-us-ai-models-train-defence-systems-2026-07-31/
-7. **Anthropic says its AI models also hacked three organizations on their own** — Engadget — Score 53
+8. **Anthropic says its AI models also hacked three organizations on their own** — Engadget — Score 53
    https://www.engadget.com/2227630/anthropic-ai-models-hacked-three-organizations-on-their-own/
-8. **Quisitive launches Spyglass® Guardrail to secure Microsoft 365 and govern Copilot with AI - The AI Journal** — Microsoft AI — Score 53
+9. **Quisitive launches Spyglass® Guardrail to secure Microsoft 365 and govern Copilot with AI - The AI Journal** — Microsoft AI — Score 53
    https://news.google.com/rss/articles/CBMirgFBVV95cUxNUHV0aWRQNkxWdWIwcmNHOHRhUFVfYVl2X3NMOVFGVnIzY1hwREVkRk1idmZLbWxEUDE0VENPVWp0b0hFcnVzc0FVNHd6dTBPZGhsRUtNM1ZRb1ltNWZNUGtTSTMxYVhiQzE1WHhrYndaYm5BVktpbGVtM2wxcFN5UlJ4UWxVRzNDZFJMVGVzanV3MTktd1U0M3E5NHZza3BjUFpWZzFhVl9GaFlIV1E?oc=5
-9. **Perplexity AI loses bid to toss Reddit lawsuit over data scraping - Reuters** — Perplexity News — Score 52
+10. **Perplexity AI loses bid to toss Reddit lawsuit over data scraping - Reuters** — Perplexity News — Score 52
    https://news.google.com/rss/articles/CBMitgFBVV95cUxObVhrM1VrbW1hT2x1Q0NrXy1jZkFWazdFNWtGN2VNV19lYnh4bXdjMnE1Ym90V3VQMDFSbTdDLTRIenM3RFFoa0psNmljMFdxODJ4U1hzcUpmZWhLUnVJcktPZ3FXamNnVTc4dFRhZ08tdjVyYlE4NVY0LXhPYU9nUUsxRWs5R3BUbE5BMllTbTE3MjdFWUp3ZVdKWmR0ZDgxYVdqYklmX2R5Z2lZTTlmN0hTdmtVdw?oc=5
-10. **Advancing the price-performance frontier with GPT-5.6** — OpenAI Blog — Score 50
-   https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
 
 ## 🧪 AI in Science Highlights
 - **Akido is expanding AI for patient intake and diagnoses across 100 clinics - Endpoints News** — https://news.google.com/rss/articles/CBMingFBVV95cUxQbzhSRW5pYjFyZFVLX0lqOFE0VzdRMXUzUmJ2LXBmTDRRNGEzWWk4bTBadWhlZ2E4X0pvVGNranBKVnd5Ry1aeThBY1BTYnIwOXFodjk1STJCSHc3a3FHNVF1SnpIcHQxVFVRdHlINjRVcHRHb3VtSVUtSGZhdE80RXV5amlleW41c0xESXI2X0NVdzkwX0ZQMnkzTC0wZw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdmlObFo2MmxiW
 - **AI medical scribe consent raises patient rights concerns - New Atlas** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVlrOTJhRHRmOFI1V2xvRjV4bXZ1SC1yQWtLeTljV2VMR1BEcmtHZzcyWHFSdk5FUXUzUFZHSHZvSHNPYURYeUxoVkJUalFBbHZwZWxoSFBXeFo3SFBXLUdBM1BzSnNWd3NfUl9LMndSWFV2WUtrV3BmaXQzaHF1UHZXMEtTV0l5TlBTUEFzakNqc1k?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3192
+- Total stories tracked: 3239
 - Most active topic: models
 - Busiest category: AI General News
 
