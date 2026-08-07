@@ -11,8 +11,8 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 2. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-3. **Assuta, Microsoft develop AI medical assistant to reduce relieve doctors' documentation tasks - The Jerusalem Post** — science angle
-   https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zTWtuVm9IVGhwTDhkLVhRck13OHpnbmpRYU95UlNpZVZuLTcyNXBjYTdJYkxnUDRUVkNDWkJaZXk5cnVnM1luUWYyQU5wOEJSS2dZZUtrcDNCNjRVSUV5LXc0alprTXc?oc=5
+3. **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — science angle
+   https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
 4. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
    https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
 5. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
@@ -49,12 +49,12 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 ## 🧪 AI in Science Highlights
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-- **Assuta, Microsoft develop AI medical assistant to reduce relieve doctors' documentation tasks - The Jerusalem Post** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zTWtuVm9IVGhwTDhkLVhRck13OHpnbmpRYU95UlNpZVZuLTcyNXBjYTdJYkxnUDRUVkNDWkJaZXk5cnVnM1luUWYyQU5wOEJSS2dZZUtrcDNCNjRVSUV5LXc0alprTXc?oc=5
+- **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
 - **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
 - **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3144
+- Total stories tracked: 3179
 - Most active topic: models
 - Busiest category: AI General News
 
