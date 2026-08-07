@@ -13,16 +13,16 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 3. **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
-4. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
-   https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
-5. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
+4. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
-6. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
+5. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
    https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
-7. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
+6. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
-8. **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — science angle
+7. **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxQRWxTbUFyM0VuMlIwOEU0dFFybDctdGUwOTdDUURTNHNTOWRXdDFHSVdMRkZfbjRuTXJWSHNGbVJHVUExMEp1emItUTAtWDdkTjVzWjRDVjRPRHFzMUZDVnhMQl9xb0prbmNYcW1SeHc4N1NRMUdxUFZfV0c4ZVJ5VldhTjRqV1RRRnp6QS04WXBRNk9QeGlUVjNROWt5SWZQWGh4c25NTTFHVUVnemRWYQ?oc=5
+8. **Akido is expanding AI for patient intake and diagnoses across 100 clinics - Endpoints News** — science angle
+   https://news.google.com/rss/articles/CBMingFBVV95cUxQbzhSRW5pYjFyZFVLX0lqOFE0VzdRMXUzUmJ2LXBmTDRRNGEzWWk4bTBadWhlZ2E4X0pvVGNranBKVnd5Ry1aeThBY1BTYnIwOXFodjk1STJCSHc3a3FHNVF1SnpIcHQxVFVRdHlINjRVcHRHb3VtSVUtSGZhdE80RXV5amlleW41c0xESXI2X0NVdzkwX0ZQMnkzTC0wZw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
@@ -50,11 +50,11 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 - **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
-- **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 - **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
+- **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3204
+- Total stories tracked: 3197
 - Most active topic: model
 - Busiest category: AI General News
 
