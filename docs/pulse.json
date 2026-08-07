@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:16:53.119982+00:00",
+  "generated_at": "2026-08-07T07:43:15.712515+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 36,
+      "reddit": 50,
+      "hackernews": 40,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,183 +22,183 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "A new image generation feature in ChatGPT",
+      "audience_angle": "Create stunning images with the latest ChatGPT update",
+      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "39"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "Unlocking the Potential of ChatGPT Images 2.0 for Visual Content",
-        "A Beginner's Guide to Using ChatGPT Images 2.0"
+        "How to use ChatGPT Images 2.0 for marketing",
+        "Creating art with ChatGPT Images 2.0",
+        "The future of image generation with ChatGPT"
       ]
     },
     {
-      "name": "GPT-5.6 Instant",
+      "name": "GPT-5.6 Luna",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of the GPT model, now available in ChatGPT.",
-      "audience_angle": "Experience the latest advancements in AI with GPT-5.6 Instant.",
-      "linkedin_angle": "Discover how GPT-5.6 Instant can improve your productivity and workflow.",
-      "local_relevance": 6,
+      "what_it_is": "A new AI model from OpenAI",
+      "audience_angle": "Experience the latest advancements in AI with GPT-5.6 Luna",
+      "linkedin_angle": "Discover how GPT-5.6 Luna can enhance your business operations",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vhc0se/gpt56_instant_is_now_rolling_out_in_chatgpt/",
-          "signal": "GPT-5.6 Instant is now rolling out in ChatGPT, replacing 5.5 Instant"
-        }
-      ],
-      "content_ideas": [
-        "What's New in GPT-5.6 Instant: A Deep Dive",
-        "How to Get the Most Out of GPT-5.6 Instant in ChatGPT",
-        "GPT-5.6 Instant vs. Previous Versions: A Comparison"
-      ]
-    },
-    {
-      "name": "Unlimited Text Chat with GPT-5.6 Luna",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new feature offering unlimited text chat with the GPT-5.6 Luna model.",
-      "audience_angle": "Enjoy unlimited conversations with the advanced GPT-5.6 Luna model.",
-      "linkedin_angle": "Explore the potential of unlimited text chat with GPT-5.6 Luna for business applications.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcupm/openai_just_announced_unlimited_text_chat_with/",
-          "signal": "OpenAI just announced unlimited text chat with GPT-5.6 Luna"
+          "signal": "31"
         }
       ],
       "content_ideas": [
-        "Unlocking the Potential of Unlimited Text Chat with GPT-5.6 Luna",
-        "How to Use Unlimited Text Chat with GPT-5.6 Luna for Business",
-        "A Beginner's Guide to Unlimited Text Chat with GPT-5.6 Luna"
+        "Getting started with GPT-5.6 Luna",
+        "GPT-5.6 Luna vs other AI models",
+        "The potential of GPT-5.6 Luna in various industries"
       ]
     },
     {
-      "name": "OpenAI's Device",
+      "name": "OpenAI's new device",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new device developed by OpenAI, resembling a doughnut and featuring a camera, speakers, microphones, lights, and moving parts.",
-      "audience_angle": "Get ready to experience the future of AI with OpenAI's innovative new device.",
-      "linkedin_angle": "Discover how OpenAI's device can revolutionize your workflow and productivity.",
-      "local_relevance": 8,
+      "what_it_is": "A new smart speaker device from OpenAI",
+      "audience_angle": "Control your home with OpenAI's innovative new device",
+      "linkedin_angle": "Explore the potential of OpenAI's device in smart home automation",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfff4/new_openais_device_a_humanlike_smart_speaker_will/",
-          "signal": "NEW: OpenAI’s device - a human-like smart speaker - will look like a doughnut and be the size of a hockey puck."
+          "signal": "28"
         }
       ],
       "content_ideas": [
-        "What to Expect from OpenAI's Revolutionary New Device",
-        "How OpenAI's Device Can Change the Way You Work",
-        "A First Look at OpenAI's Innovative New Device"
+        "Unboxing OpenAI's new device",
+        "Setting up OpenAI's device for smart home automation",
+        "The future of smart home devices with OpenAI"
       ]
     },
     {
-      "name": "AI-Generated Content on YouTube",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Anthropic AI",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "The use of AI to generate content, such as videos and music, on YouTube.",
-      "audience_angle": "Discover the latest AI-generated content on YouTube and how to create your own.",
-      "linkedin_angle": "Explore the potential of AI-generated content for business and marketing applications.",
-      "local_relevance": 6,
+      "what_it_is": "A new AI model from Anthropic",
+      "audience_angle": "Discover the capabilities of Anthropic AI",
+      "linkedin_angle": "Explore how Anthropic AI can enhance your business operations",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "YouTube's partner program allows creators to monetize their AI-generated content."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+generated+content",
-          "signal": "AI-generated content on YouTube"
+          "platform": "hackernews",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+          "signal": "110"
         }
       ],
       "content_ideas": [
-        "How to Create AI-Generated Content on YouTube",
-        "The Future of Content Creation: AI-Generated Content on YouTube",
-        "Monetizing AI-Generated Content on YouTube: A Guide"
+        "Getting started with Anthropic AI",
+        "Anthropic AI vs other AI models",
+        "The potential of Anthropic AI in various industries"
       ]
     },
     {
-      "name": "Claude AI Side Hustles",
+      "name": "Qwen3.8 Max",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A new AI model from Qwen",
+      "audience_angle": "Experience the latest advancements in AI with Qwen3.8 Max",
+      "linkedin_angle": "Discover how Qwen3.8 Max can enhance your business operations",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+          "signal": "799"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Qwen3.8 Max",
+        "Qwen3.8 Max vs other AI models",
+        "The potential of Qwen3.8 Max in various industries"
+      ]
+    },
+    {
+      "name": "AI video generation",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using Claude AI to generate income through various side hustles, such as content creation and affiliate marketing.",
-      "audience_angle": "Learn how to use Claude AI to earn money through side hustles and online business.",
-      "linkedin_angle": "Discover how Claude AI can help you generate passive income and grow your online business.",
-      "local_relevance": 7,
+      "what_it_is": "Using AI to generate videos",
+      "audience_angle": "Create stunning videos with AI",
+      "linkedin_angle": "Explore how AI-generated videos can enhance your marketing strategy",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI offers an affiliate program for creators to monetize their content."
+        "note": "AI video generation tools often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
-          "signal": "10 Claude AI Side Hustles That Can Pay A Full-Time Income (Ranked List)"
+          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Side Hustles and Online Business",
-        "Claude AI Side Hustles: A Beginner's Guide",
-        "Maximizing Your Earnings with Claude AI Side Hustles"
+        "How to use AI for video generation",
+        "AI video generation for marketing",
+        "The future of video creation with AI"
       ]
     }
   ],
@@ -210,128 +210,159 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "A new image generation feature in ChatGPT",
+      "audience_angle": "Create stunning images with the latest ChatGPT update",
+      "linkedin_angle": "Explore how AI-generated images can enhance your marketing strategy",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "signal": "39"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "Unlocking the Potential of ChatGPT Images 2.0 for Visual Content",
-        "A Beginner's Guide to Using ChatGPT Images 2.0"
+        "How to use ChatGPT Images 2.0 for marketing",
+        "Creating art with ChatGPT Images 2.0",
+        "The future of image generation with ChatGPT"
       ]
     },
     {
-      "name": "Unlimited Text Chat with GPT-5.6 Luna",
+      "name": "OpenAI's new device",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "A new feature offering unlimited text chat with the GPT-5.6 Luna model.",
-      "audience_angle": "Enjoy unlimited conversations with the advanced GPT-5.6 Luna model.",
-      "linkedin_angle": "Explore the potential of unlimited text chat with GPT-5.6 Luna for business applications.",
+      "what_it_is": "A new smart speaker device from OpenAI",
+      "audience_angle": "Control your home with OpenAI's innovative new device",
+      "linkedin_angle": "Explore the potential of OpenAI's device in smart home automation",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfff4/new_openais_device_a_humanlike_smart_speaker_will/",
+          "signal": "28"
+        }
+      ],
+      "content_ideas": [
+        "Unboxing OpenAI's new device",
+        "Setting up OpenAI's device for smart home automation",
+        "The future of smart home devices with OpenAI"
+      ]
+    },
+    {
+      "name": "Qwen3.8 Max",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A new AI model from Qwen",
+      "audience_angle": "Experience the latest advancements in AI with Qwen3.8 Max",
+      "linkedin_angle": "Discover how Qwen3.8 Max can enhance your business operations",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+          "signal": "799"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with Qwen3.8 Max",
+        "Qwen3.8 Max vs other AI models",
+        "The potential of Qwen3.8 Max in various industries"
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A new AI model from OpenAI",
+      "audience_angle": "Experience the latest advancements in AI with GPT-5.6 Luna",
+      "linkedin_angle": "Discover how GPT-5.6 Luna can enhance your business operations",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcupm/openai_just_announced_unlimited_text_chat_with/",
+          "signal": "31"
+        }
+      ],
+      "content_ideas": [
+        "Getting started with GPT-5.6 Luna",
+        "GPT-5.6 Luna vs other AI models",
+        "The potential of GPT-5.6 Luna in various industries"
+      ]
+    },
+    {
+      "name": "Anthropic AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A new AI model from Anthropic",
+      "audience_angle": "Discover the capabilities of Anthropic AI",
+      "linkedin_angle": "Explore how Anthropic AI can enhance your business operations",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcupm/openai_just_announced_unlimited_text_chat_with/",
-          "signal": "OpenAI just announced unlimited text chat with GPT-5.6 Luna"
+          "platform": "hackernews",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+          "signal": "110"
         }
       ],
       "content_ideas": [
-        "Unlocking the Potential of Unlimited Text Chat with GPT-5.6 Luna",
-        "How to Use Unlimited Text Chat with GPT-5.6 Luna for Business",
-        "A Beginner's Guide to Unlimited Text Chat with GPT-5.6 Luna"
-      ]
-    },
-    {
-      "name": "GPT-5.6 Instant",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new version of the GPT model, now available in ChatGPT.",
-      "audience_angle": "Experience the latest advancements in AI with GPT-5.6 Instant.",
-      "linkedin_angle": "Discover how GPT-5.6 Instant can improve your productivity and workflow.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vhc0se/gpt56_instant_is_now_rolling_out_in_chatgpt/",
-          "signal": "GPT-5.6 Instant is now rolling out in ChatGPT, replacing 5.5 Instant"
-        }
-      ],
-      "content_ideas": [
-        "What's New in GPT-5.6 Instant: A Deep Dive",
-        "How to Get the Most Out of GPT-5.6 Instant in ChatGPT",
-        "GPT-5.6 Instant vs. Previous Versions: A Comparison"
-      ]
-    },
-    {
-      "name": "OpenAI's Device",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new device developed by OpenAI, resembling a doughnut and featuring a camera, speakers, microphones, lights, and moving parts.",
-      "audience_angle": "Get ready to experience the future of AI with OpenAI's innovative new device.",
-      "linkedin_angle": "Discover how OpenAI's device can revolutionize your workflow and productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfff4/new_openais_device_a_humanlike_smart_speaker_will/",
-          "signal": "NEW: OpenAI’s device - a human-like smart speaker - will look like a doughnut and be the size of a hockey puck."
-        }
-      ],
-      "content_ideas": [
-        "What to Expect from OpenAI's Revolutionary New Device",
-        "How OpenAI's Device Can Change the Way You Work",
-        "A First Look at OpenAI's Innovative New Device"
+        "Getting started with Anthropic AI",
+        "Anthropic AI vs other AI models",
+        "The potential of Anthropic AI in various industries"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude AI usage limits and token restrictions",
-      "who_affected": "Claude AI users",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
@@ -339,7 +370,19 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vh911t/every_chatgpt_and_claude_benchmarks_be_like/"
         }
       ],
-      "content_opportunity": "How to Overcome Claude AI Usage Limits and Token Restrictions"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
+    },
+    {
+      "problem": "OpenAI account issues",
+      "who_affected": "OpenAI users",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vhpcqn/openai_completely_emptied_my_bank_account_for_an/"
+        }
+      ],
+      "content_opportunity": "Troubleshooting OpenAI account issues"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Images 2.0"
