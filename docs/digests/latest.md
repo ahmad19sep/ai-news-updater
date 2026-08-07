@@ -27,7 +27,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 96
    https://www.mtdemocrat.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_4d94f52b-243b-5633-ae6f-125e96b62ffe.html
-2. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 83
+2. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 93
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
 3. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 73
    https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3179
+- Total stories tracked: 3163
 - Most active topic: models
 - Busiest category: AI General News
 
