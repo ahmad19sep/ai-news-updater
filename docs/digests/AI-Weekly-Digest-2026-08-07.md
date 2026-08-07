@@ -13,16 +13,16 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 3. **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
-4. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
-   https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
-5. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
+4. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
    https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
-6. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
+5. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
-7. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
+6. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
    https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
-8. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
+7. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
+8. **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — science angle
+   https://news.google.com/rss/articles/CBMisAFBVV95cUxQRWxTbUFyM0VuMlIwOEU0dFFybDctdGUwOTdDUURTNHNTOWRXdDFHSVdMRkZfbjRuTXJWSHNGbVJHVUExMEp1emItUTAtWDdkTjVzWjRDVjRPRHFzMUZDVnhMQl9xb0prbmNYcW1SeHc4N1NRMUdxUFZfV0c4ZVJ5VldhTjRqV1RRRnp6QS04WXBRNk9QeGlUVjNROWt5SWZQWGh4c25NTTFHVUVnemRWYQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
@@ -41,20 +41,20 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
 8. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 57
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
-9. **Google DeepMind CEO Demis Hassabis is stepping down - Axios** — Demis Hassabis News — Score 53
+9. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 56
+   https://news.google.com/rss/articles/CBMigwFBVV95cUxOMTlZX3RBallPWnZLNHpZY29tUGJib0xzWXdiMGZyZXhxbk55cjFkSGVPQWtPMzFib2JvWDhaLS1icHJMYk9GeUFPbXVSb2hnSkVfdk1wVHdQaWI1b0oxTDFIZDRrYklNMkNUSThWdUt4bVNHS283dXVSZU81UjcyOEgwQQ?oc=5
+10. **Google DeepMind CEO Demis Hassabis is stepping down - Axios** — Demis Hassabis News — Score 53
    https://news.google.com/rss/articles/CBMidEFVX3lxTE1OaExwUzJFX0xDWmVYTWJ0ZlBxcHB0Nm96cUZfcTY2dFNqZi13aF84QXh3c3VFLTdvRTNwLW1RVU9jZ0Y0ZjdWSlRXZnRoaUJiLU9udl9fQTBkX2JMemN4ZURpbEo3RXJndW10X3hsWWtydFB0?oc=5
-10. **Google DeepMind Reshuffles Leadership as Demis Hassabis Steps Down, Jeff Dean Exits - Techeconomy** — Demis Hassabis News — Score 53
-   https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3EyQ1ZHbHUyd1N4R015M3FpNGpJVXRwa05UNVMzTHVxYnZ4TTFRNzZYUUw0Z0JHOGFMWkplY3BPSnpMLTlHaGRVRGdwWXFGS3hrQldfSWlTdE9pUkEzdFNUTmZRR1VQZUlkTURuWE1heDhmVjZFdnl3Rk8xcG5WVV9fcS1ZMHl2Ui00Rw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 - **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
-- **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
 - **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
+- **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3226
+- Total stories tracked: 3204
 - Most active topic: model
 - Busiest category: AI General News
 
