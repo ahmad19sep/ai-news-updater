@@ -41,10 +41,10 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
 8. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 57
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
-9. **Google DeepMind Reshuffles Leadership as Demis Hassabis Steps Down, Jeff Dean Exits - Techeconomy** — Demis Hassabis News — Score 56
-   https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3EyQ1ZHbHUyd1N4R015M3FpNGpJVXRwa05UNVMzTHVxYnZ4TTFRNzZYUUw0Z0JHOGFMWkplY3BPSnpMLTlHaGRVRGdwWXFGS3hrQldfSWlTdE9pUkEzdFNUTmZRR1VQZUlkTURuWE1heDhmVjZFdnl3Rk8xcG5WVV9fcS1ZMHl2Ui00Rw?oc=5
-10. **Google DeepMind CEO Demis Hassabis is stepping down - Axios** — Demis Hassabis News — Score 53
+9. **Google DeepMind CEO Demis Hassabis is stepping down - Axios** — Demis Hassabis News — Score 53
    https://news.google.com/rss/articles/CBMidEFVX3lxTE1OaExwUzJFX0xDWmVYTWJ0ZlBxcHB0Nm96cUZfcTY2dFNqZi13aF84QXh3c3VFLTdvRTNwLW1RVU9jZ0Y0ZjdWSlRXZnRoaUJiLU9udl9fQTBkX2JMemN4ZURpbEo3RXJndW10X3hsWWtydFB0?oc=5
+10. **Google DeepMind Reshuffles Leadership as Demis Hassabis Steps Down, Jeff Dean Exits - Techeconomy** — Demis Hassabis News — Score 53
+   https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3EyQ1ZHbHUyd1N4R015M3FpNGpJVXRwa05UNVMzTHVxYnZ4TTFRNzZYUUw0Z0JHOGFMWkplY3BPSnpMLTlHaGRVRGdwWXFGS3hrQldfSWlTdE9pUkEzdFNUTmZRR1VQZUlkTURuWE1heDhmVjZFdnl3Rk8xcG5WVV9fcS1ZMHl2Ui00Rw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3133
+- Total stories tracked: 3134
 - Most active topic: models
 - Busiest category: AI General News
 
