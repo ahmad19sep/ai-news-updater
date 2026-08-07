@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3199
+- Total stories tracked: 3188
 - Most active topic: model
 - Busiest category: AI General News
 
