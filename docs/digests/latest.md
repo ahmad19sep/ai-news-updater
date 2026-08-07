@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 30 Jul 2026 to 06 Aug 2026
+# 🗞️ AI THIS WEEK — 31 Jul 2026 to 07 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **Did a robot write that? Study suggests people prefer AI authors**
@@ -7,36 +7,36 @@ Best source link: https://www.mtdemocrat.com/news/national/did-a-robot-write-tha
 All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_4d94f52b-243b-5633-ae6f-125e96b62ffe.html · https://www.ttownmedia.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_78474ab3-e67f-5a5c-9299-9e12807b1f93.html · https://www.messenger-inquirer.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_cc3c49b9-de2a-5982-b0ca-de4e6c4e16d0.html · https://www.communitynewspapergroup.com/news/nation/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_6d7a275e-ba52-5b26-a1b4-e68954083936.html · https://www.emporiagazette.com/news/national/article_28fa4a0d-930a-5cbc-b8ce-069b767ce694.html · https://www.suncommercial.com/news/national/article_6249b34e-f385-53f1-bfab-09ea220eb3b5.html · https://www.columbiagorgenews.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_02059882-2203-5b40-a00c-e1815ea1ac14.html · https://www.romesentinel.com/ce/news/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_4dae13ee-2b5b-53a7-8ce4-4cbe7cdb9284.html · https://www.dailygazette.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_2c45c5b9-aa40-5c22-988c-0da75e054fd9.html
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
+1. **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — science angle
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
+2. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-2. **AI medical scribe consent raises patient rights concerns - New Atlas** — science angle
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVlrOTJhRHRmOFI1V2xvRjV4bXZ1SC1yQWtLeTljV2VMR1BEcmtHZzcyWHFSdk5FUXUzUFZHSHZvSHNPYURYeUxoVkJUalFBbHZwZWxoSFBXeFo3SFBXLUdBM1BzSnNWd3NfUl9LMndSWFV2WUtrV3BmaXQzaHF1UHZXMEtTV0l5TlBTUEFzakNqc1k?oc=5
 3. **Assuta, Microsoft develop AI medical assistant to reduce relieve doctors' documentation tasks - The Jerusalem Post** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zTWtuVm9IVGhwTDhkLVhRck13OHpnbmpRYU95UlNpZVZuLTcyNXBjYTdJYkxnUDRUVkNDWkJaZXk5cnVnM1luUWYyQU5wOEJSS2dZZUtrcDNCNjRVSUV5LXc0alprTXc?oc=5
-4. **Researchers develop AI system to accelerate tuberculosis drug discovery - Drug Target Review** — science angle
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmNnZnZQZGtGYzF2dDRmakFnVzhBeExDZG05MzJncXJxd2xGV2RuQ0lscngyY2FPUm5BeXdZc0VrUGxIcnJGcEdyeXZjWHk4MGxBS3pHQ3VRV2R2U3VzS3dIcmd0eWRaQlg4ZUpueWhLT1FhMjFBUjUzZ3pGV25EX2ppVjJDM0FpMmFGRTluOUFmeXl4RUdGdm92Z0hDalV0UllFNEJrMXVLYlZBVVRfVTZvR1NfMmtPOVlKZw?oc=5
-5. **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — science angle
-   https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
-6. **Artificial Intelligence is Making It’s Way Into Your Doctors Office - Milwaukee Magazine** — science angle
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVZKSXQ3ZFlBYzNjcDE2RVpDUk1MQkN3cDRVU0RQdWh6eXl3c2plZTJmOTlodElRcTBfMG11dUZsLVVVNktIUGp5ZktCcGdpcXNlUXNrTjlfdWwzbTBSZC1HelFmZVh2Ni1kLW8xVHZZS09hSFhxVGlDRHhDM1k2YVBvQzhUaVFpZFMxMTlIUXJiMHpDTTBjcmMzZlM?oc=5
-7. **How an Australian AI scribe won over Canada’s doctors - BetaKit** — science angle
-   https://news.google.com/rss/articles/CBMifkFVX3lxTE5xN0VJQ0REckhLRUdrR3FoOFhzQzQ5UU1PaF9kSHNVYzBvUm5Ud25oSXhxT2pid2hpQktYMzBDSFhHZmx0ZGd3M2puZURmQS1IaENuNUQ5UXBDRHp6MnZoOG8zRnkzVHNmcnBwQndxSGFSRjBiTW9nZDBJLWpVdw?oc=5
-8. **Student-doctor collaboration develops AI tool to help doctors identify chronic pelvic pain - Medical Xpress** — science angle
-   https://news.google.com/rss/articles/CBMihwFBVV95cUxQcERubkRGSk55MkNmTHVnZW9jb09NeG5NdmZkV2VvblpBUVlpWU9kR2dvVUNrWjFUUU5HZmZWQzZ5SE9Dc21tUklEYV9HY1luQ2JNbUFwOFZ5bjNUOHlXSGtOakczNW9HQndVX0gwQlFxUVlpdW8wdlBKSnY3cXdUa0Q2c3ktNFE?oc=5
+4. **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — science angle
+   https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
+5. **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — science angle
+   https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
+6. **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — science angle
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
+7. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
+   https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
+8. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
+   https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 96
    https://www.mtdemocrat.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_4d94f52b-243b-5633-ae6f-125e96b62ffe.html
 2. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 73
    https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
-3. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 68
+3. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 73
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
+4. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 68
    https://www.japantimes.co.jp/business/2026/08/02/tech/ai-cyberattack-legally-responsible/
-4. **Bell Canada rolls out AI tool flagging scam calls in real time. Here's how it works** — bramptonguardian — Score 63
-   https://www.bramptonguardian.com/news/bell-canada-spoofed-caller-identification-ai/article_d07264cb-7d4b-5de8-8eb8-be001b7dd273.html
 5. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
-6. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 63
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
+6. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 61
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
 7. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 61
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
 8. **Chinese military researchers tap US AI models to train defence systems** — Hacker News new — Score 58.0
@@ -47,14 +47,14 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMidEFVX3lxTE1OaExwUzJFX0xDWmVYTWJ0ZlBxcHB0Nm96cUZfcTY2dFNqZi13aF84QXh3c3VFLTdvRTNwLW1RVU9jZ0Y0ZjdWSlRXZnRoaUJiLU9udl9fQTBkX2JMemN4ZURpbEo3RXJndW10X3hsWWtydFB0?oc=5
 
 ## 🧪 AI in Science Highlights
+- **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-- **AI medical scribe consent raises patient rights concerns - New Atlas** — https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVlrOTJhRHRmOFI1V2xvRjV4bXZ1SC1yQWtLeTljV2VMR1BEcmtHZzcyWHFSdk5FUXUzUFZHSHZvSHNPYURYeUxoVkJUalFBbHZwZWxoSFBXeFo3SFBXLUdBM1BzSnNWd3NfUl9LMndSWFV2WUtrV3BmaXQzaHF1UHZXMEtTV0l5TlBTUEFzakNqc1k?oc=5
 - **Assuta, Microsoft develop AI medical assistant to reduce relieve doctors' documentation tasks - The Jerusalem Post** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zTWtuVm9IVGhwTDhkLVhRck13OHpnbmpRYU95UlNpZVZuLTcyNXBjYTdJYkxnUDRUVkNDWkJaZXk5cnVnM1luUWYyQU5wOEJSS2dZZUtrcDNCNjRVSUV5LXc0alprTXc?oc=5
-- **Researchers develop AI system to accelerate tuberculosis drug discovery - Drug Target Review** — https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmNnZnZQZGtGYzF2dDRmakFnVzhBeExDZG05MzJncXJxd2xGV2RuQ0lscngyY2FPUm5BeXdZc0VrUGxIcnJGcEdyeXZjWHk4MGxBS3pHQ3VRV2R2U3VzS3dIcmd0eWRaQlg4ZUpueWhLT1FhMjFBUjUzZ3pGV25EX2ppVjJDM0FpMmFGRTluOUFmeXl4RUdGdm92Z0hDalV0UllFNEJrMXVLYlZBVVRfVTZvR1NfMmtPOVlKZw?oc=5
-- **Texas A&M researchers build AI tools for tuberculosis drug discovery - News-Medical** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUE4UkhhYk9idE9Mdm1rTXhONFc0VVBHNVY0bEwzU015TmZkRWV6SUM2eU4xUVhxc0VyRkpjOWxYTEk5eGZsZjF4QTd4bE9YUnl1ellGZGtybTZfOFdxM2hpN1NOSDQ0MWJjYW8xTTBXQUtLYTh4enFTZW1LMGQ4d0ZmTjVkVXV4WW1DRXFBUFNmaGROaFhaNFZTeFlTVE1lb3NvUjBXelRzaHFZbGtYYks1MWNIZw?oc=5
+- **‘Mediocre doctors won’t be needed’: Prof. Ido Wolf on AI’s future role in medicine - Ynetnews** — https://news.google.com/rss/articles/CBMiakFVX3lxTFBEN1NDbEVNS1JObEJfNGp0NWN1MG5vT3lpYlNmYXA1endOUG1Fd3BNME12elQ5QktqektqZlZqcWJjUlA3cmFzMzk5RWFVQUZ6aGRUenphdmc5VmdxZHFwTXpiSXJjSnhaa1E?oc=5
+- **The positive impact of artificial intelligence on medicine - Real Academia Europea de Doctores** — https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWF2TVFnTktQejFLLVEyMUZrdkFmcTExM0F2UUtLaTNEQTFsa29YcERpVEpWM3RuWktOLTVzN2dvNndHQUhFTjFva1ZDSEVJQjFHZU9jM1V1bWI1R3Y2OGZIV3Q3empMX2hSZElONjFQdGdtSkx0dHFvT2JJS0xHTmFWWkNfS0Z6OHdJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3189
+- Total stories tracked: 3091
 - Most active topic: models
 - Busiest category: AI General News
 
