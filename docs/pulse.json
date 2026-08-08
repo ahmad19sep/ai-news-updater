@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T07:16:52.684428+00:00",
+  "generated_at": "2026-08-08T13:13:56.876864+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 23,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Leverage ChatGPT's image generation for business and marketing purposes.",
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "Create stunning images with just a few clicks using ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT image generation can revolutionize your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -48,76 +48,82 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Artists",
-        "Using ChatGPT for Business: Image Generation and More"
+        "ChatGPT Image Generation: A Game-Changer for Marketers",
+        "Using ChatGPT for Image Generation: Tips and Tricks"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "AI Video Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
-      "audience_angle": "Unlock the potential of Claude AI for content creation and more.",
-      "linkedin_angle": "Discover how Claude AI can revolutionize your business and marketing strategy.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation tools allow users to create videos using AI.",
+      "audience_angle": "Create professional-looking videos without any video editing experience using AI video generation tools.",
+      "linkedin_angle": "Discover how AI video generation can enhance your business's video marketing strategy.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its users."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NuNDpeZYQ28",
-          "signal": "I Figured Out A Way To Make Claude Work For FREE In 17 Mins"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
-          "signal": "Should AI labs be treated like the owners of dangerous animals?"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude AI for Content Creation",
-        "Claude AI: The Future of Text and Image Generation",
-        "Maximizing Claude AI for Business and Marketing"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "technique",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation allows users to create videos using AI-powered tools.",
-      "audience_angle": "Create stunning videos with just a few clicks using AI video generation.",
-      "linkedin_angle": "Leverage AI video generation for business and marketing purposes.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs."
+        "note": "Many AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=ZMEWkbRLpPo",
-          "signal": "3 Best FREE AI Video Tools (Unlimited + No Watermark)"
+          "signal": "3 Best FREE AI Video Tools"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
+          "signal": "Generate an image of a Sword in the Stone game"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation",
-        "AI Video Generation: A Game-Changer for Content Creators",
-        "Using AI Video Generation for Business and Marketing"
+        "How to Create Stunning Videos with AI Video Generation Tools",
+        "AI Video Generation: The Future of Video Marketing",
+        "Using AI Video Generation for Social Media: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "ChatGPT for Business",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "linkedin"
+      ],
+      "what_it_is": "ChatGPT can be used for various business purposes such as customer support, content generation, and more.",
+      "audience_angle": "Discover how ChatGPT can help you streamline your business operations and increase productivity.",
+      "linkedin_angle": "Explore the various ways ChatGPT can be used to enhance your business strategy.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its business solutions."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F5mQlLUc0b8",
+          "signal": "Earn with Claude AI | High-Income Business Idea"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7023312115614396416/",
+          "signal": "How to use ChatGPT for business"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Business: A Beginner's Guide",
+        "ChatGPT for Customer Support: A Game-Changer for Businesses",
+        "Using ChatGPT for Content Generation: Tips and Tricks"
       ]
     }
   ],
@@ -130,16 +136,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Leverage ChatGPT's image generation for business and marketing purposes.",
+      "what_it_is": "ChatGPT can generate images based on user input.",
+      "audience_angle": "Create stunning images with just a few clicks using ChatGPT.",
+      "linkedin_angle": "Explore how ChatGPT image generation can revolutionize your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
@@ -155,60 +161,60 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Artists",
-        "Using ChatGPT for Business: Image Generation and More"
+        "ChatGPT Image Generation: A Game-Changer for Marketers",
+        "Using ChatGPT for Image Generation: Tips and Tricks"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "AI Video Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "Claude AI is a powerful tool for generating human-like text and images.",
-      "audience_angle": "Unlock the potential of Claude AI for content creation and more.",
-      "linkedin_angle": "Discover how Claude AI can revolutionize your business and marketing strategy.",
-      "local_relevance": 8,
+      "what_it_is": "AI video generation tools allow users to create videos using AI.",
+      "audience_angle": "Create professional-looking videos without any video editing experience using AI video generation tools.",
+      "linkedin_angle": "Discover how AI video generation can enhance your business's video marketing strategy.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its users."
+        "note": "Many AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NuNDpeZYQ28",
-          "signal": "I Figured Out A Way To Make Claude Work For FREE In 17 Mins"
+          "url": "https://www.youtube.com/watch?v=ZMEWkbRLpPo",
+          "signal": "3 Best FREE AI Video Tools"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
-          "signal": "Should AI labs be treated like the owners of dangerous animals?"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
+          "signal": "Generate an image of a Sword in the Stone game"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Content Creation",
-        "Claude AI: The Future of Text and Image Generation",
-        "Maximizing Claude AI for Business and Marketing"
+        "How to Create Stunning Videos with AI Video Generation Tools",
+        "AI Video Generation: The Future of Video Marketing",
+        "Using AI Video Generation for Social Media: Tips and Tricks"
       ]
     }
   ],
   "pain_points": [
     {
       "problem": "ChatGPT usage limits and costs",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 7,
+      "who_affected": "Small business owners and individuals",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vio9e6/the_only_chatgpt_custom_instructions_you_need_to/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/"
         }
       ],
-      "content_opportunity": "Optimizing ChatGPT usage and reducing costs"
+      "content_opportunity": "How to optimize ChatGPT usage and reduce costs"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
