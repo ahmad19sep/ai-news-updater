@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:13:56.876864+00:00",
+  "generated_at": "2026-08-08T19:00:08.000625+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 19,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create stunning images with just a few clicks using ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT image generation can revolutionize your marketing strategy.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT.",
+      "linkedin_angle": "Discover how ChatGPT image generation can revolutionize your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its image generation feature."
       },
       "sources": [
         {
@@ -42,88 +42,169 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
-          "signal": "How To Create Long Ghibli Style AI Videos FREE"
+          "url": "https://www.youtube.com/watch?v=l9nK5qPEm50",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
         "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
+        "Using ChatGPT to Generate Images for Social Media"
       ]
     },
     {
-      "name": "AI Video Generation",
-      "category": "tool_launch",
+      "name": "Claude AI Side Hustle",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI video generation tools allow users to create videos using AI.",
-      "audience_angle": "Create professional-looking videos without any video editing experience using AI video generation tools.",
-      "linkedin_angle": "Discover how AI video generation can enhance your business's video marketing strategy.",
+      "what_it_is": "Claude AI can be used to create a side hustle, such as generating content or providing services.",
+      "audience_angle": "Earn extra money with Claude AI by starting a side hustle.",
+      "linkedin_angle": "Learn how Claude AI can help you create a lucrative side hustle and boost your career.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI video generation tools have affiliate programs."
+        "note": "Claude AI has an affiliate program for its side hustle features."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZMEWkbRLpPo",
-          "signal": "3 Best FREE AI Video Tools"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
-          "signal": "Generate an image of a Sword in the Stone game"
+          "url": "https://www.youtube.com/watch?v=sQQN53qx-VI",
+          "signal": "BEST Claude A.I. Side Hustle Nobody is Talking About"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation Tools",
-        "AI Video Generation: The Future of Video Marketing",
-        "Using AI Video Generation for Social Media: Tips and Tricks"
+        "How to Create a Side Hustle with Claude AI",
+        "Claude AI: A Lucrative Side Hustle Opportunity",
+        "Using Claude AI to Generate Passive Income"
       ]
     },
     {
-      "name": "ChatGPT for Business",
-      "category": "use_case",
+      "name": "AI Video Generation",
+      "category": "technique",
       "momentum": "rising",
       "platforms": [
-        "youtube",
-        "linkedin"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT can be used for various business purposes such as customer support, content generation, and more.",
-      "audience_angle": "Discover how ChatGPT can help you streamline your business operations and increase productivity.",
-      "linkedin_angle": "Explore the various ways ChatGPT can be used to enhance your business strategy.",
+      "what_it_is": "AI video generation involves using AI tools to create videos based on text prompts or other inputs.",
+      "audience_angle": "Create stunning videos with just a few words using AI video generation tools.",
+      "linkedin_angle": "Discover how AI video generation can revolutionize your video marketing strategy.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its business solutions."
+        "note": "AI video generation tools often have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F5mQlLUc0b8",
-          "signal": "Earn with Claude AI | High-Income Business Idea"
-        },
-        {
-          "platform": "linkedin",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7023312115614396416/",
-          "signal": "How to use ChatGPT for business"
+          "url": "https://www.youtube.com/watch?v=xFfkllBuKCI",
+          "signal": "Make AI Videos FREE Long 3D cartoon Animation + Voice AI Video kaise banaye AI Video Generator"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Business: A Beginner's Guide",
-        "ChatGPT for Customer Support: A Game-Changer for Businesses",
-        "Using ChatGPT for Content Generation: Tips and Tricks"
+        "How to Create Stunning Videos with AI Video Generation",
+        "AI Video Generation: A Game-Changer for Marketers",
+        "Using AI Video Generation to Create Engaging Content"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent Mode",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT agent mode allows users to interact with ChatGPT in a more conversational way.",
+      "audience_angle": "Get more out of ChatGPT with its agent mode feature.",
+      "linkedin_angle": "Learn how ChatGPT agent mode can help you streamline your workflow and boost productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its agent mode feature."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "chatgpt agent mode"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Agent Mode",
+        "ChatGPT Agent Mode: A Productivity Game-Changer",
+        "Using ChatGPT Agent Mode to Automate Tasks"
+      ]
+    },
+    {
+      "name": "AI Trading",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI trading involves using AI tools to analyze and make trades in the financial markets.",
+      "audience_angle": "Earn money with AI trading by using AI tools to analyze and make trades.",
+      "linkedin_angle": "Learn how AI trading can help you make more informed investment decisions and boost your portfolio.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI trading tools often have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
+          "signal": "how to use ai for trading"
+        }
+      ],
+      "content_ideas": [
+        "How to Get Started with AI Trading",
+        "AI Trading: A Lucrative Opportunity",
+        "Using AI Trading to Make More Informed Investment Decisions"
+      ]
+    },
+    {
+      "name": "AI Voice Generation",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI voice generation involves using AI tools to create realistic voiceovers and audio content.",
+      "audience_angle": "Create stunning audio content with just a few words using AI voice generation tools.",
+      "linkedin_angle": "Discover how AI voice generation can revolutionize your audio marketing strategy.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI voice generation tools often have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M6riT-CvKNQ",
+          "signal": "Top 3 FREE AI Voice Generators Unlimited Realistic AI Voices"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Realistic Voiceovers with AI Voice Generation",
+        "AI Voice Generation: A Game-Changer for Marketers",
+        "Using AI Voice Generation to Create Engaging Audio Content"
       ]
     }
   ],
@@ -136,16 +217,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create stunning images with just a few clicks using ChatGPT.",
-      "linkedin_angle": "Explore how ChatGPT image generation can revolutionize your marketing strategy.",
+      "what_it_is": "ChatGPT can generate images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT.",
+      "linkedin_angle": "Discover how ChatGPT image generation can revolutionize your marketing strategy.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its image generation feature."
       },
       "sources": [
         {
@@ -155,66 +236,72 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-acPK_LEy8M",
-          "signal": "How To Create Long Ghibli Style AI Videos FREE"
+          "url": "https://www.youtube.com/watch?v=l9nK5qPEm50",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
         "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
+        "Using ChatGPT to Generate Images for Social Media"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "ChatGPT Agent Mode",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI video generation tools allow users to create videos using AI.",
-      "audience_angle": "Create professional-looking videos without any video editing experience using AI video generation tools.",
-      "linkedin_angle": "Discover how AI video generation can enhance your business's video marketing strategy.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT agent mode allows users to interact with ChatGPT in a more conversational way.",
+      "audience_angle": "Get more out of ChatGPT with its agent mode feature.",
+      "linkedin_angle": "Learn how ChatGPT agent mode can help you streamline your workflow and boost productivity.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Many AI video generation tools have affiliate programs."
+        "note": "ChatGPT has an affiliate program for its agent mode feature."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZMEWkbRLpPo",
-          "signal": "3 Best FREE AI Video Tools"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
-          "signal": "Generate an image of a Sword in the Stone game"
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "chatgpt agent mode"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation Tools",
-        "AI Video Generation: The Future of Video Marketing",
-        "Using AI Video Generation for Social Media: Tips and Tricks"
+        "How to Use ChatGPT Agent Mode",
+        "ChatGPT Agent Mode: A Productivity Game-Changer",
+        "Using ChatGPT Agent Mode to Automate Tasks"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
-      "who_affected": "Small business owners and individuals",
-      "signal_strength": 6,
+      "problem": "ChatGPT usage limits and token limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/"
         }
       ],
-      "content_opportunity": "How to optimize ChatGPT usage and reduce costs"
+      "content_opportunity": "How to overcome ChatGPT usage limits and token limits"
+    },
+    {
+      "problem": "Difficulty in using AI tools for non-technical users",
+      "who_affected": "Non-technical users",
+      "signal_strength": 6,
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+beginners"
+        }
+      ],
+      "content_opportunity": "How to use AI tools as a non-technical user"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
