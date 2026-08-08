@@ -54,8 +54,8 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **The doctor and AI are in: A legal prognosis for medical providers when using AI technology to assist in patient care - The Business Journals** — https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFdFenZncVJhbXZNWllQdUxyTUpMZnVqOGhDZlZCYmhzUUU1bDdPREs5SGFPamtFSEY2X0JyMTVET05XcGxHTTI0TmRld2VkVTI2TEh4bFlibjRtaDN1aVRnNlZOOHM1UGpiT1FZZkpGRzllS1AwblhHc096NjRMRHZFSkNsWndLeTROQWV5dU1CX0FxTElqZUFwRG5ZamJsVzFv?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3184
-- Most active topic: model
+- Total stories tracked: 3197
+- Most active topic: agent
 - Busiest category: AI General News
 
 ---
