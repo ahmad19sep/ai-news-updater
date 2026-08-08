@@ -41,10 +41,10 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
 8. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
-9. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 57
+9. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 60
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
+10. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 57
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
-10. **Google DeepMind CEO Demis Hassabis is stepping down - Axios** — Demis Hassabis News — Score 53
-   https://news.google.com/rss/articles/CBMidEFVX3lxTE1OaExwUzJFX0xDWmVYTWJ0ZlBxcHB0Nm96cUZfcTY2dFNqZi13aF84QXh3c3VFLTdvRTNwLW1RVU9jZ0Y0ZjdWSlRXZnRoaUJiLU9udl9fQTBkX2JMemN4ZURpbEo3RXJndW10X3hsWWtydFB0?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **AI can’t answer this crucial question for patients - The Star** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQMFFkX241eU5DSER5N1pVNWZJMDlvZVFGR19DY2NOZVV0Znk5NXJPQTVrT2ZOVk9FcEhjaUtOR09uT29qNWJONXEzelRDdFdSQndOdUpjSEg3QTZoR3d4YzI2MlczdXpFOThKWEVPVTg0YWV3ZFcxMy1CXzRVVzZJMmNHSWxKc0NqTGVMZ1FiYnZJVnZoSFZhNXRyVl9iem9zdkhmeVdkRQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3188
+- Total stories tracked: 3202
 - Most active topic: model
 - Busiest category: AI General News
 
