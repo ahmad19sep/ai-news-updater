@@ -33,14 +33,14 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMigwFBVV95cUxOMTlZX3RBallPWnZLNHpZY29tUGJib0xzWXdiMGZyZXhxbk55cjFkSGVPQWtPMzFib2JvWDhaLS1icHJMYk9GeUFPbXVSb2hnSkVfdk1wVHdQaWI1b0oxTDFIZDRrYklNMkNUSThWdUt4bVNHS283dXVSZU81UjcyOEgwQQ?oc=5
 4. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
-5. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 73
-   https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
-6. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
-7. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
-8. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 66.0
+5. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 76.0
    https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
+6. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 73
+   https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
+7. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
+8. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
 9. **Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade. - The Motley Fool** — Jensen Huang News — Score 66
    https://news.google.com/rss/articles/CBMimAFBVV95cUxOU016VGRQbXZpLWRMczNLYWZET0J5RWxOam1IY1VXMzhhLWthakhnRkFram4weERacmlWT1A4eDMwNF9VZTFONS1mR0dWRzlRTV9nUXB2YVRZZVNQbzU5ZnVhbG9ydUhGazM0TzR3dnBXWjhubnRJUlgtTnVqWEJXM3J5dVBva1lYSFdmdURySE5UZUxRRWcyYw?oc=5
 10. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **AI can’t answer this crucial question for patients - The Star** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQMFFkX241eU5DSER5N1pVNWZJMDlvZVFGR19DY2NOZVV0Znk5NXJPQTVrT2ZOVk9FcEhjaUtOR09uT29qNWJONXEzelRDdFdSQndOdUpjSEg3QTZoR3d4YzI2MlczdXpFOThKWEVPVTg0YWV3ZFcxMy1CXzRVVzZJMmNHSWxKc0NqTGVMZ1FiYnZJVnZoSFZhNXRyVl9iem9zdkhmeVdkRQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3242
+- Total stories tracked: 3253
 - Most active topic: model
 - Busiest category: AI General News
 
