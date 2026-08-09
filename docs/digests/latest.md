@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 01 Aug 2026 to 08 Aug 2026
+# 🗞️ AI THIS WEEK — 02 Aug 2026 to 09 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **Did a robot write that? Study suggests people prefer AI authors**
@@ -15,14 +15,14 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 4. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-5. **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — science angle
-   https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
-6. **AI can’t answer this crucial question for patients - The Star** — science angle
+5. **AI can’t answer this crucial question for patients - The Star** — science angle
    https://news.google.com/rss/articles/CBMipwFBVV95cUxQMFFkX241eU5DSER5N1pVNWZJMDlvZVFGR19DY2NOZVV0Znk5NXJPQTVrT2ZOVk9FcEhjaUtOR09uT29qNWJONXEzelRDdFdSQndOdUpjSEg3QTZoR3d4YzI2MlczdXpFOThKWEVPVTg0YWV3ZFcxMy1CXzRVVzZJMmNHSWxKc0NqTGVMZ1FiYnZJVnZoSFZhNXRyVl9iem9zdkhmeVdkRQ?oc=5
-7. **Scientists design AI viruses unknown in nature spark medical hope and biosecurity alarm** — science angle
+6. **Scientists design AI viruses unknown in nature spark medical hope and biosecurity alarm** — science angle
    https://telecomlive.in/web/2026/08/08/scientists-design-ai-viruses-unknown-in-nature-spark-medical-hope-and-biosecurity-alarm/
-8. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
+7. **Q&A: UM's Venkatesh Murthy on how AI can help cardiovascular patients - The Detroit News** — science angle
    https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHM0cW8xbWFJd1g0UlZ2Q3ZFZ213VDZ4SmxZajc4d19yMGgzN29ET3ZYc2FRdWNMc3dHRzdpdkNLOVhZOGJZSnFldzFoVndxSzVRMWNTZlBYWmgtRjdMQnp2dmJuRUxhQkVvUlFpMWs1dUVzZzRWNDZSVnp4LTFEaGp4eWhVNl9uNFN0M3BGSXNxbVo1dlBhYkFxcHA3eVotTC1HTHB3cm5RU1FOWWNlcVhYVmpPZkhKV2N6RlFyV3hOdFdJRHRxcDJrMThvNzNEc3BxTFJSNDBELURk?oc=5
+8. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
+   https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
@@ -35,14 +35,14 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
 5. **AI-assisted staging draws boos at the Richard Wagner festival in Germany** — abcnews — Score 73
    https://abcnews.com/Technology/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306991
-6. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 68
-   https://www.japantimes.co.jp/business/2026/08/02/tech/ai-cyberattack-legally-responsible/
-7. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
-8. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
-   https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
-9. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 60
+6. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 70
    https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
+7. **When rogue AI launches a cyberattack, who is legally responsible?** — japantimes — Score 68
+   https://www.japantimes.co.jp/business/2026/08/02/tech/ai-cyberattack-legally-responsible/
+8. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
+9. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
+   https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
 10. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 57
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
 
@@ -50,11 +50,11 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-- **How a New AI Framework Can Help Doctors Build Better Tools - Technology Org** — https://news.google.com/rss/articles/CBMingFBVV95cUxPMEhpWmtaQk5vMEdvZjQxbVNpUXhNd2dXMTJHZzZRM3R2cWl1TEY0dExhQk5kSG9TSGt5WEFuWlVKMlo4MkI2dkxBcjN0aTI0TG9LMFFJVWZJclNqMUNxSUdYVHNfT2k1bjVnRVlqeko4aUh1WjNDRFRyLWpUZ21sSnFWcUNhT19oNk9JUHZ6dFNQVy1JYnFsaEhJN0RlUQ?oc=5
 - **AI can’t answer this crucial question for patients - The Star** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQMFFkX241eU5DSER5N1pVNWZJMDlvZVFGR19DY2NOZVV0Znk5NXJPQTVrT2ZOVk9FcEhjaUtOR09uT29qNWJONXEzelRDdFdSQndOdUpjSEg3QTZoR3d4YzI2MlczdXpFOThKWEVPVTg0YWV3ZFcxMy1CXzRVVzZJMmNHSWxKc0NqTGVMZ1FiYnZJVnZoSFZhNXRyVl9iem9zdkhmeVdkRQ?oc=5
+- **Scientists design AI viruses unknown in nature spark medical hope and biosecurity alarm** — https://telecomlive.in/web/2026/08/08/scientists-design-ai-viruses-unknown-in-nature-spark-medical-hope-and-biosecurity-alarm/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3190
+- Total stories tracked: 3219
 - Most active topic: model
 - Busiest category: AI General News
 
