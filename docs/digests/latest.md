@@ -19,17 +19,17 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMipwFBVV95cUxQMFFkX241eU5DSER5N1pVNWZJMDlvZVFGR19DY2NOZVV0Znk5NXJPQTVrT2ZOVk9FcEhjaUtOR09uT29qNWJONXEzelRDdFdSQndOdUpjSEg3QTZoR3d4YzI2MlczdXpFOThKWEVPVTg0YWV3ZFcxMy1CXzRVVzZJMmNHSWxKc0NqTGVMZ1FiYnZJVnZoSFZhNXRyVl9iem9zdkhmeVdkRQ?oc=5
 6. **Scientists design AI viruses unknown in nature spark medical hope and biosecurity alarm** — science angle
    https://telecomlive.in/web/2026/08/08/scientists-design-ai-viruses-unknown-in-nature-spark-medical-hope-and-biosecurity-alarm/
-7. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
+7. **Health experts reveal warning signs of artificial intelligence ‘doctor’ scams - Kauai Now** — science angle
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1E4NUJiU1NYNXhkaUNRUEdpRl95WmQ5S2lxTEFRMzBQUmdvclpRM0V1LUF4dHc0VXAyVGhHOU9UY3VvbThKS3ByNG5kaXJhVTRQQzY3N3RjcVNBRk0wb1l4ZjhkTldxMThlU3p4Wm55WnIwQzNuOHI2NVFXSnpzZ2RoLUZRenBlLUkzdHo1RGl2d3A0czlkbHNVVHE3NmVQbWN5WWlJQXdUQWJISldWM3dR?oc=5
+8. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
-8. **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — science angle
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxQRWxTbUFyM0VuMlIwOEU0dFFybDctdGUwOTdDUURTNHNTOWRXdDFHSVdMRkZfbjRuTXJWSHNGbVJHVUExMEp1emItUTAtWDdkTjVzWjRDVjRPRHFzMUZDVnhMQl9xb0prbmNYcW1SeHc4N1NRMUdxUFZfV0c4ZVJ5VldhTjRqV1RRRnp6QS04WXBRNk9QeGlUVjNROWt5SWZQWGh4c25NTTFHVUVnemRWYQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
    https://www.mtdemocrat.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_4d94f52b-243b-5633-ae6f-125e96b62ffe.html
 2. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 90
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
-3. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 86
+3. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 83
    https://news.google.com/rss/articles/CBMigwFBVV95cUxOMTlZX3RBallPWnZLNHpZY29tUGJib0xzWXdiMGZyZXhxbk55cjFkSGVPQWtPMzFib2JvWDhaLS1icHJMYk9GeUFPbXVSb2hnSkVfdk1wVHdQaWI1b0oxTDFIZDRrYklNMkNUSThWdUt4bVNHS283dXVSZU81UjcyOEgwQQ?oc=5
 4. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Scientists design AI viruses unknown in nature spark medical hope and biosecurity alarm** — https://telecomlive.in/web/2026/08/08/scientists-design-ai-viruses-unknown-in-nature-spark-medical-hope-and-biosecurity-alarm/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3206
+- Total stories tracked: 3220
 - Most active topic: model
 - Busiest category: AI General News
 
