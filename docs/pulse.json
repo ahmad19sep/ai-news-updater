@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:00:08.000625+00:00",
+  "generated_at": "2026-08-09T02:30:35.239476+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,66 +9,91 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 14,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT image generation can revolutionize your marketing strategy.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative and marketing purposes in your professional life.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l9nK5qPEm50",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT to Generate Images for Social Media"
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Art with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners"
       ]
     },
     {
-      "name": "Claude AI Side Hustle",
-      "category": "use_case",
+      "name": "DeepMind's WeatherNext",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Claude AI can be used to create a side hustle, such as generating content or providing services.",
-      "audience_angle": "Earn extra money with Claude AI by starting a side hustle.",
-      "linkedin_angle": "Learn how Claude AI can help you create a lucrative side hustle and boost your career.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
+      "what_it_is": "DeepMind's WeatherNext is an AI model that achieves breakthrough forecasting of cyclones.",
+      "audience_angle": "WeatherNext can help you stay ahead of severe weather conditions and plan accordingly.",
+      "linkedin_angle": "Discover how WeatherNext can impact industries such as aviation, shipping, and emergency management.",
+      "local_relevance": 8,
+      "pillar": "news",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+          "signal": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones"
+        }
+      ],
+      "content_ideas": [
+        "How WeatherNext Can Revolutionize Weather Forecasting",
+        "The Impact of WeatherNext on Global Industries",
+        "Understanding the Technology Behind WeatherNext"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude AI is a tool that can be used for various tasks such as content creation and research.",
+      "audience_angle": "You can use Claude AI to automate tasks and increase productivity.",
+      "linkedin_angle": "Learn how to leverage Claude AI for professional purposes such as research and content creation.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its side hustle features."
+        "note": "Claude AI has an affiliate program"
       },
       "sources": [
         {
@@ -78,231 +103,262 @@
         }
       ],
       "content_ideas": [
-        "How to Create a Side Hustle with Claude AI",
-        "Claude AI: A Lucrative Side Hustle Opportunity",
-        "Using Claude AI to Generate Passive Income"
+        "How to Use Claude AI for Content Creation",
+        "Claude AI Tutorial for Beginners",
+        "Maximizing Productivity with Claude AI"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "technique",
-      "momentum": "rising",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation involves using AI tools to create videos based on text prompts or other inputs.",
-      "audience_angle": "Create stunning videos with just a few words using AI video generation tools.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your video marketing strategy.",
+      "what_it_is": "AI video generation refers to the use of artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create unique and engaging videos for your social media or personal projects.",
+      "linkedin_angle": "Discover how AI video generation can impact the marketing and entertainment industries.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs."
+        "note": "AI video generation tools often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xFfkllBuKCI",
-          "signal": "Make AI Videos FREE Long 3D cartoon Animation + Voice AI Video kaise banaye AI Video Generator"
+          "url": "https://www.youtube.com/watch?v=l9nK5qPEm50",
+          "signal": "ai se video kaise banaye"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI Video Generation",
-        "AI Video Generation: A Game-Changer for Marketers",
-        "Using AI Video Generation to Create Engaging Content"
+        "How to Create AI-Generated Videos for Social Media",
+        "The Future of Video Creation: AI Generation",
+        "AI Video Generation Tutorial for Beginners"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
+      "name": "ChatGPT Voice 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT agent mode allows users to interact with ChatGPT in a more conversational way.",
-      "audience_angle": "Get more out of ChatGPT with its agent mode feature.",
-      "linkedin_angle": "Learn how ChatGPT agent mode can help you streamline your workflow and boost productivity.",
+      "what_it_is": "ChatGPT Voice 2.0 is an updated version of the ChatGPT voice feature.",
+      "audience_angle": "You can use ChatGPT Voice 2.0 to create unique and engaging voice-overs for your videos or podcasts.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Voice 2.0 for professional purposes such as voice-overs and presentations.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its agent mode feature."
+        "note": "ChatGPT Voice 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "chatgpt agent mode"
+          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
+          "signal": "ChatGPT Voice 2.0 + Codex is INSANE"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Agent Mode",
-        "ChatGPT Agent Mode: A Productivity Game-Changer",
-        "Using ChatGPT Agent Mode to Automate Tasks"
+        "How to Use ChatGPT Voice 2.0 for Voice-Overs",
+        "ChatGPT Voice 2.0 Tutorial for Beginners",
+        "Maximizing Productivity with ChatGPT Voice 2.0"
       ]
     },
     {
-      "name": "AI Trading",
+      "name": "AI Agents",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI trading involves using AI tools to analyze and make trades in the financial markets.",
-      "audience_angle": "Earn money with AI trading by using AI tools to analyze and make trades.",
-      "linkedin_angle": "Learn how AI trading can help you make more informed investment decisions and boost your portfolio.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI trading tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "how to use ai for trading"
-        }
-      ],
-      "content_ideas": [
-        "How to Get Started with AI Trading",
-        "AI Trading: A Lucrative Opportunity",
-        "Using AI Trading to Make More Informed Investment Decisions"
-      ]
-    },
-    {
-      "name": "AI Voice Generation",
-      "category": "technique",
       "momentum": "hot",
       "platforms": [
+        "hackernews",
         "youtube"
       ],
-      "what_it_is": "AI voice generation involves using AI tools to create realistic voiceovers and audio content.",
-      "audience_angle": "Create stunning audio content with just a few words using AI voice generation tools.",
-      "linkedin_angle": "Discover how AI voice generation can revolutionize your audio marketing strategy.",
-      "local_relevance": 7,
+      "what_it_is": "AI agents refer to the use of artificial intelligence to automate tasks and processes.",
+      "audience_angle": "You can use AI agents to automate tasks and increase productivity.",
+      "linkedin_angle": "Discover how AI agents can impact industries such as customer service and tech support.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI voice generation tools often have affiliate programs."
+        "note": "AI agent tools often have affiliate programs"
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://ailucius.com/blog/making-an-ai-bid-writer-refuse-to-lie",
+          "signal": "Making an AI bid writer refuse to lie"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=M6riT-CvKNQ",
-          "signal": "Top 3 FREE AI Voice Generators Unlimited Realistic AI Voices"
+          "url": "https://www.youtube.com/watch?v=4LwtuscILlc",
+          "signal": "Build Your First AI Agent In 13 Minutes"
         }
       ],
       "content_ideas": [
-        "How to Create Realistic Voiceovers with AI Voice Generation",
-        "AI Voice Generation: A Game-Changer for Marketers",
-        "Using AI Voice Generation to Create Engaging Audio Content"
+        "How to Create AI Agents for Automation",
+        "The Future of Work: AI Agents and Automation",
+        "AI Agents Tutorial for Beginners"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can generate images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT image generation can revolutionize your marketing strategy.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and interesting images for your social media or personal projects.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative and marketing purposes in your professional life.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation feature."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l9nK5qPEm50",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT to Generate Images for Social Media"
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Art with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners"
       ]
     },
     {
-      "name": "ChatGPT Agent Mode",
+      "name": "ChatGPT Voice 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "ChatGPT agent mode allows users to interact with ChatGPT in a more conversational way.",
-      "audience_angle": "Get more out of ChatGPT with its agent mode feature.",
-      "linkedin_angle": "Learn how ChatGPT agent mode can help you streamline your workflow and boost productivity.",
+      "what_it_is": "ChatGPT Voice 2.0 is an updated version of the ChatGPT voice feature.",
+      "audience_angle": "You can use ChatGPT Voice 2.0 to create unique and engaging voice-overs for your videos or podcasts.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Voice 2.0 for professional purposes such as voice-overs and presentations.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its agent mode feature."
+        "note": "ChatGPT Voice 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
-          "signal": "chatgpt agent mode"
+          "url": "https://www.youtube.com/watch?v=7j3uSBMFy9U",
+          "signal": "ChatGPT Voice 2.0 + Codex is INSANE"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Agent Mode",
-        "ChatGPT Agent Mode: A Productivity Game-Changer",
-        "Using ChatGPT Agent Mode to Automate Tasks"
+        "How to Use ChatGPT Voice 2.0 for Voice-Overs",
+        "ChatGPT Voice 2.0 Tutorial for Beginners",
+        "Maximizing Productivity with ChatGPT Voice 2.0"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude AI is a tool that can be used for various tasks such as content creation and research.",
+      "audience_angle": "You can use Claude AI to automate tasks and increase productivity.",
+      "linkedin_angle": "Learn how to leverage Claude AI for professional purposes such as research and content creation.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sQQN53qx-VI",
+          "signal": "BEST Claude A.I. Side Hustle Nobody is Talking About"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Content Creation",
+        "Claude AI Tutorial for Beginners",
+        "Maximizing Productivity with Claude AI"
+      ]
+    },
+    {
+      "name": "DeepMind's WeatherNext",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "DeepMind's WeatherNext is an AI model that achieves breakthrough forecasting of cyclones.",
+      "audience_angle": "WeatherNext can help you stay ahead of severe weather conditions and plan accordingly.",
+      "linkedin_angle": "Discover how WeatherNext can impact industries such as aviation, shipping, and emergency management.",
+      "local_relevance": 8,
+      "pillar": "news",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+          "signal": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones"
+        }
+      ],
+      "content_ideas": [
+        "How WeatherNext Can Revolutionize Weather Forecasting",
+        "The Impact of WeatherNext on Global Industries",
+        "Understanding the Technology Behind WeatherNext"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/"
-        }
-      ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and token limits"
-    },
-    {
-      "problem": "Difficulty in using AI tools for non-technical users",
-      "who_affected": "Non-technical users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+beginners"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/"
         }
       ],
-      "content_opportunity": "How to use AI tools as a non-technical user"
+      "content_opportunity": "How to bypass ChatGPT usage limits"
+    },
+    {
+      "problem": "AI-generated code quality",
+      "who_affected": "Developers using AI-generated code",
+      "signal_strength": 8,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code"
+        }
+      ],
+      "content_opportunity": "Best practices for using AI-generated code"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
