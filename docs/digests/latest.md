@@ -21,8 +21,8 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://telecomlive.in/web/2026/08/08/scientists-design-ai-viruses-unknown-in-nature-spark-medical-hope-and-biosecurity-alarm/
 7. **Health experts reveal warning signs of artificial intelligence ‘doctor’ scams - Kauai Now** — science angle
    https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1E4NUJiU1NYNXhkaUNRUEdpRl95WmQ5S2lxTEFRMzBQUmdvclpRM0V1LUF4dHc0VXAyVGhHOU9UY3VvbThKS3ByNG5kaXJhVTRQQzY3N3RjcVNBRk0wb1l4ZjhkTldxMThlU3p4Wm55WnIwQzNuOHI2NVFXSnpzZ2RoLUZRenBlLUkzdHo1RGl2d3A0czlkbHNVVHE3NmVQbWN5WWlJQXdUQWJISldWM3dR?oc=5
-8. **“AI tools will not replace doctors, but they will save us work” - calcalistech.com** — science angle
-   https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vUUhpM1BzZGJXRXVSX2pWbkgyY2ZkZ0NyWURob3Y2MVM4UTZjS1YzYTMtUWRqdG9mMldsMGRsUWg1NHdhT1l5M1M0S0xBTExQa1BpODFMdjF4cmdBZnlSODVROVJpcVU?oc=5
+8. **AI Is Already Beating Human Doctors in Medical Tests - Yahoo** — science angle
+   https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
@@ -54,8 +54,8 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Scientists design AI viruses unknown in nature spark medical hope and biosecurity alarm** — https://telecomlive.in/web/2026/08/08/scientists-design-ai-viruses-unknown-in-nature-spark-medical-hope-and-biosecurity-alarm/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3211
-- Most active topic: model
+- Total stories tracked: 3201
+- Most active topic: agents
 - Busiest category: AI General News
 
 ---
