@@ -54,8 +54,8 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **AI can’t answer this crucial question for patients - The Star** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQMFFkX241eU5DSER5N1pVNWZJMDlvZVFGR19DY2NOZVV0Znk5NXJPQTVrT2ZOVk9FcEhjaUtOR09uT29qNWJONXEzelRDdFdSQndOdUpjSEg3QTZoR3d4YzI2MlczdXpFOThKWEVPVTg0YWV3ZFcxMy1CXzRVVzZJMmNHSWxKc0NqTGVMZ1FiYnZJVnZoSFZhNXRyVl9iem9zdkhmeVdkRQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3253
-- Most active topic: model
+- Total stories tracked: 3236
+- Most active topic: agents
 - Busiest category: AI General News
 
 ---
