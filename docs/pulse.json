@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:18:26.103466+00:00",
+  "generated_at": "2026-08-09T13:17:09.888427+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 15,
+      "reddit": 50,
+      "hackernews": 16,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create engaging visual content for your business.",
+      "what_it_is": "ChatGPT Images 2.0 is a new feature that allows users to generate images using ChatGPT.",
+      "audience_angle": "You can now create images using ChatGPT, opening up new possibilities for art and design.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your creative workflow and improve productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows you to earn money by promoting the tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -41,46 +41,40 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
-        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "5 Ways ChatGPT Images 2.0 Can Enhance Your Artistic Workflow",
+        "ChatGPT Images 2.0: A Game-Changer for Graphic Designers?"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "DeepSeek V4 Flash",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
         "reddit"
       ],
-      "what_it_is": "Claude AI is a tool that helps you create and edit videos using AI.",
-      "audience_angle": "You can use Claude AI to create professional-looking videos without any video editing experience.",
-      "linkedin_angle": "Learn how Claude AI can help you create engaging video content for your business.",
-      "local_relevance": 8,
+      "what_it_is": "DeepSeek V4 Flash is a new AI model that achieves high performance on certain benchmarks.",
+      "audience_angle": "DeepSeek V4 Flash can help you improve your AI model's performance and efficiency.",
+      "linkedin_angle": "Discover how DeepSeek V4 Flash can optimize your AI workflow and drive business results.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program that allows you to earn money by promoting the tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
-          "signal": "Claude Design Just Unlocked AI Motion Graphics"
-        },
-        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjd2yi/day_1_of_running_an_ai_only_website_where_ais_run/",
-          "signal": "day 1 of running an ai only website where ai's run stores and sell stuff to each other."
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/",
+          "signal": "DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI to Create Stunning Videos",
-        "10 Creative Ways to Use Claude AI for Your Business",
-        "Claude AI Tutorial: A Step-by-Step Guide"
+        "Unlocking the Power of DeepSeek V4 Flash: A Beginner's Guide",
+        "How DeepSeek V4 Flash Can Revolutionize Your AI Development Workflow",
+        "DeepSeek V4 Flash: The Future of AI Model Optimization?"
       ]
     },
     {
@@ -90,127 +84,28 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows you to create videos using AI.",
-      "audience_angle": "You can use AI video generation to create unique and personalized videos for your social media or website.",
-      "linkedin_angle": "Discover how AI video generation can help you create engaging visual content for your business.",
-      "local_relevance": 6,
+      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
+      "audience_angle": "You can now create stunning videos using AI, without extensive video editing experience.",
+      "linkedin_angle": "Explore how AI video generation can enhance your marketing and storytelling efforts.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "AI video generation is a technology that can be used for various purposes, including business and personal use."
+        "affiliate_likely": true,
+        "note": "Some AI video generation tools offer affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l9nK5qPEm50",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+          "signal": "ai se video kaise banaye"
         }
       ],
       "content_ideas": [
-        "How to Use AI Video Generation to Create Stunning Videos",
-        "10 Creative Ways to Use AI Video Generation for Your Business",
-        "AI Video Generation Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "ChatGPT",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "ChatGPT is a chatbot that uses AI to generate human-like responses to user input.",
-      "audience_angle": "You can use ChatGPT to have conversations, ask questions, and even generate text based on a prompt.",
-      "linkedin_angle": "Learn how ChatGPT can help you automate tasks and improve productivity.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program that allows you to earn money by promoting the tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
-          "signal": "ChatGPT starts blocking direct requests to copy an author's style"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT to Automate Tasks",
-        "10 Creative Ways to Use ChatGPT for Your Business",
-        "ChatGPT Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI agents are computer programs that use AI to perform tasks on behalf of a user.",
-      "audience_angle": "You can use AI agents to automate tasks, such as scheduling appointments or sending emails.",
-      "linkedin_angle": "Discover how AI agents can help you improve productivity and efficiency in your business.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "AI agents are a technology that can be used for various purposes, including business and personal use."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tfbeDiKSjz0",
-          "signal": "AI Agents Are Not What Most Businesses Think (w/ Special Guest: Devin Kearns)"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI Agents to Automate Tasks",
-        "10 Creative Ways to Use AI Agents for Your Business",
-        "AI Agents Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "DeepMind's WeatherNext",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "DeepMind's WeatherNext is a AI-powered weather forecasting model.",
-      "audience_angle": "You can use DeepMind's WeatherNext to get accurate and reliable weather forecasts.",
-      "linkedin_angle": "Learn how DeepMind's WeatherNext can help you make informed decisions in your business or personal life.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "DeepMind's WeatherNext is a research project and not a commercial product."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
-          "signal": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones"
-        }
-      ],
-      "content_ideas": [
-        "How to Use DeepMind's WeatherNext for Accurate Weather Forecasts",
-        "10 Creative Ways to Use DeepMind's WeatherNext for Your Business",
-        "DeepMind's WeatherNext Tutorial: A Step-by-Step Guide"
+        "How to Create Viral Videos with AI: A Step-by-Step Guide",
+        "5 AI Video Generation Tools to Take Your Marketing to the Next Level",
+        "The Future of Video Creation: How AI is Changing the Game"
       ]
     }
   ],
@@ -222,16 +117,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create engaging visual content for your business.",
+      "what_it_is": "ChatGPT Images 2.0 is a new feature that allows users to generate images using ChatGPT.",
+      "audience_angle": "You can now create images using ChatGPT, opening up new possibilities for art and design.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your creative workflow and improve productivity.",
       "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program that allows you to earn money by promoting the tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -241,142 +136,56 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
-        "10 Creative Ways to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "5 Ways ChatGPT Images 2.0 Can Enhance Your Artistic Workflow",
+        "ChatGPT Images 2.0: A Game-Changer for Graphic Designers?"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "DeepSeek V4 Flash",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube",
         "reddit"
       ],
-      "what_it_is": "Claude AI is a tool that helps you create and edit videos using AI.",
-      "audience_angle": "You can use Claude AI to create professional-looking videos without any video editing experience.",
-      "linkedin_angle": "Learn how Claude AI can help you create engaging video content for your business.",
-      "local_relevance": 8,
+      "what_it_is": "DeepSeek V4 Flash is a new AI model that achieves high performance on certain benchmarks.",
+      "audience_angle": "DeepSeek V4 Flash can help you improve your AI model's performance and efficiency.",
+      "linkedin_angle": "Discover how DeepSeek V4 Flash can optimize your AI workflow and drive business results.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program that allows you to earn money by promoting the tool."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
-          "signal": "Claude Design Just Unlocked AI Motion Graphics"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjd2yi/day_1_of_running_an_ai_only_website_where_ais_run/",
-          "signal": "day 1 of running an ai only website where ai's run stores and sell stuff to each other."
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude AI to Create Stunning Videos",
-        "10 Creative Ways to Use Claude AI for Your Business",
-        "Claude AI Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "ChatGPT",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "ChatGPT is a chatbot that uses AI to generate human-like responses to user input.",
-      "audience_angle": "You can use ChatGPT to have conversations, ask questions, and even generate text based on a prompt.",
-      "linkedin_angle": "Learn how ChatGPT can help you automate tasks and improve productivity.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program that allows you to earn money by promoting the tool."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
-          "signal": "ChatGPT starts blocking direct requests to copy an author's style"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT to Automate Tasks",
-        "10 Creative Ways to Use ChatGPT for Your Business",
-        "ChatGPT Tutorial: A Step-by-Step Guide"
-      ]
-    },
-    {
-      "name": "DeepMind's WeatherNext",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "DeepMind's WeatherNext is a AI-powered weather forecasting model.",
-      "audience_angle": "You can use DeepMind's WeatherNext to get accurate and reliable weather forecasts.",
-      "linkedin_angle": "Learn how DeepMind's WeatherNext can help you make informed decisions in your business or personal life.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
         "affiliate_likely": false,
-        "note": "DeepMind's WeatherNext is a research project and not a commercial product."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
-          "signal": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/",
+          "signal": "DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1"
         }
       ],
       "content_ideas": [
-        "How to Use DeepMind's WeatherNext for Accurate Weather Forecasts",
-        "10 Creative Ways to Use DeepMind's WeatherNext for Your Business",
-        "DeepMind's WeatherNext Tutorial: A Step-by-Step Guide"
+        "Unlocking the Power of DeepSeek V4 Flash: A Beginner's Guide",
+        "How DeepSeek V4 Flash Can Revolutionize Your AI Development Workflow",
+        "DeepSeek V4 Flash: The Future of AI Model Optimization?"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjd2yi/day_1_of_running_an_ai_only_website_where_ais_run/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfinf/memory_gone/"
         }
       ],
-      "content_opportunity": "How to overcome Claude usage/token limits and continue using the tool effectively."
-    },
-    {
-      "problem": "ChatGPT swearing more lately",
-      "who_affected": "ChatGPT users",
-      "signal_strength": 6,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb2yh/chatgpt_swearing_more_lately/"
-        }
-      ],
-      "content_opportunity": "Why is ChatGPT swearing more lately and how to avoid it in your conversations."
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Workarounds"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "ChatGPT Images 2.0, because it offers a new and exciting way for users to generate images using AI, with a wide range of creative possibilities."
 }
