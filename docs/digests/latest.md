@@ -41,10 +41,10 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
 8. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 66.0
    https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-9. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
+9. **Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade. - The Motley Fool** — Jensen Huang News — Score 66
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxOU016VGRQbXZpLWRMczNLYWZET0J5RWxOam1IY1VXMzhhLWthakhnRkFram4weERacmlWT1A4eDMwNF9VZTFONS1mR0dWRzlRTV9nUXB2YVRZZVNQbzU5ZnVhbG9ydUhGazM0TzR3dnBXWjhubnRJUlgtTnVqWEJXM3J5dVBva1lYSFdmdURySE5UZUxRRWcyYw?oc=5
+10. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
-10. **Amazon loses US court ban on Perplexity's AI shopping tools - Reuters** — Perplexity News — Score 57
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5
 
 ## 🧪 AI in Science Highlights
 - **AI Is Already Beating Human Doctors in Medical Tests - Yahoo** — https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **AI can’t answer this crucial question for patients - The Star** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQMFFkX241eU5DSER5N1pVNWZJMDlvZVFGR19DY2NOZVV0Znk5NXJPQTVrT2ZOVk9FcEhjaUtOR09uT29qNWJONXEzelRDdFdSQndOdUpjSEg3QTZoR3d4YzI2MlczdXpFOThKWEVPVTg0YWV3ZFcxMy1CXzRVVzZJMmNHSWxKc0NqTGVMZ1FiYnZJVnZoSFZhNXRyVl9iem9zdkhmeVdkRQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3228
+- Total stories tracked: 3244
 - Most active topic: model
 - Busiest category: AI General News
 
