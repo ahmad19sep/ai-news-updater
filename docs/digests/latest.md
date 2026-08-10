@@ -11,18 +11,18 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
 2. **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — science angle
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
-3. **Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating** — 68 upvotes on Reddit/HN
+3. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
+   https://www.nature.com/articles/d41586-026-02447-y
+4. **Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating** — 68 upvotes on Reddit/HN
    https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/
-4. **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — science angle
+5. **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — science angle
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
-5. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
+6. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-6. **Health experts reveal warning signs of artificial intelligence ‘doctor’ scams - Kauai Now** — science angle
+7. **Health experts reveal warning signs of artificial intelligence ‘doctor’ scams - Kauai Now** — science angle
    https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1E4NUJiU1NYNXhkaUNRUEdpRl95WmQ5S2lxTEFRMzBQUmdvclpRM0V1LUF4dHc0VXAyVGhHOU9UY3VvbThKS3ByNG5kaXJhVTRQQzY3N3RjcVNBRk0wb1l4ZjhkTldxMThlU3p4Wm55WnIwQzNuOHI2NVFXSnpzZ2RoLUZRenBlLUkzdHo1RGl2d3A0czlkbHNVVHE3NmVQbWN5WWlJQXdUQWJISldWM3dR?oc=5
-7. **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — science angle
+8. **Patient AI Use and the Decline of Physician Trust, With Robert Shpiner, MD - Patient Care Online** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxQRWxTbUFyM0VuMlIwOEU0dFFybDctdGUwOTdDUURTNHNTOWRXdDFHSVdMRkZfbjRuTXJWSHNGbVJHVUExMEp1emItUTAtWDdkTjVzWjRDVjRPRHFzMUZDVnhMQl9xb0prbmNYcW1SeHc4N1NRMUdxUFZfV0c4ZVJ5VldhTjRqV1RRRnp6QS04WXBRNk9QeGlUVjNROWt5SWZQWGh4c25NTTFHVUVnemRWYQ?oc=5
-8. **Akido is expanding AI for patient intake and diagnoses across 100 clinics - Endpoints News** — science angle
-   https://news.google.com/rss/articles/CBMingFBVV95cUxQbzhSRW5pYjFyZFVLX0lqOFE0VzdRMXUzUmJ2LXBmTDRRNGEzWWk4bTBadWhlZ2E4X0pvVGNranBKVnd5Ry1aeThBY1BTYnIwOXFodjk1STJCSHc3a3FHNVF1SnpIcHQxVFVRdHlINjRVcHRHb3VtSVUtSGZhdE80RXV5amlleW41c0xESXI2X0NVdzkwX0ZQMnkzTC0wZw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
@@ -49,12 +49,12 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 ## 🧪 AI in Science Highlights
 - **AI Is Already Beating Human Doctors in Medical Tests - Yahoo** — https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
 - **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
+- **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — https://www.nature.com/articles/d41586-026-02447-y
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-- **Health experts reveal warning signs of artificial intelligence ‘doctor’ scams - Kauai Now** — https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1E4NUJiU1NYNXhkaUNRUEdpRl95WmQ5S2lxTEFRMzBQUmdvclpRM0V1LUF4dHc0VXAyVGhHOU9UY3VvbThKS3ByNG5kaXJhVTRQQzY3N3RjcVNBRk0wb1l4ZjhkTldxMThlU3p4Wm55WnIwQzNuOHI2NVFXSnpzZ2RoLUZRenBlLUkzdHo1RGl2d3A0czlkbHNVVHE3NmVQbWN5WWlJQXdUQWJISldWM3dR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3259
+- Total stories tracked: 3312
 - Most active topic: agents
 - Busiest category: AI General News
 
