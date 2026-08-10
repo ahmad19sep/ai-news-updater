@@ -35,14 +35,14 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
 5. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 76.0
    https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-6. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
-7. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
-8. **Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade. - The Motley Fool** — Jensen Huang News — Score 66
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxOU016VGRQbXZpLWRMczNLYWZET0J5RWxOam1IY1VXMzhhLWthakhnRkFram4weERacmlWT1A4eDMwNF9VZTFONS1mR0dWRzlRTV9nUXB2YVRZZVNQbzU5ZnVhbG9ydUhGazM0TzR3dnBXWjhubnRJUlgtTnVqWEJXM3J5dVBva1lYSFdmdURySE5UZUxRRWcyYw?oc=5
-9. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 66
+6. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 76
    https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
+7. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
+8. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
+9. **Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade. - The Motley Fool** — Jensen Huang News — Score 66
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxOU016VGRQbXZpLWRMczNLYWZET0J5RWxOam1IY1VXMzhhLWthakhnRkFram4weERacmlWT1A4eDMwNF9VZTFONS1mR0dWRzlRTV9nUXB2YVRZZVNQbzU5ZnVhbG9ydUhGazM0TzR3dnBXWjhubnRJUlgtTnVqWEJXM3J5dVBva1lYSFdmdURySE5UZUxRRWcyYw?oc=5
 10. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
    https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
 
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Health experts reveal warning signs of artificial intelligence ‘doctor’ scams - Kauai Now** — https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1E4NUJiU1NYNXhkaUNRUEdpRl95WmQ5S2lxTEFRMzBQUmdvclpRM0V1LUF4dHc0VXAyVGhHOU9UY3VvbThKS3ByNG5kaXJhVTRQQzY3N3RjcVNBRk0wb1l4ZjhkTldxMThlU3p4Wm55WnIwQzNuOHI2NVFXSnpzZ2RoLUZRenBlLUkzdHo1RGl2d3A0czlkbHNVVHE3NmVQbWN5WWlJQXdUQWJISldWM3dR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3336
+- Total stories tracked: 3351
 - Most active topic: agents
 - Busiest category: AI General News
 
