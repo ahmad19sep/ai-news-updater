@@ -17,12 +17,12 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 5. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
-6. **Health experts reveal warning signs of artificial intelligence ‘doctor’ scams - Kauai Now** — science angle
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1E4NUJiU1NYNXhkaUNRUEdpRl95WmQ5S2lxTEFRMzBQUmdvclpRM0V1LUF4dHc0VXAyVGhHOU9UY3VvbThKS3ByNG5kaXJhVTRQQzY3N3RjcVNBRk0wb1l4ZjhkTldxMThlU3p4Wm55WnIwQzNuOHI2NVFXSnpzZ2RoLUZRenBlLUkzdHo1RGl2d3A0czlkbHNVVHE3NmVQbWN5WWlJQXdUQWJISldWM3dR?oc=5
-7. **What happens when medical students rely on AI – and never develop their own judgment? - The Guardian** — science angle
+6. **What happens when medical students rely on AI – and never develop their own judgment? - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ1RVb2g2MXVrUmdOMVh1T3Vfc3pPaXcxUEI0bXVGSlNub0tOWnp1RzNNbFJVcjRrdDhPcGtlblhkLXVUVmJaZE5BTWlvRF9ocGpMay04OXdxU1dBU3Z1ejY2WGhyYVMyaFFsaktVQVpCMFZ4MEpQNm9yN1RhVEhmdUFDN3dhVmJsNUE?oc=5
-8. **Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating** — 68 upvotes on Reddit/HN
-   https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/
+7. **This student is using AI to give doctors more time with their patients - Northeastern Global News** — science angle
+   https://news.google.com/rss/articles/CBMidEFVX3lxTE5meWN5SGNxWkZSMUE3NXJVSzl2YkJwVmtxZlJQd3hNdGZnTmtaR1FfdU9CT3JtZjl2Z0tHT3FLVW40WUpyUkJUcWRUTXE4ZmNYNDdiVFRsaFp2Umc5V0Z0ZG9hRUhkZlppaWdESWlLRlNXWDBs?oc=5
+8. **Doctors Must Decide When to Trust AI — And When Not To - medscape.com** — science angle
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOWWRzMjRmb21WXzNLbjVvTXpDWWdCamVIYVBEblpBNS15clpvRXlEVzktX1JiVU8xZ2x0cFF6RmE2bVFjMldxTk1SQnhqbkNhdXdEVG1WNUk5X2J5Ql9WSGZ1eHhGa0xVdWZFMG1uMlBxdlZ2aGs2cFNhU3VrWVY5WS1oSHRiRnl5SHJla1dnakltMy10WEw0VndDa3FwdDh5emJv?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
@@ -37,14 +37,14 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
 6. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
    https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-7. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
+7. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 73
+   https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRMlNMU19RakFvVGtGbk82WWdBY25STHV4OG84ZGljaWgzUUZRa1ROb2g2eERJV2pOTUlsRjNtbzFEU290QTBVcUV6UVpEQ0g1UEt2S1RFRDNhRGRLcnlTUFVTcWtXVU45WXF1cVNPMWgxQ3J3WWRqVFEweU5ZRkRQZXA5SmNUWkVCSEN1ZVdvaEI5M3B5aG1WeVctcW9YWmtIZ2c?oc=5
+8. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
    https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
-8. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
+9. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
    https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
-9. **Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade. - The Motley Fool** — Jensen Huang News — Score 66
+10. **Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade. - The Motley Fool** — Jensen Huang News — Score 66
    https://news.google.com/rss/articles/CBMimAFBVV95cUxOU016VGRQbXZpLWRMczNLYWZET0J5RWxOam1IY1VXMzhhLWthakhnRkFram4weERacmlWT1A4eDMwNF9VZTFONS1mR0dWRzlRTV9nUXB2YVRZZVNQbzU5ZnVhbG9ydUhGazM0TzR3dnBXWjhubnRJUlgtTnVqWEJXM3J5dVBva1lYSFdmdURySE5UZUxRRWcyYw?oc=5
-10. **Genius HRTech survey finds AI reshaping workplace learning** — cfotech_co_nz — Score 63
-   https://cfotech.co.nz/story/genius-hrtech-survey-finds-ai-reshaping-workplace-learning
 
 ## 🧪 AI in Science Highlights
 - **AI Is Already Beating Human Doctors in Medical Tests - Yahoo** — https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3346
+- Total stories tracked: 3376
 - Most active topic: agents
 - Busiest category: AI General News
 
