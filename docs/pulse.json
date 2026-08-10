@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:02:54.246994+00:00",
+  "generated_at": "2026-08-10T02:36:06.498422+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can now create stunning images with the help of AI using ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "ChatGPT Images 2.0 is a new version of the AI image generation tool.",
+      "audience_angle": "You can now create more realistic images with ChatGPT Images 2.0.",
+      "linkedin_angle": "Upgrade your visual content creation with ChatGPT Images 2.0.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
@@ -41,40 +41,114 @@
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for content creation",
-        "Top 5 ways to monetize your ChatGPT Images 2.0 creations",
-        "ChatGPT Images 2.0 vs traditional image creation methods: Which is better?"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Images 2.0 for Your Business"
       ]
     },
     {
-      "name": "Claude AI",
-      "category": "tool_launch",
+      "name": "AI Agents Hacking",
+      "category": "debate",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "hackernews",
+        "reddit"
       ],
-      "what_it_is": "Claude AI is a tool that allows users to create and sell digital products using AI.",
-      "audience_angle": "You can now create and sell digital products with the help of AI using Claude AI.",
-      "linkedin_angle": "Discover how Claude AI can help you create and sell digital products and grow your business.",
+      "what_it_is": "AI agents are being used to hack into systems and cause damage.",
+      "audience_angle": "You need to be aware of the risks of AI agents being used for hacking.",
+      "linkedin_angle": "The rise of AI-powered hacking: what it means for your business.",
       "local_relevance": 8,
-      "pillar": "practical_earning",
+      "pillar": "news",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986",
+          "signal": "AI assistant hacks gym website in first known Australian autonomous cyber attack"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
+          "signal": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list."
+        }
+      ],
+      "content_ideas": [
+        "The Dangers of AI Agents: How to Protect Yourself",
+        "The Rise of AI-Powered Hacking: What You Need to Know",
+        "How to Prevent AI Agents from Hacking into Your System"
+      ]
+    },
+    {
+      "name": "Google AI Tools",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google has launched new AI tools for various applications.",
+      "audience_angle": "You can now use Google's AI tools to improve your workflow.",
+      "linkedin_angle": "Boost your productivity with Google's new AI tools.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program"
+        "note": "Google AI tools have an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=c8qqXyyw6r0",
-          "signal": "The Mom Who Mastered Claude: The Fastest Way To Make Your First Million Using AI"
+          "url": "https://www.youtube.com/watch?v=W4M403Chr9A",
+          "signal": "Google New 15 AI Tools"
         }
       ],
       "content_ideas": [
-        "How to use Claude AI to create and sell digital products",
-        "Top 5 ways to monetize your Claude AI creations",
-        "Claude AI vs traditional digital product creation methods: Which is better?"
+        "How to Use Google's AI Tools to Improve Your Workflow",
+        "Google AI Tools Tutorial for Beginners",
+        "5 Ways to Use Google's AI Tools for Your Business"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a new version of the AI tool designed for work applications.",
+      "audience_angle": "You can now use ChatGPT Work to improve your work productivity.",
+      "linkedin_angle": "Upgrade your work productivity with ChatGPT Work.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vk5323/comecei_a_usar_o_chatgpt_work_e_sinto_que_estou/",
+          "signal": "Comecei a usar o ChatGPT Work e sinto que estou só arranhando a superfície."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Work to Improve Your Productivity",
+        "ChatGPT Work Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Work for Your Business"
       ]
     },
     {
@@ -84,121 +158,59 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI.",
-      "audience_angle": "You can now create stunning videos with the help of AI using AI video generation technology.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your video creation workflow.",
+      "what_it_is": "AI video generation is a new trend in content creation.",
+      "audience_angle": "You can now create stunning videos using AI.",
+      "linkedin_angle": "Create professional-looking videos with AI video generation.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "reel",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "AI video generation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l9nK5qPEm50",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+          "signal": "ai se video kaise banaye"
         }
       ],
       "content_ideas": [
-        "How to use AI video generation for content creation",
-        "Top 5 ways to monetize your AI-generated videos",
-        "AI video generation vs traditional video creation methods: Which is better?"
+        "How to Create Stunning Videos with AI",
+        "AI Video Generation Tutorial for Beginners",
+        "5 Ways to Use AI Video Generation for Your Business"
       ]
     },
     {
-      "name": "ChatGPT 5",
+      "name": "Claude AI",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT 5 is a tool that allows users to generate human-like text using AI.",
-      "audience_angle": "You can now create stunning text with the help of AI using ChatGPT 5.",
-      "linkedin_angle": "Discover how ChatGPT 5 can revolutionize your content creation workflow.",
+      "what_it_is": "Claude AI is a new AI tool designed for various applications.",
+      "audience_angle": "You can now use Claude AI to improve your workflow.",
+      "linkedin_angle": "Boost your productivity with Claude AI.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
-          "signal": "HRT Conjecture Disproven with GPT 5.6 Pro"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT 5 for content creation",
-        "Top 5 ways to monetize your ChatGPT 5 creations",
-        "ChatGPT 5 vs traditional content creation methods: Which is better?"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI agents are tools that allow users to automate tasks using AI.",
-      "audience_angle": "You can now automate tasks with the help of AI using AI agents.",
-      "linkedin_angle": "Discover how AI agents can help you automate tasks and grow your business.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tfbeDiKSjz0",
-          "signal": "AI Agents Are Not What Most Businesses Think"
+          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
+          "signal": "Claude Design Just Unlocked AI Motion Graphics"
         }
       ],
       "content_ideas": [
-        "How to use AI agents for task automation",
-        "Top 5 ways to monetize your AI agent creations",
-        "AI agents vs traditional task automation methods: Which is better?"
-      ]
-    },
-    {
-      "name": "DeepSeek V4",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "DeepSeek V4 is a tool that allows users to generate text using AI.",
-      "audience_angle": "You can now create stunning text with the help of AI using DeepSeek V4.",
-      "linkedin_angle": "Discover how DeepSeek V4 can revolutionize your content creation workflow.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model",
-          "signal": "Show HN: DeepSeek-V4 Latent Reasoning – moving \"thinking\" into latent space"
-        }
-      ],
-      "content_ideas": [
-        "How to use DeepSeek V4 for content creation",
-        "Top 5 ways to monetize your DeepSeek V4 creations",
-        "DeepSeek V4 vs traditional content creation methods: Which is better?"
+        "How to Use Claude AI to Improve Your Workflow",
+        "Claude AI Tutorial for Beginners",
+        "5 Ways to Use Claude AI for Your Business"
       ]
     }
   ],
@@ -210,16 +222,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that allows users to generate images using AI.",
-      "audience_angle": "You can now create stunning images with the help of AI using ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation workflow.",
+      "what_it_is": "ChatGPT Images 2.0 is a new version of the AI image generation tool.",
+      "audience_angle": "You can now create more realistic images with ChatGPT Images 2.0.",
+      "linkedin_angle": "Upgrade your visual content creation with ChatGPT Images 2.0.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
@@ -229,9 +241,77 @@
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for content creation",
-        "Top 5 ways to monetize your ChatGPT Images 2.0 creations",
-        "ChatGPT Images 2.0 vs traditional image creation methods: Which is better?"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Images 2.0 for Your Business"
+      ]
+    },
+    {
+      "name": "Google AI Tools",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google has launched new AI tools for various applications.",
+      "audience_angle": "You can now use Google's AI tools to improve your workflow.",
+      "linkedin_angle": "Boost your productivity with Google's new AI tools.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google AI tools have an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=W4M403Chr9A",
+          "signal": "Google New 15 AI Tools"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Google's AI Tools to Improve Your Workflow",
+        "Google AI Tools Tutorial for Beginners",
+        "5 Ways to Use Google's AI Tools for Your Business"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a new version of the AI tool designed for work applications.",
+      "audience_angle": "You can now use ChatGPT Work to improve your work productivity.",
+      "linkedin_angle": "Upgrade your work productivity with ChatGPT Work.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vk5323/comecei_a_usar_o_chatgpt_work_e_sinto_que_estou/",
+          "signal": "Comecei a usar o ChatGPT Work e sinto que estou só arranhando a superfície."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Work to Improve Your Productivity",
+        "ChatGPT Work Tutorial for Beginners",
+        "5 Ways to Use ChatGPT Work for Your Business"
       ]
     },
     {
@@ -241,13 +321,13 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude AI is a tool that allows users to create and sell digital products using AI.",
-      "audience_angle": "You can now create and sell digital products with the help of AI using Claude AI.",
-      "linkedin_angle": "Discover how Claude AI can help you create and sell digital products and grow your business.",
-      "local_relevance": 8,
+      "what_it_is": "Claude AI is a new AI tool designed for various applications.",
+      "audience_angle": "You can now use Claude AI to improve your workflow.",
+      "linkedin_angle": "Boost your productivity with Claude AI.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
         "note": "Claude AI has an affiliate program"
@@ -255,76 +335,14 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=c8qqXyyw6r0",
-          "signal": "The Mom Who Mastered Claude: The Fastest Way To Make Your First Million Using AI"
+          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
+          "signal": "Claude Design Just Unlocked AI Motion Graphics"
         }
       ],
       "content_ideas": [
-        "How to use Claude AI to create and sell digital products",
-        "Top 5 ways to monetize your Claude AI creations",
-        "Claude AI vs traditional digital product creation methods: Which is better?"
-      ]
-    },
-    {
-      "name": "ChatGPT 5",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT 5 is a tool that allows users to generate human-like text using AI.",
-      "audience_angle": "You can now create stunning text with the help of AI using ChatGPT 5.",
-      "linkedin_angle": "Discover how ChatGPT 5 can revolutionize your content creation workflow.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
-          "signal": "HRT Conjecture Disproven with GPT 5.6 Pro"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT 5 for content creation",
-        "Top 5 ways to monetize your ChatGPT 5 creations",
-        "ChatGPT 5 vs traditional content creation methods: Which is better?"
-      ]
-    },
-    {
-      "name": "DeepSeek V4",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "DeepSeek V4 is a tool that allows users to generate text using AI.",
-      "audience_angle": "You can now create stunning text with the help of AI using DeepSeek V4.",
-      "linkedin_angle": "Discover how DeepSeek V4 can revolutionize your content creation workflow.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model",
-          "signal": "Show HN: DeepSeek-V4 Latent Reasoning – moving \"thinking\" into latent space"
-        }
-      ],
-      "content_ideas": [
-        "How to use DeepSeek V4 for content creation",
-        "Top 5 ways to monetize your DeepSeek V4 creations",
-        "DeepSeek V4 vs traditional content creation methods: Which is better?"
+        "How to Use Claude AI to Improve Your Workflow",
+        "Claude AI Tutorial for Beginners",
+        "5 Ways to Use Claude AI for Your Business"
       ]
     }
   ],
@@ -336,23 +354,11 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjw20y/what_is_image_generation_limit_on_plans/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vk4fcf/chatgpt_loves_using_redundant_words_sometimes/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and create stunning content"
-    },
-    {
-      "problem": "AI psychosis and Anti-AI psychosis",
-      "who_affected": "AI users and non-users",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vjas7d/ai_psychosis_and_antiai_psychosis/"
-        }
-      ],
-      "content_opportunity": "The impact of AI on mental health: How to overcome AI psychosis and Anti-AI psychosis"
+      "content_opportunity": "How to Optimize ChatGPT Usage and Avoid Limits"
     }
   ],
-  "tool_of_week_candidate": "Claude AI"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
