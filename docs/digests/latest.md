@@ -31,14 +31,14 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
 3. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 83
    https://news.google.com/rss/articles/CBMigwFBVV95cUxOMTlZX3RBallPWnZLNHpZY29tUGJib0xzWXdiMGZyZXhxbk55cjFkSGVPQWtPMzFib2JvWDhaLS1icHJMYk9GeUFPbXVSb2hnSkVfdk1wVHdQaWI1b0oxTDFIZDRrYklNMkNUSThWdUt4bVNHS283dXVSZU81UjcyOEgwQQ?oc=5
-4. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
-   https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
-5. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 76
-   https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
-6. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
-   https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-7. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 73
+4. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 83
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRMlNMU19RakFvVGtGbk82WWdBY25STHV4OG84ZGljaWgzUUZRa1ROb2g2eERJV2pOTUlsRjNtbzFEU290QTBVcUV6UVpEQ0g1UEt2S1RFRDNhRGRLcnlTUFVTcWtXVU45WXF1cVNPMWgxQ3J3WWRqVFEweU5ZRkRQZXA5SmNUWkVCSEN1ZVdvaEI5M3B5aG1WeVctcW9YWmtIZ2c?oc=5
+5. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
+   https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
+6. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 76
+   https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
+7. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
+   https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
 8. **Meta Launches Muse Code AI Agent to Challenge OpenAI, Anthropic - The Tech Buzz** — AI Agents — Score 68
    https://news.google.com/rss/articles/CBMimwFBVV95cUxNekdTVlBwYUNMaTk2TTdpTjNITmwzcTV0QWNEaDBJb1Q1aWMyZ0ItcU50X3NzdHl0aEZnaXAwRF9YaUxlMzcyM1V2TExoV2JIa0JKRlAzYjZvdk9HQkdONDVQUk9pTkNubUJNNlVCU3ZzUUx3YnNEN0tTS3UtRFNEVWU2NDZzSF9xeUdvenRUamZEcURSamc2enVoaw?oc=5
 9. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
@@ -54,7 +54,7 @@ All coverage: https://www.mtdemocrat.com/news/national/did-a-robot-write-that-st
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3378
+- Total stories tracked: 3403
 - Most active topic: agents
 - Busiest category: AI General News
 
