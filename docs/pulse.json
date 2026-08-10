@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:05:46.501495+00:00",
+  "generated_at": "2026-08-10T13:46:25.405400+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,47 +9,103 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT for Content Creation",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube",
         "reddit"
       ],
-      "what_it_is": "ChatGPT is an AI tool used for generating human-like text and content.",
-      "audience_angle": "You can use ChatGPT to create engaging content, such as stories, poems, and even entire scripts.",
-      "linkedin_angle": "Leverage ChatGPT to enhance your content creation skills and streamline your workflow.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 to enhance your visual content and stand out in your industry.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for content creators."
+        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xFfkllBuKCI",
-          "signal": "Make AI Videos FREE"
-        },
-        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Writing Engaging Stories",
-        "Creating Viral Content with ChatGPT: Tips and Tricks",
-        "ChatGPT for Beginners: A Step-by-Step Guide to Content Creation"
+        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
+        "10 Ways to Leverage ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Meta's AI Vision",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "Meta's AI vision is a plan to give billions of people access to a 24/7 personal superintelligence.",
+      "audience_angle": "You can learn about Meta's AI vision and how it may impact your life and business.",
+      "linkedin_angle": "Discover how Meta's AI vision can help you stay ahead of the curve in your industry.",
+      "local_relevance": 8,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Meta's AI vision."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vkixw6/zuckerberg_says_meta_will_give_billions_a_247/",
+          "signal": "Zuckerberg Says Meta Will Give Billions a 24/7 Personal Superintelligence, Lays Out AI Vision in Lengthy Essay"
+        }
+      ],
+      "content_ideas": [
+        "What is Meta's AI Vision and How Will it Impact Your Life?",
+        "The Future of AI: Insights from Meta's AI Vision",
+        "How Meta's AI Vision Can Help You Stay Ahead in Your Industry"
+      ]
+    },
+    {
+      "name": "Docker Sandboxes",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Docker Sandboxes is a tool that provides disposable, isolated sandboxes for AI agents.",
+      "audience_angle": "You can use Docker Sandboxes to test and deploy AI models in a secure and isolated environment.",
+      "linkedin_angle": "Learn how to use Docker Sandboxes to streamline your AI development workflow and improve security.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Docker Sandboxes has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.docker.com/products/docker-sandboxes/",
+          "signal": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Docker Sandboxes: A Step-by-Step Guide",
+        "How to Use Docker Sandboxes to Improve AI Model Security",
+        "Docker Sandboxes Tutorial: Deploying AI Models in a Secure Environment"
       ]
     },
     {
@@ -59,145 +115,213 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation involves using artificial intelligence to create videos from text prompts or other inputs.",
-      "audience_angle": "You can use AI video generation to create stunning videos without extensive video production experience.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your marketing and content creation strategies.",
+      "what_it_is": "AI video generation is the process of creating videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create engaging and personalized video content for your audience.",
+      "linkedin_angle": "Learn how to leverage AI video generation to enhance your marketing strategy and improve customer engagement.",
       "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for creators."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZMEWkbRLpPo",
-          "signal": "3 Best FREE AI Video Tools"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning AI-Generated Videos for Social Media",
-        "AI Video Generation for Beginners: A Comprehensive Guide",
-        "Using AI Video Generation for Marketing and Advertising"
-      ]
-    },
-    {
-      "name": "Claude AI for Business",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Claude AI is a tool designed to help businesses automate tasks and improve productivity.",
-      "audience_angle": "You can use Claude AI to streamline your business operations and increase efficiency.",
-      "linkedin_angle": "Learn how Claude AI can help you automate tasks and boost your business's productivity.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for business owners."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=c8qqXyyw6r0",
-          "signal": "The Mom Who Mastered Claude"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude AI for Automating Business Tasks",
-        "Claude AI for Business: A Step-by-Step Guide",
-        "Using Claude AI to Improve Business Productivity and Efficiency"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT for Content Creation",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT is an AI tool used for generating human-like text and content.",
-      "audience_angle": "You can use ChatGPT to create engaging content, such as stories, poems, and even entire scripts.",
-      "linkedin_angle": "Leverage ChatGPT to enhance your content creation skills and streamline your workflow.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for content creators."
+        "note": "Many AI video generation tools have affiliate programs that allow users to earn money by promoting the tools."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=xFfkllBuKCI",
-          "signal": "Make AI Videos FREE"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+          "signal": "Make AI Videos FREE Long 3D cartoon Animation + Voice AI Video kaise banaye AI Video Generator"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Writing Engaging Stories",
-        "Creating Viral Content with ChatGPT: Tips and Tricks",
-        "ChatGPT for Beginners: A Step-by-Step Guide to Content Creation"
+        "How to Create Engaging AI-Generated Videos for Your Business",
+        "The Future of Video Content: AI-Generated Videos",
+        "AI Video Generation Tutorial: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Claude AI for Business",
-      "category": "tool_launch",
+      "name": "ChatGPT Agent Mode",
+      "category": "technique",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Claude AI is a tool designed to help businesses automate tasks and improve productivity.",
-      "audience_angle": "You can use Claude AI to streamline your business operations and increase efficiency.",
-      "linkedin_angle": "Learn how Claude AI can help you automate tasks and boost your business's productivity.",
+      "what_it_is": "ChatGPT agent mode is a feature that allows users to interact with ChatGPT in a more conversational way.",
+      "audience_angle": "You can use ChatGPT agent mode to create more personalized and engaging conversations with ChatGPT.",
+      "linkedin_angle": "Learn how to use ChatGPT agent mode to improve your productivity and workflow.",
       "local_relevance": 7,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT agent mode."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "chatgpt agent mode"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Agent Mode: A Step-by-Step Guide",
+        "How to Use ChatGPT Agent Mode to Improve Your Productivity",
+        "ChatGPT Agent Mode Tutorial: A Comprehensive Guide"
+      ]
+    },
+    {
+      "name": "Muse Glimmer",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Muse Glimmer is an open-weight model that targets local agentic AI.",
+      "audience_angle": "You can use Muse Glimmer to create more personalized and engaging AI experiences.",
+      "linkedin_angle": "Learn how to leverage Muse Glimmer to improve your AI development workflow and create more effective AI models.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Muse Glimmer has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "signal": "Meta Muse Glimmer – open weights 30B local coding model"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Muse Glimmer: A Step-by-Step Guide",
+        "How to Use Muse Glimmer to Create More Personalized AI Experiences",
+        "Muse Glimmer Tutorial: A Comprehensive Guide to Local Agentic AI"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or website.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 to enhance your visual content and stand out in your industry.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Images 2.0 to Create Stunning Visuals",
+        "10 Ways to Leverage ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0 Tutorial: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Docker Sandboxes",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Docker Sandboxes is a tool that provides disposable, isolated sandboxes for AI agents.",
+      "audience_angle": "You can use Docker Sandboxes to test and deploy AI models in a secure and isolated environment.",
+      "linkedin_angle": "Learn how to use Docker Sandboxes to streamline your AI development workflow and improve security.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for business owners."
+        "note": "Docker Sandboxes has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=c8qqXyyw6r0",
-          "signal": "The Mom Who Mastered Claude"
+          "platform": "hackernews",
+          "url": "https://www.docker.com/products/docker-sandboxes/",
+          "signal": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Automating Business Tasks",
-        "Claude AI for Business: A Step-by-Step Guide",
-        "Using Claude AI to Improve Business Productivity and Efficiency"
+        "Getting Started with Docker Sandboxes: A Step-by-Step Guide",
+        "How to Use Docker Sandboxes to Improve AI Model Security",
+        "Docker Sandboxes Tutorial: Deploying AI Models in a Secure Environment"
+      ]
+    },
+    {
+      "name": "Muse Glimmer",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Muse Glimmer is an open-weight model that targets local agentic AI.",
+      "audience_angle": "You can use Muse Glimmer to create more personalized and engaging AI experiences.",
+      "linkedin_angle": "Learn how to leverage Muse Glimmer to improve your AI development workflow and create more effective AI models.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Muse Glimmer has an affiliate program that allows users to earn money by promoting the tool."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "signal": "Meta Muse Glimmer – open weights 30B local coding model"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Muse Glimmer: A Step-by-Step Guide",
+        "How to Use Muse Glimmer to Create More Personalized AI Experiences",
+        "Muse Glimmer Tutorial: A Comprehensive Guide to Local Agentic AI"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token restrictions",
+      "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vkb5ht/my_chatgpt_memory_suddenly_stopped_recalling/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkqo6/is_chatgpt_listening_to_my_phone_calls/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits and token restrictions"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits: A Step-by-Step Guide"
+    },
+    {
+      "problem": "AI-generated content being mistakenly penalized by YouTube",
+      "who_affected": "YouTubers and content creators",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://kotaku.com/youtube-mistakenly-penalizes-popular-science-channel-kurzgesagt-for-ai-generated-slop-2000722702"
+        }
+      ],
+      "content_opportunity": "How to Avoid YouTube's AI-Generated Content Penalty: Tips and Tricks"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
