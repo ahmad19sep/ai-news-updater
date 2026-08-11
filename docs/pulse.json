@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:44:32.832712+00:00",
+  "generated_at": "2026-08-11T19:27:13.314826+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,187 +8,150 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 27,
+      "reddit": 50,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "MiniMax H3",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can revolutionize your marketing and design workflow.",
-      "local_relevance": 8,
+      "what_it_is": "MiniMax H3 is an AI tool for generating videos and images.",
+      "audience_angle": "You can use MiniMax H3 to create stunning videos and images with ease.",
+      "linkedin_angle": "Boost your productivity with MiniMax H3 and create high-quality visual content for your business.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation feature has an affiliate program for creators."
+        "note": "MiniMax H3 has an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vlja8z/ltx_25_will_be_out_today/",
+          "signal": "LTX 2.5 WILL BE OUT TODAY ! "
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
-          "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools | Full Workflow"
+          "url": "https://www.youtube.com/watch?v=27r7i9daqz8",
+          "signal": "MiniMax Code - ИИ-агент на твоём компьютере"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT for Graphic Design: Tips and Tricks"
+        "How to Create Stunning Videos with MiniMax H3",
+        "MiniMax H3 Tutorial: Getting Started with AI Video Generation",
+        "5 Ways to Use MiniMax H3 for Business and Marketing"
       ]
     },
     {
-      "name": "Claude AI Assistant",
+      "name": "ChatGPT",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT is a conversational AI tool for generating human-like text.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and more.",
+      "linkedin_angle": "Use ChatGPT to streamline your workflow and boost productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZarNjdV6C_4",
+          "signal": "NEW ChatGPT Update Is INSANE! (FREE)"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Content Generation",
+        "ChatGPT Tutorial: Getting Started with Conversational AI",
+        "5 Ways to Use ChatGPT for Business and Marketing"
+      ]
+    },
+    {
+      "name": "Stable Diffusion",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "Claude is an AI assistant that can help with various tasks, including content creation and research.",
-      "audience_angle": "Get help with your tasks and projects using Claude, the AI assistant.",
-      "linkedin_angle": "Boost your productivity with Claude, the AI assistant designed for professionals.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program for creators and businesses."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-          "signal": "How Claude marks AI-generated content"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
-          "signal": "Claude Design Just Unlocked AI Motion Graphics"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude for Content Creation",
-        "Claude AI Assistant: A Productivity Game-Changer",
-        "Getting Started with Claude: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI video generation allows users to create videos based on text prompts or other inputs.",
-      "audience_angle": "Create stunning videos with just a few words using AI video generation.",
-      "linkedin_angle": "Discover how AI video generation can revolutionize your marketing and advertising workflow.",
-      "local_relevance": 9,
+      "what_it_is": "Stable Diffusion is an AI tool for generating images and videos.",
+      "audience_angle": "You can use Stable Diffusion to create stunning visuals with ease.",
+      "linkedin_angle": "Boost your creativity with Stable Diffusion and create high-quality visual content for your business.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 10,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs for creators."
+        "note": "Stable Diffusion has an affiliate program for creators."
       },
       "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vl3e16/i_used_minimax_to_make_lord_of_the_rings_about_9/",
+          "signal": "I used MiniMax to make Lord of the Rings about 9 hours shorter"
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
           "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools | Full Workflow"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.docker.com/products/docker-sandboxes/",
-          "signal": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "AI Video Generation: A Game-Changer for Marketers",
-        "Using AI for Video Production: Tips and Tricks"
+        "How to Create Stunning Images with Stable Diffusion",
+        "Stable Diffusion Tutorial: Getting Started with AI Image Generation",
+        "5 Ways to Use Stable Diffusion for Business and Marketing"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Claude AI Assistant",
+      "name": "Stable Diffusion",
       "category": "tool_launch",
       "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Claude is an AI assistant that can help with various tasks, including content creation and research.",
-      "audience_angle": "Get help with your tasks and projects using Claude, the AI assistant.",
-      "linkedin_angle": "Boost your productivity with Claude, the AI assistant designed for professionals.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude has an affiliate program for creators and businesses."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-          "signal": "How Claude marks AI-generated content"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
-          "signal": "Claude Design Just Unlocked AI Motion Graphics"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude for Content Creation",
-        "Claude AI Assistant: A Productivity Game-Changer",
-        "Getting Started with Claude: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT's image generation feature allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
-      "linkedin_angle": "Discover how ChatGPT's image generation can revolutionize your marketing and design workflow.",
-      "local_relevance": 8,
+      "what_it_is": "Stable Diffusion is an AI tool for generating images and videos.",
+      "audience_angle": "You can use Stable Diffusion to create stunning visuals with ease.",
+      "linkedin_angle": "Boost your creativity with Stable Diffusion and create high-quality visual content for your business.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT's image generation feature has an affiliate program for creators."
+        "note": "Stable Diffusion has an affiliate program for creators."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vl3e16/i_used_minimax_to_make_lord_of_the_rings_about_9/",
+          "signal": "I used MiniMax to make Lord of the Rings about 9 hours shorter"
         },
         {
           "platform": "youtube",
@@ -197,37 +160,111 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Marketers",
-        "Using ChatGPT for Graphic Design: Tips and Tricks"
+        "How to Create Stunning Images with Stable Diffusion",
+        "Stable Diffusion Tutorial: Getting Started with AI Image Generation",
+        "5 Ways to Use Stable Diffusion for Business and Marketing"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT is a conversational AI tool for generating human-like text.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and more.",
+      "linkedin_angle": "Use ChatGPT to streamline your workflow and boost productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZarNjdV6C_4",
+          "signal": "NEW ChatGPT Update Is INSANE! (FREE)"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Content Generation",
+        "ChatGPT Tutorial: Getting Started with Conversational AI",
+        "5 Ways to Use ChatGPT for Business and Marketing"
+      ]
+    },
+    {
+      "name": "MiniMax H3",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "MiniMax H3 is an AI tool for generating videos and images.",
+      "audience_angle": "You can use MiniMax H3 to create stunning videos and images with ease.",
+      "linkedin_angle": "Boost your productivity with MiniMax H3 and create high-quality visual content for your business.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "MiniMax H3 has an affiliate program for creators."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vlja8z/ltx_25_will_be_out_today/",
+          "signal": "LTX 2.5 WILL BE OUT TODAY ! "
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=27r7i9daqz8",
+          "signal": "MiniMax Code - ИИ-агент на твоём компьютере"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with MiniMax H3",
+        "MiniMax H3 Tutorial: Getting Started with AI Video Generation",
+        "5 Ways to Use MiniMax H3 for Business and Marketing"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and costs",
+      "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
+      "signal_strength": 8,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vlq0oj/how_to_add_gpts_in_chatgpt_the_gpts_section/"
+        }
+      ],
+      "content_opportunity": "How to overcome ChatGPT usage limits and token limits"
+    },
+    {
+      "problem": "Stable Diffusion image quality issues",
+      "who_affected": "Stable Diffusion users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vl8b9w/i_cant_believe_my_rtx_3060_is_still_keeping_up/"
         }
       ],
-      "content_opportunity": "How to optimize ChatGPT usage and reduce costs."
-    },
-    {
-      "problem": "AI-generated content detection",
-      "who_affected": "Content creators and marketers",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
-        }
-      ],
-      "content_opportunity": "How to detect and avoid AI-generated content."
+      "content_opportunity": "How to improve Stable Diffusion image quality"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "MiniMax H3"
 }
