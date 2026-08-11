@@ -11,14 +11,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
 2. **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — science angle
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
-3. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
-   https://www.nature.com/articles/d41586-026-02447-y
-4. **Why scientists should lead the shift away from AI mega data centres** — science angle
+3. **Why scientists should lead the shift away from AI mega data centres** — science angle
    https://www.nature.com/articles/d41586-026-02451-2
-5. **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — science angle
+4. **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — science angle
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
-6. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
+5. **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — science angle
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
+6. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
+   https://www.nature.com/articles/d41586-026-02447-y
 7. **What happens when medical students rely on AI – and never develop their own judgment? - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ1RVb2g2MXVrUmdOMVh1T3Vfc3pPaXcxUEI0bXVGSlNub0tOWnp1RzNNbFJVcjRrdDhPcGtlblhkLXVUVmJaZE5BTWlvRF9ocGpMay04OXdxU1dBU3Z1ejY2WGhyYVMyaFFsaktVQVpCMFZ4MEpQNm9yN1RhVEhmdUFDN3dhVmJsNUE?oc=5
 8. **This student is using AI to give doctors more time with their patients - Northeastern Global News** — science angle
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 ## 🧪 AI in Science Highlights
 - **AI Is Already Beating Human Doctors in Medical Tests - Yahoo** — https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
 - **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
-- **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — https://www.nature.com/articles/d41586-026-02447-y
 - **Why scientists should lead the shift away from AI mega data centres** — https://www.nature.com/articles/d41586-026-02451-2
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
+- **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3496
+- Total stories tracked: 3536
 - Most active topic: agents
 - Busiest category: AI General News
 
