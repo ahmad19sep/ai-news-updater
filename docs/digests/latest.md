@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3524
+- Total stories tracked: 3489
 - Most active topic: agents
 - Busiest category: AI General News
 
