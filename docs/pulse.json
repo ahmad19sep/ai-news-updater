@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T02:29:18.612608+00:00",
+  "generated_at": "2026-08-11T07:39:19.503807+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,167 +9,281 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT for Beginners",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube",
         "reddit"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that can be used for various tasks, including answering questions and generating text.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even make money.",
-      "linkedin_angle": "Learn how to use ChatGPT to boost your productivity and career.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or other projects.",
+      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your marketing materials and presentations with custom-generated images.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting the tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
-        },
-        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Beginners",
-        "10 Ways to Make Money with ChatGPT",
-        "ChatGPT Tutorial: How to Use Chat GPT for Business"
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Custom Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+      ]
+    },
+    {
+      "name": "Muse Glimmer",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for always-on local agent workflows.",
+      "audience_angle": "Muse Glimmer can help you streamline your workflow and increase productivity with its advanced AI capabilities.",
+      "linkedin_angle": "Discover how Muse Glimmer can revolutionize your workflow and take your productivity to the next level.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "signal": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows"
+        }
+      ],
+      "content_ideas": [
+        "Unlocking the Power of Muse Glimmer for Your Business",
+        "Muse Glimmer: The Future of AI-Powered Productivity",
+        "Getting Started with Muse Glimmer: A Beginner's Guide"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "technique",
-      "momentum": "hot",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation is a technique that uses artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create stunning videos without any video editing experience.",
-      "linkedin_angle": "Learn how to use AI video generation to create engaging videos for your business.",
+      "what_it_is": "AI video generation refers to the use of artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create engaging and personalized videos for your audience.",
+      "linkedin_angle": "Leverage AI video generation to take your marketing efforts to the next level and increase engagement.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting the tool."
+        "note": "AI video generation tools often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=xFfkllBuKCI",
-          "signal": "Make AI Videos FREE Long 3D cartoon Animation + Voice AI Video kaise banaye"
+          "signal": "Make AI Videos FREE"
         }
       ],
       "content_ideas": [
-        "How to Make AI Videos for Free",
-        "10 AI Video Generation Tools You Need to Know",
-        "AI Video Generation Tutorial: How to Create Stunning Videos"
+        "How to Create Stunning AI-Generated Videos",
+        "The Future of Video Content: AI Generation",
+        "AI Video Generation: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "Muse Glimmer",
+      "name": "ChatGPT for Business",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "ChatGPT for business refers to the use of ChatGPT for business purposes, such as customer service or marketing.",
+      "audience_angle": "You can use ChatGPT to automate and streamline your business operations, increasing efficiency and productivity.",
+      "linkedin_angle": "Discover how ChatGPT can help you take your business to the next level and stay ahead of the competition.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lYbYtWU-WhM",
+          "signal": "AI-Powered Business Formation"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Customer Service",
+        "ChatGPT for Business: A Game-Changer for Marketing",
+        "Unlocking the Power of ChatGPT for Your Business"
+      ]
+    },
+    {
+      "name": "Claude Design",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for always-on local agent workflows.",
-      "audience_angle": "You can use Muse Glimmer to create powerful AI models for your business.",
-      "linkedin_angle": "Learn how to use Muse Glimmer to boost your career and productivity.",
-      "local_relevance": 4,
+      "what_it_is": "Claude Design is a tool that allows users to create custom designs using AI.",
+      "audience_angle": "You can use Claude Design to create unique and personalized designs for your business or personal projects.",
+      "linkedin_angle": "Leverage Claude Design to take your marketing materials to the next level and increase engagement.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude Design has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
+          "signal": "Claude Design Just Unlocked AI Motion Graphics"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude Design for Your Business",
+        "Unlocking the Power of Claude Design for Custom Designs",
+        "Claude Design: A Game-Changer for Marketing Materials"
+      ]
+    },
+    {
+      "name": "AI Agents for Business",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "AI agents for business refer to the use of AI-powered agents to automate and streamline business operations.",
+      "audience_angle": "You can use AI agents to increase efficiency and productivity in your business, freeing up time for more strategic tasks.",
+      "linkedin_angle": "Discover how AI agents can help you take your business to the next level and stay ahead of the competition.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Muse Glimmer is a new tool and its monetization options are not yet clear."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-          "signal": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows"
+          "url": "https://www.stoaexchange.com",
+          "signal": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers"
         }
       ],
       "content_ideas": [
-        "Introduction to Muse Glimmer: What You Need to Know",
-        "How to Use Muse Glimmer for Business",
-        "Muse Glimmer Tutorial: How to Create Powerful AI Models"
+        "How to Use AI Agents for Customer Service",
+        "AI Agents for Business: A Game-Changer for Productivity",
+        "Unlocking the Power of AI Agents for Your Business"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT for Beginners",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube",
         "reddit"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot that can be used for various tasks, including answering questions and generating text.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even make money.",
-      "linkedin_angle": "Learn how to use ChatGPT to boost your productivity and career.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your social media or other projects.",
+      "linkedin_angle": "Leverage ChatGPT Images 2.0 to enhance your marketing materials and presentations with custom-generated images.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT Images 2.0 for Social Media",
+        "Creating Custom Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Content Creators"
+      ]
+    },
+    {
+      "name": "Claude Design",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Claude Design is a tool that allows users to create custom designs using AI.",
+      "audience_angle": "You can use Claude Design to create unique and personalized designs for your business or personal projects.",
+      "linkedin_angle": "Leverage Claude Design to take your marketing materials to the next level and increase engagement.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting the tool."
+        "note": "Claude Design has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+          "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
+          "signal": "Claude Design Just Unlocked AI Motion Graphics"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Beginners",
-        "10 Ways to Make Money with ChatGPT",
-        "ChatGPT Tutorial: How to Use Chat GPT for Business"
+        "How to Use Claude Design for Your Business",
+        "Unlocking the Power of Claude Design for Custom Designs",
+        "Claude Design: A Game-Changer for Marketing Materials"
       ]
     },
     {
       "name": "Muse Glimmer",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
       "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for always-on local agent workflows.",
-      "audience_angle": "You can use Muse Glimmer to create powerful AI models for your business.",
-      "linkedin_angle": "Learn how to use Muse Glimmer to boost your career and productivity.",
-      "local_relevance": 4,
+      "audience_angle": "Muse Glimmer can help you streamline your workflow and increase productivity with its advanced AI capabilities.",
+      "linkedin_angle": "Discover how Muse Glimmer can revolutionize your workflow and take your productivity to the next level.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "Muse Glimmer is a new tool and its monetization options are not yet clear."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -179,9 +293,9 @@
         }
       ],
       "content_ideas": [
-        "Introduction to Muse Glimmer: What You Need to Know",
-        "How to Use Muse Glimmer for Business",
-        "Muse Glimmer Tutorial: How to Create Powerful AI Models"
+        "Unlocking the Power of Muse Glimmer for Your Business",
+        "Muse Glimmer: The Future of AI-Powered Productivity",
+        "Getting Started with Muse Glimmer: A Beginner's Guide"
       ]
     }
   ],
@@ -193,11 +307,23 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Tricks"
+      "content_opportunity": "How to Work Around ChatGPT Usage Limits"
+    },
+    {
+      "problem": "AI-generated content detection",
+      "who_affected": "Content creators",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
+        }
+      ],
+      "content_opportunity": "Detecting AI-Generated Content: A Guide"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "Muse Glimmer"
 }
