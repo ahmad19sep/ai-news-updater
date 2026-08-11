@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T19:18:47.011684+00:00",
+  "generated_at": "2026-08-11T02:29:18.612608+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,91 +9,66 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 32,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT for Beginners",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "youtube",
         "reddit"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
+      "what_it_is": "ChatGPT is an AI chatbot that can be used for various tasks, including answering questions and generating text.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even make money.",
+      "linkedin_angle": "Learn how to use ChatGPT to boost your productivity and career.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
+          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for business",
-        "Creating stunning images with ChatGPT Images 2.0",
-        "The future of image generation with ChatGPT Images 2.0"
-      ]
-    },
-    {
-      "name": "Muse Glimmer",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "A 30B-parameter model optimized for always-on local agent workflows.",
-      "audience_angle": "Discover how Muse Glimmer can revolutionize your workflow.",
-      "linkedin_angle": "Learn how Muse Glimmer can enhance your professional productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-          "signal": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows"
-        }
-      ],
-      "content_ideas": [
-        "Getting started with Muse Glimmer",
-        "Muse Glimmer vs other AI models",
-        "How to integrate Muse Glimmer into your workflow"
+        "How to Use ChatGPT for Beginners",
+        "10 Ways to Make Money with ChatGPT",
+        "ChatGPT Tutorial: How to Use Chat GPT for Business"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "use_case",
-      "momentum": "rising",
+      "category": "technique",
+      "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using AI to generate videos.",
-      "audience_angle": "Create stunning videos with AI video generation tools.",
-      "linkedin_angle": "Explore how AI video generation can enhance your professional video content.",
+      "what_it_is": "AI video generation is a technique that uses artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create stunning videos without any video editing experience.",
+      "linkedin_angle": "Learn how to use AI video generation to create engaging videos for your business.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI video generation tools offer affiliate programs."
+        "note": "AI video generation tools often have affiliate programs that allow users to earn money by promoting the tool."
       },
       "sources": [
         {
@@ -103,187 +78,28 @@
         }
       ],
       "content_ideas": [
-        "How to make money with AI-generated videos",
-        "The best AI video generation tools",
-        "Creating stunning AI-generated videos for business"
-      ]
-    },
-    {
-      "name": "ChatGPT",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "A conversational AI tool.",
-      "audience_angle": "Discover how ChatGPT can revolutionize your workflow.",
-      "linkedin_angle": "Learn how ChatGPT can enhance your professional productivity.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
-        }
-      ],
-      "content_ideas": [
-        "Getting started with ChatGPT",
-        "ChatGPT vs other conversational AI tools",
-        "How to integrate ChatGPT into your workflow"
-      ]
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "An AI tool for various tasks.",
-      "audience_angle": "Discover how Claude can revolutionize your workflow.",
-      "linkedin_angle": "Learn how Claude can enhance your professional productivity.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NuNDpeZYQ28",
-          "signal": "I Figured Out A Way To Make Claude Work For FREE In 17 Mins"
-        }
-      ],
-      "content_ideas": [
-        "Getting started with Claude",
-        "Claude vs other AI tools",
-        "How to integrate Claude into your workflow"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Using AI agents for various tasks.",
-      "audience_angle": "Discover how AI agents can revolutionize your workflow.",
-      "linkedin_angle": "Learn how AI agents can enhance your professional productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI agent tools offer affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.stoaexchange.com",
-          "signal": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers"
-        }
-      ],
-      "content_ideas": [
-        "How to use AI agents for business",
-        "The best AI agent tools",
-        "Creating stunning AI-generated content with AI agents"
-      ]
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your professional visual content.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT Images 2.0 for business",
-        "Creating stunning images with ChatGPT Images 2.0",
-        "The future of image generation with ChatGPT Images 2.0"
-      ]
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "An AI tool for various tasks.",
-      "audience_angle": "Discover how Claude can revolutionize your workflow.",
-      "linkedin_angle": "Learn how Claude can enhance your professional productivity.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NuNDpeZYQ28",
-          "signal": "I Figured Out A Way To Make Claude Work For FREE In 17 Mins"
-        }
-      ],
-      "content_ideas": [
-        "Getting started with Claude",
-        "Claude vs other AI tools",
-        "How to integrate Claude into your workflow"
+        "How to Make AI Videos for Free",
+        "10 AI Video Generation Tools You Need to Know",
+        "AI Video Generation Tutorial: How to Create Stunning Videos"
       ]
     },
     {
       "name": "Muse Glimmer",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "A 30B-parameter model optimized for always-on local agent workflows.",
-      "audience_angle": "Discover how Muse Glimmer can revolutionize your workflow.",
-      "linkedin_angle": "Learn how Muse Glimmer can enhance your professional productivity.",
-      "local_relevance": 8,
+      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for always-on local agent workflows.",
+      "audience_angle": "You can use Muse Glimmer to create powerful AI models for your business.",
+      "linkedin_angle": "Learn how to use Muse Glimmer to boost your career and productivity.",
+      "local_relevance": 4,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "note": "Muse Glimmer is a new tool and its monetization options are not yet clear."
       },
       "sources": [
         {
@@ -293,31 +109,38 @@
         }
       ],
       "content_ideas": [
-        "Getting started with Muse Glimmer",
-        "Muse Glimmer vs other AI models",
-        "How to integrate Muse Glimmer into your workflow"
+        "Introduction to Muse Glimmer: What You Need to Know",
+        "How to Use Muse Glimmer for Business",
+        "Muse Glimmer Tutorial: How to Create Powerful AI Models"
       ]
-    },
+    }
+  ],
+  "rising_tools": [
     {
-      "name": "ChatGPT",
+      "name": "ChatGPT for Beginners",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "A conversational AI tool.",
-      "audience_angle": "Discover how ChatGPT can revolutionize your workflow.",
-      "linkedin_angle": "Learn how ChatGPT can enhance your professional productivity.",
-      "local_relevance": 9,
+      "what_it_is": "ChatGPT is an AI chatbot that can be used for various tasks, including answering questions and generating text.",
+      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and even make money.",
+      "linkedin_angle": "Learn how to use ChatGPT to boost your productivity and career.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program that allows users to earn money by promoting the tool."
       },
       "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
+          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+        },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
@@ -325,9 +148,40 @@
         }
       ],
       "content_ideas": [
-        "Getting started with ChatGPT",
-        "ChatGPT vs other conversational AI tools",
-        "How to integrate ChatGPT into your workflow"
+        "How to Use ChatGPT for Beginners",
+        "10 Ways to Make Money with ChatGPT",
+        "ChatGPT Tutorial: How to Use Chat GPT for Business"
+      ]
+    },
+    {
+      "name": "Muse Glimmer",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for always-on local agent workflows.",
+      "audience_angle": "You can use Muse Glimmer to create powerful AI models for your business.",
+      "linkedin_angle": "Learn how to use Muse Glimmer to boost your career and productivity.",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Muse Glimmer is a new tool and its monetization options are not yet clear."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "signal": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Muse Glimmer: What You Need to Know",
+        "How to Use Muse Glimmer for Business",
+        "Muse Glimmer Tutorial: How to Create Powerful AI Models"
       ]
     }
   ],
@@ -339,23 +193,11 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkqo6/is_chatgpt_listening_to_my_phone_calls/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
-    },
-    {
-      "problem": "AI-generated content quality",
-      "who_affected": "Content creators",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xFfkllBuKCI"
-        }
-      ],
-      "content_opportunity": "Tips for improving AI-generated content quality"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Tricks"
     }
   ],
-  "tool_of_week_candidate": "Muse Glimmer"
+  "tool_of_week_candidate": "ChatGPT"
 }
