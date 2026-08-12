@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
 5. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 83
    https://news.google.com/rss/articles/CBMigwFBVV95cUxOMTlZX3RBallPWnZLNHpZY29tUGJib0xzWXdiMGZyZXhxbk55cjFkSGVPQWtPMzFib2JvWDhaLS1icHJMYk9GeUFPbXVSb2hnSkVfdk1wVHdQaWI1b0oxTDFIZDRrYklNMkNUSThWdUt4bVNHS283dXVSZU81UjcyOEgwQQ?oc=5
-6. **Zuckerberg manifesto sketches out Meta's ambitions for world-changing AI technology - The Washington Post** — Meta AI News — Score 80
+6. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 81
+   https://news.google.com/rss/articles/CBMiowJBVV95cUxPVWJXbjJWSkpveTNqTzg0Q25hVjViWU5uNVg1a0ZLdmY2Njd1cEZaNEJYMjNRM2ViN0NrTS00eFhmZC00V3VzNXcxd0ZKZmlIcFJuUWlubFJ2d3AxQWRIblJ0alhOSGpxZ1V2V1RucjdGYll0N0F0QV9kb1ZiV0YtTDZUdTRUYjdXT2RRX2MyajRNYUYySVAzWHprNDlRdVpNN0NXQVlCN1RtcHR4YVBIbU9MRTh1a0pwNDFQQ1RrVC1BYWlCbUlubC0zRWpoaDZmTTQwOEJEbUN4QWpZYU5OY1I0bUZLamQwdmNkY2ZwcDh6Ym91VngwczhibVBJMUlvV2hLT1R6bjEtQmNEQ1JQcGJ0cHJoMnNjVEJZVTBQQ1ItRm_SAaMCQVVfeXFMT1ViV24yVkpKb3kzak84NENuYVY1YllObjVYNWtGS3ZmNjY3dXBGWjRCWDIzUTNlYjdDa00tNHhYZmQtNFd1czV3MXdGSmZpSHBSblFpbmxSdndwMUFkSG5SdGpYTkhqcWdVdldUbnI3RmJZdDdBdEFfZG9WYldGLUw2VHU0VGI3V09kUV9jMmo0TWFGMklQM1h6azQ5UXVaTTdDV0FZQjdUbXB0eGFQSG1PTEU4dWtKcDQxUENUa1QtQWFpQm1JbmwtM0VqaGg2Zk00MDhCRG1DeEFqWWFOTmNSNG1GS2pkMHZjZGNmcHA4emJvdVZ4MHM4Ym1QSTFJb1doS09Uem4xLUJjRENSUHBidHByaDJzY1RCWVUwUENSLUZv?oc=5
+7. **Zuckerberg manifesto sketches out Meta's ambitions for world-changing AI technology - The Washington Post** — Meta AI News — Score 80
    https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWW9SSHZnNlU0c2JROTc2bkhvRnR2QTAxaEUxMjN6b1dQcjVUNVFFQ3RQTEVkSG5lZUJxOXJVZzFmdXRwVG5RSlQwT2gySnhkeUxvdFRQeVljejVrb0ZDWVY0TkdvQnd0ZUpna0lwVHZrbjRER00wSzVjWTgwOWg3aG45elpXWVIzZ2dzMTJoc0VGaF9CLXl2SkVCeHhISThiNmg3U0Z6bFFmNGoyQ09pUUgwU2UwTVdyc1M1bkhyWFlya20weTY2aXUtU0JVOGhqOUxya3dCVlZfUVVsWEhr?oc=5
-7. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
+8. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
-8. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
+9. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
    https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-9. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
+10. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
    https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
-10. **Meta launches new AI model as Zuckerberg champions open-weight push - Reuters** — AI in Coding — Score 72
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.** — https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3545
+- Total stories tracked: 3510
 - Most active topic: agents
 - Busiest category: AI General News
 
