@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 04 Aug 2026 to 11 Aug 2026
+# 🗞️ AI THIS WEEK — 05 Aug 2026 to 12 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Doctors Don’t Want Patients to Read Test Results With AI. They’re Doing It Anyway. - wsj.com** — https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3489
+- Total stories tracked: 3522
 - Most active topic: agents
 - Busiest category: AI General News
 
