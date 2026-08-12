@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 7. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
    https://www.nature.com/articles/d41586-026-02447-y
-8. **This student is using AI to give doctors more time with their patients - Northeastern Global News** — science angle
-   https://news.google.com/rss/articles/CBMidEFVX3lxTE5meWN5SGNxWkZSMUE3NXJVSzl2YkJwVmtxZlJQd3hNdGZnTmtaR1FfdU9CT3JtZjl2Z0tHT3FLVW40WUpyUkJUcWRUTXE4ZmNYNDdiVFRsaFp2Umc5V0Z0ZG9hRUhkZlppaWdESWlLRlNXWDBs?oc=5
+8. **Miracle cures and stolen identities: The murky world of AI medical deepfakes - euractiv.com** — science angle
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelN3MFFPVC16ME43TVRwLTNtZ1UyVWg0V2UwVDVNRE1ZTGJrVVB2SVJobVV6MTNaT3FLV2JyNk81U3J5S0lXaS0wRHlRaGlOa0R0T2UwZlVaWEtSRUFzZXRmOGlHSUd0ZERVTHBBc2JLX2tUYnpCcjFFQUV3VWdSZU9VdS1ScHlWR3VRMXNrNXBRMzZkNF9rdTNObUVzVkstMWU4ODBOell2dw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 150
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3530
+- Total stories tracked: 3587
 - Most active topic: agents
 - Busiest category: AI General News
 
