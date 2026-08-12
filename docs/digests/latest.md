@@ -27,7 +27,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 150
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRMlNMU19RakFvVGtGbk82WWdBY25STHV4OG84ZGljaWgzUUZRa1ROb2g2eERJV2pOTUlsRjNtbzFEU290QTBVcUV6UVpEQ0g1UEt2S1RFRDNhRGRLcnlTUFVTcWtXVU45WXF1cVNPMWgxQ3J3WWRqVFEweU5ZRkRQZXA5SmNUWkVCSEN1ZVdvaEI5M3B5aG1WeVctcW9YWmtIZ2c?oc=5
-2. **Researchers have successfully used AI to create brand new viruses** — wunc_org — Score 111
+2. **Researchers have successfully used AI to create brand new viruses** — wunc_org — Score 121
    https://www.wunc.org/2026-08-11/researchers-have-successfully-used-ai-to-create-brand-new-viruses
 3. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
    https://www.mtdemocrat.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_4d94f52b-243b-5633-ae6f-125e96b62ffe.html
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3587
+- Total stories tracked: 3570
 - Most active topic: agents
 - Busiest category: AI General News
 
