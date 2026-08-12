@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T19:27:13.314826+00:00",
+  "generated_at": "2026-08-12T02:46:19.892309+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,235 +8,292 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 30,
+      "reddit": 30,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "MiniMax H3",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "MiniMax H3 is an AI tool for generating videos and images.",
-      "audience_angle": "You can use MiniMax H3 to create stunning videos and images with ease.",
-      "linkedin_angle": "Boost your productivity with MiniMax H3 and create high-quality visual content for your business.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool for generating images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with the help of AI.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative projects and professional presentations.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "MiniMax H3 has an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vlja8z/ltx_25_will_be_out_today/",
-          "signal": "LTX 2.5 WILL BE OUT TODAY ! "
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=27r7i9daqz8",
-          "signal": "MiniMax Code - ИИ-агент на твоём компьютере"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with MiniMax H3",
-        "MiniMax H3 Tutorial: Getting Started with AI Video Generation",
-        "5 Ways to Use MiniMax H3 for Business and Marketing"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Using ChatGPT Images 2.0 for Professional Graphic Design",
+        "Tips and Tricks for Getting the Most Out of ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "ChatGPT",
+      "name": "Grok Bot",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT is a conversational AI tool for generating human-like text.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and more.",
-      "linkedin_angle": "Use ChatGPT to streamline your workflow and boost productivity.",
-      "local_relevance": 8,
+      "what_it_is": "Grok Bot is an AI-powered chatbot developed by SpaceXAI.",
+      "audience_angle": "Grok Bot can help you automate tasks and answer questions with the power of AI.",
+      "linkedin_angle": "Discover how Grok Bot can streamline your workflow and increase productivity.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZarNjdV6C_4",
-          "signal": "NEW ChatGPT Update Is INSANE! (FREE)"
+          "platform": "hackernews",
+          "url": "https://x.ai/news/introducing-grok-bot",
+          "signal": "Introducing Grok Bot"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Content Generation",
-        "ChatGPT Tutorial: Getting Started with Conversational AI",
-        "5 Ways to Use ChatGPT for Business and Marketing"
+        "Getting Started with Grok Bot: A Beginner's Guide",
+        "Using Grok Bot for Customer Support and Automation",
+        "Grok Bot vs. Other Chatbots: Which One is Right for You?"
       ]
     },
     {
-      "name": "Stable Diffusion",
+      "name": "Muse Glimmer",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Stable Diffusion is an AI tool for generating images and videos.",
-      "audience_angle": "You can use Stable Diffusion to create stunning visuals with ease.",
-      "linkedin_angle": "Boost your creativity with Stable Diffusion and create high-quality visual content for your business.",
-      "local_relevance": 6,
+      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for local agent workflows.",
+      "audience_angle": "Muse Glimmer can help you build more efficient and effective AI-powered agents.",
+      "linkedin_angle": "Learn how to leverage Muse Glimmer for professional AI development and deployment.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Stable Diffusion has an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vl3e16/i_used_minimax_to_make_lord_of_the_rings_about_9/",
-          "signal": "I used MiniMax to make Lord of the Rings about 9 hours shorter"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
-          "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools | Full Workflow"
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "signal": "Introducing Muse Glimmer"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with Stable Diffusion",
-        "Stable Diffusion Tutorial: Getting Started with AI Image Generation",
-        "5 Ways to Use Stable Diffusion for Business and Marketing"
+        "Building AI-Powered Agents with Muse Glimmer",
+        "Optimizing Muse Glimmer for Local Workflows and Deployment",
+        "Muse Glimmer vs. Other AI Models: Which One is Right for You?"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI video generation is the process of creating videos using artificial intelligence.",
+      "audience_angle": "You can use AI video generation to create stunning videos with minimal effort.",
+      "linkedin_angle": "Discover how to leverage AI video generation for professional video production and marketing.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI video generation tools offer affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
+          "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Videos with AI Generation",
+        "Using AI Video Generation for Professional Video Production",
+        "Tips and Tricks for Getting the Most Out of AI Video Generation"
+      ]
+    },
+    {
+      "name": "AI Trading",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI trading is the use of artificial intelligence for stock market trading and investment.",
+      "audience_angle": "You can use AI trading to make more informed investment decisions and potentially increase your returns.",
+      "linkedin_angle": "Discover how to leverage AI trading for professional investment and portfolio management.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI trading platforms offer affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ifjo8aF6wc8",
+          "signal": "How to Use AI for Stock Market Trading"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with AI Trading: A Beginner's Guide",
+        "Using AI Trading for Professional Investment and Portfolio Management",
+        "AI Trading vs. Traditional Trading: Which One is Right for You?"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent Mode",
+      "category": "technique",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Agent Mode is a feature that allows users to interact with ChatGPT in a more conversational way.",
+      "audience_angle": "You can use ChatGPT Agent Mode to get more personalized and helpful responses from ChatGPT.",
+      "linkedin_angle": "Discover how to leverage ChatGPT Agent Mode for professional communication and customer support.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt+agent+mode",
+          "signal": "ChatGPT Agent Mode"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with ChatGPT Agent Mode",
+        "Using ChatGPT Agent Mode for Professional Communication and Customer Support",
+        "Tips and Tricks for Getting the Most Out of ChatGPT Agent Mode"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Stable Diffusion",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "Stable Diffusion is an AI tool for generating images and videos.",
-      "audience_angle": "You can use Stable Diffusion to create stunning visuals with ease.",
-      "linkedin_angle": "Boost your creativity with Stable Diffusion and create high-quality visual content for your business.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Stable Diffusion has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vl3e16/i_used_minimax_to_make_lord_of_the_rings_about_9/",
-          "signal": "I used MiniMax to make Lord of the Rings about 9 hours shorter"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
-          "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools | Full Workflow"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with Stable Diffusion",
-        "Stable Diffusion Tutorial: Getting Started with AI Image Generation",
-        "5 Ways to Use Stable Diffusion for Business and Marketing"
-      ]
-    },
-    {
-      "name": "ChatGPT",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT is a conversational AI tool for generating human-like text.",
-      "audience_angle": "You can use ChatGPT to automate tasks, generate content, and more.",
-      "linkedin_angle": "Use ChatGPT to streamline your workflow and boost productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for creators."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZarNjdV6C_4",
-          "signal": "NEW ChatGPT Update Is INSANE! (FREE)"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT for Content Generation",
-        "ChatGPT Tutorial: Getting Started with Conversational AI",
-        "5 Ways to Use ChatGPT for Business and Marketing"
-      ]
-    },
-    {
-      "name": "MiniMax H3",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "MiniMax H3 is an AI tool for generating videos and images.",
-      "audience_angle": "You can use MiniMax H3 to create stunning videos and images with ease.",
-      "linkedin_angle": "Boost your productivity with MiniMax H3 and create high-quality visual content for your business.",
+      "what_it_is": "ChatGPT Images 2.0 is a tool for generating images using AI.",
+      "audience_angle": "You can use ChatGPT Images 2.0 to create amazing images with the help of AI.",
+      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for creative projects and professional presentations.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "MiniMax H3 has an affiliate program for creators."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vlja8z/ltx_25_will_be_out_today/",
-          "signal": "LTX 2.5 WILL BE OUT TODAY ! "
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=27r7i9daqz8",
-          "signal": "MiniMax Code - ИИ-агент на твоём компьютере"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with MiniMax H3",
-        "MiniMax H3 Tutorial: Getting Started with AI Video Generation",
-        "5 Ways to Use MiniMax H3 for Business and Marketing"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "Using ChatGPT Images 2.0 for Professional Graphic Design",
+        "Tips and Tricks for Getting the Most Out of ChatGPT Images 2.0"
+      ]
+    },
+    {
+      "name": "Muse Glimmer",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for local agent workflows.",
+      "audience_angle": "Muse Glimmer can help you build more efficient and effective AI-powered agents.",
+      "linkedin_angle": "Learn how to leverage Muse Glimmer for professional AI development and deployment.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "signal": "Introducing Muse Glimmer"
+        }
+      ],
+      "content_ideas": [
+        "Building AI-Powered Agents with Muse Glimmer",
+        "Optimizing Muse Glimmer for Local Workflows and Deployment",
+        "Muse Glimmer vs. Other AI Models: Which One is Right for You?"
+      ]
+    },
+    {
+      "name": "Grok Bot",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Grok Bot is an AI-powered chatbot developed by SpaceXAI.",
+      "audience_angle": "Grok Bot can help you automate tasks and answer questions with the power of AI.",
+      "linkedin_angle": "Discover how Grok Bot can streamline your workflow and increase productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://x.ai/news/introducing-grok-bot",
+          "signal": "Introducing Grok Bot"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Grok Bot: A Beginner's Guide",
+        "Using Grok Bot for Customer Support and Automation",
+        "Grok Bot vs. Other Chatbots: Which One is Right for You?"
       ]
     }
   ],
@@ -244,27 +301,27 @@
     {
       "problem": "ChatGPT usage limits and token limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vlq0oj/how_to_add_gpts_in_chatgpt_the_gpts_section/"
-        }
-      ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and token limits"
-    },
-    {
-      "problem": "Stable Diffusion image quality issues",
-      "who_affected": "Stable Diffusion users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vl8b9w/i_cant_believe_my_rtx_3060_is_still_keeping_up/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyi9w/downgraded_to_free_because_my_payment_failed_in/"
         }
       ],
-      "content_opportunity": "How to improve Stable Diffusion image quality"
+      "content_opportunity": "How to Work Around ChatGPT Usage Limits and Token Limits"
+    },
+    {
+      "problem": "ChatGPT payment issues and downgrades",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vlprww/the_chatgpt_go_plan_has_become_garbage/"
+        }
+      ],
+      "content_opportunity": "Troubleshooting ChatGPT Payment Issues and Downgrades"
     }
   ],
-  "tool_of_week_candidate": "MiniMax H3"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
