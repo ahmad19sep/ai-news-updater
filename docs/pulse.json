@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:53:44.762128+00:00",
+  "generated_at": "2026-08-12T13:49:38.824866+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 27,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,16 +22,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your projects.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create visually stunning content for your business.",
+      "what_it_is": "ChatGPT Images 2.0 is an AI tool for generating images.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
@@ -41,9 +41,9 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "Creating Unique Images with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "ChatGPT Images 2.0 vs Other AI Image Generators: Which is Best?"
       ]
     },
     {
@@ -53,16 +53,16 @@
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok Bot is an AI-powered chatbot developed by SpaceXAI.",
-      "audience_angle": "You can use Grok Bot to automate tasks and improve your productivity.",
-      "linkedin_angle": "Learn how Grok Bot can help you streamline your workflow and increase efficiency.",
+      "what_it_is": "Grok Bot is an AI agent developed by SpaceXAI.",
+      "audience_angle": "Discover how Grok Bot can assist you with tasks.",
+      "linkedin_angle": "Learn about the potential of Grok Bot in enhancing productivity.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "No affiliate program mentioned for Grok Bot."
       },
       "sources": [
         {
@@ -73,132 +73,132 @@
       ],
       "content_ideas": [
         "Getting Started with Grok Bot: A Beginner's Guide",
-        "Grok Bot Review: Is it the Future of Chatbots?",
-        "How to Use Grok Bot for Your Business"
-      ]
-    },
-    {
-      "name": "Muse Glimmer",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for always-on local agent workflows.",
-      "audience_angle": "You can use Muse Glimmer to create personalized AI models for your projects.",
-      "linkedin_angle": "Discover how Muse Glimmer can help you create customized AI solutions for your business.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-          "signal": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to Muse Glimmer: A Powerful AI Model",
-        "How to Use Muse Glimmer for Your Business",
-        "Muse Glimmer Review: Is it the Future of AI?"
+        "Grok Bot in Action: Real-World Applications",
+        "The Future of AI Assistants: Grok Bot and Beyond"
       ]
     },
     {
       "name": "AI Video Creation",
       "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Using AI for creating videos.",
+      "audience_angle": "Make professional-looking videos with AI.",
+      "linkedin_angle": "Explore how AI video creation can boost your marketing strategy.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI video creation tools often have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
+          "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools"
+        }
+      ],
+      "content_ideas": [
+        "AI Video Creation for Beginners: Tips and Tricks",
+        "Using AI for Video Editing: A Time-Saving Guide",
+        "The Best AI Tools for Creating Stunning Videos"
+      ]
+    },
+    {
+      "name": "ChatGPT for Earning",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video creation is the process of using artificial intelligence to generate videos.",
-      "audience_angle": "You can use AI video creation to create unique and engaging videos for your projects.",
-      "linkedin_angle": "Discover how AI video creation can help you create visually stunning content for your business.",
+      "what_it_is": "Using ChatGPT for making money.",
+      "audience_angle": "Earn money with ChatGPT.",
+      "linkedin_angle": "Discover how ChatGPT can be a valuable tool for professionals.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video creation tools often have affiliate programs"
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+creation",
-          "signal": "AI video creation"
+          "url": "https://www.youtube.com/watch?v=7zPQV1BSH_k",
+          "signal": "23 Ways to Use ChatGPT So Well it Feels Like Cheating"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "The Future of Video Creation: AI-Powered Tools",
-        "AI Video Creation Tutorial: A Step-by-Step Guide"
+        "How to Make Money with ChatGPT: A Comprehensive Guide",
+        "ChatGPT for Freelancers: How to Increase Your Earnings",
+        "Using ChatGPT for Affiliate Marketing: Tips and Strategies"
       ]
     },
     {
-      "name": "ChatGPT for Business",
-      "category": "use_case",
+      "name": "Gemini",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT for business is the use of ChatGPT for business purposes, such as customer support and content creation.",
-      "audience_angle": "You can use ChatGPT for business to automate tasks and improve your productivity.",
-      "linkedin_angle": "Learn how ChatGPT for business can help you streamline your workflow and increase efficiency.",
+      "what_it_is": "Gemini is Google's fastest-growing product.",
+      "audience_angle": "Explore the capabilities of Gemini.",
+      "linkedin_angle": "Learn about the potential of Gemini in enhancing business operations.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "No affiliate program mentioned for Gemini."
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+for+business",
-          "signal": "ChatGPT for business"
+          "platform": "hackernews",
+          "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+          "signal": "Gemini becomes Google's fastest-growing product ever as it hits 1B users"
         }
       ],
       "content_ideas": [
-        "Getting Started with ChatGPT for Business: A Beginner's Guide",
-        "ChatGPT for Business Review: Is it the Future of Customer Support?",
-        "How to Use ChatGPT for Business: A Step-by-Step Guide"
+        "Getting Started with Gemini: A Beginner's Guide",
+        "Gemini in Action: Real-World Applications",
+        "The Future of AI Assistants: Gemini and Beyond"
       ]
     },
     {
-      "name": "AI Trading",
+      "name": "AI for Trading",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI trading is the use of artificial intelligence to make trades in the financial markets.",
-      "audience_angle": "You can use AI trading to create personalized trading strategies and improve your returns.",
-      "linkedin_angle": "Discover how AI trading can help you create data-driven trading decisions and increase your profits.",
+      "what_it_is": "Using AI for trading stocks and other assets.",
+      "audience_angle": "Make informed investment decisions with AI.",
+      "linkedin_angle": "Explore how AI can enhance your trading strategy.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI trading tools often have affiliate programs"
+        "note": "AI trading tools often have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+trading",
-          "signal": "AI trading"
+          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
+          "signal": "how to use ai for trading"
         }
       ],
       "content_ideas": [
-        "Introduction to AI Trading: A Beginner's Guide",
-        "How to Use AI Trading to Improve Your Returns",
-        "AI Trading Review: Is it the Future of Trading?"
+        "How to Use AI for Trading: A Beginner's Guide",
+        "AI Trading Strategies: Tips and Tricks",
+        "The Best AI Tools for Trading: A Review"
       ]
     }
   ],
@@ -210,16 +210,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "You can use ChatGPT Images 2.0 to create unique and personalized images for your projects.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can help you create visually stunning content for your business.",
+      "what_it_is": "ChatGPT Images 2.0 is an AI tool for generating images.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
@@ -229,40 +229,40 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "Creating Unique Images with ChatGPT Images 2.0",
-        "The Future of Image Generation: ChatGPT Images 2.0 Review"
+        "How to Use ChatGPT Images 2.0 for Graphic Design",
+        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "ChatGPT Images 2.0 vs Other AI Image Generators: Which is Best?"
       ]
     },
     {
-      "name": "Muse Glimmer",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Muse Glimmer is a 30B-parameter model optimized for always-on local agent workflows.",
-      "audience_angle": "You can use Muse Glimmer to create personalized AI models for your projects.",
-      "linkedin_angle": "Discover how Muse Glimmer can help you create customized AI solutions for your business.",
-      "local_relevance": 7,
+      "what_it_is": "Gemini is Google's fastest-growing product.",
+      "audience_angle": "Explore the capabilities of Gemini.",
+      "linkedin_angle": "Learn about the potential of Gemini in enhancing business operations.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "No affiliate program mentioned for Gemini."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-          "signal": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows"
+          "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+          "signal": "Gemini becomes Google's fastest-growing product ever as it hits 1B users"
         }
       ],
       "content_ideas": [
-        "Introduction to Muse Glimmer: A Powerful AI Model",
-        "How to Use Muse Glimmer for Your Business",
-        "Muse Glimmer Review: Is it the Future of AI?"
+        "Getting Started with Gemini: A Beginner's Guide",
+        "Gemini in Action: Real-World Applications",
+        "The Future of AI Assistants: Gemini and Beyond"
       ]
     },
     {
@@ -272,16 +272,16 @@
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok Bot is an AI-powered chatbot developed by SpaceXAI.",
-      "audience_angle": "You can use Grok Bot to automate tasks and improve your productivity.",
-      "linkedin_angle": "Learn how Grok Bot can help you streamline your workflow and increase efficiency.",
+      "what_it_is": "Grok Bot is an AI agent developed by SpaceXAI.",
+      "audience_angle": "Discover how Grok Bot can assist you with tasks.",
+      "linkedin_angle": "Learn about the potential of Grok Bot in enhancing productivity.",
       "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "note": "No affiliate program mentioned for Grok Bot."
       },
       "sources": [
         {
@@ -292,8 +292,8 @@
       ],
       "content_ideas": [
         "Getting Started with Grok Bot: A Beginner's Guide",
-        "Grok Bot Review: Is it the Future of Chatbots?",
-        "How to Use Grok Bot for Your Business"
+        "Grok Bot in Action: Real-World Applications",
+        "The Future of AI Assistants: Grok Bot and Beyond"
       ]
     }
   ],
@@ -301,27 +301,27 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyi9w/downgraded_to_free_because_my_payment_failed_in/"
         }
       ],
-      "content_opportunity": "How to Avoid ChatGPT Usage Limits: A Step-by-Step Guide"
+      "content_opportunity": "Workarounds for ChatGPT usage limits"
     },
     {
       "problem": "AI-generated content detection",
       "who_affected": "Content creators",
-      "signal_strength": 6,
+      "signal_strength": 5,
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
         }
       ],
-      "content_opportunity": "How to Detect AI-Generated Content: A Guide for Content Creators"
+      "content_opportunity": "How to detect AI-generated content"
     }
   ],
-  "tool_of_week_candidate": "Grok Bot"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
