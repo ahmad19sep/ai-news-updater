@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:49:38.824866+00:00",
+  "generated_at": "2026-08-12T19:28:23.218146+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,29 +9,91 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
+      "name": "Grok 4.6",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Grok 4.6 is an AI model developed by SpaceXAI.",
+      "audience_angle": "Learn how Grok 4.6 can help you with your tasks and projects.",
+      "linkedin_angle": "Discover how Grok 4.6 can enhance your professional productivity.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+          "signal": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to Grok 4.6: What You Need to Know",
+        "How to Use Grok 4.6 for Your Business",
+        "Grok 4.6 vs Other AI Models: A Comparison"
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Pro",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "DeepSeek V4 Pro is an AI-powered tool for coding and software development.",
+      "audience_angle": "Find out how DeepSeek V4 Pro can streamline your coding process.",
+      "linkedin_angle": "Learn how DeepSeek V4 Pro can improve your coding skills and productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek V4 Pro has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+          "signal": "DeepSeek V4 Pro 0813"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with DeepSeek V4 Pro: A Beginner's Guide",
+        "DeepSeek V4 Pro: How to Use it for Your Next Project",
+        "DeepSeek V4 Pro vs Other Coding Tools: Which One is Best?"
+      ]
+    },
+    {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an AI tool for generating images.",
-      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "Explore the new features and capabilities of ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -41,168 +103,201 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Graphic Design",
-        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
-        "ChatGPT Images 2.0 vs Other AI Image Generators: Which is Best?"
+        "What's New in ChatGPT Images 2.0: A Review",
+        "How to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0: Tips and Tricks for Better Results"
       ]
     },
     {
-      "name": "Grok Bot",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Grok Bot is an AI agent developed by SpaceXAI.",
-      "audience_angle": "Discover how Grok Bot can assist you with tasks.",
-      "linkedin_angle": "Learn about the potential of Grok Bot in enhancing productivity.",
-      "local_relevance": 6,
+      "what_it_is": "Gemini is a new AI-powered tool developed by Google.",
+      "audience_angle": "Learn how Gemini can help you with your tasks and projects.",
+      "linkedin_angle": "Discover how Gemini can enhance your professional productivity.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program mentioned for Grok Bot."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://x.ai/bot",
-          "signal": "Grok Bot"
+          "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+          "signal": "Gemini becomes Google's fastest-growing product ever as it hits 1B users"
         }
       ],
       "content_ideas": [
-        "Getting Started with Grok Bot: A Beginner's Guide",
-        "Grok Bot in Action: Real-World Applications",
-        "The Future of AI Assistants: Grok Bot and Beyond"
+        "Introduction to Gemini: What You Need to Know",
+        "How to Use Gemini for Your Business",
+        "Gemini vs Other AI Tools: A Comparison"
+      ]
+    },
+    {
+      "name": "Suzanne",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Suzanne is an AI tool for designing and manufacturing physical products.",
+      "audience_angle": "Learn how Suzanne can help you with your product design and manufacturing needs.",
+      "linkedin_angle": "Discover how Suzanne can enhance your professional productivity in product design and manufacturing.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Suzanne has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.suzanne3d.com/",
+          "signal": "Suzanne: AI tool for designing and manufacturing physical products"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Suzanne: A Beginner's Guide",
+        "How to Use Suzanne for Your Product Design and Manufacturing Needs",
+        "Suzanne vs Other Product Design Tools: Which One is Best?"
       ]
     },
     {
       "name": "AI Video Creation",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI for creating videos.",
-      "audience_angle": "Make professional-looking videos with AI.",
-      "linkedin_angle": "Explore how AI video creation can boost your marketing strategy.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video creation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
-          "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools"
-        }
-      ],
-      "content_ideas": [
-        "AI Video Creation for Beginners: Tips and Tricks",
-        "Using AI for Video Editing: A Time-Saving Guide",
-        "The Best AI Tools for Creating Stunning Videos"
-      ]
-    },
-    {
-      "name": "ChatGPT for Earning",
-      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Using ChatGPT for making money.",
-      "audience_angle": "Earn money with ChatGPT.",
-      "linkedin_angle": "Discover how ChatGPT can be a valuable tool for professionals.",
+      "what_it_is": "AI video creation is the process of using AI tools to create videos.",
+      "audience_angle": "Learn how to create stunning videos using AI tools.",
+      "linkedin_angle": "Discover how AI video creation can enhance your professional video production.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "note": "Many AI video creation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7zPQV1BSH_k",
-          "signal": "23 Ways to Use ChatGPT So Well it Feels Like Cheating"
+          "url": "https://www.youtube.com/watch?v=WBqdimND7gA",
+          "signal": "How I Made a Cinematic Jungle Quest Movie with AI Tools | Full Workflow"
         }
       ],
       "content_ideas": [
-        "How to Make Money with ChatGPT: A Comprehensive Guide",
-        "ChatGPT for Freelancers: How to Increase Your Earnings",
-        "Using ChatGPT for Affiliate Marketing: Tips and Strategies"
+        "Introduction to AI Video Creation: What You Need to Know",
+        "How to Use AI Tools for Video Creation",
+        "AI Video Creation vs Traditional Video Production: Which One is Best?"
       ]
     },
     {
-      "name": "Gemini",
+      "name": "AI Agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "AI agents are AI-powered tools that can perform tasks on behalf of users.",
+      "audience_angle": "Learn how AI agents can help you with your tasks and projects.",
+      "linkedin_angle": "Discover how AI agents can enhance your professional productivity.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI agent tools have affiliate programs"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://x.ai/news/introducing-grok-bot",
+          "signal": "Grok Bot by SpaceXAI"
+        }
+      ],
+      "content_ideas": [
+        "Introduction to AI Agents: What You Need to Know",
+        "How to Use AI Agents for Your Business",
+        "AI Agents vs Other Productivity Tools: Which One is Best?"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Grok 4.6",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Gemini is Google's fastest-growing product.",
-      "audience_angle": "Explore the capabilities of Gemini.",
-      "linkedin_angle": "Learn about the potential of Gemini in enhancing business operations.",
-      "local_relevance": 6,
+      "what_it_is": "Grok 4.6 is an AI model developed by SpaceXAI.",
+      "audience_angle": "Learn how Grok 4.6 can help you with your tasks and projects.",
+      "linkedin_angle": "Discover how Grok 4.6 can enhance your professional productivity.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program mentioned for Gemini."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
-          "signal": "Gemini becomes Google's fastest-growing product ever as it hits 1B users"
+          "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+          "signal": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index"
         }
       ],
       "content_ideas": [
-        "Getting Started with Gemini: A Beginner's Guide",
-        "Gemini in Action: Real-World Applications",
-        "The Future of AI Assistants: Gemini and Beyond"
+        "Introduction to Grok 4.6: What You Need to Know",
+        "How to Use Grok 4.6 for Your Business",
+        "Grok 4.6 vs Other AI Models: A Comparison"
       ]
     },
     {
-      "name": "AI for Trading",
-      "category": "use_case",
+      "name": "Suzanne",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "Using AI for trading stocks and other assets.",
-      "audience_angle": "Make informed investment decisions with AI.",
-      "linkedin_angle": "Explore how AI can enhance your trading strategy.",
-      "local_relevance": 7,
+      "what_it_is": "Suzanne is an AI tool for designing and manufacturing physical products.",
+      "audience_angle": "Learn how Suzanne can help you with your product design and manufacturing needs.",
+      "linkedin_angle": "Discover how Suzanne can enhance your professional productivity in product design and manufacturing.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI trading tools often have affiliate programs."
+        "note": "Suzanne has an affiliate program"
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=how+to+use+ai+for+trading",
-          "signal": "how to use ai for trading"
+          "platform": "hackernews",
+          "url": "https://www.suzanne3d.com/",
+          "signal": "Suzanne: AI tool for designing and manufacturing physical products"
         }
       ],
       "content_ideas": [
-        "How to Use AI for Trading: A Beginner's Guide",
-        "AI Trading Strategies: Tips and Tricks",
-        "The Best AI Tools for Trading: A Review"
+        "Getting Started with Suzanne: A Beginner's Guide",
+        "How to Use Suzanne for Your Product Design and Manufacturing Needs",
+        "Suzanne vs Other Product Design Tools: Which One is Best?"
       ]
-    }
-  ],
-  "rising_tools": [
+    },
     {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
@@ -210,16 +305,16 @@
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an AI tool for generating images.",
-      "audience_angle": "Create stunning images with ChatGPT Images 2.0.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "Explore the new features and capabilities of ChatGPT Images 2.0.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its tools."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -229,28 +324,60 @@
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT Images 2.0 for Graphic Design",
-        "Creating Art with ChatGPT Images 2.0: A Step-by-Step Guide",
-        "ChatGPT Images 2.0 vs Other AI Image Generators: Which is Best?"
+        "What's New in ChatGPT Images 2.0: A Review",
+        "How to Use ChatGPT Images 2.0 for Your Business",
+        "ChatGPT Images 2.0: Tips and Tricks for Better Results"
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Pro",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "DeepSeek V4 Pro is an AI-powered tool for coding and software development.",
+      "audience_angle": "Find out how DeepSeek V4 Pro can streamline your coding process.",
+      "linkedin_angle": "Learn how DeepSeek V4 Pro can improve your coding skills and productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek V4 Pro has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+          "signal": "DeepSeek V4 Pro 0813"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with DeepSeek V4 Pro: A Beginner's Guide",
+        "DeepSeek V4 Pro: How to Use it for Your Next Project",
+        "DeepSeek V4 Pro vs Other Coding Tools: Which One is Best?"
       ]
     },
     {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Gemini is Google's fastest-growing product.",
-      "audience_angle": "Explore the capabilities of Gemini.",
-      "linkedin_angle": "Learn about the potential of Gemini in enhancing business operations.",
-      "local_relevance": 6,
+      "what_it_is": "Gemini is a new AI-powered tool developed by Google.",
+      "audience_angle": "Learn how Gemini can help you with your tasks and projects.",
+      "linkedin_angle": "Discover how Gemini can enhance your professional productivity.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
+      "best_format": "long_form",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
-        "note": "No affiliate program mentioned for Gemini."
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -260,40 +387,9 @@
         }
       ],
       "content_ideas": [
-        "Getting Started with Gemini: A Beginner's Guide",
-        "Gemini in Action: Real-World Applications",
-        "The Future of AI Assistants: Gemini and Beyond"
-      ]
-    },
-    {
-      "name": "Grok Bot",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Grok Bot is an AI agent developed by SpaceXAI.",
-      "audience_angle": "Discover how Grok Bot can assist you with tasks.",
-      "linkedin_angle": "Learn about the potential of Grok Bot in enhancing productivity.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program mentioned for Grok Bot."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://x.ai/bot",
-          "signal": "Grok Bot"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Grok Bot: A Beginner's Guide",
-        "Grok Bot in Action: Real-World Applications",
-        "The Future of AI Assistants: Grok Bot and Beyond"
+        "Introduction to Gemini: What You Need to Know",
+        "How to Use Gemini for Your Business",
+        "Gemini vs Other AI Tools: A Comparison"
       ]
     }
   ],
@@ -305,10 +401,10 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyi9w/downgraded_to_free_because_my_payment_failed_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vmf1um/image_generation_has_been_flagging_everything_as/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Tricks"
     },
     {
       "problem": "AI-generated content detection",
@@ -320,8 +416,8 @@
           "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
         }
       ],
-      "content_opportunity": "How to detect AI-generated content"
+      "content_opportunity": "How to Detect AI-Generated Content: A Guide for Content Creators"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "Grok 4.6"
 }
