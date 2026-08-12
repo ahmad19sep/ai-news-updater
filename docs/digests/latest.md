@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVqLS1JREJMN3dtVk5FNUJCT3lGbzJRM1pqZzNxUUE2V1pqTG9hZzk2dVg1Ymt6WGIwX3AybnlnbjBQUDZBX1RwaXdCM05NU2liTS1MS1RrZGgzTnQ0NXlab1N1amlUNU1jWDZSQ3R3MU9SWVVGOFUyVmRVOEJpSGpiRGI0UmgwTUs2em1jYWNULTZpSXd4ZjVxejlLN1lqR25JQjNmY2MwRFFWbHhTcVJUdUM0UQ?oc=5
 6. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
    https://www.nature.com/articles/d41586-026-02447-y
-7. **What happens when medical students rely on AI – and never develop their own judgment? - The Guardian** — science angle
-   https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ1RVb2g2MXVrUmdOMVh1T3Vfc3pPaXcxUEI0bXVGSlNub0tOWnp1RzNNbFJVcjRrdDhPcGtlblhkLXVUVmJaZE5BTWlvRF9ocGpMay04OXdxU1dBU3Z1ejY2WGhyYVMyaFFsaktVQVpCMFZ4MEpQNm9yN1RhVEhmdUFDN3dhVmJsNUE?oc=5
-8. **This student is using AI to give doctors more time with their patients - Northeastern Global News** — science angle
+7. **This student is using AI to give doctors more time with their patients - Northeastern Global News** — science angle
    https://news.google.com/rss/articles/CBMidEFVX3lxTE5meWN5SGNxWkZSMUE3NXJVSzl2YkJwVmtxZlJQd3hNdGZnTmtaR1FfdU9CT3JtZjl2Z0tHT3FLVW40WUpyUkJUcWRUTXE4ZmNYNDdiVFRsaFp2Umc5V0Z0ZG9hRUhkZlppaWdESWlLRlNXWDBs?oc=5
+8. **Doctors Must Decide When to Trust AI — And When Not To - medscape.com** — science angle
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOWWRzMjRmb21WXzNLbjVvTXpDWWdCamVIYVBEblpBNS15clpvRXlEVzktX1JiVU8xZ2x0cFF6RmE2bVFjMldxTk1SQnhqbkNhdXdEVG1WNUk5X2J5Ql9WSGZ1eHhGa0xVdWZFMG1uMlBxdlZ2aGs2cFNhU3VrWVY5WS1oSHRiRnl5SHJla1dnakltMy10WEw0VndDa3FwdDh5emJv?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 153
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.** — https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3492
+- Total stories tracked: 3522
 - Most active topic: agents
 - Busiest category: AI General News
 
