@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T19:28:23.218146+00:00",
+  "generated_at": "2026-08-13T02:48:54.287521+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 28,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -22,9 +22,9 @@
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok 4.6 is an AI model developed by SpaceXAI.",
-      "audience_angle": "Learn how Grok 4.6 can help you with your tasks and projects.",
-      "linkedin_angle": "Discover how Grok 4.6 can enhance your professional productivity.",
+      "what_it_is": "Grok 4.6 is an AI model that scores high on the Artificial Analysis Intelligence Index.",
+      "audience_angle": "Learn how Grok 4.6 can be used for various applications and its potential impact on industries.",
+      "linkedin_angle": "Discover how Grok 4.6 can enhance business operations and decision-making processes.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -37,60 +37,29 @@
         {
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-          "signal": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index"
+          "signal": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index"
         }
       ],
       "content_ideas": [
-        "Introduction to Grok 4.6: What You Need to Know",
-        "How to Use Grok 4.6 for Your Business",
-        "Grok 4.6 vs Other AI Models: A Comparison"
-      ]
-    },
-    {
-      "name": "DeepSeek V4 Pro",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "DeepSeek V4 Pro is an AI-powered tool for coding and software development.",
-      "audience_angle": "Find out how DeepSeek V4 Pro can streamline your coding process.",
-      "linkedin_angle": "Learn how DeepSeek V4 Pro can improve your coding skills and productivity.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "DeepSeek V4 Pro has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-          "signal": "DeepSeek V4 Pro 0813"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with DeepSeek V4 Pro: A Beginner's Guide",
-        "DeepSeek V4 Pro: How to Use it for Your Next Project",
-        "DeepSeek V4 Pro vs Other Coding Tools: Which One is Best?"
+        "How Grok 4.6 Can Revolutionize Business Operations",
+        "Exploring the Potential of Grok 4.6 in Various Industries",
+        "A Beginner's Guide to Using Grok 4.6 for Practical Applications"
       ]
     },
     {
       "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
-      "audience_angle": "Explore the new features and capabilities of ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
-      "local_relevance": 7,
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the AI image generation tool.",
+      "audience_angle": "Learn how to create stunning images using ChatGPT Images 2.0 and its potential applications.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance marketing and design operations.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": "No affiliate program available"
@@ -103,26 +72,26 @@
         }
       ],
       "content_ideas": [
-        "What's New in ChatGPT Images 2.0: A Review",
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0: Tips and Tricks for Better Results"
+        "Creating Stunning Images with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "How ChatGPT Images 2.0 Can Enhance Marketing and Design Operations",
+        "Exploring the Potential of ChatGPT Images 2.0 for Art and Design"
       ]
     },
     {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "Gemini is a new AI-powered tool developed by Google.",
-      "audience_angle": "Learn how Gemini can help you with your tasks and projects.",
-      "linkedin_angle": "Discover how Gemini can enhance your professional productivity.",
-      "local_relevance": 8,
+      "what_it_is": "Gemini is a new AI tool that has gained popularity and reached 1B users.",
+      "audience_angle": "Learn how to use Gemini for various applications and its potential impact on industries.",
+      "linkedin_angle": "Discover how Gemini can enhance business operations and decision-making processes.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": "No affiliate program available"
@@ -135,40 +104,73 @@
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini: What You Need to Know",
-        "How to Use Gemini for Your Business",
-        "Gemini vs Other AI Tools: A Comparison"
+        "How Gemini Can Revolutionize Business Operations",
+        "Exploring the Potential of Gemini in Various Industries",
+        "A Beginner's Guide to Using Gemini for Practical Applications"
       ]
     },
     {
-      "name": "Suzanne",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "AI Agents",
+      "category": "technique",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Suzanne is an AI tool for designing and manufacturing physical products.",
-      "audience_angle": "Learn how Suzanne can help you with your product design and manufacturing needs.",
-      "linkedin_angle": "Discover how Suzanne can enhance your professional productivity in product design and manufacturing.",
-      "local_relevance": 5,
+      "what_it_is": "AI agents are being used to discover new materials and enhance business operations.",
+      "audience_angle": "Learn how AI agents can be used for various applications and their potential impact on industries.",
+      "linkedin_angle": "Discover how AI agents can enhance business operations and decision-making processes.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Suzanne has an affiliate program"
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.suzanne3d.com/",
-          "signal": "Suzanne: AI tool for designing and manufacturing physical products"
+          "url": "https://discoveredmaterials.com/research/",
+          "signal": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials"
         }
       ],
       "content_ideas": [
-        "Getting Started with Suzanne: A Beginner's Guide",
-        "How to Use Suzanne for Your Product Design and Manufacturing Needs",
-        "Suzanne vs Other Product Design Tools: Which One is Best?"
+        "How AI Agents Can Enhance Business Operations",
+        "Exploring the Potential of AI Agents in Various Industries",
+        "A Beginner's Guide to Using AI Agents for Practical Applications"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "Claude is an AI tool that can be used for various applications, including content creation.",
+      "audience_angle": "Learn how to use Claude for various applications and its potential impact on industries.",
+      "linkedin_angle": "Discover how Claude can enhance business operations and decision-making processes.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
+          "signal": "Twitch Is Mining Peoples' Streams to Train Amazon's AI"
+        }
+      ],
+      "content_ideas": [
+        "How Claude Can Enhance Content Creation",
+        "Exploring the Potential of Claude in Various Industries",
+        "A Beginner's Guide to Using Claude for Practical Applications"
       ]
     },
     {
@@ -178,16 +180,16 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video creation is the process of using AI tools to create videos.",
-      "audience_angle": "Learn how to create stunning videos using AI tools.",
-      "linkedin_angle": "Discover how AI video creation can enhance your professional video production.",
-      "local_relevance": 8,
+      "what_it_is": "AI video creation is a technique used to create videos using AI tools.",
+      "audience_angle": "Learn how to create stunning videos using AI video creation techniques and its potential applications.",
+      "linkedin_angle": "Discover how AI video creation can enhance marketing and design operations.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI video creation tools have affiliate programs"
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -197,41 +199,9 @@
         }
       ],
       "content_ideas": [
-        "Introduction to AI Video Creation: What You Need to Know",
-        "How to Use AI Tools for Video Creation",
-        "AI Video Creation vs Traditional Video Production: Which One is Best?"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "AI agents are AI-powered tools that can perform tasks on behalf of users.",
-      "audience_angle": "Learn how AI agents can help you with your tasks and projects.",
-      "linkedin_angle": "Discover how AI agents can enhance your professional productivity.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Many AI agent tools have affiliate programs"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://x.ai/news/introducing-grok-bot",
-          "signal": "Grok Bot by SpaceXAI"
-        }
-      ],
-      "content_ideas": [
-        "Introduction to AI Agents: What You Need to Know",
-        "How to Use AI Agents for Your Business",
-        "AI Agents vs Other Productivity Tools: Which One is Best?"
+        "Creating Stunning Videos with AI Video Creation: A Step-by-Step Guide",
+        "How AI Video Creation Can Enhance Marketing and Design Operations",
+        "Exploring the Potential of AI Video Creation for Art and Design"
       ]
     }
   ],
@@ -243,9 +213,9 @@
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok 4.6 is an AI model developed by SpaceXAI.",
-      "audience_angle": "Learn how Grok 4.6 can help you with your tasks and projects.",
-      "linkedin_angle": "Discover how Grok 4.6 can enhance your professional productivity.",
+      "what_it_is": "Grok 4.6 is an AI model that scores high on the Artificial Analysis Intelligence Index.",
+      "audience_angle": "Learn how Grok 4.6 can be used for various applications and its potential impact on industries.",
+      "linkedin_angle": "Discover how Grok 4.6 can enhance business operations and decision-making processes.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
@@ -258,123 +228,30 @@
         {
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-          "signal": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index"
+          "signal": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index"
         }
       ],
       "content_ideas": [
-        "Introduction to Grok 4.6: What You Need to Know",
-        "How to Use Grok 4.6 for Your Business",
-        "Grok 4.6 vs Other AI Models: A Comparison"
-      ]
-    },
-    {
-      "name": "Suzanne",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Suzanne is an AI tool for designing and manufacturing physical products.",
-      "audience_angle": "Learn how Suzanne can help you with your product design and manufacturing needs.",
-      "linkedin_angle": "Discover how Suzanne can enhance your professional productivity in product design and manufacturing.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Suzanne has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.suzanne3d.com/",
-          "signal": "Suzanne: AI tool for designing and manufacturing physical products"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Suzanne: A Beginner's Guide",
-        "How to Use Suzanne for Your Product Design and Manufacturing Needs",
-        "Suzanne vs Other Product Design Tools: Which One is Best?"
-      ]
-    },
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
-      "audience_angle": "Explore the new features and capabilities of ChatGPT Images 2.0.",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance your visual content creation.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "What's New in ChatGPT Images 2.0: A Review",
-        "How to Use ChatGPT Images 2.0 for Your Business",
-        "ChatGPT Images 2.0: Tips and Tricks for Better Results"
-      ]
-    },
-    {
-      "name": "DeepSeek V4 Pro",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "DeepSeek V4 Pro is an AI-powered tool for coding and software development.",
-      "audience_angle": "Find out how DeepSeek V4 Pro can streamline your coding process.",
-      "linkedin_angle": "Learn how DeepSeek V4 Pro can improve your coding skills and productivity.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "DeepSeek V4 Pro has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-          "signal": "DeepSeek V4 Pro 0813"
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with DeepSeek V4 Pro: A Beginner's Guide",
-        "DeepSeek V4 Pro: How to Use it for Your Next Project",
-        "DeepSeek V4 Pro vs Other Coding Tools: Which One is Best?"
+        "How Grok 4.6 Can Revolutionize Business Operations",
+        "Exploring the Potential of Grok 4.6 in Various Industries",
+        "A Beginner's Guide to Using Grok 4.6 for Practical Applications"
       ]
     },
     {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "Gemini is a new AI-powered tool developed by Google.",
-      "audience_angle": "Learn how Gemini can help you with your tasks and projects.",
-      "linkedin_angle": "Discover how Gemini can enhance your professional productivity.",
-      "local_relevance": 8,
+      "what_it_is": "Gemini is a new AI tool that has gained popularity and reached 1B users.",
+      "audience_angle": "Learn how to use Gemini for various applications and its potential impact on industries.",
+      "linkedin_angle": "Discover how Gemini can enhance business operations and decision-making processes.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": "No affiliate program available"
@@ -387,9 +264,72 @@
         }
       ],
       "content_ideas": [
-        "Introduction to Gemini: What You Need to Know",
-        "How to Use Gemini for Your Business",
-        "Gemini vs Other AI Tools: A Comparison"
+        "How Gemini Can Revolutionize Business Operations",
+        "Exploring the Potential of Gemini in Various Industries",
+        "A Beginner's Guide to Using Gemini for Practical Applications"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "Claude is an AI tool that can be used for various applications, including content creation.",
+      "audience_angle": "Learn how to use Claude for various applications and its potential impact on industries.",
+      "linkedin_angle": "Discover how Claude can enhance business operations and decision-making processes.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
+          "signal": "Twitch Is Mining Peoples' Streams to Train Amazon's AI"
+        }
+      ],
+      "content_ideas": [
+        "How Claude Can Enhance Content Creation",
+        "Exploring the Potential of Claude in Various Industries",
+        "A Beginner's Guide to Using Claude for Practical Applications"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the AI image generation tool.",
+      "audience_angle": "Learn how to create stunning images using ChatGPT Images 2.0 and its potential applications.",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can enhance marketing and design operations.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "Creating Stunning Images with ChatGPT Images 2.0: A Step-by-Step Guide",
+        "How ChatGPT Images 2.0 Can Enhance Marketing and Design Operations",
+        "Exploring the Potential of ChatGPT Images 2.0 for Art and Design"
       ]
     }
   ],
@@ -397,26 +337,26 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vmf1um/image_generation_has_been_flagging_everything_as/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vmps5h/custom_gpts_are_being_retired/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits: Tips and Tricks"
+      "content_opportunity": "How to overcome ChatGPT usage limits and find alternative solutions"
     },
     {
       "problem": "AI-generated content detection",
-      "who_affected": "Content creators",
-      "signal_strength": 5,
+      "who_affected": "Content creators and marketers",
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
+          "url": "https://www.bbc.com/news/articles/crelev8gw5xo"
         }
       ],
-      "content_opportunity": "How to Detect AI-Generated Content: A Guide for Content Creators"
+      "content_opportunity": "How to detect and prevent AI-generated content in academic and professional settings"
     }
   ],
   "tool_of_week_candidate": "Grok 4.6"
