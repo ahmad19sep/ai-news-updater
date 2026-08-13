@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.** — https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3630
+- Total stories tracked: 3633
 - Most active topic: agents
 - Busiest category: AI General News
 
