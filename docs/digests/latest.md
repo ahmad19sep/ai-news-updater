@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://www.nature.com/articles/d41586-026-02447-y
 7. **Why scientists should lead the shift away from AI mega data centres** — science angle
    https://www.nature.com/articles/d41586-026-02451-2
-8. **Patients Wary of Governments, Companies Pushing AI as a Rural Healthcare Solution - KFF Health News** — science angle
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxObW1qOHJIeHdmSnNLbG5oXzE2UXYxVXVERE9FZDJEN0Voa1ROSzRFMmxiV09wRHpaWktKRlFjemxfVE1QeURIR21SWkN1U2hLN1hzSmZIWmtVSWxKMERYd3NURUNfQVIwV3lOWjVsck1ELVk5TEVLV1dEdDg1bFNSMTdBLXlmSmxtUXptanA2SnNuazBxeW1WOXBn?oc=5
+8. **(Hello Africa) China-Tanzania healthcare cooperation brings AI-powered diagnosis to patients - Xinhua** — science angle
+   https://news.google.com/rss/articles/CBMifEFVX3lxTFBFOUh2clhyOS04dTRpZS1JOGlzMW80REF4enRxTlVIMkF0U3ZDdWQ4QUs5THZXWGRHb29KRm5faE11SzhnWUxMWW9oZ0VIbkVrbDJRYzFPNUZnYmw5WWVLeHJpVDlHNTE0dlowcW1lalppR2c2bHY5cG9reEM?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 150
@@ -31,10 +31,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://www.wunc.org/2026-08-11/researchers-have-successfully-used-ai-to-create-brand-new-viruses
 3. **Did a robot write that? Study suggests people prefer AI authors** — mtdemocrat — Score 93
    https://www.mtdemocrat.com/news/national/did-a-robot-write-that-study-suggests-people-prefer-ai-authors/article_4d94f52b-243b-5633-ae6f-125e96b62ffe.html
-4. **Meta AI Model Accessed Internet, Hacked Outside Firm in Testing - Bloomberg.com** — Meta AI News — Score 90
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxPeG9FOHFuNTdmY3ItcldFQUdvQmpBNWZRSU96LVdoN21IZVJ6TmFKZHRXSjZEMkNQOXhZT0hSeWNwZENLcHJDaWtpeGxCb0x1ZXljdjJtVjROS3RfXzJKMGxwa1BTUXV5QXhzN09XMmR1aHRfUGloYzdCUkphYTFwMHpNUktNWTB2UHFSOTlOSUZMejFQQ1A3eGYwSFJOMnMzekNrWlVJRU9rUEZOOEZfVzhFVQ?oc=5
-5. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 83
+4. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 83
    https://news.google.com/rss/articles/CBMigwFBVV95cUxOMTlZX3RBallPWnZLNHpZY29tUGJib0xzWXdiMGZyZXhxbk55cjFkSGVPQWtPMzFib2JvWDhaLS1icHJMYk9GeUFPbXVSb2hnSkVfdk1wVHdQaWI1b0oxTDFIZDRrYklNMkNUSThWdUt4bVNHS283dXVSZU81UjcyOEgwQQ?oc=5
+5. **Stealing Reasoning Traces from Proprietary LLM APIs** — Hacker News new — Score 83.0
+   https://arxiv.org/abs/2608.09867
 6. **Zuckerberg manifesto sketches out Meta's ambitions for world-changing AI technology - The Washington Post** — Meta AI News — Score 80
    https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWW9SSHZnNlU0c2JROTc2bkhvRnR2QTAxaEUxMjN6b1dQcjVUNVFFQ3RQTEVkSG5lZUJxOXJVZzFmdXRwVG5RSlQwT2gySnhkeUxvdFRQeVljejVrb0ZDWVY0TkdvQnd0ZUpna0lwVHZrbjRER00wSzVjWTgwOWg3aG45elpXWVIzZ2dzMTJoc0VGaF9CLXl2SkVCeHhISThiNmg3U0Z6bFFmNGoyQ09pUUgwU2UwTVdyc1M1bkhyWFlya20weTY2aXUtU0JVOGhqOUxya3dCVlZfUVVsWEhr?oc=5
 7. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.** — https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3579
+- Total stories tracked: 3630
 - Most active topic: agents
 - Busiest category: AI General News
 
