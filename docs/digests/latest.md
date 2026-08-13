@@ -27,7 +27,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 150
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRMlNMU19RakFvVGtGbk82WWdBY25STHV4OG84ZGljaWgzUUZRa1ROb2g2eERJV2pOTUlsRjNtbzFEU290QTBVcUV6UVpEQ0g1UEt2S1RFRDNhRGRLcnlTUFVTcWtXVU45WXF1cVNPMWgxQ3J3WWRqVFEweU5ZRkRQZXA5SmNUWkVCSEN1ZVdvaEI5M3B5aG1WeVctcW9YWmtIZ2c?oc=5
-2. **Researchers have successfully used AI to create brand new viruses** — wunc_org — Score 121
+2. **Researchers have successfully used AI to create brand new viruses** — wunc_org — Score 118
    https://www.wunc.org/2026-08-11/researchers-have-successfully-used-ai-to-create-brand-new-viruses
 3. **Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - Yahoo Finance UK** — Using AI To... — Score 83
    https://news.google.com/rss/articles/CBMigwFBVV95cUxOMTlZX3RBallPWnZLNHpZY29tUGJib0xzWXdiMGZyZXhxbk55cjFkSGVPQWtPMzFib2JvWDhaLS1icHJMYk9GeUFPbXVSb2hnSkVfdk1wVHdQaWI1b0oxTDFIZDRrYklNMkNUSThWdUt4bVNHS283dXVSZU81UjcyOEgwQQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — https://www.nature.com/articles/d41586-026-02503-7
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3799
+- Total stories tracked: 3817
 - Most active topic: agents
 - Busiest category: AI General News
 
