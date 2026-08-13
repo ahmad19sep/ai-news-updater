@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://www.nature.com/articles/d41586-026-02447-y
 7. **Why scientists should lead the shift away from AI mega data centres** — science angle
    https://www.nature.com/articles/d41586-026-02451-2
-8. **Doctors are now the second opinion, AI is the first [PODCAST] - KevinMD.com** — science angle
-   https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmc2QS0zSDBidnRVTHhoUm9NangweUVuMTc3T2k3Z2N6c3NkNDdjMndNYlBPd0xadHNuNnNMVERtcFJTZ0VGakNnTE9IT3BKVnFiR1JEQjNrLWhRa01idTNkVFJjcGNCZVlHRE1pZ3B6U01oNk9FMEFUSlpkS2E1a1dwbm5xa2lSUzR5N0tyVXItS0ZYZGc?oc=5
+8. **China's Ant Group upgrades physician platform into AI workstation "AQ for Doctor" with 300,000 verified doctors - TNGlobal** — science angle
+   https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTDFiazdSSXNfbDJQTGRTQnloWHMxQkduYjVBU0g0Vk00QTZ6Y3hLemtXbGJfaVU5Z3M3ejR2bmZTdTAtOWpMbjJNZS11SFNXb2lmZzZXZlBOWDdueTgzazhJVUZJZkE4SmNlZlZ2ZGpsNjRRUmxqRW5aSm9Tb3IxM0wyVU83VHAwNXNsbjVvbFVBYkhTSGpac2xKTFo5bWNGc19XYmFDaWVfYUs5U2hKNE1aS09WcEhRYlRFaGJVcGVYMDFfeEZMNmpycS1MTEwwMHprcjhrWEYybzA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 150
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3696
+- Total stories tracked: 3732
 - Most active topic: agents
 - Busiest category: AI General News
 
