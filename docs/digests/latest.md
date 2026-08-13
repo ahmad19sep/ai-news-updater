@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://arxiv.org/abs/2608.09867
 5. **Zuckerberg manifesto sketches out Meta's ambitions for world-changing AI technology - The Washington Post** — Meta AI News — Score 80
    https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWW9SSHZnNlU0c2JROTc2bkhvRnR2QTAxaEUxMjN6b1dQcjVUNVFFQ3RQTEVkSG5lZUJxOXJVZzFmdXRwVG5RSlQwT2gySnhkeUxvdFRQeVljejVrb0ZDWVY0TkdvQnd0ZUpna0lwVHZrbjRER00wSzVjWTgwOWg3aG45elpXWVIzZ2dzMTJoc0VGaF9CLXl2SkVCeHhISThiNmg3U0Z6bFFmNGoyQ09pUUgwU2UwTVdyc1M1bkhyWFlya20weTY2aXUtU0JVOGhqOUxya3dCVlZfUVVsWEhr?oc=5
-6. **How college students are using AI to fight the ‘job apocalypse’ - Leader Publications** — Using AI To... — Score 78
-   https://news.google.com/rss/articles/CBMi6wFBVV95cUxQenFndWJVU2xCMC1SRzNuMmRUWjc1NmFjZE5LNEFhMGN3REpEa19DZDBGVndvQlpPUmZGbU4tbHhPTVM3WU53N28zSlRxdVB4cXNEaDRwanpHLXJjbmUyLVdPS2JMM1VCTFRGLTBrSjdsd1hodXRuZXhrVEpGNUFwZlY3c29oSmtqMjBvb0h1b2todThzcVdtRnp3Y0kxLXFPZ0s0bHNORGdUNF9QdTZRMy0zdk9fY3Z2YmdSZUhqdVBSVlB6TzJMMFVPbThlRlMtVHp4Z1Axb0RHbnNEQi1NU0FsZVk3MW42VlFR?oc=5
-7. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 78
+6. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 78
    https://news.google.com/rss/articles/CBMiowJBVV95cUxPVWJXbjJWSkpveTNqTzg0Q25hVjViWU5uNVg1a0ZLdmY2Njd1cEZaNEJYMjNRM2ViN0NrTS00eFhmZC00V3VzNXcxd0ZKZmlIcFJuUWlubFJ2d3AxQWRIblJ0alhOSGpxZ1V2V1RucjdGYll0N0F0QV9kb1ZiV0YtTDZUdTRUYjdXT2RRX2MyajRNYUYySVAzWHprNDlRdVpNN0NXQVlCN1RtcHR4YVBIbU9MRTh1a0pwNDFQQ1RrVC1BYWlCbUlubC0zRWpoaDZmTTQwOEJEbUN4QWpZYU5OY1I0bUZLamQwdmNkY2ZwcDh6Ym91VngwczhibVBJMUlvV2hLT1R6bjEtQmNEQ1JQcGJ0cHJoMnNjVEJZVTBQQ1ItRm_SAaMCQVVfeXFMT1ViV24yVkpKb3kzak84NENuYVY1YllObjVYNWtGS3ZmNjY3dXBGWjRCWDIzUTNlYjdDa00tNHhYZmQtNFd1czV3MXdGSmZpSHBSblFpbmxSdndwMUFkSG5SdGpYTkhqcWdVdldUbnI3RmJZdDdBdEFfZG9WYldGLUw2VHU0VGI3V09kUV9jMmo0TWFGMklQM1h6azQ5UXVaTTdDV0FZQjdUbXB0eGFQSG1PTEU4dWtKcDQxUENUa1QtQWFpQm1JbmwtM0VqaGg2Zk00MDhCRG1DeEFqWWFOTmNSNG1GS2pkMHZjZGNmcHA4emJvdVZ4MHM4Ym1QSTFJb1doS09Uem4xLUJjRENSUHBidHByaDJzY1RCWVUwUENSLUZv?oc=5
-8. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
+7. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
    https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-9. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
+8. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
    https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
-10. **Meta launches new AI model as Zuckerberg champions open-weight push - Reuters** — AI in Coding — Score 72
+9. **Meta launches new AI model as Zuckerberg champions open-weight push - Reuters** — AI in Coding — Score 72
    https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5
+10. **AI Is Creating More Jobs Than It Cuts in India, Nomura Says - Bloomberg.com** — AI Jobs S Asia — Score 67
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZncwTGNhRl9IVFdjSzhOZUZXOVB0RXlrUkJXTGdsUnowZUZRczJhbXg4MmxyUUh2WjN1WFhpaHlTVTZPVmo3LTRVSDhQanVEeTVRV2ZNZG5nZUVoZFliaDkzN182ZTdzMm9iTlpMTEpySHBKaGc0Yjk0ekdtbGlxZVhONzBCQ0JWZTQ0Z2ViNWhqdm91VzRqZDVweWNwcjZHaFlDdUR5RFdCZ1doZVE?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3635
-- Most active topic: model
+- Total stories tracked: 3644
+- Most active topic: agents
 - Busiest category: AI General News
 
 ---
