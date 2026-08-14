@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — https://www.nature.com/articles/d41586-026-02503-7
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3690
+- Total stories tracked: 3697
 - Most active topic: agents
 - Busiest category: AI General News
 
