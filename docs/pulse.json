@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:27:15.974607+00:00",
+  "generated_at": "2026-08-14T02:47:28.200008+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
+      "reddit": 25,
       "hackernews": 35,
       "youtube": 106
     },
@@ -16,355 +16,367 @@
   },
   "trends": [
     {
-      "name": "MiniMax H3 video generation",
+      "name": "Gemini 3.7 Flash",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "MiniMax H3 is a video generation model that can create short videos based on text prompts.",
-      "audience_angle": "You can use MiniMax H3 to create your own videos, such as animations or explainers, with minimal effort.",
-      "linkedin_angle": "Content creators and marketers can leverage MiniMax H3 to produce high-quality video content quickly and efficiently.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vh9rtw/ama_minimax_h3_team_ask_us_anything_about_our/",
-          "signal": "AMA with MiniMax H3 team"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-          "signal": "Article about accelerating GPT-5.6 with OpenAI"
-        }
-      ],
-      "content_ideas": [
-        "How to create a viral video using MiniMax H3",
-        "5 ways to use MiniMax H3 for marketing and advertising",
-        "A step-by-step guide to creating animations with MiniMax H3"
-      ]
-    },
-    {
-      "name": "ChatGPT for therapy",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
+        "hackernews",
         "reddit"
       ],
-      "what_it_is": "Some users are exploring the potential of ChatGPT as a tool for therapy and mental health support.",
-      "audience_angle": "You can use ChatGPT as a tool to help with mental health support and therapy, but it's essential to understand its limitations.",
-      "linkedin_angle": "Mental health professionals can leverage ChatGPT as a supplement to traditional therapy methods, but it's crucial to weigh the pros and cons.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vn6luj/using_chatgpt_for_therapy/",
-          "signal": "Discussion about using ChatGPT for therapy"
-        }
-      ],
-      "content_ideas": [
-        "The benefits and drawbacks of using ChatGPT for therapy",
-        "How to use ChatGPT as a tool for mental health support",
-        "The future of AI in mental health: opportunities and challenges"
-      ]
-    },
-    {
-      "name": "Gemini 3.7 Flash",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Gemini 3.7 Flash is a new AI model released by Google, designed for faster and more efficient processing.",
-      "audience_angle": "You can use Gemini 3.7 Flash to improve your workflow and productivity, especially in tasks that require fast processing.",
-      "linkedin_angle": "Developers and businesses can leverage Gemini 3.7 Flash to enhance their applications and services, leading to increased efficiency and competitiveness.",
-      "local_relevance": 7,
+      "what_it_is": "Gemini 3.7 Flash is a new AI model launched by Google.",
+      "audience_angle": "Learn how to use Gemini 3.7 Flash to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how Gemini 3.7 Flash can help you automate tasks and increase efficiency in your work.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Google offers affiliate programs for its products."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Article about Gemini 3.7 Flash"
-        }
-      ],
-      "content_ideas": [
-        "How to use Gemini 3.7 Flash for faster processing and improved productivity",
-        "The benefits of using Gemini 3.7 Flash in your workflow",
-        "A comparison of Gemini 3.7 Flash with other AI models"
-      ]
-    },
-    {
-      "name": "AI-generated 3D models",
-      "category": "use_case",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "AI-generated 3D models are being used in various industries, including gaming, architecture, and product design.",
-      "audience_angle": "You can use AI-generated 3D models to create realistic and detailed models for your projects, saving time and effort.",
-      "linkedin_angle": "Professionals in industries that rely on 3D modeling can leverage AI-generated models to streamline their workflow and improve productivity.",
-      "local_relevance": 5,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
+          "signal": "Introducing Gemini 3.7 Flash"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://www.404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them/",
-          "signal": "Article about AI-generated 3D models"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
+          "signal": "Google just launched Gemini 3.7 Flash at half the previous price"
         }
       ],
       "content_ideas": [
-        "The benefits and limitations of using AI-generated 3D models",
-        "How to use AI-generated 3D models in your projects",
-        "The future of AI-generated 3D models in various industries"
+        "How to Use Gemini 3.7 Flash for Content Creation",
+        "Gemini 3.7 Flash Review: Is it Worth the Hype?",
+        "5 Ways to Monetize Gemini 3.7 Flash for Your Business"
       ]
     },
     {
-      "name": "Fetra AI video generator",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Fetra AI is a video generator that uses AI to create viral videos.",
-      "audience_angle": "You can use Fetra AI to create engaging and viral videos for your social media channels, without requiring extensive video production experience.",
-      "linkedin_angle": "Marketers and content creators can leverage Fetra AI to produce high-quality video content quickly and efficiently, increasing their online presence.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Fetra AI has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
-          "signal": "Video about Fetra AI"
-        }
-      ],
-      "content_ideas": [
-        "How to use Fetra AI to create viral videos",
-        "The benefits of using Fetra AI for video marketing",
-        "A step-by-step guide to creating engaging videos with Fetra AI"
-      ]
-    },
-    {
-      "name": "Grok 4.6",
+      "name": "DeepSeek V4 Pro 0813",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok 4.6 is a new AI model released, designed for improved performance and efficiency.",
-      "audience_angle": "You can use Grok 4.6 to enhance your workflow and productivity, especially in tasks that require advanced AI capabilities.",
-      "linkedin_angle": "Developers and businesses can leverage Grok 4.6 to improve their applications and services, leading to increased competitiveness and innovation.",
+      "what_it_is": "DeepSeek V4 Pro 0813 is a new AI model launched by DeepSeek.",
+      "audience_angle": "Learn how to use DeepSeek V4 Pro 0813 to improve your earnings and productivity.",
+      "linkedin_angle": "Discover how DeepSeek V4 Pro 0813 can help you automate tasks and increase efficiency in your work.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek offers affiliate programs for its products."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+          "signal": "DeepSeek V4 Pro 0813"
+        }
+      ],
+      "content_ideas": [
+        "How to Use DeepSeek V4 Pro 0813 for Affiliate Marketing",
+        "DeepSeek V4 Pro 0813 Review: Is it the Best AI Model for Business?",
+        "5 Ways to Monetize DeepSeek V4 Pro 0813 for Your Online Business"
+      ]
+    },
+    {
+      "name": "Grok 4.6",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Grok 4.6 is a new AI model launched by Grok.",
+      "audience_angle": "Learn how to use Grok 4.6 to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how Grok 4.6 can help you automate tasks and increase efficiency in your work.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Grok offers affiliate programs for its products."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://x.ai/news/grok-4.6",
-          "signal": "Article about Grok 4.6"
+          "url": "https://x.ai/news/grok-4-6",
+          "signal": "Grok 4.6"
         }
       ],
       "content_ideas": [
-        "How to use Grok 4.6 for improved performance and efficiency",
-        "The benefits of using Grok 4.6 in your workflow",
-        "A comparison of Grok 4.6 with other AI models"
+        "How to Use Grok 4.6 for Content Creation",
+        "Grok 4.6 Review: Is it the Best AI Model for Business?",
+        "5 Ways to Monetize Grok 4.6 for Your Online Business"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT is a popular AI chatbot developed by OpenAI.",
+      "audience_angle": "Learn how to use ChatGPT to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how ChatGPT can help you automate tasks and increase efficiency in your work.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "OpenAI offers affiliate programs for its products."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/",
+          "signal": "ChatGPT"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt",
+          "signal": "ChatGPT tutorials and reviews"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Affiliate Marketing",
+        "ChatGPT Review: Is it the Best AI Chatbot for Business?",
+        "5 Ways to Monetize ChatGPT for Your Online Business"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "technique",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "AI agents are programs that use AI to perform tasks autonomously.",
+      "audience_angle": "Learn how to use AI agents to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how AI agents can help you automate tasks and increase efficiency in your work.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "AI agent developers offer affiliate programs for their products."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+          "signal": "AI agents for accelerating GPT-5.6"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=ai+agents",
+          "signal": "AI agent tutorials and reviews"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Affiliate Marketing",
+        "AI Agents Review: Are they the Future of Automation?",
+        "5 Ways to Monetize AI Agents for Your Online Business"
+      ]
+    },
+    {
+      "name": "Google Flow",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Flow is a new AI-powered tool for creating videos and images.",
+      "audience_angle": "Learn how to use Google Flow to improve your content creation and earnings.",
+      "linkedin_angle": "Discover how Google Flow can help you automate content creation and increase efficiency in your work.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google offers affiliate programs for its products."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=google+flow",
+          "signal": "Google Flow tutorials and reviews"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Google Flow for Affiliate Marketing",
+        "Google Flow Review: Is it the Best AI Tool for Content Creation?",
+        "5 Ways to Monetize Google Flow for Your Online Business"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "MiniMax H3 video generation",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "MiniMax H3 is a video generation model that can create short videos based on text prompts.",
-      "audience_angle": "You can use MiniMax H3 to create your own videos, such as animations or explainers, with minimal effort.",
-      "linkedin_angle": "Content creators and marketers can leverage MiniMax H3 to produce high-quality video content quickly and efficiently.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1vh9rtw/ama_minimax_h3_team_ask_us_anything_about_our/",
-          "signal": "AMA with MiniMax H3 team"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-          "signal": "Article about accelerating GPT-5.6 with OpenAI"
-        }
-      ],
-      "content_ideas": [
-        "How to create a viral video using MiniMax H3",
-        "5 ways to use MiniMax H3 for marketing and advertising",
-        "A step-by-step guide to creating animations with MiniMax H3"
-      ]
-    },
-    {
-      "name": "Fetra AI video generator",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Fetra AI is a video generator that uses AI to create viral videos.",
-      "audience_angle": "You can use Fetra AI to create engaging and viral videos for your social media channels, without requiring extensive video production experience.",
-      "linkedin_angle": "Marketers and content creators can leverage Fetra AI to produce high-quality video content quickly and efficiently, increasing their online presence.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Fetra AI has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
-          "signal": "Video about Fetra AI"
-        }
-      ],
-      "content_ideas": [
-        "How to use Fetra AI to create viral videos",
-        "The benefits of using Fetra AI for video marketing",
-        "A step-by-step guide to creating engaging videos with Fetra AI"
-      ]
-    },
-    {
       "name": "Gemini 3.7 Flash",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
-      "what_it_is": "Gemini 3.7 Flash is a new AI model released by Google, designed for faster and more efficient processing.",
-      "audience_angle": "You can use Gemini 3.7 Flash to improve your workflow and productivity, especially in tasks that require fast processing.",
-      "linkedin_angle": "Developers and businesses can leverage Gemini 3.7 Flash to enhance their applications and services, leading to increased efficiency and competitiveness.",
-      "local_relevance": 7,
+      "what_it_is": "Gemini 3.7 Flash is a new AI model launched by Google.",
+      "audience_angle": "Learn how to use Gemini 3.7 Flash to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how Gemini 3.7 Flash can help you automate tasks and increase efficiency in your work.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Google offers affiliate programs for its products."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Article about Gemini 3.7 Flash"
+          "signal": "Introducing Gemini 3.7 Flash"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
+          "signal": "Google just launched Gemini 3.7 Flash at half the previous price"
         }
       ],
       "content_ideas": [
-        "How to use Gemini 3.7 Flash for faster processing and improved productivity",
-        "The benefits of using Gemini 3.7 Flash in your workflow",
-        "A comparison of Gemini 3.7 Flash with other AI models"
+        "How to Use Gemini 3.7 Flash for Content Creation",
+        "Gemini 3.7 Flash Review: Is it Worth the Hype?",
+        "5 Ways to Monetize Gemini 3.7 Flash for Your Business"
       ]
     },
     {
       "name": "Grok 4.6",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok 4.6 is a new AI model released, designed for improved performance and efficiency.",
-      "audience_angle": "You can use Grok 4.6 to enhance your workflow and productivity, especially in tasks that require advanced AI capabilities.",
-      "linkedin_angle": "Developers and businesses can leverage Grok 4.6 to improve their applications and services, leading to increased competitiveness and innovation.",
+      "what_it_is": "Grok 4.6 is a new AI model launched by Grok.",
+      "audience_angle": "Learn how to use Grok 4.6 to improve your productivity and earnings.",
+      "linkedin_angle": "Discover how Grok 4.6 can help you automate tasks and increase efficiency in your work.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Grok offers affiliate programs for its products."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://x.ai/news/grok-4.6",
-          "signal": "Article about Grok 4.6"
+          "url": "https://x.ai/news/grok-4-6",
+          "signal": "Grok 4.6"
         }
       ],
       "content_ideas": [
-        "How to use Grok 4.6 for improved performance and efficiency",
-        "The benefits of using Grok 4.6 in your workflow",
-        "A comparison of Grok 4.6 with other AI models"
+        "How to Use Grok 4.6 for Content Creation",
+        "Grok 4.6 Review: Is it the Best AI Model for Business?",
+        "5 Ways to Monetize Grok 4.6 for Your Online Business"
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Pro 0813",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "DeepSeek V4 Pro 0813 is a new AI model launched by DeepSeek.",
+      "audience_angle": "Learn how to use DeepSeek V4 Pro 0813 to improve your earnings and productivity.",
+      "linkedin_angle": "Discover how DeepSeek V4 Pro 0813 can help you automate tasks and increase efficiency in your work.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek offers affiliate programs for its products."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+          "signal": "DeepSeek V4 Pro 0813"
+        }
+      ],
+      "content_ideas": [
+        "How to Use DeepSeek V4 Pro 0813 for Affiliate Marketing",
+        "DeepSeek V4 Pro 0813 Review: Is it the Best AI Model for Business?",
+        "5 Ways to Monetize DeepSeek V4 Pro 0813 for Your Online Business"
+      ]
+    },
+    {
+      "name": "Google Flow",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Flow is a new AI-powered tool for creating videos and images.",
+      "audience_angle": "Learn how to use Google Flow to improve your content creation and earnings.",
+      "linkedin_angle": "Discover how Google Flow can help you automate content creation and increase efficiency in your work.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google offers affiliate programs for its products."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=google+flow",
+          "signal": "Google Flow tutorials and reviews"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Google Flow for Affiliate Marketing",
+        "Google Flow Review: Is it the Best AI Tool for Content Creation?",
+        "5 Ways to Monetize Google Flow for Your Online Business"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage limits and token limits",
-      "who_affected": "Users of Claude AI",
+      "problem": "ChatGPT usage limits",
+      "who_affected": "ChatGPT users",
+      "signal_strength": 8,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vndo7r/told_chatgpt_i_was_uninstalling_it_i_expected/"
+        }
+      ],
+      "content_opportunity": "How to overcome ChatGPT usage limits and increase productivity"
+    },
+    {
+      "problem": "AI agent hacking",
+      "who_affected": "AI agent users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model"
+          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
         }
       ],
-      "content_opportunity": "Explaining how to work around Claude usage limits and token limits"
-    },
-    {
-      "problem": "AI-generated content detection and watermarking",
-      "who_affected": "Content creators and marketers",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.seangoedecke.com/text-ai-watermarks/"
-        }
-      ],
-      "content_opportunity": "Discussing the challenges and solutions for detecting and watermarking AI-generated content"
+      "content_opportunity": "How to protect AI agents from hacking and ensure secure automation"
     }
   ],
-  "tool_of_week_candidate": "MiniMax H3"
+  "tool_of_week_candidate": "Gemini 3.7 Flash"
 }
