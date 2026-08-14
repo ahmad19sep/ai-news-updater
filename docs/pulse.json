@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T02:47:28.200008+00:00",
+  "generated_at": "2026-08-14T07:52:25.367036+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,36 +9,67 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "Gemini 3.7 Flash",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
         "reddit"
       ],
-      "what_it_is": "Gemini 3.7 Flash is a new AI model launched by Google.",
-      "audience_angle": "Learn how to use Gemini 3.7 Flash to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how Gemini 3.7 Flash can help you automate tasks and increase efficiency in your work.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your business's visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "10 Ways to Use ChatGPT Images 2.0 for Business",
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Social Media Marketing"
+      ]
+    },
+    {
+      "name": "Gemini 3.7 Flash",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "A new AI model from Google, launched at half the previous price.",
+      "audience_angle": "Discover how Gemini 3.7 Flash can revolutionize your business with its affordable pricing.",
+      "linkedin_angle": "Learn how Gemini 3.7 Flash can enhance your company's AI capabilities without breaking the bank.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
         "affiliate_likely": true,
-        "note": "Google offers affiliate programs for its products."
+        "note": "Google's affiliate program is available for Gemini 3.7 Flash"
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Introducing Gemini 3.7 Flash"
+          "signal": "Gemini 3.7 Flash"
         },
         {
           "platform": "reddit",
@@ -47,59 +78,65 @@
         }
       ],
       "content_ideas": [
-        "How to Use Gemini 3.7 Flash for Content Creation",
-        "Gemini 3.7 Flash Review: Is it Worth the Hype?",
-        "5 Ways to Monetize Gemini 3.7 Flash for Your Business"
+        "Gemini 3.7 Flash: The Future of AI Pricing",
+        "How to Get Started with Gemini 3.7 Flash",
+        "Gemini 3.7 Flash vs. Other AI Models: A Comparison"
       ]
     },
     {
-      "name": "DeepSeek V4 Pro 0813",
+      "name": "DeepSeek",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "DeepSeek V4 Pro 0813 is a new AI model launched by DeepSeek.",
-      "audience_angle": "Learn how to use DeepSeek V4 Pro 0813 to improve your earnings and productivity.",
-      "linkedin_angle": "Discover how DeepSeek V4 Pro 0813 can help you automate tasks and increase efficiency in your work.",
+      "what_it_is": "A new AI tool for various applications, including video creation.",
+      "audience_angle": "Unlock the power of DeepSeek for your business and creative projects.",
+      "linkedin_angle": "Explore how DeepSeek can enhance your company's productivity and innovation.",
       "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "DeepSeek offers affiliate programs for its products."
+        "note": "DeepSeek's affiliate program is available"
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-          "signal": "DeepSeek V4 Pro 0813"
+          "url": "https://deepseek.com/harness/en/",
+          "signal": "DeepSeek Harness developer preview"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
+          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
         }
       ],
       "content_ideas": [
-        "How to Use DeepSeek V4 Pro 0813 for Affiliate Marketing",
-        "DeepSeek V4 Pro 0813 Review: Is it the Best AI Model for Business?",
-        "5 Ways to Monetize DeepSeek V4 Pro 0813 for Your Online Business"
+        "10 Ways to Use DeepSeek for Business",
+        "DeepSeek Tutorial: How to Create Viral Videos",
+        "DeepSeek vs. Other AI Tools: A Comparison"
       ]
     },
     {
       "name": "Grok 4.6",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok 4.6 is a new AI model launched by Grok.",
-      "audience_angle": "Learn how to use Grok 4.6 to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how Grok 4.6 can help you automate tasks and increase efficiency in your work.",
+      "what_it_is": "A new AI model with impressive benchmarks and capabilities.",
+      "audience_angle": "Discover the power of Grok 4.6 and its potential applications.",
+      "linkedin_angle": "Learn how Grok 4.6 can enhance your company's AI capabilities and drive innovation.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Grok offers affiliate programs for its products."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -109,46 +146,9 @@
         }
       ],
       "content_ideas": [
-        "How to Use Grok 4.6 for Content Creation",
-        "Grok 4.6 Review: Is it the Best AI Model for Business?",
-        "5 Ways to Monetize Grok 4.6 for Your Online Business"
-      ]
-    },
-    {
-      "name": "ChatGPT",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT is a popular AI chatbot developed by OpenAI.",
-      "audience_angle": "Learn how to use ChatGPT to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how ChatGPT can help you automate tasks and increase efficiency in your work.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "OpenAI offers affiliate programs for its products."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/",
-          "signal": "ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt",
-          "signal": "ChatGPT tutorials and reviews"
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT for Affiliate Marketing",
-        "ChatGPT Review: Is it the Best AI Chatbot for Business?",
-        "5 Ways to Monetize ChatGPT for Your Online Business"
+        "Grok 4.6: The Future of AI",
+        "How to Get Started with Grok 4.6",
+        "Grok 4.6 vs. Other AI Models: A Comparison"
       ]
     },
     {
@@ -159,92 +159,160 @@
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "AI agents are programs that use AI to perform tasks autonomously.",
-      "audience_angle": "Learn how to use AI agents to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how AI agents can help you automate tasks and increase efficiency in your work.",
-      "local_relevance": 6,
+      "what_it_is": "AI-powered agents that can perform various tasks and automate processes.",
+      "audience_angle": "Discover how AI agents can revolutionize your business and daily life.",
+      "linkedin_angle": "Learn how AI agents can enhance your company's productivity and drive innovation.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI agent developers offer affiliate programs for their products."
+        "note": "AI agent affiliate programs are available"
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-          "signal": "AI agents for accelerating GPT-5.6"
+          "signal": "Accelerating GPT-5.6 Sol Ultrafast"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+agents",
-          "signal": "AI agent tutorials and reviews"
+          "url": "https://www.youtube.com/watch?v=XXU8ybqUFEo",
+          "signal": "How to Build & Sell AI Agents | Complete Beginner's Guide"
         }
       ],
       "content_ideas": [
-        "How to Use AI Agents for Affiliate Marketing",
-        "AI Agents Review: Are they the Future of Automation?",
-        "5 Ways to Monetize AI Agents for Your Online Business"
+        "10 Ways to Use AI Agents for Business",
+        "AI Agents Tutorial: How to Build and Sell",
+        "AI Agents vs. Other Automation Tools: A Comparison"
       ]
     },
     {
-      "name": "Google Flow",
-      "category": "tool_launch",
+      "name": "ChatGPT for Earning",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Flow is a new AI-powered tool for creating videos and images.",
-      "audience_angle": "Learn how to use Google Flow to improve your content creation and earnings.",
-      "linkedin_angle": "Discover how Google Flow can help you automate content creation and increase efficiency in your work.",
-      "local_relevance": 7,
+      "what_it_is": "Using ChatGPT to generate income through various methods.",
+      "audience_angle": "Discover how to use ChatGPT to earn money and achieve financial freedom.",
+      "linkedin_angle": "Learn how to leverage ChatGPT for business and career growth.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
-      "best_format": "short",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google offers affiliate programs for its products."
+        "note": "ChatGPT affiliate program is available"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=google+flow",
-          "signal": "Google Flow tutorials and reviews"
+          "url": "https://www.youtube.com/watch?v=UtQudI2Seuo",
+          "signal": "HOW TO USE CHATGPT TO GET RICH"
         }
       ],
       "content_ideas": [
-        "How to Use Google Flow for Affiliate Marketing",
-        "Google Flow Review: Is it the Best AI Tool for Content Creation?",
-        "5 Ways to Monetize Google Flow for Your Online Business"
+        "10 Ways to Use ChatGPT for Earning",
+        "ChatGPT Tutorial: How to Generate Income",
+        "ChatGPT vs. Other Earning Methods: A Comparison"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Gemini 3.7 Flash",
+      "name": "DeepSeek",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "A new AI tool for various applications, including video creation.",
+      "audience_angle": "Unlock the power of DeepSeek for your business and creative projects.",
+      "linkedin_angle": "Explore how DeepSeek can enhance your company's productivity and innovation.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "DeepSeek's affiliate program is available"
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://deepseek.com/harness/en/",
+          "signal": "DeepSeek Harness developer preview"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
+          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
+        }
+      ],
+      "content_ideas": [
+        "10 Ways to Use DeepSeek for Business",
+        "DeepSeek Tutorial: How to Create Viral Videos",
+        "DeepSeek vs. Other AI Tools: A Comparison"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
         "reddit"
       ],
-      "what_it_is": "Gemini 3.7 Flash is a new AI model launched by Google.",
-      "audience_angle": "Learn how to use Gemini 3.7 Flash to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how Gemini 3.7 Flash can help you automate tasks and increase efficiency in your work.",
+      "what_it_is": "A new version of ChatGPT's image generation capabilities.",
+      "audience_angle": "Create stunning images with the latest ChatGPT update.",
+      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your business's visual content.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "10 Ways to Use ChatGPT Images 2.0 for Business",
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "ChatGPT Images 2.0: A Game-Changer for Social Media Marketing"
+      ]
+    },
+    {
+      "name": "Gemini 3.7 Flash",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "A new AI model from Google, launched at half the previous price.",
+      "audience_angle": "Discover how Gemini 3.7 Flash can revolutionize your business with its affordable pricing.",
+      "linkedin_angle": "Learn how Gemini 3.7 Flash can enhance your company's AI capabilities without breaking the bank.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
         "affiliate_likely": true,
-        "note": "Google offers affiliate programs for its products."
+        "note": "Google's affiliate program is available for Gemini 3.7 Flash"
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Introducing Gemini 3.7 Flash"
+          "signal": "Gemini 3.7 Flash"
         },
         {
           "platform": "reddit",
@@ -253,28 +321,28 @@
         }
       ],
       "content_ideas": [
-        "How to Use Gemini 3.7 Flash for Content Creation",
-        "Gemini 3.7 Flash Review: Is it Worth the Hype?",
-        "5 Ways to Monetize Gemini 3.7 Flash for Your Business"
+        "Gemini 3.7 Flash: The Future of AI Pricing",
+        "How to Get Started with Gemini 3.7 Flash",
+        "Gemini 3.7 Flash vs. Other AI Models: A Comparison"
       ]
     },
     {
       "name": "Grok 4.6",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Grok 4.6 is a new AI model launched by Grok.",
-      "audience_angle": "Learn how to use Grok 4.6 to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how Grok 4.6 can help you automate tasks and increase efficiency in your work.",
+      "what_it_is": "A new AI model with impressive benchmarks and capabilities.",
+      "audience_angle": "Discover the power of Grok 4.6 and its potential applications.",
+      "linkedin_angle": "Learn how Grok 4.6 can enhance your company's AI capabilities and drive innovation.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Grok offers affiliate programs for its products."
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
       },
       "sources": [
         {
@@ -284,71 +352,9 @@
         }
       ],
       "content_ideas": [
-        "How to Use Grok 4.6 for Content Creation",
-        "Grok 4.6 Review: Is it the Best AI Model for Business?",
-        "5 Ways to Monetize Grok 4.6 for Your Online Business"
-      ]
-    },
-    {
-      "name": "DeepSeek V4 Pro 0813",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "DeepSeek V4 Pro 0813 is a new AI model launched by DeepSeek.",
-      "audience_angle": "Learn how to use DeepSeek V4 Pro 0813 to improve your earnings and productivity.",
-      "linkedin_angle": "Discover how DeepSeek V4 Pro 0813 can help you automate tasks and increase efficiency in your work.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "DeepSeek offers affiliate programs for its products."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-          "signal": "DeepSeek V4 Pro 0813"
-        }
-      ],
-      "content_ideas": [
-        "How to Use DeepSeek V4 Pro 0813 for Affiliate Marketing",
-        "DeepSeek V4 Pro 0813 Review: Is it the Best AI Model for Business?",
-        "5 Ways to Monetize DeepSeek V4 Pro 0813 for Your Online Business"
-      ]
-    },
-    {
-      "name": "Google Flow",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Google Flow is a new AI-powered tool for creating videos and images.",
-      "audience_angle": "Learn how to use Google Flow to improve your content creation and earnings.",
-      "linkedin_angle": "Discover how Google Flow can help you automate content creation and increase efficiency in your work.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Google offers affiliate programs for its products."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=google+flow",
-          "signal": "Google Flow tutorials and reviews"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Google Flow for Affiliate Marketing",
-        "Google Flow Review: Is it the Best AI Tool for Content Creation?",
-        "5 Ways to Monetize Google Flow for Your Online Business"
+        "Grok 4.6: The Future of AI",
+        "How to Get Started with Grok 4.6",
+        "Grok 4.6 vs. Other AI Models: A Comparison"
       ]
     }
   ],
@@ -356,27 +362,27 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vndo7r/told_chatgpt_i_was_uninstalling_it_i_expected/"
-        }
-      ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and increase productivity"
-    },
-    {
-      "problem": "AI agent hacking",
-      "who_affected": "AI agent users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/"
         }
       ],
-      "content_opportunity": "How to protect AI agents from hacking and ensure secure automation"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
+    },
+    {
+      "problem": "AI agent security concerns",
+      "who_affected": "Businesses and individuals using AI agents",
+      "signal_strength": 8,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://knownagents.com/insights"
+        }
+      ],
+      "content_opportunity": "How to Secure Your AI Agents"
     }
   ],
-  "tool_of_week_candidate": "Gemini 3.7 Flash"
+  "tool_of_week_candidate": "ChatGPT Images 2.0, a new version of ChatGPT's image generation capabilities that can revolutionize the way you create visual content."
 }
