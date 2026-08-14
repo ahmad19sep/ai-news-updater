@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 06 Aug 2026 to 13 Aug 2026
+# 🗞️ AI THIS WEEK — 07 Aug 2026 to 14 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News**
@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
 5. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
    https://www.nature.com/articles/d41586-026-02503-7
-6. **Jinxin Fertility launches China’s first doctor-facing IVF clinical AI agent - thebambooworks.com** — science angle
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0h0WFdTSTFyaEc1Sll4bVBGWDRUZGdHaUZRYTd0YU5XeVFibmlEQ3JhWmtFRENlTzNwQ29Ra3JjUFpTc1R4T0sybzJsTi04QWV0MVAwTTA0a1drb1pTVHJwZkdoU29GMl9QOVNnTTVtMDhWTVNoQUVTRGR4SVd4M2E2WHhZSTNDbXRSNmQ4UzExN0J6UXlPN1JDS1RKX2R3WjR5Xw?oc=5
-7. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
+6. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
    https://www.nature.com/articles/d41586-026-02447-y
-8. **Why scientists should lead the shift away from AI mega data centres** — science angle
+7. **Why scientists should lead the shift away from AI mega data centres** — science angle
    https://www.nature.com/articles/d41586-026-02451-2
+8. **AI is learning clinical judgment by practicing on simulated patients** — 3 upvotes on Reddit/HN
+   https://www.echohive.ai/ai-clinical-residency
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 150
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — https://www.nature.com/articles/d41586-026-02503-7
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3840
+- Total stories tracked: 3759
 - Most active topic: agents
 - Busiest category: AI General News
 
