@@ -11,12 +11,12 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
 2. **AI Is Already Beating Human Doctors in Medical Tests - Yahoo** — science angle
    https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
-3. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
-   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
-4. **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — science angle
+3. **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — science angle
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
-5. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
+4. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
    https://www.nature.com/articles/d41586-026-02503-7
+5. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
 6. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
    https://www.nature.com/articles/d41586-026-02447-y
 7. **Why scientists should lead the shift away from AI mega data centres** — science angle
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 ## 🧪 AI in Science Highlights
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
 - **AI Is Already Beating Human Doctors in Medical Tests - Yahoo** — https://news.google.com/rss/articles/CBMilgFBVV95cUxQUy1JRlF6b3pHaHlwdEZmWVI5c3lEWC1malE2em5ialFmU3VwcmpEQXFnZzJZbHg5VkthTlUyRXBmTUFsaWRRc25BX3RqWkxzTlN5MkhoMjlIOGo1eTRxb09TV3lLZlktS3dfRXRpX1RvY2R4bm1xQTJCMmVLM01yWmo3dFNrQ3ZnUjljbUN5T1lsRGNDSGc?oc=5
-- **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
 - **Claude Fable 5 Opens Biology for Clinicians: Researchers Wait on Broken Promise - Tech Times** — https://news.google.com/rss/articles/CBMixAFBVV95cUxQem12T2lLLURsdTllSGk4QllYWVdHajZBLUhoWS1ad0Z3RjdlejQwSXZHZzczLUtlUHoteW9IRlFnZDFHN3E1SThZZC1aM2xUNFFUckxjMzVzZGZtUl8yZE0wYjJBUG9pVWE3eG9RWmgwNGJFT1lUdUhERDZrVFVFNHd5Qm9pc210VW5ERVhjOGpJU0FnWS1MZ0xPcUZQQUlhSFNrcjItTUxMZ2JXanpNVnF4RHhMN1g1NXFNRnpvNHhoZkpk?oc=5
 - **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — https://www.nature.com/articles/d41586-026-02503-7
+- **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3694
+- Total stories tracked: 3712
 - Most active topic: model
 - Busiest category: AI General News
 
