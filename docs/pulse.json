@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:45:17.447240+00:00",
+  "generated_at": "2026-08-14T19:15:33.631373+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,62 +8,68 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 33,
+      "reddit": 25,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design workflows.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dPKD3Zl8I2Y",
+          "signal": "ChatGPT, Show Me Croissant Ice Cream Sandwich"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "Unlocking the Potential of ChatGPT Images 2.0 for Visual Content Creation",
-        "A Step-by-Step Guide to Using ChatGPT Images 2.0"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Designers",
+        "Using ChatGPT for Image Generation: Tips and Tricks"
       ]
     },
     {
       "name": "Gemini 3.7 Flash",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "A new version of Google's Gemini AI model.",
-      "audience_angle": "Discover the latest advancements in AI technology with Gemini 3.7 Flash.",
-      "linkedin_angle": "Stay ahead of the curve with the latest updates on Gemini 3.7 Flash.",
-      "local_relevance": 8,
-      "pillar": "explainer",
+      "what_it_is": "Gemini 3.7 Flash is an updated version of the Gemini AI model with improved performance and capabilities.",
+      "audience_angle": "Experience the latest advancements in AI technology with Gemini 3.7 Flash.",
+      "linkedin_angle": "Discover how Gemini 3.7 Flash can enhance your business operations and productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Gemini has an affiliate program for its AI models."
       },
       "sources": [
         {
@@ -72,224 +78,110 @@
           "signal": "Introducing Gemini 3.7 Flash"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
-          "signal": "Google just launched Gemini 3.7 Flash at half the previous price"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3RLoI4BnsJk",
+          "signal": "Gemini 3.7 Flash Is Coming, GPT Image 3 Is Being Tested & MORE!"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini 3.7 Flash: A Comprehensive Guide",
-        "Gemini 3.7 Flash: The Future of AI Technology",
-        "How Gemini 3.7 Flash Can Enhance Your Business Operations"
+        "What's New in Gemini 3.7 Flash: Features and Updates",
+        "Gemini 3.7 Flash: A Revolutionary AI Model for Business",
+        "Getting Started with Gemini 3.7 Flash: A Beginner's Guide"
       ]
     },
     {
-      "name": "Claude Code",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A coding tool powered by Claude AI.",
-      "audience_angle": "Streamline your coding process with Claude Code.",
-      "linkedin_angle": "Discover how Claude Code can boost your productivity and efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnci9w/i_built_my_9_year_olds_game_concept_with_claude/",
-          "signal": "I built my 9 year old's game concept with Claude Code."
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude Code: A Beginner's Guide",
-        "How Claude Code Can Revolutionize Your Coding Workflow",
-        "Claude Code: The Ultimate Tool for Streamlining Your Development Process"
-      ]
-    },
-    {
-      "name": "AI Video Creation",
+      "name": "AI Agents for Automation",
       "category": "use_case",
       "momentum": "hot",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Using AI to create videos.",
-      "audience_angle": "Create stunning videos with the power of AI.",
-      "linkedin_angle": "Explore the potential of AI video creation for your business.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "AI video creation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=BXs8hKpr1Jo",
-          "signal": "How to Create Long AI Video Free"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Viral AI Videos",
-        "The Ultimate Guide to AI Video Creation",
-        "AI Video Creation: The Future of Content Marketing"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "use_case",
-      "momentum": "rising",
       "platforms": [
         "hackernews",
         "youtube"
       ],
-      "what_it_is": "Using AI to automate tasks and processes.",
-      "audience_angle": "Discover how AI agents can streamline your workflow.",
-      "linkedin_angle": "Explore the potential of AI agents for your business operations.",
+      "what_it_is": "AI agents can automate various tasks and processes, increasing efficiency and productivity.",
+      "audience_angle": "Discover how AI agents can automate tasks and transform your workflow.",
+      "linkedin_angle": "Explore the potential of AI agents in automating business operations and improving productivity.",
       "local_relevance": 7,
-      "pillar": "explainer",
+      "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "AI agent tools often have affiliate programs."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
-          "signal": "OpenAI’s AI Agents Just Crossed A Line"
+          "url": "https://www.codewithbullet.com",
+          "signal": "Launch HN: Bullet (YC S26) – A Faster Coding Agent"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XXU8ybqUFEo",
+          "signal": "How to Build & Sell AI Agents | Complete Beginner's Guide"
         }
       ],
       "content_ideas": [
-        "How AI Agents Can Revolutionize Your Workflow",
-        "The Future of Automation: AI Agents",
-        "AI Agents: The Ultimate Guide to Streamlining Your Processes"
+        "How AI Agents Can Automate Your Workflow",
+        "Building and Selling AI Agents: A Beginner's Guide",
+        "The Future of Automation: AI Agents and Beyond"
       ]
     },
     {
-      "name": "DeepSeek",
-      "category": "tool_launch",
+      "name": "AI for Earning and Making Money",
+      "category": "use_case",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "A deep learning platform.",
-      "audience_angle": "Unlock the potential of deep learning with DeepSeek.",
-      "linkedin_angle": "Stay ahead of the curve with the latest updates on DeepSeek.",
+      "what_it_is": "AI can be used to earn and make money through various methods, such as automation, trading, and content creation.",
+      "audience_angle": "Learn how to use AI to earn and make money.",
+      "linkedin_angle": "Explore the potential of AI in generating revenue and improving business operations.",
       "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "AI tools for earning and making money often have affiliate programs."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://deepseek.com/harness/en/",
-          "signal": "DeepSeek Harness developer preview"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J_RORdJqAeo",
+          "signal": "How to make money in 2026 with AI automation"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MqYpDpMcDLE",
+          "signal": "5 Laziest Ways To Get Rich In The AI Era (2026)"
         }
       ],
       "content_ideas": [
-        "What's New in DeepSeek: A Comprehensive Guide",
-        "DeepSeek: The Future of Deep Learning",
-        "How DeepSeek Can Enhance Your Business Operations"
+        "How to Use AI to Earn and Make Money",
+        "AI for Financial Freedom: Tips and Strategies",
+        "The AI Revolution: How to Make Money with AI"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A new version of ChatGPT's image generation tool.",
-      "audience_angle": "Create stunning images with the latest version of ChatGPT Images.",
-      "linkedin_angle": "Explore how ChatGPT Images 2.0 can enhance your visual content creation.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT Images 2.0",
-        "Unlocking the Potential of ChatGPT Images 2.0 for Visual Content Creation",
-        "A Step-by-Step Guide to Using ChatGPT Images 2.0"
-      ]
-    },
-    {
-      "name": "Claude Code",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "A coding tool powered by Claude AI.",
-      "audience_angle": "Streamline your coding process with Claude Code.",
-      "linkedin_angle": "Discover how Claude Code can boost your productivity and efficiency.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnci9w/i_built_my_9_year_olds_game_concept_with_claude/",
-          "signal": "I built my 9 year old's game concept with Claude Code."
-        }
-      ],
-      "content_ideas": [
-        "Getting Started with Claude Code: A Beginner's Guide",
-        "How Claude Code Can Revolutionize Your Coding Workflow",
-        "Claude Code: The Ultimate Tool for Streamlining Your Development Process"
-      ]
-    },
-    {
       "name": "Gemini 3.7 Flash",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "A new version of Google's Gemini AI model.",
-      "audience_angle": "Discover the latest advancements in AI technology with Gemini 3.7 Flash.",
-      "linkedin_angle": "Stay ahead of the curve with the latest updates on Gemini 3.7 Flash.",
-      "local_relevance": 8,
-      "pillar": "explainer",
+      "what_it_is": "Gemini 3.7 Flash is an updated version of the Gemini AI model with improved performance and capabilities.",
+      "audience_angle": "Experience the latest advancements in AI technology with Gemini 3.7 Flash.",
+      "linkedin_angle": "Discover how Gemini 3.7 Flash can enhance your business operations and productivity.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "Gemini has an affiliate program for its AI models."
       },
       "sources": [
         {
@@ -298,74 +190,80 @@
           "signal": "Introducing Gemini 3.7 Flash"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
-          "signal": "Google just launched Gemini 3.7 Flash at half the previous price"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3RLoI4BnsJk",
+          "signal": "Gemini 3.7 Flash Is Coming, GPT Image 3 Is Being Tested & MORE!"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini 3.7 Flash: A Comprehensive Guide",
-        "Gemini 3.7 Flash: The Future of AI Technology",
-        "How Gemini 3.7 Flash Can Enhance Your Business Operations"
+        "What's New in Gemini 3.7 Flash: Features and Updates",
+        "Gemini 3.7 Flash: A Revolutionary AI Model for Business",
+        "Getting Started with Gemini 3.7 Flash: A Beginner's Guide"
       ]
     },
     {
-      "name": "DeepSeek",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "A deep learning platform.",
-      "audience_angle": "Unlock the potential of deep learning with DeepSeek.",
-      "linkedin_angle": "Stay ahead of the curve with the latest updates on DeepSeek.",
-      "local_relevance": 8,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation.",
+      "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design workflows.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available."
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://deepseek.com/harness/en/",
-          "signal": "DeepSeek Harness developer preview"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dPKD3Zl8I2Y",
+          "signal": "ChatGPT, Show Me Croissant Ice Cream Sandwich"
         }
       ],
       "content_ideas": [
-        "What's New in DeepSeek: A Comprehensive Guide",
-        "DeepSeek: The Future of Deep Learning",
-        "How DeepSeek Can Enhance Your Business Operations"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Designers",
+        "Using ChatGPT for Image Generation: Tips and Tricks"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage limits",
-      "who_affected": "Claude users",
+      "problem": "ChatGPT usage limits and restrictions",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnmpvr/usage_limits_are_definitely_nerfed/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9qj4/is_chatgpts_image_engine_becoming_too_restrictive/"
         }
       ],
-      "content_opportunity": "How to Work Around Claude Usage Limits"
+      "content_opportunity": "Workarounds for ChatGPT usage limits and restrictions"
     },
     {
-      "problem": "AI text watermarking",
-      "who_affected": "AI users",
+      "problem": "AI model training and integration challenges",
+      "who_affected": "AI developers and users",
       "signal_strength": 5,
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://declaude.org/watermarking/"
+          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
         }
       ],
-      "content_opportunity": "Understanding AI Text Watermarking: A Guide"
+      "content_opportunity": "Solutions and best practices for AI model training and integration"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
