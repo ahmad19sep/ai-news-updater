@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRM
 - **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3700
-- Most active topic: agents
+- Total stories tracked: 3704
+- Most active topic: model
 - Busiest category: AI General News
 
 ---
