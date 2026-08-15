@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:00:12.388821+00:00",
+  "generated_at": "2026-08-15T18:48:56.097625+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,85 +8,49 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 40,
-      "hackernews": 31,
+      "reddit": 25,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "ChatGPT",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "reddit",
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "You can use ChatGPT to create unique images for your projects or social media.",
-      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional content and stand out.",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
+      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "ChatGPT can help professionals automate tasks and improve productivity.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
+        "note": "ChatGPT has an affiliate program for developers and businesses."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Professional Image Creation"
-      ]
-    },
-    {
-      "name": "Gemini 3.7 Flash",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Gemini 3.7 Flash is an updated AI model with improved performance.",
-      "audience_angle": "You can use Gemini 3.7 Flash for enhanced AI capabilities in your projects.",
-      "linkedin_angle": "Stay ahead of the curve with Gemini 3.7 Flash and its advanced AI features.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Gemini has an affiliate program for its premium features."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Introducing Gemini 3.7 Flash"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X8K1bW-XfL8",
-          "signal": "OpenAI's GPT-6 'Doug', Qwen 4.0 WILL BE INSANE, GPT-Image-3.0?, RIP Gemini, & More! HUGE AI NEWS!"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Gemini 3.7 Flash",
-        "Gemini 3.7 Flash: A Game-Changer for AI Enthusiasts",
-        "How to Get the Most Out of Gemini 3.7 Flash"
+        "How to Use ChatGPT for Content Creation",
+        "ChatGPT: The Future of Customer Service",
+        "How to Make Money with ChatGPT"
       ]
     },
     {
@@ -96,287 +60,257 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI can generate videos based on user prompts or inputs.",
-      "audience_angle": "You can use AI video generation for creating engaging content or marketing materials.",
-      "linkedin_angle": "Leverage AI video generation to enhance your professional content and reach a wider audience.",
+      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
+      "audience_angle": "You can use AI video generation to create high-quality videos without extensive video production experience.",
+      "linkedin_angle": "AI video generation can help businesses create engaging video content for marketing and advertising.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI video generation tools have affiliate programs for creators and businesses."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to Create a Viral Video with AI",
+        "AI Video Generation: The Future of Content Creation",
+        "How to Use AI to Create Engaging Video Ads"
+      ]
+    },
+    {
+      "name": "Google Flow",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Flow is a tool that uses AI to generate videos and images.",
+      "audience_angle": "You can use Google Flow to create high-quality videos and images without extensive design experience.",
+      "linkedin_angle": "Google Flow can help businesses create engaging visual content for marketing and advertising.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U_UlKTOWV1A",
-          "signal": "5 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning AI-Generated Videos",
-        "AI Video Generation: A Step-by-Step Guide",
-        "Using AI for Professional Video Creation"
-      ]
-    },
-    {
-      "name": "Qwen 3.8 27b",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Qwen 3.8 27b is a new AI model with advanced capabilities.",
-      "audience_angle": "You can use Qwen 3.8 27b for enhanced AI performance in your projects.",
-      "linkedin_angle": "Stay ahead of the curve with Qwen 3.8 27b and its advanced AI features.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Qwen has an affiliate program for its premium features."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reddit.com/r/singularity/comments/1voa4mo/qwen_38_27b_is_here/",
-          "signal": "Qwen 3.8 27b is here"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Qwen 3.8 27b",
-        "Qwen 3.8 27b: A Game-Changer for AI Enthusiasts",
-        "How to Get the Most Out of Qwen 3.8 27b"
-      ]
-    },
-    {
-      "name": "Google Flow AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Google Flow AI is a tool for generating AI content.",
-      "audience_angle": "You can use Google Flow AI for creating engaging content or marketing materials.",
-      "linkedin_angle": "Leverage Google Flow AI to enhance your professional content and reach a wider audience.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Google Flow AI has an affiliate program."
+        "note": "Google Flow has an affiliate program for developers and businesses."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=VQ9R05DqL04",
-          "signal": "Google Flow Tutorial - Best Free AI Image & Video Generator"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Content with Google Flow AI",
-        "Google Flow AI: A Step-by-Step Guide",
-        "Using Google Flow AI for Professional Content Creation"
+        "How to Use Google Flow for Video Creation",
+        "Google Flow: The Future of Visual Content Creation",
+        "How to Make Money with Google Flow"
       ]
     },
     {
-      "name": "AI Automation",
+      "name": "AI Agents",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "AI can automate repetitive tasks and workflows.",
-      "audience_angle": "You can use AI automation to streamline your work and increase productivity.",
-      "linkedin_angle": "Leverage AI automation to enhance your professional workflow and efficiency.",
+      "what_it_is": "AI agents are artificial intelligence systems that can perform tasks autonomously.",
+      "audience_angle": "You can use AI agents to automate tasks and improve productivity.",
+      "linkedin_angle": "AI agents can help businesses automate tasks and improve efficiency.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI automation tools often have affiliate programs."
+        "note": "Some AI agent tools have affiliate programs for developers and businesses."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J_RORdJqAeo",
-          "signal": "How to make money in 2026 with AI automation"
+          "url": "https://www.youtube.com/watch?v=xlaSgpb_9hg",
+          "signal": "0"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49308059",
+          "signal": "180"
         }
       ],
       "content_ideas": [
-        "How to Automate Your Work with AI",
-        "AI Automation: A Step-by-Step Guide",
-        "Using AI Automation for Professional Productivity"
+        "How to Use AI Agents for Task Automation",
+        "AI Agents: The Future of Productivity",
+        "How to Make Money with AI Agents"
+      ]
+    },
+    {
+      "name": "Homomorphic Encryption",
+      "category": "technique",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Homomorphic encryption is a technique that allows computations to be performed on encrypted data.",
+      "audience_angle": "Homomorphic encryption can help protect sensitive data and ensure privacy.",
+      "linkedin_angle": "Homomorphic encryption can help businesses protect sensitive data and ensure compliance with regulations.",
+      "local_relevance": 9,
+      "pillar": "explainer",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "Homomorphic encryption is a technical concept and does not have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+          "signal": "746"
+        }
+      ],
+      "content_ideas": [
+        "What is Homomorphic Encryption?",
+        "How Homomorphic Encryption Works",
+        "The Future of Data Privacy with Homomorphic Encryption"
+      ]
+    },
+    {
+      "name": "AI in Education",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI in education refers to the use of artificial intelligence in educational settings.",
+      "audience_angle": "AI can help improve learning outcomes and make education more accessible.",
+      "linkedin_angle": "AI can help educators create personalized learning experiences and improve student outcomes.",
+      "local_relevance": 7,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Some AI education tools have affiliate programs for educators and institutions."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pPKa8wuC4BM",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How AI is Changing Education",
+        "The Benefits of AI in Education",
+        "How to Use AI to Improve Learning Outcomes"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Google Flow AI",
+      "name": "ChatGPT",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "youtube"
+        "reddit",
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Google Flow AI is a tool for generating AI content.",
-      "audience_angle": "You can use Google Flow AI for creating engaging content or marketing materials.",
-      "linkedin_angle": "Leverage Google Flow AI to enhance your professional content and reach a wider audience.",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
+      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
+      "linkedin_angle": "ChatGPT can help professionals automate tasks and improve productivity.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Flow AI has an affiliate program."
+        "note": "ChatGPT has an affiliate program for developers and businesses."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "40"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
+          "signal": "0"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Content Creation",
+        "ChatGPT: The Future of Customer Service",
+        "How to Make Money with ChatGPT"
+      ]
+    },
+    {
+      "name": "Google Flow",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Flow is a tool that uses AI to generate videos and images.",
+      "audience_angle": "You can use Google Flow to create high-quality videos and images without extensive design experience.",
+      "linkedin_angle": "Google Flow can help businesses create engaging visual content for marketing and advertising.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Flow has an affiliate program for developers and businesses."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=VQ9R05DqL04",
-          "signal": "Google Flow Tutorial - Best Free AI Image & Video Generator"
+          "signal": "0"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Content with Google Flow AI",
-        "Google Flow AI: A Step-by-Step Guide",
-        "Using Google Flow AI for Professional Content Creation"
-      ]
-    },
-    {
-      "name": "ChatGPT Image Generation",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT can generate images based on user prompts.",
-      "audience_angle": "You can use ChatGPT to create unique images for your projects or social media.",
-      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional content and stand out.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its premium features."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Professional Image Creation"
-      ]
-    },
-    {
-      "name": "Gemini 3.7 Flash",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Gemini 3.7 Flash is an updated AI model with improved performance.",
-      "audience_angle": "You can use Gemini 3.7 Flash for enhanced AI capabilities in your projects.",
-      "linkedin_angle": "Stay ahead of the curve with Gemini 3.7 Flash and its advanced AI features.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Gemini has an affiliate program for its premium features."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Introducing Gemini 3.7 Flash"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X8K1bW-XfL8",
-          "signal": "OpenAI's GPT-6 'Doug', Qwen 4.0 WILL BE INSANE, GPT-Image-3.0?, RIP Gemini, & More! HUGE AI NEWS!"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Gemini 3.7 Flash",
-        "Gemini 3.7 Flash: A Game-Changer for AI Enthusiasts",
-        "How to Get the Most Out of Gemini 3.7 Flash"
-      ]
-    },
-    {
-      "name": "Qwen 3.8 27b",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Qwen 3.8 27b is a new AI model with advanced capabilities.",
-      "audience_angle": "You can use Qwen 3.8 27b for enhanced AI performance in your projects.",
-      "linkedin_angle": "Stay ahead of the curve with Qwen 3.8 27b and its advanced AI features.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Qwen has an affiliate program for its premium features."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reddit.com/r/singularity/comments/1voa4mo/qwen_38_27b_is_here/",
-          "signal": "Qwen 3.8 27b is here"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Qwen 3.8 27b",
-        "Qwen 3.8 27b: A Game-Changer for AI Enthusiasts",
-        "How to Get the Most Out of Qwen 3.8 27b"
+        "How to Use Google Flow for Video Creation",
+        "Google Flow: The Future of Visual Content Creation",
+        "How to Make Money with Google Flow"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and token limits",
+      "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1voet8b/i_cant_spot_any_ai_mistake_in_this_image/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vp94bu/chatgpt_data_export_keeps_downloading_corrupted/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
     },
     {
-      "problem": "Difficulty in creating apps with ChatGPT",
-      "who_affected": "Developers and users",
+      "problem": "AI video generation quality issues",
+      "who_affected": "AI video generation users",
       "signal_strength": 5,
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vp0er9/is_there_no_way_to_create_an_app_and_use_it_like/"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=07beqAnrkpU"
         }
       ],
-      "content_opportunity": "A Step-by-Step Guide to Creating Apps with ChatGPT"
+      "content_opportunity": "How to Improve AI Video Generation Quality"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "ChatGPT"
 }
