@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:15:33.631373+00:00",
+  "generated_at": "2026-08-15T01:51:06.707851+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -18,21 +18,21 @@
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
       "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design workflows.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT image generation."
       },
       "sources": [
         {
@@ -48,14 +48,14 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Designers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
+        "Using ChatGPT Image Generation for Marketing and Design",
+        "ChatGPT Image Generation: Tips and Tricks"
       ]
     },
     {
       "name": "Gemini 3.7 Flash",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "youtube"
@@ -63,13 +63,13 @@
       "what_it_is": "Gemini 3.7 Flash is an updated version of the Gemini AI model with improved performance and capabilities.",
       "audience_angle": "Experience the latest advancements in AI technology with Gemini 3.7 Flash.",
       "linkedin_angle": "Discover how Gemini 3.7 Flash can enhance your business operations and productivity.",
-      "local_relevance": 6,
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "Gemini has an affiliate program for its AI models."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Gemini 3.7 Flash."
       },
       "sources": [
         {
@@ -84,141 +84,93 @@
         }
       ],
       "content_ideas": [
-        "What's New in Gemini 3.7 Flash: Features and Updates",
-        "Gemini 3.7 Flash: A Revolutionary AI Model for Business",
-        "Getting Started with Gemini 3.7 Flash: A Beginner's Guide"
+        "What's New in Gemini 3.7 Flash?",
+        "Gemini 3.7 Flash: A Game-Changer for Business Operations",
+        "Getting Started with Gemini 3.7 Flash"
       ]
     },
     {
-      "name": "AI Agents for Automation",
+      "name": "AI Video Generation",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "hackernews",
         "youtube"
       ],
-      "what_it_is": "AI agents can automate various tasks and processes, increasing efficiency and productivity.",
-      "audience_angle": "Discover how AI agents can automate tasks and transform your workflow.",
-      "linkedin_angle": "Explore the potential of AI agents in automating business operations and improving productivity.",
-      "local_relevance": 7,
+      "what_it_is": "AI video generation allows users to create videos based on text prompts or other inputs.",
+      "audience_angle": "Create stunning videos with just a few words using AI video generation.",
+      "linkedin_angle": "Explore how AI video generation can enhance your marketing and content creation workflows.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "AI agent tools often have affiliate programs."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for AI video generation."
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.codewithbullet.com",
-          "signal": "Launch HN: Bullet (YC S26) – A Faster Coding Agent"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XXU8ybqUFEo",
-          "signal": "How to Build & Sell AI Agents | Complete Beginner's Guide"
+          "url": "https://www.youtube.com/watch?v=U_UlKTOWV1A",
+          "signal": "5 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
         }
       ],
       "content_ideas": [
-        "How AI Agents Can Automate Your Workflow",
-        "Building and Selling AI Agents: A Beginner's Guide",
-        "The Future of Automation: AI Agents and Beyond"
+        "How to Create Stunning Videos with AI",
+        "Using AI Video Generation for Marketing and Content Creation",
+        "AI Video Generation: Tips and Tricks"
       ]
     },
     {
-      "name": "AI for Earning and Making Money",
+      "name": "AI for Earning",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI can be used to earn and make money through various methods, such as automation, trading, and content creation.",
-      "audience_angle": "Learn how to use AI to earn and make money.",
-      "linkedin_angle": "Explore the potential of AI in generating revenue and improving business operations.",
+      "what_it_is": "AI can be used to earn money through various means, such as content creation, affiliate marketing, and more.",
+      "audience_angle": "Discover how AI can help you earn money and achieve financial freedom.",
+      "linkedin_angle": "Explore how AI can enhance your career and business operations, leading to increased earnings.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI tools for earning and making money often have affiliate programs."
+        "note": "Affiliate programs available for AI-powered earning opportunities."
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=J_RORdJqAeo",
           "signal": "How to make money in 2026 with AI automation"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MqYpDpMcDLE",
-          "signal": "5 Laziest Ways To Get Rich In The AI Era (2026)"
         }
       ],
       "content_ideas": [
-        "How to Use AI to Earn and Make Money",
-        "AI for Financial Freedom: Tips and Strategies",
-        "The AI Revolution: How to Make Money with AI"
+        "How to Use AI to Make Money",
+        "AI-Powered Earning Opportunities: A Guide",
+        "Maximizing Your Earnings with AI"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Gemini 3.7 Flash",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "Gemini 3.7 Flash is an updated version of the Gemini AI model with improved performance and capabilities.",
-      "audience_angle": "Experience the latest advancements in AI technology with Gemini 3.7 Flash.",
-      "linkedin_angle": "Discover how Gemini 3.7 Flash can enhance your business operations and productivity.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Gemini has an affiliate program for its AI models."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Introducing Gemini 3.7 Flash"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3RLoI4BnsJk",
-          "signal": "Gemini 3.7 Flash Is Coming, GPT Image 3 Is Being Tested & MORE!"
-        }
-      ],
-      "content_ideas": [
-        "What's New in Gemini 3.7 Flash: Features and Updates",
-        "Gemini 3.7 Flash: A Revolutionary AI Model for Business",
-        "Getting Started with Gemini 3.7 Flash: A Beginner's Guide"
-      ]
-    },
-    {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "reddit",
         "youtube"
       ],
       "what_it_is": "ChatGPT's image generation capability allows users to create images based on text prompts.",
-      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation.",
+      "audience_angle": "Create stunning images with just a few words using ChatGPT's image generation feature.",
       "linkedin_angle": "Explore how ChatGPT's image generation can enhance your marketing and design workflows.",
       "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "affiliate_likely": false,
+        "note": "No affiliate program available for ChatGPT image generation."
       },
       "sources": [
         {
@@ -234,35 +186,60 @@
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Designers",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
+        "Using ChatGPT Image Generation for Marketing and Design",
+        "ChatGPT Image Generation: Tips and Tricks"
+      ]
+    },
+    {
+      "name": "Gemini 3.7 Flash",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "Gemini 3.7 Flash is an updated version of the Gemini AI model with improved performance and capabilities.",
+      "audience_angle": "Experience the latest advancements in AI technology with Gemini 3.7 Flash.",
+      "linkedin_angle": "Discover how Gemini 3.7 Flash can enhance your business operations and productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available for Gemini 3.7 Flash."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "signal": "Introducing Gemini 3.7 Flash"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3RLoI4BnsJk",
+          "signal": "Gemini 3.7 Flash Is Coming, GPT Image 3 Is Being Tested & MORE!"
+        }
+      ],
+      "content_ideas": [
+        "What's New in Gemini 3.7 Flash?",
+        "Gemini 3.7 Flash: A Game-Changer for Business Operations",
+        "Getting Started with Gemini 3.7 Flash"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT usage limits and restrictions",
+      "problem": "ChatGPT usage limits and costs",
       "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9qj4/is_chatgpts_image_engine_becoming_too_restrictive/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vojq22/hatgpt_sidebar_and_top_menu_keep_vanishing_after/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits and restrictions"
-    },
-    {
-      "problem": "AI model training and integration challenges",
-      "who_affected": "AI developers and users",
-      "signal_strength": 5,
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
-        }
-      ],
-      "content_opportunity": "Solutions and best practices for AI model training and integration"
+      "content_opportunity": "Workarounds and tips for optimizing ChatGPT usage and minimizing costs."
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
