@@ -21,8 +21,8 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://www.nature.com/articles/d41586-026-02451-2
 7. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
    https://www.nature.com/articles/d41586-026-02503-7
-8. **Error by AI scribe during medical appointment leaves patient devastated** — 4 upvotes on Reddit/HN
-   https://www.abc.net.au/news/2026-08-14/ai-medical-scribe-error-leaves-patient-devastated/107031672
+8. **The Body Remembers but the Doctor Cannot- Experiments with AI in Personal Health** — 2 upvotes on Reddit/HN
+   https://karankurani.com/writing/post/w_20260721140414_b0e102/the-body-remembers-but-the-doctor-cannot-experiments-with-ai-in-personal-health/
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 166
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — https://www.nature.com/articles/d41586-026-02447-y
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3770
+- Total stories tracked: 3773
 - Most active topic: agents
 - Busiest category: AI General News
 
