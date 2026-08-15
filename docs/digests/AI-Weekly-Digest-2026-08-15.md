@@ -35,16 +35,16 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://arxiv.org/abs/2608.09867
 5. **Zuckerberg manifesto sketches out Meta's ambitions for world-changing AI technology - The Washington Post** — Meta AI News — Score 80
    https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWW9SSHZnNlU0c2JROTc2bkhvRnR2QTAxaEUxMjN6b1dQcjVUNVFFQ3RQTEVkSG5lZUJxOXJVZzFmdXRwVG5RSlQwT2gySnhkeUxvdFRQeVljejVrb0ZDWVY0TkdvQnd0ZUpna0lwVHZrbjRER00wSzVjWTgwOWg3aG45elpXWVIzZ2dzMTJoc0VGaF9CLXl2SkVCeHhISThiNmg3U0Z6bFFmNGoyQ09pUUgwU2UwTVdyc1M1bkhyWFlya20weTY2aXUtU0JVOGhqOUxya3dCVlZfUVVsWEhr?oc=5
-6. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 78
-   https://news.google.com/rss/articles/CBMiowJBVV95cUxPVWJXbjJWSkpveTNqTzg0Q25hVjViWU5uNVg1a0ZLdmY2Njd1cEZaNEJYMjNRM2ViN0NrTS00eFhmZC00V3VzNXcxd0ZKZmlIcFJuUWlubFJ2d3AxQWRIblJ0alhOSGpxZ1V2V1RucjdGYll0N0F0QV9kb1ZiV0YtTDZUdTRUYjdXT2RRX2MyajRNYUYySVAzWHprNDlRdVpNN0NXQVlCN1RtcHR4YVBIbU9MRTh1a0pwNDFQQ1RrVC1BYWlCbUlubC0zRWpoaDZmTTQwOEJEbUN4QWpZYU5OY1I0bUZLamQwdmNkY2ZwcDh6Ym91VngwczhibVBJMUlvV2hLT1R6bjEtQmNEQ1JQcGJ0cHJoMnNjVEJZVTBQQ1ItRm_SAaMCQVVfeXFMT1ViV24yVkpKb3kzak84NENuYVY1YllObjVYNWtGS3ZmNjY3dXBGWjRCWDIzUTNlYjdDa00tNHhYZmQtNFd1czV3MXdGSmZpSHBSblFpbmxSdndwMUFkSG5SdGpYTkhqcWdVdldUbnI3RmJZdDdBdEFfZG9WYldGLUw2VHU0VGI3V09kUV9jMmo0TWFGMklQM1h6azQ5UXVaTTdDV0FZQjdUbXB0eGFQSG1PTEU4dWtKcDQxUENUa1QtQWFpQm1JbmwtM0VqaGg2Zk00MDhCRG1DeEFqWWFOTmNSNG1GS2pkMHZjZGNmcHA4emJvdVZ4MHM4Ym1QSTFJb1doS09Uem4xLUJjRENSUHBidHByaDJzY1RCWVUwUENSLUZv?oc=5
-7. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
-   https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-8. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
-   https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
-9. **Meta launches new AI model as Zuckerberg champions open-weight push - Reuters** — AI in Coding — Score 72
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5
-10. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 70
+6. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 80
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlpNdnFESFRFYTdGZ0syQXRta3dDZFNKWWw3RzNYdWdyS2k5akpwYUp3Yi1KcF9sTFo1dkRycmc1V1NWVE9KX2dBNy04Vk5rNFlJVlBGLUFUSTZNREx5cU9Ub3ZBMXhGZGloaXJCc1JLQ0hLbG1kUUtIc0ZRWFA4Q2ZiVnBWckNvR2NwV2lnZmJ6XzJVcFRadGQ0MWZYRVVONkVsdVJMU3JYb2tkUGpj?oc=5
+7. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 78
+   https://news.google.com/rss/articles/CBMiowJBVV95cUxPVWJXbjJWSkpveTNqTzg0Q25hVjViWU5uNVg1a0ZLdmY2Njd1cEZaNEJYMjNRM2ViN0NrTS00eFhmZC00V3VzNXcxd0ZKZmlIcFJuUWlubFJ2d3AxQWRIblJ0alhOSGpxZ1V2V1RucjdGYll0N0F0QV9kb1ZiV0YtTDZUdTRUYjdXT2RRX2MyajRNYUYySVAzWHprNDlRdVpNN0NXQVlCN1RtcHR4YVBIbU9MRTh1a0pwNDFQQ1RrVC1BYWlCbUlubC0zRWpoaDZmTTQwOEJEbUN4QWpZYU5OY1I0bUZLamQwdmNkY2ZwcDh6Ym91VngwczhibVBJMUlvV2hLT1R6bjEtQmNEQ1JQcGJ0cHJoMnNjVEJZVTBQQ1ItRm_SAaMCQVVfeXFMT1ViV24yVkpKb3kzak84NENuYVY1YllObjVYNWtGS3ZmNjY3dXBGWjRCWDIzUTNlYjdDa00tNHhYZmQtNFd1czV3MXdGSmZpSHBSblFpbmxSdndwMUFkSG5SdGpYTkhqcWdVdldUbnI3RmJZdDdBdEFfZG9WYldGLUw2VHU0VGI3V09kUV9jMmo0TWFGMklQM1h6azQ5UXVaTTdDV0FZQjdUbXB0eGFQSG1PTEU4dWtKcDQxUENUa1QtQWFpQm1JbmwtM0VqaGg2Zk00MDhCRG1DeEFqWWFOTmNSNG1GS2pkMHZjZGNmcHA4emJvdVZ4MHM4Ym1QSTFJb1doS09Uem4xLUJjRENSUHBidHByaDJzY1RCWVUwUENSLUZv?oc=5
+8. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
+   https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
+9. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
+   https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
+10. **Meta launches new AI model as Zuckerberg champions open-weight push - Reuters** — AI in Coding — Score 72
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3758
+- Total stories tracked: 3763
 - Most active topic: model
 - Busiest category: AI General News
 
