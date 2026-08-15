@@ -39,12 +39,12 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlpNdnFESFRFYTdGZ0syQXRta3dDZFNKWWw3RzNYdWdyS2k5akpwYUp3Yi1KcF9sTFo1dkRycmc1V1NWVE9KX2dBNy04Vk5rNFlJVlBGLUFUSTZNREx5cU9Ub3ZBMXhGZGloaXJCc1JLQ0hLbG1kUUtIc0ZRWFA4Q2ZiVnBWckNvR2NwV2lnZmJ6XzJVcFRadGQ0MWZYRVVONkVsdVJMU3JYb2tkUGpj?oc=5
 7. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 78
    https://news.google.com/rss/articles/CBMiowJBVV95cUxPVWJXbjJWSkpveTNqTzg0Q25hVjViWU5uNVg1a0ZLdmY2Njd1cEZaNEJYMjNRM2ViN0NrTS00eFhmZC00V3VzNXcxd0ZKZmlIcFJuUWlubFJ2d3AxQWRIblJ0alhOSGpxZ1V2V1RucjdGYll0N0F0QV9kb1ZiV0YtTDZUdTRUYjdXT2RRX2MyajRNYUYySVAzWHprNDlRdVpNN0NXQVlCN1RtcHR4YVBIbU9MRTh1a0pwNDFQQ1RrVC1BYWlCbUlubC0zRWpoaDZmTTQwOEJEbUN4QWpZYU5OY1I0bUZLamQwdmNkY2ZwcDh6Ym91VngwczhibVBJMUlvV2hLT1R6bjEtQmNEQ1JQcGJ0cHJoMnNjVEJZVTBQQ1ItRm_SAaMCQVVfeXFMT1ViV24yVkpKb3kzak84NENuYVY1YllObjVYNWtGS3ZmNjY3dXBGWjRCWDIzUTNlYjdDa00tNHhYZmQtNFd1czV3MXdGSmZpSHBSblFpbmxSdndwMUFkSG5SdGpYTkhqcWdVdldUbnI3RmJZdDdBdEFfZG9WYldGLUw2VHU0VGI3V09kUV9jMmo0TWFGMklQM1h6azQ5UXVaTTdDV0FZQjdUbXB0eGFQSG1PTEU4dWtKcDQxUENUa1QtQWFpQm1JbmwtM0VqaGg2Zk00MDhCRG1DeEFqWWFOTmNSNG1GS2pkMHZjZGNmcHA4emJvdVZ4MHM4Ym1QSTFJb1doS09Uem4xLUJjRENSUHBidHByaDJzY1RCWVUwUENSLUZv?oc=5
-8. **OpenAI to pause some work on AI model Astra due to security concerns** — Hacker News new — Score 73.0
-   https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns
-9. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
+8. **AI isn’t the biggest cybersecurity problem. People are** — ktvz — Score 73
    https://ktvz.com/money/cnn-business-consumer/2026/08/09/ai-isnt-the-biggest-cybersecurity-problem-people-are/
-10. **AI boom or bubble? Timing is everything** — keyt — Score 73
+9. **AI boom or bubble? Timing is everything** — keyt — Score 73
    https://keyt.com/news/money-and-business/cnn-business-consumer/2026/08/13/ai-boom-or-bubble-timing-is-everything/
+10. **Meta launches new AI model as Zuckerberg champions open-weight push - Reuters** — AI in Coding — Score 72
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — https://www.nature.com/articles/d41586-026-02447-y
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3768
+- Total stories tracked: 3771
 - Most active topic: agents
 - Busiest category: AI General News
 
