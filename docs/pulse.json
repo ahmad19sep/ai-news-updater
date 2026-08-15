@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:59:15.640139+00:00",
+  "generated_at": "2026-08-15T13:00:12.388821+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 33,
+      "reddit": 40,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": "groq"
@@ -23,16 +23,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create amazing images with just a few clicks.",
-      "linkedin_angle": "Automate your content creation with AI image generation.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT can generate images based on user prompts.",
+      "audience_angle": "You can use ChatGPT to create unique images for your projects or social media.",
+      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional content and stand out.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -43,50 +43,50 @@
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "Long Ai Video Kaise Banaye"
+          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
         "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Automated Content Creation"
+        "Using ChatGPT for Professional Image Creation"
       ]
     },
     {
-      "name": "Claude AI",
+      "name": "Gemini 3.7 Flash",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit",
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Claude AI is a tool that can assist with various tasks, including coding and writing.",
-      "audience_angle": "Get help with your tasks and projects from Claude AI.",
-      "linkedin_angle": "Streamline your workflow with Claude AI's automation capabilities.",
-      "local_relevance": 9,
+      "what_it_is": "Gemini 3.7 Flash is an updated AI model with improved performance.",
+      "audience_angle": "You can use Gemini 3.7 Flash for enhanced AI capabilities in your projects.",
+      "linkedin_angle": "Stay ahead of the curve with Gemini 3.7 Flash and its advanced AI features.",
+      "local_relevance": 6,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its services."
+        "note": "Gemini has an affiliate program for its premium features."
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1voi341/i_let_claude_code_trade_stocks_with_my_real_money/",
-          "signal": "I let Claude Code trade stocks with my real money. Results:"
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "signal": "Introducing Gemini 3.7 Flash"
         },
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49308059",
-          "signal": "Ask HN: How do you keep up with HN these days?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X8K1bW-XfL8",
+          "signal": "OpenAI's GPT-6 'Doug', Qwen 4.0 WILL BE INSANE, GPT-Image-3.0?, RIP Gemini, & More! HUGE AI NEWS!"
         }
       ],
       "content_ideas": [
-        "How to Use Claude AI for Automated Coding",
-        "Claude AI: A Game-Changer for Content Creation",
-        "Getting Started with Claude AI: A Beginner's Guide"
+        "What's New in Gemini 3.7 Flash",
+        "Gemini 3.7 Flash: A Game-Changer for AI Enthusiasts",
+        "How to Get the Most Out of Gemini 3.7 Flash"
       ]
     },
     {
@@ -96,13 +96,13 @@
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation tools can create videos based on user input.",
-      "audience_angle": "Create stunning videos with just a few clicks.",
-      "linkedin_angle": "Automate your video content creation with AI.",
+      "what_it_is": "AI can generate videos based on user prompts or inputs.",
+      "audience_angle": "You can use AI video generation for creating engaging content or marketing materials.",
+      "linkedin_angle": "Leverage AI video generation to enhance your professional content and reach a wider audience.",
       "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 10,
+      "best_format": "long_form",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": "AI video generation tools often have affiliate programs."
@@ -115,106 +115,137 @@
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
+        "How to Create Stunning AI-Generated Videos",
         "AI Video Generation: A Step-by-Step Guide",
-        "Using AI for Automated Video Content Creation"
+        "Using AI for Professional Video Creation"
       ]
     },
     {
-      "name": "Gemini 3.7 Flash",
+      "name": "Qwen 3.8 27b",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
-      "what_it_is": "Gemini 3.7 Flash is a new AI model from Google.",
-      "audience_angle": "Get the latest updates on Gemini 3.7 Flash.",
-      "linkedin_angle": "Stay ahead of the curve with the latest AI developments.",
-      "local_relevance": 6,
-      "pillar": "news",
+      "what_it_is": "Qwen 3.8 27b is a new AI model with advanced capabilities.",
+      "audience_angle": "You can use Qwen 3.8 27b for enhanced AI performance in your projects.",
+      "linkedin_angle": "Stay ahead of the curve with Qwen 3.8 27b and its advanced AI features.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Gemini 3.7 Flash."
+        "affiliate_likely": true,
+        "note": "Qwen has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-          "signal": "Introducing Gemini 3.7 Flash"
+          "url": "https://www.reddit.com/r/singularity/comments/1voa4mo/qwen_38_27b_is_here/",
+          "signal": "Qwen 3.8 27b is here"
         }
       ],
       "content_ideas": [
-        "What's New in Gemini 3.7 Flash",
-        "Gemini 3.7 Flash: A Game-Changer for AI",
-        "Getting Started with Gemini 3.7 Flash"
+        "What's New in Qwen 3.8 27b",
+        "Qwen 3.8 27b: A Game-Changer for AI Enthusiasts",
+        "How to Get the Most Out of Qwen 3.8 27b"
       ]
     },
     {
-      "name": "AI Agents",
-      "category": "use_case",
+      "name": "Google Flow AI",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI agents can assist with various tasks, including automation and content creation.",
-      "audience_angle": "Get help with your tasks and projects from AI agents.",
-      "linkedin_angle": "Streamline your workflow with AI agents.",
+      "what_it_is": "Google Flow AI is a tool for generating AI content.",
+      "audience_angle": "You can use Google Flow AI for creating engaging content or marketing materials.",
+      "linkedin_angle": "Leverage Google Flow AI to enhance your professional content and reach a wider audience.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Flow AI has an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VQ9R05DqL04",
+          "signal": "Google Flow Tutorial - Best Free AI Image & Video Generator"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Content with Google Flow AI",
+        "Google Flow AI: A Step-by-Step Guide",
+        "Using Google Flow AI for Professional Content Creation"
+      ]
+    },
+    {
+      "name": "AI Automation",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "AI can automate repetitive tasks and workflows.",
+      "audience_angle": "You can use AI automation to streamline your work and increase productivity.",
+      "linkedin_angle": "Leverage AI automation to enhance your professional workflow and efficiency.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI agent tools often have affiliate programs."
+        "note": "AI automation tools often have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XXU8ybqUFEo",
-          "signal": "How to Build & Sell AI Agents | Complete Beginner's Guide"
+          "url": "https://www.youtube.com/watch?v=J_RORdJqAeo",
+          "signal": "How to make money in 2026 with AI automation"
         }
       ],
       "content_ideas": [
-        "How to Use AI Agents for Automation",
-        "AI Agents: A Game-Changer for Content Creation",
-        "Getting Started with AI Agents: A Beginner's Guide"
-      ]
-    },
-    {
-      "name": "Homomorphic Encryption",
-      "category": "technique",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Homomorphic encryption is a technique for secure data processing.",
-      "audience_angle": "Learn about the latest developments in homomorphic encryption.",
-      "linkedin_angle": "Stay ahead of the curve with the latest advancements in data security.",
-      "local_relevance": 5,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for homomorphic encryption."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-          "signal": "Google is making private AI practical with homomorphic encryption"
-        }
-      ],
-      "content_ideas": [
-        "What is Homomorphic Encryption?",
-        "Homomorphic Encryption: A Game-Changer for Data Security",
-        "Getting Started with Homomorphic Encryption"
+        "How to Automate Your Work with AI",
+        "AI Automation: A Step-by-Step Guide",
+        "Using AI Automation for Professional Productivity"
       ]
     }
   ],
   "rising_tools": [
+    {
+      "name": "Google Flow AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Flow AI is a tool for generating AI content.",
+      "audience_angle": "You can use Google Flow AI for creating engaging content or marketing materials.",
+      "linkedin_angle": "Leverage Google Flow AI to enhance your professional content and reach a wider audience.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Flow AI has an affiliate program."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VQ9R05DqL04",
+          "signal": "Google Flow Tutorial - Best Free AI Image & Video Generator"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Content with Google Flow AI",
+        "Google Flow AI: A Step-by-Step Guide",
+        "Using Google Flow AI for Professional Content Creation"
+      ]
+    },
     {
       "name": "ChatGPT Image Generation",
       "category": "tool_launch",
@@ -223,16 +254,16 @@
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT can generate images based on user input.",
-      "audience_angle": "Create amazing images with just a few clicks.",
-      "linkedin_angle": "Automate your content creation with AI image generation.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT can generate images based on user prompts.",
+      "audience_angle": "You can use ChatGPT to create unique images for your projects or social media.",
+      "linkedin_angle": "Leverage ChatGPT's image generation capabilities to enhance your professional content and stand out.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT has an affiliate program for its premium features."
       },
       "sources": [
         {
@@ -243,50 +274,13 @@
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "Long Ai Video Kaise Banaye"
+          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
         }
       ],
       "content_ideas": [
         "How to Create Stunning Images with ChatGPT",
         "ChatGPT Image Generation: A Step-by-Step Guide",
-        "Using ChatGPT for Automated Content Creation"
-      ]
-    },
-    {
-      "name": "Claude AI",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "hackernews"
-      ],
-      "what_it_is": "Claude AI is a tool that can assist with various tasks, including coding and writing.",
-      "audience_angle": "Get help with your tasks and projects from Claude AI.",
-      "linkedin_angle": "Streamline your workflow with Claude AI's automation capabilities.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Claude AI has an affiliate program for its services."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1voi341/i_let_claude_code_trade_stocks_with_my_real_money/",
-          "signal": "I let Claude Code trade stocks with my real money. Results:"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49308059",
-          "signal": "Ask HN: How do you keep up with HN these days?"
-        }
-      ],
-      "content_ideas": [
-        "How to Use Claude AI for Automated Coding",
-        "Claude AI: A Game-Changer for Content Creation",
-        "Getting Started with Claude AI: A Beginner's Guide"
+        "Using ChatGPT for Professional Image Creation"
       ]
     },
     {
@@ -294,57 +288,94 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
-      "what_it_is": "Gemini 3.7 Flash is a new AI model from Google.",
-      "audience_angle": "Get the latest updates on Gemini 3.7 Flash.",
-      "linkedin_angle": "Stay ahead of the curve with the latest AI developments.",
+      "what_it_is": "Gemini 3.7 Flash is an updated AI model with improved performance.",
+      "audience_angle": "You can use Gemini 3.7 Flash for enhanced AI capabilities in your projects.",
+      "linkedin_angle": "Stay ahead of the curve with Gemini 3.7 Flash and its advanced AI features.",
       "local_relevance": 6,
-      "pillar": "news",
+      "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available for Gemini 3.7 Flash."
+        "affiliate_likely": true,
+        "note": "Gemini has an affiliate program for its premium features."
       },
       "sources": [
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
           "signal": "Introducing Gemini 3.7 Flash"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X8K1bW-XfL8",
+          "signal": "OpenAI's GPT-6 'Doug', Qwen 4.0 WILL BE INSANE, GPT-Image-3.0?, RIP Gemini, & More! HUGE AI NEWS!"
         }
       ],
       "content_ideas": [
         "What's New in Gemini 3.7 Flash",
-        "Gemini 3.7 Flash: A Game-Changer for AI",
-        "Getting Started with Gemini 3.7 Flash"
+        "Gemini 3.7 Flash: A Game-Changer for AI Enthusiasts",
+        "How to Get the Most Out of Gemini 3.7 Flash"
+      ]
+    },
+    {
+      "name": "Qwen 3.8 27b",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "Qwen 3.8 27b is a new AI model with advanced capabilities.",
+      "audience_angle": "You can use Qwen 3.8 27b for enhanced AI performance in your projects.",
+      "linkedin_angle": "Stay ahead of the curve with Qwen 3.8 27b and its advanced AI features.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Qwen has an affiliate program for its premium features."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reddit.com/r/singularity/comments/1voa4mo/qwen_38_27b_is_here/",
+          "signal": "Qwen 3.8 27b is here"
+        }
+      ],
+      "content_ideas": [
+        "What's New in Qwen 3.8 27b",
+        "Qwen 3.8 27b: A Game-Changer for AI Enthusiasts",
+        "How to Get the Most Out of Qwen 3.8 27b"
       ]
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
-      "signal_strength": 8,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vo3hpu/claude_usage_limits_are_getting_out_of_hand/"
-        }
-      ],
-      "content_opportunity": "Claude Usage Limits: A Guide to Avoiding Restrictions"
-    },
-    {
-      "problem": "AI model watermarking issues",
-      "who_affected": "AI model users",
+      "problem": "ChatGPT usage limits and token limits",
+      "who_affected": "ChatGPT users",
       "signal_strength": 6,
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.seangoedecke.com/text-ai-watermarks/"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1voet8b/i_cant_spot_any_ai_mistake_in_this_image/"
         }
       ],
-      "content_opportunity": "AI Model Watermarking: A Guide to Removing Watermarks"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits and Token Limits"
+    },
+    {
+      "problem": "Difficulty in creating apps with ChatGPT",
+      "who_affected": "Developers and users",
+      "signal_strength": 5,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vp0er9/is_there_no_way_to_create_an_app_and_use_it_like/"
+        }
+      ],
+      "content_opportunity": "A Step-by-Step Guide to Creating Apps with ChatGPT"
     }
   ],
   "tool_of_week_candidate": "ChatGPT Image Generation"
