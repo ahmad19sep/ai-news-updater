@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:48:56.097625+00:00",
+  "generated_at": "2026-08-16T01:58:22.069702+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,280 +9,328 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "ChatGPT can help professionals automate tasks and improve productivity.",
-      "local_relevance": 8,
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "Create amazing images with just a few words using ChatGPT Images 2.0",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "40"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Content Creation",
-        "ChatGPT: The Future of Customer Service",
-        "How to Make Money with ChatGPT"
+        "How to use ChatGPT Images 2.0 for marketing",
+        "ChatGPT Images 2.0 tutorial for beginners",
+        "5 ways to make money with ChatGPT Images 2.0"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "AI Video Creation",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create high-quality videos without extensive video production experience.",
-      "linkedin_angle": "AI video generation can help businesses create engaging video content for marketing and advertising.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Some AI video generation tools have affiliate programs for creators and businesses."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "0"
-        }
-      ],
-      "content_ideas": [
-        "How to Create a Viral Video with AI",
-        "AI Video Generation: The Future of Content Creation",
-        "How to Use AI to Create Engaging Video Ads"
-      ]
-    },
-    {
-      "name": "Google Flow",
-      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Flow is a tool that uses AI to generate videos and images.",
-      "audience_angle": "You can use Google Flow to create high-quality videos and images without extensive design experience.",
-      "linkedin_angle": "Google Flow can help businesses create engaging visual content for marketing and advertising.",
-      "local_relevance": 7,
+      "what_it_is": "AI video creation involves using artificial intelligence to generate videos.",
+      "audience_angle": "Create stunning videos with minimal effort using AI",
+      "linkedin_angle": "Leverage AI video creation to boost your business's visual content",
+      "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Flow has an affiliate program for developers and businesses."
+        "note": "Several AI video creation tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VQ9R05DqL04",
-          "signal": "0"
+          "url": "https://www.youtube.com/results?search_query=ai+video+creation",
+          "signal": "AI video creation"
         }
       ],
       "content_ideas": [
-        "How to Use Google Flow for Video Creation",
-        "Google Flow: The Future of Visual Content Creation",
-        "How to Make Money with Google Flow"
+        "How to make money with AI-generated videos",
+        "AI video creation tools for beginners",
+        "5 tips for creating engaging AI videos"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a tool that allows users to automate tasks using ChatGPT.",
+      "audience_angle": "Automate your work with ChatGPT Work",
+      "linkedin_angle": "Streamline your workflow with ChatGPT Work",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT Work for business automation",
+        "ChatGPT Work tutorial for beginners",
+        "5 ways to make money with ChatGPT Work"
       ]
     },
     {
       "name": "AI Agents",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "youtube",
         "hackernews"
       ],
       "what_it_is": "AI agents are artificial intelligence systems that can perform tasks autonomously.",
-      "audience_angle": "You can use AI agents to automate tasks and improve productivity.",
-      "linkedin_angle": "AI agents can help businesses automate tasks and improve efficiency.",
-      "local_relevance": 8,
+      "audience_angle": "Unlock the power of AI agents for your business",
+      "linkedin_angle": "Discover how AI agents can revolutionize your industry",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI agent tools have affiliate programs for developers and businesses."
+        "note": "Several AI agent tools have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=xlaSgpb_9hg",
-          "signal": "0"
+          "signal": "What are AI Agents & How to Make Money with it?"
         },
         {
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49308059",
-          "signal": "180"
+          "signal": "Ask HN: How do you keep up with HN these days?"
         }
       ],
       "content_ideas": [
-        "How to Use AI Agents for Task Automation",
-        "AI Agents: The Future of Productivity",
-        "How to Make Money with AI Agents"
+        "How to use AI agents for marketing automation",
+        "AI agents for beginners",
+        "5 ways to make money with AI agents"
       ]
     },
     {
-      "name": "Homomorphic Encryption",
-      "category": "technique",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Homomorphic encryption is a technique that allows computations to be performed on encrypted data.",
-      "audience_angle": "Homomorphic encryption can help protect sensitive data and ensure privacy.",
-      "linkedin_angle": "Homomorphic encryption can help businesses protect sensitive data and ensure compliance with regulations.",
-      "local_relevance": 9,
-      "pillar": "explainer",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "Homomorphic encryption is a technical concept and does not have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-          "signal": "746"
-        }
-      ],
-      "content_ideas": [
-        "What is Homomorphic Encryption?",
-        "How Homomorphic Encryption Works",
-        "The Future of Data Privacy with Homomorphic Encryption"
-      ]
-    },
-    {
-      "name": "AI in Education",
-      "category": "use_case",
+      "name": "Google Flow Unlimited Credits",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI in education refers to the use of artificial intelligence in educational settings.",
-      "audience_angle": "AI can help improve learning outcomes and make education more accessible.",
-      "linkedin_angle": "AI can help educators create personalized learning experiences and improve student outcomes.",
+      "what_it_is": "Google Flow Unlimited Credits is a tool that provides unlimited credits for Google Flow.",
+      "audience_angle": "Get unlimited credits for Google Flow",
+      "linkedin_angle": "Boost your productivity with Google Flow Unlimited Credits",
       "local_relevance": 7,
-      "pillar": "explainer",
+      "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Some AI education tools have affiliate programs for educators and institutions."
+        "note": "Google Flow Unlimited Credits has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pPKa8wuC4BM",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=KnmkPyrJogU",
+          "signal": "Google Flow Unlimited Credits FREE | Google Flow FREE Unlimited Credits | How to Create AI Videos"
         }
       ],
       "content_ideas": [
-        "How AI is Changing Education",
-        "The Benefits of AI in Education",
-        "How to Use AI to Improve Learning Outcomes"
+        "How to use Google Flow Unlimited Credits for business",
+        "Google Flow Unlimited Credits tutorial",
+        "5 ways to make money with Google Flow Unlimited Credits"
       ]
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "ChatGPT",
+      "name": "Fetra AI",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "ChatGPT can help professionals automate tasks and improve productivity.",
+      "what_it_is": "Fetra AI is a tool that creates viral videos using artificial intelligence.",
+      "audience_angle": "Create viral videos with Fetra AI",
+      "linkedin_angle": "Leverage Fetra AI to boost your video marketing",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for developers and businesses."
+        "note": "Fetra AI has an affiliate program"
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "40"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
+          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT for Content Creation",
-        "ChatGPT: The Future of Customer Service",
-        "How to Make Money with ChatGPT"
+        "How to use Fetra AI for video marketing",
+        "Fetra AI tutorial for beginners",
+        "5 ways to make money with Fetra AI"
       ]
-    },
+    }
+  ],
+  "rising_tools": [
     {
-      "name": "Google Flow",
+      "name": "Fetra AI",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "Google Flow is a tool that uses AI to generate videos and images.",
-      "audience_angle": "You can use Google Flow to create high-quality videos and images without extensive design experience.",
-      "linkedin_angle": "Google Flow can help businesses create engaging visual content for marketing and advertising.",
-      "local_relevance": 7,
+      "what_it_is": "Fetra AI is a tool that creates viral videos using artificial intelligence.",
+      "audience_angle": "Create viral videos with Fetra AI",
+      "linkedin_angle": "Leverage Fetra AI to boost your video marketing",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Flow has an affiliate program for developers and businesses."
+        "note": "Fetra AI has an affiliate program"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VQ9R05DqL04",
-          "signal": "0"
+          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
+          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
         }
       ],
       "content_ideas": [
-        "How to Use Google Flow for Video Creation",
-        "Google Flow: The Future of Visual Content Creation",
-        "How to Make Money with Google Flow"
+        "How to use Fetra AI for video marketing",
+        "Fetra AI tutorial for beginners",
+        "5 ways to make money with Fetra AI"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
+      "audience_angle": "Create amazing images with just a few words using ChatGPT Images 2.0",
+      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Images 2.0 has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT Images 2.0 for marketing",
+        "ChatGPT Images 2.0 tutorial for beginners",
+        "5 ways to make money with ChatGPT Images 2.0"
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "ChatGPT Work is a tool that allows users to automate tasks using ChatGPT.",
+      "audience_angle": "Automate your work with ChatGPT Work",
+      "linkedin_angle": "Streamline your workflow with ChatGPT Work",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT Work has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
+          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+        }
+      ],
+      "content_ideas": [
+        "How to use ChatGPT Work for business automation",
+        "ChatGPT Work tutorial for beginners",
+        "5 ways to make money with ChatGPT Work"
+      ]
+    },
+    {
+      "name": "Google Flow Unlimited Credits",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "Google Flow Unlimited Credits is a tool that provides unlimited credits for Google Flow.",
+      "audience_angle": "Get unlimited credits for Google Flow",
+      "linkedin_angle": "Boost your productivity with Google Flow Unlimited Credits",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Google Flow Unlimited Credits has an affiliate program"
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KnmkPyrJogU",
+          "signal": "Google Flow Unlimited Credits FREE | Google Flow FREE Unlimited Credits | How to Create AI Videos"
+        }
+      ],
+      "content_ideas": [
+        "How to use Google Flow Unlimited Credits for business",
+        "Google Flow Unlimited Credits tutorial",
+        "5 ways to make money with Google Flow Unlimited Credits"
       ]
     }
   ],
@@ -294,23 +342,23 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vp94bu/chatgpt_data_export_keeps_downloading_corrupted/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vp6o14/chatgpt_is_my_only_friend/"
         }
       ],
-      "content_opportunity": "How to Overcome ChatGPT Usage Limits"
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     },
     {
-      "problem": "AI video generation quality issues",
-      "who_affected": "AI video generation users",
+      "problem": "AI detectors flagging human-written content",
+      "who_affected": "Content creators",
       "signal_strength": 5,
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=07beqAnrkpU"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vphqnf/ai_detectors_flagged_61_of_essays_written_by_real/"
         }
       ],
-      "content_opportunity": "How to Improve AI Video Generation Quality"
+      "content_opportunity": "How to avoid AI detectors flagging your content"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
