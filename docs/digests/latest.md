@@ -2,7 +2,7 @@
 
 ## 🔥 Biggest Story of the Week
 **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it**
-Covered by 17 source(s) · Score: 176
+Covered by 17 source(s) · Score: 173
 Best source link: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/
 All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.sbsun.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.dailybulletin.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.paradisepost.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.themorningsun.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it-2/ · https://www.oneidadispatch.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.news-herald.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.dailypress.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.greeleytribune.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.timescall.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.canoncitydailyrecord.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.reporterherald.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.dailycamera.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.thenewsherald.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.troyrecord.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.fortmorgantimes.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://news.google.com/rss/articles/CBMingFBVV95cUxPYmEyU1YxOG05dkduUzN1NGdXcXMyZk4tUjVYYTFnNEhfNGRQUFJ4dEx1bmtiZlJQWFVDSVFacHBSeHk1QjFiVU11MDR2amQxOGs2M0JBdE5PaF9qY1Rid19odU9MSzVoeGtMS19QNWFVTExScUxxMjRBVXNra2hUMmpNTXZneTZScXRrQ2U4d2xZMXhaMHpKa3NTWS1BQQ?oc=5
 
@@ -25,7 +25,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://www.nature.com/articles/d41586-026-02503-7
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 176
+1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 173
    https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/
 2. **Zuckerberg manifesto pushes an open-source approach on AI as Meta releases its latest model - AP News** — Meta AI News — Score 150
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSng0SGtoSVVRMlNMU19RakFvVGtGbk82WWdBY25STHV4OG84ZGljaWgzUUZRa1ROb2g2eERJV2pOTUlsRjNtbzFEU290QTBVcUV6UVpEQ0g1UEt2S1RFRDNhRGRLcnlTUFVTcWtXVU45WXF1cVNPMWgxQ3J3WWRqVFEweU5ZRkRQZXA5SmNUWkVCSEN1ZVdvaEI5M3B5aG1WeVctcW9YWmtIZ2c?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3763
+- Total stories tracked: 3759
 - Most active topic: agents
 - Busiest category: AI General News
 
