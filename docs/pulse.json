@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T01:58:22.069702+00:00",
+  "generated_at": "2026-08-16T07:01:07.907958+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -9,123 +9,178 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": "groq"
   },
   "trends": [
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "Create amazing images with just a few words using ChatGPT Images 2.0",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation",
-      "local_relevance": 5,
+      "what_it_is": "ChatGPT can now generate images.",
+      "audience_angle": "Create amazing images with just text prompts.",
+      "linkedin_angle": "Leverage AI image generation for marketing and branding.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ta0QB1WjcYo",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Images 2.0 for marketing",
-        "ChatGPT Images 2.0 tutorial for beginners",
-        "5 ways to make money with ChatGPT Images 2.0"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Artists",
+        "Using ChatGPT for Image Generation: Tips and Tricks"
       ]
     },
     {
-      "name": "AI Video Creation",
-      "category": "use_case",
+      "name": "AI Video Generation",
+      "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "reddit"
       ],
-      "what_it_is": "AI video creation involves using artificial intelligence to generate videos.",
-      "audience_angle": "Create stunning videos with minimal effort using AI",
-      "linkedin_angle": "Leverage AI video creation to boost your business's visual content",
-      "local_relevance": 8,
+      "what_it_is": "AI can generate videos with just text prompts.",
+      "audience_angle": "Create stunning videos without any video editing skills.",
+      "linkedin_angle": "Leverage AI video generation for marketing and branding.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "long_form",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video creation tools have affiliate programs"
+        "note": "Several AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+creation",
-          "signal": "AI video creation"
+          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
+          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
         }
       ],
       "content_ideas": [
-        "How to make money with AI-generated videos",
-        "AI video creation tools for beginners",
-        "5 tips for creating engaging AI videos"
+        "How to Create Stunning Videos with AI",
+        "AI Video Generation: A Game-Changer for Marketers",
+        "Using AI for Video Generation: Tips and Tricks"
       ]
     },
     {
-      "name": "ChatGPT Work",
+      "name": "ChatGPT and Claude",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to automate tasks using ChatGPT.",
-      "audience_angle": "Automate your work with ChatGPT Work",
-      "linkedin_angle": "Streamline your workflow with ChatGPT Work",
-      "local_relevance": 6,
+      "what_it_is": "ChatGPT and Claude are AI chatbots that can assist with various tasks.",
+      "audience_angle": "Get assistance with tasks and answers to questions with ChatGPT and Claude.",
+      "linkedin_angle": "Leverage ChatGPT and Claude for productivity and efficiency.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program"
+        "note": "ChatGPT and Claude have affiliate programs for their services."
       },
       "sources": [
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vpnok0/chatgpt_and_claude_gave_me_the_same_answer/",
+          "signal": "ChatGPT and Claude gave me the same answer"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+          "url": "https://www.youtube.com/watch?v=VPBD1lfBlb8",
+          "signal": "ChatGPT: Brand New Chat "
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for business automation",
-        "ChatGPT Work tutorial for beginners",
-        "5 ways to make money with ChatGPT Work"
+        "How to Use ChatGPT and Claude for Productivity",
+        "ChatGPT and Claude: A Comparison of AI Chatbots",
+        "Using ChatGPT and Claude for Task Automation"
       ]
     },
     {
-      "name": "AI Agents",
+      "name": "AI for Earning",
       "category": "use_case",
       "momentum": "hot",
       "platforms": [
         "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "AI agents are artificial intelligence systems that can perform tasks autonomously.",
-      "audience_angle": "Unlock the power of AI agents for your business",
-      "linkedin_angle": "Discover how AI agents can revolutionize your industry",
+      "what_it_is": "AI can be used for earning money through various methods.",
+      "audience_angle": "Earn money with AI through methods such as affiliate marketing and video creation.",
+      "linkedin_angle": "Leverage AI for earning and career advancement.",
       "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI agent tools have affiliate programs"
+        "note": "Several AI tools and services have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wrezj4sxtYs",
+          "signal": "15 Best Online Earning Apps That Actually Work (2026)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vp37ji/whats_one_thing_you_use_chatgpt_for_that_sounds/",
+          "signal": "What’s one thing you use ChatGPT for that sounds ridiculous — until people actually try it?"
+        }
+      ],
+      "content_ideas": [
+        "How to Earn Money with AI",
+        "AI for Earning: A Guide to Getting Started",
+        "Using AI for Affiliate Marketing and Earning"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "technique",
+      "momentum": "rising",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "AI agents are programs that can perform tasks autonomously.",
+      "audience_angle": "Use AI agents to automate tasks and increase productivity.",
+      "linkedin_angle": "Leverage AI agents for career advancement and productivity.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI agent tools and services have affiliate programs."
       },
       "sources": [
         {
@@ -140,197 +195,159 @@
         }
       ],
       "content_ideas": [
-        "How to use AI agents for marketing automation",
-        "AI agents for beginners",
-        "5 ways to make money with AI agents"
+        "How to Use AI Agents for Task Automation",
+        "AI Agents: A Guide to Getting Started",
+        "Using AI Agents for Career Advancement"
       ]
     },
     {
-      "name": "Google Flow Unlimited Credits",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "name": "AI for Trading",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
-        "youtube"
+        "youtube",
+        "hackernews"
       ],
-      "what_it_is": "Google Flow Unlimited Credits is a tool that provides unlimited credits for Google Flow.",
-      "audience_angle": "Get unlimited credits for Google Flow",
-      "linkedin_angle": "Boost your productivity with Google Flow Unlimited Credits",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Google Flow Unlimited Credits has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KnmkPyrJogU",
-          "signal": "Google Flow Unlimited Credits FREE | Google Flow FREE Unlimited Credits | How to Create AI Videos"
-        }
-      ],
-      "content_ideas": [
-        "How to use Google Flow Unlimited Credits for business",
-        "Google Flow Unlimited Credits tutorial",
-        "5 ways to make money with Google Flow Unlimited Credits"
-      ]
-    },
-    {
-      "name": "Fetra AI",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "Fetra AI is a tool that creates viral videos using artificial intelligence.",
-      "audience_angle": "Create viral videos with Fetra AI",
-      "linkedin_angle": "Leverage Fetra AI to boost your video marketing",
-      "local_relevance": 8,
+      "what_it_is": "AI can be used for trading and investing in the stock market.",
+      "audience_angle": "Use AI for trading and investing to increase returns and minimize risks.",
+      "linkedin_angle": "Leverage AI for trading and investing to advance your career.",
+      "local_relevance": 9,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Fetra AI has an affiliate program"
+        "note": "Several AI trading tools and services have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
-          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
+          "url": "https://www.youtube.com/watch?v=J_RORdJqAeo",
+          "signal": "How to make money in 2026 with AI automation"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
+          "signal": "Why tech bosses keep sharing their manifestos about AI"
         }
       ],
       "content_ideas": [
-        "How to use Fetra AI for video marketing",
-        "Fetra AI tutorial for beginners",
-        "5 ways to make money with Fetra AI"
+        "How to Use AI for Trading and Investing",
+        "AI for Trading: A Guide to Getting Started",
+        "Using AI for Trading and Investing to Advance Your Career"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "Fetra AI",
+      "name": "ChatGPT Image Generation",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "Fetra AI is a tool that creates viral videos using artificial intelligence.",
-      "audience_angle": "Create viral videos with Fetra AI",
-      "linkedin_angle": "Leverage Fetra AI to boost your video marketing",
+      "what_it_is": "ChatGPT can now generate images.",
+      "audience_angle": "Create amazing images with just text prompts.",
+      "linkedin_angle": "Leverage AI image generation for marketing and branding.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Fetra AI has an affiliate program"
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
-          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
-        }
-      ],
-      "content_ideas": [
-        "How to use Fetra AI for video marketing",
-        "Fetra AI tutorial for beginners",
-        "5 ways to make money with Fetra AI"
-      ]
-    },
-    {
-      "name": "ChatGPT Images 2.0",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "ChatGPT Images 2.0 is a tool that generates images based on text prompts.",
-      "audience_angle": "Create amazing images with just a few words using ChatGPT Images 2.0",
-      "linkedin_angle": "Discover how ChatGPT Images 2.0 can revolutionize your content creation",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 has an affiliate program"
+        "note": "ChatGPT has an affiliate program for its image generation tool."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        }
-      ],
-      "content_ideas": [
-        "How to use ChatGPT Images 2.0 for marketing",
-        "ChatGPT Images 2.0 tutorial for beginners",
-        "5 ways to make money with ChatGPT Images 2.0"
-      ]
-    },
-    {
-      "name": "ChatGPT Work",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT Work is a tool that allows users to automate tasks using ChatGPT.",
-      "audience_angle": "Automate your work with ChatGPT Work",
-      "linkedin_angle": "Streamline your workflow with ChatGPT Work",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT Work has an affiliate program"
-      },
-      "sources": [
+        },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MpVX4fMXv0A",
-          "signal": "How to Use New ChatGPT Work in 12 Minutes"
+          "url": "https://www.youtube.com/watch?v=Ta0QB1WjcYo",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "How to use ChatGPT Work for business automation",
-        "ChatGPT Work tutorial for beginners",
-        "5 ways to make money with ChatGPT Work"
+        "How to Create Stunning Images with ChatGPT",
+        "ChatGPT Image Generation: A Game-Changer for Artists",
+        "Using ChatGPT for Image Generation: Tips and Tricks"
       ]
     },
     {
-      "name": "Google Flow Unlimited Credits",
+      "name": "ChatGPT and Claude",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "reddit",
         "youtube"
       ],
-      "what_it_is": "Google Flow Unlimited Credits is a tool that provides unlimited credits for Google Flow.",
-      "audience_angle": "Get unlimited credits for Google Flow",
-      "linkedin_angle": "Boost your productivity with Google Flow Unlimited Credits",
+      "what_it_is": "ChatGPT and Claude are AI chatbots that can assist with various tasks.",
+      "audience_angle": "Get assistance with tasks and answers to questions with ChatGPT and Claude.",
+      "linkedin_angle": "Leverage ChatGPT and Claude for productivity and efficiency.",
       "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Google Flow Unlimited Credits has an affiliate program"
+        "note": "ChatGPT and Claude have affiliate programs for their services."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vpnok0/chatgpt_and_claude_gave_me_the_same_answer/",
+          "signal": "ChatGPT and Claude gave me the same answer"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VPBD1lfBlb8",
+          "signal": "ChatGPT: Brand New Chat "
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT and Claude for Productivity",
+        "ChatGPT and Claude: A Comparison of AI Chatbots",
+        "Using ChatGPT and Claude for Task Automation"
+      ]
+    },
+    {
+      "name": "AI Video Generation",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "reddit"
+      ],
+      "what_it_is": "AI can generate videos with just text prompts.",
+      "audience_angle": "Create stunning videos without any video editing skills.",
+      "linkedin_angle": "Leverage AI video generation for marketing and branding.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Several AI video generation tools have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KnmkPyrJogU",
-          "signal": "Google Flow Unlimited Credits FREE | Google Flow FREE Unlimited Credits | How to Create AI Videos"
+          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
+          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
         }
       ],
       "content_ideas": [
-        "How to use Google Flow Unlimited Credits for business",
-        "Google Flow Unlimited Credits tutorial",
-        "5 ways to make money with Google Flow Unlimited Credits"
+        "How to Create Stunning Videos with AI",
+        "AI Video Generation: A Game-Changer for Marketers",
+        "Using AI for Video Generation: Tips and Tricks"
       ]
     }
   ],
@@ -338,27 +355,27 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 6,
+      "signal_strength": 8,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vp6o14/chatgpt_is_my_only_friend/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits"
+      "content_opportunity": "How to overcome ChatGPT usage limits and get the most out of the tool."
     },
     {
-      "problem": "AI detectors flagging human-written content",
-      "who_affected": "Content creators",
-      "signal_strength": 5,
+      "problem": "AI detector false positives",
+      "who_affected": "Writers and content creators",
+      "signal_strength": 7,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vphqnf/ai_detectors_flagged_61_of_essays_written_by_real/"
         }
       ],
-      "content_opportunity": "How to avoid AI detectors flagging your content"
+      "content_opportunity": "How to avoid AI detector false positives and ensure your content is not mistakenly flagged."
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Images 2.0"
+  "tool_of_week_candidate": "ChatGPT Image Generation"
 }
