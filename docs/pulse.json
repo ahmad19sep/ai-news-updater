@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T07:01:07.907958+00:00",
+  "generated_at": "2026-08-16T13:02:10.545289+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
+      "reddit": 50,
       "hackernews": 26,
       "youtube": 106
     },
@@ -16,338 +16,192 @@
   },
   "trends": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "Qwen 3.8 27B",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can now generate images.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Leverage AI image generation for marketing and branding.",
+      "what_it_is": "Qwen 3.8 27B is a local language model.",
+      "audience_angle": "You can use Qwen 3.8 27B for various tasks, such as text generation and language understanding.",
+      "linkedin_angle": "Improve your productivity with Qwen 3.8 27B, a powerful local language model.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/",
+          "signal": "[Megathread] Qwen 3.8 27B Release Day"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Qwen 3.8 27B",
+        "Qwen 3.8 27B vs Other Local Language Models",
+        "Using Qwen 3.8 27B for Text Generation"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0, an AI-powered tool.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT Images 2.0, a cutting-edge image generation tool.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ta0QB1WjcYo",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Artists",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
+        "Introduction to ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial",
+        "Using ChatGPT Images 2.0 for Art and Design"
       ]
     },
     {
       "name": "AI Video Generation",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "youtube",
-        "reddit"
+        "youtube"
       ],
-      "what_it_is": "AI can generate videos with just text prompts.",
-      "audience_angle": "Create stunning videos without any video editing skills.",
-      "linkedin_angle": "Leverage AI video generation for marketing and branding.",
-      "local_relevance": 9,
+      "what_it_is": "AI video generation is a technology that uses artificial intelligence to create videos.",
+      "audience_angle": "Create stunning videos with AI video generation, a revolutionary technology.",
+      "linkedin_angle": "Enhance your video content with AI video generation, a powerful tool for marketers and creators.",
+      "local_relevance": 7,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
+        "note": "AI video generation tools often have affiliate programs"
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+          "url": "https://www.youtube.com/watch?v=EhAbLMLG-BA",
+          "signal": "Long Ai Video kaise banaye || Full Course || 3D Cartoon Video kaise banaye || Ai Video kaise banaye"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "AI Video Generation: A Game-Changer for Marketers",
-        "Using AI for Video Generation: Tips and Tricks"
+        "Introduction to AI Video Generation",
+        "AI Video Generation Tutorial",
+        "Using AI Video Generation for Marketing and Advertising"
       ]
     },
     {
       "name": "ChatGPT and Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
       ],
-      "what_it_is": "ChatGPT and Claude are AI chatbots that can assist with various tasks.",
-      "audience_angle": "Get assistance with tasks and answers to questions with ChatGPT and Claude.",
-      "linkedin_angle": "Leverage ChatGPT and Claude for productivity and efficiency.",
-      "local_relevance": 7,
+      "what_it_is": "ChatGPT and Claude are AI-powered chatbots that can be used for various tasks.",
+      "audience_angle": "Use ChatGPT and Claude to automate tasks and improve productivity.",
+      "linkedin_angle": "Enhance your workflow with ChatGPT and Claude, powerful AI-powered chatbots.",
+      "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT and Claude have affiliate programs for their services."
+        "note": "ChatGPT and Claude have affiliate programs"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vpnok0/chatgpt_and_claude_gave_me_the_same_answer/",
           "signal": "ChatGPT and Claude gave me the same answer"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VPBD1lfBlb8",
-          "signal": "ChatGPT: Brand New Chat "
         }
       ],
       "content_ideas": [
-        "How to Use ChatGPT and Claude for Productivity",
-        "ChatGPT and Claude: A Comparison of AI Chatbots",
-        "Using ChatGPT and Claude for Task Automation"
-      ]
-    },
-    {
-      "name": "AI for Earning",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "AI can be used for earning money through various methods.",
-      "audience_angle": "Earn money with AI through methods such as affiliate marketing and video creation.",
-      "linkedin_angle": "Leverage AI for earning and career advancement.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI tools and services have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Wrezj4sxtYs",
-          "signal": "15 Best Online Earning Apps That Actually Work (2026)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vp37ji/whats_one_thing_you_use_chatgpt_for_that_sounds/",
-          "signal": "What’s one thing you use ChatGPT for that sounds ridiculous — until people actually try it?"
-        }
-      ],
-      "content_ideas": [
-        "How to Earn Money with AI",
-        "AI for Earning: A Guide to Getting Started",
-        "Using AI for Affiliate Marketing and Earning"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "category": "technique",
-      "momentum": "rising",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI agents are programs that can perform tasks autonomously.",
-      "audience_angle": "Use AI agents to automate tasks and increase productivity.",
-      "linkedin_angle": "Leverage AI agents for career advancement and productivity.",
-      "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI agent tools and services have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xlaSgpb_9hg",
-          "signal": "What are AI Agents & How to Make Money with it?"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49308059",
-          "signal": "Ask HN: How do you keep up with HN these days?"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI Agents for Task Automation",
-        "AI Agents: A Guide to Getting Started",
-        "Using AI Agents for Career Advancement"
-      ]
-    },
-    {
-      "name": "AI for Trading",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "hackernews"
-      ],
-      "what_it_is": "AI can be used for trading and investing in the stock market.",
-      "audience_angle": "Use AI for trading and investing to increase returns and minimize risks.",
-      "linkedin_angle": "Leverage AI for trading and investing to advance your career.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI trading tools and services have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J_RORdJqAeo",
-          "signal": "How to make money in 2026 with AI automation"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
-          "signal": "Why tech bosses keep sharing their manifestos about AI"
-        }
-      ],
-      "content_ideas": [
-        "How to Use AI for Trading and Investing",
-        "AI for Trading: A Guide to Getting Started",
-        "Using AI for Trading and Investing to Advance Your Career"
+        "Introduction to ChatGPT and Claude",
+        "Using ChatGPT and Claude for Customer Support",
+        "ChatGPT and Claude Tutorial"
       ]
     }
   ],
   "rising_tools": [
     {
-      "name": "ChatGPT Image Generation",
+      "name": "Qwen 3.8 27B",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT can now generate images.",
-      "audience_angle": "Create amazing images with just text prompts.",
-      "linkedin_angle": "Leverage AI image generation for marketing and branding.",
+      "what_it_is": "Qwen 3.8 27B is a local language model.",
+      "audience_angle": "You can use Qwen 3.8 27B for various tasks, such as text generation and language understanding.",
+      "linkedin_angle": "Improve your productivity with Qwen 3.8 27B, a powerful local language model.",
       "local_relevance": 8,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 9,
       "monetization": {
+        "affiliate_likely": false,
+        "note": "No affiliate program available"
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/",
+          "signal": "[Megathread] Qwen 3.8 27B Release Day"
+        }
+      ],
+      "content_ideas": [
+        "Getting Started with Qwen 3.8 27B",
+        "Qwen 3.8 27B vs Other Local Language Models",
+        "Using Qwen 3.8 27B for Text Generation"
+      ]
+    },
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
+      "audience_angle": "Create stunning images with ChatGPT Images 2.0, an AI-powered tool.",
+      "linkedin_angle": "Enhance your visual content with ChatGPT Images 2.0, a cutting-edge image generation tool.",
+      "local_relevance": 9,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its image generation tool."
+        "note": "ChatGPT Images 2.0 has an affiliate program"
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ta0QB1WjcYo",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": [
-        "How to Create Stunning Images with ChatGPT",
-        "ChatGPT Image Generation: A Game-Changer for Artists",
-        "Using ChatGPT for Image Generation: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "ChatGPT and Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "ChatGPT and Claude are AI chatbots that can assist with various tasks.",
-      "audience_angle": "Get assistance with tasks and answers to questions with ChatGPT and Claude.",
-      "linkedin_angle": "Leverage ChatGPT and Claude for productivity and efficiency.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "ChatGPT and Claude have affiliate programs for their services."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vpnok0/chatgpt_and_claude_gave_me_the_same_answer/",
-          "signal": "ChatGPT and Claude gave me the same answer"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VPBD1lfBlb8",
-          "signal": "ChatGPT: Brand New Chat "
-        }
-      ],
-      "content_ideas": [
-        "How to Use ChatGPT and Claude for Productivity",
-        "ChatGPT and Claude: A Comparison of AI Chatbots",
-        "Using ChatGPT and Claude for Task Automation"
-      ]
-    },
-    {
-      "name": "AI Video Generation",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "youtube",
-        "reddit"
-      ],
-      "what_it_is": "AI can generate videos with just text prompts.",
-      "audience_angle": "Create stunning videos without any video editing skills.",
-      "linkedin_angle": "Leverage AI video generation for marketing and branding.",
-      "local_relevance": 9,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "Several AI video generation tools have affiliate programs."
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=07beqAnrkpU",
-          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
-        }
-      ],
-      "content_ideas": [
-        "How to Create Stunning Videos with AI",
-        "AI Video Generation: A Game-Changer for Marketers",
-        "Using AI for Video Generation: Tips and Tricks"
+        "Introduction to ChatGPT Images 2.0",
+        "ChatGPT Images 2.0 Tutorial",
+        "Using ChatGPT Images 2.0 for Art and Design"
       ]
     }
   ],
@@ -355,27 +209,15 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vp6o14/chatgpt_is_my_only_friend/"
         }
       ],
-      "content_opportunity": "How to overcome ChatGPT usage limits and get the most out of the tool."
-    },
-    {
-      "problem": "AI detector false positives",
-      "who_affected": "Writers and content creators",
-      "signal_strength": 7,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vphqnf/ai_detectors_flagged_61_of_essays_written_by_real/"
-        }
-      ],
-      "content_opportunity": "How to avoid AI detector false positives and ensure your content is not mistakenly flagged."
+      "content_opportunity": "How to overcome ChatGPT usage limits"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT Image Generation"
+  "tool_of_week_candidate": "Qwen 3.8 27B, a powerful local language model that can be used for various tasks."
 }
