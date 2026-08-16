@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — https://www.nature.com/articles/d41586-026-02447-y
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3818
+- Total stories tracked: 3814
 - Most active topic: agents
 - Busiest category: AI General News
 
