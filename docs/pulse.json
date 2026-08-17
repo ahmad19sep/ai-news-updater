@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:56:00.870468+00:00",
+  "generated_at": "2026-08-17T07:17:26.012477+00:00",
   "meta": {
     "mode": "llm",
     "sources_used": [
@@ -16,143 +16,318 @@
   },
   "trends": [
     {
-      "name": "ChatGPT",
+      "name": "ChatGPT Images 2.0",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube",
-        "hackernews"
+        "reddit"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Leverage ChatGPT to streamline your workflow and boost productivity.",
-      "local_relevance": 8,
+      "what_it_is": "A tool that generates images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-generated images in your business.",
+      "local_relevance": 5,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its API"
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "40"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7zPQV1BSH_k",
-          "signal": "23 Ways to Use ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         }
       ],
       "content_ideas": [
-        "How to Make Money with ChatGPT",
-        "ChatGPT Tutorial for Beginners",
-        "Using ChatGPT for Content Creation"
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "The Future of Art: ChatGPT Images 2.0 Review",
+        "Using ChatGPT Images 2.0 for Business: A Step-by-Step Guide"
       ]
     },
     {
-      "name": "AI Video Generation",
+      "name": "Fetra AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A tool that creates viral videos using AI.",
+      "audience_angle": "Create viral videos with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-generated videos in your marketing strategy.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Fetra AI has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
+          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Viral Videos with Fetra AI",
+        "The Power of AI-Generated Videos: Fetra AI Review",
+        "Using Fetra AI for Social Media Marketing: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "AI Video Generators",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "youtube"
       ],
-      "what_it_is": "AI video generation uses artificial intelligence to create videos.",
-      "audience_angle": "You can use AI video generation to create stunning videos without extensive editing skills.",
-      "linkedin_angle": "Explore how AI video generation can enhance your marketing strategy.",
-      "local_relevance": 6,
-      "pillar": "explainer",
-      "best_format": "short",
+      "what_it_is": "Tools that generate videos using AI.",
+      "audience_angle": "Create stunning videos with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-generated videos in your business.",
+      "local_relevance": 7,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
+        "affiliate_likely": true,
+        "note": "Many AI video generators have affiliate programs."
       },
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=U_UlKTOWV1A",
-          "signal": "5 AI Video Generators That Are ACTUALLY FREE & UNLIMITED"
+          "url": "https://www.youtube.com/watch?v=78J4s1V5zko",
+          "signal": "Best FREE AI Video Generator 2026 | Unlimited Image to Video & Text to Video"
         }
       ],
       "content_ideas": [
-        "AI Video Generation Tutorial",
-        "Best AI Video Generators for Beginners",
-        "Using AI for Video Editing"
+        "How to Create Stunning Videos with AI Video Generators",
+        "The Future of Video Creation: AI Video Generators Review",
+        "Using AI Video Generators for Business: A Step-by-Step Guide"
       ]
     },
-    {
-      "name": "Stripe Acquires OpenRouter",
-      "category": "news",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "Stripe acquired OpenRouter, an AI firm, for over $7 billion.",
-      "audience_angle": "This acquisition highlights the growing importance of AI in the tech industry.",
-      "linkedin_angle": "Understand the implications of Stripe's acquisition of OpenRouter on the AI landscape.",
-      "local_relevance": 9,
-      "pillar": "news",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": "No affiliate program available"
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-          "signal": "Stripe Acquires OpenRouter for Over $7 Billion"
-        }
-      ],
-      "content_ideas": [
-        "Impact of Stripe's Acquisition on the AI Industry",
-        "What Does This Mean for OpenRouter Users?",
-        "The Future of AI in the Tech Industry"
-      ]
-    }
-  ],
-  "rising_tools": [
     {
       "name": "ChatGPT",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "reddit",
-        "youtube",
-        "hackernews"
+        "youtube"
       ],
-      "what_it_is": "ChatGPT is an AI chatbot developed by OpenAI.",
-      "audience_angle": "You can use ChatGPT to automate tasks, answer questions, and even create content.",
-      "linkedin_angle": "Leverage ChatGPT to streamline your workflow and boost productivity.",
+      "what_it_is": "A chatbot that uses AI to generate human-like responses.",
+      "audience_angle": "Get answers and assistance with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-powered chatbots in your business.",
       "local_relevance": 8,
       "pillar": "practical_earning",
-      "best_format": "long_form",
+      "best_format": "short",
       "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT has an affiliate program for its API"
+        "note": "ChatGPT has an affiliate program for its tools."
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "40"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7zPQV1BSH_k",
-          "signal": "23 Ways to Use ChatGPT"
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
         }
       ],
       "content_ideas": [
-        "How to Make Money with ChatGPT",
-        "ChatGPT Tutorial for Beginners",
-        "Using ChatGPT for Content Creation"
+        "How to Use ChatGPT for Business",
+        "The Power of AI-Powered Chatbots: ChatGPT Review",
+        "Using ChatGPT for Customer Support: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A tool that uses AI to generate human-like responses.",
+      "audience_angle": "Get answers and assistance with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-powered tools in your business.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://claude.ai/new",
+          "signal": "Claude Is Down"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Business",
+        "The Power of AI-Powered Tools: Claude AI Review",
+        "Using Claude AI for Content Creation: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "youtube",
+        "hackernews"
+      ],
+      "what_it_is": "Tools that use AI to automate tasks and processes.",
+      "audience_angle": "Automate tasks and processes with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-powered automation in your business.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Many AI agent tools have affiliate programs."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xlaSgpb_9hg",
+          "signal": "What are AI Agents & How to Make Money with it?"
+        }
+      ],
+      "content_ideas": [
+        "How to Use AI Agents for Business Automation",
+        "The Power of AI-Powered Automation: AI Agents Review",
+        "Using AI Agents for Task Automation: A Step-by-Step Guide"
+      ]
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "ChatGPT Images 2.0",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "A tool that generates images using ChatGPT.",
+      "audience_angle": "Create stunning images with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-generated images in your business.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Stunning Images with ChatGPT Images 2.0",
+        "The Future of Art: ChatGPT Images 2.0 Review",
+        "Using ChatGPT Images 2.0 for Business: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Claude AI",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "A tool that uses AI to generate human-like responses.",
+      "audience_angle": "Get answers and assistance with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-powered tools in your business.",
+      "local_relevance": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Claude AI has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://claude.ai/new",
+          "signal": "Claude Is Down"
+        }
+      ],
+      "content_ideas": [
+        "How to Use Claude AI for Business",
+        "The Power of AI-Powered Tools: Claude AI Review",
+        "Using Claude AI for Content Creation: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "Fetra AI",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "A tool that creates viral videos using AI.",
+      "audience_angle": "Create viral videos with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-generated videos in your marketing strategy.",
+      "local_relevance": 6,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "Fetra AI has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gUxk2fMxxMc",
+          "signal": "This AI Tool Creates Viral Videos Faster Than Ever | Fetra AI"
+        }
+      ],
+      "content_ideas": [
+        "How to Create Viral Videos with Fetra AI",
+        "The Power of AI-Generated Videos: Fetra AI Review",
+        "Using Fetra AI for Social Media Marketing: A Step-by-Step Guide"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "A chatbot that uses AI to generate human-like responses.",
+      "audience_angle": "Get answers and assistance with the power of AI.",
+      "linkedin_angle": "Explore the potential of AI-powered chatbots in your business.",
+      "local_relevance": 8,
+      "pillar": "practical_earning",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": "ChatGPT has an affiliate program for its tools."
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+        }
+      ],
+      "content_ideas": [
+        "How to Use ChatGPT for Business",
+        "The Power of AI-Powered Chatbots: ChatGPT Review",
+        "Using ChatGPT for Customer Support: A Step-by-Step Guide"
       ]
     }
   ],
@@ -160,15 +335,27 @@
     {
       "problem": "ChatGPT usage limits",
       "who_affected": "ChatGPT users",
-      "signal_strength": 8,
+      "signal_strength": 6,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vq0ie7/is_anyone_elses_chatgpts_swearing_much_more/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqit9h/unrecognized_mumbai_session_should_i_be_worried/"
         }
       ],
-      "content_opportunity": "Workarounds for ChatGPT usage limits"
+      "content_opportunity": "How to Overcome ChatGPT Usage Limits: A Step-by-Step Guide"
+    },
+    {
+      "problem": "Claude AI downtime",
+      "who_affected": "Claude AI users",
+      "signal_strength": 7,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://claude.ai/new"
+        }
+      ],
+      "content_opportunity": "What to Do When Claude AI is Down: Alternative Solutions"
     }
   ],
-  "tool_of_week_candidate": "ChatGPT"
+  "tool_of_week_candidate": "ChatGPT Images 2.0"
 }
