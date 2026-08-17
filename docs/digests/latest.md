@@ -21,8 +21,8 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://www.nature.com/articles/d41586-026-02451-2
 7. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
    https://www.nature.com/articles/d41586-026-02503-7
-8. **Can AI bring specialist healthcare to rural India? 80% see potential, but doctors warn training must catch ... - Firstpost** — science angle
-   https://news.google.com/rss/articles/CBMi7wFBVV95cUxOd1ZFUlhDa1ZVWUxKWm4wbU54VHJkWURjZVVPYWs2VWJIV1dvd0hwY3Fael9CVlFueWYzUl9LLW1NVFp4elA5YmxqejBxWmU0WjhNdVZVM1N6Ym1oaEhseHhkazhIV19RSzZNS00wZDd2SXFBZWhlZkxUVVo5eFZNaFJhSW9TY1VtbWc2cWU2MDR3TWdJOUtvMWl4WGFsOV9kN2RfQmZTQ2NucGFmTmc0TE1FSG1NX0Q0Yk0zdlZramVyam1wWHB6OVBaNnl0TFdudUxXX2w4MHZrWE1VcXY5YzJMa2pCclVvQWl3enVpONIB9AFBVV95cUxQdlNSb3FuVFlQSnBKbVg3YWZReS1BeVlzbTF3YnlaeVVHb19ET0dmRDBWTVJqRVdVaEtRTEVtUVpkUmEtb1pydkV0VUZSeHo2YlJ4eVNNZy1Ia0NGeHpraEhPbkdqR3JETVhuUHdEb2FFRkM0YXUxNkZzQmU5NUE5VkhoUUFkallQd1hXbTJnVGJWTkZoS0JQMWtSRmFaX2Z1RjZWYzBHWGVXODJwbWRSNlZBcWdzdnI5X3p3dVBaeHQyYlNadm5tYml3VTBpV3A0bGQ2b2VVVWJtS2NZQzZPZUVDcHRsZ0dfWjdaRzF4ZXMta3oz?oc=5
+8. **AI Can Ease Doctor Workload Amid Global Healthcare Worker Shortage: Report** — science angle
+   https://menafn.com/1111547679/AI-Can-Ease-Doctor-Workload-Amid-Global-Healthcare-Worker-Shortage-Report
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 173
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — https://www.nature.com/articles/d41586-026-02447-y
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3844
+- Total stories tracked: 3854
 - Most active topic: agents
 - Busiest category: AI General News
 
