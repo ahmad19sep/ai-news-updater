@@ -19,10 +19,10 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
 6. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
    https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
-7. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
-   https://www.nature.com/articles/d41586-026-02447-y
-8. **Why scientists should lead the shift away from AI mega data centres** — science angle
+7. **Why scientists should lead the shift away from AI mega data centres** — science angle
    https://www.nature.com/articles/d41586-026-02451-2
+8. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
+   https://www.nature.com/articles/d41586-026-02503-7
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 173
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Scientists tracked kids for 8 years — the screen time result was unexpected** — https://www.sciencedaily.com/releases/2026/08/260815064803.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3875
+- Total stories tracked: 3848
 - Most active topic: agents
 - Busiest category: AI General News
 
