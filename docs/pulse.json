@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:07:32.771068+00:00",
+  "generated_at": "2026-08-17T18:59:11.296935+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 23,
+      "reddit": 50,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -55,45 +55,72 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqo6kl/my_chatgpt_pro_account_was_banned_and_my_appeal/",
-          "signal": "My ChatGPT Pro account was banned and my appeal was denied. I'm a developer, any advice?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
+          "signal": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vpq1dx/this_might_be_chatgpts_greatest_achievement/",
-          "signal": "This might be ChatGPT’s greatest achievement."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
+          "signal": "I had ChatGPT show how a human eyeball camera would look."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vq04q1/in_the_next_6_months_a_descendant_of_chatgpt_can/",
-          "signal": "\"in the next 6 months, a descendant of ChatGPT can watch your screen, record every meeting and call, and have perfect context of your whole life\""
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqsjdw/i_put_text_written_entirely_by_chatgpt_into/",
+          "signal": "I put text written entirely by ChatGPT into GPTZero and it came back as mixed."
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI isn’t outthinking mathematicians, it’s out-remembering them",
-      "category": "use_case",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "signal": "AI isn’t outthinking mathematicians, it’s out-remembering them"
+          "url": "https://claude.ai/new",
+          "signal": "Claude Is Down"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
+          "signal": "r/ClaudeAI List of Ongoing Megathreads"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
+          "signal": "There have been many people here making games using Claude so we made r/ClaudeGameDev!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/",
+          "signal": "Claude is Losing Me After Being Heavy User Since Release"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqvua9/hot_take_most_prompt_engineering_advice_for/",
+          "signal": "Hot take: Most \"prompt engineering\" advice for claude code is just common sense dressed up as a skill."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/",
+          "signal": "If Claude writes all my code, what exactly is my skill? Genuinely losing sleep over this."
         }
       ],
       "content_ideas": []
@@ -126,6 +153,33 @@
       "content_ideas": []
     },
     {
+      "name": "On AI regulation and messaging",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+          "signal": "On AI regulation and messaging"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "The AI Credit Resale Economy",
       "category": "use_case",
       "momentum": "rising",
@@ -148,6 +202,60 @@
           "platform": "hackernews",
           "url": "https://vectoral.com/blog/who-are-the-token-brokers",
           "signal": "The AI Credit Resale Economy"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Bel",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+          "signal": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Copilot",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
         }
       ],
       "content_ideas": []
@@ -180,7 +288,7 @@
       "content_ideas": []
     },
     {
-      "name": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Bel",
+      "name": "How to disable or avoid intrusive AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -190,7 +298,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
@@ -200,14 +308,49 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
-          "signal": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe"
+          "url": "https://www.librarian.net/notoai/",
+          "signal": "How to disable or avoid intrusive AI"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Cloudflare's AI Psychosis",
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+          "signal": "Qwen3.8 27B scores 52 on Artificial Analysis"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
+          "signal": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -227,76 +370,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://opensauce.it/cloudflare-ai-psychosis/",
-          "signal": "Cloudflare's AI Psychosis"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI Can Now Design Functional Viruses. Should We Worry?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/ai-designed-virus",
-          "signal": "AI Can Now Design Functional Viruses. Should We Worry?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://claude.ai/new",
-          "signal": "Claude Is Down"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LVAHYV4Xrto",
-          "signal": "How to Build a One Person AI Business (Using Claude Code)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=oUU4EYGaS3A",
-          "signal": "Make Money on Fiverr With Claude AI — Build Websites for Clients Without Coding"
+          "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+          "signal": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility"
         }
       ],
       "content_ideas": []
@@ -324,60 +399,6 @@
           "platform": "hackernews",
           "url": "https://peterbloem.nl/blog/craft-coding",
           "signal": "AI Coding Without the Vibes"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: A public AI whose memory is shared across all users",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://wildstatic.com/",
-          "signal": "Show HN: A public AI whose memory is shared across all users"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Secondhand book sales are booming. Is it because of AI?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
-          "signal": "Secondhand book sales are booming. Is it because of AI?"
         }
       ],
       "content_ideas": []
@@ -424,18 +445,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqo6kl/my_chatgpt_pro_account_was_banned_and_my_appeal/",
-          "signal": "My ChatGPT Pro account was banned and my appeal was denied. I'm a developer, any advice?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
+          "signal": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vpq1dx/this_might_be_chatgpts_greatest_achievement/",
-          "signal": "This might be ChatGPT’s greatest achievement."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
+          "signal": "I had ChatGPT show how a human eyeball camera would look."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vq04q1/in_the_next_6_months_a_descendant_of_chatgpt_can/",
-          "signal": "\"in the next 6 months, a descendant of ChatGPT can watch your screen, record every meeting and call, and have perfect context of your whole life\""
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqsjdw/i_put_text_written_entirely_by_chatgpt_into/",
+          "signal": "I put text written entirely by ChatGPT into GPTZero and it came back as mixed."
         }
       ],
       "content_ideas": []
@@ -443,19 +464,19 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
-        "linkedin_inferred",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -467,14 +488,91 @@
           "signal": "Claude Is Down"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LVAHYV4Xrto",
-          "signal": "How to Build a One Person AI Business (Using Claude Code)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
+          "signal": "r/ClaudeAI List of Ongoing Megathreads"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=oUU4EYGaS3A",
-          "signal": "Make Money on Fiverr With Claude AI — Build Websites for Clients Without Coding"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
+          "signal": "There have been many people here making games using Claude so we made r/ClaudeGameDev!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/",
+          "signal": "Claude is Losing Me After Being Heavy User Since Release"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqvua9/hot_take_most_prompt_engineering_advice_for/",
+          "signal": "Hot take: Most \"prompt engineering\" advice for claude code is just common sense dressed up as a skill."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/",
+          "signal": "If Claude writes all my code, what exactly is my skill? Genuinely losing sleep over this."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Copilot",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+          "signal": "Qwen3.8 27B scores 52 on Artificial Analysis"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
+          "signal": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again"
         }
       ],
       "content_ideas": []
@@ -482,13 +580,37 @@
   ],
   "pain_points": [
     {
-      "problem": "My ChatGPT Pro account was banned and my appeal was denied. I'm a developer, any advice?",
+      "problem": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqo6kl/my_chatgpt_pro_account_was_banned_and_my_appeal/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I'm getting this error constantly while trying to use Claude Cowork on Desktop - anyone else?",
+      "who_affected": "r/ClaudeAI",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9o87/im_getting_this_error_constantly_while_trying_to/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "No more weekly limits? I don’t have one.",
+      "who_affected": "r/ClaudeAI",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9gye/no_more_weekly_limits_i_dont_have_one/"
         }
       ],
       "content_opportunity": ""
