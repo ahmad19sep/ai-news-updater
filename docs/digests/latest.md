@@ -11,18 +11,18 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
 2. **AI Is Helping Patients Solve Medical Mysteries - WSJ** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-3. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
+3. **Scientists turn DNA into a memory device that uses 100x less power** — science angle
+   https://www.sciencedaily.com/releases/2026/08/260816044853.htm
+4. **Scientists tracked kids for 8 years — the screen time result was unexpected** — science angle
+   https://www.sciencedaily.com/releases/2026/08/260815064803.htm
+5. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
-4. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
+6. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
    https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
-5. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
+7. **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — science angle
    https://www.nature.com/articles/d41586-026-02447-y
-6. **Why scientists should lead the shift away from AI mega data centres** — science angle
+8. **Why scientists should lead the shift away from AI mega data centres** — science angle
    https://www.nature.com/articles/d41586-026-02451-2
-7. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
-   https://www.nature.com/articles/d41586-026-02503-7
-8. **AI Can Ease Doctor Workload Amid Global Healthcare Worker Shortage: Report** — science angle
-   https://menafn.com/1111547679/AI-Can-Ease-Doctor-Workload-Amid-Global-Healthcare-Worker-Shortage-Report
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 173
@@ -48,10 +48,10 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 
 ## 🧪 AI in Science Highlights
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
+- **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
 - **AI Is Helping Patients Solve Medical Mysteries - WSJ** — https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-- **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
-- **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
-- **I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out** — https://www.nature.com/articles/d41586-026-02447-y
+- **Scientists turn DNA into a memory device that uses 100x less power** — https://www.sciencedaily.com/releases/2026/08/260816044853.htm
+- **Scientists tracked kids for 8 years — the screen time result was unexpected** — https://www.sciencedaily.com/releases/2026/08/260815064803.htm
 
 ## 📈 This Week in Numbers
 - Total stories tracked: 3854
