@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:09:58.290132+00:00",
+  "generated_at": "2026-08-18T18:57:50.898136+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
+          "signal": "ChatGPT has been saying \"Fuck\" a lot recently"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8cc0/asking_chatgpt_to_render_an_image_of_the_true/",
           "signal": "Asking ChatGPT to render an image of the true unrenderable form of God"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
-          "signal": "I wish ChatGPT let us merge old conversations into the current one"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrxgwf/every_time_i_ask_chatgpt_i_mean_a_new_chat_to/",
+          "signal": "Every time I ask chatgpt (I mean a new chat) to generate a random number between 1 to 10, it generates 7, each single time."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
-          "signal": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvps1/chatgpt_voice_coughs/",
+          "signal": "ChatGPT voice coughs?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
-          "signal": "How do you use ur ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
-          "signal": "ChatGPT Stealth Intelligence Update?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vry84v/chatgpt_has_gotten_funnier_and_wittier_lately_is/",
+          "signal": "ChatGPT has gotten funnier and wittier lately, is it just me?"
         }
       ],
       "content_ideas": []
@@ -146,7 +146,34 @@
         {
           "platform": "hackernews",
           "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
+          "signal": "GPT-5.6 Sol Pricing Cut by 50% on OpenRouter"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google has acquired the data of failed US airline Spirit",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+          "signal": "Google has acquired the data of failed US airline Spirit"
         }
       ],
       "content_ideas": []
@@ -295,33 +322,6 @@
       "content_ideas": []
     },
     {
-      "name": "The AI Credit Resale Economy",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-          "signal": "The AI Credit Resale Economy"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training",
       "category": "use_case",
       "momentum": "rising",
@@ -349,7 +349,7 @@
       "content_ideas": []
     },
     {
-      "name": "Google buys crashed airline Spirit's data at auction, because AI",
+      "name": "Ask HN: Does anyone else feel like nothing matters anymore?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -361,7 +361,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -369,8 +369,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "signal": "Google buys crashed airline Spirit's data at auction, because AI"
+          "url": "https://news.ycombinator.com/item?id=49340013",
+          "signal": "Ask HN: Does anyone else feel like nothing matters anymore?"
         }
       ],
       "content_ideas": []
@@ -406,28 +406,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
+          "signal": "ChatGPT has been saying \"Fuck\" a lot recently"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8cc0/asking_chatgpt_to_render_an_image_of_the_true/",
           "signal": "Asking ChatGPT to render an image of the true unrenderable form of God"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
-          "signal": "I wish ChatGPT let us merge old conversations into the current one"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrxgwf/every_time_i_ask_chatgpt_i_mean_a_new_chat_to/",
+          "signal": "Every time I ask chatgpt (I mean a new chat) to generate a random number between 1 to 10, it generates 7, each single time."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
-          "signal": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvps1/chatgpt_voice_coughs/",
+          "signal": "ChatGPT voice coughs?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
-          "signal": "How do you use ur ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
-          "signal": "ChatGPT Stealth Intelligence Update?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vry84v/chatgpt_has_gotten_funnier_and_wittier_lately_is/",
+          "signal": "ChatGPT has gotten funnier and wittier lately, is it just me?"
         }
       ],
       "content_ideas": []
@@ -454,7 +454,7 @@
         {
           "platform": "hackernews",
           "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
+          "signal": "GPT-5.6 Sol Pricing Cut by 50% on OpenRouter"
         }
       ],
       "content_ideas": []
@@ -524,25 +524,25 @@
   ],
   "pain_points": [
     {
-      "problem": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI",
+      "problem": "Codex cannot have a body",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrxmzz/codex_cannot_have_a_body/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Usage Limit",
+      "problem": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmmup/usage_limit/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/"
         }
       ],
       "content_opportunity": ""
