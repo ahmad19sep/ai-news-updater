@@ -11,23 +11,23 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
 2. **AI Is Helping Patients Solve Medical Mysteries - WSJ** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-3. **Scientists turn DNA into a memory device that uses 100x less power** — science angle
+3. **Patients wary of governments, companies pushing AI as a rural healthcare solution** — science angle
+   https://buffalonews.com/life-entertainment/local/wellness/article_fd5e10ef-c6bf-5122-8521-770841868fb1.html
+4. **Scientists turn DNA into a memory device that uses 100x less power** — science angle
    https://www.sciencedaily.com/releases/2026/08/260816044853.htm
-4. **Scientists tracked kids for 8 years — the screen time result was unexpected** — science angle
+5. **Scientists tracked kids for 8 years — the screen time result was unexpected** — science angle
    https://www.sciencedaily.com/releases/2026/08/260815064803.htm
-5. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
+6. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
-6. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
+7. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
    https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
-7. **Why scientists should lead the shift away from AI mega data centres** — science angle
-   https://www.nature.com/articles/d41586-026-02451-2
-8. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
-   https://www.nature.com/articles/d41586-026-02503-7
+8. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
+   https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 173
    https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/
-2. **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — AI Agents — Score 121
+2. **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — AI Agents — Score 131
    https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
 3. **Researchers have successfully used AI to create brand new viruses** — wunc_org — Score 118
    https://www.wunc.org/2026-08-11/researchers-have-successfully-used-ai-to-create-brand-new-viruses
@@ -50,12 +50,12 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
 - **AI Is Helping Patients Solve Medical Mysteries - WSJ** — https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
+- **Patients wary of governments, companies pushing AI as a rural healthcare solution** — https://buffalonews.com/life-entertainment/local/wellness/article_fd5e10ef-c6bf-5122-8521-770841868fb1.html
 - **Scientists turn DNA into a memory device that uses 100x less power** — https://www.sciencedaily.com/releases/2026/08/260816044853.htm
-- **Scientists tracked kids for 8 years — the screen time result was unexpected** — https://www.sciencedaily.com/releases/2026/08/260815064803.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3830
-- Most active topic: agents
+- Total stories tracked: 3825
+- Most active topic: anthropic
 - Busiest category: AI General News
 
 ---
