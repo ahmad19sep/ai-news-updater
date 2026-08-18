@@ -43,8 +43,8 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://keyt.com/news/money-and-business/cnn-business-consumer/2026/08/13/ai-boom-or-bubble-timing-is-everything/
 9. **DeepSeek releases official V4 Pro model as it steps up expansion - Reuters** — DeepSeek News — Score 67
    https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE?oc=5
-10. **Samsung hosts Bengaluru AI conference with 300 participants** — itbrief_co_nz — Score 66
-   https://itbrief.co.nz/story/samsung-hosts-bengaluru-ai-conference-with-300-participants
+10. **OpenAI to lease massive new AI data center in US, backed by Nvidia - France 24** — AI in Coding — Score 66
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxOR3JfUHZHT1lvS2tYV3pmclBHejlJTjRoTzJ4UW5QNmNfRmoxcEVoYUVrQzE1OHphOGpkRGkzRXZuaURTcWE0Sm01bHBaUXNUMlFOZzNjMkpXR2FSSVZrLUppUHdxbGlFVjd3YTl3X3dPUmFaclIyeEoxMUh1anl5MXdab3U5RGthN3k3eUoxb1hFSENkdnU4SVBQT0toN2ZLeVozOFRyZUowZEdQM2Z0S1ZR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Patients wary of governments, companies pushing AI as a rural healthcare solution** — https://buffalonews.com/life-entertainment/local/wellness/article_fd5e10ef-c6bf-5122-8521-770841868fb1.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3798
+- Total stories tracked: 3792
 - Most active topic: anthropic
 - Busiest category: AI General News
 
