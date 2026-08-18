@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T18:59:11.296935+00:00",
+  "generated_at": "2026-08-18T01:51:59.358358+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 26,
+      "reddit": 25,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -21,8 +21,8 @@
       "momentum": "rising",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -39,19 +39,14 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://aicharts.grok.me/c/market-share",
-          "signal": "ChatGPT lost 22 points of web share in a year"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
-          "signal": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8cc0/asking_chatgpt_to_render_an_image_of_the_true/",
+          "signal": "Asking ChatGPT to render an image of the true unrenderable form of God"
         },
         {
           "platform": "reddit",
@@ -60,67 +55,45 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
-          "signal": "I had ChatGPT show how a human eyeball camera would look."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
+          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqsjdw/i_put_text_written_entirely_by_chatgpt_into/",
-          "signal": "I put text written entirely by ChatGPT into GPTZero and it came back as mixed."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
+          "signal": "Coworkers are using ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
+          "signal": "I had ChatGPT show how a human eyeball camera would look."
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "AI;DR (AI; Didn't Read)",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://claude.ai/new",
-          "signal": "Claude Is Down"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
-          "signal": "r/ClaudeAI List of Ongoing Megathreads"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
-          "signal": "There have been many people here making games using Claude so we made r/ClaudeGameDev!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/",
-          "signal": "Claude is Losing Me After Being Heavy User Since Release"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqvua9/hot_take_most_prompt_engineering_advice_for/",
-          "signal": "Hot take: Most \"prompt engineering\" advice for claude code is just common sense dressed up as a skill."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/",
-          "signal": "If Claude writes all my code, what exactly is my skill? Genuinely losing sleep over this."
+          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+          "signal": "AI;DR (AI; Didn't Read)"
         }
       ],
       "content_ideas": []
@@ -180,6 +153,41 @@
       "content_ideas": []
     },
     {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+          "signal": "Qwen3.8 27B scores 52 on Artificial Analysis"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
+          "signal": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "The AI Credit Resale Economy",
       "category": "use_case",
       "momentum": "rising",
@@ -207,33 +215,6 @@
       "content_ideas": []
     },
     {
-      "name": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Bel",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
-          "signal": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Copilot",
       "category": "tool_launch",
       "momentum": "rising",
@@ -246,7 +227,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -256,95 +237,6 @@
           "platform": "hackernews",
           "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
           "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI in drug discovery – what it is, where we stand and the path forward",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-          "signal": "AI in drug discovery – what it is, where we stand and the path forward"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "How to disable or avoid intrusive AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.librarian.net/notoai/",
-          "signal": "How to disable or avoid intrusive AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-          "signal": "Qwen3.8 27B scores 52 on Artificial Analysis"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
-          "signal": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again"
         }
       ],
       "content_ideas": []
@@ -362,7 +254,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -377,8 +269,89 @@
       "content_ideas": []
     },
     {
-      "name": "AI Coding Without the Vibes",
+      "name": "How to disable or avoid intrusive AI",
       "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.librarian.net/notoai/",
+          "signal": "How to disable or avoid intrusive AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Bel",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+          "signal": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic's War on open source AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
+          "signal": "Anthropic's War on open source AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -391,14 +364,14 @@
       "best_format": "short",
       "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://peterbloem.nl/blog/craft-coding",
-          "signal": "AI Coding Without the Vibes"
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
@@ -411,8 +384,8 @@
       "momentum": "rising",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -429,19 +402,14 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://aicharts.grok.me/c/market-share",
-          "signal": "ChatGPT lost 22 points of web share in a year"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
-          "signal": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8cc0/asking_chatgpt_to_render_an_image_of_the_true/",
+          "signal": "Asking ChatGPT to render an image of the true unrenderable form of God"
         },
         {
           "platform": "reddit",
@@ -450,94 +418,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
+          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
+          "signal": "Coworkers are using ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
           "signal": "I had ChatGPT show how a human eyeball camera would look."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqsjdw/i_put_text_written_entirely_by_chatgpt_into/",
-          "signal": "I put text written entirely by ChatGPT into GPTZero and it came back as mixed."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://claude.ai/new",
-          "signal": "Claude Is Down"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
-          "signal": "r/ClaudeAI List of Ongoing Megathreads"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
-          "signal": "There have been many people here making games using Claude so we made r/ClaudeGameDev!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/",
-          "signal": "Claude is Losing Me After Being Heavy User Since Release"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqvua9/hot_take_most_prompt_engineering_advice_for/",
-          "signal": "Hot take: Most \"prompt engineering\" advice for claude code is just common sense dressed up as a skill."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/",
-          "signal": "If Claude writes all my code, what exactly is my skill? Genuinely losing sleep over this."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Copilot",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-          "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
         }
       ],
       "content_ideas": []
@@ -558,7 +450,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -576,6 +468,60 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Copilot",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "pain_points": [
@@ -587,30 +533,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I'm getting this error constantly while trying to use Claude Cowork on Desktop - anyone else?",
-      "who_affected": "r/ClaudeAI",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9o87/im_getting_this_error_constantly_while_trying_to/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "No more weekly limits? I don’t have one.",
-      "who_affected": "r/ClaudeAI",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9gye/no_more_weekly_limits_i_dont_have_one/"
         }
       ],
       "content_opportunity": ""
