@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 10 Aug 2026 to 17 Aug 2026
+# 🗞️ AI THIS WEEK — 11 Aug 2026 to 18 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it**
@@ -39,12 +39,12 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://arxiv.org/abs/2608.09867
 7. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenJMM3Vza2xPUjlMeVhZQXhhcFNRRmwxel9qcmxqNDU5ODBDWUNMWWVKa2E3UmVTdS1RcExrYWlIdkVLbHpsMUNtUDgxeGQtNzhURmFGWXBNd2UwTEVJNGYtWmJSNk9lZU9Nb1BqY1dnckt1czRzYjgxRDdtYU9oUDExYkhHc2xuV2RCSlpCQmloanZOTjBVRHdRVmgwY2Y5WmI0cG84c1Jsa1ZiMndhdGFLNHBERTk3b2FJYzhNRllMOUVBYy1uYw?oc=5
-8. **Zuckerberg manifesto sketches out Meta's ambitions for world-changing AI technology - The Washington Post** — Meta AI News — Score 80
-   https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWW9SSHZnNlU0c2JROTc2bkhvRnR2QTAxaEUxMjN6b1dQcjVUNVFFQ3RQTEVkSG5lZUJxOXJVZzFmdXRwVG5RSlQwT2gySnhkeUxvdFRQeVljejVrb0ZDWVY0TkdvQnd0ZUpna0lwVHZrbjRER00wSzVjWTgwOWg3aG45elpXWVIzZ2dzMTJoc0VGaF9CLXl2SkVCeHhISThiNmg3U0Z6bFFmNGoyQ09pUUgwU2UwTVdyc1M1bkhyWFlya20weTY2aXUtU0JVOGhqOUxya3dCVlZfUVVsWEhr?oc=5
-9. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 78
+8. **L&T Technology Services Launches AgenticIQ™, an End-to-End Agentic AI Platform for Engineering, Manufacturing and Customer Experience - The Tribune** — AI Agents — Score 78
    https://news.google.com/rss/articles/CBMiowJBVV95cUxPVWJXbjJWSkpveTNqTzg0Q25hVjViWU5uNVg1a0ZLdmY2Njd1cEZaNEJYMjNRM2ViN0NrTS00eFhmZC00V3VzNXcxd0ZKZmlIcFJuUWlubFJ2d3AxQWRIblJ0alhOSGpxZ1V2V1RucjdGYll0N0F0QV9kb1ZiV0YtTDZUdTRUYjdXT2RRX2MyajRNYUYySVAzWHprNDlRdVpNN0NXQVlCN1RtcHR4YVBIbU9MRTh1a0pwNDFQQ1RrVC1BYWlCbUlubC0zRWpoaDZmTTQwOEJEbUN4QWpZYU5OY1I0bUZLamQwdmNkY2ZwcDh6Ym91VngwczhibVBJMUlvV2hLT1R6bjEtQmNEQ1JQcGJ0cHJoMnNjVEJZVTBQQ1ItRm_SAaMCQVVfeXFMT1ViV24yVkpKb3kzak84NENuYVY1YllObjVYNWtGS3ZmNjY3dXBGWjRCWDIzUTNlYjdDa00tNHhYZmQtNFd1czV3MXdGSmZpSHBSblFpbmxSdndwMUFkSG5SdGpYTkhqcWdVdldUbnI3RmJZdDdBdEFfZG9WYldGLUw2VHU0VGI3V09kUV9jMmo0TWFGMklQM1h6azQ5UXVaTTdDV0FZQjdUbXB0eGFQSG1PTEU4dWtKcDQxUENUa1QtQWFpQm1JbmwtM0VqaGg2Zk00MDhCRG1DeEFqWWFOTmNSNG1GS2pkMHZjZGNmcHA4emJvdVZ4MHM4Ym1QSTFJb1doS09Uem4xLUJjRENSUHBidHByaDJzY1RCWVUwUENSLUZv?oc=5
-10. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 77
+9. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 77
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlpNdnFESFRFYTdGZ0syQXRta3dDZFNKWWw3RzNYdWdyS2k5akpwYUp3Yi1KcF9sTFo1dkRycmc1V1NWVE9KX2dBNy04Vk5rNFlJVlBGLUFUSTZNREx5cU9Ub3ZBMXhGZGloaXJCc1JLQ0hLbG1kUUtIc0ZRWFA4Q2ZiVnBWckNvR2NwV2lnZmJ6XzJVcFRadGQ0MWZYRVVONkVsdVJMU3JYb2tkUGpj?oc=5
+10. **AI boom or bubble? Timing is everything** — keyt — Score 73
+   https://keyt.com/news/money-and-business/cnn-business-consumer/2026/08/13/ai-boom-or-bubble-timing-is-everything/
 
 ## 🧪 AI in Science Highlights
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Scientists tracked kids for 8 years — the screen time result was unexpected** — https://www.sciencedaily.com/releases/2026/08/260815064803.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3871
+- Total stories tracked: 3873
 - Most active topic: agents
 - Busiest category: AI General News
 
