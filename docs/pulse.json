@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:05:38.887069+00:00",
+  "generated_at": "2026-08-18T13:09:58.290132+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -50,23 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
+          "signal": "I wish ChatGPT let us merge old conversations into the current one"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
           "signal": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
-          "signal": "Coworkers are using ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
+          "signal": "How do you use ur ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
-          "signal": "I had ChatGPT show how a human eyeball camera would look."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
-          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
+          "signal": "ChatGPT Stealth Intelligence Update?"
         }
       ],
       "content_ideas": []
@@ -99,7 +98,7 @@
       "content_ideas": []
     },
     {
-      "name": "Stripe will reportedly acquire OpenRouter for $7B+",
+      "name": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -119,8 +118,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-          "signal": "Stripe will reportedly acquire OpenRouter for $7B+"
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+          "signal": "Israel creates fake think tank in likely attempt to dupe AI chatbots"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
@@ -153,7 +179,7 @@
       "content_ideas": []
     },
     {
-      "name": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "name": "Stripe will reportedly acquire OpenRouter for $7B+",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -173,8 +199,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-          "signal": "Israel creates fake think tank in likely attempt to dupe AI chatbots"
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+          "signal": "Stripe will reportedly acquire OpenRouter for $7B+"
         }
       ],
       "content_ideas": []
@@ -210,33 +236,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
           "signal": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
@@ -269,33 +268,6 @@
       "content_ideas": []
     },
     {
-      "name": "The AI Credit Resale Economy",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-          "signal": "The AI Credit Resale Economy"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "How to disable or avoid intrusive AI",
       "category": "use_case",
       "momentum": "rising",
@@ -318,6 +290,33 @@
           "platform": "hackernews",
           "url": "https://www.librarian.net/notoai/",
           "signal": "How to disable or avoid intrusive AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The AI Credit Resale Economy",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+          "signal": "The AI Credit Resale Economy"
         }
       ],
       "content_ideas": []
@@ -350,7 +349,7 @@
       "content_ideas": []
     },
     {
-      "name": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Bel",
+      "name": "Google buys crashed airline Spirit's data at auction, because AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -370,8 +369,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
-          "signal": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe"
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+          "signal": "Google buys crashed airline Spirit's data at auction, because AI"
         }
       ],
       "content_ideas": []
@@ -385,7 +384,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -413,23 +411,50 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
+          "signal": "I wish ChatGPT let us merge old conversations into the current one"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
           "signal": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
-          "signal": "Coworkers are using ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
+          "signal": "How do you use ur ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
-          "signal": "I had ChatGPT show how a human eyeball camera would look."
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
+          "signal": "ChatGPT Stealth Intelligence Update?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
-          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
@@ -465,33 +490,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
           "signal": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
@@ -533,6 +531,18 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Usage Limit",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmmup/usage_limit/"
         }
       ],
       "content_opportunity": ""
