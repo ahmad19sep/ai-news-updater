@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:51:59.358358+00:00",
+  "generated_at": "2026-08-18T07:05:38.887069+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -55,11 +55,6 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
-          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
           "signal": "Coworkers are using ChatGPT"
         },
@@ -67,6 +62,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
           "signal": "I had ChatGPT show how a human eyeball camera would look."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
+          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
         }
       ],
       "content_ideas": []
@@ -153,6 +153,33 @@
       "content_ideas": []
     },
     {
+      "name": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+          "signal": "Israel creates fake think tank in likely attempt to dupe AI chatbots"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Qwen",
       "category": "tool_launch",
       "momentum": "rising",
@@ -188,8 +215,8 @@
       "content_ideas": []
     },
     {
-      "name": "The AI Credit Resale Economy",
-      "category": "use_case",
+      "name": "Gpt-5",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -202,14 +229,14 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-          "signal": "The AI Credit Resale Economy"
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
@@ -242,7 +269,7 @@
       "content_ideas": []
     },
     {
-      "name": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training",
+      "name": "The AI Credit Resale Economy",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -254,7 +281,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -262,8 +289,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
-          "signal": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility"
+          "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+          "signal": "The AI Credit Resale Economy"
         }
       ],
       "content_ideas": []
@@ -281,7 +308,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -291,6 +318,33 @@
           "platform": "hackernews",
           "url": "https://www.librarian.net/notoai/",
           "signal": "How to disable or avoid intrusive AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+          "signal": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility"
         }
       ],
       "content_ideas": []
@@ -318,60 +372,6 @@
           "platform": "hackernews",
           "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
           "signal": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Anthropic's War on open source AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
-          "signal": "Anthropic's War on open source AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
@@ -418,11 +418,6 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
-          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
           "signal": "Coworkers are using ChatGPT"
         },
@@ -430,6 +425,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
           "signal": "I had ChatGPT show how a human eyeball camera would look."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
+          "signal": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste?"
         }
       ],
       "content_ideas": []
@@ -470,6 +470,33 @@
       "content_ideas": []
     },
     {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Copilot",
       "category": "tool_launch",
       "momentum": "rising",
@@ -492,33 +519,6 @@
           "platform": "hackernews",
           "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
           "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-          "signal": "GPT-5.6 Sol Pricing Cut by 50%"
         }
       ],
       "content_ideas": []
