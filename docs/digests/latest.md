@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Patients wary of governments, companies pushing AI as a rural healthcare solution** — https://buffalonews.com/life-entertainment/local/wellness/article_fd5e10ef-c6bf-5122-8521-770841868fb1.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3782
+- Total stories tracked: 3798
 - Most active topic: anthropic
 - Busiest category: AI General News
 
