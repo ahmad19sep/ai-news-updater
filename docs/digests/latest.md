@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **AI Is Helping Patients Solve Medical Mysteries - WSJ** — https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3896
+- Total stories tracked: 3904
 - Most active topic: anthropic
 - Busiest category: AI General News
 
