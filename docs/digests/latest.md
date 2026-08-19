@@ -7,22 +7,22 @@ Best source link: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-con
 All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.sbsun.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.dailybulletin.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.paradisepost.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.themorningsun.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it-2/ · https://www.oneidadispatch.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.news-herald.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.dailypress.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.greeleytribune.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.timescall.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.canoncitydailyrecord.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.reporterherald.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.dailycamera.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.thenewsherald.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.troyrecord.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://www.fortmorgantimes.com/2026/08/14/ai-generated-content-is-flooding-political-campaigns-california-lawmakers-are-trying-to-regulate-it/ · https://news.google.com/rss/articles/CBMingFBVV95cUxPYmEyU1YxOG05dkduUzN1NGdXcXMyZk4tUjVYYTFnNEhfNGRQUFJ4dEx1bmtiZlJQWFVDSVFacHBSeHk1QjFiVU11MDR2amQxOGs2M0JBdE5PaF9qY1Rid19odU9MSzVoeGtMS19QNWFVTExScUxxMjRBVXNra2hUMmpNTXZneTZScXRrQ2U4d2xZMXhaMHpKa3NTWS1BQQ?oc=5
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — science angle
-   https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
-2. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
+1. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
    https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
-3. **AI Is Helping Patients Solve Medical Mysteries - WSJ** — science angle
+2. **AI Is Helping Patients Solve Medical Mysteries - WSJ** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-4. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
+3. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
    https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
-5. **Patients wary of governments, companies pushing AI as a rural healthcare solution** — science angle
+4. **Patients wary of governments, companies pushing AI as a rural healthcare solution** — science angle
    https://buffalonews.com/life-entertainment/local/wellness/article_fd5e10ef-c6bf-5122-8521-770841868fb1.html
-6. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
+5. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
-7. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
+6. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
    https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
-8. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
+7. **Can Anthropic's invsibile watermarks curb ‘AI slop’? Researchers remain sceptical** — science angle
    https://www.nature.com/articles/d41586-026-02503-7
+8. **Scientists turn DNA into a memory device that uses 100x less power** — science angle
+   https://www.sciencedaily.com/releases/2026/08/260816044853.htm
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 173
@@ -48,13 +48,13 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 
 ## 🧪 AI in Science Highlights
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
-- **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 - **AI Is Helping Patients Solve Medical Mysteries - WSJ** — https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
+- **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3878
+- Total stories tracked: 3885
 - Most active topic: anthropic
 - Busiest category: AI General News
 
