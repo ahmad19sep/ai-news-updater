@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:10:57.392707+00:00",
+  "generated_at": "2026-08-19T18:54:45.660705+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 28,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -98,28 +98,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
+          "signal": "ChatGPT drew himself for me 🤗🥰"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
+          "signal": "What is a weirdly specific task you use ChatGPT for that actually saves you hours?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vson9i/i_tried_to_turn_chatgpt_into_a_character_and_send/",
+          "signal": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
           "signal": "ChatGPT is getting scarily good."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vselwp/chatgpt_on_linux/",
-          "signal": "ChatGPT on Linux 👀"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
-          "signal": "ChatGPT has been saying \"Fuck\" a lot recently"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vshit2/chatgpt_helped_me_find_spying_code_in_a_chrome/",
-          "signal": "ChatGPT helped me find spying code in a Chrome extension that had been lurking for years. Unfortunately, I'd been using that extension for years without realizing it though."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vry84v/chatgpt_has_gotten_funnier_and_wittier_lately_is/",
-          "signal": "ChatGPT has gotten funnier and wittier lately, is it just me?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sD-N_c1l7-8",
+          "signal": "Menina aranha 🕷️🕸️ | #spiderman #ia #ia #chatgpt #short#short"
         }
       ],
       "content_ideas": []
@@ -206,33 +206,6 @@
       "content_ideas": []
     },
     {
-      "name": "Copilot",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-          "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Cerebras CS-4",
       "category": "use_case",
       "momentum": "rising",
@@ -255,89 +228,6 @@
           "platform": "hackernews",
           "url": "https://www.cerebras.ai/cs4",
           "signal": "Cerebras CS-4"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-          "signal": "Qwen3.8 27B scores 52 on Artificial Analysis"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "How to disable or avoid intrusive AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.librarian.net/notoai/",
-          "signal": "How to disable or avoid intrusive AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
-          "signal": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility"
         }
       ],
       "content_ideas": []
@@ -368,12 +258,10 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Copilot",
-      "category": "tool_launch",
+      "name": "AI usage patterns in software teams",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -384,23 +272,50 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-          "signal": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira"
+          "url": "https://linear.app/data",
+          "signal": "AI usage patterns in software teams"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
+      "name": "Openrouter is joining Stripe",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+          "signal": "Openrouter is joining Stripe"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "My friends all hate AI; I just joined an AI startup",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "facebook_inferred",
@@ -413,20 +328,49 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 10,
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-          "signal": "Qwen3.8 27B scores 52 on Artificial Analysis"
+          "url": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
+          "signal": "My friends all hate AI; I just joined an AI startup"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "Air Theremin – a browser theremin you play by waving at your webcam",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://theremin.bizibah.com/",
+          "signal": "Air Theremin – a browser theremin you play by waving at your webcam"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -456,28 +400,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
+          "signal": "ChatGPT drew himself for me 🤗🥰"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
+          "signal": "What is a weirdly specific task you use ChatGPT for that actually saves you hours?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vson9i/i_tried_to_turn_chatgpt_into_a_character_and_send/",
+          "signal": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
           "signal": "ChatGPT is getting scarily good."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vselwp/chatgpt_on_linux/",
-          "signal": "ChatGPT on Linux 👀"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
-          "signal": "ChatGPT has been saying \"Fuck\" a lot recently"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vshit2/chatgpt_helped_me_find_spying_code_in_a_chrome/",
-          "signal": "ChatGPT helped me find spying code in a Chrome extension that had been lurking for years. Unfortunately, I'd been using that extension for years without realizing it though."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vry84v/chatgpt_has_gotten_funnier_and_wittier_lately_is/",
-          "signal": "ChatGPT has gotten funnier and wittier lately, is it just me?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sD-N_c1l7-8",
+          "signal": "Menina aranha 🕷️🕸️ | #spiderman #ia #ia #chatgpt #short#short"
         }
       ],
       "content_ideas": []
@@ -514,7 +458,7 @@
     {
       "problem": "In 5 years time \"talk time to AI\" will be the new screen time issue",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
