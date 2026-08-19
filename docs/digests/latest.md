@@ -35,12 +35,12 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://columbustelegram.com/life-entertainment/nation-world/books/article_e906a7ce-e64a-5ff6-851e-81d671f8bea5.html
 5. **AI-assisted tool helped secure satellite communication system after 2022 Russian hacking** — wsbtv — Score 101
    https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
-6. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
-   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenJMM3Vza2xPUjlMeVhZQXhhcFNRRmwxel9qcmxqNDU5ODBDWUNMWWVKa2E3UmVTdS1RcExrYWlIdkVLbHpsMUNtUDgxeGQtNzhURmFGWXBNd2UwTEVJNGYtWmJSNk9lZU9Nb1BqY1dnckt1czRzYjgxRDdtYU9oUDExYkhHc2xuV2RCSlpCQmloanZOTjBVRHdRVmgwY2Y5WmI0cG84c1Jsa1ZiMndhdGFLNHBERTk3b2FJYzhNRllMOUVBYy1uYw?oc=5
-7. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 77
-   https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlpNdnFESFRFYTdGZ0syQXRta3dDZFNKWWw3RzNYdWdyS2k5akpwYUp3Yi1KcF9sTFo1dkRycmc1V1NWVE9KX2dBNy04Vk5rNFlJVlBGLUFUSTZNREx5cU9Ub3ZBMXhGZGloaXJCc1JLQ0hLbG1kUUtIc0ZRWFA4Q2ZiVnBWckNvR2NwV2lnZmJ6XzJVcFRadGQ0MWZYRVVONkVsdVJMU3JYb2tkUGpj?oc=5
-8. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 76
+6. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 86
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9441af468daf2bd59d00363f75&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us
+7. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenJMM3Vza2xPUjlMeVhZQXhhcFNRRmwxel9qcmxqNDU5ODBDWUNMWWVKa2E3UmVTdS1RcExrYWlIdkVLbHpsMUNtUDgxeGQtNzhURmFGWXBNd2UwTEVJNGYtWmJSNk9lZU9Nb1BqY1dnckt1czRzYjgxRDdtYU9oUDExYkhHc2xuV2RCSlpCQmloanZOTjBVRHdRVmgwY2Y5WmI0cG84c1Jsa1ZiMndhdGFLNHBERTk3b2FJYzhNRllMOUVBYy1uYw?oc=5
+8. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 77
+   https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlpNdnFESFRFYTdGZ0syQXRta3dDZFNKWWw3RzNYdWdyS2k5akpwYUp3Yi1KcF9sTFo1dkRycmc1V1NWVE9KX2dBNy04Vk5rNFlJVlBGLUFUSTZNREx5cU9Ub3ZBMXhGZGloaXJCc1JLQ0hLbG1kUUtIc0ZRWFA4Q2ZiVnBWckNvR2NwV2lnZmJ6XzJVcFRadGQ0MWZYRVVONkVsdVJMU3JYb2tkUGpj?oc=5
 9. **AI boom or bubble? Timing is everything** — keyt — Score 73
    https://keyt.com/news/money-and-business/cnn-business-consumer/2026/08/13/ai-boom-or-bubble-timing-is-everything/
 10. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 71
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3866
+- Total stories tracked: 3907
 - Most active topic: anthropic
 - Busiest category: AI General News
 
