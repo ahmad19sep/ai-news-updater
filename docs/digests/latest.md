@@ -49,12 +49,12 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 ## 🧪 AI in Science Highlights
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
 - **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - PA Media** — https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjRGTVpyZDNiSkNZRDI5SXNJb2RIZmZqcjR1VmlHME12Z0M0NFd4RFlkeWliUWN4dFlnYllmUmZ5RG9nbWs3MzI4a21JaHZQa3RYVUVDTUw1ek1aUjJWcGtOWnNJWEsxdVVwazNEWkcyMmdxTXlqSFhWMTRMRDdOTWFJUFAyV29PVXkxOW4ydWRrcHlvakVfZ3p1dl9iWVc4X21maFV2WnB1cWhxMF9oRzd6aVRxby1YakhMTnNzbEJyNC1ienhDMm41NjJUaHZzNHkyOGdBOFl5aE1IOWc?oc=5
+- **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 - **AI Is Helping Patients Solve Medical Mysteries - WSJ** — https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-- **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3837
+- Total stories tracked: 3851
 - Most active topic: anthropic
 - Busiest category: AI General News
 
