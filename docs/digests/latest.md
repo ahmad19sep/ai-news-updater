@@ -54,8 +54,8 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3926
-- Most active topic: agents
+- Total stories tracked: 3852
+- Most active topic: anthropic
 - Busiest category: AI General News
 
 ---
