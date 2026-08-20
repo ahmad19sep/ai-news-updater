@@ -19,10 +19,10 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 6. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-7. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
-   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
-8. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
+7. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
    https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1RXXzc4TDNuSDdFaDdoNkI3azZCUmFXbDhJMkFwaVowMmFuZGVVaUlkRWFHYWNXNEtOM0dBeWpKZnlKSXhDTTJJczRoV2ZGaXNwMTRpNDFJZmYzNllmSmZxdmdyQTBUUXJZeHV6YmlVR3pvdnZ5WWdMcWVraHBQWHo1UlVqVE1ETS1NbXdfV0gzX3U2eVN3bnRob2pzWGtZRjIyQjdkc0ZmaEpXeFYzS0psUU5TTUZudEtLZ0lJUnRjNXJPTnoxWWl2Qk1md2VKMXlSSU5IRFJ0VFBBVlJ3dkhUVzE?oc=5
+8. **Scientists turn DNA into a memory device that uses 100x less power** — science angle
+   https://www.sciencedaily.com/releases/2026/08/260816044853.htm
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it** — redlandsdailyfacts — Score 173
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3838
+- Total stories tracked: 3818
 - Most active topic: agents
 - Busiest category: AI General News
 
