@@ -9,12 +9,12 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **AI Is Helping Patients Solve Medical Mysteries - WSJ** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-2. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
-   https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
-3. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
+2. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
    https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
-4. **Patients wary of governments, companies pushing AI as a rural healthcare solution** — science angle
+3. **Patients wary of governments, companies pushing AI as a rural healthcare solution** — science angle
    https://buffalonews.com/life-entertainment/local/wellness/article_fd5e10ef-c6bf-5122-8521-770841868fb1.html
+4. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
+   https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 5. **Suvi Health launches ambient AI solution for patients to reduce hospital stays and support care transitions - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZmS0t6SnI0OVJKT0pZUmtZNktCeGh6bDRaMlZ5S19vd3dMblktTXpDaUg3OXJsUkF4cEtQenhVSWhzcnRHWkppaGZocmljSnlyWjdGR0lmWFVYdjRiUHd4WWh0RzZUM3VKaVFYNEl3LW1SUDJKUU1nVFU0UTF5UU9tX0Radkt6c0RmSlhOREg2eU1pME9hY2N6N1pFRlc5bjJaenROaEttZUlsXy16QWdaZWVzd0lITThkbDlJWDdVWk9HS0ZkeA?oc=5
 6. **Ant Group launches AQ for Doctor, bringing an AI-powered workstation to millions of physicians - Business Wire** — science angle
@@ -41,7 +41,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
 8. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenJMM3Vza2xPUjlMeVhZQXhhcFNRRmwxel9qcmxqNDU5ODBDWUNMWWVKa2E3UmVTdS1RcExrYWlIdkVLbHpsMUNtUDgxeGQtNzhURmFGWXBNd2UwTEVJNGYtWmJSNk9lZU9Nb1BqY1dnckt1czRzYjgxRDdtYU9oUDExYkhHc2xuV2RCSlpCQmloanZOTjBVRHdRVmgwY2Y5WmI0cG84c1Jsa1ZiMndhdGFLNHBERTk3b2FJYzhNRllMOUVBYy1uYw?oc=5
-9. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 81
+9. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
    https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
 10. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 77
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlpNdnFESFRFYTdGZ0syQXRta3dDZFNKWWw3RzNYdWdyS2k5akpwYUp3Yi1KcF9sTFo1dkRycmc1V1NWVE9KX2dBNy04Vk5rNFlJVlBGLUFUSTZNREx5cU9Ub3ZBMXhGZGloaXJCc1JLQ0hLbG1kUUtIc0ZRWFA4Q2ZiVnBWckNvR2NwV2lnZmJ6XzJVcFRadGQ0MWZYRVVONkVsdVJMU3JYb2tkUGpj?oc=5
@@ -51,10 +51,10 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 - **The startup using AI to help rare disease families develop custom treatments - CNBC** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjVqUE9jS21SR1lVblJkOTZCdzVRemtMWUdGWlRmZzVqeE50b1R2M015Z0lfVVJmSG9rWV9ZS2w0ZlM4SUVMbVlGQkZJZDdrRU1WcUI4VFQ2MkI5OHdjMHk5NHV5R1lNZkdYYk5oXzl2eEcxekFKSU8xVnF4S2lGdVBIeW1hUmhtODdMNzBnaWdlQjRTUlo1cDlRN1ZLSGxRMDYxTWRmSmFDWmfSAbABQVVfeXFMTmctbHF1YlU1dXg0T2gtVHR1VW1Ja3FUVUZoYkpTQ0hzWE9RcTJCNGFSZkdDd0cxUHktRU5INWJfWm9aTTlCV3hEMnJha3RoOUNjWW9MSDZ5Y1RoM0JUaGo2enhXbkZfUlJLQ01aRlFXWmpIbGxQcER2NHZKejFnMENwYUNEc0VTZWR2VzFNbGY1LTJSQ3pBOEU2TEVsdVIwZE5nS0hjV1ZZSEF1UlpCcW8?oc=5
 - **AI Is Helping Patients Solve Medical Mysteries - WSJ** — https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-- **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
+- **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3847
+- Total stories tracked: 3844
 - Most active topic: anthropic
 - Busiest category: AI General News
 
