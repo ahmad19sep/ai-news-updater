@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3858
+- Total stories tracked: 3849
 - Most active topic: anthropic
 - Busiest category: AI General News
 
