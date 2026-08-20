@@ -39,12 +39,12 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
    https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
 7. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 86
    https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
-8. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
+8. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 86
+   https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
+9. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenJMM3Vza2xPUjlMeVhZQXhhcFNRRmwxel9qcmxqNDU5ODBDWUNMWWVKa2E3UmVTdS1RcExrYWlIdkVLbHpsMUNtUDgxeGQtNzhURmFGWXBNd2UwTEVJNGYtWmJSNk9lZU9Nb1BqY1dnckt1czRzYjgxRDdtYU9oUDExYkhHc2xuV2RCSlpCQmloanZOTjBVRHdRVmgwY2Y5WmI0cG84c1Jsa1ZiMndhdGFLNHBERTk3b2FJYzhNRllMOUVBYy1uYw?oc=5
-9. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
+10. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
    https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
-10. **India Less Exposed to AI Job Risks Than Others, Goldman Says - Bloomberg.com** — AI Jobs S Asia — Score 77
-   https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlpNdnFESFRFYTdGZ0syQXRta3dDZFNKWWw3RzNYdWdyS2k5akpwYUp3Yi1KcF9sTFo1dkRycmc1V1NWVE9KX2dBNy04Vk5rNFlJVlBGLUFUSTZNREx5cU9Ub3ZBMXhGZGloaXJCc1JLQ0hLbG1kUUtIc0ZRWFA4Q2ZiVnBWckNvR2NwV2lnZmJ6XzJVcFRadGQ0MWZYRVVONkVsdVJMU3JYb2tkUGpj?oc=5
 
 ## 🧪 AI in Science Highlights
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3844
+- Total stories tracked: 3858
 - Most active topic: anthropic
 - Busiest category: AI General News
 
