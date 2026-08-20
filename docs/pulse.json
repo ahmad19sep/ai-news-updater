@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:07:53.857980+00:00",
+  "generated_at": "2026-08-20T13:12:09.632515+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 18,
+      "reddit": 50,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,13 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
-          "signal": "ChatGPT drew himself for me 🤗🥰"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
+          "signal": "This just popped up on chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
-          "signal": "This just popped up on chatgpt"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
+          "signal": "ChatGPT drew himself for me 🤗🥰"
         },
         {
           "platform": "reddit",
@@ -59,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
-          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtfzbn/i_asked_chatgpt_to_show_the_largest_elephant_and/",
+          "signal": "I asked ChatGPT to show the largest elephant and the largest dinosaurs ever next to a 6-foot human. The scale is ridiculous."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
-          "signal": "What is a weirdly specific task you use ChatGPT for that actually saves you hours?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt5scg/chatgpt_giving_me_dating_advice/",
+          "signal": "Chatgpt giving me dating advice"
         }
       ],
       "content_ideas": []
@@ -98,7 +98,7 @@
       "content_ideas": []
     },
     {
-      "name": "Google has acquired the data of failed US airline Spirit",
+      "name": "Don't Paste the AI, please",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -118,8 +118,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "signal": "Google has acquired the data of failed US airline Spirit"
+          "url": "https://dontpastetheai.com/",
+          "signal": "Don't Paste the AI, please"
         }
       ],
       "content_ideas": []
@@ -179,33 +179,6 @@
       "content_ideas": []
     },
     {
-      "name": "Air Theremin – A browser theremin you play by waving at your webcam",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://theremin.bizibah.com/",
-          "signal": "Air Theremin – A browser theremin you play by waving at your webcam"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Mathematics in the age of AI",
       "category": "use_case",
       "momentum": "rising",
@@ -218,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -245,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -255,6 +228,33 @@
           "platform": "hackernews",
           "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
           "signal": "Unsloth Dynamic 3.0 GGUFs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Air Theremin – A browser theremin you play by waving at your webcam",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://theremin.bizibah.com/",
+          "signal": "Air Theremin – A browser theremin you play by waving at your webcam"
         }
       ],
       "content_ideas": []
@@ -343,34 +343,85 @@
       "content_ideas": []
     },
     {
-      "name": "Why your Amazon order confirmation emails have become so unhelpful",
-      "category": "use_case",
+      "name": "Midjourney",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
+      "best_format": "reel",
+      "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
-          "signal": "Why your Amazon order confirmation emails have become so unhelpful"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1vsgz58/tried_a_layered_papercollage_style_in_midjourney/",
+          "signal": "Tried a layered paper-collage style in Midjourney v8.2 and it turned out way cuter than I expected"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1vstxfh/does_midjourney_still_do_images_like_these/",
+          "signal": "Does Midjourney still do images like these?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1vstmoa/rings_from_dark_souls_using_midjourney_video/",
+          "signal": "Rings from Dark Souls using Midjourney Video"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Midjourney",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1vsgz58/tried_a_layered_papercollage_style_in_midjourney/",
+          "signal": "Tried a layered paper-collage style in Midjourney v8.2 and it turned out way cuter than I expected"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1vstxfh/does_midjourney_still_do_images_like_these/",
+          "signal": "Does Midjourney still do images like these?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/midjourney/comments/1vstmoa/rings_from_dark_souls_using_midjourney_video/",
+          "signal": "Rings from Dark Souls using Midjourney Video"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -400,13 +451,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
-          "signal": "ChatGPT drew himself for me 🤗🥰"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
+          "signal": "This just popped up on chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
-          "signal": "This just popped up on chatgpt"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
+          "signal": "ChatGPT drew himself for me 🤗🥰"
         },
         {
           "platform": "reddit",
@@ -415,13 +466,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
-          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtfzbn/i_asked_chatgpt_to_show_the_largest_elephant_and/",
+          "signal": "I asked ChatGPT to show the largest elephant and the largest dinosaurs ever next to a 6-foot human. The scale is ridiculous."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
-          "signal": "What is a weirdly specific task you use ChatGPT for that actually saves you hours?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt5scg/chatgpt_giving_me_dating_advice/",
+          "signal": "Chatgpt giving me dating advice"
         }
       ],
       "content_ideas": []
