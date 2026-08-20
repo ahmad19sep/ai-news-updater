@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:52:49.857873+00:00",
+  "generated_at": "2026-08-20T07:07:53.857980+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 17,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -50,50 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
+          "signal": "This just popped up on chatgpt"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt8bvv/chatgpt_helps_me_with_my_anxietyspiraling/",
+          "signal": "ChatGPT helps me with my anxiety/spiraling"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
+          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
           "signal": "What is a weirdly specific task you use ChatGPT for that actually saves you hours?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vson9i/i_tried_to_turn_chatgpt_into_a_character_and_send/",
-          "signal": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vsyhql/using_chatgpt_to_uncover_my_traumatic_childhood/",
-          "signal": "Using chatgpt to uncover my traumatic childhood and work through it."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vswu1v/have_you_noticed_anything_different_about_chatgpt/",
-          "signal": "Have you noticed anything different about ChatGPT lately?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Google has acquired the data of failed US airline Spirit",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "signal": "Google has acquired the data of failed US airline Spirit"
         }
       ],
       "content_ideas": []
@@ -121,6 +93,33 @@
           "platform": "hackernews",
           "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
           "signal": "OpenRouter is joining Stripe"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google has acquired the data of failed US airline Spirit",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+          "signal": "Google has acquired the data of failed US airline Spirit"
         }
       ],
       "content_ideas": []
@@ -207,6 +206,60 @@
       "content_ideas": []
     },
     {
+      "name": "Mathematics in the age of AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arxiv.org/abs/2608.16753",
+          "signal": "Mathematics in the age of AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Unsloth Dynamic 3.0 GGUFs",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+          "signal": "Unsloth Dynamic 3.0 GGUFs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI usage patterns in software teams",
       "category": "use_case",
       "momentum": "rising",
@@ -229,60 +282,6 @@
           "platform": "hackernews",
           "url": "https://linear.app/data",
           "signal": "AI usage patterns in software teams"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Unsloth Dynamic 3.0 GGUFs",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
-          "signal": "Unsloth Dynamic 3.0 GGUFs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mathematics in the age of AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2608.16753",
-          "signal": "Mathematics in the age of AI"
         }
       ],
       "content_ideas": []
@@ -379,7 +378,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -407,23 +405,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
+          "signal": "This just popped up on chatgpt"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt8bvv/chatgpt_helps_me_with_my_anxietyspiraling/",
+          "signal": "ChatGPT helps me with my anxiety/spiraling"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
+          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
           "signal": "What is a weirdly specific task you use ChatGPT for that actually saves you hours?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vson9i/i_tried_to_turn_chatgpt_into_a_character_and_send/",
-          "signal": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vsyhql/using_chatgpt_to_uncover_my_traumatic_childhood/",
-          "signal": "Using chatgpt to uncover my traumatic childhood and work through it."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vswu1v/have_you_noticed_anything_different_about_chatgpt/",
-          "signal": "Have you noticed anything different about ChatGPT lately?"
         }
       ],
       "content_ideas": []
