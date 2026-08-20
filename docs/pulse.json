@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:12:09.632515+00:00",
+  "generated_at": "2026-08-20T19:01:13.439197+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 20,
+      "reddit": 32,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -44,28 +44,55 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
+          "signal": "ChatGPT update adds Apple Messages integration on Mac"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
           "signal": "This just popped up on chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
-          "signal": "ChatGPT drew himself for me 🤗🥰"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
+          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt8bvv/chatgpt_helps_me_with_my_anxietyspiraling/",
-          "signal": "ChatGPT helps me with my anxiety/spiraling"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtok7p/i_asked_chatgpt_how_the_future_grocery_stores_are/",
+          "signal": "I asked ChatGPT how the future Grocery Stores are gonna look like."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtfzbn/i_asked_chatgpt_to_show_the_largest_elephant_and/",
-          "signal": "I asked ChatGPT to show the largest elephant and the largest dinosaurs ever next to a 6-foot human. The scale is ridiculous."
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtinpa/chatgpt_saved_my_pc/",
+          "signal": "Chatgpt saved my PC"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Don't paste the AI, please",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt5scg/chatgpt_giving_me_dating_advice/",
-          "signal": "Chatgpt giving me dating advice"
+          "platform": "hackernews",
+          "url": "https://dontpastetheai.com/",
+          "signal": "Don't paste the AI, please"
         }
       ],
       "content_ideas": []
@@ -93,60 +120,6 @@
           "platform": "hackernews",
           "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
           "signal": "OpenRouter is joining Stripe"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Don't Paste the AI, please",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://dontpastetheai.com/",
-          "signal": "Don't Paste the AI, please"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Field measurements of neighborhood-scale air temperature impacts of da",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
-          "signal": "Field measurements of neighborhood-scale air temperature impacts of data centers"
         }
       ],
       "content_ideas": []
@@ -191,7 +164,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -218,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -299,7 +272,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -343,20 +316,48 @@
       "content_ideas": []
     },
     {
-      "name": "Midjourney",
-      "category": "tool_launch",
+      "name": "AI didn't erase the junior engineer's value, it increased it it",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
+          "signal": "AI didn't erase the junior engineer's value, it increased it it"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
@@ -365,18 +366,23 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1vsgz58/tried_a_layered_papercollage_style_in_midjourney/",
-          "signal": "Tried a layered paper-collage style in Midjourney v8.2 and it turned out way cuter than I expected"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtiooy/for_people_who_talk_to_ai_about_their_personal/",
+          "signal": "For people who talk to AI about their personal life and everyday situations: do you prefer ChatGPT or Gemini?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1vstxfh/does_midjourney_still_do_images_like_these/",
-          "signal": "Does Midjourney still do images like these?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lIee3GiBpZs",
+          "signal": "15 August AI Photo Editing ●Independence Day Poster Making | Gemini AI Prompt 2026"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1vstmoa/rings_from_dark_souls_using_midjourney_video/",
-          "signal": "Rings from Dark Souls using Midjourney Video"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XtwTjwUZSTs",
+          "signal": "How To Make Money With ChatGPT, Claude And Gemini In 2026 (What Each One Actually Pays)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -384,48 +390,9 @@
   ],
   "rising_tools": [
     {
-      "name": "Midjourney",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1vsgz58/tried_a_layered_papercollage_style_in_midjourney/",
-          "signal": "Tried a layered paper-collage style in Midjourney v8.2 and it turned out way cuter than I expected"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1vstxfh/does_midjourney_still_do_images_like_these/",
-          "signal": "Does Midjourney still do images like these?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/midjourney/comments/1vstmoa/rings_from_dark_souls_using_midjourney_video/",
-          "signal": "Rings from Dark Souls using Midjourney Video"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -451,28 +418,73 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
+          "signal": "ChatGPT update adds Apple Messages integration on Mac"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
           "signal": "This just popped up on chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
-          "signal": "ChatGPT drew himself for me 🤗🥰"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
+          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt8bvv/chatgpt_helps_me_with_my_anxietyspiraling/",
-          "signal": "ChatGPT helps me with my anxiety/spiraling"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtok7p/i_asked_chatgpt_how_the_future_grocery_stores_are/",
+          "signal": "I asked ChatGPT how the future Grocery Stores are gonna look like."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtfzbn/i_asked_chatgpt_to_show_the_largest_elephant_and/",
-          "signal": "I asked ChatGPT to show the largest elephant and the largest dinosaurs ever next to a 6-foot human. The scale is ridiculous."
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtinpa/chatgpt_saved_my_pc/",
+          "signal": "Chatgpt saved my PC"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt5scg/chatgpt_giving_me_dating_advice/",
-          "signal": "Chatgpt giving me dating advice"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtiooy/for_people_who_talk_to_ai_about_their_personal/",
+          "signal": "For people who talk to AI about their personal life and everyday situations: do you prefer ChatGPT or Gemini?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lIee3GiBpZs",
+          "signal": "15 August AI Photo Editing ●Independence Day Poster Making | Gemini AI Prompt 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XtwTjwUZSTs",
+          "signal": "How To Make Money With ChatGPT, Claude And Gemini In 2026 (What Each One Actually Pays)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
