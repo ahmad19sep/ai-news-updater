@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 13 Aug 2026 to 20 Aug 2026
+# 🗞️ AI THIS WEEK — 14 Aug 2026 to 21 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **AI-generated content is flooding political campaigns. California lawmakers are trying to regulate it**
@@ -54,7 +54,7 @@ All coverage: https://www.redlandsdailyfacts.com/2026/08/14/ai-generated-content
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3816
+- Total stories tracked: 3858
 - Most active topic: agents
 - Busiest category: AI General News
 
