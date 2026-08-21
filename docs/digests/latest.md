@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3840
+- Total stories tracked: 3818
 - Most active topic: agents
 - Busiest category: AI General News
 
