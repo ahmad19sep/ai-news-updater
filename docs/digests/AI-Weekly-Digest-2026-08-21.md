@@ -37,12 +37,12 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
    https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
 6. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 96
    https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
-7. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 86
-   https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
-8. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
+7. **Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power - ANI News** — Dario Amodei News — Score 83
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenJMM3Vza2xPUjlMeVhZQXhhcFNRRmwxel9qcmxqNDU5ODBDWUNMWWVKa2E3UmVTdS1RcExrYWlIdkVLbHpsMUNtUDgxeGQtNzhURmFGWXBNd2UwTEVJNGYtWmJSNk9lZU9Nb1BqY1dnckt1czRzYjgxRDdtYU9oUDExYkhHc2xuV2RCSlpCQmloanZOTjBVRHdRVmgwY2Y5WmI0cG84c1Jsa1ZiMndhdGFLNHBERTk3b2FJYzhNRllMOUVBYy1uYw?oc=5
-9. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
+8. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
    https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
+9. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
+   https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
 10. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
    https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
 
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3814
+- Total stories tracked: 3828
 - Most active topic: agents
 - Busiest category: AI General News
 
