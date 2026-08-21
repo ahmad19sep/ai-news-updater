@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:01:13.439197+00:00",
+  "generated_at": "2026-08-21T01:58:55.674763+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 32,
-      "hackernews": 18,
+      "reddit": 25,
+      "hackernews": 19,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,10 +18,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -29,8 +30,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -44,28 +45,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
+          "signal": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
+          "signal": "ChatGPT takes a photo..."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
           "signal": "ChatGPT update adds Apple Messages integration on Mac"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
-          "signal": "This just popped up on chatgpt"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
-          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
+          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vtok7p/i_asked_chatgpt_how_the_future_grocery_stores_are/",
           "signal": "I asked ChatGPT how the future Grocery Stores are gonna look like."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtinpa/chatgpt_saved_my_pc/",
-          "signal": "Chatgpt saved my PC"
         }
       ],
       "content_ideas": []
@@ -120,33 +121,6 @@
           "platform": "hackernews",
           "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
           "signal": "OpenRouter is joining Stripe"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Cerebras CS-4",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cerebras.ai/cs4",
-          "signal": "Cerebras CS-4"
         }
       ],
       "content_ideas": []
@@ -233,7 +207,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI usage patterns in software teams",
+      "name": "Show HN: Huzzah – a novel approach to coding with AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -243,9 +217,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -253,8 +227,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://linear.app/data",
-          "signal": "AI usage patterns in software teams"
+          "url": "https://www.danielvaughn.dev/posts/huzzah/",
+          "signal": "Show HN: Huzzah – a novel approach to coding with AI"
         }
       ],
       "content_ideas": []
@@ -287,35 +261,6 @@
       "content_ideas": []
     },
     {
-      "name": "GLM-5.3 Artificial Analysis Benchmarks",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/glm-5-3",
-          "signal": "GLM-5.3 Artificial Analysis Benchmarks"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI didn't erase the junior engineer's value, it increased it it",
       "category": "use_case",
       "momentum": "rising",
@@ -343,46 +288,82 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
+      "name": "Anti-AI fonts are useless and harmful",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtiooy/for_people_who_talk_to_ai_about_their_personal/",
-          "signal": "For people who talk to AI about their personal life and everyday situations: do you prefer ChatGPT or Gemini?"
-        },
+          "platform": "hackernews",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+          "signal": "Anti-AI fonts are useless and harmful"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Copyright does not protect AI-generated content in EU",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lIee3GiBpZs",
-          "signal": "15 August AI Photo Editing ●Independence Day Poster Making | Gemini AI Prompt 2026"
-        },
+          "platform": "hackernews",
+          "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+          "signal": "Copyright does not protect AI-generated content in EU"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "DFlash 2: Keep Drafting Parallel",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XtwTjwUZSTs",
-          "signal": "How To Make Money With ChatGPT, Claude And Gemini In 2026 (What Each One Actually Pays)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://inco.ai/blog/dflash2/",
+          "signal": "DFlash 2: Keep Drafting Parallel"
         }
       ],
       "content_ideas": []
@@ -392,10 +373,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -403,8 +385,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -418,73 +400,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
+          "signal": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
+          "signal": "ChatGPT takes a photo..."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
           "signal": "ChatGPT update adds Apple Messages integration on Mac"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
-          "signal": "This just popped up on chatgpt"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
-          "signal": "What is the deal with ChatGPT using lots of foul language all of a sudden?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
+          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vtok7p/i_asked_chatgpt_how_the_future_grocery_stores_are/",
           "signal": "I asked ChatGPT how the future Grocery Stores are gonna look like."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtinpa/chatgpt_saved_my_pc/",
-          "signal": "Chatgpt saved my PC"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtiooy/for_people_who_talk_to_ai_about_their_personal/",
-          "signal": "For people who talk to AI about their personal life and everyday situations: do you prefer ChatGPT or Gemini?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lIee3GiBpZs",
-          "signal": "15 August AI Photo Editing ●Independence Day Poster Making | Gemini AI Prompt 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XtwTjwUZSTs",
-          "signal": "How To Make Money With ChatGPT, Claude And Gemini In 2026 (What Each One Actually Pays)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
