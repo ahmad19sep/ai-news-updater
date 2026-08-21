@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:12:40.717667+00:00",
+  "generated_at": "2026-08-21T18:58:16.543292+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -30,8 +29,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -45,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
+          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
           "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
+          "signal": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
+          "signal": "Do you agree with ChatGPT’s assessment of my appearance?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
           "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
-          "signal": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
-          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
-          "signal": "ChatGPT's voice mode is insanely good. I am addicted to it."
         }
       ],
       "content_ideas": []
@@ -99,7 +98,7 @@
       "content_ideas": []
     },
     {
-      "name": "OpenRouter is joining Stripe",
+      "name": "AI companies destroy physical books – let's scan rare books before it'",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -119,8 +118,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-          "signal": "OpenRouter is joining Stripe"
+          "url": "https://annas-archive.pk/blog/physical-destruction.html",
+          "signal": "AI companies destroy physical books – let's scan rare books before it's too late"
         }
       ],
       "content_ideas": []
@@ -153,7 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "Mathematics in the age of AI",
+      "name": "Ox Alpha",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -165,7 +164,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -173,35 +172,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2608.16753",
-          "signal": "Mathematics in the age of AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Unsloth Dynamic 3.0 GGUFs",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
-          "signal": "Unsloth Dynamic 3.0 GGUFs"
+          "url": "https://openrouter.ai/stealth/ox-alpha",
+          "signal": "Ox Alpha"
         }
       ],
       "content_ideas": []
@@ -219,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -229,33 +201,6 @@
           "platform": "hackernews",
           "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
           "signal": "Copyright does not protect AI-generated content in EU"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ox Alpha",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/stealth/ox-alpha",
-          "signal": "Ox Alpha"
         }
       ],
       "content_ideas": []
@@ -273,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -288,7 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI companies destroy physical books – let's scan rare books before it'",
+      "name": "I'm becoming AI-blind",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -300,7 +245,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -308,35 +253,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://annas-archive.pk/blog/physical-destruction.html",
-          "signal": "AI companies destroy physical books – let's scan rare books before it's too late"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ornith.ai/ornith_1_5.html",
-          "signal": "Ornith-1.5: From Self-Scaffolding to Self-Improvement"
+          "url": "https://cymerys.com/w/im-becoming-ai-blind",
+          "signal": "I'm becoming AI-blind"
         }
       ],
       "content_ideas": []
@@ -367,6 +285,88 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "AI boosted homework scores, then exam scores dropped: Study",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://canews24.online/?p=71",
+          "signal": "AI boosted homework scores, then exam scores dropped: Study"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Micron announces $10B research hub in Boise",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+          "signal": "Micron announces $10B research hub in Boise"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Could AIs Become Conscious?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://economist.com/leaders/2026/08/20/could-ais-become-conscious",
+          "signal": "Could AIs Become Conscious?"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -377,7 +377,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -385,8 +384,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -400,46 +399,33 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
+          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
           "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
+          "signal": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
+          "signal": "Do you agree with ChatGPT’s assessment of my appearance?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
           "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
-          "signal": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
-          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
-          "signal": "ChatGPT's voice mode is insanely good. I am addicted to it."
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Did it really came down to this?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu9348/did_it_really_came_down_to_this/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
