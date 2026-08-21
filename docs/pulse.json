@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:08:49.546278+00:00",
+  "generated_at": "2026-08-21T13:12:40.717667+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,8 +45,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
-          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
+          "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
         },
         {
           "platform": "reddit",
@@ -55,18 +60,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
-          "signal": "ChatGPT takes a photo..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
+          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
-          "signal": "ChatGPT update adds Apple Messages integration on Mac"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
-          "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
+          "signal": "ChatGPT's voice mode is insanely good. I am addicted to it."
         }
       ],
       "content_ideas": []
@@ -126,7 +126,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI companies destroy physical books – let's scan rare books before it'",
+      "name": "Show HN: Huzzah – a novel approach to coding with AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -136,7 +136,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -146,8 +146,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://annas-archive.gl/blog/physical-destruction.html",
-          "signal": "AI companies destroy physical books – let's scan rare books before it's too late"
+          "url": "https://www.danielvaughn.dev/posts/huzzah/",
+          "signal": "Show HN: Huzzah – a novel approach to coding with AI"
         }
       ],
       "content_ideas": []
@@ -180,33 +180,6 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Huzzah – a novel approach to coding with AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.danielvaughn.dev/posts/huzzah/",
-          "signal": "Show HN: Huzzah – a novel approach to coding with AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Unsloth Dynamic 3.0 GGUFs",
       "category": "use_case",
       "momentum": "rising",
@@ -229,33 +202,6 @@
           "platform": "hackernews",
           "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
           "signal": "Unsloth Dynamic 3.0 GGUFs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Air Theremin – A browser theremin you play by waving at your webcam",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://theremin.bizibah.com/",
-          "signal": "Air Theremin – A browser theremin you play by waving at your webcam"
         }
       ],
       "content_ideas": []
@@ -288,6 +234,87 @@
       "content_ideas": []
     },
     {
+      "name": "Ox Alpha",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/stealth/ox-alpha",
+          "signal": "Ox Alpha"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anti-AI fonts are useless and harmful",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+          "signal": "Anti-AI fonts are useless and harmful"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI companies destroy physical books – let's scan rare books before it'",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://annas-archive.pk/blog/physical-destruction.html",
+          "signal": "AI companies destroy physical books – let's scan rare books before it's too late"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
       "category": "use_case",
       "momentum": "rising",
@@ -315,33 +342,6 @@
       "content_ideas": []
     },
     {
-      "name": "Anti-AI fonts are useless and harmful",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-          "signal": "Anti-AI fonts are useless and harmful"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI didn't erase the junior engineer's value, it increased it it",
       "category": "use_case",
       "momentum": "rising",
@@ -354,7 +354,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -400,8 +400,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
-          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
+          "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
         },
         {
           "platform": "reddit",
@@ -410,23 +415,31 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
-          "signal": "ChatGPT takes a photo..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
+          "signal": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
-          "signal": "ChatGPT update adds Apple Messages integration on Mac"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
-          "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
+          "signal": "ChatGPT's voice mode is insanely good. I am addicted to it."
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Did it really came down to this?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu9348/did_it_really_came_down_to_this/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
