@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:00:57.426191+00:00",
+  "generated_at": "2026-08-22T13:02:27.308112+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -64,35 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
-          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Don't paste the AI, please",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://dontpastetheai.com/",
-          "signal": "Don't paste the AI, please"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
+          "signal": "ChatGPT yaps too much"
         }
       ],
       "content_ideas": []
@@ -118,7 +91,7 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://annas-archive.pk/blog/physical-destruction.html",
+          "url": "https://annas-archive.gl/blog/physical-destruction.html",
           "signal": "AI companies destroy physical books – let's scan rare books before it's too late"
         }
       ],
@@ -191,7 +164,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -260,33 +233,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI didn't erase the junior engineer's value, it increased it it",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
-          "signal": "AI didn't erase the junior engineer's value, it increased it it"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Micron announces $10B research hub in Boise",
       "category": "use_case",
       "momentum": "rising",
@@ -342,6 +288,33 @@
       "content_ideas": []
     },
     {
+      "name": "What happens when a GPU reads memory",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+          "signal": "What happens when a GPU reads memory"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Could AIs Become Conscious?",
       "category": "use_case",
       "momentum": "rising",
@@ -364,6 +337,33 @@
           "platform": "hackernews",
           "url": "https://economist.com/leaders/2026/08/20/could-ais-become-conscious",
           "signal": "Could AIs Become Conscious?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: OzBrain, a shared brain for knowledge between agents and your",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ozbrain.com",
+          "signal": "Show HN: OzBrain, a shared brain for knowledge between agents and your team"
         }
       ],
       "content_ideas": []
@@ -419,8 +419,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
-          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
+          "signal": "ChatGPT yaps too much"
         }
       ],
       "content_ideas": []
