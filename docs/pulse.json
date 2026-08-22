@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:51:47.693052+00:00",
+  "generated_at": "2026-08-22T07:00:57.426191+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,13 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
-          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
+          "signal": "ChatGPT tells me garlic confit is going to f*ck"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
-          "signal": "ChatGPT tells me garlic confit is going to f*ck"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
+          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
         },
         {
           "platform": "reddit",
@@ -59,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
-          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv2hys/my_chatgpt_is_no_longer_showing_the_edit_arrows/",
+          "signal": "My ChatGPT is no longer showing the edit arrows"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
-          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
+          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
         }
       ],
       "content_ideas": []
@@ -125,33 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Huzzah – a novel approach to coding with AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.danielvaughn.dev/posts/huzzah/",
-          "signal": "Show HN: Huzzah – a novel approach to coding with AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "I'm becoming AI-blind",
       "category": "use_case",
       "momentum": "rising",
@@ -174,6 +147,33 @@
           "platform": "hackernews",
           "url": "https://cymerys.com/w/im-becoming-ai-blind",
           "signal": "I'm becoming AI-blind"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Huzzah – a novel approach to coding with AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.danielvaughn.dev/posts/huzzah/",
+          "signal": "Show HN: Huzzah – a novel approach to coding with AI"
         }
       ],
       "content_ideas": []
@@ -399,13 +399,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
-          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
+          "signal": "ChatGPT tells me garlic confit is going to f*ck"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
-          "signal": "ChatGPT tells me garlic confit is going to f*ck"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
+          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
         },
         {
           "platform": "reddit",
@@ -414,31 +414,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
-          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv2hys/my_chatgpt_is_no_longer_showing_the_edit_arrows/",
+          "signal": "My ChatGPT is no longer showing the edit arrows"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
-          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
+          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Bug - log-out",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vupnjf/bug_logout/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
