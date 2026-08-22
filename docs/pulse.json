@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:58:16.543292+00:00",
+  "generated_at": "2026-08-22T01:51:47.693052+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -49,8 +49,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
-          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
+          "signal": "ChatGPT tells me garlic confit is going to f*ck"
         },
         {
           "platform": "reddit",
@@ -59,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
-          "signal": "Do you agree with ChatGPT’s assessment of my appearance?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
+          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
-          "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
         }
       ],
       "content_ideas": []
@@ -152,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "I'm becoming AI-blind",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://cymerys.com/w/im-becoming-ai-blind",
+          "signal": "I'm becoming AI-blind"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Ox Alpha",
       "category": "use_case",
       "momentum": "rising",
@@ -233,33 +260,6 @@
       "content_ideas": []
     },
     {
-      "name": "I'm becoming AI-blind",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://cymerys.com/w/im-becoming-ai-blind",
-          "signal": "I'm becoming AI-blind"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI didn't erase the junior engineer's value, it increased it it",
       "category": "use_case",
       "momentum": "rising",
@@ -282,6 +282,33 @@
           "platform": "hackernews",
           "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
           "signal": "AI didn't erase the junior engineer's value, it increased it it"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Micron announces $10B research hub in Boise",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+          "signal": "Micron announces $10B research hub in Boise"
         }
       ],
       "content_ideas": []
@@ -310,33 +337,6 @@
           "platform": "hackernews",
           "url": "https://canews24.online/?p=71",
           "signal": "AI boosted homework scores, then exam scores dropped: Study"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Micron announces $10B research hub in Boise",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
-          "signal": "Micron announces $10B research hub in Boise"
         }
       ],
       "content_ideas": []
@@ -404,8 +404,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
-          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
+          "signal": "ChatGPT tells me garlic confit is going to f*ck"
         },
         {
           "platform": "reddit",
@@ -414,18 +414,31 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
-          "signal": "Do you agree with ChatGPT’s assessment of my appearance?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
+          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
-          "signal": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+          "signal": "What’s an unexpectedly productive use case of ChatGPT you discovered recently?"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Bug - log-out",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vupnjf/bug_logout/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
