@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
 - **Doctor unveils AI governance test for human parity** — https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
 - **The startup using AI to help rare disease families develop custom treatments - CNBC** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjVqUE9jS21SR1lVblJkOTZCdzVRemtMWUdGWlRmZzVqeE50b1R2M015Z0lfVVJmSG9rWV9ZS2w0ZlM4SUVMbVlGQkZJZDdrRU1WcUI4VFQ2MkI5OHdjMHk5NHV5R1lNZkdYYk5oXzl2eEcxekFKSU8xVnF4S2lGdVBIeW1hUmhtODdMNzBnaWdlQjRTUlo1cDlRN1ZLSGxRMDYxTWRmSmFDWmfSAbABQVVfeXFMTmctbHF1YlU1dXg0T2gtVHR1VW1Ja3FUVUZoYkpTQ0hzWE9RcTJCNGFSZkdDd0cxUHktRU5INWJfWm9aTTlCV3hEMnJha3RoOUNjWW9MSDZ5Y1RoM0JUaGo2enhXbkZfUlJLQ01aRlFXWmpIbGxQcER2NHZKejFnMENwYUNEc0VTZWR2VzFNbGY1LTJSQ3pBOEU2TEVsdVIwZE5nS0hjV1ZZSEF1UlpCcW8?oc=5
-- **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
+- **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3775
+- Total stories tracked: 3777
 - Most active topic: agents
 - Busiest category: AI General News
 
