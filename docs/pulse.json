@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:02:27.308112+00:00",
+  "generated_at": "2026-08-22T18:50:11.199976+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 17,
+      "reddit": 36,
+      "hackernews": 16,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,18 +45,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
-          "signal": "ChatGPT tells me garlic confit is going to f*ck"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
+          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
-          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
-          "signal": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvheg4/chatgpts_personality_changed/",
+          "signal": "ChatGPT’s personality changed??"
         },
         {
           "platform": "reddit",
@@ -64,8 +60,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
-          "signal": "ChatGPT yaps too much"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vut0jy/chatgpt_has_stopped_to_work_properly/",
+          "signal": "ChatGPT has stopped to work properly"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
+          "signal": "ChatGPT tells me garlic confit is going to f*ck"
         }
       ],
       "content_ideas": []
@@ -206,33 +207,6 @@
       "content_ideas": []
     },
     {
-      "name": "Anti-AI fonts are useless and harmful",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-          "signal": "Anti-AI fonts are useless and harmful"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Micron announces $10B research hub in Boise",
       "category": "use_case",
       "momentum": "rising",
@@ -315,33 +289,6 @@
       "content_ideas": []
     },
     {
-      "name": "Could AIs Become Conscious?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://economist.com/leaders/2026/08/20/could-ais-become-conscious",
-          "signal": "Could AIs Become Conscious?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: OzBrain, a shared brain for knowledge between agents and your",
       "category": "use_case",
       "momentum": "rising",
@@ -367,6 +314,61 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Digging the grave of my skills: Hollywood creatives training AI to do ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+          "signal": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic IPO filing will show AI backlash as a risk factor, sources s",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+          "signal": "Anthropic IPO filing will show AI backlash as a risk factor, sources say"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -377,6 +379,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -399,18 +402,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
-          "signal": "ChatGPT tells me garlic confit is going to f*ck"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
+          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
-          "signal": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
-          "signal": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvheg4/chatgpts_personality_changed/",
+          "signal": "ChatGPT’s personality changed??"
         },
         {
           "platform": "reddit",
@@ -419,13 +417,43 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
-          "signal": "ChatGPT yaps too much"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vut0jy/chatgpt_has_stopped_to_work_properly/",
+          "signal": "ChatGPT has stopped to work properly"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
+          "signal": "ChatGPT tells me garlic confit is going to f*ck"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Bug - log-out",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vupnjf/bug_logout/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "PSA: If ChatGPT suddenly keeps asking you to choose/login to your account today, DON'T reset your browser or PC, it seems to be a ChatGPT-si",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqzxw/psa_if_chatgpt_suddenly_keeps_asking_you_to/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
