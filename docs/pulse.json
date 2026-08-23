@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T02:00:52.190232+00:00",
+  "generated_at": "2026-08-23T07:02:32.873383+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 14,
+      "hackernews": 13,
       "youtube": 106
     },
     "llm_provider": null
@@ -54,45 +54,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
-          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvyh6q/asked_chatgpt_to_draft_a_plot_summary_for_a/",
+          "signal": "Asked ChatGPT to draft a plot summary for a horror movie with an entirely original premise, this is what it created"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvheg4/chatgpts_personality_changed/",
-          "signal": "ChatGPT’s personality changed??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvup99/made_an_edgy_new_anime_using_chatgpt/",
+          "signal": "Made an edgy new anime using ChatGPT"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=c4SSaSmgfgg",
-          "signal": "㊗️400万再生！【竹田恒泰】ChatGPTで何でも解決..「大学のレポートは中止」"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI companies destroy physical books – let's scan rare books before it'",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://annas-archive.gl/blog/physical-destruction.html",
-          "signal": "AI companies destroy physical books – let's scan rare books before it's too late"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
+          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
         }
       ],
       "content_ideas": []
@@ -125,7 +98,7 @@
       "content_ideas": []
     },
     {
-      "name": "Micron announces $10B research hub in Boise",
+      "name": "How a Texas student blew the whistle on a rogue AI hacking attempt",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -135,7 +108,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 5,
       "monetization": {
@@ -145,8 +118,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
-          "signal": "Micron announces $10B research hub in Boise"
+          "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+          "signal": "How a Texas student blew the whistle on a rogue AI hacking attempt"
         }
       ],
       "content_ideas": []
@@ -165,7 +138,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -175,60 +148,6 @@
           "platform": "hackernews",
           "url": "https://canews24.online/?p=71",
           "signal": "AI boosted homework scores, then exam scores dropped: Study"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "How a Texas student blew the whistle on a rogue AI hacking attempt",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
-          "signal": "How a Texas student blew the whistle on a rogue AI hacking attempt"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "What happens when a GPU reads memory",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
-          "signal": "What happens when a GPU reads memory"
         }
       ],
       "content_ideas": []
@@ -256,6 +175,33 @@
           "platform": "hackernews",
           "url": "https://ozbrain.com",
           "signal": "Show HN: OzBrain, a shared brain for knowledge between agents and your team"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "What happens when a GPU reads memory",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+          "signal": "What happens when a GPU reads memory"
         }
       ],
       "content_ideas": []
@@ -316,12 +262,11 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "NanoGPT Speedrun Frontier",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -329,21 +274,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 2,
+      "video_worthy": 3,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv5bqf/gpt_has_pulled_ahead_of_claude/",
-          "signal": "GPT has pulled ahead of Claude?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NGMzAJSMseU",
-          "signal": "Elon Just Dropped An AI 4x Cheaper Than Beats Claude Fable 5 At The Same Level (+14 AI Updates)"
+          "platform": "hackernews",
+          "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+          "signal": "NanoGPT Speedrun Frontier"
         }
       ],
       "content_ideas": []
@@ -374,15 +314,14 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon ",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "reddit",
+        "facebook_inferred",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -390,26 +329,62 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 2,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv5bqf/gpt_has_pulled_ahead_of_claude/",
-          "signal": "GPT has pulled ahead of Claude?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Fg1yEWtG4QU",
+          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai​"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NGMzAJSMseU",
-          "signal": "Elon Just Dropped An AI 4x Cheaper Than Beats Claude Fable 5 At The Same Level (+14 AI Updates)"
+          "url": "https://www.youtube.com/watch?v=nkcoksFvC90",
+          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "Create Long AI Videos for FREE | Step-by-Step AI Video Tutorial 🚀",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RcQdXBmHZsU",
+          "signal": "Create Long AI Videos for FREE | Step-by-Step AI Video Tutorial 🚀"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vaJPyJJFEtg",
+          "signal": "How To Create Long AI Videos FREE 🔥 30 Mins Realistic + Dialogues 🔥 AI  Video kaise banaye"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -449,18 +424,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
-          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvyh6q/asked_chatgpt_to_draft_a_plot_summary_for_a/",
+          "signal": "Asked ChatGPT to draft a plot summary for a horror movie with an entirely original premise, this is what it created"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvheg4/chatgpts_personality_changed/",
-          "signal": "ChatGPT’s personality changed??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvup99/made_an_edgy_new_anime_using_chatgpt/",
+          "signal": "Made an edgy new anime using ChatGPT"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=c4SSaSmgfgg",
-          "signal": "㊗️400万再生！【竹田恒泰】ChatGPTで何でも解決..「大学のレポートは中止」"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
+          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
         }
       ],
       "content_ideas": []
