@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:02:32.873383+00:00",
+  "generated_at": "2026-08-23T13:03:36.772593+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 13,
+      "hackernews": 14,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,50 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw307p/i_get_why_people_use_chatgpt_as_therapy/",
+          "signal": "i get why people use chatgpt as therapy"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw0wum/i_asked_chatgpt_to_create_an_image_of_a_muppet/",
+          "signal": "I asked ChatGPT to create an image of a Muppet that was deemed far too terrifying for children to air on tv"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw3l77/i_asked_chatgpt_to_make_ukiyoe_art_of_caucasian/",
+          "signal": "I asked ChatGPT to make ukiyo-e art of Caucasian women. I loved it hehe"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vvp4ih/ive_discovered_something_chatgpt_can_do_that_im/",
           "signal": "I've discovered something ChatGPT can do that I'm thrilled with: Custom interesting podcasts for long car rides."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvyh6q/asked_chatgpt_to_draft_a_plot_summary_for_a/",
-          "signal": "Asked ChatGPT to draft a plot summary for a horror movie with an entirely original premise, this is what it created"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvup99/made_an_edgy_new_anime_using_chatgpt/",
-          "signal": "Made an edgy new anime using ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
-          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "I'm becoming AI-blind",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://cymerys.com/w/im-becoming-ai-blind",
-          "signal": "I'm becoming AI-blind"
         }
       ],
       "content_ideas": []
@@ -110,7 +83,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -148,6 +121,33 @@
           "platform": "hackernews",
           "url": "https://canews24.online/?p=71",
           "signal": "AI boosted homework scores, then exam scores dropped: Study"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "NanoGPT Speedrun Frontier",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+          "signal": "NanoGPT Speedrun Frontier"
         }
       ],
       "content_ideas": []
@@ -262,11 +262,11 @@
       "content_ideas": []
     },
     {
-      "name": "NanoGPT Speedrun Frontier",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -276,14 +276,19 @@
       "best_format": "short",
       "video_worthy": 3,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-          "signal": "NanoGPT Speedrun Frontier"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw32tq/gpt56_sol_high_is_still_silently_falling_back_to/",
+          "signal": "GPT-5.6 Sol High is still silently falling back to 5.5-mini / Instant-quality responses — Day 3, no acknowledgment from OpenAI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvuhu8/gpt56_sol_users_being_routed_to_gpt55mini_instead/",
+          "signal": "GPT-5.6 Sol users being routed to GPT-5.5-mini instead? Model used is not the same as choosen model."
         }
       ],
       "content_ideas": []
@@ -316,20 +321,19 @@
       "content_ideas": []
     },
     {
-      "name": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon ",
+      "name": "'AI refuser' quit her dream job, and hopes others follow",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
@@ -337,33 +341,26 @@
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Fg1yEWtG4QU",
-          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai​"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkcoksFvC90",
-          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai"
+          "platform": "hackernews",
+          "url": "https://www.smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html",
+          "signal": "'AI refuser' quit her dream job, and hopes others follow"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Create Long AI Videos for FREE | Step-by-Step AI Video Tutorial 🚀",
+      "name": "Coding Agents killed my identity. How do you feel?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
@@ -371,14 +368,9 @@
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=RcQdXBmHZsU",
-          "signal": "Create Long AI Videos for FREE | Step-by-Step AI Video Tutorial 🚀"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vaJPyJJFEtg",
-          "signal": "How To Create Long AI Videos FREE 🔥 30 Mins Realistic + Dialogues 🔥 AI  Video kaise banaye"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49389408",
+          "signal": "Coding Agents killed my identity. How do you feel?"
         }
       ],
       "content_ideas": []
@@ -419,23 +411,55 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw307p/i_get_why_people_use_chatgpt_as_therapy/",
+          "signal": "i get why people use chatgpt as therapy"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw0wum/i_asked_chatgpt_to_create_an_image_of_a_muppet/",
+          "signal": "I asked ChatGPT to create an image of a Muppet that was deemed far too terrifying for children to air on tv"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw3l77/i_asked_chatgpt_to_make_ukiyoe_art_of_caucasian/",
+          "signal": "I asked ChatGPT to make ukiyo-e art of Caucasian women. I loved it hehe"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vvp4ih/ive_discovered_something_chatgpt_can_do_that_im/",
           "signal": "I've discovered something ChatGPT can do that I'm thrilled with: Custom interesting podcasts for long car rides."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw32tq/gpt56_sol_high_is_still_silently_falling_back_to/",
+          "signal": "GPT-5.6 Sol High is still silently falling back to 5.5-mini / Instant-quality responses — Day 3, no acknowledgment from OpenAI"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvyh6q/asked_chatgpt_to_draft_a_plot_summary_for_a/",
-          "signal": "Asked ChatGPT to draft a plot summary for a horror movie with an entirely original premise, this is what it created"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvup99/made_an_edgy_new_anime_using_chatgpt/",
-          "signal": "Made an edgy new anime using ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
-          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvuhu8/gpt56_sol_users_being_routed_to_gpt55mini_instead/",
+          "signal": "GPT-5.6 Sol users being routed to GPT-5.5-mini instead? Model used is not the same as choosen model."
         }
       ],
       "content_ideas": []
