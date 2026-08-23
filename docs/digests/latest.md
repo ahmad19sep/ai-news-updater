@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 15 Aug 2026 to 22 Aug 2026
+# 🗞️ AI THIS WEEK — 16 Aug 2026 to 23 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView**
@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — science angle
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
-2. **AI Is Helping Patients Solve Medical Mysteries - WSJ** — science angle
-   https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5
-3. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
+2. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
    https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
-4. **Patients wary of governments, companies pushing AI as a rural healthcare solution** — science angle
+3. **Patients wary of governments, companies pushing AI as a rural healthcare solution** — science angle
    https://buffalonews.com/life-entertainment/local/wellness/article_fd5e10ef-c6bf-5122-8521-770841868fb1.html
-5. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
+4. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
    https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
-6. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
+5. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
-7. **Scientists turn DNA into a memory device that uses 100x less power** — science angle
+6. **Scientists turn DNA into a memory device that uses 100x less power** — science angle
    https://www.sciencedaily.com/releases/2026/08/260816044853.htm
-8. **Scientists tracked kids for 8 years — the screen time result was unexpected** — science angle
+7. **Scientists tracked kids for 8 years — the screen time result was unexpected** — science angle
    https://www.sciencedaily.com/releases/2026/08/260815064803.htm
+8. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
+   https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — AI Agents — Score 138
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
 - **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3756
+- Total stories tracked: 3770
 - Most active topic: agents
 - Busiest category: AI General News
 
