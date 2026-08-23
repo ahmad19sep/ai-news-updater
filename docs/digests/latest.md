@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
 - **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3761
+- Total stories tracked: 3752
 - Most active topic: agents
 - Busiest category: AI General News
 
