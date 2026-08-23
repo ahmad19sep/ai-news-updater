@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T18:50:11.199976+00:00",
+  "generated_at": "2026-08-23T02:00:52.190232+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 36,
-      "hackernews": 16,
+      "reddit": 25,
+      "hackernews": 14,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,8 +44,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
-          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvq4ny/using_chatgpt_to_generate_100_portraits_of/",
+          "signal": "Using ChatGPT to generate 100 Portraits of Muhammad in 100 Art Styles"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvp4ih/ive_discovered_something_chatgpt_can_do_that_im/",
+          "signal": "I've discovered something ChatGPT can do that I'm thrilled with: Custom interesting podcasts for long car rides."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
+          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
         },
         {
           "platform": "reddit",
@@ -54,19 +63,9 @@
           "signal": "ChatGPT’s personality changed??"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv2hys/my_chatgpt_is_no_longer_showing_the_edit_arrows/",
-          "signal": "My ChatGPT is no longer showing the edit arrows"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vut0jy/chatgpt_has_stopped_to_work_properly/",
-          "signal": "ChatGPT has stopped to work properly"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
-          "signal": "ChatGPT tells me garlic confit is going to f*ck"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c4SSaSmgfgg",
+          "signal": "㊗️400万再生！【竹田恒泰】ChatGPTで何でも解決..「大学のレポートは中止」"
         }
       ],
       "content_ideas": []
@@ -121,87 +120,6 @@
           "platform": "hackernews",
           "url": "https://cymerys.com/w/im-becoming-ai-blind",
           "signal": "I'm becoming AI-blind"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Huzzah – a novel approach to coding with AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.danielvaughn.dev/posts/huzzah/",
-          "signal": "Show HN: Huzzah – a novel approach to coding with AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ox Alpha",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/stealth/ox-alpha",
-          "signal": "Ox Alpha"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Copyright does not protect AI-generated content in EU",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
-          "signal": "Copyright does not protect AI-generated content in EU"
         }
       ],
       "content_ideas": []
@@ -262,6 +180,33 @@
       "content_ideas": []
     },
     {
+      "name": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+          "signal": "How a Texas student blew the whistle on a rogue AI hacking attempt"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "What happens when a GPU reads memory",
       "category": "use_case",
       "momentum": "rising",
@@ -301,7 +246,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -369,9 +314,102 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv5bqf/gpt_has_pulled_ahead_of_claude/",
+          "signal": "GPT has pulled ahead of Claude?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NGMzAJSMseU",
+          "signal": "Elon Just Dropped An AI 4x Cheaper Than Beats Claude Fable 5 At The Same Level (+14 AI Updates)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Proliferate- open-source, self-hostable Codex for any coding ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/proliferate-ai/proliferate",
+          "signal": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv5bqf/gpt_has_pulled_ahead_of_claude/",
+          "signal": "GPT has pulled ahead of Claude?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NGMzAJSMseU",
+          "signal": "Elon Just Dropped An AI 4x Cheaper Than Beats Claude Fable 5 At The Same Level (+14 AI Updates)"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -379,7 +417,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -402,8 +439,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
-          "signal": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvq4ny/using_chatgpt_to_generate_100_portraits_of/",
+          "signal": "Using ChatGPT to generate 100 Portraits of Muhammad in 100 Art Styles"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvp4ih/ive_discovered_something_chatgpt_can_do_that_im/",
+          "signal": "I've discovered something ChatGPT can do that I'm thrilled with: Custom interesting podcasts for long car rides."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvts1i/do_you_find_that_chatgpt_skips_reasoning_and/",
+          "signal": "Do you find that ChatGPT skips reasoning and responds too quickly on the web version?"
         },
         {
           "platform": "reddit",
@@ -411,49 +458,14 @@
           "signal": "ChatGPT’s personality changed??"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vv2hys/my_chatgpt_is_no_longer_showing_the_edit_arrows/",
-          "signal": "My ChatGPT is no longer showing the edit arrows"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vut0jy/chatgpt_has_stopped_to_work_properly/",
-          "signal": "ChatGPT has stopped to work properly"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
-          "signal": "ChatGPT tells me garlic confit is going to f*ck"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c4SSaSmgfgg",
+          "signal": "㊗️400万再生！【竹田恒泰】ChatGPTで何でも解決..「大学のレポートは中止」"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Bug - log-out",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vupnjf/bug_logout/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "PSA: If ChatGPT suddenly keeps asking you to choose/login to your account today, DON'T reset your browser or PC, it seems to be a ChatGPT-si",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqzxw/psa_if_chatgpt_suddenly_keeps_asking_you_to/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
