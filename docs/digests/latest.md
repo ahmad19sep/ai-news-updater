@@ -31,20 +31,20 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9441af468daf2bd59d00363f75&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us
 3. **AI-assisted tool helped secure satellite communication system after 2022 Russian hacking** — wsbtv — Score 98
    https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
-4. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
-   https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
-5. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 86
-   https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-6. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
-   https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
-7. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
-   https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
-8. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
-9. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
-   https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSGhYWFJpNm5YOGRHc0w1ZWVTdVhRNnY0dmVSNzBLWW1DRkNGVDN3UVo1TF9QNVd2OVhJVGZiV0xjLTZwNUF2QUllT2dzd05paVA5bkFtTXk4QXMzTFM1TFRBcVJoQUJ2aDBLVlhLTnlYOGJrT3AwbDZJQzEwc1ZxREg4TGJDeFZ4YmR3TUJSMEhXS2RWQXBKcnVVLWM2cTh2Tno1XzZrUWpGTHdEWl96T0sxSXRsV2hxZUJkZ1lxM254U0ExM3NodlhqVEg4Uk45LUlhX2FXWm9YODFScFNWekRuNmRDc0Q3Tk9TLVhqMUN1X1p5Z2dWMmVCOUpUQjQ2dDViTjRLTHo?oc=5
-10. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 76
+4. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 96
    https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
+5. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
+   https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
+6. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 86
+   https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
+7. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
+   https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
+8. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
+   https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
+9. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
+   https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
+10. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
+   https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSGhYWFJpNm5YOGRHc0w1ZWVTdVhRNnY0dmVSNzBLWW1DRkNGVDN3UVo1TF9QNVd2OVhJVGZiV0xjLTZwNUF2QUllT2dzd05paVA5bkFtTXk4QXMzTFM1TFRBcVJoQUJ2aDBLVlhLTnlYOGJrT3AwbDZJQzEwc1ZxREg4TGJDeFZ4YmR3TUJSMEhXS2RWQXBKcnVVLWM2cTh2Tno1XzZrUWpGTHdEWl96T0sxSXRsV2hxZUJkZ1lxM254U0ExM3NodlhqVEg4Uk45LUlhX2FXWm9YODFScFNWekRuNmRDc0Q3Tk9TLVhqMUN1X1p5Z2dWMmVCOUpUQjQ2dDViTjRLTHo?oc=5
 
 ## 🧪 AI in Science Highlights
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
 - **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3737
+- Total stories tracked: 3719
 - Most active topic: agents
 - Busiest category: AI General News
 
