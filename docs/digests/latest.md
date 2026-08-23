@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Q
    https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
 9. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSGhYWFJpNm5YOGRHc0w1ZWVTdVhRNnY0dmVSNzBLWW1DRkNGVDN3UVo1TF9QNVd2OVhJVGZiV0xjLTZwNUF2QUllT2dzd05paVA5bkFtTXk4QXMzTFM1TFRBcVJoQUJ2aDBLVlhLTnlYOGJrT3AwbDZJQzEwc1ZxREg4TGJDeFZ4YmR3TUJSMEhXS2RWQXBKcnVVLWM2cTh2Tno1XzZrUWpGTHdEWl96T0sxSXRsV2hxZUJkZ1lxM254U0ExM3NodlhqVEg4Uk45LUlhX2FXWm9YODFScFNWekRuNmRDc0Q3Tk9TLVhqMUN1X1p5Z2dWMmVCOUpUQjQ2dDViTjRLTHo?oc=5
-10. **ALL IN 2026 Unveils Lineup Featuring World AI Leaders from Cohere, Mistral AI, NVIDIA & OpenAI - PR Newswire Canada** — Mistral News — Score 75
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX0lGb3V2US1VekRGNFJBeGxoVGFDT3JiSFVqdkxrVU9ueGwySVVsR244cERYTE9uNzNrSzAyOUtMOFl0X2xObGpjSXh4RVBZZERYU0MzbnBYSzd1c1hKZlE0Q25HNlNNakpxU2FmZGt4NmxYTjNMNlR1VFJYR1NLRU42ZUVKUWdMR0xKdzJ5SkF3WUY0NWlsRW5LUXpHT3hRdGE1bVRjTE5FUUxOUlc3bVMyV05tR1lwSFY1MmJPbWxDeVFMZzlJMjdFYkZhNkI2al9MYnhQaEREMXlUaTAtTQ?oc=5
+10. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 76
+   https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
 
 ## 🧪 AI in Science Highlights
 - **TCS Launches Agentic AI Platform To Transform Drug Development - TradingView** — https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHhBTXVNQWM4Qy1iNkw2dFJQQ2g5SXFPak5HSFBzRnN6U0drOHc2MEVHd1VKOFYxRm9ObHVLX2IwSUlad2RITlIzclMwdkIyZW42bWRhcHNQejlSSnlLUjhYVDczRnBzaDZKYUFFN0k1QWowYWJBLWxtVUpuSE80QkRtSlN4SUN4MkdKUlNCRDBmdmpWa19ZamktT0NsdS16LUQtRm82dVQ5dTdqdmotZkJOOFNfZFZCazM4U2dlSXFIS244c3NyNTBLcUk?oc=5
