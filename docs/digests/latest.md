@@ -35,12 +35,12 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
 5. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
    https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
-6. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 86
-   https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-7. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
+6. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
    https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
-8. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
+7. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
    https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
+8. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
+   https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
 9. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
    https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
 10. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3545
+- Total stories tracked: 3546
 - Most active topic: agents
 - Busiest category: AI General News
 
