@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:49:32.564109+00:00",
+  "generated_at": "2026-08-24T01:58:49.973221+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 8,
+      "hackernews": 7,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,6 +45,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwhlu6/asking_chatgpt_for_a_detailed_timeline_of_who/",
+          "signal": "Asking ChatGPT for a detailed timeline of who ruled Israel/Palestine over the years"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vw9ozm/whats_the_longest_youve_ever_had_chatgptworking/",
           "signal": "What’s the longest you’ve ever had chatgpt“working” or \"thinking\"?"
         },
@@ -60,11 +65,6 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvq4ny/using_chatgpt_to_generate_100_portraits_of/",
-          "signal": "Using ChatGPT to generate 100 Portraits of Muhammad in 100 Art Styles"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vw83qa/how_have_you_saved_money_by_using_chatgpt/",
           "signal": "How have you saved money by using ChatGPT?"
         }
@@ -74,7 +74,7 @@
     {
       "name": "NanoGPT Speedrun Frontier",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -94,33 +94,6 @@
           "platform": "hackernews",
           "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
           "signal": "NanoGPT Speedrun Frontier"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: OzBrain, a shared brain for knowledge between agents and your",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ozbrain.com",
-          "signal": "Show HN: OzBrain, a shared brain for knowledge between agents and your team"
         }
       ],
       "content_ideas": []
@@ -336,7 +309,7 @@
       "content_ideas": []
     },
     {
-      "name": "Is it really wrong to use AI to post or comment on Reddit?",
+      "name": "Thanks for the help mom... 🖥️😭",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -356,16 +329,16 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw1fay/is_it_really_wrong_to_use_ai_to_post_or_comment/",
-          "signal": "Is it really wrong to use AI to post or comment on Reddit?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwdmhb/thanks_for_the_help_mom/",
+          "signal": "Thanks for the help mom... 🖥️😭"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "They don't remove all my data?",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "reddit"
       ],
@@ -377,14 +350,41 @@
       "best_format": "short",
       "video_worthy": 2,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw32tq/gpt56_sol_high_is_still_silently_falling_back_to/",
-          "signal": "GPT-5.6 Sol High is still silently falling back to 5.5-mini / Instant-quality responses — Day 3, no acknowledgment from OpenAI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwcrht/they_dont_remove_all_my_data/",
+          "signal": "They don't remove all my data?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "This is what frontier research looks like",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwnbsu/this_is_what_frontier_research_looks_like/",
+          "signal": "This is what frontier research looks like"
         }
       ],
       "content_ideas": []
@@ -421,6 +421,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwhlu6/asking_chatgpt_for_a_detailed_timeline_of_who/",
+          "signal": "Asking ChatGPT for a detailed timeline of who ruled Israel/Palestine over the years"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vw9ozm/whats_the_longest_youve_ever_had_chatgptworking/",
           "signal": "What’s the longest you’ve ever had chatgpt“working” or \"thinking\"?"
         },
@@ -436,40 +441,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vvq4ny/using_chatgpt_to_generate_100_portraits_of/",
-          "signal": "Using ChatGPT to generate 100 Portraits of Muhammad in 100 Art Styles"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vw83qa/how_have_you_saved_money_by_using_chatgpt/",
           "signal": "How have you saved money by using ChatGPT?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw32tq/gpt56_sol_high_is_still_silently_falling_back_to/",
-          "signal": "GPT-5.6 Sol High is still silently falling back to 5.5-mini / Instant-quality responses — Day 3, no acknowledgment from OpenAI"
         }
       ],
       "content_ideas": []
