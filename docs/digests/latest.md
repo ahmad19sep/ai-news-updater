@@ -19,10 +19,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
 6. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-7. **Patients Are Skipping Going to the Doctor Because AI "Receptionists" Can't Understanding What They're Saying - Futurism** — science angle
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxOQmFzWktDT1pkWnY5enVYRXZuWm1VR0RvbW1QU091dEdmQWxxOEVXWnBEOUhScVRGLWIzYlJ4ck9wMjFfUm8wSEU2Y1dsLV94ZE5DNjd0SDhiVVBFc3k0N0FPV1dUMjBzYUhDeWp5bnl0SFo1bVREWFM2dzFtRGJfUXBrWXRIM1dQa0ZTSXh3?oc=5
-8. **Patients are bringing AI diagnoses to fertility clinics. Doctors say AI can explain, but not decide - The South First** — science angle
+7. **Patients are bringing AI diagnoses to fertility clinics. Doctors say AI can explain, but not decide - The South First** — science angle
    https://news.google.com/rss/articles/CBMiywFBVV95cUxNOFROQUdsWDJIUE5TTnQ0aU9TdmFtLVBfQnQxVUFrZE1mdU1SNXdRYTdoaDVCVF8zM1dmVGlUMzJzbjNHWm9fWVhpakRrOXNpTXoyRDJZRHJXeFQ1Mk11QUY1SS1kaldMdWR5dnhkRjJJekp3OWd3MlQ5S1RlbXRmQ19ncFpvYkpQR1FZdkx2RnpHZnhYOGdjQTdoak83ZjFrZXNOQnVLVVR4eHlDdGtnN0lLQVVnYU1EaTRad181NmJNbjdWdFB0Wl9ZNA?oc=5
+8. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
+   https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1pYVUdDbDB2WEhfWjEzWHgxVzlZaDhCUy1wc2w1WlBMOXQzb2prR0hOQU9QZGEzbVk4bWZJeXd1TDFNVldFRDExMEs3akpVcm1nSEZyeXRycXNDaUhfUGJWLVpWZV8ycHNPTEx6dU04X1lTalFsVmx5VHZIR1dOX2lHQTVQb1phY1lWNWptZGpoMVE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 113
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3659
+- Total stories tracked: 3649
 - Most active topic: agents
 - Busiest category: AI General News
 
