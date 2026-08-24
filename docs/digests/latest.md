@@ -35,16 +35,16 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
 5. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 86
    https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-6. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
+6. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 86
+   https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
+7. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
    https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
-7. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
+8. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
    https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
-8. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
+9. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
    https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
-9. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
+10. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSGhYWFJpNm5YOGRHc0w1ZWVTdVhRNnY0dmVSNzBLWW1DRkNGVDN3UVo1TF9QNVd2OVhJVGZiV0xjLTZwNUF2QUllT2dzd05paVA5bkFtTXk4QXMzTFM1TFRBcVJoQUJ2aDBLVlhLTnlYOGJrT3AwbDZJQzEwc1ZxREg4TGJDeFZ4YmR3TUJSMEhXS2RWQXBKcnVVLWM2cTh2Tno1XzZrUWpGTHdEWl96T0sxSXRsV2hxZUJkZ1lxM254U0ExM3NodlhqVEg4Uk45LUlhX2FXWm9YODFScFNWekRuNmRDc0Q3Tk9TLVhqMUN1X1p5Z2dWMmVCOUpUQjQ2dDViTjRLTHo?oc=5
-10. **ALL IN 2026 Unveils Lineup Featuring World AI Leaders from Cohere, Mistral AI, NVIDIA & OpenAI - PR Newswire Canada** — Mistral News — Score 75
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX0lGb3V2US1VekRGNFJBeGxoVGFDT3JiSFVqdkxrVU9ueGwySVVsR244cERYTE9uNzNrSzAyOUtMOFl0X2xObGpjSXh4RVBZZERYU0MzbnBYSzd1c1hKZlE0Q25HNlNNakpxU2FmZGt4NmxYTjNMNlR1VFJYR1NLRU42ZUVKUWdMR0xKdzJ5SkF3WUY0NWlsRW5LUXpHT3hRdGE1bVRjTE5FUUxOUlc3bVMyV05tR1lwSFY1MmJPbWxDeVFMZzlJMjdFYkZhNkI2al9MYnhQaEREMXlUaTAtTQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctor unveils AI governance test for human parity** — https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3580
+- Total stories tracked: 3572
 - Most active topic: agents
 - Busiest category: AI General News
 
