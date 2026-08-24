@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T01:58:49.973221+00:00",
+  "generated_at": "2026-08-24T07:29:50.665015+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -30,8 +30,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -45,6 +45,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
+          "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrpe6/chatgpt_pro_advertises_unlimited_image_generation/",
+          "signal": "ChatGPT Pro advertises \"unlimited\" image generation. It is not unlimited."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vwhlu6/asking_chatgpt_for_a_detailed_timeline_of_who/",
           "signal": "Asking ChatGPT for a detailed timeline of who ruled Israel/Palestine over the years"
         },
@@ -55,18 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw307p/i_get_why_people_use_chatgpt_as_therapy/",
-          "signal": "i get why people use chatgpt as therapy"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw80w5/i_made_an_aiassisted_film_about_an_impossible/",
-          "signal": "I made an AI-assisted film about an impossible discovery during World War II. Here’s SPECTRUM, made with ChatGPT Image 2.0 and Seedance 2.5."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw83qa/how_have_you_saved_money_by_using_chatgpt/",
-          "signal": "How have you saved money by using ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
+          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
         }
       ],
       "content_ideas": []
@@ -186,7 +186,7 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=msO_ZzYy4ck",
+          "url": "https://www.youtube.com/watch?v=S7_EbfaYI1I",
           "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
         }
       ],
@@ -250,6 +250,40 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=kbaRCwGI-jk",
           "signal": "Long AI Video Kaise Banaye? Complete Step-by-Step Tutorial (2026)✅ Ai Automation"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
+          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -361,33 +395,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "This is what frontier research looks like",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwnbsu/this_is_what_frontier_research_looks_like/",
-          "signal": "This is what frontier research looks like"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -406,8 +413,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -421,6 +428,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
+          "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrpe6/chatgpt_pro_advertises_unlimited_image_generation/",
+          "signal": "ChatGPT Pro advertises \"unlimited\" image generation. It is not unlimited."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vwhlu6/asking_chatgpt_for_a_detailed_timeline_of_who/",
           "signal": "Asking ChatGPT for a detailed timeline of who ruled Israel/Palestine over the years"
         },
@@ -431,36 +448,47 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw307p/i_get_why_people_use_chatgpt_as_therapy/",
-          "signal": "i get why people use chatgpt as therapy"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
+          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
+          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw80w5/i_made_an_aiassisted_film_about_an_impossible/",
-          "signal": "I made an AI-assisted film about an impossible discovery during World War II. Here’s SPECTRUM, made with ChatGPT Image 2.0 and Seedance 2.5."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw83qa/how_have_you_saved_money_by_using_chatgpt/",
-          "signal": "How have you saved money by using ChatGPT?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "​My friends are finally catching up to AI, but I can't bring myself to read their chat logs",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwajtw/my_friends_are_finally_catching_up_to_ai_but_i/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
