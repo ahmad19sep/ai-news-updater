@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T07:29:50.665015+00:00",
+  "generated_at": "2026-08-24T13:14:51.822245+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 7,
+      "hackernews": 5,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -60,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw9ozm/whats_the_longest_youve_ever_had_chatgptworking/",
-          "signal": "What’s the longest you’ve ever had chatgpt“working” or \"thinking\"?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
+          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
-          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwq9rh/what_happens_if_i_grant_chatgpt_access_to_gmail/",
+          "signal": "What happens if I grant ChatGPT access to Gmail?"
         }
       ],
       "content_ideas": []
@@ -221,40 +220,6 @@
       "content_ideas": []
     },
     {
-      "name": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Bana",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Bjq-kRkC2JI",
-          "signal": "Long Ai Video Kaise Banaye | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kbaRCwGI-jk",
-          "signal": "Long AI Video Kaise Banaye? Complete Step-by-Step Tutorial (2026)✅ Ai Automation"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -289,33 +254,6 @@
       "content_ideas": []
     },
     {
-      "name": "Embedded AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://nostarch.com/embedded-ai",
-          "signal": "Embedded AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "We're trying something new. On Tuesdays, we're doing text posts only",
       "category": "use_case",
       "momentum": "rising",
@@ -338,6 +276,33 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
           "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "This feels like straight-up consumer fraud at this point.",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx0s65/this_feels_like_straightup_consumer_fraud_at_this/",
+          "signal": "This feels like straight-up consumer fraud at this point."
         }
       ],
       "content_ideas": []
@@ -395,6 +360,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "AI has failed to win people's trust. Its makers? less trusted",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.euronews.com/next/2026/08/20/ai-has-failed-to-win-peoples-trust-its-makers-even-less-trusted",
+          "signal": "AI has failed to win people's trust. Its makers? less trusted"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -405,7 +397,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -443,13 +434,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vw9ozm/whats_the_longest_youve_ever_had_chatgptworking/",
-          "signal": "What’s the longest you’ve ever had chatgpt“working” or \"thinking\"?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
+          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
-          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwq9rh/what_happens_if_i_grant_chatgpt_access_to_gmail/",
+          "signal": "What happens if I grant ChatGPT access to Gmail?"
         }
       ],
       "content_ideas": []
@@ -489,6 +480,19 @@
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Custom GPTs are being deprecated: what should we use instead?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwxhvx/custom_gpts_are_being_deprecated_what_should_we/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
