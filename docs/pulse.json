@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:14:51.822245+00:00",
+  "generated_at": "2026-08-24T19:01:11.417555+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 5,
+      "reddit": 50,
+      "hackernews": 13,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,6 +44,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
+          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
           "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
         },
@@ -59,13 +64,277 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
-          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx52az/cannot_upload_documents_to_chatgpt/",
+          "signal": "Cannot Upload Documents to ChatGPT"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic's best AI model struggles to attract users as cheaper tools ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+          "signal": "Anthropic's best AI model struggles to attract users as cheaper tools thrive"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ericpardee.github.io/fire-hd-ownership/",
+          "signal": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
+          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwq9rh/what_happens_if_i_grant_chatgpt_access_to_gmail/",
-          "signal": "What happens if I grant ChatGPT access to Gmail?"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
+          "signal": "There have been many people here making games using Claude so we made r/ClaudeGameDev!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx6fyn/what_i_built_with_claude_sweet_potatoes/",
+          "signal": "What I Built with Claude - sweet potatoes"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx4kn7/indeed_laid_off_my_pregnant_wife_so_i_built_a_job/",
+          "signal": "Indeed laid off my pregnant wife, so I built a job search competitor with Claude. It just got its first three people hired."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx3z1x/claude_bingo/",
+          "signal": "Claude Bingo!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwxqv5/claude_speaks_my_language_im_not_sure_it_thinks/",
+          "signal": "Claude speaks my language. I’m not sure it thinks in it."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Coding expertise is going to collapse from AI reliance",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+          "signal": "Coding expertise is going to collapse from AI reliance"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "I built a low-latency AI companion that plays Skyrim with me",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pantel.is/projects/ai-gaming-companion/",
+          "signal": "I built a low-latency AI companion that plays Skyrim with me"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "FDA clears blood test to aid evaluation for Alzheimer's disease",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/",
+          "signal": "FDA clears blood test to aid evaluation for Alzheimer's disease"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: Why do corporate failures always seem to punish the wrong peop",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49418675",
+          "signal": "Ask HN: Why do corporate failures always seem to punish the wrong people?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI Chip Architectures",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.jepeake.com/ai-chip-architectures",
+          "signal": "AI Chip Architectures"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "We never use AI. For anything",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://corkmac.app/our-ai-stance/",
+          "signal": "We never use AI. For anything"
         }
       ],
       "content_ideas": []
@@ -98,19 +367,18 @@
       "content_ideas": []
     },
     {
-      "name": "Digging the grave of my skills: Hollywood creatives training AI to do ",
+      "name": "Your Open Source Model Could Have a Hidden Time-Release Backdoor",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
@@ -119,85 +387,21 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
-          "signal": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs"
+          "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
+          "signal": "Your Open Source Model Could Have a Hidden Time-Release Backdoor"
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
-      "name": "Anthropic IPO filing will show AI backlash as a risk factor, sources s",
-      "category": "use_case",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-          "signal": "Anthropic IPO filing will show AI backlash as a risk factor, sources say"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "ai se video kaise banaye | ai video kaise banaye | long ai video kaise",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xChXduqa_H0",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | long ai video kaise banaye | Ai video generator"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZUV2mjn4uME",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=S7_EbfaYI1I",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "'AI refuser' quit her dream job, and hopes others follow",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "linkedin_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -205,191 +409,45 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html",
-          "signal": "'AI refuser' quit her dream job, and hopes others follow"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 2,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
+          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "We're trying something new. On Tuesdays, we're doing text posts only",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
+          "signal": "There have been many people here making games using Claude so we made r/ClaudeGameDev!"
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
-          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "This feels like straight-up consumer fraud at this point.",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx6fyn/what_i_built_with_claude_sweet_potatoes/",
+          "signal": "What I Built with Claude - sweet potatoes"
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx0s65/this_feels_like_straightup_consumer_fraud_at_this/",
-          "signal": "This feels like straight-up consumer fraud at this point."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Thanks for the help mom... 🖥️😭",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx4kn7/indeed_laid_off_my_pregnant_wife_so_i_built_a_job/",
+          "signal": "Indeed laid off my pregnant wife, so I built a job search competitor with Claude. It just got its first three people hired."
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwdmhb/thanks_for_the_help_mom/",
-          "signal": "Thanks for the help mom... 🖥️😭"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "They don't remove all my data?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx3z1x/claude_bingo/",
+          "signal": "Claude Bingo!"
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwcrht/they_dont_remove_all_my_data/",
-          "signal": "They don't remove all my data?"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwxqv5/claude_speaks_my_language_im_not_sure_it_thinks/",
+          "signal": "Claude speaks my language. I’m not sure it thinks in it."
         }
       ],
       "content_ideas": []
     },
-    {
-      "name": "AI has failed to win people's trust. Its makers? less trusted",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.euronews.com/next/2026/08/20/ai-has-failed-to-win-peoples-trust-its-makers-even-less-trusted",
-          "signal": "AI has failed to win people's trust. Its makers? less trusted"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -419,6 +477,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
+          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
           "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
         },
@@ -434,47 +497,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
-          "signal": "ChatGPT stopped being so agreeable and I LOVE IT!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwq9rh/what_happens_if_i_grant_chatgpt_access_to_gmail/",
-          "signal": "What happens if I grant ChatGPT access to Gmail?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx52az/cannot_upload_documents_to_chatgpt/",
+          "signal": "Cannot Upload Documents to ChatGPT"
         }
       ],
       "content_ideas": []
@@ -482,13 +506,49 @@
   ],
   "pain_points": [
     {
-      "problem": "Custom GPTs are being deprecated: what should we use instead?",
+      "problem": "“It’s an issue but not a bug”-Cherny. Community notes cooked him on X",
+      "who_affected": "r/ClaudeAI",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx3phv/its_an_issue_but_not_a_bugcherny_community_notes/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Lifting the Curtain: The Max x5 and Max x20 Usage Limits that Anthropic Refuses to Share",
+      "who_affected": "r/ClaudeAI",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx0k69/lifting_the_curtain_the_max_x5_and_max_x20_usage/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Cannot Upload Documents to ChatGPT",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwxhvx/custom_gpts_are_being_deprecated_what_should_we/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx52az/cannot_upload_documents_to_chatgpt/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "23% of 5-hour limit for \"server is busy\"",
+      "who_affected": "r/ClaudeAI",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwv0bq/23_of_5hour_limit_for_server_is_busy/"
         }
       ],
       "content_opportunity": ""
