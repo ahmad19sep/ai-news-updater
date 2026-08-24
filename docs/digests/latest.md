@@ -29,14 +29,14 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9441af468daf2bd59d00363f75&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us
 2. **AI-assisted tool helped secure satellite communication system after 2022 Russian hacking** — wsbtv — Score 98
    https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
-3. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
-   https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
-4. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
-   https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
-5. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 86
-   https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-6. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 86
+3. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 96
    https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
+4. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
+   https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
+5. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
+   https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
+6. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 86
+   https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
 7. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
    https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
 8. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3546
+- Total stories tracked: 3536
 - Most active topic: agents
 - Busiest category: AI General News
 
