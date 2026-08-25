@@ -13,16 +13,16 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 3. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
-4. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
+4. **Assessing students in the AI era** — science angle
+   https://www.nature.com/articles/d41586-026-02632-z
+5. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-5. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
+6. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1pYVUdDbDB2WEhfWjEzWHgxVzlZaDhCUy1wc2w1WlBMOXQzb2prR0hOQU9QZGEzbVk4bWZJeXd1TDFNVldFRDExMEs3akpVcm1nSEZyeXRycXNDaUhfUGJWLVpWZV8ycHNPTEx6dU04X1lTalFsVmx5VHZIR1dOX2lHQTVQb1phY1lWNWptZGpoMVE?oc=5
-6. **Meet Jerry Xu, the 17-year-old Massachusetts student who built an AI program that turns protein structures into strings of numbers; he won $90,000** — science angle
+7. **Meet Jerry Xu, the 17-year-old Massachusetts student who built an AI program that turns protein structures into strings of numbers; he won $90,000** — science angle
    https://timesofindia.indiatimes.com/science/meet-jerry-xu-the-17-year-old-massachusetts-student-who-built-an-ai-program-that-turns-protein-structures-into-strings-of-numbers-he-won-90000/articleshow/133438450.cms
-7. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
+8. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
    https://www.forbes.com/sites/michaelmillenson/2026/08/23/is-ehr-giant-epic-mulling-direct-ai-power-to-patients/
-8. **The AMA Says Doctors Cannot Be Replaced by AI, and a JAMA Piece Argues the Opposite - Medical Daily** — science angle
-   https://news.google.com/rss/articles/CBMiiAFBVV95cUxObENxVTRIQ2Z5R3NEUWRHUzdidXppQjRKMzJHemxSSEpCWWhpc1ZRX3lXLVlNd1NER0lrRGRsRnpCNXh6b1VVUF8xdnl5NFM5Wkt4eThMcTRyVVdwdE5EaHBOU3BlbWFia3NCa0NCaThjTW1SNW1OSHRoTFFCdldZTnBEMS1jdFMx?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 113
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3628
+- Total stories tracked: 3631
 - Most active topic: agents
 - Busiest category: AI General News
 
