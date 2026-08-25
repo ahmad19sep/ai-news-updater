@@ -19,10 +19,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
 6. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1pYVUdDbDB2WEhfWjEzWHgxVzlZaDhCUy1wc2w1WlBMOXQzb2prR0hOQU9QZGEzbVk4bWZJeXd1TDFNVldFRDExMEs3akpVcm1nSEZyeXRycXNDaUhfUGJWLVpWZV8ycHNPTEx6dU04X1lTalFsVmx5VHZIR1dOX2lHQTVQb1phY1lWNWptZGpoMVE?oc=5
-7. **Meet Jerry Xu, the 17-year-old Massachusetts student who built an AI program that turns protein structures into strings of numbers; he won $90,000** — science angle
-   https://timesofindia.indiatimes.com/science/meet-jerry-xu-the-17-year-old-massachusetts-student-who-built-an-ai-program-that-turns-protein-structures-into-strings-of-numbers-he-won-90000/articleshow/133438450.cms
-8. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
+7. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
    https://www.forbes.com/sites/michaelmillenson/2026/08/23/is-ehr-giant-epic-mulling-direct-ai-power-to-patients/
+8. **The AMA Says Doctors Cannot Be Replaced by AI, and a JAMA Piece Argues the Opposite - Medical Daily** — science angle
+   https://news.google.com/rss/articles/CBMiiAFBVV95cUxObENxVTRIQ2Z5R3NEUWRHUzdidXppQjRKMzJHemxSSEpCWWhpc1ZRX3lXLVlNd1NER0lrRGRsRnpCNXh6b1VVUF8xdnl5NFM5Wkt4eThMcTRyVVdwdE5EaHBOU3BlbWFia3NCa0NCaThjTW1SNW1OSHRoTFFCdldZTnBEMS1jdFMx?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 113
@@ -41,20 +41,20 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
 8. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
    https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-9. **OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot - News4JAX** — Sam Altman News — Score 78
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGtvSFR1Um9vQ3BvanZNTTJaSWp5V2x6OEp0WlZaQlBGQlpmNXBhbTNlVDhvUTgzcDhYUkg4MF96YU5HZWY5WGpBQjFuZVVJVjJQUW5lLTViZWFNaVpzMmNmczJWSzVvSTVUbDVGQ2wxeGs3Smp0ZXVqWF9hMTZ6QTNBT1lUbGgxVGd0Uk9XZWZEeU1BQjBqUTIzV1M5TTdFTGFiUXdMa1BOSElFd3RFQzByMHg3WFNaeEx6Tg?oc=5
-10. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
+9. **Elon Musk Says ‘AI Will Do It’ After Anthropic CEO Dario Amodei Says AI Industry Must ‘Actually’ Cure Can - Benzinga** — Dario Amodei News — Score 78
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSGhYWFJpNm5YOGRHc0w1ZWVTdVhRNnY0dmVSNzBLWW1DRkNGVDN3UVo1TF9QNVd2OVhJVGZiV0xjLTZwNUF2QUllT2dzd05paVA5bkFtTXk4QXMzTFM1TFRBcVJoQUJ2aDBLVlhLTnlYOGJrT3AwbDZJQzEwc1ZxREg4TGJDeFZ4YmR3TUJSMEhXS2RWQXBKcnVVLWM2cTh2Tno1XzZrUWpGTHdEWl96T0sxSXRsV2hxZUJkZ1lxM254U0ExM3NodlhqVEg4Uk45LUlhX2FXWm9YODFScFNWekRuNmRDc0Q3Tk9TLVhqMUN1X1p5Z2dWMmVCOUpUQjQ2dDViTjRLTHo?oc=5
+10. **ALL IN 2026 Unveils Lineup Featuring World AI Leaders from Cohere, Mistral AI, NVIDIA & OpenAI - PR Newswire Canada** — Mistral News — Score 75
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX0lGb3V2US1VekRGNFJBeGxoVGFDT3JiSFVqdkxrVU9ueGwySVVsR244cERYTE9uNzNrSzAyOUtMOFl0X2xObGpjSXh4RVBZZERYU0MzbnBYSzd1c1hKZlE0Q25HNlNNakpxU2FmZGt4NmxYTjNMNlR1VFJYR1NLRU42ZUVKUWdMR0xKdzJ5SkF3WUY0NWlsRW5LUXpHT3hRdGE1bVRjTE5FUUxOUlc3bVMyV05tR1lwSFY1MmJPbWxDeVFMZzlJMjdFYkZhNkI2al9MYnhQaEREMXlUaTAtTQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctor unveils AI governance test for human parity** — https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
-- **The startup using AI to help rare disease families develop custom treatments - CNBC** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjVqUE9jS21SR1lVblJkOTZCdzVRemtMWUdGWlRmZzVqeE50b1R2M015Z0lfVVJmSG9rWV9ZS2w0ZlM4SUVMbVlGQkZJZDdrRU1WcUI4VFQ2MkI5OHdjMHk5NHV5R1lNZkdYYk5oXzl2eEcxekFKSU8xVnF4S2lGdVBIeW1hUmhtODdMNzBnaWdlQjRTUlo1cDlRN1ZLSGxRMDYxTWRmSmFDWmfSAbABQVVfeXFMTmctbHF1YlU1dXg0T2gtVHR1VW1Ja3FUVUZoYkpTQ0hzWE9RcTJCNGFSZkdDd0cxUHktRU5INWJfWm9aTTlCV3hEMnJha3RoOUNjWW9MSDZ5Y1RoM0JUaGo2enhXbkZfUlJLQ01aRlFXWmpIbGxQcER2NHZKejFnMENwYUNEc0VTZWR2VzFNbGY1LTJSQ3pBOEU2TEVsdVIwZE5nS0hjV1ZZSEF1UlpCcW8?oc=5
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 - **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 - **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
+- **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3631
+- Total stories tracked: 3627
 - Most active topic: agents
 - Busiest category: AI General News
 
