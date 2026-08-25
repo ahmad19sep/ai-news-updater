@@ -9,20 +9,20 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — science angle
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
-2. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
-   https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
-3. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
+2. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
-4. **Assessing students in the AI era** — science angle
+3. **Assessing students in the AI era** — science angle
    https://www.nature.com/articles/d41586-026-02632-z
-5. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
+4. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-6. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
+5. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1pYVUdDbDB2WEhfWjEzWHgxVzlZaDhCUy1wc2w1WlBMOXQzb2prR0hOQU9QZGEzbVk4bWZJeXd1TDFNVldFRDExMEs3akpVcm1nSEZyeXRycXNDaUhfUGJWLVpWZV8ycHNPTEx6dU04X1lTalFsVmx5VHZIR1dOX2lHQTVQb1phY1lWNWptZGpoMVE?oc=5
-7. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
+6. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
    https://www.forbes.com/sites/michaelmillenson/2026/08/23/is-ehr-giant-epic-mulling-direct-ai-power-to-patients/
-8. **The AMA Says Doctors Cannot Be Replaced by AI, and a JAMA Piece Argues the Opposite - Medical Daily** — science angle
+7. **The AMA Says Doctors Cannot Be Replaced by AI, and a JAMA Piece Argues the Opposite - Medical Daily** — science angle
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxObENxVTRIQ2Z5R3NEUWRHUzdidXppQjRKMzJHemxSSEpCWWhpc1ZRX3lXLVlNd1NER0lrRGRsRnpCNXh6b1VVUF8xdnl5NFM5Wkt4eThMcTRyVVdwdE5EaHBOU3BlbWFia3NCa0NCaThjTW1SNW1OSHRoTFFCdldZTnBEMS1jdFMx?oc=5
+8. **Patients wary of governments, companies pushing AI as a rural healthcare solution - North Dakota Monitor** — science angle
+   https://news.google.com/rss/articles/CBMiwAFBVV95cUxQczJwWjJQaEgwWjZSN1pWMVBmV2RvT2czdUFLSTM4UnFZdkF5OGEyRWUydkRVQ0h3NDhpbnNhTWtNRklhZmVKMzBPUy04V1JkZkJQWmZMRU5PZkQwcmUtblI3QlVhZEd2bS1LZHE1d1FYNUJWc2xjVEhGZHdHS0RDUjZyY3Z3WS1VZWJlbFpvdldLQjJQREh6WUNlMTlQdjdfOHpqVDY2ZTFXbm5WWU9Pc0Z5ZFpNS0p2Z2k4Y2pTb3M?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 113
@@ -50,11 +50,11 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **Doctor unveils AI governance test for human parity** — https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 - **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
-- **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 - **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
+- **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3627
+- Total stories tracked: 3628
 - Most active topic: agents
 - Busiest category: AI General News
 
