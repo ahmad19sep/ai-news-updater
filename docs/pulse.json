@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:53:30.388841+00:00",
+  "generated_at": "2026-08-25T07:09:50.127663+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
-          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
           "signal": "We both asked our own ChatGPT and now we're both definitely right"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
-          "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
+          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrpe6/chatgpt_pro_advertises_unlimited_image_generation/",
-          "signal": "ChatGPT Pro advertises \"unlimited\" image generation. It is not unlimited."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxopy2/are_people_actually_using_chatgpt_live_out_in_the/",
+          "signal": "Are people actually using chatgpt live out in the real world yet?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
+          "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
         }
       ],
       "content_ideas": []
@@ -98,33 +98,6 @@
       "content_ideas": []
     },
     {
-      "name": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ericpardee.github.io/fire-hd-ownership/",
-          "signal": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Coding expertise is going to collapse from AI reliance",
       "category": "use_case",
       "momentum": "rising",
@@ -147,6 +120,33 @@
           "platform": "hackernews",
           "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
           "signal": "Coding expertise is going to collapse from AI reliance"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ericpardee.github.io/fire-hd-ownership/",
+          "signal": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day"
         }
       ],
       "content_ideas": []
@@ -245,7 +245,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -255,33 +255,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49418675",
           "signal": "Ask HN: Why do corporate failures always seem to punish the wrong people?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI Chip Architectures",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.jepeake.com/ai-chip-architectures",
-          "signal": "AI Chip Architectures"
         }
       ],
       "content_ideas": []
@@ -383,6 +356,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Your Open Source Model Could Have a Hidden Time-Release Backdoor",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
+          "signal": "Your Open Source Model Could Have a Hidden Time-Release Backdoor"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -464,53 +464,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
-          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
           "signal": "We both asked our own ChatGPT and now we're both definitely right"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
-          "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
+          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrpe6/chatgpt_pro_advertises_unlimited_image_generation/",
-          "signal": "ChatGPT Pro advertises \"unlimited\" image generation. It is not unlimited."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxopy2/are_people_actually_using_chatgpt_live_out_in_the/",
+          "signal": "Are people actually using chatgpt live out in the real world yet?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
+          "signal": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features."
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Shit like this is what gets OpenAI so much hatred..... Why does this remind me of the movie \"Please Hold\" where everything gets replaced by ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxkh1o/shit_like_this_is_what_gets_openai_so_much_hatred/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Cannot Upload Documents to ChatGPT",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx52az/cannot_upload_documents_to_chatgpt/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
