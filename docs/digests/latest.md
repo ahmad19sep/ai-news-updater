@@ -9,28 +9,28 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — science angle
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
-2. **Breakthrough as scientists use AI to predict how breast cancer could progress** — 1 upvotes on Reddit/HN
-   https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
-3. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
+2. **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — science angle
    https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
-4. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
+3. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
-5. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
+4. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-6. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
+5. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1pYVUdDbDB2WEhfWjEzWHgxVzlZaDhCUy1wc2w1WlBMOXQzb2prR0hOQU9QZGEzbVk4bWZJeXd1TDFNVldFRDExMEs3akpVcm1nSEZyeXRycXNDaUhfUGJWLVpWZV8ycHNPTEx6dU04X1lTalFsVmx5VHZIR1dOX2lHQTVQb1phY1lWNWptZGpoMVE?oc=5
-7. **Meet Jerry Xu, the 17-year-old Massachusetts student who built an AI program that turns protein structures into strings of numbers; he won $90,000** — science angle
+6. **Meet Jerry Xu, the 17-year-old Massachusetts student who built an AI program that turns protein structures into strings of numbers; he won $90,000** — science angle
    https://timesofindia.indiatimes.com/science/meet-jerry-xu-the-17-year-old-massachusetts-student-who-built-an-ai-program-that-turns-protein-structures-into-strings-of-numbers-he-won-90000/articleshow/133438450.cms
-8. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
+7. **Is EHR Giant Epic Mulling Direct, AI Power To Patients?** — science angle
    https://www.forbes.com/sites/michaelmillenson/2026/08/23/is-ehr-giant-epic-mulling-direct-ai-power-to-patients/
+8. **The AMA Says Doctors Cannot Be Replaced by AI, and a JAMA Piece Argues the Opposite - Medical Daily** — science angle
+   https://news.google.com/rss/articles/CBMiiAFBVV95cUxObENxVTRIQ2Z5R3NEUWRHUzdidXppQjRKMzJHemxSSEpCWWhpc1ZRX3lXLVlNd1NER0lrRGRsRnpCNXh6b1VVUF8xdnl5NFM5Wkt4eThMcTRyVVdwdE5EaHBOU3BlbWFia3NCa0NCaThjTW1SNW1OSHRoTFFCdldZTnBEMS1jdFMx?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 113
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9441af468daf2bd59d00363f75&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us
-2. **AI-assisted tool helped secure satellite communication system after 2022 Russian hacking** — wsbtv — Score 98
-   https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
-3. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 96
+2. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 106
    https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
+3. **AI-assisted tool helped secure satellite communication system after 2022 Russian hacking** — wsbtv — Score 98
+   https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
 4. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
    https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
 5. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
@@ -51,10 +51,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **The startup using AI to help rare disease families develop custom treatments - CNBC** — https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjVqUE9jS21SR1lVblJkOTZCdzVRemtMWUdGWlRmZzVqeE50b1R2M015Z0lfVVJmSG9rWV9ZS2w0ZlM4SUVMbVlGQkZJZDdrRU1WcUI4VFQ2MkI5OHdjMHk5NHV5R1lNZkdYYk5oXzl2eEcxekFKSU8xVnF4S2lGdVBIeW1hUmhtODdMNzBnaWdlQjRTUlo1cDlRN1ZLSGxRMDYxTWRmSmFDWmfSAbABQVVfeXFMTmctbHF1YlU1dXg0T2gtVHR1VW1Ja3FUVUZoYkpTQ0hzWE9RcTJCNGFSZkdDd0cxUHktRU5INWJfWm9aTTlCV3hEMnJha3RoOUNjWW9MSDZ5Y1RoM0JUaGo2enhXbkZfUlJLQ01aRlFXWmpIbGxQcER2NHZKejFnMENwYUNEc0VTZWR2VzFNbGY1LTJSQ3pBOEU2TEVsdVIwZE5nS0hjV1ZZSEF1UlpCcW8?oc=5
 - **TCS launches Agentic AI platform to transform drug development - Tata Consultancy Services** — https://news.google.com/rss/articles/CBMiswFBVV95cUxQYk5RYTIzMHRVd2hkYjRXbjVUalVpbEd6cjEzVUtJMmljQTRjX2s0VzZuRU8wOFRFMHpoZURsMzUySVlxTlR1UkZoR01IS1JMU0l4Q3l2TzctVDlNWU9TUFA3V0tnemNOeXpuNzkycWliM1FqZmFKdEVMN2lqTld2dVY2Y2FHNHhheFVVa0tuTlZ6NTBXckJ4bzJWa0NWT2tjSkN1MjhLUUhuVWxjcW1zbGlQMA?oc=5
 - **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
-- **Breakthrough as scientists use AI to predict how breast cancer could progress** — https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html
+- **As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says** — https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3630
+- Total stories tracked: 3628
 - Most active topic: agents
 - Busiest category: AI General News
 
