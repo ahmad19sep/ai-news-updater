@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T13:13:03.484776+00:00",
+  "generated_at": "2026-08-25T18:58:59.106664+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 19,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,8 +49,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
-          "signal": "We both asked our own ChatGPT and now we're both definitely right"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy5rc2/i_want_my_chatgpt_to_be_english_instead_it/",
+          "signal": "I want my ChatGPT to be English - instead it constantly forces the language of my current location into everything"
         },
         {
           "platform": "reddit",
@@ -59,19 +59,19 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
-          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy6hjw/why_does_my_chatgpt_voice_sound_like_a_high_gen_z/",
+          "signal": "Why does my chatGPT voice sound like a high Gen Z teen?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxopy2/are_people_actually_using_chatgpt_live_out_in_the/",
-          "signal": "Are people actually using chatgpt live out in the real world yet?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
+          "signal": "We both asked our own ChatGPT and now we're both definitely right"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Anthropic's best AI model struggles to attract users as cheaper tools ",
+      "name": "Apple introduces M6 and M5 Ultra",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -91,8 +91,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-          "signal": "Anthropic's best AI model struggles to attract users as cheaper tools thrive"
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+          "signal": "Apple introduces M6 and M5 Ultra"
         }
       ],
       "content_ideas": []
@@ -125,33 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ericpardee.github.io/fire-hd-ownership/",
-          "signal": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "I built a low-latency AI companion that plays Skyrim with me",
       "category": "use_case",
       "momentum": "rising",
@@ -179,7 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
+      "name": "How much of HN is AI?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -189,9 +162,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -199,8 +172,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://reinvently.co.uk/tools/ed-o-meter/",
-          "signal": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost"
+          "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
+          "signal": "How much of HN is AI?"
         }
       ],
       "content_ideas": []
@@ -233,6 +206,34 @@
       "content_ideas": []
     },
     {
+      "name": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+          "signal": "AI is hitting entry-level jobs hardest, Stanford study finds"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Ask HN: Why do corporate failures always seem to punish the wrong peop",
       "category": "use_case",
       "momentum": "rising",
@@ -255,6 +256,33 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49418675",
           "signal": "Ask HN: Why do corporate failures always seem to punish the wrong people?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Training AI to Paint with Code",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://surya.website/rling-qwen-to-paint-with-code",
+          "signal": "Training AI to Paint with Code"
         }
       ],
       "content_ideas": []
@@ -287,33 +315,6 @@
       "content_ideas": []
     },
     {
-      "name": "We must not grant AI agents legal personhood",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
-          "signal": "We must not grant AI agents legal personhood"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Fences, Not Sandboxes",
       "category": "use_case",
       "momentum": "rising",
@@ -341,95 +342,34 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
+      "name": "Ox-Alpha Is GLM?",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkfQN0TSW7Y",
-          "signal": "Google gemini kaise use kare | google gemini photo editing kaise kare | google gemini ai prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://dejan.ai/blog/ox-alpha/",
+          "signal": "Ox-Alpha Is GLM?"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkfQN0TSW7Y",
-          "signal": "Google gemini kaise use kare | google gemini photo editing kaise kare | google gemini ai prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -464,8 +404,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
-          "signal": "We both asked our own ChatGPT and now we're both definitely right"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy5rc2/i_want_my_chatgpt_to_be_english_instead_it/",
+          "signal": "I want my ChatGPT to be English - instead it constantly forces the language of my current location into everything"
         },
         {
           "platform": "reddit",
@@ -474,18 +414,43 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vx2k52/im_living_with_deep_depression_and_speaking_with/",
-          "signal": "I’m living with deep depression and speaking with ChatGPT helped me feel slightly better. Then it recommended I contact 988"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy6hjw/why_does_my_chatgpt_voice_sound_like_a_high_gen_z/",
+          "signal": "Why does my chatGPT voice sound like a high Gen Z teen?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxopy2/are_people_actually_using_chatgpt_live_out_in_the/",
-          "signal": "Are people actually using chatgpt live out in the real world yet?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
+          "signal": "We both asked our own ChatGPT and now we're both definitely right"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "NEW USAGE LIMITS?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy1qco/new_usage_limits/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "New usage limit for Plus users?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy6hni/new_usage_limit_for_plus_users/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
