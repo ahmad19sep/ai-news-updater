@@ -39,12 +39,12 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
 7. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
    https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-8. **ALL IN 2026 Unveils Lineup Featuring World AI Leaders from Cohere, Mistral AI, NVIDIA & OpenAI - PR Newswire Canada** — Mistral News — Score 75
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX0lGb3V2US1VekRGNFJBeGxoVGFDT3JiSFVqdkxrVU9ueGwySVVsR244cERYTE9uNzNrSzAyOUtMOFl0X2xObGpjSXh4RVBZZERYU0MzbnBYSzd1c1hKZlE0Q25HNlNNakpxU2FmZGt4NmxYTjNMNlR1VFJYR1NLRU42ZUVKUWdMR0xKdzJ5SkF3WUY0NWlsRW5LUXpHT3hRdGE1bVRjTE5FUUxOUlc3bVMyV05tR1lwSFY1MmJPbWxDeVFMZzlJMjdFYkZhNkI2al9MYnhQaEREMXlUaTAtTQ?oc=5
-9. **Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - Yahoo Finance** — Jensen Huang News — Score 73
+8. **Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - Yahoo Finance** — Jensen Huang News — Score 73
    https://news.google.com/rss/articles/CBMilgFBVV95cUxOQm9vRll5UWx0enMtMFRUXzFoa3MyRHNGS1hYT0hmMHNJWEdVMlpkSDNUTHFCc1N3Z2tGVi1uNC1zMmJpcXMxcmhTX1pTa3MzMVdoSHZlOXJUdGtBdGFBNDM1TTdIZEZxdWt6S3FYOUd5MUZpeGhucVJBNl8xSmU2LWFNMU5rb1BPaXFkZHF5eUw5MXhhVnc?oc=5
-10. **As AI grips world, the thrill of collecting vintage computers is growing** — pressdemocrat — Score 73
+9. **As AI grips world, the thrill of collecting vintage computers is growing** — pressdemocrat — Score 73
    https://www.pressdemocrat.com/2026/08/21/vintage-computer-collecting/
+10. **A battle over 'Italian brainrot' could shape who owns AI art - capradio.org** — Using AI To... — Score 70
+   https://news.google.com/rss/articles/CBMibkFVX3lxTFBMUHVEbzhZdHFzUmV3UFRJbFhzZTlnV1MwX2JqY29BVENSaWM3YkFiS191N1BwYnR6YjRXVm1NeXFnYmlXbUVFODFqY0hxd0JtdjJjY2ZPSnRyazZiSFlKMzJJTlMtSUVkOEhvdElR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctor unveils AI governance test for human parity** — https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
@@ -54,7 +54,7 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3679
+- Total stories tracked: 3688
 - Most active topic: nvidia
 - Busiest category: AI General News
 
