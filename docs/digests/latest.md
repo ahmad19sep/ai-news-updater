@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 18 Aug 2026 to 25 Aug 2026
+# 🗞️ AI THIS WEEK — 19 Aug 2026 to 26 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.**
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3680
+- Total stories tracked: 3690
 - Most active topic: agents
 - Busiest category: AI General News
 
