@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T18:58:59.106664+00:00",
+  "generated_at": "2026-08-26T01:59:38.142970+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,23 +44,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxbys8/netflix_vs_chatgpt/",
-          "signal": "netflix vs chatgpt"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vy5rc2/i_want_my_chatgpt_to_be_english_instead_it/",
           "signal": "I want my ChatGPT to be English - instead it constantly forces the language of my current location into everything"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxxl24/copilot_tries_to_frame_chatgpt/",
-          "signal": "Copilot tries to frame ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxbys8/netflix_vs_chatgpt/",
+          "signal": "netflix vs chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy6hjw/why_does_my_chatgpt_voice_sound_like_a_high_gen_z/",
-          "signal": "Why does my chatGPT voice sound like a high Gen Z teen?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vygqua/has_anyone_figured_out_a_sane_way_to_archive/",
+          "signal": "Has anyone figured out a sane way to archive years of ChatGPT conversations into an actual usable “external memory”?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxxl24/copilot_tries_to_frame_chatgpt/",
+          "signal": "Copilot tries to frame ChatGPT"
         },
         {
           "platform": "reddit",
@@ -125,33 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "I built a low-latency AI companion that plays Skyrim with me",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pantel.is/projects/ai-gaming-companion/",
-          "signal": "I built a low-latency AI companion that plays Skyrim with me"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "How much of HN is AI?",
       "category": "use_case",
       "momentum": "rising",
@@ -164,7 +137,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -174,6 +147,34 @@
           "platform": "hackernews",
           "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
           "signal": "How much of HN is AI?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+          "signal": "AI is hitting entry-level jobs hardest, Stanford study finds"
         }
       ],
       "content_ideas": []
@@ -206,34 +207,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI is hitting entry-level jobs hardest, Stanford study finds",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-          "signal": "AI is hitting entry-level jobs hardest, Stanford study finds"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Ask HN: Why do corporate failures always seem to punish the wrong peop",
       "category": "use_case",
       "momentum": "rising",
@@ -256,33 +229,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49418675",
           "signal": "Ask HN: Why do corporate failures always seem to punish the wrong people?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Training AI to Paint with Code",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://surya.website/rling-qwen-to-paint-with-code",
-          "signal": "Training AI to Paint with Code"
         }
       ],
       "content_ideas": []
@@ -367,9 +313,90 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Your Open Source Model Could Have a Hidden Time-Release Backdoor",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
+          "signal": "Your Open Source Model Could Have a Hidden Time-Release Backdoor"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -399,23 +426,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxbys8/netflix_vs_chatgpt/",
-          "signal": "netflix vs chatgpt"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vy5rc2/i_want_my_chatgpt_to_be_english_instead_it/",
           "signal": "I want my ChatGPT to be English - instead it constantly forces the language of my current location into everything"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxxl24/copilot_tries_to_frame_chatgpt/",
-          "signal": "Copilot tries to frame ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxbys8/netflix_vs_chatgpt/",
+          "signal": "netflix vs chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy6hjw/why_does_my_chatgpt_voice_sound_like_a_high_gen_z/",
-          "signal": "Why does my chatGPT voice sound like a high Gen Z teen?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vygqua/has_anyone_figured_out_a_sane_way_to_archive/",
+          "signal": "Has anyone figured out a sane way to archive years of ChatGPT conversations into an actual usable “external memory”?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxxl24/copilot_tries_to_frame_chatgpt/",
+          "signal": "Copilot tries to frame ChatGPT"
         },
         {
           "platform": "reddit",
@@ -440,13 +467,37 @@
       "content_opportunity": ""
     },
     {
-      "problem": "New usage limit for Plus users?",
+      "problem": "Ok, now THIS is frustrating... 30 mins thinking only to shut itself down before answering",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy6hni/new_usage_limit_for_plus_users/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vydelb/ok_now_this_is_frustrating_30_mins_thinking_only/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "ChatGPT (EFFORT) issue",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vya123/chatgpt_effort_issue/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Something I tried, that ChatGPT failed at.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyh5f6/something_i_tried_that_chatgpt_failed_at/"
         }
       ],
       "content_opportunity": ""
