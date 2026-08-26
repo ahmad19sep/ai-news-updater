@@ -17,12 +17,12 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
 5. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-6. **The AI Doctor's 'Oracle Problem' - StartupHub.ai** — science angle
-   https://news.google.com/rss/articles/CBMijAFBVV95cUxOaHc1UHBwb3NXVkRtSVc4SDdqMlJfdGdMbDk1MUhOSTQwUjllbURGS0tOR2R2cDN5UE5sdFpPeWp4OW9pMG9XNzJ0V3hsS0I2TVpCbFAxZG0wVTBwaXVpcXYxSW52NUVRdllVQ21ZdmFzMllkZV82djc2QThTMTlscDF6TmJMSlBHeDFudg?oc=5
-7. **AI and the future of doctors - Philstar Life** — science angle
+6. **AI and the future of doctors - Philstar Life** — science angle
    https://news.google.com/rss/articles/CBMickFVX3lxTFAyX3RTa3BZRXE0VHhvbWFrQ1hoVDBqdVVxZnMzTGJ3VlhMbm1mUmpQSERENGZzUVd0WlRXSkMtZnpwZ3RaY0NMb1lCTzJCU1RfZVdodHRxZ0NTTFl0RVl2V3ZGdjJSTXowVjdneWNfNFdDUQ?oc=5
-8. **Man charged with impersonating doctors to obtain GLP-1 drugs; FDA asks how to regulate generative AI devices; a suicide risk factor screening can miss — Morning Medical Update - Medical Economics** — science angle
+7. **Man charged with impersonating doctors to obtain GLP-1 drugs; FDA asks how to regulate generative AI devices; a suicide risk factor screening can miss — Morning Medical Update - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMiswJBVV95cUxQR0J0RVpNVzdHMWRiVVVQSWl0T0tHaUxjRkVHdFp4Wm5aa3k3YWN4eVJGOFdxTHkwVGpzNGl1RUxsTk9pWmdIckFYVGo4anNNaUJCVzhZWjZ4ZnZJUVFIZnB4S2RwUmtCazlXUXBmN0lYRzF2eFBjNzBJYjBSV2RqckltMVRoSmVzS1EyTHlTajV3VlJNWkQ3WFNMRzlleFdVTk5hQy1vQVBnbnRxaDZ1Y09yeVhLaVA3cnluM3ZtN1FiN0Q1dF94QlNCem5tSGJ3RlN6ODBuNzFIamVZOGJvNEE3M0p6ZzNBeTM0dHpmbFBjRnZjZ3VwaEd6YkpZUlRtTEtRWkp1dU5HM0xmZHZQaWlUMU1yY0xDSW5WbHRQNjE1bWhSVUdOZ1BBN1FSZTM3N0ZF?oc=5
+8. **AI May Not Replace Your Doctor, But It Will Change What You Need Them For - TechRound** — science angle
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxOV0otN1FMOEtJSWFiYmN5ek11RHFhUDdHYkJ5VG55WjNTZHBCVDZRZ1QzMU9zdmcxUi1vQnowTm5CUXdkV2U5cUtFTXVUdFdjYVBtVW9SUEJTMXA3QUpjdkRfMEdHN2cwaExOS2xBb2QyNURONldqQ3V0UVRhMUpJU2FXS1l3NmNIVjNwUHlOLXFjVWo2V2stZlluQkRfMVJtZEFQbFVXN0NRaVNSV1VQWU5FeWozMHV6RUYwQWtn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 106
@@ -54,7 +54,7 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3677
+- Total stories tracked: 3679
 - Most active topic: nvidia
 - Busiest category: AI General News
 
