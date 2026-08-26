@@ -13,16 +13,16 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
 3. **Assessing students in the AI era** — science angle
    https://www.nature.com/articles/d41586-026-02632-z
-4. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
+4. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
+   https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
+5. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-5. **The AI Doctor's 'Oracle Problem' - StartupHub.ai** — science angle
+6. **The AI Doctor's 'Oracle Problem' - StartupHub.ai** — science angle
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOaHc1UHBwb3NXVkRtSVc4SDdqMlJfdGdMbDk1MUhOSTQwUjllbURGS0tOR2R2cDN5UE5sdFpPeWp4OW9pMG9XNzJ0V3hsS0I2TVpCbFAxZG0wVTBwaXVpcXYxSW52NUVRdllVQ21ZdmFzMllkZV82djc2QThTMTlscDF6TmJMSlBHeDFudg?oc=5
-6. **National AI project screens over 43,000 diabetic patients to prevent vision loss in Oman** — science angle
+7. **National AI project screens over 43,000 diabetic patients to prevent vision loss in Oman** — science angle
    https://timesofoman.com//article/175984-national-ai-project-screens-over-43000-diabetic-patients-to-prevent-vision-loss-in-oman
-7. **AI and the future of doctors - Philstar Life** — science angle
+8. **AI and the future of doctors - Philstar Life** — science angle
    https://news.google.com/rss/articles/CBMickFVX3lxTFAyX3RTa3BZRXE0VHhvbWFrQ1hoVDBqdVVxZnMzTGJ3VlhMbm1mUmpQSERENGZzUVd0WlRXSkMtZnpwZ3RaY0NMb1lCTzJCU1RfZVdodHRxZ0NTTFl0RVl2V3ZGdjJSTXowVjdneWNfNFdDUQ?oc=5
-8. **Man charged with impersonating doctors to obtain GLP-1 drugs; FDA asks how to regulate generative AI devices; a suicide risk factor screening can miss — Morning Medical Update - Medical Economics** — science angle
-   https://news.google.com/rss/articles/CBMiswJBVV95cUxQR0J0RVpNVzdHMWRiVVVQSWl0T0tHaUxjRkVHdFp4Wm5aa3k3YWN4eVJGOFdxTHkwVGpzNGl1RUxsTk9pWmdIckFYVGo4anNNaUJCVzhZWjZ4ZnZJUVFIZnB4S2RwUmtCazlXUXBmN0lYRzF2eFBjNzBJYjBSV2RqckltMVRoSmVzS1EyTHlTajV3VlJNWkQ3WFNMRzlleFdVTk5hQy1vQVBnbnRxaDZ1Y09yeVhLaVA3cnluM3ZtN1FiN0Q1dF94QlNCem5tSGJ3RlN6ODBuNzFIamVZOGJvNEE3M0p6ZzNBeTM0dHpmbFBjRnZjZ3VwaEd6YkpZUlRtTEtRWkp1dU5HM0xmZHZQaWlUMU1yY0xDSW5WbHRQNjE1bWhSVUdOZ1BBN1FSZTM3N0ZF?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 106
@@ -54,8 +54,8 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
 - **STREAMLINE uses AI to tackle one of nuclear physics’ toughest problems - anl.gov** — https://news.google.com/rss/articles/CBMingFBVV95cUxNeV83TTJXYS1HS1pLcVZYYVpOdGp0MDQzYmVsVHhFTDVINi1JQjBfMHZHemx4M19tZkFzSGxiVkN0RmNWSHRyY2UxdDlZbUk4dEZDYTJxRnMwUGFhYzFaNkNmeS1NTkY1VHBVa2NvWFh2T2xXaWlXVG1vT09sODV0OXh3OURYdUExYk56Mjk5bmNCd3h4Wm01SkxCWndFZw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3644
-- Most active topic: data
+- Total stories tracked: 3661
+- Most active topic: nvidia
 - Busiest category: AI General News
 
 ---
