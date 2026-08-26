@@ -1,10 +1,10 @@
 # 🗞️ AI THIS WEEK — 19 Aug 2026 to 26 Aug 2026
 
 ## 🔥 Biggest Story of the Week
-**Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.**
-Covered by 11 source(s) · Score: 113
-Best source link: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9441af468daf2bd59d00363f75&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us
-All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9441af468daf2bd59d00363f75&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us · http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851ea8f293416ba73bf3302ae888b5&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us · https://news.google.com/rss/articles/CBMilgFBVV95cUxQR3hmbXlCZm8ya3JPUnBGY2RkV0w3Z0h2SC1LVTBWWFFRM0IyUDdmaXpHU1FqS1U2cjRjMHdSUXdTVFZZeGVoWGROMzlPUzJFX2xrcjFLanZiMi1xMU9IZERYaU9WR19pOUsxQ1l5RldQY3BYTHdaclY4Y3lfS2NEaVEwSl9SSWdIbnJVdlpNUi1WZUhCNFE?oc=5 · https://news.google.com/rss/articles/CBMizwJBVV95cUxOazBhMXRndFNmYVNKTlhzeEprbi1qRDBjT1MzR2xmOTBpTnJacWxfUzBrT2pLZkhDRDJleHdKbGtUb2sxb1dVX2lUdXJHWHAyTHpQSXNUSktPOWhfVXRscDFWRFpFSlFxR1hJUUFVeU1TOFZkNnczdGhPR0JtMUdhVVprYkFEMXFKYnZSbnloeGQyOHozcGx4Nkh5V0hpUW9QOTJCR0RNVEJ2bEpJMXZHZlRRdXZwTEJtWTIzQmxHS1dYTE1mbmJZelE4NzBYcE9CTWQyYi1Da0huc1dxTmxjZi0tRXJ1ZkFocHR0QnRKRDNjcldtbUVDNklnbzZnRE5jNWMycm1Jdm5RVmtYa0RKaXpOZjhlUjRIWjN1WDVGZDE0YUhiUGJrVHZiWS1mby1aTGpTQlZQNS1lYTU1ZFdDbllEbUpXcjJNaWt4TGtEOA?oc=5 · https://news.google.com/rss/articles/CBMiygJBVV95cUxOTEF0djJpN2N1V2JJUFVtSEg0ZlFUcUprWmVVbDEtVlJva0QwTHYzb3lqRzgwbkZVYjZZSG9MVk5Ea0FLVlhfcXRpT2FLdDFJd0xFb2hsOTJ0eXBQUVNibUFsS1VHWjI4akwtQVBoX3Y2WjNfNjdWSWI3T0lPRjVKNFNibkJvRzVWaEJ3cDFqUFZkZWM3a3Z2UmVBMXd4NG1iQ05iZno4Q0ZlYWZTdmhpcnFWRUVTdjVETFN4emtmOFJ2WUJuMnVNSzBQdXIxUU42dFhBSHhRTnJ3MElFdndBLXZQdmRGaTRFTUtDejRyaEtpN3Rta3M1S1F3b1pEZTdWWDVFNUpLcDNKX1NJRUpVMklnOVUteUdqeXVBeDFpT0QtTzhPYkVHTjgta19DNkQyMnJXWm5od3psNGxjcXc1NkRld3IzdHBfa2c?oc=5 · https://news.google.com/rss/articles/CBMizwJBVV95cUxQb3pjb3RNT1c5SVZ3X2tRZTItX29GaHNPaTBpWEVZTXpjcVVVUEZBN3IxQllSZUVUaktIV2UwV1BFOW5WaFFXMW15blB5b3RfWFgyUGJxQkNHTVppQUZiMUNRQXFIdWF1c0NhdWRaZ2JpeGFiUWtRSzhSaHh6aDdSVGJDT1g0T1ZzYTVvRmN6RS1uUXNLSU9sQzJUdWdjT0FsR2NLckVJbWtaN3U1VmlBYTFfNUYwWWFQREJqSWJpM0pNNFprMEtSTmxUMDZBbk5UTy1WUDN4Vmx1a1VNX1ZkWngwOEpsZUQwWGdsU0pZTElZdkUwdkd6UUVrczBCTFZkYmpQNjQzZnFSOENhajJDdEtkM05uLXUxX180REcwZnZBVzlFd2R4Z3hHWDBqa0VkUHRvaGRJcU1DQ0Ntd1U5M2FFclN4eGFmYkVMREwwUQ?oc=5 · https://news.google.com/rss/articles/CBMingFBVV95cUxNSV9kWEtGQmVBUU4tMUhSQWZEOFJhMTJwV1BmbEpMampvNTh5T191NklvUHdlOEFwdW1DbG96Y0FrVlRZdmZlc3ozNTNqNE1OcEp2R1h0VldlU3JNcnZ4MVpodnNIUEF1QXFIUk1UR19VTmwwZTI3Wi0zdUhRamwyaTY1ZWpwOGtiSWYwVDlRNUJvNFp3RmZpYl9wVjJ3QQ?oc=5 · http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a85c3104896416db6326b828d6416fd&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fgeneral%2fsatya-nadella-said-microsoft-s-own-ai-chips-are-driving-up-to-40-efficiency-gains-over-reliance-on-openai-here-s-why-that-matters-for-investors%2far-AA2aqylc&c=15737531326776796108&mkt=en-us · https://news.google.com/rss/articles/CBMijAFBVV95cUxQemJxekhjeUh4MjljREdLTWItV3ZEdU04YnlhSTZkX1J4VkhXdXA3YVNaTmZtVjZfWjJyZGVGUmU4OWNIdkNZNUpGNTVHOTNaS0pPVVRfUTNWbnd4cDhtUVNYWjVUdXFld2VkODd3WFVUb09tRGpFa1lwdHJPeGpmUzl6UWdGN2o4YjU3Sg?oc=5 · http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a862261bed041579f4cdc2482f04f2d&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fgeneral%2fsatya-nadella-said-microsoft-s-own-ai-chips-are-driving-up-to-40-efficiency-gains-over-reliance-on-openai-here-s-why-that-matters-for-investors%2far-AA2aqylc&c=15737531326776796108&mkt=en-us · http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a86cd93042f4d7e9703436a712ce3c3&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fgeneral%2fsatya-nadella-said-microsoft-s-own-ai-chips-are-driving-up-to-40-efficiency-gains-over-reliance-on-openai-here-s-why-that-matters-for-investors%2far-AA2aqylc&c=15737531326776796108&mkt=en-us
+**Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs**
+Covered by 10 source(s) · Score: 106
+Best source link: https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
+All coverage: https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.greenwichtime.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.beaumontenterprise.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.newstimes.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.livemint.com/technology/workers-in-china-worry-over-being-replaced-as-they-adapt-to-the-growing-impact-of-ai-on-jobs-11787543029673.html · https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/08/23/workers-in-china-worry-over-being-replaced-as-they-adapt-to-the-growing-impact-of-ai-on-jobs · https://www.seattletimes.com/business/workers-in-china-worry-over-being-replaced-as-they-adapt-to-the-growing-impact-of-ai-on-jobs/ · https://www.newsday.com/business/china-ai-jobs-unemployment-youth-a03701 · https://techxplore.com/news/2026-08-workers-china-impact-ai-jobs.html · https://biztoc.com/x/1d13d7660732acee
 
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — science angle
@@ -15,20 +15,20 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
    https://www.nature.com/articles/d41586-026-02632-z
 4. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-5. **The AMA Says Doctors Cannot Be Replaced by AI, and a JAMA Piece Argues the Opposite - Medical Daily** — science angle
-   https://news.google.com/rss/articles/CBMiiAFBVV95cUxObENxVTRIQ2Z5R3NEUWRHUzdidXppQjRKMzJHemxSSEpCWWhpc1ZRX3lXLVlNd1NER0lrRGRsRnpCNXh6b1VVUF8xdnl5NFM5Wkt4eThMcTRyVVdwdE5EaHBOU3BlbWFia3NCa0NCaThjTW1SNW1OSHRoTFFCdldZTnBEMS1jdFMx?oc=5
-6. **Patients wary of governments, companies pushing AI as a rural healthcare solution - North Dakota Monitor** — science angle
+5. **Patients wary of governments, companies pushing AI as a rural healthcare solution - North Dakota Monitor** — science angle
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxQczJwWjJQaEgwWjZSN1pWMVBmV2RvT2czdUFLSTM4UnFZdkF5OGEyRWUydkRVQ0h3NDhpbnNhTWtNRklhZmVKMzBPUy04V1JkZkJQWmZMRU5PZkQwcmUtblI3QlVhZEd2bS1LZHE1d1FYNUJWc2xjVEhGZHdHS0RDUjZyY3Z3WS1VZWJlbFpvdldLQjJQREh6WUNlMTlQdjdfOHpqVDY2ZTFXbm5WWU9Pc0Z5ZFpNS0p2Z2k4Y2pTb3M?oc=5
-7. **The AI Doctor's 'Oracle Problem' - StartupHub.ai** — science angle
+6. **The AI Doctor's 'Oracle Problem' - StartupHub.ai** — science angle
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOaHc1UHBwb3NXVkRtSVc4SDdqMlJfdGdMbDk1MUhOSTQwUjllbURGS0tOR2R2cDN5UE5sdFpPeWp4OW9pMG9XNzJ0V3hsS0I2TVpCbFAxZG0wVTBwaXVpcXYxSW52NUVRdllVQ21ZdmFzMllkZV82djc2QThTMTlscDF6TmJMSlBHeDFudg?oc=5
-8. **National AI project screens over 43,000 diabetic patients to prevent vision loss in Oman** — science angle
+7. **National AI project screens over 43,000 diabetic patients to prevent vision loss in Oman** — science angle
    https://timesofoman.com//article/175984-national-ai-project-screens-over-43000-diabetic-patients-to-prevent-vision-loss-in-oman
+8. **AI and the future of doctors - Philstar Life** — science angle
+   https://news.google.com/rss/articles/CBMickFVX3lxTFAyX3RTa3BZRXE0VHhvbWFrQ1hoVDBqdVVxZnMzTGJ3VlhMbm1mUmpQSERENGZzUVd0WlRXSkMtZnpwZ3RaY0NMb1lCTzJCU1RfZVdodHRxZ0NTTFl0RVl2V3ZGdjJSTXowVjdneWNfNFdDUQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.** — Satya Nadella News — Score 113
-   http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9441af468daf2bd59d00363f75&url=https%3a%2f%2fwww.fool.com%2finvesting%2f2026%2f08%2f18%2fsatya-nadella-sees-profitable-microsoft-ai-chips%2f&c=9697657340527719868&mkt=en-us
-2. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 106
+1. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 106
    https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
+2. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 106
+   https://www.postguam.com/news/national/elon-releases-human-wisdom-toolkit-for-the-age-of-ai/article_f555711f-631b-531c-be85-4dae5e3ba1f5.html
 3. **AI-assisted tool helped secure satellite communication system after 2022 Russian hacking** — wsbtv — Score 98
    https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
 4. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a851e9
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3690
+- Total stories tracked: 3637
 - Most active topic: agents
 - Busiest category: AI General News
 
