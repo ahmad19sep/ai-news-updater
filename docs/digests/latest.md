@@ -29,22 +29,22 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://www.postguam.com/news/national/elon-releases-human-wisdom-toolkit-for-the-age-of-ai/article_f555711f-631b-531c-be85-4dae5e3ba1f5.html
 2. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 103
    https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
-3. **AI-assisted tool helped secure satellite communication system after 2022 Russian hacking** — wsbtv — Score 98
-   https://www.wsbtv.com/news/technology/ai-assisted-tool/SMK5YM4L2UY45G7K6W3UMMZ7IQ/
-4. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
+3. **Doctor unveils AI governance test for human parity** — securitybrief_asia — Score 93
    https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
-5. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
+4. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
    https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
-6. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
+5. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
    https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
-7. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
+6. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
    https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
-8. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
+7. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
    https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-9. **ALL IN 2026 Unveils Lineup Featuring World AI Leaders from Cohere, Mistral AI, NVIDIA & OpenAI - PR Newswire Canada** — Mistral News — Score 75
+8. **ALL IN 2026 Unveils Lineup Featuring World AI Leaders from Cohere, Mistral AI, NVIDIA & OpenAI - PR Newswire Canada** — Mistral News — Score 75
    https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX0lGb3V2US1VekRGNFJBeGxoVGFDT3JiSFVqdkxrVU9ueGwySVVsR244cERYTE9uNzNrSzAyOUtMOFl0X2xObGpjSXh4RVBZZERYU0MzbnBYSzd1c1hKZlE0Q25HNlNNakpxU2FmZGt4NmxYTjNMNlR1VFJYR1NLRU42ZUVKUWdMR0xKdzJ5SkF3WUY0NWlsRW5LUXpHT3hRdGE1bVRjTE5FUUxOUlc3bVMyV05tR1lwSFY1MmJPbWxDeVFMZzlJMjdFYkZhNkI2al9MYnhQaEREMXlUaTAtTQ?oc=5
-10. **Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - Yahoo Finance** — Jensen Huang News — Score 73
+9. **Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - Yahoo Finance** — Jensen Huang News — Score 73
    https://news.google.com/rss/articles/CBMilgFBVV95cUxOQm9vRll5UWx0enMtMFRUXzFoa3MyRHNGS1hYT0hmMHNJWEdVMlpkSDNUTHFCc1N3Z2tGVi1uNC1zMmJpcXMxcmhTX1pTa3MzMVdoSHZlOXJUdGtBdGFBNDM1TTdIZEZxdWt6S3FYOUd5MUZpeGhucVJBNl8xSmU2LWFNMU5rb1BPaXFkZHF5eUw5MXhhVnc?oc=5
+10. **As AI grips world, the thrill of collecting vintage computers is growing** — pressdemocrat — Score 73
+   https://www.pressdemocrat.com/2026/08/21/vintage-computer-collecting/
 
 ## 🧪 AI in Science Highlights
 - **Doctor unveils AI governance test for human parity** — https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
@@ -54,7 +54,7 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3668
+- Total stories tracked: 3677
 - Most active topic: nvidia
 - Busiest category: AI General News
 
