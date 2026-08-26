@@ -11,12 +11,12 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 2. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
-3. **Assessing students in the AI era** — science angle
-   https://www.nature.com/articles/d41586-026-02632-z
-4. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
+3. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
    https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
-5. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
+4. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
+5. **Assessing students in the AI era** — science angle
+   https://www.nature.com/articles/d41586-026-02632-z
 6. **AI and the future of doctors - Philstar Life** — science angle
    https://news.google.com/rss/articles/CBMickFVX3lxTFAyX3RTa3BZRXE0VHhvbWFrQ1hoVDBqdVVxZnMzTGJ3VlhMbm1mUmpQSERENGZzUVd0WlRXSkMtZnpwZ3RaY0NMb1lCTzJCU1RfZVdodHRxZ0NTTFl0RVl2V3ZGdjJSTXowVjdneWNfNFdDUQ?oc=5
 7. **Man charged with impersonating doctors to obtain GLP-1 drugs; FDA asks how to regulate generative AI devices; a suicide risk factor screening can miss — Morning Medical Update - Medical Economics** — science angle
@@ -51,10 +51,10 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
 - **Mark Cuban says doctors should be teaching patients how to use AI to help with their treatment - Yahoo** — https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVByVDQ4MG51cHQ5dS1HckdVUmpyV1ZvOGJXVlR5SG0tZ2N6NzJQVlNHRnctUE5UQS1SSm1YbkZCVjJPbEdVSGRfcnMzWFVVUjdXTjB4LWFiWjBsMC1BeWtwejVIYzFicEY2bUhKUGJWQ1JINEV4ZUtXUWc0V0pNN0pLRm0xYnE3M1hOdDJyOA?oc=5
 - **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - moneywise.com** — https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0k1b0FYOEpBS1N0V0FqanViZHVQNlhnMFhqbUJxNURSMU05dmsyWkNHcmxrem01WkxUWVVJd2Rmcmwta2JRZ1JhVEZra2F3SUU3X1pQZmhlaUJLZzlEb3prbldEQVlEYTRnanpULVJISDRxbFhRa3dSTDhWa1RKQ0wtb1lXOXMySklLR0Y2YmE?oc=5
 - **STREAMLINE uses AI to tackle one of nuclear physics’ toughest problems - anl.gov** — https://news.google.com/rss/articles/CBMingFBVV95cUxNeV83TTJXYS1HS1pLcVZYYVpOdGp0MDQzYmVsVHhFTDVINi1JQjBfMHZHemx4M19tZkFzSGxiVkN0RmNWSHRyY2UxdDlZbUk4dEZDYTJxRnMwUGFhYzFaNkNmeS1NTkY1VHBVa2NvWFh2T2xXaWlXVG1vT09sODV0OXh3OURYdUExYk56Mjk5bmNCd3h4Wm01SkxCWndFZw?oc=5
-- **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
+- **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3673
+- Total stories tracked: 3659
 - Most active topic: nvidia
 - Busiest category: AI General News
 
