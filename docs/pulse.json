@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:10:10.126328+00:00",
+  "generated_at": "2026-08-26T13:17:51.301317+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 23,
+      "reddit": 25,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,7 +45,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -76,13 +76,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
-          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvwbh/for_no_reason_at_all_chatgpt_has_become_muted/",
+          "signal": "For no reason at all, ChatGPT has become muted"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vyhfct/openai_bans_russialinked_chatgpt_accounts/",
-          "signal": "OpenAI bans Russia-linked ChatGPT accounts promoting a think tank built on copied papers"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvpzq/i_stopped_asking_chatgpt_for_instructions_and/",
+          "signal": "I stopped asking ChatGPT for instructions and started asking for one click"
         },
         {
           "platform": "reddit",
@@ -91,8 +91,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vy1wvk/cancelled_chatgpt_since_it_became_unusable_for/",
-          "signal": "Cancelled ChatGPT since it became unusable for biosciences"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
+          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
         }
       ],
       "content_ideas": []
@@ -152,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+          "signal": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI is hitting entry-level jobs hardest, Stanford study finds",
       "category": "use_case",
       "momentum": "rising",
@@ -180,8 +207,8 @@
       "content_ideas": []
     },
     {
-      "name": "Ask HN: Why do corporate failures always seem to punish the wrong peop",
-      "category": "use_case",
+      "name": "Qwen",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -190,24 +217,29 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49418675",
-          "signal": "Ask HN: Why do corporate failures always seem to punish the wrong people?"
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "signal": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "We never use AI. For anything",
+      "name": "U.S. gov't moves to suppress pushback on data centers",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -227,8 +259,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://corkmac.app/our-ai-stance/",
-          "signal": "We never use AI. For anything"
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+          "signal": "U.S. gov't moves to suppress pushback on data centers"
         }
       ],
       "content_ideas": []
@@ -261,33 +293,6 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/ThinkOffApp/CarWatch",
-          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Ox-Alpha Is GLM?",
       "category": "use_case",
       "momentum": "rising",
@@ -310,51 +315,6 @@
           "platform": "hackernews",
           "url": "https://dejan.ai/blog/ox-alpha/",
           "signal": "Ox-Alpha Is GLM?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
-          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -402,6 +362,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Disrupting a new covert influence campaign from Russia",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/",
+          "signal": "Disrupting a new covert influence campaign from Russia"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -418,7 +405,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -428,51 +415,11 @@
           "platform": "hackernews",
           "url": "https://github.com/ThinkOffApp/CarWatch",
           "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
-          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "signal": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency"
         }
       ],
       "content_ideas": []
@@ -480,7 +427,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -511,13 +458,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
-          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvwbh/for_no_reason_at_all_chatgpt_has_become_muted/",
+          "signal": "For no reason at all, ChatGPT has become muted"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vyhfct/openai_bans_russialinked_chatgpt_accounts/",
-          "signal": "OpenAI bans Russia-linked ChatGPT accounts promoting a think tank built on copied papers"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvpzq/i_stopped_asking_chatgpt_for_instructions_and/",
+          "signal": "I stopped asking ChatGPT for instructions and started asking for one click"
         },
         {
           "platform": "reddit",
@@ -526,8 +473,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vy1wvk/cancelled_chatgpt_since_it_became_unusable_for/",
-          "signal": "Cancelled ChatGPT since it became unusable for biosciences"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
+          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
         }
       ],
       "content_ideas": []
@@ -535,9 +482,21 @@
   ],
   "pain_points": [
     {
+      "problem": "Reverse 5 hour limits now! One prompt ate whole 5hourly limit and didn't even get anything done",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyqktf/reverse_5_hour_limits_now_one_prompt_ate_whole/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "NEW USAGE LIMITS?",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -547,61 +506,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "New $100 Business Plan (2 seat minimum). They finally did it. My team just switched over. This is why 5h limits are back.",
-      "who_affected": "r/OpenAI",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vygebh/new_100_business_plan_2_seat_minimum_they_finally/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT (EFFORT) issue",
-      "who_affected": "r/OpenAI",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vya19w/chatgpt_effort_issue/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Ok, now THIS is frustrating... 30 mins thinking only to shut itself down before answering",
+      "problem": "The new 5h limit made using Sol irrelevant for plus sub",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vydelb/ok_now_this_is_frustrating_30_mins_thinking_only/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "What is 5hr limit and im frequently getting a reset any news from the company that i may have missed",
-      "who_affected": "r/OpenAI",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vye81s/what_is_5hr_limit_and_im_frequently_getting_a/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Codex Usage Limit",
-      "who_affected": "r/OpenAI",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1vyi0l6/codex_usage_limit/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyrzsl/the_new_5h_limit_made_using_sol_irrelevant_for/"
         }
       ],
       "content_opportunity": ""
