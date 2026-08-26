@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:59:38.142970+00:00",
+  "generated_at": "2026-08-26T07:10:10.126328+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,13 +8,40 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 24,
+      "reddit": 50,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Apple introduces M6 and M5 Ultra",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+          "signal": "Apple introduces M6 and M5 Ultra"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -44,13 +71,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy5rc2/i_want_my_chatgpt_to_be_english_instead_it/",
-          "signal": "I want my ChatGPT to be English - instead it constantly forces the language of my current location into everything"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo16o/i_asked_chatgpt_to_recreate_what_freshly_painted/",
+          "signal": "I asked ChatGPT to recreate what freshly painted 1st-century Roman frescoes might have looked like."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxbys8/netflix_vs_chatgpt/",
-          "signal": "netflix vs chatgpt"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
+          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vyhfct/openai_bans_russialinked_chatgpt_accounts/",
+          "signal": "OpenAI bans Russia-linked ChatGPT accounts promoting a think tank built on copied papers"
         },
         {
           "platform": "reddit",
@@ -59,40 +91,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxxl24/copilot_tries_to_frame_chatgpt/",
-          "signal": "Copilot tries to frame ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
-          "signal": "We both asked our own ChatGPT and now we're both definitely right"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Apple introduces M6 and M5 Ultra",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-          "signal": "Apple introduces M6 and M5 Ultra"
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vy1wvk/cancelled_chatgpt_since_it_became_unusable_for/",
+          "signal": "Cancelled ChatGPT since it became unusable for biosciences"
         }
       ],
       "content_ideas": []
@@ -180,33 +180,6 @@
       "content_ideas": []
     },
     {
-      "name": "FDA clears blood test to aid evaluation for Alzheimer's disease",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/",
-          "signal": "FDA clears blood test to aid evaluation for Alzheimer's disease"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Ask HN: Why do corporate failures always seem to punish the wrong peop",
       "category": "use_case",
       "momentum": "rising",
@@ -273,7 +246,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -283,6 +256,33 @@
           "platform": "hackernews",
           "url": "https://yegge.ai/essays/fences-not-sandboxes/",
           "signal": "Fences, Not Sandboxes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
         }
       ],
       "content_ideas": []
@@ -315,45 +315,21 @@
       "content_ideas": []
     },
     {
-      "name": "Your Open Source Model Could Have a Hidden Time-Release Backdoor",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
-          "signal": "Your Open Source Model Could Have a Hidden Time-Release Backdoor"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
@@ -361,9 +337,68 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://github.com/ThinkOffApp/CarWatch",
-          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
+          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
+          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
+          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Fg1yEWtG4QU",
+          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai​"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UwswiOSn3B8",
+          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | Chintoo #ai​"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=650s1CGofqI",
+          "signal": "‎Chudail |Bhoot|Ghost|Horror video | Bhoot wala cartoon | Cartoon wala bhoot | Chintoo #ai‎‎ #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nkcoksFvC90",
+          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai"
         }
       ],
       "content_ideas": []
@@ -398,6 +433,51 @@
       "content_ideas": []
     },
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
+          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xsZkRFAiSXU",
+          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
+          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
@@ -426,13 +506,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy5rc2/i_want_my_chatgpt_to_be_english_instead_it/",
-          "signal": "I want my ChatGPT to be English - instead it constantly forces the language of my current location into everything"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo16o/i_asked_chatgpt_to_recreate_what_freshly_painted/",
+          "signal": "I asked ChatGPT to recreate what freshly painted 1st-century Roman frescoes might have looked like."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxbys8/netflix_vs_chatgpt/",
-          "signal": "netflix vs chatgpt"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
+          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vyhfct/openai_bans_russialinked_chatgpt_accounts/",
+          "signal": "OpenAI bans Russia-linked ChatGPT accounts promoting a think tank built on copied papers"
         },
         {
           "platform": "reddit",
@@ -441,13 +526,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxxl24/copilot_tries_to_frame_chatgpt/",
-          "signal": "Copilot tries to frame ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vxhzus/we_both_asked_our_own_chatgpt_and_now_were_both/",
-          "signal": "We both asked our own ChatGPT and now we're both definitely right"
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vy1wvk/cancelled_chatgpt_since_it_became_unusable_for/",
+          "signal": "Cancelled ChatGPT since it became unusable for biosciences"
         }
       ],
       "content_ideas": []
@@ -467,6 +547,30 @@
       "content_opportunity": ""
     },
     {
+      "problem": "New $100 Business Plan (2 seat minimum). They finally did it. My team just switched over. This is why 5h limits are back.",
+      "who_affected": "r/OpenAI",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vygebh/new_100_business_plan_2_seat_minimum_they_finally/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "ChatGPT (EFFORT) issue",
+      "who_affected": "r/OpenAI",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vya19w/chatgpt_effort_issue/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Ok, now THIS is frustrating... 30 mins thinking only to shut itself down before answering",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
@@ -479,29 +583,29 @@
       "content_opportunity": ""
     },
     {
-      "problem": "ChatGPT (EFFORT) issue",
-      "who_affected": "r/ChatGPT",
+      "problem": "What is 5hr limit and im frequently getting a reset any news from the company that i may have missed",
+      "who_affected": "r/OpenAI",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vya123/chatgpt_effort_issue/"
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vye81s/what_is_5hr_limit_and_im_frequently_getting_a/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Something I tried, that ChatGPT failed at.",
-      "who_affected": "r/ChatGPT",
+      "problem": "Codex Usage Limit",
+      "who_affected": "r/OpenAI",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyh5f6/something_i_tried_that_chatgpt_failed_at/"
+          "url": "https://www.reddit.com/r/OpenAI/comments/1vyi0l6/codex_usage_limit/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Apple introduces M6 and M5 Ultra — strongest signal this cycle"
 }
