@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:17:51.301317+00:00",
+  "generated_at": "2026-08-26T20:05:06.491735+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 28,
+      "reddit": 36,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,9 +45,10 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -71,34 +72,34 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz39mr/fell_asleep_with_voice_mode_on_snoring_when/",
+          "signal": "fell asleep with voice mode on, snoring, when ChatGPT:"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz40ol/i_asked_chatgpt_to_create_retrofuturist_cosmic/",
+          "signal": "I asked ChatGPT to create retro-futurist cosmic surrealism, this is what it came up with"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo16o/i_asked_chatgpt_to_recreate_what_freshly_painted/",
           "signal": "I asked ChatGPT to recreate what freshly painted 1st-century Roman frescoes might have looked like."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvwbh/for_no_reason_at_all_chatgpt_has_become_muted/",
-          "signal": "For no reason at all, ChatGPT has become muted"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6aml/found_out_my_existing_chatgpt_plan_can_be_used_to/",
+          "signal": "Found out my existing chatgpt plan can be used to build stuff outside of chatgpt and I'm mildly annoyed nobody mentioned it"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvpzq/i_stopped_asking_chatgpt_for_instructions_and/",
-          "signal": "I stopped asking ChatGPT for instructions and started asking for one click"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vygqua/has_anyone_figured_out_a_sane_way_to_archive/",
-          "signal": "Has anyone figured out a sane way to archive years of ChatGPT conversations into an actual usable “external memory”?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
-          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6t3i/whats_up_with_chatgpt_and_generating_a_completely/",
+          "signal": "What's up with Chatgpt and generating a completely different image that I request it to edit?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Coding expertise is going to collapse from AI reliance",
+      "name": "GLM-5.3-Flash",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -118,8 +119,40 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
-          "signal": "Coding expertise is going to collapse from AI reliance"
+          "url": "https://z.ai/blog/glm-5.3-flash",
+          "signal": "GLM-5.3-Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "signal": "Qwen3.8-Flash-Next"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
         }
       ],
       "content_ideas": []
@@ -164,7 +197,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -174,6 +207,33 @@
           "platform": "hackernews",
           "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
           "signal": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Bill Gates: The turbulent AI era is here",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+          "signal": "Bill Gates: The turbulent AI era is here"
         }
       ],
       "content_ideas": []
@@ -207,38 +267,6 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/ThinkOffApp/CarWatch",
-          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-          "signal": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "U.S. gov't moves to suppress pushback on data centers",
       "category": "use_case",
       "momentum": "rising",
@@ -251,7 +279,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -266,7 +294,34 @@
       "content_ideas": []
     },
     {
-      "name": "Fences, Not Sandboxes",
+      "name": "Fake US thinktank set up and funded by Israel sought to game AI for pr",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "signal": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The turbulent AI era is here",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -286,14 +341,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://yegge.ai/essays/fences-not-sandboxes/",
-          "signal": "Fences, Not Sandboxes"
+          "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+          "signal": "The turbulent AI era is here"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Ox-Alpha Is GLM?",
+      "name": "It’s so hard to finish an idea that is not yours and is just suggested",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -313,79 +368,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://dejan.ai/blog/ox-alpha/",
-          "signal": "Ox-Alpha Is GLM?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Fg1yEWtG4QU",
-          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai​"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UwswiOSn3B8",
-          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | Chintoo #ai​"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=650s1CGofqI",
-          "signal": "‎Chudail |Bhoot|Ghost|Horror video | Bhoot wala cartoon | Cartoon wala bhoot | Chintoo #ai‎‎ #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkcoksFvC90",
-          "signal": "Chudail | Bhoot | Ghost | Horror video | Bhoot wala cartoon | Cartoon wala bhoot | #ai"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Disrupting a new covert influence campaign from Russia",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/",
-          "signal": "Disrupting a new covert influence campaign from Russia"
+          "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+          "signal": "It’s so hard to finish an idea that is not yours and is just suggested by AI"
         }
       ],
       "content_ideas": []
@@ -405,7 +389,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -413,13 +397,13 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/ThinkOffApp/CarWatch",
-          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "signal": "Qwen3.8-Flash-Next"
         },
         {
           "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-          "signal": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency"
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
         }
       ],
       "content_ideas": []
@@ -427,9 +411,10 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -453,28 +438,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz39mr/fell_asleep_with_voice_mode_on_snoring_when/",
+          "signal": "fell asleep with voice mode on, snoring, when ChatGPT:"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz40ol/i_asked_chatgpt_to_create_retrofuturist_cosmic/",
+          "signal": "I asked ChatGPT to create retro-futurist cosmic surrealism, this is what it came up with"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo16o/i_asked_chatgpt_to_recreate_what_freshly_painted/",
           "signal": "I asked ChatGPT to recreate what freshly painted 1st-century Roman frescoes might have looked like."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvwbh/for_no_reason_at_all_chatgpt_has_become_muted/",
-          "signal": "For no reason at all, ChatGPT has become muted"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6aml/found_out_my_existing_chatgpt_plan_can_be_used_to/",
+          "signal": "Found out my existing chatgpt plan can be used to build stuff outside of chatgpt and I'm mildly annoyed nobody mentioned it"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyvpzq/i_stopped_asking_chatgpt_for_instructions_and/",
-          "signal": "I stopped asking ChatGPT for instructions and started asking for one click"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vygqua/has_anyone_figured_out_a_sane_way_to_archive/",
-          "signal": "Has anyone figured out a sane way to archive years of ChatGPT conversations into an actual usable “external memory”?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo6cr/i_created_a_custom_plugin_that_lets_chatgpt/",
-          "signal": "I created a custom plugin that lets ChatGPT update a widget on my Home Screen"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6t3i/whats_up_with_chatgpt_and_generating_a_completely/",
+          "signal": "What's up with Chatgpt and generating a completely different image that I request it to edit?"
         }
       ],
       "content_ideas": []
@@ -494,25 +479,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "NEW USAGE LIMITS?",
+      "problem": "Wtf is this junk, I paid for chatgpt plus $20 a month and I tried using work for the first time, it thought for 20 minutes, then didn't give",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vy1qco/new_usage_limits/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "The new 5h limit made using Sol irrelevant for plus sub",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyrzsl/the_new_5h_limit_made_using_sol_irrelevant_for/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz7ph8/wtf_is_this_junk_i_paid_for_chatgpt_plus_20_a/"
         }
       ],
       "content_opportunity": ""
