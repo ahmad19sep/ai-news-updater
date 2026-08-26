@@ -15,14 +15,14 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://www.nature.com/articles/d41586-026-02632-z
 4. **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
-5. **Patients wary of governments, companies pushing AI as a rural healthcare solution - North Dakota Monitor** — science angle
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxQczJwWjJQaEgwWjZSN1pWMVBmV2RvT2czdUFLSTM4UnFZdkF5OGEyRWUydkRVQ0h3NDhpbnNhTWtNRklhZmVKMzBPUy04V1JkZkJQWmZMRU5PZkQwcmUtblI3QlVhZEd2bS1LZHE1d1FYNUJWc2xjVEhGZHdHS0RDUjZyY3Z3WS1VZWJlbFpvdldLQjJQREh6WUNlMTlQdjdfOHpqVDY2ZTFXbm5WWU9Pc0Z5ZFpNS0p2Z2k4Y2pTb3M?oc=5
-6. **The AI Doctor's 'Oracle Problem' - StartupHub.ai** — science angle
+5. **The AI Doctor's 'Oracle Problem' - StartupHub.ai** — science angle
    https://news.google.com/rss/articles/CBMijAFBVV95cUxOaHc1UHBwb3NXVkRtSVc4SDdqMlJfdGdMbDk1MUhOSTQwUjllbURGS0tOR2R2cDN5UE5sdFpPeWp4OW9pMG9XNzJ0V3hsS0I2TVpCbFAxZG0wVTBwaXVpcXYxSW52NUVRdllVQ21ZdmFzMllkZV82djc2QThTMTlscDF6TmJMSlBHeDFudg?oc=5
-7. **National AI project screens over 43,000 diabetic patients to prevent vision loss in Oman** — science angle
+6. **National AI project screens over 43,000 diabetic patients to prevent vision loss in Oman** — science angle
    https://timesofoman.com//article/175984-national-ai-project-screens-over-43000-diabetic-patients-to-prevent-vision-loss-in-oman
-8. **AI and the future of doctors - Philstar Life** — science angle
+7. **AI and the future of doctors - Philstar Life** — science angle
    https://news.google.com/rss/articles/CBMickFVX3lxTFAyX3RTa3BZRXE0VHhvbWFrQ1hoVDBqdVVxZnMzTGJ3VlhMbm1mUmpQSERENGZzUVd0WlRXSkMtZnpwZ3RaY0NMb1lCTzJCU1RfZVdodHRxZ0NTTFl0RVl2V3ZGdjJSTXowVjdneWNfNFdDUQ?oc=5
+8. **Man charged with impersonating doctors to obtain GLP-1 drugs; FDA asks how to regulate generative AI devices; a suicide risk factor screening can miss — Morning Medical Update - Medical Economics** — science angle
+   https://news.google.com/rss/articles/CBMiswJBVV95cUxQR0J0RVpNVzdHMWRiVVVQSWl0T0tHaUxjRkVHdFp4Wm5aa3k3YWN4eVJGOFdxTHkwVGpzNGl1RUxsTk9pWmdIckFYVGo4anNNaUJCVzhZWjZ4ZnZJUVFIZnB4S2RwUmtCazlXUXBmN0lYRzF2eFBjNzBJYjBSV2RqckltMVRoSmVzS1EyTHlTajV3VlJNWkQ3WFNMRzlleFdVTk5hQy1vQVBnbnRxaDZ1Y09yeVhLaVA3cnluM3ZtN1FiN0Q1dF94QlNCem5tSGJ3RlN6ODBuNzFIamVZOGJvNEE3M0p6ZzNBeTM0dHpmbFBjRnZjZ3VwaEd6YkpZUlRtTEtRWkp1dU5HM0xmZHZQaWlUMU1yY0xDSW5WbHRQNjE1bWhSVUdOZ1BBN1FSZTM3N0ZF?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 106
