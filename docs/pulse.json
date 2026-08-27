@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T09:53:06.259957+00:00",
+  "generated_at": "2026-08-27T22:17:45.126375+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,44 +8,17 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 42,
+      "reddit": 25,
+      "hackernews": 47,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
     {
-      "name": "Apple introduces M6 and M5 Ultra",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-          "signal": "Apple introduces M6 and M5 Ultra"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -55,7 +28,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 8,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -71,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzv95d/asked_chatgpt_for_a_professional_b2b_app_icon_it/",
+          "signal": "Asked ChatGPT for a professional B2B app icon. It gave me a gay dating app instead."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vzlxww/chatgpt_hates_humans/",
           "signal": "ChatGPT hates humans"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz39mr/fell_asleep_with_voice_mode_on_snoring_when/",
-          "signal": "fell asleep with voice mode on, snoring, when ChatGPT:"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w00x6g/openai_to_start_showing_ads_on_chatgpts_free_and/",
+          "signal": "OpenAI to start showing ads on ChatGPT's free and Go tiers in India | TechCrunch"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz40ol/i_asked_chatgpt_to_create_retrofuturist_cosmic/",
-          "signal": "I asked ChatGPT to create retro-futurist cosmic surrealism, this is what it came up with"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w03zp8/chatgpt_is_inventing_new_words/",
+          "signal": "ChatGPT is inventing New words 🤪"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzbfs0/chatgpt_is_great_for_creating_rpg_images/",
-          "signal": "ChatGPT is great for creating RPG images"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vznnc1/translate_text_into_chatgpt_ahh/",
-          "signal": "Translate text into chatgpt ahh"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w02e3l/new_chatgpt_lets_users_save_temporary_chats_and/",
+          "signal": "NEW: ChatGPT lets users save Temporary Chats and opt into personalization"
         }
       ],
       "content_ideas": []
@@ -125,44 +98,6 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-          "signal": "Qwen3.8-Flash-Next"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/ThinkOffApp/CarWatch",
-          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1vyxbp9/qwen_38_flash_next_beating_ds_v4_flash_at_half/",
-          "signal": "Qwen 3.8 Flash Next: Beating DS V4 Flash at half the parameters, stronger than Opus 4.6"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "CEO fired developers to make room for AI. Developers create open sourc",
       "category": "use_case",
       "momentum": "rising",
@@ -190,36 +125,9 @@
       "content_ideas": []
     },
     {
-      "name": "How much of HN is AI?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
-          "signal": "How much of HN is AI?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its ",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -231,14 +139,14 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
-          "signal": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights"
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "signal": "Qwen3.8-Flash-Next"
         }
       ],
       "content_ideas": []
@@ -271,7 +179,64 @@
       "content_ideas": []
     },
     {
-      "name": "Bill Gates: The turbulent AI era is here",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+          "signal": "Gemini Omni 1.1 Flash"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+          "signal": "Gemini-3.5-Transcribe"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzp6z3/same_prompt_totally_different_response_gemini_vs/",
+          "signal": "Same prompt - Totally different response - Gemini vs GPT"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
+          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NhBvXu1QofE",
+          "signal": "Instagram Trending Couple Photo Editing Chatgpt Prompt | Chatgpt &amp; Gemini Prompt | Couple Prompt"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
+          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -291,8 +256,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
-          "signal": "Bill Gates: The turbulent AI era is here"
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+          "signal": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights"
         }
       ],
       "content_ideas": []
@@ -310,7 +275,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -320,6 +285,33 @@
           "platform": "hackernews",
           "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
           "signal": "It’s so hard to finish an idea that is not yours and is just suggested by AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Air Conditioning Is Not a Luxury, It Is a Necessity",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://humanprogress.org/ac-is-not-a-luxury-it-is-a-necessity/",
+          "signal": "Air Conditioning Is Not a Luxury, It Is a Necessity"
         }
       ],
       "content_ideas": []
@@ -352,19 +344,18 @@
       "content_ideas": []
     },
     {
-      "name": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "name": "Fake US thinktank set up and funded by Israel sought to game AI for pr",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
@@ -373,8 +364,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-          "signal": "AI is hitting entry-level jobs hardest, Stanford study finds"
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "signal": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Humanity has the debate about AI consciousness backwards",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards",
+          "signal": "Humanity has the debate about AI consciousness backwards"
         }
       ],
       "content_ideas": []
@@ -382,19 +400,23 @@
   ],
   "rising_tools": [
     {
-      "name": "Qwen",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
-        "reddit"
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -403,18 +425,33 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-          "signal": "Qwen3.8-Flash-Next"
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+          "signal": "Gemini Omni 1.1 Flash"
         },
         {
           "platform": "hackernews",
-          "url": "https://github.com/ThinkOffApp/CarWatch",
-          "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+          "signal": "Gemini-3.5-Transcribe"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1vyxbp9/qwen_38_flash_next_beating_ds_v4_flash_at_half/",
-          "signal": "Qwen 3.8 Flash Next: Beating DS V4 Flash at half the parameters, stronger than Opus 4.6"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzp6z3/same_prompt_totally_different_response_gemini_vs/",
+          "signal": "Same prompt - Totally different response - Gemini vs GPT"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
+          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NhBvXu1QofE",
+          "signal": "Instagram Trending Couple Photo Editing Chatgpt Prompt | Chatgpt &amp; Gemini Prompt | Couple Prompt"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
+          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
         }
       ],
       "content_ideas": []
@@ -422,7 +459,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -432,7 +469,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 8,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -448,28 +485,55 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzv95d/asked_chatgpt_for_a_professional_b2b_app_icon_it/",
+          "signal": "Asked ChatGPT for a professional B2B app icon. It gave me a gay dating app instead."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vzlxww/chatgpt_hates_humans/",
           "signal": "ChatGPT hates humans"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz39mr/fell_asleep_with_voice_mode_on_snoring_when/",
-          "signal": "fell asleep with voice mode on, snoring, when ChatGPT:"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w00x6g/openai_to_start_showing_ads_on_chatgpts_free_and/",
+          "signal": "OpenAI to start showing ads on ChatGPT's free and Go tiers in India | TechCrunch"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz40ol/i_asked_chatgpt_to_create_retrofuturist_cosmic/",
-          "signal": "I asked ChatGPT to create retro-futurist cosmic surrealism, this is what it came up with"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w03zp8/chatgpt_is_inventing_new_words/",
+          "signal": "ChatGPT is inventing New words 🤪"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzbfs0/chatgpt_is_great_for_creating_rpg_images/",
-          "signal": "ChatGPT is great for creating RPG images"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w02e3l/new_chatgpt_lets_users_save_temporary_chats_and/",
+          "signal": "NEW: ChatGPT lets users save Temporary Chats and opt into personalization"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vznnc1/translate_text_into_chatgpt_ahh/",
-          "signal": "Translate text into chatgpt ahh"
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "signal": "Qwen3.8-Flash-Next"
         }
       ],
       "content_ideas": []
@@ -477,17 +541,29 @@
   ],
   "pain_points": [
     {
-      "problem": "Another crash during practices ahead of the Worldwide Humanoid Robot Games",
-      "who_affected": "r/singularity",
+      "problem": "sora has officially removed everyone’s accounts",
+      "who_affected": "r/ChatGPT",
       "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1vtqssh/another_crash_during_practices_ahead_of_the/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzry63/sora_has_officially_removed_everyones_accounts/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Work Mode / Codex 5-Hour Limit Mitigation",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w06yoo/work_mode_codex_5hour_limit_mitigation/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Apple introduces M6 and M5 Ultra — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
