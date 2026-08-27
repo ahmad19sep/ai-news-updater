@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:05:06.491735+00:00",
+  "generated_at": "2026-08-27T09:53:06.259957+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 36,
-      "hackernews": 34,
+      "reddit": 50,
+      "hackernews": 42,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,10 +45,9 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -56,7 +55,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -72,6 +71,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzlxww/chatgpt_hates_humans/",
+          "signal": "ChatGPT hates humans"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vz39mr/fell_asleep_with_voice_mode_on_snoring_when/",
           "signal": "fell asleep with voice mode on, snoring, when ChatGPT:"
         },
@@ -82,18 +86,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo16o/i_asked_chatgpt_to_recreate_what_freshly_painted/",
-          "signal": "I asked ChatGPT to recreate what freshly painted 1st-century Roman frescoes might have looked like."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzbfs0/chatgpt_is_great_for_creating_rpg_images/",
+          "signal": "ChatGPT is great for creating RPG images"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6aml/found_out_my_existing_chatgpt_plan_can_be_used_to/",
-          "signal": "Found out my existing chatgpt plan can be used to build stuff outside of chatgpt and I'm mildly annoyed nobody mentioned it"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6t3i/whats_up_with_chatgpt_and_generating_a_completely/",
-          "signal": "What's up with Chatgpt and generating a completely different image that I request it to edit?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vznnc1/translate_text_into_chatgpt_ahh/",
+          "signal": "Translate text into chatgpt ahh"
         }
       ],
       "content_ideas": []
@@ -130,7 +129,8 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -153,6 +153,38 @@
           "platform": "hackernews",
           "url": "https://github.com/ThinkOffApp/CarWatch",
           "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1vyxbp9/qwen_38_flash_next_beating_ds_v4_flash_at_half/",
+          "signal": "Qwen 3.8 Flash Next: Beating DS V4 Flash at half the parameters, stronger than Opus 4.6"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "CEO fired developers to make room for AI. Developers create open sourc",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/SenteLabsAI/OpenExecutive",
+          "signal": "CEO fired developers to make room for AI. Developers create open source AI CEO"
         }
       ],
       "content_ideas": []
@@ -212,7 +244,61 @@
       "content_ideas": []
     },
     {
+      "name": "The turbulent AI era is here",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+          "signal": "The turbulent AI era is here"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Bill Gates: The turbulent AI era is here",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+          "signal": "Bill Gates: The turbulent AI era is here"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "It’s so hard to finish an idea that is not yours and is just suggested",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -232,8 +318,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
-          "signal": "Bill Gates: The turbulent AI era is here"
+          "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+          "signal": "It’s so hard to finish an idea that is not yours and is just suggested by AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "U.S. gov't moves to suppress pushback on data centers",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+          "signal": "U.S. gov't moves to suppress pushback on data centers"
         }
       ],
       "content_ideas": []
@@ -265,114 +378,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "U.S. gov't moves to suppress pushback on data centers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
-          "signal": "U.S. gov't moves to suppress pushback on data centers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Fake US thinktank set up and funded by Israel sought to game AI for pr",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-          "signal": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The turbulent AI era is here",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-          "signal": "The turbulent AI era is here"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "It’s so hard to finish an idea that is not yours and is just suggested",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
-          "signal": "It’s so hard to finish an idea that is not yours and is just suggested by AI"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -381,7 +386,8 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -404,6 +410,11 @@
           "platform": "hackernews",
           "url": "https://github.com/ThinkOffApp/CarWatch",
           "signal": "Show HN: I made a Raspberry with Qwen my local car AI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1vyxbp9/qwen_38_flash_next_beating_ds_v4_flash_at_half/",
+          "signal": "Qwen 3.8 Flash Next: Beating DS V4 Flash at half the parameters, stronger than Opus 4.6"
         }
       ],
       "content_ideas": []
@@ -411,10 +422,9 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -422,7 +432,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -438,6 +448,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzlxww/chatgpt_hates_humans/",
+          "signal": "ChatGPT hates humans"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vz39mr/fell_asleep_with_voice_mode_on_snoring_when/",
           "signal": "fell asleep with voice mode on, snoring, when ChatGPT:"
         },
@@ -448,18 +463,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyo16o/i_asked_chatgpt_to_recreate_what_freshly_painted/",
-          "signal": "I asked ChatGPT to recreate what freshly painted 1st-century Roman frescoes might have looked like."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzbfs0/chatgpt_is_great_for_creating_rpg_images/",
+          "signal": "ChatGPT is great for creating RPG images"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6aml/found_out_my_existing_chatgpt_plan_can_be_used_to/",
-          "signal": "Found out my existing chatgpt plan can be used to build stuff outside of chatgpt and I'm mildly annoyed nobody mentioned it"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz6t3i/whats_up_with_chatgpt_and_generating_a_completely/",
-          "signal": "What's up with Chatgpt and generating a completely different image that I request it to edit?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vznnc1/translate_text_into_chatgpt_ahh/",
+          "signal": "Translate text into chatgpt ahh"
         }
       ],
       "content_ideas": []
@@ -467,25 +477,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Reverse 5 hour limits now! One prompt ate whole 5hourly limit and didn't even get anything done",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "problem": "Another crash during practices ahead of the Worldwide Humanoid Robot Games",
+      "who_affected": "r/singularity",
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vyqktf/reverse_5_hour_limits_now_one_prompt_ate_whole/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Wtf is this junk, I paid for chatgpt plus $20 a month and I tried using work for the first time, it thought for 20 minutes, then didn't give",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vz7ph8/wtf_is_this_junk_i_paid_for_chatgpt_plus_20_a/"
+          "url": "https://www.reddit.com/r/singularity/comments/1vtqssh/another_crash_during_practices_ahead_of_the/"
         }
       ],
       "content_opportunity": ""
