@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 19 Aug 2026 to 26 Aug 2026
+# 🗞️ AI THIS WEEK — 20 Aug 2026 to 27 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **Elon releases Human Wisdom Toolkit for the Age of AI**
@@ -17,12 +17,12 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
 5. **Assessing students in the AI era** — science angle
    https://www.nature.com/articles/d41586-026-02632-z
-6. **Man charged with impersonating doctors to obtain GLP-1 drugs; FDA asks how to regulate generative AI devices; a suicide risk factor screening can miss — Morning Medical Update - Medical Economics** — science angle
-   https://news.google.com/rss/articles/CBMiswJBVV95cUxQR0J0RVpNVzdHMWRiVVVQSWl0T0tHaUxjRkVHdFp4Wm5aa3k3YWN4eVJGOFdxTHkwVGpzNGl1RUxsTk9pWmdIckFYVGo4anNNaUJCVzhZWjZ4ZnZJUVFIZnB4S2RwUmtCazlXUXBmN0lYRzF2eFBjNzBJYjBSV2RqckltMVRoSmVzS1EyTHlTajV3VlJNWkQ3WFNMRzlleFdVTk5hQy1vQVBnbnRxaDZ1Y09yeVhLaVA3cnluM3ZtN1FiN0Q1dF94QlNCem5tSGJ3RlN6ODBuNzFIamVZOGJvNEE3M0p6ZzNBeTM0dHpmbFBjRnZjZ3VwaEd6YkpZUlRtTEtRWkp1dU5HM0xmZHZQaWlUMU1yY0xDSW5WbHRQNjE1bWhSVUdOZ1BBN1FSZTM3N0ZF?oc=5
-7. **AI May Not Replace Your Doctor, But It Will Change What You Need Them For - TechRound** — science angle
-   https://news.google.com/rss/articles/CBMivgFBVV95cUxOV0otN1FMOEtJSWFiYmN5ek11RHFhUDdHYkJ5VG55WjNTZHBCVDZRZ1QzMU9zdmcxUi1vQnowTm5CUXdkV2U5cUtFTXVUdFdjYVBtVW9SUEJTMXA3QUpjdkRfMEdHN2cwaExOS2xBb2QyNURONldqQ3V0UVRhMUpJU2FXS1l3NmNIVjNwUHlOLXFjVWo2V2stZlluQkRfMVJtZEFQbFVXN0NRaVNSV1VQWU5FeWozMHV6RUYwQWtn?oc=5
-8. **Rural patients wary of AI healthcare push despite federal funding** — science angle
+6. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
+   https://www.bbc.com/news/articles/cjwg5n7y68xo
+7. **Rural patients wary of AI healthcare push despite federal funding** — science angle
    https://completeaitraining.com/news/rural-patients-wary-of-ai-healthcare-push-despite-federal/
+8. **AI Medical Advice Can Affect Patient Trust in Doctors - Telehealth.org** — science angle
+   https://news.google.com/rss/articles/CBMijgFBVV95cUxOYVIzMWN0UDBoWHpIQWFEeXZOZFY5SFhSUFpYSFEtVHk3T18wZENqcDZ3RVh0WkN2UzdjQ28xYWh0UzRYUE9aSU1ReTJndjFfSjdTSkhZbjhCbjF0NkVVMGlQU0UzMGJGbXpQMm1rWGhRVkpDNk1WcE96bDljUkcxaURZQ01QM3Z4MTJsSjBB?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 106
@@ -33,18 +33,18 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
    https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
 4. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
    https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
-5. **OpenSesame expands AI, leadership & safety courses** — itbrief_com_au — Score 83
-   https://itbrief.com.au/story/opensesame-expands-ai-leadership-safety-courses
-6. **Intezer adds automated response workflows to AI SOC** — securitybrief_au — Score 83
-   https://securitybrief.com.au/story/intezer-adds-automated-response-workflows-to-ai-soc
-7. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
+5. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
    https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-8. **As AI grips world, the thrill of collecting vintage computers is growing** — pressdemocrat — Score 73
+6. **As AI grips world, the thrill of collecting vintage computers is growing** — pressdemocrat — Score 73
    https://www.pressdemocrat.com/2026/08/21/vintage-computer-collecting/
-9. **A battle over 'Italian brainrot' could shape who owns AI art - capradio.org** — Using AI To... — Score 70
+7. **A battle over 'Italian brainrot' could shape who owns AI art - capradio.org** — Using AI To... — Score 70
    https://news.google.com/rss/articles/CBMibkFVX3lxTFBMUHVEbzhZdHFzUmV3UFRJbFhzZTlnV1MwX2JqY29BVENSaWM3YkFiS191N1BwYnR6YjRXVm1NeXFnYmlXbUVFODFqY0hxd0JtdjJjY2ZPSnRyazZiSFlKMzJJTlMtSUVkOEhvdElR?oc=5
-10. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 66.0
+8. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 66.0
    https://www.perthnow.com.au/news/politics/rapidly-losing-the-public-expert-backs-ai-reforms-c-22776905
+9. **Mistral and HUMAIN Announce Strategic Collaboration to Advance Sovereign AI in Saudi Arabia and Regionally - PR Newswire** — Mistral News — Score 60
+   https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaFRtbnR2TFhPM2lMbFlOM1pndXRKNWFlZEl4VnVFSERicXBYZ25LWTYxU0JwUDgwR25MSUczbGN4MUprVWFtWUVEX2FDYTdQbkgxOHBGYTJ1a1FLTVNIN19YUGNGN0J2a0ZlQ3JuWnFyMDFaWV9mMGlURi1fVDllcDJ3Q195TWZUaENzNlYyLVJjd1hERndQcWNQZ2FLZTMxbHQyZ2cyVmhFanhldnlYUTF2M2J4eWhyMGZIRGVELWZ3Q2FQYXJnQUdQWGFNMG81YTVURlJXNEtFUTNWV1JUcTJDMGNOYlYyc19uck1LMzJubGQ4?oc=5
+10. **China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com** — DeepSeek News — Score 60
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctor unveils AI governance test for human parity** — https://securitybrief.asia/story/doctor-unveils-ai-governance-test-for-human-parity
@@ -54,7 +54,7 @@ All coverage: https://www.postguam.com/news/national/elon-releases-human-wisdom-
 - **AI is now deciding who gets healthcare in 6 US states – and it's already harming patients - BBC Science Focus Magazine** — https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2tIY05zQ0MwODFOUHIwdU0xMUVLWWRsV0J5dFhtQkRNVHFGamxLTXJPYnBLZHlwVXByRkZpRlJ5eVFUSzB6bzg2MUhvSDJCT3NVM1FWeXpYNnl1TnNSZmRwSmphYVhlU1NIdTZ6VGZBbTE4Z0tkUGExMHBiQzBvNQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3637
+- Total stories tracked: 3592
 - Most active topic: nvidia
 - Busiest category: AI General News
 
