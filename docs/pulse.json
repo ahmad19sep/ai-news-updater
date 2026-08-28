@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T22:17:45.126375+00:00",
+  "generated_at": "2026-08-28T11:27:14.498864+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 47,
+      "reddit": 32,
+      "hackernews": 44,
       "youtube": 106
     },
     "llm_provider": null
@@ -28,7 +28,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/",
+          "signal": "The worst thing about ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vzv95d/asked_chatgpt_for_a_professional_b2b_app_icon_it/",
           "signal": "Asked ChatGPT for a professional B2B app icon. It gave me a gay dating app instead."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzlxww/chatgpt_hates_humans/",
-          "signal": "ChatGPT hates humans"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0fqyg/chatgpt_has_become_proper_australian/",
+          "signal": "ChatGPT has become proper Australian"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0jh1w/i_started_asking_chatgpt_to_create_images_using/",
+          "signal": "I started asking ChatGPT to create images using everything it already knows about me. Here are 30 prompts to try it yourself."
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w00x6g/openai_to_start_showing_ads_on_chatgpts_free_and/",
           "signal": "OpenAI to start showing ads on ChatGPT's free and Go tiers in India | TechCrunch"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w03zp8/chatgpt_is_inventing_new_words/",
-          "signal": "ChatGPT is inventing New words 🤪"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w02e3l/new_chatgpt_lets_users_save_temporary_chats_and/",
-          "signal": "NEW: ChatGPT lets users save Temporary Chats and opt into personalization"
         }
       ],
       "content_ideas": []
@@ -125,6 +125,57 @@
       "content_ideas": []
     },
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+          "signal": "Gemini Omni 1.1 Flash"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+          "signal": "Gemini-3.5-Transcribe"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
+          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
+          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Qwen",
       "category": "tool_launch",
       "momentum": "hot",
@@ -152,117 +203,6 @@
       "content_ideas": []
     },
     {
-      "name": "The turbulent AI era is here",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-          "signal": "The turbulent AI era is here"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-          "signal": "Gemini Omni 1.1 Flash"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-          "signal": "Gemini-3.5-Transcribe"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzp6z3/same_prompt_totally_different_response_gemini_vs/",
-          "signal": "Same prompt - Totally different response - Gemini vs GPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
-          "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NhBvXu1QofE",
-          "signal": "Instagram Trending Couple Photo Editing Chatgpt Prompt | Chatgpt &amp; Gemini Prompt | Couple Prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
-          "signal": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "It’s so hard to finish an idea that is not yours and is just suggested",
       "category": "use_case",
       "momentum": "rising",
@@ -275,7 +215,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -285,6 +225,33 @@
           "platform": "hackernews",
           "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
           "signal": "It’s so hard to finish an idea that is not yours and is just suggested by AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Humanity has the debate about AI consciousness backwards",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards",
+          "signal": "Humanity has the debate about AI consciousness backwards"
         }
       ],
       "content_ideas": []
@@ -317,7 +284,7 @@
       "content_ideas": []
     },
     {
-      "name": "U.S. gov't moves to suppress pushback on data centers",
+      "name": "The turbulent AI era is here",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -337,8 +304,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
-          "signal": "U.S. gov't moves to suppress pushback on data centers"
+          "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+          "signal": "The turbulent AI era is here"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Please stop flooding our projects with AI slop to furnish your CV",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+          "signal": "Please stop flooding our projects with AI slop to furnish your CV"
         }
       ],
       "content_ideas": []
@@ -371,11 +365,12 @@
       "content_ideas": []
     },
     {
-      "name": "Humanity has the debate about AI consciousness backwards",
+      "name": "Two German airport workers die of malaria after 'mosquito arrives on p",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -391,8 +386,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards",
-          "signal": "Humanity has the debate about AI consciousness backwards"
+          "url": "https://www.bbc.com/news/articles/cz6zwgg9y8go",
+          "signal": "Two German airport workers die of malaria after 'mosquito arrives on plane'"
         }
       ],
       "content_ideas": []
@@ -408,7 +403,6 @@
         "hackernews",
         "instagram_inferred",
         "linkedin_inferred",
-        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -434,24 +428,19 @@
           "signal": "Gemini-3.5-Transcribe"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzp6z3/same_prompt_totally_different_response_gemini_vs/",
-          "signal": "Same prompt - Totally different response - Gemini vs GPT"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lbtVtC1UcWg",
           "signal": "AI News: Gemini Removes Watermarks, Incredible New ChatGPT Tool, Claude Cowork Update and More"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NhBvXu1QofE",
-          "signal": "Instagram Trending Couple Photo Editing Chatgpt Prompt | Chatgpt &amp; Gemini Prompt | Couple Prompt"
+          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
+          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -469,7 +458,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -485,28 +474,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/",
+          "signal": "The worst thing about ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vzv95d/asked_chatgpt_for_a_professional_b2b_app_icon_it/",
           "signal": "Asked ChatGPT for a professional B2B app icon. It gave me a gay dating app instead."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzlxww/chatgpt_hates_humans/",
-          "signal": "ChatGPT hates humans"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0fqyg/chatgpt_has_become_proper_australian/",
+          "signal": "ChatGPT has become proper Australian"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0jh1w/i_started_asking_chatgpt_to_create_images_using/",
+          "signal": "I started asking ChatGPT to create images using everything it already knows about me. Here are 30 prompts to try it yourself."
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w00x6g/openai_to_start_showing_ads_on_chatgpts_free_and/",
           "signal": "OpenAI to start showing ads on ChatGPT's free and Go tiers in India | TechCrunch"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w03zp8/chatgpt_is_inventing_new_words/",
-          "signal": "ChatGPT is inventing New words 🤪"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w02e3l/new_chatgpt_lets_users_save_temporary_chats_and/",
-          "signal": "NEW: ChatGPT lets users save Temporary Chats and opt into personalization"
         }
       ],
       "content_ideas": []
@@ -541,25 +530,25 @@
   ],
   "pain_points": [
     {
-      "problem": "sora has officially removed everyone’s accounts",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzry63/sora_has_officially_removed_everyones_accounts/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Work Mode / Codex 5-Hour Limit Mitigation",
+      "problem": "5 hour limit s*cks",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w06yoo/work_mode_codex_5hour_limit_mitigation/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0k1au/5_hour_limit_scks/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "sora has officially removed everyone’s accounts",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vzry63/sora_has_officially_removed_everyones_accounts/"
         }
       ],
       "content_opportunity": ""
