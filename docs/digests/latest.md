@@ -7,22 +7,22 @@ Best source link: https://www.ctinsider.com/news/world/article/workers-in-china-
 All coverage: https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.greenwichtime.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.beaumontenterprise.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.newstimes.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php · https://www.livemint.com/technology/workers-in-china-worry-over-being-replaced-as-they-adapt-to-the-growing-impact-of-ai-on-jobs-11787543029673.html · https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/08/23/workers-in-china-worry-over-being-replaced-as-they-adapt-to-the-growing-impact-of-ai-on-jobs · https://www.seattletimes.com/business/workers-in-china-worry-over-being-replaced-as-they-adapt-to-the-growing-impact-of-ai-on-jobs/ · https://www.newsday.com/business/china-ai-jobs-unemployment-youth-a03701 · https://techxplore.com/news/2026-08-workers-china-impact-ai-jobs.html · https://biztoc.com/x/1d13d7660732acee
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **Assessing students in the AI era** — science angle
+1. **AI Has Human Doctors Asking: What’s Left for Us?** — science angle
+   https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/
+2. **Assessing students in the AI era** — science angle
    https://www.nature.com/articles/d41586-026-02632-z
-2. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
+3. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
    https://www.bbc.com/news/articles/cjwg5n7y68xo
-3. **AI Medical Advice Can Affect Patient Trust in Doctors - Telehealth.org** — science angle
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxOYVIzMWN0UDBoWHpIQWFEeXZOZFY5SFhSUFpYSFEtVHk3T18wZENqcDZ3RVh0WkN2UzdjQ28xYWh0UzRYUE9aSU1ReTJndjFfSjdTSkhZbjhCbjF0NkVVMGlQU0UzMGJGbXpQMm1rWGhRVkpDNk1WcE96bDljUkcxaURZQ01QM3Z4MTJsSjBB?oc=5
-4. **Using AI to Bring Trials to More Patients - Targeted Oncology** — science angle
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxNbUpaSTRyc1NiajlpdTVfaEU5TGRDN1FqcEhqTGF6a2ZZdmRpbWdhVERFZkRFaHVaVWxKVy1rdGRZQlQtWVJnb0E1b2staU8xMDhCTHNLd1ZVYUtSc3B3a3c1TXJ6cWFYUzhaVDVyLXRQLXJaY0h3SzZ4dm94ZnhzeVRR?oc=5
-5. **"Patients Bring AI Answers," Doctor Warns Against The Rise Of AI-Generated Medical Advice - NDTV** — science angle
-   https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQkxidTlkUnp2cFVFenF2UVpaTzlaelNGXzRkT2JBT25BQ3pZWlViU09VRG81bTdodDk4d2J1LUYyMVdBTVN6MEtjUDNkRXZrbi1Md2cyWXlmMzJSRHlESjhsbG1nd2pSVklDWG5SRjJNQTFQcHJKTVJyR3licmVZMGZHR1Bla3ZMYWFWYVducEJMeDhkc1dFbW5RUDM5RHVnQjItTFdOc1BHc2loTDF3UEZrTENKXzNyaVhDakxzTmZGNFpieU5fTEZYM0lEb3R3QnFGTw?oc=5
-6. **Using AI to find patients who are getting sicker quicker - Chief Healthcare Executive** — science angle
+4. **Using AI to find patients who are getting sicker quicker - Chief Healthcare Executive** — science angle
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNTHFibXluVXo2SFVWWHNLYS1rdFQ3WmVIWDg5cEcxeGxnX0hqNGFwTHNCcEpCWmN3c1NrbjZPM1FZWUU1bk56NDB4V1k2MUV1eHVHamt4dFRtalFzalFvY25aSDJJTUpIdXgzd3VOZl9OUGVmd0dXWHl2b1RHS3pudWZIamROY2JBaTRoYzFUQzNtTzMzdWtsS21UemVqTnloVXNDZw?oc=5
-7. **The great mistake is to ask whether AI will replace the doctor - Irish Medical Times** — science angle
+5. **The great mistake is to ask whether AI will replace the doctor - Irish Medical Times** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNaW9KbzMzN2NibWlQMTdvdGZKZDliMEdTVXpZNmNNUzZ0NGZRNmN0cW4zTDIwYzlMdTFKQlh1VHptVkVoX2dEdjBQU01hZzRRb0VCY1BoUllYVGZ0bVE4UFBLTXZtMkJGLW84Si1IX1JLNmltRDBrbEdGLUU2NWFjVEo0Z1I4aDVUYzU0Yl85emlnT0RuQjZlU29Sa01xYWVCUG1n?oc=5
-8. **The Doctor Is Not Real. More Americans Comfortable Consulting AI for Health Info - PCMag** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxQSUZHTnVkTHZLeUxpWnJSaWZQcEFFaEVZOF9KeTV2N2dxei1ZaUw3ZFFZUG11UVR6SURSOEgwXzh3Z1NlaVZZdkNjU3pDbmtGSXJ5bG5kdkpYQjlWT21aREpXUWpaNDlXbjQ4ZTFNX1F5a01kajFNenNHeFZrRGprUTJ2MDJWcVQxek9TZ1pobkhESXF2RV9uWHhDczhHMk5uWUdV?oc=5
+6. **Using AI to predict patient readmissions - Chief Healthcare Executive** — science angle
+   https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ1ZJV2VWTU5GOF85LVhxbll5dTE3R1daMmNDa053RTNNbVBtNDQ1eWJmMG5mODdVV0xIQ1ZBZU1CcHAzSUZNZmRWVkNCXzNXWjYxbU02MnNvdmhTdnU2akhCUnVuZjdYWF9pYmoyWERqc0o0RmNQOUw1d3I5VHJlS0JTUjdYcWQ3Rld2MWp1R2tJZw?oc=5
+7. **American Medical Society for Sports Medicine and OpenEvidence Announce Partnership to Bring AI-Powered Sports Medicine Resources to Clinicians and Patients | Newswise - Newswise** — science angle
+   https://news.google.com/rss/articles/CBMimAJBVV95cUxQRkQtVWZLSkJWb1k2dEhUcW51Ymt2QkdGNm9fS3R1QWN3eDFXdnRmRmplY1IxZnh4WlowS3ZORDdodmhXWF9CT3E4cVM1aVFGVm93Vnp4U1lRUnBWa0hJNDNORlFhelgtckFyb0N5OEMwMzEweXpWd3NJWlRZa2wxa3pqeXVkdl9TendGdkQ3MUZheDlQNnNFMElYZGxOSENoYjJsdUdsMWh0OEJUMHhMRFVFYU9HU1Vzcmt2MmdrSDViOWZ1bThRenRLNFRuVS1IbmJ5TXIwOUJoX1hLakc0cDlkekZLbzVWd3pkVGlEeVFPRmxXeEJ0MW44OXpzUXNqUFpldWVPcGVna1ZpS1NEUjlKWXE3OGN30gGYAkFVX3lxTFBGRC1VZktKQlZvWTZ0SFRxbnVia3ZCR0Y2b19LdHVBY3d4MVd2dGZGamVjUjFmeHhaWjBLdk5EN2h2aFdYX0JPcThxUzVpUUZWb3dWenhTWVFScFZrSEk0M05GUWF6WC1yQXJvQ3k4QzAzMTB5elZ3c0laVFlrbDFremp5dWR2X1N6d0Z2RDcxRmF4OVA2c0UwSVhkbE5IQ2hiMmx1R2wxaHQ4QlQweExEVUVhT0dTVXNya3YyZ2tINWI5ZnVtOFF6dEs0VG5VLUhuYnlNcjA5QmhfWEtqRzRwOWR6RktvNVZ3emRUaUR5UU9GbFd4QnQxbjg5enNRc2pQWmV1ZU9wZWdrVmlLU0RSOUpZcTc4Y3c?oc=5
+8. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
+   https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 103
@@ -48,13 +48,13 @@ All coverage: https://www.ctinsider.com/news/world/article/workers-in-china-worr
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
+- **AI Has Human Doctors Asking: What’s Left for Us?** — https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/
 - **STREAMLINE uses AI to tackle one of nuclear physics’ toughest problems - anl.gov** — https://news.google.com/rss/articles/CBMingFBVV95cUxNeV83TTJXYS1HS1pLcVZYYVpOdGp0MDQzYmVsVHhFTDVINi1JQjBfMHZHemx4M19tZkFzSGxiVkN0RmNWSHRyY2UxdDlZbUk4dEZDYTJxRnMwUGFhYzFaNkNmeS1NTkY1VHBVa2NvWFh2T2xXaWlXVG1vT09sODV0OXh3OURYdUExYk56Mjk5bmNCd3h4Wm01SkxCWndFZw?oc=5
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 - **First patient to undergo live AI-assisted brain surgery has tumour removed** — https://www.bbc.com/news/articles/cjwg5n7y68xo
-- **AI Medical Advice Can Affect Patient Trust in Doctors - Telehealth.org** — https://news.google.com/rss/articles/CBMijgFBVV95cUxOYVIzMWN0UDBoWHpIQWFEeXZOZFY5SFhSUFpYSFEtVHk3T18wZENqcDZ3RVh0WkN2UzdjQ28xYWh0UzRYUE9aSU1ReTJndjFfSjdTSkhZbjhCbjF0NkVVMGlQU0UzMGJGbXpQMm1rWGhRVkpDNk1WcE96bDljUkcxaURZQ01QM3Z4MTJsSjBB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3422
+- Total stories tracked: 3241
 - Most active topic: nvidia
 - Busiest category: AI General News
 
