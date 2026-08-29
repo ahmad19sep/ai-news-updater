@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T16:44:47.056282+00:00",
+  "generated_at": "2026-08-29T20:57:22.390991+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 23,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,61 +49,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
-          "signal": "Why is my chatgpt showing me unfamiliar data?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1kwz9/chatgpt_sent_infinitely_long_message/",
-          "signal": "ChatGPT sent infinitely long message"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
-          "signal": "I love ChatGPT😭"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1uda5/does_anyone_know_about_this_feature_i_only_text/",
+          "signal": "Does anyone know about this feature? I only text with ChatGPT, never made images"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w1qska/have_you_given_chatgpt_or_another_ai_a_name/",
           "signal": "Have you given ChatGPT or another AI a name?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-          "signal": "Gemini Omni 1.1 Flash"
         },
         {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-          "signal": "Gemini-3.5-Transcribe"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
+          "signal": "Why is my chatgpt showing me unfamiliar data?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
+          "signal": "I love ChatGPT😭"
         }
       ],
       "content_ideas": []
@@ -136,33 +98,6 @@
       "content_ideas": []
     },
     {
-      "name": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-          "signal": "Luanti removed from Google Play due to baseless AI copyright notice"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Debian votes to allow \"responsible use of generative AI\"",
       "category": "use_case",
       "momentum": "rising",
@@ -185,6 +120,33 @@
           "platform": "hackernews",
           "url": "https://lwn.net/Articles/1091231/",
           "signal": "Debian votes to allow \"responsible use of generative AI\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+          "signal": "Luanti removed from Google Play due to baseless AI copyright notice"
         }
       ],
       "content_ideas": []
@@ -217,34 +179,6 @@
       "content_ideas": []
     },
     {
-      "name": "Two German airport workers die of malaria after 'mosquito arrives on p",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/cz6zwgg9y8go",
-          "signal": "Two German airport workers die of malaria after 'mosquito arrives on plane'"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "StemDeck, a free, open-source and local AI stem separator",
       "category": "use_case",
       "momentum": "rising",
@@ -257,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -299,6 +233,34 @@
       "content_ideas": []
     },
     {
+      "name": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+          "signal": "Good Culture Is the Biggest Productivity Hack, Not AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Terminal-Bench-Science: Evaluating AI agents on scientific research wo",
       "category": "use_case",
       "momentum": "rising",
@@ -322,35 +284,6 @@
           "platform": "hackernews",
           "url": "https://www.terminal-bench-science.ai/announcement",
           "signal": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
-          "signal": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force"
         }
       ],
       "content_ideas": []
@@ -382,16 +315,13 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
+      "name": "The growing divide between AI hype and software engineering reality",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -399,30 +329,49 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 3,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-          "signal": "Gemini Omni 1.1 Flash"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-          "signal": "Gemini-3.5-Transcribe"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
+          "signal": "The growing divide between AI hype and software engineering reality"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "AI Agent Has Root",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://infernalcode.com/posts/your-ai-agent-has-root/",
+          "signal": "AI Agent Has Root"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -457,28 +406,41 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
-          "signal": "Why is my chatgpt showing me unfamiliar data?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1kwz9/chatgpt_sent_infinitely_long_message/",
-          "signal": "ChatGPT sent infinitely long message"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
-          "signal": "I love ChatGPT😭"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1uda5/does_anyone_know_about_this_feature_i_only_text/",
+          "signal": "Does anyone know about this feature? I only text with ChatGPT, never made images"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w1qska/have_you_given_chatgpt_or_another_ai_a_name/",
           "signal": "Have you given ChatGPT or another AI a name?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
+          "signal": "Why is my chatgpt showing me unfamiliar data?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
+          "signal": "I love ChatGPT😭"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Work mode down",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1vr75/work_mode_down/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
