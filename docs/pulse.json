@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T07:07:20.476692+00:00",
+  "generated_at": "2026-08-29T16:44:47.056282+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 32,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w17l5v/chatgpt_called_me_a_lazy_cow/",
-          "signal": "ChatGPT called me a lazy cow 🐮😭"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
+          "signal": "Why is my chatgpt showing me unfamiliar data?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/",
-          "signal": "The worst thing about ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1kwz9/chatgpt_sent_infinitely_long_message/",
+          "signal": "ChatGPT sent infinitely long message"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w15fbi/chatgpt_voice_model_just_produced_random_sound/",
-          "signal": "ChatGPT voice model just produced random sound?!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
+          "signal": "I love ChatGPT😭"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1civl/has_the_quota_for_chatgpt_become_more_restrictive/",
-          "signal": "Has the quota for ChatGPT become more restrictive?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1qska/have_you_given_chatgpt_or_another_ai_a_name/",
+          "signal": "Have you given ChatGPT or another AI a name?"
         }
       ],
       "content_ideas": []
@@ -75,17 +75,15 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -101,11 +99,6 @@
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
           "signal": "Gemini-3.5-Transcribe"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
         },
         {
           "platform": "youtube",
@@ -170,7 +163,7 @@
       "content_ideas": []
     },
     {
-      "name": "Air Conditioning Is Not a Luxury, It Is a Necessity",
+      "name": "Debian votes to allow \"responsible use of generative AI\"",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -182,7 +175,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -190,8 +183,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://humanprogress.org/ac-is-not-a-luxury-it-is-a-necessity/",
-          "signal": "Air Conditioning Is Not a Luxury, It Is a Necessity"
+          "url": "https://lwn.net/Articles/1091231/",
+          "signal": "Debian votes to allow \"responsible use of generative AI\""
         }
       ],
       "content_ideas": []
@@ -252,7 +245,7 @@
       "content_ideas": []
     },
     {
-      "name": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research T",
+      "name": "StemDeck, a free, open-source and local AI stem separator",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -272,14 +265,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://aiandeducation.mit.edu/report/",
-          "signal": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training"
+          "url": "https://github.com/stemdeckapp/stemdeck",
+          "signal": "StemDeck, a free, open-source and local AI stem separator"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Nvidia projects $673B in sales as AI demand widens",
+      "name": "Don't use musl if you care about performance",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -291,7 +284,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -299,14 +292,42 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/",
-          "signal": "Nvidia projects $673B in sales as AI demand widens"
+          "url": "https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/",
+          "signal": "Don't use musl if you care about performance"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Australia Bans Generative A.I. From Official Music Charts",
+      "name": "Terminal-Bench-Science: Evaluating AI agents on scientific research wo",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.terminal-bench-science.ai/announcement",
+          "signal": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -320,7 +341,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -328,18 +349,19 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/08/25/world/australia/australia-ai-music-chart-ban.html",
-          "signal": "Australia Bans Generative A.I. From Official Music Charts"
+          "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
+          "signal": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Six months of writing code exclusively with agents",
+      "name": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -355,35 +377,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.exe.dev/engineering-with-ai",
-          "signal": "Six months of writing code exclusively with agents"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The Teaser Period: Why the AI Boom Is Hitting a Reset Wall",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom",
-          "signal": "The Teaser Period: Why the AI Boom Is Hitting a Reset Wall"
+          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+          "signal": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab"
         }
       ],
       "content_ideas": []
@@ -395,17 +390,15 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -421,11 +414,6 @@
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
           "signal": "Gemini-3.5-Transcribe"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XTvY6dmQPFE",
-          "signal": "Free AI Video Generator with Google Gemini in Pakistan for Students"
         },
         {
           "platform": "youtube",
@@ -469,41 +457,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w17l5v/chatgpt_called_me_a_lazy_cow/",
-          "signal": "ChatGPT called me a lazy cow 🐮😭"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
+          "signal": "Why is my chatgpt showing me unfamiliar data?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/",
-          "signal": "The worst thing about ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1kwz9/chatgpt_sent_infinitely_long_message/",
+          "signal": "ChatGPT sent infinitely long message"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w15fbi/chatgpt_voice_model_just_produced_random_sound/",
-          "signal": "ChatGPT voice model just produced random sound?!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
+          "signal": "I love ChatGPT😭"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1civl/has_the_quota_for_chatgpt_become_more_restrictive/",
-          "signal": "Has the quota for ChatGPT become more restrictive?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1qska/have_you_given_chatgpt_or_another_ai_a_name/",
+          "signal": "Have you given ChatGPT or another AI a name?"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Fast Usage Limit",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1a67d/fast_usage_limit/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
