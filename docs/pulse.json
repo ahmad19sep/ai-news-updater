@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T16:43:08.770438+00:00",
+  "generated_at": "2026-08-30T21:09:12.229095+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 16,
+      "reddit": 25,
+      "hackernews": 14,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,23 +50,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
-          "signal": "ChatGPT has been working for 910 minutes and counting"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
           "signal": "Impressed with ChatGPT calling out my casual sexism"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2fmkn/how_long_have_yall_been_using_chatgpt/",
-          "signal": "How long have yall been using ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
+          "signal": "ChatGPT has been working for 910 minutes and counting"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2jj9q/my_chatgpt_randomly_start_ranting_about_ai_during/",
-          "signal": "My chatgpt randomly start ranting about AI during an unrelated conversation"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2pi3d/chatgpt_has_a_very_strong_type_when_generating_a/",
+          "signal": "ChatGPT has a VERY strong \"type\" when generating \"a woman\" image... so, for science: what is \"a man\"?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2nqxc/chatgpt_56_sol_vs_claude_opus_5_which_is_better/",
+          "signal": "ChatGPT 5.6 Sol vs Claude Opus 5 — which is better for research, strategy, SEO and long-form analysis?"
         }
       ],
       "content_ideas": []
@@ -139,7 +139,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -302,7 +302,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 2,
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -317,11 +317,12 @@
       "content_ideas": []
     },
     {
-      "name": "I'm the Guy Who Destroys Antique Books After We Scan Them into Our Com",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -329,16 +330,21 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 2,
+      "video_worthy": 3,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.mcsweeneys.net/articles/im-the-guy-who-destroys-antique-books-after-we-scan-them-into-our-companys-insatiable-ai-platform",
-          "signal": "I'm the Guy Who Destroys Antique Books After We Scan Them into Our Company's AI"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2t05p/chatgpt_vs_gemini_exact_same_prompt_and_its_not/",
+          "signal": "Chatgpt Vs Gemini. Exact same prompt and it's not even close"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -407,23 +413,56 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
-          "signal": "ChatGPT has been working for 910 minutes and counting"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
           "signal": "Impressed with ChatGPT calling out my casual sexism"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2fmkn/how_long_have_yall_been_using_chatgpt/",
-          "signal": "How long have yall been using ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
+          "signal": "ChatGPT has been working for 910 minutes and counting"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2jj9q/my_chatgpt_randomly_start_ranting_about_ai_during/",
-          "signal": "My chatgpt randomly start ranting about AI during an unrelated conversation"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2pi3d/chatgpt_has_a_very_strong_type_when_generating_a/",
+          "signal": "ChatGPT has a VERY strong \"type\" when generating \"a woman\" image... so, for science: what is \"a man\"?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2nqxc/chatgpt_56_sol_vs_claude_opus_5_which_is_better/",
+          "signal": "ChatGPT 5.6 Sol vs Claude Opus 5 — which is better for research, strategy, SEO and long-form analysis?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2t05p/chatgpt_vs_gemini_exact_same_prompt_and_its_not/",
+          "signal": "Chatgpt Vs Gemini. Exact same prompt and it's not even close"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
