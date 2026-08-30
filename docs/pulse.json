@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T20:57:22.390991+00:00",
+  "generated_at": "2026-08-30T05:27:48.030545+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,8 +45,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1dopr/chatgpt_randomly_impersonated_my_voice_during/",
-          "signal": "ChatGPT randomly impersonated my voice during voice chat"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
+          "signal": "ChatGPT has been working for 910 minutes and counting"
         },
         {
           "platform": "reddit",
@@ -59,8 +60,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
-          "signal": "Why is my chatgpt showing me unfamiliar data?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1dopr/chatgpt_randomly_impersonated_my_voice_during/",
+          "signal": "ChatGPT randomly impersonated my voice during voice chat"
         },
         {
           "platform": "reddit",
@@ -152,11 +153,12 @@
       "content_ideas": []
     },
     {
-      "name": "Please stop flooding our projects with AI slop to furnish your CV",
+      "name": "Good Culture Is the Biggest Productivity Hack, Not AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -164,7 +166,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -172,8 +174,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
-          "signal": "Please stop flooding our projects with AI slop to furnish your CV"
+          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+          "signal": "Good Culture Is the Biggest Productivity Hack, Not AI"
         }
       ],
       "content_ideas": []
@@ -233,90 +235,6 @@
       "content_ideas": []
     },
     {
-      "name": "Good Culture Is the Biggest Productivity Hack, Not AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-          "signal": "Good Culture Is the Biggest Productivity Hack, Not AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Terminal-Bench-Science: Evaluating AI agents on scientific research wo",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.terminal-bench-science.ai/announcement",
-          "signal": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-          "signal": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "The growing divide between AI hype and software engineering reality",
       "category": "use_case",
       "momentum": "rising",
@@ -329,7 +247,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -339,6 +257,33 @@
           "platform": "hackernews",
           "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
           "signal": "The growing divide between AI hype and software engineering reality"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "LLMs are making me lose my savviness",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/",
+          "signal": "LLMs are making me lose my savviness"
         }
       ],
       "content_ideas": []
@@ -369,6 +314,60 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
+          "signal": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Identifying fake cosmetics using AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html",
+          "signal": "Identifying fake cosmetics using AI"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -379,6 +378,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -401,8 +401,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1dopr/chatgpt_randomly_impersonated_my_voice_during/",
-          "signal": "ChatGPT randomly impersonated my voice during voice chat"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
+          "signal": "ChatGPT has been working for 910 minutes and counting"
         },
         {
           "platform": "reddit",
@@ -416,8 +416,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1fs1d/why_is_my_chatgpt_showing_me_unfamiliar_data/",
-          "signal": "Why is my chatgpt showing me unfamiliar data?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1dopr/chatgpt_randomly_impersonated_my_voice_during/",
+          "signal": "ChatGPT randomly impersonated my voice during voice chat"
         },
         {
           "platform": "reddit",
@@ -430,13 +430,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Work mode down",
+      "problem": "i can't access previously generated replies (with arrows)",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1vr75/work_mode_down/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w24t3p/i_cant_access_previously_generated_replies_with/"
         }
       ],
       "content_opportunity": ""
