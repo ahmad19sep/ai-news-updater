@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMiigFBVV95cUxNYm1mVXEtaVhpdXBMbHJRTWRMTGw4Vk5WN3ppZEFzalhXUVZNSGsyUDdrZVlkenVveHdVOXlxUnJkNHZtR0ZyYmgtMEdLZnBkbXY3SjRCUUdoSWxkNWpmUDRiSFJNVzY2RzRRNFpEQ1RvaWI3TTR2bEY5SGYxdHJDNGU5Vk1MZ2pxR1E?oc=5
 5. **AI in healthcare is here to stay, but doctors must remain the final decision-makers: experts - The Hindu** — science angle
    https://news.google.com/rss/articles/CBMi8gFBVV95cUxOemNwM0lmeGd5c2lzU1ZYNXJOWlJSTTV0ZEd3TUs4X01yRC1Jc1paNi1wekw5a0xWTWpwYmxsZ0tDRlVMcHhvNElLbUxWNFU1RFVsWDQzbFZBclFBODhOSjFmVlMtcEJwTDZZOHlvaTN1TkdMZ1E5UjNZYjhfOHAyaUs3cDRaZ0J3bklESm8wUHNzRG9fUHExajItbTI0bWJic0NlTWdxYjl4SjY5LUw2Wmg3cTZCLU9reGh3MXBxWWw3ajJ4Sy1iQUFWeVFUMTBJTVZDNlRCQTRTbVFtWFB1Y21wU01BZ2dlemZaZkF5QXI3UdIB-AFBVV95cUxONUFnc3R4bndkM0QwTzZmbEtQRXVQM2k4NHR2S0NqOE1vZmhqazZTMEtYOGdXTjZMd2lMai1lQlRuYUQwQTg2dlk1ZXZ3TG96VEs4eWRmTHJHZmwxOWFKcWt4NkxMVDV1U3R0UWc3VUc4NktLMHExbmVVTUlQT18tN2N4c3B0emdUMVIwZlVVTHBYZy16NzNycjFrbzExdC11Y2ljUElvbTdvV1hPejVvOFo0M19xVmEyek5uWllaeDZ0bmhSZ3NEYTJhWVpOdklnNmdCdUFyM1VJcXlab21IMFllT2R6RTNlY2U0cVNuTEZET2h2SWsxQw?oc=5
-6. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
+6. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxPUFpobTZ5YkNsQTZONVdVMXI2M0lZN2xjeTZ1Wmp4bU9uQjhZYmtlVWx4TFAxUE1pZ0VCakNDVmVxVjNoZjRERHNCWTJiWnRJN0g3OGVQcU1HQnU1SGZ5R0V5VmpFOFZBcUUxOGFZQklRUS02OG9weUYzNjZqWHBQblpPU0VuZEhRNmpXU1UzQXV1bzJP?oc=5
+7. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
    https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
-7. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
+8. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
    https://www.bbc.com/news/articles/cjwg5n7y68xo
-8. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1pYVUdDbDB2WEhfWjEzWHgxVzlZaDhCUy1wc2w1WlBMOXQzb2prR0hOQU9QZGEzbVk4bWZJeXd1TDFNVldFRDExMEs3akpVcm1nSEZyeXRycXNDaUhfUGJWLVpWZV8ycHNPTEx6dU04X1lTalFsVmx5VHZIR1dOX2lHQTVQb1phY1lWNWptZGpoMVE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 126
@@ -31,20 +31,20 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
 3. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 103
    https://www.postguam.com/news/national/elon-releases-human-wisdom-toolkit-for-the-age-of-ai/article_f555711f-631b-531c-be85-4dae5e3ba1f5.html
-4. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
-   https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-5. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
+4. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
    https://news.google.com/rss/articles/CBMiakFVX3lxTE9QRUxLU29CZFR5R1hMUkxXVUpFcTFTUXh4OFRETnlvbTlPeWQyOXo4X1k3dk5OMENmeG1UZkZ2MFhOTldGUlZpWVJmSFI5LVBKT3ZhbWQwLWQ0aG9LSVdEMjBBVm9hcVFvZUE?oc=5
-6. **China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com** — DeepSeek News — Score 67
+5. **China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com** — DeepSeek News — Score 67
    https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5
-7. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 63.0
+6. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 63.0
    https://www.perthnow.com.au/news/politics/rapidly-losing-the-public-expert-backs-ai-reforms-c-22776905
-8. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
+7. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
    https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
-9. **Mistral and HUMAIN Announce Strategic Collaboration to Advance Sovereign AI in Saudi Arabia and Regionally - PR Newswire** — Mistral News — Score 60
+8. **Mistral and HUMAIN Announce Strategic Collaboration to Advance Sovereign AI in Saudi Arabia and Regionally - PR Newswire** — Mistral News — Score 60
    https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaFRtbnR2TFhPM2lMbFlOM1pndXRKNWFlZEl4VnVFSERicXBYZ25LWTYxU0JwUDgwR25MSUczbGN4MUprVWFtWUVEX2FDYTdQbkgxOHBGYTJ1a1FLTVNIN19YUGNGN0J2a0ZlQ3JuWnFyMDFaWV9mMGlURi1fVDllcDJ3Q195TWZUaENzNlYyLVJjd1hERndQcWNQZ2FLZTMxbHQyZ2cyVmhFanhldnlYUTF2M2J4eWhyMGZIRGVELWZ3Q2FQYXJnQUdQWGFNMG81YTVURlJXNEtFUTNWV1JUcTJDMGNOYlYyc19uck1LMzJubGQ4?oc=5
-10. **Jamf launches AI Governance to enhance visibility, security** — cfotech_au — Score 58
+9. **Jamf launches AI Governance to enhance visibility, security** — cfotech_au — Score 58
    https://cfotech.com.au/story/jamf-launches-ai-governance-to-enhance-visibility-security
+10. **ibi Launches Enterprise Agentic AI Engine at Annual Customer Summit Replacing Passive Business Intelligence - Business Wire** — AI Agents — Score 58
+   https://news.google.com/rss/articles/CBMi9wFBVV95cUxPU09DU3ZCdWgwRDJzLWNqcXVGaWVaWGxnT2VIRGVDSDZQQ2FVallKdUpjbDg2OU1qUFlmTTFZSGM5d3dIYkZTRFRfd0RIdVp2amFvdHBPdVc2bnVuTzNNX0g3TFl4WTBQZEpualk4RXZkQld2VDhJbHBGTTZLb0dGZThSYXR3T2MzaEtPSndVZVZHVUlhTW9SM2ItMDE4dnBCMXRBa0RRaEZkREJUSGt5VFJDODhfMno5bTU4dDFONmUtZEdINWh1dFdXeVhSbG1Jb3UxcEUzR0VTMjhaNzVKWHNkVkstLWJiSVZCT1hOSlN5SW8xM1Zj?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3022
+- Total stories tracked: 3006
 - Most active topic: nvidia
 - Busiest category: AI General News
 
