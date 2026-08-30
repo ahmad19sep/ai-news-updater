@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
 7. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
    https://www.bbc.com/news/articles/cjwg5n7y68xo
-8. **Patients are bringing AI diagnoses to fertility clinics. Doctors say AI can explain, but not decide - The South First** — science angle
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxNOFROQUdsWDJIUE5TTnQ0aU9TdmFtLVBfQnQxVUFrZE1mdU1SNXdRYTdoaDVCVF8zM1dmVGlUMzJzbjNHWm9fWVhpakRrOXNpTXoyRDJZRHJXeFQ1Mk11QUY1SS1kaldMdWR5dnhkRjJJekp3OWd3MlQ5S1RlbXRmQ19ncFpvYkpQR1FZdkx2RnpHZnhYOGdjQTdoak83ZjFrZXNOQnVLVVR4eHlDdGtnN0lLQVVnYU1EaTRad181NmJNbjdWdFB0Wl9ZNA?oc=5
+8. **ChatGPT and health: Doctor reveals when AI advice can become dangerous - RBC-Ukraine** — science angle
+   https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1pYVUdDbDB2WEhfWjEzWHgxVzlZaDhCUy1wc2w1WlBMOXQzb2prR0hOQU9QZGEzbVk4bWZJeXd1TDFNVldFRDExMEs3akpVcm1nSEZyeXRycXNDaUhfUGJWLVpWZV8ycHNPTEx6dU04X1lTalFsVmx5VHZIR1dOX2lHQTVQb1phY1lWNWptZGpoMVE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 126
@@ -31,20 +31,20 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
 3. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 103
    https://www.postguam.com/news/national/elon-releases-human-wisdom-toolkit-for-the-age-of-ai/article_f555711f-631b-531c-be85-4dae5e3ba1f5.html
-4. **Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games** — mymotherlode — Score 93
-   https://mymotherlode.com/news/asia/11086095/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games.html
-5. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
+4. **Penticton council wants to use AI to improve traffic congestion** — similkameenspotlight — Score 83
    https://similkameenspotlight.com/2026/08/22/penticton-council-wants-to-use-ai-to-improve-traffic-congestion/
-6. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
+5. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
    https://news.google.com/rss/articles/CBMiakFVX3lxTE9QRUxLU29CZFR5R1hMUkxXVUpFcTFTUXh4OFRETnlvbTlPeWQyOXo4X1k3dk5OMENmeG1UZkZ2MFhOTldGUlZpWVJmSFI5LVBKT3ZhbWQwLWQ0aG9LSVdEMjBBVm9hcVFvZUE?oc=5
-7. **China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com** — DeepSeek News — Score 67
+6. **China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com** — DeepSeek News — Score 67
    https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5
-8. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 63.0
+7. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 63.0
    https://www.perthnow.com.au/news/politics/rapidly-losing-the-public-expert-backs-ai-reforms-c-22776905
-9. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
+8. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
    https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
-10. **Mistral and HUMAIN Announce Strategic Collaboration to Advance Sovereign AI in Saudi Arabia and Regionally - PR Newswire** — Mistral News — Score 60
+9. **Mistral and HUMAIN Announce Strategic Collaboration to Advance Sovereign AI in Saudi Arabia and Regionally - PR Newswire** — Mistral News — Score 60
    https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaFRtbnR2TFhPM2lMbFlOM1pndXRKNWFlZEl4VnVFSERicXBYZ25LWTYxU0JwUDgwR25MSUczbGN4MUprVWFtWUVEX2FDYTdQbkgxOHBGYTJ1a1FLTVNIN19YUGNGN0J2a0ZlQ3JuWnFyMDFaWV9mMGlURi1fVDllcDJ3Q195TWZUaENzNlYyLVJjd1hERndQcWNQZ2FLZTMxbHQyZ2cyVmhFanhldnlYUTF2M2J4eWhyMGZIRGVELWZ3Q2FQYXJnQUdQWGFNMG81YTVURlJXNEtFUTNWV1JUcTJDMGNOYlYyc19uck1LMzJubGQ4?oc=5
+10. **Jamf launches AI Governance to enhance visibility, security** — cfotech_au — Score 58
+   https://cfotech.com.au/story/jamf-launches-ai-governance-to-enhance-visibility-security
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3077
+- Total stories tracked: 3022
 - Most active topic: nvidia
 - Busiest category: AI General News
 
