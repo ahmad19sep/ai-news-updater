@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 22 Aug 2026 to 29 Aug 2026
+# 🗞️ AI THIS WEEK — 23 Aug 2026 to 30 Aug 2026
 
 ## 🔥 Biggest Story of the Week
 **64 percent of online shoppers are using AI to help find products, study shows - Scripps News**
@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
 7. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
    https://www.bbc.com/news/articles/cjwg5n7y68xo
-8. **Mark Cuban says doctors should configure their patients' AI to hand off routine questions and check-ins - Yahoo Finance** — science angle
-   https://news.google.com/rss/articles/CBMingFBVV95cUxOYkhkdldIQVJZQ1drbmsxR1A1OUhVeURjWkFOdlBsdm0tUWQ5d2taMFAxZ2NFQUdkSTJOYmtldGt5blNTSHNrclJlTEtuaEtGM3dSSjN5S0VzVUlKMlJnNXpTMkh6emhsZlJyTnRhcUdTbmtFTFY4Vm5oMENaOHQzeHJqQzREYTlWLTNRRmgxLVhXZHRydHBlU2J0M0E2dw?oc=5
+8. **Patients are bringing AI diagnoses to fertility clinics. Doctors say AI can explain, but not decide - The South First** — science angle
+   https://news.google.com/rss/articles/CBMiywFBVV95cUxNOFROQUdsWDJIUE5TTnQ0aU9TdmFtLVBfQnQxVUFrZE1mdU1SNXdRYTdoaDVCVF8zM1dmVGlUMzJzbjNHWm9fWVhpakRrOXNpTXoyRDJZRHJXeFQ1Mk11QUY1SS1kaldMdWR5dnhkRjJJekp3OWd3MlQ5S1RlbXRmQ19ncFpvYkpQR1FZdkx2RnpHZnhYOGdjQTdoak83ZjFrZXNOQnVLVVR4eHlDdGtnN0lLQVVnYU1EaTRad181NmJNbjdWdFB0Wl9ZNA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 126
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3084
+- Total stories tracked: 3077
 - Most active topic: nvidia
 - Busiest category: AI General News
 
