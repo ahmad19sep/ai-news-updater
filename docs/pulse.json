@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T05:27:48.030545+00:00",
+  "generated_at": "2026-08-30T11:57:08.289984+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 18,
+      "reddit": 45,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,6 +50,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
+          "signal": "Impressed with ChatGPT calling out my casual sexism"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w26i1m/using_chatgpt_for_medical_questions_honest_opinion/",
+          "signal": "using chatgpt for medical questions honest opinion"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w1uda5/does_anyone_know_about_this_feature_i_only_text/",
           "signal": "Does anyone know about this feature? I only text with ChatGPT, never made images"
         },
@@ -57,16 +67,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w1qska/have_you_given_chatgpt_or_another_ai_a_name/",
           "signal": "Have you given ChatGPT or another AI a name?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1dopr/chatgpt_randomly_impersonated_my_voice_during/",
-          "signal": "ChatGPT randomly impersonated my voice during voice chat"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
-          "signal": "I love ChatGPT😭"
         }
       ],
       "content_ideas": []
@@ -126,33 +126,6 @@
       "content_ideas": []
     },
     {
-      "name": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-          "signal": "Luanti removed from Google Play due to baseless AI copyright notice"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Good Culture Is the Biggest Productivity Hack, Not AI",
       "category": "use_case",
       "momentum": "rising",
@@ -166,7 +139,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -193,7 +166,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -220,7 +193,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -343,6 +316,40 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w2edm0/sony_and_warner_accuse_anthropic_of_training/",
+          "signal": "Sony and Warner accuse Anthropic of training Claude on tens of thousands of pirated works. Should the model be retrained from scratch?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JrFZ_ky7AzE",
+          "signal": "The SIMPLEST Way To Make Money Online With Claude AI In 2026"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Identifying fake cosmetics using AI",
       "category": "use_case",
       "momentum": "rising",
@@ -371,6 +378,40 @@
     }
   ],
   "rising_tools": [
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w2edm0/sony_and_warner_accuse_anthropic_of_training/",
+          "signal": "Sony and Warner accuse Anthropic of training Claude on tens of thousands of pirated works. Should the model be retrained from scratch?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JrFZ_ky7AzE",
+          "signal": "The SIMPLEST Way To Make Money Online With Claude AI In 2026"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -406,6 +447,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
+          "signal": "Impressed with ChatGPT calling out my casual sexism"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w26i1m/using_chatgpt_for_medical_questions_honest_opinion/",
+          "signal": "using chatgpt for medical questions honest opinion"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w1uda5/does_anyone_know_about_this_feature_i_only_text/",
           "signal": "Does anyone know about this feature? I only text with ChatGPT, never made images"
         },
@@ -413,16 +464,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w1qska/have_you_given_chatgpt_or_another_ai_a_name/",
           "signal": "Have you given ChatGPT or another AI a name?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1dopr/chatgpt_randomly_impersonated_my_voice_during/",
-          "signal": "ChatGPT randomly impersonated my voice during voice chat"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w1hmgf/i_love_chatgpt/",
-          "signal": "I love ChatGPT😭"
         }
       ],
       "content_ideas": []
