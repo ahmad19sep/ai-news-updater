@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
 3. **Assessing students in the AI era** — science angle
    https://www.nature.com/articles/d41586-026-02632-z
-4. **Doctors Just Used AI to Perform Brain Surgery - Futurism** — science angle
+4. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
+   https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
+5. **Doctors Just Used AI to Perform Brain Surgery - Futurism** — science angle
    https://news.google.com/rss/articles/CBMiigFBVV95cUxNYm1mVXEtaVhpdXBMbHJRTWRMTGw4Vk5WN3ppZEFzalhXUVZNSGsyUDdrZVlkenVveHdVOXlxUnJkNHZtR0ZyYmgtMEdLZnBkbXY3SjRCUUdoSWxkNWpmUDRiSFJNVzY2RzRRNFpEQ1RvaWI3TTR2bEY5SGYxdHJDNGU5Vk1MZ2pxR1E?oc=5
-5. **AI in healthcare is here to stay, but doctors must remain the final decision-makers: experts - The Hindu** — science angle
+6. **AI in healthcare is here to stay, but doctors must remain the final decision-makers: experts - The Hindu** — science angle
    https://news.google.com/rss/articles/CBMi8gFBVV95cUxOemNwM0lmeGd5c2lzU1ZYNXJOWlJSTTV0ZEd3TUs4X01yRC1Jc1paNi1wekw5a0xWTWpwYmxsZ0tDRlVMcHhvNElLbUxWNFU1RFVsWDQzbFZBclFBODhOSjFmVlMtcEJwTDZZOHlvaTN1TkdMZ1E5UjNZYjhfOHAyaUs3cDRaZ0J3bklESm8wUHNzRG9fUHExajItbTI0bWJic0NlTWdxYjl4SjY5LUw2Wmg3cTZCLU9reGh3MXBxWWw3ajJ4Sy1iQUFWeVFUMTBJTVZDNlRCQTRTbVFtWFB1Y21wU01BZ2dlemZaZkF5QXI3UdIB-AFBVV95cUxONUFnc3R4bndkM0QwTzZmbEtQRXVQM2k4NHR2S0NqOE1vZmhqazZTMEtYOGdXTjZMd2lMai1lQlRuYUQwQTg2dlk1ZXZ3TG96VEs4eWRmTHJHZmwxOWFKcWt4NkxMVDV1U3R0UWc3VUc4NktLMHExbmVVTUlQT18tN2N4c3B0emdUMVIwZlVVTHBYZy16NzNycjFrbzExdC11Y2ljUElvbTdvV1hPejVvOFo0M19xVmEyek5uWllaeDZ0bmhSZ3NEYTJhWVpOdklnNmdCdUFyM1VJcXlab21IMFllT2R6RTNlY2U0cVNuTEZET2h2SWsxQw?oc=5
-6. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
+7. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUFpobTZ5YkNsQTZONVdVMXI2M0lZN2xjeTZ1Wmp4bU9uQjhZYmtlVWx4TFAxUE1pZ0VCakNDVmVxVjNoZjRERHNCWTJiWnRJN0g3OGVQcU1HQnU1SGZ5R0V5VmpFOFZBcUUxOGFZQklRUS02OG9weUYzNjZqWHBQblpPU0VuZEhRNmpXU1UzQXV1bzJP?oc=5
-7. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
+8. **Analyzing student votes across AI models for college essay help** — 39 upvotes on Reddit/HN
    https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026
-8. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
-   https://www.bbc.com/news/articles/cjwg5n7y68xo
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2999
+- Total stories tracked: 2988
 - Most active topic: nvidia
 - Busiest category: AI General News
 
