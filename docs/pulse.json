@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:56:27.464033+00:00",
+  "generated_at": "2026-08-31T22:53:18.586802+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -21,6 +21,7 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -43,35 +44,35 @@
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w397e3/is_qwen_38_27b_distilled_from_chatgpt/",
-          "signal": "Is qwen 3.8 27B distilled from ChatGPT?"
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+          "signal": "ChatGPT to face tougher regulation in the EU"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2telt/started_thinking_of_chatgpt_as_a_friend_and_its/",
-          "signal": "Started thinking of ChatGPT as a friend and it’s unsettling"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3gcwx/why_does_chatgpt_dominate_the_usage_metric/",
+          "signal": "Why does ChatGPT dominate the usage metric?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w39p29/i_asked_chatgpt_to_recreate_the_feeling_of/",
-          "signal": "I asked ChatGPT to recreate the feeling of flipping through album covers in 1980: somehow these imaginary records feel like ones I remember seeing, even though they never existed."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ij0d/openai_says_chatgpt_ads_hit_a_1_billion/",
+          "signal": "OpenAI says ChatGPT Ads hit a $1 billion annualized run rate and is going global"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ab54/chatgpt_cant_copy_gibberish/",
-          "signal": "ChatGPT can't copy gibberish?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3fsyw/chatgpt_the_real_perv/",
+          "signal": "ChatGPT the real perv"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3e6dg/chatgpt_google_login_error_token_exchange_failed/",
-          "signal": "ChatGPT Google login error: token_exchange_failed on Android"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3jtue/chatgpt_find_the_problem_and_fix_it/",
+          "signal": "ChatGPT, find the problem and fix it"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Debian votes to allow \"responsible use of generative AI\"",
+      "name": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -91,36 +92,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://lwn.net/Articles/1091231/",
-          "signal": "Debian votes to allow \"responsible use of generative AI\""
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Good Culture Is the Biggest Productivity Hack, Not AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-          "signal": "Good Culture Is the Biggest Productivity Hack, Not AI"
+          "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+          "signal": "Apple caught off guard by AI demand for Mac Mini and Mac Studio"
         }
       ],
       "content_ideas": []
@@ -165,7 +138,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -192,7 +165,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -234,18 +207,19 @@
       "content_ideas": []
     },
     {
-      "name": "The growing divide between AI hype and software engineering reality",
+      "name": "The safest job from AI may be writing",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
@@ -254,25 +228,27 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
-          "signal": "The growing divide between AI hype and software engineering reality"
+          "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+          "signal": "The safest job from AI may be writing"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "LLMs are making me lose my savviness",
+      "name": "Smartphone LED detects hidden cameras with AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
@@ -281,8 +257,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/",
-          "signal": "LLMs are making me lose my savviness"
+          "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
+          "signal": "Smartphone LED detects hidden cameras with AI"
         }
       ],
       "content_ideas": []
@@ -315,7 +291,34 @@
       "content_ideas": []
     },
     {
-      "name": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+      "name": "AI-written code is still your code",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+          "signal": "AI-written code is still your code"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Marx, Keynes, and AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -335,8 +338,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
-          "signal": "AI-Written Code Is Still *Your* Code. Are You OK with That?"
+          "url": "https://www.unpopularfront.news/p/marx-keynes-and-ai",
+          "signal": "Marx, Keynes, and AI"
         }
       ],
       "content_ideas": []
@@ -403,6 +406,7 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -425,29 +429,29 @@
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w397e3/is_qwen_38_27b_distilled_from_chatgpt/",
-          "signal": "Is qwen 3.8 27B distilled from ChatGPT?"
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+          "signal": "ChatGPT to face tougher regulation in the EU"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2telt/started_thinking_of_chatgpt_as_a_friend_and_its/",
-          "signal": "Started thinking of ChatGPT as a friend and it’s unsettling"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3gcwx/why_does_chatgpt_dominate_the_usage_metric/",
+          "signal": "Why does ChatGPT dominate the usage metric?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w39p29/i_asked_chatgpt_to_recreate_the_feeling_of/",
-          "signal": "I asked ChatGPT to recreate the feeling of flipping through album covers in 1980: somehow these imaginary records feel like ones I remember seeing, even though they never existed."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ij0d/openai_says_chatgpt_ads_hit_a_1_billion/",
+          "signal": "OpenAI says ChatGPT Ads hit a $1 billion annualized run rate and is going global"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ab54/chatgpt_cant_copy_gibberish/",
-          "signal": "ChatGPT can't copy gibberish?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3fsyw/chatgpt_the_real_perv/",
+          "signal": "ChatGPT the real perv"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3e6dg/chatgpt_google_login_error_token_exchange_failed/",
-          "signal": "ChatGPT Google login error: token_exchange_failed on Android"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3jtue/chatgpt_find_the_problem_and_fix_it/",
+          "signal": "ChatGPT, find the problem and fix it"
         }
       ],
       "content_ideas": []
@@ -455,9 +459,21 @@
   ],
   "pain_points": [
     {
+      "problem": "Been getting this error message for hours, anyone knows why?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3md7r/been_getting_this_error_message_for_hours_anyone/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Work 5 hour limits, are you serious?",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -467,49 +483,49 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Independent investigators (not OpenAI) found the 700-agent swarm that attacked Hugging Face \"built a self-respawning fleet\" to avoid being s",
+      "problem": "ChatGPT, find the problem and fix it",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w38cd5/independent_investigators_not_openai_found_the/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3jtue/chatgpt_find_the_problem_and_fix_it/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "ChatGPT can't copy gibberish?",
+      "problem": "Can't upload files",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ab54/chatgpt_cant_copy_gibberish/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3lpyv/cant_upload_files/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "ChatGPT Google login error: token_exchange_failed on Android",
+      "problem": "Anyone having file mounting issue on Plus?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3e6dg/chatgpt_google_login_error_token_exchange_failed/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3hekf/anyone_having_file_mounting_issue_on_plus/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "I have 2 plus accounts, and one of them still only has weekly limits",
+      "problem": "\"down the street\" 😭",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3c9sl/i_have_2_plus_accounts_and_one_of_them_still_only/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ll3q/down_the_street/"
         }
       ],
       "content_opportunity": ""
