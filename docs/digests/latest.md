@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **AI Has Human Doctors Asking: What’s Left for Us?** — science angle
    https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/
-2. **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — science angle
+2. **Doctors warn parents about relying on AI for medical advice - WFTV** — science angle
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
+3. **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — science angle
    https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
-3. **Assessing students in the AI era** — science angle
+4. **Assessing students in the AI era** — science angle
    https://www.nature.com/articles/d41586-026-02632-z
-4. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
+5. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
-5. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
+6. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUFpobTZ5YkNsQTZONVdVMXI2M0lZN2xjeTZ1Wmp4bU9uQjhZYmtlVWx4TFAxUE1pZ0VCakNDVmVxVjNoZjRERHNCWTJiWnRJN0g3OGVQcU1HQnU1SGZ5R0V5VmpFOFZBcUUxOGFZQklRUS02OG9weUYzNjZqWHBQblpPU0VuZEhRNmpXU1UzQXV1bzJP?oc=5
-6. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
+7. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1R3d0daeWRUTXN6N01WR19zMktnNVJmTEE5YnZ3Rkh4NnBrODBXN01rcHE0RVktc0tnTzBNRFlHV2c4Sk52azU5Z2RQei1yREczVUp5WTcxampzTERzaVNBdkFKVndTUmptT2lSUHJpRGowNWZUV3BxcXk0bmZ3cjROUllfMjlLQk5hT1R0THBTUdIBlwFBVV95cUxPdlZzZ195UVJEVkMyU01GX05acVozNDFQT3ZtWkoyRmVCXzNWWkZMNTJHck9zT0ZuYk92akZ0cEh3RXBZczBsWW5wN29MNTlEWHJIci10a3hmR1dCNXZaLVF2WXNPU3VzeWxOQjR4SFpfdjNoYk4xRFNRZGlTQkRiZmlMeEhkd1AzdDQxQXRhaDRQYTl0WFp3?oc=5
-7. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
+8. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
    https://news.google.com/rss/articles/CBMikgJBVV95cUxON0lGdlZaNkNrQTJKMG5MYkNXT2ZYY3pWQjZTSDNMQW05V2FkQ1Z2MktWU0d6Qzgza0d3OUdXdWFfc0hmSjFLa1FLbVFuX3lBRVlYTUtpRmpxcGV1UUpuWEw3dVhHTExnaWFHOVBmbjQxUVZkVW1CRldqWkRaSE1takI4TllnSkpQVU1mcHg0eHlwdUEtbmIyY21aRFp0WXV4d2NYeHVWa0tXTW1Hd09JTWQ1d2Q4YXVjM3B1cFVMa2Q2dERSWVRCMnU4R283aUdGOHIzMHpUbldDNi16a3V4bWR2SGRsQTBXUlZ0dFRrRUhhWEk2T2ZWby1TVTFhUDBWT2tXV2ZNSkxKendWSVdsQTl30gGXAkFVX3lxTFBJcXhrb01IWTZJVTgxbk01V3dBSy1iMzlMREFubjBra3M4SEpDWmo3MHlCRnNMVHc1Y1lRLUdCaHVCTGlreEVDV0ZBU3dfc1dJM0Z1QzdkMWh1SDFCZGxzeW9SeURBMU5uU2hVdkhOcHd3bWRvdExWWW5iaEZCanNjaE5mNXV1WGZPSno4VXZRXy1kX2YyZUFiYW9rWHRSdDlMcjIzajBqMGVTdl9MSEViX1UwczNsUXJTYlZhVUp1UGRTcVlkMHFPREdlNTZTNUpCODhVX0pjVHJqaFBseXIyNHBHd1BXd0xONWJvdGdiUHloMkItZVBLSnR6TGF3SWFCWjBDQU9yQ0dWSkNqWXp4cXkteE1NUQ?oc=5
-8. **OneMedNet’s data network spans more than 90 million patient journeys for AI drug development - Stock Titan** — science angle
-   https://news.google.com/rss/articles/CBMivgFBVV95cUxQYm1PdVZDS0pEWnNIVmhFZzJUcFh2U2hhWU43T2swUV9CUjFZWEU2UkRDWEkzVFRldDF1MkNqdEYwMS1xNU43N0FCRkZDRmZIZ0NKWk5Zc1RwaU95X0s4ZlRHU1ZHM2tZU0ROTHZXX1kwY09PLS1zeTJOb2lOdEUtNTdnN1BGUFF1TlBmYmhoZXRqRm9SVWMxSEM2V0tOZVFJSTFjaHdlMDlDeWdPaTVJVndVXzR1OUJwNl9UVXdn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
@@ -41,20 +41,20 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://abcnews.com/Technology/wireStory/australias-music-industry-bans-ai-generated-tracks-official-135926799
 8. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
    https://lwn.net/Articles/1091231/
-9. **Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxQUHZYOUl0UTBxU19NV29QQ1prcUFCZXhvemE4TU85c0VOTnAyRFFEWVplVjVqVkE3YmJwYTJKdTRjbXR5WVh6VC1oNmE1LUhEODV4WHJTZ1FJSHF1alNKVGFqYmNBZlgyeEpqS0paZEdRVC0xcjZLQ0MzY1huN0VqX25hQXFoU0hyMGZURXdFZTJscmhtdXlnS1d3?oc=5
-10. **China’s hackers use DeepSeek for attacks, researchers say** — straitstimes — Score 48
+9. **China’s hackers use DeepSeek for attacks, researchers say** — straitstimes — Score 48
    https://www.straitstimes.com/asia/east-asia/chinas-hackers-use-deepseek-for-attacks-researchers-say
+10. **Nvidia Earnings Put Jensen Huang—and the AI Trade—Back in the Spotlight - Investing.com** — Jensen Huang News — Score 43
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxPMGl2RFU4SFVtbTVLa0FHMWdQR1IwdjVrQUlmZTJqOVdsRmpRWmpDbk9qbjJITlpuWkMyN3I3T2xDdHd5SG5TTkJ3clRSNlVYUHpCUGJhT2ZUVHBWV1ZuQ0RRcWRZSnRqb2Y2ckpPOVMzRV9QVjRhY1lYWlJPekpsa2FxUDVld3JTellmVkt5Y2EySjVDY2V2enlSZzN2cldmRWk2QTJ0Zk9vQS1CcUFPaklJN28?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
 - **AI Has Human Doctors Asking: What’s Left for Us?** — https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/
+- **Doctors warn parents about relying on AI for medical advice - WFTV** — https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
 - **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
 - **STREAMLINE uses AI to tackle one of nuclear physics’ toughest problems - anl.gov** — https://news.google.com/rss/articles/CBMingFBVV95cUxNeV83TTJXYS1HS1pLcVZYYVpOdGp0MDQzYmVsVHhFTDVINi1JQjBfMHZHemx4M19tZkFzSGxiVkN0RmNWSHRyY2UxdDlZbUk4dEZDYTJxRnMwUGFhYzFaNkNmeS1NTkY1VHBVa2NvWFh2T2xXaWlXVG1vT09sODV0OXh3OURYdUExYk56Mjk5bmNCd3h4Wm01SkxCWndFZw?oc=5
-- **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2965
+- Total stories tracked: 2941
 - Most active topic: nvidia
 - Busiest category: AI General News
 
