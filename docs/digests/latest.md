@@ -15,36 +15,36 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://www.nature.com/articles/d41586-026-02632-z
 4. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
-5. **AI in healthcare is here to stay, but doctors must remain the final decision-makers: experts - The Hindu** — science angle
-   https://news.google.com/rss/articles/CBMi8gFBVV95cUxOemNwM0lmeGd5c2lzU1ZYNXJOWlJSTTV0ZEd3TUs4X01yRC1Jc1paNi1wekw5a0xWTWpwYmxsZ0tDRlVMcHhvNElLbUxWNFU1RFVsWDQzbFZBclFBODhOSjFmVlMtcEJwTDZZOHlvaTN1TkdMZ1E5UjNZYjhfOHAyaUs3cDRaZ0J3bklESm8wUHNzRG9fUHExajItbTI0bWJic0NlTWdxYjl4SjY5LUw2Wmg3cTZCLU9reGh3MXBxWWw3ajJ4Sy1iQUFWeVFUMTBJTVZDNlRCQTRTbVFtWFB1Y21wU01BZ2dlemZaZkF5QXI3UdIB-AFBVV95cUxONUFnc3R4bndkM0QwTzZmbEtQRXVQM2k4NHR2S0NqOE1vZmhqazZTMEtYOGdXTjZMd2lMai1lQlRuYUQwQTg2dlk1ZXZ3TG96VEs4eWRmTHJHZmwxOWFKcWt4NkxMVDV1U3R0UWc3VUc4NktLMHExbmVVTUlQT18tN2N4c3B0emdUMVIwZlVVTHBYZy16NzNycjFrbzExdC11Y2ljUElvbTdvV1hPejVvOFo0M19xVmEyek5uWllaeDZ0bmhSZ3NEYTJhWVpOdklnNmdCdUFyM1VJcXlab21IMFllT2R6RTNlY2U0cVNuTEZET2h2SWsxQw?oc=5
-6. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
+5. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUFpobTZ5YkNsQTZONVdVMXI2M0lZN2xjeTZ1Wmp4bU9uQjhZYmtlVWx4TFAxUE1pZ0VCakNDVmVxVjNoZjRERHNCWTJiWnRJN0g3OGVQcU1HQnU1SGZ5R0V5VmpFOFZBcUUxOGFZQklRUS02OG9weUYzNjZqWHBQblpPU0VuZEhRNmpXU1UzQXV1bzJP?oc=5
-7. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
+6. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1R3d0daeWRUTXN6N01WR19zMktnNVJmTEE5YnZ3Rkh4NnBrODBXN01rcHE0RVktc0tnTzBNRFlHV2c4Sk52azU5Z2RQei1yREczVUp5WTcxampzTERzaVNBdkFKVndTUmptT2lSUHJpRGowNWZUV3BxcXk0bmZ3cjROUllfMjlLQk5hT1R0THBTUdIBlwFBVV95cUxPdlZzZ195UVJEVkMyU01GX05acVozNDFQT3ZtWkoyRmVCXzNWWkZMNTJHck9zT0ZuYk92akZ0cEh3RXBZczBsWW5wN29MNTlEWHJIci10a3hmR1dCNXZaLVF2WXNPU3VzeWxOQjR4SFpfdjNoYk4xRFNRZGlTQkRiZmlMeEhkd1AzdDQxQXRhaDRQYTl0WFp3?oc=5
-8. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
+7. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
    https://news.google.com/rss/articles/CBMikgJBVV95cUxON0lGdlZaNkNrQTJKMG5MYkNXT2ZYY3pWQjZTSDNMQW05V2FkQ1Z2MktWU0d6Qzgza0d3OUdXdWFfc0hmSjFLa1FLbVFuX3lBRVlYTUtpRmpxcGV1UUpuWEw3dVhHTExnaWFHOVBmbjQxUVZkVW1CRldqWkRaSE1takI4TllnSkpQVU1mcHg0eHlwdUEtbmIyY21aRFp0WXV4d2NYeHVWa0tXTW1Hd09JTWQ1d2Q4YXVjM3B1cFVMa2Q2dERSWVRCMnU4R283aUdGOHIzMHpUbldDNi16a3V4bWR2SGRsQTBXUlZ0dFRrRUhhWEk2T2ZWby1TVTFhUDBWT2tXV2ZNSkxKendWSVdsQTl30gGXAkFVX3lxTFBJcXhrb01IWTZJVTgxbk01V3dBSy1iMzlMREFubjBra3M4SEpDWmo3MHlCRnNMVHc1Y1lRLUdCaHVCTGlreEVDV0ZBU3dfc1dJM0Z1QzdkMWh1SDFCZGxzeW9SeURBMU5uU2hVdkhOcHd3bWRvdExWWW5iaEZCanNjaE5mNXV1WGZPSno4VXZRXy1kX2YyZUFiYW9rWHRSdDlMcjIzajBqMGVTdl9MSEViX1UwczNsUXJTYlZhVUp1UGRTcVlkMHFPREdlNTZTNUpCODhVX0pjVHJqaFBseXIyNHBHd1BXd0xONWJvdGdiUHloMkItZVBLSnR6TGF3SWFCWjBDQU9yQ0dWSkNqWXp4cXkteE1NUQ?oc=5
+8. **OneMedNet’s data network spans more than 90 million patient journeys for AI drug development - Stock Titan** — science angle
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxQYm1PdVZDS0pEWnNIVmhFZzJUcFh2U2hhWU43T2swUV9CUjFZWEU2UkRDWEkzVFRldDF1MkNqdEYwMS1xNU43N0FCRkZDRmZIZ0NKWk5Zc1RwaU95X0s4ZlRHU1ZHM2tZU0ROTHZXX1kwY09PLS1zeTJOb2lOdEUtNTdnN1BGUFF1TlBmYmhoZXRqRm9SVWMxSEM2V0tOZVFJSTFjaHdlMDlDeWdPaTVJVndVXzR1OUJwNl9UVXdn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSMkNyLUtLX0E3RmQ1eFMwUk5jQms4R283ZWNZdUhXNTFLMHVoR2M4VEtmMVN1bVJFRmMtZnRXQ3VwdVdZWVBDNVhEMWhtbVNsRldncWpuVXg1UFBQRm5IdXhRRndKVFA4R3J6NUwyQnJtbnNxeE14UVRXSHI2SWk1VWg2UExnc3JGMDFzYTZvYmJSMkxLNkgxelplU1dENDJESENzYVphRzRiSFZwNHdpZ0llWVJ5RTVudzBfVTByVURfZXhUbDRiaV9Fd2lnV2U3V2g4S1E?oc=5
-2. **Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs** — ctinsider — Score 103
-   https://www.ctinsider.com/news/world/article/workers-in-china-worry-over-being-replaced-as-22400517.php
-3. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 103
+2. **Elon releases Human Wisdom Toolkit for the Age of AI** — postguam — Score 103
    https://www.postguam.com/news/national/elon-releases-human-wisdom-toolkit-for-the-age-of-ai/article_f555711f-631b-531c-be85-4dae5e3ba1f5.html
-4. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
+3. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
    https://news.google.com/rss/articles/CBMiakFVX3lxTE9QRUxLU29CZFR5R1hMUkxXVUpFcTFTUXh4OFRETnlvbTlPeWQyOXo4X1k3dk5OMENmeG1UZkZ2MFhOTldGUlZpWVJmSFI5LVBKT3ZhbWQwLWQ0aG9LSVdEMjBBVm9hcVFvZUE?oc=5
-5. **China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com** — DeepSeek News — Score 67
+4. **China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com** — DeepSeek News — Score 67
    https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5
-6. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 63.0
+5. **'Rapidly losing the public': expert backs AI reforms** — perthnow — Score 63.0
    https://www.perthnow.com.au/news/politics/rapidly-losing-the-public-expert-backs-ai-reforms-c-22776905
-7. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
+6. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
    https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
-8. **Mistral and HUMAIN Announce Strategic Collaboration to Advance Sovereign AI in Saudi Arabia and Regionally - PR Newswire** — Mistral News — Score 60
-   https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaFRtbnR2TFhPM2lMbFlOM1pndXRKNWFlZEl4VnVFSERicXBYZ25LWTYxU0JwUDgwR25MSUczbGN4MUprVWFtWUVEX2FDYTdQbkgxOHBGYTJ1a1FLTVNIN19YUGNGN0J2a0ZlQ3JuWnFyMDFaWV9mMGlURi1fVDllcDJ3Q195TWZUaENzNlYyLVJjd1hERndQcWNQZ2FLZTMxbHQyZ2cyVmhFanhldnlYUTF2M2J4eWhyMGZIRGVELWZ3Q2FQYXJnQUdQWGFNMG81YTVURlJXNEtFUTNWV1JUcTJDMGNOYlYyc19uck1LMzJubGQ4?oc=5
-9. **Australia's music industry bans AI-generated tracks from official charts** — abcnews — Score 53
+7. **Australia's music industry bans AI-generated tracks from official charts** — abcnews — Score 53
    https://abcnews.com/Technology/wireStory/australias-music-industry-bans-ai-generated-tracks-official-135926799
-10. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
+8. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
    https://lwn.net/Articles/1091231/
+9. **Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information** — AI Agents — Score 48
+   https://news.google.com/rss/articles/CBMimgFBVV95cUxQUHZYOUl0UTBxU19NV29QQ1prcUFCZXhvemE4TU85c0VOTnAyRFFEWVplVjVqVkE3YmJwYTJKdTRjbXR5WVh6VC1oNmE1LUhEODV4WHJTZ1FJSHF1alNKVGFqYmNBZlgyeEpqS0paZEdRVC0xcjZLQ0MzY1huN0VqX25hQXFoU0hyMGZURXdFZTJscmhtdXlnS1d3?oc=5
+10. **China’s hackers use DeepSeek for attacks, researchers say** — straitstimes — Score 48
+   https://www.straitstimes.com/asia/east-asia/chinas-hackers-use-deepseek-for-attacks-researchers-say
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2985
+- Total stories tracked: 2965
 - Most active topic: nvidia
 - Busiest category: AI General News
 
