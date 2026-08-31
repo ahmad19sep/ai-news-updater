@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://www.nature.com/articles/d41586-026-02632-z
 4. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
-5. **Doctors Just Used AI to Perform Brain Surgery - Futurism** — science angle
-   https://news.google.com/rss/articles/CBMiigFBVV95cUxNYm1mVXEtaVhpdXBMbHJRTWRMTGw4Vk5WN3ppZEFzalhXUVZNSGsyUDdrZVlkenVveHdVOXlxUnJkNHZtR0ZyYmgtMEdLZnBkbXY3SjRCUUdoSWxkNWpmUDRiSFJNVzY2RzRRNFpEQ1RvaWI3TTR2bEY5SGYxdHJDNGU5Vk1MZ2pxR1E?oc=5
-6. **AI in healthcare is here to stay, but doctors must remain the final decision-makers: experts - The Hindu** — science angle
+5. **AI in healthcare is here to stay, but doctors must remain the final decision-makers: experts - The Hindu** — science angle
    https://news.google.com/rss/articles/CBMi8gFBVV95cUxOemNwM0lmeGd5c2lzU1ZYNXJOWlJSTTV0ZEd3TUs4X01yRC1Jc1paNi1wekw5a0xWTWpwYmxsZ0tDRlVMcHhvNElLbUxWNFU1RFVsWDQzbFZBclFBODhOSjFmVlMtcEJwTDZZOHlvaTN1TkdMZ1E5UjNZYjhfOHAyaUs3cDRaZ0J3bklESm8wUHNzRG9fUHExajItbTI0bWJic0NlTWdxYjl4SjY5LUw2Wmg3cTZCLU9reGh3MXBxWWw3ajJ4Sy1iQUFWeVFUMTBJTVZDNlRCQTRTbVFtWFB1Y21wU01BZ2dlemZaZkF5QXI3UdIB-AFBVV95cUxONUFnc3R4bndkM0QwTzZmbEtQRXVQM2k4NHR2S0NqOE1vZmhqazZTMEtYOGdXTjZMd2lMai1lQlRuYUQwQTg2dlk1ZXZ3TG96VEs4eWRmTHJHZmwxOWFKcWt4NkxMVDV1U3R0UWc3VUc4NktLMHExbmVVTUlQT18tN2N4c3B0emdUMVIwZlVVTHBYZy16NzNycjFrbzExdC11Y2ljUElvbTdvV1hPejVvOFo0M19xVmEyek5uWllaeDZ0bmhSZ3NEYTJhWVpOdklnNmdCdUFyM1VJcXlab21IMFllT2R6RTNlY2U0cVNuTEZET2h2SWsxQw?oc=5
-7. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
+6. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUFpobTZ5YkNsQTZONVdVMXI2M0lZN2xjeTZ1Wmp4bU9uQjhZYmtlVWx4TFAxUE1pZ0VCakNDVmVxVjNoZjRERHNCWTJiWnRJN0g3OGVQcU1HQnU1SGZ5R0V5VmpFOFZBcUUxOGFZQklRUS02OG9weUYzNjZqWHBQblpPU0VuZEhRNmpXU1UzQXV1bzJP?oc=5
-8. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
+7. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1R3d0daeWRUTXN6N01WR19zMktnNVJmTEE5YnZ3Rkh4NnBrODBXN01rcHE0RVktc0tnTzBNRFlHV2c4Sk52azU5Z2RQei1yREczVUp5WTcxampzTERzaVNBdkFKVndTUmptT2lSUHJpRGowNWZUV3BxcXk0bmZ3cjROUllfMjlLQk5hT1R0THBTUdIBlwFBVV95cUxPdlZzZ195UVJEVkMyU01GX05acVozNDFQT3ZtWkoyRmVCXzNWWkZMNTJHck9zT0ZuYk92akZ0cEh3RXBZczBsWW5wN29MNTlEWHJIci10a3hmR1dCNXZaLVF2WXNPU3VzeWxOQjR4SFpfdjNoYk4xRFNRZGlTQkRiZmlMeEhkd1AzdDQxQXRhaDRQYTl0WFp3?oc=5
+8. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
+   https://news.google.com/rss/articles/CBMikgJBVV95cUxON0lGdlZaNkNrQTJKMG5MYkNXT2ZYY3pWQjZTSDNMQW05V2FkQ1Z2MktWU0d6Qzgza0d3OUdXdWFfc0hmSjFLa1FLbVFuX3lBRVlYTUtpRmpxcGV1UUpuWEw3dVhHTExnaWFHOVBmbjQxUVZkVW1CRldqWkRaSE1takI4TllnSkpQVU1mcHg0eHlwdUEtbmIyY21aRFp0WXV4d2NYeHVWa0tXTW1Hd09JTWQ1d2Q4YXVjM3B1cFVMa2Q2dERSWVRCMnU4R283aUdGOHIzMHpUbldDNi16a3V4bWR2SGRsQTBXUlZ0dFRrRUhhWEk2T2ZWby1TVTFhUDBWT2tXV2ZNSkxKendWSVdsQTl30gGXAkFVX3lxTFBJcXhrb01IWTZJVTgxbk01V3dBSy1iMzlMREFubjBra3M4SEpDWmo3MHlCRnNMVHc1Y1lRLUdCaHVCTGlreEVDV0ZBU3dfc1dJM0Z1QzdkMWh1SDFCZGxzeW9SeURBMU5uU2hVdkhOcHd3bWRvdExWWW5iaEZCanNjaE5mNXV1WGZPSno4VXZRXy1kX2YyZUFiYW9rWHRSdDlMcjIzajBqMGVTdl9MSEViX1UwczNsUXJTYlZhVUp1UGRTcVlkMHFPREdlNTZTNUpCODhVX0pjVHJqaFBseXIyNHBHd1BXd0xONWJvdGdiUHloMkItZVBLSnR6TGF3SWFCWjBDQU9yQ0dWSkNqWXp4cXkteE1NUQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
 8. **Mistral and HUMAIN Announce Strategic Collaboration to Advance Sovereign AI in Saudi Arabia and Regionally - PR Newswire** — Mistral News — Score 60
    https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaFRtbnR2TFhPM2lMbFlOM1pndXRKNWFlZEl4VnVFSERicXBYZ25LWTYxU0JwUDgwR25MSUczbGN4MUprVWFtWUVEX2FDYTdQbkgxOHBGYTJ1a1FLTVNIN19YUGNGN0J2a0ZlQ3JuWnFyMDFaWV9mMGlURi1fVDllcDJ3Q195TWZUaENzNlYyLVJjd1hERndQcWNQZ2FLZTMxbHQyZ2cyVmhFanhldnlYUTF2M2J4eWhyMGZIRGVELWZ3Q2FQYXJnQUdQWGFNMG81YTVURlJXNEtFUTNWV1JUcTJDMGNOYlYyc19uck1LMzJubGQ4?oc=5
-9. **Jamf launches AI Governance to enhance visibility, security** — cfotech_au — Score 58
-   https://cfotech.com.au/story/jamf-launches-ai-governance-to-enhance-visibility-security
-10. **ibi Launches Enterprise Agentic AI Engine at Annual Customer Summit Replacing Passive Business Intelligence - Business Wire** — AI Agents — Score 58
-   https://news.google.com/rss/articles/CBMi9wFBVV95cUxPU09DU3ZCdWgwRDJzLWNqcXVGaWVaWGxnT2VIRGVDSDZQQ2FVallKdUpjbDg2OU1qUFlmTTFZSGM5d3dIYkZTRFRfd0RIdVp2amFvdHBPdVc2bnVuTzNNX0g3TFl4WTBQZEpualk4RXZkQld2VDhJbHBGTTZLb0dGZThSYXR3T2MzaEtPSndVZVZHVUlhTW9SM2ItMDE4dnBCMXRBa0RRaEZkREJUSGt5VFJDODhfMno5bTU4dDFONmUtZEdINWh1dFdXeVhSbG1Jb3UxcEUzR0VTMjhaNzVKWHNkVkstLWJiSVZCT1hOSlN5SW8xM1Zj?oc=5
+9. **Australia's music industry bans AI-generated tracks from official charts** — abcnews — Score 53
+   https://abcnews.com/Technology/wireStory/australias-music-industry-bans-ai-generated-tracks-official-135926799
+10. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
+   https://lwn.net/Articles/1091231/
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **Assessing students in the AI era** — https://www.nature.com/articles/d41586-026-02632-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2991
+- Total stories tracked: 2985
 - Most active topic: nvidia
 - Busiest category: AI General News
 
