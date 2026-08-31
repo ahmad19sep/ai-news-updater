@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T21:09:12.229095+00:00",
+  "generated_at": "2026-08-31T05:39:57.459996+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 14,
+      "hackernews": 15,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2telt/started_thinking_of_chatgpt_as_a_friend_and_its/",
+          "signal": "Started thinking of ChatGPT as a friend and it’s unsettling"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w33cxu/i_accidentally_created_a_digital_timeline_of_my/",
+          "signal": "I accidentally created a digital timeline of my life across different ChatGPT conversations. Now I need it."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gkwo/chatgpt_60_astra_image_20_update_on_the_horizon/",
           "signal": "ChatGPT 6.0 Astra & Image 2.0 Update on the horizon - September 3rd?"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2z1uc/id_pay_apistyle_to_choose_any_openai_model_inside/",
+          "signal": "I’d pay API-style to choose any OpenAI model inside ChatGPT. Why isn’t this an option?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
           "signal": "Impressed with ChatGPT calling out my casual sexism"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
-          "signal": "ChatGPT has been working for 910 minutes and counting"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2pi3d/chatgpt_has_a_very_strong_type_when_generating_a/",
-          "signal": "ChatGPT has a VERY strong \"type\" when generating \"a woman\" image... so, for science: what is \"a man\"?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2nqxc/chatgpt_56_sol_vs_claude_opus_5_which_is_better/",
-          "signal": "ChatGPT 5.6 Sol vs Claude Opus 5 — which is better for research, strategy, SEO and long-form analysis?"
         }
       ],
       "content_ideas": []
@@ -154,28 +153,36 @@
       "content_ideas": []
     },
     {
-      "name": "StemDeck, a free, open-source and local AI stem separator",
-      "category": "use_case",
+      "name": "Wan",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
+      "best_format": "reel",
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/stemdeckapp/stemdeck",
-          "signal": "StemDeck, a free, open-source and local AI stem separator"
+          "url": "https://news.ycombinator.com/item?id=49505014",
+          "signal": "Why do I lose my passion and want to do nothing?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gmcp/unwanted_image_generation_is_driving_me_nuts/",
+          "signal": "Unwanted image generation is driving me nuts"
         }
       ],
       "content_ideas": []
@@ -235,7 +242,7 @@
       "content_ideas": []
     },
     {
-      "name": "Identifying fake cosmetics using AI",
+      "name": "Continuous Diffusion Language Models (CDLM's)",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -255,8 +262,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html",
-          "signal": "Identifying fake cosmetics using AI"
+          "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+          "signal": "Continuous Diffusion Language Models (CDLM's)"
         }
       ],
       "content_ideas": []
@@ -338,8 +345,8 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2t05p/chatgpt_vs_gemini_exact_same_prompt_and_its_not/",
-          "signal": "Chatgpt Vs Gemini. Exact same prompt and it's not even close"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2xjd4/called_him_gemini/",
+          "signal": "Called him gemini"
         },
         {
           "platform": "youtube",
@@ -350,7 +357,7 @@
       "content_ideas": []
     },
     {
-      "name": "OpenAI and Anthropic are ruining San Francisco",
+      "name": "The EU has begun enforcing the AI Act: first RFIs to model providers",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -362,7 +369,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 2,
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -370,8 +377,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.sfgate.com/local/article/open-ai-anthropic-ruining-sf-22404657.php?link_source=ta_first_comment&taid=6a91be8eb9a1130001896fd8&fbclid=IwY2xjawT_Fs1wZG9mA2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDzQwOTk2MjYyMzA4NTYwOQABHvfPHyGSByYNR7Cmkzc-oVqd31kuJy3YUIMwJB5LlB84Hi71zSB_6e5NVbld_aem_L8Ysu4gjQinZHOeaZObNKA",
-          "signal": "OpenAI and Anthropic are ruining San Francisco"
+          "url": "https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security-rfis",
+          "signal": "The EU has begun enforcing the AI Act: first RFIs to model providers"
         }
       ],
       "content_ideas": []
@@ -379,13 +386,47 @@
   ],
   "rising_tools": [
     {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49505014",
+          "signal": "Why do I lose my passion and want to do nothing?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gmcp/unwanted_image_generation_is_driving_me_nuts/",
+          "signal": "Unwanted image generation is driving me nuts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -408,28 +449,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2telt/started_thinking_of_chatgpt_as_a_friend_and_its/",
+          "signal": "Started thinking of ChatGPT as a friend and it’s unsettling"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w33cxu/i_accidentally_created_a_digital_timeline_of_my/",
+          "signal": "I accidentally created a digital timeline of my life across different ChatGPT conversations. Now I need it."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gkwo/chatgpt_60_astra_image_20_update_on_the_horizon/",
           "signal": "ChatGPT 6.0 Astra & Image 2.0 Update on the horizon - September 3rd?"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2z1uc/id_pay_apistyle_to_choose_any_openai_model_inside/",
+          "signal": "I’d pay API-style to choose any OpenAI model inside ChatGPT. Why isn’t this an option?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
           "signal": "Impressed with ChatGPT calling out my casual sexism"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
-          "signal": "ChatGPT has been working for 910 minutes and counting"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2pi3d/chatgpt_has_a_very_strong_type_when_generating_a/",
-          "signal": "ChatGPT has a VERY strong \"type\" when generating \"a woman\" image... so, for science: what is \"a man\"?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2nqxc/chatgpt_56_sol_vs_claude_opus_5_which_is_better/",
-          "signal": "ChatGPT 5.6 Sol vs Claude Opus 5 — which is better for research, strategy, SEO and long-form analysis?"
         }
       ],
       "content_ideas": []
@@ -456,8 +497,8 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2t05p/chatgpt_vs_gemini_exact_same_prompt_and_its_not/",
-          "signal": "Chatgpt Vs Gemini. Exact same prompt and it's not even close"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2xjd4/called_him_gemini/",
+          "signal": "Called him gemini"
         },
         {
           "platform": "youtube",
