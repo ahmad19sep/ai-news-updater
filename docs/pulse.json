@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:39:57.459996+00:00",
+  "generated_at": "2026-08-31T13:56:27.464033+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 15,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w397e3/is_qwen_38_27b_distilled_from_chatgpt/",
+          "signal": "Is qwen 3.8 27B distilled from ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2telt/started_thinking_of_chatgpt_as_a_friend_and_its/",
           "signal": "Started thinking of ChatGPT as a friend and it’s unsettling"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w33cxu/i_accidentally_created_a_digital_timeline_of_my/",
-          "signal": "I accidentally created a digital timeline of my life across different ChatGPT conversations. Now I need it."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w39p29/i_asked_chatgpt_to_recreate_the_feeling_of/",
+          "signal": "I asked ChatGPT to recreate the feeling of flipping through album covers in 1980: somehow these imaginary records feel like ones I remember seeing, even though they never existed."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gkwo/chatgpt_60_astra_image_20_update_on_the_horizon/",
-          "signal": "ChatGPT 6.0 Astra & Image 2.0 Update on the horizon - September 3rd?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ab54/chatgpt_cant_copy_gibberish/",
+          "signal": "ChatGPT can't copy gibberish?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2z1uc/id_pay_apistyle_to_choose_any_openai_model_inside/",
-          "signal": "I’d pay API-style to choose any OpenAI model inside ChatGPT. Why isn’t this an option?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
-          "signal": "Impressed with ChatGPT calling out my casual sexism"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3e6dg/chatgpt_google_login_error_token_exchange_failed/",
+          "signal": "ChatGPT Google login error: token_exchange_failed on Android"
         }
       ],
       "content_ideas": []
@@ -153,22 +153,73 @@
       "content_ideas": []
     },
     {
-      "name": "Wan",
-      "category": "tool_launch",
+      "name": "OpenClaw 2.0, Accidentally",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
+          "signal": "OpenClaw 2.0, Accidentally"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Continuous Diffusion Language Models (CDLM's)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+          "signal": "Continuous Diffusion Language Models (CDLM's)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -178,11 +229,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49505014",
           "signal": "Why do I lose my passion and want to do nothing?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gmcp/unwanted_image_generation_is_driving_me_nuts/",
-          "signal": "Unwanted image generation is driving me nuts"
         }
       ],
       "content_ideas": []
@@ -242,121 +288,6 @@
       "content_ideas": []
     },
     {
-      "name": "Continuous Diffusion Language Models (CDLM's)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
-          "signal": "Continuous Diffusion Language Models (CDLM's)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Fair Work Commission condemns 'plain wrong' AI legal advice",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
-          "signal": "Fair Work Commission condemns 'plain wrong' AI legal advice"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Open Oscar Server: open-source server compatible with AIM and ICQ clie",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/mk6i/open-oscar-server",
-          "signal": "Open Oscar Server: open-source server compatible with AIM and ICQ clients"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2xjd4/called_him_gemini/",
-          "signal": "Called him gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "The EU has begun enforcing the AI Act: first RFIs to model providers",
       "category": "use_case",
       "momentum": "rising",
@@ -369,7 +300,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -382,6 +313,60 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+          "signal": "AI-Written Code Is Still *Your* Code. Are You OK with That?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+          "signal": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -390,18 +375,15 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
+      "best_format": "short",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -411,11 +393,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49505014",
           "signal": "Why do I lose my passion and want to do nothing?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gmcp/unwanted_image_generation_is_driving_me_nuts/",
-          "signal": "Unwanted image generation is driving me nuts"
         }
       ],
       "content_ideas": []
@@ -449,66 +426,94 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w397e3/is_qwen_38_27b_distilled_from_chatgpt/",
+          "signal": "Is qwen 3.8 27B distilled from ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w2telt/started_thinking_of_chatgpt_as_a_friend_and_its/",
           "signal": "Started thinking of ChatGPT as a friend and it’s unsettling"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w33cxu/i_accidentally_created_a_digital_timeline_of_my/",
-          "signal": "I accidentally created a digital timeline of my life across different ChatGPT conversations. Now I need it."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w39p29/i_asked_chatgpt_to_recreate_the_feeling_of/",
+          "signal": "I asked ChatGPT to recreate the feeling of flipping through album covers in 1980: somehow these imaginary records feel like ones I remember seeing, even though they never existed."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gkwo/chatgpt_60_astra_image_20_update_on_the_horizon/",
-          "signal": "ChatGPT 6.0 Astra & Image 2.0 Update on the horizon - September 3rd?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ab54/chatgpt_cant_copy_gibberish/",
+          "signal": "ChatGPT can't copy gibberish?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2z1uc/id_pay_apistyle_to_choose_any_openai_model_inside/",
-          "signal": "I’d pay API-style to choose any OpenAI model inside ChatGPT. Why isn’t this an option?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2ab76/impressed_with_chatgpt_calling_out_my_casual/",
-          "signal": "Impressed with ChatGPT calling out my casual sexism"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w2xjd4/called_him_gemini/",
-          "signal": "Called him gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3e6dg/chatgpt_google_login_error_token_exchange_failed/",
+          "signal": "ChatGPT Google login error: token_exchange_failed on Android"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Work 5 hour limits, are you serious?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w37lur/work_5_hour_limits_are_you_serious/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Independent investigators (not OpenAI) found the 700-agent swarm that attacked Hugging Face \"built a self-respawning fleet\" to avoid being s",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w38cd5/independent_investigators_not_openai_found_the/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "ChatGPT can't copy gibberish?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ab54/chatgpt_cant_copy_gibberish/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "ChatGPT Google login error: token_exchange_failed on Android",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3e6dg/chatgpt_google_login_error_token_exchange_failed/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I have 2 plus accounts, and one of them still only has weekly limits",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3c9sl/i_have_2_plus_accounts_and_one_of_them_still_only/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
