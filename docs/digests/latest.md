@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://www.nature.com/articles/d41586-026-02632-z
 5. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
-6. **Your doctor has to beg AI for permission to save your life - Washington Examiner** — science angle
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxPUFpobTZ5YkNsQTZONVdVMXI2M0lZN2xjeTZ1Wmp4bU9uQjhZYmtlVWx4TFAxUE1pZ0VCakNDVmVxVjNoZjRERHNCWTJiWnRJN0g3OGVQcU1HQnU1SGZ5R0V5VmpFOFZBcUUxOGFZQklRUS02OG9weUYzNjZqWHBQblpPU0VuZEhRNmpXU1UzQXV1bzJP?oc=5
-7. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
+6. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1R3d0daeWRUTXN6N01WR19zMktnNVJmTEE5YnZ3Rkh4NnBrODBXN01rcHE0RVktc0tnTzBNRFlHV2c4Sk52azU5Z2RQei1yREczVUp5WTcxampzTERzaVNBdkFKVndTUmptT2lSUHJpRGowNWZUV3BxcXk0bmZ3cjROUllfMjlLQk5hT1R0THBTUdIBlwFBVV95cUxPdlZzZ195UVJEVkMyU01GX05acVozNDFQT3ZtWkoyRmVCXzNWWkZMNTJHck9zT0ZuYk92akZ0cEh3RXBZczBsWW5wN29MNTlEWHJIci10a3hmR1dCNXZaLVF2WXNPU3VzeWxOQjR4SFpfdjNoYk4xRFNRZGlTQkRiZmlMeEhkd1AzdDQxQXRhaDRQYTl0WFp3?oc=5
-8. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
+7. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
    https://news.google.com/rss/articles/CBMikgJBVV95cUxON0lGdlZaNkNrQTJKMG5MYkNXT2ZYY3pWQjZTSDNMQW05V2FkQ1Z2MktWU0d6Qzgza0d3OUdXdWFfc0hmSjFLa1FLbVFuX3lBRVlYTUtpRmpxcGV1UUpuWEw3dVhHTExnaWFHOVBmbjQxUVZkVW1CRldqWkRaSE1takI4TllnSkpQVU1mcHg0eHlwdUEtbmIyY21aRFp0WXV4d2NYeHVWa0tXTW1Hd09JTWQ1d2Q4YXVjM3B1cFVMa2Q2dERSWVRCMnU4R283aUdGOHIzMHpUbldDNi16a3V4bWR2SGRsQTBXUlZ0dFRrRUhhWEk2T2ZWby1TVTFhUDBWT2tXV2ZNSkxKendWSVdsQTl30gGXAkFVX3lxTFBJcXhrb01IWTZJVTgxbk01V3dBSy1iMzlMREFubjBra3M4SEpDWmo3MHlCRnNMVHc1Y1lRLUdCaHVCTGlreEVDV0ZBU3dfc1dJM0Z1QzdkMWh1SDFCZGxzeW9SeURBMU5uU2hVdkhOcHd3bWRvdExWWW5iaEZCanNjaE5mNXV1WGZPSno4VXZRXy1kX2YyZUFiYW9rWHRSdDlMcjIzajBqMGVTdl9MSEViX1UwczNsUXJTYlZhVUp1UGRTcVlkMHFPREdlNTZTNUpCODhVX0pjVHJqaFBseXIyNHBHd1BXd0xONWJvdGdiUHloMkItZVBLSnR6TGF3SWFCWjBDQU9yQ0dWSkNqWXp4cXkteE1NUQ?oc=5
+8. **OneMedNet’s data network spans more than 90 million patient journeys for AI drug development - Stock Titan** — science angle
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxQYm1PdVZDS0pEWnNIVmhFZzJUcFh2U2hhWU43T2swUV9CUjFZWEU2UkRDWEkzVFRldDF1MkNqdEYwMS1xNU43N0FCRkZDRmZIZ0NKWk5Zc1RwaU95X0s4ZlRHU1ZHM2tZU0ROTHZXX1kwY09PLS1zeTJOb2lOdEUtNTdnN1BGUFF1TlBmYmhoZXRqRm9SVWMxSEM2V0tOZVFJSTFjaHdlMDlDeWdPaTVJVndVXzR1OUJwNl9UVXdn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **STREAMLINE uses AI to tackle one of nuclear physics’ toughest problems - anl.gov** — https://news.google.com/rss/articles/CBMingFBVV95cUxNeV83TTJXYS1HS1pLcVZYYVpOdGp0MDQzYmVsVHhFTDVINi1JQjBfMHZHemx4M19tZkFzSGxiVkN0RmNWSHRyY2UxdDlZbUk4dEZDYTJxRnMwUGFhYzFaNkNmeS1NTkY1VHBVa2NvWFh2T2xXaWlXVG1vT09sODV0OXh3OURYdUExYk56Mjk5bmNCd3h4Wm01SkxCWndFZw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2886
+- Total stories tracked: 2840
 - Most active topic: nvidia
 - Busiest category: AI General News
 
