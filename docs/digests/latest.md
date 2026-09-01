@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://abcnews.com/Technology/wireStory/australias-music-industry-bans-ai-generated-tracks-official-135926799
 8. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
    https://lwn.net/Articles/1091231/
-9. **The Entertainment Industry's Biggest Names Back Stability AI in Latest Funding Round - PR Newswire** — Stability AI — Score 43
-   https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSTZBWTZRN0RBRmp3bVlaMUlJSVh1bGdfdFlieVByNFJoVTNMdXl5R0NlSE9pX0poc2dsbUNVWkJjQTZGWHk4RTgxNTU0ZFVvVlpnaEJnOHllbWpZNVpUVXlCS2JoalRzQVdxaldWbThPaHhvempvbmpLLVdjY1JXemxLUXRFYWx3UVdvQnhmSWd1bzlUMlA0ZlFpdmJtNnNoRkV3dDJyUVdxa0x3U3E2X2x0YUpvcFktQzhSZkxnem9fbXBRZ002S3p2S0xTd3N3RVI4bjRn?oc=5
-10. **Judge says Pentagon's measures against Anthropic were 'illegal and baseless' - News4JAX** — Dario Amodei News — Score 43
-   https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUtiSWZkVVRoTWFGUW5oVWphc3VKOHhyc2hITmQyaXk2WEFXZHRvM1IwVERtSHcwZHVfUDA3cnMtYVUweTRNMzNmcU1tWTNCa0IwTFVLU3lSdHl3N29nWmsyM2t0aHdVeDFpckFsRy1MN1RyV2oyUnIyUDEtMmk2dHFpSWJNcVA4RnZsb1FZQVduODNFcnczS1RwcE84NFF5TTVGY1h1UnlEc2hGZ0UyYndrVUxjWmM3QnZmWDg4MHhtUQ?oc=5
+9. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 46
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxOYldiVVp0NVFKZzNucWhhd0JjTURCM25XdExhZ3ZqdGZtNXViZ1NJUm9Pc0UxdzIxSjV2b1ZsdEpaU1hrblJVYktQajhwd3NDdDMwUmdMbGl6a05DYkVsZEVHelkyZnJQTVVyNmU2SkJjcW53T3pkcUl1UXdzNEE5OFBRLVJvQnJmX0pyZ3dMZld4eHN5Qnh6UWpsR1Jpa3hWeWl2cE1TSGZoSzJyUE9fSTl0SQ?oc=5
+10. **John Deere launched an AI chatbot for farmers** — The Verge AI — Score 45
+   https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2804
+- Total stories tracked: 2745
 - Most active topic: nvidia
 - Busiest category: AI General News
 
