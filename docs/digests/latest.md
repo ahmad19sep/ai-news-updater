@@ -13,8 +13,8 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
 3. **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — science angle
    https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
-4. **Assessing students in the AI era** — science angle
-   https://www.nature.com/articles/d41586-026-02632-z
+4. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
+   https://www.nature.com/articles/d41586-026-02370-2
 5. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
 6. **Patients opening up to AI over doctors for health questions - NewsNation** — science angle
@@ -41,20 +41,20 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://abcnews.com/Technology/wireStory/australias-music-industry-bans-ai-generated-tracks-official-135926799
 8. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
    https://lwn.net/Articles/1091231/
-9. **China’s hackers use DeepSeek for attacks, researchers say** — straitstimes — Score 48
-   https://www.straitstimes.com/asia/east-asia/chinas-hackers-use-deepseek-for-attacks-researchers-say
-10. **Nvidia Earnings Put Jensen Huang—and the AI Trade—Back in the Spotlight - Investing.com** — Jensen Huang News — Score 43
-   https://news.google.com/rss/articles/CBMitAFBVV95cUxPMGl2RFU4SFVtbTVLa0FHMWdQR1IwdjVrQUlmZTJqOVdsRmpRWmpDbk9qbjJITlpuWkMyN3I3T2xDdHd5SG5TTkJ3clRSNlVYUHpCUGJhT2ZUVHBWV1ZuQ0RRcWRZSnRqb2Y2ckpPOVMzRV9QVjRhY1lYWlJPekpsa2FxUDVld3JTellmVkt5Y2EySjVDY2V2enlSZzN2cldmRWk2QTJ0Zk9vQS1CcUFPaklJN28?oc=5
+9. **The Entertainment Industry's Biggest Names Back Stability AI in Latest Funding Round - PR Newswire** — Stability AI — Score 43
+   https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSTZBWTZRN0RBRmp3bVlaMUlJSVh1bGdfdFlieVByNFJoVTNMdXl5R0NlSE9pX0poc2dsbUNVWkJjQTZGWHk4RTgxNTU0ZFVvVlpnaEJnOHllbWpZNVpUVXlCS2JoalRzQVdxaldWbThPaHhvempvbmpLLVdjY1JXemxLUXRFYWx3UVdvQnhmSWd1bzlUMlA0ZlFpdmJtNnNoRkV3dDJyUVdxa0x3U3E2X2x0YUpvcFktQzhSZkxnem9fbXBRZ002S3p2S0xTd3N3RVI4bjRn?oc=5
+10. **Judge says Pentagon's measures against Anthropic were 'illegal and baseless' - News4JAX** — Dario Amodei News — Score 43
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUtiSWZkVVRoTWFGUW5oVWphc3VKOHhyc2hITmQyaXk2WEFXZHRvM1IwVERtSHcwZHVfUDA3cnMtYVUweTRNMzNmcU1tWTNCa0IwTFVLU3lSdHl3N29nWmsyM2t0aHdVeDFpckFsRy1MN1RyV2oyUnIyUDEtMmk2dHFpSWJNcVA4RnZsb1FZQVduODNFcnczS1RwcE84NFF5TTVGY1h1UnlEc2hGZ0UyYndrVUxjWmM3QnZmWDg4MHhtUQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
 - **AI Has Human Doctors Asking: What’s Left for Us?** — https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/
 - **Doctors warn parents about relying on AI for medical advice - WFTV** — https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
 - **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
-- **STREAMLINE uses AI to tackle one of nuclear physics’ toughest problems - anl.gov** — https://news.google.com/rss/articles/CBMingFBVV95cUxNeV83TTJXYS1HS1pLcVZYYVpOdGp0MDQzYmVsVHhFTDVINi1JQjBfMHZHemx4M19tZkFzSGxiVkN0RmNWSHRyY2UxdDlZbUk4dEZDYTJxRnMwUGFhYzFaNkNmeS1NTkY1VHBVa2NvWFh2T2xXaWlXVG1vT09sODV0OXh3OURYdUExYk56Mjk5bmNCd3h4Wm01SkxCWndFZw?oc=5
+- **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2840
+- Total stories tracked: 2804
 - Most active topic: nvidia
 - Busiest category: AI General News
 
