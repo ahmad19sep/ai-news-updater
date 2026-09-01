@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:53:18.586802+00:00",
+  "generated_at": "2026-09-01T05:13:47.345179+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,6 +50,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3urgp/asking_chatgpt_to_rank_the_ten_most_influential/",
+          "signal": "Asking ChatGPT to rank the ten most influential religious figures in history by morality"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w3gcwx/why_does_chatgpt_dominate_the_usage_metric/",
           "signal": "Why does ChatGPT dominate the usage metric?"
         },
@@ -60,13 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3fsyw/chatgpt_the_real_perv/",
-          "signal": "ChatGPT the real perv"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3jtue/chatgpt_find_the_problem_and_fix_it/",
-          "signal": "ChatGPT, find the problem and fix it"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3wqoh/chatgpt_and_the_crying_emoji/",
+          "signal": "ChatGPT and the crying emoji"
         }
       ],
       "content_ideas": []
@@ -153,60 +153,6 @@
       "content_ideas": []
     },
     {
-      "name": "Continuous Diffusion Language Models (CDLM's)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
-          "signal": "Continuous Diffusion Language Models (CDLM's)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49505014",
-          "signal": "Why do I lose my passion and want to do nothing?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "The safest job from AI may be writing",
       "category": "use_case",
       "momentum": "rising",
@@ -220,7 +166,7 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 4,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -249,7 +195,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -259,6 +205,60 @@
           "platform": "hackernews",
           "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
           "signal": "Smartphone LED detects hidden cameras with AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49505014",
+          "signal": "Why do I lose my passion and want to do nothing?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Continuous Diffusion Language Models (CDLM's)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+          "signal": "Continuous Diffusion Language Models (CDLM's)"
         }
       ],
       "content_ideas": []
@@ -330,7 +330,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -374,33 +374,6 @@
   ],
   "rising_tools": [
     {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49505014",
-          "signal": "Why do I lose my passion and want to do nothing?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
@@ -435,6 +408,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3urgp/asking_chatgpt_to_rank_the_ten_most_influential/",
+          "signal": "Asking ChatGPT to rank the ten most influential religious figures in history by morality"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w3gcwx/why_does_chatgpt_dominate_the_usage_metric/",
           "signal": "Why does ChatGPT dominate the usage metric?"
         },
@@ -445,13 +423,35 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3fsyw/chatgpt_the_real_perv/",
-          "signal": "ChatGPT the real perv"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3wqoh/chatgpt_and_the_crying_emoji/",
+          "signal": "ChatGPT and the crying emoji"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3jtue/chatgpt_find_the_problem_and_fix_it/",
-          "signal": "ChatGPT, find the problem and fix it"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49505014",
+          "signal": "Why do I lose my passion and want to do nothing?"
         }
       ],
       "content_ideas": []
@@ -478,54 +478,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w37lur/work_5_hour_limits_are_you_serious/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT, find the problem and fix it",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3jtue/chatgpt_find_the_problem_and_fix_it/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Can't upload files",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3lpyv/cant_upload_files/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Anyone having file mounting issue on Plus?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3hekf/anyone_having_file_mounting_issue_on_plus/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "\"down the street\" 😭",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ll3q/down_the_street/"
         }
       ],
       "content_opportunity": ""
