@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 24 Aug 2026 to 31 Aug 2026
+# 🗞️ AI THIS WEEK — 25 Aug 2026 to 01 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **64 percent of online shoppers are using AI to help find products, study shows - Scripps News**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **STREAMLINE uses AI to tackle one of nuclear physics’ toughest problems - anl.gov** — https://news.google.com/rss/articles/CBMingFBVV95cUxNeV83TTJXYS1HS1pLcVZYYVpOdGp0MDQzYmVsVHhFTDVINi1JQjBfMHZHemx4M19tZkFzSGxiVkN0RmNWSHRyY2UxdDlZbUk4dEZDYTJxRnMwUGFhYzFaNkNmeS1NTkY1VHBVa2NvWFh2T2xXaWlXVG1vT09sODV0OXh3OURYdUExYk56Mjk5bmNCd3h4Wm01SkxCWndFZw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2941
+- Total stories tracked: 2886
 - Most active topic: nvidia
 - Busiest category: AI General News
 
