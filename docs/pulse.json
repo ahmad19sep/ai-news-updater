@@ -1,15 +1,13 @@
 {
-  "generated_at": "2026-09-01T11:42:06.056969+00:00",
+  "generated_at": "2026-09-01T16:42:09.189718+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
       "reddit",
-      "hackernews",
       "youtube"
     ],
     "signal_counts": {
       "reddit": 50,
-      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -21,7 +19,6 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -29,7 +26,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 8,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -38,11 +35,6 @@
         "note": ""
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-          "signal": "ChatGPT to face tougher regulation in the EU"
-        },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
@@ -55,92 +47,42 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4chah/psa_chatgpt_never_tells_you_a_conversation_has/",
+          "signal": "PSA: ChatGPT never tells you a conversation has gotten too long, it just quietly forgets the beginning"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w46l1f/yes_chatgpt_copies_you_please_stop_posting_about/",
           "signal": "Yes, ChatGPT copies you, please stop posting about it."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3urgp/asking_chatgpt_to_rank_the_ten_most_influential/",
-          "signal": "Asking ChatGPT to rank the ten most influential religious figures in history by morality"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w42a8s/i_am_so_lonely_that_i_actually_am_using_chatgpt/",
+          "signal": "I am so lonely that I actually am using ChatGPT to generate a selfie where I have friends lmfao"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w42a8s/i_am_so_lonely_that_i_actually_am_using_chatgpt/",
-          "signal": "I am so lonely that I actually am using ChatGPT to generate a selfie where I have friends lmfao"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3urgp/asking_chatgpt_to_rank_the_ten_most_influential/",
+          "signal": "Asking ChatGPT to rank the ten most influential religious figures in history by morality"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-          "signal": "Apple caught off guard by AI demand for Mac Mini and Mac Studio"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "No AI Fridays",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://noaifridays.com/",
-          "signal": "No AI Fridays"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Llama",
+      "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
+        "linkedin_inferred",
         "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -148,38 +90,100 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w44jnv/exllamav3_recent_updates_cpu_offload_glm53flash/",
-          "signal": "ExLlamav3 Recent Updates : CPU offload, GLM-5.3-FLASH, Qwen3.8-Flash, SC Quants ++"
+          "url": "https://www.reddit.com/r/artificial/comments/1w42g6i/anthropic_deliberately_trained_a_bad_model_to/",
+          "signal": "Anthropic deliberately trained a bad model to prove what caused this summer's Claude sandbox breakouts"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w45t3d/qwen4exp_fixes_in_llamacpp/",
-          "signal": "qwen4exp fixes in llama.cpp"
+          "url": "https://www.reddit.com/r/artificial/comments/1w4bj01/anthropic_sued_over_alleged_theft_of_tens_of/",
+          "signal": "Anthropic sued over alleged theft of 'tens of thousands' of songs | AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w48azv/vellium_v110_live_voice_local_stttts_and_easier/",
-          "signal": "Vellium v1.1.0 — Live voice, local STT/TTS and easier llama.cpp setup"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3n506/avx2_speed_up_large_batch_size_prompt_processing/",
-          "signal": "AVX2: Speed up large batch size prompt processing of IQ models by bartowski1182 · Pull Request #27402 · ggml-org/llama.cpp"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3pl64/qwen38flashnext_in_llamacpp_from_cpuonly_to_96gb/",
-          "signal": "Qwen3.8-Flash-Next in llama.cpp from CPU-only to 96GB VRAM: 8.5 to 109 tok/s, max context and parameters test. My findings on RTX 6000 PRO."
+          "url": "https://www.reddit.com/r/artificial/comments/1w3y3lt/linkedin_returns_http_999_to_gptbot_and_claudebot/",
+          "signal": "LinkedIn returns HTTP 999 to GPTBot and ClaudeBot but HTTP 200 to OAI-SearchBot. I measured what is inside the 200."
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "OpenClaw 2.0, Accidentally",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w49q0b/how_is_chatgpt_56_luna_compared_to_grok_46_and/",
+          "signal": "How is ChatGPT 5.6 Luna compared to Grok 4.6 and Gemini 3.6 Flash?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fSur4XA08GY",
+          "signal": "一人公司必學 Gemini Spark 教學｜Google 24/7 AI Agent 自動化，熄機都做嘢（廣東話）"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2kfSOmgH5C0",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v16tiH3k-AY",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "We're trying something new. On Tuesdays, we're doing text posts only",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -187,27 +191,111 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
-          "signal": "OpenClaw 2.0, Accidentally"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "The safest job from AI may be writing",
+      "name": "Working from home in 2026",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w3fotb/working_from_home_in_2026/",
+          "signal": "Working from home in 2026"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ever fall down a curiosity rabbit hole? I built an app that turns any ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w4e79o/ever_fall_down_a_curiosity_rabbit_hole_i_built_an/",
+          "signal": "Ever fall down a curiosity rabbit hole? I built an app that turns any moment in history into a fully researched, interactive podcast"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "We draw the line at Rattata",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3ux5x/we_draw_the_line_at_rattata/",
+          "signal": "We draw the line at Rattata"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anyone else using AI for the boring parts of their job?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -215,51 +303,24 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 7,
+      "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-          "signal": "The safest job from AI may be writing"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w4c0le/anyone_else_using_ai_for_the_boring_parts_of/",
+          "signal": "Anyone else using AI for the boring parts of their job?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI Can Make You Suck Faster Too",
+      "name": "Asking AI... about itself.. very baby but.. interesting maybe?",
       "category": "use_case",
       "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-          "signal": "AI Can Make You Suck Faster Too"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "cooling",
       "platforms": [
         "reddit"
       ],
@@ -269,90 +330,26 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w42biu/mtp_released_for_qwen38flashnextgguf/",
-          "signal": "MTP released for Qwen3.8-Flash-Next-GGUF"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4821c/qwen_38_27b_q4km_oneshot_a_super_mario_clone/",
-          "signal": "Qwen 3.8 27b (Q4KM) oneshot a Super Mario clone"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/",
-          "signal": "vote for the Qwen 3.8"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49505014",
-          "signal": "Why do I lose my passion and want to do nothing?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Continuous Diffusion Language Models (CDLM's)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
-          "signal": "Continuous Diffusion Language Models (CDLM's)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w4g74y/asking_ai_about_itself_very_baby_but_interesting/",
+          "signal": "Asking AI... about itself.. very baby but.. interesting maybe?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI-written code is still your code",
+      "name": "Daniel Vavra, director of Kingdom Come: Deliverance 2, tested the leak",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -360,26 +357,26 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
-          "signal": "AI-written code is still your code"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w375ke/daniel_vavra_director_of_kingdom_come_deliverance/",
+          "signal": "Daniel Vavra, director of Kingdom Come: Deliverance 2, tested the leaked version of NVIDIA DLSS 5 directly in the game."
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "The EU has begun enforcing the AI Act: first RFIs to model providers",
+      "name": "EU Commission",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -387,16 +384,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security-rfis",
-          "signal": "The EU has begun enforcing the AI Act: first RFIs to model providers"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3fb79/eu_commission/",
+          "signal": "EU Commission"
         }
       ],
       "content_ideas": []
@@ -404,21 +401,20 @@
   ],
   "rising_tools": [
     {
-      "name": "Llama",
+      "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
+        "linkedin_inferred",
         "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -426,28 +422,18 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w44jnv/exllamav3_recent_updates_cpu_offload_glm53flash/",
-          "signal": "ExLlamav3 Recent Updates : CPU offload, GLM-5.3-FLASH, Qwen3.8-Flash, SC Quants ++"
+          "url": "https://www.reddit.com/r/artificial/comments/1w42g6i/anthropic_deliberately_trained_a_bad_model_to/",
+          "signal": "Anthropic deliberately trained a bad model to prove what caused this summer's Claude sandbox breakouts"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w45t3d/qwen4exp_fixes_in_llamacpp/",
-          "signal": "qwen4exp fixes in llama.cpp"
+          "url": "https://www.reddit.com/r/artificial/comments/1w4bj01/anthropic_sued_over_alleged_theft_of_tens_of/",
+          "signal": "Anthropic sued over alleged theft of 'tens of thousands' of songs | AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w48azv/vellium_v110_live_voice_local_stttts_and_easier/",
-          "signal": "Vellium v1.1.0 — Live voice, local STT/TTS and easier llama.cpp setup"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3n506/avx2_speed_up_large_batch_size_prompt_processing/",
-          "signal": "AVX2: Speed up large batch size prompt processing of IQ models by bartowski1182 · Pull Request #27402 · ggml-org/llama.cpp"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3pl64/qwen38flashnext_in_llamacpp_from_cpuonly_to_96gb/",
-          "signal": "Qwen3.8-Flash-Next in llama.cpp from CPU-only to 96GB VRAM: 8.5 to 109 tok/s, max context and parameters test. My findings on RTX 6000 PRO."
+          "url": "https://www.reddit.com/r/artificial/comments/1w3y3lt/linkedin_returns_http_999_to_gptbot_and_claudebot/",
+          "signal": "LinkedIn returns HTTP 999 to GPTBot and ClaudeBot but HTTP 200 to OAI-SearchBot. I measured what is inside the 200."
         }
       ],
       "content_ideas": []
@@ -458,7 +444,6 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -466,7 +451,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 8,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -475,11 +460,6 @@
         "note": ""
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-          "signal": "ChatGPT to face tougher regulation in the EU"
-        },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
@@ -492,36 +472,42 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4chah/psa_chatgpt_never_tells_you_a_conversation_has/",
+          "signal": "PSA: ChatGPT never tells you a conversation has gotten too long, it just quietly forgets the beginning"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w46l1f/yes_chatgpt_copies_you_please_stop_posting_about/",
           "signal": "Yes, ChatGPT copies you, please stop posting about it."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3urgp/asking_chatgpt_to_rank_the_ten_most_influential/",
-          "signal": "Asking ChatGPT to rank the ten most influential religious figures in history by morality"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w42a8s/i_am_so_lonely_that_i_actually_am_using_chatgpt/",
+          "signal": "I am so lonely that I actually am using ChatGPT to generate a selfie where I have friends lmfao"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w42a8s/i_am_so_lonely_that_i_actually_am_using_chatgpt/",
-          "signal": "I am so lonely that I actually am using ChatGPT to generate a selfie where I have friends lmfao"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3urgp/asking_chatgpt_to_rank_the_ten_most_influential/",
+          "signal": "Asking ChatGPT to rank the ten most influential religious figures in history by morality"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Qwen",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "reddit"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -529,51 +515,36 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w42biu/mtp_released_for_qwen38flashnextgguf/",
-          "signal": "MTP released for Qwen3.8-Flash-Next-GGUF"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w49q0b/how_is_chatgpt_56_luna_compared_to_grok_46_and/",
+          "signal": "How is ChatGPT 5.6 Luna compared to Grok 4.6 and Gemini 3.6 Flash?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4821c/qwen_38_27b_q4km_oneshot_a_super_mario_clone/",
-          "signal": "Qwen 3.8 27b (Q4KM) oneshot a Super Mario clone"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fSur4XA08GY",
+          "signal": "一人公司必學 Gemini Spark 教學｜Google 24/7 AI Agent 自動化，熄機都做嘢（廣東話）"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/",
-          "signal": "vote for the Qwen 3.8"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49505014",
-          "signal": "Why do I lose my passion and want to do nothing?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "Ever fall down a curiosity rabbit hole? I built an app that turns any moment in history into a fully researched, interactive podcast",
+      "who_affected": "r/artificial",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1w4e79o/ever_fall_down_a_curiosity_rabbit_hole_i_built_an/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Error mounting files in /mnt/data",
       "who_affected": "r/ChatGPT",
@@ -582,18 +553,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w48wz8/error_mounting_files_in_mntdata/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Been getting this error message for hours, anyone knows why?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w3md7r/been_getting_this_error_message_for_hours_anyone/"
         }
       ],
       "content_opportunity": ""
