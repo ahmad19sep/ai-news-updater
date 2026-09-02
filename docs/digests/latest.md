@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vOE13YUhGaGpYYlMyRW91amtQa2hEdm9QeDl6SDVGc1JINHAtNjBQcDVKd2hSMV9mOXJmbFUtczFEYmZNMmNKZHlQWVlYeWZ1c2hRZnNUUWptUEVPZ3NUVkNpanAzUQ?oc=5
 8. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOYldiVVp0NVFKZzNucWhhd0JjTURCM25XdExhZ3ZqdGZtNXViZ1NJUm9Pc0UxdzIxSjV2b1ZsdEpaU1hrblJVYktQajhwd3NDdDMwUmdMbGl6a05DYkVsZEVHelkyZnJQTVVyNmU2SkJjcW53T3pkcUl1UXdzNEE5OFBRLVJvQnJmX0pyZ3dMZld4eHN5Qnh6UWpsR1Jpa3hWeWl2cE1TSGZoSzJyUE9fSTl0SQ?oc=5
-9. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
+9. **John Deere launched an AI chatbot for farmers** — The Verge AI — Score 55
+   https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot
+10. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
    https://lwn.net/Articles/1091231/
-10. **Sam Altman says fears that AI data centers guzzle water are overblown — but hard to dispel - Yahoo News UK** — Sam Altman News — Score 46
-   https://news.google.com/rss/articles/CBMic0FVX3lxTE9QMHc3Rnl0ZThkZjhYOVN0VW5MN1h5cE40bU9EdzF5TUFwMHFaNE44Q1FLZkE4SEUxZ0ZkQUhVRm1DREJyejRrRFlaSVdGMHlqcGtJZlZ2blcyc0k4WnRKcmhuanN4WG5JcFcycTM4NDZXODg?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2626
+- Total stories tracked: 2697
 - Most active topic: nvidia
 - Busiest category: AI General News
 
