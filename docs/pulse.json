@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:37:04.946671+00:00",
+  "generated_at": "2026-09-02T21:05:38.747590+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,13 +8,40 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 24,
+      "reddit": 25,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://danluu.com/zitron/",
+          "signal": "How accurate have Ed Zitron's AI skeptic predictions been?"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -44,55 +71,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
-          "signal": "chatgpt can react to your prompts with emojis reaction now?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5bg8c/every_claude_and_chatgpt_new_model_benchmarks_be/",
-          "signal": "Every Claude and ChatGPT new model benchmarks be like"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
           "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4867a/chatgpt_saved_me_1800/",
-          "signal": "ChatGPT saved me $1800."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
+          "signal": "chatgpt can react to your prompts with emojis reaction now?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5drwx/chatgpt_reacting_to_my_message/",
-          "signal": "ChatGPT Reacting to my message"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5h28o/the_rage_i_feel_when_i_correct_chatgpt_and_it/",
+          "signal": "The rage I feel when I correct ChatGPT and it replies with \"My mistake, I should've thought about the alternatives, you're right with how ...\" Like BRO, why give me an inadequate answer in the first place if you knew?"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://danluu.com/zitron/",
-          "signal": "How accurate have Ed Zitron's AI skeptic predictions been?"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5k8m5/chatgpt_can_now_react_to_your_messages/",
+          "signal": "ChatGPT can now react to your messages"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5bg8c/every_claude_and_chatgpt_new_model_benchmarks_be/",
+          "signal": "Every Claude and ChatGPT new model benchmarks be like"
         }
       ],
       "content_ideas": []
@@ -104,7 +104,7 @@
       "platforms": [
         "hackernews",
         "linkedin_inferred",
-        "reddit"
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -129,9 +129,9 @@
           "signal": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\""
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w4kqhc/trump_mocks_datacenter_opponents_as_wanting_to/",
-          "signal": "Trump Mocks Data-Center Opponents as Wanting to Stay ‘Backwards and Poor’"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jOebZOsLP6s",
+          "signal": "Modele AI wyszły z sandboxa i złamały test hakowania 😱🔓 🔥"
         }
       ],
       "content_ideas": []
@@ -192,22 +192,45 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Can I opt out of my input or output data being used for training?",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+          "signal": "Can I opt out of my input or output data being used for training?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Perplexity",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
@@ -216,61 +239,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-          "signal": "Gemini 3.8 Flash and 3.8 Flash Cyber"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5d1pz/gemini_38_flash_benchmarks/",
-          "signal": "Gemini 3.8 Flash Benchmarks"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w4ujad/gemini_37_flash_with_agentic_video_understanding/",
-          "signal": "Gemini 3.7 Flash with Agentic Video Understanding"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5eez1/introducing_gemini_38_flash_and_38_flash_cyber/",
-          "signal": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UkDqdohJ6Fk",
-          "signal": "Free में AI Video कैसे बनाएं? 😱 ChatGPT + Gemini से AI Video बनाना सीखें | AI Video Generator"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The safest job from AI may be writing",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-          "signal": "The safest job from AI may be writing"
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
         }
       ],
       "content_ideas": []
@@ -357,8 +327,35 @@
       "content_ideas": []
     },
     {
-      "name": "Mistral",
-      "category": "tool_launch",
+      "name": "Muse Spark 1.3",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://developer.meta.com/ai/models/muse-spark/",
+          "signal": "Muse Spark 1.3"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Quasar 438B: Europe's Leading AI Model",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -371,43 +368,14 @@
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-          "signal": "Mistral now trains on user input by default, except on enterprise tier"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled vide",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://masteranza.github.io/weedout/",
-          "signal": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos"
+          "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+          "signal": "Quasar 438B: Europe's Leading AI Model"
         }
       ],
       "content_ideas": []
@@ -421,7 +389,7 @@
       "platforms": [
         "hackernews",
         "linkedin_inferred",
-        "reddit"
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -446,15 +414,15 @@
           "signal": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\""
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w4kqhc/trump_mocks_datacenter_opponents_as_wanting_to/",
-          "signal": "Trump Mocks Data-Center Opponents as Wanting to Stay ‘Backwards and Poor’"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jOebZOsLP6s",
+          "signal": "Modele AI wyszły z sandboxa i złamały test hakowania 😱🔓 🔥"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Mistral",
+      "name": "Perplexity",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
@@ -466,7 +434,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -474,8 +442,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-          "signal": "Mistral now trains on user input by default, except on enterprise tier"
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
         }
       ],
       "content_ideas": []
@@ -509,102 +477,33 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
-          "signal": "chatgpt can react to your prompts with emojis reaction now?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5bg8c/every_claude_and_chatgpt_new_model_benchmarks_be/",
-          "signal": "Every Claude and ChatGPT new model benchmarks be like"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
           "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4867a/chatgpt_saved_me_1800/",
-          "signal": "ChatGPT saved me $1800."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
+          "signal": "chatgpt can react to your prompts with emojis reaction now?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5drwx/chatgpt_reacting_to_my_message/",
-          "signal": "ChatGPT Reacting to my message"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-          "signal": "Gemini 3.8 Flash and 3.8 Flash Cyber"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5h28o/the_rage_i_feel_when_i_correct_chatgpt_and_it/",
+          "signal": "The rage I feel when I correct ChatGPT and it replies with \"My mistake, I should've thought about the alternatives, you're right with how ...\" Like BRO, why give me an inadequate answer in the first place if you knew?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5d1pz/gemini_38_flash_benchmarks/",
-          "signal": "Gemini 3.8 Flash Benchmarks"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5k8m5/chatgpt_can_now_react_to_your_messages/",
+          "signal": "ChatGPT can now react to your messages"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w4ujad/gemini_37_flash_with_agentic_video_understanding/",
-          "signal": "Gemini 3.7 Flash with Agentic Video Understanding"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5eez1/introducing_gemini_38_flash_and_38_flash_cyber/",
-          "signal": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UkDqdohJ6Fk",
-          "signal": "Free में AI Video कैसे बनाएं? 😱 ChatGPT + Gemini से AI Video बनाना सीखें | AI Video Generator"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5bg8c/every_claude_and_chatgpt_new_model_benchmarks_be/",
+          "signal": "Every Claude and ChatGPT new model benchmarks be like"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Medieval town down by Fable 5.1",
-      "who_affected": "r/singularity",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1w4yajb/medieval_town_down_by_fable_51/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "pain_points": [],
+  "tool_of_week_candidate": "How accurate have Ed Zitron's AI skeptic predictions been? — strongest signal this cycle"
 }
