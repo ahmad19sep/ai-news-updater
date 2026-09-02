@@ -13,10 +13,10 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
 3. **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — science angle
    https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
-4. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
-   https://www.nature.com/articles/d41586-026-02370-2
-5. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
+4. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
+5. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
+   https://www.nature.com/articles/d41586-026-02370-2
 6. **How to Use AI Before Your Doctor Visit - Cedars-Sinai** — science angle
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQck9jMEVzdklxcUdDZHZxdEN3VFFLcUZpOG9qbTJZSUh1T2N6Ti1aUTFFRVFkXzl1TENkMUxoQ3VhMHNMZjdNaVRKQVVIR0FSYk9fS1RWZ2FPWmJoSzFaOGMwZEk3UVFNNnlYN29sNzF0dFB0R2N2ZmVtWXZVR1pFRXJ4ZXhxRU9vajdrbXJSMV9ScVNQd0JhRldvMk9ORkhuRVNOMDdB?oc=5
 7. **AI-Led Healthcare Challenges the Role of Doctors - Fitt Insider** — science angle
@@ -27,34 +27,34 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSMkNyLUtLX0E3RmQ1eFMwUk5jQms4R283ZWNZdUhXNTFLMHVoR2M4VEtmMVN1bVJFRmMtZnRXQ3VwdVdZWVBDNVhEMWhtbVNsRldncWpuVXg1UFBQRm5IdXhRRndKVFA4R3J6NUwyQnJtbnNxeE14UVRXSHI2SWk1VWg2UExnc3JGMDFzYTZvYmJSMkxLNkgxelplU1dENDJESENzYVphRzRiSFZwNHdpZ0llWVJ5RTVudzBfVTByVURfZXhUbDRiaV9Fd2lnV2U3V2g4S1E?oc=5
-2. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
+2. **Leo HR launches AI assistant for workplace issues** — itbrief_co_nz — Score 106
+   https://itbrief.co.nz/story/leo-hr-launches-ai-assistant-for-workplace-issues
+3. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
    https://news.google.com/rss/articles/CBMiakFVX3lxTE9QRUxLU29CZFR5R1hMUkxXVUpFcTFTUXh4OFRETnlvbTlPeWQyOXo4X1k3dk5OMENmeG1UZkZ2MFhOTldGUlZpWVJmSFI5LVBKT3ZhbWQwLWQ0aG9LSVdEMjBBVm9hcVFvZUE?oc=5
-3. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
+4. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
    https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
-4. **USDA to Test Satellites, AI to Try to Improve Crop Estimates Amid Farmer Criticism - Successful Farming** — AI in Agriculture — Score 61
+5. **USDA to Test Satellites, AI to Try to Improve Crop Estimates Amid Farmer Criticism - Successful Farming** — AI in Agriculture — Score 61
    https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWFqUnNoYXlwTUhiRTJPLTFQRVIzb1RFQ1cwU3llR1Y5ck90aVJ1NmdNX3NCZDJXSDhTUWFhckVLTmZzc3Jac1lUMDBmOEp5d3dQNS1pdGlycUJpS1ZrdHVJZDRqZHc4aGhZS3lnVWdWbGRTT2RzQUpPYzdPUmdCeFNQRFFITHFBLUV0aG1JQnZkWWl3Nld2SXZhR0NNSlg2VTZJRWNNMkVTaklKQ25UcV9Ec2xsaVRnWGR1bEZ0RUU2VXZQbkE?oc=5
-5. **NYC public schools to ban generative AI for students in elementary and middle school** — swoknews — Score 61
+6. **NYC public schools to ban generative AI for students in elementary and middle school** — swoknews — Score 61
    https://www.swoknews.com/ap/national/nyc-public-schools-to-ban-generative-ai-for-students-in-elementary-and-middle-school/article_161ca8f7-25b3-517d-b014-ea6c2c6e7f49.html
-6. **Elon Musk criticizes AI regulations at G20 tech meeting - Reuters** — Elon Musk AI News — Score 60
+7. **Elon Musk criticizes AI regulations at G20 tech meeting - Reuters** — Elon Musk AI News — Score 60
    https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vOE13YUhGaGpYYlMyRW91amtQa2hEdm9QeDl6SDVGc1JINHAtNjBQcDVKd2hSMV9mOXJmbFUtczFEYmZNMmNKZHlQWVlYeWZ1c2hRZnNUUWptUEVPZ3NUVkNpanAzUQ?oc=5
-7. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 56
+8. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOYldiVVp0NVFKZzNucWhhd0JjTURCM25XdExhZ3ZqdGZtNXViZ1NJUm9Pc0UxdzIxSjV2b1ZsdEpaU1hrblJVYktQajhwd3NDdDMwUmdMbGl6a05DYkVsZEVHelkyZnJQTVVyNmU2SkJjcW53T3pkcUl1UXdzNEE5OFBRLVJvQnJmX0pyZ3dMZld4eHN5Qnh6UWpsR1Jpa3hWeWl2cE1TSGZoSzJyUE9fSTl0SQ?oc=5
-8. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
+9. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
    https://lwn.net/Articles/1091231/
-9. **John Deere launched an AI chatbot for farmers** — The Verge AI — Score 45
-   https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot
-10. **Judge says Pentagon's measures against Anthropic were 'illegal and baseless' - News4JAX** — Dario Amodei News — Score 43
-   https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUtiSWZkVVRoTWFGUW5oVWphc3VKOHhyc2hITmQyaXk2WEFXZHRvM1IwVERtSHcwZHVfUDA3cnMtYVUweTRNMzNmcU1tWTNCa0IwTFVLU3lSdHl3N29nWmsyM2t0aHdVeDFpckFsRy1MN1RyV2oyUnIyUDEtMmk2dHFpSWJNcVA4RnZsb1FZQVduODNFcnczS1RwcE84NFF5TTVGY1h1UnlEc2hGZ0UyYndrVUxjWmM3QnZmWDg4MHhtUQ?oc=5
+10. **Sam Altman says fears that AI data centers guzzle water are overblown — but hard to dispel - Yahoo News UK** — Sam Altman News — Score 46
+   https://news.google.com/rss/articles/CBMic0FVX3lxTE9QMHc3Rnl0ZThkZjhYOVN0VW5MN1h5cE40bU9EdzF5TUFwMHFaNE44Q1FLZkE4SEUxZ0ZkQUhVRm1DREJyejRrRFlaSVdGMHlqcGtJZlZ2blcyc0k4WnRKcmhuanN4WG5JcFcycTM4NDZXODg?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
 - **AI Has Human Doctors Asking: What’s Left for Us?** — https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/
 - **Doctors warn parents about relying on AI for medical advice - WFTV** — https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
 - **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
-- **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
+- **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2641
+- Total stories tracked: 2626
 - Most active topic: nvidia
 - Busiest category: AI General News
 
