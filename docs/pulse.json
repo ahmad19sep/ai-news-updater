@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:38:50.279343+00:00",
+  "generated_at": "2026-09-02T11:22:26.481055+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -29,7 +29,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -131,7 +131,8 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
-        "linkedin_inferred"
+        "linkedin_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -154,6 +155,39 @@
           "platform": "hackernews",
           "url": "https://hnmatchmaker.com/",
           "signal": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\""
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jOebZOsLP6s",
+          "signal": "Modele AI wyszły z sandboxa i złamały test hakowania 😱🔓 🔥"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: Who is hiring? (September 2026)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49522897",
+          "signal": "Ask HN: Who is hiring? (September 2026)"
         }
       ],
       "content_ideas": []
@@ -181,34 +215,6 @@
           "platform": "hackernews",
           "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
           "signal": "Dwarf Fortress' creator says the industry's in shambles over AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: Who is hiring? (September 2026)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49522897",
-          "signal": "Ask HN: Who is hiring? (September 2026)"
         }
       ],
       "content_ideas": []
@@ -281,7 +287,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -308,7 +314,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -318,6 +324,35 @@
           "platform": "hackernews",
           "url": "https://www.worldlabs.ai/blog/atlas",
           "signal": "Atlas: A World Model for Spatial Intelligence"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled vide",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://masteranza.github.io/weedout/",
+          "signal": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos"
         }
       ],
       "content_ideas": []
@@ -348,33 +383,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Marx, Keynes, and AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.unpopularfront.news/p/marx-keynes-and-ai",
-          "signal": "Marx, Keynes, and AI"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -384,7 +392,8 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
-        "linkedin_inferred"
+        "linkedin_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -407,6 +416,11 @@
           "platform": "hackernews",
           "url": "https://hnmatchmaker.com/",
           "signal": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\""
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jOebZOsLP6s",
+          "signal": "Modele AI wyszły z sandboxa i złamały test hakowania 😱🔓 🔥"
         }
       ],
       "content_ideas": []
@@ -425,7 +439,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -470,13 +484,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Anyone else having a glitch today where the text box doesn’t scroll down as you type and you also can’t manually scroll it down, so you just",
+      "problem": "Cannot scroll anymore in chat interface",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4ysbb/anyone_else_having_a_glitch_today_where_the_text/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w54c42/cannot_scroll_anymore_in_chat_interface/"
         }
       ],
       "content_opportunity": ""
