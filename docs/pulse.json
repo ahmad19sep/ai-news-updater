@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T21:04:11.699506+00:00",
+  "generated_at": "2026-09-02T04:38:50.279343+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 39,
-      "hackernews": 26,
+      "reddit": 25,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -55,18 +55,45 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4vsq2/anyone_knows_how_to_stop_chatgpt_endless_naunce/",
+          "signal": "anyone knows how to stop chatgpt endless \"naunce\" ?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w4chah/psa_chatgpt_never_tells_you_a_conversation_has/",
           "signal": "PSA: ChatGPT never tells you a conversation has gotten too long, it just quietly forgets the beginning"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w46l1f/yes_chatgpt_copies_you_please_stop_posting_about/",
-          "signal": "Yes, ChatGPT copies you, please stop posting about it."
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4qgax/chatgpt_saved_my_dogs_life/",
+          "signal": "ChatGPT saved my dogs life"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4mtga/chatgpt_saved_me_from_spending_600_on_a_laptop_i/",
-          "signal": "ChatGPT saved me from spending $600 on a laptop I didn’t need."
+          "platform": "hackernews",
+          "url": "https://danluu.com/zitron/",
+          "signal": "How accurate have Ed Zitron's AI skeptic predictions been?"
         }
       ],
       "content_ideas": []
@@ -103,13 +130,14 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -124,8 +152,63 @@
         },
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49505014",
-          "signal": "Why do I lose my passion and want to do nothing?"
+          "url": "https://hnmatchmaker.com/",
+          "signal": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Dwarf Fortress' creator says the industry's in shambles over AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
+          "signal": "Dwarf Fortress' creator says the industry's in shambles over AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: Who is hiring? (September 2026)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49522897",
+          "signal": "Ask HN: Who is hiring? (September 2026)"
         }
       ],
       "content_ideas": []
@@ -186,115 +269,6 @@
       "content_ideas": []
     },
     {
-      "name": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://danluu.com/zitron/",
-          "signal": "How accurate have Ed Zitron's AI skeptic predictions been?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Dwarf Fortress' creator says the industry's in shambles over AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
-          "signal": "Dwarf Fortress' creator says the industry's in shambles over AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: Who is hiring? (September 2026)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49522897",
-          "signal": "Ask HN: Who is hiring? (September 2026)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenClaw 2.0, Accidentally",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
-          "signal": "OpenClaw 2.0, Accidentally"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI Can Make You Suck Faster Too",
       "category": "use_case",
       "momentum": "rising",
@@ -307,7 +281,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -317,6 +291,33 @@
           "platform": "hackernews",
           "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
           "signal": "AI Can Make You Suck Faster Too"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Atlas: A World Model for Spatial Intelligence",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.worldlabs.ai/blog/atlas",
+          "signal": "Atlas: A World Model for Spatial Intelligence"
         }
       ],
       "content_ideas": []
@@ -382,13 +383,14 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -403,8 +405,8 @@
         },
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49505014",
-          "signal": "Why do I lose my passion and want to do nothing?"
+          "url": "https://hnmatchmaker.com/",
+          "signal": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\""
         }
       ],
       "content_ideas": []
@@ -449,18 +451,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4vsq2/anyone_knows_how_to_stop_chatgpt_endless_naunce/",
+          "signal": "anyone knows how to stop chatgpt endless \"naunce\" ?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w4chah/psa_chatgpt_never_tells_you_a_conversation_has/",
           "signal": "PSA: ChatGPT never tells you a conversation has gotten too long, it just quietly forgets the beginning"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w46l1f/yes_chatgpt_copies_you_please_stop_posting_about/",
-          "signal": "Yes, ChatGPT copies you, please stop posting about it."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4mtga/chatgpt_saved_me_from_spending_600_on_a_laptop_i/",
-          "signal": "ChatGPT saved me from spending $600 on a laptop I didn’t need."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4qgax/chatgpt_saved_my_dogs_life/",
+          "signal": "ChatGPT saved my dogs life"
         }
       ],
       "content_ideas": []
@@ -468,13 +470,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Error mounting files in /mnt/data",
+      "problem": "Anyone else having a glitch today where the text box doesn’t scroll down as you type and you also can’t manually scroll it down, so you just",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w48wz8/error_mounting_files_in_mntdata/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w4ysbb/anyone_else_having_a_glitch_today_where_the_text/"
         }
       ],
       "content_opportunity": ""
