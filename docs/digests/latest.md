@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 25 Aug 2026 to 01 Sep 2026
+# 🗞️ AI THIS WEEK — 26 Aug 2026 to 02 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **64 percent of online shoppers are using AI to help find products, study shows - Scripps News**
@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://www.nature.com/articles/d41586-026-02370-2
 5. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
-6. **10,000 Qld doctors adopt AI note-taking tool - The Australian** — science angle
-   https://news.google.com/rss/articles/CBMikgJBVV95cUxON0lGdlZaNkNrQTJKMG5MYkNXT2ZYY3pWQjZTSDNMQW05V2FkQ1Z2MktWU0d6Qzgza0d3OUdXdWFfc0hmSjFLa1FLbVFuX3lBRVlYTUtpRmpxcGV1UUpuWEw3dVhHTExnaWFHOVBmbjQxUVZkVW1CRldqWkRaSE1takI4TllnSkpQVU1mcHg0eHlwdUEtbmIyY21aRFp0WXV4d2NYeHVWa0tXTW1Hd09JTWQ1d2Q4YXVjM3B1cFVMa2Q2dERSWVRCMnU4R283aUdGOHIzMHpUbldDNi16a3V4bWR2SGRsQTBXUlZ0dFRrRUhhWEk2T2ZWby1TVTFhUDBWT2tXV2ZNSkxKendWSVdsQTl30gGXAkFVX3lxTFBJcXhrb01IWTZJVTgxbk01V3dBSy1iMzlMREFubjBra3M4SEpDWmo3MHlCRnNMVHc1Y1lRLUdCaHVCTGlreEVDV0ZBU3dfc1dJM0Z1QzdkMWh1SDFCZGxzeW9SeURBMU5uU2hVdkhOcHd3bWRvdExWWW5iaEZCanNjaE5mNXV1WGZPSno4VXZRXy1kX2YyZUFiYW9rWHRSdDlMcjIzajBqMGVTdl9MSEViX1UwczNsUXJTYlZhVUp1UGRTcVlkMHFPREdlNTZTNUpCODhVX0pjVHJqaFBseXIyNHBHd1BXd0xONWJvdGdiUHloMkItZVBLSnR6TGF3SWFCWjBDQU9yQ0dWSkNqWXp4cXkteE1NUQ?oc=5
-7. **OneMedNet’s data network spans more than 90 million patient journeys for AI drug development - Stock Titan** — science angle
+6. **OneMedNet’s data network spans more than 90 million patient journeys for AI drug development - Stock Titan** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQYm1PdVZDS0pEWnNIVmhFZzJUcFh2U2hhWU43T2swUV9CUjFZWEU2UkRDWEkzVFRldDF1MkNqdEYwMS1xNU43N0FCRkZDRmZIZ0NKWk5Zc1RwaU95X0s4ZlRHU1ZHM2tZU0ROTHZXX1kwY09PLS1zeTJOb2lOdEUtNTdnN1BGUFF1TlBmYmhoZXRqRm9SVWMxSEM2V0tOZVFJSTFjaHdlMDlDeWdPaTVJVndVXzR1OUJwNl9UVXdn?oc=5
-8. **Doctors’ AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns - The Guardian** — science angle
+7. **Doctors’ AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns - The Guardian** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRnpTUHNvVUpvRGdwVWFYSmRNS2cyOGVVUU9nSnRubmZuallqbzV6OGJXOUx4by14bG44TU5ZeEE0NHFwcnRRc09SVTlkR0cxTG84UndlaFhnYUZQTUhnczZ2NXpzSk8zZE0tV2ZyQnF6a2thR2NiVzFqN0NyS21KS3JlTURSYXdqbDNNZllPUkVzcWZMVFVNUzFXaUJpc0lLM3pidXVXZVlrdFlyaThkYTRNbGpuZ0pTZENFZ1VLUDl6UQ?oc=5
+8. **OneMedNet secures AI drug development data agreement - Investing.com** — science angle
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxPV3pINENSTERQZk5fT2dUQ0VEVktVa1JIZmU5cWJxeThFQl9yTmowU2hLMENLVldHS3o0Z2dKR0NSSENuSmh0UnZvdDEzUjM3a0M4aWlpRjFqYVhBYXZkZDRvdE5LWnFNdzJrOXJEUjFoUjk5MnhLNUo2WjZxZkFBWnZPRnVTdTZJczRySjB6ZENZSDRiLWtUSXRxM251SUdRZGRyanpMN041QWVQaVE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
 7. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
    https://lwn.net/Articles/1091231/
-8. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 46
+8. **USDA to Test Satellites, AI to Try to Improve Crop Estimates Amid Farmer Criticism - Successful Farming** — AI in Agriculture — Score 51
+   https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWFqUnNoYXlwTUhiRTJPLTFQRVIzb1RFQ1cwU3llR1Y5ck90aVJ1NmdNX3NCZDJXSDhTUWFhckVLTmZzc3Jac1lUMDBmOEp5d3dQNS1pdGlycUJpS1ZrdHVJZDRqZHc4aGhZS3lnVWdWbGRTT2RzQUpPYzdPUmdCeFNQRFFITHFBLUV0aG1JQnZkWWl3Nld2SXZhR0NNSlg2VTZJRWNNMkVTaklKQ25UcV9Ec2xsaVRnWGR1bEZ0RUU2VXZQbkE?oc=5
+9. **Elon Musk criticizes AI regulations at G20 tech meeting - Reuters** — Elon Musk AI News — Score 50
+   https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vOE13YUhGaGpYYlMyRW91amtQa2hEdm9QeDl6SDVGc1JINHAtNjBQcDVKd2hSMV9mOXJmbFUtczFEYmZNMmNKZHlQWVlYeWZ1c2hRZnNUUWptUEVPZ3NUVkNpanAzUQ?oc=5
+10. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 46
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOYldiVVp0NVFKZzNucWhhd0JjTURCM25XdExhZ3ZqdGZtNXViZ1NJUm9Pc0UxdzIxSjV2b1ZsdEpaU1hrblJVYktQajhwd3NDdDMwUmdMbGl6a05DYkVsZEVHelkyZnJQTVVyNmU2SkJjcW53T3pkcUl1UXdzNEE5OFBRLVJvQnJmX0pyZ3dMZld4eHN5Qnh6UWpsR1Jpa3hWeWl2cE1TSGZoSzJyUE9fSTl0SQ?oc=5
-9. **John Deere launched an AI chatbot for farmers** — The Verge AI — Score 45
-   https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot
-10. **Judge says Pentagon's measures against Anthropic were 'illegal and baseless' - News4JAX** — Dario Amodei News — Score 43
-   https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUtiSWZkVVRoTWFGUW5oVWphc3VKOHhyc2hITmQyaXk2WEFXZHRvM1IwVERtSHcwZHVfUDA3cnMtYVUweTRNMzNmcU1tWTNCa0IwTFVLU3lSdHl3N29nWmsyM2t0aHdVeDFpckFsRy1MN1RyV2oyUnIyUDEtMmk2dHFpSWJNcVA4RnZsb1FZQVduODNFcnczS1RwcE84NFF5TTVGY1h1UnlEc2hGZ0UyYndrVUxjWmM3QnZmWDg4MHhtUQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2711
+- Total stories tracked: 2713
 - Most active topic: nvidia
 - Busiest category: AI General News
 
