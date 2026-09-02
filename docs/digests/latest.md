@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQck9jMEVzdklxcUdDZHZxdEN3VFFLcUZpOG9qbTJZSUh1T2N6Ti1aUTFFRVFkXzl1TENkMUxoQ3VhMHNMZjdNaVRKQVVIR0FSYk9fS1RWZ2FPWmJoSzFaOGMwZEk3UVFNNnlYN29sNzF0dFB0R2N2ZmVtWXZVR1pFRXJ4ZXhxRU9vajdrbXJSMV9ScVNQd0JhRldvMk9ORkhuRVNOMDdB?oc=5
 7. **AI-Led Healthcare Challenges the Role of Doctors - Fitt Insider** — science angle
    https://news.google.com/rss/articles/CBMiakFVX3lxTE15Vkg3QlR3T0JabWRnaEtpX1ZZRU5mY3o4ZXZ1eWkyakpLNTlOU3FkYTQyWnpINWNiUkNBa0l3ZnFqSXZ3OUlBSjRvaWlYaFJEc1E0WFFzaXRnaGt4Tmw0U0NZbmtuRC00anc?oc=5
-8. **First patient to undergo live AI-assisted brain surgery has tumour removed** — 5 upvotes on Reddit/HN
-   https://www.bbc.com/news/articles/cjwg5n7y68xo
+8. **Doctors testing AI to save lives in NICU - WBAY** — science angle
+   https://news.google.com/rss/articles/CBMidkFVX3lxTE9wTUpmOG5weE1GZndGOS1NZTNzUzVnOU5kZE00QzBHY0ttdFpJQkxtMDZRY2g4c1EzV2NBNXBFYXN0S1NSVWpTX3FUaWU3VmhKSVRLQjBtRjBfMTFzRTFfZHIyNERMc1E5bk4zeFlFM3hWUVlSTUHSAYoBQVVfeXFMTUtCU3ZFbXcyMk1IbnFKODN6alBQV2U5ZHFZSGMydkQwTlJUU0c1TGVLNVRJYWZEd3FfZnYxa2lwV280V0hWenFleUN1WFBEcmNweVo1c2Z5Z2hORTBkMERGODBfUGJBenFZN2haVm92bnowem9BUWx2VFVSaEpGcFNKRVV3d2FiM05n?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **64 percent of online shoppers are using AI to help find products, study shows - Scripps News** — Using AI To... — Score 123
@@ -35,12 +35,12 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWFqUnNoYXlwTUhiRTJPLTFQRVIzb1RFQ1cwU3llR1Y5ck90aVJ1NmdNX3NCZDJXSDhTUWFhckVLTmZzc3Jac1lUMDBmOEp5d3dQNS1pdGlycUJpS1ZrdHVJZDRqZHc4aGhZS3lnVWdWbGRTT2RzQUpPYzdPUmdCeFNQRFFITHFBLUV0aG1JQnZkWWl3Nld2SXZhR0NNSlg2VTZJRWNNMkVTaklKQ25UcV9Ec2xsaVRnWGR1bEZ0RUU2VXZQbkE?oc=5
 5. **NYC public schools to ban generative AI for students in elementary and middle school** — swoknews — Score 61
    https://www.swoknews.com/ap/national/nyc-public-schools-to-ban-generative-ai-for-students-in-elementary-and-middle-school/article_161ca8f7-25b3-517d-b014-ea6c2c6e7f49.html
-6. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 56
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxOYldiVVp0NVFKZzNucWhhd0JjTURCM25XdExhZ3ZqdGZtNXViZ1NJUm9Pc0UxdzIxSjV2b1ZsdEpaU1hrblJVYktQajhwd3NDdDMwUmdMbGl6a05DYkVsZEVHelkyZnJQTVVyNmU2SkJjcW53T3pkcUl1UXdzNEE5OFBRLVJvQnJmX0pyZ3dMZld4eHN5Qnh6UWpsR1Jpa3hWeWl2cE1TSGZoSzJyUE9fSTl0SQ?oc=5
-7. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
-   https://lwn.net/Articles/1091231/
-8. **Elon Musk criticizes AI regulations at G20 tech meeting - Reuters** — Elon Musk AI News — Score 50
+6. **Elon Musk criticizes AI regulations at G20 tech meeting - Reuters** — Elon Musk AI News — Score 60
    https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vOE13YUhGaGpYYlMyRW91amtQa2hEdm9QeDl6SDVGc1JINHAtNjBQcDVKd2hSMV9mOXJmbFUtczFEYmZNMmNKZHlQWVlYeWZ1c2hRZnNUUWptUEVPZ3NUVkNpanAzUQ?oc=5
+7. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 56
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxOYldiVVp0NVFKZzNucWhhd0JjTURCM25XdExhZ3ZqdGZtNXViZ1NJUm9Pc0UxdzIxSjV2b1ZsdEpaU1hrblJVYktQajhwd3NDdDMwUmdMbGl6a05DYkVsZEVHelkyZnJQTVVyNmU2SkJjcW53T3pkcUl1UXdzNEE5OFBRLVJvQnJmX0pyZ3dMZld4eHN5Qnh6UWpsR1Jpa3hWeWl2cE1TSGZoSzJyUE9fSTl0SQ?oc=5
+8. **Debian votes to allow "responsible use of generative AI"** — Hacker News AI — Score 51.4
+   https://lwn.net/Articles/1091231/
 9. **John Deere launched an AI chatbot for farmers** — The Verge AI — Score 45
    https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot
 10. **Judge says Pentagon's measures against Anthropic were 'illegal and baseless' - News4JAX** — Dario Amodei News — Score 43
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2667
+- Total stories tracked: 2641
 - Most active topic: nvidia
 - Busiest category: AI General News
 
