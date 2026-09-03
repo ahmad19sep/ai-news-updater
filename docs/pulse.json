@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T04:36:49.350470+00:00",
+  "generated_at": "2026-09-03T11:18:24.489464+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -81,13 +81,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
-          "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
+          "signal": "chatgpt can react to your prompts with emojis reaction now?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
-          "signal": "chatgpt can react to your prompts with emojis reaction now?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
+          "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
         },
         {
           "platform": "reddit",
@@ -191,6 +191,33 @@
       "content_ideas": []
     },
     {
+      "name": "Perplexity",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Ask HN: Who is hiring? (September 2026)",
       "category": "use_case",
       "momentum": "rising",
@@ -219,33 +246,6 @@
       "content_ideas": []
     },
     {
-      "name": "Perplexity",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Dwarf Fortress' creator says the industry's in shambles over AI",
       "category": "use_case",
       "momentum": "rising",
@@ -268,33 +268,6 @@
           "platform": "hackernews",
           "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
           "signal": "Dwarf Fortress' creator says the industry's in shambles over AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI Can Make You Suck Faster Too",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-          "signal": "AI Can Make You Suck Faster Too"
         }
       ],
       "content_ideas": []
@@ -376,6 +349,33 @@
           "platform": "hackernews",
           "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
           "signal": "Mamdani Bans AI in NYC Schools"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Quasar 438B: Europe's Leading AI Model",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+          "signal": "Quasar 438B: Europe's Leading AI Model"
         }
       ],
       "content_ideas": []
@@ -487,13 +487,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
-          "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
+          "signal": "chatgpt can react to your prompts with emojis reaction now?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5byzw/chatgpt_can_react_to_your_prompts_with_emojis/",
-          "signal": "chatgpt can react to your prompts with emojis reaction now?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
+          "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
         },
         {
           "platform": "reddit",
