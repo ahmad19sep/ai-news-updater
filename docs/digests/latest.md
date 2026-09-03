@@ -29,22 +29,22 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSMkNyLUtLX0E3RmQ1eFMwUk5jQms4R283ZWNZdUhXNTFLMHVoR2M4VEtmMVN1bVJFRmMtZnRXQ3VwdVdZWVBDNVhEMWhtbVNsRldncWpuVXg1UFBQRm5IdXhRRndKVFA4R3J6NUwyQnJtbnNxeE14UVRXSHI2SWk1VWg2UExnc3JGMDFzYTZvYmJSMkxLNkgxelplU1dENDJESENzYVphRzRiSFZwNHdpZ0llWVJ5RTVudzBfVTByVURfZXhUbDRiaV9Fd2lnV2U3V2g4S1E?oc=5
 2. **Leo HR launches AI assistant for workplace issues** — itbrief_co_nz — Score 106
    https://itbrief.co.nz/story/leo-hr-launches-ai-assistant-for-workplace-issues
-3. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 76
+3. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 86
    https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oOUZ6c0xXeWxiREhXM1BMbGRhVFJhVUZ5alBxT25RVTdOdkdTanRPcmpKUFZac2ZvdGl4LVNlQUxwalNlbUxWQUpIeVJRaE9LQ05LVFZnUUVzQzhKa2k0Uy1iNWFqVUJJVzhsWUtKUjh1a1Eyd3RzazRGTldBd1NPVHBPZ09XWFBWNGVmVl9WSUhDMUg?oc=5
 4. **Joëlle Pineau: The 100 Most Influential People in AI 2026 - Time Magazine** — Cohere News — Score 73
    https://news.google.com/rss/articles/CBMiakFVX3lxTE9QRUxLU29CZFR5R1hMUkxXVUpFcTFTUXh4OFRETnlvbTlPeWQyOXo4X1k3dk5OMENmeG1UZkZ2MFhOTldGUlZpWVJmSFI5LVBKT3ZhbWQwLWQ0aG9LSVdEMjBBVm9hcVFvZUE?oc=5
-5. **Nvidia CEO urges G20 to avoid AI rules on 'theoretical' harms - The Detroit News** — Jensen Huang News — Score 66
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxNUGliS1U4aHMtQVlBNEtyTV96b0Vma1JLaXdmOGs0S3FvYmkyUHJWLUJvdFRRb0VCNWdDZ2hfRGU5WElpSi1QRzliVzQ3bERuQ0pXTUlYdmZ1SWoyN3hGejNIWUx5YjFOVk9XUDFmRWNMdHB4NklyVklRa1RLTTV4SDAtOWVrZEpBNGFPdjc3Y3dMNGFKeDZuQmM0djRSWDRMZnRxZ3NXQjZpTlJnYVVudml6N2tDSWd1ckVSbzN2dmExY0ozV3dIeVFzMA?oc=5
-6. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
-   https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
-7. **USDA to Test Satellites, AI to Try to Improve Crop Estimates Amid Farmer Criticism - Successful Farming** — AI in Agriculture — Score 61
+5. **USDA to Test Satellites, AI to Try to Improve Crop Estimates Amid Farmer Criticism - Successful Farming** — AI in Agriculture — Score 68
    https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWFqUnNoYXlwTUhiRTJPLTFQRVIzb1RFQ1cwU3llR1Y5ck90aVJ1NmdNX3NCZDJXSDhTUWFhckVLTmZzc3Jac1lUMDBmOEp5d3dQNS1pdGlycUJpS1ZrdHVJZDRqZHc4aGhZS3lnVWdWbGRTT2RzQUpPYzdPUmdCeFNQRFFITHFBLUV0aG1JQnZkWWl3Nld2SXZhR0NNSlg2VTZJRWNNMkVTaklKQ25UcV9Ec2xsaVRnWGR1bEZ0RUU2VXZQbkE?oc=5
+6. **Nvidia CEO urges G20 to avoid AI rules on 'theoretical' harms - The Detroit News** — Jensen Huang News — Score 66
+   https://news.google.com/rss/articles/CBMiywFBVV95cUxNUGliS1U4aHMtQVlBNEtyTV96b0Vma1JLaXdmOGs0S3FvYmkyUHJWLUJvdFRRb0VCNWdDZ2hfRGU5WElpSi1QRzliVzQ3bERuQ0pXTUlYdmZ1SWoyN3hGejNIWUx5YjFOVk9XUDFmRWNMdHB4NklyVklRa1RLTTV4SDAtOWVrZEpBNGFPdjc3Y3dMNGFKeDZuQmM0djRSWDRMZnRxZ3NXQjZpTlJnYVVudml6N2tDSWd1ckVSbzN2dmExY0ozV3dIeVFzMA?oc=5
+7. **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — ElevenLabs News — Score 63
+   https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
 8. **NYC public schools to ban generative AI for students in elementary and middle school** — swoknews — Score 61
    https://www.swoknews.com/ap/national/nyc-public-schools-to-ban-generative-ai-for-students-in-elementary-and-middle-school/article_161ca8f7-25b3-517d-b014-ea6c2c6e7f49.html
-9. **Elon Musk criticizes AI regulations at G20 tech meeting - Reuters** — Elon Musk AI News — Score 60
+9. **Elon Musk criticizes AI regulations at G20 tech meeting - Reuters** — Elon Musk AI News — Score 57
    https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vOE13YUhGaGpYYlMyRW91amtQa2hEdm9QeDl6SDVGc1JINHAtNjBQcDVKd2hSMV9mOXJmbFUtczFEYmZNMmNKZHlQWVlYeWZ1c2hRZnNUUWptUEVPZ3NUVkNpanAzUQ?oc=5
-10. **Luca Guadagnino's Sam Altman Movie 'Artificial' to World Premiere at New York Film Festival - TheWrap** — Sam Altman News — Score 53
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxOYldiVVp0NVFKZzNucWhhd0JjTURCM25XdExhZ3ZqdGZtNXViZ1NJUm9Pc0UxdzIxSjV2b1ZsdEpaU1hrblJVYktQajhwd3NDdDMwUmdMbGl6a05DYkVsZEVHelkyZnJQTVVyNmU2SkJjcW53T3pkcUl1UXdzNEE5OFBRLVJvQnJmX0pyZ3dMZld4eHN5Qnh6UWpsR1Jpa3hWeWl2cE1TSGZoSzJyUE9fSTl0SQ?oc=5
+10. **Laid-Off Developers Create AI Model to Replace CEOs and Other Executives - PCMag** — AI in Coding — Score 56
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxQa1FRck5OM1d2TkFYX0JYWVpEWDRmWFJBcWR2bURpeFVrUFpkRFJ0b1o0amM2QlA4SmsxQmpoeXpvaE1WRmpyajh5Q2I0WkxmOHBXbjRhMW1TMDFVQmpmd0NQRG1Vbm9faHBMTVRXTWRhZ3VVYWktVGpXLTRKeGNKQ25vUmQ4S1JpZDV3X0FPRktNM0ZtSEl6ZHhYWGJubmZq?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Karnataka explores voice AI pilots with ElevenLabs across skilling, health and citizen services - YourStory.com** — https://news.google.com/rss/articles/CBMia0FVX3lxTE55bkhNRVBkV21LamMyWGxJTHFaamZBMS1MOGFOeFR3cHRvVTJPcUt2Q0hrdkUxbURVRnZPWjZQUHpDemt1YVBEZHFqZk5XMlh4X2IyNkxuVVgtZjdZN1JjX01LU0FoeGFpWEtJ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkJaNG94b0JSM
 - **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2690
+- Total stories tracked: 2769
 - Most active topic: nvidia
 - Busiest category: AI General News
 
