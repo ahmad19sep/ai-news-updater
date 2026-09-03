@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:28:05.907733+00:00",
+  "generated_at": "2026-09-03T21:04:29.911531+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,44 +8,17 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 35,
+      "reddit": 25,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
     {
-      "name": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://danluu.com/zitron/",
-          "signal": "How accurate have Ed Zitron's AI skeptic predictions been?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -76,23 +49,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/",
-          "signal": "Is ChatGPT showing a 404 error for anyone else?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a6kj/its_not_just_you_chatgpt_claude_and_grok_are_all/",
           "signal": "It's not just you; ChatGPT, Claude, and Grok are all down in confirmed outages"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aw2a/apparently_chatgpt_claude_and_grok_were_down/",
-          "signal": "Apparently ChatGPT, Claude, and Grok were down"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/",
+          "signal": "Is ChatGPT showing a 404 error for anyone else?"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w69las/chatgpt/",
           "signal": "Chatgpt??"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a7sc/chatgpt_page_cant_be_found/",
+          "signal": "ChatGPT page can't be found"
         }
       ],
       "content_ideas": []
@@ -125,12 +98,44 @@
       "content_ideas": []
     },
     {
-      "name": "Perplexity",
+      "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews",
-        "reddit"
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49551096",
+          "signal": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
+          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Perplexity",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -148,11 +153,6 @@
           "platform": "hackernews",
           "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
           "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/",
-          "signal": "Perplexity open-sourced their Mac inference server for Qwen 3.6"
         }
       ],
       "content_ideas": []
@@ -185,21 +185,46 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "OpenAI begins rolling out GPT-6 Astra",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+          "signal": "OpenAI begins rolling out GPT-6 Astra"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -207,39 +232,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49551096",
-          "signal": "Ask HN: Why are OpenAI, Claude, and Grok simultaneously down? Coincidence?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6ap1p/how_does_meta_spark_13_match_claude_fable_5_on/",
-          "signal": "How does meta spark 1.3 match claude fable 5 on benchmarks? Did anyone try it in agentic coding?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w65ise/we_built_an_opensource_modelneutral_agent_harness/",
-          "signal": "We built an open-source, model-neutral agent harness and compared it with claude managed agents - for the same model, got same accuracy, upto 75% lower cost"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
-          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6nGc3yCGByI",
-          "signal": "Claude AI + Whop Clipping = $6,500/Month (Full Tutorial)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=joc9E-3NQ0Y",
-          "signal": "I Asked Claude AI To Make Me As Much Money As Possible"
+          "url": "https://inference-docs.cerebras.ai/models/overview",
+          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Mamdani Bans AI in NYC Schools",
+      "name": "Nvidia to acquire Hugging Face",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+          "signal": "Nvidia to acquire Hugging Face"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mamdani bans AI in NYC schools",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -260,34 +287,7 @@
         {
           "platform": "hackernews",
           "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
-          "signal": "Mamdani Bans AI in NYC Schools"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Atlas: A World Model for Spatial Intelligence",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.worldlabs.ai/blog/atlas",
-          "signal": "Atlas: A World Model for Spatial Intelligence"
+          "signal": "Mamdani bans AI in NYC schools"
         }
       ],
       "content_ideas": []
@@ -324,8 +324,7 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -333,7 +332,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -342,12 +341,7 @@
         {
           "platform": "hackernews",
           "url": "https://status.x.ai/",
-          "signal": "Grok Outage"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0mOXQ4_kY04",
-          "signal": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283"
+          "signal": "Grok outage"
         }
       ],
       "content_ideas": []
@@ -365,7 +359,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -378,45 +372,48 @@
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
-      "name": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled vide",
-      "category": "use_case",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred"
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://masteranza.github.io/weedout/",
-          "signal": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos"
+          "url": "https://news.ycombinator.com/item?id=49551096",
+          "signal": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
+          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
       "name": "Perplexity",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -434,31 +431,24 @@
           "platform": "hackernews",
           "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
           "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/",
-          "signal": "Perplexity open-sourced their Mac inference server for Qwen 3.6"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Qwen",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -466,33 +456,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49551096",
-          "signal": "Ask HN: Why are OpenAI, Claude, and Grok simultaneously down? Coincidence?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6ap1p/how_does_meta_spark_13_match_claude_fable_5_on/",
-          "signal": "How does meta spark 1.3 match claude fable 5 on benchmarks? Did anyone try it in agentic coding?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w65ise/we_built_an_opensource_modelneutral_agent_harness/",
-          "signal": "We built an open-source, model-neutral agent harness and compared it with claude managed agents - for the same model, got same accuracy, upto 75% lower cost"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
-          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6nGc3yCGByI",
-          "signal": "Claude AI + Whop Clipping = $6,500/Month (Full Tutorial)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=joc9E-3NQ0Y",
-          "signal": "I Asked Claude AI To Make Me As Much Money As Possible"
+          "url": "https://inference-docs.cerebras.ai/models/overview",
+          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
         }
       ],
       "content_ideas": []
@@ -502,8 +467,7 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -511,7 +475,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -520,12 +484,7 @@
         {
           "platform": "hackernews",
           "url": "https://status.x.ai/",
-          "signal": "Grok Outage"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0mOXQ4_kY04",
-          "signal": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283"
+          "signal": "Grok outage"
         }
       ],
       "content_ideas": []
@@ -533,7 +492,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -564,23 +523,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/",
-          "signal": "Is ChatGPT showing a 404 error for anyone else?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a6kj/its_not_just_you_chatgpt_claude_and_grok_are_all/",
           "signal": "It's not just you; ChatGPT, Claude, and Grok are all down in confirmed outages"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aw2a/apparently_chatgpt_claude_and_grok_were_down/",
-          "signal": "Apparently ChatGPT, Claude, and Grok were down"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/",
+          "signal": "Is ChatGPT showing a 404 error for anyone else?"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w69las/chatgpt/",
           "signal": "Chatgpt??"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a7sc/chatgpt_page_cant_be_found/",
+          "signal": "ChatGPT page can't be found"
         }
       ],
       "content_ideas": []
@@ -600,30 +559,6 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Is ChatGPT showing a 404 error for anyone else?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Down ?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69o3d/down/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
       "problem": "It's not just you; ChatGPT, Claude, and Grok are all down in confirmed outages",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
@@ -636,25 +571,37 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Apparently ChatGPT, Claude, and Grok were down",
-      "who_affected": "r/LocalLLaMA",
-      "signal_strength": 4,
+      "problem": "Is ChatGPT showing a 404 error for anyone else?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aw2a/apparently_chatgpt_claude_and_grok_were_down/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "local AI can't be disabled",
-      "who_affected": "r/LocalLLaMA",
+      "problem": "Down ?",
+      "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aec4/local_ai_cant_be_disabled/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69o3d/down/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I can't stand Gemini after being used to ChatGPT, Gemini is garbage.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6g2ry/i_cant_stand_gemini_after_being_used_to_chatgpt/"
         }
       ],
       "content_opportunity": ""
@@ -672,6 +619,18 @@
       "content_opportunity": ""
     },
     {
+      "problem": "ChatGPT page can't be found",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a7sc/chatgpt_page_cant_be_found/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Does Anyone Facing The Same Problem",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
@@ -684,5 +643,5 @@
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "How accurate have Ed Zitron's AI skeptic predictions been? — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
