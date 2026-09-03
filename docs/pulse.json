@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T21:05:38.747590+00:00",
+  "generated_at": "2026-09-03T04:36:49.350470+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -71,6 +71,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5h28o/the_rage_i_feel_when_i_correct_chatgpt_and_it/",
+          "signal": "The rage I feel when I correct ChatGPT and it replies with \"My mistake, I should've thought about the alternatives, you're right with how ...\" Like BRO, why give me an inadequate answer in the first place if you knew?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5pvoo/i_asked_chatgpt_56_ultra_to_produce_a_three/",
+          "signal": "I asked ChatGPT 5.6 ultra to produce a three dimensional periodic table. The results were unexpected."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
           "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
         },
@@ -81,18 +91,35 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5h28o/the_rage_i_feel_when_i_correct_chatgpt_and_it/",
-          "signal": "The rage I feel when I correct ChatGPT and it replies with \"My mistake, I should've thought about the alternatives, you're right with how ...\" Like BRO, why give me an inadequate answer in the first place if you knew?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w5k8m5/chatgpt_can_now_react_to_your_messages/",
           "signal": "ChatGPT can now react to your messages"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Muse Spark 1.3",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5bg8c/every_claude_and_chatgpt_new_model_benchmarks_be/",
-          "signal": "Every Claude and ChatGPT new model benchmarks be like"
+          "platform": "hackernews",
+          "url": "https://developer.meta.com/ai/models/muse-spark/",
+          "signal": "Muse Spark 1.3"
         }
       ],
       "content_ideas": []
@@ -137,6 +164,33 @@
       "content_ideas": []
     },
     {
+      "name": "Can I opt out of my input or output data being used for training?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+          "signal": "Can I opt out of my input or output data being used for training?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Ask HN: Who is hiring? (September 2026)",
       "category": "use_case",
       "momentum": "rising",
@@ -160,6 +214,33 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49522897",
           "signal": "Ask HN: Who is hiring? (September 2026)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Perplexity",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
         }
       ],
       "content_ideas": []
@@ -192,35 +273,8 @@
       "content_ideas": []
     },
     {
-      "name": "Can I opt out of my input or output data being used for training?",
+      "name": "AI Can Make You Suck Faster Too",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-          "signal": "Can I opt out of my input or output data being used for training?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Perplexity",
-      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -233,14 +287,14 @@
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
+          "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+          "signal": "AI Can Make You Suck Faster Too"
         }
       ],
       "content_ideas": []
@@ -273,33 +327,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI Can Make You Suck Faster Too",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-          "signal": "AI Can Make You Suck Faster Too"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Atlas: A World Model for Spatial Intelligence",
       "category": "use_case",
       "momentum": "rising",
@@ -327,7 +354,7 @@
       "content_ideas": []
     },
     {
-      "name": "Muse Spark 1.3",
+      "name": "Mamdani Bans AI in NYC Schools",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -347,35 +374,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://developer.meta.com/ai/models/muse-spark/",
-          "signal": "Muse Spark 1.3"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Quasar 438B: Europe's Leading AI Model",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-          "signal": "Quasar 438B: Europe's Leading AI Model"
+          "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+          "signal": "Mamdani Bans AI in NYC Schools"
         }
       ],
       "content_ideas": []
@@ -434,7 +434,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -477,6 +477,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5h28o/the_rage_i_feel_when_i_correct_chatgpt_and_it/",
+          "signal": "The rage I feel when I correct ChatGPT and it replies with \"My mistake, I should've thought about the alternatives, you're right with how ...\" Like BRO, why give me an inadequate answer in the first place if you knew?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5pvoo/i_asked_chatgpt_56_ultra_to_produce_a_three/",
+          "signal": "I asked ChatGPT 5.6 ultra to produce a three dimensional periodic table. The results were unexpected."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w5cqa4/is_it_unpopular_opinion_to_treat_chatgpt_as_a/",
           "signal": "Is it unpopular opinion to treat ChatGPT as a friend?"
         },
@@ -487,18 +497,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5h28o/the_rage_i_feel_when_i_correct_chatgpt_and_it/",
-          "signal": "The rage I feel when I correct ChatGPT and it replies with \"My mistake, I should've thought about the alternatives, you're right with how ...\" Like BRO, why give me an inadequate answer in the first place if you knew?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w5k8m5/chatgpt_can_now_react_to_your_messages/",
           "signal": "ChatGPT can now react to your messages"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w5bg8c/every_claude_and_chatgpt_new_model_benchmarks_be/",
-          "signal": "Every Claude and ChatGPT new model benchmarks be like"
         }
       ],
       "content_ideas": []
