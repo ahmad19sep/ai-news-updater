@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:21:44.692610+00:00",
+  "generated_at": "2026-09-04T16:24:01.085755+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 37,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,6 +44,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72n1v/chatgpt_hates_children/",
+          "signal": "ChatGPT hates children"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
           "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
         },
@@ -58,14 +63,9 @@
           "signal": "Is chatgpt down everywhere?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a6kj/its_not_just_you_chatgpt_claude_and_grok_are_all/",
-          "signal": "It's not just you; ChatGPT, Claude, and Grok are all down in confirmed outages"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6xisp/chatgpt_is_down_acrro/",
-          "signal": "ChatGPT is down acrro"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7PQBmolZ_k0",
+          "signal": "🔥 AI से FREE Video कैसे बनाएं? 😱 सिर्फ 2 Step में | AI Video बनाना सीखें | ChatGPT + Flow AI📝"
         }
       ],
       "content_ideas": []
@@ -103,6 +103,7 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -123,14 +124,14 @@
           "signal": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
-          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/",
+          "signal": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable 5 failed."
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6nGc3yCGByI",
-          "signal": "Claude AI + Whop Clipping = $6,500/Month (Full Tutorial)"
+          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
+          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
         }
       ],
       "content_ideas": []
@@ -163,34 +164,7 @@
       "content_ideas": []
     },
     {
-      "name": "Perplexity",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Can I opt out of my input or output data being used for training?",
+      "name": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -210,8 +184,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-          "signal": "Can I opt out of my input or output data being used for training?"
+          "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "signal": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap"
         }
       ],
       "content_ideas": []
@@ -244,7 +218,7 @@
       "content_ideas": []
     },
     {
-      "name": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "name": "K2 Horizon: A connected fleet of six open models",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -264,8 +238,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
-          "signal": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap"
+          "url": "https://ifm.ai/blog/k2/",
+          "signal": "K2 Horizon: A connected fleet of six open models"
         }
       ],
       "content_ideas": []
@@ -293,33 +267,6 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
           "signal": "Nvidia to acquire Hugging Face"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "K2 Horizon: A connected fleet of six open models",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ifm.ai/blog/k2/",
-          "signal": "K2 Horizon: A connected fleet of six open models"
         }
       ],
       "content_ideas": []
@@ -377,6 +324,60 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qantas Airbus A380 engine failure in 2010 (2023)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7",
+          "signal": "Qantas Airbus A380 engine failure in 2010 (2023)"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -386,6 +387,7 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -406,14 +408,14 @@
           "signal": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
-          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/",
+          "signal": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable 5 failed."
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6nGc3yCGByI",
-          "signal": "Claude AI + Whop Clipping = $6,500/Month (Full Tutorial)"
+          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
+          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
         }
       ],
       "content_ideas": []
@@ -441,33 +443,6 @@
           "platform": "hackernews",
           "url": "https://inference-docs.cerebras.ai/models/overview",
           "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Perplexity",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
         }
       ],
       "content_ideas": []
@@ -501,6 +476,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72n1v/chatgpt_hates_children/",
+          "signal": "ChatGPT hates children"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
           "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
         },
@@ -515,14 +495,9 @@
           "signal": "Is chatgpt down everywhere?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a6kj/its_not_just_you_chatgpt_claude_and_grok_are_all/",
-          "signal": "It's not just you; ChatGPT, Claude, and Grok are all down in confirmed outages"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6xisp/chatgpt_is_down_acrro/",
-          "signal": "ChatGPT is down acrro"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7PQBmolZ_k0",
+          "signal": "🔥 AI से FREE Video कैसे बनाएं? 😱 सिर्फ 2 Step में | AI Video बनाना सीखें | ChatGPT + Flow AI📝"
         }
       ],
       "content_ideas": []
@@ -557,6 +532,42 @@
   ],
   "pain_points": [
     {
+      "problem": "Bernie: \"Let me be clear: A superintelligent AI that escapes human control will not be an American problem. It will not be a Chinese problem",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72b23/bernie_let_me_be_clear_a_superintelligent_ai_that/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "The heartbreak of hitting the chat session limit 💔",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w73xfa/the_heartbreak_of_hitting_the_chat_session_limit/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable ",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Is chatgpt down everywhere?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
@@ -564,42 +575,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w69mpk/is_chatgpt_down_everywhere/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "It's not just you; ChatGPT, Claude, and Grok are all down in confirmed outages",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a6kj/its_not_just_you_chatgpt_claude_and_grok_are_all/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I can't stand Gemini after being used to ChatGPT, Gemini is garbage.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6g2ry/i_cant_stand_gemini_after_being_used_to_chatgpt/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT is down acrro",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6xisp/chatgpt_is_down_acrro/"
         }
       ],
       "content_opportunity": ""
