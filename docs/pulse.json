@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:04:29.911531+00:00",
+  "generated_at": "2026-09-04T04:37:46.030364+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 37,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,6 +44,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6nw2l/chatgpt_predicted_my_test_resultes/",
+          "signal": "ChatGPT predicted my test resultes"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w69mpk/is_chatgpt_down_everywhere/",
           "signal": "Is chatgpt down everywhere?"
         },
@@ -58,14 +63,9 @@
           "signal": "Is ChatGPT showing a 404 error for anyone else?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69las/chatgpt/",
-          "signal": "Chatgpt??"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a7sc/chatgpt_page_cant_be_found/",
-          "signal": "ChatGPT page can't be found"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g0pxZJjkVhg",
+          "signal": "Biraz daha chatgpt kullanırsak konuşma yetimizin geldiği son nokta😅😂😁"
         }
       ],
       "content_ideas": []
@@ -126,6 +126,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
           "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6nGc3yCGByI",
+          "signal": "Claude AI + Whop Clipping = $6,500/Month (Full Tutorial)"
         }
       ],
       "content_ideas": []
@@ -133,7 +138,7 @@
     {
       "name": "Perplexity",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -185,6 +190,33 @@
       "content_ideas": []
     },
     {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://inference-docs.cerebras.ai/models/overview",
+          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "OpenAI begins rolling out GPT-6 Astra",
       "category": "use_case",
       "momentum": "rising",
@@ -207,33 +239,6 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
           "signal": "OpenAI begins rolling out GPT-6 Astra"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://inference-docs.cerebras.ai/models/overview",
-          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
         }
       ],
       "content_ideas": []
@@ -278,7 +283,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -288,6 +293,33 @@
           "platform": "hackernews",
           "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
           "signal": "Mamdani bans AI in NYC schools"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "K2 Horizon: A connected fleet of six open models",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ifm.ai/blog/k2/",
+          "signal": "K2 Horizon: A connected fleet of six open models"
         }
       ],
       "content_ideas": []
@@ -322,7 +354,7 @@
     {
       "name": "Grok",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -342,33 +374,6 @@
           "platform": "hackernews",
           "url": "https://status.x.ai/",
           "signal": "Grok outage"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qantas Airbus A380 engine failure in 2010 (2023)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7",
-          "signal": "Qantas Airbus A380 engine failure in 2010 (2023)"
         }
       ],
       "content_ideas": []
@@ -404,12 +409,17 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
           "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6nGc3yCGByI",
+          "signal": "Claude AI + Whop Clipping = $6,500/Month (Full Tutorial)"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Perplexity",
+      "name": "Qwen",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
@@ -429,62 +439,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
           "url": "https://inference-docs.cerebras.ai/models/overview",
           "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Grok",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://status.x.ai/",
-          "signal": "Grok outage"
         }
       ],
       "content_ideas": []
@@ -518,6 +474,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6nw2l/chatgpt_predicted_my_test_resultes/",
+          "signal": "ChatGPT predicted my test resultes"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w69mpk/is_chatgpt_down_everywhere/",
           "signal": "Is chatgpt down everywhere?"
         },
@@ -532,14 +493,63 @@
           "signal": "Is ChatGPT showing a 404 error for anyone else?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69las/chatgpt/",
-          "signal": "Chatgpt??"
-        },
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g0pxZJjkVhg",
+          "signal": "Biraz daha chatgpt kullanırsak konuşma yetimizin geldiği son nokta😅😂😁"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Perplexity",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a7sc/chatgpt_page_cant_be_found/",
-          "signal": "ChatGPT page can't be found"
+          "platform": "hackernews",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Grok",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://status.x.ai/",
+          "signal": "Grok outage"
         }
       ],
       "content_ideas": []
@@ -561,11 +571,23 @@
     {
       "problem": "It's not just you; ChatGPT, Claude, and Grok are all down in confirmed outages",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a6kj/its_not_just_you_chatgpt_claude_and_grok_are_all/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I can't stand Gemini after being used to ChatGPT, Gemini is garbage.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6g2ry/i_cant_stand_gemini_after_being_used_to_chatgpt/"
         }
       ],
       "content_opportunity": ""
@@ -590,54 +612,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w69o3d/down/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I can't stand Gemini after being used to ChatGPT, Gemini is garbage.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6g2ry/i_cant_stand_gemini_after_being_used_to_chatgpt/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Is chat gpt down today?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69ibw/is_chat_gpt_down_today/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT page can't be found",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6a7sc/chatgpt_page_cant_be_found/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Does Anyone Facing The Same Problem",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69l3e/does_anyone_facing_the_same_problem/"
         }
       ],
       "content_opportunity": ""
