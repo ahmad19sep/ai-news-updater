@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:24:01.085755+00:00",
+  "generated_at": "2026-09-04T20:47:34.789306+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,50 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
+          "signal": "I switched back to ChatGPT from Claude- I'm shocked"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
           "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6nw2l/chatgpt_predicted_my_test_resultes/",
-          "signal": "ChatGPT predicted my test resultes"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69mpk/is_chatgpt_down_everywhere/",
-          "signal": "Is chatgpt down everywhere?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=7PQBmolZ_k0",
           "signal": "🔥 AI से FREE Video कैसे बनाएं? 😱 सिर्फ 2 Step में | AI Video बनाना सीखें | ChatGPT + Flow AI📝"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Muse Spark 1.3",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://developer.meta.com/ai/models/muse-spark/",
-          "signal": "Muse Spark 1.3"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3uxNOzmEzcM",
+          "signal": "Try Not to Laugh Challenge 35 🤣 | ChatGPT Gone wrong 32 | #funny #viral #shorts"
         }
       ],
       "content_ideas": []
@@ -257,7 +230,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -267,6 +240,60 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
           "signal": "Nvidia to acquire Hugging Face"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Corporate America is getting hooked on open-source AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+          "signal": "Corporate America is getting hooked on open-source AI"
         }
       ],
       "content_ideas": []
@@ -326,7 +353,7 @@
       "content_ideas": []
     },
     {
-      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
+      "name": "Show HN: Open-Source eInk Bike Computer",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -338,7 +365,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -346,35 +373,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qantas Airbus A380 engine failure in 2010 (2023)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7",
-          "signal": "Qantas Airbus A380 engine failure in 2010 (2023)"
+          "url": "https://opentrailpaper.com",
+          "signal": "Show HN: Open-Source eInk Bike Computer"
         }
       ],
       "content_ideas": []
@@ -481,23 +481,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
+          "signal": "I switched back to ChatGPT from Claude- I'm shocked"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
           "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6nw2l/chatgpt_predicted_my_test_resultes/",
-          "signal": "ChatGPT predicted my test resultes"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69mpk/is_chatgpt_down_everywhere/",
-          "signal": "Is chatgpt down everywhere?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=7PQBmolZ_k0",
           "signal": "🔥 AI से FREE Video कैसे बनाएं? 😱 सिर्फ 2 Step में | AI Video बनाना सीखें | ChatGPT + Flow AI📝"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3uxNOzmEzcM",
+          "signal": "Try Not to Laugh Challenge 35 🤣 | ChatGPT Gone wrong 32 | #funny #viral #shorts"
         }
       ],
       "content_ideas": []
@@ -532,6 +532,18 @@
   ],
   "pain_points": [
     {
+      "problem": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable ",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Bernie: \"Let me be clear: A superintelligent AI that escapes human control will not be an American problem. It will not be a Chinese problem",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
@@ -546,35 +558,11 @@
     {
       "problem": "The heartbreak of hitting the chat session limit 💔",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w73xfa/the_heartbreak_of_hitting_the_chat_session_limit/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Is chatgpt down everywhere?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69mpk/is_chatgpt_down_everywhere/"
         }
       ],
       "content_opportunity": ""
