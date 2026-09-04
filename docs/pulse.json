@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T04:37:46.030364+00:00",
+  "generated_at": "2026-09-04T11:21:44.692610+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -44,6 +44,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
+          "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6nw2l/chatgpt_predicted_my_test_resultes/",
           "signal": "ChatGPT predicted my test resultes"
         },
@@ -59,13 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/",
-          "signal": "Is ChatGPT showing a 404 error for anyone else?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=g0pxZJjkVhg",
-          "signal": "Biraz daha chatgpt kullanırsak konuşma yetimizin geldiği son nokta😅😂😁"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6xisp/chatgpt_is_down_acrro/",
+          "signal": "ChatGPT is down acrro"
         }
       ],
       "content_ideas": []
@@ -136,9 +136,36 @@
       "content_ideas": []
     },
     {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://inference-docs.cerebras.ai/models/overview",
+          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Perplexity",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -190,33 +217,6 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://inference-docs.cerebras.ai/models/overview",
-          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "OpenAI begins rolling out GPT-6 Astra",
       "category": "use_case",
       "momentum": "rising",
@@ -239,6 +239,33 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
           "signal": "OpenAI begins rolling out GPT-6 Astra"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "signal": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap"
         }
       ],
       "content_ideas": []
@@ -271,6 +298,33 @@
       "content_ideas": []
     },
     {
+      "name": "K2 Horizon: A connected fleet of six open models",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ifm.ai/blog/k2/",
+          "signal": "K2 Horizon: A connected fleet of six open models"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Mamdani bans AI in NYC schools",
       "category": "use_case",
       "momentum": "rising",
@@ -293,60 +347,6 @@
           "platform": "hackernews",
           "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
           "signal": "Mamdani bans AI in NYC schools"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "K2 Horizon: A connected fleet of six open models",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ifm.ai/blog/k2/",
-          "signal": "K2 Horizon: A connected fleet of six open models"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Quasar 438B: Europe's Leading AI Model",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-          "signal": "Quasar 438B: Europe's Leading AI Model"
         }
       ],
       "content_ideas": []
@@ -446,6 +446,33 @@
       "content_ideas": []
     },
     {
+      "name": "Perplexity",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -474,6 +501,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
+          "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w6nw2l/chatgpt_predicted_my_test_resultes/",
           "signal": "ChatGPT predicted my test resultes"
         },
@@ -489,40 +521,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/",
-          "signal": "Is ChatGPT showing a 404 error for anyone else?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=g0pxZJjkVhg",
-          "signal": "Biraz daha chatgpt kullanırsak konuşma yetimizin geldiği son nokta😅😂😁"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Perplexity",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-          "signal": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6xisp/chatgpt_is_down_acrro/",
+          "signal": "ChatGPT is down acrro"
         }
       ],
       "content_ideas": []
@@ -559,7 +559,7 @@
     {
       "problem": "Is chatgpt down everywhere?",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -593,25 +593,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Is ChatGPT showing a 404 error for anyone else?",
+      "problem": "ChatGPT is down acrro",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69iwn/is_chatgpt_showing_a_404_error_for_anyone_else/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Down ?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w69o3d/down/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6xisp/chatgpt_is_down_acrro/"
         }
       ],
       "content_opportunity": ""
