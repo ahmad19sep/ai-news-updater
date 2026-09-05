@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Doctors warn parents about relying on AI for medical advice - WFTV** — science angle
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
-2. **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — science angle
-   https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
-3. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
+2. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
-4. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
+3. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
    https://www.nature.com/articles/d41586-026-02370-2
-5. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
+4. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
-6. **AI Medical Agent: Doctor's Chief Assistant with Ultra-Fast Medical Image Reading Speed | Human-Machine Collaboration as Optimal Clinical Solution - 36 Kr** — science angle
+5. **AI Medical Agent: Doctor's Chief Assistant with Ultra-Fast Medical Image Reading Speed | Human-Machine Collaboration as Optimal Clinical Solution - 36 Kr** — science angle
    https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fWnNkRlhVZE5SbjU5dHUyc2wzcFJoMDNJRW9keHF0ajBjcXZ5YkN0Y2RIaWMwU2xTenhWVHNCZVJQdFR1bVNEVDZUTmtGeFl3azBv?oc=5
-7. **Using AI to study: Medical students should know the do’s and don’ts - American Medical Association | AMA** — science angle
+6. **Using AI to study: Medical students should know the do’s and don’ts - American Medical Association | AMA** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYzE2UEExbnRlZ2RzWnNZd3pMcVdDd1RGbHpKTjlTSDNCbHdLejdPNGpyYmhCaGFlV29oVHA2cmFMRVpka2xhVUN5T19mb3FCTnVaSVJ4UzNlUlJMeWtfazZyQlZ0eWota1gyanFvUUt1TFoyMnNWRm9HenFtQjdEV2pINnRzbmQ3NzE1SGhaaGpfRTd5Wlo4UlYxYlZ1d045bDVrdGkyQ05jUl80QUJnMWw4RVJuLThmQ3hqU2x0ZXFGUQ?oc=5
-8. **5 Things Doctors Should Know About Medical AI Regulation - Medscape** — science angle
+7. **5 Things Doctors Should Know About Medical AI Regulation - Medscape** — science angle
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSF9iMWNfaWRDNlY2QXR3NDNuWWg1dUg4SDFfQjlvYXY3T3FfOS1LWTM5SG1rVmpDNlRKdUs5QlJSWlduUFdYTWNjY0p6MHlPeWIxTmpyQ0wwVEdiQ1ZDVkxoOUhZSkRya2lFdFByeGVpcDVRSkVfb1pEVVJ5VUU0QXNISWVERW8tS3hhZlNDcmNrZjdpWkVFd2FVWWdicTd0bW9wc1dhV1gxQQ?oc=5
+8. **AI in Medical Care: Tools Assist But Doctors Still Decide - The Silicon Valley Voice** — science angle
+   https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLVl6S09PZUpMa2tNMHphTzlhWG44TWpsT2tVM3hIV0E4ZkZtVmVRaTNldUJ4V205TTdqVlcwLUR3elhUOUY0cko2YXhmTkRWSms1VEVGNmc1SlU5bGpNS3A2elhTRkdZbkxOVW1WVmYwSlY4QUVMTm92SVJiT1JPUnhEUUdsOHYz0gGOAUFVX3lxTE5Sc3NaajhSMWRyT1FHOXVtTTlKQkE5YTBwT0J4Qk5Qa2VxNG5XVkJXRDZRWXpmS2pnckVIaG9rdmZGckZCc3cwMVA0UW5BMElUX1dmMlVIa0RvbTVuUFNULXAyU25fdXBveUlEcGtNVThVcHJvNmZIS2xqc1AtTUFkNEhWZFVGVU5BdGJjN0E?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 ## 🧪 AI in Science Highlights
 - **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
 - **Doctors warn parents about relying on AI for medical advice - WFTV** — https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
-- **Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times** — https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5
 - **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
+- **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3075
+- Total stories tracked: 3053
 - Most active topic: openai
 - Busiest category: AI General News
 
