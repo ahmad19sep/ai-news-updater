@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:38:47.596403+00:00",
+  "generated_at": "2026-09-05T15:16:53.949611+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,62 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w825zo/chatgpt_plus_feels_like_a_completely_different/",
+          "signal": "ChatGPT Plus feels like a completely different product"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
           "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7ygfu/chatgpts_image_generator_wont_create_new_versions/",
+          "signal": "ChatGPT's Image Generator Won't Create New Versions of \"Steamboat Willie\" Which Has Been In The Public Domain Since 2024"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
           "signal": "I switched back to ChatGPT from Claude- I'm shocked"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7p5vx/astra_probably_isnt_for_20_chatgpt_users/",
-          "signal": "Astra Probably isn't for $20 ChatGPT Users"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7syuo/im_so_incredibly_sick_and_tired_of_them/",
-          "signal": "I’m so incredibly sick and tired of them constantly and pointlessly messing with the ChatGPT UI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49551096",
-          "signal": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/",
-          "signal": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable 5 failed."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
-          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
         }
       ],
       "content_ideas": []
@@ -191,7 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "K2 Horizon: A connected fleet of six open models",
+      "name": "AI handles incidents, engineers lose touch with their systems",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -211,8 +172,37 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://ifm.ai/blog/k2/",
-          "signal": "K2 Horizon: A connected fleet of six open models"
+          "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+          "signal": "AI handles incidents, engineers lose touch with their systems"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Can AI design circuit boards yet?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+          "signal": "Can AI design circuit boards yet?"
         }
       ],
       "content_ideas": []
@@ -245,7 +235,7 @@
       "content_ideas": []
     },
     {
-      "name": "Nvidia to acquire Hugging Face",
+      "name": "K2 Horizon: A connected fleet of six open models",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -265,64 +255,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
-          "signal": "Nvidia to acquire Hugging Face"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Can AI design circuit boards yet?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
-          "signal": "Can AI design circuit boards yet?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Open-Source eInk Bike Computer",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://opentrailpaper.com",
-          "signal": "Show HN: Open-Source eInk Bike Computer"
+          "url": "https://ifm.ai/blog/k2/",
+          "signal": "K2 Horizon: A connected fleet of six open models"
         }
       ],
       "content_ideas": []
@@ -340,7 +274,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -350,6 +284,33 @@
           "platform": "hackernews",
           "url": "https://openrouter.ai/openai/gpt-6-astra",
           "signal": "GPT-6 Astra on OpenRouter"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Open-Source eInk Bike Computer",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://opentrailpaper.com",
+          "signal": "Show HN: Open-Source eInk Bike Computer"
         }
       ],
       "content_ideas": []
@@ -380,17 +341,13 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -398,30 +355,22 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49551096",
-          "signal": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/",
-          "signal": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable 5 failed."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=YYAMwM-F30o",
-          "signal": "China Just Dropped A Free AI That Beats Claude Fable 5 (Here&#39;s How To Use It +21 AI Updates)"
+          "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+          "signal": "Show HN: TERMy – A fast terminal assistant that does not use LLMs"
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Qwen",
       "category": "tool_launch",
@@ -483,23 +432,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w825zo/chatgpt_plus_feels_like_a_completely_different/",
+          "signal": "ChatGPT Plus feels like a completely different product"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
           "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7ygfu/chatgpts_image_generator_wont_create_new_versions/",
+          "signal": "ChatGPT's Image Generator Won't Create New Versions of \"Steamboat Willie\" Which Has Been In The Public Domain Since 2024"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
           "signal": "I switched back to ChatGPT from Claude- I'm shocked"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7p5vx/astra_probably_isnt_for_20_chatgpt_users/",
-          "signal": "Astra Probably isn't for $20 ChatGPT Users"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7syuo/im_so_incredibly_sick_and_tired_of_them/",
-          "signal": "I’m so incredibly sick and tired of them constantly and pointlessly messing with the ChatGPT UI"
         }
       ],
       "content_ideas": []
