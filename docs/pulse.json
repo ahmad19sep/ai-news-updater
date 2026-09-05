@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T04:33:33.267448+00:00",
+  "generated_at": "2026-09-05T10:38:47.596403+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 28,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -59,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
-          "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7p5vx/astra_probably_isnt_for_20_chatgpt_users/",
+          "signal": "Astra Probably isn't for $20 ChatGPT Users"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7jkxe/openai_has_made_it_impossible_to_copy_or_save/",
-          "signal": "OpenAI has made it impossible to copy or save your own long ChatGPT conversations"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7syuo/im_so_incredibly_sick_and_tired_of_them/",
+          "signal": "I’m so incredibly sick and tired of them constantly and pointlessly messing with the ChatGPT UI"
         }
       ],
       "content_ideas": []
@@ -272,33 +272,6 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Open-Source eInk Bike Computer",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://opentrailpaper.com",
-          "signal": "Show HN: Open-Source eInk Bike Computer"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Can AI design circuit boards yet?",
       "category": "use_case",
       "momentum": "rising",
@@ -313,7 +286,7 @@
       "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -323,6 +296,60 @@
           "platform": "hackernews",
           "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
           "signal": "Can AI design circuit boards yet?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Open-Source eInk Bike Computer",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://opentrailpaper.com",
+          "signal": "Show HN: Open-Source eInk Bike Computer"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "GPT-6 Astra on OpenRouter",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/openai/gpt-6-astra",
+          "signal": "GPT-6 Astra on OpenRouter"
         }
       ],
       "content_ideas": []
@@ -350,33 +377,6 @@
           "platform": "hackernews",
           "url": "https://status.x.ai/",
           "signal": "Grok outage"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "GPT-6 Astra on OpenRouter",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/openai/gpt-6-astra",
-          "signal": "GPT-6 Astra on OpenRouter"
         }
       ],
       "content_ideas": []
@@ -493,13 +493,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w6w8dr/openai_removes_chatgpt_response_after_fox_news/",
-          "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7p5vx/astra_probably_isnt_for_20_chatgpt_users/",
+          "signal": "Astra Probably isn't for $20 ChatGPT Users"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7jkxe/openai_has_made_it_impossible_to_copy_or_save/",
-          "signal": "OpenAI has made it impossible to copy or save your own long ChatGPT conversations"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7syuo/im_so_incredibly_sick_and_tired_of_them/",
+          "signal": "I’m so incredibly sick and tired of them constantly and pointlessly messing with the ChatGPT UI"
         }
       ],
       "content_ideas": []
@@ -536,35 +536,11 @@
     {
       "problem": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable ",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Bernie: \"Let me be clear: A superintelligent AI that escapes human control will not be an American problem. It will not be a Chinese problem",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72b23/bernie_let_me_be_clear_a_superintelligent_ai_that/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "The heartbreak of hitting the chat session limit 💔",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w73xfa/the_heartbreak_of_hitting_the_chat_session_limit/"
         }
       ],
       "content_opportunity": ""
