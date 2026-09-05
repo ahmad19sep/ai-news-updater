@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:47:34.789306+00:00",
+  "generated_at": "2026-09-05T04:33:33.267448+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -49,6 +49,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
+          "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
           "signal": "I switched back to ChatGPT from Claude- I'm shocked"
         },
@@ -58,14 +63,9 @@
           "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7PQBmolZ_k0",
-          "signal": "🔥 AI से FREE Video कैसे बनाएं? 😱 सिर्फ 2 Step में | AI Video बनाना सीखें | ChatGPT + Flow AI📝"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3uxNOzmEzcM",
-          "signal": "Try Not to Laugh Challenge 35 🤣 | ChatGPT Gone wrong 32 | #funny #viral #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7jkxe/openai_has_made_it_impossible_to_copy_or_save/",
+          "signal": "OpenAI has made it impossible to copy or save your own long ChatGPT conversations"
         }
       ],
       "content_ideas": []
@@ -137,7 +137,7 @@
       "content_ideas": []
     },
     {
-      "name": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "name": "Corporate America is getting hooked on open-source AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -157,8 +157,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
-          "signal": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap"
+          "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+          "signal": "Corporate America is getting hooked on open-source AI"
         }
       ],
       "content_ideas": []
@@ -218,6 +218,33 @@
       "content_ideas": []
     },
     {
+      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Nvidia to acquire Hugging Face",
       "category": "use_case",
       "momentum": "rising",
@@ -245,7 +272,7 @@
       "content_ideas": []
     },
     {
-      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
+      "name": "Show HN: Open-Source eInk Bike Computer",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -257,7 +284,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -265,26 +292,28 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
+          "url": "https://opentrailpaper.com",
+          "signal": "Show HN: Open-Source eInk Bike Computer"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Corporate America is getting hooked on open-source AI",
+      "name": "Can AI design circuit boards yet?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
+      "best_format": "reel",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -292,35 +321,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-          "signal": "Corporate America is getting hooked on open-source AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mamdani bans AI in NYC schools",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
-          "signal": "Mamdani bans AI in NYC schools"
+          "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+          "signal": "Can AI design circuit boards yet?"
         }
       ],
       "content_ideas": []
@@ -353,7 +355,7 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Open-Source eInk Bike Computer",
+      "name": "GPT-6 Astra on OpenRouter",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -363,9 +365,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -373,8 +375,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://opentrailpaper.com",
-          "signal": "Show HN: Open-Source eInk Bike Computer"
+          "url": "https://openrouter.ai/openai/gpt-6-astra",
+          "signal": "GPT-6 Astra on OpenRouter"
         }
       ],
       "content_ideas": []
@@ -450,7 +452,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -481,6 +483,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
+          "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
           "signal": "I switched back to ChatGPT from Claude- I'm shocked"
         },
@@ -490,14 +497,9 @@
           "signal": "OpenAI removes ChatGPT response after Fox News inquiry"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7PQBmolZ_k0",
-          "signal": "🔥 AI से FREE Video कैसे बनाएं? 😱 सिर्फ 2 Step में | AI Video बनाना सीखें | ChatGPT + Flow AI📝"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3uxNOzmEzcM",
-          "signal": "Try Not to Laugh Challenge 35 🤣 | ChatGPT Gone wrong 32 | #funny #viral #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7jkxe/openai_has_made_it_impossible_to_copy_or_save/",
+          "signal": "OpenAI has made it impossible to copy or save your own long ChatGPT conversations"
         }
       ],
       "content_ideas": []
@@ -546,7 +548,7 @@
     {
       "problem": "Bernie: \"Let me be clear: A superintelligent AI that escapes human control will not be an American problem. It will not be a Chinese problem",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
