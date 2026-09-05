@@ -29,10 +29,10 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oOUZ6c0xXeWxiREhXM1BMbGRhVFJhVUZ5alBxT25RVTdOdkdTanRPcmpKUFZac2ZvdGl4LVNlQUxwalNlbUxWQUpIeVJRaE9LQ05LVFZnUUVzQzhKa2k0Uy1iNWFqVUJJVzhsWUtKUjh1a1Eyd3RzazRGTldBd1NPVHBPZ09XWFBWNGVmVl9WSUhDMUg?oc=5
 2. **Leo HR launches AI assistant for workplace issues** — itbrief_co_nz — Score 103
    https://itbrief.co.nz/story/leo-hr-launches-ai-assistant-for-workplace-issues
-3. **USDA to Test Satellites, AI to Try to Improve Crop Estimates Amid Farmer Criticism - Successful Farming** — AI in Agriculture — Score 78
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWFqUnNoYXlwTUhiRTJPLTFQRVIzb1RFQ1cwU3llR1Y5ck90aVJ1NmdNX3NCZDJXSDhTUWFhckVLTmZzc3Jac1lUMDBmOEp5d3dQNS1pdGlycUJpS1ZrdHVJZDRqZHc4aGhZS3lnVWdWbGRTT2RzQUpPYzdPUmdCeFNQRFFITHFBLUV0aG1JQnZkWWl3Nld2SXZhR0NNSlg2VTZJRWNNMkVTaklKQ25UcV9Ec2xsaVRnWGR1bEZ0RUU2VXZQbkE?oc=5
-4. **Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters** — Elon Musk AI News — Score 70
+3. **Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters** — Elon Musk AI News — Score 80
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1VRQXhtR19VS2tKbVEzTnB6YjFUNl8zV3NFSURDZDRTcmZRS2tHa0RPOHdlMklXMWVSckNXdm5HWjdYNWhSTlFNeUlkdWFxWHo2SFdXU19ieWlQaUlEUjNrUjJkV1JSajZaNGxxUkVkM19qR2NOMkZvcWMwRHpIVTJybUlQZFB2ZmpvRy1CeURQcmp0ZFctU3RzMnItM29yajY5blZoT1ZjY0cwWFg1aVFoSGtpZw?oc=5
+4. **USDA to Test Satellites, AI to Try to Improve Crop Estimates Amid Farmer Criticism - Successful Farming** — AI in Agriculture — Score 78
+   https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWFqUnNoYXlwTUhiRTJPLTFQRVIzb1RFQ1cwU3llR1Y5ck90aVJ1NmdNX3NCZDJXSDhTUWFhckVLTmZzc3Jac1lUMDBmOEp5d3dQNS1pdGlycUJpS1ZrdHVJZDRqZHc4aGhZS3lnVWdWbGRTT2RzQUpPYzdPUmdCeFNQRFFITHFBLUV0aG1JQnZkWWl3Nld2SXZhR0NNSlg2VTZJRWNNMkVTaklKQ25UcV9Ec2xsaVRnWGR1bEZ0RUU2VXZQbkE?oc=5
 5. **Nvidia CEO urges G20 to avoid AI rules on 'theoretical' harms - The Detroit News** — Jensen Huang News — Score 63
    https://news.google.com/rss/articles/CBMiywFBVV95cUxNUGliS1U4aHMtQVlBNEtyTV96b0Vma1JLaXdmOGs0S3FvYmkyUHJWLUJvdFRRb0VCNWdDZ2hfRGU5WElpSi1QRzliVzQ3bERuQ0pXTUlYdmZ1SWoyN3hGejNIWUx5YjFOVk9XUDFmRWNMdHB4NklyVklRa1RLTTV4SDAtOWVrZEpBNGFPdjc3Y3dMNGFKeDZuQmM0djRSWDRMZnRxZ3NXQjZpTlJnYVVudml6N2tDSWd1ckVSbzN2dmExY0ozV3dIeVFzMA?oc=5
 6. **USDA to test satellites, AI to try to improve crop estimates amid farmer criticism - Reuters** — AI in Agriculture — Score 62
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3011
+- Total stories tracked: 3041
 - Most active topic: openai
 - Busiest category: AI General News
 
