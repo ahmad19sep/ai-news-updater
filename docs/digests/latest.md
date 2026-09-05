@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://www.nature.com/articles/d41586-026-02370-2
 5. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
-6. **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — science angle
-   https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
-7. **AI Medical Agent: Doctor's Chief Assistant with Ultra-Fast Medical Image Reading Speed | Human-Machine Collaboration as Optimal Clinical Solution - 36 Kr** — science angle
+6. **AI Medical Agent: Doctor's Chief Assistant with Ultra-Fast Medical Image Reading Speed | Human-Machine Collaboration as Optimal Clinical Solution - 36 Kr** — science angle
    https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fWnNkRlhVZE5SbjU5dHUyc2wzcFJoMDNJRW9keHF0ajBjcXZ5YkN0Y2RIaWMwU2xTenhWVHNCZVJQdFR1bVNEVDZUTmtGeFl3azBv?oc=5
-8. **Using AI to study: Medical students should know the do’s and don’ts - American Medical Association | AMA** — science angle
+7. **Using AI to study: Medical students should know the do’s and don’ts - American Medical Association | AMA** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYzE2UEExbnRlZ2RzWnNZd3pMcVdDd1RGbHpKTjlTSDNCbHdLejdPNGpyYmhCaGFlV29oVHA2cmFMRVpka2xhVUN5T19mb3FCTnVaSVJ4UzNlUlJMeWtfazZyQlZ0eWota1gyanFvUUt1TFoyMnNWRm9HenFtQjdEV2pINnRzbmQ3NzE1SGhaaGpfRTd5Wlo4UlYxYlZ1d045bDVrdGkyQ05jUl80QUJnMWw4RVJuLThmQ3hqU2x0ZXFGUQ?oc=5
+8. **5 Things Doctors Should Know About Medical AI Regulation - Medscape** — science angle
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSF9iMWNfaWRDNlY2QXR3NDNuWWg1dUg4SDFfQjlvYXY3T3FfOS1LWTM5SG1rVmpDNlRKdUs5QlJSWlduUFdYTWNjY0p6MHlPeWIxTmpyQ0wwVEdiQ1ZDVkxoOUhZSkRya2lFdFByeGVpcDVRSkVfb1pEVVJ5VUU0QXNISWVERW8tS3hhZlNDcmNrZjdpWkVFd2FVWWdicTd0bW9wc1dhV1gxQQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://news.google.com/rss/articles/CBMiywFBVV95cUxNUGliS1U4aHMtQVlBNEtyTV96b0Vma1JLaXdmOGs0S3FvYmkyUHJWLUJvdFRRb0VCNWdDZ2hfRGU5WElpSi1QRzliVzQ3bERuQ0pXTUlYdmZ1SWoyN3hGejNIWUx5YjFOVk9XUDFmRWNMdHB4NklyVklRa1RLTTV4SDAtOWVrZEpBNGFPdjc3Y3dMNGFKeDZuQmM0djRSWDRMZnRxZ3NXQjZpTlJnYVVudml6N2tDSWd1ckVSbzN2dmExY0ozV3dIeVFzMA?oc=5
 6. **USDA to test satellites, AI to try to improve crop estimates amid farmer criticism - Reuters** — AI in Agriculture — Score 62
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTzJlc1IxSnBNVlBndHZMS1kwYVlDX0ZMdWh6NUpST05rNjJhX21oSHBoRkROUjVoUVcycTZuaTZPYk8tXzBDdjRvdjlJaDBHMkNTdlF1VnZmQmxVRnI0empNaTEyQ211Ulh2Z0wtbXFmYUJJZWRCakUwYld4Sk5BbjlTa29sTk1Kd20xMEMxR1hyVWdGb29Hb0twOUdZeUZYOE9TOFplT2NORTB0ZGNmbEpkVl9Hd2Fq?oc=5
-7. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — Using AI To... — Score 61
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-8. **NYC public schools to ban generative AI for students in elementary and middle school** — swoknews — Score 58
+7. **NYC public schools to ban generative AI for students in elementary and middle school** — swoknews — Score 58
    https://www.swoknews.com/ap/national/nyc-public-schools-to-ban-generative-ai-for-students-in-elementary-and-middle-school/article_161ca8f7-25b3-517d-b014-ea6c2c6e7f49.html
-9. **Anthropic launches AI agent blueprints for retailers ahead of holiday shopping season - CNA** — AI Agents — Score 58
+8. **Anthropic launches AI agent blueprints for retailers ahead of holiday shopping season - CNA** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMixgFBVV95cUxQcEsyalQta0M5MWVKZU9VX1ZXdGFMOGZGRXQ2MC1ZS3QxTHF2emxpT1RBYVVBLXpuN3ZiSWZLMzFwZkVzUWhNSGdSU214bkdvUW9xUldYbV9PRHpDRnRRTlVVUUxnZ0Z0QlM5dnlJNS00cmFWbUFyOGZPUFBBdWV3eUhkU0RlWm1kUE1XclNodFA0b3NJdC1hRG83Z2J4Ym9Ec01pQ2FkQ1lFc3lZRDRZSjVzSHFMVU0td0tZZVRmQlZ5eWROMkE?oc=5
-10. **OpenAI launches GPT-6 Astra** — Hacker News new — Score 58.0
+9. **OpenAI launches GPT-6 Astra** — Hacker News new — Score 58.0
    https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra
+10. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — Using AI To... — Score 58
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3029
+- Total stories tracked: 3075
 - Most active topic: openai
 - Busiest category: AI General News
 
