@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:16:53.949611+00:00",
+  "generated_at": "2026-09-05T20:24:28.046686+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 16,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,18 +44,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72n1v/chatgpt_hates_children/",
-          "signal": "ChatGPT hates children"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w825zo/chatgpt_plus_feels_like_a_completely_different/",
           "signal": "ChatGPT Plus feels like a completely different product"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
-          "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
         },
         {
           "platform": "reddit",
@@ -64,89 +54,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
-          "signal": "I switched back to ChatGPT from Claude- I'm shocked"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72n1v/chatgpt_hates_children/",
+          "signal": "ChatGPT hates children"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://inference-docs.cerebras.ai/models/overview",
-          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Corporate America is getting hooked on open-source AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
+          "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-          "signal": "Corporate America is getting hooked on open-source AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenAI begins rolling out GPT-6 Astra",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-          "signal": "OpenAI begins rolling out GPT-6 Astra"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w85iu3/have_you_ever_asked_chatgpt_something_so_stupid/",
+          "signal": "have you ever asked chatgpt something so stupid that even you were embarrassed"
         }
       ],
       "content_ideas": []
@@ -179,6 +98,33 @@
       "content_ideas": []
     },
     {
+      "name": "Corporate America is getting hooked on open-source AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+          "signal": "Corporate America is getting hooked on open-source AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Can AI design circuit boards yet?",
       "category": "use_case",
       "momentum": "rising",
@@ -203,60 +149,6 @@
           "platform": "hackernews",
           "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
           "signal": "Can AI design circuit boards yet?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "K2 Horizon: A connected fleet of six open models",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ifm.ai/blog/k2/",
-          "signal": "K2 Horizon: A connected fleet of six open models"
         }
       ],
       "content_ideas": []
@@ -316,9 +208,9 @@
       "content_ideas": []
     },
     {
-      "name": "Grok",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -326,18 +218,18 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://status.x.ai/",
-          "signal": "Grok outage"
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
         }
       ],
       "content_ideas": []
@@ -368,12 +260,39 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
+      "name": "Artificial Analysis Intelligence Index v4.2",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+          "signal": "Artificial Analysis Intelligence Index v4.2"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "GPT-6 Astra in code review: Gains, privacy, and cost",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -384,20 +303,88 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://inference-docs.cerebras.ai/models/overview",
-          "signal": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
+          "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+          "signal": "GPT-6 Astra in code review: Gains, privacy, and cost"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "signal": "Project HydraFusion: Frontier quality via multi-model orchestration"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Long AI Video Kaise Banaye (16 Min) Using Just 1 Prompt🔥|| Ai Automati",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P5ZY6kJo1_A",
+          "signal": "Long AI Video Kaise Banaye (16 Min) Using Just 1 Prompt🔥|| Ai Automation 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EvYRdHSnocE",
+          "signal": "Long AI Video Kaise Banaye (Full Course 2026)😍✅ | Ai video kaise banaye | Ai se video kaise banaye"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=69v1Bkzp9ik",
+          "signal": "Long AI Video Kaise Banaye (Full Course 2026)✅ | Ai video kaise banaye || Ai se video kaise banaye"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -427,18 +414,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72n1v/chatgpt_hates_children/",
-          "signal": "ChatGPT hates children"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w825zo/chatgpt_plus_feels_like_a_completely_different/",
           "signal": "ChatGPT Plus feels like a completely different product"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
-          "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
         },
         {
           "platform": "reddit",
@@ -447,53 +424,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w79n3c/i_switched_back_to_chatgpt_from_claude_im_shocked/",
-          "signal": "I switched back to ChatGPT from Claude- I'm shocked"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Grok",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://status.x.ai/",
-          "signal": "Grok outage"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "pain_points": [
-    {
-      "problem": "Announcing FrontierMath Erdős. A pre-release Astra solved 2 of 68. Every attempt by GPT-5.6 Sol, GPT-5.5, Claude Fable 5.1 and Claude Fable ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w72n1v/chatgpt_hates_children/",
+          "signal": "ChatGPT hates children"
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w77mri/announcing_frontiermath_erdős_a_prerelease_astra/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w7nv0q/has_anyone_else_felt_like_their_life_has_improved/",
+          "signal": "Has anyone else felt like their life has improved significantly since using ChatGPT?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w85iu3/have_you_ever_asked_chatgpt_something_so_stupid/",
+          "signal": "have you ever asked chatgpt something so stupid that even you were embarrassed"
         }
       ],
-      "content_opportunity": ""
+      "content_ideas": []
     }
   ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
