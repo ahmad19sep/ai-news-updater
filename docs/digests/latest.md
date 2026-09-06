@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3084
+- Total stories tracked: 3107
 - Most active topic: openai
 - Busiest category: AI General News
 
