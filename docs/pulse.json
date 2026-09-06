@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:30:06.376201+00:00",
+  "generated_at": "2026-09-06T20:26:29.280513+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 18,
+      "reddit": 25,
+      "hackernews": 14,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,28 +45,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
+          "signal": "Just discovered I can send stickers to ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8znk7/which_superpower_did_chatgpt_give_you/",
+          "signal": "Which 'superpower' did ChatGPT give you?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w8lev2/psa_the_chatgpt_plus_tier_is_not_getting_gpt6/",
           "signal": "PSA: The ChatGPT Plus tier is NOT getting GPT-6 Astra in regular Chat. Only Work and Codex."
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w920uq/this_is_actually_a_pretty_good_chatgpt_ad/",
+          "signal": "This is actually a pretty good ChatGPT ad"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w8k21b/bye_claude_hello_chatgpt/",
           "signal": "Bye Claude, hello ChatGPT!:)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8h234/prompt_to_chatgpt_if_you_could_write_a_letter_to/",
-          "signal": "Prompt to ChatGPT : If you could write a letter to humans and have them hear it, what would you say?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8f94k/i_asked_chatgpt_to_generate_an_image_of_some/",
-          "signal": "I asked ChatGPT to generate an image of some sheet music—as to whether or not it actually creates a melody is a mystery to me because I don’t have a piano"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8jgno/i_asked_chatgpt_to_actually_compose_sheet_music/",
-          "signal": "I asked ChatGPT to actually compose sheet music"
         }
       ],
       "content_ideas": []
@@ -99,88 +99,7 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8vx6w/8_uncensored_qwen_38_27b_variants_one_base_167/",
-          "signal": "8 uncensored Qwen 3.8 27B variants, one base, 167 GPU hours - Abliterlitics"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jahs/qwen3827b_unhacked_my_pc/",
-          "signal": "Qwen3.8-27B \"Unhacked\" my PC"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8r0t9/villager_simulation_game_poc_created_with/",
-          "signal": "Villager Simulation Game POC Created with Qwen3.8-27B-UD-Q3_K_XL.gguf - 16GB VRAM"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rxwg/vibeblending_locally_with_qwen_38_27b/",
-          "signal": "vibeblending locally with Qwen 3.8 27B"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8h0cb/qwen_38_flash_next_max_is_impressive_just_to_talk/",
-          "signal": "Qwen 3.8 Flash Next (Max) is impressive just to talk with."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
-          "signal": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Can AI design circuit boards yet?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
-          "signal": "Can AI design circuit boards yet?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Corporate America is getting hooked on open-source AI",
+      "name": "A/I shuts down – Stay human",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -200,8 +119,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-          "signal": "Corporate America is getting hooked on open-source AI"
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+          "signal": "A/I shuts down – Stay human"
         }
       ],
       "content_ideas": []
@@ -234,7 +153,7 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Open-Source eInk Bike Computer",
+      "name": "How I feel about AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -246,7 +165,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -254,8 +173,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://opentrailpaper.com",
-          "signal": "Show HN: Open-Source eInk Bike Computer"
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "signal": "How I feel about AI"
         }
       ],
       "content_ideas": []
@@ -290,33 +209,6 @@
       "content_ideas": []
     },
     {
-      "name": "A/I shuts down – Stay human",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-          "signal": "A/I shuts down – Stay human"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI, Tools and Transformation",
       "category": "use_case",
       "momentum": "rising",
@@ -329,7 +221,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -396,6 +288,87 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Y",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.trendingtopics.eu/emad-mostaque-ai-internet-outlook-english/",
+          "signal": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Years\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/okf-memory/okf-agent-memory",
+          "signal": "OKF Agent Memory – Git-native persistent memory for AI coding agents"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "How AI is breaking the British state",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state",
+          "signal": "How AI is breaking the British state"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -429,80 +402,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
+          "signal": "Just discovered I can send stickers to ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8znk7/which_superpower_did_chatgpt_give_you/",
+          "signal": "Which 'superpower' did ChatGPT give you?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w8lev2/psa_the_chatgpt_plus_tier_is_not_getting_gpt6/",
           "signal": "PSA: The ChatGPT Plus tier is NOT getting GPT-6 Astra in regular Chat. Only Work and Codex."
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w920uq/this_is_actually_a_pretty_good_chatgpt_ad/",
+          "signal": "This is actually a pretty good ChatGPT ad"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w8k21b/bye_claude_hello_chatgpt/",
           "signal": "Bye Claude, hello ChatGPT!:)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8h234/prompt_to_chatgpt_if_you_could_write_a_letter_to/",
-          "signal": "Prompt to ChatGPT : If you could write a letter to humans and have them hear it, what would you say?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8f94k/i_asked_chatgpt_to_generate_an_image_of_some/",
-          "signal": "I asked ChatGPT to generate an image of some sheet music—as to whether or not it actually creates a melody is a mystery to me because I don’t have a piano"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w8jgno/i_asked_chatgpt_to_actually_compose_sheet_music/",
-          "signal": "I asked ChatGPT to actually compose sheet music"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8vx6w/8_uncensored_qwen_38_27b_variants_one_base_167/",
-          "signal": "8 uncensored Qwen 3.8 27B variants, one base, 167 GPU hours - Abliterlitics"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jahs/qwen3827b_unhacked_my_pc/",
-          "signal": "Qwen3.8-27B \"Unhacked\" my PC"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8r0t9/villager_simulation_game_poc_created_with/",
-          "signal": "Villager Simulation Game POC Created with Qwen3.8-27B-UD-Q3_K_XL.gguf - 16GB VRAM"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rxwg/vibeblending_locally_with_qwen_38_27b/",
-          "signal": "vibeblending locally with Qwen 3.8 27B"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8h0cb/qwen_38_flash_next_max_is_impressive_just_to_talk/",
-          "signal": "Qwen 3.8 Flash Next (Max) is impressive just to talk with."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
-          "signal": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io"
         }
       ],
       "content_ideas": []
