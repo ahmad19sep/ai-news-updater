@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 29 Aug 2026 to 05 Sep 2026
+# 🗞️ AI THIS WEEK — 30 Aug 2026 to 06 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas**
@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://www.nature.com/articles/d41586-026-02370-2
 6. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
-7. **AI Medical Agent: Doctor's Chief Assistant with Ultra-Fast Medical Image Reading Speed | Human-Machine Collaboration as Optimal Clinical Solution - 36 Kr** — science angle
-   https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fWnNkRlhVZE5SbjU5dHUyc2wzcFJoMDNJRW9keHF0ajBjcXZ5YkN0Y2RIaWMwU2xTenhWVHNCZVJQdFR1bVNEVDZUTmtGeFl3azBv?oc=5
-8. **Using AI to study: Medical students should know the do’s and don’ts - American Medical Association | AMA** — science angle
+7. **Using AI to study: Medical students should know the do’s and don’ts - American Medical Association | AMA** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYzE2UEExbnRlZ2RzWnNZd3pMcVdDd1RGbHpKTjlTSDNCbHdLejdPNGpyYmhCaGFlV29oVHA2cmFMRVpka2xhVUN5T19mb3FCTnVaSVJ4UzNlUlJMeWtfazZyQlZ0eWota1gyanFvUUt1TFoyMnNWRm9HenFtQjdEV2pINnRzbmQ3NzE1SGhaaGpfRTd5Wlo4UlYxYlZ1d045bDVrdGkyQ05jUl80QUJnMWw4RVJuLThmQ3hqU2x0ZXFGUQ?oc=5
+8. **5 Things Doctors Should Know About Medical AI Regulation - Medscape** — science angle
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSF9iMWNfaWRDNlY2QXR3NDNuWWg1dUg4SDFfQjlvYXY3T3FfOS1LWTM5SG1rVmpDNlRKdUs5QlJSWlduUFdYTWNjY0p6MHlPeWIxTmpyQ0wwVEdiQ1ZDVkxoOUhZSkRya2lFdFByeGVpcDVRSkVfb1pEVVJ5VUU0QXNISWVERW8tS3hhZlNDcmNrZjdpWkVFd2FVWWdicTd0bW9wc1dhV1gxQQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3052
+- Total stories tracked: 3075
 - Most active topic: openai
 - Busiest category: AI General News
 
