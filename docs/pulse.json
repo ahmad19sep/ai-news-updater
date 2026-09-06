@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:00:49.997609+00:00",
+  "generated_at": "2026-09-06T15:30:06.376201+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 17,
+      "reddit": 50,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -94,6 +94,58 @@
           "platform": "hackernews",
           "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
           "signal": "AI handles incidents, engineers lose touch with their systems"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8vx6w/8_uncensored_qwen_38_27b_variants_one_base_167/",
+          "signal": "8 uncensored Qwen 3.8 27B variants, one base, 167 GPU hours - Abliterlitics"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jahs/qwen3827b_unhacked_my_pc/",
+          "signal": "Qwen3.8-27B \"Unhacked\" my PC"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8r0t9/villager_simulation_game_poc_created_with/",
+          "signal": "Villager Simulation Game POC Created with Qwen3.8-27B-UD-Q3_K_XL.gguf - 16GB VRAM"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rxwg/vibeblending_locally_with_qwen_38_27b/",
+          "signal": "vibeblending locally with Qwen 3.8 27B"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8h0cb/qwen_38_flash_next_max_is_impressive_just_to_talk/",
+          "signal": "Qwen 3.8 Flash Next (Max) is impressive just to talk with."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
+          "signal": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io"
         }
       ],
       "content_ideas": []
@@ -209,33 +261,6 @@
       "content_ideas": []
     },
     {
-      "name": "Google AI Mode shows same products 21.6% more expensive than tradition",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-          "signal": "Google AI Mode shows same products 21.6% more expensive than traditional search"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Artificial Analysis Intelligence Index v4.2",
       "category": "use_case",
       "momentum": "rising",
@@ -260,6 +285,60 @@
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
           "signal": "Artificial Analysis Intelligence Index v4.2"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A/I shuts down – Stay human",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+          "signal": "A/I shuts down – Stay human"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI, Tools and Transformation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+          "signal": "AI, Tools and Transformation"
         }
       ],
       "content_ideas": []
@@ -314,72 +393,6 @@
           "platform": "hackernews",
           "url": "https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/",
           "signal": "America's two largest school districts impose AI moratoriums"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Project HydraFusion: Frontier quality via multi-model orchestration",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-          "signal": "Project HydraFusion: Frontier quality via multi-model orchestration"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Long AI Video Kaise Banaye (16 Min) Using Just 1 Prompt🔥|| Ai Automati",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P5ZY6kJo1_A",
-          "signal": "Long AI Video Kaise Banaye (16 Min) Using Just 1 Prompt🔥|| Ai Automation 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EvYRdHSnocE",
-          "signal": "Long AI Video Kaise Banaye (Full Course 2026)😍✅ | Ai video kaise banaye | Ai se video kaise banaye"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=69v1Bkzp9ik",
-          "signal": "Long AI Video Kaise Banaye (Full Course 2026)✅ | Ai video kaise banaye || Ai se video kaise banaye"
         }
       ],
       "content_ideas": []
@@ -438,6 +451,58 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w8jgno/i_asked_chatgpt_to_actually_compose_sheet_music/",
           "signal": "I asked ChatGPT to actually compose sheet music"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8vx6w/8_uncensored_qwen_38_27b_variants_one_base_167/",
+          "signal": "8 uncensored Qwen 3.8 27B variants, one base, 167 GPU hours - Abliterlitics"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jahs/qwen3827b_unhacked_my_pc/",
+          "signal": "Qwen3.8-27B \"Unhacked\" my PC"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8r0t9/villager_simulation_game_poc_created_with/",
+          "signal": "Villager Simulation Game POC Created with Qwen3.8-27B-UD-Q3_K_XL.gguf - 16GB VRAM"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rxwg/vibeblending_locally_with_qwen_38_27b/",
+          "signal": "vibeblending locally with Qwen 3.8 27B"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8h0cb/qwen_38_flash_next_max_is_impressive_just_to_talk/",
+          "signal": "Qwen 3.8 Flash Next (Max) is impressive just to talk with."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
+          "signal": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io"
         }
       ],
       "content_ideas": []
