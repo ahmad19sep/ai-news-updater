@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
 4. **IIT-G researchers launch energy efficient brain AI** — science angle
    https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
-5. **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — science angle
-   https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
-6. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
+5. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
    https://www.nature.com/articles/d41586-026-02370-2
-7. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
+6. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
-8. **How can future doctors blend clinical rigour with AI fluency and empathy? - South China Morning Post** — science angle
+7. **How can future doctors blend clinical rigour with AI fluency and empathy? - South China Morning Post** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZzhmUHN6UjdoOFBTbDhGaDhWazdUeVdwd0xYQmpqZUhtMzBma0dKZl9WWTVKTWhZWmVEcVZKRnNtS2otY0Y1eF9HLW1kRWR4MmZzTVVfNXVIZkVsbnlLQ1EwWTVPcXM4a191eTR0bk83QzNuaDVWR0VWR1RGYkV1dmgya0F6YTRUYmlnZ3Z0TVlKektvWWNlcjUtNUpJTHF0WmhKLXFDVkFBUWppY3FkMEtwS2FVdEtkZHBhdjBNSllfXzBlVFB6b9IByAFBVV95cUxPNjFfOXRhdHM5ekZYSHE3cTVjVWNuSUdXMnRoQW1LQU90M3dYSXdEX1RvbVJaNkRTQ09LaWdvS0ExVFhoMGZTLXVadEtIY2FHYi16aF9EVnF4VTBGVmMyMG5qZGg5NlNMT2tvRllqZW9VcGthOTJZYmtDV1FRc2ROVVpsOUQtZHlhLTU2MFlmemlQY2Jqdkk1MnVIQ0tUYm9IWDhWTndWNFk3aEFWOG5VLWk5TW4zMFd6LTh5ZWxzNmNRQjZEZktOVg?oc=5
+8. **From Precision Medicine to AI: The Future of Cancer Care - Cure Today** — science angle
+   https://news.google.com/rss/articles/CBMijwFBVV95cUxNeXdOdjUxNU9qYWV1QUUwUFE2RzBPZXp3cUx5LURxSThlSzd2UGNlRDV3M3hJeEtkZWx1QWEtOFREaUY5bF9kOFVqc1NuVFNpTWEwQmlNNkhHTTlleExGZXBDOWtZaFc3bEtocG1oNXFRU1dyWmYySncweUZyMjVVVnVkV19DeklsV3pvUUk3aw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **Doctors warn parents about relying on AI for medical advice - WFTV** — https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
 - **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
 - **IIT-G researchers launch energy efficient brain AI** — https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
-- **AI Has Human Doctors Asking: What’s Left for Us? - WIRED** — https://news.google.com/rss/articles/CBMif0FVX3lxTE5qR0VXSjFwalZlaFJVVGczYjlXQzcwa1FtVmRyZHpOLVNXUlBublFOTGhSekdlZ05HMWNCTkJaWEY0alllQUExWjhOc3p0cEZDZzN6V0N6RFBRcWpxUVpXVTd5YTd6NXYzS2RNX05uNk5NSThONlY4NXkydjBZSHM?oc=5
+- **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3107
+- Total stories tracked: 3099
 - Most active topic: openai
 - Busiest category: AI General News
 
