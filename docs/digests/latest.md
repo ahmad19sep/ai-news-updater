@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://www.nature.com/articles/d41586-026-02370-2
 6. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
-7. **Using AI to study: Medical students should know the do’s and don’ts - American Medical Association | AMA** — science angle
-   https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYzE2UEExbnRlZ2RzWnNZd3pMcVdDd1RGbHpKTjlTSDNCbHdLejdPNGpyYmhCaGFlV29oVHA2cmFMRVpka2xhVUN5T19mb3FCTnVaSVJ4UzNlUlJMeWtfazZyQlZ0eWota1gyanFvUUt1TFoyMnNWRm9HenFtQjdEV2pINnRzbmQ3NzE1SGhaaGpfRTd5Wlo4UlYxYlZ1d045bDVrdGkyQ05jUl80QUJnMWw4RVJuLThmQ3hqU2x0ZXFGUQ?oc=5
-8. **5 Things Doctors Should Know About Medical AI Regulation - Medscape** — science angle
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSF9iMWNfaWRDNlY2QXR3NDNuWWg1dUg4SDFfQjlvYXY3T3FfOS1LWTM5SG1rVmpDNlRKdUs5QlJSWlduUFdYTWNjY0p6MHlPeWIxTmpyQ0wwVEdiQ1ZDVkxoOUhZSkRya2lFdFByeGVpcDVRSkVfb1pEVVJ5VUU0QXNISWVERW8tS3hhZlNDcmNrZjdpWkVFd2FVWWdicTd0bW9wc1dhV1gxQQ?oc=5
+7. **American Medical Association Fires Back Against Paper Finding AI Is Now Outperforming Doctors - Futurism** — science angle
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlZHZHM5TUlaZGtKVjk4YkdCM0VwVHhkdlNfNjdLblFoNFFhVUFpRElXZFZRclRoTTJsSGFoUGFyd05GQy1DOG5oSi1yNUc0X0xRZUJ4cUV6N296MDdtYlV4Yk5YaElMa2ladGh4RUExanZVbVRocURfUENmRHhQRTE2cUgzak91MlRxNEhkUmpfWGFzUmE5dzdWUQ?oc=5
+8. **How can future doctors blend clinical rigour with AI fluency and empathy? - South China Morning Post** — science angle
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZzhmUHN6UjdoOFBTbDhGaDhWazdUeVdwd0xYQmpqZUhtMzBma0dKZl9WWTVKTWhZWmVEcVZKRnNtS2otY0Y1eF9HLW1kRWR4MmZzTVVfNXVIZkVsbnlLQ1EwWTVPcXM4a191eTR0bk83QzNuaDVWR0VWR1RGYkV1dmgya0F6YTRUYmlnZ3Z0TVlKektvWWNlcjUtNUpJTHF0WmhKLXFDVkFBUWppY3FkMEtwS2FVdEtkZHBhdjBNSllfXzBlVFB6b9IByAFBVV95cUxPNjFfOXRhdHM5ekZYSHE3cTVjVWNuSUdXMnRoQW1LQU90M3dYSXdEX1RvbVJaNkRTQ09LaWdvS0ExVFhoMGZTLXVadEtIY2FHYi16aF9EVnF4VTBGVmMyMG5qZGg5NlNMT2tvRllqZW9VcGthOTJZYmtDV1FRc2ROVVpsOUQtZHlhLTU2MFlmemlQY2Jqdkk1MnVIQ0tUYm9IWDhWTndWNFk3aEFWOG5VLWk5TW4zMFd6LTh5ZWxzNmNRQjZEZktOVg?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3075
+- Total stories tracked: 3085
 - Most active topic: openai
 - Busiest category: AI General News
 
