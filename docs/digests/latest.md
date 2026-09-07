@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://www.nature.com/articles/d41586-026-02370-2
 6. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
-7. **From Precision Medicine to AI: The Future of Cancer Care - Cure Today** — science angle
-   https://news.google.com/rss/articles/CBMijwFBVV95cUxNeXdOdjUxNU9qYWV1QUUwUFE2RzBPZXp3cUx5LURxSThlSzd2UGNlRDV3M3hJeEtkZWx1QWEtOFREaUY5bF9kOFVqc1NuVFNpTWEwQmlNNkhHTTlleExGZXBDOWtZaFc3bEtocG1oNXFRU1dyWmYySncweUZyMjVVVnVkV19DeklsV3pvUUk3aw?oc=5
-8. **The real risk of AI replacing doctors is not accuracy - KevinMD.com** — science angle
+7. **The real risk of AI replacing doctors is not accuracy - KevinMD.com** — science angle
    https://news.google.com/rss/articles/CBMijwFBVV95cUxPRWNvY1ZTbnd2ME5IWkhhUGdEcmVRQjZDMmFrRDFGVUMyeFZkcC1sUlRXSUM5TmlYNFoya0pNcWNSbEZWLXdkRHZ0amJMd0tUUXhFeWpQNktfUElnUWU5ZllSMGdSUzVTWEFtTUF6U0pDbXlvTHczQXRtYTFwa19vdURvTGo2ZjgzUnJNaEpzQQ?oc=5
+8. **AI chatbots wrongly reassure sleep apnea patients, study finds - News-Medical** — science angle
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxQMkhvYnFPRzV6ZlR2R3A5Z1lTeUhKdEJzUmRZMC1Zb1lZOENSenlPMGpkaFQ2MUIwOGMyOERIdmw3OGdLZy1ObnJhbGU0QkdkVTF5QTZWejZ2RVBuTUxfdnBDMUVkaXpCSDB0ejI3VkNWM251X0xQSnU4X3dBR2Y1blVMYUdmUFdrQTU2eDB0ejFqemJIOEZ2ZTJtcy14aWJWVFV6U29tcVRFZTBGNmc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3171
+- Total stories tracked: 3130
 - Most active topic: openai
 - Busiest category: AI General News
 
