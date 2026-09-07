@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T12:38:22.977075+00:00",
+  "generated_at": "2026-09-07T21:33:00.451892+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 16,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,23 +50,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
-          "signal": "Just discovered I can send stickers to ChatGPT"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w9nfsh/chatgpt6_astra_3d_ai_rigged_and_animated_this/",
           "signal": "ChatGPT-6 Astra + 3D AI Rigged and Animated This Quadruped in Blender From a Reference Video"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9bf8r/ask_chatgpt_to_give_you_a_warning_label/",
-          "signal": "Ask ChatGPT to give you a warning label"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
+          "signal": "Just discovered I can send stickers to ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9h0wu/chatgpt_used_my_reddit_post_as_a_source_for_one/",
-          "signal": "ChatGPT used my Reddit post as a source for one of my own questions…"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9pxp1/anyone_else_spend_half_their_time_correcting/",
+          "signal": "Anyone else spend half their time correcting ChatGPT?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9bf8r/ask_chatgpt_to_give_you_a_warning_label/",
+          "signal": "Ask ChatGPT to give you a warning label"
         }
       ],
       "content_ideas": []
@@ -126,7 +126,7 @@
       "content_ideas": []
     },
     {
-      "name": "Ask HN: Fable hacked my piano, can I release the results?",
+      "name": "AI, Tools and Transformation",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -138,7 +138,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -146,18 +146,19 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49577129",
-          "signal": "Ask HN: Fable hacked my piano, can I release the results?"
+          "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+          "signal": "AI, Tools and Transformation"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI, Tools and Transformation",
+      "name": "AI models ran real businesses: They sent $12,431 in fake invoices, los",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -173,8 +174,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-          "signal": "AI, Tools and Transformation"
+          "url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+          "signal": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200"
         }
       ],
       "content_ideas": []
@@ -207,6 +208,60 @@
       "content_ideas": []
     },
     {
+      "name": "Speculative Decoding in vLLM on AMD GPUs",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+          "signal": "Speculative Decoding in vLLM on AMD GPUs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Initial effects of AI technology on employment look positive",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+          "signal": "Initial effects of AI technology on employment look positive"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "America's two largest school districts impose AI moratoriums",
       "category": "use_case",
       "momentum": "rising",
@@ -234,6 +289,60 @@
       "content_ideas": []
     },
     {
+      "name": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+          "signal": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/timgordontg/engrim",
+          "signal": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Y",
       "category": "use_case",
       "momentum": "rising",
@@ -256,127 +365,6 @@
           "platform": "hackernews",
           "url": "https://www.trendingtopics.eu/emad-mostaque-ai-internet-outlook-english/",
           "signal": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Years\""
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
-          "signal": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/okf-memory/okf-agent-memory",
-          "signal": "OKF Agent Memory – Git-native persistent memory for AI coding agents"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
-          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
-          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=JWMizuT_A8E",
-          "signal": "How to Start a 1-Person AI Business using Claude in 2026 (FREE COURSE)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "How AI is breaking the British state",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state",
-          "signal": "How AI is breaking the British state"
         }
       ],
       "content_ideas": []
@@ -418,63 +406,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
-          "signal": "Just discovered I can send stickers to ChatGPT"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w9nfsh/chatgpt6_astra_3d_ai_rigged_and_animated_this/",
           "signal": "ChatGPT-6 Astra + 3D AI Rigged and Animated This Quadruped in Blender From a Reference Video"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9bf8r/ask_chatgpt_to_give_you_a_warning_label/",
-          "signal": "Ask ChatGPT to give you a warning label"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
+          "signal": "Just discovered I can send stickers to ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9h0wu/chatgpt_used_my_reddit_post_as_a_source_for_one/",
-          "signal": "ChatGPT used my Reddit post as a source for one of my own questions…"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
-          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9pxp1/anyone_else_spend_half_their_time_correcting/",
+          "signal": "Anyone else spend half their time correcting ChatGPT?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
-          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=JWMizuT_A8E",
-          "signal": "How to Start a 1-Person AI Business using Claude in 2026 (FREE COURSE)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9bf8r/ask_chatgpt_to_give_you_a_warning_label/",
+          "signal": "Ask ChatGPT to give you a warning label"
         }
       ],
       "content_ideas": []
@@ -489,18 +437,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w9jda8/astra_couldnt_even_answer_a_single_question/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Gpt ASTRA is way too expensive",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9nya5/gpt_astra_is_way_too_expensive/"
         }
       ],
       "content_opportunity": ""
