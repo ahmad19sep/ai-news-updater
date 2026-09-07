@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 30 Aug 2026 to 06 Sep 2026
+# 🗞️ AI THIS WEEK — 31 Aug 2026 to 07 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3122
+- Total stories tracked: 3243
 - Most active topic: openai
 - Busiest category: AI General News
 
