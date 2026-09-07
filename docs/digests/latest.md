@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — science angle
    https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-2. **Doctors warn parents about relying on AI for medical advice - WFTV** — science angle
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
-3. **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — science angle
+2. **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — science angle
    https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
-4. **IIT-G researchers launch energy efficient brain AI** — science angle
+3. **IIT-G researchers launch energy efficient brain AI** — science angle
    https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
-5. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
+4. **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — science angle
    https://www.nature.com/articles/d41586-026-02370-2
-6. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
+5. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
-7. **The real risk of AI replacing doctors is not accuracy - KevinMD.com** — science angle
+6. **The real risk of AI replacing doctors is not accuracy - KevinMD.com** — science angle
    https://news.google.com/rss/articles/CBMijwFBVV95cUxPRWNvY1ZTbnd2ME5IWkhhUGdEcmVRQjZDMmFrRDFGVUMyeFZkcC1sUlRXSUM5TmlYNFoya0pNcWNSbEZWLXdkRHZ0amJMd0tUUXhFeWpQNktfUElnUWU5ZllSMGdSUzVTWEFtTUF6U0pDbXlvTHczQXRtYTFwa19vdURvTGo2ZjgzUnJNaEpzQQ?oc=5
-8. **AI chatbots wrongly reassure sleep apnea patients, study finds - News-Medical** — science angle
+7. **AI chatbots wrongly reassure sleep apnea patients, study finds - News-Medical** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQMkhvYnFPRzV6ZlR2R3A5Z1lTeUhKdEJzUmRZMC1Zb1lZOENSenlPMGpkaFQ2MUIwOGMyOERIdmw3OGdLZy1ObnJhbGU0QkdkVTF5QTZWejZ2RVBuTUxfdnBDMUVkaXpCSDB0ejI3VkNWM251X0xQSnU4X3dBR2Y1blVMYUdmUFdrQTU2eDB0ejFqemJIOEZ2ZTJtcy14aWJWVFV6U29tcVRFZTBGNmc?oc=5
+8. **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — science angle
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
@@ -48,13 +48,13 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 
 ## 🧪 AI in Science Highlights
 - **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-- **Doctors warn parents about relying on AI for medical advice - WFTV** — https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVVsaTN0QkFSQ1YxTklKY1lWbDVyUXNoNWFmLUtrcEdNVHRhTS0xcnVzNlB4OFdTOG0xRjdjLVE1RWlFUDJzeXg2LUhxSGJNWE5Pc2xQS1hoLTNURDVzOG1xQy1ZODl5UzhIMEdpcmZoeVpTZm5aOWo3c2F2SkJDUmZ2NG5xYk5pdFQxVmdfdFdzNlBHVUtLLS1XRnVmelFiamVwUk5JY0x0VVBHd192NERtOEhTZmM?oc=5
 - **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
 - **IIT-G researchers launch energy efficient brain AI** — https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
 - **From Trojan horses to AI-proof exams: how professors are tackling students’ AI use** — https://www.nature.com/articles/d41586-026-02370-2
+- **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3130
+- Total stories tracked: 3038
 - Most active topic: openai
 - Busiest category: AI General News
 
