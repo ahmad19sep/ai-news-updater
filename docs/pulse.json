@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:33:00.451892+00:00",
+  "generated_at": "2026-09-08T04:41:19.448901+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 17,
+      "hackernews": 15,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,23 +50,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa9h0w/prompt_to_chatgpt_what_is_the_biggest_question/",
+          "signal": "PROMPT TO CHATGPT: what is the biggest question people aren't asking about AI companions that would disturb people?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa9um0/is_chatgpt_overusing_memory_and_previous/",
+          "signal": "Is ChatGPT overusing memory and previous conversations?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wadjg8/chatgpt_image_20_much_better_than_nano_bnana_2/",
+          "signal": "Chatgpt image 2.0 much better than nano bnana 2"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w9nfsh/chatgpt6_astra_3d_ai_rigged_and_animated_this/",
           "signal": "ChatGPT-6 Astra + 3D AI Rigged and Animated This Quadruped in Blender From a Reference Video"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
-          "signal": "Just discovered I can send stickers to ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9pxp1/anyone_else_spend_half_their_time_correcting/",
-          "signal": "Anyone else spend half their time correcting ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9bf8r/ask_chatgpt_to_give_you_a_warning_label/",
-          "signal": "Ask ChatGPT to give you a warning label"
         }
       ],
       "content_ideas": []
@@ -126,28 +126,51 @@
       "content_ideas": []
     },
     {
-      "name": "AI, Tools and Transformation",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-          "signal": "AI, Tools and Transformation"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5539/gpt6astra_is_on_par_with_claude_fable_51_on_the/",
+          "signal": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
+          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w3Lb7N3MxIg",
+          "signal": "How to use Claude Code For Free in 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
+          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EChXCPolIDQ",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Full Automation)"
         }
       ],
       "content_ideas": []
@@ -208,33 +231,6 @@
       "content_ideas": []
     },
     {
-      "name": "Speculative Decoding in vLLM on AMD GPUs",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
-          "signal": "Speculative Decoding in vLLM on AMD GPUs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Initial effects of AI technology on employment look positive",
       "category": "use_case",
       "momentum": "rising",
@@ -247,7 +243,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -262,7 +258,7 @@
       "content_ideas": []
     },
     {
-      "name": "America's two largest school districts impose AI moratoriums",
+      "name": "Speculative Decoding in vLLM on AMD GPUs",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -274,7 +270,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -282,35 +278,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/",
-          "signal": "America's two largest school districts impose AI moratoriums"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
-          "signal": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI"
+          "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+          "signal": "Speculative Decoding in vLLM on AMD GPUs"
         }
       ],
       "content_ideas": []
@@ -343,6 +312,33 @@
       "content_ideas": []
     },
     {
+      "name": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+          "signal": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Y",
       "category": "use_case",
       "momentum": "rising",
@@ -365,6 +361,33 @@
           "platform": "hackernews",
           "url": "https://www.trendingtopics.eu/emad-mostaque-ai-internet-outlook-english/",
           "signal": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Years\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI Cold Showers",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://allan.reyes.sh/posts/ai-cold-showers/",
+          "signal": "AI Cold Showers"
         }
       ],
       "content_ideas": []
@@ -406,23 +429,73 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa9h0w/prompt_to_chatgpt_what_is_the_biggest_question/",
+          "signal": "PROMPT TO CHATGPT: what is the biggest question people aren't asking about AI companions that would disturb people?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa9um0/is_chatgpt_overusing_memory_and_previous/",
+          "signal": "Is ChatGPT overusing memory and previous conversations?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wadjg8/chatgpt_image_20_much_better_than_nano_bnana_2/",
+          "signal": "Chatgpt image 2.0 much better than nano bnana 2"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1w9nfsh/chatgpt6_astra_3d_ai_rigged_and_animated_this/",
           "signal": "ChatGPT-6 Astra + 3D AI Rigged and Animated This Quadruped in Blender From a Reference Video"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
-          "signal": "Just discovered I can send stickers to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5539/gpt6astra_is_on_par_with_claude_fable_51_on_the/",
+          "signal": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9pxp1/anyone_else_spend_half_their_time_correcting/",
-          "signal": "Anyone else spend half their time correcting ChatGPT?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
+          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9bf8r/ask_chatgpt_to_give_you_a_warning_label/",
-          "signal": "Ask ChatGPT to give you a warning label"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w3Lb7N3MxIg",
+          "signal": "How to use Claude Code For Free in 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
+          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EChXCPolIDQ",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Full Automation)"
         }
       ],
       "content_ideas": []
@@ -430,13 +503,25 @@
   ],
   "pain_points": [
     {
-      "problem": "Astra couldn’t even answer a single question before running into my usage limit, what’s the point of subscribing then?",
+      "problem": "The phrase “Is/was *blank* a threat to democracy” is banned",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9jda8/astra_couldnt_even_answer_a_single_question/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa88j4/the_phrase_iswas_blank_a_threat_to_democracy_is/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Anyone else’s Codex usage limit just reset?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wabb27/anyone_elses_codex_usage_limit_just_reset/"
         }
       ],
       "content_opportunity": ""
