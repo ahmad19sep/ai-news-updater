@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **IIT-G researchers launch energy efficient brain AI** — https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3067
+- Total stories tracked: 3005
 - Most active topic: openai
 - Busiest category: AI General News
 
