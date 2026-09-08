@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T16:40:40.863790+00:00",
+  "generated_at": "2026-09-08T21:11:38.383019+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -50,23 +49,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1warkrs/chatgpt_consistently_strawmanning_me_when_the/",
-          "signal": "ChatGPT consistently strawmanning me when the topic becomes controversial"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wajtge/chatgpt_we_may_have_reached_functional_agi_before/",
           "signal": "ChatGPT: \"We may have reached functional AGI before reaching human-like AGI.\""
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wal7qw/chatgpt_is_unusually_fond_of_the_word_unusually/",
-          "signal": "ChatGPT is unusually fond of the word \"unusually\""
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wau0mt/astra_is_very_good_but_the_chatgpt_windows_app_is/",
+          "signal": "Astra is very good, but the ChatGPT windows app is soo bad"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9m5d2/why_wont_chatgpt_create_a_nude_artwork/",
-          "signal": "Why won’t ChatGPT create a nude artwork?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
+          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
+          "signal": "ChatGPT new easter egg"
         }
       ],
       "content_ideas": []
@@ -126,6 +125,33 @@
       "content_ideas": []
     },
     {
+      "name": "Google DeepMind Releases AlphaGenome Atlas",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "signal": "Google DeepMind Releases AlphaGenome Atlas"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "We Must Return to the Office to Use AI in Person",
       "category": "use_case",
       "momentum": "rising",
@@ -138,7 +164,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -148,6 +174,33 @@
           "platform": "hackernews",
           "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
           "signal": "We Must Return to the Office to Use AI in Person"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Muse: Meta's personal AI agent, features and capabilities",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ai.meta.com/muse/",
+          "signal": "Muse: Meta's personal AI agent, features and capabilities"
         }
       ],
       "content_ideas": []
@@ -262,52 +315,7 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5539/gpt6astra_is_on_par_with_claude_fable_51_on_the/",
-          "signal": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
-          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HDmBwU5uvEE",
-          "signal": "Anthropic Just Revealed 7 New Rules for Prompting Claude 5 Models"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
-          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Google DeepMind Releases AlphaGenome Atlas",
+      "name": "Flights cancelled at UK airports due to ATC issue",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -319,7 +327,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -327,8 +335,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-          "signal": "Google DeepMind Releases AlphaGenome Atlas"
+          "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
+          "signal": "Flights cancelled at UK airports due to ATC issue"
         }
       ],
       "content_ideas": []
@@ -356,33 +364,6 @@
           "platform": "hackernews",
           "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
           "signal": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/timgordontg/engrim",
-          "signal": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs"
         }
       ],
       "content_ideas": []
@@ -423,7 +404,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -451,68 +431,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1warkrs/chatgpt_consistently_strawmanning_me_when_the/",
-          "signal": "ChatGPT consistently strawmanning me when the topic becomes controversial"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wajtge/chatgpt_we_may_have_reached_functional_agi_before/",
           "signal": "ChatGPT: \"We may have reached functional AGI before reaching human-like AGI.\""
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wal7qw/chatgpt_is_unusually_fond_of_the_word_unusually/",
-          "signal": "ChatGPT is unusually fond of the word \"unusually\""
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wau0mt/astra_is_very_good_but_the_chatgpt_windows_app_is/",
+          "signal": "Astra is very good, but the ChatGPT windows app is soo bad"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9m5d2/why_wont_chatgpt_create_a_nude_artwork/",
-          "signal": "Why won’t ChatGPT create a nude artwork?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
+          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+        },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5539/gpt6astra_is_on_par_with_claude_fable_51_on_the/",
-          "signal": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
-          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HDmBwU5uvEE",
-          "signal": "Anthropic Just Revealed 7 New Rules for Prompting Claude 5 Models"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
-          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
+          "signal": "ChatGPT new easter egg"
         }
       ],
       "content_ideas": []
