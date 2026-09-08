@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T11:23:02.381726+00:00",
+  "generated_at": "2026-09-08T16:40:40.863790+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 18,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -30,8 +30,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -45,8 +45,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9m5d2/why_wont_chatgpt_create_a_nude_artwork/",
-          "signal": "Why won’t ChatGPT create a nude artwork?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
+          "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1warkrs/chatgpt_consistently_strawmanning_me_when_the/",
+          "signal": "ChatGPT consistently strawmanning me when the topic becomes controversial"
         },
         {
           "platform": "reddit",
@@ -60,40 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa9h0w/prompt_to_chatgpt_what_is_the_biggest_question/",
-          "signal": "PROMPT TO CHATGPT: what is the biggest question people aren't asking about AI companions that would disturb people?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajdsv/chatgpt_tips_for_an_expanding_small_business/",
-          "signal": "ChatGPT tips for an expanding small business / gourmet deli"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "A/I shuts down",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-          "signal": "A/I shuts down"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9m5d2/why_wont_chatgpt_create_a_nude_artwork/",
+          "signal": "Why won’t ChatGPT create a nude artwork?"
         }
       ],
       "content_ideas": []
@@ -126,7 +99,7 @@
       "content_ideas": []
     },
     {
-      "name": "How I feel about AI",
+      "name": "LibreOffice breaks download records after declaring it has no AI featu",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -136,9 +109,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -146,58 +119,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
-          "signal": "How I feel about AI"
+          "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+          "signal": "LibreOffice breaks download records after declaring it has no AI features"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "We Must Return to the Office to Use AI in Person",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5539/gpt6astra_is_on_par_with_claude_fable_51_on_the/",
-          "signal": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajytk/chat_gpt_or_claude_for_non_frontier_tasks/",
-          "signal": "Chat GPT or Claude for non frontier tasks?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
-          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=w3Lb7N3MxIg",
-          "signal": "How to use Claude Code For Free in 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
-          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
+          "platform": "hackernews",
+          "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+          "signal": "We Must Return to the Office to Use AI in Person"
         }
       ],
       "content_ideas": []
@@ -215,7 +165,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -312,6 +262,78 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5539/gpt6astra_is_on_par_with_claude_fable_51_on_the/",
+          "signal": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
+          "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HDmBwU5uvEE",
+          "signal": "Anthropic Just Revealed 7 New Rules for Prompting Claude 5 Models"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2OwMjg5As2g",
+          "signal": "Claude Fable 5.1 + Higgsfield AI = Insane Motion Graphics!"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google DeepMind Releases AlphaGenome Atlas",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "signal": "Google DeepMind Releases AlphaGenome Atlas"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
       "category": "use_case",
       "momentum": "rising",
@@ -364,36 +386,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "My business partner sent a 5K vibe-coded PR that he didn't even test",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ycj.bearblog.dev/ai-again/",
-          "signal": "My business partner sent a 5K vibe-coded PR that he didn't even test"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -439,8 +431,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -454,8 +446,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9m5d2/why_wont_chatgpt_create_a_nude_artwork/",
-          "signal": "Why won’t ChatGPT create a nude artwork?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
+          "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1warkrs/chatgpt_consistently_strawmanning_me_when_the/",
+          "signal": "ChatGPT consistently strawmanning me when the topic becomes controversial"
         },
         {
           "platform": "reddit",
@@ -469,13 +466,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa9h0w/prompt_to_chatgpt_what_is_the_biggest_question/",
-          "signal": "PROMPT TO CHATGPT: what is the biggest question people aren't asking about AI companions that would disturb people?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajdsv/chatgpt_tips_for_an_expanding_small_business/",
-          "signal": "ChatGPT tips for an expanding small business / gourmet deli"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1w9m5d2/why_wont_chatgpt_create_a_nude_artwork/",
+          "signal": "Why won’t ChatGPT create a nude artwork?"
         }
       ],
       "content_ideas": []
@@ -496,7 +488,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -508,19 +500,14 @@
           "signal": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajytk/chat_gpt_or_claude_for_non_frontier_tasks/",
-          "signal": "Chat GPT or Claude for non frontier tasks?"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=g3Mh8Hws-jo",
           "signal": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=w3Lb7N3MxIg",
-          "signal": "How to use Claude Code For Free in 2026"
+          "url": "https://www.youtube.com/watch?v=HDmBwU5uvEE",
+          "signal": "Anthropic Just Revealed 7 New Rules for Prompting Claude 5 Models"
         },
         {
           "platform": "youtube",
