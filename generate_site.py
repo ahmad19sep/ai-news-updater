@@ -515,7 +515,7 @@ PAGE = r"""<!doctype html>
   </section>
 
   <section id="tab-news" hidden>
-    <div class="search" style="margin-top:20px"><input id="q" placeholder="Search stories… Gemini, jobs, WhatsApp"></div>
+    <div class="search" style="margin-top:20px"><input id="q" placeholder="Search stories… Gemini, agents, jobs"></div>
     <div class="bar" id="pillars"></div>
     <div class="count" id="count"></div>
     <div id="list"></div>
@@ -2143,7 +2143,7 @@ function renderInspire() {
           '<div class="actions" style="margin-left:0;margin-top:6px">' +
           '<button class="cp" data-iw="' + esc(angle) + '">✍️ Write</button>' +
           '<button class="cp" data-iv="' + esc(it.t) + '" data-iu="' + esc(it.u) + '">💎 Value pack</button>' +
-          '<button class="cp" data-inr="' + i + '">📰 Newsroom</button>' +
+          '<button class="cp" data-inr="' + i + '">in Write post</button>' +
           '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a>' +
           '<button class="cp" data-imd="' + i + '">✓ Done</button></div></div>';
       }).join("") : "";
@@ -2164,7 +2164,7 @@ function renderInspire() {
       '<div class="actions" style="margin-left:0;margin-top:6px">' +
       '<button class="cp" data-iw="' + esc(i[3]) + '">✍️ Write</button>' +
       '<button class="cp" data-iv="' + esc(i[1] + " — " + i[3]) + '" data-iu="">💎 Value pack</button>' +
-      '<button class="cp" data-inrt="' + esc(i[1] + " — " + i[3]) + '">📰 Newsroom</button></div></div>').join("")
+      '<button class="cp" data-inrt="' + esc(i[1] + " — " + i[3]) + '">in Write post</button></div></div>').join("")
   ).join("") || '<div class="empty">No ideas match that search.</div>';
   listEl.querySelectorAll("[data-inrt]").forEach(b => b.onclick = () => openNewsroom({ t: b.getAttribute("data-inrt"), u: "" }));
   document.querySelectorAll("#tab-inspire [data-iw]").forEach(b => b.onclick = () => inspUse(b.getAttribute("data-iw")));
@@ -2201,7 +2201,7 @@ function renderMeTab() {
         '<div class="actions" style="margin-left:0;margin-top:6px">' +
         '<button class="cp" data-mp="' + i + '">🎨 Poster with me</button>' +
         '<button class="cp" data-mc="' + i + '">✍️ Caption</button>' +
-        '<button class="cp" data-mn="' + i + '">📰 Newsroom</button>' +
+        '<button class="cp" data-mn="' + i + '">in Write post</button>' +
         '<a class="cp" href="' + esc(it.u) + '" target="_blank" rel="noopener">↗ Story</a>' +
         '<button class="cp" data-md="' + i + '">✓ Done</button></div></div>').join("")
       : '<div class="empty">No fresh stories right now — check back after the next fetch.</div>';
@@ -2363,7 +2363,7 @@ function pulseCard(t, isTool) {
     h += '</div>';
   }
   h += '<div class="pact">'
-    + '<button class="ghost" onclick="pulseNewsroom(\'' + id + '\')">📰 Newsroom</button>'
+    + '<button class="ghost" onclick="pulseNewsroom(\'' + id + '\')">in Write post</button>'
     + '<button class="ghost" onclick="pulseCopyPrompt(\'' + id + '\')">📋 Script prompt</button>'
     + '<button class="ghost" onclick="pulseToX(\'' + id + '\')">𝕏 X post</button>'
     + '</div></div>';
@@ -2723,7 +2723,7 @@ document.getElementById("pub-go").onclick = async () => {
     if (nd > 1) toast("✓ Ticked this + " + (nd - 1) + " related stor" + (nd - 1 === 1 ? "y" : "ies"));
   } catch (e) { toast("Publish failed: " + e.message); }
 };
-/* Share the published article to X / WhatsApp / Facebook, ending with a link to
+/* Share the published article to LinkedIn or X, ending with a link to
    the full story on your site (each platform's own one-tap share — no ban risk). */
 function pubLink(art) { return PUBLIC_SITE + "/#a=" + art.id; }
 function pubBlurb(art, max) {
