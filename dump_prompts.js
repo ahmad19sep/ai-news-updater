@@ -23,7 +23,6 @@ const SECTIONS = [
       audience: "<<WHO THIS IS FOR>>" }, STORY))],
   ["X post (optional channel)", "buildXPrompt",
     win.buildXPrompt({ title: STORY.title, source: STORY.source, format: "single", voice: "breaking", hook: "curiosity" })],
-  ["X replies", "buildXReplyPrompt", win.buildXReplyPrompt({ post_text: IDEA })],
   ["Repurpose a post you saw", "buildPostRepurposePrompt", win.buildPostRepurposePrompt({ post_text: IDEA })],
   ["Write engine", "buildAnthropicWritePrompt", win.buildAnthropicWritePrompt({ seed: IDEA })],
   ["Your own poster (Me tab)", "buildMePosterPrompt",

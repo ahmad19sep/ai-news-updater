@@ -15,11 +15,11 @@ const tpl = fs.readFileSync(path.join(__dirname, "docs", "templates.js"), "utf8"
 const win = {};
 new Function("window", tpl)(win);
 {
-  ["HUMAN_VOICE", "LINKEDIN_CONTRACT", "buildLinkedInPrompt", "buildXPrompt", "buildXReplyPrompt",
+  ["HUMAN_VOICE", "LINKEDIN_CONTRACT", "buildLinkedInPrompt", "buildXPrompt",
     "buildPostRepurposePrompt", "buildMePosterPrompt", "buildAnthropicWritePrompt", "INSPIRE_IDEAS"]
     .forEach(k => { if (!win[k]) fail("templates.js no longer exports " + k); });
   /* the Create wizard and its TikTok/IG/FB/WhatsApp video libraries are retired */
-  ["WIZ", "POST_TEMPLATES", "SOCIAL"].forEach(k => { if (win[k]) fail("retired library still present: " + k); });
+  ["WIZ", "POST_TEMPLATES", "SOCIAL", "XREPLY_STYLES", "buildXReplyPrompt"].forEach(k => { if (win[k]) fail("retired library still present: " + k); });
   ok("prompt library exports the live builders, retired libraries gone");
 }
 

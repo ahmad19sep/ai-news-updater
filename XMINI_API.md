@@ -65,7 +65,7 @@ export default {
 
 The Studio stores only the **URL** (public, harmless) in your browser — never the key.
 The free **🤖 Claude / 💬 ChatGPT** copy-paste buttons keep working with no setup, so
-you can use either path any time. (Want the same ⚡ button in Repurpose / X Replies too?
+you can use either path any time. (Want the same ⚡ button in Repurpose too?
 Just ask.)
 
 ## Why this is the right shape

@@ -1,6 +1,7 @@
 /* AI Radar — popup. On click, ask the content script for the post, then write it
-   to Firebase: "Repurpose" -> /social_captures (X or LinkedIn), "Reply" ->
-   /x_captures (X only). Nothing happens without your click. */
+   to Firebase: "Repurpose" -> /social_captures (X or LinkedIn), "Write" ->
+   /x_mini_drafts. Nothing happens without your click.
+   The Reply capture was removed with the studio's X Replies tab. */
 
 const FIREBASE_URL = "https://aixahmad-studio-default-rtdb.asia-southeast1.firebasedatabase.app";
 
@@ -8,7 +9,6 @@ const prevEl = document.getElementById("prev");
 const platEl = document.getElementById("plat");
 const stEl = document.getElementById("st");
 const repBtn = document.getElementById("rep");
-const replyBtn = document.getElementById("reply");
 const xminiBtn = document.getElementById("xmini");
 
 function setStatus(msg, cls) { stEl.textContent = msg; stEl.className = "st" + (cls ? " " + cls : ""); }
@@ -41,11 +41,9 @@ function grab() {
 let current = null;
 grab().then(d => {
   current = d;
-  if (d && d._bad) { prevEl.textContent = "Open a post on X or LinkedIn first."; platEl.textContent = "—"; repBtn.disabled = true; replyBtn.disabled = true; xminiBtn.disabled = true; return; }
+  if (d && d._bad) { prevEl.textContent = "Open a post on X or LinkedIn first."; platEl.textContent = "—"; repBtn.disabled = true; xminiBtn.disabled = true; return; }
   if (d && d.post_text) {
     platEl.textContent = d.platform === "linkedin" ? "LinkedIn" : "X";
-    replyBtn.disabled = d.platform !== "x";   // reply engine is X-only
-    replyBtn.title = d.platform === "x" ? "" : "Reply engine is X-only — use Repurpose on LinkedIn";
     xminiBtn.disabled = false;
     prevEl.textContent = (d.author_name ? d.author_name + " " + (d.author_handle || "") + "\n" : "") + d.post_text.slice(0, 280);
   } else { prevEl.textContent = "Couldn't read this post. On LinkedIn, select the post text first; on X, open the tweet — then reopen this."; }
@@ -53,12 +51,12 @@ grab().then(d => {
 
 async function send(node, build, label) {
   setStatus("Reading post…");
-  repBtn.disabled = replyBtn.disabled = xminiBtn.disabled = true;
+  repBtn.disabled = xminiBtn.disabled = true;
   const d = current || await grab();
   current = d;
   if (!d || d._bad || !d.post_text) {
     setStatus("Couldn't read a post — open the tweet (or select the text), then retry.", "err");
-    repBtn.disabled = false; replyBtn.disabled = !(d && d.platform === "x"); xminiBtn.disabled = false; return;
+    repBtn.disabled = false; xminiBtn.disabled = false; return;
   }
   const id = String(Date.now());
   const body = build(d, id);
@@ -70,7 +68,7 @@ async function send(node, build, label) {
     if (r.ok) setStatus("✅ Sent! Open Studio → " + label + ".", "ok");
     else setStatus("Blocked — add a /" + node + " Firebase rule.", "err");
   } catch (e) { setStatus("Failed: " + e.message, "err"); }
-  repBtn.disabled = false; replyBtn.disabled = (current && current.platform !== "x"); xminiBtn.disabled = false;
+  repBtn.disabled = false; xminiBtn.disabled = false;
 }
 
 repBtn.onclick = () => send("social_captures", (d, id) => {
@@ -83,15 +81,6 @@ repBtn.onclick = () => send("social_captures", (d, id) => {
     outputs: [], created_at: now, updated_at: now
   };
 }, "Repurpose");
-
-replyBtn.onclick = () => send("x_captures", (d, id) => {
-  const now = new Date().toISOString();
-  return {
-    id, source_url: d.source_url || "", post_id: d.post_id || "", author_name: d.author_name || "",
-    author_handle: d.author_handle || "", post_text: d.post_text || "", screenshot_url: "", topic: "",
-    status: "captured", selected_reply: "", replies: [], created_at: now, updated_at: now
-  };
-}, "X Replies");
 
 // Send the selected/visible text to the X Mini engine as a seed idea (works anywhere).
 xminiBtn.onclick = () => send("x_mini_drafts", (d, id) => {
