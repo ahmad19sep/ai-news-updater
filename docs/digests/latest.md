@@ -9,14 +9,14 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — science angle
    https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-2. **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — science angle
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
-3. **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — science angle
+2. **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — science angle
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
-4. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
+3. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
    https://www.nature.com/articles/d41586-026-02842-5
-5. **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — science angle
+4. **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — science angle
    https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
+5. **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — science angle
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 6. **Put patients at the centre of medical AI governance** — science angle
    https://www.nature.com/articles/d41586-026-02796-8
 7. **IIT-G researchers launch energy efficient brain AI** — science angle
@@ -48,13 +48,13 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 
 ## 🧪 AI in Science Highlights
 - **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-- **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 - **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
 - **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — https://www.nature.com/articles/d41586-026-02842-5
 - **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
+- **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3027
+- Total stories tracked: 3040
 - Most active topic: openai
 - Busiest category: AI General News
 
