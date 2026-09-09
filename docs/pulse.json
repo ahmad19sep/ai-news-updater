@@ -1,201 +1,471 @@
 {
-  "generated_at": "2026-07-09T15:35:20.611800+00:00",
+  "generated_at": "2026-09-08T21:11:38.383019+00:00",
   "meta": {
-    "mode": "llm",
+    "mode": "raw",
     "sources_used": [
       "reddit",
+      "hackernews",
       "youtube"
     ],
     "signal_counts": {
       "reddit": 25,
+      "hackernews": 23,
       "youtube": 106
     },
-    "llm_provider": "groq"
+    "llm_provider": null
   },
   "trends": [
     {
-      "name": "GPT 5.6",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "GPT 5.6 is a new version of the GPT AI model.",
-      "audience_angle": "Learn how to use GPT 5.6 to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how GPT 5.6 can help you automate tasks and increase efficiency in your work.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": "GPT 5.6 has an affiliate program for developers and users."
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urfd4p/today_is_the_day_of_gpt56/",
-          "signal": "Today is the day of GPT-5.6!!!"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
-          "signal": "chatgpt 5.6"
-        }
-      ],
-      "content_ideas": [
-        "How to Use GPT 5.6 for Content Creation",
-        "GPT 5.6: The Future of AI-Powered Productivity",
-        "Maximizing Earnings with GPT 5.6: Tips and Tricks"
-      ]
-    },
-    {
-      "name": "ChatGPT Images 2.0",
+      "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
-      "audience_angle": "Create stunning images with ChatGPT Images 2.0 and take your content to the next level.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for professional branding and marketing.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 offers affiliate opportunities for creators and marketers."
+        "note": ""
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
+          "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajtge/chatgpt_we_may_have_reached_functional_agi_before/",
+          "signal": "ChatGPT: \"We may have reached functional AGI before reaching human-like AGI.\""
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wau0mt/astra_is_very_good_but_the_chatgpt_windows_app_is/",
+          "signal": "Astra is very good, but the ChatGPT windows app is soo bad"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
+          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
+          "signal": "ChatGPT new easter egg"
         }
       ],
-      "content_ideas": [
-        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide",
-        "ChatGPT Images 2.0: The Ultimate Tool for Social Media Content Creation",
-        "Monetizing ChatGPT Images 2.0: Turning Your Creations into Cash"
-      ]
+      "content_ideas": []
     },
     {
-      "name": "AI Video Generation",
-      "category": "use_case",
+      "name": "Mistral",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "AI video generation is a technology that allows users to create videos using AI tools.",
-      "audience_angle": "Discover how to create stunning videos with AI and take your content to the next level.",
-      "linkedin_angle": "Learn how to leverage AI video generation for professional branding and marketing.",
-      "local_relevance": 7,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "AI video generation tools often offer affiliate programs for creators and marketers."
+        "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=ai+video+generation",
-          "signal": "ai video generation"
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "signal": "Mistral raises €3B"
         }
       ],
-      "content_ideas": [
-        "Getting Started with AI Video Generation: A Beginner's Guide",
-        "AI Video Generation: The Future of Content Creation",
-        "Monetizing AI Video Generation: Turning Your Creations into Cash"
-      ]
+      "content_ideas": []
+    },
+    {
+      "name": "LibreOffice breaks download records after declaring it has no AI featu",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+          "signal": "LibreOffice breaks download records after declaring it has no AI features"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google DeepMind Releases AlphaGenome Atlas",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "signal": "Google DeepMind Releases AlphaGenome Atlas"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "We Must Return to the Office to Use AI in Person",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+          "signal": "We Must Return to the Office to Use AI in Person"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Muse: Meta's personal AI agent, features and capabilities",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ai.meta.com/muse/",
+          "signal": "Muse: Meta's personal AI agent, features and capabilities"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Initial effects of AI technology on employment look positive",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+          "signal": "Initial effects of AI technology on employment look positive"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI models ran real businesses: They sent $12,431 in fake invoices, los",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+          "signal": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "I refused to train the AI that could replace me",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
+          "signal": "I refused to train the AI that could replace me"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Speculative Decoding in vLLM on AMD GPUs",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+          "signal": "Speculative Decoding in vLLM on AMD GPUs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Flights cancelled at UK airports due to ATC issue",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
+          "signal": "Flights cancelled at UK airports due to ATC issue"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+          "signal": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "GPT 5.6",
+      "name": "Mistral",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
-      "what_it_is": "GPT 5.6 is a new version of the GPT AI model.",
-      "audience_angle": "Learn how to use GPT 5.6 to improve your productivity and earnings.",
-      "linkedin_angle": "Discover how GPT 5.6 can help you automate tasks and increase efficiency in your work.",
-      "local_relevance": 5,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 8,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "GPT 5.6 has an affiliate program for developers and users."
+        "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urfd4p/today_is_the_day_of_gpt56/",
-          "signal": "Today is the day of GPT-5.6!!!"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt+5.6",
-          "signal": "chatgpt 5.6"
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "signal": "Mistral raises €3B"
         }
       ],
-      "content_ideas": [
-        "How to Use GPT 5.6 for Content Creation",
-        "GPT 5.6: The Future of AI-Powered Productivity",
-        "Maximizing Earnings with GPT 5.6: Tips and Tricks"
-      ]
+      "content_ideas": []
     },
     {
-      "name": "ChatGPT Images 2.0",
+      "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "reddit"
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
       ],
-      "what_it_is": "ChatGPT Images 2.0 is an updated version of the ChatGPT image generation tool.",
-      "audience_angle": "Create stunning images with ChatGPT Images 2.0 and take your content to the next level.",
-      "linkedin_angle": "Learn how to leverage ChatGPT Images 2.0 for professional branding and marketing.",
-      "local_relevance": 6,
-      "pillar": "practical_earning",
-      "best_format": "short",
-      "video_worthy": 9,
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
-        "note": "ChatGPT Images 2.0 offers affiliate opportunities for creators and marketers."
+        "note": ""
       },
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
+          "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajtge/chatgpt_we_may_have_reached_functional_agi_before/",
+          "signal": "ChatGPT: \"We may have reached functional AGI before reaching human-like AGI.\""
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wau0mt/astra_is_very_good_but_the_chatgpt_windows_app_is/",
+          "signal": "Astra is very good, but the ChatGPT windows app is soo bad"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
+          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
+          "signal": "ChatGPT new easter egg"
         }
       ],
-      "content_ideas": [
-        "Getting Started with ChatGPT Images 2.0: A Beginner's Guide",
-        "ChatGPT Images 2.0: The Ultimate Tool for Social Media Content Creation",
-        "Monetizing ChatGPT Images 2.0: Turning Your Creations into Cash"
-      ]
+      "content_ideas": []
     }
   ],
   "pain_points": [
     {
-      "problem": "Claude usage/token limits hitting users hard",
-      "who_affected": "Claude users",
-      "signal_strength": 8,
+      "problem": "The phrase “Is/was *blank* a threat to democracy” is banned",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1urp42j/claudes_plan/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa88j4/the_phrase_iswas_blank_a_threat_to_democracy_is/"
         }
       ],
-      "content_opportunity": "Claude Token Limits: How to Work Around Them and Maximize Your Productivity"
+      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "GPT 5.6"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }

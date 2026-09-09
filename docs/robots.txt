@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /studio.html
 
-Sitemap: https://radar.hafizahmad.com/sitemap.xml
+Sitemap: https://ahmad19sep.github.io/ai-news-updater/sitemap.xml

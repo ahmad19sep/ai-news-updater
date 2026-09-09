@@ -39,7 +39,7 @@ MAX_STORIES = 600
 SITE_NAME = "AI Radar"
 # The address where the site is actually served. Canonical/OG/sitemap all use
 # this — it MUST match the live URL or Google won't index correctly.
-SITE_URL = "https://radar.hafizahmad.com/"
+SITE_URL = "https://ahmad19sep.github.io/ai-news-updater/"
 # Paste the Google Search Console "HTML tag" verification code here, then re-run.
 GSC_VERIFY = ""
 SITE_DESC = ("Breaking artificial-intelligence news, every day: new models and tools, "
@@ -553,7 +553,7 @@ function openArticle(i){
 function closeArticle(){ document.getElementById("reader").hidden=true; document.body.style.overflow="";
   try{ history.replaceState(null,"",location.pathname+location.search); }catch(e){} }
 document.getElementById("reader").addEventListener("click",e=>{ if(e.target.id==="reader") closeArticle(); });
-/* deep link: radar.hafizahmad.com/#a=<id> opens that article (used by shares) */
+/* deep link: #a=<id> opens that article (used by shares) */
 function openArticleFromHash(){
   const m=(location.hash||"").match(/a=([^&]+)/); if(!m) return;
   const idx=PUBS.findIndex(p=>String(p.id)===m[1]); if(idx>=0) openArticle(idx);
