@@ -115,6 +115,39 @@ setTimeout(() => {
     if (!d.getElementById("nr-posted").disabled) throw new Error("Mark as posted should be disabled");
   });
 
+  check("optional visual + X + Reddit extras build from the approved post", () => {
+    d.getElementById("nr-in").value = AI_OUTPUT;
+    d.getElementById("nr-parse").click();
+    d.getElementById("nr-post").value = "EDITED POST TEXT the operator approved.";
+
+    d.getElementById("nr-info").click();
+    if (!copied.includes("EDITED POST TEXT")) throw new Error("infographic ignored the edited post");
+    ["HUB & SPOKE", "DECISION TREE", "CHECKLIST SHEET"].forEach(f => {
+      if (!copied.includes(f)) throw new Error("infographic format library missing: " + f);
+    });
+    if (/like ❤️ & share/.test(copied)) throw new Error("engagement-bait footer is back on the image");
+
+    d.getElementById("nr-poster").click();
+    if (!copied.includes("ART DIRECTOR")) throw new Error("poster prompt missing");
+
+    d.getElementById("nr-xver").click();
+    if (!copied.includes("EDITED POST TEXT")) throw new Error("X version ignored the approved post");
+    if (!copied.includes("No thread")) throw new Error("X adaptation lost its no-thread rule");
+
+    w.prompt = () => "r/test - rules: no self promotion";
+    d.getElementById("nr-reddit").click();
+    if (!copied.includes("review_rules")) throw new Error("Reddit check lost its rules gate");
+    if (!copied.includes("no promotional link")) throw new Error("Reddit check lost its no-promo rule");
+  });
+
+  check("extras are disabled until there is a draft", () => {
+    d.getElementById("nr-in").value = "[[STATUS]]\nskip\n[[REVIEW]]\nno angle\n[[END]]";
+    d.getElementById("nr-parse").click();
+    ["nr-info", "nr-poster", "nr-xver", "nr-reddit"].forEach(id => {
+      if (!d.getElementById(id).disabled) throw new Error(id + " should be disabled on skip");
+    });
+  });
+
   check("validating never marks the story handled", () => {
     if (isDone()) throw new Error("parsing already marked the story handled");
   });

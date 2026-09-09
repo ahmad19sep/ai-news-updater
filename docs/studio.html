@@ -738,12 +738,19 @@
       <div class="note" style="margin:8px 2px 0;color:var(--faint)">
         Copying, or opening LinkedIn, changes nothing — only ✓ Mark as posted takes the story off your lists.
       </div>
+      <div class="note" style="margin:12px 2px 4px">Optional — built from the post above, so a visual or version can never claim more than it does:</div>
+      <div class="genrow" style="flex-wrap:wrap">
+        <button class="ghost" id="nr-info" title="One 4:5 infographic carrying the whole point — 10-format library">🎨 Infographic prompt</button>
+        <button class="ghost" id="nr-poster" title="News-style poster with the headline on it">🖼️ Poster prompt</button>
+        <button class="ghost" id="nr-xver" title="Optional: adapt this one post for X">𝕏 X version</button>
+        <button class="ghost" id="nr-reddit" title="Optional: check whether it fits a subreddit — needs that community's rules">🟠 Reddit check</button>
+      </div>
     </div>
   </div>
 </div>
 <div class="toast" id="toast"></div>
 
-<script src="templates.js?v=202609090326"></script>
+<script src="templates.js?v=202609090334"></script>
 <script>
 /* ---- any crash shows on screen instead of silently blanking the app ---- */
 window.onerror = function (msg, src, line) {
@@ -2781,7 +2788,7 @@ function nrRenderDraft(status) {
     ? "Sources: " + nrParsed.sources
     : (nrStory.source ? "Source: " + nrStory.source : "");
   document.getElementById("nr-review").textContent = nrParsed.review || "(the AI returned no review notes)";
-  ["nr-copypost", "nr-open", "nr-posted"].forEach(id => {
+  ["nr-copypost", "nr-open", "nr-posted", "nr-info", "nr-poster", "nr-xver", "nr-reddit"].forEach(id => {
     const b = document.getElementById(id); b.disabled = !ready;
     b.title = ready ? "" : "No draft to post yet";
   });
@@ -2798,6 +2805,30 @@ document.getElementById("nr-copypost").onclick = () => {
 document.getElementById("nr-open").onclick = () => {
   nrOpen("https://www.linkedin.com/feed/?shareActive=true");
   toast("LinkedIn opened — paste your post there (it does not prefill)");
+};
+/* optional extras — all read the post as EDITED in the box, never the raw AI output,
+   so what you approved is what gets turned into a visual or another version */
+function nrExtra(build, msg) {
+  const post = document.getElementById("nr-post").value.trim();
+  if (!post) { toast("Write or validate a post first"); return; }
+  navigator.clipboard.writeText(build(post)).then(
+    () => toast(msg),
+    () => toast("Clipboard blocked — allow clipboard access for this page"));
+}
+document.getElementById("nr-info").onclick = () => nrExtra(
+  post => window.buildVisualPrompt({ kind: "infographic", post: post, title: nrStory.title }),
+  "🎨 Infographic prompt copied — paste into ChatGPT/Gemini, then generate the image");
+document.getElementById("nr-poster").onclick = () => nrExtra(
+  post => window.buildVisualPrompt({ kind: "poster", post: post, title: nrStory.title }),
+  "🖼️ Poster prompt copied — paste into an image AI");
+document.getElementById("nr-xver").onclick = () => nrExtra(
+  post => window.buildAdaptPrompt({ platform: "x", post: post, source: nrStory.source }),
+  "𝕏 X adaptation prompt copied — it may answer skip, which is a fine result");
+document.getElementById("nr-reddit").onclick = () => {
+  const community = prompt("Which subreddit, and what are its current rules?\n(Paste the rules — without them it will tell you to go read them first.)", "");
+  if (community === null) return;
+  nrExtra(post => window.buildAdaptPrompt({ platform: "reddit", post: post, community: community.trim() }),
+    "🟠 Reddit check copied — it answers draft, review_rules or skip");
 };
 document.getElementById("nr-posted").onclick = () => {
   if (!nrStory.source) { toast("This story has no link to tick off"); return; }
@@ -2827,7 +2858,7 @@ async function delPub(id) {
 }
 
 /* ---------------- Home dashboard ---------------- */
-const UPDATED = "09 Sep 2026, 03:26 UTC";
+const UPDATED = "09 Sep 2026, 03:34 UTC";
 function renderHome() {
   document.getElementById("homedatetxt").textContent =
     new Date().toLocaleDateString("en-GB",

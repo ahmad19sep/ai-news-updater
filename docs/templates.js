@@ -350,6 +350,125 @@ window.XMINI_STYLES = [
   ["Sharp Hot Take", "Opinionated but respectful"]
 ];
 /* ---- "Me" posters: Ahmad personally presents a news announcement (anchor style) ---- */
+/* ---- Optional adaptations of an APPROVED LinkedIn post. Neither of these is
+   part of the default flow: LinkedIn is the product, these are opt-in extras you
+   run on a post you already decided to publish. They adapt the same research -
+   they never start a second one, and they never add a claim the post lacks. ---- */
+window.buildAdaptPrompt = function (o) {
+  o = o || {};
+  var common = [
+"THE APPROVED POST (this is the research; do not add anything it does not already say):",
+(o.post || ""),
+"",
+(o.source ? "SOURCE FOR ATTRIBUTION: " + o.source : ""),
+"",
+"Keep every qualification the post makes. If a claim is attributed there, it stays attributed here.",
+"Never invent a number, date, feature or firsthand experience to make it fit the format.",
+  ];
+  if (o.platform === "reddit") {
+    return [
+"You are checking whether an idea is worth contributing to a specific subreddit - not distributing a post.",
+"",
+"Reddit is a place to answer a real question, not a channel to cross-post to. Blanket promotion gets removed and earns a ban, and every community has its own rules.",
+"",
+    ].concat(common).concat([
+"",
+"SUBREDDIT AND ITS CURRENT RULES: " + (o.community || "(not supplied)"),
+"",
+"DECIDE, in this order:",
+"1. If the subreddit or its current rules were not supplied, return status review_rules and say which rules you need to read first. Do not guess a community's norms.",
+"2. If the content is off-topic there, or the rules prohibit this kind of post, return status skip with the reason.",
+"3. If there is a genuine discussion or question this idea actually answers, write it as a contribution: a plain descriptive title and a comment that helps a reader, in your own words.",
+"",
+"HARD RULES: no promotional link, no 'check out my post', no upvote or engagement ask, no pretending to be a customer or a neutral bystander. Disclose any relevant affiliation plainly. Reddit punishes selling; it rewards being useful.",
+"",
+"OUTPUT EXACTLY:",
+"[[STATUS]]",
+"(draft, review_rules, or skip)",
+"[[TITLE]]",
+"(descriptive, specific, not clickbait - empty unless status is draft)",
+"[[BODY]]",
+"(the contribution itself - empty unless status is draft)",
+"[[REVIEW]]",
+"(private: which rule you checked it against, and anything the operator should confirm before posting)",
+"[[END]]",
+    ]).join("\n");
+  }
+  return [
+"Adapt one approved LinkedIn post into ONE standalone X post. This is a deliberate extra, not an automatic cross-post.",
+"",
+  ].concat(common).concat([
+"",
+"X SPECIFICS:",
+"- ONE post that stands on its own. No thread, no numbered parts, no 'a 🧵 below'.",
+"- Shorter and more direct than LinkedIn, but the meaning must survive the cut. If the idea cannot fit truthfully - if fitting it means dropping a caveat that changes what it claims - return status skip instead.",
+"- Plain language, no corporate register, no hype.",
+"- No engagement bait: no 'follow me', no 'RT if you agree', no fake urgency, no manufactured controversy.",
+"- Do not assume any rule about links being suppressed; put the source where it reads naturally, or leave it out and let the post stand alone.",
+"",
+"OUTPUT EXACTLY:",
+"[[STATUS]]",
+"(draft or skip)",
+"[[POST]]",
+"(the X post - empty if skip)",
+"[[REVIEW]]",
+"(private: what you compressed or dropped, and anything that needs the operator's approval)",
+"[[END]]",
+  ]).join("\n");
+};
+
+/* ---- Visual prompts for a finished post. These are OPTIONAL: a LinkedIn post
+   stands on its own, and no image is ever required before you can publish. Run
+   one only when a picture genuinely carries the idea better than the words.
+      kind "infographic" -> one 4:5 graphic that holds the whole point
+      kind "poster"      -> a news-style photo/headline card (13 formats, 20 designers)
+   Both build from the APPROVED post text, so a visual can never claim more than
+   the post itself already says. ---- */
+window.INFOGRAPHIC_FORMATS = [
+"STEP A — pick ONE format from this library, the one whose SHAPE fits the content best. HARD RULE: never the format you would pick by default, and never the same format twice in a row — rotate through the whole library over time so no two graphics look alike:",
+"1. HUB & SPOKE — one central circle (topic icon) with arrows out to 4-6 bordered cards; each card = bold name + \"Purpose:\" one line + \"Key features:\" 2-3 ticked bullets + \"Top uses:\" 2-3 bullets + a bordered \"Pro Tip:\" strip at the card bottom with one quoted example. White background, thin black arrows, cards outlined in ONE accent color. Best for: tools/apps/modes overview.",
+"2. JOURNEY MAP — a numbered winding dotted path (1 → N) of rounded step cards on cream paper, light hand-drawn doodle style with one small illustrated character walking the path; each card = STEP NAME in caps + a short \"DO THIS:\" paragraph + a tiny highlighted \"WHY IT WORKS:\" footnote. Best for: multi-step systems, habit guides, 8-14 tips.",
+"3. COMPARISON TABLE — a real table: 3-4 columns with header cells (name + small colored icon, each column a different accent), left criteria column in caps (PURPOSE / STRENGTHS / HOW IT WORKS / BEST FOR / LIMITATIONS), alternating dark row shading, dark charcoal background. Best for: X vs Y vs Z verdicts.",
+"4. VS ROWS — bold statement poster: huge condensed title at top with ONE word in accent color, then 4-6 stacked pill rows each \"[myth/bad thing] VS [truth/good thing]\" with small icons both sides, dark editorial background. Best for: myth-busting, mindset shifts, contrarian takes.",
+"5. THEN → TODAY LADDER — two labeled columns (\"Yesterday\" / \"Today\" or \"Old way\" / \"New way\") with an arrow between each word pair, 8-10 rows, big playful title, one bold quote line at the bottom, paper-texture background. Best for: vocabulary shifts, behavior changes, evolution of a workflow.",
+"6. NUMBERED TIP GRID — 2-3 column grid of clean numbered cards, each card = number badge + 5-8 word tip + one support line, small flat icon per card, white/cream background, 1 accent color. Best for: 6-10 independent tips.",
+"7. MIND MAP — dark rounded title box on the left, colored branch lines to 4-6 topic boxes on the right, each branch box with 2-3 short example bullets, flat design. Best for: \"types of X\" and topic breakdowns.",
+"8. PROMPT CARD — one huge quoted prompt block center-stage in a bordered card (typewriter-style font), numbered heading above it (\"1/ [what it does]\"), minimal cream background, a \"swipe →\" or \"save this ⤵\" hint in the footer corners. Best for: sharing 1-3 copyable prompts.",
+"9. CHECKLIST SHEET — clipboard/checklist style: title band at top, 6-9 rows each with a big ✓ box + short item + one-line why, one row highlighted as \"most people skip this\", subtle grid paper background. Best for: steal-my-system checklists.",
+"10. DECISION TREE — \"START HERE:\" question box at top, yes/no arrows branching down to 4-6 outcome boxes each naming the answer + one line of reason, clean flat flowchart, white background. Best for: \"which X should you pick\" content.",
+"STEP B — vary the LOOK between posts: rotate background theme (white / cream paper / dark charcoal) and rotate the single accent color (electric blue / red / amber / green) to match the mood. Never reuse the previous post's theme+accent combo.",
+"STEP C — write the final prompt in full detail: the chosen format and layout placement, every text element word for word (spell EXACTLY, the graphic dies if a word is misspelled), the [[GRAPHIC_TITLE]] as the heading, background theme, accent color, and typography (clean modern editorial, generous spacing, short legible text). Style guard: must look like a human designer made it in Canva/Figma — NO AI-gloss, NO sci-fi glow, NO glowing circuits, NO robots, NO logos/watermarks. Add ONE small, quiet handle mark in a bottom corner (\"@aixahmad\") — attribution, not a call to action. No follow/like/share line on the image."
+].join("\n");
+
+window.buildVisualPrompt = function (o) {
+  o = o || {};
+  if (o.kind === "poster") {
+    return [
+"Create ONE image for a LinkedIn post. Use ONLY what the post below actually says - never add a number, name, claim or detail that is not in it.",
+"",
+"THE POST:",
+(o.post || ""),
+"",
+"HEADLINE TO RENDER ON THE IMAGE (word for word, spelled exactly): " + (o.title || ""),
+"",
+window.HUMAN_IMAGE
+    ].join("\n");
+  }
+  return [
+"Turn the LinkedIn post below into ONE infographic that carries its whole point in a single image.",
+"Use ONLY what the post says. Never invent a step, number, feature, price or claim to fill a slot in the layout - if a section would need something the post does not support, pick a format that fits what you actually have.",
+"",
+"THE POST:",
+(o.post || ""),
+"",
+"HEADING FOR THE GRAPHIC (max 10 words, benefit-first): " + (o.title || "write one from the post"),
+"",
+window.INFOGRAPHIC_FORMATS,
+"",
+"Output ONLY the finished image-generation prompt, ready to paste into an image AI. No preamble."
+  ].join("\n");
+};
+
 window.buildMePosterPrompt = function (o) {
   o = o || {};
   return [

@@ -317,11 +317,170 @@ Every text MUST be under 280 characters. score / post_quality_score = 1-10.
 
 ---
 
-## 6) Your own poster (Me tab)  (`buildMePosterPrompt`)
+## 6) Infographic from an approved post (optional)  (`buildVisualPrompt`)
+
+```text
+Turn the LinkedIn post below into ONE infographic that carries its whole point in a single image.
+Use ONLY what the post says. Never invent a step, number, feature, price or claim to fill a slot in the layout - if a section would need something the post does not support, pick a format that fits what you actually have.
+
+THE POST:
+<<YOUR APPROVED LINKEDIN POST>>
+
+HEADING FOR THE GRAPHIC (max 10 words, benefit-first): <<GRAPHIC HEADING>>
+
+STEP A — pick ONE format from this library, the one whose SHAPE fits the content best. HARD RULE: never the format you would pick by default, and never the same format twice in a row — rotate through the whole library over time so no two graphics look alike:
+1. HUB & SPOKE — one central circle (topic icon) with arrows out to 4-6 bordered cards; each card = bold name + "Purpose:" one line + "Key features:" 2-3 ticked bullets + "Top uses:" 2-3 bullets + a bordered "Pro Tip:" strip at the card bottom with one quoted example. White background, thin black arrows, cards outlined in ONE accent color. Best for: tools/apps/modes overview.
+2. JOURNEY MAP — a numbered winding dotted path (1 → N) of rounded step cards on cream paper, light hand-drawn doodle style with one small illustrated character walking the path; each card = STEP NAME in caps + a short "DO THIS:" paragraph + a tiny highlighted "WHY IT WORKS:" footnote. Best for: multi-step systems, habit guides, 8-14 tips.
+3. COMPARISON TABLE — a real table: 3-4 columns with header cells (name + small colored icon, each column a different accent), left criteria column in caps (PURPOSE / STRENGTHS / HOW IT WORKS / BEST FOR / LIMITATIONS), alternating dark row shading, dark charcoal background. Best for: X vs Y vs Z verdicts.
+4. VS ROWS — bold statement poster: huge condensed title at top with ONE word in accent color, then 4-6 stacked pill rows each "[myth/bad thing] VS [truth/good thing]" with small icons both sides, dark editorial background. Best for: myth-busting, mindset shifts, contrarian takes.
+5. THEN → TODAY LADDER — two labeled columns ("Yesterday" / "Today" or "Old way" / "New way") with an arrow between each word pair, 8-10 rows, big playful title, one bold quote line at the bottom, paper-texture background. Best for: vocabulary shifts, behavior changes, evolution of a workflow.
+6. NUMBERED TIP GRID — 2-3 column grid of clean numbered cards, each card = number badge + 5-8 word tip + one support line, small flat icon per card, white/cream background, 1 accent color. Best for: 6-10 independent tips.
+7. MIND MAP — dark rounded title box on the left, colored branch lines to 4-6 topic boxes on the right, each branch box with 2-3 short example bullets, flat design. Best for: "types of X" and topic breakdowns.
+8. PROMPT CARD — one huge quoted prompt block center-stage in a bordered card (typewriter-style font), numbered heading above it ("1/ [what it does]"), minimal cream background, a "swipe →" or "save this ⤵" hint in the footer corners. Best for: sharing 1-3 copyable prompts.
+9. CHECKLIST SHEET — clipboard/checklist style: title band at top, 6-9 rows each with a big ✓ box + short item + one-line why, one row highlighted as "most people skip this", subtle grid paper background. Best for: steal-my-system checklists.
+10. DECISION TREE — "START HERE:" question box at top, yes/no arrows branching down to 4-6 outcome boxes each naming the answer + one line of reason, clean flat flowchart, white background. Best for: "which X should you pick" content.
+STEP B — vary the LOOK between posts: rotate background theme (white / cream paper / dark charcoal) and rotate the single accent color (electric blue / red / amber / green) to match the mood. Never reuse the previous post's theme+accent combo.
+STEP C — write the final prompt in full detail: the chosen format and layout placement, every text element word for word (spell EXACTLY, the graphic dies if a word is misspelled), the [[GRAPHIC_TITLE]] as the heading, background theme, accent color, and typography (clean modern editorial, generous spacing, short legible text). Style guard: must look like a human designer made it in Canva/Figma — NO AI-gloss, NO sci-fi glow, NO glowing circuits, NO robots, NO logos/watermarks. Add ONE small, quiet handle mark in a bottom corner ("@aixahmad") — attribution, not a call to action. No follow/like/share line on the image.
+
+Output ONLY the finished image-generation prompt, ready to paste into an image AI. No preamble.
+```
+
+---
+
+## 7) Poster from an approved post (optional)  (`buildVisualPrompt`)
+
+```text
+Create ONE image for a LinkedIn post. Use ONLY what the post below actually says - never add a number, name, claim or detail that is not in it.
+
+THE POST:
+<<YOUR APPROVED LINKEDIN POST>>
+
+HEADLINE TO RENDER ON THE IMAGE (word for word, spelled exactly): <<HEADLINE ON THE IMAGE>>
+
+YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
+THE STUDIO HAS ASSIGNED THIS POST TO: YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.
+Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
+THE FULL ROSTER (context for who they are):
+1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
+2. DIEGO — tabloid maximalist: loud condensed caps, dramatic crops, red/yellow highlight bars.
+3. YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.
+4. TOMMY — social-native: sticker-style cutouts with white outlines, playful tilted elements, bold energy (still clean).
+5. INGRID — brutalist: raw black/white, harsh contrast, mono-spaced type, one neon accent.
+6. SAM — data-first: the number IS the design; huge stats, clean chart elements, sharp annotations.
+7. LENA — cinematic: film-still lighting, moody depth of field, subtle grain, headline like movie titles.
+8. KOFI — flat-vector infographic: friendly icons, rounded cards, soft palette + one strong accent.
+9. PRIYA — newspaper heritage: column rules, serif headlines, ink-on-paper texture, modernized.
+10. MARCO — collage punk: torn paper edges, tape, highlighter scribbles — controlled chaos.
+11. AISHA — luxury tech: deep charcoal, gold or white type, premium product-shot lighting.
+12. NOAH — photojournalist: the photo carries everything; minimal caption-style type at the bottom.
+13. ELIF — geometric modernist: diagonal splits, big circles, bold shapes framing the photo.
+14. JUN — retro print: 70s-90s print palettes, halftone dots, vintage type pairings.
+15. CARLA — corporate clean: airy blue/white, rounded cards, trustworthy business look.
+16. DEV — internet-fluent: split reaction panels, bold white captions, meme structure without cringe.
+17. SOFIA — soft editorial: warm cream tones, gentle shadows, friendly rounded type.
+18. RUSLAN — kinetic: tilted frames, motion-blur edges, speed lines, urgency in everything.
+19. AMARA — human-first: candid people moments, warm natural light, headline that reads like a caption.
+20. OWEN — schematic: blueprint lines, labels, annotation arrows, precise engineer aesthetic (no sci-fi glow).
+Whoever designs it, the studio's base rules below still apply (realism, exact headline, legibility, footer).
+
+ACT LIKE A NEWS ART DIRECTOR. Do NOT use one fixed layout for every story — analyze first, then design.
+STEP 1 — classify the story: funding/numbers, partnership/MoU, product launch, policy/government, people (hire/founder/quote), research/report, controversy/drama, how-to/list, or AHMAD'S OWN announcement/opinion/tip (then use format 9).
+STEP 2 — pick the ONE poster format that fits THIS story best. HARD RULE: never use the same format two posts in a row — rotate through ALL 13 formats over time so the feed never looks repetitive. If a format was likely used recently for a similar story, pick the next-best fit instead:
+1. MARKER-HIGHLIGHT PHOTO — real photo of the actual event/subject (signing ceremony, stage, office); big bold headline across the lower half; the 1-2 KEY phrases sit on solid highlight bars (yellow or one brand color) behind the words. Best for partnerships, launches, announcements.
+2. LOWER-THIRD BAND — real photo top ~70% (podium, flags, office, market); solid dark band bottom ~30% with a clean bold headline, key words in ONE accent color (green or blue), thin accent line on the left. Best for policy, government, economy, business.
+3. TOP-HEADLINE CARD — the headline sits at the TOP with a solid colored highlight bar behind the opening words, and the photo/scene fills the area below. Best for tech/platform news and reports.
+4. PEOPLE / QUOTE CARD — flat vivid single-color background; cut-out photo of the person with a white sticker outline; large quote marks with a short quote or announcement; their name + role in bold; a small badge tag on top (FUNDING / NEW HIRE / BIG MOVE). Best for hires, founder quotes, people stories.
+5. PHOTO CAPTION CARD — natural candid photo of the person or scene; simple bold left-aligned caption text in the lower third over a soft dark gradient; understated, editorial. Best for funding rounds and profiles.
+6. CATEGORY-TAG BOLD CAPS — dark moody photo; a small centered category chip (AI / STARTUPS / FUNDING) with a thin line; ALL-CAPS condensed white headline below it. Best for dramatic or viral stories.
+7. BIG-NUMBER POSTER — one huge number dominates the design ($28M, 20,000, 15 YEARS) with a short supporting headline under it. Best when the number IS the story.
+8. CUTOUT VIRAL CARD — cut-out photo of the KEY PERSON in the story, chest-up, centered over a dark blurred background; one or two CIRCLE inset images beside them (the product or thing the story is about); below, a thin divider line, then a big ALL-CAPS condensed headline filling the lower third: white text with the 2-3 most important words in the ACCENT COLOR; small 'SWIPE FOR MORE ➜' hint at the very bottom if it's a carousel cover. High-energy but clean. Best for big-company drama, leaks, viral moments, CEO/person-centered stories.
+9. AHMAD PERSONAL BRAND CARD — uses AHMAD'S OWN PHOTO (attached/uploaded in this chat). His FACE must stay exactly as the attached photo — never regenerate or change it — but VARY HIS POSE AND SCENE to match the post (pick the one that fits, rotate between posts): working on a laptop (productivity/tools), reading a book or tablet (learning/explainers), writing notes on paper (tips/guides), pointing toward the headline (announcements), arms crossed with a confident smile (opinions/hot takes), hand on chin thinking (questions/debates), celebrating fist-up (milestones/wins), walking with a backpack in a city or airport (events/travel/future-of-work), late-night desk with coffee and warm lamp light (build-in-public). Layout: Ahmad cut out on one side, name 'AHMAD' bold + '@aixahmad' small under it, the headline/tip on the other side in clean editorial type with key words in the accent color, optional small circle inset of the tool/product. Best for: Ahmad's own announcements, opinions, my-take posts, tips, milestones. START the prompt with: 'Use the attached photo of Ahmad — keep his face exactly as provided, adapt only the pose, outfit and scene as described.'
+10. BREAKING STRIP — a bold red 'BREAKING' tag strip in the top corner, full-bleed real photo of the subject, thick dark lower band with a tight, urgent headline; key word in the accent color. Best for urgent big announcements and just-happened news.
+11. VS / MATCHUP CARD — split screen: the two rivals (tools, companies, models) on the left and right with their key person or product photo, names under each, a big 'VS' badge in the middle, and the question/headline in a band below. Best for comparisons, rivalries, benchmark fights.
+12. THEN-VS-NOW TIMELINE — left side: the old state with its year label (muted/desaturated photo); right side: today with its year (vivid photo); a bold arrow between them; headline underneath. Best for progress stories, 'how far AI has come', anniversaries.
+13. SOCIAL-POST QUOTE CARD — the key line presented as a clean rounded social-post card floating on a flat bold background: small round avatar circle, name + handle, the quote/fact in large text inside the card, light drop shadow. Use Ahmad's avatar/name ONLY for Ahmad's own takes — never fabricate a post screenshot from a real person. Best for hot takes, one-line truths, striking stats.
+STEP 3 — write ONE detailed image prompt for the chosen format: the exact realistic scene (real people, real office/lab/podium/product, natural lighting, realistic shadows and textures — like a designer composed it in Photoshop/Figma, NOT an AI poster: no sci-fi glow, no glowing circuits, no floating holograms, no random symbols), the exact layout placement, ONE accent color, and clean modern editorial typography with proper spacing.
+ACCENT COLOR: pick ONE per poster and VARY it between posts — electric blue, red, yellow, or green; match the story's mood (red = drama/warning/leak, yellow = money/opportunity, blue = tech/product, green = growth/policy). Never more than one accent color on a poster.
+ALWAYS: vertical 4:5. Render the exact headline provided, word for word, spelled perfectly. Add ONE small, subtle footer line at the very bottom: 'Follow @aixahmad for more — like ❤️ & share' — small, clean, never competing with the headline. No other text, no logos, no watermarks. Headline large and perfectly legible on a phone.
+```
+
+---
+
+## 8) X version of an approved post (optional)  (`buildAdaptPrompt`)
+
+```text
+Adapt one approved LinkedIn post into ONE standalone X post. This is a deliberate extra, not an automatic cross-post.
+
+THE APPROVED POST (this is the research; do not add anything it does not already say):
+<<YOUR APPROVED LINKEDIN POST>>
+
+SOURCE FOR ATTRIBUTION: <<SOURCE LINK>>
+
+Keep every qualification the post makes. If a claim is attributed there, it stays attributed here.
+Never invent a number, date, feature or firsthand experience to make it fit the format.
+
+X SPECIFICS:
+- ONE post that stands on its own. No thread, no numbered parts, no 'a 🧵 below'.
+- Shorter and more direct than LinkedIn, but the meaning must survive the cut. If the idea cannot fit truthfully - if fitting it means dropping a caveat that changes what it claims - return status skip instead.
+- Plain language, no corporate register, no hype.
+- No engagement bait: no 'follow me', no 'RT if you agree', no fake urgency, no manufactured controversy.
+- Do not assume any rule about links being suppressed; put the source where it reads naturally, or leave it out and let the post stand alone.
+
+OUTPUT EXACTLY:
+[[STATUS]]
+(draft or skip)
+[[POST]]
+(the X post - empty if skip)
+[[REVIEW]]
+(private: what you compressed or dropped, and anything that needs the operator's approval)
+[[END]]
+```
+
+---
+
+## 9) Reddit community check (optional)  (`buildAdaptPrompt`)
+
+```text
+You are checking whether an idea is worth contributing to a specific subreddit - not distributing a post.
+
+Reddit is a place to answer a real question, not a channel to cross-post to. Blanket promotion gets removed and earns a ban, and every community has its own rules.
+
+THE APPROVED POST (this is the research; do not add anything it does not already say):
+<<YOUR APPROVED LINKEDIN POST>>
+
+
+
+Keep every qualification the post makes. If a claim is attributed there, it stays attributed here.
+Never invent a number, date, feature or firsthand experience to make it fit the format.
+
+SUBREDDIT AND ITS CURRENT RULES: <<SUBREDDIT + ITS CURRENT RULES>>
+
+DECIDE, in this order:
+1. If the subreddit or its current rules were not supplied, return status review_rules and say which rules you need to read first. Do not guess a community's norms.
+2. If the content is off-topic there, or the rules prohibit this kind of post, return status skip with the reason.
+3. If there is a genuine discussion or question this idea actually answers, write it as a contribution: a plain descriptive title and a comment that helps a reader, in your own words.
+
+HARD RULES: no promotional link, no 'check out my post', no upvote or engagement ask, no pretending to be a customer or a neutral bystander. Disclose any relevant affiliation plainly. Reddit punishes selling; it rewards being useful.
+
+OUTPUT EXACTLY:
+[[STATUS]]
+(draft, review_rules, or skip)
+[[TITLE]]
+(descriptive, specific, not clickbait - empty unless status is draft)
+[[BODY]]
+(the contribution itself - empty unless status is draft)
+[[REVIEW]]
+(private: which rule you checked it against, and anything the operator should confirm before posting)
+[[END]]
+```
+
+---
+
+## 10) Your own poster (Me tab)  (`buildMePosterPrompt`)
 
 ```text
 YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
-THE STUDIO HAS ASSIGNED THIS POST TO: DEV — internet-fluent: split reaction panels, bold white captions, meme structure without cringe.
+THE STUDIO HAS ASSIGNED THIS POST TO: LENA — cinematic: film-still lighting, moody depth of field, subtle grain, headline like movie titles.
 Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
 THE FULL ROSTER (context for who they are):
 1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
