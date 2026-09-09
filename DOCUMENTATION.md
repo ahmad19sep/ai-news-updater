@@ -1,15 +1,17 @@
 # AI Radar Studio — Documentation
 
-*An AI-powered newsroom + social-media content engine, built for the "AI x Ahmad" (@aixahmad) brand.*
-*Runs on $0 infrastructure. One person can operate a full multi-platform content operation from it.*
+*An AI news radar and a LinkedIn writing desk, built for the "AI x Ahmad" (@aixahmad) brand.*
+*Runs on $0 infrastructure. One person operates the whole thing.*
 
 ---
 
 ## 1. What it is
 
-AI Radar Studio automatically **collects AI news from 70+ sources every hour**, scores and de-duplicates it, and turns the best stories into **ready-to-publish content** for X (Twitter), LinkedIn, Instagram, Facebook, TikTok, WhatsApp and YouTube — articles, human-sounding posts, replies, carousels and designed poster images — while **learning from real engagement data** which content grows the account.
+AI Radar Studio **collects AI news from ~90 sources every hour**, scores and de-duplicates it, and helps turn a selected story into **one useful LinkedIn post** — built only from facts the operator actually supplies, with the sources kept visible.
 
-Everything is human-approved: the AI drafts, the operator reviews and posts. Nothing auto-posts.
+**LinkedIn is the only active publishing workflow.** X is an optional channel you adapt into deliberately; Reddit is for genuine participation, not cross-posting. Facebook, Instagram, TikTok, WhatsApp and YouTube outputs were retired in September 2026 — their prompts, buttons and handlers are gone, not just hidden.
+
+Nothing posts by itself. The AI drafts, the operator reviews and posts. Parsing a draft, copying it, or opening LinkedIn changes nothing: only an explicit "✓ Mark as posted" takes a story off the lists.
 
 ---
 
@@ -20,95 +22,99 @@ Everything is human-approved: the AI drafts, the operator reviews and posts. Not
 | **Studio (the app)** | GitHub Pages | https://ahmad19sep.github.io/ai-news-updater/studio.html | $0 |
 | **Public news website** | GitHub Pages | https://ahmad19sep.github.io/ai-news-updater/ | $0 |
 | **Data & sync** | Firebase Realtime DB | `aixahmad-studio-default-rtdb.asia-southeast1` | $0 (free tier) |
-| **AI generation API** | Cloudflare Worker | `x-writer.ahmadwork665.workers.dev` (holds the Anthropic key server-side) | $0 host + ~$0.01/generation |
-| **Automation (crons)** | GitHub Actions | hourly news fetch · Caira pull · 6-hourly Pulse | $0 |
+| **Optional generation API** | Cloudflare Worker | holds the Anthropic key server-side | $0 host + ~$0.01/generation |
+| **Automation (crons)** | GitHub Actions | hourly news fetch · 6-hourly Pulse | $0 |
 | **Browser extension** | Chrome (unpacked) | `x-extension/` folder in the repo | $0 |
-| **Editor workflow (Caira)** | Vercel (separate app) | videoflow-sigma.vercel.app | external |
 
-**How deployment works:** the website is 100% static. A Python generator (`generate_site.py` / `generate_public.py`) builds HTML into the repo's **`docs/` folder**; every push to `main` makes GitHub Pages rebuild and serve it automatically (~1 minute). No servers to maintain.
+**How deployment works:** the site is 100% static. A Python generator (`generate_site.py` / `generate_public.py`) builds HTML into the repo's **`docs/` folder**; every push to `main` makes GitHub Pages rebuild and serve it (~1 minute). No servers to maintain.
 
-**How to verify it's live:** open the URLs above, or GitHub repo → **Settings → Pages** ("Your site is live at…"), or the **Actions** tab → "pages build and deployment" (green check = deployed).
+**How to verify it's live:** open the URLs above, or GitHub repo → **Settings → Pages**, or the **Actions** tab → "pages build and deployment" (green check = deployed).
 
 ---
 
 ## 3. Architecture (the big picture)
 
 ```
-70+ RSS feeds + NewsData.io + HuggingFace papers
+~90 RSS feeds + NewsData.io + HuggingFace papers
         │  (GitHub Action, hourly)
         ▼
- fetcher.py → SQLite (news.db) → scoring, de-dup, 7-day purge
-        │
-        ├─► generate_site.py  → docs/studio.html   (the Studio app)
-        ├─► generate_public.py→ docs/index.html    (public news site)
-        │
-        ├─► caira.py: stories with score ≥ 10 auto-dispatch to Caira
-        │   (load-balanced to the editor with fewest open tasks);
-        │   approved work returns to the Studio's "Ready to Post"
+ fetcher.py → SQLite (news.db) → filter, fuzzy de-dup, score, 30-day purge
+        │                         (30 days because the trend view compares
+        │                          this week against the week before it)
+        ├─► generate_site.py   → docs/studio.html   (the Studio app)
+        ├─► generate_public.py → docs/index.html    (public news site)
+        └─► digest.py          → docs/digests/      (weekly digest)
         ▼
  GitHub Pages serves everything
 
  Firebase Realtime DB = cross-device state:
-   done/posted stories · published articles · X reply captures &
-   performance · repurpose captures & performance · write drafts &
-   performance · Caira queue · ready-to-post
+   done/posted stories · published articles · repurpose captures &
+   performance · write drafts & performance · synced settings
+   (audience, personal note)
 
- Cloudflare Worker = the only place the Anthropic API key exists.
- The Studio sends a prompt → Worker calls Claude (Sonnet) → returns text.
+ Cloudflare Worker (optional) = the only place an API key exists.
+ The Studio sends a prompt → Worker calls the model → returns text.
  The key never touches the browser, extension, or repo.
 ```
+
+The default path needs no API at all: the Studio copies a prompt, you paste it into ChatGPT / Gemini / Claude, and paste the answer back.
 
 ---
 
 ## 4. The Studio, tab by tab
 
 ### 🏠 Home
-Today's top pick (freshest high-scoring story), **"Post on X today"** widget (3 ready text posts, rotated daily, one-click post), and quick stats.
+Today's top pick (freshest high-scoring story), a ready-post widget, and quick stats.
 
 ### 📰 News / Popular
-The scored, de-duplicated feed. Each story: publish to the website, open the **Newsroom**, or mark done. Once a story (or any duplicate of it) is used anywhere, it's ticked done **on every device**.
+The scored, de-duplicated feed. Each story can open the **LinkedIn draft**, be published to the public website, or be marked done. Once a story (or any duplicate of it) is used, it's ticked on **every device**.
 
-### 🗞 Newsroom (per story)
-One **master prompt** → paste into Claude/ChatGPT → paste the output back → **Parse** auto-splits it into: headline, 500-700-word article, 2 designed image prompts, and platform-native posts for LinkedIn / X / Reddit / Facebook / Instagram / WhatsApp / YouTube — each with a copy-&-open button. Publishing pushes the article to the public website and links all social posts to it.
-Also: **💎 Value post** — turns news into *useful* content (how-to steps, tips carousel, infographic + captions for every platform), the highest-reach format.
+### in LinkedIn draft (per story)
+The core workflow. One story → one post:
 
-### ✅ Ready to Post
-Approved work arriving from **Caira** (the editor app on Vercel). Two-way flow: high-scoring stories are auto-assigned to whichever editor has the fewest open tasks; finished, approved posts appear here with per-platform post buttons.
+1. **Paste the facts** — a few lines from the article. No AI can open a link, so this is what the post is genuinely built from.
+2. **Pick a mode** — **🧠 Insight** (one supported development and the specific professional implication) or **🛠️ Practical** (one action, decision checklist, evaluation question or tradeoff the source actually supports). Both copy a prompt.
+3. **Paste the output back → Validate.** The `[[MARKER]]` response splits into the post, its sources, and **private review notes** that never leave the Studio (which sentence rests on which fact, what is interpretation, what needs approval).
+4. **Copy post → Open LinkedIn → ✓ Mark as posted.**
 
-### ↩️ X Replies
-Capture any X post (browser extension or paste on mobile) → **⚡ one click** generates the 2 best replies via the API (the AI first classifies the post — question/news/hot-take/joke — and answers accordingly). Used replies are logged and scored so the dashboard learns **which reply styles grow the account**.
+If only a headline is supplied, the writer returns `needs_input` and says what it needs rather than inventing details. If there's no worthwhile angle for the audience it can return `skip` — no post is a valid outcome. Firsthand claims ("I tested this") appear only when a real personal note is supplied; otherwise the post stays an attributed explanation. No forced follow/like CTA, no mandatory hashtags or questions.
+
+Audience and personal note are remembered in synced settings, so they're set once.
 
 ### ♻️ Repurpose
-Capture a post you admire on X or LinkedIn → the AI decides the smartest move (rewrite as your own, comment, question, hot take…) and writes original X + LinkedIn + comment versions — with strict no-plagiarism rules. Includes image capture, own-brand poster maker, and its own performance tracking.
+Capture a post you admire on X or LinkedIn (extension or paste) → the AI decides the smartest move (rewrite as your own, comment, question, hot take…) and writes original versions, with strict no-plagiarism rules. Has its own performance tracking.
 
-### ✍️ Write (Anthropic Write Engine)
-Short, original text posts that grow an X account. 15 named presets (Ask a Real Question, Hot Take, Builder Thought, Anti-Hype Check…), 7 style profiles (Ahmad Natural, Funny Dev, Sharp Hot Take…), one-click ⚡ generation, refine buttons (Funnier / Sharper / Simpler / To question), quality + copy-risk badges, drafts synced across devices, and a performance dashboard with "what to post next" suggestions.
+### ✍️ Write
+Short original posts from a seed idea: named presets, style profiles, one-click ⚡ generation via the optional Worker (or copy-paste), refine buttons, drafts synced across devices, and a performance dashboard. Still X-shaped in its formatting — a LinkedIn-native rewrite is the obvious next job.
 
 ### 💡 Inspire
-A curated bank of 26 proven, useful content formats (interactive posts, save-worthy lists, prompt-of-the-day, money angles, explainers) **plus** today's top news auto-rewritten into useful angles ("new model → 5 things you can do with it"). Every idea: ✍️ Write it, 💎 make a value pack, or 📰 open the Newsroom.
+A bank of proven content formats plus today's top news rewritten into useful angles. Every idea can go to ✍️ Write, the 🛠️ Practical prompt, or the LinkedIn draft.
 
 ### ⭐ Me
-Personal-brand posters: **the operator's own face presents the news** (news-anchor style). Reaction pose auto-matches the story mood (shocked for leaks, pointing for launches…). Face is taken from the operator's real photo — never AI-generated.
+Personal-brand posters: the operator's own face presents the news. The face comes from a real photo — never AI-generated.
 
 ### 📈 Trends / Pulse / Research
-Rising topic signals week-over-week, what people are using/searching (Pulse), and daily AI papers for learning.
+Rising topic signals week-over-week; what people are using, searching and struggling with (Pulse, from Reddit / HN / YouTube / Google); and daily AI papers for learning. Pulse *reads* those platforms as signal sources — reading a platform is not publishing to it.
 
 ---
 
 ## 5. Content intelligence (what makes output good)
 
-- **Human voice engine** — every prompt enforces 20+ rules that kill "AI-sounding" text: varied sentence rhythm, one idea per post, personal opinion ("my take…"), banned AI phrases (game-changer, seamless, delve…), banned AI sentence patterns, per-platform audience voices (X = builders scrolling fast; Facebook = explain to a friend; LinkedIn = professionals, no corporate speak).
-- **X algorithm awareness** — X posts are text-only (links are suppressed by X); the article link goes in the **first reply** via a dedicated 🧵 button.
-- **Design studio** — image prompts are generated by a virtual studio of **20 named designers** with distinct signatures (Swiss minimalist, tabloid, cinematic, brutalist, data-first…), rotated **in code** per prompt, across **13 poster formats** (marker-highlight, breaking strip, VS card, big-number, cutout viral card, then-vs-now…) with mood-matched accent colors. Result: no two posters look alike.
-- **Performance learning** — every posted reply/post can be scored (likes, replies ×3, reposts ×4, bookmarks ×5, profile clicks ×6, follows ×10). Dashboards show the best styles, presets, posting times, emoji impact, and top-20 posts, and recommend what to post more of.
+- **Evidence before style.** The writer is told it cannot open links and must never pretend otherwise. Every factual claim has to come from supplied material; a vendor's claim stays attributed to the vendor; timing is checked separately from when the story was collected, so an older piece is never framed as breaking. Missing evidence produces a question, not a guess.
+- **Human voice engine** — rules that kill "AI-sounding" text: varied sentence rhythm, one idea per post, honest interpretation, banned AI phrases (game-changer, seamless, delve…) and banned sentence patterns ("It's not just X, it's Y").
+- **No engagement bait.** No forced "follow me", no "repost ♻️", no "comment YES", no fake urgency. A question at the end is an editorial choice, only when an answer is actually wanted.
+- **Design studio** — image prompts are generated by a virtual studio of **20 named designers** with distinct signatures, rotated in code per prompt across **13 poster formats** with mood-matched accent colors, so no two posters look alike.
+- **Performance learning** — posted content can be scored and the dashboards show what works. Missing metrics are missing, not zero.
 
 ---
 
 ## 6. Security model
 
-- **No API keys anywhere public.** The Anthropic key lives only in the Cloudflare Worker's encrypted environment; GitHub Actions secrets hold the Caira/NewsData keys. The static site and extension contain zero secrets.
-- The Firebase URL is public by design (public-rules realtime DB for a single-operator tool); all writes are operator-initiated.
-- The browser extension captures **only on click** — no background scraping, no automation against X's rules, no auto-posting anywhere.
+- **No API keys anywhere public.** Model keys live only in the Cloudflare Worker's encrypted environment; GitHub Actions secrets hold the NewsData key, the site passcode and the Firebase URL. The static site and extension contain zero secrets.
+- The Studio's passcode is a **screen gate**: only the SHA-256 hash ships in the page, and unlocking derives the Firebase board address from the code. It controls what the *page* shows.
+- ⚠️ **Known gap: the Firebase rules are permissive.** Reads and writes go directly to the Realtime DB unauthenticated, so the screen gate is not database authorization — anyone who learns a path can write to it. Owner-scoped auth with server-enforced rules is the outstanding security job on this project. Treat everything in Firebase as operator-visible convenience state, not private data.
+- The browser extension captures **only on click** — no background scraping, no automation against platform rules, no auto-posting anywhere.
+- The optional X Worker rejects unknown actions; a request with a missing action can no longer fall through into publishing.
 
 ---
 
@@ -117,21 +123,21 @@ Rising topic signals week-over-week, what people are using/searching (Pulse), an
 | Item | Cost |
 |---|---|
 | Hosting, automation, database, extension | **$0** |
-| AI generation (⚡ buttons, Claude Sonnet via Worker) | ~**$0.005–0.02 per generation** (a few dollars/month at heavy use) |
-| Optional: copy-paste mode into Claude/ChatGPT apps | $0 |
+| Optional ⚡ generation via the Worker | ~**$0.005–0.02 per generation** |
+| Default copy-paste mode into Claude/ChatGPT/Gemini | $0 |
 
 ---
 
 ## 8. 5-minute demo script
 
-1. **Home** — show today's top pick + the 3 ready "Post on X today" posts (one-click to X).
-2. **News → Newsroom** — pick a story, copy master prompt → paste AI output → **Parse** → show article + every platform's post + 2 designed image prompts → platform buttons.
-3. **💎 Value post** — same story as a how-to/infographic pack (slides + captions + image prompt).
-4. **✍️ Write** — type an idea, press **⚡ Generate**, show Best + backup with quality badges, press "🔥 To hot take".
-5. **↩️ X Replies** — paste any tweet, **⚡ Reply**, show the 2 tailored replies.
-6. **⭐ Me** — "Poster with me" on a headline (personal-brand news card).
-7. **📊 Performance** — show the learning loop (best styles, suggestions).
-8. Finish on the **public website** — the audience-facing side, auto-updated hourly.
+1. **Home** — today's top pick and quick stats.
+2. **News → in LinkedIn draft** — pick a story, paste two sentences from the source, copy the **Insight** prompt, paste the AI's answer back, **Validate** → post + sources + private review notes.
+3. **Show the guard rails** — clear the pasted facts and run it again: the writer answers `needs_input` and asks instead of inventing.
+4. **Copy post → Open LinkedIn** — and point out that neither marks the story done; only ✓ does.
+5. **🛠️ Practical mode** on the same story — a checklist or decision question instead of commentary.
+6. **⭐ Me** — a personal-brand poster for the same headline.
+7. **📈 Pulse / Trends** — where the next story ideas come from.
+8. Finish on the **public website** — the audience-facing side, rebuilt hourly.
 
 ---
 
@@ -139,12 +145,20 @@ Rising topic signals week-over-week, what people are using/searching (Pulse), an
 
 | Path | Purpose |
 |---|---|
-| `fetcher.py`, `config.py`, `database.py` | hourly news collection, scoring, retention |
-| `generate_site.py` | builds the Studio (docs/studio.html) |
-| `generate_public.py` | builds the public site (docs/index.html) |
-| `docs/templates.js` | ALL prompt engineering (voice rules, engines, design studio) |
-| `caira.py` + `CAIRA_INTEGRATION.md` | two-way editor-app integration |
-| `x-extension/` | Chrome extension (capture → Firebase) |
-| `.github/workflows/` | fetch (hourly) · caira-pull (5 min) · pulse (6 h) |
-| `PROMPTS.md` | human-readable copy of every prompt |
-| `XMINI_API.md` | Cloudflare Worker setup guide |
+| `fetcher.py`, `filters.py`, `scoring.py`, `config.py`, `database.py` | hourly collection, filtering, de-dup, scoring, retention |
+| `main.py`, `notifier.py`, `digest.py` | run loop, phone alerts, weekly digest |
+| `generate_site.py` | builds the Studio (`docs/studio.html`) |
+| `generate_public.py` | builds the public site (`docs/index.html`) |
+| `docs/templates.js` | **ALL prompt engineering** — authored source; `docs/studio.html` is generated |
+| `dump_prompts.js` | regenerates `PROMPTS.md` from `docs/templates.js` |
+| `generate_pulse.py`, `collectors/`, `analyzer/` | the Pulse signal pipeline |
+| `x-worker/` | optional Cloudflare Worker for X (draft or post; never on an unknown action) |
+| `x-extension/` | Chrome extension (capture → Firebase, on click only) |
+| `.github/workflows/` | fetch (hourly) · pulse (6 h) |
+| `smoke_test.js`, `ui_test.js` | prompt-library checks · full UI walk-through in JSDOM |
+| `PROMPTS.md` | generated, human-readable copy of every prompt |
+| `XMINI_API.md`, `X-PIPELINE-SETUP.md`, `PULSE-SETUP.md` | setup guides |
+
+---
+
+*Last substantive update: September 2026 — the LinkedIn-first refactor. Retired in that pass: the multi-platform Newsroom, the Caira editor pipeline and its workflow, the publish board / create wizard / per-editor workspaces / team chat, the X Replies tab, and the Facebook / Instagram / TikTok / WhatsApp / YouTube output paths.*
