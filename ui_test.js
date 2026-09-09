@@ -111,6 +111,16 @@ setTimeout(() => {
     d.getElementById("nrmodal").hidden = false;   // leave the draft open for the checks below
   });
 
+  check("the feed summary pre-fills the source facts", () => {
+    w.openNewsroom({ t: "Story with a summary", u: "https://example.com/s",
+                     sm: "The company said the agent runs on-device and keeps data local." });
+    const pre = d.getElementById("nr-excerpt").value;
+    if (!pre.includes("runs on-device")) throw new Error("feed summary did not pre-fill the facts box");
+    w.openNewsroom({ t: "Story without one", u: "https://example.com/n" });
+    if (d.getElementById("nr-excerpt").value !== "") throw new Error("stale facts carried into the next story");
+    w.openNewsroom(story);   // back to the real story for the checks below
+  });
+
   check("insight prompt carries the pasted evidence + audience", () => {
     d.getElementById("nr-excerpt").value = "Example Corp said review stays manual.";
     d.getElementById("nr-aud").value = "engineering leads";

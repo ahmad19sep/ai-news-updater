@@ -176,11 +176,12 @@ window.buildXPrompt = function (o) {
    facts we actually supplied — never from a link the AI cannot open. ===== */
 window.LINKEDIN_CONTRACT = [
 "EVIDENCE RULES — these come first, before style:",
-"- Use ONLY the facts supplied in this prompt. You cannot open links. Never pretend you read the source.",
+"- FIRST, if you have web browsing or any retrieval tool: OPEN the source link below and read the article. Write from what you actually read, and say in [[REVIEW]] that you retrieved it.",
+"- If you have no browsing tool, or the fetch fails, or the page is paywalled or empty: say so plainly in [[REVIEW]] and work only from the facts supplied below. Never describe a page you did not actually read — a headline is not an article, and a guess dressed as a summary is the one thing you must not produce.",
 "- Never invent numbers, quotes, dates, prices, features, benchmarks, study results, client names or outcomes.",
 "- A company's own claim stays attributed to them (\"OpenAI says…\", \"according to the announcement\"). A vendor claim is not independent proof.",
 "- Check timing separately from when the story was collected. If the supplied material does not establish WHEN this happened, do not write new, breaking, today, just launched or latest. An older piece can still be worth discussing — as a dated argument, not fresh news.",
-"- A headline plus a URL is NOT enough to write anything specific. In that case return [[STATUS]] needs_input and say exactly what you need.",
+"- If you could not read the source AND no facts were pasted below, a headline alone is not enough to write anything specific: return [[STATUS]] needs_input and say exactly what you need. Do not use needs_input as an excuse when you CAN retrieve the page — read it first.",
 "- If there is no genuinely useful angle here for the audience, return [[STATUS]] skip with a one-line reason. Writing nothing is a good outcome, not a failure.",
 "- Do not turn an unsupported fact into an opinion to make it publishable. \"I think X\" does not fix missing evidence for X.",
 "",
@@ -235,7 +236,7 @@ modeBlock.join('\n'),
 'STORY: ' + (o.title || '(none supplied)'),
 (o.source ? 'SOURCE LINK (for attribution only — you cannot open it): ' + o.source : ''),
 '',
-'SOURCE FACTS SUPPLIED' + (o.excerpt ? ':' : ' — NONE. You have only a headline and a link, which is not enough for a specific post. Unless the headline alone genuinely supports one careful, clearly-hedged idea, return [[STATUS]] needs_input.'),
+'SOURCE FACTS SUPPLIED' + (o.excerpt ? ':' : ' — NONE were pasted. So: open the source link above and read it. Only if you genuinely cannot retrieve it should you return [[STATUS]] needs_input and ask for a few sentences.'),
 (o.excerpt || ''),
 '',
 (o.note ? 'APPROVED PERSONAL NOTE (real, owner-supplied — firsthand language is allowed only for what this covers):\n' + o.note

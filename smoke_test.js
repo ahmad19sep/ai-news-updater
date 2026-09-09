@@ -40,10 +40,13 @@ new Function("window", tpl)(win);
   ["Facebook", "Instagram", "TikTok", "WhatsApp", "YouTube", "[[X]]", "[[REDDIT]]"]
     .forEach(p => { if (full.includes(p)) fail("retired platform still in the prompt: " + p); });
 
-  /* evidence honesty: no pretending it opened the link, ask instead of inventing */
-  if (/open and read the source/i.test(full)) fail("prompt still tells the AI to open the link");
-  if (!/cannot open links/i.test(full)) fail("missing the 'you cannot open links' rule");
-  if (!bare.includes("needs_input")) fail("headline-only run must be told to return needs_input");
+  /* evidence honesty: retrieving is encouraged, PRETENDING to retrieve is not.
+     (The old rule flatly banned opening links, which threw away real browsing
+     in ChatGPT/Gemini and pushed every headline-only story to needs_input.) */
+  if (!/OPEN the source link/.test(full)) fail("prompt no longer tells the AI to read the source");
+  if (!/Never describe a page you did not actually read/.test(full)) fail("missing the no-pretending rule");
+  if (!/Do not use needs_input as an excuse/.test(full)) fail("needs_input is not gated behind trying to retrieve");
+  if (!bare.includes("needs_input")) fail("no fallback when the source truly cannot be read");
   if (!/never invent/i.test(full)) fail("missing the no-invention rule");
   if (!/personal note/i.test(full)) fail("missing the firsthand-claim guard");
 

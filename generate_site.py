@@ -733,8 +733,8 @@ PAGE = r"""<!doctype html>
     </div>
     <div id="nr-story" class="note" style="margin:0 0 10px"></div>
     <div class="note" style="margin:0 0 6px">
-      <b style="color:var(--dim)">1.</b> Paste the facts you actually have — a few lines from the article. No AI can open the
-      link, so without this it either guesses or (with these prompts) asks you for them.
+      <b style="color:var(--dim)">1.</b> Source facts. Usually pre-filled from the feed — add more if you have it.
+      ChatGPT and Gemini will also open the link themselves; this is what they fall back on if they cannot.
     </div>
     <textarea id="nr-excerpt" style="width:100%;min-height:70px"
       placeholder="Paste 2-5 key sentences from the source: what changed, the numbers, the date, who said it…"></textarea>
@@ -2782,7 +2782,10 @@ function openNewsroom(story) {
       el[prop || "value"] = val;
     };
     set("nr-story", "📰 " + (nrStory.title || "(no title)"), "textContent");
-    set("nr-in", ""); set("nr-excerpt", ""); set("nr-post", ""); set("nr-visual", "");
+    set("nr-in", ""); set("nr-post", ""); set("nr-visual", "");
+    /* the feed usually ships a sentence or two with the story - start from those
+       so the writer has real facts without you hunting for them */
+    set("nr-excerpt", story.sm || "");
     set("nr-aud", (settings && settings.liAudience) || "");
     set("nr-note", (settings && settings.liNote) || "");
     set("nr-vwrap", true, "hidden");
@@ -3052,7 +3055,7 @@ def generate():
     # MAX_STORIES cap keeps the most recently discovered (never drops what the
     # phone just alerted). Published date is the tiebreaker within a fetch batch.
     rows = conn.execute(
-        "SELECT id, title, url, links, source, pillar, published, fetched FROM items "
+        "SELECT id, title, url, links, source, pillar, published, fetched, summary FROM items "
         "ORDER BY fetched DESC, COALESCE(published, fetched) DESC LIMIT ?", (MAX_STORIES,)
     ).fetchall()
 
@@ -3076,6 +3079,7 @@ def generate():
             "t": r["title"], "u": r["url"], "s": r["source"], "p": r["pillar"],
             "d": when, "f": r["fetched"], "l": links,
             "sc": score, "r": reasons, "lo": local,
+            "sm": (r["summary"] or "")[:700],   # feed summary -> pre-filled source facts 
         })
 
     code = _load_passcode()

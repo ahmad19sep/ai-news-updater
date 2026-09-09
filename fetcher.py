@@ -4,6 +4,7 @@ Downloads every RSS feed, applies the filters, and saves new items
 to the database. Also fetches Hugging Face trending papers (no RSS).
 """
 
+import html
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -97,6 +98,30 @@ def _download_feed(feed_cfg):
     return feed_cfg, parsed, reddit_map
 
 
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def _entry_summary(entry, max_chars=700):
+    """The 1-3 sentences a feed ships with its item. This is what the LinkedIn
+    writer uses as source facts when the AI cannot open the link itself, so it
+    matters that it is real text: tags stripped, entities decoded, no truncation
+    mid-word. Google News summaries are mostly link markup, so those come back
+    short or empty - that is honest, and better than a fabricated summary."""
+    raw = entry.get("summary") or entry.get("description") or ""
+    if not raw and entry.get("content"):
+        try:
+            raw = entry["content"][0].get("value", "")
+        except Exception:
+            raw = ""
+    text = html.unescape(_TAG_RE.sub(" ", raw))
+    text = _WS_RE.sub(" ", text).strip()
+    if len(text) <= max_chars:
+        return text
+    cut = text[:max_chars]
+    return cut[:cut.rfind(" ")] + "…" if " " in cut else cut
+
+
 def _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats):
     """DB phase (main thread): filter, de-dupe and save a downloaded feed's items."""
     name = feed_cfg["name"]
@@ -144,7 +169,7 @@ def _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats):
         category = default_cat if lock else filters.classify(title, default_cat)
         new_id = database.add_item(conn, title, link, name, category,
                                    published.isoformat() if published else None,
-                                   upvotes, comments)
+                                   upvotes, comments, _entry_summary(entry))
         existing.append({"id": new_id, "title": title})  # so later feeds can group with it
         new_count += 1
         stats["new"] += 1
@@ -232,7 +257,8 @@ def fetch_newsdata(conn, existing, stats):
 
         category = filters.classify(title, 10)
         new_id = database.add_item(conn, title, link, art.get("source_id") or "NewsData",
-                                   category, published.isoformat() if published else None)
+                                   category, published.isoformat() if published else None,
+                                   summary=(art.get("description") or "")[:700])
         existing.append({"id": new_id, "title": title})
         new_count += 1
         stats["new"] += 1

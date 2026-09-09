@@ -42,6 +42,10 @@ def connect():
         conn.execute("ALTER TABLE items ADD COLUMN upvotes INTEGER NOT NULL DEFAULT 0")
     if "comments" not in cols:
         conn.execute("ALTER TABLE items ADD COLUMN comments INTEGER NOT NULL DEFAULT 0")
+    # The feed's own summary line. Feeds hand us 1-3 real sentences per item and we
+    # used to drop them, which left the writer with nothing but a headline.
+    if "summary" not in cols:
+        conn.execute("ALTER TABLE items ADD COLUMN summary TEXT NOT NULL DEFAULT ''")
     conn.commit()
     return conn
 
@@ -144,12 +148,12 @@ def purge_old(conn, days):
     return cur.rowcount
 
 
-def add_item(conn, title, url, source, pillar, published, upvotes=0, comments=0):
+def add_item(conn, title, url, source, pillar, published, upvotes=0, comments=0, summary=""):
     cur = conn.execute(
-        "INSERT OR IGNORE INTO items (title, url, source, pillar, published, fetched, upvotes, comments) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        "INSERT OR IGNORE INTO items (title, url, source, pillar, published, fetched, upvotes, comments, summary) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (title, url, source, pillar, published,
-         datetime.now(timezone.utc).isoformat(), upvotes or 0, comments or 0),
+         datetime.now(timezone.utc).isoformat(), upvotes or 0, comments or 0, summary or ""),
     )
     return cur.lastrowid
 
