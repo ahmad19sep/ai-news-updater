@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T21:11:38.383019+00:00",
+  "generated_at": "2026-09-09T04:46:33.386711+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb6fqe/asked_chatgpt_to_make_the_most_realistic_human/",
+          "signal": "Asked ChatGPT to make the most realistic human image possible. Are there any tells it's AI? (I'm not good at detecting them)"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
           "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajtge/chatgpt_we_may_have_reached_functional_agi_before/",
-          "signal": "ChatGPT: \"We may have reached functional AGI before reaching human-like AGI.\""
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wau0mt/astra_is_very_good_but_the_chatgpt_windows_app_is/",
-          "signal": "Astra is very good, but the ChatGPT windows app is soo bad"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
-          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbb8pd/i_asked_chatgpt_to_redraw_somethign_i_made_on/",
+          "signal": "I asked ChatGPT to redraw somethign i made on HeroForge. They are doing much better now"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
           "signal": "ChatGPT new easter egg"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
+          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
         }
       ],
       "content_ideas": []
@@ -73,7 +73,7 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -125,7 +125,34 @@
       "content_ideas": []
     },
     {
-      "name": "Google DeepMind Releases AlphaGenome Atlas",
+      "name": "Muse – Meta’s personal AI agent",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ai.meta.com/muse/",
+          "signal": "Muse – Meta’s personal AI agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AlphaGenome Atlas: a high-resolution map of human DNA",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -146,7 +173,7 @@
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-          "signal": "Google DeepMind Releases AlphaGenome Atlas"
+          "signal": "AlphaGenome Atlas: a high-resolution map of human DNA"
         }
       ],
       "content_ideas": []
@@ -164,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -179,7 +206,7 @@
       "content_ideas": []
     },
     {
-      "name": "Muse: Meta's personal AI agent, features and capabilities",
+      "name": "Tao: Open math problems being non-renewably mined by AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -191,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -199,8 +226,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://ai.meta.com/muse/",
-          "signal": "Muse: Meta's personal AI agent, features and capabilities"
+          "url": "https://mathstodon.xyz/@tao/117237320796901560",
+          "signal": "Tao: Open math problems being non-renewably mined by AI"
         }
       ],
       "content_ideas": []
@@ -228,6 +255,33 @@
           "platform": "hackernews",
           "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
           "signal": "Initial effects of AI technology on employment look positive"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Flights cancelled at UK airports due to ATC issue",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
+          "signal": "Flights cancelled at UK airports due to ATC issue"
         }
       ],
       "content_ideas": []
@@ -261,33 +315,6 @@
       "content_ideas": []
     },
     {
-      "name": "I refused to train the AI that could replace me",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
-          "signal": "I refused to train the AI that could replace me"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Speculative Decoding in vLLM on AMD GPUs",
       "category": "use_case",
       "momentum": "rising",
@@ -315,34 +342,7 @@
       "content_ideas": []
     },
     {
-      "name": "Flights cancelled at UK airports due to ATC issue",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
-          "signal": "Flights cancelled at UK airports due to ATC issue"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+      "name": "Mercury 2.5",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -362,41 +362,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
-          "signal": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI"
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+          "signal": "Mercury 2.5"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-          "signal": "Mistral raises €3B"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -426,28 +399,55 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb6fqe/asked_chatgpt_to_make_the_most_realistic_human/",
+          "signal": "Asked ChatGPT to make the most realistic human image possible. Are there any tells it's AI? (I'm not good at detecting them)"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
           "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wajtge/chatgpt_we_may_have_reached_functional_agi_before/",
-          "signal": "ChatGPT: \"We may have reached functional AGI before reaching human-like AGI.\""
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wau0mt/astra_is_very_good_but_the_chatgpt_windows_app_is/",
-          "signal": "Astra is very good, but the ChatGPT windows app is soo bad"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
-          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbb8pd/i_asked_chatgpt_to_redraw_somethign_i_made_on/",
+          "signal": "I asked ChatGPT to redraw somethign i made on HeroForge. They are doing much better now"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
           "signal": "ChatGPT new easter egg"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
+          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "signal": "Mistral raises €3B"
         }
       ],
       "content_ideas": []
@@ -455,13 +455,25 @@
   ],
   "pain_points": [
     {
-      "problem": "The phrase “Is/was *blank* a threat to democracy” is banned",
+      "problem": "OpenAI might’ve cheated when solving the Navier-Stokes millennium-prize problem; problems with AI in academics",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wa88j4/the_phrase_iswas_blank_a_threat_to_democracy_is/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb0qn9/openai_mightve_cheated_when_solving_the/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "The craziest thing about GPT Next solving a millennium problem is that this is the stupidest it will ever be",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb7p27/the_craziest_thing_about_gpt_next_solving_a/"
         }
       ],
       "content_opportunity": ""
