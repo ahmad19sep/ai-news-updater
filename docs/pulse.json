@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T04:46:33.386711+00:00",
+  "generated_at": "2026-09-09T11:27:14.152835+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 23,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
-          "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbda00/and_they_say_chatgpt_isnt_reliable/",
+          "signal": "And they say chatgpt isn't reliable..."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbb8pd/i_asked_chatgpt_to_redraw_somethign_i_made_on/",
-          "signal": "I asked ChatGPT to redraw somethign i made on HeroForge. They are doing much better now"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbeh1i/chatgpt_has_never_seen_my_grandmas_house_but_was/",
+          "signal": "ChatGPT has never seen my grandmas house, but was surprisingly close."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
-          "signal": "ChatGPT new easter egg"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbglqd/chatgpt_built_me_a_tiny_gtastyle_browser_game/",
+          "signal": "ChatGPT built me a tiny GTA-style browser game. Then I added a time machine."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
-          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbc4hr/update_i_actually_built_the_ridiculous_chatgpt/",
+          "signal": "UPDATE: I actually built the ridiculous ChatGPT archive system"
         }
       ],
       "content_ideas": []
@@ -98,6 +98,33 @@
       "content_ideas": []
     },
     {
+      "name": "Muse – Meta’s personal AI agent",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ai.meta.com/muse/",
+          "signal": "Muse – Meta’s personal AI agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "LibreOffice breaks download records after declaring it has no AI featu",
       "category": "use_case",
       "momentum": "rising",
@@ -125,7 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "Muse – Meta’s personal AI agent",
+      "name": "Tao: Open math problems being non-renewably mined by AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -145,8 +172,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://ai.meta.com/muse/",
-          "signal": "Muse – Meta’s personal AI agent"
+          "url": "https://mathstodon.xyz/@tao/117237320796901560",
+          "signal": "Tao: Open math problems being non-renewably mined by AI"
         }
       ],
       "content_ideas": []
@@ -206,34 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "Tao: Open math problems being non-renewably mined by AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mathstodon.xyz/@tao/117237320796901560",
-          "signal": "Tao: Open math problems being non-renewably mined by AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Initial effects of AI technology on employment look positive",
+      "name": "Mercury 2.5",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -253,8 +253,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
-          "signal": "Initial effects of AI technology on employment look positive"
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+          "signal": "Mercury 2.5"
         }
       ],
       "content_ideas": []
@@ -272,7 +272,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -315,19 +315,22 @@
       "content_ideas": []
     },
     {
-      "name": "Speculative Decoding in vLLM on AMD GPUs",
+      "name": "My business partner sent a 5K vibe-coded PR that he didn't even test",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -335,14 +338,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
-          "signal": "Speculative Decoding in vLLM on AMD GPUs"
+          "url": "https://ycj.bearblog.dev/ai-again/",
+          "signal": "My business partner sent a 5K vibe-coded PR that he didn't even test"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Mercury 2.5",
+      "name": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -362,8 +365,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
-          "signal": "Mercury 2.5"
+          "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+          "signal": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics"
         }
       ],
       "content_ideas": []
@@ -404,23 +407,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wanou2/what_are_the_most_useful_chatgpt_features_and_use/",
-          "signal": "What are the most useful ChatGPT features and use cases that most people do not know about?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbda00/and_they_say_chatgpt_isnt_reliable/",
+          "signal": "And they say chatgpt isn't reliable..."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbb8pd/i_asked_chatgpt_to_redraw_somethign_i_made_on/",
-          "signal": "I asked ChatGPT to redraw somethign i made on HeroForge. They are doing much better now"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbeh1i/chatgpt_has_never_seen_my_grandmas_house_but_was/",
+          "signal": "ChatGPT has never seen my grandmas house, but was surprisingly close."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb09ro/chatgpt_new_easter_egg/",
-          "signal": "ChatGPT new easter egg"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbglqd/chatgpt_built_me_a_tiny_gtastyle_browser_game/",
+          "signal": "ChatGPT built me a tiny GTA-style browser game. Then I added a time machine."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wazval/creative_writing_is_back_with_chatgpt_6_astra_max/",
-          "signal": "Creative writing is back with ChatGPT 6 Astra max??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbc4hr/update_i_actually_built_the_ridiculous_chatgpt/",
+          "signal": "UPDATE: I actually built the ridiculous ChatGPT archive system"
         }
       ],
       "content_ideas": []
@@ -455,6 +458,18 @@
   ],
   "pain_points": [
     {
+      "problem": "A guy dropped a computer into the simulation his Astra agents live in. One agent sat down and built a simulation of his own, with its own ag",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbcahf/a_guy_dropped_a_computer_into_the_simulation_his/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "OpenAI might’ve cheated when solving the Navier-Stokes millennium-prize problem; problems with AI in academics",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
@@ -469,7 +484,7 @@
     {
       "problem": "The craziest thing about GPT Next solving a millennium problem is that this is the stupidest it will ever be",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
