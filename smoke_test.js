@@ -45,12 +45,14 @@ new Function("window", tpl)(win);
      in ChatGPT/Gemini and pushed every headline-only story to needs_input.) */
   if (!/OPEN the source link/.test(full)) fail("prompt no longer tells the AI to read the source");
   if (!/Never describe a page you did not actually read/.test(full)) fail("missing the no-pretending rule");
-  if (!/Do not use needs_input as an excuse/.test(full)) fail("needs_input is not gated behind trying to retrieve");
-  if (!bare.includes("needs_input")) fail("no fallback when the source truly cannot be read");
+  if (!/NEVER ask the operator for anything/.test(full)) fail("the prompt can bounce work back to the operator again");
+  if (/you cannot open it/.test(full)) fail("the source link contradicts the read-the-source rule");
+  if (/needs_input/.test(bare)) fail("needs_input is back - it must always return a post or skip");
+  if (!/only what the HEADLINE itself supports/.test(bare)) fail("no headline-only fallback: it will refuse instead of writing");
   if (!/never invent/i.test(full)) fail("missing the no-invention rule");
   if (!/personal note/i.test(full)) fail("missing the firsthand-claim guard");
 
-  ok("LinkedIn writer: two modes, LinkedIn-only output, evidence + needs_input rules");
+  ok("LinkedIn writer: two modes, LinkedIn-only, reads the source, never asks the operator");
 }
 
 /* ---------- 3. no engagement bait is forced on any post ---------- */

@@ -733,11 +733,11 @@ PAGE = r"""<!doctype html>
     </div>
     <div id="nr-story" class="note" style="margin:0 0 10px"></div>
     <div class="note" style="margin:0 0 6px">
-      <b style="color:var(--dim)">1.</b> Source facts. Usually pre-filled from the feed — add more if you have it.
-      ChatGPT and Gemini will also open the link themselves; this is what they fall back on if they cannot.
+      <b style="color:var(--dim)">1.</b> Optional. The prompt carries the story link and tells the AI to open and read it,
+      so you can skip straight to step 2. Anything here (or pre-filled from the feed) gets used as well.
     </div>
     <textarea id="nr-excerpt" style="width:100%;min-height:70px"
-      placeholder="Paste 2-5 key sentences from the source: what changed, the numbers, the date, who said it…"></textarea>
+      placeholder="Optional — extra facts you want it to use. Leave empty and it reads the link itself."></textarea>
     <div class="genrow" style="align-items:center;flex-wrap:wrap;margin-top:8px">
       <input id="nr-aud" type="text" style="flex:1;min-width:230px"
         placeholder="Who is this for? e.g. freelancers picking AI tools">

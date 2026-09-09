@@ -22,8 +22,9 @@ EVIDENCE RULES — these come first, before style:
 - Never invent numbers, quotes, dates, prices, features, benchmarks, study results, client names or outcomes.
 - A company's own claim stays attributed to them ("OpenAI says…", "according to the announcement"). A vendor claim is not independent proof.
 - Check timing separately from when the story was collected. If the supplied material does not establish WHEN this happened, do not write new, breaking, today, just launched or latest. An older piece can still be worth discussing — as a dated argument, not fresh news.
-- If you could not read the source AND no facts were pasted below, a headline alone is not enough to write anything specific: return [[STATUS]] needs_input and say exactly what you need. Do not use needs_input as an excuse when you CAN retrieve the page — read it first.
-- If there is no genuinely useful angle here for the audience, return [[STATUS]] skip with a one-line reason. Writing nothing is a good outcome, not a failure.
+- NEVER ask the operator for anything. Do not request the article text, the audience, or an angle: you have a link, so read it. Always come back with a post.
+- If you truly could not read the source and no facts were supplied, still write — but only what the HEADLINE itself supports: keep it short, attribute it to the headline ("the headline says…"), build the value out of the professional question it raises rather than invented detail, and note the limitation in [[REVIEW]]. Thin and honest beats confident and made up.
+- The one case for [[STATUS]] skip: the story genuinely has nothing useful for this audience. Give a one-line reason. That is a judgement call, not a request for more input.
 - Do not turn an unsupported fact into an opinion to make it publishable. "I think X" does not fix missing evidence for X.
 
 PERSONAL VOICE:
@@ -52,7 +53,7 @@ Include one honest limitation, caveat or open question. End when the idea is com
 AUDIENCE: <<WHO THIS IS FOR>>
 
 STORY: <<STORY HEADLINE>>
-SOURCE LINK (for attribution only — you cannot open it): <<SOURCE LINK>>
+SOURCE LINK — open this and read the article before writing: <<SOURCE LINK>>
 
 SOURCE FACTS SUPPLIED:
 <<THE FACTS YOU PASTED FROM THE SOURCE>>
@@ -64,10 +65,10 @@ APPROVED PERSONAL NOTE (real, owner-supplied — firsthand language is allowed o
 OUTPUT EXACTLY in this format. Every [[MARKER]] on its own line, nothing before [[STATUS]] and nothing after [[END]].
 
 [[STATUS]]
-(one word: draft, needs_input, or skip)
+(one word: draft, or skip only when the story is genuinely not worth a post)
 
 [[POST]]
-(the LinkedIn post exactly as it would be published — nothing else, no notes, no labels. Leave empty for needs_input or skip.)
+(the LinkedIn post exactly as it would be published — nothing else, no notes, no labels. Leave empty only for skip.)
 
 [[SOURCES]]
 (the attribution line(s) a reader can check: source name and the link supplied above. Leave empty if none was supplied.)
@@ -76,7 +77,7 @@ OUTPUT EXACTLY in this format. Every [[MARKER]] on its own line, nothing before 
 (private notes for the operator, never part of the post: which sentence rests on which supplied fact; anything that is your interpretation rather than a reported fact; any opinion needing approval before posting; any claim you deliberately left out and why.)
 
 [[MISSING]]
-(only for needs_input: the smallest specific thing needed — e.g. "two or three sentences from the announcement about what actually changed". Otherwise leave empty.)
+(leave this empty — it exists only so an older parser does not choke.)
 
 [[VISUAL]]
 (A ready-to-paste image-generation prompt for a picture to go WITH the post above. Skip this — leave it empty — if the post is pure commentary that a graphic would only decorate. Build it ONLY from what the post actually says: never put a number, name, step or claim on the image that is not in the post.
@@ -117,8 +118,9 @@ EVIDENCE RULES — these come first, before style:
 - Never invent numbers, quotes, dates, prices, features, benchmarks, study results, client names or outcomes.
 - A company's own claim stays attributed to them ("OpenAI says…", "according to the announcement"). A vendor claim is not independent proof.
 - Check timing separately from when the story was collected. If the supplied material does not establish WHEN this happened, do not write new, breaking, today, just launched or latest. An older piece can still be worth discussing — as a dated argument, not fresh news.
-- If you could not read the source AND no facts were pasted below, a headline alone is not enough to write anything specific: return [[STATUS]] needs_input and say exactly what you need. Do not use needs_input as an excuse when you CAN retrieve the page — read it first.
-- If there is no genuinely useful angle here for the audience, return [[STATUS]] skip with a one-line reason. Writing nothing is a good outcome, not a failure.
+- NEVER ask the operator for anything. Do not request the article text, the audience, or an angle: you have a link, so read it. Always come back with a post.
+- If you truly could not read the source and no facts were supplied, still write — but only what the HEADLINE itself supports: keep it short, attribute it to the headline ("the headline says…"), build the value out of the professional question it raises rather than invented detail, and note the limitation in [[REVIEW]]. Thin and honest beats confident and made up.
+- The one case for [[STATUS]] skip: the story genuinely has nothing useful for this audience. Give a one-line reason. That is a judgement call, not a request for more input.
 - Do not turn an unsupported fact into an opinion to make it publishable. "I think X" does not fix missing evidence for X.
 
 PERSONAL VOICE:
@@ -142,12 +144,12 @@ WRITING:
 MODE: PRACTICAL TAKEAWAY.
 Give the reader ONE useful thing they can act on: a decision checklist, an evaluation question, a tradeoff to weigh, or a concrete step — but ONLY if the supplied facts actually support it.
 Numbered steps are optional, never required. Product instructions, pricing, free-access claims, eligibility and deadlines need direct support in the material below.
-If the material cannot support a how-to, use a decision question or a tradeoff instead — or return needs_input. Never manufacture a tutorial to fill this mode.
+If the material cannot support a how-to, use a decision question, an evaluation checklist or a tradeoff instead — there is always one of those available. Never manufacture a tutorial to fill this mode, and never hand the job back to the operator.
 
 AUDIENCE: <<WHO THIS IS FOR>>
 
 STORY: <<STORY HEADLINE>>
-SOURCE LINK (for attribution only — you cannot open it): <<SOURCE LINK>>
+SOURCE LINK — open this and read the article before writing: <<SOURCE LINK>>
 
 SOURCE FACTS SUPPLIED:
 <<THE FACTS YOU PASTED FROM THE SOURCE>>
@@ -158,10 +160,10 @@ APPROVED PERSONAL NOTE: none supplied. Do NOT write any firsthand experience cla
 OUTPUT EXACTLY in this format. Every [[MARKER]] on its own line, nothing before [[STATUS]] and nothing after [[END]].
 
 [[STATUS]]
-(one word: draft, needs_input, or skip)
+(one word: draft, or skip only when the story is genuinely not worth a post)
 
 [[POST]]
-(the LinkedIn post exactly as it would be published — nothing else, no notes, no labels. Leave empty for needs_input or skip.)
+(the LinkedIn post exactly as it would be published — nothing else, no notes, no labels. Leave empty only for skip.)
 
 [[SOURCES]]
 (the attribution line(s) a reader can check: source name and the link supplied above. Leave empty if none was supplied.)
@@ -170,7 +172,7 @@ OUTPUT EXACTLY in this format. Every [[MARKER]] on its own line, nothing before 
 (private notes for the operator, never part of the post: which sentence rests on which supplied fact; anything that is your interpretation rather than a reported fact; any opinion needing approval before posting; any claim you deliberately left out and why.)
 
 [[MISSING]]
-(only for needs_input: the smallest specific thing needed — e.g. "two or three sentences from the announcement about what actually changed". Otherwise leave empty.)
+(leave this empty — it exists only so an older parser does not choke.)
 
 [[VISUAL]]
 (A ready-to-paste image-generation prompt for a picture to go WITH the post above. Skip this — leave it empty — if the post is pure commentary that a graphic would only decorate. Build it ONLY from what the post actually says: never put a number, name, step or claim on the image that is not in the post.
@@ -406,7 +408,7 @@ THE POST:
 HEADLINE TO RENDER ON THE IMAGE (word for word, spelled exactly): <<HEADLINE ON THE IMAGE>>
 
 YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
-THE STUDIO HAS ASSIGNED THIS POST TO: SAM — data-first: the number IS the design; huge stats, clean chart elements, sharp annotations.
+THE STUDIO HAS ASSIGNED THIS POST TO: YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.
 Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
 THE FULL ROSTER (context for who they are):
 1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
@@ -586,8 +588,9 @@ EVIDENCE RULES — these come first, before style:
 - Never invent numbers, quotes, dates, prices, features, benchmarks, study results, client names or outcomes.
 - A company's own claim stays attributed to them ("OpenAI says…", "according to the announcement"). A vendor claim is not independent proof.
 - Check timing separately from when the story was collected. If the supplied material does not establish WHEN this happened, do not write new, breaking, today, just launched or latest. An older piece can still be worth discussing — as a dated argument, not fresh news.
-- If you could not read the source AND no facts were pasted below, a headline alone is not enough to write anything specific: return [[STATUS]] needs_input and say exactly what you need. Do not use needs_input as an excuse when you CAN retrieve the page — read it first.
-- If there is no genuinely useful angle here for the audience, return [[STATUS]] skip with a one-line reason. Writing nothing is a good outcome, not a failure.
+- NEVER ask the operator for anything. Do not request the article text, the audience, or an angle: you have a link, so read it. Always come back with a post.
+- If you truly could not read the source and no facts were supplied, still write — but only what the HEADLINE itself supports: keep it short, attribute it to the headline ("the headline says…"), build the value out of the professional question it raises rather than invented detail, and note the limitation in [[REVIEW]]. Thin and honest beats confident and made up.
+- The one case for [[STATUS]] skip: the story genuinely has nothing useful for this audience. Give a one-line reason. That is a judgement call, not a request for more input.
 - Do not turn an unsupported fact into an opinion to make it publishable. "I think X" does not fix missing evidence for X.
 
 PERSONAL VOICE:
