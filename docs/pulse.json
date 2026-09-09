@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:27:14.152835+00:00",
+  "generated_at": "2026-09-09T16:40:53.643340+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -54,18 +54,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbeh1i/chatgpt_has_never_seen_my_grandmas_house_but_was/",
-          "signal": "ChatGPT has never seen my grandmas house, but was surprisingly close."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbmftd/chatgpt_create_a_map_of_the_us_showing_what_every/",
+          "signal": "ChatGPT, create a map of the US showing what every state stereotypically stands for."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbglqd/chatgpt_built_me_a_tiny_gtastyle_browser_game/",
-          "signal": "ChatGPT built me a tiny GTA-style browser game. Then I added a time machine."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbohy8/i_accidentally_built_myself_an_executive_staff_in/",
+          "signal": "I accidentally built myself an executive staff in ChatGPT"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbc4hr/update_i_actually_built_the_ridiculous_chatgpt/",
-          "signal": "UPDATE: I actually built the ridiculous ChatGPT archive system"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
+          "signal": "Chatgpt top 3 useful code ✅"
         }
       ],
       "content_ideas": []
@@ -233,6 +233,33 @@
       "content_ideas": []
     },
     {
+      "name": "How An AI math breakthrough ignited a controversy",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+          "signal": "How An AI math breakthrough ignited a controversy"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Mercury 2.5",
       "category": "use_case",
       "momentum": "rising",
@@ -245,7 +272,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -315,37 +342,7 @@
       "content_ideas": []
     },
     {
-      "name": "My business partner sent a 5K vibe-coded PR that he didn't even test",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ycj.bearblog.dev/ai-again/",
-          "signal": "My business partner sent a 5K vibe-coded PR that he didn't even test"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native",
+      "name": "Gambling with our lives: AI researcher quits Anthropic with warning ab",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -365,8 +362,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
-          "signal": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics"
+          "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/",
+          "signal": "Gambling with our lives: AI researcher quits Anthropic with warning about safety"
         }
       ],
       "content_ideas": []
@@ -412,18 +409,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbeh1i/chatgpt_has_never_seen_my_grandmas_house_but_was/",
-          "signal": "ChatGPT has never seen my grandmas house, but was surprisingly close."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbmftd/chatgpt_create_a_map_of_the_us_showing_what_every/",
+          "signal": "ChatGPT, create a map of the US showing what every state stereotypically stands for."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbglqd/chatgpt_built_me_a_tiny_gtastyle_browser_game/",
-          "signal": "ChatGPT built me a tiny GTA-style browser game. Then I added a time machine."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbohy8/i_accidentally_built_myself_an_executive_staff_in/",
+          "signal": "I accidentally built myself an executive staff in ChatGPT"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbc4hr/update_i_actually_built_the_ridiculous_chatgpt/",
-          "signal": "UPDATE: I actually built the ridiculous ChatGPT archive system"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
+          "signal": "Chatgpt top 3 useful code ✅"
         }
       ],
       "content_ideas": []
@@ -470,9 +467,21 @@
       "content_opportunity": ""
     },
     {
+      "problem": "Codex just saved me from spending $2,000 on an internet problem I’ve had for 8 years",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbpbxz/codex_just_saved_me_from_spending_2000_on_an/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "OpenAI might’ve cheated when solving the Navier-Stokes millennium-prize problem; problems with AI in academics",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
