@@ -29,6 +29,20 @@ const dom = new JSDOM(html, {
   },
 });
 
+const AI_WITH_VISUAL = `
+[[STATUS]]
+draft
+[[POST]]
+A short approved post about agent review.
+[[SOURCES]]
+Example Corp - https://example.com
+[[REVIEW]]
+Interpretation flagged.
+[[MISSING]]
+[[VISUAL]]
+A CHECKLIST SHEET layout, 4:5, cream background, one blue accent.
+[[END]]`;
+
 const AI_OUTPUT = `
 [[STATUS]]
 draft
@@ -100,6 +114,23 @@ setTimeout(() => {
     if (post.includes("my interpretation")) throw new Error("review notes leaked into the post");
     if (!d.getElementById("nr-review").textContent.includes("my interpretation")) throw new Error("review notes missing");
     if (!d.getElementById("nr-sources").textContent.includes("example.com")) throw new Error("sources missing");
+  });
+
+  check("one answer carries the post AND its picture prompt", () => {
+    d.getElementById("nr-in").value = AI_WITH_VISUAL;
+    d.getElementById("nr-parse").click();
+    if (d.getElementById("nr-vwrap").hidden) throw new Error("picture panel stayed hidden");
+    const vis = d.getElementById("nr-visual").value;
+    if (!vis.includes("CHECKLIST SHEET layout")) throw new Error("image prompt not extracted");
+    if (d.getElementById("nr-post").value.includes("CHECKLIST SHEET")) throw new Error("image prompt leaked into the post");
+    d.getElementById("nr-vcopy").click();
+    if (!copied.includes("CHECKLIST SHEET layout")) throw new Error("copy image prompt did not copy it");
+  });
+
+  check("a post with no picture hides the panel", () => {
+    d.getElementById("nr-in").value = AI_OUTPUT;      // no [[VISUAL]] section
+    d.getElementById("nr-parse").click();
+    if (!d.getElementById("nr-vwrap").hidden) throw new Error("empty picture panel shown anyway");
   });
 
   check("copy takes the post only, not the JSON/markers", () => {

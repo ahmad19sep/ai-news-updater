@@ -77,6 +77,29 @@ OUTPUT EXACTLY in this format. Every [[MARKER]] on its own line, nothing before 
 [[MISSING]]
 (only for needs_input: the smallest specific thing needed — e.g. "two or three sentences from the announcement about what actually changed". Otherwise leave empty.)
 
+[[VISUAL]]
+(A ready-to-paste image-generation prompt for a picture to go WITH the post above. Skip this — leave it empty — if the post is pure commentary that a graphic would only decorate. Build it ONLY from what the post actually says: never put a number, name, step or claim on the image that is not in the post.
+Choose whichever suits the post:
+  A) INFOGRAPHIC (4:5) when the post carries steps, a comparison, a checklist, a decision or several named things — pick ONE format from the library below.
+  B) HEADLINE POSTER (4:5) when the post is about a single development and the point is the statement itself.
+
+STEP A — pick ONE format from this library, the one whose SHAPE fits the content best. HARD RULE: never the format you would pick by default, and never the same format twice in a row — rotate through the whole library over time so no two graphics look alike:
+1. HUB & SPOKE — one central circle (topic icon) with arrows out to 4-6 bordered cards; each card = bold name + "Purpose:" one line + "Key features:" 2-3 ticked bullets + "Top uses:" 2-3 bullets + a bordered "Pro Tip:" strip at the card bottom with one quoted example. White background, thin black arrows, cards outlined in ONE accent color. Best for: tools/apps/modes overview.
+2. JOURNEY MAP — a numbered winding dotted path (1 → N) of rounded step cards on cream paper, light hand-drawn doodle style with one small illustrated character walking the path; each card = STEP NAME in caps + a short "DO THIS:" paragraph + a tiny highlighted "WHY IT WORKS:" footnote. Best for: multi-step systems, habit guides, 8-14 tips.
+3. COMPARISON TABLE — a real table: 3-4 columns with header cells (name + small colored icon, each column a different accent), left criteria column in caps (PURPOSE / STRENGTHS / HOW IT WORKS / BEST FOR / LIMITATIONS), alternating dark row shading, dark charcoal background. Best for: X vs Y vs Z verdicts.
+4. VS ROWS — bold statement poster: huge condensed title at top with ONE word in accent color, then 4-6 stacked pill rows each "[myth/bad thing] VS [truth/good thing]" with small icons both sides, dark editorial background. Best for: myth-busting, mindset shifts, contrarian takes.
+5. THEN → TODAY LADDER — two labeled columns ("Yesterday" / "Today" or "Old way" / "New way") with an arrow between each word pair, 8-10 rows, big playful title, one bold quote line at the bottom, paper-texture background. Best for: vocabulary shifts, behavior changes, evolution of a workflow.
+6. NUMBERED TIP GRID — 2-3 column grid of clean numbered cards, each card = number badge + 5-8 word tip + one support line, small flat icon per card, white/cream background, 1 accent color. Best for: 6-10 independent tips.
+7. MIND MAP — dark rounded title box on the left, colored branch lines to 4-6 topic boxes on the right, each branch box with 2-3 short example bullets, flat design. Best for: "types of X" and topic breakdowns.
+8. PROMPT CARD — one huge quoted prompt block center-stage in a bordered card (typewriter-style font), numbered heading above it ("1/ [what it does]"), minimal cream background, a "swipe →" or "save this ⤵" hint in the footer corners. Best for: sharing 1-3 copyable prompts.
+9. CHECKLIST SHEET — clipboard/checklist style: title band at top, 6-9 rows each with a big ✓ box + short item + one-line why, one row highlighted as "most people skip this", subtle grid paper background. Best for: steal-my-system checklists.
+10. DECISION TREE — "START HERE:" question box at top, yes/no arrows branching down to 4-6 outcome boxes each naming the answer + one line of reason, clean flat flowchart, white background. Best for: "which X should you pick" content.
+STEP B — vary the LOOK between posts: rotate background theme (white / cream paper / dark charcoal) and rotate the single accent color (electric blue / red / amber / green) to match the mood. Never reuse the previous post's theme+accent combo.
+STEP C — write the final prompt in full detail: the chosen format and layout placement, every text element word for word (spell EXACTLY, the graphic dies if a word is misspelled), the [[GRAPHIC_TITLE]] as the heading, background theme, accent color, and typography (clean modern editorial, generous spacing, short legible text). Style guard: must look like a human designer made it in Canva/Figma — NO AI-gloss, NO sci-fi glow, NO glowing circuits, NO robots, NO logos/watermarks. Add ONE small, quiet handle mark in a bottom corner ("@aixahmad") — attribution, not a call to action. No follow/like/share line on the image.
+
+For a HEADLINE POSTER instead: a realistic photo-based scene (office, lab, desk, stage — natural light, real textures, no sci-fi glow, no robots, no glowing circuits), with the post's core line rendered on it word for word, spelled exactly, in clean modern editorial type, one accent colour.
+Either way: every word that appears on the image must be spelled exactly as written here — a misspelling ruins the graphic. No logos, no watermarks. One small quiet "@aixahmad" mark in a bottom corner as attribution — never a follow/like/share line.)
+
 [[END]]
 ```
 
@@ -146,6 +169,29 @@ OUTPUT EXACTLY in this format. Every [[MARKER]] on its own line, nothing before 
 
 [[MISSING]]
 (only for needs_input: the smallest specific thing needed — e.g. "two or three sentences from the announcement about what actually changed". Otherwise leave empty.)
+
+[[VISUAL]]
+(A ready-to-paste image-generation prompt for a picture to go WITH the post above. Skip this — leave it empty — if the post is pure commentary that a graphic would only decorate. Build it ONLY from what the post actually says: never put a number, name, step or claim on the image that is not in the post.
+Choose whichever suits the post:
+  A) INFOGRAPHIC (4:5) when the post carries steps, a comparison, a checklist, a decision or several named things — pick ONE format from the library below.
+  B) HEADLINE POSTER (4:5) when the post is about a single development and the point is the statement itself.
+
+STEP A — pick ONE format from this library, the one whose SHAPE fits the content best. HARD RULE: never the format you would pick by default, and never the same format twice in a row — rotate through the whole library over time so no two graphics look alike:
+1. HUB & SPOKE — one central circle (topic icon) with arrows out to 4-6 bordered cards; each card = bold name + "Purpose:" one line + "Key features:" 2-3 ticked bullets + "Top uses:" 2-3 bullets + a bordered "Pro Tip:" strip at the card bottom with one quoted example. White background, thin black arrows, cards outlined in ONE accent color. Best for: tools/apps/modes overview.
+2. JOURNEY MAP — a numbered winding dotted path (1 → N) of rounded step cards on cream paper, light hand-drawn doodle style with one small illustrated character walking the path; each card = STEP NAME in caps + a short "DO THIS:" paragraph + a tiny highlighted "WHY IT WORKS:" footnote. Best for: multi-step systems, habit guides, 8-14 tips.
+3. COMPARISON TABLE — a real table: 3-4 columns with header cells (name + small colored icon, each column a different accent), left criteria column in caps (PURPOSE / STRENGTHS / HOW IT WORKS / BEST FOR / LIMITATIONS), alternating dark row shading, dark charcoal background. Best for: X vs Y vs Z verdicts.
+4. VS ROWS — bold statement poster: huge condensed title at top with ONE word in accent color, then 4-6 stacked pill rows each "[myth/bad thing] VS [truth/good thing]" with small icons both sides, dark editorial background. Best for: myth-busting, mindset shifts, contrarian takes.
+5. THEN → TODAY LADDER — two labeled columns ("Yesterday" / "Today" or "Old way" / "New way") with an arrow between each word pair, 8-10 rows, big playful title, one bold quote line at the bottom, paper-texture background. Best for: vocabulary shifts, behavior changes, evolution of a workflow.
+6. NUMBERED TIP GRID — 2-3 column grid of clean numbered cards, each card = number badge + 5-8 word tip + one support line, small flat icon per card, white/cream background, 1 accent color. Best for: 6-10 independent tips.
+7. MIND MAP — dark rounded title box on the left, colored branch lines to 4-6 topic boxes on the right, each branch box with 2-3 short example bullets, flat design. Best for: "types of X" and topic breakdowns.
+8. PROMPT CARD — one huge quoted prompt block center-stage in a bordered card (typewriter-style font), numbered heading above it ("1/ [what it does]"), minimal cream background, a "swipe →" or "save this ⤵" hint in the footer corners. Best for: sharing 1-3 copyable prompts.
+9. CHECKLIST SHEET — clipboard/checklist style: title band at top, 6-9 rows each with a big ✓ box + short item + one-line why, one row highlighted as "most people skip this", subtle grid paper background. Best for: steal-my-system checklists.
+10. DECISION TREE — "START HERE:" question box at top, yes/no arrows branching down to 4-6 outcome boxes each naming the answer + one line of reason, clean flat flowchart, white background. Best for: "which X should you pick" content.
+STEP B — vary the LOOK between posts: rotate background theme (white / cream paper / dark charcoal) and rotate the single accent color (electric blue / red / amber / green) to match the mood. Never reuse the previous post's theme+accent combo.
+STEP C — write the final prompt in full detail: the chosen format and layout placement, every text element word for word (spell EXACTLY, the graphic dies if a word is misspelled), the [[GRAPHIC_TITLE]] as the heading, background theme, accent color, and typography (clean modern editorial, generous spacing, short legible text). Style guard: must look like a human designer made it in Canva/Figma — NO AI-gloss, NO sci-fi glow, NO glowing circuits, NO robots, NO logos/watermarks. Add ONE small, quiet handle mark in a bottom corner ("@aixahmad") — attribution, not a call to action. No follow/like/share line on the image.
+
+For a HEADLINE POSTER instead: a realistic photo-based scene (office, lab, desk, stage — natural light, real textures, no sci-fi glow, no robots, no glowing circuits), with the post's core line rendered on it word for word, spelled exactly, in clean modern editorial type, one accent colour.
+Either way: every word that appears on the image must be spelled exactly as written here — a misspelling ruins the graphic. No logos, no watermarks. One small quiet "@aixahmad" mark in a bottom corner as attribution — never a follow/like/share line.)
 
 [[END]]
 ```
@@ -358,7 +404,7 @@ THE POST:
 HEADLINE TO RENDER ON THE IMAGE (word for word, spelled exactly): <<HEADLINE ON THE IMAGE>>
 
 YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
-THE STUDIO HAS ASSIGNED THIS POST TO: YUKI — magazine editorial: elegant serif+sans pairing, generous margins, quiet luxury.
+THE STUDIO HAS ASSIGNED THIS POST TO: INGRID — brutalist: raw black/white, harsh contrast, mono-spaced type, one neon accent.
 Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
 THE FULL ROSTER (context for who they are):
 1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
@@ -480,7 +526,7 @@ OUTPUT EXACTLY:
 
 ```text
 YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
-THE STUDIO HAS ASSIGNED THIS POST TO: LENA — cinematic: film-still lighting, moody depth of field, subtle grain, headline like movie titles.
+THE STUDIO HAS ASSIGNED THIS POST TO: SAM — data-first: the number IS the design; huge stats, clean chart elements, sharp annotations.
 Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
 THE FULL ROSTER (context for who they are):
 1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.

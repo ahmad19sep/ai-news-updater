@@ -53,10 +53,16 @@ new Function("window", tpl)(win);
 /* ---------- 3. no engagement bait is forced on any post ---------- */
 {
   const p = win.buildLinkedInPrompt({ mode: "insight", title: "t", excerpt: "e" });
+  /* NOTE: the contract quotes the banned phrases verbatim ("no repost ♻️"), so a
+     plain substring search always hits them. Assert on INSTRUCTIONS, not strings. */
   if (/CTA RULE/i.test(p)) fail("a mandatory CTA block is back in the writer");
-  if (/@aixahmad/.test(p)) fail("handle promotion is back in the writer");
   if (/must (include|end with)[^.]{0,80}(follow|like|share)/i.test(p)) fail("mandatory follow/like line is back");
+  if (/follow @aixahmad/i.test(p)) fail("follow request is back in the writer");
+  if (/ALWAYS end the image with a footer strip/i.test(p)) fail("engagement-bait image footer is back");
   if (!/NO forced call to action/i.test(p)) fail("the no-forced-CTA rule went missing");
+  /* a quiet "@aixahmad" mark on an image is attribution, and must stay labelled as such */
+  if (/@aixahmad/.test(p) && !/attribution, not a call to action/i.test(p))
+    fail("the handle appears without being framed as attribution");
   ["buildNewsroomPrompt", "buildValuePostPrompt", "buildSocialPrompt"].forEach(k => {
     if (win[k]) fail("retired multi-platform builder still exported: " + k);
   });

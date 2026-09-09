@@ -258,6 +258,15 @@ modeBlock.join('\n'),
 '',
 '[[MISSING]]',
 '(only for needs_input: the smallest specific thing needed — e.g. "two or three sentences from the announcement about what actually changed". Otherwise leave empty.)',
+(o.visual === false ? null :
+'\n[[VISUAL]]\n' +
+'(A ready-to-paste image-generation prompt for a picture to go WITH the post above. Skip this — leave it empty — if the post is pure commentary that a graphic would only decorate. Build it ONLY from what the post actually says: never put a number, name, step or claim on the image that is not in the post.\n' +
+'Choose whichever suits the post:\n' +
+'  A) INFOGRAPHIC (4:5) when the post carries steps, a comparison, a checklist, a decision or several named things — pick ONE format from the library below.\n' +
+'  B) HEADLINE POSTER (4:5) when the post is about a single development and the point is the statement itself.\n' +
+'\n' + window.INFOGRAPHIC_FORMATS + '\n' +
+'\nFor a HEADLINE POSTER instead: a realistic photo-based scene (office, lab, desk, stage — natural light, real textures, no sci-fi glow, no robots, no glowing circuits), with the post\'s core line rendered on it word for word, spelled exactly, in clean modern editorial type, one accent colour.\n' +
+'Either way: every word that appears on the image must be spelled exactly as written here — a misspelling ruins the graphic. No logos, no watermarks. One small quiet "@aixahmad" mark in a bottom corner as attribution — never a follow/like/share line.)'),
 '',
 '[[END]]',
   ].filter(function (x) { return x !== null && x !== undefined; }).join('\n');

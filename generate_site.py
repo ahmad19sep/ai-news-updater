@@ -755,6 +755,14 @@ PAGE = r"""<!doctype html>
     <div id="nr-parsed" hidden style="margin-top:12px;border-top:1px solid var(--line);padding-top:12px">
       <div id="nr-status" class="note" style="margin:0 0 8px"></div>
       <textarea id="nr-post" style="width:100%;min-height:170px" placeholder="The LinkedIn post"></textarea>
+      <div id="nr-vwrap" hidden style="margin-top:10px;border:1px solid var(--line);border-radius:10px;padding:10px">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <b style="font-size:12.5px">🎨 Picture for this post</b>
+          <button class="ghost" id="nr-vcopy" style="margin-left:auto">📋 Copy image prompt</button>
+          <button class="ghost" id="nr-vgo" title="Opens ChatGPT — paste the prompt and ask for the image">↗ Make it</button>
+        </div>
+        <textarea id="nr-visual" style="width:100%;min-height:90px;margin-top:8px"></textarea>
+      </div>
       <div class="note" id="nr-sources" style="margin:8px 2px 0"></div>
       <details style="margin-top:8px">
         <summary style="cursor:pointer;font-size:12.5px;color:var(--dim)">🔍 Review notes — private, never part of the post</summary>
@@ -2763,6 +2771,8 @@ function openNewsroom(story) {
   document.getElementById("nr-post").value = "";
   document.getElementById("nr-aud").value = settings.liAudience || "";
   document.getElementById("nr-note").value = settings.liNote || "";
+  document.getElementById("nr-visual").value = "";
+  document.getElementById("nr-vwrap").hidden = true;
   document.getElementById("nr-parsed").hidden = true;
   document.getElementById("nrmodal").hidden = false;
 }
@@ -2818,6 +2828,10 @@ function nrRenderDraft(status) {
     ? "Sources: " + nrParsed.sources
     : (nrStory.source ? "Source: " + nrStory.source : "");
   document.getElementById("nr-review").textContent = nrParsed.review || "(the AI returned no review notes)";
+  /* the picture prompt comes back in the same answer as the post */
+  const vis = (nrParsed.visual || "").trim();
+  document.getElementById("nr-visual").value = vis;
+  document.getElementById("nr-vwrap").hidden = !(ready && vis);
   ["nr-copypost", "nr-open", "nr-posted", "nr-info", "nr-poster", "nr-xver", "nr-reddit"].forEach(id => {
     const b = document.getElementById(id); b.disabled = !ready;
     b.title = ready ? "" : "No draft to post yet";
@@ -2825,6 +2839,20 @@ function nrRenderDraft(status) {
   document.getElementById("nr-parsed").hidden = false;
   toast(ready ? "Validated ✓ — review it, then copy" : "Nothing to post from this one");
 }
+document.getElementById("nr-vcopy").onclick = () => {
+  const box = document.getElementById("nr-visual"), t = box.value.trim();
+  if (!t) { toast("No image prompt in this one"); return; }
+  navigator.clipboard.writeText(t).then(
+    () => toast("Image prompt copied — paste it into ChatGPT/Gemini and ask for the image"),
+    () => { box.focus(); box.select(); toast("Clipboard blocked — the text is selected, press Ctrl+C"); });
+};
+document.getElementById("nr-vgo").onclick = () => {
+  const t = document.getElementById("nr-visual").value.trim();
+  if (!t) { toast("No image prompt in this one"); return; }
+  navigator.clipboard.writeText(t).catch(() => {});
+  nrOpen("https://chatgpt.com/");
+  toast("Prompt copied + ChatGPT opened — paste it and say 'generate this image'");
+};
 document.getElementById("nr-copypost").onclick = () => {
   const box = document.getElementById("nr-post"), t = box.value.trim();
   if (!t) { toast("Nothing to copy yet"); return; }
