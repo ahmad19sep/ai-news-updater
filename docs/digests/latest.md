@@ -29,22 +29,22 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oOUZ6c0xXeWxiREhXM1BMbGRhVFJhVUZ5alBxT25RVTdOdkdTanRPcmpKUFZac2ZvdGl4LVNlQUxwalNlbUxWQUpIeVJRaE9LQ05LVFZnUUVzQzhKa2k0Uy1iNWFqVUJJVzhsWUtKUjh1a1Eyd3RzazRGTldBd1NPVHBPZ09XWFBWNGVmVl9WSUhDMUg?oc=5
 2. **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News** — Elon Musk AI News — Score 126
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM3RFamdGano3X1dhazNQUm1jRU1uVHlIdmVQRldld25nOXJHak9ZRnd4a2FvRjlMTTBpZ2duZEpib2RYSTk3R0hXbU03eXVZUHYtNkdGaVVoeDctRnc2VGtLUGZxNFVtSFI5UW4xME91cEd3ZGtsRFB5blRMTkdhLVNxSVpxUGJwNmgydGhsSnRtMUZsYWdGUExQLUpUNkI?oc=5
-3. **Leo HR launches AI assistant for workplace issues** — itbrief_co_nz — Score 103
-   https://itbrief.co.nz/story/leo-hr-launches-ai-assistant-for-workplace-issues
-4. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 101
+3. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 101
    https://www.ricentral.com/online_features/press_releases/iron-the-worlds-first-advanced-general-purpose-humanoid-robot-walks-off-the-production-lines-as/article_f3ffcea5-6d25-58e0-9857-85e67551fca9.html
-5. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 81
+4. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 81
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSjhPM2huRWVLX3Q5c2Z5U2FDWEMxV3FXVndReTNWN2dYeTFwckpLYmlxcVc3S2RsemdZZzY4UEtXYVRsZG5DanFpcVhzazR1dXJNTzVDR19IYWpvdm9NMUpEVzBqRnJvdXhzd0VzR2hwMTNQZ3JhSTNJOElYZHd4b0lJUWJwVXoxUXlEOUpCamhwaDV3RXZ2R0lDTTZxVGxDNDFIZ1NDYW1ta3dDeTBnN3RqVVlrMUNZVWwwQTRFQml6MjNUbGwxcUpuR2N1MlBzNW4zaVNVazlhTUx0QVNleksxR1U5QzdocUQ0eUY3ZHZJbkU1MnhTWkNxOHE?oc=5
-6. **Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters** — Elon Musk AI News — Score 77
+5. **Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters** — Elon Musk AI News — Score 77
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1VRQXhtR19VS2tKbVEzTnB6YjFUNl8zV3NFSURDZDRTcmZRS2tHa0RPOHdlMklXMWVSckNXdm5HWjdYNWhSTlFNeUlkdWFxWHo2SFdXU19ieWlQaUlEUjNrUjJkV1JSajZaNGxxUkVkM19qR2NOMkZvcWMwRHpIVTJybUlQZFB2ZmpvRy1CeURQcmp0ZFctU3RzMnItM29yajY5blZoT1ZjY0cwWFg1aVFoSGtpZw?oc=5
-7. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
+6. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
-8. **GPT-6 Astra** — Hacker News AI — Score 63
+7. **GPT-6 Astra** — Hacker News AI — Score 63
    https://openai.com/index/gpt-6-astra/
-9. **USDA to test satellites, AI to try to improve crop estimates amid farmer criticism - Reuters** — AI in Agriculture — Score 62
+8. **USDA to test satellites, AI to try to improve crop estimates amid farmer criticism - Reuters** — AI in Agriculture — Score 62
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTzJlc1IxSnBNVlBndHZMS1kwYVlDX0ZMdWh6NUpST05rNjJhX21oSHBoRkROUjVoUVcycTZuaTZPYk8tXzBDdjRvdjlJaDBHMkNTdlF1VnZmQmxVRnI0empNaTEyQ211Ulh2Z0wtbXFmYUJJZWRCakUwYld4Sk5BbjlTa29sTk1Kd20xMEMxR1hyVWdGb29Hb0twOUdZeUZYOE9TOFplT2NORTB0ZGNmbEpkVl9Hd2Fq?oc=5
-10. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 61
+9. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 61
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2p6T2t1SnRFdXBEbGM3SkxScFJ1Ny1FVGtFYTRRcWdiYTdodXI0Zmc1Nkd0eHNKSWFXWE1GdFdXR3pQUDBEZjFkWWRud015cmhEVkhyS1d6YTJSU0JBQzN2MnA5RGxmTHZNamVWTU1lYUNyOHp2OGZkNjJxMm9xWmZlNHhKYnZo?oc=5
+10. **OpenAI launches GPT-6 Astra** — Hacker News new — Score 58.0
+   https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra
 
 ## 🧪 AI in Science Highlights
 - **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3126
+- Total stories tracked: 3114
 - Most active topic: openai
 - Busiest category: AI General News
 
