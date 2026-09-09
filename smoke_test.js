@@ -38,31 +38,44 @@ new Function("window", tpl)(win);
   ok("template library: 13 new + 2 edits, counts per tab correct, no product names");
 }
 
-/* ---------- 2. Inspire value engine: infographic format library + CTA rules ---------- */
+/* ---------- 2. the LinkedIn writer: one post, both modes, evidence rules ---------- */
 {
-  const vp = win.buildValuePostPrompt({ title: "Test story", source: "https://example.com" });
-  ["HUB & SPOKE", "JOURNEY MAP", "COMPARISON TABLE", "VS ROWS", "THEN → TODAY",
-    "NUMBERED TIP GRID", "MIND MAP", "PROMPT CARD", "CHECKLIST SHEET", "DECISION TREE"]
-    .forEach(f => { if (!vp.includes(f)) fail("infographic format missing: " + f); });
-  if (!vp.includes("never the same format twice in a row")) fail("format rotation rule missing");
-  if (!vp.includes("rotate background theme")) fail("theme variety rule missing");
-  if (!/like ❤️ & share/.test(vp)) fail("infographic footer CTA missing");
-  if (!vp.includes("CTA RULE")) fail("per-post CTA rule missing");
-  ["[[VALUE_FORMAT]]", "[[GRAPHIC_TITLE]]", "[[SLIDES]]", "[[INFOGRAPHIC_PROMPT]]",
-    "[[INSTAGRAM]]", "[[TIKTOK]]", "[[FACEBOOK]]", "[[LINKEDIN]]", "[[WHATSAPP]]",
-    "[[YOUTUBE]]", "[[X]]", "[[END]]"].forEach(m => { if (!vp.includes(m)) fail("marker missing: " + m); });
-  ok("value engine: 10-format infographic library, rotation + theme rules, CTA everywhere");
+  const full = win.buildLinkedInPrompt({ mode: "insight", title: "Test story",
+    source: "https://example.com", excerpt: "The company said X changed.", audience: "freelancers" });
+  const bare = win.buildLinkedInPrompt({ mode: "practical", title: "Test story", source: "https://example.com" });
+
+  ["[[STATUS]]", "[[POST]]", "[[SOURCES]]", "[[REVIEW]]", "[[MISSING]]", "[[END]]"]
+    .forEach(m => { if (!full.includes(m)) fail("marker missing: " + m); });
+  if (full === win.buildLinkedInPrompt({ mode: "practical", title: "Test story" }))
+    fail("insight and practical modes produce the same prompt");
+  if (!/MODE: NEWS INSIGHT/.test(full)) fail("insight mode block missing");
+  if (!/MODE: PRACTICAL TAKEAWAY/.test(bare)) fail("practical mode block missing");
+
+  /* one platform only — the retired ones must not come back through a prompt */
+  ["Facebook", "Instagram", "TikTok", "WhatsApp", "YouTube", "[[X]]", "[[REDDIT]]"]
+    .forEach(p => { if (full.includes(p)) fail("retired platform still in the prompt: " + p); });
+
+  /* evidence honesty: no pretending it opened the link, ask instead of inventing */
+  if (/open and read the source/i.test(full)) fail("prompt still tells the AI to open the link");
+  if (!/cannot open links/i.test(full)) fail("missing the 'you cannot open links' rule");
+  if (!bare.includes("needs_input")) fail("headline-only run must be told to return needs_input");
+  if (!/never invent/i.test(full)) fail("missing the no-invention rule");
+  if (!/personal note/i.test(full)) fail("missing the firsthand-claim guard");
+
+  ok("LinkedIn writer: two modes, LinkedIn-only output, evidence + needs_input rules");
 }
 
-/* ---------- 3. other prompt engines carry the follow/like/share ending ---------- */
+/* ---------- 3. no engagement bait is forced on any post ---------- */
 {
-  const sp = win.buildSocialPrompt({ platform: "facebook", title: "t" });
-  if (!/follow @aixahmad/i.test(sp)) fail("buildSocialPrompt missing follow CTA");
-  const xp = win.buildAnthropicWritePrompt({ seed: "idea" });
-  if (!/follow @aixahmad/.test(xp)) fail("X-mini writer missing follow CTA rule");
-  if (!/like ❤️ & share/.test(win.HUMAN_IMAGE_BODY)) fail("news poster footer missing like/share");
-  if (!/Reddit punishes engagement asks/.test(win.buildNewsroomPrompt ? "Reddit punishes engagement asks" : tpl)) fail("newsroom CTA rule missing");
-  ok("social / X-mini / poster engines end posts with follow + like/share (Reddit excluded)");
+  const p = win.buildLinkedInPrompt({ mode: "insight", title: "t", excerpt: "e" });
+  if (/CTA RULE/i.test(p)) fail("a mandatory CTA block is back in the writer");
+  if (/@aixahmad/.test(p)) fail("handle promotion is back in the writer");
+  if (/must (include|end with)[^.]{0,80}(follow|like|share)/i.test(p)) fail("mandatory follow/like line is back");
+  if (!/NO forced call to action/i.test(p)) fail("the no-forced-CTA rule went missing");
+  ["buildNewsroomPrompt", "buildValuePostPrompt", "buildSocialPrompt"].forEach(k => {
+    if (win[k]) fail("retired multi-platform builder still exported: " + k);
+  });
+  ok("no forced CTA, no handle promotion, retired builders gone");
 }
 
 /* ---------- 4. studio boots clean even with corrupted storage ---------- */

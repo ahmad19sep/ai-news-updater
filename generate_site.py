@@ -180,12 +180,6 @@ PAGE = r"""<!doctype html>
           transition:.15s; }
   .meta button:hover { border-color:var(--indigo); color:var(--indigo);
           background:var(--indigo-soft); }
-  .cairamenu { position:absolute; z-index:400; background:var(--surface); border:1px solid var(--line2);
-          border-radius:11px; box-shadow:var(--shadow-lg); padding:6px; display:flex; flex-direction:column;
-          gap:2px; min-width:210px; }
-  .cairamenu button { background:none; border:none; text-align:left; padding:9px 12px; border-radius:8px;
-          font:500 13px Inter; color:var(--text); cursor:pointer; white-space:nowrap; }
-  .cairamenu button:hover { background:var(--surface2); }
   .cp { display:inline-flex; align-items:center; gap:5px; background:none; border:1px solid var(--line);
           color:var(--text); border-radius:8px; padding:7px 12px; font:600 12px Inter; cursor:pointer; text-decoration:none; }
   .cp:hover { border-color:var(--indigo); color:var(--indigo); background:var(--indigo-soft); }
@@ -464,10 +458,9 @@ PAGE = r"""<!doctype html>
   .wa-head select option { color:#111; }
   .wa-head .x { margin-left:auto; background:rgba(255,255,255,.15); border:none; color:#fff;
           border-radius:8px; padding:6px 11px; cursor:pointer; font-size:14px; }
-  #chatmodal, #xmodal, #pubmodal, #socialmodal, #nrmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
+  #chatmodal, #xmodal, #pubmodal, #nrmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
-  #pubmodal .mbox, #socialmodal .mbox, #nrmodal .mbox { max-height:92vh; overflow-y:auto; }
-  .soc-tab.active, .soc-lang.active { border-color:var(--indigo); color:var(--indigo); font-weight:600; }
+  #pubmodal .mbox, #nrmodal .mbox { max-height:92vh; overflow-y:auto; }
   .nr-plat { display:flex; flex-wrap:wrap; gap:7px; margin-top:8px; }
   .nr-plat button[disabled] { opacity:.45; cursor:not-allowed; }
   .chatbadge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px;
@@ -673,7 +666,6 @@ PAGE = r"""<!doctype html>
       <button class="navitem active" id="tabbtn-home" onclick="switchTab('home')">🏠 <span>Home</span></button>
       <button class="navitem" id="tabbtn-news" onclick="switchTab('news')">📰 <span>News</span><span class="navcount" id="nc-news"></span></button>
       <button class="navitem" id="tabbtn-popular" onclick="switchTab('popular')">🔥 <span>Popular</span></button>
-      <button class="navitem" id="tabbtn-ready" onclick="switchTab('ready')">✅ <span>Ready to Post</span><span class="navcount" id="nc-ready"></span></button>
       <button class="navitem" id="tabbtn-trends" onclick="switchTab('trends')">📈 <span>Trends</span></button>
       <button class="navitem" id="tabbtn-pulse" onclick="switchTab('pulse')">⚡ <span>Pulse</span></button>
       <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
@@ -729,12 +721,6 @@ PAGE = r"""<!doctype html>
     <p class="note">🔥 The AI stories the world is paying attention to right now — most-covered first.
        Great for picking what to post. Publishing one ticks all its copies, on every device.</p>
     <div id="poplist"></div>
-  </section>
-
-  <section id="tab-ready" hidden>
-    <p class="note">✅ Finished work approved in Caira lands here — copy each platform's post and
-       publish from your own accounts. Tap ✓ Posted when done.</p>
-    <div id="readylist"></div>
   </section>
 
   <section id="tab-xreplies" hidden>
@@ -981,90 +967,61 @@ PAGE = r"""<!doctype html>
     <textarea id="pub-body" style="width:100%;min-height:200px" placeholder="Article body… (write it here, or use the prompt button → paste into any AI → paste the article back here). Leave a blank line between paragraphs."></textarea>
     <div class="mfoot" style="flex-wrap:wrap">
       <button class="btn" id="pub-go">🌐 Publish</button>
-      <button class="ghost" id="pub-tweet" title="Publish first, then tweet it with a link">𝕏 Post to X</button>
-      <button class="ghost" id="pub-wa" title="Publish first, then share to WhatsApp">📱 WhatsApp</button>
-      <button class="ghost" id="pub-fb" title="Publish first, then share to Facebook">📘 Facebook</button>
-      <button class="ghost" id="pub-social" title="Make engaging posts for YouTube / Facebook / WhatsApp / Instagram">📲 Social pack</button>
+      <button class="ghost" id="pub-li" title="Publish first, then share it on LinkedIn">in Share on LinkedIn</button>
+      <button class="ghost" id="pub-tweet" title="Optional: publish first, then post it on X">𝕏 Post to X</button>
       <span id="pub-result" style="margin-left:auto;font-size:12.5px"></span>
     </div>
     <div id="pub-list" style="margin-top:14px"></div>
   </div>
 </div>
-<div id="socialmodal" hidden>
-  <div class="mbox" style="max-width:560px">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
-      <b style="font-size:15px">📲 Social pack</b>
-      <span style="font-size:11.5px;color:var(--faint)">engaging posts for your platforms</span>
-      <button class="ghost" style="margin-left:auto;padding:6px 11px" onclick="closeSocial()">✕</button>
-    </div>
-    <div id="soc-story" class="note" style="margin:0 0 10px"></div>
-    <div class="genrow" style="flex-wrap:wrap">
-      <button class="ghost soc-tab" data-plat="youtube">▶️ YouTube</button>
-      <button class="ghost soc-tab" data-plat="facebook">📘 Facebook</button>
-      <button class="ghost soc-tab" data-plat="whatsapp">📱 WhatsApp</button>
-      <button class="ghost soc-tab" data-plat="instagram">📸 Instagram</button>
-    </div>
-    <div class="genrow" style="align-items:center;margin-top:8px;flex-wrap:wrap">
-      <span style="font-size:12.5px;color:var(--dim)">Language:</span>
-      <button class="ghost soc-lang" data-lang="ur">Roman Urdu</button>
-      <button class="ghost soc-lang" data-lang="en">English</button>
-      <button class="btn" id="soc-copyprompt" style="margin-left:auto">🤖 Copy prompt</button>
-    </div>
-    <textarea id="soc-out" style="width:100%;min-height:150px;margin-top:10px" placeholder="Paste the AI's post here (Copy prompt → paste into any AI → paste result back), then Share/Copy below."></textarea>
-    <div class="mfoot" style="flex-wrap:wrap">
-      <button class="btn" id="soc-share">Share</button>
-      <button class="ghost" id="soc-copy">📋 Copy post</button>
-      <span id="soc-hint" style="margin-left:auto;font-size:12px;color:var(--faint)"></span>
-    </div>
-  </div>
-</div>
 <div id="nrmodal" hidden>
   <div class="mbox" style="max-width:660px">
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
-      <b style="font-size:15px">📰 Newsroom</b>
-      <span style="font-size:11.5px;color:var(--faint)">one prompt → article + images + every platform</span>
+      <b style="font-size:15px">in LinkedIn draft</b>
+      <span style="font-size:11.5px;color:var(--faint)">one story → one useful post</span>
       <button class="ghost" style="margin-left:auto;padding:6px 11px" onclick="closeNewsroom()">✕</button>
     </div>
     <div id="nr-story" class="note" style="margin:0 0 10px"></div>
-    <div class="genrow" style="align-items:center;flex-wrap:wrap">
-      <b style="font-size:12.5px;color:var(--dim)">1.</b>
-      <button class="btn" id="nr-copy">🤖 Copy master prompt</button>
-      <button class="btn" id="nr-value" title="Turn this news into useful, save-worthy content: how-to steps, tips, infographic + captions for IG/TikTok/FB/LinkedIn/X">💎 Value post prompt</button>
+    <div class="note" style="margin:0 0 6px">
+      <b style="color:var(--dim)">1.</b> Paste the facts you actually have — a few lines from the article. No AI can open the
+      link, so without this it either guesses or (with these prompts) asks you for them.
+    </div>
+    <textarea id="nr-excerpt" style="width:100%;min-height:70px"
+      placeholder="Paste 2-5 key sentences from the source: what changed, the numbers, the date, who said it…"></textarea>
+    <div class="genrow" style="align-items:center;flex-wrap:wrap;margin-top:8px">
+      <input id="nr-aud" type="text" style="flex:1;min-width:230px"
+        placeholder="Who is this for? e.g. freelancers picking AI tools">
+      <input id="nr-note" type="text" style="flex:1;min-width:230px"
+        placeholder="Your own experience with this (optional)">
+    </div>
+    <div class="genrow" style="align-items:center;flex-wrap:wrap;margin-top:10px">
+      <b style="font-size:12.5px;color:var(--dim)">2.</b>
+      <button class="btn" id="nr-copy" title="One supported development and what it actually means for your audience">🧠 Insight prompt</button>
+      <button class="btn" id="nr-value" title="One action, checklist or tradeoff the source genuinely supports">🛠️ Practical prompt</button>
       <span style="font-size:12px;color:var(--faint)">paste into ChatGPT / Gemini / Claude</span>
     </div>
     <div class="genrow" style="align-items:flex-start;flex-wrap:wrap;margin-top:8px">
-      <b style="font-size:12.5px;color:var(--dim);margin-top:8px">2.</b>
-      <textarea id="nr-in" style="flex:1;min-width:240px;min-height:90px" placeholder="Paste the FULL AI output here (with the [[MARKERS]]), then Parse."></textarea>
-      <button class="btn" id="nr-parse" style="margin-top:0">Parse →</button>
+      <b style="font-size:12.5px;color:var(--dim);margin-top:8px">3.</b>
+      <textarea id="nr-in" style="flex:1;min-width:240px;min-height:80px"
+        placeholder="Paste the FULL AI output here (with the [[MARKERS]]), then Validate."></textarea>
+      <button class="btn" id="nr-parse" style="margin-top:0">Validate →</button>
     </div>
     <div id="nr-parsed" hidden style="margin-top:12px;border-top:1px solid var(--line);padding-top:12px">
-      <input id="nr-head" type="text" style="width:100%;margin-bottom:8px" placeholder="Headline">
-      <select id="nr-cat" style="width:100%;margin-bottom:8px"></select>
-      <textarea id="nr-body" style="width:100%;min-height:150px" placeholder="Article body"></textarea>
-      <div class="genrow" style="align-items:center;flex-wrap:wrap;margin-top:8px">
-        <label class="ghost" style="cursor:pointer;padding:8px 12px;white-space:nowrap">📷 Upload
-          <input type="file" id="nr-file" accept="image/*" hidden></label>
-        <button class="ghost" type="button" id="nr-poster">🖼️ Make poster</button>
-        <button class="ghost" type="button" id="nr-img1">🎨 Image prompt 1</button>
-        <button class="ghost" type="button" id="nr-img2">🎨 Image prompt 2</button>
-        <img id="nr-preview" alt="" style="height:44px;border-radius:8px;display:none;object-fit:cover">
-      </div>
+      <div id="nr-status" class="note" style="margin:0 0 8px"></div>
+      <textarea id="nr-post" style="width:100%;min-height:170px" placeholder="The LinkedIn post"></textarea>
+      <div class="note" id="nr-sources" style="margin:8px 2px 0"></div>
+      <details style="margin-top:8px">
+        <summary style="cursor:pointer;font-size:12.5px;color:var(--dim)">🔍 Review notes — private, never part of the post</summary>
+        <div class="note" id="nr-review" style="margin-top:6px;white-space:pre-wrap"></div>
+      </details>
       <div class="mfoot" style="flex-wrap:wrap;margin-top:10px">
-        <button class="btn" id="nr-pub">🌐 Publish to website</button>
-        <span id="nr-link" style="margin-left:auto;font-size:12px"></span>
+        <button class="btn" id="nr-copypost">📋 Copy post</button>
+        <button class="ghost" id="nr-open">in Open LinkedIn</button>
+        <button class="ghost" id="nr-posted" title="The only thing that marks this story handled">✓ Mark as posted</button>
       </div>
-      <div class="note" style="margin:10px 2px 4px">3. Publish first, then share — each opens with its post + your article link:</div>
-      <div class="nr-plat" id="nr-plats"></div>
-    </div>
-    <div id="nr-vparsed" hidden style="margin-top:12px;border-top:1px solid var(--line);padding-top:12px">
-      <div class="note" id="nr-vformat" style="margin-bottom:8px"></div>
-      <input id="nr-vtitle" type="text" style="width:100%;margin-bottom:8px" placeholder="Graphic title">
-      <div class="genrow" style="align-items:center;flex-wrap:wrap">
-        <button class="ghost" type="button" id="nr-vinfo">🎨 Copy infographic prompt</button>
-        <button class="ghost" type="button" id="nr-vslides">📑 Copy slides</button>
+      <div class="note" style="margin:8px 2px 0;color:var(--faint)">
+        Copying, or opening LinkedIn, changes nothing — only ✓ Mark as posted takes the story off your lists.
       </div>
-      <div class="note" style="margin:10px 2px 4px">Make the image with the 🎨 prompt (ChatGPT/Gemini), download it, then each button copies the caption — upload the image in the app and paste:</div>
-      <div class="nr-plat" id="nr-vplats"></div>
     </div>
   </div>
 </div>
@@ -1183,7 +1140,6 @@ if (!EDLINK && LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) {
 const PILLARS = __PILLARS__;
 const ITEMS = __ITEMS__;
 const TRENDS = __TRENDS__;
-const CAIRA_EDITORS = __CAIRA_EDITORS__;   /* your Caira worker ids (manual assign menu) */
 const PAGE = 60;
 const STATUSES = [
   ["idea", "Idea", "#94a3b8"], ["script", "Script", "#2563eb"],
@@ -1259,50 +1215,6 @@ async function pushPosted(sig) {
     await fetch(fbRoot() + "/news_posted.json", { method: "PUT",
       headers: { "Content-Type": "application/json" }, body: JSON.stringify(remote) });
   } catch (e) {}
-}
-/* Manual "Send to Caira" menu: choose an editor, auto-divide, or keep it yourself.
-   The choice is queued in Firebase; the hourly server job creates the Caira task
-   (picking the free editor when assignee is blank). Then the story is ticked done
-   (with its duplicates) so it leaves the feed. */
-let cairaMenuEl = null;
-function closeCairaMenu() {
-  if (cairaMenuEl) { cairaMenuEl.remove(); cairaMenuEl = null; }
-  document.removeEventListener("click", closeCairaMenu);
-}
-function cairaMenu(it, btn) {
-  closeCairaMenu();
-  const m = document.createElement("div"); m.className = "cairamenu";
-  const opt = (label, fn) => {
-    const b = document.createElement("button"); b.textContent = label;
-    b.onclick = (e) => { e.stopPropagation(); closeCairaMenu(); fn(); };
-    m.appendChild(b);
-  };
-  (CAIRA_EDITORS || []).forEach((ed, i) => {
-    const id = (ed && ed.id) || ed, name = (ed && ed.name) || ("Editor " + (i + 1)) + " (" + id + ")";
-    opt("📤 Send to " + name, () => cairaQueue(it, id));
-  });
-  opt("⚖️ Auto — give to the free editor", () => cairaQueue(it, ""));
-  opt("🙋 Keep for me (do it myself)", () => { try { markStoryDone(it); } catch (e) {} toast("Kept for you ✓"); });
-  document.body.appendChild(m);
-  const r = btn.getBoundingClientRect();
-  m.style.top = (r.bottom + window.scrollY + 4) + "px";
-  m.style.left = (Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - 230))) + "px";
-  cairaMenuEl = m;
-  setTimeout(() => document.addEventListener("click", closeCairaMenu), 0);
-}
-function cairaQueue(it, assignee) {
-  if (!FBURL) { toast("Firebase not connected"); return; }
-  const id = String(Date.now()) + Math.floor(performance.now ? performance.now() : 0);
-  const body = { title: it.t, url: it.u, source: it.s,
-    category: PILLARS[it.p] || "", score: it.sc || 0, assignee: assignee || "" };
-  fetch(fbRoot() + "/caira_queue/" + id + ".json", { method: "PUT",
-    headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
-    .then(r => {
-      if (!r.ok) { toast("Caira queue blocked — add a /caira_queue Firebase rule"); return; }
-      toast(assignee ? ("📤 Sent to " + assignee) : "📤 Sent to Caira (auto-assign to free editor)");
-      try { markStoryDone(it); } catch (e) {}
-    })
-    .catch(() => toast("Caira queue failed — check connection"));
 }
 let plans = jload("plans", "[]");
 let etasks = jload("etasks", "[]");
@@ -1598,8 +1510,7 @@ function autoRefreshLive() {
   const a = document.activeElement;
   if (a && (a.tagName === "TEXTAREA" || a.tagName === "INPUT" || a.isContentEditable)) return;
   const vis = id => { const s = document.getElementById(id); return s && !s.hidden; };
-  if (vis("tab-ready")) { try { renderReady(); } catch (e) {} }
-  else if (vis("tab-xreplies")) { try { renderXTab(); } catch (e) {} }
+  if (vis("tab-xreplies")) { try { renderXTab(); } catch (e) {} }
   else if (vis("tab-repurpose")) { try { renderRpTab(); } catch (e) {} }
 }
 setInterval(autoRefreshLive, 20000);
@@ -1647,13 +1558,12 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","ready","trends","pulse","research","xreplies","repurpose","xmini","inspire","me"].forEach(n => {
+  ["home","news","popular","trends","pulse","research","xreplies","repurpose","xmini","inspire","me"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
   const TT = { home:["Home","Your radar at a glance"], news:["News","The latest AI news, newest first"],
     popular:["Popular","What the world is reading right now"],
-    ready:["Ready to Post","Approved work from Caira — copy & publish"],
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
     research:["Research","Papers for your own learning"],
     xreplies:["X Replies","Capture a post, generate replies, pick one"],
@@ -1666,7 +1576,6 @@ function switchTab(name) {
   if (pt) pt.textContent = tt[0]; if (ps) ps.textContent = tt[1];
   if (name === "home") renderHome();
   if (name === "popular") renderPopular();
-  if (name === "ready") renderReady();
   if (name === "xreplies") renderXTab();
   if (name === "repurpose") renderRpTab();
   if (name === "xmini") renderXMini();
@@ -1729,7 +1638,6 @@ function makeCard(it) {
     (ROLE === "owner" ? '<button class="nr-btn" title="Newsroom: article + images + all posts">📰</button>' : "") +
     (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
     (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
-    (ROLE === "owner" ? '<button class="caira-btn" title="Send to Caira (assign as a worker task)">📤</button>' : "") +
     '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done ✓") + "</button>" +
     "</span></div>" + why + extra;
   d.querySelector(".db").onclick = () => {
@@ -1743,8 +1651,6 @@ function makeCard(it) {
   if (pb2) pb2.onclick = () => openPublishModal(it);
   const nb = d.querySelector(".nr-btn");
   if (nb) nb.onclick = () => openNewsroom(it);
-  const cb = d.querySelector(".caira-btn");
-  if (cb) cb.onclick = (e) => { e.stopPropagation(); cairaMenu(it, cb); };
   return d;
 }
 function render() {
@@ -1770,20 +1676,6 @@ function renderPopular() {
   el.innerHTML = pop.length ? "" : '<div class="empty">No popular stories yet — check back as coverage builds.</div>';
   pop.forEach(it => el.appendChild(makeCard(it)));
 }
-/* Ready to Post: finished, approved work Caira staged in Firebase /ready_to_post.
-   One copy button per platform (add more later — just extend READY_PLATS). */
-/* [field, label, opener(text)->url]. Clicking copies the post text, then opens
-   that platform (pre-filled where the platform supports it; pasted otherwise). */
-const READY_PLATS = [
-  ["x_post",              "𝕏 Post on X",        t => "https://x.com/intent/tweet?text=" + encodeURIComponent(t)],
-  ["linkedin_post",       "in Post on LinkedIn", () => "https://www.linkedin.com/feed/?shareActive=true"],
-  ["facebook_post",       "f Post on Facebook",  () => "https://www.facebook.com/"],
-  ["instagram_caption",   "IG Open Instagram",   () => "https://www.instagram.com/"],
-  ["whatsapp_post",       "✅ Share to WhatsApp", t => "https://wa.me/?text=" + encodeURIComponent(t)],
-  ["youtube_short_script","▶ Open YouTube",      () => "https://studio.youtube.com/"],
-];
-const READY_COPY = [["article", "📄 Copy article"], ["image_prompt", "🎨 Copy image prompt"]];
-const POSTURL = {}; READY_PLATS.forEach(p => POSTURL[p[0]] = p[2]);
 /* download the poster image (works cross-origin via blob; falls back to opening it) */
 function downloadImage(url) {
   toast("Downloading image…");
@@ -1794,107 +1686,6 @@ function downloadImage(url) {
     setTimeout(() => URL.revokeObjectURL(u), 5000);
   }).catch(() => { window.open(url, "_blank", "noopener"); toast("Opened image — long-press / right-click to save"); });
 }
-/* Step 1 of posting: publish the article to your AI Radar website, so the social
-   posts can link to it. Mirrors the News-card 🌐 Publish (writes Firebase /published). */
-function publishReady(r, btn) {
-  if (!FBURL) { toast("Cloud not connected"); return; }
-  const title = r.headline || r.title || "", body = r.article || "";
-  if (!title || !body) { toast("This task has no article body to publish"); return; }
-  const id = String(Date.now());
-  const art = { id, title, body, url: r.source_url || "", image: r.image_url || "",
-    cat: r.category || "", ts: Date.now() };
-  btn.disabled = true; btn.textContent = "Publishing…";
-  fetch(pubBase() + "/" + id + ".json", { method: "PUT",
-    headers: { "Content-Type": "application/json" }, body: JSON.stringify(art) })
-    .then(rr => {
-      if (!rr.ok) { btn.disabled = false; btn.textContent = "🌐 Publish to website"; toast("Publish blocked — check Firebase /published rule"); return; }
-      r._link = PUBLIC_SITE + "/#a=" + id;
-      btn.outerHTML = '<a class="cp" style="border-color:var(--cta);color:var(--cta)" href="' + r._link + '" target="_blank" rel="noopener">✅ On website ↗</a>';
-      toast("🌐 Live on your website — posts now link to it");
-    })
-    .catch(() => { btn.disabled = false; btn.textContent = "🌐 Publish to website"; toast("Publish failed"); });
-}
-/* swap the [ARTICLE LINK] token for the live website link (or the source as fallback) */
-function readyText(r, f) {
-  let t = r[f] || "";
-  const link = r._link || r.source_url || "";
-  if (f === "x_post") {
-    /* X downranks link posts — keep the post text-only; the link goes in the first reply */
-    t = t.replace(/^.*\[ARTICLE LINK\].*$/gm, "").replace(/\n{3,}/g, "\n\n").trim();
-  } else if (link) t = t.replace(/\[ARTICLE LINK\]/g, link);
-  return t;
-}
-async function renderReady() {
-  const el = document.getElementById("readylist"); if (!el) return;
-  const nc = document.getElementById("nc-ready");
-  if (!FBURL) { el.innerHTML = '<div class="empty">Connect cloud sync to receive finished work from Caira.</div>'; return; }
-  el.innerHTML = '<div class="note">Loading…</div>';
-  let data = {};
-  try { data = (await (await fetch(fbRoot() + "/ready_to_post.json")).json()) || {}; } catch (e) {}
-  const items = Object.entries(data || {}).filter(e => e[1]).sort((a, b) => (b[1].ts || 0) - (a[1].ts || 0));
-  if (nc) nc.textContent = items.length || "";
-  if (!items.length) { el.innerHTML = '<div class="empty">Nothing ready yet. Approved work from Caira appears here, ready to copy &amp; post.</div>'; return; }
-  el.innerHTML = "";
-  const RC = { low: "var(--green)", medium: "var(--gold)", high: "var(--red)" };
-  items.forEach(([key, r]) => {
-    const d = document.createElement("div"); d.className = "card";
-    const risk = r.risk_level ? '<span class="pill" style="color:' + (RC[String(r.risk_level).toLowerCase()] || "var(--dim)") + '">⚠ ' + esc(r.risk_level) + '</span>' : "";
-    const postBtns = READY_PLATS.filter(p => r[p[0]]).map(p =>
-      '<button class="cp" data-act="post" data-f="' + p[0] + '">' + p[1] + '</button>').join("") +
-      (r.x_post ? '<button class="cp" data-act="xlink">🧵 X link reply</button>' : "");
-    const copyBtns = READY_COPY.filter(p => r[p[0]]).map(p =>
-      '<button class="cp" data-act="copy" data-f="' + p[0] + '">' + p[1] + '</button>').join("");
-    const dl = r.image_url ? '<button class="cp" data-act="dlimg">⬇ Download image</button>' : "";
-    const img = r.image_url ? '<a href="' + esc(r.image_url) + '" target="_blank" rel="noopener">' +
-      '<img src="' + esc(r.image_url) + '" alt="poster" style="width:140px;height:auto;border-radius:8px;border:1px solid var(--line);float:right;margin:0 0 8px 12px"></a>' : "";
-    d.innerHTML = img +
-      '<h2>' + esc(r.headline || r.title || "(untitled)") + "</h2>" +
-      '<div class="meta">' + (r.source ? '<span>' + esc(r.source) + "</span>" : "") + risk +
-      (r.assignee ? '<span>by ' + esc(r.assignee) + "</span>" : "") + "</div>" +
-      '<div class="actions" style="flex-wrap:wrap;gap:6px;margin-top:9px;margin-left:0">' +
-      (r.article ? '<button class="cp" data-act="pubweb" style="border-color:var(--indigo);color:var(--indigo)">🌐 Publish to website</button>' : "") +
-      postBtns + copyBtns + dl +
-      (r.source_url ? '<a class="cp" href="' + esc(r.source_url) + '" target="_blank" rel="noopener">↗ Source</a>' : "") +
-      (r.drive_url ? '<a class="cp" href="' + esc(r.drive_url) + '" target="_blank" rel="noopener">📁 Drive</a>' : "") +
-      '<button class="cp posted">✓ Posted</button></div>';
-    const removeFromQueue = () => {
-      try { fetch(fbRoot() + "/ready_to_post/" + key + ".json", { method: "DELETE" }); } catch (e) {}
-      d.remove();
-      if (nc) nc.textContent = (Math.max(0, (+nc.textContent || 1) - 1)) || "";
-    };
-    const totalPlats = d.querySelectorAll('.cp[data-act="post"]').length;
-    let donePlats = 0;
-    d.querySelectorAll(".cp[data-act]").forEach(b => b.onclick = () => {
-      const act = b.dataset.act, f = b.dataset.f;
-      if (act === "pubweb") { publishReady(r, b); return; }
-      if (act === "dlimg") { downloadImage(r.image_url); return; }
-      if (act === "xlink") {
-        const link = r._link || r.source_url || "";
-        navigator.clipboard.writeText("Full breakdown here:\n" + link).then(() =>
-          toast("Link reply copied — paste it as the FIRST reply under your X post"));
-        return;
-      }
-      const txt = readyText(r, f);                 // [ARTICLE LINK] -> website/source link
-      if (act === "copy") { navigator.clipboard.writeText(txt).then(() => toast("Copied ✓")); return; }
-      if (act === "post") {                        // copy text, then open the platform
-        navigator.clipboard.writeText(txt).catch(() => {});
-        const u = POSTURL[f] ? POSTURL[f](txt) : null;
-        if (u) window.open(u, "_blank", "noopener");
-        if (!b.classList.contains("done")) { b.classList.add("done"); b.textContent = "✓ " + b.textContent; donePlats++; }
-        if (totalPlats && donePlats >= totalPlats) {   // posted to every platform -> auto-clear
-          toast("All platforms posted — cleared from queue ✓");
-          setTimeout(removeFromQueue, 600);
-        } else {
-          toast(f === "x_post" ? "Text-only post copied — after posting, use 🧵 X link reply for the link" :
-            (r._link ? "Post copied (links to your site) — paste it ✓" : "Post copied — paste it ✓"));
-        }
-      }
-    });
-    d.querySelector(".posted").onclick = () => { removeFromQueue(); toast("Done — removed from queue ✓"); };
-    el.appendChild(d);
-  });
-}
-
 /* ---------------- X Reply Engine ---------------- */
 function xrStyleLabel(s) {
   const L = (window.XREPLY_STYLES || []).find(x => x[0] === s);
@@ -2893,8 +2684,10 @@ function inspUse(seed) {
     window.scrollTo({ top: 0, behavior: "smooth" }); toast("Loaded into Write — pick a style & generate ✍️"); }, 60);
 }
 function inspValue(title, source) {
-  navigator.clipboard.writeText(window.buildValuePostPrompt({ title: title, source: source || "" }))
-    .then(() => toast("💎 Value prompt copied — paste in Claude/ChatGPT, then Parse in Newsroom"));
+  navigator.clipboard.writeText(window.buildLinkedInPrompt({
+    mode: "practical", title: title, source: source || "",
+    audience: settings.liAudience || "", note: settings.liNote || "",
+  })).then(() => toast("🛠️ Practical prompt copied — for source facts, open the story in LinkedIn draft instead"));
 }
 function inspNewsAngle(t) {
   const s = t.toLowerCase();
@@ -5307,111 +5100,56 @@ document.getElementById("pub-tweet").onclick = () => {
   window.open("https://x.com/intent/tweet?text=" + encodeURIComponent(text), "_blank", "noopener");
   toast("X opened with your article link — tap Post 🚀");
 };
-document.getElementById("pub-wa").onclick = () => {
+document.getElementById("pub-li").onclick = () => {
   const art = needPub(); if (!art) return;
-  const text = art.title + "\n\n" + pubBlurb(art, 160) + "\n\n🔗 Full story: " + pubLink(art);
-  window.open("https://wa.me/?text=" + encodeURIComponent(text), "_blank", "noopener");
-  toast("WhatsApp opened — pick a chat/group & send 📱");
-};
-document.getElementById("pub-fb").onclick = () => {
-  const art = needPub(); if (!art) return;
-  window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(pubLink(art)), "_blank", "noopener");
-  toast("Facebook opened — add a caption & post 📘");
+  window.open("https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(pubLink(art)), "_blank", "noopener");
+  toast("LinkedIn opened with your article link — add your own words before posting");
 };
 
-/* ---- Social pack: per-platform engaging posts (Roman Urdu default) ---- */
-let socPlat = "facebook", socLang = "en", socCtx = { title: "", body: "", link: "" };
-document.getElementById("pub-social").onclick = () => openSocial(lastPubArt);
-function openSocial(art) {
-  const title = (art && art.title) || document.getElementById("pub-title").value.trim();
-  const body = (art && art.body) || document.getElementById("pub-body").value.trim();
-  const link = (art && art.id) ? (PUBLIC_SITE + "/#a=" + art.id) : "";
-  socCtx = { title, body, link };
-  document.getElementById("soc-story").textContent = title ? ("📰 " + title) : "Add a headline/article in the publish box first";
-  document.getElementById("soc-out").value = "";
-  socPlat = "facebook"; socLang = "en"; socSync();
-  document.getElementById("socialmodal").hidden = false;
-}
-function closeSocial() { document.getElementById("socialmodal").hidden = true; }
-document.getElementById("socialmodal").addEventListener("click", e => { if (e.target.id === "socialmodal") closeSocial(); });
-function socSync() {
-  document.querySelectorAll(".soc-tab").forEach(b => b.classList.toggle("active", b.dataset.plat === socPlat));
-  document.querySelectorAll(".soc-lang").forEach(b => b.classList.toggle("active", b.dataset.lang === socLang));
-  const lbl = { whatsapp: "📱 Send to WhatsApp", facebook: "📘 Open Facebook", instagram: "📸 Copy for Instagram", youtube: "▶️ Copy for YouTube" };
-  const hint = {
-    whatsapp: "Opens WhatsApp → pick your Channel/group → send.",
-    facebook: "Opens FB share + copies your caption to paste in.",
-    instagram: "Copies the caption — paste in the Instagram app (link in bio).",
-    youtube: "Copies the text — paste as a community post or video description."
-  };
-  document.getElementById("soc-share").textContent = lbl[socPlat] || "Share";
-  document.getElementById("soc-hint").textContent = hint[socPlat] || "";
-}
-document.querySelectorAll(".soc-tab").forEach(b => b.onclick = () => { socPlat = b.dataset.plat; socSync(); });
-document.querySelectorAll(".soc-lang").forEach(b => b.onclick = () => { socLang = b.dataset.lang; socSync(); });
-document.getElementById("soc-copyprompt").onclick = () => {
-  if (!socCtx.title) { toast("Add a headline/article first"); return; }
-  const p = window.buildSocialPrompt({ platform: socPlat, lang: socLang, title: socCtx.title, body: socCtx.body, link: socCtx.link });
-  navigator.clipboard.writeText(p).then(() => toast("Prompt copied — paste in any AI, then paste the post back here 🤖"));
-};
-document.getElementById("soc-copy").onclick = () => {
-  const t = document.getElementById("soc-out").value.trim();
-  if (!t) { toast("Nothing to copy"); return; }
-  navigator.clipboard.writeText(t).then(() => toast("Post copied 📋"));
-};
-document.getElementById("soc-share").onclick = () => {
-  const t = document.getElementById("soc-out").value.trim();
-  if (!t) { toast("Paste the post text first (Copy prompt → any AI → paste back)"); return; }
-  if (socPlat === "whatsapp") {
-    window.open("https://wa.me/?text=" + encodeURIComponent(t), "_blank", "noopener");
-    toast("WhatsApp opened — pick your Channel & send 📱");
-  } else if (socPlat === "facebook") {
-    navigator.clipboard.writeText(t).catch(() => {});
-    window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(socCtx.link || PUBLIC_SITE), "_blank", "noopener");
-    toast("FB opened + caption copied — paste it in 📘");
-  } else {
-    navigator.clipboard.writeText(t).then(() => toast("Copied — paste in " + (socPlat === "instagram" ? "Instagram" : "YouTube") + " ✅"));
-  }
-};
-
-/* ---- Newsroom: one master prompt -> article + 2 image prompts + every platform post ---- */
-let nrStory = { title: "", source: "", p: 0 }, nrParsed = {}, nrLink = "", nrImg = "";
+/* ---- LinkedIn draft: one selected story -> one useful post.
+   Two modes of the same writer (insight / practical), same [[MARKER]] flow as before.
+   Nothing here publishes, and nothing here marks a story handled except the
+   explicit ✓ button — parsing a draft is not the same as having posted it. ---- */
+let nrStory = { title: "", source: "", p: 0 }, nrParsed = {};
 function nrCopy(t) { navigator.clipboard.writeText(t).catch(() => {}); }
 function nrOpen(u) { window.open(u, "_blank", "noopener"); }
-const NR_PLATFORMS = [
-  { k: "x", label: "𝕏 X", act: t => { nrOpen("https://x.com/intent/tweet?text=" + encodeURIComponent(t)); toast("X opened — post it, then add the 🧵 link reply under it"); } },
-  { k: "xreply", label: "🧵 X link reply", act: t => { nrCopy(t || ("Full breakdown here:\n" + nrLink)); toast("Link reply copied — paste it as the FIRST reply under your post"); } },
-  { k: "linkedin", label: "in LinkedIn", act: t => { nrCopy(t); nrOpen("https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(nrLink)); toast("LinkedIn opened + post copied — paste it"); } },
-  { k: "reddit", label: "🟠 Reddit", act: t => { nrCopy(t); nrOpen("https://www.reddit.com/submit?title=" + encodeURIComponent(nrParsed.headline || nrStory.title || "") + "&url=" + encodeURIComponent(nrLink)); toast("Reddit opened + text copied"); } },
-  { k: "facebook", label: "📘 Facebook", act: t => { nrCopy(t); nrOpen("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(nrLink)); toast("Facebook opened + caption copied — paste it"); } },
-  { k: "whatsapp", label: "📱 WhatsApp", act: t => { nrOpen("https://wa.me/?text=" + encodeURIComponent(t)); toast("WhatsApp opened — pick your Channel & send"); } },
-  { k: "instagram", label: "📸 Instagram", act: t => { nrCopy(t); toast("Instagram caption copied — paste in the app"); } },
-  { k: "youtube", label: "▶️ YouTube", act: t => { nrCopy(t); toast("YouTube post copied — paste as a community post"); } },
-];
+function nrField(id) { const el = document.getElementById(id); return el ? el.value.trim() : ""; }
+/* audience + personal note are the same every time, so they ride along in synced settings */
+function nrSaveProfile() {
+  const a = nrField("nr-aud"), n = nrField("nr-note");
+  if (a !== (settings.liAudience || "") || n !== (settings.liNote || "")) {
+    settings.liAudience = a; settings.liNote = n; saveSettings();
+  }
+}
 function openNewsroom(story) {
   nrStory = { title: story.t || story.name || "", source: story.u || story.source || "", p: story.p || 0 };
-  nrParsed = {}; nrLink = ""; nrImg = "";
+  nrParsed = {};
   document.getElementById("nr-story").textContent = "📰 " + (nrStory.title || "(no title)");
   document.getElementById("nr-in").value = "";
-  document.getElementById("nr-head").value = ""; document.getElementById("nr-body").value = "";
-  document.getElementById("nr-preview").style.display = "none"; document.getElementById("nr-file").value = "";
-  document.getElementById("nr-link").textContent = "";
+  document.getElementById("nr-excerpt").value = "";
+  document.getElementById("nr-post").value = "";
+  document.getElementById("nr-aud").value = settings.liAudience || "";
+  document.getElementById("nr-note").value = settings.liNote || "";
   document.getElementById("nr-parsed").hidden = true;
-  document.getElementById("nr-vparsed").hidden = true;
-  document.getElementById("nr-cat").innerHTML = Object.entries(PILLARS)
-    .map(([k, v]) => "<option" + (+k === nrStory.p ? " selected" : "") + ">" + v + "</option>").join("");
   document.getElementById("nrmodal").hidden = false;
 }
 function closeNewsroom() { document.getElementById("nrmodal").hidden = true; }
 document.getElementById("nrmodal").addEventListener("click", e => { if (e.target.id === "nrmodal") closeNewsroom(); });
-document.getElementById("nr-copy").onclick = () => {
-  const p = window.buildNewsroomPrompt({ title: nrStory.title, source: nrStory.source });
-  navigator.clipboard.writeText(p).then(() => toast("Master prompt copied — paste in any AI, then paste the full output back & Parse 🤖"));
-};
-document.getElementById("nr-value").onclick = () => {
-  const p = window.buildValuePostPrompt({ title: nrStory.title, source: nrStory.source });
-  navigator.clipboard.writeText(p).then(() => toast("💎 Value-post prompt copied — paste in any AI: slides + infographic + IG/TikTok/FB/LinkedIn/X captions"));
-};
+function nrPrompt(mode, label) {
+  nrSaveProfile();
+  const excerpt = nrField("nr-excerpt");
+  const p = window.buildLinkedInPrompt({
+    mode: mode, title: nrStory.title, source: nrStory.source,
+    excerpt: excerpt, audience: nrField("nr-aud"), note: nrField("nr-note"),
+  });
+  navigator.clipboard.writeText(p).then(
+    () => toast(excerpt
+      ? label + " copied — paste it in any AI, then bring the output back here"
+      : label + " copied — but with no source facts pasted it will ask you for them first"),
+    () => toast("Clipboard blocked — allow clipboard access for this page"));
+}
+document.getElementById("nr-copy").onclick = () => nrPrompt("insight", "🧠 Insight prompt");
+document.getElementById("nr-value").onclick = () => nrPrompt("practical", "🛠️ Practical prompt");
 function nrParse(text) {
   const out = {}, re = /\[\[(\w+)\]\]/g, parts = []; let m;
   while ((m = re.exec(text))) parts.push({ key: m[1].toLowerCase(), start: m.index, end: re.lastIndex });
@@ -5425,125 +5163,51 @@ function nrParse(text) {
 document.getElementById("nr-parse").onclick = () => {
   const raw = document.getElementById("nr-in").value;
   if (!raw.trim()) { toast("Paste the AI output first"); return; }
-  nrParsed = nrParse(raw);
-  /* 💎 value-post output has its own markers — auto-detect and show the value UI */
-  if (nrParsed.value_format || nrParsed.infographic_prompt || nrParsed.slides) {
-    renderValueParsed();
-    if (nrStory.source) markStoryDone({ u: nrStory.source, t: nrStory.title });  // used -> leaves the lists
-    toast("💎 Parsed ✓ — make the image with 🎨, then post per platform");
-    return;
+  const p = nrParse(raw);
+  const status = (p.status || "").toLowerCase().replace(/[^a-z_]/g, "");
+  if (!p.post && !status) { toast("Couldn't find the [[MARKERS]] — paste the whole output"); return; }
+  nrParsed = p;
+  nrRenderDraft(status);
+};
+function nrRenderDraft(status) {
+  const st = document.getElementById("nr-status");
+  const ready = status !== "needs_input" && status !== "skip";
+  if (status === "needs_input") {
+    st.textContent = "⚠️ Not enough to write from — " + (nrParsed.missing
+      || "paste a few sentences from the source above, then copy the prompt again.");
+  } else if (status === "skip") {
+    st.textContent = "⏭️ It suggests skipping this one — " + (nrParsed.review || "no useful angle for your audience.");
+  } else {
+    st.textContent = "✅ Draft ready — read it against the sources below before you post it.";
   }
-  if (!nrParsed.article && !nrParsed.headline) { toast("Couldn't find the [[MARKERS]] — paste the full output"); return; }
-  document.getElementById("nr-vparsed").hidden = true;
-  document.getElementById("nr-head").value = nrParsed.headline || nrStory.title || "";
-  document.getElementById("nr-body").value = nrParsed.article || "";
+  document.getElementById("nr-post").value = nrParsed.post || "";
+  document.getElementById("nr-sources").textContent = nrParsed.sources
+    ? "Sources: " + nrParsed.sources
+    : (nrStory.source ? "Source: " + nrStory.source : "");
+  document.getElementById("nr-review").textContent = nrParsed.review || "(the AI returned no review notes)";
+  ["nr-copypost", "nr-open", "nr-posted"].forEach(id => {
+    const b = document.getElementById(id); b.disabled = !ready;
+    b.title = ready ? "" : "No draft to post yet";
+  });
   document.getElementById("nr-parsed").hidden = false;
-  nrRenderPlats();
-  if (nrStory.source) markStoryDone({ u: nrStory.source, t: nrStory.title });    // used -> leaves the lists
-  toast("Parsed ✓ — add an image, Publish, then share");
-};
-/* ---- 💎 Value post: auto-extracted UI (slides / infographic / per-platform captions) ---- */
-function renderValueParsed() {
-  document.getElementById("nr-parsed").hidden = true;
-  document.getElementById("nr-vparsed").hidden = false;
-  document.getElementById("nr-vformat").textContent = "💎 " + (nrParsed.value_format || "value post");
-  document.getElementById("nr-vtitle").value = nrParsed.graphic_title || "";
-  const plats = [
-    ["instagram", "📸 Instagram", t => { nrCopy(t); toast("IG caption copied — upload your carousel/infographic, paste it"); }],
-    ["tiktok", "🎵 TikTok", t => { nrCopy(t); toast("TikTok caption copied — photo-mode: upload slides, paste caption"); }],
-    ["facebook", "📘 Facebook", t => { nrCopy(t); nrOpen("https://www.facebook.com/"); toast("Facebook post copied — attach the image & paste"); }],
-    ["linkedin", "in LinkedIn", t => { nrCopy(t); nrOpen("https://www.linkedin.com/feed/?shareActive=true"); toast("LinkedIn post copied — attach the image & paste"); }],
-    ["whatsapp", "📱 WhatsApp", t => { nrCopy(t); nrOpen("https://wa.me/?text=" + encodeURIComponent(t)); toast("WhatsApp opened — pick your Channel & send"); }],
-    ["youtube", "▶️ YouTube", t => { nrCopy(t); toast("YouTube post copied — paste as a community post"); }],
-    ["x", "𝕏 X", t => { nrCopy(t); nrOpen("https://x.com/intent/tweet?text=" + encodeURIComponent(t)); toast("X opened (text-only) — attach the infographic if you like"); }],
-  ];
-  const el = document.getElementById("nr-vplats"); el.innerHTML = "";
-  plats.forEach(([k, label, act]) => {
-    if (!nrParsed[k]) return;
-    const b = document.createElement("button"); b.className = "ghost"; b.textContent = label;
-    b.onclick = () => act(nrParsed[k]);
-    el.appendChild(b);
-  });
+  toast(ready ? "Validated ✓ — review it, then copy" : "Nothing to post from this one");
 }
-document.getElementById("nr-vinfo").onclick = () => {
-  if (!nrParsed.infographic_prompt) { toast("No infographic prompt in the output"); return; }
-  nrCopy(nrParsed.infographic_prompt);
-  window.open("https://chatgpt.com/", "_blank", "noopener");
-  toast("Infographic prompt copied — say 'generate this image' 🎨");
+document.getElementById("nr-copypost").onclick = () => {
+  const box = document.getElementById("nr-post"), t = box.value.trim();
+  if (!t) { toast("Nothing to copy yet"); return; }
+  navigator.clipboard.writeText(t).then(
+    () => toast("Post copied — paste it into LinkedIn"),
+    () => { box.focus(); box.select(); toast("Clipboard blocked — the text is selected, press Ctrl+C"); });
 };
-document.getElementById("nr-vslides").onclick = () => {
-  if (!nrParsed.slides) { toast("No slides in the output"); return; }
-  nrCopy(nrParsed.slides);
-  toast("Slides copied — ask the AI to turn each into a 4:5 image, or build them in Canva 📑");
+document.getElementById("nr-open").onclick = () => {
+  nrOpen("https://www.linkedin.com/feed/?shareActive=true");
+  toast("LinkedIn opened — paste your post there (it does not prefill)");
 };
-function nrRenderPlats() {
-  const el = document.getElementById("nr-plats"); el.innerHTML = "";
-  NR_PLATFORMS.forEach(p => {
-    const b = document.createElement("button"); b.className = "ghost"; b.textContent = p.label;
-    b.disabled = !nrLink || !nrParsed[p.k];
-    b.title = !nrParsed[p.k] ? "Not in the AI output" : (!nrLink ? "Publish the article first" : "");
-    b.onclick = () => { const t = (nrParsed[p.k] || "").replace(/\[ARTICLE LINK\]/g, nrLink); p.act(t); };
-    el.appendChild(b);
-  });
-}
-document.getElementById("nr-file").onchange = (e) => {
-  const f = e.target.files[0]; if (!f) return;
-  const img = new Image();
-  img.onload = () => {
-    const max = 900; let w = img.width, h = img.height; if (w > max) { h = Math.round(h * max / w); w = max; }
-    const c = document.createElement("canvas"); c.width = w; c.height = h; c.getContext("2d").drawImage(img, 0, 0, w, h);
-    nrImg = c.toDataURL("image/jpeg", 0.65);
-    const pv = document.getElementById("nr-preview"); pv.src = nrImg; pv.style.display = "";
-  };
-  img.src = URL.createObjectURL(f);
-};
-function nrMakePoster() {
-  const title = document.getElementById("nr-head").value.trim();
-  if (!title) { toast("Parse the article first (need a headline)"); return; }
-  const cat = document.getElementById("nr-cat").value || "AI NEWS";
-  const W = 1200, H = 675, c = document.createElement("canvas"); c.width = W; c.height = H; const x = c.getContext("2d");
-  const finish = () => {
-    x.textBaseline = "alphabetic";
-    x.font = "700 26px Inter, Arial, sans-serif"; x.fillStyle = "#38bdf8"; x.fillText(cat.toUpperCase(), 60, 92);
-    x.font = "800 62px Inter, Arial, sans-serif"; x.fillStyle = "#fff";
-    const lines = _wrapLines(x, title, W - 120).slice(0, 4); const lh = 74; let y = H - 150 - (lines.length - 1) * lh;
-    lines.forEach(l => { x.fillText(l, 60, y); y += lh; });
-    x.font = "700 30px Inter, Arial, sans-serif"; x.fillStyle = "#e8edfb"; x.fillText("📡 AI Radar", 60, H - 58);
-    x.font = "500 22px Inter, Arial, sans-serif"; x.fillStyle = "#9fb0d6"; x.fillText("radar.hafizahmad.com", 60, H - 26);
-    nrImg = c.toDataURL("image/jpeg", 0.85);
-    const pv = document.getElementById("nr-preview"); pv.src = nrImg; pv.style.display = ""; toast("Poster made 🖼️");
-  };
-  if (nrImg && nrImg.indexOf("data:image") === 0) {
-    const im = new Image();
-    im.onload = () => {
-      const r = Math.max(W / im.width, H / im.height), w = im.width * r, h = im.height * r;
-      x.drawImage(im, (W - w) / 2, (H - h) / 2, w, h);
-      const g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, "rgba(7,11,24,.30)"); g.addColorStop(.55, "rgba(7,11,24,.55)"); g.addColorStop(1, "rgba(7,11,24,.94)");
-      x.fillStyle = g; x.fillRect(0, 0, W, H); finish();
-    };
-    im.onerror = () => { _gradBg(x, W, H); finish(); }; im.src = nrImg;
-  } else { _gradBg(x, W, H); finish(); }
-}
-document.getElementById("nr-poster").onclick = nrMakePoster;
-document.getElementById("nr-img1").onclick = () => { if (!nrParsed.image1) { toast("No image prompt 1 found"); return; } nrCopy(nrParsed.image1); toast("Image prompt 1 copied — make it in any image AI, then 📷 Upload 🎨"); };
-document.getElementById("nr-img2").onclick = () => { if (!nrParsed.image2) { toast("No image prompt 2 found"); return; } nrCopy(nrParsed.image2); toast("Image prompt 2 copied 🎨"); };
-document.getElementById("nr-pub").onclick = async () => {
-  if (!FBURL) { toast("Firebase not connected"); return; }
-  const title = document.getElementById("nr-head").value.trim();
-  const body = document.getElementById("nr-body").value.trim();
-  if (!title || !body) { toast("Need a headline and article body"); return; }
-  const id = String(Date.now());
-  const art = { id, title, body, url: nrStory.source || "", image: nrImg || "",
-    cat: document.getElementById("nr-cat").value, ts: Date.now() };
-  try {
-    const r = await fetch(pubBase() + "/" + id + ".json", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(art) });
-    if (!r.ok) { toast("Publish blocked — add a /published rule in Firebase"); return; }
-    nrLink = PUBLIC_SITE + "/#a=" + id; lastPubArt = art;
-    document.getElementById("nr-link").innerHTML = '✅ Live — <a href="index.html" target="_blank">view</a> · share below ↓';
-    nrRenderPlats();
-    const nd = markStoryDone({ u: nrStory.source, t: nrStory.title });
-    toast("Published 🌐" + (nd > 1 ? " · ✓ ticked " + nd + " related" : ""));
-  } catch (e) { toast("Publish failed: " + e.message); }
+document.getElementById("nr-posted").onclick = () => {
+  if (!nrStory.source) { toast("This story has no link to tick off"); return; }
+  const nd = markStoryDone({ u: nrStory.source, t: nrStory.title });
+  toast("Marked posted ✓" + (nd > 1 ? " · also ticked " + nd + " related" : ""));
+  closeNewsroom();
 };
 async function loadPubList() {
   const el = document.getElementById("pub-list");
@@ -5807,14 +5471,6 @@ function navCounts() {
 }
 trendsBar(); bar(); renderHome(); render(); navCounts();
 syncPull();   /* pull cross-device done + published, then auto-tick matches */
-function readyCount() {
-  if (!FBURL) return;
-  fetch(fbRoot() + "/ready_to_post.json").then(r => r.json()).then(d => {
-    const n = Object.values(d || {}).filter(Boolean).length;
-    const el = document.getElementById("nc-ready"); if (el) el.textContent = n || "";
-  }).catch(() => {});
-}
-readyCount();
 xrCount();
 rpCount();
 renderXMini();
@@ -5903,7 +5559,6 @@ def generate():
     updated = now.strftime("%d %b %Y, %H:%M UTC")
     html = (PAGE
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
-            .replace("__CAIRA_EDITORS__", json.dumps(getattr(config, "CAIRA_EDITORS", [])))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
             .replace("__LOCKHASH__", lock_hash)

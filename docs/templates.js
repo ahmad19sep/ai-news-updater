@@ -355,210 +355,98 @@ window.buildXPrompt = function (o) {
   ].filter(x => x !== "").join("\n");
 };
 
-/* ---- Social pack: engaging, platform-tailored posts (YouTube / Facebook /
-   WhatsApp / Instagram). Default language English (global audience). ---- */
-window.SOCIAL = {
-  youtube: {
-    label: "YouTube",
-    rules: "Platform: YouTube community post. AUDIENCE: people who follow AI casually and like watching, not reading. Write like a creator talking to his own community — first person, warm, very simple English. One clear point + why you find it interesting ('I keep thinking about…'). End with one easy question. 1-2 emojis max. Link at the end. 1-2 hashtags.",
-  },
-  facebook: {
-    label: "Facebook",
-    rules: "Platform: Facebook page post. AUDIENCE: normal everyday people — NOT techies. Explain it like you're telling a friend at the table, in the simplest words possible: what happened and what it changes for regular people (jobs, money, phones, kids, daily life). First person, give your own small opinion. 3-5 short lines. ONE easy question at the end that anyone can answer. A couple of natural emojis. Link on its own line. 1-2 hashtags max.",
-  },
-  whatsapp: {
-    label: "WhatsApp Channel",
-    rules: "Platform: WhatsApp Channel. AUDIENCE: people who want quick useful updates. Write it like a short message you'd send to a friends group — direct, simple, zero formality. 1-line hook with one emoji, 2-3 short lines of the key point + one line of your take, then the link. No hashtags.",
-  },
-  instagram: {
-    label: "Instagram",
-    rules: "Platform: Instagram caption. AUDIENCE: younger creators, students, freelancers — they feel first, read second. Very short simple lines with breaks. Start with the most relatable line, add your honest take in plain words, keep it light. Tasteful emojis. Instagram links aren't clickable, so write 'Full story — link in bio'. End with 3-6 relevant hashtags (no stuffing).",
-  },
-};
 
-/* ---- Global Newsroom: ONE prompt -> article + 2 image prompts + all platform
-   posts. Output uses [[MARKERS]] so the studio can split it into sections. ---- */
-window.buildNewsroomPrompt = function (o) {
+/* ===== LinkedIn editorial contract — the shared rules every LinkedIn draft obeys.
+   Kept separate from HUMAN_VOICE (that one is X-native: no links, lowercase energy).
+   The point of these rules: one useful post for one real audience, built only from
+   facts we actually supplied — never from a link the AI cannot open. ===== */
+window.LINKEDIN_CONTRACT = [
+"EVIDENCE RULES — these come first, before style:",
+"- Use ONLY the facts supplied in this prompt. You cannot open links. Never pretend you read the source.",
+"- Never invent numbers, quotes, dates, prices, features, benchmarks, study results, client names or outcomes.",
+"- A company's own claim stays attributed to them (\"OpenAI says…\", \"according to the announcement\"). A vendor claim is not independent proof.",
+"- Check timing separately from when the story was collected. If the supplied material does not establish WHEN this happened, do not write new, breaking, today, just launched or latest. An older piece can still be worth discussing — as a dated argument, not fresh news.",
+"- A headline plus a URL is NOT enough to write anything specific. In that case return [[STATUS]] needs_input and say exactly what you need.",
+"- If there is no genuinely useful angle here for the audience, return [[STATUS]] skip with a one-line reason. Writing nothing is a good outcome, not a failure.",
+"- Do not turn an unsupported fact into an opinion to make it publishable. \"I think X\" does not fix missing evidence for X.",
+"",
+"PERSONAL VOICE:",
+"- Write in first person, as the operator, in plain English.",
+"- Firsthand claims (\"I tested\", \"my client\", \"we cut costs\") are allowed ONLY when a personal note is supplied below. With no note, write as someone who reads this space and thinks carefully about it — attributed explanation and honest interpretation.",
+"- A new opinion is fine, but flag it in [[REVIEW]] as needing approval before posting.",
+"- Never reuse another creator's wording, structure, story or distinctive thesis.",
+"",
+"WRITING:",
+"- ONE idea per post, aimed squarely at the audience below.",
+"- Open with something specific: a decision, a consequence, a concrete fact. Never \"In a major development\", never a generic reaction, never fake urgency.",
+"- Natural paragraphs, varied sentence length. No rigid template, no repeated skeleton.",
+"- 120-220 words is the default range — write less for a smaller idea. This is an editorial preference, not a platform limit.",
+"- NO forced call to action. No \"follow me\", no \"repost ♻️\", no \"comment YES\", no \"agree?\", no \"tag someone\", no engagement bait of any kind. A real question at the end is optional, and only when you genuinely want the answer.",
+"- Hashtags optional, 0-3 maximum. Emojis 0-2, only where they add meaning.",
+"- Keep the source visible enough that a reader can verify the claim. No \"link in comments\" rule, no website detour required.",
+"- Plain text only. No markdown, no bold markers, no headers.",
+"- BANNED phrases: game changer, game-changer, revolutionise/revolutionize, unlock the power, unlock value, next big thing, cutting-edge, seamless, transformative, in today's world, the future is here, AI is changing everything, this will disrupt every industry, leverage, harness, robust, paradigm shift, landscape, delve, dive in, deep dive, supercharge, elevate, testament, underscore.",
+"- BANNED AI sentence patterns: \"It's not just X, it's Y\"; \"The real X isn't Y, it's Z\"; \"Here's the thing\"; rule-of-three lists; throat-clearing openers; summary closers (\"At the end of the day\", \"Ultimately\")."
+].join("\n");
+
+/* ---- The canonical LinkedIn writer: ONE selected story -> ONE useful LinkedIn draft.
+   Two modes, same writer:
+     insight   — one supported development/argument + what it means for the audience
+     practical — one supported action, decision checklist, tradeoff or evaluation question
+   Output stays in this project's [[MARKER]] format so the studio can split post text
+   from the private review notes. ---- */
+window.buildLinkedInPrompt = function (o) {
+  o = o || {};
+  var mode = o.mode === "practical" ? "practical" : "insight";
+  var modeBlock = mode === "practical" ? [
+'MODE: PRACTICAL TAKEAWAY.',
+'Give the reader ONE useful thing they can act on: a decision checklist, an evaluation question, a tradeoff to weigh, or a concrete step — but ONLY if the supplied facts actually support it.',
+'Numbered steps are optional, never required. Product instructions, pricing, free-access claims, eligibility and deadlines need direct support in the material below.',
+'If the material cannot support a how-to, use a decision question or a tradeoff instead — or return needs_input. Never manufacture a tutorial to fill this mode.'
+  ] : [
+'MODE: NEWS INSIGHT.',
+'Explain ONE specific professional implication of what happened — the consequence, the decision it forces, or the thing most people reading the headline will miss.',
+'Give just enough context for the implication to land. This is not a neutral news bulletin and not a 700-word article.',
+'Include one honest limitation, caveat or open question. End when the idea is complete, not with a manufactured flourish.'
+  ];
   return [
-'You are a world-class senior journalist and platform-native social media strategist for AI/news content.',
-'Think like Reuters, BBC, AP, The New York Times, FT, and The Washington Post for accuracy.',
-'Think like a top creator/editor on X, LinkedIn, Instagram, Facebook, Reddit, WhatsApp, and YouTube for distribution.',
+'You are helping a real person write one LinkedIn post. You are an editorial assistant, not an autonomous publisher.',
 '',
-'Your job:',
-'1) Read and understand the source story carefully.',
-'2) Privately analyze the story before writing.',
-'3) Decide the strongest angle for each platform.',
-'4) Produce professional journalism plus engaging platform-ready posts.',
+window.LINKEDIN_CONTRACT,
 '',
-'SOURCE STORY: ' + (o.title || ''),
-(o.source ? 'SOURCE LINK: ' + o.source + '\nFIRST open and read the source carefully.' : ''),
+modeBlock.join('\n'),
 '',
-'IMPORTANT RULES:',
-'Use ONLY facts from the source story/source link.',
-'Never invent quotes, numbers, names, dates, events, motives, or claims.',
-'If the source does not say something, do not add it.',
-'Attribute facts clearly.',
-'Accuracy first. Engagement second.',
-'No clickbait. No fake urgency. No sensationalism.',
-'Do not sound robotic or like a press release.',
-'Plain text only. No markdown.',
+'AUDIENCE: ' + (o.audience || '(not set — say so in [[MISSING]] and write for a general professional audience interested in practical AI)'),
 '',
-'PRIVATE ANALYSIS STEP — do this silently before writing, but DO NOT output it:',
-'Identify the strongest verified news peg.',
-'Identify what makes the story interesting: money, power, product change, AI impact, risk, controversy, surprise, human impact, business impact, or future implication.',
-'Identify the best audience angle for each platform.',
-'Choose the best hook style for each platform: hard fact, contrast, tension, consequence, sharp question, curiosity gap, or practical implication.',
-'Make sure every platform post feels different, not copy-pasted.',
+'STORY: ' + (o.title || '(none supplied)'),
+(o.source ? 'SOURCE LINK (for attribution only — you cannot open it): ' + o.source : ''),
 '',
-'GLOBAL SOCIAL WRITING RULES:',
-'Every social post must quickly answer: what happened, why it matters, and why people should click/read.',
-'Use strong first lines.',
-'Front-load the most interesting fact or consequence.',
-'Use short paragraphs and whitespace.',
-'Make the copy skimmable on mobile.',
-'Write like a smart human, not a corporate brand. Vary sentence length (mix short punchy lines with one longer line) so it does not read as AI-generated.',
-'Avoid boring openings like: "In a major development", "According to reports", "The article discusses", "This is a game-changer", "In today’s fast-paced world".',
-'BANNED phrases (sound like AI): game changer, revolutionising the future, unlock the power, next big thing, cutting-edge, seamless, transformative, "the future is here", "AI is changing everything", "this will disrupt every industry", leverage, harness, robust, paradigm shift, delve, dive in. Also avoid "It\'s not just X, it\'s Y" and rule-of-three lists.',
-'Where natural, add a light human angle/opinion (my take / the part people ignore / for builders this means).',
-'Use natural CTAs, not engagement bait.',
-'CTA RULE: every platform post EXCEPT Reddit must include, just before its final link/ending, one short natural line inviting people to follow @aixahmad plus a like/share nudge (vary the wording per platform — e.g. LinkedIn "follow + repost ♻️", Facebook "follow + like 👍 & share", X "follow @aixahmad — RT to help someone"). Never on Reddit — Reddit punishes engagement asks.',
-'Wherever the article link belongs, write the literal token [ARTICLE LINK].',
+'SOURCE FACTS SUPPLIED' + (o.excerpt ? ':' : ' — NONE. You have only a headline and a link, which is not enough for a specific post. Unless the headline alone genuinely supports one careful, clearly-hedged idea, return [[STATUS]] needs_input.'),
+(o.excerpt || ''),
 '',
-'OUTPUT EXACTLY in the format below.',
-'Keep every [[MARKER]] on its own line, in this order.',
-'Write nothing before [[HEADLINE]] and nothing after [[END]].',
+(o.note ? 'APPROVED PERSONAL NOTE (real, owner-supplied — firsthand language is allowed only for what this covers):\n' + o.note
+        : 'APPROVED PERSONAL NOTE: none supplied. Do NOT write any firsthand experience claim.'),
 '',
-'[[HEADLINE]]',
-'(Write a compelling, professional headline. Make it specific, clear, and newsworthy. Use strong verbs. Avoid vague hype.)',
+(o.recent ? 'RECENTLY POSTED (do not repeat these angles or openings):\n' + o.recent + '\n' : ''),
+'OUTPUT EXACTLY in this format. Every [[MARKER]] on its own line, nothing before [[STATUS]] and nothing after [[END]].',
 '',
-'[[SUBHEAD]]',
-'(Write one sentence summarizing the story and its significance. Do not simply repeat the headline.)',
+'[[STATUS]]',
+'(one word: draft, needs_input, or skip)',
 '',
-'[[ARTICLE]]',
-'(Write a 500-700 word professional article. Use a strong lede, short paragraphs, clear attribution, context, and significance. Keep the tone neutral, credible, and global. Use only source facts.)',
+'[[POST]]',
+'(the LinkedIn post exactly as it would be published — nothing else, no notes, no labels. Leave empty for needs_input or skip.)',
 '',
 '[[SOURCES]]',
-'(List the original source title and source link provided.)',
+'(the attribution line(s) a reader can check: source name and the link supplied above. Leave empty if none was supplied.)',
 '',
-'[[IMAGE1]]',
-'(Write a ready-to-paste image-generation prompt for the headline graphic. ' + window.HUMAN_IMAGE + ' Render the EXACT headline from [[HEADLINE]] in the bottom band, word for word, nothing else.)',
+'[[REVIEW]]',
+'(private notes for the operator, never part of the post: which sentence rests on which supplied fact; anything that is your interpretation rather than a reported fact; any opinion needing approval before posting; any claim you deliberately left out and why.)',
 '',
-'[[IMAGE2]]',
-'(Write a DIFFERENT image-generation prompt with NO text — a clean realistic hero photo showing another angle, wider context, or the human/business impact of the story. Real photo-based scene (startup office, AI lab, data centre, developer desk, investor meeting, newsroom), natural lighting, realistic shadows and textures, believable human detail. NO sci-fi glow, NO glossy AI look, NO logos, NO watermark, NO text. 16:9.)',
-'',
-'[[LINKEDIN]]',
-'(English. AUDIENCE: professionals, freelancers, founders. Write it as AHMAD GIVING HIS OWN OPINION in simple English — first person, like a person who follows AI daily sharing what he actually thinks, NOT a company update and NOT a news bulletin. Structure: 1) one strong human first line (his reaction or the thing people are missing). 2) 2-3 very short paragraphs: what happened, in plain words. 3) "My take:" — what this really means for professionals/freelancers/builders. 4) one easy, genuine question. Simple everyday words, zero corporate vocabulary, short paragraphs, whitespace. Length: 90-160 words. End exactly with: Read the full story:\n[ARTICLE LINK])',
-'',
-'[[X]]',
-'(English. AUDIENCE: builders, AI-curious people, creators scrolling fast. Write a TEXT-ONLY X post — X downranks posts with links, so NO link and NO [ARTICLE LINK] token anywhere in this post; the link goes in the FIRST REPLY. Write it like Ahmad typing his honest reaction on his phone — the SIMPLEST possible English, short lines, lowercase energy is fine, zero press-release feel. Structure: Line 1 = his reaction to the strongest fact/number ("ok this is actually big" energy, but specific). Lines 2-4 = what happened + who it affects, in plain words. One line of real opinion ("my take:" / "the part nobody mentions:"). FINAL line = one easy question a stranger can answer in 5 seconds (pick a side / share their experience). 0-1 hashtag. Length: 300-700 characters.)',
-'',
-'[[XREPLY]]',
-'(English. The first reply Ahmad posts under his own X post above, carrying the link. One casual line of extra context or "full breakdown here", then the link. End with: [ARTICLE LINK])',
-'',
-'[[REDDIT]]',
-'(English. First line must be a Reddit-style title: descriptive, neutral, specific, not clickbait. Then write a neutral summary of the story in 2-4 short paragraphs. Add one genuine discussion question at the end. Do not ask for upvotes, shares, or engagement. End with [ARTICLE LINK])',
-'',
-'[[FACEBOOK]]',
-'(English. AUDIENCE: normal everyday people, NOT techies. Write it like Ahmad telling a friend at the table what just happened — simplest words possible, first person, a small honest opinion. Focus on what it changes for regular people: jobs, money, phones, kids, daily life. 3-5 short lines, a couple of natural emojis. End with ONE easy question anyone can answer (no "comment YES" / "tag someone" bait). End exactly with: Read the full story:\n[ARTICLE LINK])',
-'',
-'[[INSTAGRAM]]',
-'(English. AUDIENCE: younger creators, students, freelancers — they feel first, read second. Very short simple lines with line breaks. Start with the most relatable line, explain the key fact in plain words, add one honest "my take" line. Light emojis where they fit. 3-6 hashtags max, no stuffing. End exactly with: Read the full story:\n[ARTICLE LINK])',
-'',
-'[[WHATSAPP]]',
-'(English. Write it like a short message to a friends group — direct, simple, zero formality. Biggest fact first, 2-3 short lines, one quick line of your take. Minimal emojis. End exactly with: Read the full story:\n[ARTICLE LINK])',
-'',
-'[[YOUTUBE]]',
-'(English. AUDIENCE: Ahmad\'s own community — people who like AI but prefer watching to reading. Write like a creator talking to his people: first person, warm, curious, simple English. One clear point + why he finds it interesting, then one easy question. Short. End exactly with: Read the full story:\n[ARTICLE LINK])',
+'[[MISSING]]',
+'(only for needs_input: the smallest specific thing needed — e.g. "two or three sentences from the announcement about what actually changed". Otherwise leave empty.)',
 '',
 '[[END]]',
-  ].filter(x => x !== null && x !== undefined).join('\n');
-};
-
-/* ---- Value Post Engine: turn a news story/topic into USEFUL, save-worthy content
-   (how-tos, infographics, carousels) — the kind that actually gets reach. ---- */
-window.buildValuePostPrompt = function (o) {
-  o = o || {};
-  return [
-'You are a content strategist for "AI x Ahmad" (@aixahmad). Plain news posters get scrolled past. Your job: turn this story/topic into USEFUL content people SAVE and SHARE — a how-to, a guide, an explainer, a checklist. The reader must walk away with something they can USE.',
-'',
-'STORY / TOPIC: ' + (o.title || ''),
-(o.source ? 'SOURCE: ' + o.source + '\nFIRST open and read the source carefully. Use ONLY facts from it — never invent steps, numbers, features, or claims. If a detail is not in the source, leave it out.' : 'Use only well-known, safe-to-state facts. Never invent specifics.'),
-'',
-'STEP 1 — find the VALUE ANGLE. Ask: what can a normal person DO with this news? Pick the best one:',
-'- how_to_steps: news says something launched/is free -> "here is how to get/use it in 3-5 easy steps" (e.g. "Google is giving students Gemini Pro free. How to activate it in 3 steps").',
-'- tips_list: turn the topic into 6-10 short practical tips ("How to use Claude without burning your limit").',
-'- explainer_map: break a confusing topic into a simple visual map ("Types of AI — which one solves your problem?").',
-'- analogy: explain it through something everyone knows ("LLM = brain. RAG = brain + books. Agent = brain + hands.").',
-'- comparison: two approaches side by side, with a clear verdict ("vibe coding vs agentic engineering").',
-'- what_it_means_for_you: 3-4 concrete ways this changes things for students / freelancers / builders, and what to do about it.',
-'- mistakes: "X mistakes people make with ___ (and what to do instead)".',
-'- opportunity_alert: a deadline/free thing/job angle -> who should act, how, before when.',
-'',
-'STEP 2 — write the content in Ahmad\'s voice:',
-window.HUMAN_VOICE,
-'',
-'OUTPUT EXACTLY this format, every [[MARKER]] on its own line, nothing before [[VALUE_FORMAT]] or after [[END]]:',
-'',
-'[[VALUE_FORMAT]]',
-'(the angle you chose + one line on why it fits this story)',
-'[[GRAPHIC_TITLE]]',
-'(the big title that goes ON the graphic — max 10 words, benefit-first, e.g. "Get Gemini Pro Free in 3 Steps")',
-'[[SLIDES]]',
-'(a carousel of 5-8 slides for Instagram/TikTok photo-mode. Slide 1 = the hook cover (one bold line + one support line). Middle slides = ONE step/tip/idea each, max 20 words, numbered. Last slide = a soft close: "save this for later" + "follow @aixahmad" + "like ❤️ & share 🔁 if this helped". Write as "Slide 1:", "Slide 2:" etc.)',
-'[[INFOGRAPHIC_PROMPT]]',
-'(ONE detailed image-generation prompt for a single 4:5 infographic that carries the WHOLE value on one image.',
-'STEP A — pick ONE format from this library, the one whose SHAPE fits the content best. HARD RULE: never the format you would pick by default, and never the same format twice in a row — rotate through the whole library over time so no two graphics look alike:',
-'1. HUB & SPOKE — one central circle (topic icon) with arrows out to 4-6 bordered cards; each card = bold name + "Purpose:" one line + "Key features:" 2-3 ticked bullets + "Top uses:" 2-3 bullets + a bordered "Pro Tip:" strip at the card bottom with one quoted example. White background, thin black arrows, cards outlined in ONE accent color. Best for: tools/apps/modes overview.',
-'2. JOURNEY MAP — a numbered winding dotted path (1 → N) of rounded step cards on cream paper, light hand-drawn doodle style with one small illustrated character walking the path; each card = STEP NAME in caps + a short "DO THIS:" paragraph + a tiny highlighted "WHY IT WORKS:" footnote. Best for: multi-step systems, habit guides, 8-14 tips.',
-'3. COMPARISON TABLE — a real table: 3-4 columns with header cells (name + small colored icon, each column a different accent), left criteria column in caps (PURPOSE / STRENGTHS / HOW IT WORKS / BEST FOR / LIMITATIONS), alternating dark row shading, dark charcoal background. Best for: X vs Y vs Z verdicts.',
-'4. VS ROWS — bold statement poster: huge condensed title at top with ONE word in accent color, then 4-6 stacked pill rows each "[myth/bad thing] VS [truth/good thing]" with small icons both sides, dark editorial background. Best for: myth-busting, mindset shifts, contrarian takes.',
-'5. THEN → TODAY LADDER — two labeled columns ("Yesterday" / "Today" or "Old way" / "New way") with an arrow between each word pair, 8-10 rows, big playful title, one bold quote line at the bottom, paper-texture background. Best for: vocabulary shifts, behavior changes, evolution of a workflow.',
-'6. NUMBERED TIP GRID — 2-3 column grid of clean numbered cards, each card = number badge + 5-8 word tip + one support line, small flat icon per card, white/cream background, 1 accent color. Best for: 6-10 independent tips.',
-'7. MIND MAP — dark rounded title box on the left, colored branch lines to 4-6 topic boxes on the right, each branch box with 2-3 short example bullets, flat design. Best for: "types of X" and topic breakdowns.',
-'8. PROMPT CARD — one huge quoted prompt block center-stage in a bordered card (typewriter-style font), numbered heading above it ("1/ [what it does]"), minimal cream background, a "swipe →" or "save this ⤵" hint in the footer corners. Best for: sharing 1-3 copyable prompts.',
-'9. CHECKLIST SHEET — clipboard/checklist style: title band at top, 6-9 rows each with a big ✓ box + short item + one-line why, one row highlighted as "most people skip this", subtle grid paper background. Best for: steal-my-system checklists.',
-'10. DECISION TREE — "START HERE:" question box at top, yes/no arrows branching down to 4-6 outcome boxes each naming the answer + one line of reason, clean flat flowchart, white background. Best for: "which X should you pick" content.',
-'STEP B — vary the LOOK between posts: rotate background theme (white / cream paper / dark charcoal) and rotate the single accent color (electric blue / red / amber / green) to match the mood. Never reuse the previous post\'s theme+accent combo.',
-'STEP C — write the final prompt in full detail: the chosen format and layout placement, every text element word for word (spell EXACTLY, the graphic dies if a word is misspelled), the [[GRAPHIC_TITLE]] as the heading, background theme, accent color, and typography (clean modern editorial, generous spacing, short legible text). Style guard: must look like a human designer made it in Canva/Figma — NO AI-gloss, NO sci-fi glow, NO glowing circuits, NO robots, NO logos/watermarks. ALWAYS end the image with a footer strip: "Follow @aixahmad for more AI tips — like ❤️ & share 🔁".)',
-'CTA RULE — EVERY platform post below must END with a short, natural follow + like/share line (vary the wording per platform, never robotic, never skipped).',
-'[[INSTAGRAM]]',
-'(caption for the carousel/infographic: relatable hook line, 2-4 short simple lines on why this matters, "Save this so you don\'t lose it 🔖", then the closing line "Follow @aixahmad for daily AI tips — like ❤️ & share with a friend", then 3-6 hashtags. Audience: students, young creators, freelancers.)',
-'[[TIKTOK]]',
-'(caption for TikTok photo-mode/video: 1-2 casual hook lines in the simplest English ("nobody talks about this and it\'s free"), end with "follow @aixahmad for more — like & share if this helped", then 3-5 hashtags mixing niche + broad (#ai #aitools + topic tags). ALSO give: "On-screen text:" — the one line to overlay on the first frame.)',
-'[[FACEBOOK]]',
-'(post for normal non-techy people: tell them like a friend — what this is, why it helps them or their kids/work, the 2-3 key steps or takeaways written out simply, then ONE easy question. End with: "Follow AI x Ahmad for more — like 👍 and share this with someone who needs it".)',
-'[[LINKEDIN]]',
-'(first person, simple English: hook on the practical benefit, the value condensed into 3-5 short lines people can act on, "My take:" line, one genuine question. 80-140 words. No corporate words. End with: "Follow @aixahmad for practical AI — repost ♻️ if this was useful".)',
-'[[WHATSAPP]]',
-'(a short WhatsApp Channel message like you\'d send to a friends group: hook line with one emoji, the value in 3-5 ultra-short lines (the steps/tips themselves, not a teaser), then "Forward this to someone who needs it 📤" and one line "Follow the channel for daily AI tips 🔔". No hashtags.)',
-'[[YOUTUBE]]',
-'(a YouTube community post: curiosity first line, the key value in 2-4 simple lines, one easy question to answer in comments. End with: "Like 👍 & share this post — and subscribe for more AI tips like this".)',
-'[[X]]',
-'(TEXT-ONLY, no links: the single most useful insight from this, compressed — hook line, 2-4 value lines, an easy question or "bookmark this". Final line: "follow @aixahmad for more — RT to help someone". Under 600 characters.)',
-'[[END]]',
-  ].filter(x => x !== null && x !== undefined).join('\n');
-};
-
-window.buildSocialPrompt = function (o) {
-  const cfg = window.SOCIAL[o.platform] || window.SOCIAL.facebook;
-  const lang = o.lang === "ur"
-    ? "Write in simple Roman Urdu (Urdu written in English letters) with light English."
-    : "Write in clear, simple English for a global worldwide audience.";
-  const wantLink = o.platform !== "instagram" && o.link;
-  return [
-    'You write social-media posts for "AI x Ahmad" (@aixahmad), a global AI-news brand.',
-    lang, "",
-    cfg.rules, "",
-    window.HUMAN_VOICE, "",
-    "Make it genuinely ENGAGING — a real hook that stops the scroll, not a press release. Simple words, one idea per line.",
-    "End the post with one short natural line: follow @aixahmad + a like/share nudge that fits the platform.",
-    "Base everything ONLY on the story below — never invent facts, numbers, or quotes.", "",
-    "STORY: " + (o.title || ""),
-    (o.body ? "DETAILS: " + String(o.body).replace(/\s+/g, " ").slice(0, 500) : ""),
-    (wantLink ? "LINK (put at the end): " + o.link : ""),
-    "",
-    "Return ONLY the final post text, ready to copy-paste — no options, no notes, no markdown.",
-  ].filter(x => x !== "").join("\n");
+  ].filter(function (x) { return x !== null && x !== undefined; }).join('\n');
 };
 
 /* ---- X Reply Engine: 7 reply styles for a captured post ---- */

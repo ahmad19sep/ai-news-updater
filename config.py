@@ -319,27 +319,10 @@ DIGEST_MAX_PER_PILLAR = 8
 DASHBOARD_URL = "https://radar.hafizahmad.com/studio.html"
 
 # Auto-delete news older than this many days (keeps the archive lean). Runs on
-# every fetch cycle. Note: the Trends tab compares this week vs last week, so a
-# value below 14 limits its "last week" baseline.
-NEWS_RETENTION_DAYS = 7
-
-# ---- Caira (worker task app) auto-dispatch ----------------------------------
-# When a fresh story scores >= CAIRA_SCORE_TARGET it is automatically created as
-# a task in Caira, assigned to whichever editor has the FEWEST pending tasks
-# (load balancing). Runs every fetch cycle (server-side). It needs Caira's API:
-#   CAIRA_API_URL  -> base url (here or via the CAIRA_API_URL env/secret)
-#   CAIRA_API_KEY  -> via GitHub secret / local caira_key.txt (never in code)
-# Caira must expose two endpoints (see caira.py docstring for the exact shapes):
-#   GET  {url}/pending-counts   -> {"<editorId>": <openTaskCount>, ...}
-#   POST {url}/tasks            -> create one task (returns 2xx)
-CAIRA_ENABLED = True
-CAIRA_SCORE_TARGET = 10            # only genuinely big stories auto-dispatch
-# Worker assignees are the two workers' EMAILS (what /api/pending-counts returns
-# and /api/tasks accepts). Empty = auto-discover from pending-counts (manual
-# "Send to <editor>" buttons appear once these are filled with the real emails).
-CAIRA_EDITORS = []
-CAIRA_MAX_PER_RUN = 6              # safety cap: tasks created per fetch cycle
-CAIRA_API_URL = "https://videoflow-sigma.vercel.app/api"
+# every fetch cycle. Must stay ABOVE 14: scoring.compute_trends compares the last
+# 7 days against the 7 before that, so anything under 14 deletes the baseline it
+# needs and every term looks brand new.
+NEWS_RETENTION_DAYS = 30
 
 # ---- "Post this" nudges -------------------------------------------------
 # A gentle, action-oriented alert: every couple of hours (and instantly for a
