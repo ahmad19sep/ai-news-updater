@@ -27,7 +27,12 @@ export default {
     if (!env.APP_TOKEN || body.token !== env.APP_TOKEN) return json({ error: "unauthorized" }, 401);
 
     try {
-      const action = body.action || "writepost";
+      /* Publishing is never the default. A missing or unknown action used to fall
+         through to writepost, so a malformed request posted to the real account. */
+      const action = body.action;
+      if (!["write", "post", "writepost"].includes(action))
+        return json({ error: "unknown action - use write, post or writepost" }, 400);
+
       let tweets = Array.isArray(body.tweets) ? body.tweets : null;
 
       if (action === "write" || action === "writepost") {
