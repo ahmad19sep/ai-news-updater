@@ -1330,9 +1330,9 @@ function makeCard(it) {
     '<div class="meta"><span class="pill">' + PILLARS[it.p] + "</span>" + hot +
     "<span>" + esc(it.s) + "</span><span>" + ago(it.d) + "</span>" +
     '<span class="actions">' +
-    (ROLE === "owner" ? '<button class="nr-btn" title="Newsroom: article + images + all posts">📰</button>' : "") +
-    (ROLE === "owner" ? '<button class="pub-btn" title="Publish to website">🌐</button>' : "") +
-    (ROLE === "owner" ? '<button class="x-btn" title="Post to X">🚀 X</button>' : "") +
+    '<button class="nr-btn" title="Write a LinkedIn post from this story">in Write post</button>' +
+    '<button class="pub-btn" title="Publish this as an article on your website">🌐</button>' +
+    '<button class="x-btn" title="Optional: post this on X">🚀 X</button>' +
     '<button class="db">' + (doneSet.has(it.u) ? "undo" : "done ✓") + "</button>" +
     "</span></div>" + why + extra;
   d.querySelector(".db").onclick = () => {
