@@ -91,6 +91,26 @@ setTimeout(() => {
       throw new Error("wrong story shown");
   });
 
+  /* A modal with no overlay CSS still reports hidden=false while rendering as a
+     plain block at the bottom of the page - it "opens" and the user sees nothing.
+     Assert it is actually positioned over the page. */
+  check("open modals are positioned overlays, not blocks at the page bottom", () => {
+    ["nrmodal", "xmodal", "pubmodal"].forEach(id => {
+      const el = d.getElementById(id);
+      if (!el) throw new Error("missing modal: " + id);
+      const wasHidden = el.hidden;
+      el.hidden = false;
+      const cs = w.getComputedStyle(el);
+      if (cs.position !== "fixed") throw new Error(id + " is not position:fixed (it renders inline)");
+      if (cs.display === "none") throw new Error(id + " stays display:none while open");
+      if (!cs.zIndex || cs.zIndex === "auto") throw new Error(id + " has no stacking order");
+      el.hidden = true;
+      if (w.getComputedStyle(el).display !== "none") throw new Error(id + " still shows when hidden");
+      el.hidden = wasHidden;
+    });
+    d.getElementById("nrmodal").hidden = false;   // leave the draft open for the checks below
+  });
+
   check("insight prompt carries the pasted evidence + audience", () => {
     d.getElementById("nr-excerpt").value = "Example Corp said review stays manual.";
     d.getElementById("nr-aud").value = "engineering leads";

@@ -284,9 +284,13 @@ PAGE = r"""<!doctype html>
   .chk input { width:16px; height:16px; accent-color:#65a30d; }
   .calpost.publish { background:var(--gold-soft); color:var(--gold); }
 
-  /* ---------- ticket modal ---------- */
-  #modal { position:fixed; inset:0; z-index:300; background:rgba(15,23,42,.35);
+  /* ---------- modals: the overlay that centres a .mbox over the page.
+     Without this rule a modal still "opens" (hidden=false) but renders as a
+     plain block at the bottom of the document, so it looks like the button
+     did nothing. [hidden] above is !important, so it still wins when closed. */
+  #xmodal, #pubmodal, #nrmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
+  #pubmodal .mbox, #nrmodal .mbox { max-height:92vh; overflow-y:auto; }
   .mbox { background:var(--surface); border-radius:16px; box-shadow:var(--shadow-lg);
           width:min(520px, 96vw); max-height:92vh; overflow-y:auto; padding:26px 26px 22px; }
   .mbox input[type=text], .mbox textarea { width:100%; }
@@ -2763,18 +2767,29 @@ function nrSaveProfile() {
   }
 }
 function openNewsroom(story) {
-  nrStory = { title: story.t || story.name || "", source: story.u || story.source || "", p: story.p || 0 };
-  nrParsed = {};
-  document.getElementById("nr-story").textContent = "📰 " + (nrStory.title || "(no title)");
-  document.getElementById("nr-in").value = "";
-  document.getElementById("nr-excerpt").value = "";
-  document.getElementById("nr-post").value = "";
-  document.getElementById("nr-aud").value = settings.liAudience || "";
-  document.getElementById("nr-note").value = settings.liNote || "";
-  document.getElementById("nr-visual").value = "";
-  document.getElementById("nr-vwrap").hidden = true;
-  document.getElementById("nr-parsed").hidden = true;
-  document.getElementById("nrmodal").hidden = false;
+  /* Anything failing in here used to mean the button did nothing at all, with no
+     hint why. Open the panel FIRST, fill it after, and say out loud if a step
+     breaks — a visible complaint beats a dead button. */
+  const modal = document.getElementById("nrmodal");
+  if (!modal) { alert("This page is an old cached copy — press Ctrl+Shift+R to reload it."); return; }
+  modal.hidden = false;
+  try {
+    nrStory = { title: story.t || story.name || "", source: story.u || story.source || "", p: story.p || 0 };
+    nrParsed = {};
+    const set = (id, val, prop) => {
+      const el = document.getElementById(id);
+      if (!el) throw new Error("missing " + id);
+      el[prop || "value"] = val;
+    };
+    set("nr-story", "📰 " + (nrStory.title || "(no title)"), "textContent");
+    set("nr-in", ""); set("nr-excerpt", ""); set("nr-post", ""); set("nr-visual", "");
+    set("nr-aud", (settings && settings.liAudience) || "");
+    set("nr-note", (settings && settings.liNote) || "");
+    set("nr-vwrap", true, "hidden");
+    set("nr-parsed", true, "hidden");
+  } catch (e) {
+    toast("Draft box opened with a problem: " + e.message);
+  }
 }
 function closeNewsroom() { document.getElementById("nrmodal").hidden = true; }
 document.getElementById("nrmodal").addEventListener("click", e => { if (e.target.id === "nrmodal") closeNewsroom(); });
