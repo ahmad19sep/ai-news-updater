@@ -17,28 +17,28 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
    https://www.nature.com/articles/d41586-026-02842-5
 5. **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — science angle
    https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
-6. **AI-Discovered Drug Reverses Aging Markers In Study, Biotech Says - Bloomberg.com** — science angle
-   https://news.google.com/rss/articles/CBMitAFBVV95cUxNV2ExNmF2c0tWUms4bG5veXpLNC1DSWhaenp4U2R0SERxNjRrdFV2S0dPZGdsYUpBOGpQX2lQTDB4S2xGUktlN2NDNHBLSlFSckdCLXY2R0FPbUtTa1NfcVowNmE1NFJ4eTZ3OWthT0hfMlpMWEM5amtzaU9PS3NwWEw1NWlaOVZqTll4Q2FBNXNaQTB6YzdCX1B5dEE5R1hLblN6bVo0MElZZE0wVzd1d19UNTU?oc=5
-7. **Put patients at the centre of medical AI governance** — science angle
+6. **Put patients at the centre of medical AI governance** — science angle
    https://www.nature.com/articles/d41586-026-02796-8
-8. **IIT-G researchers launch energy efficient brain AI** — science angle
+7. **IIT-G researchers launch energy efficient brain AI** — science angle
    https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
+8. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas** — Using AI To... — Score 183
    https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oOUZ6c0xXeWxiREhXM1BMbGRhVFJhVUZ5alBxT25RVTdOdkdTanRPcmpKUFZac2ZvdGl4LVNlQUxwalNlbUxWQUpIeVJRaE9LQ05LVFZnUUVzQzhKa2k0Uy1iNWFqVUJJVzhsWUtKUjh1a1Eyd3RzazRGTldBd1NPVHBPZ09XWFBWNGVmVl9WSUhDMUg?oc=5
-2. **Leo HR launches AI assistant for workplace issues** — itbrief_co_nz — Score 103
-   https://itbrief.co.nz/story/leo-hr-launches-ai-assistant-for-workplace-issues
-3. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 101
-   https://www.ricentral.com/online_features/press_releases/iron-the-worlds-first-advanced-general-purpose-humanoid-robot-walks-off-the-production-lines-as/article_f3ffcea5-6d25-58e0-9857-85e67551fca9.html
-4. **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News** — Elon Musk AI News — Score 86
+2. **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News** — Elon Musk AI News — Score 116
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM3RFamdGano3X1dhazNQUm1jRU1uVHlIdmVQRldld25nOXJHak9ZRnd4a2FvRjlMTTBpZ2duZEpib2RYSTk3R0hXbU03eXVZUHYtNkdGaVVoeDctRnc2VGtLUGZxNFVtSFI5UW4xME91cEd3ZGtsRFB5blRMTkdhLVNxSVpxUGJwNmgydGhsSnRtMUZsYWdGUExQLUpUNkI?oc=5
-5. **Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters** — Elon Musk AI News — Score 77
-   https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1VRQXhtR19VS2tKbVEzTnB6YjFUNl8zV3NFSURDZDRTcmZRS2tHa0RPOHdlMklXMWVSckNXdm5HWjdYNWhSTlFNeUlkdWFxWHo2SFdXU19ieWlQaUlEUjNrUjJkV1JSajZaNGxxUkVkM19qR2NOMkZvcWMwRHpIVTJybUlQZFB2ZmpvRy1CeURQcmp0ZFctU3RzMnItM29yajY5blZoT1ZjY0cwWFg1aVFoSGtpZw?oc=5
-6. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
-7. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 71
+3. **Leo HR launches AI assistant for workplace issues** — itbrief_co_nz — Score 103
+   https://itbrief.co.nz/story/leo-hr-launches-ai-assistant-for-workplace-issues
+4. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 101
+   https://www.ricentral.com/online_features/press_releases/iron-the-worlds-first-advanced-general-purpose-humanoid-robot-walks-off-the-production-lines-as/article_f3ffcea5-6d25-58e0-9857-85e67551fca9.html
+5. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 81
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSjhPM2huRWVLX3Q5c2Z5U2FDWEMxV3FXVndReTNWN2dYeTFwckpLYmlxcVc3S2RsemdZZzY4UEtXYVRsZG5DanFpcVhzazR1dXJNTzVDR19IYWpvdm9NMUpEVzBqRnJvdXhzd0VzR2hwMTNQZ3JhSTNJOElYZHd4b0lJUWJwVXoxUXlEOUpCamhwaDV3RXZ2R0lDTTZxVGxDNDFIZ1NDYW1ta3dDeTBnN3RqVVlrMUNZVWwwQTRFQml6MjNUbGwxcUpuR2N1MlBzNW4zaVNVazlhTUx0QVNleksxR1U5QzdocUQ0eUY3ZHZJbkU1MnhTWkNxOHE?oc=5
+6. **Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters** — Elon Musk AI News — Score 77
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1VRQXhtR19VS2tKbVEzTnB6YjFUNl8zV3NFSURDZDRTcmZRS2tHa0RPOHdlMklXMWVSckNXdm5HWjdYNWhSTlFNeUlkdWFxWHo2SFdXU19ieWlQaUlEUjNrUjJkV1JSajZaNGxxUkVkM19qR2NOMkZvcWMwRHpIVTJybUlQZFB2ZmpvRy1CeURQcmp0ZFctU3RzMnItM29yajY5blZoT1ZjY0cwWFg1aVFoSGtpZw?oc=5
+7. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
 8. **Nvidia CEO urges G20 to avoid AI rules on 'theoretical' harms - The Detroit News** — Jensen Huang News — Score 63
    https://news.google.com/rss/articles/CBMiywFBVV95cUxNUGliS1U4aHMtQVlBNEtyTV96b0Vma1JLaXdmOGs0S3FvYmkyUHJWLUJvdFRRb0VCNWdDZ2hfRGU5WElpSi1QRzliVzQ3bERuQ0pXTUlYdmZ1SWoyN3hGejNIWUx5YjFOVk9XUDFmRWNMdHB4NklyVklRa1RLTTV4SDAtOWVrZEpBNGFPdjc3Y3dMNGFKeDZuQmM0djRSWDRMZnRxZ3NXQjZpTlJnYVVudml6N2tDSWd1ckVSbzN2dmExY0ozV3dIeVFzMA?oc=5
 9. **GPT-6 Astra** — Hacker News AI — Score 63
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3014
+- Total stories tracked: 3027
 - Most active topic: openai
 - Busiest category: AI General News
 
