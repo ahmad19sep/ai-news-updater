@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T16:26:52.393215+00:00",
+  "generated_at": "2026-09-10T20:54:07.413698+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,13 +8,66 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 29,
+      "reddit": 50,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/",
+          "signal": "DeepSeek V4-1 Flash is out"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcagoi/deepseekaideepseekv41flash_hugging_face/",
+          "signal": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcdati/deepseekv41flash_surprised/",
+          "signal": "DeepSeek-V4.1-Flash surprised ...."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcd4rx/deepseek_v41_flash_is_748b_not_552b/",
+          "signal": "Deepseek V4.1 Flash is 748B, not 552B"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctnzd/livebench_added_deepseek_v41_flash/",
+          "signal": "Livebench added Deepseek v4.1 flash"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -58,68 +111,14 @@
           "signal": "Apparently ChatGPT added Snake while your image is generating.."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wch83h/chatgpt_is_paranoid_about_giving_wrong_information/",
-          "signal": "ChatGPT is paranoid about giving wrong information"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
+          "signal": "Chatgpt top 3 useful code ✅"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcivh8/i_built_a_way_to_book_flights_in_chatgpt_and/",
-          "signal": "I built a way to book flights in ChatGPT and saved $150."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Muse – Meta’s personal AI agent",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ai.meta.com/muse/",
-          "signal": "Muse – Meta’s personal AI agent"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=muc_dBSxh5E",
+          "signal": "The new version of ChatGPT is SCARY 😭"
         }
       ],
       "content_ideas": []
@@ -245,60 +244,6 @@
       "content_ideas": []
     },
     {
-      "name": "Mercury 2.5",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
-          "signal": "Mercury 2.5"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Flights cancelled at UK airports due to ATC issue",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
-          "signal": "Flights cancelled at UK airports due to ATC issue"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "I'm sorry, you're not going to die from an AI-engineered supervirus",
       "category": "use_case",
       "momentum": "rising",
@@ -378,6 +323,100 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Rock band Muse lose social media handles to Meta’s new AI tool",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.the-independent.com/arts-entertainment/music/news/muse-band-meta-ai-tool-handle-b3047291.html",
+          "signal": "Rock band Muse lose social media handles to Meta’s new AI tool"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/OtoDock/oto-dock",
+          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
+          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
+          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A Stupid Idea for AI Alignment We Came with by Looking at Specificatio",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/",
+          "signal": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -386,7 +425,8 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -404,6 +444,31 @@
           "platform": "hackernews",
           "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
           "signal": "DeepSeek v4.1 Flash"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/",
+          "signal": "DeepSeek V4-1 Flash is out"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcagoi/deepseekaideepseekv41flash_hugging_face/",
+          "signal": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcdati/deepseekv41flash_surprised/",
+          "signal": "DeepSeek-V4.1-Flash surprised ...."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcd4rx/deepseek_v41_flash_is_748b_not_552b/",
+          "signal": "Deepseek V4.1 Flash is 748B, not 552B"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctnzd/livebench_added_deepseek_v41_flash/",
+          "signal": "Livebench added Deepseek v4.1 flash"
         }
       ],
       "content_ideas": []
@@ -490,14 +555,54 @@
           "signal": "Apparently ChatGPT added Snake while your image is generating.."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wch83h/chatgpt_is_paranoid_about_giving_wrong_information/",
-          "signal": "ChatGPT is paranoid about giving wrong information"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
+          "signal": "Chatgpt top 3 useful code ✅"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcivh8/i_built_a_way_to_book_flights_in_chatgpt_and/",
-          "signal": "I built a way to book flights in ChatGPT and saved $150."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=muc_dBSxh5E",
+          "signal": "The new version of ChatGPT is SCARY 😭"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/OtoDock/oto-dock",
+          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
+          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
+          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
         }
       ],
       "content_ideas": []
@@ -517,5 +622,5 @@
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Deepseek — strongest signal this cycle"
 }
