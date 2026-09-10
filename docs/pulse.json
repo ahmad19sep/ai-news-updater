@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:57:34.701087+00:00",
+  "generated_at": "2026-09-10T04:46:42.679023+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 32,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": null
@@ -179,33 +179,6 @@
       "content_ideas": []
     },
     {
-      "name": "AlphaGenome Atlas: a high-resolution map of human DNA",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-          "signal": "AlphaGenome Atlas: a high-resolution map of human DNA"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AirPods 5",
       "category": "use_case",
       "momentum": "rising",
@@ -228,6 +201,33 @@
           "platform": "hackernews",
           "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
           "signal": "AirPods 5"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "signal": "AlphaGenome Atlas: a high-resolution map of human DNA"
         }
       ],
       "content_ideas": []
@@ -473,42 +473,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wbcahf/a_guy_dropped_a_computer_into_the_simulation_his/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "OpenAI might’ve cheated when solving the Navier-Stokes millennium-prize problem; problems with AI in academics",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb0qn9/openai_mightve_cheated_when_solving_the/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "My remaining 50% limit vanished in a few seconds.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbruoi/my_remaining_50_limit_vanished_in_a_few_seconds/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "wtf usage bug?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbsjt6/wtf_usage_bug/"
         }
       ],
       "content_opportunity": ""
