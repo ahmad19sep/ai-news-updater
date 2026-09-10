@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://openai.com/index/gpt-6-astra/
 7. **USDA to test satellites, AI to try to improve crop estimates amid farmer criticism - Reuters** — AI in Agriculture — Score 62
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTzJlc1IxSnBNVlBndHZMS1kwYVlDX0ZMdWh6NUpST05rNjJhX21oSHBoRkROUjVoUVcycTZuaTZPYk8tXzBDdjRvdjlJaDBHMkNTdlF1VnZmQmxVRnI0empNaTEyQ211Ulh2Z0wtbXFmYUJJZWRCakUwYld4Sk5BbjlTa29sTk1Kd20xMEMxR1hyVWdGb29Hb0twOUdZeUZYOE9TOFplT2NORTB0ZGNmbEpkVl9Hd2Fq?oc=5
-8. **OpenAI launches GPT-6 Astra** — Hacker News new — Score 58.0
-   https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra
-9. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — Using AI To... — Score 58
+8. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — Using AI To... — Score 58
    https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-10. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
+9. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2p6T2t1SnRFdXBEbGM3SkxScFJ1Ny1FVGtFYTRRcWdiYTdodXI0Zmc1Nkd0eHNKSWFXWE1GdFdXR3pQUDBEZjFkWWRud015cmhEVkhyS1d6YTJSU0JBQzN2MnA5RGxmTHZNamVWTU1lYUNyOHp2OGZkNjJxMm9xWmZlNHhKYnZo?oc=5
+10. **China's DeepSeek launches V4.1-Flash model - Reuters** — DeepSeek News — Score 55
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzlkZDJjakNKZnV2VEtEYUU4b3VmQWtHWnI3eFp4WlFDRzdTM3dfTENUMWtiY2FrcUFnYVZMeGR6ZEczWDBzZDZHWVhvd0FRUnRibnlBOXk5Q2h2aTRUWnAzZVMzcEtscnZxcjVxSEI5ZmRBYmVXVHd6TmQ0ekhNVUZTYzgzbHM3VExhbEZhZENzN1dWaUZwR3Bjcw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 - **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3101
+- Total stories tracked: 3051
 - Most active topic: openai
 - Busiest category: AI General News
 
