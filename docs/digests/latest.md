@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 02 Sep 2026 to 09 Sep 2026
+# 🗞️ AI THIS WEEK — 03 Sep 2026 to 10 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **PHOTOS: Hikers rescued from Mt. Shasta after using AI to plan trip - K8 News | Jonesboro, Arkansas**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXByNVA0MF9oO
 - **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3114
+- Total stories tracked: 3086
 - Most active topic: openai
 - Busiest category: AI General News
 
