@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:23:51.371893+00:00",
+  "generated_at": "2026-09-10T16:26:52.393215+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcj3av/chatgpt6_astra_built_a_playable_3d_game_scene_by/",
+          "signal": "ChatGPT-6 Astra Built a Playable 3D Game Scene by Generating the Assets It Needed"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wcf1z7/apparently_chatgpt_added_snake_while_your_image/",
           "signal": "Apparently ChatGPT added Snake while your image is generating.."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbmftd/chatgpt_create_a_map_of_the_us_showing_what_every/",
-          "signal": "ChatGPT, create a map of the US showing what every state stereotypically stands for."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wch83h/chatgpt_is_paranoid_about_giving_wrong_information/",
+          "signal": "ChatGPT is paranoid about giving wrong information"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb6fqe/asked_chatgpt_to_make_the_most_realistic_human/",
-          "signal": "Asked ChatGPT to make the most realistic human image possible. Are there any tells it's AI? (I'm not good at detecting them)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbda00/and_they_say_chatgpt_isnt_reliable/",
-          "signal": "And they say chatgpt isn't reliable..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcivh8/i_built_a_way_to_book_flights_in_chatgpt_and/",
+          "signal": "I built a way to book flights in ChatGPT and saved $150."
         }
       ],
       "content_ideas": []
@@ -98,8 +98,8 @@
       "content_ideas": []
     },
     {
-      "name": "LibreOffice breaks download records after declaring it has no AI featu",
-      "category": "use_case",
+      "name": "Deepseek",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -112,41 +112,14 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-          "signal": "LibreOffice breaks download records after declaring it has no AI features"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Tao: Open math problems being non-renewably mined by AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mathstodon.xyz/@tao/117237320796901560",
-          "signal": "Tao: Open math problems being non-renewably mined by AI"
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
         }
       ],
       "content_ideas": []
@@ -179,7 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "name": "Tao: Open math problems being non-renewably mined by AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -199,62 +172,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-          "signal": "AlphaGenome Atlas: a high-resolution map of human DNA"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "We Must Return to the Office to Use AI in Person",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-          "signal": "We Must Return to the Office to Use AI in Person"
+          "url": "https://mathstodon.xyz/@tao/117237320796901560",
+          "signal": "Tao: Open math problems being non-renewably mined by AI"
         }
       ],
       "content_ideas": []
@@ -282,6 +201,45 @@
           "platform": "hackernews",
           "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
           "signal": "How An AI math breakthrough ignited a controversy"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+          "signal": "Mathematicians want proof OpenAI didn't use their work"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://ploum.net/2026-09-09-ai_policy.html",
+          "signal": "I Don't Want to Interact with Stochastic Parrots"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
+          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
         }
       ],
       "content_ideas": []
@@ -341,6 +299,33 @@
       "content_ideas": []
     },
     {
+      "name": "I'm sorry, you're not going to die from an AI-engineered supervirus",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from",
+          "signal": "I'm sorry, you're not going to die from an AI-engineered supervirus"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Muse, the band, lost its social media handles to Muse, Meta's new AI a",
       "category": "use_case",
       "momentum": "rising",
@@ -363,6 +348,33 @@
           "platform": "hackernews",
           "url": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
           "signal": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gambling with our lives: AI researcher quits Anthropic with warning ab",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/",
+          "signal": "Gambling with our lives: AI researcher quits Anthropic with warning about safety"
         }
       ],
       "content_ideas": []
@@ -392,6 +404,45 @@
           "platform": "hackernews",
           "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
           "signal": "DeepSeek v4.1 Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+          "signal": "Mathematicians want proof OpenAI didn't use their work"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://ploum.net/2026-09-09-ai_policy.html",
+          "signal": "I Don't Want to Interact with Stochastic Parrots"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
+          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
         }
       ],
       "content_ideas": []
@@ -430,23 +481,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcj3av/chatgpt6_astra_built_a_playable_3d_game_scene_by/",
+          "signal": "ChatGPT-6 Astra Built a Playable 3D Game Scene by Generating the Assets It Needed"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wcf1z7/apparently_chatgpt_added_snake_while_your_image/",
           "signal": "Apparently ChatGPT added Snake while your image is generating.."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbmftd/chatgpt_create_a_map_of_the_us_showing_what_every/",
-          "signal": "ChatGPT, create a map of the US showing what every state stereotypically stands for."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wch83h/chatgpt_is_paranoid_about_giving_wrong_information/",
+          "signal": "ChatGPT is paranoid about giving wrong information"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wb6fqe/asked_chatgpt_to_make_the_most_realistic_human/",
-          "signal": "Asked ChatGPT to make the most realistic human image possible. Are there any tells it's AI? (I'm not good at detecting them)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbda00/and_they_say_chatgpt_isnt_reliable/",
-          "signal": "And they say chatgpt isn't reliable..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcivh8/i_built_a_way_to_book_flights_in_chatgpt_and/",
+          "signal": "I built a way to book flights in ChatGPT and saved $150."
         }
       ],
       "content_ideas": []
@@ -456,23 +507,11 @@
     {
       "problem": "Codex just saved me from spending $2,000 on an internet problem I’ve had for 8 years",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbpbxz/codex_just_saved_me_from_spending_2000_on_an/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "A guy dropped a computer into the simulation his Astra agents live in. One agent sat down and built a simulation of his own, with its own ag",
-      "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbcahf/a_guy_dropped_a_computer_into_the_simulation_his/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbpbxz/codex_just_saved_me_from_spending_2000_on_an/"
         }
       ],
       "content_opportunity": ""
