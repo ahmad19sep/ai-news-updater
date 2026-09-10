@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T04:46:42.679023+00:00",
+  "generated_at": "2026-09-10T11:23:51.371893+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -44,6 +44,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wceing/i_have_asked_chatgpt_to_give_me_a_realistic/",
+          "signal": "I have asked ChatGPT to give me a realistic scenario of how AI would lead to human extinction"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcf1z7/apparently_chatgpt_added_snake_while_your_image/",
+          "signal": "Apparently ChatGPT added Snake while your image is generating.."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wbmftd/chatgpt_create_a_map_of_the_us_showing_what_every/",
           "signal": "ChatGPT, create a map of the US showing what every state stereotypically stands for."
         },
@@ -56,43 +66,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wbda00/and_they_say_chatgpt_isnt_reliable/",
           "signal": "And they say chatgpt isn't reliable..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbohy8/i_accidentally_built_myself_an_executive_staff_in/",
-          "signal": "I accidentally built myself an executive staff in ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
-          "signal": "Chatgpt top 3 useful code ✅"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-          "signal": "Mistral raises €3B"
         }
       ],
       "content_ideas": []
@@ -233,6 +206,33 @@
       "content_ideas": []
     },
     {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "We Must Return to the Office to Use AI in Person",
       "category": "use_case",
       "momentum": "rising",
@@ -341,7 +341,7 @@
       "content_ideas": []
     },
     {
-      "name": "Gambling with our lives: AI researcher quits Anthropic with warning ab",
+      "name": "Muse, the band, lost its social media handles to Muse, Meta's new AI a",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -361,14 +361,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/",
-          "signal": "Gambling with our lives: AI researcher quits Anthropic with warning about safety"
+          "url": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
+          "signal": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -398,6 +425,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wceing/i_have_asked_chatgpt_to_give_me_a_realistic/",
+          "signal": "I have asked ChatGPT to give me a realistic scenario of how AI would lead to human extinction"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcf1z7/apparently_chatgpt_added_snake_while_your_image/",
+          "signal": "Apparently ChatGPT added Snake while your image is generating.."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wbmftd/chatgpt_create_a_map_of_the_us_showing_what_every/",
           "signal": "ChatGPT, create a map of the US showing what every state stereotypically stands for."
         },
@@ -410,43 +447,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wbda00/and_they_say_chatgpt_isnt_reliable/",
           "signal": "And they say chatgpt isn't reliable..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbohy8/i_accidentally_built_myself_an_executive_staff_in/",
-          "signal": "I accidentally built myself an executive staff in ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
-          "signal": "Chatgpt top 3 useful code ✅"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-          "signal": "Mistral raises €3B"
         }
       ],
       "content_ideas": []
@@ -468,7 +468,7 @@
     {
       "problem": "A guy dropped a computer into the simulation his Astra agents live in. One agent sat down and built a simulation of his own, with its own ag",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
