@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:30:59.945922+00:00",
+  "generated_at": "2026-09-11T20:59:57.723124+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -71,18 +71,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdj748/asked_chatgpt_to_roast_meended_up_giving_me_a/",
-          "signal": "Asked ChatGPT to roast me.....ended up giving me a reality check 🫠"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdpnod/how_much_trouble_would_you_be_in_if_all_your/",
+          "signal": "How much trouble would you be in if all your chats with ChatGPT got leaked?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdi61g/i_stopped_asking_long_chatgpt_chats_to_summarise/",
-          "signal": "I stopped asking long ChatGPT chats to summarise themselves..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdgm9r/can_i_enhance_chatgpt_images/",
-          "signal": "Can i 'enhance' chatgpt images?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
+          "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
         },
         {
           "platform": "reddit",
@@ -93,33 +88,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
           "signal": "Chatgpt top 3 useful code ✅"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AirPods 5",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-          "signal": "AirPods 5"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l7_6KBNadjI",
+          "signal": "A.I. - The End Game 💀 ( Chatgpt Ultra ) | Kuldeep Singhaniaa #shorts"
         }
       ],
       "content_ideas": []
@@ -152,6 +125,33 @@
       "content_ideas": []
     },
     {
+      "name": "A misalignment of AI in mathematics",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mathandai.org/",
+          "signal": "A misalignment of AI in mathematics"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "The Waymo effect: how AI is quietly making research less collaborative",
       "category": "use_case",
       "momentum": "rising",
@@ -179,13 +179,11 @@
       "content_ideas": []
     },
     {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Feeling Sad about AI",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -195,24 +193,14 @@
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-          "signal": "Mathematicians want proof OpenAI didn't use their work"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://ploum.net/2026-09-09-ai_policy.html",
-          "signal": "I Don't Want to Interact with Stochastic Parrots"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
-          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
+          "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+          "signal": "Feeling Sad about AI"
         }
       ],
       "content_ideas": []
@@ -285,7 +273,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -295,6 +283,67 @@
           "platform": "hackernews",
           "url": "https://ronjeffries.com/articles/-v026/x/t/",
           "signal": "Resist \"AI\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+          "signal": "Mathematicians want proof OpenAI didn't use their work"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
+          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Hacker News, Without AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.unslop.news/",
+          "signal": "Show HN: Hacker News, Without AI"
         }
       ],
       "content_ideas": []
@@ -325,112 +374,9 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-          "signal": "The Gemini app is now available for Windows"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
-          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Muse, the band, lost its social media handles to Muse, Meta's new AI a",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
-          "signal": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-          "signal": "The Gemini app is now available for Windows"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
-          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Deepseek",
       "category": "tool_launch",
@@ -487,18 +433,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdj748/asked_chatgpt_to_roast_meended_up_giving_me_a/",
-          "signal": "Asked ChatGPT to roast me.....ended up giving me a reality check 🫠"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdpnod/how_much_trouble_would_you_be_in_if_all_your/",
+          "signal": "How much trouble would you be in if all your chats with ChatGPT got leaked?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdi61g/i_stopped_asking_long_chatgpt_chats_to_summarise/",
-          "signal": "I stopped asking long ChatGPT chats to summarise themselves..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdgm9r/can_i_enhance_chatgpt_images/",
-          "signal": "Can i 'enhance' chatgpt images?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
+          "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
         },
         {
           "platform": "reddit",
@@ -509,6 +450,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
           "signal": "Chatgpt top 3 useful code ✅"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l7_6KBNadjI",
+          "signal": "A.I. - The End Game 💀 ( Chatgpt Ultra ) | Kuldeep Singhaniaa #shorts"
         }
       ],
       "content_ideas": []
@@ -516,7 +462,7 @@
     {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "hackernews",
         "linkedin_inferred",
@@ -528,7 +474,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -540,11 +486,6 @@
           "signal": "Mathematicians want proof OpenAI didn't use their work"
         },
         {
-          "platform": "hackernews",
-          "url": "https://ploum.net/2026-09-09-ai_policy.html",
-          "signal": "I Don't Want to Interact with Stochastic Parrots"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
           "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
@@ -553,19 +494,6 @@
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Can't continue conversations",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wd8pyy/cant_continue_conversations/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Deepseek — strongest signal this cycle"
 }
