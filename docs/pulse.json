@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:54:07.413698+00:00",
+  "generated_at": "2026-09-11T04:44:43.208752+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,66 +8,13 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 32,
+      "reddit": 25,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/",
-          "signal": "DeepSeek V4-1 Flash is out"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcagoi/deepseekaideepseekv41flash_hugging_face/",
-          "signal": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcdati/deepseekv41flash_surprised/",
-          "signal": "DeepSeek-V4.1-Flash surprised ...."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcd4rx/deepseek_v41_flash_is_748b_not_552b/",
-          "signal": "Deepseek V4.1 Flash is 748B, not 552B"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctnzd/livebench_added_deepseek_v41_flash/",
-          "signal": "Livebench added Deepseek v4.1 flash"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -107,18 +54,45 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcf1z7/apparently_chatgpt_added_snake_while_your_image/",
-          "signal": "Apparently ChatGPT added Snake while your image is generating.."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcwdg8/a_small_chatgpt_use_case_finding_the_word_thats/",
+          "signal": "A small ChatGPT use case: finding the word that's almost on the tip of your tongue"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wd56qb/why_does_chatgpt_like_using_linebreaks_so_much/",
+          "signal": "Why does ChatGPT like using linebreaks so much when using stories and doing roleplay?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
           "signal": "Chatgpt top 3 useful code ✅"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=muc_dBSxh5E",
-          "signal": "The new version of ChatGPT is SCARY 😭"
+          "platform": "hackernews",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
         }
       ],
       "content_ideas": []
@@ -146,33 +120,6 @@
           "platform": "hackernews",
           "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
           "signal": "AirPods 5"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Tao: Open math problems being non-renewably mined by AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mathstodon.xyz/@tao/117237320796901560",
-          "signal": "Tao: Open math problems being non-renewably mined by AI"
         }
       ],
       "content_ideas": []
@@ -207,7 +154,7 @@
     {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "linkedin_inferred",
@@ -239,6 +186,78 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
           "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Detecting and countering misuse of AI: September 2026",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "signal": "Detecting and countering misuse of AI: September 2026"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/OtoDock/oto-dock",
+          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire/",
+          "signal": "Anthropic CEOs wife once asked Epstein to fund porn venture – now steers Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
+          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
+          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
         }
       ],
       "content_ideas": []
@@ -352,46 +371,6 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/OtoDock/oto-dock",
-          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
-          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
-          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "A Stupid Idea for AI Alignment We Came with by Looking at Specificatio",
       "category": "use_case",
       "momentum": "rising",
@@ -421,20 +400,22 @@
   ],
   "rising_tools": [
     {
-      "name": "Deepseek",
+      "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
-        "reddit"
+        "instagram_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
+      "best_format": "reel",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -442,72 +423,23 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/",
-          "signal": "DeepSeek V4-1 Flash is out"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcagoi/deepseekaideepseekv41flash_hugging_face/",
-          "signal": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcdati/deepseekv41flash_surprised/",
-          "signal": "DeepSeek-V4.1-Flash surprised ...."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcd4rx/deepseek_v41_flash_is_748b_not_552b/",
-          "signal": "Deepseek V4.1 Flash is 748B, not 552B"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctnzd/livebench_added_deepseek_v41_flash/",
-          "signal": "Livebench added Deepseek v4.1 flash"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-          "signal": "Mathematicians want proof OpenAI didn't use their work"
+          "url": "https://github.com/OtoDock/oto-dock",
+          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
         },
         {
           "platform": "hackernews",
-          "url": "https://ploum.net/2026-09-09-ai_policy.html",
-          "signal": "I Don't Want to Interact with Stochastic Parrots"
+          "url": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire/",
+          "signal": "Anthropic CEOs wife once asked Epstein to fund porn venture – now steers Claude"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
-          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
+          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
+          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
         }
       ],
       "content_ideas": []
@@ -551,39 +483,36 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcf1z7/apparently_chatgpt_added_snake_while_your_image/",
-          "signal": "Apparently ChatGPT added Snake while your image is generating.."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wcwdg8/a_small_chatgpt_use_case_finding_the_word_thats/",
+          "signal": "A small ChatGPT use case: finding the word that's almost on the tip of your tongue"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wd56qb/why_does_chatgpt_like_using_linebreaks_so_much/",
+          "signal": "Why does ChatGPT like using linebreaks so much when using stories and doing roleplay?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
           "signal": "Chatgpt top 3 useful code ✅"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=muc_dBSxh5E",
-          "signal": "The new version of ChatGPT is SCARY 😭"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -591,36 +520,52 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/OtoDock/oto-dock",
-          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+          "signal": "Mathematicians want proof OpenAI didn't use their work"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
-          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
+          "platform": "hackernews",
+          "url": "https://ploum.net/2026-09-09-ai_policy.html",
+          "signal": "I Don't Want to Interact with Stochastic Parrots"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
-          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
+          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Codex just saved me from spending $2,000 on an internet problem I’ve had for 8 years",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbpbxz/codex_just_saved_me_from_spending_2000_on_an/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
-  "tool_of_week_candidate": "Deepseek — strongest signal this cycle"
+  "pain_points": [],
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
