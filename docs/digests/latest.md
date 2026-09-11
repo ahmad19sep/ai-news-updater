@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 6. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
    https://www.nature.com/articles/d41586-026-02026-1
-7. **IIT-G researchers launch energy efficient brain AI** — science angle
+7. **Scientists just made quantum computer operations 1,000 times faster** — science angle
+   https://www.sciencedaily.com/releases/2026/09/260911003845.htm
+8. **IIT-G researchers launch energy efficient brain AI** — science angle
    https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
-8. **AI-Discovered Drug Reverses Aging Markers In Study, Biotech Says - Bloomberg.com** — science angle
-   https://news.google.com/rss/articles/CBMitAFBVV95cUxNV2ExNmF2c0tWUms4bG5veXpLNC1DSWhaenp4U2R0SERxNjRrdFV2S0dPZGdsYUpBOGpQX2lQTDB4S2xGUktlN2NDNHBLSlFSckdCLXY2R0FPbUtTa1NfcVowNmE1NFJ4eTZ3OWthT0hfMlpMWEM5amtzaU9PS3NwWEw1NWlaOVZqTll4Q2FBNXNaQTB6YzdCX1B5dEE5R1hLblN6bVo0MElZZE0wVzd1d19UNTU?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News** — Elon Musk AI News — Score 123
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 - **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3048
+- Total stories tracked: 3051
 - Most active topic: openai
 - Busiest category: AI General News
 
