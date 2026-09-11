@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 03 Sep 2026 to 10 Sep 2026
+# 🗞️ AI THIS WEEK — 04 Sep 2026 to 11 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News**
@@ -7,22 +7,22 @@ Best source link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfV
 All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM3RFamdGano3X1dhazNQUm1jRU1uVHlIdmVQRldld25nOXJHak9ZRnd4a2FvRjlMTTBpZ2duZEpib2RYSTk3R0hXbU03eXVZUHYtNkdGaVVoeDctRnc2VGtLUGZxNFVtSFI5UW4xME91cEd3ZGtsRFB5blRMTkdhLVNxSVpxUGJwNmgydGhsSnRtMUZsYWdGUExQLUpUNkI?oc=5 · https://news.google.com/rss/articles/CBMi-gFBVV95cUxNWVBBbThYOFZMeE9iZ2x5X2VhbUFFSlV3SXlrZXhDRmt1X1JfNENmQjM3NVNEckVTb2ptMFp4RkU0S2dVaklZaVdaR1pzTDRKRHk5TjVsR2hINEJXQXpuTU54WTU3dGNVdEotUkx3NUpINko0UUtleEFFNlF6RGIzV0VyMTg4TDRYMU5wRGExTEVZNHlxb2Zra21BMnJ2ZDZXRUZIa0JpQ2lIcHlkQlpOVnU2ZmpNaVItZmRvMnA4ZlFraFZQSGZMek5acFJJR3VTeWRLUjFJZDF4WEM4dEs3VTVZdkdFbXVlckVMbm5nSE9ha0EzMHUyRnVB?oc=5 · https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdVhIMFpuM3h5SFd1RXAyQ2JETlZuRW55NHM4OTNBOXFYN3RocHR4NkR2dC00TktDS2pNZGJCUjV5Z29ZekN1dDVjb2pNcVJ3Z3dtbU5PV2R6VXQ4SlpVNUxRZmRFYTRQUkgxd213TENqaDUtLWM3SHpKRmoyR3E5dEtILUY4V0R3Vm40T3hGdW1xUWZoT1E2WVd4VzhCdGM4eVJBQy10ZGtTQTA3NG95TkV1YzlqWXdJOVQwWjM1b3FHcjB6V1NQdHF5RUFRWlU5RDdfVUFqc3hYY2RDMG9fa0NkR2xmWHZKdFhfVVhDSEdSUV9nSEd2a1VPSQ?oc=5 · https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQXdYVFF3eHlDV3k4OFQ5V29tbXlCeXJ0RmM3ZGV0N0NSLVVZel9nT1BnX0U2WHNPellyYzRFNHpWNm4zX2d6ck9HMzMyeEJ6X3BaTGh6S2RvckxnMU96S2p4VTN2RWtIbGNjbFk4Y3d0YUgxRTJhNFRUQ3Z2VTFMQmdqdFp2UGFWNHdxb3pVbW5VRG1NUUJLSENIQ0tZZHI0cTN6NzljVFFSZGlfcnhhV2M0V2NKS3Q4cHduLUhyXzBDbTdvOEFDLTRZdmxJa09aTnpyVVN1cTRGQVNzb3lLVVYxd3BXWDdwS3FsME5YY19CaEk0Vlc5cE04eUE?oc=5 · https://news.google.com/rss/articles/CBMiswFBVV95cUxPQVRDSHdhYkRHZzJ1bTJMZHdKYW1YQUozQWs5OGRzb0xDeGNacEwtTU1SUVNfTHBuQ29pWTVUUHRGWi1WMVcxZm5DNzZuZEU3VmZOSC14SE5QZTUxT2dTVmppd2lpXzBYdHVEUGZsVTQyZnVhckpwNHJocnNYV0RzcjB0SldUYkR0ZlJGN2NvWV9weXJmM0kzd2l4OXNLcEktSGI5U3UtRTFqVE9EQjNBRlYxdw?oc=5 · https://news.google.com/rss/articles/CBMirwFBVV95cUxNZE1JWURmRnI1RFBEVHFaUGF4SXNIcWlsWDlEajhOVlNza2tsaUNsWmhoU1I2REVaWGhneXJ1RWJteWczSER2Y2psNTlnQlI2T0F5WlNUZS1RaktKTGhaUnF1bHJwa1htcGZBM1pmVUtwNU42U0F6VjluVEtOUmlVN015RzBEaWd5N0czZ1k0Y1NpLW1mblNJeHBXX09DUHhGRjNycHZvUkpvb2RlNnc4?oc=5 · https://news.google.com/rss/articles/CBMi7wFBVV95cUxOb0tudXJOcUNjLUFOQVE2RjB4M3JSclZKU1lUem5JUlh5WlU1VW9oMnpiQW1zRi1FRDU1bzlzQ2VaTUw0ZF9NUUdGYTdkSEZ2T2czZXkzTjZCaTRRdHpRY3Y4bjktVFF2Mi1KOXNTSWt0X0xrdU14ZlFHdXBvOHhtcl9FMmQzQjZ1WlFBbm5HbHlqSmJFSkJza1dDelplZXIxMWpwU01qQmY4VF9fckpxQ1pJdUJ4Z09tUTNCVUN1RUozU2ZwdjE5XzVhd3F2ZEhCNlJxN0JZWGtsYTQ4N1pvZERVbmFPN3BrR2VIRFNOcw?oc=5 · https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc2FRWE1VVHA2QVQtQVVSZ3o5bERteUFhTzZaczA3YTdRZGc0NWdzX1BOZUVhNGstN2FBWDFCZG01RHk0NVhCbS0yUDFEOUdRTmVUVUd2REh2b3Zpb212UEhEVnlVaDZJeGFlYXJmVHNyMFY1eVZEbWw4NnhuR2tyTTRXZTNLejV5UVNManU0T3RxQmRGSlJSbUpMMGpELWZaWVVpeGZjZmlyWHNtdVZpei1XSkJabTRX?oc=5 · https://news.google.com/rss/articles/CBMiywFBVV95cUxNY2RYSWJQZG11QTEzRlU5RUFrcXU3QlVfZG00UjhPOXROZWQtdmlKRkYya3NKTjNPa3hCQmo2Z182WjBrM0FWRHI2ZFhpZTl0NEUxYTNPdzhVdlBIc0VNd0Noemk1TTU1QlE0YVdNVjFNNEVxTjdiYmR3b2kxWlhzTlRKa1dVNEFlcjlsc3M3ejJUTWtoaUpwdzVWcG1qcVRqNi1GSlYxcGRCNDN1WE15MUdheVFRRTQwQXdPM0JBU1hGUERUQmphQXJNNNIB0AFBVV95cUxNUFhPNnpERjdEOHVGLXBDNTExaWFfanFBODctb2wwUjkxNVZLWVk2VUo1TkpQRG11QzlwNU1KNnhKa3pCVkNuYkxNaDFEQWV2bTdUSXZEQ3JWUWtuNkoyWndNQUhheTQ0enNJd2tZbTAtS0hrTjI2VWRsZERTVWd2Y0Z4akZiUkJiMHlMQTQwajN1U3MxX2NhSFZNWVV4c1lVS2FXZkt5dFlIc0FzRVpQM3lfNDM0OVBOLVZub2pPQ3ZBd0d3YURkdFZmMmtvbmw0?oc=5 · https://news.google.com/rss/articles/CBMi8wFBVV95cUxPelYxSFhLMm1YcFJxY2hrSDdtN0Z1V1ZKNXNsVGJUc3UzamdyZkJiNzZjZ0FZUHpRZ1Bxd3BMMjN6RDgtYkdIWnB2NmRPVEV3VzJoZWFLbFhYSFI1YzBrQ0pJV1A3cXlsRGVsNWwzbnVVcDZWaHppamZsbEFES0FiN3VhNDUwM1JhaHFWMThSTUw5LTNEaHYweUY0RUduNWpaRnhlaXc3OE1IRHZRQVhMa3c1OGdJZ0JseERXVlc4RVlkbE55M3c3NXM5V1otR3FUbnBPM0hYUFpBNWRRRkVBUGU2bVFUWXM0RmtfTXNLMnlNbjA?oc=5 · https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaHV6OHB0WmNEbVpVVGtTYnE1N3Fib3EtYlhvR1paX2h6MjBQNkhRV0NyNHRQLUV6NlpHRTliN3pJNG4tVzRYVGVrSEh0NnlQWUFXcUc1Y01RVS1UbFdvZGxaN3laZkxaQndwazk2cEFNNmV1eGpGN2d3U1FQX3BJS3RNRUt6NUZMcEh5R1JZWERIRHMyd2wxTDJPX0hJMml2Uzk3Sy1UamNWV3A1aGdmRTBMZDZTMkxn?oc=5 · https://news.google.com/rss/articles/CBMirwFBVV95cUxQckFMMFhCVDVTTU9OV2tmb2t1X3dLdkV2MFpqbFp1eVFCbkRoSHlBbEJxOHJZYjRQZE5idG43SXBTT1lEeGtzNEFIbXJtcVhJZDR0eko3UWExMEt6cWsxVDgxc1ZPV0tOdHNHQTg5aXp3VmtCWjBna3hMekFRdm02Vm5RMFVOMV9JYlEweWZGLVR0UTh1X0pya1ZXa3ZMZnRXcGVCcVhCTGhzZEVfSzJJ?oc=5
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — science angle
-   https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
-2. **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — science angle
+1. **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — science angle
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
-3. **Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work - JD Corporate Blog** — science angle
+2. **Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work - JD Corporate Blog** — science angle
    https://news.google.com/rss/articles/CBMipgFBVV95cUxNZVAxQWF5aFEySlVmZTE5TDlkM0djRUNUaVctNlJXUGFTQWZtWmlDSUF5Rkh4dmNmNWNfWXFjZkVlVlFFWnVFUGZWTmRPQ0RzZUNpOGhHUmd3RFRBTFBROENpdDBndUtJa1ROOE1MczF2SjYtQXBOWUlFbGdkOUFyVlM5REJaWXZITldBVE9fNXAzSzRQT3J1YUZJeEs2QTYyODZ1cGl3?oc=5
-4. **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — science angle
+3. **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — science angle
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
-5. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
+4. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
    https://www.nature.com/articles/d41586-026-02842-5
-6. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
+5. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
-7. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
+6. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
    https://www.nature.com/articles/d41586-026-02026-1
-8. **IIT-G researchers launch energy efficient brain AI** — science angle
+7. **IIT-G researchers launch energy efficient brain AI** — science angle
    https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
+8. **AI helps doctors spot genetic causes of eye disease with greater accuracy - Science in Poland** — science angle
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlh6ck42VF9VZVNZWnV0VEJqWUVCcHFhSG56ZHBnS3ZfU3g4OGw3UGxJcVQ2MFRzYUw2S3RFdzZYSkFUTHlQV0E5dUZlbklDUTNJT25XVVFXdzZTTUlSOTloNHd5LThWR2dPTnM1UW5yY3VwLTdYcXNhTEgzcVJMNm56MTVaUXBEMjU0V00zYnkyd3lGNUc0V1dVdVZ1XzQ5YmFveW9NanRoMkh2NDFvWW1RU1d6TEl5a0lRQ3FB?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News** — Elon Musk AI News — Score 123
@@ -33,28 +33,28 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSjhPM2huRWVLX3Q5c2Z5U2FDWEMxV3FXVndReTNWN2dYeTFwckpLYmlxcVc3S2RsemdZZzY4UEtXYVRsZG5DanFpcVhzazR1dXJNTzVDR19IYWpvdm9NMUpEVzBqRnJvdXhzd0VzR2hwMTNQZ3JhSTNJOElYZHd4b0lJUWJwVXoxUXlEOUpCamhwaDV3RXZ2R0lDTTZxVGxDNDFIZ1NDYW1ta3dDeTBnN3RqVVlrMUNZVWwwQTRFQml6MjNUbGwxcUpuR2N1MlBzNW4zaVNVazlhTUx0QVNleksxR1U5QzdocUQ0eUY3ZHZJbkU1MnhTWkNxOHE?oc=5
 4. **Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters** — Elon Musk AI News — Score 77
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1VRQXhtR19VS2tKbVEzTnB6YjFUNl8zV3NFSURDZDRTcmZRS2tHa0RPOHdlMklXMWVSckNXdm5HWjdYNWhSTlFNeUlkdWFxWHo2SFdXU19ieWlQaUlEUjNrUjJkV1JSajZaNGxxUkVkM19qR2NOMkZvcWMwRHpIVTJybUlQZFB2ZmpvRy1CeURQcmp0ZFctU3RzMnItM29yajY5blZoT1ZjY0cwWFg1aVFoSGtpZw?oc=5
-5. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
-6. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 66
+5. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 76
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2hTR2RhVHdfN1pYa05qT1RGbkM0Y0JrWWpjc21FMEFSTjZZZEFXLURYRU8yeldXQ0RkOVB2Z1hkRlJzT0JiQ2x5TWFCTFk5Q0UyYnkwdldNSjBZSlBiNDNabG1nRzFUTkNkUUFfN0prRHNOSFZHaEZJX2NOOGpmYUt1cTFrNjZqS0stTjJ5b182QnZJYTFsWHBkWDBaQlg2a1MtQ0hyZ0ZZbUFLYTZ1UGh6c2tqYnQxV1FB?oc=5
+6. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
 7. **GPT-6 Astra** — Hacker News AI — Score 63
    https://openai.com/index/gpt-6-astra/
-8. **USDA to test satellites, AI to try to improve crop estimates amid farmer criticism - Reuters** — AI in Agriculture — Score 62
-   https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTzJlc1IxSnBNVlBndHZMS1kwYVlDX0ZMdWh6NUpST05rNjJhX21oSHBoRkROUjVoUVcycTZuaTZPYk8tXzBDdjRvdjlJaDBHMkNTdlF1VnZmQmxVRnI0empNaTEyQ211Ulh2Z0wtbXFmYUJJZWRCakUwYld4Sk5BbjlTa29sTk1Kd20xMEMxR1hyVWdGb29Hb0twOUdZeUZYOE9TOFplT2NORTB0ZGNmbEpkVl9Hd2Fq?oc=5
-9. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — Using AI To... — Score 58
+8. **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — Using AI To... — Score 58
    https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-10. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
+9. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2p6T2t1SnRFdXBEbGM3SkxScFJ1Ny1FVGtFYTRRcWdiYTdodXI0Zmc1Nkd0eHNKSWFXWE1GdFdXR3pQUDBEZjFkWWRud015cmhEVkhyS1d6YTJSU0JBQzN2MnA5RGxmTHZNamVWTU1lYUNyOHp2OGZkNjJxMm9xWmZlNHhKYnZo?oc=5
+10. **China hits back at US claims of ‘malicious’ AI distillation ahead of planned Trump-Xi talks - The Seattle Times** — AI in Coding — Score 56
+   https://news.google.com/rss/articles/CBMixwFBVV95cUxQYzQ3N3ZycHRRMUozRGdVMG11QVFBVG1RN184ZkZvdC1TQUdod0V2d3VpQ1lYbFdUSk5UbzItNnQ1aHMzd1FiWkM3Y2J0RHRSbGJ0ck0wa2VIaDluSjJLeW4xNXFGVkxZUFRKYTY3T29PU0FOOHZ5eVltQlh5V29wam1JX3BfSTgtQnJ0MzlySThuWEw2OEZ0ZnpTR294dFNRRXppT3R0TmRITkN1RnpUMDZnNjFyMWtiWnF0aFFtVVNqWklzTUpz?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Doctors issued warning over use of AI to take patients’ notes - the-independent.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdrdVV0c1MtVmtCOWZEZTAxM3J5bU1VeWc1dDMteV9FbUpaczhHNmFqdzNjVEtIUmxKY3RhYm1ad0EtZzVxeU1UU29hcGRkT25QV1RwMjA2MmIxWHc0eGN5Z0h6ZE9LMnRvNW5qZmc0dHh2SFpfZHNQcXh3cnVEbU1SdkFfb2VCVC1LVlRlbV9PZ1dBdnhpSXRJdHkwWi0w?oc=5
-- **Doctors using AI to take patients’ notes failing to capture ‘potentially vital information’ - Yahoo News Singapore** — https://news.google.com/rss/articles/CBMifEFVX3lxTFBNalJ5MXBBYVpqQUd6NGdHWmI1WXBnNEY3dVg4RS03MnMyNFp1T0pCZUFycEtmNXNHei1mZ2lWOE13SWVwNmtLQVFBZEhBdWJfdzlRYUpiOWRyX0MtU2RvU0tLUTUzOUJza2JjQnNpNldtbE9aNzZIZVc4U0E?oc=5
 - **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 - **Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work - JD Corporate Blog** — https://news.google.com/rss/articles/CBMipgFBVV95cUxNZVAxQWF5aFEySlVmZTE5TDlkM0djRUNUaVctNlJXUGFTQWZtWmlDSUF5Rkh4dmNmNWNfWXFjZkVlVlFFWnVFUGZWTmRPQ0RzZUNpOGhHUmd3RFRBTFBROENpdDBndUtJa1ROOE1MczF2SjYtQXBOWUlFbGdkOUFyVlM5REJaWXZITldBVE9fNXAzSzRQT3J1YUZJeEs2QTYyODZ1cGl3?oc=5
 - **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
+- **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — https://www.nature.com/articles/d41586-026-02842-5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3031
+- Total stories tracked: 3021
 - Most active topic: openai
 - Busiest category: AI General News
 
