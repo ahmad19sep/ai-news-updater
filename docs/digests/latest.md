@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1VRQXhtR19VS2tKbVEzTnB6YjFUNl8zV3NFSURDZDRTcmZRS2tHa0RPOHdlMklXMWVSckNXdm5HWjdYNWhSTlFNeUlkdWFxWHo2SFdXU19ieWlQaUlEUjNrUjJkV1JSajZaNGxxUkVkM19qR2NOMkZvcWMwRHpIVTJybUlQZFB2ZmpvRy1CeURQcmp0ZFctU3RzMnItM29yajY5blZoT1ZjY0cwWFg1aVFoSGtpZw?oc=5
 6. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
-7. **GPT-6 Astra** — Hacker News AI — Score 63
-   https://openai.com/index/gpt-6-astra/
-8. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 60
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE5RVzVKR09WQ0pick9xYjhVaXhnYUFpOUt2OElxZjBwbTRvT2d3U2FnRmFacXd5TWFvVnpwRUo5M0lEeWVNbWJURzdlRXFLbnFHa1Y4WU43SmxKYWcwUGRFQmdjV2FGeUg4TVdPVEFkTzJtNUtQV0xtVHROLV9XekJKSTZFbmFNb0xwaFNMejRHYmpwbUdpOGRlYXoza2hjWXRTdVdNcng0cmFNV2ZwTkFYT0tma1kzTkpN?oc=5
-9. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
-   https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2p6T2t1SnRFdXBEbGM3SkxScFJ1Ny1FVGtFYTRRcWdiYTdodXI0Zmc1Nkd0eHNKSWFXWE1GdFdXR3pQUDBEZjFkWWRud015cmhEVkhyS1d6YTJSU0JBQzN2MnA5RGxmTHZNamVWTU1lYUNyOHp2OGZkNjJxMm9xWmZlNHhKYnZo?oc=5
-10. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 56
+7. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 66
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmhpbDlqeDFLQWFXN1NkTW5PX1RvdFRGTXpGbTBIUFM1MUk2Qnd2STNITVhWOWdnVXVHenYyMzlKUnZqMU1tTjJnQUdGM2txa0dJaUNJUDdaM0x0dFB3WXRNTkdSdTFHanNRUGk4dGxTWVhlZkZEMHZ4bHZmcDROTVNSQTB6bENlbnNhVmthZHkzeElnUHc3T3VaMldla05LSnhXclhiWDc1X1BhUzFSaS1GNDNmd3VGaUpXNmR6MA?oc=5
+8. **GPT-6 Astra** — Hacker News AI — Score 63
+   https://openai.com/index/gpt-6-astra/
+9. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 60
+   https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE5RVzVKR09WQ0pick9xYjhVaXhnYUFpOUt2OElxZjBwbTRvT2d3U2FnRmFacXd5TWFvVnpwRUo5M0lEeWVNbWJURzdlRXFLbnFHa1Y4WU43SmxKYWcwUGRFQmdjV2FGeUg4TVdPVEFkTzJtNUtQV0xtVHROLV9XekJKSTZFbmFNb0xwaFNMejRHYmpwbUdpOGRlYXoza2hjWXRTdVdNcng0cmFNV2ZwTkFYT0tma1kzTkpN?oc=5
+10. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
+   https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2p6T2t1SnRFdXBEbGM3SkxScFJ1Ny1FVGtFYTRRcWdiYTdodXI0Zmc1Nkd0eHNKSWFXWE1GdFdXR3pQUDBEZjFkWWRud015cmhEVkhyS1d6YTJSU0JBQzN2MnA5RGxmTHZNamVWTU1lYUNyOHp2OGZkNjJxMm9xWmZlNHhKYnZo?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 - **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2989
+- Total stories tracked: 3048
 - Most active topic: openai
 - Busiest category: AI General News
 
