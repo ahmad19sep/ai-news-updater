@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:25:33.876288+00:00",
+  "generated_at": "2026-09-11T16:30:59.945922+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,7 +45,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -71,28 +71,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wceing/i_have_asked_chatgpt_to_give_me_a_realistic/",
-          "signal": "I have asked ChatGPT to give me a realistic scenario of how AI would lead to human extinction"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdj748/asked_chatgpt_to_roast_meended_up_giving_me_a/",
+          "signal": "Asked ChatGPT to roast me.....ended up giving me a reality check 🫠"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdi61g/i_stopped_asking_long_chatgpt_chats_to_summarise/",
+          "signal": "I stopped asking long ChatGPT chats to summarise themselves..."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdgm9r/can_i_enhance_chatgpt_images/",
+          "signal": "Can i 'enhance' chatgpt images?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdkz7b/whats_going_on_inside_chatgpt_when_its_acting_dumb/",
+          "signal": "What’s going on inside ChatGPT when it’s acting dumb?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
           "signal": "Chatgpt top 3 useful code ✅"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=muc_dBSxh5E",
-          "signal": "The new version of ChatGPT is SCARY 😭"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tp29Fl0EK1w",
-          "signal": "ChatGPT 6 Astra has released. The world has changed forever..."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
-          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
         }
       ],
       "content_ideas": []
@@ -120,6 +120,60 @@
           "platform": "hackernews",
           "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
           "signal": "AirPods 5"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: Can we please limit the AI news flood?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49657850",
+          "signal": "Ask HN: Can we please limit the AI news flood?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The Waymo effect: how AI is quietly making research less collaborative",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+          "signal": "The Waymo effect: how AI is quietly making research less collaborative"
         }
       ],
       "content_ideas": []
@@ -176,7 +230,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -186,96 +240,6 @@
           "platform": "hackernews",
           "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
           "signal": "Detecting and countering misuse of AI: September 2026"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/OtoDock/oto-dock",
-          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire/",
-          "signal": "Anthropic CEOs wife once asked Epstein to fund porn venture – now steers Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
-          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
-          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-          "signal": "The Gemini app is now available for Windows"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
-          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=87nJr1IwK0Q",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -294,7 +258,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -304,6 +268,33 @@
           "platform": "hackernews",
           "url": "https://system76.com/workstations/thelio-mira-ai",
           "signal": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Resist \"AI\"",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ronjeffries.com/articles/-v026/x/t/",
+          "signal": "Resist \"AI\""
         }
       ],
       "content_ideas": []
@@ -336,6 +327,44 @@
       "content_ideas": []
     },
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+          "signal": "The Gemini app is now available for Windows"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
+          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Muse, the band, lost its social media handles to Muse, Meta's new AI a",
       "category": "use_case",
       "momentum": "rising",
@@ -361,116 +390,15 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Rock band Muse lose social media handles to Meta’s new AI tool",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.the-independent.com/arts-entertainment/music/news/muse-band-meta-ai-tool-handle-b3047291.html",
-          "signal": "Rock band Muse lose social media handles to Meta’s new AI tool"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "A Stupid Idea for AI Alignment We Came with by Looking at Specificatio",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/",
-          "signal": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/OtoDock/oto-dock",
-          "signal": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire/",
-          "signal": "Anthropic CEOs wife once asked Epstein to fund porn venture – now steers Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=21LvkiDcMi0",
-          "signal": "Run Claude Code With Unlimited Usage for Free - 9Router"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dmEvo0C1xc8",
-          "signal": "7 Claude AI Side Hustles That Can Replace Your Salary"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -478,8 +406,8 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -494,11 +422,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
           "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=87nJr1IwK0Q",
-          "signal": "How To Create Short Ghibli Style AI Videos FREE🔥 | Gemini AI Full Tutorial (2026)"
         },
         {
           "platform": "youtube",
@@ -538,7 +461,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -564,28 +487,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wceing/i_have_asked_chatgpt_to_give_me_a_realistic/",
-          "signal": "I have asked ChatGPT to give me a realistic scenario of how AI would lead to human extinction"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdj748/asked_chatgpt_to_roast_meended_up_giving_me_a/",
+          "signal": "Asked ChatGPT to roast me.....ended up giving me a reality check 🫠"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdi61g/i_stopped_asking_long_chatgpt_chats_to_summarise/",
+          "signal": "I stopped asking long ChatGPT chats to summarise themselves..."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdgm9r/can_i_enhance_chatgpt_images/",
+          "signal": "Can i 'enhance' chatgpt images?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdkz7b/whats_going_on_inside_chatgpt_when_its_acting_dumb/",
+          "signal": "What’s going on inside ChatGPT when it’s acting dumb?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
           "signal": "Chatgpt top 3 useful code ✅"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=muc_dBSxh5E",
-          "signal": "The new version of ChatGPT is SCARY 😭"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tp29Fl0EK1w",
-          "signal": "ChatGPT 6 Astra has released. The world has changed forever..."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
-          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
         }
       ],
       "content_ideas": []
