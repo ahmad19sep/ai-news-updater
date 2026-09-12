@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:39:18.157301+00:00",
+  "generated_at": "2026-09-12T10:50:47.172516+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 36,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,14 +22,13 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -45,6 +44,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
+          "signal": "ChatGPT's body of choice"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
+          "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wdpnod/how_much_trouble_would_you_be_in_if_all_your/",
           "signal": "How much trouble would you be in if all your chats with ChatGPT got leaked?"
         },
@@ -57,43 +66,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
           "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdxesj/teaching_about_ai_at_college_seeking_help_why/",
-          "signal": "Teaching about AI at college, seeking help. Why does ChatGPT always take your side, and can we fix it?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we0490/my_new_hobby_having_chatgpt_turn_songs_into/",
-          "signal": "My new hobby: having ChatGPT turn songs into unhinged LinkedIn posts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
         }
       ],
       "content_ideas": []
@@ -288,6 +260,33 @@
       "content_ideas": []
     },
     {
+      "name": "Resist \"AI\"",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ronjeffries.com/articles/-v026/x/t/",
+          "signal": "Resist \"AI\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
       "category": "use_case",
       "momentum": "rising",
@@ -311,33 +310,6 @@
           "platform": "hackernews",
           "url": "https://system76.com/workstations/thelio-mira-ai",
           "signal": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Resist \"AI\"",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ronjeffries.com/articles/-v026/x/t/",
-          "signal": "Resist \"AI\""
         }
       ],
       "content_ideas": []
@@ -368,6 +340,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "AI researchers debate how close we are to recursive self-improvement",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+          "signal": "AI researchers debate how close we are to recursive self-improvement"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -378,14 +377,13 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -401,6 +399,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
+          "signal": "ChatGPT's body of choice"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
+          "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wdpnod/how_much_trouble_would_you_be_in_if_all_your/",
           "signal": "How much trouble would you be in if all your chats with ChatGPT got leaked?"
         },
@@ -413,43 +421,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
           "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdxesj/teaching_about_ai_at_college_seeking_help_why/",
-          "signal": "Teaching about AI at college, seeking help. Why does ChatGPT always take your side, and can we fix it?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we0490/my_new_hobby_having_chatgpt_turn_songs_into/",
-          "signal": "My new hobby: having ChatGPT turn songs into unhinged LinkedIn posts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
         }
       ],
       "content_ideas": []
