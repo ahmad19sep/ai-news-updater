@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:59:57.723124+00:00",
+  "generated_at": "2026-09-12T04:39:18.157301+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,39 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -49,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -76,23 +50,77 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdtz36/i_got_chatgpt_to_recreate_what_my_hppd_looks_like/",
+          "signal": "I got ChatGPT to recreate what my HPPD looks like while high"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
           "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdkz7b/whats_going_on_inside_chatgpt_when_its_acting_dumb/",
-          "signal": "What’s going on inside ChatGPT when it’s acting dumb?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdxesj/teaching_about_ai_at_college_seeking_help_why/",
+          "signal": "Teaching about AI at college, seeking help. Why does ChatGPT always take your side, and can we fix it?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
-          "signal": "Chatgpt top 3 useful code ✅"
-        },
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we0490/my_new_hobby_having_chatgpt_turn_songs_into/",
+          "signal": "My new hobby: having ChatGPT turn songs into unhinged LinkedIn posts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l7_6KBNadjI",
-          "signal": "A.I. - The End Game 💀 ( Chatgpt Ultra ) | Kuldeep Singhaniaa #shorts"
+          "platform": "hackernews",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A misalignment of AI in mathematics",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mathandai.org/",
+          "signal": "A misalignment of AI in mathematics"
         }
       ],
       "content_ideas": []
@@ -125,7 +153,7 @@
       "content_ideas": []
     },
     {
-      "name": "A misalignment of AI in mathematics",
+      "name": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -145,8 +173,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://mathandai.org/",
-          "signal": "A misalignment of AI in mathematics"
+          "url": "https://www.rubyhack.ai/",
+          "signal": "OpenAI agents carried out an undisclosed attack on RubyGems"
         }
       ],
       "content_ideas": []
@@ -191,7 +219,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -228,6 +256,33 @@
           "platform": "hackernews",
           "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
           "signal": "Detecting and countering misuse of AI: September 2026"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Hacker News, Without AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.unslop.news/",
+          "signal": "Show HN: Hacker News, Without AI"
         }
       ],
       "content_ideas": []
@@ -288,13 +343,11 @@
       "content_ideas": []
     },
     {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "RTK reports token savings, but our cost benchmarks disagree",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -304,73 +357,14 @@
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-          "signal": "Mathematicians want proof OpenAI didn't use their work"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
-          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Hacker News, Without AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.unslop.news/",
-          "signal": "Show HN: Hacker News, Without AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "I'm sorry, you're not going to die from an AI-engineered supervirus",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from",
-          "signal": "I'm sorry, you're not going to die from an AI-engineered supervirus"
+          "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+          "signal": "RTK reports token savings, but our cost benchmarks disagree"
         }
       ],
       "content_ideas": []
@@ -378,39 +372,13 @@
   ],
   "rising_tools": [
     {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-          "signal": "DeepSeek v4.1 Flash"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -438,35 +406,33 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdtz36/i_got_chatgpt_to_recreate_what_my_hppd_looks_like/",
+          "signal": "I got ChatGPT to recreate what my HPPD looks like while high"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
           "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdkz7b/whats_going_on_inside_chatgpt_when_its_acting_dumb/",
-          "signal": "What’s going on inside ChatGPT when it’s acting dumb?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdxesj/teaching_about_ai_at_college_seeking_help_why/",
+          "signal": "Teaching about AI at college, seeking help. Why does ChatGPT always take your side, and can we fix it?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DoNoCfb0R3U",
-          "signal": "Chatgpt top 3 useful code ✅"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l7_6KBNadjI",
-          "signal": "A.I. - The End Game 💀 ( Chatgpt Ultra ) | Kuldeep Singhaniaa #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we0490/my_new_hobby_having_chatgpt_turn_songs_into/",
+          "signal": "My new hobby: having ChatGPT turn songs into unhinged LinkedIn posts"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Wan",
+      "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -474,7 +440,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -482,18 +448,13 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-          "signal": "Mathematicians want proof OpenAI didn't use their work"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wckwl3/meta_ai_researcher_who_quit_if_openai_wanted_to/",
-          "signal": "Meta AI Researcher (who quit): \"If OpenAI wanted to cripple an entire nation, they easily could today. All they'd have to do is unleash an agent swarm.\""
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "signal": "DeepSeek v4.1 Flash"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Deepseek — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
