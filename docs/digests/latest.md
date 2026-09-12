@@ -29,7 +29,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM3RFamdGano3X1dhazNQUm1jRU1uVHlIdmVQRldld25nOXJHak9ZRnd4a2FvRjlMTTBpZ2duZEpib2RYSTk3R0hXbU03eXVZUHYtNkdGaVVoeDctRnc2VGtLUGZxNFVtSFI5UW4xME91cEd3ZGtsRFB5blRMTkdhLVNxSVpxUGJwNmgydGhsSnRtMUZsYWdGUExQLUpUNkI?oc=5
 2. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 98
    https://www.ricentral.com/online_features/press_releases/iron-the-worlds-first-advanced-general-purpose-humanoid-robot-walks-off-the-production-lines-as/article_f3ffcea5-6d25-58e0-9857-85e67551fca9.html
-3. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 86
+3. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 83
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2hTR2RhVHdfN1pYa05qT1RGbkM0Y0JrWWpjc21FMEFSTjZZZEFXLURYRU8yeldXQ0RkOVB2Z1hkRlJzT0JiQ2x5TWFCTFk5Q0UyYnkwdldNSjBZSlBiNDNabG1nRzFUTkNkUUFfN0prRHNOSFZHaEZJX2NOOGpmYUt1cTFrNjZqS0stTjJ5b182QnZJYTFsWHBkWDBaQlg2a1MtQ0hyZ0ZZbUFLYTZ1UGh6c2tqYnQxV1FB?oc=5
 4. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 80
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE5RVzVKR09WQ0pick9xYjhVaXhnYUFpOUt2OElxZjBwbTRvT2d3U2FnRmFacXd5TWFvVnpwRUo5M0lEeWVNbWJURzdlRXFLbnFHa1Y4WU43SmxKYWcwUGRFQmdjV2FGeUg4TVdPVEFkTzJtNUtQV0xtVHROLV9XekJKSTZFbmFNb0xwaFNMejRHYmpwbUdpOGRlYXoza2hjWXRTdVdNcng0cmFNV2ZwTkFYT0tma1kzTkpN?oc=5
@@ -37,10 +37,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSjhPM2huRWVLX3Q5c2Z5U2FDWEMxV3FXVndReTNWN2dYeTFwckpLYmlxcVc3S2RsemdZZzY4UEtXYVRsZG5DanFpcVhzazR1dXJNTzVDR19IYWpvdm9NMUpEVzBqRnJvdXhzd0VzR2hwMTNQZ3JhSTNJOElYZHd4b0lJUWJwVXoxUXlEOUpCamhwaDV3RXZ2R0lDTTZxVGxDNDFIZ1NDYW1ta3dDeTBnN3RqVVlrMUNZVWwwQTRFQml6MjNUbGwxcUpuR2N1MlBzNW4zaVNVazlhTUx0QVNleksxR1U5QzdocUQ0eUY3ZHZJbkU1MnhTWkNxOHE?oc=5
 6. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
-7. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 66
-   https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmhpbDlqeDFLQWFXN1NkTW5PX1RvdFRGTXpGbTBIUFM1MUk2Qnd2STNITVhWOWdnVXVHenYyMzlKUnZqMU1tTjJnQUdGM2txa0dJaUNJUDdaM0x0dFB3WXRNTkdSdTFHanNRUGk4dGxTWVhlZkZEMHZ4bHZmcDROTVNSQTB6bENlbnNhVmthZHkzeElnUHc3T3VaMldla05LSnhXclhiWDc1X1BhUzFSaS1GNDNmd3VGaUpXNmR6MA?oc=5
-8. **GPT-6 Astra** — Hacker News AI — Score 63
+7. **GPT-6 Astra** — Hacker News AI — Score 63
    https://openai.com/index/gpt-6-astra/
+8. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 63
+   https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmhpbDlqeDFLQWFXN1NkTW5PX1RvdFRGTXpGbTBIUFM1MUk2Qnd2STNITVhWOWdnVXVHenYyMzlKUnZqMU1tTjJnQUdGM2txa0dJaUNJUDdaM0x0dFB3WXRNTkdSdTFHanNRUGk4dGxTWVhlZkZEMHZ4bHZmcDROTVNSQTB6bENlbnNhVmthZHkzeElnUHc3T3VaMldla05LSnhXclhiWDc1X1BhUzFSaS1GNDNmd3VGaUpXNmR6MA?oc=5
 9. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2p6T2t1SnRFdXBEbGM3SkxScFJ1Ny1FVGtFYTRRcWdiYTdodXI0Zmc1Nkd0eHNKSWFXWE1GdFdXR3pQUDBEZjFkWWRud015cmhEVkhyS1d6YTJSU0JBQzN2MnA5RGxmTHZNamVWTU1lYUNyOHp2OGZkNjJxMm9xWmZlNHhKYnZo?oc=5
 10. **Quebec courts say generative AI cannot replace judges' reasoning** — cp24 — Score 53
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3021
+- Total stories tracked: 3044
 - Most active topic: openai
 - Busiest category: AI General News
 
