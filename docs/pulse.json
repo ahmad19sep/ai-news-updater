@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:34:09.923719+00:00",
+  "generated_at": "2026-09-12T20:35:27.830318+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 34,
+      "reddit": 25,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": null
@@ -76,11 +76,6 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/artificial/comments/1weapgz/how_far_are_we_from_the_chatgpt_moment_for/",
-          "signal": "How Far Are We from the \"ChatGPT Moment\" for Embodied Intelligence? Opinion"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
           "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
         },
@@ -93,6 +88,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we4362/chatgpt_windows_app_realized_it_was_glitching_and/",
           "signal": "ChatGPT Windows app realized it was glitching, and spent multiple lines begging itself to shut up"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wekvwu/whats_one_thing_you_wish_you_had_known_before/",
+          "signal": "What’s one thing you wish you had known before using ChatGPT regularly?"
         }
       ],
       "content_ideas": []
@@ -102,8 +102,7 @@
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -121,11 +120,6 @@
           "platform": "hackernews",
           "url": "https://www.rubyhack.ai/",
           "signal": "OpenAI agents carried out an undisclosed attack on RubyGems"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/artificial/comments/1wedb3c/openai_agents_carried_out_an_undisclosed/",
-          "signal": "OpenAI agents carried out an undisclosed cyber-attack on RubyGems"
         }
       ],
       "content_ideas": []
@@ -212,7 +206,7 @@
       "content_ideas": []
     },
     {
-      "name": "Detecting and countering misuse of AI: September 2026",
+      "name": "Nvidia is the central bank of AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -224,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -232,8 +226,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-          "signal": "Detecting and countering misuse of AI: September 2026"
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "signal": "Nvidia is the central bank of AI"
         }
       ],
       "content_ideas": []
@@ -427,11 +421,6 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/artificial/comments/1weapgz/how_far_are_we_from_the_chatgpt_moment_for/",
-          "signal": "How Far Are We from the \"ChatGPT Moment\" for Embodied Intelligence? Opinion"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
           "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
         },
@@ -444,6 +433,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we4362/chatgpt_windows_app_realized_it_was_glitching_and/",
           "signal": "ChatGPT Windows app realized it was glitching, and spent multiple lines begging itself to shut up"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wekvwu/whats_one_thing_you_wish_you_had_known_before/",
+          "signal": "What’s one thing you wish you had known before using ChatGPT regularly?"
         }
       ],
       "content_ideas": []
@@ -497,7 +491,7 @@
     {
       "problem": "Bye Claude, you've reached my token limit",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
