@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSjhPM2huRWVLX3Q5c2Z5U2FDWEMxV3FXVndReTNWN2dYeTFwckpLYmlxcVc3S2RsemdZZzY4UEtXYVRsZG5DanFpcVhzazR1dXJNTzVDR19IYWpvdm9NMUpEVzBqRnJvdXhzd0VzR2hwMTNQZ3JhSTNJOElYZHd4b0lJUWJwVXoxUXlEOUpCamhwaDV3RXZ2R0lDTTZxVGxDNDFIZ1NDYW1ta3dDeTBnN3RqVVlrMUNZVWwwQTRFQml6MjNUbGwxcUpuR2N1MlBzNW4zaVNVazlhTUx0QVNleksxR1U5QzdocUQ0eUY3ZHZJbkU1MnhTWkNxOHE?oc=5
 6. **Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance** — Jensen Huang News — Score 73
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5
-7. **GPT-6 Astra** — Hacker News AI — Score 63
+7. **Anthropic CEO Dario Amodei says AI industry needs to slow down for safety | National News | 2news.com - KTVN** — Dario Amodei News — Score 66
+   https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM244NXpGa2hjQmNjOFhBbG5BZHBlM1YwT0FQbzFaam1LRWhSbmYwNkVFc3Q0Q0dJSkJLU3JocUNaN256OHdMR3Q5akNvb3JyQWtMd2RXaWFmS2ptZlhWRHVVTWhOVFlPUHpoUk53T29DbTUwRWlONHphWTVrT2ZmUlRSZERSZGRaT0I5QV9Ld3Iyd25qOXowMkFzMUx2YUJSMVVqakxfUFB3X0txRlB0NXRLWWJrd2s4VjdxNWdNclkyUG9pdFI4M0k0Rndlc0FxYmoyNjVsQy1kMkpQRW56SU4wcUZnMERQMEJzcWd3?oc=5
+8. **Anthropic CEO Dario Amodei calls for AI development slowdown - Firstpost** — Dario Amodei News — Score 66
+   https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0FyR3ZLMnlxUldwcnZPQm1ZNUVyOHhhcHVQdFBFcHVaMWtXQ1FzZlIxNFpHVTZ2LWtCWnktSGlCZnFBWXRFSjdxNXIyeF9IZWxOTDZxV01ObXBYbXFlWTVhbjNGUVFqTDMtSjhLSFk2X3U3STFiaXR5MFc3ajZVTzRmN2tfdzVaN3JaQlZfcVFWR2ctSjNNQUFqLTF2MXZfa19RQ2t4ZnTSAa4BQVVfeXFMTkVSV2NfdmxVREtocGdhTHY3cXZWYlV4U1NTOWt4dHBUd2loT09KZlRQZ3JTcGJQYXFSQloyM0l2alpoREtrcDFWSUVMdnhvY3BtUWw5UkcyT3p6elBSVTFTRHFzaUtwaWpvTC1BeHIyY2JmZll6Nmxsc0lNMWduUGhUS1lRdjZqQ3ZXd0JDQTNuS1lJNE9iS2dNV1pZYmp1SlJRNTFJMFFzQXV0V293?oc=5
+9. **GPT-6 Astra** — Hacker News AI — Score 63
    https://openai.com/index/gpt-6-astra/
-8. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 63
+10. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 63
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmhpbDlqeDFLQWFXN1NkTW5PX1RvdFRGTXpGbTBIUFM1MUk2Qnd2STNITVhWOWdnVXVHenYyMzlKUnZqMU1tTjJnQUdGM2txa0dJaUNJUDdaM0x0dFB3WXRNTkdSdTFHanNRUGk4dGxTWVhlZkZEMHZ4bHZmcDROTVNSQTB6bENlbnNhVmthZHkzeElnUHc3T3VaMldla05LSnhXclhiWDc1X1BhUzFSaS1GNDNmd3VGaUpXNmR6MA?oc=5
-9. **Meta launches personal AI agent Muse - Breakingthenews.net** — AI Agents — Score 58
-   https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT2p6T2t1SnRFdXBEbGM3SkxScFJ1Ny1FVGtFYTRRcWdiYTdodXI0Zmc1Nkd0eHNKSWFXWE1GdFdXR3pQUDBEZjFkWWRud015cmhEVkhyS1d6YTJSU0JBQzN2MnA5RGxmTHZNamVWTU1lYUNyOHp2OGZkNjJxMm9xWmZlNHhKYnZo?oc=5
-10. **Quebec courts say generative AI cannot replace judges' reasoning** — cp24 — Score 53
-   https://www.cp24.com/news/canada/2026/09/05/quebec-courts-say-generative-ai-cannot-replace-judges-reasoning/
 
 ## 🧪 AI in Science Highlights
 - **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3090
+- Total stories tracked: 3073
 - Most active topic: openai
 - Busiest category: AI General News
 
