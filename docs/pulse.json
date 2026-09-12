@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:50:47.172516+00:00",
+  "generated_at": "2026-09-12T15:34:09.923719+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,13 +8,40 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 35,
+      "reddit": 50,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "A misalignment of AI in mathematics",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mathandai.org/",
+          "signal": "A misalignment of AI in mathematics"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -49,33 +76,34 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1weapgz/how_far_are_we_from_the_chatgpt_moment_for/",
+          "signal": "How Far Are We from the \"ChatGPT Moment\" for Embodied Intelligence? Opinion"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
           "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdpnod/how_much_trouble_would_you_be_in_if_all_your/",
-          "signal": "How much trouble would you be in if all your chats with ChatGPT got leaked?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wecm8q/ive_kept_journals_for_10_years_using_chatgpt/",
+          "signal": "I've kept journals for 10+ years. Using ChatGPT changed how I write them."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdtz36/i_got_chatgpt_to_recreate_what_my_hppd_looks_like/",
-          "signal": "I got ChatGPT to recreate what my HPPD looks like while high"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
-          "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we4362/chatgpt_windows_app_realized_it_was_glitching_and/",
+          "signal": "ChatGPT Windows app realized it was glitching, and spent multiple lines begging itself to shut up"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "A misalignment of AI in mathematics",
+      "name": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -91,8 +119,13 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://mathandai.org/",
-          "signal": "A misalignment of AI in mathematics"
+          "url": "https://www.rubyhack.ai/",
+          "signal": "OpenAI agents carried out an undisclosed attack on RubyGems"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1wedb3c/openai_agents_carried_out_an_undisclosed/",
+          "signal": "OpenAI agents carried out an undisclosed cyber-attack on RubyGems"
         }
       ],
       "content_ideas": []
@@ -120,33 +153,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49657850",
           "signal": "Ask HN: Can we please limit the AI news flood?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.rubyhack.ai/",
-          "signal": "OpenAI agents carried out an undisclosed attack on RubyGems"
         }
       ],
       "content_ideas": []
@@ -233,6 +239,50 @@
       "content_ideas": []
     },
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+          "signal": "The Gemini app is now available for Windows"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wedcln/best_ai_subscription_for_the_dollar_whats_the/",
+          "signal": "Best AI subscription for the dollar? What’s the best to spend on? ChatGPT or Claude or Gemini?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
+          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Show HN: Hacker News, Without AI",
       "category": "use_case",
       "momentum": "rising",
@@ -260,7 +310,7 @@
       "content_ideas": []
     },
     {
-      "name": "Resist \"AI\"",
+      "name": "RTK reports token savings, but our cost benchmarks disagree",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -280,8 +330,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://ronjeffries.com/articles/-v026/x/t/",
-          "signal": "Resist \"AI\""
+          "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+          "signal": "RTK reports token savings, but our cost benchmarks disagree"
         }
       ],
       "content_ideas": []
@@ -315,7 +365,7 @@
       "content_ideas": []
     },
     {
-      "name": "RTK reports token savings, but our cost benchmarks disagree",
+      "name": "Resist \"AI\"",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -335,35 +385,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-          "signal": "RTK reports token savings, but our cost benchmarks disagree"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI researchers debate how close we are to recursive self-improvement",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.dwarkesh.com/p/john-beren-charlie",
-          "signal": "AI researchers debate how close we are to recursive self-improvement"
+          "url": "https://ronjeffries.com/articles/-v026/x/t/",
+          "signal": "Resist \"AI\""
         }
       ],
       "content_ideas": []
@@ -404,28 +427,85 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/artificial/comments/1weapgz/how_far_are_we_from_the_chatgpt_moment_for/",
+          "signal": "How Far Are We from the \"ChatGPT Moment\" for Embodied Intelligence? Opinion"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
           "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdpnod/how_much_trouble_would_you_be_in_if_all_your/",
-          "signal": "How much trouble would you be in if all your chats with ChatGPT got leaked?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wecm8q/ive_kept_journals_for_10_years_using_chatgpt/",
+          "signal": "I've kept journals for 10+ years. Using ChatGPT changed how I write them."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdtz36/i_got_chatgpt_to_recreate_what_my_hppd_looks_like/",
-          "signal": "I got ChatGPT to recreate what my HPPD looks like while high"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1we4362/chatgpt_windows_app_realized_it_was_glitching_and/",
+          "signal": "ChatGPT Windows app realized it was glitching, and spent multiple lines begging itself to shut up"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+          "signal": "The Gemini app is now available for Windows"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wdqxu4/dear_chatgpt_just_cause_the_word_picture_appears/",
-          "signal": "Dear ChatGPT: just cause the word picture appears in my response doesn’t mean I want you to start making a picture because there’s no way to stop you once you start making pictures. You have to frantically press the stop button like you just launched a nuclear bomb. It’s pretty annoying.☢️"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wedcln/best_ai_subscription_for_the_dollar_whats_the/",
+          "signal": "Best AI subscription for the dollar? What’s the best to spend on? ChatGPT or Claude or Gemini?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
+          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "pain_points": [
+    {
+      "problem": "Bye Claude, you've reached my token limit",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wedyia/bye_claude_youve_reached_my_token_limit/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
+  "tool_of_week_candidate": "A misalignment of AI in mathematics — strongest signal this cycle"
 }
