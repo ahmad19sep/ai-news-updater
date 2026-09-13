@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
 4. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
    https://www.nature.com/articles/d41586-026-02842-5
-5. **IIT-G researchers launch energy efficient brain AI** — science angle
-   https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
-6. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
+5. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
-7. **AI-Discovered Drug Reverses Aging Markers In Study, Biotech Says - Bloomberg.com** — science angle
+6. **AI-Discovered Drug Reverses Aging Markers In Study, Biotech Says - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNV2ExNmF2c0tWUms4bG5veXpLNC1DSWhaenp4U2R0SERxNjRrdFV2S0dPZGdsYUpBOGpQX2lQTDB4S2xGUktlN2NDNHBLSlFSckdCLXY2R0FPbUtTa1NfcVowNmE1NFJ4eTZ3OWthT0hfMlpMWEM5amtzaU9PS3NwWEw1NWlaOVZqTll4Q2FBNXNaQTB6YzdCX1B5dEE5R1hLblN6bVo0MElZZE0wVzd1d19UNTU?oc=5
-8. **Put patients at the centre of medical AI governance** — science angle
+7. **Put patients at the centre of medical AI governance** — science angle
    https://www.nature.com/articles/d41586-026-02796-8
+8. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
+   https://www.nature.com/articles/d41586-026-02026-1
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News** — Elon Musk AI News — Score 123
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 - **Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work - JD Corporate Blog** — https://news.google.com/rss/articles/CBMipgFBVV95cUxNZVAxQWF5aFEySlVmZTE5TDlkM0djRUNUaVctNlJXUGFTQWZtWmlDSUF5Rkh4dmNmNWNfWXFjZkVlVlFFWnVFUGZWTmRPQ0RzZUNpOGhHUmd3RFRBTFBROENpdDBndUtJa1ROOE1MczF2SjYtQXBOWUlFbGdkOUFyVlM5REJaWXZITldBVE9fNXAzSzRQT3J1YUZJeEs2QTYyODZ1cGl3?oc=5
 - **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
 - **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — https://www.nature.com/articles/d41586-026-02842-5
-- **IIT-G researchers launch energy efficient brain AI** — https://theshillongtimes.com/2026/09/06/iit-g-researchers-launch-energy-efficient-brain-ai/
+- **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3089
+- Total stories tracked: 3072
 - Most active topic: openai
 - Busiest category: AI General News
 
