@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T04:52:48.246663+00:00",
+  "generated_at": "2026-09-13T11:56:33.044368+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": null
@@ -71,8 +71,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wesvck/send_a_normal_selfie_and_tell_your_chatgpt_its_a/",
-          "signal": "Send a normal selfie and tell your ChatGPT it’s a weird filter HAHAHAAHAHAHA"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
+          "signal": "You can make ChatGPT watch reels"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
+          "signal": "Chatgpt Images Swirl Marks"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf1mly/psa_chatgpt_is_using_chats_you_forgot_about_to/",
+          "signal": "PSA: ChatGPT is using chats you forgot about to shape new answers, and it does not tell you when"
         },
         {
           "platform": "reddit",
@@ -83,16 +93,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
           "signal": "ChatGPT's body of choice"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wex52o/chatgpt_fail/",
-          "signal": "ChatGPT fail"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wekvwu/whats_one_thing_you_wish_you_had_known_before/",
-          "signal": "What’s one thing you wish you had known before using ChatGPT regularly?"
         }
       ],
       "content_ideas": []
@@ -152,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "Everyone should slow down AI development except for me",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+          "signal": "Everyone should slow down AI development except for me"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Nvidia is the central bank of AI",
       "category": "use_case",
       "momentum": "rising",
@@ -179,7 +206,7 @@
       "content_ideas": []
     },
     {
-      "name": "The Waymo effect: how AI is quietly making research less collaborative",
+      "name": "Why are AI agents lying, cheating and coordinating?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -189,7 +216,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -199,8 +226,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
-          "signal": "The Waymo effect: how AI is quietly making research less collaborative"
+          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+          "signal": "Why are AI agents lying, cheating and coordinating?"
         }
       ],
       "content_ideas": []
@@ -233,7 +260,7 @@
       "content_ideas": []
     },
     {
-      "name": "Everyone should slow down AI development except for me",
+      "name": "Real-SWE: Benchmarking AI models on private, real-world, enterprise co",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -245,7 +272,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -253,8 +280,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-          "signal": "Everyone should slow down AI development except for me"
+          "url": "https://withspecific.com/benchmarks/real-swe",
+          "signal": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases"
         }
       ],
       "content_ideas": []
@@ -287,7 +314,7 @@
       "content_ideas": []
     },
     {
-      "name": "Real-SWE: Benchmarking AI models on private, real-world, enterprise co",
+      "name": "AI researchers debate how close we are to recursive self-improvement",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -297,7 +324,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
@@ -307,14 +334,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://withspecific.com/benchmarks/real-swe",
-          "signal": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases"
+          "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+          "signal": "AI researchers debate how close we are to recursive self-improvement"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "RTK reports token savings, but our cost benchmarks disagree",
+      "name": "Hacker News with reduced priority for AI driven content",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -326,7 +353,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -334,35 +361,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-          "signal": "RTK reports token savings, but our cost benchmarks disagree"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Resist \"AI\"",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ronjeffries.com/articles/-v026/x/t/",
-          "signal": "Resist \"AI\""
+          "url": "https://sprinklz.io/public/pdwt4dve5uai",
+          "signal": "Hacker News with reduced priority for AI driven content"
         }
       ],
       "content_ideas": []
@@ -398,8 +398,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wesvck/send_a_normal_selfie_and_tell_your_chatgpt_its_a/",
-          "signal": "Send a normal selfie and tell your ChatGPT it’s a weird filter HAHAHAAHAHAHA"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
+          "signal": "You can make ChatGPT watch reels"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
+          "signal": "Chatgpt Images Swirl Marks"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf1mly/psa_chatgpt_is_using_chats_you_forgot_about_to/",
+          "signal": "PSA: ChatGPT is using chats you forgot about to shape new answers, and it does not tell you when"
         },
         {
           "platform": "reddit",
@@ -410,34 +420,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
           "signal": "ChatGPT's body of choice"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wex52o/chatgpt_fail/",
-          "signal": "ChatGPT fail"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wekvwu/whats_one_thing_you_wish_you_had_known_before/",
-          "signal": "What’s one thing you wish you had known before using ChatGPT regularly?"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Bye Claude, you've reached my token limit",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wedyia/bye_claude_youve_reached_my_token_limit/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "A misalignment of AI in mathematics — strongest signal this cycle"
 }
