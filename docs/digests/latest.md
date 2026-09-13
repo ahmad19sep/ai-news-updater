@@ -29,14 +29,14 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM3RFamdGano3X1dhazNQUm1jRU1uVHlIdmVQRldld25nOXJHak9ZRnd4a2FvRjlMTTBpZ2duZEpib2RYSTk3R0hXbU03eXVZUHYtNkdGaVVoeDctRnc2VGtLUGZxNFVtSFI5UW4xME91cEd3ZGtsRFB5blRMTkdhLVNxSVpxUGJwNmgydGhsSnRtMUZsYWdGUExQLUpUNkI?oc=5
 2. **Anthropic CEO Dario Amodei says AI industry needs to slow down for safety | National News | 2news.com - KTVN** — Dario Amodei News — Score 106
    https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM244NXpGa2hjQmNjOFhBbG5BZHBlM1YwT0FQbzFaam1LRWhSbmYwNkVFc3Q0Q0dJSkJLU3JocUNaN256OHdMR3Q5akNvb3JyQWtMd2RXaWFmS2ptZlhWRHVVTWhOVFlPUHpoUk53T29DbTUwRWlONHphWTVrT2ZmUlRSZERSZGRaT0I5QV9Ld3Iyd25qOXowMkFzMUx2YUJSMVVqakxfUFB3X0txRlB0NXRLWWJrd2s4VjdxNWdNclkyUG9pdFI4M0k0Rndlc0FxYmoyNjVsQy1kMkpQRW56SU4wcUZnMERQMEJzcWd3?oc=5
-3. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 98
-   https://www.ricentral.com/online_features/press_releases/iron-the-worlds-first-advanced-general-purpose-humanoid-robot-walks-off-the-production-lines-as/article_f3ffcea5-6d25-58e0-9857-85e67551fca9.html
-4. **Anthropic CEO Dario Amodei calls for AI development slowdown - Firstpost** — Dario Amodei News — Score 96
+3. **Anthropic CEO Dario Amodei calls for AI development slowdown - Firstpost** — Dario Amodei News — Score 106
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0FyR3ZLMnlxUldwcnZPQm1ZNUVyOHhhcHVQdFBFcHVaMWtXQ1FzZlIxNFpHVTZ2LWtCWnktSGlCZnFBWXRFSjdxNXIyeF9IZWxOTDZxV01ObXBYbXFlWTVhbjNGUVFqTDMtSjhLSFk2X3U3STFiaXR5MFc3ajZVTzRmN2tfdzVaN3JaQlZfcVFWR2ctSjNNQUFqLTF2MXZfa19RQ2t4ZnTSAa4BQVVfeXFMTkVSV2NfdmxVREtocGdhTHY3cXZWYlV4U1NTOWt4dHBUd2loT09KZlRQZ3JTcGJQYXFSQloyM0l2alpoREtrcDFWSUVMdnhvY3BtUWw5UkcyT3p6elBSVTFTRHFzaUtwaWpvTC1BeHIyY2JmZll6Nmxsc0lNMWduUGhUS1lRdjZqQ3ZXd0JDQTNuS1lJNE9iS2dNV1pZYmp1SlJRNTFJMFFzQXV0V293?oc=5
-5. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 96
-   https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
-6. **Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - KTVN** — Dario Amodei News — Score 86
+4. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 98
+   https://www.ricentral.com/online_features/press_releases/iron-the-worlds-first-advanced-general-purpose-humanoid-robot-walks-off-the-production-lines-as/article_f3ffcea5-6d25-58e0-9857-85e67551fca9.html
+5. **Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - KTVN** — Dario Amodei News — Score 96
    https://news.google.com/rss/articles/CBMigAJBVV95cUxOY3ZuaHZCbGZRVHctOG5ubTQyaHlnNmx3eWhBZ0FGc2tUYU5PMXh1T1QyWFdlQ3FmVnRybFc4RExhMHowWDdSdnByakl5cGJFcDR4Yk5SbUM3dy1JcGlFNnBmMU5QenBvV3hQeXpWaFBWWHhtUzc3U0J4R1lmd1MtR3VWaDloajROMXFTeE1GZjhSNnY0d3BMdzV5WmR2UjZNNE1Rbk1wTUkwelRQMVpERVJWWlFraFNRd2M1eklJdmUyR0FoMDI5RDl0WG9acFQyR0tlWDJpM2RMa0hpcGpUeHJBWFM2SzFPdW12ZXJQc2RReUtqR20tUWwwMGxaQ0dk?oc=5
+6. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 96
+   https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
 7. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 83
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2hTR2RhVHdfN1pYa05qT1RGbkM0Y0JrWWpjc21FMEFSTjZZZEFXLURYRU8yeldXQ0RkOVB2Z1hkRlJzT0JiQ2x5TWFCTFk5Q0UyYnkwdldNSjBZSlBiNDNabG1nRzFUTkNkUUFfN0prRHNOSFZHaEZJX2NOOGpmYUt1cTFrNjZqS0stTjJ5b182QnZJYTFsWHBkWDBaQlg2a1MtQ0hyZ0ZZbUFLYTZ1UGh6c2tqYnQxV1FB?oc=5
 8. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 78
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 - **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3072
+- Total stories tracked: 3049
 - Most active topic: openai
 - Busiest category: AI General News
 
