@@ -1,103 +1,18 @@
 {
-  "generated_at": "2026-09-13T16:20:46.568206+00:00",
+  "generated_at": "2026-09-13T20:52:49.427091+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
-      "reddit",
       "hackernews",
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "A misalignment of AI in mathematics",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mathandai.org/",
-          "signal": "A misalignment of AI in mathematics"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
-          "signal": "You can make ChatGPT watch reels"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
-          "signal": "Chatgpt Images Swirl Marks"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf1mly/psa_chatgpt_is_using_chats_you_forgot_about_to/",
-          "signal": "PSA: ChatGPT is using chats you forgot about to shape new answers, and it does not tell you when"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf6i4t/how_chatgpt_has_become_part_of_how_i_work_create/",
-          "signal": "How ChatGPT has become part of how I work, create and reflect"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf7okz/i_stopped_treating_chatgpt_like_a_chat_box_and/",
-          "signal": "I stopped treating ChatGPT like a chat box and started using the chat itself as my Mac orchestrator"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "category": "use_case",
@@ -121,33 +36,6 @@
           "platform": "hackernews",
           "url": "https://www.rubyhack.ai/",
           "signal": "OpenAI agents carried out an undisclosed attack on RubyGems"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Everyone should slow down AI development except for me",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-          "signal": "Everyone should slow down AI development except for me"
         }
       ],
       "content_ideas": []
@@ -180,6 +68,87 @@
       "content_ideas": []
     },
     {
+      "name": "Everyone should slow down AI development except for me",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+          "signal": "Everyone should slow down AI development except for me"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
+          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pT3ayxo9lXA",
+          "signal": "Following 80s trend🙈 Kese Lage Photos?🥰 #ytshorts #trending #chatgpt #shortsfeed #shorts #trend"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RzwWXTHF4Io",
+          "signal": "O chocolate feito exclusivamente para o ChatGPT"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TaoNIQEUrhs",
+          "signal": "ఈ ChatGPT Promptతో 1980s Photo Ready 🔥#IsmartShiva #ChatGPT #ChatGPTImages"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vPBIe7Omn4s",
+          "signal": "Trending 80s Look Photo Prompt 🔥😍 | Viral 1980s Retro Style Ai Photo Editing | Chatgpt Prompt"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ZtXbdgZ_oA",
+          "signal": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Nvidia is the central bank of AI",
       "category": "use_case",
       "momentum": "rising",
@@ -207,9 +176,9 @@
       "content_ideas": []
     },
     {
-      "name": "Feeling Sad about AI",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -221,14 +190,19 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
-          "signal": "Feeling Sad about AI"
+          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+          "signal": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+          "signal": "Apple wants to train AI on your private personal data"
         }
       ],
       "content_ideas": []
@@ -300,7 +274,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -342,6 +316,33 @@
       "content_ideas": []
     },
     {
+      "name": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
+          "signal": "Anthropic boss Dario Amodei calls for AI development to slow down"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Google stole open source code without crediting the authors (Artemis/M",
       "category": "use_case",
       "momentum": "rising",
@@ -375,18 +376,16 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
-        "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -396,39 +395,71 @@
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
+          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
-          "signal": "You can make ChatGPT watch reels"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pT3ayxo9lXA",
+          "signal": "Following 80s trend🙈 Kese Lage Photos?🥰 #ytshorts #trending #chatgpt #shortsfeed #shorts #trend"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
-          "signal": "Chatgpt Images Swirl Marks"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RzwWXTHF4Io",
+          "signal": "O chocolate feito exclusivamente para o ChatGPT"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf1mly/psa_chatgpt_is_using_chats_you_forgot_about_to/",
-          "signal": "PSA: ChatGPT is using chats you forgot about to shape new answers, and it does not tell you when"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TaoNIQEUrhs",
+          "signal": "ఈ ChatGPT Promptతో 1980s Photo Ready 🔥#IsmartShiva #ChatGPT #ChatGPTImages"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf6i4t/how_chatgpt_has_become_part_of_how_i_work_create/",
-          "signal": "How ChatGPT has become part of how I work, create and reflect"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vPBIe7Omn4s",
+          "signal": "Trending 80s Look Photo Prompt 🔥😍 | Viral 1980s Retro Style Ai Photo Editing | Chatgpt Prompt"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf7okz/i_stopped_treating_chatgpt_like_a_chat_box_and/",
-          "signal": "I stopped treating ChatGPT like a chat box and started using the chat itself as my Mac orchestrator"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ZtXbdgZ_oA",
+          "signal": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+          "signal": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+          "signal": "Apple wants to train AI on your private personal data"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "A misalignment of AI in mathematics — strongest signal this cycle"
+  "tool_of_week_candidate": "OpenAI agents carried out an undisclosed attack on RubyGems — strongest signal this cycle"
 }
