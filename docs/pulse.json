@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:35:27.830318+00:00",
+  "generated_at": "2026-09-13T04:52:48.246663+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -55,7 +55,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -71,23 +71,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wesvck/send_a_normal_selfie_and_tell_your_chatgpt_its_a/",
+          "signal": "Send a normal selfie and tell your ChatGPT it’s a weird filter HAHAHAAHAHAHA"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wenu2y/did_chatgpt_suddenly_get_way_worse_at/",
+          "signal": "Did ChatGPT suddenly get way worse at understanding/communicating?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
           "signal": "ChatGPT's body of choice"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
-          "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wecm8q/ive_kept_journals_for_10_years_using_chatgpt/",
-          "signal": "I've kept journals for 10+ years. Using ChatGPT changed how I write them."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we4362/chatgpt_windows_app_realized_it_was_glitching_and/",
-          "signal": "ChatGPT Windows app realized it was glitching, and spent multiple lines begging itself to shut up"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wex52o/chatgpt_fail/",
+          "signal": "ChatGPT fail"
         },
         {
           "platform": "reddit",
@@ -152,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "Nvidia is the central bank of AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "signal": "Nvidia is the central bank of AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "The Waymo effect: how AI is quietly making research less collaborative",
       "category": "use_case",
       "momentum": "rising",
@@ -206,7 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "Nvidia is the central bank of AI",
+      "name": "Everyone should slow down AI development except for me",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -226,52 +253,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-          "signal": "Nvidia is the central bank of AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-          "signal": "The Gemini app is now available for Windows"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wedcln/best_ai_subscription_for_the_dollar_whats_the/",
-          "signal": "Best AI subscription for the dollar? What’s the best to spend on? ChatGPT or Claude or Gemini?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
-          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+          "signal": "Everyone should slow down AI development except for me"
         }
       ],
       "content_ideas": []
@@ -304,6 +287,33 @@
       "content_ideas": []
     },
     {
+      "name": "Real-SWE: Benchmarking AI models on private, real-world, enterprise co",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://withspecific.com/benchmarks/real-swe",
+          "signal": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "RTK reports token savings, but our cost benchmarks disagree",
       "category": "use_case",
       "momentum": "rising",
@@ -326,34 +336,6 @@
           "platform": "hackernews",
           "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
           "signal": "RTK reports token savings, but our cost benchmarks disagree"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://system76.com/workstations/thelio-mira-ai",
-          "signal": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory"
         }
       ],
       "content_ideas": []
@@ -400,7 +382,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -416,72 +398,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wesvck/send_a_normal_selfie_and_tell_your_chatgpt_its_a/",
+          "signal": "Send a normal selfie and tell your ChatGPT it’s a weird filter HAHAHAAHAHAHA"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wenu2y/did_chatgpt_suddenly_get_way_worse_at/",
+          "signal": "Did ChatGPT suddenly get way worse at understanding/communicating?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
           "signal": "ChatGPT's body of choice"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we59w6/a_mumbai_man_allegedly_used_chatgpt_to_create/",
-          "signal": "A Mumbai man allegedly used ChatGPT to create fake PMO documents and impersonate an official, police told the court."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wecm8q/ive_kept_journals_for_10_years_using_chatgpt/",
-          "signal": "I've kept journals for 10+ years. Using ChatGPT changed how I write them."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we4362/chatgpt_windows_app_realized_it_was_glitching_and/",
-          "signal": "ChatGPT Windows app realized it was glitching, and spent multiple lines begging itself to shut up"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wex52o/chatgpt_fail/",
+          "signal": "ChatGPT fail"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wekvwu/whats_one_thing_you_wish_you_had_known_before/",
           "signal": "What’s one thing you wish you had known before using ChatGPT regularly?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-          "signal": "The Gemini app is now available for Windows"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wedcln/best_ai_subscription_for_the_dollar_whats_the/",
-          "signal": "Best AI subscription for the dollar? What’s the best to spend on? ChatGPT or Claude or Gemini?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=37AQ7zeYIG0",
-          "signal": "first time use ai | chatgpt | zx10r | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -491,7 +429,7 @@
     {
       "problem": "Bye Claude, you've reached my token limit",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
