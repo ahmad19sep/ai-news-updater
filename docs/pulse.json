@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:56:33.044368+00:00",
+  "generated_at": "2026-09-13T16:20:46.568206+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,13 +49,14 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -86,13 +87,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wenu2y/did_chatgpt_suddenly_get_way_worse_at/",
-          "signal": "Did ChatGPT suddenly get way worse at understanding/communicating?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf6i4t/how_chatgpt_has_become_part_of_how_i_work_create/",
+          "signal": "How ChatGPT has become part of how I work, create and reflect"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
-          "signal": "ChatGPT's body of choice"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf7okz/i_stopped_treating_chatgpt_like_a_chat_box_and/",
+          "signal": "I stopped treating ChatGPT like a chat box and started using the chat itself as my Mac orchestrator"
         }
       ],
       "content_ideas": []
@@ -125,33 +126,6 @@
       "content_ideas": []
     },
     {
-      "name": "Ask HN: Can we please limit the AI news flood?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49657850",
-          "signal": "Ask HN: Can we please limit the AI news flood?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Everyone should slow down AI development except for me",
       "category": "use_case",
       "momentum": "rising",
@@ -179,33 +153,6 @@
       "content_ideas": []
     },
     {
-      "name": "Nvidia is the central bank of AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-          "signal": "Nvidia is the central bank of AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Why are AI agents lying, cheating and coordinating?",
       "category": "use_case",
       "momentum": "rising",
@@ -228,6 +175,33 @@
           "platform": "hackernews",
           "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
           "signal": "Why are AI agents lying, cheating and coordinating?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Nvidia is the central bank of AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "signal": "Nvidia is the central bank of AI"
         }
       ],
       "content_ideas": []
@@ -287,33 +261,6 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Hacker News, Without AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.unslop.news/",
-          "signal": "Show HN: Hacker News, Without AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI researchers debate how close we are to recursive self-improvement",
       "category": "use_case",
       "momentum": "rising",
@@ -341,7 +288,7 @@
       "content_ideas": []
     },
     {
-      "name": "Hacker News with reduced priority for AI driven content",
+      "name": "The worst spam emails: iLands AI agent hustle",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -353,7 +300,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -361,8 +308,64 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://sprinklz.io/public/pdwt4dve5uai",
-          "signal": "Hacker News with reduced priority for AI driven content"
+          "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+          "signal": "The worst spam emails: iLands AI agent hustle"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A few good ideas in programming languages",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://prydt.xyz/blog/a-few-good-ideas-in-pl/",
+          "signal": "A few good ideas in programming languages"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google stole open source code without crediting the authors (Artemis/M",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+          "signal": "Google stole open source code without crediting the authors (Artemis/Minitap)"
         }
       ],
       "content_ideas": []
@@ -376,13 +379,14 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -413,13 +417,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wenu2y/did_chatgpt_suddenly_get_way_worse_at/",
-          "signal": "Did ChatGPT suddenly get way worse at understanding/communicating?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf6i4t/how_chatgpt_has_become_part_of_how_i_work_create/",
+          "signal": "How ChatGPT has become part of how I work, create and reflect"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
-          "signal": "ChatGPT's body of choice"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf7okz/i_stopped_treating_chatgpt_like_a_chat_box_and/",
+          "signal": "I stopped treating ChatGPT like a chat box and started using the chat itself as my Mac orchestrator"
         }
       ],
       "content_ideas": []
