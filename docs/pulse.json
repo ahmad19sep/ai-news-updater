@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:53:01.040214+00:00",
+  "generated_at": "2026-09-14T21:51:39.197713+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,18 +18,19 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -55,18 +56,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgb7h3/we_desperately_need_another_chatgpt_subreddit_for/",
+          "signal": "We desperately need another ChatGPT subreddit for Work"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
           "signal": "What are people actually using ChatGPT scheduled tasks for?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
-          "signal": "You can make ChatGPT watch reels"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfrosy/what_name_did_your_chatgpt_give_itself/",
-          "signal": "What name did your chatgpt give itself?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
+          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
         }
       ],
       "content_ideas": []
@@ -153,33 +154,6 @@
       "content_ideas": []
     },
     {
-      "name": "Nvidia is the central bank of AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-          "signal": "Nvidia is the central bank of AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Wan",
       "category": "tool_launch",
       "momentum": "rising",
@@ -212,7 +186,7 @@
       "content_ideas": []
     },
     {
-      "name": "Real-SWE: Benchmarking AI models on private, real-world, enterprise co",
+      "name": "For AI leaders Doom is a form of hype",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -224,7 +198,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -232,14 +206,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://withspecific.com/benchmarks/real-swe",
-          "signal": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases"
+          "url": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/",
+          "signal": "For AI leaders Doom is a form of hype"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "A few good ideas in programming languages",
+      "name": "There Is No AI (It's Just People) with Jaron Lanier",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -259,33 +233,6 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://prydt.xyz/blog/a-few-good-ideas-in-pl/",
-          "signal": "A few good ideas in programming languages"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "There Is No AI (It's Just People) with Jaron Lanier",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
           "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
           "signal": "There Is No AI (It's Just People) with Jaron Lanier"
         }
@@ -293,7 +240,7 @@
       "content_ideas": []
     },
     {
-      "name": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "name": "Big AI sets out its terms for regulatory capture",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -305,7 +252,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -313,8 +260,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
-          "signal": "Anthropic boss Dario Amodei calls for AI development to slow down"
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+          "signal": "Big AI sets out its terms for regulatory capture"
         }
       ],
       "content_ideas": []
@@ -332,7 +279,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -372,9 +319,121 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The AI job market in 2026",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
+          "signal": "The AI job market in 2026"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
+          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgb7h3/we_desperately_need_another_chatgpt_subreddit_for/",
+          "signal": "We desperately need another ChatGPT subreddit for Work"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
+          "signal": "What are people actually using ChatGPT scheduled tasks for?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
+          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Wan",
       "category": "tool_launch",
@@ -408,23 +467,19 @@
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
+      "name": "Gpt-5",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -432,33 +487,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
-          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
-          "signal": "What are people actually using ChatGPT scheduled tasks for?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
-          "signal": "You can make ChatGPT watch reels"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfrosy/what_name_did_your_chatgpt_give_itself/",
-          "signal": "What name did your chatgpt give itself?"
+          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
         }
       ],
       "content_ideas": []
@@ -466,13 +496,13 @@
   ],
   "pain_points": [
     {
-      "problem": "GPT-6 keeps telling me the work enviroment is down?",
+      "problem": "Currently Can't Process PDF Attachments but Status Page says Operational",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg23u8/gpt6_keeps_telling_me_the_work_enviroment_is_down/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg5g63/currently_cant_process_pdf_attachments_but_status/"
         }
       ],
       "content_opportunity": ""
