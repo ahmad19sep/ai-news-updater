@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:00:26.432991+00:00",
+  "generated_at": "2026-09-14T12:53:01.040214+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -21,6 +21,7 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -38,6 +39,11 @@
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
+        },
+        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
@@ -49,23 +55,45 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
+          "signal": "What are people actually using ChatGPT scheduled tasks for?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
           "signal": "You can make ChatGPT watch reels"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfmo2i/how_do_iget_chatgpt_to_stop_asking_if_i_need/",
-          "signal": "How do Iget ChatGPT to stop asking if I need mental help?"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfrosy/what_name_did_your_chatgpt_give_itself/",
+          "signal": "What name did your chatgpt give itself?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
-          "signal": "Chatgpt Images Swirl Marks"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfgr46/chatgpt_is_more_useful_for_starting_things_than/",
-          "signal": "ChatGPT is more useful for starting things than finishing them..."
+          "platform": "hackernews",
+          "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+          "signal": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
         }
       ],
       "content_ideas": []
@@ -152,33 +180,6 @@
       "content_ideas": []
     },
     {
-      "name": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-          "signal": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Wan",
       "category": "tool_launch",
       "momentum": "rising",
@@ -238,33 +239,6 @@
       "content_ideas": []
     },
     {
-      "name": "The worst spam emails: iLands AI agent hustle",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
-          "signal": "The worst spam emails: iLands AI agent hustle"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "A few good ideas in programming languages",
       "category": "use_case",
       "momentum": "rising",
@@ -287,6 +261,33 @@
           "platform": "hackernews",
           "url": "https://prydt.xyz/blog/a-few-good-ideas-in-pl/",
           "signal": "A few good ideas in programming languages"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "There Is No AI (It's Just People) with Jaron Lanier",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+          "signal": "There Is No AI (It's Just People) with Jaron Lanier"
         }
       ],
       "content_ideas": []
@@ -319,7 +320,7 @@
       "content_ideas": []
     },
     {
-      "name": "There Is No AI (It's Just People) with Jaron Lanier",
+      "name": "Open-source AI and open models reading list",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -339,8 +340,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
-          "signal": "There Is No AI (It's Just People) with Jaron Lanier"
+          "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+          "signal": "Open-source AI and open models reading list"
         }
       ],
       "content_ideas": []
@@ -412,6 +413,7 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -429,6 +431,11 @@
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
+        },
+        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
@@ -440,28 +447,36 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
+          "signal": "What are people actually using ChatGPT scheduled tasks for?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
           "signal": "You can make ChatGPT watch reels"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfmo2i/how_do_iget_chatgpt_to_stop_asking_if_i_need/",
-          "signal": "How do Iget ChatGPT to stop asking if I need mental help?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
-          "signal": "Chatgpt Images Swirl Marks"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfgr46/chatgpt_is_more_useful_for_starting_things_than/",
-          "signal": "ChatGPT is more useful for starting things than finishing them..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfrosy/what_name_did_your_chatgpt_give_itself/",
+          "signal": "What name did your chatgpt give itself?"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "GPT-6 keeps telling me the work enviroment is down?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg23u8/gpt6_keeps_telling_me_the_work_enviroment_is_down/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
