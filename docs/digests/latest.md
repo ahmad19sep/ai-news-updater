@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — science angle
    https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-2. **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — science angle
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
-3. **Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work - JD Corporate Blog** — science angle
+2. **Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work - JD Corporate Blog** — science angle
    https://news.google.com/rss/articles/CBMipgFBVV95cUxNZVAxQWF5aFEySlVmZTE5TDlkM0djRUNUaVctNlJXUGFTQWZtWmlDSUF5Rkh4dmNmNWNfWXFjZkVlVlFFWnVFUGZWTmRPQ0RzZUNpOGhHUmd3RFRBTFBROENpdDBndUtJa1ROOE1MczF2SjYtQXBOWUlFbGdkOUFyVlM5REJaWXZITldBVE9fNXAzSzRQT3J1YUZJeEs2QTYyODZ1cGl3?oc=5
-4. **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — science angle
+3. **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — science angle
    https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
-5. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
+4. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
    https://www.nature.com/articles/d41586-026-02842-5
-6. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
+5. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-7. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
+6. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
-8. **AI-Discovered Drug Reverses Aging Markers In Study, Biotech Says - Bloomberg.com** — science angle
+7. **AI-Discovered Drug Reverses Aging Markers In Study, Biotech Says - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNV2ExNmF2c0tWUms4bG5veXpLNC1DSWhaenp4U2R0SERxNjRrdFV2S0dPZGdsYUpBOGpQX2lQTDB4S2xGUktlN2NDNHBLSlFSckdCLXY2R0FPbUtTa1NfcVowNmE1NFJ4eTZ3OWthT0hfMlpMWEM5amtzaU9PS3NwWEw1NWlaOVZqTll4Q2FBNXNaQTB6YzdCX1B5dEE5R1hLblN6bVo0MElZZE0wVzd1d19UNTU?oc=5
+8. **Put patients at the centre of medical AI governance** — science angle
+   https://www.nature.com/articles/d41586-026-02796-8
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Ashley St. Clair and Alex Gibney on AI and the dangers of Elon Musk - AP News** — Elon Musk AI News — Score 123
@@ -33,28 +33,28 @@ All coverage: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbE1jSFVfVXRfM
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0FyR3ZLMnlxUldwcnZPQm1ZNUVyOHhhcHVQdFBFcHVaMWtXQ1FzZlIxNFpHVTZ2LWtCWnktSGlCZnFBWXRFSjdxNXIyeF9IZWxOTDZxV01ObXBYbXFlWTVhbjNGUVFqTDMtSjhLSFk2X3U3STFiaXR5MFc3ajZVTzRmN2tfdzVaN3JaQlZfcVFWR2ctSjNNQUFqLTF2MXZfa19RQ2t4ZnTSAa4BQVVfeXFMTkVSV2NfdmxVREtocGdhTHY3cXZWYlV4U1NTOWt4dHBUd2loT09KZlRQZ3JTcGJQYXFSQloyM0l2alpoREtrcDFWSUVMdnhvY3BtUWw5UkcyT3p6elBSVTFTRHFzaUtwaWpvTC1BeHIyY2JmZll6Nmxsc0lNMWduUGhUS1lRdjZqQ3ZXd0JDQTNuS1lJNE9iS2dNV1pZYmp1SlJRNTFJMFFzQXV0V293?oc=5
 4. **IRON, the World's First Advanced General-Purpose Humanoid Robot, Walks off the Production Lines as XPENG's Humanoid Robot Manufacturing Facility Is Officially Commissioned** — ricentral — Score 98
    https://www.ricentral.com/online_features/press_releases/iron-the-worlds-first-advanced-general-purpose-humanoid-robot-walks-off-the-production-lines-as/article_f3ffcea5-6d25-58e0-9857-85e67551fca9.html
-5. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 96
-   https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
+5. **Trump dismisses new AI guardrails, says there is a ‘SICK conspiracy’ against AI and data centers** — sandiegouniontribune — Score 96
+   https://www.sandiegouniontribune.com/2026/09/14/trump-dismisses-ai-guardrails/
 6. **Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - KTVN** — Dario Amodei News — Score 93
    https://news.google.com/rss/articles/CBMigAJBVV95cUxOY3ZuaHZCbGZRVHctOG5ubTQyaHlnNmx3eWhBZ0FGc2tUYU5PMXh1T1QyWFdlQ3FmVnRybFc4RExhMHowWDdSdnByakl5cGJFcDR4Yk5SbUM3dy1JcGlFNnBmMU5QenBvV3hQeXpWaFBWWHhtUzc3U0J4R1lmd1MtR3VWaDloajROMXFTeE1GZjhSNnY0d3BMdzV5WmR2UjZNNE1Rbk1wTUkwelRQMVpERVJWWlFraFNRd2M1eklJdmUyR0FoMDI5RDl0WG9acFQyR0tlWDJpM2RMa0hpcGpUeHJBWFM2SzFPdW12ZXJQc2RReUtqR20tUWwwMGxaQ0dk?oc=5
-7. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 83
+7. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 93
+   https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
+8. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 83
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2hTR2RhVHdfN1pYa05qT1RGbkM0Y0JrWWpjc21FMEFSTjZZZEFXLURYRU8yeldXQ0RkOVB2Z1hkRlJzT0JiQ2x5TWFCTFk5Q0UyYnkwdldNSjBZSlBiNDNabG1nRzFUTkNkUUFfN0prRHNOSFZHaEZJX2NOOGpmYUt1cTFrNjZqS0stTjJ5b182QnZJYTFsWHBkWDBaQlg2a1MtQ0hyZ0ZZbUFLYTZ1UGh6c2tqYnQxV1FB?oc=5
-8. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 78
+9. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 78
    https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSjhPM2huRWVLX3Q5c2Z5U2FDWEMxV3FXVndReTNWN2dYeTFwckpLYmlxcVc3S2RsemdZZzY4UEtXYVRsZG5DanFpcVhzazR1dXJNTzVDR19IYWpvdm9NMUpEVzBqRnJvdXhzd0VzR2hwMTNQZ3JhSTNJOElYZHd4b0lJUWJwVXoxUXlEOUpCamhwaDV3RXZ2R0lDTTZxVGxDNDFIZ1NDYW1ta3dDeTBnN3RqVVlrMUNZVWwwQTRFQml6MjNUbGwxcUpuR2N1MlBzNW4zaVNVazlhTUx0QVNleksxR1U5QzdocUQ0eUY3ZHZJbkU1MnhTWkNxOHE?oc=5
-9. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 77
+10. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 77
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE5RVzVKR09WQ0pick9xYjhVaXhnYUFpOUt2OElxZjBwbTRvT2d3U2FnRmFacXd5TWFvVnpwRUo5M0lEeWVNbWJURzdlRXFLbnFHa1Y4WU43SmxKYWcwUGRFQmdjV2FGeUg4TVdPVEFkTzJtNUtQV0xtVHROLV9XekJKSTZFbmFNb0xwaFNMejRHYmpwbUdpOGRlYXoza2hjWXRTdVdNcng0cmFNV2ZwTkFYT0tma1kzTkpN?oc=5
-10. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 63
-   https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmhpbDlqeDFLQWFXN1NkTW5PX1RvdFRGTXpGbTBIUFM1MUk2Qnd2STNITVhWOWdnVXVHenYyMzlKUnZqMU1tTjJnQUdGM2txa0dJaUNJUDdaM0x0dFB3WXRNTkdSdTFHanNRUGk4dGxTWVhlZkZEMHZ4bHZmcDROTVNSQTB6bENlbnNhVmthZHkzeElnUHc3T3VaMldla05LSnhXclhiWDc1X1BhUzFSaS1GNDNmd3VGaUpXNmR6MA?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-- **How AI Will Revolutionise Healthcare And Empower Doctors - Rediff** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG5tMGxqQmdydHZlbnIxTWhKTlJJMGdDR2xzMnQyR0JmeGFRQldHTDBYNEpOU0txVUJsZzI3YzFoOHUxN2hrMEFkVEh0U25kaGRZbmtwbWZqbnVVZ0pVVkJHcGxFdW1CLVRwYmFpSGJwM2RaZDg1ZkEzWHpYWEQ4V21IU0tPV0Q5UWEtTFlQSHFKSE85dHY5SnpzLUh2VGtiVEhIbUJqSmk1UdIBrAFBVV95cUxNQ1RISXBOUjNjVGlfclh3cVM0UmRQQlJBZl8xWklOMDY0SFZzSUNybElhcDh4cmlZVkpVY1UxbEhnWGdIQ0RzWFJFeFBUNWQ3UU1ReURud0lkdWstYWRacEktX01Yb21ET2F3WkFWZVBrek14OUFpM0REWF9hV3UwQldKX3ZTN2Q2WXJlSGZ0cUloZ204WGMzRmVYTFYyM253OV93NUpxRk0wNjVs?oc=5
 - **Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work - JD Corporate Blog** — https://news.google.com/rss/articles/CBMipgFBVV95cUxNZVAxQWF5aFEySlVmZTE5TDlkM0djRUNUaVctNlJXUGFTQWZtWmlDSUF5Rkh4dmNmNWNfWXFjZkVlVlFFWnVFUGZWTmRPQ0RzZUNpOGhHUmd3RFRBTFBROENpdDBndUtJa1ROOE1MczF2SjYtQXBOWUlFbGdkOUFyVlM5REJaWXZITldBVE9fNXAzSzRQT3J1YUZJeEs2QTYyODZ1cGl3?oc=5
 - **Forus Raises $150M at a $3B Valuation as Its AI Network Becomes How Medicine Reaches Patients - Yahoo Finance** — https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUhrdV9NcTd4MzV6UDJVZ2ZZdk9pZWxGNDY2emdIRXd3WXpxNGRTb3dQQ3VxbkdrcmI5TUU4S3lFVktsd1dpOFpJQnNoN1E0OXZPSjc2WEZpdE9JUVpacm1NUTljZmk0amxfdjM5UDZSX09hYWl0bVhmbThZQTdET2M3LVJLRWRNMFFzRkF4eG5VMFFmT3c?oc=5
 - **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — https://www.nature.com/articles/d41586-026-02842-5
+- **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3158
+- Total stories tracked: 3198
 - Most active topic: anthropic
 - Busiest category: AI General News
 
