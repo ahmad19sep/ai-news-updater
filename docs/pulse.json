@@ -1,41 +1,71 @@
 {
-  "generated_at": "2026-09-13T20:52:49.427091+00:00",
+  "generated_at": "2026-09-14T05:00:26.432991+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
+      "reddit",
       "hackernews",
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 32,
+      "reddit": 25,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
     {
-      "name": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.rubyhack.ai/",
-          "signal": "OpenAI agents carried out an undisclosed attack on RubyGems"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
+          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
+          "signal": "You can make ChatGPT watch reels"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfmo2i/how_do_iget_chatgpt_to_stop_asking_if_i_need/",
+          "signal": "How do Iget ChatGPT to stop asking if I need mental help?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
+          "signal": "Chatgpt Images Swirl Marks"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfgr46/chatgpt_is_more_useful_for_starting_things_than/",
+          "signal": "ChatGPT is more useful for starting things than finishing them..."
         }
       ],
       "content_ideas": []
@@ -95,60 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
-          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pT3ayxo9lXA",
-          "signal": "Following 80s trend🙈 Kese Lage Photos?🥰 #ytshorts #trending #chatgpt #shortsfeed #shorts #trend"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=RzwWXTHF4Io",
-          "signal": "O chocolate feito exclusivamente para o ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TaoNIQEUrhs",
-          "signal": "ఈ ChatGPT Promptతో 1980s Photo Ready 🔥#IsmartShiva #ChatGPT #ChatGPTImages"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vPBIe7Omn4s",
-          "signal": "Trending 80s Look Photo Prompt 🔥😍 | Viral 1980s Retro Style Ai Photo Editing | Chatgpt Prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6ZtXbdgZ_oA",
-          "signal": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Nvidia is the central bank of AI",
       "category": "use_case",
       "momentum": "rising",
@@ -176,9 +152,36 @@
       "content_ideas": []
     },
     {
+      "name": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+          "signal": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -235,33 +238,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI researchers debate how close we are to recursive self-improvement",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.dwarkesh.com/p/john-beren-charlie",
-          "signal": "AI researchers debate how close we are to recursive self-improvement"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "The worst spam emails: iLands AI agent hustle",
       "category": "use_case",
       "momentum": "rising",
@@ -301,7 +277,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -343,20 +319,18 @@
       "content_ideas": []
     },
     {
-      "name": "Google stole open source code without crediting the authors (Artemis/M",
+      "name": "There Is No AI (It's Just People) with Jaron Lanier",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
@@ -365,8 +339,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-          "signal": "Google stole open source code without crediting the authors (Artemis/Minitap)"
+          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+          "signal": "There Is No AI (It's Just People) with Jaron Lanier"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI recursive self-improvement might not come so quickly after all",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+          "signal": "AI recursive self-improvement might not come so quickly after all"
         }
       ],
       "content_ideas": []
@@ -374,63 +375,9 @@
   ],
   "rising_tools": [
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
-          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pT3ayxo9lXA",
-          "signal": "Following 80s trend🙈 Kese Lage Photos?🥰 #ytshorts #trending #chatgpt #shortsfeed #shorts #trend"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=RzwWXTHF4Io",
-          "signal": "O chocolate feito exclusivamente para o ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TaoNIQEUrhs",
-          "signal": "ఈ ChatGPT Promptతో 1980s Photo Ready 🔥#IsmartShiva #ChatGPT #ChatGPTImages"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vPBIe7Omn4s",
-          "signal": "Trending 80s Look Photo Prompt 🔥😍 | Viral 1980s Retro Style Ai Photo Editing | Chatgpt Prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6ZtXbdgZ_oA",
-          "signal": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -458,8 +405,63 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
+          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3ako/you_can_make_chatgpt_watch_reels/",
+          "signal": "You can make ChatGPT watch reels"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfmo2i/how_do_iget_chatgpt_to_stop_asking_if_i_need/",
+          "signal": "How do Iget ChatGPT to stop asking if I need mental help?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wf0paj/chatgpt_images_swirl_marks/",
+          "signal": "Chatgpt Images Swirl Marks"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfgr46/chatgpt_is_more_useful_for_starting_things_than/",
+          "signal": "ChatGPT is more useful for starting things than finishing them..."
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "OpenAI agents carried out an undisclosed attack on RubyGems — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
