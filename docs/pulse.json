@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:02:09.749112+00:00",
+  "generated_at": "2026-09-15T21:23:44.333127+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 39,
+      "reddit": 25,
+      "hackernews": 41,
       "youtube": 106
     },
     "llm_provider": null
@@ -23,7 +23,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -46,18 +45,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wge6gc/apples_siri_ai_can_be_swapped_out_for_claude/",
-          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1jbm/chatgpt_wants_full_access_to_my_google_drive/",
-          "signal": "ChatGPT wants full access to my Google Drive"
         },
         {
           "platform": "reddit",
@@ -66,14 +55,24 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1j4p/is_it_not_possible_anymore_to_save_chatgpt_chats/",
-          "signal": "Is it not possible anymore to save ChatGPT chats offline?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whcmcf/chatgpt_is_so_much_worse_as_of_late_so_many/",
+          "signal": "Chatgpt is so much worse as of late. So many tangents and yapping, answering questions that were never asked."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8fvwRj-mhKQ",
+          "signal": "Why Is This AI Comparison So Accurate? 😂 #developer #tech #coding #programming #ai #chatgpt #claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
+          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "name": "Introducing System One Models and Jev",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -93,19 +92,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-          "signal": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "signal": "Introducing System One Models and Jev"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
+        "hackernews",
         "reddit",
         "youtube"
       ],
@@ -114,7 +112,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -122,34 +120,46 @@
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/",
-          "signal": "I used Claude to write a CapCut replacement and now people are actually ditching CapCut for it."
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+          "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgvklo/claude_opus_5_drew_every_frame_of_this_animation/",
-          "signal": "Claude Opus 5 drew every frame of this animation using JavaScript."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
+          "signal": "Why is gemini like that"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
-          "signal": "I gave Claude Fable 5.1 and GPT 6 Astra control of my Robot Arm. Which do you think painted better?"
-        },
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Capsule – Single-file web apps that save their data into SQLi",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wghjmn/claude_keeps_naming_things_after_the_mistakes_i/",
-          "signal": "Claude keeps naming things after the mistakes I told it not to make. So I built a hook for it."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgk4wp/claude_helped_me_build_a_dynamic_weather_system/",
-          "signal": "Claude Helped Me Build A Dynamic Weather System"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgcc22/sharing_my_favorite_claude_code_tips/",
-          "signal": "Sharing my favorite Claude Code tips"
+          "platform": "hackernews",
+          "url": "https://withcapsule.app/",
+          "signal": "Show HN: Capsule – Single-file web apps that save their data into SQLite"
         }
       ],
       "content_ideas": []
@@ -177,6 +187,33 @@
           "platform": "hackernews",
           "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
           "signal": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "There's a 100% Chance AI Agents Are Ruining the Internet",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+          "signal": "There's a 100% Chance AI Agents Are Ruining the Internet"
         }
       ],
       "content_ideas": []
@@ -236,7 +273,7 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Capsule – Single-file web apps that save their data into SQLi",
+      "name": "We got admin access to Baseten's production GitHub in 25 minutes",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -246,7 +283,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 5,
       "monetization": {
@@ -256,8 +293,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://withcapsule.app/",
-          "signal": "Show HN: Capsule – Single-file web apps that save their data into SQLite"
+          "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+          "signal": "We got admin access to Baseten's production GitHub in 25 minutes"
         }
       ],
       "content_ideas": []
@@ -285,33 +322,6 @@
           "platform": "hackernews",
           "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
           "signal": "Big AI sets out its terms for regulatory capture"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "There Is No AI (It's Just People) with Jaron Lanier",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
-          "signal": "There Is No AI (It's Just People) with Jaron Lanier"
         }
       ],
       "content_ideas": []
@@ -369,43 +379,15 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "AI recursive self-improvement might not come so quickly after all",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-          "signal": "AI recursive self-improvement might not come so quickly after all"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "Claude",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
+        "hackernews",
         "reddit",
         "youtube"
       ],
@@ -414,7 +396,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -422,34 +404,19 @@
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/",
-          "signal": "I used Claude to write a CapCut replacement and now people are actually ditching CapCut for it."
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+          "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgvklo/claude_opus_5_drew_every_frame_of_this_animation/",
-          "signal": "Claude Opus 5 drew every frame of this animation using JavaScript."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
+          "signal": "Why is gemini like that"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
-          "signal": "I gave Claude Fable 5.1 and GPT 6 Astra control of my Robot Arm. Which do you think painted better?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wghjmn/claude_keeps_naming_things_after_the_mistakes_i/",
-          "signal": "Claude keeps naming things after the mistakes I told it not to make. So I built a hook for it."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgk4wp/claude_helped_me_build_a_dynamic_weather_system/",
-          "signal": "Claude Helped Me Build A Dynamic Weather System"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgcc22/sharing_my_favorite_claude_code_tips/",
-          "signal": "Sharing my favorite Claude Code tips"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -489,7 +456,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -512,18 +478,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wge6gc/apples_siri_ai_can_be_swapped_out_for_claude/",
-          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1jbm/chatgpt_wants_full_access_to_my_google_drive/",
-          "signal": "ChatGPT wants full access to my Google Drive"
         },
         {
           "platform": "reddit",
@@ -532,8 +488,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1j4p/is_it_not_possible_anymore_to_save_chatgpt_chats/",
-          "signal": "Is it not possible anymore to save ChatGPT chats offline?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whcmcf/chatgpt_is_so_much_worse_as_of_late_so_many/",
+          "signal": "Chatgpt is so much worse as of late. So many tangents and yapping, answering questions that were never asked."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8fvwRj-mhKQ",
+          "signal": "Why Is This AI Comparison So Accurate? 😂 #developer #tech #coding #programming #ai #chatgpt #claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
+          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
         }
       ],
       "content_ideas": []
@@ -541,13 +507,25 @@
   ],
   "pain_points": [
     {
-      "problem": "New usage limits",
-      "who_affected": "r/ClaudeAI",
-      "signal_strength": 4,
+      "problem": "Windows failing to load, extremely slow, etc. Is anyone experiencing this?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wh13y2/new_usage_limits/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whbu1t/windows_failing_to_load_extremely_slow_etc_is/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Did Codex usage limits tighten this week ? (~Sept 12 2026) I keep blowing the limit",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wha5d9/did_codex_usage_limits_tighten_this_week_sept_12/"
         }
       ],
       "content_opportunity": ""
