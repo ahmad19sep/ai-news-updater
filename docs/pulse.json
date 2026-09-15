@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:57:53.589596+00:00",
+  "generated_at": "2026-09-15T11:47:30.478458+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": null
@@ -30,7 +30,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -51,6 +51,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgr4sr/chatgpt_listening_to_me_have_sex/",
+          "signal": "ChatGPT listening to me have sex???"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgsd3h/chatgpt_whats_that/",
+          "signal": "\"ChatGPT? What's that?\""
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
           "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
         },
@@ -58,16 +68,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wgb7h3/we_desperately_need_another_chatgpt_subreddit_for/",
           "signal": "We desperately need another ChatGPT subreddit for Work"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
-          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
-          "signal": "What are people actually using ChatGPT scheduled tasks for?"
         }
       ],
       "content_ideas": []
@@ -154,6 +154,33 @@
       "content_ideas": []
     },
     {
+      "name": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 pre",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+          "signal": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Gpt-5",
       "category": "tool_launch",
       "momentum": "rising",
@@ -166,7 +193,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -176,33 +203,6 @@
           "platform": "hackernews",
           "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
           "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "There Is No AI (It's Just People) with Jaron Lanier",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
-          "signal": "There Is No AI (It's Just People) with Jaron Lanier"
         }
       ],
       "content_ideas": []
@@ -230,6 +230,33 @@
           "platform": "hackernews",
           "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
           "signal": "Big AI sets out its terms for regulatory capture"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "There Is No AI (It's Just People) with Jaron Lanier",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+          "signal": "There Is No AI (It's Just People) with Jaron Lanier"
         }
       ],
       "content_ideas": []
@@ -289,7 +316,7 @@
       "content_ideas": []
     },
     {
-      "name": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 pre",
+      "name": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -309,8 +336,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
-          "signal": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent"
+          "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+          "signal": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)"
         }
       ],
       "content_ideas": []
@@ -341,44 +368,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
-          "signal": "Why is gemini like that"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jrnfPiGe0c4",
-          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -395,7 +384,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -424,7 +413,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -445,6 +434,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgr4sr/chatgpt_listening_to_me_have_sex/",
+          "signal": "ChatGPT listening to me have sex???"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgsd3h/chatgpt_whats_that/",
+          "signal": "\"ChatGPT? What's that?\""
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
           "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
         },
@@ -452,16 +451,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wgb7h3/we_desperately_need_another_chatgpt_subreddit_for/",
           "signal": "We desperately need another ChatGPT subreddit for Work"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
-          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
-          "signal": "What are people actually using ChatGPT scheduled tasks for?"
         }
       ],
       "content_ideas": []
@@ -492,47 +481,21 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
-          "signal": "Why is gemini like that"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=jrnfPiGe0c4",
-          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "I filed a police report against OpenAi for a serious payment problem they have",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgw56b/i_filed_a_police_report_against_openai_for_a/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Someone Hijacked My Account, Upgraded to Pro ($293.37 CAD Fraudulent Charge), Got Me Deactivated, and I Cannot Reach Any Support: Need Advic",
       "who_affected": "r/ChatGPT",
@@ -541,18 +504,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wgmc4a/someone_hijacked_my_account_upgraded_to_pro_29337/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Currently Can't Process PDF Attachments but Status Page says Operational",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg5g63/currently_cant_process_pdf_attachments_but_status/"
         }
       ],
       "content_opportunity": ""
