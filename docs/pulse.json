@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:51:39.197713+00:00",
+  "generated_at": "2026-09-15T04:57:53.589596+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 39,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -51,8 +51,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
-          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
+          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
         },
         {
           "platform": "reddit",
@@ -61,13 +61,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
-          "signal": "What are people actually using ChatGPT scheduled tasks for?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
+          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
-          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
+          "signal": "What are people actually using ChatGPT scheduled tasks for?"
         }
       ],
       "content_ideas": []
@@ -100,63 +100,9 @@
       "content_ideas": []
     },
     {
-      "name": "Why are AI agents lying, cheating and coordinating?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-          "signal": "Why are AI agents lying, cheating and coordinating?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Everyone should slow down AI development except for me",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-          "signal": "Everyone should slow down AI development except for me"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -176,11 +122,6 @@
           "platform": "hackernews",
           "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
           "signal": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
-          "signal": "Apple wants to train AI on your private personal data"
         }
       ],
       "content_ideas": []
@@ -208,6 +149,33 @@
           "platform": "hackernews",
           "url": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/",
           "signal": "For AI leaders Doom is a form of hype"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
         }
       ],
       "content_ideas": []
@@ -321,11 +289,66 @@
       "content_ideas": []
     },
     {
-      "name": "Gpt-5",
-      "category": "tool_launch",
+      "name": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 pre",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+          "signal": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Adversarial Fashion Makes a Statement on AI Panopticon",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://spectrum.ieee.org/adversarial-fashion",
+          "signal": "Adversarial Fashion Makes a Statement on AI Panopticon"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -340,6 +363,45 @@
       },
       "sources": [
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
+          "signal": "Why is gemini like that"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jrnfPiGe0c4",
+          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Gpt-5",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
           "platform": "hackernews",
           "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
           "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
@@ -348,39 +410,9 @@
       "content_ideas": []
     },
     {
-      "name": "The AI job market in 2026",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
-          "signal": "The AI job market in 2026"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -413,8 +445,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
-          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
+          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
         },
         {
           "platform": "reddit",
@@ -423,13 +455,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
-          "signal": "What are people actually using ChatGPT scheduled tasks for?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wfk52a/i_gave_chatgpt_complete_creative_freedom_and_one/",
+          "signal": "I gave ChatGPT complete creative freedom and one rule: pack as much detail as possible into a single image. This is what it created."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
-          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/",
+          "signal": "What are people actually using ChatGPT scheduled tasks for?"
         }
       ],
       "content_ideas": []
@@ -437,7 +469,7 @@
     {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -457,21 +489,17 @@
           "platform": "hackernews",
           "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
           "signal": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
-          "signal": "Apple wants to train AI on your private personal data"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Gpt-5",
+      "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -486,9 +514,19 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
+          "signal": "Why is gemini like that"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jrnfPiGe0c4",
+          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -496,9 +534,21 @@
   ],
   "pain_points": [
     {
+      "problem": "Someone Hijacked My Account, Upgraded to Pro ($293.37 CAD Fraudulent Charge), Got Me Deactivated, and I Cannot Reach Any Support: Need Advic",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgmc4a/someone_hijacked_my_account_upgraded_to_pro_29337/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Currently Can't Process PDF Attachments but Status Page says Operational",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
