@@ -54,7 +54,7 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3468
+- Total stories tracked: 3422
 - Most active topic: anthropic
 - Busiest category: AI General News
 
