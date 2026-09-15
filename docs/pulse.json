@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:47:30.478458+00:00",
+  "generated_at": "2026-09-15T17:02:09.749112+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 36,
+      "reddit": 50,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": null
@@ -30,7 +30,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -46,13 +46,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wge6gc/apples_siri_ai_can_be_swapped_out_for_claude/",
+          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgr4sr/chatgpt_listening_to_me_have_sex/",
-          "signal": "ChatGPT listening to me have sex???"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1jbm/chatgpt_wants_full_access_to_my_google_drive/",
+          "signal": "ChatGPT wants full access to my Google Drive"
         },
         {
           "platform": "reddit",
@@ -61,13 +66,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
-          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgb7h3/we_desperately_need_another_chatgpt_subreddit_for/",
-          "signal": "We desperately need another ChatGPT subreddit for Work"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1j4p/is_it_not_possible_anymore_to_save_chatgpt_chats/",
+          "signal": "Is it not possible anymore to save ChatGPT chats offline?"
         }
       ],
       "content_ideas": []
@@ -100,9 +100,64 @@
       "content_ideas": []
     },
     {
-      "name": "Wan",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/",
+          "signal": "I used Claude to write a CapCut replacement and now people are actually ditching CapCut for it."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgvklo/claude_opus_5_drew_every_frame_of_this_animation/",
+          "signal": "Claude Opus 5 drew every frame of this animation using JavaScript."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
+          "signal": "I gave Claude Fable 5.1 and GPT 6 Astra control of my Robot Arm. Which do you think painted better?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wghjmn/claude_keeps_naming_things_after_the_mistakes_i/",
+          "signal": "Claude keeps naming things after the mistakes I told it not to make. So I built a hook for it."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgk4wp/claude_helped_me_build_a_dynamic_weather_system/",
+          "signal": "Claude Helped Me Build A Dynamic Weather System"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgcc22/sharing_my_favorite_claude_code_tips/",
+          "signal": "Sharing my favorite Claude Code tips"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 pre",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -112,16 +167,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-          "signal": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+          "signal": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent"
         }
       ],
       "content_ideas": []
@@ -154,33 +209,6 @@
       "content_ideas": []
     },
     {
-      "name": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 pre",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
-          "signal": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gpt-5",
       "category": "tool_launch",
       "momentum": "rising",
@@ -203,6 +231,33 @@
           "platform": "hackernews",
           "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
           "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Capsule – Single-file web apps that save their data into SQLi",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://withcapsule.app/",
+          "signal": "Show HN: Capsule – Single-file web apps that save their data into SQLite"
         }
       ],
       "content_ideas": []
@@ -289,6 +344,33 @@
       "content_ideas": []
     },
     {
+      "name": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+          "signal": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI recursive self-improvement might not come so quickly after all",
       "category": "use_case",
       "momentum": "rising",
@@ -314,63 +396,64 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-          "signal": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Adversarial Fashion Makes a Statement on AI Panopticon",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/adversarial-fashion",
-          "signal": "Adversarial Fashion Makes a Statement on AI Panopticon"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/",
+          "signal": "I used Claude to write a CapCut replacement and now people are actually ditching CapCut for it."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgvklo/claude_opus_5_drew_every_frame_of_this_animation/",
+          "signal": "Claude Opus 5 drew every frame of this animation using JavaScript."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
+          "signal": "I gave Claude Fable 5.1 and GPT 6 Astra control of my Robot Arm. Which do you think painted better?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wghjmn/claude_keeps_naming_things_after_the_mistakes_i/",
+          "signal": "Claude keeps naming things after the mistakes I told it not to make. So I built a hook for it."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgk4wp/claude_helped_me_build_a_dynamic_weather_system/",
+          "signal": "Claude Helped Me Build A Dynamic Weather System"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgcc22/sharing_my_favorite_claude_code_tips/",
+          "signal": "Sharing my favorite Claude Code tips"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Gpt-5",
       "category": "tool_launch",
@@ -413,7 +496,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -429,13 +512,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wge6gc/apples_siri_ai_can_be_swapped_out_for_claude/",
+          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgr4sr/chatgpt_listening_to_me_have_sex/",
-          "signal": "ChatGPT listening to me have sex???"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1jbm/chatgpt_wants_full_access_to_my_google_drive/",
+          "signal": "ChatGPT wants full access to my Google Drive"
         },
         {
           "platform": "reddit",
@@ -444,40 +532,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wg4zhw/inside_project_lily_the_humans_reading_your/",
-          "signal": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgb7h3/we_desperately_need_another_chatgpt_subreddit_for/",
-          "signal": "We desperately need another ChatGPT subreddit for Work"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-          "signal": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wh1j4p/is_it_not_possible_anymore_to_save_chatgpt_chats/",
+          "signal": "Is it not possible anymore to save ChatGPT chats offline?"
         }
       ],
       "content_ideas": []
@@ -485,25 +541,13 @@
   ],
   "pain_points": [
     {
-      "problem": "I filed a police report against OpenAi for a serious payment problem they have",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "problem": "New usage limits",
+      "who_affected": "r/ClaudeAI",
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgw56b/i_filed_a_police_report_against_openai_for_a/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Someone Hijacked My Account, Upgraded to Pro ($293.37 CAD Fraudulent Charge), Got Me Deactivated, and I Cannot Reach Any Support: Need Advic",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgmc4a/someone_hijacked_my_account_upgraded_to_pro_29337/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wh13y2/new_usage_limits/"
         }
       ],
       "content_opportunity": ""
