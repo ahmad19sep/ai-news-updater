@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:23:44.333127+00:00",
+  "generated_at": "2026-09-16T04:52:40.797408+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 41,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,23 +50,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgsd3h/chatgpt_whats_that/",
-          "signal": "\"ChatGPT? What's that?\""
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whdgeb/do_people_talk_to_chatgpt_like_they_would_talk_to/",
+          "signal": "Do people talk to ChatGPT like they would talk to a human friend?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whcmcf/chatgpt_is_so_much_worse_as_of_late_so_many/",
-          "signal": "Chatgpt is so much worse as of late. So many tangents and yapping, answering questions that were never asked."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whifdj/i_accidentally_left_chatgpt_voice_on_for_a_second/",
+          "signal": "I accidentally left ChatGPT voice on for a second after I got home."
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8fvwRj-mhKQ",
-          "signal": "Why Is This AI Comparison So Accurate? 😂 #developer #tech #coding #programming #ai #chatgpt #claude"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whjic0/chatgpt_generated_the_image_itself_then_refused/",
+          "signal": "ChatGPT generated the image itself — then refused to edit the wolves into cats because the image might be too sexual."
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
-          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whl419/the_ui_of_chatgpt_is_anything_but_intelligent/",
+          "signal": "The UI of ChatGPT is anything but \"intelligent\""
         }
       ],
       "content_ideas": []
@@ -150,7 +150,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -160,6 +160,60 @@
           "platform": "hackernews",
           "url": "https://withcapsule.app/",
           "signal": "Show HN: Capsule – Single-file web apps that save their data into SQLite"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "We got admin access to Baseten's production GitHub",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+          "signal": "We got admin access to Baseten's production GitHub"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "There's a 100% Chance AI Agents Are Ruining the Internet",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+          "signal": "There's a 100% Chance AI Agents Are Ruining the Internet"
         }
       ],
       "content_ideas": []
@@ -192,7 +246,7 @@
       "content_ideas": []
     },
     {
-      "name": "There's a 100% Chance AI Agents Are Ruining the Internet",
+      "name": "Why I'm still bearish on LLMs after Navier-Stokes",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -212,8 +266,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-          "signal": "There's a 100% Chance AI Agents Are Ruining the Internet"
+          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+          "signal": "Why I'm still bearish on LLMs after Navier-Stokes"
         }
       ],
       "content_ideas": []
@@ -273,33 +327,6 @@
       "content_ideas": []
     },
     {
-      "name": "We got admin access to Baseten's production GitHub in 25 minutes",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-          "signal": "We got admin access to Baseten's production GitHub in 25 minutes"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Big AI sets out its terms for regulatory capture",
       "category": "use_case",
       "momentum": "rising",
@@ -327,18 +354,20 @@
       "content_ideas": []
     },
     {
-      "name": "Open-source AI and open models reading list",
+      "name": "Cartesian – AI 3D Modeling for Design",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
@@ -347,35 +376,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-          "signal": "Open-source AI and open models reading list"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-          "signal": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)"
+          "url": "https://www.formas.ai/cartesian",
+          "signal": "Cartesian – AI 3D Modeling for Design"
         }
       ],
       "content_ideas": []
@@ -483,23 +485,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgsd3h/chatgpt_whats_that/",
-          "signal": "\"ChatGPT? What's that?\""
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whdgeb/do_people_talk_to_chatgpt_like_they_would_talk_to/",
+          "signal": "Do people talk to ChatGPT like they would talk to a human friend?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whcmcf/chatgpt_is_so_much_worse_as_of_late_so_many/",
-          "signal": "Chatgpt is so much worse as of late. So many tangents and yapping, answering questions that were never asked."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whifdj/i_accidentally_left_chatgpt_voice_on_for_a_second/",
+          "signal": "I accidentally left ChatGPT voice on for a second after I got home."
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8fvwRj-mhKQ",
-          "signal": "Why Is This AI Comparison So Accurate? 😂 #developer #tech #coding #programming #ai #chatgpt #claude"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whjic0/chatgpt_generated_the_image_itself_then_refused/",
+          "signal": "ChatGPT generated the image itself — then refused to edit the wolves into cats because the image might be too sexual."
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=uGDlp9v8-Hg",
-          "signal": "Hey Chatgpt.. Stop DESTROYING The Planet - Fresh WATER &amp; AI Issue! #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whl419/the_ui_of_chatgpt_is_anything_but_intelligent/",
+          "signal": "The UI of ChatGPT is anything but \"intelligent\""
         }
       ],
       "content_ideas": []
@@ -507,25 +509,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Windows failing to load, extremely slow, etc. Is anyone experiencing this?",
+      "problem": "Limit Exceeded",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whbu1t/windows_failing_to_load_extremely_slow_etc_is/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Did Codex usage limits tighten this week ? (~Sept 12 2026) I keep blowing the limit",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wha5d9/did_codex_usage_limits_tighten_this_week_sept_12/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whl99o/limit_exceeded/"
         }
       ],
       "content_opportunity": ""
