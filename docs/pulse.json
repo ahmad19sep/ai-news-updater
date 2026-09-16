@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:01:04.158610+00:00",
+  "generated_at": "2026-09-16T21:20:47.428255+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -77,23 +77,50 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
+          "signal": "ChatGPT can now make the frames for pixel art animations"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi70f5/chatgpt_is_losing_my_favorite_feature_and_im_sick/",
+          "signal": "ChatGPT is losing my favorite feature, and I'm sick about it!"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wi20pp/chatgpt_25_sunburst_vs_seedream_5pro/",
           "signal": "Chatgpt 2.5 Sunburst vs Seedream 5.Pro"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whdgeb/do_people_talk_to_chatgpt_like_they_would_talk_to/",
-          "signal": "Do people talk to ChatGPT like they would talk to a human friend?"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi3vb5/does_chatgpt_constantly_nitpick_your_reasoning/",
+          "signal": "Does ChatGPT constantly nitpick your reasoning too, even when the \"correction\" doesn't change the point you made?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whifdj/i_accidentally_left_chatgpt_voice_on_for_a_second/",
-          "signal": "I accidentally left ChatGPT voice on for a second after I got home."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whsh50/chatgpt_images_25_is_severely_limited/",
-          "signal": "ChatGPT Images 2.5 is severely limited"
+          "platform": "hackernews",
+          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+          "signal": "Why I'm still bearish on LLMs after Navier-Stokes"
         }
       ],
       "content_ideas": []
@@ -139,7 +166,34 @@
       "content_ideas": []
     },
     {
-      "name": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A warning about 'model welfare'",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -159,8 +213,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
-          "signal": "Why I'm still bearish on LLMs after Navier-Stokes"
+          "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+          "signal": "A warning about 'model welfare'"
         }
       ],
       "content_ideas": []
@@ -220,33 +274,6 @@
       "content_ideas": []
     },
     {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-x-mozilla/",
-          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "There's a 100% Chance AI Agents Are Ruining the Internet",
       "category": "use_case",
       "momentum": "rising",
@@ -301,34 +328,7 @@
       "content_ideas": []
     },
     {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "A warning about 'model welfare'",
+      "name": "A coffee shop owner used AI to make a menu poster. Then came the angry",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -340,35 +340,6 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-          "signal": "A warning about 'model welfare'"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Cartesian – AI 3D Modeling for Design",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
       "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
@@ -377,8 +348,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.formas.ai/cartesian",
-          "signal": "Cartesian – AI 3D Modeling for Design"
+          "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
+          "signal": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+          "signal": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model"
         }
       ],
       "content_ideas": []
@@ -453,33 +451,6 @@
       "content_ideas": []
     },
     {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
@@ -514,23 +485,50 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
+          "signal": "ChatGPT can now make the frames for pixel art animations"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi70f5/chatgpt_is_losing_my_favorite_feature_and_im_sick/",
+          "signal": "ChatGPT is losing my favorite feature, and I'm sick about it!"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wi20pp/chatgpt_25_sunburst_vs_seedream_5pro/",
           "signal": "Chatgpt 2.5 Sunburst vs Seedream 5.Pro"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whdgeb/do_people_talk_to_chatgpt_like_they_would_talk_to/",
-          "signal": "Do people talk to ChatGPT like they would talk to a human friend?"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi3vb5/does_chatgpt_constantly_nitpick_your_reasoning/",
+          "signal": "Does ChatGPT constantly nitpick your reasoning too, even when the \"correction\" doesn't change the point you made?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whifdj/i_accidentally_left_chatgpt_voice_on_for_a_second/",
-          "signal": "I accidentally left ChatGPT voice on for a second after I got home."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whsh50/chatgpt_images_25_is_severely_limited/",
-          "signal": "ChatGPT Images 2.5 is severely limited"
+          "platform": "hackernews",
+          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+          "signal": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model"
         }
       ],
       "content_ideas": []
@@ -540,7 +538,7 @@
     {
       "problem": "Limit Exceeded",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -552,7 +550,7 @@
     {
       "problem": "The fact that there still isn't a way to track how close you are to reaching max length for a chat before it just completely locks you out i",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
