@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:52:40.797408+00:00",
+  "generated_at": "2026-09-16T11:39:49.804467+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -60,8 +60,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whjic0/chatgpt_generated_the_image_itself_then_refused/",
-          "signal": "ChatGPT generated the image itself — then refused to edit the wolves into cats because the image might be too sexual."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whsh50/chatgpt_images_25_is_severely_limited/",
+          "signal": "ChatGPT Images 2.5 is severely limited"
         },
         {
           "platform": "reddit",
@@ -103,8 +103,9 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
-        "reddit",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -112,7 +113,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -125,14 +126,41 @@
           "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
-          "signal": "Why is gemini like that"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LnpoHRGWxpQ",
+          "signal": "Gemini 80s 90s Photo Editing Prompts | ChatGPT 80s 90s Photo Editing Prompts #ai #editing"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+          "signal": "Why I'm still bearish on LLMs after Navier-Stokes"
         }
       ],
       "content_ideas": []
@@ -177,7 +205,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -204,7 +232,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -246,8 +274,8 @@
       "content_ideas": []
     },
     {
-      "name": "Why I'm still bearish on LLMs after Navier-Stokes",
-      "category": "use_case",
+      "name": "Gpt-5",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -258,16 +286,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
-          "signal": "Why I'm still bearish on LLMs after Navier-Stokes"
+          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
         }
       ],
       "content_ideas": []
@@ -300,60 +328,6 @@
       "content_ideas": []
     },
     {
-      "name": "Gpt-5",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-          "signal": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Big AI sets out its terms for regulatory capture",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
-          "signal": "Big AI sets out its terms for regulatory capture"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Cartesian – AI 3D Modeling for Design",
       "category": "use_case",
       "momentum": "rising",
@@ -381,6 +355,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+          "signal": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -389,8 +390,9 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
-        "reddit",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -398,7 +400,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -411,9 +413,9 @@
           "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wgibid/why_is_gemini_like_that/",
-          "signal": "Why is gemini like that"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LnpoHRGWxpQ",
+          "signal": "Gemini 80s 90s Photo Editing Prompts | ChatGPT 80s 90s Photo Editing Prompts #ai #editing"
         },
         {
           "platform": "youtube",
@@ -495,8 +497,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whjic0/chatgpt_generated_the_image_itself_then_refused/",
-          "signal": "ChatGPT generated the image itself — then refused to edit the wolves into cats because the image might be too sexual."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whsh50/chatgpt_images_25_is_severely_limited/",
+          "signal": "ChatGPT Images 2.5 is severely limited"
         },
         {
           "platform": "reddit",
@@ -516,6 +518,18 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1whl99o/limit_exceeded/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "The fact that there still isn't a way to track how close you are to reaching max length for a chat before it just completely locks you out i",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whs060/the_fact_that_there_still_isnt_a_way_to_track_how/"
         }
       ],
       "content_opportunity": ""
