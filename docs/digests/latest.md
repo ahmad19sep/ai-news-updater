@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 08 Sep 2026 to 15 Sep 2026
+# 🗞️ AI THIS WEEK — 09 Sep 2026 to 16 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **Interview: Cloudera bets on hybrid AI growth in JAPAC**
@@ -9,20 +9,20 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — science angle
    https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-2. **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — science angle
-   https://www.nature.com/articles/d41586-026-02842-5
-3. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
+2. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-4. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
+3. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
-5. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
+4. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
    https://www.nature.com/articles/d41586-026-02026-1
-6. **Scientists just made quantum computer operations 1,000 times faster** — science angle
+5. **Scientists just made quantum computer operations 1,000 times faster** — science angle
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-7. **Using AI to spot patients headed for trouble - Chief Healthcare Executive** — science angle
+6. **Using AI to spot patients headed for trouble - Chief Healthcare Executive** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxPc05Dal9YOXpOOTZCZWZFUVREaHpWbzktZ2wxNWdyZC1PQXQ2VWQzbFZDSEtyUXNMUmpLWWFaOVBuNk83c3EzeVRDendJUWEtQzN6ZGYtMWppbVdpUW16WTFqMmJfeWxJVDhjamQ0WmVXSEVLOE1YcUtGeHlHMGY4NHJHTGRRWUFvUU5yNVlmQXVZcUoxbnpZ?oc=5
-8. **UAE doctors turn to AI to explain why cancer treatments work for some but not others - thenationalnews.com** — science angle
+7. **UAE doctors turn to AI to explain why cancer treatments work for some but not others - thenationalnews.com** — science angle
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZERXN0VINU1UdUFqTFlVSzhCOF9RaHNwQl9aY29YTEdmWkZUeHUtclFYUmZjT3lDRGgwVEREVTM2WE9OSkc0YUpJLVhHdjVxdHN2ektTLUZMOTJ0b0pfZ3VyaktwOUM5QVdSdk9KVXZ5MEhfdk1weElQZ216X21WYTBNWmpXWG1WQ0trRjZHWHhZNWplaEloZzVycWZFT2JnNXFXWXRQWWxsVy13RUtXN0NHMHJRRE9KRmNWclNsVTU4T2pPbTZNdFJpNUJjNTQzZ0pZ?oc=5
+8. **Owkin licenses AI scientist, patient data to Servier for oncology research - mobihealthnews.com** — science angle
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXJjUW9VdzZBa2dwSlJrdGRibEZqNzMza0NQOGRYYWljUFVqaXQ1ZE01YlJKVzZ4aWI1U3gtZnR4WEtkRTRFenRKcFByaWlvanBaVkRNQ3owSnpPck1fM0NJR3Y0WG8yNk5xX0pyZU1ZYXRRbEV5NkZ4THktaTIyczlxQks4dV9lSVh6c1lsQjRMclNUVVZnVjNJZUg3NDVORG5vQw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 106
@@ -39,22 +39,22 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
    https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
 7. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 83
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2hTR2RhVHdfN1pYa05qT1RGbkM0Y0JrWWpjc21FMEFSTjZZZEFXLURYRU8yeldXQ0RkOVB2Z1hkRlJzT0JiQ2x5TWFCTFk5Q0UyYnkwdldNSjBZSlBiNDNabG1nRzFUTkNkUUFfN0prRHNOSFZHaEZJX2NOOGpmYUt1cTFrNjZqS0stTjJ5b182QnZJYTFsWHBkWDBaQlg2a1MtQ0hyZ0ZZbUFLYTZ1UGh6c2tqYnQxV1FB?oc=5
-8. **Meta launches personal AI agent, Muse, emphasizes safety and privacy - Bozeman Daily Chronicle** — AI Agents — Score 78
-   https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSjhPM2huRWVLX3Q5c2Z5U2FDWEMxV3FXVndReTNWN2dYeTFwckpLYmlxcVc3S2RsemdZZzY4UEtXYVRsZG5DanFpcVhzazR1dXJNTzVDR19IYWpvdm9NMUpEVzBqRnJvdXhzd0VzR2hwMTNQZ3JhSTNJOElYZHd4b0lJUWJwVXoxUXlEOUpCamhwaDV3RXZ2R0lDTTZxVGxDNDFIZ1NDYW1ta3dDeTBnN3RqVVlrMUNZVWwwQTRFQml6MjNUbGwxcUpuR2N1MlBzNW4zaVNVazlhTUx0QVNleksxR1U5QzdocUQ0eUY3ZHZJbkU1MnhTWkNxOHE?oc=5
-9. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 77
+8. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 77
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE5RVzVKR09WQ0pick9xYjhVaXhnYUFpOUt2OElxZjBwbTRvT2d3U2FnRmFacXd5TWFvVnpwRUo5M0lEeWVNbWJURzdlRXFLbnFHa1Y4WU43SmxKYWcwUGRFQmdjV2FGeUg4TVdPVEFkTzJtNUtQV0xtVHROLV9XekJKSTZFbmFNb0xwaFNMejRHYmpwbUdpOGRlYXoza2hjWXRTdVdNcng0cmFNV2ZwTkFYT0tma1kzTkpN?oc=5
-10. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 63
+9. **OpenAI debuts ChatGPT for financial services with GPT-6 Astra - Investing.com** — Breaking GPT-5 — Score 63
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmhpbDlqeDFLQWFXN1NkTW5PX1RvdFRGTXpGbTBIUFM1MUk2Qnd2STNITVhWOWdnVXVHenYyMzlKUnZqMU1tTjJnQUdGM2txa0dJaUNJUDdaM0x0dFB3WXRNTkdSdTFHanNRUGk4dGxTWVhlZkZEMHZ4bHZmcDROTVNSQTB6bENlbnNhVmthZHkzeElnUHc3T3VaMldla05LSnhXclhiWDc1X1BhUzFSaS1GNDNmd3VGaUpXNmR6MA?oc=5
+10. **Anthropic and OpenAI CEOs call for AI development to slow down - NPR** — Using AI To... — Score 63
+   https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ2dEZVQ3TDM1QTVfdTlRQ09QSWhCWnN1ODIwQzdEUTJxTEpGLVI4Qlp0WnVfaTdEdHEyNHdQcWNoNS1FajdpaVU1WWtPcTZ1ZXJWYXBsRzlrZi1jaWZNdEY0S1MtZmQxSVRtdlZHOFV6aW54TUJHWEJDOExGY2l1V25LYmYtNUlic1B4MFNrUklaaVk?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-- **OpenAI claims huge maths breakthrough on a famed ‘Millennium Problem’** — https://www.nature.com/articles/d41586-026-02842-5
 - **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 - **AI researchers reckon with the $1.5 million ‘academia tax’** — https://www.nature.com/articles/d41586-026-02026-1
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
+- **Using AI to spot patients headed for trouble - Chief Healthcare Executive** — https://news.google.com/rss/articles/CBMilwFBVV95cUxPc05Dal9YOXpOOTZCZWZFUVREaHpWbzktZ2wxNWdyZC1PQXQ2VWQzbFZDSEtyUXNMUmpLWWFaOVBuNk83c3EzeVRDendJUWEtQzN6ZGYtMWppbVdpUW16WTFqMmJfeWxJVDhjamQ0WmVXSEVLOE1YcUtGeHlHMGY4NHJHTGRRWUFvUU5yNVlmQXVZcUoxbnpZ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3422
+- Total stories tracked: 3362
 - Most active topic: anthropic
 - Busiest category: AI General News
 
