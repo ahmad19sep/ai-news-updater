@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:39:49.804467+00:00",
+  "generated_at": "2026-09-16T17:01:04.158610+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,12 +9,39 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Introducing System One Models and Jev",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "signal": "Introducing System One Models and Jev"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -40,13 +67,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "signal": "OpenAI expands ChatGPT ads with Sponsored Agents"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi20pp/chatgpt_25_sunburst_vs_seedream_5pro/",
+          "signal": "Chatgpt 2.5 Sunburst vs Seedream 5.Pro"
         },
         {
           "platform": "reddit",
@@ -62,38 +94,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1whsh50/chatgpt_images_25_is_severely_limited/",
           "signal": "ChatGPT Images 2.5 is severely limited"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whl419/the_ui_of_chatgpt_is_anything_but_intelligent/",
-          "signal": "The UI of ChatGPT is anything but \"intelligent\""
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Introducing System One Models and Jev",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-          "signal": "Introducing System One Models and Jev"
         }
       ],
       "content_ideas": []
@@ -220,6 +220,33 @@
       "content_ideas": []
     },
     {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "There's a 100% Chance AI Agents Are Ruining the Internet",
       "category": "use_case",
       "momentum": "rising",
@@ -301,7 +328,7 @@
       "content_ideas": []
     },
     {
-      "name": "For AI leaders Doom is a form of hype",
+      "name": "A warning about 'model welfare'",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -313,7 +340,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -321,8 +348,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/",
-          "signal": "For AI leaders Doom is a form of hype"
+          "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+          "signal": "A warning about 'model welfare'"
         }
       ],
       "content_ideas": []
@@ -352,33 +379,6 @@
           "platform": "hackernews",
           "url": "https://www.formas.ai/cartesian",
           "signal": "Cartesian – AI 3D Modeling for Design"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-          "signal": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)"
         }
       ],
       "content_ideas": []
@@ -421,6 +421,33 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
         }
       ],
       "content_ideas": []
@@ -477,13 +504,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-          "signal": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "signal": "OpenAI expands ChatGPT ads with Sponsored Agents"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi20pp/chatgpt_25_sunburst_vs_seedream_5pro/",
+          "signal": "Chatgpt 2.5 Sunburst vs Seedream 5.Pro"
         },
         {
           "platform": "reddit",
@@ -499,11 +531,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1whsh50/chatgpt_images_25_is_severely_limited/",
           "signal": "ChatGPT Images 2.5 is severely limited"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whl419/the_ui_of_chatgpt_is_anything_but_intelligent/",
-          "signal": "The UI of ChatGPT is anything but \"intelligent\""
         }
       ],
       "content_ideas": []
@@ -535,5 +562,5 @@
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Introducing System One Models and Jev — strongest signal this cycle"
 }
