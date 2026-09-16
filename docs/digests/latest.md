@@ -19,10 +19,10 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 6. **Using AI to spot patients headed for trouble - Chief Healthcare Executive** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxPc05Dal9YOXpOOTZCZWZFUVREaHpWbzktZ2wxNWdyZC1PQXQ2VWQzbFZDSEtyUXNMUmpLWWFaOVBuNk83c3EzeVRDendJUWEtQzN6ZGYtMWppbVdpUW16WTFqMmJfeWxJVDhjamQ0WmVXSEVLOE1YcUtGeHlHMGY4NHJHTGRRWUFvUU5yNVlmQXVZcUoxbnpZ?oc=5
-7. **UAE doctors turn to AI to explain why cancer treatments work for some but not others - thenationalnews.com** — science angle
-   https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZERXN0VINU1UdUFqTFlVSzhCOF9RaHNwQl9aY29YTEdmWkZUeHUtclFYUmZjT3lDRGgwVEREVTM2WE9OSkc0YUpJLVhHdjVxdHN2ektTLUZMOTJ0b0pfZ3VyaktwOUM5QVdSdk9KVXZ5MEhfdk1weElQZ216X21WYTBNWmpXWG1WQ0trRjZHWHhZNWplaEloZzVycWZFT2JnNXFXWXRQWWxsVy13RUtXN0NHMHJRRE9KRmNWclNsVTU4T2pPbTZNdFJpNUJjNTQzZ0pZ?oc=5
-8. **Owkin licenses AI scientist, patient data to Servier for oncology research - mobihealthnews.com** — science angle
+7. **Owkin licenses AI scientist, patient data to Servier for oncology research - mobihealthnews.com** — science angle
    https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXJjUW9VdzZBa2dwSlJrdGRibEZqNzMza0NQOGRYYWljUFVqaXQ1ZE01YlJKVzZ4aWI1U3gtZnR4WEtkRTRFenRKcFByaWlvanBaVkRNQ3owSnpPck1fM0NJR3Y0WG8yNk5xX0pyZU1ZYXRRbEV5NkZ4THktaTIyczlxQks4dV9lSVh6c1lsQjRMclNUVVZnVjNJZUg3NDVORG5vQw?oc=5
+8. **Oracle Health Clinical AI Agent for Nurses Expands Inpatient EHR Automation Across U.S. Hospitals - HIT Consultant** — science angle
+   https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHhGaFlvRkJxdUFIT21VelRnaFVQdHdPS0p5c1J3Z0FQSGR4T280Z0hkeTF3cmwwd2thems3RHM3ZjJrTEFUbHlWX3l0OW1OcnI3M2l4YmlUaXdQREFSTktHNUpIbTRWQk1JempBcmUwWGs4dm01N1VRVl9JbWpXNmdTZnVYQk1YRFYzOVZsRVhSRU8ySGpmZlNpc0xFYlo2ZEVHNGNjZTJyUEo5LVllNHdKY2QzeDBu?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 106
@@ -54,7 +54,7 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 - **Using AI to spot patients headed for trouble - Chief Healthcare Executive** — https://news.google.com/rss/articles/CBMilwFBVV95cUxPc05Dal9YOXpOOTZCZWZFUVREaHpWbzktZ2wxNWdyZC1PQXQ2VWQzbFZDSEtyUXNMUmpLWWFaOVBuNk83c3EzeVRDendJUWEtQzN6ZGYtMWppbVdpUW16WTFqMmJfeWxJVDhjamQ0WmVXSEVLOE1YcUtGeHlHMGY4NHJHTGRRWUFvUU5yNVlmQXVZcUoxbnpZ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3362
+- Total stories tracked: 3323
 - Most active topic: anthropic
 - Busiest category: AI General News
 
