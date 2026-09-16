@@ -9,20 +9,20 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — science angle
    https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-2. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
+2. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — science angle
+   https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
+3. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-3. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
+4. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
+   https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
+5. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
-4. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
+6. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
    https://www.nature.com/articles/d41586-026-02026-1
-5. **Scientists just made quantum computer operations 1,000 times faster** — science angle
+7. **Scientists just made quantum computer operations 1,000 times faster** — science angle
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-6. **Oracle Health Clinical AI Agent for Nurses Expands Inpatient EHR Automation Across U.S. Hospitals - HIT Consultant** — science angle
-   https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHhGaFlvRkJxdUFIT21VelRnaFVQdHdPS0p5c1J3Z0FQSGR4T280Z0hkeTF3cmwwd2thems3RHM3ZjJrTEFUbHlWX3l0OW1OcnI3M2l4YmlUaXdQREFSTktHNUpIbTRWQk1JempBcmUwWGs4dm01N1VRVl9JbWpXNmdTZnVYQk1YRFYzOVZsRVhSRU8ySGpmZlNpc0xFYlo2ZEVHNGNjZTJyUEo5LVllNHdKY2QzeDBu?oc=5
-7. **Helen Mirren, 81, Admits She 'Avoids Doctors' and Praises AI for Medical Advice: 'It's Incredible' - Yahoo Lifestyle Canada** — science angle
+8. **Helen Mirren, 81, Admits She 'Avoids Doctors' and Praises AI for Medical Advice: 'It's Incredible' - Yahoo Lifestyle Canada** — science angle
    https://news.google.com/rss/articles/CBMid0FVX3lxTE0xbkcyZTcyd2JURDRXV2hBTzhkRTVaR1NnTFFaaXJvcW5CS1hEa2cxdE4zMERBWHAya1BuVW5JTzRFcTlLZXpnRTYyM085ZWxXWXNLaWM2OS1PenRqd1REbVRtS1AtQVRVLUhKemk3ekxadjhzQzJR?oc=5
-8. **Doctors microdose AI receptionist with another $3.5 million in Seed funding - Startup Daily** — science angle
-   https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzRNZ2RyVGFTcnBZMnNKc1YxcTFxRi0xdDZiTnNwR2JSRVVQWE51c0JvY1RVS0NuN1VFazJZYUxxU29IWS1NTk10LWlXWExkbWdzRE4yTXlZU3dZR1MyWko2cHc3em56U1V3NXZsTkNDQWhoWHgwd0U1Mjc5cUk1SzZkamdiaUVIOWNPX3BVNlNYS2t5SXBQYmxPSHJRWk1kWWk1WDRGOGlLQi1RTVZ0djgyZDRkRURqUEE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 106
@@ -48,13 +48,13 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 
 ## 🧪 AI in Science Highlights
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
+- **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 - **AI researchers reckon with the $1.5 million ‘academia tax’** — https://www.nature.com/articles/d41586-026-02026-1
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-- **Oracle Health Clinical AI Agent for Nurses Expands Inpatient EHR Automation Across U.S. Hospitals - HIT Consultant** — https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHhGaFlvRkJxdUFIT21VelRnaFVQdHdPS0p5c1J3Z0FQSGR4T280Z0hkeTF3cmwwd2thems3RHM3ZjJrTEFUbHlWX3l0OW1OcnI3M2l4YmlUaXdQREFSTktHNUpIbTRWQk1JempBcmUwWGs4dm01N1VRVl9JbWpXNmdTZnVYQk1YRFYzOVZsRVhSRU8ySGpmZlNpc0xFYlo2ZEVHNGNjZTJyUEo5LVllNHdKY2QzeDBu?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3325
+- Total stories tracked: 3356
 - Most active topic: anthropic
 - Busiest category: AI General News
 
