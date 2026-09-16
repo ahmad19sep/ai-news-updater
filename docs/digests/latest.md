@@ -54,7 +54,7 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 - **Oracle Health Clinical AI Agent for Nurses Expands Inpatient EHR Automation Across U.S. Hospitals - HIT Consultant** — https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHhGaFlvRkJxdUFIT21VelRnaFVQdHdPS0p5c1J3Z0FQSGR4T280Z0hkeTF3cmwwd2thems3RHM3ZjJrTEFUbHlWX3l0OW1OcnI3M2l4YmlUaXdQREFSTktHNUpIbTRWQk1JempBcmUwWGs4dm01N1VRVl9JbWpXNmdTZnVYQk1YRFYzOVZsRVhSRU8ySGpmZlNpc0xFYlo2ZEVHNGNjZTJyUEo5LVllNHdKY2QzeDBu?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3295
+- Total stories tracked: 3325
 - Most active topic: anthropic
 - Busiest category: AI General News
 
