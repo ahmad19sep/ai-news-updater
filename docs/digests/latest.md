@@ -17,12 +17,12 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
    https://www.nature.com/articles/d41586-026-02026-1
 5. **Scientists just made quantum computer operations 1,000 times faster** — science angle
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-6. **Using AI to spot patients headed for trouble - Chief Healthcare Executive** — science angle
-   https://news.google.com/rss/articles/CBMilwFBVV95cUxPc05Dal9YOXpOOTZCZWZFUVREaHpWbzktZ2wxNWdyZC1PQXQ2VWQzbFZDSEtyUXNMUmpLWWFaOVBuNk83c3EzeVRDendJUWEtQzN6ZGYtMWppbVdpUW16WTFqMmJfeWxJVDhjamQ0WmVXSEVLOE1YcUtGeHlHMGY4NHJHTGRRWUFvUU5yNVlmQXVZcUoxbnpZ?oc=5
-7. **Owkin licenses AI scientist, patient data to Servier for oncology research - mobihealthnews.com** — science angle
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXJjUW9VdzZBa2dwSlJrdGRibEZqNzMza0NQOGRYYWljUFVqaXQ1ZE01YlJKVzZ4aWI1U3gtZnR4WEtkRTRFenRKcFByaWlvanBaVkRNQ3owSnpPck1fM0NJR3Y0WG8yNk5xX0pyZU1ZYXRRbEV5NkZ4THktaTIyczlxQks4dV9lSVh6c1lsQjRMclNUVVZnVjNJZUg3NDVORG5vQw?oc=5
-8. **Oracle Health Clinical AI Agent for Nurses Expands Inpatient EHR Automation Across U.S. Hospitals - HIT Consultant** — science angle
+6. **Oracle Health Clinical AI Agent for Nurses Expands Inpatient EHR Automation Across U.S. Hospitals - HIT Consultant** — science angle
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHhGaFlvRkJxdUFIT21VelRnaFVQdHdPS0p5c1J3Z0FQSGR4T280Z0hkeTF3cmwwd2thems3RHM3ZjJrTEFUbHlWX3l0OW1OcnI3M2l4YmlUaXdQREFSTktHNUpIbTRWQk1JempBcmUwWGs4dm01N1VRVl9JbWpXNmdTZnVYQk1YRFYzOVZsRVhSRU8ySGpmZlNpc0xFYlo2ZEVHNGNjZTJyUEo5LVllNHdKY2QzeDBu?oc=5
+7. **Helen Mirren, 81, Admits She 'Avoids Doctors' and Praises AI for Medical Advice: 'It's Incredible' - Yahoo Lifestyle Canada** — science angle
+   https://news.google.com/rss/articles/CBMid0FVX3lxTE0xbkcyZTcyd2JURDRXV2hBTzhkRTVaR1NnTFFaaXJvcW5CS1hEa2cxdE4zMERBWHAya1BuVW5JTzRFcTlLZXpnRTYyM085ZWxXWXNLaWM2OS1PenRqd1REbVRtS1AtQVRVLUhKemk3ekxadjhzQzJR?oc=5
+8. **Doctors microdose AI receptionist with another $3.5 million in Seed funding - Startup Daily** — science angle
+   https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzRNZ2RyVGFTcnBZMnNKc1YxcTFxRi0xdDZiTnNwR2JSRVVQWE51c0JvY1RVS0NuN1VFazJZYUxxU29IWS1NTk10LWlXWExkbWdzRE4yTXlZU3dZR1MyWko2cHc3em56U1V3NXZsTkNDQWhoWHgwd0U1Mjc5cUk1SzZkamdiaUVIOWNPX3BVNlNYS2t5SXBQYmxPSHJRWk1kWWk1WDRGOGlLQi1RTVZ0djgyZDRkRURqUEE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 106
@@ -31,12 +31,12 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
    https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM244NXpGa2hjQmNjOFhBbG5BZHBlM1YwT0FQbzFaam1LRWhSbmYwNkVFc3Q0Q0dJSkJLU3JocUNaN256OHdMR3Q5akNvb3JyQWtMd2RXaWFmS2ptZlhWRHVVTWhOVFlPUHpoUk53T29DbTUwRWlONHphWTVrT2ZmUlRSZERSZGRaT0I5QV9Ld3Iyd25qOXowMkFzMUx2YUJSMVVqakxfUFB3X0txRlB0NXRLWWJrd2s4VjdxNWdNclkyUG9pdFI4M0k0Rndlc0FxYmoyNjVsQy1kMkpQRW56SU4wcUZnMERQMEJzcWd3?oc=5
 3. **Anthropic CEO Dario Amodei calls for AI development slowdown - Firstpost** — Dario Amodei News — Score 103
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0FyR3ZLMnlxUldwcnZPQm1ZNUVyOHhhcHVQdFBFcHVaMWtXQ1FzZlIxNFpHVTZ2LWtCWnktSGlCZnFBWXRFSjdxNXIyeF9IZWxOTDZxV01ObXBYbXFlWTVhbjNGUVFqTDMtSjhLSFk2X3U3STFiaXR5MFc3ajZVTzRmN2tfdzVaN3JaQlZfcVFWR2ctSjNNQUFqLTF2MXZfa19RQ2t4ZnTSAa4BQVVfeXFMTkVSV2NfdmxVREtocGdhTHY3cXZWYlV4U1NTOWt4dHBUd2loT09KZlRQZ3JTcGJQYXFSQloyM0l2alpoREtrcDFWSUVMdnhvY3BtUWw5UkcyT3p6elBSVTFTRHFzaUtwaWpvTC1BeHIyY2JmZll6Nmxsc0lNMWduUGhUS1lRdjZqQ3ZXd0JDQTNuS1lJNE9iS2dNV1pZYmp1SlJRNTFJMFFzQXV0V293?oc=5
-4. **Trump dismisses new AI guardrails, says there is a ‘SICK conspiracy’ against AI and data centers** — sandiegouniontribune — Score 96
-   https://www.sandiegouniontribune.com/2026/09/14/trump-dismisses-ai-guardrails/
-5. **Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - KTVN** — Dario Amodei News — Score 93
+4. **Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - KTVN** — Dario Amodei News — Score 93
    https://news.google.com/rss/articles/CBMigAJBVV95cUxOY3ZuaHZCbGZRVHctOG5ubTQyaHlnNmx3eWhBZ0FGc2tUYU5PMXh1T1QyWFdlQ3FmVnRybFc4RExhMHowWDdSdnByakl5cGJFcDR4Yk5SbUM3dy1JcGlFNnBmMU5QenBvV3hQeXpWaFBWWHhtUzc3U0J4R1lmd1MtR3VWaDloajROMXFTeE1GZjhSNnY0d3BMdzV5WmR2UjZNNE1Rbk1wTUkwelRQMVpERVJWWlFraFNRd2M1eklJdmUyR0FoMDI5RDl0WG9acFQyR0tlWDJpM2RMa0hpcGpUeHJBWFM2SzFPdW12ZXJQc2RReUtqR20tUWwwMGxaQ0dk?oc=5
-6. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 93
+5. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 93
    https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
+6. **Trump dismisses new AI guardrails, says there is a ‘SICK conspiracy’ against AI and data centers** — sandiegouniontribune — Score 93
+   https://www.sandiegouniontribune.com/2026/09/14/trump-dismisses-ai-guardrails/
 7. **Former VP aide attacked AI rivals while holding $1M-plus stake in Elon Musk s xAI - KSNV** — Elon Musk AI News — Score 83
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2hTR2RhVHdfN1pYa05qT1RGbkM0Y0JrWWpjc21FMEFSTjZZZEFXLURYRU8yeldXQ0RkOVB2Z1hkRlJzT0JiQ2x5TWFCTFk5Q0UyYnkwdldNSjBZSlBiNDNabG1nRzFUTkNkUUFfN0prRHNOSFZHaEZJX2NOOGpmYUt1cTFrNjZqS0stTjJ5b182QnZJYTFsWHBkWDBaQlg2a1MtQ0hyZ0ZZbUFLYTZ1UGh6c2tqYnQxV1FB?oc=5
 8. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 77
@@ -51,10 +51,10 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 - **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
 - **AI researchers reckon with the $1.5 million ‘academia tax’** — https://www.nature.com/articles/d41586-026-02026-1
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-- **Using AI to spot patients headed for trouble - Chief Healthcare Executive** — https://news.google.com/rss/articles/CBMilwFBVV95cUxPc05Dal9YOXpOOTZCZWZFUVREaHpWbzktZ2wxNWdyZC1PQXQ2VWQzbFZDSEtyUXNMUmpLWWFaOVBuNk83c3EzeVRDendJUWEtQzN6ZGYtMWppbVdpUW16WTFqMmJfeWxJVDhjamQ0WmVXSEVLOE1YcUtGeHlHMGY4NHJHTGRRWUFvUU5yNVlmQXVZcUoxbnpZ?oc=5
+- **Oracle Health Clinical AI Agent for Nurses Expands Inpatient EHR Automation Across U.S. Hospitals - HIT Consultant** — https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHhGaFlvRkJxdUFIT21VelRnaFVQdHdPS0p5c1J3Z0FQSGR4T280Z0hkeTF3cmwwd2thems3RHM3ZjJrTEFUbHlWX3l0OW1OcnI3M2l4YmlUaXdQREFSTktHNUpIbTRWQk1JempBcmUwWGs4dm01N1VRVl9JbWpXNmdTZnVYQk1YRFYzOVZsRVhSRU8ySGpmZlNpc0xFYlo2ZEVHNGNjZTJyUEo5LVllNHdKY2QzeDBu?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3323
+- Total stories tracked: 3295
 - Most active topic: anthropic
 - Busiest category: AI General News
 
