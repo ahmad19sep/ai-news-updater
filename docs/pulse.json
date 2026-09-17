@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:45:39.326673+00:00",
+  "generated_at": "2026-09-17T17:02:16.087468+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 40,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": null
@@ -78,23 +78,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
+          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wip32v/update_i_scraped_59_million_jobs_with_chatgpt/",
           "signal": "Update: I scraped 5.9 million jobs with ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
-          "signal": "ChatGPT can now make the frames for pixel art animations"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
+          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wig06r/i_asked_chatgptastra_to_make_an_audiosurf_clone/",
-          "signal": "I asked chatgpt-astra to make an audiosurf clone that doubles as a music player for my cardputer adv"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8fvwRj-mhKQ",
-          "signal": "Why Is This AI Comparison So Accurate? 😂 #developer #tech #coding #programming #ai #chatgpt #claude"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
+          "signal": "ChatGPT can now make the frames for pixel art animations"
         }
       ],
       "content_ideas": []
@@ -150,6 +150,11 @@
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
           "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=na_m9zkdJGI",
+          "signal": "BATALHA ENTRE CHATGPT E GEMINI! QUEM GANHOU?"
         },
         {
           "platform": "youtube",
@@ -214,33 +219,6 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Capsule – Single-file web apps that save their data into SQLi",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://withcapsule.app/",
-          "signal": "Show HN: Capsule – Single-file web apps that save their data into SQLite"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "We got admin access to Baseten's production GitHub",
       "category": "use_case",
       "momentum": "rising",
@@ -268,7 +246,34 @@
       "content_ideas": []
     },
     {
-      "name": "There's a 100% Chance AI Agents Are Ruining the Internet",
+      "name": "GLM Built Its Own Inference Infrastructure",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+          "signal": "GLM Built Its Own Inference Infrastructure"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A coffee shop owner used AI to make a menu poster. Then came the angry",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -288,14 +293,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-          "signal": "There's a 100% Chance AI Agents Are Ruining the Internet"
+          "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
+          "signal": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "A coffee shop owner used AI to make a menu poster. Then came the angry",
+      "name": "AI Safety Is Mostly a Sex Cult",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -307,7 +312,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -315,8 +320,36 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
-          "signal": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs"
+          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+          "signal": "AI Safety Is Mostly a Sex Cult"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenSpec – A lightweight and configurable AI spec framework",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openspec.dev/",
+          "signal": "OpenSpec – A lightweight and configurable AI spec framework"
         }
       ],
       "content_ideas": []
@@ -347,34 +380,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "OpenSpec – A lightweight and configurable AI spec framework",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openspec.dev/",
-          "signal": "OpenSpec – A lightweight and configurable AI spec framework"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -402,6 +407,11 @@
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
           "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=na_m9zkdJGI",
+          "signal": "BATALHA ENTRE CHATGPT E GEMINI! QUEM GANHOU?"
         },
         {
           "platform": "youtube",
@@ -447,23 +457,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
+          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wip32v/update_i_scraped_59_million_jobs_with_chatgpt/",
           "signal": "Update: I scraped 5.9 million jobs with ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
-          "signal": "ChatGPT can now make the frames for pixel art animations"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
+          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wig06r/i_asked_chatgptastra_to_make_an_audiosurf_clone/",
-          "signal": "I asked chatgpt-astra to make an audiosurf clone that doubles as a music player for my cardputer adv"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8fvwRj-mhKQ",
-          "signal": "Why Is This AI Comparison So Accurate? 😂 #developer #tech #coding #programming #ai #chatgpt #claude"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
+          "signal": "ChatGPT can now make the frames for pixel art animations"
         }
       ],
       "content_ideas": []
@@ -523,6 +533,19 @@
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Introducing System One Models and Jev — strongest signal this cycle"
 }
