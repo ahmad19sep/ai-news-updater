@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 09 Sep 2026 to 16 Sep 2026
+# 🗞️ AI THIS WEEK — 10 Sep 2026 to 17 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **Interview: Cloudera bets on hybrid AI growth in JAPAC**
@@ -21,8 +21,8 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
    https://www.nature.com/articles/d41586-026-02026-1
 7. **Scientists just made quantum computer operations 1,000 times faster** — science angle
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-8. **Helen Mirren, 81, Admits She 'Avoids Doctors' and Praises AI for Medical Advice: 'It's Incredible' - Yahoo Lifestyle Canada** — science angle
-   https://news.google.com/rss/articles/CBMid0FVX3lxTE0xbkcyZTcyd2JURDRXV2hBTzhkRTVaR1NnTFFaaXJvcW5CS1hEa2cxdE4zMERBWHAya1BuVW5JTzRFcTlLZXpnRTYyM085ZWxXWXNLaWM2OS1PenRqd1REbVRtS1AtQVRVLUhKemk3ekxadjhzQzJR?oc=5
+8. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
+   https://www.youtube.com/watch?v=WTnZ6W7qsLQ
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 106
@@ -54,7 +54,7 @@ All coverage: https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3356
+- Total stories tracked: 3365
 - Most active topic: anthropic
 - Busiest category: AI General News
 
