@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:20:47.428255+00:00",
+  "generated_at": "2026-09-17T04:56:13.209275+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
+      "reddit": 31,
       "hackernews": 35,
       "youtube": 106
     },
@@ -82,6 +82,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wibbwb/i_just_found_out_my_dad_does_startrek_role_plays/",
+          "signal": "I just found out my dad does startrek role plays on ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wi70f5/chatgpt_is_losing_my_favorite_feature_and_im_sick/",
           "signal": "ChatGPT is losing my favorite feature, and I'm sick about it!"
         },
@@ -89,11 +94,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wi20pp/chatgpt_25_sunburst_vs_seedream_5pro/",
           "signal": "Chatgpt 2.5 Sunburst vs Seedream 5.Pro"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi3vb5/does_chatgpt_constantly_nitpick_your_reasoning/",
-          "signal": "Does ChatGPT constantly nitpick your reasoning too, even when the \"correction\" doesn't change the point you made?"
         }
       ],
       "content_ideas": []
@@ -154,6 +154,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jrnfPiGe0c4",
+          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=LnpoHRGWxpQ",
           "signal": "Gemini 80s 90s Photo Editing Prompts | ChatGPT 80s 90s Photo Editing Prompts #ai #editing"
         },
@@ -161,33 +166,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-x-mozilla/",
-          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
         }
       ],
       "content_ideas": []
@@ -215,6 +193,33 @@
           "platform": "hackernews",
           "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
           "signal": "A warning about 'model welfare'"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
         }
       ],
       "content_ideas": []
@@ -301,7 +306,7 @@
       "content_ideas": []
     },
     {
-      "name": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 pre",
+      "name": "A coffee shop owner used AI to make a menu poster. Then came the angry",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -321,14 +326,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
-          "signal": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent"
+          "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
+          "signal": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "A coffee shop owner used AI to make a menu poster. Then came the angry",
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+          "signal": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -348,35 +380,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
-          "signal": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
-          "signal": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model"
+          "url": "https://www.bbc.com/news/articles/cqgk5e2j0gg8o",
+          "signal": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC"
         }
       ],
       "content_ideas": []
@@ -412,6 +417,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jrnfPiGe0c4",
+          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=LnpoHRGWxpQ",
           "signal": "Gemini 80s 90s Photo Editing Prompts | ChatGPT 80s 90s Photo Editing Prompts #ai #editing"
         },
@@ -419,33 +429,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-x-mozilla/",
-          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
         }
       ],
       "content_ideas": []
@@ -490,6 +473,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wibbwb/i_just_found_out_my_dad_does_startrek_role_plays/",
+          "signal": "I just found out my dad does startrek role plays on ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wi70f5/chatgpt_is_losing_my_favorite_feature_and_im_sick/",
           "signal": "ChatGPT is losing my favorite feature, and I'm sick about it!"
         },
@@ -497,19 +485,14 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wi20pp/chatgpt_25_sunburst_vs_seedream_5pro/",
           "signal": "Chatgpt 2.5 Sunburst vs Seedream 5.Pro"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi3vb5/does_chatgpt_constantly_nitpick_your_reasoning/",
-          "signal": "Does ChatGPT constantly nitpick your reasoning too, even when the \"correction\" doesn't change the point you made?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Deepseek",
+      "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -519,7 +502,34 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -536,6 +546,18 @@
   ],
   "pain_points": [
     {
+      "problem": "The fact that there still isn't a way to track how close you are to reaching max length for a chat before it just completely locks you out i",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1whs060/the_fact_that_there_still_isnt_a_way_to_track_how/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Limit Exceeded",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
@@ -548,13 +570,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "The fact that there still isn't a way to track how close you are to reaching max length for a chat before it just completely locks you out i",
+      "problem": "ChatGPT usage limits?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1whs060/the_fact_that_there_still_isnt_a_way_to_track_how/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wic8q7/chatgpt_usage_limits/"
         }
       ],
       "content_opportunity": ""
