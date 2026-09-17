@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM244NXpGa2hjQ
    https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
 5. **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — science angle
    https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
-6. **AI researchers reckon with the $1.5 million ‘academia tax’** — science angle
-   https://www.nature.com/articles/d41586-026-02026-1
-7. **Scientists just made quantum computer operations 1,000 times faster** — science angle
+6. **Scientists just made quantum computer operations 1,000 times faster** — science angle
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-8. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
+7. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
    https://www.youtube.com/watch?v=WTnZ6W7qsLQ
+8. **Helen Mirren, 81, Admits She 'Avoids Doctors' and Praises AI for Medical Advice: 'It's Incredible' - Yahoo Lifestyle Canada** — science angle
+   https://news.google.com/rss/articles/CBMid0FVX3lxTE0xbkcyZTcyd2JURDRXV2hBTzhkRTVaR1NnTFFaaXJvcW5CS1hEa2cxdE4zMERBWHAya1BuVW5JTzRFcTlLZXpnRTYyM085ZWxXWXNLaWM2OS1PenRqd1REbVRtS1AtQVRVLUhKemk3ekxadjhzQzJR?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic CEO Dario Amodei says AI industry needs to slow down for safety | National News | 2news.com - KTVN** — Dario Amodei News — Score 103
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM244NXpGa2hjQ
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **NHS doctor-led commission issues blueprint for AI’s safe adoption in healthcare - Medical Device Network** — https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmdJaGRqLVVmdUhuZ2dLaENrODNmVnBxcnhKRFJtRkJvUmFJYmE3UDZOaWNVejU5VzNJV0VENUN5eDdtSG9RVzR4cTNzSE8yd2lRNmNKanRxS1NNbnNQX3FsWkcwWU5LZDY4SVpkbENFWkVYSDh6ZVVWRTMtUVRKVjYtcXJoLTVvdTZ2aEQ0S0RZanpxa1ZPSnRpQjdnT09DeXBLbkpkaE0zTVU4RzVVMVZ1ZWozLUZnYmVPNldR?oc=5
-- **AI researchers reckon with the $1.5 million ‘academia tax’** — https://www.nature.com/articles/d41586-026-02026-1
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
+- **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — https://www.youtube.com/watch?v=WTnZ6W7qsLQ
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3389
+- Total stories tracked: 3373
 - Most active topic: anthropic
 - Busiest category: AI General News
 
