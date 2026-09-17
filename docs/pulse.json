@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:02:16.087468+00:00",
+  "generated_at": "2026-09-17T21:24:53.342124+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,39 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 32,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Introducing System One Models and Jev",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-          "signal": "Introducing System One Models and Jev"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -88,78 +61,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
-          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj04dm/chatgpt_said_something_weird_today_it_asked_me_to/",
+          "signal": "ChatGPT said something weird today - It asked me to wait mid response."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
-          "signal": "ChatGPT can now make the frames for pixel art animations"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Why I'm still bearish on LLMs after Navier-Stokes",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
-          "signal": "Why I'm still bearish on LLMs after Navier-Stokes"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-          "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=na_m9zkdJGI",
-          "signal": "BATALHA ENTRE CHATGPT E GEMINI! QUEM GANHOU?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
+          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
         }
       ],
       "content_ideas": []
@@ -219,7 +127,7 @@
       "content_ideas": []
     },
     {
-      "name": "We got admin access to Baseten's production GitHub",
+      "name": "How GLM built its own inference infrastructure",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -229,34 +137,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-          "signal": "We got admin access to Baseten's production GitHub"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "GLM Built Its Own Inference Infrastructure",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -267,7 +148,34 @@
         {
           "platform": "hackernews",
           "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-          "signal": "GLM Built Its Own Inference Infrastructure"
+          "signal": "How GLM built its own inference infrastructure"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI safety is mostly a sex cult",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+          "signal": "AI safety is mostly a sex cult"
         }
       ],
       "content_ideas": []
@@ -300,33 +208,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI Safety Is Mostly a Sex Cult",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-          "signal": "AI Safety Is Mostly a Sex Cult"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "OpenSpec – A lightweight and configurable AI spec framework",
       "category": "use_case",
       "momentum": "rising",
@@ -340,7 +221,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -380,16 +261,67 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
+      "name": "Show HN: Share your AI Setup, Learn from others",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mysetup.ai/",
+          "signal": "Show HN: Share your AI Setup, Learn from others"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "How, Exactly, Could A.I. Kill Us?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.newyorker.com/news/q-and-a/how-exactly-could-ai-kill-us",
+          "signal": "How, Exactly, Could A.I. Kill Us?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Stay discoverable in search while disallowing AI training",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -397,30 +329,49 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-          "signal": "Gemini 3.8 Live and 3.8 Live Extended Thinking"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=na_m9zkdJGI",
-          "signal": "BATALHA ENTRE CHATGPT E GEMINI! QUEM GANHOU?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+          "signal": "Stay discoverable in search while disallowing AI training"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://stale.jock.pl/",
+          "signal": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -467,13 +418,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
-          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj04dm/chatgpt_said_something_weird_today_it_asked_me_to/",
+          "signal": "ChatGPT said something weird today - It asked me to wait mid response."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
-          "signal": "ChatGPT can now make the frames for pixel art animations"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
+          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
         }
       ],
       "content_ideas": []
@@ -545,7 +496,31 @@
         }
       ],
       "content_opportunity": ""
+    },
+    {
+      "problem": "Only one week until Sora is completely shut down",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj4za8/only_one_week_until_sora_is_completely_shut_down/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Worked for 25 minutes, then hit usage limit without giving me any result - is this work lost? Or will it pick up tomorrow and continue with ",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj20f4/worked_for_25_minutes_then_hit_usage_limit/"
+        }
+      ],
+      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Introducing System One Models and Jev — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
