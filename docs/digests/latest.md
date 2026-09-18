@@ -2,9 +2,9 @@
 
 ## 🔥 Biggest Story of the Week
 **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10**
-Covered by 13 source(s) · Score: 136
+Covered by 14 source(s) · Score: 146
 Best source link: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5
-All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5 · https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2hUSlphZ292aEpOMUVZd3ZIc0JNb294Vkl5b25hdnFobHdmRkh4SjNCTFZ5QnFqQkhPLWRSUXZYaFRIbV9nRnVCd0FfQ2lsV1FTRTJLR2tqenM1Vk9GUVFZNllkZk9xcHBTUG9Ta0pYVHNfeU5qbDE3a01yM1VKRlVUQ1NhRXVBa3NwY0UwcHczd3ZFQ1VGdE94ZTQ1eldNTXJId2Q5QVdHbVA2NEVB?oc=5 · https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnFIdTNubWcyOTBsWUl0dmJqQ0xVbV9wMWZTQ1dfamtJbHZOWTFaT2JnVjNNNGpiTHF0Yk5jZVJ5czMtakgzVER0TFktakEzTG1TcWxFOHFLYTNSdHdQTG4zcmxpMVNlYllTdE1OZFRtYU1kM0pNbzN5c25VVkdZNGhpZS1UcllFNDF3YUR1aDlYQk55UnFzenh5MnJTVlJw?oc=5 · https://news.google.com/rss/articles/CBMickFVX3lxTFBVS0JTZWRJeTBMcExjaEN2SmdRNTNnTERScFk0SnZTSHZhNzE3YlJoSTNYdk5INUhfRUZHOVZ6bUd0R2VaNjNGQ0lRaFZOMVJkb2hvLUVkYzk0b3B6bWJKZzhDUl9Bay1naE1CZ3BOUm5SZw?oc=5 · https://news.google.com/rss/articles/CBMic0FVX3lxTE15V0FpNkdIRVlLQXJ1d1B4a19hUHN4S05TMkFST3hsbmF0cXBZY25CbkRLM2ZqX3dLWkRsZFVucXZhUTJxR2RpRzhYN2hObk5jdWVDdnMzdGVmRk9neDlfVE1wN3pRRWc2RVRac2cyS1RyQ0E?oc=5 · https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1pxWVhPQ09jRmt4Zjg5VFV6Yko5MEFRU1ZJUnhCdnVwRG1GOFFFQ3NuR1hLTEQ2N1FEZnJ1Q3hHQ2pUTl9xQlJyZmZFTS00RTRuQ05FLTltZ3pGdUFmQWJ4TUt4SHJzbnFXMGlJV3FZWmI1UEhTZGkzekxZcFVKZnhVZDRWem5oS3ZPdnhDMkNkU20t?oc=5 · https://www.oneidadispatch.com/2026/09/17/king-charles-ai-leaders/ · https://www.thetimes-tribune.com/2026/09/17/king-charles-ai-leaders/ · https://www.dailylocal.com/2026/09/17/king-charles-ai-leaders/ · https://www.standardspeaker.com/2026/09/17/king-charles-ai-leaders/ · https://www.news-herald.com/2026/09/17/king-charles-ai-leaders/ · https://www.pottsmerc.com/2026/09/17/king-charles-ai-leaders/ · https://www.timesherald.com/2026/09/17/king-charles-ai-leaders/
+All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5 · https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2hUSlphZ292aEpOMUVZd3ZIc0JNb294Vkl5b25hdnFobHdmRkh4SjNCTFZ5QnFqQkhPLWRSUXZYaFRIbV9nRnVCd0FfQ2lsV1FTRTJLR2tqenM1Vk9GUVFZNllkZk9xcHBTUG9Ta0pYVHNfeU5qbDE3a01yM1VKRlVUQ1NhRXVBa3NwY0UwcHczd3ZFQ1VGdE94ZTQ1eldNTXJId2Q5QVdHbVA2NEVB?oc=5 · https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnFIdTNubWcyOTBsWUl0dmJqQ0xVbV9wMWZTQ1dfamtJbHZOWTFaT2JnVjNNNGpiTHF0Yk5jZVJ5czMtakgzVER0TFktakEzTG1TcWxFOHFLYTNSdHdQTG4zcmxpMVNlYllTdE1OZFRtYU1kM0pNbzN5c25VVkdZNGhpZS1UcllFNDF3YUR1aDlYQk55UnFzenh5MnJTVlJw?oc=5 · https://news.google.com/rss/articles/CBMickFVX3lxTFBVS0JTZWRJeTBMcExjaEN2SmdRNTNnTERScFk0SnZTSHZhNzE3YlJoSTNYdk5INUhfRUZHOVZ6bUd0R2VaNjNGQ0lRaFZOMVJkb2hvLUVkYzk0b3B6bWJKZzhDUl9Bay1naE1CZ3BOUm5SZw?oc=5 · https://news.google.com/rss/articles/CBMic0FVX3lxTE15V0FpNkdIRVlLQXJ1d1B4a19hUHN4S05TMkFST3hsbmF0cXBZY25CbkRLM2ZqX3dLWkRsZFVucXZhUTJxR2RpRzhYN2hObk5jdWVDdnMzdGVmRk9neDlfVE1wN3pRRWc2RVRac2cyS1RyQ0E?oc=5 · https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1pxWVhPQ09jRmt4Zjg5VFV6Yko5MEFRU1ZJUnhCdnVwRG1GOFFFQ3NuR1hLTEQ2N1FEZnJ1Q3hHQ2pUTl9xQlJyZmZFTS00RTRuQ05FLTltZ3pGdUFmQWJ4TUt4SHJzbnFXMGlJV3FZWmI1UEhTZGkzekxZcFVKZnhVZDRWem5oS3ZPdnhDMkNkU20t?oc=5 · https://www.oneidadispatch.com/2026/09/17/king-charles-ai-leaders/ · https://www.thetimes-tribune.com/2026/09/17/king-charles-ai-leaders/ · https://www.dailylocal.com/2026/09/17/king-charles-ai-leaders/ · https://www.standardspeaker.com/2026/09/17/king-charles-ai-leaders/ · https://www.news-herald.com/2026/09/17/king-charles-ai-leaders/ · https://www.pottsmerc.com/2026/09/17/king-charles-ai-leaders/ · https://www.timesherald.com/2026/09/17/king-charles-ai-leaders/ · https://news.google.com/rss/articles/CBMikwJBVV95cUxPZjJlWENUWGw2Rm5UMWpmT3pTU0pYU0N3ZUx5NmhiM0lJWk0ybkd1b3RJbDRzekY3VllZQnhhTkpZcGlSVmhGc19LQm4ycDNnaEhNZk9rMm1GWG9SczNUeDRja3FsRi01N2hMdWlrT0ZNNlFVOGVNT3E3NVUxSzVHanZUcGlBMnFacTZoNGw1QWw4amxITmRQcWhMUkVLNzFRREJYYkQ3U1FpY256RTMxc1ZhbnVHSTZKdmE3OWRiOUJiRlJaMk9yUjQzcWo5bkd4Z2FhZWFIVEI1M1hRS1lMMF9qX3J6aFJuVmZabVA0RjBaV1RGWnVGQWtZc2twc3dhYnBGU3M0VEY0akdmSUpIVzZSaw?oc=5
 
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — science angle
@@ -21,11 +21,11 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 7. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
    https://www.youtube.com/watch?v=WTnZ6W7qsLQ
-8. **This new AI drug makes blood years younger—doctors stunned by the results - Futura, le média qui explore le monde** — science angle
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQZEpwbU5rMGlPOGxETWE4ZmVsckY4Sk9hZ282VGs0V0xfT1p5dmJFNFlpeW5pelQyVU9WZ2JnWmtWbXJsNnh6QmE3Zi1ma2EteWJIOXRKMXVzdDkxT2FwTXBRWmFhVDZaSEppMFpyRkNHd0RxcXFLQU9FOTNjbzhCbTl1aWNDUm8xalVNVVc3ZWFVV1lWb0xUWloyUkhicEVhTzY0bHRpdDJibnBJSG1qOWM2djZTaUU?oc=5
+8. **Study: AI-Powered App Lowers High Blood Pressure When Part of Doctor's Care Plan | Newswise - Newswise** — science angle
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxOV2NBNUNnWGpQOGdKV3EtXzhrS1M2Z3M0aUdsQWx3N2pKYkpqZFhKemlreEowdlVDdzBkSmNPanRZNXhYYVZ3dUlpUmNkZEwtX0RlRldfSXlwVnlOdWhlWHFsdE52R1VydEV0YlBfOG5zVGJRdFFWeEk4ZkxWeTEydW4tOVZRbXBnbGh3M1hwVE0telM3TkpSZlZoa2xmTVpkRUVpSjlMVzY3YmtBdnBpNnU5SdIBswFBVV95cUxOV2NBNUNnWGpQOGdKV3EtXzhrS1M2Z3M0aUdsQWx3N2pKYkpqZFhKemlreEowdlVDdzBkSmNPanRZNXhYYVZ3dUlpUmNkZEwtX0RlRldfSXlwVnlOdWhlWHFsdE52R1VydEV0YlBfOG5zVGJRdFFWeEk4ZkxWeTEydW4tOVZRbXBnbGh3M1hwVE0telM3TkpSZlZoa2xmTVpkRUVpSjlMVzY3YmtBdnBpNnU5SQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 136
+1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 146
    https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5
 2. **Anthropic CEO Dario Amodei says AI industry needs to slow down for safety | National News | 2news.com - KTVN** — Dario Amodei News — Score 103
    https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM244NXpGa2hjQmNjOFhBbG5BZHBlM1YwT0FQbzFaam1LRWhSbmYwNkVFc3Q0Q0dJSkJLU3JocUNaN256OHdMR3Q5akNvb3JyQWtMd2RXaWFmS2ptZlhWRHVVTWhOVFlPUHpoUk53T29DbTUwRWlONHphWTVrT2ZmUlRSZERSZGRaT0I5QV9Ld3Iyd25qOXowMkFzMUx2YUJSMVVqakxfUFB3X0txRlB0NXRLWWJrd2s4VjdxNWdNclkyUG9pdFI4M0k0Rndlc0FxYmoyNjVsQy1kMkpQRW56SU4wcUZnMERQMEJzcWd3?oc=5
@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
 7. **Trump dismisses new AI guardrails, says there is a ‘SICK conspiracy’ against AI and data centers** — sandiegouniontribune — Score 93
    https://www.sandiegouniontribune.com/2026/09/14/trump-dismisses-ai-guardrails/
-8. **Anthropic and OpenAI CEOs call for AI development to slow down - NPR** — Using AI To... — Score 63
+8. **Josh Shapiro wades into AI debate with call for ‘strict guardrails’** — kvia — Score 66
+   https://kvia.com/politics/cnn-us-politics/2026/09/17/josh-shapiro-wades-into-ai-debate-with-call-for-strict-guardrails/
+9. **Anthropic and OpenAI CEOs call for AI development to slow down - NPR** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ2dEZVQ3TDM1QTVfdTlRQ09QSWhCWnN1ODIwQzdEUTJxTEpGLVI4Qlp0WnVfaTdEdHEyNHdQcWNoNS1FajdpaVU1WWtPcTZ1ZXJWYXBsRzlrZi1jaWZNdEY0S1MtZmQxSVRtdlZHOFV6aW54TUJHWEJDOExGY2l1V25LYmYtNUlic1B4MFNrUklaaVk?oc=5
-9. **Anthropic boss Dario Amodei calls for AI development to slow down - bbc.com** — Anthropic News — Score 60
+10. **Anthropic boss Dario Amodei calls for AI development to slow down - bbc.com** — Anthropic News — Score 60
    https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrRjBnT05YelZFQXM0ejVFa0VZUDdYWENTbHowbzJSVmxwZWFpWEw2NFh4NHpjU01Ubi1jM21FQjhfWl82Z3JsczNTQnFIVFpkOWQyTXhQVzlGZw?oc=5
-10. **Anthropic CEO urges AI companies to slow model development amid fears over misuse - Reuters** — Dario Amodei News — Score 57
-   https://news.google.com/rss/articles/CBMiogFBVV95cUxObV9NUVhESy1GWXRLaWhTYlM1UUNSU0kweVg1N2YxNTRXUVdORW5EWHQ2MXNpYlo3SHNlLWZVZ2N1ZEZYZlNnUDY4TUZBMVFvcU1BaDBIWm94TkhqQUVXVzRZQlBUX3JOZUJYNnVVcVV3dlhTMDRFMmVXVGpNOU1RUEhnV254NWV0clJhc0NEOVFPWGFYSEtiY2R3U0JqM0NVc3c?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 - **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — https://www.youtube.com/watch?v=WTnZ6W7qsLQ
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3401
+- Total stories tracked: 3342
 - Most active topic: anthropic
 - Busiest category: AI General News
 
