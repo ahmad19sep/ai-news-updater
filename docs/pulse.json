@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T04:47:48.320346+00:00",
+  "generated_at": "2026-09-18T11:19:38.153561+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 37,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": null
@@ -56,18 +56,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wip32v/update_i_scraped_59_million_jobs_with_chatgpt/",
-          "signal": "Update: I scraped 5.9 million jobs with ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
+          "signal": "Why does ChatGPT treat every message like a task?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj04dm/chatgpt_said_something_weird_today_it_asked_me_to/",
-          "signal": "ChatGPT said something weird today - It asked me to wait mid response."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjn7rx/having_chatgpt_help_me_navigate_my_employment/",
+          "signal": "Having ChatGPT help me navigate my employment situation has me feeling some kind of strange emotional attachment to it."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wiynfp/chatgpt_accidentally_showing_internal_monologue/",
-          "signal": "ChatGPT accidentally showing internal monologue"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjlj2i/psa_the_files_chatgpt_makes_for_you_expire_and/",
+          "signal": "PSA: the files ChatGPT makes for you expire, and the download link in your old chat stops working without warning"
         }
       ],
       "content_ideas": []
@@ -100,9 +100,9 @@
       "content_ideas": []
     },
     {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -114,14 +114,14 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-x-mozilla/",
-          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
+          "url": "https://bend-lang.com/",
+          "signal": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU"
         }
       ],
       "content_ideas": []
@@ -154,33 +154,6 @@
       "content_ideas": []
     },
     {
-      "name": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://bend-lang.com/",
-          "signal": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI safety is mostly a sex cult",
       "category": "use_case",
       "momentum": "rising",
@@ -203,6 +176,92 @@
           "platform": "hackernews",
           "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
           "signal": "AI safety is mostly a sex cult"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A heap overflow and SSO misconfiguration to compromise OpenAI internal",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "signal": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "signal": "Qwen 3.8 Omni Flash"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+          "signal": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Sex, AI, and the Apocalypse",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+          "signal": "Sex, AI, and the Apocalypse"
         }
       ],
       "content_ideas": []
@@ -235,33 +294,6 @@
       "content_ideas": []
     },
     {
-      "name": "Sex, AI, and the Apocalypse",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
-          "signal": "Sex, AI, and the Apocalypse"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: Share your AI Setup, Learn from others",
       "category": "use_case",
       "momentum": "rising",
@@ -274,7 +306,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -317,9 +349,9 @@
       "content_ideas": []
     },
     {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Microsoft exec called AI scraping 'the largest theft of labor in human",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -329,48 +361,21 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
-          "signal": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "signal": "Alibaba releases Qwen 3.8 Omni Flash"
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human history'"
         },
         {
           "platform": "hackernews",
-          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
-          "signal": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh"
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human"
         }
       ],
       "content_ideas": []
@@ -390,7 +395,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -399,7 +404,7 @@
         {
           "platform": "hackernews",
           "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "signal": "Alibaba releases Qwen 3.8 Omni Flash"
+          "signal": "Qwen 3.8 Omni Flash"
         },
         {
           "platform": "hackernews",
@@ -450,72 +455,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wip32v/update_i_scraped_59_million_jobs_with_chatgpt/",
-          "signal": "Update: I scraped 5.9 million jobs with ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
+          "signal": "Why does ChatGPT treat every message like a task?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj04dm/chatgpt_said_something_weird_today_it_asked_me_to/",
-          "signal": "ChatGPT said something weird today - It asked me to wait mid response."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjn7rx/having_chatgpt_help_me_navigate_my_employment/",
+          "signal": "Having ChatGPT help me navigate my employment situation has me feeling some kind of strange emotional attachment to it."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wiynfp/chatgpt_accidentally_showing_internal_monologue/",
-          "signal": "ChatGPT accidentally showing internal monologue"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-x-mozilla/",
-          "signal": "Mistral X Mozilla: Private, Multilingual AI Browsing"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
-          "signal": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjlj2i/psa_the_files_chatgpt_makes_for_you_expire_and/",
+          "signal": "PSA: the files ChatGPT makes for you expire, and the download link in your old chat stops working without warning"
         }
       ],
       "content_ideas": []
@@ -530,18 +481,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Only one week until Sora is completely shut down",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj4za8/only_one_week_until_sora_is_completely_shut_down/"
         }
       ],
       "content_opportunity": ""
