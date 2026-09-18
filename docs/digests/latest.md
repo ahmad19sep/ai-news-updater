@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 4. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-5. **Scientists just made quantum computer operations 1,000 times faster** — science angle
-   https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-6. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
+5. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
    https://www.youtube.com/watch?v=WTnZ6W7qsLQ
-7. **How AI compares to human doctors in deciding kidney transplants — and more health headlines - WGN-TV** — science angle
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3VXaEJvNEhPUjFCYWN1WlNVa1cybHBwdUFDVzR5ZXhENndIcFhBNG1Bd3NnTkhudFNnWTFOcW8zUzU0WGpnSnJNRGVvZm41Smxldzl2R2htdkJwUzBaTnpGSzRrMVpEY0hhRzczTXZpcFJoQmg4QUt3WllHTEpZa3JnUFBVX2pmS3gxNEJPdG8wSVFhbUgwdEQ4d0tSTzlFajhjdGFYZUlma1NoWHl1dTJ1RGZyam91REN0bmlCQUdkNWhjaXfSAcsBQVVfeXFMTjVzNUJSNVo4VXhQazdRSUsxVTVvamFudUl5OUwxNHduT0xuelFUTE1ReHAtdkt3VGU3aWlHS1gyOXJnMTY0ckVmWHI2TUtNWktrNGhaNnRvek5MNUJsLURHelgzQ1ZOeUI1TGpRZlljRk5SYlhWckd1ZTB1V1NmVnhPQ3FGNm9ORGduelBqbVF6OVRCZ21JRHcyN1FFVzI1LTFlSHd5ZXdkQ004Wk1kTF9rY2JtTDBvWkJBLV8xTU1ERWJaYkNTbXh0VlU?oc=5
-8. **Striking Allina doctors worried about AI and loss of control over medical care - Star Tribune** — science angle
+6. **Striking Allina doctors worried about AI and loss of control over medical care - Star Tribune** — science angle
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1JjRkNNdUxwYXF5cXp3amhJS2F6UkxiMGJzcWgzMk5zUVpSSE5XeUhVMHFtZFlWNDZjajA5OVZGYjczMEw1ODZPZUk4ZlN2T2psdjIxNC10bHNxVUpPM24xN0hEM0t3NVA2UktRSTgwdmtGNVB2Zk5vOXlGVHIzQVJ5TVEzSUNZNUVxcWhseVFRbzE3dUsxVjQ5TlhRX0NRak1fcWtDZTlYRzc3N1JOa2ptQW5YWUxGNENoSnZfT2VBZGc?oc=5
+7. **Major AI conference in Montreal explores if artificial intelligence can help tackle Canada's doctor shortage - montreal.citynews.ca** — science angle
+   https://news.google.com/rss/articles/CBMieEFVX3lxTE1ybS1DYl9VZU9YS1RFOURBeGFkNmNuLVVuR2ctaFpQeXBuZnpuM0hLczQ2SnQtSXBxY2VsX2E2TmE0eVpBdFZEdDlocFMxUXFDNnMtNzB4ZDl1Qm04eFJNdHo2NkNtbjhEYk5vVHVfOTJwdE5sSWg2eg?oc=5
+8. **Striking Allina doctors seek protections as AI plays growing role in patient care - kare11.com** — science angle
+   https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZDl2Y2hFckJMTWxmRTBweVA4THgxdHNxd0VTZDBvZnNjQm1tWTRGaTF0bjNnVFB2YUpMTURNaEd2b284QXdrUENLZ3k5UEF0UmJFa0M4NU1CVFIxcmMtc0tieV9ad2M1SHV5MWxVSTNJYkJZMlFjZ0h1OThLOERuSzFESGpTcEtVN3NiNEoycndOUU1iS0ZqS0tMWFBGS0RNM0lYbXo4Mi10MUlUbGZKWDBzRkoyNzl5elRfMEtHSHNSYkNnb0IyeEZVclkxOEpTSjJzcXBXQXFtekdEZ2hKbHQ0b2JIbnc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 146
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
-- **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 - **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — https://www.youtube.com/watch?v=WTnZ6W7qsLQ
+- **Striking Allina doctors worried about AI and loss of control over medical care - Star Tribune** — https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1JjRkNNdUxwYXF5cXp3amhJS2F6UkxiMGJzcWgzMk5zUVpSSE5XeUhVMHFtZFlWNDZjajA5OVZGYjczMEw1ODZPZUk4ZlN2T2psdjIxNC10bHNxVUpPM24xN0hEM0t3NVA2UktRSTgwdmtGNVB2Zk5vOXlGVHIzQVJ5TVEzSUNZNUVxcWhseVFRbzE3dUsxVjQ5TlhRX0NRak1fcWtDZTlYRzc3N1JOa2ptQW5YWUxGNENoSnZfT2VBZGc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3306
+- Total stories tracked: 3289
 - Most active topic: anthropic
 - Busiest category: AI General News
 
