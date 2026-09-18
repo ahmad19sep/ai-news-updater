@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 4. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-5. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
-   https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
-6. **Scientists just made quantum computer operations 1,000 times faster** — science angle
+5. **Scientists just made quantum computer operations 1,000 times faster** — science angle
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-7. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
+6. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
    https://www.youtube.com/watch?v=WTnZ6W7qsLQ
-8. **Study: AI-Powered App Lowers High Blood Pressure When Part of Doctor's Care Plan | Newswise - Newswise** — science angle
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxOV2NBNUNnWGpQOGdKV3EtXzhrS1M2Z3M0aUdsQWx3N2pKYkpqZFhKemlreEowdlVDdzBkSmNPanRZNXhYYVZ3dUlpUmNkZEwtX0RlRldfSXlwVnlOdWhlWHFsdE52R1VydEV0YlBfOG5zVGJRdFFWeEk4ZkxWeTEydW4tOVZRbXBnbGh3M1hwVE0telM3TkpSZlZoa2xmTVpkRUVpSjlMVzY3YmtBdnBpNnU5SdIBswFBVV95cUxOV2NBNUNnWGpQOGdKV3EtXzhrS1M2Z3M0aUdsQWx3N2pKYkpqZFhKemlreEowdlVDdzBkSmNPanRZNXhYYVZ3dUlpUmNkZEwtX0RlRldfSXlwVnlOdWhlWHFsdE52R1VydEV0YlBfOG5zVGJRdFFWeEk4ZkxWeTEydW4tOVZRbXBnbGh3M1hwVE0telM3TkpSZlZoa2xmTVpkRUVpSjlMVzY3YmtBdnBpNnU5SQ?oc=5
+7. **How AI compares to human doctors in deciding kidney transplants — and more health headlines - WGN-TV** — science angle
+   https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3VXaEJvNEhPUjFCYWN1WlNVa1cybHBwdUFDVzR5ZXhENndIcFhBNG1Bd3NnTkhudFNnWTFOcW8zUzU0WGpnSnJNRGVvZm41Smxldzl2R2htdkJwUzBaTnpGSzRrMVpEY0hhRzczTXZpcFJoQmg4QUt3WllHTEpZa3JnUFBVX2pmS3gxNEJPdG8wSVFhbUgwdEQ4d0tSTzlFajhjdGFYZUlma1NoWHl1dTJ1RGZyam91REN0bmlCQUdkNWhjaXfSAcsBQVVfeXFMTjVzNUJSNVo4VXhQazdRSUsxVTVvamFudUl5OUwxNHduT0xuelFUTE1ReHAtdkt3VGU3aWlHS1gyOXJnMTY0ckVmWHI2TUtNWktrNGhaNnRvek5MNUJsLURHelgzQ1ZOeUI1TGpRZlljRk5SYlhWckd1ZTB1V1NmVnhPQ3FGNm9ORGduelBqbVF6OVRCZ21JRHcyN1FFVzI1LTFlSHd5ZXdkQ004Wk1kTF9rY2JtTDBvWkJBLV8xTU1ERWJaYkNTbXh0VlU?oc=5
+8. **Striking Allina doctors worried about AI and loss of control over medical care - Star Tribune** — science angle
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1JjRkNNdUxwYXF5cXp3amhJS2F6UkxiMGJzcWgzMk5zUVpSSE5XeUhVMHFtZFlWNDZjajA5OVZGYjczMEw1ODZPZUk4ZlN2T2psdjIxNC10bHNxVUpPM24xN0hEM0t3NVA2UktRSTgwdmtGNVB2Zk5vOXlGVHIzQVJ5TVEzSUNZNUVxcWhseVFRbzE3dUsxVjQ5TlhRX0NRak1fcWtDZTlYRzc3N1JOa2ptQW5YWUxGNENoSnZfT2VBZGc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 146
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 - **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — https://www.youtube.com/watch?v=WTnZ6W7qsLQ
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3342
+- Total stories tracked: 3306
 - Most active topic: anthropic
 - Busiest category: AI General News
 
