@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:26:50.876250+00:00",
+  "generated_at": "2026-09-18T20:56:01.652636+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,12 +9,44 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 32,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Microsoft exec called AI scraping 'the largest theft of labor in human",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human history'"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -54,56 +86,24 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
-          "signal": "Why does ChatGPT treat every message like a task?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
-          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wjtcwc/i_asked_chatgpt_to_give_my_recent_chats_unhinged/",
           "signal": "I asked ChatGPT to give my recent chats unhinged but technically accurate titles so I’d know what each one was about. It turned out to be hilarious."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Microsoft exec called AI scraping 'the largest theft of labor in human",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human history'"
         },
         {
-          "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjxtgb/chatgpt_relying_more_on_web_search/",
+          "signal": "ChatGPT relying more on web search?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
+          "signal": "Why does ChatGPT treat every message like a task?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "name": "Bend – a language that blocks AI mistakes via proof and runs on GPUs",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -124,7 +124,7 @@
         {
           "platform": "hackernews",
           "url": "https://bend-lang.com/",
-          "signal": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU"
+          "signal": "Bend – a language that blocks AI mistakes via proof and runs on GPUs"
         }
       ],
       "content_ideas": []
@@ -211,6 +211,33 @@
       "content_ideas": []
     },
     {
+      "name": "US Military had close call after using AI for hallucinated intelligenc",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+          "signal": "US Military had close call after using AI for hallucinated intelligence report"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Sex, AI, and the Apocalypse",
       "category": "use_case",
       "momentum": "rising",
@@ -250,7 +277,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -260,33 +287,6 @@
           "platform": "hackernews",
           "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
           "signal": "Qwen 3.8 Omni Flash"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "A coffee shop owner used AI to make a menu poster. Then came the angry",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
-          "signal": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs"
         }
       ],
       "content_ideas": []
@@ -319,33 +319,6 @@
       "content_ideas": []
     },
     {
-      "name": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-          "signal": "ZCode, the GLM coding agent, silently uploads your Git history"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "OpenSpec – A lightweight and configurable AI spec framework",
       "category": "use_case",
       "momentum": "rising",
@@ -372,6 +345,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "ZCode, the GLM coding agent, silently uploads your Git history",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+          "signal": "ZCode, the GLM coding agent, silently uploads your Git history"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -388,7 +388,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -441,18 +441,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
-          "signal": "Why does ChatGPT treat every message like a task?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
-          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wjtcwc/i_asked_chatgpt_to_give_my_recent_chats_unhinged/",
           "signal": "I asked ChatGPT to give my recent chats unhinged but technically accurate titles so I’d know what each one was about. It turned out to be hilarious."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjxtgb/chatgpt_relying_more_on_web_search/",
+          "signal": "ChatGPT relying more on web search?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
+          "signal": "Why does ChatGPT treat every message like a task?"
         }
       ],
       "content_ideas": []
@@ -470,19 +470,7 @@
         }
       ],
       "content_opportunity": ""
-    },
-    {
-      "problem": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/"
-        }
-      ],
-      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Microsoft exec called AI scraping 'the largest theft of labor in human — strongest signal this cycle"
 }
