@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:24:53.342124+00:00",
+  "generated_at": "2026-09-18T04:47:48.320346+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 37,
       "youtube": 106
     },
     "llm_provider": null
@@ -66,8 +66,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
-          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wiynfp/chatgpt_accidentally_showing_internal_monologue/",
+          "signal": "ChatGPT accidentally showing internal monologue"
         }
       ],
       "content_ideas": []
@@ -154,6 +154,33 @@
       "content_ideas": []
     },
     {
+      "name": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bend-lang.com/",
+          "signal": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI safety is mostly a sex cult",
       "category": "use_case",
       "momentum": "rising",
@@ -203,6 +230,60 @@
           "platform": "hackernews",
           "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
           "signal": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Sex, AI, and the Apocalypse",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+          "signal": "Sex, AI, and the Apocalypse"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Share your AI Setup, Learn from others",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mysetup.ai/",
+          "signal": "Show HN: Share your AI Setup, Learn from others"
         }
       ],
       "content_ideas": []
@@ -263,8 +344,8 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Share your AI Setup, Learn from others",
-      "category": "use_case",
+      "name": "Qwen",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -277,101 +358,57 @@
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://mysetup.ai/",
-          "signal": "Show HN: Share your AI Setup, Learn from others"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "How, Exactly, Could A.I. Kill Us?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "signal": "Alibaba releases Qwen 3.8 Omni Flash"
+        },
         {
           "platform": "hackernews",
-          "url": "https://www.newyorker.com/news/q-and-a/how-exactly-could-ai-kill-us",
-          "signal": "How, Exactly, Could A.I. Kill Us?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Stay discoverable in search while disallowing AI training",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-          "signal": "Stay discoverable in search while disallowing AI training"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://stale.jock.pl/",
-          "signal": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models"
+          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+          "signal": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "signal": "Alibaba releases Qwen 3.8 Omni Flash"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+          "signal": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -423,8 +460,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wis27x/have_you_noticed_any_cognitive_decline_since_you/",
-          "signal": "Have you noticed any cognitive decline since you started using ChatGPT regularly?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wiynfp/chatgpt_accidentally_showing_internal_monologue/",
+          "signal": "ChatGPT accidentally showing internal monologue"
         }
       ],
       "content_ideas": []
@@ -505,18 +542,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wj4za8/only_one_week_until_sora_is_completely_shut_down/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Worked for 25 minutes, then hit usage limit without giving me any result - is this work lost? Or will it pick up tomorrow and continue with ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wj20f4/worked_for_25_minutes_then_hit_usage_limit/"
         }
       ],
       "content_opportunity": ""
