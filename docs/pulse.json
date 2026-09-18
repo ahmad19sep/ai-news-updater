@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T11:19:38.153561+00:00",
+  "generated_at": "2026-09-18T16:26:50.876250+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 39,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,12 +18,10 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -31,8 +29,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -40,24 +38,14 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
-          "signal": "OpenAI expands ChatGPT ads with Sponsored Agents"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
-          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
-          "signal": "Why does ChatGPT treat every message like a task?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjroxx/i_asked_chatgpt_to_write_a_poem_about_where_we/",
+          "signal": "I asked ChatGPT to write a poem about where we are headed...this is what it said."
         },
         {
           "platform": "reddit",
@@ -66,14 +54,24 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjlj2i/psa_the_files_chatgpt_makes_for_you_expire_and/",
-          "signal": "PSA: the files ChatGPT makes for you expire, and the download link in your old chat stops working without warning"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
+          "signal": "Why does ChatGPT treat every message like a task?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
+          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjtcwc/i_asked_chatgpt_to_give_my_recent_chats_unhinged/",
+          "signal": "I asked ChatGPT to give my recent chats unhinged but technically accurate titles so I’d know what each one was about. It turned out to be hilarious."
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "A warning about 'model welfare'",
+      "name": "Microsoft exec called AI scraping 'the largest theft of labor in human",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -93,8 +91,13 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-          "signal": "A warning about 'model welfare'"
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human history'"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human"
         }
       ],
       "content_ideas": []
@@ -154,33 +157,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI safety is mostly a sex cult",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-          "signal": "AI safety is mostly a sex cult"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "A heap overflow and SSO misconfiguration to compromise OpenAI internal",
       "category": "use_case",
       "momentum": "rising",
@@ -208,8 +184,8 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
+      "name": "AI safety is mostly a sex cult",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -218,23 +194,18 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "signal": "Qwen 3.8 Omni Flash"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
-          "signal": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh"
+          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+          "signal": "AI safety is mostly a sex cult"
         }
       ],
       "content_ideas": []
@@ -252,7 +223,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -262,6 +233,33 @@
           "platform": "hackernews",
           "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
           "signal": "Sex, AI, and the Apocalypse"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "signal": "Qwen 3.8 Omni Flash"
         }
       ],
       "content_ideas": []
@@ -321,6 +319,33 @@
       "content_ideas": []
     },
     {
+      "name": "ZCode, the GLM coding agent, silently uploads your Git history",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+          "signal": "ZCode, the GLM coding agent, silently uploads your Git history"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "OpenSpec – A lightweight and configurable AI spec framework",
       "category": "use_case",
       "momentum": "rising",
@@ -347,38 +372,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Microsoft exec called AI scraping 'the largest theft of labor in human",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human history'"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -393,7 +386,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 9,
       "monetization": {
@@ -405,11 +398,6 @@
           "platform": "hackernews",
           "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
           "signal": "Qwen 3.8 Omni Flash"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
-          "signal": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh"
         }
       ],
       "content_ideas": []
@@ -417,12 +405,10 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -430,8 +416,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 8,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -439,24 +425,14 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
-          "signal": "OpenAI expands ChatGPT ads with Sponsored Agents"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
-          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
-          "signal": "Why does ChatGPT treat every message like a task?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjroxx/i_asked_chatgpt_to_write_a_poem_about_where_we/",
+          "signal": "I asked ChatGPT to write a poem about where we are headed...this is what it said."
         },
         {
           "platform": "reddit",
@@ -465,8 +441,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjlj2i/psa_the_files_chatgpt_makes_for_you_expire_and/",
-          "signal": "PSA: the files ChatGPT makes for you expire, and the download link in your old chat stops working without warning"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
+          "signal": "Why does ChatGPT treat every message like a task?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wisr25/one_of_my_friends_told_me_about_chatgpt_back_soon/",
+          "signal": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjtcwc/i_asked_chatgpt_to_give_my_recent_chats_unhinged/",
+          "signal": "I asked ChatGPT to give my recent chats unhinged but technically accurate titles so I’d know what each one was about. It turned out to be hilarious."
         }
       ],
       "content_ideas": []
@@ -474,9 +460,21 @@
   ],
   "pain_points": [
     {
+      "problem": "Usage limits are insanely low now",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjqvt0/usage_limits_are_insanely_low_now/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "One of my friends told me about ChatGPT back soon after it came out, I wrote it down in a note and just found this relic",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
