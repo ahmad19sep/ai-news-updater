@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — science angle
    https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-2. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — science angle
+2. **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — science angle
+   https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
+3. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
-3. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
+4. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-4. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
+5. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
    https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
-5. **Scientists just made quantum computer operations 1,000 times faster** — science angle
+6. **Scientists just made quantum computer operations 1,000 times faster** — science angle
    https://www.sciencedaily.com/releases/2026/09/260911003845.htm
-6. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
+7. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
    https://www.youtube.com/watch?v=WTnZ6W7qsLQ
-7. **This new AI drug makes blood years younger—doctors stunned by the results - Futura, le média qui explore le monde** — science angle
+8. **This new AI drug makes blood years younger—doctors stunned by the results - Futura, le média qui explore le monde** — science angle
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQZEpwbU5rMGlPOGxETWE4ZmVsckY4Sk9hZ282VGs0V0xfT1p5dmJFNFlpeW5pelQyVU9WZ2JnWmtWbXJsNnh6QmE3Zi1ma2EteWJIOXRKMXVzdDkxT2FwTXBRWmFhVDZaSEppMFpyRkNHd0RxcXFLQU9FOTNjbzhCbTl1aWNDUm8xalVNVVc3ZWFVV1lWb0xUWloyUkhicEVhTzY0bHRpdDJibnBJSG1qOWM2djZTaUU?oc=5
-8. **At 81, Helen Mirren ‘totally’ avoids doctors and prefers AI instead - but what do GPs think? - Good Housekeeping** — science angle
-   https://news.google.com/rss/articles/CBMifkFVX3lxTE5UaFNLSk5wVmtlbzl0d3AyWEdyMVowUjdSYU9BSlZ0VUtxQ1ZTUGcwcDBDa0J5TE9Fekc1ZV9TLS0xUnpacXlXU3dfZVR0M1laMnRpNkVXX2YzXzRXWXlEQ0M1QXJINDVTU0dPLU9OMzJHMFN5WG90LUVlVE9Ndw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 136
@@ -39,22 +39,22 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
 7. **Trump dismisses new AI guardrails, says there is a ‘SICK conspiracy’ against AI and data centers** — sandiegouniontribune — Score 93
    https://www.sandiegouniontribune.com/2026/09/14/trump-dismisses-ai-guardrails/
-8. **OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff - Bloomberg.com** — Sam Altman News — Score 77
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE5RVzVKR09WQ0pick9xYjhVaXhnYUFpOUt2OElxZjBwbTRvT2d3U2FnRmFacXd5TWFvVnpwRUo5M0lEeWVNbWJURzdlRXFLbnFHa1Y4WU43SmxKYWcwUGRFQmdjV2FGeUg4TVdPVEFkTzJtNUtQV0xtVHROLV9XekJKSTZFbmFNb0xwaFNMejRHYmpwbUdpOGRlYXoza2hjWXRTdVdNcng0cmFNV2ZwTkFYT0tma1kzTkpN?oc=5
-9. **Anthropic and OpenAI CEOs call for AI development to slow down - NPR** — Using AI To... — Score 63
+8. **Anthropic and OpenAI CEOs call for AI development to slow down - NPR** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ2dEZVQ3TDM1QTVfdTlRQ09QSWhCWnN1ODIwQzdEUTJxTEpGLVI4Qlp0WnVfaTdEdHEyNHdQcWNoNS1FajdpaVU1WWtPcTZ1ZXJWYXBsRzlrZi1jaWZNdEY0S1MtZmQxSVRtdlZHOFV6aW54TUJHWEJDOExGY2l1V25LYmYtNUlic1B4MFNrUklaaVk?oc=5
-10. **Anthropic boss Dario Amodei calls for AI development to slow down - bbc.com** — Anthropic News — Score 60
+9. **Anthropic boss Dario Amodei calls for AI development to slow down - bbc.com** — Anthropic News — Score 60
    https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrRjBnT05YelZFQXM0ejVFa0VZUDdYWENTbHowbzJSVmxwZWFpWEw2NFh4NHpjU01Ubi1jM21FQjhfWl82Z3JsczNTQnFIVFpkOWQyTXhQVzlGZw?oc=5
+10. **Anthropic CEO urges AI companies to slow model development amid fears over misuse - Reuters** — Dario Amodei News — Score 57
+   https://news.google.com/rss/articles/CBMiogFBVV95cUxObV9NUVhESy1GWXRLaWhTYlM1UUNSU0kweVg1N2YxNTRXUVdORW5EWHQ2MXNpYlo3SHNlLWZVZ2N1ZEZYZlNnUDY4TUZBMVFvcU1BaDBIWm94TkhqQUVXVzRZQlBUX3JOZUJYNnVVcVV3dlhTMDRFMmVXVGpNOU1RUEhnV254NWV0clJhc0NEOVFPWGFYSEtiY2R3U0JqM0NVc3c?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
+- **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **Scientists just made quantum computer operations 1,000 times faster** — https://www.sciencedaily.com/releases/2026/09/260911003845.htm
 - **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — https://www.youtube.com/watch?v=WTnZ6W7qsLQ
-- **This new AI drug makes blood years younger—doctors stunned by the results - Futura, le média qui explore le monde** — https://news.google.com/rss/articles/CBMitwFBVV95cUxQZEpwbU5rMGlPOGxETWE4ZmVsckY4Sk9hZ282VGs0V0xfT1p5dmJFNFlpeW5pelQyVU9WZ2JnWmtWbXJsNnh6QmE3Zi1ma2EteWJIOXRKMXVzdDkxT2FwTXBRWmFhVDZaSEppMFpyRkNHd0RxcXFLQU9FOTNjbzhCbTl1aWNDUm8xalVNVVc3ZWFVV1lWb0xUWloyUkhicEVhTzY0bHRpdDJibnBJSG1qOWM2djZTaUU?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3324
+- Total stories tracked: 3401
 - Most active topic: anthropic
 - Busiest category: AI General News
 
