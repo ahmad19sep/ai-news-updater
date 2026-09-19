@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:56:01.652636+00:00",
+  "generated_at": "2026-09-19T04:40:58.319239+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -81,23 +81,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wk7x50/chatgpts_image_generation_has_improved_a_lot/",
+          "signal": "ChatGPT’s image generation has improved A LOT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkbimm/while_generating_an_image_chatgpt_let_me_play/",
+          "signal": "While generating an image, chatgpt let me play snake"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wk8w2y/has_anyone_also_realize_chatgpt_is_saying_yes_to/",
+          "signal": "Has anyone also realize ChatGPT is saying yes to non-binary questions?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wjn7rx/having_chatgpt_help_me_navigate_my_employment/",
           "signal": "Having ChatGPT help me navigate my employment situation has me feeling some kind of strange emotional attachment to it."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjtcwc/i_asked_chatgpt_to_give_my_recent_chats_unhinged/",
-          "signal": "I asked ChatGPT to give my recent chats unhinged but technically accurate titles so I’d know what each one was about. It turned out to be hilarious."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjxtgb/chatgpt_relying_more_on_web_search/",
-          "signal": "ChatGPT relying more on web search?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
-          "signal": "Why does ChatGPT treat every message like a task?"
         }
       ],
       "content_ideas": []
@@ -125,6 +125,33 @@
           "platform": "hackernews",
           "url": "https://bend-lang.com/",
           "signal": "Bend – a language that blocks AI mistakes via proof and runs on GPUs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "US Military had close call after using AI for hallucinated intelligenc",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+          "signal": "US Military had close call after using AI for hallucinated intelligence report"
         }
       ],
       "content_ideas": []
@@ -211,33 +238,6 @@
       "content_ideas": []
     },
     {
-      "name": "US Military had close call after using AI for hallucinated intelligenc",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-          "signal": "US Military had close call after using AI for hallucinated intelligence report"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Sex, AI, and the Apocalypse",
       "category": "use_case",
       "momentum": "rising",
@@ -267,7 +267,7 @@
     {
       "name": "Qwen",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -319,34 +319,6 @@
       "content_ideas": []
     },
     {
-      "name": "OpenSpec – A lightweight and configurable AI spec framework",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openspec.dev/",
-          "signal": "OpenSpec – A lightweight and configurable AI spec framework"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "ZCode, the GLM coding agent, silently uploads your Git history",
       "category": "use_case",
       "momentum": "rising",
@@ -372,23 +344,24 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Qwen",
+      "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
+      "best_format": "reel",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -396,12 +369,29 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "signal": "Qwen 3.8 Omni Flash"
+          "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
+          "signal": "Gemini hacked three companies in first known breakout by Google's AI"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=na_m9zkdJGI",
+          "signal": "BATALHA ENTRE CHATGPT E GEMINI! QUEM GANHOU?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iPwjmyCE2Do",
+          "signal": "Ganesh chaturthi Chat GPT girl Ai Photo Editing Prompt | Instagram Viral Bappa Gemini Prompt #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -436,23 +426,95 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wk7x50/chatgpts_image_generation_has_improved_a_lot/",
+          "signal": "ChatGPT’s image generation has improved A LOT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkbimm/while_generating_an_image_chatgpt_let_me_play/",
+          "signal": "While generating an image, chatgpt let me play snake"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wk8w2y/has_anyone_also_realize_chatgpt_is_saying_yes_to/",
+          "signal": "Has anyone also realize ChatGPT is saying yes to non-binary questions?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wjn7rx/having_chatgpt_help_me_navigate_my_employment/",
           "signal": "Having ChatGPT help me navigate my employment situation has me feeling some kind of strange emotional attachment to it."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "signal": "Qwen 3.8 Omni Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
+          "signal": "Gemini hacked three companies in first known breakout by Google's AI"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjtcwc/i_asked_chatgpt_to_give_my_recent_chats_unhinged/",
-          "signal": "I asked ChatGPT to give my recent chats unhinged but technically accurate titles so I’d know what each one was about. It turned out to be hilarious."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=na_m9zkdJGI",
+          "signal": "BATALHA ENTRE CHATGPT E GEMINI! QUEM GANHOU?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjxtgb/chatgpt_relying_more_on_web_search/",
-          "signal": "ChatGPT relying more on web search?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iPwjmyCE2Do",
+          "signal": "Ganesh chaturthi Chat GPT girl Ai Photo Editing Prompt | Instagram Viral Bappa Gemini Prompt #ai"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjjr65/why_does_chatgpt_treat_every_message_like_a_task/",
-          "signal": "Why does ChatGPT treat every message like a task?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
