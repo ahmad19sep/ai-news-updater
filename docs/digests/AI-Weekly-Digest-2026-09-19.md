@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — science angle
    https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-2. **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — science angle
-   https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
-3. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — science angle
+2. **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — science angle
    https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
+3. **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — science angle
+   https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 4. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-5. **Striking Allina doctors worried about AI and loss of control over medical care - Star Tribune** — science angle
-   https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1JjRkNNdUxwYXF5cXp3amhJS2F6UkxiMGJzcWgzMk5zUVpSSE5XeUhVMHFtZFlWNDZjajA5OVZGYjczMEw1ODZPZUk4ZlN2T2psdjIxNC10bHNxVUpPM24xN0hEM0t3NVA2UktRSTgwdmtGNVB2Zk5vOXlGVHIzQVJ5TVEzSUNZNUVxcWhseVFRbzE3dUsxVjQ5TlhRX0NRak1fcWtDZTlYRzc3N1JOa2ptQW5YWUxGNENoSnZfT2VBZGc?oc=5
-6. **Major AI conference in Montreal explores if artificial intelligence can help tackle Canada's doctor shortage - montreal.citynews.ca** — science angle
+5. **Major AI conference in Montreal explores if artificial intelligence can help tackle Canada's doctor shortage - montreal.citynews.ca** — science angle
    https://news.google.com/rss/articles/CBMieEFVX3lxTE1ybS1DYl9VZU9YS1RFOURBeGFkNmNuLVVuR2ctaFpQeXBuZnpuM0hLczQ2SnQtSXBxY2VsX2E2TmE0eVpBdFZEdDlocFMxUXFDNnMtNzB4ZDl1Qm04eFJNdHo2NkNtbjhEYk5vVHVfOTJwdE5sSWg2eg?oc=5
-7. **Striking Allina doctors seek protections as AI plays growing role in patient care - kare11.com** — science angle
+6. **Striking Allina doctors seek protections as AI plays growing role in patient care - kare11.com** — science angle
    https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZDl2Y2hFckJMTWxmRTBweVA4THgxdHNxd0VTZDBvZnNjQm1tWTRGaTF0bjNnVFB2YUpMTURNaEd2b284QXdrUENLZ3k5UEF0UmJFa0M4NU1CVFIxcmMtc0tieV9ad2M1SHV5MWxVSTNJYkJZMlFjZ0h1OThLOERuSzFESGpTcEtVN3NiNEoycndOUU1iS0ZqS0tMWFBGS0RNM0lYbXo4Mi10MUlUbGZKWDBzRkoyNzl5elRfMEtHSHNSYkNnb0IyeEZVclkxOEpTSjJzcXBXQXFtekdEZ2hKbHQ0b2JIbnc?oc=5
-8. **The best medical AI won’t replace your doctor. It will finally give them time to be one - Washington Examiner** — science angle
+7. **The best medical AI won’t replace your doctor. It will finally give them time to be one - Washington Examiner** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3pYWHVuSW95ajdFbjRpYTRvdkxUSTgzMi1LUWM3RTUtRURWNWtFd2dUM0ZTMTh1Mmp2alJQMmZFTllHVUJ0U0pjU1hSTXVlNzBBb0V1RVdORmYteEFmVVpFLXZhWXlxMXcwRUk1VTdlZGJzRjJjUkN5LV9XNUdvbWdRWE5HSUF6TzdqWTdrT0pEajRubGlWR2g5ZDNscmF1WkZZ?oc=5
+8. **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — science angle
+   https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVgtOHFkUm9fQ1hwSWFnRzM0eGVWRjFwQTBmWFBnMmkxaFZ5NUJITTg0UUNqTFd6V0E3MTJLQUlQd1BhQjZSQ0NEWTRaT1o3U2VsSm1YOWJNcGRYbi1qTDFTZjc4MVJXaG5xcE9DazBfUzUwX1BCOGdTbUNfanA4dTFXTQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 163
@@ -48,13 +48,13 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 
 ## 🧪 AI in Science Highlights
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
-- **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
-- **Striking Allina doctors worried about AI and loss of control over medical care - Star Tribune** — https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1JjRkNNdUxwYXF5cXp3amhJS2F6UkxiMGJzcWgzMk5zUVpSSE5XeUhVMHFtZFlWNDZjajA5OVZGYjczMEw1ODZPZUk4ZlN2T2psdjIxNC10bHNxVUpPM24xN0hEM0t3NVA2UktRSTgwdmtGNVB2Zk5vOXlGVHIzQVJ5TVEzSUNZNUVxcWhseVFRbzE3dUsxVjQ5TlhRX0NRak1fcWtDZTlYRzc3N1JOa2ptQW5YWUxGNENoSnZfT2VBZGc?oc=5
+- **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **Major AI conference in Montreal explores if artificial intelligence can help tackle Canada's doctor shortage - montreal.citynews.ca** — https://news.google.com/rss/articles/CBMieEFVX3lxTE1ybS1DYl9VZU9YS1RFOURBeGFkNmNuLVVuR2ctaFpQeXBuZnpuM0hLczQ2SnQtSXBxY2VsX2E2TmE0eVpBdFZEdDlocFMxUXFDNnMtNzB4ZDl1Qm04eFJNdHo2NkNtbjhEYk5vVHVfOTJwdE5sSWg2eg?oc=5
+- **Striking Allina doctors seek protections as AI plays growing role in patient care - kare11.com** — https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZDl2Y2hFckJMTWxmRTBweVA4THgxdHNxd0VTZDBvZnNjQm1tWTRGaTF0bjNnVFB2YUpMTURNaEd2b284QXdrUENLZ3k5UEF0UmJFa0M4NU1CVFIxcmMtc0tieV9ad2M1SHV5MWxVSTNJYkJZMlFjZ0h1OThLOERuSzFESGpTcEtVN3NiNEoycndOUU1iS0ZqS0tMWFBGS0RNM0lYbXo4Mi10MUlUbGZKWDBzRkoyNzl5elRfMEtHSHNSYkNnb0IyeEZVclkxOEpTSjJzcXBXQXFtekdEZ2hKbHQ0b2JIbnc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3272
+- Total stories tracked: 3270
 - Most active topic: anthropic
 - Busiest category: AI General News
 
