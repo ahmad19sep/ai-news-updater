@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T04:40:58.319239+00:00",
+  "generated_at": "2026-09-19T11:03:32.914536+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -54,6 +54,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -91,13 +92,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wk8w2y/has_anyone_also_realize_chatgpt_is_saying_yes_to/",
-          "signal": "Has anyone also realize ChatGPT is saying yes to non-binary questions?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkcu6z/chatgpt_can_convert_conversation_from_chat_to_work/",
+          "signal": "ChatGPT can convert conversation from Chat to Work"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjn7rx/having_chatgpt_help_me_navigate_my_employment/",
-          "signal": "Having ChatGPT help me navigate my employment situation has me feeling some kind of strange emotional attachment to it."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkdruf/weird_chatgpt_voice_mode_response/",
+          "signal": "weird chatgpt voice mode response"
         }
       ],
       "content_ideas": []
@@ -157,33 +158,6 @@
       "content_ideas": []
     },
     {
-      "name": "How GLM built its own inference infrastructure",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-          "signal": "How GLM built its own inference infrastructure"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "A heap overflow and SSO misconfiguration to compromise OpenAI internal",
       "category": "use_case",
       "momentum": "rising",
@@ -206,33 +180,6 @@
           "platform": "hackernews",
           "url": "https://www.hacktron.ai/blog/hacking-openai",
           "signal": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI safety is mostly a sex cult",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-          "signal": "AI safety is mostly a sex cult"
         }
       ],
       "content_ideas": []
@@ -346,13 +293,38 @@
       "content_ideas": []
     },
     {
+      "name": "AI-generated posters don’t have to be horrible",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+          "signal": "AI-generated posters don’t have to be horrible"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -360,8 +332,8 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -379,13 +351,35 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=iPwjmyCE2Do",
-          "signal": "Ganesh chaturthi Chat GPT girl Ai Photo Editing Prompt | Instagram Viral Bappa Gemini Prompt #ai"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI chatbots are becoming experts at changing people's minds",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+          "signal": "AI chatbots are becoming experts at changing people's minds"
         }
       ],
       "content_ideas": []
@@ -399,6 +393,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -436,13 +431,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wk8w2y/has_anyone_also_realize_chatgpt_is_saying_yes_to/",
-          "signal": "Has anyone also realize ChatGPT is saying yes to non-binary questions?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkcu6z/chatgpt_can_convert_conversation_from_chat_to_work/",
+          "signal": "ChatGPT can convert conversation from Chat to Work"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wjn7rx/having_chatgpt_help_me_navigate_my_employment/",
-          "signal": "Having ChatGPT help me navigate my employment situation has me feeling some kind of strange emotional attachment to it."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkdruf/weird_chatgpt_voice_mode_response/",
+          "signal": "weird chatgpt voice mode response"
         }
       ],
       "content_ideas": []
@@ -479,9 +474,7 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -489,8 +482,8 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -505,11 +498,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=na_m9zkdJGI",
           "signal": "BATALHA ENTRE CHATGPT E GEMINI! QUEM GANHOU?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=iPwjmyCE2Do",
-          "signal": "Ganesh chaturthi Chat GPT girl Ai Photo Editing Prompt | Instagram Viral Bappa Gemini Prompt #ai"
         },
         {
           "platform": "youtube",
