@@ -15,47 +15,47 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 4. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-5. **Major AI conference in Montreal explores if artificial intelligence can help tackle Canada's doctor shortage - montreal.citynews.ca** — science angle
-   https://news.google.com/rss/articles/CBMieEFVX3lxTE1ybS1DYl9VZU9YS1RFOURBeGFkNmNuLVVuR2ctaFpQeXBuZnpuM0hLczQ2SnQtSXBxY2VsX2E2TmE0eVpBdFZEdDlocFMxUXFDNnMtNzB4ZDl1Qm04eFJNdHo2NkNtbjhEYk5vVHVfOTJwdE5sSWg2eg?oc=5
-6. **Striking Allina doctors seek protections as AI plays growing role in patient care - kare11.com** — science angle
+5. **Striking Allina doctors seek protections as AI plays growing role in patient care - kare11.com** — science angle
    https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZDl2Y2hFckJMTWxmRTBweVA4THgxdHNxd0VTZDBvZnNjQm1tWTRGaTF0bjNnVFB2YUpMTURNaEd2b284QXdrUENLZ3k5UEF0UmJFa0M4NU1CVFIxcmMtc0tieV9ad2M1SHV5MWxVSTNJYkJZMlFjZ0h1OThLOERuSzFESGpTcEtVN3NiNEoycndOUU1iS0ZqS0tMWFBGS0RNM0lYbXo4Mi10MUlUbGZKWDBzRkoyNzl5elRfMEtHSHNSYkNnb0IyeEZVclkxOEpTSjJzcXBXQXFtekdEZ2hKbHQ0b2JIbnc?oc=5
-7. **The best medical AI won’t replace your doctor. It will finally give them time to be one - Washington Examiner** — science angle
+6. **The best medical AI won’t replace your doctor. It will finally give them time to be one - Washington Examiner** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3pYWHVuSW95ajdFbjRpYTRvdkxUSTgzMi1LUWM3RTUtRURWNWtFd2dUM0ZTMTh1Mmp2alJQMmZFTllHVUJ0U0pjU1hSTXVlNzBBb0V1RVdORmYteEFmVVpFLXZhWXlxMXcwRUk1VTdlZGJzRjJjUkN5LV9XNUdvbWdRWE5HSUF6TzdqWTdrT0pEajRubGlWR2g5ZDNscmF1WkZZ?oc=5
-8. **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — science angle
+7. **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVgtOHFkUm9fQ1hwSWFnRzM0eGVWRjFwQTBmWFBnMmkxaFZ5NUJITTg0UUNqTFd6V0E3MTJLQUlQd1BhQjZSQ0NEWTRaT1o3U2VsSm1YOWJNcGRYbi1qTDFTZjc4MVJXaG5xcE9DazBfUzUwX1BCOGdTbUNfanA4dTFXTQ?oc=5
+8. **Does that ad feature a real doctor or is it a deepfake scam? It's getting more difficult to tell, experts warn - CBC** — science angle
+   https://news.google.com/rss/articles/CBMidkFVX3lxTFBpOHNFWEhIV2xUUHVmOFJoZ2U5WHJmdFRhaF9jSHJaNm5mdF9PdUJQSzdDQ1BvWlFkeFYwVDBYTDNRbnUwVVRyU3p2c2E4eFdXRHBfRi1VQUlDdkd5d2tGMTQ3X3dwZEhsRUVxY2F4N3Z3ZlZLa2c?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 163
    https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5
-2. **Anthropic CEO Dario Amodei says AI industry needs to slow down for safety | National News | 2news.com - KTVN** — Dario Amodei News — Score 103
-   https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM244NXpGa2hjQmNjOFhBbG5BZHBlM1YwT0FQbzFaam1LRWhSbmYwNkVFc3Q0Q0dJSkJLU3JocUNaN256OHdMR3Q5akNvb3JyQWtMd2RXaWFmS2ptZlhWRHVVTWhOVFlPUHpoUk53T29DbTUwRWlONHphWTVrT2ZmUlRSZERSZGRaT0I5QV9Ld3Iyd25qOXowMkFzMUx2YUJSMVVqakxfUFB3X0txRlB0NXRLWWJrd2s4VjdxNWdNclkyUG9pdFI4M0k0Rndlc0FxYmoyNjVsQy1kMkpQRW56SU4wcUZnMERQMEJzcWd3?oc=5
-3. **Anthropic CEO Dario Amodei calls for AI development slowdown - Firstpost** — Dario Amodei News — Score 103
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0FyR3ZLMnlxUldwcnZPQm1ZNUVyOHhhcHVQdFBFcHVaMWtXQ1FzZlIxNFpHVTZ2LWtCWnktSGlCZnFBWXRFSjdxNXIyeF9IZWxOTDZxV01ObXBYbXFlWTVhbjNGUVFqTDMtSjhLSFk2X3U3STFiaXR5MFc3ajZVTzRmN2tfdzVaN3JaQlZfcVFWR2ctSjNNQUFqLTF2MXZfa19RQ2t4ZnTSAa4BQVVfeXFMTkVSV2NfdmxVREtocGdhTHY3cXZWYlV4U1NTOWt4dHBUd2loT09KZlRQZ3JTcGJQYXFSQloyM0l2alpoREtrcDFWSUVMdnhvY3BtUWw5UkcyT3p6elBSVTFTRHFzaUtwaWpvTC1BeHIyY2JmZll6Nmxsc0lNMWduUGhUS1lRdjZqQ3ZXd0JDQTNuS1lJNE9iS2dNV1pZYmp1SlJRNTFJMFFzQXV0V293?oc=5
-4. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 103
+2. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 103
    https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-growth-in-japac
-5. **Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - KTVN** — Dario Amodei News — Score 93
+3. **Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up - KTVN** — Dario Amodei News — Score 93
    https://news.google.com/rss/articles/CBMigAJBVV95cUxOY3ZuaHZCbGZRVHctOG5ubTQyaHlnNmx3eWhBZ0FGc2tUYU5PMXh1T1QyWFdlQ3FmVnRybFc4RExhMHowWDdSdnByakl5cGJFcDR4Yk5SbUM3dy1JcGlFNnBmMU5QenBvV3hQeXpWaFBWWHhtUzc3U0J4R1lmd1MtR3VWaDloajROMXFTeE1GZjhSNnY0d3BMdzV5WmR2UjZNNE1Rbk1wTUkwelRQMVpERVJWWlFraFNRd2M1eklJdmUyR0FoMDI5RDl0WG9acFQyR0tlWDJpM2RMa0hpcGpUeHJBWFM2SzFPdW12ZXJQc2RReUtqR20tUWwwMGxaQ0dk?oc=5
-6. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 93
+4. **Anthropic boss says AI industry needs to slow down for safety** — newsshopper_co_uk — Score 93
    https://www.newsshopper.co.uk/news/national/26545460.anthropic-boss-says-ai-industry-needs-slow-safety/
-7. **Trump dismisses new AI guardrails, says there is a ‘SICK conspiracy’ against AI and data centers** — sandiegouniontribune — Score 93
+5. **Trump dismisses new AI guardrails, says there is a ‘SICK conspiracy’ against AI and data centers** — sandiegouniontribune — Score 93
    https://www.sandiegouniontribune.com/2026/09/14/trump-dismisses-ai-guardrails/
-8. **Anthropic says its model Claude is helping to build the next version of itself - abcnews.com** — Anthropic News — Score 73
+6. **Anthropic says its model Claude is helping to build the next version of itself - abcnews.com** — Anthropic News — Score 73
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0RtTS1pM2xacndPR245b3dPT2JqaTFjcFJRbGtaZUhNcVV0WlY5dFVRZFBreWVhSGhheWM2Zk1GdHNYYW5mVWJkRzFsV3BPQzNneXpwb3NVODN4WUhzLWZxVWYzd0ZmZjYzYWxBUWg2WEprSEV2MV8yYTY3UGM4ejc0ay1aOVVWWC04U1B5OEvSAZYBQVVfeXFMTnVfLUdtelBwZ0dGMVRTTWdMMzJDY1lKQ3IxZW1mSzYwOXJyYnp0cGh2NXhiNmswM3FZQ183NkVQYnR4Tl9kZFNTcWZHOXEydV83YmlEZklDQXJHSy1URUs1VlJmU25xSFZUMlE3ZnBESHV5LXhkejE3QlBzZlZoMjc1QTZvNEJpdGNYd0RqN2FuZ1I2Y1B3?oc=5
-9. **Josh Shapiro wades into AI debate with call for ‘strict guardrails’** — kvia — Score 66
+7. **Josh Shapiro wades into AI debate with call for ‘strict guardrails’** — kvia — Score 66
    https://kvia.com/politics/cnn-us-politics/2026/09/17/josh-shapiro-wades-into-ai-debate-with-call-for-strict-guardrails/
-10. **Anthropic and OpenAI CEOs call for AI development to slow down - NPR** — Using AI To... — Score 63
+8. **Anthropic and OpenAI CEOs call for AI development to slow down - NPR** — Using AI To... — Score 63
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ2dEZVQ3TDM1QTVfdTlRQ09QSWhCWnN1ODIwQzdEUTJxTEpGLVI4Qlp0WnVfaTdEdHEyNHdQcWNoNS1FajdpaVU1WWtPcTZ1ZXJWYXBsRzlrZi1jaWZNdEY0S1MtZmQxSVRtdlZHOFV6aW54TUJHWEJDOExGY2l1V25LYmYtNUlic1B4MFNrUklaaVk?oc=5
+9. **Divisions emerge in the tech industry over calls for a coordinated AI slowdown - WPLG Local 10** — Demis Hassabis News — Score 63
+   https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZjBmQzlNSXZzWmZwWHpnZXFzWjZqX1VYdG9iRHJWNGtCZ2l2akJjWVctV28xN2NFOE9XbWQtQlFCUkNtRmtLQzl0LTl6NW9zQ1pKUTM3MWhQVmtlWHdObVlvUXhYcWRSWWx3OFhjcHRPNXY1WEZWMG42UENhVWFKRDAtTHJoMzhwUUhsX25iQUVqVldsY2t6eWY0ekMxMUJBeXluc2VmelZKRURROHZTa1dMeGlsTXloM2ZJ?oc=5
+10. **Anthropic boss Dario Amodei calls for AI development to slow down - bbc.com** — Anthropic News — Score 60
+   https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrRjBnT05YelZFQXM0ejVFa0VZUDdYWENTbHowbzJSVmxwZWFpWEw2NFh4NHpjU01Ubi1jM21FQjhfWl82Z3JsczNTQnFIVFpkOWQyTXhQVzlGZw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
-- **Major AI conference in Montreal explores if artificial intelligence can help tackle Canada's doctor shortage - montreal.citynews.ca** — https://news.google.com/rss/articles/CBMieEFVX3lxTE1ybS1DYl9VZU9YS1RFOURBeGFkNmNuLVVuR2ctaFpQeXBuZnpuM0hLczQ2SnQtSXBxY2VsX2E2TmE0eVpBdFZEdDlocFMxUXFDNnMtNzB4ZDl1Qm04eFJNdHo2NkNtbjhEYk5vVHVfOTJwdE5sSWg2eg?oc=5
 - **Striking Allina doctors seek protections as AI plays growing role in patient care - kare11.com** — https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZDl2Y2hFckJMTWxmRTBweVA4THgxdHNxd0VTZDBvZnNjQm1tWTRGaTF0bjNnVFB2YUpMTURNaEd2b284QXdrUENLZ3k5UEF0UmJFa0M4NU1CVFIxcmMtc0tieV9ad2M1SHV5MWxVSTNJYkJZMlFjZ0h1OThLOERuSzFESGpTcEtVN3NiNEoycndOUU1iS0ZqS0tMWFBGS0RNM0lYbXo4Mi10MUlUbGZKWDBzRkoyNzl5elRfMEtHSHNSYkNnb0IyeEZVclkxOEpTSjJzcXBXQXFtekdEZ2hKbHQ0b2JIbnc?oc=5
+- **The best medical AI won’t replace your doctor. It will finally give them time to be one - Washington Examiner** — https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3pYWHVuSW95ajdFbjRpYTRvdkxUSTgzMi1LUWM3RTUtRURWNWtFd2dUM0ZTMTh1Mmp2alJQMmZFTllHVUJ0U0pjU1hSTXVlNzBBb0V1RVdORmYteEFmVVpFLXZhWXlxMXcwRUk1VTdlZGJzRjJjUkN5LV9XNUdvbWdRWE5HSUF6TzdqWTdrT0pEajRubGlWR2g5ZDNscmF1WkZZ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3270
-- Most active topic: anthropic
+- Total stories tracked: 3241
+- Most active topic: openai
 - Busiest category: AI General News
 
 ---
