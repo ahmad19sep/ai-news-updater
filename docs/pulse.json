@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T04:56:39.089901+00:00",
+  "generated_at": "2026-09-20T11:28:33.236705+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -38,33 +38,6 @@
           "platform": "hackernews",
           "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
           "signal": "AI-generated posters don’t have to be horrible"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Microsoft exec called AI scraping 'the largest theft of labor in human",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-          "signal": "Microsoft exec called AI scraping 'the largest theft of labor in human history'"
         }
       ],
       "content_ideas": []
@@ -103,6 +76,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlec9y/chatgpt_sees_a_shirtless_man_behind_my_excel/",
+          "signal": "ChatGPT sees a shirtless man behind my excel spreadsheet…"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wkzf1h/i_hate_how_chatgpt_has_the_longest_responses_so_i/",
           "signal": "I hate how ChatGPT has the LONGEST responses so I added this"
         },
@@ -110,11 +88,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wky5rv/whats_the_most_profitable_thing_by_value_you_did/",
           "signal": "What’s the most profitable thing by $ value you did with ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wknbug/why_chatgpt_keeps_giving_options_unprompted/",
-          "signal": "Why ChatGPT keeps giving Options unprompted?"
         },
         {
           "platform": "youtube",
@@ -164,7 +137,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -217,33 +190,6 @@
       "content_ideas": []
     },
     {
-      "name": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-          "signal": "ZCode, the GLM coding agent, silently uploads your Git history"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI chatbots are becoming experts at changing people's minds",
       "category": "use_case",
       "momentum": "rising",
@@ -256,7 +202,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -352,6 +298,35 @@
       "content_ideas": []
     },
     {
+      "name": "Can you tell which images are AI-generated?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+          "signal": "Can you tell which images are AI-generated?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI Protest in Montreal",
       "category": "use_case",
       "momentum": "rising",
@@ -374,6 +349,33 @@
           "platform": "hackernews",
           "url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
           "signal": "AI Protest in Montreal"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI Safety Is Mostly a Sex Cult",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
+          "signal": "AI Safety Is Mostly a Sex Cult"
         }
       ],
       "content_ideas": []
@@ -414,6 +416,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlec9y/chatgpt_sees_a_shirtless_man_behind_my_excel/",
+          "signal": "ChatGPT sees a shirtless man behind my excel spreadsheet…"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wkzf1h/i_hate_how_chatgpt_has_the_longest_responses_so_i/",
           "signal": "I hate how ChatGPT has the LONGEST responses so I added this"
         },
@@ -421,11 +428,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wky5rv/whats_the_most_profitable_thing_by_value_you_did/",
           "signal": "What’s the most profitable thing by $ value you did with ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wknbug/why_chatgpt_keeps_giving_options_unprompted/",
-          "signal": "Why ChatGPT keeps giving Options unprompted?"
         },
         {
           "platform": "youtube",
@@ -478,7 +480,7 @@
     {
       "problem": "Researchers found a \"pain\" signal in AI brains. When they crank it up, the AIs desperately try to make it stop. They gave the AIs a \"relief\"",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
