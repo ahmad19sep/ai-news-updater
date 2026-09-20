@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:28:33.236705+00:00",
+  "generated_at": "2026-09-20T16:10:25.206038+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 26,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": null
@@ -55,7 +55,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 8,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -71,28 +71,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wl1ept/chatgpt_generated_porn_when_i_asked_for_ui_icons/",
-          "signal": "chatgpt generated porn when i asked for ui icons"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wlec9y/chatgpt_sees_a_shirtless_man_behind_my_excel/",
           "signal": "ChatGPT sees a shirtless man behind my excel spreadsheet…"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkzf1h/i_hate_how_chatgpt_has_the_longest_responses_so_i/",
-          "signal": "I hate how ChatGPT has the LONGEST responses so I added this"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlgze6/i_used_chatgpt_to_balance_my_budget_and_i_was_so/",
+          "signal": "I used ChatGPT to balance my budget and I was so amazed, I cant recommend it enough."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wky5rv/whats_the_most_profitable_thing_by_value_you_did/",
-          "signal": "What’s the most profitable thing by $ value you did with ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wl1ept/chatgpt_generated_porn_when_i_asked_for_ui_icons/",
+          "signal": "chatgpt generated porn when i asked for ui icons"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8XlWwznPHE",
-          "signal": "ChatGPT found Chappals (3D) by Professor of Ai"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wli0lq/what_did_chatgpt_help_you_fix_that_youd_been/",
+          "signal": "What did ChatGPT help you fix that you’d been putting up with for years?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkzf1h/i_hate_how_chatgpt_has_the_longest_responses_so_i/",
+          "signal": "I hate how ChatGPT has the LONGEST responses so I added this"
         }
       ],
       "content_ideas": []
@@ -152,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "AI and the Destruction of the Creative Commons",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+          "signal": "AI and the Destruction of the Creative Commons"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -190,7 +217,36 @@
       "content_ideas": []
     },
     {
-      "name": "AI chatbots are becoming experts at changing people's minds",
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "signal": "Qwen-Image-2.1: Compact, efficient, and unified image creation"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Microsoft director: AI scraping 'the largest theft of labor in human h",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -210,25 +266,27 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-          "signal": "AI chatbots are becoming experts at changing people's minds"
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+          "signal": "Microsoft director: AI scraping 'the largest theft of labor in human history'"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Microsoft director: AI scraping 'the largest theft of labor in human h",
+      "name": "Can you tell which images are AI-generated?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
@@ -237,8 +295,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-          "signal": "Microsoft director: AI scraping 'the largest theft of labor in human history'"
+          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+          "signal": "Can you tell which images are AI-generated?"
         }
       ],
       "content_ideas": []
@@ -271,7 +329,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI is an elite crime spree",
+      "name": "If AI coding is lowering your code quality, you're not managing qualit",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -291,64 +349,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
-          "signal": "AI is an elite crime spree"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Can you tell which images are AI-generated?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
-          "signal": "Can you tell which images are AI-generated?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI Protest in Montreal",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
-          "signal": "AI Protest in Montreal"
+          "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+          "signal": "If AI coding is lowering your code quality, you're not managing quality right"
         }
       ],
       "content_ideas": []
@@ -395,7 +397,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 8,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -411,28 +413,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wl1ept/chatgpt_generated_porn_when_i_asked_for_ui_icons/",
-          "signal": "chatgpt generated porn when i asked for ui icons"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wlec9y/chatgpt_sees_a_shirtless_man_behind_my_excel/",
           "signal": "ChatGPT sees a shirtless man behind my excel spreadsheet…"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkzf1h/i_hate_how_chatgpt_has_the_longest_responses_so_i/",
-          "signal": "I hate how ChatGPT has the LONGEST responses so I added this"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlgze6/i_used_chatgpt_to_balance_my_budget_and_i_was_so/",
+          "signal": "I used ChatGPT to balance my budget and I was so amazed, I cant recommend it enough."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wky5rv/whats_the_most_profitable_thing_by_value_you_did/",
-          "signal": "What’s the most profitable thing by $ value you did with ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wl1ept/chatgpt_generated_porn_when_i_asked_for_ui_icons/",
+          "signal": "chatgpt generated porn when i asked for ui icons"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8XlWwznPHE",
-          "signal": "ChatGPT found Chappals (3D) by Professor of Ai"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wli0lq/what_did_chatgpt_help_you_fix_that_youd_been/",
+          "signal": "What did ChatGPT help you fix that you’d been putting up with for years?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wkzf1h/i_hate_how_chatgpt_has_the_longest_responses_so_i/",
+          "signal": "I hate how ChatGPT has the LONGEST responses so I added this"
         }
       ],
       "content_ideas": []
@@ -474,9 +476,50 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "signal": "Qwen-Image-2.1: Compact, efficient, and unified image creation"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "We can't led those red fellows win",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlhyr1/we_cant_led_those_red_fellows_win/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Researchers found a \"pain\" signal in AI brains. When they crank it up, the AIs desperately try to make it stop. They gave the AIs a \"relief\"",
       "who_affected": "r/ChatGPT",
