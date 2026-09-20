@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 4. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-5. **The best medical AI won’t replace your doctor. It will finally give them time to be one - Washington Examiner** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3pYWHVuSW95ajdFbjRpYTRvdkxUSTgzMi1LUWM3RTUtRURWNWtFd2dUM0ZTMTh1Mmp2alJQMmZFTllHVUJ0U0pjU1hSTXVlNzBBb0V1RVdORmYteEFmVVpFLXZhWXlxMXcwRUk1VTdlZGJzRjJjUkN5LV9XNUdvbWdRWE5HSUF6TzdqWTdrT0pEajRubGlWR2g5ZDNscmF1WkZZ?oc=5
-6. **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — science angle
+5. **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — science angle
    https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVgtOHFkUm9fQ1hwSWFnRzM0eGVWRjFwQTBmWFBnMmkxaFZ5NUJITTg0UUNqTFd6V0E3MTJLQUlQd1BhQjZSQ0NEWTRaT1o3U2VsSm1YOWJNcGRYbi1qTDFTZjc4MVJXaG5xcE9DazBfUzUwX1BCOGdTbUNfanA4dTFXTQ?oc=5
-7. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
+6. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
    https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
-8. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
+7. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
    https://www.youtube.com/watch?v=WTnZ6W7qsLQ
+8. **How a Bay Area healthcare system is navigating AI by balancing tech upgrades and patient trust - The Mercury News** — science angle
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxQelBOVklLakJxTUlrN2J4VTlhaHdldFgzS3c5V2x1anhDaEhpeDZaX1JFc0UyeDZhbVNkbkl5QnRnTFZNaHZ2eENOdk9MaFhKbWx0Tk9ETVJIaDZrZHltMGNNSnMwMi0yN2pNRHdvdFZISm9UWnIyV05sZjhsbFkxTG9rSGRka25MWDd1dl9HUkRzXy1FUTF0MdIBngFBVV95cUxQYW01X251YV9DSHRaSU0xbUl4MzJuX2lCUFM5Z0pZYXNhdDBkZFcxWEFYS1FNU0xDa2dTemxkSzZ6eHhJeU9VZGpPb3kxbmN6SmloTjdpMlFyeFpXaGpzNHNpb3l3OWdxdG11Qk1rb2ZUaWt3ZlNwYkJ4ejd3WHp5Y2pSTzJ3c2QxRzFnUWs1YkZsemJCZzMwemNBb2xOdw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 163
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
-- **The best medical AI won’t replace your doctor. It will finally give them time to be one - Washington Examiner** — https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3pYWHVuSW95ajdFbjRpYTRvdkxUSTgzMi1LUWM3RTUtRURWNWtFd2dUM0ZTMTh1Mmp2alJQMmZFTllHVUJ0U0pjU1hSTXVlNzBBb0V1RVdORmYteEFmVVpFLXZhWXlxMXcwRUk1VTdlZGJzRjJjUkN5LV9XNUdvbWdRWE5HSUF6TzdqWTdrT0pEajRubGlWR2g5ZDNscmF1WkZZ?oc=5
 - **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVgtOHFkUm9fQ1hwSWFnRzM0eGVWRjFwQTBmWFBnMmkxaFZ5NUJITTg0UUNqTFd6V0E3MTJLQUlQd1BhQjZSQ0NEWTRaT1o3U2VsSm1YOWJNcGRYbi1qTDFTZjc4MVJXaG5xcE9DazBfUzUwX1BCOGdTbUNfanA4dTFXTQ?oc=5
+- **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — https://www.youtube.com/watch?v=WTnZ6W7qsLQ
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3234
+- Total stories tracked: 3257
 - Most active topic: openai
 - Busiest category: AI General News
 
