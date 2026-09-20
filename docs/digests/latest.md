@@ -15,8 +15,8 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 4. **AI researchers debate how close we are to recursive self-improvement** — 118 upvotes on Reddit/HN
    https://www.dwarkesh.com/p/john-beren-charlie
-5. **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — science angle
-   https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVgtOHFkUm9fQ1hwSWFnRzM0eGVWRjFwQTBmWFBnMmkxaFZ5NUJITTg0UUNqTFd6V0E3MTJLQUlQd1BhQjZSQ0NEWTRaT1o3U2VsSm1YOWJNcGRYbi1qTDFTZjc4MVJXaG5xcE9DazBfUzUwX1BCOGdTbUNfanA4dTFXTQ?oc=5
+5. **7 Ways AI Is Accelerating Cancer Cures—From A Doctor - Forbes** — science angle
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzNnRi1lY1V4V0Q2bU5KYzhiejE1UzFlNkRlam8tRmJWaTlDaFVjNHpaZlR1YzBldkdyNWhHWU1rNk1KeW1CcjFxenluRDFIZUFGN1FPSXZ1WnBzVWVnR0kycHkxQVk2WGRuYzgwdGY3dmMwQ3Zkdi1pT29VS2tyVmZpTXVmQTREWVpaeFl4clNneEZTME5BNGplSU40aDJFaFlBVWdtRQ?oc=5
 6. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
    https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
 7. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
@@ -27,7 +27,7 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 163
    https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5
-2. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 121
+2. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 131
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxSUpOQ20yM2RRbDZUZ2ZiU0oxdkFmd1dhN1dCZ0pPelZ2R1I2SDYwa0xHZGZxcUJ1VlAwRmtNY1hFak5zdHA0SWRxY3d2X0VUT0dZRmQteGg0MzdaMHBQU1d0d0VZam9Wc0VqS0QzYzdmeVBMc2tPSk9uYjBTQjl0NUVONEJGTEVxdVI3dFNBNmdWNlFoNkpGU053eUVvVXN6X0l5cV9LNkR5Wm8wV3EyY1hVTmt0eVhvMFdJaU5mRUNaQzF3c3VBbVM0Qg?oc=5
 3. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 103
    https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-growth-in-japac
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo News UK** — https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTG5YckVYbHdaMmQ0b1IycXBfcDhKYjJFYXZZYXR3RWZqOVZaOV90MTVNaXVjbE5jY3phdlpncjE2ZGVsNUM1Vy1pY2wzcTFkdVpIZGlHWm95SG9zWTcxd2YyeGJEZFRWa3RNWGMzdGZxVEN5Y2xrMFJUanBhdw?oc=5
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
-- **AI reads doctors' notes at scale, revealing data absent from coded medical records - Medical Xpress** — https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVgtOHFkUm9fQ1hwSWFnRzM0eGVWRjFwQTBmWFBnMmkxaFZ5NUJITTg0UUNqTFd6V0E3MTJLQUlQd1BhQjZSQ0NEWTRaT1o3U2VsSm1YOWJNcGRYbi1qTDFTZjc4MVJXaG5xcE9DazBfUzUwX1BCOGdTbUNfanA4dTFXTQ?oc=5
+- **7 Ways AI Is Accelerating Cancer Cures—From A Doctor - Forbes** — https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzNnRi1lY1V4V0Q2bU5KYzhiejE1UzFlNkRlam8tRmJWaTlDaFVjNHpaZlR1YzBldkdyNWhHWU1rNk1KeW1CcjFxenluRDFIZUFGN1FPSXZ1WnBzVWVnR0kycHkxQVk2WGRuYzgwdGY3dmMwQ3Zkdi1pT29VS2tyVmZpTXVmQTREWVpaeFl4clNneEZTME5BNGplSU40aDJFaFlBVWdtRQ?oc=5
 - **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — https://www.youtube.com/watch?v=WTnZ6W7qsLQ
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3257
+- Total stories tracked: 3274
 - Most active topic: openai
 - Busiest category: AI General News
 
