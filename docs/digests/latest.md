@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 13 Sep 2026 to 20 Sep 2026
+# 🗞️ AI THIS WEEK — 14 Sep 2026 to 21 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10**
@@ -19,15 +19,15 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
    https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
 6. **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxPTG9xLVhKdmV1YUVyd09IWmRzZTJaLUxvYzFQb1Zadi1HRUM5T3BjdnVLSlJsVXJQLUFKSThuMkdXaGt3c2M5T0F2ZklZanV1UWRNLWx6RkQ5UHdWYk45czlDT3VWcFpnWkNGLURGb05GTFhqcERwdVR6cG9uNnI2TWtYNUNUcVdxaDJab1cwaC1vZWgzaHZlcUtkOFpGc1hBUGRIeTRvTXdSX1lGZlE?oc=5
-7. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
+7. **What doctors need to know about AI psychosis - InSight+** — science angle
+   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMXNDU0p0dW5GVWNMNUlUR0tPQlJUd0IyNnMxOGluM3RIMlZGTHFGdzhQdGVwTDllRGFadUFZbk42SzYwU3gwLUVURUhsekFuUDA2YnRUTGo0bkhLbThiam54MU4zRkMtUTIydFRwT00xY0g5dTFDaEVSWDNLbmN3bGc5d19FUUlpZWhR?oc=5
+8. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
    https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
-8. **Will AI Replace Your Doctor? Dr. Zeke Emanuel and AMA President Dr. John Whyte** — 1 upvotes on Reddit/HN
-   https://www.youtube.com/watch?v=WTnZ6W7qsLQ
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 163
    https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5
-2. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 141
+2. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 161
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxSUpOQ20yM2RRbDZUZ2ZiU0oxdkFmd1dhN1dCZ0pPelZ2R1I2SDYwa0xHZGZxcUJ1VlAwRmtNY1hFak5zdHA0SWRxY3d2X0VUT0dZRmQteGg0MzdaMHBQU1d0d0VZam9Wc0VqS0QzYzdmeVBMc2tPSk9uYjBTQjl0NUVONEJGTEVxdVI3dFNBNmdWNlFoNkpGU053eUVvVXN6X0l5cV9LNkR5Wm8wV3EyY1hVTmt0eVhvMFdJaU5mRUNaQzF3c3VBbVM0Qg?oc=5
 3. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 103
    https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-growth-in-japac
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN
 - **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3236
+- Total stories tracked: 3216
 - Most active topic: openai
 - Busiest category: AI General News
 
