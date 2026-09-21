@@ -1,10 +1,11 @@
 """
 AI News Radar - Fetcher
 Downloads every RSS feed, applies the filters, and saves new items
-to the database. Also fetches Hugging Face trending papers (no RSS).
+to the database. Also fetches Hugging Face papers and public agent projects.
 """
 
 import html
+import os
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -137,6 +138,16 @@ def _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats):
         if not title or not link:
             continue
 
+        title_lower = title.lower()
+        required = feed_cfg.get("require_any") or []
+        excluded = feed_cfg.get("exclude_any") or []
+        if required and not any(term.lower() in title_lower for term in required):
+            stats["not_ai"] += 1
+            continue
+        if excluded and any(term.lower() in title_lower for term in excluded):
+            stats["junk"] += 1
+            continue
+
         published = _entry_published(entry)
         if _too_old(published, feed_cfg.get("max_age_days")):
             continue
@@ -147,6 +158,19 @@ def _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats):
             continue
         if not trusted and not filters.is_ai_related(title):
             stats["not_ai"] += 1
+            continue
+
+        if feed_cfg.get("agent_only"):
+            if database.url_exists(conn, link) or database.agent_discovery_exists(conn, link):
+                continue
+            upvotes, comments = _hn_engagement(entry) if is_hn else (0, 0)
+            database.add_agent_discovery(
+                conn, title, link, name,
+                published.isoformat() if published else None,
+                _entry_summary(entry), upvotes,
+            )
+            new_count += 1
+            stats["new"] += 1
             continue
         if database.url_exists(conn, link):
             continue
@@ -305,6 +329,152 @@ def fetch_hf_papers(conn, existing, stats):
         print(f"  [+] HF Trending Papers: {new_count} new")
 
 
+def _api_datetime(value):
+    """Parse the ISO timestamps used by GitHub and Hugging Face APIs."""
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+
+
+def _hf_space_story(space):
+    """Normalize one public Hugging Face Space into an item-shaped dict."""
+    if not isinstance(space, dict) or space.get("private"):
+        return None
+    repo_id = str(space.get("id") or "").strip()
+    card = space.get("cardData") if isinstance(space.get("cardData"), dict) else {}
+    display = str(card.get("title") or (repo_id.split("/", 1)[-1] if repo_id else "")).strip()
+    description = str(card.get("short_description") or "").strip()
+    tags = [str(x) for x in (space.get("tags") or []) if x]
+    blob = " ".join([repo_id, display, description] + tags).lower()
+    if not repo_id or not any(term in blob for term in (
+            "agent", "assistant", "automation", "workflow", "rag", "mcp")):
+        return None
+    author = str(space.get("author") or repo_id.split("/", 1)[0]).strip()
+    likes = int(space.get("likes") or 0)
+    sdk = str(space.get("sdk") or card.get("sdk") or "unknown")
+    facts = [f"Public Hugging Face Space by {author}."]
+    if description:
+        facts.append(f"Description: {description}.")
+    facts.append(f"SDK: {sdk}. Likes: {likes}.")
+    if tags:
+        facts.append("Tags: " + ", ".join(tags[:10]) + ".")
+    return {
+        "title": f"{display} - agent demo by {author}",
+        "url": "https://huggingface.co/spaces/" + repo_id,
+        "published": _api_datetime(space.get("createdAt")),
+        "summary": " ".join(facts)[:700],
+        "upvotes": likes,
+    }
+
+
+def _github_repo_story(repo):
+    """Normalize one public GitHub agent repository into an item-shaped dict."""
+    if not isinstance(repo, dict) or repo.get("private") or repo.get("fork") or repo.get("archived"):
+        return None
+    full_name = str(repo.get("full_name") or "").strip()
+    url = str(repo.get("html_url") or "").strip()
+    if not full_name or not url:
+        return None
+    description = str(repo.get("description") or "Open-source AI agent project").strip()
+    stars = int(repo.get("stargazers_count") or 0)
+    language = str(repo.get("language") or "unknown")
+    topics = [str(x) for x in (repo.get("topics") or []) if x]
+    summary = (
+        f"Open-source repository. Description: {description}. "
+        f"Language: {language}. Stars: {stars}."
+    )
+    if topics:
+        summary += " Topics: " + ", ".join(topics[:10]) + "."
+    return {
+        "title": f"{full_name}: {description}",
+        "url": url,
+        "published": _api_datetime(repo.get("created_at")),
+        "summary": summary[:700],
+        "upvotes": stars,
+    }
+
+
+def _save_discovery_stories(conn, existing, stats, source, stories, max_age_days=30):
+    """Save normalized public-project discoveries using the normal de-dupe rules."""
+    new_count = 0
+    for story in stories:
+        if not story or _too_old(story.get("published"), max_age_days):
+            continue
+        title, link = story["title"], story["url"]
+        if database.url_exists(conn, link) or database.agent_discovery_exists(conn, link):
+            continue
+        dup_id = filters.find_duplicate(title, existing)
+        if dup_id is not None:
+            stats["grouped"] += 1
+            continue
+        database.add_agent_discovery(
+            conn, title, link, source,
+            story["published"].isoformat() if story.get("published") else None,
+            story.get("summary", ""), story.get("upvotes", 0),
+        )
+        stats["new"] += 1
+        new_count += 1
+    conn.commit()
+    if new_count:
+        print(f"  [+] {source}: {new_count} new")
+
+
+def fetch_hf_agent_spaces(conn, existing, stats):
+    """Discover fresh, runnable agent demos from the public HF Spaces API."""
+    source = "Hugging Face Agent Spaces"
+    try:
+        resp = requests.get("https://huggingface.co/api/spaces", params={
+            "search": "agent", "sort": "trendingScore", "direction": "-1",
+            "limit": 30, "full": "true",
+        }, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        if not isinstance(data, list):
+            raise ValueError("unexpected response")
+    except Exception as e:
+        print(f"  [!] {source}: failed ({type(e).__name__})")
+        stats["failed_feeds"].append(source)
+        return
+    _save_discovery_stories(
+        conn, existing, stats, source,
+        [_hf_space_story(space) for space in data],
+    )
+
+
+def fetch_github_agent_repos(conn, existing, stats):
+    """Discover recent open-source agent builds from GitHub repository search."""
+    source = "GitHub Agent Builds"
+    since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
+    headers = dict(HEADERS)
+    headers.update({
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    })
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if token:
+        headers["Authorization"] = "Bearer " + token
+    try:
+        resp = requests.get("https://api.github.com/search/repositories", params={
+            "q": f"topic:ai-agents created:>={since} stars:>=3",
+            "sort": "stars", "order": "desc", "per_page": 20,
+        }, headers=headers, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json().get("items") or []
+        if not isinstance(data, list):
+            raise ValueError("unexpected response")
+    except Exception as e:
+        print(f"  [!] {source}: failed ({type(e).__name__})")
+        stats["failed_feeds"].append(source)
+        return
+    _save_discovery_stories(
+        conn, existing, stats, source,
+        [_github_repo_story(repo) for repo in data],
+    )
+
+
 def run_fetch():
     """One full fetch cycle over all sources. Returns the stats dict."""
     conn = database.connect()
@@ -313,7 +483,7 @@ def run_fetch():
     stats = {"new": 0, "grouped": 0, "junk": 0, "not_ai": 0,
              "failed_feeds": [], "alerts": []}
 
-    print(f"Fetching {len(config.FEEDS)} feeds in parallel (x{MAX_WORKERS}) + HF papers + NewsData ...")
+    print(f"Fetching {len(config.FEEDS)} feeds in parallel (x{MAX_WORKERS}) + project discovery + NewsData ...")
     t0 = time.time()
     # 1) download + parse every feed concurrently (network-bound, no DB here)
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
@@ -326,6 +496,8 @@ def run_fetch():
         _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats)
     print(f"  Feeds fetched in {time.time() - t0:.0f}s")
     fetch_hf_papers(conn, existing, stats)
+    fetch_hf_agent_spaces(conn, existing, stats)
+    fetch_github_agent_repos(conn, existing, stats)
     fetch_newsdata(conn, existing, stats)
 
     # --- Summary ---
@@ -342,10 +514,17 @@ def run_fetch():
         print(f"  {cname}: {by_cat.get(num, 0)} in last 24h")
     # --- Auto-delete old news (retention) ---
     purged = database.purge_old(conn, getattr(config, "NEWS_RETENTION_DAYS", 7))
+    purged_agents = database.purge_agent_discoveries(
+        conn, getattr(config, "NEWS_RETENTION_DAYS", 7)
+    )
     if purged:
         print(f"  Purged {purged} story(ies) older than "
               f"{getattr(config, 'NEWS_RETENTION_DAYS', 7)} days")
+    if purged_agents:
+        print(f"  Purged {purged_agents} Agent discovery item(s) older than "
+              f"{getattr(config, 'NEWS_RETENTION_DAYS', 7)} days")
     stats["purged"] = purged
+    stats["purged_agents"] = purged_agents
 
     print(f"  Total stories in archive: {database.total_count(conn)}")
     print("=" * 52)

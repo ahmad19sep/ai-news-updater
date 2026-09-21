@@ -213,6 +213,7 @@ Distinguish source fact, vendor/customer claim, interpretation, and proposed exp
 Model proposes; system authorizes. Do not infer autonomy just because the word agent appears. Make the autonomy boundary visible: what the model proposes vs what deterministic code, policy, permissions, tests, or a human authorizes.
 RAG is not obsolete. If retrieval, grounding, citations, freshness, or external knowledge matter, describe that as context engineering inside the broader system.
 AGI or capability claims must stay attributed and qualified. Never add an AGI percentage, countdown, or predicted arrival year.
+For practical and business analysis, separate an observable implementation from a proposed pattern. Never invent customers, revenue, pricing, ROI, adoption, deployment scale, or a business model. If the evidence is only a demo or repository, say that plainly.
 If the supplied facts do not establish enough to explain the item, return [[STATUS]] needs_input and ask for the specific missing evidence.
 
 STORY: <<STORY HEADLINE>>
@@ -281,6 +282,36 @@ what to study next
 
 [[EXPERIMENT]]
 small experiment to run; do not describe it as already completed
+
+[[PRACTICAL_TASK]]
+the concrete job the agent or automation performs, or unknown
+
+[[USER_BUYER]]
+actual user and economic buyer if evidenced; otherwise unknown
+
+[[STACK_TOOLS]]
+models, frameworks, tools, data stores, channels, and infrastructure explicitly evidenced
+
+[[WORKFLOW]]
+trigger -> inputs/context -> model decision -> tools/actions -> verification -> handoff/stop
+
+[[HUMAN_APPROVALS]]
+where a person reviews, authorizes, corrects, or takes over
+
+[[BUSINESS_MODEL]]
+service | subscription | usage | license | internal cost saving | marketplace | open source | unknown
+
+[[GO_TO_MARKET]]
+how users/customers are reached or sold to, strictly from evidence; otherwise unknown
+
+[[PROOF_OF_USE]]
+demo, repository, named deployment, customer evidence, measured outcome, or none supplied
+
+[[BUSINESS_CAVEATS]]
+- missing pricing, customer, margin, reliability, security, or adoption evidence
+
+[[BUILD_TEST]]
+small practical version the operator could build to test the task and approval boundary
 
 [[CONTENT_QUESTION]]
 professional question this could answer
@@ -514,7 +545,7 @@ THE POST:
 HEADLINE TO RENDER ON THE IMAGE (word for word, spelled exactly): <<HEADLINE ON THE IMAGE>>
 
 YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
-THE STUDIO HAS ASSIGNED THIS POST TO: ELIF — geometric modernist: diagonal splits, big circles, bold shapes framing the photo.
+THE STUDIO HAS ASSIGNED THIS POST TO: PRIYA — newspaper heritage: column rules, serif headlines, ink-on-paper texture, modernized.
 Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
 THE FULL ROSTER (context for who they are):
 1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.
@@ -636,7 +667,7 @@ OUTPUT EXACTLY:
 
 ```text
 YOU RUN A STUDIO OF 20 WORLD-CLASS GRAPHIC DESIGNERS, each with their own mind, taste and signature.
-THE STUDIO HAS ASSIGNED THIS POST TO: PRIYA — newspaper heritage: column rules, serif headlines, ink-on-paper texture, modernized.
+THE STUDIO HAS ASSIGNED THIS POST TO: MARCO — collage punk: torn paper edges, tape, highlighter scribbles — controlled chaos.
 Design ENTIRELY through this designer's eyes — their layout instincts, their type choices, their color feelings. Start your output with [DESIGNER: name]. Only hand it to a different roster member if this designer's style truly cannot serve the story (then say why in one line).
 THE FULL ROSTER (context for who they are):
 1. MARA — Swiss minimalist: huge type, strict grid, one color only, massive whitespace.

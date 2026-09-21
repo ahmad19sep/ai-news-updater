@@ -66,12 +66,14 @@ new Function("window", tpl)(win);
     facts: "The runtime requires explicit approval before file writes."
   });
   ["[[STATUS]]", "[[WHAT_CHANGED]]", "[[AGENT_LOOP]]", "[[AUTONOMY_BOUNDARY]]",
-    "[[VERIFIED_FACTS]]", "[[CONTENT_READINESS]]", "[[PRIVATE_REVIEW_NOTES]]", "[[END]]"]
+    "[[VERIFIED_FACTS]]", "[[PRACTICAL_TASK]]", "[[USER_BUYER]]", "[[BUSINESS_MODEL]]",
+    "[[PROOF_OF_USE]]", "[[BUILD_TEST]]", "[[CONTENT_READINESS]]", "[[PRIVATE_REVIEW_NOTES]]", "[[END]]"]
     .forEach(m => { if (!p.includes(m)) fail("agent brief marker missing: " + m); });
   if (!/Use ONLY the supplied source facts/.test(p)) fail("agent brief lost the evidence-only rule");
   if (!/Do not pretend you opened the URL/.test(p)) fail("agent brief can imply fake browsing");
   if (!/Model proposes; system authorizes/i.test(p)) fail("agent brief lost autonomy-boundary framing");
   if (!/needs_input/.test(p)) fail("agent brief no longer supports needs_input");
+  if (!/Never invent customers, revenue, pricing, ROI/.test(p)) fail("agent brief lost business-evidence guardrails");
   ok("Agent & AI brief prompt: evidence-only marker contract");
 }
 

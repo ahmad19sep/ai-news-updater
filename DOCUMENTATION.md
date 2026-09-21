@@ -94,26 +94,35 @@ A bank of proven content formats plus today's top news rewritten into useful ang
 Personal-brand posters: the operator's own face presents the news. The face comes from a real photo — never AI-generated.
 
 ### 🤖 Agents & AI
-A focused research/learning radar for modern AI engineering: model releases,
-agent loops, RAG/context, real-world agents, evaluations/safety and AGI-watch
-signals. It reuses existing collected stories and adds deterministic metadata
-only; it does not change the original News category or fetch pages in the browser.
+A research and operator radar for modern AI engineering and practical agent
+businesses. Four views separate all intelligence, things people built and shipped,
+agents running in businesses, and people selling agents. It combines the normal
+news archive with public GitHub agent repositories, runnable Hugging Face Spaces,
+Show HN projects, DEV builder posts, customer workflows and agent-business searches.
+These discoveries use public feeds/APIs and do not need a paid data service.
+They are stored in `agent_discoveries`, separate from ordinary `items`, and are
+only emitted into the private Studio's Agent feed. They never enter public news,
+alerts, rankings, trends or digests.
 
-Discovery cards show title, source, source publication date, topic tags, source
-type hints, learning state and evidence-brief status. The section keeps
+Discovery cards show title, source, source publication date, engineering and
+practical tags, source type hints, learning state and evidence-brief status. The section keeps
 `published` separate from `collected`, so a story found today is not relabelled
 as a release from today.
 
-The evidence brief flow is no-API by default: paste source facts/notes, copy the
-research prompt, paste the marker response back, then save the normalized brief.
+The evidence brief flow is no-model-API by default: paste source facts/notes, copy
+the research prompt, paste the marker response back, then save the normalized
+brief. It records both the technical system and the practical teardown: task,
+user/buyer, stack, workflow, human approvals, business model, distribution,
+proof of use, business caveats and a small version worth building.
 Raw pasted source text stays in the local form and is not synced by default.
 Saved/learning state and parsed briefs ride through the existing convenience
 board sync as `agentLearning` and `agentBriefs`; this is useful cross-device
 state, not private secure storage.
 
-A content-ready brief can hand verified facts into the existing LinkedIn draft
-modal. It does not post, does not mark the story done, and does not fabricate a
-firsthand experiment claim.
+A content-ready brief can hand verified facts into the existing LinkedIn writer,
+which already returns a post and optional image prompt, or into the existing X
+writer and assisted/API posting flow. Opening a writer does not mark the story
+done and never fabricates a firsthand experiment claim.
 
 ### 📈 Trends / Pulse / Research
 Rising topic signals week-over-week; what people are using, searching and struggling with (Pulse, from Reddit / HN / YouTube / Google); and daily AI papers for learning. Pulse *reads* those platforms as signal sources — reading a platform is not publishing to it.
@@ -168,10 +177,10 @@ Rising topic signals week-over-week; what people are using, searching and strugg
 
 | Path | Purpose |
 |---|---|
-| `fetcher.py`, `filters.py`, `scoring.py`, `config.py`, `database.py` | hourly collection, filtering, de-dup, scoring, retention |
+| `fetcher.py`, `filters.py`, `scoring.py`, `config.py`, `database.py` | hourly news plus isolated Agent discovery, filtering, de-dup, scoring, retention |
 | `main.py`, `notifier.py`, `digest.py` | run loop, phone alerts, weekly digest |
 | `generate_site.py` | builds the Studio (`docs/studio.html`) |
-| `agent_ai_radar.py`, `test_agent_ai_radar.py` | Agent & AI deterministic classifier and tests |
+| `agent_ai_radar.py`, `test_agent_ai_radar.py`, `test_agent_discovery.py` | Agent & AI classifier, practical tracks, public-project discovery tests |
 | `generate_public.py` | builds the public site (`docs/index.html`) |
 | `docs/templates.js` | **ALL prompt engineering** — authored source; `docs/studio.html` is generated |
 | `dump_prompts.js` | regenerates `PROMPTS.md` from `docs/templates.js` |

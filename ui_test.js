@@ -94,6 +94,26 @@ The model proposes a file write; policy or a human approves it.
 Study tool authorization and idempotent side effects.
 [[EXPERIMENT]]
 Build a toy agent that must request approval before writing a file.
+[[PRACTICAL_TASK]]
+Review a proposed file write before execution.
+[[USER_BUYER]]
+Engineering teams adopting coding agents.
+[[STACK_TOOLS]]
+Agent runtime, policy checks, and a file-writing tool.
+[[WORKFLOW]]
+Request -> proposed write -> policy check -> human approval -> execution.
+[[HUMAN_APPROVALS]]
+A person approves the file write.
+[[BUSINESS_MODEL]]
+unknown
+[[GO_TO_MARKET]]
+unknown
+[[PROOF_OF_USE]]
+Official preview announcement; no customer deployment supplied.
+[[BUSINESS_CAVEATS]]
+- No pricing, customer, or measured outcome was supplied.
+[[BUILD_TEST]]
+Build a file agent that blocks every write until approval.
 [[CONTENT_QUESTION]]
 What should an AI agent be allowed to change without asking?
 [[EXPLANATORY_ANGLE]]
@@ -140,17 +160,20 @@ function runChecks() {
         pub: "2026-09-01T00:00:00+00:00", col: "2026-09-02T00:00:00+00:00",
         sm: "", sc: 1, links: [], primary: "agent_loops",
         topics: ["agent_loops", "eval_safety"], secondary: ["tool calling"],
+        practical: ["built", "operations"],
         sourceType: "official" });
     }
     w.switchTab("agents");
     if (d.getElementById("tab-agents").hidden) throw new Error("agents tab stayed hidden");
     if (!d.getElementById("agent-topicbar").textContent.includes("Agent Loops"))
       throw new Error("topic filters missing");
+    if (!d.getElementById("agent-modebar").textContent.includes("Built & shipped"))
+      throw new Error("practical views missing");
     if (!d.getElementById("tab-agents").textContent.includes("Model proposes"))
       throw new Error("agent-loop explainer missing");
   });
 
-  check("Agent brief parses, saves, and hands verified facts to LinkedIn without posting", () => {
+  check("Agent brief parses, shows a practical teardown, and hands facts to LinkedIn/X", () => {
     const it = (w.__AGENT_ITEMS || [])[0];
     if (!it || !it.ak) throw new Error("no agent item available");
     const wasDone = w.__doneSet.has(it.u);
@@ -163,6 +186,9 @@ function runChecks() {
     w.agentValidateBrief();
     const saved = JSON.parse(w.localStorage.getItem("agentBriefs") || "{}")[it.ak];
     if (!saved || saved.contentReadiness !== "ready") throw new Error("brief was not saved as ready");
+    w.agentSetView("practical");
+    if (!d.getElementById("agent-view-body").textContent.includes("Review a proposed file write"))
+      throw new Error("practical teardown not shown");
     w.agentSetView("content");
     if (!d.getElementById("agent-view-body").textContent.includes("Ready to draft"))
       throw new Error("content readiness not shown");
@@ -173,6 +199,12 @@ function runChecks() {
     if (d.getElementById("nr-note").value && d.getElementById("nr-note").value.includes("tested"))
       throw new Error("handoff fabricated a firsthand note");
     if (w.__doneSet.has(it.u) !== wasDone) throw new Error("Agent handoff changed done/posted state");
+    w.closeNewsroom();
+    w.agentUseX(it.ak);
+    if (d.getElementById("xmodal").hidden) throw new Error("X writer did not open");
+    if (!w.xPayload().prompt.includes("File writes require explicit approval"))
+      throw new Error("X writer did not receive verified facts");
+    w.closeXModal();
     w.agentClose();
   });
 

@@ -296,6 +296,13 @@ PAGE = r"""<!doctype html>
           border-radius:999px; padding:5px 10px; font:700 11px var(--mono); }
   .agent-path ol { margin:8px 0 0; padding-left:19px; }
   .agent-path li { margin:3px 0; font-size:12.5px; color:var(--dim); }
+  .agent-modebar { display:flex; gap:6px; overflow-x:auto; margin:18px 0 6px;
+          padding-bottom:3px; scrollbar-width:none; }
+  .agent-modebar::-webkit-scrollbar { display:none; }
+  .agent-modebar button { flex:0 0 auto; background:var(--surface); color:var(--dim);
+          border:1px solid var(--line); border-radius:7px; padding:9px 13px;
+          font:600 12.5px Inter; cursor:pointer; }
+  .agent-modebar button.active { background:var(--text); border-color:var(--text); color:#fff; }
   .agent-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:10px; }
   .agent-card { cursor:default; }
   .agent-title { font-size:14.5px; font-weight:700; line-height:1.38; margin:0 0 8px; }
@@ -303,6 +310,9 @@ PAGE = r"""<!doctype html>
           border-radius:999px; padding:2px 9px; font:700 10.5px var(--mono); }
   .agent-status.ready { background:var(--green-soft); color:var(--green); }
   .agent-status.need { background:var(--gold-soft); color:var(--gold); }
+  .agent-practical { background:var(--blue-soft); color:var(--blue); border-color:#bfd3e5; }
+  .agent-summary { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical;
+          overflow:hidden; margin:8px 0 0; color:var(--dim); font-size:12.5px; }
   .agent-actions { display:flex; flex-wrap:wrap; gap:6px; margin-top:11px; }
   .agent-actions .ghost, .agent-actions .btn { padding:7px 12px; font-size:12px; min-height:34px; }
   .agent-modal-tabs { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 12px; }
@@ -679,8 +689,8 @@ PAGE = r"""<!doctype html>
   </section>
 
   <section id="tab-agents" hidden>
-    <p class="note">Agent &amp; AI Radar tracks model shifts, agent engineering, RAG/context, real-world systems,
-      evaluations, and AGI signals for learning first and evidence-backed LinkedIn content second.</p>
+    <p class="note">Track what people are building, how agents run inside real businesses, how they are sold,
+      and the model, RAG, orchestration, evaluation, and safety work underneath them.</p>
     <div class="agent-hero">
       <div class="agent-loop">
         <h3>Agent Loop - the mental model</h3>
@@ -701,7 +711,8 @@ PAGE = r"""<!doctype html>
         </ol>
       </div>
     </div>
-    <div class="search"><input id="agent-q" placeholder="Search models, agent loops, RAG, MCP, evals..."></div>
+    <div class="agent-modebar" id="agent-modebar"></div>
+    <div class="search"><input id="agent-q" placeholder="Search tasks, builders, buyers, workflows, pricing, models, RAG..."></div>
     <div class="bar" id="agent-topicbar"></div>
     <div class="bar" id="agent-timebar"></div>
     <div class="bar" id="agent-userbar"></div>
@@ -1486,12 +1497,16 @@ const AGENT_TOPICS = [
   ["all", "All"], ["models", "Models"], ["agent_loops", "Agent Loops"],
   ["rag_context", "RAG & Context"], ["real_world_agents", "Real-world Agents"],
   ["eval_safety", "Eval & Safety"], ["agi_watch", "AGI Watch"]];
+const AGENT_MODES = [
+  ["all", "All intelligence"], ["built", "Built & shipped"],
+  ["operations", "Running in business"], ["selling", "Selling agents"]];
 const AGENT_TIMES = [["7", "7 days"], ["30", "30 days"], ["all", "All available"]];
 const AGENT_USERS = [["all", "All"], ["saved", "Saved"], ["studying", "Studying"], ["ready", "Content-ready"]];
 const AGENT_STATUS = [["unread", "Unread"], ["read", "Read"], ["studying", "Studying"], ["understood", "Understood"], ["tested", "Tested"]];
-let agentTopic = "all", agentTime = "7", agentUser = "all", agentQ = "", agentStory = null, agentView = "learn";
+let agentMode = "all", agentTopic = "all", agentTime = "7", agentUser = "all", agentQ = "", agentStory = null, agentView = "learn";
 let agentDraftFacts = {};
 function agentTopicName(k) { return (AGENT_TOPICS.find(x => x[0] === k) || ["", k || "Unknown"])[1]; }
+function agentPracticeName(k) { return (AGENT_MODES.find(x => x[0] === k) || ["", k || "Practical"])[1]; }
 function agentState(k) {
   const s = agentLearning[k] || {};
   return { saved: !!s.saved, status: s.status || "unread", updatedAt: s.updatedAt || "" };
@@ -1528,13 +1543,15 @@ function agentBriefStatus(it) {
 function agentSearchBlob(it) {
   const b = agentBrief(it.ak) || {};
   return [it.t, it.s, it.primary, (it.topics || []).join(" "), (it.secondary || []).join(" "),
-    it.sm, b.modelProductVersion, b.whatChanged, b.howItWorks, b.contentQuestion].join(" ").toLowerCase();
+    (it.practical || []).join(" "), it.sm, b.modelProductVersion, b.whatChanged, b.howItWorks,
+    b.practicalTask, b.userBuyer, b.businessModel, b.goToMarket, b.contentQuestion].join(" ").toLowerCase();
 }
 function agentFiltered() {
   const needle = agentQ.toLowerCase();
   return AGENT_ITEMS.filter(it => {
     const st = agentState(it.ak), b = agentBrief(it.ak);
-    return (agentTopic === "all" || (it.topics || []).includes(agentTopic)) &&
+    return (agentMode === "all" || (it.practical || []).includes(agentMode)) &&
+      (agentTopic === "all" || (it.topics || []).includes(agentTopic)) &&
       agentTimePass(it) &&
       (agentUser === "all" || (agentUser === "saved" && st.saved) ||
         (agentUser === "studying" && st.status === "studying") ||
@@ -1562,39 +1579,44 @@ function agentSetStatus(v) {
 }
 function makeAgentCard(it) {
   const d = document.createElement("div");
-  const st = agentState(it.ak), bs = agentBriefStatus(it);
+  const st = agentState(it.ak), bs = agentBriefStatus(it), b = agentBrief(it.ak);
+  const ready = b && b.status === "ready" && b.contentReadiness === "ready";
   d.className = "card agent-card";
   d.innerHTML =
     '<div class="agent-title">' + esc(it.t) + '</div>' +
     '<div class="meta"><span class="pill">' + esc(agentTopicName(it.primary)) + '</span>' +
+    (it.practical || []).map(x => '<span class="agent-status agent-practical">' + esc(agentPracticeName(x)) + '</span>').join("") +
     (it.secondary || []).slice(0, 3).map(x => '<span class="pill">' + esc(x) + '</span>').join("") +
     '<span>' + esc(it.s || "Unknown source") + '</span><span>' + esc(agentDate(it.pub)) + '</span>' +
     '<span class="agent-status ' + bs[1] + '">' + esc(bs[0]) + '</span>' +
     '<span class="agent-status">' + esc(st.saved ? "Saved" : st.status) + '</span></div>' +
     '<div class="note" style="margin:8px 0 0">Source type: ' + esc(it.sourceType || "unknown") +
     (it.sm ? ' · Feed facts available' : ' · Discovery metadata only') + '</div>' +
+    (it.sm ? '<div class="agent-summary">' + esc(it.sm) + '</div>' : '') +
     '<div class="agent-actions"><button class="ghost src">Open source</button>' +
-    '<button class="btn learn">Learn / Build brief</button>' +
+    '<button class="btn learn">Brief / teardown</button>' +
     '<button class="ghost save">' + (st.saved ? "Saved ✓" : "Save") + '</button>' +
-    (agentBrief(it.ak) ? '<button class="ghost view">View brief</button>' : '') +
-    (agentBrief(it.ak) && agentBrief(it.ak).contentReadiness === "ready" ? '<button class="ghost li">Use for LinkedIn</button>' : '') +
+    (b ? '<button class="ghost view">View brief</button>' : '') +
+    (ready ? '<button class="ghost li">LinkedIn + visual</button><button class="ghost x">Write for X</button>' : '') +
     '</div>';
   d.querySelector(".src").onclick = () => window.open(it.u, "_blank", "noopener");
   d.querySelector(".learn").onclick = () => agentOpen(it.ak);
   d.querySelector(".save").onclick = () => agentToggleSave(it.ak);
   const vb = d.querySelector(".view"); if (vb) vb.onclick = () => agentOpen(it.ak);
   const lb = d.querySelector(".li"); if (lb) lb.onclick = () => agentUseLinkedIn(it.ak);
+  const xb = d.querySelector(".x"); if (xb) xb.onclick = () => agentUseX(it.ak);
   return d;
 }
 function renderAgents() {
   const qin = document.getElementById("agent-q"); if (!qin) return;
   qin.value = agentQ;
   qin.oninput = e => { agentQ = e.target.value.trim(); renderAgents(); };
+  agentBar(document.getElementById("agent-modebar"), AGENT_MODES, agentMode, v => agentMode = v);
   agentBar(document.getElementById("agent-topicbar"), AGENT_TOPICS, agentTopic, v => agentTopic = v);
   agentBar(document.getElementById("agent-timebar"), AGENT_TIMES, agentTime, v => agentTime = v);
   agentBar(document.getElementById("agent-userbar"), AGENT_USERS, agentUser, v => agentUser = v);
   const items = agentFiltered();
-  document.getElementById("agent-count").textContent = items.length + " Agent & AI item" + (items.length === 1 ? "" : "s") +
+  document.getElementById("agent-count").textContent = items.length + " " + agentPracticeName(agentMode) + " item" + (items.length === 1 ? "" : "s") +
     " · source publication dates stay separate from collection time";
   const list = document.getElementById("agent-list");
   list.innerHTML = "";
@@ -1641,7 +1663,21 @@ function agentViewHtml(it, b) {
       '<div class="agent-field"><b>Must not claim</b>' + agentList(b.mustNotClaim) + '</div>' +
       agentField("Readiness", agentReadinessLabel(b.contentReadiness)) +
       '<div class="agent-actions"><button class="btn" onclick="agentUseLinkedIn(\'' + it.ak + '\')" ' +
-        (b.contentReadiness === "ready" ? "" : "disabled") + '>Use for LinkedIn</button></div>';
+        (b.contentReadiness === "ready" ? "" : "disabled") + '>LinkedIn + visual</button>' +
+      '<button class="ghost" onclick="agentUseX(\'' + it.ak + '\')" ' +
+        (b.contentReadiness === "ready" ? "" : "disabled") + '>Write for X</button></div>';
+  }
+  if (agentView === "practical") {
+    return agentField("Task / outcome", b.practicalTask) +
+      agentField("User / buyer", b.userBuyer) +
+      agentField("Stack / tools", b.stackTools) +
+      agentField("Working workflow", b.workflow) +
+      agentField("Human approvals", b.humanApprovals) +
+      agentField("Business model", b.businessModel) +
+      agentField("Go to market", b.goToMarket) +
+      agentField("Proof of real use", b.proofOfUse) +
+      '<div class="agent-field"><b>Business caveats</b>' + agentList(b.businessCaveats) + '</div>' +
+      agentField("Build this small version", b.buildTest);
   }
   if (agentView === "evidence") {
     return agentField("Model / product / version", b.modelProductVersion) +
@@ -1667,28 +1703,30 @@ function agentViewHtml(it, b) {
 }
 function agentRenderModal() {
   const it = agentStory; if (!it) return;
-  const st = agentState(it.ak), b = agentBrief(it.ak), facts = agentDraftFacts[it.ak] || "";
+  const st = agentState(it.ak), b = agentBrief(it.ak);
+  const facts = agentDraftFacts[it.ak] !== undefined ? agentDraftFacts[it.ak] : (it.sm || "");
   const bs = agentBriefStatus(it);
   document.getElementById("agent-modal-sub").textContent = it.s || "";
   const opts = AGENT_STATUS.map(x => '<option value="' + x[0] + '"' + (x[0] === st.status ? " selected" : "") + '>' + x[1] + '</option>').join("");
   document.getElementById("agent-modal-body").innerHTML =
     '<div class="agent-title">' + esc(it.t) + '</div>' +
     '<div class="meta"><span class="pill">' + esc(agentTopicName(it.primary)) + '</span>' +
+    (it.practical || []).map(x => '<span class="agent-status agent-practical">' + esc(agentPracticeName(x)) + '</span>').join("") +
     (it.secondary || []).map(x => '<span class="pill">' + esc(x) + '</span>').join("") +
     '<span>' + esc(agentDate(it.pub)) + '</span><span>Collected ' + esc(ago(it.col)) + '</span>' +
     '<span class="agent-status ' + bs[1] + '">' + esc(bs[0]) + '</span></div>' +
     '<div class="agent-actions"><a class="ghost" href="' + esc(it.u) + '" target="_blank" rel="noopener">Open source</a>' +
     '<button class="ghost" onclick="agentToggleSave(\'' + it.ak + '\')">' + (st.saved ? "Saved ✓" : "Save") + '</button>' +
     '<select onchange="agentSetStatus(this.value)" title="Learning status">' + opts + '</select></div>' +
-    '<div class="agent-field"><b>Build evidence brief</b>' +
-    '<div class="note" style="margin:0 0 6px">Paste source facts, release notes, architecture details, results, limitations, or your own notes. Do not paste confidential information. This raw text is not synced by default.</div>' +
+    '<div class="agent-field"><b>Build evidence + practical teardown</b>' +
+    '<div class="note" style="margin:0 0 6px">Add source facts, architecture, workflow, customer, pricing, results, or limitations. Unknown stays unknown. Do not paste confidential information. This raw text is not synced by default.</div>' +
     '<textarea id="agent-facts" rows="4" placeholder="Paste source facts / notes"></textarea>' +
     '<div class="agent-actions"><button class="btn" onclick="agentCopyPrompt()">Copy research prompt</button>' +
     '<button class="ghost" onclick="agentOpenAI()">Open ChatGPT</button></div>' +
     '<textarea id="agent-raw" rows="5" placeholder="Paste the model output with [[MARKERS]] here, then Validate"></textarea>' +
     '<div class="agent-actions"><button class="btn" onclick="agentValidateBrief()">Validate & save brief</button></div></div>' +
     '<div class="agent-modal-tabs">' +
-    ['learn','content','evidence'].map(v => '<button class="ghost ' + (agentView === v ? "active" : "") + '" onclick="agentSetView(\'' + v + '\')">' + v[0].toUpperCase() + v.slice(1) + '</button>').join("") +
+    ['learn','practical','content','evidence'].map(v => '<button class="ghost ' + (agentView === v ? "active" : "") + '" onclick="agentSetView(\'' + v + '\')">' + v[0].toUpperCase() + v.slice(1) + '</button>').join("") +
     '</div><div id="agent-view-body">' + agentViewHtml(it, b) + '</div>';
   const f = document.getElementById("agent-facts");
   if (f) { f.value = facts; f.oninput = e => { agentDraftFacts[it.ak] = e.target.value; }; }
@@ -1742,6 +1780,11 @@ function agentValidateBrief() {
     autonomyBoundary: p.autonomy_boundary || "", verifiedFacts: agentLines(p.verified_facts),
     claimStatus: agentLines(p.claim_status), limitations: agentLines(p.limitations), prerequisites: agentLines(p.prerequisites),
     learnNext: p.learn_next || "", experiment: p.experiment || "", contentQuestion: p.content_question || "",
+    practicalTask: p.practical_task || "unknown", userBuyer: p.user_buyer || "unknown",
+    stackTools: p.stack_tools || "unknown", workflow: p.workflow || "unknown",
+    humanApprovals: p.human_approvals || "unknown", businessModel: p.business_model || "unknown",
+    goToMarket: p.go_to_market || "unknown", proofOfUse: p.proof_of_use || "none supplied",
+    businessCaveats: agentLines(p.business_caveats), buildTest: p.build_test || p.experiment || "",
     explanatoryAngle: p.explanatory_angle || "", engineeringAngle: p.engineering_angle || "",
     mustNotClaim: agentLines(p.must_not_claim), contentReadiness: okReady, sources: p.sources || "",
     reviewNotes: p.private_review_notes || p.missing || "", createdAt: (agentBriefs[agentStory.ak] || {}).createdAt || new Date().toISOString(),
@@ -1766,9 +1809,28 @@ function agentUseLinkedIn(k) {
   const caveats = (b.mustNotClaim || []).length ? "\n\nMust not claim:\n" + b.mustNotClaim.map(x => "- " + x).join("\n") : "";
   const src = b.sources ? "\n\nSources:\n" + b.sources : "\n\nSource: " + it.s + " | " + it.u;
   document.getElementById("nr-excerpt").value = "Verified facts from Agent & AI brief:\n" + facts +
-    "\n\nEditorial angle to consider (not a source fact): " + (b.explanatoryAngle || b.engineeringAngle || b.contentQuestion || "unknown") +
+    "\n\nStructured interpretation (not a source fact):\n" +
+    "Task: " + (b.practicalTask || "unknown") + "\n" +
+    "User / buyer: " + (b.userBuyer || "unknown") + "\n" +
+    "Business model: " + (b.businessModel || "unknown") + "\n" +
+    "Editorial angle: " + (b.explanatoryAngle || b.engineeringAngle || b.contentQuestion || "unknown") +
     caveats + src;
-  toast("Brief facts moved into the existing LinkedIn draft flow");
+  toast("Brief moved to the LinkedIn writer - its prompt also creates a visual");
+}
+function agentUseX(k) {
+  const it = AGENT_ITEMS.find(x => x.ak === k) || agentStory;
+  if (!it) return;
+  const b = agentBrief(it.ak);
+  if (!b || b.status !== "ready" || b.contentReadiness !== "ready") {
+    toast("Build a content-ready brief first");
+    return;
+  }
+  document.getElementById("agentmodal").hidden = true;
+  const facts = (b.verifiedFacts || []).map(x => "- " + x).join("\n");
+  const guard = (b.mustNotClaim || []).length
+    ? "\nMust not claim:\n" + b.mustNotClaim.map(x => "- " + x).join("\n") : "";
+  openXModal({ t: it.t, u: it.u, sm: "Verified source facts:\n" + facts + guard });
+  toast("Verified facts moved into the existing X writer");
 }
 /* download the poster image (works cross-origin via blob; falls back to opening it) */
 function downloadImage(url) {
@@ -2868,7 +2930,7 @@ function openXModal(story) {
 function closeXModal() { document.getElementById("xmodal").hidden = true; xStory = null; }
 function xPayload() {
   const prompt = window.buildXPrompt({
-    title: xStory.t, url: xStory.u, summary: "",
+    title: xStory.t, url: xStory.u, summary: xStory.sm || "",
     format: document.getElementById("x-format").value,
     voice: document.getElementById("x-voice").value,
     hook: document.getElementById("x-hook").value,
@@ -3440,6 +3502,11 @@ def generate():
         "SELECT id, title, url, links, source, pillar, published, fetched, summary FROM items "
         "ORDER BY fetched DESC, COALESCE(published, fetched) DESC LIMIT ?", (MAX_STORIES,)
     ).fetchall()
+    agent_rows = conn.execute(
+        "SELECT id, title, url, source, published, fetched, summary, upvotes "
+        "FROM agent_discoveries "
+        "ORDER BY fetched DESC, COALESCE(published, fetched) DESC LIMIT 500"
+    ).fetchall()
 
     trends = scoring.compute_trends(conn)
     chips = [t for t in trends if t["status"] in ("new", "rising")][:10]
@@ -3478,7 +3545,31 @@ def generate():
                 "sm": summary, "sc": score, "links": links,
                 "primary": meta["primary"], "topics": meta["topics"],
                 "secondary": meta["secondary"], "sourceType": meta["source_type"],
+                "practical": meta.get("practical", []),
             })
+
+    # Practical project/business discoveries are intentionally private to this
+    # tab: they do not enter News, public-site rankings, alerts, or digests.
+    agent_seen = {item["ak"] for item in agent_items}
+    for r in agent_rows:
+        summary = (r["summary"] or "")[:700]
+        key = agent_ai_radar.story_key(r["url"], r["title"])
+        if key in agent_seen:
+            continue
+        meta = agent_ai_radar.classify(
+            r["title"], source=r["source"], url=r["url"], summary=summary, pillar=2)
+        if not meta.get("relevant"):
+            continue
+        agent_seen.add(key)
+        agent_items.append({
+            "ak": key,
+            "t": r["title"], "u": r["url"], "s": r["source"],
+            "p": 2, "pub": r["published"], "col": r["fetched"],
+            "sm": summary, "sc": int(r["upvotes"] or 0), "links": [],
+            "primary": meta["primary"], "topics": meta["topics"],
+            "secondary": meta["secondary"], "sourceType": meta["source_type"],
+            "practical": meta.get("practical", []),
+        })
 
     code = _load_passcode()
     lock_hash = hashlib.sha256(code.encode()).hexdigest() if code else ""

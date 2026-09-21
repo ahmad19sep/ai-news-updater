@@ -46,17 +46,22 @@ real note; otherwise the post stays an attributed explanation.
 
 ## Agent & AI Radar
 
-The Studio now has **🤖 Agents & AI**, a learning-first section for modern AI
-engineering: model shifts, agent loops, RAG/context, real deployed agents,
-evaluations/safety and AGI-watch signals. It classifies existing stories
-deterministically, keeps source publication dates separate from collection time,
-and works without an API.
+The Studio has **🤖 Agents & AI**, covering both engineering intelligence and
+practical agent work. Its views separate what people have built and shipped,
+agents running inside businesses, and people selling agent services/products.
+Alongside the regular news feed it discovers public GitHub agent repositories,
+Hugging Face agent demos, Show HN projects, DEV builder posts, customer workflows,
+and agent-business/pricing coverage. Those discoveries live in a separate
+`agent_discoveries` table, so they do not affect public news, alerts, rankings,
+digests, or the public homepage.
 
 Use it to save an item, mark your learning state (`unread`, `read`, `studying`,
 `understood`, `tested`), paste source facts, copy a research-brief prompt, paste
-the marker response back, and save a structured brief. A content-ready brief can
-hand verified facts into the existing LinkedIn draft flow. It never posts, never
-marks a story handled, and never turns a suggested experiment into "I tested it."
+the marker response back, and save a technical plus practical teardown: task,
+user/buyer, stack, workflow, approvals, business model, proof of use, caveats,
+and a small build test. A content-ready brief can go to the existing LinkedIn
+writer (including its visual prompt library) or the existing X writer/post flow.
+It never marks a story handled or turns a suggested experiment into "I tested it."
 
 ## Setup (one time)
 

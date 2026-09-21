@@ -19,6 +19,13 @@ PRIMARY_TOPICS = [
 ]
 
 
+PRACTICAL_TRACKS = [
+    ("built", "Built & shipped"),
+    ("operations", "Running in business"),
+    ("selling", "Selling agents"),
+]
+
+
 TOPIC_RULES = {
     "models": [
         "model release", "released model", "new model", "reasoning model",
@@ -48,6 +55,7 @@ TOPIC_RULES = {
         "coding agent", "software engineering agent", "operations",
         "workflow automation", "enterprise agent", "sales agent",
         "audit agent", "science agent", "robotics", "robot", "embodied",
+        "ai automation agency", "automation agency",
     ],
     "eval_safety": [
         "benchmark", "benchmarks", "eval", "evaluation", "reliability",
@@ -81,6 +89,41 @@ SECONDARY_RULES = {
 }
 
 
+PRACTICAL_RULES = {
+    "built": [
+        "i built", "we built", "i made", "we made", "built an agent",
+        "building an agent", "building ai agents", "show hn", "open source", "open-source",
+        "github", "repository", "repo", "demo", "prototype", "tutorial",
+        "how i built", "how we built", "launch", "launched", "shipped",
+        "workflow", "automation", "agent framework", "mcp server",
+        "hugging face space", "gradio", "docker",
+    ],
+    "operations": [
+        "in production", "production deployment", "deployed", "case study",
+        "customer story", "used by teams", "used by companies", "used by employees",
+        "used by customers", "customer support", "sales agent",
+        "support agent", "support workflow", "support workflows",
+        "client workflow", "client workflows", "business workflow", "business workflows",
+        "operations", "back office", "workflow automation",
+        "enterprise agent", "employees", "hours saved", "cost savings",
+        "human in the loop", "human approval", "approval workflow",
+    ],
+    "selling": [
+        "selling", "sell agents", "agent business", "automation agency",
+        "ai agency", "consulting", "client", "clients", "customer",
+        "revenue", "pricing", "subscription", "marketplace", "paid plan",
+        "business model", "go to market", "go-to-market", "startup",
+        "roi", "contract", "freelance", "service business",
+    ],
+}
+
+STRONG_BUILD_PHRASES = {
+    "i built", "we built", "i made", "we made", "built an agent",
+    "building an agent", "building ai agents", "show hn", "how i built",
+    "how we built", "hugging face space",
+}
+
+
 OFFICIAL_SOURCES = {
     "OpenAI Blog",
     "Google DeepMind",
@@ -95,6 +138,22 @@ OFFICIAL_SOURCES = {
 
 PAPER_SOURCES = {"arXiv AI", "arXiv NLP (cs.CL)", "arXiv ML (cs.LG)", "HF Trending Papers"}
 COMMUNITY_SOURCES = {"Hacker News AI", "Hacker News new"}
+BUILDER_SOURCES = {
+    "Show HN Agent Builds",
+    "DEV Agent Builders",
+    "GitHub Agent Builds",
+    "Hugging Face Agent Spaces",
+}
+DIRECT_BUILD_SOURCES = {
+    "Show HN Agent Builds",
+    "GitHub Agent Builds",
+    "Hugging Face Agent Spaces",
+}
+BUSINESS_SOURCES = {
+    "Agent Business & Sales",
+    "AI Automation Agencies",
+}
+OPERATIONS_SOURCES = {"Agent Customer Workflows"}
 
 
 def story_key(url, title=""):
@@ -110,7 +169,10 @@ def _has(text, phrase):
     phrase = phrase.lower()
     if re.search(r"^[a-z0-9_+-]+$", phrase):
         return re.search(r"\b" + re.escape(phrase) + r"\b", text) is not None
-    return phrase in text
+    return re.search(
+        r"(?<![a-z0-9])" + re.escape(phrase) + r"(?![a-z0-9])",
+        text,
+    ) is not None
 
 
 def _score_topic(text, phrases):
@@ -128,7 +190,7 @@ def _source_type(source, text):
         return "paper"
     if "case study" in text or "customer story" in text:
         return "case_study"
-    if source in COMMUNITY_SOURCES or "hacker news" in source.lower():
+    if source in COMMUNITY_SOURCES or source in BUILDER_SOURCES or "hacker news" in source.lower():
         return "community"
     if source:
         return "news"
@@ -136,7 +198,7 @@ def _source_type(source, text):
 
 
 def classify(title, source="", url="", summary="", pillar=None):
-    text = _words(" ".join([title or "", source or "", url or "", summary or ""]))
+    text = _words(" ".join([title or "", url or "", summary or ""]))
     scores = {topic: _score_topic(text, phrases) for topic, phrases in TOPIC_RULES.items()}
 
     # Coding-agent and research-paper stories often use domain words without
@@ -157,10 +219,41 @@ def classify(title, source="", url="", summary="", pillar=None):
         if any(_has(text, phrase) for phrase in phrases):
             secondary.append(label)
 
+    source_type = _source_type(source or "", text)
+    practical_scores = {
+        track: _score_topic(text, phrases)
+        for track, phrases in PRACTICAL_RULES.items()
+    }
+    if source in DIRECT_BUILD_SOURCES:
+        practical_scores["built"] += 5
+    if source in BUSINESS_SOURCES:
+        practical_scores["selling"] += 5
+    if source in OPERATIONS_SOURCES:
+        practical_scores["operations"] += 5
+    if source_type == "case_study":
+        practical_scores["operations"] += 2
+
+    practical = []
+    for track, _label in PRACTICAL_TRACKS:
+        score = practical_scores.get(track, 0)
+        if source_type == "paper":
+            qualifies = score >= 4
+        elif track == "built":
+            qualifies = score >= 3 or any(_has(text, p) for p in STRONG_BUILD_PHRASES)
+        else:
+            qualifies = score >= 2
+        if qualifies:
+            practical.append(track)
+    practical.sort(key=lambda t: (
+        -practical_scores[t],
+        [x[0] for x in PRACTICAL_TRACKS].index(t),
+    ))
+
     return {
         "relevant": True,
         "primary": ordered[0],
         "topics": ordered,
         "secondary": secondary[:5],
-        "source_type": _source_type(source or "", text),
+        "source_type": source_type,
+        "practical": practical,
     }

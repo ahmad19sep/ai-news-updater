@@ -86,7 +86,8 @@ def bing_news(query):
     return f"https://www.bing.com/news/search?q={q}&format=rss"
 
 
-def news_search(name, query, category, lock=False, max_age_days=None):
+def news_search(name, query, category, lock=False, max_age_days=None,
+                require_any=None, exclude_any=None, agent_only=False):
     """A news-search feed: tries Google News first, falls back to Bing News.
     lock=True -> always file under this category, skip title rules.
     max_age_days -> accept older stories (slow topics like space/agriculture)."""
@@ -94,6 +95,12 @@ def news_search(name, query, category, lock=False, max_age_days=None):
             "category": category, "trusted": False, "lock": lock}
     if max_age_days:
         feed["max_age_days"] = max_age_days
+    if require_any:
+        feed["require_any"] = require_any
+    if exclude_any:
+        feed["exclude_any"] = exclude_any
+    if agent_only:
+        feed["agent_only"] = True
     return feed
 
 
@@ -145,7 +152,31 @@ FEEDS = [
     #  failed; Hacker News + Google News cover community signal instead.)
     {"name": "Hacker News AI",     "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=50",    "category": 10, "trusted": True},
     {"name": "Hacker News new",    "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&count=30",     "category": 10, "trusted": False},
+    {"name": "Show HN Agent Builds", "url": "https://hnrss.org/show?q=AI+agent&count=30",              "category": 2, "trusted": False, "agent_only": True},
+    {"name": "DEV Agent Builders", "url": "https://dev.to/feed/tag/agents",                            "category": 2, "trusted": False, "agent_only": True},
     news_search("Using AI To...",  '"using AI to"', 10),
+    news_search(
+        "Agent Customer Workflows",
+        '"AI agent" "customer support" OR "AI agent" operations OR "AI agent" workflow',
+        10, max_age_days=180,
+        require_any=["case study", "customer support", "workflow", "operations", "using", "runs"],
+        agent_only=True,
+    ),
+    news_search(
+        "Agent Business & Sales",
+        '"AI agent" pricing OR "AI agent" revenue OR "AI agent marketplace" OR "selling AI agents"',
+        10, max_age_days=90,
+        require_any=["pricing", "revenue", "marketplace", "selling", "subscription", "customer", "client"],
+        exclude_any=["stock", "stocks", "shares", "analyst", "investment", "fiscal", "profit", "tradingview", "wall st", "crypto", "wallet"],
+        agent_only=True,
+    ),
+    news_search(
+        "AI Automation Agencies", '"AI automation agency" client pricing revenue',
+        10, max_age_days=180,
+        require_any=["agency", "agencies", "client"],
+        exclude_any=["business ideas", "make money", "stocks", "shares"],
+        agent_only=True,
+    ),
 
     # ---------- AI media (AI-dedicated sections; verified live) ----------
     {"name": "The Verge AI",       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "category": 10, "trusted": True},

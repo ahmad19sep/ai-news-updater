@@ -27,6 +27,39 @@ class AgentAIRadarClassifierTest(unittest.TestCase):
     def test_real_world_agent(self):
         meta = self.topic("Customer support agent case study reaches production deployment")
         self.assertEqual(meta["primary"], "real_world_agents")
+        self.assertIn("operations", meta["practical"])
+
+    def test_builder_source_gets_practical_track(self):
+        meta = self.topic(
+            "Invoice review assistant",
+            source="GitHub Agent Builds",
+            summary="Open-source repository for a bounded AI agent.",
+        )
+        self.assertIn("built", meta["practical"])
+        self.assertEqual(meta["source_type"], "community")
+
+    def test_agent_business_signal(self):
+        meta = self.topic(
+            "Consultancy explains pricing an AI agent for client support workflows"
+        )
+        self.assertIn("selling", meta["practical"])
+        self.assertIn("operations", meta["practical"])
+
+    def test_caused_by_does_not_match_used_by(self):
+        meta = self.topic("An AI agent breach was caused by one configuration issue")
+        self.assertNotIn("operations", meta["practical"])
+
+    def test_business_and_operations_sources_stay_separate(self):
+        selling = self.topic(
+            "How an AI automation agency prices client work",
+            source="AI Automation Agencies",
+        )
+        operating = self.topic(
+            "A support AI agent runs a claims workflow",
+            source="Agent Customer Workflows",
+        )
+        self.assertIn("selling", selling["practical"])
+        self.assertIn("operations", operating["practical"])
 
     def test_eval_safety(self):
         meta = self.topic("Benchmark tests agent reliability against prompt injection and sandbox escapes")

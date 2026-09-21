@@ -30,6 +30,19 @@ def connect():
     """)
     conn.execute("CREATE INDEX IF NOT EXISTS idx_items_fetched ON items(fetched)")
     conn.execute("""
+        CREATE TABLE IF NOT EXISTS agent_discoveries (
+            id        INTEGER PRIMARY KEY AUTOINCREMENT,
+            title     TEXT NOT NULL,
+            url       TEXT NOT NULL UNIQUE,
+            source    TEXT NOT NULL,
+            published TEXT,
+            fetched   TEXT NOT NULL,
+            summary   TEXT NOT NULL DEFAULT '',
+            upvotes   INTEGER NOT NULL DEFAULT 0
+        )
+    """)
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_agent_discoveries_fetched ON agent_discoveries(fetched)")
+    conn.execute("""
         CREATE TABLE IF NOT EXISTS meta (
             key   TEXT PRIMARY KEY,
             value TEXT
@@ -129,6 +142,12 @@ def url_exists(conn, url):
     return conn.execute("SELECT 1 FROM items WHERE url = ?", (url,)).fetchone() is not None
 
 
+def agent_discovery_exists(conn, url):
+    return conn.execute(
+        "SELECT 1 FROM agent_discoveries WHERE url = ?", (url,)
+    ).fetchone() is not None
+
+
 def recent_items(conn, hours):
     """Items from the last N hours - used for duplicate detection."""
     cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
@@ -148,12 +167,33 @@ def purge_old(conn, days):
     return cur.rowcount
 
 
+def purge_agent_discoveries(conn, days):
+    """Keep private Agent & AI discoveries on the same retention horizon."""
+    if not days or days <= 0:
+        return 0
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    cur = conn.execute("DELETE FROM agent_discoveries WHERE fetched < ?", (cutoff,))
+    conn.commit()
+    return cur.rowcount
+
+
 def add_item(conn, title, url, source, pillar, published, upvotes=0, comments=0, summary=""):
     cur = conn.execute(
         "INSERT OR IGNORE INTO items (title, url, source, pillar, published, fetched, upvotes, comments, summary) "
         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (title, url, source, pillar, published,
          datetime.now(timezone.utc).isoformat(), upvotes or 0, comments or 0, summary or ""),
+    )
+    return cur.lastrowid
+
+
+def add_agent_discovery(conn, title, url, source, published, summary="", upvotes=0):
+    cur = conn.execute(
+        "INSERT OR IGNORE INTO agent_discoveries "
+        "(title, url, source, published, fetched, summary, upvotes) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?)",
+        (title, url, source, published, datetime.now(timezone.utc).isoformat(),
+         summary or "", upvotes or 0),
     )
     return cur.lastrowid
 
