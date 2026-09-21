@@ -46,22 +46,28 @@ real note; otherwise the post stays an attributed explanation.
 
 ## Agent & AI Radar
 
-The Studio has **🤖 Agents & AI**, covering both engineering intelligence and
-practical agent work. Its views separate what people have built and shipped,
-agents running inside businesses, and people selling agent services/products.
-Alongside the regular news feed it discovers public GitHub agent repositories,
-Hugging Face agent demos, Show HN projects, DEV builder posts, customer workflows,
-and agent-business/pricing coverage. Those discoveries live in a separate
-`agent_discoveries` table, so they do not affect public news, alerts, rankings,
-digests, or the public homepage.
+The Studio has **🤖 Agents & AI**, with discovery tabs for Today, Agent Builds,
+Real-World Workflows, MVPs & Products, Agent Skills, MCP & Integrations,
+Models & Frameworks, and Builders. My Learning and LinkedIn Queue are separate
+workspace views. Public GitHub repositories, Hugging Face demos, Show HN/DEV
+posts, case studies, and focused searches stay in `agent_discoveries`, so they
+never affect public news, alerts, rankings, Trends/Pulse, digests, or the public
+homepage. Source health reports partial or failed collection honestly.
 
-Use it to save an item, mark your learning state (`unread`, `read`, `studying`,
-`understood`, `tested`), paste source facts, copy a research-brief prompt, paste
-the marker response back, and save a technical plus practical teardown: task,
-user/buyer, stack, workflow, approvals, business model, proof of use, caveats,
-and a small build test. A content-ready brief can go to the existing LinkedIn
-writer (including its visual prompt library) or the existing X writer/post flow.
-It never marks a story handled or turns a suggested experiment into "I tested it."
+**Learning-first:** open an item, add a source excerpt, choose Explain + Build,
+Technical Deep Dive, Build a Similar MVP, or LinkedIn Research, then copy the
+editable prompt into any LLM. The v2 response must match the item and source-pack
+revision, cite `[S1]`/`[S2]` beside project facts, separate original evidence from
+a proposed build, and include tests, failures, permissions, costs, unknowns, and
+LinkedIn angles. A generic paragraph is rejected. Parsing is not review: claims
+must be checked individually before a brief becomes content-ready.
+
+**Content-first:** a source excerpt can go directly to the existing LinkedIn
+writer without a full teardown. Manual discoveries, comparisons, builder follows,
+private catch-up, Markdown export, saved feed-expiry snapshots, and local personal
+takeaways are also available. Raw pasted source text and personal notes stay on
+the device; a manual capture enters an export only through the explicit local-source
+export action. Nothing runs, posts, or marks a story handled automatically.
 
 ## Setup (one time)
 
@@ -83,7 +89,7 @@ pip install -r requirements.txt
 | `python generate_pulse.py` | Rebuild the Pulse signals (`docs/pulse.json`) |
 | `python reclassify.py` | Re-sort the archive after editing category rules |
 | `node dump_prompts.js` | Regenerate `PROMPTS.md` from `docs/templates.js` |
-| `python -m unittest test_agent_ai_radar.py` | Agent & AI classifier tests |
+| `python -m unittest test_agent_ai_radar.py test_agent_discovery.py` | Agent classifier + isolated discovery tests |
 | `node smoke_test.js` | Prompt-library + boot checks (needs `npm i --no-save jsdom`) |
 | `node ui_test.js` | Drives the studio UI: every tab + the whole draft flow |
 

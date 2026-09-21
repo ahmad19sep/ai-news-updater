@@ -14,6 +14,11 @@ class AgentAIRadarClassifierTest(unittest.TestCase):
         self.assertEqual(meta["primary"], "models")
         self.assertIn("models", meta["topics"])
 
+    def test_named_model_update_survives_the_ai_context_gate(self):
+        meta = self.topic("GPT-5 system card adds new benchmark results")
+        self.assertEqual(meta["primary"], "models")
+        self.assertIn("models_frameworks", meta["discovery_tabs"])
+
     def test_agent_runtime_tool_calling(self):
         meta = self.topic("New agent runtime adds tool calling, checkpoints, and human approval")
         self.assertEqual(meta["primary"], "agent_loops")
@@ -37,6 +42,57 @@ class AgentAIRadarClassifierTest(unittest.TestCase):
         )
         self.assertIn("built", meta["practical"])
         self.assertEqual(meta["source_type"], "community")
+        self.assertIn("agent_builds", meta["discovery_tabs"])
+        self.assertTrue(meta["match_reasons"])
+
+    def test_explicit_ai_mvp_does_not_need_agent_word(self):
+        meta = self.topic(
+            "I launched an AI MVP that turns support calls into reviewed tickets"
+        )
+        self.assertIn("mvps", meta["discovery_tabs"])
+        self.assertIn("workflows", meta["discovery_tabs"])
+
+    def test_agent_skill_is_not_generic_career_skills(self):
+        skill = self.topic(
+            "Open-source Agent Skill packages a SKILL.md for invoice review"
+        )
+        self.assertIn("skills", skill["discovery_tabs"])
+        self.assertFalse(
+            agent_ai_radar.classify(
+                "Five communication skills every product manager should learn"
+            ).get("relevant")
+        )
+
+    def test_mcp_is_an_integration_not_automatically_multi_agent(self):
+        meta = self.topic(
+            "New MCP server connects an AI assistant to a customer database"
+        )
+        self.assertIn("mcp", meta["discovery_tabs"])
+        self.assertIn("MCP", meta["secondary"])
+        self.assertNotIn("multi-agent", meta["secondary"])
+
+    def test_content_creation_agent_qualifies_as_build(self):
+        meta = self.topic(
+            "How I built a content creation agent with human review before publishing"
+        )
+        self.assertIn("agent_builds", meta["discovery_tabs"])
+        self.assertIn("built", meta["practical"])
+
+    def test_broad_mvp_and_workflow_terms_do_not_qualify_without_ai(self):
+        for title in (
+            "The league announces this season's MVP",
+            "A simple workflow for planning a family holiday",
+            "Startup founders debate their minimum viable product",
+        ):
+            with self.subTest(title=title):
+                self.assertFalse(agent_ai_radar.classify(title).get("relevant"))
+
+    def test_multimodal_and_multi_model_stay_distinct(self):
+        multimodal = self.topic("A multimodal AI model handles text and images")
+        multi_model = self.topic("An AI router uses multi-model routing for cost control")
+        self.assertIn("multimodal", multimodal["secondary"])
+        self.assertNotIn("multi-model", multimodal["secondary"])
+        self.assertIn("multi-model", multi_model["secondary"])
 
     def test_agent_business_signal(self):
         meta = self.topic(

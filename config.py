@@ -104,6 +104,16 @@ def news_search(name, query, category, lock=False, max_age_days=None,
     return feed
 
 
+# Bounded public-repository discovery. Four searches stay below GitHub's
+# anonymous search allowance in a normal hourly run; Actions supplies its token.
+AGENT_GITHUB_QUERIES = [
+    {"name": "GitHub Agent Builds", "query": "topic:ai-agents created:>={since} stars:>=3", "limit": 12},
+    {"name": "GitHub AI MVPs", "query": "AI MVP in:name,description,readme created:>={since} stars:>=2", "limit": 8},
+    {"name": "GitHub Agent Skills", "query": "SKILL.md agent in:readme created:>={since} stars:>=2", "limit": 8},
+    {"name": "GitHub MCP Builds", "query": "MCP server in:name,description,readme created:>={since} stars:>=2", "limit": 8},
+]
+
+
 # Each feed: name, url, default category, trusted
 # trusted=True  -> official AI source, items pass WITHOUT the AI keyword filter
 # trusted=False -> general source, items must contain AI keywords to pass
@@ -175,6 +185,32 @@ FEEDS = [
         10, max_age_days=180,
         require_any=["agency", "agencies", "client"],
         exclude_any=["business ideas", "make money", "stocks", "shares"],
+        agent_only=True,
+    ),
+    news_search(
+        "AI MVP Launches", '"AI MVP" launch OR "AI product" "first customer"',
+        10, max_age_days=180,
+        require_any=["mvp", "ai product", "ai app", "launched", "first customer"],
+        exclude_any=["sports", "football", "basketball", "baseball", "nba", "nfl"],
+        agent_only=True,
+    ),
+    news_search(
+        "Agent Skills Builds", '"Agent Skills" OR "SKILL.md" AI agent',
+        2, max_age_days=180,
+        require_any=["agent skill", "agent skills", "skill.md"],
+        exclude_any=["career skills", "leadership skills", "communication skills"],
+        agent_only=True,
+    ),
+    news_search(
+        "MCP Practical Integrations", '"MCP server" workflow OR "Model Context Protocol" integration',
+        2, max_age_days=120,
+        require_any=["mcp", "model context protocol"],
+        agent_only=True,
+    ),
+    news_search(
+        "AI Builder Case Studies", '"how I built" AI agent OR "we built" AI workflow',
+        2, max_age_days=180,
+        require_any=["how i built", "we built", "i built", "case study"],
         agent_only=True,
     ),
 

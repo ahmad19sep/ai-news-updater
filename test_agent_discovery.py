@@ -1,10 +1,13 @@
 import unittest
 import os
 import tempfile
+from datetime import datetime, timezone
+from unittest import mock
 
 import config
 import database
 import fetcher
+from generate_site import _agent_date_label
 
 
 class AgentDiscoveryNormalizerTest(unittest.TestCase):
@@ -59,6 +62,11 @@ class AgentDiscoveryNormalizerTest(unittest.TestCase):
             "fork": True,
         }))
 
+    def test_repository_creation_is_not_labeled_as_a_release(self):
+        self.assertEqual(_agent_date_label("GitHub Agent Builds"), "Repository created")
+        self.assertEqual(_agent_date_label("Hugging Face Agent Spaces"), "Space created")
+        self.assertEqual(_agent_date_label("DEV Agent Builders"), "Published")
+
     def test_agent_discoveries_are_isolated_from_news(self):
         old_db = config.DB_FILE
         try:
@@ -83,6 +91,59 @@ class AgentDiscoveryNormalizerTest(unittest.TestCase):
                 conn.close()
         finally:
             config.DB_FILE = old_db
+
+    def test_source_health_keeps_last_success_when_a_later_attempt_fails(self):
+        health = {}
+        fetcher._health_update(health, "Example", True)
+        first_success = health["Example"]["last_success"]
+        fetcher._health_update(health, "Example", False, "rate limited")
+        self.assertEqual(health["Example"]["state"], "failed")
+        self.assertEqual(health["Example"]["last_success"], first_success)
+        self.assertEqual(health["Example"]["detail"], "rate limited")
+
+    def test_github_query_failure_does_not_block_other_discovery_family(self):
+        class GoodResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "incomplete_results": False,
+                    "items": [{
+                        "full_name": "builder/invoice-agent",
+                        "html_url": "https://github.com/builder/invoice-agent",
+                        "description": "AI agent for invoice review",
+                        "created_at": datetime.now(timezone.utc).isoformat(),
+                        "stargazers_count": 9,
+                        "language": "Python",
+                        "topics": ["ai-agents"],
+                        "private": False,
+                        "fork": False,
+                        "archived": False,
+                    }],
+                }
+
+        old_db = config.DB_FILE
+        old_queries = config.AGENT_GITHUB_QUERIES
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                config.DB_FILE = os.path.join(tmp, "test.db")
+                config.AGENT_GITHUB_QUERIES = [
+                    {"name": "Broken family", "query": "broken created:>={since}", "limit": 1},
+                    {"name": "Working family", "query": "agent created:>={since}", "limit": 1},
+                ]
+                conn = database.connect()
+                stats = {"new": 0, "grouped": 0, "failed_feeds": []}
+                with mock.patch.object(fetcher.requests, "get", side_effect=[RuntimeError("rate limit"), GoodResponse()]):
+                    results = fetcher.fetch_github_agent_repos(conn, [], stats)
+                self.assertFalse(results["Broken family"][0])
+                self.assertTrue(results["Working family"][0])
+                self.assertIn("Broken family", stats["failed_feeds"])
+                self.assertEqual(conn.execute("SELECT COUNT(*) FROM agent_discoveries").fetchone()[0], 1)
+                conn.close()
+        finally:
+            config.DB_FILE = old_db
+            config.AGENT_GITHUB_QUERIES = old_queries
 
 
 if __name__ == "__main__":

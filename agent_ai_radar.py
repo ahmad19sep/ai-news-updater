@@ -26,12 +26,71 @@ PRACTICAL_TRACKS = [
 ]
 
 
+DISCOVERY_TABS = [
+    ("agent_builds", "Agent Builds"),
+    ("workflows", "Real-World Workflows"),
+    ("mvps", "MVPs & Products"),
+    ("skills", "Agent Skills"),
+    ("mcp", "MCP & Integrations"),
+    ("models_frameworks", "Models & Frameworks"),
+    ("builders", "Builders"),
+]
+
+
+AI_CONTEXT_PHRASES = [
+    "ai", "artificial intelligence", "llm", "language model", "model release",
+    "reasoning model", "multimodal", "multi-model", "model routing", "agent", "agents sdk", "agentic", "rag",
+    "retrieval", "tool calling", "function calling", "mcp", "model context protocol",
+    "prompt injection", "context engineering", "agi", "long-horizon",
+    "human in the loop", "coding assistant", "machine learning",
+    "gpt", "claude", "gemini", "llama", "mistral", "deepseek", "grok",
+    "sora", "veo", "imagen", "qwen", "open weights", "open-weight",
+]
+
+
+DISCOVERY_RULES = {
+    "agent_builds": [
+        "i built", "we built", "i made", "we made", "how i built", "how we built",
+        "built an agent", "content creation agent", "open source", "open-source",
+        "repository", "prototype", "demo", "show hn", "hugging face space",
+    ],
+    "workflows": [
+        "case study", "customer story", "in production", "production deployment",
+        "used by teams", "used by customers", "workflow automation",
+        "customer support", "support calls", "human review", "human approval", "operations",
+    ],
+    "mvps": [
+        "ai mvp", "mvp launch", "minimum viable product", "ai product",
+        "ai app", "micro saas", "saas", "launched", "shipped", "paid plan",
+        "subscription", "pricing", "revenue", "first customer",
+    ],
+    "skills": [
+        "agent skill", "agent skills", "agentskills", "skill.md",
+        "skills-compatible", "packaged skill", "reusable skill",
+    ],
+    "mcp": [
+        "mcp server", "mcp client", "mcp integration", "model context protocol",
+        "mcp app", "mcp registry",
+    ],
+    "models_frameworks": [
+        "model release", "released model", "new model", "model card", "system card",
+        "agent sdk", "agents sdk", "agent framework", "runtime", "orchestration",
+        "langchain", "llamaindex", "crewai", "autogen",
+    ],
+    "builders": [
+        "i built", "we built", "how i built", "how we built", "builder",
+        "creator", "maintainer", "founder", "team built",
+    ],
+}
+
+
 TOPIC_RULES = {
     "models": [
         "model release", "released model", "new model", "reasoning model",
         "frontier model", "foundation model", "model card", "system card",
         "multimodal", "context window", "coding model", "language model",
         "embedding model", "reranker", "open weights", "open-weight",
+        "multi-model", "model routing",
         "llama", "claude", "gpt", "gemini", "mistral", "deepseek", "grok",
         "sora", "veo", "imagen", "qwen",
     ],
@@ -86,6 +145,9 @@ SECONDARY_RULES = {
     "robotics / embodied AI": ["robot", "robotics", "embodied"],
     "enterprise agents": ["enterprise agent", "customer support", "operations", "workflow automation"],
     "science agents": ["science agent", "research agent", "lab automation"],
+    "Agent Skills": ["agent skill", "agent skills", "agentskills", "skill.md"],
+    "multimodal": ["multimodal", "multi-modal"],
+    "multi-model": ["multi-model", "multiple models", "model routing"],
 }
 
 
@@ -142,16 +204,28 @@ BUILDER_SOURCES = {
     "Show HN Agent Builds",
     "DEV Agent Builders",
     "GitHub Agent Builds",
+    "GitHub AI MVPs",
+    "GitHub Agent Skills",
+    "GitHub MCP Builds",
     "Hugging Face Agent Spaces",
+    "AI Builder Case Studies",
+    "Agent Skills Builds",
+    "MCP Practical Integrations",
 }
 DIRECT_BUILD_SOURCES = {
     "Show HN Agent Builds",
     "GitHub Agent Builds",
+    "GitHub AI MVPs",
+    "GitHub Agent Skills",
+    "GitHub MCP Builds",
     "Hugging Face Agent Spaces",
+    "AI Builder Case Studies",
 }
 BUSINESS_SOURCES = {
     "Agent Business & Sales",
     "AI Automation Agencies",
+    "AI MVP Launches",
+    "GitHub AI MVPs",
 }
 OPERATIONS_SOURCES = {"Agent Customer Workflows"}
 
@@ -183,6 +257,10 @@ def _score_topic(text, phrases):
     return score
 
 
+def _matched_phrases(text, phrases):
+    return [phrase for phrase in phrases if _has(text, phrase)]
+
+
 def _source_type(source, text):
     if source in OFFICIAL_SOURCES:
         return "official"
@@ -199,7 +277,39 @@ def _source_type(source, text):
 
 def classify(title, source="", url="", summary="", pillar=None):
     text = _words(" ".join([title or "", url or "", summary or ""]))
+    if not any(_has(text, phrase) for phrase in AI_CONTEXT_PHRASES):
+        return {"relevant": False}
+
     scores = {topic: _score_topic(text, phrases) for topic, phrases in TOPIC_RULES.items()}
+    discovery_matches = {
+        tab: _matched_phrases(text, phrases)
+        for tab, phrases in DISCOVERY_RULES.items()
+    }
+    discovery_scores = {
+        tab: _score_topic(text, phrases)
+        for tab, phrases in DISCOVERY_RULES.items()
+    }
+
+    if source in DIRECT_BUILD_SOURCES:
+        discovery_scores["agent_builds"] += 5
+        discovery_scores["builders"] += 2
+    if source in OPERATIONS_SOURCES:
+        discovery_scores["workflows"] += 5
+    if source in BUSINESS_SOURCES:
+        discovery_scores["mvps"] += 3
+    if scores.get("models", 0):
+        discovery_scores["models_frameworks"] += 2
+    if source in OFFICIAL_SOURCES and scores.get("models", 0):
+        discovery_scores["models_frameworks"] += 2
+
+    if discovery_scores["agent_builds"] or discovery_scores["skills"] or discovery_scores["mcp"]:
+        scores["agent_loops"] += 2
+    if discovery_scores["workflows"]:
+        scores["real_world_agents"] += 2
+    if discovery_scores["mvps"]:
+        scores["real_world_agents"] += 1
+    if discovery_scores["models_frameworks"]:
+        scores["models"] += 1
 
     # Coding-agent and research-paper stories often use domain words without
     # saying "agent" in the headline; the source category can provide a gentle
@@ -249,6 +359,28 @@ def classify(title, source="", url="", summary="", pillar=None):
         [x[0] for x in PRACTICAL_TRACKS].index(t),
     ))
 
+    discovery_tabs = [
+        tab for tab, _label in DISCOVERY_TABS
+        if discovery_scores.get(tab, 0) >= 2
+    ]
+    match_reasons = []
+    for tab, label in DISCOVERY_TABS:
+        if tab not in discovery_tabs:
+            continue
+        phrases = discovery_matches.get(tab) or []
+        if phrases:
+            match_reasons.append(f"{label}: {', '.join(phrases[:2])}")
+        elif tab == "agent_builds" and source in DIRECT_BUILD_SOURCES:
+            match_reasons.append(f"{label}: collected from a public build source")
+        elif tab == "builders" and source in DIRECT_BUILD_SOURCES:
+            match_reasons.append(f"{label}: public project source")
+        elif tab == "workflows" and source in OPERATIONS_SOURCES:
+            match_reasons.append(f"{label}: workflow-focused source")
+        elif tab == "mvps" and source in BUSINESS_SOURCES:
+            match_reasons.append(f"{label}: business-focused source")
+        elif tab == "models_frameworks" and scores.get("models", 0):
+            match_reasons.append(f"{label}: matched model or framework signals")
+
     return {
         "relevant": True,
         "primary": ordered[0],
@@ -256,4 +388,8 @@ def classify(title, source="", url="", summary="", pillar=None):
         "secondary": secondary[:5],
         "source_type": source_type,
         "practical": practical,
+        "discovery_tabs": discovery_tabs,
+        "match_reasons": match_reasons[:5],
+        "system_type": "unknown",
+        "topology": "unknown",
     }

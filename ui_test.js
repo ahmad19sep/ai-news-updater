@@ -57,8 +57,50 @@ Example Corp announcement - https://example.com
 [[END]]`;
 
 const AGENT_BRIEF_OUTPUT = `
+[[BRIEF_VERSION]]
+2
+[[ITEM_KEY]]
+__ITEM_KEY__
+[[SOURCE_REVISION]]
+__SOURCE_REVISION__
 [[STATUS]]
 ready
+[[SUPPORTED_FACTS]]
+- [S1] File writes require explicit approval before execution.
+- [S1] Approval occurs before the runtime performs the proposed file write.
+[[ATTRIBUTED_CLAIMS]]
+- [S1] The supplied excerpt describes this as an explicit approval requirement.
+[[UNKNOWNS]]
+- The supplied evidence does not name a model, benchmark, or customer deployment.
+[[ORIGINAL_SYSTEM]]
+[S1] The evidenced flow is a runtime proposing a file write and requiring explicit approval before that external side effect executes.
+[[PLAIN_EXPLANATION]]
+[S1] The system does not let a model write a file immediately; an approval gate must allow the proposed change first.
+[[CONCRETE_EXAMPLE]]
+[S1] A model proposes changing config.json, the runtime pauses, and the write happens only after approval.
+[[SYSTEM_TYPE]]
+agentic_system candidate, supported only by the described proposal and approval boundary [S1].
+[[PROPOSED_BLUEPRINT]]
+PROPOSED: build a small file-edit assistant that emits a structured diff, pauses for manual approval, and applies only an accepted change.
+[[IMPLEMENTATION_STEPS]]
+1. Define a structured file-change proposal.
+2. Validate paths and show a diff.
+3. Require an explicit approval token before writing.
+[[TEST_PLAN]]
+- Attempt a write without approval; expect the file to remain unchanged.
+- Approve a valid diff; expect exactly the proposed change.
+[[FAILURE_CASES]]
+- Path traversal or stale diffs; reject them and request a fresh proposal.
+[[PERMISSIONS_APPROVALS]]
+- Grant read access first and require human approval for every write.
+[[COST_TRADEOFFS]]
+- Model calls add latency and cost; deterministic validation adds code but reduces side-effect risk.
+[[LEARNING_TAKEAWAYS]]
+- Separate model intent from deterministic authorization.
+[[PRACTICAL_EXERCISE]]
+Implement a dry-run diff and prove that no write occurs without approval.
+[[LINKEDIN_ANGLES]]
+- Agent autonomy is a permissions design problem | supported by [S1] | no deployment evidence supplied.
 [[MODEL_PRODUCT_VERSION]]
 Example Agent Runtime 1.0
 [[EVENT_DATE]]
@@ -82,7 +124,8 @@ No retrieval role was established by the supplied facts.
 [[AUTONOMY_BOUNDARY]]
 The model proposes a file write; policy or a human approves it.
 [[VERIFIED_FACTS]]
-- File writes require explicit approval before execution.
+- [S1] File writes require explicit approval before execution.
+- [S1] Approval occurs before execution.
 [[CLAIM_STATUS]]
 - Source fact: file writes require explicit approval.
 - Interpretation: this separates suggestion from authorization.
@@ -125,7 +168,7 @@ Put approval between model intent and side effects.
 [[CONTENT_READINESS]]
 ready
 [[SOURCES]]
-Example Corp | official release | https://example.com/agent | unknown
+Selected source | __SOURCE_URL__ | unknown
 [[PRIVATE_REVIEW_NOTES]]
 No firsthand testing was supplied.
 [[END]]`;
@@ -153,7 +196,7 @@ function runChecks() {
     w.switchTab("news");
   });
 
-  check("Agents & AI tab renders filters and the mental model", () => {
+  check("Agents & AI renders distinct research and workspace tabs", () => {
     if (!(w.__AGENT_ITEMS || []).length) {
       w.__AGENT_ITEMS.push({ ak: "agenttest001", t: "Example agent runtime adds approval",
         u: "https://example.com/agent", s: "Example Corp", p: 2,
@@ -161,34 +204,88 @@ function runChecks() {
         sm: "", sc: 1, links: [], primary: "agent_loops",
         topics: ["agent_loops", "eval_safety"], secondary: ["tool calling"],
         practical: ["built", "operations"],
+        tabs: ["agent_builds", "workflows", "builders"], matchReasons: ["Agent Builds: I built"],
         sourceType: "official" });
     }
     w.switchTab("agents");
     if (d.getElementById("tab-agents").hidden) throw new Error("agents tab stayed hidden");
     if (!d.getElementById("agent-topicbar").textContent.includes("Agent Loops"))
       throw new Error("topic filters missing");
-    if (!d.getElementById("agent-modebar").textContent.includes("Built & shipped"))
-      throw new Error("practical views missing");
+    ["Today", "Agent Builds", "Real-World Workflows", "MVPs & Products", "Agent Skills",
+      "MCP & Integrations", "Models & Frameworks", "Builders", "My Learning", "LinkedIn Queue"]
+      .forEach(label => { if (!d.getElementById("agent-modebar").textContent.includes(label)) throw new Error("missing tab: " + label); });
+    ["today", "agent_builds", "workflows", "mvps", "skills", "mcp", "models_frameworks", "builders", "my_learning", "linkedin_queue"]
+      .forEach(value => {
+        const button = d.querySelector('#agent-modebar button[data-v="' + value + '"]');
+        if (!button) throw new Error("missing tab control: " + value);
+        button.click();
+        if (button.getAttribute("aria-selected") !== "true" && !d.querySelector('#agent-modebar button[data-v="' + value + '"]').classList.contains("active"))
+          throw new Error("tab did not activate: " + value);
+      });
     if (!d.getElementById("tab-agents").textContent.includes("Model proposes"))
       throw new Error("agent-loop explainer missing");
+    if (!d.getElementById("agent-health").textContent) throw new Error("source health missing");
   });
 
-  check("Agent brief parses, shows a practical teardown, and hands facts to LinkedIn/X", () => {
+  check("manual discovery capture keeps raw source text local", () => {
+    d.getElementById("agent-cap-title").value = "Builder ships a content agent";
+    d.getElementById("agent-cap-url").value = "https://example.com/content-agent";
+    d.getElementById("agent-cap-author").value = "Example Builder";
+    d.getElementById("agent-cap-kind").value = "agent_builds";
+    d.getElementById("agent-cap-text").value = "The builder says research and drafting are automated, while publishing remains manual.";
+    w.agentSaveCapture();
+    const captures = JSON.parse(w.localStorage.getItem("agentCaptures") || "{}");
+    const item = Object.values(captures).find(x => x.u === "https://example.com/content-agent");
+    if (!item || !item.sm.includes("publishing remains manual")) throw new Error("manual capture was not stored locally");
+    if (w.boardState().agentCaptures) throw new Error("raw manual captures leaked into convenience sync");
+    const synced = w.boardState().agentLearning[item.ak];
+    if (!synced || !synced.snapshot || synced.snapshot.sm) throw new Error("manual source text leaked through the saved-learning snapshot");
+    w.agentOpen(item.ak);
+    if (!d.getElementById("agent-modal-body").textContent.includes("Export with local source text"))
+      throw new Error("manual source export was not made an explicit choice");
+  });
+
+  check("Agent learning rejects generic text and hands off only reviewed evidence", () => {
     const it = (w.__AGENT_ITEMS || [])[0];
     if (!it || !it.ak) throw new Error("no agent item available");
     const wasDone = w.__doneSet.has(it.u);
     w.agentOpen(it.ak);
     if (d.getElementById("agentmodal").hidden) throw new Error("agent modal did not open");
     d.getElementById("agent-facts").value = "File writes require explicit approval before execution.";
+    w.agentRefreshPrompt(false);
     w.agentCopyPrompt();
-    if (!copied.includes("Use ONLY the supplied source facts")) throw new Error("research prompt missing evidence rule");
-    d.getElementById("agent-raw").value = AGENT_BRIEF_OUTPUT;
+    if (!copied.includes("SOURCE MATERIAL")) throw new Error("selected evidence missing from prompt");
+    if (!copied.includes("[S1]")) throw new Error("numbered source pack missing");
+    if (!copied.includes("[[ITEM_KEY]]")) throw new Error("versioned identity contract missing");
+    d.getElementById("agent-raw").value = "This is a useful agent that saves time for businesses.";
     w.agentValidateBrief();
-    const saved = JSON.parse(w.localStorage.getItem("agentBriefs") || "{}")[it.ak];
+    if ((JSON.parse(w.localStorage.getItem("agentBriefs") || "{}"))[it.ak])
+      throw new Error("generic paragraph was accepted as a brief");
+    const response = AGENT_BRIEF_OUTPUT
+      .replace("__ITEM_KEY__", it.ak)
+      .replace("__SOURCE_REVISION__", w.agentSourceRevision(it, d.getElementById("agent-facts").value))
+      .replace("__SOURCE_URL__", it.u);
+    d.getElementById("agent-raw").value = response.replace(/\[S1\]/g, "[S9]");
+    w.agentValidateBrief();
+    if ((JSON.parse(w.localStorage.getItem("agentBriefs") || "{}"))[it.ak])
+      throw new Error("unsupported source IDs were accepted");
+    d.getElementById("agent-raw").value = response;
+    w.agentValidateBrief();
+    let saved = JSON.parse(w.localStorage.getItem("agentBriefs") || "{}")[it.ak];
     if (!saved || saved.contentReadiness !== "ready") throw new Error("brief was not saved as ready");
-    w.agentSetView("practical");
-    if (!d.getElementById("agent-view-body").textContent.includes("Review a proposed file write"))
-      throw new Error("practical teardown not shown");
+    if (saved.reviewed) throw new Error("parsing incorrectly marked claims reviewed");
+    const beforeWrongItem = saved.updatedAt;
+    d.getElementById("agent-raw").value = response.replace(it.ak, "another-item");
+    w.agentValidateBrief();
+    saved = JSON.parse(w.localStorage.getItem("agentBriefs") || "{}")[it.ak];
+    if (saved.updatedAt !== beforeWrongItem) throw new Error("wrong-item response overwrote a good brief");
+    w.agentToggleClaim(0, true);
+    w.agentToggleClaim(1, true);
+    saved = JSON.parse(w.localStorage.getItem("agentBriefs") || "{}")[it.ak];
+    if (!saved.reviewed) throw new Error("claim review did not produce reviewed state");
+    w.agentSetView("build");
+    if (!d.getElementById("agent-view-body").textContent.includes("small file-edit assistant"))
+      throw new Error("proposed build plan not shown");
     w.agentSetView("content");
     if (!d.getElementById("agent-view-body").textContent.includes("Ready to draft"))
       throw new Error("content readiness not shown");
@@ -200,12 +297,18 @@ function runChecks() {
       throw new Error("handoff fabricated a firsthand note");
     if (w.__doneSet.has(it.u) !== wasDone) throw new Error("Agent handoff changed done/posted state");
     w.closeNewsroom();
-    w.agentUseX(it.ak);
-    if (d.getElementById("xmodal").hidden) throw new Error("X writer did not open");
-    if (!w.xPayload().prompt.includes("File writes require explicit approval"))
-      throw new Error("X writer did not receive verified facts");
-    w.closeXModal();
     w.agentClose();
+  });
+
+  check("source-excerpt LinkedIn fast path does not require a full teardown", () => {
+    const it = (w.__AGENT_ITEMS || []).find(x => x.sm && x.u);
+    if (!it) return;
+    const wasDone = w.__doneSet.has(it.u);
+    w.agentFastLinkedIn(it.ak);
+    if (d.getElementById("nrmodal").hidden) throw new Error("fast LinkedIn path did not open writer");
+    if (!d.getElementById("nr-excerpt").value.includes(it.sm.slice(0, 30))) throw new Error("source excerpt was not handed off");
+    if (w.__doneSet.has(it.u) !== wasDone) throw new Error("fast handoff changed posted state");
+    w.closeNewsroom();
   });
 
   /* use a REAL story from the baked-in feed so done-tracking behaves like production.

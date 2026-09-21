@@ -94,35 +94,54 @@ A bank of proven content formats plus today's top news rewritten into useful ang
 Personal-brand posters: the operator's own face presents the news. The face comes from a real photo — never AI-generated.
 
 ### 🤖 Agents & AI
-A research and operator radar for modern AI engineering and practical agent
-businesses. Four views separate all intelligence, things people built and shipped,
-agents running in businesses, and people selling agents. It combines the normal
-news archive with public GitHub agent repositories, runnable Hugging Face Spaces,
-Show HN projects, DEV builder posts, customer workflows and agent-business searches.
-These discoveries use public feeds/APIs and do not need a paid data service.
-They are stored in `agent_discoveries`, separate from ordinary `items`, and are
-only emitted into the private Studio's Agent feed. They never enter public news,
-alerts, rankings, trends or digests.
+A research workspace for discovering, understanding, and explaining real AI work.
+Discovery navigation is grouped into **Today**, **Agent Builds**, **Real-World
+Workflows**, **MVPs & Products**, **Agent Skills**, **MCP & Integrations**,
+**Models & Frameworks**, and **Builders**. **My Learning** and **LinkedIn Queue**
+are workspace views. The older built/operations/selling metadata remains visible
+on cards and compatible with saved items.
 
-Discovery cards show title, source, source publication date, engineering and
-practical tags, source type hints, learning state and evidence-brief status. The section keeps
-`published` separate from `collected`, so a story found today is not relabelled
-as a release from today.
+The collector uses bounded public feeds/APIs for GitHub repository query families,
+Hugging Face Spaces, Show HN, DEV, customer workflows, MVP launches, Agent Skills,
+MCP integrations, and builder/business case studies. Each adapter fails
+independently. The UI shows last-attempt/last-success health where available and
+does not pretend this covers the whole internet. Discoveries remain in
+`agent_discoveries`, separate from `items`; they never enter public news, alerts,
+rankings, Trends/Pulse, or public digests. `published` and `collected` remain
+separate events.
 
-The evidence brief flow is no-model-API by default: paste source facts/notes, copy
-the research prompt, paste the marker response back, then save the normalized
-brief. It records both the technical system and the practical teardown: task,
-user/buyer, stack, workflow, human approvals, business model, distribution,
-proof of use, business caveats and a small version worth building.
-Raw pasted source text stays in the local form and is not synced by default.
-Saved/learning state and parsed briefs ride through the existing convenience
-board sync as `agentLearning` and `agentBriefs`; this is useful cross-device
-state, not private secure storage.
+**Learning-first journey:** open **Learn / Copy prompt**, review or paste source
+material, choose one of four modes (Explain + Build, Technical Deep Dive, Build a
+Similar MVP, LinkedIn Research), and optionally set level, stack, constraints,
+and sources-only/research-enabled policy. The editable prompt includes numbered
+`S1`/`S2` evidence, known gaps, item key, and source revision. The v2 marker
+response keeps supported facts, attributed claims, unknowns, original-system
+details, proposed blueprint, tests, failure cases, permissions, cost tradeoffs,
+learning takeaways, and LinkedIn angles separate.
 
-A content-ready brief can hand verified facts into the existing LinkedIn writer,
-which already returns a post and optional image prompt, or into the existing X
-writer and assisted/API posting flow. Opening a writer does not mark the story
-done and never fabricates a firsthand experiment claim.
+Import validation rejects a generic paragraph, malformed or shallow ready
+responses, unsupported source IDs, a wrong item key, a stale source revision,
+and a missing selected-source URL. A successful parse does **not** establish
+truth. Each cited claim must be checked in the Source evidence pane before the
+brief becomes content-ready. Older saved briefs remain readable but do not
+overwrite a newer validated brief or silently become reviewed.
+
+**Content-first journey:** **Create LinkedIn draft** sends a supplied source
+excerpt directly to the existing LinkedIn writer; a full technical teardown is
+optional. Reviewed brief facts can also be handed off, but proposed architecture
+never becomes evidence about the original project. The queue tracks researching,
+needs evidence, ready for drafting, draft ready, posted, and skipped independently
+from learning progress. Only the existing explicit **Mark as posted** action
+records publication.
+
+Manual **Add a discovery** accepts a public URL, optional builder/date, and pasted
+source text. URL-only captures remain visibly evidence-poor. Compare prompts,
+builder follows over already-collected results, seven-day private catch-up,
+Markdown research-pack export, terminology help, and saved snapshots that survive
+feed expiry reuse the same story identity. Raw pasted captures and personal
+takeaways stay in local storage by default, and manual source text is included in
+an export only by an explicit local-source action. Parsed briefs and lightweight
+public learning/queue state use the existing convenience sync, which is not secure auth.
 
 ### 📈 Trends / Pulse / Research
 Rising topic signals week-over-week; what people are using, searching and struggling with (Pulse, from Reddit / HN / YouTube / Google); and daily AI papers for learning. Pulse *reads* those platforms as signal sources — reading a platform is not publishing to it.
@@ -166,7 +185,7 @@ Rising topic signals week-over-week; what people are using, searching and strugg
 3. **Show the guard rails** — clear the pasted facts and run it again: the writer answers `needs_input` and asks instead of inventing.
 4. **Copy post → Open LinkedIn** — and point out that neither marks the story done; only ✓ does.
 5. **🛠️ Practical mode** on the same story — a checklist or decision question instead of commentary.
-6. **🤖 Agents & AI** — save an agent/RAG/model item, paste source facts, validate a brief, then hand verified facts into LinkedIn.
+6. **🤖 Agents & AI** — open an Agent Build, copy the evidence-filled Explain + Build prompt, show that a paragraph is rejected, import the cited response, review each claim, then hand only reviewed facts into LinkedIn. Also show the direct source-excerpt path.
 7. **⭐ Me** — a personal-brand poster for the same headline.
 8. **📈 Pulse / Trends** — where the next story ideas come from.
 9. Finish on the **public website** — the audience-facing side, rebuilt hourly.

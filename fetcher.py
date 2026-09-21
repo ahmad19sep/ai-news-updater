@@ -5,6 +5,7 @@ to the database. Also fetches Hugging Face papers and public agent projects.
 """
 
 import html
+import json
 import os
 import re
 import time
@@ -23,6 +24,18 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AINewsRadar/
 
 REQUEST_TIMEOUT = 15   # seconds per feed (parallel, so this caps total wall time)
 MAX_WORKERS = 16       # feeds downloaded concurrently
+
+
+def _health_update(health, source, ok, detail=""):
+    """Record collection health without turning one adapter failure into a run failure."""
+    now = datetime.now(timezone.utc).isoformat()
+    previous = health.get(source) if isinstance(health.get(source), dict) else {}
+    health[source] = {
+        "last_attempt": now,
+        "last_success": now if ok else previous.get("last_success"),
+        "state": "healthy" if ok else "failed",
+        "detail": str(detail or "")[:160],
+    }
 
 
 def _entry_published(entry):
@@ -420,6 +433,7 @@ def _save_discovery_stories(conn, existing, stats, source, stories, max_age_days
     conn.commit()
     if new_count:
         print(f"  [+] {source}: {new_count} new")
+    return new_count
 
 
 def fetch_hf_agent_spaces(conn, existing, stats):
@@ -437,42 +451,48 @@ def fetch_hf_agent_spaces(conn, existing, stats):
     except Exception as e:
         print(f"  [!] {source}: failed ({type(e).__name__})")
         stats["failed_feeds"].append(source)
-        return
+        return False, type(e).__name__
     _save_discovery_stories(
         conn, existing, stats, source,
         [_hf_space_story(space) for space in data],
     )
+    return True, ""
 
 
 def fetch_github_agent_repos(conn, existing, stats):
-    """Discover recent open-source agent builds from GitHub repository search."""
-    source = "GitHub Agent Builds"
+    """Run a bounded family of public repository searches independently."""
     since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
     headers = dict(HEADERS)
     headers.update({
         "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
+        "X-GitHub-Api-Version": "2026-03-10",
     })
     token = os.environ.get("GITHUB_TOKEN", "").strip()
     if token:
         headers["Authorization"] = "Bearer " + token
-    try:
-        resp = requests.get("https://api.github.com/search/repositories", params={
-            "q": f"topic:ai-agents created:>={since} stars:>=3",
-            "sort": "stars", "order": "desc", "per_page": 20,
-        }, headers=headers, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
-        data = resp.json().get("items") or []
-        if not isinstance(data, list):
-            raise ValueError("unexpected response")
-    except Exception as e:
-        print(f"  [!] {source}: failed ({type(e).__name__})")
-        stats["failed_feeds"].append(source)
-        return
-    _save_discovery_stories(
-        conn, existing, stats, source,
-        [_github_repo_story(repo) for repo in data],
-    )
+    results = {}
+    for query in getattr(config, "AGENT_GITHUB_QUERIES", []):
+        source = query["name"]
+        try:
+            resp = requests.get("https://api.github.com/search/repositories", params={
+                "q": query["query"].format(since=since),
+                "sort": "stars", "order": "desc", "per_page": int(query.get("limit", 10)),
+            }, headers=headers, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            payload = resp.json()
+            data = payload.get("items") or []
+            if not isinstance(data, list):
+                raise ValueError("unexpected response")
+            _save_discovery_stories(
+                conn, existing, stats, source,
+                [_github_repo_story(repo) for repo in data],
+            )
+            results[source] = (True, "partial search results" if payload.get("incomplete_results") else "")
+        except Exception as e:
+            print(f"  [!] {source}: failed ({type(e).__name__})")
+            stats["failed_feeds"].append(source)
+            results[source] = (False, type(e).__name__)
+    return results
 
 
 def run_fetch():
@@ -482,6 +502,10 @@ def run_fetch():
                 database.recent_items(conn, config.DUPLICATE_WINDOW_HOURS)]
     stats = {"new": 0, "grouped": 0, "junk": 0, "not_ai": 0,
              "failed_feeds": [], "alerts": []}
+    try:
+        source_health = json.loads(database.get_meta(conn, "agent_source_health", "{}") or "{}")
+    except (TypeError, ValueError):
+        source_health = {}
 
     print(f"Fetching {len(config.FEEDS)} feeds in parallel (x{MAX_WORKERS}) + project discovery + NewsData ...")
     t0 = time.time()
@@ -490,14 +514,20 @@ def run_fetch():
         downloaded = list(ex.map(_download_feed, config.FEEDS))
     # 2) save serially on the main thread (SQLite + de-dup ordering)
     for feed_cfg, parsed, reddit_map in downloaded:
+        if feed_cfg.get("agent_only"):
+            ok = parsed is not None and bool(parsed.entries)
+            _health_update(source_health, feed_cfg["name"], ok, "" if ok else "feed unavailable or empty")
         if parsed is None or not parsed.entries:
             stats["failed_feeds"].append(feed_cfg["name"])
             continue
         _process_feed(conn, feed_cfg, parsed, reddit_map, existing, stats)
     print(f"  Feeds fetched in {time.time() - t0:.0f}s")
     fetch_hf_papers(conn, existing, stats)
-    fetch_hf_agent_spaces(conn, existing, stats)
-    fetch_github_agent_repos(conn, existing, stats)
+    hf_ok, hf_detail = fetch_hf_agent_spaces(conn, existing, stats)
+    _health_update(source_health, "Hugging Face Agent Spaces", hf_ok, hf_detail)
+    for source, (ok, detail) in fetch_github_agent_repos(conn, existing, stats).items():
+        _health_update(source_health, source, ok, detail)
+    database.set_meta(conn, "agent_source_health", json.dumps(source_health, sort_keys=True))
     fetch_newsdata(conn, existing, stats)
 
     # --- Summary ---

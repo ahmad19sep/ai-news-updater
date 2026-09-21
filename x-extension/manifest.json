@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "AI Radar — Send to Studio",
-  "version": "1.1.0",
-  "description": "Capture an X or LinkedIn post and send it to AI Radar Studio — for replies (X) or to repurpose into your own content. Manual only — never scrapes in the background, never posts for you.",
-  "permissions": ["activeTab", "scripting"],
+  "version": "1.2.0",
+  "description": "Capture an X or LinkedIn post for AI Radar research, Repurpose, or Write. Manual only — never scrapes in the background and never posts for you.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
   "host_permissions": [
     "https://x.com/*",
     "https://twitter.com/*",

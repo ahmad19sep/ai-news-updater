@@ -8,6 +8,7 @@ const FIREBASE_URL = "https://aixahmad-studio-default-rtdb.asia-southeast1.fireb
 const prevEl = document.getElementById("prev");
 const platEl = document.getElementById("plat");
 const stEl = document.getElementById("st");
+const radarBtn = document.getElementById("radar");
 const repBtn = document.getElementById("rep");
 const xminiBtn = document.getElementById("xmini");
 
@@ -41,7 +42,7 @@ function grab() {
 let current = null;
 grab().then(d => {
   current = d;
-  if (d && d._bad) { prevEl.textContent = "Open a post on X or LinkedIn first."; platEl.textContent = "—"; repBtn.disabled = true; xminiBtn.disabled = true; return; }
+  if (d && d._bad) { prevEl.textContent = "Open a post on X or LinkedIn first."; platEl.textContent = "—"; radarBtn.disabled = true; repBtn.disabled = true; xminiBtn.disabled = true; return; }
   if (d && d.post_text) {
     platEl.textContent = d.platform === "linkedin" ? "LinkedIn" : "X";
     xminiBtn.disabled = false;
@@ -51,12 +52,12 @@ grab().then(d => {
 
 async function send(node, build, label) {
   setStatus("Reading post…");
-  repBtn.disabled = xminiBtn.disabled = true;
+  radarBtn.disabled = repBtn.disabled = xminiBtn.disabled = true;
   const d = current || await grab();
   current = d;
   if (!d || d._bad || !d.post_text) {
     setStatus("Couldn't read a post — open the tweet (or select the text), then retry.", "err");
-    repBtn.disabled = false; xminiBtn.disabled = false; return;
+    radarBtn.disabled = false; repBtn.disabled = false; xminiBtn.disabled = false; return;
   }
   const id = String(Date.now());
   const body = build(d, id);
@@ -68,8 +69,34 @@ async function send(node, build, label) {
     if (r.ok) setStatus("✅ Sent! Open Studio → " + label + ".", "ok");
     else setStatus("Blocked — add a /" + node + " Firebase rule.", "err");
   } catch (e) { setStatus("Failed: " + e.message, "err"); }
-  repBtn.disabled = false; xminiBtn.disabled = false;
+  radarBtn.disabled = false; repBtn.disabled = false; xminiBtn.disabled = false;
 }
+
+radarBtn.onclick = async () => {
+  setStatus("Preparing local capture…");
+  radarBtn.disabled = repBtn.disabled = xminiBtn.disabled = true;
+  const d = current || await grab(); current = d;
+  if (!d || d._bad || !d.post_text) {
+    setStatus("Couldn't read a post - open it or select its text, then retry.", "err");
+    radarBtn.disabled = repBtn.disabled = xminiBtn.disabled = false; return;
+  }
+  const first = String(d.post_text).replace(/\s+/g, " ").trim().slice(0, 110);
+  const capture = {
+    version: 1,
+    title: (d.author_name ? d.author_name + ": " : "") + first,
+    source_url: d.source_url || "",
+    author: d.author_name || d.author_handle || "",
+    source_date: "",
+    source_text: d.post_text || "",
+    platform: d.platform || "web"
+  };
+  try {
+    await navigator.clipboard.writeText("AI_RADAR_DISCOVERY_V1\n" + JSON.stringify(capture));
+    setStatus("Copied. In Studio choose Add a discovery -> Import copied discovery.", "ok");
+    chrome.tabs.create({ url: "https://ahmad19sep.github.io/ai-news-updater/studio.html#agents" });
+  } catch (e) { setStatus("Clipboard failed: " + e.message, "err"); }
+  radarBtn.disabled = repBtn.disabled = xminiBtn.disabled = false;
+};
 
 repBtn.onclick = () => send("social_captures", (d, id) => {
   const now = new Date().toISOString();

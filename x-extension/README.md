@@ -1,7 +1,12 @@
 # AI Radar — "Send to Studio" extension (X + LinkedIn)
 
 Capture a post you're viewing on **X or LinkedIn** and send it to AI Radar Studio.
-Two destinations from one popup:
+Three destinations from one popup:
+
+- **Save to AI Radar** → copies a structured local capture and opens Studio. In
+  **Agents & AI**, choose **Add a discovery → Import copied discovery**, review
+  the source text and type, then save. This path does not put the raw post into
+  Firebase.
 
 - **♻️ Repurpose this post** → Studio **Repurpose** tab. The AI decides the smartest
   move and writes original X / LinkedIn / comment versions for your brand (no copying).
@@ -21,7 +26,7 @@ It only acts when you click — it never scrapes in the background and never pos
 ## Use
 1. On **x.com** or **linkedin.com**, open a post.
    - On **LinkedIn**, **select the post text first** (most reliable).
-2. Click the extension → **♻️ Repurpose** (or **✍️ Write**).
+2. Click the extension → **Save to AI Radar**, **♻️ Repurpose**, or **✍️ Write**.
 3. Open Studio → **Repurpose** → **🤖 Open in Claude / ⚡ ChatGPT**,
    paste the JSON it returns back, **Save**, then Copy the version you like.
 
