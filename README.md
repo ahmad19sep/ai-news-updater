@@ -44,6 +44,20 @@ Your audience and any personal note are remembered in synced settings, so you
 set them once. Firsthand claims ("I tested this") only appear when you supply a
 real note; otherwise the post stays an attributed explanation.
 
+## Agent & AI Radar
+
+The Studio now has **🤖 Agents & AI**, a learning-first section for modern AI
+engineering: model shifts, agent loops, RAG/context, real deployed agents,
+evaluations/safety and AGI-watch signals. It classifies existing stories
+deterministically, keeps source publication dates separate from collection time,
+and works without an API.
+
+Use it to save an item, mark your learning state (`unread`, `read`, `studying`,
+`understood`, `tested`), paste source facts, copy a research-brief prompt, paste
+the marker response back, and save a structured brief. A content-ready brief can
+hand verified facts into the existing LinkedIn draft flow. It never posts, never
+marks a story handled, and never turns a suggested experiment into "I tested it."
+
 ## Setup (one time)
 
 ```
@@ -64,6 +78,7 @@ pip install -r requirements.txt
 | `python generate_pulse.py` | Rebuild the Pulse signals (`docs/pulse.json`) |
 | `python reclassify.py` | Re-sort the archive after editing category rules |
 | `node dump_prompts.js` | Regenerate `PROMPTS.md` from `docs/templates.js` |
+| `python -m unittest test_agent_ai_radar.py` | Agent & AI classifier tests |
 | `node smoke_test.js` | Prompt-library + boot checks (needs `npm i --no-save jsdom`) |
 | `node ui_test.js` | Drives the studio UI: every tab + the whole draft flow |
 
@@ -102,6 +117,7 @@ Stories are sorted by **what the title talks about** (keyword rules in
 
 **Studio + sites**
 - `generate_site.py` — builds the private studio (`docs/studio.html`)
+- `agent_ai_radar.py` — deterministic Agent & AI topic/source classifier for the Studio
 - `docs/templates.js` — **the prompts** (authored source; `docs/studio.html` is generated)
 - `generate_public.py` — builds the public news site; `generate_pulse.py` + `collectors/` + `analyzer/` — Pulse signals
 - `x-worker/` — optional Cloudflare Worker for X (draft or post; never posts without an explicit action)

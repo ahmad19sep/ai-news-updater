@@ -15,7 +15,7 @@ const tpl = fs.readFileSync(path.join(__dirname, "docs", "templates.js"), "utf8"
 const win = {};
 new Function("window", tpl)(win);
 {
-  ["HUMAN_VOICE", "LINKEDIN_CONTRACT", "buildLinkedInPrompt", "buildXPrompt",
+  ["HUMAN_VOICE", "LINKEDIN_CONTRACT", "buildLinkedInPrompt", "buildAgentBriefPrompt", "buildXPrompt",
     "buildPostRepurposePrompt", "buildMePosterPrompt", "buildAnthropicWritePrompt", "INSPIRE_IDEAS"]
     .forEach(k => { if (!win[k]) fail("templates.js no longer exports " + k); });
   /* the Create wizard and its TikTok/IG/FB/WhatsApp video libraries are retired */
@@ -53,6 +53,26 @@ new Function("window", tpl)(win);
   if (!/personal note/i.test(full)) fail("missing the firsthand-claim guard");
 
   ok("LinkedIn writer: two modes, LinkedIn-only, reads the source, never asks the operator");
+}
+
+/* ---------- 2b. Agent & AI brief prompt: evidence-only marker contract ---------- */
+{
+  const p = win.buildAgentBriefPrompt({
+    title: "Agent runtime adds tool approval",
+    source: "https://example.com/agents",
+    sourceType: "official",
+    tags: ["Agent Loops", "Eval & Safety"],
+    published: "2026-09-01",
+    facts: "The runtime requires explicit approval before file writes."
+  });
+  ["[[STATUS]]", "[[WHAT_CHANGED]]", "[[AGENT_LOOP]]", "[[AUTONOMY_BOUNDARY]]",
+    "[[VERIFIED_FACTS]]", "[[CONTENT_READINESS]]", "[[PRIVATE_REVIEW_NOTES]]", "[[END]]"]
+    .forEach(m => { if (!p.includes(m)) fail("agent brief marker missing: " + m); });
+  if (!/Use ONLY the supplied source facts/.test(p)) fail("agent brief lost the evidence-only rule");
+  if (!/Do not pretend you opened the URL/.test(p)) fail("agent brief can imply fake browsing");
+  if (!/Model proposes; system authorizes/i.test(p)) fail("agent brief lost autonomy-boundary framing");
+  if (!/needs_input/.test(p)) fail("agent brief no longer supports needs_input");
+  ok("Agent & AI brief prompt: evidence-only marker contract");
 }
 
 /* ---------- 3. no engagement bait is forced on any post ---------- */

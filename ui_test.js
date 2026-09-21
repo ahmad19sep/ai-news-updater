@@ -56,7 +56,61 @@ Example Corp announcement - https://example.com
 [[MISSING]]
 [[END]]`;
 
-setTimeout(() => {
+const AGENT_BRIEF_OUTPUT = `
+[[STATUS]]
+ready
+[[MODEL_PRODUCT_VERSION]]
+Example Agent Runtime 1.0
+[[EVENT_DATE]]
+unknown
+[[AVAILABILITY]]
+preview
+[[SOURCE_TYPE]]
+official_release
+[[WHAT_CHANGED]]
+Example Corp added explicit tool approval to its agent runtime.
+[[HOW_IT_WORKS]]
+The supplied facts say file writes require approval before execution.
+[[WHY_IT_MATTERS]]
+Teams can separate model-suggested actions from deterministic authorization.
+[[SYSTEM_PATTERN]]
+bounded_agent
+[[AGENT_LOOP]]
+Goal -> context -> proposed tool call -> approval -> execution -> observation.
+[[RAG_CONTEXT_ROLE]]
+No retrieval role was established by the supplied facts.
+[[AUTONOMY_BOUNDARY]]
+The model proposes a file write; policy or a human approves it.
+[[VERIFIED_FACTS]]
+- File writes require explicit approval before execution.
+[[CLAIM_STATUS]]
+- Source fact: file writes require explicit approval.
+- Interpretation: this separates suggestion from authorization.
+[[LIMITATIONS]]
+- No benchmark numbers were supplied.
+[[PREREQUISITES]]
+- A runtime with policy checks.
+[[LEARN_NEXT]]
+Study tool authorization and idempotent side effects.
+[[EXPERIMENT]]
+Build a toy agent that must request approval before writing a file.
+[[CONTENT_QUESTION]]
+What should an AI agent be allowed to change without asking?
+[[EXPLANATORY_ANGLE]]
+Agent autonomy is mostly a permissions design problem.
+[[ENGINEERING_ANGLE]]
+Put approval between model intent and side effects.
+[[MUST_NOT_CLAIM]]
+- Do not claim the system is fully autonomous.
+[[CONTENT_READINESS]]
+ready
+[[SOURCES]]
+Example Corp | official release | https://example.com/agent | unknown
+[[PRIVATE_REVIEW_NOTES]]
+No firsthand testing was supplied.
+[[END]]`;
+
+function runChecks() {
   const w = dom.window, d = w.document;
   /* the page loads templates.js by relative URL, which JSDOM can't fetch from a
      github.io origin - evaluate the real file into the page instead */
@@ -79,10 +133,53 @@ setTimeout(() => {
     w.switchTab("news");
   });
 
+  check("Agents & AI tab renders filters and the mental model", () => {
+    if (!(w.__AGENT_ITEMS || []).length) {
+      w.__AGENT_ITEMS.push({ ak: "agenttest001", t: "Example agent runtime adds approval",
+        u: "https://example.com/agent", s: "Example Corp", p: 2,
+        pub: "2026-09-01T00:00:00+00:00", col: "2026-09-02T00:00:00+00:00",
+        sm: "", sc: 1, links: [], primary: "agent_loops",
+        topics: ["agent_loops", "eval_safety"], secondary: ["tool calling"],
+        sourceType: "official" });
+    }
+    w.switchTab("agents");
+    if (d.getElementById("tab-agents").hidden) throw new Error("agents tab stayed hidden");
+    if (!d.getElementById("agent-topicbar").textContent.includes("Agent Loops"))
+      throw new Error("topic filters missing");
+    if (!d.getElementById("tab-agents").textContent.includes("Model proposes"))
+      throw new Error("agent-loop explainer missing");
+  });
+
+  check("Agent brief parses, saves, and hands verified facts to LinkedIn without posting", () => {
+    const it = (w.__AGENT_ITEMS || [])[0];
+    if (!it || !it.ak) throw new Error("no agent item available");
+    const wasDone = w.__doneSet.has(it.u);
+    w.agentOpen(it.ak);
+    if (d.getElementById("agentmodal").hidden) throw new Error("agent modal did not open");
+    d.getElementById("agent-facts").value = "File writes require explicit approval before execution.";
+    w.agentCopyPrompt();
+    if (!copied.includes("Use ONLY the supplied source facts")) throw new Error("research prompt missing evidence rule");
+    d.getElementById("agent-raw").value = AGENT_BRIEF_OUTPUT;
+    w.agentValidateBrief();
+    const saved = JSON.parse(w.localStorage.getItem("agentBriefs") || "{}")[it.ak];
+    if (!saved || saved.contentReadiness !== "ready") throw new Error("brief was not saved as ready");
+    w.agentSetView("content");
+    if (!d.getElementById("agent-view-body").textContent.includes("Ready to draft"))
+      throw new Error("content readiness not shown");
+    w.agentUseLinkedIn(it.ak);
+    if (d.getElementById("nrmodal").hidden) throw new Error("LinkedIn draft did not open");
+    if (!d.getElementById("nr-excerpt").value.includes("File writes require explicit approval"))
+      throw new Error("verified facts did not hand off");
+    if (d.getElementById("nr-note").value && d.getElementById("nr-note").value.includes("tested"))
+      throw new Error("handoff fabricated a firsthand note");
+    if (w.__doneSet.has(it.u) !== wasDone) throw new Error("Agent handoff changed done/posted state");
+    w.agentClose();
+  });
+
   /* use a REAL story from the baked-in feed so done-tracking behaves like production.
      top-level let/const are not window properties, so reach them through page eval */
-  const story = JSON.parse(w.eval("JSON.stringify(ITEMS.find(i => i.u && !doneSet.has(i.u)))"));
-  const isDone = () => w.eval("doneSet.has(" + JSON.stringify(story.u) + ")");
+  const story = (w.__ITEMS || []).find(i => i.u && !w.__doneSet.has(i.u));
+  const isDone = () => w.__doneSet.has(story.u);
   check("LinkedIn draft opens on a real story from the feed", () => {
     if (!story || !story.u) throw new Error("no usable story in the feed");
     w.openNewsroom(story);
@@ -95,7 +192,7 @@ setTimeout(() => {
      plain block at the bottom of the page - it "opens" and the user sees nothing.
      Assert it is actually positioned over the page. */
   check("open modals are positioned overlays, not blocks at the page bottom", () => {
-    ["nrmodal", "xmodal", "pubmodal"].forEach(id => {
+    ["nrmodal", "xmodal", "pubmodal", "agentmodal"].forEach(id => {
       const el = d.getElementById(id);
       if (!el) throw new Error("missing modal: " + id);
       const wasHidden = el.hidden;
@@ -224,4 +321,15 @@ setTimeout(() => {
 
   console.log(fails.length ? "\n" + fails.map(f => "FAIL " + f).join("\n") : "\nall UI checks passed");
   process.exit(fails.length ? 1 : 0);
-}, 2000);
+}
+
+function waitForBoot(tries) {
+  const w = dom.window;
+  if (typeof w.switchTab === "function" && Array.isArray(w.__ITEMS)) return runChecks();
+  if (tries > 80) {
+    console.error("FAIL: studio did not finish booting in JSDOM");
+    process.exit(1);
+  }
+  setTimeout(() => waitForBoot(tries + 1), 100);
+}
+waitForBoot(0);

@@ -22,6 +22,7 @@ import os
 from datetime import datetime, timezone
 
 import config
+import agent_ai_radar
 import database
 import scoring
 
@@ -284,13 +285,43 @@ PAGE = r"""<!doctype html>
   .chk input { width:16px; height:16px; accent-color:#65a30d; }
   .calpost.publish { background:var(--gold-soft); color:var(--gold); }
 
+  /* ---------- Agent & AI Radar ---------- */
+  .agent-hero { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);
+          gap:14px; align-items:start; margin-top:18px; }
+  .agent-loop { background:var(--surface); border:1px solid var(--line); border-radius:14px;
+          padding:16px 18px; box-shadow:var(--shadow-sm); }
+  .agent-loop h3, .agent-path h3 { margin:0 0 7px; font:700 15px var(--display); }
+  .agent-flow { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0; }
+  .agent-flow span { background:var(--surface2); border:1px solid var(--line); color:var(--text);
+          border-radius:999px; padding:5px 10px; font:700 11px var(--mono); }
+  .agent-path ol { margin:8px 0 0; padding-left:19px; }
+  .agent-path li { margin:3px 0; font-size:12.5px; color:var(--dim); }
+  .agent-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:10px; }
+  .agent-card { cursor:default; }
+  .agent-title { font-size:14.5px; font-weight:700; line-height:1.38; margin:0 0 8px; }
+  .agent-status { background:var(--surface2); border:1px solid var(--line); color:var(--dim);
+          border-radius:999px; padding:2px 9px; font:700 10.5px var(--mono); }
+  .agent-status.ready { background:var(--green-soft); color:var(--green); }
+  .agent-status.need { background:var(--gold-soft); color:var(--gold); }
+  .agent-actions { display:flex; flex-wrap:wrap; gap:6px; margin-top:11px; }
+  .agent-actions .ghost, .agent-actions .btn { padding:7px 12px; font-size:12px; min-height:34px; }
+  .agent-modal-tabs { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 12px; }
+  .agent-modal-tabs button.active { background:var(--text); color:#fff; border-color:var(--text); }
+  .agent-field { border:1px solid var(--line); border-radius:10px; padding:10px 12px;
+          background:var(--surface2); margin:8px 0; white-space:pre-wrap; }
+  .agent-field b { display:block; font-size:12px; color:var(--dim); margin-bottom:4px; }
+  .agent-safe-list { margin:6px 0 0; padding-left:18px; }
+  .agent-safe-list li { margin:3px 0; }
+  .agent-source { overflow-wrap:anywhere; }
+  @media (max-width:820px) { .agent-hero { grid-template-columns:1fr; } }
+
   /* ---------- modals: the overlay that centres a .mbox over the page.
      Without this rule a modal still "opens" (hidden=false) but renders as a
      plain block at the bottom of the document, so it looks like the button
      did nothing. [hidden] above is !important, so it still wins when closed. */
-  #xmodal, #pubmodal, #nrmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
+  #xmodal, #pubmodal, #nrmodal, #agentmodal { position:fixed; inset:0; z-index:320; background:rgba(15,23,42,.35);
           display:flex; align-items:center; justify-content:center; padding:18px; }
-  #pubmodal .mbox, #nrmodal .mbox { max-height:92vh; overflow-y:auto; }
+  #pubmodal .mbox, #nrmodal .mbox, #agentmodal .mbox { max-height:92vh; overflow-y:auto; }
   .mbox { background:var(--surface); border-radius:16px; box-shadow:var(--shadow-lg);
           width:min(520px, 96vw); max-height:92vh; overflow-y:auto; padding:26px 26px 22px; }
   .mbox input[type=text], .mbox textarea { width:100%; }
@@ -478,6 +509,7 @@ PAGE = r"""<!doctype html>
       <button class="navitem" id="tabbtn-popular" onclick="switchTab('popular')">🔥 <span>Popular</span></button>
       <button class="navitem" id="tabbtn-trends" onclick="switchTab('trends')">📈 <span>Trends</span></button>
       <button class="navitem" id="tabbtn-pulse" onclick="switchTab('pulse')">⚡ <span>Pulse</span></button>
+      <button class="navitem" id="tabbtn-agents" onclick="switchTab('agents')">🤖 <span>Agents &amp; AI</span><span class="navcount" id="nc-agents"></span></button>
       <button class="navitem" id="tabbtn-research" onclick="switchTab('research')">📚 <span>Research</span></button>
       <div class="navgrp">Engagement</div>
       <button class="navitem" id="tabbtn-repurpose" onclick="switchTab('repurpose')">♻️ <span>Repurpose</span><span class="navcount" id="nc-rp"></span></button>
@@ -646,6 +678,37 @@ PAGE = r"""<!doctype html>
     <div id="pulse-body"></div>
   </section>
 
+  <section id="tab-agents" hidden>
+    <p class="note">Agent &amp; AI Radar tracks model shifts, agent engineering, RAG/context, real-world systems,
+      evaluations, and AGI signals for learning first and evidence-backed LinkedIn content second.</p>
+    <div class="agent-hero">
+      <div class="agent-loop">
+        <h3>Agent Loop - the mental model</h3>
+        <div class="agent-flow">
+          <span>Goal</span><span>Context</span><span>Decide</span><span>Authorize</span>
+          <span>Act</span><span>Observe</span><span>State</span><span>Verify</span><span>Stop / Escalate</span>
+        </div>
+        <p class="note" style="margin:8px 0 0"><b>Model proposes; system authorizes.</b> Context is instructions,
+          retrieved evidence and observations. Deterministic policy, permissions, budgets, tests and human approval
+          decide what may actually happen. RAG becomes part of context engineering, not something agents replace.</p>
+      </div>
+      <div class="agent-loop agent-path">
+        <h3>Learning path</h3>
+        <ol>
+          <li>RAG fundamentals</li><li>Retrieval + answer evaluation</li><li>Structured tool calling</li>
+          <li>Controlled workflows</li><li>Bounded agent loop</li><li>Durable execution + state/memory</li>
+          <li>Evaluation + observability</li><li>Advanced autonomy / multi-agent only when justified</li>
+        </ol>
+      </div>
+    </div>
+    <div class="search"><input id="agent-q" placeholder="Search models, agent loops, RAG, MCP, evals..."></div>
+    <div class="bar" id="agent-topicbar"></div>
+    <div class="bar" id="agent-timebar"></div>
+    <div class="bar" id="agent-userbar"></div>
+    <div class="count" id="agent-count"></div>
+    <div class="agent-grid" id="agent-list"></div>
+  </section>
+
   <section id="tab-research" hidden>
     <p class="note">📚 Research papers — for your own learning. Never ranked as video candidates.</p>
     <div id="rlist"></div>
@@ -790,6 +853,16 @@ PAGE = r"""<!doctype html>
     </div>
   </div>
 </div>
+<div id="agentmodal" hidden>
+  <div class="mbox" style="max-width:860px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+      <b style="font-size:15px">Agent &amp; AI Radar</b>
+      <span id="agent-modal-sub" style="font-size:11.5px;color:var(--faint)"></span>
+      <button class="ghost" style="margin-left:auto;padding:6px 11px" onclick="agentClose()">✕</button>
+    </div>
+    <div id="agent-modal-body"></div>
+  </div>
+</div>
 <div class="toast" id="toast"></div>
 
 <script src="templates.js?v=__CACHE__"></script>
@@ -858,7 +931,10 @@ if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) {
 
 const PILLARS = __PILLARS__;
 const ITEMS = __ITEMS__;
+const AGENT_ITEMS = __AGENT_ITEMS__;
 const TRENDS = __TRENDS__;
+window.__ITEMS = ITEMS;          /* exposed for local regression tests */
+window.__AGENT_ITEMS = AGENT_ITEMS;
 const PAGE = 60;
 const STATUSES = [
   ["idea", "Idea", "#94a3b8"], ["script", "Script", "#2563eb"],
@@ -875,6 +951,7 @@ function jload(key, fallback) {
 }
 const _done = jload("done", "[]");
 const doneSet = new Set(Array.isArray(_done) ? _done : []);
+window.__doneSet = doneSet;
 /* ---- cross-device "done" + "published" sync via Firebase (every device agrees) ---- */
 let POSTED = [];   /* signatures {u,t,l} of everything published, synced everywhere */
 function normT(s) { return (s || "").toLowerCase().replace(/[^a-z0-9 ]+/g, "").replace(/\s+/g, " ").trim(); }
@@ -942,9 +1019,13 @@ let editors = jload("editors", "[]");
 let enotes = jload("enotes", "{}");
 let ehist = jload("ehist", "[]");
 let settings = jload("settings", "{}");   /* shared config (e.g. Drive hook), synced to everyone */
+let agentLearning = jload("agentLearning", "{}");   /* {storyKey:{saved,status,updatedAt}} */
+let agentBriefs = jload("agentBriefs", "{}");       /* parsed evidence briefs; no raw pasted source text */
 let chatRead = jload("chatread", "{}");   /* {thread: lastSeenTs} per device — drives unread badges */
 let chatCounts = {};                       /* {thread: {total, unread, lastTs}} from the live watcher */
 function saveSettings() { localStorage.setItem("settings", JSON.stringify(settings)); schedulePush(); }
+function saveAgentLearning() { localStorage.setItem("agentLearning", JSON.stringify(agentLearning)); schedulePush(); try { renderAgents(); } catch (e) {} }
+function saveAgentBriefs() { localStorage.setItem("agentBriefs", JSON.stringify(agentBriefs)); schedulePush(); try { renderAgents(); } catch (e) {} }
 
 /* drop broken entries so one bad item can't blank the whole app */
 function sanitizeBoard() {
@@ -965,6 +1046,8 @@ function sanitizeBoard() {
   if (!Array.isArray(ehist)) ehist = [];
   ehist = ehist.filter(h => h && typeof h === "object");
   if (!settings || typeof settings !== "object" || Array.isArray(settings)) settings = {};
+  if (!agentLearning || typeof agentLearning !== "object" || Array.isArray(agentLearning)) agentLearning = {};
+  if (!agentBriefs || typeof agentBriefs !== "object" || Array.isArray(agentBriefs)) agentBriefs = {};
 }
 sanitizeBoard();
 let ROLE = localStorage.getItem("role") || "owner";
@@ -1014,7 +1097,8 @@ plans.forEach(p => { if (p.assignee === "Editor" && p.status === "idea") p.statu
 
 function boardState() {
   return { rev: Date.now(), plans: plans, etasks: etasks, editors: editors,
-    enotes: enotes, ehist: ehist, settings: settings };
+    enotes: enotes, ehist: ehist, settings: settings,
+    agentLearning: agentLearning, agentBriefs: agentBriefs };
 }
 function applyBoard(data) {
   if (!data || typeof data !== "object") return;
@@ -1024,8 +1108,12 @@ function applyBoard(data) {
   if (data.enotes && typeof data.enotes === "object") enotes = data.enotes;
   if (Array.isArray(data.ehist)) ehist = data.ehist;
   if (data.settings && typeof data.settings === "object") settings = data.settings;
+  if (data.agentLearning && typeof data.agentLearning === "object") agentLearning = data.agentLearning;
+  if (data.agentBriefs && typeof data.agentBriefs === "object") agentBriefs = data.agentBriefs;
   sanitizeBoard();
   localStorage.setItem("settings", JSON.stringify(settings));
+  localStorage.setItem("agentLearning", JSON.stringify(agentLearning));
+  localStorage.setItem("agentBriefs", JSON.stringify(agentBriefs));
   localStorage.setItem("plans", JSON.stringify(plans));
   localStorage.setItem("etasks", JSON.stringify(etasks));
   localStorage.setItem("editors", JSON.stringify(editors));
@@ -1048,6 +1136,7 @@ function applyRemote(data) {
   localStorage.setItem("boardrev", "" + boardRev);
   rerender();
   if (!document.getElementById("tab-home").hidden) renderHome();
+  if (!document.getElementById("tab-agents").hidden) renderAgents();
 }
 function schedulePush() {
   if (!SYNCCFG || !syncReady) return;
@@ -1274,13 +1363,14 @@ function toast(msg) {
 function savePlans() { localStorage.setItem("plans", JSON.stringify(plans)); schedulePush(); }
 function switchTab(name) {
   if (name === "plan" || name === "editors") name = "home";   /* Buffer/Editors removed */
-  ["home","news","popular","trends","pulse","research","repurpose","xmini","inspire","me"].forEach(n => {
+  ["home","news","popular","trends","pulse","agents","research","repurpose","xmini","inspire","me"].forEach(n => {
     const sec = document.getElementById("tab-" + n); if (sec) sec.hidden = n !== name;
     const btn = document.getElementById("tabbtn-" + n); if (btn) btn.classList.toggle("active", n === name);
   });
   const TT = { home:["Home","Your radar at a glance"], news:["News","The latest AI news, newest first"],
     popular:["Popular","What the world is reading right now"],
     trends:["Trends","Rising signals, week over week"], pulse:["Pulse","What people are using & searching"],
+    agents:["Agent & AI Radar","Latest model shifts, agent engineering, RAG/context, evaluations, and AGI signals"],
     research:["Research","Papers for your own learning"],
     repurpose:["Repurpose","Turn posts you see into your own content"],
     xmini:["Write","Anthropic Write Engine — short posts that grow the account"],
@@ -1297,6 +1387,7 @@ function switchTab(name) {
   if (name === "me") renderMeTab();
   if (name === "research") renderResearch();
   if (name === "pulse") renderPulse();
+  if (name === "agents") renderAgents();
 }
 /* Buffer/Editors workspaces removed — kept as a no-op so sync callers are safe */
 function rerender() {}
@@ -1389,6 +1480,295 @@ function renderPopular() {
     .slice(0, 40).map(x => x.it);
   el.innerHTML = pop.length ? "" : '<div class="empty">No popular stories yet — check back as coverage builds.</div>';
   pop.forEach(it => el.appendChild(makeCard(it)));
+}
+/* ---------------- Agent & AI Radar ---------------- */
+const AGENT_TOPICS = [
+  ["all", "All"], ["models", "Models"], ["agent_loops", "Agent Loops"],
+  ["rag_context", "RAG & Context"], ["real_world_agents", "Real-world Agents"],
+  ["eval_safety", "Eval & Safety"], ["agi_watch", "AGI Watch"]];
+const AGENT_TIMES = [["7", "7 days"], ["30", "30 days"], ["all", "All available"]];
+const AGENT_USERS = [["all", "All"], ["saved", "Saved"], ["studying", "Studying"], ["ready", "Content-ready"]];
+const AGENT_STATUS = [["unread", "Unread"], ["read", "Read"], ["studying", "Studying"], ["understood", "Understood"], ["tested", "Tested"]];
+let agentTopic = "all", agentTime = "7", agentUser = "all", agentQ = "", agentStory = null, agentView = "learn";
+let agentDraftFacts = {};
+function agentTopicName(k) { return (AGENT_TOPICS.find(x => x[0] === k) || ["", k || "Unknown"])[1]; }
+function agentState(k) {
+  const s = agentLearning[k] || {};
+  return { saved: !!s.saved, status: s.status || "unread", updatedAt: s.updatedAt || "" };
+}
+function agentBrief(k) { return agentBriefs[k] || null; }
+function agentTimePass(it) {
+  if (agentTime === "all") return true;
+  const iso = it.pub || "";
+  if (!iso) return true;
+  const t = new Date(iso).getTime();
+  if (!t) return true;
+  return Date.now() - t <= (+agentTime * 86400000);
+}
+function agentDate(iso) {
+  if (!iso) return "Published unknown";
+  try { return "Published " + new Date(iso).toLocaleDateString("en-GB", { day:"2-digit", month:"short", year:"numeric" }); }
+  catch (e) { return "Published " + iso; }
+}
+function agentReadinessLabel(v) {
+  const m = { ready:"Ready to draft", needs_more_evidence:"Need more evidence",
+    needs_firsthand_experiment:"Test it first", not_worth_covering:"Skip for content" };
+  return m[v] || "Not assessed";
+}
+function agentBriefStatus(it) {
+  const b = agentBrief(it.ak);
+  if (!b) return ["No brief", ""];
+  if (b.status === "needs_input") return ["Needs evidence", "need"];
+  if (b.status === "skip") return ["Needs more evidence", "need"];
+  if (b.contentReadiness === "ready") return ["Content-ready", "ready"];
+  if (b.contentReadiness === "needs_firsthand_experiment") return ["Needs experiment", "need"];
+  if (b.contentReadiness === "needs_more_evidence") return ["Needs more evidence", "need"];
+  return ["Brief ready", "ready"];
+}
+function agentSearchBlob(it) {
+  const b = agentBrief(it.ak) || {};
+  return [it.t, it.s, it.primary, (it.topics || []).join(" "), (it.secondary || []).join(" "),
+    it.sm, b.modelProductVersion, b.whatChanged, b.howItWorks, b.contentQuestion].join(" ").toLowerCase();
+}
+function agentFiltered() {
+  const needle = agentQ.toLowerCase();
+  return AGENT_ITEMS.filter(it => {
+    const st = agentState(it.ak), b = agentBrief(it.ak);
+    return (agentTopic === "all" || (it.topics || []).includes(agentTopic)) &&
+      agentTimePass(it) &&
+      (agentUser === "all" || (agentUser === "saved" && st.saved) ||
+        (agentUser === "studying" && st.status === "studying") ||
+        (agentUser === "ready" && b && b.contentReadiness === "ready")) &&
+      (!needle || agentSearchBlob(it).includes(needle));
+  }).sort((a, b) => ((b.pub || b.col || "").localeCompare(a.pub || a.col || "")) || ((b.sc || 0) - (a.sc || 0)));
+}
+function agentBar(el, pairs, current, fn) {
+  el.innerHTML = pairs.map(p => '<button class="' + (p[0] === current ? "active" : "") +
+    '" data-v="' + esc(p[0]) + '">' + esc(p[1]) + '</button>').join("");
+  el.querySelectorAll("button").forEach(b => b.onclick = () => { fn(b.dataset.v); renderAgents(); });
+}
+function agentToggleSave(k) {
+  const st = agentState(k);
+  agentLearning[k] = { saved: !st.saved, status: st.status, updatedAt: new Date().toISOString() };
+  saveAgentLearning();
+  if (agentStory && agentStory.ak === k) agentRenderModal();
+}
+function agentSetStatus(v) {
+  if (!agentStory) return;
+  const st = agentState(agentStory.ak);
+  agentLearning[agentStory.ak] = { saved: st.saved, status: v, updatedAt: new Date().toISOString() };
+  saveAgentLearning();
+  agentRenderModal();
+}
+function makeAgentCard(it) {
+  const d = document.createElement("div");
+  const st = agentState(it.ak), bs = agentBriefStatus(it);
+  d.className = "card agent-card";
+  d.innerHTML =
+    '<div class="agent-title">' + esc(it.t) + '</div>' +
+    '<div class="meta"><span class="pill">' + esc(agentTopicName(it.primary)) + '</span>' +
+    (it.secondary || []).slice(0, 3).map(x => '<span class="pill">' + esc(x) + '</span>').join("") +
+    '<span>' + esc(it.s || "Unknown source") + '</span><span>' + esc(agentDate(it.pub)) + '</span>' +
+    '<span class="agent-status ' + bs[1] + '">' + esc(bs[0]) + '</span>' +
+    '<span class="agent-status">' + esc(st.saved ? "Saved" : st.status) + '</span></div>' +
+    '<div class="note" style="margin:8px 0 0">Source type: ' + esc(it.sourceType || "unknown") +
+    (it.sm ? ' · Feed facts available' : ' · Discovery metadata only') + '</div>' +
+    '<div class="agent-actions"><button class="ghost src">Open source</button>' +
+    '<button class="btn learn">Learn / Build brief</button>' +
+    '<button class="ghost save">' + (st.saved ? "Saved ✓" : "Save") + '</button>' +
+    (agentBrief(it.ak) ? '<button class="ghost view">View brief</button>' : '') +
+    (agentBrief(it.ak) && agentBrief(it.ak).contentReadiness === "ready" ? '<button class="ghost li">Use for LinkedIn</button>' : '') +
+    '</div>';
+  d.querySelector(".src").onclick = () => window.open(it.u, "_blank", "noopener");
+  d.querySelector(".learn").onclick = () => agentOpen(it.ak);
+  d.querySelector(".save").onclick = () => agentToggleSave(it.ak);
+  const vb = d.querySelector(".view"); if (vb) vb.onclick = () => agentOpen(it.ak);
+  const lb = d.querySelector(".li"); if (lb) lb.onclick = () => agentUseLinkedIn(it.ak);
+  return d;
+}
+function renderAgents() {
+  const qin = document.getElementById("agent-q"); if (!qin) return;
+  qin.value = agentQ;
+  qin.oninput = e => { agentQ = e.target.value.trim(); renderAgents(); };
+  agentBar(document.getElementById("agent-topicbar"), AGENT_TOPICS, agentTopic, v => agentTopic = v);
+  agentBar(document.getElementById("agent-timebar"), AGENT_TIMES, agentTime, v => agentTime = v);
+  agentBar(document.getElementById("agent-userbar"), AGENT_USERS, agentUser, v => agentUser = v);
+  const items = agentFiltered();
+  document.getElementById("agent-count").textContent = items.length + " Agent & AI item" + (items.length === 1 ? "" : "s") +
+    " · source publication dates stay separate from collection time";
+  const list = document.getElementById("agent-list");
+  list.innerHTML = "";
+  if (!items.length) {
+    list.innerHTML = '<div class="empty" style="grid-column:1/-1">No matching Agent & AI items found in this time window. Try 30 days or All available.</div>';
+    return;
+  }
+  items.forEach(it => list.appendChild(makeAgentCard(it)));
+}
+function agentOpen(k) {
+  agentStory = AGENT_ITEMS.find(it => it.ak === k);
+  if (!agentStory) return;
+  const st = agentState(k);
+  if (st.status === "unread") {
+    agentLearning[k] = { saved: st.saved, status: "read", updatedAt: new Date().toISOString() };
+    saveAgentLearning();
+  }
+  agentView = "learn";
+  document.getElementById("agentmodal").hidden = false;
+  agentRenderModal();
+}
+function agentClose() { document.getElementById("agentmodal").hidden = true; }
+document.getElementById("agentmodal").addEventListener("click", e => { if (e.target.id === "agentmodal") agentClose(); });
+function agentSetView(v) { agentView = v; agentRenderModal(); }
+function agentList(lines) {
+  if (!lines || !lines.length) return '<span class="note">unknown</span>';
+  return '<ul class="agent-safe-list">' + lines.map(x => '<li>' + esc(x) + '</li>').join("") + '</ul>';
+}
+function agentField(label, value) {
+  return '<div class="agent-field"><b>' + esc(label) + '</b>' + esc(value || "unknown") + '</div>';
+}
+function agentViewHtml(it, b) {
+  if (!b) {
+    return '<div class="agent-field"><b>No brief yet</b>This item has discovery metadata only. Add source facts to build a trustworthy technical brief.</div>';
+  }
+  if (b.status === "needs_input") {
+    return '<div class="agent-field"><b>Needs evidence</b>' + esc(b.reviewNotes || "Paste more source facts and regenerate the brief.") + '</div>';
+  }
+  if (agentView === "content") {
+    return agentField("Professional question", b.contentQuestion) +
+      '<div class="agent-field"><b>Verified facts</b>' + agentList(b.verifiedFacts) + '</div>' +
+      agentField("Possible explanatory angle", b.explanatoryAngle) +
+      agentField("Possible engineering angle", b.engineeringAngle) +
+      '<div class="agent-field"><b>Must not claim</b>' + agentList(b.mustNotClaim) + '</div>' +
+      agentField("Readiness", agentReadinessLabel(b.contentReadiness)) +
+      '<div class="agent-actions"><button class="btn" onclick="agentUseLinkedIn(\'' + it.ak + '\')" ' +
+        (b.contentReadiness === "ready" ? "" : "disabled") + '>Use for LinkedIn</button></div>';
+  }
+  if (agentView === "evidence") {
+    return agentField("Model / product / version", b.modelProductVersion) +
+      agentField("Event date", b.eventDate || "unknown") +
+      agentField("Published", it.pub || "unknown") +
+      agentField("Availability", b.availability) +
+      agentField("Source type", b.sourceType || it.sourceType || "unknown") +
+      '<div class="agent-field"><b>Claim status</b>' + agentList(b.claimStatus) + '</div>' +
+      '<div class="agent-field"><b>Sources</b><div class="agent-source">' + esc(b.sources || (it.s + " | " + it.u)) + '</div></div>' +
+      agentField("Private review notes", b.reviewNotes);
+  }
+  return agentField("What changed", b.whatChanged) +
+    agentField("How it works", b.howItWorks) +
+    agentField("Why it matters", b.whyItMatters) +
+    agentField("System pattern", b.systemPattern) +
+    agentField("Agent loop", b.agentLoop) +
+    agentField("RAG / context role", b.ragContextRole) +
+    agentField("Autonomy boundary", b.autonomyBoundary) +
+    '<div class="agent-field"><b>Limitations / uncertainty</b>' + agentList(b.limitations) + '</div>' +
+    '<div class="agent-field"><b>Prerequisites</b>' + agentList(b.prerequisites) + '</div>' +
+    agentField("What to learn next", b.learnNext) +
+    agentField("Small experiment", b.experiment);
+}
+function agentRenderModal() {
+  const it = agentStory; if (!it) return;
+  const st = agentState(it.ak), b = agentBrief(it.ak), facts = agentDraftFacts[it.ak] || "";
+  const bs = agentBriefStatus(it);
+  document.getElementById("agent-modal-sub").textContent = it.s || "";
+  const opts = AGENT_STATUS.map(x => '<option value="' + x[0] + '"' + (x[0] === st.status ? " selected" : "") + '>' + x[1] + '</option>').join("");
+  document.getElementById("agent-modal-body").innerHTML =
+    '<div class="agent-title">' + esc(it.t) + '</div>' +
+    '<div class="meta"><span class="pill">' + esc(agentTopicName(it.primary)) + '</span>' +
+    (it.secondary || []).map(x => '<span class="pill">' + esc(x) + '</span>').join("") +
+    '<span>' + esc(agentDate(it.pub)) + '</span><span>Collected ' + esc(ago(it.col)) + '</span>' +
+    '<span class="agent-status ' + bs[1] + '">' + esc(bs[0]) + '</span></div>' +
+    '<div class="agent-actions"><a class="ghost" href="' + esc(it.u) + '" target="_blank" rel="noopener">Open source</a>' +
+    '<button class="ghost" onclick="agentToggleSave(\'' + it.ak + '\')">' + (st.saved ? "Saved ✓" : "Save") + '</button>' +
+    '<select onchange="agentSetStatus(this.value)" title="Learning status">' + opts + '</select></div>' +
+    '<div class="agent-field"><b>Build evidence brief</b>' +
+    '<div class="note" style="margin:0 0 6px">Paste source facts, release notes, architecture details, results, limitations, or your own notes. Do not paste confidential information. This raw text is not synced by default.</div>' +
+    '<textarea id="agent-facts" rows="4" placeholder="Paste source facts / notes"></textarea>' +
+    '<div class="agent-actions"><button class="btn" onclick="agentCopyPrompt()">Copy research prompt</button>' +
+    '<button class="ghost" onclick="agentOpenAI()">Open ChatGPT</button></div>' +
+    '<textarea id="agent-raw" rows="5" placeholder="Paste the model output with [[MARKERS]] here, then Validate"></textarea>' +
+    '<div class="agent-actions"><button class="btn" onclick="agentValidateBrief()">Validate & save brief</button></div></div>' +
+    '<div class="agent-modal-tabs">' +
+    ['learn','content','evidence'].map(v => '<button class="ghost ' + (agentView === v ? "active" : "") + '" onclick="agentSetView(\'' + v + '\')">' + v[0].toUpperCase() + v.slice(1) + '</button>').join("") +
+    '</div><div id="agent-view-body">' + agentViewHtml(it, b) + '</div>';
+  const f = document.getElementById("agent-facts");
+  if (f) { f.value = facts; f.oninput = e => { agentDraftFacts[it.ak] = e.target.value; }; }
+}
+function agentOpenAI() {
+  agentCopyPrompt();
+  window.open("https://chatgpt.com/", "_blank", "noopener");
+}
+function agentCopyPrompt() {
+  if (!agentStory) return;
+  const facts = (document.getElementById("agent-facts") || {}).value || "";
+  agentDraftFacts[agentStory.ak] = facts;
+  const p = window.buildAgentBriefPrompt({
+    title: agentStory.t, source: agentStory.u, sourceType: agentStory.sourceType,
+    tags: (agentStory.topics || []).map(agentTopicName), published: agentStory.pub || "unknown",
+    facts: facts
+  });
+  navigator.clipboard.writeText(p).then(
+    () => toast(facts ? "Research prompt copied — paste it into any AI" : "Prompt copied — add source facts so it can do more than ask for evidence"),
+    () => toast("Clipboard blocked — allow clipboard access for this page"));
+}
+function agentParseMarkers(text) {
+  const out = {}, re = /\[\[(\w+)\]\]/g, parts = []; let m;
+  while ((m = re.exec(text))) parts.push({ key: m[1].toLowerCase(), start: m.index, end: re.lastIndex });
+  for (let i = 0; i < parts.length; i++) {
+    if (parts[i].key === "end") continue;
+    const s = parts[i].end, e = (i + 1 < parts.length) ? parts[i + 1].start : text.length;
+    out[parts[i].key] = text.slice(s, e).trim();
+  }
+  return out;
+}
+function agentLines(s) {
+  return String(s || "").split(/\n+/).map(x => x.replace(/^\s*[-*]\s*/, "").trim()).filter(Boolean);
+}
+function agentValidateBrief() {
+  if (!agentStory) return;
+  const raw = (document.getElementById("agent-raw") || {}).value || "";
+  if (!raw.trim()) { toast("Paste the research brief output first"); return; }
+  const p = agentParseMarkers(raw), status = (p.status || "").toLowerCase().replace(/[^a-z_]/g, "");
+  if (!status) { toast("Couldn't find [[STATUS]] — paste the full marker response"); return; }
+  if (!["ready", "needs_input", "skip"].includes(status)) { toast("Unknown brief status: " + status); return; }
+  const readiness = (p.content_readiness || "").toLowerCase().replace(/[^a-z_]/g, "") || "needs_more_evidence";
+  const okReady = ["ready", "needs_more_evidence", "needs_firsthand_experiment", "not_worth_covering"].includes(readiness)
+    ? readiness : "needs_more_evidence";
+  agentBriefs[agentStory.ak] = {
+    storyKey: agentStory.ak, topicTags: agentStory.topics || [], status: status,
+    modelProductVersion: p.model_product_version || "unknown", eventDate: p.event_date || "unknown",
+    availability: p.availability || "unknown", sourceType: p.source_type || agentStory.sourceType || "unknown",
+    whatChanged: p.what_changed || "", howItWorks: p.how_it_works || "", whyItMatters: p.why_it_matters || "",
+    systemPattern: p.system_pattern || "unknown", agentLoop: p.agent_loop || "", ragContextRole: p.rag_context_role || "",
+    autonomyBoundary: p.autonomy_boundary || "", verifiedFacts: agentLines(p.verified_facts),
+    claimStatus: agentLines(p.claim_status), limitations: agentLines(p.limitations), prerequisites: agentLines(p.prerequisites),
+    learnNext: p.learn_next || "", experiment: p.experiment || "", contentQuestion: p.content_question || "",
+    explanatoryAngle: p.explanatory_angle || "", engineeringAngle: p.engineering_angle || "",
+    mustNotClaim: agentLines(p.must_not_claim), contentReadiness: okReady, sources: p.sources || "",
+    reviewNotes: p.private_review_notes || p.missing || "", createdAt: (agentBriefs[agentStory.ak] || {}).createdAt || new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  };
+  saveAgentBriefs();
+  agentView = status === "ready" ? "learn" : "evidence";
+  agentRenderModal();
+  toast(status === "ready" ? "Brief saved ✓" : "Saved the missing-evidence note");
+}
+function agentUseLinkedIn(k) {
+  const it = AGENT_ITEMS.find(x => x.ak === k) || agentStory;
+  if (!it) return;
+  const b = agentBrief(it.ak);
+  if (!b || b.status !== "ready" || b.contentReadiness !== "ready") {
+    toast("Build a content-ready brief first");
+    return;
+  }
+  document.getElementById("agentmodal").hidden = true;
+  openNewsroom({ t: it.t, u: it.u, p: 0, sm: "" });
+  const facts = (b.verifiedFacts || []).map(x => "- " + x).join("\n");
+  const caveats = (b.mustNotClaim || []).length ? "\n\nMust not claim:\n" + b.mustNotClaim.map(x => "- " + x).join("\n") : "";
+  const src = b.sources ? "\n\nSources:\n" + b.sources : "\n\nSource: " + it.s + " | " + it.u;
+  document.getElementById("nr-excerpt").value = "Verified facts from Agent & AI brief:\n" + facts +
+    "\n\nEditorial angle to consider (not a source fact): " + (b.explanatoryAngle || b.engineeringAngle || b.contentQuestion || "unknown") +
+    caveats + src;
+  toast("Brief facts moved into the existing LinkedIn draft flow");
 }
 /* download the poster image (works cross-origin via blob; falls back to opening it) */
 function downloadImage(url) {
@@ -2999,9 +3379,11 @@ function navCounts() {
   try {
     const a = document.getElementById("nc-news");
     if (a) a.textContent = ITEMS.filter(it => it.p !== 9).length;
+    const ag = document.getElementById("nc-agents");
+    if (ag) ag.textContent = AGENT_ITEMS.length || "";
   } catch (e) {}
 }
-trendsBar(); bar(); renderHome(); render(); navCounts();
+trendsBar(); bar(); renderHome(); render(); renderAgents(); navCounts();
 syncPull();   /* pull cross-device done + published, then auto-tick matches */
 rpCount();
 renderXMini();
@@ -3066,9 +3448,12 @@ def generate():
 
     now = datetime.now(timezone.utc)
     items = []
+    agent_items = []
     for r in rows:
         links = json.loads(r["links"] or "[]")
         when = r["published"] or r["fetched"]
+        summary = (r["summary"] or "")[:700]
+        key = agent_ai_radar.story_key(r["url"], r["title"])
         try:
             age_h = (now - datetime.fromisoformat(when)).total_seconds() / 3600
         except ValueError:
@@ -3076,11 +3461,24 @@ def generate():
         score, reasons, local = scoring.audience_score(
             r["title"], r["pillar"], len(links), age_h, hot_terms)
         items.append({
+            "ak": key,
             "t": r["title"], "u": r["url"], "s": r["source"], "p": r["pillar"],
             "d": when, "f": r["fetched"], "l": links,
             "sc": score, "r": reasons, "lo": local,
-            "sm": (r["summary"] or "")[:700],   # feed summary -> pre-filled source facts 
+            "sm": summary,   # feed summary -> pre-filled source facts
         })
+        meta = agent_ai_radar.classify(
+            r["title"], source=r["source"], url=r["url"],
+            summary=summary, pillar=r["pillar"])
+        if meta.get("relevant"):
+            agent_items.append({
+                "ak": key,
+                "t": r["title"], "u": r["url"], "s": r["source"],
+                "p": r["pillar"], "pub": r["published"], "col": r["fetched"],
+                "sm": summary, "sc": score, "links": links,
+                "primary": meta["primary"], "topics": meta["topics"],
+                "secondary": meta["secondary"], "sourceType": meta["source_type"],
+            })
 
     code = _load_passcode()
     lock_hash = hashlib.sha256(code.encode()).hexdigest() if code else ""
@@ -3090,6 +3488,7 @@ def generate():
     html = (PAGE
             .replace("__PILLARS__", json.dumps(config.CATEGORIES))
             .replace("__ITEMS__", json.dumps(items, ensure_ascii=False))
+            .replace("__AGENT_ITEMS__", json.dumps(agent_items, ensure_ascii=False))
             .replace("__TRENDS__", json.dumps(chips, ensure_ascii=False))
             .replace("__LOCKHASH__", lock_hash)
             .replace("__FBURL__", fb_url)

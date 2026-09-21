@@ -93,6 +93,28 @@ A bank of proven content formats plus today's top news rewritten into useful ang
 ### ⭐ Me
 Personal-brand posters: the operator's own face presents the news. The face comes from a real photo — never AI-generated.
 
+### 🤖 Agents & AI
+A focused research/learning radar for modern AI engineering: model releases,
+agent loops, RAG/context, real-world agents, evaluations/safety and AGI-watch
+signals. It reuses existing collected stories and adds deterministic metadata
+only; it does not change the original News category or fetch pages in the browser.
+
+Discovery cards show title, source, source publication date, topic tags, source
+type hints, learning state and evidence-brief status. The section keeps
+`published` separate from `collected`, so a story found today is not relabelled
+as a release from today.
+
+The evidence brief flow is no-API by default: paste source facts/notes, copy the
+research prompt, paste the marker response back, then save the normalized brief.
+Raw pasted source text stays in the local form and is not synced by default.
+Saved/learning state and parsed briefs ride through the existing convenience
+board sync as `agentLearning` and `agentBriefs`; this is useful cross-device
+state, not private secure storage.
+
+A content-ready brief can hand verified facts into the existing LinkedIn draft
+modal. It does not post, does not mark the story done, and does not fabricate a
+firsthand experiment claim.
+
 ### 📈 Trends / Pulse / Research
 Rising topic signals week-over-week; what people are using, searching and struggling with (Pulse, from Reddit / HN / YouTube / Google); and daily AI papers for learning. Pulse *reads* those platforms as signal sources — reading a platform is not publishing to it.
 
@@ -135,9 +157,10 @@ Rising topic signals week-over-week; what people are using, searching and strugg
 3. **Show the guard rails** — clear the pasted facts and run it again: the writer answers `needs_input` and asks instead of inventing.
 4. **Copy post → Open LinkedIn** — and point out that neither marks the story done; only ✓ does.
 5. **🛠️ Practical mode** on the same story — a checklist or decision question instead of commentary.
-6. **⭐ Me** — a personal-brand poster for the same headline.
-7. **📈 Pulse / Trends** — where the next story ideas come from.
-8. Finish on the **public website** — the audience-facing side, rebuilt hourly.
+6. **🤖 Agents & AI** — save an agent/RAG/model item, paste source facts, validate a brief, then hand verified facts into LinkedIn.
+7. **⭐ Me** — a personal-brand poster for the same headline.
+8. **📈 Pulse / Trends** — where the next story ideas come from.
+9. Finish on the **public website** — the audience-facing side, rebuilt hourly.
 
 ---
 
@@ -148,6 +171,7 @@ Rising topic signals week-over-week; what people are using, searching and strugg
 | `fetcher.py`, `filters.py`, `scoring.py`, `config.py`, `database.py` | hourly collection, filtering, de-dup, scoring, retention |
 | `main.py`, `notifier.py`, `digest.py` | run loop, phone alerts, weekly digest |
 | `generate_site.py` | builds the Studio (`docs/studio.html`) |
+| `agent_ai_radar.py`, `test_agent_ai_radar.py` | Agent & AI deterministic classifier and tests |
 | `generate_public.py` | builds the public site (`docs/index.html`) |
 | `docs/templates.js` | **ALL prompt engineering** — authored source; `docs/studio.html` is generated |
 | `dump_prompts.js` | regenerates `PROMPTS.md` from `docs/templates.js` |
