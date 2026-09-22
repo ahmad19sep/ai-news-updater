@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:00:08.797699+00:00",
+  "generated_at": "2026-09-22T05:00:44.802885+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 35,
+      "reddit": 25,
+      "hackernews": 37,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,6 +44,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
+          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wm3bit/this_isnt_real_i_made_this_street_art_entirely_in/",
           "signal": "This isn’t real. I made this street art entirely in ChatGPT"
         },
@@ -59,69 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wm57uh/is_this_really_what_chatgpt_wants_me_to_waste_ai/",
-          "signal": "Is this really what ChatGPT wants me to waste ai usage on"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlzklt/ran_screen_shots_of_rick_and_morty_s9_e1_and_told/",
-          "signal": "Ran screen shots of Rick and Morty s9 e1 and told ChatGPT to make them realistic"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-          "signal": "Qwen Image 2.1"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wmbfxz/fyi_you_actually_own_the_outputs_you_generate/",
-          "signal": "FYI: You actually own the outputs you generate with Qwen 2.1"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/",
-          "signal": "Some very simple Qwen-Image-2.1 workflows"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wmljce/qwen_21_is_very_good_upscaler/",
-          "signal": "qwen 2.1 is very good upscaler"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wmg9e8/vnccs_posestudio_qwen_image_21/",
-          "signal": "VNCCS PoseStudio Qwen Image 2.1"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wlv3tf/qwen_image_21_noisepatterningmoire_mild_workaround/",
-          "signal": "Qwen image 2.1 noise/patterning/moire mild workaround"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrlbu/can_anyone_explain_this_did_chatgpt_get/",
+          "signal": "Can anyone explain this? Did ChatGPT get infiltrated?"
         }
       ],
       "content_ideas": []
@@ -131,7 +75,8 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -149,6 +94,40 @@
           "platform": "hackernews",
           "url": "https://x.ai/news/grok-4-7",
           "signal": "Grok 4.7"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrk2t/i_just_tried_grok_47_and_it_is/",
+          "signal": "I just tried Grok 4.7 and it is..."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "signal": "Qwen Image 2.1"
         }
       ],
       "content_ideas": []
@@ -193,7 +172,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -208,7 +187,35 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VR",
+      "name": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://linear.app/now/ci-bottleneck-reworked",
+          "signal": "AI coding has made CI a bottleneck, so we reworked ours to keep up"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "US halts flights at busy East Coast airports, says fiber line cut",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -218,9 +225,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -228,8 +235,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/volotat/mini-AGI/",
-          "signal": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM"
+          "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+          "signal": "US halts flights at busy East Coast airports, says fiber line cut"
         }
       ],
       "content_ideas": []
@@ -263,6 +270,60 @@
       "content_ideas": []
     },
     {
+      "name": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VR",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/volotat/mini-AGI/",
+          "signal": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
+          "signal": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "If AI coding is lowering your code quality, you're not managing qualit",
       "category": "use_case",
       "momentum": "rising",
@@ -285,60 +346,6 @@
           "platform": "hackernews",
           "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
           "signal": "If AI coding is lowering your code quality, you're not managing quality right"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
-          "signal": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "US halts flights at busy East Coast airports, says fiber line cut",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
-          "signal": "US halts flights at busy East Coast airports, says fiber line cut"
         }
       ],
       "content_ideas": []
@@ -369,98 +376,16 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Ask HN: Is it impossible to disable Siri on macOS 27?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49786609",
-          "signal": "Ask HN: Is it impossible to disable Siri on macOS 27?"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-          "signal": "Qwen Image 2.1"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wmbfxz/fyi_you_actually_own_the_outputs_you_generate/",
-          "signal": "FYI: You actually own the outputs you generate with Qwen 2.1"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/",
-          "signal": "Some very simple Qwen-Image-2.1 workflows"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wmljce/qwen_21_is_very_good_upscaler/",
-          "signal": "qwen 2.1 is very good upscaler"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wmg9e8/vnccs_posestudio_qwen_image_21/",
-          "signal": "VNCCS PoseStudio Qwen Image 2.1"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1wlv3tf/qwen_image_21_noisepatterningmoire_mild_workaround/",
-          "signal": "Qwen image 2.1 noise/patterning/moire mild workaround"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Grok",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -478,6 +403,11 @@
           "platform": "hackernews",
           "url": "https://x.ai/news/grok-4-7",
           "signal": "Grok 4.7"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrk2t/i_just_tried_grok_47_and_it_is/",
+          "signal": "I just tried Grok 4.7 and it is..."
         }
       ],
       "content_ideas": []
@@ -511,6 +441,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
+          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wm3bit/this_isnt_real_i_made_this_street_art_entirely_in/",
           "signal": "This isn’t real. I made this street art entirely in ChatGPT"
         },
@@ -526,13 +461,37 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wm57uh/is_this_really_what_chatgpt_wants_me_to_waste_ai/",
-          "signal": "Is this really what ChatGPT wants me to waste ai usage on"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrlbu/can_anyone_explain_this_did_chatgpt_get/",
+          "signal": "Can anyone explain this? Did ChatGPT get infiltrated?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlzklt/ran_screen_shots_of_rick_and_morty_s9_e1_and_told/",
-          "signal": "Ran screen shots of Rick and Morty s9 e1 and told ChatGPT to make them realistic"
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "signal": "Qwen Image 2.1"
         }
       ],
       "content_ideas": []
@@ -540,13 +499,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Mathematician Terence Tao: \"We have to slow down AI. The pace is insane, and there's no reason to be this fast - no reason at all.\"",
+      "problem": "There is a memory summary in your account that you cannot access and edit??",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wlnr87/mathematician_terence_tao_we_have_to_slow_down_ai/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmw4bg/there_is_a_memory_summary_in_your_account_that/"
         }
       ],
       "content_opportunity": ""
