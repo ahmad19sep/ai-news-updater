@@ -39,7 +39,7 @@ DISCOVERY_TABS = [
 
 AI_CONTEXT_PHRASES = [
     "ai", "artificial intelligence", "llm", "language model", "model release",
-    "reasoning model", "multimodal", "multi-model", "model routing", "agent", "agents sdk", "agentic", "rag",
+    "reasoning model", "multimodal", "multi-model", "model routing", "agent", "agents", "agents sdk", "agentic", "rag",
     "retrieval", "tool calling", "function calling", "mcp", "model context protocol",
     "prompt injection", "context engineering", "agi", "long-horizon",
     "human in the loop", "coding assistant", "machine learning",

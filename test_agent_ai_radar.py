@@ -25,6 +25,10 @@ class AgentAIRadarClassifierTest(unittest.TestCase):
         self.assertIn("tool calling", meta["secondary"])
         self.assertIn("durable execution", meta["secondary"])
 
+    def test_plural_agents_pass_the_context_gate(self):
+        meta = self.topic("Open-source agents coordinate customer-support tasks")
+        self.assertEqual(meta["primary"], "agent_loops")
+
     def test_rag_context(self):
         meta = self.topic("A RAG system improves citations with retrieval, reranking, and grounding")
         self.assertEqual(meta["primary"], "rag_context")

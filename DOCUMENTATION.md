@@ -142,6 +142,8 @@ feed expiry reuse the same story identity. Raw pasted captures and personal
 takeaways stay in local storage by default, and manual source text is included in
 an export only by an explicit local-source action. Parsed briefs and lightweight
 public learning/queue state use the existing convenience sync, which is not secure auth.
+Queue removals and builder unfollows use timestamped tombstones so an older synced
+device cannot silently resurrect them.
 
 ### 📈 Trends / Pulse / Research
 Rising topic signals week-over-week; what people are using, searching and struggling with (Pulse, from Reddit / HN / YouTube / Google); and daily AI papers for learning. Pulse *reads* those platforms as signal sources — reading a platform is not publishing to it.

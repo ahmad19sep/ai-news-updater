@@ -243,6 +243,25 @@ function runChecks() {
     w.agentOpen(item.ak);
     if (!d.getElementById("agent-modal-body").textContent.includes("Export with local source text"))
       throw new Error("manual source export was not made an explicit choice");
+    w.agentToggleFollow(item.ak);
+    w.agentToggleFollow(item.ak);
+    w.agentQueueSet(item.ak, "researching");
+    w.agentQueueSet(item.ak, "remove");
+    const removed = w.boardState();
+    const followKey = item.author.toLowerCase();
+    if (!removed.agentFollows[followKey].deleted || !removed.agentQueue[item.ak].deleted)
+      throw new Error("queue/follow removals did not create sync tombstones");
+    w.applyBoard({
+      agentFollows: { [followKey]: { name:item.author, updatedAt:"2000-01-01T00:00:00Z" } },
+      agentQueue: { [item.ak]: { storyKey:item.ak, stage:"researching", updatedAt:"2000-01-01T00:00:00Z" } }
+    });
+    if (w.agentIsFollowing(item.author) || w.agentQueueEntry(item.ak))
+      throw new Error("an older device resurrected removed queue/follow state");
+    const hostileKey = "bad');window.__agentInjected=true;//";
+    w.applyBoard({ agentLearning: { hostile: { saved:true, updatedAt:new Date().toISOString(),
+      snapshot:{ ak:hostileKey, t:"Injected item", u:"javascript:alert(1)", manual:true } } } });
+    if (w.agentFind(hostileKey)) throw new Error("unsafe synced item key entered the rendered research collection");
+    if (w.boardState().agentLearning.hostile) throw new Error("unsafe synced snapshot was retained for re-sync");
   });
 
   check("Agent learning rejects generic text and hands off only reviewed evidence", () => {

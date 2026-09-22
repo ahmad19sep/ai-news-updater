@@ -429,6 +429,7 @@ PAGE = r"""<!doctype html>
     .bar { overflow-x:auto; flex-wrap:nowrap; scrollbar-width:none;
            -webkit-overflow-scrolling:touch; padding-bottom:3px; }
     .bar::-webkit-scrollbar { display:none; }
+    #agent-topicbar, #agent-timebar, #agent-userbar { overflow:visible; flex-wrap:wrap; padding-bottom:0; }
     .bar button, .bar select { flex:0 0 auto; padding:9px 14px; font-size:12.5px;
            min-height:40px; white-space:nowrap; }
     .search input { padding:12px 14px; }
@@ -1101,6 +1102,7 @@ function agentSanitizeLearning(records) {
   const out = {};
   Object.entries(records && typeof records === "object" ? records : {}).forEach(([k, value]) => {
     if (!value || typeof value !== "object") return;
+    if (value.snapshot && !agentValidKey(value.snapshot.ak)) return;
     out[k] = Object.assign({}, value);
     if (value.snapshot) out[k].snapshot = agentSnapshot(value.snapshot);
   });
@@ -1636,9 +1638,10 @@ function agentBuilder(it) {
   if (/^GitHub /.test(it.s || "") && /^[^/\s]+\//.test(it.t || "")) return it.t.split("/", 1)[0];
   return "";
 }
+function agentValidKey(k) { return /^[a-zA-Z0-9_-]{1,80}$/.test(String(k || "")); }
 function agentAllItems() {
   const out = [], seen = new Set();
-  const add = it => { if (it && it.ak && !seen.has(it.ak)) { seen.add(it.ak); out.push(it); } };
+  const add = it => { if (it && agentValidKey(it.ak) && !seen.has(it.ak)) { seen.add(it.ak); out.push(it); } };
   AGENT_ITEMS.forEach(add);
   Object.values(agentCaptures).forEach(add);
   Object.values(agentLearning).forEach(s => { if (s && s.saved && s.snapshot) add(s.snapshot); });
@@ -1650,6 +1653,11 @@ function agentState(k) {
   return { saved: !!s.saved, status: s.status || "unread", updatedAt: s.updatedAt || "", snapshot: s.snapshot || null };
 }
 function agentBrief(k) { return agentBriefs[k] || null; }
+function agentQueueEntry(k) { const q = agentQueue[k]; return q && !q.deleted ? q : null; }
+function agentIsFollowing(builder) {
+  const f = builder ? agentFollows[String(builder).toLowerCase()] : null;
+  return !!(f && !f.deleted);
+}
 function agentTimePass(it) {
   if (agentTime === "all") return true;
   const iso = it.pub || "";
@@ -1696,7 +1704,7 @@ function agentFiltered() {
   const needle = agentQ.toLowerCase();
   let items = agentAllItems().filter(it => {
     const st = agentState(it.ak), b = agentBrief(it.ak);
-    const queue = agentQueue[it.ak];
+    const queue = agentQueueEntry(it.ak);
     const tabPass = agentMode === "today" ||
       (agentMode === "my_learning" && (st.saved || st.status !== "unread" || b)) ||
       (agentMode === "linkedin_queue" && !!queue) ||
@@ -1707,7 +1715,7 @@ function agentFiltered() {
       (["my_learning", "linkedin_queue"].includes(agentMode) || agentTimePass(it)) &&
       (agentUser === "all" || (agentUser === "saved" && st.saved) ||
         (agentUser === "studying" && ["learning", "want_to_build", "trying"].includes(st.status)) ||
-        (agentUser === "following" && !!agentFollows[(agentBuilder(it) || "").toLowerCase()]) ||
+        (agentUser === "following" && agentIsFollowing(agentBuilder(it))) ||
         (agentUser === "ready" && b && b.contentReadiness === "ready" && b.reviewed)) &&
       (!needle || agentSearchBlob(it).includes(needle));
   }).sort((a, b) => ((b.pub || b.col || "").localeCompare(a.pub || a.col || "")) || ((b.sc || 0) - (a.sc || 0)));
@@ -1720,7 +1728,7 @@ function agentUsefulness(it) {
   const when = new Date(it.pub || it.col || 0).getTime();
   const ageDays = when ? Math.max(0, (Date.now() - when) / 86400000) : 30;
   const freshness = Math.max(0, 3 - ageDays / 2);
-  const builder = agentBuilder(it), followed = builder && agentFollows[builder.toLowerCase()] ? 3 : 0;
+  const builder = agentBuilder(it), followed = agentIsFollowing(builder) ? 3 : 0;
   return evidence + practical + detail + freshness + followed + Math.min(3, Math.log10(1 + +(it.sc || 0)));
 }
 function agentBar(el, pairs, current, fn) {
@@ -1799,14 +1807,14 @@ function agentToggleFollow(k) {
   const it = agentFind(k), builder = it && agentBuilder(it);
   if (!builder) { toast("No source-supported builder identity is available"); return; }
   const id = builder.toLowerCase();
-  if (agentFollows[id]) delete agentFollows[id];
+  if (agentIsFollowing(builder)) agentFollows[id] = { name:builder, deleted:true, updatedAt:new Date().toISOString() };
   else agentFollows[id] = { name:builder, updatedAt:new Date().toISOString() };
   saveAgentFollows();
   if (agentStory && agentStory.ak === k) agentRenderModal();
 }
 function agentQueueSet(k, stage) {
   const it = agentFind(k); if (!it) return;
-  if (stage === "remove") delete agentQueue[k];
+  if (stage === "remove") agentQueue[k] = { storyKey:k, deleted:true, updatedAt:new Date().toISOString() };
   else agentQueue[k] = { storyKey:k, stage:stage, title:it.t, url:it.u, updatedAt:new Date().toISOString() };
   saveAgentQueue();
 }
@@ -1865,7 +1873,7 @@ function makeAgentCard(it) {
   const d = document.createElement("div");
   const st = agentState(it.ak), bs = agentBriefStatus(it), b = agentBrief(it.ak), builder = agentBuilder(it);
   const ready = b && b.status === "ready" && b.contentReadiness === "ready" && b.reviewed;
-  const queued = agentQueue[it.ak];
+  const queued = agentQueueEntry(it.ak);
   d.className = "card agent-card";
   d.innerHTML =
     '<div class="agent-title">' + esc(it.t) + '</div>' +
@@ -1885,7 +1893,7 @@ function makeAgentCard(it) {
     '<button class="ghost li-fast">Create LinkedIn draft</button>' +
     '<button class="ghost save">' + (st.saved ? "Saved ✓" : "Save") + '</button>' +
     '<button class="ghost compare">' + (agentCompareSet.has(it.ak) ? "Selected" : "Compare") + '</button>' +
-    (builder ? '<button class="ghost follow">' + (agentFollows[builder.toLowerCase()] ? "Following" : "Follow builder") + '</button>' : '') +
+    (builder ? '<button class="ghost follow">' + (agentIsFollowing(builder) ? "Following" : "Follow builder") + '</button>' : '') +
     (b ? '<button class="ghost view">View brief</button>' : '') +
     (ready ? '<button class="ghost li">Use reviewed facts</button>' : '') +
     '</div>';
@@ -1915,7 +1923,7 @@ function agentRenderHealth() {
   const attempted = rows.map(x => x[1] && x[1].last_attempt).filter(Boolean).sort().pop();
   const attemptText = agentTimestamp(attempted);
   const successText = agentTimestamp(latest);
-  const failedNames = failed.map(x => x[0]).slice(0, 3).join(", ");
+  const failedNames = failed.map(x => x[0] + (x[1].detail ? " (" + x[1].detail + ")" : "")).slice(0, 3).join(", ");
   el.textContent = failed.length ? failed.length + " discovery source(s) failed or were empty: " + failedNames + (failed.length > 3 ? " and others" : "") + ". Other sources remain usable. Last attempt: " + attemptText + "; last success: " + successText + "."
     : rows.length + " discovery sources healthy on their last attempt. Last attempt: " + attemptText + "; last success: " + successText + ".";
 }
@@ -2065,7 +2073,7 @@ function agentRenderModal() {
   const st = agentState(it.ak), b = agentBrief(it.ak);
   const facts = agentDraftFacts[it.ak] !== undefined ? agentDraftFacts[it.ak] : (it.sm || "");
   const bs = agentBriefStatus(it);
-  const builder = agentBuilder(it), safeUrl = agentSafeUrl(it.u), q = agentQueue[it.ak] || {};
+  const builder = agentBuilder(it), safeUrl = agentSafeUrl(it.u), q = agentQueueEntry(it.ak) || {};
   document.getElementById("agent-modal-sub").textContent = it.s || "";
   const opts = AGENT_STATUS.map(x => '<option value="' + x[0] + '"' + (x[0] === st.status ? " selected" : "") + '>' + x[1] + '</option>').join("");
   const modes = [["explain_build","Explain + Build"],["technical","Technical Deep Dive"],["mvp","Build a Similar MVP"],["linkedin","LinkedIn Research"]];
@@ -2081,7 +2089,7 @@ function agentRenderModal() {
     '<span class="agent-status ' + bs[1] + '">' + esc(bs[0]) + '</span></div>' +
     '<div class="agent-actions">' + (safeUrl ? '<a class="ghost" href="' + esc(safeUrl) + '" target="_blank" rel="noopener">Open source</a>' : '') +
     '<button class="ghost" onclick="agentToggleSave(\'' + it.ak + '\')">' + (st.saved ? "Saved ✓" : "Save") + '</button>' +
-    (builder ? '<button class="ghost" onclick="agentToggleFollow(\'' + it.ak + '\')">' + (agentFollows[builder.toLowerCase()] ? "Following " : "Follow ") + esc(builder) + '</button>' : '') +
+    (builder ? '<button class="ghost" onclick="agentToggleFollow(\'' + it.ak + '\')">' + (agentIsFollowing(builder) ? "Following " : "Follow ") + esc(builder) + '</button>' : '') +
     '<button class="ghost" onclick="agentExport(\'' + it.ak + '\',false)">Export research pack</button>' +
     (it.manual && it.sm ? '<button class="ghost" onclick="agentExport(\'' + it.ak + '\',false,true)">Export with local source text</button>' : '') +
     '<select onchange="agentSetStatus(this.value)" title="Learning status">' + opts + '</select>' +
