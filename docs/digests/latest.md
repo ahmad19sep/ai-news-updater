@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 3. **AI co-scientists are revolutionizing how research is done** — science angle
    https://www.nature.com/articles/d41586-026-02931-5
-4. **7 Ways AI Is Accelerating Cancer Cures—From A Doctor - Forbes** — science angle
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzNnRi1lY1V4V0Q2bU5KYzhiejE1UzFlNkRlam8tRmJWaTlDaFVjNHpaZlR1YzBldkdyNWhHWU1rNk1KeW1CcjFxenluRDFIZUFGN1FPSXZ1WnBzVWVnR0kycHkxQVk2WGRuYzgwdGY3dmMwQ3Zkdi1pT29VS2tyVmZpTXVmQTREWVpaeFl4clNneEZTME5BNGplSU40aDJFaFlBVWdtRQ?oc=5
-5. **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — science angle
+4. **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
-6. **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — science angle
+5. **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxPTG9xLVhKdmV1YUVyd09IWmRzZTJaLUxvYzFQb1Zadi1HRUM5T3BjdnVLSlJsVXJQLUFKSThuMkdXaGt3c2M5T0F2ZklZanV1UWRNLWx6RkQ5UHdWYk45czlDT3VWcFpnWkNGLURGb05GTFhqcERwdVR6cG9uNnI2TWtYNUNUcVdxaDJab1cwaC1vZWgzaHZlcUtkOFpGc1hBUGRIeTRvTXdSX1lGZlE?oc=5
-7. **What doctors need to know about AI psychosis - InSight+** — science angle
-   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMXNDU0p0dW5GVWNMNUlUR0tPQlJUd0IyNnMxOGluM3RIMlZGTHFGdzhQdGVwTDllRGFadUFZbk42SzYwU3gwLUVURUhsekFuUDA2YnRUTGo0bkhLbThiam54MU4zRkMtUTIydFRwT00xY0g5dTFDaEVSWDNLbmN3bGc5d19FUUlpZWhR?oc=5
-8. **Rutgers Gives Future Doctors an AI Head Start - PYMNTS.com** — science angle
+6. **Rutgers Gives Future Doctors an AI Head Start - PYMNTS.com** — science angle
    https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEFoZzNpcklrMWl4T3lzcmkwQUt2NWxFNDFWWS1VWThkY08tWV93TWhuNFBiazBLSkRlaTZSbk5HeF9GZ3JtWGpzeDdOaDNER21tVzNXdEJGcFRUYlZLcVNiYTEtT1YtN0kxN09uN2U1cWNSMXF0TlJXSHNNNWROU2duaVN1UlFlWDhlWXZQd2J0eUFhRFBoOTVMWGNsbFpHS3ZyQ3NR?oc=5
+7. **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — science angle
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTgzcnNHc29udlV0aDBjczVzVjRwbUJzaTU2d3ZqRmptbng4aXR1V1hYSmMtelFpeUdDZlVnU1FYc1Vfc2ozSy1nQTJieWtSWGc4Vl9rT2JLRm1ISUM2Wl9TNm9OZlJGbmNjNGdQYTlOTEtHSWFwTUNVTUxid2syQ1Nn?oc=5
+8. **Importance of teaching medical students to think in the era of AI - The Hindu** — science angle
+   https://news.google.com/rss/articles/CBMivAFBVV95cUxPY01hQnBwa01oTFN3QUZpS3NtQU1aU2pEdnRPX1VCRFpoc1ludXBielZnOUIxYjAxWGJLUnRiREt1RFlmVE12Ynl6V0lCdU1xVGFvMDFJTkZCenU0d3pPYlNwRmhXYjdJM1Q5cjNONFRDd0RIMmppVWpxa3RxTllqWTUxMkk3ekZSVEJVWTRDUEN3R2NYRkVNTGUtWUVRYnlKZ1owNzd4cWJIcnU3MTVGSUhnc3NTT1hyclRydNIBwwFBVV95cUxNN3hpRXNuOF9oUV96c1N1WG9uTDVPMzBZXzAzbm5WR2FFZFdHRUN3UnlfSjZFMEFWajRtdXZSdkRzSUJ3MEx5d3BLbE85ZHdPcXgxblNFeFhQUGZPZmxaNkx0QmhGWGpvbmdBOXBpMmRwYUpIRlN3ejJYWnctZzRHUndQdzR3ZnYzeDYxTElKVUxlODVxYkl3YnctOUN2SV80alhCZ1FtY3RGcFFGb1NfMWYtOHhwZG9TU3NJZldfYkRqN0k?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **AI co-scientists are revolutionizing how research is done** — https://www.nature.com/articles/d41586-026-02931-5
-- **7 Ways AI Is Accelerating Cancer Cures—From A Doctor - Forbes** — https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzNnRi1lY1V4V0Q2bU5KYzhiejE1UzFlNkRlam8tRmJWaTlDaFVjNHpaZlR1YzBldkdyNWhHWU1rNk1KeW1CcjFxenluRDFIZUFGN1FPSXZ1WnBzVWVnR0kycHkxQVk2WGRuYzgwdGY3dmMwQ3Zkdi1pT29VS2tyVmZpTXVmQTREWVpaeFl4clNneEZTME5BNGplSU40aDJFaFlBVWdtRQ?oc=5
 - **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
+- **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — https://news.google.com/rss/articles/CBMirgFBVV95cUxPTG9xLVhKdmV1YUVyd09IWmRzZTJaLUxvYzFQb1Zadi1HRUM5T3BjdnVLSlJsVXJQLUFKSThuMkdXaGt3c2M5T0F2ZklZanV1UWRNLWx6RkQ5UHdWYk45czlDT3VWcFpnWkNGLURGb05GTFhqcERwdVR6cG9uNnI2TWtYNUNUcVdxaDJab1cwaC1vZWgzaHZlcUtkOFpGc1hBUGRIeTRvTXdSX1lGZlE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3219
+- Total stories tracked: 3117
 - Most active topic: openai
 - Busiest category: AI General News
 
