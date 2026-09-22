@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:00:44.802885+00:00",
+  "generated_at": "2026-09-22T11:42:54.468653+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 37,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,6 +49,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
+          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wm3bit/this_isnt_real_i_made_this_street_art_entirely_in/",
           "signal": "This isn’t real. I made this street art entirely in ChatGPT"
         },
@@ -61,11 +66,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wmpy8q/i_asked_chatgpt_to_make_a_replace_speech_text_in/",
           "signal": "I asked ChatGPT to make a replace speech text in a comic to make it disturbing"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrlbu/can_anyone_explain_this_did_chatgpt_get/",
-          "signal": "Can anyone explain this? Did ChatGPT get infiltrated?"
         }
       ],
       "content_ideas": []
@@ -133,11 +133,12 @@
       "content_ideas": []
     },
     {
-      "name": "AI and the Destruction of the Creative Commons",
+      "name": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -153,8 +154,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-          "signal": "AI and the Destruction of the Creative Commons"
+          "url": "https://linear.app/now/ci-bottleneck-reworked",
+          "signal": "AI coding has made CI a bottleneck, so we reworked ours to keep up"
         }
       ],
       "content_ideas": []
@@ -182,34 +183,6 @@
           "platform": "hackernews",
           "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
           "signal": "M5 Ultra Mac Studio Review"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://linear.app/now/ci-bottleneck-reworked",
-          "signal": "AI coding has made CI a bottleneck, so we reworked ours to keep up"
         }
       ],
       "content_ideas": []
@@ -255,7 +228,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -324,7 +297,7 @@
       "content_ideas": []
     },
     {
-      "name": "If AI coding is lowering your code quality, you're not managing qualit",
+      "name": "Frontier AI on Your Own Hardware",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -336,7 +309,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -344,8 +317,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-          "signal": "If AI coding is lowering your code quality, you're not managing quality right"
+          "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+          "signal": "Frontier AI on Your Own Hardware"
         }
       ],
       "content_ideas": []
@@ -373,6 +346,33 @@
           "platform": "hackernews",
           "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
           "signal": "AI chatbots give wrong answers to financial queries 'most of the time'"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Don't Use AI to Write",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://paulbakker.io/writing/no-ai-for-writing/",
+          "signal": "Don't Use AI to Write"
         }
       ],
       "content_ideas": []
@@ -446,6 +446,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
+          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wm3bit/this_isnt_real_i_made_this_street_art_entirely_in/",
           "signal": "This isn’t real. I made this street art entirely in ChatGPT"
         },
@@ -458,11 +463,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wmpy8q/i_asked_chatgpt_to_make_a_replace_speech_text_in/",
           "signal": "I asked ChatGPT to make a replace speech text in a comic to make it disturbing"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrlbu/can_anyone_explain_this_did_chatgpt_get/",
-          "signal": "Can anyone explain this? Did ChatGPT get infiltrated?"
         }
       ],
       "content_ideas": []
@@ -498,6 +498,30 @@
     }
   ],
   "pain_points": [
+    {
+      "problem": "Praise be to Saint Tibo, Giver of Tokens and Reseter of Limits",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn02ae/praise_be_to_saint_tibo_giver_of_tokens_and/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "ChatGPT's search is broken",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5dc3/chatgpts_search_is_broken/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "There is a memory summary in your account that you cannot access and edit??",
       "who_affected": "r/ChatGPT",
