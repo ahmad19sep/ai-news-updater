@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 14 Sep 2026 to 21 Sep 2026
+# 🗞️ AI THIS WEEK — 15 Sep 2026 to 22 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3158
+- Total stories tracked: 3219
 - Most active topic: openai
 - Busiest category: AI General News
 
