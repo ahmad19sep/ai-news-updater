@@ -13,26 +13,26 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 3. **AI co-scientists are revolutionizing how research is done** — science angle
    https://www.nature.com/articles/d41586-026-02931-5
-4. **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — science angle
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
-5. **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — science angle
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxPTG9xLVhKdmV1YUVyd09IWmRzZTJaLUxvYzFQb1Zadi1HRUM5T3BjdnVLSlJsVXJQLUFKSThuMkdXaGt3c2M5T0F2ZklZanV1UWRNLWx6RkQ5UHdWYk45czlDT3VWcFpnWkNGLURGb05GTFhqcERwdVR6cG9uNnI2TWtYNUNUcVdxaDJab1cwaC1vZWgzaHZlcUtkOFpGc1hBUGRIeTRvTXdSX1lGZlE?oc=5
-6. **Rutgers Gives Future Doctors an AI Head Start - PYMNTS.com** — science angle
+4. **Rutgers Gives Future Doctors an AI Head Start - PYMNTS.com** — science angle
    https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEFoZzNpcklrMWl4T3lzcmkwQUt2NWxFNDFWWS1VWThkY08tWV93TWhuNFBiazBLSkRlaTZSbk5HeF9GZ3JtWGpzeDdOaDNER21tVzNXdEJGcFRUYlZLcVNiYTEtT1YtN0kxN09uN2U1cWNSMXF0TlJXSHNNNWROU2duaVN1UlFlWDhlWXZQd2J0eUFhRFBoOTVMWGNsbFpHS3ZyQ3NR?oc=5
-7. **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — science angle
+5. **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTgzcnNHc29udlV0aDBjczVzVjRwbUJzaTU2d3ZqRmptbng4aXR1V1hYSmMtelFpeUdDZlVnU1FYc1Vfc2ozSy1nQTJieWtSWGc4Vl9rT2JLRm1ISUM2Wl9TNm9OZlJGbmNjNGdQYTlOTEtHSWFwTUNVTUxid2syQ1Nn?oc=5
-8. **Importance of teaching medical students to think in the era of AI - The Hindu** — science angle
+6. **Importance of teaching medical students to think in the era of AI - The Hindu** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPY01hQnBwa01oTFN3QUZpS3NtQU1aU2pEdnRPX1VCRFpoc1ludXBielZnOUIxYjAxWGJLUnRiREt1RFlmVE12Ynl6V0lCdU1xVGFvMDFJTkZCenU0d3pPYlNwRmhXYjdJM1Q5cjNONFRDd0RIMmppVWpxa3RxTllqWTUxMkk3ekZSVEJVWTRDUEN3R2NYRkVNTGUtWUVRYnlKZ1owNzd4cWJIcnU3MTVGSUhnc3NTT1hyclRydNIBwwFBVV95cUxNN3hpRXNuOF9oUV96c1N1WG9uTDVPMzBZXzAzbm5WR2FFZFdHRUN3UnlfSjZFMEFWajRtdXZSdkRzSUJ3MEx5d3BLbE85ZHdPcXgxblNFeFhQUGZPZmxaNkx0QmhGWGpvbmdBOXBpMmRwYUpIRlN3ejJYWnctZzRHUndQdzR3ZnYzeDYxTElKVUxlODVxYkl3YnctOUN2SV80alhCZ1FtY3RGcFFGb1NfMWYtOHhwZG9TU3NJZldfYkRqN0k?oc=5
+7. **Even amid dire warnings, AI is helping doctors save lives - The Palm Beach Post** — science angle
+   https://news.google.com/rss/articles/CBMizwFBVV95cUxOTVBxa045Sl9YOVFyN3BDbnhzSEV0elZoZXNGd3Fmb0NacVlseVVITkpfaGdhdVduX1QtVF9BWjhCUXBDa0tET0Y0OEVReW1GeEhsZ20wRVpYWGRGMXBWQWZ4RFBVMEhxRk4xQlNraTAxUC1fUzhNcWNVdWlNRzF6UHF5cXRsRlVHSkNvcmI2dzhqR0puM3EwMExlZDZ4UW9GdHVuVk91eXlQY1J1TUdoOV8wbmROX3lwLU96VUtEUXpEOFNmT3FKcU5RSmhOcms?oc=5
+8. **A coffee shop owner used AI to make a menu poster. Then came the angry DMs** — 29 upvotes on Reddit/HN
+   https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxSUpOQ20yM2RRbDZUZ2ZiU0oxdkFmd1dhN1dCZ0pPelZ2R1I2SDYwa0xHZGZxcUJ1VlAwRmtNY1hFak5zdHA0SWRxY3d2X0VUT0dZRmQteGg0MzdaMHBQU1d0d0VZam9Wc0VqS0QzYzdmeVBMc2tPSk9uYjBTQjl0NUVONEJGTEVxdVI3dFNBNmdWNlFoNkpGU053eUVvVXN6X0l5cV9LNkR5Wm8wV3EyY1hVTmt0eVhvMFdJaU5mRUNaQzF3c3VBbVM0Qg?oc=5
 2. **The king and AI: UK monarch Charles meets with artificial intelligence leaders - WPLG Local 10** — Demis Hassabis News — Score 163
    https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ3ekoteXpHN3c4ZzVNV29STWdxdWxoQ19KS2FtMDJpOXVLTjVidXZiWUJ3NVJ6YlBwUXlrYnlXRm9nc3k0TDd0dk9WSk85cGU0U2t5eldzaTIyYnV5NzBKNGpjSUk4ZG9zV0gzN01QN09vSENualRXZGppUWdOUXRJWF9Wd21aalNnWk5Gb092VjdzMXVOOTBtTGYwOHl0N1lzaGNyOWc0RUxzQkE1d0V2OTg4T19wUFB3QmhMRQ?oc=5
-3. **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9** — AI in Coding — Score 116
+3. **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9** — AI in Coding — Score 113
    https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvRXJrVWRLMThZMW9RRThaRVJ5Mkxudl9Ock84U2Y2aXFhZHc3T0xtX0ZITlNQN01aQXd2eDR0MW15N2ZuVjJIYXdUdVpabkFGeHYxdEdjMlNIb1FINWZ6ZHlUaVhndHVHb2dxUXhFUGNkMHNtQmhmY1dITkF2dTdYUzFjb204aXdYbXg5WUhrZWx0aEpQaFlXazJKWTJaZFlkMGxRQUZNbnJfNldNX0d2cnZMOENfWVNOM0IwRTdhSXpSZ2tnNzA3RG9ncGxsQVRlNWVNMUEtVF9NeDdTakxvUFItUUx3ZDQ0UkE?oc=5
-4. **Interview: Cloudera bets on hybrid AI growth in JAPAC** — itbrief_com_au — Score 103
-   https://itbrief.com.au/story/interview-cloudera-bets-on-hybrid-ai-growth-in-japac
+4. **Bill Gates pushes for 'smart use' of AI as his foundation builds more representative language data** — ottumwacourier — Score 96
+   https://www.ottumwacourier.com/news/business/bill-gates-pushes-for-smart-use-of-ai-as-his-foundation-builds-more-representative-language/article_cbc33a4b-e0a2-515a-8a8f-865ddb66f079.html
 5. **Anthropic says its model Claude is helping to build the next version of itself - abcnews.com** — Anthropic News — Score 80
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0RtTS1pM2xacndPR245b3dPT2JqaTFjcFJRbGtaZUhNcVV0WlY5dFVRZFBreWVhSGhheWM2Zk1GdHNYYW5mVWJkRzFsV3BPQzNneXpwb3NVODN4WUhzLWZxVWYzd0ZmZjYzYWxBUWg2WEprSEV2MV8yYTY3UGM4ejc0ay1aOVVWWC04U1B5OEvSAZYBQVVfeXFMTnVfLUdtelBwZ0dGMVRTTWdMMzJDY1lKQ3IxZW1mSzYwOXJyYnp0cGh2NXhiNmswM3FZQ183NkVQYnR4Tl9kZFNTcWZHOXEydV83YmlEZklDQXJHSy1URUs1VlJmU25xSFZUMlE3ZnBESHV5LXhkejE3QlBzZlZoMjc1QTZvNEJpdGNYd0RqN2FuZ1I2Y1B3?oc=5
 6. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 76
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Dame Helen Mirren avoids doctors and uses AI to get medical advice - Yahoo Lifestyle Canada** — https://news.google.com/rss/articles/CBMif0FVX3lxTE04eHhnSjFmQUpWMExpNWNwTVF1QjNRNHF1Y0pYazFmd1lmNmJZTng1MThDZXIwVE5jdjdWTnVkdmIyZzdfZ1VFYUtNQXpfUzNUUTZMQThVZXdiMUF3T004aHBPVk9fZ196R1QyS1FTbWVOd2NSQUNNb0hCeTFveHc?oc=5
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **AI co-scientists are revolutionizing how research is done** — https://www.nature.com/articles/d41586-026-02931-5
-- **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
-- **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — https://news.google.com/rss/articles/CBMirgFBVV95cUxPTG9xLVhKdmV1YUVyd09IWmRzZTJaLUxvYzFQb1Zadi1HRUM5T3BjdnVLSlJsVXJQLUFKSThuMkdXaGt3c2M5T0F2ZklZanV1UWRNLWx6RkQ5UHdWYk45czlDT3VWcFpnWkNGLURGb05GTFhqcERwdVR6cG9uNnI2TWtYNUNUcVdxaDJab1cwaC1vZWgzaHZlcUtkOFpGc1hBUGRIeTRvTXdSX1lGZlE?oc=5
+- **Rutgers Gives Future Doctors an AI Head Start - PYMNTS.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEFoZzNpcklrMWl4T3lzcmkwQUt2NWxFNDFWWS1VWThkY08tWV93TWhuNFBiazBLSkRlaTZSbk5HeF9GZ3JtWGpzeDdOaDNER21tVzNXdEJGcFRUYlZLcVNiYTEtT1YtN0kxN09uN2U1cWNSMXF0TlJXSHNNNWROU2duaVN1UlFlWDhlWXZQd2J0eUFhRFBoOTVMWGNsbFpHS3ZyQ3NR?oc=5
+- **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTgzcnNHc29udlV0aDBjczVzVjRwbUJzaTU2d3ZqRmptbng4aXR1V1hYSmMtelFpeUdDZlVnU1FYc1Vfc2ozSy1nQTJieWtSWGc4Vl9rT2JLRm1ISUM2Wl9TNm9OZlJGbmNjNGdQYTlOTEtHSWFwTUNVTUxid2syQ1Nn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3117
+- Total stories tracked: 3104
 - Most active topic: openai
 - Busiest category: AI General News
 
