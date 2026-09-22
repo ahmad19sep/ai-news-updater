@@ -206,6 +206,25 @@ function runChecks() {
     if (!d.getElementById("lock").hidden) throw new Error("still locked");
   });
 
+  check("reading theme defaults to light and persists an accessible dark option", () => {
+    const button = d.getElementById("themebtn");
+    const meta = d.querySelector('meta[name="theme-color"]');
+    if (d.body.classList.contains("dark")) throw new Error("new session did not start in light mode");
+    if (button.getAttribute("aria-pressed") !== "false") throw new Error("light state is not exposed");
+    w.toggleTheme();
+    if (!d.body.classList.contains("dark")) throw new Error("dark class was not applied");
+    if (button.getAttribute("aria-pressed") !== "true") throw new Error("dark state is not exposed");
+    if (button.getAttribute("aria-label") !== "Switch to light theme") throw new Error("theme label is stale");
+    if (w.localStorage.getItem("theme") !== "dark") throw new Error("dark preference was not stored");
+    if (meta.content !== "#11171c") throw new Error("browser theme color did not follow dark mode");
+    if (!html.includes("body.dark") || !html.includes("--strong-ink:#11171c"))
+      throw new Error("dark selected-control contrast token is missing");
+    w.toggleTheme();
+    if (d.body.classList.contains("dark") || button.getAttribute("aria-pressed") !== "false")
+      throw new Error("light mode was not restored");
+    if (meta.content !== "#f4f7f9") throw new Error("browser theme color did not return to light");
+  });
+
   const tabs = [...d.querySelectorAll(".navitem")].map(b => b.id.replace("tabbtn-", ""));
   check("every nav tab switches cleanly (" + tabs.join(", ") + ")", () => {
     tabs.forEach(t => w.switchTab(t));
@@ -242,6 +261,7 @@ function runChecks() {
       throw new Error("agent-loop explainer missing");
     if (!d.getElementById("agent-health").textContent) throw new Error("source health missing");
     d.querySelector('#agent-modebar button[data-v="use_cases"]').click();
+    if (!d.getElementById("agent-hero").hidden) throw new Error("AI in Practice did not collapse the introductory lesson");
     if (d.getElementById("agent-domainbar").hidden) throw new Error("AI in Practice field filters stayed hidden");
     if (!d.getElementById("agent-domainbar").textContent.includes("Health & Care")) throw new Error("field filters missing");
     if (!d.getElementById("agent-special").textContent.includes("Outcome evidence")) throw new Error("problem-to-outcome lens missing");

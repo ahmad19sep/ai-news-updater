@@ -80,6 +80,11 @@ takeaways are also available. Raw pasted source text and personal notes stay on
 the device; a manual capture enters an export only through the explicit local-source
 export action. Nothing runs, posts, or marks a story handled automatically.
 
+The reading UI follows a restrained HCI system: Inter body copy, Space Grotesk
+headings, high-contrast neutral surfaces, labelled filter groups, visible keyboard
+focus, 44 px mobile targets, reduced-motion support, and a remembered light/dark
+choice. Semantic colors communicate status without making color the only cue.
+
 ## Setup (one time)
 
 ```

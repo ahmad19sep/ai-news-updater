@@ -123,6 +123,12 @@ input/output, human decision, outcome evidence, and adoption barriers. Domain
 and role labels are classifier hints, not evidence or endorsements. Coverage is
 bounded by the configured sources and never presented as a complete map of AI.
 
+The workspace uses an HCI-focused reading system: Inter for sustained reading,
+Space Grotesk for hierarchy, high-contrast neutral surfaces, labelled control
+groups, visible keyboard focus, 44 px mobile targets, reduced-motion support,
+and persistent light/dark themes. Statuses retain text labels, so meaning does
+not depend on color alone.
+
 **Learning-first journey:** open **Learn / Copy prompt**, review or paste source
 material, choose one of five modes (Explain + Build, Technical Deep Dive, Build a
 Similar MVP, LinkedIn Research, Real-World Use Case), and optionally set level, stack, constraints,
