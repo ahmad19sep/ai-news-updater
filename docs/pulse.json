@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:42:54.468653+00:00",
+  "generated_at": "2026-09-22T16:59:40.456841+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wncn39/my_mum_is_lonely_and_turning_to_chatgpt_to_fill/",
+          "signal": "My mum is lonely and turning to ChatGPT to fill the void"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
           "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wm3bit/this_isnt_real_i_made_this_street_art_entirely_in/",
-          "signal": "This isn’t real. I made this street art entirely in ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnbtho/small_chatgpt_tip_let_it_keep_an_eye_on_things/",
+          "signal": "Small ChatGPT tip: let it keep an eye on things for you"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmfmji/psa_deleting_a_chatgpt_conversation_doesnt_mean/",
-          "signal": "PSA: Deleting a ChatGPT conversation doesn’t mean ChatGPT forgets it"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmpy8q/i_asked_chatgpt_to_make_a_replace_speech_text_in/",
-          "signal": "I asked ChatGPT to make a replace speech text in a comic to make it disturbing"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnc8bt/did_you_gave_your_chatgpt_a_personal_name/",
+          "signal": "Did you gave your chatgpt a personal name?"
         }
       ],
       "content_ideas": []
@@ -104,30 +104,28 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "AI Has No Wisdom and Neither Will You",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-          "signal": "Qwen Image 2.1"
+          "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+          "signal": "AI Has No Wisdom and Neither Will You"
         }
       ],
       "content_ideas": []
@@ -255,7 +253,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -351,7 +349,7 @@
       "content_ideas": []
     },
     {
-      "name": "Don't Use AI to Write",
+      "name": "Ask HN: Is it impossible to disable Siri on macOS 27?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -363,7 +361,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -371,8 +369,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://paulbakker.io/writing/no-ai-for-writing/",
-          "signal": "Don't Use AI to Write"
+          "url": "https://news.ycombinator.com/item?id=49786609",
+          "signal": "Ask HN: Is it impossible to disable Siri on macOS 27?"
         }
       ],
       "content_ideas": []
@@ -446,52 +444,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wncn39/my_mum_is_lonely_and_turning_to_chatgpt_to_fill/",
+          "signal": "My mum is lonely and turning to ChatGPT to fill the void"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
           "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wm3bit/this_isnt_real_i_made_this_street_art_entirely_in/",
-          "signal": "This isn’t real. I made this street art entirely in ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnbtho/small_chatgpt_tip_let_it_keep_an_eye_on_things/",
+          "signal": "Small ChatGPT tip: let it keep an eye on things for you"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmfmji/psa_deleting_a_chatgpt_conversation_doesnt_mean/",
-          "signal": "PSA: Deleting a ChatGPT conversation doesn’t mean ChatGPT forgets it"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmpy8q/i_asked_chatgpt_to_make_a_replace_speech_text_in/",
-          "signal": "I asked ChatGPT to make a replace speech text in a comic to make it disturbing"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-          "signal": "Qwen Image 2.1"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnc8bt/did_you_gave_your_chatgpt_a_personal_name/",
+          "signal": "Did you gave your chatgpt a personal name?"
         }
       ],
       "content_ideas": []
@@ -499,37 +468,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Praise be to Saint Tibo, Giver of Tokens and Reseter of Limits",
+      "problem": "Try Again Error?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn02ae/praise_be_to_saint_tibo_giver_of_tokens_and/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT's search is broken",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5dc3/chatgpts_search_is_broken/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "There is a memory summary in your account that you cannot access and edit??",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmw4bg/there_is_a_memory_summary_in_your_account_that/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn8nva/try_again_error/"
         }
       ],
       "content_opportunity": ""
