@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:59:40.456841+00:00",
+  "generated_at": "2026-09-22T21:21:59.097149+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 44,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,8 +44,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
-          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnj0l8/psa_gpt6_sol_just_launched_chatgpt_plus_still/",
+          "signal": "PSA- GPT-6 Sol Just Launched. ChatGPT Plus Still Can’t Use GPT-6 in Regular Chat."
         },
         {
           "platform": "reddit",
@@ -54,13 +54,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
-          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
+          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnbtho/small_chatgpt_tip_let_it_keep_an_eye_on_things/",
-          "signal": "Small ChatGPT tip: let it keep an eye on things for you"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
+          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
         },
         {
           "platform": "reddit",
@@ -213,6 +213,33 @@
       "content_ideas": []
     },
     {
+      "name": "Overreliance on AI contributed to missile strike on Iran school – Pent",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+          "signal": "Overreliance on AI contributed to missile strike on Iran school – Pentagon"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "macOS 27: Workaround to avoid downloading AI models and save storage",
       "category": "use_case",
       "momentum": "rising",
@@ -347,33 +374,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Ask HN: Is it impossible to disable Siri on macOS 27?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49786609",
-          "signal": "Ask HN: Is it impossible to disable Siri on macOS 27?"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -439,8 +439,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
-          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnj0l8/psa_gpt6_sol_just_launched_chatgpt_plus_still/",
+          "signal": "PSA- GPT-6 Sol Just Launched. ChatGPT Plus Still Can’t Use GPT-6 in Regular Chat."
         },
         {
           "platform": "reddit",
@@ -449,13 +449,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
-          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
+          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnbtho/small_chatgpt_tip_let_it_keep_an_eye_on_things/",
-          "signal": "Small ChatGPT tip: let it keep an eye on things for you"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
+          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
         },
         {
           "platform": "reddit",
@@ -468,13 +468,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Try Again Error?",
+      "problem": "Does the GPT-6 sol release come with a usage-limit reset?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn8nva/try_again_error/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnhrj9/does_the_gpt6_sol_release_come_with_a_usagelimit/"
         }
       ],
       "content_opportunity": ""
