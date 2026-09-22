@@ -87,6 +87,19 @@ new Function("window", tpl)(win);
   if (!/Never invent customers, revenue, pricing, ROI/.test(p)) fail("agent brief lost business-evidence guardrails");
   if (!p.includes("[S1] Release excerpt")) fail("selected source pack is missing from prompt");
   if (!p.includes("MODE: Technical Deep Dive")) fail("learning mode did not reach prompt");
+  const useCase = win.buildAgentBriefPrompt({
+    itemKey: "use-123", sourceRevision: "r-use", title: "Voice assistant helps drivers plan trips",
+    source: "https://example.com/use", mode: "use_case", domains: ["Personal & Everyday"],
+    aiRoles: ["Talk & Translate", "Automate & Act"], sources: [{ id:"S1", label:"Product example",
+      url:"https://example.com/use", date:"2026-09-01", text:"A driver asks for a route and reviews the proposed stops." }]
+  });
+  ["[[REAL_WORLD_PROBLEM]]", "[[PEOPLE_HELPED]]", "[[BEFORE_AI]]", "[[AI_CONTRIBUTION]]",
+    "[[INPUT_OUTPUT]]", "[[HUMAN_DECISION]]", "[[OUTCOME_EVIDENCE]]", "[[ADOPTION_BARRIERS]]"]
+    .forEach(m => { if (!useCase.includes(m)) fail("real-world use marker missing: " + m); });
+  if (!useCase.includes("MODE: Real-World Use Case")) fail("real-world use mode did not reach prompt");
+  if (!useCase.includes("fields: Personal & Everyday") || !useCase.includes("candidate AI roles: Talk & Translate, Automate & Act"))
+    fail("use-case classification hints missing from prompt");
+  if (!/classification only, not evidence/i.test(useCase)) fail("use-case labels can be mistaken for evidence");
   ok("Agent & AI learning prompt: source-filled v2 evidence contract");
 }
 

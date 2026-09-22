@@ -318,6 +318,12 @@ PAGE = r"""<!doctype html>
   .agent-health.warn { border-color:var(--gold); background:var(--gold-soft); }
   .agent-special { margin:10px 0; }
   .agent-special h3 { margin:0 0 6px; font:700 17px var(--display); }
+  .agent-lens { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0;
+          margin:11px 0 4px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .agent-lens span { min-width:0; padding:9px 10px; color:var(--dim); font-size:11.5px;
+          border-right:1px solid var(--line); }
+  .agent-lens span:nth-child(4n) { border-right:none; }
+  .agent-lens b { display:block; color:var(--cta); font:700 10px var(--mono); margin-bottom:2px; }
   .agent-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:10px; }
   .agent-card { cursor:default; border-radius:8px; }
   .agent-title { font-size:14.5px; font-weight:700; line-height:1.38; margin:0 0 8px; }
@@ -326,6 +332,8 @@ PAGE = r"""<!doctype html>
   .agent-status.ready { background:var(--green-soft); color:var(--green); }
   .agent-status.need { background:var(--gold-soft); color:var(--gold); }
   .agent-practical { background:var(--blue-soft); color:var(--blue); border-color:#bfd3e5; }
+  .agent-domain { background:var(--green-soft); color:var(--green); border-color:#bfd9c2; }
+  .agent-roleline { margin-top:7px; color:var(--dim); font-size:11.5px; }
   .agent-summary { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical;
           overflow:hidden; margin:8px 0 0; color:var(--dim); font-size:12.5px; }
   .agent-actions { display:flex; flex-wrap:wrap; gap:6px; margin-top:11px; }
@@ -356,6 +364,9 @@ PAGE = r"""<!doctype html>
     .agent-form-grid, .agent-prompt-controls { grid-template-columns:1fr; }
     .agent-form-grid .wide { grid-column:auto; }
     .agent-nav-label { width:100%; }
+    .agent-lens { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .agent-lens span:nth-child(4n) { border-right:1px solid var(--line); }
+    .agent-lens span:nth-child(2n) { border-right:none; }
   }
 
   /* ---------- modals: the overlay that centres a .mbox over the page.
@@ -759,8 +770,17 @@ PAGE = r"""<!doctype html>
         <input id="agent-cap-date" type="date" aria-label="Source date">
         <select id="agent-cap-kind" aria-label="Discovery type">
           <option value="agent_builds">Agent build</option><option value="workflows">Real-world workflow</option>
+          <option value="use_cases">AI in practice / use case</option>
           <option value="mvps">MVP / product</option><option value="skills">Agent Skill</option>
           <option value="mcp">MCP / integration</option><option value="models_frameworks">Model / framework</option>
+        </select>
+        <select id="agent-cap-domain" class="wide" aria-label="Real-world field">
+          <option value="">Field / domain (optional)</option>
+          <option value="personal">Personal &amp; Everyday</option><option value="work_productivity">Work &amp; Productivity</option>
+          <option value="software_it">Software &amp; IT</option><option value="business_customers">Customers &amp; Business</option>
+          <option value="health_care">Health &amp; Care</option><option value="education">Education</option>
+          <option value="research_science">Research &amp; Science</option><option value="creative_media">Creative &amp; Media</option>
+          <option value="industry_field">Industry &amp; Field Work</option><option value="public_access">Public Services &amp; Accessibility</option>
         </select>
         <textarea id="agent-cap-text" class="wide" rows="5" placeholder="Paste the relevant excerpt, README section, transcript, or source facts. A URL alone is a reference, not evidence."></textarea>
       </div>
@@ -769,8 +789,9 @@ PAGE = r"""<!doctype html>
     <div id="agent-terms" class="agent-capture" hidden></div>
     <div id="agent-health" class="agent-health"></div>
     <div class="agent-modebar" id="agent-modebar"></div>
-    <div class="search"><input id="agent-q" placeholder="Search tasks, builders, buyers, workflows, pricing, models, RAG..."></div>
+    <div class="search"><input id="agent-q" placeholder="Search real problems, people, tasks, builders, workflows, models, RAG..."></div>
     <div class="bar" id="agent-topicbar"></div>
+    <div class="bar" id="agent-domainbar" hidden></div>
     <div class="bar" id="agent-timebar"></div>
     <div class="bar" id="agent-userbar"></div>
     <div id="agent-special" class="agent-special"></div>
@@ -1610,23 +1631,33 @@ const AGENT_TOPICS = [
   ["rag_context", "RAG & Context"], ["real_world_agents", "Real-world Agents"],
   ["eval_safety", "Eval & Safety"], ["agi_watch", "AGI Watch"]];
 const AGENT_DISCOVERY_TABS = [
-  ["today", "Today"], ["agent_builds", "Agent Builds"], ["workflows", "Real-World Workflows"],
+  ["today", "Today"], ["agent_builds", "Agent Builds"], ["workflows", "Real-World Workflows"], ["use_cases", "AI in Practice"],
   ["mvps", "MVPs & Products"], ["skills", "Agent Skills"], ["mcp", "MCP & Integrations"],
   ["models_frameworks", "Models & Frameworks"], ["builders", "Builders"]];
 const AGENT_WORKSPACE_TABS = [["my_learning", "My Learning"], ["linkedin_queue", "LinkedIn Queue"]];
 const AGENT_MODES = AGENT_DISCOVERY_TABS.concat(AGENT_WORKSPACE_TABS);
 const AGENT_TRACKS = [["built", "Built & shipped"], ["operations", "Running in business"], ["selling", "Selling agents"]];
+const AGENT_DOMAINS = [
+  ["all", "All fields"], ["personal", "Personal & Everyday"], ["work_productivity", "Work & Productivity"],
+  ["software_it", "Software & IT"], ["business_customers", "Customers & Business"], ["health_care", "Health & Care"],
+  ["education", "Education"], ["research_science", "Research & Science"], ["creative_media", "Creative & Media"],
+  ["industry_field", "Industry & Field Work"], ["public_access", "Public Services & Accessibility"]];
+const AGENT_AI_ROLES = [
+  ["find_explain", "Find & Explain"], ["create", "Create"], ["analyze_recommend", "Analyze & Recommend"],
+  ["talk_translate", "Talk & Translate"], ["automate_act", "Automate & Act"], ["monitor_alert", "Monitor & Alert"]];
 const AGENT_TIMES = [["7", "7 days"], ["30", "30 days"], ["all", "All available"]];
 const AGENT_USERS = [["all", "All"], ["saved", "Saved"], ["studying", "Studying"], ["following", "Following"], ["ready", "Content-ready"]];
 const AGENT_STATUS = [["unread", "Unread"], ["saved", "Saved"], ["learning", "Learning"],
   ["want_to_build", "Want to build"], ["trying", "Trying"], ["built", "Built"], ["understood", "Understood"]];
-let agentMode = "today", agentTopic = "all", agentTime = "7", agentUser = "all", agentQ = "", agentStory = null, agentView = "overview";
+let agentMode = "today", agentTopic = "all", agentDomain = "all", agentTime = "7", agentUser = "all", agentQ = "", agentStory = null, agentView = "overview";
 let agentDraftFacts = {};
 let agentCompareSet = new Set();
 let agentValidationError = "";
 function agentTopicName(k) { return (AGENT_TOPICS.find(x => x[0] === k) || ["", k || "Unknown"])[1]; }
 function agentPracticeName(k) { return (AGENT_MODES.find(x => x[0] === k) || ["", k || "Practical"])[1]; }
 function agentTrackName(k) { return (AGENT_TRACKS.find(x => x[0] === k) || ["", k || "Practical"])[1]; }
+function agentDomainName(k) { return (AGENT_DOMAINS.find(x => x[0] === k) || ["", k || "Unclassified field"])[1]; }
+function agentRoleName(k) { return (AGENT_AI_ROLES.find(x => x[0] === k) || ["", k || "Unclassified role"])[1]; }
 function agentSafeUrl(url) { try { const u = new URL(url); return ["http:", "https:"].includes(u.protocol) ? u.href : ""; } catch (e) { return ""; } }
 function agentHash(text) {
   let h = 2166136261;
@@ -1697,8 +1728,10 @@ function agentBriefStatus(it) {
 function agentSearchBlob(it) {
   const b = agentBrief(it.ak) || {};
   return [it.t, it.s, it.primary, (it.topics || []).join(" "), (it.secondary || []).join(" "),
-    (it.practical || []).join(" "), it.sm, b.modelProductVersion, b.whatChanged, b.howItWorks,
-    b.practicalTask, b.userBuyer, b.businessModel, b.goToMarket, b.contentQuestion].join(" ").toLowerCase();
+    (it.practical || []).join(" "), (it.domains || []).map(agentDomainName).join(" "),
+    (it.aiRoles || []).map(agentRoleName).join(" "), it.sm, b.modelProductVersion, b.whatChanged, b.howItWorks,
+    b.practicalTask, b.userBuyer, b.businessModel, b.goToMarket, b.contentQuestion,
+    b.realWorldProblem, b.peopleHelped, b.aiContribution, b.outcomeEvidence].join(" ").toLowerCase();
 }
 function agentFiltered() {
   const needle = agentQ.toLowerCase();
@@ -1712,6 +1745,7 @@ function agentFiltered() {
       (it.tabs || []).includes(agentMode) || (it.practical || []).includes(agentMode);
     return tabPass &&
       (agentTopic === "all" || (it.topics || []).includes(agentTopic)) &&
+      (agentMode !== "use_cases" || agentDomain === "all" || (it.domains || []).includes(agentDomain)) &&
       (["my_learning", "linkedin_queue"].includes(agentMode) || agentTimePass(it)) &&
       (agentUser === "all" || (agentUser === "saved" && st.saved) ||
         (agentUser === "studying" && ["learning", "want_to_build", "trying"].includes(st.status)) ||
@@ -1724,7 +1758,8 @@ function agentFiltered() {
 }
 function agentUsefulness(it) {
   const evidence = it.sm ? 4 : 0, practical = (it.practical || []).length * 2;
-  const detail = (it.secondary || []).length + (it.matchReasons || []).length;
+  const detail = (it.secondary || []).length + (it.matchReasons || []).length +
+    Math.min(2, (it.domains || []).length) + Math.min(2, (it.aiRoles || []).length);
   const when = new Date(it.pub || it.col || 0).getTime();
   const ageDays = when ? Math.max(0, (Date.now() - when) / 86400000) : 30;
   const freshness = Math.max(0, 3 - ageDays / 2);
@@ -1787,19 +1822,23 @@ function agentSaveCapture() {
   const text = document.getElementById("agent-cap-text").value.trim().slice(0, 12000);
   const author = document.getElementById("agent-cap-author").value.trim().slice(0, 120);
   const kind = document.getElementById("agent-cap-kind").value;
+  const domain = document.getElementById("agent-cap-domain").value;
   const date = document.getElementById("agent-cap-date").value || null;
   if (!title || !url) { toast("Add a title and a public http(s) source URL"); return; }
   const key = "manual-" + agentHash(url);
-  const primary = kind === "models_frameworks" ? "models" : kind === "workflows" || kind === "mvps" ? "real_world_agents" : "agent_loops";
+  const primary = kind === "models_frameworks" ? "models" : ["workflows", "use_cases", "mvps"].includes(kind) ? "real_world_agents" : "agent_loops";
+  const practical = kind === "workflows" ? ["operations"] : kind === "mvps" ? ["selling"] :
+    ["agent_builds", "skills", "mcp"].includes(kind) ? ["built"] : [];
   agentCaptures[key] = { ak:key, t:title, u:url, s:"Manual capture", author:author, p:2,
     pub:date, dateLabel:"Source dated", col:new Date().toISOString(), sm:text, sc:0, links:[], primary:primary,
     topics:[primary], secondary:kind === "mcp" ? ["MCP"] : kind === "skills" ? ["Agent Skills"] : [],
-    sourceType:"manual", systemType:"unknown", topology:"unknown", practical:kind === "workflows" ? ["operations"] : kind === "mvps" ? ["selling"] : ["built"],
-    tabs:[kind].concat(author ? ["builders"] : []), matchReasons:["Saved manually from a supplied public source"], manual:true };
+    sourceType:"manual", systemType:"unknown", topology:"unknown", practical:practical,
+    domains:domain ? [domain] : [], aiRoles:[], tabs:[kind].concat(author ? ["builders"] : []),
+    matchReasons:[kind === "use_cases" ? "AI in Practice: manually classified; verify against the supplied source" : "Saved manually from a supplied public source"], manual:true };
   saveAgentCaptures();
   agentLearning[key] = { saved:true, status:"saved", snapshot:agentSnapshot(agentCaptures[key]), updatedAt:new Date().toISOString() };
   saveAgentLearning();
-  ["agent-cap-title","agent-cap-url","agent-cap-text","agent-cap-author","agent-cap-date"].forEach(id => document.getElementById(id).value = "");
+  ["agent-cap-title","agent-cap-url","agent-cap-text","agent-cap-author","agent-cap-date","agent-cap-domain"].forEach(id => document.getElementById(id).value = "");
   document.getElementById("agent-capture").hidden = true;
   agentMode = kind; renderAgents(); toast(text ? "Discovery saved with local source evidence" : "Reference saved - add source text before research");
 }
@@ -1874,11 +1913,13 @@ function makeAgentCard(it) {
   const st = agentState(it.ak), bs = agentBriefStatus(it), b = agentBrief(it.ak), builder = agentBuilder(it);
   const ready = b && b.status === "ready" && b.contentReadiness === "ready" && b.reviewed;
   const queued = agentQueueEntry(it.ak);
+  const isUseCase = (it.tabs || []).includes("use_cases");
   d.className = "card agent-card";
   d.innerHTML =
     '<div class="agent-title">' + esc(it.t) + '</div>' +
     '<div class="meta"><span class="pill">' + esc(agentTopicName(it.primary)) + '</span>' +
     (it.practical || []).map(x => '<span class="agent-status agent-practical">' + esc(agentTrackName(x)) + '</span>').join("") +
+    (it.domains || []).slice(0, 2).map(x => '<span class="agent-status agent-domain">' + esc(agentDomainName(x)) + '</span>').join("") +
     (it.secondary || []).slice(0, 3).map(x => '<span class="pill">' + esc(x) + '</span>').join("") +
     '<span>' + esc(it.s || "Unknown source") + '</span><span>' + esc(agentDate(it.pub, it.dateLabel)) + '</span>' +
     '<span class="agent-status ' + bs[1] + '">' + esc(bs[0]) + '</span>' +
@@ -1886,10 +1927,11 @@ function makeAgentCard(it) {
     (queued ? '<span class="agent-status">Queue: ' + esc(queued.stage.replace(/_/g, " ")) + '</span>' : '') + '</div>' +
     '<div class="note" style="margin:8px 0 0">' + (builder ? 'Associated builder: ' + esc(builder) + ' | ' : '') +
     'Evidence: ' + (it.sm ? 'source excerpt available' : 'source text missing') + ' | Source type: ' + esc(it.sourceType || "unknown") + '</div>' +
+    ((it.aiRoles || []).length ? '<div class="agent-roleline">Candidate AI contribution: ' + esc(it.aiRoles.slice(0, 3).map(agentRoleName).join(" · ")) + '</div>' : '') +
     (it.sm ? '<div class="agent-summary">' + esc(it.sm) + '</div>' : '') +
     ((it.matchReasons || []).length ? '<div class="note" style="margin-top:7px">Why here: ' + esc(it.matchReasons.slice(0, 2).join("; ")) + '</div>' : '') +
     '<div class="agent-actions"><button class="ghost src">Open source</button>' +
-    '<button class="btn learn">Learn / Copy prompt</button>' +
+    '<button class="btn learn">' + (isUseCase ? "How it helps" : "Learn / Copy prompt") + '</button>' +
     '<button class="ghost li-fast">Create LinkedIn draft</button>' +
     '<button class="ghost save">' + (st.saved ? "Saved ✓" : "Save") + '</button>' +
     '<button class="ghost compare">' + (agentCompareSet.has(it.ak) ? "Selected" : "Compare") + '</button>' +
@@ -1898,7 +1940,7 @@ function makeAgentCard(it) {
     (ready ? '<button class="ghost li">Use reviewed facts</button>' : '') +
     '</div>';
   d.querySelector(".src").onclick = () => { const u = agentSafeUrl(it.u); if (u) window.open(u, "_blank", "noopener"); };
-  d.querySelector(".learn").onclick = () => agentOpen(it.ak);
+  d.querySelector(".learn").onclick = () => isUseCase ? agentOpenUseCase(it.ak) : agentOpen(it.ak);
   d.querySelector(".li-fast").onclick = () => agentFastLinkedIn(it.ak);
   d.querySelector(".save").onclick = () => agentToggleSave(it.ak);
   d.querySelector(".compare").onclick = () => agentToggleCompare(it.ak);
@@ -1931,12 +1973,17 @@ function agentRenderSpecial() {
   const el = document.getElementById("agent-special"); if (!el) return;
   const labels = {
     today:["Today", "A bounded selection ranked by available evidence, practical detail, and relevant freshness. Recent collection is not proof of a recent release."],
+    use_cases:["AI in Practice", "See how modern AI may help with concrete work and everyday problems across collected fields. These are evidence candidates, not endorsements or proof of outcomes."],
     builders:["Builders", "Public identities are shown only when a source supports them. Following filters collected results; it does not monitor every platform."],
     my_learning:["My Learning", "Saved snapshots survive feed expiry. Your personal takeaway stays only on this device."],
     linkedin_queue:["LinkedIn Queue", "Research and editorial status are separate from learning progress. Only the existing explicit Mark as posted action records publication."]
   };
   const row = labels[agentMode];
-  el.innerHTML = row ? '<h3>' + row[0] + '</h3><div class="note">' + row[1] + '</div>' : '';
+  const lens = agentMode === "use_cases" ? '<div class="agent-lens" aria-label="Real-world use-case lens">' +
+    [["01","Problem"],["02","People"],["03","Before AI"],["04","AI contribution"],
+     ["05","Input to output"],["06","Human decision"],["07","Outcome evidence"],["08","Limits"]]
+      .map(x => '<span><b>' + x[0] + '</b>' + x[1] + '</span>').join("") + '</div>' : '';
+  el.innerHTML = row ? '<h3>' + row[0] + '</h3><div class="note">' + row[1] + '</div>' + lens : '';
 }
 function renderAgents() {
   const qin = document.getElementById("agent-q"); if (!qin) return;
@@ -1946,6 +1993,9 @@ function renderAgents() {
   agentRenderHealth();
   agentRenderSpecial();
   agentBar(document.getElementById("agent-topicbar"), AGENT_TOPICS, agentTopic, v => agentTopic = v);
+  const domainBar = document.getElementById("agent-domainbar");
+  domainBar.hidden = agentMode !== "use_cases";
+  if (!domainBar.hidden) agentBar(domainBar, AGENT_DOMAINS, agentDomain, v => agentDomain = v);
   agentBar(document.getElementById("agent-timebar"), AGENT_TIMES, agentTime, v => agentTime = v);
   agentBar(document.getElementById("agent-userbar"), AGENT_USERS, agentUser, v => agentUser = v);
   const items = agentFiltered();
@@ -1961,7 +2011,7 @@ function renderAgents() {
   items.forEach(it => list.appendChild(makeAgentCard(it)));
   agentRenderCompare();
 }
-function agentOpen(k) {
+function agentOpen(k, initialView) {
   agentStory = agentFind(k);
   if (!agentStory) return;
   agentValidationError = "";
@@ -1970,9 +2020,14 @@ function agentOpen(k) {
     agentLearning[k] = Object.assign({}, agentLearning[k] || {}, { saved: st.saved, status: "learning", snapshot:st.snapshot || agentSnapshot(agentStory), updatedAt: new Date().toISOString() });
     saveAgentLearning();
   }
-  agentView = "overview";
+  agentView = initialView || "overview";
   document.getElementById("agentmodal").hidden = false;
   agentRenderModal();
+}
+function agentOpenUseCase(k) {
+  agentPromptPrefs = Object.assign({}, agentPromptPrefs || {}, { mode:"use_case" });
+  localStorage.setItem("agentPromptPrefs", JSON.stringify(agentPromptPrefs));
+  agentOpen(k, "usecase");
 }
 function agentClose() { document.getElementById("agentmodal").hidden = true; }
 document.getElementById("agentmodal").addEventListener("click", e => { if (e.target.id === "agentmodal") agentClose(); });
@@ -2020,6 +2075,19 @@ function agentViewHtml(it, b) {
   if (!b) {
     return '<div class="agent-field"><b>No research brief yet</b>' +
       (it.sm ? 'A source excerpt is available. Choose a learning mode above and copy the evidence-filled prompt.' : 'Only a reference is available. Paste an excerpt, README section, transcript, or documentation before asking for project-specific claims.') + '</div>';
+  }
+  if (agentView === "usecase") {
+    const barriers = (Array.isArray(b.adoptionBarriers) ? b.adoptionBarriers : agentLines(b.adoptionBarriers))
+      .concat(b.limitations || [], b.unknowns || []);
+    return '<div class="agent-validation ' + (b.validationPassed ? "ok" : "") + '"><b>Evidence-first use case.</b> Candidate field and role labels help discovery; the source-backed brief below decides what is actually known.</div>' +
+      agentField("Real-world problem", b.realWorldProblem) +
+      agentField("People helped", b.peopleHelped || b.userBuyer) +
+      agentField("Before AI", b.beforeAI) +
+      agentField("AI contribution", b.aiContribution || b.practicalTask) +
+      agentField("Input -> output", b.inputOutput || b.workflow) +
+      agentField("Human decision / responsibility", b.humanDecision || b.humanApprovals || b.autonomyBoundary) +
+      agentField("Outcome evidence", b.outcomeEvidence || b.proofOfUse) +
+      '<div class="agent-field"><b>Adoption barriers and limits</b>' + agentList(barriers) + '</div>';
   }
   if (agentView === "content") {
     return agentField("Professional question", b.contentQuestion) +
@@ -2076,7 +2144,7 @@ function agentRenderModal() {
   const builder = agentBuilder(it), safeUrl = agentSafeUrl(it.u), q = agentQueueEntry(it.ak) || {};
   document.getElementById("agent-modal-sub").textContent = it.s || "";
   const opts = AGENT_STATUS.map(x => '<option value="' + x[0] + '"' + (x[0] === st.status ? " selected" : "") + '>' + x[1] + '</option>').join("");
-  const modes = [["explain_build","Explain + Build"],["technical","Technical Deep Dive"],["mvp","Build a Similar MVP"],["linkedin","LinkedIn Research"]];
+  const modes = [["explain_build","Explain + Build"],["technical","Technical Deep Dive"],["mvp","Build a Similar MVP"],["linkedin","LinkedIn Research"],["use_case","Real-World Use Case"]];
   const modeOpts = modes.map(x => '<option value="' + x[0] + '"' + ((agentPromptPrefs.mode || "explain_build") === x[0] ? " selected" : "") + '>' + x[1] + '</option>').join("");
   const queueStages = [["","Not queued"],["researching","Researching"],["needs_evidence","Needs evidence"],["ready_for_drafting","Ready for drafting"],["draft_ready","Draft ready"],["posted","Posted"],["skipped","Skipped"]];
   const queueOpts = queueStages.map(x => '<option value="' + x[0] + '"' + ((q.stage || "") === x[0] ? " selected" : "") + '>' + x[1] + '</option>').join("");
@@ -2084,6 +2152,8 @@ function agentRenderModal() {
     '<div class="agent-title">' + esc(it.t) + '</div>' +
     '<div class="meta"><span class="pill">' + esc(agentTopicName(it.primary)) + '</span>' +
     (it.practical || []).map(x => '<span class="agent-status agent-practical">' + esc(agentTrackName(x)) + '</span>').join("") +
+    (it.domains || []).map(x => '<span class="agent-status agent-domain">' + esc(agentDomainName(x)) + '</span>').join("") +
+    (it.aiRoles || []).slice(0, 3).map(x => '<span class="pill">' + esc(agentRoleName(x)) + '</span>').join("") +
     (it.secondary || []).map(x => '<span class="pill">' + esc(x) + '</span>').join("") +
     '<span>' + esc(agentDate(it.pub, it.dateLabel)) + '</span><span>Collected ' + esc(ago(it.col)) + '</span>' +
     '<span class="agent-status ' + bs[1] + '">' + esc(bs[0]) + '</span></div>' +
@@ -2111,7 +2181,7 @@ function agentRenderModal() {
     '<textarea id="agent-raw" rows="7" placeholder="Paste the full model output with [[MARKERS]] here. A generic paragraph will be rejected."></textarea>' +
     '<div class="agent-actions"><button class="btn" onclick="agentValidateBrief()">Validate evidence & save</button></div></div>' +
     '<div class="agent-modal-tabs">' +
-    [["overview","Overview"],["evidence","Source evidence"],["learning","Learning"],["build","Proposed build"],["content","LinkedIn prep"]].map(v => '<button class="ghost ' + (agentView === v[0] ? "active" : "") + '" onclick="agentSetView(\'' + v[0] + '\')">' + v[1] + '</button>').join("") +
+    [["overview","Overview"],["usecase","Real-world use"],["evidence","Source evidence"],["learning","Learning"],["build","Proposed build"],["content","LinkedIn prep"]].map(v => '<button class="ghost ' + (agentView === v[0] ? "active" : "") + '" onclick="agentSetView(\'' + v[0] + '\')">' + v[1] + '</button>').join("") +
     '</div><div id="agent-view-body">' + agentViewHtml(it, b) + '</div>' +
     '<div class="agent-field"><b>Personal takeaway (device only)</b><textarea id="agent-note" rows="3" placeholder="What I learned, want to try, or built"></textarea>' +
     '<div class="agent-actions"><button class="ghost" onclick="agentSaveNote()">Save private takeaway</button><button class="ghost" onclick="agentExport(\'' + it.ak + '\',true)">Export with takeaway</button></div></div>';
@@ -2146,6 +2216,7 @@ function agentRefreshPrompt(copyNow) {
     itemKey: agentStory.ak, sourceRevision: agentSourceRevision(agentStory, facts),
     title: agentStory.t, source: agentStory.u, sourceLabel: agentStory.s, sourceType: agentStory.sourceType,
     tags: (agentStory.topics || []).map(agentTopicName), published: agentStory.pub || "unknown",
+    domains: (agentStory.domains || []).map(agentDomainName), aiRoles: (agentStory.aiRoles || []).map(agentRoleName),
     summary: agentStory.sm || "", facts: facts, sources: sources,
     mode: agentPromptPrefs.mode, sourcePolicy: agentPromptPrefs.sourcePolicy,
     level: agentPromptPrefs.level, stack: agentPromptPrefs.stack, constraints: agentPromptPrefs.constraints,
@@ -2212,6 +2283,11 @@ function agentValidateBrief() {
     ];
     const shallow = status === "ready" ? requiredDepth.filter(x => String(x[1] || "").trim().length < x[2]).map(x => x[0]) : [];
     if (shallow.length) { agentValidationFail("The answer is missing useful depth in " + shallow.join(", ") + ". It was not saved."); return; }
+    if (status === "ready" && agentPromptPrefs.mode === "use_case") {
+      const useCaseFields = ["real_world_problem", "people_helped", "before_ai", "ai_contribution", "input_output", "human_decision", "outcome_evidence", "adoption_barriers"];
+      const missingUseCase = useCaseFields.filter(k => !(k in p));
+      if (missingUseCase.length) { agentValidationFail("Real-World Use Case mode needs the complete problem-to-outcome structure. Refresh the prompt and include: " + missingUseCase.join(", ") + "."); return; }
+    }
     if (status === "ready" && agentSafeUrl(agentStory.u) && !(p.sources || "").includes(agentStory.u)) {
       agentValidationFail("[[SOURCES]] does not include the selected source URL. Keep provenance attached to the brief."); return;
     }
@@ -2230,6 +2306,10 @@ function agentValidateBrief() {
     topicTags: agentStory.topics || [], status: status, parsed:true, validationPassed:isV2,
     reviewed:false, reviewedClaims:reviewedClaims,
     plainExplanation: p.plain_explanation || "", concreteExample:p.concrete_example || "",
+    realWorldProblem:p.real_world_problem || "unknown", peopleHelped:p.people_helped || "unknown",
+    beforeAI:p.before_ai || "unknown", aiContribution:p.ai_contribution || "unknown",
+    inputOutput:p.input_output || "unknown", humanDecision:p.human_decision || "unknown",
+    outcomeEvidence:p.outcome_evidence || "none supplied", adoptionBarriers:agentLines(p.adoption_barriers),
     originalSystem:p.original_system || p.how_it_works || "", systemType:p.system_type || p.system_pattern || "unknown",
     attributedClaims:agentLines(p.attributed_claims), unknowns:agentLines(p.unknowns),
     proposedBlueprint:p.proposed_blueprint || p.build_test || "", implementationSteps:agentLines(p.implementation_steps),
@@ -4034,6 +4114,8 @@ def generate():
                 "practical": meta.get("practical", []),
                 "tabs": meta.get("discovery_tabs", []),
                 "matchReasons": meta.get("match_reasons", []),
+                "domains": meta.get("domains", []),
+                "aiRoles": meta.get("ai_roles", []),
                 "systemType": meta.get("system_type", "unknown"),
                 "topology": meta.get("topology", "unknown"),
             })
@@ -4061,6 +4143,8 @@ def generate():
             "practical": meta.get("practical", []),
             "tabs": meta.get("discovery_tabs", []),
             "matchReasons": meta.get("match_reasons", []),
+            "domains": meta.get("domains", []),
+            "aiRoles": meta.get("ai_roles", []),
             "systemType": meta.get("system_type", "unknown"),
             "topology": meta.get("topology", "unknown"),
         })

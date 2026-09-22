@@ -211,6 +211,7 @@ I want to understand the supplied AI project or development, optionally build so
 ITEM KEY: unknown
 SOURCE PACK REVISION: unknown
 ITEM: <<STORY HEADLINE>> | <<SOURCE LINK>> | source type hint: <<SOURCE TYPE HINT>> | topic hints: Models, Agent Loops | published: <<SOURCE PUBLICATION DATE>>
+USE-CASE HINTS (classification only, not evidence): fields: none detected | candidate AI roles: none detected
 MODE: Explain + Build
 MODE FOCUS: Teach the item in plain language, then design a clearly separate small implementation.
 MY LEVEL / STACK / CONSTRAINTS:
@@ -243,6 +244,8 @@ Model proposes; system authorizes. Do not infer autonomy just because the word a
 RAG is not obsolete. If retrieval, grounding, citations, freshness, or external knowledge matter, describe that as context engineering inside the broader system.
 AGI or capability claims must stay attributed and qualified. Never add an AGI percentage, countdown, or predicted arrival year.
 For practical and business analysis, separate an observable implementation from a proposed pattern. Never invent customers, revenue, pricing, ROI, adoption, deployment scale, or a business model. If the evidence is only a demo or repository, say that plainly.
+Domain and AI-role hints are discovery labels, not source facts. Correct or reject them when the supplied evidence does not support them.
+For Real-World Use Case mode, make the problem-to-decision chain explicit. Do not say AI helped, saved time, improved quality, or changed an outcome unless the evidence supports exactly how; put unsupported outcomes in unknowns.
 Classify it as an agent, fixed AI workflow, product, Agent Skill, MCP/integration, model/framework change, or unknown only when evidence supports that label. Multimodal is not multi-model; MCP is not multi-agent; an app built with an AI coding tool is not automatically an AI product.
 Explain what goes in, what happens, what comes out, who uses it, and where a person remains involved. Include one concrete example, ordered implementation steps, a minimal test plan, failure cases, permissions/approval points, cost drivers, tradeoffs, what to learn next, and one small exercise.
 For a model release, focus on supported capabilities and integration implications. For a skill, cover activation, packaged resources, dependencies, and a safe test. For an MVP, cover problem, buyer, scope, validation, and distribution. For an integration, cover data flow, authentication, permissions, and use.
@@ -278,6 +281,30 @@ Beginner-friendly explanation grounded in the sources
 
 [[CONCRETE_EXAMPLE]]
 One input -> process -> output example; label hypothetical parts
+
+[[REAL_WORLD_PROBLEM]]
+the concrete problem or job, who experiences it, and the cost of the old approach; cite evidence or say unknown
+
+[[PEOPLE_HELPED]]
+actual user, beneficiary, and buyer when evidenced; otherwise unknown
+
+[[BEFORE_AI]]
+the previous workflow or baseline, strictly from evidence; otherwise unknown
+
+[[AI_CONTRIBUTION]]
+what the AI specifically finds, creates, analyzes, communicates, automates, or monitors; distinguish it from surrounding software
+
+[[INPUT_OUTPUT]]
+real input -> AI/system processing -> output delivered to the user; label inferred or hypothetical parts
+
+[[HUMAN_DECISION]]
+what a person reviews, decides, authorizes, corrects, or owns after the AI output
+
+[[OUTCOME_EVIDENCE]]
+measured outcome, observed use, attributed claim, demo-only evidence, or none supplied; preserve attribution
+
+[[ADOPTION_BARRIERS]]
+privacy, reliability, integration, skill, cost, access, safety, regulation, or workflow barriers supported by evidence or clearly labelled analysis
 
 [[SYSTEM_TYPE]]
 deterministic_automation | llm_workflow | agentic_system | product | agent_skill | mcp_integration | model_framework | hybrid | unknown, followed by evidence

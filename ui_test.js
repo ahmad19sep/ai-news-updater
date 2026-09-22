@@ -78,6 +78,22 @@ ready
 [S1] The system does not let a model write a file immediately; an approval gate must allow the proposed change first.
 [[CONCRETE_EXAMPLE]]
 [S1] A model proposes changing config.json, the runtime pauses, and the write happens only after approval.
+[[REAL_WORLD_PROBLEM]]
+[S1] Engineering teams need to prevent unreviewed model output from changing files.
+[[PEOPLE_HELPED]]
+[S1] Engineers reviewing proposed file changes.
+[[BEFORE_AI]]
+unknown; no previous workflow was supplied.
+[[AI_CONTRIBUTION]]
+[S1] The model proposes a structured file change for review.
+[[INPUT_OUTPUT]]
+[S1] A file-edit request becomes a proposed change that pauses before execution.
+[[HUMAN_DECISION]]
+[S1] A person decides whether the proposed file write may execute.
+[[OUTCOME_EVIDENCE]]
+[S1] The excerpt supports an approval gate, but supplies no measured outcome.
+[[ADOPTION_BARRIERS]]
+- The evidence does not establish reliability, latency, or deployment scale.
 [[SYSTEM_TYPE]]
 agentic_system candidate, supported only by the described proposal and approval boundary [S1].
 [[PROPOSED_BLUEPRINT]]
@@ -197,24 +213,24 @@ function runChecks() {
   });
 
   check("Agents & AI renders distinct research and workspace tabs", () => {
-    if (!(w.__AGENT_ITEMS || []).length) {
+    if (!(w.__AGENT_ITEMS || []).some(x => x.ak === "agenttest001")) {
       w.__AGENT_ITEMS.push({ ak: "agenttest001", t: "Example agent runtime adds approval",
         u: "https://example.com/agent", s: "Example Corp", p: 2,
-        pub: "2026-09-01T00:00:00+00:00", col: "2026-09-02T00:00:00+00:00",
+        pub: "2026-09-21T00:00:00+00:00", col: "2026-09-22T00:00:00+00:00",
         sm: "", sc: 1, links: [], primary: "agent_loops",
         topics: ["agent_loops", "eval_safety"], secondary: ["tool calling"],
-        practical: ["built", "operations"],
-        tabs: ["agent_builds", "workflows", "builders"], matchReasons: ["Agent Builds: I built"],
+        practical: ["built", "operations"], domains: ["software_it"], aiRoles: ["automate_act"],
+        tabs: ["agent_builds", "workflows", "use_cases", "builders"], matchReasons: ["Agent Builds: I built"],
         sourceType: "official" });
     }
     w.switchTab("agents");
     if (d.getElementById("tab-agents").hidden) throw new Error("agents tab stayed hidden");
     if (!d.getElementById("agent-topicbar").textContent.includes("Agent Loops"))
       throw new Error("topic filters missing");
-    ["Today", "Agent Builds", "Real-World Workflows", "MVPs & Products", "Agent Skills",
+    ["Today", "Agent Builds", "Real-World Workflows", "AI in Practice", "MVPs & Products", "Agent Skills",
       "MCP & Integrations", "Models & Frameworks", "Builders", "My Learning", "LinkedIn Queue"]
       .forEach(label => { if (!d.getElementById("agent-modebar").textContent.includes(label)) throw new Error("missing tab: " + label); });
-    ["today", "agent_builds", "workflows", "mvps", "skills", "mcp", "models_frameworks", "builders", "my_learning", "linkedin_queue"]
+    ["today", "agent_builds", "workflows", "use_cases", "mvps", "skills", "mcp", "models_frameworks", "builders", "my_learning", "linkedin_queue"]
       .forEach(value => {
         const button = d.querySelector('#agent-modebar button[data-v="' + value + '"]');
         if (!button) throw new Error("missing tab control: " + value);
@@ -225,6 +241,16 @@ function runChecks() {
     if (!d.getElementById("tab-agents").textContent.includes("Model proposes"))
       throw new Error("agent-loop explainer missing");
     if (!d.getElementById("agent-health").textContent) throw new Error("source health missing");
+    d.querySelector('#agent-modebar button[data-v="use_cases"]').click();
+    if (d.getElementById("agent-domainbar").hidden) throw new Error("AI in Practice field filters stayed hidden");
+    if (!d.getElementById("agent-domainbar").textContent.includes("Health & Care")) throw new Error("field filters missing");
+    if (!d.getElementById("agent-special").textContent.includes("Outcome evidence")) throw new Error("problem-to-outcome lens missing");
+    const useCard = [...d.querySelectorAll("#agent-list .agent-card")].find(x => x.textContent.includes("Example agent runtime"));
+    if (!useCard || !useCard.textContent.includes("How it helps")) throw new Error("use-case action missing");
+    w.agentOpenUseCase("agenttest001");
+    if (d.getElementById("agent-prompt-mode").value !== "use_case") throw new Error("How it helps did not select use-case mode");
+    if (!d.getElementById("agent-modal-body").textContent.includes("Real-world use")) throw new Error("real-world brief pane missing");
+    w.agentClose();
   });
 
   check("manual discovery capture keeps raw source text local", () => {
@@ -308,6 +334,9 @@ function runChecks() {
     w.agentSetView("content");
     if (!d.getElementById("agent-view-body").textContent.includes("Ready to draft"))
       throw new Error("content readiness not shown");
+    w.agentSetView("usecase");
+    if (!d.getElementById("agent-view-body").textContent.includes("Engineering teams need to prevent"))
+      throw new Error("structured real-world use brief not shown");
     w.agentUseLinkedIn(it.ak);
     if (d.getElementById("nrmodal").hidden) throw new Error("LinkedIn draft did not open");
     if (!d.getElementById("nr-excerpt").value.includes("File writes require explicit approval"))

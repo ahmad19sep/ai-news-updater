@@ -47,15 +47,26 @@ real note; otherwise the post stays an attributed explanation.
 ## Agent & AI Radar
 
 The Studio has **🤖 Agents & AI**, with discovery tabs for Today, Agent Builds,
-Real-World Workflows, MVPs & Products, Agent Skills, MCP & Integrations,
+Real-World Workflows, **AI in Practice**, MVPs & Products, Agent Skills, MCP & Integrations,
 Models & Frameworks, and Builders. My Learning and LinkedIn Queue are separate
 workspace views. Public GitHub repositories, Hugging Face demos, Show HN/DEV
-posts, case studies, and focused searches stay in `agent_discoveries`, so they
+posts, case studies, field-focused searches, and four attributed first-party
+Grok examples stay in `agent_discoveries`, so they
 never affect public news, alerts, rankings, Trends/Pulse, digests, or the public
 homepage. Source health reports partial or failed collection honestly.
 
+**AI in Practice** answers a different question: how can modern AI help with a
+real problem? Items can be filtered across ten fields, from personal work,
+health, and education to science, industry, public services, and accessibility.
+Candidate role labels show whether AI appears to find, create, analyze, talk,
+act, or monitor. **How it helps** builds an evidence-first chain from problem and
+people through inputs, AI contribution, human decision, outcome evidence, and
+adoption barriers. These labels aid discovery; they are not proof that a product
+works or that a reported outcome was independently verified.
+
 **Learning-first:** open an item, add a source excerpt, choose Explain + Build,
-Technical Deep Dive, Build a Similar MVP, or LinkedIn Research, then copy the
+Technical Deep Dive, Build a Similar MVP, LinkedIn Research, or Real-World Use
+Case, then copy the
 editable prompt into any LLM. The v2 response must match the item and source-pack
 revision, cite `[S1]`/`[S2]` beside project facts, separate original evidence from
 a proposed build, and include tests, failures, permissions, costs, unknowns, and

@@ -29,6 +29,7 @@ PRACTICAL_TRACKS = [
 DISCOVERY_TABS = [
     ("agent_builds", "Agent Builds"),
     ("workflows", "Real-World Workflows"),
+    ("use_cases", "AI in Practice"),
     ("mvps", "MVPs & Products"),
     ("skills", "Agent Skills"),
     ("mcp", "MCP & Integrations"),
@@ -59,6 +60,13 @@ DISCOVERY_RULES = {
         "used by teams", "used by customers", "workflow automation",
         "customer support", "support calls", "human review", "human approval", "operations",
     ],
+    "use_cases": [
+        "used to", "uses ai to", "helps", "assistant", "copilot", "case study",
+        "in production", "deployed", "workflow", "automate", "summarize",
+        "translate", "transcribe", "detect", "diagnose", "predict", "forecast",
+        "recommend", "optimize", "plan", "schedule", "monitor", "triage",
+        "tutor", "generate", "draft", "analyze", "search", "tool calling",
+    ],
     "mvps": [
         "ai mvp", "mvp launch", "minimum viable product", "ai product",
         "ai app", "micro saas", "saas", "launched", "shipped", "paid plan",
@@ -80,6 +88,108 @@ DISCOVERY_RULES = {
     "builders": [
         "i built", "we built", "how i built", "how we built", "builder",
         "creator", "maintainer", "founder", "team built",
+    ],
+}
+
+
+USE_CASE_DOMAINS = [
+    ("personal", "Personal & Everyday"),
+    ("work_productivity", "Work & Productivity"),
+    ("software_it", "Software & IT"),
+    ("business_customers", "Customers & Business"),
+    ("health_care", "Health & Care"),
+    ("education", "Education"),
+    ("research_science", "Research & Science"),
+    ("creative_media", "Creative & Media"),
+    ("industry_field", "Industry & Field Work"),
+    ("public_access", "Public Services & Accessibility"),
+]
+
+
+DOMAIN_RULES = {
+    "personal": [
+        "personal assistant", "daily life", "everyday", "travel", "road trip",
+        "itinerary", "shopping", "navigation", "home assistant", "personal finance",
+    ],
+    "work_productivity": [
+        "workplace", "knowledge work", "productivity", "employee", "meeting",
+        "email", "inbox", "document", "spreadsheet", "presentation", "office",
+        "recruiting", "human resources", "hr team",
+    ],
+    "software_it": [
+        "coding", "developer", "software", "debug", "code review", "devops",
+        "it team", "cybersecurity", "security operations", "incident response",
+    ],
+    "business_customers": [
+        "customer support", "customer service", "contact center", "help desk",
+        "sales", "marketing", "crm", "ecommerce", "small business", "accounting",
+        "banking", "finance", "fraud", "insurance", "legal", "contract", "compliance",
+    ],
+    "health_care": [
+        "healthcare", "health care", "clinical", "clinician", "patient", "hospital",
+        "physician", "nurse", "medical", "diagnosis", "radiology", "drug discovery",
+        "mental health", "caregiver",
+    ],
+    "education": [
+        "education", "teacher", "student", "classroom", "school", "university",
+        "tutor", "lesson plan", "learning platform", "training course",
+    ],
+    "research_science": [
+        "scientist", "scientific", "researcher", "research lab", "laboratory",
+        "materials discovery", "biology", "chemistry", "physics", "climate research",
+    ],
+    "creative_media": [
+        "content creation", "creative", "creator", "journalism", "newsroom", "design",
+        "image generation", "video generation", "music", "animation", "advertising",
+        "social media", "film", "game development",
+    ],
+    "industry_field": [
+        "manufacturing", "factory", "logistics", "supply chain", "warehouse",
+        "agriculture", "farm operations", "construction", "energy", "utility", "mining",
+        "field service", "robotics", "transportation", "quality control",
+    ],
+    "public_access": [
+        "public service", "government", "nonprofit", "accessibility", "disability",
+        "assistive", "sign language", "emergency response", "disaster", "translation",
+        "low vision", "blind users", "deaf users", "citizen services",
+    ],
+}
+
+
+AI_ROLE_RULES = {
+    "find_explain": [
+        "search", "searches", "searching", "research", "researches", "researching",
+        "answer questions", "summarize", "summarizes", "summarizing", "extract",
+        "extracts", "extracting", "explain", "explains", "explaining",
+        "knowledge base", "document review", "deep research",
+    ],
+    "create": [
+        "generate", "generates", "generating", "draft", "drafts", "drafting",
+        "write", "writes", "writing", "design", "designs", "designing", "create",
+        "creates", "creating", "image generation", "video generation",
+        "build app", "create content", "presentation", "lesson plan",
+    ],
+    "analyze_recommend": [
+        "analyze", "analyzes", "analyzing", "detect", "detects", "detecting",
+        "diagnose", "diagnoses", "diagnosing", "classify", "classifies", "classifying",
+        "predict", "predicts", "predicting", "forecast", "forecasts", "forecasting",
+        "recommend", "recommends", "recommending", "optimize", "optimizes", "optimizing",
+        "score", "scores", "scoring", "triage", "triages", "triaging", "decision support",
+    ],
+    "talk_translate": [
+        "voice", "conversation", "chatbot", "translate", "translates", "translating",
+        "translation", "transcribe", "transcribes", "transcribing",
+        "speech to text", "text to speech", "multilingual",
+    ],
+    "automate_act": [
+        "automate", "automates", "automating", "automation", "workflow", "agent",
+        "tool calling", "tool calls", "schedule", "schedules", "scheduling",
+        "book appointment", "execute", "executes", "executing", "operate", "operates",
+        "operating", "computer use", "plan", "plans", "planning", "navigation",
+    ],
+    "monitor_alert": [
+        "monitor", "monitors", "monitoring", "alert", "alerts", "anomaly", "fraud", "quality control", "surveillance",
+        "early warning", "predictive maintenance",
     ],
 }
 
@@ -196,6 +306,7 @@ OFFICIAL_SOURCES = {
     "AWS ML Blog",
     "Apple ML Research",
     "Together AI",
+    "xAI Official Use Cases",
 }
 
 PAPER_SOURCES = {"arXiv AI", "arXiv NLP (cs.CL)", "arXiv ML (cs.LG)", "HF Trending Papers"}
@@ -228,6 +339,21 @@ BUSINESS_SOURCES = {
     "GitHub AI MVPs",
 }
 OPERATIONS_SOURCES = {"Agent Customer Workflows"}
+USE_CASE_SOURCES = {
+    "AI in Everyday Work",
+    "AI in Health & Care",
+    "AI in Education",
+    "AI in Industry & Public Services",
+    "xAI Official Use Cases",
+}
+
+
+USE_CASE_SOURCE_DOMAINS = {
+    "AI in Everyday Work": "work_productivity",
+    "AI in Health & Care": "health_care",
+    "AI in Education": "education",
+    "AI in Industry & Public Services": "industry_field",
+}
 
 
 def story_key(url, title=""):
@@ -289,12 +415,38 @@ def classify(title, source="", url="", summary="", pillar=None):
         tab: _score_topic(text, phrases)
         for tab, phrases in DISCOVERY_RULES.items()
     }
+    domain_scores = {
+        domain: _score_topic(text, phrases)
+        for domain, phrases in DOMAIN_RULES.items()
+    }
+    source_domain = USE_CASE_SOURCE_DOMAINS.get(source)
+    if source_domain:
+        domain_scores[source_domain] += 3
+    domains = [domain for domain, _label in USE_CASE_DOMAINS if domain_scores.get(domain, 0) > 0]
+    domains.sort(key=lambda d: (
+        -domain_scores[d],
+        [x[0] for x in USE_CASE_DOMAINS].index(d),
+    ))
+    role_scores = {
+        role: _score_topic(text, phrases)
+        for role, phrases in AI_ROLE_RULES.items()
+    }
+    ai_roles = [role for role, score in role_scores.items() if score > 0]
+    ai_roles.sort(key=lambda role: -role_scores[role])
+
+    if domains and discovery_scores.get("use_cases", 0):
+        discovery_scores["use_cases"] += 2
+    elif source not in USE_CASE_SOURCES:
+        discovery_scores["use_cases"] = 0
 
     if source in DIRECT_BUILD_SOURCES:
         discovery_scores["agent_builds"] += 5
         discovery_scores["builders"] += 2
     if source in OPERATIONS_SOURCES:
         discovery_scores["workflows"] += 5
+        discovery_scores["use_cases"] += 3
+    if source in USE_CASE_SOURCES:
+        discovery_scores["use_cases"] += 5
     if source in BUSINESS_SOURCES:
         discovery_scores["mvps"] += 3
     if scores.get("models", 0):
@@ -305,6 +457,8 @@ def classify(title, source="", url="", summary="", pillar=None):
     if discovery_scores["agent_builds"] or discovery_scores["skills"] or discovery_scores["mcp"]:
         scores["agent_loops"] += 2
     if discovery_scores["workflows"]:
+        scores["real_world_agents"] += 2
+    if discovery_scores["use_cases"]:
         scores["real_world_agents"] += 2
     if discovery_scores["mvps"]:
         scores["real_world_agents"] += 1
@@ -368,7 +522,13 @@ def classify(title, source="", url="", summary="", pillar=None):
         if tab not in discovery_tabs:
             continue
         phrases = discovery_matches.get(tab) or []
-        if phrases:
+        if tab == "use_cases" and (phrases or domains):
+            domain_labels = dict(USE_CASE_DOMAINS)
+            details = [domain_labels[d] for d in domains[:2]]
+            if phrases:
+                details.extend(phrases[:2])
+            match_reasons.append(f"{label}: {', '.join(details)}")
+        elif phrases:
             match_reasons.append(f"{label}: {', '.join(phrases[:2])}")
         elif tab == "agent_builds" and source in DIRECT_BUILD_SOURCES:
             match_reasons.append(f"{label}: collected from a public build source")
@@ -390,6 +550,8 @@ def classify(title, source="", url="", summary="", pillar=None):
         "practical": practical,
         "discovery_tabs": discovery_tabs,
         "match_reasons": match_reasons[:5],
+        "domains": domains[:4],
+        "ai_roles": ai_roles[:4],
         "system_type": "unknown",
         "topology": "unknown",
     }

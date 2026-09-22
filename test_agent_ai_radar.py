@@ -56,6 +56,64 @@ class AgentAIRadarClassifierTest(unittest.TestCase):
         self.assertIn("mvps", meta["discovery_tabs"])
         self.assertIn("workflows", meta["discovery_tabs"])
 
+    def test_grok_everyday_help_is_an_evidenced_use_case_candidate(self):
+        meta = self.topic(
+            "Grok voice assistant helps drivers plan a road trip with live search and navigation"
+        )
+        self.assertIn("use_cases", meta["discovery_tabs"])
+        self.assertIn("personal", meta["domains"])
+        self.assertIn("talk_translate", meta["ai_roles"])
+        self.assertIn("automate_act", meta["ai_roles"])
+
+    def test_curated_grok_bot_example_stays_vendor_attributed(self):
+        meta = self.topic(
+            "Introducing Grok Bot: AI teammates for sales and operations work",
+            source="xAI Official Use Cases",
+            summary=(
+                "xAI says it researches sales accounts, scores contacts, drafts outreach "
+                "for approval, and updates CRM notes; these are vendor examples."
+            ),
+        )
+        self.assertEqual(meta["source_type"], "official")
+        self.assertIn("use_cases", meta["discovery_tabs"])
+        self.assertIn("business_customers", meta["domains"])
+        self.assertIn("analyze_recommend", meta["ai_roles"])
+        self.assertIn("create", meta["ai_roles"])
+
+    def test_real_world_domains_stay_distinct(self):
+        health = self.topic(
+            "Clinical AI assistant summarizes patient notes for a doctor with human review"
+        )
+        education = self.topic(
+            "AI tutor helps teachers create lesson plans for classroom students"
+        )
+        self.assertIn("health_care", health["domains"])
+        self.assertNotIn("education", health["domains"])
+        self.assertIn("education", education["domains"])
+        self.assertIn("use_cases", education["discovery_tabs"])
+
+    def test_domain_words_without_a_practical_use_do_not_make_a_use_case(self):
+        meta = agent_ai_radar.classify(
+            "A new AI foundation model for healthcare benchmarks"
+        )
+        self.assertIn("health_care", meta["domains"])
+        self.assertNotIn("use_cases", meta["discovery_tabs"])
+
+    def test_cli_doctor_and_slang_farming_do_not_create_field_labels(self):
+        meta = self.topic(
+            "Run any model in Grok Bot with a model picker, update-proof doctor, and no farming"
+        )
+        self.assertNotIn("health_care", meta["domains"])
+        self.assertNotIn("industry_field", meta["domains"])
+
+    def test_use_case_source_supplies_a_bounded_field_hint(self):
+        meta = self.topic(
+            "AI assistants in daily workflows",
+            source="AI in Everyday Work",
+        )
+        self.assertIn("work_productivity", meta["domains"])
+        self.assertIn("use_cases", meta["discovery_tabs"])
+
     def test_agent_skill_is_not_generic_career_skills(self):
         skill = self.topic(
             "Open-source Agent Skill packages a SKILL.md for invoice review"

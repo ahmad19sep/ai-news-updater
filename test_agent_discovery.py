@@ -101,6 +101,30 @@ class AgentDiscoveryNormalizerTest(unittest.TestCase):
         self.assertEqual(health["Example"]["last_success"], first_success)
         self.assertEqual(health["Example"]["detail"], "rate limited")
 
+    def test_curated_official_use_cases_are_attributed_and_idempotent(self):
+        old_db = config.DB_FILE
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                config.DB_FILE = os.path.join(tmp, "test.db")
+                conn = database.connect()
+                stats = {"new": 0}
+                first = fetcher.seed_curated_agent_use_cases(conn, stats)
+                second = fetcher.seed_curated_agent_use_cases(conn, stats)
+                rows = conn.execute(
+                    "SELECT source, summary FROM agent_discoveries ORDER BY id"
+                ).fetchall()
+                self.assertEqual(first, len(config.AGENT_CURATED_USE_CASES))
+                self.assertEqual(second, 0)
+                self.assertEqual(len(rows), len(config.AGENT_CURATED_USE_CASES))
+                self.assertTrue(all(r["source"] == "xAI Official Use Cases" for r in rows))
+                self.assertTrue(all("vendor" in r["summary"].lower() for r in rows))
+                self.assertEqual(
+                    conn.execute("SELECT COUNT(*) FROM items").fetchone()[0], 0
+                )
+                conn.close()
+        finally:
+            config.DB_FILE = old_db
+
     def test_github_query_failure_does_not_block_other_discovery_family(self):
         class GoodResponse:
             def raise_for_status(self):

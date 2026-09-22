@@ -114,6 +114,58 @@ AGENT_GITHUB_QUERIES = [
 ]
 
 
+# Small first-party examples that make the AI-in-practice view useful even when
+# news-search feeds are temporarily unavailable. These are vendor descriptions,
+# not independently verified outcome claims; keep that attribution in summary.
+AGENT_CURATED_USE_CASES = [
+    {
+        "title": "Introducing Grok Bot: AI teammates for sales, operations, and engineering work",
+        "url": "https://x.ai/news/introducing-grok-bot",
+        "source": "xAI Official Use Cases",
+        "published": "2026-08-11T00:00:00+00:00",
+        "summary": (
+            "xAI says Grok Bot works across apps and inboxes. Its vendor examples include "
+            "researching and scoring sales accounts, drafting email and LinkedIn outreach for "
+            "approval, updating CRM notes, processing invoices, and reproducing product bugs. "
+            "These examples and efficiency claims are vendor-supplied, not independently verified."
+        ),
+    },
+    {
+        "title": "Grok Build turns a description into an app, game, website, or dashboard",
+        "url": "https://x.ai/news/grok-build-for-everyone",
+        "source": "xAI Official Use Cases",
+        "published": "2026-08-19T00:00:00+00:00",
+        "summary": (
+            "xAI says Grok Build creates a working software app, game, website, or dashboard from a "
+            "description, can publish it to a link, and can export a project to GitHub. The page "
+            "shows vendor-selected published examples; it does not establish general reliability."
+        ),
+    },
+    {
+        "title": "Grok Voice Agent API demonstrates voice-based road-trip planning with tools",
+        "url": "https://x.ai/news/grok-voice-agent-api",
+        "source": "xAI Official Use Cases",
+        "published": "2025-12-17T00:00:00+00:00",
+        "summary": (
+            "In an xAI vendor example, a user asks for a road trip and the voice agent searches "
+            "for recommendations, calculates routes, adds stops, and returns an itinerary. It is "
+            "a product demonstration, not independent evidence of accuracy or travel outcomes."
+        ),
+    },
+    {
+        "title": "Grok Voice Think Fast targets support, sales, and high-volume tool workflows",
+        "url": "https://x.ai/news/grok-voice-think-fast-1",
+        "source": "xAI Official Use Cases",
+        "published": "2026-04-23T00:00:00+00:00",
+        "summary": (
+            "xAI presents Grok Voice Think Fast for multi-step customer-support, sales, and "
+            "enterprise voice workflows involving data entry and tool calls. Capability and "
+            "performance statements on the page are vendor claims unless separately verified."
+        ),
+    },
+]
+
+
 # Each feed: name, url, default category, trusted
 # trusted=True  -> official AI source, items pass WITHOUT the AI keyword filter
 # trusted=False -> general source, items must contain AI keywords to pass
@@ -170,6 +222,38 @@ FEEDS = [
         '"AI agent" "customer support" OR "AI agent" operations OR "AI agent" workflow',
         10, max_age_days=180,
         require_any=["case study", "customer support", "workflow", "operations", "using", "runs"],
+        agent_only=True,
+    ),
+    news_search(
+        "AI in Everyday Work",
+        '"AI assistant" productivity OR "AI copilot" workflow OR "Grok" assistant work',
+        10, max_age_days=120,
+        require_any=["assistant", "copilot", "productivity", "workflow", "email", "inbox", "spreadsheet", "presentation", "helps"],
+        exclude_any=["funding", "stock", "stocks", "shares", "valuation", "investment"],
+        agent_only=True,
+    ),
+    news_search(
+        "AI in Health & Care",
+        '"AI" clinical workflow OR patient care OR healthcare assistant',
+        10, max_age_days=180,
+        require_any=["clinical", "patient", "healthcare", "health care", "hospital", "doctor", "nurse", "medical"],
+        exclude_any=["stock", "stocks", "shares", "funding round", "market size"],
+        agent_only=True,
+    ),
+    news_search(
+        "AI in Education",
+        '"AI" teacher workflow OR student tutor OR classroom assistant',
+        10, max_age_days=180,
+        require_any=["teacher", "student", "tutor", "classroom", "school", "education", "learning"],
+        exclude_any=["stock", "stocks", "shares", "funding round"],
+        agent_only=True,
+    ),
+    news_search(
+        "AI in Industry & Public Services",
+        '"AI" manufacturing workflow OR logistics OR agriculture OR accessibility OR public service',
+        10, max_age_days=180,
+        require_any=["manufacturing", "factory", "logistics", "agriculture", "accessibility", "public service", "government", "field service", "supply chain"],
+        exclude_any=["stock", "stocks", "shares", "funding round", "market size"],
         agent_only=True,
     ),
     news_search(

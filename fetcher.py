@@ -495,6 +495,33 @@ def fetch_github_agent_repos(conn, existing, stats):
     return results
 
 
+def seed_curated_agent_use_cases(conn, stats):
+    """Add a tiny, attributed first-party use-case pack idempotently."""
+    added = 0
+    for story in getattr(config, "AGENT_CURATED_USE_CASES", []):
+        if database.agent_discovery_exists(conn, story["url"]):
+            conn.execute(
+                "UPDATE agent_discoveries SET title=?, source=?, published=?, summary=? WHERE url=?",
+                (story["title"], story["source"], story.get("published"),
+                 story.get("summary", ""), story["url"]),
+            )
+            continue
+        database.add_agent_discovery(
+            conn,
+            story["title"],
+            story["url"],
+            story["source"],
+            story.get("published"),
+            story.get("summary", ""),
+            0,
+        )
+        stats["new"] = stats.get("new", 0) + 1
+        added += 1
+    if added:
+        print(f"  [+] Curated official AI uses: {added} new")
+    return added
+
+
 def run_fetch():
     """One full fetch cycle over all sources. Returns the stats dict."""
     conn = database.connect()
@@ -506,6 +533,8 @@ def run_fetch():
         source_health = json.loads(database.get_meta(conn, "agent_source_health", "{}") or "{}")
     except (TypeError, ValueError):
         source_health = {}
+
+    seed_curated_agent_use_cases(conn, stats)
 
     print(f"Fetching {len(config.FEEDS)} feeds in parallel (x{MAX_WORKERS}) + project discovery + NewsData ...")
     t0 = time.time()

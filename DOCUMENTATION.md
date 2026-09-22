@@ -96,23 +96,36 @@ Personal-brand posters: the operator's own face presents the news. The face come
 ### 🤖 Agents & AI
 A research workspace for discovering, understanding, and explaining real AI work.
 Discovery navigation is grouped into **Today**, **Agent Builds**, **Real-World
-Workflows**, **MVPs & Products**, **Agent Skills**, **MCP & Integrations**,
+Workflows**, **AI in Practice**, **MVPs & Products**, **Agent Skills**, **MCP & Integrations**,
 **Models & Frameworks**, and **Builders**. **My Learning** and **LinkedIn Queue**
 are workspace views. The older built/operations/selling metadata remains visible
 on cards and compatible with saved items.
 
 The collector uses bounded public feeds/APIs for GitHub repository query families,
 Hugging Face Spaces, Show HN, DEV, customer workflows, MVP launches, Agent Skills,
-MCP integrations, and builder/business case studies. Each adapter fails
+MCP integrations, builder/business case studies, and four field-focused
+AI-in-practice search families. Four first-party Grok examples are seeded with
+vendor attribution and outcome caveats. Each adapter fails
 independently. The UI shows last-attempt/last-success health where available and
 does not pretend this covers the whole internet. Discoveries remain in
 `agent_discoveries`, separate from `items`; they never enter public news, alerts,
 rankings, Trends/Pulse, or public digests. `published` and `collected` remain
 separate events.
 
+**AI in Practice** organizes evidence candidates across ten fields: Personal &
+Everyday, Work & Productivity, Software & IT, Customers & Business, Health &
+Care, Education, Research & Science, Creative & Media, Industry & Field Work,
+and Public Services & Accessibility. Candidate AI roles distinguish finding and
+explaining, creating, analyzing and recommending, talking and translating,
+automating and acting, and monitoring and alerting. The use-case lens asks for
+the real problem, people affected, previous workflow, AI contribution,
+input/output, human decision, outcome evidence, and adoption barriers. Domain
+and role labels are classifier hints, not evidence or endorsements. Coverage is
+bounded by the configured sources and never presented as a complete map of AI.
+
 **Learning-first journey:** open **Learn / Copy prompt**, review or paste source
-material, choose one of four modes (Explain + Build, Technical Deep Dive, Build a
-Similar MVP, LinkedIn Research), and optionally set level, stack, constraints,
+material, choose one of five modes (Explain + Build, Technical Deep Dive, Build a
+Similar MVP, LinkedIn Research, Real-World Use Case), and optionally set level, stack, constraints,
 and sources-only/research-enabled policy. The editable prompt includes numbered
 `S1`/`S2` evidence, known gaps, item key, and source revision. The v2 marker
 response keeps supported facts, attributed claims, unknowns, original-system
@@ -187,7 +200,7 @@ Rising topic signals week-over-week; what people are using, searching and strugg
 3. **Show the guard rails** — clear the pasted facts and run it again: the writer answers `needs_input` and asks instead of inventing.
 4. **Copy post → Open LinkedIn** — and point out that neither marks the story done; only ✓ does.
 5. **🛠️ Practical mode** on the same story — a checklist or decision question instead of commentary.
-6. **🤖 Agents & AI** — open an Agent Build, copy the evidence-filled Explain + Build prompt, show that a paragraph is rejected, import the cited response, review each claim, then hand only reviewed facts into LinkedIn. Also show the direct source-excerpt path.
+6. **🤖 Agents & AI** — open AI in Practice, filter a field, use **How it helps** to inspect the problem-to-outcome chain, and show that a paragraph is rejected. Then import a cited response, review each claim, and hand only reviewed facts into LinkedIn. Also show the direct source-excerpt path.
 7. **⭐ Me** — a personal-brand poster for the same headline.
 8. **📈 Pulse / Trends** — where the next story ideas come from.
 9. Finish on the **public website** — the audience-facing side, rebuilt hourly.
