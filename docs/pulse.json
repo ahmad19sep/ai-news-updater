@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T04:48:23.241044+00:00",
+  "generated_at": "2026-09-23T11:41:43.987462+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -54,18 +54,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo20c3/when_are_gpt6_sol_and_luna_coming_to_regular/",
+          "signal": "When are GPT-6 Sol and Luna coming to regular ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wnofdv/me_whats_2_6_chatgpt_yep_ill_keep_this_grounded/",
           "signal": "Me: “What’s 2 + 6?” ChatGPT: “Yep. I’ll keep this grounded in your actual question rather than wandering into math goblin territory.”"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
-          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnk39p/i_used_chatgpt_to_fix_an_ancient_pc_baseball_game/",
-          "signal": "I used ChatGPT to fix an ancient PC baseball game"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnq6xq/whats_something_chatgpt_has_made_you_realise_you/",
+          "signal": "What’s something ChatGPT has made you realise you were doing the hard way?"
         }
       ],
       "content_ideas": []
@@ -98,33 +98,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI Has No Wisdom and Neither Will You",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
-          "signal": "AI Has No Wisdom and Neither Will You"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Pentagon says overreliance on AI contributed to missile strike on Iran",
       "category": "use_case",
       "momentum": "rising",
@@ -147,6 +120,33 @@
           "platform": "hackernews",
           "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
           "signal": "Pentagon says overreliance on AI contributed to missile strike on Iran school"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI Has No Wisdom and Neither Will You",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+          "signal": "AI Has No Wisdom and Neither Will You"
         }
       ],
       "content_ideas": []
@@ -207,6 +207,33 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "US halts flights at busy East Coast airports, says fiber line cut",
       "category": "use_case",
       "momentum": "rising",
@@ -262,8 +289,8 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "Unreal Agent",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -274,16 +301,43 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
+          "url": "https://unreallabs.ai/blog/unreal-agent/",
+          "signal": "Unreal Agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Jev in 25 Lines of Python",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+          "signal": "Jev in 25 Lines of Python"
         }
       ],
       "content_ideas": []
@@ -314,67 +368,40 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Frontier AI on Your Own Hardware",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-          "signal": "Frontier AI on Your Own Hardware"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Unreal Agent",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://unreallabs.ai/blog/unreal-agent/",
-          "signal": "Unreal Agent"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "Chatgpt",
+      "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -410,45 +437,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo20c3/when_are_gpt6_sol_and_luna_coming_to_regular/",
+          "signal": "When are GPT-6 Sol and Luna coming to regular ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wnofdv/me_whats_2_6_chatgpt_yep_ill_keep_this_grounded/",
           "signal": "Me: “What’s 2 + 6?” ChatGPT: “Yep. I’ll keep this grounded in your actual question rather than wandering into math goblin territory.”"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
-          "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnk39p/i_used_chatgpt_to_fix_an_ancient_pc_baseball_game/",
-          "signal": "I used ChatGPT to fix an ancient PC baseball game"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnq6xq/whats_something_chatgpt_has_made_you_realise_you/",
+          "signal": "What’s something ChatGPT has made you realise you were doing the hard way?"
         }
       ],
       "content_ideas": []
@@ -483,25 +483,37 @@
   ],
   "pain_points": [
     {
-      "problem": "Change in limits on Personal ChatGPT usage even on Pro plan?",
+      "problem": "2 years ago, AI researchers thought AI wouldn't solve a Millennium math problem for 30 years",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnsh9b/change_in_limits_on_personal_chatgpt_usage_even/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnxlgm/2_years_ago_ai_researchers_thought_ai_wouldnt/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Anyone else getting a usage-limit notice in regular ChatGPT with Ultra/max effort?",
+      "problem": "Screams to slow down",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnx296/screams_to_slow_down/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Do you ever actually hit your “limit”?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnsi5k/anyone_else_getting_a_usagelimit_notice_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnyj5h/do_you_ever_actually_hit_your_limit/"
         }
       ],
       "content_opportunity": ""
