@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 5. **AI co-scientists are revolutionizing how research is done** — science angle
    https://www.nature.com/articles/d41586-026-02931-5
-6. **Rutgers Gives Future Doctors an AI Head Start - PYMNTS.com** — science angle
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEFoZzNpcklrMWl4T3lzcmkwQUt2NWxFNDFWWS1VWThkY08tWV93TWhuNFBiazBLSkRlaTZSbk5HeF9GZ3JtWGpzeDdOaDNER21tVzNXdEJGcFRUYlZLcVNiYTEtT1YtN0kxN09uN2U1cWNSMXF0TlJXSHNNNWROU2duaVN1UlFlWDhlWXZQd2J0eUFhRFBoOTVMWGNsbFpHS3ZyQ3NR?oc=5
-7. **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — science angle
+6. **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTgzcnNHc29udlV0aDBjczVzVjRwbUJzaTU2d3ZqRmptbng4aXR1V1hYSmMtelFpeUdDZlVnU1FYc1Vfc2ozSy1nQTJieWtSWGc4Vl9rT2JLRm1ISUM2Wl9TNm9OZlJGbmNjNGdQYTlOTEtHSWFwTUNVTUxid2syQ1Nn?oc=5
-8. **Importance of teaching medical students to think in the era of AI - The Hindu** — science angle
+7. **Importance of teaching medical students to think in the era of AI - The Hindu** — science angle
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPY01hQnBwa01oTFN3QUZpS3NtQU1aU2pEdnRPX1VCRFpoc1ludXBielZnOUIxYjAxWGJLUnRiREt1RFlmVE12Ynl6V0lCdU1xVGFvMDFJTkZCenU0d3pPYlNwRmhXYjdJM1Q5cjNONFRDd0RIMmppVWpxa3RxTllqWTUxMkk3ekZSVEJVWTRDUEN3R2NYRkVNTGUtWUVRYnlKZ1owNzd4cWJIcnU3MTVGSUhnc3NTT1hyclRydNIBwwFBVV95cUxNN3hpRXNuOF9oUV96c1N1WG9uTDVPMzBZXzAzbm5WR2FFZFdHRUN3UnlfSjZFMEFWajRtdXZSdkRzSUJ3MEx5d3BLbE85ZHdPcXgxblNFeFhQUGZPZmxaNkx0QmhGWGpvbmdBOXBpMmRwYUpIRlN3ejJYWnctZzRHUndQdzR3ZnYzeDYxTElKVUxlODVxYkl3YnctOUN2SV80alhCZ1FtY3RGcFFGb1NfMWYtOHhwZG9TU3NJZldfYkRqN0k?oc=5
+8. **Even amid dire warnings, AI is helping doctors save lives - The Palm Beach Post** — science angle
+   https://news.google.com/rss/articles/CBMizwFBVV95cUxOTVBxa045Sl9YOVFyN3BDbnhzSEV0elZoZXNGd3Fmb0NacVlseVVITkpfaGdhdVduX1QtVF9BWjhCUXBDa0tET0Y0OEVReW1GeEhsZ20wRVpYWGRGMXBWQWZ4RFBVMEhxRk4xQlNraTAxUC1fUzhNcWNVdWlNRzF6UHF5cXRsRlVHSkNvcmI2dzhqR0puM3EwMExlZDZ4UW9GdHVuVk91eXlQY1J1TUdoOV8wbmROX3lwLU96VUtEUXpEOFNmT3FKcU5RSmhOcms?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 - **AI co-scientists are revolutionizing how research is done** — https://www.nature.com/articles/d41586-026-02931-5
-- **Rutgers Gives Future Doctors an AI Head Start - PYMNTS.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEFoZzNpcklrMWl4T3lzcmkwQUt2NWxFNDFWWS1VWThkY08tWV93TWhuNFBiazBLSkRlaTZSbk5HeF9GZ3JtWGpzeDdOaDNER21tVzNXdEJGcFRUYlZLcVNiYTEtT1YtN0kxN09uN2U1cWNSMXF0TlJXSHNNNWROU2duaVN1UlFlWDhlWXZQd2J0eUFhRFBoOTVMWGNsbFpHS3ZyQ3NR?oc=5
+- **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTgzcnNHc29udlV0aDBjczVzVjRwbUJzaTU2d3ZqRmptbng4aXR1V1hYSmMtelFpeUdDZlVnU1FYc1Vfc2ozSy1nQTJieWtSWGc4Vl9rT2JLRm1ISUM2Wl9TNm9OZlJGbmNjNGdQYTlOTEtHSWFwTUNVTUxid2syQ1Nn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3100
+- Total stories tracked: 3260
 - Most active topic: openai
 - Busiest category: AI General News
 
