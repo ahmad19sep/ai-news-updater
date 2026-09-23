@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:21:59.097149+00:00",
+  "generated_at": "2026-09-23T04:48:23.241044+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 44,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -54,18 +54,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnofdv/me_whats_2_6_chatgpt_yep_ill_keep_this_grounded/",
+          "signal": "Me: “What’s 2 + 6?” ChatGPT: “Yep. I’ll keep this grounded in your actual question rather than wandering into math goblin territory.”"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
           "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
-          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnc8bt/did_you_gave_your_chatgpt_a_personal_name/",
-          "signal": "Did you gave your chatgpt a personal name?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnk39p/i_used_chatgpt_to_fix_an_ancient_pc_baseball_game/",
+          "signal": "I used ChatGPT to fix an ancient PC baseball game"
         }
       ],
       "content_ideas": []
@@ -73,10 +73,9 @@
     {
       "name": "Grok",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -94,11 +93,6 @@
           "platform": "hackernews",
           "url": "https://x.ai/news/grok-4-7",
           "signal": "Grok 4.7"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrk2t/i_just_tried_grok_47_and_it_is/",
-          "signal": "I just tried Grok 4.7 and it is..."
         }
       ],
       "content_ideas": []
@@ -126,6 +120,33 @@
           "platform": "hackernews",
           "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
           "signal": "AI Has No Wisdom and Neither Will You"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Pentagon says overreliance on AI contributed to missile strike on Iran",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+          "signal": "Pentagon says overreliance on AI contributed to missile strike on Iran school"
         }
       ],
       "content_ideas": []
@@ -198,7 +219,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -208,33 +229,6 @@
           "platform": "hackernews",
           "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
           "signal": "US halts flights at busy East Coast airports, says fiber line cut"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Overreliance on AI contributed to missile strike on Iran school – Pent",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-          "signal": "Overreliance on AI contributed to missile strike on Iran school – Pentagon"
         }
       ],
       "content_ideas": []
@@ -268,8 +262,8 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VR",
-      "category": "use_case",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -278,18 +272,18 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/volotat/mini-AGI/",
-          "signal": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM"
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
         }
       ],
       "content_ideas": []
@@ -334,7 +328,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -349,7 +343,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "name": "Unreal Agent",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -369,8 +363,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
-          "signal": "AI chatbots give wrong answers to financial queries 'most of the time'"
+          "url": "https://unreallabs.ai/blog/unreal-agent/",
+          "signal": "Unreal Agent"
         }
       ],
       "content_ideas": []
@@ -378,42 +372,9 @@
   ],
   "rising_tools": [
     {
-      "name": "Grok",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://x.ai/news/grok-4-7",
-          "signal": "Grok 4.7"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrk2t/i_just_tried_grok_47_and_it_is/",
-          "signal": "I just tried Grok 4.7 and it is..."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -449,18 +410,72 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnofdv/me_whats_2_6_chatgpt_yep_ill_keep_this_grounded/",
+          "signal": "Me: “What’s 2 + 6?” ChatGPT: “Yep. I’ll keep this grounded in your actual question rather than wandering into math goblin territory.”"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
           "signal": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wn5p2o/psa_past_a_certain_length_chatgpt_doesnt_read/",
-          "signal": "PSA: past a certain length, ChatGPT doesn't read your PDF, it searches it, and never tells you which one happened"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnk39p/i_used_chatgpt_to_fix_an_ancient_pc_baseball_game/",
+          "signal": "I used ChatGPT to fix an ancient PC baseball game"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnc8bt/did_you_gave_your_chatgpt_a_personal_name/",
-          "signal": "Did you gave your chatgpt a personal name?"
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Grok",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://x.ai/news/grok-4-7",
+          "signal": "Grok 4.7"
         }
       ],
       "content_ideas": []
@@ -468,13 +483,25 @@
   ],
   "pain_points": [
     {
-      "problem": "Does the GPT-6 sol release come with a usage-limit reset?",
+      "problem": "Change in limits on Personal ChatGPT usage even on Pro plan?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnhrj9/does_the_gpt6_sol_release_come_with_a_usagelimit/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnsh9b/change_in_limits_on_personal_chatgpt_usage_even/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Anyone else getting a usage-limit notice in regular ChatGPT with Ultra/max effort?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnsi5k/anyone_else_getting_a_usagelimit_notice_in/"
         }
       ],
       "content_opportunity": ""
