@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:41:43.987462+00:00",
+  "generated_at": "2026-09-23T17:05:19.994579+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 39,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -49,50 +50,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wncn39/my_mum_is_lonely_and_turning_to_chatgpt_to_fill/",
-          "signal": "My mum is lonely and turning to ChatGPT to fill the void"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wo20c3/when_are_gpt6_sol_and_luna_coming_to_regular/",
           "signal": "When are GPT-6 Sol and Luna coming to regular ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnofdv/me_whats_2_6_chatgpt_yep_ill_keep_this_grounded/",
-          "signal": "Me: “What’s 2 + 6?” ChatGPT: “Yep. I’ll keep this grounded in your actual question rather than wandering into math goblin territory.”"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo7q41/is_chatgpt_go_actually_worth_it_for_a_college/",
+          "signal": "Is ChatGPT Go actually worth it for a college student?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnq6xq/whats_something_chatgpt_has_made_you_realise_you/",
-          "signal": "What’s something ChatGPT has made you realise you were doing the hard way?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Grok",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wncn39/my_mum_is_lonely_and_turning_to_chatgpt_to_fill/",
+          "signal": "My mum is lonely and turning to ChatGPT to fill the void"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://x.ai/news/grok-4-7",
-          "signal": "Grok 4.7"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woaflt/chatgpt_ios_app_gets_stuck_on_working_after_i/",
+          "signal": "ChatGPT iOS app gets stuck on “Working” after I leave the app — anyone else?"
         }
       ],
       "content_ideas": []
@@ -180,7 +154,7 @@
       "content_ideas": []
     },
     {
-      "name": "M5 Ultra Mac Studio Review",
+      "name": "Jev in 25 Lines of Python",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -200,8 +174,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-          "signal": "M5 Ultra Mac Studio Review"
+          "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+          "signal": "Jev in 25 Lines of Python"
         }
       ],
       "content_ideas": []
@@ -261,12 +235,11 @@
       "content_ideas": []
     },
     {
-      "name": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "name": "OpenAI is enlisting an influencer army to make it look 'good for the w",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -274,7 +247,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -282,8 +255,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-          "signal": "macOS 27: Workaround to avoid downloading AI models and save storage"
+          "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+          "signal": "OpenAI is enlisting an influencer army to make it look 'good for the world'"
         }
       ],
       "content_ideas": []
@@ -301,7 +274,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -316,7 +289,7 @@
       "content_ideas": []
     },
     {
-      "name": "Jev in 25 Lines of Python",
+      "name": "Frontier AI on Your Own Hardware",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -336,14 +309,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-          "signal": "Jev in 25 Lines of Python"
+          "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+          "signal": "Frontier AI on Your Own Hardware"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
+      "name": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://droprun.sh/",
+          "signal": "Show HN: Drop – A rootless Linux sandbox with gVisor support"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -355,7 +355,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -363,8 +363,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
-          "signal": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com"
+          "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+          "signal": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis"
         }
       ],
       "content_ideas": []
@@ -405,6 +405,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -432,50 +433,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wncn39/my_mum_is_lonely_and_turning_to_chatgpt_to_fill/",
-          "signal": "My mum is lonely and turning to ChatGPT to fill the void"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wo20c3/when_are_gpt6_sol_and_luna_coming_to_regular/",
           "signal": "When are GPT-6 Sol and Luna coming to regular ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnofdv/me_whats_2_6_chatgpt_yep_ill_keep_this_grounded/",
-          "signal": "Me: “What’s 2 + 6?” ChatGPT: “Yep. I’ll keep this grounded in your actual question rather than wandering into math goblin territory.”"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo7q41/is_chatgpt_go_actually_worth_it_for_a_college/",
+          "signal": "Is ChatGPT Go actually worth it for a college student?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnq6xq/whats_something_chatgpt_has_made_you_realise_you/",
-          "signal": "What’s something ChatGPT has made you realise you were doing the hard way?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Grok",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wncn39/my_mum_is_lonely_and_turning_to_chatgpt_to_fill/",
+          "signal": "My mum is lonely and turning to ChatGPT to fill the void"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://x.ai/news/grok-4-7",
-          "signal": "Grok 4.7"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woaflt/chatgpt_ios_app_gets_stuck_on_working_after_i/",
+          "signal": "ChatGPT iOS app gets stuck on “Working” after I leave the app — anyone else?"
         }
       ],
       "content_ideas": []
@@ -507,13 +481,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Do you ever actually hit your “limit”?",
+      "problem": "ChatGPT iOS app gets stuck on “Working” after I leave the app — anyone else?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnyj5h/do_you_ever_actually_hit_your_limit/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woaflt/chatgpt_ios_app_gets_stuck_on_working_after_i/"
         }
       ],
       "content_opportunity": ""
