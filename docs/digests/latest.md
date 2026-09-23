@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **The E-Doctor Will See You Now? FDA Progress, State Law Gaps in Generative AI–Enabled Medical Devices - jdsupra.com** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTgzcnNHc29udlV0aDBjczVzVjRwbUJzaTU2d3ZqRmptbng4aXR1V1hYSmMtelFpeUdDZlVnU1FYc1Vfc2ozSy1nQTJieWtSWGc4Vl9rT2JLRm1ISUM2Wl9TNm9OZlJGbmNjNGdQYTlOTEtHSWFwTUNVTUxid2syQ1Nn?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3260
+- Total stories tracked: 3121
 - Most active topic: openai
 - Busiest category: AI General News
 
