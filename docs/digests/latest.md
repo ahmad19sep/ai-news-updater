@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUR0NUpRdnBYTjgwa2tvOF90Z2RycEx5VEY2R2JaSnFMU19ONjJ4TzJkSHB1M1g3UGh2eGV6dW1HUlNMc3RqZ1loTjhFWnlIWEhmNnhHcTBWbXR2cHNPWGVfNFZrQ3E5Yk9CT3ZQcnAxb1ZlT1p4eXNHdDdJY3o2SHJ3b3Y4UXFhSjVYTzl3T0Y4TjVyM3F5ZHdWZWxBZkcxLVFBcThnaHYtWVI2cFc4QTJPRV9HNS1fLTh5ZDI4X0VwRkVwSFI4?oc=5
 9. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQMHJWN0NoQUotUzVkZEVlMW9ydGhMYWh0QTgyVThkei1oWkdyX29leTQ5OXFydXlRekdlS2RObFh0bHpfUThpQlZ5T3hXcGM1X0t0UGppc25jdFJZTGtjY2RNTmNWX05tNjdVbzRyYi1DRFd3M2dJQWJwSEtBTU15VUJHbzdaUzV2a0Y1cnJiMFlpTWdDOXRoM0F6c1g0TXdBcE5KdGEwNHY3YjlQcFZhbVQ4aWdOVDjSAbwBQVVfeXFMUGZYcmY4bVhOTWZ3aGVraldacVJSVnhZdkhidUlKTGtmS05jS01VWlAtTUZtbm5SX3pOT3J0Y2xHa1RtUDN1VEZFQm1lNURNZmJwU3A3VnlWczNJQV82RXhOWWdnRWZYYjZYOUxYYWxHU0VoeXhlLVZhbGxGeWlwY1Y2dDM2VF9xX2hia2lybFJiTDR5NE9PMW9xQTVXUjNOeldWVUp6NHhwdXZwN3RGc2JUOENRcHZVVjJQRlA?oc=5
-10. **Divisions emerge in the tech industry over calls for a coordinated AI slowdown - WPLG Local 10** — Demis Hassabis News — Score 63
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZjBmQzlNSXZzWmZwWHpnZXFzWjZqX1VYdG9iRHJWNGtCZ2l2akJjWVctV28xN2NFOE9XbWQtQlFCUkNtRmtLQzl0LTl6NW9zQ1pKUTM3MWhQVmtlWHdObVlvUXhYcWRSWWx3OFhjcHRPNXY1WEZWMG42UENhVWFKRDAtTHJoMzhwUUhsX25iQUVqVldsY2t6eWY0ekMxMUJBeXluc2VmelZKRURROHZTa1dMeGlsTXloM2ZJ?oc=5
+10. **Microsoft exec called AI scraping the “largest theft of labor in human history”** — Ars Technica AI — Score 63.0
+   https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/
 
 ## 🧪 AI in Science Highlights
 - **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Even amid dire warnings, AI is helping doctors save lives - The Palm Beach Post** — https://news.google.com/rss/articles/CBMizwFBVV95cUxOTVBxa045Sl9YOVFyN3BDbnhzSEV0elZoZXNGd3Fmb0NacVlseVVITkpfaGdhdVduX1QtVF9BWjhCUXBDa0tET0Y0OEVReW1GeEhsZ20wRVpYWGRGMXBWQWZ4RFBVMEhxRk4xQlNraTAxUC1fUzhNcWNVdWlNRzF6UHF5cXRsRlVHSkNvcmI2dzhqR0puM3EwMExlZDZ4UW9GdHVuVk91eXlQY1J1TUdoOV8wbmROX3lwLU96VUtEUXpEOFNmT3FKcU5RSmhOcms?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3025
+- Total stories tracked: 3051
 - Most active topic: openai
 - Busiest category: AI General News
 
