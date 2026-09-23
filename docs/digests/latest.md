@@ -35,10 +35,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2VINVptSExJdjU0WkQ0WDVkRUdsaHduYjB1Tk81TnBrZkVvalowQWh2NFJnYmZ1TkxtVTQyZHdVWDgzVmJtRE9SSjkzeW9DWDFleHNPU01LUWE1TUpCdktmTVVRZHNXWm9ack9CRmdQTU1XUHd0Y2lhaEZBWWJYQVNFYw?oc=5
 5. **Bill Gates pushes for 'smart use' of AI as his foundation builds more representative language data** — ottumwacourier — Score 96
    https://www.ottumwacourier.com/news/business/bill-gates-pushes-for-smart-use-of-ai-as-his-foundation-builds-more-representative-language/article_cbc33a4b-e0a2-515a-8a8f-865ddb66f079.html
-6. **Anthropic says its model Claude is helping to build the next version of itself - abcnews.com** — Anthropic News — Score 80
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0RtTS1pM2xacndPR245b3dPT2JqaTFjcFJRbGtaZUhNcVV0WlY5dFVRZFBreWVhSGhheWM2Zk1GdHNYYW5mVWJkRzFsV3BPQzNneXpwb3NVODN4WUhzLWZxVWYzd0ZmZjYzYWxBUWg2WEprSEV2MV8yYTY3UGM4ejc0ay1aOVVWWC04U1B5OEvSAZYBQVVfeXFMTnVfLUdtelBwZ0dGMVRTTWdMMzJDY1lKQ3IxZW1mSzYwOXJyYnp0cGh2NXhiNmswM3FZQ183NkVQYnR4Tl9kZFNTcWZHOXEydV83YmlEZklDQXJHSy1URUs1VlJmU25xSFZUMlE3ZnBESHV5LXhkejE3QlBzZlZoMjc1QTZvNEJpdGNYd0RqN2FuZ1I2Y1B3?oc=5
-7. **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL** — Dario Amodei News — Score 76
+6. **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL** — Dario Amodei News — Score 96
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN0ZBQ2hPR19pVkxBQ21TTDhrRjMwNm9MZ2VWNDJpUzd4b0wzcko3dkZWRW5BX1ZPV0NySllDX0MzU2xKcHRoNUtqejVhX0lZeHhVcy1aTGtYTkE2czJwRV9CbGFVTjFRbjMwNDlxZkhsX3VTaG1oZ09YVzh6eUgzdG9qVERieGZBYV9hQXJpVUhDUzR5eFhSYlVZa2RGMkk2WF9RQTRWc2ZZWkpYUQ?oc=5
+7. **Anthropic says its model Claude is helping to build the next version of itself - abcnews.com** — Anthropic News — Score 80
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0RtTS1pM2xacndPR245b3dPT2JqaTFjcFJRbGtaZUhNcVV0WlY5dFVRZFBreWVhSGhheWM2Zk1GdHNYYW5mVWJkRzFsV3BPQzNneXpwb3NVODN4WUhzLWZxVWYzd0ZmZjYzYWxBUWg2WEprSEV2MV8yYTY3UGM4ejc0ay1aOVVWWC04U1B5OEvSAZYBQVVfeXFMTnVfLUdtelBwZ0dGMVRTTWdMMzJDY1lKQ3IxZW1mSzYwOXJyYnp0cGh2NXhiNmswM3FZQ183NkVQYnR4Tl9kZFNTcWZHOXEydV83YmlEZklDQXJHSy1URUs1VlJmU25xSFZUMlE3ZnBESHV5LXhkejE3QlBzZlZoMjc1QTZvNEJpdGNYd0RqN2FuZ1I2Y1B3?oc=5
 8. **Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near - The Washington Post** — AI in Coding — Score 73
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUR0NUpRdnBYTjgwa2tvOF90Z2RycEx5VEY2R2JaSnFMU19ONjJ4TzJkSHB1M1g3UGh2eGV6dW1HUlNMc3RqZ1loTjhFWnlIWEhmNnhHcTBWbXR2cHNPWGVfNFZrQ3E5Yk9CT3ZQcnAxb1ZlT1p4eXNHdDdJY3o2SHJ3b3Y4UXFhSjVYTzl3T0Y4TjVyM3F5ZHdWZWxBZkcxLVFBcThnaHYtWVI2cFc4QTJPRV9HNS1fLTh5ZDI4X0VwRkVwSFI4?oc=5
 9. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Even amid dire warnings, AI is helping doctors save lives - The Palm Beach Post** — https://news.google.com/rss/articles/CBMizwFBVV95cUxOTVBxa045Sl9YOVFyN3BDbnhzSEV0elZoZXNGd3Fmb0NacVlseVVITkpfaGdhdVduX1QtVF9BWjhCUXBDa0tET0Y0OEVReW1GeEhsZ20wRVpYWGRGMXBWQWZ4RFBVMEhxRk4xQlNraTAxUC1fUzhNcWNVdWlNRzF6UHF5cXRsRlVHSkNvcmI2dzhqR0puM3EwMExlZDZ4UW9GdHVuVk91eXlQY1J1TUdoOV8wbmROX3lwLU96VUtEUXpEOFNmT3FKcU5RSmhOcms?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3065
+- Total stories tracked: 3025
 - Most active topic: openai
 - Busiest category: AI General News
 
