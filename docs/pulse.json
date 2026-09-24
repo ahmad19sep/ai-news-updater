@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:50:16.258405+00:00",
+  "generated_at": "2026-09-24T17:14:12.910145+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,68 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wog70j/chatgpt_still_ahead_but_claude_is_catching_up/",
-          "signal": "ChatGPT still ahead, but Claude is catching up"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
-          "signal": "[ChatGPT-6 Astra] Useful petting infographic"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wojpx1/used_chatgpt_to_ask_for_hairstyle_advice_and_it/",
-          "signal": "Used ChatGPT to ask for hairstyle advice and it shocked me"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1womj2v/chatgpt_astra_6_blender_3d_ai_makes_3d_workflows/",
-          "signal": "ChatGPT Astra 6 + Blender + 3D AI Makes 3D Workflows Much Faster"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=SsHZaH2ml_U",
-          "signal": "So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More!"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Pentagon says overreliance on AI contributed to missile strike on Iran",
       "category": "use_case",
@@ -99,18 +43,75 @@
       "content_ideas": []
     },
     {
-      "name": "AI Has No Wisdom and Neither Will You",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp6blp/told_chatgpt_it_was_wasting_water_it_took_that/",
+          "signal": "Told ChatGPT it was wasting water. It took that personally 💀"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wog70j/chatgpt_still_ahead_but_claude_is_catching_up/",
+          "signal": "ChatGPT still ahead, but Claude is catching up"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp0f6w/whats_the_most_profound_thing_chatgpt_has_said_to/",
+          "signal": "What’s the most profound thing ChatGPT has said to you?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
+          "signal": "[ChatGPT-6 Astra] Useful petting infographic"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SsHZaH2ml_U",
+          "signal": "So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More!"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Meta takes down a critical video about meta AI Glasses after filming a",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
@@ -119,8 +120,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
-          "signal": "AI Has No Wisdom and Neither Will You"
+          "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+          "signal": "Meta takes down a critical video about meta AI Glasses after filming at Meta"
         }
       ],
       "content_ideas": []
@@ -153,39 +154,7 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
-          "signal": "Once Claude can measure something, it can make it faster"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Linux support is coming to Snapdragon X2 Series",
+      "name": "Linux support is coming to Snapdragon X2 series",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -206,7 +175,50 @@
         {
           "platform": "hackernews",
           "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-          "signal": "Linux support is coming to Snapdragon X2 Series"
+          "signal": "Linux support is coming to Snapdragon X2 series"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+          "signal": "Gemini 3.8 text-to-speech"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+          "signal": "Hackers influence ChatGPT and Gemini to direct users to scam centers"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
+          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -239,44 +251,6 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-          "signal": "Gemini 3.8 text-to-speech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QqlSupMYrPU",
-          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "OpenAI is enlisting an influencer army to make it look 'good for the w",
       "category": "use_case",
       "momentum": "rising",
@@ -304,6 +278,60 @@
       "content_ideas": []
     },
     {
+      "name": "Early rogue AI agent activity and attempts to hack found on urlquery.n",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://transluce.org/agent-activity",
+          "signal": "Early rogue AI agent activity and attempts to hack found on urlquery.net"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+          "signal": "Once Claude can measure something, it can make it faster"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Unreal Agent",
       "category": "use_case",
       "momentum": "hot",
@@ -326,35 +354,6 @@
           "platform": "hackernews",
           "url": "https://unreallabs.ai/blog/unreal-agent/",
           "signal": "Unreal Agent"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Meta takes down a critical video about meta AI Glasses after filming a",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
-          "signal": "Meta takes down a critical video about meta AI Glasses after filming at Meta"
         }
       ],
       "content_ideas": []
@@ -389,38 +388,6 @@
   ],
   "rising_tools": [
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
-          "signal": "Once Claude can measure something, it can make it faster"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
@@ -446,9 +413,14 @@
           "signal": "Gemini 3.8 text-to-speech"
         },
         {
+          "platform": "hackernews",
+          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+          "signal": "Hackers influence ChatGPT and Gemini to direct users to scam centers"
+        },
+        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QqlSupMYrPU",
-          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
+          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
         },
         {
           "platform": "youtube",
@@ -465,7 +437,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -488,23 +459,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp6blp/told_chatgpt_it_was_wasting_water_it_took_that/",
+          "signal": "Told ChatGPT it was wasting water. It took that personally 💀"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wog70j/chatgpt_still_ahead_but_claude_is_catching_up/",
           "signal": "ChatGPT still ahead, but Claude is catching up"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp0f6w/whats_the_most_profound_thing_chatgpt_has_said_to/",
+          "signal": "What’s the most profound thing ChatGPT has said to you?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
           "signal": "[ChatGPT-6 Astra] Useful petting infographic"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wojpx1/used_chatgpt_to_ask_for_hairstyle_advice_and_it/",
-          "signal": "Used ChatGPT to ask for hairstyle advice and it shocked me"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1womj2v/chatgpt_astra_6_blender_3d_ai_makes_3d_workflows/",
-          "signal": "ChatGPT Astra 6 + Blender + 3D AI Makes 3D Workflows Much Faster"
         },
         {
           "platform": "youtube",
@@ -513,9 +484,48 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+          "signal": "Once Claude can measure something, it can make it faster"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "Chat limits getting combined with Work/Codex usage next DevDay",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp4qqz/chat_limits_getting_combined_with_workcodex_usage/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "NVIDIA CEO Jensen Huang: “Now, if they say [that their models aren’t safe] … then I think the answer is that we have to shut the labs down.”",
       "who_affected": "r/ChatGPT",
@@ -527,19 +537,7 @@
         }
       ],
       "content_opportunity": ""
-    },
-    {
-      "problem": "World leaders spent all week at the UN figuring out how to slow down AI. The billing department did it with one popup.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wotpoc/world_leaders_spent_all_week_at_the_un_figuring/"
-        }
-      ],
-      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Pentagon says overreliance on AI contributed to missile strike on Iran — strongest signal this cycle"
 }
