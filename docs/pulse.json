@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T21:32:27.645610+00:00",
+  "generated_at": "2026-09-24T04:55:57.624615+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 37,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -49,23 +50,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo959k/whats_your_most_used_and_fav_chatgpt_capability/",
-          "signal": "What's your most used and fav ChatGPT capability?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
+          "signal": "[ChatGPT-6 Astra] Useful petting infographic"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnj0l8/psa_gpt6_sol_just_launched_chatgpt_plus_still/",
-          "signal": "PSA- GPT-6 Sol Just Launched. ChatGPT Plus Still Can’t Use GPT-6 in Regular Chat."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wojpx1/used_chatgpt_to_ask_for_hairstyle_advice_and_it/",
+          "signal": "Used ChatGPT to ask for hairstyle advice and it shocked me"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1woem9i/chatgpt_is_suddenly_generating_interactive_uis/",
-          "signal": "ChatGPT is suddenly generating interactive UIs, but \"Try Again\" brings back the old style"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1womj2v/chatgpt_astra_6_blender_3d_ai_makes_3d_workflows/",
+          "signal": "ChatGPT Astra 6 + Blender + 3D AI Makes 3D Workflows Much Faster"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo7q41/is_chatgpt_go_actually_worth_it_for_a_college/",
-          "signal": "Is ChatGPT Go actually worth it for a college student?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woo9co/the_more_i_use_chatgpt_the_less_i_ask_it_to/",
+          "signal": "The more I use ChatGPT, the less I ask it to create things from scratch. Is that happening to you too?"
         }
       ],
       "content_ideas": []
@@ -154,7 +155,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -195,9 +196,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -210,8 +211,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QqlSupMYrPU",
-          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+          "url": "https://www.youtube.com/watch?v=QyntDG_b5zI",
+          "signal": "How To Get Google Gemini PRO FREE in September 2026 | 18 Months Google AI Subscription | JIO Offer"
         },
         {
           "platform": "youtube",
@@ -249,9 +250,36 @@
       "content_ideas": []
     },
     {
-      "name": "Unreal Agent",
+      "name": "Linux support is coming to Snapdragon X2 Series",
       "category": "use_case",
       "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+          "signal": "Linux support is coming to Snapdragon X2 Series"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Unreal Agent",
+      "category": "use_case",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -276,6 +304,33 @@
       "content_ideas": []
     },
     {
+      "name": "Feds Target AI Critics as \"Foreign Agents\"",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+          "signal": "Feds Target AI Critics as \"Foreign Agents\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Stripe's Knowledge AI Platform",
       "category": "use_case",
       "momentum": "rising",
@@ -288,7 +343,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -328,95 +383,9 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
-          "signal": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "JetBrains Air: A System of Products for Agentic Software Development",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
-          "signal": "JetBrains Air: A System of Products for Agentic Software Development"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
-          "signal": "Once Claude can measure something, it can make it faster"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Gemini",
       "category": "tool_launch",
@@ -429,9 +398,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -444,8 +413,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QqlSupMYrPU",
-          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+          "url": "https://www.youtube.com/watch?v=QyntDG_b5zI",
+          "signal": "How To Get Google Gemini PRO FREE in September 2026 | 18 Months Google AI Subscription | JIO Offer"
         },
         {
           "platform": "youtube",
@@ -462,6 +431,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -489,29 +459,73 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo959k/whats_your_most_used_and_fav_chatgpt_capability/",
-          "signal": "What's your most used and fav ChatGPT capability?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
+          "signal": "[ChatGPT-6 Astra] Useful petting infographic"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnj0l8/psa_gpt6_sol_just_launched_chatgpt_plus_still/",
-          "signal": "PSA- GPT-6 Sol Just Launched. ChatGPT Plus Still Can’t Use GPT-6 in Regular Chat."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wojpx1/used_chatgpt_to_ask_for_hairstyle_advice_and_it/",
+          "signal": "Used ChatGPT to ask for hairstyle advice and it shocked me"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1woem9i/chatgpt_is_suddenly_generating_interactive_uis/",
-          "signal": "ChatGPT is suddenly generating interactive UIs, but \"Try Again\" brings back the old style"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1womj2v/chatgpt_astra_6_blender_3d_ai_makes_3d_workflows/",
+          "signal": "ChatGPT Astra 6 + Blender + 3D AI Makes 3D Workflows Much Faster"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wo7q41/is_chatgpt_go_actually_worth_it_for_a_college/",
-          "signal": "Is ChatGPT Go actually worth it for a college student?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1woo9co/the_more_i_use_chatgpt_the_less_i_ask_it_to/",
+          "signal": "The more I use ChatGPT, the less I ask it to create things from scratch. Is that happening to you too?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+          "signal": "Once Claude can measure something, it can make it faster"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "NVIDIA CEO Jensen Huang: “Now, if they say [that their models aren’t safe] … then I think the answer is that we have to shut the labs down.”",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wogcgf/nvidia_ceo_jensen_huang_now_if_they_say_that/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "2 years ago, AI researchers thought AI wouldn't solve a Millennium math problem for 30 years",
       "who_affected": "r/ChatGPT",
@@ -520,18 +534,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wnxlgm/2_years_ago_ai_researchers_thought_ai_wouldnt/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "NVIDIA CEO Jensen Huang: “Now, if they say [that their models aren’t safe] … then I think the answer is that we have to shut the labs down.”",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wogcgf/nvidia_ceo_jensen_huang_now_if_they_say_that/"
         }
       ],
       "content_opportunity": ""
