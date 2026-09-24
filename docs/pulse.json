@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:14:12.910145+00:00",
+  "generated_at": "2026-09-24T21:33:04.817377+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,40 +8,13 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 35,
+      "reddit": 50,
+      "hackernews": 42,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Pentagon says overreliance on AI contributed to missile strike on Iran",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-          "signal": "Pentagon says overreliance on AI contributed to missile strike on Iran school"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -81,13 +54,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp0f6w/whats_the_most_profound_thing_chatgpt_has_said_to/",
-          "signal": "What’s the most profound thing ChatGPT has said to you?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpbs09/is_chatgpt_broken_for_anyone_else_over_the_last/",
+          "signal": "Is ChatGPT broken for anyone else over the last 48 hours?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
-          "signal": "[ChatGPT-6 Astra] Useful petting infographic"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp62eq/openai_introduces_mentalhealthbench_to_evaluate/",
+          "signal": "OpenAI introduces MentalHealthBench to evaluate how ChatGPT handles mental health conversations"
         },
         {
           "platform": "youtube",
@@ -154,33 +127,6 @@
       "content_ideas": []
     },
     {
-      "name": "Linux support is coming to Snapdragon X2 series",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-          "signal": "Linux support is coming to Snapdragon X2 series"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
@@ -217,8 +163,93 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EbEL1VG8Zpo",
+          "signal": "Jadi Spider-Man Tapi Dilupain Seluruh Dunia #SpiderMan #ChatGPT #ClaudeAI #GoogleGemini"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Linux support is coming to Snapdragon X2 series",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+          "signal": "Linux support is coming to Snapdragon X2 series"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+          "signal": "Once Claude can measure something, it can make it faster"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wok9tq/i_asked_claude_to_show_me_the_inside_of_its_own/",
+          "signal": "I asked Claude to show me the inside of its own mind. Built by Opus 5.5"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wp7jks/claude_opus_55_tops_simplebench_with_its_884_score/",
+          "signal": "Claude Opus 5.5 tops SimpleBench with its 88.4% score."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp736u/claude_opus_55_max_defeats_astra/",
+          "signal": "Claude Opus 5.5 MAX Defeats Astra 😳"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1woxm0s/claude_opus_55_seems_to_have_fun_when_building/",
+          "signal": "Claude Opus 5.5 seems to have... fun ? When building things ?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wol9vm/the_situation_report_a_rare_strain_of_ebola_with/",
+          "signal": "The Situation Report: A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it."
         }
       ],
       "content_ideas": []
@@ -305,60 +336,6 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
-          "signal": "Once Claude can measure something, it can make it faster"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Unreal Agent",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://unreallabs.ai/blog/unreal-agent/",
-          "signal": "Unreal Agent"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Stripe's Knowledge AI Platform",
       "category": "use_case",
       "momentum": "rising",
@@ -381,6 +358,60 @@
           "platform": "hackernews",
           "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
           "signal": "Stripe's Knowledge AI Platform"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Oracle cites 'force majeure' to shield itself on controversial data ce",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-24/oracle-cites-force-majeure-to-shield-itself-on-controversial-data-center",
+          "signal": "Oracle cites 'force majeure' to shield itself on controversial data center"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "'That's so AI ' What gen Alpha's biggest insult tells us",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+          "signal": "'That's so AI ' What gen Alpha's biggest insult tells us"
         }
       ],
       "content_ideas": []
@@ -421,6 +452,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
           "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EbEL1VG8Zpo",
+          "signal": "Jadi Spider-Man Tapi Dilupain Seluruh Dunia #SpiderMan #ChatGPT #ClaudeAI #GoogleGemini"
         },
         {
           "platform": "youtube",
@@ -469,13 +505,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp0f6w/whats_the_most_profound_thing_chatgpt_has_said_to/",
-          "signal": "What’s the most profound thing ChatGPT has said to you?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpbs09/is_chatgpt_broken_for_anyone_else_over_the_last/",
+          "signal": "Is ChatGPT broken for anyone else over the last 48 hours?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
-          "signal": "[ChatGPT-6 Astra] Useful petting infographic"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp62eq/openai_introduces_mentalhealthbench_to_evaluate/",
+          "signal": "OpenAI introduces MentalHealthBench to evaluate how ChatGPT handles mental health conversations"
         },
         {
           "platform": "youtube",
@@ -488,17 +524,18 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -508,12 +545,49 @@
           "platform": "hackernews",
           "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
           "signal": "Once Claude can measure something, it can make it faster"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wok9tq/i_asked_claude_to_show_me_the_inside_of_its_own/",
+          "signal": "I asked Claude to show me the inside of its own mind. Built by Opus 5.5"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wp7jks/claude_opus_55_tops_simplebench_with_its_884_score/",
+          "signal": "Claude Opus 5.5 tops SimpleBench with its 88.4% score."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp736u/claude_opus_55_max_defeats_astra/",
+          "signal": "Claude Opus 5.5 MAX Defeats Astra 😳"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1woxm0s/claude_opus_55_seems_to_have_fun_when_building/",
+          "signal": "Claude Opus 5.5 seems to have... fun ? When building things ?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wol9vm/the_situation_report_a_rare_strain_of_ebola_with/",
+          "signal": "The Situation Report: A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it."
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "Australian school tutoring company shuts down, tells parents to save their money and ‘use AI instead’",
+      "who_affected": "r/singularity",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wowqn1/australian_school_tutoring_company_shuts_down/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Chat limits getting combined with Work/Codex usage next DevDay",
       "who_affected": "r/ChatGPT",
@@ -527,17 +601,41 @@
       "content_opportunity": ""
     },
     {
-      "problem": "NVIDIA CEO Jensen Huang: “Now, if they say [that their models aren’t safe] … then I think the answer is that we have to shut the labs down.”",
+      "problem": "Japanese Animator Breaks Down How He Made an Anime MV Using Seedance",
+      "who_affected": "r/singularity",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1woz0fn/japanese_animator_breaks_down_how_he_made_an/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Whenever I hear AI executives preaching how we all need to \"slow down\" (while furiously continuing to build all the while)",
+      "who_affected": "r/singularity",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wotk5m/whenever_i_hear_ai_executives_preaching_how_we/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Is ChatGPT broken for anyone else over the last 48 hours?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wogcgf/nvidia_ceo_jensen_huang_now_if_they_say_that/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpbs09/is_chatgpt_broken_for_anyone_else_over_the_last/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Pentagon says overreliance on AI contributed to missile strike on Iran — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
