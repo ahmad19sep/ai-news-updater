@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUR0NUpRdnBYTjgwa2tvOF90Z2RycEx5VEY2R2JaSnFMU19ONjJ4TzJkSHB1M1g3UGh2eGV6dW1HUlNMc3RqZ1loTjhFWnlIWEhmNnhHcTBWbXR2cHNPWGVfNFZrQ3E5Yk9CT3ZQcnAxb1ZlT1p4eXNHdDdJY3o2SHJ3b3Y4UXFhSjVYTzl3T0Y4TjVyM3F5ZHdWZWxBZkcxLVFBcThnaHYtWVI2cFc4QTJPRV9HNS1fLTh5ZDI4X0VwRkVwSFI4?oc=5
 9. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQMHJWN0NoQUotUzVkZEVlMW9ydGhMYWh0QTgyVThkei1oWkdyX29leTQ5OXFydXlRekdlS2RObFh0bHpfUThpQlZ5T3hXcGM1X0t0UGppc25jdFJZTGtjY2RNTmNWX05tNjdVbzRyYi1DRFd3M2dJQWJwSEtBTU15VUJHbzdaUzV2a0Y1cnJiMFlpTWdDOXRoM0F6c1g0TXdBcE5KdGEwNHY3YjlQcFZhbVQ4aWdOVDjSAbwBQVVfeXFMUGZYcmY4bVhOTWZ3aGVraldacVJSVnhZdkhidUlKTGtmS05jS01VWlAtTUZtbm5SX3pOT3J0Y2xHa1RtUDN1VEZFQm1lNURNZmJwU3A3VnlWczNJQV82RXhOWWdnRWZYYjZYOUxYYWxHU0VoeXhlLVZhbGxGeWlwY1Y2dDM2VF9xX2hia2lybFJiTDR5NE9PMW9xQTVXUjNOeldWVUp6NHhwdXZwN3RGc2JUOENRcHZVVjJQRlA?oc=5
-10. **Microsoft exec called AI scraping the “largest theft of labor in human history”** — Ars Technica AI — Score 63.0
-   https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/
+10. **Josh Shapiro wades into AI debate with call for ‘strict guardrails’** — kvia — Score 63
+   https://kvia.com/politics/cnn-us-politics/2026/09/17/josh-shapiro-wades-into-ai-debate-with-call-for-strict-guardrails/
 
 ## 🧪 AI in Science Highlights
 - **AI agent hacks government website for first time: why this breach matters** — https://www.nature.com/articles/d41586-026-03024-z
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **3 doctors take entrepreneurial leap with AI—and strong guidance at hand - ama-assn.org** — https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ013WlNoZ1l2Y1FFQ0VfMzlfVEtTN0oyMkxLamU2ME1LUjV3TG8tMWNlUERfUGxFQXVMVFVhWWViN3lnbmhheWJVQXZ6WGNFQzZ5RlFiaVp2TmlEaXRFRXpTdVU3TkNFdVhzVGI5VGFJQ25qdEV3NzZvdXBqZmtRbUhrNm5PVlF0UWdtZUZTV0dEYjQtNEl3b1FBU0hvOHh3TnhXeFRZNHQ3YnpEYmJjd0tBakZ2bVNMRVcxNkFPbw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3104
+- Total stories tracked: 3072
 - Most active topic: openai
 - Busiest category: AI General News
 
