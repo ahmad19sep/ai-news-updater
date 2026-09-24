@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:55:57.624615+00:00",
+  "generated_at": "2026-09-24T11:50:16.258405+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 37,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -64,9 +64,9 @@
           "signal": "ChatGPT Astra 6 + Blender + 3D AI Makes 3D Workflows Much Faster"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1woo9co/the_more_i_use_chatgpt_the_less_i_ask_it_to/",
-          "signal": "The more I use ChatGPT, the less I ask it to create things from scratch. Is that happening to you too?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SsHZaH2ml_U",
+          "signal": "So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More!"
         }
       ],
       "content_ideas": []
@@ -155,7 +155,243 @@
     {
       "name": "Claude",
       "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+          "signal": "Once Claude can measure something, it can make it faster"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Linux support is coming to Snapdragon X2 Series",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+          "signal": "Linux support is coming to Snapdragon X2 Series"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Feds Target AI Critics as \"Foreign Agents\"",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+          "signal": "Feds Target AI Critics as \"Foreign Agents\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+          "signal": "Gemini 3.8 text-to-speech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QqlSupMYrPU",
+          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenAI is enlisting an influencer army to make it look 'good for the w",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+          "signal": "OpenAI is enlisting an influencer army to make it look 'good for the world'"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Unreal Agent",
+      "category": "use_case",
       "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://unreallabs.ai/blog/unreal-agent/",
+          "signal": "Unreal Agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Meta takes down a critical video about meta AI Glasses after filming a",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+          "signal": "Meta takes down a critical video about meta AI Glasses after filming at Meta"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Stripe's Knowledge AI Platform",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+          "signal": "Stripe's Knowledge AI Platform"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -196,7 +432,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -211,210 +447,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QyntDG_b5zI",
-          "signal": "How To Get Google Gemini PRO FREE in September 2026 | 18 Months Google AI Subscription | JIO Offer"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenAI is enlisting an influencer army to make it look 'good for the w",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-          "signal": "OpenAI is enlisting an influencer army to make it look 'good for the world'"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Linux support is coming to Snapdragon X2 Series",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-          "signal": "Linux support is coming to Snapdragon X2 Series"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Unreal Agent",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://unreallabs.ai/blog/unreal-agent/",
-          "signal": "Unreal Agent"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Feds Target AI Critics as \"Foreign Agents\"",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-          "signal": "Feds Target AI Critics as \"Foreign Agents\""
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Stripe's Knowledge AI Platform",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-          "signal": "Stripe's Knowledge AI Platform"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://droprun.sh/",
-          "signal": "Show HN: Drop – A rootless Linux sandbox with gVisor support"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-          "signal": "Gemini 3.8 text-to-speech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QyntDG_b5zI",
-          "signal": "How To Get Google Gemini PRO FREE in September 2026 | 18 Months Google AI Subscription | JIO Offer"
+          "url": "https://www.youtube.com/watch?v=QqlSupMYrPU",
+          "signal": "first time use ai | chatgpt | #chatgpt #gemini #viral #r15 #minivlog #shorts #funny #ai"
         },
         {
           "platform": "youtube",
@@ -427,7 +461,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -473,41 +507,9 @@
           "signal": "ChatGPT Astra 6 + Blender + 3D AI Makes 3D Workflows Much Faster"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1woo9co/the_more_i_use_chatgpt_the_less_i_ask_it_to/",
-          "signal": "The more I use ChatGPT, the less I ask it to create things from scratch. Is that happening to you too?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-          "signal": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
-          "signal": "Once Claude can measure something, it can make it faster"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SsHZaH2ml_U",
+          "signal": "So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More!"
         }
       ],
       "content_ideas": []
@@ -517,7 +519,7 @@
     {
       "problem": "NVIDIA CEO Jensen Huang: “Now, if they say [that their models aren’t safe] … then I think the answer is that we have to shut the labs down.”",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -527,25 +529,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "2 years ago, AI researchers thought AI wouldn't solve a Millennium math problem for 30 years",
+      "problem": "World leaders spent all week at the UN figuring out how to slow down AI. The billing department did it with one popup.",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnxlgm/2_years_ago_ai_researchers_thought_ai_wouldnt/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Screams to slow down",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wnx296/screams_to_slow_down/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wotpoc/world_leaders_spent_all_week_at_the_un_figuring/"
         }
       ],
       "content_opportunity": ""
