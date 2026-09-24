@@ -9,28 +9,28 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Stanford R&DE Uses AI to Race Swap Students for Advertising** — 81 upvotes on Reddit/HN
    https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/
-2. **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — science angle
-   https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
-3. **AI agent hacks government website for first time: why this breach matters** — science angle
+2. **AI agent hacks government website for first time: why this breach matters** — science angle
    https://www.nature.com/articles/d41586-026-03024-z
-4. **AI co-scientists are revolutionizing how research is done** — science angle
+3. **AI co-scientists are revolutionizing how research is done** — science angle
    https://www.nature.com/articles/d41586-026-02931-5
-5. **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — science angle
+4. **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — science angle
    https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
-6. **Anthropic and OpenEvidence to offer free medical AI to doctors in about 100 countries - The Next Web** — science angle
+5. **Anthropic and OpenEvidence to offer free medical AI to doctors in about 100 countries - The Next Web** — science angle
    https://news.google.com/rss/articles/CBMidEFVX3lxTFBwQW15bzl3MjZpczZlbnVQaE5JaUFDRFhyMjB0WDBwOE16a1BZVHhvQk95dDR4cDh6cVlmMU01S09LNFdmdG1senBNbldEenpQU3l0cURES0x5WncyUUxnUDhwQzhfOHk1cC1MSUJsMU1hNHYw?oc=5
-7. **3 doctors take entrepreneurial leap with AI—and strong guidance at hand - ama-assn.org** — science angle
+6. **3 doctors take entrepreneurial leap with AI—and strong guidance at hand - ama-assn.org** — science angle
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ013WlNoZ1l2Y1FFQ0VfMzlfVEtTN0oyMkxLamU2ME1LUjV3TG8tMWNlUERfUGxFQXVMVFVhWWViN3lnbmhheWJVQXZ6WGNFQzZ5RlFiaVp2TmlEaXRFRXpTdVU3TkNFdVhzVGI5VGFJQ25qdEV3NzZvdXBqZmtRbUhrNm5PVlF0UWdtZUZTV0dEYjQtNEl3b1FBU0hvOHh3TnhXeFRZNHQ3YnpEYmJjd0tBakZ2bVNMRVcxNkFPbw?oc=5
-8. **Physicians Sound Alarm Over AI Medical Advice - Mega Doctor News** — science angle
+7. **Physicians Sound Alarm Over AI Medical Advice - Mega Doctor News** — science angle
    https://news.google.com/rss/articles/CBMifkFVX3lxTE1lRUk0YXRBSlVPV1lsenBIckxIVFE5NzVuakdCS1ZGeHBBRlFwYUNIMzRwZ2tmX3BLdFJUWWtNN0tsSUJjWTVvbHRMUXlTMzdfbHRDNHlhRHFJV0dPc1NCRDhWUjFjbFJKTzgyaFp4WTgwVDdDam40b25kWFFCQQ?oc=5
+8. **AI Doctors on Trial: New Framework Exposes Hidden Dangers in Medical Language Models - Bioengineer.org** — science angle
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxOdGt4dGJHRTE3ek1QX3g3LU1wX19NbG00cVdrZjVGUERGOWJsVXlEcm9aNngtdTFjcUpSbjhOang4ODBZcjNOOG1SVTUyX0JkQXhMZk9OcmZoMWRLS1FySndub2tZWlN2akJnV1dRUnE0eldZWFNXSkV5TVhwRmM1QnlRbHV4WkZTYVhVZHFRbFdHUlVLc1lDVTBjU0l2ZTk5TnVjcHlOS3lhQWZZ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxSUpOQ20yM2RRbDZUZ2ZiU0oxdkFmd1dhN1dCZ0pPelZ2R1I2SDYwa0xHZGZxcUJ1VlAwRmtNY1hFak5zdHA0SWRxY3d2X0VUT0dZRmQteGg0MzdaMHBQU1d0d0VZam9Wc0VqS0QzYzdmeVBMc2tPSk9uYjBTQjl0NUVONEJGTEVxdVI3dFNBNmdWNlFoNkpGU053eUVvVXN6X0l5cV9LNkR5Wm8wV3EyY1hVTmt0eVhvMFdJaU5mRUNaQzF3c3VBbVM0Qg?oc=5
-2. **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9** — AI in Coding — Score 113
-   https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvRXJrVWRLMThZMW9RRThaRVJ5Mkxudl9Ock84U2Y2aXFhZHc3T0xtX0ZITlNQN01aQXd2eDR0MW15N2ZuVjJIYXdUdVpabkFGeHYxdEdjMlNIb1FINWZ6ZHlUaVhndHVHb2dxUXhFUGNkMHNtQmhmY1dITkF2dTdYUzFjb204aXdYbXg5WUhrZWx0aEpQaFlXazJKWTJaZFlkMGxRQUZNbnJfNldNX0d2cnZMOENfWVNOM0IwRTdhSXpSZ2tnNzA3RG9ncGxsQVRlNWVNMUEtVF9NeDdTakxvUFItUUx3ZDQ0UkE?oc=5
-3. **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL** — Dario Amodei News — Score 106
+2. **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL** — Dario Amodei News — Score 116
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN0ZBQ2hPR19pVkxBQ21TTDhrRjMwNm9MZ2VWNDJpUzd4b0wzcko3dkZWRW5BX1ZPV0NySllDX0MzU2xKcHRoNUtqejVhX0lZeHhVcy1aTGtYTkE2czJwRV9CbGFVTjFRbjMwNDlxZkhsX3VTaG1oZ09YVzh6eUgzdG9qVERieGZBYV9hQXJpVUhDUzR5eFhSYlVZa2RGMkk2WF9RQTRWc2ZZWkpYUQ?oc=5
+3. **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9** — AI in Coding — Score 113
+   https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvRXJrVWRLMThZMW9RRThaRVJ5Mkxudl9Ock84U2Y2aXFhZHc3T0xtX0ZITlNQN01aQXd2eDR0MW15N2ZuVjJIYXdUdVpabkFGeHYxdEdjMlNIb1FINWZ6ZHlUaVhndHVHb2dxUXhFUGNkMHNtQmhmY1dITkF2dTdYUzFjb204aXdYbXg5WUhrZWx0aEpQaFlXazJKWTJaZFlkMGxRQUZNbnJfNldNX0d2cnZMOENfWVNOM0IwRTdhSXpSZ2tnNzA3RG9ncGxsQVRlNWVNMUEtVF9NeDdTakxvUFItUUx3ZDQ0UkE?oc=5
 4. **Anthropic unveils Claude Opus 5.5 - Reuters** — Breaking Claude — Score 102
    https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2VINVptSExJdjU0WkQ0WDVkRUdsaHduYjB1Tk81TnBrZkVvalowQWh2NFJnYmZ1TkxtVTQyZHdVWDgzVmJtRE9SSjkzeW9DWDFleHNPU01LUWE1TUpCdktmTVVRZHNXWm9ack9CRmdQTU1XUHd0Y2lhaEZBWWJYQVNFYw?oc=5
 5. **Bill Gates pushes for 'smart use' of AI as his foundation builds more representative language data** — ottumwacourier — Score 93
@@ -47,14 +47,14 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/
 
 ## 🧪 AI in Science Highlights
-- **Most of What Doctors Write Down About Patients Has Been Invisible to Research. A New Study Shows AI Can Read It Accurately - PR Newswire** — https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcUVZMUc4MzV6Z1VaQ0E5ZktxRzRaZ1ozM0cwQ1VOeC0xdHdzMGRwS1dFVGlVZTNDcXVyLW1hU2NUelJvSG1FX2EzS3l2aXktVDZ0WGRyR2hEUmV1ZHJJaV9fQV9OM2h1V3hWQTlOWERpWlZ0NkJYSkQxODQzd0V4QkUzY2JwbWszeXN2bmgwU2RwU3YwcGZtb3Ayb1A4d0tQWW5qdk9GWWtYeDNlMXJnMjZmd1FJUTVBR0FETjhvcm1rRDRUMkJPUmktZXcyNDlMMkFkRFFnOVlmbGRadkUxR0Z1WmNSTlZNNGRSUlZLVUYzUjA1VlQ4ekpnTk5NZHFqZXlPb2kyRUE?oc=5
 - **AI agent hacks government website for first time: why this breach matters** — https://www.nature.com/articles/d41586-026-03024-z
 - **AI co-scientists are revolutionizing how research is done** — https://www.nature.com/articles/d41586-026-02931-5
 - **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 - **Anthropic and OpenEvidence to offer free medical AI to doctors in about 100 countries - The Next Web** — https://news.google.com/rss/articles/CBMidEFVX3lxTFBwQW15bzl3MjZpczZlbnVQaE5JaUFDRFhyMjB0WDBwOE16a1BZVHhvQk95dDR4cDh6cVlmMU01S09LNFdmdG1senBNbldEenpQU3l0cURES0x5WncyUUxnUDhwQzhfOHk1cC1MSUJsMU1hNHYw?oc=5
+- **3 doctors take entrepreneurial leap with AI—and strong guidance at hand - ama-assn.org** — https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ013WlNoZ1l2Y1FFQ0VfMzlfVEtTN0oyMkxLamU2ME1LUjV3TG8tMWNlUERfUGxFQXVMVFVhWWViN3lnbmhheWJVQXZ6WGNFQzZ5RlFiaVp2TmlEaXRFRXpTdVU3TkNFdVhzVGI5VGFJQ25qdEV3NzZvdXBqZmtRbUhrNm5PVlF0UWdtZUZTV0dEYjQtNEl3b1FBU0hvOHh3TnhXeFRZNHQ3YnpEYmJjd0tBakZ2bVNMRVcxNkFPbw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3077
+- Total stories tracked: 3104
 - Most active topic: openai
 - Busiest category: AI General News
 
