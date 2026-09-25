@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T05:01:03.783372+00:00",
+  "generated_at": "2026-09-25T11:54:24.752349+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -49,6 +49,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpq4s2/openai_prepares_new_500_per_month_pro_max_plan/",
+          "signal": "OpenAI prepares new $500 per month Pro Max plan for ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wp6blp/told_chatgpt_it_was_wasting_water_it_took_that/",
           "signal": "Told ChatGPT it was wasting water. It took that personally 💀"
         },
@@ -59,13 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wphwo3/the_ui_update_to_the_chatgpt_website_is/",
-          "signal": "The UI update to the chatgpt website is absolutely awful and breaks a lot of basic functionlity."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wog70j/chatgpt_still_ahead_but_claude_is_catching_up/",
-          "signal": "ChatGPT still ahead, but Claude is catching up"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpoqnw/new_chatgpt_update_i_must_say_i_quite_like_it/",
+          "signal": "New ChatGPT Update? I must say I quite like it!"
         }
       ],
       "content_ideas": []
@@ -138,45 +138,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EbEL1VG8Zpo",
-          "signal": "Jadi Spider-Man Tapi Dilupain Seluruh Dunia #SpiderMan #ChatGPT #ClaudeAI #GoogleGemini"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
           "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
+          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Jev in 25 Lines of Python",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-          "signal": "Jev in 25 Lines of Python"
         }
       ],
       "content_ideas": []
@@ -231,6 +204,33 @@
           "platform": "hackernews",
           "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
           "signal": "Feds Target AI Critics as \"Foreign Agents\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google’s Project Suncatcher to put ML infrastructure in space",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+          "signal": "Google’s Project Suncatcher to put ML infrastructure in space"
         }
       ],
       "content_ideas": []
@@ -296,60 +296,6 @@
       "content_ideas": []
     },
     {
-      "name": "OpenAI is enlisting an influencer army to make it look 'good for the w",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-          "signal": "OpenAI is enlisting an influencer army to make it look 'good for the world'"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Google’s Project Suncatcher to put ML infrastructure in space",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-          "signal": "Google’s Project Suncatcher to put ML infrastructure in space"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful softw",
       "category": "use_case",
       "momentum": "rising",
@@ -364,7 +310,7 @@
       "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -374,6 +320,33 @@
           "platform": "hackernews",
           "url": "https://github.com/devdotfast/whiteboard",
           "signal": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenAI is enlisting an influencer army to make it look 'good for the w",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+          "signal": "OpenAI is enlisting an influencer army to make it look 'good for the world'"
         }
       ],
       "content_ideas": []
@@ -391,7 +364,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -401,6 +374,33 @@
           "platform": "hackernews",
           "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
           "signal": "'That's so AI ' What gen Alpha's biggest insult tells us"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Tutoring company tells parents to save their money and 'use AI instead",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+          "signal": "Tutoring company tells parents to save their money and 'use AI instead'"
         }
       ],
       "content_ideas": []
@@ -446,13 +446,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=EbEL1VG8Zpo",
-          "signal": "Jadi Spider-Man Tapi Dilupain Seluruh Dunia #SpiderMan #ChatGPT #ClaudeAI #GoogleGemini"
+          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
+          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
-          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
+          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
+          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
         },
         {
           "platform": "youtube",
@@ -465,7 +465,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -496,6 +496,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpq4s2/openai_prepares_new_500_per_month_pro_max_plan/",
+          "signal": "OpenAI prepares new $500 per month Pro Max plan for ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wp6blp/told_chatgpt_it_was_wasting_water_it_took_that/",
           "signal": "Told ChatGPT it was wasting water. It took that personally 💀"
         },
@@ -506,13 +511,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wphwo3/the_ui_update_to_the_chatgpt_website_is/",
-          "signal": "The UI update to the chatgpt website is absolutely awful and breaks a lot of basic functionlity."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wog70j/chatgpt_still_ahead_but_claude_is_catching_up/",
-          "signal": "ChatGPT still ahead, but Claude is catching up"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpoqnw/new_chatgpt_update_i_must_say_i_quite_like_it/",
+          "signal": "New ChatGPT Update? I must say I quite like it!"
         }
       ],
       "content_ideas": []
@@ -551,19 +551,6 @@
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Chat limits getting combined with Work/Codex usage next DevDay",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp4qqz/chat_limits_getting_combined_with_workcodex_usage/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
