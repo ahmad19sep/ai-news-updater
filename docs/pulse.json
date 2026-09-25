@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:54:24.752349+00:00",
+  "generated_at": "2026-09-25T17:14:55.216291+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 40,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": null
@@ -54,13 +54,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp6blp/told_chatgpt_it_was_wasting_water_it_took_that/",
-          "signal": "Told ChatGPT it was wasting water. It took that personally 💀"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpz31r/chatgpt_breathingcoughing_during_voice_reading/",
+          "signal": "Chatgpt Breathing/coughing during voice reading?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wphjjr/chatgpt_voice_can_use_connected_apps_now_and_its/",
-          "signal": "ChatGPT Voice can use connected apps now, and it’s kind of a game changer"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpwzb4/chatgpt_plus_free_trial_made_me_a_tv_remote_first/",
+          "signal": "ChatGPT Plus free trial made me a TV remote (first try!)"
         },
         {
           "platform": "reddit",
@@ -95,61 +95,6 @@
           "platform": "hackernews",
           "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
           "signal": "Meta takes down a critical video about meta AI Glasses after filming at Meta"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-          "signal": "Gemini 3.8 text-to-speech"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
-          "signal": "Hackers influence ChatGPT and Gemini to direct users to scam centers"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
-          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
-          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
-          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -263,39 +208,6 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
-          "signal": "Once Claude can measure something, it can make it faster"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp736u/claude_opus_55_max_defeats_astra/",
-          "signal": "Claude Opus 5.5 MAX Defeats Astra 😳"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful softw",
       "category": "use_case",
       "momentum": "rising",
@@ -325,11 +237,13 @@
       "content_ideas": []
     },
     {
-      "name": "OpenAI is enlisting an influencer army to make it look 'good for the w",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -339,14 +253,24 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-          "signal": "OpenAI is enlisting an influencer army to make it look 'good for the world'"
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+          "signal": "Once Claude can measure something, it can make it faster"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp736u/claude_opus_55_max_defeats_astra/",
+          "signal": "Claude Opus 5.5 MAX Defeats Astra 😳"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3rKPF3EaK5Q",
+          "signal": "Anthropic says Claude discovered new gene-editing tool as debate over AI in healthcare grows"
         }
       ],
       "content_ideas": []
@@ -364,7 +288,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -379,38 +303,9 @@
       "content_ideas": []
     },
     {
-      "name": "Tutoring company tells parents to save their money and 'use AI instead",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-          "signal": "Tutoring company tells parents to save their money and 'use AI instead'"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -423,17 +318,12 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-          "signal": "Gemini 3.8 text-to-speech"
-        },
         {
           "platform": "hackernews",
           "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
@@ -462,6 +352,62 @@
       ],
       "content_ideas": []
     },
+    {
+      "name": "Tutoring company tells parents to save their money and 'use AI instead",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+          "signal": "Tutoring company tells parents to save their money and 'use AI instead'"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Oracle cites 'force majeure' to shield itself on controversial data ce",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-24/oracle-cites-force-majeure-to-shield-itself-on-controversial-data-center",
+          "signal": "Oracle cites 'force majeure' to shield itself on controversial data center"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -501,13 +447,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wp6blp/told_chatgpt_it_was_wasting_water_it_took_that/",
-          "signal": "Told ChatGPT it was wasting water. It took that personally 💀"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpz31r/chatgpt_breathingcoughing_during_voice_reading/",
+          "signal": "Chatgpt Breathing/coughing during voice reading?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wphjjr/chatgpt_voice_can_use_connected_apps_now_and_its/",
-          "signal": "ChatGPT Voice can use connected apps now, and it’s kind of a game changer"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpwzb4/chatgpt_plus_free_trial_made_me_a_tv_remote_first/",
+          "signal": "ChatGPT Plus free trial made me a TV remote (first try!)"
         },
         {
           "platform": "reddit",
@@ -523,7 +469,8 @@
       "momentum": "cooling",
       "platforms": [
         "hackernews",
-        "reddit"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -546,11 +493,79 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wp736u/claude_opus_55_max_defeats_astra/",
           "signal": "Claude Opus 5.5 MAX Defeats Astra 😳"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3rKPF3EaK5Q",
+          "signal": "Anthropic says Claude discovered new gene-editing tool as debate over AI in healthcare grows"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+          "signal": "Hackers influence ChatGPT and Gemini to direct users to scam centers"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
+          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
+          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
+          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "How much of “ChatGPT sucks” is actually a communication problem?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpyrgx/how_much_of_chatgpt_sucks_is_actually_a/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
