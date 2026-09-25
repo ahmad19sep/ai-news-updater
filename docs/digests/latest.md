@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://www.nature.com/articles/d41586-026-02931-5
 5. **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — science angle
    https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
-6. **AI Is Quietly Becoming Medicine’s New Navigator, Shaping How Doctors Think - Bioengineer.org** — science angle
-   https://news.google.com/rss/articles/CBMingFBVV95cUxPbUNsTGJjcDlwTVpabkhtSm00S1NLeTJiNFQ3ZDdsN095MDZyaUt4bDdTOV9QaXNyRWYzQzY5Y1JaeV96czZ6Y2FLcmJfQ0MtbUtrdlppVTRhcVpmWThnQWVEM1dEUXJVZHpkUktpTjRyTmhPenhpX3hENU95bUE1dE1WYmFXNXdmcXByY2FaM3hXdWg2bnVFdW1kUzFVUQ?oc=5
-7. **Reimbursement Puzzle: How Should Doctors Be Paid for Using AI Tools? - Medscape** — science angle
+6. **Reimbursement Puzzle: How Should Doctors Be Paid for Using AI Tools? - Medscape** — science angle
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd1NWNTZ2eThib1dDSURIbjZ4TjNtN2o4OWtNNXU3aW95M21oUTAtSUhtT1Fra3p3Q0JQUk9JVlhOM2dzNFNxdjJydFl6bnhlaXltekxET0YwRnluOGphZ3poUkpVRGNleXVUZGc0VThkcGc3blJwU2xEZEhDbFkxT1J2ajUteW5pOU9HUUZZYkJ5eERzVmh0Z081NVZ4RW1MZTlvQTdFb0xsUQ?oc=5
-8. **Can You Trust ChatGPT For Medical Advice? A Doctor’s Guide - Forbes** — science angle
+7. **Can You Trust ChatGPT For Medical Advice? A Doctor’s Guide - Forbes** — science angle
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTGRmdk1EWDZvUUVMeE5nR3FCVFE1NjNhVVllcnZZSHRhVEkyMzJQQ0RCaEF0c3JaVzl0Z281SVhEaVpORzFjdjJMNHBWbnM1R3gtZUVzcTZ2VklXQy0tbDhmOTNmZGJyUGYxWGoxLW5XT0JObEx4TkxWRnZpMzYtc0s5anBQb29aZzVsYzctSzA4NE5jUksxNl9yazFCUGp6RjUxTE1NZTFQSUstUGoxVlpuU281YUNz?oc=5
+8. **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Telegraphic Agency** — science angle
+   https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0RvTGFsUm5VVDBRaFVRNnY5S0JfTWd4U2tpNnJkZkJQQTJnaFFub3dBblpOWUZfQmJyODFXRkRXUU1KTWl1MW5RNVNHMm1scU1RZUtJRVYxeHluRmYwZnFLSGhuZTMwNEVXc3dTUlhucno3MlpWS3ZWWVpvTV9pS2Rfdy1aODJPbjBBZkZjQ3N0d0MyU18xWVJYd2hmMW94bWh2cGhIWGxSZUNQeTVWcWpZOXo3YWhvcHc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
@@ -35,10 +35,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2VINVptSExJdjU0WkQ0WDVkRUdsaHduYjB1Tk81TnBrZkVvalowQWh2NFJnYmZ1TkxtVTQyZHdVWDgzVmJtRE9SSjkzeW9DWDFleHNPU01LUWE1TUpCdktmTVVRZHNXWm9ack9CRmdQTU1XUHd0Y2lhaEZBWWJYQVNFYw?oc=5
 5. **Bill Gates pushes for 'smart use' of AI as his foundation builds more representative language data** — ottumwacourier — Score 93
    https://www.ottumwacourier.com/news/business/bill-gates-pushes-for-smart-use-of-ai-as-his-foundation-builds-more-representative-language/article_cbc33a4b-e0a2-515a-8a8f-865ddb66f079.html
-6. **Heads of AI firms tell UN Security Council that it could be a risk to all humanity - New Haven Register** — Sam Altman News — Score 83
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUdLUUZmbnZ3OWotZkluR1E5eXhkMkpkQTJab0NiLTJuckRZb0xzQnBTZE03VndoYURhS0VGSlBjWmJQS1NUMXhVel9hOUQyWGYxbGN0UmZhQzFwclpiUTVKcUw4VnZEUmVjT1R3SjFkcWpmTkpIdjk5dm5pQnpaSHVnSnpQNXozWlowaVhxTDdHRkRTdUQ0b3RLcTg1YjJGdWctVWxIaFN3QQ?oc=5
-7. **OpenAI to preview GPT-6 Cyber within days, Fortune reports - The Mighty 790 KFGO** — Breaking GPT-5 — Score 83
+6. **OpenAI to preview GPT-6 Cyber within days, Fortune reports - The Mighty 790 KFGO** — Breaking GPT-5 — Score 83
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNQl9oVWpjV0F3MTlha0QxYkJuNGJiamJ6NXQ0eFJlVFdWZFRTWTZveVAtTVg0b05CZ08wS0d5MjFjbW9TbUNCMTVRTzBFb21qV0pranNObzVkRG5mb24wajFDU2NSOUl4V25wQ2RKUEZFVmk3NlZJMXZzZEdFdE15QTBBSEZuR2hkTTlvRmxkNA?oc=5
+7. **Heads of AI firms tell UN Security Council that it could be a risk to all humanity - New Haven Register** — Sam Altman News — Score 80
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUdLUUZmbnZ3OWotZkluR1E5eXhkMkpkQTJab0NiLTJuckRZb0xzQnBTZE03VndoYURhS0VGSlBjWmJQS1NUMXhVel9hOUQyWGYxbGN0UmZhQzFwclpiUTVKcUw4VnZEUmVjT1R3SjFkcWpmTkpIdjk5dm5pQnpaSHVnSnpQNXozWlowaVhxTDdHRkRTdUQ0b3RLcTg1YjJGdWctVWxIaFN3QQ?oc=5
 8. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 76
    https://www.pressdemocrat.com/2026/09/24/education-ai-job-market/
 9. **Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near - The Washington Post** — AI in Coding — Score 73
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3163
+- Total stories tracked: 3095
 - Most active topic: openai
 - Busiest category: AI General News
 
