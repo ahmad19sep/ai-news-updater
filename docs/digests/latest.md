@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://www.nature.com/articles/d41586-026-02931-5
 5. **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — science angle
    https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
-6. **Physicians Sound Alarm Over AI Medical Advice - Mega Doctor News** — science angle
-   https://news.google.com/rss/articles/CBMifkFVX3lxTE1lRUk0YXRBSlVPV1lsenBIckxIVFE5NzVuakdCS1ZGeHBBRlFwYUNIMzRwZ2tmX3BLdFJUWWtNN0tsSUJjWTVvbHRMUXlTMzdfbHRDNHlhRHFJV0dPc1NCRDhWUjFjbFJKTzgyaFp4WTgwVDdDam40b25kWFFCQQ?oc=5
-7. **AI Is Quietly Becoming Medicine’s New Navigator, Shaping How Doctors Think - Bioengineer.org** — science angle
+6. **AI Is Quietly Becoming Medicine’s New Navigator, Shaping How Doctors Think - Bioengineer.org** — science angle
    https://news.google.com/rss/articles/CBMingFBVV95cUxPbUNsTGJjcDlwTVpabkhtSm00S1NLeTJiNFQ3ZDdsN095MDZyaUt4bDdTOV9QaXNyRWYzQzY5Y1JaeV96czZ6Y2FLcmJfQ0MtbUtrdlppVTRhcVpmWThnQWVEM1dEUXJVZHpkUktpTjRyTmhPenhpX3hENU95bUE1dE1WYmFXNXdmcXByY2FaM3hXdWg2bnVFdW1kUzFVUQ?oc=5
-8. **Reimbursement Puzzle: How Should Doctors Be Paid for Using AI Tools? - Medscape** — science angle
+7. **Reimbursement Puzzle: How Should Doctors Be Paid for Using AI Tools? - Medscape** — science angle
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd1NWNTZ2eThib1dDSURIbjZ4TjNtN2o4OWtNNXU3aW95M21oUTAtSUhtT1Fra3p3Q0JQUk9JVlhOM2dzNFNxdjJydFl6bnhlaXltekxET0YwRnluOGphZ3poUkpVRGNleXVUZGc0VThkcGc3blJwU2xEZEhDbFkxT1J2ajUteW5pOU9HUUZZYkJ5eERzVmh0Z081NVZ4RW1MZTlvQTdFb0xsUQ?oc=5
+8. **Can You Trust ChatGPT For Medical Advice? A Doctor’s Guide - Forbes** — science angle
+   https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTGRmdk1EWDZvUUVMeE5nR3FCVFE1NjNhVVllcnZZSHRhVEkyMzJQQ0RCaEF0c3JaVzl0Z281SVhEaVpORzFjdjJMNHBWbnM1R3gtZUVzcTZ2VklXQy0tbDhmOTNmZGJyUGYxWGoxLW5XT0JObEx4TkxWRnZpMzYtc0s5anBQb29aZzVsYzctSzA4NE5jUksxNl9yazFCUGp6RjUxTE1NZTFQSUstUGoxVlpuU281YUNz?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://www.ottumwacourier.com/news/business/bill-gates-pushes-for-smart-use-of-ai-as-his-foundation-builds-more-representative-language/article_cbc33a4b-e0a2-515a-8a8f-865ddb66f079.html
 6. **Heads of AI firms tell UN Security Council that it could be a risk to all humanity - New Haven Register** — Sam Altman News — Score 83
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUdLUUZmbnZ3OWotZkluR1E5eXhkMkpkQTJab0NiLTJuckRZb0xzQnBTZE03VndoYURhS0VGSlBjWmJQS1NUMXhVel9hOUQyWGYxbGN0UmZhQzFwclpiUTVKcUw4VnZEUmVjT1R3SjFkcWpmTkpIdjk5dm5pQnpaSHVnSnpQNXozWlowaVhxTDdHRkRTdUQ0b3RLcTg1YjJGdWctVWxIaFN3QQ?oc=5
-7. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 76
+7. **OpenAI to preview GPT-6 Cyber within days, Fortune reports - The Mighty 790 KFGO** — Breaking GPT-5 — Score 83
+   https://news.google.com/rss/articles/CBMijwFBVV95cUxNQl9oVWpjV0F3MTlha0QxYkJuNGJiamJ6NXQ0eFJlVFdWZFRTWTZveVAtTVg0b05CZ08wS0d5MjFjbW9TbUNCMTVRTzBFb21qV0pranNObzVkRG5mb24wajFDU2NSOUl4V25wQ2RKUEZFVmk3NlZJMXZzZEdFdE15QTBBSEZuR2hkTTlvRmxkNA?oc=5
+8. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 76
    https://www.pressdemocrat.com/2026/09/24/education-ai-job-market/
-8. **Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near - The Washington Post** — AI in Coding — Score 73
+9. **Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near - The Washington Post** — AI in Coding — Score 73
    https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUR0NUpRdnBYTjgwa2tvOF90Z2RycEx5VEY2R2JaSnFMU19ONjJ4TzJkSHB1M1g3UGh2eGV6dW1HUlNMc3RqZ1loTjhFWnlIWEhmNnhHcTBWbXR2cHNPWGVfNFZrQ3E5Yk9CT3ZQcnAxb1ZlT1p4eXNHdDdJY3o2SHJ3b3Y4UXFhSjVYTzl3T0Y4TjVyM3F5ZHdWZWxBZkcxLVFBcThnaHYtWVI2cFc4QTJPRV9HNS1fLTh5ZDI4X0VwRkVwSFI4?oc=5
-9. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
+10. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQMHJWN0NoQUotUzVkZEVlMW9ydGhMYWh0QTgyVThkei1oWkdyX29leTQ5OXFydXlRekdlS2RObFh0bHpfUThpQlZ5T3hXcGM1X0t0UGppc25jdFJZTGtjY2RNTmNWX05tNjdVbzRyYi1DRFd3M2dJQWJwSEtBTU15VUJHbzdaUzV2a0Y1cnJiMFlpTWdDOXRoM0F6c1g0TXdBcE5KdGEwNHY3YjlQcFZhbVQ4aWdOVDjSAbwBQVVfeXFMUGZYcmY4bVhOTWZ3aGVraldacVJSVnhZdkhidUlKTGtmS05jS01VWlAtTUZtbm5SX3pOT3J0Y2xHa1RtUDN1VEZFQm1lNURNZmJwU3A3VnlWczNJQV82RXhOWWdnRWZYYjZYOUxYYWxHU0VoeXhlLVZhbGxGeWlwY1Y2dDM2VF9xX2hia2lybFJiTDR5NE9PMW9xQTVXUjNOeldWVUp6NHhwdXZwN3RGc2JUOENRcHZVVjJQRlA?oc=5
-10. **Josh Shapiro wades into AI debate with call for ‘strict guardrails’** — kvia — Score 63
-   https://kvia.com/politics/cnn-us-politics/2026/09/17/josh-shapiro-wades-into-ai-debate-with-call-for-strict-guardrails/
 
 ## 🧪 AI in Science Highlights
 - **Cancer leads AI physician queries across 9 countries - ttownmedia.com** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa1RzcTJ3d0wzMlZhMUx4RUtBc1BmbFh2dEdzdGRXZTdjQzFaS3E2ZGRxWC1reldFZkhsYzhQYnV3eGFQYk9rbF9xVHhsTDJyNnpWOHBmT3czMDJHRmNVWkk2Qmg3ak9PeG01WGNEc2taMWxTdzAyZ1B4T3ZoY3lwWnFQYjRUdmRtR1psLWZNakNXbnI1QUFVR2RFVnh0SmIzcmhZZl9KTjhndjFNWl9OSHJqVlhfekRLNGFIZXFKZG01YUJ3S0NrV1FLWjRPRHBVZHotM1RYN0d0SVpHekhOZA?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3096
+- Total stories tracked: 3163
 - Most active topic: openai
 - Busiest category: AI General News
 
