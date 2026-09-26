@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
 - **AI agent hacks government website for first time: why this breach matters** — https://www.nature.com/articles/d41586-026-03024-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3053
+- Total stories tracked: 3052
 - Most active topic: openai
 - Busiest category: AI General News
 
