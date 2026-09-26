@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3078
+- Total stories tracked: 3065
 - Most active topic: openai
 - Busiest category: AI General News
 
