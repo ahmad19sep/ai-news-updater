@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 6. **AI agent hacks government website for first time: why this breach matters** — science angle
    https://www.nature.com/articles/d41586-026-03024-z
-7. **Reimbursement Puzzle: How Should Doctors Be Paid for Using AI Tools? - Medscape** — science angle
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd1NWNTZ2eThib1dDSURIbjZ4TjNtN2o4OWtNNXU3aW95M21oUTAtSUhtT1Fra3p3Q0JQUk9JVlhOM2dzNFNxdjJydFl6bnhlaXltekxET0YwRnluOGphZ3poUkpVRGNleXVUZGc0VThkcGc3blJwU2xEZEhDbFkxT1J2ajUteW5pOU9HUUZZYkJ5eERzVmh0Z081NVZ4RW1MZTlvQTdFb0xsUQ?oc=5
-8. **Can You Trust ChatGPT For Medical Advice? A Doctor’s Guide - Forbes** — science angle
-   https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTGRmdk1EWDZvUUVMeE5nR3FCVFE1NjNhVVllcnZZSHRhVEkyMzJQQ0RCaEF0c3JaVzl0Z281SVhEaVpORzFjdjJMNHBWbnM1R3gtZUVzcTZ2VklXQy0tbDhmOTNmZGJyUGYxWGoxLW5XT0JObEx4TkxWRnZpMzYtc0s5anBQb29aZzVsYzctSzA4NE5jUksxNl9yazFCUGp6RjUxTE1NZTFQSUstUGoxVlpuU281YUNz?oc=5
+7. **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Telegraphic Agency** — science angle
+   https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0RvTGFsUm5VVDBRaFVRNnY5S0JfTWd4U2tpNnJkZkJQQTJnaFFub3dBblpOWUZfQmJyODFXRkRXUU1KTWl1MW5RNVNHMm1scU1RZUtJRVYxeHluRmYwZnFLSGhuZTMwNEVXc3dTUlhucno3MlpWS3ZWWVpvTV9pS2Rfdy1aODJPbjBBZkZjQ3N0d0MyU18xWVJYd2hmMW94bWh2cGhIWGxSZUNQeTVWcWpZOXo3YWhvcHc?oc=5
+8. **Doctors Using ChatGPT With Patient Records Face HIPAA Privacy Rules - Law Commentary** — science angle
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxNQzdpTy0xMEEyOEZ1RzFuNGlNMjJqQ0VqUDRSWjNMOUNXSzB3Yzl6bnlnRHk4NEpSN29UWU9sem82U3EwLXczUkNQVzBzcGh2SHRxQ2o0akptajNrRVVqcVFsaVpjLWNCRTA1SzBKWnpqcEN2Smc3WENDWk5tczBvdXRwa3dNem5Ob21sNzhvOGxaRU10?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
 - **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3105
+- Total stories tracked: 3078
 - Most active topic: openai
 - Busiest category: AI General News
 
