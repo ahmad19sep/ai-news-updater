@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:27:08.133222+00:00",
+  "generated_at": "2026-09-26T21:12:54.877013+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 22,
+      "reddit": 25,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,10 +18,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,6 +45,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
+          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
           "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
         },
@@ -59,13 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
-          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqlbyf/i_gave_chatgpt_access_to_its_own_email_and_drive/",
-          "signal": "I gave chatgpt access to its own email and drive account"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1kxl/windows_chatgpt_app_gets_progressively/",
+          "signal": "Windows ChatGPT app gets progressively blurry/fuzzy? I found a GPU-compositing workaround"
         }
       ],
       "content_ideas": []
@@ -95,35 +96,6 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
           "signal": "U.S. appeals court upholds designation of Anthropic as supply chain risk"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful softw",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/devdotfast/whiteboard",
-          "signal": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design"
         }
       ],
       "content_ideas": []
@@ -161,53 +133,6 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/",
-          "signal": "Swift 1.5 27b: Swift Qwen just got faster"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/",
-          "signal": "Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqqv3b/qwen3827b_iq3_xxs_vs_qwen3635ba3b_q4_k_m/",
-          "signal": "Qwen3.8-27B IQ3_XXS vs Qwen3.6-35B-A3B Q4_K_M"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqjr3f/qwen3827b_q4_k_m_on_2x3060/",
-          "signal": "Qwen3.8-27B Q4_K_M on 2x3060"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqln1c/best_current_qwen_flash_next_q4ish_worth_using/",
-          "signal": "Best current Qwen Flash Next Q4-ish? + worth using?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "One Month Without AI",
       "category": "use_case",
       "momentum": "rising",
@@ -220,7 +145,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -274,7 +199,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -284,6 +209,33 @@
           "platform": "hackernews",
           "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
           "signal": "Classified estimates show the NSA is paying billions to test AI models"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+          "signal": "CEO of Mistral: AI is software. It can be controlled"
         }
       ],
       "content_ideas": []
@@ -311,60 +263,6 @@
           "platform": "hackernews",
           "url": "https://www.tai-dr.com/",
           "signal": "Too AI; Didn't Read"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Using LLMs to trace alchemical knowledge and decode 17th century lette",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-          "signal": "Using LLMs to trace alchemical knowledge and decode 17th century letters"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
-          "signal": "CEO of Mistral: AI is software. It can be controlled"
         }
       ],
       "content_ideas": []
@@ -407,13 +305,94 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
-          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
+          "url": "https://www.youtube.com/watch?v=SoA0dByFxX8",
+          "signal": "Trending CAR Driving Ai Video Editing Tutorial | Instagram Viral Car Driving Reels Editing - Gemini"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+          "signal": "Understanding the Impact of LLM Watermarking on AI Agent Behavior"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Uproar in France over award-winning author accused of using AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/articles/ck7v4y45893go",
+          "signal": "Uproar in France over award-winning author accused of using AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "An airport cooled by natural ventilation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/environment/2026/sep/25/didnt-need-air-conditioning-airport-cooled-natural-ventilation-reunion",
+          "signal": "An airport cooled by natural ventilation"
         }
       ],
       "content_ideas": []
@@ -465,7 +444,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -482,10 +461,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -508,6 +488,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
+          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
           "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
         },
@@ -523,60 +508,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
-          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqlbyf/i_gave_chatgpt_access_to_its_own_email_and_drive/",
-          "signal": "I gave chatgpt access to its own email and drive account"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/",
-          "signal": "Swift 1.5 27b: Swift Qwen just got faster"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/",
-          "signal": "Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqqv3b/qwen3827b_iq3_xxs_vs_qwen3635ba3b_q4_k_m/",
-          "signal": "Qwen3.8-27B IQ3_XXS vs Qwen3.6-35B-A3B Q4_K_M"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqjr3f/qwen3827b_q4_k_m_on_2x3060/",
-          "signal": "Qwen3.8-27B Q4_K_M on 2x3060"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqln1c/best_current_qwen_flash_next_q4ish_worth_using/",
-          "signal": "Best current Qwen Flash Next Q4-ish? + worth using?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1kxl/windows_chatgpt_app_gets_progressively/",
+          "signal": "Windows ChatGPT app gets progressively blurry/fuzzy? I found a GPU-compositing workaround"
         }
       ],
       "content_ideas": []
@@ -619,8 +552,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
-          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
+          "url": "https://www.youtube.com/watch?v=SoA0dByFxX8",
+          "signal": "Trending CAR Driving Ai Video Editing Tutorial | Instagram Viral Car Driving Reels Editing - Gemini"
         },
         {
           "platform": "youtube",
