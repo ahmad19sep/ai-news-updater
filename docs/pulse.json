@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T11:28:37.949646+00:00",
+  "generated_at": "2026-09-26T16:27:08.133222+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 29,
+      "reddit": 50,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqraze/porcelain_figurines_in_chatgpt/",
+          "signal": "Porcelain figurines in ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wqje3n/i_think_chatgpt_has_learned_a_new_ability_to_do/",
           "signal": "I think ChatGPT has learned a new ability to do this:"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wq9tbu/spent_the_last_two_months_seeing_how_far_a_non/",
-          "signal": "Spent the last two months seeing how far a non programmer (me) can get building a proper game with nothing but ChatGPT in a browser."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
+          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqgoie/we_had_reached_peak_chatgpt_in_july/",
-          "signal": "We had reached peak ChatGPT in July"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpkm5s/made_an_ar_yugioh_prototype_with_chatgpt_astra/",
-          "signal": "Made an AR Yu-Gi-Oh prototype with ChatGPT, Astra, CLAD, and Lens Studio"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqlbyf/i_gave_chatgpt_access_to_its_own_email_and_drive/",
+          "signal": "I gave chatgpt access to its own email and drive account"
         }
       ],
       "content_ideas": []
@@ -100,33 +100,6 @@
       "content_ideas": []
     },
     {
-      "name": "Google’s Project Suncatcher to put ML infrastructure in space",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-          "signal": "Google’s Project Suncatcher to put ML infrastructure in space"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful softw",
       "category": "use_case",
       "momentum": "rising",
@@ -156,8 +129,8 @@
       "content_ideas": []
     },
     {
-      "name": "'That's so AI ' What gen Alpha's biggest insult tells us",
-      "category": "use_case",
+      "name": "Copilot",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -170,97 +143,72 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
-          "signal": "'That's so AI ' What gen Alpha's biggest insult tells us"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
-          "signal": "Hackers influence ChatGPT and Gemini to direct users to scam centers"
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+          "signal": "Microsoft abandons personal AI chatbot race with Copilot reboot"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
-          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
-          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
-          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+          "signal": "The Copilot+ PC brand is dead"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Tutoring company tells parents to save their money and 'use AI instead",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-          "signal": "Tutoring company tells parents to save their money and 'use AI instead'"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/",
+          "signal": "Swift 1.5 27b: Swift Qwen just got faster"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/",
+          "signal": "Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqqv3b/qwen3827b_iq3_xxs_vs_qwen3635ba3b_q4_k_m/",
+          "signal": "Qwen3.8-27B IQ3_XXS vs Qwen3.6-35B-A3B Q4_K_M"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqjr3f/qwen3827b_q4_k_m_on_2x3060/",
+          "signal": "Qwen3.8-27B Q4_K_M on 2x3060"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqln1c/best_current_qwen_flash_next_q4ish_worth_using/",
+          "signal": "Best current Qwen Flash Next Q4-ish? + worth using?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Federal judge orders Texas to air condition all prisons by the end of ",
+      "name": "One Month Without AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -280,35 +228,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.texastribune.org/2026/09/22/texas-prison-air-conditioning-lawsuit-ruling/",
-          "signal": "Federal judge orders Texas to air condition all prisons by the end of 2029"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Oracle cites 'force majeure' to shield itself on controversial data ce",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-24/oracle-cites-force-majeure-to-shield-itself-on-controversial-data-center",
-          "signal": "Oracle cites 'force majeure' to shield itself on controversial data center"
+          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+          "signal": "One Month Without AI"
         }
       ],
       "content_ideas": []
@@ -368,7 +289,61 @@
       "content_ideas": []
     },
     {
-      "name": "Copilot",
+      "name": "Too AI; Didn't Read",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.tai-dr.com/",
+          "signal": "Too AI; Didn't Read"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Using LLMs to trace alchemical knowledge and decode 17th century lette",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+          "signal": "Using LLMs to trace alchemical knowledge and decode 17th century letters"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
@@ -380,7 +355,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -388,8 +363,57 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-          "signal": "Microsoft abandons personal AI chatbot race with Copilot reboot"
+          "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+          "signal": "CEO of Mistral: AI is software. It can be controlled"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
+          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
+          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
+          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
+          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -409,7 +433,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -419,6 +443,38 @@
           "platform": "hackernews",
           "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
           "signal": "Microsoft abandons personal AI chatbot race with Copilot reboot"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+          "signal": "The Copilot+ PC brand is dead"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+          "signal": "CEO of Mistral: AI is software. It can be controlled"
         }
       ],
       "content_ideas": []
@@ -457,23 +513,70 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqraze/porcelain_figurines_in_chatgpt/",
+          "signal": "Porcelain figurines in ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wqje3n/i_think_chatgpt_has_learned_a_new_ability_to_do/",
           "signal": "I think ChatGPT has learned a new ability to do this:"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wq9tbu/spent_the_last_two_months_seeing_how_far_a_non/",
-          "signal": "Spent the last two months seeing how far a non programmer (me) can get building a proper game with nothing but ChatGPT in a browser."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
+          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqgoie/we_had_reached_peak_chatgpt_in_july/",
-          "signal": "We had reached peak ChatGPT in July"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqlbyf/i_gave_chatgpt_access_to_its_own_email_and_drive/",
+          "signal": "I gave chatgpt access to its own email and drive account"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/",
+          "signal": "Swift 1.5 27b: Swift Qwen just got faster"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wpkm5s/made_an_ar_yugioh_prototype_with_chatgpt_astra/",
-          "signal": "Made an AR Yu-Gi-Oh prototype with ChatGPT, Astra, CLAD, and Lens Studio"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/",
+          "signal": "Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqqv3b/qwen3827b_iq3_xxs_vs_qwen3635ba3b_q4_k_m/",
+          "signal": "Qwen3.8-27B IQ3_XXS vs Qwen3.6-35B-A3B Q4_K_M"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqjr3f/qwen3827b_q4_k_m_on_2x3060/",
+          "signal": "Qwen3.8-27B Q4_K_M on 2x3060"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqln1c/best_current_qwen_flash_next_q4ish_worth_using/",
+          "signal": "Best current Qwen Flash Next Q4-ish? + worth using?"
         }
       ],
       "content_ideas": []
@@ -484,7 +587,6 @@
       "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "youtube"
       ],
@@ -494,17 +596,12 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 9,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
-          "signal": "Hackers influence ChatGPT and Gemini to direct users to scam centers"
-        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
@@ -519,6 +616,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
           "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
+          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
         },
         {
           "platform": "youtube",
@@ -538,18 +640,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wqd0gg/houston_we_have_a_problem_opus_55/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Codex down status page",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqb2ci/codex_down_status_page/"
         }
       ],
       "content_opportunity": ""
