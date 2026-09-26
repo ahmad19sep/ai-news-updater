@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 6. **AI agent hacks government website for first time: why this breach matters** — science angle
    https://www.nature.com/articles/d41586-026-03024-z
-7. **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Telegraphic Agency** — science angle
-   https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0RvTGFsUm5VVDBRaFVRNnY5S0JfTWd4U2tpNnJkZkJQQTJnaFFub3dBblpOWUZfQmJyODFXRkRXUU1KTWl1MW5RNVNHMm1scU1RZUtJRVYxeHluRmYwZnFLSGhuZTMwNEVXc3dTUlhucno3MlpWS3ZWWVpvTV9pS2Rfdy1aODJPbjBBZkZjQ3N0d0MyU18xWVJYd2hmMW94bWh2cGhIWGxSZUNQeTVWcWpZOXo3YWhvcHc?oc=5
-8. **Doctors Using ChatGPT With Patient Records Face HIPAA Privacy Rules - Law Commentary** — science angle
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxNQzdpTy0xMEEyOEZ1RzFuNGlNMjJqQ0VqUDRSWjNMOUNXSzB3Yzl6bnlnRHk4NEpSN29UWU9sem82U3EwLXczUkNQVzBzcGh2SHRxQ2o0akptajNrRVVqcVFsaVpjLWNCRTA1SzBKWnpqcEN2Smc3WENDWk5tczBvdXRwa3dNem5Ob21sNzhvOGxaRU10?oc=5
+7. **Some doctors can now use ChatGPT to search health records - WBUR** — science angle
+   https://news.google.com/rss/articles/CBMic0FVX3lxTFBUOU1KTGtXVnZxSWNrdnlnT1JnRUhwX1BzYWI0TWtfUmpWZFZhcEVXM3U0RXJSTlBJQzhRMTdwSXBWLUdEMFZ0RHZrbEtPaS1qUjQwMmhoTklHbkRCWHc3TlZjay1qbU9vVk9PQlJqaG5zNHM?oc=5
+8. **Doctors Stop Typing as AI Takes Over the Chart - PYMNTS.com** — science angle
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU9ZeWszMEZHSC02ODF4Rjlzdm42Z2lNR2VyMi1ralNXVXVobW90TXQ0OGZUeTloM1hUTTVXRFdIY0VkUjROc19iRkUwTm5vVUtjYzBOeVpmdnpGLXNzbDZGdmxKRTEyMlFmUGVBeUFsNHdJdVVnRFFnclpYZ050NFZISTc0VGVOQUdRZFNuMFUyeVROWmtEaUl3Y0RldEIxdndFRUlrQQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - click2houston.com** — Sam Altman News — Score 168
@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JDaGU5MEQxS
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNQl9oVWpjV0F3MTlha0QxYkJuNGJiamJ6NXQ0eFJlVFdWZFRTWTZveVAtTVg0b05CZ08wS0d5MjFjbW9TbUNCMTVRTzBFb21qV0pranNObzVkRG5mb24wajFDU2NSOUl4V25wQ2RKUEZFVmk3NlZJMXZzZEdFdE15QTBBSEZuR2hkTTlvRmxkNA?oc=5
 7. **Heads of AI firms tell UN Security Council that it could be a risk to all humanity - New Haven Register** — Sam Altman News — Score 80
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUdLUUZmbnZ3OWotZkluR1E5eXhkMkpkQTJab0NiLTJuckRZb0xzQnBTZE03VndoYURhS0VGSlBjWmJQS1NUMXhVel9hOUQyWGYxbGN0UmZhQzFwclpiUTVKcUw4VnZEUmVjT1R3SjFkcWpmTkpIdjk5dm5pQnpaSHVnSnpQNXozWlowaVhxTDdHRkRTdUQ0b3RLcTg1YjJGdWctVWxIaFN3QQ?oc=5
-8. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 76
-   https://www.pressdemocrat.com/2026/09/24/education-ai-job-market/
-9. **Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near - The Washington Post** — AI in Coding — Score 73
-   https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUR0NUpRdnBYTjgwa2tvOF90Z2RycEx5VEY2R2JaSnFMU19ONjJ4TzJkSHB1M1g3UGh2eGV6dW1HUlNMc3RqZ1loTjhFWnlIWEhmNnhHcTBWbXR2cHNPWGVfNFZrQ3E5Yk9CT3ZQcnAxb1ZlT1p4eXNHdDdJY3o2SHJ3b3Y4UXFhSjVYTzl3T0Y4TjVyM3F5ZHdWZWxBZkcxLVFBcThnaHYtWVI2cFc4QTJPRV9HNS1fLTh5ZDI4X0VwRkVwSFI4?oc=5
-10. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
+8. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQMHJWN0NoQUotUzVkZEVlMW9ydGhMYWh0QTgyVThkei1oWkdyX29leTQ5OXFydXlRekdlS2RObFh0bHpfUThpQlZ5T3hXcGM1X0t0UGppc25jdFJZTGtjY2RNTmNWX05tNjdVbzRyYi1DRFd3M2dJQWJwSEtBTU15VUJHbzdaUzV2a0Y1cnJiMFlpTWdDOXRoM0F6c1g0TXdBcE5KdGEwNHY3YjlQcFZhbVQ4aWdOVDjSAbwBQVVfeXFMUGZYcmY4bVhOTWZ3aGVraldacVJSVnhZdkhidUlKTGtmS05jS01VWlAtTUZtbm5SX3pOT3J0Y2xHa1RtUDN1VEZFQm1lNURNZmJwU3A3VnlWczNJQV82RXhOWWdnRWZYYjZYOUxYYWxHU0VoeXhlLVZhbGxGeWlwY1Y2dDM2VF9xX2hia2lybFJiTDR5NE9PMW9xQTVXUjNOeldWVUp6NHhwdXZwN3RGc2JUOENRcHZVVjJQRlA?oc=5
+9. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 73
+   https://www.pressdemocrat.com/2026/09/24/education-ai-job-market/
+10. **Perplexity AI sued by startup for allegedly stealing 'wake word' technology - reuters.com** — Perplexity News — Score 70
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRy1RVlJsY0c5TXRRZGdvTjBvdUN0NTh6RGFicnZnQTJNd1h0ZjEyQzJIWm1CdjlSVXp6eS1fb3BvVnZmS2pUM1o4eUFHN05iZ1hDc1pLZG9IYjlPZjNrRGRVUHRENVhjZlFPSjF0clE5b3NmU0MtTWxfaWxHeHU5UWtEaHJwUEpEZmUzQzdkS3g4SVBraVNKb3N5UV9hQktPQk5QbUY4bTliQ2k2V3JMMDM5VjNVZXgtLXZYNmNveUVCWEU?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Cancer leads AI physician queries across 9 countries - ttownmedia.com** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa1RzcTJ3d0wzMlZhMUx4RUtBc1BmbFh2dEdzdGRXZTdjQzFaS3E2ZGRxWC1reldFZkhsYzhQYnV3eGFQYk9rbF9xVHhsTDJyNnpWOHBmT3czMDJHRmNVWkk2Qmg3ak9PeG01WGNEc2taMWxTdzAyZ1B4T3ZoY3lwWnFQYjRUdmRtR1psLWZNakNXbnI1QUFVR2RFVnh0SmIzcmhZZl9KTjhndjFNWl9OSHJqVlhfekRLNGFIZXFKZG01YUJ3S0NrV1FLWjRPRHBVZHotM1RYN0d0SVpHekhOZA?oc=5
