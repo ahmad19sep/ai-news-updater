@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 19 Sep 2026 to 26 Sep 2026
+# 🗞️ AI THIS WEEK — 20 Sep 2026 to 27 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
 - **AI agent hacks government website for first time: why this breach matters** — https://www.nature.com/articles/d41586-026-03024-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3052
+- Total stories tracked: 2998
 - Most active topic: openai
 - Busiest category: AI General News
 
