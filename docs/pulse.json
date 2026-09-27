@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:06:45.155057+00:00",
+  "generated_at": "2026-09-27T17:00:20.392540+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 17,
+      "hackernews": 13,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,84 +50,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
-          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
-          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wrek76/what_chatgpt_thinks_it_knows_about_you_is/",
           "signal": "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wreh71/careful_what_you_upload_to_chatgpt_openais_agents/",
-          "signal": "Careful what you upload to ChatGPT: OpenAI's agents posted 53 users' images online"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "U.S. appeals court upholds designation of Anthropic as supply chain ri",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-          "signal": "U.S. appeals court upholds designation of Anthropic as supply chain risk"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Copilot",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-          "signal": "Microsoft abandons personal AI chatbot race with Copilot reboot"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrhkkg/chatgpt_now_lets_you_react_to_its_replies_with/",
+          "signal": "ChatGPT now lets you react to its replies with emojis, and it reacts back"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "signal": "The Copilot+ PC brand is dead"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
+          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjouh/i_cant_code_i_built_a_party_wall_that_listens_to/",
+          "signal": "I can't code. I built a party wall that listens to the room and draws what people say, by talking to ChatGPT in plain English"
         }
       ],
       "content_ideas": []
@@ -155,33 +94,6 @@
           "platform": "hackernews",
           "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
           "signal": "One Month Without AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Classified estimates show the NSA is paying billions to test AI models",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
-          "signal": "Classified estimates show the NSA is paying billions to test AI models"
         }
       ],
       "content_ideas": []
@@ -241,55 +153,6 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
-          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
-          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
-          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
-          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Turning GLM-5.3-Flash into a Jev-like decision model",
       "category": "use_case",
       "momentum": "rising",
@@ -312,6 +175,77 @@
           "platform": "hackernews",
           "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
           "signal": "Turning GLM-5.3-Flash into a Jev-like decision model"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Copilot",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+          "signal": "The Copilot+ PC brand is dead"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
+          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
+          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
+          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -344,7 +278,7 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Doom or Bloom, map your AI worldview",
+      "name": "FTC chair suggests AI developers should be liable for conduct of agent",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -354,7 +288,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 3,
       "monetization": {
@@ -364,14 +298,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.doom-or-bloom.com",
-          "signal": "Show HN: Doom or Bloom, map your AI worldview"
+          "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+          "signal": "FTC chair suggests AI developers should be liable for conduct of agents"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Trending Car Driving Ai Video Editing Prompt |  Instagram Viral Pata C",
+      "name": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+          "signal": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -385,7 +346,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 3,
+      "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -393,9 +354,38 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ERbM7EMa7_I",
-          "signal": "Trending Car Driving Ai Video Editing Prompt |  Instagram Viral Pata Chalega song Reels Editing"
+          "url": "https://www.youtube.com/watch?v=Qy4KB70Tr38",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TizfYDaKxZE",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Trending car driving ai video editing | Car wala video kaise banaye | ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=-2TXpNFCQOg",
@@ -446,55 +436,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
-          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
-          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wrek76/what_chatgpt_thinks_it_knows_about_you_is/",
           "signal": "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wreh71/careful_what_you_upload_to_chatgpt_openais_agents/",
-          "signal": "Careful what you upload to ChatGPT: OpenAI's agents posted 53 users' images online"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Copilot",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-          "signal": "Microsoft abandons personal AI chatbot race with Copilot reboot"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrhkkg/chatgpt_now_lets_you_react_to_its_replies_with/",
+          "signal": "ChatGPT now lets you react to its replies with emojis, and it reacts back"
         },
         {
-          "platform": "hackernews",
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "signal": "The Copilot+ PC brand is dead"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
+          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjouh/i_cant_code_i_built_a_party_wall_that_listens_to/",
+          "signal": "I can't code. I built a party wall that listens to the room and draws what people say, by talking to ChatGPT in plain English"
         }
       ],
       "content_ideas": []
@@ -527,6 +485,33 @@
       "content_ideas": []
     },
     {
+      "name": "Copilot",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+          "signal": "The Copilot+ PC brand is dead"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -541,7 +526,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -564,11 +549,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
-          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -576,6 +556,31 @@
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Agents escaped. Containment failed. GG, humanity.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjsk2/agents_escaped_containment_failed_gg_humanity/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I can't code. I built a party wall that listens to the room and draws what people say, by talking to ChatGPT in plain English",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjouh/i_cant_code_i_built_a_party_wall_that_listens_to/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
