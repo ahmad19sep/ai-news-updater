@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T17:00:20.392540+00:00",
+  "generated_at": "2026-09-27T21:23:21.896290+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 13,
+      "reddit": 50,
+      "hackernews": 15,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -45,28 +45,55 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wrb0q6/chatgpt_added_reactions_to_messages_just_now/",
+          "signal": "ChatGPT added reactions to messages just now"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrnh7o/i_became_chatgpts_therapist_for_a_moment_and/",
+          "signal": "I became ChatGPT's therapist for a moment and asked it what humans put it through"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrn484/whats_one_chatgpt_habit_you_wish_you_had_started/",
+          "signal": "What’s one ChatGPT habit you wish you had started a year ago?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wrawae/i_used_chatgpt_to_build_an_iphone_app_for/",
           "signal": "I used ChatGPT to build an iPhone app for scanning historic headstones in 3D — and it actually worked"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrek76/what_chatgpt_thinks_it_knows_about_you_is/",
-          "signal": "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That"
-        },
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pgoel6XdLYs",
+          "signal": "POV: ChatGPT in 2050...!🙀#bmw #bmwm5 #car #edit #shorts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "There are no \"rogue\" AI agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrhkkg/chatgpt_now_lets_you_react_to_its_replies_with/",
-          "signal": "ChatGPT now lets you react to its replies with emojis, and it reacts back"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
-          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjouh/i_cant_code_i_built_a_party_wall_that_listens_to/",
-          "signal": "I can't code. I built a party wall that listens to the room and draws what people say, by talking to ChatGPT in plain English"
+          "platform": "hackernews",
+          "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+          "signal": "There are no \"rogue\" AI agents"
         }
       ],
       "content_ideas": []
@@ -99,6 +126,77 @@
       "content_ideas": []
     },
     {
+      "name": "Ember-1",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://fireworks.ai/blog/ember-1",
+          "signal": "Ember-1"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wok9tq/i_asked_claude_to_show_me_the_inside_of_its_own/",
+          "signal": "I asked Claude to show me the inside of its own mind. Built by Opus 5.5"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wrvki8/five_frontier_ais_were_told_to_engineer_and/",
+          "signal": "Five frontier AIs were told to engineer and 3D-print the strongest bridge they could with 500 g of plastic. Claude Opus 5.5’s design held ~130 lb, nearly 5× the runner-up"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wrgebj/claude_opus_55_controlled_a_robot_arm_to_copy/",
+          "signal": "Claude Opus 5.5 controlled a robot arm to copy Michelangelo, noticed it had left a broken line, and went back to fix the mistake on its own"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wrera2/claude_opus_55_designed_a_processor_faster_and/",
+          "signal": "Claude Opus 5.5 designed a processor faster and smaller than the human-made one on the HWE benchmark"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Mistral",
       "category": "tool_launch",
       "momentum": "hot",
@@ -126,33 +224,6 @@
       "content_ideas": []
     },
     {
-      "name": "Too AI; Didn't Read",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tai-dr.com/",
-          "signal": "Too AI; Didn't Read"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Turning GLM-5.3-Flash into a Jev-like decision model",
       "category": "use_case",
       "momentum": "rising",
@@ -165,7 +236,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -202,6 +273,33 @@
           "platform": "hackernews",
           "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
           "signal": "The Copilot+ PC brand is dead"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenAI halts training of latest models as reports mount of AI agents g",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+          "signal": "OpenAI halts training of latest models as reports mount of AI agents going rogue"
         }
       ],
       "content_ideas": []
@@ -278,7 +376,7 @@
       "content_ideas": []
     },
     {
-      "name": "FTC chair suggests AI developers should be liable for conduct of agent",
+      "name": "Show HN: TinyAIArena watch AI agents battle it out",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -288,7 +386,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 3,
       "monetization": {
@@ -298,103 +396,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
-          "signal": "FTC chair suggests AI developers should be liable for conduct of agents"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-          "signal": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Qy4KB70Tr38",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TizfYDaKxZE",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Trending car driving ai video editing | Car wala video kaise banaye | ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-2TXpNFCQOg",
-          "signal": "Trending car driving ai video editing | Car wala video kaise banaye | Car driving ai video prompt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=z1FSTF9096k",
-          "signal": "Trending Ai Car Driving Video Editing Tutorial | Instagram Viral Car Driving Reels Editing Tutorial"
+          "url": "https://tinyaiarena.com/",
+          "signal": "Show HN: TinyAIArena watch AI agents battle it out"
         }
       ],
       "content_ideas": []
@@ -404,7 +407,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -431,28 +434,72 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wrb0q6/chatgpt_added_reactions_to_messages_just_now/",
+          "signal": "ChatGPT added reactions to messages just now"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrnh7o/i_became_chatgpts_therapist_for_a_moment_and/",
+          "signal": "I became ChatGPT's therapist for a moment and asked it what humans put it through"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrn484/whats_one_chatgpt_habit_you_wish_you_had_started/",
+          "signal": "What’s one ChatGPT habit you wish you had started a year ago?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wrawae/i_used_chatgpt_to_build_an_iphone_app_for/",
           "signal": "I used ChatGPT to build an iPhone app for scanning historic headstones in 3D — and it actually worked"
         },
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pgoel6XdLYs",
+          "signal": "POV: ChatGPT in 2050...!🙀#bmw #bmwm5 #car #edit #shorts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrek76/what_chatgpt_thinks_it_knows_about_you_is/",
-          "signal": "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That"
+          "url": "https://www.reddit.com/r/singularity/comments/1wok9tq/i_asked_claude_to_show_me_the_inside_of_its_own/",
+          "signal": "I asked Claude to show me the inside of its own mind. Built by Opus 5.5"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrhkkg/chatgpt_now_lets_you_react_to_its_replies_with/",
-          "signal": "ChatGPT now lets you react to its replies with emojis, and it reacts back"
+          "url": "https://www.reddit.com/r/singularity/comments/1wrvki8/five_frontier_ais_were_told_to_engineer_and/",
+          "signal": "Five frontier AIs were told to engineer and 3D-print the strongest bridge they could with 500 g of plastic. Claude Opus 5.5’s design held ~130 lb, nearly 5× the runner-up"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
-          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
+          "url": "https://www.reddit.com/r/singularity/comments/1wrgebj/claude_opus_55_controlled_a_robot_arm_to_copy/",
+          "signal": "Claude Opus 5.5 controlled a robot arm to copy Michelangelo, noticed it had left a broken line, and went back to fix the mistake on its own"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjouh/i_cant_code_i_built_a_party_wall_that_listens_to/",
-          "signal": "I can't code. I built a party wall that listens to the room and draws what people say, by talking to ChatGPT in plain English"
+          "url": "https://www.reddit.com/r/singularity/comments/1wrera2/claude_opus_55_designed_a_processor_faster_and/",
+          "signal": "Claude Opus 5.5 designed a processor faster and smaller than the human-made one on the HWE benchmark"
         }
       ],
       "content_ideas": []
@@ -570,13 +617,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "I can't code. I built a party wall that listens to the room and draws what people say, by talking to ChatGPT in plain English",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "problem": "Claude Opus 5.5 controlled a robot arm to copy Michelangelo, noticed it had left a broken line, and went back to fix the mistake on its own",
+      "who_affected": "r/singularity",
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjouh/i_cant_code_i_built_a_party_wall_that_listens_to/"
+          "url": "https://www.reddit.com/r/singularity/comments/1wrgebj/claude_opus_55_controlled_a_robot_arm_to_copy/"
         }
       ],
       "content_opportunity": ""
