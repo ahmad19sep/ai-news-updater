@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
    https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 7. **‘AI can’t replace your doctor,’ expert warns amid rise in chatbot health advice - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQczZIeW9KbGFmZkdhb3BCLWRQU19JVWRCQ21xeHVrUEItUmhuNll5Q3F1RnhqTnlnUmxCallCM21qamlZYnJPVzRjVE5LWjBzNzB3ZzY4T0tUMGNDX1lOQmxLdEcwa2FUODdnV19iSUlGQUE4Z2Y1MXRCZmFOUHFDMdIBhgFBVV95cUxQV0YtcGFmRzJscVJWcDlfNG9KVHM5MGxDdjdPLWZRRUJQSEZJVS1oc3RkY2Jsc3FQM0RsVkhCWmg2UVdYNV9lOTAtcldaanVjRHBMVzRZTlVnUExKNXU2MVo3VE1xN3BKWkNRTkNvSll0SWFSclJhZ2U5d1p0eXpYekcxbTdlZw?oc=5
-8. **Is There a Doctor in the House? AI Medical Advice Is a Nightmare for Parents - Newsweek** — science angle
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxQbEVZd0ZMVXFua3hESVhaNWIyNG1Dak15cDQ3NlJta1h6MjZBd2JSalNjc1BuUzhKT09MYXh6STRqLUctcFFmUmZuRjFWbmdtUklfeFkwLXNuZl9YcXFfa1lXeXlhaFVwT3FvWHpNYnBzUDFIMUpXT2RrZUtockxsRDl3?oc=5
+8. **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — science angle
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxPTG9xLVhKdmV1YUVyd09IWmRzZTJaLUxvYzFQb1Zadi1HRUM5T3BjdnVLSlJsVXJQLUFKSThuMkdXaGt3c2M5T0F2ZklZanV1UWRNLWx6RkQ5UHdWYk45czlDT3VWcFpnWkNGLURGb05GTFhqcERwdVR6cG9uNnI2TWtYNUNUcVdxaDJab1cwaC1vZWgzaHZlcUtkOFpGc1hBUGRIeTRvTXdSX1lGZlE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9** — AI in Coding — Score 113
@@ -43,7 +43,7 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
    https://www.pressdemocrat.com/2026/09/24/education-ai-job-market/
 9. **Perplexity AI sued by startup for allegedly stealing 'wake word' technology - reuters.com** — Perplexity News — Score 67
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRy1RVlJsY0c5TXRRZGdvTjBvdUN0NTh6RGFicnZnQTJNd1h0ZjEyQzJIWm1CdjlSVXp6eS1fb3BvVnZmS2pUM1o4eUFHN05iZ1hDc1pLZG9IYjlPZjNrRGRVUHRENVhjZlFPSjF0clE5b3NmU0MtTWxfaWxHeHU5UWtEaHJwUEpEZmUzQzdkS3g4SVBraVNKb3N5UV9hQktPQk5QbUY4bTliQ2k2V3JMMDM5VjNVZXgtLXZYNmNveUVCWEU?oc=5
-10. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 66
+10. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 63
    https://www.bluemountainsgazette.com.au/story/9354884/sure-ai-can-generate-songs-but-it-cant-win-over-a-rowdy-crowd/?src=rss
 
 ## 🧪 AI in Science Highlights
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
 - **AI bots are flooding researchers with requests for money and time** — https://www.nature.com/articles/d41586-026-03005-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2974
+- Total stories tracked: 3000
 - Most active topic: openai
 - Busiest category: AI General News
 
