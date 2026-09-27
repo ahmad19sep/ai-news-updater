@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T21:12:54.877013+00:00",
+  "generated_at": "2026-09-27T05:21:57.314615+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -45,13 +45,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
-          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
+          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
-          "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
+          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
+          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
         },
         {
           "platform": "reddit",
@@ -60,13 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqje3n/i_think_chatgpt_has_learned_a_new_ability_to_do/",
-          "signal": "I think ChatGPT has learned a new ability to do this:"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1kxl/windows_chatgpt_app_gets_progressively/",
-          "signal": "Windows ChatGPT app gets progressively blurry/fuzzy? I found a GPU-compositing workaround"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
+          "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
         }
       ],
       "content_ideas": []
@@ -103,7 +103,7 @@
     {
       "name": "Copilot",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -145,7 +145,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -155,33 +155,6 @@
           "platform": "hackernews",
           "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
           "signal": "One Month Without AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Koi.rest – watch some fish and regain your balance",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://koi.rest",
-          "signal": "Show HN: Koi.rest – watch some fish and regain your balance"
         }
       ],
       "content_ideas": []
@@ -216,7 +189,7 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -282,7 +255,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -302,11 +275,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
           "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=SoA0dByFxX8",
-          "signal": "Trending CAR Driving Ai Video Editing Tutorial | Instagram Viral Car Driving Reels Editing - Gemini"
         },
         {
           "platform": "youtube",
@@ -396,13 +364,96 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Show HN: Doom or Bloom, map your AI worldview",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.doom-or-bloom.com",
+          "signal": "Show HN: Doom or Bloom, map your AI worldview"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
+          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
+          "signal": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
+          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqraze/porcelain_figurines_in_chatgpt/",
+          "signal": "Porcelain figurines in ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
+          "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Copilot",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -434,7 +485,7 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -459,62 +510,6 @@
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
-          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
-          "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqraze/porcelain_figurines_in_chatgpt/",
-          "signal": "Porcelain figurines in ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqje3n/i_think_chatgpt_has_learned_a_new_ability_to_do/",
-          "signal": "I think ChatGPT has learned a new ability to do this:"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1kxl/windows_chatgpt_app_gets_progressively/",
-          "signal": "Windows ChatGPT app gets progressively blurry/fuzzy? I found a GPU-compositing workaround"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -529,7 +524,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -552,11 +547,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=SoA0dByFxX8",
-          "signal": "Trending CAR Driving Ai Video Editing Tutorial | Instagram Viral Car Driving Reels Editing - Gemini"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -568,11 +558,35 @@
     {
       "problem": "Houston we have a problem: Opus 5.5",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wqd0gg/houston_we_have_a_problem_opus_55/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "ChatGPT UI Bug",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr77q7/chatgpt_ui_bug/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Plus usage limit disappearing insanely fast?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr5qz9/plus_usage_limit_disappearing_insanely_fast/"
         }
       ],
       "content_opportunity": ""
