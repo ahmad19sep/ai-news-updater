@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
    https://www.nature.com/articles/d41586-026-03024-z
 6. **AI bots are flooding researchers with requests for money and time** — science angle
    https://www.nature.com/articles/d41586-026-03005-2
-7. **Some doctors can now use ChatGPT to search health records - WBUR** — science angle
-   https://news.google.com/rss/articles/CBMic0FVX3lxTFBUOU1KTGtXVnZxSWNrdnlnT1JnRUhwX1BzYWI0TWtfUmpWZFZhcEVXM3U0RXJSTlBJQzhRMTdwSXBWLUdEMFZ0RHZrbEtPaS1qUjQwMmhoTklHbkRCWHc3TlZjay1qbU9vVk9PQlJqaG5zNHM?oc=5
-8. **Doctors Stop Typing as AI Takes Over the Chart - PYMNTS.com** — science angle
+7. **Doctors Stop Typing as AI Takes Over the Chart - PYMNTS.com** — science angle
    https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU9ZeWszMEZHSC02ODF4Rjlzdm42Z2lNR2VyMi1ralNXVXVobW90TXQ0OGZUeTloM1hUTTVXRFdIY0VkUjROc19iRkUwTm5vVUtjYzBOeVpmdnpGLXNzbDZGdmxKRTEyMlFmUGVBeUFsNHdJdVVnRFFnclpYZ050NFZISTc0VGVOQUdRZFNuMFUyeVROWmtEaUl3Y0RldEIxdndFRUlrQQ?oc=5
+8. **‘AI can’t replace your doctor,’ expert warns amid rise in chatbot health advice - NewsNation** — science angle
+   https://news.google.com/rss/articles/CBMigAFBVV95cUxQczZIeW9KbGFmZkdhb3BCLWRQU19JVWRCQ21xeHVrUEItUmhuNll5Q3F1RnhqTnlnUmxCallCM21qamlZYnJPVzRjVE5LWjBzNzB3ZzY4T0tUMGNDX1lOQmxLdEcwa2FUODdnV19iSUlGQUE4Z2Y1MXRCZmFOUHFDMdIBhgFBVV95cUxQV0YtcGFmRzJscVJWcDlfNG9KVHM5MGxDdjdPLWZRRUJQSEZJVS1oc3RkY2Jsc3FQM0RsVkhCWmg2UVdYNV9lOTAtcldaanVjRHBMVzRZTlVnUExKNXU2MVo3VE1xN3BKWkNRTkNvSll0SWFSclJhZ2U5d1p0eXpYekcxbTdlZw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9** — AI in Coding — Score 113
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
 - **AI agent hacks government website for first time: why this breach matters** — https://www.nature.com/articles/d41586-026-03024-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2998
+- Total stories tracked: 3018
 - Most active topic: openai
 - Busiest category: AI General News
 
