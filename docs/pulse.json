@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T05:21:57.314615+00:00",
+  "generated_at": "2026-09-27T12:06:45.155057+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 18,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,8 +45,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
-          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrawae/i_used_chatgpt_to_build_an_iphone_app_for/",
+          "signal": "I used ChatGPT to build an iPhone app for scanning historic headstones in 3D — and it actually worked"
         },
         {
           "platform": "reddit",
@@ -55,18 +55,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
-          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
+          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqraze/porcelain_figurines_in_chatgpt/",
-          "signal": "Porcelain figurines in ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrek76/what_chatgpt_thinks_it_knows_about_you_is/",
+          "signal": "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
-          "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wreh71/careful_what_you_upload_to_chatgpt_openais_agents/",
+          "signal": "Careful what you upload to ChatGPT: OpenAI's agents posted 53 users' images online"
         }
       ],
       "content_ideas": []
@@ -255,7 +255,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -278,8 +278,40 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
+          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "signal": "Turning GLM-5.3-Flash into a Jev-like decision model"
         }
       ],
       "content_ideas": []
@@ -312,60 +344,6 @@
       "content_ideas": []
     },
     {
-      "name": "Uproar in France over award-winning author accused of using AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/ck7v4y45893go",
-          "signal": "Uproar in France over award-winning author accused of using AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "An airport cooled by natural ventilation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/environment/2026/sep/25/didnt-need-air-conditioning-airport-cooled-natural-ventilation-reunion",
-          "signal": "An airport cooled by natural ventilation"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: Doom or Bloom, map your AI worldview",
       "category": "use_case",
       "momentum": "rising",
@@ -388,6 +366,45 @@
           "platform": "hackernews",
           "url": "https://www.doom-or-bloom.com",
           "signal": "Show HN: Doom or Bloom, map your AI worldview"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Trending Car Driving Ai Video Editing Prompt |  Instagram Viral Pata C",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ERbM7EMa7_I",
+          "signal": "Trending Car Driving Ai Video Editing Prompt |  Instagram Viral Pata Chalega song Reels Editing"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-2TXpNFCQOg",
+          "signal": "Trending car driving ai video editing | Car wala video kaise banaye | Car driving ai video prompt"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z1FSTF9096k",
+          "signal": "Trending Ai Car Driving Video Editing Tutorial | Instagram Viral Car Driving Reels Editing Tutorial"
         }
       ],
       "content_ideas": []
@@ -424,8 +441,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
-          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrawae/i_used_chatgpt_to_build_an_iphone_app_for/",
+          "signal": "I used ChatGPT to build an iPhone app for scanning historic headstones in 3D — and it actually worked"
         },
         {
           "platform": "reddit",
@@ -434,18 +451,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqu9nv/tried_to_create_a_90s_anime_scene_with_chatgpt/",
-          "signal": "Tried to create a 90s anime scene with ChatGPT using my OCs."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr1lt1/with_chatgpt_being_so_optimistic_has_it_made/",
+          "signal": "With Chatgpt being so Optimistic, has it made people create dead-end businesses?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqraze/porcelain_figurines_in_chatgpt/",
-          "signal": "Porcelain figurines in ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrek76/what_chatgpt_thinks_it_knows_about_you_is/",
+          "signal": "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/",
-          "signal": "What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wreh71/careful_what_you_upload_to_chatgpt_openais_agents/",
+          "signal": "Careful what you upload to ChatGPT: OpenAI's agents posted 53 users' images online"
         }
       ],
       "content_ideas": []
@@ -524,7 +541,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -547,6 +564,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
+          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -554,43 +576,6 @@
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Houston we have a problem: Opus 5.5",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wqd0gg/houston_we_have_a_problem_opus_55/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT UI Bug",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr77q7/chatgpt_ui_bug/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Plus usage limit disappearing insanely fast?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wr5qz9/plus_usage_limit_disappearing_insanely_fast/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
