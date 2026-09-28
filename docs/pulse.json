@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:00:56.050064+00:00",
+  "generated_at": "2026-09-28T23:18:43.591285+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 15,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws7dfs/chatgpt_voice_kept_waking_me_up_while_my_blood/",
-          "signal": "ChatGPT voice kept waking me up while my blood sugar was plummeting"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wsd6ou/doctors_if_i_went_to_them_every_time_chatgpt/",
           "signal": "Doctors if I went to them every time ChatGPT recommends going to the doctor just in case"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws7dfs/chatgpt_voice_kept_waking_me_up_while_my_blood/",
+          "signal": "ChatGPT voice kept waking me up while my blood sugar was plummeting"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsly3a/many_of_us_still_dont_know_how_capable_chatgpt_is/",
+          "signal": "Many of us still don’t know how capable ChatGPT is. Share your best stories"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
+          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wsd1fj/chatgpt_keeps_trying_to_make_me_eat_cabbage/",
           "signal": "ChatGPT keeps trying to make me eat cabbage"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws1v6v/next_time_when_youre_on_chatgpt_ask_it_this/",
-          "signal": "Next time when you’re on ChatGPT, ask it this question:"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsbj98/the_chatgpt_appweb_experience/",
-          "signal": "The ChatGPT app/web experience"
         }
       ],
       "content_ideas": []
@@ -98,6 +98,33 @@
       "content_ideas": []
     },
     {
+      "name": "AI companies in race to demonstrate their model most threatening to hu",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+          "signal": "AI companies in race to demonstrate their model most threatening to humanity"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "There are no \"rogue\" AI agents",
       "category": "use_case",
       "momentum": "rising",
@@ -125,7 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI companies in race to demonstrate their model most threatening to hu",
+      "name": "The problem is not AI code, but not knowing about system architecture ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -145,8 +172,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
-          "signal": "AI companies in race to demonstrate their model most threatening to humanity"
+          "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+          "signal": "The problem is not AI code, but not knowing about system architecture or intent"
         }
       ],
       "content_ideas": []
@@ -179,33 +206,6 @@
       "content_ideas": []
     },
     {
-      "name": "Turning GLM-5.3-Flash into a Jev-like decision model",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-          "signal": "Turning GLM-5.3-Flash into a Jev-like decision model"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Thinking fast and slow in AI: The role of metacognition (2021)",
       "category": "use_case",
       "momentum": "rising",
@@ -218,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -233,7 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "OpenAI halts training of latest models as reports mount of AI agents g",
+      "name": "It's Time to Investigate the AI Labs",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -245,7 +245,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -253,14 +253,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-          "signal": "OpenAI halts training of latest models as reports mount of AI agents going rogue"
+          "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+          "signal": "It's Time to Investigate the AI Labs"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Show HN: TinyAIArena watch AI agents battle it out",
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+          "signal": "Nvidia wants to put a watchdog chip next to every AI agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenAI still doesn't seem to have a handle on all of its rogue AI acti",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -270,9 +297,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -280,20 +307,20 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://tinyaiarena.com/",
-          "signal": "Show HN: TinyAIArena watch AI agents battle it out"
+          "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+          "signal": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "Show HN: HN.watch – Videos of all Hacker News posts",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -301,32 +328,22 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 3,
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
-          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
-          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://hn.watch/",
+          "signal": "Show HN: HN.watch – Videos of all Hacker News posts"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Imp is a full port of DSPy to the BEAM",
+      "name": "World Labs Is Joining AMD",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -338,7 +355,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -346,35 +363,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/deepfates/imp",
-          "signal": "Imp is a full port of DSPy to the BEAM"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://earnanhonestdollar.com/bench",
-          "signal": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%"
+          "url": "https://www.worldlabs.ai/blog/amd-announcement",
+          "signal": "World Labs Is Joining AMD"
         }
       ],
       "content_ideas": []
@@ -382,9 +372,36 @@
   ],
   "rising_tools": [
     {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+          "signal": "Nvidia wants to put a watchdog chip next to every AI agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -410,67 +427,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws7dfs/chatgpt_voice_kept_waking_me_up_while_my_blood/",
-          "signal": "ChatGPT voice kept waking me up while my blood sugar was plummeting"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wsd6ou/doctors_if_i_went_to_them_every_time_chatgpt/",
           "signal": "Doctors if I went to them every time ChatGPT recommends going to the doctor just in case"
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws7dfs/chatgpt_voice_kept_waking_me_up_while_my_blood/",
+          "signal": "ChatGPT voice kept waking me up while my blood sugar was plummeting"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsly3a/many_of_us_still_dont_know_how_capable_chatgpt_is/",
+          "signal": "Many of us still don’t know how capable ChatGPT is. Share your best stories"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
+          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wsd1fj/chatgpt_keeps_trying_to_make_me_eat_cabbage/",
           "signal": "ChatGPT keeps trying to make me eat cabbage"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws1v6v/next_time_when_youre_on_chatgpt_ask_it_this/",
-          "signal": "Next time when you’re on ChatGPT, ask it this question:"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsbj98/the_chatgpt_appweb_experience/",
-          "signal": "The ChatGPT app/web experience"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
-          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
-          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -478,25 +456,37 @@
   ],
   "pain_points": [
     {
-      "problem": "Agents escaped. Containment failed. GG, humanity.",
+      "problem": "We solved the water issue... just plug and play bruh",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjsk2/agents_escaped_containment_failed_gg_humanity/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsf9qh/we_solved_the_water_issue_just_plug_and_play_bruh/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "We solved the water issue... just plug and play bruh",
+      "problem": "OpenAI removed the ability to view previous prompt edits",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsf9qh/we_solved_the_water_issue_just_plug_and_play_bruh/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wso9ty/openai_removed_the_ability_to_view_previous/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Chat-length limits are significantly shorter now, and responses getting deleted",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsohri/chatlength_limits_are_significantly_shorter_now/"
         }
       ],
       "content_opportunity": ""
