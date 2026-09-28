@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 20 Sep 2026 to 27 Sep 2026
+# 🗞️ AI THIS WEEK — 21 Sep 2026 to 28 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9**
@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
    https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 7. **‘AI can’t replace your doctor,’ expert warns amid rise in chatbot health advice - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQczZIeW9KbGFmZkdhb3BCLWRQU19JVWRCQ21xeHVrUEItUmhuNll5Q3F1RnhqTnlnUmxCallCM21qamlZYnJPVzRjVE5LWjBzNzB3ZzY4T0tUMGNDX1lOQmxLdEcwa2FUODdnV19iSUlGQUE4Z2Y1MXRCZmFOUHFDMdIBhgFBVV95cUxQV0YtcGFmRzJscVJWcDlfNG9KVHM5MGxDdjdPLWZRRUJQSEZJVS1oc3RkY2Jsc3FQM0RsVkhCWmg2UVdYNV9lOTAtcldaanVjRHBMVzRZTlVnUExKNXU2MVo3VE1xN3BKWkNRTkNvSll0SWFSclJhZ2U5d1p0eXpYekcxbTdlZw?oc=5
-8. **Italian Doctors May Be Prosecuted for Refusing to Assist Suicide - mindmatters.ai** — science angle
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxPTG9xLVhKdmV1YUVyd09IWmRzZTJaLUxvYzFQb1Zadi1HRUM5T3BjdnVLSlJsVXJQLUFKSThuMkdXaGt3c2M5T0F2ZklZanV1UWRNLWx6RkQ5UHdWYk45czlDT3VWcFpnWkNGLURGb05GTFhqcERwdVR6cG9uNnI2TWtYNUNUcVdxaDJab1cwaC1vZWgzaHZlcUtkOFpGc1hBUGRIeTRvTXdSX1lGZlE?oc=5
+8. **What doctors need to know about AI psychosis - InSight+** — science angle
+   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMXNDU0p0dW5GVWNMNUlUR0tPQlJUd0IyNnMxOGluM3RIMlZGTHFGdzhQdGVwTDllRGFadUFZbk42SzYwU3gwLUVURUhsekFuUDA2YnRUTGo0bkhLbThiam54MU4zRkMtUTIydFRwT00xY0g5dTFDaEVSWDNLbmN3bGc5d19FUUlpZWhR?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **President Trump pledges to create 'AI Force' and appoint a czar for national oversight - WUSA9** — AI in Coding — Score 113
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXdPVGFudmxvR
 - **AI bots are flooding researchers with requests for money and time** — https://www.nature.com/articles/d41586-026-03005-2
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3000
+- Total stories tracked: 2981
 - Most active topic: openai
 - Busiest category: AI General News
 
