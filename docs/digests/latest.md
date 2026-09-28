@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Stanford R&DE Uses AI to Race Swap Students for Advertising** — 81 upvotes on Reddit/HN
    https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/
-2. **AI co-scientists are revolutionizing how research is done** — science angle
-   https://www.nature.com/articles/d41586-026-02931-5
-3. **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — science angle
+2. **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — science angle
    https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
-4. **AI agent hacks government website for first time: why this breach matters** — science angle
+3. **AI agent hacks government website for first time: why this breach matters** — science angle
    https://www.nature.com/articles/d41586-026-03024-z
-5. **AI bots are flooding researchers with requests for money and time** — science angle
+4. **AI bots are flooding researchers with requests for money and time** — science angle
    https://www.nature.com/articles/d41586-026-03005-2
-6. **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — science angle
+5. **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — science angle
    https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
-7. **‘AI can’t replace your doctor,’ expert warns amid rise in chatbot health advice - NewsNation** — science angle
+6. **‘AI can’t replace your doctor,’ expert warns amid rise in chatbot health advice - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQczZIeW9KbGFmZkdhb3BCLWRQU19JVWRCQ21xeHVrUEItUmhuNll5Q3F1RnhqTnlnUmxCallCM21qamlZYnJPVzRjVE5LWjBzNzB3ZzY4T0tUMGNDX1lOQmxLdEcwa2FUODdnV19iSUlGQUE4Z2Y1MXRCZmFOUHFDMdIBhgFBVV95cUxQV0YtcGFmRzJscVJWcDlfNG9KVHM5MGxDdjdPLWZRRUJQSEZJVS1oc3RkY2Jsc3FQM0RsVkhCWmg2UVdYNV9lOTAtcldaanVjRHBMVzRZTlVnUExKNXU2MVo3VE1xN3BKWkNRTkNvSll0SWFSclJhZ2U5d1p0eXpYekcxbTdlZw?oc=5
-8. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
+7. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
    https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
+8. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL** — Dario Amodei News — Score 113
@@ -43,18 +43,18 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRy1RVlJsY0c5TXRRZGdvTjBvdUN0NTh6RGFicnZnQTJNd1h0ZjEyQzJIWm1CdjlSVXp6eS1fb3BvVnZmS2pUM1o4eUFHN05iZ1hDc1pLZG9IYjlPZjNrRGRVUHRENVhjZlFPSjF0clE5b3NmU0MtTWxfaWxHeHU5UWtEaHJwUEpEZmUzQzdkS3g4SVBraVNKb3N5UV9hQktPQk5QbUY4bTliQ2k2V3JMMDM5VjNVZXgtLXZYNmNveUVCWEU?oc=5
 9. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 63
    https://www.bluemountainsgazette.com.au/story/9354884/sure-ai-can-generate-songs-but-it-cant-win-over-a-rowdy-crowd/?src=rss
-10. **Elon Musk predicts AI could double US GDP growth to 4% - Tulsa World** — Elon Musk AI News — Score 60
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ2tOcXJDT2p1d2ZtS3A3N2hCMHZNUFh1ZmJzZzBiYzVod0dmU21vdk0yNThBS1VmdE1iS0FKN2hHWTZZdVplNmZqVnQ3OUpFajYwT0RtSmNQWUZKOXRIUFQtUXprTEhPRzhncFFUejN3UF9LM1NTQTRQMERNcGs4cDhtQk1kaW43dnJkSjM4Ml9XVWs5MnhZMVZtYTc?oc=5
+10. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - WKBN.com** — Sam Altman News — Score 58
+   https://news.google.com/rss/articles/CBMizAFBVV95cUxNVmxmWjFNTVVJTXNpdVBkcXVUeHJ3RkJQVW9YQm42Nl9hblBvVVNvaEM3b3Z2VGVpRDBuTlBHV0xpaGdyNVhPbVR5NDljMkNFSU00TWhwWE83V3RhNml2R0JJaEhEdm5QOU96LUg4a20tN2VjcGx1TzRIdTNIZEFyWkJ3cWRtaF9ITUg0ZFFrclZMVHdNODNwYTVKM2pDVWhSTEM4TUhITWhiVnRuMnVxLXBPckcxOTZfdk9DZGFzYVFmN0tadDFkc05waUvSAdIBQVVfeXFMTURtZk0zb0ZGaDEyMUZqOWthdDVjVEtPb1RvMThmYlcycFdUN3NkWU9SNjF0cGhqT0pldjdhNDlqYVhpM1lkWVZvQmVVS2x0c09xS0pFRlYzNzZJLW55Z2xHVWFiQ1Ric1h2dkRmOTVqQWRrUHBBSDYwOGsxX2VvM2JoTFlyb3ZickhlbVhxcE1tZDJPa0RpSXpoVXRha21fTEd0V0RyV1J5eWFXUzFOSWt2X1ZwWWc4ZGlTTHVpOXF1WGFrRzRnSHRqMWdJYmlUdjB3?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Cancer leads AI physician queries across 9 countries - ttownmedia.com** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa1RzcTJ3d0wzMlZhMUx4RUtBc1BmbFh2dEdzdGRXZTdjQzFaS3E2ZGRxWC1reldFZkhsYzhQYnV3eGFQYk9rbF9xVHhsTDJyNnpWOHBmT3czMDJHRmNVWkk2Qmg3ak9PeG01WGNEc2taMWxTdzAyZ1B4T3ZoY3lwWnFQYjRUdmRtR1psLWZNakNXbnI1QUFVR2RFVnh0SmIzcmhZZl9KTjhndjFNWl9OSHJqVlhfekRLNGFIZXFKZG01YUJ3S0NrV1FLWjRPRHBVZHotM1RYN0d0SVpHekhOZA?oc=5
-- **AI co-scientists are revolutionizing how research is done** — https://www.nature.com/articles/d41586-026-02931-5
 - **Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research** — https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922
 - **AI agent hacks government website for first time: why this breach matters** — https://www.nature.com/articles/d41586-026-03024-z
 - **AI bots are flooding researchers with requests for money and time** — https://www.nature.com/articles/d41586-026-03005-2
+- **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2948
+- Total stories tracked: 2980
 - Most active topic: openai
 - Busiest category: AI General News
 
