@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:23:21.896290+00:00",
+  "generated_at": "2026-09-28T05:28:04.206667+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 50,
-      "hackernews": 15,
+      "hackernews": 16,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,28 +44,55 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1wrb0q6/chatgpt_added_reactions_to_messages_just_now/",
-          "signal": "ChatGPT added reactions to messages just now"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrnh7o/i_became_chatgpts_therapist_for_a_moment_and/",
-          "signal": "I became ChatGPT's therapist for a moment and asked it what humans put it through"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrn484/whats_one_chatgpt_habit_you_wish_you_had_started/",
-          "signal": "What’s one ChatGPT habit you wish you had started a year ago?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrawae/i_used_chatgpt_to_build_an_iphone_app_for/",
-          "signal": "I used ChatGPT to build an iPhone app for scanning historic headstones in 3D — and it actually worked"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws1v6v/next_time_when_youre_on_chatgpt_ask_it_this/",
+          "signal": "Next time when you’re on ChatGPT, ask it this question:"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=pgoel6XdLYs",
           "signal": "POV: ChatGPT in 2050...!🙀#bmw #bmwm5 #car #edit #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8IKA6TxFzB4",
+          "signal": "They put ChatGPT in a calculator.."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lweguRF2Zdo",
+          "signal": "ChatGPT’s New Changes are MIND BLOWING! (New Extension, Voice Mode &amp; More)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ember-1",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://fireworks.ai/blog/ember-1",
+          "signal": "Ember-1"
         }
       ],
       "content_ideas": []
@@ -126,33 +152,6 @@
       "content_ideas": []
     },
     {
-      "name": "Ember-1",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://fireworks.ai/blog/ember-1",
-          "signal": "Ember-1"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -175,11 +174,6 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1wok9tq/i_asked_claude_to_show_me_the_inside_of_its_own/",
-          "signal": "I asked Claude to show me the inside of its own mind. Built by Opus 5.5"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/singularity/comments/1wrvki8/five_frontier_ais_were_told_to_engineer_and/",
           "signal": "Five frontier AIs were told to engineer and 3D-print the strongest bridge they could with 500 g of plastic. Claude Opus 5.5’s design held ~130 lb, nearly 5× the runner-up"
         },
@@ -192,6 +186,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/singularity/comments/1wrera2/claude_opus_55_designed_a_processor_faster_and/",
           "signal": "Claude Opus 5.5 designed a processor faster and smaller than the human-made one on the HWE benchmark"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1ws2r2m/claude_opus_55_why_am_i_slop/",
+          "signal": "Claude Opus 5.5: WHY AM I SLOP?"
         }
       ],
       "content_ideas": []
@@ -219,6 +218,109 @@
           "platform": "hackernews",
           "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
           "signal": "CEO of Mistral: AI is software. It can be controlled"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
+          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
+          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
+          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
+          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "As A.I. makes law firms more efficient, clients ask: 'Where's my disco",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+          "signal": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Copilot",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+          "signal": "The Copilot+ PC brand is dead"
         }
       ],
       "content_ideas": []
@@ -251,33 +353,6 @@
       "content_ideas": []
     },
     {
-      "name": "Copilot",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "signal": "The Copilot+ PC brand is dead"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "OpenAI halts training of latest models as reports mount of AI agents g",
       "category": "use_case",
       "momentum": "rising",
@@ -305,77 +380,6 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=abMfg46cudQ",
-          "signal": "Mobile Se AI Video Kaise Banaye? 🤯 | AI Video Kaise Banaye | ChatGPT + Gemini AI Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=eibWie7AXzU",
-          "signal": "Trending AI Video Kaise Banaye? 🔥 | Gemini AI Video Tutorial | AI Video Editing"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u8d6lBNpeOY",
-          "signal": "Kalo lu pilih apa nih? #chatgpt #gemini #grokai #claudeai #metaai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-          "signal": "Understanding the Impact of LLM Watermarking on AI Agent Behavior"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: TinyAIArena watch AI agents battle it out",
       "category": "use_case",
       "momentum": "rising",
@@ -388,7 +392,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -411,7 +415,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -434,28 +437,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1wrb0q6/chatgpt_added_reactions_to_messages_just_now/",
-          "signal": "ChatGPT added reactions to messages just now"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrnh7o/i_became_chatgpts_therapist_for_a_moment_and/",
-          "signal": "I became ChatGPT's therapist for a moment and asked it what humans put it through"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrn484/whats_one_chatgpt_habit_you_wish_you_had_started/",
-          "signal": "What’s one ChatGPT habit you wish you had started a year ago?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wrawae/i_used_chatgpt_to_build_an_iphone_app_for/",
-          "signal": "I used ChatGPT to build an iPhone app for scanning historic headstones in 3D — and it actually worked"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws1v6v/next_time_when_youre_on_chatgpt_ask_it_this/",
+          "signal": "Next time when you’re on ChatGPT, ask it this question:"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=pgoel6XdLYs",
           "signal": "POV: ChatGPT in 2050...!🙀#bmw #bmwm5 #car #edit #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8IKA6TxFzB4",
+          "signal": "They put ChatGPT in a calculator.."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lweguRF2Zdo",
+          "signal": "ChatGPT’s New Changes are MIND BLOWING! (New Extension, Voice Mode &amp; More)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
         }
       ],
       "content_ideas": []
@@ -483,11 +486,6 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1wok9tq/i_asked_claude_to_show_me_the_inside_of_its_own/",
-          "signal": "I asked Claude to show me the inside of its own mind. Built by Opus 5.5"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/singularity/comments/1wrvki8/five_frontier_ais_were_told_to_engineer_and/",
           "signal": "Five frontier AIs were told to engineer and 3D-print the strongest bridge they could with 500 g of plastic. Claude Opus 5.5’s design held ~130 lb, nearly 5× the runner-up"
         },
@@ -500,6 +498,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/singularity/comments/1wrera2/claude_opus_55_designed_a_processor_faster_and/",
           "signal": "Claude Opus 5.5 designed a processor faster and smaller than the human-made one on the HWE benchmark"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1ws2r2m/claude_opus_55_why_am_i_slop/",
+          "signal": "Claude Opus 5.5: WHY AM I SLOP?"
         }
       ],
       "content_ideas": []
@@ -532,33 +535,6 @@
       "content_ideas": []
     },
     {
-      "name": "Copilot",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "signal": "The Copilot+ PC brand is dead"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -573,7 +549,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -596,8 +572,40 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OgwUo66bv1w",
+          "signal": "Gojo, Geto &amp; Shoko AI Hairstyles 🤖🔥 | ChatGPT vs Gemini vs Grok vs Copilot | JJK edit"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Copilot",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+          "signal": "The Copilot+ PC brand is dead"
         }
       ],
       "content_ideas": []
