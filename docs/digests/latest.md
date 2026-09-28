@@ -17,12 +17,12 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
    https://www.nature.com/articles/d41586-026-03005-2
 5. **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — science angle
    https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
-6. **‘AI can’t replace your doctor,’ expert warns amid rise in chatbot health advice - NewsNation** — science angle
-   https://news.google.com/rss/articles/CBMigAFBVV95cUxQczZIeW9KbGFmZkdhb3BCLWRQU19JVWRCQ21xeHVrUEItUmhuNll5Q3F1RnhqTnlnUmxCallCM21qamlZYnJPVzRjVE5LWjBzNzB3ZzY4T0tUMGNDX1lOQmxLdEcwa2FUODdnV19iSUlGQUE4Z2Y1MXRCZmFOUHFDMdIBhgFBVV95cUxQV0YtcGFmRzJscVJWcDlfNG9KVHM5MGxDdjdPLWZRRUJQSEZJVS1oc3RkY2Jsc3FQM0RsVkhCWmg2UVdYNV9lOTAtcldaanVjRHBMVzRZTlVnUExKNXU2MVo3VE1xN3BKWkNRTkNvSll0SWFSclJhZ2U5d1p0eXpYekcxbTdlZw?oc=5
-7. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
+6. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
    https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
-8. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
+7. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
+8. **Importance of teaching medical students to think in the era of AI - The Hindu** — science angle
+   https://news.google.com/rss/articles/CBMivAFBVV95cUxPY01hQnBwa01oTFN3QUZpS3NtQU1aU2pEdnRPX1VCRFpoc1ludXBielZnOUIxYjAxWGJLUnRiREt1RFlmVE12Ynl6V0lCdU1xVGFvMDFJTkZCenU0d3pPYlNwRmhXYjdJM1Q5cjNONFRDd0RIMmppVWpxa3RxTllqWTUxMkk3ekZSVEJVWTRDUEN3R2NYRkVNTGUtWUVRYnlKZ1owNzd4cWJIcnU3MTVGSUhnc3NTT1hyclRydNIBwwFBVV95cUxNN3hpRXNuOF9oUV96c1N1WG9uTDVPMzBZXzAzbm5WR2FFZFdHRUN3UnlfSjZFMEFWajRtdXZSdkRzSUJ3MEx5d3BLbE85ZHdPcXgxblNFeFhQUGZPZmxaNkx0QmhGWGpvbmdBOXBpMmRwYUpIRlN3ejJYWnctZzRHUndQdzR3ZnYzeDYxTElKVUxlODVxYkl3YnctOUN2SV80alhCZ1FtY3RGcFFGb1NfMWYtOHhwZG9TU3NJZldfYkRqN0k?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL** — Dario Amodei News — Score 113
@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUdLUUZmbnZ3OWotZkluR1E5eXhkMkpkQTJab0NiLTJuckRZb0xzQnBTZE03VndoYURhS0VGSlBjWmJQS1NUMXhVel9hOUQyWGYxbGN0UmZhQzFwclpiUTVKcUw4VnZEUmVjT1R3SjFkcWpmTkpIdjk5dm5pQnpaSHVnSnpQNXozWlowaVhxTDdHRkRTdUQ0b3RLcTg1YjJGdWctVWxIaFN3QQ?oc=5
 5. **OpenAI to preview GPT-6 Cyber within days, Fortune reports - The Mighty 790 KFGO** — Breaking GPT-5 — Score 80
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNQl9oVWpjV0F3MTlha0QxYkJuNGJiamJ6NXQ0eFJlVFdWZFRTWTZveVAtTVg0b05CZ08wS0d5MjFjbW9TbUNCMTVRTzBFb21qV0pranNObzVkRG5mb24wajFDU2NSOUl4V25wQ2RKUEZFVmk3NlZJMXZzZEdFdE15QTBBSEZuR2hkTTlvRmxkNA?oc=5
-6. **As China and U.S. compete for AI dominance, both have shared concerns over safety - PBS** — AI in Coding — Score 73
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQMHJWN0NoQUotUzVkZEVlMW9ydGhMYWh0QTgyVThkei1oWkdyX29leTQ5OXFydXlRekdlS2RObFh0bHpfUThpQlZ5T3hXcGM1X0t0UGppc25jdFJZTGtjY2RNTmNWX05tNjdVbzRyYi1DRFd3M2dJQWJwSEtBTU15VUJHbzdaUzV2a0Y1cnJiMFlpTWdDOXRoM0F6c1g0TXdBcE5KdGEwNHY3YjlQcFZhbVQ4aWdOVDjSAbwBQVVfeXFMUGZYcmY4bVhOTWZ3aGVraldacVJSVnhZdkhidUlKTGtmS05jS01VWlAtTUZtbm5SX3pOT3J0Y2xHa1RtUDN1VEZFQm1lNURNZmJwU3A3VnlWczNJQV82RXhOWWdnRWZYYjZYOUxYYWxHU0VoeXhlLVZhbGxGeWlwY1Y2dDM2VF9xX2hia2lybFJiTDR5NE9PMW9xQTVXUjNOeldWVUp6NHhwdXZwN3RGc2JUOENRcHZVVjJQRlA?oc=5
-7. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 73
+6. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 73
    https://www.pressdemocrat.com/2026/09/24/education-ai-job-market/
-8. **Perplexity AI sued by startup for allegedly stealing 'wake word' technology - reuters.com** — Perplexity News — Score 67
+7. **Perplexity AI sued by startup for allegedly stealing 'wake word' technology - reuters.com** — Perplexity News — Score 67
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRy1RVlJsY0c5TXRRZGdvTjBvdUN0NTh6RGFicnZnQTJNd1h0ZjEyQzJIWm1CdjlSVXp6eS1fb3BvVnZmS2pUM1o4eUFHN05iZ1hDc1pLZG9IYjlPZjNrRGRVUHRENVhjZlFPSjF0clE5b3NmU0MtTWxfaWxHeHU5UWtEaHJwUEpEZmUzQzdkS3g4SVBraVNKb3N5UV9hQktPQk5QbUY4bTliQ2k2V3JMMDM5VjNVZXgtLXZYNmNveUVCWEU?oc=5
-9. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 63
+8. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 63
    https://www.bluemountainsgazette.com.au/story/9354884/sure-ai-can-generate-songs-but-it-cant-win-over-a-rowdy-crowd/?src=rss
-10. **Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - WKBN.com** — Sam Altman News — Score 58
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxNVmxmWjFNTVVJTXNpdVBkcXVUeHJ3RkJQVW9YQm42Nl9hblBvVVNvaEM3b3Z2VGVpRDBuTlBHV0xpaGdyNVhPbVR5NDljMkNFSU00TWhwWE83V3RhNml2R0JJaEhEdm5QOU96LUg4a20tN2VjcGx1TzRIdTNIZEFyWkJ3cWRtaF9ITUg0ZFFrclZMVHdNODNwYTVKM2pDVWhSTEM4TUhITWhiVnRuMnVxLXBPckcxOTZfdk9DZGFzYVFmN0tadDFkc05waUvSAdIBQVVfeXFMTURtZk0zb0ZGaDEyMUZqOWthdDVjVEtPb1RvMThmYlcycFdUN3NkWU9SNjF0cGhqT0pldjdhNDlqYVhpM1lkWVZvQmVVS2x0c09xS0pFRlYzNzZJLW55Z2xHVWFiQ1Ric1h2dkRmOTVqQWRrUHBBSDYwOGsxX2VvM2JoTFlyb3ZickhlbVhxcE1tZDJPa0RpSXpoVXRha21fTEd0V0RyV1J5eWFXUzFOSWt2X1ZwWWc4ZGlTTHVpOXF1WGFrRzRnSHRqMWdJYmlUdjB3?oc=5
+9. **GPT-6 Sol and Luna** — Hacker News AI — Score 56.3
+   https://openai.com/index/introducing-gpt-6-sol-and-luna/
+10. **Students outraged after Stanford University uses AI to alter race, appearances in promotional photo - ABC7 New York** — Using AI To... — Score 48
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFJXc29iVHJvWnJHX0ZqRV8zaGt6MUp6RHRPMzB2cEZycWt1YkQxY0EySHduYnlLX1FKV2tsaGtmdV9MZ1VCRFdmRGFhTi1STFVSZTJ2Z2c5NUFWZFcwLXFySE5nV1pQdzRDbURZVldRMnVKeS1fMjBCcXNwWGJWSkJrem9iZE5HUUdISGFNNGRKLWhONTBDRjZiQ2xWam5yamlYU2FJQTlOYVFnZVNpVFVqOUYxMjQxLVgyOTdB?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Cancer leads AI physician queries across 9 countries - ttownmedia.com** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa1RzcTJ3d0wzMlZhMUx4RUtBc1BmbFh2dEdzdGRXZTdjQzFaS3E2ZGRxWC1reldFZkhsYzhQYnV3eGFQYk9rbF9xVHhsTDJyNnpWOHBmT3czMDJHRmNVWkk2Qmg3ak9PeG01WGNEc2taMWxTdzAyZ1B4T3ZoY3lwWnFQYjRUdmRtR1psLWZNakNXbnI1QUFVR2RFVnh0SmIzcmhZZl9KTjhndjFNWl9OSHJqVlhfekRLNGFIZXFKZG01YUJ3S0NrV1FLWjRPRHBVZHotM1RYN0d0SVpHekhOZA?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
 - **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2980
+- Total stories tracked: 3020
 - Most active topic: openai
 - Busiest category: AI General News
 
