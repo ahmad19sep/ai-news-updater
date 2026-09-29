@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:47:05.614844+00:00",
+  "generated_at": "2026-09-29T12:57:12.173915+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 30,
+      "reddit": 37,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -54,8 +54,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws7dfs/chatgpt_voice_kept_waking_me_up_while_my_blood/",
-          "signal": "ChatGPT voice kept waking me up while my blood sugar was plummeting"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
+          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
         },
         {
           "platform": "reddit",
@@ -64,8 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
-          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wt64hb/cancelling_chatgpt_plus/",
+          "signal": "Cancelling ChatGPT Plus"
         }
       ],
       "content_ideas": []
@@ -125,6 +125,33 @@
       "content_ideas": []
     },
     {
+      "name": "It's Time to Investigate the AI Labs",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+          "signal": "It's Time to Investigate the AI Labs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "There are no \"rogue\" AI agents",
       "category": "use_case",
       "momentum": "rising",
@@ -147,58 +174,6 @@
           "platform": "hackernews",
           "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
           "signal": "There are no \"rogue\" AI agents"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsq6r5/qwen_next_38_and_38_27b_vs_sonnet_55_low_and/",
-          "signal": "Qwen next 3.8 and 3.8 27b Vs Sonnet 5.5 low and Sonnet 5.5 medium."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsxgbo/first_few_days_of_qwen38flashnext_on_4x_r9700_its/",
-          "signal": "First few days of qwen3.8-flash-next on 4x R9700 - it's been really interesting so far"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsmsnx/what_do_you_think_about_tomoe_v2_paper_converting/",
-          "signal": "What do you think about ToMoE v2 paper, converting dense model to MoE model at near lossless accuracy? I feel Qwen3.8-27B-A16B or something along those lines would be amazing, though there are architectural hurdles, as well as need folr training data."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsdyd2/you_can_just_merge_qwen36_38_27b_to_get_decent/",
-          "signal": "You can just merge Qwen3.6 & 3.8 27B to get decent performance with much fewer token generation"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wss436/searching_for_38_35b_qwen3635ba3b_testing_5/",
-          "signal": "Searching for 3.8 35B: Qwen3.6-35B-A3B (Testing 5 Finetunes vs. Base)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsqjku/swift_15_hyperqwen_37_less_task_completion_time/",
-          "signal": "Swift 1.5 + HyperQwen = 37% less task completion time at 100+ tps w/ 150k context on RTX 3090"
         }
       ],
       "content_ideas": []
@@ -231,60 +206,6 @@
       "content_ideas": []
     },
     {
-      "name": "It's Time to Investigate the AI Labs",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-          "signal": "It's Time to Investigate the AI Labs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "World Labs Is Joining AMD",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.worldlabs.ai/blog/amd-announcement",
-          "signal": "World Labs Is Joining AMD"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Wan",
       "category": "tool_launch",
       "momentum": "rising",
@@ -297,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -307,6 +228,33 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
           "signal": "Nvidia wants to put a watchdog chip next to every AI agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "World Labs is Joining AMD",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.worldlabs.ai/blog/amd-announcement",
+          "signal": "World Labs is Joining AMD"
         }
       ],
       "content_ideas": []
@@ -339,6 +287,62 @@
       "content_ideas": []
     },
     {
+      "name": "Show HN: HN.watch – Videos of all Hacker News posts",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://hn.watch/",
+          "signal": "Show HN: HN.watch – Videos of all Hacker News posts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI companies leak data to advertisers [pdf]",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+          "signal": "AI companies leak data to advertisers [pdf]"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Thinking fast and slow in AI: The role of metacognition (2021)",
       "category": "use_case",
       "momentum": "rising",
@@ -364,90 +368,9 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Show HN: HN.watch – Videos of all Hacker News posts",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://hn.watch/",
-          "signal": "Show HN: HN.watch – Videos of all Hacker News posts"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsq6r5/qwen_next_38_and_38_27b_vs_sonnet_55_low_and/",
-          "signal": "Qwen next 3.8 and 3.8 27b Vs Sonnet 5.5 low and Sonnet 5.5 medium."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsxgbo/first_few_days_of_qwen38flashnext_on_4x_r9700_its/",
-          "signal": "First few days of qwen3.8-flash-next on 4x R9700 - it's been really interesting so far"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsmsnx/what_do_you_think_about_tomoe_v2_paper_converting/",
-          "signal": "What do you think about ToMoE v2 paper, converting dense model to MoE model at near lossless accuracy? I feel Qwen3.8-27B-A16B or something along those lines would be amazing, though there are architectural hurdles, as well as need folr training data."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsdyd2/you_can_just_merge_qwen36_38_27b_to_get_decent/",
-          "signal": "You can just merge Qwen3.6 & 3.8 27B to get decent performance with much fewer token generation"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wss436/searching_for_38_35b_qwen3635ba3b_testing_5/",
-          "signal": "Searching for 3.8 35B: Qwen3.6-35B-A3B (Testing 5 Finetunes vs. Base)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsqjku/swift_15_hyperqwen_37_less_task_completion_time/",
-          "signal": "Swift 1.5 + HyperQwen = 37% less task completion time at 100+ tps w/ 150k context on RTX 3090"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Wan",
       "category": "tool_launch",
@@ -461,7 +384,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -514,8 +437,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ws7dfs/chatgpt_voice_kept_waking_me_up_while_my_blood/",
-          "signal": "ChatGPT voice kept waking me up while my blood sugar was plummeting"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
+          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
         },
         {
           "platform": "reddit",
@@ -524,8 +447,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
-          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wt64hb/cancelling_chatgpt_plus/",
+          "signal": "Cancelling ChatGPT Plus"
         }
       ],
       "content_ideas": []
@@ -533,13 +456,13 @@
   ],
   "pain_points": [
     {
-      "problem": "NVIDIA shipped OpenShell, an open source sandbox that gives local and open agents real runtime limits instead of prompt rules. Over 100 firm",
-      "who_affected": "r/LocalLLaMA",
-      "signal_strength": 4,
+      "problem": "OpenAI removed the ability to view previous prompt edits",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wso9ty/openai_removed_the_ability_to_view_previous/"
         }
       ],
       "content_opportunity": ""
@@ -552,18 +475,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wsf9qh/we_solved_the_water_issue_just_plug_and_play_bruh/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "OpenAI removed the ability to view previous prompt edits",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wso9ty/openai_removed_the_ability_to_view_previous/"
         }
       ],
       "content_opportunity": ""
