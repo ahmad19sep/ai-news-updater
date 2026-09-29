@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 21 Sep 2026 to 28 Sep 2026
+# 🗞️ AI THIS WEEK — 22 Sep 2026 to 29 Sep 2026
 
 ## 🔥 Biggest Story of the Week
 **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL**
@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
    https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
 7. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
-8. **Importance of teaching medical students to think in the era of AI - The Hindu** — science angle
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxPY01hQnBwa01oTFN3QUZpS3NtQU1aU2pEdnRPX1VCRFpoc1ludXBielZnOUIxYjAxWGJLUnRiREt1RFlmVE12Ynl6V0lCdU1xVGFvMDFJTkZCenU0d3pPYlNwRmhXYjdJM1Q5cjNONFRDd0RIMmppVWpxa3RxTllqWTUxMkk3ekZSVEJVWTRDUEN3R2NYRkVNTGUtWUVRYnlKZ1owNzd4cWJIcnU3MTVGSUhnc3NTT1hyclRydNIBwwFBVV95cUxNN3hpRXNuOF9oUV96c1N1WG9uTDVPMzBZXzAzbm5WR2FFZFdHRUN3UnlfSjZFMEFWajRtdXZSdkRzSUJ3MEx5d3BLbE85ZHdPcXgxblNFeFhQUGZPZmxaNkx0QmhGWGpvbmdBOXBpMmRwYUpIRlN3ejJYWnctZzRHUndQdzR3ZnYzeDYxTElKVUxlODVxYkl3YnctOUN2SV80alhCZ1FtY3RGcFFGb1NfMWYtOHhwZG9TU3NJZldfYkRqN0k?oc=5
+8. **AI made me a better doctor. It may be making doctors-in-training worse - The Straits Times** — science angle
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3dIVEFwbjVpOVotTXBYLTVIeE5DWTNqNDF1SVRmVzlWNUZNaG9VYkpZVFRtY2w0dXZoc2h4SlFWUmRBR3g0WllCdmJUSUpwWVp6VnBHUklpUmwzWUNyR0lxZFU5c1J6eGZCcmZ4U2hfUzdmVG1xRWVsd2pxVS1ka20zRTdydTBCd1pGYzNENVU2RHozTzY2SE5GSWlKVjNfdWlyV1dIaXpPd1Ezbm91akx6LTBzVjA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Worries about an AI internet takeover gain new urgency among doomsday scenarios - WRAL** — Dario Amodei News — Score 113
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
 - **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3020
+- Total stories tracked: 3031
 - Most active topic: openai
 - Busiest category: AI General News
 
