@@ -29,22 +29,22 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN0ZBQ2hPR19pVkxBQ21TTDhrRjMwNm9MZ2VWNDJpUzd4b0wzcko3dkZWRW5BX1ZPV0NySllDX0MzU2xKcHRoNUtqejVhX0lZeHhVcy1aTGtYTkE2czJwRV9CbGFVTjFRbjMwNDlxZkhsX3VTaG1oZ09YVzh6eUgzdG9qVERieGZBYV9hQXJpVUhDUzR5eFhSYlVZa2RGMkk2WF9RQTRWc2ZZWkpYUQ?oc=5
 2. **Anthropic unveils Claude Opus 5.5 - Reuters** — Breaking Claude — Score 102
    https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2VINVptSExJdjU0WkQ0WDVkRUdsaHduYjB1Tk81TnBrZkVvalowQWh2NFJnYmZ1TkxtVTQyZHdVWDgzVmJtRE9SSjkzeW9DWDFleHNPU01LUWE1TUpCdktmTVVRZHNXWm9ack9CRmdQTU1XUHd0Y2lhaEZBWWJYQVNFYw?oc=5
-3. **Bill Gates pushes for 'smart use' of AI as his foundation builds more representative language data** — ottumwacourier — Score 93
+3. **Nvidia unveils security platform to stop AI agents from going rogue - PBS** — AI in Coding — Score 101
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuSlpra3Y2bHdsTWtfdExVOF9VWjdteEcwbWRmSDBaNENoY3MtZ3J0REEzV3lneFFVQUU4SkxQTVV0azJYRnIzclU3WWgwRmZ6OTlXVV9qRVZIVUU0MzU3czA5eWtIX2N0UFdkX2xJd0hoT3BqNDF2d1FNVUxGZjhWYW13bXZSQjdjdkJlOENneDhBODVZdmYycy1LUtIBqgFBVV95cUxPaHpYeWU2U2FraEJ2V2dDRmtVMjRyazd3RmUybEthanQtSlJEWE1CZF9vTFlmNEJVbDBDVlI5OGtEV1V1U2pBOEUzSU5RdTZsRER5V1U5OU1laWMwXzJWeHo3dlMzRVM5X1otaktpYzRHUzFQRjRDalVkU0hSUHhtcWlIdTBPbFgxRkpycGsyMDViTVNFS0VjZVFyMHo4NTJNXzJzeWpJMWREUQ?oc=5
+4. **Bill Gates pushes for 'smart use' of AI as his foundation builds more representative language data** — ottumwacourier — Score 93
    https://www.ottumwacourier.com/news/business/bill-gates-pushes-for-smart-use-of-ai-as-his-foundation-builds-more-representative-language/article_cbc33a4b-e0a2-515a-8a8f-865ddb66f079.html
-4. **Heads of AI firms tell UN Security Council that it could be a risk to all humanity - New Haven Register** — Sam Altman News — Score 80
+5. **Heads of AI firms tell UN Security Council that it could be a risk to all humanity - New Haven Register** — Sam Altman News — Score 80
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUdLUUZmbnZ3OWotZkluR1E5eXhkMkpkQTJab0NiLTJuckRZb0xzQnBTZE03VndoYURhS0VGSlBjWmJQS1NUMXhVel9hOUQyWGYxbGN0UmZhQzFwclpiUTVKcUw4VnZEUmVjT1R3SjFkcWpmTkpIdjk5dm5pQnpaSHVnSnpQNXozWlowaVhxTDdHRkRTdUQ0b3RLcTg1YjJGdWctVWxIaFN3QQ?oc=5
-5. **OpenAI to preview GPT-6 Cyber within days, Fortune reports - The Mighty 790 KFGO** — Breaking GPT-5 — Score 80
+6. **OpenAI to preview GPT-6 Cyber within days, Fortune reports - The Mighty 790 KFGO** — Breaking GPT-5 — Score 80
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNQl9oVWpjV0F3MTlha0QxYkJuNGJiamJ6NXQ0eFJlVFdWZFRTWTZveVAtTVg0b05CZ08wS0d5MjFjbW9TbUNCMTVRTzBFb21qV0pranNObzVkRG5mb24wajFDU2NSOUl4V25wQ2RKUEZFVmk3NlZJMXZzZEdFdE15QTBBSEZuR2hkTTlvRmxkNA?oc=5
-6. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 73
+7. **As the coding boom fades, computer science grads focus on AI skills in choppy job market** — pressdemocrat — Score 73
    https://www.pressdemocrat.com/2026/09/24/education-ai-job-market/
-7. **Perplexity AI sued by startup for allegedly stealing 'wake word' technology - reuters.com** — Perplexity News — Score 67
+8. **Perplexity AI sued by startup for allegedly stealing 'wake word' technology - reuters.com** — Perplexity News — Score 67
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRy1RVlJsY0c5TXRRZGdvTjBvdUN0NTh6RGFicnZnQTJNd1h0ZjEyQzJIWm1CdjlSVXp6eS1fb3BvVnZmS2pUM1o4eUFHN05iZ1hDc1pLZG9IYjlPZjNrRGRVUHRENVhjZlFPSjF0clE5b3NmU0MtTWxfaWxHeHU5UWtEaHJwUEpEZmUzQzdkS3g4SVBraVNKb3N5UV9hQktPQk5QbUY4bTliQ2k2V3JMMDM5VjNVZXgtLXZYNmNveUVCWEU?oc=5
-8. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 63
+9. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 63
    https://www.bluemountainsgazette.com.au/story/9354884/sure-ai-can-generate-songs-but-it-cant-win-over-a-rowdy-crowd/?src=rss
-9. **GPT-6 Sol and Luna** — Hacker News AI — Score 56.3
+10. **GPT-6 Sol and Luna** — Hacker News AI — Score 56.3
    https://openai.com/index/introducing-gpt-6-sol-and-luna/
-10. **Students outraged after Stanford University uses AI to alter race, appearances in promotional photo - ABC7 New York** — Using AI To... — Score 48
-   https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFJXc29iVHJvWnJHX0ZqRV8zaGt6MUp6RHRPMzB2cEZycWt1YkQxY0EySHduYnlLX1FKV2tsaGtmdV9MZ1VCRFdmRGFhTi1STFVSZTJ2Z2c5NUFWZFcwLXFySE5nV1pQdzRDbURZVldRMnVKeS1fMjBCcXNwWGJWSkJrem9iZE5HUUdISGFNNGRKLWhONTBDRjZiQ2xWam5yamlYU2FJQTlOYVFnZVNpVFVqOUYxMjQxLVgyOTdB?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Cancer leads AI physician queries across 9 countries - ttownmedia.com** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa1RzcTJ3d0wzMlZhMUx4RUtBc1BmbFh2dEdzdGRXZTdjQzFaS3E2ZGRxWC1reldFZkhsYzhQYnV3eGFQYk9rbF9xVHhsTDJyNnpWOHBmT3czMDJHRmNVWkk2Qmg3ak9PeG01WGNEc2taMWxTdzAyZ1B4T3ZoY3lwWnFQYjRUdmRtR1psLWZNakNXbnI1QUFVR2RFVnh0SmIzcmhZZl9KTjhndjFNWl9OSHJqVlhfekRLNGFIZXFKZG01YUJ3S0NrV1FLWjRPRHBVZHotM1RYN0d0SVpHekhOZA?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXQ1SHVOeDZBN
 - **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3031
+- Total stories tracked: 3093
 - Most active topic: openai
 - Busiest category: AI General News
 
