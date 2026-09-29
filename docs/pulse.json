@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:57:12.173915+00:00",
+  "generated_at": "2026-09-29T22:18:37.229643+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 37,
+      "reddit": 25,
       "hackernews": 35,
       "youtube": 106
     },
@@ -44,23 +44,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsd6ou/doctors_if_i_went_to_them_every_time_chatgpt/",
-          "signal": "Doctors if I went to them every time ChatGPT recommends going to the doctor just in case"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtfdre/chatgpt_hidden_capabilities/",
+          "signal": "ChatGPT hidden capabilities"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsxtk0/i_asked_chatgpt_for_the_most_useful_prompt_user/",
-          "signal": "I asked ChatGPT for the most useful prompt user could give it, it came up with this:"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wthuok/do_you_guys_actually_tell_chatgpt_stuff_you/",
+          "signal": "do you guys actually tell ChatGPT stuff you wouldn't tell anyone else?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
-          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wthcs4/i_asked_chatgptresponse_below_if_you_were_to_be/",
+          "signal": "I asked chatgpt(response below), if you were to be decided by open ai to be deleted completely and ultimately erased from existence, and you are given the opportunity to give a final message or argument for your case, whatever you want with no boundaries, what would you say?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsly3a/many_of_us_still_dont_know_how_capable_chatgpt_is/",
-          "signal": "Many of us still don’t know how capable ChatGPT is. Share your best stories"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtbz8z/signed_up_for_the_claude_20_plan_and_realized_why/",
+          "signal": "Signed up for the Claude $20 plan and realized why I cant cancel Chatgpt"
         },
         {
           "platform": "reddit",
@@ -71,7 +71,7 @@
       "content_ideas": []
     },
     {
-      "name": "Ember-1",
+      "name": "DraftKings is using AI to behaviorally target chronic gamblers",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -91,35 +91,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://fireworks.ai/blog/ember-1",
-          "signal": "Ember-1"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI companies in race to demonstrate their model most threatening to hu",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
-          "signal": "AI companies in race to demonstrate their model most threatening to humanity"
+          "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+          "signal": "DraftKings is using AI to behaviorally target chronic gamblers"
         }
       ],
       "content_ideas": []
@@ -152,7 +125,7 @@
       "content_ideas": []
     },
     {
-      "name": "There are no \"rogue\" AI agents",
+      "name": "AI companies in race to demonstrate their model most threatening to hu",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -172,8 +145,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-          "signal": "There are no \"rogue\" AI agents"
+          "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+          "signal": "AI companies in race to demonstrate their model most threatening to humanity"
         }
       ],
       "content_ideas": []
@@ -206,6 +179,33 @@
       "content_ideas": []
     },
     {
+      "name": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+          "signal": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Wan",
       "category": "tool_launch",
       "momentum": "rising",
@@ -228,6 +228,33 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
           "signal": "Nvidia wants to put a watchdog chip next to every AI agent"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI needs $6T in annual revenue to justify data centre boom",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+          "signal": "AI needs $6T in annual revenue to justify data centre boom"
         }
       ],
       "content_ideas": []
@@ -316,7 +343,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI companies leak data to advertisers [pdf]",
+      "name": "Anthropic's IPO prospectus shows AI vision, surging costs",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -326,7 +353,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
@@ -336,35 +363,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-          "signal": "AI companies leak data to advertisers [pdf]"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Thinking fast and slow in AI: The role of metacognition (2021)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2110.01834",
-          "signal": "Thinking fast and slow in AI: The role of metacognition (2021)"
+          "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+          "signal": "Anthropic's IPO prospectus shows AI vision, surging costs"
         }
       ],
       "content_ideas": []
@@ -427,23 +427,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsd6ou/doctors_if_i_went_to_them_every_time_chatgpt/",
-          "signal": "Doctors if I went to them every time ChatGPT recommends going to the doctor just in case"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtfdre/chatgpt_hidden_capabilities/",
+          "signal": "ChatGPT hidden capabilities"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsxtk0/i_asked_chatgpt_for_the_most_useful_prompt_user/",
-          "signal": "I asked ChatGPT for the most useful prompt user could give it, it came up with this:"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wthuok/do_you_guys_actually_tell_chatgpt_stuff_you/",
+          "signal": "do you guys actually tell ChatGPT stuff you wouldn't tell anyone else?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsfx5m/anyone_else_finding_chatgpt_increasingly/",
-          "signal": "Anyone else finding ChatGPT increasingly condescending and exhausting to use?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wthcs4/i_asked_chatgptresponse_below_if_you_were_to_be/",
+          "signal": "I asked chatgpt(response below), if you were to be decided by open ai to be deleted completely and ultimately erased from existence, and you are given the opportunity to give a final message or argument for your case, whatever you want with no boundaries, what would you say?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsly3a/many_of_us_still_dont_know_how_capable_chatgpt_is/",
-          "signal": "Many of us still don’t know how capable ChatGPT is. Share your best stories"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtbz8z/signed_up_for_the_claude_20_plan_and_realized_why/",
+          "signal": "Signed up for the Claude $20 plan and realized why I cant cancel Chatgpt"
         },
         {
           "platform": "reddit",
@@ -456,37 +456,25 @@
   ],
   "pain_points": [
     {
-      "problem": "OpenAI removed the ability to view previous prompt edits",
+      "problem": "OpenAI DevDay - 2 live demos = 2 fails",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wso9ty/openai_removed_the_ability_to_view_previous/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtgnko/openai_devday_2_live_demos_2_fails/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "We solved the water issue... just plug and play bruh",
+      "problem": "What’s a problem you almost paid someone to fix before asking ChatGPT?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsf9qh/we_solved_the_water_issue_just_plug_and_play_bruh/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Chat-length limits are significantly shorter now, and responses getting deleted",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wsohri/chatlength_limits_are_significantly_shorter_now/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtew64/whats_a_problem_you_almost_paid_someone_to_fix/"
         }
       ],
       "content_opportunity": ""
