@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /studio.html
+Disallow: /studio-legacy.html
+Disallow: /pipeline.json
 
 Sitemap: https://ahmad19sep.github.io/ai-news-updater/sitemap.xml
