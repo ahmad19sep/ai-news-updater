@@ -9,7 +9,10 @@ const fs = require("fs");
 const path = require("path");
 const { JSDOM } = require("jsdom");
 
-const html = fs.readFileSync(path.join(__dirname, "docs", "studio.html"), "utf8");
+// The deployed page carries the real lock hash + Firebase URL; the test runs the
+// same code unlocked and in local-file mode so it never touches the network.
+const html = fs.readFileSync(path.join(__dirname, "docs", "studio.html"), "utf8")
+  .replace(/"lockHash": ?"[0-9a-f]*"/, '"lockHash": ""').replace(/"fbUrl": ?"[^"]*"/, '"fbUrl": ""');
 const ARTICLE = "Acme Health said its triage assistant cut average waiting time by 32% across 4 clinics in Lahore. The pilot ran for 6 months.";
 const STATE = {
   candidates: {

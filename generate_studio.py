@@ -10,6 +10,7 @@ from docs/pipeline.json.
 import hashlib
 import json
 import os
+import re
 from datetime import datetime, timezone
 
 import agent_ai_radar
@@ -82,12 +83,33 @@ def collect():
     return news, agents, chips, now
 
 
+def _deployed(pattern):
+    """A value baked into the currently deployed page (new or old format)."""
+    for name in ("studio.html", "studio-legacy.html"):
+        try:
+            with open(os.path.join(ROOT, "docs", name), encoding="utf-8") as f:
+                m = re.search(pattern, f.read(200000))
+            if m and m.group(1):
+                return m.group(1)
+        except FileNotFoundError:
+            pass
+    return ""
+
+
 def generate():
     news, agents, chips, now = collect()
     code = _load_passcode()
+    lock_hash = hashlib.sha256(code.encode()).hexdigest() if code else ""
+    fb_url = _load_fburl()
+    if not lock_hash:
+        # No secret on this machine: keep the deployed lock instead of shipping an
+        # open page (a local rebuild must never unlock the studio).
+        lock_hash = _deployed(r'"lockHash": ?"([0-9a-f]{64})"') or _deployed(r'const LOCKHASH = "([0-9a-f]{64})"')
+    if not fb_url:
+        fb_url = _deployed(r'"fbUrl": ?"(https://[^"]+)"') or _deployed(r'const FBURL = "(https://[^"]+)"')
     data = {
-        "lockHash": hashlib.sha256(code.encode()).hexdigest() if code else "",
-        "fbUrl": _load_fburl(),
+        "lockHash": lock_hash,
+        "fbUrl": fb_url,
         "updated": now.strftime("%d %b %Y, %H:%M UTC"),
         "cache": now.strftime("%Y%m%d%H%M"),
         "pillars": config.CATEGORIES,
@@ -107,8 +129,9 @@ def generate():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(page)
+    lock_note = " (locked)" if code else " (locked with the deployed hash)" if lock_hash else " (NO passcode -> open)"
     print(f"docs/studio.html written: {len(news)} stories, {len(agents)} agent items, "
-          f"{len(data['content']['hooks'])} hooks{' (locked)' if code else ' (NO passcode -> open)'}")
+          f"{len(data['content']['hooks'])} hooks{lock_note}")
 
 
 if __name__ == "__main__":
