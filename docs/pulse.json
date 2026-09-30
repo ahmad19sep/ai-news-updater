@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:38:51.636675+00:00",
+  "generated_at": "2026-09-30T22:18:42.986207+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,28 +44,66 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtqw95/chatgpt_using_someone_elses_privatelocal_pc_files/",
-          "signal": "ChatGPT using Someone Else’s Private/Local PC Files for responses"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhhco/chatgpt_current_issues/",
+          "signal": "ChatGPT current issues"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wttdlw/i_guess_even_chatgpt_dislikes_our_president/",
-          "signal": "I guess even ChatGPT dislikes our president"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wthuok/do_you_guys_actually_tell_chatgpt_stuff_you/",
-          "signal": "do you guys actually tell ChatGPT stuff you wouldn't tell anyone else?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu0ie5/what_are_your_thoughts_on_chatgpt_pricing_has_it/",
-          "signal": "What are your thoughts on Chatgpt pricing, has it gone too far?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhduk/is_chatgpt_okay/",
+          "signal": "Is ChatGPT okay!?"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wu37eb/i_just_tried_chatgpt_ads_and_it_spent_283_in_15/",
           "signal": "I just tried ChatGPT ads and it spent $283 in 15 hours"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wucryu/chatgpt_astra_when_it_gets_access_to_my_computer/",
+          "signal": "ChatGPT Astra when it gets access to my computer"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu55gy/hey_doomers_chatgpt_is_going_to_come_out_with/",
+          "signal": "Hey Doomers: ChatGPT is going to come out with something shocking by the time our 62,500 credits expire."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "signal": "Gemini 4 Argon"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+          "signal": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -98,7 +136,7 @@
       "content_ideas": []
     },
     {
-      "name": "It's Time to Investigate the AI Labs",
+      "name": "The AI Race Just Got Awkward",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -118,68 +156,37 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-          "signal": "It's Time to Investigate the AI Labs"
+          "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
+          "signal": "The AI Race Just Got Awkward"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "The problem is not AI code, but not knowing about system architecture ",
+      "name": "NASA asked several former SR-71A staffers to help secret restart",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
-          "signal": "The problem is not AI code, but not knowing about system architecture or intent"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
+        "facebook_inferred",
         "hackernews",
-        "reddit"
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-          "signal": "Nvidia wants to put a watchdog chip next to every AI agent"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu0uil/biblically_accurate_angel_mistaking_a_space/",
-          "signal": "Biblically accurate angel mistaking a space satellite for another biblically accurate angel and wanting to befriend it"
+          "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
+          "signal": "NASA asked several former SR-71A staffers to help secret restart"
         }
       ],
       "content_ideas": []
@@ -239,91 +246,6 @@
       "content_ideas": []
     },
     {
-      "name": "World Labs is Joining AMD",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.worldlabs.ai/blog/amd-announcement",
-          "signal": "World Labs is Joining AMD"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "NASA asked several former SR-71A staffers to help secret restart",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
-          "signal": "NASA asked several former SR-71A staffers to help secret restart"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: HN.watch – Videos of all Hacker News posts",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://hn.watch/",
-          "signal": "Show HN: HN.watch – Videos of all Hacker News posts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Anthropic's IPO prospectus shows AI vision, surging costs",
       "category": "use_case",
       "momentum": "rising",
@@ -336,7 +258,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -376,16 +298,97 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permi",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+          "signal": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra inte",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
+          "signal": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Responsible Release of AI-Generated Mathematics",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://agmai.org/general-sep29/",
+          "signal": "Responsible Release of AI-Generated Mathematics"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "Wan",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews",
-        "reddit"
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -401,13 +404,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-          "signal": "Nvidia wants to put a watchdog chip next to every AI agent"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "signal": "Gemini 4 Argon"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu0uil/biblically_accurate_angel_mistaking_a_space/",
-          "signal": "Biblically accurate angel mistaking a space satellite for another biblically accurate angel and wanting to befriend it"
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+          "signal": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -441,33 +449,46 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtqw95/chatgpt_using_someone_elses_privatelocal_pc_files/",
-          "signal": "ChatGPT using Someone Else’s Private/Local PC Files for responses"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhhco/chatgpt_current_issues/",
+          "signal": "ChatGPT current issues"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wttdlw/i_guess_even_chatgpt_dislikes_our_president/",
-          "signal": "I guess even ChatGPT dislikes our president"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wthuok/do_you_guys_actually_tell_chatgpt_stuff_you/",
-          "signal": "do you guys actually tell ChatGPT stuff you wouldn't tell anyone else?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu0ie5/what_are_your_thoughts_on_chatgpt_pricing_has_it/",
-          "signal": "What are your thoughts on Chatgpt pricing, has it gone too far?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhduk/is_chatgpt_okay/",
+          "signal": "Is ChatGPT okay!?"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wu37eb/i_just_tried_chatgpt_ads_and_it_spent_283_in_15/",
           "signal": "I just tried ChatGPT ads and it spent $283 in 15 hours"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wucryu/chatgpt_astra_when_it_gets_access_to_my_computer/",
+          "signal": "ChatGPT Astra when it gets access to my computer"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu55gy/hey_doomers_chatgpt_is_going_to_come_out_with/",
+          "signal": "Hey Doomers: ChatGPT is going to come out with something shocking by the time our 62,500 credits expire."
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Plus image limit decreased from 120 to 28?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuh46c/plus_image_limit_decreased_from_120_to_28/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
