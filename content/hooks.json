@@ -1,0 +1,18 @@
+[
+  {"type": "consequence", "text": "Most people read this as a product update. It's actually a pricing decision."},
+  {"type": "consequence", "text": "This one line in the announcement matters more than the model itself."},
+  {"type": "specific_number", "text": "40% cheaper, same output. Here is who that actually helps."},
+  {"type": "contrast", "text": "Everyone is talking about the demo. The useful part is the limit they buried."},
+  {"type": "decision", "text": "If you pay for two AI tools, this week's update means you might only need one."},
+  {"type": "decision", "text": "Before your team switches, check these three things in the fine print."},
+  {"type": "field", "text": "A hospital in Karachi cut waiting times with AI. The interesting part is what they did NOT automate."},
+  {"type": "field", "text": "This is what AI in farming looks like when it works: no robots, just better timing."},
+  {"type": "lesson", "text": "I watched a small team ship an AI feature in a week. The hard part was not the model."},
+  {"type": "lesson", "text": "The tool did not fail. The workflow around it did."},
+  {"type": "honest", "text": "I wanted this to be big news. Reading the source, it is smaller and more useful."},
+  {"type": "honest", "text": "The headline says breakthrough. The paper says something more careful."},
+  {"type": "question", "text": "Would you let an AI answer your customers when you are asleep? A bank just did."},
+  {"type": "timing", "text": "This changes on Monday. If you use the free tier, read this before then."},
+  {"type": "so_what", "text": "New model, same question: what can a freelancer actually do with it today?"},
+  {"type": "so_what", "text": "Strip the marketing and this update does exactly one useful thing."}
+]

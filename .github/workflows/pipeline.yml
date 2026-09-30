@@ -1,0 +1,68 @@
+name: Content pipeline (API drafts, on demand)
+
+# Runs the Claude agents in the cloud on demand so drafts are waiting in the
+# Studio. Nothing is posted: drafts only.
+# Needs the ANTHROPIC_API_KEY secret. With FIREBASE_URL + SITE_PASSCODE set,
+# state goes straight to Firebase (no commit); otherwise docs/pipeline.json is
+# committed so the Studio can load it.
+
+on:
+  # On demand only: API mode costs money (~$0.30 per run). Free triage runs
+  # inside the hourly fetch workflow instead. Add a `schedule:` here if you
+  # ever want automatic daily drafts again.
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Drafts to write this run"
+        default: "5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  drafts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TZ: Asia/Karachi
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
+      SITE_PASSCODE: ${{ secrets.SITE_PASSCODE }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Triage new stories, enrich, draft, verify
+        run: python run_pipeline.py --mode api --limit "${{ github.event.inputs.limit || '5' }}" --notify
+
+      - name: Commit pipeline.json (local-store mode only)
+        run: |
+          git config user.name "ai-news-radar-bot"
+          git config user.email "actions@github.com"
+          git add docs/pipeline.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "data: pipeline drafts"
+            n=0
+            until git push; do
+              n=$((n+1)); [ "$n" -gt 3 ] && exit 1
+              git pull --rebase -X theirs origin main || true
+            done
+          fi
+
+      - name: Phone alert if the pipeline broke
+        if: failure()
+        run: |
+          curl -s -m 15 -H "Title: AI x Ahmad - pipeline failed" -H "Priority: high" -H "Tags: warning" \
+            -d "The daily draft run failed. Check github.com/ahmad19sep/ai-news-updater/actions" \
+            "https://ntfy.sh/$NTFY_TOPIC" || true

@@ -7,13 +7,13 @@ const fs = require("fs"), path = require("path");
 const { JSDOM } = require("jsdom");
 const { webcrypto } = require("crypto");
 const ROOT = __dirname;
-const html = fs.readFileSync(path.join(ROOT, "docs", "studio.html"), "utf8");
+const html = fs.readFileSync(path.join(ROOT, "docs", "studio-legacy.html"), "utf8");
 const LOCKHASH = html.match(/const LOCKHASH = "([a-f0-9]*)"/)[1];
 
 const errors = [];
 let copied = "";
 const dom = new JSDOM(html, {
-  url: "https://ahmad19sep.github.io/ai-news-updater/studio.html",
+  url: "https://ahmad19sep.github.io/ai-news-updater/studio-legacy.html",
   runScripts: "dangerously", resources: "usable", pretendToBeVisual: true,
   beforeParse(w) {
     Object.defineProperty(w, "crypto", { value: webcrypto });

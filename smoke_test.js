@@ -134,9 +134,9 @@ new Function("window", tpl)(win);
 }
 
 /* ---------- 4. studio boots clean even with corrupted storage ---------- */
-const html = fs.readFileSync(path.join(__dirname, "docs", "studio.html"), "utf8");
+const html = fs.readFileSync(path.join(__dirname, "docs", "studio-legacy.html"), "utf8");
 const dom = new JSDOM(html, {
-  url: "https://ahmad19sep.github.io/ai-news-updater/studio.html",
+  url: "https://ahmad19sep.github.io/ai-news-updater/studio-legacy.html",
   runScripts: "dangerously", resources: "usable", pretendToBeVisual: true,
   beforeParse(window) {
     Object.defineProperty(window, "crypto", { value: webcrypto });

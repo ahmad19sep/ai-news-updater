@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4f7f9">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>AI x Ahmad — Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body>
+<div id="lock" hidden>
+  <div class="lockbox">
+    <div class="orb">A</div>
+    <h2>AI x Ahmad — Studio</h2>
+    <p>Private studio. Enter your access code.</p>
+    <div class="err" id="lockerr"></div>
+    <input id="lockcode" type="password" placeholder="access code" autocomplete="off" aria-label="Access code">
+    <button class="btn" style="width:100%" id="lockbtn">Enter</button>
+  </div>
+</div>
+
+<div class="app">
+  <aside class="sidebar">
+    <a class="brand" href="#today">
+      <span class="orb">A</span>
+      <span class="bt"><b>AI x Ahmad</b><small>STUDIO</small></span>
+    </a>
+    <nav aria-label="Main">
+      <div class="navgrp">Pipeline</div>
+      <a class="navitem" href="#today" data-screen="today">🏠 <span>Today</span></a>
+      <a class="navitem" href="#discover" data-screen="discover">📡 <span>Discover</span></a>
+      <a class="navitem" href="#ideas" data-screen="ideas">💡 <span>Ideas</span><span class="navcount" id="nc-ideas"></span></a>
+      <a class="navitem" href="#compose" data-screen="compose">✍️ <span>Compose</span><span class="navcount" id="nc-compose"></span></a>
+      <a class="navitem" href="#schedule" data-screen="schedule">📅 <span>Schedule</span><span class="navcount" id="nc-schedule"></span></a>
+      <a class="navitem" href="#published" data-screen="published">✅ <span>Published</span></a>
+      <div class="navgrp">Workspace</div>
+      <a class="navitem" href="#library" data-screen="library">📚 <span>Library</span></a>
+      <a class="navitem" href="#settings" data-screen="settings">⚙️ <span>Settings</span></a>
+    </nav>
+    <div class="sidefoot">
+      <span class="av">A</span>
+      <span class="who"><b>@aixahmad</b><small id="chanlabel">LinkedIn</small></span>
+      <button class="iconbtn" id="cloudbtn" title="Sync status" aria-label="Sync status">☁️</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="ttitle"><div class="pt" id="pageTitle">Today</div><div class="ps" id="pageSub"></div></div>
+      <div class="tutil">
+        <span class="updated" id="updated"></span>
+        <button class="iconbtn" id="themebtn" title="Switch theme" aria-label="Switch theme">🌙</button>
+      </div>
+    </header>
+    <div class="wrap">
+      <section id="s-today" class="screen"></section>
+      <section id="s-discover" class="screen" hidden>
+        <div class="subtabs" id="disc-tabs">
+          <button class="subtab active" data-sub="news">News</button>
+          <button class="subtab" data-sub="agents">Agents &amp; AI</button>
+          <button class="subtab" data-sub="pulse">Pulse</button>
+        </div>
+        <div id="disc-body"></div>
+      </section>
+      <section id="s-ideas" class="screen" hidden></section>
+      <section id="s-compose" class="screen" hidden>
+        <div class="compose">
+          <div class="clist" id="compose-list"></div>
+          <div class="ceditor" id="compose-editor"></div>
+        </div>
+      </section>
+      <section id="s-schedule" class="screen" hidden></section>
+      <section id="s-published" class="screen" hidden></section>
+      <section id="s-library" class="screen" hidden></section>
+      <section id="s-settings" class="screen" hidden></section>
+    </div>
+  </main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+window.STUDIO_DATA = __DATA__;
+</script>
+<script>
+/*__JS__*/
+</script>
+</body>
+</html>

@@ -5,6 +5,14 @@
 
 ---
 
+> **September 2026 update.** The product was rebuilt around a pipeline of small
+> agents (`agents/`, run by `run_pipeline.py`: triage → enrich → angle → writer →
+> verify) and a new Studio (`studio/` → `docs/studio.html`) with one Post record
+> flowing Today → Discover → Ideas → Compose → Schedule → Published. The page this
+> document describes tab-by-tab is kept as `docs/studio-legacy.html`. Read
+> [README.md](README.md) for the current system; the sections below still apply to
+> collection, scoring, Pulse, the public site and the security model.
+
 ## 1. What it is
 
 AI Radar Studio **collects AI news from ~90 sources every hour**, scores and de-duplicates it, and helps turn a selected story into **one useful LinkedIn post** — built only from facts the operator actually supplies, with the sources kept visible.

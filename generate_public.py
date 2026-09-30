@@ -665,7 +665,8 @@ def generate():
 
     # robots.txt — let crawlers in, keep the private studio out, point to sitemap
     with open(os.path.join(OUT_DIR, "robots.txt"), "w", encoding="utf-8") as f:
-        f.write("User-agent: *\nAllow: /\nDisallow: /studio.html\n\n"
+        f.write("User-agent: *\nAllow: /\nDisallow: /studio.html\nDisallow: /studio-legacy.html\n"
+                "Disallow: /pipeline.json\n\n"
                 f"Sitemap: {SITE_URL}sitemap.xml\n")
 
     # sitemap.xml — tells Google the homepage exists and changes often

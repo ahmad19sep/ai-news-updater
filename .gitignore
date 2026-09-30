@@ -21,3 +21,6 @@ newsdata_key.txt
 
 # Caira API key (local only; cloud uses the GitHub Secret)
 caira_key.txt
+
+# Claude API key (local only; cloud uses the GitHub Secret)
+anthropic_key.txt

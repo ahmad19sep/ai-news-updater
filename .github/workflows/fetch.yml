@@ -40,10 +40,14 @@ jobs:
       - name: Fetch news + send alerts + digest check
         run: python main.py
 
+      - name: Triage new stories into Studio ideas (free, no model)
+        run: python run_pipeline.py --mode free || echo "triage skipped"
+
       - name: Rebuild the public news site + the studio
         run: |
           python generate_public.py
           python generate_site.py
+          python generate_studio.py
 
       - name: Refresh weekly digest (dated archive only on Saturdays)
         run: |

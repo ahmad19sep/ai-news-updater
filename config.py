@@ -549,3 +549,35 @@ PULSE_PROBLEM_KEYWORDS = [
 
 # Reuse the existing local-angle keyword list for Pulse local relevance.
 PULSE_LOCAL_KEYWORDS = LOCAL_KEYWORDS
+
+
+# =====================================================================
+# CONTENT PIPELINE (agents/ + run_pipeline.py)
+# Small single-purpose agents: triage -> enrich -> angle -> writer -> verify.
+# Each LLM role has its own model so cost stays tiny; everything here is
+# editable. Voice, hooks and examples live in content/ as plain text.
+# =====================================================================
+# "free": rules-based triage + article fetch only; you write in the Studio by
+#         pasting prompts into your Claude / ChatGPT subscription (no API cost).
+# "api":  the Claude agents draft and verify automatically (needs ANTHROPIC_API_KEY).
+PIPELINE_MODE = "free"
+PIPELINE_FREE_ENRICH = 10               # free mode: fetch articles for this many top candidates per run
+PIPELINE_MODELS = {
+    "triage": "claude-haiku-4-5",    # bulk 1-10 scoring of every new story (cheap)
+    "angle":  "claude-opus-5-5",     # angles + hooks for the shortlist
+    "writer": "claude-opus-5-5",     # the LinkedIn draft itself
+    "verify": "claude-opus-5-5",     # grounding + AI-smell judge
+}
+PIPELINE_EFFORT = {"angle": "medium", "writer": "high", "verify": "medium"}
+PIPELINE_DAILY_BUDGET_USD = 1.00        # hard stop per run; a normal run is ~$0.30
+PIPELINE_TRIAGE_LOOKBACK_HOURS = 36     # stories fetched in this window are triaged
+PIPELINE_TRIAGE_MAX_STORIES = 250       # safety cap per run
+PIPELINE_TRIAGE_BATCH = 25              # stories per triage call
+PIPELINE_TRIAGE_KEEP_SCORE = 4          # below this a story is not even stored
+PIPELINE_TRIAGE_MIN_SCORE = 6           # at/above this it becomes a candidate
+PIPELINE_DRAFTS_PER_RUN = 5             # drafts written per run (you post 4-5/week)
+PIPELINE_ENRICH_MIN_CHARS = 600         # less article text than this = "thin source"
+PIPELINE_TOPICS = [
+    "models", "tools", "coding", "agents", "business", "health", "science",
+    "politics_policy", "security", "education", "society", "other",
+]
