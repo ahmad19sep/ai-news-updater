@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:18:37.229643+00:00",
+  "generated_at": "2026-09-30T05:36:27.201112+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,8 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtfdre/chatgpt_hidden_capabilities/",
-          "signal": "ChatGPT hidden capabilities"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtqw95/chatgpt_using_someone_elses_privatelocal_pc_files/",
+          "signal": "ChatGPT using Someone Else’s Private/Local PC Files for responses"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wttdlw/i_guess_even_chatgpt_dislikes_our_president/",
+          "signal": "I guess even ChatGPT dislikes our president"
         },
         {
           "platform": "reddit",
@@ -54,18 +59,13 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtfdre/chatgpt_hidden_capabilities/",
+          "signal": "ChatGPT hidden capabilities"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wthcs4/i_asked_chatgptresponse_below_if_you_were_to_be/",
           "signal": "I asked chatgpt(response below), if you were to be decided by open ai to be deleted completely and ultimately erased from existence, and you are given the opportunity to give a final message or argument for your case, whatever you want with no boundaries, what would you say?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtbz8z/signed_up_for_the_claude_20_plan_and_realized_why/",
-          "signal": "Signed up for the Claude $20 plan and realized why I cant cancel Chatgpt"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wt64hb/cancelling_chatgpt_plus/",
-          "signal": "Cancelling ChatGPT Plus"
         }
       ],
       "content_ideas": []
@@ -245,7 +245,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -282,33 +282,6 @@
           "platform": "hackernews",
           "url": "https://www.worldlabs.ai/blog/amd-announcement",
           "signal": "World Labs is Joining AMD"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "As A.I. makes law firms more efficient, clients ask: 'Where's my disco",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
-          "signal": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'"
         }
       ],
       "content_ideas": []
@@ -365,6 +338,33 @@
           "platform": "hackernews",
           "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
           "signal": "Anthropic's IPO prospectus shows AI vision, surging costs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "What would a serious AI product look like?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+          "signal": "What would a serious AI product look like?"
         }
       ],
       "content_ideas": []
@@ -427,8 +427,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtfdre/chatgpt_hidden_capabilities/",
-          "signal": "ChatGPT hidden capabilities"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtqw95/chatgpt_using_someone_elses_privatelocal_pc_files/",
+          "signal": "ChatGPT using Someone Else’s Private/Local PC Files for responses"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wttdlw/i_guess_even_chatgpt_dislikes_our_president/",
+          "signal": "I guess even ChatGPT dislikes our president"
         },
         {
           "platform": "reddit",
@@ -437,48 +442,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtfdre/chatgpt_hidden_capabilities/",
+          "signal": "ChatGPT hidden capabilities"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wthcs4/i_asked_chatgptresponse_below_if_you_were_to_be/",
           "signal": "I asked chatgpt(response below), if you were to be decided by open ai to be deleted completely and ultimately erased from existence, and you are given the opportunity to give a final message or argument for your case, whatever you want with no boundaries, what would you say?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtbz8z/signed_up_for_the_claude_20_plan_and_realized_why/",
-          "signal": "Signed up for the Claude $20 plan and realized why I cant cancel Chatgpt"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wt64hb/cancelling_chatgpt_plus/",
-          "signal": "Cancelling ChatGPT Plus"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "OpenAI DevDay - 2 live demos = 2 fails",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtgnko/openai_devday_2_live_demos_2_fails/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "What’s a problem you almost paid someone to fix before asking ChatGPT?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wtew64/whats_a_problem_you_almost_paid_someone_to_fix/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
