@@ -175,6 +175,39 @@ const visible = id => !d.getElementById("s-" + id).hidden;
   w.go("ideas"); await sleep(50);
   ok(Array.from(d.querySelectorAll("#s-ideas button")).some(b => b.textContent.includes("Write")) && !Array.from(d.querySelectorAll("#s-ideas button")).some(b => b.textContent.includes("Draft with API")), "free mode: Write button shown, API draft hidden");
 
+  // A real remote update must preserve composer clicks and edits awaiting autosave.
+  const cloudState = JSON.parse(JSON.stringify(STATE)); let cloudStream; let cloudWrites = 0;
+  const cloudDom = new JSDOM(html.replace(/"fbUrl": ?""/, '"fbUrl": "https://firebase.example"'), { runScripts: "dangerously", pretendToBeVisual: true, url: "https://example.com/studio.html",
+    beforeParse(window) {
+      window.crypto = require("crypto").webcrypto; window.localStorage.setItem("boardkey", "test-key");
+      window.navigator.clipboard = { writeText: async t => { window.__clip = t; } }; window.open = () => null; window.scrollTo = () => {};
+      window.EventSource = class { constructor() { this.listeners = {}; cloudStream = this; } addEventListener(name, fn) { this.listeners[name] = fn; } };
+      window.fetch = async (url, opts = {}) => {
+        const u = String(url); const response = body => ({ ok: true, status: 200, json: async () => JSON.parse(JSON.stringify(body)) });
+        if (u.startsWith("https://firebase.example/")) {
+          if (opts.method === "PATCH") { const match = /\/([^/]+)\/([^/]+)\.json$/.exec(u); Object.assign(cloudState[match[1]][match[2]], JSON.parse(opts.body)); cloudWrites++; }
+          return response(cloudState);
+        }
+        if (u.startsWith("pipeline.json")) return response(cloudState);
+        if (u.startsWith("pulse.json")) return response(PULSE);
+        throw new Error("unexpected cloud fetch " + u);
+      };
+    } });
+  const cw = cloudDom.window, cd = cw.document; await sleep(150); cw.openDraft("c1");
+  const cloudPost = cd.getElementById("ed-post"); cloudPost.focus();
+  cloudState.candidates.c2.reason = "remote update"; cloudStream.listeners.patch({ data: "{}" }); await sleep(850);
+  ok(cd.getElementById("ed-post") === cloudPost, "remote update waits while the composer is focused");
+  const cloudCopy = Array.from(cd.querySelectorAll("#compose-editor button")).find(b => b.textContent.includes("Copy post"));
+  cloudCopy.focus();
+  ok(cloudCopy.isConnected && cd.getElementById("ed-post") === cloudPost, "moving to a composer button does not rebuild it before the click");
+  cloudCopy.click(); await sleep(20); ok(/A clinic group/.test(cw.__clip), "the first composer button click still works after a remote update");
+  cloudPost.focus(); cloudPost.value = "Latest unsaved keystrokes"; cloudPost.dispatchEvent(new cw.Event("input"));
+  cd.getElementById("cloudbtn").focus(); await sleep(30);
+  ok(cd.getElementById("ed-post").value === "Latest unsaved keystrokes" && cw.__S.drafts.c1.edited_post === "Latest unsaved keystrokes", "leaving the composer flushes pending autosave before the remote rebuild");
+  await sleep(750);
+  ok(cloudWrites === 1 && cloudState.drafts.c1.edited_post === "Latest unsaved keystrokes", "flushed autosave reaches the cloud once and cancels its pending timer");
+  cloudDom.window.close();
+
   console.log(fails.length ? `\n${fails.length} FAILED` : "\nALL PASSED");
   process.exit(fails.length ? 1 : 0);
 })().catch(e => { console.error(e); process.exit(1); });
