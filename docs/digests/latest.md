@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 23 Sep 2026 to 30 Sep 2026
+# 🗞️ AI THIS WEEK — 24 Sep 2026 to 01 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Nvidia unveils security platform to stop AI agents from going rogue - PBS**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
 - **AI agent hacks government website for first time: why this breach matters** — https://www.nature.com/articles/d41586-026-03024-z
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2992
+- Total stories tracked: 3060
 - Most active topic: openai
 - Busiest category: AI General News
 
