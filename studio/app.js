@@ -134,11 +134,35 @@ function startStream() {
   if (stream || !FBURL) return;
   try {
     stream = new EventSource(fbRoot() + ".json");
-    const refresh = debounce(async () => { const before = JSON.stringify(S); await loadStateQuiet(); if (JSON.stringify(S) !== before) rerender(); }, 800);
+    const refresh = debounce(async () => {
+      const before = JSON.stringify(canon(S)); await loadStateQuiet(); if (JSON.stringify(canon(S)) === before) return;
+      const a = document.activeElement;
+      if (a && /^(TEXTAREA|INPUT)$/.test(a.tagName) && a.closest("#compose-editor")) {
+        const ed = a.closest("#compose-editor");
+        if (!ed.syncPending) {
+          ed.syncPending = true;
+          const leaveEditor = e => {
+            if (e.relatedTarget && ed.contains(e.relatedTarget)) return;
+            ed.removeEventListener("focusout", leaveEditor); ed.syncPending = false;
+            if (ed.flushEdits) ed.flushEdits();
+            setTimeout(() => rerender(), 0);
+          };
+          ed.addEventListener("focusout", leaveEditor);
+        }
+        return;
+      }
+      rerender();
+    }, 800);
     stream.addEventListener("put", e => { if (!e.data || e.data === "null") return; refresh(); });
     stream.addEventListener("patch", refresh);
     stream.onerror = () => setCloud(false);
   } catch (e) { stream = null; }
+}
+/* Firebase returns keys sorted and drops null / empty arrays / empty objects; compare on that shape so a round-trip never counts as a change. */
+function canon(v) {
+  if (Array.isArray(v)) { const a = v.map(canon).filter(x => x !== undefined); return a.length ? a : undefined; }
+  if (v && typeof v === "object") { const o = {}; for (const k of Object.keys(v).sort()) { const c = canon(v[k]); if (c !== undefined) o[k] = c; } return Object.keys(o).length ? o : undefined; }
+  return v == null ? undefined : v;
 }
 async function loadStateQuiet() {
   try { const r = await fetch(fbRoot() + ".json", { cache: "no-store" }); if (!r.ok) return; const raw = await r.json() || {}; for (const c of Object.keys(S)) S[c] = (raw[c] && typeof raw[c] === "object") ? Object.assign({}, raw[c]) : {}; applyOverrides(); setCloud(true); } catch (e) { setCloud(false); }
@@ -357,6 +381,7 @@ function renderIdeas() {
 
 /* ================================================================ Compose */
 let composeId = null, composeFilter = "review", previewMode = jload("previewMode", "mobile");
+const pasteBuf = {}; window.pasteBuf = pasteBuf;
 function renderCompose() {
   const filt = { review: d => d.status === "draft", approved: d => ["approved", "scheduled"].includes(d.status), all: d => d.status !== "published" }[composeFilter];
   const list = drafts(filt).sort(byCreated);
@@ -398,11 +423,12 @@ function renderEditor(id) {
         </div>
         ${sec("Write with Claude or ChatGPT", `
           <ol class="howto"><li>Copy the writer prompt and paste it into Claude.ai or ChatGPT.</li><li>Paste its answer below and press Parse. Post, first comment, claims and checks fill in.</li><li>Edit in your voice. Optionally run the fact-check the same way.</li></ol>
-          ${pack.excerpt ? `<p class="cap" style="margin-bottom:8px"><span class="dot ok"></span>Source text loaded (${pack.chars} chars${pack.thin ? ", thin" : ""}). The prompt uses the real article, not just the headline.</p>` : `<div class="row" style="margin-bottom:8px"><button class="btn sm" id="ed-fetch" onclick="fetchArticle('${d.id}')">${ic("download")}Fetch article text</button><span class="cap">No article text yet. Fetch it, or paste facts from the article below; the prompt is never built from the link alone.</span></div>
-          <textarea id="ed-facts" placeholder="A few lines of real facts, numbers, quotes copied from the article">${esc(d.facts || "")}</textarea>`}
+          ${pack.excerpt ? `<p class="cap" style="margin-bottom:8px"><span class="dot ok"></span>Source text loaded (${pack.chars} chars${pack.thin ? ", thin" : ""}). The prompt uses the real article, not just the headline.</p>` : `<div class="row" style="margin-bottom:6px"><input type="text" id="ed-url" value="${esc(fetchUrlFor(d))}" placeholder="https://publisher.com/the-article" spellcheck="false" style="flex:1;min-width:220px;font-family:var(--mono);font-size:12px"><button class="btn sm" id="ed-fetch" onclick="fetchArticle('${d.id}')">${ic("download")}Fetch article text</button></div>
+          <p class="cap" id="ed-fetch-msg" style="margin-bottom:8px">${isGoogleNews(fetchUrlFor(d)) ? "This is a Google News redirect link, which the reader cannot open. Open the story, copy the publisher's address from the browser bar, paste it above and fetch." : "Optional. The prompt works from the headline and feed summary; fetching the article, or pasting a few facts below, gives the writer real numbers and quotes to use."}</p>
+          <textarea id="ed-facts" placeholder="Optional: a few lines of real facts, numbers, quotes copied from the article">${esc(d.facts || "")}</textarea>`}
           <div class="row" style="margin:8px 0"><button class="btn" onclick="copyPrompt('${d.id}')">${ic("copy")}Copy writer prompt</button>
             <button class="btn ghost" onclick="copyJudgePrompt('${d.id}')" ${postOf(d).trim() ? "" : "disabled"}>${ic("search")}Copy fact-check prompt</button></div>
-          <div class="field"><label for="ed-paste">Paste the answer</label><textarea id="ed-paste" style="min-height:56px;font-family:var(--mono);font-size:12px" placeholder='{"angles": [...], "post": "...", ...}'></textarea></div>
+          <div class="field"><label for="ed-paste">Paste the answer</label><textarea id="ed-paste" style="min-height:56px;font-family:var(--mono);font-size:12px" placeholder='{"angles": [...], "post": "...", ...}' oninput="pasteBuf['${d.id}']=this.value">${esc(pasteBuf[d.id] || "")}</textarea></div>
           <div class="row"><button class="btn sm" onclick="parseAnswer('${d.id}')">${ic("play")}Parse answer</button><span class="cap" id="ed-parse-msg"></span></div>`, "your subscription, no API cost")}
         ${(d.claims || []).length ? `<details style="margin-bottom:12px"><summary>Claims and where they come from (${d.claims.length})</summary><table class="claims">${d.claims.map(c => `<tr><td>${esc(c.claim)}</td><td><span class="chip ${c.kind === "reported_fact" ? "ok" : c.kind === "unsupported" ? "bad" : c.kind === "my_interpretation" ? "purple" : "accent"}">${esc(String(c.kind || "").replace(/_/g, " "))}</span> ${esc(c.support)}</td></tr>`).join("")}</table></details>` : ""}
         ${d.review_notes ? `<details open style="margin-bottom:12px"><summary>Writer's private notes</summary><p class="t3" style="white-space:pre-wrap;padding:4px 0 0 17px">${esc(d.review_notes)}</p></details>` : ""}
@@ -417,7 +443,10 @@ function renderEditor(id) {
       </div>
     </div>`;
   const refresh = () => refreshEditorPanels(d.id);
-  const persist = debounce(() => { const dd = S.drafts[d.id]; if (!dd) return; patchDoc("drafts", d.id, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value, hashtags: ($("#ed-tags").value.match(/#\w+/g) || []), facts: $("#ed-facts") ? $("#ed-facts").value : (dd.facts || "") }, true); const sv = $("#ed-saved"); if (sv) sv.textContent = "saved " + fmtT(new Date()); }, 700);
+  let persistTimer = null;
+  const saveEdits = () => { clearTimeout(persistTimer); persistTimer = null; const dd = S.drafts[d.id]; if (!dd) return; patchDoc("drafts", d.id, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value, hashtags: ($("#ed-tags").value.match(/#\w+/g) || []), facts: $("#ed-facts") ? $("#ed-facts").value : (dd.facts || "") }, true); const sv = $("#ed-saved"); if (sv) sv.textContent = "saved " + fmtT(new Date()); };
+  const persist = () => { clearTimeout(persistTimer); persistTimer = setTimeout(saveEdits, 700); };
+  ed.flushEdits = () => { if (persistTimer !== null) saveEdits(); };
   const grow = el => { el.style.height = "auto"; el.style.height = Math.max(320, el.scrollHeight + 4) + "px"; };
   ["ed-post", "ed-comment", "ed-tags", "ed-facts"].forEach(i => { const el = $("#" + i); if (el) el.addEventListener("input", () => { const sv = $("#ed-saved"); if (sv) sv.textContent = "saving…"; if (i === "ed-post") grow(el); refresh(); persist(); }); });
   grow($("#ed-post"));
@@ -428,7 +457,7 @@ function refreshEditorPanels(id) {
   const post = $("#ed-post") ? $("#ed-post").value : postOf(d);
   const tags = $("#ed-tags") ? ($("#ed-tags").value.match(/#\w+/g) || []) : (d.hashtags || []);
   const pack = S.sources[d.candidate_id || d.id] || {};
-  const r = checkPost(post, pack, [(d.angle || {}).angle, (d.angle || {}).hook, d.facts].join(" "), tags);
+  const r = checkPost(post, pack, [(d.angle || {}).angle, (d.angle || {}).hook, d.facts, summaryOf(d)].join(" "), tags);
   const pipe = ((d.verify || {}).issues || []).filter(i => ["unsupported", "attribution", "ai_smell", "vague"].includes(i.code));
   const all = r.issues.concat(pipe);
   const words = post.split(/\s+/).filter(Boolean).length;
@@ -456,12 +485,22 @@ window.markPosted = async id => {
 window.confirmThen = (btn, fn) => { if (btn.dataset.armed) { delete btn.dataset.armed; fn(); return; } const orig = btn.innerHTML; btn.dataset.armed = "1"; btn.textContent = btn.dataset.confirm + " Click again"; setTimeout(() => { if (btn.dataset.armed) { delete btn.dataset.armed; btn.innerHTML = orig; } }, 4000); };
 
 /* Fetch the article from inside the Studio through the r.jina.ai reader. */
+const isGoogleNews = u => /^https?:\/\/news\.google\.com\//i.test(String(u || ""));
+/* Best address to read: a pack or candidate the pipeline already resolved beats the feed link. */
+function fetchUrlFor(d) {
+  const cid = d.candidate_id || d.id; const pack = S.sources[cid] || {}; const c = S.candidates[cid] || {};
+  return [pack.url, c.resolved_url, d.url].find(u => u && !isGoogleNews(u)) || d.url || "";
+}
 window.fetchArticle = async id => {
   const d = S.drafts[id]; if (!d) return;
+  const box = $("#ed-url"); const url = ((box && box.value) || fetchUrlFor(d) || "").trim();
+  const msg = $("#ed-fetch-msg"); const say = (t, bad) => { if (msg) { msg.textContent = t; msg.style.color = bad ? "var(--bad)" : ""; } if (bad) toast(t, 5000); };
+  if (!/^https?:\/\/\S+$/i.test(url)) { say("Paste the article's address in the box first.", true); return; }
+  if (isGoogleNews(url)) { say("That is a Google News redirect link and the reader is blocked on that domain. The story is opening in a new tab: copy the publisher's address from the browser bar, paste it in the box and fetch again.", true); window.open(url, "_blank", "noopener"); return; }
   const btn = $("#ed-fetch"); if (btn) { btn.disabled = true; btn.textContent = "Fetching…"; }
   try {
-    const r = await fetch("https://r.jina.ai/" + d.url, { headers: { "Accept": "text/plain", "X-Return-Format": "text" } });
-    if (!r.ok) throw new Error("reader returned " + r.status);
+    let r; try { r = await fetch("https://r.jina.ai/" + url, { headers: { "Accept": "text/plain", "X-Return-Format": "text" } }); } catch (e) { throw new Error("the reader could not be reached: offline, or an ad-blocker stops r.jina.ai"); }
+    if (!r.ok) throw new Error(r.status === 429 ? "the reader is rate-limited, try again in a minute" : (r.status === 403 || r.status === 451) ? "the reader refuses this site (" + r.status + ")" : "reader returned " + r.status);
     let text = await r.text();
     const i = text.indexOf("Markdown Content:"); if (i >= 0) text = text.slice(i + 17);
     text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/[ \t]+/g, " ");
@@ -469,29 +508,41 @@ window.fetchArticle = async id => {
     const excerpt = paras.join("\n\n").slice(0, 7000);
     if (excerpt.length < 200) throw new Error("the page gave almost no text (paywall or video?)");
     const quotes = (excerpt.match(/["“]([^"”]{25,320})["”]/g) || []).slice(0, 8).map(q => q.slice(1, -1));
-    await patchDoc("sources", d.candidate_id || d.id, { url: d.url, title: d.title, source: d.source, excerpt, chars: excerpt.length, quotes, thin: excerpt.length < 600, ok: excerpt.length >= 600, note: "fetched in the Studio via r.jina.ai", fetched_at: nowIso() }, true);
-    if (d.candidate_id && S.candidates[d.candidate_id]) await patchDoc("candidates", d.candidate_id, { source_ok: excerpt.length >= 600, source_chars: excerpt.length }, true);
+    const cid = d.candidate_id || d.id;
+    await patchDoc("sources", cid, { url, title: d.title, source: d.source, excerpt, chars: excerpt.length, quotes, thin: excerpt.length < 600, ok: excerpt.length >= 600, note: "fetched in the Studio via r.jina.ai", fetched_at: nowIso() }, true);
+    if (url !== d.url) {
+      const fields = { url };
+      for (const k of ["first_comment", "edited_comment"]) if (d.url && String(d[k] || "").includes(d.url)) fields[k] = String(d[k]).split(d.url).join(url);
+      await patchDoc("drafts", id, fields, true);
+    }
+    if (S.candidates[cid]) await patchDoc("candidates", cid, { resolved_url: url, source_ok: excerpt.length >= 600, source_chars: excerpt.length }, true);
     renderEditor(id); toast(`Article fetched: ${excerpt.length} characters of source text`);
   } catch (e) {
-    toast("Could not fetch the article (" + e.message + "). Paste a few facts instead.", 4000);
+    say("Could not fetch the article (" + e.message + "). Paste a few facts from it below instead.", true);
     if (btn) { btn.disabled = false; btn.innerHTML = ic("download") + "Fetch article text"; }
   }
 };
 
 /* Manual mode: the same agent prompts, answered by your Claude / ChatGPT
    subscription. The answer is one JSON object; parseAnswer() fills the draft. */
+/* The feed summary that came with the headline (pipeline candidates and ideas saved from Discover both carry one). */
+const summaryOf = d => { const cid = d.candidate_id || d.id; return String((S.candidates[cid] || {}).summary || (S.sources[cid] || {}).feed_summary || d.summary || "").trim(); };
+/* Article text when fetched, else typed facts, else the headline + feed summary with a
+   warning. The prompt is never refused: a thin source just gets a stricter brief. */
 function sourceBlock(d) {
   const pack = S.sources[d.candidate_id || d.id] || {};
   const facts = $("#ed-facts") ? $("#ed-facts").value.trim() : (d.facts || "");
-  const text = pack.excerpt || facts;
-  if (!text) return null;
-  return ["STORY: " + d.title, `SOURCE: ${d.source} (${d.url})` + (pack.published ? "  published " + String(pack.published).slice(0, 10) : ""),
-    pack.thin ? "SOURCE WARNING: the article could not be fully fetched — work only with what is here and keep it short and honest." : "",
-    "SOURCE TEXT:\n" + text, (pack.quotes || []).length ? "QUOTES:\n" + pack.quotes.slice(0, 8).map(q => "- " + q).join("\n") : ""].filter(Boolean).join("\n\n");
+  const summary = summaryOf(d);
+  const text = pack.excerpt || facts || summary;
+  const warn = pack.excerpt ? (pack.thin ? "SOURCE WARNING: the article could not be fully fetched — work only with what is here and keep it short and honest." : "")
+    : facts ? "SOURCE WARNING: these are facts the creator copied by hand, not the full article — use nothing beyond them."
+    : "SOURCE WARNING: only the headline and the feed summary are available. Use no number, name, quote or detail that is not in them; keep the post short and honest, and say what is known rather than guessing.";
+  return ["STORY: " + d.title, `SOURCE: ${d.source} (${d.url})` + (pack.published ? "  published " + String(pack.published).slice(0, 10) : ""), warn,
+    text ? "SOURCE TEXT:\n" + text : "SOURCE TEXT: (none beyond the headline)", (pack.quotes || []).length ? "QUOTES:\n" + pack.quotes.slice(0, 8).map(q => "- " + q).join("\n") : ""].filter(Boolean).join("\n\n");
 }
+const sourceKind = d => { const pack = S.sources[d.candidate_id || d.id] || {}; const facts = $("#ed-facts") ? $("#ed-facts").value.trim() : (d.facts || ""); return pack.excerpt ? "article" : facts ? "facts" : "headline"; };
 window.copyPrompt = id => {
-  const d = S.drafts[id]; const src = sourceBlock(d);
-  if (!src) { toast("Paste some facts first. A headline alone produces invented details."); return; }
+  const d = S.drafts[id]; const src = sourceBlock(d); const kind = sourceKind(d);
   const recent = drafts(x => x.status === "published").sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || ""))).slice(0, 12);
   const p = [D.prompts.writer, "", "CREATOR & VOICE:\n" + D.content.voice, "", "LINKEDIN RULES:\n" + D.content.rules,
     "", "HOOK PATTERNS (draw on, never copy):\n" + (D.content.hooks || []).map(h => "- " + (h.text || h)).join("\n"),
@@ -505,7 +556,8 @@ window.copyPrompt = id => {
     '{"angles":[{"angle":"","hook":"","format":"text|carousel|image","mode":"insight|practical|story|question","why":""}],',
     ' "chosen":0, "post":"", "first_comment":"", "hashtags":[], "claims":[{"claim":"","support":"","kind":"reported_fact|attributed_claim|my_interpretation|unsupported"}],',
     ' "review_notes":"", "status":"draft|skip"}'].filter(x => x !== "").join("\n");
-  copy(p, "Writer prompt copied. Paste it into Claude.ai or ChatGPT, then paste the JSON answer back here.");
+  copy(p, kind === "headline" ? "Writer prompt copied from the headline and feed summary. Paste it into Claude.ai or ChatGPT, then paste the JSON answer back here. Fetch the article for a richer post."
+    : "Writer prompt copied. Paste it into Claude.ai or ChatGPT, then paste the JSON answer back here.");
 };
 window.copyJudgePrompt = id => {
   const d = S.drafts[id]; const post = $("#ed-post") ? $("#ed-post").value : postOf(d); const src = sourceBlock(d);
@@ -514,39 +566,74 @@ window.copyJudgePrompt = id => {
     "", "OUTPUT: return ONE JSON object only, inside a ```json fence:", '{"unsupported_claims":[], "misattributed":[], "ai_smell":1, "specificity":1, "fixes":[], "summary":""}'].join("\n");
   copy(p, "Fact-check prompt copied. Paste the JSON answer back here.");
 };
+/* Chat answers are rarely clean JSON: raw line breaks inside strings, trailing commas,
+   curly quotes. Try strict first, then progressively repaired copies. */
+function repairJson(text) {
+  text = text.replace(/,\s*([}\]])/g, "$1");
+  let out = "", inStr = false, escd = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (!inStr) { if (ch === '"') inStr = true; out += ch; continue; }
+    if (escd) { escd = false; out += ch; }
+    else if (ch === "\\") { escd = true; out += ch; }
+    else if (ch === '"') {
+      // a quote inside a value (He said "yes") is not followed by , } ] or : -- escape it instead of closing the string
+      const rest = text.slice(i + 1).match(/^\s*([,}\]:]|$)/); if (rest) { inStr = false; out += ch; } else out += '\\"';
+    }
+    else if (ch === "\n") out += "\\n";
+    else if (ch === "\r") out += "";
+    else if (ch === "\t") out += "\\t";
+    else out += ch;
+  }
+  return out;
+}
 function extractJson(text) {
   text = String(text || "").trim();
+  if (!text) throw new Error("the box is empty");
   const fence = text.match(/```(?:json)?\s*([\s\S]*?)```/i); if (fence) text = fence[1];
   const a = text.indexOf("{"), b = text.lastIndexOf("}"); if (a < 0 || b <= a) throw new Error("no JSON object found");
-  return JSON.parse(text.slice(a, b + 1));
+  const body = text.slice(a, b + 1); let err = null;
+  for (const t of [body, repairJson(body), repairJson(body.replace(/[\u201c\u201d]/g, '"').replace(/[\u2018\u2019]/g, "'"))]) {
+    try { return JSON.parse(t); } catch (e) { err = err || e; }
+  }
+  throw err;
 }
 window.parseAnswer = async id => {
-  const d = S.drafts[id]; const raw = $("#ed-paste").value; const msg = $("#ed-parse-msg");
-  let j; try { j = extractJson(raw); } catch (e) { msg.textContent = "Could not read that: " + e.message + ". Paste the whole JSON answer."; return; }
-  const pack = S.sources[d.candidate_id || d.id] || {};
-  if (typeof j.post === "string") {
-    if (j.status === "skip" && !j.post.trim()) { msg.textContent = "The writer says skip: " + (j.review_notes || "no useful angle"); await patchDoc("drafts", id, { review_notes: j.review_notes || "writer suggested skip" }, true); return; }
-    const angles = Array.isArray(j.angles) ? j.angles : []; const chosen = angles[Math.min(Number(j.chosen) || 0, Math.max(angles.length - 1, 0))] || null;
-    const hashtags = (Array.isArray(j.hashtags) ? j.hashtags : String(j.hashtags || "").split(/\s+/)).map(h => String(h).trim()).filter(Boolean).map(h => h.startsWith("#") ? h : "#" + h).slice(0, 3);
-    const r = checkPost(j.post, pack, [(chosen || {}).angle, (chosen || {}).hook, d.facts].join(" "), hashtags);
-    await patchDoc("drafts", id, { post: j.post, edited_post: null, first_comment: String(j.first_comment || commentOf(d)), edited_comment: null, hashtags, claims: Array.isArray(j.claims) ? j.claims : [], review_notes: String(j.review_notes || ""), angle: chosen, format: (chosen || {}).format || d.format || "text", angles, verify: { verdict: r.verdict, issues: r.issues, hook_len: r.hookLen, chars: r.chars, engine: "manual" }, status: d.status === "rejected" ? "draft" : d.status }, true);
-    renderEditor(id); toast("Draft filled in. Now edit it in your voice.");
-    return;
+  const d = S.drafts[id]; const box = $("#ed-paste"); const raw = box ? box.value : (pasteBuf[id] || ""); const msg = $("#ed-parse-msg");
+  const say = (text, bad) => { if (msg) { msg.textContent = text; msg.style.color = bad ? "var(--bad)" : ""; } if (bad) toast(text, 4000); };
+  if (!d) { say("This draft is no longer loaded. Reload the page.", true); return; }
+  if (!raw.trim()) { say("The box is empty. Paste the writer's or the checker's JSON answer first.", true); return; }
+  let j; try { j = extractJson(raw); } catch (e) {
+    const m = /position (\d+)/.exec(e.message || ""); const at = m ? Number(m[1]) : -1;
+    const near = at >= 0 ? " Near: \u201c\u2026" + raw.slice(Math.max(0, at - 60), at + 20).replace(/\s+/g, " ") + "\u2026\u201d" : "";
+    say("Could not read that: " + e.message + "." + near + " Fix that spot in the box, or paste the text straight into the post box.", true); return;
   }
-  if (Array.isArray(j.unsupported_claims) || j.ai_smell != null) {
-    const v = Object.assign({}, d.verify || { issues: [] });
-    v.issues = (v.issues || []).filter(i => !["unsupported", "attribution", "ai_smell", "vague"].includes(i.code));
-    (j.unsupported_claims || []).forEach(c => v.issues.push({ level: "fail", code: "unsupported", msg: String(c) }));
-    (j.misattributed || []).forEach(c => v.issues.push({ level: "warn", code: "attribution", msg: String(c) }));
-    if (Number(j.ai_smell) >= 4) v.issues.push({ level: "warn", code: "ai_smell", msg: `reads generic (ai_smell ${j.ai_smell}/5)` });
-    if (j.specificity != null && Number(j.specificity) <= 2) v.issues.push({ level: "warn", code: "vague", msg: `low specificity (${j.specificity}/5)` });
-    v.judge = { summary: String(j.summary || ""), ai_smell: Number(j.ai_smell) || 0, specificity: Number(j.specificity) || 0, fixes: Array.isArray(j.fixes) ? j.fixes : [], unsupported_claims: j.unsupported_claims || [], misattributed: j.misattributed || [] };
-    v.verdict = v.issues.some(i => i.level === "fail") ? "fail" : v.issues.length ? "warn" : "pass";
-    await patchDoc("drafts", id, { verify: v }, true);
-    renderEditor(id); toast("Fact-check applied: " + v.verdict);
-    return;
-  }
-  msg.textContent = "That JSON has neither a post nor a fact-check. Paste the writer's or the checker's answer.";
+  try {
+    const pack = S.sources[d.candidate_id || d.id] || {};
+    if (typeof j.post === "string") {
+      if (j.status === "skip" && !j.post.trim()) { say("The writer says skip: " + (j.review_notes || "no useful angle")); await patchDoc("drafts", id, { review_notes: j.review_notes || "writer suggested skip" }, true); return; }
+      const angles = Array.isArray(j.angles) ? j.angles : []; const chosen = angles[Math.min(Number(j.chosen) || 0, Math.max(angles.length - 1, 0))] || null;
+      const hashtags = (Array.isArray(j.hashtags) ? j.hashtags : String(j.hashtags || "").split(/\s+/)).map(h => String(h).trim()).filter(Boolean).map(h => h.startsWith("#") ? h : "#" + h).slice(0, 3);
+      const r = checkPost(j.post, pack, [(chosen || {}).angle, (chosen || {}).hook, d.facts, summaryOf(d)].join(" "), hashtags);
+      await patchDoc("drafts", id, { post: j.post, edited_post: null, first_comment: String(j.first_comment || commentOf(d)), edited_comment: null, hashtags, claims: Array.isArray(j.claims) ? j.claims : [], review_notes: String(j.review_notes || ""), angle: chosen, format: (chosen || {}).format || d.format || "text", angles, verify: { verdict: r.verdict, issues: r.issues, hook_len: r.hookLen, chars: r.chars, engine: "manual" }, status: d.status === "rejected" ? "draft" : d.status }, true);
+      delete pasteBuf[id]; renderEditor(id); toast("Draft filled in. Now edit it in your voice.");
+      return;
+    }
+    if (Array.isArray(j.unsupported_claims) || j.ai_smell != null) {
+      const v = Object.assign({}, d.verify || { issues: [] });
+      v.issues = (v.issues || []).filter(i => !["unsupported", "attribution", "ai_smell", "vague"].includes(i.code));
+      (j.unsupported_claims || []).forEach(c => v.issues.push({ level: "fail", code: "unsupported", msg: String(c) }));
+      (j.misattributed || []).forEach(c => v.issues.push({ level: "warn", code: "attribution", msg: String(c) }));
+      if (Number(j.ai_smell) >= 4) v.issues.push({ level: "warn", code: "ai_smell", msg: `reads generic (ai_smell ${j.ai_smell}/5)` });
+      if (j.specificity != null && Number(j.specificity) <= 2) v.issues.push({ level: "warn", code: "vague", msg: `low specificity (${j.specificity}/5)` });
+      v.judge = { summary: String(j.summary || ""), ai_smell: Number(j.ai_smell) || 0, specificity: Number(j.specificity) || 0, fixes: Array.isArray(j.fixes) ? j.fixes : [], unsupported_claims: j.unsupported_claims || [], misattributed: j.misattributed || [] };
+      v.verdict = v.issues.some(i => i.level === "fail") ? "fail" : v.issues.length ? "warn" : "pass";
+      await patchDoc("drafts", id, { verify: v }, true);
+      delete pasteBuf[id]; renderEditor(id); toast("Fact-check applied: " + v.verdict);
+      return;
+    }
+    say("That JSON has neither a post nor a fact-check. Paste the writer's or the checker's answer.", true);
+  } catch (e) { console.error(e); say("Parse failed: " + e.message, true); }
 };
 
 /* ================================================================ Schedule */
