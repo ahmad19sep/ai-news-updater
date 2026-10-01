@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:00:16.034280+00:00",
+  "generated_at": "2026-10-01T13:21:43.376445+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 33,
-      "hackernews": 28,
+      "reddit": 25,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -82,6 +82,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuxjpb/does_your_chatgpt_pass_the_ninja_test/",
+          "signal": "Does your ChatGPT pass the NINJA test?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wumf8e/is_it_just_me_or_has_chatgpt_become_noticeably/",
           "signal": "Is it just me or has ChatGPT become noticeably slower answering questions over the past few weeks?"
         },
@@ -97,13 +102,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhduk/is_chatgpt_okay/",
-          "signal": "Is ChatGPT okay!?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu55gy/hey_doomers_chatgpt_is_going_to_come_out_with/",
-          "signal": "Hey Doomers: ChatGPT is going to come out with something shocking by the time our 62,500 credits expire."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuv5u8/anyone_else_suddenly_unable_to_load_older_chatgpt/",
+          "signal": "anyone else suddenly unable to load older ChatGPT chats, especially chats inside Projects?"
         }
       ],
       "content_ideas": []
@@ -163,62 +163,6 @@
       "content_ideas": []
     },
     {
-      "name": "NASA asked several former SR-71A staffers to help secret restart",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
-          "signal": "NASA asked several former SR-71A staffers to help secret restart"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-          "signal": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI needs $6T in annual revenue to justify data centre boom",
       "category": "use_case",
       "momentum": "rising",
@@ -246,7 +190,7 @@
       "content_ideas": []
     },
     {
-      "name": "Sustainable energy without the hot air (2008)",
+      "name": "Responsible Release of AI-Generated Mathematics",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -266,35 +210,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.withouthotair.com/",
-          "signal": "Sustainable energy without the hot air (2008)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permi",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-          "signal": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions"
+          "url": "https://agmai.org/general-sep29/",
+          "signal": "Responsible Release of AI-Generated Mathematics"
         }
       ],
       "content_ideas": []
@@ -327,7 +244,7 @@
       "content_ideas": []
     },
     {
-      "name": "Responsible Release of AI-Generated Mathematics",
+      "name": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permi",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -347,8 +264,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://agmai.org/general-sep29/",
-          "signal": "Responsible Release of AI-Generated Mathematics"
+          "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+          "signal": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions"
         }
       ],
       "content_ideas": []
@@ -376,6 +293,93 @@
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
           "signal": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://lathoa.ai/en",
+          "signal": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "McDonald's push to have AI price your Big Mac",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html",
+          "signal": "McDonald's push to have AI price your Big Mac"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuy0pj/chat_gpt_me_devolvió_la_cuenta_pero_ya_es_tarde/",
+          "signal": "Chat gpt me devolvió la cuenta pero ya es tarde, conocí a Claude 😍"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DD-SiFV93sQ",
+          "signal": "The Man Who Mastered Claude Code: The EASY Way To Use AI Agents To Make Money &amp; Build Automations"
         }
       ],
       "content_ideas": []
@@ -449,6 +453,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuxjpb/does_your_chatgpt_pass_the_ninja_test/",
+          "signal": "Does your ChatGPT pass the NINJA test?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wumf8e/is_it_just_me_or_has_chatgpt_become_noticeably/",
           "signal": "Is it just me or has ChatGPT become noticeably slower answering questions over the past few weeks?"
         },
@@ -464,55 +473,46 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhduk/is_chatgpt_okay/",
-          "signal": "Is ChatGPT okay!?"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuv5u8/anyone_else_suddenly_unable_to_load_older_chatgpt/",
+          "signal": "anyone else suddenly unable to load older ChatGPT chats, especially chats inside Projects?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu55gy/hey_doomers_chatgpt_is_going_to_come_out_with/",
-          "signal": "Hey Doomers: ChatGPT is going to come out with something shocking by the time our 62,500 credits expire."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuy0pj/chat_gpt_me_devolvió_la_cuenta_pero_ya_es_tarde/",
+          "signal": "Chat gpt me devolvió la cuenta pero ya es tarde, conocí a Claude 😍"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DD-SiFV93sQ",
+          "signal": "The Man Who Mastered Claude Code: The EASY Way To Use AI Agents To Make Money &amp; Build Automations"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Plus image limit decreased from 120 to 28?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuh46c/plus_image_limit_decreased_from_120_to_28/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Have they decreased the Plus Plan limit for generations? Because I have maxed out twice in a row generating the same amount of images I gene",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wukfw5/have_they_decreased_the_plus_plan_limit_for/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "The Safety Filter Tax: How post-generation classifier false-positives burn your paid usage limits until you're locked out",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuq1m9/the_safety_filter_tax_how_postgeneration/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Gemini — strongest signal this cycle"
 }
