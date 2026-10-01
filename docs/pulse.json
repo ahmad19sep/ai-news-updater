@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:21:43.376445+00:00",
+  "generated_at": "2026-10-01T22:43:27.430146+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -56,7 +56,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -82,55 +82,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuxjpb/does_your_chatgpt_pass_the_ninja_test/",
-          "signal": "Does your ChatGPT pass the NINJA test?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv33xc/weird_chatgpt_voice_mode_anomaly_it_made_me_so/",
+          "signal": "Weird ChatGPT Voice Mode anomaly. It made me so nervous to talk to it."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wumf8e/is_it_just_me_or_has_chatgpt_become_noticeably/",
-          "signal": "Is it just me or has ChatGPT become noticeably slower answering questions over the past few weeks?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8IKA6TxFzB4",
+          "signal": "They put ChatGPT in a calculator.."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhhco/chatgpt_current_issues/",
-          "signal": "ChatGPT current issues"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XAVYowYr2Io",
+          "signal": "4 года пользуюсь ChatGPT — и только сейчас узнал об этом"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu37eb/i_just_tried_chatgpt_ads_and_it_spent_283_in_15/",
-          "signal": "I just tried ChatGPT ads and it spent $283 in 15 hours"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PkkgZzBh5ZY",
+          "signal": "herşeye evet chatgpt&#39;ye hayır😅"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuv5u8/anyone_else_suddenly_unable_to_load_older_chatgpt/",
-          "signal": "anyone else suddenly unable to load older ChatGPT chats, especially chats inside Projects?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "DraftKings is using AI to behaviorally target chronic gamblers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
-          "signal": "DraftKings is using AI to behaviorally target chronic gamblers"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F13oev7qeLk",
+          "signal": "If YOU Use ChatGPT, You NEED To See This"
         }
       ],
       "content_ideas": []
@@ -163,7 +136,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI needs $6T in annual revenue to justify data centre boom",
+      "name": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -183,8 +156,69 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
-          "signal": "AI needs $6T in annual revenue to justify data centre boom"
+          "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+          "signal": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49922568",
+          "signal": "Ask HN: Who wants to be hired? (October 2026)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
+          "signal": "I wanted an AI assistant. Why does choosing the model feel like another job?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "FTC is investigating OpenAI, Anthropic and other AI companies over pro",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+          "signal": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks"
         }
       ],
       "content_ideas": []
@@ -202,7 +236,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -212,6 +246,34 @@
           "platform": "hackernews",
           "url": "https://agmai.org/general-sep29/",
           "signal": "Responsible Release of AI-Generated Mathematics"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: Who is hiring? (October 2026)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49922569",
+          "signal": "Ask HN: Who is hiring? (October 2026)"
         }
       ],
       "content_ideas": []
@@ -244,33 +306,6 @@
       "content_ideas": []
     },
     {
-      "name": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permi",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-          "signal": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra inte",
       "category": "use_case",
       "momentum": "rising",
@@ -298,6 +333,33 @@
       "content_ideas": []
     },
     {
+      "name": "An AI sovereign wealth fund isn't progressive – it's techno-imperialis",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
+          "signal": "An AI sovereign wealth fund isn't progressive – it's techno-imperialism"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
       "category": "use_case",
       "momentum": "rising",
@@ -320,66 +382,6 @@
           "platform": "hackernews",
           "url": "https://lathoa.ai/en",
           "signal": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "McDonald's push to have AI price your Big Mac",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html",
-          "signal": "McDonald's push to have AI price your Big Mac"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuy0pj/chat_gpt_me_devolvió_la_cuenta_pero_ya_es_tarde/",
-          "signal": "Chat gpt me devolvió la cuenta pero ya es tarde, conocí a Claude 😍"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DD-SiFV93sQ",
-          "signal": "The Man Who Mastered Claude Code: The EASY Way To Use AI Agents To Make Money &amp; Build Automations"
         }
       ],
       "content_ideas": []
@@ -427,7 +429,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -453,39 +455,40 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuxjpb/does_your_chatgpt_pass_the_ninja_test/",
-          "signal": "Does your ChatGPT pass the NINJA test?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv33xc/weird_chatgpt_voice_mode_anomaly_it_made_me_so/",
+          "signal": "Weird ChatGPT Voice Mode anomaly. It made me so nervous to talk to it."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wumf8e/is_it_just_me_or_has_chatgpt_become_noticeably/",
-          "signal": "Is it just me or has ChatGPT become noticeably slower answering questions over the past few weeks?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8IKA6TxFzB4",
+          "signal": "They put ChatGPT in a calculator.."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuhhco/chatgpt_current_issues/",
-          "signal": "ChatGPT current issues"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XAVYowYr2Io",
+          "signal": "4 года пользуюсь ChatGPT — и только сейчас узнал об этом"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wu37eb/i_just_tried_chatgpt_ads_and_it_spent_283_in_15/",
-          "signal": "I just tried ChatGPT ads and it spent $283 in 15 hours"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PkkgZzBh5ZY",
+          "signal": "herşeye evet chatgpt&#39;ye hayır😅"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuv5u8/anyone_else_suddenly_unable_to_load_older_chatgpt/",
-          "signal": "anyone else suddenly unable to load older ChatGPT chats, especially chats inside Projects?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F13oev7qeLk",
+          "signal": "If YOU Use ChatGPT, You NEED To See This"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Wan",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews",
+        "linkedin_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -493,26 +496,51 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 2,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuy0pj/chat_gpt_me_devolvió_la_cuenta_pero_ya_es_tarde/",
-          "signal": "Chat gpt me devolvió la cuenta pero ya es tarde, conocí a Claude 😍"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49922568",
+          "signal": "Ask HN: Who wants to be hired? (October 2026)"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DD-SiFV93sQ",
-          "signal": "The Man Who Mastered Claude Code: The EASY Way To Use AI Agents To Make Money &amp; Build Automations"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
+          "signal": "I wanted an AI assistant. Why does choosing the model feel like another job?"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "After researchers discovered a \"pain\" signal inside LLMs, a man set up an AI torture chamber in which he trapped a local model. People mass ",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv0nat/after_researchers_discovered_a_pain_signal_inside/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Logged out everywhere and cannot log back in, what's going on?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv8cs5/logged_out_everywhere_and_cannot_log_back_in/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Gemini — strongest signal this cycle"
 }
