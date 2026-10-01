@@ -415,8 +415,8 @@ function renderEditor(id) {
         <p class="faint" style="margin:-6px 0 14px 2px">Copying or opening LinkedIn changes nothing. Only “Mark as posted” moves this to Published.</p>
         ${panel("Write with Claude or ChatGPT", `<div class="pb">
           <ol class="steps"><li>Copy the writer prompt and paste it into Claude.ai or ChatGPT.</li><li>Paste its answer below and press Parse. Post, first comment, claims and checks fill in.</li><li>Edit in your voice. Optionally run the fact-check the same way.</li></ol>
-          ${pack.excerpt ? `<p class="faint">Source text loaded (${pack.chars} chars${pack.thin ? ", thin" : ""}). The prompt uses the real article, not just the headline.</p>` : `<label class="f" for="ed-facts">No article text fetched. Paste facts from the article; the prompt is built from these, never from the link alone.</label>
-          <textarea id="ed-facts" placeholder="A few lines of real facts, numbers, quotes">${esc(d.facts || "")}</textarea>`}
+          ${pack.excerpt ? `<p class="faint">Source text loaded (${pack.chars} chars${pack.thin ? ", thin" : ""}). The prompt uses the real article, not just the headline.</p>` : `<div class="row" style="margin-bottom:6px"><button class="btn sm" id="ed-fetch" onclick="fetchArticle('${d.id}')">${ic("radar")}Fetch article text</button><span class="faint">No article text yet. Fetch it, or paste facts from the article below; the prompt is never built from the link alone.</span></div>
+          <textarea id="ed-facts" placeholder="A few lines of real facts, numbers, quotes copied from the article">${esc(d.facts || "")}</textarea>`}
           <div class="row" style="margin-top:10px"><button class="btn primary" onclick="copyPrompt('${d.id}')">${ic("copy")}Copy writer prompt</button>
             <button class="btn" onclick="copyJudgePrompt('${d.id}')" ${postOf(d).trim() ? "" : "disabled"}>${ic("search")}Copy fact-check prompt</button></div>
           <label class="f" for="ed-paste">Paste the answer here</label>
@@ -464,6 +464,31 @@ window.markPosted = async id => {
   toast("Marked as posted. Rate it in Published when the numbers come in."); go("published");
 };
 window.confirmThen = (btn, fn) => { if (btn.dataset.armed) { delete btn.dataset.armed; fn(); return; } const orig = btn.innerHTML; btn.dataset.armed = "1"; btn.textContent = btn.dataset.confirm + " Click again"; setTimeout(() => { if (btn.dataset.armed) { delete btn.dataset.armed; btn.innerHTML = orig; } }, 4000); };
+
+/* Fetch the article from inside the Studio. A page cannot read other sites
+   directly, so this goes through the free r.jina.ai reader (plain text back).
+   User-triggered only; the result is saved as the story's source pack. */
+window.fetchArticle = async id => {
+  const d = S.drafts[id]; if (!d) return;
+  const btn = $("#ed-fetch"); if (btn) { btn.disabled = true; btn.textContent = "Fetching…"; }
+  try {
+    const r = await fetch("https://r.jina.ai/" + d.url, { headers: { "Accept": "text/plain", "X-Return-Format": "text" } });
+    if (!r.ok) throw new Error("reader returned " + r.status);
+    let text = await r.text();
+    const i = text.indexOf("Markdown Content:"); if (i >= 0) text = text.slice(i + 17);
+    text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/[ \t]+/g, " ");
+    const paras = text.split(/\n+/).map(x => x.trim()).filter(x => x.length >= 40 && !/^(cookie|subscribe|sign in|share|advertisement)/i.test(x));
+    const excerpt = paras.join("\n\n").slice(0, 7000);
+    if (excerpt.length < 200) throw new Error("the page gave almost no text (paywall or video?)");
+    const quotes = (excerpt.match(/["“]([^"”]{25,320})["”]/g) || []).slice(0, 8).map(q => q.slice(1, -1));
+    await patchDoc("sources", d.candidate_id || d.id, { url: d.url, title: d.title, source: d.source, excerpt, chars: excerpt.length, quotes, thin: excerpt.length < 600, ok: excerpt.length >= 600, note: "fetched in the Studio via r.jina.ai", fetched_at: nowIso() }, true);
+    if (d.candidate_id && S.candidates[d.candidate_id]) await patchDoc("candidates", d.candidate_id, { source_ok: excerpt.length >= 600, source_chars: excerpt.length }, true);
+    renderEditor(id); toast(`Article fetched: ${excerpt.length} characters of source text`);
+  } catch (e) {
+    toast("Could not fetch the article (" + e.message + "). Paste a few facts instead.", 4000);
+    if (btn) { btn.disabled = false; btn.innerHTML = ic("radar") + "Fetch article text"; }
+  }
+};
 
 /* Manual mode: the same agent prompts, answered by your Claude / ChatGPT
    subscription. The answer is one JSON object; parseAnswer() fills the draft. */

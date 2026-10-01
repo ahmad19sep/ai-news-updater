@@ -85,6 +85,13 @@ const visible = id => !d.getElementById("s-" + id).hidden;
   ok(visible("compose") && w.__S.drafts.c2 && w.__S.drafts.c2.manual, "Write myself creates a manual draft and opens Compose");
   ok(d.getElementById("ed-facts"), "manual draft shows the facts box");
   w.copyPrompt("c2"); ok(/facts first/.test(d.getElementById("toast").textContent), "prompt refused without facts");
+  ok(d.getElementById("ed-fetch"), "fetch-article button offered when no source text");
+  w.fetch = async (url, opts = {}) => { if (String(url).startsWith("https://r.jina.ai/")) return { ok: true, status: 200, text: async () => "Title: x\nURL Source: y\nMarkdown Content:\n" + "The company said prices fell 40% for API users from 15 October, according to the announcement. ".repeat(8) + "\n\n\"We want this to be the default,\" said Sarah Chen, head of platform." }; const ok2 = body => ({ ok: true, status: 200, json: async () => body }); if (String(url).startsWith("pipeline.json")) return ok2(STATE); if (String(url).startsWith("pulse.json")) return ok2(PULSE); throw new Error("unexpected fetch " + url); };
+  await w.fetchArticle("c2"); await sleep(50);
+  ok(w.__S.sources.c2 && w.__S.sources.c2.excerpt.includes("40%") && w.__S.sources.c2.quotes.length === 1, "in-Studio fetch builds a source pack with quotes");
+  ok(!d.getElementById("ed-facts") && d.getElementById("compose-editor").textContent.includes("Source text loaded"), "editor switches to the loaded-source state");
+  w.copyPrompt("c2"); ok(/SOURCE TEXT/.test(w.__clip) && /15 October/.test(w.__clip), "prompt now carries the fetched article");
+  delete w.__S.sources.c2; w.OVR && delete w.OVR; w.localStorage.setItem("studio_overrides", JSON.stringify({})); w.rerender(); await sleep(30);
   d.getElementById("ed-facts").value = "Price fell 40%."; w.copyPrompt("c2"); ok(/SOURCE TEXT/.test(w.__clip) && /Price fell 40%/.test(w.__clip), "prompt copied with facts");
 
   w.openDraft("c1"); await sleep(50);

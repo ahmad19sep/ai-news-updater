@@ -561,7 +561,7 @@ PULSE_LOCAL_KEYWORDS = LOCAL_KEYWORDS
 #         pasting prompts into your Claude / ChatGPT subscription (no API cost).
 # "api":  the Claude agents draft and verify automatically (needs ANTHROPIC_API_KEY).
 PIPELINE_MODE = "free"
-PIPELINE_FREE_ENRICH = 10               # free mode: fetch articles for this many top candidates per run
+PIPELINE_FREE_ENRICH = 25               # free mode: fetch articles for this many top candidates per run
 PIPELINE_MODELS = {
     "triage": "claude-haiku-4-5",    # bulk 1-10 scoring of every new story (cheap)
     "angle":  "claude-opus-5-5",     # angles + hooks for the shortlist
