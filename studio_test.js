@@ -57,10 +57,11 @@ const visible = id => !d.getElementById("s-" + id).hidden;
   await sleep(300);
   ok(d.getElementById("lock").hidden, "no passcode baked in -> lock hidden");
   ok(visible("today"), "Today renders first");
-  ok(d.getElementById("s-today").textContent.includes("drafts to review"), "Today shows stats");
+  ok(d.getElementById("s-today").textContent.includes("to review"), "Today shows the stat line");
   ok(d.getElementById("nc-ideas").textContent === "2", "Ideas nav count = 2 new candidates");
   ok(d.getElementById("nc-compose").textContent === "1", "Compose nav count = 1 draft");
   ok(d.getElementById("s-today").textContent.includes("$0.210"), "last pipeline run cost shown");
+  ok(!d.querySelector("#s-today .stat"), "no KPI tiles on Today");
 
   w.go("discover"); await sleep(50);
   ok(visible("discover") && d.querySelectorAll("#disc-body .item").length > 10, "Discover lists news cards");
@@ -75,7 +76,7 @@ const visible = id => !d.getElementById("s-" + id).hidden;
   ok(w.__S.candidates[firstKey] && w.__S.candidates[firstKey].status === "shortlisted", "Save as idea creates a shortlisted candidate");
 
   w.go("ideas"); await sleep(50);
-  ok(visible("ideas") && d.querySelectorAll(".kcol").length === 3, "Ideas kanban has 3 columns");
+  ok(visible("ideas") && d.querySelectorAll("#s-ideas .sec").length === 3, "Ideas shows the three groups");
   w.setCand("c2", "shortlisted"); await sleep(50);
   ok(w.__S.candidates.c2.status === "shortlisted", "shortlist works");
   w.draftCmd("c2"); ok(/run_pipeline\.py --mode api --draft --ids .*c2/.test(w.__clip), "draft command copied with ids: " + w.__clip);
@@ -129,6 +130,10 @@ const visible = id => !d.getElementById("s-" + id).hidden;
 
   w.go("library"); await sleep(50);
   ok(visible("library") && d.getElementById("s-library").textContent.includes("Hook library") && d.getElementById("s-library").textContent.includes("Who I am"), "Library shows hooks + voice");
+  w.openPalette(); await sleep(20); ok(!d.getElementById("palette").hidden && d.querySelectorAll("#pal-list .pal-item").length > 8, "command palette opens with commands");
+  d.getElementById("pal-q").value = "sched"; d.getElementById("pal-q").dispatchEvent(new w.Event("input")); d.getElementById("pal-q").dispatchEvent(new w.KeyboardEvent("keydown", { key: "Enter" })); await sleep(30);
+  ok(d.getElementById("palette").hidden && visible("schedule"), "palette filters and runs a command");
+  d.dispatchEvent(new w.KeyboardEvent("keydown", { key: "7", bubbles: true })); await sleep(20); ok(visible("library"), "number key switches screens");
   w.go("settings"); await sleep(50);
   d.getElementById("st-note").value = "I tested this myself"; d.getElementById("st-target").value = "5"; d.getElementById("st-slots").value = "Tue 10:00\nThu 10:00";
   w.saveSettings(); await sleep(50);
