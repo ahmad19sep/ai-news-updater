@@ -75,7 +75,7 @@ async function tryUnlock() {
 function applyTheme(dark) {
   document.body.classList.toggle("dark", dark);
   $("#themebtn").innerHTML = ic(dark ? "sun" : "moon");
-  const m = $('meta[name="theme-color"]'); if (m) m.content = dark ? "#0f1216" : "#f5f6f8";
+  const m = $('meta[name="theme-color"]'); if (m) m.content = dark ? "#0e1018" : "#f3f4f9";
 }
 applyTheme(localStorage.getItem("theme") === "dark");
 $("#themebtn").onclick = () => { const d = !document.body.classList.contains("dark"); localStorage.setItem("theme", d ? "dark" : "light"); applyTheme(d); };
