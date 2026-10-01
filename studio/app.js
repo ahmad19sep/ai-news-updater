@@ -83,7 +83,7 @@ function applyTheme(dark) {
   $("#themebtn").innerHTML = ic(dark ? "sun" : "moon");
   $("#themebtn").setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
   $("#themebtn").title = dark ? "Switch to light theme" : "Switch to dark theme";
-  const m = $('meta[name="theme-color"]'); if (m) m.content = dark ? "#171824" : "#f5f4fa";
+  const m = $('meta[name="theme-color"]'); if (m) m.content = dark ? "#171621" : "#f8f6fb";
   $$(".appearance-option").forEach(button => { const active = button.dataset.theme === (dark ? "dark" : "light"); button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active)); });
 }
 applyTheme(localStorage.getItem("theme") === "dark");
@@ -290,7 +290,7 @@ window.go = go;
 /* ================================================================ shared renderers */
 const sec = (title, body, sub = "", extra = "") => `<section class="sec"><div class="sh"><h2>${title}</h2><span class="sp">${sub}${extra}</span></div>${body}</section>`;
 const emptyBox = (t, s = "", icon = "inbox", action = "") => `<div class="empty"><div class="ei">${ic(icon)}</div><b>${esc(t)}</b>${s ? `<p>${esc(s)}</p>` : ""}${action}</div>`;
-const pageIntro = (eyebrow, title, description, actions = "") => `<div class="page-intro"><div><span class="eyebrow">${esc(eyebrow)}</span><h2>${esc(title)}</h2><p>${esc(description)}</p></div>${actions ? `<div class="welcome-actions">${actions}</div>` : ""}</div>`;
+const pageIntro = (eyebrow, title, description, actions = "") => `<div class="page-intro"><div><span class="eyebrow intro-kicker">${ic("star")}${esc(eyebrow)}</span><h2>${esc(title)}</h2><p>${esc(description)}</p></div>${actions ? `<div class="welcome-actions">${actions}</div>` : ""}</div>`;
 const quickCard = (icon, value, label, action, note = "") => `<button class="quick-card" onclick="${action}"><span class="quick-icon">${ic(icon)}</span><span class="quick-value">${esc(value)}</span><span class="quick-label">${esc(label)}</span>${note ? `<span class="cap">${esc(note)}</span>` : ""}<span class="quick-arrow" aria-hidden="true">↗</span></button>`;
 const glyphFor = d => isDue(d) ? "due" : d.status === "draft" ? "draft" : d.status;
 function draftRow(d, opts = {}) {
@@ -343,12 +343,12 @@ function renderToday() {
   $("#topActions").innerHTML = `<button class="btn sm" onclick="go('discover')">${ic("radar")}Explore stories</button>`;
   $("#s-today").innerHTML = `
     <div class="today-hero">
-      <div class="hero-copy"><span class="eyebrow">YOUR SPACE TO MAKE SOMETHING GOOD</span><h2>A little focus.<br>A lot of possibility.</h2>
+      <div class="hero-copy"><div class="hero-eyebrow"><span class="eyebrow">${ic("star")}YOUR CREATIVE WORKSPACE</span><span class="hero-date">${esc(today)}</span></div><h2>Make something<br><em>worth sharing.</em></h2>
         <p>Welcome back, Ahmad. ${review.length ? `You have ${review.length} draft${review.length === 1 ? "" : "s"} ready for your attention.` : fresh.length ? `${fresh.length} new ideas are waiting for your perspective.` : "Your next great post starts with a small spark."} Let's turn a good idea into something worth sharing.</p>
         <div class="welcome-actions"><button class="btn primary" onclick="go('discover')">${ic("radar")}Find your next idea <span aria-hidden="true">↗</span></button><button class="btn ghost" onclick="${review.length ? `openDraft('${review[0].id}')` : "go('ideas')"}">${ic("pen")}${review.length ? "Continue writing" : "Start writing"}</button></div>
         <span class="hero-note">Your voice. Your pace. Your final say.</span>
       </div>
-      <div class="hero-art" aria-hidden="true"><span class="hero-orbit orbit-one"></span><span class="hero-orbit orbit-two"></span><div class="hero-core">${ic("bolt")}</div><span class="hero-spark spark-one">${ic("pen")}</span><span class="hero-spark spark-two">${ic("star")}</span><span class="hero-spark spark-three">${ic("bulb")}</span><span class="hero-dot dot-one"></span><span class="hero-dot dot-two"></span></div>
+      <div class="hero-art" aria-hidden="true"><span class="hero-orbit"></span><div class="hero-sheet sheet-back"></div><div class="hero-sheet sheet-front"><div class="sheet-heading">${ic("pen")}<span>YOUR NEXT IDEA</span></div><span class="sheet-line line-title"></span><span class="sheet-line"></span><span class="sheet-line"></span><span class="sheet-line line-short"></span><span class="sheet-tag">Made by you</span></div><span class="hero-spark">${ic("star")}</span></div>
     </div>
     <div class="quick-grid">
       ${quickCard("bulb", fresh.length, "Fresh ideas", "go('ideas')", "Ready to explore")}
@@ -443,7 +443,7 @@ const pasteBuf = {}; window.pasteBuf = pasteBuf;
 function renderCompose() {
   const previous = $("#compose-editor"); if (previous && previous.flushEdits) previous.flushEdits();
   if (!$("#compose-intro")) $("#s-compose .compose").insertAdjacentHTML("beforebegin", '<div id="compose-intro"></div>');
-  $("#compose-intro").innerHTML = pageIntro("YOUR PERSPECTIVE MAKES THE DIFFERENCE", "A good idea, in your own words.", "Write with a source beside you, a preview in view, and a little room to get the wording right.");
+  $("#compose-intro").innerHTML = pageIntro("YOUR WRITING DESK", "Make it yours.", "Your source, your words, your final say.");
   const filt = { review: d => d.status === "draft", approved: d => ["approved", "scheduled"].includes(d.status), all: d => d.status !== "published" }[composeFilter];
   const list = drafts(filt).sort(byCreated);
   if (!composeId || !S.drafts[composeId]) composeId = (list[0] || {}).id || null;
@@ -473,7 +473,7 @@ function renderEditor(id) {
     ${d.angle && d.angle.angle ? `<p class="t3" style="margin:-6px 0 14px"><span class="label">Angle</span>&nbsp; ${esc(d.angle.angle)}</p>` : ""}
     <div class="epanes">
       <div class="composer">
-        <div class="writing-heading"><div><span class="eyebrow">THE WRITING SPACE</span><label for="ed-post">Your post</label></div><span class="chip purple">${ic("pen")}LinkedIn · text</span></div>
+        <div class="writing-heading"><div><span class="eyebrow writing-kicker">${ic("pen")}THE WRITING SPACE</span><label for="ed-post">Your post</label></div><span class="chip purple">LinkedIn · text</span></div>
         <textarea id="ed-post" class="post-ta" placeholder="Start with a line that makes someone pause. Then tell them something useful, in your own words." spellcheck="true">${esc(postOf(d))}</textarea>
         <div class="metabar" id="ed-counter"></div>
         <div class="field"><label for="ed-comment">First comment (the source link lives here)</label><textarea id="ed-comment" style="min-height:56px">${esc(commentOf(d))}</textarea></div>
