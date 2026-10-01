@@ -3,35 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#ffffff">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#f5f4fa">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%237c5ce7'/%3E%3Cpath d='M20 8v24M8 20h24M12 12l16 16M12 28l16-16' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>AI x Ahmad Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /*__CSS__*/
 </style>
 </head>
 <body>
-<div id="lock" hidden>
+<a class="skip-link" href="#workspace" onclick="document.getElementById('workspace').focus();return false">Skip to workspace</a>
+<div id="lock" hidden role="dialog" aria-modal="true" aria-labelledby="lock-title">
   <div class="lockbox">
-    <div class="wordmark"><span class="mark">A</span>AI x Ahmad Studio</div>
-    <p>Private desk. Enter your access code.</p>
+    <div class="wordmark"><span class="mark brand-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M5.5 5.5l13 13M5.5 18.5l13-13"/></svg></span>AI x Ahmad <span class="cap">Studio</span></div>
+    <div class="lock-art" aria-hidden="true"><div class="lock-orbit"></div><span class="lock-spark">✳</span></div>
+    <span class="eyebrow">YOUR CREATIVE SPACE</span>
+    <h1 id="lock-title">Good ideas start here.</h1>
+    <p>A quiet place to discover, write, and share something worth reading.</p>
     <div class="err" id="lockerr" aria-live="polite"></div>
-    <input id="lockcode" type="password" placeholder="Access code" autocomplete="off" aria-label="Access code">
-    <button class="btn primary wide" id="lockbtn">Continue</button>
+    <label class="f" for="lockcode">Your access code</label>
+    <input id="lockcode" type="password" placeholder="Enter your access code" autocomplete="off" aria-describedby="lockerr">
+    <button class="btn primary wide" id="lockbtn">Enter your Studio <span aria-hidden="true">↗</span></button>
+    <span class="lock-foot">AI x Ahmad · Made for a little more focus.</span>
   </div>
 </div>
 
 <div class="app">
-  <aside class="sidebar" id="sidebar">
-    <a class="ws" href="#today"><span class="mark">A</span><span class="wsname">AI x Ahmad</span><span class="wssub">Studio</span></a>
-    <button class="search" id="palettebtn" type="button"><span class="si"></span><span>Search or jump to…</span><kbd>⌘K</kbd></button>
+  <aside class="sidebar" id="sidebar" aria-label="Studio navigation">
+    <button class="sidebar-close" id="sidebar-close" type="button" aria-label="Close navigation" onclick="closeSidebar()">×</button>
+    <a class="ws" href="#today" aria-label="AI x Ahmad Studio home"><span class="mark brand-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M5.5 5.5l13 13M5.5 18.5l13-13"/></svg></span><span class="wsidentity"><b class="wsname">AI x Ahmad<span class="brand-period">.</span></b><small class="wssub">Creator Studio</small></span></a>
+    <div class="workspace-label"><span class="workspace-dot"></span>Personal workspace</div>
+    <button class="search" id="palettebtn" type="button" aria-haspopup="dialog" aria-controls="palette"><span class="si" aria-hidden="true"></span><span>Find anything…</span><kbd>⌘K</kbd></button>
     <nav aria-label="Main">
-      <div class="navgrp">Pipeline</div>
+      <div class="navgrp">Create &amp; publish</div>
       <a class="navitem" href="#today" data-screen="today" data-icon="home"><span>Today</span><kbd>1</kbd></a>
       <a class="navitem" href="#discover" data-screen="discover" data-icon="radar"><span>Discover</span><kbd>2</kbd></a>
       <a class="navitem" href="#ideas" data-screen="ideas" data-icon="bulb"><span>Ideas</span><span class="navcount" id="nc-ideas"></span></a>
@@ -42,6 +50,7 @@
       <a class="navitem" href="#library" data-screen="library" data-icon="book"><span>Library</span><kbd>7</kbd></a>
       <a class="navitem" href="#settings" data-screen="settings" data-icon="settings"><span>Settings</span><kbd>8</kbd></a>
     </nav>
+    <div class="studio-note"><span class="note-icon" aria-hidden="true">✳</span><div class="note-copy"><b>A little curiosity goes a long way.</b><p>Find a story. Make it yours.</p><a href="#discover">Explore the radar <span aria-hidden="true">↗</span></a></div></div>
     <div class="sidefoot">
       <span class="avatar">A</span>
       <span class="who"><b>Ahmad</b><small>@aixahmad</small></span>
@@ -50,21 +59,23 @@
     </div>
   </aside>
 
-  <main class="main">
+  <button class="sidebar-backdrop" id="sidebar-backdrop" type="button" tabindex="-1" aria-label="Close navigation" aria-hidden="true"></button>
+  <main class="main" id="workspace" tabindex="-1">
     <header class="topbar">
-      <button class="btn icon ghost" id="sidebtn" title="Toggle sidebar (⌘\)" aria-label="Toggle sidebar"></button>
-      <div class="ttitle"><h1 id="pageTitle">Today</h1><span class="ps" id="pageSub"></span></div>
+      <button class="btn icon ghost" id="sidebtn" title="Toggle sidebar" aria-label="Toggle navigation" aria-controls="sidebar" aria-expanded="true"></button>
+      <div class="ttitle"><div class="topbar-breadcrumb"><span>Workspace</span><span class="topbar-separator" aria-hidden="true">/</span><h1 id="pageTitle">Today</h1></div><span class="ps" id="pageSub">Your creative workspace</span></div>
+      <div class="topbar-meta"><span class="topbar-date" id="workspaceDate"></span><span class="topbar-status" role="status"><span class="dot" aria-hidden="true"></span><span id="syncLabel">Loading workspace…</span></span></div>
       <div class="tutil" id="topActions"></div>
     </header>
     <div class="wrap">
       <section id="s-today" class="screen"></section>
       <section id="s-discover" class="screen" hidden>
-        <div class="subtabs" id="disc-tabs" role="tablist">
-          <button class="subtab active" data-sub="news" role="tab">News</button>
-          <button class="subtab" data-sub="agents" role="tab">Agents &amp; AI</button>
-          <button class="subtab" data-sub="pulse" role="tab">Pulse</button>
+        <div class="subtabs" id="disc-tabs" role="tablist" aria-label="Discovery feeds">
+          <button class="subtab active" id="tab-news" data-sub="news" role="tab" aria-selected="true" aria-controls="disc-body">News</button>
+          <button class="subtab" id="tab-agents" data-sub="agents" role="tab" aria-selected="false" aria-controls="disc-body" tabindex="-1">Agents &amp; AI</button>
+          <button class="subtab" id="tab-pulse" data-sub="pulse" role="tab" aria-selected="false" aria-controls="disc-body" tabindex="-1">Pulse</button>
         </div>
-        <div id="disc-body"></div>
+        <div id="disc-body" role="tabpanel" aria-labelledby="tab-news"></div>
       </section>
       <section id="s-ideas" class="screen" hidden></section>
       <section id="s-compose" class="screen" hidden>
@@ -82,9 +93,10 @@
 </div>
 
 <div id="palette" hidden>
-  <div class="pal">
-    <input id="pal-q" type="text" placeholder="Type a command or screen…" autocomplete="off" aria-label="Command palette">
-    <div id="pal-list" role="listbox"></div>
+  <div class="pal" role="dialog" aria-modal="true" aria-labelledby="pal-title">
+    <div class="pal-title"><span id="pal-title">Your workspace, one shortcut away.</span><button class="pal-close btn icon ghost" type="button" aria-label="Close command palette" onclick="closePalette()">×</button></div>
+    <div class="pal-search"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></svg><input id="pal-q" type="text" placeholder="Find a page or an action…" autocomplete="off" aria-label="Search commands" role="combobox" aria-autocomplete="list" aria-controls="pal-list" aria-expanded="true"></div>
+    <div id="pal-list" role="listbox" aria-label="Matching commands"></div>
     <div class="pal-foot"><span><kbd>↑↓</kbd> move</span><span><kbd>↵</kbd> run</span><span><kbd>esc</kbd> close</span><span><kbd>?</kbd> all shortcuts</span></div>
   </div>
 </div>

@@ -1,6 +1,6 @@
 """Loads the plain-text files in content/ that shape every draft:
 voice.md (who you are, audience, priorities), hooks.json, examples.md,
-linkedin_rules.md. Edit those files; never this one."""
+linkedin_rules.md, image_prompt.md. Edit those files; never this one."""
 
 import json
 import os
@@ -46,6 +46,10 @@ def voice():
 
 def rules():
     return _read("linkedin_rules.md")
+
+
+def image_prompt():
+    return _read("image_prompt.md")
 
 
 def examples():

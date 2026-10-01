@@ -55,6 +55,7 @@ const ICONS = {
   search: '<circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/>',
   panel: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/>',
   download: '<path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M4 20h16"/>',
+  image: '<rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="m21 16-5-5-7 7"/>',
   inbox: '<path d="M4 4h16v16H4Z"/><path d="M4 14h5l1.5 2h3L15 14h5"/>',
 };
 const ic = (name, cls = "") => `<svg class="i ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[name] || ""}</svg>`;
@@ -73,13 +74,17 @@ async function tryUnlock() {
     KEY = (await sha256("aixboard:" + code)).slice(0, 40);
     localStorage.setItem("boardkey", KEY);
     $("#lock").hidden = true;
+    syncOverlayAccess();
     boot();
   } else { $("#lockerr").textContent = "That code is not right. Try again."; }
 }
 function applyTheme(dark) {
   document.body.classList.toggle("dark", dark);
   $("#themebtn").innerHTML = ic(dark ? "sun" : "moon");
-  const m = $('meta[name="theme-color"]'); if (m) m.content = dark ? "#1a1a19" : "#ffffff";
+  $("#themebtn").setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+  $("#themebtn").title = dark ? "Switch to light theme" : "Switch to dark theme";
+  const m = $('meta[name="theme-color"]'); if (m) m.content = dark ? "#171824" : "#f5f4fa";
+  $$(".appearance-option").forEach(button => { const active = button.dataset.theme === (dark ? "dark" : "light"); button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active)); });
 }
 applyTheme(localStorage.getItem("theme") === "dark");
 $("#themebtn").onclick = () => { const d = !document.body.classList.contains("dark"); localStorage.setItem("theme", d ? "dark" : "light"); applyTheme(d); };
@@ -87,8 +92,46 @@ $("#lockbtn").onclick = tryUnlock;
 $("#lockcode").addEventListener("keydown", e => { if (e.key === "Enter") tryUnlock(); });
 $$(".navitem[data-icon]").forEach(a => a.insertAdjacentHTML("afterbegin", ic(a.dataset.icon)));
 $("#sidebtn").innerHTML = ic("panel");
-$("#sidebtn").onclick = () => { document.body.classList.toggle("nosb"); jsave("nosb", document.body.classList.contains("nosb")); };
+const mobileSidebar = () => window.innerWidth <= 760;
+function syncOverlayAccess() {
+  const blocked = !$("#lock").hidden || !$("#palette").hidden;
+  $(".app").inert = blocked;
+  const skip = $(".skip-link"); if (skip) skip.inert = blocked || (mobileSidebar() && document.body.classList.contains("sb-open"));
+}
+function trapFocus(e, container) {
+  if (e.key !== "Tab") return;
+  const controls = $$("a[href], input, textarea, select, button, [tabindex]", container).filter(el => !el.disabled && !el.hidden && el.tabIndex >= 0 && !el.closest("[hidden]"));
+  const first = controls[0], last = controls[controls.length - 1]; if (!first) return;
+  if (e.shiftKey && (document.activeElement === first || !container.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && (document.activeElement === last || !container.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+}
+function syncSidebar() {
+  const mobile = mobileSidebar(), visible = mobile ? document.body.classList.contains("sb-open") : !document.body.classList.contains("nosb");
+  $("#sidebar").inert = !visible; $("#sidebar").setAttribute("aria-hidden", String(!visible));
+  const main = $("#workspace") || $(".main"); if (main) main.inert = mobile && visible;
+  $("#sidebtn").setAttribute("aria-expanded", String(visible));
+  if ($("#sidebar-backdrop")) $("#sidebar-backdrop").setAttribute("aria-hidden", String(!(mobile && visible)));
+  syncOverlayAccess();
+}
+function closeSidebar() {
+  const restoreFocus = document.body.classList.contains("sb-open") || $("#sidebar").contains(document.activeElement);
+  document.body.classList.remove("sb-open"); syncSidebar();
+  if (restoreFocus && !$("#lock").hidden) return;
+  if (restoreFocus && $("#sidebar").inert) $("#sidebtn").focus();
+}
+$("#sidebtn").onclick = () => {
+  if (mobileSidebar()) {
+    if (document.body.classList.contains("sb-open")) { closeSidebar(); return; }
+    document.body.classList.add("sb-open"); syncSidebar();
+    const first = $("#sidebar .navitem.active") || $("#sidebar .navitem"); if (first) first.focus();
+  } else { document.body.classList.toggle("nosb"); jsave("nosb", document.body.classList.contains("nosb")); syncSidebar(); }
+};
 if (jload("nosb", false)) document.body.classList.add("nosb");
+closeSidebar();
+if ($("#sidebar-backdrop")) $("#sidebar-backdrop").onclick = closeSidebar;
+window.addEventListener("resize", closeSidebar);
+$("#lock").addEventListener("keydown", e => trapFocus(e, $("#lock")));
+$("#sidebar").addEventListener("keydown", e => { if (mobileSidebar() && document.body.classList.contains("sb-open")) trapFocus(e, $("#sidebar")); });
 $(".search kbd").textContent = MOD + "K";
 
 /* ================================================================ state */
@@ -101,6 +144,8 @@ function setCloud(ok) {
   const b = $("#cloudbtn"); b.classList.toggle("off", !ok);
   b.title = MODE === "firebase" ? (ok ? "Live sync on" : "Sync problem: edits are kept on this device") : "Local mode: edits stay on this device";
   b.innerHTML = ic(MODE === "firebase" ? (ok ? "bolt" : "warn") : "disk");
+  b.setAttribute("aria-label", b.title);
+  const label = $("#syncLabel"); if (label) label.textContent = MODE === "firebase" ? (ok ? "Live sync" : "Saved on this device") : "Local workspace";
 }
 function applyOverrides() {
   for (const coll of Object.keys(OVR)) for (const [id, fields] of Object.entries(OVR[coll] || {})) {
@@ -225,11 +270,11 @@ function checkPost(post, pack, allowedText, hashtags) {
 const SCREENS = { today: ["Today", "Your desk"], discover: ["Discover", "Everything the radar collected"], ideas: ["Ideas", "Triage picks and your saves"], compose: ["Compose", "Write, check, approve"], schedule: ["Schedule", "Your posting slots"], published: ["Published", "What went out and how it did"], library: ["Library", "What the writer reads"], settings: ["Settings", ""] };
 const ORDER = ["today", "discover", "ideas", "compose", "schedule", "published", "library", "settings"];
 let CUR = "today";
-function go(name) { if (!SCREENS[name]) name = "today"; CUR = name; if (location.hash !== "#" + name) history.replaceState(null, "", "#" + name); rerender(); window.scrollTo(0, 0); }
+function go(name) { if (!$("#lock").hidden) return; if (!SCREENS[name]) name = "today"; const ed = $("#compose-editor"); if (CUR === "compose" && ed && ed.flushEdits) ed.flushEdits(); CUR = name; closeSidebar(); if (location.hash !== "#" + name) history.replaceState(null, "", "#" + name); rerender(); window.scrollTo(0, 0); }
 window.addEventListener("hashchange", () => go(location.hash.slice(1) || "today"));
 function rerender() {
   $$(".screen").forEach(s => s.hidden = s.id !== "s-" + CUR);
-  $$(".navitem").forEach(n => n.classList.toggle("active", n.dataset.screen === CUR));
+  $$(".navitem").forEach(n => { const active = n.dataset.screen === CUR; n.classList.toggle("active", active); if (active) n.setAttribute("aria-current", "page"); else n.removeAttribute("aria-current"); });
   $("#pageTitle").textContent = SCREENS[CUR][0]; $("#pageSub").textContent = SCREENS[CUR][1];
   $("#topActions").innerHTML = "";
   navCounts();
@@ -245,6 +290,8 @@ window.go = go;
 /* ================================================================ shared renderers */
 const sec = (title, body, sub = "", extra = "") => `<section class="sec"><div class="sh"><h2>${title}</h2><span class="sp">${sub}${extra}</span></div>${body}</section>`;
 const emptyBox = (t, s = "", icon = "inbox", action = "") => `<div class="empty"><div class="ei">${ic(icon)}</div><b>${esc(t)}</b>${s ? `<p>${esc(s)}</p>` : ""}${action}</div>`;
+const pageIntro = (eyebrow, title, description, actions = "") => `<div class="page-intro"><div><span class="eyebrow">${esc(eyebrow)}</span><h2>${esc(title)}</h2><p>${esc(description)}</p></div>${actions ? `<div class="welcome-actions">${actions}</div>` : ""}</div>`;
+const quickCard = (icon, value, label, action, note = "") => `<button class="quick-card" onclick="${action}"><span class="quick-icon">${ic(icon)}</span><span class="quick-value">${esc(value)}</span><span class="quick-label">${esc(label)}</span>${note ? `<span class="cap">${esc(note)}</span>` : ""}<span class="quick-arrow" aria-hidden="true">↗</span></button>`;
 const glyphFor = d => isDue(d) ? "due" : d.status === "draft" ? "draft" : d.status;
 function draftRow(d, opts = {}) {
   const v = verdictOf(d); const p = postOf(d);
@@ -266,7 +313,7 @@ function candRow(c) {
   return `<div class="item ${c.status === "new" ? "new" : ""}" data-id="${c.id}">
     <div class="g"><span class="score ${c.score >= 8 ? "hi" : ""}" title="score for your audience">${c.score || "–"}</span></div>
     <div class="b"><div class="t"><a href="${esc(candUrl(c))}" target="_blank" rel="noopener">${esc(c.title)}</a></div>
-      <div class="m"><span>${esc(TOPIC_LABEL[c.topic] || c.topic || "")}</span><span>${esc(c.source || "")}</span>${c.urgency === "today" ? "<span>today</span>" : ""}${c.manual ? "<span>saved by you</span>" : ""}${c.source_ok ? "<span>article fetched</span>" : ""}${c.reason ? `<span>${esc(c.reason)}</span>` : ""}</div></div>
+      <div class="m"><span class="chip">${esc(TOPIC_LABEL[c.topic] || c.topic || "")}</span><span>${esc(c.source || "")}</span>${c.urgency === "today" ? '<span class="chip accent">Timely today</span>' : ""}${c.manual ? "<span>Saved by you</span>" : ""}${c.source_ok ? "<span>Source ready</span>" : ""}</div>${c.reason ? `<p class="idea-reason">${esc(c.reason)}</p>` : ""}</div>
     <div class="r"><span class="mono">${esc(ago(c.published))}</span>${candActions(c)}</div></div>`;
 }
 window.setCand = (id, status) => { patchDoc("candidates", id, { status }); toast(status === "shortlisted" ? "Shortlisted" : status === "dismissed" ? "Dismissed" : "Moved back to New"); };
@@ -286,107 +333,121 @@ function renderToday() {
   const review = drafts(d => d.status === "draft").sort(byCreated);
   const approved = drafts(d => d.status === "approved");
   const sched = drafts(d => d.status === "scheduled").sort((a, b) => String(a.scheduled_for).localeCompare(String(b.scheduled_for)));
-  const picks = cands(c => c.status === "new").sort(byScore).slice(0, 8);
-  const run = lastRun(); const posted = postedThisWeek();
-  const due = sched.filter(isDue);
+  const fresh = cands(c => c.status === "new").sort(byScore);
+  const picks = fresh.slice(0, 4);
+  const run = lastRun(), posted = postedThisWeek(), due = sched.filter(isDue);
+  const progress = Math.min(100, Math.round(posted / target() * 100));
   const today = new Date().toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" });
-  $("#pageSub").textContent = today;
+  $("#pageSub").textContent = "Your creative workspace";
+  if ($("#workspaceDate")) $("#workspaceDate").textContent = today;
+  $("#topActions").innerHTML = `<button class="btn sm" onclick="go('discover')">${ic("radar")}Explore stories</button>`;
   $("#s-today").innerHTML = `
-    <div class="statline">
-      <span class="${review.length ? "hot" : ""}"><b>${review.length}</b>to review</span>
-      <span><b>${approved.length}</b>approved</span>
-      <span class="${due.length ? "hot" : ""}"><b>${sched.length}</b>scheduled${due.length ? ` (${due.length} due)` : ""}</span>
-      <span class="goal"><b>${posted}<small>/${target()}</small></b>posted this week</span>
-      <span><b>${cands(c => c.status === "new").length}</b>new ideas</span>
-      ${run ? `<span class="cap" style="margin-left:auto">pipeline ran ${esc(fmtDT(run.ts))} · $${Number((run.cost || {}).usd || 0).toFixed(3)}</span>` : ""}
+    <div class="today-hero">
+      <div class="hero-copy"><span class="eyebrow">YOUR SPACE TO MAKE SOMETHING GOOD</span><h2>A little focus.<br>A lot of possibility.</h2>
+        <p>Welcome back, Ahmad. ${review.length ? `You have ${review.length} draft${review.length === 1 ? "" : "s"} ready for your attention.` : fresh.length ? `${fresh.length} new ideas are waiting for your perspective.` : "Your next great post starts with a small spark."} Let's turn a good idea into something worth sharing.</p>
+        <div class="welcome-actions"><button class="btn primary" onclick="go('discover')">${ic("radar")}Find your next idea <span aria-hidden="true">↗</span></button><button class="btn ghost" onclick="${review.length ? `openDraft('${review[0].id}')` : "go('ideas')"}">${ic("pen")}${review.length ? "Continue writing" : "Start writing"}</button></div>
+        <span class="hero-note">Your voice. Your pace. Your final say.</span>
+      </div>
+      <div class="hero-art" aria-hidden="true"><span class="hero-orbit orbit-one"></span><span class="hero-orbit orbit-two"></span><div class="hero-core">${ic("bolt")}</div><span class="hero-spark spark-one">${ic("pen")}</span><span class="hero-spark spark-two">${ic("star")}</span><span class="hero-spark spark-three">${ic("bulb")}</span><span class="hero-dot dot-one"></span><span class="hero-dot dot-two"></span></div>
     </div>
-    ${due.length ? sec("Due now", `<div class="list">${due.map(d => draftRow(d, { extra: `<button class="btn sm li keep" onclick="postNow('${d.id}')">${LI}&nbsp;Post now</button>` })).join("")}</div>`, "copy, paste on LinkedIn, mark as posted") : ""}
-    <div class="cols">
-      <div>
-        ${sec("Review", `<div class="list">${review.length ? review.slice(0, 6).map(d => draftRow(d)).join("") : emptyBox("No drafts waiting", "Pick an idea and press Write.", "pen", `<button class="btn sm" onclick="go('ideas')">Go to Ideas <kbd>3</kbd></button>`)}</div>`, review.length ? `<span class="cnt">${review.length}</span>` : "")}
-        ${sec("Up next", `<div class="list">${sched.length ? sched.slice(0, 5).map(d => draftRow(d)).join("") : emptyBox("Nothing scheduled", "Approve a draft, then place it on a slot.", "calendar")}</div>`, sched.length ? `<span class="cnt">${sched.length}</span>` : "")}
-      </div>
-      <div>
-        ${sec("Top picks", `<div class="list">${picks.length ? picks.map(c => candRow(c)).join("") : emptyBox("Triage has not run yet", "The hourly cloud job fills this in.", "radar")}</div>`, "highest-scored new ideas", `<button class="btn sm ghost" onclick="go('ideas')">All ideas</button>`)}
-        ${sec("Pipeline", `<p class="t3" style="margin-bottom:8px">${D.mode === "api" ? "API mode: the Claude agents draft and verify." : "Free mode: ideas arrive from the hourly cloud job with their articles fetched; you write in Compose with your Claude or ChatGPT subscription."}</p>
-          <code class="cmd">python run_pipeline.py</code>
-          <div class="row" style="margin-top:8px"><button class="btn sm ghost" onclick="copy('python run_pipeline.py','Copied')">${ic("copy")}Copy command</button>
-          <a class="btn sm ghost" href="digests/latest.html" target="_blank">${ic("external")}Weekly digest</a>
-          <a class="btn sm ghost" href="studio-legacy.html" target="_blank">${ic("external")}Old studio</a></div>`)}
-      </div>
-    </div>`;
+    <div class="quick-grid">
+      ${quickCard("bulb", fresh.length, "Fresh ideas", "go('ideas')", "Ready to explore")}
+      ${quickCard("pen", review.length, "Drafts to review", "composeFilter='review';go('compose')", "Add your finishing touch")}
+      ${quickCard("calendar", sched.length, "In the schedule", "go('schedule')", due.length ? `${due.length} ready to post` : "A little planning goes a long way")}
+      ${quickCard("check", `${posted}/${target()}`, "Posts this week", "go('published')", progress >= 100 ? "Weekly goal reached" : `${Math.max(0, target() - posted)} to your weekly goal`)}
+    </div>
+    ${due.length ? sec("Ready to share", `<div class="list">${due.map(d => draftRow(d, { extra: `<button class="btn sm primary keep" onclick="postNow('${d.id}')">${LI}&nbsp;Post now</button>` })).join("")}</div>`, `<span class="chip accent">${due.length} due</span>`) : ""}
+    <div class="dashboard-grid"><div class="dashboard-main">
+      ${sec("A fresh perspective", `<div class="list">${picks.length ? picks.map(c => candRow(c)).join("") : emptyBox("Make room for inspiration", "Explore the latest stories and save the ones that interest you.", "bulb", `<button class="btn sm" onclick="go('discover')">Discover stories</button>`)}</div>`, "Your highest-scored new ideas", `<button class="btn sm ghost" onclick="go('ideas')">View all ${ic("external")}</button>`)}
+      ${sec("On your writing desk", `<div class="list">${review.length ? review.slice(0, 4).map(d => draftRow(d)).join("") : emptyBox("A clear writing desk", "Choose a story in Ideas and press Write to begin.", "pen", `<button class="btn sm" onclick="go('ideas')">Choose an idea</button>`)}</div>`, `<span class="cnt">${review.length}</span>`, `<button class="btn sm ghost" onclick="go('compose')">Open Compose</button>`)}
+      ${sec("From spark to shared", `<div class="flow-steps">${[["radar", "Discover", D.news.length + D.agents.length, "Stories collected", "discover"], ["bulb", "Ideas", cands(c => c.status === "shortlisted").length, "Shortlisted", "ideas"], ["pen", "Compose", review.length + approved.length, "Drafts in progress", "compose"], ["calendar", "Schedule", sched.length, "Posts in the queue", "schedule"]].map(([icon, title, value, label, screen], i) => `<button class="flow-step" onclick="go('${screen}')"><span class="flow-number">0${i + 1}</span>${ic(icon)}<b>${title}</b><span class="cap">${value.toLocaleString()} ${label.toLowerCase()}</span></button>`).join("")}</div>`, "One idea, one thoughtful post")}
+    </div><aside class="dashboard-aside">
+      <section class="sec insight-card"><div class="sh"><h2>A steady rhythm</h2>${ic("check")}</div><div class="weekly-count"><strong>${posted}<span>/${target()}</span></strong><span>posts this week</span></div><div class="progress-track" role="progressbar" aria-label="Weekly publishing goal" aria-valuemin="0" aria-valuemax="${target()}" aria-valuenow="${Math.min(posted, target())}"><span class="progress-fill" style="width:${progress}%"></span></div><p class="t3">${progress >= 100 ? "You reached your weekly goal. Nice work making space for your ideas." : `${Math.max(0, target() - posted)} more post${target() - posted === 1 ? "" : "s"} to reach your goal. Keep it thoughtful, keep it yours.`}</p><button class="btn sm ghost" onclick="go('settings')">Adjust your rhythm ${ic("external")}</button></section>
+      ${sec("Coming up next", `<div class="list">${sched.length ? sched.slice(0, 3).map(d => draftRow(d)).join("") : emptyBox("Your next opening", fmtDT(nextFreeSlot()), "calendar", `<button class="btn sm" onclick="go('schedule')">Plan a post</button>`)}</div>`, "", `<button class="btn sm icon ghost" onclick="go('schedule')" aria-label="Open schedule">${ic("external")}</button>`)}
+      <section class="sec insight-card"><span class="eyebrow">WORKSPACE PULSE</span><h3>Inspiration keeps coming.</h3><p class="t3">${run ? `Last collection ${esc(fmtDT(run.ts))}.` : "Fresh stories are collected and scored for you each hour."} ${D.mode === "api" ? "Your agents also draft and check selected ideas." : "Pick a story, bring your perspective, and write in Compose."}</p><div class="row"><a class="btn sm ghost" href="digests/latest.html" target="_blank" rel="noopener">${ic("book")}Weekly digest</a><button class="btn sm ghost" onclick="go('discover')">${ic("radar")}Explore</button></div></section>
+    </aside></div>`;
 }
 window.postNow = id => { composeId = id; go("compose"); setTimeout(() => { copyPost(id); }, 50); };
 
 /* ================================================================ Discover */
 let disc = { sub: "news", q: "", pillar: 0, tab: "", shown: 60, hideSaved: true, sort: "latest" };
 $$("#disc-tabs .subtab").forEach(b => b.onclick = () => { disc.sub = b.dataset.sub; disc.shown = 60; renderDiscover(); });
+$("#disc-tabs").addEventListener("keydown", e => {
+  if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(e.key)) return;
+  const tabs = $$("#disc-tabs .subtab"), current = tabs.indexOf(e.target); if (current < 0) return;
+  const next = e.key === "Home" ? 0 : e.key === "End" ? tabs.length - 1 : (current + (e.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+  e.preventDefault(); tabs[next].click(); tabs[next].focus();
+});
 function renderDiscover() {
-  $$("#disc-tabs .subtab").forEach(b => b.classList.toggle("active", b.dataset.sub === disc.sub));
-  const body = $("#disc-body");
+  if (!$("#disc-intro")) $("#disc-tabs").insertAdjacentHTML("beforebegin", '<div id="disc-intro"></div>');
+  $("#disc-intro").innerHTML = pageIntro("A LITTLE CURIOSITY GOES A LONG WAY", "Find the story worth telling.", "Explore what is happening in AI. Save a promising story, then make it your own.", `<button class="btn" onclick="go('ideas')">${ic("bulb")}Your saved ideas</button>`);
+  $$("#disc-tabs .subtab").forEach(b => { const active = b.dataset.sub === disc.sub; b.classList.toggle("active", active); b.setAttribute("aria-selected", String(active)); b.tabIndex = active ? 0 : -1; b.setAttribute("aria-controls", "disc-body"); });
+  const body = $("#disc-body"); body.setAttribute("role", "tabpanel"); body.setAttribute("aria-labelledby", "tab-" + disc.sub);
   if (disc.sub === "pulse") return renderPulse(body);
   const items = disc.sub === "news" ? D.news : D.agents;
-  const q = disc.q.toLowerCase();
-  let list = items.filter(it => (!q || (it.t + " " + it.s).toLowerCase().includes(q)) && (disc.sub !== "news" || !disc.pillar || it.p === disc.pillar) && (disc.sub !== "agents" || !disc.tab || (it.tabs || []).includes(disc.tab)) && (!disc.hideSaved || !S.candidates[it.k]));
-  if (disc.sort === "score") list = list.slice().sort((a, b) => (b.sc || 0) - (a.sc || 0));
+  const q = disc.q.toLowerCase().trim();
+  let list = items.filter(it => (!q || (it.t + " " + it.s + " " + (it.sm || "")).toLowerCase().includes(q)) && (disc.sub !== "news" || !disc.pillar || it.p === disc.pillar) && (disc.sub !== "agents" || !disc.tab || (it.tabs || []).includes(disc.tab)) && (!disc.hideSaved || !S.candidates[it.k]));
+  list = list.slice().sort(disc.sort === "score" ? (a, b) => (b.sc || 0) - (a.sc || 0) : (a, b) => String(b.d || b.pub || "").localeCompare(String(a.d || a.pub || "")));
   const chips = disc.sub === "news"
-    ? [`<button class="fchip ${!disc.pillar ? "active" : ""}" onclick="discSet('pillar',0)">All</button>`].concat(Object.entries(D.pillars).map(([k, v]) => `<button class="fchip ${disc.pillar == k ? "active" : ""}" onclick="discSet('pillar',${k})">${esc(v)}</button>`))
-    : [`<button class="fchip ${!disc.tab ? "active" : ""}" onclick="discSet('tab','')">All</button>`].concat(D.agentTabs.map(([k, v]) => `<button class="fchip ${disc.tab === k ? "active" : ""}" onclick="discSet('tab','${k}')">${esc(v)}</button>`));
+    ? [`<button class="fchip ${!disc.pillar ? "active" : ""}" aria-pressed="${!disc.pillar}" onclick="discSet('pillar',0)">All topics</button>`].concat(Object.entries(D.pillars).map(([k, v]) => `<button class="fchip ${disc.pillar == k ? "active" : ""}" aria-pressed="${disc.pillar == k}" onclick="discSet('pillar',${k})">${esc(v)}</button>`))
+    : [`<button class="fchip ${!disc.tab ? "active" : ""}" aria-pressed="${!disc.tab}" onclick="discSet('tab','')">All categories</button>`].concat(D.agentTabs.map(([k, v]) => `<button class="fchip ${disc.tab === k ? "active" : ""}" aria-pressed="${disc.tab === k}" onclick="discSet('tab','${k}')">${esc(v)}</button>`));
   body.innerHTML = `
-    <div class="row"><div style="position:relative;flex:1;max-width:360px"><input type="search" id="disc-q" placeholder="Search ${list.length} stories" value="${esc(disc.q)}" aria-label="Search" style="padding-left:30px"><span style="position:absolute;left:9px;top:8px;color:var(--t3)">${ic("search")}</span></div>
-      <div class="seg"><button class="${disc.sort === "latest" ? "active" : ""}" onclick="discSet('sort','latest')">Latest</button><button class="${disc.sort === "score" ? "active" : ""}" onclick="discSet('sort','score')">Best for audience</button></div>
-      <label class="t3" style="display:flex;gap:6px;align-items:center"><input type="checkbox" style="width:auto;height:auto" ${disc.hideSaved ? "checked" : ""} onchange="discSet('hideSaved',this.checked)"> hide saved</label>
-      ${D.trends.length ? `<span class="cap" style="margin-left:auto">Rising: ${D.trends.slice(0, 6).map(t => esc(t.term || t.name || "")).join(", ")}</span>` : ""}</div>
-    <div class="fchips">${chips.join("")}</div>
-    <div class="list">${list.slice(0, disc.shown).map(it => `<div class="item">
-      <div class="g"><span class="score ${it.sc >= 8 ? "hi" : ""}">${it.sc || "–"}</span></div>
-      <div class="b"><div class="t"><a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a></div>
-      <div class="m"><span>${esc(D.pillars[it.p] || (it.primary || ""))}</span><span>${esc(it.s)}</span>${(it.l || it.links || []).length ? `<span>+${(it.l || it.links).length} sources</span>` : ""}${it.sm ? `<span>${esc(it.sm.slice(0, 160))}</span>` : ""}</div></div>
-      <div class="r"><span class="mono">${esc(ago(it.d || it.pub))}</span>${S.candidates[it.k] ? '<span class="cap">saved</span>' : `<button class="btn sm ghost" onclick="saveIdea('${it.k}','${disc.sub}')">${ic("bulb")}Save as idea</button>`}</div></div>`).join("") || emptyBox("Nothing matches", "Try another word or clear the filter.", "search")}</div>
-    ${list.length > disc.shown ? `<div style="padding:12px 0"><button class="btn sm" onclick="disc.shown+=60;renderDiscover()">Show more (${list.length - disc.shown} left)</button></div>` : ""}`;
-  const qi = $("#disc-q"); qi.oninput = debounce(() => { disc.q = qi.value; disc.shown = 60; renderDiscover(); $("#disc-q").focus(); const v = $("#disc-q").value; $("#disc-q").setSelectionRange(v.length, v.length); }, 250);
+    <div class="screen-toolbar"><div class="search-field">${ic("search")}<input type="search" id="disc-q" placeholder="Search stories, sources, or ideas…" value="${esc(disc.q)}" aria-label="Search stories"></div>
+      <div class="seg" aria-label="Sort stories"><button class="${disc.sort === "latest" ? "active" : ""}" aria-pressed="${disc.sort === "latest"}" onclick="discSet('sort','latest')">Latest</button><button class="${disc.sort === "score" ? "active" : ""}" aria-pressed="${disc.sort === "score"}" onclick="discSet('sort','score')">For your audience</button></div>
+      <label class="check-label"><input type="checkbox" ${disc.hideSaved ? "checked" : ""} onchange="discSet('hideSaved',this.checked)">Hide saved stories</label></div>
+    <div class="fchips" aria-label="Filter stories">${chips.join("")}</div>
+    <div class="result-meta"><span><b>${list.length.toLocaleString()}</b> ${disc.sub === "news" ? "stories" : "agent stories"}${q ? ` matching “${esc(disc.q)}”` : " to explore"}</span>${D.trends.length ? `<span>Rising now: ${D.trends.slice(0, 3).map(t => esc(t.term || t.name || "")).join(" · ")}</span>` : ""}${q || disc.pillar || disc.tab ? `<button class="btn sm ghost" onclick="resetDiscover()">Reset filters</button>` : ""}</div>
+    <div class="story-grid list">${list.slice(0, disc.shown).map(it => `<article class="item story-card" data-id="${esc(it.k)}">
+      <div class="story-top"><span class="chip">${esc(D.pillars[it.p] || it.primary || "AI")}</span><span class="score ${it.sc >= 8 ? "hi" : ""}" title="Audience score">${it.sc || "–"}<small>/10</small></span></div>
+      <div class="b"><div class="t"><a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a></div>${it.sm ? `<p class="story-summary">${esc(it.sm.slice(0, 190))}${it.sm.length > 190 ? "…" : ""}</p>` : ""}<div class="m"><span>${esc(it.s)}</span><span>${esc(ago(it.d || it.pub)) || "Collected"}</span>${(it.l || it.links || []).length ? `<span>+${(it.l || it.links).length} sources</span>` : ""}</div></div>
+      <div class="story-actions"><a class="btn sm icon ghost" href="${esc(it.u)}" target="_blank" rel="noopener" aria-label="Read ${esc(it.t)}">${ic("external")}</a>${S.candidates[it.k] ? '<span class="chip ok">Saved to Ideas</span>' : `<button class="btn sm" onclick="saveIdea('${it.k}','${disc.sub}')">${ic("bulb")}Save idea</button>`}</div></article>`).join("") || emptyBox("A fresh search might help", "Try a different topic, clear your filters, or include saved stories.", "search", `<button class="btn sm" onclick="resetDiscover()">Reset filters</button>`)}</div>
+    ${list.length > disc.shown ? `<div class="load-more"><button class="btn" onclick="disc.shown+=60;renderDiscover()">Show more stories <span class="cnt">${list.length - disc.shown}</span></button></div>` : ""}`;
+  const qi = $("#disc-q"); qi.oninput = debounce(() => { disc.q = qi.value; disc.shown = 60; renderDiscover(); const input = $("#disc-q"); input.focus(); input.setSelectionRange(input.value.length, input.value.length); }, 250);
 }
+window.resetDiscover = () => { disc.q = ""; disc.pillar = 0; disc.tab = ""; disc.hideSaved = false; disc.shown = 60; renderDiscover(); };
 window.discSet = (k, v) => { disc[k] = v; disc.shown = 60; renderDiscover(); };
 window.saveIdea = async (k, sub) => {
   const it = (sub === "news" ? D.news : D.agents).find(x => x.k === k); if (!it) return;
   await patchDoc("candidates", k, { title: it.t, url: it.u, source: it.s, category: D.pillars[it.p] || "", published: it.d || it.pub || "", summary: it.sm || "", score: Math.max(5, Math.min(10, Math.round(it.sc || 6))), topic: TOPIC_OF_PILLAR[it.p] || "other", urgency: "this_week", reason: "saved from Discover", angle_hint: "", status: "shortlisted", manual: true, created: nowIso() });
   toast("Saved to Ideas as shortlisted");
 };
+let pulseRequest = 0;
 async function renderPulse(body) {
-  body.innerHTML = emptyBox("Loading Pulse", "", "radar");
+  const request = ++pulseRequest;
+  body.innerHTML = emptyBox("Gathering the signals…", "Trends and conversations from across platforms.", "radar");
   let p = null; try { const r = await fetch("pulse.json?v=" + D.cache, { cache: "no-store" }); if (r.ok) p = await r.json(); } catch (e) {}
-  if (!p) { body.innerHTML = emptyBox("Pulse is not available", "pulse.json could not be loaded.", "warn"); return; }
-  const trends = p.trends || []; const pains = p.pain_points || [];
-  body.innerHTML = `<p class="cap" style="margin:8px 0 12px">Generated ${esc(fmtDT(p.generated_at))} · sources: ${esc(((p.meta || {}).sources_used || []).join(", "))} · mode ${esc((p.meta || {}).mode || "")}</p>
-    <div class="cols">${sec("Trending across platforms", `<div class="list">${trends.map(t => `<div class="item"><div class="g"><span class="dot ${t.momentum === "hot" || t.momentum === "rising" ? "accent" : ""}" style="margin:0"></span></div>
-      <div class="b"><div class="t">${esc(t.name)}</div><div class="m"><span>${esc(t.momentum || "")}</span><span>${esc(t.category || "")}</span>${(t.platforms || []).map(x => `<span>${esc(x.replace("_inferred", "*"))}</span>`).join("")}${t.linkedin_angle ? `<span>${esc(t.linkedin_angle)}</span>` : ""}</div></div>
-      <div class="r">${(t.sources || [])[0] ? `<a class="btn sm icon ghost" title="Open signal" target="_blank" rel="noopener" href="${esc(t.sources[0].url)}">${ic("external")}</a>` : ""}</div></div>`).join("") || emptyBox("No trends")}</div>`)}
-    ${sec("Pain points people talk about", `<div class="list">${pains.map(x => `<div class="item"><div class="g">${ic("message", "sm")}</div><div class="b"><div class="t" style="white-space:normal;font-size:13px">${esc(x.text || x.problem || x.summary || JSON.stringify(x).slice(0, 200))}</div></div><div class="r">${x.url ? `<a class="btn sm icon ghost" title="Source" target="_blank" rel="noopener" href="${esc(x.url)}">${ic("external")}</a>` : ""}</div></div>`).join("") || emptyBox("None detected")}</div>`)}</div>`;
+  if (request !== pulseRequest || disc.sub !== "pulse" || CUR !== "discover") return;
+  if (!p) { body.innerHTML = emptyBox("The signals are taking a moment", "Pulse could not be loaded. Try refreshing the signals.", "warn", `<button class="btn sm" onclick="renderDiscover()">Try again</button>`); return; }
+  const trends = p.trends || [], pains = p.pain_points || [];
+  body.innerHTML = `<div class="result-meta"><span>${trends.length} trends · ${pains.length} audience conversations</span><span>Updated ${esc(fmtDT(p.generated_at))}</span><button class="btn sm ghost" onclick="renderDiscover()">Refresh signals</button></div>
+    <div class="pulse-grid"><section class="sec"><div class="sh"><h2>What is picking up momentum</h2><span class="chip purple">Across platforms</span></div><div class="pulse-cards">${trends.map(t => `<article class="pulse-card"><div class="row"><span class="chip ${["hot", "rising"].includes(t.momentum) ? "accent" : ""}">${esc(t.momentum || "Signal")}</span><span class="cap">${esc(t.category || "")}</span></div><h3>${esc(t.name)}</h3>${t.linkedin_angle ? `<p>${esc(t.linkedin_angle)}</p>` : ""}<div class="m">${(t.platforms || []).map(x => `<span>${esc(x.replace("_inferred", " (inferred)"))}</span>`).join("")}</div>${(t.sources || [])[0] ? `<a class="btn sm ghost" target="_blank" rel="noopener" href="${esc(t.sources[0].url)}">Explore the signal ${ic("external")}</a>` : ""}</article>`).join("") || emptyBox("No trends in this snapshot", "Check back after the next Pulse run.", "radar")}</div></section>
+    <section class="sec"><div class="sh"><h2>Listen to your audience</h2>${ic("message")}</div><div class="pulse-cards">${pains.map(x => `<article class="pulse-card"><span class="eyebrow">A QUESTION WORTH EXPLORING</span><h3>${esc(x.text || x.problem || x.summary || JSON.stringify(x).slice(0, 200))}</h3>${x.url ? `<a class="btn sm ghost" target="_blank" rel="noopener" href="${esc(x.url)}">Read the conversation ${ic("external")}</a>` : ""}</article>`).join("") || emptyBox("A quiet moment", "No audience pain points were detected in this snapshot.", "message")}</div></section></div>
+    <p class="cap">Collected from ${esc(((p.meta || {}).sources_used || []).join(", ") || "available platform signals")}. ${esc((p.meta || {}).mode || "")} signals can help you choose a useful angle.</p>`;
 }
-
 /* ================================================================ Ideas */
 let ideasView = "all";
 function renderIdeas() {
   const short = cands(c => c.status === "shortlisted").sort(byScore);
   const fresh = cands(c => c.status === "new").sort(byScore);
   const later = cands(c => ["low", "duplicate", "dismissed", "skipped"].includes(c.status)).sort(byScore);
-  $("#topActions").innerHTML = `<div class="seg">${[["all", "All"], ["shortlisted", `Shortlisted ${short.length}`], ["new", `New ${fresh.length}`], ["later", `Later ${later.length}`]].map(([k, v]) => `<button class="${ideasView === k ? "active" : ""}" onclick="ideasView='${k}';renderIdeas()">${v}</button>`).join("")}</div>
-    <button class="btn sm ghost" onclick="go('discover')">${ic("radar")}Discover</button>`;
+  $("#topActions").innerHTML = `<button class="btn sm" onclick="go('discover')">${ic("radar")}Discover more</button>`;
   const show = k => ideasView === "all" || ideasView === k;
-  $("#s-ideas").innerHTML = `
-    ${show("shortlisted") ? sec("Shortlisted", `<div class="list">${short.map(c => candRow(c)).join("") || emptyBox("Nothing shortlisted", "Star an idea below, or save one from Discover.", "star")}</div>`, `<span class="cnt">${short.length}</span>`, D.mode === "api" && short.length ? `<button class="btn sm ghost" onclick="draftCmd('${short[0].id}')">Draft all with API</button>` : "") : ""}
-    ${show("new") ? sec("New from triage", `<div class="list">${fresh.slice(0, 60).map(c => candRow(c)).join("") || emptyBox("No new ideas yet", "The hourly cloud job fills this in.", "radar")}${fresh.length > 60 ? `<p class="cap" style="padding:8px">${fresh.length - 60} more, lower scored.</p>` : ""}</div>`, `<span class="cnt">${fresh.length}</span>`, `<span>scored 1–10 for your audience</span>`) : ""}
-    ${show("later") ? sec("Later and dismissed", ideasView === "later" || ideasView === "all" && later.length <= 12 ? `<div class="list">${later.slice(0, 80).map(c => candRow(c)).join("") || emptyBox("Nothing here")}</div>` : `<p class="t3">${later.length} lower-scored or dismissed ideas. <a href="#ideas" onclick="ideasView='later';renderIdeas();return false">Show them</a></p>`, `<span class="cnt">${later.length}</span>`) : ""}`;
+  const lane = (key, title, subtitle, list, icon, limit = 60) => `<section class="pipeline-lane"><div class="lane-head"><div>${ic(icon)}<h3>${title}</h3><span class="cnt">${list.length}</span></div><p>${subtitle}</p></div><div class="list">${list.slice(0, limit).map(c => candRow(c)).join("") || emptyBox(key === "shortlisted" ? "Keep your favourites here" : key === "new" ? "Waiting for a spark" : "A place for another day", key === "shortlisted" ? "Star a promising idea, or save a story from Discover." : key === "new" ? "New stories arrive after the next triage run." : "Dismissed and lower-scored ideas stay here. You can restore them anytime.", icon)}${list.length > limit ? `<p class="cap lane-more">Showing the top ${limit} of ${list.length} ideas by score.</p>` : ""}</div>${key === "shortlisted" && D.mode === "api" && list.length ? `<button class="btn sm lane-action" onclick="draftCmd('${list[0].id}')">Draft shortlist with API</button>` : ""}</section>`;
+  $("#s-ideas").innerHTML = `${pageIntro("MAKE SPACE FOR THE GOOD ONES", "Small sparks. Strong ideas.", "Choose the stories that fit your audience. Star a favourite, start a draft, or leave it for another day.")}
+    <div class="screen-toolbar"><div class="seg" aria-label="Idea view">${[["all", "Your pipeline"], ["shortlisted", `Shortlisted ${short.length}`], ["new", `New ${fresh.length}`], ["later", `Later ${later.length}`]].map(([k, v]) => `<button class="${ideasView === k ? "active" : ""}" aria-pressed="${ideasView === k}" onclick="ideasView='${k}';renderIdeas()">${v}</button>`).join("")}</div><span class="cap">Audience scores help you decide. Your perspective does the rest.</span></div>
+    <div class="pipeline-grid ${ideasView === "all" ? "" : "single-lane"}">${show("new") ? lane("new", "Fresh discoveries", "New stories, scored for your audience.", fresh, "radar") : ""}${show("shortlisted") ? lane("shortlisted", "The shortlist", "Your favourites, ready for a first draft.", short, "star") : ""}${show("later") ? lane("later", "For another day", "Keep the door open to a different angle.", later, "clock", 80) : ""}</div>`;
 }
-
 /* ================================================================ Compose */
 let composeId = null, composeFilter = "review", previewMode = jload("previewMode", "mobile");
 const pasteBuf = {}; window.pasteBuf = pasteBuf;
 function renderCompose() {
+  const previous = $("#compose-editor"); if (previous && previous.flushEdits) previous.flushEdits();
+  if (!$("#compose-intro")) $("#s-compose .compose").insertAdjacentHTML("beforebegin", '<div id="compose-intro"></div>');
+  $("#compose-intro").innerHTML = pageIntro("YOUR PERSPECTIVE MAKES THE DIFFERENCE", "A good idea, in your own words.", "Write with a source beside you, a preview in view, and a little room to get the wording right.");
   const filt = { review: d => d.status === "draft", approved: d => ["approved", "scheduled"].includes(d.status), all: d => d.status !== "published" }[composeFilter];
   const list = drafts(filt).sort(byCreated);
   if (!composeId || !S.drafts[composeId]) composeId = (list[0] || {}).id || null;
-  $("#compose-list").innerHTML = `<div class="seg">${[["review", "To review"], ["approved", "Approved"], ["all", "All open"]].map(([k, v]) => `<button class="${composeFilter === k ? "active" : ""}" onclick="composeFilter='${k}';renderCompose()">${v}</button>`).join("")}</div>
+  $("#compose-list").innerHTML = `<div class="clist-heading"><span class="eyebrow">ON YOUR DESK</span><span class="cnt">${list.length}</span></div><div class="seg" aria-label="Filter drafts">${[["review", "To review"], ["approved", "Approved"], ["all", "All open"]].map(([k, v]) => `<button class="${composeFilter === k ? "active" : ""}" aria-pressed="${composeFilter === k}" onclick="composeFilter='${k}';renderCompose()">${v}</button>`).join("")}</div>
     ${list.map(d => `<button class="citem ${d.id === composeId ? "active" : ""}" onclick="composeId='${d.id}';renderCompose()"><div class="t">${esc(d.title)}</div><div class="m"><span class="glyph ${glyphFor(d)}" style="width:10px;height:10px"></span>${esc(STATUS_LABEL[d.status] || d.status)} · ${esc(TOPIC_LABEL[d.topic] || d.topic || "")}${d.manual ? " · manual" : ""}</div></button>`).join("") || emptyBox("Nothing here", "Pick an idea and press Write.", "pen")}`;
   renderEditor(composeId);
 }
@@ -395,7 +456,8 @@ function stepper(st) {
   return `<div class="steps">${order.map((s, k) => `<span class="${k < i ? "done" : k === i ? "now" : ""}"><span class="glyph ${k < i ? "published" : k === i ? s : "draft"}" style="width:10px;height:10px;${k < i ? "" : k === i ? "" : "opacity:.5"}"></span>${STATUS_LABEL[s]}</span>`).join("")}${st === "rejected" ? '<span class="now">Rejected</span>' : ""}</div>`;
 }
 function renderEditor(id) {
-  const ed = $("#compose-editor"); const d = id && S.drafts[id];
+  const ed = $("#compose-editor"); if (ed.flushEdits) ed.flushEdits(); ed.flushEdits = null;
+  const d = id && S.drafts[id];
   if (!d) { ed.innerHTML = emptyBox("Pick a draft on the left", "Or go to Ideas and press Write on a story.", "pen", `<button class="btn sm" onclick="go('ideas')">Go to Ideas <kbd>3</kbd></button>`); return; }
   const pack = S.sources[d.candidate_id || d.id] || {};
   const st = d.status;
@@ -411,35 +473,38 @@ function renderEditor(id) {
     ${d.angle && d.angle.angle ? `<p class="t3" style="margin:-6px 0 14px"><span class="label">Angle</span>&nbsp; ${esc(d.angle.angle)}</p>` : ""}
     <div class="epanes">
       <div class="composer">
-        <textarea id="ed-post" class="post-ta" placeholder="Write the post. Line 1 is the hook; LinkedIn cuts it at 140 characters on phones." spellcheck="true">${esc(postOf(d))}</textarea>
+        <div class="writing-heading"><div><span class="eyebrow">THE WRITING SPACE</span><label for="ed-post">Your post</label></div><span class="chip purple">${ic("pen")}LinkedIn · text</span></div>
+        <textarea id="ed-post" class="post-ta" placeholder="Start with a line that makes someone pause. Then tell them something useful, in your own words." spellcheck="true">${esc(postOf(d))}</textarea>
         <div class="metabar" id="ed-counter"></div>
         <div class="field"><label for="ed-comment">First comment (the source link lives here)</label><textarea id="ed-comment" style="min-height:56px">${esc(commentOf(d))}</textarea></div>
         <div class="field"><label for="ed-tags">Hashtags (max 3)</label><input type="text" id="ed-tags" value="${esc((d.hashtags || []).join(" "))}" placeholder="#ai #healthcare"></div>
         <div class="row" style="margin:4px 0 24px">
           <button class="btn" onclick="copyPost('${d.id}')">${ic("copy")}Copy post <kbd>${MOD}⇧C</kbd></button>
-          <button class="btn" onclick="copy(commentOf(S.drafts['${d.id}']),'First comment copied')">${ic("message")}Copy first comment</button>
+          <button class="btn" onclick="copy($('#ed-comment').value,'First comment copied')">${ic("message")}Copy first comment</button>
           <button class="btn li" onclick="window.open('https://www.linkedin.com/feed/?shareActive=true','_blank','noopener')">${LI}&nbsp;Open LinkedIn</button>
           ${st !== "published" ? `<button class="btn" data-confirm="Posted on LinkedIn?" onclick="confirmThen(this,()=>markPosted('${d.id}'))">${ic("check")}Mark as posted</button>` : `<span class="chip ok">posted ${esc(fmtDT(d.published_at))}</span>`}
         </div>
         ${sec("Write with Claude or ChatGPT", `
           <ol class="howto"><li>Copy the writer prompt and paste it into Claude.ai or ChatGPT.</li><li>Paste its answer below and press Parse. Post, first comment, claims and checks fill in.</li><li>Edit in your voice. Optionally run the fact-check the same way.</li></ol>
-          ${pack.excerpt ? `<p class="cap" style="margin-bottom:8px"><span class="dot ok"></span>Source text loaded (${pack.chars} chars${pack.thin ? ", thin" : ""}). The prompt uses the real article, not just the headline.</p>` : `<div class="row" style="margin-bottom:6px"><input type="text" id="ed-url" value="${esc(fetchUrlFor(d))}" placeholder="https://publisher.com/the-article" spellcheck="false" style="flex:1;min-width:220px;font-family:var(--mono);font-size:12px"><button class="btn sm" id="ed-fetch" onclick="fetchArticle('${d.id}')">${ic("download")}Fetch article text</button></div>
+          ${pack.excerpt ? `<p class="cap" style="margin-bottom:8px"><span class="dot ok"></span>Source text loaded (${pack.chars} chars${pack.thin ? ", thin" : ""}). The prompt uses the real article, not just the headline.</p>` : `<label class="f" for="ed-url">Article address</label><div class="row" style="margin-bottom:6px"><input type="text" id="ed-url" value="${esc(fetchUrlFor(d))}" placeholder="https://publisher.com/the-article" spellcheck="false" style="flex:1;min-width:220px;font-family:var(--mono);font-size:12px"><button class="btn sm" id="ed-fetch" onclick="fetchArticle('${d.id}')">${ic("download")}Fetch article text</button></div>
           <p class="cap" id="ed-fetch-msg" style="margin-bottom:8px">${isGoogleNews(fetchUrlFor(d)) ? "This is a Google News redirect link, which the reader cannot open. Open the story, copy the publisher's address from the browser bar, paste it above and fetch." : "Optional. The prompt works from the headline and feed summary; fetching the article, or pasting a few facts below, gives the writer real numbers and quotes to use."}</p>
-          <textarea id="ed-facts" placeholder="Optional: a few lines of real facts, numbers, quotes copied from the article">${esc(d.facts || "")}</textarea>`}
+          <label class="f" for="ed-facts">Facts to ground your writing</label><textarea id="ed-facts" placeholder="Optional: a few lines of real facts, numbers, quotes copied from the article">${esc(d.facts || "")}</textarea>`}
           <div class="row" style="margin:8px 0"><button class="btn" onclick="copyPrompt('${d.id}')">${ic("copy")}Copy writer prompt</button>
-            <button class="btn ghost" onclick="copyJudgePrompt('${d.id}')" ${postOf(d).trim() ? "" : "disabled"}>${ic("search")}Copy fact-check prompt</button></div>
+            <button class="btn ghost" id="ed-judge-prompt" onclick="copyJudgePrompt('${d.id}')" ${postOf(d).trim() ? "" : "disabled"}>${ic("search")}Copy fact-check prompt</button>
+            <button class="btn ghost" id="ed-image-prompt" onclick="copyImagePrompt('${d.id}')" ${postOf(d).trim() ? "" : "disabled"} title="A LinkedIn-tuned brief: 4:5, one message, readable on a phone, only facts from the post">${ic("image")}Copy image prompt</button></div>
           <div class="field"><label for="ed-paste">Paste the answer</label><textarea id="ed-paste" style="min-height:56px;font-family:var(--mono);font-size:12px" placeholder='{"angles": [...], "post": "...", ...}' oninput="pasteBuf['${d.id}']=this.value">${esc(pasteBuf[d.id] || "")}</textarea></div>
           <div class="row"><button class="btn sm" onclick="parseAnswer('${d.id}')">${ic("play")}Parse answer</button><span class="cap" id="ed-parse-msg"></span></div>`, "your subscription, no API cost")}
         ${(d.claims || []).length ? `<details style="margin-bottom:12px"><summary>Claims and where they come from (${d.claims.length})</summary><table class="claims">${d.claims.map(c => `<tr><td>${esc(c.claim)}</td><td><span class="chip ${c.kind === "reported_fact" ? "ok" : c.kind === "unsupported" ? "bad" : c.kind === "my_interpretation" ? "purple" : "accent"}">${esc(String(c.kind || "").replace(/_/g, " "))}</span> ${esc(c.support)}</td></tr>`).join("")}</table></details>` : ""}
+        ${d.visual ? `<details style="margin-bottom:12px"><summary>Writer's image idea</summary><p class="t3" style="white-space:pre-wrap;padding:4px 0 0 17px">${esc(d.visual)}</p><p class="cap" style="padding:6px 0 0 17px">Press Copy image prompt: the brief carries this idea and reshapes it for LinkedIn.</p></details>` : ""}
         ${d.review_notes ? `<details open style="margin-bottom:12px"><summary>Writer's private notes</summary><p class="t3" style="white-space:pre-wrap;padding:4px 0 0 17px">${esc(d.review_notes)}</p></details>` : ""}
         ${pack.excerpt || pack.feed_summary ? `<details style="margin-bottom:12px"><summary>Source pack (${pack.chars || 0} chars${pack.thin ? ", thin" : ""})</summary><div class="excerpt">${esc(pack.excerpt || pack.feed_summary)}</div>${pack.note ? `<p class="cap" style="margin-top:6px">${esc(pack.note)}</p>` : ""}</details>` : ""}
       </div>
       <div class="prevpane">
-        <div class="ph"><span class="label">Preview</span><div class="seg"><button class="${previewMode === "mobile" ? "active" : ""}" onclick="previewMode='mobile';jsave('previewMode','mobile');refreshEditorPanels('${d.id}')">Mobile</button><button class="${previewMode === "desktop" ? "active" : ""}" onclick="previewMode='desktop';jsave('previewMode','desktop');refreshEditorPanels('${d.id}')">Desktop</button></div></div>
+        <div class="ph"><span class="label">Audience preview</span><div class="seg" aria-label="Preview device"><button data-preview="mobile" class="${previewMode === "mobile" ? "active" : ""}" aria-pressed="${previewMode === "mobile"}" onclick="setPreviewMode('mobile','${d.id}')">Mobile</button><button data-preview="desktop" class="${previewMode === "desktop" ? "active" : ""}" aria-pressed="${previewMode === "desktop"}" onclick="setPreviewMode('desktop','${d.id}')">Desktop</button></div></div>
         <div class="preview ${previewMode}" id="ed-preview"></div>
-        <div class="checks"><div class="ph"><span class="label">Checks</span><span id="ed-verdict"></span></div><div id="ed-issues"></div>
+        <div class="checks"><div class="ph"><span class="label">A final look</span><span id="ed-verdict" aria-live="polite"></span></div><div id="ed-issues"></div>
           ${(d.verify || {}).judge ? `<details style="margin-top:6px"><summary>Fact-checker's verdict</summary><p class="t3" style="padding:4px 0 0 17px">${esc(d.verify.judge.summary || "")}</p><p class="cap" style="padding-left:17px">AI-smell ${esc(d.verify.judge.ai_smell)}/5 · specificity ${esc(d.verify.judge.specificity)}/5</p>${(d.verify.judge.fixes || []).length ? `<ul class="t3" style="margin:6px 0 0;padding-left:34px">${d.verify.judge.fixes.map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}</details>` : ""}</div>
-        ${st === "approved" || st === "scheduled" ? `<div class="checks"><div class="ph"><span class="label">Slot</span></div><input type="datetime-local" id="ed-when" value="${esc(toLocalInput(d.scheduled_for || nextFreeSlot()))}"><div class="row" style="margin-top:8px"><button class="btn sm" onclick="setDraft('${d.id}',{status:'scheduled',scheduled_for:new Date($('#ed-when').value).toISOString()},'Scheduled')">Save slot</button>${st === "scheduled" ? `<button class="btn sm ghost" onclick="setDraft('${d.id}',{status:'approved',scheduled_for:null},'Unscheduled')">Unschedule</button>` : ""}</div></div>` : ""}
+        ${st === "approved" || st === "scheduled" ? `<div class="checks"><div class="ph"><span class="label">Slot</span></div><input type="datetime-local" id="ed-when" aria-label="Posting date and time" value="${esc(toLocalInput(d.scheduled_for || nextFreeSlot()))}"><div class="row" style="margin-top:8px"><button class="btn sm" onclick="saveDraftSlot('${d.id}')">Save slot</button>${st === "scheduled" ? `<button class="btn sm ghost" onclick="setDraft('${d.id}',{status:'approved',scheduled_for:null},'Unscheduled')">Unschedule</button>` : ""}</div></div>` : ""}
       </div>
     </div>`;
   const refresh = () => refreshEditorPanels(d.id);
@@ -455,6 +520,7 @@ function renderEditor(id) {
 function refreshEditorPanels(id) {
   const d = S.drafts[id]; if (!d) return;
   const post = $("#ed-post") ? $("#ed-post").value : postOf(d);
+  ["ed-judge-prompt", "ed-image-prompt"].forEach(id => { const button = $("#" + id); if (button) button.disabled = !post.trim(); });
   const tags = $("#ed-tags") ? ($("#ed-tags").value.match(/#\w+/g) || []) : (d.hashtags || []);
   const pack = S.sources[d.candidate_id || d.id] || {};
   const r = checkPost(post, pack, [(d.angle || {}).angle, (d.angle || {}).hook, d.facts, summaryOf(d)].join(" "), tags);
@@ -468,13 +534,14 @@ function refreshEditorPanels(id) {
   const cut = previewMode === "desktop" ? 210 : 140;
   const pv = $("#ed-preview"); pv.className = "preview " + previewMode;
   const hook = post.split("\n")[0]; const rest = post.slice(hook.length);
-  pv.innerHTML = `<div class="pp"><span class="av">A</span><div><b>Ahmad</b><small>AI x Ahmad · The World of AI, made simple</small><small>Now · Anyone</small></div></div>
-    <div class="body">${esc(hook.slice(0, cut))}${hook.length > cut || rest.trim() ? `<span class="more" onclick="this.parentNode.innerHTML=this.parentNode.dataset.full">${hook.length > cut ? "" : " "}…more</span>` : ""}</div>
+  pv.innerHTML = `<div class="pp"><span class="av">A</span><div><b>Ahmad</b><small>AI x Ahmad · The World of AI, made simple</small><small>Preview · Anyone</small></div></div>
+    <div class="body">${esc(hook.slice(0, cut))}${hook.length > cut || rest.trim() ? `<button class="more" type="button" onclick="this.parentNode.innerHTML=this.parentNode.dataset.full">${hook.length > cut ? "" : " "}…more</button>` : ""}</div>
     <div class="bar"><span>Like</span><span>Comment</span><span>Repost</span><span>Send</span></div>`;
   $("#ed-preview .body").dataset.full = esc(post) + (tags.length ? "\n\n" + esc(tags.join(" ")) : "");
 }
 window.refreshEditorPanels = refreshEditorPanels;
-window.setDraft = (id, fields, msg) => { if ($("#ed-post") && S.drafts[id]) Object.assign(fields, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value }); patchDoc("drafts", id, fields); if (msg) toast(msg); };
+window.setPreviewMode = (mode, id) => { previewMode = mode; jsave("previewMode", mode); $$("[data-preview]").forEach(button => { const active = button.dataset.preview === mode; button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active)); }); refreshEditorPanels(id); };
+window.setDraft = (id, fields, msg) => { if (CUR === "compose" && composeId === id && $("#ed-post") && S.drafts[id]) Object.assign(fields, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value }); patchDoc("drafts", id, fields); if (msg) toast(msg); };
 window.copyPost = id => { const d = S.drafts[id]; if (!d) return; const tags = ($("#ed-tags") && composeId === id) ? ($("#ed-tags").value.match(/#\w+/g) || []) : (d.hashtags || []); const post = ($("#ed-post") && composeId === id) ? $("#ed-post").value : postOf(d); copy(post.trim() + (tags.length ? "\n\n" + tags.join(" ") : ""), "Post copied. Paste it into LinkedIn, then add the first comment."); };
 window.markPosted = async id => {
   const d = S.drafts[id]; if (!d) return;
@@ -509,14 +576,21 @@ window.fetchArticle = async id => {
     if (excerpt.length < 200) throw new Error("the page gave almost no text (paywall or video?)");
     const quotes = (excerpt.match(/["“]([^"”]{25,320})["”]/g) || []).slice(0, 8).map(q => q.slice(1, -1));
     const cid = d.candidate_id || d.id;
+    const flushCurrent = () => { const editor = $("#compose-editor"); if (CUR === "compose" && composeId === id && editor.flushEdits) editor.flushEdits(); };
+    flushCurrent();
     await patchDoc("sources", cid, { url, title: d.title, source: d.source, excerpt, chars: excerpt.length, quotes, thin: excerpt.length < 600, ok: excerpt.length >= 600, note: "fetched in the Studio via r.jina.ai", fetched_at: nowIso() }, true);
-    if (url !== d.url) {
+    flushCurrent();
+    const current = S.drafts[id] || d;
+    if (url !== current.url) {
       const fields = { url };
-      for (const k of ["first_comment", "edited_comment"]) if (d.url && String(d[k] || "").includes(d.url)) fields[k] = String(d[k]).split(d.url).join(url);
+      for (const k of ["first_comment", "edited_comment"]) if (current.url && String(current[k] || "").includes(current.url)) fields[k] = String(current[k]).split(current.url).join(url);
+      const comment = CUR === "compose" && composeId === id && $("#ed-comment");
+      if (comment && current.url) comment.value = comment.value.split(current.url).join(url);
       await patchDoc("drafts", id, fields, true);
     }
     if (S.candidates[cid]) await patchDoc("candidates", cid, { resolved_url: url, source_ok: excerpt.length >= 600, source_chars: excerpt.length }, true);
-    renderEditor(id); toast(`Article fetched: ${excerpt.length} characters of source text`);
+    if (CUR === "compose" && composeId === id) renderEditor(id);
+    toast(`Article fetched: ${excerpt.length} characters of source text`);
   } catch (e) {
     say("Could not fetch the article (" + e.message + "). Paste a few facts from it below instead.", true);
     if (btn) { btn.disabled = false; btn.innerHTML = ic("download") + "Fetch article text"; }
@@ -555,9 +629,18 @@ window.copyPrompt = id => {
     "", "OUTPUT: return ONE JSON object only, inside a ```json fence, nothing else. Keys:",
     '{"angles":[{"angle":"","hook":"","format":"text|carousel|image","mode":"insight|practical|story|question","why":""}],',
     ' "chosen":0, "post":"", "first_comment":"", "hashtags":[], "claims":[{"claim":"","support":"","kind":"reported_fact|attributed_claim|my_interpretation|unsupported"}],',
+    ' "visual":"one sentence: the single image that would belong with this post, built only from facts in it, or empty if a picture would only decorate",',
     ' "review_notes":"", "status":"draft|skip"}'].filter(x => x !== "").join("\n");
   copy(p, kind === "headline" ? "Writer prompt copied from the headline and feed summary. Paste it into Claude.ai or ChatGPT, then paste the JSON answer back here. Fetch the article for a richer post."
     : "Writer prompt copied. Paste it into Claude.ai or ChatGPT, then paste the JSON answer back here.");
+};
+window.copyImagePrompt = id => {
+  const d = S.drafts[id]; if (!d) return;
+  const post = ($("#ed-post") && composeId === id) ? $("#ed-post").value.trim() : postOf(d).trim();
+  if (!post) { toast("Write or parse the post first. The image is built from it, never from the headline alone."); return; }
+  const p = [D.content.image_prompt || "", "", "POST (the image may only say what this says):\n" + post, "", "STORY: " + d.title + "\nSOURCE: " + (d.source || ""),
+    d.visual ? "\nTHE WRITER'S IDEA (a starting point; keep only what fits the rules above):\n" + d.visual : ""].filter(Boolean).join("\n");
+  copy(p, "Image brief copied. Paste it into ChatGPT or Gemini: it answers with the prompt and alt text, or makes the image directly.");
 };
 window.copyJudgePrompt = id => {
   const d = S.drafts[id]; const post = $("#ed-post") ? $("#ed-post").value : postOf(d); const src = sourceBlock(d);
@@ -599,6 +682,7 @@ function extractJson(text) {
   throw err;
 }
 window.parseAnswer = async id => {
+  const editor = $("#compose-editor"); if (composeId === id && editor.flushEdits) editor.flushEdits();
   const d = S.drafts[id]; const box = $("#ed-paste"); const raw = box ? box.value : (pasteBuf[id] || ""); const msg = $("#ed-parse-msg");
   const say = (text, bad) => { if (msg) { msg.textContent = text; msg.style.color = bad ? "var(--bad)" : ""; } if (bad) toast(text, 4000); };
   if (!d) { say("This draft is no longer loaded. Reload the page.", true); return; }
@@ -615,8 +699,8 @@ window.parseAnswer = async id => {
       const angles = Array.isArray(j.angles) ? j.angles : []; const chosen = angles[Math.min(Number(j.chosen) || 0, Math.max(angles.length - 1, 0))] || null;
       const hashtags = (Array.isArray(j.hashtags) ? j.hashtags : String(j.hashtags || "").split(/\s+/)).map(h => String(h).trim()).filter(Boolean).map(h => h.startsWith("#") ? h : "#" + h).slice(0, 3);
       const r = checkPost(j.post, pack, [(chosen || {}).angle, (chosen || {}).hook, d.facts, summaryOf(d)].join(" "), hashtags);
-      await patchDoc("drafts", id, { post: j.post, edited_post: null, first_comment: String(j.first_comment || commentOf(d)), edited_comment: null, hashtags, claims: Array.isArray(j.claims) ? j.claims : [], review_notes: String(j.review_notes || ""), angle: chosen, format: (chosen || {}).format || d.format || "text", angles, verify: { verdict: r.verdict, issues: r.issues, hook_len: r.hookLen, chars: r.chars, engine: "manual" }, status: d.status === "rejected" ? "draft" : d.status }, true);
-      delete pasteBuf[id]; renderEditor(id); toast("Draft filled in. Now edit it in your voice.");
+      await patchDoc("drafts", id, { post: j.post, edited_post: null, first_comment: String(j.first_comment || commentOf(d)), edited_comment: null, hashtags, claims: Array.isArray(j.claims) ? j.claims : [], review_notes: String(j.review_notes || ""), visual: String(j.visual || ""), angle: chosen, format: (chosen || {}).format || d.format || "text", angles, verify: { verdict: r.verdict, issues: r.issues, hook_len: r.hookLen, chars: r.chars, engine: "manual" }, status: d.status === "rejected" ? "draft" : d.status }, true);
+      delete pasteBuf[id]; if (CUR === "compose" && composeId === id) renderEditor(id); toast("Draft filled in. Now edit it in your voice.");
       return;
     }
     if (Array.isArray(j.unsupported_claims) || j.ai_smell != null) {
@@ -629,7 +713,7 @@ window.parseAnswer = async id => {
       v.judge = { summary: String(j.summary || ""), ai_smell: Number(j.ai_smell) || 0, specificity: Number(j.specificity) || 0, fixes: Array.isArray(j.fixes) ? j.fixes : [], unsupported_claims: j.unsupported_claims || [], misattributed: j.misattributed || [] };
       v.verdict = v.issues.some(i => i.level === "fail") ? "fail" : v.issues.length ? "warn" : "pass";
       await patchDoc("drafts", id, { verify: v }, true);
-      delete pasteBuf[id]; renderEditor(id); toast("Fact-check applied: " + v.verdict);
+      delete pasteBuf[id]; if (CUR === "compose" && composeId === id) renderEditor(id); toast("Fact-check applied: " + v.verdict);
       return;
     }
     say("That JSON has neither a post nor a fact-check. Paste the writer's or the checker's answer.", true);
@@ -637,7 +721,7 @@ window.parseAnswer = async id => {
 };
 
 /* ================================================================ Schedule */
-function parseSlot(s) { const m = String(s).trim().match(/^(mon|tue|wed|thu|fri|sat|sun)\w*\s+(\d{1,2}):(\d{2})$/i); if (!m) return null; return { dow: ["sun", "mon", "tue", "wed", "thu", "fri", "sat"].indexOf(m[1].toLowerCase().slice(0, 3)), h: +m[2], m: +m[3] }; }
+function parseSlot(s) { const m = String(s).trim().match(/^(mon(?:day)?|tue(?:sday)?|wed(?:nesday)?|thu(?:rsday)?|fri(?:day)?|sat(?:urday)?|sun(?:day)?)\s+(\d{1,2}):(\d{2})$/i); if (!m || +m[2] > 23 || +m[3] > 59) return null; return { dow: ["sun", "mon", "tue", "wed", "thu", "fri", "sat"].indexOf(m[1].toLowerCase().slice(0, 3)), h: +m[2], m: +m[3] }; }
 function nextFreeSlot() {
   const taken = drafts(d => d.status === "scheduled" && d.scheduled_for).map(d => new Date(d.scheduled_for).getTime());
   const sl = slots().map(parseSlot).filter(Boolean); if (!sl.length) return new Date(Date.now() + 864e5).toISOString();
@@ -648,105 +732,110 @@ function nextFreeSlot() {
   return new Date(Date.now() + 864e5).toISOString();
 }
 window.scheduleNext = id => { const when = nextFreeSlot(); patchDoc("drafts", id, { status: "scheduled", scheduled_for: when }); toast("Scheduled for " + fmtDT(when)); };
+function slotAvailable(when, id) {
+  const time = new Date(when).getTime();
+  return Number.isFinite(time) && time > Date.now() && !drafts(d => d.id !== id && d.status === "scheduled").some(d => Math.abs(new Date(d.scheduled_for).getTime() - time) < 36e5);
+}
+window.saveDraftSlot = id => {
+  const input = $("#ed-when"), draft = S.drafts[id];
+  if (CUR !== "compose" || composeId !== id || !input || !draft || !["approved", "scheduled"].includes(draft.status)) return;
+  const time = new Date(input.value).getTime();
+  if (!Number.isFinite(time) || time <= Date.now()) { toast("Choose a valid posting date and time in the future."); input.focus(); return; }
+  const when = new Date(time).toISOString();
+  if (!slotAvailable(when, id)) { toast("That opening is no longer available. Choose another slot."); input.focus(); return; }
+  setDraft(id, { status: "scheduled", scheduled_for: when }, "Scheduled for " + fmtDT(when));
+};
+let scheduleOffset = 0, selectedSlot = null;
+window.shiftSchedule = offset => { scheduleOffset = offset === 0 ? 0 : scheduleOffset + offset; selectedSlot = null; renderSchedule(); };
+window.selectSlot = when => { selectedSlot = when; renderSchedule(); const picker = $("#slot-picker"); if (picker) picker.focus(); };
+window.placeInSlot = id => { if (!id || !selectedSlot) return; const when = selectedSlot, draft = S.drafts[id]; if (!draft || draft.status !== "approved") { toast("Choose a draft that is still approved."); renderSchedule(); return; } if (!slotAvailable(when, id)) { selectedSlot = null; toast("That opening is no longer available. Choose another slot."); renderSchedule(); return; } selectedSlot = null; patchDoc("drafts", id, { status: "scheduled", scheduled_for: when }); toast("Scheduled for " + fmtDT(when)); };
 function renderSchedule() {
   const sched = drafts(d => d.status === "scheduled").sort((a, b) => String(a.scheduled_for).localeCompare(String(b.scheduled_for)));
-  const approved = drafts(d => d.status === "approved");
+  const approved = drafts(d => d.status === "approved").sort(byCreated);
   const sl = slots().map(parseSlot).filter(Boolean);
-  const days = []; const start = new Date(); start.setHours(0, 0, 0, 0);
+  const days = [], start = new Date(); start.setHours(0, 0, 0, 0); start.setDate(start.getDate() + scheduleOffset);
   for (let i = 0; i < 14; i++) { const day = new Date(start); day.setDate(start.getDate() + i); days.push(day); }
   const dayCell = day => {
     const end = new Date(day); end.setDate(day.getDate() + 1);
     const items = sched.filter(d => { const t = new Date(d.scheduled_for); return t >= day && t < end; });
-    const free = sl.filter(s => s.dow === day.getDay() && !items.some(d => Math.abs(new Date(d.scheduled_for).getHours() - s.h) < 1) && new Date(day).setHours(s.h, s.m) > Date.now());
-    return `<div class="day ${day.toDateString() === new Date().toDateString() ? "today" : ""}"><div class="dh"><b>${day.getDate()}</b>${esc(day.toLocaleDateString(undefined, { weekday: "short" }))}</div>
-      ${items.map(d => `<div class="slot ${isDue(d) ? "due" : ""}" onclick="openDraft('${d.id}')"><b>${esc(fmtT(d.scheduled_for))}</b>${esc(d.title.slice(0, 54))}</div>`).join("")}
-      ${free.map(s => `<div class="slot free">${String(s.h).padStart(2, "0")}:${String(s.m).padStart(2, "0")} free</div>`).join("")}</div>`;
+    const free = sl.map(slot => { const t = new Date(day); t.setHours(slot.h, slot.m, 0, 0); return { slot, when: t }; }).filter(({ slot, when }) => slot.dow === day.getDay() && when > new Date() && !sched.some(d => Math.abs(new Date(d.scheduled_for).getTime() - when.getTime()) < 36e5));
+    return `<div class="day ${day.toDateString() === new Date().toDateString() ? "today" : ""}"><div class="dh"><span>${esc(day.toLocaleDateString(undefined, { weekday: "short" }))}</span><b>${day.getDate()}</b>${day.toDateString() === new Date().toDateString() ? '<span class="day-today">Today</span>' : ""}</div>
+      ${items.map(d => `<button class="slot ${isDue(d) ? "due" : ""}" onclick="openDraft('${d.id}')" aria-label="Open ${esc(d.title)} scheduled for ${esc(fmtDT(d.scheduled_for))}"><b>${esc(fmtT(d.scheduled_for))}</b><span>${esc(String(d.title || "Untitled post").slice(0, 54))}</span>${isDue(d) ? '<small>Ready to post</small>' : ""}</button>`).join("")}
+      ${free.map(({ when }) => `<button class="slot free ${selectedSlot === when.toISOString() ? "selected" : ""}" onclick="selectSlot('${when.toISOString()}')" aria-label="Choose free slot ${esc(fmtDT(when))}"><b>${esc(fmtT(when))}</b><span>+ Add a post</span></button>`).join("")}</div>`;
   };
-  $("#pageSub").textContent = `slots ${slots().join(" · ")} · target ${target()}/week · ${postedThisWeek()} posted this week`;
-  $("#s-schedule").innerHTML = `
-    ${sec("Next two weeks", `<div class="week">${days.slice(0, 7).map(dayCell).join("")}</div><div class="week" style="border-top:none">${days.slice(7).map(dayCell).join("")}</div>`, "", `<button class="btn sm ghost" onclick="go('settings')">Edit slots</button>`)}
-    <div class="cols">
-      ${sec("Approved, waiting for a slot", `<div class="list">${approved.map(d => draftRow(d, { extra: `<button class="btn sm keep" onclick="scheduleNext('${d.id}')">Next free slot</button>` })).join("") || emptyBox("Nothing approved yet", "Approve drafts in Compose first.", "check")}</div>`, `<span class="cnt">${approved.length}</span>`)}
-      ${sec("Queue", `<div class="list">${sched.map(d => draftRow(d, { extra: `<button class="btn sm li keep" onclick="postNow('${d.id}')">${LI}&nbsp;Post now</button><button class="btn sm icon ghost" title="Unschedule" aria-label="Unschedule" onclick="setDraft('${d.id}',{status:'approved',scheduled_for:null},'Unscheduled')">${ic("x")}</button>` })).join("") || emptyBox("Queue is empty", "", "calendar")}</div>`, `<span class="cnt">${sched.length}</span>`)}
-    </div>`;
+  $("#pageSub").textContent = "A rhythm that works for you";
+  $("#topActions").innerHTML = `<button class="btn sm" onclick="go('settings')">${ic("settings")}Posting rhythm</button>`;
+  $("#s-schedule").innerHTML = `${pageIntro("GIVE YOUR IDEAS A LITTLE ROOM", "Good timing. Your timing.", "Build a steady publishing rhythm. Choose an open slot or let Studio find the next one for you.")}
+    <div class="schedule-heading"><div class="row"><h3>${esc(start.toLocaleDateString(undefined, { month: "long", year: "numeric" }))}${days[13].getMonth() !== start.getMonth() ? ` – ${esc(days[13].toLocaleDateString(undefined, { month: "long" }))}` : ""}</h3><span class="chip purple">${sched.length} queued</span><span class="chip">${approved.length} ready</span></div><div class="row"><span class="cap">${esc(Intl.DateTimeFormat().resolvedOptions().timeZone || "Local time")}</span><button class="btn sm icon ghost" onclick="shiftSchedule(-14)" aria-label="Previous two weeks">‹</button><button class="btn sm" onclick="shiftSchedule(0)">Today</button><button class="btn sm icon ghost" onclick="shiftSchedule(14)" aria-label="Next two weeks">›</button></div></div>
+    <section class="sec calendar-panel"><div class="calendar-scroll"><div class="week">${days.slice(0, 7).map(dayCell).join("")}</div><div class="week">${days.slice(7).map(dayCell).join("")}</div></div><div class="calendar-legend"><span><i class="dot accent"></i>Scheduled post</span><span><i class="dot warn"></i>Ready to publish</span><span>+ An opening in your rhythm</span></div></section>
+    ${selectedSlot ? `<section class="sec slot-picker" id="slot-picker" tabindex="-1"><div class="sh"><h2>A home for your next post</h2><button class="btn sm icon ghost" onclick="selectedSlot=null;renderSchedule()" aria-label="Close slot selection">${ic("x")}</button></div><p class="t3">Selected: <b>${esc(fmtDT(selectedSlot))}</b></p>${approved.length ? `<div class="row"><select id="slot-draft" aria-label="Approved post to schedule">${approved.map(d => `<option value="${esc(d.id)}">${esc(d.title)}</option>`).join("")}</select><button class="btn primary" onclick="placeInSlot($('#slot-draft').value)">Place on this slot</button></div>` : emptyBox("A little writing first", "Approve a draft in Compose, then place it in this opening.", "pen", `<button class="btn sm" onclick="go('compose')">Open Compose</button>`)}</section>` : ""}
+    <div class="cols">${sec("Ready when you are", `<div class="list">${approved.map(d => draftRow(d, { extra: `<button class="btn sm keep" onclick="scheduleNext('${d.id}')">${ic("calendar")}Next free slot</button>` })).join("") || emptyBox("Make something worth sharing", "Approved drafts appear here, ready for a spot on your calendar.", "check", `<button class="btn sm" onclick="go('compose')">Review your drafts</button>`)}</div>`, `<span class="cnt">${approved.length}</span>`)}
+      ${sec("Your publishing queue", `<div class="list">${sched.map(d => draftRow(d, { extra: `<button class="btn sm li keep" onclick="postNow('${d.id}')">${LI}&nbsp;Post now</button><button class="btn sm icon ghost" aria-label="Unschedule ${esc(d.title)}" onclick="setDraft('${d.id}',{status:'approved',scheduled_for:null},'Unscheduled')">${ic("x")}</button>` })).join("") || emptyBox("A little space ahead", "Choose an approved draft and give it a time to shine.", "calendar")}</div>`, `<span class="cnt">${sched.length}</span>`)}</div>`;
 }
-
 /* ================================================================ Published */
+let publishedQuery = "", publishedTopic = "";
 function renderPublished() {
-  const list = drafts(d => d.status === "published").sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || "")));
-  const rated = list.filter(d => d.rating); const avg = rated.length ? (rated.reduce((s, d) => s + Number(d.rating), 0) / rated.length).toFixed(1) : "–";
-  const month = list.filter(d => new Date(d.published_at).getMonth() === new Date().getMonth() && new Date(d.published_at).getFullYear() === new Date().getFullYear()).length;
-  const byTopic = {}; rated.forEach(d => { const k = d.topic || "other"; byTopic[k] = byTopic[k] || []; byTopic[k].push(Number(d.rating)); });
-  const best = Object.entries(byTopic).map(([k, v]) => [k, v.reduce((a, b) => a + b, 0) / v.length]).sort((a, b) => b[1] - a[1])[0];
-  $("#topActions").innerHTML = `<button class="btn sm ghost" onclick="exportPublished()">${ic("copy")}Export markdown</button>`;
-  $("#s-published").innerHTML = `
-    <div class="statline"><span><b>${list.length}</b>published</span><span><b>${month}</b>this month</span><span><b>${avg}</b>average rating</span>${best ? `<span><b style="font-family:var(--sans)">${esc(TOPIC_LABEL[best[0]] || best[0])}</b>best-rated topic</span>` : ""}</div>
-    ${sec("Log", `<div style="overflow-x:auto"><table class="list"><tr><th>Date</th><th>Post</th><th>Topic</th><th>Rating</th><th>Impressions</th><th>Reactions</th><th>Comments</th><th>Notes</th><th></th></tr>
-      ${list.map(d => `<tr><td class="num" style="white-space:nowrap">${esc(fmtD(d.published_at))}</td><td><div style="font-weight:500">${esc(d.title)}</div><div class="cap">${esc(postOf(d).split("\n")[0].slice(0, 100))}</div></td><td><span class="chip">${esc(TOPIC_LABEL[d.topic] || d.topic || "")}</span></td>
-        <td><select onchange="patchDoc('drafts','${d.id}',{rating:+this.value||null},true)"><option value="">–</option>${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(n => `<option ${d.rating == n ? "selected" : ""}>${n}</option>`).join("")}</select></td>
-        <td><input class="num" type="number" style="width:92px" value="${esc((d.stats || {}).impressions || "")}" onchange="statSet('${d.id}','impressions',this.value)"></td>
-        <td><input class="num" type="number" style="width:72px" value="${esc((d.stats || {}).reactions || "")}" onchange="statSet('${d.id}','reactions',this.value)"></td>
-        <td><input class="num" type="number" style="width:72px" value="${esc((d.stats || {}).comments || "")}" onchange="statSet('${d.id}','comments',this.value)"></td>
-        <td><input type="text" style="min-width:150px" value="${esc(d.notes || "")}" onchange="patchDoc('drafts','${d.id}',{notes:this.value},true)"></td>
-        <td><div class="row" style="flex-wrap:nowrap;gap:2px"><button class="btn sm icon ghost" title="Copy post" aria-label="Copy post" onclick="copyPost('${d.id}')">${ic("copy")}</button><button class="btn sm ghost" onclick="openDraft('${d.id}')">Open</button></div></td></tr>`).join("") || `<tr><td colspan="9">${emptyBox("Nothing published yet", "Posts land here when you press Mark as posted.", "check")}</td></tr>`}</table></div>`,
-      "rate 1–10 and note the numbers a day later; top-rated posts become the writer's examples")}
-    ${sec("Other channels", `<p class="t3">X, Reddit, Facebook, WhatsApp Channel and YouTube adaptations come later as separate agents that take an approved LinkedIn post as input. They appear in Settings when they exist.</p>`)}`;
+  const all = drafts(d => d.status === "published").sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || "")));
+  const list = all.filter(d => (!publishedQuery || (d.title + " " + postOf(d)).toLowerCase().includes(publishedQuery.toLowerCase())) && (!publishedTopic || d.topic === publishedTopic));
+  const rated = all.filter(d => d.rating), avg = rated.length ? (rated.reduce((sum, d) => sum + Number(d.rating), 0) / rated.length).toFixed(1) : "—";
+  const month = all.filter(d => new Date(d.published_at).getMonth() === new Date().getMonth() && new Date(d.published_at).getFullYear() === new Date().getFullYear()).length;
+  const metric = key => { const recorded = all.filter(d => (d.stats || {})[key] != null); return recorded.length ? recorded.reduce((sum, d) => sum + Number(d.stats[key] || 0), 0).toLocaleString() : "—"; };
+  const topics = Array.from(new Set(all.map(d => d.topic).filter(Boolean))).sort();
+  $("#topActions").innerHTML = `<button class="btn sm" onclick="exportPublished()">${ic("download")}Export posts</button>`;
+  $("#s-published").innerHTML = `${pageIntro("LOOK BACK. LEARN. MAKE THE NEXT ONE BETTER.", "Your words, out in the world.", "Keep a record of what you shared. Add the real numbers and a few notes when the response comes in.")}
+    <div class="quick-grid published-metrics">${quickCard("check", all.length, "Posts published", "$('#published-search').focus()", `${month} this month`)}${quickCard("star", avg, "Average rating", "$('#published-log').scrollIntoView({behavior:'smooth'})", `${rated.length} rated posts`)}${quickCard("radar", metric("impressions"), "Recorded impressions", "$('#published-log').scrollIntoView({behavior:'smooth'})", "From the numbers you enter")}${quickCard("message", metric("reactions"), "Recorded reactions", "$('#published-log').scrollIntoView({behavior:'smooth'})", `${metric("comments")} recorded comments`)}</div>
+    <div class="screen-toolbar"><div class="search-field">${ic("search")}<input type="search" id="published-search" value="${esc(publishedQuery)}" placeholder="Find a published post…" aria-label="Search published posts"></div><select aria-label="Filter published posts by topic" onchange="publishedTopic=this.value;renderPublished()"><option value="">All topics</option>${topics.map(topic => `<option value="${esc(topic)}" ${publishedTopic === topic ? "selected" : ""}>${esc(TOPIC_LABEL[topic] || topic)}</option>`).join("")}</select><span class="cap">${list.length} ${list.length === 1 ? "post" : "posts"}</span></div>
+    <section class="sec" id="published-log"><div class="sh"><h2>The publishing journal</h2><span class="cap">Rate 1–10 · real numbers · useful lessons</span></div><div class="table-scroll"><table class="list published-table"><thead><tr><th>Date</th><th>Post</th><th>Topic</th><th>Rating</th><th>Impressions</th><th>Reactions</th><th>Comments</th><th>Your notes</th><th>Actions</th></tr></thead><tbody>
+      ${list.map(d => `<tr><td class="num date-cell">${esc(fmtD(d.published_at))}</td><td class="post-cell"><a href="#compose" onclick="openDraft('${d.id}');return false">${esc(d.title)}</a><div class="cap">${esc(postOf(d).split("\n")[0].slice(0, 100))}</div></td><td><span class="chip">${esc(TOPIC_LABEL[d.topic] || d.topic || "Other")}</span></td>
+        <td><select aria-label="Rating for ${esc(d.title)}" onchange="patchDoc('drafts','${d.id}',{rating:+this.value||null})"><option value="">—</option>${[1,2,3,4,5,6,7,8,9,10].map(n => `<option ${d.rating == n ? "selected" : ""}>${n}</option>`).join("")}</select></td>
+        ${["impressions", "reactions", "comments"].map(key => `<td><input class="num stat-input" type="number" min="0" aria-label="${key} for ${esc(d.title)}" value="${esc((d.stats || {})[key] ?? "")}" placeholder="—" onchange="statSet('${d.id}','${key}',this.value)"></td>`).join("")}
+        <td><input class="post-notes" type="text" value="${esc(d.notes || "")}" placeholder="What did you learn?" aria-label="Notes for ${esc(d.title)}" onchange="patchDoc('drafts','${d.id}',{notes:this.value},true)"></td><td><div class="row"><button class="btn sm icon ghost" aria-label="Copy ${esc(d.title)}" onclick="copyPost('${d.id}')">${ic("copy")}</button><button class="btn sm ghost" onclick="openDraft('${d.id}')">Open</button></div></td></tr>`).join("") || `<tr><td colspan="9">${emptyBox(all.length ? "No posts match that search" : "Your first post is the beginning", all.length ? "Try another word or choose all topics." : "Posts appear here after you mark them as posted in Compose.", "check", `<button class="btn sm" onclick="${all.length ? "publishedQuery='';publishedTopic='';renderPublished()" : "go('compose')"}">${all.length ? "Reset search" : "Open your drafts"}</button>`)}</td></tr>`}</tbody></table></div></section>
+    <div class="insight-note">${ic("bulb")}<p>Give each post a little time to find its audience. Your ratings and notes help you understand what is worth writing again.</p></div>`;
+  $("#published-search").oninput = debounce(e => { publishedQuery = e.target.value; renderPublished(); const input = $("#published-search"); input.focus(); input.setSelectionRange(input.value.length, input.value.length); }, 250);
 }
-window.statSet = (id, k, v) => { const d = S.drafts[id]; patchDoc("drafts", id, { stats: Object.assign({}, d.stats || {}, { [k]: v === "" ? null : +v }) }, true); };
+window.statSet = (id, k, v) => { const d = S.drafts[id]; const n = v === "" ? null : Math.max(0, Number(v) || 0); patchDoc("drafts", id, { stats: Object.assign({}, d.stats || {}, { [k]: n }) }); };
 window.exportPublished = () => { const list = drafts(d => d.status === "published").sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || ""))); copy(list.map(d => `## ${fmtD(d.published_at)} — ${d.title}\nrating: ${d.rating || "-"} | impressions: ${(d.stats || {}).impressions || "-"} | topic: ${d.topic || ""}\n\n${postOf(d)}\n\n${commentOf(d)}\n`).join("\n---\n\n"), "Markdown copied. Paste the best ones into content/examples.md."); };
 
 /* ================================================================ Library */
+let libraryQuery = "", libraryType = "";
+window.copyLibraryResource = key => copy((D.content || {})[key] || "", "Reference copied");
+window.copyHook = index => { const hook = (D.content.hooks || [])[index]; if (hook) copy(hook.text || hook, "Hook copied"); };
 function renderLibrary() {
-  $("#s-library").innerHTML = `
-    <p class="t3" style="margin-bottom:16px">These come from the <span class="mono">content/</span> folder in the repo and are baked in at build time. Edit the files there; every agent and prompt reads them on the next run.</p>
-    <div class="cols">
-      ${sec("Hook library", `<div class="list">${(D.content.hooks || []).map(h => `<div class="hook"><span class="chip">${esc(h.type || "hook")}</span><span class="tx">${esc(h.text || h)}</span><button class="btn sm icon ghost" title="Copy" aria-label="Copy hook" onclick="copy(${JSON.stringify(h.text || h)},'Hook copied')">${ic("copy")}</button></div>`).join("")}</div>`, "content/hooks.json")}
-      <div>
-        ${sec("Voice profile", `<pre class="excerpt" style="max-height:420px">${esc(D.content.voice)}</pre>`, "content/voice.md")}
-        ${sec("LinkedIn rules", `<pre class="excerpt" style="max-height:420px">${esc(D.content.rules)}</pre>`, "content/linkedin_rules.md")}
-        ${sec("Example posts", `<pre class="excerpt" style="max-height:420px">${esc(D.content.examples)}</pre>`, "content/examples.md")}
-      </div></div>`;
+  const hooks = (D.content.hooks || []).map((h, index) => ({ h, index })).filter(({ h }) => (!libraryType || h.type === libraryType) && (!libraryQuery || (String(h.text || h) + " " + (h.type || "")).toLowerCase().includes(libraryQuery.toLowerCase())));
+  const types = Array.from(new Set((D.content.hooks || []).map(h => h.type).filter(Boolean)));
+  $("#s-library").innerHTML = `${pageIntro("A REFERENCE SHELF FOR YOUR BEST WORK", "Sound a little more like you.", "Keep your voice close. Browse writing hooks, revisit your guidelines, and learn from your best examples.")}
+    <div class="library-grid">${[["voice", "pen", "Your voice", "The perspective, audience, and tone that make this yours.", "Voice profile"], ["rules", "check", "A better LinkedIn post", "The practical guardrails for clear, useful writing.", "LinkedIn rules"], ["examples", "book", "Learn from the good ones", "Reference posts to help shape your next draft.", "Example posts"]].map(([key, icon, title, description, label]) => `<article class="library-card"><div class="library-icon">${ic(icon)}</div><span class="eyebrow">${esc(label)}</span><h3>${esc(title)}</h3><p>${esc(description)}</p><details><summary>Read ${esc(label.toLowerCase())}</summary><pre class="excerpt">${esc(D.content[key] || "No reference added yet.")}</pre></details><button class="btn sm ghost" onclick="copyLibraryResource('${key}')">${ic("copy")}Copy reference</button></article>`).join("")}</div>
+    <section class="sec"><div class="sh"><h2>Hook library</h2><span class="cap">A strong first line opens the door.</span></div><div class="screen-toolbar"><div class="search-field">${ic("search")}<input id="hook-search" type="search" value="${esc(libraryQuery)}" placeholder="Find the right opening…" aria-label="Search hooks"></div><select aria-label="Filter hook type" onchange="libraryType=this.value;renderLibrary()"><option value="">Every kind of opening</option>${types.map(type => `<option value="${esc(type)}" ${libraryType === type ? "selected" : ""}>${esc(type)}</option>`).join("")}</select><span class="cap">${hooks.length} hooks</span></div><div class="hook-grid">${hooks.map(({ h, index }) => `<article class="hook"><span class="chip purple">${esc(h.type || "Opening")}</span><p class="tx">${esc(h.text || h)}</p><button class="btn sm icon ghost" aria-label="Copy hook: ${esc(h.text || h)}" onclick="copyHook(${index})">${ic("copy")}</button></article>`).join("") || emptyBox("A different opening might fit", "Try another word or choose every kind of opening.", "search")}</div></section>`;
+  $("#hook-search").oninput = debounce(e => { libraryQuery = e.target.value; renderLibrary(); const input = $("#hook-search"); input.focus(); input.setSelectionRange(input.value.length, input.value.length); }, 250);
 }
-
 /* ================================================================ Settings */
 function renderSettings() {
-  const p = settings();
-  $("#s-settings").innerHTML = `
-    <div class="cols">
-      <div class="form">
-        ${sec("You", `
-          <label class="f" for="st-note">Personal note for the writer (real experience it may use in first person; leave empty for none)</label>
-          <textarea id="st-note">${esc(p.personal_note || "")}</textarea>
-          <label class="f" for="st-aud">Audience override (optional; voice.md is the default)</label>
-          <input type="text" id="st-aud" value="${esc(p.audience || "")}" placeholder="e.g. freelancers and small business owners in Pakistan">
-          <label class="f" for="st-target">Posts per week target</label>
-          <input type="number" id="st-target" min="1" max="14" value="${esc(p.postsPerWeek || 4)}" style="width:100px">
-          <label class="f" for="st-slots">Posting slots (one per line, e.g. <span class="mono">Tue 09:00</span>)</label>
-          <textarea id="st-slots" style="min-height:96px;font-family:var(--mono);font-size:12px">${esc(slots().join("\n"))}</textarea>
-          <div class="row" style="margin-top:12px"><button class="btn primary" onclick="saveSettings()">Save</button></div>`)}
-        ${sec("Channels", `
-          ${[["linkedin", "LinkedIn", true], ["x", "X", false], ["reddit", "Reddit", false], ["facebook", "Facebook", false], ["whatsapp", "WhatsApp Channel", false], ["youtube", "YouTube", false]].map(([k, v, on]) => `<div class="chan"><b>${v}</b><span class="cap">${on ? '<span class="dot ok"></span>active · manual posting' : "coming later"}</span></div>`).join("")}
-          <p class="cap" style="margin-top:10px">Nothing is ever posted automatically. Each future channel is its own agent that adapts an approved LinkedIn post.</p>`)}
-      </div>
-      <div>
-        ${sec("Sync", `
-          <p class="t3">Mode: <b>${MODE === "firebase" ? "Firebase live sync" : "local file (pipeline.json) + this device"}</b>${KEY ? ` · key ${esc(KEY.slice(0, 8))}…` : ""}<br>Loaded ${esc(loadedAt ? loadedAt.toLocaleTimeString() : "")} · page built ${esc(D.updated)}</p>
-          ${MODE !== "firebase" ? '<p class="cap" style="margin:6px 0">Set FIREBASE_URL (secret in the cloud, firebase_url.txt locally) so the agents and every device share one state. Without it, your edits stay in this browser and the agents cannot see them.</p>' : ""}
-          <div class="row" style="margin-top:8px"><button class="btn sm" onclick="location.reload()">Reload</button><button class="btn sm ghost danger" data-confirm="Forget access on this device?" onclick="confirmThen(this,()=>{localStorage.removeItem('unlock');localStorage.removeItem('boardkey');location.reload()})">Log out of this device</button></div>`)}
-        ${sec("Running the agents", `
-          <p class="t3" style="margin-bottom:8px">Mode: <b>${D.mode === "api" ? "API (Claude agents draft, ~$0.30/run)" : "free (rules triage + article fetch; you write with your subscription)"}</b>. Set <span class="mono">PIPELINE_MODE</span> in config.py.</p>
-          <code class="cmd">python run_pipeline.py            # free: triage + fetch articles (no key)
-python run_pipeline.py --mode api # Claude agents draft top ${esc(D.draftsPerRun)} (needs key)
-python run_pipeline.py --triage   # only score new stories
-python run_pipeline.py --dry-run  # shows what would run
-python run_pipeline.py --status</code>
-          <p class="cap" style="margin-top:8px">In the cloud: free triage runs inside the hourly news job; the “Content pipeline” workflow (API mode) runs only when you start it from the Actions tab.</p>`)}
-        ${sec("Keyboard", `<div class="list">${[["1 – 8", "Switch screens"], [MOD + " K", "Command palette"], [MOD + " \\", "Hide or show the sidebar"], [MOD + " ↵", "Approve, or schedule the next free slot"], [MOD + " ⇧ C", "Copy the post"], ["/", "Search in Discover"], ["?", "This list"], ["Esc", "Close"]].map(([k, v]) => `<div class="chan" style="height:32px"><kbd>${esc(k)}</kbd><span class="t3">${v}</span></div>`).join("")}</div>`)}
-        ${sec("Appearance", `<div class="row"><button class="btn sm" onclick="$('#themebtn').click()">Toggle dark / light</button><button class="btn sm ghost" onclick="$('#sidebtn').click()">Toggle sidebar</button></div>`)}
-      </div></div>`;
+  const p = settings(), dark = document.body.classList.contains("dark");
+  $("#topActions").innerHTML = `<button class="btn sm primary" onclick="saveSettings()">${ic("check")}Save preferences</button>`;
+  $("#s-settings").innerHTML = `${pageIntro("A WORKSPACE THAT FEELS LIKE YOURS", "Make yourself at home.", "Set your voice, choose your publishing rhythm, and make a little room for the way you work.")}
+    <div class="settings-grid"><div class="settings-column form">
+      <section class="sec settings-card"><div class="sh"><h2>${ic("pen")}Your perspective</h2><span class="chip purple">Writing preferences</span></div><p class="t3">A little context helps the writer stay true to your experience.</p><label class="f" for="st-note">Your personal experience</label><textarea id="st-note" placeholder="What have you tried, learned, or seen first-hand?">${esc(p.personal_note || "")}</textarea><p class="cap">Only real experience you want the writer to use in the first person.</p><label class="f" for="st-aud">Who are you writing for?</label><input type="text" id="st-aud" value="${esc(p.audience || "")}" placeholder="e.g. freelancers and small business owners in Pakistan"><p class="cap">Leave this empty to use the audience in your voice profile.</p></section>
+      <section class="sec settings-card"><div class="sh"><h2>${ic("calendar")}Your publishing rhythm</h2></div><p class="t3">Consistency should work with your week. Choose a goal and a few good openings.</p><label class="f" for="st-target">Posts each week</label><div class="target-field"><input type="number" id="st-target" min="1" max="14" value="${esc(p.postsPerWeek || 4)}"><span class="t3">A goal to guide you, from 1 to 14.</span></div><label class="f" for="st-slots">Preferred posting slots</label><textarea id="st-slots" class="slots-input" placeholder="Tue 09:00&#10;Thu 09:00">${esc(slots().join("\n"))}</textarea><p class="cap">One per line: day and time, such as Tue 09:00. Times follow your device's timezone.</p><div class="row settings-actions"><button class="btn primary" onclick="saveSettings()">${ic("check")}Save preferences</button><span class="cap" id="settings-save-msg" role="status"></span></div></section>
+      <section class="sec settings-card"><div class="sh"><h2>${LI}&nbsp; Your publishing channel</h2><span class="chip ok">LinkedIn</span></div><p class="t3">Studio prepares the post and first comment. You open LinkedIn, share it, and mark it as posted when you are ready.</p><div class="channel-status"><span class="dot ok"></span><span>Connected to your manual publishing workflow</span></div></section>
+    </div><div class="settings-column">
+      <section class="sec settings-card"><div class="sh"><h2>${ic("sun")}A comfortable space</h2></div><p class="t3">Choose the light that feels right.</p><div class="appearance-options"><button class="appearance-option ${!dark ? "active" : ""}" data-theme="light" aria-pressed="${!dark}" onclick="setStudioTheme(false)"><span class="theme-sample light-sample"></span>${ic("sun")}Light</button><button class="appearance-option ${dark ? "active" : ""}" data-theme="dark" aria-pressed="${dark}" onclick="setStudioTheme(true)"><span class="theme-sample dark-sample"></span>${ic("moon")}Dark</button></div><button class="btn sm ghost" onclick="$('#sidebtn').click()">${ic("panel")}Toggle sidebar</button></section>
+      <section class="sec settings-card"><div class="sh"><h2>${ic("bolt")}Your workspace, saved</h2><span class="chip ${MODE === "firebase" ? "ok" : ""}">${MODE === "firebase" ? "Live sync" : "This device"}</span></div><p class="t3">${MODE === "firebase" ? "Your workspace uses Firebase live sync. Changes are kept on this device when a connection is unavailable." : "You are working from a local file. Your edits are saved in this browser on this device."}</p><p class="cap">Loaded ${esc(loadedAt ? loadedAt.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" }) : "just now")} · workspace built ${esc(D.updated)}</p><div class="row"><button class="btn sm" onclick="location.reload()">${ic("undo")}Refresh workspace</button><button class="btn sm ghost danger" data-confirm="Forget access on this device?" onclick="confirmThen(this,()=>{localStorage.removeItem('unlock');localStorage.removeItem('boardkey');location.reload()})">Sign out of this device</button></div></section>
+      <section class="sec settings-card"><div class="sh"><h2>${ic("bolt")}A few useful shortcuts</h2></div><div class="list">${[["1 – 8", "Move between screens"], [MOD + " K", "Find a screen or action"], [MOD + " \\", "Show or hide the sidebar"], [MOD + " ↵", "Approve or find the next slot"], [MOD + " ⇧ C", "Copy your post"], ["/", "Search in Discover"], ["?", "Open these preferences"], ["Esc", "Close an overlay"]].map(([k, v]) => `<div class="chan"><span class="t3">${esc(v)}</span><kbd>${esc(k)}</kbd></div>`).join("")}</div></section>
+      <section class="sec settings-card advanced-settings"><details><summary>Pipeline &amp; advanced setup</summary><p class="t3">${D.mode === "api" ? "API mode: Claude agents draft and verify selected stories." : "Free mode: rules triage and article fetching; write using your subscription."}</p><code class="cmd">python run_pipeline.py
+python run_pipeline.py --mode api
+python run_pipeline.py --triage
+python run_pipeline.py --dry-run
+python run_pipeline.py --status</code><button class="btn sm ghost" onclick="copy('python run_pipeline.py','Pipeline command copied')">${ic("copy")}Copy run command</button><p class="cap">Free triage runs inside the hourly news job. Start the Content pipeline workflow in Actions to run API drafting. ${MODE !== "firebase" ? "Configure FIREBASE_URL to share state with your agents and other devices." : ""} Voice references are maintained in the content folder.</p></details></section>
+    </div></div>`;
 }
-window.saveSettings = () => { patchDoc("settings", "profile", { personal_note: $("#st-note").value.trim(), audience: $("#st-aud").value.trim(), postsPerWeek: +$("#st-target").value || 4, slots: $("#st-slots").value.split("\n").map(s => s.trim()).filter(Boolean) }); toast("Settings saved" + (MODE === "firebase" ? ". The agents use the note on their next run." : " on this device.")); };
-
+window.setStudioTheme = dark => { localStorage.setItem("theme", dark ? "dark" : "light"); applyTheme(dark); };
+window.saveSettings = () => {
+  const goal = Number($("#st-target").value), inputSlots = $("#st-slots").value.split("\n").map(value => value.trim()).filter(Boolean);
+  if (!Number.isInteger(goal) || goal < 1 || goal > 14) { toast("Choose a weekly goal from 1 to 14 posts."); $("#st-target").focus(); return; }
+  if (!inputSlots.length || inputSlots.some(value => !parseSlot(value))) { toast("Use a day and time for each slot, such as Tue 09:00."); $("#st-slots").focus(); return; }
+  patchDoc("settings", "profile", { personal_note: $("#st-note").value.trim(), audience: $("#st-aud").value.trim(), postsPerWeek: goal, slots: Array.from(new Set(inputSlots)) });
+  toast("Preferences saved" + (MODE === "firebase" ? ". Your agents will use them on their next run." : " on this device."));
+};
 /* ================================================================ command palette + keyboard */
 function commands() {
   const list = ORDER.map((s, i) => ({ grp: "Go to", label: SCREENS[s][0], kbd: String(i + 1), run: () => go(s) }));
@@ -762,14 +851,15 @@ function commands() {
   list.push({ grp: "Pipeline", label: "Copy run command", kbd: "", run: () => copy("python run_pipeline.py", "Copied") });
   return list;
 }
-let palSel = 0;
-function openPalette() { $("#palette").hidden = false; const q = $("#pal-q"); q.value = ""; palSel = 0; renderPalette(); q.focus(); }
-function closePalette() { $("#palette").hidden = true; }
+let palSel = 0, paletteReturnFocus = null;
+function openPalette() { if (!$("#lock").hidden) return; paletteReturnFocus = document.body.classList.contains("sb-open") ? $("#sidebtn") : document.activeElement; closeSidebar(); $("#palette").hidden = false; syncOverlayAccess(); const q = $("#pal-q"); q.value = ""; palSel = 0; renderPalette(); q.focus(); }
+function closePalette() { $("#palette").hidden = true; syncOverlayAccess(); if (mobileSidebar() && document.body.classList.contains("sb-open")) { const active = $("#sidebar .navitem.active") || $("#sidebar .navitem"); if (active) active.focus(); } else if (paletteReturnFocus && paletteReturnFocus.isConnected && !paletteReturnFocus.closest("[hidden], [inert]")) paletteReturnFocus.focus(); else if ($("#workspace")) $("#workspace").focus(); }
 function renderPalette() {
   const q = $("#pal-q").value.toLowerCase().trim();
   const items = commands().filter(c => !q || (c.grp + " " + c.label).toLowerCase().includes(q));
   palSel = Math.max(0, Math.min(palSel, items.length - 1));
-  $("#pal-list").innerHTML = items.map((c, i) => `<div class="pal-item ${i === palSel ? "sel" : ""}" data-i="${i}" role="option"><span class="grp">${esc(c.grp)}</span><span>${esc(c.label)}</span>${c.kbd ? `<kbd>${esc(c.kbd)}</kbd>` : ""}</div>`).join("") || '<div class="pal-item"><span class="grp">No match</span></div>';
+  $("#pal-list").innerHTML = items.map((c, i) => `<div class="pal-item ${i === palSel ? "sel" : ""}" id="pal-option-${i}" data-i="${i}" role="option" aria-selected="${i === palSel}"><span class="grp">${esc(c.grp)}</span><span>${esc(c.label)}</span>${c.kbd ? `<kbd>${esc(c.kbd)}</kbd>` : ""}</div>`).join("") || '<div class="pal-item"><span class="grp">No match</span></div>';
+  if (items.length) $("#pal-q").setAttribute("aria-activedescendant", "pal-option-" + palSel); else $("#pal-q").removeAttribute("aria-activedescendant");
   $$("#pal-list .pal-item[data-i]").forEach(el => el.onclick = () => { items[+el.dataset.i].run(); closePalette(); });
   $("#pal-list")._items = items;
 }
@@ -779,17 +869,22 @@ $("#pal-q").addEventListener("keydown", e => {
   if (e.key === "ArrowDown") { palSel = Math.min(palSel + 1, items.length - 1); renderPalette(); e.preventDefault(); }
   else if (e.key === "ArrowUp") { palSel = Math.max(palSel - 1, 0); renderPalette(); e.preventDefault(); }
   else if (e.key === "Enter") { if (items[palSel]) { items[palSel].run(); closePalette(); } }
-  else if (e.key === "Escape") closePalette();
 });
 $("#palette").addEventListener("click", e => { if (e.target.id === "palette") closePalette(); });
+$("#palette").addEventListener("keydown", e => {
+  if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); closePalette(); return; }
+  trapFocus(e, $("#palette"));
+});
 $("#palettebtn").onclick = openPalette;
 window.openPalette = openPalette;
 document.addEventListener("keydown", e => {
+  if (!$("#lock").hidden) return;
   const mod = isMac ? e.metaKey : e.ctrlKey;
   const typing = /^(INPUT|TEXTAREA|SELECT)$/.test((e.target || {}).tagName) || (e.target || {}).isContentEditable;
   if (mod && e.key.toLowerCase() === "k") { e.preventDefault(); $("#palette").hidden ? openPalette() : closePalette(); return; }
-  if (mod && e.key === "\\") { e.preventDefault(); $("#sidebtn").click(); return; }
   if (!$("#palette").hidden) return;
+  if (mod && e.key === "\\") { e.preventDefault(); $("#sidebtn").click(); return; }
+  if (mobileSidebar() && document.body.classList.contains("sb-open")) { if (e.key === "Escape") { e.preventDefault(); closeSidebar(); } return; }
   const d = composeId && S.drafts[composeId];
   if (mod && e.key === "Enter" && CUR === "compose" && d) { e.preventDefault(); if (d.status === "draft") setDraft(d.id, { status: "approved" }, "Approved"); else if (d.status === "approved") scheduleNext(d.id); return; }
   if (mod && e.shiftKey && e.key.toLowerCase() === "c" && CUR === "compose" && d) { e.preventDefault(); copyPost(d.id); return; }
@@ -797,15 +892,16 @@ document.addEventListener("keydown", e => {
   if (e.key >= "1" && e.key <= "8") { go(ORDER[+e.key - 1]); return; }
   if (e.key === "/") { e.preventDefault(); if (CUR !== "discover") go("discover"); const q = $("#disc-q"); if (q) q.focus(); return; }
   if (e.key === "?") { go("settings"); return; }
-  if (e.key === "Escape") { document.activeElement && document.activeElement.blur(); }
+  if (e.key === "Escape") { if (document.body.classList.contains("sb-open")) closeSidebar(); else document.activeElement && document.activeElement.blur(); }
 });
 
 /* ================================================================ boot */
 $$(".navitem").forEach(a => a.onclick = e => { e.preventDefault(); go(a.dataset.screen); });
 async function boot() {
+  if ($("#workspaceDate")) $("#workspaceDate").textContent = new Date().toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" });
   await loadState();
   go(location.hash.slice(1) || "today");
 }
-if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) { $("#lock").hidden = false; setTimeout(() => $("#lockcode").focus(), 0); }
+if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) { $("#lock").hidden = false; syncOverlayAccess(); setTimeout(() => $("#lockcode").focus(), 0); }
 else boot();
 window.__S = S; window.__D = D; window.checkPost = checkPost; window.patchDoc = patchDoc; window.rerender = rerender;

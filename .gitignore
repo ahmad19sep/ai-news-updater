@@ -16,6 +16,9 @@ node_modules/
 package.json
 package-lock.json
 
+# Local Studio screenshots, reports, and isolated browser profiles
+.tmp-studio-preview/
+
 # NewsData.io API key (local only; cloud uses the GitHub Secret)
 newsdata_key.txt
 

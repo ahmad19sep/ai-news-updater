@@ -67,7 +67,9 @@ verifier lists what it could not support.
    the drafts are already waiting here.)
 3. Edit the post in your voice (live LinkedIn preview, hook length, checks,
    claims table, source pack). Optional: *Copy fact-check prompt* the same
-   way. Then **Approve**.
+   way. For a feed image, use **Copy image prompt** after editing the post;
+   the brief carries your current text and asks for a readable image with alt
+   text. Then **Approve**.
 4. **Schedule** — put it on the next free slot (Tue/Wed/Thu 09:00 by default).
 5. When it is due: **Copy post → Open LinkedIn → paste → post → paste the first
    comment → ✓ Mark as posted**.
@@ -86,6 +88,7 @@ copy a grounded prompt into any AI, paste the post back).
 | `content/hooks.json` | hook patterns the angle agent draws on |
 | `content/examples.md` | your best posts — the writer imitates the voice, never the content |
 | `content/linkedin_rules.md` | the rules the writer and verifier enforce |
+| `content/image_prompt.md` | image brief guidelines copied from Compose |
 | `config.py` (bottom) | models per agent, budget, thresholds, drafts per run |
 
 Edit them any time; every run reads them fresh. The Studio's Library tab shows them.

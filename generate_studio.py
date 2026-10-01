@@ -118,7 +118,8 @@ def generate():
         "agentTabs": [list(t[:2]) for t in agent_ai_radar.DISCOVERY_TABS],
         "news": news, "agents": agents, "trends": chips,
         "content": {"hooks": content.hooks(), "rules": content.rules(),
-                    "examples": content.examples(), "voice": content.voice()["raw"]},
+                    "examples": content.examples(), "voice": content.voice()["raw"],
+                    "image_prompt": content.image_prompt()},
         "mode": config.PIPELINE_MODE,
         "prompts": {"angle": angle.SYSTEM, "writer": writer.SYSTEM_HEAD, "judge": verify.JUDGE_SYSTEM},
     }
