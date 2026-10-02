@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
    https://www.sciencedaily.com/releases/2026/09/260930020309.htm
 4. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-5. **AI bots are flooding researchers with requests for money and time** — science angle
-   https://www.nature.com/articles/d41586-026-03005-2
-6. **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — science angle
+5. **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — science angle
    https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
-7. **Medical Records Firm Uses AI Tool to Expose Flaws that Threaten Patient Privacy - The New York Times** — science angle
+6. **Medical Records Firm Uses AI Tool to Expose Flaws that Threaten Patient Privacy - The New York Times** — science angle
    https://news.google.com/rss/articles/CBMihgFBVV95cUxNSXV3OVlGcnRrS1h2cVJoTXJ2NWtFbTNNajBKemhTUFcyOU9sMEJrSFhtejlIZExZY2gxZ0VuTE14c1lTQzVlbURuTXI3UmpnSHZfSjdZdFhwdUR5QVhvcVR1X2FaVWFYbk0tNTJ5LXdUT1FZRnJYMTBtdktsNEgxbm1QbG5kUQ?oc=5
-8. **Son who used AI to help save mum's life hopes case offers Parkinson's clues - BBC** — science angle
+7. **Son who used AI to help save mum's life hopes case offers Parkinson's clues - BBC** — science angle
    https://news.google.com/rss/articles/CBMiW0FVX3lxTE40Ym1jaXhOa3ZsaWIyblY2N3lZZERVdlVpbkVGNVVneVZjQ3JHdzNXVHBUZUMzU21pWjNoZGsxU0RFQjEtYTNvLWhkZXo2aTdyZHRSMmZvTzhrWjg?oc=5
+8. **RFK Jr Announcing That AI Is Now Better Than Human Doctors Shows That He Is a Buffoon Who Is Ruining Trust in American Health Institutions - Futurism** — science angle
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxNTjc3RTZLbmtJb0IyX3FSWFJxdGNkRzBrZzZlUzEyYzZ5aGg2QVVMMWYzei15T1RqeWNvWUlKTmtWV2hmcm13c2VrMGpGeGZwRng4dDUwcy1xcG1yUjZ0VzhJOElmbXBfM1VVc09xVlhyb0U0VnZ0ajRpcFlZQVYySkdn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Nvidia unveils security platform to stop AI agents from going rogue - PBS** — AI in Coding — Score 98
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
 - **Was Anthropic’s Biology Breakthrough Borrowed From Another Scientist’s Work? - the-scientist.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
 - **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — https://www.sciencedaily.com/releases/2026/09/260930020309.htm
 - **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-- **AI bots are flooding researchers with requests for money and time** — https://www.nature.com/articles/d41586-026-03005-2
+- **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3008
+- Total stories tracked: 2971
 - Most active topic: openai
 - Busiest category: AI General News
 
