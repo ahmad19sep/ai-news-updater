@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:42:30.648221+00:00",
+  "generated_at": "2026-10-02T12:40:26.175395+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -20,7 +20,9 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -28,7 +30,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -47,6 +49,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=C5wnExlsA4Y",
+          "signal": "Gemini Ai Photo Edit 😱🔥🤯 Gemini Ai Photo Editing Prompt | Google Gemini Photo Editing"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -60,7 +67,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -88,23 +94,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv33xc/weird_chatgpt_voice_mode_anomaly_it_made_me_so/",
-          "signal": "Weird ChatGPT Voice Mode anomaly. It made me so nervous to talk to it."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvpsga/a_flaw_in_chatgpts_mac_app_could_have_let_hackers/",
+          "signal": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvo408/chatgpt_and_claude_can_run_small_local_ai_models/",
+          "signal": "Chatgpt and Claude can run small local AI models for you inside their own virtual machine, the llms are running llms, they can also run most CLIs like codex, Claude code, antigravity and fire off crazy large swarms of nested agents."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvnp15/chatgpt_sense_of_humor/",
+          "signal": "ChatGPT sense of humor"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wvg6ru/chatgpt_blocked_from_reporting_current_events/",
           "signal": "ChatGPT blocked from reporting current events"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvd1jy/chatgpt_stopped_thinking_or_remembering_help/",
-          "signal": "ChatGPT stopped thinking or remembering - help?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvldly/chatgpt_not_working_on_safari_send_button_is/",
-          "signal": "ChatGPT not working on Safari - send button is greyed out"
         }
       ],
       "content_ideas": []
@@ -139,7 +145,7 @@
     {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
         "linkedin_inferred",
@@ -198,6 +204,61 @@
       "content_ideas": []
     },
     {
+      "name": "Ask HN: Who is hiring? (October 2026)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49922569",
+          "signal": "Ask HN: Who is hiring? (October 2026)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Vote on which of Hacker News' challenges for AI have been met",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://stoppels.ch/goalposts/",
+          "signal": "Vote on which of Hacker News' challenges for AI have been met"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "FTC is investigating OpenAI, Anthropic and other AI companies over pro",
       "category": "use_case",
       "momentum": "rising",
@@ -225,35 +286,7 @@
       "content_ideas": []
     },
     {
-      "name": "Ask HN: Who is hiring? (October 2026)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49922569",
-          "signal": "Ask HN: Who is hiring? (October 2026)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Vote on which of Hacker News' challenges for AI have been met",
+      "name": "Frog and Toad and the Increasingly Capable Machines",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -265,7 +298,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -273,8 +306,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://stoppels.ch/goalposts/",
-          "signal": "Vote on which of Hacker News' challenges for AI have been met"
+          "url": "https://www.frogandtoad.ai/",
+          "signal": "Frog and Toad and the Increasingly Capable Machines"
         }
       ],
       "content_ideas": []
@@ -307,33 +340,6 @@
       "content_ideas": []
     },
     {
-      "name": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra inte",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
-          "signal": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "An AI sovereign wealth fund isn't progressive – it's techno-imperialis",
       "category": "use_case",
       "momentum": "rising",
@@ -361,7 +367,7 @@
       "content_ideas": []
     },
     {
-      "name": "Frog and Toad and the Increasingly Capable Machines",
+      "name": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -371,7 +377,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 3,
       "monetization": {
@@ -381,8 +387,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.frogandtoad.ai/",
-          "signal": "Frog and Toad and the Increasingly Capable Machines"
+          "url": "https://lathoa.ai/en",
+          "signal": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose"
         }
       ],
       "content_ideas": []
@@ -394,7 +400,9 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -402,7 +410,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -421,6 +429,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=C5wnExlsA4Y",
+          "signal": "Gemini Ai Photo Edit 😱🔥🤯 Gemini Ai Photo Editing Prompt | Google Gemini Photo Editing"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -428,65 +441,9 @@
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
-          "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv33xc/weird_chatgpt_voice_mode_anomaly_it_made_me_so/",
-          "signal": "Weird ChatGPT Voice Mode anomaly. It made me so nervous to talk to it."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvg6ru/chatgpt_blocked_from_reporting_current_events/",
-          "signal": "ChatGPT blocked from reporting current events"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvd1jy/chatgpt_stopped_thinking_or_remembering_help/",
-          "signal": "ChatGPT stopped thinking or remembering - help?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvldly/chatgpt_not_working_on_safari_send_button_is/",
-          "signal": "ChatGPT not working on Safari - send button is greyed out"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
         "linkedin_inferred",
@@ -516,6 +473,61 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
+          "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvpsga/a_flaw_in_chatgpts_mac_app_could_have_let_hackers/",
+          "signal": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvo408/chatgpt_and_claude_can_run_small_local_ai_models/",
+          "signal": "Chatgpt and Claude can run small local AI models for you inside their own virtual machine, the llms are running llms, they can also run most CLIs like codex, Claude code, antigravity and fire off crazy large swarms of nested agents."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvnp15/chatgpt_sense_of_humor/",
+          "signal": "ChatGPT sense of humor"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvg6ru/chatgpt_blocked_from_reporting_current_events/",
+          "signal": "ChatGPT blocked from reporting current events"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "pain_points": [
@@ -532,13 +544,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "ChatGPT not working on Safari - send button is greyed out",
+      "problem": "Work usage limits? I had no idea lol",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvldly/chatgpt_not_working_on_safari_send_button_is/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvmuko/work_usage_limits_i_had_no_idea_lol/"
         }
       ],
       "content_opportunity": ""
