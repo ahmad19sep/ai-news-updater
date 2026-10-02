@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:40:26.175395+00:00",
+  "generated_at": "2026-10-02T22:16:50.372570+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,57 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-          "signal": "Gemini 4 Argon"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/gemini-4-argon",
-          "signal": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=C5wnExlsA4Y",
-          "signal": "Gemini Ai Photo Edit 😱🔥🤯 Gemini Ai Photo Editing Prompt | Google Gemini Photo Editing"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -67,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -89,34 +45,34 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww13zg/openai_is_halving_chatgpt_pro_200_usage_from_20x/",
+          "signal": "OpenAI is halving ChatGPT Pro 200 usage from 20x to 10x on October 30 but keeping the $200 price"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
           "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvpsga/a_flaw_in_chatgpts_mac_app_could_have_let_hackers/",
-          "signal": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww3nao/my_chatgpt_has_a_sense_of_humor/",
+          "signal": "My Chatgpt has a sense of humor"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvo408/chatgpt_and_claude_can_run_small_local_ai_models/",
-          "signal": "Chatgpt and Claude can run small local AI models for you inside their own virtual machine, the llms are running llms, they can also run most CLIs like codex, Claude code, antigravity and fire off crazy large swarms of nested agents."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvvh4f/chatgpt_works_for_82_minutes_and_bug_wastes_20_of/",
+          "signal": "ChatGPT works for 82 minutes and bug wastes 20% of weekly usage"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvnp15/chatgpt_sense_of_humor/",
-          "signal": "ChatGPT sense of humor"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvg6ru/chatgpt_blocked_from_reporting_current_events/",
-          "signal": "ChatGPT blocked from reporting current events"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
+          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "The AI Race Just Got Awkward",
+      "name": "Frog and Toad and the Increasingly Capable Machines",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -136,8 +92,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
-          "signal": "The AI Race Just Got Awkward"
+          "url": "https://www.frogandtoad.ai/",
+          "signal": "Frog and Toad and the Increasingly Capable Machines"
         }
       ],
       "content_ideas": []
@@ -145,18 +101,16 @@
     {
       "name": "Wan",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -167,38 +121,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=49922568",
           "signal": "Ask HN: Who wants to be hired? (October 2026)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
-          "signal": "I wanted an AI assistant. Why does choosing the model feel like another job?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-          "signal": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes"
         }
       ],
       "content_ideas": []
@@ -232,6 +154,33 @@
       "content_ideas": []
     },
     {
+      "name": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+          "signal": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Vote on which of Hacker News' challenges for AI have been met",
       "category": "use_case",
       "momentum": "rising",
@@ -244,7 +193,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -254,6 +203,33 @@
           "platform": "hackernews",
           "url": "https://stoppels.ch/goalposts/",
           "signal": "Vote on which of Hacker News' challenges for AI have been met"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI Makes Me Sad",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mondobe.com/ai-makes-me-sad",
+          "signal": "AI Makes Me Sad"
         }
       ],
       "content_ideas": []
@@ -286,34 +262,36 @@
       "content_ideas": []
     },
     {
-      "name": "Frog and Toad and the Increasingly Capable Machines",
-      "category": "use_case",
+      "name": "Flux",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.frogandtoad.ai/",
-          "signal": "Frog and Toad and the Increasingly Capable Machines"
+          "url": "https://bfl.ai/models/flux-3-image",
+          "signal": "FLUX 3 Image"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "CS240 AI Cheating Retrospective",
+      "name": "With most information hidden, the game Stratego had stumped AI until n",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -325,7 +303,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -333,8 +311,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://turkeyland.net/thoughts/ai.php",
-          "signal": "CS240 AI Cheating Retrospective"
+          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+          "signal": "With most information hidden, the game Stratego had stumped AI until now"
         }
       ],
       "content_ideas": []
@@ -367,7 +345,7 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+      "name": "Crypto Capture of Foreign Aid",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -377,7 +355,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 3,
       "monetization": {
@@ -387,8 +365,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://lathoa.ai/en",
-          "signal": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose"
+          "url": "https://www.nber.org/papers/w35655",
+          "signal": "Crypto Capture of Foreign Aid"
         }
       ],
       "content_ideas": []
@@ -396,14 +374,13 @@
   ],
   "rising_tools": [
     {
-      "name": "Gemini",
+      "name": "Flux",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
-        "youtube"
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -411,7 +388,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 10,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -419,57 +396,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-          "signal": "Gemini 4 Argon"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/gemini-4-argon",
-          "signal": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=C5wnExlsA4Y",
-          "signal": "Gemini Ai Photo Edit 😱🔥🤯 Gemini Ai Photo Editing Prompt | Google Gemini Photo Editing"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49922568",
-          "signal": "Ask HN: Who wants to be hired? (October 2026)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
-          "signal": "I wanted an AI assistant. Why does choosing the model feel like another job?"
+          "url": "https://bfl.ai/models/flux-3-image",
+          "signal": "FLUX 3 Image"
         }
       ],
       "content_ideas": []
@@ -481,6 +409,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -503,28 +432,55 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww13zg/openai_is_halving_chatgpt_pro_200_usage_from_20x/",
+          "signal": "OpenAI is halving ChatGPT Pro 200 usage from 20x to 10x on October 30 but keeping the $200 price"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
           "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvpsga/a_flaw_in_chatgpts_mac_app_could_have_let_hackers/",
-          "signal": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww3nao/my_chatgpt_has_a_sense_of_humor/",
+          "signal": "My Chatgpt has a sense of humor"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvo408/chatgpt_and_claude_can_run_small_local_ai_models/",
-          "signal": "Chatgpt and Claude can run small local AI models for you inside their own virtual machine, the llms are running llms, they can also run most CLIs like codex, Claude code, antigravity and fire off crazy large swarms of nested agents."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvvh4f/chatgpt_works_for_82_minutes_and_bug_wastes_20_of/",
+          "signal": "ChatGPT works for 82 minutes and bug wastes 20% of weekly usage"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvnp15/chatgpt_sense_of_humor/",
-          "signal": "ChatGPT sense of humor"
-        },
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
+          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvg6ru/chatgpt_blocked_from_reporting_current_events/",
-          "signal": "ChatGPT blocked from reporting current events"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49922568",
+          "signal": "Ask HN: Who wants to be hired? (October 2026)"
         }
       ],
       "content_ideas": []
@@ -532,9 +488,21 @@
   ],
   "pain_points": [
     {
+      "problem": "ChatGPT works for 82 minutes and bug wastes 20% of weekly usage",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvvh4f/chatgpt_works_for_82_minutes_and_bug_wastes_20_of/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "After researchers discovered a \"pain\" signal inside LLMs, a man set up an AI torture chamber in which he trapped a local model. People mass ",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -542,19 +510,7 @@
         }
       ],
       "content_opportunity": ""
-    },
-    {
-      "problem": "Work usage limits? I had no idea lol",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvmuko/work_usage_limits_i_had_no_idea_lol/"
-        }
-      ],
-      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Gemini — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
