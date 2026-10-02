@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:43:27.430146+00:00",
+  "generated_at": "2026-10-02T05:42:30.648221+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -56,10 +56,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -82,28 +83,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
+          "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wv33xc/weird_chatgpt_voice_mode_anomaly_it_made_me_so/",
           "signal": "Weird ChatGPT Voice Mode anomaly. It made me so nervous to talk to it."
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8IKA6TxFzB4",
-          "signal": "They put ChatGPT in a calculator.."
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvg6ru/chatgpt_blocked_from_reporting_current_events/",
+          "signal": "ChatGPT blocked from reporting current events"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XAVYowYr2Io",
-          "signal": "4 года пользуюсь ChatGPT — и только сейчас узнал об этом"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvd1jy/chatgpt_stopped_thinking_or_remembering_help/",
+          "signal": "ChatGPT stopped thinking or remembering - help?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=PkkgZzBh5ZY",
-          "signal": "herşeye evet chatgpt&#39;ye hayır😅"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F13oev7qeLk",
-          "signal": "If YOU Use ChatGPT, You NEED To See This"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvldly/chatgpt_not_working_on_safari_send_button_is/",
+          "signal": "ChatGPT not working on Safari - send button is greyed out"
         }
       ],
       "content_ideas": []
@@ -136,6 +137,40 @@
       "content_ideas": []
     },
     {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49922568",
+          "signal": "Ask HN: Who wants to be hired? (October 2026)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
+          "signal": "I wanted an AI assistant. Why does choosing the model feel like another job?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
       "category": "use_case",
       "momentum": "rising",
@@ -158,40 +193,6 @@
           "platform": "hackernews",
           "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
           "signal": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49922568",
-          "signal": "Ask HN: Who wants to be hired? (October 2026)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
-          "signal": "I wanted an AI assistant. Why does choosing the model feel like another job?"
         }
       ],
       "content_ideas": []
@@ -224,11 +225,12 @@
       "content_ideas": []
     },
     {
-      "name": "Responsible Release of AI-Generated Mathematics",
+      "name": "Ask HN: Who is hiring? (October 2026)",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -236,7 +238,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -244,19 +246,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://agmai.org/general-sep29/",
-          "signal": "Responsible Release of AI-Generated Mathematics"
+          "url": "https://news.ycombinator.com/item?id=49922569",
+          "signal": "Ask HN: Who is hiring? (October 2026)"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Ask HN: Who is hiring? (October 2026)",
+      "name": "Vote on which of Hacker News' challenges for AI have been met",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -272,8 +273,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49922569",
-          "signal": "Ask HN: Who is hiring? (October 2026)"
+          "url": "https://stoppels.ch/goalposts/",
+          "signal": "Vote on which of Hacker News' challenges for AI have been met"
         }
       ],
       "content_ideas": []
@@ -360,7 +361,7 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+      "name": "Frog and Toad and the Increasingly Capable Machines",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -370,7 +371,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 3,
       "monetization": {
@@ -380,8 +381,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://lathoa.ai/en",
-          "signal": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose"
+          "url": "https://www.frogandtoad.ai/",
+          "signal": "Frog and Toad and the Increasingly Capable Machines"
         }
       ],
       "content_ideas": []
@@ -429,10 +430,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -455,28 +457,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
+          "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wv33xc/weird_chatgpt_voice_mode_anomaly_it_made_me_so/",
           "signal": "Weird ChatGPT Voice Mode anomaly. It made me so nervous to talk to it."
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8IKA6TxFzB4",
-          "signal": "They put ChatGPT in a calculator.."
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvg6ru/chatgpt_blocked_from_reporting_current_events/",
+          "signal": "ChatGPT blocked from reporting current events"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XAVYowYr2Io",
-          "signal": "4 года пользуюсь ChatGPT — и только сейчас узнал об этом"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvd1jy/chatgpt_stopped_thinking_or_remembering_help/",
+          "signal": "ChatGPT stopped thinking or remembering - help?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=PkkgZzBh5ZY",
-          "signal": "herşeye evet chatgpt&#39;ye hayır😅"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F13oev7qeLk",
-          "signal": "If YOU Use ChatGPT, You NEED To See This"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvldly/chatgpt_not_working_on_safari_send_button_is/",
+          "signal": "ChatGPT not working on Safari - send button is greyed out"
         }
       ],
       "content_ideas": []
@@ -496,7 +498,7 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -530,13 +532,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Logged out everywhere and cannot log back in, what's going on?",
+      "problem": "ChatGPT not working on Safari - send button is greyed out",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv8cs5/logged_out_everywhere_and_cannot_log_back_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvldly/chatgpt_not_working_on_safari_send_button_is/"
         }
       ],
       "content_opportunity": ""
