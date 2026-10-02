@@ -17,19 +17,19 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
 5. **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — science angle
    https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
-6. **Medical Records Firm Uses AI Tool to Expose Flaws that Threaten Patient Privacy - The New York Times** — science angle
-   https://news.google.com/rss/articles/CBMihgFBVV95cUxNSXV3OVlGcnRrS1h2cVJoTXJ2NWtFbTNNajBKemhTUFcyOU9sMEJrSFhtejlIZExZY2gxZ0VuTE14c1lTQzVlbURuTXI3UmpnSHZfSjdZdFhwdUR5QVhvcVR1X2FaVWFYbk0tNTJ5LXdUT1FZRnJYMTBtdktsNEgxbm1QbG5kUQ?oc=5
-7. **Son who used AI to help save mum's life hopes case offers Parkinson's clues - BBC** — science angle
+6. **Son who used AI to help save mum's life hopes case offers Parkinson's clues - BBC** — science angle
    https://news.google.com/rss/articles/CBMiW0FVX3lxTE40Ym1jaXhOa3ZsaWIyblY2N3lZZERVdlVpbkVGNVVneVZjQ3JHdzNXVHBUZUMzU21pWjNoZGsxU0RFQjEtYTNvLWhkZXo2aTdyZHRSMmZvTzhrWjg?oc=5
-8. **RFK Jr Announcing That AI Is Now Better Than Human Doctors Shows That He Is a Buffoon Who Is Ruining Trust in American Health Institutions - Futurism** — science angle
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxNTjc3RTZLbmtJb0IyX3FSWFJxdGNkRzBrZzZlUzEyYzZ5aGg2QVVMMWYzei15T1RqeWNvWUlKTmtWV2hmcm13c2VrMGpGeGZwRng4dDUwcy1xcG1yUjZ0VzhJOElmbXBfM1VVc09xVlhyb0U0VnZ0ajRpcFlZQVYySkdn?oc=5
+7. **Six physician groups push back on claims that AI is better informed than doctors - Medical Economics** — science angle
+   https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHBISE0wNjlmZUNNM0wwVjJmYXRzaU1sMEJReTJHRExhZkQ5UTA1dWNBV3NNNmxlRE5pSnhob1N4dU1IRTNkb3ZxaU80WUtLemllOElTNTFudkczSGZmaHdCcnhZN1NaNXl2VWlYMmF3Yjd3M1RrUXcwYTd2VHMyclpwaHM2V0Y3dkJjZ2Q3WG8zN3Bwc1pxWURtZjdwaXdBVzc1azhEc0c0RUNkRmxKdV85aHNzRkUzdlE?oc=5
+8. **From payphones to AI: UGA School of Medicine dean prepares future doctors for tech, rural care - The Business Journals** — science angle
+   https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb0NxdzdIdWI0NVpHbV9QZGdFWkpJaEFWeEN2bDJNcGlHV01URVZ1NkpHN0R3UkIxOW1iY0V5RUtuZGJkM09keEJZbVRvcHlhVE90R1VUeWQ5N082Y2xkVXpkZ3NZUDBacllaRVdiVDhKbE5wSG0xeU1NVnRfUTZWNnNWVmREZ2doWG53NnJpSVBvcmFNVGZtQjh0WEg0T0hFeFJiOE9OcklSSUE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Nvidia unveils security platform to stop AI agents from going rogue - PBS** — AI in Coding — Score 98
    https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuSlpra3Y2bHdsTWtfdExVOF9VWjdteEcwbWRmSDBaNENoY3MtZ3J0REEzV3lneFFVQUU4SkxQTVV0azJYRnIzclU3WWgwRmZ6OTlXVV9qRVZIVUU0MzU3czA5eWtIX2N0UFdkX2xJd0hoT3BqNDF2d1FNVUxGZjhWYW13bXZSQjdjdkJlOENneDhBODVZdmYycy1LUtIBqgFBVV95cUxPaHpYeWU2U2FraEJ2V2dDRmtVMjRyazd3RmUybEthanQtSlJEWE1CZF9vTFlmNEJVbDBDVlI5OGtEV1V1U2pBOEUzSU5RdTZsRER5V1U5OU1laWMwXzJWeHo3dlMzRVM5X1otaktpYzRHUzFQRjRDalVkU0hSUHhtcWlIdTBPbFgxRkpycGsyMDViTVNFS0VjZVFyMHo4NTJNXzJzeWpJMWREUQ?oc=5
 2. **President Trump says top tech firms have signed accord to ‘self-police’ AI development - Chicago Tribune** — AI in Coding — Score 93
    https://news.google.com/rss/articles/CBMieEFVX3lxTE5GQ193cmlQdENPdlVObHVtVU9kRnVFa0x2RmJtTWdvQ2hfcGt0VEJhYldIODE3NVhGQWZ3NFliQjc5ZUVsWlFieUpLYllPRFdCSlFjQWs2dnNoOU1XWlVDNXV5TzlDVWhNMWI1ZThqMFVUTDJWTEgwOQ?oc=5
-3. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 80
+3. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 77
    https://news.google.com/rss/articles/CBMihAFBVV95cUxORTU3cUVkZTNQZTZwblIwZ2JxYkZ0Zl9LbldfN012UzRkaUZfYmtodk1oX2NDa3pjc3A0YUREMzM3ZDV1T1A5eUFldFMwSTFJa296V3NadHBXUkhPS3ZILTJQQ0VMNGZDZGkwSkxjX29Nd2V5d1VxMG8xY2JyWlpQaUpmcXg?oc=5
 4. **Perplexity AI sued by startup for allegedly stealing 'wake word' technology - reuters.com** — Perplexity News — Score 67
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRy1RVlJsY0c5TXRRZGdvTjBvdUN0NTh6RGFicnZnQTJNd1h0ZjEyQzJIWm1CdjlSVXp6eS1fb3BvVnZmS2pUM1o4eUFHN05iZ1hDc1pLZG9IYjlPZjNrRGRVUHRENVhjZlFPSjF0clE5b3NmU0MtTWxfaWxHeHU5UWtEaHJwUEpEZmUzQzdkS3g4SVBraVNKb3N5UV9hQktPQk5QbUY4bTliQ2k2V3JMMDM5VjNVZXgtLXZYNmNveUVCWEU?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
 - **MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma** — https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2971
+- Total stories tracked: 2943
 - Most active topic: openai
 - Busiest category: AI General News
 
