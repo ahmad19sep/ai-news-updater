@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
 6. **Six physician groups push back on claims that AI is better informed than doctors - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHBISE0wNjlmZUNNM0wwVjJmYXRzaU1sMEJReTJHRExhZkQ5UTA1dWNBV3NNNmxlRE5pSnhob1N4dU1IRTNkb3ZxaU80WUtLemllOElTNTFudkczSGZmaHdCcnhZN1NaNXl2VWlYMmF3Yjd3M1RrUXcwYTd2VHMyclpwaHM2V0Y3dkJjZ2Q3WG8zN3Bwc1pxWURtZjdwaXdBVzc1azhEc0c0RUNkRmxKdV85aHNzRkUzdlE?oc=5
-7. **From payphones to AI: UGA School of Medicine dean prepares future doctors for tech, rural care - The Business Journals** — science angle
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb0NxdzdIdWI0NVpHbV9QZGdFWkpJaEFWeEN2bDJNcGlHV01URVZ1NkpHN0R3UkIxOW1iY0V5RUtuZGJkM09keEJZbVRvcHlhVE90R1VUeWQ5N082Y2xkVXpkZ3NZUDBacllaRVdiVDhKbE5wSG0xeU1NVnRfUTZWNnNWVmREZ2doWG53NnJpSVBvcmFNVGZtQjh0WEg0T0hFeFJiOE9OcklSSUE?oc=5
-8. **Doctors Push Back on RFK Jr.'s AI Comments - MedPage Today** — science angle
+7. **Doctors Push Back on RFK Jr.'s AI Comments - MedPage Today** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWZ6WnpyUUNzY2QzaUc2RUFzdl9WWlFBa1VKQ3FfbGdRMkNjaGJ5S1dxZ1FWeWwzNnpYcVhhaDRYbk1aTkNGSkQzNmhWcmRBbDJ6enhBUkg2clVhcDNnVl9MaVU1YUU0RFJaVnVyUDlSVF9PMXFVb09lSFJJTW4tWjVB?oc=5
+8. **AI over doctors? Medical societies push back. - Chief Healthcare Executive** — science angle
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlZ5WHVaZ0Exa0pJbnAzQlRTQTA5aVMzaF9xaFcybENabUlHWEVKSHhDaVVTakdlazEzN3M2S1VPZnRaWmp3MERxVzFOaUpobUVleEdteDZta0tZOVk3dHlTbUZHS3FteG1DVThCYzk0N21ENUJQWVBIZ0JQZElmcXA2U3FBLTdiTXJabHhUNE5VT2tv?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Nvidia unveils security platform to stop AI agents from going rogue - PBS** — AI in Coding — Score 98
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
 - **Six physician groups push back on claims that AI is better informed than doctors - Medical Economics** — https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHBISE0wNjlmZUNNM0wwVjJmYXRzaU1sMEJReTJHRExhZkQ5UTA1dWNBV3NNNmxlRE5pSnhob1N4dU1IRTNkb3ZxaU80WUtLemllOElTNTFudkczSGZmaHdCcnhZN1NaNXl2VWlYMmF3Yjd3M1RrUXcwYTd2VHMyclpwaHM2V0Y3dkJjZ2Q3WG8zN3Bwc1pxWURtZjdwaXdBVzc1azhEc0c0RUNkRmxKdV85aHNzRkUzdlE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2868
+- Total stories tracked: 2865
 - Most active topic: openai
 - Busiest category: AI General News
 
