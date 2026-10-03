@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:16:50.372570+00:00",
+  "generated_at": "2026-10-03T05:22:05.199199+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 27,
+      "reddit": 50,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -50,18 +49,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww7wjp/had_my_first_ethical_argument_with_chatgpt_today/",
+          "signal": "Had my first ethical argument with ChatGPT today. Is this a 6.1 thing?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwenep/i_described_a_multiplayer_browser_fps_to_chatgpt/",
+          "signal": "I described a multiplayer browser FPS to ChatGPT and Claude. Here’s the office-tower map."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
           "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww3nao/my_chatgpt_has_a_sense_of_humor/",
-          "signal": "My Chatgpt has a sense of humor"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvvh4f/chatgpt_works_for_82_minutes_and_bug_wastes_20_of/",
-          "signal": "ChatGPT works for 82 minutes and bug wastes 20% of weekly usage"
         },
         {
           "platform": "youtube",
@@ -94,6 +93,61 @@
           "platform": "hackernews",
           "url": "https://www.frogandtoad.ai/",
           "signal": "Frog and Toad and the Increasingly Capable Machines"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/",
+          "signal": "I made my iPhone a second GPU for my 24 GB MacBook: Qwen 3.8 27B prefills 29–44% faster & my holds part of the CTX window."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxl4n/qwen3827bhumanlikechat_20_texts_like_a_human_now/",
+          "signal": "Qwen3.8-27B-Humanlike-Chat 2.0: texts like a human, now with tool calls and better instruction following"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvt1m4/two_96_gb_ascend_cards_crun_qwen38flashnext/",
+          "signal": "Two 96 GB Ascend cards crun Qwen3.8-flash-next hardware notes, vLLM work, benchmarks, and what is next"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvwssq/strata_on_a_power_limited_5090_and_96gb_of/",
+          "signal": "Strata on a power limited 5090 and 96GB of DDR5-6400 is cranking out 150-200 tok/s decode and 5-6k prefill! Qwen3.8-Flash-Next at IQ3_S, CTX at 128k tokens (8-bit)."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvs8va/i_made_my_own_cybersecurity_benchmark_and_ran/",
+          "signal": "I made my own cybersecurity benchmark and ran Qwen3.8 27B, here's how a local model actually does at hacking"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvzmt3/heavily_quantized_qwen38flash_vs_q8_qwen3827b/",
+          "signal": "Heavily quantized Qwen3.8-Flash vs Q8 Qwen3.8-27B - thoughts?"
         }
       ],
       "content_ideas": []
@@ -264,7 +318,7 @@
     {
       "name": "Flux",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -276,7 +330,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -303,7 +357,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -318,7 +372,7 @@
       "content_ideas": []
     },
     {
-      "name": "An AI sovereign wealth fund isn't progressive – it's techno-imperialis",
+      "name": "Muse Gadgets",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -330,7 +384,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -338,35 +392,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
-          "signal": "An AI sovereign wealth fund isn't progressive – it's techno-imperialism"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Crypto Capture of Foreign Aid",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nber.org/papers/w35655",
-          "signal": "Crypto Capture of Foreign Aid"
+          "url": "https://gadgets.muse.ai",
+          "signal": "Muse Gadgets"
         }
       ],
       "content_ideas": []
@@ -374,42 +401,12 @@
   ],
   "rising_tools": [
     {
-      "name": "Flux",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://bfl.ai/models/flux-3-image",
-          "signal": "FLUX 3 Image"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -437,23 +434,78 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww7wjp/had_my_first_ethical_argument_with_chatgpt_today/",
+          "signal": "Had my first ethical argument with ChatGPT today. Is this a 6.1 thing?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwenep/i_described_a_multiplayer_browser_fps_to_chatgpt/",
+          "signal": "I described a multiplayer browser FPS to ChatGPT and Claude. Here’s the office-tower map."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
           "signal": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww3nao/my_chatgpt_has_a_sense_of_humor/",
-          "signal": "My Chatgpt has a sense of humor"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvvh4f/chatgpt_works_for_82_minutes_and_bug_wastes_20_of/",
-          "signal": "ChatGPT works for 82 minutes and bug wastes 20% of weekly usage"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
           "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/",
+          "signal": "I made my iPhone a second GPU for my 24 GB MacBook: Qwen 3.8 27B prefills 29–44% faster & my holds part of the CTX window."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxl4n/qwen3827bhumanlikechat_20_texts_like_a_human_now/",
+          "signal": "Qwen3.8-27B-Humanlike-Chat 2.0: texts like a human, now with tool calls and better instruction following"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvt1m4/two_96_gb_ascend_cards_crun_qwen38flashnext/",
+          "signal": "Two 96 GB Ascend cards crun Qwen3.8-flash-next hardware notes, vLLM work, benchmarks, and what is next"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvwssq/strata_on_a_power_limited_5090_and_96gb_of/",
+          "signal": "Strata on a power limited 5090 and 96GB of DDR5-6400 is cranking out 150-200 tok/s decode and 5-6k prefill! Qwen3.8-Flash-Next at IQ3_S, CTX at 128k tokens (8-bit)."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvs8va/i_made_my_own_cybersecurity_benchmark_and_ran/",
+          "signal": "I made my own cybersecurity benchmark and ran Qwen3.8 27B, here's how a local model actually does at hacking"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvzmt3/heavily_quantized_qwen38flash_vs_q8_qwen3827b/",
+          "signal": "Heavily quantized Qwen3.8-Flash vs Q8 Qwen3.8-27B - thoughts?"
         }
       ],
       "content_ideas": []
@@ -484,29 +536,46 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Flux",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bfl.ai/models/flux-3-image",
+          "signal": "FLUX 3 Image"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT works for 82 minutes and bug wastes 20% of weekly usage",
-      "who_affected": "r/ChatGPT",
+      "problem": "Anyone sitting on a lot of slow system memory and a modest GPU.. try Strata + Qwen3.8 Next.",
+      "who_affected": "r/LocalLLaMA",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wvvh4f/chatgpt_works_for_82_minutes_and_bug_wastes_20_of/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "After researchers discovered a \"pain\" signal inside LLMs, a man set up an AI torture chamber in which he trapped a local model. People mass ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wv0nat/after_researchers_discovered_a_pain_signal_inside/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwcqas/anyone_sitting_on_a_lot_of_slow_system_memory_and/"
         }
       ],
       "content_opportunity": ""
