@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **AI over doctors? Medical societies push back. - Chief Healthcare Executive** — https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlZ5WHVaZ0Exa0pJbnAzQlRTQTA5aVMzaF9xaFcybENabUlHWEVKSHhDaVVTakdlazEzN3M2S1VPZnRaWmp3MERxVzFOaUpobUVleEdteDZta0tZOVk3dHlTbUZHS3FteG1DVThCYzk0N21ENUJQWVBIZ0JQZElmcXA2U3FBLTdiTXJabHhUNE5VT2tv?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2846
+- Total stories tracked: 2830
 - Most active topic: openai
 - Busiest category: AI General News
 
