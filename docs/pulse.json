@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:20:24.852038+00:00",
+  "generated_at": "2026-10-03T21:20:04.735582+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,8 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwin3p/why_doesnt_chatgpt_warn_you_before_wasting_30/",
-          "signal": "Why Doesn’t ChatGPT Warn You Before Wasting 30 Minutes of Compute?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
+          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwu3h5/why_is_chatgpt_so_friendly/",
+          "signal": "Why is ChatGPT so… friendly??"
         },
         {
           "platform": "reddit",
@@ -54,18 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww7wjp/had_my_first_ethical_argument_with_chatgpt_today/",
-          "signal": "Had my first ethical argument with ChatGPT today. Is this a 6.1 thing?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwin3p/why_doesnt_chatgpt_warn_you_before_wasting_30/",
+          "signal": "Why Doesn’t ChatGPT Warn You Before Wasting 30 Minutes of Compute?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww13zg/openai_is_halving_chatgpt_pro_200_usage_from_20x/",
-          "signal": "OpenAI is halving ChatGPT Pro 200 usage from 20x to 10x on October 30 but keeping the $200 price"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwjg21/chatgpt_has_the_same_vibes_as_brian_griffin/",
-          "signal": "ChatGPT has the same vibes as Brian Griffin"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
+          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
         }
       ],
       "content_ideas": []
@@ -93,62 +93,6 @@
           "platform": "hackernews",
           "url": "https://www.frogandtoad.ai/",
           "signal": "Frog and Toad and the Increasingly Capable Machines"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Flux",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://bfl.ai/models/flux-3-image",
-          "signal": "FLUX 3 Image"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Vote on which of Hacker News' challenges for AI have been met",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://stoppels.ch/goalposts/",
-          "signal": "Vote on which of Hacker News' challenges for AI have been met"
         }
       ],
       "content_ideas": []
@@ -220,7 +164,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -230,6 +174,33 @@
           "platform": "hackernews",
           "url": "https://gadgets.muse.ai",
           "signal": "Muse Gadgets"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Pop!_OS bans AI-generated code from much of its codebase",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+          "signal": "Pop!_OS bans AI-generated code from much of its codebase"
         }
       ],
       "content_ideas": []
@@ -247,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -316,6 +287,35 @@
       "content_ideas": []
     },
     {
+      "name": "US killer's sentence quashed because of AI video of victim shown in co",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+          "signal": "US killer's sentence quashed because of AI video of victim shown in court"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "F.02 Decommission",
       "category": "use_case",
       "momentum": "rising",
@@ -328,7 +328,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -355,7 +355,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -371,35 +371,6 @@
     }
   ],
   "rising_tools": [
-    {
-      "name": "Flux",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://bfl.ai/models/flux-3-image",
-          "signal": "FLUX 3 Image"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -429,8 +400,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwin3p/why_doesnt_chatgpt_warn_you_before_wasting_30/",
-          "signal": "Why Doesn’t ChatGPT Warn You Before Wasting 30 Minutes of Compute?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
+          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwu3h5/why_is_chatgpt_so_friendly/",
+          "signal": "Why is ChatGPT so… friendly??"
         },
         {
           "platform": "reddit",
@@ -439,18 +415,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww7wjp/had_my_first_ethical_argument_with_chatgpt_today/",
-          "signal": "Had my first ethical argument with ChatGPT today. Is this a 6.1 thing?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwin3p/why_doesnt_chatgpt_warn_you_before_wasting_30/",
+          "signal": "Why Doesn’t ChatGPT Warn You Before Wasting 30 Minutes of Compute?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ww13zg/openai_is_halving_chatgpt_pro_200_usage_from_20x/",
-          "signal": "OpenAI is halving ChatGPT Pro 200 usage from 20x to 10x on October 30 but keeping the $200 price"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwjg21/chatgpt_has_the_same_vibes_as_brian_griffin/",
-          "signal": "ChatGPT has the same vibes as Brian Griffin"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
+          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
         }
       ],
       "content_ideas": []
@@ -458,13 +429,13 @@
   ],
   "pain_points": [
     {
-      "problem": "\"You’ve reached the limit for chats that include data analysis. \" is this new?",
+      "problem": "My AI usage limits have their own tiny screen now",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwl3rp/youve_reached_the_limit_for_chats_that_include/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwxzn8/my_ai_usage_limits_have_their_own_tiny_screen_now/"
         }
       ],
       "content_opportunity": ""
