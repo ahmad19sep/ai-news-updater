@@ -11,14 +11,14 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
    https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUzM2Y2dlSjhkTlhVcHNRd0RIMzhfb1BSZ3h5SDFJdl9KbnJNSUkxN2o5bVQ3aFRudWwza1pjekltZS00MDFLNkd6Z0RhbDhqbTBPbGpUbXdGRC0yZkxDR1J1ejJxcDFacVpFcmlkekkwQzEzS2pHbjNzcFhKcE5iNEJJRVBmWFBGWlBTY0pEcjJRSV9fWmY0LXVJM0tZUTdDZjhhaUhBVW5oUmRMZ0pQcmNZTXREM0JRcDVWbmEtY1NfSUJwZ0F0aGkzSU03d2p6dDdqTHhn?oc=5
 2. **Was Anthropic’s Biology Breakthrough Borrowed From Another Scientist’s Work? - the-scientist.com** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
-3. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
-   https://www.sciencedaily.com/releases/2026/09/260930020309.htm
+3. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
+   https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
 4. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-5. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
+5. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
+   https://www.sciencedaily.com/releases/2026/09/260930020309.htm
+6. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-6. **Six physician groups push back on claims that AI is better informed than doctors - Medical Economics** — science angle
-   https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHBISE0wNjlmZUNNM0wwVjJmYXRzaU1sMEJReTJHRExhZkQ5UTA1dWNBV3NNNmxlRE5pSnhob1N4dU1IRTNkb3ZxaU80WUtLemllOElTNTFudkczSGZmaHdCcnhZN1NaNXl2VWlYMmF3Yjd3M1RrUXcwYTd2VHMyclpwaHM2V0Y3dkJjZ2Q3WG8zN3Bwc1pxWURtZjdwaXdBVzc1azhEc0c0RUNkRmxKdV85aHNzRkUzdlE?oc=5
 7. **Doctors Push Back on RFK Jr.'s AI Comments - MedPage Today** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWZ6WnpyUUNzY2QzaUc2RUFzdl9WWlFBa1VKQ3FfbGdRMkNjaGJ5S1dxZ1FWeWwzNnpYcVhhaDRYbk1aTkNGSkQzNmhWcmRBbDJ6enhBUkg2clVhcDNnVl9MaVU1YUU0RFJaVnVyUDlSVF9PMXFVb09lSFJJTW4tWjVB?oc=5
 8. **AI over doctors? Medical societies push back. - Chief Healthcare Executive** — science angle
@@ -31,10 +31,10 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
    https://news.google.com/rss/articles/CBMieEFVX3lxTE5GQ193cmlQdENPdlVObHVtVU9kRnVFa0x2RmJtTWdvQ2hfcGt0VEJhYldIODE3NVhGQWZ3NFliQjc5ZUVsWlFieUpLYllPRFdCSlFjQWs2dnNoOU1XWlVDNXV5TzlDVWhNMWI1ZThqMFVUTDJWTEgwOQ?oc=5
 3. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 77
    https://news.google.com/rss/articles/CBMihAFBVV95cUxORTU3cUVkZTNQZTZwblIwZ2JxYkZ0Zl9LbldfN012UzRkaUZfYmtodk1oX2NDa3pjc3A0YUREMzM3ZDV1T1A5eUFldFMwSTFJa296V3NadHBXUkhPS3ZILTJQQ0VMNGZDZGkwSkxjX29Nd2V5d1VxMG8xY2JyWlpQaUpmcXg?oc=5
-4. **GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price** — Hacker News AI — Score 65.5
+4. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 76
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2enVINFN2ZWpCRUYtRVpGOFczcm9NMkVudnlZOTlKdHdVTUpHTUN2aGRhMjIyWklJcFRDSFZrZkNfQUNseXp1ODBqN1UxeEJkbWNvQnFBYW5vSnltTjNxcmtGOEszXzBxNlZGYmlPN1haTkMtOENYVldWUHd1M0ctSGtJU2o5X2tzNTFNaFdRcGtLRdIBoAFBVV95cUxQa0lhZmVzTE9DcS1rY1JaSEdBR1lZSGJQZ0hVTENVRmp3RlEwRTdWTGliNlRXcTEwYWdLSm5zMWN5OUpVM19HV1ljbVlhOFQxZVhlXzhuNE5LUlpVN18yYTVXdngySldlRFVyUEpLMjRxWUdiZEJVbDJmWjB0OWgxVy1acHQ4LVZkcjU2aVpJN0xsdk1DeDM3QXFsTzduVjZF?oc=5
+5. **GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price** — Hacker News AI — Score 65.5
    https://openai.com/index/introducing-gpt-6-1-sol/
-5. **Sure, AI can generate songs - but it can't win over a rowdy crowd** — bluemountainsgazette — Score 63
-   https://www.bluemountainsgazette.com.au/story/9354884/sure-ai-can-generate-songs-but-it-cant-win-over-a-rowdy-crowd/?src=rss
 6. **Sam Altman unveils "dots," OpenAI's new AI personal agent - CBS News** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMif0FVX3lxTE9tRjZqS3R6VW1rR1UtMU9raVlfRnR0OFNZV1dGSWhIVDZYelFabjdjWTl3cmxMcEprRDQ0bDQzb2dxQUEzWk9GMS0wNU9SdG8yczRnTzh2WUxNWDdJVkFEaGZBcTZyMVJiOFpZQkFwTlVTY00tancyb25NWlpWc3M?oc=5
 7. **Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns - Star Beacon** — Sam Altman News — Score 58
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuS
 - **Was Anthropic’s Biology Breakthrough Borrowed From Another Scientist’s Work? - the-scientist.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
 - **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — https://www.sciencedaily.com/releases/2026/09/260930020309.htm
 - **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-- **Six physician groups push back on claims that AI is better informed than doctors - Medical Economics** — https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHBISE0wNjlmZUNNM0wwVjJmYXRzaU1sMEJReTJHRExhZkQ5UTA1dWNBV3NNNmxlRE5pSnhob1N4dU1IRTNkb3ZxaU80WUtLemllOElTNTFudkczSGZmaHdCcnhZN1NaNXl2VWlYMmF3Yjd3M1RrUXcwYTd2VHMyclpwaHM2V0Y3dkJjZ2Q3WG8zN3Bwc1pxWURtZjdwaXdBVzc1azhEc0c0RUNkRmxKdV85aHNzRkUzdlE?oc=5
+- **Doctors Push Back on RFK Jr.'s AI Comments - MedPage Today** — https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWZ6WnpyUUNzY2QzaUc2RUFzdl9WWlFBa1VKQ3FfbGdRMkNjaGJ5S1dxZ1FWeWwzNnpYcVhhaDRYbk1aTkNGSkQzNmhWcmRBbDJ6enhBUkg2clVhcDNnVl9MaVU1YUU0RFJaVnVyUDlSVF9PMXFVb09lSFJJTW4tWjVB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2865
+- Total stories tracked: 2896
 - Most active topic: openai
 - Busiest category: AI General News
 
