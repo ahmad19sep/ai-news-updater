@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 26 Sep 2026 to 03 Oct 2026
+# 🗞️ AI THIS WEEK — 27 Sep 2026 to 04 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos**
@@ -31,20 +31,20 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuSlpra3Y2bHdsTWtfdExVOF9VWjdteEcwbWRmSDBaNENoY3MtZ3J0REEzV3lneFFVQUU4SkxQTVV0azJYRnIzclU3WWgwRmZ6OTlXVV9qRVZIVUU0MzU3czA5eWtIX2N0UFdkX2xJd0hoT3BqNDF2d1FNVUxGZjhWYW13bXZSQjdjdkJlOENneDhBODVZdmYycy1LUtIBqgFBVV95cUxPaHpYeWU2U2FraEJ2V2dDRmtVMjRyazd3RmUybEthanQtSlJEWE1CZF9vTFlmNEJVbDBDVlI5OGtEV1V1U2pBOEUzSU5RdTZsRER5V1U5OU1laWMwXzJWeHo3dlMzRVM5X1otaktpYzRHUzFQRjRDalVkU0hSUHhtcWlIdTBPbFgxRkpycGsyMDViTVNFS0VjZVFyMHo4NTJNXzJzeWpJMWREUQ?oc=5
 3. **President Trump says top tech firms have signed accord to ‘self-police’ AI development - Chicago Tribune** — AI in Coding — Score 93
    https://news.google.com/rss/articles/CBMieEFVX3lxTE5GQ193cmlQdENPdlVObHVtVU9kRnVFa0x2RmJtTWdvQ2hfcGt0VEJhYldIODE3NVhGQWZ3NFliQjc5ZUVsWlFieUpLYllPRFdCSlFjQWs2dnNoOU1XWlVDNXV5TzlDVWhNMWI1ZThqMFVUTDJWTEgwOQ?oc=5
-4. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 77
+4. **Deepfake nudes are flooding social media. Here's what's being done about it** — kenoshanews — Score 86
+   https://kenoshanews.com/news/nation-world/article_103c4544-541e-5617-b1c6-3896b479c666.html
+5. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 77
    https://news.google.com/rss/articles/CBMihAFBVV95cUxORTU3cUVkZTNQZTZwblIwZ2JxYkZ0Zl9LbldfN012UzRkaUZfYmtodk1oX2NDa3pjc3A0YUREMzM3ZDV1T1A5eUFldFMwSTFJa296V3NadHBXUkhPS3ZILTJQQ0VMNGZDZGkwSkxjX29Nd2V5d1VxMG8xY2JyWlpQaUpmcXg?oc=5
-5. **GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price** — Hacker News AI — Score 65.5
+6. **GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price** — Hacker News AI — Score 65.5
    https://openai.com/index/introducing-gpt-6-1-sol/
-6. **Sam Altman unveils "dots," OpenAI's new AI personal agent - CBS News** — Sam Altman News — Score 58
+7. **Sam Altman unveils "dots," OpenAI's new AI personal agent - CBS News** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMif0FVX3lxTE9tRjZqS3R6VW1rR1UtMU9raVlfRnR0OFNZV1dGSWhIVDZYelFabjdjWTl3cmxMcEprRDQ0bDQzb2dxQUEzWk9GMS0wNU9SdG8yczRnTzh2WUxNWDdJVkFEaGZBcTZyMVJiOFpZQkFwTlVTY00tancyb25NWlpWc3M?oc=5
-7. **Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns - Star Beacon** — Sam Altman News — Score 58
+8. **Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns - Star Beacon** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaURXeFVfa19CclJna1l3Z2w4VU9QOUU1R3p4cnZ1emtxQmRQY1lROURFQW9ITWUxanZKODBMejBFcXpHMVplR3lmMGU4VzZLYUQwWm41c3hNeDZsLWtsSl9ia1hmYkhoTjFWOWdvNmdUaUpYUUs2LUd0UUllTndfck16VkZBNlBMRjNWVlktejZ2WjY0dXBYbXdEZUxnV1E0NzlzSThHR0otbFBkTEtzVEdpRVh2N1djV0p6aFRLLUkxZTNFckt3cmZCbDY2d1BmaVBNSFV4aEFjWkl2TEU1MHItNTJHQ0FZMzhZSUhGcmRIbURka2xDRw?oc=5
-8. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
+9. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQOUF5NFMzNHNURmY4ZlZ2T3QzWkN6M2FVTGp0U2JDX0JIdlFxaGFTRkZ5aUFIRjJONWh0TmJxellzd2FhYTh2a2c3aXMxNmFnMFFHVE9XQ2NVa2FtTi1NM0d1UVVXOEZGUEZUYlMxT0ZTZjRuWHFWYmxqM3dGRUhfNzQtNzE2amFtSk5lQ0ZQbUV2OTFXUlludmR4NXpoLWdwcmZVNzRZcE9hT0RjVXZj?oc=5
-9. **Anthropic and OpenAI sound the alarm on AI safety — and seek to shape how it’s controlled - MyNorthwest.com** — Sam Altman News — Score 53
+10. **Anthropic and OpenAI sound the alarm on AI safety — and seek to shape how it’s controlled - MyNorthwest.com** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMixgFBVV95cUxQa0pBX0t2RXJvZ3dCRzNWTzhEMUVEaG5mcVNLQlVnR3l3My1vcUpxbGRxaG9yak40T290blRDWVRsVkoxUXpSNlpYNUw4c2MxQXVoZlEyU19HRVhncHdRZlpUODRja2pMLXJuY0txY2dZTGE2MzdHaFFGaDBSb1dseHhlNDU5bWprOWF5SFA2MjBIRWZmR3AtNnNEanJONDJKWWRZY3dKd3hybDEzazhvUmptbEVaTWZXRUM5Q0Q0ODhMbTJJWnc?oc=5
-10. **Troops develop AI-driven drone defense weapons | Defense News Weekly Full Episode 9.29.26 - Federal Times** — AI in Defense — Score 53
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxNTGJxTEMzZ0ZHVzQxYnZDUzg3Vm1qQnFGNjBKb2lBM1lXR1N3Qk1KeG9BX2lFNTZRa2hNTkh2MEJQdFp4TTlOWHpsM1dUSjBCajZoSEhtVmdaR1BlVDl0Szh6UEhudjZkaU5hZFprSkxoc2RLRW1EUFVMeEdLX0pnYVdoU3FVa1FwQlR5VTNGRE1YRU1lQlVYY3IwaFJiR0NuTE1qT1QtRmwydi1BQmkxdkNsRWhHOXk2S1ZoNmVJSm0zSzdvclpSc29lel8?oc=5
 
 ## 🧪 AI in Science Highlights
 - **New AI Platform Could Help Cancer Survivors Get Personalized Support Between Doctor Visits - South Florida Hospital News** — https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUzM2Y2dlSjhkTlhVcHNRd0RIMzhfb1BSZ3h5SDFJdl9KbnJNSUkxN2o5bVQ3aFRudWwza1pjekltZS00MDFLNkd6Z0RhbDhqbTBPbGpUbXdGRC0yZkxDR1J1ejJxcDFacVpFcmlkekkwQzEzS2pHbjNzcFhKcE5iNEJJRVBmWFBGWlBTY0pEcjJRSV9fWmY0LXVJM0tZUTdDZjhhaUhBVW5oUmRMZ0pQcmNZTXREM0JRcDVWbmEtY1NfSUJwZ0F0aGkzSU03d2p6dDdqTHhn?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **AI over doctors? Medical societies push back. - Chief Healthcare Executive** — https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlZ5WHVaZ0Exa0pJbnAzQlRTQTA5aVMzaF9xaFcybENabUlHWEVKSHhDaVVTakdlazEzN3M2S1VPZnRaWmp3MERxVzFOaUpobUVleEdteDZta0tZOVk3dHlTbUZHS3FteG1DVThCYzk0N21ENUJQWVBIZ0JQZElmcXA2U3FBLTdiTXJabHhUNE5VT2tv?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2830
+- Total stories tracked: 2829
 - Most active topic: openai
 - Busiest category: AI General News
 
