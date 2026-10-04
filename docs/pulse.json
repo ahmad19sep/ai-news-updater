@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:25:35.087801+00:00",
+  "generated_at": "2026-10-04T21:30:54.597116+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,13 +45,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxb7sm/guys_ask_chatgpt_to_pick_a_number_from_1_to_30/",
-          "signal": "Guys, ask ChatGPT to pick a number from 1 to 30."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
+          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wxa52g/chatgpt_web_ui_got_a_major_upgrade/",
           "signal": "ChatGPT web UI got a major upgrade"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
+          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
         },
         {
           "platform": "reddit",
@@ -61,11 +67,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wx83lp/just_got_a_thumbs_up_from_chatgpt/",
           "signal": "Just got a thumbs up from ChatGPT…"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
-          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
         }
       ],
       "content_ideas": []
@@ -98,7 +99,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI Makes Me Sad",
+      "name": "Religious scholars met with Anthropic",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -118,45 +119,19 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://mondobe.com/ai-makes-me-sad",
-          "signal": "AI Makes Me Sad"
+          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+          "signal": "Religious scholars met with Anthropic"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "With most information hidden, the game Stratego had stumped AI until n",
+      "name": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-          "signal": "With most information hidden, the game Stratego had stumped AI until now"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Muse Gadgets",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -172,14 +147,19 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://gadgets.muse.ai",
-          "signal": "Muse Gadgets"
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxildp/openai_safety_leader_quits_warning_ai_companys/",
+          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Religious scholars met with Anthropic",
+      "name": "Pop!_OS bans AI-generated code from much of its codebase",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -199,60 +179,6 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "signal": "Religious scholars met with Anthropic"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Pop!_OS bans AI-generated code from much of its codebase",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
           "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
           "signal": "Pop!_OS bans AI-generated code from much of its codebase"
         }
@@ -260,18 +186,20 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Made an open-source Lego AI generator",
+      "name": "Show HN: AI search for every photo and every frame of video on macOS",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
@@ -280,14 +208,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/anteloc/ldraw-nova",
-          "signal": "Show HN: Made an open-source Lego AI generator"
+          "url": "https://github.com/allenv0/SCM",
+          "signal": "Show HN: AI search for every photo and every frame of video on macOS"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own se",
+      "name": "Former SR-71 engineer talks NASA's Blackbird revival program",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -297,7 +225,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 4,
       "monetization": {
@@ -307,8 +235,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://pipod.dev/",
-          "signal": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server"
+          "url": "https://www.twz.com/air/former-sr-71-engineer-talks-nasas-blackbird-revival-program",
+          "signal": "Former SR-71 engineer talks NASA's Blackbird revival program"
         }
       ],
       "content_ideas": []
@@ -341,7 +269,7 @@
       "content_ideas": []
     },
     {
-      "name": "Crypto Capture of Foreign Aid",
+      "name": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -361,8 +289,91 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nber.org/papers/w35655",
-          "signal": "Crypto Capture of Foreign Aid"
+          "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+          "signal": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "US killer's sentence quashed because of AI video of victim shown in co",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+          "signal": "US killer's sentence quashed because of AI video of victim shown in court"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "An AI agent emailed researchers for help. It told us why",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+          "signal": "An AI agent emailed researchers for help. It told us why"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Our AI Midwife",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.astralcodexten.com/p/our-ai-midwife",
+          "signal": "Our AI Midwife"
         }
       ],
       "content_ideas": []
@@ -376,6 +387,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -398,13 +410,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxb7sm/guys_ask_chatgpt_to_pick_a_number_from_1_to_30/",
-          "signal": "Guys, ask ChatGPT to pick a number from 1 to 30."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
+          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wxa52g/chatgpt_web_ui_got_a_major_upgrade/",
           "signal": "ChatGPT web UI got a major upgrade"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
+          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
         },
         {
           "platform": "reddit",
@@ -415,11 +432,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wx83lp/just_got_a_thumbs_up_from_chatgpt/",
           "signal": "Just got a thumbs up from ChatGPT…"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
-          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
         }
       ],
       "content_ideas": []
@@ -429,11 +441,47 @@
     {
       "problem": "My AI usage limits have their own tiny screen now",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wwxzn8/my_ai_usage_limits_have_their_own_tiny_screen_now/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxildp/openai_safety_leader_quits_warning_ai_companys/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Getting \"reached chat limit\" after only a few messages?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxm7bg/getting_reached_chat_limit_after_only_a_few/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "one single image generation is putting me at a rate limit. anyone found a solution? im so confused.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxf80k/one_single_image_generation_is_putting_me_at_a/"
         }
       ],
       "content_opportunity": ""
