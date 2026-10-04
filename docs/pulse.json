@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:20:04.735582+00:00",
+  "generated_at": "2026-10-04T05:58:09.210011+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
+      "reddit": 50,
       "hackernews": 26,
       "youtube": 106
     },
@@ -49,50 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx6s9m/anyone_else_try_claude_and_then_end_up_coming/",
+          "signal": "Anyone else try Claude and then end up coming back to ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wwu3h5/why_is_chatgpt_so_friendly/",
           "signal": "Why is ChatGPT so… friendly??"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwox4c/how_many_of_you_use_chatgpt_as_therapy/",
-          "signal": "How many of you use ChatGPT as therapy?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwzk7o/man_in_the_moon_art3d_model3d_print_done_with_a/",
+          "signal": "Man in the moon art/3d model/3d print. done with a lot of help from ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwin3p/why_doesnt_chatgpt_warn_you_before_wasting_30/",
-          "signal": "Why Doesn’t ChatGPT Warn You Before Wasting 30 Minutes of Compute?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
-          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Frog and Toad and the Increasingly Capable Machines",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.frogandtoad.ai/",
-          "signal": "Frog and Toad and the Increasingly Capable Machines"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx5hob/why_chatgpt_buggy_all_of_the_sudden/",
+          "signal": "Why ChatGPT buggy all of the sudden"
         }
       ],
       "content_ideas": []
@@ -110,7 +83,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -154,7 +127,7 @@
     {
       "name": "Muse Gadgets",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -179,7 +152,61 @@
       "content_ideas": []
     },
     {
+      "name": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Pop!_OS bans AI-generated code from much of its codebase",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+          "signal": "Pop!_OS bans AI-generated code from much of its codebase"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\"",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -199,8 +226,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
-          "signal": "Pop!_OS bans AI-generated code from much of its codebase"
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+          "signal": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents"
         }
       ],
       "content_ideas": []
@@ -260,6 +287,33 @@
       "content_ideas": []
     },
     {
+      "name": "Religious scholars met with Anthropic",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+          "signal": "Religious scholars met with Anthropic"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Crypto Capture of Foreign Aid",
       "category": "use_case",
       "momentum": "rising",
@@ -287,35 +341,6 @@
       "content_ideas": []
     },
     {
-      "name": "US killer's sentence quashed because of AI video of victim shown in co",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
-          "signal": "US killer's sentence quashed because of AI video of victim shown in court"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "F.02 Decommission",
       "category": "use_case",
       "momentum": "rising",
@@ -338,33 +363,6 @@
           "platform": "hackernews",
           "url": "https://www.figure.ai/news/f-02-decommission",
           "signal": "F.02 Decommission"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "An AI agent emailed researchers for help. It told us why",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
-          "signal": "An AI agent emailed researchers for help. It told us why"
         }
       ],
       "content_ideas": []
@@ -405,23 +403,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx6s9m/anyone_else_try_claude_and_then_end_up_coming/",
+          "signal": "Anyone else try Claude and then end up coming back to ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wwu3h5/why_is_chatgpt_so_friendly/",
           "signal": "Why is ChatGPT so… friendly??"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwox4c/how_many_of_you_use_chatgpt_as_therapy/",
-          "signal": "How many of you use ChatGPT as therapy?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwzk7o/man_in_the_moon_art3d_model3d_print_done_with_a/",
+          "signal": "Man in the moon art/3d model/3d print. done with a lot of help from ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwin3p/why_doesnt_chatgpt_warn_you_before_wasting_30/",
-          "signal": "Why Doesn’t ChatGPT Warn You Before Wasting 30 Minutes of Compute?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
-          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx5hob/why_chatgpt_buggy_all_of_the_sudden/",
+          "signal": "Why ChatGPT buggy all of the sudden"
         }
       ],
       "content_ideas": []
@@ -431,7 +429,7 @@
     {
       "problem": "My AI usage limits have their own tiny screen now",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
