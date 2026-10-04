@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaURXeFVfa19CclJna1l3Z2w4VU9QOUU1R3p4cnZ1emtxQmRQY1lROURFQW9ITWUxanZKODBMejBFcXpHMVplR3lmMGU4VzZLYUQwWm41c3hNeDZsLWtsSl9ia1hmYkhoTjFWOWdvNmdUaUpYUUs2LUd0UUllTndfck16VkZBNlBMRjNWVlktejZ2WjY0dXBYbXdEZUxnV1E0NzlzSThHR0otbFBkTEtzVEdpRVh2N1djV0p6aFRLLUkxZTNFckt3cmZCbDY2d1BmaVBNSFV4aEFjWkl2TEU1MHItNTJHQ0FZMzhZSUhGcmRIbURka2xDRw?oc=5
 9. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQOUF5NFMzNHNURmY4ZlZ2T3QzWkN6M2FVTGp0U2JDX0JIdlFxaGFTRkZ5aUFIRjJONWh0TmJxellzd2FhYTh2a2c3aXMxNmFnMFFHVE9XQ2NVa2FtTi1NM0d1UVVXOEZGUEZUYlMxT0ZTZjRuWHFWYmxqM3dGRUhfNzQtNzE2amFtSk5lQ0ZQbUV2OTFXUlludmR4NXpoLWdwcmZVNzRZcE9hT0RjVXZj?oc=5
-10. **Anthropic and OpenAI sound the alarm on AI safety — and seek to shape how it’s controlled - MyNorthwest.com** — Sam Altman News — Score 53
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxQa0pBX0t2RXJvZ3dCRzNWTzhEMUVEaG5mcVNLQlVnR3l3My1vcUpxbGRxaG9yak40T290blRDWVRsVkoxUXpSNlpYNUw4c2MxQXVoZlEyU19HRVhncHdRZlpUODRja2pMLXJuY0txY2dZTGE2MzdHaFFGaDBSb1dseHhlNDU5bWprOWF5SFA2MjBIRWZmR3AtNnNEanJONDJKWWRZY3dKd3hybDEzazhvUmptbEVaTWZXRUM5Q0Q0ODhMbTJJWnc?oc=5
+10. **Troops develop AI-driven drone defense weapons | Defense News Weekly Full Episode 9.29.26 - Federal Times** — AI in Defense — Score 53
+   https://news.google.com/rss/articles/CBMizAFBVV95cUxNTGJxTEMzZ0ZHVzQxYnZDUzg3Vm1qQnFGNjBKb2lBM1lXR1N3Qk1KeG9BX2lFNTZRa2hNTkh2MEJQdFp4TTlOWHpsM1dUSjBCajZoSEhtVmdaR1BlVDl0Szh6UEhudjZkaU5hZFprSkxoc2RLRW1EUFVMeEdLX0pnYVdoU3FVa1FwQlR5VTNGRE1YRU1lQlVYY3IwaFJiR0NuTE1qT1QtRmwydi1BQmkxdkNsRWhHOXk2S1ZoNmVJSm0zSzdvclpSc29lel8?oc=5
 
 ## 🧪 AI in Science Highlights
 - **New AI Platform Could Help Cancer Survivors Get Personalized Support Between Doctor Visits - South Florida Hospital News** — https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUzM2Y2dlSjhkTlhVcHNRd0RIMzhfb1BSZ3h5SDFJdl9KbnJNSUkxN2o5bVQ3aFRudWwza1pjekltZS00MDFLNkd6Z0RhbDhqbTBPbGpUbXdGRC0yZkxDR1J1ejJxcDFacVpFcmlkekkwQzEzS2pHbjNzcFhKcE5iNEJJRVBmWFBGWlBTY0pEcjJRSV9fWmY0LXVJM0tZUTdDZjhhaUhBVW5oUmRMZ0pQcmNZTXREM0JRcDVWbmEtY1NfSUJwZ0F0aGkzSU03d2p6dDdqTHhn?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2895
+- Total stories tracked: 2871
 - Most active topic: openai
 - Busiest category: AI General News
 
