@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
 6. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-7. **3 strategies for responding to patients who use AI chatbots for medical advice - Medical Economics** — science angle
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxQS2pqVXJSY2ctR1RtaXB1SWFUSl8yZThPNmcxUzNhN1lVWDlsVVB2enJmdFpPYVViYVJqS3JMWm85OGJnbENoOHk0QTdGWVU1OENnbnExVTJBbTFTSGV4SEtWLVh5cmNoZGZ2Slg3Y1BQOWQ3VTltTC1UWWhKM1pvSDFWdEVjX0cxWGMzOVRvVUJTU0ZEWnV6bjVQaDcyYVl1WkYzb01PdXRCcHJvVW1kYlhqZVZ0ZU0?oc=5
-8. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
+7. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
    https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
+8. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 126
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **Was Anthropic’s Biology Breakthrough Borrowed From Another Scientist’s Work? - the-scientist.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
 - **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — https://www.sciencedaily.com/releases/2026/09/260930020309.htm
 - **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-- **3 strategies for responding to patients who use AI chatbots for medical advice - Medical Economics** — https://news.google.com/rss/articles/CBMitwFBVV95cUxQS2pqVXJSY2ctR1RtaXB1SWFUSl8yZThPNmcxUzNhN1lVWDlsVVB2enJmdFpPYVViYVJqS3JMWm85OGJnbENoOHk0QTdGWVU1OENnbnExVTJBbTFTSGV4SEtWLVh5cmNoZGZ2Slg3Y1BQOWQ3VTltTC1UWWhKM1pvSDFWdEVjX0cxWGMzOVRvVUJTU0ZEWnV6bjVQaDcyYVl1WkYzb01PdXRCcHJvVW1kYlhqZVZ0ZU0?oc=5
+- **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2833
+- Total stories tracked: 2895
 - Most active topic: openai
 - Busiest category: AI General News
 
