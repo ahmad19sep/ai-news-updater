@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T05:58:09.210011+00:00",
+  "generated_at": "2026-10-04T12:25:35.087801+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 26,
+      "reddit": 25,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,8 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
-          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxb7sm/guys_ask_chatgpt_to_pick_a_number_from_1_to_30/",
+          "signal": "Guys, ask ChatGPT to pick a number from 1 to 30."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxa52g/chatgpt_web_ui_got_a_major_upgrade/",
+          "signal": "ChatGPT web UI got a major upgrade"
         },
         {
           "platform": "reddit",
@@ -54,18 +59,40 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwu3h5/why_is_chatgpt_so_friendly/",
-          "signal": "Why is ChatGPT so… friendly??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx83lp/just_got_a_thumbs_up_from_chatgpt/",
+          "signal": "Just got a thumbs up from ChatGPT…"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwzk7o/man_in_the_moon_art3d_model3d_print_done_with_a/",
-          "signal": "Man in the moon art/3d model/3d print. done with a lot of help from ChatGPT"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
+          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\"",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx5hob/why_chatgpt_buggy_all_of_the_sudden/",
-          "signal": "Why ChatGPT buggy all of the sudden"
+          "platform": "hackernews",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+          "signal": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents"
         }
       ],
       "content_ideas": []
@@ -110,7 +137,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -147,6 +174,33 @@
           "platform": "hackernews",
           "url": "https://gadgets.muse.ai",
           "signal": "Muse Gadgets"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Religious scholars met with Anthropic",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+          "signal": "Religious scholars met with Anthropic"
         }
       ],
       "content_ideas": []
@@ -206,33 +260,6 @@
       "content_ideas": []
     },
     {
-      "name": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\"",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-          "signal": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: Made an open-source Lego AI generator",
       "category": "use_case",
       "momentum": "rising",
@@ -260,7 +287,7 @@
       "content_ideas": []
     },
     {
-      "name": "Our Project Suncatcher prototype satellite is in orbit",
+      "name": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own se",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -270,7 +297,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 4,
       "monetization": {
@@ -280,14 +307,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-          "signal": "Our Project Suncatcher prototype satellite is in orbit"
+          "url": "https://pipod.dev/",
+          "signal": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Religious scholars met with Anthropic",
+      "name": "Anthropic tried to persuade Pope that AI could be conscious being",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -307,8 +334,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "signal": "Religious scholars met with Anthropic"
+          "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+          "signal": "Anthropic tried to persuade Pope that AI could be conscious being"
         }
       ],
       "content_ideas": []
@@ -336,33 +363,6 @@
           "platform": "hackernews",
           "url": "https://www.nber.org/papers/w35655",
           "signal": "Crypto Capture of Foreign Aid"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "F.02 Decommission",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.figure.ai/news/f-02-decommission",
-          "signal": "F.02 Decommission"
         }
       ],
       "content_ideas": []
@@ -398,8 +398,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
-          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxb7sm/guys_ask_chatgpt_to_pick_a_number_from_1_to_30/",
+          "signal": "Guys, ask ChatGPT to pick a number from 1 to 30."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxa52g/chatgpt_web_ui_got_a_major_upgrade/",
+          "signal": "ChatGPT web UI got a major upgrade"
         },
         {
           "platform": "reddit",
@@ -408,18 +413,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwu3h5/why_is_chatgpt_so_friendly/",
-          "signal": "Why is ChatGPT so… friendly??"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx83lp/just_got_a_thumbs_up_from_chatgpt/",
+          "signal": "Just got a thumbs up from ChatGPT…"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwzk7o/man_in_the_moon_art3d_model3d_print_done_with_a/",
-          "signal": "Man in the moon art/3d model/3d print. done with a lot of help from ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx5hob/why_chatgpt_buggy_all_of_the_sudden/",
-          "signal": "Why ChatGPT buggy all of the sudden"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
+          "signal": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience"
         }
       ],
       "content_ideas": []
