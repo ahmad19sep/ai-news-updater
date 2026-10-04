@@ -13,12 +13,12 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
 3. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
    https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
-4. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
-   https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-5. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
+4. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
    https://www.sciencedaily.com/releases/2026/09/260930020309.htm
-6. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
+5. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
+6. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
+   https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
 7. **3 strategies for responding to patients who use AI chatbots for medical advice - Medical Economics** — science angle
    https://news.google.com/rss/articles/CBMitwFBVV95cUxQS2pqVXJSY2ctR1RtaXB1SWFUSl8yZThPNmcxUzNhN1lVWDlsVVB2enJmdFpPYVViYVJqS3JMWm85OGJnbENoOHk0QTdGWVU1OENnbnExVTJBbTFTSGV4SEtWLVh5cmNoZGZ2Slg3Y1BQOWQ3VTltTC1UWWhKM1pvSDFWdEVjX0cxWGMzOVRvVUJTU0ZEWnV6bjVQaDcyYVl1WkYzb01PdXRCcHJvVW1kYlhqZVZ0ZU0?oc=5
 8. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **3 strategies for responding to patients who use AI chatbots for medical advice - Medical Economics** — https://news.google.com/rss/articles/CBMitwFBVV95cUxQS2pqVXJSY2ctR1RtaXB1SWFUSl8yZThPNmcxUzNhN1lVWDlsVVB2enJmdFpPYVViYVJqS3JMWm85OGJnbENoOHk0QTdGWVU1OENnbnExVTJBbTFTSGV4SEtWLVh5cmNoZGZ2Slg3Y1BQOWQ3VTltTC1UWWhKM1pvSDFWdEVjX0cxWGMzOVRvVUJTU0ZEWnV6bjVQaDcyYVl1WkYzb01PdXRCcHJvVW1kYlhqZVZ0ZU0?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2835
+- Total stories tracked: 2833
 - Most active topic: openai
 - Busiest category: AI General News
 
