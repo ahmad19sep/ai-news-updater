@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUzM2Y2dlSjhkTlhVcHNRd0RIMzhfb1BSZ3h5SDFJdl9KbnJNSUkxN2o5bVQ3aFRudWwza1pjekltZS00MDFLNkd6Z0RhbDhqbTBPbGpUbXdGRC0yZkxDR1J1ejJxcDFacVpFcmlkekkwQzEzS2pHbjNzcFhKcE5iNEJJRVBmWFBGWlBTY0pEcjJRSV9fWmY0LXVJM0tZUTdDZjhhaUhBVW5oUmRMZ0pQcmNZTXREM0JRcDVWbmEtY1NfSUJwZ0F0aGkzSU03d2p6dDdqTHhn?oc=5
 2. **Was Anthropic’s Biology Breakthrough Borrowed From Another Scientist’s Work? - the-scientist.com** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
-3. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
-   https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
-4. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
+3. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
    https://www.sciencedaily.com/releases/2026/09/260930020309.htm
-5. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
+4. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
+5. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
+   https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
 6. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-7. **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — science angle
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
-8. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
+7. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
+8. **AI made me a better doctor. It may be making doctors-in-training worse - The Straits Times** — science angle
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3dIVEFwbjVpOVotTXBYLTVIeE5DWTNqNDF1SVRmVzlWNUZNaG9VYkpZVFRtY2w0dXZoc2h4SlFWUmRBR3g0WllCdmJUSUpwWVp6VnBHUklpUmwzWUNyR0lxZFU5c1J6eGZCcmZ4U2hfUzdmVG1xRWVsd2pxVS1ka20zRTdydTBCd1pGYzNENVU2RHozTzY2SE5GSWlKVjNfdWlyV1dIaXpPd1Ezbm91akx6LTBzVjA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 123
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **Was Anthropic’s Biology Breakthrough Borrowed From Another Scientist’s Work? - the-scientist.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
 - **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — https://www.sciencedaily.com/releases/2026/09/260930020309.htm
 - **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-- **AI made me a better doctor. It’s made medicine students worse - The Straits Times** — https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE1QampqeERTYzNQeHZUUVN0a0lCYkl5Q293c3BrYm5aZHdaOVR3cE5peFh2TXpoUm5PcjFFUXVSXzN5enFmZXQtZHVVa01TT0FON3JDQVhTZFQySkc1SmxwbW5iSzhrWWREc001dXVUaEdMSzdPWkZybjJFVE9hWEdaVUREYXlZRThTNjFHRlRneTM0MDFMSWJFSQ?oc=5
+- **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2840
+- Total stories tracked: 2847
 - Most active topic: openai
 - Busiest category: AI General News
 
