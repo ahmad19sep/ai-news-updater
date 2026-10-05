@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T05:45:50.522494+00:00",
+  "generated_at": "2026-10-05T14:46:07.649096+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
+      "reddit": 50,
       "hackernews": 18,
       "youtube": 106
     },
@@ -45,8 +45,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
-          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wy6b63/told_chatgpt_to_generate_a_camera_roll_of_a/",
+          "signal": "Told chatgpt to generate a camera roll of a random guy, and then put him in impossible scenarios in each image."
         },
         {
           "platform": "reddit",
@@ -55,18 +55,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
-          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wxy9rp/who_else_has_told_chatgpt_their_entire_life_story/",
           "signal": "Who else has told ChatGPT their entire life story?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxt17x/chatgpt_found_an_owl_in_my_garden/",
-          "signal": "ChatGPT found an owl in my garden"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
+          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
+          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
         }
       ],
       "content_ideas": []
@@ -194,7 +194,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -204,33 +204,6 @@
           "platform": "hackernews",
           "url": "https://github.com/allenv0/SCM",
           "signal": "Show HN: AI search for every photo and every frame of video on macOS"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Former SR-71 engineer talks NASA's Blackbird revival program",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.twz.com/air/former-sr-71-engineer-talks-nasas-blackbird-revival-program",
-          "signal": "Former SR-71 engineer talks NASA's Blackbird revival program"
         }
       ],
       "content_ideas": []
@@ -290,7 +263,7 @@
       "content_ideas": []
     },
     {
-      "name": "US killer's sentence quashed because of AI video of victim shown in co",
+      "name": "How to scale intent, quality, and artistry with AI [video]",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -312,14 +285,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
-          "signal": "US killer's sentence quashed because of AI video of victim shown in court"
+          "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+          "signal": "How to scale intent, quality, and artistry with AI [video]"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "An AI agent emailed researchers for help. It told us why",
+      "name": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -339,8 +312,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
-          "signal": "An AI agent emailed researchers for help. It told us why"
+          "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+          "signal": "Accept 'bad things' in return for benefits of AI, says Sam Altman"
         }
       ],
       "content_ideas": []
@@ -368,6 +341,35 @@
           "platform": "hackernews",
           "url": "https://www.astralcodexten.com/p/our-ai-midwife",
           "signal": "Our AI Midwife"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Homa: The end of TCP for AI clusters [video]",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+          "signal": "Homa: The end of TCP for AI clusters [video]"
         }
       ],
       "content_ideas": []
@@ -404,8 +406,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
-          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wy6b63/told_chatgpt_to_generate_a_camera_roll_of_a/",
+          "signal": "Told chatgpt to generate a camera roll of a random guy, and then put him in impossible scenarios in each image."
         },
         {
           "platform": "reddit",
@@ -414,18 +416,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
-          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wxy9rp/who_else_has_told_chatgpt_their_entire_life_story/",
           "signal": "Who else has told ChatGPT their entire life story?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxt17x/chatgpt_found_an_owl_in_my_garden/",
-          "signal": "ChatGPT found an owl in my garden"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
+          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
+          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
         }
       ],
       "content_ideas": []
@@ -433,25 +435,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Why is ChatGPT saying it can't generate an image due to an error on its side?",
+      "problem": "They rolled out this update and suddenly removed it, it was so good for studying.",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxxs2y/why_is_chatgpt_saying_it_cant_generate_an_image/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "now that dots works proactively they should create problem solving centers where you share you dot and they work in paralell by the thousand",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxud59/now_that_dots_works_proactively_they_should/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wya715/they_rolled_out_this_update_and_suddenly_removed/"
         }
       ],
       "content_opportunity": ""
