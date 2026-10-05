@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T21:30:54.597116+00:00",
+  "generated_at": "2026-10-05T05:45:50.522494+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -45,28 +45,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
-          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxa52g/chatgpt_web_ui_got_a_major_upgrade/",
-          "signal": "ChatGPT web UI got a major upgrade"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
           "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx6s9m/anyone_else_try_claude_and_then_end_up_coming/",
-          "signal": "Anyone else try Claude and then end up coming back to ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxv26s/i_asked_chatgpt_about_transporting_a_pigeon_loft/",
+          "signal": "I asked ChatGPT about transporting a pigeon loft. It detected a scam instead."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx83lp/just_got_a_thumbs_up_from_chatgpt/",
-          "signal": "Just got a thumbs up from ChatGPT…"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
+          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxy9rp/who_else_has_told_chatgpt_their_entire_life_story/",
+          "signal": "Who else has told ChatGPT their entire life story?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxt17x/chatgpt_found_an_owl_in_my_garden/",
+          "signal": "ChatGPT found an owl in my garden"
         }
       ],
       "content_ideas": []
@@ -126,39 +126,6 @@
       "content_ideas": []
     },
     {
-      "name": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxildp/openai_safety_leader_quits_warning_ai_companys/",
-          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Pop!_OS bans AI-generated code from much of its codebase",
       "category": "use_case",
       "momentum": "rising",
@@ -181,6 +148,33 @@
           "platform": "hackernews",
           "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
           "signal": "Pop!_OS bans AI-generated code from much of its codebase"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
         }
       ],
       "content_ideas": []
@@ -227,7 +221,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -364,7 +358,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -410,28 +404,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
-          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxa52g/chatgpt_web_ui_got_a_major_upgrade/",
-          "signal": "ChatGPT web UI got a major upgrade"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
           "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx6s9m/anyone_else_try_claude_and_then_end_up_coming/",
-          "signal": "Anyone else try Claude and then end up coming back to ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxv26s/i_asked_chatgpt_about_transporting_a_pigeon_loft/",
+          "signal": "I asked ChatGPT about transporting a pigeon loft. It detected a scam instead."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wx83lp/just_got_a_thumbs_up_from_chatgpt/",
-          "signal": "Just got a thumbs up from ChatGPT…"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
+          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxy9rp/who_else_has_told_chatgpt_their_entire_life_story/",
+          "signal": "Who else has told ChatGPT their entire life story?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxt17x/chatgpt_found_an_owl_in_my_garden/",
+          "signal": "ChatGPT found an owl in my garden"
         }
       ],
       "content_ideas": []
@@ -439,49 +433,25 @@
   ],
   "pain_points": [
     {
-      "problem": "My AI usage limits have their own tiny screen now",
+      "problem": "Why is ChatGPT saying it can't generate an image due to an error on its side?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wwxzn8/my_ai_usage_limits_have_their_own_tiny_screen_now/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxxs2y/why_is_chatgpt_saying_it_cant_generate_an_image/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "problem": "now that dots works proactively they should create problem solving centers where you share you dot and they work in paralell by the thousand",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxildp/openai_safety_leader_quits_warning_ai_companys/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Getting \"reached chat limit\" after only a few messages?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxm7bg/getting_reached_chat_limit_after_only_a_few/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "one single image generation is putting me at a rate limit. anyone found a solution? im so confused.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxf80k/one_single_image_generation_is_putting_me_at_a/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxud59/now_that_dots_works_proactively_they_should/"
         }
       ],
       "content_opportunity": ""
