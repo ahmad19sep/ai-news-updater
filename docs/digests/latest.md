@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
 6. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-7. **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — science angle
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
-8. **AI made me a better doctor. It may be making doctors-in-training worse - The Straits Times** — science angle
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3dIVEFwbjVpOVotTXBYLTVIeE5DWTNqNDF1SVRmVzlWNUZNaG9VYkpZVFRtY2w0dXZoc2h4SlFWUmRBR3g0WllCdmJUSUpwWVp6VnBHUklpUmwzWUNyR0lxZFU5c1J6eGZCcmZ4U2hfUzdmVG1xRWVsd2pxVS1ka20zRTdydTBCd1pGYzNENVU2RHozTzY2SE5GSWlKVjNfdWlyV1dIaXpPd1Ezbm91akx6LTBzVjA?oc=5
+7. **How Israeli Researchers Are Using AI to Transform Cancer Treatment and Diagnoses - Jewish Press of Tampa** — science angle
+   https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQnFLNU1JS1dTREt3eGpKQWNDcmRoNTY1NzBxVFI1OW5mWUVRZkpOaUxrZFkyemxKV3JiZDE3eUZHblRuVDhLazItYkdnRzNGMlVtZVQ2Q2ZyUHZLV3pIb0g2ZndrQ1l4dzRVcGRBd2JiV0ZaS1p1NkN2alhDLVE5YTVtZk8yRFNNbjFjeXFaSUR1TUlwSHlxUjRLWUZSY2VHU2RtaWFyVno4MXB6akItUllQVXprVXBMQUtzaTNLR0k?oc=5
+8. **Doctors faced an AI-use penalty after disclosing AI use to patients - News-Medical** — science angle
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxOaF91ZlRpYkItdnNVQ1lvQ2I4a3A4NHk0bzJqRy10STd2cUpZOHRuQjQ3VC14NVVyRVBkYXpnS2xJTWtoOXdtZkFLVUpvTXZOdm1ZaHUwR2x6NTBxRm1OdVZjSHF2c3kzRE5hdVpyVHppYnZubkM0TlhESGJHQllPcUpEV3FRMzNSMGs3ZVJrTjAzeGI5UGlXVVV4enUwUDNKRDRNQmNiM2ZyWndqckpQM0tRUi1RQQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 123
@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMipAFBVV95cUxObzI3bHNlZFRuSlpra3Y2bHdsTWtfdExVOF9VWjdteEcwbWRmSDBaNENoY3MtZ3J0REEzV3lneFFVQUU4SkxQTVV0azJYRnIzclU3WWgwRmZ6OTlXVV9qRVZIVUU0MzU3czA5eWtIX2N0UFdkX2xJd0hoT3BqNDF2d1FNVUxGZjhWYW13bXZSQjdjdkJlOENneDhBODVZdmYycy1LUtIBqgFBVV95cUxPaHpYeWU2U2FraEJ2V2dDRmtVMjRyazd3RmUybEthanQtSlJEWE1CZF9vTFlmNEJVbDBDVlI5OGtEV1V1U2pBOEUzSU5RdTZsRER5V1U5OU1laWMwXzJWeHo3dlMzRVM5X1otaktpYzRHUzFQRjRDalVkU0hSUHhtcWlIdTBPbFgxRkpycGsyMDViTVNFS0VjZVFyMHo4NTJNXzJzeWpJMWREUQ?oc=5
 3. **President Trump says top tech firms have signed accord to ‘self-police’ AI development - Chicago Tribune** — AI in Coding — Score 93
    https://news.google.com/rss/articles/CBMieEFVX3lxTE5GQ193cmlQdENPdlVObHVtVU9kRnVFa0x2RmJtTWdvQ2hfcGt0VEJhYldIODE3NVhGQWZ3NFliQjc5ZUVsWlFieUpLYllPRFdCSlFjQWs2dnNoOU1XWlVDNXV5TzlDVWhNMWI1ZThqMFVUTDJWTEgwOQ?oc=5
-4. **Deepfake nudes are flooding social media. Here's what's being done about it** — kenoshanews — Score 86
+4. **Deepfake nudes are flooding social media. Here's what's being done about it** — kenoshanews — Score 83
    https://kenoshanews.com/news/nation-world/article_103c4544-541e-5617-b1c6-3896b479c666.html
 5. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 77
    https://news.google.com/rss/articles/CBMihAFBVV95cUxORTU3cUVkZTNQZTZwblIwZ2JxYkZ0Zl9LbldfN012UzRkaUZfYmtodk1oX2NDa3pjc3A0YUREMzM3ZDV1T1A5eUFldFMwSTFJa296V3NadHBXUkhPS3ZILTJQQ0VMNGZDZGkwSkxjX29Nd2V5d1VxMG8xY2JyWlpQaUpmcXg?oc=5
@@ -43,18 +43,18 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaURXeFVfa19CclJna1l3Z2w4VU9QOUU1R3p4cnZ1emtxQmRQY1lROURFQW9ITWUxanZKODBMejBFcXpHMVplR3lmMGU4VzZLYUQwWm41c3hNeDZsLWtsSl9ia1hmYkhoTjFWOWdvNmdUaUpYUUs2LUd0UUllTndfck16VkZBNlBMRjNWVlktejZ2WjY0dXBYbXdEZUxnV1E0NzlzSThHR0otbFBkTEtzVEdpRVh2N1djV0p6aFRLLUkxZTNFckt3cmZCbDY2d1BmaVBNSFV4aEFjWkl2TEU1MHItNTJHQ0FZMzhZSUhGcmRIbURka2xDRw?oc=5
 9. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQOUF5NFMzNHNURmY4ZlZ2T3QzWkN6M2FVTGp0U2JDX0JIdlFxaGFTRkZ5aUFIRjJONWh0TmJxellzd2FhYTh2a2c3aXMxNmFnMFFHVE9XQ2NVa2FtTi1NM0d1UVVXOEZGUEZUYlMxT0ZTZjRuWHFWYmxqM3dGRUhfNzQtNzE2amFtSk5lQ0ZQbUV2OTFXUlludmR4NXpoLWdwcmZVNzRZcE9hT0RjVXZj?oc=5
-10. **Troops develop AI-driven drone defense weapons | Defense News Weekly Full Episode 9.29.26 - Federal Times** — AI in Defense — Score 53
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxNTGJxTEMzZ0ZHVzQxYnZDUzg3Vm1qQnFGNjBKb2lBM1lXR1N3Qk1KeG9BX2lFNTZRa2hNTkh2MEJQdFp4TTlOWHpsM1dUSjBCajZoSEhtVmdaR1BlVDl0Szh6UEhudjZkaU5hZFprSkxoc2RLRW1EUFVMeEdLX0pnYVdoU3FVa1FwQlR5VTNGRE1YRU1lQlVYY3IwaFJiR0NuTE1qT1QtRmwydi1BQmkxdkNsRWhHOXk2S1ZoNmVJSm0zSzdvclpSc29lel8?oc=5
+10. **ElevenLabs' valuation doubles to $22 billion on surging AI voice-agent demand - Reuters** — ElevenLabs News — Score 47
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxQREpaN0ZnTVIwWHpBYjlfaHJ5c1NCMFU0VlpvRElfbVM4bnlvNTRpQmxQd29faml4cjJQWlRuTVJKdFBQSWp4Vnd0YXZnQ0NxTGVkcjhJcU9wc01Xbno5RWpkV3pUaHJCSk51OW01UV9YcTdJYTY5Z083ajV5Wk14MUt2Y2xqTjlUOVhzaEk1MkNnYnVPLXBLU0c4MVR0UEk1SmRVQjJSWFdoX0JLeVdScTAzRWt0T1JoT2hSWmtWZV9WdE0?oc=5
 
 ## 🧪 AI in Science Highlights
 - **New AI Platform Could Help Cancer Survivors Get Personalized Support Between Doctor Visits - South Florida Hospital News** — https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUzM2Y2dlSjhkTlhVcHNRd0RIMzhfb1BSZ3h5SDFJdl9KbnJNSUkxN2o5bVQ3aFRudWwza1pjekltZS00MDFLNkd6Z0RhbDhqbTBPbGpUbXdGRC0yZkxDR1J1ejJxcDFacVpFcmlkekkwQzEzS2pHbjNzcFhKcE5iNEJJRVBmWFBGWlBTY0pEcjJRSV9fWmY0LXVJM0tZUTdDZjhhaUhBVW5oUmRMZ0pQcmNZTXREM0JRcDVWbmEtY1NfSUJwZ0F0aGkzSU03d2p6dDdqTHhn?oc=5
 - **Was Anthropic’s Biology Breakthrough Borrowed From Another Scientist’s Work? - the-scientist.com** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGNVRW1BbzAzR1RQdm1nWTdDb1pvNUc1bVlLWjI0TmIxRDlrcVJQM0FRbjdmVjZ6S2E1aTl4QnlEeG5DdVJYU1daRWM4VWc4WnZ5TVBBeDRvay01OWpMaWpIRkNhMDc4RzJldWc0N1E0dHFtYlBSYW5DTzFZck9MVmp4dVNZLXZzM095NFBKQThIU2hTeHBnR3BaZDVaSE9CbktNNGk5TjBiaDZSWW8yaQ?oc=5
 - **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — https://www.sciencedaily.com/releases/2026/09/260930020309.htm
 - **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-- **Doctors weigh in on AI's growing role in N.B. health system - Telegraph-Journal** — https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlBmZ2ptTG5NZldiUFF5d3JrcmE3VXZfcnJWY0tFN3JUZnFYckdoRDNmT0pRX1RwdGpjNjhISTFqVy10SHA1RTdYNGdfZnNra3BVS09XUndkLTJMaGNMMTZ0QVd6bUVyY2VjcWpQVGU3dHdkc19FblgxUmNYUUdFNGRMZWMyQnZWTzhCYnFYbGM?oc=5
+- **How Israeli Researchers Are Using AI to Transform Cancer Treatment and Diagnoses - Jewish Press of Tampa** — https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQnFLNU1JS1dTREt3eGpKQWNDcmRoNTY1NzBxVFI1OW5mWUVRZkpOaUxrZFkyemxKV3JiZDE3eUZHblRuVDhLazItYkdnRzNGMlVtZVQ2Q2ZyUHZLV3pIb0g2ZndrQ1l4dzRVcGRBd2JiV0ZaS1p1NkN2alhDLVE5YTVtZk8yRFNNbjFjeXFaSUR1TUlwSHlxUjRLWUZSY2VHU2RtaWFyVno4MXB6akItUllQVXprVXBMQUtzaTNLR0k?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2847
+- Total stories tracked: 2792
 - Most active topic: openai
 - Busiest category: AI General News
 
