@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://kenoshanews.com/news/nation-world/article_103c4544-541e-5617-b1c6-3896b479c666.html
 5. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 77
    https://news.google.com/rss/articles/CBMihAFBVV95cUxORTU3cUVkZTNQZTZwblIwZ2JxYkZ0Zl9LbldfN012UzRkaUZfYmtodk1oX2NDa3pjc3A0YUREMzM3ZDV1T1A5eUFldFMwSTFJa296V3NadHBXUkhPS3ZILTJQQ0VMNGZDZGkwSkxjX29Nd2V5d1VxMG8xY2JyWlpQaUpmcXg?oc=5
-6. **GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price** — Hacker News AI — Score 65.5
+6. **Trump names national intelligence director Jay Clayton to lead a new federal AI task force** — timesherald — Score 66
+   https://www.timesherald.com/2026/10/05/jay-clayton-federal-ai-task-force/
+7. **GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price** — Hacker News AI — Score 65.5
    https://openai.com/index/introducing-gpt-6-1-sol/
-7. **Sam Altman unveils "dots," OpenAI's new AI personal agent - CBS News** — Sam Altman News — Score 58
+8. **Sam Altman unveils "dots," OpenAI's new AI personal agent - CBS News** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMif0FVX3lxTE9tRjZqS3R6VW1rR1UtMU9raVlfRnR0OFNZV1dGSWhIVDZYelFabjdjWTl3cmxMcEprRDQ0bDQzb2dxQUEzWk9GMS0wNU9SdG8yczRnTzh2WUxNWDdJVkFEaGZBcTZyMVJiOFpZQkFwTlVTY00tancyb25NWlpWc3M?oc=5
-8. **Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns - Star Beacon** — Sam Altman News — Score 58
+9. **Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns - Star Beacon** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaURXeFVfa19CclJna1l3Z2w4VU9QOUU1R3p4cnZ1emtxQmRQY1lROURFQW9ITWUxanZKODBMejBFcXpHMVplR3lmMGU4VzZLYUQwWm41c3hNeDZsLWtsSl9ia1hmYkhoTjFWOWdvNmdUaUpYUUs2LUd0UUllTndfck16VkZBNlBMRjNWVlktejZ2WjY0dXBYbXdEZUxnV1E0NzlzSThHR0otbFBkTEtzVEdpRVh2N1djV0p6aFRLLUkxZTNFckt3cmZCbDY2d1BmaVBNSFV4aEFjWkl2TEU1MHItNTJHQ0FZMzhZSUhGcmRIbURka2xDRw?oc=5
-9. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
+10. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQOUF5NFMzNHNURmY4ZlZ2T3QzWkN6M2FVTGp0U2JDX0JIdlFxaGFTRkZ5aUFIRjJONWh0TmJxellzd2FhYTh2a2c3aXMxNmFnMFFHVE9XQ2NVa2FtTi1NM0d1UVVXOEZGUEZUYlMxT0ZTZjRuWHFWYmxqM3dGRUhfNzQtNzE2amFtSk5lQ0ZQbUV2OTFXUlludmR4NXpoLWdwcmZVNzRZcE9hT0RjVXZj?oc=5
-10. **ElevenLabs' valuation doubles to $22 billion on surging AI voice-agent demand - Reuters** — ElevenLabs News — Score 47
-   https://news.google.com/rss/articles/CBMiwwFBVV95cUxQREpaN0ZnTVIwWHpBYjlfaHJ5c1NCMFU0VlpvRElfbVM4bnlvNTRpQmxQd29faml4cjJQWlRuTVJKdFBQSWp4Vnd0YXZnQ0NxTGVkcjhJcU9wc01Xbno5RWpkV3pUaHJCSk51OW01UV9YcTdJYTY5Z083ajV5Wk14MUt2Y2xqTjlUOVhzaEk1MkNnYnVPLXBLU0c4MVR0UEk1SmRVQjJSWFdoX0JLeVdScTAzRWt0T1JoT2hSWmtWZV9WdE0?oc=5
 
 ## 🧪 AI in Science Highlights
 - **New AI Platform Could Help Cancer Survivors Get Personalized Support Between Doctor Visits - South Florida Hospital News** — https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUzM2Y2dlSjhkTlhVcHNRd0RIMzhfb1BSZ3h5SDFJdl9KbnJNSUkxN2o5bVQ3aFRudWwza1pjekltZS00MDFLNkd6Z0RhbDhqbTBPbGpUbXdGRC0yZkxDR1J1ejJxcDFacVpFcmlkekkwQzEzS2pHbjNzcFhKcE5iNEJJRVBmWFBGWlBTY0pEcjJRSV9fWmY0LXVJM0tZUTdDZjhhaUhBVW5oUmRMZ0pQcmNZTXREM0JRcDVWbmEtY1NfSUJwZ0F0aGkzSU03d2p6dDdqTHhn?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **How Israeli Researchers Are Using AI to Transform Cancer Treatment and Diagnoses - Jewish Press of Tampa** — https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQnFLNU1JS1dTREt3eGpKQWNDcmRoNTY1NzBxVFI1OW5mWUVRZkpOaUxrZFkyemxKV3JiZDE3eUZHblRuVDhLazItYkdnRzNGMlVtZVQ2Q2ZyUHZLV3pIb0g2ZndrQ1l4dzRVcGRBd2JiV0ZaS1p1NkN2alhDLVE5YTVtZk8yRFNNbjFjeXFaSUR1TUlwSHlxUjRLWUZSY2VHU2RtaWFyVno4MXB6akItUllQVXprVXBMQUtzaTNLR0k?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2792
+- Total stories tracked: 2757
 - Most active topic: openai
 - Busiest category: AI General News
 
