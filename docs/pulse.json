@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:05:39.659989+00:00",
+  "generated_at": "2026-10-06T06:25:30.469255+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 22,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -60,40 +60,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxv26s/i_asked_chatgpt_about_transporting_a_pigeon_loft/",
-          "signal": "I asked ChatGPT about transporting a pigeon loft. It detected a scam instead."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wyshkm/what_is_the_difference_from_reading_a_book_on_how/",
+          "signal": "what is the difference from reading a book on how to do something and asking chatgpt how to do it if they both give basically the same advice?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wycsqe/why_i_love_chatgpt/",
-          "signal": "Why I love ChatGPT"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Religious scholars met with Anthropic",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "signal": "Religious scholars met with Anthropic"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wymu43/i_read_openais_whole_post_about_watermarking/",
+          "signal": "I read OpenAI's whole post about watermarking ChatGPT text. Here is what it says and what it leaves out"
         }
       ],
       "content_ideas": []
@@ -111,7 +84,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -138,7 +111,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -148,6 +121,33 @@
           "platform": "hackernews",
           "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
           "signal": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Questions for believers in AI consciousness",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+          "signal": "Questions for believers in AI consciousness"
         }
       ],
       "content_ideas": []
@@ -177,33 +177,6 @@
           "platform": "hackernews",
           "url": "https://github.com/allenv0/SCM",
           "signal": "Show HN: AI search for every photo and every frame of video on macOS"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Questions for believers in AI consciousness",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
-          "signal": "Questions for believers in AI consciousness"
         }
       ],
       "content_ideas": []
@@ -374,6 +347,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "What's the future for pure math research in the age of AI?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+          "signal": "What's the future for pure math research in the age of AI?"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -422,31 +422,19 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxv26s/i_asked_chatgpt_about_transporting_a_pigeon_loft/",
-          "signal": "I asked ChatGPT about transporting a pigeon loft. It detected a scam instead."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wyshkm/what_is_the_difference_from_reading_a_book_on_how/",
+          "signal": "what is the difference from reading a book on how to do something and asking chatgpt how to do it if they both give basically the same advice?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wycsqe/why_i_love_chatgpt/",
-          "signal": "Why I love ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wymu43/i_read_openais_whole_post_about_watermarking/",
+          "signal": "I read OpenAI's whole post about watermarking ChatGPT text. Here is what it says and what it leaves out"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
-    {
-      "problem": "They rolled out this update and suddenly removed it, it was so good for studying.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wya715/they_rolled_out_this_update_and_suddenly_removed/"
-        }
-      ],
-      "content_opportunity": ""
-    },
     {
       "problem": "Some users getting banned be like:",
       "who_affected": "r/ChatGPT",
@@ -460,13 +448,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "The conversation limits are getting fucking ridiculous",
+      "problem": "They rolled out this update and suddenly removed it, it was so good for studying.",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wymlzy/the_conversation_limits_are_getting_fucking/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wya715/they_rolled_out_this_update_and_suddenly_removed/"
         }
       ],
       "content_opportunity": ""
