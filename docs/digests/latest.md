@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 28 Sep 2026 to 05 Oct 2026
+# 🗞️ AI THIS WEEK — 29 Sep 2026 to 06 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **How Israeli Researchers Are Using AI to Transform Cancer Treatment and Diagnoses - Jewish Press of Tampa** — https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQnFLNU1JS1dTREt3eGpKQWNDcmRoNTY1NzBxVFI1OW5mWUVRZkpOaUxrZFkyemxKV3JiZDE3eUZHblRuVDhLazItYkdnRzNGMlVtZVQ2Q2ZyUHZLV3pIb0g2ZndrQ1l4dzRVcGRBd2JiV0ZaS1p1NkN2alhDLVE5YTVtZk8yRFNNbjFjeXFaSUR1TUlwSHlxUjRLWUZSY2VHU2RtaWFyVno4MXB6akItUllQVXprVXBMQUtzaTNLR0k?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2757
+- Total stories tracked: 2710
 - Most active topic: openai
 - Busiest category: AI General News
 
