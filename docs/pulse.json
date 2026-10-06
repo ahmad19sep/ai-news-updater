@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:46:07.649096+00:00",
+  "generated_at": "2026-10-06T00:05:39.659989+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 18,
+      "reddit": 25,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -21,15 +21,15 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -39,9 +39,19 @@
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
+          "signal": "People are asking ChatGPT to help them decide how to vote in the midterms"
+        },
+        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wycig7/openai_explains_how_it_will_watermark_chatgpt/",
+          "signal": "OpenAI explains how it will watermark ChatGPT text to comply with EU provenance rules"
         },
         {
           "platform": "reddit",
@@ -55,45 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxy9rp/who_else_has_told_chatgpt_their_entire_life_story/",
-          "signal": "Who else has told ChatGPT their entire life story?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
-          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
-          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\"",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-          "signal": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wycsqe/why_i_love_chatgpt/",
+          "signal": "Why I love ChatGPT"
         }
       ],
       "content_ideas": []
@@ -126,7 +99,34 @@
       "content_ideas": []
     },
     {
-      "name": "Pop!_OS bans AI-generated code from much of its codebase",
+      "name": "Beam: Reflection's 501B open-weight model",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://reflection.ai/blog/introducing-beam",
+          "signal": "Beam: Reflection's 501B open-weight model"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Opus 5.5 agents discover two room-temperature magnetic semiconductor c",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -146,35 +146,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
-          "signal": "Pop!_OS bans AI-generated code from much of its codebase"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-          "signal": "OpenAI safety leader quits, warning AI company's culture is 'broken'"
+          "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+          "signal": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates"
         }
       ],
       "content_ideas": []
@@ -209,7 +182,34 @@
       "content_ideas": []
     },
     {
-      "name": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "name": "Questions for believers in AI consciousness",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+          "signal": "Questions for believers in AI consciousness"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -229,8 +229,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
-          "signal": "Anthropic tried to persuade Pope that AI could be conscious being"
+          "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+          "signal": "Accept 'bad things' in return for benefits of AI, says Sam Altman"
         }
       ],
       "content_ideas": []
@@ -292,11 +292,12 @@
       "content_ideas": []
     },
     {
-      "name": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
+      "name": "Spending on AI is becoming almost impossible for businesses to budget",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -312,35 +313,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
-          "signal": "Accept 'bad things' in return for benefits of AI, says Sam Altman"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Our AI Midwife",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.astralcodexten.com/p/our-ai-midwife",
-          "signal": "Our AI Midwife"
+          "url": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+          "signal": "Spending on AI is becoming almost impossible for businesses to budget"
         }
       ],
       "content_ideas": []
@@ -373,6 +347,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Florida woman arrested for allegedly making threats in an AI chat",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat",
+          "signal": "Florida woman arrested for allegedly making threats in an AI chat"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -382,15 +383,15 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -400,9 +401,19 @@
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
+          "signal": "People are asking ChatGPT to help them decide how to vote in the midterms"
+        },
+        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wycig7/openai_explains_how_it_will_watermark_chatgpt/",
+          "signal": "OpenAI explains how it will watermark ChatGPT text to comply with EU provenance rules"
         },
         {
           "platform": "reddit",
@@ -416,18 +427,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxy9rp/who_else_has_told_chatgpt_their_entire_life_story/",
-          "signal": "Who else has told ChatGPT their entire life story?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxqaf0/so_i_installed_chatgpt_on_carplay_in_my_car_works/",
-          "signal": "so I installed ChatGPT on CarPlay in my car.... works great... too great... because it remained silent and listened to EVERYTHING my friend and I said during the 2-hour drive."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wxinee/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
-          "signal": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wycsqe/why_i_love_chatgpt/",
+          "signal": "Why I love ChatGPT"
         }
       ],
       "content_ideas": []
@@ -442,6 +443,30 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wya715/they_rolled_out_this_update_and_suddenly_removed/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Some users getting banned be like:",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wykqw5/some_users_getting_banned_be_like/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "The conversation limits are getting fucking ridiculous",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wymlzy/the_conversation_limits_are_getting_fucking/"
         }
       ],
       "content_opportunity": ""
