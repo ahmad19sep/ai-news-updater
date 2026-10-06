@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
 7. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-8. **How Israeli Researchers Are Using AI to Transform Cancer Treatment and Diagnoses - Jewish Press of Tampa** — science angle
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQnFLNU1JS1dTREt3eGpKQWNDcmRoNTY1NzBxVFI1OW5mWUVRZkpOaUxrZFkyemxKV3JiZDE3eUZHblRuVDhLazItYkdnRzNGMlVtZVQ2Q2ZyUHZLV3pIb0g2ZndrQ1l4dzRVcGRBd2JiV0ZaS1p1NkN2alhDLVE5YTVtZk8yRFNNbjFjeXFaSUR1TUlwSHlxUjRLWUZSY2VHU2RtaWFyVno4MXB6akItUllQVXprVXBMQUtzaTNLR0k?oc=5
+8. **Utah to let AI examine patients and prescribe medication without human oversight** — 10 upvotes on Reddit/HN
+   https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 123
@@ -37,14 +37,14 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://www.timesherald.com/2026/10/05/jay-clayton-federal-ai-task-force/
 6. **GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price** — Hacker News AI — Score 65.5
    https://openai.com/index/introducing-gpt-6-1-sol/
-7. **Sam Altman unveils "dots," OpenAI's new AI personal agent - CBS News** — Sam Altman News — Score 58
+7. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 60
+   https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
+8. **Sam Altman unveils "dots," OpenAI's new AI personal agent - CBS News** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMif0FVX3lxTE9tRjZqS3R6VW1rR1UtMU9raVlfRnR0OFNZV1dGSWhIVDZYelFabjdjWTl3cmxMcEprRDQ0bDQzb2dxQUEzWk9GMS0wNU9SdG8yczRnTzh2WUxNWDdJVkFEaGZBcTZyMVJiOFpZQkFwTlVTY00tancyb25NWlpWc3M?oc=5
-8. **Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns - Star Beacon** — Sam Altman News — Score 58
+9. **Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns - Star Beacon** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaURXeFVfa19CclJna1l3Z2w4VU9QOUU1R3p4cnZ1emtxQmRQY1lROURFQW9ITWUxanZKODBMejBFcXpHMVplR3lmMGU4VzZLYUQwWm41c3hNeDZsLWtsSl9ia1hmYkhoTjFWOWdvNmdUaUpYUUs2LUd0UUllTndfck16VkZBNlBMRjNWVlktejZ2WjY0dXBYbXdEZUxnV1E0NzlzSThHR0otbFBkTEtzVEdpRVh2N1djV0p6aFRLLUkxZTNFckt3cmZCbDY2d1BmaVBNSFV4aEFjWkl2TEU1MHItNTJHQ0FZMzhZSUhGcmRIbURka2xDRw?oc=5
-9. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
+10. **At UN, developing nations call for bigger say in shaping AI future - Reuters** — Sam Altman News — Score 57
    https://news.google.com/rss/articles/CBMirwFBVV95cUxQOUF5NFMzNHNURmY4ZlZ2T3QzWkN6M2FVTGp0U2JDX0JIdlFxaGFTRkZ5aUFIRjJONWh0TmJxellzd2FhYTh2a2c3aXMxNmFnMFFHVE9XQ2NVa2FtTi1NM0d1UVVXOEZGUEZUYlMxT0ZTZjRuWHFWYmxqM3dGRUhfNzQtNzE2amFtSk5lQ0ZQbUV2OTFXUlludmR4NXpoLWdwcmZVNzRZcE9hT0RjVXZj?oc=5
-10. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 56
-   https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3RKZmI4YXM4ZTdkODBKVFpYcDA5N0F0QVZPdFpWa3ZIakNVMXh5SUVpYWV6MmZ2di1IOGNsbndVZ2dCc0daN3diNnlZZTVRTnM0SmdKOHRuSW5QV01XaW1XeVR3VGlPRWs2MHZ3OENDa2diRnc5WlNKdmF0V2s0VWRLSzVCRy11TDdjUy05N0JORlRTTUhUY1JlekE0clhCOWVNNE9VV0FKTTVyUkgzVHBuQVBsUVNLcVJpOV92eEFBdUJqMi1iRjllUnRMRXc5Wm5oRVl0Y2w?oc=5
 
 ## 🧪 AI in Science Highlights
 - **New AI Platform Could Help Cancer Survivors Get Personalized Support Between Doctor Visits - South Florida Hospital News** — https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUzM2Y2dlSjhkTlhVcHNRd0RIMzhfb1BSZ3h5SDFJdl9KbnJNSUkxN2o5bVQ3aFRudWwza1pjekltZS00MDFLNkd6Z0RhbDhqbTBPbGpUbXdGRC0yZkxDR1J1ejJxcDFacVpFcmlkekkwQzEzS2pHbjNzcFhKcE5iNEJJRVBmWFBGWlBTY0pEcjJRSV9fWmY0LXVJM0tZUTdDZjhhaUhBVW5oUmRMZ0pQcmNZTXREM0JRcDVWbmEtY1NfSUJwZ0F0aGkzSU03d2p6dDdqTHhn?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2730
+- Total stories tracked: 2773
 - Most active topic: openai
 - Busiest category: AI General News
 
