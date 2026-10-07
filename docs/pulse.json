@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:04:27.577059+00:00",
+  "generated_at": "2026-10-07T13:29:05.755249+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,9 +8,9 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 30,
-      "youtube": 105
+      "reddit": 50,
+      "hackernews": 31,
+      "youtube": 106
     },
     "llm_provider": null
   },
@@ -48,62 +48,6 @@
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
-          "signal": "People are asking ChatGPT to help them decide how to vote in the midterms"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wz3p2f/court_cases_won_without_solicitor_just_chatgpt/",
-          "signal": "Court cases won without solicitor, just ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzagxj/the_new_chatgpt_is_driving_me_nuts/",
-          "signal": "The new ChatGPT is driving me nuts."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzktfg/error_in_the_chatgpt_windows_desktop_app/",
-          "signal": "Error in the ChatGPT Windows Desktop App"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wyvouj/what_the_hell_happened_to_chatgpt/",
-          "signal": "What the hell happened to ChatGPT?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Sharing AI progress in mathematics",
       "category": "use_case",
       "momentum": "rising",
@@ -126,6 +70,63 @@
           "platform": "hackernews",
           "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
           "signal": "Sharing AI progress in mathematics"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
+          "signal": "People are asking ChatGPT to help them decide how to vote in the midterms"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzu7sq/annoying_popup_in_chatgpt_business/",
+          "signal": "Annoying popup in ChatGPT Business"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzwfwm/i_broke_chatgpt_how_many_gallons_of_water_is_it/",
+          "signal": "I broke ChatGPT (How many gallons of water is it using)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzoojd/chatgpt_getting_dumber_recently/",
+          "signal": "ChatGPT getting dumber recently"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzr1o8/has_anyone_here_actually_tried_chatgpt_ads/",
+          "signal": "Has anyone here actually tried ChatGPT ads?"
         }
       ],
       "content_ideas": []
@@ -212,6 +213,33 @@
       "content_ideas": []
     },
     {
+      "name": "Tell HN: GitHub refuses to remove cracked copies of my software after ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49982498",
+          "signal": "Tell HN: GitHub refuses to remove cracked copies of my software after a month"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
       "category": "use_case",
       "momentum": "rising",
@@ -224,7 +252,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -234,6 +262,33 @@
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
           "signal": "EmbeddingGemma 2: An open, lightweight multimodal embedding model"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://penguin-mail.com/",
+          "signal": "Penguin Mail – open-source Rust email client for Linux with AI"
         }
       ],
       "content_ideas": []
@@ -293,7 +348,7 @@
       "content_ideas": []
     },
     {
-      "name": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "name": "Erdosproblems.com Succumbs to the AI Onslaught",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -305,7 +360,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -313,62 +368,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://penguin-mail.com/",
-          "signal": "Penguin Mail – open-source Rust email client for Linux with AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Tell HN: GitHub refuses to remove cracked copies of my software after ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49982498",
-          "signal": "Tell HN: GitHub refuses to remove cracked copies of my software after a month"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
-          "signal": "Accept 'bad things' in return for benefits of AI, says Sam Altman"
+          "url": "https://www.erdosproblems.com/forum/thread/blog:9",
+          "signal": "Erdosproblems.com Succumbs to the AI Onslaught"
         }
       ],
       "content_ideas": []
@@ -415,15 +416,16 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -442,23 +444,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wz3p2f/court_cases_won_without_solicitor_just_chatgpt/",
-          "signal": "Court cases won without solicitor, just ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzu7sq/annoying_popup_in_chatgpt_business/",
+          "signal": "Annoying popup in ChatGPT Business"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzagxj/the_new_chatgpt_is_driving_me_nuts/",
-          "signal": "The new ChatGPT is driving me nuts."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzwfwm/i_broke_chatgpt_how_many_gallons_of_water_is_it/",
+          "signal": "I broke ChatGPT (How many gallons of water is it using)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzktfg/error_in_the_chatgpt_windows_desktop_app/",
-          "signal": "Error in the ChatGPT Windows Desktop App"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzoojd/chatgpt_getting_dumber_recently/",
+          "signal": "ChatGPT getting dumber recently"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wyvouj/what_the_hell_happened_to_chatgpt/",
-          "signal": "What the hell happened to ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzr1o8/has_anyone_here_actually_tried_chatgpt_ads/",
+          "signal": "Has anyone here actually tried ChatGPT ads?"
         }
       ],
       "content_ideas": []
@@ -466,13 +468,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Error in the ChatGPT Windows Desktop App",
+      "problem": "Anyone having problem sending message on windows desktop chatgpt work mode?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzktfg/error_in_the_chatgpt_windows_desktop_app/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wztco0/anyone_having_problem_sending_message_on_windows/"
         }
       ],
       "content_opportunity": ""
