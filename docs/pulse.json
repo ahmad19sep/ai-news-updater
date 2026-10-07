@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:29:05.755249+00:00",
+  "generated_at": "2026-10-07T23:07:39.157511+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 31,
+      "reddit": 25,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -89,7 +89,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 10,
@@ -100,8 +100,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
-          "signal": "People are asking ChatGPT to help them decide how to vote in the midterms"
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+          "signal": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth"
         },
         {
           "platform": "reddit",
@@ -110,104 +110,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzu7sq/annoying_popup_in_chatgpt_business/",
-          "signal": "Annoying popup in ChatGPT Business"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x05fj7/gpt6_and_intelligent_ui_now_rolling_out_in/",
+          "signal": "GPT-6 and Intelligent UI, now rolling out in ChatGPT for plus/pro/business /Enterprise today and to everyone tomorrow"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzwfwm/i_broke_chatgpt_how_many_gallons_of_water_is_it/",
-          "signal": "I broke ChatGPT (How many gallons of water is it using)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x00g5y/chatgpt_bullying_me_suddenly/",
+          "signal": "ChatGPT bullying me suddenly"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzoojd/chatgpt_getting_dumber_recently/",
-          "signal": "ChatGPT getting dumber recently"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
+          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzr1o8/has_anyone_here_actually_tried_chatgpt_ads/",
-          "signal": "Has anyone here actually tried ChatGPT ads?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Opus 5.5 agents discover two room-temperature magnetic semiconductor c",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-          "signal": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Beam: Reflection's 501B open-weight model",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://reflection.ai/blog/introducing-beam",
-          "signal": "Beam: Reflection's 501B open-weight model"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenTPU – An open-source AI accelerator, developed by AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/FeSens/openTPU",
-          "signal": "OpenTPU – An open-source AI accelerator, developed by AI"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
+          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
         }
       ],
       "content_ideas": []
@@ -240,6 +159,66 @@
       "content_ideas": []
     },
     {
+      "name": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/FeSens/openTPU",
+          "signal": "OpenTPU – An open-source AI accelerator, developed by AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+          "signal": "Meta and Microsoft take steps to reduce employee usage of Claude AI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzx0k4/claude_explains_everything/",
+          "signal": "Claude Explains Everything"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
       "category": "use_case",
       "momentum": "rising",
@@ -252,7 +231,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -279,7 +258,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -294,7 +273,7 @@
       "content_ideas": []
     },
     {
-      "name": "Questions for believers in AI consciousness",
+      "name": "Google Playground: Create and play custom games",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -314,8 +293,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
-          "signal": "Questions for believers in AI consciousness"
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "signal": "Google Playground: Create and play custom games"
         }
       ],
       "content_ideas": []
@@ -373,6 +352,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "AI-assisted proof of optimal packing for 11 squares",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+          "signal": "AI-assisted proof of optimal packing for 11 squares"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -409,6 +415,39 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+          "signal": "Meta and Microsoft take steps to reduce employee usage of Claude AI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzx0k4/claude_explains_everything/",
+          "signal": "Claude Explains Everything"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
@@ -423,7 +462,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
       "video_worthy": 10,
@@ -434,8 +473,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
-          "signal": "People are asking ChatGPT to help them decide how to vote in the midterms"
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+          "signal": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth"
         },
         {
           "platform": "reddit",
@@ -444,41 +483,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzu7sq/annoying_popup_in_chatgpt_business/",
-          "signal": "Annoying popup in ChatGPT Business"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x05fj7/gpt6_and_intelligent_ui_now_rolling_out_in/",
+          "signal": "GPT-6 and Intelligent UI, now rolling out in ChatGPT for plus/pro/business /Enterprise today and to everyone tomorrow"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzwfwm/i_broke_chatgpt_how_many_gallons_of_water_is_it/",
-          "signal": "I broke ChatGPT (How many gallons of water is it using)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x00g5y/chatgpt_bullying_me_suddenly/",
+          "signal": "ChatGPT bullying me suddenly"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzoojd/chatgpt_getting_dumber_recently/",
-          "signal": "ChatGPT getting dumber recently"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
+          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzr1o8/has_anyone_here_actually_tried_chatgpt_ads/",
-          "signal": "Has anyone here actually tried ChatGPT ads?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
+          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Anyone having problem sending message on windows desktop chatgpt work mode?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wztco0/anyone_having_problem_sending_message_on_windows/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Mistral — strongest signal this cycle"
 }
