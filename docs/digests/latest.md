@@ -7,22 +7,22 @@ Best source link: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3O
 All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2enVINFN2ZWpCRUYtRVpGOFczcm9NMkVudnlZOTlKdHdVTUpHTUN2aGRhMjIyWklJcFRDSFZrZkNfQUNseXp1ODBqN1UxeEJkbWNvQnFBYW5vSnltTjNxcmtGOEszXzBxNlZGYmlPN1haTkMtOENYVldWUHd1M0ctSGtJU2o5X2tzNTFNaFdRcGtLRdIBoAFBVV95cUxQa0lhZmVzTE9DcS1rY1JaSEdBR1lZSGJQZ0hVTENVRmp3RlEwRTdWTGliNlRXcTEwYWdLSm5zMWN5OUpVM19HV1ljbVlhOFQxZVhlXzhuNE5LUlpVN18yYTVXdngySldlRFVyUEpLMjRxWUdiZEJVbDJmWjB0OWgxVy1acHQ4LVZkcjU2aVpJN0xsdk1DeDM3QXFsTzduVjZF?oc=5 · https://news.google.com/rss/articles/CBMijgJBVV95cUxOTmI4ZmJscS02bHZPYk0zby1manl6VlhraERVQ0lQRF9vcy04Q0l4dURZQ3lrV3FmRlJSZTdrSVVXazdzcUU0d0lDQzNGQUxxSTBxVVFUNG5NVFdGOEFLTUkya2NtOTE1RjJpX3BWdnFsTmhEck1vUC12QVFzTzdQSkxlQ3RnLUVIdWJIY1c1TktQT0I3bVFHUXg5Uk95NHhGOF8wMnNiaFcxMFh1Ujl0eVhGbWpzLU10WlVBMEdHRmdTSk9ldHpHb3NYRVM5Nzh6UmdFSXgwUjQtT1B3UFdCaldtQXl2RXlraDNVdEJhVG1CckxzUlYzZG1Ed25vS042RUdlWDNOYVd3YVBsYnc?oc=5 · https://news.google.com/rss/articles/CBMigAJBVV95cUxQQ0tWNVd3NDlmOWtDQ01kbzJGWVJQRGx2VHhHQUNwWTRoWmNpYjlObm5qYUVHOFRlWk5BQkFOdThKcVp4RklhczBjTFR6N0JNdVEyNjNaQ1BqOHZVbk5Ha25pWFhjVnQ4RGY4VmNOdFZTdkhtQ0ZxS1pUN1lzd0Z3eFZxNUdRdXpLNGhBM3lnaHNwMS1YLUFDWHBHSGZNSzI2YTZFeHRpOE5pU041aUZhTW5VU0k1MHZVY1JPdFhzLTN1NWMzRjJrQnZIdTB2WDJPY29PLU5fUXhXZzhwY1hiOF91dmFrVkRIRmNYRFZ2bFVjTjNieC1wbU9CVl9VTFRT?oc=5 · https://news.google.com/rss/articles/CBMitAFBVV95cUxOcFE5TUpFczVJN1ZuZjI0eHg0UVBhZ0ItV3FYVFdMZ3VKV3hPV2xRQ3BkZlA2X0p0SkRTNkJ4SE1laW90Z05BNDU4bTRQcWF6Tk56d251Nm1uMlFGSlo1MFFZbjZVWHdoQnpqQm5JZVFOV2ZwMmpBSHRYUmwwcGhSSnd4cWcyS1ZKRnNVM1VMZFViNjlsOEZza1p1U25jX2swYW1uVmJ2czFvREcwZHJiUUFMYlk?oc=5 · https://news.google.com/rss/articles/CBMijgJBVV95cUxNX0Fsa2ZhX3h4U25IMkc4QzExLVljTElzVDYtMHFrRkR6UmNvR0FnRlQwcWQ4SjhFR2F6RU0tcUtDeVFBTWdmRzRPLVRjUXhmRGxjX2VRWnRoTjJ6LUpNbFlYOE4yQjVqUWlONDQwdFNyZUJKQ1NleWNqdVBRTEhvbmhpV29jemRLSDZCVkVTV3o3anAwU3RzaXRCeEY3UTRibHNkMlZnX1JkSWM4aVhHeE5DV1UwRnBHOUYwZWFBYnR2MTAzdzJTaHZrTTdaWWx4cjJadHhDSS1WU0FlMDd6ZjFpYWJfaGdnWDB0WmVaaUtGRkR1eF92bVVLXzQwSEFfR2xDMjcwVWpSVnpfRXc?oc=5 · https://news.google.com/rss/articles/CBMi-AFBVV95cUxNY1Q2RlZPajIxdnZCaU5HMV9KNzE3TVY4ZzN0TXJySGw5Nlg0X1E4dXhvQzI3c1RVV01saVJrb1hlLVctQmQwMjlIMWNDdWliako0S3BvY2xVbU1uVjduekhpUlJyOFp2b1djT09jQzdCQWNyUDBJTXBRbWdhREVaOEN5MGNlWnkybS1peV82LUdJLTVhWURkbmI2S0IyTWZFSFNKQXc1UzJGTEpsNG0tU3hqT0FyeVh0UGIzNkZQazE3X3JMeHNGam9rblFFSlNZTXFidVJiN1RPNmRGc0dZNWNMSHdPY21RZjVKU0kycUpHbDJLR2JHOQ?oc=5 · https://news.google.com/rss/articles/CBMizAFBVV95cUxNVWI5N1AxNmpSZEdyVEZIQU5mZTlLYjR1VTBwanBUcWE4WHlKOEVMMVRxODYzcThUS0ZZUjZXekl2OFFZVFNDQTJWNWFwVzRiTTZpQkJ5RkpDRmhBWGc4c2FQZDZsTXpWby1FOWZMMVZtYlJHVVMyZkdMOE1kMU5jSzREUkFtSmNTNkIzZ0tDYjU5czVmVkpWZWxsYlVhOFBPTndaNGo5TS15ODdZZi1sNFZaMkppM2g3Z1FxeGQ0bzF4RXIwYjVHbzNYcy0?oc=5 · https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcmQxRUpyaGlYRFJLUDZNU3lyejVCU0hJcjhBYmdSZFoyYXlPNnJWdnRYYWFHVW0xVlBKcXJMWUM2YW1INWFweGM3bWxKTnAzRXU1LVNJWEtwRHZoSWpiYkRQNUF1bGhtMXBSbEcxZXVLVUlYaDVydTdZTXc2U05IVkhkQk5hczM0LXVsS3pLZ1M4R0U1elAxRWZVWXI1al9UbmFQeFluWXJWR2NkVDBsOXFFSWdzOHFu?oc=5 · https://news.google.com/rss/articles/CBMiggJBVV95cUxQT0Z4SGNtVERLX19pNU8zV0Y5bHhydmZycG56M0MydVZRMzl1bGFYVVVQcXFxeF9fcjFjOGNUbDMxOXdWd05VbEpiaHZ3MTFBTkNYUEFsZ1lybGROTzBkNzNDN1lycHoxc0tpbjVSSkN0bm9wM3lWTUlHc0IzNUN1SjB5T1hEbVk5NFRkbXJ0Q2dXdGZqenBJYmd0SDZjNE9tN296cFJSS1FoZzd5VVNqY3lXZjd2V21CRFk3bTBpa1FIV3E1cWRUblZfMDJ6X2hBSlVWclRtZ1l0SUhDNUo3MGlBTmREeEdsdE4zT3d5Mm05MmJHMWt1d2ZnTXU1RVNRQmc?oc=5 · https://news.google.com/rss/articles/CBMiggJBVV95cUxPSnVpUU9RcGVqdmJRTmhrRzhwM2xiSHZuZ2lGUldQaTFpamYtUm8zYm1qcHNfVmY2OE9rSk9LbUtfM0p5R0hTVjZRd3VZYThnanBGQ01RWk5UY3J3WVlHY0dhRUJQLWI1NENTTnFOZUIxcm1SaEFJbHItcWJOTGRLVGNua3ZrY2QzQk9GMkZoaEFWNkZXdk1tWU1Va3dBN2Z5V2JqRWtpN3RfRkU0SXdyNlUyTmx5bnN5Z3JRZC1USmRaQ3RUM2F1REdTTDdTZC1RaVg2bC1JNjM5M3pOVFBSM25SUmRQTGZzcEpiTHhwQ2gtS1dQZ3NzZmhjOHNMdFNHQlE?oc=5 · https://abcnews.com/US/wireStory/smithsonian-ai-connect-artifacts-american-revolution-136966980 · https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWXJaNkNveTJNXzVzQ0Q0SXd3N3FOZDRKWHdZcTVFaWtNckxPTWphaklWei00VVJyQ2JvTURRYWdWSm9UQjd0YjRjRkJTdFIxcWF1UUdmZEFiaWZOYS00WndwdWlKQWVHSFZLVmVTZFAxeTAyVFhObVhsbTlmQ1pxeG42YUc2UEw4U3VIMXhxNm1vbDFHU0s3TVBSX2RsaTgxbkkzM1hCaTkySUVrNGRpOGZudFRuOG1RVEtielp0SFNxOENrQUVEY0JaTEV3NDR0ZzJ5YV9uVC1WNC12SnpTVG1wR3YwZ0ltMjJYbkpkWS0tY1l3NHZ0RWpjMzI?oc=5
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — science angle
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-2. **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — science angle
+1. **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — science angle
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
-3. **Supercomputing researchers document evolution of AI hardware** — science angle
+2. **Supercomputing researchers document evolution of AI hardware** — science angle
    https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006
-4. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
+3. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
    https://www.sciencedaily.com/releases/2026/09/260930020309.htm
-5. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
+4. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
    https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-6. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
+5. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
    https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
-7. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
+6. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-8. **Utah to let AI examine patients and prescribe medication without human oversight** — 10 upvotes on Reddit/HN
+7. **Utah to let AI examine patients and prescribe medication without human oversight** — 10 upvotes on Reddit/HN
    https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html
+8. **Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology** — science angle
+   https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 123
@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://kenoshanews.com/news/nation-world/article_103c4544-541e-5617-b1c6-3896b479c666.html
 3. **AI voice start-up ElevenLabs doubles valuation to $22bn - ft.com** — ElevenLabs News — Score 77
    https://news.google.com/rss/articles/CBMihAFBVV95cUxORTU3cUVkZTNQZTZwblIwZ2JxYkZ0Zl9LbldfN012UzRkaUZfYmtodk1oX2NDa3pjc3A0YUREMzM3ZDV1T1A5eUFldFMwSTFJa296V3NadHBXUkhPS3ZILTJQQ0VMNGZDZGkwSkxjX29Nd2V5d1VxMG8xY2JyWlpQaUpmcXg?oc=5
-4. **Trump names national intelligence director Jay Clayton to lead a new federal AI task force** — timesherald — Score 66
+4. **Trump names national intelligence director Jay Clayton to lead a new federal AI task force** — timesherald — Score 63
    https://www.timesherald.com/2026/10/05/jay-clayton-federal-ai-task-force/
 5. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 60
    https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
@@ -39,12 +39,12 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
 7. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 53
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3RKZmI4YXM4ZTdkODBKVFpYcDA5N0F0QVZPdFpWa3ZIakNVMXh5SUVpYWV6MmZ2di1IOGNsbndVZ2dCc0daN3diNnlZZTVRTnM0SmdKOHRuSW5QV01XaW1XeVR3VGlPRWs2MHZ3OENDa2diRnc5WlNKdmF0V2s0VWRLSzVCRy11TDdjUy05N0JORlRTTUhUY1JlekE0clhCOWVNNE9VV0FKTTVyUkgzVHBuQVBsUVNLcVJpOV92eEFBdUJqMi1iRjllUnRMRXc5Wm5oRVl0Y2w?oc=5
-8. **ElevenLabs' valuation doubles to $22 billion on surging AI voice-agent demand - Reuters** — ElevenLabs News — Score 47
+8. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 51
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
+9. **ElevenLabs' valuation doubles to $22 billion on surging AI voice-agent demand - Reuters** — ElevenLabs News — Score 47
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxQREpaN0ZnTVIwWHpBYjlfaHJ5c1NCMFU0VlpvRElfbVM4bnlvNTRpQmxQd29faml4cjJQWlRuTVJKdFBQSWp4Vnd0YXZnQ0NxTGVkcjhJcU9wc01Xbno5RWpkV3pUaHJCSk51OW01UV9YcTdJYTY5Z083ajV5Wk14MUt2Y2xqTjlUOVhzaEk1MkNnYnVPLXBLU0c4MVR0UEk1SmRVQjJSWFdoX0JLeVdScTAzRWt0T1JoT2hSWmtWZV9WdE0?oc=5
-9. **OpenAI's Altman says AI benefits warrant accepting some risks - Reuters** — Sam Altman News — Score 47
+10. **OpenAI's Altman says AI benefits warrant accepting some risks - Reuters** — Sam Altman News — Score 47
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOGhDUmJ2UzEwZ0hlenFISFFXdkZyVHd1TGNIZEhLTERLaDRWaXh4dlpVM1RfU0p4Vlh2cjVybWZtOWZkVVp0ZEVndGQ3T2pZd0tyelVvV3JnQ09FQlNOYWtVeUhCMjZud2NpYUVEZllhbHhIeVFvOXpEY0lLTklTNnNpNnhDTUdVS1dYSzl6S3VwbzgydXlKZVFRTkE4Y0dsYlJtQldVWkY?oc=5
-10. **'Reckless' AI firms can't control models, says whistleblower - France 24** — AI in Coding — Score 46
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxQQURDRlJMY0N2V0VycE5JVzdVb1BtQzBEUzFFQzJXRVRDOWRoVWRHZF8wRlBYR0x5MUFVRVpyTlh6YjJFWFZfa3FhbFhzRE1MMHdfYmxOWmhLcmYyZFhfc0d2dW5zRmhhRTMtQ2pSYjFydEhyTnRjM2txQ1VWSFlZQmNpNkVDREZMYmNFdW9vd1JTMHcydTNkQ09lc2EzWWVIUmQxTGRZUQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2699
+- Total stories tracked: 2780
 - Most active topic: openai
 - Busiest category: AI General News
 
