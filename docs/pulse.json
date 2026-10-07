@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:24:48.278769+00:00",
+  "generated_at": "2026-10-07T06:04:27.577059+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,8 +9,8 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 23,
-      "youtube": 106
+      "hackernews": 30,
+      "youtube": 105
     },
     "llm_provider": null
   },
@@ -87,18 +87,45 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzagxj/the_new_chatgpt_is_driving_me_nuts/",
+          "signal": "The new ChatGPT is driving me nuts."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzktfg/error_in_the_chatgpt_windows_desktop_app/",
+          "signal": "Error in the ChatGPT Windows Desktop App"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wyvouj/what_the_hell_happened_to_chatgpt/",
           "signal": "What the hell happened to ChatGPT?"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Sharing AI progress in mathematics",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wyzvwa/claude_pro_vs_chatgpt_plus_vs_copilot_premium/",
-          "signal": "Claude Pro vs ChatGPT Plus vs Copilot Premium: which one would you choose for this use case?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wz8rj9/chatgpt_chats_not_syncing_across_devices/",
-          "signal": "ChatGPT Chats not syncing across devices"
+          "platform": "hackernews",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+          "signal": "Sharing AI progress in mathematics"
         }
       ],
       "content_ideas": []
@@ -158,7 +185,88 @@
       "content_ideas": []
     },
     {
+      "name": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/FeSens/openTPU",
+          "signal": "OpenTPU – An open-source AI accelerator, developed by AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "signal": "EmbeddingGemma 2: An open, lightweight multimodal embedding model"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Questions for believers in AI consciousness",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+          "signal": "Questions for believers in AI consciousness"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Utah to let AI examine patients and prescribe medication without human",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -178,14 +286,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
-          "signal": "Questions for believers in AI consciousness"
+          "url": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+          "signal": "Utah to let AI examine patients and prescribe medication without human oversight"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI is now capable of developing its own inference hardware",
+      "name": "Penguin Mail – open-source Rust email client for Linux with AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -205,8 +313,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/FeSens/openTPU",
-          "signal": "AI is now capable of developing its own inference hardware"
+          "url": "https://penguin-mail.com/",
+          "signal": "Penguin Mail – open-source Rust email client for Linux with AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Tell HN: GitHub refuses to remove cracked copies of my software after ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49982498",
+          "signal": "Tell HN: GitHub refuses to remove cracked copies of my software after a month"
         }
       ],
       "content_ideas": []
@@ -234,144 +369,6 @@
           "platform": "hackernews",
           "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
           "signal": "Accept 'bad things' in return for benefits of AI, says Sam Altman"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Spending on AI is becoming almost impossible for businesses to budget",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
-          "signal": "Spending on AI is becoming almost impossible for businesses to budget"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Florida woman arrested for allegedly making threats in an AI chat",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat",
-          "signal": "Florida woman arrested for allegedly making threats in an AI chat"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Homa: The end of TCP for AI clusters [video]",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
-          "signal": "Homa: The end of TCP for AI clusters [video]"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI tutoring with Khanmigo in a two-year school experiment",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://edworkingpapers.com/ai26-1551",
-          "signal": "AI tutoring with Khanmigo in a two-year school experiment"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI Companies Are Parasites",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.coryd.dev/posts/2026/ai-companies-are-parasites",
-          "signal": "AI Companies Are Parasites"
         }
       ],
       "content_ideas": []
@@ -450,18 +447,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzagxj/the_new_chatgpt_is_driving_me_nuts/",
+          "signal": "The new ChatGPT is driving me nuts."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzktfg/error_in_the_chatgpt_windows_desktop_app/",
+          "signal": "Error in the ChatGPT Windows Desktop App"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1wyvouj/what_the_hell_happened_to_chatgpt/",
           "signal": "What the hell happened to ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wyzvwa/claude_pro_vs_chatgpt_plus_vs_copilot_premium/",
-          "signal": "Claude Pro vs ChatGPT Plus vs Copilot Premium: which one would you choose for this use case?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wz8rj9/chatgpt_chats_not_syncing_across_devices/",
-          "signal": "ChatGPT Chats not syncing across devices"
         }
       ],
       "content_ideas": []
@@ -469,25 +466,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Error in message stream?",
+      "problem": "Error in the ChatGPT Windows Desktop App",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wz5mch/error_in_message_stream/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Some users getting banned be like:",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wykqw5/some_users_getting_banned_be_like/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzktfg/error_in_the_chatgpt_windows_desktop_app/"
         }
       ],
       "content_opportunity": ""
