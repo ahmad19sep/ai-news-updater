@@ -17,7 +17,19 @@ async function sha(algo, t) { const b = await crypto.subtle.digest(algo, new Tex
 const sha256 = t => sha("SHA-256", t);
 function ago(d) {
   if (!d) return ""; const ms = Date.now() - new Date(d).getTime(); if (isNaN(ms)) return "";
+  if (ms < 0) return "Upcoming";
   const h = ms / 36e5; if (h < 1) return Math.max(1, Math.round(ms / 6e4)) + "m"; if (h < 48) return Math.round(h) + "h"; return Math.round(h / 24) + "d";
+}
+function collectionHealth() {
+  const date = D.collectedAt;
+  const stamp = date ? new Date(date).getTime() : NaN;
+  const known = Number.isFinite(stamp) && stamp <= Date.now();
+  return { date, known, delayed: known && Date.now() - stamp > 6 * 36e5 };
+}
+function collectionNotice() {
+  const health = collectionHealth();
+  if (!health.known) return `<div class="collection-notice"><span class="collection-dot unknown" aria-hidden="true"></span><div><b>Collection time unavailable</b><span>Story dates are shown on each card.</span></div></div>`;
+  return `<div class="collection-notice ${health.delayed ? "delayed" : ""}" role="status"><span class="collection-dot" aria-hidden="true"></span><div><b>${health.delayed ? "Showing saved coverage" : "Collection updated recently"}</b><span>Last collected ${esc(fmtDT(health.date))}${health.delayed ? ". Recent stories may be missing." : "."}</span></div><span class="collection-age mono">${esc(ago(health.date))} ago</span></div>`;
 }
 function fmtDT(d) { if (!d) return ""; const x = new Date(d); if (isNaN(x)) return String(d); return x.toLocaleString(undefined, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); }
 function fmtD(d) { if (!d) return ""; const x = new Date(d); if (isNaN(x)) return String(d); return x.toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" }); }
@@ -293,6 +305,7 @@ const emptyBox = (t, s = "", icon = "inbox", action = "") => `<div class="empty"
 const pageIntro = (eyebrow, title, description, actions = "") => `<div class="page-intro"><div><span class="eyebrow intro-kicker">${ic("star")}${esc(eyebrow)}</span><h2>${esc(title)}</h2><p>${esc(description)}</p></div>${actions ? `<div class="welcome-actions">${actions}</div>` : ""}</div>`;
 const quickCard = (icon, value, label, action, note = "") => `<button class="quick-card" onclick="${action}"><span class="quick-icon">${ic(icon)}</span><span class="quick-value">${esc(value)}</span><span class="quick-label">${esc(label)}</span>${note ? `<span class="cap">${esc(note)}</span>` : ""}<span class="quick-arrow" aria-hidden="true">↗</span></button>`;
 const glyphFor = d => isDue(d) ? "due" : d.status === "draft" ? "draft" : d.status;
+const storyScore = it => `<span class="score ${it.scoreKind !== "engagement" && it.sc >= 8 ? "hi" : ""}" title="${it.scoreKind === "engagement" ? "Community " + esc(it.scoreLabel || "votes") : "Audience score"}">${it.sc || "–"}<small>${it.scoreKind === "engagement" ? esc(it.scoreLabel || "votes") : "/10"}</small></span>`;
 function draftRow(d, opts = {}) {
   const v = verdictOf(d); const p = postOf(d);
   return `<div class="item ${isDue(d) ? "attn" : ""}" data-id="${d.id}">
@@ -338,17 +351,23 @@ function renderToday() {
   const run = lastRun(), posted = postedThisWeek(), due = sched.filter(isDue);
   const progress = Math.min(100, Math.round(posted / target() * 100));
   const today = new Date().toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" });
+  const nextStory = due[0] || review[0] || approved[0] || picks[0];
+  const nextLabel = due.length ? "Share your due post" : review.length ? "Review your next draft" : approved.length ? "Schedule an approved post" : "Find your next idea";
+  const nextAction = due.length ? `postNow('${due[0].id}')` : review.length ? `openDraft('${review[0].id}')` : approved.length ? "go('schedule')" : "go('discover')";
+  const nextIcon = due.length ? "external" : review.length ? "pen" : approved.length ? "calendar" : "radar";
+  const nextState = due.length ? "Ready to share" : review.length ? "Ready for your review" : approved.length ? "Approved by you" : "An idea to explore";
   $("#pageSub").textContent = "Your creative workspace";
   if ($("#workspaceDate")) $("#workspaceDate").textContent = today;
   $("#topActions").innerHTML = `<button class="btn sm" onclick="go('discover')">${ic("radar")}Explore stories</button>`;
   $("#s-today").innerHTML = `
+    ${collectionNotice()}
     <div class="today-hero">
       <div class="hero-copy"><div class="hero-eyebrow"><span class="eyebrow">${ic("star")}YOUR CREATIVE WORKSPACE</span><span class="hero-date">${esc(today)}</span></div><h2>Make something<br><em>worth sharing.</em></h2>
         <p>Welcome back, Ahmad. ${review.length ? `You have ${review.length} draft${review.length === 1 ? "" : "s"} ready for your attention.` : fresh.length ? `${fresh.length} new ideas are waiting for your perspective.` : "Your next great post starts with a small spark."} Let's turn a good idea into something worth sharing.</p>
-        <div class="welcome-actions"><button class="btn primary" onclick="go('discover')">${ic("radar")}Find your next idea <span aria-hidden="true">↗</span></button><button class="btn ghost" onclick="${review.length ? `openDraft('${review[0].id}')` : "go('ideas')"}">${ic("pen")}${review.length ? "Continue writing" : "Start writing"}</button></div>
+        <div class="welcome-actions"><button class="btn primary" onclick="${nextAction}">${ic(nextIcon)}${nextLabel} <span aria-hidden="true">↗</span></button><button class="btn ghost" onclick="go('${review.length || due.length || approved.length ? "discover" : "ideas"}')">${ic("bulb")}${review.length || due.length || approved.length ? "Explore new stories" : "Your saved ideas"}</button></div>
         <span class="hero-note">Your voice. Your pace. Your final say.</span>
       </div>
-      <div class="hero-art" aria-hidden="true"><span class="hero-orbit"></span><div class="hero-sheet sheet-back"></div><div class="hero-sheet sheet-front"><div class="sheet-heading">${ic("pen")}<span>YOUR NEXT IDEA</span></div><span class="sheet-line line-title"></span><span class="sheet-line"></span><span class="sheet-line"></span><span class="sheet-line line-short"></span><span class="sheet-tag">Made by you</span></div><span class="hero-spark">${ic("star")}</span></div>
+      <div class="hero-art" aria-hidden="true"><span class="hero-orbit"></span><div class="hero-sheet sheet-back"></div><div class="hero-sheet sheet-front ${nextStory ? "has-story" : ""}"><div class="sheet-heading">${ic(nextIcon)}<span>${nextStory ? "UP NEXT ON YOUR DESK" : "YOUR NEXT IDEA"}</span></div>${nextStory ? `<p class="sheet-story">${esc(nextStory.title)}</p><span class="sheet-source">${esc(nextStory.source || TOPIC_LABEL[nextStory.topic] || "Your workspace")}</span>` : '<span class="sheet-line line-title"></span><span class="sheet-line"></span><span class="sheet-line"></span><span class="sheet-line line-short"></span>'}<span class="sheet-tag">${nextStory ? nextState : "Made by you"}</span></div><span class="hero-spark">${ic("star")}</span></div>
     </div>
     <div class="quick-grid">
       ${quickCard("bulb", fresh.length, "Fresh ideas", "go('ideas')", "Ready to explore")}
@@ -364,13 +383,13 @@ function renderToday() {
     </div><aside class="dashboard-aside">
       <section class="sec insight-card"><div class="sh"><h2>A steady rhythm</h2>${ic("check")}</div><div class="weekly-count"><strong>${posted}<span>/${target()}</span></strong><span>posts this week</span></div><div class="progress-track" role="progressbar" aria-label="Weekly publishing goal" aria-valuemin="0" aria-valuemax="${target()}" aria-valuenow="${Math.min(posted, target())}"><span class="progress-fill" style="width:${progress}%"></span></div><p class="t3">${progress >= 100 ? "You reached your weekly goal. Nice work making space for your ideas." : `${Math.max(0, target() - posted)} more post${target() - posted === 1 ? "" : "s"} to reach your goal. Keep it thoughtful, keep it yours.`}</p><button class="btn sm ghost" onclick="go('settings')">Adjust your rhythm ${ic("external")}</button></section>
       ${sec("Coming up next", `<div class="list">${sched.length ? sched.slice(0, 3).map(d => draftRow(d)).join("") : emptyBox("Your next opening", fmtDT(nextFreeSlot()), "calendar", `<button class="btn sm" onclick="go('schedule')">Plan a post</button>`)}</div>`, "", `<button class="btn sm icon ghost" onclick="go('schedule')" aria-label="Open schedule">${ic("external")}</button>`)}
-      <section class="sec insight-card"><span class="eyebrow">WORKSPACE PULSE</span><h3>Inspiration keeps coming.</h3><p class="t3">${run ? `Last collection ${esc(fmtDT(run.ts))}.` : "Fresh stories are collected and scored for you each hour."} ${D.mode === "api" ? "Your agents also draft and check selected ideas." : "Pick a story, bring your perspective, and write in Compose."}</p><div class="row"><a class="btn sm ghost" href="digests/latest.html" target="_blank" rel="noopener">${ic("book")}Weekly digest</a><button class="btn sm ghost" onclick="go('discover')">${ic("radar")}Explore</button></div></section>
+      <section class="sec insight-card"><span class="eyebrow">WORKSPACE PULSE</span><h3>Your sources, at a glance.</h3><div class="radar-summary"><strong>${new Set(D.news.map(it => it.s).filter(Boolean)).size}<span>feed sources</span></strong><strong>${D.news.length.toLocaleString()}<span>collected stories</span></strong></div><p class="t3">${run ? `Last pipeline run ${esc(fmtDT(run.ts))}.` : "Save a useful story to start your next draft."} ${D.mode === "api" ? "Your agents also draft and check selected ideas." : "Bring your perspective, then write in Compose."}</p><div class="row"><a class="btn sm ghost" href="digests/latest.html" target="_blank" rel="noopener">${ic("book")}Weekly digest</a><button class="btn sm ghost" onclick="go('discover')">${ic("radar")}Explore</button></div></section>
     </aside></div>`;
 }
 window.postNow = id => { composeId = id; go("compose"); setTimeout(() => { copyPost(id); }, 50); };
 
 /* ================================================================ Discover */
-let disc = { sub: "news", q: "", pillar: 0, tab: "", shown: 60, hideSaved: true, sort: "latest" };
+let disc = { sub: "news", q: "", pillar: 0, tab: "", shown: 60, hideSaved: true, sort: "latest", days: 0, view: jload("studio_discovery_view", "cards") === "list" ? "list" : "cards" };
 $$("#disc-tabs .subtab").forEach(b => b.onclick = () => { disc.sub = b.dataset.sub; disc.shown = 60; renderDiscover(); });
 $("#disc-tabs").addEventListener("keydown", e => {
   if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(e.key)) return;
@@ -386,29 +405,39 @@ function renderDiscover() {
   if (disc.sub === "pulse") return renderPulse(body);
   const items = disc.sub === "news" ? D.news : D.agents;
   const q = disc.q.toLowerCase().trim();
-  let list = items.filter(it => (!q || (it.t + " " + it.s + " " + (it.sm || "")).toLowerCase().includes(q)) && (disc.sub !== "news" || !disc.pillar || it.p === disc.pillar) && (disc.sub !== "agents" || !disc.tab || (it.tabs || []).includes(disc.tab)) && (!disc.hideSaved || !S.candidates[it.k]));
+  const cutoff = Date.now() - disc.days * 864e5;
+  let list = items.filter(it => (!q || (it.t + " " + it.s + " " + (it.sm || "")).toLowerCase().includes(q)) && (!disc.days || (new Date(it.d || it.pub).getTime() >= cutoff && new Date(it.d || it.pub).getTime() <= Date.now())) && (disc.sub !== "news" || !disc.pillar || it.p === disc.pillar) && (disc.sub !== "agents" || !disc.tab || (it.tabs || []).includes(disc.tab)) && (!disc.hideSaved || !S.candidates[it.k]));
   list = list.slice().sort(disc.sort === "score" ? (a, b) => (b.sc || 0) - (a.sc || 0) : (a, b) => String(b.d || b.pub || "").localeCompare(String(a.d || a.pub || "")));
   const chips = disc.sub === "news"
     ? [`<button class="fchip ${!disc.pillar ? "active" : ""}" aria-pressed="${!disc.pillar}" onclick="discSet('pillar',0)">All topics</button>`].concat(Object.entries(D.pillars).map(([k, v]) => `<button class="fchip ${disc.pillar == k ? "active" : ""}" aria-pressed="${disc.pillar == k}" onclick="discSet('pillar',${k})">${esc(v)}</button>`))
     : [`<button class="fchip ${!disc.tab ? "active" : ""}" aria-pressed="${!disc.tab}" onclick="discSet('tab','')">All categories</button>`].concat(D.agentTabs.map(([k, v]) => `<button class="fchip ${disc.tab === k ? "active" : ""}" aria-pressed="${disc.tab === k}" onclick="discSet('tab','${k}')">${esc(v)}</button>`));
   body.innerHTML = `
+    ${collectionNotice()}
     <div class="screen-toolbar"><div class="search-field">${ic("search")}<input type="search" id="disc-q" placeholder="Search stories, sources, or ideas…" value="${esc(disc.q)}" aria-label="Search stories"></div>
-      <div class="seg" aria-label="Sort stories"><button class="${disc.sort === "latest" ? "active" : ""}" aria-pressed="${disc.sort === "latest"}" onclick="discSet('sort','latest')">Latest</button><button class="${disc.sort === "score" ? "active" : ""}" aria-pressed="${disc.sort === "score"}" onclick="discSet('sort','score')">For your audience</button></div>
-      <label class="check-label"><input type="checkbox" ${disc.hideSaved ? "checked" : ""} onchange="discSet('hideSaved',this.checked)">Hide saved stories</label></div>
+      <div class="seg" aria-label="Sort stories"><button class="${disc.sort === "latest" ? "active" : ""}" aria-pressed="${disc.sort === "latest"}" onclick="discSet('sort','latest')">Latest</button><button class="${disc.sort === "score" ? "active" : ""}" aria-pressed="${disc.sort === "score"}" onclick="discSet('sort','score')">${disc.sub === "agents" ? "Top signals" : "For your audience"}</button></div>
+      <select id="disc-days" class="discovery-period" aria-label="Filter by story date" onchange="discSet('days',Number(this.value))">${[[0, "Any time"], [1, "Past 24 hours"], [7, "Past 7 days"], [30, "Past 30 days"]].map(([days, label]) => `<option value="${days}" ${disc.days === days ? "selected" : ""}>${label}</option>`).join("")}</select>
+      <label class="check-label"><input id="disc-hide-saved" type="checkbox" ${disc.hideSaved ? "checked" : ""} onchange="discSet('hideSaved',this.checked)">Hide saved stories</label></div>
     <div class="fchips" aria-label="Filter stories">${chips.join("")}</div>
-    <div class="result-meta"><span><b>${list.length.toLocaleString()}</b> ${disc.sub === "news" ? "stories" : "agent stories"}${q ? ` matching “${esc(disc.q)}”` : " to explore"}</span>${D.trends.length ? `<span>Rising now: ${D.trends.slice(0, 3).map(t => esc(t.term || t.name || "")).join(" · ")}</span>` : ""}${q || disc.pillar || disc.tab ? `<button class="btn sm ghost" onclick="resetDiscover()">Reset filters</button>` : ""}</div>
-    <div class="story-grid list">${list.slice(0, disc.shown).map(it => `<article class="item story-card" data-id="${esc(it.k)}">
-      <div class="story-top"><span class="chip">${esc(D.pillars[it.p] || it.primary || "AI")}</span><span class="score ${it.sc >= 8 ? "hi" : ""}" title="Audience score">${it.sc || "–"}<small>/10</small></span></div>
-      <div class="b"><div class="t"><a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a></div>${it.sm ? `<p class="story-summary">${esc(it.sm.slice(0, 190))}${it.sm.length > 190 ? "…" : ""}</p>` : ""}<div class="m"><span>${esc(it.s)}</span><span>${esc(ago(it.d || it.pub)) || "Collected"}</span>${(it.l || it.links || []).length ? `<span>+${(it.l || it.links).length} sources</span>` : ""}</div></div>
+    ${D.trends.length ? `<div class="trend-shortcuts"><span>${ic("radar")}In this collection</span>${D.trends.slice(0, 5).map(t => { const term = t.term || t.name || ""; return term ? `<button type="button" class="trend-chip" data-trend="${esc(term)}">${esc(term)} <span aria-hidden="true">↗</span></button>` : ""; }).join("")}</div>` : ""}
+    <div class="result-meta"><span id="discovery-result-count" role="status"><b>${list.length.toLocaleString()}</b> ${disc.sub === "news" ? "stories" : "agent stories"}${q ? ` matching “${esc(disc.q)}”` : " to explore"}</span><div class="result-controls">${q || disc.pillar || disc.tab || disc.days || disc.hideSaved ? `<button class="btn sm ghost" onclick="resetDiscover()">Reset filters</button>` : ""}<div class="seg view-switch" aria-label="Story layout"><button class="${disc.view === "cards" ? "active" : ""}" aria-pressed="${disc.view === "cards"}" onclick="discSet('view','cards')">Cards</button><button class="${disc.view === "list" ? "active" : ""}" aria-pressed="${disc.view === "list"}" onclick="discSet('view','list')">List</button></div></div></div>
+    <div class="story-grid list ${disc.view === "list" ? "story-list-view" : ""}">${list.slice(0, disc.shown).map(it => `<article class="item story-card" data-id="${esc(it.k)}">
+      <div class="story-top"><span class="chip">${esc(D.pillars[it.p] || it.primary || "AI")}</span>${storyScore(it)}</div>
+      <div class="b"><div class="t"><a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a></div>${it.sm ? `<p class="story-summary">${esc(it.sm.slice(0, 190))}${it.sm.length > 190 ? "…" : ""}</p>` : ""}<div class="m"><span class="story-source"><span class="source-monogram" aria-hidden="true">${esc((it.s || "AI").charAt(0).toUpperCase())}</span>${esc(it.s)}</span><time datetime="${esc(it.d || it.pub || "")}" title="${esc(fmtDT(it.d || it.pub))}">${esc(ago(it.d || it.pub)) || "Date unavailable"}</time>${(it.l || it.links || []).length ? `<span>+${(it.l || it.links).length} sources</span>` : ""}</div></div>
       <div class="story-actions"><a class="btn sm icon ghost" href="${esc(it.u)}" target="_blank" rel="noopener" aria-label="Read ${esc(it.t)}">${ic("external")}</a>${S.candidates[it.k] ? '<span class="chip ok">Saved to Ideas</span>' : `<button class="btn sm" onclick="saveIdea('${it.k}','${disc.sub}')">${ic("bulb")}Save idea</button>`}</div></article>`).join("") || emptyBox("A fresh search might help", "Try a different topic, clear your filters, or include saved stories.", "search", `<button class="btn sm" onclick="resetDiscover()">Reset filters</button>`)}</div>
     ${list.length > disc.shown ? `<div class="load-more"><button class="btn" onclick="disc.shown+=60;renderDiscover()">Show more stories <span class="cnt">${list.length - disc.shown}</span></button></div>` : ""}`;
+  $$(".trend-chip", body).forEach(button => { button.onclick = () => { discSet("q", button.dataset.trend); $("#disc-q").focus(); }; });
   const qi = $("#disc-q"); qi.oninput = debounce(() => { disc.q = qi.value; disc.shown = 60; renderDiscover(); const input = $("#disc-q"); input.focus(); input.setSelectionRange(input.value.length, input.value.length); }, 250);
 }
-window.resetDiscover = () => { disc.q = ""; disc.pillar = 0; disc.tab = ""; disc.hideSaved = false; disc.shown = 60; renderDiscover(); };
-window.discSet = (k, v) => { disc[k] = v; disc.shown = 60; renderDiscover(); };
+window.resetDiscover = () => { disc.q = ""; disc.pillar = 0; disc.tab = ""; disc.days = 0; disc.hideSaved = false; disc.shown = 60; renderDiscover(); const search = $("#disc-q"); if (search) search.focus(); };
+window.discSet = (k, v) => {
+  const active = document.activeElement, id = active && active.id, action = active && active.getAttribute("onclick");
+  disc[k] = v; if (k === "view") jsave("studio_discovery_view", v); disc.shown = 60; renderDiscover();
+  const control = id ? document.getElementById(id) : action ? $$("#disc-body button[onclick]").find(button => button.getAttribute("onclick") === action) : null;
+  if (control) control.focus();
+};
 window.saveIdea = async (k, sub) => {
   const it = (sub === "news" ? D.news : D.agents).find(x => x.k === k); if (!it) return;
-  await patchDoc("candidates", k, { title: it.t, url: it.u, source: it.s, category: D.pillars[it.p] || "", published: it.d || it.pub || "", summary: it.sm || "", score: Math.max(5, Math.min(10, Math.round(it.sc || 6))), topic: TOPIC_OF_PILLAR[it.p] || "other", urgency: "this_week", reason: "saved from Discover", angle_hint: "", status: "shortlisted", manual: true, created: nowIso() });
+  await patchDoc("candidates", k, { title: it.t, url: it.u, source: it.s, category: D.pillars[it.p] || "", published: it.d || it.pub || "", summary: it.sm || "", score: it.scoreKind === "engagement" ? 6 : Math.max(5, Math.min(10, Math.round(it.sc || 6))), topic: TOPIC_OF_PILLAR[it.p] || "other", urgency: "this_week", reason: "saved from Discover", angle_hint: "", status: "shortlisted", manual: true, created: nowIso() });
   toast("Saved to Ideas as shortlisted");
 };
 let pulseRequest = 0;

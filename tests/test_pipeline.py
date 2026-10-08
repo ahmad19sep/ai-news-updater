@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
 import config  # noqa: E402
-from agents import angle, enrich, store as storemod, triage, verify, writer  # noqa: E402
+from agents import angle, enrich, sources, store as storemod, triage, verify, writer  # noqa: E402
 from agents.llm import LLM  # noqa: E402
 
 ARTICLE = """<html><head><title>x</title><script>var a=1;</script></head><body>
@@ -182,7 +182,101 @@ class EnrichTests(unittest.TestCase):
             pack = s.get("sources", "c1")
             self.assertEqual(pack["url"], "https://alt.example/full")
             self.assertEqual(pack["original_url"], "https://news.google.com/rss/articles/X")
+            self.assertEqual(pack["source"], "s")
             self.assertEqual(s.get("candidates", "c1")["resolved_url"], "https://alt.example/full")
+
+    def test_run_uses_database_alternate_objects_after_primary_failure(self):
+        import database
+
+        with tempfile.TemporaryDirectory() as d:
+            db_path = os.path.join(d, "news.db")
+            make_db(db_path, n=1)
+            conn = sqlite3.connect(db_path)
+            conn.row_factory = sqlite3.Row
+            s = storemod.Store(backend="local", local_path=os.path.join(d, "p.json"), key="k")
+            try:
+                database.add_link_to_item(conn, 1, "https://alt.example/blocked", "Blocked News")
+                database.add_link_to_item(conn, 1, "https://alt.example/full", "Alternate News")
+                candidate = sources.new_stories(conn, s)[0]
+            finally:
+                conn.close()
+            self.assertEqual(candidate["links"][0], {
+                "url": "https://alt.example/blocked", "source": "Blocked News",
+            })
+            s.put("candidates", candidate["id"], candidate)
+            attempted = []
+            long_article = ARTICLE.replace("</article>", "<p>" +
+                                           "More reported detail from the alternate source. " * 12 +
+                                           "</p></article>")
+
+            def fetch_page(url):
+                attempted.append(url)
+                if url != "https://alt.example/full":
+                    raise RuntimeError("source unavailable")
+                return long_article
+
+            result = enrich.run(s, [candidate["id"]], log=lambda *a: None,
+                                fetcher=fetch_page, resolver=lambda url: url)
+            self.assertEqual(attempted, [candidate["url"], "https://alt.example/blocked",
+                                         "https://alt.example/full"])
+            self.assertEqual(result, {"enriched": 1, "thin": 0})
+            pack = s.get("sources", candidate["id"])
+            self.assertEqual(pack["url"], "https://alt.example/full")
+            self.assertEqual(pack["original_url"], candidate["url"])
+            self.assertEqual(pack["source"], "Alternate News")
+            self.assertEqual(s.get("candidates", candidate["id"])["source"], "Acme News")
+            self.assertIn("source unavailable", pack["note"])
+            self.assertEqual(s.get("candidates", candidate["id"])["resolved_url"], pack["url"])
+
+    def test_run_skips_invalid_and_duplicate_links_and_keeps_primary_on_failure(self):
+        with tempfile.TemporaryDirectory() as d:
+            s = storemod.Store(backend="local", local_path=os.path.join(d, "p.json"), key="k")
+            primary = "https://example.com/original"
+            s.put("candidates", "c1", {"title": "T", "url": primary, "source": "Original News", "links": [
+                {"url": primary, "source": "Repeated"}, {"source": "Missing URL"},
+                {"url": None}, 42, " ", "https://alt.example/one",
+                {"url": " https://alt.example/one ", "source": "Duplicate"},
+                {"url": "https://alt.example/two", "source": "Two"},
+                "https://alt.example/three", {"url": "https://alt.example/four"},
+            ]})
+            attempted = []
+
+            def fail_page(url):
+                attempted.append(url)
+                raise RuntimeError("source unavailable")
+
+            result = enrich.run(s, ["c1"], log=lambda *a: None,
+                                fetcher=fail_page, resolver=lambda url: url + "/resolved")
+            self.assertEqual(attempted, [primary + "/resolved"] + [
+                "https://alt.example/" + name + "/resolved" for name in ("one", "two", "three")
+            ])
+            self.assertEqual(result, {"enriched": 1, "thin": 1})
+            self.assertEqual(s.get("sources", "c1")["url"], primary)
+            self.assertEqual(s.get("sources", "c1")["original_url"], primary)
+            self.assertEqual(s.get("sources", "c1")["source"], "Original News")
+            self.assertEqual(s.get("candidates", "c1")["resolved_url"], primary)
+
+    def test_run_keeps_primary_publisher_when_primary_article_succeeds(self):
+        with tempfile.TemporaryDirectory() as d:
+            s = storemod.Store(backend="local", local_path=os.path.join(d, "p.json"), key="k")
+            primary = "https://example.com/original"
+            s.put("candidates", "c1", {
+                "title": "T", "url": primary, "source": "Original News",
+                "links": [{"url": primary, "source": "Duplicate label"},
+                          {"url": "https://alt.example/full", "source": "Alternate News"}],
+            })
+            long_article = "<article><p>" + "Details from the original publisher. " * 30 + "</p></article>"
+            attempted = []
+
+            def fetch_page(url):
+                attempted.append(url)
+                return long_article
+
+            enrich.run(s, ["c1"], log=lambda *a: None,
+                       fetcher=fetch_page, resolver=lambda url: url)
+            self.assertEqual(attempted, [primary])
+            self.assertEqual(s.get("sources", "c1")["source"], "Original News")
+            self.assertEqual(s.get("sources", "c1")["url"], primary)
 
     def test_pack_marks_thin(self):
         cand = {"title": "T", "url": "u", "source": "s", "summary": "sum"}

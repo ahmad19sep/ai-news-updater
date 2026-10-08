@@ -4,6 +4,7 @@ Downloads every RSS feed, applies the filters, and saves new items
 to the database. Also fetches Hugging Face papers and public agent projects.
 """
 
+import calendar
 import html
 import json
 import os
@@ -43,7 +44,9 @@ def _entry_published(entry):
     for key in ("published_parsed", "updated_parsed"):
         t = entry.get(key)
         if t:
-            return datetime.fromtimestamp(time.mktime(t), tz=timezone.utc)
+            # feedparser normalizes parsed dates to UTC; mktime treats them as
+            # local time and shifts published timestamps on non-UTC hosts.
+            return datetime.fromtimestamp(calendar.timegm(t), tz=timezone.utc)
     return None
 
 

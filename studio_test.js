@@ -58,6 +58,7 @@ const visible = id => !d.getElementById("s-" + id).hidden;
   ok(d.getElementById("lock").hidden, "no passcode baked in -> lock hidden");
   ok(visible("today"), "Today renders first");
   ok(d.getElementById("s-today").textContent.includes("Drafts to review"), "Today shows drafts awaiting review");
+  ok(d.querySelector(".today-hero .btn.primary").textContent.includes("Review your next draft") && d.querySelector(".sheet-story").textContent.includes("Lahore clinics"), "Today points to the next real draft and shows its headline");
   ok(d.getElementById("nc-ideas").textContent === "2", "Ideas nav count = 2 new candidates");
   ok(d.getElementById("nc-compose").textContent === "1", "Compose nav count = 1 draft");
   ok(d.getElementById("s-today").textContent.includes("0/4"), "Today shows the actual weekly progress");
@@ -84,6 +85,31 @@ const visible = id => !d.getElementById("s-" + id).hidden;
 
   w.go("discover"); await sleep(50);
   ok(visible("discover") && d.querySelectorAll("#disc-body .item").length > 10, "Discover lists news cards");
+  const originalNews = w.__D.news, originalTrends = w.__D.trends, originalCollected = w.__D.collectedAt;
+  const baseStory = originalNews[0], fixtureTime = Date.now();
+  w.__D.news = [
+    { ...baseStory, k: "recent-fixture", t: "A useful trial story", d: new Date(fixtureTime - 36e5).toISOString() },
+    { ...baseStory, k: "old-fixture", t: "Older trial coverage", d: new Date(fixtureTime - 10 * 864e5).toISOString() },
+    { ...baseStory, k: "undated-fixture", d: "" },
+    { ...baseStory, k: "future-fixture", d: new Date(fixtureTime + 864e5).toISOString() },
+  ];
+  w.__D.trends = [{ term: "trial" }];
+  w.__D.collectedAt = new Date(fixtureTime - 8 * 864e5).toISOString();
+  w.discSet("days", 0);
+  ok(d.querySelector("#disc-body .collection-notice.delayed") && d.querySelector("#disc-body .collection-notice").textContent.includes("Recent stories may be missing"), "a new page build does not hide an old collection");
+  const period = d.getElementById("disc-days"); period.focus(); period.value = "1"; period.dispatchEvent(new w.Event("change"));
+  ok(d.querySelectorAll("#disc-body .story-card").length === 1 && d.querySelector("#disc-body .story-card").dataset.id === "recent-fixture", "24-hour filter excludes old, missing, and future story dates");
+  ok(d.activeElement.id === "disc-days", "changing the date filter preserves keyboard focus");
+  w.discSet("view", "list");
+  ok(d.querySelector(".story-list-view") && w.localStorage.getItem("studio_discovery_view") === '"list"', "compact list layout is saved as a browser preference");
+  d.querySelector(".trend-chip").click();
+  ok(d.getElementById("disc-q").value === "trial" && d.activeElement.id === "disc-q", "collection trend shortcuts search stories and focus the search field");
+  w.resetDiscover();
+  ok(d.querySelectorAll("#disc-body .story-card").length === 4 && d.getElementById("disc-days").value === "0", "reset clears search and date filters and includes saved coverage");
+  w.__D.collectedAt = new Date(fixtureTime + 864e5).toISOString(); w.discSet("days", 0);
+  ok(d.querySelector("#disc-body .collection-notice").textContent.includes("Collection time unavailable"), "future collection timestamps cannot claim current coverage");
+  w.__D.news = originalNews; w.__D.trends = originalTrends; w.__D.collectedAt = originalCollected;
+  w.discSet("view", "cards"); w.discSet("hideSaved", true);
   const q = d.getElementById("disc-q"); q.value = "zzzz-nothing"; q.dispatchEvent(new w.Event("input")); await sleep(400);
   ok(!d.querySelector("#disc-body .item") && d.getElementById("disc-body").textContent.includes("fresh search"), "Discover search filters to an actionable empty result");
   w.discSet("q", "");
@@ -91,6 +117,11 @@ const visible = id => !d.getElementById("s-" + id).hidden;
   ok(d.getElementById("tab-agents").getAttribute("aria-selected") === "true" && d.activeElement.id === "tab-agents" && d.getElementById("disc-body").getAttribute("aria-labelledby") === "tab-agents", "arrow keys move and select the Discover tabs accessibly");
   w.discSet("q", ""); w.discSet("sub", "agents"); await sleep(50);
   ok(d.querySelectorAll("#disc-body .fchip").length > 3, "Agents & AI chips render");
+  const originalAgents = w.__D.agents;
+  w.__D.agents = [{ ...originalAgents[0], k: "engagement-fixture", sc: 143, scoreKind: "engagement", scoreLabel: "stars" }];
+  w.discSet("sub", "agents");
+  ok(d.querySelector("#disc-body .score").textContent.includes("143stars") && !d.querySelector("#disc-body .score").textContent.includes("/10"), "community engagement is labeled separately from audience ratings");
+  w.__D.agents = originalAgents;
   w.discSet("sub", "pulse"); await sleep(200);
   ok(d.getElementById("disc-body").textContent.includes("Claude") && d.getElementById("disc-body").textContent.includes("rate limits"), "Pulse renders trends + pain points");
   w.discSet("sub", "news"); await sleep(50);

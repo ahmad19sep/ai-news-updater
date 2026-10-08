@@ -124,6 +124,7 @@ edits stay in that browser.
 | `python -m unittest tests.test_pipeline` | Pipeline tests with a fake Claude (no key, no cost) |
 | `python -m unittest test_agent_ai_radar test_agent_discovery` | Classifier tests |
 | `node studio_test.js` | Drives every Studio screen in JSDOM (`npm i --no-save jsdom` first) |
+| `node public_test.js` | Checks public news search, saved stories, source ordering, reader accessibility and storage recovery in JSDOM |
 | `node smoke_test.js` / `node ui_test.js` | Old studio tests |
 
 Cloud workflows: `fetch.yml` (hourly news + free triage + site builds),
@@ -162,6 +163,8 @@ Stories are sorted by **what the title talks about** (keyword rules in `config.p
 **Optional / legacy** — `x-worker/`, `x-extension/`, `dashboard.py`
 
 Setup notes: [PULSE-SETUP.md](PULSE-SETUP.md) · [X-PIPELINE-SETUP.md](X-PIPELINE-SETUP.md) · [XMINI_API.md](XMINI_API.md) · [DOCUMENTATION.md](DOCUMENTATION.md)
+
+Project review: [IMPROVEMENTS.md](IMPROVEMENTS.md) records the visual and collection fixes, validation results, and researched priorities for the next improvements.
 
 ## Known gaps
 

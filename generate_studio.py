@@ -78,9 +78,11 @@ def collect():
             continue
         agents.append({"k": key, "t": r["title"], "u": r["url"], "s": r["source"], "p": 2,
                        "pub": r["published"] or r["fetched"], "sm": summary, "sc": int(r["upvotes"] or 0),
+                       "scoreKind": "engagement", "scoreLabel": "stars" if "github.com/" in r["url"] else "likes" if "huggingface.co/spaces/" in r["url"] else "votes",
                        "primary": meta["primary"], "tabs": meta.get("discovery_tabs", []),
                        "domains": meta.get("domains", []), "dateLabel": _agent_date_label(r["source"])})
-    return news, agents, chips, now
+    collected_at = max((r["fetched"] for r in rows if r["fetched"]), default="")
+    return news, agents, chips, now, collected_at
 
 
 def _deployed(pattern):
@@ -97,7 +99,7 @@ def _deployed(pattern):
 
 
 def generate():
-    news, agents, chips, now = collect()
+    news, agents, chips, now, collected_at = collect()
     code = _load_passcode()
     lock_hash = hashlib.sha256(code.encode()).hexdigest() if code else ""
     fb_url = _load_fburl()
@@ -111,6 +113,8 @@ def generate():
         "lockHash": lock_hash,
         "fbUrl": fb_url,
         "updated": now.strftime("%d %b %Y, %H:%M UTC"),
+        "builtAt": now.isoformat(),
+        "collectedAt": collected_at,
         "cache": now.strftime("%Y%m%d%H%M"),
         "pillars": config.CATEGORIES,
         "topics": config.PIPELINE_TOPICS,

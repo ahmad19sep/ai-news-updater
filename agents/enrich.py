@@ -135,6 +135,30 @@ def _attempt(url, fetcher, resolver):
         return "", final, (note + "; " if note else "") + f"fetch failed: {type(e).__name__}: {str(e)[:100]}"
 
 
+def _candidate_links(cand):
+    """Primary and up to three alternate URLs with their publisher labels."""
+    primary_source = cand.get("source", "")
+    urls = [(cand["url"], primary_source)]
+    seen = {cand["url"]}
+    links = cand.get("links") or []
+    if not isinstance(links, (list, tuple)):
+        return urls
+    for link in links:
+        url = link.get("url") if isinstance(link, dict) else link
+        if not isinstance(url, str):
+            continue
+        url = url.strip()
+        if not url or url in seen:
+            continue
+        source = link.get("source") if isinstance(link, dict) else None
+        source = source.strip() if isinstance(source, str) else ""
+        urls.append((url, source or primary_source))
+        seen.add(url)
+        if len(urls) == 4:
+            break
+    return urls
+
+
 def run(store, candidate_ids, log=print, fetcher=fetch, resolver=resolve_url):
     done, thin = 0, 0
     for i in candidate_ids:
@@ -142,16 +166,18 @@ def run(store, candidate_ids, log=print, fetcher=fetch, resolver=resolve_url):
         if not cand:
             continue
         best_text, best_url, notes = "", cand["url"], []
+        best_source = cand.get("source", "")
         # the feed link first, then other sites that covered the same story
-        for url in [cand["url"]] + [u for u in (cand.get("links") or []) if u != cand["url"]][:3]:
+        for url, source in _candidate_links(cand):
             text, final, note = _attempt(url, fetcher, resolver)
             if note:
                 notes.append(note)
             if len(text) > len(best_text):
-                best_text, best_url = text, final
+                best_text, best_url, best_source = text, final, source
             if len(best_text) >= config.PIPELINE_ENRICH_MIN_CHARS:
                 break
         pack = build_pack(cand, best_text, "; ".join(notes)[:300], url=best_url)
+        pack["source"] = best_source
         from agents.store import now_iso
         pack["fetched_at"] = now_iso()
         store.put("sources", i, pack)
