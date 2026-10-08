@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
 6. **Utah to let AI examine patients and prescribe medication without human oversight** — 10 upvotes on Reddit/HN
    https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html
-7. **Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology** — science angle
-   https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/
-8. **Six Physician Groups Push Back After RFK Jr. Says AI Gives Better-Informed Second Opinions Than Any Doctor - Medical Daily** — science angle
+7. **Six Physician Groups Push Back After RFK Jr. Says AI Gives Better-Informed Second Opinions Than Any Doctor - Medical Daily** — science angle
    https://news.google.com/rss/articles/CBMijwFBVV95cUxPbHoxTHY0bDVVcnZjUFVtcU1RendNbGdLZjFZa1o2Rk5ubHZWdU1XV3pjY0lnZ3hZUy10aTRfNGxkb0U2YWdabTMzdVpxUXJ2YXVrZDF5YUJUNGF4TUVUTGtkS1djVF9kdExzYU5XNWdoYmNhQnNiaU5OZF9SamFENjFGWmFPZi1qZ2NSbEhudw?oc=5
+8. **Artificial Intelligence and Healthcare: What Premeds Should Know | Medical School Admissions Doctor | U.S. News - U.S. News & World Report** — science angle
+   https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNExfM25OMFJjWE9BNGd3Y0pZWGxHczNYUlhjYTZ2RTBkYTlQUkY3ZklHVGJuTXBjMXlnOWt6NW1XeGZod0NYbUw5TjRkdm1xcEYxVWt3aGpSSkRtS1lPUUE3Sjh5QkdvVmpoMXpwempQTmRjZ20yNnQ0bDRGSENZaFhyRjlsXzhUX3Fja2RiRXMyOE1UUVV4OTBtc3ZpZTVzeWlodWEwX0dtT3V5SUFlRkVDcjlMdGg5QjUxZWNaN0ZfNVVUZGNvUTFLZDBTSTU4LWNoNXhXaVBZWEhk?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 123
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
 8. **OpenAI's Altman says AI benefits warrant accepting some risks - Reuters** — Sam Altman News — Score 47
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOGhDUmJ2UzEwZ0hlenFISFFXdkZyVHd1TGNIZEhLTERLaDRWaXh4dlpVM1RfU0p4Vlh2cjVybWZtOWZkVVp0ZEVndGQ3T2pZd0tyelVvV3JnQ09FQlNOYWtVeUhCMjZud2NpYUVEZllhbHhIeVFvOXpEY0lLTklTNnNpNnhDTUdVS1dYSzl6S3VwbzgydXlKZVFRTkE4Y0dsYlJtQldVWkY?oc=5
-9. **Dartmouth launches review, faces student backlash following provost’s admitted AI use - WCAX** — Using AI To... — Score 43
+9. **Chick-fil-A has no plans to add AI to its drive-thru ordering service despite other rivals doing so - FOX5 Vegas** — Using AI To... — Score 46
+   https://news.google.com/rss/articles/CBMiywFBVV95cUxQWXZLLXd0N3gzQzBsUDd1TU9KYU0tRW1RNi1sY0Y3aXR4TlA1T1owdlo5REczWENCSlV0dUU1OWFieWhBTWh3VDBacGhjWWtza1g0cEptckxkYWZMTkNfYndpRU91TWVfektjbFl5Ql95akplaWRGeEJlT0hVMGhiV09pdXpiXzlCQW13NlhJRGpSckdsMGlWd0x0QnByczhkYy1LWWVyaHJhMU9EaDhubVBWVXptTUo1QnNuV3gxVGpBaTFhaEFBZm1ETdIB3wFBVV95cUxQMHBJVkJDMDROYWplY01FbjlwcHZ5eU5ZNVlZMmh1MkVmM1IxZkRESlltQ0V3TlR0WlFsVm9QQy1zUnBvbEZWUndtaFZESlI1ME1ZTnJaUkd3MXdnS2hOZWpkZjhDcF9fRk1FNnM1dlI2bVE3TzU4SE80MGM1T0ljRXlZbDZ5OXJBWXltaHZmSGp3OEdER3NBUGlzOVFnT3RndkVnazJmMEpkOGxLcmxDTmtaYW9pTzVVSzlPdk9hRk51LVROR2tyU3RHR3pZdjUxNUs4RGVNZ3lJV0lweGxn?oc=5
+10. **Dartmouth launches review, faces student backlash following provost’s admitted AI use - WCAX** — Using AI To... — Score 43
    https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3p6SDgxekJ1YWRhd3JScFRuRlg4c0NlMjNoNWtHUk5ETFZwTWktSWFtdkRwdkhjTW5sVDUwWEhzYk9nRDJTekY5dmZBb3BYM084OWRKdV9QdUR6QURBeW80dnl1ajZPdlNTbkp4ZDJVMkswTVpTSUFETEtCeERLcW82MG9DTy0yTzRFS2VpVHJIR0d0QU9kbkowaTlXaUVjRzlZcTBKMUVtY3ItaGpTQm9NYmV1ZTQ?oc=5
-10. **Sam Altman to Decoded: ‘The world should accept some bad things happening’ for the benefits of AI - Politico** — Sam Altman News — Score 43
-   https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2786
-- Most active topic: agents
+- Total stories tracked: 2749
+- Most active topic: openai
 - Busiest category: AI General News
 
 ---
