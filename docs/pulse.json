@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:09:30.273101+00:00",
+  "generated_at": "2026-10-08T13:34:55.354578+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,44 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 32,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-large-4/\\",
-          "signal": "Mistral Large 4"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-large-4/",
-          "signal": "Mistral Large 4: \"Le Chonk\""
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Sharing AI progress in mathematics",
       "category": "use_case",
@@ -90,8 +58,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -110,23 +78,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x05fj7/gpt6_and_intelligent_ui_now_rolling_out_in/",
-          "signal": "GPT-6 and Intelligent UI, now rolling out in ChatGPT for plus/pro/business /Enterprise today and to everyone tomorrow"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mn6l/chatgpt_helped_my_dad_turn_the_stories_he_repeats/",
+          "signal": "ChatGPT helped my dad turn the stories he repeats into stories we can keep"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x00g5y/chatgpt_bullying_me_suddenly/",
-          "signal": "ChatGPT bullying me suddenly"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0q1yl/the_emotional_rollercoaster_of_arguing_with/",
+          "signal": "The emotional rollercoaster of arguing with ChatGPT until you just give up and do it manually"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mca8/yes_this_works_now_in_chatgpt_its_not_an_image/",
+          "signal": "Yes, this works now in ChatGPT. (It's not an image answer, but an interactive window drawn instantly with the new Intelligent UI feature.)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
-          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
-          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
+          "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
+          "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
         }
       ],
       "content_ideas": []
@@ -188,7 +156,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -279,7 +247,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -348,7 +316,56 @@
       "content_ideas": []
     },
     {
-      "name": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "name": "🤖AI सीखना है तो आ जाओ 🔥 Ai Se Video Kaise Banaye | Ai Video Kaise Bana",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=huji525iJcU",
+          "signal": "🤖AI सीखना है तो आ जाओ 🔥 Ai Se Video Kaise Banaye | Ai Video Kaise Banaye | ai video kaise banaen"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yyn52jFNk6g",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai video generator | Ai story video kaise banaye"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iBZo6tp9WG8",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R0DThxdWMVE",
+          "signal": "ai video kaise banaye | ai se video kaise banaye | ai video kaise banaen | ai se video kaise banaen"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_Wu1sU34UAk",
+          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Reasons to Dislike AI Coding",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -360,7 +377,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -368,8 +385,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.erdosproblems.com/forum/thread/blog:9",
-          "signal": "Erdosproblems.com Succumbs to the AI Onslaught"
+          "url": "https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/",
+          "signal": "Reasons to Dislike AI Coding"
         }
       ],
       "content_ideas": []
@@ -377,98 +394,9 @@
   ],
   "rising_tools": [
     {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-large-4/\\",
-          "signal": "Mistral Large 4"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-large-4/",
-          "signal": "Mistral Large 4: \"Le Chonk\""
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
-          "signal": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x05fj7/gpt6_and_intelligent_ui_now_rolling_out_in/",
-          "signal": "GPT-6 and Intelligent UI, now rolling out in ChatGPT for plus/pro/business /Enterprise today and to everyone tomorrow"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x00g5y/chatgpt_bullying_me_suddenly/",
-          "signal": "ChatGPT bullying me suddenly"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=8boLI7cUzkw",
-          "signal": "Free AI Tools That Can Replace Paid AI Tools Like Claude, ChatGPT Astra, Higgsfield, Lovable"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
-          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -491,8 +419,78 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+          "signal": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mn6l/chatgpt_helped_my_dad_turn_the_stories_he_repeats/",
+          "signal": "ChatGPT helped my dad turn the stories he repeats into stories we can keep"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0q1yl/the_emotional_rollercoaster_of_arguing_with/",
+          "signal": "The emotional rollercoaster of arguing with ChatGPT until you just give up and do it manually"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mca8/yes_this_works_now_in_chatgpt_its_not_an_image/",
+          "signal": "Yes, this works now in ChatGPT. (It's not an image answer, but an interactive window drawn instantly with the new Intelligent UI feature.)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
+          "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
+        }
+      ],
+      "content_ideas": []
     }
   ],
-  "pain_points": [],
-  "tool_of_week_candidate": "Mistral — strongest signal this cycle"
+  "pain_points": [
+    {
+      "problem": "My issue with GPT 6 for chat",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0j149/my_issue_with_gpt_6_for_chat/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
+  "tool_of_week_candidate": "Sharing AI progress in mathematics — strongest signal this cycle"
 }
