@@ -1,8 +1,9 @@
-"""Builds the private Studio (docs/studio.html) from studio/index.html +
-app.css + app.js, baking in the latest news, the Agents & AI classification,
+"""Builds the Studio shell (docs/studio.html) from studio/index.html +
+app.css + private-state.js + app.js, baking in news, the Agents & AI classification,
 the content/ files and the access-code hash. The pipeline state itself
-(candidates, drafts) is NOT baked in: the page loads it live from Firebase or
-from docs/pipeline.json.
+(candidates, drafts) is NOT baked in. studio_server.py serves this shell with
+an authenticated private API. Static hosting retains the legacy Firebase/file
+client for compatibility; its access-code gate is not database authorization.
 
     python generate_studio.py
 """
@@ -129,6 +130,7 @@ def generate():
     }
     page = (_read(os.path.join(SRC, "index.html"))
             .replace("/*__CSS__*/", _read(os.path.join(SRC, "app.css")))
+            .replace("/*__PRIVATE_JS__*/", _read(os.path.join(SRC, "private-state.js")))
             .replace("/*__JS__*/", _read(os.path.join(SRC, "app.js")))
             .replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")))
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

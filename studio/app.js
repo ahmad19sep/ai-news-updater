@@ -6,6 +6,8 @@
 
 /* ================================================================ helpers */
 const D = window.STUDIO_DATA;
+const PRIVATE_API = D.privateApi === "/api" ? "/api" : "";
+const pipelineCommand = () => "python run_pipeline.py" + (PRIVATE_API ? " --store local" : "");
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -81,6 +83,11 @@ const FBURL = (D.fbUrl || "").replace(/\/+$/, "");
 let KEY = localStorage.getItem("boardkey") || "";
 async function tryUnlock() {
   const code = $("#lockcode").value.trim();
+  if (PRIVATE_API) {
+    try { if (await privateStore.login(code)) { $("#lockcode").value = ""; $("#lock").hidden = true; syncOverlayAccess(); await boot(); await privateStore.retryPending(); } }
+    catch (error) { $("#lockerr").textContent = error.message || "The private server could not be reached."; }
+    return;
+  }
   if (await sha256(code) === LOCKHASH) {
     localStorage.setItem("unlock", LOCKHASH);
     KEY = (await sha256("aixboard:" + code)).slice(0, 40);
@@ -148,12 +155,50 @@ $(".search kbd").textContent = MOD + "K";
 
 /* ================================================================ state */
 const S = { candidates: {}, sources: {}, drafts: {}, settings: {}, runs: {} };
-let MODE = "file";
+let MODE = PRIVATE_API ? "private" : "file";
 let OVR = jload("studio_overrides", {});
 let stream = null, loadedAt = null;
 const fbRoot = () => `${FBURL}/studio/${KEY}`;
+let privateStore = null, privateSyncState = "locked", privateSyncMessage = "", privateConflicts = [];
+function showPrivateNotice() {
+  const notice = $("#private-sync-notice"); if (!notice) return;
+  notice.hidden = !["blocked", "conflict", "offline"].includes(privateSyncState);
+  if (notice.hidden) return;
+  notice.innerHTML = `<div class="private-notice-copy"><b>${privateSyncState === "conflict" ? "Review a conflicting save" : privateSyncState === "offline" ? "Your private server is unavailable" : "Your save needs attention"}</b><p>${esc(privateSyncMessage)}</p></div>`;
+  const actions = document.createElement("div"); actions.className = "row"; notice.append(actions);
+  const button = (label, action) => { const b = document.createElement("button"); b.className = "btn sm"; b.type = "button"; b.textContent = label; b.onclick = action; actions.append(b); };
+  button("Export pending edits", exportLocalRecovery);
+  if (privateConflicts.length) {
+    const conflict = privateConflicts[0], details = document.createElement("details");
+    const summary = document.createElement("summary"); summary.textContent = "Compare saved and local versions"; details.append(summary);
+    const pending = ((privateStore.pending()[conflict.collection] || {})[conflict.id] || {}).fields || {};
+    const comparison = document.createElement("pre"); comparison.className = "private-comparison";
+    comparison.textContent = JSON.stringify({ saved: conflict.current, your_pending_changes: pending }, null, 2); details.append(comparison); notice.append(details);
+    button("Keep my changes", () => privateStore.resolve(conflict.collection, conflict.id, "local").then(() => rerender()));
+    button("Use saved version", function () { confirmThen(this, () => privateStore.resolve(conflict.collection, conflict.id, "saved").then(() => rerender())); });
+  } else button("Retry saving", () => privateStore.retryPending());
+}
+function exportLocalRecovery() {
+  const data = PRIVATE_API ? privateStore.pending() : OVR;
+  const blob = new Blob([JSON.stringify({ schema_version: 1, kind: "browser_pending_edits", exported_at: nowIso(), records: data, recovery: PRIVATE_API && privateStore.pendingRecovery ? privateStore.pendingRecovery() : null }, null, 2)], { type: "application/json" });
+  const link = document.createElement("a"), url = URL.createObjectURL(blob); link.href = url; link.download = "studio-pending-edits.json"; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+  toast("Recovery file exported. Keep it private.");
+}
+window.exportLocalRecovery = exportLocalRecovery;
+if (PRIVATE_API) privateStore = window.createPrivateStudio({
+  onState: raw => { for (const coll of Object.keys(S)) S[coll] = Object.fromEntries(Object.entries(raw[coll] || {}).filter(([, row]) => !row._deleted)); loadedAt = new Date(); },
+  onRecord: (coll, id, record) => { if (record._deleted) delete S[coll][id]; else S[coll][id] = record; navCounts(); if (coll === "drafts" && composeId === id && $("#ed-stepper")) { const dirty = editorDirty(id), display = Object.assign({}, record, {status: dirty && record.status !== "published" ? "draft" : record.status}); $("#ed-stepper").innerHTML = stepper(display.status); $("#ed-editorial-actions").innerHTML = editorialActions(display, dirty || !!((privateStore.pending().drafts || {})[id])); } },
+  onStatus: (state, message) => { privateSyncState = state; privateSyncMessage = message; setCloud(state === "saved"); showPrivateNotice(); },
+  onConflict: conflicts => { privateConflicts = conflicts; showPrivateNotice(); },
+  onLock: () => { const editor = $("#compose-editor"); if (composeId && editorDirty(composeId) && S.drafts[composeId]) privateStore.save("drafts", composeId, editorFields(S.drafts[composeId]), S.drafts[composeId]._revision || 0); if (editor.cancelEdits) editor.cancelEdits(); editor.flushEdits = null; for (const coll of Object.keys(S)) S[coll] = {}; $$(".screen").forEach(screen => { if (screen.id !== "s-discover" && screen.id !== "s-compose") screen.innerHTML = ""; }); editor.innerHTML = ""; $("#compose-list").innerHTML = ""; $("#pal-list").innerHTML = ""; $("#palette").hidden = true; privateConflicts = []; const notice = $("#private-sync-notice"); notice.innerHTML = ""; notice.hidden = true; $("#lock").hidden = false; $("#lock-title").textContent = "Your private workspace."; $("#lockerr").textContent = "Sign in to load your saved drafts."; $("#lockcode").value = ""; syncOverlayAccess(); setTimeout(() => $("#lockcode").focus(), 0); },
+});
 function setCloud(ok) {
   const b = $("#cloudbtn"); b.classList.toggle("off", !ok);
+  if (MODE === "private") {
+    b.title = privateSyncMessage || "Private workspace"; b.innerHTML = ic(ok ? "disk" : "warn"); b.setAttribute("aria-label", b.title);
+    const label = $("#syncLabel"); if (label) label.textContent = privateSyncState === "saved" ? "Saved privately" : privateSyncState === "saving" ? "Saving…" : privateSyncState === "locked" ? "Sign in required" : "Pending local edits";
+    return;
+  }
   b.title = MODE === "firebase" ? (ok ? "Live sync on" : "Sync problem: edits are kept on this device") : "Local mode: edits stay on this device";
   b.innerHTML = ic(MODE === "firebase" ? (ok ? "bolt" : "warn") : "disk");
   b.setAttribute("aria-label", b.title);
@@ -166,6 +211,7 @@ function applyOverrides() {
   }
 }
 async function loadState() {
+  if (PRIVATE_API) return privateStore.load();
   let raw = null;
   if (FBURL && KEY) {
     MODE = "firebase";
@@ -225,6 +271,7 @@ async function loadStateQuiet() {
   try { const r = await fetch(fbRoot() + ".json", { cache: "no-store" }); if (!r.ok) return; const raw = await r.json() || {}; for (const c of Object.keys(S)) S[c] = (raw[c] && typeof raw[c] === "object") ? Object.assign({}, raw[c]) : {}; applyOverrides(); setCloud(true); } catch (e) { setCloud(false); }
 }
 async function patchDoc(coll, id, fields, quiet) {
+  if (PRIVATE_API) { const saved = await privateStore.save(coll, id, fields); if (!quiet) rerender(); return saved; }
   fields = Object.assign({}, fields, { updated: nowIso() });
   S[coll][id] = Object.assign({}, S[coll][id] || { id }, fields);
   OVR[coll] = OVR[coll] || {}; OVR[coll][id] = Object.assign({}, OVR[coll][id] || {}, fields); jsave("studio_overrides", OVR);
@@ -329,8 +376,8 @@ function candRow(c) {
       <div class="m"><span class="chip">${esc(TOPIC_LABEL[c.topic] || c.topic || "")}</span><span>${esc(c.source || "")}</span>${c.urgency === "today" ? '<span class="chip accent">Timely today</span>' : ""}${c.manual ? "<span>Saved by you</span>" : ""}${c.source_ok ? "<span>Source ready</span>" : ""}</div>${c.reason ? `<p class="idea-reason">${esc(c.reason)}</p>` : ""}</div>
     <div class="r"><span class="mono">${esc(ago(c.published))}</span>${candActions(c)}</div></div>`;
 }
-window.setCand = (id, status) => { patchDoc("candidates", id, { status }); toast(status === "shortlisted" ? "Shortlisted" : status === "dismissed" ? "Dismissed" : "Moved back to New"); };
-window.draftCmd = id => { const ids = cands(c => c.status === "shortlisted").map(c => c.id); copy(`python run_pipeline.py --mode api --draft --ids ${ids.includes(id) ? ids.join(",") : id}`, "Command copied. Run it in the project folder; drafts appear here."); };
+window.setCand = async (id, status) => { const saved = await patchDoc("candidates", id, { status }); if (!PRIVATE_API || saved) toast(status === "shortlisted" ? "Shortlisted" : status === "dismissed" ? "Dismissed" : "Moved back to New"); };
+window.draftCmd = id => { const ids = cands(c => c.status === "shortlisted").map(c => c.id); copy(`${pipelineCommand()} --mode api --draft --ids ${ids.includes(id) ? ids.join(",") : id}`, "Command copied. Run it in the project folder; drafts appear here."); };
 window.manualDraft = async id => {
   const c = S.candidates[id]; if (!c) return;
   if (S.drafts[id]) { openDraft(id); return; }
@@ -484,6 +531,22 @@ function stepper(st) {
   const order = ["draft", "approved", "scheduled", "published"]; const i = order.indexOf(st);
   return `<div class="steps">${order.map((s, k) => `<span class="${k < i ? "done" : k === i ? "now" : ""}"><span class="glyph ${k < i ? "published" : k === i ? s : "draft"}" style="width:10px;height:10px;${k < i ? "" : k === i ? "" : "opacity:.5"}"></span>${STATUS_LABEL[s]}</span>`).join("")}${st === "rejected" ? '<span class="now">Rejected</span>' : ""}</div>`;
 }
+function editorFields(d) {
+  return {edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value, hashtags: ($("#ed-tags").value.match(/#\w+/g) || []), facts: $("#ed-facts") ? $("#ed-facts").value : (d.facts || "")};
+}
+function editorDirty(id) {
+  const d = S.drafts[id];
+  if (composeId !== id || !d || !$("#ed-post")) return false;
+  const fields = editorFields(d);
+  return fields.edited_post !== postOf(d) || fields.edited_comment !== commentOf(d) || JSON.stringify(fields.hashtags) !== JSON.stringify(d.hashtags || []) || fields.facts !== (d.facts || "");
+}
+function editorialActions(d, pending = false) {
+  const st = d.status;
+  return `${st === "draft" ? `<button class="btn primary" ${pending ? 'disabled title="Wait for the current edit to save"' : ""} onclick="setDraft('${d.id}',{status:'approved'},'Approved')">Approve <kbd>${MOD}↵</kbd></button>` : ""}
+    ${st === "approved" ? `<button class="btn primary" ${pending ? 'disabled' : ""} onclick="scheduleNext('${d.id}')">Next free slot <kbd>${MOD}↵</kbd></button>` : ""}
+    ${["approved", "scheduled"].includes(st) ? `<button class="btn ghost" onclick="setDraft('${d.id}',{status:'draft'},'Back to review')">Back to review</button>` : ""}
+    ${st !== "published" ? `<button class="btn ghost danger" data-confirm="Reject this draft?" onclick="confirmThen(this,()=>setDraft('${d.id}',{status:'rejected'},'Rejected'))">Reject</button>` : ""}`;
+}
 function renderEditor(id) {
   const ed = $("#compose-editor"); if (ed.flushEdits) ed.flushEdits(); ed.flushEdits = null;
   const d = id && S.drafts[id];
@@ -493,12 +556,9 @@ function renderEditor(id) {
   ed.innerHTML = `
     <div class="toolbar">
       <div class="tt"><h2>${esc(d.title)}</h2><div class="m"><span>${esc(d.source || "")}</span><span><a href="${esc(d.url)}" target="_blank" rel="noopener">source</a></span><span>${esc(TOPIC_LABEL[d.topic] || d.topic || "")}</span>${d.scheduled_for ? `<span>${esc(fmtDT(d.scheduled_for))}</span>` : ""}<span id="ed-saved">saved</span></div></div>
-      ${st === "draft" ? `<button class="btn primary" onclick="setDraft('${d.id}',{status:'approved'},'Approved')">Approve <kbd>${MOD}↵</kbd></button>` : ""}
-      ${st === "approved" ? `<button class="btn primary" onclick="scheduleNext('${d.id}')">Next free slot <kbd>${MOD}↵</kbd></button>` : ""}
-      ${["approved", "scheduled"].includes(st) ? `<button class="btn ghost" onclick="setDraft('${d.id}',{status:'draft'},'Back to review')">Back to review</button>` : ""}
-      ${st !== "published" ? `<button class="btn ghost danger" data-confirm="Reject this draft?" onclick="confirmThen(this,()=>setDraft('${d.id}',{status:'rejected'},'Rejected'))">Reject</button>` : ""}
+      <div class="row" id="ed-editorial-actions">${editorialActions(d, PRIVATE_API && !!((privateStore.pending().drafts || {})[d.id]))}</div>
     </div>
-    ${stepper(st)}
+    <div id="ed-stepper">${stepper(st)}</div>
     ${d.angle && d.angle.angle ? `<p class="t3" style="margin:-6px 0 14px"><span class="label">Angle</span>&nbsp; ${esc(d.angle.angle)}</p>` : ""}
     <div class="epanes">
       <div class="composer">
@@ -538,11 +598,12 @@ function renderEditor(id) {
     </div>`;
   const refresh = () => refreshEditorPanels(d.id);
   let persistTimer = null;
-  const saveEdits = () => { clearTimeout(persistTimer); persistTimer = null; const dd = S.drafts[d.id]; if (!dd) return; patchDoc("drafts", d.id, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value, hashtags: ($("#ed-tags").value.match(/#\w+/g) || []), facts: $("#ed-facts") ? $("#ed-facts").value : (dd.facts || "") }, true); const sv = $("#ed-saved"); if (sv) sv.textContent = "saved " + fmtT(new Date()); };
+  const saveEdits = async () => { clearTimeout(persistTimer); persistTimer = null; const dd = S.drafts[d.id]; if (!dd || !$("#ed-post")) return; const saved = await patchDoc("drafts", d.id, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value, hashtags: ($("#ed-tags").value.match(/#\w+/g) || []), facts: $("#ed-facts") ? $("#ed-facts").value : (dd.facts || "") }, true); const sv = composeId === d.id && $("#ed-saved"); if (sv) sv.textContent = PRIVATE_API && (editorDirty(d.id) || !saved) ? "pending local edits" : "saved " + fmtT(new Date()); };
   const persist = () => { clearTimeout(persistTimer); persistTimer = setTimeout(saveEdits, 700); };
   ed.flushEdits = () => { if (persistTimer !== null) saveEdits(); };
+  ed.cancelEdits = () => { clearTimeout(persistTimer); persistTimer = null; };
   const grow = el => { el.style.height = "auto"; el.style.height = Math.max(320, el.scrollHeight + 4) + "px"; };
-  ["ed-post", "ed-comment", "ed-tags", "ed-facts"].forEach(i => { const el = $("#" + i); if (el) el.addEventListener("input", () => { const sv = $("#ed-saved"); if (sv) sv.textContent = "saving…"; if (i === "ed-post") grow(el); refresh(); persist(); }); });
+  ["ed-post", "ed-comment", "ed-tags", "ed-facts"].forEach(i => { const el = $("#" + i); if (el) el.addEventListener("input", () => { const sv = $("#ed-saved"); if (sv) sv.textContent = "saving…"; if (i === "ed-post") grow(el); if (PRIVATE_API) { const display = Object.assign({}, S.drafts[d.id], {status: S.drafts[d.id].status === "published" ? "published" : "draft"}); $("#ed-stepper").innerHTML = stepper(display.status); $("#ed-editorial-actions").innerHTML = editorialActions(display, true); } refresh(); persist(); }); });
   grow($("#ed-post"));
   refresh();
 }
@@ -570,11 +631,21 @@ function refreshEditorPanels(id) {
 }
 window.refreshEditorPanels = refreshEditorPanels;
 window.setPreviewMode = (mode, id) => { previewMode = mode; jsave("previewMode", mode); $$("[data-preview]").forEach(button => { const active = button.dataset.preview === mode; button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active)); }); refreshEditorPanels(id); };
-window.setDraft = (id, fields, msg) => { if (CUR === "compose" && composeId === id && $("#ed-post") && S.drafts[id]) Object.assign(fields, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value }); patchDoc("drafts", id, fields); if (msg) toast(msg); };
+window.setDraft = async (id, fields, msg) => {
+  const editing = CUR === "compose" && composeId === id && $("#ed-post") && S.drafts[id];
+  if (PRIVATE_API && editing && fields.status === "approved") {
+    if (!await patchDoc("drafts", id, editorFields(S.drafts[id]), true)) { rerender(); return; }
+  }
+  if (editing) Object.assign(fields, { edited_post: $("#ed-post").value, edited_comment: $("#ed-comment").value });
+  const saved = await patchDoc("drafts", id, fields); if (msg && (!PRIVATE_API || saved)) toast(msg);
+};
 window.copyPost = id => { const d = S.drafts[id]; if (!d) return; const tags = ($("#ed-tags") && composeId === id) ? ($("#ed-tags").value.match(/#\w+/g) || []) : (d.hashtags || []); const post = ($("#ed-post") && composeId === id) ? $("#ed-post").value : postOf(d); copy(post.trim() + (tags.length ? "\n\n" + tags.join(" ") : ""), "Post copied. Paste it into LinkedIn, then add the first comment."); };
 window.markPosted = async id => {
   const d = S.drafts[id]; if (!d) return;
-  await patchDoc("drafts", id, { status: "published", published_at: nowIso(), edited_post: $("#ed-post") ? $("#ed-post").value : postOf(d) }, true);
+  const fields = { status: "published", edited_post: $("#ed-post") ? $("#ed-post").value : postOf(d) };
+  if (!PRIVATE_API) fields.published_at = nowIso();
+  const saved = await patchDoc("drafts", id, fields, true);
+  if (PRIVATE_API && !saved) { rerender(); return; }
   if (d.candidate_id) await patchDoc("candidates", d.candidate_id, { status: "published" }, true);
   toast("Marked as posted. Rate it in Published when the numbers come in."); go("published");
 };
@@ -760,7 +831,7 @@ function nextFreeSlot() {
   }
   return new Date(Date.now() + 864e5).toISOString();
 }
-window.scheduleNext = id => { const when = nextFreeSlot(); patchDoc("drafts", id, { status: "scheduled", scheduled_for: when }); toast("Scheduled for " + fmtDT(when)); };
+window.scheduleNext = async id => { const when = nextFreeSlot(); const saved = await patchDoc("drafts", id, { status: "scheduled", scheduled_for: when }); if (!PRIVATE_API || saved) toast("Scheduled for " + fmtDT(when)); };
 function slotAvailable(when, id) {
   const time = new Date(when).getTime();
   return Number.isFinite(time) && time > Date.now() && !drafts(d => d.id !== id && d.status === "scheduled").some(d => Math.abs(new Date(d.scheduled_for).getTime() - time) < 36e5);
@@ -777,7 +848,7 @@ window.saveDraftSlot = id => {
 let scheduleOffset = 0, selectedSlot = null;
 window.shiftSchedule = offset => { scheduleOffset = offset === 0 ? 0 : scheduleOffset + offset; selectedSlot = null; renderSchedule(); };
 window.selectSlot = when => { selectedSlot = when; renderSchedule(); const picker = $("#slot-picker"); if (picker) picker.focus(); };
-window.placeInSlot = id => { if (!id || !selectedSlot) return; const when = selectedSlot, draft = S.drafts[id]; if (!draft || draft.status !== "approved") { toast("Choose a draft that is still approved."); renderSchedule(); return; } if (!slotAvailable(when, id)) { selectedSlot = null; toast("That opening is no longer available. Choose another slot."); renderSchedule(); return; } selectedSlot = null; patchDoc("drafts", id, { status: "scheduled", scheduled_for: when }); toast("Scheduled for " + fmtDT(when)); };
+window.placeInSlot = async id => { if (!id || !selectedSlot) return; const when = selectedSlot, draft = S.drafts[id]; if (!draft || draft.status !== "approved") { toast("Choose a draft that is still approved."); renderSchedule(); return; } if (!slotAvailable(when, id)) { selectedSlot = null; toast("That opening is no longer available. Choose another slot."); renderSchedule(); return; } selectedSlot = null; const saved = await patchDoc("drafts", id, { status: "scheduled", scheduled_for: when }); if (!PRIVATE_API || saved) toast("Scheduled for " + fmtDT(when)); };
 function renderSchedule() {
   const sched = drafts(d => d.status === "scheduled").sort((a, b) => String(a.scheduled_for).localeCompare(String(b.scheduled_for)));
   const approved = drafts(d => d.status === "approved").sort(byCreated);
@@ -848,22 +919,26 @@ function renderSettings() {
       <section class="sec settings-card"><div class="sh"><h2>${LI}&nbsp; Your publishing channel</h2><span class="chip ok">LinkedIn</span></div><p class="t3">Studio prepares the post and first comment. You open LinkedIn, share it, and mark it as posted when you are ready.</p><div class="channel-status"><span class="dot ok"></span><span>Connected to your manual publishing workflow</span></div></section>
     </div><div class="settings-column">
       <section class="sec settings-card"><div class="sh"><h2>${ic("sun")}A comfortable space</h2></div><p class="t3">Choose the light that feels right.</p><div class="appearance-options"><button class="appearance-option ${!dark ? "active" : ""}" data-theme="light" aria-pressed="${!dark}" onclick="setStudioTheme(false)"><span class="theme-sample light-sample"></span>${ic("sun")}Light</button><button class="appearance-option ${dark ? "active" : ""}" data-theme="dark" aria-pressed="${dark}" onclick="setStudioTheme(true)"><span class="theme-sample dark-sample"></span>${ic("moon")}Dark</button></div><button class="btn sm ghost" onclick="$('#sidebtn').click()">${ic("panel")}Toggle sidebar</button></section>
-      <section class="sec settings-card"><div class="sh"><h2>${ic("bolt")}Your workspace, saved</h2><span class="chip ${MODE === "firebase" ? "ok" : ""}">${MODE === "firebase" ? "Live sync" : "This device"}</span></div><p class="t3">${MODE === "firebase" ? "Your workspace uses Firebase live sync. Changes are kept on this device when a connection is unavailable." : "You are working from a local file. Your edits are saved in this browser on this device."}</p><p class="cap">Loaded ${esc(loadedAt ? loadedAt.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" }) : "just now")} · workspace built ${esc(D.updated)}</p><div class="row"><button class="btn sm" onclick="location.reload()">${ic("undo")}Refresh workspace</button><button class="btn sm ghost danger" data-confirm="Forget access on this device?" onclick="confirmThen(this,()=>{localStorage.removeItem('unlock');localStorage.removeItem('boardkey');location.reload()})">Sign out of this device</button></div></section>
+      <section class="sec settings-card"><div class="sh"><h2>${ic("bolt")}Your workspace, saved</h2><span class="chip ${MODE === "firebase" ? "ok" : ""}">${MODE === "private" ? "Private server" : MODE === "firebase" ? "Live sync" : "This device"}</span></div><p class="t3">${MODE === "private" ? "Your drafts are saved to your private local server. Pending edits stay in this browser until the server confirms them." : MODE === "firebase" ? "Your workspace uses Firebase live sync. Changes are kept on this device when a connection is unavailable." : "You are working from a local file. Your edits are saved in this browser on this device."}</p><p class="cap">Loaded ${esc(loadedAt ? loadedAt.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" }) : "just now")} · workspace built ${esc(D.updated)}</p><div class="row"><button class="btn sm" onclick="location.reload()">${ic("undo")}Refresh workspace</button><button class="btn sm ghost" onclick="exportLocalRecovery()">Export pending edits</button><button class="btn sm ghost danger" data-confirm="Forget access on this device?" onclick="confirmThen(this,signOutStudio)">Sign out of this device</button></div></section>
       <section class="sec settings-card"><div class="sh"><h2>${ic("bolt")}A few useful shortcuts</h2></div><div class="list">${[["1 – 8", "Move between screens"], [MOD + " K", "Find a screen or action"], [MOD + " \\", "Show or hide the sidebar"], [MOD + " ↵", "Approve or find the next slot"], [MOD + " ⇧ C", "Copy your post"], ["/", "Search in Discover"], ["?", "Open these preferences"], ["Esc", "Close an overlay"]].map(([k, v]) => `<div class="chan"><span class="t3">${esc(v)}</span><kbd>${esc(k)}</kbd></div>`).join("")}</div></section>
-      <section class="sec settings-card advanced-settings"><details><summary>Pipeline &amp; advanced setup</summary><p class="t3">${D.mode === "api" ? "API mode: Claude agents draft and verify selected stories." : "Free mode: rules triage and article fetching; write using your subscription."}</p><code class="cmd">python run_pipeline.py
-python run_pipeline.py --mode api
-python run_pipeline.py --triage
-python run_pipeline.py --dry-run
-python run_pipeline.py --status</code><button class="btn sm ghost" onclick="copy('python run_pipeline.py','Pipeline command copied')">${ic("copy")}Copy run command</button><p class="cap">Free triage runs inside the hourly news job. Start the Content pipeline workflow in Actions to run API drafting. ${MODE !== "firebase" ? "Configure FIREBASE_URL to share state with your agents and other devices." : ""} Voice references are maintained in the content folder.</p></details></section>
+      <section class="sec settings-card advanced-settings"><details><summary>Pipeline &amp; advanced setup</summary><p class="t3">${D.mode === "api" ? "API mode: Claude agents draft and verify selected stories." : "Free mode: rules triage and article fetching; write using your subscription."}</p><code class="cmd">${pipelineCommand()}
+${pipelineCommand()} --mode api
+${pipelineCommand()} --triage
+${pipelineCommand()} --dry-run
+${pipelineCommand()} --status</code><button class="btn sm ghost" onclick="copy(pipelineCommand(),'Pipeline command copied')">${ic("copy")}Copy run command</button><p class="cap">Free triage runs inside the hourly news job. Start the Content pipeline workflow in Actions to run API drafting. ${MODE === "private" ? "These commands use your local private state. Cloud authentication setup remains a separate migration." : MODE !== "firebase" ? "Legacy Firebase setup requires owner authentication before a private deployment." : ""} Voice references are maintained in the content folder.</p></details></section>
     </div></div>`;
 }
+window.signOutStudio = async () => {
+  if (PRIVATE_API) { try { await privateStore.logout(); } catch (error) { toast(error.message, 6000); } return; }
+  localStorage.removeItem("unlock"); localStorage.removeItem("boardkey"); location.reload();
+};
 window.setStudioTheme = dark => { localStorage.setItem("theme", dark ? "dark" : "light"); applyTheme(dark); };
-window.saveSettings = () => {
+window.saveSettings = async () => {
   const goal = Number($("#st-target").value), inputSlots = $("#st-slots").value.split("\n").map(value => value.trim()).filter(Boolean);
   if (!Number.isInteger(goal) || goal < 1 || goal > 14) { toast("Choose a weekly goal from 1 to 14 posts."); $("#st-target").focus(); return; }
   if (!inputSlots.length || inputSlots.some(value => !parseSlot(value))) { toast("Use a day and time for each slot, such as Tue 09:00."); $("#st-slots").focus(); return; }
-  patchDoc("settings", "profile", { personal_note: $("#st-note").value.trim(), audience: $("#st-aud").value.trim(), postsPerWeek: goal, slots: Array.from(new Set(inputSlots)) });
-  toast("Preferences saved" + (MODE === "firebase" ? ". Your agents will use them on their next run." : " on this device."));
+  const saved = await patchDoc("settings", "profile", { personal_note: $("#st-note").value.trim(), audience: $("#st-aud").value.trim(), postsPerWeek: goal, slots: Array.from(new Set(inputSlots)) });
+  if (!PRIVATE_API || saved) toast(MODE === "private" ? "Preferences saved privately." : "Preferences saved" + (MODE === "firebase" ? ". Your agents will use them on their next run." : " on this device."));
 };
 /* ================================================================ command palette + keyboard */
 function commands() {
@@ -877,7 +952,7 @@ function commands() {
   }
   list.push({ grp: "View", label: "Toggle dark / light", kbd: "", run: () => $("#themebtn").click() });
   list.push({ grp: "View", label: "Toggle sidebar", kbd: MOD + "\\", run: () => $("#sidebtn").click() });
-  list.push({ grp: "Pipeline", label: "Copy run command", kbd: "", run: () => copy("python run_pipeline.py", "Copied") });
+  list.push({ grp: "Pipeline", label: "Copy run command", kbd: "", run: () => copy(pipelineCommand(), "Copied") });
   return list;
 }
 let palSel = 0, paletteReturnFocus = null;
@@ -928,9 +1003,11 @@ document.addEventListener("keydown", e => {
 $$(".navitem").forEach(a => a.onclick = e => { e.preventDefault(); go(a.dataset.screen); });
 async function boot() {
   if ($("#workspaceDate")) $("#workspaceDate").textContent = new Date().toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" });
-  await loadState();
+  const loaded = await loadState();
+  if (PRIVATE_API && !loaded) return;
   go(location.hash.slice(1) || "today");
 }
-if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) { $("#lock").hidden = false; syncOverlayAccess(); setTimeout(() => $("#lockcode").focus(), 0); }
+if (PRIVATE_API) boot();
+else if (LOCKHASH && localStorage.getItem("unlock") !== LOCKHASH) { $("#lock").hidden = false; syncOverlayAccess(); setTimeout(() => $("#lockcode").focus(), 0); }
 else boot();
 window.__S = S; window.__D = D; window.checkPost = checkPost; window.patchDoc = patchDoc; window.rerender = rerender;

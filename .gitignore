@@ -11,6 +11,12 @@ __pycache__/
 # Your personal studio data (plans, done marks) - stays on your PC
 plans.db
 
+# Authoritative private Creator Studio state, session tokens, and migration backups
+.studio-private/
+.env
+.env.*
+!.env.example
+
 # Node (only needed locally to run smoke_test.js)
 node_modules/
 package.json

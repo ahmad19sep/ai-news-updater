@@ -36,7 +36,7 @@ hourly collector (~90 feeds)  ──►  news.db
         3-5 in FREE mode = you, in the Studio: copy the agent's prompt into your
         Claude / ChatGPT subscription, paste the JSON answer back, it is parsed
         and checked. In API mode the Claude agents do 3-5 (~$0.30 per run).
-                                     │  shared state (Firebase or docs/pipeline.json)
+                                     │  shared state (legacy Firebase or private local file)
                                      ▼
    Studio:  Today · Discover · Ideas · Compose · Schedule · Published · Library · Settings
             you shortlist → write/edit in your voice → approve → slot → copy → post on LinkedIn → ✓ Mark as posted → rate
@@ -93,6 +93,54 @@ copy a grounded prompt into any AI, paste the post back).
 
 Edit them any time; every run reads them fresh. The Studio's Library tab shows them.
 
+## Creator Studio blueprint: first foundation slice
+
+The blueprint inventory and first local foundation are on
+`feat/creator-studio-foundation`. See the [baseline](documentation/creator-studio/BASELINE.md),
+[architecture decision](documentation/creator-studio/ADR-001.md), and
+[implementation checkpoint](documentation/creator-studio/PROGRESS.md).
+The later UI, evidence, prompt, image and delivery phases remain pending.
+
+The local Studio now uses a server-enforced owner session and a private state
+file. Configure `STUDIO_LOCAL_PASSCODE` (at least eight characters) securely in
+your terminal, then run:
+
+```text
+python generate_studio.py
+python studio_server.py --port 8765
+```
+
+Open `http://127.0.0.1:8765`. The server binds to loopback only; it is a local
+owner workflow, not a production hosting server. Without `FIREBASE_URL`, the
+pipeline and local server use ignored `.studio-private/pipeline.json`.
+`STUDIO_STATE_PATH` can select another private file for both. The server always
+uses local storage, even when legacy Firebase variables exist; run
+`python run_pipeline.py --store local` for a matching local pipeline even with
+legacy Firebase configured. Public `docs/` destinations are
+rejected. `.env.example` documents the variables; files are not auto-loaded.
+
+Saves use revisions, protect against stale edits, and visibly retain pending
+edits during outages. Export pending edits before clearing browser data or
+changing origins. Review conflicts explicitly. Local approval is an owner
+decision tied to the saved content revision after the existing deterministic
+screen; it does not certify semantic evidence. Editing content or source text
+invalidates approval. Scheduling requires a current approval and a future
+timestamp with an offset; delivery stays manual on LinkedIn.
+
+Existing state is migrated explicitly, with a dry run first:
+
+```text
+python migrate_studio_state.py --source .\legacy-export.json
+python migrate_studio_state.py --source .\legacy-export.json --apply
+```
+
+The CLI preserves IDs, validates counts, creates private backups and reports
+rollback steps. It does not fetch Firebase or import browser caches. Export
+legacy browser overrides from Settings and retain that recovery file before a
+cutover; reconcile them before deleting any source or backup. No live data has
+been migrated by this change. The deployed static Firebase client still needs
+owner-scoped authentication/rules and a separately verified cutover.
+
 ## Setup (one time)
 
 ```
@@ -103,8 +151,9 @@ Free mode needs nothing else. For API mode set `ANTHROPIC_API_KEY`, or put it
 in `anthropic_key.txt` (git-ignored); in the cloud it is the `ANTHROPIC_API_KEY`
 secret. For one shared state across devices and the cloud, keep `FIREBASE_URL`
 and `SITE_PASSCODE` set (cloud secrets; `firebase_url.txt` / `site_passcode.txt`
-locally). Without Firebase the pipeline writes `docs/pipeline.json` and Studio
-edits stay in that browser.
+locally). Without Firebase the pipeline writes ignored `.studio-private/pipeline.json`;
+use the local server above to edit it. The static client retains legacy file
+compatibility and does not expose this private fallback.
 
 ## Commands
 
@@ -117,12 +166,18 @@ edits stay in that browser.
 | `python run_pipeline.py --dry-run` | Show what would run, no cost |
 | `python run_pipeline.py --status` | What is in the store, last runs and cost |
 | `python main.py` | Fetch news once + instant alerts (the cloud does this hourly) |
+| `python run_pipeline.py --store local` | Free triage/enrichment into the same private file as the local Studio |
+| `python studio_server.py --port 8765` | Authenticated local Studio using private state |
+| `python migrate_studio_state.py --source export.json` | Dry-run private state migration; add `--apply` after reviewing the report |
 | `python generate_studio.py` | Rebuild the Studio (`docs/studio.html`) |
 | `python generate_site.py` | Rebuild the old studio (`docs/studio-legacy.html`) |
 | `python generate_public.py` | Rebuild the public site |
 | `python generate_pulse.py` | Rebuild Pulse signals (`docs/pulse.json`) |
 | `python -m unittest tests.test_pipeline` | Pipeline tests with a fake Claude (no key, no cost) |
 | `python -m unittest test_agent_ai_radar test_agent_discovery` | Classifier tests |
+| `python -m unittest discover` | All offline backend tests, including contracts, migrations and session/revision guards |
+| `node private_studio_test.js` | Private transport tests for sessions, conflicts and pending edit recovery |
+| `node private_ui_test.js` | Private generated-Studio login, manual export, logout and unsaved editor recovery in JSDOM |
 | `node studio_test.js` | Drives every Studio screen in JSDOM (`npm i --no-save jsdom` first) |
 | `node public_test.js` | Checks public news search, saved stories, source ordering, reader accessibility and storage recovery in JSDOM |
 | `node smoke_test.js` / `node ui_test.js` | Old studio tests |
@@ -150,7 +205,7 @@ Stories are sorted by **what the title talks about** (keyword rules in `config.p
 ## Files
 
 **Agents (`agents/`)** — one job each
-- `llm.py` — Claude calls (JSON in/out), cost ledger, budget; `store.py` — shared state (Firebase or `docs/pipeline.json`)
+- `llm.py` — Claude calls (JSON in/out), cost ledger, budget; `store.py` — shared state (legacy Firebase or ignored `.studio-private/pipeline.json`)
 - `sources.py` (reads news.db) · `triage.py` · `enrich.py` · `angle.py` · `writer.py` · `verify.py` · `content.py` (loads `content/`)
 - `run_pipeline.py` — the orchestrator CLI
 
@@ -168,9 +223,9 @@ Project review: [IMPROVEMENTS.md](IMPROVEMENTS.md) records the visual and collec
 
 ## Known gaps
 
-- **Firebase rules are permissive.** The Studio and the agents use unauthenticated
+- **Deployed Firebase authorization is unverified.** The legacy Studio and agents use unauthenticated
   REST writes under a secret path; the passcode is a screen gate, not database
-  authorization. Owner-scoped auth is the next real security job.
+  authorization. The local server now enforces sessions; deployed owner-scoped auth remains pending.
 - LinkedIn analytics are typed in by hand (LinkedIn does not expose personal
   post stats to individual apps).
 - Other channels are placeholders in Settings until their agents exist.

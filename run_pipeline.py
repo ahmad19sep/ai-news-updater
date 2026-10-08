@@ -209,9 +209,11 @@ def main(argv=None):
     p.add_argument("--notify", action="store_true")
     p.add_argument("--budget", type=float, default=None, help="USD cap for this run")
     p.add_argument("--mode", choices=["free", "api"], default=config.PIPELINE_MODE)
+    p.add_argument("--store", choices=["local", "firebase"], default=None,
+                   help="Explicit state backend; local matches studio_server.py even with legacy Firebase configured")
     args = p.parse_args(argv)
 
-    store = Store()
+    store = Store(backend=args.store)
     if args.status:
         print_status(store)
         return 0

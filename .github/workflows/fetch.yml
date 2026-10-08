@@ -30,6 +30,13 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Reject private Studio state in the published tree
+        run: |
+          if git ls-files --error-unmatch docs/pipeline.json >/dev/null 2>&1; then
+            echo "::error::docs/pipeline.json is private Studio state. Migrate it explicitly before publishing."
+            exit 1
+          fi
+
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -60,9 +67,21 @@ jobs:
 
       - name: Save database + dashboard back to the repo
         run: |
+          guard_private_state() {
+            if [ -e docs/pipeline.json ] || [ -L docs/pipeline.json ] || git ls-files --error-unmatch docs/pipeline.json >/dev/null 2>&1; then
+              echo "::error::Private Studio state cannot be included in public news updates."
+              exit 1
+            fi
+            if ! git diff --cached --quiet -- docs/pipeline.json; then
+              echo "::error::Private Studio state is staged; refusing to publish."
+              exit 1
+            fi
+          }
+          guard_private_state
           git config user.name "ai-news-radar-bot"
           git config user.email "actions@github.com"
-          git add news.db docs/
+          git add -- news.db docs/ ':(exclude)docs/pipeline.json'
+          guard_private_state
           if ! git diff --cached --quiet; then
             git commit -m "data: hourly news update"
             # If Ahmad pushed code while we ran, retry and auto-resolve
@@ -74,9 +93,11 @@ jobs:
               if [ "$n" -gt 3 ]; then echo "giving up after 3 retries"; exit 1; fi
               git pull --rebase -X theirs origin main || {
                 git checkout --theirs -- news.db docs/ 2>/dev/null || true
-                git add news.db docs/
+                guard_private_state
+                git add -- news.db docs/ ':(exclude)docs/pipeline.json'
                 GIT_EDITOR=true git rebase --continue || git rebase --skip || true
               }
+              guard_private_state
             done
           fi
 

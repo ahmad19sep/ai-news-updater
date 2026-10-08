@@ -235,7 +235,7 @@ function runChecks() {
     if (!(w.__AGENT_ITEMS || []).some(x => x.ak === "agenttest001")) {
       w.__AGENT_ITEMS.push({ ak: "agenttest001", t: "Example agent runtime adds approval",
         u: "https://example.com/agent", s: "Example Corp", p: 2,
-        pub: "2026-09-21T00:00:00+00:00", col: "2026-09-22T00:00:00+00:00",
+        pub: new Date().toISOString(), col: new Date().toISOString(),
         sm: "", sc: 1, links: [], primary: "agent_loops",
         topics: ["agent_loops", "eval_safety"], secondary: ["tool calling"],
         practical: ["built", "operations"], domains: ["software_it"], aiRoles: ["automate_act"],
