@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 30 Sep 2026 to 07 Oct 2026
+# 🗞️ AI THIS WEEK — 01 Oct 2026 to 08 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos**
@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006
 2. **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — science angle
    https://www.sciencedaily.com/releases/2026/09/260930020309.htm
-3. **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — science angle
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
-4. **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — science angle
+3. **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — science angle
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
-5. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
+4. **An AI agent emailed researchers for help. It told us why** — 41 upvotes on Reddit/HN
    https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
-6. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
+5. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-7. **Utah to let AI examine patients and prescribe medication without human oversight** — 10 upvotes on Reddit/HN
+6. **Utah to let AI examine patients and prescribe medication without human oversight** — 10 upvotes on Reddit/HN
    https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html
-8. **Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology** — science angle
+7. **Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology** — science angle
    https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/
+8. **Six Physician Groups Push Back After RFK Jr. Says AI Gives Better-Informed Second Opinions Than Any Doctor - Medical Daily** — science angle
+   https://news.google.com/rss/articles/CBMijwFBVV95cUxPbHoxTHY0bDVVcnZjUFVtcU1RendNbGdLZjFZa1o2Rk5ubHZWdU1XV3pjY0lnZ3hZUy10aTRfNGxkb0U2YWdabTMzdVpxUXJ2YXVrZDF5YUJUNGF4TUVUTGtkS1djVF9kdExzYU5XNWdoYmNhQnNiaU5OZF9SamFENjFGWmFPZi1qZ2NSbEhudw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 123
@@ -31,10 +31,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://kenoshanews.com/news/nation-world/article_103c4544-541e-5617-b1c6-3896b479c666.html
 3. **Trump names national intelligence director Jay Clayton to lead a new federal AI task force** — timesherald — Score 63
    https://www.timesherald.com/2026/10/05/jay-clayton-federal-ai-task-force/
-4. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 60
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
-5. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 58
+4. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 58
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
+5. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
+   https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
 6. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 53
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3RKZmI4YXM4ZTdkODBKVFpYcDA5N0F0QVZPdFpWa3ZIakNVMXh5SUVpYWV6MmZ2di1IOGNsbndVZ2dCc0daN3diNnlZZTVRTnM0SmdKOHRuSW5QV01XaW1XeVR3VGlPRWs2MHZ3OENDa2diRnc5WlNKdmF0V2s0VWRLSzVCRy11TDdjUy05N0JORlRTTUhUY1JlekE0clhCOWVNNE9VV0FKTTVyUkgzVHBuQVBsUVNLcVJpOV92eEFBdUJqMi1iRjllUnRMRXc5Wm5oRVl0Y2w?oc=5
 7. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 51
@@ -51,11 +51,11 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **RFK Jr.'s embrace of AI confounds some MAHA allies and medical experts - ABC News - Breaking News, Latest News and Videos** — https://news.google.com/rss/articles/CBMioAFBVV95cUxPSTZCVV9mSmtBdEkyeDVjOFNiRUlYU203bmZ3YWNfdDUyOW50VFNxYmxHN2xfTmlLNXBNT1czc1JfbUhZODBqVkMxUFNIVThrdzFTSDl4aHhBckUzTTZWODNyYUhQLUtWc3JXcVgzR0pXZmltb3NnSGF5a3RfNHpVYW9sRTdLOW1lY0FaT2xzM3FoU1NFeEJxS3FCMUJuYnpS0gGmAUFVX3lxTE05Z3poT3dmUGU4clhKbWxxOUJkaU1aX2hUX0tybjRiVHV5SndVY3VCNmdMOTVRZGNlai1IMnJMZGxISGZWZF9aVHc3c0JfVnJINzFwRUJhcDJ5SXF4YVQ0YzVRRHpxSzkyVmg5bFNuSVpSNEQ0ZDlFUlhJLWxsYkpnbjFCVzVfSENzTGY1TWNjR0hzZ2swZ1Bzb1J0MzNKYWFWaTBEdlE?oc=5
 - **Supercomputing researchers document evolution of AI hardware** — https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006
 - **This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough** — https://www.sciencedaily.com/releases/2026/09/260930020309.htm
-- **The AI Breakthroughs – and Opportunity – Hiding in Your Doctor’s Office - InvestorPlace** — https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGYwTDNURHBCVmxjMndBWHpteVpmdElKS3lNUVhibXFYMmNWNk9yVkZHMXpnV08tYWJsR1k1bThrck5USHB3anJWVUJGa2t3QUcyRC15Q3hURHlkRjNPVzRKcWdSNGhPNkpaSkdiSFBqaWNucU1hN0FjX1FsSEZEVnNUdEtUaDNoYVpoRFVvMURVRnc?oc=5
+- **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2791
-- Most active topic: openai
+- Total stories tracked: 2786
+- Most active topic: agents
 - Busiest category: AI General News
 
 ---
