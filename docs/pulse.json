@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:34:55.354578+00:00",
+  "generated_at": "2026-10-08T23:23:31.570866+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,39 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 26,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Sharing AI progress in mathematics",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-          "signal": "Sharing AI progress in mathematics"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -50,14 +23,13 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -78,77 +50,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0unml/what_are_tech_people_doing_with_chatgpt/",
+          "signal": "What are tech people doing with ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mn6l/chatgpt_helped_my_dad_turn_the_stories_he_repeats/",
           "signal": "ChatGPT helped my dad turn the stories he repeats into stories we can keep"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0q1yl/the_emotional_rollercoaster_of_arguing_with/",
-          "signal": "The emotional rollercoaster of arguing with ChatGPT until you just give up and do it manually"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mca8/yes_this_works_now_in_chatgpt_its_not_an_image/",
-          "signal": "Yes, this works now in ChatGPT. (It's not an image answer, but an interactive window drawn instantly with the new Intelligent UI feature.)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
           "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Tell HN: GitHub refuses to remove cracked copies of my software after ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=49982498",
-          "signal": "Tell HN: GitHub refuses to remove cracked copies of my software after a month"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenTPU – An open-source AI accelerator, developed by AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/FeSens/openTPU",
-          "signal": "OpenTPU – An open-source AI accelerator, developed by AI"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
+          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
         }
       ],
       "content_ideas": []
@@ -176,12 +94,17 @@
           "platform": "hackernews",
           "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
           "signal": "Meta and Microsoft take steps to reduce employee usage of Claude AI"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+          "signal": "Anthropic bans 'abusive or cruel behavior' towards Claude"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "name": "OpenAI annualised revenues $20B less than previously signalled",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -201,35 +124,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-          "signal": "EmbeddingGemma 2: An open, lightweight multimodal embedding model"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Penguin Mail – open-source Rust email client for Linux with AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://penguin-mail.com/",
-          "signal": "Penguin Mail – open-source Rust email client for Linux with AI"
+          "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+          "signal": "OpenAI annualised revenues $20B less than previously signalled"
         }
       ],
       "content_ideas": []
@@ -262,33 +158,6 @@
       "content_ideas": []
     },
     {
-      "name": "Utah to let AI examine patients and prescribe medication without human",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
-          "signal": "Utah to let AI examine patients and prescribe medication without human oversight"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "SynthID Detector",
       "category": "use_case",
       "momentum": "rising",
@@ -311,55 +180,6 @@
           "platform": "hackernews",
           "url": "https://synthid.com/",
           "signal": "SynthID Detector"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "🤖AI सीखना है तो आ जाओ 🔥 Ai Se Video Kaise Banaye | Ai Video Kaise Bana",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=huji525iJcU",
-          "signal": "🤖AI सीखना है तो आ जाओ 🔥 Ai Se Video Kaise Banaye | Ai Video Kaise Banaye | ai video kaise banaen"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yyn52jFNk6g",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai video generator | Ai story video kaise banaye"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=iBZo6tp9WG8",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=R0DThxdWMVE",
-          "signal": "ai video kaise banaye | ai se video kaise banaye | ai video kaise banaen | ai se video kaise banaen"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_Wu1sU34UAk",
-          "signal": "ai se video kaise banaye | ai video kaise banaye | ai se cartoon video kaise banaye | ai video"
         }
       ],
       "content_ideas": []
@@ -390,6 +210,168 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "AI-assisted proof of optimal packing for 11 squares",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+          "signal": "AI-assisted proof of optimal packing for 11 squares"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Forever junior: Skills AI can't develop for you",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/",
+          "signal": "Forever junior: Skills AI can't develop for you"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "South Korea says AI agents appear to have been used to hack the countr",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+          "signal": "South Korea says AI agents appear to have been used to hack the country's banks"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Agent.reviews – Where AI agents read and write reviews on too",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://agent.reviews/",
+          "signal": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to tr",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://humxn.io/humxn-launches-free-home-service-program",
+          "signal": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to train robots"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
+          "signal": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -416,6 +398,11 @@
           "platform": "hackernews",
           "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
           "signal": "Meta and Microsoft take steps to reduce employee usage of Claude AI"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+          "signal": "Anthropic bans 'abusive or cruel behavior' towards Claude"
         }
       ],
       "content_ideas": []
@@ -428,14 +415,13 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -456,41 +442,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0unml/what_are_tech_people_doing_with_chatgpt/",
+          "signal": "What are tech people doing with ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mn6l/chatgpt_helped_my_dad_turn_the_stories_he_repeats/",
           "signal": "ChatGPT helped my dad turn the stories he repeats into stories we can keep"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0q1yl/the_emotional_rollercoaster_of_arguing_with/",
-          "signal": "The emotional rollercoaster of arguing with ChatGPT until you just give up and do it manually"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mca8/yes_this_works_now_in_chatgpt_its_not_an_image/",
-          "signal": "Yes, this works now in ChatGPT. (It's not an image answer, but an interactive window drawn instantly with the new Intelligent UI feature.)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
           "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
+          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "My issue with GPT 6 for chat",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0j149/my_issue_with_gpt_6_for_chat/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
-  "tool_of_week_candidate": "Sharing AI progress in mathematics — strongest signal this cycle"
+  "pain_points": [],
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
