@@ -464,18 +464,19 @@ class MigrationTests(unittest.TestCase):
         override = self.directory / "override" / "state.json"
         with mock.patch.dict(os.environ, {"STUDIO_STATE_PATH": str(override)}):
             report = migrate(self.source)
-            self.assertEqual(Path(report["target"]), override)
+            # Hosted Windows TEMP can use an 8.3 alias; reports use real paths.
+            self.assertEqual(Path(report["target"]), override.resolve())
             explicit = migrate(self.source, self.target)
-            self.assertEqual(Path(explicit["target"]), self.target)
+            self.assertEqual(Path(explicit["target"]), self.target.resolve())
             output = io.StringIO()
             with mock.patch("sys.stdout", output):
                 self.assertEqual(migration_main(["--source", str(self.source)]), 0)
             printed, _ = json.JSONDecoder().raw_decode(output.getvalue())
-            self.assertEqual(Path(printed["target"]), override)
+            self.assertEqual(Path(printed["target"]), override.resolve())
             with mock.patch("sys.stdout", io.StringIO()) as output:
                 self.assertEqual(migration_main(["--source", str(self.source), "--target", str(self.target)]), 0)
                 printed, _ = json.JSONDecoder().raw_decode(output.getvalue())
-                self.assertEqual(Path(printed["target"]), self.target)
+                self.assertEqual(Path(printed["target"]), self.target.resolve())
         self.assertFalse(override.parent.exists())
         self.assertFalse(self.target.parent.exists())
 
