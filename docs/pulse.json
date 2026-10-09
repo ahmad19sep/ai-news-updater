@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:26:35.102655+00:00",
+  "generated_at": "2026-10-09T22:41:11.369996+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
+      "reddit": 33,
       "hackernews": 23,
       "youtube": 106
     },
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -41,8 +41,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
-          "signal": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth"
+          "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+          "signal": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT"
         },
         {
           "platform": "reddit",
@@ -51,55 +51,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ilvp/chatgpt_pro_is_getting_insane_10_subagents_in_a/",
-          "signal": "ChatGPT Pro is getting insane. 10 subagents in a normal chat, sessions lasting up to 5 hours, and a massive productivity boost."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1s72a/how_to_use_chatgpt_to_save_potentially_hundreds/",
+          "signal": "How to use ChatGPT to save potentially hundreds of $$$ when booking any flights"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
-          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1o5t2/chatgpt_now_watermarks_text_in_the_eu_just_have/",
+          "signal": "ChatGPT now watermarks text in the EU. \"Just have another model rewrite it\" fails in three ways, and I measured each"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
-          "signal": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1vxmv/does_chatgpt_still_go_off_on_a_tangent_for_safety/",
+          "signal": "Does ChatGPT still go off on a tangent for \"safety\" reasons for random chats?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9wOTnZzUSFA",
-          "signal": "Try Not to Laugh Challenge 60 🤣 | ChatGPT Gone wrong 55 | #funny #viral #shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-          "signal": "Meta and Microsoft take steps to reduce employee usage of Claude AI"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-          "signal": "Anthropic bans 'abusive or cruel behavior' towards Claude"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ojeb/going_for_a_walk_with_chatgpt/",
+          "signal": "Going for a walk with ChatGPT"
         }
       ],
       "content_ideas": []
@@ -132,34 +100,7 @@
       "content_ideas": []
     },
     {
-      "name": "SynthID Detector",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://synthid.com/",
-          "signal": "SynthID Detector"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "name": "Show HN: Let your AI agents paint big arrows, boxes and text on your s",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -169,9 +110,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -180,13 +121,13 @@
         {
           "platform": "hackernews",
           "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-          "signal": "Let your AI agents paint big arrows, boxes and text on your screen"
+          "signal": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI-assisted proof of optimal packing for 11 squares",
+      "name": "OpenAI fires three safety researchers for \"mishandling research inform",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -198,7 +139,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -206,8 +147,62 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
-          "signal": "AI-assisted proof of optimal packing for 11 squares"
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "signal": "OpenAI fires three safety researchers for \"mishandling research information\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Typesafe AI raises $870M at $7.5B",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://typesafe.ai/blog/series-ai",
+          "signal": "Typesafe AI raises $870M at $7.5B"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+          "signal": "Anthropic bans 'abusive or cruel behavior' towards Claude"
         }
       ],
       "content_ideas": []
@@ -225,7 +220,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -267,7 +262,63 @@
       "content_ideas": []
     },
     {
+      "name": "Court throws out killer's sentence after judge said he loved AI video ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
+          "signal": "Court throws out killer's sentence after judge said he loved AI video of victim"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
+          "signal": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -287,35 +338,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
-          "signal": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Agent.reviews – Where AI agents read and write reviews on too",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://agent.reviews/",
-          "signal": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools"
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+          "signal": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more"
         }
       ],
       "content_ideas": []
@@ -346,72 +370,13 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to tr",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://humxn.io/humxn-launches-free-home-service-program",
-          "signal": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to train robots"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-          "signal": "Meta and Microsoft take steps to reduce employee usage of Claude AI"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-          "signal": "Anthropic bans 'abusive or cruel behavior' towards Claude"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -434,8 +399,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
-          "signal": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth"
+          "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+          "signal": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT"
         },
         {
           "platform": "reddit",
@@ -444,29 +409,68 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ilvp/chatgpt_pro_is_getting_insane_10_subagents_in_a/",
-          "signal": "ChatGPT Pro is getting insane. 10 subagents in a normal chat, sessions lasting up to 5 hours, and a massive productivity boost."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1s72a/how_to_use_chatgpt_to_save_potentially_hundreds/",
+          "signal": "How to use ChatGPT to save potentially hundreds of $$$ when booking any flights"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
-          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1o5t2/chatgpt_now_watermarks_text_in_the_eu_just_have/",
+          "signal": "ChatGPT now watermarks text in the EU. \"Just have another model rewrite it\" fails in three ways, and I measured each"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
-          "signal": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1vxmv/does_chatgpt_still_go_off_on_a_tangent_for_safety/",
+          "signal": "Does ChatGPT still go off on a tangent for \"safety\" reasons for random chats?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9wOTnZzUSFA",
-          "signal": "Try Not to Laugh Challenge 60 🤣 | ChatGPT Gone wrong 55 | #funny #viral #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ojeb/going_for_a_walk_with_chatgpt/",
+          "signal": "Going for a walk with ChatGPT"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+          "signal": "Anthropic bans 'abusive or cruel behavior' towards Claude"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "ChatGPT now watermarks text in the EU. \"Just have another model rewrite it\" fails in three ways, and I measured each",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1o5t2/chatgpt_now_watermarks_text_in_the_eu_just_have/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Is GPT-6 broken?",
       "who_affected": "r/ChatGPT",
