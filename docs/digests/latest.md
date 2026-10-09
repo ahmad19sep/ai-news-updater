@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
 8. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 53
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3RKZmI4YXM4ZTdkODBKVFpYcDA5N0F0QVZPdFpWa3ZIakNVMXh5SUVpYWV6MmZ2di1IOGNsbndVZ2dCc0daN3diNnlZZTVRTnM0SmdKOHRuSW5QV01XaW1XeVR3VGlPRWs2MHZ3OENDa2diRnc5WlNKdmF0V2s0VWRLSzVCRy11TDdjUy05N0JORlRTTUhUY1JlekE0clhCOWVNNE9VV0FKTTVyUkgzVHBuQVBsUVNLcVJpOV92eEFBdUJqMi1iRjllUnRMRXc5Wm5oRVl0Y2w?oc=5
-9. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
+9. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 51
+   https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
+10. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-10. **OpenAI's Altman says AI benefits warrant accepting some risks - Reuters** — Sam Altman News — Score 47
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOGhDUmJ2UzEwZ0hlenFISFFXdkZyVHd1TGNIZEhLTERLaDRWaXh4dlpVM1RfU0p4Vlh2cjVybWZtOWZkVVp0ZEVndGQ3T2pZd0tyelVvV3JnQ09FQlNOYWtVeUhCMjZud2NpYUVEZllhbHhIeVFvOXpEY0lLTklTNnNpNnhDTUdVS1dYSzl6S3VwbzgydXlKZVFRTkE4Y0dsYlJtQldVWkY?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
 - **Doctors, hospitals can't use AI to create testimonials: National Medical Commission - The Times of India** — https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUUZQMmlpNnFzaGNvOFM2UEtmZ2RrZXZFRXIwNVlnT2hVWUdxMjhsa3R1WkxENDV3bVlVdlRzMWZtc2lOaUROWHdOeWNqWU1Mb05JMG9aYVU0MWh3MHRkSTdhT3YzcG45QTZHT1hQU3FNTVZPdHJJalNkVEhiUmlvRUNYeU9oM3EzdGhHUXJ2SEpHVVdKNVRsRnBaLUJTQU5GaWs4VHlFczI5a0RteURtVHZFMW4tRnpBNkkzWVVESm5jNERrNjl2UGRRbmxmX1ZYSnlZZzNhZHE3OXQ3WFltMWVn0gHnAUFVX3lxTFB3WDZkZzRvWEJNcmFmek9mekxCMHRrd1VNZzRRV0gtZFhTVEFqMTN4N1FhbkQxeTVZSXdtMGVkbUZSdGNZUjVxbnlJWlZhdWVSTFVrMXdtM0lwZUJtTk50eE54ZzJXandVVzVIUUJzNE42MkRXRi1VVVZ2NWRqb2NQd1NmeDMzUC1XMm1QSDY3MEh2Y1dubmNfVzh6RE1fNFZjUmJROFlmSUI4aW82X2JMLWFYRkRmRy1JUW51dm83elE2U2tMMWpycWJ5aDNmNERSR1c5STI5TlZtSUoxa2NlY3hfMC05bw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2847
-- Most active topic: agents
+- Total stories tracked: 2785
+- Most active topic: openai
 - Busiest category: AI General News
 
 ---
