@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T06:13:17.868517+00:00",
+  "generated_at": "2026-10-09T13:26:35.102655+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,11 +18,12 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -50,23 +51,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0unml/what_are_tech_people_doing_with_chatgpt/",
-          "signal": "What are tech people doing with ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x156vf/anyone_else_having_issues_with_the_chatgpt_app/",
-          "signal": "Anyone else having issues with the ChatGPT app?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x19tke/chatgpt_temporary_chats_expose_your_messages_in/",
-          "signal": "ChatGPT Temporary Chats expose your messages in Chrome tab titles. How is this not a major privacy issue?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ilvp/chatgpt_pro_is_getting_insane_10_subagents_in_a/",
+          "signal": "ChatGPT Pro is getting insane. 10 subagents in a normal chat, sessions lasting up to 5 hours, and a massive productivity boost."
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
-          "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
+          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
+          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
+          "signal": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9wOTnZzUSFA",
+          "signal": "Try Not to Laugh Challenge 60 🤣 | ChatGPT Gone wrong 55 | #funny #viral #shorts"
         }
       ],
       "content_ideas": []
@@ -131,33 +132,6 @@
       "content_ideas": []
     },
     {
-      "name": "Google Playground: Create and play custom games",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "signal": "Google Playground: Create and play custom games"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "SynthID Detector",
       "category": "use_case",
       "momentum": "hot",
@@ -185,7 +159,7 @@
       "content_ideas": []
     },
     {
-      "name": "Reasons to Dislike AI Coding",
+      "name": "Let your AI agents paint big arrows, boxes and text on your screen",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -205,8 +179,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/",
-          "signal": "Reasons to Dislike AI Coding"
+          "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+          "signal": "Let your AI agents paint big arrows, boxes and text on your screen"
         }
       ],
       "content_ideas": []
@@ -266,33 +240,6 @@
       "content_ideas": []
     },
     {
-      "name": "Forever junior: Skills AI can't develop for you",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/",
-          "signal": "Forever junior: Skills AI can't develop for you"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI-ready biological data: $1.8B global commitment",
       "category": "use_case",
       "momentum": "rising",
@@ -305,7 +252,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -372,6 +319,60 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Show HN: Free open source Adobe Lightroom alternative, completely loca",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/thesnarkitecht/rembrandt",
+          "signal": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to tr",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://humxn.io/humxn-launches-free-home-service-program",
+          "signal": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to train robots"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -410,11 +411,12 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -442,23 +444,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0unml/what_are_tech_people_doing_with_chatgpt/",
-          "signal": "What are tech people doing with ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x156vf/anyone_else_having_issues_with_the_chatgpt_app/",
-          "signal": "Anyone else having issues with the ChatGPT app?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x19tke/chatgpt_temporary_chats_expose_your_messages_in/",
-          "signal": "ChatGPT Temporary Chats expose your messages in Chrome tab titles. How is this not a major privacy issue?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ilvp/chatgpt_pro_is_getting_insane_10_subagents_in_a/",
+          "signal": "ChatGPT Pro is getting insane. 10 subagents in a normal chat, sessions lasting up to 5 hours, and a massive productivity boost."
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
-          "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
+          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
+          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
+          "signal": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9wOTnZzUSFA",
+          "signal": "Try Not to Laugh Challenge 60 🤣 | ChatGPT Gone wrong 55 | #funny #viral #shorts"
         }
       ],
       "content_ideas": []
@@ -466,13 +468,13 @@
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT Temporary Chats expose your messages in Chrome tab titles. How is this not a major privacy issue?",
+      "problem": "Is GPT-6 broken?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x19tke/chatgpt_temporary_chats_expose_your_messages_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1krjf/is_gpt6_broken/"
         }
       ],
       "content_opportunity": ""
