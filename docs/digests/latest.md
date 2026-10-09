@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 01 Oct 2026 to 08 Oct 2026
+# 🗞️ AI THIS WEEK — 02 Oct 2026 to 09 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos**
@@ -15,14 +15,14 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
 4. **GPT-6 Astra plays World of Warcraft for the first time with agent-wow** — 69 upvotes on Reddit/HN
    https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/
-5. **Show HN: KORA Doctor – find LLM calls your agent may not have needed** — 2 upvotes on Reddit/HN
-   https://github.com/Krako-Labs/kora-doctor
-6. **Voice AI startup ElevenLabs has teamed up with the Karnataka government to help patients who have lost the ability to speak communicate using a synthetic version of their own voice, and it is offering free lifetime licences to eligible citizens. The MoU with the - Instagram** — science angle
+5. **Voice AI startup ElevenLabs has teamed up with the Karnataka government to help patients who have lost the ability to speak communicate using a synthetic version of their own voice, and it is offering free lifetime licences to eligible citizens. The MoU with the - Instagram** — science angle
    https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOaW85QlJ6U1RBMkpvYmprSW9NYW9ObHVpcll1VkFyT0hXQXBTaHBwdUJ6SFAzWGtvWk9fakpkMy1FOHRqb0ItS21CZndjcThDTWc?oc=5
-7. **As AI fear spreads across America, a Republican state becomes first to allow AI doctor; that critics say - The Times of India** — science angle
+6. **As AI fear spreads across America, a Republican state becomes first to allow AI doctor; that critics say - The Times of India** — science angle
    https://news.google.com/rss/articles/CBMi3gJBVV95cUxNdjdjRzBXQnRTWURPTk9qd1QzTHJRZklZeVFKbzNTRG9RSkhJZGNjaEp0Y0Fpa0JkUGpvcWxpblZVQ1dfVFB4TVRkdEloZFk1RDdDVDhhM25OUDc4SEI3MENtMlpNS09wZnhUc0FhYVNfX3hKTDB3amRvS0ZET3lUREFXQU5TU2hPNm1uT2VzTVpDTVB6Y2t0aTJsdW41VHA2dHZqYXpoTTZCRHF0N0h6YmFXczFjUXl5d1JtSklLTV85N2tLY1RrdkRZOXAwb2JjdWxhUkZTMGVVNWpzSXlycmZBOThES0g4QlQ0eE1ranUxV3Jab0toUklsSFp5VkQ2OUNwaHlMWXBIX3pMZlBoVEpXLXNJRnNscVpQckRObWl1YmU5aHhjd3lmU25zLXZWaFpEWWRUVDhHNnRNNnd6akF6THo2cDVxY0VLQlZqTU04NTRJZDNGaFBDNjlMUdIB4wJBVV95cUxNT21xQWZ2V2N0bTY5dlFXcHlmZmFsWTBPcnJwQ0pFRlg4LTBEbnhGR1hhQUQxbVVXZlFOaDN3NDNjUVdqMGVPYzBGV3ZrYW1jaUlFNUkwV0pIcHNnYzh1U0FwTTdsRFNUTjk1TDl0OTlSckZ1QlRDRTNDcGJzRFdPdGROaDMzYWpYeU9OV0RfS0dfU2xwYzNaamVySHJocm16dkJqc2tIeHk5Sjl2U2MyQ3FVX1lzMERHUEdqckcxMTVvWGtyekxRQmRzMC1VMjliYmc0dF9VQ3hUa1FVTDdRZW12X0R6ZkNORTIwS3VGcV9XM1BwampZQjdkb19nd253RXZka1ZHd3FFcXpMMGJ3VV8xQ21hVU5WSi1nTHU2a0JLd3hVTlZHd1F2N204aVo2dHRYanNlc2VHSktDRDJNc0VTRkRqaFZLb1ptX1pySnJ2RGlMcFkyM0o1bWFZOWJGQld3?oc=5
-8. **Meet OpenAI's doctor-whisperer making ChatGPT better at talking health - Business Insider** — science angle
+7. **Meet OpenAI's doctor-whisperer making ChatGPT better at talking health - Business Insider** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxOcTk0M0dnRWM4dGN0ZkhDYXNuMHNqYWJmRnJvUVh1dURpWGt0UmFhTDcyOEtDb0pmREF3UE9udzhpSEQtUERiNFYyUTRUXzByWHZaUEJXcC05ZERaTTNaQ3FZR3FIUXFMTy15U2RlTUxYZE9mX0VYQUc3dFA4VVh5RGdn?oc=5
+8. **Doctors, hospitals can't use AI to create testimonials: National Medical Commission - The Times of India** — science angle
+   https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUUZQMmlpNnFzaGNvOFM2UEtmZ2RrZXZFRXIwNVlnT2hVWUdxMjhsa3R1WkxENDV3bVlVdlRzMWZtc2lOaUROWHdOeWNqWU1Mb05JMG9aYVU0MWh3MHRkSTdhT3YzcG45QTZHT1hQU3FNTVZPdHJJalNkVEhiUmlvRUNYeU9oM3EzdGhHUXJ2SEpHVVdKNVRsRnBaLUJTQU5GaWs4VHlFczI5a0RteURtVHZFMW4tRnpBNkkzWVVESm5jNERrNjl2UGRRbmxmX1ZYSnlZZzNhZHE3OXQ3WFltMWVn0gHnAUFVX3lxTFB3WDZkZzRvWEJNcmFmek9mekxCMHRrd1VNZzRRV0gtZFhTVEFqMTN4N1FhbkQxeTVZSXdtMGVkbUZSdGNZUjVxbnlJWlZhdWVSTFVrMXdtM0lwZUJtTk50eE54ZzJXandVVzVIUUJzNE42MkRXRi1VVVZ2NWRqb2NQd1NmeDMzUC1XMm1QSDY3MEh2Y1dubmNfVzh6RE1fNFZjUmJROFlmSUI4aW82X2JMLWFYRkRmRy1JUW51dm83elE2U2tMMWpycWJ5aDNmNERSR1c5STI5TlZtSUoxa2NlY3hfMC05bw?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos** — Using AI To... — Score 123
@@ -31,30 +31,30 @@ All coverage: https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2e
    https://kenoshanews.com/news/nation-world/article_103c4544-541e-5617-b1c6-3896b479c666.html
 3. **Trump names national intelligence director Jay Clayton to lead a new federal AI task force** — timesherald — Score 63
    https://www.timesherald.com/2026/10/05/jay-clayton-federal-ai-task-force/
-4. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
+4. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
+   https://openai.com/index/sharing-ai-progress-in-mathematics/
+5. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
    https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
-5. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
+6. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
-6. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 53
+7. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 53
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3RKZmI4YXM4ZTdkODBKVFpYcDA5N0F0QVZPdFpWa3ZIakNVMXh5SUVpYWV6MmZ2di1IOGNsbndVZ2dCc0daN3diNnlZZTVRTnM0SmdKOHRuSW5QV01XaW1XeVR3VGlPRWs2MHZ3OENDa2diRnc5WlNKdmF0V2s0VWRLSzVCRy11TDdjUy05N0JORlRTTUhUY1JlekE0clhCOWVNNE9VV0FKTTVyUkgzVHBuQVBsUVNLcVJpOV92eEFBdUJqMi1iRjllUnRMRXc5Wm5oRVl0Y2w?oc=5
-7. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 50
+8. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 50
    https://openai.com/index/gpt-6-for-everyone
-8. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
+9. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-9. **OpenAI's Altman says AI benefits warrant accepting some risks - Reuters** — Sam Altman News — Score 47
+10. **OpenAI's Altman says AI benefits warrant accepting some risks - Reuters** — Sam Altman News — Score 47
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOGhDUmJ2UzEwZ0hlenFISFFXdkZyVHd1TGNIZEhLTERLaDRWaXh4dlpVM1RfU0p4Vlh2cjVybWZtOWZkVVp0ZEVndGQ3T2pZd0tyelVvV3JnQ09FQlNOYWtVeUhCMjZud2NpYUVEZllhbHhIeVFvOXpEY0lLTklTNnNpNnhDTUdVS1dYSzl6S3VwbzgydXlKZVFRTkE4Y0dsYlJtQldVWkY?oc=5
-10. **Chick-fil-A has no plans to add AI to its drive-thru ordering service despite other rivals doing so - FOX5 Vegas** — Using AI To... — Score 46
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxQWXZLLXd0N3gzQzBsUDd1TU9KYU0tRW1RNi1sY0Y3aXR4TlA1T1owdlo5REczWENCSlV0dUU1OWFieWhBTWh3VDBacGhjWWtza1g0cEptckxkYWZMTkNfYndpRU91TWVfektjbFl5Ql95akplaWRGeEJlT0hVMGhiV09pdXpiXzlCQW13NlhJRGpSckdsMGlWd0x0QnByczhkYy1LWWVyaHJhMU9EaDhubVBWVXptTUo1QnNuV3gxVGpBaTFhaEFBZm1ETdIB3wFBVV95cUxQMHBJVkJDMDROYWplY01FbjlwcHZ5eU5ZNVlZMmh1MkVmM1IxZkRESlltQ0V3TlR0WlFsVm9QQy1zUnBvbEZWUndtaFZESlI1ME1ZTnJaUkd3MXdnS2hOZWpkZjhDcF9fRk1FNnM1dlI2bVE3TzU4SE80MGM1T0ljRXlZbDZ5OXJBWXltaHZmSGp3OEdER3NBUGlzOVFnT3RndkVnazJmMEpkOGxLcmxDTmtaYW9pTzVVSzlPdk9hRk51LVROR2tyU3RHR3pZdjUxNUs4RGVNZ3lJV0lweGxn?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
 - **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
 - **RFK Jr.'s embrace of AI confounds some MAHA allies and medical experts - ABC News - Breaking News, Latest News and Videos** — https://news.google.com/rss/articles/CBMioAFBVV95cUxPSTZCVV9mSmtBdEkyeDVjOFNiRUlYU203bmZ3YWNfdDUyOW50VFNxYmxHN2xfTmlLNXBNT1czc1JfbUhZODBqVkMxUFNIVThrdzFTSDl4aHhBckUzTTZWODNyYUhQLUtWc3JXcVgzR0pXZmltb3NnSGF5a3RfNHpVYW9sRTdLOW1lY0FaT2xzM3FoU1NFeEJxS3FCMUJuYnpS0gGmAUFVX3lxTE05Z3poT3dmUGU4clhKbWxxOUJkaU1aX2hUX0tybjRiVHV5SndVY3VCNmdMOTVRZGNlai1IMnJMZGxISGZWZF9aVHc3c0JfVnJINzFwRUJhcDJ5SXF4YVQ0YzVRRHpxSzkyVmg5bFNuSVpSNEQ0ZDlFUlhJLWxsYkpnbjFCVzVfSENzTGY1TWNjR0hzZ2swZ1Bzb1J0MzNKYWFWaTBEdlE?oc=5
 - **Supercomputing researchers document evolution of AI hardware** — https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006
-- **Show HN: KORA Doctor – find LLM calls your agent may not have needed** — https://github.com/Krako-Labs/kora-doctor
+- **Voice AI startup ElevenLabs has teamed up with the Karnataka government to help patients who have lost the ability to speak communicate using a synthetic version of their own voice, and it is offering free lifetime licences to eligible citizens. The MoU with the - Instagram** — https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOaW85QlJ6U1RBMkpvYmprSW9NYW9ObHVpcll1VkFyT0hXQXBTaHBwdUJ6SFAzWGtvWk9fakpkMy1FOHRqb0ItS21CZndjcThDTWc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2758
+- Total stories tracked: 2747
 - Most active topic: openai
 - Busiest category: AI General News
 
