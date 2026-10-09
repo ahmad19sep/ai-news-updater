@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T23:23:31.570866+00:00",
+  "generated_at": "2026-10-09T06:13:17.868517+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": null
@@ -55,18 +55,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mn6l/chatgpt_helped_my_dad_turn_the_stories_he_repeats/",
-          "signal": "ChatGPT helped my dad turn the stories he repeats into stories we can keep"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x156vf/anyone_else_having_issues_with_the_chatgpt_app/",
+          "signal": "Anyone else having issues with the ChatGPT app?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x19tke/chatgpt_temporary_chats_expose_your_messages_in/",
+          "signal": "ChatGPT Temporary Chats expose your messages in Chrome tab titles. How is this not a major privacy issue?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
           "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
-          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
         }
       ],
       "content_ideas": []
@@ -160,7 +160,7 @@
     {
       "name": "SynthID Detector",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -239,6 +239,33 @@
       "content_ideas": []
     },
     {
+      "name": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/stepfun/step-5-preview",
+          "signal": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Forever junior: Skills AI can't develop for you",
       "category": "use_case",
       "momentum": "rising",
@@ -266,61 +293,7 @@
       "content_ideas": []
     },
     {
-      "name": "South Korea says AI agents appear to have been used to hack the countr",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
-          "signal": "South Korea says AI agents appear to have been used to hack the country's banks"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Agent.reviews – Where AI agents read and write reviews on too",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://agent.reviews/",
-          "signal": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to tr",
+      "name": "AI-ready biological data: $1.8B global commitment",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -340,8 +313,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://humxn.io/humxn-launches-free-home-service-program",
-          "signal": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to train robots"
+          "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+          "signal": "AI-ready biological data: $1.8B global commitment"
         }
       ],
       "content_ideas": []
@@ -369,6 +342,33 @@
           "platform": "hackernews",
           "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
           "signal": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Agent.reviews – Where AI agents read and write reviews on too",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://agent.reviews/",
+          "signal": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools"
         }
       ],
       "content_ideas": []
@@ -447,23 +447,36 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x0mn6l/chatgpt_helped_my_dad_turn_the_stories_he_repeats/",
-          "signal": "ChatGPT helped my dad turn the stories he repeats into stories we can keep"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x156vf/anyone_else_having_issues_with_the_chatgpt_app/",
+          "signal": "Anyone else having issues with the ChatGPT app?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x19tke/chatgpt_temporary_chats_expose_your_messages_in/",
+          "signal": "ChatGPT Temporary Chats expose your messages in Chrome tab titles. How is this not a major privacy issue?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2bGXZb0bVJ4",
           "signal": "Don&#39;t Pay for ChatGPT! 4 FREE AI Tools from China That Are Actually Better in 2026 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=AguD--YWifM",
-          "signal": "POV: ChatGPT in 2070🙀#bmw #bmwm5 #car #edit #shorts"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "ChatGPT Temporary Chats expose your messages in Chrome tab titles. How is this not a major privacy issue?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x19tke/chatgpt_temporary_chats_expose_your_messages_in/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
