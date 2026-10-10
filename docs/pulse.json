@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T05:56:35.031117+00:00",
+  "generated_at": "2026-10-10T12:36:25.110026+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -55,18 +55,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1s72a/how_to_use_chatgpt_to_save_potentially_hundreds/",
-          "signal": "How to use ChatGPT to save potentially hundreds of $$$ when booking any flights"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x28tm5/why_the_hell_did_my_chatgpts_personality_change/",
+          "signal": "Why the hell did my ChatGPT's personality change? Its acting bubbly all of a sudden 🫩 I can't even ask it a question without getting unnecessary yap"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x27afx/what_is_even_the_point_of_having_chatgpt_astra_on/",
+          "signal": "What is even the point of having ChatGPT Astra on the $20 plan if one prompt on extra high burns through 5h limit twice, before answering?"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x24eej/how_to_archive_any_chatgpt_conversation_in/",
           "signal": "How to Archive Any ChatGPT Conversation in Minutes and Continue One That Has Reached Its Limit"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24yr2/i_asked_chatgpt_which_i_call_sage_to_imagine/",
-          "signal": "I asked ChatGPT, which I call Sage, to imagine itself. This is what it made."
         }
       ],
       "content_ideas": []
@@ -180,6 +180,33 @@
       "content_ideas": []
     },
     {
+      "name": "Anthropic AI model submits false tip on unsolved Philly murder, police",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+          "signal": "Anthropic AI model submits false tip on unsolved Philly murder, police say"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -207,7 +234,7 @@
       "content_ideas": []
     },
     {
-      "name": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "name": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -227,35 +254,57 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-          "signal": "Anthropic AI model submits false tip on unsolved Philly murder"
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+          "signal": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and ",
-      "category": "use_case",
+      "name": "Gemini",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
-          "signal": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x25590/so_gpt_cant_recognize_this_woman_but_gemini_can/",
+          "signal": "So GPT can't recognize this woman but Gemini can? Why?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
+          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
+          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
+          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -288,6 +337,33 @@
       "content_ideas": []
     },
     {
+      "name": "What mathematicians should know about the Lean Theorem Prover: reliabi",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+          "signal": "What mathematicians should know about the Lean Theorem Prover: reliability & AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI-ready biological data: $1.8B global commitment",
       "category": "use_case",
       "momentum": "rising",
@@ -313,65 +389,58 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Court throws out killer's sentence after judge said he loved AI video ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
-          "signal": "Court throws out killer's sentence after judge said he loved AI video of victim"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
-          "signal": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x25590/so_gpt_cant_recognize_this_woman_but_gemini_can/",
+          "signal": "So GPT can't recognize this woman but Gemini can? Why?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
+          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
+          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
+          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -412,18 +481,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1s72a/how_to_use_chatgpt_to_save_potentially_hundreds/",
-          "signal": "How to use ChatGPT to save potentially hundreds of $$$ when booking any flights"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x28tm5/why_the_hell_did_my_chatgpts_personality_change/",
+          "signal": "Why the hell did my ChatGPT's personality change? Its acting bubbly all of a sudden 🫩 I can't even ask it a question without getting unnecessary yap"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x27afx/what_is_even_the_point_of_having_chatgpt_astra_on/",
+          "signal": "What is even the point of having ChatGPT Astra on the $20 plan if one prompt on extra high burns through 5h limit twice, before answering?"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x24eej/how_to_archive_any_chatgpt_conversation_in/",
           "signal": "How to Archive Any ChatGPT Conversation in Minutes and Continue One That Has Reached Its Limit"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24yr2/i_asked_chatgpt_which_i_call_sage_to_imagine/",
-          "signal": "I asked ChatGPT, which I call Sage, to imagine itself. This is what it made."
         }
       ],
       "content_ideas": []
@@ -458,13 +527,13 @@
   ],
   "pain_points": [
     {
-      "problem": "How to Archive Any ChatGPT Conversation in Minutes and Continue One That Has Reached Its Limit",
+      "problem": "Why the hell did my ChatGPT's personality change? Its acting bubbly all of a sudden 🫩 I can't even ask it a question without getting unneces",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24eej/how_to_archive_any_chatgpt_conversation_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x28tm5/why_the_hell_did_my_chatgpts_personality_change/"
         }
       ],
       "content_opportunity": ""
@@ -482,13 +551,25 @@
       "content_opportunity": ""
     },
     {
-      "problem": "ChatGPT now watermarks text in the EU. \"Just have another model rewrite it\" fails in three ways, and I measured each",
+      "problem": "How to Archive Any ChatGPT Conversation in Minutes and Continue One That Has Reached Its Limit",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1o5t2/chatgpt_now_watermarks_text_in_the_eu_just_have/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24eej/how_to_archive_any_chatgpt_conversation_in/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "So GPT can't recognize this woman but Gemini can? Why?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x25590/so_gpt_cant_recognize_this_woman_but_gemini_can/"
         }
       ],
       "content_opportunity": ""
