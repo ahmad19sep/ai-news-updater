@@ -43,8 +43,8 @@ All coverage: https://kenoshanews.com/news/nation-world/article_103c4544-541e-56
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3RKZmI4YXM4ZTdkODBKVFpYcDA5N0F0QVZPdFpWa3ZIakNVMXh5SUVpYWV6MmZ2di1IOGNsbndVZ2dCc0daN3diNnlZZTVRTnM0SmdKOHRuSW5QV01XaW1XeVR3VGlPRWs2MHZ3OENDa2diRnc5WlNKdmF0V2s0VWRLSzVCRy11TDdjUy05N0JORlRTTUhUY1JlekE0clhCOWVNNE9VV0FKTTVyUkgzVHBuQVBsUVNLcVJpOV92eEFBdUJqMi1iRjllUnRMRXc5Wm5oRVl0Y2w?oc=5
 9. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-10. **What to know about Anthropic’s ‘Claude-led’ biological discovery — and why scientists aren’t convinced - CNN** — Anthropic News — Score 48
-   https://news.google.com/rss/articles/CBMifkFVX3lxTFBzUzRFekFCZGVRTWVpRExUVWJkYTVGeFYxekkxMkpmYnRJSF9sNXdOd3BGd0NZVnhzakp0eWwxR3hTX2tqdUdOZXd3WjVZRlhZaDFkOHpoVElnanRZZXhwaEdweDRCTlVPVHEzRmxUWUpPVTU5Y0NTRHpJam5zZw?oc=5
+10. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
+   https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,8 +54,8 @@ All coverage: https://kenoshanews.com/news/nation-world/article_103c4544-541e-56
 - **Supercomputing researchers document evolution of AI hardware** — https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2723
-- Most active topic: openai
+- Total stories tracked: 2748
+- Most active topic: agents
 - Busiest category: AI General News
 
 ---
