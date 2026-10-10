@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T22:41:11.369996+00:00",
+  "generated_at": "2026-10-10T05:56:35.031117+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 33,
-      "hackernews": 23,
+      "reddit": 25,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -23,7 +23,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -51,23 +50,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x249hq/what_if_chatgpt_had_existed_on_windows_98_xp/",
+          "signal": "What if ChatGPT had existed on Windows 98, XP, Vista, and 7?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x1s72a/how_to_use_chatgpt_to_save_potentially_hundreds/",
           "signal": "How to use ChatGPT to save potentially hundreds of $$$ when booking any flights"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1o5t2/chatgpt_now_watermarks_text_in_the_eu_just_have/",
-          "signal": "ChatGPT now watermarks text in the EU. \"Just have another model rewrite it\" fails in three ways, and I measured each"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24eej/how_to_archive_any_chatgpt_conversation_in/",
+          "signal": "How to Archive Any ChatGPT Conversation in Minutes and Continue One That Has Reached Its Limit"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1vxmv/does_chatgpt_still_go_off_on_a_tangent_for_safety/",
-          "signal": "Does ChatGPT still go off on a tangent for \"safety\" reasons for random chats?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ojeb/going_for_a_walk_with_chatgpt/",
-          "signal": "Going for a walk with ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24yr2/i_asked_chatgpt_which_i_call_sage_to_imagine/",
+          "signal": "I asked ChatGPT, which I call Sage, to imagine itself. This is what it made."
         }
       ],
       "content_ideas": []
@@ -95,6 +94,33 @@
           "platform": "hackernews",
           "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
           "signal": "OpenAI annualised revenues $20B less than previously signalled"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Typesafe AI raises $870M at $7.5B",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://typesafe.ai/blog/series-ai",
+          "signal": "Typesafe AI raises $870M at $7.5B"
         }
       ],
       "content_ideas": []
@@ -154,33 +180,6 @@
       "content_ideas": []
     },
     {
-      "name": "Typesafe AI raises $870M at $7.5B",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://typesafe.ai/blog/series-ai",
-          "signal": "Typesafe AI raises $870M at $7.5B"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -193,7 +192,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -203,6 +202,60 @@
           "platform": "hackernews",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
           "signal": "Anthropic bans 'abusive or cruel behavior' towards Claude"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+          "signal": "Anthropic AI model submits false tip on unsolved Philly murder"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+          "signal": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more"
         }
       ],
       "content_ideas": []
@@ -316,60 +369,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
-          "signal": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Free open source Adobe Lightroom alternative, completely loca",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/thesnarkitecht/rembrandt",
-          "signal": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -381,7 +380,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -409,23 +407,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x249hq/what_if_chatgpt_had_existed_on_windows_98_xp/",
+          "signal": "What if ChatGPT had existed on Windows 98, XP, Vista, and 7?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x1s72a/how_to_use_chatgpt_to_save_potentially_hundreds/",
           "signal": "How to use ChatGPT to save potentially hundreds of $$$ when booking any flights"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1o5t2/chatgpt_now_watermarks_text_in_the_eu_just_have/",
-          "signal": "ChatGPT now watermarks text in the EU. \"Just have another model rewrite it\" fails in three ways, and I measured each"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24eej/how_to_archive_any_chatgpt_conversation_in/",
+          "signal": "How to Archive Any ChatGPT Conversation in Minutes and Continue One That Has Reached Its Limit"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1vxmv/does_chatgpt_still_go_off_on_a_tangent_for_safety/",
-          "signal": "Does ChatGPT still go off on a tangent for \"safety\" reasons for random chats?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1ojeb/going_for_a_walk_with_chatgpt/",
-          "signal": "Going for a walk with ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24yr2/i_asked_chatgpt_which_i_call_sage_to_imagine/",
+          "signal": "I asked ChatGPT, which I call Sage, to imagine itself. This is what it made."
         }
       ],
       "content_ideas": []
@@ -443,7 +441,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -460,6 +458,30 @@
   ],
   "pain_points": [
     {
+      "problem": "How to Archive Any ChatGPT Conversation in Minutes and Continue One That Has Reached Its Limit",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x24eej/how_to_archive_any_chatgpt_conversation_in/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "What is even the point of having ChatGPT Astra on the $20 plan if one prompt on extra high burns through 5h limit twice, before answering?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x27afx/what_is_even_the_point_of_having_chatgpt_astra_on/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "ChatGPT now watermarks text in the EU. \"Just have another model rewrite it\" fails in three ways, and I measured each",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
@@ -467,18 +489,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x1o5t2/chatgpt_now_watermarks_text_in_the_eu_just_have/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Is GPT-6 broken?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x1krjf/is_gpt6_broken/"
         }
       ],
       "content_opportunity": ""
