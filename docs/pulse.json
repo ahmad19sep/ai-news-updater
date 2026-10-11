@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:47:19.825081+00:00",
+  "generated_at": "2026-10-11T05:51:31.213431+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,8 +50,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2ex5l/is_it_normal_to_be_ashamed_and_afraid_to_admit/",
-          "signal": "Is it normal to be ashamed (and afraid) to admit that ChatGPT has added so many QoL features to my life in a world where everyone tries to boycott AI for water usage?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2v3ax/chatgpt_fixed_my_broken_save_and_now_im/",
+          "signal": "ChatGPT fixed my broken save and now I'm questioning the future of humanity🤣"
         },
         {
           "platform": "reddit",
@@ -60,13 +60,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x249hq/what_if_chatgpt_had_existed_on_windows_98_xp/",
-          "signal": "What if ChatGPT had existed on Windows 98, XP, Vista, and 7?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2ubx0/what_do_you_see_your_chatgpt_as/",
+          "signal": "What do you see your ChatGPT as?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2o54q/i_asked_chatgpt_to_generate_a_dinosaur_evolved_to/",
-          "signal": "I asked ChatGPT to generate a dinosaur evolved to throwing chairs at human heads"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2ex5l/is_it_normal_to_be_ashamed_and_afraid_to_admit/",
+          "signal": "Is it normal to be ashamed (and afraid) to admit that ChatGPT has added so many QoL features to my life in a world where everyone tries to boycott AI for water usage?"
         }
       ],
       "content_ideas": []
@@ -153,6 +153,33 @@
       "content_ideas": []
     },
     {
+      "name": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/rociiu/talorys",
+          "signal": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Anthropic AI model submits false tip on unsolved Philly murder, police",
       "category": "use_case",
       "momentum": "rising",
@@ -175,33 +202,6 @@
           "platform": "hackernews",
           "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
           "signal": "Anthropic AI model submits false tip on unsolved Philly murder, police say"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/rociiu/talorys",
-          "signal": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier"
         }
       ],
       "content_ideas": []
@@ -261,19 +261,21 @@
       "content_ideas": []
     },
     {
-      "name": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+      "name": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
+      "best_format": "reel",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -281,8 +283,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
-          "signal": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal"
+          "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+          "signal": "Nvidia in talks to acquire US 'open' model startup Reflection AI"
         }
       ],
       "content_ideas": []
@@ -300,7 +302,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -315,63 +317,45 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
-          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
-          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
-          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Court throws out killer's sentence after judge said he loved AI video ",
+      "name": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+          "signal": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Recent AI models struggled to match a human algorithmic innovation",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
@@ -380,57 +364,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
-          "signal": "Court throws out killer's sentence after judge said he loved AI video of victim"
+          "url": "https://epoch.ai/publications/innovationeval",
+          "signal": "Recent AI models struggled to match a human algorithmic innovation"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
-          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
-          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
-          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -466,8 +407,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2ex5l/is_it_normal_to_be_ashamed_and_afraid_to_admit/",
-          "signal": "Is it normal to be ashamed (and afraid) to admit that ChatGPT has added so many QoL features to my life in a world where everyone tries to boycott AI for water usage?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2v3ax/chatgpt_fixed_my_broken_save_and_now_im/",
+          "signal": "ChatGPT fixed my broken save and now I'm questioning the future of humanity🤣"
         },
         {
           "platform": "reddit",
@@ -476,19 +417,31 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x249hq/what_if_chatgpt_had_existed_on_windows_98_xp/",
-          "signal": "What if ChatGPT had existed on Windows 98, XP, Vista, and 7?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2ubx0/what_do_you_see_your_chatgpt_as/",
+          "signal": "What do you see your ChatGPT as?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2o54q/i_asked_chatgpt_to_generate_a_dinosaur_evolved_to/",
-          "signal": "I asked ChatGPT to generate a dinosaur evolved to throwing chairs at human heads"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2ex5l/is_it_normal_to_be_ashamed_and_afraid_to_admit/",
+          "signal": "Is it normal to be ashamed (and afraid) to admit that ChatGPT has added so many QoL features to my life in a world where everyone tries to boycott AI for water usage?"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "ChatGPT fixed my broken save and now I'm questioning the future of humanity🤣",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2v3ax/chatgpt_fixed_my_broken_save_and_now_im/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "POV: That guy who can't live without Chat GPT",
       "who_affected": "r/ChatGPT",
