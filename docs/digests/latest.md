@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 04 Oct 2026 to 11 Oct 2026
+# 🗞️ AI THIS WEEK — 05 Oct 2026 to 12 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI**
@@ -17,34 +17,34 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
 5. **Supercomputing researchers document evolution of AI hardware** — science angle
    https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006
-6. **Google AMIE study adds evidence of medical AI’s promise with patients, under doctors’ supervision - R&D World** — science angle
-   https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLVZZNXFZUlUyczR6ZXVMV3oyM1d0WmxaUGQ2T0VyTXcydV9XQ0owVjdoSDQ4R0ROdkh6V0Nld0E2eTI0cnhXaGtKYU5rUFowaVpZTkpiMThQV2lfLWdPOFNnd3NPT3UtSlhhcm1BUFNLTlZPVnVSdllDbHVndUMyd0E1TFRoYVpvNGduRVBJQ3FacGRGRUxfUWVqV1FpNWtITkJoQnBzVmRWWkhPVGRzaUM0blNtcmR6Q3ZleDNHeDg0dkU?oc=5
-7. **AI Passes the Doctor’s Exam: How GPT-4o and DeepSeek Conquered China’s Toughest Medical Test - Bioengineer.org** — science angle
+6. **AI Passes the Doctor’s Exam: How GPT-4o and DeepSeek Conquered China’s Toughest Medical Test - Bioengineer.org** — science angle
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOMXJHSlRaTmJXeThjOHp1MzU3VmpDLXFIUjRfaC1jdUNRY1ZOcGU4SUdVT3oxbk05MlZRYXhDanhid0F6dUp3cUZjTmFKVF90QWhiNXBRRko4YXlEdTlaa0d5WGpzemxHcUUtZUFjcm5GLVJUd1hjM1NSZEtPeEo3b3h4c2VyT0VRaVVubFUtMGtDdjNIU1FuOGJJT3RDc1ROSWRRQ2xJUndEOThxczNpN1lXVTk?oc=5
-8. **AI Doctors Are Now Allowed To Prescribe Medicine in Utah Without Any Human Oversight, Starting With Acne Treatment - The New York Sun** — science angle
+7. **AI Doctors Are Now Allowed To Prescribe Medicine in Utah Without Any Human Oversight, Starting With Acne Treatment - The New York Sun** — science angle
    https://news.google.com/rss/articles/CBMizgFBVV95cUxOQjNiTjdyTEZkajJ3LVVWTzJJdDFqd096LXRaakJUcXRlR3YzSTk5NmdZWkhNcGxCc0JyNGZuTEVzQ0dVVXJobURuRVNPY3ZIQWYxaGs5QUE3NzdyYTJ5WWZPT3JIMVVQNTFkTkNsbEZuRU9tcmcxMTUxa2k0V2JDeEpDSHVHLXlNSmhxSDl5MnZVaGZfUFV5UW13WkRNbVZjNkgxTS1TLU1jalR0M241OHBwMFFBeDFsUzFYcWZjdlVzRGhnMkxJQkxXLXhEdw?oc=5
+8. **Patient disputed $85,000 hospital bill, then an AI sweep added nearly $20k** — 3 upvotes on Reddit/HN
+   https://www.yahoo.com/news/us/articles/patient-disputed-85-000-hospital-032100813.html
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI** — Satya Nadella News — Score 106
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4ddcf446e68e5768b27531f2c2&url=https%3a%2f%2fwww.seattletimes.com%2fbusiness%2fmicrosoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai%2f&c=10237068668694846031&mkt=en-us
-2. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
+2. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 106
+   https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
+3. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
    https://openai.com/index/gpt-6-for-everyone/
-3. **Trump names national intelligence director Jay Clayton to lead a new federal AI task force** — timesherald — Score 63
+4. **Trump names national intelligence director Jay Clayton to lead a new federal AI task force** — timesherald — Score 63
    https://www.timesherald.com/2026/10/05/jay-clayton-federal-ai-task-force/
-4. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
+5. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
    https://openai.com/index/sharing-ai-progress-in-mathematics/
-5. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
+6. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
    https://openai.com/index/gpt-6-for-everyone
-6. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
+7. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
    https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
-7. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
+8. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
-8. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 53
+9. **US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times** — DeepSeek News — Score 53
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3RKZmI4YXM4ZTdkODBKVFpYcDA5N0F0QVZPdFpWa3ZIakNVMXh5SUVpYWV6MmZ2di1IOGNsbndVZ2dCc0daN3diNnlZZTVRTnM0SmdKOHRuSW5QV01XaW1XeVR3VGlPRWs2MHZ3OENDa2diRnc5WlNKdmF0V2s0VWRLSzVCRy11TDdjUy05N0JORlRTTUhUY1JlekE0clhCOWVNNE9VV0FKTTVyUkgzVHBuQVBsUVNLcVJpOV92eEFBdUJqMi1iRjllUnRMRXc5Wm5oRVl0Y2w?oc=5
-9. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
+10. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-10. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2754
+- Total stories tracked: 2751
 - Most active topic: model
 - Busiest category: AI General News
 
