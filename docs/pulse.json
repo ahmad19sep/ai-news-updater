@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:03:03.210010+00:00",
+  "generated_at": "2026-10-12T15:32:15.750295+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,23 +44,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
+          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4171n/i_did_not_know_chatgpt_could_make_games/",
+          "signal": "I did not know ChatGPT could make games!"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x3p13g/i_asked_chatgpt_and_it_said_3_or_4/",
           "signal": "I asked ChatGPT and it said 3 or 4"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x33c8f/chatgpt_gone_crazy/",
-          "signal": "Chatgpt gone crazy"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3jqar/chatgpt_full_access_does_anyone_use_this_feature/",
-          "signal": "ChatGPT Full access - Does anyone use this feature?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3ms1t/my_wife_got_tired_of_ads_in_meowdoku_so_she_had/",
-          "signal": "my wife got tired of ads in Meowdoku so she had chatgpt make her Birdoku!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x40qk9/chatgpts_ascii_unicorn/",
+          "signal": "ChatGPTs ASCII unicorn"
         },
         {
           "platform": "reddit",
@@ -71,7 +71,7 @@
       "content_ideas": []
     },
     {
-      "name": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "name": "QGIS bans AI assisted contributions",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -91,8 +91,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/rociiu/talorys",
-          "signal": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier"
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+          "signal": "QGIS bans AI assisted contributions"
         }
       ],
       "content_ideas": []
@@ -154,6 +154,33 @@
       "content_ideas": []
     },
     {
+      "name": "Why aren't AI companies being charged for hacking?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+          "signal": "Why aren't AI companies being charged for hacking?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Using AI for just 10 minutes erodes your ability to persist at hard th",
       "category": "use_case",
       "momentum": "rising",
@@ -166,7 +193,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -181,7 +208,34 @@
       "content_ideas": []
     },
     {
-      "name": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50039291",
+          "signal": "Ask HN: Do you want a router that has DD-WRT pre-installed?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Recursive self-improvement through collective intelligence",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -201,8 +255,40 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
-          "signal": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal"
+          "url": "https://pub.sakana.ai/mass/",
+          "signal": "Recursive self-improvement through collective intelligence"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+          "signal": "Anthropic asks users to stop being mean to Claude"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/SaarthurR/atticus-mac",
+          "signal": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p"
         }
       ],
       "content_ideas": []
@@ -237,136 +323,39 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
-          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
-          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
-          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Recursive self-improvement through collective intelligence",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pub.sakana.ai/mass/",
-          "signal": "Recursive self-improvement through collective intelligence"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "There's little that's \"inevitable\" about AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
-          "signal": "There's little that's \"inevitable\" about AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "My personal AI agent posted my bank details on company Slack",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
-          "signal": "My personal AI agent posted my bank details on company Slack"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Nicolas Cage says he won't work with Amazon again over AI dispute",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews",
         "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+          "signal": "Nicolas Cage says he won't work with Amazon again over AI dispute"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Satya Nadella says we should assume all AI models are 'compromised'",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -382,14 +371,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
-          "signal": "Nicolas Cage says he won't work with Amazon again over AI dispute"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+          "signal": "Satya Nadella says we should assume all AI models are 'compromised'"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50039291",
+          "signal": "Ask HN: Do you want a router that has DD-WRT pre-installed?"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -419,23 +435,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
+          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4171n/i_did_not_know_chatgpt_could_make_games/",
+          "signal": "I did not know ChatGPT could make games!"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x3p13g/i_asked_chatgpt_and_it_said_3_or_4/",
           "signal": "I asked ChatGPT and it said 3 or 4"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x33c8f/chatgpt_gone_crazy/",
-          "signal": "Chatgpt gone crazy"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3jqar/chatgpt_full_access_does_anyone_use_this_feature/",
-          "signal": "ChatGPT Full access - Does anyone use this feature?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3ms1t/my_wife_got_tired_of_ads_in_meowdoku_so_she_had/",
-          "signal": "my wife got tired of ads in Meowdoku so she had chatgpt make her Birdoku!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x40qk9/chatgpts_ascii_unicorn/",
+          "signal": "ChatGPTs ASCII unicorn"
         },
         {
           "platform": "reddit",
@@ -446,62 +462,38 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "linkedin_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
-          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+          "signal": "Anthropic asks users to stop being mean to Claude"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
-          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
-          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://github.com/SaarthurR/atticus-mac",
+          "signal": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "OpenAI's unreleased model solved most of the math problems from a single prompt. It did not even exist before the end of August. Each proble",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x37bxd/openais_unreleased_model_solved_most_of_the_math/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
