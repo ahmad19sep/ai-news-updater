@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T22:00:58.498948+00:00",
+  "generated_at": "2026-10-12T06:03:03.210010+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -28,7 +28,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -44,13 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x33c8f/chatgpt_gone_crazy/",
-          "signal": "Chatgpt gone crazy"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3p13g/i_asked_chatgpt_and_it_said_3_or_4/",
+          "signal": "I asked ChatGPT and it said 3 or 4"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3g19n/thankful_for_chatgpt_wish_more_were_open_to_ai/",
-          "signal": "Thankful for ChatGPT - wish more were open to AI usage"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x33c8f/chatgpt_gone_crazy/",
+          "signal": "Chatgpt gone crazy"
         },
         {
           "platform": "reddit",
@@ -59,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2v3ax/chatgpt_fixed_my_broken_save_and_now_im/",
-          "signal": "ChatGPT fixed my broken save and now I'm questioning the future of humanity🤣"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3ms1t/my_wife_got_tired_of_ads_in_meowdoku_so_she_had/",
+          "signal": "my wife got tired of ads in Meowdoku so she had chatgpt make her Birdoku!"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3jyh3/chatgpt_as_external_human_processing_power/",
-          "signal": "ChatGPT as external human processing power"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tkt6/chatgpt_plus_0_firstmonth_offer_keeps_declining/",
+          "signal": "ChatGPT Plus $0 first-month offer keeps declining all my cards"
         }
       ],
       "content_ideas": []
@@ -93,6 +93,33 @@
           "platform": "hackernews",
           "url": "https://github.com/rociiu/talorys",
           "signal": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+          "signal": "500B tokens later: Letting AI agents decompile a first-person shooter"
         }
       ],
       "content_ideas": []
@@ -127,7 +154,7 @@
       "content_ideas": []
     },
     {
-      "name": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "name": "Using AI for just 10 minutes erodes your ability to persist at hard th",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -147,8 +174,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-          "signal": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter"
+          "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+          "signal": "Using AI for just 10 minutes erodes your ability to persist at hard things"
         }
       ],
       "content_ideas": []
@@ -176,66 +203,6 @@
           "platform": "hackernews",
           "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
           "signal": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-          "signal": "Anthropic asks users to stop being mean to Claude"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3784s/used_claude_to_make_an_adventure_game_about/",
-          "signal": "Used Claude to make an adventure game about Reddit mods."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Recent AI models struggled to match a human algorithmic innovation",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://epoch.ai/publications/innovationeval",
-          "signal": "Recent AI models struggled to match a human algorithmic innovation"
         }
       ],
       "content_ideas": []
@@ -270,6 +237,76 @@
       "content_ideas": []
     },
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
+          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
+          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
+          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Recursive self-improvement through collective intelligence",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pub.sakana.ai/mass/",
+          "signal": "Recursive self-improvement through collective intelligence"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "There's little that's \"inevitable\" about AI",
       "category": "use_case",
       "momentum": "rising",
@@ -292,60 +329,6 @@
           "platform": "hackernews",
           "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
           "signal": "There's little that's \"inevitable\" about AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "If AI is conscient, then we are making slaves",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
-          "signal": "If AI is conscient, then we are making slaves"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Th",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-          "signal": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things"
         }
       ],
       "content_ideas": []
@@ -376,6 +359,34 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+          "signal": "Nicolas Cage says he won't work with Amazon again over AI dispute"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -392,7 +403,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -408,13 +419,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x33c8f/chatgpt_gone_crazy/",
-          "signal": "Chatgpt gone crazy"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3p13g/i_asked_chatgpt_and_it_said_3_or_4/",
+          "signal": "I asked ChatGPT and it said 3 or 4"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3g19n/thankful_for_chatgpt_wish_more_were_open_to_ai/",
-          "signal": "Thankful for ChatGPT - wish more were open to AI usage"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x33c8f/chatgpt_gone_crazy/",
+          "signal": "Chatgpt gone crazy"
         },
         {
           "platform": "reddit",
@@ -423,46 +434,56 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2v3ax/chatgpt_fixed_my_broken_save_and_now_im/",
-          "signal": "ChatGPT fixed my broken save and now I'm questioning the future of humanity🤣"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3ms1t/my_wife_got_tired_of_ads_in_meowdoku_so_she_had/",
+          "signal": "my wife got tired of ads in Meowdoku so she had chatgpt make her Birdoku!"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3jyh3/chatgpt_as_external_human_processing_power/",
-          "signal": "ChatGPT as external human processing power"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tkt6/chatgpt_plus_0_firstmonth_offer_keeps_declining/",
+          "signal": "ChatGPT Plus $0 first-month offer keeps declining all my cards"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "reddit"
+        "linkedin_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-          "signal": "Anthropic asks users to stop being mean to Claude"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=99w4W0pYFTI",
+          "signal": "LIAT SAMPE AKHIR #ChatGPT #GoogleGemini #ClaudeAI #GrokAI #MetaA"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3784s/used_claude_to_make_an_adventure_game_about/",
-          "signal": "Used Claude to make an adventure game about Reddit mods."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ejKPgvRjDZQ",
+          "signal": "Which AI Has The Best Hairstyle? 😂 | ChatGPT vs Gemini vs Grok vs Copilot | JJK Edit"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
+          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -472,23 +493,11 @@
     {
       "problem": "OpenAI's unreleased model solved most of the math problems from a single prompt. It did not even exist before the end of August. Each proble",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x37bxd/openais_unreleased_model_solved_most_of_the_math/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT fixed my broken save and now I'm questioning the future of humanity🤣",
-      "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x2v3ax/chatgpt_fixed_my_broken_save_and_now_im/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x37bxd/openais_unreleased_model_solved_most_of_the_math/"
         }
       ],
       "content_opportunity": ""
