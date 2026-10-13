@@ -37,14 +37,14 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://openai.com/index/sharing-ai-progress-in-mathematics/
 6. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
    https://openai.com/index/gpt-6-for-everyone
-7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 56
+7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-8. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
-9. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
+8. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-10. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
+9. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
+10. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 46
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxOeE5tOGV3eFlvYW1rejVFNnRtVXFEbFlnTEJTTXA3SS0zeTczQTZVeHBLVzV0Si13dnBRSS1yQ09KeV9Od09IWWlhcXZLSDVDYllQZjZpZUNqU1VuN1RBalBtMHBtVnFkS3V5emlHT0c0REZlbzlSVHFHbjZtX1NDZmtPMnJzN3UzemhIOXE2MW9qSUVjZjBZb3hYQ3ZHT3drMXVpVVpsLXhibmVsQURlcmE5UQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,8 +54,8 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2805
-- Most active topic: model
+- Total stories tracked: 2725
+- Most active topic: models
 - Busiest category: AI General News
 
 ---
