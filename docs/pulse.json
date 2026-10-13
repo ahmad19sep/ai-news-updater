@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:16:05.235922+00:00",
+  "generated_at": "2026-10-13T22:48:01.749337+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 30,
+      "reddit": 25,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,6 +44,21 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x51o4q/chatgpt_astra_has_been_gutted_thats_what_the/",
+          "signal": "Chatgpt Astra has been gutted. That's what the people living in the walls tell me."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
+          "signal": "ChatGPT is an amazing private tutor!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x52u6h/huh_why_is_chatgpt_using_18gb_of_ram_on_firefox/",
+          "signal": "huh? Why is chatgpt using 18GB of ram on Firefox..."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
           "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
         },
@@ -52,21 +66,33 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gr9l/asked_chatgpt_to_code_a_fps_in_less_than_100_kb/",
           "signal": "Asked ChatGPT to code a FPS in less than 100 KB - Got One in 39KB After an Hour"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is a tool and using it well takes skill",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4qf1d/chatgpt_for_studying_and_exams/",
-          "signal": "ChatGPT for studying and exams."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4mk4y/is_it_just_me_or_has_chatgpt_gotten_agonizingly/",
-          "signal": "Is it just me, or has ChatGPT gotten agonizingly slow lately?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4s89s/chatgpt_work_is_losing_my_development_history/",
-          "signal": "ChatGPT Work is losing my development history after syncing with Android. Days of work and paid usage are at risk. This is unacceptable."
+          "platform": "hackernews",
+          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+          "signal": "AI is a tool and using it well takes skill"
         }
       ],
       "content_ideas": []
@@ -121,33 +147,6 @@
           "platform": "hackernews",
           "url": "https://z.ai/blog/glm-legal",
           "signal": "GLM-Legal"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is a tool and using it well takes skill",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-          "signal": "AI is a tool and using it well takes skill"
         }
       ],
       "content_ideas": []
@@ -234,6 +233,60 @@
       "content_ideas": []
     },
     {
+      "name": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.character.ai/an-update-on-character-ai/",
+          "signal": "Character.ai has initiated voluntary Chapter 11 bankruptcy"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+          "signal": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "'AI' Is Not a Tool by Rich Hickey",
       "category": "use_case",
       "momentum": "rising",
@@ -261,7 +314,7 @@
       "content_ideas": []
     },
     {
-      "name": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "name": "AI models can provably hide arbitrary capabilities",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -281,14 +334,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-          "signal": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
+          "url": "https://arxiv.org/abs/2610.13928",
+          "signal": "AI models can provably hide arbitrary capabilities"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI models can provably hide arbitrary capabilities",
+      "name": "I posted to HN, and then my website was flooded with AI bot traffic",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -308,82 +361,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2610.13928",
-          "signal": "AI models can provably hide arbitrary capabilities"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/",
-          "signal": "Boole-1.7B: A 1-bit Qwen3-1.7B model that outperforms Bonsai-1.7B"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h1c2/qwen_38_flash_next_q3_s_benchmark_creation/",
-          "signal": "Qwen 3.8 Flash Next Q3 S - Benchmark creation"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
-          "signal": "Qwen3.8-27B vs Frontier vs Others"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
-          "signal": "Horsey challenge | Strata Fork | Qwen 3.8 FN NVFP4"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
-          "signal": "Running unsloth/Qwen3.8-27B-UD-IQ4_XS 262k q4_0 KV + vision on 16GB VRAM @ 80t/s and 1500pp"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://taylor.town/kk-ai-2026",
-          "signal": "Kevin Kelly's 2016 AI Predictions, 10 Years Later"
+          "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+          "signal": "I posted to HN, and then my website was flooded with AI bot traffic"
         }
       ],
       "content_ideas": []
@@ -391,60 +370,12 @@
   ],
   "rising_tools": [
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/",
-          "signal": "Boole-1.7B: A 1-bit Qwen3-1.7B model that outperforms Bonsai-1.7B"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h1c2/qwen_38_flash_next_q3_s_benchmark_creation/",
-          "signal": "Qwen 3.8 Flash Next Q3 S - Benchmark creation"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
-          "signal": "Qwen3.8-27B vs Frontier vs Others"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
-          "signal": "Horsey challenge | Strata Fork | Qwen 3.8 FN NVFP4"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
-          "signal": "Running unsloth/Qwen3.8-27B-UD-IQ4_XS 262k q4_0 KV + vision on 16GB VRAM @ 80t/s and 1500pp"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -467,6 +398,21 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x51o4q/chatgpt_astra_has_been_gutted_thats_what_the/",
+          "signal": "Chatgpt Astra has been gutted. That's what the people living in the walls tell me."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
+          "signal": "ChatGPT is an amazing private tutor!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x52u6h/huh_why_is_chatgpt_using_18gb_of_ram_on_firefox/",
+          "signal": "huh? Why is chatgpt using 18GB of ram on Firefox..."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
           "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
         },
@@ -474,21 +420,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gr9l/asked_chatgpt_to_code_a_fps_in_less_than_100_kb/",
           "signal": "Asked ChatGPT to code a FPS in less than 100 KB - Got One in 39KB After an Hour"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4qf1d/chatgpt_for_studying_and_exams/",
-          "signal": "ChatGPT for studying and exams."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4mk4y/is_it_just_me_or_has_chatgpt_gotten_agonizingly/",
-          "signal": "Is it just me, or has ChatGPT gotten agonizingly slow lately?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4s89s/chatgpt_work_is_losing_my_development_history/",
-          "signal": "ChatGPT Work is losing my development history after syncing with Android. Days of work and paid usage are at risk. This is unacceptable."
         }
       ],
       "content_ideas": []
@@ -496,13 +427,25 @@
   ],
   "pain_points": [
     {
-      "problem": "Is it just me, or has ChatGPT gotten agonizingly slow lately?",
+      "problem": "ChatGPT deep research not working?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4mk4y/is_it_just_me_or_has_chatgpt_gotten_agonizingly/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x57ph7/chatgpt_deep_research_not_working/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "AI can't connect to built in browser",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x550lk/ai_cant_connect_to_built_in_browser/"
         }
       ],
       "content_opportunity": ""
