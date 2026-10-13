@@ -29,22 +29,22 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4ddcf446e68e5768b27531f2c2&url=https%3a%2f%2fwww.seattletimes.com%2fbusiness%2fmicrosoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai%2f&c=10237068668694846031&mkt=en-us
 2. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 106
    https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
-3. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
+3. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 106
+   https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
+4. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
    https://openai.com/index/gpt-6-for-everyone/
-4. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
+5. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
    https://openai.com/index/sharing-ai-progress-in-mathematics/
-5. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
+6. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
    https://openai.com/index/gpt-6-for-everyone
-6. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
+7. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
    https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
-7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 56
+8. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 56
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-8. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
+9. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
-9. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
+10. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-10. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2747
+- Total stories tracked: 2821
 - Most active topic: models
 - Busiest category: AI General News
 
