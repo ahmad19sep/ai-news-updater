@@ -15,36 +15,36 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTlfUC0wQzkxZV8xWnFKdHhFVWpMekowcWFNMnloOHNld3hnTXdxVFhyWEh6T0FseW9aYVZOM3d5eDlHUGtoUVlteHlmNWwyOGozQU0tR2YyWDd0djJwaUIweEdsTmdEY21FSVlfR25zMTRGNmRSa0tCTmRCTTJCYVpOLWFrYlB0U2UxSlFNaEJKQQ?oc=5
 4. **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — science angle
    https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
-5. **American Academy of Pediatrics issues AI guidance for doctors — News-Medical - UA.NEWS** — science angle
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXplUlQxTDRvd0FjbENsbTRLT0l2dl9BcWdLNEdJMGVvQVNKWWhuOWxQSlR2LXBvcUNlS0dlZV9RZkJBUjV5djkxU2ZoUC1sUGttZjVldks3aGZBV1NsdTZnbGhyZmdqTFdSWk5LejVLYzEzMEhxQ0FwdE5YSmx2RnV6ZVBaOTdSWjFjUDhWb0tFN3o5SXlpTHpYY1pxQWJucVFKVnpXOTYxLVFQUi1LSUNOZUxvQjJUNDRR?oc=5
+5. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
+   https://www.sciencedaily.com/releases/2026/10/261011211554.htm
 6. **Supercomputing researchers document evolution of AI hardware** — science angle
    https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006
-7. **The good, the bad and the generated: How AI use among patients, doctors and researchers is changing healthcare - The Independent Florida Alligator** — science angle
+7. **Palantir CTO AI says researchers started smoking, believing AI will cure cancer** — 2 upvotes on Reddit/HN
+   https://www.indiatoday.in/technology/news/story/palantir-cto-shyam-sankar-says-researchers-have-started-smoking-believing-ai-will-cure-cancer-3015224-2026-10-12
+8. **The good, the bad and the generated: How AI use among patients, doctors and researchers is changing healthcare - The Independent Florida Alligator** — science angle
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbE93RGY1XzJ6WXY1OENBOGZCZFJudUJ1TGRBNkYyd0ExR1o2QW1JSFhJWmtNR0hUV3FCelo1eFhXcnlQOEZqUlRIMmdydDR2TmF1VkRIZGJVTGFHM0psOGMxSWQyXzFVUlVMSDU5clM4VmhKckZMSTF0Qk42YWdUbW5WS2NCYllHdnY0ZGNPTUFrRzBaS29pd0tGVHVxLUQzdE5OelRwYWhSRE0tTDJ3UVVfWVN5d3JiMHktWG0wWHY1UUduQXQxeE84RzEyb2haMEV4MEFPbTBSVVd3WlA4MkVOWQ?oc=5
-8. **Google's AMIE Chatbot Interviewed 98 Boston Primary Care Patients Under Doctor Supervision Without a Single Safety Stop - Medical Daily** — science angle
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWxGRmVsM196d09FMmxMUVlWSWxCWkIwaFVqTXdveGlZdmsyNDVRZWRjRENtd2VKME53SHRiUUh0bW9pb1lmS0RwY3RpcGxRd0xXZUxVeDdaQ3hhRGVXdDU5R0dTUlhiN2twSXgzWGJfeS1Vb0k0R1Nac0VqdUpfRjRLb0U?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI** — Satya Nadella News — Score 123
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4ddcf446e68e5768b27531f2c2&url=https%3a%2f%2fwww.seattletimes.com%2fbusiness%2fmicrosoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai%2f&c=10237068668694846031&mkt=en-us
-2. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 106
-   https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
-3. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 106
+2. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 106
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
+3. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
+   https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
 4. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
    https://openai.com/index/gpt-6-for-everyone/
 5. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
    https://openai.com/index/sharing-ai-progress-in-mathematics/
 6. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
    https://openai.com/index/gpt-6-for-everyone
-7. **DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - Reuters** — DeepSeek News — Score 57
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5
-8. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 56
+7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 56
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-9. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
+8. **France's Mistral unveils latest model in sovereign AI push - Yahoo Finance UK** — Mistral News — Score 55
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNajAzOTRJemVSSjAtelR4VEJEV2dhMXl3dElBZjRleTBaTmtYTWZ3NTFGbmJPbjdJSVpqb0FJYVhEd2NxaHZfa0gwYVJlZlFBNlRGR0ZDOUFlYVdQZjBNMzJ6YTA1UXFnbVQ5ZHJPUHVpQUVQeWNZRFNqUUpJRGlvQVdtak04ckQySHdodDNR?oc=5
-10. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
+9. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
    https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
+10. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
+   https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
@@ -54,8 +54,8 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2821
-- Most active topic: models
+- Total stories tracked: 2805
+- Most active topic: model
 - Busiest category: AI General News
 
 ---
