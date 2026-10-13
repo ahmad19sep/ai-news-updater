@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:44:25.586669+00:00",
+  "generated_at": "2026-10-13T14:16:05.235922+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 28,
+      "reddit": 50,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,10 +18,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -54,18 +55,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4171n/i_did_not_know_chatgpt_could_make_games/",
-          "signal": "I did not know ChatGPT could make games!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4qf1d/chatgpt_for_studying_and_exams/",
+          "signal": "ChatGPT for studying and exams."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
-          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4mk4y/is_it_just_me_or_has_chatgpt_gotten_agonizingly/",
+          "signal": "Is it just me, or has ChatGPT gotten agonizingly slow lately?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4bhep/elimination_of_irritating_chatgpt_speak/",
-          "signal": "Elimination of Irritating ChatGPT speak"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4s89s/chatgpt_work_is_losing_my_development_history/",
+          "signal": "ChatGPT Work is losing my development history after syncing with Android. Days of work and paid usage are at risk. This is unacceptable."
         }
       ],
       "content_ideas": []
@@ -98,33 +99,6 @@
       "content_ideas": []
     },
     {
-      "name": "QGIS enacts moratorium on AI contributions",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-          "signal": "QGIS enacts moratorium on AI contributions"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "GLM-Legal",
       "category": "use_case",
       "momentum": "rising",
@@ -147,6 +121,60 @@
           "platform": "hackernews",
           "url": "https://z.ai/blog/glm-legal",
           "signal": "GLM-Legal"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is a tool and using it well takes skill",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+          "signal": "AI is a tool and using it well takes skill"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "QGIS enacts moratorium on AI contributions",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+          "signal": "QGIS enacts moratorium on AI contributions"
         }
       ],
       "content_ideas": []
@@ -206,7 +234,34 @@
       "content_ideas": []
     },
     {
-      "name": "AI is a tool and using it well takes skill",
+      "name": "'AI' Is Not a Tool by Rich Hickey",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+          "signal": "'AI' Is Not a Tool by Rich Hickey"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -226,14 +281,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-          "signal": "AI is a tool and using it well takes skill"
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+          "signal": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "name": "AI models can provably hide arbitrary capabilities",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -253,52 +308,24 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-          "signal": "500B tokens later: Letting AI agents decompile a first-person shooter"
+          "url": "https://arxiv.org/abs/2610.13928",
+          "signal": "AI models can provably hide arbitrary capabilities"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Using AI for just 10 minutes erodes your ability to persist at hard th",
-      "category": "use_case",
+      "name": "Qwen",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-          "signal": "Using AI for just 10 minutes erodes your ability to persist at hard things"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
         "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 7,
       "monetization": {
@@ -307,25 +334,35 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-          "signal": "Anthropic asks users to stop being mean to Claude"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/SaarthurR/atticus-mac",
-          "signal": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/",
+          "signal": "Boole-1.7B: A 1-bit Qwen3-1.7B model that outperforms Bonsai-1.7B"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4f0fa/sonnet_55_claude_code_vs_gpt_61_sol_codex_playing/",
-          "signal": "Sonnet 5.5 (Claude Code) vs GPT 6.1 Sol (Codex) playing Stratego against each other. Codex hit its usage limit mid-game, so here’s what I have so far.."
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h1c2/qwen_38_flash_next_q3_s_benchmark_creation/",
+          "signal": "Qwen 3.8 Flash Next Q3 S - Benchmark creation"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
+          "signal": "Qwen3.8-27B vs Frontier vs Others"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
+          "signal": "Horsey challenge | Strata Fork | Qwen 3.8 FN NVFP4"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
+          "signal": "Running unsloth/Qwen3.8-27B-UD-IQ4_XS 262k q4_0 KV + vision on 16GB VRAM @ 80t/s and 1500pp"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "'AI' Is Not a Tool by Rich Hickey",
+      "name": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -345,35 +382,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
-          "signal": "'AI' Is Not a Tool by Rich Hickey"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50039291",
-          "signal": "Ask HN: Do you want a router that has DD-WRT pre-installed?"
+          "url": "https://taylor.town/kk-ai-2026",
+          "signal": "Kevin Kelly's 2016 AI Predictions, 10 Years Later"
         }
       ],
       "content_ideas": []
@@ -381,11 +391,11 @@
   ],
   "rising_tools": [
     {
-      "name": "Wan",
+      "name": "Qwen",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -393,16 +403,36 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50039291",
-          "signal": "Ask HN: Do you want a router that has DD-WRT pre-installed?"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/",
+          "signal": "Boole-1.7B: A 1-bit Qwen3-1.7B model that outperforms Bonsai-1.7B"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h1c2/qwen_38_flash_next_q3_s_benchmark_creation/",
+          "signal": "Qwen 3.8 Flash Next Q3 S - Benchmark creation"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
+          "signal": "Qwen3.8-27B vs Frontier vs Others"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
+          "signal": "Horsey challenge | Strata Fork | Qwen 3.8 FN NVFP4"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
+          "signal": "Running unsloth/Qwen3.8-27B-UD-IQ4_XS 262k q4_0 KV + vision on 16GB VRAM @ 80t/s and 1500pp"
         }
       ],
       "content_ideas": []
@@ -410,10 +440,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -446,56 +477,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4171n/i_did_not_know_chatgpt_could_make_games/",
-          "signal": "I did not know ChatGPT could make games!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4qf1d/chatgpt_for_studying_and_exams/",
+          "signal": "ChatGPT for studying and exams."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
-          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4mk4y/is_it_just_me_or_has_chatgpt_gotten_agonizingly/",
+          "signal": "Is it just me, or has ChatGPT gotten agonizingly slow lately?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4bhep/elimination_of_irritating_chatgpt_speak/",
-          "signal": "Elimination of Irritating ChatGPT speak"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-          "signal": "Anthropic asks users to stop being mean to Claude"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/SaarthurR/atticus-mac",
-          "signal": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4f0fa/sonnet_55_claude_code_vs_gpt_61_sol_codex_playing/",
-          "signal": "Sonnet 5.5 (Claude Code) vs GPT 6.1 Sol (Codex) playing Stratego against each other. Codex hit its usage limit mid-game, so here’s what I have so far.."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4s89s/chatgpt_work_is_losing_my_development_history/",
+          "signal": "ChatGPT Work is losing my development history after syncing with Android. Days of work and paid usage are at risk. This is unacceptable."
         }
       ],
       "content_ideas": []
@@ -503,25 +496,13 @@
   ],
   "pain_points": [
     {
-      "problem": "I tested GPT-5.6 and GPT-6 with Medium → Instant → Medium. Both models failed on Instant, both succeeded on Medium. Here's what I found.",
+      "problem": "Is it just me, or has ChatGPT gotten agonizingly slow lately?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x49sln/i_tested_gpt56_and_gpt6_with_medium_instant/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Sonnet 5.5 (Claude Code) vs GPT 6.1 Sol (Codex) playing Stratego against each other. Codex hit its usage limit mid-game, so here’s what I ha",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4f0fa/sonnet_55_claude_code_vs_gpt_61_sol_codex_playing/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4mk4y/is_it_just_me_or_has_chatgpt_gotten_agonizingly/"
         }
       ],
       "content_opportunity": ""
