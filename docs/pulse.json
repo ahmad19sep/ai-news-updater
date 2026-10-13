@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T15:32:15.750295+00:00",
+  "generated_at": "2026-10-13T00:44:25.586669+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 18,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -44,8 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
-          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
+          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gr9l/asked_chatgpt_to_code_a_fps_in_less_than_100_kb/",
+          "signal": "Asked ChatGPT to code a FPS in less than 100 KB - Got One in 39KB After an Hour"
         },
         {
           "platform": "reddit",
@@ -54,24 +59,46 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3p13g/i_asked_chatgpt_and_it_said_3_or_4/",
-          "signal": "I asked ChatGPT and it said 3 or 4"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
+          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x40qk9/chatgpts_ascii_unicorn/",
-          "signal": "ChatGPTs ASCII unicorn"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tkt6/chatgpt_plus_0_firstmonth_offer_keeps_declining/",
-          "signal": "ChatGPT Plus $0 first-month offer keeps declining all my cards"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4bhep/elimination_of_irritating_chatgpt_speak/",
+          "signal": "Elimination of Irritating ChatGPT speak"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "QGIS bans AI assisted contributions",
+      "name": "Muse Wonder",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/muse-wonder",
+          "signal": "Muse Wonder"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "QGIS enacts moratorium on AI contributions",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -92,7 +119,115 @@
         {
           "platform": "hackernews",
           "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-          "signal": "QGIS bans AI assisted contributions"
+          "signal": "QGIS enacts moratorium on AI contributions"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "GLM-Legal",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://z.ai/blog/glm-legal",
+          "signal": "GLM-Legal"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Why aren't AI companies being charged for hacking?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+          "signal": "Why aren't AI companies being charged for hacking?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI coding agents generate more code, but not more software",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "signal": "AI coding agents generate more code, but not more software"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is a tool and using it well takes skill",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+          "signal": "AI is a tool and using it well takes skill"
         }
       ],
       "content_ideas": []
@@ -125,62 +260,6 @@
       "content_ideas": []
     },
     {
-      "name": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-          "signal": "Nvidia in talks to acquire US 'open' model startup Reflection AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Why aren't AI companies being charged for hacking?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-          "signal": "Why aren't AI companies being charged for hacking?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Using AI for just 10 minutes erodes your ability to persist at hard th",
       "category": "use_case",
       "momentum": "rising",
@@ -193,7 +272,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -203,6 +282,71 @@
           "platform": "hackernews",
           "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
           "signal": "Using AI for just 10 minutes erodes your ability to persist at hard things"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+          "signal": "Anthropic asks users to stop being mean to Claude"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/SaarthurR/atticus-mac",
+          "signal": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4f0fa/sonnet_55_claude_code_vs_gpt_61_sol_codex_playing/",
+          "signal": "Sonnet 5.5 (Claude Code) vs GPT 6.1 Sol (Codex) playing Stratego against each other. Codex hit its usage limit mid-game, so here’s what I have so far.."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "'AI' Is Not a Tool by Rich Hickey",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+          "signal": "'AI' Is Not a Tool by Rich Hickey"
         }
       ],
       "content_ideas": []
@@ -220,7 +364,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -230,149 +374,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=50039291",
           "signal": "Ask HN: Do you want a router that has DD-WRT pre-installed?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Recursive self-improvement through collective intelligence",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pub.sakana.ai/mass/",
-          "signal": "Recursive self-improvement through collective intelligence"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-          "signal": "Anthropic asks users to stop being mean to Claude"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/SaarthurR/atticus-mac",
-          "signal": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is creating a 'human premium' for art created by people",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-          "signal": "AI is creating a 'human premium' for art created by people"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nicolas Cage says he won't work with Amazon again over AI dispute",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
-          "signal": "Nicolas Cage says he won't work with Amazon again over AI dispute"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Satya Nadella says we should assume all AI models are 'compromised'",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-          "signal": "Satya Nadella says we should assume all AI models are 'compromised'"
         }
       ],
       "content_ideas": []
@@ -392,7 +393,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -409,7 +410,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -435,8 +436,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
-          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
+          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gr9l/asked_chatgpt_to_code_a_fps_in_less_than_100_kb/",
+          "signal": "Asked ChatGPT to code a FPS in less than 100 KB - Got One in 39KB After an Hour"
         },
         {
           "platform": "reddit",
@@ -445,18 +451,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3p13g/i_asked_chatgpt_and_it_said_3_or_4/",
-          "signal": "I asked ChatGPT and it said 3 or 4"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tsz4/chatgpt_helped_me_get_my_adobe_subscription/",
+          "signal": "ChatGPT helped me get my Adobe subscription cancelled without an early termination penalty"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x40qk9/chatgpts_ascii_unicorn/",
-          "signal": "ChatGPTs ASCII unicorn"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x3tkt6/chatgpt_plus_0_firstmonth_offer_keeps_declining/",
-          "signal": "ChatGPT Plus $0 first-month offer keeps declining all my cards"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4bhep/elimination_of_irritating_chatgpt_speak/",
+          "signal": "Elimination of Irritating ChatGPT speak"
         }
       ],
       "content_ideas": []
@@ -466,7 +467,8 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -474,7 +476,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -489,11 +491,41 @@
           "platform": "hackernews",
           "url": "https://github.com/SaarthurR/atticus-mac",
           "signal": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4f0fa/sonnet_55_claude_code_vs_gpt_61_sol_codex_playing/",
+          "signal": "Sonnet 5.5 (Claude Code) vs GPT 6.1 Sol (Codex) playing Stratego against each other. Codex hit its usage limit mid-game, so here’s what I have so far.."
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "I tested GPT-5.6 and GPT-6 with Medium → Instant → Medium. Both models failed on Instant, both succeeded on Medium. Here's what I found.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x49sln/i_tested_gpt56_and_gpt6_with_medium_instant/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Sonnet 5.5 (Claude Code) vs GPT 6.1 Sol (Codex) playing Stratego against each other. Codex hit its usage limit mid-game, so here’s what I ha",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4f0fa/sonnet_55_claude_code_vs_gpt_61_sol_codex_playing/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
