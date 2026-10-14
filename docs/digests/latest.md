@@ -21,8 +21,8 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://www.indiatoday.in/technology/news/story/palantir-cto-shyam-sankar-says-researchers-have-started-smoking-believing-ai-will-cure-cancer-3015224-2026-10-12
 7. **The good, the bad and the generated: How AI use among patients, doctors and researchers is changing healthcare - The Independent Florida Alligator** — science angle
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbE93RGY1XzJ6WXY1OENBOGZCZFJudUJ1TGRBNkYyd0ExR1o2QW1JSFhJWmtNR0hUV3FCelo1eFhXcnlQOEZqUlRIMmdydDR2TmF1VkRIZGJVTGFHM0psOGMxSWQyXzFVUlVMSDU5clM4VmhKckZMSTF0Qk42YWdUbW5WS2NCYllHdnY0ZGNPTUFrRzBaS29pd0tGVHVxLUQzdE5OelRwYWhSRE0tTDJ3UVVfWVN5d3JiMHktWG0wWHY1UUduQXQxeE84RzEyb2haMEV4MEFPbTBSVVd3WlA4MkVOWQ?oc=5
-8. **Family doctors swamped by 20-page complaints written by AI - The Independent** — science angle
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3NNeElNZVpkVldsTUd3eEwzbGhSNVlhVjltUzFjNFVuZ0lwelZha3V2VE5CVEphYlJsYXBJMzhVbllTY2VQMXowb01aZC1nZkNXU2tFbDI3NHplTnZYTUFtQThOOW5WTDNiS0ZHeDJHZ3lkR1UzQ1hXajQ0MHdMN0V4ZHpwWUx2WlFmSEtyeWRhRmlMeFk1YmRn?oc=5
+8. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI** — Satya Nadella News — Score 123
@@ -39,22 +39,22 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://openai.com/index/gpt-6-for-everyone
 7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-8. **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — AI in Health — Score 48
-   https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
-9. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
+8. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
-10. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 46
+9. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 46
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOeE5tOGV3eFlvYW1rejVFNnRtVXFEbFlnTEJTTXA3SS0zeTczQTZVeHBLVzV0Si13dnBRSS1yQ09KeV9Od09IWWlhcXZLSDVDYllQZjZpZUNqU1VuN1RBalBtMHBtVnFkS3V5emlHT0c0REZlbzlSVHFHbjZtX1NDZmtPMnJzN3UzemhIOXE2MW9qSUVjZjBZb3hYQ3ZHT3drMXVpVVpsLXhibmVsQURlcmE5UQ?oc=5
+10. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 46.0
+   https://blog.character.ai/an-update-on-character-ai/
 
 ## 🧪 AI in Science Highlights
-- **How Las Vegas radiologists are using AI as valley sees doctor shortages - FOX5 Vegas** — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaW80UnlUMlp0Tk94S1ZRa3YxNGN2amJSRVZRUmxQRFpWVEloY2NZcnprbUlEcGR6TmdWQmNRR3BHeF90OGo1UnA3Y0NIMUJvMGp5aXJ1OGpEUHJ5U2R2cjROeXlTZzV5a09aazE2MEpySmdKYzl6U2VhTmdTWTZ3Nno4dGwtZUhIbmxrTkdUTXJFbkllUFlPWHVwRlFmejhEVk95SklXeDhFQQ?oc=5
 - **First real-world study of safety and quality of patient-facing AI in primary care - Medical Xpress** — https://news.google.com/rss/articles/CBMigwFBVV95cUxPZTF5MERnUW10alBab213YjJQZng4SV83MWZWcFFWaXdIRkV0WUhJNk5sVE1UaHlOUjVuNXRXVV80eWotQnR2TTE0VWVLbmNwcHJSbUN2RjBwbjRORmlNbFVreUpzd3JxbUJKdmRPTnRQRFN2UFhwWGpvLW9INkMya0NJSQ?oc=5
 - **Doctors and nurses, not AI, must perform medicine under new state law - East Bay Times** — https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTlfUC0wQzkxZV8xWnFKdHhFVWpMekowcWFNMnloOHNld3hnTXdxVFhyWEh6T0FseW9aYVZOM3d5eDlHUGtoUVlteHlmNWwyOGozQU0tR2YyWDd0djJwaUIweEdsTmdEY21FSVlfR25zMTRGNmRSa0tCTmRCTTJCYVpOLWFrYlB0U2UxSlFNaEJKQQ?oc=5
 - **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 - **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
+- **Scientists recreate a bizarre quantum effect that stops a particle cold** — https://www.sciencedaily.com/releases/2026/10/261011211554.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2695
+- Total stories tracked: 2814
 - Most active topic: models
 - Busiest category: AI General News
 
