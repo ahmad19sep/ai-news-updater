@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:57:38.284374+00:00",
+  "generated_at": "2026-10-14T17:14:34.134360+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 41,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,8 +49,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x51o4q/chatgpt_astra_has_been_gutted_thats_what_the/",
-          "signal": "Chatgpt Astra has been gutted. That's what the people living in the walls tell me."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
+          "signal": "ChatGPT Image 2.5"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5stfu/chatgpt_built_a_surprisingly_good_retro_adventure/",
+          "signal": "ChatGPT Built a Surprisingly Good Retro Adventure Game for ScummVR"
         },
         {
           "platform": "reddit",
@@ -61,11 +66,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x5nbh7/reminder_that_chatgpt_can_now_reply_with_various/",
           "signal": "Reminder that ChatGPT can now reply with various fonts and colors."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
-          "signal": "ChatGPT is an amazing private tutor!"
         }
       ],
       "content_ideas": []
@@ -93,114 +93,6 @@
           "platform": "hackernews",
           "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
           "signal": "AI is a tool and using it well takes skill"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Muse Wonder",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/muse-wonder",
-          "signal": "Muse Wonder"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "GLM-Legal",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://z.ai/blog/glm-legal",
-          "signal": "GLM-Legal"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Why aren't AI companies being charged for hacking?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-          "signal": "Why aren't AI companies being charged for hacking?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI coding agents generate more code, but not more software",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-          "signal": "AI coding agents generate more code, but not more software"
         }
       ],
       "content_ideas": []
@@ -341,7 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "name": "OpenFatigue™ – Open is the new closed",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -361,8 +253,118 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://taylor.town/kk-ai-2026",
-          "signal": "Kevin Kelly's 2016 AI Predictions, 10 Years Later"
+          "url": "https://openfatigue.ai/",
+          "signal": "OpenFatigue™ – Open is the new closed"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pdftomp3.com/connect-ai/",
+          "signal": "Show HN: Use your OpenAI subscription to create audiobooks"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+          "signal": "I turned my unused Kindle into a photo frame with GPT-6 Astra"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "How to engineer an AI harness for game development",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+          "signal": "How to engineer an AI harness for game development"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Threat of AI share crash puts world financial stability at risk, says ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "signal": "Threat of AI share crash puts world financial stability at risk, says IMF"
         }
       ],
       "content_ideas": []
@@ -403,8 +405,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x51o4q/chatgpt_astra_has_been_gutted_thats_what_the/",
-          "signal": "Chatgpt Astra has been gutted. That's what the people living in the walls tell me."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
+          "signal": "ChatGPT Image 2.5"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5stfu/chatgpt_built_a_surprisingly_good_retro_adventure/",
+          "signal": "ChatGPT Built a Surprisingly Good Retro Adventure Game for ScummVR"
         },
         {
           "platform": "reddit",
@@ -415,29 +422,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x5nbh7/reminder_that_chatgpt_can_now_reply_with_various/",
           "signal": "Reminder that ChatGPT can now reply with various fonts and colors."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
-          "signal": "ChatGPT is an amazing private tutor!"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "This aged well, users silenced, sub reddit banned, guardrails galore.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mrx6/this_aged_well_users_silenced_sub_reddit_banned/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
