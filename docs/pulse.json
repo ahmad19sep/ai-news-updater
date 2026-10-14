@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:48:01.749337+00:00",
+  "generated_at": "2026-10-14T04:57:39.633589+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 36,
+      "hackernews": 37,
       "youtube": 106
     },
     "llm_provider": null
@@ -59,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
-          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5hat4/chatgpt_gpt6_not_loading/",
+          "signal": "ChatGPT GPT6 not loading"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gr9l/asked_chatgpt_to_code_a_fps_in_less_than_100_kb/",
-          "signal": "Asked ChatGPT to code a FPS in less than 100 KB - Got One in 39KB After an Hour"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
+          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
         }
       ],
       "content_ideas": []
@@ -100,7 +100,7 @@
     {
       "name": "Muse Wonder",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -314,6 +314,33 @@
       "content_ideas": []
     },
     {
+      "name": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+          "signal": "I posted to HN, and then my website was flooded with AI bot traffic"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI models can provably hide arbitrary capabilities",
       "category": "use_case",
       "momentum": "rising",
@@ -336,33 +363,6 @@
           "platform": "hackernews",
           "url": "https://arxiv.org/abs/2610.13928",
           "signal": "AI models can provably hide arbitrary capabilities"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-          "signal": "I posted to HN, and then my website was flooded with AI bot traffic"
         }
       ],
       "content_ideas": []
@@ -413,13 +413,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
-          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5hat4/chatgpt_gpt6_not_loading/",
+          "signal": "ChatGPT GPT6 not loading"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4gr9l/asked_chatgpt_to_code_a_fps_in_less_than_100_kb/",
-          "signal": "Asked ChatGPT to code a FPS in less than 100 KB - Got One in 39KB After an Hour"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
+          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
         }
       ],
       "content_ideas": []
@@ -427,25 +427,13 @@
   ],
   "pain_points": [
     {
-      "problem": "ChatGPT deep research not working?",
+      "problem": "IS GPT 6 DOWN ? WHY AM I GETTING THIS EACH TIME I USE GPT 6 ?",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x57ph7/chatgpt_deep_research_not_working/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "AI can't connect to built in browser",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x550lk/ai_cant_connect_to_built_in_browser/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5d12y/is_gpt_6_down_why_am_i_getting_this_each_time_i/"
         }
       ],
       "content_opportunity": ""
