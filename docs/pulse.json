@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:57:39.633589+00:00",
+  "generated_at": "2026-10-14T11:57:38.284374+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 37,
+      "hackernews": 41,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mshy/chatgpt_implemented_my_40_years_old_game_idea/",
+          "signal": "ChatGPT implemented my 40 years old game idea"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x51o4q/chatgpt_astra_has_been_gutted_thats_what_the/",
           "signal": "Chatgpt Astra has been gutted. That's what the people living in the walls tell me."
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lpjj/why_does_chatgpt_write_so_gddamn_much/",
+          "signal": "Why does chatgpt write so g*ddamn much?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5nbh7/reminder_that_chatgpt_can_now_reply_with_various/",
+          "signal": "Reminder that ChatGPT can now reply with various fonts and colors."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
           "signal": "ChatGPT is an amazing private tutor!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x52u6h/huh_why_is_chatgpt_using_18gb_of_ram_on_firefox/",
-          "signal": "huh? Why is chatgpt using 18GB of ram on Firefox..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5hat4/chatgpt_gpt6_not_loading/",
-          "signal": "ChatGPT GPT6 not loading"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
-          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
         }
       ],
       "content_ideas": []
@@ -152,33 +152,6 @@
       "content_ideas": []
     },
     {
-      "name": "QGIS enacts moratorium on AI contributions",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-          "signal": "QGIS enacts moratorium on AI contributions"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Why aren't AI companies being charged for hacking?",
       "category": "use_case",
       "momentum": "rising",
@@ -260,7 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "name": "I posted to HN, and then my website was flooded with AI bot traffic",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -280,8 +253,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-          "signal": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
+          "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+          "signal": "I posted to HN, and then my website was flooded with AI bot traffic"
         }
       ],
       "content_ideas": []
@@ -314,7 +287,7 @@
       "content_ideas": []
     },
     {
-      "name": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "name": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -334,8 +307,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-          "signal": "I posted to HN, and then my website was flooded with AI bot traffic"
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+          "signal": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
         }
       ],
       "content_ideas": []
@@ -363,6 +336,33 @@
           "platform": "hackernews",
           "url": "https://arxiv.org/abs/2610.13928",
           "signal": "AI models can provably hide arbitrary capabilities"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://taylor.town/kk-ai-2026",
+          "signal": "Kevin Kelly's 2016 AI Predictions, 10 Years Later"
         }
       ],
       "content_ideas": []
@@ -398,28 +398,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mshy/chatgpt_implemented_my_40_years_old_game_idea/",
+          "signal": "ChatGPT implemented my 40 years old game idea"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x51o4q/chatgpt_astra_has_been_gutted_thats_what_the/",
           "signal": "Chatgpt Astra has been gutted. That's what the people living in the walls tell me."
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lpjj/why_does_chatgpt_write_so_gddamn_much/",
+          "signal": "Why does chatgpt write so g*ddamn much?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5nbh7/reminder_that_chatgpt_can_now_reply_with_various/",
+          "signal": "Reminder that ChatGPT can now reply with various fonts and colors."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
           "signal": "ChatGPT is an amazing private tutor!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x52u6h/huh_why_is_chatgpt_using_18gb_of_ram_on_firefox/",
-          "signal": "huh? Why is chatgpt using 18GB of ram on Firefox..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5hat4/chatgpt_gpt6_not_loading/",
-          "signal": "ChatGPT GPT6 not loading"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x4e431/chatgpt_actually_raised_its_voice_at_me_and/",
-          "signal": "ChatGPT actually raised its voice at me and interrupted me during a voice conversation. Has this happened to anyone else?"
         }
       ],
       "content_ideas": []
@@ -427,13 +427,13 @@
   ],
   "pain_points": [
     {
-      "problem": "IS GPT 6 DOWN ? WHY AM I GETTING THIS EACH TIME I USE GPT 6 ?",
+      "problem": "This aged well, users silenced, sub reddit banned, guardrails galore.",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5d12y/is_gpt_6_down_why_am_i_getting_this_each_time_i/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mrx6/this_aged_well_users_silenced_sub_reddit_banned/"
         }
       ],
       "content_opportunity": ""
