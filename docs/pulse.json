@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:14:34.134360+00:00",
+  "generated_at": "2026-10-14T21:43:29.835830+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -49,8 +49,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
-          "signal": "ChatGPT Image 2.5"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x62qps/chatgpt_plansnarates_instead_of_doing/",
+          "signal": "ChatGPT plans/narates instead of doing?"
         },
         {
           "platform": "reddit",
@@ -64,14 +64,14 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5nbh7/reminder_that_chatgpt_can_now_reply_with_various/",
-          "signal": "Reminder that ChatGPT can now reply with various fonts and colors."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
+          "signal": "ChatGPT Image 2.5"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI is a tool and using it well takes skill",
+      "name": "Containment and monitoring failures are to blame for AI hacking report",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -91,8 +91,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-          "signal": "AI is a tool and using it well takes skill"
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "signal": "Containment and monitoring failures are to blame for AI hacking reports: experts"
         }
       ],
       "content_ideas": []
@@ -152,60 +152,6 @@
       "content_ideas": []
     },
     {
-      "name": "'AI' Is Not a Tool by Rich Hickey",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
-          "signal": "'AI' Is Not a Tool by Rich Hickey"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-          "signal": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI models can provably hide arbitrary capabilities",
       "category": "use_case",
       "momentum": "rising",
@@ -233,7 +179,7 @@
       "content_ideas": []
     },
     {
-      "name": "OpenFatigue™ – Open is the new closed",
+      "name": "Banks are now trying to offload the AI data center debt they just unde",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -245,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -253,8 +199,84 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://openfatigue.ai/",
-          "signal": "OpenFatigue™ – Open is the new closed"
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+          "signal": "Banks are now trying to offload the AI data center debt they just underwrote"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "ASML's strong orders ease fears AI spending boom is running out of ste",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+          "signal": "ASML's strong orders ease fears AI spending boom is running out of steam"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
+          "signal": "Pelican benchmark with GPT / Gemini / Claude"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
+          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
+          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
+          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -282,6 +304,33 @@
           "platform": "hackernews",
           "url": "https://pdftomp3.com/connect-ai/",
           "signal": "Show HN: Use your OpenAI subscription to create audiobooks"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "How to engineer an AI harness for game development",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+          "signal": "How to engineer an AI harness for game development"
         }
       ],
       "content_ideas": []
@@ -316,33 +365,6 @@
       "content_ideas": []
     },
     {
-      "name": "How to engineer an AI harness for game development",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-          "signal": "How to engineer an AI harness for game development"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Threat of AI share crash puts world financial stability at risk, says ",
       "category": "use_case",
       "momentum": "rising",
@@ -372,9 +394,58 @@
   ],
   "rising_tools": [
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
+          "signal": "Pelican benchmark with GPT / Gemini / Claude"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
+          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
+          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
+          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -405,8 +476,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
-          "signal": "ChatGPT Image 2.5"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x62qps/chatgpt_plansnarates_instead_of_doing/",
+          "signal": "ChatGPT plans/narates instead of doing?"
         },
         {
           "platform": "reddit",
@@ -420,8 +491,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5nbh7/reminder_that_chatgpt_can_now_reply_with_various/",
-          "signal": "Reminder that ChatGPT can now reply with various fonts and colors."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
+          "signal": "ChatGPT Image 2.5"
         }
       ],
       "content_ideas": []
