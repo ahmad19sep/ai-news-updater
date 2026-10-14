@@ -19,10 +19,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://www.sciencedaily.com/releases/2026/10/261011211554.htm
 6. **Palantir CTO AI says researchers started smoking, believing AI will cure cancer** — 2 upvotes on Reddit/HN
    https://www.indiatoday.in/technology/news/story/palantir-cto-shyam-sankar-says-researchers-have-started-smoking-believing-ai-will-cure-cancer-3015224-2026-10-12
-7. **The good, the bad and the generated: How AI use among patients, doctors and researchers is changing healthcare - The Independent Florida Alligator** — science angle
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbE93RGY1XzJ6WXY1OENBOGZCZFJudUJ1TGRBNkYyd0ExR1o2QW1JSFhJWmtNR0hUV3FCelo1eFhXcnlQOEZqUlRIMmdydDR2TmF1VkRIZGJVTGFHM0psOGMxSWQyXzFVUlVMSDU5clM4VmhKckZMSTF0Qk42YWdUbW5WS2NCYllHdnY0ZGNPTUFrRzBaS29pd0tGVHVxLUQzdE5OelRwYWhSRE0tTDJ3UVVfWVN5d3JiMHktWG0wWHY1UUduQXQxeE84RzEyb2haMEV4MEFPbTBSVVd3WlA4MkVOWQ?oc=5
-8. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
+7. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
+8. **Will future doctors have the skills to know when AI is wrong? - Medical Economics** — science angle
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1VXM1ltLVpBdmEtWFBVS1JvZVVmMExWdjRhZktlLTYtVnlnbE9ZWEx4bHlwTGk4amc1aDBqTS1QTk4yT25Jbl9oZkFhbnkxLVBzU3hLREFMOTlVU3pvY2xrQkNzampJWXVTUXdHekhOYzFNY0pnOXBjX1NUSjNTbFJJNWJHcnNlbEstU05qS3dtd3h2aWgwd3E1ekFpY0lR?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI** — Satya Nadella News — Score 123
@@ -31,20 +31,20 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
 3. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
    https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
-4. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
+4. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 101
+   https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
+5. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
    https://openai.com/index/gpt-6-for-everyone/
-5. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
+6. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
    https://openai.com/index/sharing-ai-progress-in-mathematics/
-6. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
+7. **GPT-6 and Intelligent UI for everyone** — OpenAI Blog — Score 60
    https://openai.com/index/gpt-6-for-everyone
-7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
+8. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-8. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
+9. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
-9. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 46
+10. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 46
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOeE5tOGV3eFlvYW1rejVFNnRtVXFEbFlnTEJTTXA3SS0zeTczQTZVeHBLVzV0Si13dnBRSS1yQ09KeV9Od09IWWlhcXZLSDVDYllQZjZpZUNqU1VuN1RBalBtMHBtVnFkS3V5emlHT0c0REZlbzlSVHFHbjZtX1NDZmtPMnJzN3UzemhIOXE2MW9qSUVjZjBZb3hYQ3ZHT3drMXVpVVpsLXhibmVsQURlcmE5UQ?oc=5
-10. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 46.0
-   https://blog.character.ai/an-update-on-character-ai/
 
 ## 🧪 AI in Science Highlights
 - **First real-world study of safety and quality of patient-facing AI in primary care - Medical Xpress** — https://news.google.com/rss/articles/CBMigwFBVV95cUxPZTF5MERnUW10alBab213YjJQZng4SV83MWZWcFFWaXdIRkV0WUhJNk5sVE1UaHlOUjVuNXRXVV80eWotQnR2TTE0VWVLbmNwcHJSbUN2RjBwbjRORmlNbFVreUpzd3JxbUJKdmRPTnRQRFN2UFhwWGpvLW9INkMya0NJSQ?oc=5
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **Scientists recreate a bizarre quantum effect that stops a particle cold** — https://www.sciencedaily.com/releases/2026/10/261011211554.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2814
+- Total stories tracked: 2769
 - Most active topic: models
 - Busiest category: AI General News
 
