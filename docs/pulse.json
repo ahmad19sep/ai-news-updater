@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:34:03.869499+00:00",
+  "generated_at": "2026-10-15T17:04:15.355912+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,7 +45,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -71,6 +71,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
+          "signal": "ChatGPT senses fear"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
           "signal": "Where were you when ChatGPT killed big pharma?"
         },
@@ -81,18 +86,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
-          "signal": "ChatGPT senses fear"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
+          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=i6oN7ZfvMgM",
-          "signal": "Badtameez Chatgpt😡🤣 #roycesharma #hcpk"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_w3duFrnOyw",
-          "signal": "Lí do tôi không bao giờ dùng ChatGPT nữa"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6jw6w/eight_us_states_sue_openai_alleging_chatgpt/",
+          "signal": "Eight US States Sue OpenAI, Alleging ChatGPT Coached Children to Self-Harm"
         }
       ],
       "content_ideas": []
@@ -125,33 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-          "signal": "I posted to HN, and then my website was flooded with AI bot traffic"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "We’re releasing Jev 1.14.0 along with experimental features for dreame",
       "category": "use_case",
       "momentum": "rising",
@@ -164,7 +137,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -206,60 +179,6 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
-          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6hivb/chatgpt_is_getting_as_bad_as_gemini/",
-          "signal": "ChatGPT is getting as bad as Gemini"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
-          "signal": "Pelican benchmark with GPT / Gemini / Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
-          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
-          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "LFM2.5-24B-A2B: Built for fast on-device agents",
       "category": "use_case",
       "momentum": "rising",
@@ -272,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -314,7 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "How to engineer an AI harness for game development",
+      "name": "Has AI tells",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -324,7 +243,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
@@ -334,8 +253,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-          "signal": "How to engineer an AI harness for game development"
+          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+          "signal": "Has AI tells"
         }
       ],
       "content_ideas": []
@@ -368,7 +287,7 @@
       "content_ideas": []
     },
     {
-      "name": "Has AI tells",
+      "name": "Simons Foundation launches $15M effort to help mathematicians navigate",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -380,7 +299,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -388,8 +307,62 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-          "signal": "Has AI tells"
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+          "signal": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://clova.email/",
+          "signal": "Show HN: I wrote an email app that accepts only one sender per inbox"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: I built a tool to track what AI leaders say and how their vie",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blumify.io/people",
+          "signal": "Show HN: I built a tool to track what AI leaders say and how their views change"
         }
       ],
       "content_ideas": []
@@ -397,63 +370,9 @@
   ],
   "rising_tools": [
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
-          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6hivb/chatgpt_is_getting_as_bad_as_gemini/",
-          "signal": "ChatGPT is getting as bad as Gemini"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
-          "signal": "Pelican benchmark with GPT / Gemini / Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
-          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
-          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -479,6 +398,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
+          "signal": "ChatGPT senses fear"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
           "signal": "Where were you when ChatGPT killed big pharma?"
         },
@@ -489,23 +413,31 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
-          "signal": "ChatGPT senses fear"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
+          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=i6oN7ZfvMgM",
-          "signal": "Badtameez Chatgpt😡🤣 #roycesharma #hcpk"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_w3duFrnOyw",
-          "signal": "Lí do tôi không bao giờ dùng ChatGPT nữa"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6jw6w/eight_us_states_sue_openai_alleging_chatgpt/",
+          "signal": "Eight US States Sue OpenAI, Alleging ChatGPT Coached Children to Self-Harm"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Why can't OpenAI makeup their mind about the model switcher?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6jz8c/why_cant_openai_makeup_their_mind_about_the_model/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Containment and monitoring failures are to blame for AI hacking report — strongest signal this cycle"
 }
