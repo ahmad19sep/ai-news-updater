@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:04:15.355912+00:00",
+  "generated_at": "2026-10-15T21:26:07.522909+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 28,
+      "reddit": 50,
+      "hackernews": 32,
       "youtube": 106
     },
     "llm_provider": null
@@ -71,13 +71,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
-          "signal": "ChatGPT senses fear"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
+          "signal": "I just lost my best paying client to ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
-          "signal": "Where were you when ChatGPT killed big pharma?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
+          "signal": "ChatGPT senses fear"
         },
         {
           "platform": "reddit",
@@ -86,13 +86,40 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
-          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
+          "signal": "Where were you when ChatGPT killed big pharma?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6jw6w/eight_us_states_sue_openai_alleging_chatgpt/",
-          "signal": "Eight US States Sue OpenAI, Alleging ChatGPT Coached Children to Self-Harm"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
+          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Muse Spark Open",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/muse-spark-open",
+          "signal": "Muse Spark Open"
         }
       ],
       "content_ideas": []
@@ -152,7 +179,34 @@
       "content_ideas": []
     },
     {
-      "name": "ASML's strong orders ease fears AI spending boom is running out of ste",
+      "name": "Simons Foundation launches $15M effort to help mathematicians navigate",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+          "signal": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Why We're Banning AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -172,8 +226,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-          "signal": "ASML's strong orders ease fears AI spending boom is running out of steam"
+          "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+          "signal": "Why We're Banning AI"
         }
       ],
       "content_ideas": []
@@ -201,6 +255,62 @@
           "platform": "hackernews",
           "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
           "signal": "LFM2.5-24B-A2B: Built for fast on-device agents"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "ASML's strong orders ease fears AI spending boom is running out of ste",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+          "signal": "ASML's strong orders ease fears AI spending boom is running out of steam"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Krea 3 – An image model built for editing at scale",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.krea.ai/krea-3",
+          "signal": "Krea 3 – An image model built for editing at scale"
         }
       ],
       "content_ideas": []
@@ -258,114 +368,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "TV4 postpones show after AI agent erases edited material",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-          "signal": "TV4 postpones show after AI agent erases edited material"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Simons Foundation launches $15M effort to help mathematicians navigate",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-          "signal": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: I wrote an email app that accepts only one sender per inbox",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://clova.email/",
-          "signal": "Show HN: I wrote an email app that accepts only one sender per inbox"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: I built a tool to track what AI leaders say and how their vie",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blumify.io/people",
-          "signal": "Show HN: I built a tool to track what AI leaders say and how their views change"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -398,13 +400,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
-          "signal": "ChatGPT senses fear"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
+          "signal": "I just lost my best paying client to ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
-          "signal": "Where were you when ChatGPT killed big pharma?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
+          "signal": "ChatGPT senses fear"
         },
         {
           "platform": "reddit",
@@ -413,13 +415,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
-          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
+          "signal": "Where were you when ChatGPT killed big pharma?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6jw6w/eight_us_states_sue_openai_alleging_chatgpt/",
-          "signal": "Eight US States Sue OpenAI, Alleging ChatGPT Coached Children to Self-Harm"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
+          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
         }
       ],
       "content_ideas": []
