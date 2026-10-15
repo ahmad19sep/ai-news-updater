@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:43:29.835830+00:00",
+  "generated_at": "2026-10-15T04:44:29.908735+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,12 +9,39 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 39,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Containment and monitoring failures are to blame for AI hacking report",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "signal": "Containment and monitoring failures are to blame for AI hacking reports: experts"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -44,6 +71,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
+          "signal": "Where were you when ChatGPT killed big pharma?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mshy/chatgpt_implemented_my_40_years_old_game_idea/",
           "signal": "ChatGPT implemented my 40 years old game idea"
         },
@@ -53,46 +85,14 @@
           "signal": "ChatGPT plans/narates instead of doing?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5stfu/chatgpt_built_a_surprisingly_good_retro_adventure/",
-          "signal": "ChatGPT Built a Surprisingly Good Retro Adventure Game for ScummVR"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i6oN7ZfvMgM",
+          "signal": "Badtameez Chatgpt😡🤣 #roycesharma #hcpk"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lpjj/why_does_chatgpt_write_so_gddamn_much/",
-          "signal": "Why does chatgpt write so g*ddamn much?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
-          "signal": "ChatGPT Image 2.5"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Containment and monitoring failures are to blame for AI hacking report",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-          "signal": "Containment and monitoring failures are to blame for AI hacking reports: experts"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Rr5xVB6ctgM",
+          "signal": "ChatGPT agrees with LITERALLY everything 💀 #roblox #animation #shorts"
         }
       ],
       "content_ideas": []
@@ -125,6 +125,33 @@
       "content_ideas": []
     },
     {
+      "name": "Banks are now trying to offload the AI data center debt they just unde",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+          "signal": "Banks are now trying to offload the AI data center debt they just underwrote"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "I posted to HN, and then my website was flooded with AI bot traffic",
       "category": "use_case",
       "momentum": "rising",
@@ -147,60 +174,6 @@
           "platform": "hackernews",
           "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
           "signal": "I posted to HN, and then my website was flooded with AI bot traffic"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI models can provably hide arbitrary capabilities",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2610.13928",
-          "signal": "AI models can provably hide arbitrary capabilities"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Banks are now trying to offload the AI data center debt they just unde",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-          "signal": "Banks are now trying to offload the AI data center debt they just underwrote"
         }
       ],
       "content_ideas": []
@@ -233,50 +206,28 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
+      "name": "We’re releasing Jev 1.14.0 along with experimental features for dreame",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "linkedin_inferred",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 6,
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
-          "signal": "Pelican benchmark with GPT / Gemini / Claude"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
-          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
-          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
-          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://typesafe.ai/blog/jev-1-14",
+          "signal": "We’re releasing Jev 1.14.0 along with experimental features for dreamers"
         }
       ],
       "content_ideas": []
@@ -309,6 +260,55 @@
       "content_ideas": []
     },
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
+          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
+          "signal": "Pelican benchmark with GPT / Gemini / Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I39ZVtk0XcI",
+          "signal": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok &amp; Gemini Spark &amp; Future Jobs Explained | VR Raja"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
+          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "How to engineer an AI harness for game development",
       "category": "use_case",
       "momentum": "rising",
@@ -336,20 +336,18 @@
       "content_ideas": []
     },
     {
-      "name": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+      "name": "AI is mass decompiling games. That's both awesome and scary",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
@@ -358,8 +356,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
-          "signal": "I turned my unused Kindle into a photo frame with GPT-6 Astra"
+          "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+          "signal": "AI is mass decompiling games. That's both awesome and scary"
         }
       ],
       "content_ideas": []
@@ -416,13 +414,13 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
-          "signal": "Pelican benchmark with GPT / Gemini / Claude"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
+          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
-          "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
+          "signal": "Pelican benchmark with GPT / Gemini / Claude"
         },
         {
           "platform": "youtube",
@@ -471,6 +469,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
+          "signal": "Where were you when ChatGPT killed big pharma?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mshy/chatgpt_implemented_my_40_years_old_game_idea/",
           "signal": "ChatGPT implemented my 40 years old game idea"
         },
@@ -480,24 +483,19 @@
           "signal": "ChatGPT plans/narates instead of doing?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5stfu/chatgpt_built_a_surprisingly_good_retro_adventure/",
-          "signal": "ChatGPT Built a Surprisingly Good Retro Adventure Game for ScummVR"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i6oN7ZfvMgM",
+          "signal": "Badtameez Chatgpt😡🤣 #roycesharma #hcpk"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lpjj/why_does_chatgpt_write_so_gddamn_much/",
-          "signal": "Why does chatgpt write so g*ddamn much?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5t69d/chatgpt_image_25/",
-          "signal": "ChatGPT Image 2.5"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Rr5xVB6ctgM",
+          "signal": "ChatGPT agrees with LITERALLY everything 💀 #roblox #animation #shorts"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Containment and monitoring failures are to blame for AI hacking report — strongest signal this cycle"
 }
