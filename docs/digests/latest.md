@@ -41,10 +41,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
 8. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
-9. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 46.0
+9. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
+10. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 46.0
    https://blog.character.ai/an-update-on-character-ai/
-10. **AI has caused ‘very good’ disruption to job market, recruiter boss says** — harrowtimes — Score 46
-   https://www.harrowtimes.co.uk/news/national/26636425.ai-caused-very-good-disruption-job-market-recruiter-boss-says/
 
 ## 🧪 AI in Science Highlights
 - **First real-world study of safety and quality of patient-facing AI in primary care - Medical Xpress** — https://news.google.com/rss/articles/CBMigwFBVV95cUxPZTF5MERnUW10alBab213YjJQZng4SV83MWZWcFFWaXdIRkV0WUhJNk5sVE1UaHlOUjVuNXRXVV80eWotQnR2TTE0VWVLbmNwcHJSbUN2RjBwbjRORmlNbFVreUpzd3JxbUJKdmRPTnRQRFN2UFhwWGpvLW9INkMya0NJSQ?oc=5
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2688
+- Total stories tracked: 2749
 - Most active topic: models
 - Busiest category: AI General News
 
