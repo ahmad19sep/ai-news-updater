@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 07 Oct 2026 to 14 Oct 2026
+# 🗞️ AI THIS WEEK — 08 Oct 2026 to 15 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI**
@@ -43,8 +43,8 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
 9. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 46.0
    https://blog.character.ai/an-update-on-character-ai/
-10. **PHAL Launches the World's First Total Hotel Agentic AI Solution, as a Third Top 10 Global Operator Selects PHAL - Hospitality Net** — AI Agents — Score 46
-   https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWGpkM3ZjVG5Rd2lfMnN2S3F1OEJrVWVkUDF3cHhROWtkcDQ5NjJGbEJHd3pBX1lyZlFILUg1cXRDVEhPeUZJRlZJaE5vTTdUSkd5V0lYQTBaQjdrb2QtdDRDd1Vyc2hWb2YwR19Bc1BkcFJBQVZoZ0JxWWdadE9KZllXYVE1dEVmN0ZHMExaM2NnS0sycnFVbUtFaHJRWDBDVTRMeWtSSXhUeVBmUXFFM0R6bWkwWW1Gd0ZIVWNfeWVoZ1F6Z2tqQTdVaG52c2RQQkNHb19NTVlZcXFJOEdHR0FJckpJSmV5?oc=5
+10. **AI has caused ‘very good’ disruption to job market, recruiter boss says** — harrowtimes — Score 46
+   https://www.harrowtimes.co.uk/news/national/26636425.ai-caused-very-good-disruption-job-market-recruiter-boss-says/
 
 ## 🧪 AI in Science Highlights
 - **First real-world study of safety and quality of patient-facing AI in primary care - Medical Xpress** — https://news.google.com/rss/articles/CBMigwFBVV95cUxPZTF5MERnUW10alBab213YjJQZng4SV83MWZWcFFWaXdIRkV0WUhJNk5sVE1UaHlOUjVuNXRXVV80eWotQnR2TTE0VWVLbmNwcHJSbUN2RjBwbjRORmlNbFVreUpzd3JxbUJKdmRPTnRQRFN2UFhwWGpvLW9INkMya0NJSQ?oc=5
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2631
+- Total stories tracked: 2688
 - Most active topic: models
 - Busiest category: AI General News
 
