@@ -17,10 +17,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
 5. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
-6. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
-   https://www.sciencedaily.com/releases/2026/10/261011211554.htm
-7. **Researchers improve weather forecasts looking two to six weeks out** — science angle
+6. **Researchers improve weather forecasts looking two to six weeks out** — science angle
    https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014
+7. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
+   https://www.sciencedaily.com/releases/2026/10/261011211554.htm
 8. **Palantir CTO AI says researchers started smoking, believing AI will cure cancer** — 2 upvotes on Reddit/HN
    https://www.indiatoday.in/technology/news/story/palantir-cto-shyam-sankar-says-researchers-have-started-smoking-believing-ai-will-cure-cancer-3015224-2026-10-12
 
@@ -33,28 +33,28 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
 4. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 101
    https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
-5. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
+5. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 86
+   https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
+6. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
    https://openai.com/index/gpt-6-for-everyone/
-6. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
+7. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
    https://openai.com/index/sharing-ai-progress-in-mathematics/
-7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
+8. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-8. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
+9. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
    https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
-9. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
+10. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
    https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
-10. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 46.0
-   https://blog.character.ai/an-update-on-character-ai/
 
 ## 🧪 AI in Science Highlights
+- **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 - **First real-world study of safety and quality of patient-facing AI in primary care - Medical Xpress** — https://news.google.com/rss/articles/CBMigwFBVV95cUxPZTF5MERnUW10alBab213YjJQZng4SV83MWZWcFFWaXdIRkV0WUhJNk5sVE1UaHlOUjVuNXRXVV80eWotQnR2TTE0VWVLbmNwcHJSbUN2RjBwbjRORmlNbFVreUpzd3JxbUJKdmRPTnRQRFN2UFhwWGpvLW9INkMya0NJSQ?oc=5
 - **Doctors and nurses, not AI, must perform medicine under new state law - East Bay Times** — https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTlfUC0wQzkxZV8xWnFKdHhFVWpMekowcWFNMnloOHNld3hnTXdxVFhyWEh6T0FseW9aYVZOM3d5eDlHUGtoUVlteHlmNWwyOGozQU0tR2YyWDd0djJwaUIweEdsTmdEY21FSVlfR25zMTRGNmRSa0tCTmRCTTJCYVpOLWFrYlB0U2UxSlFNaEJKQQ?oc=5
 - **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 - **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
-- **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2749
+- Total stories tracked: 2690
 - Most active topic: models
 - Busiest category: AI General News
 
