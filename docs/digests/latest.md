@@ -19,10 +19,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 6. **Researchers improve weather forecasts looking two to six weeks out** — science angle
    https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014
-7. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
+7. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
+   https://www.nature.com/articles/d41586-026-03178-w
+8. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
    https://www.sciencedaily.com/releases/2026/10/261011211554.htm
-8. **Palantir CTO AI says researchers started smoking, believing AI will cure cancer** — 2 upvotes on Reddit/HN
-   https://www.indiatoday.in/technology/news/story/palantir-cto-shyam-sankar-says-researchers-have-started-smoking-believing-ai-will-cure-cancer-3015224-2026-10-12
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI** — Satya Nadella News — Score 123
@@ -41,8 +41,8 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://openai.com/index/sharing-ai-progress-in-mathematics/
 8. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-9. **ICO secures changes from leading AI developers as scrutiny extends to AI agents - ICO** — AI in Coding — Score 48
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeUtYYnk2Zm0wUUpxeGx5bC11RWFPVmRwUUtKRjFlZzRuYUliTnEwbTB2WGJnU3FPWTVTSjgwdm1ZWHFrSWFoZUx3Vm1GZUp5MVlLZjhiTzBvVVhVOWNYTWtRbE9ubDByd1RSYVBYcUpyY2NWZ2NpcTBudk5BWmtORWRRNzJiMFdqMlhkbzNQcTZQdW9Ob3U4V1pHWnEyU1UzYWhZWUZkU2ZpbWtUSjVEUmpHQVFoUE43a0NPbkxpd3Y1Umk5R0tlSXhCRlJlZHhEX00zQVJiaTNYRVVSZTZndE50bw?oc=5
+9. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 53
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 10. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
    https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
 
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2690
+- Total stories tracked: 2663
 - Most active topic: models
 - Busiest category: AI General News
 
