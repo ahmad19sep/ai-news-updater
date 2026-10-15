@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T04:44:29.908735+00:00",
+  "generated_at": "2026-10-15T11:34:03.869499+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -76,13 +76,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mshy/chatgpt_implemented_my_40_years_old_game_idea/",
-          "signal": "ChatGPT implemented my 40 years old game idea"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h65w/chatgpt_randomly_turned_into_a_25yo_girl_who/",
+          "signal": "ChatGPT randomly turned into a 25yo girl who thought she was my wife. Wtf did I just experience 💀"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x62qps/chatgpt_plansnarates_instead_of_doing/",
-          "signal": "ChatGPT plans/narates instead of doing?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
+          "signal": "ChatGPT senses fear"
         },
         {
           "platform": "youtube",
@@ -91,35 +91,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Rr5xVB6ctgM",
-          "signal": "ChatGPT agrees with LITERALLY everything 💀 #roblox #animation #shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.character.ai/an-update-on-character-ai/",
-          "signal": "Character.ai has initiated voluntary Chapter 11 bankruptcy"
+          "url": "https://www.youtube.com/watch?v=_w3duFrnOyw",
+          "signal": "Lí do tôi không bao giờ dùng ChatGPT nữa"
         }
       ],
       "content_ideas": []
@@ -179,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "We’re releasing Jev 1.14.0 along with experimental features for dreame",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://typesafe.ai/blog/jev-1-14",
+          "signal": "We’re releasing Jev 1.14.0 along with experimental features for dreamers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "ASML's strong orders ease fears AI spending boom is running out of ste",
       "category": "use_case",
       "momentum": "rising",
@@ -206,60 +206,6 @@
       "content_ideas": []
     },
     {
-      "name": "We’re releasing Jev 1.14.0 along with experimental features for dreame",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://typesafe.ai/blog/jev-1-14",
-          "signal": "We’re releasing Jev 1.14.0 along with experimental features for dreamers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Use your OpenAI subscription to create audiobooks",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pdftomp3.com/connect-ai/",
-          "signal": "Show HN: Use your OpenAI subscription to create audiobooks"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
@@ -274,7 +220,7 @@
       "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -284,6 +230,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
           "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6hivb/chatgpt_is_getting_as_bad_as_gemini/",
+          "signal": "ChatGPT is getting as bad as Gemini"
         },
         {
           "platform": "reddit",
@@ -309,7 +260,7 @@
       "content_ideas": []
     },
     {
-      "name": "How to engineer an AI harness for game development",
+      "name": "LFM2.5-24B-A2B: Built for fast on-device agents",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -319,9 +270,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -329,8 +280,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-          "signal": "How to engineer an AI harness for game development"
+          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+          "signal": "LFM2.5-24B-A2B: Built for fast on-device agents"
         }
       ],
       "content_ideas": []
@@ -363,7 +314,61 @@
       "content_ideas": []
     },
     {
-      "name": "Threat of AI share crash puts world financial stability at risk, says ",
+      "name": "How to engineer an AI harness for game development",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+          "signal": "How to engineer an AI harness for game development"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "TV4 postpones show after AI agent erases edited material",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "signal": "TV4 postpones show after AI agent erases edited material"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Has AI tells",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -383,8 +388,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
-          "signal": "Threat of AI share crash puts world financial stability at risk, says IMF"
+          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+          "signal": "Has AI tells"
         }
       ],
       "content_ideas": []
@@ -406,7 +411,7 @@
       "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -416,6 +421,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
           "signal": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6hivb/chatgpt_is_getting_as_bad_as_gemini/",
+          "signal": "ChatGPT is getting as bad as Gemini"
         },
         {
           "platform": "reddit",
@@ -474,13 +484,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x5mshy/chatgpt_implemented_my_40_years_old_game_idea/",
-          "signal": "ChatGPT implemented my 40 years old game idea"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h65w/chatgpt_randomly_turned_into_a_25yo_girl_who/",
+          "signal": "ChatGPT randomly turned into a 25yo girl who thought she was my wife. Wtf did I just experience 💀"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x62qps/chatgpt_plansnarates_instead_of_doing/",
-          "signal": "ChatGPT plans/narates instead of doing?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
+          "signal": "ChatGPT senses fear"
         },
         {
           "platform": "youtube",
@@ -489,8 +499,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Rr5xVB6ctgM",
-          "signal": "ChatGPT agrees with LITERALLY everything 💀 #roblox #animation #shorts"
+          "url": "https://www.youtube.com/watch?v=_w3duFrnOyw",
+          "signal": "Lí do tôi không bao giờ dùng ChatGPT nữa"
         }
       ],
       "content_ideas": []
