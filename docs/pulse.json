@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:26:07.522909+00:00",
+  "generated_at": "2026-10-16T04:35:53.760195+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,40 +8,13 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 32,
+      "reddit": 25,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Containment and monitoring failures are to blame for AI hacking report",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-          "signal": "Containment and monitoring failures are to blame for AI hacking reports: experts"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -91,8 +64,35 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
-          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x71pix/why_does_chatgpt_sound_like_claude_now/",
+          "signal": "Why does ChatGPT sound like Claude now?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Containment and monitoring failures are to blame for AI hacking report",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "signal": "Containment and monitoring failures are to blame for AI hacking reports: experts"
         }
       ],
       "content_ideas": []
@@ -218,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -228,6 +228,35 @@
           "platform": "hackernews",
           "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
           "signal": "Why We're Banning AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Krea 3 – An image model built for editing at scale",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.krea.ai/krea-3",
+          "signal": "Krea 3 – An image model built for editing at scale"
         }
       ],
       "content_ideas": []
@@ -287,35 +316,6 @@
       "content_ideas": []
     },
     {
-      "name": "Krea 3 – An image model built for editing at scale",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.krea.ai/krea-3",
-          "signal": "Krea 3 – An image model built for editing at scale"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI is mass decompiling games. That's both awesome and scary",
       "category": "use_case",
       "momentum": "rising",
@@ -343,7 +343,7 @@
       "content_ideas": []
     },
     {
-      "name": "Has AI tells",
+      "name": "Using AI to reverse engineer hardware",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -363,8 +363,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-          "signal": "Has AI tells"
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+          "signal": "Using AI to reverse engineer hardware"
         }
       ],
       "content_ideas": []
@@ -420,26 +420,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6qfb9/chatgpt_glitched_out_and_never_stopped_its_last/",
-          "signal": "ChatGPT glitched out and never stopped its last reply. So I stopped it manually and made it read the reply and unlocked a badly sung ambient choir mode 😂"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x71pix/why_does_chatgpt_sound_like_claude_now/",
+          "signal": "Why does ChatGPT sound like Claude now?"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Why can't OpenAI makeup their mind about the model switcher?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6jz8c/why_cant_openai_makeup_their_mind_about_the_model/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
-  "tool_of_week_candidate": "Containment and monitoring failures are to blame for AI hacking report — strongest signal this cycle"
+  "pain_points": [],
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
