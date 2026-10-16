@@ -33,18 +33,18 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
 4. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
-5. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 101
+5. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 98
    https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
 6. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 86
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
 7. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
    https://openai.com/index/gpt-6-for-everyone/
-8. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
-   https://openai.com/index/sharing-ai-progress-in-mathematics/
+8. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 63
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 9. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-10. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 53
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
+10. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2661
+- Total stories tracked: 2763
 - Most active topic: models
 - Busiest category: AI General News
 
