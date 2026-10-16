@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:35:53.760195+00:00",
+  "generated_at": "2026-10-16T11:28:46.567956+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
+          "signal": "ChatGPT found my Reddit Review and knew it was mine."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
           "signal": "ChatGPT senses fear"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h65w/chatgpt_randomly_turned_into_a_25yo_girl_who/",
-          "signal": "ChatGPT randomly turned into a 25yo girl who thought she was my wife. Wtf did I just experience 💀"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7b2qq/i_used_chatgpt_to_orchestrate_a_100image_portrait/",
+          "signal": "I used ChatGPT to orchestrate a 100-image portrait of humanity for aliens, with Argon generating the visuals"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
-          "signal": "Where were you when ChatGPT killed big pharma?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x71pix/why_does_chatgpt_sound_like_claude_now/",
-          "signal": "Why does ChatGPT sound like Claude now?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7c1o1/chatgpt_v_claude/",
+          "signal": "ChatGPT v. Claude"
         }
       ],
       "content_ideas": []
@@ -179,33 +179,6 @@
       "content_ideas": []
     },
     {
-      "name": "Simons Foundation launches $15M effort to help mathematicians navigate",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-          "signal": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Why We're Banning AI",
       "category": "use_case",
       "momentum": "rising",
@@ -218,7 +191,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -228,6 +201,33 @@
           "platform": "hackernews",
           "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
           "signal": "Why We're Banning AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Simons Foundation launches $15M effort to help mathematicians navigate",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+          "signal": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
         }
       ],
       "content_ideas": []
@@ -247,7 +247,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -257,6 +257,33 @@
           "platform": "hackernews",
           "url": "https://www.krea.ai/krea-3",
           "signal": "Krea 3 – An image model built for editing at scale"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Using AI to reverse engineer hardware",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+          "signal": "Using AI to reverse engineer hardware"
         }
       ],
       "content_ideas": []
@@ -341,33 +368,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Using AI to reverse engineer hardware",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-          "signal": "Using AI to reverse engineer hardware"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -405,23 +405,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
+          "signal": "ChatGPT found my Reddit Review and knew it was mine."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
           "signal": "ChatGPT senses fear"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h65w/chatgpt_randomly_turned_into_a_25yo_girl_who/",
-          "signal": "ChatGPT randomly turned into a 25yo girl who thought she was my wife. Wtf did I just experience 💀"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7b2qq/i_used_chatgpt_to_orchestrate_a_100image_portrait/",
+          "signal": "I used ChatGPT to orchestrate a 100-image portrait of humanity for aliens, with Argon generating the visuals"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
-          "signal": "Where were you when ChatGPT killed big pharma?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x71pix/why_does_chatgpt_sound_like_claude_now/",
-          "signal": "Why does ChatGPT sound like Claude now?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7c1o1/chatgpt_v_claude/",
+          "signal": "ChatGPT v. Claude"
         }
       ],
       "content_ideas": []
