@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T16:42:13.815198+00:00",
+  "generated_at": "2026-10-16T21:13:02.685842+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 34,
-      "hackernews": 24,
+      "reddit": 25,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -60,40 +60,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x73hwn/chatgpt_is_now_awesome/",
-          "signal": "ChatGPT is now awesome!!!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7k0lr/openai_reported_a_private_chatgpt_conversation_to/",
+          "signal": "OpenAI reported a private ChatGPT conversation to Brazil’s Federal Police"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7dqlg/chatgpt_vs_codex_vs_work_is_getting_confusing/",
-          "signal": "ChatGPT vs Codex vs Work is getting confusing"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Containment and monitoring failures are to blame for AI hacking report",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-          "signal": "Containment and monitoring failures are to blame for AI hacking reports: experts"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7njc4/i_built_a_chatgpt_plugin_that_lets_regular_chat/",
+          "signal": "I built a ChatGPT plugin that lets regular Chat mode work like Codex. Finally, no more worrying about usage limits."
         }
       ],
       "content_ideas": []
@@ -126,11 +99,12 @@
       "content_ideas": []
     },
     {
-      "name": "Banks are now trying to offload the AI data center debt they just unde",
+      "name": "90% of US working hours are spent on tasks not covered well by AI benc",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -146,8 +120,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-          "signal": "Banks are now trying to offload the AI data center debt they just underwrote"
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+          "signal": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
         }
       ],
       "content_ideas": []
@@ -175,33 +149,6 @@
           "platform": "hackernews",
           "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
           "signal": "Using AI to reverse engineer hardware"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "We’re releasing Jev 1.14.0 along with experimental features for dreame",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://typesafe.ai/blog/jev-1-14",
-          "signal": "We’re releasing Jev 1.14.0 along with experimental features for dreamers"
         }
       ],
       "content_ideas": []
@@ -317,7 +264,7 @@
       "content_ideas": []
     },
     {
-      "name": "Has AI tells",
+      "name": "Postgres 19 delayed after AI reviewers find more bugs than humans can ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -329,7 +276,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -337,14 +284,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-          "signal": "Has AI tells"
+          "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+          "signal": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "name": "AI was great until it was not",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -354,7 +301,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 5,
       "monetization": {
@@ -364,8 +311,68 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://clova.email/",
-          "signal": "Show HN: I wrote an email app that accepts only one sender per inbox"
+          "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+          "signal": "AI was great until it was not"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Market selloff, rising rates test AI data centre deal boom",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+          "signal": "Market selloff, rising rates test AI data centre deal boom"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.washingtonsun.com/immigration/ice-ai-monitor-detainees",
+          "signal": "ICE Wants to Use AI to Monitor Detainee Calls and Movements"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7fs5z/ai_beef_jensen_huang_claims_geoffrey_hinton_is/",
+          "signal": "AI beef: Jensen Huang claims Geoffrey Hinton is fearmongering. Hinton says Jensen wants to downplay the danger of AI so he can sell more chips"
         }
       ],
       "content_ideas": []
@@ -417,18 +424,76 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x73hwn/chatgpt_is_now_awesome/",
-          "signal": "ChatGPT is now awesome!!!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7k0lr/openai_reported_a_private_chatgpt_conversation_to/",
+          "signal": "OpenAI reported a private ChatGPT conversation to Brazil’s Federal Police"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7dqlg/chatgpt_vs_codex_vs_work_is_getting_confusing/",
-          "signal": "ChatGPT vs Codex vs Work is getting confusing"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7njc4/i_built_a_chatgpt_plugin_that_lets_regular_chat/",
+          "signal": "I built a ChatGPT plugin that lets regular Chat mode work like Codex. Finally, no more worrying about usage limits."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.washingtonsun.com/immigration/ice-ai-monitor-detainees",
+          "signal": "ICE Wants to Use AI to Monitor Detainee Calls and Movements"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7fs5z/ai_beef_jensen_huang_claims_geoffrey_hinton_is/",
+          "signal": "AI beef: Jensen Huang claims Geoffrey Hinton is fearmongering. Hinton says Jensen wants to downplay the danger of AI so he can sell more chips"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "I built a ChatGPT plugin that lets regular Chat mode work like Codex. Finally, no more worrying about usage limits.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7njc4/i_built_a_chatgpt_plugin_that_lets_regular_chat/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "OpenAl banned my account 5 days after upgrading to $100 - appeal reply with zero explanation",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7rlp5/openal_banned_my_account_5_days_after_upgrading/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
