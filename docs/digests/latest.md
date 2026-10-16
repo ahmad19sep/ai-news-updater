@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 08 Oct 2026 to 15 Oct 2026
+# 🗞️ AI THIS WEEK — 09 Oct 2026 to 16 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI**
@@ -27,20 +27,20 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI** — Satya Nadella News — Score 123
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4ddcf446e68e5768b27531f2c2&url=https%3a%2f%2fwww.seattletimes.com%2fbusiness%2fmicrosoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai%2f&c=10237068668694846031&mkt=en-us
-2. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
-   https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
-3. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
-   https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
-4. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 101
-   https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
-5. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 86
-   https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
-6. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
-   https://openai.com/index/gpt-6-for-everyone/
-7. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
-   https://openai.com/index/sharing-ai-progress-in-mathematics/
-8. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 56
+2. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 106
    https://news.google.com/rss/articles/CBMiakFVX3lxTE0tX0hHY3BPb09oS2NBS204MVpzN3FXYlVuNTJYRjFZX0RweWphX19FcE5xSl9JSkw1c2dtcUNQZnV4RzZTOHpDbFA3N1dGNzVaZHJ1MVhJWUg2ci1wa0ZlMWJ1SG41WjlrZmc?oc=5
+3. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
+   https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
+4. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
+   https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
+5. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 101
+   https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
+6. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 86
+   https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
+7. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
+   https://openai.com/index/gpt-6-for-everyone/
+8. **Sharing AI progress in mathematics** — Hacker News AI — Score 63
+   https://openai.com/index/sharing-ai-progress-in-mathematics/
 9. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
 10. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 53
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2634
+- Total stories tracked: 2661
 - Most active topic: models
 - Busiest category: AI General News
 
