@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:28:46.567956+00:00",
+  "generated_at": "2026-10-16T16:42:13.815198+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 27,
+      "reddit": 34,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,28 +45,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
-          "signal": "I just lost my best paying client to ChatGPT"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
           "signal": "ChatGPT found my Reddit Review and knew it was mine."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
-          "signal": "ChatGPT senses fear"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
+          "signal": "I just lost my best paying client to ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7b2qq/i_used_chatgpt_to_orchestrate_a_100image_portrait/",
-          "signal": "I used ChatGPT to orchestrate a 100-image portrait of humanity for aliens, with Argon generating the visuals"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
+          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7c1o1/chatgpt_v_claude/",
-          "signal": "ChatGPT v. Claude"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x73hwn/chatgpt_is_now_awesome/",
+          "signal": "ChatGPT is now awesome!!!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7dqlg/chatgpt_vs_codex_vs_work_is_getting_confusing/",
+          "signal": "ChatGPT vs Codex vs Work is getting confusing"
         }
       ],
       "content_ideas": []
@@ -152,6 +153,33 @@
       "content_ideas": []
     },
     {
+      "name": "Using AI to reverse engineer hardware",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+          "signal": "Using AI to reverse engineer hardware"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "We’re releasing Jev 1.14.0 along with experimental features for dreame",
       "category": "use_case",
       "momentum": "rising",
@@ -206,6 +234,35 @@
       "content_ideas": []
     },
     {
+      "name": "Krea 3 – An image model built for editing at scale",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.krea.ai/krea-3",
+          "signal": "Krea 3 – An image model built for editing at scale"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Simons Foundation launches $15M effort to help mathematicians navigate",
       "category": "use_case",
       "momentum": "rising",
@@ -228,62 +285,6 @@
           "platform": "hackernews",
           "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
           "signal": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Krea 3 – An image model built for editing at scale",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.krea.ai/krea-3",
-          "signal": "Krea 3 – An image model built for editing at scale"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Using AI to reverse engineer hardware",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-          "signal": "Using AI to reverse engineer hardware"
         }
       ],
       "content_ideas": []
@@ -316,34 +317,7 @@
       "content_ideas": []
     },
     {
-      "name": "ASML's strong orders ease fears AI spending boom is running out of ste",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-          "signal": "ASML's strong orders ease fears AI spending boom is running out of steam"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is mass decompiling games. That's both awesome and scary",
+      "name": "Has AI tells",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -363,8 +337,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
-          "signal": "AI is mass decompiling games. That's both awesome and scary"
+          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+          "signal": "Has AI tells"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://clova.email/",
+          "signal": "Show HN: I wrote an email app that accepts only one sender per inbox"
         }
       ],
       "content_ideas": []
@@ -378,6 +379,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -400,28 +402,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
-          "signal": "I just lost my best paying client to ChatGPT"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
           "signal": "ChatGPT found my Reddit Review and knew it was mine."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h1oo/chatgpt_senses_fear/",
-          "signal": "ChatGPT senses fear"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
+          "signal": "I just lost my best paying client to ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7b2qq/i_used_chatgpt_to_orchestrate_a_100image_portrait/",
-          "signal": "I used ChatGPT to orchestrate a 100-image portrait of humanity for aliens, with Argon generating the visuals"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
+          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7c1o1/chatgpt_v_claude/",
-          "signal": "ChatGPT v. Claude"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x73hwn/chatgpt_is_now_awesome/",
+          "signal": "ChatGPT is now awesome!!!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7dqlg/chatgpt_vs_codex_vs_work_is_getting_confusing/",
+          "signal": "ChatGPT vs Codex vs Work is getting confusing"
         }
       ],
       "content_ideas": []
