@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T04:31:47.658389+00:00",
+  "generated_at": "2026-10-17T10:48:54.010850+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 26,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -45,13 +45,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
-          "signal": "ChatGPT found my Reddit Review and knew it was mine."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
-          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85l9u/what_do_u_guys_generally_use_chatgpt_for_the_most/",
+          "signal": "what do u guys generally use chatgpt for the most ?"
         },
         {
           "platform": "reddit",
@@ -60,13 +55,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7k0lr/openai_reported_a_private_chatgpt_conversation_to/",
-          "signal": "OpenAI reported a private ChatGPT conversation to Brazil’s Federal Police"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85kme/has_chatgpt_made_anyone_elses_typing_worse/",
+          "signal": "Has ChatGPT Made Anyone Else's Typing Worse?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
-          "signal": "I just lost my best paying client to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
+          "signal": "ChatGPT found my Reddit Review and knew it was mine."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
+          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
         }
       ],
       "content_ideas": []
@@ -149,6 +149,38 @@
           "platform": "hackernews",
           "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
           "signal": "Using AI to reverse engineer hardware"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "signal": "DeepSeek-v4.1-Flash-1017"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "signal": "DeepSeek: DeepSeek v4.1 Flash 1017"
         }
       ],
       "content_ideas": []
@@ -237,6 +269,33 @@
       "content_ideas": []
     },
     {
+      "name": "You could have invented transformers from memory",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://alexwang.ai/posts/associative-memory/",
+          "signal": "You could have invented transformers from memory"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Anthropic assigned highest junk credit rating in June",
       "category": "use_case",
       "momentum": "rising",
@@ -249,7 +308,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -276,7 +335,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -286,60 +345,6 @@
           "platform": "hackernews",
           "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
           "signal": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "You could have invented transformers from memory",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://alexwang.ai/posts/associative-memory/",
-          "signal": "You could have invented transformers from memory"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI was great until it was not",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
-          "signal": "AI was great until it was not"
         }
       ],
       "content_ideas": []
@@ -359,7 +364,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -376,6 +381,38 @@
   ],
   "rising_tools": [
     {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "signal": "DeepSeek-v4.1-Flash-1017"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "signal": "DeepSeek: DeepSeek v4.1 Flash 1017"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Flux",
       "category": "tool_launch",
       "momentum": "rising",
@@ -390,7 +427,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -407,7 +444,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -434,13 +471,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
-          "signal": "ChatGPT found my Reddit Review and knew it was mine."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
-          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85l9u/what_do_u_guys_generally_use_chatgpt_for_the_most/",
+          "signal": "what do u guys generally use chatgpt for the most ?"
         },
         {
           "platform": "reddit",
@@ -449,13 +481,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7k0lr/openai_reported_a_private_chatgpt_conversation_to/",
-          "signal": "OpenAI reported a private ChatGPT conversation to Brazil’s Federal Police"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85kme/has_chatgpt_made_anyone_elses_typing_worse/",
+          "signal": "Has ChatGPT Made Anyone Else's Typing Worse?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
-          "signal": "I just lost my best paying client to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
+          "signal": "ChatGPT found my Reddit Review and knew it was mine."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
+          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
         }
       ],
       "content_ideas": []
