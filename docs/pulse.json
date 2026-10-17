@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T21:13:02.685842+00:00",
+  "generated_at": "2026-10-17T04:31:47.658389+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -50,13 +50,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
-          "signal": "I just lost my best paying client to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
+          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
-          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7wg1g/while_taking_a_walk_a_month_ago_i_started/",
+          "signal": "While taking a walk a month ago, I started building a second brain with Astra 6 on ChatGPT work. It got accepted into the AppStore in one round"
         },
         {
           "platform": "reddit",
@@ -65,8 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7njc4/i_built_a_chatgpt_plugin_that_lets_regular_chat/",
-          "signal": "I built a ChatGPT plugin that lets regular Chat mode work like Codex. Finally, no more worrying about usage limits."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
+          "signal": "I just lost my best paying client to ChatGPT"
         }
       ],
       "content_ideas": []
@@ -237,7 +237,7 @@
       "content_ideas": []
     },
     {
-      "name": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "name": "Anthropic assigned highest junk credit rating in June",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -249,7 +249,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -257,8 +257,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-          "signal": "LFM2.5-24B-A2B: Built for fast on-device agents"
+          "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+          "signal": "Anthropic assigned highest junk credit rating in June"
         }
       ],
       "content_ideas": []
@@ -276,7 +276,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -286,6 +286,33 @@
           "platform": "hackernews",
           "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
           "signal": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "You could have invented transformers from memory",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://alexwang.ai/posts/associative-memory/",
+          "signal": "You could have invented transformers from memory"
         }
       ],
       "content_ideas": []
@@ -318,47 +345,21 @@
       "content_ideas": []
     },
     {
-      "name": "Market selloff, rising rates test AI data centre deal boom",
-      "category": "use_case",
+      "name": "Flux",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
-          "signal": "Market selloff, rising rates test AI data centre deal boom"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
+        "facebook_inferred",
         "hackernews",
-        "reddit"
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
+      "best_format": "reel",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -366,19 +367,43 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.washingtonsun.com/immigration/ice-ai-monitor-detainees",
-          "signal": "ICE Wants to Use AI to Monitor Detainee Calls and Movements"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7fs5z/ai_beef_jensen_huang_claims_geoffrey_hinton_is/",
-          "signal": "AI beef: Jensen Huang claims Geoffrey Hinton is fearmongering. Hinton says Jensen wants to downplay the danger of AI so he can sell more chips"
+          "url": "https://bfl.ai/blog/flux-3-image-klein",
+          "signal": "FLUX 3 Image Klein"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Flux",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bfl.ai/blog/flux-3-image-klein",
+          "signal": "FLUX 3 Image Klein"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -414,13 +439,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
-          "signal": "I just lost my best paying client to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
+          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
-          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7wg1g/while_taking_a_walk_a_month_ago_i_started/",
+          "signal": "While taking a walk a month ago, I started building a second brain with Astra 6 on ChatGPT work. It got accepted into the AppStore in one round"
         },
         {
           "platform": "reddit",
@@ -429,41 +454,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7njc4/i_built_a_chatgpt_plugin_that_lets_regular_chat/",
-          "signal": "I built a ChatGPT plugin that lets regular Chat mode work like Codex. Finally, no more worrying about usage limits."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.washingtonsun.com/immigration/ice-ai-monitor-detainees",
-          "signal": "ICE Wants to Use AI to Monitor Detainee Calls and Movements"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7fs5z/ai_beef_jensen_huang_claims_geoffrey_hinton_is/",
-          "signal": "AI beef: Jensen Huang claims Geoffrey Hinton is fearmongering. Hinton says Jensen wants to downplay the danger of AI so he can sell more chips"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x6wi8z/i_just_lost_my_best_paying_client_to_chatgpt/",
+          "signal": "I just lost my best paying client to ChatGPT"
         }
       ],
       "content_ideas": []
@@ -471,13 +463,13 @@
   ],
   "pain_points": [
     {
-      "problem": "I built a ChatGPT plugin that lets regular Chat mode work like Codex. Finally, no more worrying about usage limits.",
+      "problem": "GPT-6 Astra made me a 1-click offline patch for Star Trek Legends after its servers shut down, and it actually works!",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7njc4/i_built_a_chatgpt_plugin_that_lets_regular_chat/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7z3yl/gpt6_astra_made_me_a_1click_offline_patch_for/"
         }
       ],
       "content_opportunity": ""
