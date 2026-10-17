@@ -27,12 +27,12 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI** — Satya Nadella News — Score 123
    http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4ddcf446e68e5768b27531f2c2&url=https%3a%2f%2fwww.seattletimes.com%2fbusiness%2fmicrosoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai%2f&c=10237068668694846031&mkt=en-us
-2. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 106
-   https://news.google.com/rss/articles/CBMiakFVX3lxTE0tX0hHY3BPb09oS2NBS204MVpzN3FXYlVuNTJYRjFZX0RweWphX19FcE5xSl9JSkw1c2dtcUNQZnV4RzZTOHpDbFA3N1dGNzVaZHJ1MVhJWUg2ci1wa0ZlMWJ1SG41WjlrZmc?oc=5
-3. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
+2. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
    https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
-4. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
+3. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
+4. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 103
+   https://news.google.com/rss/articles/CBMiakFVX3lxTE0tX0hHY3BPb09oS2NBS204MVpzN3FXYlVuNTJYRjFZX0RweWphX19FcE5xSl9JSkw1c2dtcUNQZnV4RzZTOHpDbFA3N1dGNzVaZHJ1MVhJWUg2ci1wa0ZlMWJ1SG41WjlrZmc?oc=5
 5. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 98
    https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
 6. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2740
+- Total stories tracked: 2713
 - Most active topic: models
 - Busiest category: AI General News
 
