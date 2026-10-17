@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:48:54.010850+00:00",
+  "generated_at": "2026-10-17T15:38:19.070638+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,12 +9,71 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 27,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Muse Spark Open",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/muse-spark-open",
+          "signal": "Muse Spark Open"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "signal": "DeepSeek: DeepSeek v4.1 Flash 1017"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "signal": "DeepSeek-v4.1-Flash-1017"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -50,50 +109,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7wg1g/while_taking_a_walk_a_month_ago_i_started/",
-          "signal": "While taking a walk a month ago, I started building a second brain with Astra 6 on ChatGPT work. It got accepted into the AppStore in one round"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8bnon/i_made_a_small_extension_that_copies_a_whole/",
+          "signal": "I made a small extension that copies a whole ChatGPT conversation as clean Markdown"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85kme/has_chatgpt_made_anyone_elses_typing_worse/",
-          "signal": "Has ChatGPT Made Anyone Else's Typing Worse?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_w3duFrnOyw",
+          "signal": "Lí do tôi không bao giờ dùng ChatGPT nữa"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
-          "signal": "ChatGPT found my Reddit Review and knew it was mine."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
-          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Muse Spark Open",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/muse-spark-open",
-          "signal": "Muse Spark Open"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
+          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
         }
       ],
       "content_ideas": []
@@ -127,7 +159,7 @@
       "content_ideas": []
     },
     {
-      "name": "Using AI to reverse engineer hardware",
+      "name": "You could have invented transformers from memory",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -147,40 +179,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-          "signal": "Using AI to reverse engineer hardware"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "signal": "DeepSeek-v4.1-Flash-1017"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-          "signal": "DeepSeek: DeepSeek v4.1 Flash 1017"
+          "url": "https://alexwang.ai/posts/associative-memory/",
+          "signal": "You could have invented transformers from memory"
         }
       ],
       "content_ideas": []
@@ -237,60 +237,6 @@
           "platform": "hackernews",
           "url": "https://www.krea.ai/krea-3",
           "signal": "Krea 3 – An image model built for editing at scale"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Simons Foundation launches $15M effort to help mathematicians navigate",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-          "signal": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "You could have invented transformers from memory",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://alexwang.ai/posts/associative-memory/",
-          "signal": "You could have invented transformers from memory"
         }
       ],
       "content_ideas": []
@@ -364,7 +310,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -374,6 +320,60 @@
           "platform": "hackernews",
           "url": "https://bfl.ai/blog/flux-3-image-klein",
           "signal": "FLUX 3 Image Klein"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Market selloff, rising rates test AI data centre deal boom",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+          "signal": "Market selloff, rising rates test AI data centre deal boom"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic Console overcharged my card 100x due to internationalization",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50121562",
+          "signal": "Anthropic Console overcharged my card 100x due to internationalization input bug"
         }
       ],
       "content_ideas": []
@@ -401,13 +401,13 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "signal": "DeepSeek-v4.1-Flash-1017"
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "signal": "DeepSeek: DeepSeek v4.1 Flash 1017"
         },
         {
           "platform": "hackernews",
-          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-          "signal": "DeepSeek: DeepSeek v4.1 Flash 1017"
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "signal": "DeepSeek-v4.1-Flash-1017"
         }
       ],
       "content_ideas": []
@@ -427,7 +427,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -476,23 +476,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7wg1g/while_taking_a_walk_a_month_ago_i_started/",
-          "signal": "While taking a walk a month ago, I started building a second brain with Astra 6 on ChatGPT work. It got accepted into the AppStore in one round"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8bnon/i_made_a_small_extension_that_copies_a_whole/",
+          "signal": "I made a small extension that copies a whole ChatGPT conversation as clean Markdown"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85kme/has_chatgpt_made_anyone_elses_typing_worse/",
-          "signal": "Has ChatGPT Made Anyone Else's Typing Worse?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_w3duFrnOyw",
+          "signal": "Lí do tôi không bao giờ dùng ChatGPT nữa"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ag5q/chatgpt_found_my_reddit_review_and_knew_it_was/",
-          "signal": "ChatGPT found my Reddit Review and knew it was mine."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cxx0/whats_the_most_surprisingly_useful_thing_youve/",
-          "signal": "What's the most surprisingly useful thing you've used ChatGPT for?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
+          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
         }
       ],
       "content_ideas": []
@@ -510,19 +510,7 @@
         }
       ],
       "content_opportunity": ""
-    },
-    {
-      "problem": "OpenAl banned my account 5 days after upgrading to $100 - appeal reply with zero explanation",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7rlp5/openal_banned_my_account_5_days_after_upgrading/"
-        }
-      ],
-      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Muse Spark Open — strongest signal this cycle"
 }
