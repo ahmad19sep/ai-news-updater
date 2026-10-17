@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 09 Oct 2026 to 16 Oct 2026
+# 🗞️ AI THIS WEEK — 10 Oct 2026 to 17 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Microsoft CEO Nadella calls for ‘emergency brake’ on advanced AI**
@@ -17,10 +17,10 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
 5. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
-6. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
-   https://www.nature.com/articles/d41586-026-03178-w
-7. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
+6. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
    https://www.nature.com/articles/d41586-026-03253-2
+7. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
+   https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
 8. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
    https://www.sciencedaily.com/releases/2026/10/261011211554.htm
 
@@ -35,16 +35,16 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
 5. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 98
    https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
-6. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 86
+6. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
-7. **GPT‑6 and Intelligent UI for everyone** — Hacker News AI — Score 73.4
-   https://openai.com/index/gpt-6-for-everyone/
-8. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 63
+7. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 63
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
-9. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
+8. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
    https://www.farmonline.com.au/story/9365398/csiro-warns-farmers-over-ai-risks-as-systems-take-control/?src=rss
-10. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 50
+9. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 50
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5
+10. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
@@ -54,7 +54,7 @@ All coverage: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acabc4
 - **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2715
+- Total stories tracked: 2685
 - Most active topic: models
 - Busiest category: AI General News
 
