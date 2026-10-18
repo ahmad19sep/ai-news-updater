@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:54:22.267058+00:00",
+  "generated_at": "2026-10-18T20:47:30.234343+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 17,
+      "hackernews": 15,
       "youtube": 106
     },
     "llm_provider": null
@@ -54,7 +54,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -77,6 +76,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x979qn/do_you_ever_use_chatgpt_as_a_thinking_partner/",
+          "signal": "Do you ever use ChatGPT as a thinking partner when you feel unheard by the people in your life?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ycq2/i_used_chatgpt_to_find_an_undiscovered_planet/",
           "signal": "I used ChatGPT to find an undiscovered planet hiding in 17-year-old NASA data"
         },
@@ -86,53 +90,20 @@
           "signal": "I accidentally found one of my new favorite uses for ChatGPT"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8yfcm/chatgpt_agrees_with_me_so_much_that_i_sometimes/",
-          "signal": "ChatGPT agrees with me so much that I sometimes ask it to argue against me 💀"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=4pK8SDp8orE",
           "signal": "Badtameez Chatgpt😡🤣Pt-7 #couplegoals #hcpk"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
-          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=NsTCeiiuL3g",
+          "signal": "CHATGPT VS META AI"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "90% of US working hours are spent on tasks not covered well by AI benc",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-          "signal": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "You could have invented transformers from memory",
+      "name": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shi",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -142,9 +113,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -152,41 +123,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://alexwang.ai/posts/associative-memory/",
-          "signal": "You could have invented transformers from memory"
+          "url": "https://sphinx-six-theta.vercel.app/",
+          "signal": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Anthropic assigned highest junk credit rating in June",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-          "signal": "Anthropic assigned highest junk credit rating in June"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Postgres 19 delayed after AI reviewers find more bugs than humans can ",
+      "name": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -206,43 +150,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-          "signal": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+          "signal": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Flux",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://bfl.ai/blog/flux-3-image-klein",
-          "signal": "FLUX 3 Image Klein"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shi",
+      "name": "Websites are closing their doors to AI agents",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -252,7 +167,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
@@ -262,8 +177,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://sphinx-six-theta.vercel.app/",
-          "signal": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "signal": "Websites are closing their doors to AI agents"
         }
       ],
       "content_ideas": []
@@ -323,7 +238,7 @@
       "content_ideas": []
     },
     {
-      "name": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B ",
+      "name": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Ca",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -334,6 +249,75 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
+          "signal": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WP4bC8sTIN8",
+          "signal": "Multi-Agent Localization with Gemini 4 Argon"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yiu8V9Qr8HI",
+          "signal": "منحة من جوجل لكل طلبة الجامعات في مصر ##ملك_المزاج #تعالى #googlegemini #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
+          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 4,
       "monetization": {
@@ -343,18 +327,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-          "signal": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
+          "url": "https://www.vals.ai/blogs/impossible-refund",
+          "signal": "How Far Will AI Assistants Go for a Refund They Can't Get?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Anthropic Console overcharged my card 100x due to internationalization",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -364,14 +348,58 @@
       "best_format": "short",
       "video_worthy": 3,
       "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ekfv/not_what_i_wanted_but_hilarious/",
+          "signal": "Not what I wanted but hilarious"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x916ty/is_sol_61_using_up_anyone_elses_allowance_much/",
+          "signal": "Is Sol 6.1 using up anyone else's allowance much faster lately?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Long Ai Video kaise banaye | FREE AI Tools ✅ | 3D Cartoon Video kaise ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 3,
+      "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50121562",
-          "signal": "Anthropic Console overcharged my card 100x due to internationalization input bug"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mjsyBy8o96M",
+          "signal": "Long Ai Video kaise banaye | FREE AI Tools ✅ | 3D Cartoon Video kaise banaye | Ai Video kaise banaye"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7xpXV_odQuI",
+          "signal": "Long AI Video Kaise Banaye (10 Min) Using Just 1 Click🔥|| Ai se video kaise banaye | Ai Automation"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v4R31eOXM2U",
+          "signal": "🔥 Long Ai Video Kaise Banaye 💥 | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
         }
       ],
       "content_ideas": []
@@ -417,7 +445,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -440,6 +467,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x979qn/do_you_ever_use_chatgpt_as_a_thinking_partner/",
+          "signal": "Do you ever use ChatGPT as a thinking partner when you feel unheard by the people in your life?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ycq2/i_used_chatgpt_to_find_an_undiscovered_planet/",
           "signal": "I used ChatGPT to find an undiscovered planet hiding in 17-year-old NASA data"
         },
@@ -449,48 +481,88 @@
           "signal": "I accidentally found one of my new favorite uses for ChatGPT"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8yfcm/chatgpt_agrees_with_me_so_much_that_i_sometimes/",
-          "signal": "ChatGPT agrees with me so much that I sometimes ask it to argue against me 💀"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=4pK8SDp8orE",
           "signal": "Badtameez Chatgpt😡🤣Pt-7 #couplegoals #hcpk"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
-          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=NsTCeiiuL3g",
+          "signal": "CHATGPT VS META AI"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Flux",
+      "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://bfl.ai/blog/flux-3-image-klein",
-          "signal": "FLUX 3 Image Klein"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WP4bC8sTIN8",
+          "signal": "Multi-Agent Localization with Gemini 4 Argon"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yiu8V9Qr8HI",
+          "signal": "منحة من جوجل لكل طلبة الجامعات في مصر ##ملك_المزاج #تعالى #googlegemini #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
+          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ekfv/not_what_i_wanted_but_hilarious/",
+          "signal": "Not what I wanted but hilarious"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x916ty/is_sol_61_using_up_anyone_elses_allowance_much/",
+          "signal": "Is Sol 6.1 using up anyone else's allowance much faster lately?"
         }
       ],
       "content_ideas": []
