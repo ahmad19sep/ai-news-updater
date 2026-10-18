@@ -54,7 +54,7 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
 - **Doctors have concerns about AI tools for medical advice - KRCG** — https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2704
+- Total stories tracked: 2728
 - Most active topic: agents
 - Busiest category: AI General News
 
