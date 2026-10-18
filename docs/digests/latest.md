@@ -9,20 +9,20 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
-2. **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — science angle
-   https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
-3. **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — science angle
+2. **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — science angle
    https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
-4. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
+3. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
-5. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
+4. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
-6. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
+5. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
    https://www.sciencedaily.com/releases/2026/10/261011211554.htm
-7. **Researchers improve weather forecasts looking two to six weeks out** — science angle
+6. **Researchers improve weather forecasts looking two to six weeks out** — science angle
    https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014
-8. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
+7. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
    https://www.nature.com/articles/d41586-026-03178-w
+8. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
+   https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
@@ -49,12 +49,12 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 - **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
-- **AI can diagnose you in seconds. But it comes with risks, doctors say - CBC** — https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZXJDOGVLenFRZkJkYlE0MjU2YWR1dmZTbV85LXpvcnVTV0NkZzVWRTBuMHAxNlBmeHdxakZDbG9QRV9aZ2ZpcE5SdWNVMEFDM3Z1MFNRNVVDaVdWYjM2Q0g1cHM2eWhMV0J5U3hhZm1sMUViQ1E?oc=5
 - **ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times** — https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWowZzdzWE1GbUo3RHBDcndvRHRsVjk0WnotOUxkQUxUTnhSVTlSbzI5a0JVOEluNU5jcnd0S2ppSVdsNkIyTzJQdGxWQnRUQW14WkZSR2ladDlTV0wwVGhNNnJjcVM4WHVPM1ZpUDktenU1Q3NXQzNGSUIwbEl0YU9rNS1DdV9UTk9VbzdoRzF4OEJ5YTFsQ3JMcUhpdXdlaHIxLXg2a0dXaHJRanp1NXpuMVdYdFh3XzluMjJLRVpRNXliNm5vckFwQUVMS0pMTXo4TDB2RUROSUdOQjJ1czA5Ml9UeDF5ckVoQXBMMmx2QjlWMG1RWVRvMWxydy1pWmgzYXFHY3NrbEnSAYsCQVVfeXFMTnlqMGc3c1hNRm1KN0RwQ3J3b0R0bFY5NFp6LTlMZEFMVE54UlU5Um8yOWtCVThJbjVOY3J3dEtqaUlXbDZCMk8yUHRsVkJ0VEFteFpGUkdpWnQ5U1dMMFRoTTZyY3FTOFh1TzNWaVA5LXp1NUNzV0MzRklCMGxJdGFPazUtQ3VfVE5PVW83aEcxeDhCeWExbENyTHFIaXV3ZWhyMS14NmtHV2hyUWp6dTV6bjFXWHRYd185bjIyS0VaUTV5YjZub3JBcEFFTEtKTE16OEwwdkVETklHTkIydXMwOTJfVHgxeXJFaEFwTDJsdkI5VjBtUVlUbzFscnctaVpoM2FxR2Nza2xJ?oc=5
 - **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
+- **Doctors have concerns about AI tools for medical advice - KRCG** — https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2749
+- Total stories tracked: 2742
 - Most active topic: models
 - Busiest category: AI General News
 
