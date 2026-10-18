@@ -54,7 +54,7 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
 - **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2725
+- Total stories tracked: 2750
 - Most active topic: agents
 - Busiest category: AI General News
 
