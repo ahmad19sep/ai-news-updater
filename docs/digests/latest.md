@@ -43,8 +43,8 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
    https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
 9. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 47
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5
-10. **Cohere to acquire AISLE to advance cyber-resilient sovereign AI - Evertiq** — Cohere News — Score 46
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxPLXVCeFBNNGhZcFEtNGFERTAyZUJOS0h2LV9WbkJyYW9xUk1FQ3h2WTdvc0xrbzlGbkJqcnZNQTNwY2I5b0ZfQWpjeEFYSFgtTlpPR1k0WTkwcHVKT1U5cEljNVVhaExLMWVmUlJDcF9EeEY4X2xaRW5CSERROUNCdEEwcDdjTGNBeGttZTVUa1hRaW5nZUt1LUoyd0M1X2hu?oc=5
+10. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 43
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxOeE5tOGV3eFlvYW1rejVFNnRtVXFEbFlnTEJTTXA3SS0zeTczQTZVeHBLVzV0Si13dnBRSS1yQ09KeV9Od09IWWlhcXZLSDVDYllQZjZpZUNqU1VuN1RBalBtMHBtVnFkS3V5emlHT0c0REZlbzlSVHFHbjZtX1NDZmtPMnJzN3UzemhIOXE2MW9qSUVjZjBZb3hYQ3ZHT3drMXVpVVpsLXhibmVsQURlcmE5UQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
@@ -54,8 +54,8 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
 - **Doctors have concerns about AI tools for medical advice - KRCG** — https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2742
-- Most active topic: models
+- Total stories tracked: 2704
+- Most active topic: agents
 - Busiest category: AI General News
 
 ---
