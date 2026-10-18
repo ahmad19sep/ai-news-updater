@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T04:38:32.394506+00:00",
+  "generated_at": "2026-10-18T11:11:21.217745+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -18,7 +18,7 @@
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -76,8 +76,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ycq2/i_used_chatgpt_to_find_an_undiscovered_planet/",
+          "signal": "I used ChatGPT to find an undiscovered planet hiding in 17-year-old NASA data"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ojsg/i_accidentally_found_one_of_my_new_favorite_uses/",
           "signal": "I accidentally found one of my new favorite uses for ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8yfcm/chatgpt_agrees_with_me_so_much_that_i_sometimes/",
+          "signal": "ChatGPT agrees with me so much that I sometimes ask it to argue against me 💀"
         },
         {
           "platform": "reddit",
@@ -86,18 +96,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8rxf6/chatgpt_stopped_a_scam_from_ruining_somebodys_life/",
-          "signal": "ChatGPT stopped a scam from ruining somebody's life"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8djnf/what_trick_you_discovered_this_week_with_chatgpt/",
-          "signal": "What trick you discovered this week with ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8kcrm/whats_one_genuinely_positive_thing_chatgpt_has/",
-          "signal": "What's one genuinely positive thing ChatGPT has done for you that you didn't expect?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8v8mj/chatgpt_conscious/",
+          "signal": "ChatGPT Conscious?"
         }
       ],
       "content_ideas": []
@@ -170,7 +170,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -280,7 +280,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -290,6 +290,33 @@
           "platform": "hackernews",
           "url": "https://github.com/openai/codex/issues/25921",
           "signal": "Codex Desktop continuously generates Crashpad pending dumps"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shi",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://sphinx-six-theta.vercel.app/",
+          "signal": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
         }
       ],
       "content_ideas": []
@@ -358,50 +385,13 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=yiu8V9Qr8HI",
-          "signal": "منحة من جوجل لكل طلبة الجامعات في مصر ##ملك_المزاج #تعالى #googlegemini #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
-          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -459,8 +449,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ycq2/i_used_chatgpt_to_find_an_undiscovered_planet/",
+          "signal": "I used ChatGPT to find an undiscovered planet hiding in 17-year-old NASA data"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ojsg/i_accidentally_found_one_of_my_new_favorite_uses/",
           "signal": "I accidentally found one of my new favorite uses for ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8yfcm/chatgpt_agrees_with_me_so_much_that_i_sometimes/",
+          "signal": "ChatGPT agrees with me so much that I sometimes ask it to argue against me 💀"
         },
         {
           "platform": "reddit",
@@ -469,18 +469,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8rxf6/chatgpt_stopped_a_scam_from_ruining_somebodys_life/",
-          "signal": "ChatGPT stopped a scam from ruining somebody's life"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8djnf/what_trick_you_discovered_this_week_with_chatgpt/",
-          "signal": "What trick you discovered this week with ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8kcrm/whats_one_genuinely_positive_thing_chatgpt_has/",
-          "signal": "What's one genuinely positive thing ChatGPT has done for you that you didn't expect?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8v8mj/chatgpt_conscious/",
+          "signal": "ChatGPT Conscious?"
         }
       ],
       "content_ideas": []
@@ -548,43 +538,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw",
           "signal": "Claude Opus 5.5 Made Clipping The Easiest Side Hustle of 2026!"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=yiu8V9Qr8HI",
-          "signal": "منحة من جوجل لكل طلبة الجامعات في مصر ##ملك_المزاج #تعالى #googlegemini #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
-          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
