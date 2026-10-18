@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:11:21.217745+00:00",
+  "generated_at": "2026-10-18T15:54:22.267058+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 18,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,10 +50,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -90,14 +91,14 @@
           "signal": "ChatGPT agrees with me so much that I sometimes ask it to argue against me 💀"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8p6wr/active_chatgpt_users_what_are_your_views_and/",
-          "signal": "Active ChatGPT users, what are your views and positions on all the AI Hate and specific ChatGPT punchlines?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4pK8SDp8orE",
+          "signal": "Badtameez Chatgpt😡🤣Pt-7 #couplegoals #hcpk"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8v8mj/chatgpt_conscious/",
-          "signal": "ChatGPT Conscious?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         }
       ],
       "content_ideas": []
@@ -241,7 +242,7 @@
       "content_ideas": []
     },
     {
-      "name": "Amazon uses AI to monitor union risk in UK warehouses",
+      "name": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shi",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -251,9 +252,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -261,8 +262,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-          "signal": "Amazon uses AI to monitor union risk in UK warehouses"
+          "url": "https://sphinx-six-theta.vercel.app/",
+          "signal": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
         }
       ],
       "content_ideas": []
@@ -280,7 +281,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -295,7 +296,7 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shi",
+      "name": "Amazon uses AI to monitor union risk in UK warehouses",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -305,9 +306,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -315,46 +316,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://sphinx-six-theta.vercel.app/",
-          "signal": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
+          "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+          "signal": "Amazon uses AI to monitor union risk in UK warehouses"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B ",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "short",
       "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8jpd5/used_claude_to_fix_oblivion_remastered_performance/",
-          "signal": "Used Claude to fix Oblivion Remastered performance"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ulLBRyVrI1Y",
-          "signal": "GPT-6 ASTRA vs CLAUDE FABLE 5.1 (INSANE CHESS MATCH)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw",
-          "signal": "Claude Opus 5.5 Made Clipping The Easiest Side Hustle of 2026!"
+          "platform": "hackernews",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+          "signal": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
         }
       ],
       "content_ideas": []
@@ -423,10 +413,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -463,14 +454,14 @@
           "signal": "ChatGPT agrees with me so much that I sometimes ask it to argue against me 💀"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8p6wr/active_chatgpt_users_what_are_your_views_and/",
-          "signal": "Active ChatGPT users, what are your views and positions on all the AI Hate and specific ChatGPT punchlines?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4pK8SDp8orE",
+          "signal": "Badtameez Chatgpt😡🤣Pt-7 #couplegoals #hcpk"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8v8mj/chatgpt_conscious/",
-          "signal": "ChatGPT Conscious?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         }
       ],
       "content_ideas": []
@@ -503,71 +494,8 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8jpd5/used_claude_to_fix_oblivion_remastered_performance/",
-          "signal": "Used Claude to fix Oblivion Remastered performance"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ulLBRyVrI1Y",
-          "signal": "GPT-6 ASTRA vs CLAUDE FABLE 5.1 (INSANE CHESS MATCH)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw",
-          "signal": "Claude Opus 5.5 Made Clipping The Easiest Side Hustle of 2026!"
-        }
-      ],
-      "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Navier–Stokes was very impressive but AI can do better, so I asked Astra to tackle a problem that actually matters, which is finding out Dr ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ogkc/navierstokes_was_very_impressive_but_ai_can_do/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "GPT-6 Astra made me a 1-click offline patch for Star Trek Legends after its servers shut down, and it actually works!",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x7z3yl/gpt6_astra_made_me_a_1click_offline_patch_for/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Deepseek — strongest signal this cycle"
 }
