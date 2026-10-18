@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T20:39:08.328232+00:00",
+  "generated_at": "2026-10-18T04:38:32.394506+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
+      "reddit": 25,
       "hackernews": 18,
       "youtube": 106
     },
@@ -18,7 +18,7 @@
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -50,7 +50,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -76,28 +76,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ojsg/i_accidentally_found_one_of_my_new_favorite_uses/",
+          "signal": "I accidentally found one of my new favorite uses for ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8p6wr/active_chatgpt_users_what_are_your_views_and/",
+          "signal": "Active ChatGPT users, what are your views and positions on all the AI Hate and specific ChatGPT punchlines?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8rxf6/chatgpt_stopped_a_scam_from_ruining_somebodys_life/",
+          "signal": "ChatGPT stopped a scam from ruining somebody's life"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1x8djnf/what_trick_you_discovered_this_week_with_chatgpt/",
           "signal": "What trick you discovered this week with ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85l9u/what_do_u_guys_generally_use_chatgpt_for_the_most/",
-          "signal": "what do u guys generally use chatgpt for the most ?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8h5g5/new_update_messed_up_chatgpt_context/",
-          "signal": "New Update messed up ChatGPT context."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8gvtt/chatgpt_low_key_gaslighting_me/",
-          "signal": "ChatGPT low key gaslighting me?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8i3c4/chatgpt_sometimes_makes_mistakes_with_so_much/",
-          "signal": "ChatGPT sometimes makes mistakes with so much confidence 😭"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8kcrm/whats_one_genuinely_positive_thing_chatgpt_has/",
+          "signal": "What's one genuinely positive thing ChatGPT has done for you that you didn't expect?"
         }
       ],
       "content_ideas": []
@@ -214,7 +214,7 @@
     {
       "name": "Flux",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -268,9 +268,36 @@
       "content_ideas": []
     },
     {
+      "name": "Codex Desktop continuously generates Crashpad pending dumps",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/openai/codex/issues/25921",
+          "signal": "Codex Desktop continuously generates Crashpad pending dumps"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
@@ -368,41 +395,13 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Out",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
-          "signal": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -432,9 +431,64 @@
       "content_ideas": []
     },
     {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ojsg/i_accidentally_found_one_of_my_new_favorite_uses/",
+          "signal": "I accidentally found one of my new favorite uses for ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8p6wr/active_chatgpt_users_what_are_your_views_and/",
+          "signal": "Active ChatGPT users, what are your views and positions on all the AI Hate and specific ChatGPT punchlines?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8rxf6/chatgpt_stopped_a_scam_from_ruining_somebodys_life/",
+          "signal": "ChatGPT stopped a scam from ruining somebody's life"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8djnf/what_trick_you_discovered_this_week_with_chatgpt/",
+          "signal": "What trick you discovered this week with ChatGPT?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8kcrm/whats_one_genuinely_positive_thing_chatgpt_has/",
+          "signal": "What's one genuinely positive thing ChatGPT has done for you that you didn't expect?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Flux",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -461,64 +515,9 @@
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8djnf/what_trick_you_discovered_this_week_with_chatgpt/",
-          "signal": "What trick you discovered this week with ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x85l9u/what_do_u_guys_generally_use_chatgpt_for_the_most/",
-          "signal": "what do u guys generally use chatgpt for the most ?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8h5g5/new_update_messed_up_chatgpt_context/",
-          "signal": "New Update messed up ChatGPT context."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8gvtt/chatgpt_low_key_gaslighting_me/",
-          "signal": "ChatGPT low key gaslighting me?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8i3c4/chatgpt_sometimes_makes_mistakes_with_so_much/",
-          "signal": "ChatGPT sometimes makes mistakes with so much confidence 😭"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "reddit",
         "youtube"
@@ -593,9 +592,21 @@
   ],
   "pain_points": [
     {
+      "problem": "Navier–Stokes was very impressive but AI can do better, so I asked Astra to tackle a problem that actually matters, which is finding out Dr ",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ogkc/navierstokes_was_very_impressive_but_ai_can_do/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "GPT-6 Astra made me a 1-click offline patch for Star Trek Legends after its servers shut down, and it actually works!",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
