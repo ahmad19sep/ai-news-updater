@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
 8. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 47
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5
-9. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 43
+9. **DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner - Bloomberg.com** — DeepSeek News — Score 47
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNHZHRFlIcjhzUGVRNUw1SGhBSzBlY0d6T05ycVhsZUhJTEFzd1lONmpyclVfWjdmX2dMY0E1bGtvSGlocVdrUldlcWV4MEZBUzBxS3hlWndpZW1BMXc1bWo1UnpyZEw2Qzd5LUltbkNsX2xxLXNXOWx4eF9hTXFWTVo2Uy1kWnUxVldPaDBoYnNrMHNISWpydFdDSkh0TkV1ZWt6OHVwbm4zNGtJWUMweFdwRldmQWZDNUhCNlc0TElNZw?oc=5
+10. **Microsoft CEO Satya Nadella Calls for Emergency Brake Controls on AI Models - AI Insider** — Satya Nadella News — Score 43
    https://news.google.com/rss/articles/CBMiswFBVV95cUxOeE5tOGV3eFlvYW1rejVFNnRtVXFEbFlnTEJTTXA3SS0zeTczQTZVeHBLVzV0Si13dnBRSS1yQ09KeV9Od09IWWlhcXZLSDVDYllQZjZpZUNqU1VuN1RBalBtMHBtVnFkS3V5emlHT0c0REZlbzlSVHFHbjZtX1NDZmtPMnJzN3UzemhIOXE2MW9qSUVjZjBZb3hYQ3ZHT3drMXVpVVpsLXhibmVsQURlcmE5UQ?oc=5
-10. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 43.0
-   https://blog.character.ai/an-update-on-character-ai/
 
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **Doctors have concerns about AI tools for medical advice - KRCG** — https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2693
+- Total stories tracked: 2808
 - Most active topic: agents
 - Busiest category: AI General News
 
