@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:47:30.234343+00:00",
+  "generated_at": "2026-10-19T04:45:29.330187+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -18,7 +18,7 @@
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -50,7 +50,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -86,18 +86,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ojsg/i_accidentally_found_one_of_my_new_favorite_uses/",
-          "signal": "I accidentally found one of my new favorite uses for ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9kyow/i_built_a_whole_wardrobe_system_in_chatgpt_notion/",
+          "signal": "I built a whole wardrobe system in ChatGPT + Notion and it’s gotten way more useful than I expected"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=4pK8SDp8orE",
-          "signal": "Badtameez Chatgpt😡🤣Pt-7 #couplegoals #hcpk"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9kg1r/i_had_chatgpt_add_the_battle_to_my_civil_war/",
+          "signal": "I had ChatGPT add the battle to my Civil war battlefield photographs"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NsTCeiiuL3g",
-          "signal": "CHATGPT VS META AI"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9eg1a/just_chatgpt_being_chatgpt/",
+          "signal": "Just ChatGPT being ChatGPT…"
         }
       ],
       "content_ideas": []
@@ -115,7 +115,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -211,6 +211,33 @@
       "content_ideas": []
     },
     {
+      "name": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Ca",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
+          "signal": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Amazon uses AI to monitor union risk in UK warehouses",
       "category": "use_case",
       "momentum": "rising",
@@ -238,7 +265,7 @@
       "content_ideas": []
     },
     {
-      "name": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Ca",
+      "name": "How Far Will AI Assistants Go for a Refund They Can't Get?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -248,7 +275,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 5,
       "monetization": {
@@ -258,8 +285,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
-          "signal": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled"
+          "url": "https://www.vals.ai/blogs/impossible-refund",
+          "signal": "How Far Will AI Assistants Go for a Refund They Can't Get?"
         }
       ],
       "content_ideas": []
@@ -275,9 +302,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -295,11 +322,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
-          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -307,7 +329,7 @@
       "content_ideas": []
     },
     {
-      "name": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "name": "AI Can Write the Code. Who Verifies It?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -317,9 +339,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -327,16 +349,16 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.vals.ai/blogs/impossible-refund",
-          "signal": "How Far Will AI Assistants Go for a Refund They Can't Get?"
+          "url": "https://mihaisplace.com/blog/ai-can-write-the-code-who-verifies-it",
+          "signal": "AI Can Write the Code. Who Verifies It?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "We're trying something new. On Tuesdays, we're doing text posts only",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "reddit"
       ],
@@ -346,60 +368,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ekfv/not_what_i_wanted_but_hilarious/",
-          "signal": "Not what I wanted but hilarious"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x916ty/is_sol_61_using_up_anyone_elses_allowance_much/",
-          "signal": "Is Sol 6.1 using up anyone else's allowance much faster lately?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Long Ai Video kaise banaye | FREE AI Tools ✅ | 3D Cartoon Video kaise ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 3,
+      "video_worthy": 2,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=mjsyBy8o96M",
-          "signal": "Long Ai Video kaise banaye | FREE AI Tools ✅ | 3D Cartoon Video kaise banaye | Ai Video kaise banaye"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=7xpXV_odQuI",
-          "signal": "Long AI Video Kaise Banaye (10 Min) Using Just 1 Click🔥|| Ai se video kaise banaye | Ai Automation"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=v4R31eOXM2U",
-          "signal": "🔥 Long Ai Video Kaise Banaye 💥 | Full Course | 3D Cartoon Video Kaise Banaye | Ai Video Kaise Banaye"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+          "signal": "We're trying something new. On Tuesdays, we're doing text posts only"
         }
       ],
       "content_ideas": []
@@ -409,7 +387,7 @@
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -441,7 +419,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -477,18 +455,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ojsg/i_accidentally_found_one_of_my_new_favorite_uses/",
-          "signal": "I accidentally found one of my new favorite uses for ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9kyow/i_built_a_whole_wardrobe_system_in_chatgpt_notion/",
+          "signal": "I built a whole wardrobe system in ChatGPT + Notion and it’s gotten way more useful than I expected"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=4pK8SDp8orE",
-          "signal": "Badtameez Chatgpt😡🤣Pt-7 #couplegoals #hcpk"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9kg1r/i_had_chatgpt_add_the_battle_to_my_civil_war/",
+          "signal": "I had ChatGPT add the battle to my Civil war battlefield photographs"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NsTCeiiuL3g",
-          "signal": "CHATGPT VS META AI"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9eg1a/just_chatgpt_being_chatgpt/",
+          "signal": "Just ChatGPT being ChatGPT…"
         }
       ],
       "content_ideas": []
@@ -504,9 +482,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -524,45 +502,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gyc0mTJLCnc",
-          "signal": "How To Create an AI Clone And Make Money Using It 😳💰 #entrepreneur #contentcreator #gemini"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x8ekfv/not_what_i_wanted_but_hilarious/",
-          "signal": "Not what I wanted but hilarious"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x916ty/is_sol_61_using_up_anyone_elses_allowance_much/",
-          "signal": "Is Sol 6.1 using up anyone else's allowance much faster lately?"
         }
       ],
       "content_ideas": []
