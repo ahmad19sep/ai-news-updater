@@ -1,10 +1,10 @@
-# 🗞️ AI THIS WEEK — 11 Oct 2026 to 18 Oct 2026
+# 🗞️ AI THIS WEEK — 12 Oct 2026 to 19 Oct 2026
 
 ## 🔥 Biggest Story of the Week
-**Most US voters say Trump, Congress don't take AI risks seriously, poll finds**
+**San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com**
 Covered by 10 source(s) · Score: 103
-Best source link: https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
-All coverage: https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html · https://elkodaily.com/news/nation-world/government-politics/article_b0fcb9a4-ee9e-5541-862a-9b76692499a2.html · https://starherald.com/news/nation-world/government-politics/article_c8359767-37cc-5616-a148-055c76363c42.html · https://chippewa.com/news/nation-world/government-politics/article_cc9dccbc-dd85-55ce-9ab8-3c3699fb45a6.html · https://kenoshanews.com/news/nation-world/government-politics/article_639695db-76c2-5f81-9027-b166b831c4d0.html · https://theindependent.com/news/nation-world/government-politics/article_6137a78e-ad9b-5f0d-97b8-3b5f1df38210.html · https://roanoke.com/news/nation-world/government-politics/article_831ca373-9a90-5a9a-9990-cfa21a66e886.html · https://pantagraph.com/news/nation-world/government-politics/article_5641e3d4-b292-5597-a7af-389fb7d6e6ce.html · https://qconline.com/news/nation-world/government-politics/article_50ee60c5-87e6-55ba-b2ee-e23c08b2b04e.html · https://mtstandard.com/news/nation-world/government-politics/article_400ff30d-efe4-5ed9-80e4-990ec4c79d9a.html
+Best source link: https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
+All coverage: https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5 · https://news.google.com/rss/articles/CBMiggJBVV95cUxPUWhudGhnaVdodlA2TzBldFFyaTFSUnlCc3NyWGZEUG5FMlhkWk42SEVreTlVZXNoWGVESWhuSlJTUnRGTnVOaTFkaVdydl9SOThreC1lSTdXaFUxTWRCZXFtVFJjUmNZWXZFNzR4Tlh4WVY0RVh4c3VmT3hjejhLc1FHY3dnQzc0WXBubkNCSDFwM0hDZng3Ql9UcDdwT1FUUGsxWmxDWVVfd0NTTVJGYVUxblo4UExNWHNHSTIwelZqTGlwcGdxV1M0RV95Z0FfQ09WMzUxd3lfMGF6QWE1T3RocWtoYldtX0VCaXlZMU9IaVFxSjNKUHhlU2ZqLV9VT0E?oc=5 · https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQVdYMFBGWlpxNmxTZlZHZWxmZ2pRb19JdFBzNTJPZUx5V053aWc5bnlMMHRIdFYxZTFEbWZmOXBSSGlHdXVpSmhDQ2N0ejJCUV9Na1JMb285MG1xdFNfN1AwZjNXM3lQTTJTeHNKeFZBZ0RSbjR5a1pkYTRDeXJBcldTaWRZdGN0dlVxSnY2VlN3eXlXYjFjUFAzM2MzdW9wTi1XcW9UVlRubXdlWGxUeTA5bkR2RnJYbHE4Z2w2aGNGSVNmbEphZldXNUNHckw1c3EzWUt6bjQ3c0cxNkVoaWFRMGJCNUwyY2I5cWRGUi1IcE43ODVCUnV6MDFZR3BSOWFTc1BhZkw?oc=5 · https://www.newsday.com/news/nation/san-diego-police-artificial-intelligence-reports-p88822 · https://www.nvdaily.com/associated_press_national/san-diego-police-department-is-weighing-using-ai-to-write-police-reports/article_8dafae98-8d42-57c6-98fb-a39843d9ca2c.html · https://www.swoknews.com/ap/business/san-diego-police-department-is-weighing-using-ai-to-write-police-reports/article_2f6880e3-af6e-53d5-a11e-8a1d6e4a7a58.html · https://www.messenger-inquirer.com/ap/ap_national_news/san-diego-police-department-is-weighing-using-ai-to-write-police-reports/article_a998791e-3cf6-5ca0-bc84-ce6d1dade9d7.html · https://www.yourvalley.net/stories/san-diego-police-department-is-weighing-using-ai-to-write-police-reports,727929 · https://www.dnronline.com/associated_press/national/san-diego-police-department-is-weighing-using-ai-to-write-police-reports/article_304ac854-a6e1-54d3-b86d-e72d26316436.html · https://www.kvue.com/article/syndication/associatedpress/san-diego-police-department-is-weighing-using-ai-to-write-police-reports/616-0a8611e4-f709-48b2-9ea9-60a7b439ec30
 
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
@@ -25,16 +25,16 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **Most US voters say Trump, Congress don't take AI risks seriously, poll finds** — newsvirginian — Score 103
-   https://newsvirginian.com/news/nation-world/government-politics/article_a38a32dc-81cd-5398-989c-72fbeac465c7.html
-2. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
+1. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
    https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
-3. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 103
+2. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 103
    https://news.google.com/rss/articles/CBMiakFVX3lxTE0tX0hHY3BPb09oS2NBS204MVpzN3FXYlVuNTJYRjFZX0RweWphX19FcE5xSl9JSkw1c2dtcUNQZnV4RzZTOHpDbFA3N1dGNzVaZHJ1MVhJWUg2ci1wa0ZlMWJ1SG41WjlrZmc?oc=5
-4. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 98
+3. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 98
    https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
-5. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
+4. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
+5. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 63
+   https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc2dpM3NoZlJ6VWMzSXNiN1ViWEZxTzB3c1ZJNEVDNkFJcVlWODZBbEJTOVV3cmhRdUZNakJmN0d6V1l4SzJlOEI3TmpvWUVzWE1uRjJ4R3E4eWRlMmxLY09MS0JnWlBXZkZZWlExYUJwVXhfSkFxNkI2TkF1TlEtdkE?oc=5
 6. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 60
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 7. **Who's in control? AI agents carry 'real risk' for farm data and machinery** — farmonline_au — Score 53
@@ -54,7 +54,7 @@ All coverage: https://newsvirginian.com/news/nation-world/government-politics/ar
 - **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2750
+- Total stories tracked: 2730
 - Most active topic: agents
 - Busiest category: AI General News
 
