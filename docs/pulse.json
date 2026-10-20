@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:11:58.512152+00:00",
+  "generated_at": "2026-10-20T21:39:41.774419+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 33,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -20,7 +20,8 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -37,7 +38,7 @@
         {
           "platform": "hackernews",
           "url": "https://github.com/deepseek-ai/DeepInfer",
-          "signal": "DeepSeek just open-sourced its inference engine"
+          "signal": "DeepInfer: High-performance inference framework for DeepSeek models"
         },
         {
           "platform": "hackernews",
@@ -81,6 +82,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
+          "signal": "I think chatGPT has just nerfed itself"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb2ufq/i_have_trapped_myself_in_a_game_of_chatgpt_simon/",
+          "signal": "I have trapped myself in a game of ChatGPT Simon Says"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xahk2m/why_is_chatgpt_so_cautious_and_push_back_in/",
           "signal": "Why is ChatGPT so cautious and push back in conversation?"
         },
@@ -93,16 +104,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xaoh8e/whats_going_on_with_chatgpt_today/",
           "signal": "What's going on with ChatGPT today?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xarlnh/why_is_chatgpt_on_the_website_so_laggy_does/",
-          "signal": "Why is ChatGPT on the website so laggy? Does anyone experience this?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xari2b/has_anyone_else_become_chatgpts_unpaid_quality/",
-          "signal": "Has anyone else become ChatGPT's unpaid quality control department?"
         }
       ],
       "content_ideas": []
@@ -196,6 +197,60 @@
       "content_ideas": []
     },
     {
+      "name": "Voxtral 3",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/voxtral-3/",
+          "signal": "Voxtral 3"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Publish fake stats, get cited in LLMs",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+          "signal": "Publish fake stats, get cited in LLMs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Mercury 3: Diffusion at scale",
       "category": "use_case",
       "momentum": "rising",
@@ -223,12 +278,11 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -238,6 +292,33 @@
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+          "signal": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
@@ -246,11 +327,6 @@
           "platform": "hackernews",
           "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
           "signal": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
-          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
         }
       ],
       "content_ideas": []
@@ -283,33 +359,6 @@
       "content_ideas": []
     },
     {
-      "name": "Publish fake stats, get cited in LLMs",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-          "signal": "Publish fake stats, get cited in LLMs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Qwen",
       "category": "tool_launch",
       "momentum": "hot",
@@ -335,60 +384,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Ca",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
-          "signal": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Chicago O'Hare digs up 50-ton boulder under airfield, asks public for ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://simpleflying.com/chicago-ohare-digs-up-50-ton-boulder-public-names/",
-          "signal": "Chicago O'Hare digs up 50-ton boulder under airfield, asks public for name ideas"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -397,7 +392,8 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -414,7 +410,7 @@
         {
           "platform": "hackernews",
           "url": "https://github.com/deepseek-ai/DeepInfer",
-          "signal": "DeepSeek just open-sourced its inference engine"
+          "signal": "DeepInfer: High-performance inference framework for DeepSeek models"
         },
         {
           "platform": "hackernews",
@@ -434,8 +430,7 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -443,7 +438,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -453,11 +448,6 @@
           "platform": "hackernews",
           "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
           "signal": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
-          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
         }
       ],
       "content_ideas": []
@@ -491,6 +481,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
+          "signal": "I think chatGPT has just nerfed itself"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb2ufq/i_have_trapped_myself_in_a_game_of_chatgpt_simon/",
+          "signal": "I have trapped myself in a game of ChatGPT Simon Says"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xahk2m/why_is_chatgpt_so_cautious_and_push_back_in/",
           "signal": "Why is ChatGPT so cautious and push back in conversation?"
         },
@@ -503,16 +503,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xaoh8e/whats_going_on_with_chatgpt_today/",
           "signal": "What's going on with ChatGPT today?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xarlnh/why_is_chatgpt_on_the_website_so_laggy_does/",
-          "signal": "Why is ChatGPT on the website so laggy? Does anyone experience this?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xari2b/has_anyone_else_become_chatgpts_unpaid_quality/",
-          "signal": "Has anyone else become ChatGPT's unpaid quality control department?"
         }
       ],
       "content_ideas": []
@@ -581,18 +571,6 @@
   ],
   "pain_points": [
     {
-      "problem": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
       "problem": "Servers Down/Outage ?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
@@ -605,6 +583,54 @@
       "content_opportunity": ""
     },
     {
+      "problem": "Have chat limits shortened recently?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb0ud8/have_chat_limits_shortened_recently/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "The recent Chat Memory Full bug: hypothesis for why it is happening.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb3qkk/the_recent_chat_memory_full_bug_hypothesis_for/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Is Web service down?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb4pzn/is_web_service_down/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Usage limit resetting every couple days",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
@@ -612,18 +638,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xaod5p/usage_limit_resetting_every_couple_days/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "My friend is 60 and learning with AI. Curiosity has no age limit.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xab8d4/my_friend_is_60_and_learning_with_ai_curiosity/"
         }
       ],
       "content_opportunity": ""
