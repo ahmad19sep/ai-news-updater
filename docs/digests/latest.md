@@ -9,52 +9,52 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
-2. **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — science angle
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
-3. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
+2. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
-4. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
+3. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
    https://www.sciencedaily.com/releases/2026/10/261011211554.htm
-5. **Researchers improve weather forecasts looking two to six weeks out** — science angle
+4. **Researchers improve weather forecasts looking two to six weeks out** — science angle
    https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014
-6. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
+5. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
    https://www.nature.com/articles/d41586-026-03178-w
-7. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
+6. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
-8. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
+7. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
    https://www.nature.com/articles/d41586-026-03253-2
+8. **Use of Artificial Intelligence by Bangladeshi Doctors and Its Impact on Medical Learning, Research, and Clinical Practice: An Internet-Based Pilot Survey - Cureus** — science angle
+   https://news.google.com/rss/articles/CBMimAJBVV95cUxPejYzTml5STJnZnB3MWdxSkdNOHc0YTkxYmNLWC1OQ1ZWRVlPVG05UHgwT3R3MDVqQkNEQ1V4SjBLQzd5LWEwR21nbmN2UktkVVNPdjhGYlUtOTFQZjk5QlZnZXFOMTlOeGU3OFRqRUp1Q1NwNzc2U2twWExGY1A3SldQZUExNVJac2NJSEEtTWloTVRlallmbWY4MTRXZzZxekxZMHBvM3hLRUtRc05yanlpR3lQVmhweE01UXR5OTdqVGkzYTdESjRacUVKS2NiM0hpN1haeXJ3Zmlrc2JQbTcyNGdVU0dlNlpHZE9vX1FlVjBieDI1T0U1RVJXenl0YmlsMFFlV3NWSVExdldmUUJTTlF3bWVz?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 143
    https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc2dpM3NoZlJ6VWMzSXNiN1ViWEZxTzB3c1ZJNEVDNkFJcVlWODZBbEJTOVV3cmhRdUZNakJmN0d6V1l4SzJlOEI3TmpvWUVzWE1uRjJ4R3E4eWRlMmxLY09MS0JnWlBXZkZZWlExYUJwVXhfSkFxNkI2TkF1TlEtdkE?oc=5
-2. **San Diego Police Department Is Weighing Using AI to Write Police Reports - kare11.com** — Using AI To... — Score 103
-   https://news.google.com/rss/articles/CBMiggJBVV95cUxOVTlPSlhBZUxlNU9zR2ZpTHMzdnRwcEhNM25NV3FReUJWNnJJcVlKMFRuRWQxN2htdndyM2VOeUxnUXhxWnR6UWNISWpmcERkVHltazVzakNZRkVwNnhmM1JTbW4tdmJFU19DUEVvd0tZeHI5dTBfLWlkNVI5TC00alctREhDTXF0Tnh0NTdFNHE2WVpPWVpJVHR3LTR6YUk1YzVFQVZtVTBkSWJ5VlIwd1YzOWFicVY3WFFKV2F4ZTRISFdiUFRqcDE2eUZKMGdxNlpnXzlnWFZCWWxpc1pmY2pOc3R6bE9iRklyenhIQkFCemh1VUpnSGNsOGlaU0ZkaVE?oc=5
+2. **Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won’t replace heavy industry - NEWS10 ABC** — Jensen Huang News — Score 106
+   https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWE1naVBfcVpNUnp0aU9FR0pibnl1LXI4X2ZhaUtXZFpqcHB6cWFXajN0dnprZndwRmZ3bjZJMVRZTkJZU3hBcTFKLTl2dkVoNnBxSDZhR3pqeFVTZ09ZUVVCXzlIMnViYk5XeVJ5MHlQVk5KX1NZTFFsNlNtZzhRSkNVbzJPM1B0NXNyN2I5RVRNQmRwd1pHLXBEWDZZZjduYl85MldJRzhCaDBjazZ0a3B0YjB2WGZNYk51eENtVjhBMTE4OGtIazJxYnlLZlF3YTJYelBCb9IB3AFBVV95cUxOMk9USkpaNkVFejhaT0JsNzNCV3UtNHd6Qks5UVNKYk04bV9GU0tDam9FcWp5eGVxVGcwR0V4ZHNydDQtc1VmUG4taTIxaExUNXdIb3h6eTVUTFVBZWVLelp2NGdIN2NlTjd5VEtoUzltdk5NYnB0NTVPeXdkaEtmZkZTZENyZVhyMGpkOXUwTW9ZMmh5ajZMaEY3Y2VxT1ZPQUlxRXlKeV9GZFMzUlRXZ2pCbThzeTZyVVk2bllMUDRrdTBHZGUxd3VtMHRzc0FPZGZCMVQybWlxMm9r?oc=5
 3. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 103
    https://news.google.com/rss/articles/CBMiakFVX3lxTE0tX0hHY3BPb09oS2NBS204MVpzN3FXYlVuNTJYRjFZX0RweWphX19FcE5xSl9JSkw1c2dtcUNQZnV4RzZTOHpDbFA3N1dGNzVaZHJ1MVhJWUg2ci1wa0ZlMWJ1SG41WjlrZmc?oc=5
 4. **Kira AI launches ‘life operating software’ that takes calls, books trips and negotiates bills for its users** — thewesterlysun — Score 98
    https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
 5. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
-6. **Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won’t replace heavy industry - NEWS10 ABC** — Jensen Huang News — Score 76
-   https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWE1naVBfcVpNUnp0aU9FR0pibnl1LXI4X2ZhaUtXZFpqcHB6cWFXajN0dnprZndwRmZ3bjZJMVRZTkJZU3hBcTFKLTl2dkVoNnBxSDZhR3pqeFVTZ09ZUVVCXzlIMnViYk5XeVJ5MHlQVk5KX1NZTFFsNlNtZzhRSkNVbzJPM1B0NXNyN2I5RVRNQmRwd1pHLXBEWDZZZjduYl85MldJRzhCaDBjazZ0a3B0YjB2WGZNYk51eENtVjhBMTE4OGtIazJxYnlLZlF3YTJYelBCb9IB3AFBVV95cUxOMk9USkpaNkVFejhaT0JsNzNCV3UtNHd6Qks5UVNKYk04bV9GU0tDam9FcWp5eGVxVGcwR0V4ZHNydDQtc1VmUG4taTIxaExUNXdIb3h6eTVUTFVBZWVLelp2NGdIN2NlTjd5VEtoUzltdk5NYnB0NTVPeXdkaEtmZkZTZENyZVhyMGpkOXUwTW9ZMmh5ajZMaEY3Y2VxT1ZPQUlxRXlKeV9GZFMzUlRXZ2pCbThzeTZyVVk2bllMUDRrdTBHZGUxd3VtMHRzc0FPZGZCMVQybWlxMm9r?oc=5
-7. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 60
+6. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 60
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
-8. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
+7. **Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI - Bloomberg.com** — Satya Nadella News — Score 47
    https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5
-9. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 47
+8. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 47
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5
-10. **DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner - Bloomberg.com** — DeepSeek News — Score 47
+9. **DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner - Bloomberg.com** — DeepSeek News — Score 47
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNHZHRFlIcjhzUGVRNUw1SGhBSzBlY0d6T05ycVhsZUhJTEFzd1lONmpyclVfWjdmX2dMY0E1bGtvSGlocVdrUldlcWV4MEZBUzBxS3hlWndpZW1BMXc1bWo1UnpyZEw2Qzd5LUltbkNsX2xxLXNXOWx4eF9hTXFWTVo2Uy1kWnUxVldPaDBoYnNrMHNISWpydFdDSkh0TkV1ZWt6OHVwbm4zNGtJWUMweFdwRldmQWZDNUhCNlc0TElNZw?oc=5
+10. **Character.ai files for Chapter 11 bankruptcy** — Hacker News new — Score 43.0
+   https://blog.character.ai/an-update-on-character-ai/
 
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 - **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
 - **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
-- **The Crucial Responsibilities Doctors Must Never Offshore to AI - UVA Health** — https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTVhVlV4UEsyRHlhY1lublVaRWFMcmZLU2c2ZjBQcjlPeDJ2T0F2bVcwMzVjeFFhSG1aYWtjN3RTME5zN1hfdzVTdlQ1Q0hxWnZ1VG91VTJzQkYtTmEyUFc3TmVoWjBMLTRRY0ZpTk91bFlkS21KU3lVNW16cXVSb0lQNFNidm1mYUhmSnlvM0NCZjZKOGxaag?oc=5
 - **Doctors have concerns about AI tools for medical advice - KRCG** — https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
+- **How Andrew Pecora, MD, Is Using AI to Help Physicians Fix the Cost Crisis in Cancer Care - Targeted Oncology** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVThIX3UxN003SU52ZURuOGh4VW0yTVYyd0dwZ1VIWGE0UTJXc0d5YXgzUl9Zd0pyS3Ayalo1NGF6dEdpeWJub3VkR3NCdDZZeHdNTzdFZlZVQ2dsRTNyRU44VjZ1d3pNdzZFajZENFFKYTNSSlFzVzgwckQ4SnBqNURpX1E3em9nczlEUnJQdENhMGxobUljNENnRUhnYkZzZWF5VmQwUVJReUpXamxITkpBTXFMMFFTQ3Nr?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2809
+- Total stories tracked: 2867
 - Most active topic: agents
 - Busiest category: AI General News
 
