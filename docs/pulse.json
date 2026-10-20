@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:23:18.739344+00:00",
+  "generated_at": "2026-10-20T04:55:05.137646+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 27,
+      "reddit": 50,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -45,13 +45,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xa7sg0/chatgpt_sends_me_a_form_for_daily_activity/",
-          "signal": "ChatGPT sends me a form for daily activity"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xahk2m/why_is_chatgpt_so_cautious_and_push_back_in/",
+          "signal": "Why is ChatGPT so cautious and push back in conversation?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9s0pr/chatgpts_conversation_management_is_becoming_a/",
-          "signal": "ChatGPT's conversation management is becoming a complete nightmare for long-term users"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xa7sg0/chatgpt_sends_me_a_form_for_daily_activity/",
+          "signal": "ChatGPT sends me a form for daily activity"
         },
         {
           "platform": "youtube",
@@ -60,13 +60,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
-          "signal": "GPT-6 Astra + ChatGPT Work Changes Everything"
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
-          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
+          "url": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
+          "signal": "GPT-6 Astra + ChatGPT Work Changes Everything"
         }
       ],
       "content_ideas": []
@@ -74,11 +74,12 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
-        "instagram_inferred"
+        "instagram_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -101,6 +102,11 @@
           "platform": "hackernews",
           "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
           "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xa9oaz/cern_joins_forces_with_french_llm_company_mistral/",
+          "signal": "CERN joins forces with French LLM company Mistral to \"develop a single pretrained Large Physics Model – the first foundation model for collider physics\""
         }
       ],
       "content_ideas": []
@@ -133,28 +139,96 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shi",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Deepseek",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 8,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://sphinx-six-theta.vercel.app/",
-          "signal": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+          "signal": "DeepSeek V4.1 Flash 1017 (Max)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+          "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xa69nq/dhs_orders_deepseek_technology_removed_from_us/",
+          "signal": "DHS Orders DeepSeek Technology Removed From US Federal IT Systems. The restrictions extend to products developed by DeepSeek affiliates, as well as third-party products and services built using DeepSeek implementations."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1x9ywfa/octobers_ai_model_wars_are_heating_up_the/",
+          "signal": "October's AI model wars are heating up. The Information reports Anthropic is preparing a new model, Google has Gemini 4 Carbon on deck, and OpenAI may launch a new Terra model. Three frontier AI labs could unleash their next models before the month is over."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1x9m4gs/six_frontier_ais_competed_to_design_and_3dprint/",
+          "signal": "Six frontier AIs competed to design and 3D-print egg-protecting capsules. Claude Opus 5.5's egg survived a 20-foot drop without a crack. GPT-6 Astra failed at 8 feet, while Gemini 4 Argon, Grok 4.7, Qwen 3.8-Max, and Muse Wonder failed at 4 feet. Claude dominates another real-world engineering chall"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T2Wfds62ZjM",
+          "signal": "Building Real-Time Animation with Gemini 4 Argon"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WP4bC8sTIN8",
+          "signal": "Multi-Agent Localization with Gemini 4 Argon"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=biOWEPYyS5c",
+          "signal": "Gemini 4 Argon: Modernizing 40 year code"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3MMbWDF4xYI",
+          "signal": "Gemini 4 Argon Is Here (Fully Tested)"
         }
       ],
       "content_ideas": []
@@ -220,33 +294,6 @@
       "content_ideas": []
     },
     {
-      "name": "Websites are closing their doors to AI agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-          "signal": "Websites are closing their doors to AI agents"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Mercury 3: Diffusion at scale",
       "category": "use_case",
       "momentum": "rising",
@@ -274,9 +321,9 @@
       "content_ideas": []
     },
     {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "Websites are closing their doors to AI agents",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -286,16 +333,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-          "signal": "DeepSeek V4.1 Flash 1017 (Max)"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "signal": "Websites are closing their doors to AI agents"
         }
       ],
       "content_ideas": []
@@ -330,7 +377,7 @@
     {
       "name": "Qwen",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -355,26 +402,66 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
+      "name": "The obscure trust looming over Anthropic's IPO",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+          "signal": "The obscure trust looming over Anthropic's IPO"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1x9ywfa/octobers_ai_model_wars_are_heating_up_the/",
+          "signal": "October's AI model wars are heating up. The Information reports Anthropic is preparing a new model, Google has Gemini 4 Carbon on deck, and OpenAI may launch a new Terra model. Three frontier AI labs could unleash their next models before the month is over."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1x9m4gs/six_frontier_ais_competed_to_design_and_3dprint/",
+          "signal": "Six frontier AIs competed to design and 3D-print egg-protecting capsules. Claude Opus 5.5's egg survived a 20-foot drop without a crack. GPT-6 Astra failed at 8 feet, while Gemini 4 Argon, Grok 4.7, Qwen 3.8-Max, and Muse Wonder failed at 4 feet. Claude dominates another real-world engineering chall"
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=T2Wfds62ZjM",
@@ -394,52 +481,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=3MMbWDF4xYI",
           "signal": "Gemini 4 Argon Is Here (Fully Tested)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gRhM1h10T3U",
-          "signal": "Gemini 4 Argon: 10 incredible AI demos (1M token output in action)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/timestral/",
-          "signal": "Timestral: Mistral's time-series foundation models"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-          "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
         }
       ],
       "content_ideas": []
@@ -478,90 +519,9 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://100toolkit.com/blog/deslop-model/",
-          "signal": "Show HN: Qwen3-4B with the AI writing tics trained out"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=T2Wfds62ZjM",
-          "signal": "Building Real-Time Animation with Gemini 4 Argon"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WP4bC8sTIN8",
-          "signal": "Multi-Agent Localization with Gemini 4 Argon"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=biOWEPYyS5c",
-          "signal": "Gemini 4 Argon: Modernizing 40 year code"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3MMbWDF4xYI",
-          "signal": "Gemini 4 Argon Is Here (Fully Tested)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gRhM1h10T3U",
-          "signal": "Gemini 4 Argon: 10 incredible AI demos (1M token output in action)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -588,13 +548,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xa7sg0/chatgpt_sends_me_a_form_for_daily_activity/",
-          "signal": "ChatGPT sends me a form for daily activity"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xahk2m/why_is_chatgpt_so_cautious_and_push_back_in/",
+          "signal": "Why is ChatGPT so cautious and push back in conversation?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1x9s0pr/chatgpts_conversation_management_is_becoming_a/",
-          "signal": "ChatGPT's conversation management is becoming a complete nightmare for long-term users"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xa7sg0/chatgpt_sends_me_a_form_for_daily_activity/",
+          "signal": "ChatGPT sends me a form for daily activity"
         },
         {
           "platform": "youtube",
@@ -603,13 +563,53 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
-          "signal": "GPT-6 Astra + ChatGPT Work Changes Everything"
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
-          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
+          "url": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
+          "signal": "GPT-6 Astra + ChatGPT Work Changes Everything"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/timestral/",
+          "signal": "Timestral: Mistral's time-series foundation models"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+          "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xa9oaz/cern_joins_forces_with_french_llm_company_mistral/",
+          "signal": "CERN joins forces with French LLM company Mistral to \"develop a single pretrained Large Physics Model – the first foundation model for collider physics\""
         }
       ],
       "content_ideas": []
@@ -619,15 +619,18 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
+      "best_format": "reel",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -637,11 +640,85 @@
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
           "signal": "DeepSeek V4.1 Flash 1017 (Max)"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+          "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xa69nq/dhs_orders_deepseek_technology_removed_from_us/",
+          "signal": "DHS Orders DeepSeek Technology Removed From US Federal IT Systems. The restrictions extend to products developed by DeepSeek affiliates, as well as third-party products and services built using DeepSeek implementations."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://100toolkit.com/blog/deslop-model/",
+          "signal": "Show HN: Qwen3-4B with the AI writing tics trained out"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "My friend is 60 and learning with AI. Curiosity has no age limit.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xab8d4/my_friend_is_60_and_learning_with_ai_curiosity/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "DHS Orders DeepSeek Technology Removed From US Federal IT Systems. The restrictions extend to products developed by DeepSeek affiliates, as ",
+      "who_affected": "r/singularity",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xa69nq/dhs_orders_deepseek_technology_removed_from_us/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Six frontier AIs competed to design and 3D-print egg-protecting capsules. Claude Opus 5.5's egg survived a 20-foot drop without a crack. GPT",
+      "who_affected": "r/singularity",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1x9m4gs/six_frontier_ais_competed_to_design_and_3dprint/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
