@@ -35,7 +35,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://www.thewesterlysun.com/online_features/press_releases/kira-ai-launches-life-operating-software-that-takes-calls-books-trips-and-negotiates-bills-for/article_bfac2957-e730-558a-96c5-ec775fe9bba5.html
 5. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
-6. **US judge dismisses Sam Altman's sister's sexual abuse lawsuit - Reuters** — Sam Altman News — Score 65
+6. **US judge dismisses Sam Altman's sister's sexual abuse lawsuit - Reuters** — Sam Altman News — Score 75
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xLUh4YjJRTXRpLU5xMnlLTkhXWjJtc2YtYVdMcE1IYVV6cmx5Snp3WGZraHlCSXhteWQzNjlKSW5XRUZCVTMza3N6NE43el9kODgxTG1fc19NM2xxVmNTRVl4ZjN4T0tHT1FvNVdUd0ZwR3JabGNCNkFxbWM4ZURfdmpFeDZwVng5ZWU1RmxmeWR5ZWVCZlVXY0hr?oc=5
 7. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 60
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5
 9. **DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner - Bloomberg.com** — DeepSeek News — Score 47
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNHZHRFlIcjhzUGVRNUw1SGhBSzBlY0d6T05ycVhsZUhJTEFzd1lONmpyclVfWjdmX2dMY0E1bGtvSGlocVdrUldlcWV4MEZBUzBxS3hlWndpZW1BMXc1bWo1UnpyZEw2Qzd5LUltbkNsX2xxLXNXOWx4eF9hTXFWTVo2Uy1kWnUxVldPaDBoYnNrMHNISWpydFdDSkh0TkV1ZWt6OHVwbm4zNGtJWUMweFdwRldmQWZDNUhCNlc0TElNZw?oc=5
-10. **AI has caused ‘very good’ disruption to job market, recruiter boss says** — harrowtimes — Score 43
-   https://www.harrowtimes.co.uk/news/national/26636425.ai-caused-very-good-disruption-job-market-recruiter-boss-says/
+10. **Anthropic pledges at least 5% of shares to public-benefit fund - Semafor** — Dario Amodei News — Score 46
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxPZWhMNk9tTDk4SFVEYU03eV9zRGl4RG9KaEpESkxPZEpMWExzeFdsYmVUeVZiT1ZPZ0VHdHhlUEFBSUlveXE2WHJqaXVEV19uTmxHdXhvdDBnLXBEWk9aR1hfTEY1OVF3c28tMlNkNTRrZXRub2xMMmFlWFVyNGJHUk1JaFkzREFiOE5KWDRxZHhIT2h3Z0t3WkpVTDBQbDNqNHBMM25STQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **How Andrew Pecora, MD, Is Using AI to Help Physicians Fix the Cost Crisis in Cancer Care - Targeted Oncology** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVThIX3UxN003SU52ZURuOGh4VW0yTVYyd0dwZ1VIWGE0UTJXc0d5YXgzUl9Zd0pyS3Ayalo1NGF6dEdpeWJub3VkR3NCdDZZeHdNTzdFZlZVQ2dsRTNyRU44VjZ1d3pNdzZFajZENFFKYTNSSlFzVzgwckQ4SnBqNURpX1E3em9nczlEUnJQdENhMGxobUljNENnRUhnYkZzZWF5VmQwUVJReUpXamxITkpBTXFMMFFTQ3Nr?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2858
+- Total stories tracked: 2794
 - Most active topic: agents
 - Busiest category: AI General News
 
