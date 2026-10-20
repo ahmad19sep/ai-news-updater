@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
 2. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
-3. **Scientists recreate a bizarre quantum effect that stops a particle cold** — science angle
-   https://www.sciencedaily.com/releases/2026/10/261011211554.htm
-4. **Researchers improve weather forecasts looking two to six weeks out** — science angle
+3. **Researchers improve weather forecasts looking two to six weeks out** — science angle
    https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014
-5. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
+4. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
    https://www.nature.com/articles/d41586-026-03178-w
-6. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
+5. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
-7. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
+6. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
    https://www.nature.com/articles/d41586-026-03253-2
-8. **Use of Artificial Intelligence by Bangladeshi Doctors and Its Impact on Medical Learning, Research, and Clinical Practice: An Internet-Based Pilot Survey - Cureus** — science angle
-   https://news.google.com/rss/articles/CBMimAJBVV95cUxPejYzTml5STJnZnB3MWdxSkdNOHc0YTkxYmNLWC1OQ1ZWRVlPVG05UHgwT3R3MDVqQkNEQ1V4SjBLQzd5LWEwR21nbmN2UktkVVNPdjhGYlUtOTFQZjk5QlZnZXFOMTlOeGU3OFRqRUp1Q1NwNzc2U2twWExGY1A3SldQZUExNVJac2NJSEEtTWloTVRlallmbWY4MTRXZzZxekxZMHBvM3hLRUtRc05yanlpR3lQVmhweE01UXR5OTdqVGkzYTdESjRacUVKS2NiM0hpN1haeXJ3Zmlrc2JQbTcyNGdVU0dlNlpHZE9vX1FlVjBieDI1T0U1RVJXenl0YmlsMFFlV3NWSVExdldmUUJTTlF3bWVz?oc=5
+7. **AI recordings of doctor-patient conversations the new norm for Estonian hospitals - ERR** — science angle
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxObnB4QjBWajFlLUw0YS1zRi0xN05sUWd6enJjTXdZUUtEZHpOaklkclFaVkdVNHhiN0FTaWFTZE56c3NlWWNkcmw3ZkdmODlDTW5YMWhjZEJnVF94V0pIZUVBS2xaQjcyQTBvR3NIbFROMFpsdlhraUNZV3FndmswV2RURGtoalBNY25qRnRNM3NkazBVYTlCYm9faDhxVGhVbTI3ZXRDTURxdEdZNUpWdnJ3?oc=5
+8. **Ask, Audit, Apply: A New Rulebook for Doctors Thinking with AI - Bioengineer.org** — science angle
+   https://news.google.com/rss/articles/CBMijAFBVV95cUxQWlF0WkJXTGNRYzQwUVE4T1lUMGY3S19SdUVVbzZMczFCZW93bEZZVVY5ZEdKWU0tWGl6Q19jSldXc3ZwVndFd29uS1hDRVZpX1p5ZERHOEJfUFFxSTdiR1NRemdZNW5xcG5EdjhrNnQyc0VqUjJMZ3VKUks2bi1jbjJvZUhfSlVJdFRXcQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 143
@@ -37,12 +37,12 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
 6. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 60
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
-7. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 47
+7. **US judge dismisses Sam Altman's sister's sexual abuse lawsuit - Reuters** — Sam Altman News — Score 55
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xLUh4YjJRTXRpLU5xMnlLTkhXWjJtc2YtYVdMcE1IYVV6cmx5Snp3WGZraHlCSXhteWQzNjlKSW5XRUZCVTMza3N6NE43el9kODgxTG1fc19NM2xxVmNTRVl4ZjN4T0tHT1FvNVdUd0ZwR3JabGNCNkFxbWM4ZURfdmpFeDZwVng5ZWU1RmxmeWR5ZWVCZlVXY0hr?oc=5
+8. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 47
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5
-8. **DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner - Bloomberg.com** — DeepSeek News — Score 47
+9. **DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner - Bloomberg.com** — DeepSeek News — Score 47
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNHZHRFlIcjhzUGVRNUw1SGhBSzBlY0d6T05ycVhsZUhJTEFzd1lONmpyclVfWjdmX2dMY0E1bGtvSGlocVdrUldlcWV4MEZBUzBxS3hlWndpZW1BMXc1bWo1UnpyZEw2Qzd5LUltbkNsX2xxLXNXOWx4eF9hTXFWTVo2Uy1kWnUxVldPaDBoYnNrMHNISWpydFdDSkh0TkV1ZWt6OHVwbm4zNGtJWUMweFdwRldmQWZDNUhCNlc0TElNZw?oc=5
-9. **Microsoft CEO Satya Nadella Calls for an AI 'Emergency Brake' - PCMag UK** — Satya Nadella News — Score 43
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxOUUxTYWU0MGxISEdrZm9saDJFSW9DZnY2QmVGcmpobTh0Nm5WNU1uaXo5T2tYU3RaTWJucUdzNUpZMEFmeGhna1RocmstUm9NQ0NJSlBjTXFSYWhIZDRyVmRjQnptN2gwejFRYU11ZGwyVmQ5ck1oelA3NmlyRUV3SWN3SHlpVEVzMng4R3hkVFk3Vlcx?oc=5
 10. **AI has caused ‘very good’ disruption to job market, recruiter boss says** — harrowtimes — Score 43
    https://www.harrowtimes.co.uk/news/national/26636425.ai-caused-very-good-disruption-job-market-recruiter-boss-says/
 
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **How Andrew Pecora, MD, Is Using AI to Help Physicians Fix the Cost Crisis in Cancer Care - Targeted Oncology** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVThIX3UxN003SU52ZURuOGh4VW0yTVYyd0dwZ1VIWGE0UTJXc0d5YXgzUl9Zd0pyS3Ayalo1NGF6dEdpeWJub3VkR3NCdDZZeHdNTzdFZlZVQ2dsRTNyRU44VjZ1d3pNdzZFajZENFFKYTNSSlFzVzgwckQ4SnBqNURpX1E3em9nczlEUnJQdENhMGxobUljNENnRUhnYkZzZWF5VmQwUVJReUpXamxITkpBTXFMMFFTQ3Nr?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2845
+- Total stories tracked: 2776
 - Most active topic: agents
 - Busiest category: AI General News
 
