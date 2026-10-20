@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:42:55.645895+00:00",
+  "generated_at": "2026-10-20T17:11:58.512152+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -86,23 +86,50 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/",
+          "signal": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xaoh8e/whats_going_on_with_chatgpt_today/",
           "signal": "What's going on with ChatGPT today?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xam57r/allow_chatgpt_to_use_node_replallow_the_node_repl/",
-          "signal": "'Allow ChatGPT to use node_repl?Allow the node_repl MCP server to run tool \"js\"?' - why does it keep asking this?....."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xarlnh/why_is_chatgpt_on_the_website_so_laggy_does/",
+          "signal": "Why is ChatGPT on the website so laggy? Does anyone experience this?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xanjzl/whats_one_prompt_habit_that_made_chatgpts_answers/",
-          "signal": "What's one prompt habit that made ChatGPT's answers noticeably better for you?"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xari2b/has_anyone_else_become_chatgpts_unpaid_quality/",
+          "signal": "Has anyone else become ChatGPT's unpaid quality control department?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: How to deal with shipping AI-written code you don't understand",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xa7sg0/chatgpt_sends_me_a_form_for_daily_activity/",
-          "signal": "ChatGPT sends me a form for daily activity"
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50151036",
+          "signal": "Ask HN: How to deal with shipping AI-written code you don't understand?"
         }
       ],
       "content_ideas": []
@@ -137,33 +164,6 @@
           "platform": "hackernews",
           "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
           "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: How to deal with shipping AI-written code you don't understand",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50151036",
-          "signal": "Ask HN: How to deal with shipping AI-written code you don't understand?"
         }
       ],
       "content_ideas": []
@@ -223,33 +223,6 @@
       "content_ideas": []
     },
     {
-      "name": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-          "signal": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
@@ -261,7 +234,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
@@ -276,14 +249,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=4ojmHWn_rxY",
-          "signal": "How to make Roblox Games Using Claude"
+          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
+          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Websites are closing their doors to AI agents",
+      "name": "The obscure trust looming over Anthropic's IPO",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -303,14 +276,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-          "signal": "Websites are closing their doors to AI agents"
+          "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+          "signal": "The obscure trust looming over Anthropic's IPO"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "The obscure trust looming over Anthropic's IPO",
+      "name": "Publish fake stats, get cited in LLMs",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -322,7 +295,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -330,8 +303,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
-          "signal": "The obscure trust looming over Anthropic's IPO"
+          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+          "signal": "Publish fake stats, get cited in LLMs"
         }
       ],
       "content_ideas": []
@@ -389,46 +362,40 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "Chicago O'Hare digs up 50-ton boulder under airfield, asks public for ",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
-          "signal": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=4ojmHWn_rxY",
-          "signal": "How to make Roblox Games Using Claude"
+          "url": "https://simpleflying.com/chicago-ohare-digs-up-50-ton-boulder-public-names/",
+          "signal": "Chicago O'Hare digs up 50-ton boulder under airfield, asks public for name ideas"
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -458,6 +425,39 @@
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
           "signal": "DeepSeek V4.1 Flash 1017 (Max)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+          "signal": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
+          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
         }
       ],
       "content_ideas": []
@@ -496,23 +496,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/",
+          "signal": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xaoh8e/whats_going_on_with_chatgpt_today/",
           "signal": "What's going on with ChatGPT today?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xam57r/allow_chatgpt_to_use_node_replallow_the_node_repl/",
-          "signal": "'Allow ChatGPT to use node_repl?Allow the node_repl MCP server to run tool \"js\"?' - why does it keep asking this?....."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xarlnh/why_is_chatgpt_on_the_website_so_laggy_does/",
+          "signal": "Why is ChatGPT on the website so laggy? Does anyone experience this?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xanjzl/whats_one_prompt_habit_that_made_chatgpts_answers/",
-          "signal": "What's one prompt habit that made ChatGPT's answers noticeably better for you?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xa7sg0/chatgpt_sends_me_a_form_for_daily_activity/",
-          "signal": "ChatGPT sends me a form for daily activity"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xari2b/has_anyone_else_become_chatgpts_unpaid_quality/",
+          "signal": "Has anyone else become ChatGPT's unpaid quality control department?"
         }
       ],
       "content_ideas": []
@@ -581,9 +581,33 @@
   ],
   "pain_points": [
     {
-      "problem": "Usage limit resetting every couple days",
+      "problem": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Servers Down/Outage ?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xax527/servers_downoutage/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Usage limit resetting every couple days",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -595,7 +619,7 @@
     {
       "problem": "My friend is 60 and learning with AI. Curiosity has no age limit.",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
