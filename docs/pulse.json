@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:15:32.578280+00:00",
+  "generated_at": "2026-10-21T21:45:22.354133+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 23,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": null
@@ -82,8 +82,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
-          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbytms/why_is_chatgpt_having_so_many_issues_lately/",
+          "signal": "Why is ChatGPT having so many issues lately?"
         },
         {
           "platform": "reddit",
@@ -92,13 +92,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbjrhj/openai_offered_me_100_off_chatgpt_plus_to_stop_me/",
-          "signal": "OpenAI offered me 100% off ChatGPT Plus to stop me cancelling, charged me twice, then spent 6 weeks trying to explain why."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
+          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ORWu-SDbgjc",
-          "signal": "ChatGPT Whistleblower WARNS: “You’re Being LIED To&quot;"
+          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
+          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
         }
       ],
       "content_ideas": []
@@ -158,33 +158,6 @@
       "content_ideas": []
     },
     {
-      "name": "Publish fake stats, get cited in LLMs",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-          "signal": "Publish fake stats, get cited in LLMs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "PHP2Shell: AI uncovers critical RCE in PHP",
       "category": "use_case",
       "momentum": "rising",
@@ -207,6 +180,33 @@
           "platform": "hackernews",
           "url": "https://www.wiz.io/blog/php2shell-php-rce",
           "signal": "PHP2Shell: AI uncovers critical RCE in PHP"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Publish fake stats, get cited in LLMs",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+          "signal": "Publish fake stats, get cited in LLMs"
         }
       ],
       "content_ideas": []
@@ -239,9 +239,9 @@
       "content_ideas": []
     },
     {
-      "name": "Mercury 3: Diffusion at scale",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
         "hackernews"
       ],
@@ -251,16 +251,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "signal": "Mercury 3: Diffusion at scale"
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "signal": "Mistral Large 4"
         }
       ],
       "content_ideas": []
@@ -336,6 +336,33 @@
       "content_ideas": []
     },
     {
+      "name": "Using thousands of AI agents to uncover new leads in biological data",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "signal": "Using thousands of AI agents to uncover new leads in biological data"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "On AI writing",
       "category": "use_case",
       "momentum": "rising",
@@ -358,33 +385,6 @@
           "platform": "hackernews",
           "url": "https://www.bolkunov.com/p/on-ai-writing",
           "signal": "On AI writing"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "LayerFS: The filesystem for AI coding agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://layerfs.ai/",
-          "signal": "LayerFS: The filesystem for AI coding agents"
         }
       ],
       "content_ideas": []
@@ -458,8 +458,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
-          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbytms/why_is_chatgpt_having_so_many_issues_lately/",
+          "signal": "Why is ChatGPT having so many issues lately?"
         },
         {
           "platform": "reddit",
@@ -468,13 +468,40 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbjrhj/openai_offered_me_100_off_chatgpt_plus_to_stop_me/",
-          "signal": "OpenAI offered me 100% off ChatGPT Plus to stop me cancelling, charged me twice, then spent 6 weeks trying to explain why."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
+          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ORWu-SDbgjc",
-          "signal": "ChatGPT Whistleblower WARNS: “You’re Being LIED To&quot;"
+          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
+          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "signal": "Mistral Large 4"
         }
       ],
       "content_ideas": []
@@ -537,13 +564,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "What is happening with chat limits in the free version?",
+      "problem": "Ok wtf is going on with these limits",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbiaan/what_is_happening_with_chat_limits_in_the_free/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbw6go/ok_wtf_is_going_on_with_these_limits/"
         }
       ],
       "content_opportunity": ""
@@ -561,25 +588,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Chat memory full is NOT a bug",
+      "problem": "What is happening with chat limits in the free version?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbn4ei/chat_memory_full_is_not_a_bug/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Memory full Bug",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbgioc/memory_full_bug/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbiaan/what_is_happening_with_chat_limits_in_the_free/"
         }
       ],
       "content_opportunity": ""
