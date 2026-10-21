@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:54:42.311632+00:00",
+  "generated_at": "2026-10-21T17:15:32.578280+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 23,
       "youtube": 106
     },
     "llm_provider": null
@@ -39,11 +39,6 @@
           "platform": "hackernews",
           "url": "https://github.com/deepseek-ai/DeepInfer",
           "signal": "DeepInfer: High-performance inference framework for DeepSeek models"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-          "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
         },
         {
           "platform": "hackernews",
@@ -87,23 +82,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb2ufq/i_have_trapped_myself_in_a_game_of_chatgpt_simon/",
-          "signal": "I have trapped myself in a game of ChatGPT Simon Says"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
+          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
-          "signal": "I think chatGPT has just nerfed itself"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqixq/chatgpt_is_throwing_a_memory_full_error_after/",
+          "signal": "ChatGPT is throwing a memory full error after only 10 messages"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb9hhz/i_just_got_to_wondering_if_anyone_has_tried_using/",
-          "signal": "I just got to wondering if anyone has tried using ChatGPT to decipher the Voynich Manuscript."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbjrhj/openai_offered_me_100_off_chatgpt_plus_to_stop_me/",
+          "signal": "OpenAI offered me 100% off ChatGPT Plus to stop me cancelling, charged me twice, then spent 6 weeks trying to explain why."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb5qah/i_feel_like_my_chatgpt_doesnt_know_me_anymore/",
-          "signal": "I feel like my ChatGPT doesn't \"know\" me anymore"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ORWu-SDbgjc",
+          "signal": "ChatGPT Whistleblower WARNS: “You’re Being LIED To&quot;"
         }
       ],
       "content_ideas": []
@@ -190,30 +185,28 @@
       "content_ideas": []
     },
     {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-          "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
+          "url": "https://www.wiz.io/blog/php2shell-php-rce",
+          "signal": "PHP2Shell: AI uncovers critical RCE in PHP"
         }
       ],
       "content_ideas": []
@@ -273,60 +266,6 @@
       "content_ideas": []
     },
     {
-      "name": "The obscure trust looming over Anthropic's IPO",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
-          "signal": "The obscure trust looming over Anthropic's IPO"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://100toolkit.com/blog/deslop-model/",
-          "signal": "Show HN: Qwen3-4B with the AI writing tics trained out"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Show HN: VoidAccess – open-source dark web OSINT, from query to a grap",
       "category": "use_case",
       "momentum": "rising",
@@ -354,7 +293,50 @@
       "content_ideas": []
     },
     {
-      "name": "Maxwell: A new kind of model that sits between code and hardware",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "signal": "Gemini 4 Argon is now available for everyone"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
+          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
+          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "On AI writing",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -366,7 +348,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -374,8 +356,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://heymaxwell.ai/",
-          "signal": "Maxwell: A new kind of model that sits between code and hardware"
+          "url": "https://www.bolkunov.com/p/on-ai-writing",
+          "signal": "On AI writing"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "LayerFS: The filesystem for AI coding agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://layerfs.ai/",
+          "signal": "LayerFS: The filesystem for AI coding agents"
         }
       ],
       "content_ideas": []
@@ -406,11 +415,6 @@
           "platform": "hackernews",
           "url": "https://github.com/deepseek-ai/DeepInfer",
           "signal": "DeepInfer: High-performance inference framework for DeepSeek models"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-          "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
         },
         {
           "platform": "hackernews",
@@ -454,70 +458,42 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb2ufq/i_have_trapped_myself_in_a_game_of_chatgpt_simon/",
-          "signal": "I have trapped myself in a game of ChatGPT Simon Says"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
+          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
-          "signal": "I think chatGPT has just nerfed itself"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqixq/chatgpt_is_throwing_a_memory_full_error_after/",
+          "signal": "ChatGPT is throwing a memory full error after only 10 messages"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb9hhz/i_just_got_to_wondering_if_anyone_has_tried_using/",
-          "signal": "I just got to wondering if anyone has tried using ChatGPT to decipher the Voynich Manuscript."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbjrhj/openai_offered_me_100_off_chatgpt_plus_to_stop_me/",
+          "signal": "OpenAI offered me 100% off ChatGPT Plus to stop me cancelling, charged me twice, then spent 6 weeks trying to explain why."
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb5qah/i_feel_like_my_chatgpt_doesnt_know_me_anymore/",
-          "signal": "I feel like my ChatGPT doesn't \"know\" me anymore"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ORWu-SDbgjc",
+          "signal": "ChatGPT Whistleblower WARNS: “You’re Being LIED To&quot;"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Mistral",
+      "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred"
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-          "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -525,8 +501,23 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://100toolkit.com/blog/deslop-model/",
-          "signal": "Show HN: Qwen3-4B with the AI writing tics trained out"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "signal": "Gemini 4 Argon is now available for everyone"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
+          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
+          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -534,13 +525,49 @@
   ],
   "pain_points": [
     {
-      "problem": "What is happening with chat limits in the free version?",
+      "problem": "Valid Crash Out",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbnaaz/valid_crash_out/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "What is happening with chat limits in the free version?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xbiaan/what_is_happening_with_chat_limits_in_the_free/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "ChatGPT is throwing a memory full error after only 10 messages",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqixq/chatgpt_is_throwing_a_memory_full_error_after/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Chat memory full is NOT a bug",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbn4ei/chat_memory_full_is_not_a_bug/"
         }
       ],
       "content_opportunity": ""
@@ -553,30 +580,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xbgioc/memory_full_bug/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Shortened chat limit on free version",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xba6rz/shortened_chat_limit_on_free_version/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Recent GPT limit issues",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbb8ik/recent_gpt_limit_issues/"
         }
       ],
       "content_opportunity": ""
