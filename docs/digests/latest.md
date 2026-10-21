@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 13 Oct 2026 to 20 Oct 2026
+# 🗞️ AI THIS WEEK — 14 Oct 2026 to 21 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **How Andrew Pecora, MD, Is Using AI to Help Physicians Fix the Cost Crisis in Cancer Care - Targeted Oncology** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVThIX3UxN003SU52ZURuOGh4VW0yTVYyd0dwZ1VIWGE0UTJXc0d5YXgzUl9Zd0pyS3Ayalo1NGF6dEdpeWJub3VkR3NCdDZZeHdNTzdFZlZVQ2dsRTNyRU44VjZ1d3pNdzZFajZENFFKYTNSSlFzVzgwckQ4SnBqNURpX1E3em9nczlEUnJQdENhMGxobUljNENnRUhnYkZzZWF5VmQwUVJReUpXamxITkpBTXFMMFFTQ3Nr?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2794
+- Total stories tracked: 2862
 - Most active topic: agents
 - Busiest category: AI General News
 
