@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T04:53:43.728068+00:00",
+  "generated_at": "2026-10-21T11:54:42.311632+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,6 +44,11 @@
           "platform": "hackernews",
           "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
           "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
+          "signal": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%"
         }
       ],
       "content_ideas": []
@@ -99,67 +104,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xb5qah/i_feel_like_my_chatgpt_doesnt_know_me_anymore/",
           "signal": "I feel like my ChatGPT doesn't \"know\" me anymore"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: How to deal with shipping AI-written code you don't understand",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50151036",
-          "signal": "Ask HN: How to deal with shipping AI-written code you don't understand?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/timestral/",
-          "signal": "Timestral: Mistral's time-series foundation models"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-          "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
         }
       ],
       "content_ideas": []
@@ -246,6 +190,35 @@
       "content_ideas": []
     },
     {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+          "signal": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
       "category": "use_case",
       "momentum": "rising",
@@ -258,7 +231,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -295,33 +268,6 @@
           "platform": "hackernews",
           "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
           "signal": "Mercury 3: Diffusion at scale"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
-          "signal": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling"
         }
       ],
       "content_ideas": []
@@ -379,6 +325,60 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Show HN: VoidAccess – open-source dark web OSINT, from query to a grap",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/KatrielMoses/voidaccess",
+          "signal": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Maxwell: A new kind of model that sits between code and hardware",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://heymaxwell.ai/",
+          "signal": "Maxwell: A new kind of model that sits between code and hardware"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -411,33 +411,11 @@
           "platform": "hackernews",
           "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
           "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
+        },
         {
           "platform": "hackernews",
-          "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
-          "signal": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling"
+          "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
+          "signal": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%"
         }
       ],
       "content_ideas": []
@@ -500,7 +478,7 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -512,17 +490,12 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/timestral/",
-          "signal": "Timestral: Mistral's time-series foundation models"
-        },
         {
           "platform": "hackernews",
           "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
@@ -561,9 +534,33 @@
   ],
   "pain_points": [
     {
-      "problem": "Shortened chat limit on free version",
+      "problem": "What is happening with chat limits in the free version?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbiaan/what_is_happening_with_chat_limits_in_the_free/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Memory full Bug",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbgioc/memory_full_bug/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Shortened chat limit on free version",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -580,78 +577,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xbb8ik/recent_gpt_limit_issues/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Servers Down/Outage ?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xax527/servers_downoutage/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Have chat limits shortened recently?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb0ud8/have_chat_limits_shortened_recently/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "The recent Chat Memory Full bug: hypothesis for why it is happening.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb3qkk/the_recent_chat_memory_full_bug_hypothesis_for/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "iOS ChatGPT Voice Mode shortcut in control center and in Shortcuts app not working.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbaa4f/ios_chatgpt_voice_mode_shortcut_in_control_center/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Content Censoring Bug/Bad Coding",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbwnr/content_censoring_bugbad_coding/"
         }
       ],
       "content_opportunity": ""
