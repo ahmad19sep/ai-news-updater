@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
 2. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
-3. **Researchers improve weather forecasts looking two to six weeks out** — science angle
+3. **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — science angle
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU094ZXkxdGp4TF9mc3ljRTJEcl84R3RDdlJsRV9QUE9MSEZUdHRZQ2VISzZTZ2dxeFBORW5zMXp4ZUN1NmlqcUdCeU9MOFBTZmZuc2pLY1Zudk1HT1RaSnRpNldPZW41bGZXWThlNk5INE56dmdFWVhxRllqcEVXVGdBNW1MdC1HclJKYTJVbXVUa3hJWm1sSjQ0TkwwaTNOWFRXeWtSZHpwbC1KaU1wb0NpVnZGeFNDSzNJME4xNk1wZw?oc=5
+4. **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — science angle
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
+5. **Researchers improve weather forecasts looking two to six weeks out** — science angle
    https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014
-4. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
+6. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
    https://www.nature.com/articles/d41586-026-03178-w
-5. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
+7. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
-6. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
+8. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
    https://www.nature.com/articles/d41586-026-03253-2
-7. **AI recordings of doctor-patient conversations the new norm for Estonian hospitals - ERR** — science angle
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxObnB4QjBWajFlLUw0YS1zRi0xN05sUWd6enJjTXdZUUtEZHpOaklkclFaVkdVNHhiN0FTaWFTZE56c3NlWWNkcmw3ZkdmODlDTW5YMWhjZEJnVF94V0pIZUVBS2xaQjcyQTBvR3NIbFROMFpsdlhraUNZV3FndmswV2RURGtoalBNY25qRnRNM3NkazBVYTlCYm9faDhxVGhVbTI3ZXRDTURxdEdZNUpWdnJ3?oc=5
-8. **Ask, Audit, Apply: A New Rulebook for Doctors Thinking with AI - Bioengineer.org** — science angle
-   https://news.google.com/rss/articles/CBMijAFBVV95cUxQWlF0WkJXTGNRYzQwUVE4T1lUMGY3S19SdUVVbzZMczFCZW93bEZZVVY5ZEdKWU0tWGl6Q19jSldXc3ZwVndFd29uS1hDRVZpX1p5ZERHOEJfUFFxSTdiR1NRemdZNW5xcG5EdjhrNnQyc0VqUjJMZ3VKUks2bi1jbjJvZUhfSlVJdFRXcQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 140
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
 - **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
 - **Doctors have concerns about AI tools for medical advice - KRCG** — https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
-- **How Andrew Pecora, MD, Is Using AI to Help Physicians Fix the Cost Crisis in Cancer Care - Targeted Oncology** — https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVThIX3UxN003SU52ZURuOGh4VW0yTVYyd0dwZ1VIWGE0UTJXc0d5YXgzUl9Zd0pyS3Ayalo1NGF6dEdpeWJub3VkR3NCdDZZeHdNTzdFZlZVQ2dsRTNyRU44VjZ1d3pNdzZFajZENFFKYTNSSlFzVzgwckQ4SnBqNURpX1E3em9nczlEUnJQdENhMGxobUljNENnRUhnYkZzZWF5VmQwUVJReUpXamxITkpBTXFMMFFTQ3Nr?oc=5
+- **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU094ZXkxdGp4TF9mc3ljRTJEcl84R3RDdlJsRV9QUE9MSEZUdHRZQ2VISzZTZ2dxeFBORW5zMXp4ZUN1NmlqcUdCeU9MOFBTZmZuc2pLY1Zudk1HT1RaSnRpNldPZW41bGZXWThlNk5INE56dmdFWVhxRllqcEVXVGdBNW1MdC1HclJKYTJVbXVUa3hJWm1sSjQ0TkwwaTNOWFRXeWtSZHpwbC1KaU1wb0NpVnZGeFNDSzNJME4xNk1wZw?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2862
+- Total stories tracked: 2764
 - Most active topic: agents
 - Busiest category: AI General News
 
