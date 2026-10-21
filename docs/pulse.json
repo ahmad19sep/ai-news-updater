@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:39:41.774419+00:00",
+  "generated_at": "2026-10-21T04:53:43.728068+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -44,11 +44,6 @@
           "platform": "hackernews",
           "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
           "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-          "signal": "DeepSeek V4.1 Flash 1017 (Max)"
         }
       ],
       "content_ideas": []
@@ -82,8 +77,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
-          "signal": "I think chatGPT has just nerfed itself"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
+          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
         },
         {
           "platform": "reddit",
@@ -92,18 +87,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xahk2m/why_is_chatgpt_so_cautious_and_push_back_in/",
-          "signal": "Why is ChatGPT so cautious and push back in conversation?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
+          "signal": "I think chatGPT has just nerfed itself"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/",
-          "signal": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb9hhz/i_just_got_to_wondering_if_anyone_has_tried_using/",
+          "signal": "I just got to wondering if anyone has tried using ChatGPT to decipher the Voynich Manuscript."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaoh8e/whats_going_on_with_chatgpt_today/",
-          "signal": "What's going on with ChatGPT today?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb5qah/i_feel_like_my_chatgpt_doesnt_know_me_anymore/",
+          "signal": "I feel like my ChatGPT doesn't \"know\" me anymore"
         }
       ],
       "content_ideas": []
@@ -251,33 +246,6 @@
       "content_ideas": []
     },
     {
-      "name": "Mercury 3: Diffusion at scale",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "signal": "Mercury 3: Diffusion at scale"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
       "category": "use_case",
       "momentum": "rising",
@@ -300,6 +268,33 @@
           "platform": "hackernews",
           "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
           "signal": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mercury 3: Diffusion at scale",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+          "signal": "Mercury 3: Diffusion at scale"
         }
       ],
       "content_ideas": []
@@ -416,11 +411,6 @@
           "platform": "hackernews",
           "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
           "signal": "DeepSeek banned from U.S. federal civilian agencies under new DHS order"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-          "signal": "DeepSeek V4.1 Flash 1017 (Max)"
         }
       ],
       "content_ideas": []
@@ -481,8 +471,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
-          "signal": "I think chatGPT has just nerfed itself"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
+          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
         },
         {
           "platform": "reddit",
@@ -491,18 +481,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xahk2m/why_is_chatgpt_so_cautious_and_push_back_in/",
-          "signal": "Why is ChatGPT so cautious and push back in conversation?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
+          "signal": "I think chatGPT has just nerfed itself"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/",
-          "signal": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb9hhz/i_just_got_to_wondering_if_anyone_has_tried_using/",
+          "signal": "I just got to wondering if anyone has tried using ChatGPT to decipher the Voynich Manuscript."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaoh8e/whats_going_on_with_chatgpt_today/",
-          "signal": "What's going on with ChatGPT today?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb5qah/i_feel_like_my_chatgpt_doesnt_know_me_anymore/",
+          "signal": "I feel like my ChatGPT doesn't \"know\" me anymore"
         }
       ],
       "content_ideas": []
@@ -571,9 +561,33 @@
   ],
   "pain_points": [
     {
-      "problem": "Servers Down/Outage ?",
+      "problem": "Shortened chat limit on free version",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xba6rz/shortened_chat_limit_on_free_version/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Recent GPT limit issues",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbb8ik/recent_gpt_limit_issues/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Servers Down/Outage ?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -585,23 +599,11 @@
     {
       "problem": "Have chat limits shortened recently?",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb0ud8/have_chat_limits_shortened_recently/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?",
-      "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb0ud8/have_chat_limits_shortened_recently/"
         }
       ],
       "content_opportunity": ""
@@ -619,25 +621,37 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Is Web service down?",
+      "problem": "Has anyone tried both Claude Pro ($20) and ChatGPT Plus ($20)? How do their usage limits compare?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xb4pzn/is_web_service_down/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Usage limit resetting every couple days",
+      "problem": "iOS ChatGPT Voice Mode shortcut in control center and in Shortcuts app not working.",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xaod5p/usage_limit_resetting_every_couple_days/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbaa4f/ios_chatgpt_voice_mode_shortcut_in_control_center/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Content Censoring Bug/Bad Coding",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbwnr/content_censoring_bugbad_coding/"
         }
       ],
       "content_opportunity": ""
