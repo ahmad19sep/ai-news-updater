@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWE1naVBfcVpNUnp0aU9FR0pibnl1LXI4X2ZhaUtXZFpqcHB6cWFXajN0dnprZndwRmZ3bjZJMVRZTkJZU3hBcTFKLTl2dkVoNnBxSDZhR3pqeFVTZ09ZUVVCXzlIMnViYk5XeVJ5MHlQVk5KX1NZTFFsNlNtZzhRSkNVbzJPM1B0NXNyN2I5RVRNQmRwd1pHLXBEWDZZZjduYl85MldJRzhCaDBjazZ0a3B0YjB2WGZNYk51eENtVjhBMTE4OGtIazJxYnlLZlF3YTJYelBCb9IB3AFBVV95cUxOMk9USkpaNkVFejhaT0JsNzNCV3UtNHd6Qks5UVNKYk04bV9GU0tDam9FcWp5eGVxVGcwR0V4ZHNydDQtc1VmUG4taTIxaExUNXdIb3h6eTVUTFVBZWVLelp2NGdIN2NlTjd5VEtoUzltdk5NYnB0NTVPeXdkaEtmZkZTZENyZVhyMGpkOXUwTW9ZMmh5ajZMaEY3Y2VxT1ZPQUlxRXlKeV9GZFMzUlRXZ2pCbThzeTZyVVk2bllMUDRrdTBHZGUxd3VtMHRzc0FPZGZCMVQybWlxMm9r?oc=5
 3. **States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - Boston Herald** — Sam Altman News — Score 103
    https://news.google.com/rss/articles/CBMiakFVX3lxTE0tX0hHY3BPb09oS2NBS204MVpzN3FXYlVuNTJYRjFZX0RweWphX19FcE5xSl9JSkw1c2dtcUNQZnV4RzZTOHpDbFA3N1dGNzVaZHJ1MVhJWUg2ci1wa0ZlMWJ1SG41WjlrZmc?oc=5
-4. **US judge dismisses Sam Altman's sister's sexual abuse lawsuit - Reuters** — Sam Altman News — Score 85
+4. **US judge dismisses Sam Altman's sister's sexual abuse lawsuit - Reuters** — Sam Altman News — Score 95
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xLUh4YjJRTXRpLU5xMnlLTkhXWjJtc2YtYVdMcE1IYVV6cmx5Snp3WGZraHlCSXhteWQzNjlKSW5XRUZCVTMza3N6NE43el9kODgxTG1fc19NM2xxVmNTRVl4ZjN4T0tHT1FvNVdUd0ZwR3JabGNCNkFxbWM4ZURfdmpFeDZwVng5ZWU1RmxmeWR5ZWVCZlVXY0hr?oc=5
 5. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2895
+- Total stories tracked: 2821
 - Most active topic: agents
 - Busiest category: AI General News
 
