@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T04:53:14.438669+00:00",
+  "generated_at": "2026-10-22T11:57:32.608015+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -15,39 +15,6 @@
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/deepseek-ai/DeepInfer",
-          "signal": "DeepInfer: High-performance inference framework for DeepSeek models"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
-          "signal": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -77,8 +44,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcdvs9/i_built_my_own_netflixstyle_app_for_my_home/",
+          "signal": "I built my own Netflix-style app for my home server, and now I just ask ChatGPT to find and add movies for me"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xc30q6/chatgpts_style_is_getting_more_and_more_annoying/",
           "signal": "ChatGPT's style is getting more and more annoying"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcaep1/chatgpt_voice_model_is_wild/",
+          "signal": "ChatGPT voice model is wild"
         },
         {
           "platform": "reddit",
@@ -86,19 +63,9 @@
           "signal": "Why is ChatGPT having so many issues lately?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
-          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc0rnd/i_use_chatgpt_everyday_what_should_i_monitor_and/",
-          "signal": "I use ChatGpt everyday. what should I Monitor and Improved ?"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vMYuU2KyJ4E",
-          "signal": "Hey ChatGPT!"
+          "url": "https://www.youtube.com/watch?v=hKOd4P6Px5o",
+          "signal": "Why ChatGPT Contradicted Itself 🤔"
         }
       ],
       "content_ideas": []
@@ -185,33 +152,6 @@
       "content_ideas": []
     },
     {
-      "name": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-          "signal": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Mistral",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -239,6 +179,33 @@
       "content_ideas": []
     },
     {
+      "name": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+          "signal": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Airbnb bans making guests do dishes and take out the trash",
       "category": "use_case",
       "momentum": "rising",
@@ -251,7 +218,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -261,6 +228,50 @@
           "platform": "hackernews",
           "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
           "signal": "Airbnb bans making guests do dishes and take out the trash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/omnara-ai/omnara",
+          "signal": "Show HN: Omnara – Open-source alternative to Claude Managed Agents"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbvr3w/what_it_feels_like_to_use_claude/",
+          "signal": "What it feels like to use Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
+          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
+          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
         }
       ],
       "content_ideas": []
@@ -278,7 +289,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -315,45 +326,6 @@
           "platform": "hackernews",
           "url": "https://github.com/KatrielMoses/voidaccess",
           "signal": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/omnara-ai/omnara",
-          "signal": "Show HN: Omnara – Open-source alternative to Claude Managed Agents"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbvr3w/what_it_feels_like_to_use_claude/",
-          "signal": "What it feels like to use Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
-          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
         }
       ],
       "content_ideas": []
@@ -400,16 +372,13 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Deepseek",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "On AI writing",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -417,25 +386,22 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/deepseek-ai/DeepInfer",
-          "signal": "DeepInfer: High-performance inference framework for DeepSeek models"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
-          "signal": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%"
+          "url": "https://www.bolkunov.com/p/on-ai-writing",
+          "signal": "On AI writing"
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -465,8 +431,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcdvs9/i_built_my_own_netflixstyle_app_for_my_home/",
+          "signal": "I built my own Netflix-style app for my home server, and now I just ask ChatGPT to find and add movies for me"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xc30q6/chatgpts_style_is_getting_more_and_more_annoying/",
           "signal": "ChatGPT's style is getting more and more annoying"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcaep1/chatgpt_voice_model_is_wild/",
+          "signal": "ChatGPT voice model is wild"
         },
         {
           "platform": "reddit",
@@ -474,19 +450,9 @@
           "signal": "Why is ChatGPT having so many issues lately?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
-          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc0rnd/i_use_chatgpt_everyday_what_should_i_monitor_and/",
-          "signal": "I use ChatGpt everyday. what should I Monitor and Improved ?"
-        },
-        {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vMYuU2KyJ4E",
-          "signal": "Hey ChatGPT!"
+          "url": "https://www.youtube.com/watch?v=hKOd4P6Px5o",
+          "signal": "Why ChatGPT Contradicted Itself 🤔"
         }
       ],
       "content_ideas": []
@@ -521,7 +487,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "reddit",
@@ -533,7 +499,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -548,6 +514,11 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xbvr3w/what_it_feels_like_to_use_claude/",
           "signal": "What it feels like to use Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
+          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
         },
         {
           "platform": "youtube",
@@ -615,9 +586,21 @@
       "content_opportunity": ""
     },
     {
+      "problem": "update: chat limit bug is gone",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcefm0/update_chat_limit_bug_is_gone/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Ok wtf is going on with these limits",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -625,19 +608,7 @@
         }
       ],
       "content_opportunity": ""
-    },
-    {
-      "problem": "Anyone else's \"Chat Memory Full\" bug fixed itself?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc2ket/anyone_elses_chat_memory_full_bug_fixed_itself/"
-        }
-      ],
-      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Deepseek — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
