@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:13:47.600212+00:00",
+  "generated_at": "2026-10-22T21:39:01.243357+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 17,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,18 +44,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xckkdy/i_turned_chatgpt_into_a_copilot_for_no_mans_sky/",
-          "signal": "I turned ChatGPT into a co-pilot for No Man’s Sky, now it keeps a field journal of my discoveries"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xcnxdh/chatgpt_taught_me_to_make_this/",
           "signal": "ChatGPT taught me to make this"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcdvs9/i_built_my_own_netflixstyle_app_for_my_home/",
-          "signal": "I built my own Netflix-style app for my home server, and now I just ask ChatGPT to find and add movies for me"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcr5gg/has_anyone_else_noticed_that_adult_mode_basically/",
+          "signal": "Has anyone else noticed that \"adult mode\" basically exists by default now for accounts not flagged as belonging to minors? ChatGPT doesn't seem to refuse anything anymore unless it's actually illegal"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xckkdy/i_turned_chatgpt_into_a_copilot_for_no_mans_sky/",
+          "signal": "I turned ChatGPT into a co-pilot for No Man’s Sky, now it keeps a field journal of my discoveries"
         },
         {
           "platform": "youtube",
@@ -65,8 +64,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
-          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=Kh0tqEAUeUI",
+          "signal": "can chatgpt spot the ai??"
         }
       ],
       "content_ideas": []
@@ -153,13 +152,38 @@
       "content_ideas": []
     },
     {
+      "name": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "signal": "OpenShell – A safe, private runtime for fleets of autonomous AI agents"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "reddit",
         "youtube"
       ],
@@ -167,9 +191,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -184,11 +208,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xbvr3w/what_it_feels_like_to_use_claude/",
           "signal": "What it feels like to use Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
-          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
         },
         {
           "platform": "youtube",
@@ -226,7 +245,7 @@
       "content_ideas": []
     },
     {
-      "name": "On AI writing",
+      "name": "Every AI model has the same \"controversial\" take on humans",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -238,7 +257,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -246,8 +265,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bolkunov.com/p/on-ai-writing",
-          "signal": "On AI writing"
+          "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+          "signal": "Every AI model has the same \"controversial\" take on humans"
         }
       ],
       "content_ideas": []
@@ -359,43 +378,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
-          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -406,7 +388,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -429,18 +410,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xckkdy/i_turned_chatgpt_into_a_copilot_for_no_mans_sky/",
-          "signal": "I turned ChatGPT into a co-pilot for No Man’s Sky, now it keeps a field journal of my discoveries"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xcnxdh/chatgpt_taught_me_to_make_this/",
           "signal": "ChatGPT taught me to make this"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcdvs9/i_built_my_own_netflixstyle_app_for_my_home/",
-          "signal": "I built my own Netflix-style app for my home server, and now I just ask ChatGPT to find and add movies for me"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcr5gg/has_anyone_else_noticed_that_adult_mode_basically/",
+          "signal": "Has anyone else noticed that \"adult mode\" basically exists by default now for accounts not flagged as belonging to minors? ChatGPT doesn't seem to refuse anything anymore unless it's actually illegal"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xckkdy/i_turned_chatgpt_into_a_copilot_for_no_mans_sky/",
+          "signal": "I turned ChatGPT into a co-pilot for No Man’s Sky, now it keeps a field journal of my discoveries"
         },
         {
           "platform": "youtube",
@@ -449,8 +430,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
-          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=Kh0tqEAUeUI",
+          "signal": "can chatgpt spot the ai??"
         }
       ],
       "content_ideas": []
@@ -487,9 +468,7 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "reddit",
         "youtube"
       ],
@@ -497,9 +476,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 7,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -517,68 +496,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
-          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
           "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
-          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Valid Crash Out",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbnaaz/valid_crash_out/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
