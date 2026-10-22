@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 14 Oct 2026 to 21 Oct 2026
+# 🗞️ AI THIS WEEK — 15 Oct 2026 to 22 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI**
@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
-2. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
+2. **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — science angle
+   https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
+3. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
-3. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
+4. **Doctors have concerns about AI tools for medical advice - KRCG** — science angle
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
-4. **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — science angle
+5. **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU094ZXkxdGp4TF9mc3ljRTJEcl84R3RDdlJsRV9QUE9MSEZUdHRZQ2VISzZTZ2dxeFBORW5zMXp4ZUN1NmlqcUdCeU9MOFBTZmZuc2pLY1Zudk1HT1RaSnRpNldPZW41bGZXWThlNk5INE56dmdFWVhxRllqcEVXVGdBNW1MdC1HclJKYTJVbXVUa3hJWm1sSjQ0TkwwaTNOWFRXeWtSZHpwbC1KaU1wb0NpVnZGeFNDSzNJME4xNk1wZw?oc=5
-5. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
+6. **Is AI eroding PhD students’ critical thinking and analysis skills?** — science angle
    https://www.nature.com/articles/d41586-026-03178-w
-6. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
+7. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
-7. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
+8. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
    https://www.nature.com/articles/d41586-026-03253-2
-8. **New study reveals AI chatbots recognize unnecessary medical tests, but stumble where human doctors disagree - Medical Xpress** — science angle
-   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3FxOW0xQlhHRlh3RGhnaGh4NUtmOTNhNWVJeXlTNHpTOVI5WlgtYzVGZENCYUJqeElmazFFbU9oc0gySkFiNmszdjZ4LTMtZDlkN0IxSWZMdm8wdUN1SE1CaUwyZjRkemFqN1lPN3dDMnA3VEVpQ1lfZ1V3VHZoUVlZS0lDd3ZXWjJn?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 140
@@ -35,10 +35,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xLUh4YjJRTXRpLU5xMnlLTkhXWjJtc2YtYVdMcE1IYVV6cmx5Snp3WGZraHlCSXhteWQzNjlKSW5XRUZCVTMza3N6NE43el9kODgxTG1fc19NM2xxVmNTRVl4ZjN4T0tHT1FvNVdUd0ZwR3JabGNCNkFxbWM4ZURfdmpFeDZwVng5ZWU1RmxmeWR5ZWVCZlVXY0hr?oc=5
 5. **DataMasque joins MAS PathFin.ai for privacy-preserving AI** — cfotech_co_nz — Score 83
    https://cfotech.co.nz/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai
-6. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 60
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
-7. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 60
+6. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 70
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTDZNXy1xaXE1MU03V1p2Z0tPc0RDSXB1QU5wV21Sdjc4NUthSVBLdU5uS1hjQVVVUGEtLXJObGZ5bExGOWYyZVJZbnRkWXdycHlpUXcxMy1ZQmFGd0Y1TFBLaXRKa3Z6MGZNWEphYVphYWpONTM0dWFBS20xUXVnYTYxRGRWaVYwX0FKa3RNSmFjZk1ublJMMjdzTGxfczEzd3BIT0hyRGNuMVNnWEtBdm5mV19iQXBlNW9jeVBqQ213SDVzenhlZ0JnbDE3RUht?oc=5
+7. **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — Mistral News — Score 60
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 8. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWNtdlhaREJOdlJaRUNUT3BxZ2tnMm5QOUpyakJFeXB5b2tsWkRvWThjbFVHblJNYUJjYW1hR181Y3RpalZqUjljcTB0dXJKTjhvTy1aSFpNUkFVSk1GTEJiS2R1UWRTVUUxVFp2c1VLd0tENnFnRTlyREprZVZIMWNJeV9mOWZ3X0hpU3pmbkc5X1B0M0xrVFd2d0ktNExwMFJuSEZJNTg?oc=5
 9. **EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters** — Dario Amodei News — Score 47
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 ## 🧪 AI in Science Highlights
 - **CERN and Mistral partner to build AI foundation models for physics - KSL.com** — https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUNIOUhPbVB6TFJqdXYxREc1UThURDVBVnZsVGxacVlaT2liSVk4UUZvZGhGV29rN1hjajFYYTZUQXhmTkhvbGxaRWRpRFVkdWRQQlk5NDZfMEotUGhsUVhPRVJTb1hNVndFQTlOVVZndm1jaXpnOFM0SlNFNE5EMDU0XzFkaU9PSkRPbU5YRmpoU3NJanZZUGtKWEl2bEJyTU5MUV93?oc=5
 - **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
+- **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 - **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
 - **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
-- **Doctors have concerns about AI tools for medical advice - KRCG** — https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkRWQXlubmo3aFZwNHU4LUxTSVppTmFKTHg2bGtFWGVQUnlHUVpRY2lybng0Y05lcjQ3emM4Y0JPRFNrcEFKNHVZT0hKYzBUdmVPLU5xZDV5akhlYU9GLVdZYnNxV2hqd01pUmktdFppakxuNC0xYjVEbEgwczRUS3c3ZDFENmI3UGtZQU1R?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2788
+- Total stories tracked: 2895
 - Most active topic: agents
 - Busiest category: AI General News
 
