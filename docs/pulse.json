@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:45:22.354133+00:00",
+  "generated_at": "2026-10-22T04:53:14.438669+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 28,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "linkedin_inferred"
@@ -77,8 +77,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
-          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc30q6/chatgpts_style_is_getting_more_and_more_annoying/",
+          "signal": "ChatGPT's style is getting more and more annoying"
         },
         {
           "platform": "reddit",
@@ -87,45 +87,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqixq/chatgpt_is_throwing_a_memory_full_error_after/",
-          "signal": "ChatGPT is throwing a memory full error after only 10 messages"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
+          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
-          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc0rnd/i_use_chatgpt_everyday_what_should_i_monitor_and/",
+          "signal": "I use ChatGpt everyday. what should I Monitor and Improved ?"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
-          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-          "signal": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator"
+          "url": "https://www.youtube.com/watch?v=vMYuU2KyJ4E",
+          "signal": "Hey ChatGPT!"
         }
       ],
       "content_ideas": []
@@ -266,6 +239,60 @@
       "content_ideas": []
     },
     {
+      "name": "Airbnb bans making guests do dishes and take out the trash",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
+          "signal": "Airbnb bans making guests do dishes and take out the trash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Using thousands of AI agents to uncover new leads in biological data",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "signal": "Using thousands of AI agents to uncover new leads in biological data"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Show HN: VoidAccess – open-source dark web OSINT, from query to a grap",
       "category": "use_case",
       "momentum": "rising",
@@ -293,9 +320,48 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/omnara-ai/omnara",
+          "signal": "Show HN: Omnara – Open-source alternative to Claude Managed Agents"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbvr3w/what_it_feels_like_to_use_claude/",
+          "signal": "What it feels like to use Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
+          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "hackernews",
         "youtube"
@@ -334,67 +400,13 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Using thousands of AI agents to uncover new leads in biological data",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-          "signal": "Using thousands of AI agents to uncover new leads in biological data"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "On AI writing",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bolkunov.com/p/on-ai-writing",
-          "signal": "On AI writing"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
       "name": "Deepseek",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "linkedin_inferred"
@@ -453,8 +465,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
-          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc30q6/chatgpts_style_is_getting_more_and_more_annoying/",
+          "signal": "ChatGPT's style is getting more and more annoying"
         },
         {
           "platform": "reddit",
@@ -463,18 +475,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqixq/chatgpt_is_throwing_a_memory_full_error_after/",
-          "signal": "ChatGPT is throwing a memory full error after only 10 messages"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
+          "signal": "I asked ChatGPT to recreate an image from my daughter’s nightmare."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqu1r/openai_are_you_forgetting_the_everyday_users_who/",
-          "signal": "OpenAI, Are You Forgetting the Everyday Users Who Helped Make ChatGPT Successful?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc0rnd/i_use_chatgpt_everyday_what_should_i_monitor_and/",
+          "signal": "I use ChatGpt everyday. what should I Monitor and Improved ?"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
-          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
+          "url": "https://www.youtube.com/watch?v=vMYuU2KyJ4E",
+          "signal": "Hey ChatGPT!"
         }
       ],
       "content_ideas": []
@@ -507,9 +519,48 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/omnara-ai/omnara",
+          "signal": "Show HN: Omnara – Open-source alternative to Claude Managed Agents"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbvr3w/what_it_feels_like_to_use_claude/",
+          "signal": "What it feels like to use Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OlJsT71Mfbg",
+          "signal": "AI ทะลวงระบบ! แฉวีรกรรม Claude แฮ็กคิวฟิตเนส-เจาะบริษัทข้ามชาติ ความสยองขวัญในยุคสมาร์ทเอเจนต์!"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "hackernews",
         "youtube"
@@ -576,25 +627,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "ChatGPT is throwing a memory full error after only 10 messages",
+      "problem": "Anyone else's \"Chat Memory Full\" bug fixed itself?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbqixq/chatgpt_is_throwing_a_memory_full_error_after/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "What is happening with chat limits in the free version?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbiaan/what_is_happening_with_chat_limits_in_the_free/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc2ket/anyone_elses_chat_memory_full_bug_fixed_itself/"
         }
       ],
       "content_opportunity": ""
