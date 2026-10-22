@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:57:32.608015+00:00",
+  "generated_at": "2026-10-22T17:13:47.600212+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 26,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,55 +45,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xckkdy/i_turned_chatgpt_into_a_copilot_for_no_mans_sky/",
+          "signal": "I turned ChatGPT into a co-pilot for No Man’s Sky, now it keeps a field journal of my discoveries"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcnxdh/chatgpt_taught_me_to_make_this/",
+          "signal": "ChatGPT taught me to make this"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xcdvs9/i_built_my_own_netflixstyle_app_for_my_home/",
           "signal": "I built my own Netflix-style app for my home server, and now I just ask ChatGPT to find and add movies for me"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc30q6/chatgpts_style_is_getting_more_and_more_annoying/",
-          "signal": "ChatGPT's style is getting more and more annoying"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcaep1/chatgpt_voice_model_is_wild/",
-          "signal": "ChatGPT voice model is wild"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbytms/why_is_chatgpt_having_so_many_issues_lately/",
-          "signal": "Why is ChatGPT having so many issues lately?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=hKOd4P6Px5o",
           "signal": "Why ChatGPT Contradicted Itself 🤔"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Voxtral 3",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/voxtral-3/",
-          "signal": "Voxtral 3"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         }
       ],
       "content_ideas": []
@@ -125,7 +99,7 @@
       "content_ideas": []
     },
     {
-      "name": "Publish fake stats, get cited in LLMs",
+      "name": "Airbnb bans making guests do dishes and take out the trash",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -145,8 +119,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-          "signal": "Publish fake stats, get cited in LLMs"
+          "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
+          "signal": "Airbnb bans making guests do dishes and take out the trash"
         }
       ],
       "content_ideas": []
@@ -179,65 +153,13 @@
       "content_ideas": []
     },
     {
-      "name": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-          "signal": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Airbnb bans making guests do dishes and take out the trash",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
-          "signal": "Airbnb bans making guests do dishes and take out the trash"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
+        "instagram_inferred",
         "reddit",
         "youtube"
       ],
@@ -245,8 +167,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
@@ -265,8 +187,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
-          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
         },
         {
           "platform": "youtube",
@@ -304,76 +226,6 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: VoidAccess – open-source dark web OSINT, from query to a grap",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/KatrielMoses/voidaccess",
-          "signal": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-          "signal": "Gemini 4 Argon is now available for everyone"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
-          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "On AI writing",
       "category": "use_case",
       "momentum": "rising",
@@ -399,6 +251,151 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Google staff resign in backlash over its AI contracts with military",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+          "signal": "Google staff resign in backlash over its AI contracts with military"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Rust off Rails: The opinionated web stack for the AI era",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://rustoffrails.org/",
+          "signal": "Rust off Rails: The opinionated web stack for the AI era"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "LayerFS: The filesystem for AI coding agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://layerfs.ai/",
+          "signal": "LayerFS: The filesystem for AI coding agents"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://alterauth.com/",
+          "signal": "Launch HN: Alter (YC S25) – Access control for multi-user agents"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
+          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
+          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -409,6 +406,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -431,28 +429,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xckkdy/i_turned_chatgpt_into_a_copilot_for_no_mans_sky/",
+          "signal": "I turned ChatGPT into a co-pilot for No Man’s Sky, now it keeps a field journal of my discoveries"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcnxdh/chatgpt_taught_me_to_make_this/",
+          "signal": "ChatGPT taught me to make this"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xcdvs9/i_built_my_own_netflixstyle_app_for_my_home/",
           "signal": "I built my own Netflix-style app for my home server, and now I just ask ChatGPT to find and add movies for me"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xc30q6/chatgpts_style_is_getting_more_and_more_annoying/",
-          "signal": "ChatGPT's style is getting more and more annoying"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcaep1/chatgpt_voice_model_is_wild/",
-          "signal": "ChatGPT voice model is wild"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbytms/why_is_chatgpt_having_so_many_issues_lately/",
-          "signal": "Why is ChatGPT having so many issues lately?"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=hKOd4P6Px5o",
           "signal": "Why ChatGPT Contradicted Itself 🤔"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJut4s0DTx8",
+          "signal": "Ultimate Guide to ChatGPT Work (Updated for ChatGPT 6 Astra)"
         }
       ],
       "content_ideas": []
@@ -489,7 +487,9 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
+        "instagram_inferred",
         "reddit",
         "youtube"
       ],
@@ -497,8 +497,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
@@ -517,8 +517,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
-          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
         },
         {
           "platform": "youtube",
@@ -533,7 +533,6 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews",
         "youtube"
       ],
       "what_it_is": "",
@@ -542,17 +541,12 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-          "signal": "Gemini 4 Argon is now available for everyone"
-        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
@@ -576,35 +570,11 @@
     {
       "problem": "Valid Crash Out",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xbnaaz/valid_crash_out/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "update: chat limit bug is gone",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xcefm0/update_chat_limit_bug_is_gone/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Ok wtf is going on with these limits",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xbw6go/ok_wtf_is_going_on_with_these_limits/"
         }
       ],
       "content_opportunity": ""
