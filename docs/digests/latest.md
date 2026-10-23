@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 3. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
-4. **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — science angle
+4. **Microsoft AI tool beat generalist doctors at step-by-step diagnosis - The Next Web** — science angle
+   https://news.google.com/rss/articles/CBMifEFVX3lxTE92ekNwYThSXzFDaTJ4aElJeU1YMHNyMmNRSmFuYTJJMGowZXk2aGZncTdGSVBhT3hJYWR4RkJLYS16STNqRzRFU2Y2d0NMVE1Ua3g2c1NhQ1FBajk3a2tUSnVnZHR3X1YwbUJnQWNIdmxTMTB2VlEtbUJncTM?oc=5
+5. **😺 Microsoft AI scored 83% where doctors got 36% - The Neuron** — science angle
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxPUmxZVm5FSWtndkVFNmdCS1dYQmppYXladm9zd3dwenpVM0JEcXpfZFhPQVh6ZVd2SUFGQ2NtNWExZ0M0RnZGMlpHS2FqanVQcWc0U0xGOUhuNXBoTzBobTlsQnd1UDNGd1hSd1YyTnJrSllzUldsVkk5ZEZFUnVvblNR?oc=5
+6. **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU094ZXkxdGp4TF9mc3ljRTJEcl84R3RDdlJsRV9QUE9MSEZUdHRZQ2VISzZTZ2dxeFBORW5zMXp4ZUN1NmlqcUdCeU9MOFBTZmZuc2pLY1Zudk1HT1RaSnRpNldPZW41bGZXWThlNk5INE56dmdFWVhxRllqcEVXVGdBNW1MdC1HclJKYTJVbXVUa3hJWm1sSjQ0TkwwaTNOWFRXeWtSZHpwbC1KaU1wb0NpVnZGeFNDSzNJME4xNk1wZw?oc=5
-5. **Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’ - TechCrunch** — science angle
+7. **Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’ - TechCrunch** — science angle
    https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5
-6. **Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters** — science angle
+8. **Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYWJuX2ZuZl9pQm10SHpOeEZTZ0xuWWJEZklvZ0xsMndvNEFEYXlZVUUtQVBGS0hMX1E4UEVncDl4VW1QUUFOdnUtbF91VkdqeDBzOU4yVDctQWFzRE5EczcxaGI2OV8zWlpUUTVodjlCNmtwOUh6TW43eFZ0RFhsazRhWmdVRUtKd1g2ZG5HV2l6X0s4aXBiSmljRVYtNy1hV3lqTHJPbnRlMmpkaERxZHhfaUh5N0NJNVBoUElGQmoxLUxRN3ZaNVVYX2ZvZTY5M1pJazFwaUM?oc=5
-7. **AI analysis of CT scans finds 42.9% of patients have coronary inflammation** — 72 upvotes on Reddit/HN
-   https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients
-8. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 140
@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWE1naVBfcVpNUnp0aU9FR0pibnl1LXI4X2ZhaUtXZFpqcHB6cWFXajN0dnprZndwRmZ3bjZJMVRZTkJZU3hBcTFKLTl2dkVoNnBxSDZhR3pqeFVTZ09ZUVVCXzlIMnViYk5XeVJ5MHlQVk5KX1NZTFFsNlNtZzhRSkNVbzJPM1B0NXNyN2I5RVRNQmRwd1pHLXBEWDZZZjduYl85MldJRzhCaDBjazZ0a3B0YjB2WGZNYk51eENtVjhBMTE4OGtIazJxYnlLZlF3YTJYelBCb9IB3AFBVV95cUxOMk9USkpaNkVFejhaT0JsNzNCV3UtNHd6Qks5UVNKYk04bV9GU0tDam9FcWp5eGVxVGcwR0V4ZHNydDQtc1VmUG4taTIxaExUNXdIb3h6eTVUTFVBZWVLelp2NGdIN2NlTjd5VEtoUzltdk5NYnB0NTVPeXdkaEtmZkZTZENyZVhyMGpkOXUwTW9ZMmh5ajZMaEY3Y2VxT1ZPQUlxRXlKeV9GZFMzUlRXZ2pCbThzeTZyVVk2bllMUDRrdTBHZGUxd3VtMHRzc0FPZGZCMVQybWlxMm9r?oc=5
 3. **US judge dismisses Sam Altman's sister's sexual abuse lawsuit - Reuters** — Sam Altman News — Score 92
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xLUh4YjJRTXRpLU5xMnlLTkhXWjJtc2YtYVdMcE1IYVV6cmx5Snp3WGZraHlCSXhteWQzNjlKSW5XRUZCVTMza3N6NE43el9kODgxTG1fc19NM2xxVmNTRVl4ZjN4T0tHT1FvNVdUd0ZwR3JabGNCNkFxbWM4ZURfdmpFeDZwVng5ZWU1RmxmeWR5ZWVCZlVXY0hr?oc=5
-4. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 70
+4. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 67
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTDZNXy1xaXE1MU03V1p2Z0tPc0RDSXB1QU5wV21Sdjc4NUthSVBLdU5uS1hjQVVVUGEtLXJObGZ5bExGOWYyZVJZbnRkWXdycHlpUXcxMy1ZQmFGd0Y1TFBLaXRKa3Z6MGZNWEphYVphYWpONTM0dWFBS20xUXVnYTYxRGRWaVYwX0FKa3RNSmFjZk1ublJMMjdzTGxfczEzd3BIT0hyRGNuMVNnWEtBdm5mV19iQXBlNW9jeVBqQ213SDVzenhlZ0JnbDE3RUht?oc=5
 5. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWNtdlhaREJOdlJaRUNUT3BxZ2tnMm5QOUpyakJFeXB5b2tsWkRvWThjbFVHblJNYUJjYW1hR181Y3RpalZqUjljcTB0dXJKTjhvTy1aSFpNUkFVSk1GTEJiS2R1UWRTVUUxVFp2c1VLd0tENnFnRTlyREprZVZIMWNJeV9mOWZ3X0hpU3pmbkc5X1B0M0xrVFd2d0ktNExwMFJuSEZJNTg?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2933
+- Total stories tracked: 2822
 - Most active topic: agents
 - Busiest category: AI General News
 
