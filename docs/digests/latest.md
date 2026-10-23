@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 15 Oct 2026 to 22 Oct 2026
+# 🗞️ AI THIS WEEK — 16 Oct 2026 to 23 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI**
@@ -7,22 +7,22 @@ Best source link: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWN
 All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc2dpM3NoZlJ6VWMzSXNiN1ViWEZxTzB3c1ZJNEVDNkFJcVlWODZBbEJTOVV3cmhRdUZNakJmN0d6V1l4SzJlOEI3TmpvWUVzWE1uRjJ4R3E4eWRlMmxLY09MS0JnWlBXZkZZWlExYUJwVXhfSkFxNkI2TkF1TlEtdkE?oc=5 · https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWNtdlhaREJOdlJaRUNUT3BxZ2tnMm5QOUpyakJFeXB5b2tsWkRvWThjbFVHblJNYUJjYW1hR181Y3RpalZqUjljcTB0dXJKTjhvTy1aSFpNUkFVSk1GTEJiS2R1UWRTVUUxVFp2c1VLd0tENnFnRTlyREprZVZIMWNJeV9mOWZ3X0hpU3pmbkc5X1B0M0xrVFd2d0ktNExwMFJuSEZJNTg?oc=5 · https://news.google.com/rss/articles/CBMikwFBVV95cUxPMTRhQ2ROaTJlOEdwaE03bkVfZ1MzQnNfUEZMUEotS1RJN2sxcDRRTUoxOGQ3VWo2bG9QT3h0M2RjNlZpWXEzMFl6aklJYTMyTkFVU1BSU2pZOE9WUEZ5OURwQ2xWQkFlVG1VM2tNUk1zYzMwd2xOaE9hWW5xODlpRjlPQW1fNDJyYkVRUFZaMV9UdkU?oc=5 · https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUWxZZlRrRnpmX1JoV0Y5WC1xclExeDJxTTZZa0pEZ3FEdGI0R3BuclFpYjNCMW9KQy1TdmFZd19iVmlCOEZFUEhnVnFxOEhSdlpmbk9HU0s2R0RwMkZFSlBoMU5na0FMSWsyRjc3UVFTVTRiSWxXYllnbEZzZmVWZzBLcWZETmpRd3JvTEwyVFZQVVpzbUJDeVlsY0NERW1NN3NxLUUwRFRzNDg?oc=5 · https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYnM1Q2pteDJDRzkzaC1KeC00YW9nUjM4UEoweUxrTzBaNlRtTEhaMTRVWTAwaWRTZGY1ZDFXTmJXRUdocXRDTDJQWG1kVEF6ZUZDczVUV2pqU2dseDhDT25DTm8zMnl1X3k4Rm5RZ1U5bEVHNHBubWRKZlhTXzd3WUNHdFVnUEtQWU5mZTBMZUxFdHFoakV6LTlTa3JPeHFDR2gwZS11c21UWlA1bW1KY1hfeFhON09YZUxyeGJPY0UxTDRVMjJDVXNzT09YOXVqM2l4dTQxSHpfVHlNdW5RNmh3MGdub1pDN0pvM0wxZ2Y?oc=5 · https://news.google.com/rss/articles/CBMihAFBVV95cUxNV2JvZ2g1OThBaW5LcmtjTU5ENmJqaUZsWmRmS2JSem85U0p1am8yWkFpenBDU0M1bkhyZ3dTUEk4R19MMGlPNUxMMHFzekRMcVNEVHRHQ0VPQnVUdE1QVmlTU19FdzUyT2hRUS11RmZpLUZveXRISTVDVGRTY0Y5U0RiZkw?oc=5 · https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fTEtES1pQdjdXZHR3RXVERUI1Q05ydnJqTnB4TnFBLXBaUk5ITXc5U2NTQWhCd1NEZFVVdlBZeU5Ra1dXNU5BY04wNWVLbEpTWDVVX3Z5N0VxTGVRYWc?oc=5 · https://news.google.com/rss/articles/CBMimAFBVV95cUxOOEVhUTBzS1lQZG8xWldzQmJDRklUWU1zU1k4OHE4Y2JaOFFOdnBSMkJ5dUxzZVJwMk9Nd0p6a3lQbDZhbFV2d3FqWHlRbHJUa0lRV1EtYUNqOUhxMVZjYmhQajNFNXdSeXVid2QtcWs1LUxGdXY3OFM4eVE1dWJsdktaUGFuM05zVk4tekx4YkU0WG9Ba2xfZw?oc=5 · https://news.google.com/rss/articles/CBMioAFBVV95cUxNNXpEalNTRTc3MS04dnVkR0VjRHBocDJVbVlKQlIyaUJ4aHRHSVUwLTMtelNvRXUxWmNULU9iUnhPMmdWS1V5dUVQaUZRaXZMYnRMeGpzbWZFb2FKd3ZqcElOa0FRVlM4TXJoc2w2eG51eFVQZ2hTNENFY1phSzg5RjFNbXFEMDNNel96T2hCVFJlaXN6dnpmeVozTHdpMzkz?oc=5 · https://biztoc.com/x/6408eb0a16e07ec1 · https://news.google.com/rss/articles/CBMijwFBVV95cUxObXVSRTI4bjdfclphSWVKNTRnQlZ4V1dkaW41VUN2TFVPc2Y1SDFRdzkzOEVYV0E4RG5zZ1NqMTF6dEZ0c0dOelkwTFB1TmhJRUI0RUYtOHJQdHgyTm5nQ2w1MW83SFo4VThUZUpVZ0NMb05CQ1ZLVFp5aEVIMDVxOTkxOU4wQ1VWcWZReGtFYw?oc=5 · https://news.google.com/rss/articles/CBMihgFBVV95cUxPdFpuQ0FZX08wWndmaWZycXU0bVJZbl85dzdRSGcyR1FEa0dkRmFVZTZFdE15YkVlQno5ZFQ5NGJmVVdSbGxnUnVqTWxNcUdmZGVJZHlvYW5vSnBEZC0taExSMEl1TmxHNmxLZTVibXlzYldMNDFKZjZRWVZmWjdleTl1SG5lUQ?oc=5 · https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX3RHbHBaWEhBQWpZbXJObHRRMG1sS211bE1ha2licjBYS2lsaHZ5LTY0ODRXb3FDdUhoTGRidGh5REhpUDdVQklHRXpxcnpVMzMwZ09xZUJ4SE14aU40OGFrYVd2UURGSHhFNlBGMDM1SThuV21ENU5TQml5ZXB2d20xcm5YNHE5?oc=5
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — science angle
+1. **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — science angle
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
+2. **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — science angle
    https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
-2. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
+3. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
-3. **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — science angle
+4. **Before the ambulance arrives: How AI is helping the NHS rethink patient care - Microsoft Source** — science angle
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU094ZXkxdGp4TF9mc3ljRTJEcl84R3RDdlJsRV9QUE9MSEZUdHRZQ2VISzZTZ2dxeFBORW5zMXp4ZUN1NmlqcUdCeU9MOFBTZmZuc2pLY1Zudk1HT1RaSnRpNldPZW41bGZXWThlNk5INE56dmdFWVhxRllqcEVXVGdBNW1MdC1HclJKYTJVbXVUa3hJWm1sSjQ0TkwwaTNOWFRXeWtSZHpwbC1KaU1wb0NpVnZGeFNDSzNJME4xNk1wZw?oc=5
-4. **Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’ - TechCrunch** — science angle
+5. **Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’ - TechCrunch** — science angle
    https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5
-5. **AI analysis of CT scans finds 42.9% of patients have coronary inflammation** — 72 upvotes on Reddit/HN
+6. **Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters** — science angle
+   https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYWJuX2ZuZl9pQm10SHpOeEZTZ0xuWWJEZklvZ0xsMndvNEFEYXlZVUUtQVBGS0hMX1E4UEVncDl4VW1QUUFOdnUtbF91VkdqeDBzOU4yVDctQWFzRE5EczcxaGI2OV8zWlpUUTVodjlCNmtwOUh6TW43eFZ0RFhsazRhWmdVRUtKd1g2ZG5HV2l6X0s4aXBiSmljRVYtNy1hV3lqTHJPbnRlMmpkaERxZHhfaUh5N0NJNVBoUElGQmoxLUxRN3ZaNVVYX2ZvZTY5M1pJazFwaUM?oc=5
+7. **AI analysis of CT scans finds 42.9% of patients have coronary inflammation** — 72 upvotes on Reddit/HN
    https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients
-6. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
+8. **What AI Gets Right In Medicine Is Giving Patients Time To Talk - Science 2.0** — science angle
    https://news.google.com/rss/articles/CBMisAFBVV95cUxNd0x1c3h0dDdTa2RRd3ZTMmNqaENQdndCWjcxZnR2MGozZkwxMVNuazFJenR4M2c4a1R0UzJIZ1RTdGhZNlNBcEY5b3NBMUhZTEpTa3RtSTRoUXhzNGR1bzkzRzhWMFI5dzdzMGRsZlR5UVRFbUljdDM3U0RobTRxek9mMm1GVHM5bVNyTEJETlAyWUdDY3pmVEpBbEVHY2huRjdLeGJKRFBVMHRFc2dZVg?oc=5
-7. **PhD students who write dissertation with AI less likely to stay in academia** — science angle
-   https://www.nature.com/articles/d41586-026-03253-2
-8. **Oncologist breaks down the pros and cons of AI at the doctor's office - CBS News** — science angle
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxQMi1aME5jdk4tNGVUN3JOVTg4Tm90Vl9mZjZ4aWNUcjg0ZGJyaE5FQU1fZ3NQdGM4eEttN1l6Zmo5YkN6a293UXRNMExFV3hsdXVXaDdZbENlXzJDY2hFcGdJTEw2ZW5jU0lwWTNhNkYtVWI0WVdjY3Ric3hfUXBJd0tHTnpQMnZGTHcwZ2lnRVNmZFRuUTZjYWlhUHVfX3N6?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 140
@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNHZHRFlIcjhzUGVRNUw1SGhBSzBlY0d6T05ycVhsZUhJTEFzd1lONmpyclVfWjdmX2dMY0E1bGtvSGlocVdrUldlcWV4MEZBUzBxS3hlWndpZW1BMXc1bWo1UnpyZEw2Qzd5LUltbkNsX2xxLXNXOWx4eF9hTXFWTVo2Uy1kWnUxVldPaDBoYnNrMHNISWpydFdDSkh0TkV1ZWt6OHVwbm4zNGtJWUMweFdwRldmQWZDNUhCNlc0TElNZw?oc=5
 8. **Nvidia CEO encourages Europe's lagging AI sector and offers tools to accelerate data center buildout - The Washington Post** — Jensen Huang News — Score 46
    https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2xvNDlsQXBKQ1FzS0tsdkg3ZTJCTWNYaVpqTDUwLTBLcE9vTm92UmFrZWJVRHp0cWxKTkdxelVjUWJYZ1FnR2IydUZRSEEtR0NjUUlyem9xUkhHMy1wX0J3R1BxNFE2ckxITEFZUDJJa2lwVVFwN3ZwSFV5MHJ0Mi1fcm9pNWg1U05IV3VBWE44c2MwOF9fNTNSVkV4OWhYa28yNFh0YjNRMnpGX1FRMlVTSzZZRGVmc2xJMjQ3SnFBZTZWNW1fWlN5bS0?oc=5
-9. **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — AI in Health — Score 45
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
-10. **Cohere to acquire AISLE to advance cyber-resilient sovereign AI - Evertiq** — Cohere News — Score 43
+9. **Cohere to acquire AISLE to advance cyber-resilient sovereign AI - Evertiq** — Cohere News — Score 43
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPLXVCeFBNNGhZcFEtNGFERTAyZUJOS0h2LV9WbkJyYW9xUk1FQ3h2WTdvc0xrbzlGbkJqcnZNQTNwY2I5b0ZfQWpjeEFYSFgtTlpPR1k0WTkwcHVKT1U5cEljNVVhaExLMWVmUlJDcF9EeEY4X2xaRW5CSERROUNCdEEwcDdjTGNBeGttZTVUa1hRaW5nZUt1LUoyd0M1X2hu?oc=5
+10. **Anthropic pledges at least 5% of shares to public-benefit fund - Semafor** — Dario Amodei News — Score 43
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxPZWhMNk9tTDk4SFVEYU03eV9zRGl4RG9KaEpESkxPZEpMWExzeFdsYmVUeVZiT1ZPZ0VHdHhlUEFBSUlveXE2WHJqaXVEV19uTmxHdXhvdDBnLXBEWk9aR1hfTEY1OVF3c28tMlNkNTRrZXRub2xMMmFlWFVyNGJHUk1JaFkzREFiOE5KWDRxZHhIT2h3Z0t3WkpVTDBQbDNqNHBMM25STQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Microsoft says its AI tool is better than doctors at diagnosing conditions - The Verge** — https://news.google.com/rss/articles/CBMi0gFBVV95cUxOamtUNVg3S1hZVlF1RGZ4akg3NThwTERFbWpQaUcyMmQ1LVdXM21CYU1mbUhEd28tS2ZicXp1TTBwUlB5Q0xtZllvdkl3WW5sdFZrUXdYRHV4Sk10X3pMWXpBYWhsT1ljQ3BRLUZ3ZXpXeElFX2VqWXRjcm9NYV9vU3hTb1NZM0tCNTJLNnBNaW5XVTJTd2ZyNkxpYlQ4aFpUZDc3MXBmUzZySkdRa0drQnZVdDBqcmc0aUl4QnpaUkRGYUE0UnQzMHdZMVpGRmRuWmc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2769
+- Total stories tracked: 2933
 - Most active topic: agents
 - Busiest category: AI General News
 
