@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **Microsoft’s AI Diagnosed 83% of Difficult Medical Cases. Doctors Got Just 36% - Yahoo Tech** — https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWg0c3AxS3VJV3hrdDJnQ0dRWXlHR2VOLUpZTy1KbjdMbWgtSl81Ymgxam9SZGRGam1ia1pPc0hLZEd6Q3JIbDN0c3JNR2ZZYTA2LThMSXgtNUZKZENRbkI0LXRwVWFYVmpsYUlkaXo3cVNXUU1WRzZvdU1jdDFYU2MzT2M2U0RMZTdualBxcC1HeERQLVNWZQ?oc=5
 - **Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYWJuX2ZuZl9pQm10SHpOeEZTZ0xuWWJEZklvZ0xsMndvNEFEYXlZVUUtQVBGS0hMX1E4UEVncDl4VW1QUUFOdnUtbF91VkdqeDBzOU4yVDctQWFzRE5EczcxaGI2OV8zWlpUUTVodjlCNmtwOUh6TW43eFZ0RFhsazRhWmdVRUtKd1g2ZG5HV2l6X0s4aXBiSmljRVYtNy1hV3lqTHJPbnRlMmpkaERxZHhfaUh5N0NJNVBoUElGQmoxLUxRN3ZaNVVYX2ZvZTY5M1pJazFwaUM?oc=5
 - **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
-- **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
+- **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2805
+- Total stories tracked: 2789
 - Most active topic: agents
 - Busiest category: AI General News
 
