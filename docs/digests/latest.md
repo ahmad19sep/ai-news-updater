@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYWJuX2ZuZl9pQm10SHpOeEZTZ0xuWWJEZklvZ0xsMndvNEFEYXlZVUUtQVBGS0hMX1E4UEVncDl4VW1QUUFOdnUtbF91VkdqeDBzOU4yVDctQWFzRE5EczcxaGI2OV8zWlpUUTVodjlCNmtwOUh6TW43eFZ0RFhsazRhWmdVRUtKd1g2ZG5HV2l6X0s4aXBiSmljRVYtNy1hV3lqTHJPbnRlMmpkaERxZHhfaUh5N0NJNVBoUElGQmoxLUxRN3ZaNVVYX2ZvZTY5M1pJazFwaUM?oc=5
 2. **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
-3. **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — science angle
-   https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
-4. **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — science angle
+3. **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — science angle
    https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
-5. **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Herald-Voice** — science angle
+4. **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Herald-Voice** — science angle
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMUNUZ1ZNRzNLS3paMlBfSVNOS1hYMUJsalFwTHRqdTlta1JRSHR6RFRiMkNTN2oxWmRtWE1fU1pVMjN3bm9mMU9LS1ZqaDhlamZLTnQ2LUZlUWJyOHNkZzRNNUF3eFE3bFNhQmwzd0txVDRZcm5fZEpGeWZ5Y1l6Zzhyc2lQQ3JZOWkyOE4wcU1QTURYcHBmdm94RERwYVBKS044SE9Hc2gzTjNieVl5VTZ4R3FQSTFZ?oc=5
-6. **Microsoft AI tool beat generalist doctors at step-by-step diagnosis - The Next Web** — science angle
+5. **Microsoft AI tool beat generalist doctors at step-by-step diagnosis - The Next Web** — science angle
    https://news.google.com/rss/articles/CBMifEFVX3lxTE92ekNwYThSXzFDaTJ4aElJeU1YMHNyMmNRSmFuYTJJMGowZXk2aGZncTdGSVBhT3hJYWR4RkJLYS16STNqRzRFU2Y2d0NMVE1Ua3g2c1NhQ1FBajk3a2tUSnVnZHR3X1YwbUJnQWNIdmxTMTB2VlEtbUJncTM?oc=5
-7. **😺 Microsoft AI scored 83% where doctors got 36% - The Neuron** — science angle
+6. **😺 Microsoft AI scored 83% where doctors got 36% - The Neuron** — science angle
    https://news.google.com/rss/articles/CBMiggFBVV95cUxPUmxZVm5FSWtndkVFNmdCS1dYQmppYXladm9zd3dwenpVM0JEcXpfZFhPQVh6ZVd2SUFGQ2NtNWExZ0M0RnZGMlpHS2FqanVQcWc0U0xGOUhuNXBoTzBobTlsQnd1UDNGd1hSd1YyTnJrSllzUldsVkk5ZEZFUnVvblNR?oc=5
-8. **Microsoft’s AI Diagnostic System Outperforms Generalist Doctors on Complex Cases, Science Study Finds - AI Insider** — science angle
+7. **Microsoft’s AI Diagnostic System Outperforms Generalist Doctors on Complex Cases, Science Study Finds - AI Insider** — science angle
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcXVOY1RMbGU3TGR5MEZLcVVKaEJBeVIzV2RaR3JKTUtKSmdONW9WeWQ3aUVRWDdxTzdlVXp0NzV3LXI1dGpEMThRM3F3WmRISnpiVU9sd0JjaWVSY3czdWJvajBEWGRfNUpzQzdoSUE4aEFEdzFzbWUzTXV3bF9SMDR3a2V1NkpWamEzcmpWNjBvbkRLV3lIaVI2cFNWLWdSWnViR1Q5NDUxRDBFTUhPOE9sN1c0WmZMNlg1ME5JMEQ5TjM0akpxQVAtNE51UEt1VzZV?oc=5
+8. **Microsoft’s AI doctor outperforms humans in new study - MedWatch** — science angle
+   https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qOUxpM01mNFdfNV9xVHpqVG9CS1hHNVJvZHVXQUJMVkFLT3pGWEY2a0xMSENBMTB5czFlSkdvTDB2ekxHSEs4M2t0Mjdka0xTU1cyRi1zWE1sNmJGT3FoSkNzblZDcWtu?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 140
@@ -33,14 +33,14 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xLUh4YjJRTXRpLU5xMnlLTkhXWjJtc2YtYVdMcE1IYVV6cmx5Snp3WGZraHlCSXhteWQzNjlKSW5XRUZCVTMza3N6NE43el9kODgxTG1fc19NM2xxVmNTRVl4ZjN4T0tHT1FvNVdUd0ZwR3JabGNCNkFxbWM4ZURfdmpFeDZwVng5ZWU1RmxmeWR5ZWVCZlVXY0hr?oc=5
 4. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 67
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTDZNXy1xaXE1MU03V1p2Z0tPc0RDSXB1QU5wV21Sdjc4NUthSVBLdU5uS1hjQVVVUGEtLXJObGZ5bExGOWYyZVJZbnRkWXdycHlpUXcxMy1ZQmFGd0Y1TFBLaXRKa3Z6MGZNWEphYVphYWpONTM0dWFBS20xUXVnYTYxRGRWaVYwX0FKa3RNSmFjZk1ublJMMjdzTGxfczEzd3BIT0hyRGNuMVNnWEtBdm5mV19iQXBlNW9jeVBqQ213SDVzenhlZ0JnbDE3RUht?oc=5
-5. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 66
-   https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
-6. **Microsoft working to reduce AI costs, expand ecosystem as global adoption rises: Satya Nadella - https://www.indiagazette.com/** — Satya Nadella News — Score 56
+5. **Microsoft working to reduce AI costs, expand ecosystem as global adoption rises: Satya Nadella - https://www.indiagazette.com/** — Satya Nadella News — Score 66
    https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRHlOQkZEQTR6S29oUjNZdGd5eGthb2lzb2RNS18zT2Q1SnFSaHg3NjBwbWJiRk5CVlR6aE80YWZlQU5EWjZ0NXpMUHdxdmlLQmxGRHlnbC14UENyR21TUUFqcnZEa3BWRjFnOFlDQzRaS09BcVpUcUVPaXRWWFlPMDIxbzNSUXVSZUwwNjRWblVnWlZpdEhrRTlPUGtrNkw1QlJFcUxWZTU5R0xnWmhwT3cwTnNVNng3UzhSZDR3TUc4VklOdlMyU05uNzVTVDVVcGc?oc=5
-7. **Nuix launches agentic AI capability in Nuix Neo with audit trail - Australian Cyber Security Magazine** — AI Agents — Score 51
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxNYnNVc3doY3pyT1BMN2dsNy1nTUlFeDJOVXM3NEIzVjJCNlkta1dOY2hDdDZmdWN0bUxtLWstVWhsd3hJZUlGRWl5elRKNi1EV1g0WUgza2NKaHlZU255aFZfYTgtVU1OcEhKQ1ljMmhRbHpwU2YzUGRoa2s4Yk9VanljbGtXU0NCTjVGbE5ROUhxNkF4a0V4OGxIbW5zbHlZeWllSE54blpsdkhXMFhuMS1R?oc=5
-8. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
+6. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 66
+   https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
+7. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWNtdlhaREJOdlJaRUNUT3BxZ2tnMm5QOUpyakJFeXB5b2tsWkRvWThjbFVHblJNYUJjYW1hR181Y3RpalZqUjljcTB0dXJKTjhvTy1aSFpNUkFVSk1GTEJiS2R1UWRTVUUxVFp2c1VLd0tENnFnRTlyREprZVZIMWNJeV9mOWZ3X0hpU3pmbkc5X1B0M0xrVFd2d0ktNExwMFJuSEZJNTg?oc=5
+8. **Nuix launches agentic AI capability in Nuix Neo with audit trail - Australian Cyber Security Magazine** — AI Agents — Score 48
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxNYnNVc3doY3pyT1BMN2dsNy1nTUlFeDJOVXM3NEIzVjJCNlkta1dOY2hDdDZmdWN0bUxtLWstVWhsd3hJZUlGRWl5elRKNi1EV1g0WUgza2NKaHlZU255aFZfYTgtVU1OcEhKQ1ljMmhRbHpwU2YzUGRoa2s4Yk9VanljbGtXU0NCTjVGbE5ROUhxNkF4a0V4OGxIbW5zbHlZeWllSE54blpsdkhXMFhuMS1R?oc=5
 9. **Microsoft says its AI tool is better than doctors at diagnosing conditions - The Verge** — Microsoft AI — Score 48
    https://news.google.com/rss/articles/CBMi0gFBVV95cUxOamtUNVg3S1hZVlF1RGZ4akg3NThwTERFbWpQaUcyMmQ1LVdXM21CYU1mbUhEd28tS2ZicXp1TTBwUlB5Q0xtZllvdkl3WW5sdFZrUXdYRHV4Sk10X3pMWXpBYWhsT1ljQ3BRLUZ3ZXpXeElFX2VqWXRjcm9NYV9vU3hTb1NZM0tCNTJLNnBNaW5XVTJTd2ZyNkxpYlQ4aFpUZDc3MXBmUzZySkdRa0drQnZVdDBqcmc0aUl4QnpaUkRGYUE0UnQzMHdZMVpGRmRuWmc?oc=5
 10. **Microsoft’s AI Diagnosed 83% of Difficult Medical Cases. Doctors Got Just 36% - Yahoo Tech** — Microsoft AI — Score 48
@@ -51,10 +51,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **Microsoft’s AI Diagnosed 83% of Difficult Medical Cases. Doctors Got Just 36% - Yahoo Tech** — https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWg0c3AxS3VJV3hrdDJnQ0dRWXlHR2VOLUpZTy1KbjdMbWgtSl81Ymgxam9SZGRGam1ia1pPc0hLZEd6Q3JIbDN0c3JNR2ZZYTA2LThMSXgtNUZKZENRbkI0LXRwVWFYVmpsYUlkaXo3cVNXUU1WRzZvdU1jdDFYU2MzT2M2U0RMZTdualBxcC1HeERQLVNWZQ?oc=5
 - **Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYWJuX2ZuZl9pQm10SHpOeEZTZ0xuWWJEZklvZ0xsMndvNEFEYXlZVUUtQVBGS0hMX1E4UEVncDl4VW1QUUFOdnUtbF91VkdqeDBzOU4yVDctQWFzRE5EczcxaGI2OV8zWlpUUTVodjlCNmtwOUh6TW43eFZ0RFhsazRhWmdVRUtKd1g2ZG5HV2l6X0s4aXBiSmljRVYtNy1hV3lqTHJPbnRlMmpkaERxZHhfaUh5N0NJNVBoUElGQmoxLUxRN3ZaNVVYX2ZvZTY5M1pJazFwaUM?oc=5
 - **The $15bn ‘viral’ AI start-up changing how American doctors treat patients - Financial Times** — https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDVNRXJndElaSnNKMWxmVm14U01RTkI3V09UWmFQdzZ3bF9BejJqT080Y0k4UVdnWnpFRlNtVWxPTURjSWkwMDBPU1l0ZFFoaDNzLUUxTjNvOUxmSUF1STU3OFdNQndIaHNSLUNfUVJQa21ubTM4QjdrSHYyU2R1VjM1aUE?oc=5
-- **AI chatbots could make healthcare more accessible, but some doctors are still wary - KERA News Breakthroughs** — https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaTNOMC1oNHVVazBGZTZncUFRa182Q3h0aklRS0FsdmdjSnBjQWZGemdBX2M4b2EyZzFHSW81X1BXX1MxRkZBYjlnd0UzamU2WEVSNVdVM3lGdENGbkJWWGNiVF94WVk?oc=5
+- **CERN and Mistral partner to build Flare, a new AI model for physics - Reuters** — https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2835
+- Total stories tracked: 2832
 - Most active topic: agents
 - Busiest category: AI General News
 
