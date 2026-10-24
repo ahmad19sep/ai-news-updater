@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:59:33.582973+00:00",
+  "generated_at": "2026-10-24T20:53:12.829954+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 24,
+      "reddit": 33,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,8 +44,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
-          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xehxkq/those_of_you_who_use_chatgpt_every_single_day/",
+          "signal": "Those of you who use ChatGPT every single day, what are you actually doing with it?"
         },
         {
           "platform": "reddit",
@@ -54,18 +54,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmqml/i_used_chatgpt_for_interview_and_got_caught/",
-          "signal": "I used ChatGPT for interview and got caught 🥺"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedq61/chatgpt_is_an_amazing_tutor/",
+          "signal": "ChatGPT is an amazing tutor"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe7ay9/ive_read_the_exact_same_chatgpt_selfcriticism_5/",
-          "signal": "I've read the exact same ChatGPT self-criticism 5 times today. What is going on?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
+          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdxobd/whats_something_i_should_use_chatgpt_for_that_i/",
-          "signal": "What’s something I should use ChatGPT for that I currently don’t?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedhus/chatgpt_has_good_days_and_bad_days/",
+          "signal": "ChatGPT has good days and bad days"
         }
       ],
       "content_ideas": []
@@ -98,7 +98,7 @@
       "content_ideas": []
     },
     {
-      "name": "Every AI model has the same \"controversial\" take on humans",
+      "name": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -110,7 +110,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -118,62 +118,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-          "signal": "Every AI model has the same \"controversial\" take on humans"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/NVIDIA/OpenShell",
-          "signal": "OpenShell – A safe, private runtime for fleets of autonomous AI agents"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-          "signal": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended"
+          "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+          "signal": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps"
         }
       ],
       "content_ideas": []
@@ -206,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "No Signs of AI Payoff Outside the Tech Sector",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+          "signal": "No Signs of AI Payoff Outside the Tech Sector"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
       "category": "use_case",
       "momentum": "rising",
@@ -233,7 +206,7 @@
       "content_ideas": []
     },
     {
-      "name": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+      "name": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -253,33 +226,6 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
-          "signal": "Hedra is a 3D open world game I wrote from scratch while in highschool"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
           "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
           "signal": "Evolving Threat: http2shell is an RCE in Node, Python, and more"
         }
@@ -287,7 +233,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI and the Enclosure of the Scientific Commons",
+      "name": "Why is AI generated language so hard to understand?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -299,7 +245,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -307,35 +253,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2610.27251",
-          "signal": "AI and the Enclosure of the Scientific Commons"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-          "signal": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps"
+          "url": "https://arxiv.org/abs/2610.29162",
+          "signal": "Why is AI generated language so hard to understand?"
         }
       ],
       "content_ideas": []
@@ -365,6 +284,106 @@
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
           "signal": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Dream-1",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://dreamlabs.ai/research/dream-1/",
+          "signal": "Dream-1"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
+          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yt_BULiimg4",
+          "signal": "The Creator Who Mastered Claude: The New Way To Use AI To Build Tools &amp; Be Valuable (For Beginners)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=K8lVHiFnN2A",
+          "signal": "Unlimited Claude Code For Free (Runs On Your Computer)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+          "signal": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist"
         }
       ],
       "content_ideas": []
@@ -400,8 +419,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
-          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xehxkq/those_of_you_who_use_chatgpt_every_single_day/",
+          "signal": "Those of you who use ChatGPT every single day, what are you actually doing with it?"
         },
         {
           "platform": "reddit",
@@ -410,18 +429,62 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmqml/i_used_chatgpt_for_interview_and_got_caught/",
-          "signal": "I used ChatGPT for interview and got caught 🥺"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedq61/chatgpt_is_an_amazing_tutor/",
+          "signal": "ChatGPT is an amazing tutor"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe7ay9/ive_read_the_exact_same_chatgpt_selfcriticism_5/",
-          "signal": "I've read the exact same ChatGPT self-criticism 5 times today. What is going on?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
+          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdxobd/whats_something_i_should_use_chatgpt_for_that_i/",
-          "signal": "What’s something I should use ChatGPT for that I currently don’t?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedhus/chatgpt_has_good_days_and_bad_days/",
+          "signal": "ChatGPT has good days and bad days"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
+          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yt_BULiimg4",
+          "signal": "The Creator Who Mastered Claude: The New Way To Use AI To Build Tools &amp; Be Valuable (For Beginners)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=K8lVHiFnN2A",
+          "signal": "Unlimited Claude Code For Free (Runs On Your Computer)"
         }
       ],
       "content_ideas": []
@@ -429,37 +492,13 @@
   ],
   "pain_points": [
     {
-      "problem": "If OpenAI can build advanced AI, why can't they build a proper search function?",
+      "problem": "Have you guys hit ChatGPT limits?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe7a3q/if_openai_can_build_advanced_ai_why_cant_they/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "My usage goes down idle by itself?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xebniv/my_usage_goes_down_idle_by_itself/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Why can't I know??",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5d3m/why_cant_i_know/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xeft66/have_you_guys_hit_chatgpt_limits/"
         }
       ],
       "content_opportunity": ""
