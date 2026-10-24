@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T04:40:55.526375+00:00",
+  "generated_at": "2026-10-24T11:06:11.060907+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 20,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -30,8 +29,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -50,8 +49,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdcnvf/swedens_government_is_blocking_chatgpt_and_claude/",
-          "signal": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
+          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
         },
         {
           "platform": "reddit",
@@ -60,13 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmkeu/chatgpt_too_trigger_happy_with_image_creation/",
-          "signal": "ChatGPT too trigger happy with image creation?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdcnvf/swedens_government_is_blocking_chatgpt_and_claude/",
+          "signal": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdymvv/we_got_ai_job_applications_down_to_1_cent_each/",
-          "signal": "We got AI job applications down to 1 cent each. New ChatGPT plugin and all. But I'm wondering if we're actually solving the right problem."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5bq3/how_do_you_guys_get_chatgpt_to_stop_agreeing_with/",
+          "signal": "How do you guys get chatgpt to stop agreeing with everything you say?"
         }
       ],
       "content_ideas": []
@@ -207,56 +206,55 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Air Purifiers as White Noise Machines",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdy6uc/i_asked_chatgpt_claude_gemini_and_the_brandnew/",
-          "signal": "I asked ChatGPT, Claude, Gemini and the brand-new Kimi K3.1 Pro to roast each other. Kimi couldn't get a word in."
-        },
+          "platform": "hackernews",
+          "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+          "signal": "Air Purifiers as White Noise Machines"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
-          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tDWtcyeNNew",
-          "signal": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dANyCugtyfs",
-          "signal": "Gemini App se Trending Viral Photo Kaise Banaye | AI Photo Editing Tutorial #ytraftar"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+          "signal": "Evolving Threat: http2shell is an RCE in Node, Python, and more"
         }
       ],
       "content_ideas": []
@@ -289,7 +287,7 @@
       "content_ideas": []
     },
     {
-      "name": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+      "name": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -309,62 +307,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
-          "signal": "Evolving Threat: http2shell is an RCE in Node, Python, and more"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Air Purifiers as White Noise Machines",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
-          "signal": "Air Purifiers as White Noise Machines"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
-          "signal": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers"
+          "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+          "signal": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended"
         }
       ],
       "content_ideas": []
@@ -397,6 +341,33 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+          "signal": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -407,7 +378,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -415,8 +385,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -435,8 +405,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdcnvf/swedens_government_is_blocking_chatgpt_and_claude/",
-          "signal": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
+          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
         },
         {
           "platform": "reddit",
@@ -445,68 +415,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmkeu/chatgpt_too_trigger_happy_with_image_creation/",
-          "signal": "ChatGPT too trigger happy with image creation?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdcnvf/swedens_government_is_blocking_chatgpt_and_claude/",
+          "signal": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdymvv/we_got_ai_job_applications_down_to_1_cent_each/",
-          "signal": "We got AI job applications down to 1 cent each. New ChatGPT plugin and all. But I'm wondering if we're actually solving the right problem."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdy6uc/i_asked_chatgpt_claude_gemini_and_the_brandnew/",
-          "signal": "I asked ChatGPT, Claude, Gemini and the brand-new Kimi K3.1 Pro to roast each other. Kimi couldn't get a word in."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=xDPrV-NQ1Pg",
-          "signal": "Which AI Tool Should You Use? ChatGPT vs Claude vs Gemini #aitools #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=tDWtcyeNNew",
-          "signal": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dANyCugtyfs",
-          "signal": "Gemini App se Trending Viral Photo Kaise Banaye | AI Photo Editing Tutorial #ytraftar"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5bq3/how_do_you_guys_get_chatgpt_to_stop_agreeing_with/",
+          "signal": "How do you guys get chatgpt to stop agreeing with everything you say?"
         }
       ],
       "content_ideas": []
@@ -514,13 +429,13 @@
   ],
   "pain_points": [
     {
-      "problem": "We got AI job applications down to 1 cent each. New ChatGPT plugin and all. But I'm wondering if we're actually solving the right problem.",
+      "problem": "Why can't I know??",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdymvv/we_got_ai_job_applications_down_to_1_cent_each/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5d3m/why_cant_i_know/"
         }
       ],
       "content_opportunity": ""
