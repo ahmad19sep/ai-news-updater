@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:06:11.060907+00:00",
+  "generated_at": "2026-10-24T15:59:33.582973+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmqml/i_used_chatgpt_for_interview_and_got_caught/",
-          "signal": "I used ChatGPT for interview and got caught 🥺"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
           "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdxobd/whats_something_i_should_use_chatgpt_for_that_i/",
-          "signal": "What’s something I should use ChatGPT for that I currently don’t?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdcnvf/swedens_government_is_blocking_chatgpt_and_claude/",
-          "signal": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5bq3/how_do_you_guys_get_chatgpt_to_stop_agreeing_with/",
           "signal": "How do you guys get chatgpt to stop agreeing with everything you say?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmqml/i_used_chatgpt_for_interview_and_got_caught/",
+          "signal": "I used ChatGPT for interview and got caught 🥺"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe7ay9/ive_read_the_exact_same_chatgpt_selfcriticism_5/",
+          "signal": "I've read the exact same ChatGPT self-criticism 5 times today. What is going on?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdxobd/whats_something_i_should_use_chatgpt_for_that_i/",
+          "signal": "What’s something I should use ChatGPT for that I currently don’t?"
         }
       ],
       "content_ideas": []
@@ -152,6 +152,60 @@
       "content_ideas": []
     },
     {
+      "name": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+          "signal": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Air Purifiers as White Noise Machines",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+          "signal": "Air Purifiers as White Noise Machines"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
       "category": "use_case",
       "momentum": "rising",
@@ -201,33 +255,6 @@
           "platform": "hackernews",
           "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
           "signal": "Hedra is a 3D open world game I wrote from scratch while in highschool"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Air Purifiers as White Noise Machines",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
-          "signal": "Air Purifiers as White Noise Machines"
         }
       ],
       "content_ideas": []
@@ -287,7 +314,7 @@
       "content_ideas": []
     },
     {
-      "name": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account",
+      "name": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -307,8 +334,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-          "signal": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended"
+          "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+          "signal": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps"
         }
       ],
       "content_ideas": []
@@ -338,33 +365,6 @@
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
           "signal": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
-          "signal": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers"
         }
       ],
       "content_ideas": []
@@ -400,34 +400,58 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmqml/i_used_chatgpt_for_interview_and_got_caught/",
-          "signal": "I used ChatGPT for interview and got caught 🥺"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
           "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdxobd/whats_something_i_should_use_chatgpt_for_that_i/",
-          "signal": "What’s something I should use ChatGPT for that I currently don’t?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdcnvf/swedens_government_is_blocking_chatgpt_and_claude/",
-          "signal": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5bq3/how_do_you_guys_get_chatgpt_to_stop_agreeing_with/",
           "signal": "How do you guys get chatgpt to stop agreeing with everything you say?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdmqml/i_used_chatgpt_for_interview_and_got_caught/",
+          "signal": "I used ChatGPT for interview and got caught 🥺"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe7ay9/ive_read_the_exact_same_chatgpt_selfcriticism_5/",
+          "signal": "I've read the exact same ChatGPT self-criticism 5 times today. What is going on?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xdxobd/whats_something_i_should_use_chatgpt_for_that_i/",
+          "signal": "What’s something I should use ChatGPT for that I currently don’t?"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "If OpenAI can build advanced AI, why can't they build a proper search function?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe7a3q/if_openai_can_build_advanced_ai_why_cant_they/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "My usage goes down idle by itself?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xebniv/my_usage_goes_down_idle_by_itself/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Why can't I know??",
       "who_affected": "r/ChatGPT",
