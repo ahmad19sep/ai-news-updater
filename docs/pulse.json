@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:26:53.464578+00:00",
+  "generated_at": "2026-10-25T20:56:18.531825+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 22,
+      "reddit": 75,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,6 +50,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfapix/chatgpt_is_building_detailed_psychological/",
+          "signal": "ChatGPT Is Building Detailed Psychological Profiles of Its Users"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xezotv/asked_chatgpt_how_many_dumplings_are_on_the_table/",
           "signal": "Asked ChatGPT: How many dumplings are on the table?"
         },
@@ -62,38 +67,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xewgxd/my_chatgpt_dot_researches_jobs_relevant_for_me/",
           "signal": "My ChatGPT Dot researches jobs relevant for me and also applies to them"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf0tot/my_chatgpt_chat_history_is_horrible/",
-          "signal": "My ChatGPT chat history is horrible"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-          "signal": "Kimi K3.1 Pro and K3.1 Pro Highspeed"
         }
       ],
       "content_ideas": []
@@ -183,33 +156,6 @@
       "content_ideas": []
     },
     {
-      "name": "Why is AI generated language so hard to understand?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2610.29162",
-          "signal": "Why is AI generated language so hard to understand?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Cerebras Deploys Trillion-Parameter AI Models",
       "category": "use_case",
       "momentum": "rising",
@@ -222,7 +168,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -237,11 +183,39 @@
       "content_ideas": []
     },
     {
-      "name": "Air Purifiers as White Noise Machines",
+      "name": "Why is AI generated language so hard to understand?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arxiv.org/abs/2610.29162",
+          "signal": "Why is AI generated language so hard to understand?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI use leads UC Berkeley math professor to see 'no point' in grading h",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -257,8 +231,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
-          "signal": "Air Purifiers as White Noise Machines"
+          "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+          "signal": "AI use leads UC Berkeley math professor to see 'no point' in grading homework"
         }
       ],
       "content_ideas": []
@@ -318,36 +292,50 @@
       "content_ideas": []
     },
     {
-      "name": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
+      "best_format": "short",
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
-          "signal": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xf55vj/frontier_llms_can_now_basically_create_their_own/",
+          "signal": "Frontier LLMs can now basically create their own task-specific focused harness to hill climb any goal. Tested on Gemini 4 Argon."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xfd38p/wink_wink_gemini/",
+          "signal": "Wink, Wink 😉 Gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
+          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn",
+      "name": "Nikon photography contest winner loses title after scientists spot sig",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -361,7 +349,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -369,8 +357,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-          "signal": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist"
+          "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+          "signal": "Nikon photography contest winner loses title after scientists spot signs of AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "R/open source bans all solo projects and projects using LLMs",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+          "signal": "R/open source bans all solo projects and projects using LLMs"
         }
       ],
       "content_ideas": []
@@ -412,6 +427,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfapix/chatgpt_is_building_detailed_psychological/",
+          "signal": "ChatGPT Is Building Detailed Psychological Profiles of Its Users"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xezotv/asked_chatgpt_how_many_dumplings_are_on_the_table/",
           "signal": "Asked ChatGPT: How many dumplings are on the table?"
         },
@@ -424,17 +444,67 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xewgxd/my_chatgpt_dot_researches_jobs_relevant_for_me/",
           "signal": "My ChatGPT Dot researches jobs relevant for me and also applies to them"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xf55vj/frontier_llms_can_now_basically_create_their_own/",
+          "signal": "Frontier LLMs can now basically create their own task-specific focused harness to hill climb any goal. Tested on Gemini 4 Argon."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf0tot/my_chatgpt_chat_history_is_horrible/",
-          "signal": "My ChatGPT chat history is horrible"
+          "url": "https://www.reddit.com/r/singularity/comments/1xfd38p/wink_wink_gemini/",
+          "signal": "Wink, Wink 😉 Gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
+          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "If unlocking your card Lodestone recommends to lower your power limit.",
+      "who_affected": "r/StableDiffusion",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xf4gld/if_unlocking_your_card_lodestone_recommends_to/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Can we get a statemen from OpenAI on why we get banned from reverse engineering our owned products?",
       "who_affected": "r/ChatGPT",
@@ -443,6 +513,18 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xev2g9/can_we_get_a_statemen_from_openai_on_why_we_get/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "It turns our RTX 4090 is also software performance capped - AI is going to revolutionize software stack we were stuck at",
+      "who_affected": "r/StableDiffusion",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xe8799/it_turns_our_rtx_4090_is_also_software/"
         }
       ],
       "content_opportunity": ""
