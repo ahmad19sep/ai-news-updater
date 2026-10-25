@@ -33,10 +33,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xLUh4YjJRTXRpLU5xMnlLTkhXWjJtc2YtYVdMcE1IYVV6cmx5Snp3WGZraHlCSXhteWQzNjlKSW5XRUZCVTMza3N6NE43el9kODgxTG1fc19NM2xxVmNTRVl4ZjN4T0tHT1FvNVdUd0ZwR3JabGNCNkFxbWM4ZURfdmpFeDZwVng5ZWU1RmxmeWR5ZWVCZlVXY0hr?oc=5
 4. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 67
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTDZNXy1xaXE1MU03V1p2Z0tPc0RDSXB1QU5wV21Sdjc4NUthSVBLdU5uS1hjQVVVUGEtLXJObGZ5bExGOWYyZVJZbnRkWXdycHlpUXcxMy1ZQmFGd0Y1TFBLaXRKa3Z6MGZNWEphYVphYWpONTM0dWFBS20xUXVnYTYxRGRWaVYwX0FKa3RNSmFjZk1ublJMMjdzTGxfczEzd3BIT0hyRGNuMVNnWEtBdm5mV19iQXBlNW9jeVBqQ213SDVzenhlZ0JnbDE3RUht?oc=5
-5. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 66
-   https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
-6. **Microsoft working to reduce AI costs, expand ecosystem as global adoption rises: Satya Nadella - https://www.indiagazette.com/** — Satya Nadella News — Score 63
+5. **Microsoft working to reduce AI costs, expand ecosystem as global adoption rises: Satya Nadella - https://www.indiagazette.com/** — Satya Nadella News — Score 63
    https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRHlOQkZEQTR6S29oUjNZdGd5eGthb2lzb2RNS18zT2Q1SnFSaHg3NjBwbWJiRk5CVlR6aE80YWZlQU5EWjZ0NXpMUHdxdmlLQmxGRHlnbC14UENyR21TUUFqcnZEa3BWRjFnOFlDQzRaS09BcVpUcUVPaXRWWFlPMDIxbzNSUXVSZUwwNjRWblVnWlZpdEhrRTlPUGtrNkw1QlJFcUxWZTU5R0xnWmhwT3cwTnNVNng3UzhSZDR3TUc4VklOdlMyU05uNzVTVDVVcGc?oc=5
+6. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 63
+   https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
 7. **Scientist.com Launches Agentic AI Platform for Research Procurement - Yahoo Finance** — AI Agents — Score 53
    https://news.google.com/rss/articles/CBMingFBVV95cUxNek80WDV1Yk44OEpwZURKT1Yxb3Q4c3BsUjNYRV95b2pTN1h6SjFURHBXbFRMSDJvM0NMLTVnM21Iemk4dlZ6eVJpZFA2ZFNFaVhNb29fcHoxWU5vREdsRmhEeC1Ba3ZQUEl5a0lJTkI4eDRBa2Z5U1QyX2pDQmp4VHh2ZHVMM2taek5SalhqLUtYMl81bGM1ZDNzTVdNZw?oc=5
 8. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **How AI technology is giving ALS patients their voice back - www.investigatetv.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0lLQXlWVEYtYkpoYnQxd0U4dTgtaXpfS2hKTVJJSnF5MmFxb0tWdDVlMHVmNEdKZ3N3dGFERjBtZHoxbVZEekE3ZFAzUllGRlZYOF9mN1FuNXpCZU9KN2NSbGpweWRIV2Q4SEdHVndHZVRJUEtLZ012eE9qc3V2a1J0bGtSZi1ac1k1Nk9iTndOMjFfb0pRMENvSEl4bFVR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2738
+- Total stories tracked: 2730
 - Most active topic: agents
 - Busiest category: AI General News
 
