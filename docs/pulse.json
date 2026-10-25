@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:36:12.172619+00:00",
+  "generated_at": "2026-10-25T16:26:53.464578+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 32,
-      "hackernews": 18,
+      "reddit": 25,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,8 +45,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
+          "signal": "ChatGPT found my lost earbud"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xezotv/asked_chatgpt_how_many_dumplings_are_on_the_table/",
           "signal": "Asked ChatGPT: How many dumplings are on the table?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf4ij9/almost_every_viral_image_i_see_on_twitter_and/",
+          "signal": "Almost every viral image I see on Twitter and Reddit is ChatGPT generated"
         },
         {
           "platform": "reddit",
@@ -55,18 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xen0by/whats_the_most_helpful_thing_youve_gotten_chatgpt/",
-          "signal": "What’s the most helpful thing you’ve gotten ChatGPT to do for you?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xenmn9/how_many_of_you_knew_you_could_use_chatgpt_to/",
-          "signal": "How many of you knew you could use ChatGPT to create original mods and trainers for your games?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xehxkq/those_of_you_who_use_chatgpt_every_single_day/",
-          "signal": "Those of you who use ChatGPT every single day, what are you actually doing with it?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf0tot/my_chatgpt_chat_history_is_horrible/",
+          "signal": "My ChatGPT chat history is horrible"
         }
       ],
       "content_ideas": []
@@ -156,7 +156,7 @@
       "content_ideas": []
     },
     {
-      "name": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs ",
+      "name": "Broccoli2Shell: Brotli decoder RCE in Node.js, Python and more",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -176,8 +176,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-          "signal": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps"
+          "url": "https://broccoli2shell.com/",
+          "signal": "Broccoli2Shell: Brotli decoder RCE in Node.js, Python and more"
         }
       ],
       "content_ideas": []
@@ -205,6 +205,33 @@
           "platform": "hackernews",
           "url": "https://arxiv.org/abs/2610.29162",
           "signal": "Why is AI generated language so hard to understand?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Cerebras Deploys Trillion-Parameter AI Models",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+          "signal": "Cerebras Deploys Trillion-Parameter AI Models"
         }
       ],
       "content_ideas": []
@@ -259,33 +286,6 @@
           "platform": "hackernews",
           "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
           "signal": "Evolving Threat: http2shell is an RCE in Node, Python, and more"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Cerebras Deploys Trillion-Parameter AI Models",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "signal": "Cerebras Deploys Trillion-Parameter AI Models"
         }
       ],
       "content_ideas": []
@@ -407,8 +407,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
+          "signal": "ChatGPT found my lost earbud"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xezotv/asked_chatgpt_how_many_dumplings_are_on_the_table/",
           "signal": "Asked ChatGPT: How many dumplings are on the table?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf4ij9/almost_every_viral_image_i_see_on_twitter_and/",
+          "signal": "Almost every viral image I see on Twitter and Reddit is ChatGPT generated"
         },
         {
           "platform": "reddit",
@@ -417,18 +427,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xen0by/whats_the_most_helpful_thing_youve_gotten_chatgpt/",
-          "signal": "What’s the most helpful thing you’ve gotten ChatGPT to do for you?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xenmn9/how_many_of_you_knew_you_could_use_chatgpt_to/",
-          "signal": "How many of you knew you could use ChatGPT to create original mods and trainers for your games?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xehxkq/those_of_you_who_use_chatgpt_every_single_day/",
-          "signal": "Those of you who use ChatGPT every single day, what are you actually doing with it?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf0tot/my_chatgpt_chat_history_is_horrible/",
+          "signal": "My ChatGPT chat history is horrible"
         }
       ],
       "content_ideas": []
