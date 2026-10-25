@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:53:12.829954+00:00",
+  "generated_at": "2026-10-25T04:46:31.290572+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,13 +8,40 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 33,
-      "hackernews": 17,
+      "reddit": 25,
+      "hackernews": 19,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+          "signal": "Kimi K3.1 Pro and K3.1 Pro Highspeed"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -44,34 +71,34 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xen0by/whats_the_most_helpful_thing_youve_gotten_chatgpt/",
+          "signal": "What’s the most helpful thing you’ve gotten ChatGPT to do for you?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xehxkq/those_of_you_who_use_chatgpt_every_single_day/",
           "signal": "Those of you who use ChatGPT every single day, what are you actually doing with it?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5bq3/how_do_you_guys_get_chatgpt_to_stop_agreeing_with/",
-          "signal": "How do you guys get chatgpt to stop agreeing with everything you say?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xenmn9/how_many_of_you_knew_you_could_use_chatgpt_to/",
+          "signal": "How many of you knew you could use ChatGPT to create original mods and trainers for your games?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedq61/chatgpt_is_an_amazing_tutor/",
-          "signal": "ChatGPT is an amazing tutor"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xeqmeg/frutiger_metro_images_that_i_made_on_chatgpt/",
+          "signal": "Frutiger Metro images that i made on Chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
-          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedhus/chatgpt_has_good_days_and_bad_days/",
-          "signal": "ChatGPT has good days and bad days"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xerpiz/anime_edit_made_with_chatgpt/",
+          "signal": "Anime edit made with chatgpt"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "name": "No signs of AI payoff outside the tech sector",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -91,8 +118,38 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-          "signal": "Kimi K3.1 Pro and K3.1 Pro Highspeed"
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+          "signal": "No signs of AI payoff outside the tech sector"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "America has lost 200k of jobs in media, film and the arts. How much is",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+          "signal": "America has lost 200k of jobs in media, film and the arts. How much is AI?"
         }
       ],
       "content_ideas": []
@@ -110,7 +167,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -137,7 +194,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -152,7 +209,7 @@
       "content_ideas": []
     },
     {
-      "name": "No Signs of AI Payoff Outside the Tech Sector",
+      "name": "Why is AI generated language so hard to understand?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -164,7 +221,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -172,8 +229,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-          "signal": "No Signs of AI Payoff Outside the Tech Sector"
+          "url": "https://arxiv.org/abs/2610.29162",
+          "signal": "Why is AI generated language so hard to understand?"
         }
       ],
       "content_ideas": []
@@ -233,7 +290,7 @@
       "content_ideas": []
     },
     {
-      "name": "Why is AI generated language so hard to understand?",
+      "name": "Dream-1",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -245,7 +302,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -253,8 +310,57 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2610.29162",
-          "signal": "Why is AI generated language so hard to understand?"
+          "url": "https://dreamlabs.ai/research/dream-1/",
+          "signal": "Dream-1"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
+          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
+          "signal": "Anthropic Just Dropped Claude Duet (Full Breakdown)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=K8lVHiFnN2A",
+          "signal": "Unlimited Claude Code For Free (Runs On Your Computer)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EaGvl3Q4qak",
+          "signal": "🤯 FREE UNLIMITED Claude Code Alternative That Never Expires (No Ollama, No NIM)"
         }
       ],
       "content_ideas": []
@@ -284,106 +390,6 @@
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
           "signal": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Dream-1",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://dreamlabs.ai/research/dream-1/",
-          "signal": "Dream-1"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
-          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yt_BULiimg4",
-          "signal": "The Creator Who Mastered Claude: The New Way To Use AI To Build Tools &amp; Be Valuable (For Beginners)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
-          "signal": "Claude Makes a New Kind of Video - Full Tutorial"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=K8lVHiFnN2A",
-          "signal": "Unlimited Claude Code For Free (Runs On Your Computer)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-          "signal": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist"
         }
       ],
       "content_ideas": []
@@ -419,28 +425,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xen0by/whats_the_most_helpful_thing_youve_gotten_chatgpt/",
+          "signal": "What’s the most helpful thing you’ve gotten ChatGPT to do for you?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xehxkq/those_of_you_who_use_chatgpt_every_single_day/",
           "signal": "Those of you who use ChatGPT every single day, what are you actually doing with it?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5bq3/how_do_you_guys_get_chatgpt_to_stop_agreeing_with/",
-          "signal": "How do you guys get chatgpt to stop agreeing with everything you say?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xenmn9/how_many_of_you_knew_you_could_use_chatgpt_to/",
+          "signal": "How many of you knew you could use ChatGPT to create original mods and trainers for your games?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedq61/chatgpt_is_an_amazing_tutor/",
-          "signal": "ChatGPT is an amazing tutor"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xeqmeg/frutiger_metro_images_that_i_made_on_chatgpt/",
+          "signal": "Frutiger Metro images that i made on Chatgpt"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xe2zui/the_inconsistency_in_chatgpts_adult_content/",
-          "signal": "The inconsistency in ChatGPT’s adult content restrictions is ruining interactive storytelling."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xedhus/chatgpt_has_good_days_and_bad_days/",
-          "signal": "ChatGPT has good days and bad days"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xerpiz/anime_edit_made_with_chatgpt/",
+          "signal": "Anime edit made with chatgpt"
         }
       ],
       "content_ideas": []
@@ -448,7 +454,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -460,7 +466,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -473,36 +479,28 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yt_BULiimg4",
-          "signal": "The Creator Who Mastered Claude: The New Way To Use AI To Build Tools &amp; Be Valuable (For Beginners)"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
           "signal": "Claude Makes a New Kind of Video - Full Tutorial"
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
+          "signal": "Anthropic Just Dropped Claude Duet (Full Breakdown)"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=K8lVHiFnN2A",
           "signal": "Unlimited Claude Code For Free (Runs On Your Computer)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EaGvl3Q4qak",
+          "signal": "🤯 FREE UNLIMITED Claude Code Alternative That Never Expires (No Ollama, No NIM)"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Have you guys hit ChatGPT limits?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xeft66/have_you_guys_hit_chatgpt_limits/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "pain_points": [],
+  "tool_of_week_candidate": "Kimi K3.1 Pro and K3.1 Pro Highspeed — strongest signal this cycle"
 }
