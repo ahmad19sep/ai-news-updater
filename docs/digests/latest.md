@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
    https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 6. **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Herald-Voice** — science angle
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMUNUZ1ZNRzNLS3paMlBfSVNOS1hYMUJsalFwTHRqdTlta1JRSHR6RFRiMkNTN2oxWmRtWE1fU1pVMjN3bm9mMU9LS1ZqaDhlamZLTnQ2LUZlUWJyOHNkZzRNNUF3eFE3bFNhQmwzd0txVDRZcm5fZEpGeWZ5Y1l6Zzhyc2lQQ3JZOWkyOE4wcU1QTURYcHBmdm94RERwYVBKS044SE9Hc2gzTjNieVl5VTZ4R3FQSTFZ?oc=5
-7. **Microsoft AI tool beat generalist doctors at step-by-step diagnosis - The Next Web** — science angle
-   https://news.google.com/rss/articles/CBMifEFVX3lxTE92ekNwYThSXzFDaTJ4aElJeU1YMHNyMmNRSmFuYTJJMGowZXk2aGZncTdGSVBhT3hJYWR4RkJLYS16STNqRzRFU2Y2d0NMVE1Ua3g2c1NhQ1FBajk3a2tUSnVnZHR3X1YwbUJnQWNIdmxTMTB2VlEtbUJncTM?oc=5
-8. **😺 Microsoft AI scored 83% where doctors got 36% - The Neuron** — science angle
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxPUmxZVm5FSWtndkVFNmdCS1dYQmppYXladm9zd3dwenpVM0JEcXpfZFhPQVh6ZVd2SUFGQ2NtNWExZ0M0RnZGMlpHS2FqanVQcWc0U0xGOUhuNXBoTzBobTlsQnd1UDNGd1hSd1YyTnJrSllzUldsVkk5ZEZFUnVvblNR?oc=5
+7. **Microsoft’s AI Diagnostic System Outperforms Generalist Doctors on Complex Cases, Science Study Finds - AI Insider** — science angle
+   https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcXVOY1RMbGU3TGR5MEZLcVVKaEJBeVIzV2RaR3JKTUtKSmdONW9WeWQ3aUVRWDdxTzdlVXp0NzV3LXI1dGpEMThRM3F3WmRISnpiVU9sd0JjaWVSY3czdWJvajBEWGRfNUpzQzdoSUE4aEFEdzFzbWUzTXV3bF9SMDR3a2V1NkpWamEzcmpWNjBvbkRLV3lIaVI2cFNWLWdSWnViR1Q5NDUxRDBFTUhPOE9sN1c0WmZMNlg1ME5JMEQ5TjM0akpxQVAtNE51UEt1VzZV?oc=5
+8. **Microsoft’s AI doctor outperforms humans in new study - MedWatch** — science angle
+   https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qOUxpM01mNFdfNV9xVHpqVG9CS1hHNVJvZHVXQUJMVkFLT3pGWEY2a0xMSENBMTB5czFlSkdvTDB2ekxHSEs4M2t0Mjdka0xTU1cyRi1zWE1sNmJGT3FoSkNzblZDcWtu?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic Commits 5% of Its Shares to New Public Benefit Fund - Unite.AI** — Anthropic News — Score 140
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTBIb0xWNzVnc
 - **How AI technology is giving ALS patients their voice back - www.investigatetv.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0lLQXlWVEYtYkpoYnQxd0U4dTgtaXpfS2hKTVJJSnF5MmFxb0tWdDVlMHVmNEdKZ3N3dGFERjBtZHoxbVZEekE3ZFAzUllGRlZYOF9mN1FuNXpCZU9KN2NSbGpweWRIV2Q4SEdHVndHZVRJUEtLZ012eE9qc3V2a1J0bGtSZi1ac1k1Nk9iTndOMjFfb0pRMENvSEl4bFVR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2730
+- Total stories tracked: 2759
 - Most active topic: agents
 - Busiest category: AI General News
 
