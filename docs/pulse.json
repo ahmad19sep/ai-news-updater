@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:56:18.531825+00:00",
+  "generated_at": "2026-10-26T04:52:07.625917+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,7 +8,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 75,
+      "reddit": 50,
       "hackernews": 18,
       "youtube": 106
     },
@@ -22,16 +22,15 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -65,8 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xewgxd/my_chatgpt_dot_researches_jobs_relevant_for_me/",
-          "signal": "My ChatGPT Dot researches jobs relevant for me and also applies to them"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfi8vo/chatgpt_image_25_is_catching_up_to_midjourney_imo/",
+          "signal": "ChatGPT Image 2.5 is catching up to Midjourney IMO"
         }
       ],
       "content_ideas": []
@@ -156,6 +155,34 @@
       "content_ideas": []
     },
     {
+      "name": "AI use leads UC Berkeley math professor to see 'no point' in grading h",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+          "signal": "AI use leads UC Berkeley math professor to see 'no point' in grading homework"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Cerebras Deploys Trillion-Parameter AI Models",
       "category": "use_case",
       "momentum": "rising",
@@ -210,61 +237,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI use leads UC Berkeley math professor to see 'no point' in grading h",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-          "signal": "AI use leads UC Berkeley math professor to see 'no point' in grading homework"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
-          "signal": "Evolving Threat: http2shell is an RCE in Node, Python, and more"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Dream-1",
       "category": "use_case",
       "momentum": "rising",
@@ -287,49 +259,6 @@
           "platform": "hackernews",
           "url": "https://dreamlabs.ai/research/dream-1/",
           "signal": "Dream-1"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1xf55vj/frontier_llms_can_now_basically_create_their_own/",
-          "signal": "Frontier LLMs can now basically create their own task-specific focused harness to hill climb any goal. Tested on Gemini 4 Argon."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1xfd38p/wink_wink_gemini/",
-          "signal": "Wink, Wink 😉 Gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -389,6 +318,62 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Imagine an AI future where being banned means you are now economically",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+          "signal": "Imagine an AI future where being banned means you are now economically useless"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+          "signal": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -399,16 +384,15 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -442,51 +426,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xewgxd/my_chatgpt_dot_researches_jobs_relevant_for_me/",
-          "signal": "My ChatGPT Dot researches jobs relevant for me and also applies to them"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1xf55vj/frontier_llms_can_now_basically_create_their_own/",
-          "signal": "Frontier LLMs can now basically create their own task-specific focused harness to hill climb any goal. Tested on Gemini 4 Argon."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/singularity/comments/1xfd38p/wink_wink_gemini/",
-          "signal": "Wink, Wink 😉 Gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3aTphmuUadE",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfi8vo/chatgpt_image_25_is_catching_up_to_midjourney_imo/",
+          "signal": "ChatGPT Image 2.5 is catching up to Midjourney IMO"
         }
       ],
       "content_ideas": []
@@ -508,23 +449,11 @@
     {
       "problem": "Can we get a statemen from OpenAI on why we get banned from reverse engineering our owned products?",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xev2g9/can_we_get_a_statemen_from_openai_on_why_we_get/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "It turns our RTX 4090 is also software performance capped - AI is going to revolutionize software stack we were stuck at",
-      "who_affected": "r/StableDiffusion",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xe8799/it_turns_our_rtx_4090_is_also_software/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xev2g9/can_we_get_a_statemen_from_openai_on_why_we_get/"
         }
       ],
       "content_opportunity": ""
