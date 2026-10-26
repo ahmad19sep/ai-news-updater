@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 18 Oct 2026 to 25 Oct 2026
+# 🗞️ AI THIS WEEK — 19 Oct 2026 to 26 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won’t replace heavy industry - NEWS10 ABC**
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWE1naVBfcVpNU
 - **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2779
+- Total stories tracked: 2800
 - Most active topic: agents
 - Busiest category: AI General News
 
