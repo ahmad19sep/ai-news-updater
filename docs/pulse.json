@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:52:07.625917+00:00",
+  "generated_at": "2026-10-26T13:10:11.412465+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -44,6 +44,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfuxnl/not_a_controversial_opinion_chatgpt_plus_is_one/",
+          "signal": "Not a controversial opinion: ChatGPT Plus is one of the best subscriptions you can get."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
           "signal": "ChatGPT found my lost earbud"
         },
@@ -54,18 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xezotv/asked_chatgpt_how_many_dumplings_are_on_the_table/",
-          "signal": "Asked ChatGPT: How many dumplings are on the table?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfs4da/chatgpt_account_deactivated_after_uploading_a/",
+          "signal": "ChatGPT account deactivated after uploading a university past paper: appeal rejected, looking for a way to request human review"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf4ij9/almost_every_viral_image_i_see_on_twitter_and/",
-          "signal": "Almost every viral image I see on Twitter and Reddit is ChatGPT generated"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfi8vo/chatgpt_image_25_is_catching_up_to_midjourney_imo/",
-          "signal": "ChatGPT Image 2.5 is catching up to Midjourney IMO"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfolft/why_is_chatgpt_so_hated_in_other_groups/",
+          "signal": "Why is ChatGPT so hated in other groups?"
         }
       ],
       "content_ideas": []
@@ -128,28 +128,54 @@
       "content_ideas": []
     },
     {
-      "name": "Broccoli2Shell: Brotli decoder RCE in Node.js, Python and more",
-      "category": "use_case",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
+      "local_relevance": 4,
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://broccoli2shell.com/",
-          "signal": "Broccoli2Shell: Brotli decoder RCE in Node.js, Python and more"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
+          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
+          "signal": "Show us what you've created with Claude!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
+          "signal": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xftb0a/everyones_debloating_their_tv_with_claude_code_i/",
+          "signal": "Everyone's debloating their TV with Claude Code. I wanted mine debloated and beautiful, so we built a whole launcher"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfa39o/is_claude_the_least_yesman_llm/",
+          "signal": "is Claude the least \"yes-man\" LLM?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfee7m/ohuhhthanks_claude_was_not_expecting_that/",
+          "signal": "Oh...uhh...thanks Claude. Was not expecting that response to test my security, but it's appreciated!"
         }
       ],
       "content_ideas": []
@@ -332,7 +358,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -347,20 +373,18 @@
       "content_ideas": []
     },
     {
-      "name": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn",
+      "name": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
@@ -369,14 +393,67 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-          "signal": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist"
+          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+          "signal": "Cognitive Mercantilism: AI panic resembles fears of early capitalism"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
+          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
+          "signal": "Show us what you've created with Claude!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
+          "signal": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xftb0a/everyones_debloating_their_tv_with_claude_code_i/",
+          "signal": "Everyone's debloating their TV with Claude Code. I wanted mine debloated and beautiful, so we built a whole launcher"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfa39o/is_claude_the_least_yesman_llm/",
+          "signal": "is Claude the least \"yes-man\" LLM?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfee7m/ohuhhthanks_claude_was_not_expecting_that/",
+          "signal": "Oh...uhh...thanks Claude. Was not expecting that response to test my security, but it's appreciated!"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -406,6 +483,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfuxnl/not_a_controversial_opinion_chatgpt_plus_is_one/",
+          "signal": "Not a controversial opinion: ChatGPT Plus is one of the best subscriptions you can get."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
           "signal": "ChatGPT found my lost earbud"
         },
@@ -416,18 +498,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xezotv/asked_chatgpt_how_many_dumplings_are_on_the_table/",
-          "signal": "Asked ChatGPT: How many dumplings are on the table?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfs4da/chatgpt_account_deactivated_after_uploading_a/",
+          "signal": "ChatGPT account deactivated after uploading a university past paper: appeal rejected, looking for a way to request human review"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf4ij9/almost_every_viral_image_i_see_on_twitter_and/",
-          "signal": "Almost every viral image I see on Twitter and Reddit is ChatGPT generated"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfi8vo/chatgpt_image_25_is_catching_up_to_midjourney_imo/",
-          "signal": "ChatGPT Image 2.5 is catching up to Midjourney IMO"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfolft/why_is_chatgpt_so_hated_in_other_groups/",
+          "signal": "Why is ChatGPT so hated in other groups?"
         }
       ],
       "content_ideas": []
@@ -435,25 +512,25 @@
   ],
   "pain_points": [
     {
-      "problem": "If unlocking your card Lodestone recommends to lower your power limit.",
-      "who_affected": "r/StableDiffusion",
+      "problem": "Limits got at least halved?",
+      "who_affected": "r/ClaudeAI",
       "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xf4gld/if_unlocking_your_card_lodestone_recommends_to/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfs5q8/limits_got_at_least_halved/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Can we get a statemen from OpenAI on why we get banned from reverse engineering our owned products?",
+      "problem": "At this point OpenAI might as well remove the limits entirely",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xev2g9/can_we_get_a_statemen_from_openai_on_why_we_get/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfqvfp/at_this_point_openai_might_as_well_remove_the/"
         }
       ],
       "content_opportunity": ""
