@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:10:11.412465+00:00",
+  "generated_at": "2026-10-26T22:42:12.661516+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 50,
-      "hackernews": 18,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -21,6 +21,7 @@
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "reddit",
         "youtube"
@@ -38,6 +39,11 @@
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://github.com/FrigadeHQ/hob",
+          "signal": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
+        },
+        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
@@ -49,6 +55,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xg3j0c/if_youre_wondering_why_chatgpts_edits_are/",
+          "signal": "If you're wondering why ChatGPT's edits are suddenly all identical..."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
           "signal": "ChatGPT found my lost earbud"
         },
@@ -56,43 +67,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xfapix/chatgpt_is_building_detailed_psychological/",
           "signal": "ChatGPT Is Building Detailed Psychological Profiles of Its Users"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfs4da/chatgpt_account_deactivated_after_uploading_a/",
-          "signal": "ChatGPT account deactivated after uploading a university past paper: appeal rejected, looking for a way to request human review"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfolft/why_is_chatgpt_so_hated_in_other_groups/",
-          "signal": "Why is ChatGPT so hated in other groups?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "No signs of AI payoff outside the tech sector",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-          "signal": "No signs of AI payoff outside the tech sector"
         }
       ],
       "content_ideas": []
@@ -132,15 +106,17 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "explainer",
-      "best_format": "short",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -159,23 +135,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfz6oa/csection_animation_claude_opus_55_vs_gpt6_astra/",
+          "signal": "C-section animation: Claude Opus 5.5 vs GPT-6 Astra. Same prompt, different results."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
+          "signal": "Claude throwing punches out here"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1mov/i_built_a_mod_with_claude_that_turns_valheim_into/",
+          "signal": "I built a mod with Claude that turns Valheim into a city builder. It hit #1 on r/valheim"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
           "signal": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xftb0a/everyones_debloating_their_tv_with_claude_code_i/",
-          "signal": "Everyone's debloating their TV with Claude Code. I wanted mine debloated and beautiful, so we built a whole launcher"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfa39o/is_claude_the_least_yesman_llm/",
-          "signal": "is Claude the least \"yes-man\" LLM?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfee7m/ohuhhthanks_claude_was_not_expecting_that/",
-          "signal": "Oh...uhh...thanks Claude. Was not expecting that response to test my security, but it's appreciated!"
         }
       ],
       "content_ideas": []
@@ -236,7 +212,7 @@
       "content_ideas": []
     },
     {
-      "name": "Why is AI generated language so hard to understand?",
+      "name": "Brown student maps the hidden global labor powering AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -248,7 +224,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -256,14 +232,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2610.29162",
-          "signal": "Why is AI generated language so hard to understand?"
+          "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+          "signal": "Brown student maps the hidden global labor powering AI"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Dream-1",
+      "name": "Concerning behavior from a popular open-weight AI model",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -275,7 +251,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -283,8 +259,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://dreamlabs.ai/research/dream-1/",
-          "signal": "Dream-1"
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "signal": "Concerning behavior from a popular open-weight AI model"
         }
       ],
       "content_ideas": []
@@ -304,7 +280,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -346,6 +322,60 @@
       "content_ideas": []
     },
     {
+      "name": "A mathematician reads the AI future",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+          "signal": "A mathematician reads the AI future"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+          "signal": "Cognitive Mercantilism: AI panic resembles fears of early capitalism"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Imagine an AI future where being banned means you are now economically",
       "category": "use_case",
       "momentum": "rising",
@@ -371,33 +401,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-          "signal": "Cognitive Mercantilism: AI panic resembles fears of early capitalism"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -405,59 +408,6 @@
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
-      "platforms": [
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
-          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
-          "signal": "Show us what you've created with Claude!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
-          "signal": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xftb0a/everyones_debloating_their_tv_with_claude_code_i/",
-          "signal": "Everyone's debloating their TV with Claude Code. I wanted mine debloated and beautiful, so we built a whole launcher"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfa39o/is_claude_the_least_yesman_llm/",
-          "signal": "is Claude the least \"yes-man\" LLM?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfee7m/ohuhhthanks_claude_was_not_expecting_that/",
-          "signal": "Oh...uhh...thanks Claude. Was not expecting that response to test my security, but it's appreciated!"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -478,6 +428,67 @@
       "sources": [
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
+          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
+          "signal": "Show us what you've created with Claude!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfz6oa/csection_animation_claude_opus_55_vs_gpt6_astra/",
+          "signal": "C-section animation: Claude Opus 5.5 vs GPT-6 Astra. Same prompt, different results."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
+          "signal": "Claude throwing punches out here"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1mov/i_built_a_mod_with_claude_that_turns_valheim_into/",
+          "signal": "I built a mod with Claude that turns Valheim into a city builder. It hit #1 on r/valheim"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
+          "signal": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/FrigadeHQ/hob",
+          "signal": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
@@ -488,6 +499,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xg3j0c/if_youre_wondering_why_chatgpts_edits_are/",
+          "signal": "If you're wondering why ChatGPT's edits are suddenly all identical..."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
           "signal": "ChatGPT found my lost earbud"
         },
@@ -495,16 +511,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xfapix/chatgpt_is_building_detailed_psychological/",
           "signal": "ChatGPT Is Building Detailed Psychological Profiles of Its Users"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfs4da/chatgpt_account_deactivated_after_uploading_a/",
-          "signal": "ChatGPT account deactivated after uploading a university past paper: appeal rejected, looking for a way to request human review"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfolft/why_is_chatgpt_so_hated_in_other_groups/",
-          "signal": "Why is ChatGPT so hated in other groups?"
         }
       ],
       "content_ideas": []
@@ -524,13 +530,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "At this point OpenAI might as well remove the limits entirely",
+      "problem": "I cannot view my own cosplay, but intestines spreading across the ground is fine.",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfqvfp/at_this_point_openai_might_as_well_remove_the/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfzrrv/i_cannot_view_my_own_cosplay_but_intestines/"
         }
       ],
       "content_opportunity": ""
