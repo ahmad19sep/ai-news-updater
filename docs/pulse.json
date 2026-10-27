@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:17:11.503047+00:00",
+  "generated_at": "2026-10-27T22:17:51.897799+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 25,
+      "reddit": 25,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -30,8 +30,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -50,84 +50,29 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgomn3/chatgpts_trusted_contact_feature_made_me_realise/",
-          "signal": "ChatGPT’s Trusted Contact feature made me realise how lonely I actually am"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh1hut/openai_named_it_chatgpt_specifically_to_make/",
+          "signal": "OpenAI named it “ChatGPT” specifically to make French speakers say “I farted” every time they use it"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgcvrr/what_happened_to_chatgpt_today/",
-          "signal": "What happened to ChatGPT today?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgz5zq/has_anybody_noticed_that_chatgpt_sometimes_says/",
+          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\"... And then the \"clarification\" turns out to be completely and fully in line with the question? Why does it do it?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfuxnl/not_a_controversial_opinion_chatgpt_plus_is_one/",
-          "signal": "Not a controversial opinion: ChatGPT Plus is one of the best subscriptions you can get."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh0h5k/icloud_mail_calendar_plugins_are_now_available_in/",
+          "signal": "iCloud Mail & Calendar Plugins Are Now Available in ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgojlx/chatgpt_can_make_wordpress_plugins/",
-          "signal": "ChatGPT can make WordPress plugins"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzhyd/has_anyone_used_chatgpt_to_help_make_a_bit_of/",
+          "signal": "Has anyone used ChatGPT to help make a bit of extra money?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
-          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
-          "signal": "Show us what you've created with Claude!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
-          "signal": "Claude throwing punches out here"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgimyc/since_the_screen_cracked_claude_helps_fit_the/",
-          "signal": "Since the screen cracked, Claude helps fit the window into the normal area."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgdi6i/i_feel_like_such_an_idiot_for_not_using_claude/",
-          "signal": "I feel like such an idiot for not using Claude sooner"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfz6oa/csection_animation_claude_opus_55_vs_gpt6_astra/",
-          "signal": "C-section animation: Claude Opus 5.5 vs GPT-6 Astra. Same prompt, different results."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI use leads UC Berkeley math professor to see 'no point' in grading h",
+      "name": "AI promised less work. I've never worked more",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -148,8 +93,89 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-          "signal": "AI use leads UC Berkeley math professor to see 'no point' in grading homework"
+          "url": "https://oioannou.com/blog/ai-promised-less-work/",
+          "signal": "AI promised less work. I've never worked more"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The Mythical Man-Month in the Age of AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+          "signal": "The Mythical Man-Month in the Age of AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wikipedia's Cleanup of AI-Generated Content",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+          "signal": "Wikipedia's Cleanup of AI-Generated Content"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+          "signal": "Police are using AI to pull over drivers for 'suspicious' behavior"
         }
       ],
       "content_ideas": []
@@ -182,33 +208,6 @@
       "content_ideas": []
     },
     {
-      "name": "The Mythical Man-Month in the Age of AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-          "signal": "The Mythical Man-Month in the Age of AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Brown student maps the hidden global labor powering AI",
       "category": "use_case",
       "momentum": "rising",
@@ -236,7 +235,7 @@
       "content_ideas": []
     },
     {
-      "name": "R/open source bans all solo projects and projects using LLMs",
+      "name": "Amazon Is Gutting Its AI Division After Sustained Failure",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -248,7 +247,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -256,18 +255,19 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
-          "signal": "R/open source bans all solo projects and projects using LLMs"
+          "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+          "signal": "Amazon Is Gutting Its AI Division After Sustained Failure"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "A mathematician reads the AI future",
+      "name": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 r",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -275,7 +275,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -283,8 +283,55 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
-          "signal": "A mathematician reads the AI future"
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "signal": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
+          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
+          "signal": "Anthropic Just Dropped Claude Duet (Full Breakdown)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=talxc-N7KqE",
+          "signal": "Claude Code for Free &amp; Unlimited (If You Set This Up Correctly)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
+          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2jv-YQgb-pU",
+          "signal": "Master Claude Before It’s Too Late! | Ashu Sir"
         }
       ],
       "content_ideas": []
@@ -317,35 +364,7 @@
       "content_ideas": []
     },
     {
-      "name": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 r",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-          "signal": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Imagine an AI future where being banned means you are now economically",
+      "name": "Classification of Finite Simple Groups Formalized in Lean",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -365,36 +384,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://twitter.com/boneGPT/status/2114035719853265264",
-          "signal": "Imagine an AI future where being banned means you are now economically useless"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI didn't cause the tech jobs bust, but it explains why there's no rec",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
-          "signal": "AI didn't cause the tech jobs bust, but it explains why there's no recovery"
+          "url": "https://cfsg.axiommath.ai/",
+          "signal": "Classification of Finite Simple Groups Formalized in Lean"
         }
       ],
       "content_ideas": []
@@ -402,64 +393,9 @@
   ],
   "rising_tools": [
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
-          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
-          "signal": "Show us what you've created with Claude!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
-          "signal": "Claude throwing punches out here"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgimyc/since_the_screen_cracked_claude_helps_fit_the/",
-          "signal": "Since the screen cracked, Claude helps fit the window into the normal area."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgdi6i/i_feel_like_such_an_idiot_for_not_using_claude/",
-          "signal": "I feel like such an idiot for not using Claude sooner"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfz6oa/csection_animation_claude_opus_55_vs_gpt6_astra/",
-          "signal": "C-section animation: Claude Opus 5.5 vs GPT-6 Astra. Same prompt, different results."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -471,8 +407,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -491,23 +427,70 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgomn3/chatgpts_trusted_contact_feature_made_me_realise/",
-          "signal": "ChatGPT’s Trusted Contact feature made me realise how lonely I actually am"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh1hut/openai_named_it_chatgpt_specifically_to_make/",
+          "signal": "OpenAI named it “ChatGPT” specifically to make French speakers say “I farted” every time they use it"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgcvrr/what_happened_to_chatgpt_today/",
-          "signal": "What happened to ChatGPT today?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgz5zq/has_anybody_noticed_that_chatgpt_sometimes_says/",
+          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\"... And then the \"clarification\" turns out to be completely and fully in line with the question? Why does it do it?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfuxnl/not_a_controversial_opinion_chatgpt_plus_is_one/",
-          "signal": "Not a controversial opinion: ChatGPT Plus is one of the best subscriptions you can get."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh0h5k/icloud_mail_calendar_plugins_are_now_available_in/",
+          "signal": "iCloud Mail & Calendar Plugins Are Now Available in ChatGPT"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgojlx/chatgpt_can_make_wordpress_plugins/",
-          "signal": "ChatGPT can make WordPress plugins"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzhyd/has_anyone_used_chatgpt_to_help_make_a_bit_of/",
+          "signal": "Has anyone used ChatGPT to help make a bit of extra money?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
+          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
+          "signal": "Anthropic Just Dropped Claude Duet (Full Breakdown)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=talxc-N7KqE",
+          "signal": "Claude Code for Free &amp; Unlimited (If You Set This Up Correctly)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
+          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2jv-YQgb-pU",
+          "signal": "Master Claude Before It’s Too Late! | Ashu Sir"
         }
       ],
       "content_ideas": []
@@ -515,25 +498,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Limits got at least halved?",
-      "who_affected": "r/ClaudeAI",
+      "problem": "ChatGPT Can't Or Won't Learn From Its Mistakes",
+      "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfs5q8/limits_got_at_least_halved/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Anyone else get phantom pain when Claude limits run out?",
-      "who_affected": "r/ClaudeAI",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgotp0/anyone_else_get_phantom_pain_when_claude_limits/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzes6/chatgpt_cant_or_wont_learn_from_its_mistakes/"
         }
       ],
       "content_opportunity": ""
