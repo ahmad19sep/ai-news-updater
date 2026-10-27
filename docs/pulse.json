@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:42:12.661516+00:00",
+  "generated_at": "2026-10-27T05:10:17.657488+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 24,
+      "reddit": 25,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -23,6 +23,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -55,103 +56,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgcvrr/what_happened_to_chatgpt_today/",
+          "signal": "What happened to ChatGPT today?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xg5qjw/what_do_you_guys_actually_use_chatgpt_plus_for/",
+          "signal": "What do you guys actually use ChatGPT Plus for outside of work?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xg3j0c/if_youre_wondering_why_chatgpts_edits_are/",
           "signal": "If you're wondering why ChatGPT's edits are suddenly all identical..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
-          "signal": "ChatGPT found my lost earbud"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfapix/chatgpt_is_building_detailed_psychological/",
-          "signal": "ChatGPT Is Building Detailed Psychological Profiles of Its Users"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "America has lost 200k of jobs in media, film and the arts. How much is",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-          "signal": "America has lost 200k of jobs in media, film and the arts. How much is AI?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
-          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
-          "signal": "Show us what you've created with Claude!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfz6oa/csection_animation_claude_opus_55_vs_gpt6_astra/",
-          "signal": "C-section animation: Claude Opus 5.5 vs GPT-6 Astra. Same prompt, different results."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
-          "signal": "Claude throwing punches out here"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1mov/i_built_a_mod_with_claude_that_turns_valheim_into/",
-          "signal": "I built a mod with Claude that turns Valheim into a city builder. It hit #1 on r/valheim"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
-          "signal": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up."
         }
       ],
       "content_ideas": []
@@ -185,7 +101,7 @@
       "content_ideas": []
     },
     {
-      "name": "Cerebras Deploys Trillion-Parameter AI Models",
+      "name": "Concerning behavior from a popular open-weight AI model",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -197,7 +113,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -205,8 +121,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "signal": "Cerebras Deploys Trillion-Parameter AI Models"
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "signal": "Concerning behavior from a popular open-weight AI model"
         }
       ],
       "content_ideas": []
@@ -234,33 +150,6 @@
           "platform": "hackernews",
           "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
           "signal": "Brown student maps the hidden global labor powering AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Concerning behavior from a popular open-weight AI model",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-          "signal": "Concerning behavior from a popular open-weight AI model"
         }
       ],
       "content_ideas": []
@@ -401,64 +290,93 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "AI didn't cause the tech jobs bust, but it explains why there's no rec",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+          "signal": "AI didn't cause the tech jobs bust, but it explains why there's no recovery"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 r",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
-          "signal": "List of Latest Discussion Hubs on r/ClaudeAI"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc0tzw/show_us_what_youve_created_with_claude/",
-          "signal": "Show us what you've created with Claude!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfz6oa/csection_animation_claude_opus_55_vs_gpt6_astra/",
-          "signal": "C-section animation: Claude Opus 5.5 vs GPT-6 Astra. Same prompt, different results."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
-          "signal": "Claude throwing punches out here"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1mov/i_built_a_mod_with_claude_that_turns_valheim_into/",
-          "signal": "I built a mod with Claude that turns Valheim into a city builder. It hit #1 on r/valheim"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
-          "signal": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up."
+          "platform": "hackernews",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "signal": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "If AI displaces human workers, they will lose more than just pay",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
+          "signal": "If AI displaces human workers, they will lose more than just pay"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -467,6 +385,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -499,48 +418,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgcvrr/what_happened_to_chatgpt_today/",
+          "signal": "What happened to ChatGPT today?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xg5qjw/what_do_you_guys_actually_use_chatgpt_plus_for/",
+          "signal": "What do you guys actually use ChatGPT Plus for outside of work?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xg3j0c/if_youre_wondering_why_chatgpts_edits_are/",
           "signal": "If you're wondering why ChatGPT's edits are suddenly all identical..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xf17xz/chatgpt_found_my_lost_earbud/",
-          "signal": "ChatGPT found my lost earbud"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfapix/chatgpt_is_building_detailed_psychological/",
-          "signal": "ChatGPT Is Building Detailed Psychological Profiles of Its Users"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Limits got at least halved?",
-      "who_affected": "r/ClaudeAI",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfs5q8/limits_got_at_least_halved/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I cannot view my own cosplay, but intestines spreading across the ground is fine.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xfzrrv/i_cannot_view_my_own_cosplay_but_intestines/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
