@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
 - **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2855
+- Total stories tracked: 2844
 - Most active topic: agents
 - Busiest category: AI General News
 
