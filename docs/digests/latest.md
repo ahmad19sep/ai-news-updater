@@ -33,18 +33,18 @@ All coverage: https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xL
    https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRHlOQkZEQTR6S29oUjNZdGd5eGthb2lzb2RNS18zT2Q1SnFSaHg3NjBwbWJiRk5CVlR6aE80YWZlQU5EWjZ0NXpMUHdxdmlLQmxGRHlnbC14UENyR21TUUFqcnZEa3BWRjFnOFlDQzRaS09BcVpUcUVPaXRWWFlPMDIxbzNSUXVSZUwwNjRWblVnWlZpdEhrRTlPUGtrNkw1QlJFcUxWZTU5R0xnWmhwT3cwTnNVNng3UzhSZDR3TUc4VklOdlMyU05uNzVTVDVVcGc?oc=5
 4. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 63
    https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
-5. **Scientist.com Launches Agentic AI Platform for Research Procurement - Yahoo Finance** — AI Agents — Score 53
+5. **Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - NewsNation** — Dario Amodei News — Score 56
+   https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drTmE0MmxOb3F0OFpkOGNxcHJpOExnYWZadVFNVno1dHMzSjhUR3NqZ21nYXFvWjE3YTNtMEtNQ3g1RGN0UkJ4Yk5LbmJHaUdJNjNZZmlzQm9TeEJLSTBFY3lJQVdiYWZtNkVZOFQ5djVzY1loWU5LcWFIaDdRaUh5UmxJcnBaUDUyZVVSTjhoUDFKdVJnbEI1M09QODVHazQwWkZhYlByQnlvTUtKR3EyU01oaGhGb3JkLXFUR1d3cjVkRTdYSGtXbmdLN0lOR1NjY2NpOG1IcnVpWlJJUdIB6wFBVV95cUxNdHhfWlR4UWxsVTV5cUxQVDdnNUM0MGFRZTE4aF9HVWpKQTFRbUdpLWt2S2RfbDhhaXJBalV6dks2LWx4RjNxNV9jcjFNaGljTDBlTzRBTVdsSjJIU3JwaWlZU21OUGJyMEgzc2pVXzVyMFRzZmtoa3ZYekxYR3VDX1NWTmRFUnJ0VFBfUGxYd3pLRWw1U3RqRVRaUTZBV3ljQTMxZThRbGJVcnVvUjlhYVVkX3JJUHF5eWVLM2Q5cWZXZDZYa2RNU3ZEcHN2bHRiVjcwaXFwZkVSWE9YSVdNQ3Y5UHNOcC1aa1ow?oc=5
+6. **Scientist.com Launches Agentic AI Platform for Research Procurement - Yahoo Finance** — AI Agents — Score 53
    https://news.google.com/rss/articles/CBMingFBVV95cUxNek80WDV1Yk44OEpwZURKT1Yxb3Q4c3BsUjNYRV95b2pTN1h6SjFURHBXbFRMSDJvM0NMLTVnM21Iemk4dlZ6eVJpZFA2ZFNFaVhNb29fcHoxWU5vREdsRmhEeC1Ba3ZQUEl5a0lJTkI4eDRBa2Z5U1QyX2pDQmp4VHh2ZHVMM2taek5SalhqLUtYMl81bGM1ZDNzTVdNZw?oc=5
-6. **Narmi Launches Microsoft 365 Copilot Connector, Bringing Customer Financial Data Securely into Existing Banking Workflows - Yahoo! Finance Canada** — Microsoft AI — Score 53
+7. **Narmi Launches Microsoft 365 Copilot Connector, Bringing Customer Financial Data Securely into Existing Banking Workflows - Yahoo! Finance Canada** — Microsoft AI — Score 53
    https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXc2TndpMnJveWV0bTJqVDNMd2s2dk9MQ1p2X0VrNGs5azZiTVh4SlN2clZqWlpxUElIdTVsb2NRYUc5eGJYaTgwZFAyS2R2cE11VHNmcklHaUhQWGVtdEMzN3hsRERBTWxxSVRVRjJzMDM2ZXdQVkJHcTZ0bGF2VGl5M3hHanBqVzhmMjlR?oc=5
-7. **Artificial intelligence giant Anthropic files papers to sell shares to the public for the first time - Orange County Register** — Dario Amodei News — Score 51
+8. **Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates - Boston Herald** — Microsoft AI — Score 53
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0duREdISXpBVFU3SEZoSkZ2cmk3OGNyd2NhVTgzSjVLdmp5YzNzam4wT1M4QU9TSmZPMzdJbTA1S3hfX2hYUmc3X2xOSjJldGJBSzR3UmN6SXRUcElEQ3VLWVRlZl9GMUVvWVRPSUxkTzQ5Wi13cS0xb19MTVZJTktETms4LVZNSU9Iak1qZDk?oc=5
+9. **Artificial intelligence giant Anthropic files papers to sell shares to the public for the first time - Orange County Register** — Dario Amodei News — Score 51
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQSUNWWmUtZTdaNFRvbUw0MUZaUzJZYjJPT0txMzhsUmxSb2xhaUtmZjhzS0pRT3RUR3F6UXpfb19EV2xOSjZJYU9wVE1paHFkdHo4LTc4Vmp1R2d6STV3NEJuVjJyMlpmVi1yMUMwc2YxZmhubXp5QWlnenpkc2lEZ0l4SFU?oc=5
-8. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
+10. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWNtdlhaREJOdlJaRUNUT3BxZ2tnMm5QOUpyakJFeXB5b2tsWkRvWThjbFVHblJNYUJjYW1hR181Y3RpalZqUjljcTB0dXJKTjhvTy1aSFpNUkFVSk1GTEJiS2R1UWRTVUUxVFp2c1VLd0tENnFnRTlyREprZVZIMWNJeV9mOWZ3X0hpU3pmbkc5X1B0M0xrVFd2d0ktNExwMFJuSEZJNTg?oc=5
-9. **Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot - Yahoo** — Microsoft AI — Score 50
-   https://news.google.com/rss/articles/CBMiogFBVV95cUxQRlp4OE5aTFVlb21aR0dkS0xiSFd3ckZOT0VhYzR1dVlld0NhX1Q3TWZTWmVJcHJZQUhwbXZSc1dqak9odnF1UGFDRFJYR21FY1d4Mk03VjNtYXpTdmZoMGdhNFc0RWpwLXR1RWFZbmtva0tTRzdfbG45VTJHR1lFUTdKRGdWUVc1Ri10WlJXV05zV013Zl9SVnZoTy1JUGNqWHc?oc=5
-10. **Nuix launches agentic AI capability in Nuix Neo with audit trail - Australian Cyber Security Magazine** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxNYnNVc3doY3pyT1BMN2dsNy1nTUlFeDJOVXM3NEIzVjJCNlkta1dOY2hDdDZmdWN0bUxtLWstVWhsd3hJZUlGRWl5elRKNi1EV1g0WUgza2NKaHlZU255aFZfYTgtVU1OcEhKQ1ljMmhRbHpwU2YzUGRoa2s4Yk9VanljbGtXU0NCTjVGbE5ROUhxNkF4a0V4OGxIbW5zbHlZeWllSE54blpsdkhXMFhuMS1R?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Microsoft says its AI tool is better than doctors at diagnosing conditions - The Verge** — https://news.google.com/rss/articles/CBMi0gFBVV95cUxOamtUNVg3S1hZVlF1RGZ4akg3NThwTERFbWpQaUcyMmQ1LVdXM21CYU1mbUhEd28tS2ZicXp1TTBwUlB5Q0xtZllvdkl3WW5sdFZrUXdYRHV4Sk10X3pMWXpBYWhsT1ljQ3BRLUZ3ZXpXeElFX2VqWXRjcm9NYV9vU3hTb1NZM0tCNTJLNnBNaW5XVTJTd2ZyNkxpYlQ4aFpUZDc3MXBmUzZySkdRa0drQnZVdDBqcmc0aUl4QnpaUkRGYUE0UnQzMHdZMVpGRmRuWmc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVJnQzNVSG9xL
 - **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2823
+- Total stories tracked: 2789
 - Most active topic: agents
 - Busiest category: AI General News
 
