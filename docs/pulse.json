@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T05:46:35.791350+00:00",
+  "generated_at": "2026-10-28T12:59:52.502694+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": null
@@ -30,8 +30,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -42,6 +42,11 @@
           "platform": "hackernews",
           "url": "https://github.com/FrigadeHQ/hob",
           "signal": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
         },
         {
           "platform": "reddit",
@@ -55,18 +60,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh9q92/has_anybody_noticed_that_chatgpt_sometimes_says/",
-          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\" And the clarification is"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
-          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhl83p/chatgpt_used_my_own_monthold_comment_as_a_source/",
+          "signal": "ChatGPT used my own month-old comment as a source in my conversation"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgz5zq/has_anybody_noticed_that_chatgpt_sometimes_says/",
-          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\"... And then the \"clarification\" turns out to be completely and fully in line with the question? Why does it do it?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhg0yw/is_chatgpt_getting_dumber/",
+          "signal": "Is ChatGPT getting dumber?"
         }
       ],
       "content_ideas": []
@@ -208,6 +208,33 @@
       "content_ideas": []
     },
     {
+      "name": "Survival LLM: AI assistant and emergency library that runs on your own",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.brangus.io/survival-llm",
+          "signal": "Survival LLM: AI assistant and emergency library that runs on your own computer"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Concerning behavior from a popular open-weight AI model",
       "category": "use_case",
       "momentum": "rising",
@@ -235,7 +262,7 @@
       "content_ideas": []
     },
     {
-      "name": "Survival LLM: AI assistant and emergency library that runs on your own",
+      "name": "Classification of Finite Simple Groups Formalized in Lean",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -247,7 +274,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -255,35 +282,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.brangus.io/survival-llm",
-          "signal": "Survival LLM: AI assistant and emergency library that runs on your own computer"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Brown student maps the hidden global labor powering AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
-          "signal": "Brown student maps the hidden global labor powering AI"
+          "url": "https://cfsg.axiommath.ai/",
+          "signal": "Classification of Finite Simple Groups Formalized in Lean"
         }
       ],
       "content_ideas": []
@@ -317,18 +317,20 @@
       "content_ideas": []
     },
     {
-      "name": "Classification of Finite Simple Groups Formalized in Lean",
+      "name": "Artificial Analysis Intelligence Index v5",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
@@ -337,8 +339,13 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://cfsg.axiommath.ai/",
-          "signal": "Classification of Finite Simple Groups Formalized in Lean"
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "signal": "Artificial Analysis Intelligence Index v5"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "signal": "Artificial Analysis Intelligence Index v5.0"
         }
       ],
       "content_ideas": []
@@ -387,8 +394,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -399,6 +406,11 @@
           "platform": "hackernews",
           "url": "https://github.com/FrigadeHQ/hob",
           "signal": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
         },
         {
           "platform": "reddit",
@@ -412,18 +424,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh9q92/has_anybody_noticed_that_chatgpt_sometimes_says/",
-          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\" And the clarification is"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
-          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhl83p/chatgpt_used_my_own_monthold_comment_as_a_source/",
+          "signal": "ChatGPT used my own month-old comment as a source in my conversation"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgz5zq/has_anybody_noticed_that_chatgpt_sometimes_says/",
-          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\"... And then the \"clarification\" turns out to be completely and fully in line with the question? Why does it do it?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhg0yw/is_chatgpt_getting_dumber/",
+          "signal": "Is ChatGPT getting dumber?"
         }
       ],
       "content_ideas": []
@@ -433,7 +440,7 @@
     {
       "problem": "Agents trying to fix the bug introduced by themselves be like:",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -443,13 +450,25 @@
       "content_opportunity": ""
     },
     {
-      "problem": "ChatGPT Can't Or Won't Learn From Its Mistakes",
+      "problem": "Two physicists asked AI to choose a problem on its own, solve it and write a paper that could be published in a prestigious journal. In two ",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzes6/chatgpt_cant_or_wont_learn_from_its_mistakes/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhitin/two_physicists_asked_ai_to_choose_a_problem_on/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "OpenAI shut down Sora, and after 3 months I still cannot verify or fully preserve my own historical data",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhl2ed/openai_shut_down_sora_and_after_3_months_i_still/"
         }
       ],
       "content_opportunity": ""
