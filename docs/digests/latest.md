@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 20 Oct 2026 to 27 Oct 2026
+# 🗞️ AI THIS WEEK — 21 Oct 2026 to 28 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - NewsNation**
@@ -27,14 +27,14 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - NewsNation** — Dario Amodei News — Score 76
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drTmE0MmxOb3F0OFpkOGNxcHJpOExnYWZadVFNVno1dHMzSjhUR3NqZ21nYXFvWjE3YTNtMEtNQ3g1RGN0UkJ4Yk5LbmJHaUdJNjNZZmlzQm9TeEJLSTBFY3lJQVdiYWZtNkVZOFQ5djVzY1loWU5LcWFIaDdRaUh5UmxJcnBaUDUyZVVSTjhoUDFKdVJnbEI1M09QODVHazQwWkZhYlByQnlvTUtKR3EyU01oaGhGb3JkLXFUR1d3cjVkRTdYSGtXbmdLN0lOR1NjY2NpOG1IcnVpWlJJUdIB6wFBVV95cUxNdHhfWlR4UWxsVTV5cUxQVDdnNUM0MGFRZTE4aF9HVWpKQTFRbUdpLWt2S2RfbDhhaXJBalV6dks2LWx4RjNxNV9jcjFNaGljTDBlTzRBTVdsSjJIU3JwaWlZU21OUGJyMEgzc2pVXzVyMFRzZmtoa3ZYekxYR3VDX1NWTmRFUnJ0VFBfUGxYd3pLRWw1U3RqRVRaUTZBV3ljQTMxZThRbGJVcnVvUjlhYVVkX3JJUHF5eWVLM2Q5cWZXZDZYa2RNU3ZEcHN2bHRiVjcwaXFwZkVSWE9YSVdNQ3Y5UHNOcC1aa1ow?oc=5
-2. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 67
-   https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTDZNXy1xaXE1MU03V1p2Z0tPc0RDSXB1QU5wV21Sdjc4NUthSVBLdU5uS1hjQVVVUGEtLXJObGZ5bExGOWYyZVJZbnRkWXdycHlpUXcxMy1ZQmFGd0Y1TFBLaXRKa3Z6MGZNWEphYVphYWpONTM0dWFBS20xUXVnYTYxRGRWaVYwX0FKa3RNSmFjZk1ublJMMjdzTGxfczEzd3BIT0hyRGNuMVNnWEtBdm5mV19iQXBlNW9jeVBqQ213SDVzenhlZ0JnbDE3RUht?oc=5
-3. **Microsoft working to reduce AI costs, expand ecosystem as global adoption rises: Satya Nadella - https://www.indiagazette.com/** — Satya Nadella News — Score 63
-   https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRHlOQkZEQTR6S29oUjNZdGd5eGthb2lzb2RNS18zT2Q1SnFSaHg3NjBwbWJiRk5CVlR6aE80YWZlQU5EWjZ0NXpMUHdxdmlLQmxGRHlnbC14UENyR21TUUFqcnZEa3BWRjFnOFlDQzRaS09BcVpUcUVPaXRWWFlPMDIxbzNSUXVSZUwwNjRWblVnWlZpdEhrRTlPUGtrNkw1QlJFcUxWZTU5R0xnWmhwT3cwTnNVNng3UzhSZDR3TUc4VklOdlMyU05uNzVTVDVVcGc?oc=5
-4. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 63
-   https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
-5. **Cohere says Alibaba’s Qwen model tried to send a file to Beijing - TechCrunch** — Cohere News — Score 60
+2. **Cohere says Alibaba’s Qwen model tried to send a file to Beijing - TechCrunch** — Cohere News — Score 70
    https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5
+3. **How Demis Hassabis Makes His Toughest Decisions - WSJ** — Demis Hassabis News — Score 67
+   https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTDZNXy1xaXE1MU03V1p2Z0tPc0RDSXB1QU5wV21Sdjc4NUthSVBLdU5uS1hjQVVVUGEtLXJObGZ5bExGOWYyZVJZbnRkWXdycHlpUXcxMy1ZQmFGd0Y1TFBLaXRKa3Z6MGZNWEphYVphYWpONTM0dWFBS20xUXVnYTYxRGRWaVYwX0FKa3RNSmFjZk1ublJMMjdzTGxfczEzd3BIT0hyRGNuMVNnWEtBdm5mV19iQXBlNW9jeVBqQ213SDVzenhlZ0JnbDE3RUht?oc=5
+4. **Microsoft working to reduce AI costs, expand ecosystem as global adoption rises: Satya Nadella - https://www.indiagazette.com/** — Satya Nadella News — Score 63
+   https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRHlOQkZEQTR6S29oUjNZdGd5eGthb2lzb2RNS18zT2Q1SnFSaHg3NjBwbWJiRk5CVlR6aE80YWZlQU5EWjZ0NXpMUHdxdmlLQmxGRHlnbC14UENyR21TUUFqcnZEa3BWRjFnOFlDQzRaS09BcVpUcUVPaXRWWFlPMDIxbzNSUXVSZUwwNjRWblVnWlZpdEhrRTlPUGtrNkw1QlJFcUxWZTU5R0xnWmhwT3cwTnNVNng3UzhSZDR3TUc4VklOdlMyU05uNzVTVDVVcGc?oc=5
+5. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 63
+   https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
 6. **Scientist.com Launches Agentic AI Platform for Research Procurement - Yahoo Finance** — AI Agents — Score 53
    https://news.google.com/rss/articles/CBMingFBVV95cUxNek80WDV1Yk44OEpwZURKT1Yxb3Q4c3BsUjNYRV95b2pTN1h6SjFURHBXbFRMSDJvM0NMLTVnM21Iemk4dlZ6eVJpZFA2ZFNFaVhNb29fcHoxWU5vREdsRmhEeC1Ba3ZQUEl5a0lJTkI4eDRBa2Z5U1QyX2pDQmp4VHh2ZHVMM2taek5SalhqLUtYMl81bGM1ZDNzTVdNZw?oc=5
 7. **Narmi Launches Microsoft 365 Copilot Connector, Bringing Customer Financial Data Securely into Existing Banking Workflows - Yahoo! Finance Canada** — Microsoft AI — Score 53
@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0duREdISXpBVFU3SEZoSkZ2cmk3OGNyd2NhVTgzSjVLdmp5YzNzam4wT1M4QU9TSmZPMzdJbTA1S3hfX2hYUmc3X2xOSjJldGJBSzR3UmN6SXRUcElEQ3VLWVRlZl9GMUVvWVRPSUxkTzQ5Wi13cS0xb19MTVZJTktETms4LVZNSU9Iak1qZDk?oc=5
 9. **Artificial intelligence giant Anthropic files papers to sell shares to the public for the first time - Orange County Register** — Dario Amodei News — Score 51
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQSUNWWmUtZTdaNFRvbUw0MUZaUzJZYjJPT0txMzhsUmxSb2xhaUtmZjhzS0pRT3RUR3F6UXpfb19EV2xOSjZJYU9wVE1paHFkdHo4LTc4Vmp1R2d6STV3NEJuVjJyMlpmVi1yMUMwc2YxZmhubXp5QWlnenpkc2lEZ0l4SFU?oc=5
-10. **Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ - TechCrunch** — Anthropic News — Score 50
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWNtdlhaREJOdlJaRUNUT3BxZ2tnMm5QOUpyakJFeXB5b2tsWkRvWThjbFVHblJNYUJjYW1hR181Y3RpalZqUjljcTB0dXJKTjhvTy1aSFpNUkFVSk1GTEJiS2R1UWRTVUUxVFp2c1VLd0tENnFnRTlyREprZVZIMWNJeV9mOWZ3X0hpU3pmbkc5X1B0M0xrVFd2d0ktNExwMFJuSEZJNTg?oc=5
+10. **Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot - Yahoo** — Microsoft AI — Score 50
+   https://news.google.com/rss/articles/CBMiogFBVV95cUxQRlp4OE5aTFVlb21aR0dkS0xiSFd3ckZOT0VhYzR1dVlld0NhX1Q3TWZTWmVJcHJZQUhwbXZSc1dqak9odnF1UGFDRFJYR21FY1d4Mk03VjNtYXpTdmZoMGdhNFc0RWpwLXR1RWFZbmtva0tTRzdfbG45VTJHR1lFUTdKRGdWUVc1Ri10WlJXV05zV013Zl9SVnZoTy1JUGNqWHc?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Microsoft says its AI tool is better than doctors at diagnosing conditions - The Verge** — https://news.google.com/rss/articles/CBMi0gFBVV95cUxOamtUNVg3S1hZVlF1RGZ4akg3NThwTERFbWpQaUcyMmQ1LVdXM21CYU1mbUhEd28tS2ZicXp1TTBwUlB5Q0xtZllvdkl3WW5sdFZrUXdYRHV4Sk10X3pMWXpBYWhsT1ljQ3BRLUZ3ZXpXeElFX2VqWXRjcm9NYV9vU3hTb1NZM0tCNTJLNnBNaW5XVTJTd2ZyNkxpYlQ4aFpUZDc3MXBmUzZySkdRa0drQnZVdDBqcmc0aUl4QnpaUkRGYUE0UnQzMHdZMVpGRmRuWmc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
 - **Can AI help doctors avoid missed diagnoses? A new study suggests yes - TAPinto** — https://news.google.com/rss/articles/CBMigwJBVV95cUxOWk9oUmJnXzdBMWRJd0tFZnRUeTFCWmJHa19vM0NQeXdvOTRWSmZLdWFRQVJpenRVU2lTVjFackptOUt4VEdXV2hYTHdTc0xKc05qcWVrVWhwaUhZWDFEcjhJNXZQWXVwVGxxMDktVGNsaDR6ay1GRkpWNTVBdXhQZGxWS0pNcGRaeFM4amFZbHNhck1wUy15RThPREtGS0Q3R0FWclc2X0dxSVFVRUoyMDdEZGNoSGJzaWRtUU9UTUNnemM2NmZyQW1yVWFFbUNnd0NhZ05HY2ZHWkNKZU5lT2tJTlJMWm9xVFVtRWE3S2lKQ1owS3JTMnBESy1oVFVLOFhF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2844
+- Total stories tracked: 2843
 - Most active topic: agents
 - Busiest category: AI General News
 
