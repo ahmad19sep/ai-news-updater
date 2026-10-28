@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:59:52.502694+00:00",
+  "generated_at": "2026-10-28T22:38:04.092977+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 27,
+      "reddit": 50,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -23,6 +23,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -40,11 +41,6 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/FrigadeHQ/hob",
-          "signal": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
-        },
-        {
-          "platform": "hackernews",
           "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
           "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
         },
@@ -55,18 +51,77 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhu06h/i_used_chatgpt_plus_to_build_an_executive/",
+          "signal": "I used ChatGPT Plus to build an executive function coaching system for my adult son. Here’s what we actually did."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi2b1c/they_just_merged_my_normal_chatgpt_with_chatgpt/",
+          "signal": "They just merged my normal ChatGPT with ChatGPT Work..."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhx338/chatgpt_analyzed_my_profile_and_it_went_insane/",
+          "signal": "ChatGPT analyzed my profile and it went insane"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xh1hut/openai_named_it_chatgpt_specifically_to_make/",
           "signal": "OpenAI named it “ChatGPT” specifically to make French speakers say “I farted” every time they use it"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "signal": "Gemini 4 Carbon"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhl83p/chatgpt_used_my_own_monthold_comment_as_a_source/",
-          "signal": "ChatGPT used my own month-old comment as a source in my conversation"
+          "url": "https://www.reddit.com/r/singularity/comments/1xhtwjm/gemini_4_carbon/",
+          "signal": "Gemini 4 Carbon"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhg0yw/is_chatgpt_getting_dumber/",
-          "signal": "Is ChatGPT getting dumber?"
+          "url": "https://www.reddit.com/r/singularity/comments/1xhyxxn/til_demis_hassabis_wanted_to_call_gemini_titan/",
+          "signal": "TIL Demis Hassabis wanted to call Gemini \"Titan\" but Google's lawyers thought it sounded too aggressive"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xhvh8s/gemini_carbon_arena_results/",
+          "signal": "Gemini Carbon Arena Results"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xhxsc4/since_it_will_take_so_long_until_we_will_see/",
+          "signal": "Since it will take so long until we will see Gemini 4 Carbon with abyssmal low usage"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -95,6 +150,33 @@
           "platform": "hackernews",
           "url": "https://oioannou.com/blog/ai-promised-less-work/",
           "signal": "AI promised less work. I've never worked more"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Kentucky man becomes the first humanist granted religious exemption fr",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+          "signal": "Kentucky man becomes the first humanist granted religious exemption from AI"
         }
       ],
       "content_ideas": []
@@ -154,6 +236,33 @@
       "content_ideas": []
     },
     {
+      "name": "Survival LLM: AI assistant and emergency library that runs on your own",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.brangus.io/survival-llm",
+          "signal": "Survival LLM: AI assistant and emergency library that runs on your own computer"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Police are using AI to pull over drivers for 'suspicious' behavior",
       "category": "use_case",
       "momentum": "rising",
@@ -208,19 +317,22 @@
       "content_ideas": []
     },
     {
-      "name": "Survival LLM: AI assistant and emergency library that runs on your own",
+      "name": "Artificial Analysis Intelligence Index v5",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
+      "best_format": "reel",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -228,35 +340,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.brangus.io/survival-llm",
-          "signal": "Survival LLM: AI assistant and emergency library that runs on your own computer"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Concerning behavior from a popular open-weight AI model",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "signal": "Artificial Analysis Intelligence Index v5"
+        },
         {
           "platform": "hackernews",
-          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-          "signal": "Concerning behavior from a popular open-weight AI model"
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "signal": "Artificial Analysis Intelligence Index v5.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xhc5kv/artificial_analysis_intelligence_index_v5_released/",
+          "signal": "Artificial Analysis Intelligence Index v5 released"
         }
       ],
       "content_ideas": []
@@ -289,7 +384,7 @@
       "content_ideas": []
     },
     {
-      "name": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 r",
+      "name": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -310,52 +405,22 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-          "signal": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)"
+          "url": "https://surgehq.ai/blog/dayjob-tax",
+          "signal": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments"
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
-      "name": "Artificial Analysis Intelligence Index v5",
-      "category": "use_case",
+      "name": "Gemini",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-          "signal": "Artificial Analysis Intelligence Index v5"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-          "signal": "Artificial Analysis Intelligence Index v5.0"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Introducing LFM3: Every Modality for Specialized Intelligence",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -363,22 +428,45 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.liquid.ai/blog/lfm3",
-          "signal": "Introducing LFM3: Every Modality for Specialized Intelligence"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "signal": "Gemini 4 Carbon"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xhtwjm/gemini_4_carbon/",
+          "signal": "Gemini 4 Carbon"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xhyxxn/til_demis_hassabis_wanted_to_call_gemini_titan/",
+          "signal": "TIL Demis Hassabis wanted to call Gemini \"Titan\" but Google's lawyers thought it sounded too aggressive"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xhvh8s/gemini_carbon_arena_results/",
+          "signal": "Gemini Carbon Arena Results"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1xhxsc4/since_it_will_take_so_long_until_we_will_see/",
+          "signal": "Since it will take so long until we will see Gemini 4 Carbon with abyssmal low usage"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -387,6 +475,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -404,11 +493,6 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/FrigadeHQ/hob",
-          "signal": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
-        },
-        {
-          "platform": "hackernews",
           "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
           "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
         },
@@ -419,18 +503,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhu06h/i_used_chatgpt_plus_to_build_an_executive/",
+          "signal": "I used ChatGPT Plus to build an executive function coaching system for my adult son. Here’s what we actually did."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi2b1c/they_just_merged_my_normal_chatgpt_with_chatgpt/",
+          "signal": "They just merged my normal ChatGPT with ChatGPT Work..."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhx338/chatgpt_analyzed_my_profile_and_it_went_insane/",
+          "signal": "ChatGPT analyzed my profile and it went insane"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xh1hut/openai_named_it_chatgpt_specifically_to_make/",
           "signal": "OpenAI named it “ChatGPT” specifically to make French speakers say “I farted” every time they use it"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhl83p/chatgpt_used_my_own_monthold_comment_as_a_source/",
-          "signal": "ChatGPT used my own month-old comment as a source in my conversation"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhg0yw/is_chatgpt_getting_dumber/",
-          "signal": "Is ChatGPT getting dumber?"
         }
       ],
       "content_ideas": []
@@ -438,37 +527,37 @@
   ],
   "pain_points": [
     {
-      "problem": "Agents trying to fix the bug introduced by themselves be like:",
+      "problem": "Troubleshooting: ChatGPT can't see images",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhd1yj/agents_trying_to_fix_the_bug_introduced_by/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhur5q/troubleshooting_chatgpt_cant_see_images/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Two physicists asked AI to choose a problem on its own, solve it and write a paper that could be published in a prestigious journal. In two ",
+      "problem": "ChatGPT is stuck in Work mode and I can't switch back to normal Chat",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhitin/two_physicists_asked_ai_to_choose_a_problem_on/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi2hln/chatgpt_is_stuck_in_work_mode_and_i_cant_switch/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "OpenAI shut down Sora, and after 3 months I still cannot verify or fully preserve my own historical data",
+      "problem": "A Message Bug",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhl2ed/openai_shut_down_sora_and_after_3_months_i_still/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi1xfe/a_message_bug/"
         }
       ],
       "content_opportunity": ""
