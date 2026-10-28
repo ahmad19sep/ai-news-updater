@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:17:51.897799+00:00",
+  "generated_at": "2026-10-28T05:46:35.791350+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 27,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -55,18 +55,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh9q92/has_anybody_noticed_that_chatgpt_sometimes_says/",
+          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\" And the clarification is"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xgz5zq/has_anybody_noticed_that_chatgpt_sometimes_says/",
           "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\"... And then the \"clarification\" turns out to be completely and fully in line with the question? Why does it do it?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh0h5k/icloud_mail_calendar_plugins_are_now_available_in/",
-          "signal": "iCloud Mail & Calendar Plugins Are Now Available in ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzhyd/has_anyone_used_chatgpt_to_help_make_a_bit_of/",
-          "signal": "Has anyone used ChatGPT to help make a bit of extra money?"
         }
       ],
       "content_ideas": []
@@ -181,6 +181,33 @@
       "content_ideas": []
     },
     {
+      "name": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+          "signal": "Amazon Is Gutting Its AI Division After Sustained Failure"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Concerning behavior from a popular open-weight AI model",
       "category": "use_case",
       "momentum": "rising",
@@ -208,6 +235,33 @@
       "content_ideas": []
     },
     {
+      "name": "Survival LLM: AI assistant and emergency library that runs on your own",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.brangus.io/survival-llm",
+          "signal": "Survival LLM: AI assistant and emergency library that runs on your own computer"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Brown student maps the hidden global labor powering AI",
       "category": "use_case",
       "momentum": "rising",
@@ -230,33 +284,6 @@
           "platform": "hackernews",
           "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
           "signal": "Brown student maps the hidden global labor powering AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-          "signal": "Amazon Is Gutting Its AI Division After Sustained Failure"
         }
       ],
       "content_ideas": []
@@ -290,80 +317,6 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
-          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
-          "signal": "Anthropic Just Dropped Claude Duet (Full Breakdown)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=talxc-N7KqE",
-          "signal": "Claude Code for Free &amp; Unlimited (If You Set This Up Correctly)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
-          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2jv-YQgb-pU",
-          "signal": "Master Claude Before It’s Too Late! | Ashu Sir"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-          "signal": "Cognitive Mercantilism: AI panic resembles fears of early capitalism"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Classification of Finite Simple Groups Formalized in Lean",
       "category": "use_case",
       "momentum": "rising",
@@ -376,7 +329,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -389,13 +342,40 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Introducing LFM3: Every Modality for Specialized Intelligence",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.liquid.ai/blog/lfm3",
+          "signal": "Introducing LFM3: Every Modality for Specialized Intelligence"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -432,71 +412,36 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh9q92/has_anybody_noticed_that_chatgpt_sometimes_says/",
+          "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\" And the clarification is"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xgz5zq/has_anybody_noticed_that_chatgpt_sometimes_says/",
           "signal": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\"... And then the \"clarification\" turns out to be completely and fully in line with the question? Why does it do it?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xh0h5k/icloud_mail_calendar_plugins_are_now_available_in/",
-          "signal": "iCloud Mail & Calendar Plugins Are Now Available in ChatGPT"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzhyd/has_anyone_used_chatgpt_to_help_make_a_bit_of/",
-          "signal": "Has anyone used ChatGPT to help make a bit of extra money?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9efRLbsrXz8",
-          "signal": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
-          "signal": "Anthropic Just Dropped Claude Duet (Full Breakdown)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=talxc-N7KqE",
-          "signal": "Claude Code for Free &amp; Unlimited (If You Set This Up Correctly)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
-          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2jv-YQgb-pU",
-          "signal": "Master Claude Before It’s Too Late! | Ashu Sir"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "Agents trying to fix the bug introduced by themselves be like:",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhd1yj/agents_trying_to_fix_the_bug_introduced_by/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "ChatGPT Can't Or Won't Learn From Its Mistakes",
       "who_affected": "r/ChatGPT",
@@ -505,18 +450,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzes6/chatgpt_cant_or_wont_learn_from_its_mistakes/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I never knew ChatGPT’s image generation has its own hidden limit which isn’t shown anywhere and you can’t tell how much you’ve used until a ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xgpxvf/i_never_knew_chatgpts_image_generation_has_its/"
         }
       ],
       "content_opportunity": ""
