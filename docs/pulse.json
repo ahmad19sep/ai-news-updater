@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:06:56.137932+00:00",
+  "generated_at": "2026-10-29T22:47:31.437966+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 25,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -20,8 +20,47 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
+        "instagram_inferred",
         "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "signal": "Gemini 4 Carbon"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -37,23 +76,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "signal": "Gemini 4 Carbon"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
-          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XuIAwnQUNZA",
-          "signal": "​3 Gemini Study Codes to Learn Faster 🎯#gemini # #studytips"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "signal": "We're releasing the weights of Mistral Large 4"
         }
       ],
       "content_ideas": []
@@ -64,9 +88,7 @@
       "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -74,8 +96,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -83,34 +105,34 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
-          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi2b1c/they_just_merged_my_normal_chatgpt_with_chatgpt/",
-          "signal": "They just merged my normal ChatGPT with ChatGPT Work..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xijqvz/is_claude_truly_better_than_chatgpt/",
+          "signal": "Is Claude truly better than ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xifh4r/claude_max_5x_vs_chatgpt_pro_5x/",
-          "signal": "Claude Max 5X vs ChatGPT Pro 5X"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xihwal/openai_has_added_monthly_api_credits_to_chatgpt/",
-          "signal": "OpenAI has added monthly API credits to ChatGPT Pro and Business, matching your subscription price"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiyinn/my_advice_for_those_who_use_chatgpt_to_vent_or_as/",
+          "signal": "My advice for those who use ChatGPT to vent or as personal psychologyst (Human vs AI)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NyPxzJbBrhg",
-          "signal": "4 Best AI Tools in 2026: ChatGPT, Claude, Perplexity &amp; CapCut (Full Guide)"
+          "url": "https://www.youtube.com/watch?v=6FFgCcSItn0",
+          "signal": "I Ask The Tricky Questions from chat Gpt💀🔥 Part 2 | She Didn’t Know That 😂Aura-9999 #chatgpt #yt"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=85CNaEA21bo",
+          "signal": "ChatGPT HATES People Without Premium 😭"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
         }
       ],
       "content_ideas": []
@@ -143,65 +165,12 @@
       "content_ideas": []
     },
     {
-      "name": "Survival LLM: AI assistant and emergency library that runs on your own",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.brangus.io/survival-llm",
-          "signal": "Survival LLM: AI assistant and emergency library that runs on your own computer"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-          "signal": "Police are using AI to pull over drivers for 'suspicious' behavior"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "hackernews",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -222,36 +191,14 @@
           "signal": "Claude Code regularly sends each background agent’s transcript to its model"
         },
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiwl5o/claude_opus_55_low_vs_gpt_6_sol_black_hole/",
+          "signal": "claude opus 5.5 low vs gpt 6 sol black hole simulation"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
           "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-          "signal": "Amazon Is Gutting Its AI Division After Sustained Failure"
         }
       ],
       "content_ideas": []
@@ -280,33 +227,6 @@
           "platform": "hackernews",
           "url": "https://surgehq.ai/blog/dayjob-tax",
           "signal": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Classification of Finite Simple Groups Formalized in Lean",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://cfsg.axiommath.ai/",
-          "signal": "Classification of Finite Simple Groups Formalized in Lean"
         }
       ],
       "content_ideas": []
@@ -346,33 +266,6 @@
       "content_ideas": []
     },
     {
-      "name": "Introducing LFM3: Every Modality for Specialized Intelligence",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.liquid.ai/blog/lfm3",
-          "signal": "Introducing LFM3: Every Modality for Specialized Intelligence"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Google AI gets cagey when asked who won the 2020 elections",
       "category": "use_case",
       "momentum": "rising",
@@ -398,6 +291,114 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Zombie stats: Where the numbers AI quotes come from",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+          "signal": "Zombie stats: Where the numbers AI quotes come from"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "New York Times adds more AI features to its Cooking app. Users aren't ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+          "signal": "New York Times adds more AI features to its Cooking app. Users aren't thrilled"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI execs may be too out of touch to build for the general public",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+          "signal": "AI execs may be too out of touch to build for the general public"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Valve Responds to Developers Fearing AI Slop and Clones",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+          "signal": "Valve Responds to Developers Fearing AI Slop and Clones"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -406,8 +407,47 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
+        "instagram_inferred",
         "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "signal": "Gemini 4 Carbon"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Mistral",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -423,23 +463,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "signal": "Gemini 4 Carbon"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
-          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=XuIAwnQUNZA",
-          "signal": "​3 Gemini Study Codes to Learn Faster 🎯#gemini # #studytips"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "signal": "We're releasing the weights of Mistral Large 4"
         }
       ],
       "content_ideas": []
@@ -450,9 +475,7 @@
       "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -460,8 +483,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -469,34 +492,34 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
-          "signal": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi2b1c/they_just_merged_my_normal_chatgpt_with_chatgpt/",
-          "signal": "They just merged my normal ChatGPT with ChatGPT Work..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xijqvz/is_claude_truly_better_than_chatgpt/",
+          "signal": "Is Claude truly better than ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xifh4r/claude_max_5x_vs_chatgpt_pro_5x/",
-          "signal": "Claude Max 5X vs ChatGPT Pro 5X"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xihwal/openai_has_added_monthly_api_credits_to_chatgpt/",
-          "signal": "OpenAI has added monthly API credits to ChatGPT Pro and Business, matching your subscription price"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiyinn/my_advice_for_those_who_use_chatgpt_to_vent_or_as/",
+          "signal": "My advice for those who use ChatGPT to vent or as personal psychologyst (Human vs AI)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=NyPxzJbBrhg",
-          "signal": "4 Best AI Tools in 2026: ChatGPT, Claude, Perplexity &amp; CapCut (Full Guide)"
+          "url": "https://www.youtube.com/watch?v=6FFgCcSItn0",
+          "signal": "I Ask The Tricky Questions from chat Gpt💀🔥 Part 2 | She Didn’t Know That 😂Aura-9999 #chatgpt #yt"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=85CNaEA21bo",
+          "signal": "ChatGPT HATES People Without Premium 😭"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
         }
       ],
       "content_ideas": []
@@ -507,6 +530,7 @@
       "momentum": "hot",
       "platforms": [
         "hackernews",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -527,6 +551,11 @@
           "signal": "Claude Code regularly sends each background agent’s transcript to its model"
         },
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiwl5o/claude_opus_55_low_vs_gpt_6_sol_black_hole/",
+          "signal": "claude opus 5.5 low vs gpt 6 sol black hole simulation"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
           "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
@@ -537,13 +566,13 @@
   ],
   "pain_points": [
     {
-      "problem": "If I verify my age, will it fix this issue?",
+      "problem": "Breaking: OpenAI confirmed to merge chat and work limits",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiemvk/if_i_verify_my_age_will_it_fix_this_issue/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xixy91/breaking_openai_confirmed_to_merge_chat_and_work/"
         }
       ],
       "content_opportunity": ""
