@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 21 Oct 2026 to 28 Oct 2026
+# 🗞️ AI THIS WEEK — 22 Oct 2026 to 29 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - NewsNation**
@@ -27,7 +27,7 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - NewsNation** — Dario Amodei News — Score 73
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drTmE0MmxOb3F0OFpkOGNxcHJpOExnYWZadVFNVno1dHMzSjhUR3NqZ21nYXFvWjE3YTNtMEtNQ3g1RGN0UkJ4Yk5LbmJHaUdJNjNZZmlzQm9TeEJLSTBFY3lJQVdiYWZtNkVZOFQ5djVzY1loWU5LcWFIaDdRaUh5UmxJcnBaUDUyZVVSTjhoUDFKdVJnbEI1M09QODVHazQwWkZhYlByQnlvTUtKR3EyU01oaGhGb3JkLXFUR1d3cjVkRTdYSGtXbmdLN0lOR1NjY2NpOG1IcnVpWlJJUdIB6wFBVV95cUxNdHhfWlR4UWxsVTV5cUxQVDdnNUM0MGFRZTE4aF9HVWpKQTFRbUdpLWt2S2RfbDhhaXJBalV6dks2LWx4RjNxNV9jcjFNaGljTDBlTzRBTVdsSjJIU3JwaWlZU21OUGJyMEgzc2pVXzVyMFRzZmtoa3ZYekxYR3VDX1NWTmRFUnJ0VFBfUGxYd3pLRWw1U3RqRVRaUTZBV3ljQTMxZThRbGJVcnVvUjlhYVVkX3JJUHF5eWVLM2Q5cWZXZDZYa2RNU3ZEcHN2bHRiVjcwaXFwZkVSWE9YSVdNQ3Y5UHNOcC1aa1ow?oc=5
-2. **Cohere says Alibaba’s Qwen model tried to send a file to Beijing - TechCrunch** — Cohere News — Score 70
+2. **Cohere says Alibaba’s Qwen model tried to send a file to Beijing - TechCrunch** — Cohere News — Score 67
    https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5
 3. **Microsoft working to reduce AI costs, expand ecosystem as global adoption rises: Satya Nadella - https://www.indiagazette.com/** — Satya Nadella News — Score 63
    https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRHlOQkZEQTR6S29oUjNZdGd5eGthb2lzb2RNS18zT2Q1SnFSaHg3NjBwbWJiRk5CVlR6aE80YWZlQU5EWjZ0NXpMUHdxdmlLQmxGRHlnbC14UENyR21TUUFqcnZEa3BWRjFnOFlDQzRaS09BcVpUcUVPaXRWWFlPMDIxbzNSUXVSZUwwNjRWblVnWlZpdEhrRTlPUGtrNkw1QlJFcUxWZTU5R0xnWmhwT3cwTnNVNng3UzhSZDR3TUc4VklOdlMyU05uNzVTVDVVcGc?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
 - **How AI technology is giving ALS patients their voice back - www.investigatetv.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0lLQXlWVEYtYkpoYnQxd0U4dTgtaXpfS2hKTVJJSnF5MmFxb0tWdDVlMHVmNEdKZ3N3dGFERjBtZHoxbVZEekE3ZFAzUllGRlZYOF9mN1FuNXpCZU9KN2NSbGpweWRIV2Q4SEdHVndHZVRJUEtLZ012eE9qc3V2a1J0bGtSZi1ac1k1Nk9iTndOMjFfb0pRMENvSEl4bFVR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2832
+- Total stories tracked: 2817
 - Most active topic: agents
 - Busiest category: AI General News
 
