@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
    https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWg0c3AxS3VJV3hrdDJnQ0dRWXlHR2VOLUpZTy1KbjdMbWgtSl81Ymgxam9SZGRGam1ia1pPc0hLZEd6Q3JIbDN0c3JNR2ZZYTA2LThMSXgtNUZKZENRbkI0LXRwVWFYVmpsYUlkaXo3cVNXUU1WRzZvdU1jdDFYU2MzT2M2U0RMZTdualBxcC1HeERQLVNWZQ?oc=5
 3. **Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters** — science angle
    https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYWJuX2ZuZl9pQm10SHpOeEZTZ0xuWWJEZklvZ0xsMndvNEFEYXlZVUUtQVBGS0hMX1E4UEVncDl4VW1QUUFOdnUtbF91VkdqeDBzOU4yVDctQWFzRE5EczcxaGI2OV8zWlpUUTVodjlCNmtwOUh6TW43eFZ0RFhsazRhWmdVRUtKd1g2ZG5HV2l6X0s4aXBiSmljRVYtNy1hV3lqTHJPbnRlMmpkaERxZHhfaUh5N0NJNVBoUElGQmoxLUxRN3ZaNVVYX2ZvZTY5M1pJazFwaUM?oc=5
-4. **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Herald-Voice** — science angle
-   https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMUNUZ1ZNRzNLS3paMlBfSVNOS1hYMUJsalFwTHRqdTlta1JRSHR6RFRiMkNTN2oxWmRtWE1fU1pVMjN3bm9mMU9LS1ZqaDhlamZLTnQ2LUZlUWJyOHNkZzRNNUF3eFE3bFNhQmwzd0txVDRZcm5fZEpGeWZ5Y1l6Zzhyc2lQQ3JZOWkyOE4wcU1QTURYcHBmdm94RERwYVBKS044SE9Hc2gzTjNieVl5VTZ4R3FQSTFZ?oc=5
-5. **How AI technology is giving ALS patients their voice back - www.investigatetv.com** — science angle
+4. **How AI technology is giving ALS patients their voice back - www.investigatetv.com** — science angle
    https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0lLQXlWVEYtYkpoYnQxd0U4dTgtaXpfS2hKTVJJSnF5MmFxb0tWdDVlMHVmNEdKZ3N3dGFERjBtZHoxbVZEekE3ZFAzUllGRlZYOF9mN1FuNXpCZU9KN2NSbGpweWRIV2Q4SEdHVndHZVRJUEtLZ012eE9qc3V2a1J0bGtSZi1ac1k1Nk9iTndOMjFfb0pRMENvSEl4bFVR?oc=5
-6. **Microsoft ai outperforms doctors in medical diagnosis study - A News** — science angle
+5. **Microsoft ai outperforms doctors in medical diagnosis study - A News** — science angle
    https://news.google.com/rss/articles/CBMiogFBVV95cUxPTjlCZi14TU00ZWJFQ1FzeDB6ZEd1VXp1VzZINFNDU29FNHVzTE9uNzVkdEpVcW14Q0VLR3NqZ2ljemdaSHFGRFVrbThFblpmbkgxSDlCSUNKUEt6NWlVMlNTY3hlb0dOZ0U0N3RCVGdzanJzRjE4UkdYdHlreWRMUkhpekhCM3JiQzRDQXdTNWNueVJtNnNoM04zVmVYNTMxN1HSAacBQVVfeXFMTW1ub0luQzlYME5fV0I5SnAyeThnS3dUNElFVVFfcm83UEpwOUwwVTQ5LTdiMjFIRFBGTi1JTXB0ckIzV2E0ZHMzR1p3Zm5IdTlMMmxwLVIzWG9rYVM0RlJQYmRaZnhmcXZQWTJxblpYUnJfd1phZ1VFV3ZJOG81bHVYd2lNYVQtUXRwM0taRXRtSnhMU0NnSzAtVnM0Y1F1VTNhZDRkOUU?oc=5
-7. **Brown student maps the hidden global labor powering AI** — 167 upvotes on Reddit/HN
+6. **Brown student maps the hidden global labor powering AI** — 167 upvotes on Reddit/HN
    https://www.brown.edu/news/2026-10-26/ai-data-workers
-8. **Microsoft AI tool beat generalist doctors at step-by-step diagnosis - The Next Web** — science angle
+7. **Microsoft AI tool beat generalist doctors at step-by-step diagnosis - The Next Web** — science angle
    https://news.google.com/rss/articles/CBMifEFVX3lxTE92ekNwYThSXzFDaTJ4aElJeU1YMHNyMmNRSmFuYTJJMGowZXk2aGZncTdGSVBhT3hJYWR4RkJLYS16STNqRzRFU2Y2d0NMVE1Ua3g2c1NhQ1FBajk3a2tUSnVnZHR3X1YwbUJnQWNIdmxTMTB2VlEtbUJncTM?oc=5
+8. **😺 Microsoft AI scored 83% where doctors got 36% - The Neuron** — science angle
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxPUmxZVm5FSWtndkVFNmdCS1dYQmppYXladm9zd3dwenpVM0JEcXpfZFhPQVh6ZVd2SUFGQ2NtNWExZ0M0RnZGMlpHS2FqanVQcWc0U0xGOUhuNXBoTzBobTlsQnd1UDNGd1hSd1YyTnJrSllzUldsVkk5ZEZFUnVvblNR?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - NewsNation** — Dario Amodei News — Score 73
@@ -43,18 +43,18 @@ All coverage: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0duREdISXpBVFU3SEZoSkZ2cmk3OGNyd2NhVTgzSjVLdmp5YzNzam4wT1M4QU9TSmZPMzdJbTA1S3hfX2hYUmc3X2xOSjJldGJBSzR3UmN6SXRUcElEQ3VLWVRlZl9GMUVvWVRPSUxkTzQ5Wi13cS0xb19MTVZJTktETms4LVZNSU9Iak1qZDk?oc=5
 9. **DeepSeek AI model shows safety gaps in independent tests - Reuters** — DeepSeek News — Score 50
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5
-10. **Nuix launches agentic AI capability in Nuix Neo with audit trail - Australian Cyber Security Magazine** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxNYnNVc3doY3pyT1BMN2dsNy1nTUlFeDJOVXM3NEIzVjJCNlkta1dOY2hDdDZmdWN0bUxtLWstVWhsd3hJZUlGRWl5elRKNi1EV1g0WUgza2NKaHlZU255aFZfYTgtVU1OcEhKQ1ljMmhRbHpwU2YzUGRoa2s4Yk9VanljbGtXU0NCTjVGbE5ROUhxNkF4a0V4OGxIbW5zbHlZeWllSE54blpsdkhXMFhuMS1R?oc=5
+10. **Artificial intelligence giant Anthropic files papers to sell shares to the public for the first time - Orange County Register** — Dario Amodei News — Score 48
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxQSUNWWmUtZTdaNFRvbUw0MUZaUzJZYjJPT0txMzhsUmxSb2xhaUtmZjhzS0pRT3RUR3F6UXpfb19EV2xOSjZJYU9wVE1paHFkdHo4LTc4Vmp1R2d6STV3NEJuVjJyMlpmVi1yMUMwc2YxZmhubXp5QWlnenpkc2lEZ0l4SFU?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Microsoft says its AI tool is better than doctors at diagnosing conditions - The Verge** — https://news.google.com/rss/articles/CBMi0gFBVV95cUxOamtUNVg3S1hZVlF1RGZ4akg3NThwTERFbWpQaUcyMmQ1LVdXM21CYU1mbUhEd28tS2ZicXp1TTBwUlB5Q0xtZllvdkl3WW5sdFZrUXdYRHV4Sk10X3pMWXpBYWhsT1ljQ3BRLUZ3ZXpXeElFX2VqWXRjcm9NYV9vU3hTb1NZM0tCNTJLNnBNaW5XVTJTd2ZyNkxpYlQ4aFpUZDc3MXBmUzZySkdRa0drQnZVdDBqcmc0aUl4QnpaUkRGYUE0UnQzMHdZMVpGRmRuWmc?oc=5
 - **Microsoft’s AI Diagnosed 83% of Difficult Medical Cases. Doctors Got Just 36% - Yahoo Tech** — https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWg0c3AxS3VJV3hrdDJnQ0dRWXlHR2VOLUpZTy1KbjdMbWgtSl81Ymgxam9SZGRGam1ia1pPc0hLZEd6Q3JIbDN0c3JNR2ZZYTA2LThMSXgtNUZKZENRbkI0LXRwVWFYVmpsYUlkaXo3cVNXUU1WRzZvdU1jdDFYU2MzT2M2U0RMZTdualBxcC1HeERQLVNWZQ?oc=5
 - **Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters** — https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYWJuX2ZuZl9pQm10SHpOeEZTZ0xuWWJEZklvZ0xsMndvNEFEYXlZVUUtQVBGS0hMX1E4UEVncDl4VW1QUUFOdnUtbF91VkdqeDBzOU4yVDctQWFzRE5EczcxaGI2OV8zWlpUUTVodjlCNmtwOUh6TW43eFZ0RFhsazRhWmdVRUtKd1g2ZG5HV2l6X0s4aXBiSmljRVYtNy1hV3lqTHJPbnRlMmpkaERxZHhfaUh5N0NJNVBoUElGQmoxLUxRN3ZaNVVYX2ZvZTY5M1pJazFwaUM?oc=5
-- **How Israeli researchers are using AI to transform cancer treatment and diagnoses - Jewish Herald-Voice** — https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMUNUZ1ZNRzNLS3paMlBfSVNOS1hYMUJsalFwTHRqdTlta1JRSHR6RFRiMkNTN2oxWmRtWE1fU1pVMjN3bm9mMU9LS1ZqaDhlamZLTnQ2LUZlUWJyOHNkZzRNNUF3eFE3bFNhQmwzd0txVDRZcm5fZEpGeWZ5Y1l6Zzhyc2lQQ3JZOWkyOE4wcU1QTURYcHBmdm94RERwYVBKS044SE9Hc2gzTjNieVl5VTZ4R3FQSTFZ?oc=5
 - **How AI technology is giving ALS patients their voice back - www.investigatetv.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0lLQXlWVEYtYkpoYnQxd0U4dTgtaXpfS2hKTVJJSnF5MmFxb0tWdDVlMHVmNEdKZ3N3dGFERjBtZHoxbVZEekE3ZFAzUllGRlZYOF9mN1FuNXpCZU9KN2NSbGpweWRIV2Q4SEdHVndHZVRJUEtLZ012eE9qc3V2a1J0bGtSZi1ac1k1Nk9iTndOMjFfb0pRMENvSEl4bFVR?oc=5
+- **Microsoft ai outperforms doctors in medical diagnosis study - A News** — https://news.google.com/rss/articles/CBMiogFBVV95cUxPTjlCZi14TU00ZWJFQ1FzeDB6ZEd1VXp1VzZINFNDU29FNHVzTE9uNzVkdEpVcW14Q0VLR3NqZ2ljemdaSHFGRFVrbThFblpmbkgxSDlCSUNKUEt6NWlVMlNTY3hlb0dOZ0U0N3RCVGdzanJzRjE4UkdYdHlreWRMUkhpekhCM3JiQzRDQXdTNWNueVJtNnNoM04zVmVYNTMxN1HSAacBQVVfeXFMTW1ub0luQzlYME5fV0I5SnAyeThnS3dUNElFVVFfcm83UEpwOUwwVTQ5LTdiMjFIRFBGTi1JTXB0ckIzV2E0ZHMzR1p3Zm5IdTlMMmxwLVIzWG9rYVM0RlJQYmRaZnhmcXZQWTJxblpYUnJfd1phZ1VFV3ZJOG81bHVYd2lNYVQtUXRwM0taRXRtSnhMU0NnSzAtVnM0Y1F1VTNhZDRkOUU?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2817
+- Total stories tracked: 2744
 - Most active topic: agents
 - Busiest category: AI General News
 
