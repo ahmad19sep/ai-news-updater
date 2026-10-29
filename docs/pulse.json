@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T05:52:19.071118+00:00",
+  "generated_at": "2026-10-29T13:06:56.137932+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": null
@@ -42,6 +42,16 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
+          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XuIAwnQUNZA",
+          "signal": "​3 Gemini Study Codes to Learn Faster 🎯#gemini # #studytips"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -64,8 +74,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -89,46 +99,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhu06h/i_used_chatgpt_plus_to_build_an_executive/",
-          "signal": "I used ChatGPT Plus to build an executive function coaching system for my adult son. Here’s what we actually did."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xifh4r/claude_max_5x_vs_chatgpt_pro_5x/",
+          "signal": "Claude Max 5X vs ChatGPT Pro 5X"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi8wc6/are_mac_users_still_using_the_chatgpt_classic_app/",
-          "signal": "Are Mac users still using the ChatGPT Classic app?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xihwal/openai_has_added_monthly_api_credits_to_chatgpt/",
+          "signal": "OpenAI has added monthly API credits to ChatGPT Pro and Business, matching your subscription price"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi7aqr/has_anyone_had_their_chatgpt_voice_change_mid/",
-          "signal": "Has anyone had their ChatGPT voice change mid conversation?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI promised less work. I've never worked more",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://oioannou.com/blog/ai-promised-less-work/",
-          "signal": "AI promised less work. I've never worked more"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NyPxzJbBrhg",
+          "signal": "4 Best AI Tools in 2026: ChatGPT, Claude, Perplexity &amp; CapCut (Full Guide)"
         }
       ],
       "content_ideas": []
@@ -156,60 +138,6 @@
           "platform": "hackernews",
           "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
           "signal": "Kentucky man becomes the first humanist granted religious exemption from AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The Mythical Man-Month in the Age of AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-          "signal": "The Mythical Man-Month in the Age of AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wikipedia's Cleanup of AI-Generated Content",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-          "signal": "Wikipedia's Cleanup of AI-Generated Content"
         }
       ],
       "content_ideas": []
@@ -269,6 +197,39 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "signal": "Claude Code regularly sends each background agent’s transcript to its model"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
+          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Amazon Is Gutting Its AI Division After Sustained Failure",
       "category": "use_case",
       "momentum": "rising",
@@ -309,7 +270,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -351,34 +312,89 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "Artificial Analysis Intelligence Index v5",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
-        "youtube"
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 7,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-          "signal": "Claude Code burns ~15–20% of your tokens on a 3-word status line"
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "signal": "Artificial Analysis Intelligence Index v5"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
-          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "signal": "Artificial Analysis Intelligence Index v5.0"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Introducing LFM3: Every Modality for Specialized Intelligence",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.liquid.ai/blog/lfm3",
+          "signal": "Introducing LFM3: Every Modality for Specialized Intelligence"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google AI gets cagey when asked who won the 2020 elections",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+          "signal": "Google AI gets cagey when asked who won the 2020 elections"
         }
       ],
       "content_ideas": []
@@ -412,6 +428,16 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
+          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XuIAwnQUNZA",
+          "signal": "​3 Gemini Study Codes to Learn Faster 🎯#gemini # #studytips"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
         }
@@ -434,8 +460,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -459,18 +485,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xhu06h/i_used_chatgpt_plus_to_build_an_executive/",
-          "signal": "I used ChatGPT Plus to build an executive function coaching system for my adult son. Here’s what we actually did."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xifh4r/claude_max_5x_vs_chatgpt_pro_5x/",
+          "signal": "Claude Max 5X vs ChatGPT Pro 5X"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi8wc6/are_mac_users_still_using_the_chatgpt_classic_app/",
-          "signal": "Are Mac users still using the ChatGPT Classic app?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xihwal/openai_has_added_monthly_api_credits_to_chatgpt/",
+          "signal": "OpenAI has added monthly API credits to ChatGPT Pro and Business, matching your subscription price"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xi7aqr/has_anyone_had_their_chatgpt_voice_change_mid/",
-          "signal": "Has anyone had their ChatGPT voice change mid conversation?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NyPxzJbBrhg",
+          "signal": "4 Best AI Tools in 2026: ChatGPT, Claude, Perplexity &amp; CapCut (Full Guide)"
         }
       ],
       "content_ideas": []
@@ -478,7 +504,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "youtube"
@@ -489,7 +515,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -498,7 +524,7 @@
         {
           "platform": "hackernews",
           "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-          "signal": "Claude Code burns ~15–20% of your tokens on a 3-word status line"
+          "signal": "Claude Code regularly sends each background agent’s transcript to its model"
         },
         {
           "platform": "youtube",
@@ -509,6 +535,19 @@
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "If I verify my age, will it fix this issue?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiemvk/if_i_verify_my_age_will_it_fix_this_issue/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Gemini — strongest signal this cycle"
 }
