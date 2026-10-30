@@ -1,10 +1,10 @@
-# 🗞️ AI THIS WEEK — 22 Oct 2026 to 29 Oct 2026
+# 🗞️ AI THIS WEEK — 23 Oct 2026 to 30 Oct 2026
 
 ## 🔥 Biggest Story of the Week
 **One Tech Tip: How to get started with AI agents, and which are best for specific tasks**
-Covered by 8 source(s) · Score: 86
+Covered by 9 source(s) · Score: 96
 Best source link: https://www.livemint.com/technology/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-11793246711702.html
-All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-11793246711702.html · https://www.newstimes.com/living/article/one-tech-tip-how-to-get-started-with-ai-agents-22499849.php · https://www.lakelandtoday.ca/lifestyle/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953871 · https://www.vancouverisawesome.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.stalbertgazette.com/lifestyle-news/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953871 · https://www.richmond-news.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.timescolonist.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.nsnews.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862
+All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-11793246711702.html · https://www.newstimes.com/living/article/one-tech-tip-how-to-get-started-with-ai-agents-22499849.php · https://www.lakelandtoday.ca/lifestyle/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953871 · https://www.vancouverisawesome.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.stalbertgazette.com/lifestyle-news/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953871 · https://www.richmond-news.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.timescolonist.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.nsnews.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://news.google.com/rss/articles/CBMiogFBVV95cUxPRmgzUWdmdGlPN1JkX0FwZHAyem1NbHRtdGx0c3ZmdVJ5NEdwRlJRQ2Q1SnBsZXg3YmdLeXl6MnI0UXphWkY4Nzlwc1V5ZmF5ZndIMWJVazB6djJQMmRGSnQ1V3lIOWVQdnhraGFrQWNyT29sUTAtR19oeGVKc2RyUl9VbHdGYXlRcEpRNlBObEE0aWt2U1h1S0pJa0dXLXpMYXc?oc=5
 
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Microsoft’s AI Diagnosed 83% of Difficult Medical Cases. Doctors Got Just 36% - Yahoo Tech** — science angle
@@ -25,7 +25,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcXVOY1RMbGU3TGR5MEZLcVVKaEJBeVIzV2RaR3JKTUtKSmdONW9WeWQ3aUVRWDdxTzdlVXp0NzV3LXI1dGpEMThRM3F3WmRISnpiVU9sd0JjaWVSY3czdWJvajBEWGRfNUpzQzdoSUE4aEFEdzFzbWUzTXV3bF9SMDR3a2V1NkpWamEzcmpWNjBvbkRLV3lIaVI2cFNWLWdSWnViR1Q5NDUxRDBFTUhPOE9sN1c0WmZMNlg1ME5JMEQ5TjM0akpxQVAtNE51UEt1VzZV?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **One Tech Tip: How to get started with AI agents, and which are best for specific tasks** — livemint — Score 86
+1. **One Tech Tip: How to get started with AI agents, and which are best for specific tasks** — livemint — Score 96
    https://www.livemint.com/technology/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-11793246711702.html
 2. **Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - NewsNation** — Dario Amodei News — Score 73
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTms2S29td1drTmE0MmxOb3F0OFpkOGNxcHJpOExnYWZadVFNVno1dHMzSjhUR3NqZ21nYXFvWjE3YTNtMEtNQ3g1RGN0UkJ4Yk5LbmJHaUdJNjNZZmlzQm9TeEJLSTBFY3lJQVdiYWZtNkVZOFQ5djVzY1loWU5LcWFIaDdRaUh5UmxJcnBaUDUyZVVSTjhoUDFKdVJnbEI1M09QODVHazQwWkZhYlByQnlvTUtKR3EyU01oaGhGb3JkLXFUR1d3cjVkRTdYSGtXbmdLN0lOR1NjY2NpOG1IcnVpWlJJUdIB6wFBVV95cUxNdHhfWlR4UWxsVTV5cUxQVDdnNUM0MGFRZTE4aF9HVWpKQTFRbUdpLWt2S2RfbDhhaXJBalV6dks2LWx4RjNxNV9jcjFNaGljTDBlTzRBTVdsSjJIU3JwaWlZU21OUGJyMEgzc2pVXzVyMFRzZmtoa3ZYekxYR3VDX1NWTmRFUnJ0VFBfUGxYd3pLRWw1U3RqRVRaUTZBV3ljQTMxZThRbGJVcnVvUjlhYVVkX3JJUHF5eWVLM2Q5cWZXZDZYa2RNU3ZEcHN2bHRiVjcwaXFwZkVSWE9YSVdNQ3Y5UHNOcC1aa1ow?oc=5
@@ -33,9 +33,9 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5
 4. **StayShare Vacations Leverages AI-Powered Technology to Modernize the Promotional Vacation Experience** — openpr — Score 63
    https://www.openpr.com/news/4669877/stayshare-vacations-leverages-ai-powered-technology
-5. **Mistral AI publicly releases Large 4, targets cybersecurity users - Reuters** — Mistral News — Score 53
+5. **Mistral AI publicly releases Large 4, targets cybersecurity users - Reuters** — Mistral News — Score 63
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGVVeXl0bmw1cnBiUkdkU2VRT2VPcWtxSHdNTmQxQ2xlOUxiSW1aY0J5eVd2T2RPYXJQdlEwdWpSSzBuRlZmcHlHU1F3LTVCVmo3ZzZqbXRDZ1pmaDdEMkd0OFIycWhkWXhydlQ4Z0UzZ3FHbUdaaXJOMGVSRFhwSkZRYmFGcWoxeUlQUWtBUVBlZXM3NkgtRGN0dE81LWxkMTRGVnFSSnJWUU83SXRONUJPQm84a0pl?oc=5
-6. **Orange Unit Signs Deal to Mistral's Latest AI Cybersecurity Model - U.S. News - Money** — Mistral News — Score 53
+6. **Orange Unit Signs Deal to Mistral's Latest AI Cybersecurity Model - U.S. News - Money** — Mistral News — Score 63
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEhINGFEVXozR1REZk50SmpCZ3B2djFCYVNzYWM4WEp4TUNKQl9DWDVqcmNQalBTQTZDT19NRFpkeWZ4T3BYMklFWGZic2R3NDQ3V09OX3daMm1obkYzYjJvWFR1cUNJTVg3N2tiNC03ZHNvUTdsUmFlQ09xS19TVVp0cndqS2JuZlJMSWYxbTZDbjJpa2hRczh1aE94MHBoQWlaOXdNTENIVmNwalphYkZwc3lrYjF4ZXFDaHZuZEsxZw?oc=5
 7. **Trust robots over doctors? Many AI users already do - Leader Publications** — AI in Health — Score 51
    https://news.google.com/rss/articles/CBMi4gFBVV95cUxORUQ3X19kU0RQR0l0Rm5WaFNEcW9qRzRySmh0azZKdU8wZUN3QXpUd1NJcmVLbVVjR19yVEFOaXZpQkhDNmZXQkJEcHJoTlpXRS1zWDdIZGk5QU1ic2JBUjdLcklFV2k1Mmt1OHBodUZhaHZxX2lPZkhXOTY4Y3JlVk4tTVVobHlYQmxITHNZaEt2NThMSER3R1RWbXlZVXVCMjEtY2RHcFEwWTROaE1KeUtGZHU0cEpTdDhldXJHeGxNdjBULVRJWWxIbXZqT2lyWUdCQjczaU02SW5vVDBuT2J3?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **How AI technology is giving ALS patients their voice back - www.investigatetv.com** — https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0lLQXlWVEYtYkpoYnQxd0U4dTgtaXpfS2hKTVJJSnF5MmFxb0tWdDVlMHVmNEdKZ3N3dGFERjBtZHoxbVZEekE3ZFAzUllGRlZYOF9mN1FuNXpCZU9KN2NSbGpweWRIV2Q4SEdHVndHZVRJUEtLZ012eE9qc3V2a1J0bGtSZi1ac1k1Nk9iTndOMjFfb0pRMENvSEl4bFVR?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2807
+- Total stories tracked: 2826
 - Most active topic: agents
 - Busiest category: AI General News
 
