@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:00:16.252139+00:00",
+  "generated_at": "2026-10-30T22:24:15.774018+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,69 +8,13 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 31,
+      "reddit": 25,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "signal": "Gemini 4 Carbon"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjbt5i/asked_chatgpt_and_gemini_what_bodies_they_think/",
-          "signal": "Asked chatgpt and gemini what bodies they think they deserve, then I made de-sloppified versions out of each AI's description"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
-          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Mistral",
       "category": "tool_launch",
@@ -101,10 +45,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -122,13 +67,13 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1wcsciq/introducing_chatgpt_for_financial_services_openai/",
-          "signal": "Introducing ChatGPT for Financial Services | OpenAI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjnaxf/openai_tipped_off_police_more_than_200_times_in/",
+          "signal": "OpenAI tipped off police more than 200 times in three months over ChatGPT chats"
         },
         {
           "platform": "reddit",
@@ -137,24 +82,62 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjhtpq/british_airways_customer_support_forgot_to_remove/",
+          "signal": "British Airways customer support forgot to remove the ChatGPT preamble"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xj2qyo/its_getting_exhausting_lately_my_chatgpt_ends/",
           "signal": "It’s getting exhausting, lately my chatgpt ends every input with stuff like “but tell me one thing”"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1xifo3d/examazon_employee_dies_after_chatgpt_allegedly/",
-          "signal": "Ex-Amazon employee dies after ChatGPT allegedly tells her to reduce medication dosage"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1xifmqv/openai_now_gives_chatgpt_pro_and_business/",
-          "signal": "OpenAI now gives ChatGPT Pro and Business subscribers up to $500 a month in API credits"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjljnj/web_search_not_working_in_chatgpt_work_anyone_else/",
+          "signal": "Web search not working in ChatGPT Work. Anyone else?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Kentucky man becomes the first humanist granted religious exemption fr",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "signal": "Claude Code regularly sends each background agent’s transcript to its model"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
+          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
+          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI isn't replacing SREs, it's deskilling them",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -174,26 +157,28 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-          "signal": "Kentucky man becomes the first humanist granted religious exemption from AI"
+          "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+          "signal": "AI isn't replacing SREs, it's deskilling them"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
+        "facebook_inferred",
         "hackernews",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -202,13 +187,23 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-          "signal": "Claude Code regularly sends each background agent’s transcript to its model"
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
-          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lXLmgsNP3MY",
+          "signal": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon &amp; A Terrifying Voice Model"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -241,12 +236,11 @@
       "content_ideas": []
     },
     {
-      "name": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "name": "US tech stocks see sharp falls over AI cost fears",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -262,14 +256,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://surgehq.ai/blog/dayjob-tax",
-          "signal": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments"
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "signal": "US tech stocks see sharp falls over AI cost fears"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "name": "Proton's CEO Cancels AI 'Re-Interviews'",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -281,7 +275,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -289,35 +283,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/SheepSeb/tinyworldformer",
-          "signal": "A tiny world model running games on a Raspberry Pi Pico 2 W"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Google AI gets cagey when asked who won the 2020 elections",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-          "signal": "Google AI gets cagey when asked who won the 2020 elections"
+          "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+          "signal": "Proton's CEO Cancels AI 'Re-Interviews'"
         }
       ],
       "content_ideas": []
@@ -335,7 +302,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -345,6 +312,60 @@
           "platform": "hackernews",
           "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
           "signal": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/SheepSeb/tinyworldformer",
+          "signal": "A tiny world model running games on a Raspberry Pi Pico 2 W"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: Are you tired too in this AI era?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50301479",
+          "signal": "Ask HN: Are you tired too in this AI era?"
         }
       ],
       "content_ideas": []
@@ -375,92 +396,9 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Proton goes all in on using AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://convo.casa/@b/117525936178835007",
-          "signal": "Proton goes all in on using AI"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "signal": "Gemini 4 Carbon"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjbt5i/asked_chatgpt_and_gemini_what_bodies_they_think/",
-          "signal": "Asked chatgpt and gemini what bodies they think they deserve, then I made de-sloppified versions out of each AI's description"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
-          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Mistral",
       "category": "tool_launch",
@@ -491,10 +429,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -512,13 +451,13 @@
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1wcsciq/introducing_chatgpt_for_financial_services_openai/",
-          "signal": "Introducing ChatGPT for Financial Services | OpenAI"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjnaxf/openai_tipped_off_police_more_than_200_times_in/",
+          "signal": "OpenAI tipped off police more than 200 times in three months over ChatGPT chats"
         },
         {
           "platform": "reddit",
@@ -527,18 +466,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjhtpq/british_airways_customer_support_forgot_to_remove/",
+          "signal": "British Airways customer support forgot to remove the ChatGPT preamble"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xj2qyo/its_getting_exhausting_lately_my_chatgpt_ends/",
           "signal": "It’s getting exhausting, lately my chatgpt ends every input with stuff like “but tell me one thing”"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1xifo3d/examazon_employee_dies_after_chatgpt_allegedly/",
-          "signal": "Ex-Amazon employee dies after ChatGPT allegedly tells her to reduce medication dosage"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1xifmqv/openai_now_gives_chatgpt_pro_and_business/",
-          "signal": "OpenAI now gives ChatGPT Pro and Business subscribers up to $500 a month in API credits"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjljnj/web_search_not_working_in_chatgpt_work_anyone_else/",
+          "signal": "Web search not working in ChatGPT Work. Anyone else?"
         }
       ],
       "content_ideas": []
@@ -555,8 +494,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -572,6 +511,56 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
           "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
+          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lXLmgsNP3MY",
+          "signal": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon &amp; A Terrifying Voice Model"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -579,9 +568,21 @@
   ],
   "pain_points": [
     {
-      "problem": "Breaking: OpenAI confirmed to merge chat and work limits",
+      "problem": "LIMIT, LIMIT EVERYTHING!",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjr96d/limit_limit_everything/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Breaking: OpenAI confirmed to merge chat and work limits",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -591,29 +592,17 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Usage limits going back to normal and not halved",
-      "who_affected": "r/OpenAI",
+      "problem": "Web search not working in ChatGPT Work. Anyone else?",
+      "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1xipuju/usage_limits_going_back_to_normal_and_not_halved/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "ChatGPT scheduled tasks can use your usage limit every time they run, even when they don't post anything",
-      "who_affected": "r/OpenAI",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1xjbkt3/chatgpt_scheduled_tasks_can_use_your_usage_limit/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjljnj/web_search_not_working_in_chatgpt_work_anyone_else/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Gemini — strongest signal this cycle"
+  "tool_of_week_candidate": "Mistral — strongest signal this cycle"
 }
