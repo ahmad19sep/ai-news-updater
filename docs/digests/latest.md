@@ -11,8 +11,8 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMimwFBVV95cUxQV29jVEk4b0FvUnBPTlRVQ1dvNjRYRGNuM2VRVDJUaGFvSTZoZGNOaW4tZ3NXVjk2NS05RDNvNUE2U05idVlQVlpIbmNaQUE2M3hvWWRwSllhRlliQ2ZIMWhDUWtGWjg3WUhTMzJRQi1tTmRQVnUxYkRVaURXVXlrdnVybEpMZmcxeVh2SHEydGM5aDF0RDJIbDdlaw?oc=5
 2. **Brown student maps the hidden global labor powering AI** — 167 upvotes on Reddit/HN
    https://www.brown.edu/news/2026-10-26/ai-data-workers
-3. **Microsoft says its AI tool outperforms generalist doctors in complex diagnoses - Fox Business** — science angle
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxQTjZRcmdGRUdkVXNucEN0SEVaV2tnZXRiWGVDcU15MXlYcnhjeHhWeGprQUhqRzBOQ2l6Nlkyb0t3azZVRUdXTDU4WGxZWlRQcTNRWXJNOEJ5U2xHNWtXckc0M3M3Zm1pRkM3RG04ZFprSWxqNTRMSHRUOFBnbGJXWS1URlA3cDJYZEFmMWlvNmNmZjZNbVM5X0I3TURYTTZfMktqM0RtS0ROYmtrNG5hadIBtgFBVV95cUxPdTR0QUw1b21qaWxyTXo4MDB6b1VWdkptT2lCQVlzS1RIR2pzSkZZd3R1aW1SeWp1NjVpdW9pLXM1ZWs5N2pkTldsWFBwMC0xdVN1RDJsbzA3MzlmNnV5QkVKd1JaRjR5MUZEakVneGpwb1hLU0tXU0pBS2FhQUxHT291WnZUamVXU0luRHp3TVhOUjY5SkhPcHdSdXZ0WHNsaDRfRFBEUjlJLTNFRXFMU0JQRmZtZw?oc=5
+3. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
 4. **Microsoft AI diagnostic tool outperforms doctors in clinical tests - artificialintelligence-news.com** — science angle
    https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2ZVOXFWd2FMYTcxUFJ6UUZYdVBlUmNqR1E3OVN6bTVEOW1ZVjNCRklfUVZ4OUdmb1lqWXVuVnE1UGJRR1RZNkxlX2hpUm9qeVV1cUFxUTRRUHRQcUlhdE05aTk0dXh1ZVBOdlE0WDlIb3puNU9NTGJaaFJadHZGajlWUTI?oc=5
 5. **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — science angle
@@ -49,12 +49,12 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 ## 🧪 AI in Science Highlights
 - **Trust robots over doctors? Many AI users already do - Leader Publications** — https://news.google.com/rss/articles/CBMi4gFBVV95cUxORUQ3X19kU0RQR0l0Rm5WaFNEcW9qRzRySmh0azZKdU8wZUN3QXpUd1NJcmVLbVVjR19yVEFOaXZpQkhDNmZXQkJEcHJoTlpXRS1zWDdIZGk5QU1ic2JBUjdLcklFV2k1Mmt1OHBodUZhaHZxX2lPZkhXOTY4Y3JlVk4tTVVobHlYQmxITHNZaEt2NThMSER3R1RWbXlZVXVCMjEtY2RHcFEwWTROaE1KeUtGZHU0cEpTdDhldXJHeGxNdjBULVRJWWxIbXZqT2lyWUdCQjczaU02SW5vVDBuT2J3?oc=5
 - **As an SU pre-med student, I hope AI can help doctors without replacing them - The Daily Orange** — https://news.google.com/rss/articles/CBMimwFBVV95cUxQV29jVEk4b0FvUnBPTlRVQ1dvNjRYRGNuM2VRVDJUaGFvSTZoZGNOaW4tZ3NXVjk2NS05RDNvNUE2U05idVlQVlpIbmNaQUE2M3hvWWRwSllhRlliQ2ZIMWhDUWtGWjg3WUhTMzJRQi1tTmRQVnUxYkRVaURXVXlrdnVybEpMZmcxeVh2SHEydGM5aDF0RDJIbDdlaw?oc=5
-- **Microsoft says its AI tool outperforms generalist doctors in complex diagnoses - Fox Business** — https://news.google.com/rss/articles/CBMisAFBVV95cUxQTjZRcmdGRUdkVXNucEN0SEVaV2tnZXRiWGVDcU15MXlYcnhjeHhWeGprQUhqRzBOQ2l6Nlkyb0t3azZVRUdXTDU4WGxZWlRQcTNRWXJNOEJ5U2xHNWtXckc0M3M3Zm1pRkM3RG04ZFprSWxqNTRMSHRUOFBnbGJXWS1URlA3cDJYZEFmMWlvNmNmZjZNbVM5X0I3TURYTTZfMktqM0RtS0ROYmtrNG5hadIBtgFBVV95cUxPdTR0QUw1b21qaWxyTXo4MDB6b1VWdkptT2lCQVlzS1RIR2pzSkZZd3R1aW1SeWp1NjVpdW9pLXM1ZWs5N2pkTldsWFBwMC0xdVN1RDJsbzA3MzlmNnV5QkVKd1JaRjR5MUZEakVneGpwb1hLU0tXU0pBS2FhQUxHT291WnZUamVXU0luRHp3TVhOUjY5SkhPcHdSdXZ0WHNsaDRfRFBEUjlJLTNFRXFMU0JQRmZtZw?oc=5
+- **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
 - **Microsoft AI diagnostic tool outperforms doctors in clinical tests - artificialintelligence-news.com** — https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2ZVOXFWd2FMYTcxUFJ6UUZYdVBlUmNqR1E3OVN6bTVEOW1ZVjNCRklfUVZ4OUdmb1lqWXVuVnE1UGJRR1RZNkxlX2hpUm9qeVV1cUFxUTRRUHRQcUlhdE05aTk0dXh1ZVBOdlE0WDlIb3puNU9NTGJaaFJadHZGajlWUTI?oc=5
 - **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmZMUzYyZ0NMLWprb1dYdUNNbHBhUm1kUGh3ZUNRMWpMNDFRa19adVlYTllKNWpJdHRTSHNWNGk3TDhyT2lSVGFXdFZoY2tySmVESmFlaEhBd0JzMm9pVUE2eWFHWUZtMWhfUnFGTXNRRGhkSmY4ejYwUnVoSEQyTndZQnoyRlpFS0JuVk1zNzBTWHRjYmJF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2774
+- Total stories tracked: 2806
 - Most active topic: anthropic
 - Busiest category: AI General News
 
