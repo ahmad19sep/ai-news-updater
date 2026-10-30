@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:47:31.437966+00:00",
+  "generated_at": "2026-10-30T05:53:36.774971+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -23,6 +23,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -48,6 +49,21 @@
           "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
         },
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj5v77/sundar_pichai_after_dropping_gemini_4_carbon/",
+          "signal": "Sundar Pichai after dropping Gemini 4 Carbon"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
+          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
@@ -58,7 +74,7 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -111,8 +127,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xijqvz/is_claude_truly_better_than_chatgpt/",
-          "signal": "Is Claude truly better than ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj2qyo/its_getting_exhausting_lately_my_chatgpt_ends/",
+          "signal": "It’s getting exhausting, lately my chatgpt ends every input with stuff like “but tell me one thing”"
         },
         {
           "platform": "reddit",
@@ -120,19 +136,19 @@
           "signal": "My advice for those who use ChatGPT to vent or as personal psychologyst (Human vs AI)"
         },
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj692g/alternatives_to_chatgpt_image_generation/",
+          "signal": "Alternatives to ChatGPT image generation?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xijqvz/is_claude_truly_better_than_chatgpt/",
+          "signal": "Is Claude truly better than ChatGPT?"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=6FFgCcSItn0",
-          "signal": "I Ask The Tricky Questions from chat Gpt💀🔥 Part 2 | She Didn’t Know That 😂Aura-9999 #chatgpt #yt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=85CNaEA21bo",
-          "signal": "ChatGPT HATES People Without Premium 😭"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
-          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+          "signal": "I Ask The Tricky Questions from chat Gpt💀🔥#chatgpt #yt"
         }
       ],
       "content_ideas": []
@@ -170,15 +186,14 @@
       "momentum": "hot",
       "platforms": [
         "hackernews",
-        "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -191,14 +206,19 @@
           "signal": "Claude Code regularly sends each background agent’s transcript to its model"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiwl5o/claude_opus_55_low_vs_gpt_6_sol_black_hole/",
-          "signal": "claude opus 5.5 low vs gpt 6 sol black hole simulation"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
+          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
           "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
+          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
         }
       ],
       "content_ideas": []
@@ -217,7 +237,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -232,21 +252,19 @@
       "content_ideas": []
     },
     {
-      "name": "Artificial Analysis Intelligence Index v5",
+      "name": "We ran AI agent swarms in Minecraft and Mindustry",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
+      "best_format": "short",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -254,13 +272,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-          "signal": "Artificial Analysis Intelligence Index v5"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-          "signal": "Artificial Analysis Intelligence Index v5.0"
+          "url": "https://labs.ycombinator.com/projects/games/index.html",
+          "signal": "We ran AI agent swarms in Minecraft and Mindustry"
         }
       ],
       "content_ideas": []
@@ -320,7 +333,7 @@
       "content_ideas": []
     },
     {
-      "name": "New York Times adds more AI features to its Cooking app. Users aren't ",
+      "name": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -332,7 +345,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -340,14 +353,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
-          "signal": "New York Times adds more AI features to its Cooking app. Users aren't thrilled"
+          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+          "signal": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI execs may be too out of touch to build for the general public",
+      "name": "A tiny world model running games on a Raspberry Pi Pico 2 W",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -359,7 +372,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -367,14 +380,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
-          "signal": "AI execs may be too out of touch to build for the general public"
+          "url": "https://github.com/SheepSeb/tinyworldformer",
+          "signal": "A tiny world model running games on a Raspberry Pi Pico 2 W"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Valve Responds to Developers Fearing AI Slop and Clones",
+      "name": "Proton goes all in on using AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -386,7 +399,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -394,8 +407,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
-          "signal": "Valve Responds to Developers Fearing AI Slop and Clones"
+          "url": "https://convo.casa/@b/117525936178835007",
+          "signal": "Proton goes all in on using AI"
         }
       ],
       "content_ideas": []
@@ -410,6 +423,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -435,6 +449,21 @@
           "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
         },
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj5v77/sundar_pichai_after_dropping_gemini_4_carbon/",
+          "signal": "Sundar Pichai after dropping Gemini 4 Carbon"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
+          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
@@ -445,7 +474,7 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -498,8 +527,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xijqvz/is_claude_truly_better_than_chatgpt/",
-          "signal": "Is Claude truly better than ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj2qyo/its_getting_exhausting_lately_my_chatgpt_ends/",
+          "signal": "It’s getting exhausting, lately my chatgpt ends every input with stuff like “but tell me one thing”"
         },
         {
           "platform": "reddit",
@@ -507,19 +536,19 @@
           "signal": "My advice for those who use ChatGPT to vent or as personal psychologyst (Human vs AI)"
         },
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj692g/alternatives_to_chatgpt_image_generation/",
+          "signal": "Alternatives to ChatGPT image generation?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xijqvz/is_claude_truly_better_than_chatgpt/",
+          "signal": "Is Claude truly better than ChatGPT?"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=6FFgCcSItn0",
-          "signal": "I Ask The Tricky Questions from chat Gpt💀🔥 Part 2 | She Didn’t Know That 😂Aura-9999 #chatgpt #yt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=85CNaEA21bo",
-          "signal": "ChatGPT HATES People Without Premium 😭"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
-          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+          "signal": "I Ask The Tricky Questions from chat Gpt💀🔥#chatgpt #yt"
         }
       ],
       "content_ideas": []
@@ -530,15 +559,14 @@
       "momentum": "hot",
       "platforms": [
         "hackernews",
-        "reddit",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "practical_earning",
+      "best_format": "long_form",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -551,14 +579,19 @@
           "signal": "Claude Code regularly sends each background agent’s transcript to its model"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xiwl5o/claude_opus_55_low_vs_gpt_6_sol_black_hole/",
-          "signal": "claude opus 5.5 low vs gpt 6 sol black hole simulation"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
+          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
           "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
+          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
         }
       ],
       "content_ideas": []
