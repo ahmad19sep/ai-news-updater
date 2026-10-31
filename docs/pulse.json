@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:38:43.111249+00:00",
+  "generated_at": "2026-10-31T21:38:47.567162+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,44 +8,17 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 30,
+      "reddit": 25,
+      "hackernews": 25,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
     {
-      "name": "Mistral",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-large-4-oss/",
-          "signal": "We're releasing the weights of Mistral Large 4"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -68,12 +41,17 @@
         {
           "platform": "hackernews",
           "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "signal": "We Took over ChatGPT Accounts"
+          "signal": "Do the math: How we took over ChatGPT accounts"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkf80p/chatgpt_image_30_incoming/",
+          "signal": "ChatGPT Image 3.0 incoming"
         },
         {
           "platform": "reddit",
@@ -86,14 +64,9 @@
           "signal": "Fun things to do with ChatGPT?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk5djy/last_day_4_free_months_of_chatgpt_plus_for_us/",
-          "signal": "Last day: 4 free months of ChatGPT Plus for US students (claim by Oct 31)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjx6i9/buddy_asked_chatgpt_to_make_an_stl/",
-          "signal": "Buddy asked ChatGPT to make an STL..."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fqQz_PSovqk",
+          "signal": "3 ChatGPT Codes to Study Smarter 🎯 #chatgpt #viralshorts"
         }
       ],
       "content_ideas": []
@@ -126,51 +99,28 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
-          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+          "signal": "Cisco gives engineer unlimited AI tokens to rewrite legacy code"
         }
       ],
       "content_ideas": []
@@ -257,33 +207,6 @@
       "content_ideas": []
     },
     {
-      "name": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-          "signal": "Cisco gives engineer unlimited AI tokens to rewrite legacy code"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Building an AI-native engineering org",
       "category": "use_case",
       "momentum": "rising",
@@ -311,33 +234,6 @@
       "content_ideas": []
     },
     {
-      "name": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
-          "signal": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "OpenAI raises less than half of $30B target",
       "category": "use_case",
       "momentum": "rising",
@@ -350,7 +246,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -365,7 +261,34 @@
       "content_ideas": []
     },
     {
-      "name": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "name": "Malware uses LLMs to rank victims by how much they're worth",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "signal": "Malware uses LLMs to rank victims by how much they're worth"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: Are you tired too in this AI era?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -385,18 +308,61 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/SheepSeb/tinyworldformer",
-          "signal": "A tiny world model running games on a Raspberry Pi Pico 2 W"
+          "url": "https://news.ycombinator.com/item?id=50301479",
+          "signal": "Ask HN: Are you tired too in this AI era?"
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Mistral",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+          "signal": "Anthropic's Claude AI blocks video game cloning and reverse-engineering"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+          "signal": "Anthropic orders AI tool Claude to stop remaking video games"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
+          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
+          "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Proton goes all in on using AI",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -406,24 +372,26 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://mistral.ai/news/mistral-large-4-oss/",
-          "signal": "We're releasing the weights of Mistral Large 4"
+          "url": "https://convo.casa/@b/117525936178835007",
+          "signal": "Proton goes all in on using AI"
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -446,12 +414,17 @@
         {
           "platform": "hackernews",
           "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "signal": "We Took over ChatGPT Accounts"
+          "signal": "Do the math: How we took over ChatGPT accounts"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkf80p/chatgpt_image_30_incoming/",
+          "signal": "ChatGPT Image 3.0 incoming"
         },
         {
           "platform": "reddit",
@@ -464,20 +437,15 @@
           "signal": "Fun things to do with ChatGPT?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk5djy/last_day_4_free_months_of_chatgpt_plus_for_us/",
-          "signal": "Last day: 4 free months of ChatGPT Plus for US students (claim by Oct 31)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjx6i9/buddy_asked_chatgpt_to_make_an_stl/",
-          "signal": "Buddy asked ChatGPT to make an STL..."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fqQz_PSovqk",
+          "signal": "3 ChatGPT Codes to Study Smarter 🎯 #chatgpt #viralshorts"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Gemini",
+      "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
@@ -492,7 +460,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 10,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -500,28 +468,23 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-          "signal": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+          "signal": "Anthropic's Claude AI blocks video game cloning and reverse-engineering"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+          "signal": "Anthropic orders AI tool Claude to stop remaking video games"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
+          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
+          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
-          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
+          "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
         }
       ],
       "content_ideas": []
@@ -529,9 +492,33 @@
   ],
   "pain_points": [
     {
-      "problem": "LIMIT, LIMIT EVERYTHING!",
+      "problem": "Combined Work and Chat limits starting with small groups",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkeq7b/combined_work_and_chat_limits_starting_with_small/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "AI Isn’t the Problem. Cruel People Are.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkdgnx/ai_isnt_the_problem_cruel_people_are/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "LIMIT, LIMIT EVERYTHING!",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
@@ -539,19 +526,7 @@
         }
       ],
       "content_opportunity": ""
-    },
-    {
-      "problem": "Why does my weekly limit sometimes reset during the night?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk6yrj/why_does_my_weekly_limit_sometimes_reset_during/"
-        }
-      ],
-      "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Mistral — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
