@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:24:15.774018+00:00",
+  "generated_at": "2026-10-31T05:48:50.691229+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -18,7 +18,7 @@
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -87,51 +87,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj2qyo/its_getting_exhausting_lately_my_chatgpt_ends/",
-          "signal": "It’s getting exhausting, lately my chatgpt ends every input with stuff like “but tell me one thing”"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjx6i9/buddy_asked_chatgpt_to_make_an_stl/",
+          "signal": "Buddy asked ChatGPT to make an STL..."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjljnj/web_search_not_working_in_chatgpt_work_anyone_else/",
-          "signal": "Web search not working in ChatGPT Work. Anyone else?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-          "signal": "Claude Code regularly sends each background agent’s transcript to its model"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
-          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
-          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjxusq/fix_chatgpt_ignoring_your_returnenter_keyboard/",
+          "signal": "[Fix] ChatGPT ignoring your Return/Enter keyboard shortcut settings? Here's a working Tampermonkey script"
         }
       ],
       "content_ideas": []
@@ -192,13 +154,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lXLmgsNP3MY",
           "signal": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon &amp; A Terrifying Voice Model"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
         },
         {
           "platform": "youtube",
@@ -290,6 +257,33 @@
       "content_ideas": []
     },
     {
+      "name": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+          "signal": "Cisco gives engineer unlimited AI tokens to rewrite legacy code"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
       "category": "use_case",
       "momentum": "rising",
@@ -312,6 +306,33 @@
           "platform": "hackernews",
           "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
           "signal": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Building an AI-native engineering org",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+          "signal": "Building an AI-native engineering org"
         }
       ],
       "content_ideas": []
@@ -356,7 +377,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -369,40 +390,13 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Zombie stats: Where the numbers AI quotes come from",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://trakkr.ai/trakkr-research/zombie-stats",
-          "signal": "Zombie stats: Where the numbers AI quotes come from"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
       "name": "Mistral",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -471,51 +465,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj2qyo/its_getting_exhausting_lately_my_chatgpt_ends/",
-          "signal": "It’s getting exhausting, lately my chatgpt ends every input with stuff like “but tell me one thing”"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjx6i9/buddy_asked_chatgpt_to_make_an_stl/",
+          "signal": "Buddy asked ChatGPT to make an STL..."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjljnj/web_search_not_working_in_chatgpt_work_anyone_else/",
-          "signal": "Web search not working in ChatGPT Work. Anyone else?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-          "signal": "Claude Code regularly sends each background agent’s transcript to its model"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vtryZ5J6rls",
-          "signal": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
-          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjxusq/fix_chatgpt_ignoring_your_returnenter_keyboard/",
+          "signal": "[Fix] ChatGPT ignoring your Return/Enter keyboard shortcut settings? Here's a working Tampermonkey script"
         }
       ],
       "content_ideas": []
@@ -549,13 +505,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lXLmgsNP3MY",
           "signal": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon &amp; A Terrifying Voice Model"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
         },
         {
           "platform": "youtube",
@@ -575,30 +536,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xjr96d/limit_limit_everything/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Breaking: OpenAI confirmed to merge chat and work limits",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xixy91/breaking_openai_confirmed_to_merge_chat_and_work/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Web search not working in ChatGPT Work. Anyone else?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjljnj/web_search_not_working_in_chatgpt_work_anyone_else/"
         }
       ],
       "content_opportunity": ""
