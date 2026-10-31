@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:48:50.691229+00:00",
+  "generated_at": "2026-10-31T12:38:43.111249+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 29,
+      "reddit": 50,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -48,8 +48,8 @@
       "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -66,34 +66,34 @@
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "signal": "We Took over ChatGPT Accounts"
+        },
+        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjnaxf/openai_tipped_off_police_more_than_200_times_in/",
-          "signal": "OpenAI tipped off police more than 200 times in three months over ChatGPT chats"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7tle/adhd_friends_whats_your_most_useful_chatgpt/",
+          "signal": "ADHD friends, what’s your most useful ChatGPT discovery for staying organised?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj7xnj/wtf_chatgpt/",
-          "signal": "Wtf chatgpt 😭💔😭"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7hs8/fun_things_to_do_with_chatgpt/",
+          "signal": "Fun things to do with ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjhtpq/british_airways_customer_support_forgot_to_remove/",
-          "signal": "British Airways customer support forgot to remove the ChatGPT preamble"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk5djy/last_day_4_free_months_of_chatgpt_plus_for_us/",
+          "signal": "Last day: 4 free months of ChatGPT Plus for US students (claim by Oct 31)"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xjx6i9/buddy_asked_chatgpt_to_make_an_stl/",
           "signal": "Buddy asked ChatGPT to make an STL..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjxusq/fix_chatgpt_ignoring_your_returnenter_keyboard/",
-          "signal": "[Fix] ChatGPT ignoring your Return/Enter keyboard shortcut settings? Here's a working Tampermonkey script"
         }
       ],
       "content_ideas": []
@@ -159,13 +159,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lXLmgsNP3MY",
-          "signal": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon &amp; A Terrifying Voice Model"
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
         },
         {
           "platform": "youtube",
@@ -269,7 +269,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -279,6 +279,33 @@
           "platform": "hackernews",
           "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
           "signal": "Cisco gives engineer unlimited AI tokens to rewrite legacy code"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Building an AI-native engineering org",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+          "signal": "Building an AI-native engineering org"
         }
       ],
       "content_ideas": []
@@ -311,7 +338,7 @@
       "content_ideas": []
     },
     {
-      "name": "Building an AI-native engineering org",
+      "name": "OpenAI raises less than half of $30B target",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -331,8 +358,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://twitter.com/sgondala2/status/2115832070274723875",
-          "signal": "Building an AI-native engineering org"
+          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+          "signal": "OpenAI raises less than half of $30B target"
         }
       ],
       "content_ideas": []
@@ -360,33 +387,6 @@
           "platform": "hackernews",
           "url": "https://github.com/SheepSeb/tinyworldformer",
           "signal": "A tiny world model running games on a Raspberry Pi Pico 2 W"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: Are you tired too in this AI era?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50301479",
-          "signal": "Ask HN: Are you tired too in this AI era?"
         }
       ],
       "content_ideas": []
@@ -426,8 +426,8 @@
       "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -444,34 +444,34 @@
       },
       "sources": [
         {
+          "platform": "hackernews",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "signal": "We Took over ChatGPT Accounts"
+        },
+        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjnaxf/openai_tipped_off_police_more_than_200_times_in/",
-          "signal": "OpenAI tipped off police more than 200 times in three months over ChatGPT chats"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7tle/adhd_friends_whats_your_most_useful_chatgpt/",
+          "signal": "ADHD friends, what’s your most useful ChatGPT discovery for staying organised?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xj7xnj/wtf_chatgpt/",
-          "signal": "Wtf chatgpt 😭💔😭"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7hs8/fun_things_to_do_with_chatgpt/",
+          "signal": "Fun things to do with ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjhtpq/british_airways_customer_support_forgot_to_remove/",
-          "signal": "British Airways customer support forgot to remove the ChatGPT preamble"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk5djy/last_day_4_free_months_of_chatgpt_plus_for_us/",
+          "signal": "Last day: 4 free months of ChatGPT Plus for US students (claim by Oct 31)"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xjx6i9/buddy_asked_chatgpt_to_make_an_stl/",
           "signal": "Buddy asked ChatGPT to make an STL..."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjxusq/fix_chatgpt_ignoring_your_returnenter_keyboard/",
-          "signal": "[Fix] ChatGPT ignoring your Return/Enter keyboard shortcut settings? Here's a working Tampermonkey script"
         }
       ],
       "content_ideas": []
@@ -510,13 +510,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lXLmgsNP3MY",
-          "signal": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon &amp; A Terrifying Voice Model"
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
         },
         {
           "platform": "youtube",
@@ -536,6 +536,18 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xjr96d/limit_limit_everything/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Why does my weekly limit sometimes reset during the night?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk6yrj/why_does_my_weekly_limit_sometimes_reset_during/"
         }
       ],
       "content_opportunity": ""
