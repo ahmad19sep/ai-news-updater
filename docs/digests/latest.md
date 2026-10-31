@@ -21,8 +21,8 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://www.sciencedaily.com/releases/2026/10/261024222024.htm
 7. **Can scientists reliably tell if a novel is written using AI?** — science angle
    https://www.nature.com/articles/d41586-026-03394-4
-8. **AI and Medicine: Who’s the Doctor? - HPCwire** — science angle
-   https://news.google.com/rss/articles/CBMidkFVX3lxTE5sSlNhQVYyUEhXMUpER2pPdGZDM1BlbndiRXlLSjdoYWczOC1sUWFIR2NPejhtRzdCZDZLRnNzLTNIUnB4ZWZISkVmZmI1c1JhOS1UczZ2QjRGSGpDcnliQXNMUTh0cEwyeU95eWJWcDR4RUJERGc?oc=5
+8. **Opinion | Should AI Replace Doctors? A Conversation With Zeke Emanuel - MedPage Today** — science angle
+   https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JRjUwcUh2RS1iVzBhQnVoMzNuSlF5Wkwyc3BKTFcxZEVBS0sxa1NxYy0yLVFHeUM3dmVqV2l5WkhXcFRCb2J3aG5YV1BaQ1hPc2RzRXl3aXkzZzlsd2xjUERPVDE?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **One Tech Tip: How to get started with AI agents, and which are best for specific tasks** — livemint — Score 113
@@ -54,7 +54,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **Microsoft ai outperforms doctors in medical diagnosis study - A News** — https://news.google.com/rss/articles/CBMiogFBVV95cUxPTjlCZi14TU00ZWJFQ1FzeDB6ZEd1VXp1VzZINFNDU29FNHVzTE9uNzVkdEpVcW14Q0VLR3NqZ2ljemdaSHFGRFVrbThFblpmbkgxSDlCSUNKUEt6NWlVMlNTY3hlb0dOZ0U0N3RCVGdzanJzRjE4UkdYdHlreWRMUkhpekhCM3JiQzRDQXdTNWNueVJtNnNoM04zVmVYNTMxN1HSAacBQVVfeXFMTW1ub0luQzlYME5fV0I5SnAyeThnS3dUNElFVVFfcm83UEpwOUwwVTQ5LTdiMjFIRFBGTi1JTXB0ckIzV2E0ZHMzR1p3Zm5IdTlMMmxwLVIzWG9rYVM0RlJQYmRaZnhmcXZQWTJxblpYUnJfd1phZ1VFV3ZJOG81bHVYd2lNYVQtUXRwM0taRXRtSnhMU0NnSzAtVnM0Y1F1VTNhZDRkOUU?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2825
+- Total stories tracked: 2808
 - Most active topic: anthropic
 - Busiest category: AI General News
 
