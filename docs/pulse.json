@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T21:38:47.567162+00:00",
+  "generated_at": "2026-11-01T06:12:06.967486+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -23,7 +23,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -44,29 +43,29 @@
           "signal": "Do the math: How we took over ChatGPT accounts"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkf80p/chatgpt_image_30_incoming/",
-          "signal": "ChatGPT Image 3.0 incoming"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7tle/adhd_friends_whats_your_most_useful_chatgpt/",
-          "signal": "ADHD friends, what’s your most useful ChatGPT discovery for staying organised?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7hs8/fun_things_to_do_with_chatgpt/",
-          "signal": "Fun things to do with ChatGPT?"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=fqQz_PSovqk",
           "signal": "3 ChatGPT Codes to Study Smarter 🎯 #chatgpt #viralshorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
+          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OHbfouNwiYE",
+          "signal": "TAMISH NE KIYA KITCHEN PAR TAKEOVER 😱🍝 | CHATGPT KE SAATH WHITE SAUCE PASTA 🤣 #streetfood #food"
         }
       ],
       "content_ideas": []
@@ -126,33 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "We ran AI agent swarms in Minecraft and Mindustry",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://labs.ycombinator.com/projects/games/index.html",
-          "signal": "We ran AI agent swarms in Minecraft and Mindustry"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "US tech stocks see sharp falls over AI cost fears",
       "category": "use_case",
       "momentum": "rising",
@@ -207,7 +179,7 @@
       "content_ideas": []
     },
     {
-      "name": "Building an AI-native engineering org",
+      "name": "Malware uses LLMs to rank victims by how much they're worth",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -217,7 +189,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 8,
       "monetization": {
@@ -227,8 +199,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://twitter.com/sgondala2/status/2115832070274723875",
-          "signal": "Building an AI-native engineering org"
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "signal": "Malware uses LLMs to rank victims by how much they're worth"
         }
       ],
       "content_ideas": []
@@ -256,33 +228,6 @@
           "platform": "hackernews",
           "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
           "signal": "OpenAI raises less than half of $30B target"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Malware uses LLMs to rank victims by how much they're worth",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-          "signal": "Malware uses LLMs to rank victims by how much they're worth"
         }
       ],
       "content_ideas": []
@@ -348,11 +293,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
-          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
           "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
         }
@@ -360,7 +300,51 @@
       "content_ideas": []
     },
     {
-      "name": "Proton goes all in on using AI",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Product Managers aren't safe either",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -372,7 +356,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -380,8 +364,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://convo.casa/@b/117525936178835007",
-          "signal": "Proton goes all in on using AI"
+          "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
+          "signal": "Product Managers aren't safe either"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+          "signal": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)"
         }
       ],
       "content_ideas": []
@@ -396,7 +407,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -417,29 +427,29 @@
           "signal": "Do the math: How we took over ChatGPT accounts"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkf80p/chatgpt_image_30_incoming/",
-          "signal": "ChatGPT Image 3.0 incoming"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7tle/adhd_friends_whats_your_most_useful_chatgpt/",
-          "signal": "ADHD friends, what’s your most useful ChatGPT discovery for staying organised?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xk7hs8/fun_things_to_do_with_chatgpt/",
-          "signal": "Fun things to do with ChatGPT?"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=fqQz_PSovqk",
           "signal": "3 ChatGPT Codes to Study Smarter 🎯 #chatgpt #viralshorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
+          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OHbfouNwiYE",
+          "signal": "TAMISH NE KIYA KITCHEN PAR TAKEOVER 😱🍝 | CHATGPT KE SAATH WHITE SAUCE PASTA 🤣 #streetfood #food"
         }
       ],
       "content_ideas": []
@@ -478,55 +488,57 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
-          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
           "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "pain_points": [
-    {
-      "problem": "Combined Work and Chat limits starting with small groups",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkeq7b/combined_work_and_chat_limits_starting_with_small/"
-        }
-      ],
-      "content_opportunity": ""
     },
     {
-      "problem": "AI Isn’t the Problem. Cruel People Are.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
       "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkdgnx/ai_isnt_the_problem_cruel_people_are/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "LIMIT, LIMIT EVERYTHING!",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
+        },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xjr96d/limit_limit_everything/"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
-      "content_opportunity": ""
+      "content_ideas": []
     }
   ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
