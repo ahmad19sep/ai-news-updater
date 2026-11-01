@@ -15,12 +15,12 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
 4. **Brown student maps the hidden global labor powering AI** — 167 upvotes on Reddit/HN
    https://www.brown.edu/news/2026-10-26/ai-data-workers
-5. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
-   https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
-6. **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — science angle
+5. **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmZMUzYyZ0NMLWprb1dYdUNNbHBhUm1kUGh3ZUNRMWpMNDFRa19adVlYTllKNWpJdHRTSHNWNGk3TDhyT2lSVGFXdFZoY2tySmVESmFlaEhBd0JzMm9pVUE2eWFHWUZtMWhfUnFGTXNRRGhkSmY4ejYwUnVoSEQyTndZQnoyRlpFS0JuVk1zNzBTWHRjYmJF?oc=5
-7. **Microsoft ai outperforms doctors in medical diagnosis study - A News** — science angle
+6. **Microsoft ai outperforms doctors in medical diagnosis study - A News** — science angle
    https://news.google.com/rss/articles/CBMiogFBVV95cUxPTjlCZi14TU00ZWJFQ1FzeDB6ZEd1VXp1VzZINFNDU29FNHVzTE9uNzVkdEpVcW14Q0VLR3NqZ2ljemdaSHFGRFVrbThFblpmbkgxSDlCSUNKUEt6NWlVMlNTY3hlb0dOZ0U0N3RCVGdzanJzRjE4UkdYdHlreWRMUkhpekhCM3JiQzRDQXdTNWNueVJtNnNoM04zVmVYNTMxN1HSAacBQVVfeXFMTW1ub0luQzlYME5fV0I5SnAyeThnS3dUNElFVVFfcm83UEpwOUwwVTQ5LTdiMjFIRFBGTi1JTXB0ckIzV2E0ZHMzR1p3Zm5IdTlMMmxwLVIzWG9rYVM0RlJQYmRaZnhmcXZQWTJxblpYUnJfd1phZ1VFV3ZJOG81bHVYd2lNYVQtUXRwM0taRXRtSnhMU0NnSzAtVnM0Y1F1VTNhZDRkOUU?oc=5
+7. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
 8. **Scientists overcome a hidden obstacle to more powerful quantum computers** — science angle
    https://www.sciencedaily.com/releases/2026/10/261024222024.htm
 
@@ -51,10 +51,10 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **As an SU pre-med student, I hope AI can help doctors without replacing them - The Daily Orange** — https://news.google.com/rss/articles/CBMimwFBVV95cUxQV29jVEk4b0FvUnBPTlRVQ1dvNjRYRGNuM2VRVDJUaGFvSTZoZGNOaW4tZ3NXVjk2NS05RDNvNUE2U05idVlQVlpIbmNaQUE2M3hvWWRwSllhRlliQ2ZIMWhDUWtGWjg3WUhTMzJRQi1tTmRQVnUxYkRVaURXVXlrdnVybEpMZmcxeVh2SHEydGM5aDF0RDJIbDdlaw?oc=5
 - **Trust robots over doctors? Many AI users already do - KTEN** — https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlNmSFlyRHNMZ29NdGRCMzJkdkNUbFdHYzVPV2tramhjTGdVVVlVYzNmaThfdWJsWC1xbWN2UjZUR1lBcEpueTRzeHJCaWZzOHFQLW12WmhkNHFnY0otNXNJRk56bmpYXzZzcXAzYmhFekRRY0xST0RyeDVlWXA0WDVQVF93dFFaTDVobXhYaGFUWkNhcWFaNUk5bl9JalZOTmxXUGdrSkhvYURiNk0yb1gyVVZ5VVU1dlhBSWdiVzltT1hGa3J4RktUeTJ5QQ?oc=5
 - **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
-- **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
+- **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmZMUzYyZ0NMLWprb1dYdUNNbHBhUm1kUGh3ZUNRMWpMNDFRa19adVlYTllKNWpJdHRTSHNWNGk3TDhyT2lSVGFXdFZoY2tySmVESmFlaEhBd0JzMm9pVUE2eWFHWUZtMWhfUnFGTXNRRGhkSmY4ejYwUnVoSEQyTndZQnoyRlpFS0JuVk1zNzBTWHRjYmJF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2844
+- Total stories tracked: 2799
 - Most active topic: anthropic
 - Busiest category: AI General News
 
