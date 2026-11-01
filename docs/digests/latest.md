@@ -54,7 +54,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmZMUzYyZ0NMLWprb1dYdUNNbHBhUm1kUGh3ZUNRMWpMNDFRa19adVlYTllKNWpJdHRTSHNWNGk3TDhyT2lSVGFXdFZoY2tySmVESmFlaEhBd0JzMm9pVUE2eWFHWUZtMWhfUnFGTXNRRGhkSmY4ejYwUnVoSEQyTndZQnoyRlpFS0JuVk1zNzBTWHRjYmJF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2812
+- Total stories tracked: 2828
 - Most active topic: anthropic
 - Busiest category: AI General News
 
