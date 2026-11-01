@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:33:07.183721+00:00",
+  "generated_at": "2026-11-01T22:05:14.064601+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 27,
+      "reddit": 25,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,33 +50,34 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlb8ii/chatgpt_is_the_only_therapy_ive_been_able_to/",
+          "signal": "ChatGPT is the only therapy I've been able to receive for my life resetting head injury in 5 years of seeking \"help\" so far"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0pwq/chatgpt_feeling_sad_with_4_others/",
           "signal": "Chatgpt feeling sad with 4 others"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkm5tf/if_youre_not_using_chatgpts_voicetotext_feature/",
-          "signal": "If you're not using ChatGPT's voice-to-text feature, you're seriously missing out"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0ybl/whats_a_chatgpt_lifehack_you_use_every_day_that/",
+          "signal": "What's a ChatGPT lifehack you use every day that most people don't know about?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkud9n/what_to_expect_about_the_upcoming_merge_of/",
-          "signal": "What to expect about the up-coming merge of ChatGPT and Codex usage"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkook7/using_chatgpt_dot_to_reconstruct_a_film_sequence/",
-          "signal": "Using ChatGPT dot to reconstruct a film sequence as editable Blender previs"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl7dqs/alternatives_to_chatgpt_with_similar_performance/",
+          "signal": "Alternatives to ChatGPT with similar performance models for coding and no usage limits?"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI isn't replacing SREs, it's deskilling them",
+      "name": "The AI cost of JavaScript frameworks",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -92,89 +93,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-          "signal": "AI isn't replacing SREs, it's deskilling them"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-          "signal": "Cisco gives engineer unlimited AI tokens to rewrite legacy code"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "US tech stocks see sharp falls over AI cost fears",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-          "signal": "US tech stocks see sharp falls over AI cost fears"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Proton's CEO Cancels AI 'Re-Interviews'",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-          "signal": "Proton's CEO Cancels AI 'Re-Interviews'"
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "signal": "The AI cost of JavaScript frameworks"
         }
       ],
       "content_ideas": []
@@ -234,6 +154,33 @@
       "content_ideas": []
     },
     {
+      "name": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arxiv.org/abs/2409.02292",
+          "signal": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -247,9 +194,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -267,47 +214,139 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
-          "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
+          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
+          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "It wasn't AI that flipped Proton's charge",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+          "signal": "It wasn't AI that flipped Proton's charge"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI agent swarms in Minecraft fail to build civilization, drown in bure",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+          "signal": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Frontier Airlines Likely Breached",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+          "signal": "Frontier Airlines Likely Breached"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
-          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The AI cost of JavaScript frameworks",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-          "signal": "The AI cost of JavaScript frameworks"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from ",
+      "name": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -317,7 +356,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 4,
       "monetization": {
@@ -327,35 +366,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2409.02292",
-          "signal": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Product Managers aren't safe either",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
-          "signal": "Product Managers aren't safe either"
+          "url": "https://github.com/ivankovic/omnidiff",
+          "signal": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust"
         }
       ],
       "content_ideas": []
@@ -424,23 +436,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlb8ii/chatgpt_is_the_only_therapy_ive_been_able_to/",
+          "signal": "ChatGPT is the only therapy I've been able to receive for my life resetting head injury in 5 years of seeking \"help\" so far"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0pwq/chatgpt_feeling_sad_with_4_others/",
           "signal": "Chatgpt feeling sad with 4 others"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkm5tf/if_youre_not_using_chatgpts_voicetotext_feature/",
-          "signal": "If you're not using ChatGPT's voice-to-text feature, you're seriously missing out"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0ybl/whats_a_chatgpt_lifehack_you_use_every_day_that/",
+          "signal": "What's a ChatGPT lifehack you use every day that most people don't know about?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkud9n/what_to_expect_about_the_upcoming_merge_of/",
-          "signal": "What to expect about the up-coming merge of ChatGPT and Codex usage"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xkook7/using_chatgpt_dot_to_reconstruct_a_film_sequence/",
-          "signal": "Using ChatGPT dot to reconstruct a film sequence as editable Blender previs"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl7dqs/alternatives_to_chatgpt_with_similar_performance/",
+          "signal": "Alternatives to ChatGPT with similar performance models for coding and no usage limits?"
         }
       ],
       "content_ideas": []
@@ -459,9 +471,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -479,18 +491,94 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
-          "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
+          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
+          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FEjkiSwSoc8",
-          "signal": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙"
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "OpenAI is dressing up shared usage limits as an upgrade. How very Orwellian.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl8nqv/openai_is_dressing_up_shared_usage_limits_as_an/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Merging Chat & Work Limits Should Be Optional",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl7soa/merging_chat_work_limits_should_be_optional/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Alternatives to ChatGPT with similar performance models for coding and no usage limits?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl7dqs/alternatives_to_chatgpt_with_similar_performance/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
