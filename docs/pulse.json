@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:12:19.007491+00:00",
+  "generated_at": "2026-11-02T16:09:27.291003+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -18,11 +18,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -39,34 +39,34 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "signal": "Do the math: How we took over ChatGPT accounts"
-        },
-        {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
           "signal": "Made with ChatGPT Images 2.0"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlhlw1/what_advantages_does_chatgpt_plus_still_have_over/",
-          "signal": "What advantages does ChatGPT Plus still have over its competitors?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlq569/chatgpt_chat_unlimited_use_will_be_axed/",
+          "signal": "ChatGPT (chat, unlimited use) will be axed."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0ybl/whats_a_chatgpt_lifehack_you_use_every_day_that/",
-          "signal": "What's a ChatGPT lifehack you use every day that most people don't know about?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlyxan/chatgpt_work_integration_questions_about_memory/",
+          "signal": "ChatGPT & Work Integration – Questions About Memory, Projects, and Token Usage"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0pwq/chatgpt_feeling_sad_with_4_others/",
-          "signal": "Chatgpt feeling sad with 4 others"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L7ETYjlztSw",
+          "signal": "ചുമ്മാ ഒരു പ്രമോഷൻ😅🔥 #chatgpt #exampreparation #fyp #trending #shorts"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl5nwh/nooooooooooooooooooo_chatgpt_app/",
-          "signal": "Nooooooooooooooooooo ChatGPT app"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ptY7fSTqBJo",
+          "signal": "Badtameez Chatgpt Pt-11😡🤣 #roycesharma #hcpk"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=W2TwpDajSeo",
+          "signal": "Ai Know My Jacket Colour 😱 But How ? #chatgpt #ai"
         }
       ],
       "content_ideas": []
@@ -112,7 +112,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -127,7 +127,36 @@
       "content_ideas": []
     },
     {
-      "name": "Malware uses LLMs to rank victims by how much they're worth",
+      "name": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned o",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://wikihack.netlify.app",
+          "signal": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -147,58 +176,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-          "signal": "Malware uses LLMs to rank victims by how much they're worth"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-          "signal": "Anthropic's Claude AI blocks video game cloning and reverse-engineering"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
-          "signal": "Anthropic orders AI tool Claude to stop remaking video games"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
-          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X2cFbpQCZec",
-          "signal": "So...Claude Just Cloned Hollow Knight in Under an Hour"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
-          "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
+          "url": "https://github.com/ivankovic/omnidiff",
+          "signal": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust"
         }
       ],
       "content_ideas": []
@@ -243,7 +222,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -253,87 +232,6 @@
           "platform": "hackernews",
           "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
           "signal": "Frontier Airlines Likely Breached"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
-          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
-          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/ivankovic/omnidiff",
-          "signal": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust"
         }
       ],
       "content_ideas": []
@@ -393,141 +291,6 @@
       "content_ideas": []
     },
     {
-      "name": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
-          "signal": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "signal": "Do the math: How we took over ChatGPT accounts"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlhlw1/what_advantages_does_chatgpt_plus_still_have_over/",
-          "signal": "What advantages does ChatGPT Plus still have over its competitors?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0ybl/whats_a_chatgpt_lifehack_you_use_every_day_that/",
-          "signal": "What's a ChatGPT lifehack you use every day that most people don't know about?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0pwq/chatgpt_feeling_sad_with_4_others/",
-          "signal": "Chatgpt feeling sad with 4 others"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl5nwh/nooooooooooooooooooo_chatgpt_app/",
-          "signal": "Nooooooooooooooooooo ChatGPT app"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-          "signal": "Anthropic's Claude AI blocks video game cloning and reverse-engineering"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
-          "signal": "Anthropic orders AI tool Claude to stop remaking video games"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QZ6OlRUDjqs",
-          "signal": "China Just Dropped A Free AI That Almost Matches Claude Opus 5.5 (Here’s How To Use It)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X2cFbpQCZec",
-          "signal": "So...Claude Just Cloned Hollow Knight in Under an Hour"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u_J77nEB15M",
-          "signal": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -542,7 +305,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -565,8 +328,164 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ia09PrgoCxo",
-          "signal": "AI taking over Humanity | ChatGPT, Gemini, Claude"
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+          "signal": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/",
+          "signal": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlq569/chatgpt_chat_unlimited_use_will_be_axed/",
+          "signal": "ChatGPT (chat, unlimited use) will be axed."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlyxan/chatgpt_work_integration_questions_about_memory/",
+          "signal": "ChatGPT & Work Integration – Questions About Memory, Projects, and Token Usage"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L7ETYjlztSw",
+          "signal": "ചുമ്മാ ഒരു പ്രമോഷൻ😅🔥 #chatgpt #exampreparation #fyp #trending #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ptY7fSTqBJo",
+          "signal": "Badtameez Chatgpt Pt-11😡🤣 #roycesharma #hcpk"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=W2TwpDajSeo",
+          "signal": "Ai Know My Jacket Colour 😱 But How ? #chatgpt #ai"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
+          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
         },
         {
           "platform": "youtube",
@@ -584,25 +503,37 @@
   ],
   "pain_points": [
     {
-      "problem": "OpenAI is dressing up shared usage limits as an upgrade. How very Orwellian.",
+      "problem": "GPT-6 has more problems than improvements, yet OpenAI wants to limit our usage?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl8nqv/openai_is_dressing_up_shared_usage_limits_as_an/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlwf61/gpt6_has_more_problems_than_improvements_yet/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Merging Chat & Work Limits Should Be Optional",
+      "problem": "OpenAI's shared usage limits could cost them something more valuable than subscribers: the users who help improve their models",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xl7soa/merging_chat_work_limits_should_be_optional/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlu1fw/openais_shared_usage_limits_could_cost_them/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Are the limits already in place? But aren’t they supposed to come into effect in December?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlw8r1/are_the_limits_already_in_place_but_arent_they/"
         }
       ],
       "content_opportunity": ""
