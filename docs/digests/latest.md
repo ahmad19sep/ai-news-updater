@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 25 Oct 2026 to 01 Nov 2026
+# 🗞️ AI THIS WEEK — 26 Oct 2026 to 02 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **One Tech Tip: How to get started with AI agents, and which are best for specific tasks**
@@ -7,22 +7,22 @@ Best source link: https://www.livemint.com/technology/one-tech-tip-how-to-get-st
 All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-11793246711702.html · https://www.newstimes.com/living/article/one-tech-tip-how-to-get-started-with-ai-agents-22499849.php · https://www.lakelandtoday.ca/lifestyle/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953871 · https://www.vancouverisawesome.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.stalbertgazette.com/lifestyle-news/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953871 · https://www.richmond-news.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.timescolonist.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://www.nsnews.com/the-mix/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks-12953862 · https://news.google.com/rss/articles/CBMiogFBVV95cUxPRmgzUWdmdGlPN1JkX0FwZHAyem1NbHRtdGx0c3ZmdVJ5NEdwRlJRQ2Q1SnBsZXg3YmdLeXl6MnI0UXphWkY4Nzlwc1V5ZmF5ZndIMWJVazB6djJQMmRGSnQ1V3lIOWVQdnhraGFrQWNyT29sUTAtR19oeGVKc2RyUl9VbHdGYXlRcEpRNlBObEE0aWt2U1h1S0pJa0dXLXpMYXc?oc=5 · https://news.google.com/rss/articles/CBMivAFBVV95cUxPMjhRR254b1hqY1BPSlBjV2dNV3VTSEI2VGc2ckc0ZlM1WVRTUW9yNnJ5a3JKSG1uaVl3SFhRS0p1MDJIRjR1TFZkcXJYa0d6OGtBZXFSQ1A1bzVjdVYtS0JyOTNaRHJOV0lGTUN3VExzUU5IQlNWVk4tcmszb3pheHJIZTFLUGEteHpBOEpZZjk4NVZYTmswdlpBck5tMlFHcjA3bk9rZnJBZmNJX0prMWE1a2lXZktBXzlnaw?oc=5 · https://www.thestar.com.my/tech/tech-news/2026/10/30/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks
 
 ## 🤯 Most Interesting / Real-World AI Uses
-1. **As an SU pre-med student, I hope AI can help doctors without replacing them - The Daily Orange** — science angle
+1. **Doctors ‘gaslit’ a medical student struggling with chronic illness. She built an $18m women’s health AI to prove them wrong - Macquarie University** — science angle
+   https://news.google.com/rss/articles/CBMihgJBVV95cUxPR1YwaDF4X0RFTWxXZlFSWXAxbFBuaTk0V0ZGaWR5MXhoRzVILUlfWUtyN0lETlVqdEd3Y1RRc09uV2dNR3FHSXNkcHQ5eVNva2I2TXQwWnpYajdmdXRtX2dtSndaOGtPaDJWZGx5LVBjUzBidkJaVXhhR1ZVTUNHMnIzWXEzV2lZWVNGYTJEaDhrRExDVERXSlhqVUpUdWNJOVpDNTYzcDg4ZVZvNW1SZmVHRllTS05lMHE1N3JESlFDUVlxczdwN19ibVJ1Wkt1Q1hWZUg5V2g0NXgzMVFyMlNfSHFNNGI4WFRwSms0dW45RWpSQjFPWFhIOUo5WEpwQWFia1JB?oc=5
+2. **As an SU pre-med student, I hope AI can help doctors without replacing them - The Daily Orange** — science angle
    https://news.google.com/rss/articles/CBMimwFBVV95cUxQV29jVEk4b0FvUnBPTlRVQ1dvNjRYRGNuM2VRVDJUaGFvSTZoZGNOaW4tZ3NXVjk2NS05RDNvNUE2U05idVlQVlpIbmNaQUE2M3hvWWRwSllhRlliQ2ZIMWhDUWtGWjg3WUhTMzJRQi1tTmRQVnUxYkRVaURXVXlrdnVybEpMZmcxeVh2SHEydGM5aDF0RDJIbDdlaw?oc=5
-2. **Trust robots over doctors? Many AI users already do - KTEN** — science angle
+3. **Trust robots over doctors? Many AI users already do - KTEN** — science angle
    https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlNmSFlyRHNMZ29NdGRCMzJkdkNUbFdHYzVPV2tramhjTGdVVVlVYzNmaThfdWJsWC1xbWN2UjZUR1lBcEpueTRzeHJCaWZzOHFQLW12WmhkNHFnY0otNXNJRk56bmpYXzZzcXAzYmhFekRRY0xST0RyeDVlWXA0WDVQVF93dFFaTDVobXhYaGFUWkNhcWFaNUk5bl9JalZOTmxXUGdrSkhvYURiNk0yb1gyVVZ5VVU1dlhBSWdiVzltT1hGa3J4RktUeTJ5QQ?oc=5
-3. **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — science angle
+4. **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — science angle
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
-4. **Brown student maps the hidden global labor powering AI** — 167 upvotes on Reddit/HN
+5. **Brown student maps the hidden global labor powering AI** — 167 upvotes on Reddit/HN
    https://www.brown.edu/news/2026-10-26/ai-data-workers
-5. **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — science angle
+6. **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — science angle
    https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmZMUzYyZ0NMLWprb1dYdUNNbHBhUm1kUGh3ZUNRMWpMNDFRa19adVlYTllKNWpJdHRTSHNWNGk3TDhyT2lSVGFXdFZoY2tySmVESmFlaEhBd0JzMm9pVUE2eWFHWUZtMWhfUnFGTXNRRGhkSmY4ejYwUnVoSEQyTndZQnoyRlpFS0JuVk1zNzBTWHRjYmJF?oc=5
-6. **Microsoft ai outperforms doctors in medical diagnosis study - A News** — science angle
+7. **Microsoft ai outperforms doctors in medical diagnosis study - A News** — science angle
    https://news.google.com/rss/articles/CBMiogFBVV95cUxPTjlCZi14TU00ZWJFQ1FzeDB6ZEd1VXp1VzZINFNDU29FNHVzTE9uNzVkdEpVcW14Q0VLR3NqZ2ljemdaSHFGRFVrbThFblpmbkgxSDlCSUNKUEt6NWlVMlNTY3hlb0dOZ0U0N3RCVGdzanJzRjE4UkdYdHlreWRMUkhpekhCM3JiQzRDQXdTNWNueVJtNnNoM04zVmVYNTMxN1HSAacBQVVfeXFMTW1ub0luQzlYME5fV0I5SnAyeThnS3dUNElFVVFfcm83UEpwOUwwVTQ5LTdiMjFIRFBGTi1JTXB0ckIzV2E0ZHMzR1p3Zm5IdTlMMmxwLVIzWG9rYVM0RlJQYmRaZnhmcXZQWTJxblpYUnJfd1phZ1VFV3ZJOG81bHVYd2lNYVQtUXRwM0taRXRtSnhMU0NnSzAtVnM0Y1F1VTNhZDRkOUU?oc=5
-7. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
+8. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
-8. **Scientists overcome a hidden obstacle to more powerful quantum computers** — science angle
-   https://www.sciencedaily.com/releases/2026/10/261024222024.htm
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **One Tech Tip: How to get started with AI agents, and which are best for specific tasks** — livemint — Score 113
@@ -39,22 +39,22 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMi4gFBVV95cUxORUQ3X19kU0RQR0l0Rm5WaFNEcW9qRzRySmh0azZKdU8wZUN3QXpUd1NJcmVLbVVjR19yVEFOaXZpQkhDNmZXQkJEcHJoTlpXRS1zWDdIZGk5QU1ic2JBUjdLcklFV2k1Mmt1OHBodUZhaHZxX2lPZkhXOTY4Y3JlVk4tTVVobHlYQmxITHNZaEt2NThMSER3R1RWbXlZVXVCMjEtY2RHcFEwWTROaE1KeUtGZHU0cEpTdDhldXJHeGxNdjBULVRJWWxIbXZqT2lyWUdCQjczaU02SW5vVDBuT2J3?oc=5
 7. **Family sues OpenAI, CEO Sam Altman over woman’s death - WHIO TV** — Sam Altman News — Score 58
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5
-8. **Narmi Launches Microsoft 365 Copilot Connector, Bringing Customer Financial Data Securely into Existing Banking Workflows - Yahoo! Finance Canada** — Microsoft AI — Score 50
+8. **Wysera Launches an AI Agent That Writes Marketing Content in a Company's Own Voice - The Daily Tribune News** — AI Agents — Score 51
+   https://news.google.com/rss/articles/CBMinAJBVV95cUxQOHJuaFVjMnFKM1VwcnUtYk5RSXQ4bWFwaXF4cW85OVlXaTUxdl95bXd6UkVYNEhZaUFvVmRfd2JrUEdiUWhrQ2kzWklMemRFeVJXVkk5UFFLUVVEOEZXMThVdkVxMzBEQVBIMm1wbGQ3ZDZyWlBWcC0zenlvV0RUZlpxX05mcXk3bG5fTjVSRnVWZHN2S0prdExIaWgtQzRoX1VzdFptX05hcUdjaFdENW5LX21DMEREVVRNaEdibThqXy11RExfelhvN2NhNjVHd2ZTV1dNQnMwLWxoRlphc2Z2LVpqRUJpQTlrQlNxYTQ0MFRoM3NQMWZsTXZWcG1LLUpHdWZCNC1OU1h1UVFlb1BZc1IyZ2ZscHQybw?oc=5
+9. **Narmi Launches Microsoft 365 Copilot Connector, Bringing Customer Financial Data Securely into Existing Banking Workflows - Yahoo! Finance Canada** — Microsoft AI — Score 50
    https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXc2TndpMnJveWV0bTJqVDNMd2s2dk9MQ1p2X0VrNGs5azZiTVh4SlN2clZqWlpxUElIdTVsb2NRYUc5eGJYaTgwZFAyS2R2cE11VHNmcklHaUhQWGVtdEMzN3hsRERBTWxxSVRVRjJzMDM2ZXdQVkJHcTZ0bGF2VGl5M3hHanBqVzhmMjlR?oc=5
-9. **Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates - Boston Herald** — Microsoft AI — Score 50
+10. **Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates - Boston Herald** — Microsoft AI — Score 50
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0duREdISXpBVFU3SEZoSkZ2cmk3OGNyd2NhVTgzSjVLdmp5YzNzam4wT1M4QU9TSmZPMzdJbTA1S3hfX2hYUmc3X2xOSjJldGJBSzR3UmN6SXRUcElEQ3VLWVRlZl9GMUVvWVRPSUxkTzQ5Wi13cS0xb19MTVZJTktETms4LVZNSU9Iak1qZDk?oc=5
-10. **Artificial intelligence giant Anthropic files papers to sell shares to the public for the first time - Orange County Register** — Dario Amodei News — Score 48
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxQSUNWWmUtZTdaNFRvbUw0MUZaUzJZYjJPT0txMzhsUmxSb2xhaUtmZjhzS0pRT3RUR3F6UXpfb19EV2xOSjZJYU9wVE1paHFkdHo4LTc4Vmp1R2d6STV3NEJuVjJyMlpmVi1yMUMwc2YxZmhubXp5QWlnenpkc2lEZ0l4SFU?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Trust robots over doctors? Many AI users already do - Leader Publications** — https://news.google.com/rss/articles/CBMi4gFBVV95cUxORUQ3X19kU0RQR0l0Rm5WaFNEcW9qRzRySmh0azZKdU8wZUN3QXpUd1NJcmVLbVVjR19yVEFOaXZpQkhDNmZXQkJEcHJoTlpXRS1zWDdIZGk5QU1ic2JBUjdLcklFV2k1Mmt1OHBodUZhaHZxX2lPZkhXOTY4Y3JlVk4tTVVobHlYQmxITHNZaEt2NThMSER3R1RWbXlZVXVCMjEtY2RHcFEwWTROaE1KeUtGZHU0cEpTdDhldXJHeGxNdjBULVRJWWxIbXZqT2lyWUdCQjczaU02SW5vVDBuT2J3?oc=5
+- **Doctors ‘gaslit’ a medical student struggling with chronic illness. She built an $18m women’s health AI to prove them wrong - Macquarie University** — https://news.google.com/rss/articles/CBMihgJBVV95cUxPR1YwaDF4X0RFTWxXZlFSWXAxbFBuaTk0V0ZGaWR5MXhoRzVILUlfWUtyN0lETlVqdEd3Y1RRc09uV2dNR3FHSXNkcHQ5eVNva2I2TXQwWnpYajdmdXRtX2dtSndaOGtPaDJWZGx5LVBjUzBidkJaVXhhR1ZVTUNHMnIzWXEzV2lZWVNGYTJEaDhrRExDVERXSlhqVUpUdWNJOVpDNTYzcDg4ZVZvNW1SZmVHRllTS05lMHE1N3JESlFDUVlxczdwN19ibVJ1Wkt1Q1hWZUg5V2g0NXgzMVFyMlNfSHFNNGI4WFRwSms0dW45RWpSQjFPWFhIOUo5WEpwQWFia1JB?oc=5
 - **As an SU pre-med student, I hope AI can help doctors without replacing them - The Daily Orange** — https://news.google.com/rss/articles/CBMimwFBVV95cUxQV29jVEk4b0FvUnBPTlRVQ1dvNjRYRGNuM2VRVDJUaGFvSTZoZGNOaW4tZ3NXVjk2NS05RDNvNUE2U05idVlQVlpIbmNaQUE2M3hvWWRwSllhRlliQ2ZIMWhDUWtGWjg3WUhTMzJRQi1tTmRQVnUxYkRVaURXVXlrdnVybEpMZmcxeVh2SHEydGM5aDF0RDJIbDdlaw?oc=5
 - **Trust robots over doctors? Many AI users already do - KTEN** — https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlNmSFlyRHNMZ29NdGRCMzJkdkNUbFdHYzVPV2tramhjTGdVVVlVYzNmaThfdWJsWC1xbWN2UjZUR1lBcEpueTRzeHJCaWZzOHFQLW12WmhkNHFnY0otNXNJRk56bmpYXzZzcXAzYmhFekRRY0xST0RyeDVlWXA0WDVQVF93dFFaTDVobXhYaGFUWkNhcWFaNUk5bl9JalZOTmxXUGdrSkhvYURiNk0yb1gyVVZ5VVU1dlhBSWdiVzltT1hGa3J4RktUeTJ5QQ?oc=5
 - **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
-- **Microsoft’s AI gives more accurate diagnoses than doctors, study finds - Endpoints News** — https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmZMUzYyZ0NMLWprb1dYdUNNbHBhUm1kUGh3ZUNRMWpMNDFRa19adVlYTllKNWpJdHRTSHNWNGk3TDhyT2lSVGFXdFZoY2tySmVESmFlaEhBd0JzMm9pVUE2eWFHWUZtMWhfUnFGTXNRRGhkSmY4ejYwUnVoSEQyTndZQnoyRlpFS0JuVk1zNzBTWHRjYmJF?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2817
+- Total stories tracked: 2915
 - Most active topic: anthropic
 - Busiest category: AI General News
 
