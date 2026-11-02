@@ -41,10 +41,10 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5
 8. **Wysera Launches an AI Agent That Writes Marketing Content in a Company's Own Voice - The Daily Tribune News** — AI Agents — Score 51
    https://news.google.com/rss/articles/CBMinAJBVV95cUxQOHJuaFVjMnFKM1VwcnUtYk5RSXQ4bWFwaXF4cW85OVlXaTUxdl95bXd6UkVYNEhZaUFvVmRfd2JrUEdiUWhrQ2kzWklMemRFeVJXVkk5UFFLUVVEOEZXMThVdkVxMzBEQVBIMm1wbGQ3ZDZyWlBWcC0zenlvV0RUZlpxX05mcXk3bG5fTjVSRnVWZHN2S0prdExIaWgtQzRoX1VzdFptX05hcUdjaFdENW5LX21DMEREVVRNaEdibThqXy11RExfelhvN2NhNjVHd2ZTV1dNQnMwLWxoRlphc2Z2LVpqRUJpQTlrQlNxYTQ0MFRoM3NQMWZsTXZWcG1LLUpHdWZCNC1OU1h1UVFlb1BZc1IyZ2ZscHQybw?oc=5
-9. **Narmi Launches Microsoft 365 Copilot Connector, Bringing Customer Financial Data Securely into Existing Banking Workflows - Yahoo! Finance Canada** — Microsoft AI — Score 50
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXc2TndpMnJveWV0bTJqVDNMd2s2dk9MQ1p2X0VrNGs5azZiTVh4SlN2clZqWlpxUElIdTVsb2NRYUc5eGJYaTgwZFAyS2R2cE11VHNmcklHaUhQWGVtdEMzN3hsRERBTWxxSVRVRjJzMDM2ZXdQVkJHcTZ0bGF2VGl5M3hHanBqVzhmMjlR?oc=5
-10. **Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates - Boston Herald** — Microsoft AI — Score 50
+9. **Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates - Boston Herald** — Microsoft AI — Score 50
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0duREdISXpBVFU3SEZoSkZ2cmk3OGNyd2NhVTgzSjVLdmp5YzNzam4wT1M4QU9TSmZPMzdJbTA1S3hfX2hYUmc3X2xOSjJldGJBSzR3UmN6SXRUcElEQ3VLWVRlZl9GMUVvWVRPSUxkTzQ5Wi13cS0xb19MTVZJTktETms4LVZNSU9Iak1qZDk?oc=5
+10. **Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says - Reuters** — Cohere News — Score 47
+   https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Trust robots over doctors? Many AI users already do - Leader Publications** — https://news.google.com/rss/articles/CBMi4gFBVV95cUxORUQ3X19kU0RQR0l0Rm5WaFNEcW9qRzRySmh0azZKdU8wZUN3QXpUd1NJcmVLbVVjR19yVEFOaXZpQkhDNmZXQkJEcHJoTlpXRS1zWDdIZGk5QU1ic2JBUjdLcklFV2k1Mmt1OHBodUZhaHZxX2lPZkhXOTY4Y3JlVk4tTVVobHlYQmxITHNZaEt2NThMSER3R1RWbXlZVXVCMjEtY2RHcFEwWTROaE1KeUtGZHU0cEpTdDhldXJHeGxNdjBULVRJWWxIbXZqT2lyWUdCQjczaU02SW5vVDBuT2J3?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2915
+- Total stories tracked: 2783
 - Most active topic: anthropic
 - Busiest category: AI General News
 
