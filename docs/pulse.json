@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:09:27.291003+00:00",
+  "generated_at": "2026-11-03T01:00:37.503993+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -50,23 +50,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlyxan/chatgpt_work_integration_questions_about_memory/",
-          "signal": "ChatGPT & Work Integration – Questions About Memory, Projects, and Token Usage"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm0v7k/first_our_ram_now_our_chatgpt_limits_thanks_sam/",
+          "signal": "First our RAM, now our ChatGPT limits. Thanks, Sam!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm1r1j/chatgpt_found_my_blind_spot_fair_enough/",
+          "signal": "ChatGPT found my blind spot. Fair enough"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm6amc/whats_a_small_thing_chatgpt_or_any_ai_does_for/",
+          "signal": "What's a small thing ChatGPT (or any AI) does for you that you'd really miss if it disappeared?"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=L7ETYjlztSw",
-          "signal": "ചുമ്മാ ഒരു പ്രമോഷൻ😅🔥 #chatgpt #exampreparation #fyp #trending #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ptY7fSTqBJo",
-          "signal": "Badtameez Chatgpt Pt-11😡🤣 #roycesharma #hcpk"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=W2TwpDajSeo",
-          "signal": "Ai Know My Jacket Colour 😱 But How ? #chatgpt #ai"
+          "url": "https://www.youtube.com/watch?v=Q8CkwmY7BME",
+          "signal": "ChatGPT Work Gives You Superpowers, Here&#39;s How to Unlock It"
         }
       ],
       "content_ideas": []
@@ -95,6 +95,60 @@
           "platform": "hackernews",
           "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
           "signal": "The AI cost of JavaScript frameworks"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Subvocal – Talk to your computer without making noise",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50340088",
+          "signal": "Show HN: Subvocal – Talk to your computer without making noise"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic's internal AI use, at retail prices, now exceeds its employe",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+          "signal": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay"
         }
       ],
       "content_ideas": []
@@ -141,7 +195,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -183,6 +237,34 @@
       "content_ideas": []
     },
     {
+      "name": "Jobless tech workers are being left out of San Francisco's AI boom",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+          "signal": "Jobless tech workers are being left out of San Francisco's AI boom"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from ",
       "category": "use_case",
       "momentum": "rising",
@@ -212,7 +294,7 @@
     {
       "name": "Frontier Airlines Likely Breached",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -289,109 +371,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
-          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
-          "signal": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/",
-          "signal": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -430,78 +409,53 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlyxan/chatgpt_work_integration_questions_about_memory/",
-          "signal": "ChatGPT & Work Integration – Questions About Memory, Projects, and Token Usage"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm0v7k/first_our_ram_now_our_chatgpt_limits_thanks_sam/",
+          "signal": "First our RAM, now our ChatGPT limits. Thanks, Sam!"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm1r1j/chatgpt_found_my_blind_spot_fair_enough/",
+          "signal": "ChatGPT found my blind spot. Fair enough"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm6amc/whats_a_small_thing_chatgpt_or_any_ai_does_for/",
+          "signal": "What's a small thing ChatGPT (or any AI) does for you that you'd really miss if it disappeared?"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=L7ETYjlztSw",
-          "signal": "ചുമ്മാ ഒരു പ്രമോഷൻ😅🔥 #chatgpt #exampreparation #fyp #trending #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ptY7fSTqBJo",
-          "signal": "Badtameez Chatgpt Pt-11😡🤣 #roycesharma #hcpk"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=W2TwpDajSeo",
-          "signal": "Ai Know My Jacket Colour 😱 But How ? #chatgpt #ai"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Maff7wKd0vI",
-          "signal": "1 Aur 1 = 11? 🤯 Gemini Confused 😱😂 #short #tech #ai #chatgpt #gemini"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
-          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.youtube.com/watch?v=Q8CkwmY7BME",
+          "signal": "ChatGPT Work Gives You Superpowers, Here&#39;s How to Unlock It"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "First our RAM, now our ChatGPT limits. Thanks, Sam!",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm0v7k/first_our_ram_now_our_chatgpt_limits_thanks_sam/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "\"Hit my limit\" in chat? Some type of new change?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm58ke/hit_my_limit_in_chat_some_type_of_new_change/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "GPT-6 has more problems than improvements, yet OpenAI wants to limit our usage?",
       "who_affected": "r/ChatGPT",
@@ -510,30 +464,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xlwf61/gpt6_has_more_problems_than_improvements_yet/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "OpenAI's shared usage limits could cost them something more valuable than subscribers: the users who help improve their models",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlu1fw/openais_shared_usage_limits_could_cost_them/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Are the limits already in place? But aren’t they supposed to come into effect in December?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlw8r1/are_the_limits_already_in_place_but_arent_they/"
         }
       ],
       "content_opportunity": ""
