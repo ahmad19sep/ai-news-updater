@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:21:09.318859+00:00",
+  "generated_at": "2026-11-03T23:25:58.884308+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 26,
+      "reddit": 25,
+      "hackernews": 42,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,13 +45,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
-          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmgwz0/why_does_chatgpt_always_ask_me_if_im_going_to/",
-          "signal": "Why does ChatGPT always ask me if I’m going to hurt myself?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn50x4/chatgpt_limiting_image_generation_now/",
+          "signal": "ChatGPT limiting image generation now"
         },
         {
           "platform": "reddit",
@@ -60,13 +55,45 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm1r1j/chatgpt_found_my_blind_spot_fair_enough/",
-          "signal": "ChatGPT found my blind spot. Fair enough"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn7jo1/does_your_chatgpt_use_emojis_with_you_when_its/",
+          "signal": "Does your ChatGPT use emojis with you when it’s responding to you?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmnnch/whats_the_point_of_a_banked_reset_if_it_also/",
-          "signal": "What's the point of a banked reset if it also resets your weekly limit? ChatGPT/CODEX"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
+          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn2szj/chatgpt_is_suddenly_restricted_from_making/",
+          "signal": "ChatGPT is suddenly restricted from making election predictions."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Postman silently auto-installs AI plugins and attempts to share all AP",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+          "signal": "Postman silently auto-installs AI plugins and attempts to share all API data"
         }
       ],
       "content_ideas": []
@@ -99,6 +126,38 @@
       "content_ideas": []
     },
     {
+      "name": "Google will turn off search for schools that reject AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+          "signal": "Google will turn off search for schools that reject AI"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+          "signal": "Google Will Turn Off Search for Schools That Reject A.I"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Anthropic's internal AI use, at retail prices, now exceeds its employe",
       "category": "use_case",
       "momentum": "rising",
@@ -126,7 +185,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI delivers 'zero financial payoff' to most companies, Apollo economis",
+      "name": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -146,8 +205,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-          "signal": "AI delivers 'zero financial payoff' to most companies, Apollo economist says"
+          "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+          "signal": "Fujifilm to boost tape production 5x as AI fuels archiving demand"
         }
       ],
       "content_ideas": []
@@ -249,7 +308,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -264,11 +323,12 @@
       "content_ideas": []
     },
     {
-      "name": "Frontier Airlines Likely Breached",
-      "category": "use_case",
-      "momentum": "hot",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -278,41 +338,29 @@
       "best_format": "short",
       "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
-          "signal": "Frontier Airlines Likely Breached"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "It wasn't AI that flipped Proton's charge",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+          "signal": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
-          "signal": "It wasn't AI that flipped Proton's charge"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
+          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OfvygaQEzZM",
+          "signal": "Anthropic faces disruption as Graphify cuts Claude Code token costs drastically #AI #AITools"
         }
       ],
       "content_ideas": []
@@ -330,7 +378,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -340,33 +388,6 @@
           "platform": "hackernews",
           "url": "https://momentic.ai/",
           "signal": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Last night an AI agent performed brain surgery on a mouse",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
-          "signal": "Last night an AI agent performed brain surgery on a mouse"
         }
       ],
       "content_ideas": []
@@ -403,13 +424,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
-          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmgwz0/why_does_chatgpt_always_ask_me_if_im_going_to/",
-          "signal": "Why does ChatGPT always ask me if I’m going to hurt myself?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn50x4/chatgpt_limiting_image_generation_now/",
+          "signal": "ChatGPT limiting image generation now"
         },
         {
           "platform": "reddit",
@@ -418,13 +434,61 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm1r1j/chatgpt_found_my_blind_spot_fair_enough/",
-          "signal": "ChatGPT found my blind spot. Fair enough"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn7jo1/does_your_chatgpt_use_emojis_with_you_when_its/",
+          "signal": "Does your ChatGPT use emojis with you when it’s responding to you?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmnnch/whats_the_point_of_a_banked_reset_if_it_also/",
-          "signal": "What's the point of a banked reset if it also resets your weekly limit? ChatGPT/CODEX"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
+          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn2szj/chatgpt_is_suddenly_restricted_from_making/",
+          "signal": "ChatGPT is suddenly restricted from making election predictions."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+          "signal": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
+          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OfvygaQEzZM",
+          "signal": "Anthropic faces disruption as Graphify cuts Claude Code token costs drastically #AI #AITools"
         }
       ],
       "content_ideas": []
@@ -432,73 +496,25 @@
   ],
   "pain_points": [
     {
-      "problem": "The 1080p pass on my 4090 added 50 minutes a clip and never threw an error",
-      "who_affected": "r/StableDiffusion",
-      "signal_strength": 4,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xms34h/the_1080p_pass_on_my_4090_added_50_minutes_a_clip/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Ideogram 4: FP8 vs INT8 for Quality and Speed? (Slow Internet Link)",
-      "who_affected": "r/StableDiffusion",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmtks0/ideogram_4_fp8_vs_int8_for_quality_and_speed_slow/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I trained rawsnap v3 (LoKr) for Krea 2 on 749 images and can't pick the best epoch — help me vote (public, no login)",
-      "who_affected": "r/StableDiffusion",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "\"Hit my limit\" in chat? Some type of new change?",
+      "problem": "Hot take: with the new usage limits, your 80-message ChatGPT thread is now your most expensive habit",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm58ke/hit_my_limit_in_chat_some_type_of_new_change/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmuddx/hot_take_with_the_new_usage_limits_your_80message/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "What's the point of a banked reset if it also resets your weekly limit? ChatGPT/CODEX",
+      "problem": "I thought the posts on image generation starting to suck were hyperbole. But I'm starting to get awful results, it can't even keep a face co",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmnnch/whats_the_point_of_a_banked_reset_if_it_also/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "RTX 3090 tensor unlock on Windows: got it to actually boot (BitLocker was the problem) + real ComfyUI video numbers",
-      "who_affected": "r/StableDiffusion",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xm7u3x/rtx_3090_tensor_unlock_on_windows_got_it_to/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn79co/i_thought_the_posts_on_image_generation_starting/"
         }
       ],
       "content_opportunity": ""
