@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T01:00:37.503993+00:00",
+  "generated_at": "2026-11-03T14:21:09.318859+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 30,
+      "reddit": 50,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -45,13 +45,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlq569/chatgpt_chat_unlimited_use_will_be_axed/",
-          "signal": "ChatGPT (chat, unlimited use) will be axed."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
+          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm0v7k/first_our_ram_now_our_chatgpt_limits_thanks_sam/",
-          "signal": "First our RAM, now our ChatGPT limits. Thanks, Sam!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmgwz0/why_does_chatgpt_always_ask_me_if_im_going_to/",
+          "signal": "Why does ChatGPT always ask me if I’m going to hurt myself?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
+          "signal": "Done with ChatGPT"
         },
         {
           "platform": "reddit",
@@ -60,41 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm6amc/whats_a_small_thing_chatgpt_or_any_ai_does_for/",
-          "signal": "What's a small thing ChatGPT (or any AI) does for you that you'd really miss if it disappeared?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Q8CkwmY7BME",
-          "signal": "ChatGPT Work Gives You Superpowers, Here&#39;s How to Unlock It"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The AI cost of JavaScript frameworks",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-          "signal": "The AI cost of JavaScript frameworks"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmnnch/whats_the_point_of_a_banked_reset_if_it_also/",
+          "signal": "What's the point of a banked reset if it also resets your weekly limit? ChatGPT/CODEX"
         }
       ],
       "content_ideas": []
@@ -210,33 +182,6 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/ivankovic/omnidiff",
-          "signal": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Jobless tech workers are being left out of San Francisco's AI boom",
       "category": "use_case",
       "momentum": "rising",
@@ -250,7 +195,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -265,7 +210,34 @@
       "content_ideas": []
     },
     {
-      "name": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from ",
+      "name": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+          "signal": "Oracle files to sell $20B in new stock, bonds to finance AI buildout"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Egoless Mathematics in the AI Era",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -285,8 +257,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2409.02292",
-          "signal": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)"
+          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+          "signal": "Egoless Mathematics in the AI Era"
         }
       ],
       "content_ideas": []
@@ -319,33 +291,6 @@
       "content_ideas": []
     },
     {
-      "name": "AI agent swarms in Minecraft fail to build civilization, drown in bure",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
-          "signal": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "It wasn't AI that flipped Proton's charge",
       "category": "use_case",
       "momentum": "rising",
@@ -371,13 +316,67 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your ap",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://momentic.ai/",
+          "signal": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Last night an AI agent performed brain surgery on a mouse",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+          "signal": "Last night an AI agent performed brain surgery on a mouse"
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -404,13 +403,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlq569/chatgpt_chat_unlimited_use_will_be_axed/",
-          "signal": "ChatGPT (chat, unlimited use) will be axed."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
+          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm0v7k/first_our_ram_now_our_chatgpt_limits_thanks_sam/",
-          "signal": "First our RAM, now our ChatGPT limits. Thanks, Sam!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmgwz0/why_does_chatgpt_always_ask_me_if_im_going_to/",
+          "signal": "Why does ChatGPT always ask me if I’m going to hurt myself?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
+          "signal": "Done with ChatGPT"
         },
         {
           "platform": "reddit",
@@ -419,13 +423,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm6amc/whats_a_small_thing_chatgpt_or_any_ai_does_for/",
-          "signal": "What's a small thing ChatGPT (or any AI) does for you that you'd really miss if it disappeared?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Q8CkwmY7BME",
-          "signal": "ChatGPT Work Gives You Superpowers, Here&#39;s How to Unlock It"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmnnch/whats_the_point_of_a_banked_reset_if_it_also/",
+          "signal": "What's the point of a banked reset if it also resets your weekly limit? ChatGPT/CODEX"
         }
       ],
       "content_ideas": []
@@ -433,13 +432,37 @@
   ],
   "pain_points": [
     {
-      "problem": "First our RAM, now our ChatGPT limits. Thanks, Sam!",
-      "who_affected": "r/ChatGPT",
+      "problem": "The 1080p pass on my 4090 added 50 minutes a clip and never threw an error",
+      "who_affected": "r/StableDiffusion",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xms34h/the_1080p_pass_on_my_4090_added_50_minutes_a_clip/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Ideogram 4: FP8 vs INT8 for Quality and Speed? (Slow Internet Link)",
+      "who_affected": "r/StableDiffusion",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xm0v7k/first_our_ram_now_our_chatgpt_limits_thanks_sam/"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmtks0/ideogram_4_fp8_vs_int8_for_quality_and_speed_slow/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I trained rawsnap v3 (LoKr) for Krea 2 on 749 images and can't pick the best epoch — help me vote (public, no login)",
+      "who_affected": "r/StableDiffusion",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/"
         }
       ],
       "content_opportunity": ""
@@ -457,13 +480,25 @@
       "content_opportunity": ""
     },
     {
-      "problem": "GPT-6 has more problems than improvements, yet OpenAI wants to limit our usage?",
+      "problem": "What's the point of a banked reset if it also resets your weekly limit? ChatGPT/CODEX",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xlwf61/gpt6_has_more_problems_than_improvements_yet/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmnnch/whats_the_point_of_a_banked_reset_if_it_also/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "RTX 3090 tensor unlock on Windows: got it to actually boot (BitLocker was the problem) + real ComfyUI video numbers",
+      "who_affected": "r/StableDiffusion",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1xm7u3x/rtx_3090_tensor_unlock_on_windows_got_it_to/"
         }
       ],
       "content_opportunity": ""
