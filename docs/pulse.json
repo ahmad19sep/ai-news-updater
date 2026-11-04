@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:25:58.884308+00:00",
+  "generated_at": "2026-11-04T06:29:39.633451+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 42,
+      "hackernews": 41,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,13 +44,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
+          "signal": "ChatGPT rejected my meme"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xn50x4/chatgpt_limiting_image_generation_now/",
           "signal": "ChatGPT limiting image generation now"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
-          "signal": "Done with ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xncq6i/is_chatgpt_trained_to_stand_on_the_ground_of/",
+          "signal": "Is CHATGPT trained to stand on the ground of modesty too?"
         },
         {
           "platform": "reddit",
@@ -60,13 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
-          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn2szj/chatgpt_is_suddenly_restricted_from_making/",
-          "signal": "ChatGPT is suddenly restricted from making election predictions."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
+          "signal": "Done with ChatGPT"
         }
       ],
       "content_ideas": []
@@ -212,20 +211,18 @@
       "content_ideas": []
     },
     {
-      "name": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned o",
+      "name": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
@@ -234,8 +231,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://wikihack.netlify.app",
-          "signal": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN"
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+          "signal": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months"
         }
       ],
       "content_ideas": []
@@ -296,6 +293,33 @@
       "content_ideas": []
     },
     {
+      "name": "The Little Book of Generative AI Foundations: An Intuitive Mathematica",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://arxiv.org/abs/2605.29713",
+          "signal": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Egoless Mathematics in the AI Era",
       "category": "use_case",
       "momentum": "rising",
@@ -325,7 +349,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "youtube"
@@ -364,33 +388,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your ap",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://momentic.ai/",
-          "signal": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -401,7 +398,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -424,13 +420,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
+          "signal": "ChatGPT rejected my meme"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xn50x4/chatgpt_limiting_image_generation_now/",
           "signal": "ChatGPT limiting image generation now"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
-          "signal": "Done with ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xncq6i/is_chatgpt_trained_to_stand_on_the_ground_of/",
+          "signal": "Is CHATGPT trained to stand on the ground of modesty too?"
         },
         {
           "platform": "reddit",
@@ -439,13 +440,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmowkr/people_who_say_they_already_got_chatgpts_chat_and/",
-          "signal": "People who say they already got ChatGPT's chat and work merge keep reporting the same things. Here's what I'd save before it reaches your account"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn2szj/chatgpt_is_suddenly_restricted_from_making/",
-          "signal": "ChatGPT is suddenly restricted from making election predictions."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
+          "signal": "Done with ChatGPT"
         }
       ],
       "content_ideas": []
@@ -453,7 +449,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
         "youtube"
@@ -496,25 +492,25 @@
   ],
   "pain_points": [
     {
-      "problem": "Hot take: with the new usage limits, your 80-message ChatGPT thread is now your most expensive habit",
+      "problem": "Merged Usage Limits is here on ChatGPT Web",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmuddx/hot_take_with_the_new_usage_limits_your_80message/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xngyee/merged_usage_limits_is_here_on_chatgpt_web/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "I thought the posts on image generation starting to suck were hyperbole. But I'm starting to get awful results, it can't even keep a face co",
+      "problem": "Another ChatGPT problem",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn79co/i_thought_the_posts_on_image_generation_starting/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnbkl2/another_chatgpt_problem/"
         }
       ],
       "content_opportunity": ""
