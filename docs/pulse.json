@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:29:39.633451+00:00",
+  "generated_at": "2026-11-04T19:48:09.753757+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,17 +8,44 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 25,
-      "hackernews": 41,
+      "reddit": 50,
+      "hackernews": 39,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
     {
+      "name": "Postman silently auto-installs AI plugins and attempts to share all AP",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+          "signal": "Postman silently auto-installs AI plugins and attempts to share all API data"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -49,29 +76,29 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn50x4/chatgpt_limiting_image_generation_now/",
-          "signal": "ChatGPT limiting image generation now"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnondh/i_asked_chatgpt_one_innocent_question_and/",
+          "signal": "I Asked ChatGPT One Innocent Question… and Accidentally Defrosted Europe"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xncq6i/is_chatgpt_trained_to_stand_on_the_ground_of/",
-          "signal": "Is CHATGPT trained to stand on the ground of modesty too?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xntlf8/asked_chatgpt_to_generate_the_most_realistic/",
+          "signal": "Asked ChatGPT to generate the most realistic hamburger. Can you spot something that still screams AI?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn7jo1/does_your_chatgpt_use_emojis_with_you_when_its/",
-          "signal": "Does your ChatGPT use emojis with you when it’s responding to you?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnsdfp/how_life_will_look_in_100_years_according_to/",
+          "signal": "How life will look in 100 years according to ChatGPT"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
-          "signal": "Done with ChatGPT"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
+          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Postman silently auto-installs AI plugins and attempts to share all AP",
+      "name": "AI is forcing us to pay off 40 years of technical debt",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -91,35 +118,63 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-          "signal": "Postman silently auto-installs AI plugins and attempts to share all API data"
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+          "signal": "AI is forcing us to pay off 40 years of technical debt"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Show HN: Subvocal – Talk to your computer without making noise",
-      "category": "use_case",
+      "name": "Claude",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50340088",
-          "signal": "Show HN: Subvocal – Talk to your computer without making noise"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6eli/i_gave_every_claude_model_the_exact_same_prompt/",
+          "signal": "I gave every Claude model the exact same prompt since July 2025. 13 models, 14 months, here's the evolution"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
+          "signal": "Show me Claude Code projects that DON’T look vibecoded"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6tu3/i_gave_claude_700_ransomware_encrypted_files_it/",
+          "signal": "I gave Claude ~700 ransomware encrypted files. It told me upfront it couldn't decrypt them, then got two thirds of them usable again"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnlfwn/me_trying_to_manage_claude_grok_and_codex_at_the/",
+          "signal": "Me trying to manage Claude, Grok and Codex at the same time 💀"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnp02f/claude_is_on_another_level_and_is_not_even_close/",
+          "signal": "Claude is on another level and is not even close.."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnk173/im_a_graphic_designer_with_no_coding_background/",
+          "signal": "I’m a graphic designer with no coding background. Here’s what I learned building a 3D Solar System with Claude Code in two months"
         }
       ],
       "content_ideas": []
@@ -157,34 +212,52 @@
       "content_ideas": []
     },
     {
-      "name": "Anthropic's internal AI use, at retail prices, now exceeds its employe",
-      "category": "use_case",
+      "name": "Gemini",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-          "signal": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay"
+          "url": "https://news.ycombinator.com/item?id=50363461",
+          "signal": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "name": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Li",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -204,8 +277,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-          "signal": "Fujifilm to boost tape production 5x as AI fuels archiving demand"
+          "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+          "signal": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux"
         }
       ],
       "content_ideas": []
@@ -238,12 +311,11 @@
       "content_ideas": []
     },
     {
-      "name": "Jobless tech workers are being left out of San Francisco's AI boom",
+      "name": "Geoffrey Hinton: it might turn out we were better off without AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -259,14 +331,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
-          "signal": "Jobless tech workers are being left out of San Francisco's AI boom"
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "signal": "Geoffrey Hinton: it might turn out we were better off without AI"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "name": "How I use AI (Oct 2026)",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -276,9 +348,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -286,8 +358,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-          "signal": "Oracle files to sell $20B in new stock, bonds to finance AI buildout"
+          "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+          "signal": "How I use AI (Oct 2026)"
         }
       ],
       "content_ideas": []
@@ -305,7 +377,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -320,7 +392,7 @@
       "content_ideas": []
     },
     {
-      "name": "Egoless Mathematics in the AI Era",
+      "name": "Just a little AI resistance, as a treat",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -332,7 +404,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -340,51 +412,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-          "signal": "Egoless Mathematics in the AI Era"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
-          "signal": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
-          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OfvygaQEzZM",
-          "signal": "Anthropic faces disruption as Graphify cuts Claude Code token costs drastically #AI #AITools"
+          "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+          "signal": "Just a little AI resistance, as a treat"
         }
       ],
       "content_ideas": []
@@ -392,9 +421,109 @@
   ],
   "rising_tools": [
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6eli/i_gave_every_claude_model_the_exact_same_prompt/",
+          "signal": "I gave every Claude model the exact same prompt since July 2025. 13 models, 14 months, here's the evolution"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
+          "signal": "Show me Claude Code projects that DON’T look vibecoded"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6tu3/i_gave_claude_700_ransomware_encrypted_files_it/",
+          "signal": "I gave Claude ~700 ransomware encrypted files. It told me upfront it couldn't decrypt them, then got two thirds of them usable again"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnlfwn/me_trying_to_manage_claude_grok_and_codex_at_the/",
+          "signal": "Me trying to manage Claude, Grok and Codex at the same time 💀"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnp02f/claude_is_on_another_level_and_is_not_even_close/",
+          "signal": "Claude is on another level and is not even close.."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnk173/im_a_graphic_designer_with_no_coding_background/",
+          "signal": "I’m a graphic designer with no coding background. Here’s what I learned building a 3D Solar System with Claude Code in two months"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50363461",
+          "signal": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
+          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -425,66 +554,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn50x4/chatgpt_limiting_image_generation_now/",
-          "signal": "ChatGPT limiting image generation now"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnondh/i_asked_chatgpt_one_innocent_question_and/",
+          "signal": "I Asked ChatGPT One Innocent Question… and Accidentally Defrosted Europe"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xncq6i/is_chatgpt_trained_to_stand_on_the_ground_of/",
-          "signal": "Is CHATGPT trained to stand on the ground of modesty too?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xntlf8/asked_chatgpt_to_generate_the_most_realistic/",
+          "signal": "Asked ChatGPT to generate the most realistic hamburger. Can you spot something that still screams AI?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xn7jo1/does_your_chatgpt_use_emojis_with_you_when_its/",
-          "signal": "Does your ChatGPT use emojis with you when it’s responding to you?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xmsvfa/done_with_chatgpt/",
-          "signal": "Done with ChatGPT"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
-          "signal": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnsdfp/how_life_will_look_in_100_years_according_to/",
+          "signal": "How life will look in 100 years according to ChatGPT"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
-          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OfvygaQEzZM",
-          "signal": "Anthropic faces disruption as Graphify cuts Claude Code token costs drastically #AI #AITools"
+          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
+          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
         }
       ],
       "content_ideas": []
@@ -492,29 +578,17 @@
   ],
   "pain_points": [
     {
-      "problem": "Merged Usage Limits is here on ChatGPT Web",
+      "problem": "Is anyone else feeling down about all this ?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xngyee/merged_usage_limits_is_here_on_chatgpt_web/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Another ChatGPT problem",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnbkl2/another_chatgpt_problem/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnxdh6/is_anyone_else_feeling_down_about_all_this/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "Postman silently auto-installs AI plugins and attempts to share all AP — strongest signal this cycle"
 }
