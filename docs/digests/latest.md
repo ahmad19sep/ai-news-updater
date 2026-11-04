@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 27 Oct 2026 to 03 Nov 2026
+# 🗞️ AI THIS WEEK — 28 Oct 2026 to 04 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **One Tech Tip: How to get started with AI agents, and which are best for specific tasks**
@@ -54,7 +54,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2796
+- Total stories tracked: 2779
 - Most active topic: agent
 - Busiest category: AI General News
 
