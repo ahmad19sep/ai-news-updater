@@ -21,8 +21,8 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
 7. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
-8. **Most Americans want doctors—not AI—to make the final call on diagnoses and insurance decisions - Medical Daily** — science angle
-   https://news.google.com/rss/articles/CBMilgFBVV95cUxPWWQ5Y3VSczFrd0FCeDZrdjBfbXhLVEJ2alAwd0NTTF9KRXdUTjlUQzJ1ZDkyLVRvYzVnN0lVX0V6ZF84al85VXkyR3BISWk3eG5pZjc5VGZNVG1DMU92NjhFRDFxek5PSDlMalhLQnZtamNTS3J4VnBSclVFZUJKOXBWOGZZRGJUU1NwWHU5bHBaczl0NlE?oc=5
+8. **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — 6 upvotes on Reddit/HN
+   https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **One Tech Tip: How to get started with AI agents, and which are best for specific tasks** — livemint — Score 113
@@ -37,8 +37,8 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5
 6. **Wysera Launches an AI Agent That Writes Marketing Content in a Company's Own Voice - The Daily Tribune News** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMinAJBVV95cUxQOHJuaFVjMnFKM1VwcnUtYk5RSXQ4bWFwaXF4cW85OVlXaTUxdl95bXd6UkVYNEhZaUFvVmRfd2JrUEdiUWhrQ2kzWklMemRFeVJXVkk5UFFLUVVEOEZXMThVdkVxMzBEQVBIMm1wbGQ3ZDZyWlBWcC0zenlvV0RUZlpxX05mcXk3bG5fTjVSRnVWZHN2S0prdExIaWgtQzRoX1VzdFptX05hcUdjaFdENW5LX21DMEREVVRNaEdibThqXy11RExfelhvN2NhNjVHd2ZTV1dNQnMwLWxoRlphc2Z2LVpqRUJpQTlrQlNxYTQ0MFRoM3NQMWZsTXZWcG1LLUpHdWZCNC1OU1h1UVFlb1BZc1IyZ2ZscHQybw?oc=5
-7. **Lee vows bold investment in AI, future growth engines** — thehawk_in — Score 46
-   https://www.thehawk.in/news/science/lee-vows-bold-investment-in-ai-future-growth-engines
+7. **Google will turn off search for schools that reject AI** — Hacker News AI — Score 45.6
+   https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
 8. **McGraw Hill Announces Agentic AI Education Plugin for Microsoft Copilot - Yahoo Finance** — Microsoft AI — Score 45
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzk4d2kzQ181bTBFNFN3VktrVDlmcUpiMnRCQkUwLWRYMjRmUWNxUktwTUl0VXNiS0NiSFhicllTcEFpdTFfbGpFNUxFYlZJWDUya2hudjNod19WUFROaVhNeDV4QVNvdzc0RmI3UGJVQ2dnRlRuWm1xSFdNUElYM3VtdWRmUkkxTUptdWZOai1KQkpwRkxvZEFFSmE?oc=5
 9. **New York enacts ban on ‘unsafe’ chatbot behavior with kids as states push AI regulation boundaries - WCAX** — AI in Coding — Score 43
@@ -54,7 +54,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2779
+- Total stories tracked: 2909
 - Most active topic: agent
 - Busiest category: AI General News
 
