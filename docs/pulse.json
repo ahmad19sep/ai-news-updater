@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:48:09.753757+00:00",
+  "generated_at": "2026-11-05T06:52:33.700241+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -8,8 +8,8 @@
       "youtube"
     ],
     "signal_counts": {
-      "reddit": 50,
-      "hackernews": 39,
+      "reddit": 25,
+      "hackernews": 40,
       "youtube": 106
     },
     "llm_provider": null
@@ -43,6 +43,33 @@
       "content_ideas": []
     },
     {
+      "name": "AI is forcing us to pay off 40 years of technical debt",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+          "signal": "AI is forcing us to pay off 40 years of technical debt"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -71,13 +98,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
-          "signal": "ChatGPT rejected my meme"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnondh/i_asked_chatgpt_one_innocent_question_and/",
-          "signal": "I Asked ChatGPT One Innocent Question… and Accidentally Defrosted Europe"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo1r57/chatgpt_leaked_an_internal_prompt/",
+          "signal": "ChatGPT leaked an internal prompt"
         },
         {
           "platform": "reddit",
@@ -86,95 +108,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnsdfp/how_life_will_look_in_100_years_according_to/",
-          "signal": "How life will look in 100 years according to ChatGPT"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
-          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is forcing us to pay off 40 years of technical debt",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-          "signal": "AI is forcing us to pay off 40 years of technical debt"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6eli/i_gave_every_claude_model_the_exact_same_prompt/",
-          "signal": "I gave every Claude model the exact same prompt since July 2025. 13 models, 14 months, here's the evolution"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobpr0/asked_chatgpt_to_create_me_with_the_most/",
+          "signal": "Asked chatGPT to create me with the most flattering makeup possible"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
-          "signal": "Show me Claude Code projects that DON’T look vibecoded"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
+          "signal": "ChatGPT rejected my meme"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6tu3/i_gave_claude_700_ransomware_encrypted_files_it/",
-          "signal": "I gave Claude ~700 ransomware encrypted files. It told me upfront it couldn't decrypt them, then got two thirds of them usable again"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnlfwn/me_trying_to_manage_claude_grok_and_codex_at_the/",
-          "signal": "Me trying to manage Claude, Grok and Codex at the same time 💀"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnp02f/claude_is_on_another_level_and_is_not_even_close/",
-          "signal": "Claude is on another level and is not even close.."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnk173/im_a_graphic_designer_with_no_coding_background/",
-          "signal": "I’m a graphic designer with no coding background. Here’s what I learned building a 3D Solar System with Claude Code in two months"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo3kzo/openai_adds_gif_creation_to_chatgpt/",
+          "signal": "OpenAI adds GIF creation to ChatGPT"
         }
       ],
       "content_ideas": []
@@ -240,6 +185,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
@@ -250,8 +200,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
         }
       ],
       "content_ideas": []
@@ -284,33 +234,6 @@
       "content_ideas": []
     },
     {
-      "name": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-          "signal": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Geoffrey Hinton: it might turn out we were better off without AI",
       "category": "use_case",
       "momentum": "rising",
@@ -333,6 +256,33 @@
           "platform": "hackernews",
           "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
           "signal": "Geoffrey Hinton: it might turn out we were better off without AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+          "signal": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months"
         }
       ],
       "content_ideas": []
@@ -365,6 +315,33 @@
       "content_ideas": []
     },
     {
+      "name": "Ask HN: What's your current AI agentic setup?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50366117",
+          "signal": "Ask HN: What's your current AI agentic setup?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "The Little Book of Generative AI Foundations: An Intuitive Mathematica",
       "category": "use_case",
       "momentum": "rising",
@@ -392,7 +369,7 @@
       "content_ideas": []
     },
     {
-      "name": "Just a little AI resistance, as a treat",
+      "name": "Tencent Hy4",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -412,69 +389,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-          "signal": "Just a little AI resistance, as a treat"
+          "url": "https://hy.tencent.ai/research/hy4",
+          "signal": "Tencent Hy4"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6eli/i_gave_every_claude_model_the_exact_same_prompt/",
-          "signal": "I gave every Claude model the exact same prompt since July 2025. 13 models, 14 months, here's the evolution"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
-          "signal": "Show me Claude Code projects that DON’T look vibecoded"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6tu3/i_gave_claude_700_ransomware_encrypted_files_it/",
-          "signal": "I gave Claude ~700 ransomware encrypted files. It told me upfront it couldn't decrypt them, then got two thirds of them usable again"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnlfwn/me_trying_to_manage_claude_grok_and_codex_at_the/",
-          "signal": "Me trying to manage Claude, Grok and Codex at the same time 💀"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnp02f/claude_is_on_another_level_and_is_not_even_close/",
-          "signal": "Claude is on another level and is not even close.."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnk173/im_a_graphic_designer_with_no_coding_background/",
-          "signal": "I’m a graphic designer with no coding background. Here’s what I learned building a 3D Solar System with Claude Code in two months"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Gemini",
       "category": "tool_launch",
@@ -504,6 +426,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
@@ -514,8 +441,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
         }
       ],
       "content_ideas": []
@@ -549,13 +476,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
-          "signal": "ChatGPT rejected my meme"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnondh/i_asked_chatgpt_one_innocent_question_and/",
-          "signal": "I Asked ChatGPT One Innocent Question… and Accidentally Defrosted Europe"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo1r57/chatgpt_leaked_an_internal_prompt/",
+          "signal": "ChatGPT leaked an internal prompt"
         },
         {
           "platform": "reddit",
@@ -564,13 +486,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnsdfp/how_life_will_look_in_100_years_according_to/",
-          "signal": "How life will look in 100 years according to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobpr0/asked_chatgpt_to_create_me_with_the_most/",
+          "signal": "Asked chatGPT to create me with the most flattering makeup possible"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
-          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
+          "signal": "ChatGPT rejected my meme"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo3kzo/openai_adds_gif_creation_to_chatgpt/",
+          "signal": "OpenAI adds GIF creation to ChatGPT"
         }
       ],
       "content_ideas": []
