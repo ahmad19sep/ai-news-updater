@@ -11,18 +11,18 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
 2. **AI Starts Writing Acne Prescriptions Without A Doctor’s Visit In One State - U.S. News & World Report** — science angle
    https://news.google.com/rss/articles/CBMizgFBVV95cUxNU245X0tyeFBaWGZkVG91R3VKZ3QxQk9BS2ExcGh4RGpPMFJxZUMwV29xMGdUM1RweWs4dEVYeU13XzAtSzczRFQ0S3pGUXI4eUxXNTNuZEYwZlk5RGRtWHVUc1F5ZFFTNjNWN0thcnFqQWtEcGtHZU5YS3pwcGZlcUdvZ2RFRUthc1hRTlZMZjRBQW1tekV2Rk9UOXBqb2E5dVFsVDlmZlRZaFhxdVQ5RXpuNzR3U3RLMUpNN3V0TmlNS2I5cnlETlFIVzRGUQ?oc=5
-3. **As an SU pre-med student, I hope AI can help doctors without replacing them - The Daily Orange** — science angle
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxQV29jVEk4b0FvUnBPTlRVQ1dvNjRYRGNuM2VRVDJUaGFvSTZoZGNOaW4tZ3NXVjk2NS05RDNvNUE2U05idVlQVlpIbmNaQUE2M3hvWWRwSllhRlliQ2ZIMWhDUWtGWjg3WUhTMzJRQi1tTmRQVnUxYkRVaURXVXlrdnVybEpMZmcxeVh2SHEydGM5aDF0RDJIbDdlaw?oc=5
-4. **Trust robots over doctors? Many AI users already do - KTEN** — science angle
+3. **Trust robots over doctors? Many AI users already do - KTEN** — science angle
    https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlNmSFlyRHNMZ29NdGRCMzJkdkNUbFdHYzVPV2tramhjTGdVVVlVYzNmaThfdWJsWC1xbWN2UjZUR1lBcEpueTRzeHJCaWZzOHFQLW12WmhkNHFnY0otNXNJRk56bmpYXzZzcXAzYmhFekRRY0xST0RyeDVlWXA0WDVQVF93dFFaTDVobXhYaGFUWkNhcWFaNUk5bl9JalZOTmxXUGdrSkhvYURiNk0yb1gyVVZ5VVU1dlhBSWdiVzltT1hGa3J4RktUeTJ5QQ?oc=5
-5. **Doctors ‘gaslit’ a medical student struggling with chronic illness. She built an $18m women’s health AI to prove them wrong - Macquarie University** — science angle
+4. **Doctors ‘gaslit’ a medical student struggling with chronic illness. She built an $18m women’s health AI to prove them wrong - Macquarie University** — science angle
    https://news.google.com/rss/articles/CBMihgJBVV95cUxPR1YwaDF4X0RFTWxXZlFSWXAxbFBuaTk0V0ZGaWR5MXhoRzVILUlfWUtyN0lETlVqdEd3Y1RRc09uV2dNR3FHSXNkcHQ5eVNva2I2TXQwWnpYajdmdXRtX2dtSndaOGtPaDJWZGx5LVBjUzBidkJaVXhhR1ZVTUNHMnIzWXEzV2lZWVNGYTJEaDhrRExDVERXSlhqVUpUdWNJOVpDNTYzcDg4ZVZvNW1SZmVHRllTS05lMHE1N3JESlFDUVlxczdwN19ibVJ1Wkt1Q1hWZUg5V2g0NXgzMVFyMlNfSHFNNGI4WFRwSms0dW45RWpSQjFPWFhIOUo5WEpwQWFia1JB?oc=5
-6. **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — science angle
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
-7. **Google researchers demand freedom to tell the world what they know about AI** — 75 upvotes on Reddit/HN
+5. **Google researchers demand freedom to tell the world what they know about AI** — 75 upvotes on Reddit/HN
    https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/
-8. **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — science angle
+6. **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — science angle
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
+7. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
+8. **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — science angle
+   https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **One Tech Tip: How to get started with AI agents, and which are best for specific tasks** — livemint — Score 113
@@ -37,24 +37,24 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
    https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5
 6. **Wysera Launches an AI Agent That Writes Marketing Content in a Company's Own Voice - The Daily Tribune News** — AI Agents — Score 48
    https://news.google.com/rss/articles/CBMinAJBVV95cUxQOHJuaFVjMnFKM1VwcnUtYk5RSXQ4bWFwaXF4cW85OVlXaTUxdl95bXd6UkVYNEhZaUFvVmRfd2JrUEdiUWhrQ2kzWklMemRFeVJXVkk5UFFLUVVEOEZXMThVdkVxMzBEQVBIMm1wbGQ3ZDZyWlBWcC0zenlvV0RUZlpxX05mcXk3bG5fTjVSRnVWZHN2S0prdExIaWgtQzRoX1VzdFptX05hcUdjaFdENW5LX21DMEREVVRNaEdibThqXy11RExfelhvN2NhNjVHd2ZTV1dNQnMwLWxoRlphc2Z2LVpqRUJpQTlrQlNxYTQ0MFRoM3NQMWZsTXZWcG1LLUpHdWZCNC1OU1h1UVFlb1BZc1IyZ2ZscHQybw?oc=5
-7. **Google will turn off search for schools that reject AI** — Hacker News AI — Score 45.6
-   https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
-8. **McGraw Hill Announces Agentic AI Education Plugin for Microsoft Copilot - Yahoo Finance** — Microsoft AI — Score 45
+7. **McGraw Hill Announces Agentic AI Education Plugin for Microsoft Copilot - Yahoo Finance** — Microsoft AI — Score 45
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzk4d2kzQ181bTBFNFN3VktrVDlmcUpiMnRCQkUwLWRYMjRmUWNxUktwTUl0VXNiS0NiSFhicllTcEFpdTFfbGpFNUxFYlZJWDUya2hudjNod19WUFROaVhNeDV4QVNvdzc0RmI3UGJVQ2dnRlRuWm1xSFdNUElYM3VtdWRmUkkxTUptdWZOai1KQkpwRkxvZEFFSmE?oc=5
-9. **New York enacts ban on ‘unsafe’ chatbot behavior with kids as states push AI regulation boundaries - WCAX** — AI in Coding — Score 43
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV1dCZzFRcGZOazQ0aFlFelJvX1N2XzQ0SDI3S0dkZlU0LXB6VExTSTd5QUlpVFhhMUFqTEpiSHljTFhHYktGdndHdFZCTEdyVHdMMlBrdUJtano5bGxCWGttWVZ5eWNKbHk0OVNZc3FiN1hheEhaaE9QZWNtYk12THBvTUJxNTM2emdvdFdfcUpQa3UtWDltTFY3WkpLVl9lQjVXVFp2UjRkelVHS2hGYzItZ21vUWhwOTJOLUpVc0Q?oc=5
-10. **Alphabet stock tanks on Google's disappointing AI-search revenue** — wuga_org — Score 43
+8. **Alphabet stock tanks on Google's disappointing AI-search revenue** — wuga_org — Score 43
    https://www.wuga.org/2026-10-29/alphabet-stock-tanks-on-googles-disappointing-ai-search-revenue
+9. **Lee vows bold investment in AI, future growth engines** — thehawk_in — Score 43
+   https://www.thehawk.in/news/science/lee-vows-bold-investment-in-ai-future-growth-engines
+10. **Google will turn off search for schools that reject AI** — Hacker News AI — Score 42.6
+   https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
 
 ## 🧪 AI in Science Highlights
 - **Trust robots over doctors? Many AI users already do - Leader Publications** — https://news.google.com/rss/articles/CBMi4gFBVV95cUxORUQ3X19kU0RQR0l0Rm5WaFNEcW9qRzRySmh0azZKdU8wZUN3QXpUd1NJcmVLbVVjR19yVEFOaXZpQkhDNmZXQkJEcHJoTlpXRS1zWDdIZGk5QU1ic2JBUjdLcklFV2k1Mmt1OHBodUZhaHZxX2lPZkhXOTY4Y3JlVk4tTVVobHlYQmxITHNZaEt2NThMSER3R1RWbXlZVXVCMjEtY2RHcFEwWTROaE1KeUtGZHU0cEpTdDhldXJHeGxNdjBULVRJWWxIbXZqT2lyWUdCQjczaU02SW5vVDBuT2J3?oc=5
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
 - **AI Starts Writing Acne Prescriptions Without A Doctor’s Visit In One State - U.S. News & World Report** — https://news.google.com/rss/articles/CBMizgFBVV95cUxNU245X0tyeFBaWGZkVG91R3VKZ3QxQk9BS2ExcGh4RGpPMFJxZUMwV29xMGdUM1RweWs4dEVYeU13XzAtSzczRFQ0S3pGUXI4eUxXNTNuZEYwZlk5RGRtWHVUc1F5ZFFTNjNWN0thcnFqQWtEcGtHZU5YS3pwcGZlcUdvZ2RFRUthc1hRTlZMZjRBQW1tekV2Rk9UOXBqb2E5dVFsVDlmZlRZaFhxdVQ5RXpuNzR3U3RLMUpNN3V0TmlNS2I5cnlETlFIVzRGUQ?oc=5
-- **As an SU pre-med student, I hope AI can help doctors without replacing them - The Daily Orange** — https://news.google.com/rss/articles/CBMimwFBVV95cUxQV29jVEk4b0FvUnBPTlRVQ1dvNjRYRGNuM2VRVDJUaGFvSTZoZGNOaW4tZ3NXVjk2NS05RDNvNUE2U05idVlQVlpIbmNaQUE2M3hvWWRwSllhRlliQ2ZIMWhDUWtGWjg3WUhTMzJRQi1tTmRQVnUxYkRVaURXVXlrdnVybEpMZmcxeVh2SHEydGM5aDF0RDJIbDdlaw?oc=5
 - **Trust robots over doctors? Many AI users already do - KTEN** — https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlNmSFlyRHNMZ29NdGRCMzJkdkNUbFdHYzVPV2tramhjTGdVVVlVYzNmaThfdWJsWC1xbWN2UjZUR1lBcEpueTRzeHJCaWZzOHFQLW12WmhkNHFnY0otNXNJRk56bmpYXzZzcXAzYmhFekRRY0xST0RyeDVlWXA0WDVQVF93dFFaTDVobXhYaGFUWkNhcWFaNUk5bl9JalZOTmxXUGdrSkhvYURiNk0yb1gyVVZ5VVU1dlhBSWdiVzltT1hGa3J4RktUeTJ5QQ?oc=5
+- **Doctors ‘gaslit’ a medical student struggling with chronic illness. She built an $18m women’s health AI to prove them wrong - Macquarie University** — https://news.google.com/rss/articles/CBMihgJBVV95cUxPR1YwaDF4X0RFTWxXZlFSWXAxbFBuaTk0V0ZGaWR5MXhoRzVILUlfWUtyN0lETlVqdEd3Y1RRc09uV2dNR3FHSXNkcHQ5eVNva2I2TXQwWnpYajdmdXRtX2dtSndaOGtPaDJWZGx5LVBjUzBidkJaVXhhR1ZVTUNHMnIzWXEzV2lZWVNGYTJEaDhrRExDVERXSlhqVUpUdWNJOVpDNTYzcDg4ZVZvNW1SZmVHRllTS05lMHE1N3JESlFDUVlxczdwN19ibVJ1Wkt1Q1hWZUg5V2g0NXgzMVFyMlNfSHFNNGI4WFRwSms0dW45RWpSQjFPWFhIOUo5WEpwQWFia1JB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2802
+- Total stories tracked: 2820
 - Most active topic: agent
 - Busiest category: AI General News
 
