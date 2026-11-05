@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:52:33.700241+00:00",
+  "generated_at": "2026-11-05T19:59:19.334105+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,39 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 40,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Postman silently auto-installs AI plugins and attempts to share all AP",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-          "signal": "Postman silently auto-installs AI plugins and attempts to share all API data"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "AI is forcing us to pay off 40 years of technical debt",
       "category": "use_case",
@@ -103,29 +76,29 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xntlf8/asked_chatgpt_to_generate_the_most_realistic/",
-          "signal": "Asked ChatGPT to generate the most realistic hamburger. Can you spot something that still screams AI?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xobpr0/asked_chatgpt_to_create_me_with_the_most/",
           "signal": "Asked chatGPT to create me with the most flattering makeup possible"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
-          "signal": "ChatGPT rejected my meme"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobw98/chatgpt_can_create_gif_now_d/",
+          "signal": "ChatGPT can create GIF now :D"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo3kzo/openai_adds_gif_creation_to_chatgpt/",
-          "signal": "OpenAI adds GIF creation to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
+          "signal": "What chatGPT phrase annoys you the most?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoogtf/chatgpt_is_now_nudging_pro_users_to_spam_go_and/",
+          "signal": "ChatGPT is now nudging Pro users to spam Go and Free users with ads"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Google will turn off search for schools that reject AI",
+      "name": "Ask HN: What's your current AI agentic setup?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -145,13 +118,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-          "signal": "Google will turn off search for schools that reject AI"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-          "signal": "Google Will Turn Off Search for Schools That Reject A.I"
+          "url": "https://news.ycombinator.com/item?id=50366117",
+          "signal": "Ask HN: What's your current AI agentic setup?"
         }
       ],
       "content_ideas": []
@@ -187,11 +155,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
           "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
         {
           "platform": "youtube",
@@ -288,60 +251,6 @@
       "content_ideas": []
     },
     {
-      "name": "How I use AI (Oct 2026)",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
-          "signal": "How I use AI (Oct 2026)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: What's your current AI agentic setup?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50366117",
-          "signal": "Ask HN: What's your current AI agentic setup?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "The Little Book of Generative AI Foundations: An Intuitive Mathematica",
       "category": "use_case",
       "momentum": "rising",
@@ -381,7 +290,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -391,6 +300,112 @@
           "platform": "hackernews",
           "url": "https://hy.tencent.ai/research/hy4",
           "signal": "Tencent Hy4"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+          "signal": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+          "signal": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
+          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
+          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F8jidmEkIeM",
+          "signal": "Claude Code: Build Your First AI Agent in 20 Minutes (100% No Coding)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Sa_1q6cJHeQ",
+          "signal": "The Easiest Claude AI Side Hustle Everyone Is Overlooking"
         }
       ],
       "content_ideas": []
@@ -428,11 +443,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
           "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-8FXuDJ7rjI",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 #ai #tech #gemini #chatgpt ##shorts"
         },
         {
           "platform": "youtube",
@@ -481,23 +491,75 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xntlf8/asked_chatgpt_to_generate_the_most_realistic/",
-          "signal": "Asked ChatGPT to generate the most realistic hamburger. Can you spot something that still screams AI?"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xobpr0/asked_chatgpt_to_create_me_with_the_most/",
           "signal": "Asked chatGPT to create me with the most flattering makeup possible"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
-          "signal": "ChatGPT rejected my meme"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobw98/chatgpt_can_create_gif_now_d/",
+          "signal": "ChatGPT can create GIF now :D"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo3kzo/openai_adds_gif_creation_to_chatgpt/",
-          "signal": "OpenAI adds GIF creation to ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
+          "signal": "What chatGPT phrase annoys you the most?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoogtf/chatgpt_is_now_nudging_pro_users_to_spam_go_and/",
+          "signal": "ChatGPT is now nudging Pro users to spam Go and Free users with ads"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
+          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
+          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F8jidmEkIeM",
+          "signal": "Claude Code: Build Your First AI Agent in 20 Minutes (100% No Coding)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Sa_1q6cJHeQ",
+          "signal": "The Easiest Claude AI Side Hustle Everyone Is Overlooking"
         }
       ],
       "content_ideas": []
@@ -505,17 +567,41 @@
   ],
   "pain_points": [
     {
-      "problem": "Is anyone else feeling down about all this ?",
+      "problem": "Sam Has Expensive Taste",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoeefa/sam_has_expensive_taste/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Both my paid ChatGPT Business accounts are completely out of usage after a week of broken Goals and endless loops. OpenAI has no meaningful ",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xnxdh6/is_anyone_else_feeling_down_about_all_this/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xor9x3/both_my_paid_chatgpt_business_accounts_are/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Normal chat is using limit now? I never use Codex.",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xogmrl/normal_chat_is_using_limit_now_i_never_use_codex/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Postman silently auto-installs AI plugins and attempts to share all AP — strongest signal this cycle"
+  "tool_of_week_candidate": "AI is forcing us to pay off 40 years of technical debt — strongest signal this cycle"
 }
