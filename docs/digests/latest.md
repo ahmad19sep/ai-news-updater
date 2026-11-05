@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 28 Oct 2026 to 04 Nov 2026
+# 🗞️ AI THIS WEEK — 29 Oct 2026 to 05 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **One Tech Tip: How to get started with AI agents, and which are best for specific tasks**
@@ -54,7 +54,7 @@ All coverage: https://www.livemint.com/technology/one-tech-tip-how-to-get-starte
 - **Trust robots over doctors? Many AI users already do - KTEN** — https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlNmSFlyRHNMZ29NdGRCMzJkdkNUbFdHYzVPV2tramhjTGdVVVlVYzNmaThfdWJsWC1xbWN2UjZUR1lBcEpueTRzeHJCaWZzOHFQLW12WmhkNHFnY0otNXNJRk56bmpYXzZzcXAzYmhFekRRY0xST0RyeDVlWXA0WDVQVF93dFFaTDVobXhYaGFUWkNhcWFaNUk5bl9JalZOTmxXUGdrSkhvYURiNk0yb1gyVVZ5VVU1dlhBSWdiVzltT1hGa3J4RktUeTJ5QQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2708
+- Total stories tracked: 2802
 - Most active topic: agent
 - Busiest category: AI General News
 
