@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:59:19.334105+00:00",
+  "generated_at": "2026-11-06T06:52:21.493014+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 34,
       "youtube": 106
     },
     "llm_provider": null
@@ -71,8 +71,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp0pbi/lawsuit_man_introduced_his_wife_to_chatgpt_she/",
+          "signal": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xo1r57/chatgpt_leaked_an_internal_prompt/",
           "signal": "ChatGPT leaked an internal prompt"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
+          "signal": "What chatGPT phrase annoys you the most?"
         },
         {
           "platform": "reddit",
@@ -83,16 +93,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xobw98/chatgpt_can_create_gif_now_d/",
           "signal": "ChatGPT can create GIF now :D"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
-          "signal": "What chatGPT phrase annoys you the most?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoogtf/chatgpt_is_now_nudging_pro_users_to_spam_go_and/",
-          "signal": "ChatGPT is now nudging Pro users to spam Go and Free users with ads"
         }
       ],
       "content_ideas": []
@@ -132,6 +132,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -152,9 +153,9 @@
           "signal": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoskwf/meanwhile_gemini_is_back_to_producing_3_arms/",
+          "signal": "Meanwhile, Gemini is back to producing 3 arms"
         },
         {
           "platform": "youtube",
@@ -165,6 +166,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
         }
       ],
       "content_ideas": []
@@ -224,61 +230,61 @@
       "content_ideas": []
     },
     {
-      "name": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-          "signal": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The Little Book of Generative AI Foundations: An Intuitive Mathematica",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://arxiv.org/abs/2605.29713",
-          "signal": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Tencent Hy4",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://hy.tencent.ai/research/hy4",
+          "signal": "Tencent Hy4"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The Hackintosh Reborn",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+          "signal": "The Hackintosh Reborn"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fra",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -298,8 +304,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://hy.tencent.ai/research/hy4",
-          "signal": "Tencent Hy4"
+          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+          "signal": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+          "signal": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election"
         }
       ],
       "content_ideas": []
@@ -332,7 +365,7 @@
       "content_ideas": []
     },
     {
-      "name": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "name": "My psychophysics as a bilateral cochlear implant user",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -352,60 +385,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
-          "signal": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
-          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
-          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F8jidmEkIeM",
-          "signal": "Claude Code: Build Your First AI Agent in 20 Minutes (100% No Coding)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Sa_1q6cJHeQ",
-          "signal": "The Easiest Claude AI Side Hustle Everyone Is Overlooking"
+          "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+          "signal": "My psychophysics as a bilateral cochlear implant user"
         }
       ],
       "content_ideas": []
@@ -420,6 +401,7 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -440,9 +422,9 @@
           "signal": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoskwf/meanwhile_gemini_is_back_to_producing_3_arms/",
+          "signal": "Meanwhile, Gemini is back to producing 3 arms"
         },
         {
           "platform": "youtube",
@@ -453,6 +435,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
         }
       ],
       "content_ideas": []
@@ -486,8 +473,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp0pbi/lawsuit_man_introduced_his_wife_to_chatgpt_she/",
+          "signal": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xo1r57/chatgpt_leaked_an_internal_prompt/",
           "signal": "ChatGPT leaked an internal prompt"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
+          "signal": "What chatGPT phrase annoys you the most?"
         },
         {
           "platform": "reddit",
@@ -498,68 +495,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xobw98/chatgpt_can_create_gif_now_d/",
           "signal": "ChatGPT can create GIF now :D"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
-          "signal": "What chatGPT phrase annoys you the most?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoogtf/chatgpt_is_now_nudging_pro_users_to_spam_go_and/",
-          "signal": "ChatGPT is now nudging Pro users to spam Go and Free users with ads"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
-          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
-          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F8jidmEkIeM",
-          "signal": "Claude Code: Build Your First AI Agent in 20 Minutes (100% No Coding)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Sa_1q6cJHeQ",
-          "signal": "The Easiest Claude AI Side Hustle Everyone Is Overlooking"
         }
       ],
       "content_ideas": []
@@ -574,30 +509,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xoeefa/sam_has_expensive_taste/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Both my paid ChatGPT Business accounts are completely out of usage after a week of broken Goals and endless loops. OpenAI has no meaningful ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xor9x3/both_my_paid_chatgpt_business_accounts_are/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Normal chat is using limit now? I never use Codex.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xogmrl/normal_chat_is_using_limit_now_i_never_use_codex/"
         }
       ],
       "content_opportunity": ""
