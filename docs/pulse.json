@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:52:21.493014+00:00",
+  "generated_at": "2026-11-06T19:27:03.403027+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -16,36 +16,9 @@
   },
   "trends": [
     {
-      "name": "AI is forcing us to pay off 40 years of technical debt",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-          "signal": "AI is forcing us to pay off 40 years of technical debt"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -71,214 +44,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp0pbi/lawsuit_man_introduced_his_wife_to_chatgpt_she/",
-          "signal": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
+          "signal": "I just spammed chatgpt like 10 times and this happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo1r57/chatgpt_leaked_an_internal_prompt/",
-          "signal": "ChatGPT leaked an internal prompt"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
+          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
-          "signal": "What chatGPT phrase annoys you the most?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpkifg/a_saga_in_35_prompts_based_off_the_post_where/",
+          "signal": "A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobpr0/asked_chatgpt_to_create_me_with_the_most/",
-          "signal": "Asked chatGPT to create me with the most flattering makeup possible"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpab2i/chatgpt_has_gotten_dumber_in_the_last_few_weeks/",
+          "signal": "chatgpt has gotten dumber in the last few weeks. Is it just me?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobw98/chatgpt_can_create_gif_now_d/",
-          "signal": "ChatGPT can create GIF now :D"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: What's your current AI agentic setup?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50366117",
-          "signal": "Ask HN: What's your current AI agentic setup?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50363461",
-          "signal": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoskwf/meanwhile_gemini_is_back_to_producing_3_arms/",
-          "signal": "Meanwhile, Gemini is back to producing 3 arms"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
-          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Li",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-          "signal": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Geoffrey Hinton: it might turn out we were better off without AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-          "signal": "Geoffrey Hinton: it might turn out we were better off without AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Tencent Hy4",
-      "category": "use_case",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://hy.tencent.ai/research/hy4",
-          "signal": "Tencent Hy4"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The Hackintosh Reborn",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-          "signal": "The Hackintosh Reborn"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpcuet/does_anyone_else_find_this_new_chatgpt_feature/",
+          "signal": "Does anyone else find this new ChatGPT feature annoying?"
         }
       ],
       "content_ideas": []
@@ -296,7 +83,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -306,6 +93,100 @@
           "platform": "hackernews",
           "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
           "signal": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The Hackintosh Reborn",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+          "signal": "The Hackintosh Reborn"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "signal": "Gemini Omni 1.2 Flash"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Kling",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "signal": "Inkling 2 Small"
         }
       ],
       "content_ideas": []
@@ -338,7 +219,7 @@
       "content_ideas": []
     },
     {
-      "name": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on",
+      "name": "I struggle to believe that AI R&D is ingenious",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -350,7 +231,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -358,8 +239,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-          "signal": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens"
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+          "signal": "I struggle to believe that AI R&D is ingenious"
         }
       ],
       "content_ideas": []
@@ -390,27 +271,49 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
+      "name": "US FAA says it will phase out floppy disks from air traffic control by",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+          "signal": "US FAA says it will phase out floppy disks from air traffic control by 2028"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -418,28 +321,106 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50363461",
-          "signal": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoskwf/meanwhile_gemini_is_back_to_producing_3_arms/",
-          "signal": "Meanwhile, Gemini is back to producing 3 arms"
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "signal": "AI for scientific discovery: How researchers use Claude"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=UAs1Uu1_bZA",
-          "signal": "AI vs Human IQ : AI Sorry Bola 😱😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
+          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 5",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+          "signal": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "signal": "Anthropic IPO buyers see valuation as low as $1.1T"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Kling",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "signal": "Inkling 2 Small"
         }
       ],
       "content_ideas": []
@@ -447,7 +428,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -473,28 +454,111 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp0pbi/lawsuit_man_introduced_his_wife_to_chatgpt_she/",
-          "signal": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
+          "signal": "I just spammed chatgpt like 10 times and this happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xo1r57/chatgpt_leaked_an_internal_prompt/",
-          "signal": "ChatGPT leaked an internal prompt"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
+          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoml5v/what_chatgpt_phrase_annoys_you_the_most/",
-          "signal": "What chatGPT phrase annoys you the most?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpkifg/a_saga_in_35_prompts_based_off_the_post_where/",
+          "signal": "A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobpr0/asked_chatgpt_to_create_me_with_the_most/",
-          "signal": "Asked chatGPT to create me with the most flattering makeup possible"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpab2i/chatgpt_has_gotten_dumber_in_the_last_few_weeks/",
+          "signal": "chatgpt has gotten dumber in the last few weeks. Is it just me?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xobw98/chatgpt_can_create_gif_now_d/",
-          "signal": "ChatGPT can create GIF now :D"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpcuet/does_anyone_else_find_this_new_chatgpt_feature/",
+          "signal": "Does anyone else find this new ChatGPT feature annoying?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "signal": "Gemini Omni 1.2 Flash"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
+          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "signal": "AI for scientific discovery: How researchers use Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
+          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
         }
       ],
       "content_ideas": []
@@ -502,17 +566,41 @@
   ],
   "pain_points": [
     {
-      "problem": "Sam Has Expensive Taste",
+      "problem": "I was reading about codex limit and found this ......as a plus user this is scary",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xoeefa/sam_has_expensive_taste/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp92zx/i_was_reading_about_codex_limit_and_found_this_as/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Memory full bug seems to came back",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp9ltl/memory_full_bug_seems_to_came_back/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "They need to cache files longer because waiting for a reset keeps removing everything it's working on \"The pause also triggered a workspace ",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpfudu/they_need_to_cache_files_longer_because_waiting/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "AI is forcing us to pay off 40 years of technical debt — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
