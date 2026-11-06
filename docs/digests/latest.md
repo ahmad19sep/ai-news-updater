@@ -19,10 +19,10 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
 6. **Microsoft AI beats doctors in simulated diagnosis test - Fox News** — science angle
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
-7. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
+7. **AI for scientific discovery: How researchers use Claude** — 84 upvotes on Reddit/HN
+   https://www.anthropic.com/research/how-researchers-use-claude
+8. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
-8. **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — science angle
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston** — Sam Altman News — Score 106
@@ -33,18 +33,18 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://www.wcvb.com/article/wall-street-ai-stocks-tumble-as-voter-backlash-threatens-data-center-expansion/74350015
 4. **OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters** — Breaking GPT-5 — Score 55
    https://news.google.com/rss/articles/CBMirgFBVV95cUxOZnpqZW1wbThoTUY1UWpZWi1aeU5rMzZxMDVRMnRUWWo3R1Z1cnJrblN1bVVpbXVGcldYOTNyT3d2MFVnZTlsNS0yZ0J3aDRlYXpUdmlmc0lTUWduYTZzLWpaYkowc1h5MFBwd0tja3RDbjZMcUcybFByX29ZUkl2V0IxdWhkSU5sb2VsT1VHWUs4Z0tVMkZqU2wxak1hYjNSSFQ2Zm1Ea1d5d25jNkE?oc=5
-5. **Wysera Launches an AI Agent That Writes Marketing Content in a Company's Own Voice - The Daily Tribune News** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMinAJBVV95cUxQOHJuaFVjMnFKM1VwcnUtYk5RSXQ4bWFwaXF4cW85OVlXaTUxdl95bXd6UkVYNEhZaUFvVmRfd2JrUEdiUWhrQ2kzWklMemRFeVJXVkk5UFFLUVVEOEZXMThVdkVxMzBEQVBIMm1wbGQ3ZDZyWlBWcC0zenlvV0RUZlpxX05mcXk3bG5fTjVSRnVWZHN2S0prdExIaWgtQzRoX1VzdFptX05hcUdjaFdENW5LX21DMEREVVRNaEdibThqXy11RExfelhvN2NhNjVHd2ZTV1dNQnMwLWxoRlphc2Z2LVpqRUJpQTlrQlNxYTQ0MFRoM3NQMWZsTXZWcG1LLUpHdWZCNC1OU1h1UVFlb1BZc1IyZ2ZscHQybw?oc=5
-6. **Lee vows bold investment in AI, future growth engines** — thehawk_in — Score 43
-   https://www.thehawk.in/news/science/lee-vows-bold-investment-in-ai-future-growth-engines
-7. **IREN Sinks 9% After Report Links It to Microsoft's AI Spending Delay; Nebius Tumbles 11%, CoreWeave Slides 7% - 24/7 Wall St.** — Microsoft AI — Score 43
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxOd0FrcWs0dTJZQkYzaDJoTmJoMjcyRkJMM3o0bmZpOVF2S1dQazF3djhmaVVYNi1YNzliNmt1OENOa3N2c05HblVBU1plVEFBU2lKMk1PQ2RVUjJnaE0wRTdkbG51MjBPZFVTZ2JyQXlDazZ6QlJBNFUyZnNDaHRvVkNsNGw3VVZFb0taZHpxWUVYUE5lQzV6NndVV3AybnlmVWlfVG1WcVZiam9tUFA4U2RDcExCTGxIZ2Y4c0R1czR2cUs3OFEwVFdoaDRyQUQ5R0NQQnJpV3FRZjZVd0J1TA?oc=5
-8. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 43
+5. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 53
    https://openai.com/index/introducing-gpt-6-cyber
-9. **Google will turn off search for schools that reject AI** — Hacker News AI — Score 42.6
-   https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
-10. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 41
+6. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 51
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
+7. **Wysera Launches an AI Agent That Writes Marketing Content in a Company's Own Voice - The Daily Tribune News** — AI Agents — Score 48
+   https://news.google.com/rss/articles/CBMinAJBVV95cUxQOHJuaFVjMnFKM1VwcnUtYk5RSXQ4bWFwaXF4cW85OVlXaTUxdl95bXd6UkVYNEhZaUFvVmRfd2JrUEdiUWhrQ2kzWklMemRFeVJXVkk5UFFLUVVEOEZXMThVdkVxMzBEQVBIMm1wbGQ3ZDZyWlBWcC0zenlvV0RUZlpxX05mcXk3bG5fTjVSRnVWZHN2S0prdExIaWgtQzRoX1VzdFptX05hcUdjaFdENW5LX21DMEREVVRNaEdibThqXy11RExfelhvN2NhNjVHd2ZTV1dNQnMwLWxoRlphc2Z2LVpqRUJpQTlrQlNxYTQ0MFRoM3NQMWZsTXZWcG1LLUpHdWZCNC1OU1h1UVFlb1BZc1IyZ2ZscHQybw?oc=5
+8. **Perplexity launches its own take on AI agents for work - The Verge** — Perplexity News — Score 45
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmpjbUlKRk5NNS1ocHJHQkVMNklPamFtSzNjUjhEWWItYndXYk1UbWdjUlB1NXFzc3NQX1Q0MVJnVm95TkZtYUUyZTFCUVA3WjZ1M19MMGNZQ09EeEFuTGZMd3JvV0xWaEl1dnh5Z0lYOTg3MkZhMnVsRnlWMFdoQ0lNMzlvZ1Bka1k0UHdxYUFxSHp3cEZhMmJFNA?oc=5
+9. **Lee vows bold investment in AI, future growth engines** — thehawk_in — Score 43
+   https://www.thehawk.in/news/science/lee-vows-bold-investment-in-ai-future-growth-engines
+10. **IREN Sinks 9% After Report Links It to Microsoft's AI Spending Delay; Nebius Tumbles 11%, CoreWeave Slides 7% - 24/7 Wall St.** — Microsoft AI — Score 43
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxOd0FrcWs0dTJZQkYzaDJoTmJoMjcyRkJMM3o0bmZpOVF2S1dQazF3djhmaVVYNi1YNzliNmt1OENOa3N2c05HblVBU1plVEFBU2lKMk1PQ2RVUjJnaE0wRTdkbG51MjBPZFVTZ2JyQXlDazZ6QlJBNFUyZnNDaHRvVkNsNGw3VVZFb0taZHpxWUVYUE5lQzV6NndVV3AybnlmVWlfVG1WcVZiam9tUFA4U2RDcExCTGxIZ2Y4c0R1czR2cUs3OFEwVFdoaDRyQUQ5R0NQQnJpV3FRZjZVd0J1TA?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2612
+- Total stories tracked: 2584
 - Most active topic: agent
 - Busiest category: AI General News
 
