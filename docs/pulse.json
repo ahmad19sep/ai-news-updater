@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:07:33.234336+00:00",
+  "generated_at": "2026-11-07T21:54:17.385128+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 36,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,8 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpkifg/a_saga_in_35_prompts_based_off_the_post_where/",
-          "signal": "A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq98gx/i_asked_chatgpt_for_jd_habibi/",
+          "signal": "I asked ChatGPT for JD, Habibi"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
+          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
         },
         {
           "platform": "reddit",
@@ -54,18 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
-          "signal": "I just spammed chatgpt like 10 times and this happened"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqcd5d/email_from_onelogin_about_access_token_being/",
+          "signal": "E-mail from OneLogin about access token being granted to my ChatGPT app"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq2z0h/this_chatgpt_anime_girl_went_viral_on_chinese/",
-          "signal": "This ChatGPT anime girl went viral on Chinese social media. I made a 3D version."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpyhny/chatgpt_freedom_to_choose_in_3_prompts_based_on_a/",
-          "signal": "ChatGPT freedom to choose in 3 prompts (Based on A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times))"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
+          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
         }
       ],
       "content_ideas": []
@@ -98,6 +98,33 @@
       "content_ideas": []
     },
     {
+      "name": "Every Mac comes with an (undocumented) family member classifier",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+          "signal": "Every Mac comes with an (undocumented) family member classifier"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fra",
       "category": "use_case",
       "momentum": "rising",
@@ -120,6 +147,33 @@
           "platform": "hackernews",
           "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
           "signal": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "US FAA says it will phase out floppy disks from air traffic control by",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+          "signal": "US FAA says it will phase out floppy disks from air traffic control by 2028"
         }
       ],
       "content_ideas": []
@@ -160,60 +214,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The Hackintosh Reborn",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-          "signal": "The Hackintosh Reborn"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "US FAA says it will phase out floppy disks from air traffic control by",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
-          "signal": "US FAA says it will phase out floppy disks from air traffic control by 2028"
         }
       ],
       "content_ideas": []
@@ -273,6 +273,62 @@
       "content_ideas": []
     },
     {
+      "name": "Firecracker VM Escape: PwnEscape Part 2",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pwn.ai/blog/firecracker-escape",
+          "signal": "Firecracker VM Escape: PwnEscape Part 2"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The end of Microsoft Research's AI Frontiers group",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://hunch.net/?p=13764006",
+          "signal": "The end of Microsoft Research's AI Frontiers group"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Kling",
       "category": "tool_launch",
       "momentum": "hot",
@@ -300,62 +356,6 @@
       "content_ideas": []
     },
     {
-      "name": "Firecracker VM Escape: PwnEscape Part 2",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pwn.ai/blog/firecracker-escape",
-          "signal": "Firecracker VM Escape: PwnEscape Part 2"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
-          "signal": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -371,7 +371,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -384,8 +384,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+          "url": "https://www.youtube.com/watch?v=l1L9sezAcxc",
+          "signal": "GPT and Claude Agents Just Started an AI Civilization War"
         },
         {
           "platform": "youtube",
@@ -396,11 +396,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
           "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
-          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
         }
       ],
       "content_ideas": []
@@ -436,8 +431,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpkifg/a_saga_in_35_prompts_based_off_the_post_where/",
-          "signal": "A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq98gx/i_asked_chatgpt_for_jd_habibi/",
+          "signal": "I asked ChatGPT for JD, Habibi"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
+          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
         },
         {
           "platform": "reddit",
@@ -446,18 +446,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
-          "signal": "I just spammed chatgpt like 10 times and this happened"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqcd5d/email_from_onelogin_about_access_token_being/",
+          "signal": "E-mail from OneLogin about access token being granted to my ChatGPT app"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq2z0h/this_chatgpt_anime_girl_went_viral_on_chinese/",
-          "signal": "This ChatGPT anime girl went viral on Chinese social media. I made a 3D version."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpyhny/chatgpt_freedom_to_choose_in_3_prompts_based_on_a/",
-          "signal": "ChatGPT freedom to choose in 3 prompts (Based on A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times))"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
+          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
         }
       ],
       "content_ideas": []
@@ -545,7 +540,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 8,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -558,8 +553,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+          "url": "https://www.youtube.com/watch?v=l1L9sezAcxc",
+          "signal": "GPT and Claude Agents Just Started an AI Civilization War"
         },
         {
           "platform": "youtube",
@@ -570,11 +565,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
           "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
-          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
         }
       ],
       "content_ideas": []
@@ -582,25 +572,25 @@
   ],
   "pain_points": [
     {
-      "problem": "Context window full error: theory on why haven't they fixed it yet?",
+      "problem": "Umm...I had 7 messages. When will this bug get fixed?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq3tzm/context_window_full_error_theory_on_why_havent/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq5tuh/ummi_had_7_messages_when_will_this_bug_get_fixed/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "When will OpenAI will finally fix the Context Window Full whatever problem?",
+      "problem": "Why is it now saying that \"Context Limit Reached\"?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpttyf/when_will_openai_will_finally_fix_the_context/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqbpiq/why_is_it_now_saying_that_context_limit_reached/"
         }
       ],
       "content_opportunity": ""
