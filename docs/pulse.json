@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:27:03.403027+00:00",
+  "generated_at": "2026-11-07T06:02:59.401599+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 34,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
@@ -28,7 +28,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -44,28 +44,55 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
-          "signal": "I just spammed chatgpt like 10 times and this happened"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
-          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xpkifg/a_saga_in_35_prompts_based_off_the_post_where/",
           "signal": "A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpab2i/chatgpt_has_gotten_dumber_in_the_last_few_weeks/",
-          "signal": "chatgpt has gotten dumber in the last few weeks. Is it just me?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
+          "signal": "I just spammed chatgpt like 10 times and this happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpcuet/does_anyone_else_find_this_new_chatgpt_feature/",
-          "signal": "Does anyone else find this new ChatGPT feature annoying?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpvmyy/why_do_they_throttle_chatgpt_so_bad_just_before/",
+          "signal": "Why do they throttle ChatGPT so bad just before an update?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpopxb/chatgpt_answered_itself_from_my_perspective_in_a/",
+          "signal": "ChatGPT answered itself from my perspective. (in a spoken conversation)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
+          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "signal": "Anthropic IPO buyers see valuation as low as $1.1T"
         }
       ],
       "content_ideas": []
@@ -165,9 +192,90 @@
       "content_ideas": []
     },
     {
+      "name": "US FAA says it will phase out floppy disks from air traffic control by",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+          "signal": "US FAA says it will phase out floppy disks from air traffic control by 2028"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is dramatically accelerating AI research",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "signal": "AI is dramatically accelerating AI research"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "I struggle to believe that AI R&D is ingenious",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+          "signal": "I struggle to believe that AI R&D is ingenious"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Kling",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -219,19 +327,21 @@
       "content_ideas": []
     },
     {
-      "name": "I struggle to believe that AI R&D is ingenious",
+      "name": "Firecracker VM Escape: PwnEscape Part 2",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -239,8 +349,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-          "signal": "I struggle to believe that AI R&D is ingenious"
+          "url": "https://pwn.ai/blog/firecracker-escape",
+          "signal": "Firecracker VM Escape: PwnEscape Part 2"
         }
       ],
       "content_ideas": []
@@ -258,7 +368,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -271,160 +381,9 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "US FAA says it will phase out floppy disks from air traffic control by",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
-          "signal": "US FAA says it will phase out floppy disks from air traffic control by 2028"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
-          "signal": "AI for scientific discovery: How researchers use Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
-          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 5",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-          "signal": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Anthropic IPO buyers see valuation as low as $1.1T",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-          "signal": "Anthropic IPO buyers see valuation as low as $1.1T"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Kling",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-          "signal": "Inkling 2 Small"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -438,7 +397,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 8,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -454,28 +413,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
-          "signal": "I just spammed chatgpt like 10 times and this happened"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
-          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
-        },
-        {
-          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xpkifg/a_saga_in_35_prompts_based_off_the_post_where/",
           "signal": "A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpab2i/chatgpt_has_gotten_dumber_in_the_last_few_weeks/",
-          "signal": "chatgpt has gotten dumber in the last few weeks. Is it just me?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
+          "signal": "I just spammed chatgpt like 10 times and this happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpcuet/does_anyone_else_find_this_new_chatgpt_feature/",
-          "signal": "Does anyone else find this new ChatGPT feature annoying?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpvmyy/why_do_they_throttle_chatgpt_so_bad_just_before/",
+          "signal": "Why do they throttle ChatGPT so bad just before an update?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpopxb/chatgpt_answered_itself_from_my_perspective_in_a/",
+          "signal": "ChatGPT answered itself from my perspective. (in a spoken conversation)"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
+          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
         }
       ],
       "content_ideas": []
@@ -521,20 +480,19 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Kling",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -542,23 +500,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
-          "signal": "AI for scientific discovery: How researchers use Claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
-          "signal": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "signal": "Inkling 2 Small"
         }
       ],
       "content_ideas": []
@@ -566,37 +509,25 @@
   ],
   "pain_points": [
     {
+      "problem": "When will OpenAI will finally fix the Context Window Full whatever problem?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpttyf/when_will_openai_will_finally_fix_the_context/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "I was reading about codex limit and found this ......as a plus user this is scary",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xp92zx/i_was_reading_about_codex_limit_and_found_this_as/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Memory full bug seems to came back",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp9ltl/memory_full_bug_seems_to_came_back/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "They need to cache files longer because waiting for a reset keeps removing everything it's working on \"The pause also triggered a workspace ",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpfudu/they_need_to_cache_files_longer_because_waiting/"
         }
       ],
       "content_opportunity": ""
