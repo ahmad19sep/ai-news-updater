@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T06:02:59.401599+00:00",
+  "generated_at": "2026-11-07T13:07:33.234336+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 35,
+      "hackernews": 36,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,23 +49,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq4g2m/estranged_wife_manipulated_and_encouraged_by/",
+          "signal": "Estranged wife ‘manipulated and encouraged’ by ChatGPT to poison husband"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
           "signal": "I just spammed chatgpt like 10 times and this happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpvmyy/why_do_they_throttle_chatgpt_so_bad_just_before/",
-          "signal": "Why do they throttle ChatGPT so bad just before an update?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq2z0h/this_chatgpt_anime_girl_went_viral_on_chinese/",
+          "signal": "This ChatGPT anime girl went viral on Chinese social media. I made a 3D version."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpopxb/chatgpt_answered_itself_from_my_perspective_in_a/",
-          "signal": "ChatGPT answered itself from my perspective. (in a spoken conversation)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
-          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpyhny/chatgpt_freedom_to_choose_in_3_prompts_based_on_a/",
+          "signal": "ChatGPT freedom to choose in 3 prompts (Based on A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times))"
         }
       ],
       "content_ideas": []
@@ -125,33 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "The Hackintosh Reborn",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-          "signal": "The Hackintosh Reborn"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -187,6 +160,33 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The Hackintosh Reborn",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+          "signal": "The Hackintosh Reborn"
         }
       ],
       "content_ideas": []
@@ -285,7 +285,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -295,6 +295,35 @@
           "platform": "hackernews",
           "url": "https://thinkingmachines.ai/news/inkling-2-small/",
           "signal": "Inkling 2 Small"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Firecracker VM Escape: PwnEscape Part 2",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pwn.ai/blog/firecracker-escape",
+          "signal": "Firecracker VM Escape: PwnEscape Part 2"
         }
       ],
       "content_ideas": []
@@ -327,13 +356,14 @@
       "content_ideas": []
     },
     {
-      "name": "Firecracker VM Escape: PwnEscape Part 2",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "hackernews",
-        "instagram_inferred"
+        "instagram_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -341,43 +371,36 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://pwn.ai/blog/firecracker-escape",
-          "signal": "Firecracker VM Escape: PwnEscape Part 2"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "My psychophysics as a bilateral cochlear implant user",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "signal": "AI for scientific discovery: How researchers use Claude"
+        },
         {
-          "platform": "hackernews",
-          "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
-          "signal": "My psychophysics as a bilateral cochlear implant user"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
+          "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
+          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
         }
       ],
       "content_ideas": []
@@ -418,23 +441,23 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq4g2m/estranged_wife_manipulated_and_encouraged_by/",
+          "signal": "Estranged wife ‘manipulated and encouraged’ by ChatGPT to poison husband"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
           "signal": "I just spammed chatgpt like 10 times and this happened"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpvmyy/why_do_they_throttle_chatgpt_so_bad_just_before/",
-          "signal": "Why do they throttle ChatGPT so bad just before an update?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq2z0h/this_chatgpt_anime_girl_went_viral_on_chinese/",
+          "signal": "This ChatGPT anime girl went viral on Chinese social media. I made a 3D version."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpopxb/chatgpt_answered_itself_from_my_perspective_in_a/",
-          "signal": "ChatGPT answered itself from my perspective. (in a spoken conversation)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
-          "signal": "Tell ChatGPT to “Fill the shelf based on what you know about me.”"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xpyhny/chatgpt_freedom_to_choose_in_3_prompts_based_on_a/",
+          "signal": "ChatGPT freedom to choose in 3 prompts (Based on A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times))"
         }
       ],
       "content_ideas": []
@@ -492,7 +515,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -505,9 +528,71 @@
         }
       ],
       "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "signal": "AI for scientific discovery: How researchers use Claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
+          "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qKsMQg4WB6s",
+          "signal": "Claude + This FREE AI Tool = UNLIMITED AI Voice Generation!."
+        }
+      ],
+      "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "Context window full error: theory on why haven't they fixed it yet?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq3tzm/context_window_full_error_theory_on_why_havent/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "When will OpenAI will finally fix the Context Window Full whatever problem?",
       "who_affected": "r/ChatGPT",
@@ -516,18 +601,6 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xpttyf/when_will_openai_will_finally_fix_the_context/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I was reading about codex limit and found this ......as a plus user this is scary",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xp92zx/i_was_reading_about_codex_limit_and_found_this_as/"
         }
       ],
       "content_opportunity": ""
