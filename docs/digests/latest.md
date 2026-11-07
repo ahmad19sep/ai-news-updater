@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 30 Oct 2026 to 06 Nov 2026
+# 🗞️ AI THIS WEEK — 31 Oct 2026 to 07 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston**
@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWp2OF9UQnVEVEZvcm01N09RZXkxVzFsZ3NoZVdFRElaeHo4azE2dlF0LUtCejU1UnB0eE1VS1hVSHRsT1dDdktWSWNWdndKSU0xeUt0NGZuNy1nMUZRckk5UzREYmtJRUY1N09xUEk0aWJ3SXU3MFpLOXlSeGdDV284ZlNEYUnSAYwBQVVfeXFMTklsUk5LcXJHMGNLenQ0aDR2X0tJMXg5MG10UThHcGpXV1NuS2dNWDBBbWI1eEpRbGpRYjN6OTV0ZzBEN0VPY1M0LVhQTDZJY2F2MkVRUWVrSEpZaUY4OVo3VHFGQTJjMS1SZWVGVGNiLV9LeWRjazRXNFlTcXA4eHB3amUtR2ltR0VnMmo?oc=5
 7. **AI for scientific discovery: How researchers use Claude** — 84 upvotes on Reddit/HN
    https://www.anthropic.com/research/how-researchers-use-claude
-8. **Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds - Fierce Healthcare** — science angle
-   https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3poTVdJMUhRam1TczVsVDdQdF9JNXlmbmFVelh1YW1ENUt2LTJ4ZGlGVW5Wdm1wUW5iMnVINkhQclBpMTR4YzJYTDM4aWV3NnQwU3lyZkNCTlVNOGZ1WWVZSHA3M3I0WkZhV19tNGZna2dUR292bmh6NkQ4UlZub3RucXdpa2ZFZzhvNVZsYUh1cElCdlpfa2EwRHl6T044NWZUbUpiNUV2WHBYQ3MtNDNGeldfbFRYZFBQWnpDQ0VlLTdEMjN4Yg?oc=5
+8. **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — science angle
+   https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston** — Sam Altman News — Score 106
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2584
+- Total stories tracked: 2522
 - Most active topic: agent
 - Busiest category: AI General News
 
