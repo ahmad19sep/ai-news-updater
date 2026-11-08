@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:07:00.200044+00:00",
+  "generated_at": "2026-11-08T13:29:14.581726+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,6 +44,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
+          "signal": "Chatgpt knows ball."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
           "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
         },
@@ -55,18 +59,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
-          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvojd/is_chatgpts_image_generation_different_on_web_and/",
+          "signal": "Is ChatGPT's Image Generation Different on Web and Desktop? The Image Quality Gap Is Huge!"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq4g2m/estranged_wife_manipulated_and_encouraged_by/",
-          "signal": "Estranged wife ‘manipulated and encouraged’ by ChatGPT to poison husband"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq920i/share_an_uncommon_way_to_use_chatgpt_that_works/",
-          "signal": "Share an uncommon way to use ChatGPT that works for you!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvxun/chatgpt_making_up_references/",
+          "signal": "ChatGPT making up references"
         }
       ],
       "content_ideas": []
@@ -154,18 +153,45 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=x3vdfNOJTbk",
-          "signal": "ChatGPT &amp; Gemini’s New Features are INSANE! (Omni 1.2, GPT-6 Cyber &amp; More)"
+          "url": "https://www.youtube.com/watch?v=orWCqpRMhgA",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9RIK3A24ZxA",
+          "signal": "Weight space programming, science agents, 3D generators, new Gemini Omni, new GPT Image: AI NEWS"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The end of Microsoft Research's AI Frontiers group",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://hunch.net/?p=13764006",
+          "signal": "The end of Microsoft Research's AI Frontiers group"
         }
       ],
       "content_ideas": []
@@ -198,7 +224,7 @@
       "content_ideas": []
     },
     {
-      "name": "The end of Microsoft Research's AI Frontiers group",
+      "name": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -218,8 +244,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://hunch.net/?p=13764006",
-          "signal": "The end of Microsoft Research's AI Frontiers group"
+          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+          "signal": "MaxxBench – \"Nice DeepSWE score. But is it true?\""
         }
       ],
       "content_ideas": []
@@ -259,7 +285,6 @@
       "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "youtube"
       ],
@@ -269,26 +294,21 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 8,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
-          "signal": "AI for scientific discovery: How researchers use Claude"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
           "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
         },
         {
           "platform": "youtube",
@@ -299,33 +319,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
           "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-          "signal": "MaxxBench – \"Nice DeepSWE score. But is it true?\""
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
+          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
         }
       ],
       "content_ideas": []
@@ -420,7 +418,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -443,6 +440,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
+          "signal": "Chatgpt knows ball."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
           "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
         },
@@ -453,18 +455,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
-          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvojd/is_chatgpts_image_generation_different_on_web_and/",
+          "signal": "Is ChatGPT's Image Generation Different on Web and Desktop? The Image Quality Gap Is Huge!"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq4g2m/estranged_wife_manipulated_and_encouraged_by/",
-          "signal": "Estranged wife ‘manipulated and encouraged’ by ChatGPT to poison husband"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq920i/share_an_uncommon_way_to_use_chatgpt_that_works/",
-          "signal": "Share an uncommon way to use ChatGPT that works for you!"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvxun/chatgpt_making_up_references/",
+          "signal": "ChatGPT making up references"
         }
       ],
       "content_ideas": []
@@ -498,18 +495,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_NmIGzR592E",
-          "signal": "AI Trap Gone WRONG !🚨 Last Question? 🤯😱#ai #gemini #chatgpt #tech #shorts"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=x3vdfNOJTbk",
-          "signal": "ChatGPT &amp; Gemini’s New Features are INSANE! (Omni 1.2, GPT-6 Cyber &amp; More)"
+          "url": "https://www.youtube.com/watch?v=orWCqpRMhgA",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9RIK3A24ZxA",
+          "signal": "Weight space programming, science agents, 3D generators, new Gemini Omni, new GPT Image: AI NEWS"
         }
       ],
       "content_ideas": []
@@ -520,7 +517,6 @@
       "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "youtube"
       ],
@@ -530,26 +526,21 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 8,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
-          "signal": "AI for scientific discovery: How researchers use Claude"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
+          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
           "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
         },
         {
           "platform": "youtube",
@@ -560,6 +551,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
           "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
+          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
         }
       ],
       "content_ideas": []
@@ -567,25 +563,37 @@
   ],
   "pain_points": [
     {
-      "problem": "Umm...I had 7 messages. When will this bug get fixed?",
+      "problem": "Decided to try out the funny and accidentally broke him. It still types out the 0.000... Memory footprint for this tab continues to grow. Wi",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq5tuh/ummi_had_7_messages_when_will_this_bug_get_fixed/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqwc8z/decided_to_try_out_the_funny_and_accidentally/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "Using ChatGPT in an attempt to speed up workflow, is it normal for the learning curve to slow you down at first?",
+      "problem": "I just got this error minutes ago. Great. From context full now this.",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqn2k1/using_chatgpt_in_an_attempt_to_speed_up_workflow/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvtyt/i_just_got_this_error_minutes_ago_great_from/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "SO BUGGY UI FIX. I CANNOT SEND MESSAGES",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqxq0i/so_buggy_ui_fix_i_cannot_send_messages/"
         }
       ],
       "content_opportunity": ""
