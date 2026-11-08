@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — 6 upvotes on Reddit/HN
    https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
-2. **Doctors ‘gaslit’ a medical student struggling with chronic illness. She built an $18m women’s health AI to prove them wrong - Macquarie University** — science angle
-   https://news.google.com/rss/articles/CBMihgJBVV95cUxPR1YwaDF4X0RFTWxXZlFSWXAxbFBuaTk0V0ZGaWR5MXhoRzVILUlfWUtyN0lETlVqdEd3Y1RRc09uV2dNR3FHSXNkcHQ5eVNva2I2TXQwWnpYajdmdXRtX2dtSndaOGtPaDJWZGx5LVBjUzBidkJaVXhhR1ZVTUNHMnIzWXEzV2lZWVNGYTJEaDhrRExDVERXSlhqVUpUdWNJOVpDNTYzcDg4ZVZvNW1SZmVHRllTS05lMHE1N3JESlFDUVlxczdwN19ibVJ1Wkt1Q1hWZUg5V2g0NXgzMVFyMlNfSHFNNGI4WFRwSms0dW45RWpSQjFPWFhIOUo5WEpwQWFia1JB?oc=5
-3. **AI Starts Writing Acne Prescriptions Without A Doctor’s Visit In One State - U.S. News & World Report** — science angle
+2. **AI Starts Writing Acne Prescriptions Without A Doctor’s Visit In One State - U.S. News & World Report** — science angle
    https://news.google.com/rss/articles/CBMizgFBVV95cUxNU245X0tyeFBaWGZkVG91R3VKZ3QxQk9BS2ExcGh4RGpPMFJxZUMwV29xMGdUM1RweWs4dEVYeU13XzAtSzczRFQ0S3pGUXI4eUxXNTNuZEYwZlk5RGRtWHVUc1F5ZFFTNjNWN0thcnFqQWtEcGtHZU5YS3pwcGZlcUdvZ2RFRUthc1hRTlZMZjRBQW1tekV2Rk9UOXBqb2E5dVFsVDlmZlRZaFhxdVQ5RXpuNzR3U3RLMUpNN3V0TmlNS2I5cnlETlFIVzRGUQ?oc=5
-4. **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — science angle
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
-5. **AI death lawsuit sparks alarming warning from ‘Doctor GPT’ - NewsNation** — science angle
+3. **AI death lawsuit sparks alarming warning from ‘Doctor GPT’ - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMid0FVX3lxTE9WUFIwSXZTUWt0b1BNa1hKcjhKOHVHd3ZvOUV4S0NBSEdDM1dmU1dwT2lveURDSGhfeGFJZlhGQTV6QzlFanBOUmxrdlIzZUZWUEJMR0ZNR2lhb3J6bEpOdHdEVWhDTktiNFgtVjJIeFJ3NjRFT09J0gF8QVVfeXFMTnBYRDVFVmdsZ2l5aWdZRTRuSlVNbWdQTk1VbGNybHFXRUwwdjlubVBkSWtBMG9Ualp5UUVSYTBwblFTVnJKbkJtcUtGWkNEQm1Id3pQR19jcW9CSkFaaFQ1Mk9KNnVLM2lTNG0xY1ZNRkh4TDhuMm1uaER0Qg?oc=5
-6. **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — science angle
+4. **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — science angle
    https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
-7. **Google researchers demand freedom to tell the world what they know about AI** — 75 upvotes on Reddit/HN
+5. **Google researchers demand freedom to tell the world what they know about AI** — 75 upvotes on Reddit/HN
    https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/
-8. **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — science angle
+6. **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — science angle
    https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
+7. **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — science angle
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
+8. **Patients are already asking AI. How do we make it safer? - InSight+** — science angle
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxPdUd5anliLUQxdTIxSnFEYnlnc28wNU5OYTVkUFBpQnhpWFVsV0E5dlVFOVdseGk3STY0Rl9BZ1ZEdXc5NkdFVFQ3aEc5UUY3cWFtcjBYOTgwT21aOVFCcTBYNFZua2MwaGE1bm15aWVZbTJRdk9MaWRvd3VGTUt5Q1Rkd1U1cU1qZ1FCZnByZEMwUFBvVk5iNA?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston** — Sam Altman News — Score 133
@@ -41,20 +41,20 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
 8. **Cooks River AI data centre scrapped after local outcry** — watoday — Score 46
    https://www.watoday.com.au/politics/nsw/cooks-river-ai-data-centre-scrapped-after-local-outcry-20261108-p61ccb.html
-9. **Why a new report on Anthropic automating AI development is alarming researchers** — The Verge AI — Score 45
+9. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 46
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5
+10. **Why a new report on Anthropic automating AI development is alarming researchers** — The Verge AI — Score 45
    https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development
-10. **Lee vows bold investment in AI, future growth engines** — thehawk_in — Score 43
-   https://www.thehawk.in/news/science/lee-vows-bold-investment-in-ai-future-growth-engines
 
 ## 🧪 AI in Science Highlights
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
-- **Doctors ‘gaslit’ a medical student struggling with chronic illness. She built an $18m women’s health AI to prove them wrong - Macquarie University** — https://news.google.com/rss/articles/CBMihgJBVV95cUxPR1YwaDF4X0RFTWxXZlFSWXAxbFBuaTk0V0ZGaWR5MXhoRzVILUlfWUtyN0lETlVqdEd3Y1RRc09uV2dNR3FHSXNkcHQ5eVNva2I2TXQwWnpYajdmdXRtX2dtSndaOGtPaDJWZGx5LVBjUzBidkJaVXhhR1ZVTUNHMnIzWXEzV2lZWVNGYTJEaDhrRExDVERXSlhqVUpUdWNJOVpDNTYzcDg4ZVZvNW1SZmVHRllTS05lMHE1N3JESlFDUVlxczdwN19ibVJ1Wkt1Q1hWZUg5V2g0NXgzMVFyMlNfSHFNNGI4WFRwSms0dW45RWpSQjFPWFhIOUo5WEpwQWFia1JB?oc=5
 - **AI Starts Writing Acne Prescriptions Without A Doctor’s Visit In One State - U.S. News & World Report** — https://news.google.com/rss/articles/CBMizgFBVV95cUxNU245X0tyeFBaWGZkVG91R3VKZ3QxQk9BS2ExcGh4RGpPMFJxZUMwV29xMGdUM1RweWs4dEVYeU13XzAtSzczRFQ0S3pGUXI4eUxXNTNuZEYwZlk5RGRtWHVUc1F5ZFFTNjNWN0thcnFqQWtEcGtHZU5YS3pwcGZlcUdvZ2RFRUthc1hRTlZMZjRBQW1tekV2Rk9UOXBqb2E5dVFsVDlmZlRZaFhxdVQ5RXpuNzR3U3RLMUpNN3V0TmlNS2I5cnlETlFIVzRGUQ?oc=5
-- **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
 - **AI death lawsuit sparks alarming warning from ‘Doctor GPT’ - NewsNation** — https://news.google.com/rss/articles/CBMid0FVX3lxTE9WUFIwSXZTUWt0b1BNa1hKcjhKOHVHd3ZvOUV4S0NBSEdDM1dmU1dwT2lveURDSGhfeGFJZlhGQTV6QzlFanBOUmxrdlIzZUZWUEJMR0ZNR2lhb3J6bEpOdHdEVWhDTktiNFgtVjJIeFJ3NjRFT09J0gF8QVVfeXFMTnBYRDVFVmdsZ2l5aWdZRTRuSlVNbWdQTk1VbGNybHFXRUwwdjlubVBkSWtBMG9Ualp5UUVSYTBwblFTVnJKbkJtcUtGWkNEQm1Id3pQR19jcW9CSkFaaFQ1Mk9KNnVLM2lTNG0xY1ZNRkh4TDhuMm1uaER0Qg?oc=5
+- **Eyedaptic launches Eva, an agentic AI visual assistant for patients with retinal disease - Ophthalmology Times** — https://news.google.com/rss/articles/CBMixgFBVV95cUxOVGxVekxKZ2ZSS3hMN3JTNmZna2pOMUV1TEdQMTNtN0ZMZDNNSzhlU3lnSzdKUURfSVl4YzlTaXF4akFTRkF1NzM1UGR4NVBGUExSWjFHTlJwblgtWjB1UERhNXBhNTdyZ2ptVUJRMHFRQVR3WVRGYmZxMmVWal84VERfdjJNYWl5YTgtT09tOFNET3hDREZIb0ZpWkVMWjIxdElpZVhRaGR3NDZTTzMwTzZSLVNzYlpBYnpURzNTOTZwd2xyeXc?oc=5
+- **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2491
+- Total stories tracked: 2487
 - Most active topic: agent
 - Busiest category: AI General News
 
