@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:29:14.581726+00:00",
+  "generated_at": "2026-11-08T22:09:30.985425+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 12,
       "youtube": 106
     },
     "llm_provider": null
@@ -28,7 +28,7 @@
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 8,
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
       "video_worthy": 10,
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr01jx/used_chatgpt_to_recreate_a_damaged_barcode/",
+          "signal": "Used ChatGPT to recreate a damaged barcode"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
           "signal": "Chatgpt knows ball."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
-          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr919h/since_when_can_chatgpt_create_interactive/",
+          "signal": "since when can ChatGPT create INTERACTIVE interfaces in the CHAT!?!?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xql4gc/what_benefits_does_the_paid_version_of_chatgpt/",
-          "signal": "What benefits does the paid version of ChatGPT offer that the free version doesn't?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr2w1a/i_had_chatgpt_write_a_m3u_player_for_me/",
+          "signal": "I had Chatgpt write a .m3u player for me."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvojd/is_chatgpts_image_generation_different_on_web_and/",
-          "signal": "Is ChatGPT's Image Generation Different on Web and Desktop? The Image Quality Gap Is Huge!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvxun/chatgpt_making_up_references/",
-          "signal": "ChatGPT making up references"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqyf2s/chatgpt_into_diwali_mode/",
+          "signal": "Chatgpt into Diwali mode!"
         }
       ],
       "content_ideas": []
@@ -98,78 +98,6 @@
       "content_ideas": []
     },
     {
-      "name": "Anthropic IPO buyers see valuation as low as $1.1T",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-          "signal": "Anthropic IPO buyers see valuation as low as $1.1T"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-          "signal": "Gemini Omni 1.2 Flash"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
-          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=orWCqpRMhgA",
-          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9RIK3A24ZxA",
-          "signal": "Weight space programming, science agents, 3D generators, new Gemini Omni, new GPT Image: AI NEWS"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "The end of Microsoft Research's AI Frontiers group",
       "category": "use_case",
       "momentum": "rising",
@@ -192,33 +120,6 @@
           "platform": "hackernews",
           "url": "https://hunch.net/?p=13764006",
           "signal": "The end of Microsoft Research's AI Frontiers group"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is dramatically accelerating AI research",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-          "signal": "AI is dramatically accelerating AI research"
         }
       ],
       "content_ideas": []
@@ -251,85 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "Firecracker VM Escape: PwnEscape Part 2",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pwn.ai/blog/firecracker-escape",
-          "signal": "Firecracker VM Escape: PwnEscape Part 2"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
-          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
-          "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
-          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "University libraries are being swarmed by AI bots, putting public acce",
+      "name": "Consumer brain wave headsets threaten privacy",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -349,14 +172,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-          "signal": "University libraries are being swarmed by AI bots, putting public access at risk"
+          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+          "signal": "Consumer brain wave headsets threaten privacy"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Google has acquired Crusoe's data center site in southeast Wyoming",
+      "name": "How I Fight AI Brain Fry",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -366,7 +189,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 5,
       "monetization": {
@@ -376,14 +199,41 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
-          "signal": "Google has acquired Crusoe's data center site in southeast Wyoming"
+          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+          "signal": "How I Fight AI Brain Fry"
         }
       ],
       "content_ideas": []
     },
     {
       "name": "The AI sell-off compared to well-known stock market crashes",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+          "signal": "The AI sell-off compared to well-known stock market crashes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Bu",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -403,65 +253,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
-          "signal": "The AI sell-off compared to well-known stock market crashes"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 8,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
-          "signal": "Chatgpt knows ball."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
-          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xql4gc/what_benefits_does_the_paid_version_of_chatgpt/",
-          "signal": "What benefits does the paid version of ChatGPT offer that the free version doesn't?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvojd/is_chatgpts_image_generation_different_on_web_and/",
-          "signal": "Is ChatGPT's Image Generation Different on Web and Desktop? The Image Quality Gap Is Huge!"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvxun/chatgpt_making_up_references/",
-          "signal": "ChatGPT making up references"
+          "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+          "signal": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It"
         }
       ],
       "content_ideas": []
@@ -469,10 +262,9 @@
     {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
-        "hackernews",
         "instagram_inferred",
         "youtube"
       ],
@@ -482,17 +274,12 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 10,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-          "signal": "Gemini Omni 1.2 Flash"
-        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
@@ -502,6 +289,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=orWCqpRMhgA",
           "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6qeLbcf9Fic",
+          "signal": "AI vs Human : gemini Wish Virat  Kohli Happy birthday 🥳😍 #ai #gemini #chatgpt #tech #viratkohli"
         },
         {
           "platform": "youtube",
@@ -526,7 +318,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 5,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -534,9 +326,203 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
-          "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
         },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
+          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
+          "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
+          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Drones built to look like birds evaded detection at Air Force tech exe",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://taskandpurpose.com/news/drone-mimicking-bird-test/",
+          "signal": "Drones built to look like birds evaded detection at Air Force tech exercise"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+          "signal": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr01jx/used_chatgpt_to_recreate_a_damaged_barcode/",
+          "signal": "Used ChatGPT to recreate a damaged barcode"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
+          "signal": "Chatgpt knows ball."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr919h/since_when_can_chatgpt_create_interactive/",
+          "signal": "since when can ChatGPT create INTERACTIVE interfaces in the CHAT!?!?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr2w1a/i_had_chatgpt_write_a_m3u_player_for_me/",
+          "signal": "I had Chatgpt write a .m3u player for me."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqyf2s/chatgpt_into_diwali_mode/",
+          "signal": "Chatgpt into Diwali mode!"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
+          "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=orWCqpRMhgA",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6qeLbcf9Fic",
+          "signal": "AI vs Human : gemini Wish Virat  Kohli Happy birthday 🥳😍 #ai #gemini #chatgpt #tech #viratkohli"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9RIK3A24ZxA",
+          "signal": "Weight space programming, science agents, 3D generators, new Gemini Omni, new GPT Image: AI NEWS"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
@@ -563,6 +549,18 @@
   ],
   "pain_points": [
     {
+      "problem": "Why can't regional prices just double fairly in other currencies like they do in the states?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 4,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqzz6z/why_cant_regional_prices_just_double_fairly_in/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "Decided to try out the funny and accidentally broke him. It still types out the 0.000... Memory footprint for this tab continues to grow. Wi",
       "who_affected": "r/ChatGPT",
       "signal_strength": 4,
@@ -575,25 +573,25 @@
       "content_opportunity": ""
     },
     {
-      "problem": "I just got this error minutes ago. Great. From context full now this.",
+      "problem": "Suddenly my 5hr limit got used up in matter of minutes simply asking questions.",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqvtyt/i_just_got_this_error_minutes_ago_great_from/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr5wz2/suddenly_my_5hr_limit_got_used_up_in_matter_of/"
         }
       ],
       "content_opportunity": ""
     },
     {
-      "problem": "SO BUGGY UI FIX. I CANNOT SEND MESSAGES",
+      "problem": "Don't ever use \"Instant\" in a conversation, there seems to be a bug that despite you changed to Medium-High reasoning, it will just eat toke",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqxq0i/so_buggy_ui_fix_i_cannot_send_messages/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr39cs/dont_ever_use_instant_in_a_conversation_there/"
         }
       ],
       "content_opportunity": ""
