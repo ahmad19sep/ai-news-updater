@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T21:54:17.385128+00:00",
+  "generated_at": "2026-11-08T06:07:00.200044+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,13 +45,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq98gx/i_asked_chatgpt_for_jd_habibi/",
-          "signal": "I asked ChatGPT for JD, Habibi"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
+          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
-          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xql4gc/what_benefits_does_the_paid_version_of_chatgpt/",
+          "signal": "What benefits does the paid version of ChatGPT offer that the free version doesn't?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
+          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
         },
         {
           "platform": "reddit",
@@ -59,40 +65,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqcd5d/email_from_onelogin_about_access_token_being/",
-          "signal": "E-mail from OneLogin about access token being granted to my ChatGPT app"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
-          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Anthropic IPO buyers see valuation as low as $1.1T",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-          "signal": "Anthropic IPO buyers see valuation as low as $1.1T"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq920i/share_an_uncommon_way_to_use_chatgpt_that_works/",
+          "signal": "Share an uncommon way to use ChatGPT that works for you!"
         }
       ],
       "content_ideas": []
@@ -125,7 +99,7 @@
       "content_ideas": []
     },
     {
-      "name": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fra",
+      "name": "Anthropic IPO buyers see valuation as low as $1.1T",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -145,35 +119,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-          "signal": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "US FAA says it will phase out floppy disks from air traffic control by",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
-          "signal": "US FAA says it will phase out floppy disks from air traffic control by 2028"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "signal": "Anthropic IPO buyers see valuation as low as $1.1T"
         }
       ],
       "content_ideas": []
@@ -181,7 +128,7 @@
     {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -214,6 +161,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x3vdfNOJTbk",
+          "signal": "ChatGPT &amp; Gemini’s New Features are INSANE! (Omni 1.2, GPT-6 Cyber &amp; More)"
         }
       ],
       "content_ideas": []
@@ -246,7 +198,7 @@
       "content_ideas": []
     },
     {
-      "name": "I struggle to believe that AI R&D is ingenious",
+      "name": "The end of Microsoft Research's AI Frontiers group",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -258,7 +210,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -266,8 +218,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-          "signal": "I struggle to believe that AI R&D is ingenious"
+          "url": "https://hunch.net/?p=13764006",
+          "signal": "The end of Microsoft Research's AI Frontiers group"
         }
       ],
       "content_ideas": []
@@ -302,60 +254,6 @@
       "content_ideas": []
     },
     {
-      "name": "The end of Microsoft Research's AI Frontiers group",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://hunch.net/?p=13764006",
-          "signal": "The end of Microsoft Research's AI Frontiers group"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Kling",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-          "signal": "Inkling 2 Small"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -371,7 +269,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -384,8 +282,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l1L9sezAcxc",
-          "signal": "GPT and Claude Agents Just Started an AI Civilization War"
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
         },
         {
           "platform": "youtube",
@@ -394,8 +292,121 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
+          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
           "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+          "signal": "MaxxBench – \"Nice DeepSWE score. But is it true?\""
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "University libraries are being swarmed by AI bots, putting public acce",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+          "signal": "University libraries are being swarmed by AI bots, putting public access at risk"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google has acquired Crusoe's data center site in southeast Wyoming",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+          "signal": "Google has acquired Crusoe's data center site in southeast Wyoming"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The AI sell-off compared to well-known stock market crashes",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+          "signal": "The AI sell-off compared to well-known stock market crashes"
         }
       ],
       "content_ideas": []
@@ -409,6 +420,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -431,13 +443,18 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq98gx/i_asked_chatgpt_for_jd_habibi/",
-          "signal": "I asked ChatGPT for JD, Habibi"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
+          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
-          "signal": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xql4gc/what_benefits_does_the_paid_version_of_chatgpt/",
+          "signal": "What benefits does the paid version of ChatGPT offer that the free version doesn't?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
+          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
         },
         {
           "platform": "reddit",
@@ -446,13 +463,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqcd5d/email_from_onelogin_about_access_token_being/",
-          "signal": "E-mail from OneLogin about access token being granted to my ChatGPT app"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
-          "signal": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt..."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xq920i/share_an_uncommon_way_to_use_chatgpt_that_works/",
+          "signal": "Share an uncommon way to use ChatGPT that works for you!"
         }
       ],
       "content_ideas": []
@@ -460,7 +472,7 @@
     {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "hackernews",
@@ -493,33 +505,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lt8LTLps89A",
           "signal": "AI vs Human IQ : AI Ro Diya 😰😂 Part 2 #ai #tech #gemini #chatgpt #shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Kling",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-          "signal": "Inkling 2 Small"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x3vdfNOJTbk",
+          "signal": "ChatGPT &amp; Gemini’s New Features are INSANE! (Omni 1.2, GPT-6 Cyber &amp; More)"
         }
       ],
       "content_ideas": []
@@ -540,7 +530,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -553,13 +543,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l1L9sezAcxc",
-          "signal": "GPT and Claude Agents Just Started an AI Civilization War"
+          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
+          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=n1N_ZIP5x3M",
           "signal": "How To Make Faceless YouTube Shorts with Claude (Free Skill/Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
+          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
         },
         {
           "platform": "youtube",
@@ -584,13 +579,13 @@
       "content_opportunity": ""
     },
     {
-      "problem": "Why is it now saying that \"Context Limit Reached\"?",
+      "problem": "Using ChatGPT in an attempt to speed up workflow, is it normal for the learning curve to slow you down at first?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqbpiq/why_is_it_now_saying_that_context_limit_reached/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqn2k1/using_chatgpt_in_an_attempt_to_speed_up_workflow/"
         }
       ],
       "content_opportunity": ""
