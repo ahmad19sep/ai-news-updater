@@ -29,7 +29,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WYTdldDhKclY5a3BnOXZzUUtHVlo1X2dyS3NDdlNzWG9hOFZfWnNNNml4T18yVlcxYV9XeEJfV2dmbnU1VUJSU0xNWlZncXM5Y3RLSHZZWkdTRHdpS05uNGNLNXQtWDZEcU5GT255OU1RU3oyQ0kzUXpOTEJmRG1TeXBMcU42TDJ6TVpUT3NGSlBKTzJjNUxOLVVLVVBDY3VIU1QxUUFZdXdkSkwwVXRMcWZOeXZVbE82bXVPanFDNVpGNTVUT3VNT2swMUYwMU0wd1NmdGdyag?oc=5
 2. **AI data centers took a beating in the midterm elections. A reckoning may be ahead for tech giants - WRAL** — AI in Coding — Score 133
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzB3dWdZSGY0TUlCOWhyekQ3NVpGWld5VVU0blNHWDBGSnRDeEVySWNmdDZYYTViRmVnVWVLTGJHU3dSRElZa1VOZy02cFlBVUhxMTJfQUR4aHJBcEhnQXFDcXB1Y0htaHdOZnhQZ3FHbjhKQmxuT2NOQ0w1WEhRaVJsRnFzUnpiSkFUREczRjFtSDZ3dzg5RGZUUmVXdGVzb212WnJZaGVubEc2ZmozeS1GMzR4aGVMN0Z3R3ZKdGt3TWlTRmFKaA?oc=5
-3. **Democrats planning flood of AI bills when they take control of Congress - Reuters** — AI in Coding — Score 100
+3. **Democrats planning flood of AI bills when they take control of Congress - Reuters** — AI in Coding — Score 97
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5
 4. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 53
    https://www.wcvb.com/article/wall-street-ai-stocks-tumble-as-voter-backlash-threatens-data-center-expansion/74350015
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **AI death lawsuit sparks alarming warning from ‘Doctor GPT’ - NewsNation** — https://news.google.com/rss/articles/CBMid0FVX3lxTE9WUFIwSXZTUWt0b1BNa1hKcjhKOHVHd3ZvOUV4S0NBSEdDM1dmU1dwT2lveURDSGhfeGFJZlhGQTV6QzlFanBOUmxrdlIzZUZWUEJMR0ZNR2lhb3J6bEpOdHdEVWhDTktiNFgtVjJIeFJ3NjRFT09J0gF8QVVfeXFMTnBYRDVFVmdsZ2l5aWdZRTRuSlVNbWdQTk1VbGNybHFXRUwwdjlubVBkSWtBMG9Ualp5UUVSYTBwblFTVnJKbkJtcUtGWkNEQm1Id3pQR19jcW9CSkFaaFQ1Mk9KNnVLM2lTNG0xY1ZNRkh4TDhuMm1uaER0Qg?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2490
+- Total stories tracked: 2491
 - Most active topic: agent
 - Busiest category: AI General News
 
