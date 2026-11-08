@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 31 Oct 2026 to 07 Nov 2026
+# 🗞️ AI THIS WEEK — 01 Nov 2026 to 08 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **AI data centers took a beating in the midterm elections. A reckoning may be ahead for tech giants - WRAL**
@@ -29,22 +29,22 @@ All coverage: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzB3dWdZSGY0T
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzB3dWdZSGY0TUlCOWhyekQ3NVpGWld5VVU0blNHWDBGSnRDeEVySWNmdDZYYTViRmVnVWVLTGJHU3dSRElZa1VOZy02cFlBVUhxMTJfQUR4aHJBcEhnQXFDcXB1Y0htaHdOZnhQZ3FHbjhKQmxuT2NOQ0w1WEhRaVJsRnFzUnpiSkFUREczRjFtSDZ3dzg5RGZUUmVXdGVzb212WnJZaGVubEc2ZmozeS1GMzR4aGVMN0Z3R3ZKdGt3TWlTRmFKaA?oc=5
 2. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston** — Sam Altman News — Score 133
    https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WYTdldDhKclY5a3BnOXZzUUtHVlo1X2dyS3NDdlNzWG9hOFZfWnNNNml4T18yVlcxYV9XeEJfV2dmbnU1VUJSU0xNWlZncXM5Y3RLSHZZWkdTRHdpS05uNGNLNXQtWDZEcU5GT255OU1RU3oyQ0kzUXpOTEJmRG1TeXBMcU42TDJ6TVpUT3NGSlBKTzJjNUxOLVVLVVBDY3VIU1QxUUFZdXdkSkwwVXRMcWZOeXZVbE82bXVPanFDNVpGNTVUT3VNT2swMUYwMU0wd1NmdGdyag?oc=5
-3. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 56
+3. **Democrats planning flood of AI bills when they take control of Congress - Reuters** — AI in Coding — Score 100
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5
+4. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 53
    https://www.wcvb.com/article/wall-street-ai-stocks-tumble-as-voter-backlash-threatens-data-center-expansion/74350015
-4. **OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters** — Breaking GPT-5 — Score 52
+5. **OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters** — Breaking GPT-5 — Score 52
    https://news.google.com/rss/articles/CBMirgFBVV95cUxOZnpqZW1wbThoTUY1UWpZWi1aeU5rMzZxMDVRMnRUWWo3R1Z1cnJrblN1bVVpbXVGcldYOTNyT3d2MFVnZTlsNS0yZ0J3aDRlYXpUdmlmc0lTUWduYTZzLWpaYkowc1h5MFBwd0tja3RDbjZMcUcybFByX29ZUkl2V0IxdWhkSU5sb2VsT1VHWUs4Z0tVMkZqU2wxak1hYjNSSFQ2Zm1Ea1d5d25jNkE?oc=5
-5. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 50
+6. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 50
    https://openai.com/index/introducing-gpt-6-cyber
-6. **Wysera Launches an AI Agent That Writes Marketing Content in a Company's Own Voice - The Daily Tribune News** — AI Agents — Score 48
-   https://news.google.com/rss/articles/CBMinAJBVV95cUxQOHJuaFVjMnFKM1VwcnUtYk5RSXQ4bWFwaXF4cW85OVlXaTUxdl95bXd6UkVYNEhZaUFvVmRfd2JrUEdiUWhrQ2kzWklMemRFeVJXVkk5UFFLUVVEOEZXMThVdkVxMzBEQVBIMm1wbGQ3ZDZyWlBWcC0zenlvV0RUZlpxX05mcXk3bG5fTjVSRnVWZHN2S0prdExIaWgtQzRoX1VzdFptX05hcUdjaFdENW5LX21DMEREVVRNaEdibThqXy11RExfelhvN2NhNjVHd2ZTV1dNQnMwLWxoRlphc2Z2LVpqRUJpQTlrQlNxYTQ0MFRoM3NQMWZsTXZWcG1LLUpHdWZCNC1OU1h1UVFlb1BZc1IyZ2ZscHQybw?oc=5
 7. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
-8. **Perplexity launches its own take on AI agents for work - The Verge** — Perplexity News — Score 45
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmpjbUlKRk5NNS1ocHJHQkVMNklPamFtSzNjUjhEWWItYndXYk1UbWdjUlB1NXFzc3NQX1Q0MVJnVm95TkZtYUUyZTFCUVA3WjZ1M19MMGNZQ09EeEFuTGZMd3JvV0xWaEl1dnh5Z0lYOTg3MkZhMnVsRnlWMFdoQ0lNMzlvZ1Bka1k0UHdxYUFxSHp3cEZhMmJFNA?oc=5
-9. **Why a new report on Anthropic automating AI development is alarming researchers** — The Verge AI — Score 45
+8. **Why a new report on Anthropic automating AI development is alarming researchers** — The Verge AI — Score 45
    https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development
-10. **Lee vows bold investment in AI, future growth engines** — thehawk_in — Score 43
+9. **Lee vows bold investment in AI, future growth engines** — thehawk_in — Score 43
    https://www.thehawk.in/news/science/lee-vows-bold-investment-in-ai-future-growth-engines
+10. **Protesters storm Microsoft AI data center construction site in Amsterdam - USA Today** — Microsoft AI — Score 43
+   https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTG9CNy1qak9lRUJWejdRZHBvaXlPQk9nRmxFVGJNaWhHb05rdHprR18yWGtVR01ha2NYOVZzTTNDM0pGZjZubjZ3N18zdmFkTVFmakNNbjVvNS1wT1ZuRHJGRFI2TWVZZGJNZTBTSWk4ejBFOHMxNGZNcmExb3p0TkVnU0E5NklPeTlyR2w0VjZqWUZ6cnpqb3VhdGo4RkxCR09YeHJLNFNNa2V1bi14ZU52RjB3LVRJ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzB3dWdZSGY0T
 - **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2545
+- Total stories tracked: 2546
 - Most active topic: agent
 - Busiest category: AI General News
 
