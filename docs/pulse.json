@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:39:40.483813+00:00",
+  "generated_at": "2026-11-09T22:24:43.828625+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -45,136 +44,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr01jx/used_chatgpt_to_recreate_a_damaged_barcode/",
-          "signal": "Used ChatGPT to recreate a damaged barcode"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrm6lk/my_favourite_use_of_chatgpt_is_buying_supermarket/",
+          "signal": "My favourite use of Chatgpt is buying supermarket wine"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrin3j/actual_photo_of_chatgpt/",
-          "signal": "Actual photo of ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrwj3t/allow_chatgpt_to_use_chatgpt/",
+          "signal": "Allow ChatGPT to use ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrjm5d/chatgpt_censorship_and_restrictions_on_journalism/",
-          "signal": "ChatGPT censorship and restrictions on journalism, scholarly work and fictional authorship"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4b7/this_is_what_chatgpt_imagined_when_i_asked_for_a/",
+          "signal": "This is what Chatgpt imagined when I asked for a chessboxing game"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrcwr9/chatgpt_breaking_boundaries/",
-          "signal": "ChatGPT breaking boundaries"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xryxa8/so_are_we_just_going_to_forget_about_this_shared/",
+          "signal": "So are we just going to forget about this shared ChatGPT/Codex usage nonsense? (NO!)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
-          "signal": "Chatgpt knows ball."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Every Mac comes with an (undocumented) family member classifier",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-          "signal": "Every Mac comes with an (undocumented) family member classifier"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The end of Microsoft Research's AI Frontiers group",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://hunch.net/?p=13764006",
-          "signal": "The end of Microsoft Research's AI Frontiers group"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-          "signal": "MaxxBench – \"Nice DeepSWE score. But is it true?\""
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "How I Fight AI Brain Fry",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-          "signal": "How I Fight AI Brain Fry"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4vn/i_asked_chatgpt_which_inventions_humanity_should/",
+          "signal": "I asked ChatGPT which inventions humanity should focus more and less on for short and long term benefits. Very insightful list"
         }
       ],
       "content_ideas": []
@@ -192,7 +83,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -207,11 +98,66 @@
       "content_ideas": []
     },
     {
+      "name": "Fold Epic Paper Airplanes",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.foldableflight.com",
+          "signal": "Fold Epic Paper Airplanes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "How I'm fighting the AI brain fry",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+          "signal": "How I'm fighting the AI brain fry"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "facebook_inferred",
+        "hackernews",
         "instagram_inferred",
         "youtube"
       ],
@@ -221,12 +167,17 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 6,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+          "signal": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far"
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
@@ -234,28 +185,72 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=e2Fykz51Nxg",
-          "signal": "Claude Edited This Netflix-Level Documentary (Copy Me)"
+          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
+          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
-          "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
+          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
+          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
           "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Our Smallest, Most Efficient Model: Muse Ember",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
-          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
+          "platform": "hackernews",
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "signal": "Our Smallest, Most Efficient Model: Muse Ember"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Apple capped engineers at a $200 daily AI budget",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+          "signal": "Apple capped engineers at a $200 daily AI budget"
         }
       ],
       "content_ideas": []
@@ -288,7 +283,7 @@
       "content_ideas": []
     },
     {
-      "name": "Consumer brain wave headsets threaten privacy",
+      "name": "Wearable device makers are using brain data to train AI without tellin",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -308,35 +303,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-          "signal": "Consumer brain wave headsets threaten privacy"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
-          "signal": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy"
+          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users",
+          "signal": "Wearable device makers are using brain data to train AI without telling users"
         }
       ],
       "content_ideas": []
@@ -354,7 +322,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -369,7 +337,34 @@
       "content_ideas": []
     },
     {
-      "name": "The End of AI Frontiers",
+      "name": "370 Books in 20 months: South African author defends her use of AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai",
+          "signal": "370 Books in 20 months: South African author defends her use of AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -389,8 +384,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://hunch.net/?p=13764006",
-          "signal": "The End of AI Frontiers"
+          "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/",
+          "signal": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased Code"
         }
       ],
       "content_ideas": []
@@ -398,13 +393,62 @@
   ],
   "rising_tools": [
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+          "signal": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
+          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
+          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
+          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
+          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -427,82 +471,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr01jx/used_chatgpt_to_recreate_a_damaged_barcode/",
-          "signal": "Used ChatGPT to recreate a damaged barcode"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrm6lk/my_favourite_use_of_chatgpt_is_buying_supermarket/",
+          "signal": "My favourite use of Chatgpt is buying supermarket wine"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrin3j/actual_photo_of_chatgpt/",
-          "signal": "Actual photo of ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrwj3t/allow_chatgpt_to_use_chatgpt/",
+          "signal": "Allow ChatGPT to use ChatGPT?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrjm5d/chatgpt_censorship_and_restrictions_on_journalism/",
-          "signal": "ChatGPT censorship and restrictions on journalism, scholarly work and fictional authorship"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4b7/this_is_what_chatgpt_imagined_when_i_asked_for_a/",
+          "signal": "This is what Chatgpt imagined when I asked for a chessboxing game"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrcwr9/chatgpt_breaking_boundaries/",
-          "signal": "ChatGPT breaking boundaries"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xryxa8/so_are_we_just_going_to_forget_about_this_shared/",
+          "signal": "So are we just going to forget about this shared ChatGPT/Codex usage nonsense? (NO!)"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
-          "signal": "Chatgpt knows ball."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
-          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=e2Fykz51Nxg",
-          "signal": "Claude Edited This Netflix-Level Documentary (Copy Me)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=lARPM6E-wlI",
-          "signal": "AI Chose Blackmail Over Shutdown. Here’s Why That’s Scary. #shorts #ai #claude #fyp #didyouknow"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=u2AXS9KHUro",
-          "signal": "Claude FREE PLAN 🤑 Make Free Videos in Claude Motion Graphics #claude #ai"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
-          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
-          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4vn/i_asked_chatgpt_which_inventions_humanity_should/",
+          "signal": "I asked ChatGPT which inventions humanity should focus more and less on for short and long term benefits. Very insightful list"
         }
       ],
       "content_ideas": []
@@ -510,37 +500,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Decided to try out the funny and accidentally broke him. It still types out the 0.000... Memory footprint for this tab continues to grow. Wi",
+      "problem": "\"Error in message stream\". Anybody else getting this currently?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqwc8z/decided_to_try_out_the_funny_and_accidentally/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Suddenly my 5hr limit got used up in matter of minutes simply asking questions.",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xr5wz2/suddenly_my_5hr_limit_got_used_up_in_matter_of/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Why can't regional prices just double fairly in other currencies like they do in the states?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xqzz6z/why_cant_regional_prices_just_double_fairly_in/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xryzpu/error_in_message_stream_anybody_else_getting_this/"
         }
       ],
       "content_opportunity": ""
