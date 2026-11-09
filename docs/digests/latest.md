@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
 7. **AI death lawsuit sparks alarming warning from ‘Doctor GPT’ - NewsNation** — science angle
    https://news.google.com/rss/articles/CBMid0FVX3lxTE9WUFIwSXZTUWt0b1BNa1hKcjhKOHVHd3ZvOUV4S0NBSEdDM1dmU1dwT2lveURDSGhfeGFJZlhGQTV6QzlFanBOUmxrdlIzZUZWUEJMR0ZNR2lhb3J6bEpOdHdEVWhDTktiNFgtVjJIeFJ3NjRFT09J0gF8QVVfeXFMTnBYRDVFVmdsZ2l5aWdZRTRuSlVNbWdQTk1VbGNybHFXRUwwdjlubVBkSWtBMG9Ualp5UUVSYTBwblFTVnJKbkJtcUtGWkNEQm1Id3pQR19jcW9CSkFaaFQ1Mk9KNnVLM2lTNG0xY1ZNRkh4TDhuMm1uaER0Qg?oc=5
-8. **Patients are already asking AI. How do we make it safer? - InSight+** — science angle
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxPdUd5anliLUQxdTIxSnFEYnlnc28wNU5OYTVkUFBpQnhpWFVsV0E5dlVFOVdseGk3STY0Rl9BZ1ZEdXc5NkdFVFQ3aEc5UUY3cWFtcjBYOTgwT21aOVFCcTBYNFZua2MwaGE1bm15aWVZbTJRdk9MaWRvd3VGTUt5Q1Rkd1U1cU1qZ1FCZnByZEMwUFBvVk5iNA?oc=5
+8. **Opinion: Why using AI saves doctors time but won’t fix physician burnout - SaskToday.ca** — science angle
+   https://news.google.com/rss/articles/CBMisgFBVV95cUxOYU9FQWtGWklzRVhnM09PWUpQbkN3MnRqOGFlbTRQeGRUMk81dzdvMk50eC00TmQ5UXdxZm15V2JHMkwwWUZOUFV2NEY5SFprdEJtcEx4MFdJSmFacTlCZkw1UEthQ0tsUnVfTzRQT2ZqT3huRjNVZGMzWHRPd2h6eldoa3FMY2pjWmQzN0ZoNmdVZlVVVDRhZ0Q1V1U2MV9icTNGUFg3VEN1MWFRQ1ZTVHB3?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston** — Sam Altman News — Score 133
@@ -31,20 +31,20 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzB3dWdZSGY0TUlCOWhyekQ3NVpGWld5VVU0blNHWDBGSnRDeEVySWNmdDZYYTViRmVnVWVLTGJHU3dSRElZa1VOZy02cFlBVUhxMTJfQUR4aHJBcEhnQXFDcXB1Y0htaHdOZnhQZ3FHbjhKQmxuT2NOQ0w1WEhRaVJsRnFzUnpiSkFUREczRjFtSDZ3dzg5RGZUUmVXdGVzb212WnJZaGVubEc2ZmozeS1GMzR4aGVMN0Z3R3ZKdGt3TWlTRmFKaA?oc=5
 3. **Democrats planning flood of AI bills when they take control of Congress - Reuters** — AI in Coding — Score 97
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5
-4. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 53
-   https://www.wcvb.com/article/wall-street-ai-stocks-tumble-as-voter-backlash-threatens-data-center-expansion/74350015
-5. **OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters** — Breaking GPT-5 — Score 52
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZnpqZW1wbThoTUY1UWpZWi1aeU5rMzZxMDVRMnRUWWo3R1Z1cnJrblN1bVVpbXVGcldYOTNyT3d2MFVnZTlsNS0yZ0J3aDRlYXpUdmlmc0lTUWduYTZzLWpaYkowc1h5MFBwd0tja3RDbjZMcUcybFByX29ZUkl2V0IxdWhkSU5sb2VsT1VHWUs4Z0tVMkZqU2wxak1hYjNSSFQ2Zm1Ea1d5d25jNkE?oc=5
-6. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 50
-   https://openai.com/index/introducing-gpt-6-cyber
-7. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
-   https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
-8. **Cooks River AI data centre scrapped after local outcry** — watoday — Score 46
-   https://www.watoday.com.au/politics/nsw/cooks-river-ai-data-centre-scrapped-after-local-outcry-20261108-p61ccb.html
-9. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 46
+4. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 66
    https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5
-10. **Why a new report on Anthropic automating AI development is alarming researchers** — The Verge AI — Score 45
-   https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development
+5. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 53
+   https://www.wcvb.com/article/wall-street-ai-stocks-tumble-as-voter-backlash-threatens-data-center-expansion/74350015
+6. **OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters** — Breaking GPT-5 — Score 52
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxOZnpqZW1wbThoTUY1UWpZWi1aeU5rMzZxMDVRMnRUWWo3R1Z1cnJrblN1bVVpbXVGcldYOTNyT3d2MFVnZTlsNS0yZ0J3aDRlYXpUdmlmc0lTUWduYTZzLWpaYkowc1h5MFBwd0tja3RDbjZMcUcybFByX29ZUkl2V0IxdWhkSU5sb2VsT1VHWUs4Z0tVMkZqU2wxak1hYjNSSFQ2Zm1Ea1d5d25jNkE?oc=5
+7. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 50
+   https://openai.com/index/introducing-gpt-6-cyber
+8. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
+   https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
+9. **Cooks River AI data centre scrapped after local outcry** — watoday — Score 46
+   https://www.watoday.com.au/politics/nsw/cooks-river-ai-data-centre-scrapped-after-local-outcry-20261108-p61ccb.html
+10. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 46
+   https://www.mendocinobeacon.com/2026/11/09/disney-testing-ai-lyric-videos/
 
 ## 🧪 AI in Science Highlights
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2517
+- Total stories tracked: 2572
 - Most active topic: agent
 - Busiest category: AI General News
 
