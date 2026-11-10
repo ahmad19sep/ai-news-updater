@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:24:43.828625+00:00",
+  "generated_at": "2026-11-10T07:23:21.334787+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 16,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -49,6 +49,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xscg9h/what_are_your_top_tips_for_a_new_chatgpt_user/",
+          "signal": "What are your top tips for a new ChatGPT user?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xrwj3t/allow_chatgpt_to_use_chatgpt/",
           "signal": "Allow ChatGPT to use ChatGPT?"
         },
@@ -61,11 +66,6 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xryxa8/so_are_we_just_going_to_forget_about_this_shared/",
           "signal": "So are we just going to forget about this shared ChatGPT/Codex usage nonsense? (NO!)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4vn/i_asked_chatgpt_which_inventions_humanity_should/",
-          "signal": "I asked ChatGPT which inventions humanity should focus more and less on for short and long term benefits. Very insightful list"
         }
       ],
       "content_ideas": []
@@ -98,7 +98,7 @@
       "content_ideas": []
     },
     {
-      "name": "Fold Epic Paper Airplanes",
+      "name": "Foldable Flight: The Best Paper Airplanes",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -119,7 +119,62 @@
         {
           "platform": "hackernews",
           "url": "https://www.foldableflight.com",
-          "signal": "Fold Epic Paper Airplanes"
+          "signal": "Foldable Flight: The Best Paper Airplanes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+          "signal": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
+          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
+          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
+          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
+          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
+          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
         }
       ],
       "content_ideas": []
@@ -152,57 +207,34 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
+      "name": "Muse Ember: Our smallest, most efficient model",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 9,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-          "signal": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
-          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
-          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
-          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
-          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "signal": "Muse Ember: Our smallest, most efficient model"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Our Smallest, Most Efficient Model: Muse Ember",
+      "name": "TPU 8tx and TPU 8i Max",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -222,8 +254,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/muse-ember",
-          "signal": "Our Smallest, Most Efficient Model: Muse Ember"
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "signal": "TPU 8tx and TPU 8i Max"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "A year after the 100% AI mandate nobody understands our code",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+          "signal": "A year after the 100% AI mandate nobody understands our code"
         }
       ],
       "content_ideas": []
@@ -268,7 +327,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -278,33 +337,6 @@
           "platform": "hackernews",
           "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
           "signal": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wearable device makers are using brain data to train AI without tellin",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users",
-          "signal": "Wearable device makers are using brain data to train AI without telling users"
         }
       ],
       "content_ideas": []
@@ -337,7 +369,7 @@
       "content_ideas": []
     },
     {
-      "name": "370 Books in 20 months: South African author defends her use of AI",
+      "name": "CoreWeave bond yield tops 16% as AI credit stress rises",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -357,35 +389,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai",
-          "signal": "370 Books in 20 months: South African author defends her use of AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/",
-          "signal": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased Code"
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+          "signal": "CoreWeave bond yield tops 16% as AI credit stress rises"
         }
       ],
       "content_ideas": []
@@ -417,7 +422,7 @@
         {
           "platform": "hackernews",
           "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-          "signal": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far"
+          "signal": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far"
         },
         {
           "platform": "youtube",
@@ -431,8 +436,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
-          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
+          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
+          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
+          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
         },
         {
           "platform": "youtube",
@@ -476,6 +486,11 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xscg9h/what_are_your_top_tips_for_a_new_chatgpt_user/",
+          "signal": "What are your top tips for a new ChatGPT user?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xrwj3t/allow_chatgpt_to_use_chatgpt/",
           "signal": "Allow ChatGPT to use ChatGPT?"
         },
@@ -488,17 +503,36 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xryxa8/so_are_we_just_going_to_forget_about_this_shared/",
           "signal": "So are we just going to forget about this shared ChatGPT/Codex usage nonsense? (NO!)"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4vn/i_asked_chatgpt_which_inventions_humanity_should/",
-          "signal": "I asked ChatGPT which inventions humanity should focus more and less on for short and long term benefits. Very insightful list"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "GPT 6 in Chat vs. API - Tone Down the Stack, Open AI",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsdftb/gpt_6_in_chat_vs_api_tone_down_the_stack_open_ai/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "New usage limit is terrible",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xs7hy9/new_usage_limit_is_terrible/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "\"Error in message stream\". Anybody else getting this currently?",
       "who_affected": "r/ChatGPT",
