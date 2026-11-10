@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:23:21.334787+00:00",
+  "generated_at": "2026-11-10T19:46:19.175706+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,67 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 24,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
-          "signal": "Made with ChatGPT Images 2.0"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrm6lk/my_favourite_use_of_chatgpt_is_buying_supermarket/",
-          "signal": "My favourite use of Chatgpt is buying supermarket wine"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xscg9h/what_are_your_top_tips_for_a_new_chatgpt_user/",
-          "signal": "What are your top tips for a new ChatGPT user?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrwj3t/allow_chatgpt_to_use_chatgpt/",
-          "signal": "Allow ChatGPT to use ChatGPT?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4b7/this_is_what_chatgpt_imagined_when_i_asked_for_a/",
-          "signal": "This is what Chatgpt imagined when I asked for a chessboxing game"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xryxa8/so_are_we_just_going_to_forget_about_this_shared/",
-          "signal": "So are we just going to forget about this shared ChatGPT/Codex usage nonsense? (NO!)"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "I'm not convinced the AI bubble exists",
       "category": "use_case",
@@ -93,6 +38,62 @@
           "platform": "hackernews",
           "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
           "signal": "I'm not convinced the AI bubble exists"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "reddit",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+          "signal": "Made with ChatGPT Images 2.0"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xso8jr/anyone_actually_using_chatgpt_for_food_or_workout/",
+          "signal": "Anyone actually using ChatGPT for food or workout logging?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsv251/i_just_wanted_a_movie_recommendation_not_5_cookie/",
+          "signal": "I just wanted a movie recommendation, not 5 cookie pop-ups... ChatGPT really took that off me."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrm6lk/my_favourite_use_of_chatgpt_is_buying_supermarket/",
+          "signal": "My favourite use of Chatgpt is buying supermarket wine"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsvfek/can_i_task_chatgpt_to_sit_in_for_me_and_watch/",
+          "signal": "Can I task chatgpt to sit in for me and watch compliance training videos at work?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=prntB69ylQY",
+          "signal": "Les 2 IA plus puissantes que ChatGPT"
         }
       ],
       "content_ideas": []
@@ -153,16 +154,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
-          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
-          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
           "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
         },
@@ -173,14 +164,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
-          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
+          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
+          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "How I'm fighting the AI brain fry",
+      "name": "AI usage generates a fragile codebase",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -190,7 +181,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -200,8 +191,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-          "signal": "How I'm fighting the AI brain fry"
+          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+          "signal": "AI usage generates a fragile codebase"
         }
       ],
       "content_ideas": []
@@ -219,7 +210,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -234,7 +225,40 @@
       "content_ideas": []
     },
     {
-      "name": "TPU 8tx and TPU 8i Max",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "signal": "Gemini 4 Carbon is now available"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
+          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "CoreWeave bond yield tops 16% as AI credit stress rises",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -246,7 +270,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -254,8 +278,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-          "signal": "TPU 8tx and TPU 8i Max"
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+          "signal": "CoreWeave bond yield tops 16% as AI credit stress rises"
         }
       ],
       "content_ideas": []
@@ -273,7 +297,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -283,6 +307,33 @@
           "platform": "hackernews",
           "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
           "signal": "A year after the 100% AI mandate nobody understands our code"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "TPU 8tx and TPU 8i Max",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "signal": "TPU 8tx and TPU 8i Max"
         }
       ],
       "content_ideas": []
@@ -315,11 +366,12 @@
       "content_ideas": []
     },
     {
-      "name": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Bu",
+      "name": "Fireworks AI security breach impacts Notion and their customers",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -327,7 +379,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -335,62 +387,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
-          "signal": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Drones built to look like birds evaded detection at Air Force tech exe",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://taskandpurpose.com/news/drone-mimicking-bird-test/",
-          "signal": "Drones built to look like birds evaded detection at Air Force tech exercise"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "CoreWeave bond yield tops 16% as AI credit stress rises",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-          "signal": "CoreWeave bond yield tops 16% as AI credit stress rises"
+          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+          "signal": "Fireworks AI security breach impacts Notion and their customers"
         }
       ],
       "content_ideas": []
@@ -426,16 +424,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
-          "signal": "I Tried Making a Viral Video Using ONLY Claude AI"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Odw46IxojBI",
-          "signal": "Don&#39;t Pay $200 for Claude Code! Get 7 BILLION AI Tokens FREE Every Month"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
           "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
         },
@@ -446,8 +434,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KscFyux4dVk",
-          "signal": "Forget Claude Code: DeepSeek + REA Clones Anything 100% FREE (No Paid API)"
+          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
+          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
         }
       ],
       "content_ideas": []
@@ -455,10 +443,11 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -481,28 +470,61 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xso8jr/anyone_actually_using_chatgpt_for_food_or_workout/",
+          "signal": "Anyone actually using ChatGPT for food or workout logging?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsv251/i_just_wanted_a_movie_recommendation_not_5_cookie/",
+          "signal": "I just wanted a movie recommendation, not 5 cookie pop-ups... ChatGPT really took that off me."
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xrm6lk/my_favourite_use_of_chatgpt_is_buying_supermarket/",
           "signal": "My favourite use of Chatgpt is buying supermarket wine"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xscg9h/what_are_your_top_tips_for_a_new_chatgpt_user/",
-          "signal": "What are your top tips for a new ChatGPT user?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsvfek/can_i_task_chatgpt_to_sit_in_for_me_and_watch/",
+          "signal": "Can I task chatgpt to sit in for me and watch compliance training videos at work?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrwj3t/allow_chatgpt_to_use_chatgpt/",
-          "signal": "Allow ChatGPT to use ChatGPT?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=prntB69ylQY",
+          "signal": "Les 2 IA plus puissantes que ChatGPT"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "signal": "Gemini 4 Carbon is now available"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4b7/this_is_what_chatgpt_imagined_when_i_asked_for_a/",
-          "signal": "This is what Chatgpt imagined when I asked for a chessboxing game"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xryxa8/so_are_we_just_going_to_forget_about_this_shared/",
-          "signal": "So are we just going to forget about this shared ChatGPT/Codex usage nonsense? (NO!)"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
+          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
         }
       ],
       "content_ideas": []
@@ -510,41 +532,17 @@
   ],
   "pain_points": [
     {
-      "problem": "GPT 6 in Chat vs. API - Tone Down the Stack, Open AI",
+      "problem": "\"Failed to download file. Please try again later.\"",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsdftb/gpt_6_in_chat_vs_api_tone_down_the_stack_open_ai/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "New usage limit is terrible",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xs7hy9/new_usage_limit_is_terrible/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "\"Error in message stream\". Anybody else getting this currently?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xryzpu/error_in_message_stream_anybody_else_getting_this/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsp5ff/failed_to_download_file_please_try_again_later/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "I'm not convinced the AI bubble exists — strongest signal this cycle"
 }
