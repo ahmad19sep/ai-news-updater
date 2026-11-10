@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 02 Nov 2026 to 09 Nov 2026
+# 🗞️ AI THIS WEEK — 03 Nov 2026 to 10 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston**
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2572
-- Most active topic: agent
+- Total stories tracked: 2547
+- Most active topic: nvidia
 - Busiest category: AI General News
 
 ---
