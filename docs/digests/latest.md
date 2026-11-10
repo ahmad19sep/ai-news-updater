@@ -41,10 +41,10 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://openai.com/index/introducing-gpt-6-cyber
 8. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
-9. **Cooks River AI data centre scrapped after local outcry** — watoday — Score 46
-   https://www.watoday.com.au/politics/nsw/cooks-river-ai-data-centre-scrapped-after-local-outcry-20261108-p61ccb.html
-10. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 46
+9. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 46
    https://www.mendocinobeacon.com/2026/11/09/disney-testing-ai-lyric-videos/
+10. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - WAVY.com** — Dario Amodei News — Score 43
+   https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSkhSWDJYTkx5Wk5ub182VS1jWE9oZTNqZ0xUd1JNejlzZ1ZQbHRIT1ltTmFuOGwzbkJPUDMxanlySmZpd3hXTHdsdjI2Y2xIX05yM0VKc1lpS0JHeU52bnNIaWlxdnRxc09sTEpZaHhCOWVzVzVIanZnbmlaRnR3SW5aWmlJb1RBenRKdGtTNndSLWRUQXB4V241V0RHcjNJRzFmLTZ0ck16bmxVV3NZOTNUaTg5bWdnRkluYmZNREo5a3RGaXdWVWtTcDVVMDVpZVRB0gHYAUFVX3lxTE9LMk1uZW1UY1RDYmJIcWc5eGt2dHR2RlplS05zNjRmeS1DcEdTSG94d3dVX2xFMWNBS1lwU1M5VWtVblFRN2pUR293OUJIazZ5MnVWM0JJZGN2MjdkVFhsYktyeGpqMFpCUkZmMG9sWnhVMzJGdmdqaE5fVjczZW90MmZ2ZDF0dThtcEVsUVpBSWZVZkxQUTF3cHFOaW9aMW9mUjA3WnBxRTRFLWwydnFTcjlRNVVIeW1sdDdJZUxtNU9hN2stTjlUMVAwN2xCYi1peXNYRXlINQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2547
+- Total stories tracked: 2657
 - Most active topic: nvidia
 - Busiest category: AI General News
 
