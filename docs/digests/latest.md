@@ -15,8 +15,8 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://www.nature.com/articles/d41586-026-03644-5
 4. **The public trusts scientists with AI — more than it does anyone else** — science angle
    https://www.nature.com/articles/d41586-026-03578-y
-5. **Google researchers demand freedom to tell the world what they know about AI** — 75 upvotes on Reddit/HN
-   https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/
+5. **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — science angle
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUc2cW5PUnNMWVdjX3l5Q0NkQWxSS2JXb3A0aXA0TjM1U3U3UW5udHJxX0tUTFhtXzRQNi10bEJCWGoyZlFaM3oxNFBQOEd2ek1uXzBQTzFmQ2xWSmxkbW1JNGhlMlhWdDRjV0JnUmNSYkFQd1dWVHQzRUl3QkQybURoZVk1OHgwbDNSZHJwWm44TFdndmVISlY1NEpKamF2Q3htYm5oQk4tbzZaRkljeVhpdWhicEljaGMySU9YWF9Dc0lQUEsyNQ?oc=5
 6. **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — science angle
    https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
 7. **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — science angle
@@ -41,20 +41,20 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://openai.com/index/introducing-gpt-6-cyber
 8. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
-9. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 46
+9. **Elon Musk predicts a future of abundance where, if you 'wish for a castle,' AI will build it for you - Business Insider** — Elon Musk AI News — Score 46
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpsOERsUHRzdVMxdnhieHVUbGxnTGV2ZmJXLUZQVVJpSkxDMU1qWm9SNTNKNEh6cTVyZVpGaHhIaEFOWXMySl9PZmJIYzZDczVzNTJiNWo0Q1lOUWNmZHZNMmYySjdJZzVnNjhvQ1pmUE5pNVpEbHRmV25Ua184SjdBUEt3TjJyR1k1VkllQk1STDZKV2JUUFNCMTZhamsyQ0FPZmZSNkY4WmtVaUNjQ2VLZw?oc=5
+10. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 46
    https://www.mendocinobeacon.com/2026/11/09/disney-testing-ai-lyric-videos/
-10. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - WAVY.com** — Dario Amodei News — Score 43
-   https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSkhSWDJYTkx5Wk5ub182VS1jWE9oZTNqZ0xUd1JNejlzZ1ZQbHRIT1ltTmFuOGwzbkJPUDMxanlySmZpd3hXTHdsdjI2Y2xIX05yM0VKc1lpS0JHeU52bnNIaWlxdnRxc09sTEpZaHhCOWVzVzVIanZnbmlaRnR3SW5aWmlJb1RBenRKdGtTNndSLWRUQXB4V241V0RHcjNJRzFmLTZ0ck16bmxVV3NZOTNUaTg5bWdnRkluYmZNREo5a3RGaXdWVWtTcDVVMDVpZVRB0gHYAUFVX3lxTE9LMk1uZW1UY1RDYmJIcWc5eGt2dHR2RlplS05zNjRmeS1DcEdTSG94d3dVX2xFMWNBS1lwU1M5VWtVblFRN2pUR293OUJIazZ5MnVWM0JJZGN2MjdkVFhsYktyeGpqMFpCUkZmMG9sWnhVMzJGdmdqaE5fVjczZW90MmZ2ZDF0dThtcEVsUVpBSWZVZkxQUTF3cHFOaW9aMW9mUjA3WnBxRTRFLWwydnFTcjlRNVVIeW1sdDdJZUxtNU9hN2stTjlUMVAwN2xCYi1peXNYRXlINQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
 - **AI Starts Writing Acne Prescriptions Without A Doctor’s Visit In One State - U.S. News & World Report** — https://news.google.com/rss/articles/CBMizgFBVV95cUxNU245X0tyeFBaWGZkVG91R3VKZ3QxQk9BS2ExcGh4RGpPMFJxZUMwV29xMGdUM1RweWs4dEVYeU13XzAtSzczRFQ0S3pGUXI4eUxXNTNuZEYwZlk5RGRtWHVUc1F5ZFFTNjNWN0thcnFqQWtEcGtHZU5YS3pwcGZlcUdvZ2RFRUthc1hRTlZMZjRBQW1tekV2Rk9UOXBqb2E5dVFsVDlmZlRZaFhxdVQ5RXpuNzR3U3RLMUpNN3V0TmlNS2I5cnlETlFIVzRGUQ?oc=5
 - **Students need AI-free spaces to learn core skills** — https://www.nature.com/articles/d41586-026-03644-5
 - **The public trusts scientists with AI — more than it does anyone else** — https://www.nature.com/articles/d41586-026-03578-y
-- **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
+- **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUc2cW5PUnNMWVdjX3l5Q0NkQWxSS2JXb3A0aXA0TjM1U3U3UW5udHJxX0tUTFhtXzRQNi10bEJCWGoyZlFaM3oxNFBQOEd2ek1uXzBQTzFmQ2xWSmxkbW1JNGhlMlhWdDRjV0JnUmNSYkFQd1dWVHQzRUl3QkQybURoZVk1OHgwbDNSZHJwWm44TFdndmVISlY1NEpKamF2Q3htYm5oQk4tbzZaRkljeVhpdWhicEljaGMySU9YWF9Dc0lQUEsyNQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2658
+- Total stories tracked: 2648
 - Most active topic: nvidia
 - Busiest category: AI General News
 
