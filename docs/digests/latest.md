@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 03 Nov 2026 to 10 Nov 2026
+# 🗞️ AI THIS WEEK — 04 Nov 2026 to 11 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston**
@@ -31,7 +31,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzB3dWdZSGY0TUlCOWhyekQ3NVpGWld5VVU0blNHWDBGSnRDeEVySWNmdDZYYTViRmVnVWVLTGJHU3dSRElZa1VOZy02cFlBVUhxMTJfQUR4aHJBcEhnQXFDcXB1Y0htaHdOZnhQZ3FHbjhKQmxuT2NOQ0w1WEhRaVJsRnFzUnpiSkFUREczRjFtSDZ3dzg5RGZUUmVXdGVzb212WnJZaGVubEc2ZmozeS1GMzR4aGVMN0Z3R3ZKdGt3TWlTRmFKaA?oc=5
 3. **Democrats planning flood of AI bills when they take control of Congress - Reuters** — AI in Coding — Score 97
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5
-4. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 66
+4. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 63
    https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5
 5. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 53
    https://www.wcvb.com/article/wall-street-ai-stocks-tumble-as-voter-backlash-threatens-data-center-expansion/74350015
@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
 9. **Elon Musk predicts a future of abundance where, if you 'wish for a castle,' AI will build it for you - Business Insider** — Elon Musk AI News — Score 46
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpsOERsUHRzdVMxdnhieHVUbGxnTGV2ZmJXLUZQVVJpSkxDMU1qWm9SNTNKNEh6cTVyZVpGaHhIaEFOWXMySl9PZmJIYzZDczVzNTJiNWo0Q1lOUWNmZHZNMmYySjdJZzVnNjhvQ1pmUE5pNVpEbHRmV25Ua184SjdBUEt3TjJyR1k1VkllQk1STDZKV2JUUFNCMTZhamsyQ0FPZmZSNkY4WmtVaUNjQ2VLZw?oc=5
-10. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 46
-   https://www.mendocinobeacon.com/2026/11/09/disney-testing-ai-lyric-videos/
+10. **'Ram-Altman' Program Will Email OpenAI's CEO About Your Memory Usage - PCMag Middle East** — Sam Altman News — Score 46
+   https://news.google.com/rss/articles/CBMingFBVV95cUxNdGNMTDZDOTV1cnl1Nmtjcm1VQ2hEQlMwbjBnMXg3SnJNenhEQ19BSVp1T3RjZVE2VU9MTlRaRzc1Q1B0OFBZcF9CVmtnUWhwUEpUYlVMRlU2RUhrdVViODFGT3pQTXJ2QkF1RWowRVVESHpzZEN2M2pISDBCbWg4b2lVWDhrallITllmZ1o5ZEl2OEQ1M09Ed2Z6TUcwZw?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It** — https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUc2cW5PUnNMWVdjX3l5Q0NkQWxSS2JXb3A0aXA0TjM1U3U3UW5udHJxX0tUTFhtXzRQNi10bEJCWGoyZlFaM3oxNFBQOEd2ek1uXzBQTzFmQ2xWSmxkbW1JNGhlMlhWdDRjV0JnUmNSYkFQd1dWVHQzRUl3QkQybURoZVk1OHgwbDNSZHJwWm44TFdndmVISlY1NEpKamF2Q3htYm5oQk4tbzZaRkljeVhpdWhicEljaGMySU9YWF9Dc0lQUEsyNQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2648
+- Total stories tracked: 2774
 - Most active topic: nvidia
 - Busiest category: AI General News
 
