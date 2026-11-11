@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:46:19.175706+00:00",
+  "generated_at": "2026-11-11T06:29:59.485228+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,39 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 24,
+      "hackernews": 31,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "I'm not convinced the AI bubble exists",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-          "signal": "I'm not convinced the AI bubble exists"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -49,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -72,23 +44,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xso8jr/anyone_actually_using_chatgpt_for_food_or_workout/",
-          "signal": "Anyone actually using ChatGPT for food or workout logging?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt180r/is_anyone_else_upset_that_chatgpt_standard_voice/",
+          "signal": "Is anyone else upset that ChatGPT Standard Voice is being retired on December 11th?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt33kg/chatgpt_without_standard_voice_is_not_chatgpt/",
+          "signal": "ChatGPT without Standard Voice is not ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt4wp7/chatgpt_support_is_an_absolute_joke/",
+          "signal": "ChatGPT support is an absolute joke"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xsv251/i_just_wanted_a_movie_recommendation_not_5_cookie/",
           "signal": "I just wanted a movie recommendation, not 5 cookie pop-ups... ChatGPT really took that off me."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrm6lk/my_favourite_use_of_chatgpt_is_buying_supermarket/",
-          "signal": "My favourite use of Chatgpt is buying supermarket wine"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsvfek/can_i_task_chatgpt_to_sit_in_for_me_and_watch/",
-          "signal": "Can I task chatgpt to sit in for me and watch compliance training videos at work?"
         },
         {
           "platform": "youtube",
@@ -121,6 +93,33 @@
           "platform": "hackernews",
           "url": "https://www.foldableflight.com",
           "signal": "Foldable Flight: The Best Paper Airplanes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI usage generates a fragile codebase",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+          "signal": "AI usage generates a fragile codebase"
         }
       ],
       "content_ideas": []
@@ -166,16 +165,23 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
           "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nPdlnmIHvVY",
+          "signal": "Type This Into Claude to Make $1000 This Weekend"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI usage generates a fragile codebase",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "reddit",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -185,14 +191,29 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-          "signal": "AI usage generates a fragile codebase"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "signal": "Gemini 4 Carbon is now available"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt9ciz/if_you_could_only_spend_100_dollars_a_month_on_ai/",
+          "signal": "If you could only spend 100 dollars a month on AI and only use one model, what would you buy? Chat GPT Pro (100 dollars), Gemini Ultra, Claude Max (100 dollars) or something else?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
+          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6qeLbcf9Fic",
+          "signal": "AI vs Human : gemini Wish Virat  Kohli Happy birthday 🥳😍 #ai #gemini #chatgpt #tech #viratkohli"
         }
       ],
       "content_ideas": []
@@ -225,34 +246,28 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web p",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-          "signal": "Gemini 4 Carbon is now available"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
-          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "signal": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
         }
       ],
       "content_ideas": []
@@ -270,7 +285,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -339,7 +354,7 @@
       "content_ideas": []
     },
     {
-      "name": "Apple capped engineers at a $200 daily AI budget",
+      "name": "Apple has new Mac app coming to make running local AI models easy",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -359,8 +374,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
-          "signal": "Apple capped engineers at a $200 daily AI budget"
+          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+          "signal": "Apple has new Mac app coming to make running local AI models easy"
         }
       ],
       "content_ideas": []
@@ -436,6 +451,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
           "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nPdlnmIHvVY",
+          "signal": "Type This Into Claude to Make $1000 This Weekend"
         }
       ],
       "content_ideas": []
@@ -447,7 +467,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -470,23 +489,23 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xso8jr/anyone_actually_using_chatgpt_for_food_or_workout/",
-          "signal": "Anyone actually using ChatGPT for food or workout logging?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt180r/is_anyone_else_upset_that_chatgpt_standard_voice/",
+          "signal": "Is anyone else upset that ChatGPT Standard Voice is being retired on December 11th?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt33kg/chatgpt_without_standard_voice_is_not_chatgpt/",
+          "signal": "ChatGPT without Standard Voice is not ChatGPT"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt4wp7/chatgpt_support_is_an_absolute_joke/",
+          "signal": "ChatGPT support is an absolute joke"
         },
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xsv251/i_just_wanted_a_movie_recommendation_not_5_cookie/",
           "signal": "I just wanted a movie recommendation, not 5 cookie pop-ups... ChatGPT really took that off me."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xrm6lk/my_favourite_use_of_chatgpt_is_buying_supermarket/",
-          "signal": "My favourite use of Chatgpt is buying supermarket wine"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsvfek/can_i_task_chatgpt_to_sit_in_for_me_and_watch/",
-          "signal": "Can I task chatgpt to sit in for me and watch compliance training videos at work?"
         },
         {
           "platform": "youtube",
@@ -499,9 +518,10 @@
     {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "hackernews",
+        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -522,9 +542,19 @@
           "signal": "Gemini 4 Carbon is now available"
         },
         {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt9ciz/if_you_could_only_spend_100_dollars_a_month_on_ai/",
+          "signal": "If you could only spend 100 dollars a month on AI and only use one model, what would you buy? Chat GPT Pro (100 dollars), Gemini Ultra, Claude Max (100 dollars) or something else?"
+        },
+        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
           "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6qeLbcf9Fic",
+          "signal": "AI vs Human : gemini Wish Virat  Kohli Happy birthday 🥳😍 #ai #gemini #chatgpt #tech #viratkohli"
         }
       ],
       "content_ideas": []
@@ -532,17 +562,17 @@
   ],
   "pain_points": [
     {
-      "problem": "\"Failed to download file. Please try again later.\"",
+      "problem": "What's the most unexpected problem AI has helped you fix?",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsp5ff/failed_to_download_file_please_try_again_later/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt3tji/whats_the_most_unexpected_problem_ai_has_helped/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "I'm not convinced the AI bubble exists — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
