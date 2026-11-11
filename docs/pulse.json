@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:29:59.485228+00:00",
+  "generated_at": "2026-11-11T19:38:34.530489+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 31,
+      "hackernews": 30,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,7 +18,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -44,55 +44,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt180r/is_anyone_else_upset_that_chatgpt_standard_voice/",
-          "signal": "Is anyone else upset that ChatGPT Standard Voice is being retired on December 11th?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xto2uk/how_do_you_feel_and_what_do_you_say_when_people/",
+          "signal": "How do you feel and what do you say when people imply that youre dumb for using ChatGPT, and that it has nothing to offer?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt33kg/chatgpt_without_standard_voice_is_not_chatgpt/",
-          "signal": "ChatGPT without Standard Voice is not ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtjah8/my_government_pays_for_my_chatgpt_plus_what_about/",
+          "signal": "My government pays for my chatgpt plus. What about yours?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt4wp7/chatgpt_support_is_an_absolute_joke/",
-          "signal": "ChatGPT support is an absolute joke"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtgbdq/why_does_chatgpt_now_asks_endless_questions/",
+          "signal": "Why does ChatGPT now asks endless questions instead of replying properly?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsv251/i_just_wanted_a_movie_recommendation_not_5_cookie/",
-          "signal": "I just wanted a movie recommendation, not 5 cookie pop-ups... ChatGPT really took that off me."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtnb1t/more_than_20000_veterans_and_transitioning/",
+          "signal": "More than 20,000 veterans and transitioning service members claimed a free year of ChatGPT Plus"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=prntB69ylQY",
-          "signal": "Les 2 IA plus puissantes que ChatGPT"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Foldable Flight: The Best Paper Airplanes",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.foldableflight.com",
-          "signal": "Foldable Flight: The Best Paper Airplanes"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtckv5/gpt_live_is_unbearable_i_want_to_talk_to_chatgpt/",
+          "signal": "GPT Live is unbearable. I want to talk to ChatGPT, not its dumb receptionist."
         }
       ],
       "content_ideas": []
@@ -120,6 +93,60 @@
           "platform": "hackernews",
           "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
           "signal": "AI usage generates a fragile codebase"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyra",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pietromiotti.com/latest/maya-site/?maya",
+          "signal": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Apple has new Mac app coming to make running local AI models easy",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+          "signal": "Apple has new Mac app coming to make running local AI models easy"
         }
       ],
       "content_ideas": []
@@ -153,6 +180,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
+          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
           "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
         },
@@ -163,84 +195,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
-          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
+          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
+          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=nPdlnmIHvVY",
           "signal": "Type This Into Claude to Make $1000 This Weekend"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "reddit",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-          "signal": "Gemini 4 Carbon is now available"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt9ciz/if_you_could_only_spend_100_dollars_a_month_on_ai/",
-          "signal": "If you could only spend 100 dollars a month on AI and only use one model, what would you buy? Chat GPT Pro (100 dollars), Gemini Ultra, Claude Max (100 dollars) or something else?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
-          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6qeLbcf9Fic",
-          "signal": "AI vs Human : gemini Wish Virat  Kohli Happy birthday 🥳😍 #ai #gemini #chatgpt #tech #viratkohli"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Muse Ember: Our smallest, most efficient model",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://research.meta.ai/blog/muse-ember",
-          "signal": "Muse Ember: Our smallest, most efficient model"
         }
       ],
       "content_ideas": []
@@ -268,6 +229,39 @@
           "platform": "hackernews",
           "url": "https://github.com/GoogleChrome/modern-web-guidance",
           "signal": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "signal": "Gemini 4 Carbon is now available"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
+          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
         }
       ],
       "content_ideas": []
@@ -354,7 +348,35 @@
       "content_ideas": []
     },
     {
-      "name": "Apple has new Mac app coming to make running local AI models easy",
+      "name": "Fireworks AI security breach impacts Notion and their customers",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+          "signal": "Fireworks AI security breach impacts Notion and their customers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "What objective is reasoning solving?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -374,36 +396,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-          "signal": "Apple has new Mac app coming to make running local AI models easy"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Fireworks AI security breach impacts Notion and their customers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-          "signal": "Fireworks AI security breach impacts Notion and their customers"
+          "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+          "signal": "What objective is reasoning solving?"
         }
       ],
       "content_ideas": []
@@ -439,6 +433,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
+          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
           "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
         },
@@ -449,8 +448,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
-          "signal": "I Made VIRAL  Animation Videos Using Claude Code (FREE Plugin)"
+          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
+          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
         },
         {
           "platform": "youtube",
@@ -463,7 +462,7 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -489,28 +488,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt180r/is_anyone_else_upset_that_chatgpt_standard_voice/",
-          "signal": "Is anyone else upset that ChatGPT Standard Voice is being retired on December 11th?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xto2uk/how_do_you_feel_and_what_do_you_say_when_people/",
+          "signal": "How do you feel and what do you say when people imply that youre dumb for using ChatGPT, and that it has nothing to offer?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt33kg/chatgpt_without_standard_voice_is_not_chatgpt/",
-          "signal": "ChatGPT without Standard Voice is not ChatGPT"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtjah8/my_government_pays_for_my_chatgpt_plus_what_about/",
+          "signal": "My government pays for my chatgpt plus. What about yours?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt4wp7/chatgpt_support_is_an_absolute_joke/",
-          "signal": "ChatGPT support is an absolute joke"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtgbdq/why_does_chatgpt_now_asks_endless_questions/",
+          "signal": "Why does ChatGPT now asks endless questions instead of replying properly?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xsv251/i_just_wanted_a_movie_recommendation_not_5_cookie/",
-          "signal": "I just wanted a movie recommendation, not 5 cookie pop-ups... ChatGPT really took that off me."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtnb1t/more_than_20000_veterans_and_transitioning/",
+          "signal": "More than 20,000 veterans and transitioning service members claimed a free year of ChatGPT Plus"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=prntB69ylQY",
-          "signal": "Les 2 IA plus puissantes que ChatGPT"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtckv5/gpt_live_is_unbearable_i_want_to_talk_to_chatgpt/",
+          "signal": "GPT Live is unbearable. I want to talk to ChatGPT, not its dumb receptionist."
         }
       ],
       "content_ideas": []
@@ -521,7 +520,6 @@
       "momentum": "hot",
       "platforms": [
         "hackernews",
-        "reddit",
         "youtube"
       ],
       "what_it_is": "",
@@ -542,19 +540,9 @@
           "signal": "Gemini 4 Carbon is now available"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt9ciz/if_you_could_only_spend_100_dollars_a_month_on_ai/",
-          "signal": "If you could only spend 100 dollars a month on AI and only use one model, what would you buy? Chat GPT Pro (100 dollars), Gemini Ultra, Claude Max (100 dollars) or something else?"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
           "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=6qeLbcf9Fic",
-          "signal": "AI vs Human : gemini Wish Virat  Kohli Happy birthday 🥳😍 #ai #gemini #chatgpt #tech #viratkohli"
         }
       ],
       "content_ideas": []
@@ -562,13 +550,25 @@
   ],
   "pain_points": [
     {
-      "problem": "What's the most unexpected problem AI has helped you fix?",
+      "problem": "Standard Voice is being removed. If you want to keep the choice, speak up",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xt3tji/whats_the_most_unexpected_problem_ai_has_helped/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtj37g/standard_voice_is_being_removed_if_you_want_to/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Journalists have discovered a massive astroturfing operation. An army of 400 sockpuppet accounts defending Jensen Huang, attacking AI safety",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtoo2l/journalists_have_discovered_a_massive/"
         }
       ],
       "content_opportunity": ""
