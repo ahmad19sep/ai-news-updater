@@ -43,8 +43,8 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://openai.com/index/introducing-gpt-6-cyber
 9. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
-10. **'Ram-Altman' Program Will Email OpenAI's CEO About Your Memory Usage - PCMag Middle East** — Sam Altman News — Score 46
-   https://news.google.com/rss/articles/CBMingFBVV95cUxNdGNMTDZDOTV1cnl1Nmtjcm1VQ2hEQlMwbjBnMXg3SnJNenhEQ19BSVp1T3RjZVE2VU9MTlRaRzc1Q1B0OFBZcF9CVmtnUWhwUEpUYlVMRlU2RUhrdVViODFGT3pQTXJ2QkF1RWowRVVESHpzZEN2M2pISDBCbWg4b2lVWDhrallITllmZ1o5ZEl2OEQ1M09Ed2Z6TUcwZw?oc=5
+10. **Nvidia-Backed Cohere in a ‘Fight’ to Secure AI Computing Power - Bloomberg.com** — Cohere News — Score 45
+   https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVRXOHU5ajR2UlVoQ2Z3bGg3QVpWU3J1RnZ5a2NiNmpzS0NrNURZNHFkcUtaUVk4QTVNWHhOSXZ6QTNfMG82eEpEWEJEMkJsNF8tTGdwRzFzWjIySnBLeW9jaF9NUWpNQXE4Q0VsMzM2WVFLX1dKeXhIblVPUHFZZ2pLcXhUVUtObkFScHAtdlRoUTR3NERnV3VWRGpnWEstRGpTWkVyZXNkSlo5eWVSZQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 - **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2704
+- Total stories tracked: 2675
 - Most active topic: nvidia
 - Busiest category: AI General News
 
