@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:15:35.527191+00:00",
+  "generated_at": "2026-11-12T19:57:55.062797+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 19,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,28 +44,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtvxbb/has_anyone_else_noticed_chatgpt_has_gone_super/",
-          "signal": "Has anyone else noticed ChatGPT has gone super dumb?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuc5ki/i_dont_think_chatgpt_liked_talking_to_me_lol/",
+          "signal": "I don't think ChatGPT liked talking to me. Lol"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu57e1/chatgpt_has_too_good_of_a_moral_compass/",
-          "signal": "ChatGPT has too good of a moral compass…"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuf8ce/does_chatgpt_report_suspicious_conversations/",
+          "signal": "Does ChatGPT report suspicious conversations?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtnb1t/more_than_20000_veterans_and_transitioning/",
-          "signal": "More than 20,000 veterans and transitioning service members claimed a free year of ChatGPT Plus"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuj3cg/i_achieved_so_much_with_old_chatgpt_now_i_cant_do/",
+          "signal": "I ACHIEVED SO MUCH WITH OLD CHATGPT, NOW I CAN'T DO ANYTHING ELSE"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu3g46/paid_40_for_a_20_chatgpt_plus_subscription_openai/",
-          "signal": "Paid $40 for a $20 ChatGPT Plus subscription. OpenAI refuses to refund me because of my lifetime Codex usage."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
+          "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtug4y/im_harassing_chatgpt_with_an_orange_traffic/",
-          "signal": "I'm harassing ChatGPT with an orange traffic barrel (apparently)"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j-a62MkHREM",
+          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
         }
       ],
       "content_ideas": []
@@ -98,7 +98,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI usage generates a fragile codebase",
+      "name": "United Airlines bans AI agents from booking flights on behalf of trave",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -118,35 +118,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-          "signal": "AI usage generates a fragile codebase"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Apple has new Mac app coming to make running local AI models easy",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-          "signal": "Apple has new Mac app coming to make running local AI models easy"
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "signal": "United Airlines bans AI agents from booking flights on behalf of travelers"
         }
       ],
       "content_ideas": []
@@ -178,8 +151,8 @@
         },
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-          "signal": "Gemini 4 Carbon is now available"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "signal": "Gemini 4 Hydrogen"
         },
         {
           "platform": "youtube",
@@ -217,7 +190,7 @@
       "content_ideas": []
     },
     {
-      "name": "United Airlines bans AI agents from booking flights on behalf of trave",
+      "name": "Apple has new Mac app coming to make running local AI models easy",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -237,35 +210,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-          "signal": "United Airlines bans AI agents from booking flights on behalf of travelers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web p",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/GoogleChrome/modern-web-guidance",
-          "signal": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
+          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+          "signal": "Apple has new Mac app coming to make running local AI models easy"
         }
       ],
       "content_ideas": []
@@ -283,7 +229,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -310,7 +256,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -320,6 +266,33 @@
           "platform": "hackernews",
           "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
           "signal": "Retirement Savings Are Fueling the AI Bubble"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI, activity, and outcomes in software engineering",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://cabird.com/talks/shipping-faster/",
+          "signal": "AI, activity, and outcomes in software engineering"
         }
       ],
       "content_ideas": []
@@ -339,7 +312,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 7,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -352,23 +325,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
-          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
           "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
-          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
+          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
         },
         {
           "platform": "youtube",
@@ -379,12 +347,11 @@
       "content_ideas": []
     },
     {
-      "name": "Wan",
-      "category": "tool_launch",
+      "name": "OSS projects banning AI-generated contributions",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -392,7 +359,34 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://osssaysno.com",
+          "signal": "OSS projects banning AI-generated contributions"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -402,16 +396,6 @@
           "platform": "hackernews",
           "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
           "signal": "AI is becoming an information gateway. Audiences still don’t want it making news"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu5v4e/why_are_people_so_against_the_idea_of_ai_helping/",
-          "signal": "Why are people so against the idea of AI helping people produce a piece of writing and refuse to engage with the content even if you’ve meticulously prompted what you want the writing to be?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtt6at/openai_gave_us_exactly_what_we_wanted_with/",
-          "signal": "OpenAI gave us exactly what we wanted with Standard Voice. Why the fuck are they so determined to kill it?"
         }
       ],
       "content_ideas": []
@@ -445,8 +429,8 @@
         },
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-          "signal": "Gemini 4 Carbon is now available"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "signal": "Gemini 4 Hydrogen"
         },
         {
           "platform": "youtube",
@@ -461,8 +445,7 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "reddit"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -470,7 +453,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -480,16 +463,6 @@
           "platform": "hackernews",
           "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
           "signal": "AI is becoming an information gateway. Audiences still don’t want it making news"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu5v4e/why_are_people_so_against_the_idea_of_ai_helping/",
-          "signal": "Why are people so against the idea of AI helping people produce a piece of writing and refuse to engage with the content even if you’ve meticulously prompted what you want the writing to be?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtt6at/openai_gave_us_exactly_what_we_wanted_with/",
-          "signal": "OpenAI gave us exactly what we wanted with Standard Voice. Why the fuck are they so determined to kill it?"
         }
       ],
       "content_ideas": []
@@ -523,28 +496,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtvxbb/has_anyone_else_noticed_chatgpt_has_gone_super/",
-          "signal": "Has anyone else noticed ChatGPT has gone super dumb?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuc5ki/i_dont_think_chatgpt_liked_talking_to_me_lol/",
+          "signal": "I don't think ChatGPT liked talking to me. Lol"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu57e1/chatgpt_has_too_good_of_a_moral_compass/",
-          "signal": "ChatGPT has too good of a moral compass…"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuf8ce/does_chatgpt_report_suspicious_conversations/",
+          "signal": "Does ChatGPT report suspicious conversations?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtnb1t/more_than_20000_veterans_and_transitioning/",
-          "signal": "More than 20,000 veterans and transitioning service members claimed a free year of ChatGPT Plus"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuj3cg/i_achieved_so_much_with_old_chatgpt_now_i_cant_do/",
+          "signal": "I ACHIEVED SO MUCH WITH OLD CHATGPT, NOW I CAN'T DO ANYTHING ELSE"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu3g46/paid_40_for_a_20_chatgpt_plus_subscription_openai/",
-          "signal": "Paid $40 for a $20 ChatGPT Plus subscription. OpenAI refuses to refund me because of my lifetime Codex usage."
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
+          "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtug4y/im_harassing_chatgpt_with_an_orange_traffic/",
-          "signal": "I'm harassing ChatGPT with an orange traffic barrel (apparently)"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j-a62MkHREM",
+          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
         }
       ],
       "content_ideas": []
@@ -564,7 +537,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 7,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -577,23 +550,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
-          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
           "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
-          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
+          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
         },
         {
           "platform": "youtube",
@@ -608,11 +576,23 @@
     {
       "problem": "I like generating images of people in different times and places winding down after a hard day of work",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 4,
+      "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xty5wq/i_like_generating_images_of_people_in_different/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "I ACHIEVED SO MUCH WITH OLD CHATGPT, NOW I CAN'T DO ANYTHING ELSE",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuj3cg/i_achieved_so_much_with_old_chatgpt_now_i_cant_do/"
         }
       ],
       "content_opportunity": ""
