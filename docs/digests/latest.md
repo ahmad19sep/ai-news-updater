@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 04 Nov 2026 to 11 Nov 2026
+# 🗞️ AI THIS WEEK — 05 Nov 2026 to 12 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston**
@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
-2. **Students need AI-free spaces to learn core skills** — science angle
-   https://www.nature.com/articles/d41586-026-03644-5
-3. **The public trusts scientists with AI — more than it does anyone else** — science angle
-   https://www.nature.com/articles/d41586-026-03578-y
-4. **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — science angle
+2. **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — science angle
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUc2cW5PUnNMWVdjX3l5Q0NkQWxSS2JXb3A0aXA0TjM1U3U3UW5udHJxX0tUTFhtXzRQNi10bEJCWGoyZlFaM3oxNFBQOEd2ek1uXzBQTzFmQ2xWSmxkbW1JNGhlMlhWdDRjV0JnUmNSYkFQd1dWVHQzRUl3QkQybURoZVk1OHgwbDNSZHJwWm44TFdndmVISlY1NEpKamF2Q3htYm5oQk4tbzZaRkljeVhpdWhicEljaGMySU9YWF9Dc0lQUEsyNQ?oc=5
-5. **Drugmakers tap China AI app boom to reach doctors as crackdown upends marketing - Reuters** — science angle
+3. **Drugmakers tap China AI app boom to reach doctors as crackdown upends marketing - Reuters** — science angle
    https://news.google.com/rss/articles/CBMixAFBVV95cUxPNUhMNG1KUG10c1p6SkJRa3N4T3pGcHN6dU9fOWU4MDdEbFJGLV9mQlRRYUVZYU1FQ2kzb2NiTV92elFwQ0ZMalh4VzF4LWJ0NDZXUC1FUzZ4QzMtb0VvRUcxRFVqSmY4VWRpLS1uTHFwZGNxbWtlMHVFZ2YtWW9xU19ha3ctOGVyRE1nbzhpaFVKUXRtdHA1VVRKSld5NDlqcVVURFc0VFVlMGowUVFhcHN4VVM3TWwyRW1EUmNtS1N4dm5R?oc=5
-6. **DeepMind's ultra-powerful AI for genome mapping wows scientists** — science angle
+4. **DeepMind's ultra-powerful AI for genome mapping wows scientists** — science angle
    https://www.nature.com/articles/d41586-026-03673-0
-7. **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — science angle
+5. **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — science angle
    https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
-8. **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — science angle
+6. **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — science angle
    https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
+7. **AI death lawsuit sparks alarming warning from ‘Doctor GPT’ - NewsNation** — science angle
+   https://news.google.com/rss/articles/CBMid0FVX3lxTE9WUFIwSXZTUWt0b1BNa1hKcjhKOHVHd3ZvOUV4S0NBSEdDM1dmU1dwT2lveURDSGhfeGFJZlhGQTV6QzlFanBOUmxrdlIzZUZWUEJMR0ZNR2lhb3J6bEpOdHdEVWhDTktiNFgtVjJIeFJ3NjRFT09J0gF8QVVfeXFMTnBYRDVFVmdsZ2l5aWdZRTRuSlVNbWdQTk1VbGNybHFXRUwwdjlubVBkSWtBMG9Ualp5UUVSYTBwblFTVnJKbkJtcUtGWkNEQm1Id3pQR19jcW9CSkFaaFQ1Mk9KNnVLM2lTNG0xY1ZNRkh4TDhuMm1uaER0Qg?oc=5
+8. **Students need AI-free spaces to learn core skills** — science angle
+   https://www.nature.com/articles/d41586-026-03644-5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - Click2Houston** — Sam Altman News — Score 133
@@ -31,30 +31,30 @@ All coverage: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTFZOQldpS09WY
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzB3dWdZSGY0TUlCOWhyekQ3NVpGWld5VVU0blNHWDBGSnRDeEVySWNmdDZYYTViRmVnVWVLTGJHU3dSRElZa1VOZy02cFlBVUhxMTJfQUR4aHJBcEhnQXFDcXB1Y0htaHdOZnhQZ3FHbjhKQmxuT2NOQ0w1WEhRaVJsRnFzUnpiSkFUREczRjFtSDZ3dzg5RGZUUmVXdGVzb212WnJZaGVubEc2ZmozeS1GMzR4aGVMN0Z3R3ZKdGt3TWlTRmFKaA?oc=5
 3. **Democrats planning flood of AI bills when they take control of Congress - Reuters** — AI in Coding — Score 97
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5
-4. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 63
+4. **Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec** — bostonglobe — Score 73
+   https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia-jensen-huang/
+5. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 63
    https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5
-5. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 53
+6. **Wall Street, AI stocks tumble as voter backlash threatens data center expansion** — wcvb — Score 53
    https://www.wcvb.com/article/wall-street-ai-stocks-tumble-as-voter-backlash-threatens-data-center-expansion/74350015
-6. **OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters** — Breaking GPT-5 — Score 52
+7. **OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters** — Breaking GPT-5 — Score 52
    https://news.google.com/rss/articles/CBMirgFBVV95cUxOZnpqZW1wbThoTUY1UWpZWi1aeU5rMzZxMDVRMnRUWWo3R1Z1cnJrblN1bVVpbXVGcldYOTNyT3d2MFVnZTlsNS0yZ0J3aDRlYXpUdmlmc0lTUWduYTZzLWpaYkowc1h5MFBwd0tja3RDbjZMcUcybFByX29ZUkl2V0IxdWhkSU5sb2VsT1VHWUs4Z0tVMkZqU2wxak1hYjNSSFQ2Zm1Ea1d5d25jNkE?oc=5
-7. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 50
+8. **GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents** — OpenAI Blog — Score 50
    https://openai.com/index/introducing-gpt-6-cyber
-8. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
+9. **Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations - PR Newswire** — Cohere News — Score 48
    https://news.google.com/rss/articles/CBMirAJBVV95cUxNTzF2eVRLYWl6N3E4T1B0Q2ZEQTZiTHY4WXZ4SnVHaTlKU2J2d3A4VnV0OHBfZzd6aEVELWJTU0doNVEwUklucVFPaWtJbmxCS1BoXzBhTXJRWWxPSXJ5X3BmMHE5MFpKOU1WUW1qcEZDODJrS09GVUFpcjgtb3AzUGEtY3pjZHJCa29reFRtMk5NY2lJQTNVTDB2a2hzQmJHaHdJS3VNWlZ0Vm9yLXFvaWdOdkh3SXlybWI1TUthdUJKMkhMYmxTb2I0cnpmR3FaVXh1QkhTSERkV3RzVnRxZF94VUMzT3NPZlRmR0cxV1JodDI1YVZBbTNHdHExTEd3TDdTSHZYWFVuckhYaWNra0g1ZjFWQk83bFNfM2ktOXRkakV6U1BQbFQ1UWs?oc=5
-9. **'Ram-Altman' Program Will Email OpenAI's CEO About Your Memory Usage - PCMag Middle East** — Sam Altman News — Score 46
+10. **'Ram-Altman' Program Will Email OpenAI's CEO About Your Memory Usage - PCMag Middle East** — Sam Altman News — Score 46
    https://news.google.com/rss/articles/CBMingFBVV95cUxNdGNMTDZDOTV1cnl1Nmtjcm1VQ2hEQlMwbjBnMXg3SnJNenhEQ19BSVp1T3RjZVE2VU9MTlRaRzc1Q1B0OFBZcF9CVmtnUWhwUEpUYlVMRlU2RUhrdVViODFGT3pQTXJ2QkF1RWowRVVESHpzZEN2M2pISDBCbWg4b2lVWDhrallITllmZ1o5ZEl2OEQ1M09Ed2Z6TUcwZw?oc=5
-10. **Nvidia-Backed Cohere in a ‘Fight’ to Secure AI Computing Power - Bloomberg.com** — Cohere News — Score 45
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVRXOHU5ajR2UlVoQ2Z3bGg3QVpWU3J1RnZ5a2NiNmpzS0NrNURZNHFkcUtaUVk4QTVNWHhOSXZ6QTNfMG82eEpEWEJEMkJsNF8tTGdwRzFzWjIySnBLeW9jaF9NUWpNQXE4Q0VsMzM2WVFLX1dKeXhIblVPUHFZZ2pLcXhUVUtObkFScHAtdlRoUTR3NERnV3VWRGpnWEstRGpTWkVyZXNkSlo5eWVSZQ?oc=5
 
 ## 🧪 AI in Science Highlights
 - **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
-- **Students need AI-free spaces to learn core skills** — https://www.nature.com/articles/d41586-026-03644-5
-- **The public trusts scientists with AI — more than it does anyone else** — https://www.nature.com/articles/d41586-026-03578-y
 - **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUc2cW5PUnNMWVdjX3l5Q0NkQWxSS2JXb3A0aXA0TjM1U3U3UW5udHJxX0tUTFhtXzRQNi10bEJCWGoyZlFaM3oxNFBQOEd2ek1uXzBQTzFmQ2xWSmxkbW1JNGhlMlhWdDRjV0JnUmNSYkFQd1dWVHQzRUl3QkQybURoZVk1OHgwbDNSZHJwWm44TFdndmVISlY1NEpKamF2Q3htYm5oQk4tbzZaRkljeVhpdWhicEljaGMySU9YWF9Dc0lQUEsyNQ?oc=5
 - **Drugmakers tap China AI app boom to reach doctors as crackdown upends marketing - Reuters** — https://news.google.com/rss/articles/CBMixAFBVV95cUxPNUhMNG1KUG10c1p6SkJRa3N4T3pGcHN6dU9fOWU4MDdEbFJGLV9mQlRRYUVZYU1FQ2kzb2NiTV92elFwQ0ZMalh4VzF4LWJ0NDZXUC1FUzZ4QzMtb0VvRUcxRFVqSmY4VWRpLS1uTHFwZGNxbWtlMHVFZ2YtWW9xU19ha3ctOGVyRE1nbzhpaFVKUXRtdHA1VVRKSld5NDlqcVVURFc0VFVlMGowUVFhcHN4VVM3TWwyRW1EUmNtS1N4dm5R?oc=5
+- **DeepMind's ultra-powerful AI for genome mapping wows scientists** — https://www.nature.com/articles/d41586-026-03673-0
+- **Luma Health Launches Agent Launchpad, AI Agent Orchestrator Helping Prepare Patients for Procedures with 95% Response Rate - PR Newswire** — https://news.google.com/rss/articles/CBMihwJBVV95cUxPR3J0VlNRMk1rR09BWUZLVnhKT3ROOFp2MVA0VU9BQzFKNDhsVUZXSEpZb2EzLUJVZjhWV1IyMlBqemctYUgzdURTZS05bjRYanFZV19oVWV2ZWtPc0dGUi1DVjRuR1NlMHphcGFVNkNwbTBaS2NIYnlIWlFEVW1tZDlnZ01sWUNLQUtIRkhPQnFtLXRyX2tfcXZheWticjlobjZNMm9fMVluWkpvelFtRE53Mm1DWElDbnpEdmRvNklscGY3MGVUc2lZNzZLZ2ZLU25GX1UwUzBqdWJYVUduWEJfSEd2cWpBd1oxWGJ0ZmRpSTBOaS04T3lZU2hSRExNcHBTTGM1UQ?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2746
+- Total stories tracked: 2704
 - Most active topic: nvidia
 - Busiest category: AI General News
 
