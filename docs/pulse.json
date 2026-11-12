@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:38:34.530489+00:00",
+  "generated_at": "2026-11-12T07:15:35.527191+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
@@ -44,18 +44,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xto2uk/how_do_you_feel_and_what_do_you_say_when_people/",
-          "signal": "How do you feel and what do you say when people imply that youre dumb for using ChatGPT, and that it has nothing to offer?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtvxbb/has_anyone_else_noticed_chatgpt_has_gone_super/",
+          "signal": "Has anyone else noticed ChatGPT has gone super dumb?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtjah8/my_government_pays_for_my_chatgpt_plus_what_about/",
-          "signal": "My government pays for my chatgpt plus. What about yours?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtgbdq/why_does_chatgpt_now_asks_endless_questions/",
-          "signal": "Why does ChatGPT now asks endless questions instead of replying properly?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu57e1/chatgpt_has_too_good_of_a_moral_compass/",
+          "signal": "ChatGPT has too good of a moral compass…"
         },
         {
           "platform": "reddit",
@@ -64,8 +59,40 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtckv5/gpt_live_is_unbearable_i_want_to_talk_to_chatgpt/",
-          "signal": "GPT Live is unbearable. I want to talk to ChatGPT, not its dumb receptionist."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu3g46/paid_40_for_a_20_chatgpt_plus_subscription_openai/",
+          "signal": "Paid $40 for a $20 ChatGPT Plus subscription. OpenAI refuses to refund me because of my lifetime Codex usage."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtug4y/im_harassing_chatgpt_with_an_orange_traffic/",
+          "signal": "I'm harassing ChatGPT with an orange traffic barrel (apparently)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "My AI agents found an unmapped Maya site?",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://pietromiotti.com/latest/maya-site",
+          "signal": "My AI agents found an unmapped Maya site?"
         }
       ],
       "content_ideas": []
@@ -98,33 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyra",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pietromiotti.com/latest/maya-site/?maya",
-          "signal": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Apple has new Mac app coming to make running local AI models easy",
       "category": "use_case",
       "momentum": "rising",
@@ -152,13 +152,11 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -166,7 +164,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -175,33 +173,72 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-          "signal": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far"
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "signal": "Gemini Decisions API"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "signal": "Gemini 4 Carbon is now available"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
-          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
-        },
+          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
+          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AWS emulator",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
-          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
-        },
+          "platform": "hackernews",
+          "url": "https://github.com/aws/aws-emulator",
+          "signal": "AWS emulator"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "United Airlines bans AI agents from booking flights on behalf of trave",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
-          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
-          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nPdlnmIHvVY",
-          "signal": "Type This Into Claude to Make $1000 This Weekend"
+          "platform": "hackernews",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "signal": "United Airlines bans AI agents from booking flights on behalf of travelers"
         }
       ],
       "content_ideas": []
@@ -234,9 +271,157 @@
       "content_ideas": []
     },
     {
+      "name": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://github.com/FrigadeHQ/yogurt",
+          "signal": "Show HN: Yogurt – Free, private, open-source alternative to Granola"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Retirement Savings Are Fueling the AI Bubble",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+          "signal": "Retirement Savings Are Fueling the AI Bubble"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
+          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
+          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
+          "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
+          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
+          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "reddit"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+          "signal": "AI is becoming an information gateway. Audiences still don’t want it making news"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu5v4e/why_are_people_so_against_the_idea_of_ai_helping/",
+          "signal": "Why are people so against the idea of AI helping people produce a piece of writing and refuse to engage with the content even if you’ve meticulously prompted what you want the writing to be?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtt6at/openai_gave_us_exactly_what_we_wanted_with/",
+          "signal": "OpenAI gave us exactly what we wanted with Standard Voice. Why the fuck are they so determined to kill it?"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
       "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews",
         "youtube"
@@ -253,6 +438,11 @@
         "note": ""
       },
       "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "signal": "Gemini Decisions API"
+        },
         {
           "platform": "hackernews",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
@@ -267,160 +457,20 @@
       "content_ideas": []
     },
     {
-      "name": "CoreWeave bond yield tops 16% as AI credit stress rises",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-          "signal": "CoreWeave bond yield tops 16% as AI credit stress rises"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "A year after the 100% AI mandate nobody understands our code",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
-          "signal": "A year after the 100% AI mandate nobody understands our code"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "TPU 8tx and TPU 8i Max",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-          "signal": "TPU 8tx and TPU 8i Max"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Fireworks AI security breach impacts Notion and their customers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-          "signal": "Fireworks AI security breach impacts Notion and their customers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "What objective is reasoning solving?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
-          "signal": "What objective is reasoning solving?"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "Claude",
+      "name": "Wan",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
-        "youtube"
+        "reddit"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -428,33 +478,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-          "signal": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far"
+          "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+          "signal": "AI is becoming an information gateway. Audiences still don’t want it making news"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
-          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu5v4e/why_are_people_so_against_the_idea_of_ai_helping/",
+          "signal": "Why are people so against the idea of AI helping people produce a piece of writing and refuse to engage with the content even if you’ve meticulously prompted what you want the writing to be?"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
-          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
-          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
-          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nPdlnmIHvVY",
-          "signal": "Type This Into Claude to Make $1000 This Weekend"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtt6at/openai_gave_us_exactly_what_we_wanted_with/",
+          "signal": "OpenAI gave us exactly what we wanted with Standard Voice. Why the fuck are they so determined to kill it?"
         }
       ],
       "content_ideas": []
@@ -488,18 +523,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xto2uk/how_do_you_feel_and_what_do_you_say_when_people/",
-          "signal": "How do you feel and what do you say when people imply that youre dumb for using ChatGPT, and that it has nothing to offer?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtvxbb/has_anyone_else_noticed_chatgpt_has_gone_super/",
+          "signal": "Has anyone else noticed ChatGPT has gone super dumb?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtjah8/my_government_pays_for_my_chatgpt_plus_what_about/",
-          "signal": "My government pays for my chatgpt plus. What about yours?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtgbdq/why_does_chatgpt_now_asks_endless_questions/",
-          "signal": "Why does ChatGPT now asks endless questions instead of replying properly?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu57e1/chatgpt_has_too_good_of_a_moral_compass/",
+          "signal": "ChatGPT has too good of a moral compass…"
         },
         {
           "platform": "reddit",
@@ -508,18 +538,24 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtckv5/gpt_live_is_unbearable_i_want_to_talk_to_chatgpt/",
-          "signal": "GPT Live is unbearable. I want to talk to ChatGPT, not its dumb receptionist."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xu3g46/paid_40_for_a_20_chatgpt_plus_subscription_openai/",
+          "signal": "Paid $40 for a $20 ChatGPT Plus subscription. OpenAI refuses to refund me because of my lifetime Codex usage."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtug4y/im_harassing_chatgpt_with_an_orange_traffic/",
+          "signal": "I'm harassing ChatGPT with an orange traffic barrel (apparently)"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Gemini",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews",
+        "facebook_inferred",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -527,22 +563,42 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-          "signal": "Gemini 4 Carbon is now available"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
+          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
-          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
+          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
+          "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ge2FmPeVsT8",
+          "signal": "Build Your FIRST AI Agent in Claude Code. (11 Minutes)."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
+          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
         }
       ],
       "content_ideas": []
@@ -550,25 +606,13 @@
   ],
   "pain_points": [
     {
-      "problem": "Standard Voice is being removed. If you want to keep the choice, speak up",
+      "problem": "I like generating images of people in different times and places winding down after a hard day of work",
       "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
+      "signal_strength": 4,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtj37g/standard_voice_is_being_removed_if_you_want_to/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "Journalists have discovered a massive astroturfing operation. An army of 400 sockpuppet accounts defending Jensen Huang, attacking AI safety",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xtoo2l/journalists_have_discovered_a_massive/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xty5wq/i_like_generating_images_of_people_in_different/"
         }
       ],
       "content_opportunity": ""
