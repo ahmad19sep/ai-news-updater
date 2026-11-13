@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:50:27.112208+00:00",
+  "generated_at": "2026-11-13T19:45:34.973699+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,50 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 26,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "signal": "Gemini 4 Hydrogen"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-          "signal": "Gemini Decisions API"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
-          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -60,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -82,55 +45,28 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuvjtw/random_chatgpt_in_the_wild_anyone_else_have_this/",
-          "signal": "Random ChatGPT in the wild.. anyone else have this happen yet?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xv32sv/chatgpt_randomly_sent_me_an_unsolicited_followup/",
+          "signal": "ChatGPT randomly sent me an unsolicited follow-up message"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuc5ki/i_dont_think_chatgpt_liked_talking_to_me_lol/",
-          "signal": "I don't think ChatGPT liked talking to me. Lol"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
+          "signal": "Anyone else feel like ChatGPT has been neutered?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xupj0z/chatgpts_random_censorship_is_getting_ridiculous/",
-          "signal": "ChatGPT’s random censorship is getting ridiculous"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvecq2/chatgpt_is_acting_weird_today/",
+          "signal": "ChatGPT is acting weird today."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuf8ce/does_chatgpt_report_suspicious_conversations/",
-          "signal": "Does ChatGPT report suspicious conversations?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xveyh4/introducing_chatgpt_wallet/",
+          "signal": "Introducing ChatGPT Wallet"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
-          "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "My AI agents found an unmapped Maya site?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://pietromiotti.com/latest/maya-site",
-          "signal": "My AI agents found an unmapped Maya site?"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xve8r2/ridiculously_unsafe_how_chatgpt_work_operates/",
+          "signal": "Ridiculously unsafe how \"chatGPT work\" operates - that's what destroys peoples computers"
         }
       ],
       "content_ideas": []
@@ -163,9 +99,57 @@
       "content_ideas": []
     },
     {
-      "name": "AWS emulator",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://status.claude.com/incidents/nn11wk485zfn",
+          "signal": "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50480941",
+          "signal": "Claude AI Is Down"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
+          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
+          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Reverse engineering my Coway air purifier to ditch the cloud",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -183,62 +167,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://github.com/aws/aws-emulator",
-          "signal": "AWS emulator"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://github.com/FrigadeHQ/yogurt",
-          "signal": "Show HN: Yogurt – Free, private, open-source alternative to Granola"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Retirement Savings Are Fueling the AI Bubble",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
-          "signal": "Retirement Savings Are Fueling the AI Bubble"
+          "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+          "signal": "Reverse engineering my Coway air purifier to ditch the cloud"
         }
       ],
       "content_ideas": []
@@ -256,7 +186,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -266,60 +196,6 @@
           "platform": "hackernews",
           "url": "https://unemploymentlabs.com/checkpoint-forensics",
           "signal": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is turning Apple's app review process into a nightmare for synth de",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-          "signal": "AI is turning Apple's app review process into a nightmare for synth developers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI, activity, and outcomes in software engineering",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://cabird.com/talks/shipping-faster/",
-          "signal": "AI, activity, and outcomes in software engineering"
         }
       ],
       "content_ideas": []
@@ -337,7 +213,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -352,7 +228,90 @@
       "content_ideas": []
     },
     {
-      "name": "OSS projects banning AI-generated contributions",
+      "name": "AI is turning Apple's app review process into a nightmare for synth de",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+          "signal": "AI is turning Apple's app review process into a nightmare for synth developers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is destroying the trust between writers and readers",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+          "signal": "AI is destroying the trust between writers and readers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+          "signal": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theor",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -372,8 +331,62 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://osssaysno.com",
-          "signal": "OSS projects banning AI-generated contributions"
+          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+          "signal": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Why is Google cutting off Search from AI-free schools? Here are some t",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://text.npr.org/nx-s1-6029408",
+          "signal": "Why is Google cutting off Search from AI-free schools? Here are some theories"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Why You Should Expect an AI Crash",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+          "signal": "Why You Should Expect an AI Crash"
         }
       ],
       "content_ideas": []
@@ -381,7 +394,7 @@
   ],
   "rising_tools": [
     {
-      "name": "Gemini",
+      "name": "Claude",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
@@ -392,7 +405,7 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
+      "pillar": "explainer",
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
@@ -402,18 +415,28 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "signal": "Gemini 4 Hydrogen"
+          "url": "https://status.claude.com/incidents/nn11wk485zfn",
+          "signal": "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
         },
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-          "signal": "Gemini Decisions API"
+          "url": "https://news.ycombinator.com/item?id=50480941",
+          "signal": "Claude AI Is Down"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
-          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
+          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
+          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
         }
       ],
       "content_ideas": []
@@ -425,6 +448,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -447,33 +471,33 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuvjtw/random_chatgpt_in_the_wild_anyone_else_have_this/",
-          "signal": "Random ChatGPT in the wild.. anyone else have this happen yet?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xv32sv/chatgpt_randomly_sent_me_an_unsolicited_followup/",
+          "signal": "ChatGPT randomly sent me an unsolicited follow-up message"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuc5ki/i_dont_think_chatgpt_liked_talking_to_me_lol/",
-          "signal": "I don't think ChatGPT liked talking to me. Lol"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
+          "signal": "Anyone else feel like ChatGPT has been neutered?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xupj0z/chatgpts_random_censorship_is_getting_ridiculous/",
-          "signal": "ChatGPT’s random censorship is getting ridiculous"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvecq2/chatgpt_is_acting_weird_today/",
+          "signal": "ChatGPT is acting weird today."
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuf8ce/does_chatgpt_report_suspicious_conversations/",
-          "signal": "Does ChatGPT report suspicious conversations?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xveyh4/introducing_chatgpt_wallet/",
+          "signal": "Introducing ChatGPT Wallet"
         },
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
-          "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xve8r2/ridiculously_unsafe_how_chatgpt_work_operates/",
+          "signal": "Ridiculously unsafe how \"chatGPT work\" operates - that's what destroys peoples computers"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Gemini — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
