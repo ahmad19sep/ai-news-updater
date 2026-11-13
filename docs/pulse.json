@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:57:55.062797+00:00",
+  "generated_at": "2026-11-13T06:50:27.112208+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,12 +9,50 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 19,
+      "hackernews": 26,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "signal": "Gemini 4 Hydrogen"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "signal": "Gemini Decisions API"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
+          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -44,8 +82,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuvjtw/random_chatgpt_in_the_wild_anyone_else_have_this/",
+          "signal": "Random ChatGPT in the wild.. anyone else have this happen yet?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xuc5ki/i_dont_think_chatgpt_liked_talking_to_me_lol/",
           "signal": "I don't think ChatGPT liked talking to me. Lol"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xupj0z/chatgpts_random_censorship_is_getting_ridiculous/",
+          "signal": "ChatGPT’s random censorship is getting ridiculous"
         },
         {
           "platform": "reddit",
@@ -53,19 +101,9 @@
           "signal": "Does ChatGPT report suspicious conversations?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuj3cg/i_achieved_so_much_with_old_chatgpt_now_i_cant_do/",
-          "signal": "I ACHIEVED SO MUCH WITH OLD CHATGPT, NOW I CAN'T DO ANYTHING ELSE"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
           "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=j-a62MkHREM",
-          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
         }
       ],
       "content_ideas": []
@@ -125,47 +163,9 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-          "signal": "Gemini Decisions API"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "signal": "Gemini 4 Hydrogen"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
-          "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AWS emulator",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -185,33 +185,6 @@
           "platform": "hackernews",
           "url": "https://github.com/aws/aws-emulator",
           "signal": "AWS emulator"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Apple has new Mac app coming to make running local AI models easy",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-          "signal": "Apple has new Mac app coming to make running local AI models easy"
         }
       ],
       "content_ideas": []
@@ -271,6 +244,60 @@
       "content_ideas": []
     },
     {
+      "name": "Chinese frontier AI models carry the fingerprint of export-controlled ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics",
+          "signal": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is turning Apple's app review process into a nightmare for synth de",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+          "signal": "AI is turning Apple's app review process into a nightmare for synth developers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI, activity, and outcomes in software engineering",
       "category": "use_case",
       "momentum": "rising",
@@ -298,50 +325,28 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
+      "best_format": "short",
+      "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
-          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
-          "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
-          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
-          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
+          "platform": "hackernews",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+          "signal": "Edge0-145B: Frontier AI Capabilities on Your Own Computer"
         }
       ],
       "content_ideas": []
@@ -372,33 +377,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
-          "signal": "AI is becoming an information gateway. Audiences still don’t want it making news"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -424,45 +402,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-          "signal": "Gemini Decisions API"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "signal": "Gemini 4 Hydrogen"
         },
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "signal": "Gemini 4 Hydrogen"
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "signal": "Gemini Decisions API"
         },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=X42MbfKjuQs",
           "signal": "Trapping ChatGPT Gone WRONG ! 😱🚨 #ai #gemini #chatgpt #tech"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
-          "signal": "AI is becoming an information gateway. Audiences still don’t want it making news"
         }
       ],
       "content_ideas": []
@@ -496,8 +447,18 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuvjtw/random_chatgpt_in_the_wild_anyone_else_have_this/",
+          "signal": "Random ChatGPT in the wild.. anyone else have this happen yet?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xuc5ki/i_dont_think_chatgpt_liked_talking_to_me_lol/",
           "signal": "I don't think ChatGPT liked talking to me. Lol"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xupj0z/chatgpts_random_censorship_is_getting_ridiculous/",
+          "signal": "ChatGPT’s random censorship is getting ridiculous"
         },
         {
           "platform": "reddit",
@@ -505,98 +466,14 @@
           "signal": "Does ChatGPT report suspicious conversations?"
         },
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuj3cg/i_achieved_so_much_with_old_chatgpt_now_i_cant_do/",
-          "signal": "I ACHIEVED SO MUCH WITH OLD CHATGPT, NOW I CAN'T DO ANYTHING ELSE"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
           "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=j-a62MkHREM",
-          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
-          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
-          "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Yj5LpSq_7xI",
-          "signal": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
-          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "I like generating images of people in different times and places winding down after a hard day of work",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xty5wq/i_like_generating_images_of_people_in_different/"
-        }
-      ],
-      "content_opportunity": ""
-    },
-    {
-      "problem": "I ACHIEVED SO MUCH WITH OLD CHATGPT, NOW I CAN'T DO ANYTHING ELSE",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xuj3cg/i_achieved_so_much_with_old_chatgpt_now_i_cant_do/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "pain_points": [],
+  "tool_of_week_candidate": "Gemini — strongest signal this cycle"
 }
