@@ -13,10 +13,10 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTXEydWtqNGF2QS1TSzZHQjZacjh3bUxSUkV2WHlTT1phYUdhTW4tbjRJdE5JQU56Z1ZsWlpZRlo1WXRzeTZPcUl2LWx6TUFuWVY0ZGNtalJENkN5b2oxaG8yNjJxVEI2a0E?oc=5
 3. **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — science angle
    https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-4. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
-   https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-5. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
+4. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
+5. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
+   https://www.sciencedaily.com/releases/2026/11/261110042553.htm
 6. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
 7. **Students need AI-free spaces to learn core skills** — science angle
@@ -50,11 +50,11 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
 - **Patients More Comfortable Than Doctors With AI-Driven Healthcare Decisions, Survey Finds - U.S. News & World Report** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5
 - **I’m Using AI to Try to Cure Cancer—and Save My Own Life - The Free Press** — https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTXEydWtqNGF2QS1TSzZHQjZacjh3bUxSUkV2WHlTT1phYUdhTW4tbjRJdE5JQU56Z1ZsWlpZRlo1WXRzeTZPcUl2LWx6TUFuWVY0ZGNtalJENkN5b2oxaG8yNjJxVEI2a0E?oc=5
 - **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-- **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
 - **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
+- **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2731
+- Total stories tracked: 2756
 - Most active topic: nvidia
 - Busiest category: AI General News
 
