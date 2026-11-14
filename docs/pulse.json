@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:45:34.973699+00:00",
+  "generated_at": "2026-11-14T06:29:21.484338+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 29,
+      "hackernews": 38,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -50,13 +49,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
-          "signal": "Anyone else feel like ChatGPT has been neutered?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvkzvl/chatgpt_gone_wrong/",
+          "signal": "Chatgpt gone wrong"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvecq2/chatgpt_is_acting_weird_today/",
-          "signal": "ChatGPT is acting weird today."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvli7o/is_it_just_me_or_has_chatgpt_become_so_obsessed/",
+          "signal": "Is it just me, or has ChatGPT become so obsessed with logical accuracy that it can't hold a normal conversation?"
         },
         {
           "platform": "reddit",
@@ -65,35 +64,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xve8r2/ridiculously_unsafe_how_chatgpt_work_operates/",
-          "signal": "Ridiculously unsafe how \"chatGPT work\" operates - that's what destroys peoples computers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "United Airlines bans AI agents from booking flights on behalf of trave",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-          "signal": "United Airlines bans AI agents from booking flights on behalf of travelers"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
+          "signal": "Anyone else feel like ChatGPT has been neutered?"
         }
       ],
       "content_ideas": []
@@ -104,6 +76,7 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
+        "linkedin_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -122,6 +95,11 @@
           "platform": "hackernews",
           "url": "https://status.claude.com/incidents/nn11wk485zfn",
           "signal": "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://claude.com/resources/articles/projects-redesigned",
+          "signal": "Anthropic upgrades Claude Code Projects to run parallel AI workers"
         },
         {
           "platform": "hackernews",
@@ -174,6 +152,33 @@
       "content_ideas": []
     },
     {
+      "name": "AI is destroying the trust between writers and readers",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+          "signal": "AI is destroying the trust between writers and readers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chinese frontier AI models carry the fingerprint of export-controlled ",
       "category": "use_case",
       "momentum": "rising",
@@ -196,6 +201,62 @@
           "platform": "hackernews",
           "url": "https://unemploymentlabs.com/checkpoint-forensics",
           "signal": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theor",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+          "signal": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "signal": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs"
         }
       ],
       "content_ideas": []
@@ -240,7 +301,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -255,34 +316,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI is destroying the trust between writers and readers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-          "signal": "AI is destroying the trust between writers and readers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same",
+      "name": "Jonathan Blow – If AI solved coding, why is my software still the same",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -296,7 +330,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 6,
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -305,34 +339,7 @@
         {
           "platform": "hackernews",
           "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-          "signal": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theor",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-          "signal": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems"
+          "signal": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]"
         }
       ],
       "content_ideas": []
@@ -350,7 +357,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -365,7 +372,7 @@
       "content_ideas": []
     },
     {
-      "name": "Why You Should Expect an AI Crash",
+      "name": "Live airband on all frequencies from KORS. Victoria, CA also ground st",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -377,7 +384,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -385,8 +392,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
-          "signal": "Why You Should Expect an AI Crash"
+          "url": "https://orcasairband.com/",
+          "signal": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped"
         }
       ],
       "content_ideas": []
@@ -399,6 +406,7 @@
       "momentum": "rising",
       "platforms": [
         "hackernews",
+        "linkedin_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -417,6 +425,11 @@
           "platform": "hackernews",
           "url": "https://status.claude.com/incidents/nn11wk485zfn",
           "signal": "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://claude.com/resources/articles/projects-redesigned",
+          "signal": "Anthropic upgrades Claude Code Projects to run parallel AI workers"
         },
         {
           "platform": "hackernews",
@@ -448,7 +461,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -476,13 +488,13 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
-          "signal": "Anyone else feel like ChatGPT has been neutered?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvkzvl/chatgpt_gone_wrong/",
+          "signal": "Chatgpt gone wrong"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvecq2/chatgpt_is_acting_weird_today/",
-          "signal": "ChatGPT is acting weird today."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvli7o/is_it_just_me_or_has_chatgpt_become_so_obsessed/",
+          "signal": "Is it just me, or has ChatGPT become so obsessed with logical accuracy that it can't hold a normal conversation?"
         },
         {
           "platform": "reddit",
@@ -491,13 +503,26 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xve8r2/ridiculously_unsafe_how_chatgpt_work_operates/",
-          "signal": "Ridiculously unsafe how \"chatGPT work\" operates - that's what destroys peoples computers"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
+          "signal": "Anyone else feel like ChatGPT has been neutered?"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
+  "pain_points": [
+    {
+      "problem": "Is it just me, or has ChatGPT become so obsessed with logical accuracy that it can't hold a normal conversation?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvli7o/is_it_just_me_or_has_chatgpt_become_so_obsessed/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
