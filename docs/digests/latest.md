@@ -13,16 +13,16 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTXEydWtqNGF2QS1TSzZHQjZacjh3bUxSUkV2WHlTT1phYUdhTW4tbjRJdE5JQU56Z1ZsWlpZRlo1WXRzeTZPcUl2LWx6TUFuWVY0ZGNtalJENkN5b2oxaG8yNjJxVEI2a0E?oc=5
 3. **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — science angle
    https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-4. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
-5. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
+4. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
    https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-6. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
+5. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
-7. **Students need AI-free spaces to learn core skills** — science angle
+6. **Students need AI-free spaces to learn core skills** — science angle
    https://www.nature.com/articles/d41586-026-03644-5
-8. **The public trusts scientists with AI — more than it does anyone else** — science angle
+7. **The public trusts scientists with AI — more than it does anyone else** — science angle
    https://www.nature.com/articles/d41586-026-03578-y
+8. **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — science angle
+   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUc2cW5PUnNMWVdjX3l5Q0NkQWxSS2JXb3A0aXA0TjM1U3U3UW5udHJxX0tUTFhtXzRQNi10bEJCWGoyZlFaM3oxNFBQOEd2ek1uXzBQTzFmQ2xWSmxkbW1JNGhlMlhWdDRjV0JnUmNSYkFQd1dWVHQzRUl3QkQybURoZVk1OHgwbDNSZHJwWm44TFdndmVISlY1NEpKamF2Q3htYm5oQk4tbzZaRkljeVhpdWhicEljaGMySU9YWF9Dc0lQUEsyNQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec** — bostonglobe — Score 70
@@ -31,10 +31,10 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5
 3. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 61
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVdvLUhoT29QcVBSQUxfMVdmMWV6Sll2YVo3OUZCY0tXVzJOelhSVS1nNmRpVHNkdFVmM0hVYVpVN0ZQdVNuSG9WRTIxREVnU2ItaFVfYWt6bG91Q2ZrQ250UHRXd2RMSHEteDVENFFHbEd5elZ0ZjF6b0FWTVZYWHlXalYtM2tUWDhQZlNR?oc=5
-4. **Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News** — Jensen Huang News — Score 56
-   https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5
-5. **Don’t throw the AI baby out with the AI data center bathwater - Orange County Register** — AI in Coding — Score 56
+4. **Don’t throw the AI baby out with the AI data center bathwater - Orange County Register** — AI in Coding — Score 56
    https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlUalF6d3hqVWZ0RGdJT01mOVNmTzJzaGdEV0QzZmtIUEl2TGd0dW5PYTVjWnNLSW5ybzlGOU14MGpZRXRncERxRURiX1ZtZS14dzRUYk1YaDZmQlZlRHRFWFA5elZjTnVZODdRZ0tVNHJoN2EtVTlmMFJwYkhhUVJTUnhmcl9GS05uNXZTRmtVQ2o0QTEzdW1RdDBHbDdE?oc=5
+5. **Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News** — Jensen Huang News — Score 53
+   https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5
 6. **EXCLUSIVE: Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs - Reuters** — Jensen Huang News — Score 52
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
 7. **Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It - Decrypt** — xAI News — Score 50
@@ -50,11 +50,11 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
 - **Patients More Comfortable Than Doctors With AI-Driven Healthcare Decisions, Survey Finds - U.S. News & World Report** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5
 - **I’m Using AI to Try to Cure Cancer—and Save My Own Life - The Free Press** — https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTXEydWtqNGF2QS1TSzZHQjZacjh3bUxSUkV2WHlTT1phYUdhTW4tbjRJdE5JQU56Z1ZsWlpZRlo1WXRzeTZPcUl2LWx6TUFuWVY0ZGNtalJENkN5b2oxaG8yNjJxVEI2a0E?oc=5
 - **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-- **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
 - **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
+- **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2756
+- Total stories tracked: 2737
 - Most active topic: nvidia
 - Busiest category: AI General News
 
