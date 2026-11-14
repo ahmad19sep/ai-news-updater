@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:29:21.484338+00:00",
+  "generated_at": "2026-11-14T18:08:35.834549+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 38,
+      "hackernews": 33,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,6 +22,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -44,6 +45,21 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvwyni/asked_chatgpt_could_we_make_a_racing_game_now_its/",
+          "signal": "Asked ChatGPT, “Could We Make a Racing Game?” Now It’s His After-Work Hobby"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xw6ozg/rant_gpt6_chatgpt_codex_has_collapsed_into_an/",
+          "signal": "RANT - GPT-6 (ChatGPT + Codex) has collapsed into an “acknowledge and stop” loop: admits the mistake, does nothing, repeats. Across Free, Plus and Pro."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvyzh3/chatgpt_saves_every_file_youve_ever_uploaded_to/",
+          "signal": "ChatGPT saves every file you've ever uploaded to Library, and Library has a storage cap. Deleting the chat never removed them, but a new checkbox on Delete chat now does"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xv32sv/chatgpt_randomly_sent_me_an_unsolicited_followup/",
           "signal": "ChatGPT randomly sent me an unsolicited follow-up message"
         },
@@ -51,21 +67,35 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xvkzvl/chatgpt_gone_wrong/",
           "signal": "Chatgpt gone wrong"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Nvidia allegedly engineered scarcity by funding AI startups to buy its",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvli7o/is_it_just_me_or_has_chatgpt_become_so_obsessed/",
-          "signal": "Is it just me, or has ChatGPT become so obsessed with logical accuracy that it can't hold a normal conversation?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xveyh4/introducing_chatgpt_wallet/",
-          "signal": "Introducing ChatGPT Wallet"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
-          "signal": "Anyone else feel like ChatGPT has been neutered?"
+          "platform": "hackernews",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "signal": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs"
         }
       ],
       "content_ideas": []
@@ -113,13 +143,42 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+          "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
+          "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
-          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Jonathan Blow – If AI solved coding, why is my software still the same",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+          "signal": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]"
         }
       ],
       "content_ideas": []
@@ -233,35 +292,6 @@
       "content_ideas": []
     },
     {
-      "name": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-          "signal": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
       "category": "use_case",
       "momentum": "rising",
@@ -316,35 +346,6 @@
       "content_ideas": []
     },
     {
-      "name": "Jonathan Blow – If AI solved coding, why is my software still the same",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-          "signal": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Why is Google cutting off Search from AI-free schools? Here are some t",
       "category": "use_case",
       "momentum": "rising",
@@ -384,7 +385,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -443,13 +444,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+          "url": "https://www.youtube.com/watch?v=3ZdJOsNzMI8",
+          "signal": "Claude Code’s creator runs 1000s of agents every night. 🤯"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=DeKEUcyNL3c",
-          "signal": "How To Build a Faceless YouTube Channel on Mobile Phone with Claude (Free Prompt/Skill)"
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
         }
       ],
       "content_ideas": []
@@ -461,6 +462,7 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
+        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -483,6 +485,21 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvwyni/asked_chatgpt_could_we_make_a_racing_game_now_its/",
+          "signal": "Asked ChatGPT, “Could We Make a Racing Game?” Now It’s His After-Work Hobby"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xw6ozg/rant_gpt6_chatgpt_codex_has_collapsed_into_an/",
+          "signal": "RANT - GPT-6 (ChatGPT + Codex) has collapsed into an “acknowledge and stop” loop: admits the mistake, does nothing, repeats. Across Free, Plus and Pro."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvyzh3/chatgpt_saves_every_file_youve_ever_uploaded_to/",
+          "signal": "ChatGPT saves every file you've ever uploaded to Library, and Library has a storage cap. Deleting the chat never removed them, but a new checkbox on Delete chat now does"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xv32sv/chatgpt_randomly_sent_me_an_unsolicited_followup/",
           "signal": "ChatGPT randomly sent me an unsolicited follow-up message"
         },
@@ -490,27 +507,24 @@
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xvkzvl/chatgpt_gone_wrong/",
           "signal": "Chatgpt gone wrong"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvli7o/is_it_just_me_or_has_chatgpt_become_so_obsessed/",
-          "signal": "Is it just me, or has ChatGPT become so obsessed with logical accuracy that it can't hold a normal conversation?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xveyh4/introducing_chatgpt_wallet/",
-          "signal": "Introducing ChatGPT Wallet"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xva3j7/anyone_else_feel_like_chatgpt_has_been_neutered/",
-          "signal": "Anyone else feel like ChatGPT has been neutered?"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [
+    {
+      "problem": "ChatGPT saves every file you've ever uploaded to Library, and Library has a storage cap. Deleting the chat never removed them, but a new che",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvyzh3/chatgpt_saves_every_file_youve_ever_uploaded_to/"
+        }
+      ],
+      "content_opportunity": ""
+    },
     {
       "problem": "Is it just me, or has ChatGPT become so obsessed with logical accuracy that it can't hold a normal conversation?",
       "who_affected": "r/ChatGPT",
@@ -519,6 +533,18 @@
         {
           "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xvli7o/is_it_just_me_or_has_chatgpt_become_so_obsessed/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
+      "problem": "Annoying bug with a single letter taking up a line. Any fixes?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xw65ne/annoying_bug_with_a_single_letter_taking_up_a/"
         }
       ],
       "content_opportunity": ""
