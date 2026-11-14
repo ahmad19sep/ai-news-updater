@@ -17,26 +17,26 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://www.sciencedaily.com/releases/2026/11/261110042553.htm
 5. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
-6. **Mayo Clinic Launches AI Chatbot for Doctors - Pain News Network** — science angle
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pCQkM3dTA2WlRxTlVxOGlDYzI4ZnFBS1lhbWJmRTFTWXFqWUJsV2R5Nm9WaW8wb25vUFRqQ0Z5bEFEQkN1d3RpU2U3dU1wTlVUWktYY0Z5WmV2YzktUXdMTzBncFpPVmFRSDFQTnhvTEdkWGVtQzRXeTVfRXV2eFlUcFQxUzhCdm4yMzhJZ184ZkR0LU5yRl9PVUViNUhmU1RSYzFkQQ?oc=5
-7. **AI death lawsuit sparks alarming warning from ‘Doctor GPT’ - NewsNation** — science angle
-   https://news.google.com/rss/articles/CBMid0FVX3lxTE9WUFIwSXZTUWt0b1BNa1hKcjhKOHVHd3ZvOUV4S0NBSEdDM1dmU1dwT2lveURDSGhfeGFJZlhGQTV6QzlFanBOUmxrdlIzZUZWUEJMR0ZNR2lhb3J6bEpOdHdEVWhDTktiNFgtVjJIeFJ3NjRFT09J0gF8QVVfeXFMTnBYRDVFVmdsZ2l5aWdZRTRuSlVNbWdQTk1VbGNybHFXRUwwdjlubVBkSWtBMG9Ualp5UUVSYTBwblFTVnJKbkJtcUtGWkNEQm1Id3pQR19jcW9CSkFaaFQ1Mk9KNnVLM2lTNG0xY1ZNRkh4TDhuMm1uaER0Qg?oc=5
-8. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
+6. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
+7. **Students need AI-free spaces to learn core skills** — science angle
+   https://www.nature.com/articles/d41586-026-03644-5
+8. **The public trusts scientists with AI — more than it does anyone else** — science angle
+   https://www.nature.com/articles/d41586-026-03578-y
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec** — bostonglobe — Score 70
    https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia-jensen-huang/
 2. **Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times** — Jensen Huang News — Score 63
    https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5
-3. **Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News** — Jensen Huang News — Score 56
-   https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5
-4. **Don’t throw the AI baby out with the AI data center bathwater - Orange County Register** — AI in Coding — Score 56
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlUalF6d3hqVWZ0RGdJT01mOVNmTzJzaGdEV0QzZmtIUEl2TGd0dW5PYTVjWnNLSW5ybzlGOU14MGpZRXRncERxRURiX1ZtZS14dzRUYk1YaDZmQlZlRHRFWFA5elZjTnVZODdRZ0tVNHJoN2EtVTlmMFJwYkhhUVJTUnhmcl9GS05uNXZTRmtVQ2o0QTEzdW1RdDBHbDdE?oc=5
-5. **EXCLUSIVE: Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs - Reuters** — Jensen Huang News — Score 55
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
-6. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 51
+3. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 61
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVdvLUhoT29QcVBSQUxfMVdmMWV6Sll2YVo3OUZCY0tXVzJOelhSVS1nNmRpVHNkdFVmM0hVYVpVN0ZQdVNuSG9WRTIxREVnU2ItaFVfYWt6bG91Q2ZrQ250UHRXd2RMSHEteDVENFFHbEd5elZ0ZjF6b0FWTVZYWHlXalYtM2tUWDhQZlNR?oc=5
+4. **Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News** — Jensen Huang News — Score 56
+   https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5
+5. **Don’t throw the AI baby out with the AI data center bathwater - Orange County Register** — AI in Coding — Score 56
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlUalF6d3hqVWZ0RGdJT01mOVNmTzJzaGdEV0QzZmtIUEl2TGd0dW5PYTVjWnNLSW5ybzlGOU14MGpZRXRncERxRURiX1ZtZS14dzRUYk1YaDZmQlZlRHRFWFA5elZjTnVZODdRZ0tVNHJoN2EtVTlmMFJwYkhhUVJTUnhmcl9GS05uNXZTRmtVQ2o0QTEzdW1RdDBHbDdE?oc=5
+6. **EXCLUSIVE: Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs - Reuters** — Jensen Huang News — Score 52
+   https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
 7. **Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It - Decrypt** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQSXpmLTRvZy1lUm1ySWZqbG11MDl1LVlfaGprYWxld09nd01HNkxOVTlMSnhuUEhEcVRyQkl4Y3dxLWZZeURRc1dXTkI3TEotdGlwbEV0Q0NKbTc4MElCV0xkbWs1T3l3d0hwMElnYjlQQjg5MVR6QWx3ZkUtQlJWRXJVRVZBTkplaEZGRy1n?oc=5
 8. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - WAVY.com** — Dario Amodei News — Score 43
@@ -54,7 +54,7 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
 - **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2752
+- Total stories tracked: 2731
 - Most active topic: nvidia
 - Busiest category: AI General News
 
