@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 07 Nov 2026 to 14 Nov 2026
+# 🗞️ AI THIS WEEK — 08 Nov 2026 to 15 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec**
@@ -39,12 +39,12 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
 7. **Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It - Decrypt** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQSXpmLTRvZy1lUm1ySWZqbG11MDl1LVlfaGprYWxld09nd01HNkxOVTlMSnhuUEhEcVRyQkl4Y3dxLWZZeURRc1dXTkI3TEotdGlwbEV0Q0NKbTc4MElCV0xkbWs1T3l3d0hwMElnYjlQQjg5MVR6QWx3ZkUtQlJWRXJVRVZBTkplaEZGRy1n?oc=5
-8. **Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says - WAVY.com** — Dario Amodei News — Score 43
-   https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSkhSWDJYTkx5Wk5ub182VS1jWE9oZTNqZ0xUd1JNejlzZ1ZQbHRIT1ltTmFuOGwzbkJPUDMxanlySmZpd3hXTHdsdjI2Y2xIX05yM0VKc1lpS0JHeU52bnNIaWlxdnRxc09sTEpZaHhCOWVzVzVIanZnbmlaRnR3SW5aWmlJb1RBenRKdGtTNndSLWRUQXB4V241V0RHcjNJRzFmLTZ0ck16bmxVV3NZOTNUaTg5bWdnRkluYmZNREo5a3RGaXdWVWtTcDVVMDVpZVRB0gHYAUFVX3lxTE9LMk1uZW1UY1RDYmJIcWc5eGt2dHR2RlplS05zNjRmeS1DcEdTSG94d3dVX2xFMWNBS1lwU1M5VWtVblFRN2pUR293OUJIazZ5MnVWM0JJZGN2MjdkVFhsYktyeGpqMFpCUkZmMG9sWnhVMzJGdmdqaE5fVjczZW90MmZ2ZDF0dThtcEVsUVpBSWZVZkxQUTF3cHFOaW9aMW9mUjA3WnBxRTRFLWwydnFTcjlRNVVIeW1sdDdJZUxtNU9hN2stTjlUMVAwN2xCYi1peXNYRXlINQ?oc=5
-9. **Cooks River AI data centre scrapped after local outcry** — watoday — Score 43
+8. **Cooks River AI data centre scrapped after local outcry** — watoday — Score 43
    https://www.watoday.com.au/politics/nsw/cooks-river-ai-data-centre-scrapped-after-local-outcry-20261108-p61ccb.html
-10. **Elon Musk predicts a future of abundance where, if you 'wish for a castle,' AI will build it for you - Business Insider** — Elon Musk AI News — Score 43
+9. **Elon Musk predicts a future of abundance where, if you 'wish for a castle,' AI will build it for you - Business Insider** — Elon Musk AI News — Score 43
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpsOERsUHRzdVMxdnhieHVUbGxnTGV2ZmJXLUZQVVJpSkxDMU1qWm9SNTNKNEh6cTVyZVpGaHhIaEFOWXMySl9PZmJIYzZDczVzNTJiNWo0Q1lOUWNmZHZNMmYySjdJZzVnNjhvQ1pmUE5pNVpEbHRmV25Ua184SjdBUEt3TjJyR1k1VkllQk1STDZKV2JUUFNCMTZhamsyQ0FPZmZSNkY4WmtVaUNjQ2VLZw?oc=5
+10. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 43
+   https://www.mendocinobeacon.com/2026/11/09/disney-testing-ai-lyric-videos/
 
 ## 🧪 AI in Science Highlights
 - **Patients More Comfortable Than Doctors With AI-Driven Healthcare Decisions, Survey Finds - U.S. News & World Report** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
 - **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2737
+- Total stories tracked: 2735
 - Most active topic: nvidia
 - Busiest category: AI General News
 
