@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:38:58.342016+00:00",
+  "generated_at": "2026-11-15T18:53:45.277996+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,7 +9,7 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 30,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
@@ -22,7 +22,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -60,8 +59,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvwyni/asked_chatgpt_could_we_make_a_racing_game_now_its/",
-          "signal": "Asked ChatGPT, “Could We Make a Racing Game?” Now It’s His After-Work Hobby"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx30dg/why_does_chatgpt_need_to_know_when_i_take_a/",
+          "signal": "Why does chatgpt need to know when I take a screenshot?"
         },
         {
           "platform": "reddit",
@@ -101,9 +100,63 @@
       "content_ideas": []
     },
     {
+      "name": "All AI-generated code should be Open Source",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+          "signal": "All AI-generated code should be Open Source"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Court denies motion to dismiss DRAM price fixing case",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+          "signal": "Court denies motion to dismiss DRAM price fixing case"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "cooling",
       "platforms": [
         "hackernews",
         "linkedin_inferred",
@@ -123,11 +176,6 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://status.claude.com/incidents/nn11wk485zfn",
-          "signal": "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
-        },
-        {
-          "platform": "hackernews",
           "url": "https://claude.com/resources/articles/projects-redesigned",
           "signal": "Anthropic upgrades Claude Code Projects to run parallel AI workers"
         },
@@ -137,163 +185,19 @@
           "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
         },
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50480941",
-          "signal": "Claude AI Is Down"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
           "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Jonathan Blow – If AI solved coding, why is my software still the same",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-          "signal": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is destroying the trust between writers and readers",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-          "signal": "AI is destroying the trust between writers and readers"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theor",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-          "signal": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Why is Google cutting off Search from AI-free schools? Here are some t",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://text.npr.org/nx-s1-6029408",
-          "signal": "Why is Google cutting off Search from AI-free schools? Here are some theories"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://unsloth.ai/docs/models/qwen3.8",
-          "signal": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update"
+          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
+          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=myHkgWZTbgQ",
-          "signal": "Someone Put a Working Computer Inside an AI Model #ai  #llm  #qwen"
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
         }
       ],
       "content_ideas": []
@@ -353,6 +257,33 @@
       "content_ideas": []
     },
     {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://unsloth.ai/docs/models/qwen3.8",
+          "signal": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "All US airports are currently ground stopped",
       "category": "use_case",
       "momentum": "rising",
@@ -405,25 +336,21 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Claude",
+      "name": "Perplexity",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -431,33 +358,64 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://status.claude.com/incidents/nn11wk485zfn",
-          "signal": "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
-        },
+          "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+          "signal": "Perplexity Decider v1.3: Training, eval, and use cases"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: What are the most useful, concrete AI skills to independently ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
           "platform": "hackernews",
-          "url": "https://claude.com/resources/articles/projects-redesigned",
-          "signal": "Anthropic upgrades Claude Code Projects to run parallel AI workers"
-        },
+          "url": "https://news.ycombinator.com/item?id=50494696",
+          "signal": "Ask HN: What are the most useful, concrete AI skills to independently learn?"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
+    {
+      "name": "Perplexity",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50480941",
-          "signal": "Claude AI Is Down"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
-          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+          "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+          "signal": "Perplexity Decider v1.3: Training, eval, and use cases"
         }
       ],
       "content_ideas": []
@@ -469,7 +427,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "reddit",
         "youtube"
       ],
@@ -507,8 +464,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xvwyni/asked_chatgpt_could_we_make_a_racing_game_now_its/",
-          "signal": "Asked ChatGPT, “Could We Make a Racing Game?” Now It’s His After-Work Hobby"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx30dg/why_does_chatgpt_need_to_know_when_i_take_a/",
+          "signal": "Why does chatgpt need to know when I take a screenshot?"
         },
         {
           "platform": "reddit",
@@ -519,9 +476,9 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
+      "name": "Claude",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
         "hackernews",
         "linkedin_inferred",
@@ -531,9 +488,56 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://claude.com/resources/articles/projects-redesigned",
+          "signal": "Anthropic upgrades Claude Code Projects to run parallel AI workers"
+        },
+        {
+          "platform": "hackernews",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
+          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
+          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -543,29 +547,11 @@
           "platform": "hackernews",
           "url": "https://unsloth.ai/docs/models/qwen3.8",
           "signal": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=myHkgWZTbgQ",
-          "signal": "Someone Put a Working Computer Inside an AI Model #ai  #llm  #qwen"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [
-    {
-      "problem": "Chat usage limit on pro?",
-      "who_affected": "r/ChatGPT",
-      "signal_strength": 3,
-      "sources": [
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xwd50v/chat_usage_limit_on_pro/"
-        }
-      ],
-      "content_opportunity": ""
-    }
-  ],
+  "pain_points": [],
   "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
