@@ -13,16 +13,16 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5
 3. **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — science angle
    https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-4. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
+4. **Parents pay $75k for Alpha's AI school. Half of its students missed math target** — 52 upvotes on Reddit/HN
+   https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/
+5. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
    https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-5. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
+6. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
    https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
-6. **Students need AI-free spaces to learn core skills** — science angle
+7. **Students need AI-free spaces to learn core skills** — science angle
    https://www.nature.com/articles/d41586-026-03644-5
-7. **The public trusts scientists with AI — more than it does anyone else** — science angle
+8. **The public trusts scientists with AI — more than it does anyone else** — science angle
    https://www.nature.com/articles/d41586-026-03578-y
-8. **Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump - Bloomberg.com** — science angle
-   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUc2cW5PUnNMWVdjX3l5Q0NkQWxSS2JXb3A0aXA0TjM1U3U3UW5udHJxX0tUTFhtXzRQNi10bEJCWGoyZlFaM3oxNFBQOEd2ek1uXzBQTzFmQ2xWSmxkbW1JNGhlMlhWdDRjV0JnUmNSYkFQd1dWVHQzRUl3QkQybURoZVk1OHgwbDNSZHJwWm44TFdndmVISlY1NEpKamF2Q3htYm5oQk4tbzZaRkljeVhpdWhicEljaGMySU9YWF9Dc0lQUEsyNQ?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec** — bostonglobe — Score 70
@@ -41,10 +41,10 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
 8. **Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It - Decrypt** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQSXpmLTRvZy1lUm1ySWZqbG11MDl1LVlfaGprYWxld09nd01HNkxOVTlMSnhuUEhEcVRyQkl4Y3dxLWZZeURRc1dXTkI3TEotdGlwbEV0Q0NKbTc4MElCV0xkbWs1T3l3d0hwMElnYjlQQjg5MVR6QWx3ZkUtQlJWRXJVRVZBTkplaEZGRy1n?oc=5
-9. **How Vail Resorts is using AI to manage employees across its 37 resorts in the U.S. and Canada - VailDaily.com** — Using AI To... — Score 46
-   https://news.google.com/rss/articles/CBMif0FVX3lxTE5wOHZPU1hfYno4enNTd3gzeHg2M1o3Z1JRdTRrWDV4SjZEZ3ZzWVplc0Z3SVVla1FNRk41VThHd0hXWWlWVWs5czVpRHFDRWZDWDB1eE9ib3RiRmxnZHFvLXFrRzhuVVpwTUZFSW54T0VLSXVEaWpqOTZCZlAzUW8?oc=5
-10. **Elon Musk predicts a future of abundance where, if you 'wish for a castle,' AI will build it for you - Business Insider** — Elon Musk AI News — Score 43
+9. **Elon Musk predicts a future of abundance where, if you 'wish for a castle,' AI will build it for you - Business Insider** — Elon Musk AI News — Score 43
    https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpsOERsUHRzdVMxdnhieHVUbGxnTGV2ZmJXLUZQVVJpSkxDMU1qWm9SNTNKNEh6cTVyZVpGaHhIaEFOWXMySl9PZmJIYzZDczVzNTJiNWo0Q1lOUWNmZHZNMmYySjdJZzVnNjhvQ1pmUE5pNVpEbHRmV25Ua184SjdBUEt3TjJyR1k1VkllQk1STDZKV2JUUFNCMTZhamsyQ0FPZmZSNkY4WmtVaUNjQ2VLZw?oc=5
+10. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 43
+   https://www.mendocinobeacon.com/2026/11/09/disney-testing-ai-lyric-videos/
 
 ## 🧪 AI in Science Highlights
 - **I’m Using AI to Try to Cure Cancer—and Save My Own Life - The Free Press** — https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTXEydWtqNGF2QS1TSzZHQjZacjh3bUxSUkV2WHlTT1phYUdhTW4tbjRJdE5JQU56Z1ZsWlpZRlo1WXRzeTZPcUl2LWx6TUFuWVY0ZGNtalJENkN5b2oxaG8yNjJxVEI2a0E?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
 - **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2747
+- Total stories tracked: 2752
 - Most active topic: nvidia
 - Busiest category: AI General News
 
