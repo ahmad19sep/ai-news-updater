@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T06:35:49.665092+00:00",
+  "generated_at": "2026-11-16T22:08:39.862296+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,39 +9,12 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 15,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "All AI-generated code should be Open Source",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-          "signal": "All AI-generated code should be Open Source"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -71,28 +44,82 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xy14yn/i_gave_chatgpt_and_claude_rival_pizza_shops_they/",
+          "signal": "I gave ChatGPT and Claude rival pizza shops. They both bought fake reviews"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxi5bv/is_my_chatgpt_account_hacked/",
+          "signal": "Is my chatGPT account hacked?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xx6x6r/chatgpt_impressions_anyone/",
           "signal": "ChatGPT impressions, anyone?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxbcbm/whats_the_most_dystopian_way_youve_caught/",
-          "signal": "What’s the most dystopian way you’ve caught yourself using ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxqijg/chatgpt_has_become_that_friend_who_cant_let_you/",
+          "signal": "ChatGPT has become that friend who can't let you finish a sentence without a \"well, actually\""
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xwkynn/i_asked_chatgpt_to_imagine_my_exact_opposite_life/",
-          "signal": "I asked ChatGPT to imagine my exact opposite life"
-        },
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxysqp/chatgpt_has_no_backbone_it_just_agrees_with/",
+          "signal": "ChatGPT has no backbone. It just agrees with whoever challenges it last."
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "All AI-generated code should be Open Source",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxh21l/chatgpt_plus_major_regression_last_two_weeks/",
-          "signal": "ChatGPT Plus major regression last two weeks"
-        },
+          "platform": "hackernews",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+          "signal": "All AI-generated code should be Open Source"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxdere/seems_like_chatgpt_has_trouble_generating_images/",
-          "signal": "Seems like ChatGPT has trouble generating images with the POV looking up: inspired by the novel War of the Worlds"
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen4-max",
+          "signal": "Qwen4-Max"
         }
       ],
       "content_ideas": []
@@ -125,77 +152,7 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen4-max",
-          "signal": "Qwen4-Max"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HD02f3-3c7E",
-          "signal": "The 6 NEW Claude Features to Get You Ahead of 99% in 2027"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
-          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: A terminal-native idle factory game, written in Rust with rat",
+      "name": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -205,9 +162,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
+      "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -215,8 +172,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://gitlab.com/snipedbywifi/terminactory",
-          "signal": "Show HN: A terminal-native idle factory game, written in Rust with ratatui"
+          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+          "signal": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack"
         }
       ],
       "content_ideas": []
@@ -277,60 +234,6 @@
       "content_ideas": []
     },
     {
-      "name": "Ask HN: What are the most useful, concrete AI skills to independently ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50494696",
-          "signal": "Ask HN: What are the most useful, concrete AI skills to independently learn?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-          "signal": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Parents pay $75k for Alpha's AI school. Half of its students missed ma",
       "category": "use_case",
       "momentum": "rising",
@@ -358,7 +261,61 @@
       "content_ideas": []
     },
     {
+      "name": "Generative AI Usage in the Games Industry",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.gameworkers.co.uk/ai-manifesto/",
+          "signal": "Generative AI Usage in the Games Industry"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Jensen Huang allegedly manufactured the GPU shortage",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+          "signal": "Jensen Huang allegedly manufactured the GPU shortage"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -378,14 +335,80 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-          "signal": "Jensen Huang allegedly manufactured the GPU shortage"
+          "url": "https://news.ycombinator.com/item?id=50520076",
+          "signal": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
+          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
+          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
+    {
+      "name": "Qwen",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://qwen.ai/blog?id=qwen4-max",
+          "signal": "Qwen4-Max"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -415,65 +438,39 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xy14yn/i_gave_chatgpt_and_claude_rival_pizza_shops_they/",
+          "signal": "I gave ChatGPT and Claude rival pizza shops. They both bought fake reviews"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxi5bv/is_my_chatgpt_account_hacked/",
+          "signal": "Is my chatGPT account hacked?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xx6x6r/chatgpt_impressions_anyone/",
           "signal": "ChatGPT impressions, anyone?"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxbcbm/whats_the_most_dystopian_way_youve_caught/",
-          "signal": "What’s the most dystopian way you’ve caught yourself using ChatGPT?"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxqijg/chatgpt_has_become_that_friend_who_cant_let_you/",
+          "signal": "ChatGPT has become that friend who can't let you finish a sentence without a \"well, actually\""
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xwkynn/i_asked_chatgpt_to_imagine_my_exact_opposite_life/",
-          "signal": "I asked ChatGPT to imagine my exact opposite life"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxh21l/chatgpt_plus_major_regression_last_two_weeks/",
-          "signal": "ChatGPT Plus major regression last two weeks"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxdere/seems_like_chatgpt_has_trouble_generating_images/",
-          "signal": "Seems like ChatGPT has trouble generating images with the POV looking up: inspired by the novel War of the Worlds"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxysqp/chatgpt_has_no_backbone_it_just_agrees_with/",
+          "signal": "ChatGPT has no backbone. It just agrees with whoever challenges it last."
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen4-max",
-          "signal": "Qwen4-Max"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
+      "name": "Gemini",
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews",
+        "facebook_inferred",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -481,32 +478,27 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
+      "best_format": "reel",
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
+          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=HD02f3-3c7E",
-          "signal": "The 6 NEW Claude Features to Get You Ahead of 99% in 2027"
+          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
-          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
+          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
         }
       ],
       "content_ideas": []
@@ -514,17 +506,17 @@
   ],
   "pain_points": [
     {
-      "problem": "Please fix what is broken and stop fixing what isnt?",
+      "problem": "ChatGPT has become that friend who can't let you finish a sentence without a \"well, actually\"",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
       "sources": [
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxef30/please_fix_what_is_broken_and_stop_fixing_what/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxqijg/chatgpt_has_become_that_friend_who_cant_let_you/"
         }
       ],
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "All AI-generated code should be Open Source — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
