@@ -1,10 +1,10 @@
 # 🗞️ AI THIS WEEK — 09 Nov 2026 to 16 Nov 2026
 
 ## 🔥 Biggest Story of the Week
-**Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec**
-Covered by 7 source(s) · Score: 70
-Best source link: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia-jensen-huang/
-All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia-jensen-huang/ · https://www.union-bulletin.com/news/national/alice-huang-who-reportedly-had-an-affair-with-nvidia-ceo-is-a-chinese-banker-turned/article_125582db-7886-546a-9f50-b2dd2132400e.html · https://www.dailysentinel.com/anpa/us/alice-huang-who-reportedly-had-an-affair-with-nvidia-ceo-is-a-chinese-banker-turned/article_a725f539-c334-56be-8c40-11c1fe4300fa.html · https://www.guardonline.com/news/national/alice-huang-who-reportedly-had-an-affair-with-nvidia-ceo-is-a-chinese-banker-turned/article_21bd61a4-87f1-5b91-9e18-99582ff71dc5.html · https://www.channel3000.com/news/alice-huang-who-reportedly-had-an-affair-with-nvidia-ceo-is-a-chinese-banker-turned/article_1dd74cc9-e074-5afa-8c5a-6b47dcee6ea6.html · https://www.newsitem.com/ap/business/alice-huang-who-reportedly-had-an-affair-with-nvidia-ceo-is-a-chinese-banker-turned/article_901c4497-5ba3-54d5-b71a-216ac46a509b.html · https://economictimes.indiatimes.com/news/international/world-news/alice-huang-who-reportedly-had-an-affair-with-nvidia-ceo-is-a-chinese-banker-turned-tech-exec/articleshow/135741030.cms
+**OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine**
+Covered by 5 source(s) · Score: 76
+Best source link: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZIdi01UEZUT0RXRWJ5aTJjZDVxMW52MkJjdVprU04wcDFFX2RKTldQc1V5ZzF3cG9QRnVBR0d6NWVqX1NkUGFUYUpDOE5vTnIzbVZqRVZYQ01RMVI3RmNrWTJ0dDRRaTNBclF4Q0Nydm13a1JCSWtkWGtTM0FJQlNfR0Q4VjRVcDBRcGtPLTBn?oc=5
+All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZIdi01UEZUT0RXRWJ5aTJjZDVxMW52MkJjdVprU04wcDFFX2RKTldQc1V5ZzF3cG9QRnVBR0d6NWVqX1NkUGFUYUpDOE5vTnIzbVZqRVZYQ01RMVI3RmNrWTJ0dDRRaTNBclF4Q0Nydm13a1JCSWtkWGtTM0FJQlNfR0Q4VjRVcDBRcGtPLTBn?oc=5 · https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1VUenREMkI5ajg2ZThnT3FocGRnMkIySHYwLXBJT1QwTUZ4eUtOWG13MTRpNm1VN2ZRQ3dkVUxiTXZJZm83aXdWVVYyTmtiZURObV9kQ3hTNHBKZjVIbkFTMW1DOGx1NDQxYmwyN1hqcFZwQkVaUVJrOHl2U252bmY2dWxiMEh4dGEtOVZR?oc=5 · https://news.google.com/rss/articles/CBMilgFBVV95cUxOdFVmX2JURmhUcThfMEdQQzlqOTB2djE4MzdEVng0MHd1RS1DOFZnZFlWWUxsalVxWGRJUXNiSm94VERZcUVvX1hSSVd2aDVCV2V0ZGFaLTZtS2xfZ3NlaHdOYzl5S3UxeGpqM1hVc2IxcExjY1RNRjZ2cUhkYzdZVTM2YkdxNlF0QmdfbTY5a2lucVBHZ0E?oc=5 · https://news.google.com/rss/articles/CBMisgFBVV95cUxQd25QQUlFR1dwREk4RjJESkFIazZlNVN5ODJtbGtQWkh6NDhHN2RhZ01rdGNvSnVaeEtPdEMtZWFMZGV0alQ4VGtNTG5NVTdPVVVGXzRsdmtVRkZpTWl6RXNwdmRtNzlUeEVKTTdsLURQUTloSkx4NFR2MzhKT2JDUk9yVnQxYlgxRDB3dDFmY0dmRGJERlowMEdnTF9jRzhfbEJCTXhYU1I2azJrR2JvSURR0gG3AUFVX3lxTFB6aWJvM2RqM3ptamtVMnFpZGgzQ28tNlZVY041NVcxdVpodlpyelNHWnFXcFdvSWZVV0xkcTNIemJGVlJXYmNpSUk5QTNWZXNLcmRwamRLbjA1Vjl5dkRlVFZYRmlLVElFdUtfd09hWm1lVVFrZGRPaHpUdHc4dmZjNEhJelNTS19xSW1DTkpMeXBGb2RxU2w5UkxlWHcwb1ZsTTU4WmFUdHlWV1g1VnF0bmp5U0RtZw?oc=5 · https://news.google.com/rss/articles/CBMikgFBVV95cUxPUFliWms3NUxSODZ4ay0wZkhPS2EwN0xVT2JZYW1OMkppMVBoTkhVNXNlOTVwZnlsclpCOWpkbjBSSlNjcHNoMmk4U0xRczM1SFNQOTdHNmYtWEszbE5mSWEzaVJpYTRSbHpWMXRJQ0d2YlNqZVJMeFFYUVU3a3JUMGktbHM2czFNWjNsanBLaFFTUQ?oc=5
 
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **I’m Using AI to Try to Cure Cancer—and Save My Own Life - The Free Press** — science angle
@@ -25,10 +25,10 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://www.nature.com/articles/d41586-026-03578-y
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec** — bostonglobe — Score 70
-   https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia-jensen-huang/
-2. **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine** — AI Agents — Score 66
+1. **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine** — AI Agents — Score 76
    https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZIdi01UEZUT0RXRWJ5aTJjZDVxMW52MkJjdVprU04wcDFFX2RKTldQc1V5ZzF3cG9QRnVBR0d6NWVqX1NkUGFUYUpDOE5vTnIzbVZqRVZYQ01RMVI3RmNrWTJ0dDRRaTNBclF4Q0Nydm13a1JCSWtkWGtTM0FJQlNfR0Q4VjRVcDBRcGtPLTBn?oc=5
+2. **Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec** — bostonglobe — Score 70
+   https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia-jensen-huang/
 3. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVdvLUhoT29QcVBSQUxfMVdmMWV6Sll2YVo3OUZCY0tXVzJOelhSVS1nNmRpVHNkdFVmM0hVYVpVN0ZQdVNuSG9WRTIxREVnU2ItaFVfYWt6bG91Q2ZrQ250UHRXd2RMSHEteDVENFFHbEd5elZ0ZjF6b0FWTVZYWHlXalYtM2tUWDhQZlNR?oc=5
 4. **Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News** — Jensen Huang News — Score 53
@@ -39,12 +39,12 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
 7. **Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It - Decrypt** — xAI News — Score 50
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQSXpmLTRvZy1lUm1ySWZqbG11MDl1LVlfaGprYWxld09nd01HNkxOVTlMSnhuUEhEcVRyQkl4Y3dxLWZZeURRc1dXTkI3TEotdGlwbEV0Q0NKbTc4MElCV0xkbWs1T3l3d0hwMElnYjlQQjg5MVR6QWx3ZkUtQlJWRXJVRVZBTkplaEZGRy1n?oc=5
-8. **Elon Musk predicts a future of abundance where, if you 'wish for a castle,' AI will build it for you - Business Insider** — Elon Musk AI News — Score 43
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpsOERsUHRzdVMxdnhieHVUbGxnTGV2ZmJXLUZQVVJpSkxDMU1qWm9SNTNKNEh6cTVyZVpGaHhIaEFOWXMySl9PZmJIYzZDczVzNTJiNWo0Q1lOUWNmZHZNMmYySjdJZzVnNjhvQ1pmUE5pNVpEbHRmV25Ua184SjdBUEt3TjJyR1k1VkllQk1STDZKV2JUUFNCMTZhamsyQ0FPZmZSNkY4WmtVaUNjQ2VLZw?oc=5
-9. **Disney has fought AI firms over copyright. Now it’s testing AI lyric videos** — mendocinobeacon — Score 43
-   https://www.mendocinobeacon.com/2026/11/09/disney-testing-ai-lyric-videos/
-10. **'Ram-Altman' Program Will Email OpenAI's CEO About Your Memory Usage - PCMag Middle East** — Sam Altman News — Score 43
+8. **Broadening access to AI for scientists** — OpenAI Blog — Score 48
+   https://openai.com/index/expanding-chatgpt-for-academic-researchers
+9. **'Ram-Altman' Program Will Email OpenAI's CEO About Your Memory Usage - PCMag Middle East** — Sam Altman News — Score 43
    https://news.google.com/rss/articles/CBMingFBVV95cUxNdGNMTDZDOTV1cnl1Nmtjcm1VQ2hEQlMwbjBnMXg3SnJNenhEQ19BSVp1T3RjZVE2VU9MTlRaRzc1Q1B0OFBZcF9CVmtnUWhwUEpUYlVMRlU2RUhrdVViODFGT3pQTXJ2QkF1RWowRVVESHpzZEN2M2pISDBCbWg4b2lVWDhrallITllmZ1o5ZEl2OEQ1M09Ed2Z6TUcwZw?oc=5
+10. **How Vail Resorts is using AI to manage employees across its 37 resorts in the U.S. and Canada - VailDaily.com** — Using AI To... — Score 43
+   https://news.google.com/rss/articles/CBMif0FVX3lxTE5wOHZPU1hfYno4enNTd3gzeHg2M1o3Z1JRdTRrWDV4SjZEZ3ZzWVplc0Z3SVVla1FNRk41VThHd0hXWWlWVWs5czVpRHFDRWZDWDB1eE9ib3RiRmxnZHFvLXFrRzhuVVpwTUZFSW54T0VLSXVEaWpqOTZCZlAzUW8?oc=5
 
 ## 🧪 AI in Science Highlights
 - **I’m Using AI to Try to Cure Cancer—and Save My Own Life - The Free Press** — https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTXEydWtqNGF2QS1TSzZHQjZacjh3bUxSUkV2WHlTT1phYUdhTW4tbjRJdE5JQU56Z1ZsWlpZRlo1WXRzeTZPcUl2LWx6TUFuWVY0ZGNtalJENkN5b2oxaG8yNjJxVEI2a0E?oc=5
@@ -54,7 +54,7 @@ All coverage: https://www.bostonglobe.com/2026/11/11/business/alice-huang-nvidia
 - **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2777
+- Total stories tracked: 2791
 - Most active topic: nvidia
 - Busiest category: AI General News
 
