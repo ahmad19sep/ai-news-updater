@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:53:45.277996+00:00",
+  "generated_at": "2026-11-16T06:35:49.665092+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,12 +9,39 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 21,
+      "hackernews": 15,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "All AI-generated code should be Open Source",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+          "signal": "All AI-generated code should be Open Source"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -44,84 +71,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx6x6r/chatgpt_impressions_anyone/",
+          "signal": "ChatGPT impressions, anyone?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxbcbm/whats_the_most_dystopian_way_youve_caught/",
+          "signal": "What’s the most dystopian way you’ve caught yourself using ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xwkynn/i_asked_chatgpt_to_imagine_my_exact_opposite_life/",
           "signal": "I asked ChatGPT to imagine my exact opposite life"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xw9xio/when_chatgpt_got_you_hired_at_the_faa_and_now_the/",
-          "signal": "When ChatGPT got you hired at the FAA and now the entire country is grounded"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxh21l/chatgpt_plus_major_regression_last_two_weeks/",
+          "signal": "ChatGPT Plus major regression last two weeks"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xwds1h/i_gave_chatgpt_and_claude_one_island_for_100/",
-          "signal": "I gave ChatGPT and Claude one island for 100 years. At year 55, Claude chose this."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx30dg/why_does_chatgpt_need_to_know_when_i_take_a/",
-          "signal": "Why does chatgpt need to know when I take a screenshot?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xwmhjd/what_apps_have_you_replaced_with_chatgpt/",
-          "signal": "What apps have you replaced with chatgpt?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nvidia allegedly engineered scarcity by funding AI startups to buy its",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-          "signal": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "All AI-generated code should be Open Source",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-          "signal": "All AI-generated code should be Open Source"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxdere/seems_like_chatgpt_has_trouble_generating_images/",
+          "signal": "Seems like ChatGPT has trouble generating images with the POV looking up: inspired by the novel War of the Worlds"
         }
       ],
       "content_ideas": []
@@ -154,109 +125,6 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://claude.com/resources/articles/projects-redesigned",
-          "signal": "Anthropic upgrades Claude Code Projects to run parallel AI workers"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
-          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
-          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Live airband on all frequencies from KORS. Victoria, CA also ground st",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://orcasairband.com/",
-          "signal": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "No AI Slop: A Manifesto",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.slopmanifesto.com/",
-          "signal": "No AI Slop: A Manifesto"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Qwen",
       "category": "tool_launch",
       "momentum": "hot",
@@ -269,7 +137,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -277,18 +145,19 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://unsloth.ai/docs/models/qwen3.8",
-          "signal": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update"
+          "url": "https://qwen.ai/blog?id=qwen4-max",
+          "signal": "Qwen4-Max"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "All US airports are currently ground stopped",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -298,14 +167,29 @@
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://twitter.com/flightradar24/status/2121347654714077605",
-          "signal": "All US airports are currently ground stopped"
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HD02f3-3c7E",
+          "signal": "The 6 NEW Claude Features to Get You Ahead of 99% in 2027"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
+          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
         }
       ],
       "content_ideas": []
@@ -338,8 +222,36 @@
       "content_ideas": []
     },
     {
-      "name": "Perplexity",
-      "category": "tool_launch",
+      "name": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half o",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.hntrends.com/2026/november.html",
+          "signal": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The Single Router in Southern Arkansas That Ground Air Travel to a Hal",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -352,14 +264,14 @@
       "best_format": "short",
       "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-          "signal": "Perplexity Decider v1.3: Training, eval, and use cases"
+          "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+          "signal": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt"
         }
       ],
       "content_ideas": []
@@ -390,12 +302,10 @@
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
-      "name": "Perplexity",
-      "category": "tool_launch",
+      "name": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS ",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -408,18 +318,74 @@
       "best_format": "short",
       "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-          "signal": "Perplexity Decider v1.3: Training, eval, and use cases"
+          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+          "signal": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "Parents pay $75k for Alpha's AI school. Half of its students missed ma",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+          "signal": "Parents pay $75k for Alpha's AI school. Half of its students missed math target"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Jensen Huang allegedly manufactured the GPU shortage",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+          "signal": "Jensen Huang allegedly manufactured the GPU shortage"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -449,77 +415,28 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx6x6r/chatgpt_impressions_anyone/",
+          "signal": "ChatGPT impressions, anyone?"
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxbcbm/whats_the_most_dystopian_way_youve_caught/",
+          "signal": "What’s the most dystopian way you’ve caught yourself using ChatGPT?"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xwkynn/i_asked_chatgpt_to_imagine_my_exact_opposite_life/",
           "signal": "I asked ChatGPT to imagine my exact opposite life"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xw9xio/when_chatgpt_got_you_hired_at_the_faa_and_now_the/",
-          "signal": "When ChatGPT got you hired at the FAA and now the entire country is grounded"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxh21l/chatgpt_plus_major_regression_last_two_weeks/",
+          "signal": "ChatGPT Plus major regression last two weeks"
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xwds1h/i_gave_chatgpt_and_claude_one_island_for_100/",
-          "signal": "I gave ChatGPT and Claude one island for 100 years. At year 55, Claude chose this."
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx30dg/why_does_chatgpt_need_to_know_when_i_take_a/",
-          "signal": "Why does chatgpt need to know when I take a screenshot?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xwmhjd/what_apps_have_you_replaced_with_chatgpt/",
-          "signal": "What apps have you replaced with chatgpt?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://claude.com/resources/articles/projects-redesigned",
-          "signal": "Anthropic upgrades Claude Code Projects to run parallel AI workers"
-        },
-        {
-          "platform": "hackernews",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-fgNFJCQZGk",
-          "signal": "How to Make Viral Stickman Animated Shorts Using FREE AI TOOLS (NO CLAUDE CODE)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
-          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
-          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxdere/seems_like_chatgpt_has_trouble_generating_images/",
+          "signal": "Seems like ChatGPT has trouble generating images with the POV looking up: inspired by the novel War of the Worlds"
         }
       ],
       "content_ideas": []
@@ -537,7 +454,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -545,13 +462,69 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://unsloth.ai/docs/models/qwen3.8",
-          "signal": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update"
+          "url": "https://qwen.ai/blog?id=qwen4-max",
+          "signal": "Qwen4-Max"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+          "signal": "Claude asked to renumber pages deletes professor's syllabus, year of notes"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HD02f3-3c7E",
+          "signal": "The 6 NEW Claude Features to Get You Ahead of 99% in 2027"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pM3quubXvpA",
+          "signal": "Claude Fable 5.2 Just Vibe Coded Windows?"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=501Qx_z44Ho",
+          "signal": "Build ANY Faceless YouTube Channel with Claude (Free Automation)"
         }
       ],
       "content_ideas": []
     }
   ],
-  "pain_points": [],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "pain_points": [
+    {
+      "problem": "Please fix what is broken and stop fixing what isnt?",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxef30/please_fix_what_is_broken_and_stop_fixing_what/"
+        }
+      ],
+      "content_opportunity": ""
+    }
+  ],
+  "tool_of_week_candidate": "All AI-generated code should be Open Source — strongest signal this cycle"
 }
