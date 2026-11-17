@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 09 Nov 2026 to 16 Nov 2026
+# 🗞️ AI THIS WEEK — 10 Nov 2026 to 17 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine**
@@ -49,12 +49,12 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
 ## 🧪 AI in Science Highlights
 - **I’m Using AI to Try to Cure Cancer—and Save My Own Life - The Free Press** — https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTXEydWtqNGF2QS1TSzZHQjZacjh3bUxSUkV2WHlTT1phYUdhTW4tbjRJdE5JQU56Z1ZsWlpZRlo1WXRzeTZPcUl2LWx6TUFuWVY0ZGNtalJENkN5b2oxaG8yNjJxVEI2a0E?oc=5
 - **Patients More Comfortable Than Doctors With AI-Driven Healthcare Decisions, Survey Finds - U.S. News & World Report** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5
-- **AI discovers a hidden heart signal that could predict sudden death - Science Daily** — https://news.google.com/rss/articles/CBMibkFVX3lxTE9GMWxBeEhtR2JhRG1PRkhad0NBbGNkT18tbTZIYVRFdkdHYm1HN3BRTGE4anpTRlljek1tNUliM0Zwc0NfSi04Z1J2Sk51Nm9vSF9IMm1aWGs0bERDY3I3ejZ0ekpiaHBNYWFxSDJB?oc=5
 - **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
 - **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
+- **AI discovers a hidden heart signal that could predict sudden death - Science Daily** — https://news.google.com/rss/articles/CBMibkFVX3lxTE9GMWxBeEhtR2JhRG1PRkhad0NBbGNkT18tbTZIYVRFdkdHYm1HN3BRTGE4anpTRlljek1tNUliM0Zwc0NfSi04Z1J2Sk51Nm9vSF9IMm1aWGs0bERDY3I3ejZ0ekpiaHBNYWFxSDJB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2791
+- Total stories tracked: 2814
 - Most active topic: nvidia
 - Busiest category: AI General News
 
