@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:08:39.862296+00:00",
+  "generated_at": "2026-11-17T07:58:37.541283+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -9,12 +9,39 @@
     ],
     "signal_counts": {
       "reddit": 25,
-      "hackernews": 17,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "All AI-generated code should be Open Source",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+          "signal": "All AI-generated code should be Open Source"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -44,6 +71,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xy2f4g/i_asked_chatgpt_to_forward_invoices_instead_it/",
+          "signal": "I asked ChatGPT to forward invoices. Instead, it independently discovered a data privacy breach that had gone unnoticed for two years."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xy8ng1/after_2_years_of_using_chatgpt_im_finding_myself/",
+          "signal": "After 2 years of using ChatGPT I’m finding myself rarely actually chatting with it these days and I suspect it might be the thing the mass users will slowly catching on"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xy14yn/i_gave_chatgpt_and_claude_rival_pizza_shops_they/",
           "signal": "I gave ChatGPT and Claude rival pizza shops. They both bought fake reviews"
         },
@@ -54,45 +91,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx6x6r/chatgpt_impressions_anyone/",
-          "signal": "ChatGPT impressions, anyone?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxqijg/chatgpt_has_become_that_friend_who_cant_let_you/",
-          "signal": "ChatGPT has become that friend who can't let you finish a sentence without a \"well, actually\""
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxysqp/chatgpt_has_no_backbone_it_just_agrees_with/",
-          "signal": "ChatGPT has no backbone. It just agrees with whoever challenges it last."
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "All AI-generated code should be Open Source",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-          "signal": "All AI-generated code should be Open Source"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xyd90f/what_is_this_creepy_message_fom_my_chatgpt/",
+          "signal": "What is this creepy message fom my ChatGPT?"
         }
       ],
       "content_ideas": []
@@ -125,7 +125,7 @@
       "content_ideas": []
     },
     {
-      "name": "Court denies motion to dismiss DRAM price fixing case",
+      "name": "United Airlines experiencing a widespread system outage, airline says",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -137,7 +137,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -145,8 +145,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-          "signal": "Court denies motion to dismiss DRAM price fixing case"
+          "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+          "signal": "United Airlines experiencing a widespread system outage, airline says"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenCode Browse",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://opencode.ai/product/browse",
+          "signal": "OpenCode Browse"
         }
       ],
       "content_ideas": []
@@ -179,6 +206,55 @@
       "content_ideas": []
     },
     {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
+          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
+          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
+          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half o",
       "category": "use_case",
       "momentum": "rising",
@@ -192,7 +268,7 @@
       "local_relevance": 4,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -202,33 +278,6 @@
           "platform": "hackernews",
           "url": "https://www.hntrends.com/2026/november.html",
           "signal": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The Single Router in Southern Arkansas That Ground Air Travel to a Hal",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-          "signal": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt"
         }
       ],
       "content_ideas": []
@@ -288,6 +337,33 @@
       "content_ideas": []
     },
     {
+      "name": "How Billions in Safe Insurance Money Is Being Bet on A.I. Debt",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
+          "signal": "How Billions in Safe Insurance Money Is Being Bet on A.I. Debt"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Jensen Huang allegedly manufactured the GPU shortage",
       "category": "use_case",
       "momentum": "rising",
@@ -310,72 +386,6 @@
           "platform": "hackernews",
           "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
           "signal": "Jensen Huang allegedly manufactured the GPU shortage"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50520076",
-          "signal": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
-          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
-          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
-          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
         }
       ],
       "content_ideas": []
@@ -438,6 +448,16 @@
         },
         {
           "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xy2f4g/i_asked_chatgpt_to_forward_invoices_instead_it/",
+          "signal": "I asked ChatGPT to forward invoices. Instead, it independently discovered a data privacy breach that had gone unnoticed for two years."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xy8ng1/after_2_years_of_using_chatgpt_im_finding_myself/",
+          "signal": "After 2 years of using ChatGPT I’m finding myself rarely actually chatting with it these days and I suspect it might be the thing the mass users will slowly catching on"
+        },
+        {
+          "platform": "reddit",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1xy14yn/i_gave_chatgpt_and_claude_rival_pizza_shops_they/",
           "signal": "I gave ChatGPT and Claude rival pizza shops. They both bought fake reviews"
         },
@@ -448,18 +468,8 @@
         },
         {
           "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xx6x6r/chatgpt_impressions_anyone/",
-          "signal": "ChatGPT impressions, anyone?"
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxqijg/chatgpt_has_become_that_friend_who_cant_let_you/",
-          "signal": "ChatGPT has become that friend who can't let you finish a sentence without a \"well, actually\""
-        },
-        {
-          "platform": "reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1xxysqp/chatgpt_has_no_backbone_it_just_agrees_with/",
-          "signal": "ChatGPT has no backbone. It just agrees with whoever challenges it last."
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xyd90f/what_is_this_creepy_message_fom_my_chatgpt/",
+          "signal": "What is this creepy message fom my ChatGPT?"
         }
       ],
       "content_ideas": []
@@ -479,7 +489,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 3,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -489,6 +499,16 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
           "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
+          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
         },
         {
           "platform": "youtube",
@@ -506,6 +526,18 @@
   ],
   "pain_points": [
     {
+      "problem": "“You don't have to earn the right to relax, by solving every problem first”",
+      "who_affected": "r/ChatGPT",
+      "signal_strength": 3,
+      "sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1xye9tn/you_dont_have_to_earn_the_right_to_relax_by/"
+        }
+      ],
+      "content_opportunity": ""
+    },
+    {
       "problem": "ChatGPT has become that friend who can't let you finish a sentence without a \"well, actually\"",
       "who_affected": "r/ChatGPT",
       "signal_strength": 3,
@@ -518,5 +550,5 @@
       "content_opportunity": ""
     }
   ],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "All AI-generated code should be Open Source — strongest signal this cycle"
 }
