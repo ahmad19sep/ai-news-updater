@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:58:27.521932+00:00",
+  "generated_at": "2026-11-18T07:34:18.045259+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,39 +7,12 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 26,
+      "hackernews": 29,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen4-max",
-          "signal": "Qwen4-Max"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -71,23 +44,50 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TI-Izjay-6I",
+          "signal": "ChatGPT Secretly Released New Settings &amp; Features That Change Everything 🤯"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qnjRiMFnOqw",
+          "signal": "This NEW ChatGPT Update Is a GAME CHANGER! 🤯"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
+          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=cehr9LOrL1M",
           "signal": "ChatGPT Forgot It Had Pieces 😔✌️"
-        },
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google's AI answers reducing search traffic by 40%",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pVuX7Cw0dy0",
-          "signal": "“Ai will take over the world” chatgpt: #gothamchess #chatgpt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LM7hO3gUjM8",
-          "signal": "ChatGPT не самый лучший адвокат, оказывается"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-UASWTU0Z50",
-          "signal": "🔥  FREE COURSES 2026 😱 | Learn ChatGPT, AI, Content Creation &amp; More | Free Certificates 🎓 #shorts"
+          "platform": "hackernews",
+          "url": "https://revscope.co/blog/search-seo-geo-2026/",
+          "signal": "Google's AI answers reducing search traffic by 40%"
         }
       ],
       "content_ideas": []
@@ -95,7 +95,7 @@
     {
       "name": "OpenCode Browse",
       "category": "use_case",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -120,6 +120,33 @@
       "content_ideas": []
     },
     {
+      "name": "MAI Code 2 and Code 2 Flash",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "signal": "MAI Code 2 and Code 2 Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
       "category": "use_case",
       "momentum": "rising",
@@ -132,7 +159,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -174,7 +201,7 @@
       "content_ideas": []
     },
     {
-      "name": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS ",
+      "name": "Harvard researchers find AI coding agents shifted the bottleneck to co",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -186,7 +213,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -194,109 +221,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-          "signal": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "MAI Code 2 and Code 2 Flash",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-          "signal": "MAI Code 2 and Code 2 Flash"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
-          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
-          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
-          "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
-          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
-          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Mem Is Shutting Down",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://get.mem.ai/blog/mem-is-shutting-down",
-          "signal": "Mem Is Shutting Down"
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+          "signal": "Harvard researchers find AI coding agents shifted the bottleneck to code review"
         }
       ],
       "content_ideas": []
@@ -329,83 +255,8 @@
       "content_ideas": []
     },
     {
-      "name": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half o",
+      "name": "Mem Is Shutting Down",
       "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.hntrends.com/2026/november.html",
-          "signal": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=aASBP7ju9Xg",
-          "signal": "Introducing Claude Suite"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gu9lO8oqGYU",
-          "signal": "I Made VIRAL 3D Animation Videos Using ONLY Claude AI (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
-          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
-          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
-        }
-      ],
-      "content_ideas": []
-    }
-  ],
-  "rising_tools": [
-    {
-      "name": "Qwen",
-      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -416,20 +267,103 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://qwen.ai/blog?id=qwen4-max",
-          "signal": "Qwen4-Max"
+          "url": "https://get.mem.ai/blog/mem-is-shutting-down",
+          "signal": "Mem Is Shutting Down"
         }
       ],
       "content_ideas": []
     },
+    {
+      "name": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-202",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+          "signal": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Human.md",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.human-md.ai/",
+          "signal": "Human.md"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "S. Korea to send nationwide emergency alerts over college entrance exa",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e",
+          "signal": "S. Korea to send nationwide emergency alerts over college entrance exam cheating"
+        }
+      ],
+      "content_ideas": []
+    }
+  ],
+  "rising_tools": [
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -461,120 +395,28 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TI-Izjay-6I",
+          "signal": "ChatGPT Secretly Released New Settings &amp; Features That Change Everything 🤯"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qnjRiMFnOqw",
+          "signal": "This NEW ChatGPT Update Is a GAME CHANGER! 🤯"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
+          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=cehr9LOrL1M",
           "signal": "ChatGPT Forgot It Had Pieces 😔✌️"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=pVuX7Cw0dy0",
-          "signal": "“Ai will take over the world” chatgpt: #gothamchess #chatgpt"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LM7hO3gUjM8",
-          "signal": "ChatGPT не самый лучший адвокат, оказывается"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-UASWTU0Z50",
-          "signal": "🔥  FREE COURSES 2026 😱 | Learn ChatGPT, AI, Content Creation &amp; More | Free Certificates 🎓 #shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
-          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
-          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
-          "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
-          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
-          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=aASBP7ju9Xg",
-          "signal": "Introducing Claude Suite"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gu9lO8oqGYU",
-          "signal": "I Made VIRAL 3D Animation Videos Using ONLY Claude AI (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
-          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
-          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Qwen — strongest signal this cycle"
+  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
 }
