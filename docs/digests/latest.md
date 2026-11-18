@@ -21,8 +21,8 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://www.sciencedaily.com/releases/2026/11/261115085557.htm
 7. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
    https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-8. **MDCalc launches a ‘rumble strip’ for doctors using generative AI tools - STAT** — science angle
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxNRHJfV25zeWFJN2NIVkUwOGRCNXhUQW9abjFNWm5XSkpqeGt2MDJRMTVMM0RKSUp6czFpWGJMNlIxRnhNckZJdVhMeFRCbGN5Z1AtMlJmalBMVEpYRDV5Z0hCUV8takU3S0VqVGJpRURnX21QTVVja0pMQVNTN0std2czSm5BNGtQdGpudjFyT1V6YTcxOS1FYlMyWHRDU0VpNW1v?oc=5
+8. **DeepMind's ultra-powerful AI for genome mapping wows scientists** — science angle
+   https://www.nature.com/articles/d41586-026-03673-0
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine** — AI Agents — Score 73
@@ -33,16 +33,16 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://openai.com/index/introducing-gpt-6-2-astra-sol/
 4. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVdvLUhoT29QcVBSQUxfMVdmMWV6Sll2YVo3OUZCY0tXVzJOelhSVS1nNmRpVHNkdFVmM0hVYVpVN0ZQdVNuSG9WRTIxREVnU2ItaFVfYWt6bG91Q2ZrQ250UHRXd2RMSHEteDVENFFHbEd5elZ0ZjF6b0FWTVZYWHlXalYtM2tUWDhQZlNR?oc=5
-5. **OpenAI's Altman Acknowledges Public Anger Over Data Centers - Barron's** — Sam Altman News — Score 56
-   https://news.google.com/rss/articles/CBMingFBVV95cUxPLXBTOFc4NUcyZWMxcHltNnR4eDN2YkFHRFdRUFJHU0dNOUFSM2VQOUNPSGFvODB2amtmSHlnYjdCOWhZV19HS2NFVHVvNDZPUVFPSTlIY0t3X0duOHJiRHVTTG5raEhxWENlaHFHa1QwUk9jamFrTFgzNkxKSEhIUWJISDIxaUVmWVR5RnMyZEZaNlN6YzhLYVMwbGxOQQ?oc=5
+5. **OpenAI announces new AI safety program; researchers worry it won't be enough - NPR** — Sam Altman News — Score 56
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxOc1d5aEV0bFYyUUtaMjZyV0owZ2s5MmxET0dPUkhDeEZxRks3YUxtQktDZjlpb1ZlWlVBUWIxdm1hQmFjUlNvaWl6ek1ucDMtYl9QSWM0amRRVFQ2V2s2OXp3c1RZZkUwR1VPLV9CaW5MR1J0NkRib1RGZXRDQnpNMm1QSkphdWpEMmxsZTBCV2Q?oc=5
 6. **Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News** — Jensen Huang News — Score 53
    https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5
 7. **Don’t throw the AI baby out with the AI data center bathwater - Orange County Register** — AI in Coding — Score 53
    https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlUalF6d3hqVWZ0RGdJT01mOVNmTzJzaGdEV0QzZmtIUEl2TGd0dW5PYTVjWnNLSW5ybzlGOU14MGpZRXRncERxRURiX1ZtZS14dzRUYk1YaDZmQlZlRHRFWFA5elZjTnVZODdRZ0tVNHJoN2EtVTlmMFJwYkhhUVJTUnhmcl9GS05uNXZTRmtVQ2o0QTEzdW1RdDBHbDdE?oc=5
-8. **EXCLUSIVE: Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs - Reuters** — Jensen Huang News — Score 52
+8. **OpenAI's Altman Acknowledges Public Anger Over Data Centers - Barron's** — Sam Altman News — Score 53
+   https://news.google.com/rss/articles/CBMingFBVV95cUxPLXBTOFc4NUcyZWMxcHltNnR4eDN2YkFHRFdRUFJHU0dNOUFSM2VQOUNPSGFvODB2amtmSHlnYjdCOWhZV19HS2NFVHVvNDZPUVFPSTlIY0t3X0duOHJiRHVTTG5raEhxWENlaHFHa1QwUk9jamFrTFgzNkxKSEhIUWJISDIxaUVmWVR5RnMyZEZaNlN6YzhLYVMwbGxOQQ?oc=5
+9. **EXCLUSIVE: Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs - Reuters** — Jensen Huang News — Score 52
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
-9. **Broadening access to AI for scientists** — OpenAI Blog — Score 48
-   https://openai.com/index/expanding-chatgpt-for-academic-researchers
 10. **AI is killing All About Berlin** — Hacker News AI — Score 46.8
    https://nicolasbouliane.com/blog/death-by-ai
 
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
 - **Scientists tracked kids for 8 years. What they found about screen time was surprising** — https://www.sciencedaily.com/releases/2026/11/261116014725.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2891
+- Total stories tracked: 2939
 - Most active topic: nvidia
 - Busiest category: AI General News
 
