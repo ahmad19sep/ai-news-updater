@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:34:18.045259+00:00",
+  "generated_at": "2026-11-18T20:35:52.097172+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,18 +7,18 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 29,
+      "hackernews": 35,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "AI is killing All About Berlin",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -28,39 +28,14 @@
       "best_format": "short",
       "video_worthy": 10,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=j-a62MkHREM",
-          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
-          "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TI-Izjay-6I",
-          "signal": "ChatGPT Secretly Released New Settings &amp; Features That Change Everything 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qnjRiMFnOqw",
-          "signal": "This NEW ChatGPT Update Is a GAME CHANGER! 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
-          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=cehr9LOrL1M",
-          "signal": "ChatGPT Forgot It Had Pieces 😔✌️"
+          "platform": "hackernews",
+          "url": "https://nicolasbouliane.com/blog/death-by-ai",
+          "signal": "AI is killing All About Berlin"
         }
       ],
       "content_ideas": []
@@ -93,9 +68,64 @@
       "content_ideas": []
     },
     {
-      "name": "OpenCode Browse",
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cehr9LOrL1M",
+          "signal": "ChatGPT Forgot It Had Pieces 😔✌️"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
+          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KnbU1ddnxAk",
+          "signal": "Try Not to Laugh Challenge 93 🤣 | ChatGPT Gone wrong 86 | #funny #viral #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qtfqlrws_Kg",
+          "signal": "ChatGPT&#39;s CEO Says The Demand Was Double Counted"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-UASWTU0Z50",
+          "signal": "🔥  FREE COURSES 2026 😱 | Learn ChatGPT, AI, Content Creation &amp; More | Free Certificates 🎓 #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2pr1cXxRsXM",
+          "signal": "How to Make Mythology Animation Videos with AI (ChatGPT + Claude)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Harvard researchers find AI coding agents shifted the bottleneck to co",
       "category": "use_case",
-      "momentum": "hot",
+      "momentum": "rising",
       "platforms": [
         "hackernews"
       ],
@@ -113,8 +143,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://opencode.ai/product/browse",
-          "signal": "OpenCode Browse"
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+          "signal": "Harvard researchers find AI coding agents shifted the bottleneck to code review"
         }
       ],
       "content_ideas": []
@@ -142,6 +172,60 @@
           "platform": "hackernews",
           "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
           "signal": "MAI Code 2 and Code 2 Flash"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "OpenCode Browse",
+      "category": "use_case",
+      "momentum": "hot",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://opencode.ai/product/browse",
+          "signal": "OpenCode Browse"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Seven new models at scalable price-performance",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "signal": "Seven new models at scalable price-performance"
         }
       ],
       "content_ideas": []
@@ -201,34 +285,61 @@
       "content_ideas": []
     },
     {
-      "name": "Harvard researchers find AI coding agents shifted the bottleneck to co",
-      "category": "use_case",
+      "name": "Gemini",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 8,
+      "best_format": "reel",
+      "video_worthy": 7,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
-          "signal": "Harvard researchers find AI coding agents shifted the bottleneck to code review"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
+          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
+          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
+          "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2imEgVWkeoA",
+          "signal": "Gemini 4 Hydrogen: Google&#39;s New Everyday Model"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
+      "name": "AI agents ask better questions than KPMG accountants in audit trial",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -240,7 +351,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -248,8 +359,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50520076",
-          "signal": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?"
+          "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+          "signal": "AI agents ask better questions than KPMG accountants in audit trial"
         }
       ],
       "content_ideas": []
@@ -280,95 +391,16 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-202",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
-          "signal": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Human.md",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.human-md.ai/",
-          "signal": "Human.md"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "S. Korea to send nationwide emergency alerts over college entrance exa",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e",
-          "signal": "S. Korea to send nationwide emergency alerts over college entrance exam cheating"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "Chatgpt",
+      "name": "Gemini",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "rising",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -376,7 +408,62 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
+          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
+          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
+          "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2imEgVWkeoA",
+          "signal": "Gemini 4 Hydrogen: Google&#39;s New Everyday Model"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Chatgpt",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -385,38 +472,38 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=j-a62MkHREM",
-          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ux_F6yAqLGc",
-          "signal": "🤖 Flavita Got into Trouble Because of ChatGPT! 😱😂"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TI-Izjay-6I",
-          "signal": "ChatGPT Secretly Released New Settings &amp; Features That Change Everything 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qnjRiMFnOqw",
-          "signal": "This NEW ChatGPT Update Is a GAME CHANGER! 🤯"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vMvkR8WEOpE",
-          "signal": "ChatGPT Just Changed A LOT AGAIN (Here’s What’s New)"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=cehr9LOrL1M",
           "signal": "ChatGPT Forgot It Had Pieces 😔✌️"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
+          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KnbU1ddnxAk",
+          "signal": "Try Not to Laugh Challenge 93 🤣 | ChatGPT Gone wrong 86 | #funny #viral #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qtfqlrws_Kg",
+          "signal": "ChatGPT&#39;s CEO Says The Demand Was Double Counted"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-UASWTU0Z50",
+          "signal": "🔥  FREE COURSES 2026 😱 | Learn ChatGPT, AI, Content Creation &amp; More | Free Certificates 🎓 #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2pr1cXxRsXM",
+          "signal": "How to Make Mythology Animation Videos with AI (ChatGPT + Claude)"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "AI is killing All About Berlin — strongest signal this cycle"
 }
