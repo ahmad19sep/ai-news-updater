@@ -13,21 +13,21 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
 3. **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — science angle
    https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-4. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
+4. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
+   https://www.nature.com/articles/d41586-026-03775-9
+5. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
    https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-5. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
+6. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
-6. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
+7. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
    https://www.sciencedaily.com/releases/2026/11/261116014725.htm
-7. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
+8. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
    https://www.sciencedaily.com/releases/2026/11/261115085557.htm
-8. **Parents pay $75k for Alpha's AI school. Half of its students missed math target** — 52 upvotes on Reddit/HN
-   https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine** — AI Agents — Score 73
    https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZIdi01UEZUT0RXRWJ5aTJjZDVxMW52MkJjdVprU04wcDFFX2RKTldQc1V5ZzF3cG9QRnVBR0d6NWVqX1NkUGFUYUpDOE5vTnIzbVZqRVZYQ01RMVI3RmNrWTJ0dDRRaTNBclF4Q0Nydm13a1JCSWtkWGtTM0FJQlNfR0Q4VjRVcDBRcGtPLTBn?oc=5
-2. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 63.9
+2. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 60.9
    https://openai.com/index/introducing-gpt-6-2-astra-sol/
 3. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVdvLUhoT29QcVBSQUxfMVdmMWV6Sll2YVo3OUZCY0tXVzJOelhSVS1nNmRpVHNkdFVmM0hVYVpVN0ZQdVNuSG9WRTIxREVnU2ItaFVfYWt6bG91Q2ZrQ250UHRXd2RMSHEteDVENFFHbEd5elZ0ZjF6b0FWTVZYWHlXalYtM2tUWDhQZlNR?oc=5
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
 - **Patients More Comfortable Than Doctors With AI-Driven Healthcare Decisions, Survey Finds - U.S. News & World Report** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5
 - **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
 - **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
+- **AI is turbocharging cyberattacks — can computer scientists catch up?** — https://www.nature.com/articles/d41586-026-03775-9
 - **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-- **AI discovers a hidden heart signal that could predict sudden death - Science Daily** — https://news.google.com/rss/articles/CBMibkFVX3lxTE9GMWxBeEhtR2JhRG1PRkhad0NBbGNkT18tbTZIYVRFdkdHYm1HN3BRTGE4anpTRlljek1tNUliM0Zwc0NfSi04Z1J2Sk51Nm9vSF9IMm1aWGs0bERDY3I3ejZ0ekpiaHBNYWFxSDJB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2979
+- Total stories tracked: 2995
 - Most active topic: nvidia
 - Busiest category: AI General News
 
