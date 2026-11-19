@@ -13,12 +13,12 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
 3. **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — science angle
    https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-4. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
-   https://www.sciencedaily.com/releases/2026/11/261116014725.htm
-5. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
+4. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
    https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-6. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
+5. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
+6. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
+   https://www.sciencedaily.com/releases/2026/11/261116014725.htm
 7. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
    https://www.sciencedaily.com/releases/2026/11/261115085557.htm
 8. **Parents pay $75k for Alpha's AI school. Half of its students missed math target** — 52 upvotes on Reddit/HN
@@ -39,8 +39,8 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlUalF6d3hqVWZ0RGdJT01mOVNmTzJzaGdEV0QzZmtIUEl2TGd0dW5PYTVjWnNLSW5ybzlGOU14MGpZRXRncERxRURiX1ZtZS14dzRUYk1YaDZmQlZlRHRFWFA5elZjTnVZODdRZ0tVNHJoN2EtVTlmMFJwYkhhUVJTUnhmcl9GS05uNXZTRmtVQ2o0QTEzdW1RdDBHbDdE?oc=5
 7. **OpenAI's Altman Acknowledges Public Anger Over Data Centers - Barron's** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMingFBVV95cUxPLXBTOFc4NUcyZWMxcHltNnR4eDN2YkFHRFdRUFJHU0dNOUFSM2VQOUNPSGFvODB2amtmSHlnYjdCOWhZV19HS2NFVHVvNDZPUVFPSTlIY0t3X0duOHJiRHVTTG5raEhxWENlaHFHa1QwUk9jamFrTFgzNkxKSEhIUWJISDIxaUVmWVR5RnMyZEZaNlN6YzhLYVMwbGxOQQ?oc=5
-8. **EXCLUSIVE: Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs - Reuters** — Jensen Huang News — Score 52
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5
+8. **Deutsche Telekom’s Tech Fund Invests $110 Million in Mistral AI - WSJ** — Mistral News — Score 53
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxOSW9wWnlNbENyd0dVQ1dBUUxZTEsycU1KcG1Eb0w4UDhkR21DUWEyTTdCbnJUdXNWcmExTExtLWdBbWZPb1hyb29kNzhlYXVHaEx0ZGlseGcwbGliTGF4V29fSXJTTUdVemRTZmJNY0xVazZOT2hpdEZoR1duRmJwcGtPbUw4Q19lZWlpSlg0M0NfOTZCcHVCbURCN3FreGNF?oc=5
 9. **AI is killing All About Berlin** — Hacker News AI — Score 46.8
    https://nicolasbouliane.com/blog/death-by-ai
 10. **Broadening access to AI for scientists** — OpenAI Blog — Score 45
@@ -50,11 +50,11 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
 - **Patients More Comfortable Than Doctors With AI-Driven Healthcare Decisions, Survey Finds - U.S. News & World Report** — https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5
 - **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
 - **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-- **Scientists tracked kids for 8 years. What they found about screen time was surprising** — https://www.sciencedaily.com/releases/2026/11/261116014725.htm
 - **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
+- **AI discovers a hidden heart signal that could predict sudden death - Science Daily** — https://news.google.com/rss/articles/CBMibkFVX3lxTE9GMWxBeEhtR2JhRG1PRkhad0NBbGNkT18tbTZIYVRFdkdHYm1HN3BRTGE4anpTRlljek1tNUliM0Zwc0NfSi04Z1J2Sk51Nm9vSF9IMm1aWGs0bERDY3I3ejZ0ekpiaHBNYWFxSDJB?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2854
+- Total stories tracked: 2979
 - Most active topic: nvidia
 - Busiest category: AI General News
 
