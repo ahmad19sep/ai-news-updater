@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:30:14.533352+00:00",
+  "generated_at": "2026-11-19T20:41:09.035216+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 37,
+      "hackernews": 40,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,9 +18,7 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -28,7 +26,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -47,23 +45,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
-          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
-          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
-          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
           "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
+          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
         }
       ],
       "content_ideas": []
@@ -91,6 +84,33 @@
           "platform": "hackernews",
           "url": "https://nicolasbouliane.com/blog/death-by-ai",
           "signal": "AI is killing All About Berlin"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Anthropic hits $2T in Nasdaq debut",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+          "signal": "Anthropic hits $2T in Nasdaq debut"
         }
       ],
       "content_ideas": []
@@ -127,6 +147,8 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -135,7 +157,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -149,8 +171,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=IRihzwyms94",
-          "signal": "ChatGPT, faça uma coxinha"
+          "url": "https://www.youtube.com/watch?v=nkUp4V_ewDM",
+          "signal": "#chatgpt #funny #relatable #teacher #students #viralvideos #reality #comedy #comedyshorts #viral"
         },
         {
           "platform": "youtube",
@@ -164,13 +186,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QFY0yeAUOJ8",
-          "signal": "Can ChatGPT Predict My Exam Questions? 😱📚 #shorts"
+          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
+          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20astro",
-          "signal": "chatgpt astro"
+          "url": "https://www.youtube.com/watch?v=qtfqlrws_Kg",
+          "signal": "ChatGPT&#39;s CEO Says The Demand Was Double Counted"
         }
       ],
       "content_ideas": []
@@ -257,61 +279,34 @@
       "content_ideas": []
     },
     {
-      "name": "MAI Code 2 and Code 2 Flash",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-          "signal": "MAI Code 2 and Code 2 Flash"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-          "signal": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Genie 4 is now available",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "signal": "Genie 4 is now available"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Fuck Your AI Safeguards",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -331,14 +326,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-          "signal": "Genie 4 is now available"
+          "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+          "signal": "Fuck Your AI Safeguards"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic ",
+      "name": "Pete warden on local AI, open models, voice interfaces, the future of ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -350,7 +345,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -358,14 +353,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-          "signal": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety"
+          "url": "https://thedataexchange.media/pete-warden-moonshine/",
+          "signal": "Pete warden on local AI, open models, voice interfaces, the future of hardware"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Tencent Hy4 Flash",
+      "name": "The AI Superintelligence Debate Has Serious Flaws",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -377,7 +372,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -385,8 +380,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://hy.tencent.ai/research/hy4-flash",
-          "signal": "Tencent Hy4 Flash"
+          "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+          "signal": "The AI Superintelligence Debate Has Serious Flaws"
         }
       ],
       "content_ideas": []
@@ -398,9 +393,7 @@
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
         "hackernews",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -408,7 +401,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -427,23 +420,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=sOXVaij1jxc",
-          "signal": "📸 Step-by-Step AI Photo Retouching: Gemini Tools &amp; Color Grading 💫"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Ig3IGP4siAI",
-          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vXLB2ZtCNSM",
-          "signal": "99% Fail This Hotel Riddle - Even AI Gave Up 🤯💀 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
           "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
+          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
         }
       ],
       "content_ideas": []
@@ -453,6 +441,8 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -461,7 +451,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -475,8 +465,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=IRihzwyms94",
-          "signal": "ChatGPT, faça uma coxinha"
+          "url": "https://www.youtube.com/watch?v=nkUp4V_ewDM",
+          "signal": "#chatgpt #funny #relatable #teacher #students #viralvideos #reality #comedy #comedyshorts #viral"
         },
         {
           "platform": "youtube",
@@ -490,13 +480,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=QFY0yeAUOJ8",
-          "signal": "Can ChatGPT Predict My Exam Questions? 😱📚 #shorts"
+          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
+          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20astro",
-          "signal": "chatgpt astro"
+          "url": "https://www.youtube.com/watch?v=qtfqlrws_Kg",
+          "signal": "ChatGPT&#39;s CEO Says The Demand Was Double Counted"
         }
       ],
       "content_ideas": []
