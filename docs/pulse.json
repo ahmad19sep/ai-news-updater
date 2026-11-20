@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:41:09.035216+00:00",
+  "generated_at": "2026-11-20T07:21:27.292664+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,12 +7,39 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 40,
+      "hackernews": 37,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "Anthropic’s Nasdaq debut",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+          "signal": "Anthropic’s Nasdaq debut"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Gemini",
       "category": "tool_launch",
@@ -50,6 +77,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OLIoCS1z2SY",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
           "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
         },
@@ -57,87 +89,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
           "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is killing All About Berlin",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://nicolasbouliane.com/blog/death-by-ai",
-          "signal": "AI is killing All About Berlin"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Anthropic hits $2T in Nasdaq debut",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-          "signal": "Anthropic hits $2T in Nasdaq debut"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Google's AI answers reducing search traffic by 40%",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://revscope.co/blog/search-seo-geo-2026/",
-          "signal": "Google's AI answers reducing search traffic by 40%"
         }
       ],
       "content_ideas": []
@@ -225,33 +176,6 @@
       "content_ideas": []
     },
     {
-      "name": "Harvard researchers find AI coding agents shifted the bottleneck to co",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
-          "signal": "Harvard researchers find AI coding agents shifted the bottleneck to code review"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "AI agents ask better questions than KPMG accountants in audit trial",
       "category": "use_case",
       "momentum": "rising",
@@ -274,6 +198,33 @@
           "platform": "hackernews",
           "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
           "signal": "AI agents ask better questions than KPMG accountants in audit trial"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Fuck Your AI Safeguards",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+          "signal": "Fuck Your AI Safeguards"
         }
       ],
       "content_ideas": []
@@ -306,33 +257,6 @@
       "content_ideas": []
     },
     {
-      "name": "Fuck Your AI Safeguards",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-          "signal": "Fuck Your AI Safeguards"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Pete warden on local AI, open models, voice interfaces, the future of ",
       "category": "use_case",
       "momentum": "rising",
@@ -345,7 +269,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -355,6 +279,91 @@
           "platform": "hackernews",
           "url": "https://thedataexchange.media/pete-warden-moonshine/",
           "signal": "Pete warden on local AI, open models, voice interfaces, the future of hardware"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
+          "signal": "An FBI agent called a Claude user about his chats"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l2_pKB1EbMQ",
+          "signal": "I Made a Full Documentary Using ONLY Claude AI (No Editing!)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
+          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Gu9lO8oqGYU",
+          "signal": "I Made VIRAL 3D Animation Videos Using ONLY Claude AI (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
+          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
+          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson deba",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+          "signal": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]"
         }
       ],
       "content_ideas": []
@@ -382,6 +391,33 @@
           "platform": "hackernews",
           "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
           "signal": "The AI Superintelligence Debate Has Serious Flaws"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+          "signal": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety"
         }
       ],
       "content_ideas": []
@@ -425,6 +461,11 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OLIoCS1z2SY",
+          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
           "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
         },
@@ -432,6 +473,62 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
           "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
+          "signal": "An FBI agent called a Claude user about his chats"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l2_pKB1EbMQ",
+          "signal": "I Made a Full Documentary Using ONLY Claude AI (No Editing!)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
+          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Gu9lO8oqGYU",
+          "signal": "I Made VIRAL 3D Animation Videos Using ONLY Claude AI (FREE Plugin)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
+          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
+          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
         }
       ],
       "content_ideas": []
@@ -493,5 +590,5 @@
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Gemini — strongest signal this cycle"
+  "tool_of_week_candidate": "Anthropic’s Nasdaq debut — strongest signal this cycle"
 }
