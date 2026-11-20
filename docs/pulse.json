@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T07:21:27.292664+00:00",
+  "generated_at": "2026-11-20T20:25:49.244213+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 37,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": null
@@ -66,16 +66,6 @@
           "signal": "Gemini 4 Neon"
         },
         {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-          "signal": "Google Gemini's \"Tasks\" Personal Assistant Is Now Free"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
-          "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OLIoCS1z2SY",
           "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
@@ -87,8 +77,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
-          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -117,11 +107,6 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=cehr9LOrL1M",
-          "signal": "ChatGPT Forgot It Had Pieces 😔✌️"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=nkUp4V_ewDM",
           "signal": "#chatgpt #funny #relatable #teacher #students #viralvideos #reality #comedy #comedyshorts #viral"
         },
@@ -132,35 +117,42 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TlRDbQDpvZk",
+          "signal": "I Banned ChatGPT From Using Spaces… It Failed Instantly! 😂"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZHa5cv01Gd8",
+          "signal": "I Pretended to Be ChatGPT… to ChatGPT 💀"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ntcG09PdN10",
+          "signal": "I Forced ChatGPT to Name Every Human on Earth 😂"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=KnbU1ddnxAk",
           "signal": "Try Not to Laugh Challenge 93 🤣 | ChatGPT Gone wrong 86 | #funny #viral #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
-          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qtfqlrws_Kg",
-          "signal": "ChatGPT&#39;s CEO Says The Demand Was Double Counted"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Seven new models at scalable price-performance",
+      "name": "Frostbite: A new CPU architecture discovered, designed and verified by",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
-      "local_relevance": 0,
+      "local_relevance": 4,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
@@ -169,35 +161,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-          "signal": "Seven new models at scalable price-performance"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI agents ask better questions than KPMG accountants in audit trial",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-          "signal": "AI agents ask better questions than KPMG accountants in audit trial"
+          "url": "https://architectlabs.com/blog/frostbite",
+          "signal": "Frostbite: A new CPU architecture discovered, designed and verified by AI"
         }
       ],
       "content_ideas": []
@@ -230,34 +195,7 @@
       "content_ideas": []
     },
     {
-      "name": "Genie 4 is now available",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-          "signal": "Genie 4 is now available"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Pete warden on local AI, open models, voice interfaces, the future of ",
+      "name": "Pete Warden on local AI, open models, voice interfaces, the future of ",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -278,7 +216,7 @@
         {
           "platform": "hackernews",
           "url": "https://thedataexchange.media/pete-warden-moonshine/",
-          "signal": "Pete warden on local AI, open models, voice interfaces, the future of hardware"
+          "signal": "Pete Warden on local AI, open models, voice interfaces, the future of hardware"
         }
       ],
       "content_ideas": []
@@ -298,9 +236,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -313,13 +251,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l2_pKB1EbMQ",
-          "signal": "I Made a Full Documentary Using ONLY Claude AI (No Editing!)"
+          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
+          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
-          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
+          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
         },
         {
           "platform": "youtube",
@@ -328,13 +266,40 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
-          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
+          "url": "https://www.youtube.com/watch?v=OO6J2w_FBnE",
+          "signal": "Claude + Blender Is The Best Way To Make AI Videos (Full Course)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
-          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
+          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
+          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Global stock markets slump as Anthropic's record IPO fails to stem AI ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "signal": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off"
         }
       ],
       "content_ideas": []
@@ -354,7 +319,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "reel",
-      "video_worthy": 7,
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -396,11 +361,12 @@
       "content_ideas": []
     },
     {
-      "name": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic ",
-      "category": "use_case",
+      "name": "Wan",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -410,14 +376,42 @@
       "best_format": "short",
       "video_worthy": 6,
       "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+          "signal": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI isn't replacing your job. It's turning it into low-paid gig work",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 5,
+      "monetization": {
         "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-          "signal": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety"
+          "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+          "signal": "AI isn't replacing your job. It's turning it into low-paid gig work"
         }
       ],
       "content_ideas": []
@@ -450,16 +444,6 @@
           "signal": "Gemini 4 Neon"
         },
         {
-          "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-          "signal": "Google Gemini's \"Tasks\" Personal Assistant Is Now Free"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=5zxPNe74_1M",
-          "signal": "AI Exposed With 1 Word 💀🤖 #ai #gemini #chatgpt #tech"
-        },
-        {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OLIoCS1z2SY",
           "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
@@ -471,8 +455,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F06_N-STBPU",
-          "signal": "Gemini 4 Carbon: AI Ki Exam Cheating Kaise Pakdi?"
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -492,9 +476,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 9,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -507,13 +491,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=l2_pKB1EbMQ",
-          "signal": "I Made a Full Documentary Using ONLY Claude AI (No Editing!)"
+          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
+          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
-          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
+          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
         },
         {
           "platform": "youtube",
@@ -522,13 +506,41 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
-          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
+          "url": "https://www.youtube.com/watch?v=OO6J2w_FBnE",
+          "signal": "Claude + Blender Is The Best Way To Make AI Videos (Full Course)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
-          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
+          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
+          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+          "signal": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI"
         }
       ],
       "content_ideas": []
@@ -557,11 +569,6 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=cehr9LOrL1M",
-          "signal": "ChatGPT Forgot It Had Pieces 😔✌️"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=nkUp4V_ewDM",
           "signal": "#chatgpt #funny #relatable #teacher #students #viralvideos #reality #comedy #comedyshorts #viral"
         },
@@ -572,18 +579,23 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TlRDbQDpvZk",
+          "signal": "I Banned ChatGPT From Using Spaces… It Failed Instantly! 😂"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZHa5cv01Gd8",
+          "signal": "I Pretended to Be ChatGPT… to ChatGPT 💀"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ntcG09PdN10",
+          "signal": "I Forced ChatGPT to Name Every Human on Earth 😂"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=KnbU1ddnxAk",
           "signal": "Try Not to Laugh Challenge 93 🤣 | ChatGPT Gone wrong 86 | #funny #viral #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
-          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qtfqlrws_Kg",
-          "signal": "ChatGPT&#39;s CEO Says The Demand Was Double Counted"
         }
       ],
       "content_ideas": []
