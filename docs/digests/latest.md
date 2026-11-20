@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 12 Nov 2026 to 19 Nov 2026
+# 🗞️ AI THIS WEEK — 13 Nov 2026 to 20 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine**
@@ -17,30 +17,30 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://www.nature.com/articles/d41586-026-03775-9
 5. **AI-powered bionic eye breakthrough could help the blind see again** — science angle
    https://www.sciencedaily.com/releases/2026/11/261110042553.htm
-6. **How AI Diagnosed a Medical Mystery My Doctors Missed for Decades - WSJ** — science angle
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBoV1QteXlwWmxpSFJXc1NIcTJmUjM4b3BxWklfZWJJLXZNSjlnYkJudkJNUGMwYkFXZXFxQWpIV0JiUXZDdzdlc0JlQzUyX3VxRUgxNnJYdHZGM0hMSUdWaTFsOXlzekVPY0JYSWJ0d3FBUGh4SHp4SEVCNno1NGhSTE9GMS1fbW5MdmZIQm9WdlJLMXN5WjFNVlJmM0x0MHo4MjJtRUlSRGJveVE?oc=5
-7. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
+6. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
    https://www.sciencedaily.com/releases/2026/11/261116014725.htm
-8. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
+7. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
    https://www.sciencedaily.com/releases/2026/11/261115085557.htm
+8. **Parents pay $75k for Alpha's AI school. Half of its students missed math target** — 52 upvotes on Reddit/HN
+   https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine** — AI Agents — Score 73
    https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZIdi01UEZUT0RXRWJ5aTJjZDVxMW52MkJjdVprU04wcDFFX2RKTldQc1V5ZzF3cG9QRnVBR0d6NWVqX1NkUGFUYUpDOE5vTnIzbVZqRVZYQ01RMVI3RmNrWTJ0dDRRaTNBclF4Q0Nydm13a1JCSWtkWGtTM0FJQlNfR0Q4VjRVcDBRcGtPLTBn?oc=5
-2. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 60.9
+2. **Deutsche Telekom’s Tech Fund Invests $110 Million in Mistral AI - WSJ** — Mistral News — Score 63
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxOSW9wWnlNbENyd0dVQ1dBUUxZTEsycU1KcG1Eb0w4UDhkR21DUWEyTTdCbnJUdXNWcmExTExtLWdBbWZPb1hyb29kNzhlYXVHaEx0ZGlseGcwbGliTGF4V29fSXJTTUdVemRTZmJNY0xVazZOT2hpdEZoR1duRmJwcGtPbUw4Q19lZWlpSlg0M0NfOTZCcHVCbURCN3FreGNF?oc=5
+3. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 60.9
    https://openai.com/index/introducing-gpt-6-2-astra-sol/
-3. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 58
+4. **OpenAI launches ChatGPT Wallet for AI agent purchases in U.S. - Traders Union** — AI Agents — Score 58
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVdvLUhoT29QcVBSQUxfMVdmMWV6Sll2YVo3OUZCY0tXVzJOelhSVS1nNmRpVHNkdFVmM0hVYVpVN0ZQdVNuSG9WRTIxREVnU2ItaFVfYWt6bG91Q2ZrQ250UHRXd2RMSHEteDVENFFHbEd5elZ0ZjF6b0FWTVZYWHlXalYtM2tUWDhQZlNR?oc=5
-4. **OpenAI announces new AI safety program; researchers worry it won't be enough - NPR** — Sam Altman News — Score 56
+5. **OpenAI announces new AI safety program; researchers worry it won't be enough - NPR** — Sam Altman News — Score 56
    https://news.google.com/rss/articles/CBMikAFBVV95cUxOc1d5aEV0bFYyUUtaMjZyV0owZ2s5MmxET0dPUkhDeEZxRks3YUxtQktDZjlpb1ZlWlVBUWIxdm1hQmFjUlNvaWl6ek1ucDMtYl9QSWM0amRRVFQ2V2s2OXp3c1RZZkUwR1VPLV9CaW5MR1J0NkRib1RGZXRDQnpNMm1QSkphdWpEMmxsZTBCV2Q?oc=5
-5. **Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News** — Jensen Huang News — Score 53
-   https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5
 6. **Don’t throw the AI baby out with the AI data center bathwater - Orange County Register** — AI in Coding — Score 53
    https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlUalF6d3hqVWZ0RGdJT01mOVNmTzJzaGdEV0QzZmtIUEl2TGd0dW5PYTVjWnNLSW5ybzlGOU14MGpZRXRncERxRURiX1ZtZS14dzRUYk1YaDZmQlZlRHRFWFA5elZjTnVZODdRZ0tVNHJoN2EtVTlmMFJwYkhhUVJTUnhmcl9GS05uNXZTRmtVQ2o0QTEzdW1RdDBHbDdE?oc=5
 7. **OpenAI's Altman Acknowledges Public Anger Over Data Centers - Barron's** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMingFBVV95cUxPLXBTOFc4NUcyZWMxcHltNnR4eDN2YkFHRFdRUFJHU0dNOUFSM2VQOUNPSGFvODB2amtmSHlnYjdCOWhZV19HS2NFVHVvNDZPUVFPSTlIY0t3X0duOHJiRHVTTG5raEhxWENlaHFHa1QwUk9jamFrTFgzNkxKSEhIUWJISDIxaUVmWVR5RnMyZEZaNlN6YzhLYVMwbGxOQQ?oc=5
-8. **Deutsche Telekom’s Tech Fund Invests $110 Million in Mistral AI - WSJ** — Mistral News — Score 53
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxOSW9wWnlNbENyd0dVQ1dBUUxZTEsycU1KcG1Eb0w4UDhkR21DUWEyTTdCbnJUdXNWcmExTExtLWdBbWZPb1hyb29kNzhlYXVHaEx0ZGlseGcwbGliTGF4V29fSXJTTUdVemRTZmJNY0xVazZOT2hpdEZoR1duRmJwcGtPbUw4Q19lZWlpSlg0M0NfOTZCcHVCbURCN3FreGNF?oc=5
+8. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 48
+   https://news.google.com/rss/articles/CBMivwFBVV95cUxPdG5SWVVRUERNQ21Rd3NIMG1ROW1weU5qcC1RYnJBVnB1bDFXaHhjWTQySVY4LXV5cXBVZUwzZE9ZMjN5ZXZtZzRPRHBIdFdaZ3VLZE16aFNTTVhmckhmQVNMNERjT3lCWTNjOFVlYjBlVFpPSWJvcjFXZDRfQ3p5c2FiaFdvTm0xUV83VE5fRjA4c0Rwa2lVM3I5dWdrR3I2SVRNNTZOR0RKakJZNG4xQ051c2xsOVRQUUtxOWw5bw?oc=5
 9. **AI is killing All About Berlin** — Hacker News AI — Score 46.8
    https://nicolasbouliane.com/blog/death-by-ai
 10. **Broadening access to AI for scientists** — OpenAI Blog — Score 45
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
 - **AI-powered bionic eye breakthrough could help the blind see again** — https://www.sciencedaily.com/releases/2026/11/261110042553.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2995
+- Total stories tracked: 3003
 - Most active topic: nvidia
 - Busiest category: AI General News
 
