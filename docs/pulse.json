@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T07:14:34.484229+00:00",
+  "generated_at": "2026-11-21T19:19:39.065140+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,39 +7,12 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 28,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Anthropic’s Nasdaq debut",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-          "signal": "Anthropic’s Nasdaq debut"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Kling",
       "category": "tool_launch",
@@ -68,10 +41,39 @@
       "content_ideas": []
     },
     {
+      "name": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "signal": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -79,8 +81,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -104,18 +106,45 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=CLf1vwkCB9U",
-          "signal": "ChatGPT’s New GPT 6.2 Astra &amp; GPT 6.2 Sol Are MIND BLOWING! (GPT 6.2 Use Cases Explained)"
+          "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
+          "signal": "ChatGPT Called My Checkmate Invalid 😭"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
-          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=1mlma5LUSrM",
+          "signal": "Le pido a ChatGPT que cuide mi huevo (SALE MAL 💀)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KnbU1ddnxAk",
-          "signal": "Try Not to Laugh Challenge 93 🤣 | ChatGPT Gone wrong 86 | #funny #viral #shorts"
+          "url": "https://www.youtube.com/watch?v=o0JujYX_QFQ",
+          "signal": "ChatGpt’s fav emojis be like😭✌️#memes"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. Wha",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50583761",
+          "signal": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?"
         }
       ],
       "content_ideas": []
@@ -177,87 +206,6 @@
       "content_ideas": []
     },
     {
-      "name": "Fuck Your AI Safeguards",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-          "signal": "Fuck Your AI Safeguards"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-          "signal": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Pete Warden on local AI, open models, voice interfaces, the future of ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://thedataexchange.media/pete-warden-moonshine/",
-          "signal": "Pete Warden on local AI, open models, voice interfaces, the future of hardware"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Wan",
       "category": "tool_launch",
       "momentum": "rising",
@@ -293,7 +241,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -335,43 +282,14 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
-          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+          "url": "https://www.youtube.com/watch?v=ynEEbqKQSaY",
+          "signal": "n8n Just Released a FREE + Open Source Version of Claude Duet, Grokbot, Dots, &amp; Muse"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson deba",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 8,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
-          "signal": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The AI Superintelligence Debate Has Serious Flaws",
+      "name": "ClawDOS – An AI coding agent for DOS",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -383,7 +301,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -391,8 +309,89 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
-          "signal": "The AI Superintelligence Debate Has Serious Flaws"
+          "url": "http://ricapar.net/ClawDOS/",
+          "signal": "ClawDOS – An AI coding agent for DOS"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI is giving everyone the same advice",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://a90.com/experiments/same-advice/",
+          "signal": "AI is giving everyone the same advice"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+          "signal": "Epic Games Turns to AI Coding for the Unreal Engine"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
+          "signal": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'"
         }
       ],
       "content_ideas": []
@@ -462,7 +461,6 @@
         "facebook_inferred",
         "hackernews",
         "instagram_inferred",
-        "linkedin_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -504,8 +502,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
-          "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
+          "url": "https://www.youtube.com/watch?v=ynEEbqKQSaY",
+          "signal": "n8n Just Released a FREE + Open Source Version of Claude Duet, Grokbot, Dots, &amp; Muse"
         }
       ],
       "content_ideas": []
@@ -515,6 +513,8 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -522,8 +522,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -547,23 +547,23 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=CLf1vwkCB9U",
-          "signal": "ChatGPT’s New GPT 6.2 Astra &amp; GPT 6.2 Sol Are MIND BLOWING! (GPT 6.2 Use Cases Explained)"
+          "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
+          "signal": "ChatGPT Called My Checkmate Invalid 😭"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
-          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=1mlma5LUSrM",
+          "signal": "Le pido a ChatGPT que cuide mi huevo (SALE MAL 💀)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=KnbU1ddnxAk",
-          "signal": "Try Not to Laugh Challenge 93 🤣 | ChatGPT Gone wrong 86 | #funny #viral #shorts"
+          "url": "https://www.youtube.com/watch?v=o0JujYX_QFQ",
+          "signal": "ChatGpt’s fav emojis be like😭✌️#memes"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Anthropic’s Nasdaq debut — strongest signal this cycle"
+  "tool_of_week_candidate": "Kling — strongest signal this cycle"
 }
