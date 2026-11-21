@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:25:49.244213+00:00",
+  "generated_at": "2026-11-21T07:14:34.484229+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 27,
+      "hackernews": 28,
       "youtube": 106
     },
     "llm_provider": null
@@ -41,12 +41,11 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
+      "name": "Kling",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -62,23 +61,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-          "signal": "Gemini 4 Neon"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OLIoCS1z2SY",
-          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
-          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "signal": "Inkling 2 Mini"
         }
       ],
       "content_ideas": []
@@ -86,10 +70,8 @@
     {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -97,8 +79,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -107,8 +89,8 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkUp4V_ewDM",
-          "signal": "#chatgpt #funny #relatable #teacher #students #viralvideos #reality #comedy #comedyshorts #viral"
+          "url": "https://www.youtube.com/watch?v=_0QzJNuVQaQ",
+          "signal": "This AI Trick Predicts Your Board Exam Paper 🤯 (100% Legal) | ChatGPT + PYQs #shorts"
         },
         {
           "platform": "youtube",
@@ -117,18 +99,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TlRDbQDpvZk",
-          "signal": "I Banned ChatGPT From Using Spaces… It Failed Instantly! 😂"
+          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
+          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZHa5cv01Gd8",
-          "signal": "I Pretended to Be ChatGPT… to ChatGPT 💀"
+          "url": "https://www.youtube.com/watch?v=CLf1vwkCB9U",
+          "signal": "ChatGPT’s New GPT 6.2 Astra &amp; GPT 6.2 Sol Are MIND BLOWING! (GPT 6.2 Use Cases Explained)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ntcG09PdN10",
-          "signal": "I Forced ChatGPT to Name Every Human on Earth 😂"
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
         },
         {
           "platform": "youtube",
@@ -168,6 +150,33 @@
       "content_ideas": []
     },
     {
+      "name": "Restricting AI agents in mobile operating systems platforms from captu",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://signal.org/blog/protecting-your-privacy/",
+          "signal": "Restricting AI agents in mobile operating systems platforms from capturing data"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Fuck Your AI Safeguards",
       "category": "use_case",
       "momentum": "rising",
@@ -195,6 +204,33 @@
       "content_ideas": []
     },
     {
+      "name": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "signal": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Pete Warden on local AI, open models, voice interfaces, the future of ",
       "category": "use_case",
       "momentum": "rising",
@@ -217,6 +253,34 @@
           "platform": "hackernews",
           "url": "https://thedataexchange.media/pete-warden-moonshine/",
           "signal": "Pete Warden on local AI, open models, voice interfaces, the future of hardware"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+          "signal": "Google workers tell their employer not to punish schools that don't want AI"
         }
       ],
       "content_ideas": []
@@ -273,33 +337,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
           "signal": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Global stock markets slump as Anthropic's record IPO fails to stem AI ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-          "signal": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off"
         }
       ],
       "content_ideas": []
@@ -359,72 +396,15 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-          "signal": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI isn't replacing your job. It's turning it into low-paid gig work",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
-          "signal": "AI isn't replacing your job. It's turning it into low-paid gig work"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
     {
-      "name": "Gemini",
+      "name": "Kling",
       "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -440,23 +420,36 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-          "signal": "Gemini 4 Neon"
-        },
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "signal": "Inkling 2 Mini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Wan",
+      "category": "tool_launch",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OLIoCS1z2SY",
-          "signal": "first time use ai | chatgpt | brother and sister | #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
-          "signal": "Gemini Carbon &amp; Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "platform": "hackernews",
+          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+          "signal": "Google workers tell their employer not to punish schools that don't want AI"
         }
       ],
       "content_ideas": []
@@ -518,40 +511,10 @@
       "content_ideas": []
     },
     {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 6,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-          "signal": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -559,8 +522,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -569,8 +532,8 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=nkUp4V_ewDM",
-          "signal": "#chatgpt #funny #relatable #teacher #students #viralvideos #reality #comedy #comedyshorts #viral"
+          "url": "https://www.youtube.com/watch?v=_0QzJNuVQaQ",
+          "signal": "This AI Trick Predicts Your Board Exam Paper 🤯 (100% Legal) | ChatGPT + PYQs #shorts"
         },
         {
           "platform": "youtube",
@@ -579,18 +542,18 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=TlRDbQDpvZk",
-          "signal": "I Banned ChatGPT From Using Spaces… It Failed Instantly! 😂"
+          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
+          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZHa5cv01Gd8",
-          "signal": "I Pretended to Be ChatGPT… to ChatGPT 💀"
+          "url": "https://www.youtube.com/watch?v=CLf1vwkCB9U",
+          "signal": "ChatGPT’s New GPT 6.2 Astra &amp; GPT 6.2 Sol Are MIND BLOWING! (GPT 6.2 Use Cases Explained)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ntcG09PdN10",
-          "signal": "I Forced ChatGPT to Name Every Human on Earth 😂"
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
         },
         {
           "platform": "youtube",
