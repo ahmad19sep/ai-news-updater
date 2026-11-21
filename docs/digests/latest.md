@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 13 Nov 2026 to 20 Nov 2026
+# 🗞️ AI THIS WEEK — 14 Nov 2026 to 21 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine**
@@ -11,14 +11,14 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://openai.com/index/introducing-medchembench
 2. **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — science angle
    https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-3. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
-   https://www.nature.com/articles/d41586-026-03775-9
-4. **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — science angle
+3. **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — science angle
    https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
-5. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
+4. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
    https://www.sciencedaily.com/releases/2026/11/261116014725.htm
-6. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
+5. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
    https://www.sciencedaily.com/releases/2026/11/261115085557.htm
+6. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
+   https://www.nature.com/articles/d41586-026-03775-9
 7. **Parents pay $75k for Alpha's AI school. Half of its students missed math target** — 52 upvotes on Reddit/HN
    https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/
 8. **Healthcare Providers and AI: How to Protect Your Patients and Practice - JD Supra** — science angle
@@ -31,8 +31,8 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOSW9wWnlNbENyd0dVQ1dBUUxZTEsycU1KcG1Eb0w4UDhkR21DUWEyTTdCbnJUdXNWcmExTExtLWdBbWZPb1hyb29kNzhlYXVHaEx0ZGlseGcwbGliTGF4V29fSXJTTUdVemRTZmJNY0xVazZOT2hpdEZoR1duRmJwcGtPbUw4Q19lZWlpSlg0M0NfOTZCcHVCbURCN3FreGNF?oc=5
 3. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 60.9
    https://openai.com/index/introducing-gpt-6-2-astra-sol/
-4. **Don’t throw the AI baby out with the AI data center bathwater - Orange County Register** — AI in Coding — Score 53
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlUalF6d3hqVWZ0RGdJT01mOVNmTzJzaGdEV0QzZmtIUEl2TGd0dW5PYTVjWnNLSW5ybzlGOU14MGpZRXRncERxRURiX1ZtZS14dzRUYk1YaDZmQlZlRHRFWFA5elZjTnVZODdRZ0tVNHJoN2EtVTlmMFJwYkhhUVJTUnhmcl9GS05uNXZTRmtVQ2o0QTEzdW1RdDBHbDdE?oc=5
+4. **Tech stocks pull US markets lower early with Anthropic’s historic debut doing little to slow rout** — timescall — Score 56
+   https://www.timescall.com/2026/11/20/tech-stocks-us-markets/
 5. **OpenAI's Altman Acknowledges Public Anger Over Data Centers - Barron's** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMingFBVV95cUxPLXBTOFc4NUcyZWMxcHltNnR4eDN2YkFHRFdRUFJHU0dNOUFSM2VQOUNPSGFvODB2amtmSHlnYjdCOWhZV19HS2NFVHVvNDZPUVFPSTlIY0t3X0duOHJiRHVTTG5raEhxWENlaHFHa1QwUk9jamFrTFgzNkxKSEhIUWJISDIxaUVmWVR5RnMyZEZaNlN6YzhLYVMwbGxOQQ?oc=5
 6. **OpenAI announces new AI safety program; researchers worry it won't be enough - NPR** — Sam Altman News — Score 53
@@ -43,18 +43,18 @@ All coverage: https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZId
    https://openai.com/index/expanding-chatgpt-for-academic-researchers
 9. **AI is killing All About Berlin** — Hacker News AI — Score 43.8
    https://nicolasbouliane.com/blog/death-by-ai
-10. **How Vail Resorts is using AI to manage employees across its 37 resorts in the U.S. and Canada - VailDaily.com** — Using AI To... — Score 43
-   https://news.google.com/rss/articles/CBMif0FVX3lxTE5wOHZPU1hfYno4enNTd3gzeHg2M1o3Z1JRdTRrWDV4SjZEZ3ZzWVplc0Z3SVVla1FNRk41VThHd0hXWWlWVWs5czVpRHFDRWZDWDB1eE9ib3RiRmxnZHFvLXFrRzhuVVpwTUZFSW54T0VLSXVEaWpqOTZCZlAzUW8?oc=5
+10. **Master Concept Partners with ElevenLabs to Accelerate Enterprise Voice AI Adoption - The Manila Times** — ElevenLabs News — Score 43
+   https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRDRXa0tSSTRrUkhPbUtMWERhdHRuM3d1QUlJejI1Zm13REpyeVZWeEQzUW9pN0oxdFo1Y1IxLWhrZ04xel9uYVQ4OTQzdXdhQjM1YUo1anl4NEhWYWMtWjBVSXVzN1huLTZHQ2xjRWZlNXRjbE9ZaFVXal9xc25EZkl5RkRJV3A4MHJEY3JhbUhVSWYtSFE4R1hOWXJRc1hnWDFEY2oyLWhNX0wyRXZIckh0Y0oxbW5XcGN2WkROaWV1V1hSVHJqVGVjWW52MUVVN0xlNFRyYS11aEhCY01xbHBjVktqVUFhamfSAe8BQVVfeXFMT05kT3JuX1ZEQVVKblRGUnFNYVZZdEFQeTBLNmxWazZiY1VERGhibXZKOEh0UTg3UzcwSDNONFZ2OTV2U25vdWxJYmFUYU1YSWlYOGFhX2h6bmZsNlc1YmJQdVI4YmhGSjh1US12SlNXa2tNckh3ak5mVExFNjFYQnRDX0swbXhfdFBBYnNhWC1LMUloLWtOUFFUWjBDbU9xanV1aDgtSWE4ZFRZdkk1aUJVU0lwSGZiOUF0bEgxZnNCclZzRl93bnRPS0NENGtqemdSbzZIeTVCM3JXaHRFc1lTNWh1Nk9KZmlCU2FuZjg?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Can AI help scientists identify promising drug candidates?** — https://openai.com/index/introducing-medchembench
 - **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/
-- **AI is turbocharging cyberattacks — can computer scientists catch up?** — https://www.nature.com/articles/d41586-026-03775-9
 - **AI discovers a hidden heart signal that could predict sudden death - Science Daily** — https://news.google.com/rss/articles/CBMibkFVX3lxTE9GMWxBeEhtR2JhRG1PRkhad0NBbGNkT18tbTZIYVRFdkdHYm1HN3BRTGE4anpTRlljek1tNUliM0Zwc0NfSi04Z1J2Sk51Nm9vSF9IMm1aWGs0bERDY3I3ejZ0ekpiaHBNYWFxSDJB?oc=5
 - **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
+- **Scientists tracked kids for 8 years. What they found about screen time was surprising** — https://www.sciencedaily.com/releases/2026/11/261116014725.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3075
+- Total stories tracked: 3055
 - Most active topic: nvidia
 - Busiest category: AI General News
 
