@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T19:19:39.065140+00:00",
+  "generated_at": "2026-11-22T06:54:59.708024+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 17,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -16,7 +16,7 @@
     {
       "name": "Kling",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -36,6 +36,33 @@
           "platform": "hackernews",
           "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
           "signal": "Inkling 2 Mini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. Wha",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50583761",
+          "signal": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?"
         }
       ],
       "content_ideas": []
@@ -96,18 +123,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
-          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
-          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
           "signal": "ChatGPT Called My Checkmate Invalid 😭"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
+          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
         },
         {
           "platform": "youtube",
@@ -118,33 +140,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=o0JujYX_QFQ",
           "signal": "ChatGpt’s fav emojis be like😭✌️#memes"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. Wha",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
+        },
         {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50583761",
-          "signal": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
         }
       ],
       "content_ideas": []
@@ -234,61 +234,6 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
-          "signal": "An FBI agent called a Claude user about his chats"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
-          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
-          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gu9lO8oqGYU",
-          "signal": "I Made VIRAL 3D Animation Videos Using ONLY Claude AI (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OO6J2w_FBnE",
-          "signal": "Claude + Blender Is The Best Way To Make AI Videos (Full Course)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ynEEbqKQSaY",
-          "signal": "n8n Just Released a FREE + Open Source Version of Claude Duet, Grokbot, Dots, &amp; Muse"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "ClawDOS – An AI coding agent for DOS",
       "category": "use_case",
       "momentum": "rising",
@@ -311,6 +256,56 @@
           "platform": "hackernews",
           "url": "http://ricapar.net/ClawDOS/",
           "signal": "ClawDOS – An AI coding agent for DOS"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
+          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
+          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e5ExoaAJtxc",
+          "signal": "Learn AI From Zero in 2027 | Automations, Voice Agents, SaaS, Claude Code &amp; Client Hunting"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
+          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
+          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
         }
       ],
       "content_ideas": []
@@ -343,7 +338,7 @@
       "content_ideas": []
     },
     {
-      "name": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "name": "Upload2Shell (CVE-2026-125396)",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -355,7 +350,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -363,14 +358,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-          "signal": "Epic Games Turns to AI Coding for the Unreal Engine"
+          "url": "https://pwn.ai/upload2shell",
+          "signal": "Upload2Shell (CVE-2026-125396)"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+      "name": "Data Processing Incidents on Inference Providers",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -382,7 +377,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -390,41 +385,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
-          "signal": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'"
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "signal": "Data Processing Incidents on Inference Providers"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Kling",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-          "signal": "Inkling 2 Mini"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Wan",
       "category": "tool_launch",
@@ -454,22 +422,19 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
+      "name": "Kling",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 9,
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -477,33 +442,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
-          "signal": "An FBI agent called a Claude user about his chats"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
-          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
-          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gu9lO8oqGYU",
-          "signal": "I Made VIRAL 3D Animation Videos Using ONLY Claude AI (FREE Plugin)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OO6J2w_FBnE",
-          "signal": "Claude + Blender Is The Best Way To Make AI Videos (Full Course)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ynEEbqKQSaY",
-          "signal": "n8n Just Released a FREE + Open Source Version of Claude Duet, Grokbot, Dots, &amp; Muse"
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "signal": "Inkling 2 Mini"
         }
       ],
       "content_ideas": []
@@ -537,18 +477,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
-          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=W4E4wOY078Q",
-          "signal": "🔥 “ChatGPT Ye Game Kabhi Nahi Jeet Sakta 😂 | Try Karke Dekho!”Aur 4 catchy options:"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
           "signal": "ChatGPT Called My Checkmate Invalid 😭"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
+          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
         },
         {
           "platform": "youtube",
@@ -559,6 +494,61 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=o0JujYX_QFQ",
           "signal": "ChatGpt’s fav emojis be like😭✌️#memes"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
+          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
+          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e5ExoaAJtxc",
+          "signal": "Learn AI From Zero in 2027 | Automations, Voice Agents, SaaS, Claude Code &amp; Client Hunting"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
+          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
+          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
         }
       ],
       "content_ideas": []
