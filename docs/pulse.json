@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:54:59.708024+00:00",
+  "generated_at": "2026-11-22T19:44:27.745614+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -68,7 +68,7 @@
       "content_ideas": []
     },
     {
-      "name": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second",
+      "name": "87% of the Anthropic power will come from gas and 11% from coal in 202",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -88,8 +88,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-          "signal": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day"
+          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+          "signal": "87% of the Anthropic power will come from gas and 11% from coal in 2028"
         }
       ],
       "content_ideas": []
@@ -99,8 +99,6 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -108,19 +106,14 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_0QzJNuVQaQ",
-          "signal": "This AI Trick Predicts Your Board Exam Paper 🤯 (100% Legal) | ChatGPT + PYQs #shorts"
-        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
@@ -133,53 +126,29 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1mlma5LUSrM",
-          "signal": "Le pido a ChatGPT que cuide mi huevo (SALE MAL 💀)"
+          "url": "https://www.youtube.com/watch?v=0tiOOGi6tHI",
+          "signal": "NEW ChatGPT Update is Absolutely INSANE!"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=o0JujYX_QFQ",
-          "signal": "ChatGpt’s fav emojis be like😭✌️#memes"
+          "url": "https://www.youtube.com/watch?v=vOSONsETBzQ",
+          "signal": "ChatGPT Astra 6.2 JUST Dropped - I Compared it With Fable 5.2"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
+          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LaaiuCDVRJc",
+          "signal": "ChatGPT 完整教學！換上 GPT-6 後 10 個必學功能＋ 4 種方案實測比較｜2026 秋季版"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Frostbite: A new CPU architecture discovered, designed and verified by",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://architectlabs.com/blog/frostbite",
-          "signal": "Frostbite: A new CPU architecture discovered, designed and verified by AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Restricting AI agents in mobile operating systems platforms from captu",
+      "name": "The Mythology of Conscious AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -199,19 +168,18 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://signal.org/blog/protecting-your-privacy/",
-          "signal": "Restricting AI agents in mobile operating systems platforms from capturing data"
+          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+          "signal": "The Mythology of Conscious AI"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Wan",
-      "category": "tool_launch",
+      "name": "Data Processing Incidents on Inference Providers",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews",
-        "linkedin_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -219,16 +187,98 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 10,
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "signal": "Data Processing Incidents on Inference Providers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
+          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
+          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OO6J2w_FBnE",
+          "signal": "Claude + Blender Is The Best Way To Make AI Videos (Full Course)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=buNO0FkOcCc",
+          "signal": "Claude Code Just Became 100% FREE (7.4 Billion Tokens)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
+          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
+          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Upload2Shell (CVE-2026-125396)",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
           "platform": "hackernews",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-          "signal": "Google workers tell their employer not to punish schools that don't want AI"
+          "url": "https://pwn.ai/upload2shell",
+          "signal": "Upload2Shell (CVE-2026-125396)"
         }
       ],
       "content_ideas": []
@@ -261,57 +311,7 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
-          "signal": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide 🚀  How to Edit Videos with Claude #claude"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=9is06cQ315s",
-          "signal": "Stop Paying for Claude Code(Use it for FREE!)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=e5ExoaAJtxc",
-          "signal": "Learn AI From Zero in 2027 | Automations, Voice Agents, SaaS, Claude Code &amp; Client Hunting"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZzDRSxx3zgY",
-          "signal": "I Built A Business From Scratch Only Following Claude’s Advice"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=P6hhEeyddSM",
-          "signal": "Make Money From YouTube Clips Using Claude + OpusClip | Comment &quot;CLIP&quot;"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI is giving everyone the same advice",
+      "name": "Pandex – Official European Law for AI Agents, over MCP",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -331,14 +331,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://a90.com/experiments/same-advice/",
-          "signal": "AI is giving everyone the same advice"
+          "url": "https://www.pandex.io",
+          "signal": "Pandex – Official European Law for AI Agents, over MCP"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Upload2Shell (CVE-2026-125396)",
+      "name": "AI Supply Chain Security: What Canary Tokens Found",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -350,7 +350,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -358,14 +358,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://pwn.ai/upload2shell",
-          "signal": "Upload2Shell (CVE-2026-125396)"
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "signal": "AI Supply Chain Security: What Canary Tokens Found"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Data Processing Incidents on Inference Providers",
+      "name": "AI is becoming a disaster for the climate",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -377,7 +377,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -385,42 +385,14 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-          "signal": "Data Processing Incidents on Inference Providers"
+          "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+          "signal": "AI is becoming a disaster for the climate"
         }
       ],
       "content_ideas": []
     }
   ],
   "rising_tools": [
-    {
-      "name": "Wan",
-      "category": "tool_launch",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-          "signal": "Google workers tell their employer not to punish schools that don't want AI"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "Kling",
       "category": "tool_launch",
@@ -453,8 +425,6 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -462,19 +432,14 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_0QzJNuVQaQ",
-          "signal": "This AI Trick Predicts Your Board Exam Paper 🤯 (100% Legal) | ChatGPT + PYQs #shorts"
-        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
@@ -487,18 +452,23 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=1mlma5LUSrM",
-          "signal": "Le pido a ChatGPT que cuide mi huevo (SALE MAL 💀)"
+          "url": "https://www.youtube.com/watch?v=0tiOOGi6tHI",
+          "signal": "NEW ChatGPT Update is Absolutely INSANE!"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=o0JujYX_QFQ",
-          "signal": "ChatGpt’s fav emojis be like😭✌️#memes"
+          "url": "https://www.youtube.com/watch?v=vOSONsETBzQ",
+          "signal": "ChatGPT Astra 6.2 JUST Dropped - I Compared it With Fable 5.2"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
+          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LaaiuCDVRJc",
+          "signal": "ChatGPT 完整教學！換上 GPT-6 後 10 個必學功能＋ 4 種方案實測比較｜2026 秋季版"
         }
       ],
       "content_ideas": []
@@ -519,7 +489,7 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -537,8 +507,13 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=e5ExoaAJtxc",
-          "signal": "Learn AI From Zero in 2027 | Automations, Voice Agents, SaaS, Claude Code &amp; Client Hunting"
+          "url": "https://www.youtube.com/watch?v=OO6J2w_FBnE",
+          "signal": "Claude + Blender Is The Best Way To Make AI Videos (Full Course)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=buNO0FkOcCc",
+          "signal": "Claude Code Just Became 100% FREE (7.4 Billion Tokens)"
         },
         {
           "platform": "youtube",
