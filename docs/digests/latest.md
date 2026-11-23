@@ -2,7 +2,7 @@
 
 ## 🔥 Biggest Story of the Week
 **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX**
-Covered by 11 source(s) · Score: 116
+Covered by 11 source(s) · Score: 113
 Best source link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVWJZMUdYYUVyVmVpMVE1ZHNWN1RXWXNSMzJlcnBsWllxYVVQNzVIS19teDk3MEh2bUlfV0xjMUdTVlhHb3N4MWE1ZFJ6eWt5d093eVh5cTFqTFBsTEliTTVSVTN4RmJ5VVVzcXN3NWZ6SGthZnBJNWlCV3J0VDQ5WEJvS011SFo0SDRwc2ZueDJQX0tJTWpMM2Nfd2pFUDZSSkZKMngtVjZjQdIBrwFBVV95cUxPQzdpamdtNF9sYjJPMVNpZDRIeWxUdmV5X3NYTkRjQTc1cURTbFI5V0V4cEVMQVMxSmRNa2k4bk53T2hCcEFmdm1wazVXWXZOUE5ieU9hLWdkeGlKQ2FHZU9TNjVvT016d0JaRnJhUXVrQXdjWHdGa1BRLVBvemdDWU1LUVZ6THd0U3VvM1gxbkJZaW5YVWhfNlNJWnFwekhKbUN6QzU5bkFIaDR2VTg0?oc=5
 All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJMVk1d3RFd0xGX0Z2X2h1MnZIaU95SlRVeDR2M0JiXzNCY09oZlpmMlZxRnEtOFBsend2SkNDbU40djB4YlN3NHVTcWVRS3RxNktTR09UWnE2dExMVVdrdEpMWWgtS085QkJTUXByTXdKWkVBV3gyUmNwcnFCd3MzRndrSEZScElQV3M1akRYYnVubHpacGszRVZva2hrYzRxTERTSHhvNWYzemZQOEd0ajlxSkprQndSVGdkbktDZHFn?oc=5 · https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVWJZMUdYYUVyVmVpMVE1ZHNWN1RXWXNSMzJlcnBsWllxYVVQNzVIS19teDk3MEh2bUlfV0xjMUdTVlhHb3N4MWE1ZFJ6eWt5d093eVh5cTFqTFBsTEliTTVSVTN4RmJ5VVVzcXN3NWZ6SGthZnBJNWlCV3J0VDQ5WEJvS011SFo0SDRwc2ZueDJQX0tJTWpMM2Nfd2pFUDZSSkZKMngtVjZjQdIBrwFBVV95cUxPQzdpamdtNF9sYjJPMVNpZDRIeWxUdmV5X3NYTkRjQTc1cURTbFI5V0V4cEVMQVMxSmRNa2k4bk53T2hCcEFmdm1wazVXWXZOUE5ieU9hLWdkeGlKQ2FHZU9TNjVvT016d0JaRnJhUXVrQXdjWHdGa1BRLVBvemdDWU1LUVZ6THd0U3VvM1gxbkJZaW5YVWhfNlNJWnFwekhKbUN6QzU5bkFIaDR2VTg0?oc=5 · https://www.greaterkashmir.com/world/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai-12828407 · https://www.ptinews.com/story/international/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai/4280036 · https://krdo.com/news/2026/11/21/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai/ · https://kesq.com/money/cnn-business-consumer/2026/11/21/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai/ · https://ktvz.com/money/cnn-business-consumer/2026/11/21/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai/ · https://www.cnn.com/2026/11/21/tech/anthropic-math-problem-ai · https://localnews8.com/money/cnn-business-consumer/2026/11/21/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai/ · https://www.edexlive.com/news/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai · https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3FPem5vX0lZRzBlVnN0UGR3UkFUSmZXek1yY3ZmOVlIX0lOVy1kR0dWcVZoenFHSGdRS1R6MHRtenpxX2ZOVnE3UkNmOWdteXpQZUhFTHFMSTZFcG16d0hPMm9SaVlMTDdLVVpHMDljMmg3S0ZyM1hmTXotZ2w3cGhMaGNjOWFILWV4UjQ2dGxreVRGUEVrQXdSWFFMWThHLUtwVEFrWHJVLVQyQmlWdFoyX2pRRElfRm1NTnNqTnlENmQtSXNvdjZFVQ?oc=5
 
@@ -21,11 +21,11 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://www.sciencedaily.com/releases/2026/11/261115085557.htm
 7. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
    https://www.nature.com/articles/d41586-026-03775-9
-8. **In online experiment, AI disagreement increased perceived laziness and uncertainty toward an LLM-simulated doctor - 2 Minute Medicine** — science angle
-   https://news.google.com/rss/articles/CBMi3gFBVV95cUxOa3NhTlE4N0pXT3lNcVVwUFdnYlpPQ0p0WF9QVkxRcHhmMEtUNnpndlc0aXNoa01WZ0RCZXNDbThkdFNLMHVQNEVUdHR4SXg1djVGMGxZLVFKMVZZMk9tWFM1QXJSWllUYll5Tm5IbmpienZ6TFdJdTNIWnA1NGxfRlBiLVdqeE5QbDkwTHlUVEFCTU84VXpZUG1PSzU0MU1sMHNJa0VCNlhCbklXM21YZFZkVm1KZW9LVHB2OS1PQUZseW1BUTBGTUtMV0RscDNPUnBSWUYxbG52LXdJUEE?oc=5
+8. **Novartis rejects AI industry hopes to cure cancer in five to 10 years** — 2 upvotes on Reddit/HN
+   https://www.ft.com/content/1e5a9d70-221d-461d-ae03-dc235b1db340
 
 ## 📊 Top 10 Stories This Week (ranked)
-1. **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX** — Dario Amodei News — Score 116
+1. **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX** — Dario Amodei News — Score 113
    https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJMVk1d3RFd0xGX0Z2X2h1MnZIaU95SlRVeDR2M0JiXzNCY09oZlpmMlZxRnEtOFBsend2SkNDbU40djB4YlN3NHVTcWVRS3RxNktTR09UWnE2dExMVVdrdEpMWWgtS085QkJTUXByTXdKWkVBV3gyUmNwcnFCd3MzRndrSEZScElQV3M1akRYYnVubHpacGszRVZva2hrYzRxTERTSHhvNWYzemZQOEd0ajlxSkprQndSVGdkbktDZHFn?oc=5
 2. **Deutsche Telekom’s Tech Fund Invests $110 Million in Mistral AI - WSJ** — Mistral News — Score 70
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOSW9wWnlNbENyd0dVQ1dBUUxZTEsycU1KcG1Eb0w4UDhkR21DUWEyTTdCbnJUdXNWcmExTExtLWdBbWZPb1hyb29kNzhlYXVHaEx0ZGlseGcwbGliTGF4V29fSXJTTUdVemRTZmJNY0xVazZOT2hpdEZoR1duRmJwcGtPbUw4Q19lZWlpSlg0M0NfOTZCcHVCbURCN3FreGNF?oc=5
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
 - **Quantum computers are getting too powerful to check. Scientists have a solution** — https://www.sciencedaily.com/releases/2026/11/261115085557.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3036
+- Total stories tracked: 3020
 - Most active topic: nvidia
 - Busiest category: AI General News
 
