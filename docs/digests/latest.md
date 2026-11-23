@@ -9,18 +9,18 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Can AI help scientists identify promising drug candidates?** — science angle
    https://openai.com/index/introducing-medchembench
-2. **AI may not work like the human brain after all, scientists discover** — science angle
-   https://www.sciencedaily.com/releases/2026/11/261120075701.htm
-3. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
+2. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
    https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/
-4. **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — science angle
+3. **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — science angle
    https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
-5. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
+4. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
    https://www.sciencedaily.com/releases/2026/11/261116014725.htm
-6. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
+5. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
    https://www.sciencedaily.com/releases/2026/11/261115085557.htm
-7. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
+6. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
    https://www.nature.com/articles/d41586-026-03775-9
+7. **AI may not work like the human brain after all, scientists discover** — science angle
+   https://www.sciencedaily.com/releases/2026/11/261120075701.htm
 8. **Novartis rejects AI industry hopes to cure cancer in five to 10 years** — 2 upvotes on Reddit/HN
    https://www.ft.com/content/1e5a9d70-221d-461d-ae03-dc235b1db340
 
@@ -41,20 +41,20 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://news.google.com/rss/articles/CBMikAFBVV95cUxOc1d5aEV0bFYyUUtaMjZyV0owZ2s5MmxET0dPUkhDeEZxRks3YUxtQktDZjlpb1ZlWlVBUWIxdm1hQmFjUlNvaWl6ek1ucDMtYl9QSWM0amRRVFQ2V2s2OXp3c1RZZkUwR1VPLV9CaW5MR1J0NkRib1RGZXRDQnpNMm1QSkphdWpEMmxsZTBCV2Q?oc=5
 8. **Tech stocks pull US markets lower early with Anthropic’s historic debut doing little to slow rout** — timescall — Score 53
    https://www.timescall.com/2026/11/20/tech-stocks-us-markets/
-9. **Broadening access to AI for scientists** — OpenAI Blog — Score 45
-   https://openai.com/index/expanding-chatgpt-for-academic-researchers
-10. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
+9. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPdG5SWVVRUERNQ21Rd3NIMG1ROW1weU5qcC1RYnJBVnB1bDFXaHhjWTQySVY4LXV5cXBVZUwzZE9ZMjN5ZXZtZzRPRHBIdFdaZ3VLZE16aFNTTVhmckhmQVNMNERjT3lCWTNjOFVlYjBlVFpPSWJvcjFXZDRfQ3p5c2FiaFdvTm0xUV83VE5fRjA4c0Rwa2lVM3I5dWdrR3I2SVRNNTZOR0RKakJZNG4xQ051c2xsOVRQUUtxOWw5bw?oc=5
+10. **Cisco, OpenAI Launch Project to Safeguard Agentic AI - WSJ** — AI Agents — Score 45
+   https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWRzSVl5NXdtMlRvTWxOYmItRm53SkNyVGdNOVhPSkZGMV82cHJhdWNYeDRrLVlUaUxPTC1QX0IyX2d4UkNKTkF1NVd3d21tcUc5QWk4Wm1qUWl3QlVxOFBJV3lpaWxreUxWaEdpRXZpR29YcUpsa1dJYkVGMDh4a0llVUZJaDBYa3ZsbWNR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Can AI help scientists identify promising drug candidates?** — https://openai.com/index/introducing-medchembench
-- **AI may not work like the human brain after all, scientists discover** — https://www.sciencedaily.com/releases/2026/11/261120075701.htm
 - **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
 - **Scientists tracked kids for 8 years. What they found about screen time was surprising** — https://www.sciencedaily.com/releases/2026/11/261116014725.htm
 - **Quantum computers are getting too powerful to check. Scientists have a solution** — https://www.sciencedaily.com/releases/2026/11/261115085557.htm
+- **AI is turbocharging cyberattacks — can computer scientists catch up?** — https://www.nature.com/articles/d41586-026-03775-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3020
+- Total stories tracked: 3033
 - Most active topic: nvidia
 - Busiest category: AI General News
 
