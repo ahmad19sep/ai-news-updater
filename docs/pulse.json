@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:44:27.745614+00:00",
+  "generated_at": "2026-11-23T07:44:02.110050+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,66 +7,12 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 20,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "Kling",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-          "signal": "Inkling 2 Mini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. Wha",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50583761",
-          "signal": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "87% of the Anthropic power will come from gas and 11% from coal in 202",
       "category": "use_case",
@@ -99,6 +45,8 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -106,8 +54,8 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -121,28 +69,28 @@
         },
         {
           "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+        },
+        {
+          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
           "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0tiOOGi6tHI",
-          "signal": "NEW ChatGPT Update is Absolutely INSANE!"
+          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
+          "signal": "intentando hacer las tareas sin chatGPT😬😬"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vOSONsETBzQ",
-          "signal": "ChatGPT Astra 6.2 JUST Dropped - I Compared it With Fable 5.2"
+          "url": "https://www.youtube.com/watch?v=1mlma5LUSrM",
+          "signal": "Le pido a ChatGPT que cuide mi huevo (SALE MAL 💀)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LaaiuCDVRJc",
-          "signal": "ChatGPT 完整教學！換上 GPT-6 後 10 個必學功能＋ 4 種方案實測比較｜2026 秋季版"
+          "url": "https://www.youtube.com/watch?v=aOTTVJx1Nio",
+          "signal": "before we had chatgpt, we had her 😂 #shorts #viral #gaming"
         }
       ],
       "content_ideas": []
@@ -175,7 +123,61 @@
       "content_ideas": []
     },
     {
+      "name": "Kling",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "signal": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Data Processing Incidents on Inference Providers",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "signal": "Data Processing Incidents on Inference Providers"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Progress map for the Lean formalization of Alessandro Masullo's manusc",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -195,8 +197,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-          "signal": "Data Processing Incidents on Inference Providers"
+          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+          "signal": "Progress map for the Lean formalization of Alessandro Masullo's manuscript"
         }
       ],
       "content_ideas": []
@@ -269,7 +271,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -279,33 +281,6 @@
           "platform": "hackernews",
           "url": "https://pwn.ai/upload2shell",
           "signal": "Upload2Shell (CVE-2026-125396)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "ClawDOS – An AI coding agent for DOS",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "http://ricapar.net/ClawDOS/",
-          "signal": "ClawDOS – An AI coding agent for DOS"
         }
       ],
       "content_ideas": []
@@ -338,6 +313,33 @@
       "content_ideas": []
     },
     {
+      "name": "AI is becoming a disaster for the climate",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+          "signal": "AI is becoming a disaster for the climate"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "AI Supply Chain Security: What Canary Tokens Found",
       "category": "use_case",
       "momentum": "rising",
@@ -350,7 +352,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -365,11 +367,12 @@
       "content_ideas": []
     },
     {
-      "name": "AI is becoming a disaster for the climate",
+      "name": "Ask HN: Are the trades a safe career transition?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -385,8 +388,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
-          "signal": "AI is becoming a disaster for the climate"
+          "url": "https://news.ycombinator.com/item?id=50600771",
+          "signal": "Ask HN: Are the trades a safe career transition?"
         }
       ],
       "content_ideas": []
@@ -394,18 +397,21 @@
   ],
   "rising_tools": [
     {
-      "name": "Kling",
+      "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -413,20 +419,44 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-          "signal": "Inkling 2 Mini"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
+          "signal": "ChatGPT Called My Checkmate Invalid 😭"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
+          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
+          "signal": "intentando hacer las tareas sin chatGPT😬😬"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1mlma5LUSrM",
+          "signal": "Le pido a ChatGPT que cuide mi huevo (SALE MAL 💀)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aOTTVJx1Nio",
+          "signal": "before we had chatgpt, we had her 😂 #shorts #viral #gaming"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
+      "name": "Kling",
       "category": "tool_launch",
-      "momentum": "hot",
+      "momentum": "cooling",
       "platforms": [
-        "linkedin_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -441,34 +471,9 @@
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
-          "signal": "ChatGPT Called My Checkmate Invalid 😭"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
-          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0tiOOGi6tHI",
-          "signal": "NEW ChatGPT Update is Absolutely INSANE!"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=vOSONsETBzQ",
-          "signal": "ChatGPT Astra 6.2 JUST Dropped - I Compared it With Fable 5.2"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LaaiuCDVRJc",
-          "signal": "ChatGPT 完整教學！換上 GPT-6 後 10 個必學功能＋ 4 種方案實測比較｜2026 秋季版"
+          "platform": "hackernews",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "signal": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth"
         }
       ],
       "content_ideas": []
@@ -530,5 +535,5 @@
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Kling — strongest signal this cycle"
+  "tool_of_week_candidate": "87% of the Anthropic power will come from gas and 11% from coal in 202 — strongest signal this cycle"
 }
