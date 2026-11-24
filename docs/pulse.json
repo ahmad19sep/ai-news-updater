@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T23:56:57.449548+00:00",
+  "generated_at": "2026-11-24T09:58:04.629439+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,39 +7,12 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 24,
+      "hackernews": 19,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
-    {
-      "name": "87% of the Anthropic power will come from gas and 11% from coal in 202",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-          "signal": "87% of the Anthropic power will come from gas and 11% from coal in 2028"
-        }
-      ],
-      "content_ideas": []
-    },
     {
       "name": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "category": "use_case",
@@ -72,8 +45,7 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -91,11 +63,6 @@
           "platform": "hackernews",
           "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
           "signal": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gpxvTAGFrQk",
-          "signal": "Kling AI  From Prompt to Visual"
         }
       ],
       "content_ideas": []
@@ -107,7 +74,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -134,50 +100,23 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0tiOOGi6tHI",
-          "signal": "NEW ChatGPT Update is Absolutely INSANE!"
+          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
+          "signal": "intentando hacer las tareas sin chatGPT😬😬"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+          "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
+          "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
-          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=acy5oBkff6Y",
+          "signal": "Girls vs Boys Using ChatGPT 😂💀 | The Difference Is Hilarious"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
-          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The Mythology of Conscious AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-          "signal": "The Mythology of Conscious AI"
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20dots",
+          "signal": "chatgpt dots"
         }
       ],
       "content_ideas": []
@@ -210,8 +149,8 @@
       "content_ideas": []
     },
     {
-      "name": "Data Processing Incidents on Inference Providers",
-      "category": "use_case",
+      "name": "Qwen",
+      "category": "tool_launch",
       "momentum": "rising",
       "platforms": [
         "hackernews"
@@ -222,16 +161,16 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-          "signal": "Data Processing Incidents on Inference Providers"
+          "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+          "signal": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file"
         }
       ],
       "content_ideas": []
@@ -259,34 +198,6 @@
           "platform": "hackernews",
           "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
           "signal": "AI is becoming a disaster for the climate"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Amodei reportedly suggested games could pacify masses after AI took th",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 4,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-          "signal": "Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)"
         }
       ],
       "content_ideas": []
@@ -320,18 +231,48 @@
       "content_ideas": []
     },
     {
-      "name": "Qwen",
-      "category": "tool_launch",
+      "name": "Amodei reportedly suggested games could pacify masses after AI took th",
+      "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "hackernews"
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 4,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+          "signal": "Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
+      "best_format": "reel",
       "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
@@ -339,15 +280,30 @@
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-          "signal": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_dSVEv5ptFc",
+          "signal": "¿Hermano o mejor amigo? Las IAs responden 🤖🪢 #Grok #Gemini #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zl6YXBRbJEQ",
+          "signal": "AI Shocked My Tricks 🤯😱 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_w7fVAR2WJ4",
+          "signal": "I Gave ChatGPT, Gemini and Ideogram the Same Prompt (Free AI Image Test)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZTQ_c6Rq85o",
+          "signal": "Gemini&#39;s New Personal Agent Is Here (Muse Killer?)"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "AI Supply Chain Security: What Canary Tokens Found",
+      "name": "Do Not Accept",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -359,7 +315,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 3,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -367,8 +323,75 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-          "signal": "AI Supply Chain Security: What Canary Tokens Found"
+          "url": "https://donotaccept.ai/",
+          "signal": "Do Not Accept"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M_1IGXSQX_g",
+          "signal": "Make Viral Stickman Shorts using FREE TOOLS (NO CLAUDE CODE) like Ricks Clips"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qDJ_ajB4Xto",
+          "signal": "How to access Claude for FREE ? | (100% working trick 🤯 )."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
+          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Declare is a UI language for you and your AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://davidtemkin.github.io/declarelang/",
+          "signal": "Declare is a UI language for you and your AI"
         }
       ],
       "content_ideas": []
@@ -388,7 +411,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 4,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -407,8 +430,7 @@
       "category": "tool_launch",
       "momentum": "cooling",
       "platforms": [
-        "hackernews",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
@@ -426,11 +448,6 @@
           "platform": "hackernews",
           "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
           "signal": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=gpxvTAGFrQk",
-          "signal": "Kling AI  From Prompt to Visual"
         }
       ],
       "content_ideas": []
@@ -442,7 +459,6 @@
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
-        "linkedin_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -469,28 +485,112 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=0tiOOGi6tHI",
-          "signal": "NEW ChatGPT Update is Absolutely INSANE!"
+          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
+          "signal": "intentando hacer las tareas sin chatGPT😬😬"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+          "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
+          "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
-          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=acy5oBkff6Y",
+          "signal": "Girls vs Boys Using ChatGPT 😂💀 | The Difference Is Hilarious"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=MdgI6WGZBJQ",
-          "signal": "Chat doing all the work 😭 #school #chatgpt #funny #trending #smallspinale"
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20dots",
+          "signal": "chatgpt dots"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_dSVEv5ptFc",
+          "signal": "¿Hermano o mejor amigo? Las IAs responden 🤖🪢 #Grok #Gemini #shorts"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zl6YXBRbJEQ",
+          "signal": "AI Shocked My Tricks 🤯😱 #ai #gemini #chatgpt #tech"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_w7fVAR2WJ4",
+          "signal": "I Gave ChatGPT, Gemini and Ideogram the Same Prompt (Free AI Image Test)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZTQ_c6Rq85o",
+          "signal": "Gemini&#39;s New Personal Agent Is Here (Muse Killer?)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M_1IGXSQX_g",
+          "signal": "Make Viral Stickman Shorts using FREE TOOLS (NO CLAUDE CODE) like Ricks Clips"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qDJ_ajB4Xto",
+          "signal": "How to access Claude for FREE ? | (100% working trick 🤯 )."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
+          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
         }
       ],
       "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "87% of the Anthropic power will come from gas and 11% from coal in 202 — strongest signal this cycle"
+  "tool_of_week_candidate": "GLM-5.4: Toward generalized coding with our first loop transformer — strongest signal this cycle"
 }
