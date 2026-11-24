@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:58:04.629439+00:00",
+  "generated_at": "2026-11-24T22:29:33.842719+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 19,
+      "hackernews": 20,
       "youtube": 106
     },
     "llm_provider": null
@@ -36,33 +36,6 @@
           "platform": "hackernews",
           "url": "https://z.ai/blog/glm-5.4",
           "signal": "GLM-5.4: Toward generalized coding with our first loop transformer"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Kling",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "signal": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth"
         }
       ],
       "content_ideas": []
@@ -100,23 +73,50 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
-          "signal": "intentando hacer las tareas sin chatGPT😬😬"
+          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
+          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
-          "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
+          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
+          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=acy5oBkff6Y",
-          "signal": "Girls vs Boys Using ChatGPT 😂💀 | The Difference Is Hilarious"
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20dots",
-          "signal": "chatgpt dots"
+          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Tidal bans AI-generated music",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+          "signal": "Tidal bans AI-generated music"
         }
       ],
       "content_ideas": []
@@ -149,6 +149,33 @@
       "content_ideas": []
     },
     {
+      "name": "Ask HN: Anthropic is accusing my company of distilling. How can I prov",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50630809",
+          "signal": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Qwen",
       "category": "tool_launch",
       "momentum": "rising",
@@ -161,7 +188,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -176,7 +203,7 @@
       "content_ideas": []
     },
     {
-      "name": "AI is becoming a disaster for the climate",
+      "name": "Declare is a UI language for you and your AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -196,36 +223,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
-          "signal": "AI is becoming a disaster for the climate"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: Are the trades a safe career transition?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50600771",
-          "signal": "Ask HN: Are the trades a safe career transition?"
+          "url": "https://davidtemkin.github.io/declarelang/",
+          "signal": "Declare is a UI language for you and your AI"
         }
       ],
       "content_ideas": []
@@ -259,45 +258,28 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
+      "name": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
+      "best_format": "short",
+      "video_worthy": 3,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_dSVEv5ptFc",
-          "signal": "¿Hermano o mejor amigo? Las IAs responden 🤖🪢 #Grok #Gemini #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=zl6YXBRbJEQ",
-          "signal": "AI Shocked My Tricks 🤯😱 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_w7fVAR2WJ4",
-          "signal": "I Gave ChatGPT, Gemini and Ideogram the Same Prompt (Free AI Image Test)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZTQ_c6Rq85o",
-          "signal": "Gemini&#39;s New Personal Agent Is Here (Muse Killer?)"
+          "platform": "hackernews",
+          "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+          "signal": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex"
         }
       ],
       "content_ideas": []
@@ -325,6 +307,34 @@
           "platform": "hackernews",
           "url": "https://donotaccept.ai/",
           "signal": "Do Not Accept"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Working with AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.anthropic.com/research/working-with-ai",
+          "signal": "Working with AI"
         }
       ],
       "content_ideas": []
@@ -368,33 +378,6 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Declare is a UI language for you and your AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://davidtemkin.github.io/declarelang/",
-          "signal": "Declare is a UI language for you and your AI"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "rising_tools": [
@@ -411,7 +394,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 6,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -421,33 +404,6 @@
           "platform": "hackernews",
           "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
           "signal": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Kling",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "signal": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth"
         }
       ],
       "content_ideas": []
@@ -485,67 +441,23 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
-          "signal": "intentando hacer las tareas sin chatGPT😬😬"
+          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
+          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
-          "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
+          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
+          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=acy5oBkff6Y",
-          "signal": "Girls vs Boys Using ChatGPT 😂💀 | The Difference Is Hilarious"
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20dots",
-          "signal": "chatgpt dots"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_dSVEv5ptFc",
-          "signal": "¿Hermano o mejor amigo? Las IAs responden 🤖🪢 #Grok #Gemini #shorts"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=zl6YXBRbJEQ",
-          "signal": "AI Shocked My Tricks 🤯😱 #ai #gemini #chatgpt #tech"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_w7fVAR2WJ4",
-          "signal": "I Gave ChatGPT, Gemini and Ideogram the Same Prompt (Free AI Image Test)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ZTQ_c6Rq85o",
-          "signal": "Gemini&#39;s New Personal Agent Is Here (Muse Killer?)"
+          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
         }
       ],
       "content_ideas": []
