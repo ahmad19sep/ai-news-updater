@@ -9,20 +9,20 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
 ## 🤯 Most Interesting / Real-World AI Uses
 1. **Can AI help scientists identify promising drug candidates?** — science angle
    https://openai.com/index/introducing-medchembench
-2. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
+2. **Fight AI slop without punishing legitimate researchers** — science angle
+   https://www.nature.com/articles/d41586-026-03824-3
+3. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
    https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/
-3. **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — science angle
+4. **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — science angle
    https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
-4. **Scientists tracked kids for 8 years. What they found about screen time was surprising** — science angle
-   https://www.sciencedaily.com/releases/2026/11/261116014725.htm
-5. **Quantum computers are getting too powerful to check. Scientists have a solution** — science angle
-   https://www.sciencedaily.com/releases/2026/11/261115085557.htm
-6. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
+5. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
    https://www.nature.com/articles/d41586-026-03775-9
-7. **AI may not work like the human brain after all, scientists discover** — science angle
+6. **AI may not work like the human brain after all, scientists discover** — science angle
    https://www.sciencedaily.com/releases/2026/11/261120075701.htm
-8. **Novartis rejects AI industry hopes to cure cancer in five to 10 years** — 2 upvotes on Reddit/HN
+7. **Novartis rejects AI industry hopes to cure cancer in five to 10 years** — 2 upvotes on Reddit/HN
    https://www.ft.com/content/1e5a9d70-221d-461d-ae03-dc235b1db340
+8. **What AI scribes mean for Cleveland patients - Signal Cleveland** — science angle
+   https://news.google.com/rss/articles/CBMifEFVX3lxTE1QbTB2MTk2bUNCOEl6VjlkTlR2VWdRUjVRTGU3M0stQ2o2Y3VCc08xQUpWdTJMNGVlQjZ0YkxibC1aODBVTlhwbzNBYlAya0Z6alNIZVhRVzRORDZXUkhBMXprU3Bic3BHUk9TZEVfSm5ZTnEtblRhM3UxY1k?oc=5
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX** — Dario Amodei News — Score 113
@@ -31,10 +31,10 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://news.google.com/rss/articles/CBMioAFBVV95cUxOSW9wWnlNbENyd0dVQ1dBUUxZTEsycU1KcG1Eb0w4UDhkR21DUWEyTTdCbnJUdXNWcmExTExtLWdBbWZPb1hyb29kNzhlYXVHaEx0ZGlseGcwbGliTGF4V29fSXJTTUdVemRTZmJNY0xVazZOT2hpdEZoR1duRmJwcGtPbUw4Q19lZWlpSlg0M0NfOTZCcHVCbURCN3FreGNF?oc=5
 3. **Deutsche Telekom invests €100 million in France's Mistral AI - TradingView** — Mistral News — Score 70
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeDlaMkg4aHFHS056Z2hfSXRCLXdTdTBoRXlqN1U4ZWNNRnpGaVBsNTJxQW5ZQmFBcEtod1BMQmt4UWZLbF92aG1tcFJtaExrd0NLX1NyYkRYejNFMzFOd0djc1BITWRBR2VRYW1vWGNDZWlHMFMtYmVmcWk1Ynd2b1E5UWdaTzRCSXVlTXZIRjhWSzRHRlJLOWwzZmdyOTdILWYzWXB0djdGMDlieWladmItZEdrbGNTRHF3ek13SDJTZnpyTHZyaQ?oc=5
-4. **Tech outages are piling up, and AI is raising the stakes. Could this be the new normal?** — kxii — Score 63
-   https://www.kxii.com/2026/11/22/tech-outages-are-piling-up-ai-is-raising-stakes-could-this-be-new-normal/
-5. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 60.9
+4. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 60.9
    https://openai.com/index/introducing-gpt-6-2-astra-sol/
+5. **Tech outages are piling up, and AI is raising the stakes. Could this be the new normal?** — kxii — Score 60
+   https://www.kxii.com/2026/11/22/tech-outages-are-piling-up-ai-is-raising-stakes-could-this-be-new-normal/
 6. **OpenAI announces new AI safety program; researchers worry it won't be enough - NPR** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMikAFBVV95cUxOc1d5aEV0bFYyUUtaMjZyV0owZ2s5MmxET0dPUkhDeEZxRks3YUxtQktDZjlpb1ZlWlVBUWIxdm1hQmFjUlNvaWl6ek1ucDMtYl9QSWM0amRRVFQ2V2s2OXp3c1RZZkUwR1VPLV9CaW5MR1J0NkRib1RGZXRDQnpNMm1QSkphdWpEMmxsZTBCV2Q?oc=5
 7. **Tech stocks pull US markets lower early with Anthropic’s historic debut doing little to slow rout** — timescall — Score 53
@@ -48,14 +48,14 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
 
 ## 🧪 AI in Science Highlights
 - **Can AI help scientists identify promising drug candidates?** — https://openai.com/index/introducing-medchembench
+- **Fight AI slop without punishing legitimate researchers** — https://www.nature.com/articles/d41586-026-03824-3
 - **Kazakh medical university unveils AI doctor's assistant prototype - Qazinform** — https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUNPOTF5Ri1rYlhvTHRBemtVb2E3cy1vRXZGQTlXemlqaWtNN094REh1WkdaeWxFa3djR1Z5bGtZaHVhUllHVFVOYTJGT3pGMmI4N0hxNE5kYlhzbzFCRDZmSE5yeU82djlrTkRWT0dUWEQxSktOUXF6cjdZSUVpOUZpNHpXanNBdlZRb3JTcWF4dTR0TzVEa0JiSWVSY2PSAZ8BQVVfeXFMTjJOajBFZHlPZ1U0STdKdjZPLXk1VFFTWXpRWmMzcWRSWjl2TkJ1cXhvWmp3ejloMGVGSnZhbFI0Qk5xT25QbkU2R2p5Y2Y0UEhKY2ZiQl8tMGlfblB5TzZPbWE2RzdYVHBCYk1FYnYwZTJyNDBHeFhKQ0NnWm1Cb2lXZUpUeWVIZC1DOTRKNGpjZW1ZZlNLdTR2M3IyckpN?oc=5
-- **Scientists tracked kids for 8 years. What they found about screen time was surprising** — https://www.sciencedaily.com/releases/2026/11/261116014725.htm
-- **Quantum computers are getting too powerful to check. Scientists have a solution** — https://www.sciencedaily.com/releases/2026/11/261115085557.htm
 - **AI is turbocharging cyberattacks — can computer scientists catch up?** — https://www.nature.com/articles/d41586-026-03775-9
+- **AI may not work like the human brain after all, scientists discover** — https://www.sciencedaily.com/releases/2026/11/261120075701.htm
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3013
-- Most active topic: anthropic
+- Total stories tracked: 3050
+- Most active topic: nvidia
 - Busiest category: AI General News
 
 ---
