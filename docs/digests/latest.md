@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 16 Nov 2026 to 23 Nov 2026
+# 🗞️ AI THIS WEEK — 17 Nov 2026 to 24 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX**
@@ -35,16 +35,16 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://www.kxii.com/2026/11/22/tech-outages-are-piling-up-ai-is-raising-stakes-could-this-be-new-normal/
 5. **GPT‑6.2 Astra and Sol** — Hacker News AI — Score 60.9
    https://openai.com/index/introducing-gpt-6-2-astra-sol/
-6. **OpenAI's Altman Acknowledges Public Anger Over Data Centers - Barron's** — Sam Altman News — Score 53
-   https://news.google.com/rss/articles/CBMingFBVV95cUxPLXBTOFc4NUcyZWMxcHltNnR4eDN2YkFHRFdRUFJHU0dNOUFSM2VQOUNPSGFvODB2amtmSHlnYjdCOWhZV19HS2NFVHVvNDZPUVFPSTlIY0t3X0duOHJiRHVTTG5raEhxWENlaHFHa1QwUk9jamFrTFgzNkxKSEhIUWJISDIxaUVmWVR5RnMyZEZaNlN6YzhLYVMwbGxOQQ?oc=5
-7. **OpenAI announces new AI safety program; researchers worry it won't be enough - NPR** — Sam Altman News — Score 53
+6. **OpenAI announces new AI safety program; researchers worry it won't be enough - NPR** — Sam Altman News — Score 53
    https://news.google.com/rss/articles/CBMikAFBVV95cUxOc1d5aEV0bFYyUUtaMjZyV0owZ2s5MmxET0dPUkhDeEZxRks3YUxtQktDZjlpb1ZlWlVBUWIxdm1hQmFjUlNvaWl6ek1ucDMtYl9QSWM0amRRVFQ2V2s2OXp3c1RZZkUwR1VPLV9CaW5MR1J0NkRib1RGZXRDQnpNMm1QSkphdWpEMmxsZTBCV2Q?oc=5
-8. **Tech stocks pull US markets lower early with Anthropic’s historic debut doing little to slow rout** — timescall — Score 53
+7. **Tech stocks pull US markets lower early with Anthropic’s historic debut doing little to slow rout** — timescall — Score 53
    https://www.timescall.com/2026/11/20/tech-stocks-us-markets/
-9. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
+8. **OpenAI Chief Scientist Urges Industry Limits on AI Development - Bloomberg Government News** — AI in Coding — Score 50
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnU1MU1DVUI0TFJHMklHdjVPdEhJQ2M4Y1cxdUhXUkVEX3lxZXd6SWp4M0FoNkpnMHNHU1B2akJqWmUyTFRFOW1TRjRBaE1uVHNnZTZiZ245dlBBWXM0RGRLSGd2S0VxLUs3ZUhZUkpnNEMzcE8tS0R0dGY1MUQyMUFHZXR3cGFMMWNXMlMzSlEzeDF5bXA5VVhsbnBCbzlKTDd6UG42Ym1jQ1Bh?oc=5
+9. **Oregon-raised Nvidia CEO reinstated after China spy scandal** — portlandtribune — Score 46
+   https://portlandtribune.com/2026/11/23/oregon-raised-nvidia-ceo-reinstated-after-china-spy-scandal/
+10. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPdG5SWVVRUERNQ21Rd3NIMG1ROW1weU5qcC1RYnJBVnB1bDFXaHhjWTQySVY4LXV5cXBVZUwzZE9ZMjN5ZXZtZzRPRHBIdFdaZ3VLZE16aFNTTVhmckhmQVNMNERjT3lCWTNjOFVlYjBlVFpPSWJvcjFXZDRfQ3p5c2FiaFdvTm0xUV83VE5fRjA4c0Rwa2lVM3I5dWdrR3I2SVRNNTZOR0RKakJZNG4xQ051c2xsOVRQUUtxOWw5bw?oc=5
-10. **Cisco, OpenAI Launch Project to Safeguard Agentic AI - WSJ** — AI Agents — Score 45
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWRzSVl5NXdtMlRvTWxOYmItRm53SkNyVGdNOVhPSkZGMV82cHJhdWNYeDRrLVlUaUxPTC1QX0IyX2d4UkNKTkF1NVd3d21tcUc5QWk4Wm1qUWl3QlVxOFBJV3lpaWxreUxWaEdpRXZpR29YcUpsa1dJYkVGMDh4a0llVUZJaDBYa3ZsbWNR?oc=5
 
 ## 🧪 AI in Science Highlights
 - **Can AI help scientists identify promising drug candidates?** — https://openai.com/index/introducing-medchembench
@@ -54,8 +54,8 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
 - **AI is turbocharging cyberattacks — can computer scientists catch up?** — https://www.nature.com/articles/d41586-026-03775-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 3033
-- Most active topic: nvidia
+- Total stories tracked: 3013
+- Most active topic: anthropic
 - Busiest category: AI General News
 
 ---
