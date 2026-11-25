@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:29:33.842719+00:00",
+  "generated_at": "2026-11-25T08:40:34.201646+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 20,
+      "hackernews": 22,
       "youtube": 106
     },
     "llm_provider": null
@@ -45,16 +45,15 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
+        "linkedin_inferred",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -65,11 +64,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
           "signal": "ChatGPT Called My Checkmate Invalid 😭"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
         },
         {
           "platform": "youtube",
@@ -90,6 +84,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
           "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KmcTu2EigTs",
+          "signal": "Learn 95% of ChatGPT Work in Under 20 Minutes"
         }
       ],
       "content_ideas": []
@@ -122,33 +121,6 @@
       "content_ideas": []
     },
     {
-      "name": "Progress map for the Lean formalization of Alessandro Masullo's manusc",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-          "signal": "Progress map for the Lean formalization of Alessandro Masullo's manuscript"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Ask HN: Anthropic is accusing my company of distilling. How can I prov",
       "category": "use_case",
       "momentum": "rising",
@@ -161,7 +133,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -178,7 +150,7 @@
     {
       "name": "Qwen",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -258,6 +230,133 @@
       "content_ideas": []
     },
     {
+      "name": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50634426",
+          "signal": "Launch HN: Versine (YC F26) – MCP to send and receive money"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "cooling",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M_1IGXSQX_g",
+          "signal": "Make Viral Stickman Shorts using FREE TOOLS (NO CLAUDE CODE) like Ricks Clips"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qDJ_ajB4Xto",
+          "signal": "How to access Claude for FREE ? | (100% working trick 🤯 )."
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
+          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CsbujtkZbak",
+          "signal": "GTA 6 Clipping: How to Make Money with GTA 6 With claude (Full Tutorial)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Working with AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews",
+        "linkedin_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.anthropic.com/research/working-with-ai",
+          "signal": "Working with AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+          "signal": "Marginalia Search, Money, C++, Rust, AI, Stuff"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
       "category": "use_case",
       "momentum": "rising",
@@ -283,69 +382,14 @@
         }
       ],
       "content_ideas": []
-    },
+    }
+  ],
+  "rising_tools": [
     {
-      "name": "Do Not Accept",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://donotaccept.ai/",
-          "signal": "Do Not Accept"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Working with AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.anthropic.com/research/working-with-ai",
-          "signal": "Working with AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
+      "name": "Chatgpt",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
         "linkedin_inferred",
         "youtube"
       ],
@@ -353,9 +397,9 @@
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -363,28 +407,41 @@
       "sources": [
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=M_1IGXSQX_g",
-          "signal": "Make Viral Stickman Shorts using FREE TOOLS (NO CLAUDE CODE) like Ricks Clips"
+          "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
+          "signal": "ChatGPT Called My Checkmate Invalid 😭"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=qDJ_ajB4Xto",
-          "signal": "How to access Claude for FREE ? | (100% working trick 🤯 )."
+          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
+          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
-          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
+          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
+          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
+          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KmcTu2EigTs",
+          "signal": "Learn 95% of ChatGPT Work in Under 20 Minutes"
         }
       ],
       "content_ideas": []
-    }
-  ],
-  "rising_tools": [
+    },
     {
       "name": "Qwen",
       "category": "tool_launch",
-      "momentum": "rising",
+      "momentum": "hot",
       "platforms": [
         "hackernews"
       ],
@@ -409,60 +466,6 @@
       "content_ideas": []
     },
     {
-      "name": "Chatgpt",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=63YNyKx_G3Y",
-          "signal": "ChatGPT Called My Checkmate Invalid 😭"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
-          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
-          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
-          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Claude",
       "category": "tool_launch",
       "momentum": "cooling",
@@ -478,7 +481,7 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
@@ -498,6 +501,11 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
           "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CsbujtkZbak",
+          "signal": "GTA 6 Clipping: How to Make Money with GTA 6 With claude (Full Tutorial)"
         }
       ],
       "content_ideas": []
