@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:25:10.369117+00:00",
+  "generated_at": "2026-11-26T21:37:28.564342+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,12 +7,41 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 18,
+      "hackernews": 13,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
+    {
+      "name": "The New York Times warns photographers not to update Photoshop over AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "signal": "The New York Times warns photographers not to update Photoshop over AI features"
+        }
+      ],
+      "content_ideas": []
+    },
     {
       "name": "Chatgpt",
       "category": "tool_launch",
@@ -68,34 +97,7 @@
       "content_ideas": []
     },
     {
-      "name": "Ask HN: Anthropic is accusing my company of distilling. How can I prov",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50630809",
-          "signal": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Tidal bans AI-generated music",
+      "name": "Tracking Diseases Cured by AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -115,28 +117,26 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-          "signal": "Tidal bans AI-generated music"
+          "url": "https://diseasescuredbyai.com/",
+          "signal": "Tracking Diseases Cured by AI"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "The New York Times warns photographers not to update Photoshop over AI",
+      "name": "Moat: OpenRouter replacement",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 10,
+      "best_format": "short",
+      "video_worthy": 8,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -144,8 +144,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-          "signal": "The New York Times warns photographers not to update Photoshop over AI features"
+          "url": "https://commandcode.ai/moat",
+          "signal": "Moat: OpenRouter replacement"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Se",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+          "signal": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email"
         }
       ],
       "content_ideas": []
@@ -178,61 +205,6 @@
       "content_ideas": []
     },
     {
-      "name": "Launch HN: Versine (YC F26) – MCP to send and receive money",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50634426",
-          "signal": "Launch HN: Versine (YC F26) – MCP to send and receive money"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Working with AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews",
-        "linkedin_inferred"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.anthropic.com/research/working-with-ai",
-          "signal": "Working with AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Top open problems in mathematics ranked by LLM-assessed importance",
       "category": "use_case",
       "momentum": "rising",
@@ -260,51 +232,7 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
-          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_0C6K545Bzc",
-          "signal": "Claude Code for Free With 7 Billion Tokens a Month"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
-          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=CsbujtkZbak",
-          "signal": "GTA 6 Clipping: How to Make Money with GTA 6 With claude (Full Tutorial)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Mason – A lightweight Postgres read-replica, built on columna",
+      "name": "Ask HN: How do you find meaning of life at 41?",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -324,35 +252,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://masondata.ai/",
-          "signal": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
-          "signal": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex"
+          "url": "https://news.ycombinator.com/item?id=50657957",
+          "signal": "Ask HN: How do you find meaning of life at 41?"
         }
       ],
       "content_ideas": []
@@ -380,6 +281,87 @@
           "platform": "hackernews",
           "url": "https://danprice.ai/blog/opus-symphony",
           "signal": "Spending 35B Opus 5.5 Tokens to Write a Symphony"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "The USA as a Civilizations-esque map",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 3,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://karpathy.ai/usaciv/",
+          "signal": "The USA as a Civilizations-esque map"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "New York bans AI toys, including those using internet to talk to child",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+          "signal": "New York bans AI toys, including those using internet to talk to children"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: Carry – Save every AI conversations as Markdown, in a folder ",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 2,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://carry.md/",
+          "signal": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own"
         }
       ],
       "content_ideas": []
@@ -439,52 +421,8 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
-          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_0C6K545Bzc",
-          "signal": "Claude Code for Free With 7 Billion Tokens a Month"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
-          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=CsbujtkZbak",
-          "signal": "GTA 6 Clipping: How to Make Money with GTA 6 With claude (Full Tutorial)"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "Chatgpt — strongest signal this cycle"
+  "tool_of_week_candidate": "The New York Times warns photographers not to update Photoshop over AI — strongest signal this cycle"
 }
