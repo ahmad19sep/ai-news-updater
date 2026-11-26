@@ -27,24 +27,24 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX** — Dario Amodei News — Score 113
    https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJMVk1d3RFd0xGX0Z2X2h1MnZIaU95SlRVeDR2M0JiXzNCY09oZlpmMlZxRnEtOFBsend2SkNDbU40djB4YlN3NHVTcWVRS3RxNktTR09UWnE2dExMVVdrdEpMWWgtS085QkJTUXByTXdKWkVBV3gyUmNwcnFCd3MzRndrSEZScElQV3M1akRYYnVubHpacGszRVZva2hrYzRxTERTSHhvNWYzemZQOEd0ajlxSkprQndSVGdkbktDZHFn?oc=5
-2. **Deutsche Telekom’s Tech Fund Invests $110 Million in Mistral AI - WSJ** — Mistral News — Score 70
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxOSW9wWnlNbENyd0dVQ1dBUUxZTEsycU1KcG1Eb0w4UDhkR21DUWEyTTdCbnJUdXNWcmExTExtLWdBbWZPb1hyb29kNzhlYXVHaEx0ZGlseGcwbGliTGF4V29fSXJTTUdVemRTZmJNY0xVazZOT2hpdEZoR1duRmJwcGtPbUw4Q19lZWlpSlg0M0NfOTZCcHVCbURCN3FreGNF?oc=5
-3. **Deutsche Telekom invests €100 million in France's Mistral AI - TradingView** — Mistral News — Score 70
+2. **Deutsche Telekom invests €100 million in France's Mistral AI - TradingView** — Mistral News — Score 70
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeDlaMkg4aHFHS056Z2hfSXRCLXdTdTBoRXlqN1U4ZWNNRnpGaVBsNTJxQW5ZQmFBcEtod1BMQmt4UWZLbF92aG1tcFJtaExrd0NLX1NyYkRYejNFMzFOd0djc1BITWRBR2VRYW1vWGNDZWlHMFMtYmVmcWk1Ynd2b1E5UWdaTzRCSXVlTXZIRjhWSzRHRlJLOWwzZmdyOTdILWYzWXB0djdGMDlieWladmItZEdrbGNTRHF3ek13SDJTZnpyTHZyaQ?oc=5
-4. **Tech outages are piling up, and AI is raising the stakes. Could this be the new normal?** — kxii — Score 60
+3. **Tech outages are piling up, and AI is raising the stakes. Could this be the new normal?** — kxii — Score 60
    https://www.kxii.com/2026/11/22/tech-outages-are-piling-up-ai-is-raising-stakes-could-this-be-new-normal/
-5. **Tech stocks pull US markets lower early with Anthropic’s historic debut doing little to slow rout** — timescall — Score 53
+4. **Tech stocks pull US markets lower early with Anthropic’s historic debut doing little to slow rout** — timescall — Score 53
    https://www.timescall.com/2026/11/20/tech-stocks-us-markets/
-6. **Cisco, OpenAI Launch Project to Safeguard Agentic AI - WSJ** — AI Agents — Score 52
+5. **Cisco, OpenAI Launch Project to Safeguard Agentic AI - WSJ** — AI Agents — Score 52
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWRzSVl5NXdtMlRvTWxOYmItRm53SkNyVGdNOVhPSkZGMV82cHJhdWNYeDRrLVlUaUxPTC1QX0IyX2d4UkNKTkF1NVd3d21tcUc5QWk4Wm1qUWl3QlVxOFBJV3lpaWxreUxWaEdpRXZpR29YcUpsa1dJYkVGMDh4a0llVUZJaDBYa3ZsbWNR?oc=5
-7. **OpenAI Chief Scientist Urges Industry Limits on AI Development - Bloomberg Government News** — AI in Coding — Score 47
+6. **OpenAI Chief Scientist Urges Industry Limits on AI Development - Bloomberg Government News** — AI in Coding — Score 47
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnU1MU1DVUI0TFJHMklHdjVPdEhJQ2M4Y1cxdUhXUkVEX3lxZXd6SWp4M0FoNkpnMHNHU1B2akJqWmUyTFRFOW1TRjRBaE1uVHNnZTZiZ245dlBBWXM0RGRLSGd2S0VxLUs3ZUhZUkpnNEMzcE8tS0R0dGY1MUQyMUFHZXR3cGFMMWNXMlMzSlEzeDF5bXA5VVhsbnBCbzlKTDd6UG42Ym1jQ1Bh?oc=5
-8. **Brands turn to AI micro dramas to engage consumers in China** — pekingpress — Score 46
+7. **Brands turn to AI micro dramas to engage consumers in China** — pekingpress — Score 46
    http://www.pekingpress.com/news/279454283/brands-turn-to-ai-micro-dramas-to-engage-consumers-in-china
-9. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
+8. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPdG5SWVVRUERNQ21Rd3NIMG1ROW1weU5qcC1RYnJBVnB1bDFXaHhjWTQySVY4LXV5cXBVZUwzZE9ZMjN5ZXZtZzRPRHBIdFdaZ3VLZE16aFNTTVhmckhmQVNMNERjT3lCWTNjOFVlYjBlVFpPSWJvcjFXZDRfQ3p5c2FiaFdvTm0xUV83VE5fRjA4c0Rwa2lVM3I5dWdrR3I2SVRNNTZOR0RKakJZNG4xQ051c2xsOVRQUUtxOWw5bw?oc=5
-10. **Trump says he plans to penalize US tech companies that build AI data centers in other countries - ABC7 Chicago** — AI in Coding — Score 43
+9. **Trump says he plans to penalize US tech companies that build AI data centers in other countries - ABC7 Chicago** — AI in Coding — Score 43
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMURzOFRBZGRubWxDa1N3a2NsS1l4WUJ5R2dXQ3J0QkpFRUlReHJ0UFAtdUx0SUFiVExremR0S00xTzhkMG1ZRGktenZfVnpkOXJGMU4tU3g4TWpQLUlPTDlEZDYycW5xbUU4STh4ZFY1ZVYzR2stVFVTUkRIdVpDeTZhSHJvZ2IyaU5RTzd4N0FRaFp6NTFaaUV2T3dLN0FEYklKNElCWVNqYjJOd2p4Tk5hczIzNmp5QkVlY3hVWjAzQQ?oc=5
+10. **U.S. tech companies that build AI data centers in other countries will be penalized, Trump says** — nbcconnecticut — Score 43
+   https://www.nbcconnecticut.com/news/national-international/us-tech-companies-build-international-ai-data-centers-trump-penalty/3798353/
 
 ## 🧪 AI in Science Highlights
 - **GPT-6 models demonstrate intrinsic protein-design capabilities** — https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
@@ -54,7 +54,7 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
 - **AI is turbocharging cyberattacks — can computer scientists catch up?** — https://www.nature.com/articles/d41586-026-03775-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2668
+- Total stories tracked: 2646
 - Most active topic: anthropic
 - Busiest category: AI General News
 
