@@ -1,4 +1,4 @@
-# 🗞️ AI THIS WEEK — 18 Nov 2026 to 25 Nov 2026
+# 🗞️ AI THIS WEEK — 19 Nov 2026 to 26 Nov 2026
 
 ## 🔥 Biggest Story of the Week
 **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX**
@@ -13,16 +13,16 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://news.google.com/rss/articles/CBMiU0FVX3lxTE55NV9TNU5DTlkzb2MteERHNHR6TS1jTWJETWxILUxFT2E0cnpfV1JlTjJXNTlWWElfdU5uSGptMGZUSGtBcVBFUmRYdXZ5T2k2bGlv?oc=5
 3. **Can AI help scientists identify promising drug candidates?** — science angle
    https://openai.com/index/introducing-medchembench
-4. **Fight AI slop without punishing legitimate researchers** — science angle
-   https://www.nature.com/articles/d41586-026-03824-3
-5. **Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists** — science angle
-   https://www.nature.com/articles/d41586-026-03836-z
-6. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
+4. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
    https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/
-7. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
+5. **AI is turbocharging cyberattacks — can computer scientists catch up?** — science angle
    https://www.nature.com/articles/d41586-026-03775-9
-8. **AI may not work like the human brain after all, scientists discover** — science angle
+6. **AI may not work like the human brain after all, scientists discover** — science angle
    https://www.sciencedaily.com/releases/2026/11/261120075701.htm
+7. **Fight AI slop without punishing legitimate researchers** — science angle
+   https://www.nature.com/articles/d41586-026-03824-3
+8. **Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists** — science angle
+   https://www.nature.com/articles/d41586-026-03836-z
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX** — Dario Amodei News — Score 113
@@ -39,22 +39,22 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWRzSVl5NXdtMlRvTWxOYmItRm53SkNyVGdNOVhPSkZGMV82cHJhdWNYeDRrLVlUaUxPTC1QX0IyX2d4UkNKTkF1NVd3d21tcUc5QWk4Wm1qUWl3QlVxOFBJV3lpaWxreUxWaEdpRXZpR29YcUpsa1dJYkVGMDh4a0llVUZJaDBYa3ZsbWNR?oc=5
 7. **OpenAI Chief Scientist Urges Industry Limits on AI Development - Bloomberg Government News** — AI in Coding — Score 47
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnU1MU1DVUI0TFJHMklHdjVPdEhJQ2M4Y1cxdUhXUkVEX3lxZXd6SWp4M0FoNkpnMHNHU1B2akJqWmUyTFRFOW1TRjRBaE1uVHNnZTZiZ245dlBBWXM0RGRLSGd2S0VxLUs3ZUhZUkpnNEMzcE8tS0R0dGY1MUQyMUFHZXR3cGFMMWNXMlMzSlEzeDF5bXA5VVhsbnBCbzlKTDd6UG42Ym1jQ1Bh?oc=5
-8. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
+8. **Brands turn to AI micro dramas to engage consumers in China** — pekingpress — Score 46
+   http://www.pekingpress.com/news/279454283/brands-turn-to-ai-micro-dramas-to-engage-consumers-in-china
+9. **Musk's SpaceXSI denies liability in UK lawmaker's lawsuit over Grok images - Reuters** — xAI News — Score 45
    https://news.google.com/rss/articles/CBMivwFBVV95cUxPdG5SWVVRUERNQ21Rd3NIMG1ROW1weU5qcC1RYnJBVnB1bDFXaHhjWTQySVY4LXV5cXBVZUwzZE9ZMjN5ZXZtZzRPRHBIdFdaZ3VLZE16aFNTTVhmckhmQVNMNERjT3lCWTNjOFVlYjBlVFpPSWJvcjFXZDRfQ3p5c2FiaFdvTm0xUV83VE5fRjA4c0Rwa2lVM3I5dWdrR3I2SVRNNTZOR0RKakJZNG4xQ051c2xsOVRQUUtxOWw5bw?oc=5
-9. **Trump says he plans to penalize US tech companies that build AI data centers in other countries - ABC7 Chicago** — AI in Coding — Score 43
+10. **Trump says he plans to penalize US tech companies that build AI data centers in other countries - ABC7 Chicago** — AI in Coding — Score 43
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMURzOFRBZGRubWxDa1N3a2NsS1l4WUJ5R2dXQ3J0QkpFRUlReHJ0UFAtdUx0SUFiVExremR0S00xTzhkMG1ZRGktenZfVnpkOXJGMU4tU3g4TWpQLUlPTDlEZDYycW5xbUU4STh4ZFY1ZVYzR2stVFVTUkRIdVpDeTZhSHJvZ2IyaU5RTzd4N0FRaFp6NTFaaUV2T3dLN0FEYklKNElCWVNqYjJOd2p4Tk5hczIzNmp5QkVlY3hVWjAzQQ?oc=5
-10. **U.S. tech companies that build AI data centers in other countries will be penalized, Trump says** — nbcconnecticut — Score 43
-   https://www.nbcconnecticut.com/news/national-international/us-tech-companies-build-international-ai-data-centers-trump-penalty/3798353/
 
 ## 🧪 AI in Science Highlights
 - **GPT-6 models demonstrate intrinsic protein-design capabilities** — https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
 - **‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs** — https://www.nature.com/articles/d41586-026-03835-0
 - **GPT-6 Now Capable of De Novo Protein Design: Advanced AI-Powered Protein Engineering Breakthrough - eu.36kr.com** — https://news.google.com/rss/articles/CBMiU0FVX3lxTE55NV9TNU5DTlkzb2MteERHNHR6TS1jTWJETWxILUxFT2E0cnpfV1JlTjJXNTlWWElfdU5uSGptMGZUSGtBcVBFUmRYdXZ5T2k2bGlv?oc=5
 - **Can AI help scientists identify promising drug candidates?** — https://openai.com/index/introducing-medchembench
-- **Fight AI slop without punishing legitimate researchers** — https://www.nature.com/articles/d41586-026-03824-3
+- **AI is turbocharging cyberattacks — can computer scientists catch up?** — https://www.nature.com/articles/d41586-026-03775-9
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2725
+- Total stories tracked: 2668
 - Most active topic: anthropic
 - Busiest category: AI General News
 
