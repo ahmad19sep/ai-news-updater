@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:44:32.329278+00:00",
+  "generated_at": "2026-11-26T08:25:10.369117+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 19,
+      "hackernews": 18,
       "youtube": 106
     },
     "llm_provider": null
@@ -18,14 +18,16 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -44,23 +46,23 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
+          "signal": "intentando hacer las tareas sin chatGPT😬😬"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
-          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
+          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
-          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
+          "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
-          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+          "url": "https://www.youtube.com/watch?v=cxFUBZuRH38",
+          "signal": "ChatGPT Threatened Levy Into Resigning 😭"
         }
       ],
       "content_ideas": []
@@ -120,6 +122,35 @@
       "content_ideas": []
     },
     {
+      "name": "The New York Times warns photographers not to update Photoshop over AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "signal": "The New York Times warns photographers not to update Photoshop over AI features"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Marginalia Search, Money, C++, Rust, AI, Stuff",
       "category": "use_case",
       "momentum": "rising",
@@ -142,33 +173,6 @@
           "platform": "hackernews",
           "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
           "signal": "Marginalia Search, Money, C++, Rust, AI, Stuff"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Declare is a UI language for you and your AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://davidtemkin.github.io/declarelang/",
-          "signal": "Declare is a UI language for you and your AI"
         }
       ],
       "content_ideas": []
@@ -256,6 +260,50 @@
       "content_ideas": []
     },
     {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "practical_earning",
+      "best_format": "long_form",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
+          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_0C6K545Bzc",
+          "signal": "Claude Code for Free With 7 Billion Tokens a Month"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
+          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CsbujtkZbak",
+          "signal": "GTA 6 Clipping: How to Make Money with GTA 6 With claude (Full Tutorial)"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Show HN: Mason – A lightweight Postgres read-replica, built on columna",
       "category": "use_case",
       "momentum": "rising",
@@ -268,7 +316,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -310,45 +358,6 @@
       "content_ideas": []
     },
     {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "cooling",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 3,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=_0C6K545Bzc",
-          "signal": "Claude Code for Free With 7 Billion Tokens a Month"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=VNUwywIv_8g",
-          "signal": "How to Make Money Clipping GTA 6 Videos/Streams Without Claude and Laptop"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=CsbujtkZbak",
-          "signal": "GTA 6 Clipping: How to Make Money with GTA 6 With claude (Full Tutorial)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
       "category": "use_case",
       "momentum": "rising",
@@ -382,14 +391,16 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
+      "pillar": "discovery",
+      "best_format": "reel",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -408,23 +419,23 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc",
-          "signal": "ChatGPT Tutorial: How to Use Chat GPT For Beginners"
+          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
+          "signal": "intentando hacer las tareas sin chatGPT😬😬"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=hTAsWGTK6wY",
-          "signal": "FULL ChatGPT Tutorial For Beginners in 2026! (FULL COURSE)"
+          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=F1PEICLlEBk",
-          "signal": "Ultimate Guide to ChatGPT in 2026 (Updated for ChatGPT 6 Astra)"
+          "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
+          "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
-          "signal": "12 Life-Changing Ways To Use ChatGPT in 2026"
+          "url": "https://www.youtube.com/watch?v=cxFUBZuRH38",
+          "signal": "ChatGPT Threatened Levy Into Resigning 😭"
         }
       ],
       "content_ideas": []
@@ -432,7 +443,7 @@
     {
       "name": "Claude",
       "category": "tool_launch",
-      "momentum": "cooling",
+      "momentum": "hot",
       "platforms": [
         "facebook_inferred",
         "instagram_inferred",
@@ -444,12 +455,17 @@
       "local_relevance": 0,
       "pillar": "practical_earning",
       "best_format": "long_form",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": true,
         "note": ""
       },
       "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
+          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
+        },
         {
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=_0C6K545Bzc",
