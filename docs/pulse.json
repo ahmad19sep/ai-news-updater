@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:40:04.903632+00:00",
+  "generated_at": "2026-11-27T21:20:53.873442+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,27 +7,25 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 17,
+      "hackernews": 21,
       "youtube": 106
     },
     "llm_provider": null
   },
   "trends": [
     {
-      "name": "The New York Times warns photographers not to update Photoshop over AI",
+      "name": "AI made self-hosting fun again",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
@@ -36,8 +34,35 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-          "signal": "The New York Times warns photographers not to update Photoshop over AI features"
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "signal": "AI made self-hosting fun again"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Group chat where your AI talks behind your back",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://construct22.com/",
+          "signal": "Group chat where your AI talks behind your back"
         }
       ],
       "content_ideas": []
@@ -75,8 +100,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
-          "signal": "intentando hacer las tareas sin chatGPT😬😬"
+          "url": "https://www.youtube.com/watch?v=EowoOJuK0Qs",
+          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
         },
         {
           "platform": "youtube",
@@ -90,35 +115,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=biJ3KzSg-1o",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "AI made self-hosting fun again",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://janlukas.blog/posts/ai-self-hosting",
-          "signal": "AI made self-hosting fun again"
+          "url": "https://www.youtube.com/watch?v=-ZFyby8Bc8Y",
+          "signal": "ChatGPT Has Become the Teacher’s Teacher! 😂🤖 The Student Has Outsmarted Everyone! #Shorts"
         }
       ],
       "content_ideas": []
@@ -205,7 +203,7 @@
       "content_ideas": []
     },
     {
-      "name": "The group chat where your AI talks behind your back",
+      "name": "US Air Force's cloud computing platform hacked",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -217,7 +215,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 5,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -225,8 +223,116 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://construct22.com/",
-          "signal": "The group chat where your AI talks behind your back"
+          "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+          "signal": "US Air Force's cloud computing platform hacked"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "I'm Scared of AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thesoapbox.email/archive/3",
+          "signal": "I'm Scared of AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Show HN: bouncemarket – a live prediction market game for a bouncing b",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "explainer",
+      "best_format": "short",
+      "video_worthy": 9,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://bouncemarket.minhanhday.com/",
+          "signal": "Show HN: bouncemarket – a live prediction market game for a bouncing ball"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Kimi for Science: More scientific ideas, made possible",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 7,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kimi.ai/news/kimi-for-science-program",
+          "signal": "Kimi for Science: More scientific ideas, made possible"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI on brink of making online security useless, mathematicians fear",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 6,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+          "signal": "AI on brink of making online security useless, mathematicians fear"
         }
       ],
       "content_ideas": []
@@ -267,132 +373,6 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
           "signal": "chatgpt vs gemini"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Ask HN: How do you find meaning of life at 41?",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=50657957",
-          "signal": "Ask HN: How do you find meaning of life at 41?"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ufboGVIof_k",
-          "signal": "The Ultimate Claude Ai Editing Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OcBCXivBbqM",
-          "signal": "Claude AI Can Now Create FULL Documentary Videos (FREE Method)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kxLjzcfGJoQ",
-          "signal": "🔥Make 2D Animation Videos FREE with CLAUDE AI✅FULL WORKFLOW🔥AI se Animation VIDEO Kaise Banaye FREE"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
-          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "The USA as a Civilizations-esque map",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://karpathy.ai/usaciv/",
-          "signal": "The USA as a Civilizations-esque map"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://danprice.ai/blog/opus-symphony",
-          "signal": "Spending 35B Opus 5.5 Tokens to Write a Symphony"
         }
       ],
       "content_ideas": []
@@ -432,8 +412,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=moHpWH4-6wE",
-          "signal": "intentando hacer las tareas sin chatGPT😬😬"
+          "url": "https://www.youtube.com/watch?v=EowoOJuK0Qs",
+          "signal": "Me treating ChatGPT like my employee 😂💀 You too?"
         },
         {
           "platform": "youtube",
@@ -447,8 +427,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=biJ3KzSg-1o",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+          "url": "https://www.youtube.com/watch?v=-ZFyby8Bc8Y",
+          "signal": "ChatGPT Has Become the Teacher’s Teacher! 😂🤖 The Student Has Outsmarted Everyone! #Shorts"
         }
       ],
       "content_ideas": []
@@ -492,53 +472,8 @@
         }
       ],
       "content_ideas": []
-    },
-    {
-      "name": "Claude",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
-        "linkedin_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 4,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=ufboGVIof_k",
-          "signal": "The Ultimate Claude Ai Editing Tutorial 2026"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OcBCXivBbqM",
-          "signal": "Claude AI Can Now Create FULL Documentary Videos (FREE Method)"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=kxLjzcfGJoQ",
-          "signal": "🔥Make 2D Animation Videos FREE with CLAUDE AI✅FULL WORKFLOW🔥AI se Animation VIDEO Kaise Banaye FREE"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
-          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
-        }
-      ],
-      "content_ideas": []
     }
   ],
   "pain_points": [],
-  "tool_of_week_candidate": "The New York Times warns photographers not to update Photoshop over AI — strongest signal this cycle"
+  "tool_of_week_candidate": "AI made self-hosting fun again — strongest signal this cycle"
 }
