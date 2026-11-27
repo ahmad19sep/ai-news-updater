@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T21:37:28.564342+00:00",
+  "generated_at": "2026-11-27T08:40:04.903632+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 13,
+      "hackernews": 17,
       "youtube": 106
     },
     "llm_provider": null
@@ -80,11 +80,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
           "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
         },
@@ -92,6 +87,65 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=cxFUBZuRH38",
           "signal": "ChatGPT Threatened Levy Into Resigning 😭"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=biJ3KzSg-1o",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "AI made self-hosting fun again",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "signal": "AI made self-hosting fun again"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Se",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+          "signal": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email"
         }
       ],
       "content_ideas": []
@@ -136,7 +190,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 8,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -151,7 +205,7 @@
       "content_ideas": []
     },
     {
-      "name": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Se",
+      "name": "The group chat where your AI talks behind your back",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -163,7 +217,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 7,
+      "video_worthy": 5,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -171,62 +225,48 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-          "signal": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email"
+          "url": "https://construct22.com/",
+          "signal": "The group chat where your AI talks behind your back"
         }
       ],
       "content_ideas": []
     },
     {
-      "name": "Marginalia Search, Money, C++, Rust, AI, Stuff",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "practical_earning",
-      "best_format": "long_form",
-      "video_worthy": 7,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-          "signal": "Marginalia Search, Money, C++, Rust, AI, Stuff"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Top open problems in mathematics ranked by LLM-assessed importance",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 4,
+      "best_format": "reel",
+      "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.proofatlas.ai/open-problems/",
-          "signal": "Top open problems in mathematics ranked by LLM-assessed importance"
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+          "signal": "AI agents now control part of DeepMind's compute for Gemini experiments"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WeSmvBq-UME",
+          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
         }
       ],
       "content_ideas": []
@@ -259,28 +299,46 @@
       "content_ideas": []
     },
     {
-      "name": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
-      "category": "use_case",
-      "momentum": "rising",
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
       "platforms": [
-        "hackernews"
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 3,
+      "best_format": "reel",
+      "video_worthy": 4,
       "monetization": {
-        "affiliate_likely": false,
+        "affiliate_likely": true,
         "note": ""
       },
       "sources": [
         {
-          "platform": "hackernews",
-          "url": "https://danprice.ai/blog/opus-symphony",
-          "signal": "Spending 35B Opus 5.5 Tokens to Write a Symphony"
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ufboGVIof_k",
+          "signal": "The Ultimate Claude Ai Editing Tutorial 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OcBCXivBbqM",
+          "signal": "Claude AI Can Now Create FULL Documentary Videos (FREE Method)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kxLjzcfGJoQ",
+          "signal": "🔥Make 2D Animation Videos FREE with CLAUDE AI✅FULL WORKFLOW🔥AI se Animation VIDEO Kaise Banaye FREE"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
+          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
         }
       ],
       "content_ideas": []
@@ -298,7 +356,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 3,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -313,7 +371,7 @@
       "content_ideas": []
     },
     {
-      "name": "New York bans AI toys, including those using internet to talk to child",
+      "name": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -325,7 +383,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 2,
+      "video_worthy": 4,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -333,35 +391,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
-          "signal": "New York bans AI toys, including those using internet to talk to children"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Show HN: Carry – Save every AI conversations as Markdown, in a folder ",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "explainer",
-      "best_format": "short",
-      "video_worthy": 2,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://carry.md/",
-          "signal": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own"
+          "url": "https://danprice.ai/blog/opus-symphony",
+          "signal": "Spending 35B Opus 5.5 Tokens to Write a Symphony"
         }
       ],
       "content_ideas": []
@@ -406,11 +437,6 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=J7onrpfgIy8",
-          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
-        },
-        {
-          "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=LPAIVZtjq9k",
           "signal": "Meu ChatGPT Fez o Melhor Desenho #shorts"
         },
@@ -418,6 +444,96 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=cxFUBZuRH38",
           "signal": "ChatGPT Threatened Levy Into Resigning 😭"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=biJ3KzSg-1o",
+          "signal": "chatgpt gone wrong part 4😂 #shorts #funny #chatgpt #viral #trending #couple #relatable #shortsfeed"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Gemini",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "hackernews",
+        "instagram_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 5,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+          "signal": "AI agents now control part of DeepMind's compute for Gemini experiments"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WeSmvBq-UME",
+          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
+          "signal": "chatgpt vs gemini"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Claude",
+      "category": "tool_launch",
+      "momentum": "hot",
+      "platforms": [
+        "facebook_inferred",
+        "instagram_inferred",
+        "linkedin_inferred",
+        "youtube"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "reel",
+      "video_worthy": 4,
+      "monetization": {
+        "affiliate_likely": true,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ufboGVIof_k",
+          "signal": "The Ultimate Claude Ai Editing Tutorial 2026"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OcBCXivBbqM",
+          "signal": "Claude AI Can Now Create FULL Documentary Videos (FREE Method)"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kxLjzcfGJoQ",
+          "signal": "🔥Make 2D Animation Videos FREE with CLAUDE AI✅FULL WORKFLOW🔥AI se Animation VIDEO Kaise Banaye FREE"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OMfU5iq8Eik",
+          "signal": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)"
         }
       ],
       "content_ideas": []
