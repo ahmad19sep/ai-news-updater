@@ -11,18 +11,18 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://diseasescuredbyai.com/
 2. **‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs** — science angle
    https://www.nature.com/articles/d41586-026-03835-0
-3. **Can AI help scientists identify promising drug candidates?** — science angle
+3. **China’s Tencent makes AI drug discovery breakthrough with Nature paper - South China Morning Post** — science angle
+   https://news.google.com/rss/articles/CBMiugFBVV95cUxPYUJVQW80Vk1pX0tzaEdkTmxIUmZITDZweW5JUEgzdHg5d0R2czE2R1dOWDlGYXZPNTBfNnJJcnJTLVY1NjJJZ2VGeU5vVmhKLVBCMkFUODk4Y2F3ZmJWS25IcnJOZUNYcWF3eTgxdmQ3N0xacUlES2hOSDhqblRCaVNDWFBycXdsMFF6S3AxaU0wazVCQUdRZ0IzWHluT3FCdjJHbzg0TWQtSjJCZFNqV3cxbkxQcmM4MFHSAboBQVVfeXFMUFVsU2Z2V2xQbmhtZTllaFdra0QwV3dhdGxRX1ZTQS1uY1dCUHp4RVdqcjN5eElKY1JvSnFPVU1YclFhNWlqTG1WYjhtTWdiVlhZV2p2Y1VFYmVNWDFGbENwOGNxMHJkLVZ5SFp0NzJ3LXhfMEZQRnZrLXpwYklqMC1hWmJrTTREVnFWS05rZy1lQTZrcVB1UHNSSmstYXExS0M5aXVDUEQzQk9tOFhhTVpsMUNTdzlIMXhB?oc=5
+4. **Can AI help scientists identify promising drug candidates?** — science angle
    https://openai.com/index/introducing-medchembench
-4. **Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists** — science angle
+5. **Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists** — science angle
    https://www.nature.com/articles/d41586-026-03875-6
-5. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
+6. **Black high school students sue after AI mistakes Doritos bag for gun** — 118 upvotes on Reddit/HN
    https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/
-6. **GPT-6 Now Capable of De Novo Protein Design: Advanced AI-Powered Protein Engineering Breakthrough - eu.36kr.com** — science angle
+7. **GPT-6 Now Capable of De Novo Protein Design: Advanced AI-Powered Protein Engineering Breakthrough - eu.36kr.com** — science angle
    https://news.google.com/rss/articles/CBMiU0FVX3lxTE55NV9TNU5DTlkzb2MteERHNHR6TS1jTWJETWxILUxFT2E0cnpfV1JlTjJXNTlWWElfdU5uSGptMGZUSGtBcVBFUmRYdXZ5T2k2bGlv?oc=5
-7. **AI may not work like the human brain after all, scientists discover** — science angle
+8. **AI may not work like the human brain after all, scientists discover** — science angle
    https://www.sciencedaily.com/releases/2026/11/261120075701.htm
-8. **Fight AI slop without punishing legitimate researchers** — science angle
-   https://www.nature.com/articles/d41586-026-03824-3
 
 ## 📊 Top 10 Stories This Week (ranked)
 1. **Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - News4JAX** — Dario Amodei News — Score 113
@@ -39,22 +39,22 @@ All coverage: https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1o0V0VWVWFJM
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnU1MU1DVUI0TFJHMklHdjVPdEhJQ2M4Y1cxdUhXUkVEX3lxZXd6SWp4M0FoNkpnMHNHU1B2akJqWmUyTFRFOW1TRjRBaE1uVHNnZTZiZ245dlBBWXM0RGRLSGd2S0VxLUs3ZUhZUkpnNEMzcE8tS0R0dGY1MUQyMUFHZXR3cGFMMWNXMlMzSlEzeDF5bXA5VVhsbnBCbzlKTDd6UG42Ym1jQ1Bh?oc=5
 7. **ElevenLabs Targets $33 Billion Valuation in Early 2027 Funding Round - PYMNTS.com** — ElevenLabs News — Score 46
    https://news.google.com/rss/articles/CBMivAFBVV95cUxPeWlJMzhYMlgzRlQ5S1lqZEMxLXpLVjRmRmxuRi1CaFZCX3k2X2F2aTN6cHhUOVFGSEZobU43VUdna0E4Mk1LUUE3Mzl6MWViY1pjQXd6aktfY01uTGpiVWF5UlV1VnlBX3hoMXQwLTV4UmNwN1pWOW1YcnJaMTd6dFhvdWF4MFF6NVdoakFFVXFrOHFMNzdlYXdFZUZvMXJmb2FzZHZrMFMzUVF1TGhjWl9XcmVSSmdNbUFvXw?oc=5
-8. **Brands turn to AI micro dramas to engage consumers in China** — pekingpress — Score 46
-   http://www.pekingpress.com/news/279454283/brands-turn-to-ai-micro-dramas-to-engage-consumers-in-china
-9. **Trump says he plans to penalize US tech companies that build AI data centers in other countries - ABC7 Chicago** — AI in Coding — Score 43
+8. **Trump says he plans to penalize US tech companies that build AI data centers in other countries - ABC7 Chicago** — AI in Coding — Score 43
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMURzOFRBZGRubWxDa1N3a2NsS1l4WUJ5R2dXQ3J0QkpFRUlReHJ0UFAtdUx0SUFiVExremR0S00xTzhkMG1ZRGktenZfVnpkOXJGMU4tU3g4TWpQLUlPTDlEZDYycW5xbUU4STh4ZFY1ZVYzR2stVFVTUkRIdVpDeTZhSHJvZ2IyaU5RTzd4N0FRaFp6NTFaaUV2T3dLN0FEYklKNElCWVNqYjJOd2p4Tk5hczIzNmp5QkVlY3hVWjAzQQ?oc=5
-10. **U.S. tech companies that build AI data centers in other countries will be penalized, Trump says** — nbcconnecticut — Score 43
+9. **U.S. tech companies that build AI data centers in other countries will be penalized, Trump says** — nbcconnecticut — Score 43
    https://www.nbcconnecticut.com/news/national-international/us-tech-companies-build-international-ai-data-centers-trump-penalty/3798353/
+10. **Oregon-raised Nvidia CEO reinstated after China spy scandal** — portlandtribune — Score 43
+   https://portlandtribune.com/2026/11/23/oregon-raised-nvidia-ceo-reinstated-after-china-spy-scandal/
 
 ## 🧪 AI in Science Highlights
 - **GPT-6 models demonstrate intrinsic protein-design capabilities** — https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
 - **‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs** — https://www.nature.com/articles/d41586-026-03835-0
+- **China’s Tencent makes AI drug discovery breakthrough with Nature paper - South China Morning Post** — https://news.google.com/rss/articles/CBMiugFBVV95cUxPYUJVQW80Vk1pX0tzaEdkTmxIUmZITDZweW5JUEgzdHg5d0R2czE2R1dOWDlGYXZPNTBfNnJJcnJTLVY1NjJJZ2VGeU5vVmhKLVBCMkFUODk4Y2F3ZmJWS25IcnJOZUNYcWF3eTgxdmQ3N0xacUlES2hOSDhqblRCaVNDWFBycXdsMFF6S3AxaU0wazVCQUdRZ0IzWHluT3FCdjJHbzg0TWQtSjJCZFNqV3cxbkxQcmM4MFHSAboBQVVfeXFMUFVsU2Z2V2xQbmhtZTllaFdra0QwV3dhdGxRX1ZTQS1uY1dCUHp4RVdqcjN5eElKY1JvSnFPVU1YclFhNWlqTG1WYjhtTWdiVlhZV2p2Y1VFYmVNWDFGbENwOGNxMHJkLVZ5SFp0NzJ3LXhfMEZQRnZrLXpwYklqMC1hWmJrTTREVnFWS05rZy1lQTZrcVB1UHNSSmstYXExS0M5aXVDUEQzQk9tOFhhTVpsMUNTdzlIMXhB?oc=5
 - **Can AI help scientists identify promising drug candidates?** — https://openai.com/index/introducing-medchembench
 - **Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists** — https://www.nature.com/articles/d41586-026-03875-6
-- **GPT-6 Now Capable of De Novo Protein Design: Advanced AI-Powered Protein Engineering Breakthrough - eu.36kr.com** — https://news.google.com/rss/articles/CBMiU0FVX3lxTE55NV9TNU5DTlkzb2MteERHNHR6TS1jTWJETWxILUxFT2E0cnpfV1JlTjJXNTlWWElfdU5uSGptMGZUSGtBcVBFUmRYdXZ5T2k2bGlv?oc=5
 
 ## 📈 This Week in Numbers
-- Total stories tracked: 2544
+- Total stories tracked: 2442
 - Most active topic: nvidia
 - Busiest category: AI General News
 
