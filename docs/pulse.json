@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:20:53.873442+00:00",
+  "generated_at": "2026-11-28T07:54:27.699290+00:00",
   "meta": {
     "mode": "raw",
     "sources_used": [
@@ -7,7 +7,7 @@
       "youtube"
     ],
     "signal_counts": {
-      "hackernews": 21,
+      "hackernews": 27,
       "youtube": 106
     },
     "llm_provider": null
@@ -41,39 +41,10 @@
       "content_ideas": []
     },
     {
-      "name": "Group chat where your AI talks behind your back",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://construct22.com/",
-          "signal": "Group chat where your AI talks behind your back"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "Chatgpt",
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -81,7 +52,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -115,8 +86,35 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-ZFyby8Bc8Y",
-          "signal": "ChatGPT Has Become the Teacher’s Teacher! 😂🤖 The Student Has Outsmarted Everyone! #Shorts"
+          "url": "https://www.youtube.com/watch?v=gQGrs5bezuA",
+          "signal": "Cómo hacer enojar a ChatGPT en 7.36 segundos 😡"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Group chat where your AI talks behind your back",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://construct22.com/",
+          "signal": "Group chat where your AI talks behind your back"
         }
       ],
       "content_ideas": []
@@ -149,60 +147,6 @@
       "content_ideas": []
     },
     {
-      "name": "Tracking Diseases Cured by AI",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://diseasescuredbyai.com/",
-          "signal": "Tracking Diseases Cured by AI"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Moat: OpenRouter replacement",
-      "category": "use_case",
-      "momentum": "rising",
-      "platforms": [
-        "hackernews"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "short",
-      "video_worthy": 10,
-      "monetization": {
-        "affiliate_likely": false,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://commandcode.ai/moat",
-          "signal": "Moat: OpenRouter replacement"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
       "name": "US Air Force's cloud computing platform hacked",
       "category": "use_case",
       "momentum": "rising",
@@ -230,7 +174,7 @@
       "content_ideas": []
     },
     {
-      "name": "I'm Scared of AI",
+      "name": "Tracking Diseases Cured by AI",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -242,7 +186,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -250,8 +194,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://thesoapbox.email/archive/3",
-          "signal": "I'm Scared of AI"
+          "url": "https://diseasescuredbyai.com/",
+          "signal": "Tracking Diseases Cured by AI"
         }
       ],
       "content_ideas": []
@@ -269,7 +213,7 @@
       "local_relevance": 0,
       "pillar": "explainer",
       "best_format": "short",
-      "video_worthy": 9,
+      "video_worthy": 10,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -284,7 +228,61 @@
       "content_ideas": []
     },
     {
+      "name": "I'm Scared of AI",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 10,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://thesoapbox.email/archive/3",
+          "signal": "I'm Scared of AI"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
       "name": "Kimi for Science: More scientific ideas, made possible",
+      "category": "use_case",
+      "momentum": "rising",
+      "platforms": [
+        "hackernews"
+      ],
+      "what_it_is": "",
+      "audience_angle": "",
+      "linkedin_angle": "",
+      "local_relevance": 0,
+      "pillar": "discovery",
+      "best_format": "short",
+      "video_worthy": 8,
+      "monetization": {
+        "affiliate_likely": false,
+        "note": ""
+      },
+      "sources": [
+        {
+          "platform": "hackernews",
+          "url": "https://www.kimi.ai/news/kimi-for-science-program",
+          "signal": "Kimi for Science: More scientific ideas, made possible"
+        }
+      ],
+      "content_ideas": []
+    },
+    {
+      "name": "Woman evicted after landlord's AI assistant told her she could delay r",
       "category": "use_case",
       "momentum": "rising",
       "platforms": [
@@ -304,8 +302,8 @@
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://www.kimi.ai/news/kimi-for-science-program",
-          "signal": "Kimi for Science: More scientific ideas, made possible"
+          "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+          "signal": "Woman evicted after landlord's AI assistant told her she could delay rent"
         }
       ],
       "content_ideas": []
@@ -323,7 +321,7 @@
       "local_relevance": 0,
       "pillar": "discovery",
       "best_format": "short",
-      "video_worthy": 6,
+      "video_worthy": 7,
       "monetization": {
         "affiliate_likely": false,
         "note": ""
@@ -338,41 +336,28 @@
       "content_ideas": []
     },
     {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
+      "name": "Ask HN: How do you find meaning of life at 41?",
+      "category": "use_case",
+      "momentum": "rising",
       "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
+        "hackernews"
       ],
       "what_it_is": "",
       "audience_angle": "",
       "linkedin_angle": "",
       "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
+      "pillar": "explainer",
+      "best_format": "short",
       "video_worthy": 5,
       "monetization": {
-        "affiliate_likely": true,
+        "affiliate_likely": false,
         "note": ""
       },
       "sources": [
         {
           "platform": "hackernews",
-          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-          "signal": "AI agents now control part of DeepMind's compute for Gemini experiments"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WeSmvBq-UME",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://news.ycombinator.com/item?id=50657957",
+          "signal": "Ask HN: How do you find meaning of life at 41?"
         }
       ],
       "content_ideas": []
@@ -384,8 +369,6 @@
       "category": "tool_launch",
       "momentum": "hot",
       "platforms": [
-        "facebook_inferred",
-        "instagram_inferred",
         "youtube"
       ],
       "what_it_is": "",
@@ -393,7 +376,7 @@
       "linkedin_angle": "",
       "local_relevance": 0,
       "pillar": "discovery",
-      "best_format": "reel",
+      "best_format": "short",
       "video_worthy": 10,
       "monetization": {
         "affiliate_likely": true,
@@ -427,48 +410,8 @@
         },
         {
           "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=-ZFyby8Bc8Y",
-          "signal": "ChatGPT Has Become the Teacher’s Teacher! 😂🤖 The Student Has Outsmarted Everyone! #Shorts"
-        }
-      ],
-      "content_ideas": []
-    },
-    {
-      "name": "Gemini",
-      "category": "tool_launch",
-      "momentum": "hot",
-      "platforms": [
-        "facebook_inferred",
-        "hackernews",
-        "instagram_inferred",
-        "youtube"
-      ],
-      "what_it_is": "",
-      "audience_angle": "",
-      "linkedin_angle": "",
-      "local_relevance": 0,
-      "pillar": "discovery",
-      "best_format": "reel",
-      "video_worthy": 5,
-      "monetization": {
-        "affiliate_likely": true,
-        "note": ""
-      },
-      "sources": [
-        {
-          "platform": "hackernews",
-          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-          "signal": "AI agents now control part of DeepMind's compute for Gemini experiments"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=WeSmvBq-UME",
-          "signal": "first time use ai | chatgpt | travel | r15 #shorts #viral  #r15 #chatgpt #ai #gemini #bike"
-        },
-        {
-          "platform": "youtube",
-          "url": "https://www.youtube.com/results?search_query=chatgpt%20vs%20gemini",
-          "signal": "chatgpt vs gemini"
+          "url": "https://www.youtube.com/watch?v=gQGrs5bezuA",
+          "signal": "Cómo hacer enojar a ChatGPT en 7.36 segundos 😡"
         }
       ],
       "content_ideas": []
